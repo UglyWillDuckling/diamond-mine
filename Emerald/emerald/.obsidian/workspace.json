@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "896fb77528c50fee",
+    "type": "split",
+    "children": [
+      {
+        "id": "544f9387df882337",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7effd4bf281ba564",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-18.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "abf2911f56f916d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "396d97731e40095f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "688b3d615137a273",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3917ba887ee80a77",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2fd0f24bea1de5b8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 209.5
+  },
+  "right": {
+    "id": "0bce692d28de0848",
+    "type": "split",
+    "children": [
+      {
+        "id": "65b8ffe11667d608",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6f930a36f742e62",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2024-07-18.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f1b8c0e828ff35ab",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2024-07-18.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bae038ccea34ead9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cdcbb4753a799e94",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2024-07-18.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7effd4bf281ba564",
+  "lastOpenFiles": [
+    "2024-07-18.md",
+    "2024-07-17.md",
+    "work",
+    "tasks/use obsidian.md",
+    "tasks/setup obsidian.md",
+    "Welcome.md",
+    "create a link.md",
+    "tody.md",
+    "tasks"
+  ]
+}

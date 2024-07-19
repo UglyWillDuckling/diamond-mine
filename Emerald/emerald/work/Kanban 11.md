@@ -19,25 +19,30 @@ tags:
 
 - [ ] fffff
 - [ ] hello
+- [ ] rick rolled
+- [ ] ammmmm....
 - [ ] tutankamon
 
 
 ## aaaa
 
-- [ ] ba
 - [ ] world
 - [ ] anaxoonamoon
-- [ ] boiler plate
-- [ ] steamy pasta
-- [ ] rick rolled
+
+
+## bababa
+
+- [ ] ba
+- [ ] tata
 - [ ] winding road
-- [ ] ammmmm....
+- [ ] steamy pasta
+- [ ] boiler plate
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false],"show-checkboxes":false}
+{"kanban-plugin":"board","list-collapse":[false,false,false],"show-checkboxes":false}
 ```
 %%

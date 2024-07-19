@@ -1,5 +1,6 @@
 {
   "showIndentGuide": true,
   "spellcheck": false,
-  "vimMode": true
+  "vimMode": true,
+  "newFileLocation": "current"
 }

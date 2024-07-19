@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eeef1ef232866a33",
+        "id": "f5bcfeca6194c882",
         "type": "tabs",
         "children": [
           {
-            "id": "3809f58bb5dca2c5",
+            "id": "06d53708646cf20d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tasks/use obsidian.md",
+                "file": "work/Wysiwyg options to replace jwysiwyg.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5,
-    "collapsed": true
+    "width": 256.51103591918945
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tasks/use obsidian.md",
+                "file": "work/Wysiwyg options to replace jwysiwyg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tasks/use obsidian.md",
+                "file": "work/Wysiwyg options to replace jwysiwyg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tasks/use obsidian.md"
+                "file": "work/Wysiwyg options to replace jwysiwyg.md"
               }
             }
           },
@@ -140,7 +139,19 @@
             }
           },
           {
-            "id": "6f27262e0661732d",
+            "id": "6e7da95c4d31c942",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-07-19.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29ea42dd9d014797",
             "type": "leaf",
             "state": {
               "type": "code-execute-manage-executors",
@@ -148,11 +159,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 409.5
+    "width": 409.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,22 +179,36 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "3809f58bb5dca2c5",
+  "active": "06d53708646cf20d",
   "lastOpenFiles": [
-    "work/Recording 20240718184927.webm",
-    "work/2024-07-17.md",
-    "work/create a link.md",
-    "work/1 on 1  - @today.md",
-    "tasks/use obsidian.md",
+    "2024-07-19.md",
+    "work/Wysiwyg options to replace jwysiwyg.md",
+    "Untitled Kanban.md",
+    "work/columns.md",
+    "Untitled",
+    "experiment",
     "work/2024-07-18.md",
-    "work/Kanban 11.md",
-    "work/Untitled Kanban 1.md",
-    "work/Untitled Kanban 2.md",
-    "work/Untitled.canvas",
+    "work/2024-07-17.md",
+    "work/Recording 20240718184927.webm",
     "work/Recording 20240718184857.webm",
-    "work/CANVAS MAN.canvas",
-    "work/Welcome.md",
+    "2024-07-18.md",
+    "Untitled.canvas",
+    "web/html.md",
+    "web/Web Browser.md",
+    "web/How the web works.md",
+    "web/DNS resolution.md",
+    "tasks/use obsidian.md",
     "tasks/setup obsidian.md",
+    "connecting to port 80.md",
+    "work/Welcome.md",
+    "work/create a link.md",
+    "web",
+    "work/Kanban 11.md",
+    "work/Untitled Kanban 2.md",
+    "work/1 on 1  - @today.md",
+    "work/Untitled Kanban 1.md",
+    "work/Untitled.canvas",
+    "work/CANVAS MAN.canvas",
     "calls",
     "work",
     "tody.md",

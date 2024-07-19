@@ -5,7 +5,7 @@ fdsfsd
 
 No, I can finally use Vim mode in my **Notes** when editting 
 
-Let's dod this then...
+**Let's do this then...**
 
 
 

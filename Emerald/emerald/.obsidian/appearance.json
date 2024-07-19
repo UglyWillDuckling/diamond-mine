@@ -1,5 +1,7 @@
 {
-  "cssTheme": "Typewriter",
+  "cssTheme": "PLN",
   "textFontFamily": "Cantarell",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "interfaceFontFamily": "Chandas",
+  "baseFontSize": 13
 }

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f5bcfeca6194c882",
+        "id": "35b66fa0bfd75715",
         "type": "tabs",
         "children": [
           {
-            "id": "06d53708646cf20d",
+            "id": "7f2efa735296e093",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/Wysiwyg options to replace jwysiwyg.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.51103591918945
+    "width": 200
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/Wysiwyg options to replace jwysiwyg.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/Wysiwyg options to replace jwysiwyg.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/Wysiwyg options to replace jwysiwyg.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -179,10 +179,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "06d53708646cf20d",
+  "active": "7f2efa735296e093",
   "lastOpenFiles": [
-    "2024-07-19.md",
+    "Untitled.md",
+    "web/How the web works.md",
+    "web/Web Browser.md",
     "work/Wysiwyg options to replace jwysiwyg.md",
+    "2024-07-19.md",
     "Untitled Kanban.md",
     "work/columns.md",
     "Untitled",
@@ -194,8 +197,6 @@
     "2024-07-18.md",
     "Untitled.canvas",
     "web/html.md",
-    "web/Web Browser.md",
-    "web/How the web works.md",
     "web/DNS resolution.md",
     "tasks/use obsidian.md",
     "tasks/setup obsidian.md",

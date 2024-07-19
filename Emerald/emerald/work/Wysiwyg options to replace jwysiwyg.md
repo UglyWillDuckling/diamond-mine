@@ -6,12 +6,13 @@
 ### possible options found 🔍
 
 * summerNote ❓
-* Trumbowyg ✅
+	* `might requuire Bootstrap to work`
+* **Trumbowyg** ✅
 
 #### Trumbowyg
 [github](https://alex-d.github.io/Trumbowyg)
 
-* **simple** and leightweight
+* **simple** and *leightweight*
 * fast
 * **jquery** plugin
 * completely **free**
@@ -47,3 +48,4 @@
 </html>
 ```
 
+#### what else

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tasks - tickets/Wysiwyg replacement.md",
+                "file": "2024-07-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/tasks - tickets/Wysiwyg replacement.md",
+                "file": "2024-07-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/tasks - tickets/Wysiwyg replacement.md",
+                "file": "2024-07-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tasks - tickets/Wysiwyg replacement.md"
+                "file": "2024-07-22.md"
               }
             }
           },
@@ -173,15 +173,13 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-kanban:Create new board": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "688b3d615137a273",
+  "active": "40c2f89d7d87740c",
   "lastOpenFiles": [
-    "work/tasks - tickets/generated backyard css.md",
     "work/tasks - tickets/Wysiwyg replacement.md",
+    "work/tasks - tickets/generated backyard css.md",
     "work/calls/Sprint Review  - 22.07.md",
     "2024-07-22.md",
     "work/Kanban 11.md",

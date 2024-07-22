@@ -96,7 +96,6 @@ end.
 ```
 
 #### **smalltalk**
-
 ```smalltalk
 "The program above ask the user to enter a line of text from the keyboard. It then
 computes the frequency of occurrence of each alphabetic character in the input text. All characters are treated as lower-case."
@@ -120,7 +119,7 @@ s := FillInTheBlank request: 'Enter line'.
 	].
 ^f.
 ```
-
+![[ascii char count draw]]
 The example emphasizes the similarities of Pascal and Smalltalk syntax. The algorithm
 used is identical in both cases. The input characters are examined one at a time and if they
 are characters, the frequency counter for that letter is incremented.
@@ -138,3 +137,4 @@ f size.
 f occurrencesOf: $w.
 f occurrencesOf: $h.
 f occurrencesOf: $l.
+```

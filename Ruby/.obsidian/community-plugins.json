@@ -1,5 +1,13 @@
 [
   "dataview",
   "obsidian-excalidraw-plugin",
-  "emoji-shortcodes"
+  "emoji-shortcodes",
+  "table-editor-obsidian",
+  "obsidian-git",
+  "obsidian-kanban",
+  "obsidian-icon-folder",
+  "obsidian-day-planner",
+  "mermaid-tools",
+  "nldates-obsidian",
+  "highlightr-plugin"
 ]

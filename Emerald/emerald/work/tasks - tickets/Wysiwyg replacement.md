@@ -5,10 +5,12 @@
 
 ### possible options found 🔍
 
-* summerNote ❓
-	* `might requuire Bootstrap to work`
+* ~~summerNote~~ 
+	* requires `Bootstrap` to work
 * **Trumbowyg** ✅
+* ...
 
+---
 #### Trumbowyg
 [github](https://alex-d.github.io/Trumbowyg)
 
@@ -18,9 +20,9 @@
 * completely **free**
 * multilingual
 * **support** for `textarea` input types
-* still in active development
+* in active development
 
-#### implementation
+#### code implementation {}
 ****
 ```html
 <!DOCTYPE html>
@@ -48,4 +50,51 @@
 </html>
 ```
 
-#### what else
+#### gathering requirements
+
+**sql query** to get all the templates needed 
+
+```sql
+SELECT *, LENGTH (body) bodysize FROM 
+		config.email_template ORDER BY bodysize DESC;
+```
+
+
+### live test
+
+
+#### hosting the library
+
+**files list** 🗃
+* static/js/resources/backyard.js 
+
+**steps**
+1. host js
+2. host css
+3. load both on FE
+
+---
+#### currently trying to host the Trumbowyg
+[[generated backyard css]]
+
+> [!tip] CSS is working
+
+> [!tip] JS is working
+
+
+after we will load up an example editor and see how it compares
+...and then we will use actual data for a side by side comparison. Hopefully we can do this on the same page
+
+**test URL**
+http://localhost:8001/tools/campaign/simple_emails/edit?key=reseau-courrier-prospection
+
+### testing on the real page
+
+* [x] need to test the **saving** feature
+* [x] test other content loading and saving
+
+`www-realtor-email-contact`
+
+**All done**
+
+Trumbowyg wins the race 🐎

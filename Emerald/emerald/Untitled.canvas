@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"16d96dde8adbd28f","type":"text","text":"lll ll graph this thing\n","x":-200,"y":-80,"width":250,"height":60,"color":"4"},
-		{"id":"717aa17dd9136b1c","type":"text","text":" I waaav this!","x":-200,"y":-260,"width":250,"height":60,"color":"1"}
+		{"id":"717aa17dd9136b1c","type":"text","text":" I waaav this!","x":-200,"y":-260,"width":250,"height":60,"color":"1"},
+		{"id":"16d96dde8adbd28f","type":"text","text":"lll ll graph this thing\n","x":-200,"y":-140,"width":250,"height":60,"color":"4"}
 	],
 	"edges":[
 		{"id":"8421fd32e96e2e84","fromNode":"717aa17dd9136b1c","fromSide":"bottom","toNode":"16d96dde8adbd28f","toSide":"top"}

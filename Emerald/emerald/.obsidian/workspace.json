@@ -4,23 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "35b66fa0bfd75715",
+        "id": "0fcdd78c07d0d519",
         "type": "tabs",
         "children": [
           {
-            "id": "7f2efa735296e093",
+            "id": "f8a0eb1701cc5ad0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "tasks/setup obsidian.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 247.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "tasks/setup obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "tasks/setup obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "tasks/setup obsidian.md"
               }
             }
           },
@@ -179,34 +178,35 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "7f2efa735296e093",
+  "active": "f8a0eb1701cc5ad0",
   "lastOpenFiles": [
+    "tasks/use obsidian.md",
+    "tasks/setup obsidian.md",
+    "2024-07-22.md",
+    "2024-07-19.md",
+    "2024-07-18.md",
+    "work/2024-07-18.md",
+    "experiment/columns.md",
+    "work/1 on 1.md",
+    "Untitled.canvas",
     "Untitled.md",
     "web/How the web works.md",
     "web/Web Browser.md",
     "work/Wysiwyg options to replace jwysiwyg.md",
-    "2024-07-19.md",
     "Untitled Kanban.md",
-    "work/columns.md",
     "Untitled",
     "experiment",
-    "work/2024-07-18.md",
     "work/2024-07-17.md",
     "work/Recording 20240718184927.webm",
     "work/Recording 20240718184857.webm",
-    "2024-07-18.md",
-    "Untitled.canvas",
     "web/html.md",
     "web/DNS resolution.md",
-    "tasks/use obsidian.md",
-    "tasks/setup obsidian.md",
     "connecting to port 80.md",
     "work/Welcome.md",
     "work/create a link.md",
     "web",
     "work/Kanban 11.md",
     "work/Untitled Kanban 2.md",
-    "work/1 on 1  - @today.md",
     "work/Untitled Kanban 1.md",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas",

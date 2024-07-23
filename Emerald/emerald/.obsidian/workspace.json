@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a0c51338093b7217",
+        "id": "396eb057035815f0",
         "type": "tabs",
         "children": [
           {
-            "id": "40c2f89d7d87740c",
+            "id": "b04b39ae68c67dfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-22.md",
+                "file": "tasks/Education/Typescript/Typesript Education.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 267.51103591918945
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07-22.md",
+                "file": "tasks/Education/Typescript/Typesript Education.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07-22.md",
+                "file": "tasks/Education/Typescript/Typesript Education.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07-22.md"
+                "file": "tasks/Education/Typescript/Typesript Education.md"
               }
             }
           },
@@ -143,7 +143,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-19.md",
+                "file": "days/2024-07-19.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,6 +167,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -176,45 +178,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40c2f89d7d87740c",
+  "active": "b04b39ae68c67dfc",
   "lastOpenFiles": [
+    "tasks/Education/Typescript/resources.md",
+    "web/How the web works.md",
+    "tasks/Education/Typescript/Typesript Education.md",
+    "tasks/Education/Typescript/Typescript docs/typescript documentation.md",
+    "2024-07-23.md",
+    "days/2024-07-23.md",
+    "tasks/Education/Typescript/Typescript docs",
+    "tasks/Education/Typescript/execute program/Everyday Typescript/Optional Chaining.md",
+    "tasks/Education/Typescript/execute program/Everyday Typescript/quiz.md",
+    "tasks/Education/Typescript/execute program/execute program courses.md",
+    "tasks/Education/Typescript/execute program/EveryDay Typescript.md",
+    "tasks/Education/Typescript/execute program/Everyday Typescript",
+    "tasks/Education/Typescript/execute program",
+    "tasks/Education/Typescript",
+    "tasks/Education",
+    "work/Kanban 11.md",
+    "Welcome.md",
+    "days/2024-07-18 1.md",
+    "days/2024-07-17.md",
+    "days",
+    "days/2024-07-22.md",
     "work/tasks - tickets/Wysiwyg replacement.md",
     "work/tasks - tickets/generated backyard css.md",
     "work/calls/Sprint Review  - 22.07.md",
-    "2024-07-22.md",
-    "work/Kanban 11.md",
     "work/Untitled.canvas",
     "work/Untitled Kanban 2.md",
     "work/Untitled Kanban 1.md",
     "work/Recording 20240718184927.webm",
-    "work/2024-07-18.md",
     "work/Recording 20240718184857.webm",
     "work/tasks - tickets",
-    "2024-07-19.md",
-    "2024-07-18.md",
+    "days/2024-07-19.md",
+    "days/2024-07-18.md",
     "work/calls/1 on 1.md",
     "work/calls",
     "experiment/columns.md",
     "tasks/setup obsidian.md",
     "tasks/use obsidian.md",
     "Untitled.canvas",
-    "Untitled Kanban.md",
-    "web/connecting to port 80.md",
-    "work/CANVAS MAN.canvas",
-    "Untitled.md",
-    "web/How the web works.md",
-    "web/Web Browser.md",
-    "Untitled",
-    "experiment",
-    "work/2024-07-17.md",
-    "web/html.md",
-    "web/DNS resolution.md",
-    "work/Welcome.md",
-    "work/create a link.md",
-    "web",
-    "calls",
-    "work",
-    "tody.md",
-    "tasks"
+    "work/CANVAS MAN.canvas"
   ]
 }

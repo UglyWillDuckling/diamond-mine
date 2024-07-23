@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "✏",
+      "LiArchive",
+      "LiCode2",
+      "📔",
+      "LiType"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false
+  },
+  "tasks/Education": "📚",
+  "tasks/Education/Typescript": "LiType",
+  "tasks/Education/Typescript/Typescript docs": "📔",
+  "tasks/Education/Typescript/execute program": "LiCode2",
+  "tasks/Education/Typescript/resources.md": "LiArchive",
+  "tasks/Education/Typescript/Typesript Education.md": "✏"
+}

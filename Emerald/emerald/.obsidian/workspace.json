@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "396eb057035815f0",
+        "id": "92cdcc0e1e805444",
         "type": "tabs",
         "children": [
           {
-            "id": "b04b39ae68c67dfc",
+            "id": "cefe606e30da2122",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.51103591918945
+    "width": 320.5110321044922
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -178,26 +178,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b04b39ae68c67dfc",
+  "active": "cefe606e30da2122",
   "lastOpenFiles": [
-    "tasks/Education/Typescript/Typesript Education.md",
-    "2024-07-24.md",
-    "tasks/Education/Typescript/resources.md",
-    "web/How the web works.md",
-    "tasks/Education/Typescript/Typescript docs/typescript documentation.md",
-    "2024-07-23.md",
-    "days/2024-07-23.md",
-    "tasks/Education/Typescript/Typescript docs",
-    "tasks/Education/Typescript/execute program/Everyday Typescript/Optional Chaining.md",
-    "tasks/Education/Typescript/execute program/Everyday Typescript/quiz.md",
-    "tasks/Education/Typescript/execute program/execute program courses.md",
-    "tasks/Education/Typescript/execute program/EveryDay Typescript.md",
-    "tasks/Education/Typescript/execute program/Everyday Typescript",
-    "tasks/Education/Typescript/execute program",
-    "tasks/Education/Typescript",
-    "tasks/Education",
-    "work/Kanban 11.md",
+    "tools/javascript.md",
+    "tools/typescript.md",
+    "Education/Typescript/Typesript Education.md",
     "Welcome.md",
+    "tools",
+    "concepts",
+    "experiments/vim - vimrc.md",
+    "Education/Typescript/resources/Learning TypeScript.md",
+    "2024-07-24.md",
+    "Education/Typescript/Typescript docs/typescript documentation.md",
+    "Education/Typescript/resources/execute program/Everyday Typescript/quiz.md",
+    "Education/Typescript/Typescript docs/EveryDay Typescript.md",
+    "Education/Typescript/resources/resources.md",
+    "Untitled.canvas",
+    "Education/Typescript/resources",
+    "concepts/web/How the web works.md",
+    "days/2024-07-23 1.md",
+    "days/2024-07-23.md",
+    "Education/Typescript/Typescript docs",
+    "Education/Typescript/resources/execute program/Everyday Typescript/Optional Chaining.md",
+    "Education/Typescript/resources/execute program/execute program courses.md",
+    "tasks/Education/Typescript/execute program/EveryDay Typescript.md",
+    "Education/Typescript/resources/execute program/Everyday Typescript",
+    "Education/Typescript/resources/execute program",
+    "Education/Typescript",
+    "Education",
+    "work/Kanban 11.md",
     "days/2024-07-18 1.md",
     "days/2024-07-17.md",
     "days",
@@ -209,15 +218,6 @@
     "work/Untitled Kanban 2.md",
     "work/Untitled Kanban 1.md",
     "work/Recording 20240718184927.webm",
-    "work/Recording 20240718184857.webm",
-    "work/tasks - tickets",
-    "days/2024-07-19.md",
-    "days/2024-07-18.md",
-    "work/calls/1 on 1.md",
-    "work/calls",
-    "experiment/columns.md",
-    "tasks/setup obsidian.md",
-    "Untitled.canvas",
     "work/CANVAS MAN.canvas"
   ]
 }

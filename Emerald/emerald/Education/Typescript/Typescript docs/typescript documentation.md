@@ -1,4 +1,3 @@
-
 #superset
 #type
 #duck-typing
@@ -10,7 +9,10 @@
 
 ### how it works
 
-* uses duck typing 🦆(structured typing)
+* uses [[duck typing]] 🦆 very fine grained which allows defining types for almost any occasion
+	* very useful if all you need are local types that need to be used in one part of an application or library
+	* extremely useful for small apps
+	* can allow for iterative and evolving design that is more flexible and can more easily adapt to changing requirements (**structured typing**)
 	* it doesn't care so much for declarations as it does for actual features available on an object
 * very fine grained which allows defining types for almost any occasion
 	* very useful if all you need are local types that need to be used in one part of an application or library
@@ -20,11 +22,10 @@
 ### tooling 🧰
 
 * ability to set strictness levels
-	* tsconfig or CLI
+	* **tsconfig** or CLI arguments
 
 ### possible pitfalls 🍂
 
 * the code examples seem very low level with lots of type and null checking
 * there doesn't see to be allot of [[encapsulation]] (information hiding), instead, most of the properties are exposed
   this can be good for smaller problems but large applications might present problems
-	

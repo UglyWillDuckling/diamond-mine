@@ -1,7 +1,8 @@
 {
-  "cssTheme": "PLN",
+  "cssTheme": "Shimmering Focus",
   "textFontFamily": "Cantarell",
   "theme": "moonstone",
-  "interfaceFontFamily": "Chandas",
-  "baseFontSize": 13
+  "interfaceFontFamily": "Baskerville",
+  "baseFontSize": 15,
+  "baseFontSizeAction": true
 }

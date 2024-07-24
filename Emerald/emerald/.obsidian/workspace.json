@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tasks/Education/Typescript/Typesript Education.md",
+                "file": "2024-07-24.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tasks/Education/Typescript/Typesript Education.md",
+                "file": "2024-07-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tasks/Education/Typescript/Typesript Education.md",
+                "file": "2024-07-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tasks/Education/Typescript/Typesript Education.md"
+                "file": "2024-07-24.md"
               }
             }
           },
@@ -180,9 +180,10 @@
   },
   "active": "b04b39ae68c67dfc",
   "lastOpenFiles": [
+    "tasks/Education/Typescript/Typesript Education.md",
+    "2024-07-24.md",
     "tasks/Education/Typescript/resources.md",
     "web/How the web works.md",
-    "tasks/Education/Typescript/Typesript Education.md",
     "tasks/Education/Typescript/Typescript docs/typescript documentation.md",
     "2024-07-23.md",
     "days/2024-07-23.md",
@@ -216,7 +217,6 @@
     "work/calls",
     "experiment/columns.md",
     "tasks/setup obsidian.md",
-    "tasks/use obsidian.md",
     "Untitled.canvas",
     "work/CANVAS MAN.canvas"
   ]

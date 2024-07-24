@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "✏",
-      "LiArchive",
-      "LiCode2",
-      "📔",
-      "LiType"
+      "🙈",
+      "LiCheckSquare2",
+      "LiTestTube2",
+      "LiCalendarDays",
+      "🏫"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -33,10 +33,16 @@
     "lucideIconPackType": "native",
     "debugMode": false
   },
-  "tasks/Education": "📚",
-  "tasks/Education/Typescript": "LiType",
-  "tasks/Education/Typescript/Typescript docs": "📔",
-  "tasks/Education/Typescript/execute program": "LiCode2",
-  "tasks/Education/Typescript/resources.md": "LiArchive",
-  "tasks/Education/Typescript/Typesript Education.md": "✏"
+  "days": "LiCalendarDays",
+  "experiments": "LiTestTube2",
+  "tasks": "LiCheckSquare2",
+  "Education": "📚",
+  "Education/Typescript": "LiType",
+  "Education/Typescript/Typescript docs": "📔",
+  "Education/Typescript/Typesript Education.md": "🏫",
+  "Education/Typescript/resources": "LiArchive",
+  "Education/Typescript/resources/Learning TypeScript.md": "🦜",
+  "Education/Typescript/resources/execute program": "LiCode2",
+  "Education/Typescript/resources/resources.md": "LiArchive",
+  "experiments/vim - vimrc.md": "🙈"
 }

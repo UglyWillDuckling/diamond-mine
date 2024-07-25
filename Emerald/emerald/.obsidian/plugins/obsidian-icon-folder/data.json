@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSword",
+      "LiPhoneCall",
+      "LiTicket",
       "🙈",
-      "LiCheckSquare2",
-      "LiTestTube2",
-      "LiCalendarDays",
-      "🏫"
+      "LiCheckSquare2"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,5 +44,8 @@
   "Education/Typescript/resources/Learning TypeScript.md": "🦜",
   "Education/Typescript/resources/execute program": "LiCode2",
   "Education/Typescript/resources/resources.md": "LiArchive",
-  "experiments/vim - vimrc.md": "🙈"
+  "experiments/vim - vimrc.md": "🙈",
+  "work/tasks - tickets": "LiTicket",
+  "work/calls": "LiPhoneCall",
+  "work/tasks - tickets/add found drawing.md": "LiSword"
 }

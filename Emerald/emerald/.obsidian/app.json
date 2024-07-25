@@ -3,5 +3,7 @@
   "spellcheck": false,
   "vimMode": true,
   "newFileLocation": "current",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": true,
+  "showRibbon": false
 }

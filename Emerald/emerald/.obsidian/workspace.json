@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "92cdcc0e1e805444",
+        "id": "c1b50471b37d29ce",
         "type": "tabs",
         "children": [
           {
-            "id": "cefe606e30da2122",
+            "id": "123b2831183a9e0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-07-24.md",
+                "file": "concepts/object orientation.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,6 +43,14 @@
             }
           },
           {
+            "id": "2fd0f24bea1de5b8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
             "id": "3917ba887ee80a77",
             "type": "leaf",
             "state": {
@@ -56,20 +64,12 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "2fd0f24bea1de5b8",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 320.5110321044922
+    "width": 267.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-07-24.md",
+                "file": "concepts/object orientation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-07-24.md",
+                "file": "concepts/object orientation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-07-24.md"
+                "file": "concepts/object orientation.md"
               }
             }
           },
@@ -157,8 +157,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,49 +174,51 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "cefe606e30da2122",
+  "active": "688b3d615137a273",
   "lastOpenFiles": [
+    "Education/Typescript/Typesript Education.md",
+    "concepts/object orientation.md",
+    "work/calls/1 on 1.md",
+    "work/calls/Sprint Review  - 22.07.md",
+    "work/tasks - tickets/Wysiwyg replacement.md",
+    "work/tasks - tickets/spike - qsl project.md",
+    "work/tasks - tickets/add found drawing.md",
+    "work/tasks - tickets/qsl.canvas",
+    "Excalidraw",
+    "work/tasks - tickets/Untitled.md",
+    "2024-07-25.md",
+    "work/Kanban 11.md",
+    "Welcome.md",
+    "days/2024-07-22.md",
+    "work/tasks - tickets/resources/generated backyard css.md",
+    "work/tasks - tickets/resources",
+    "work/ticktes",
+    "days/2024-07-24.md",
+    "tools/trumbowyg.md",
+    "Education/Typescript/resources/Learning TypeScript.md",
     "tools/javascript.md",
     "tools/typescript.md",
-    "Education/Typescript/Typesript Education.md",
-    "Welcome.md",
     "tools",
     "concepts",
     "experiments/vim - vimrc.md",
-    "Education/Typescript/resources/Learning TypeScript.md",
-    "2024-07-24.md",
     "Education/Typescript/Typescript docs/typescript documentation.md",
     "Education/Typescript/resources/execute program/Everyday Typescript/quiz.md",
     "Education/Typescript/Typescript docs/EveryDay Typescript.md",
     "Education/Typescript/resources/resources.md",
-    "Untitled.canvas",
     "Education/Typescript/resources",
     "concepts/web/How the web works.md",
     "days/2024-07-23 1.md",
     "days/2024-07-23.md",
     "Education/Typescript/Typescript docs",
-    "Education/Typescript/resources/execute program/Everyday Typescript/Optional Chaining.md",
-    "Education/Typescript/resources/execute program/execute program courses.md",
-    "tasks/Education/Typescript/execute program/EveryDay Typescript.md",
     "Education/Typescript/resources/execute program/Everyday Typescript",
     "Education/Typescript/resources/execute program",
     "Education/Typescript",
-    "Education",
-    "work/Kanban 11.md",
-    "days/2024-07-18 1.md",
-    "days/2024-07-17.md",
-    "days",
-    "days/2024-07-22.md",
-    "work/tasks - tickets/Wysiwyg replacement.md",
-    "work/tasks - tickets/generated backyard css.md",
-    "work/calls/Sprint Review  - 22.07.md",
     "work/Untitled.canvas",
-    "work/Untitled Kanban 2.md",
-    "work/Untitled Kanban 1.md",
-    "work/Recording 20240718184927.webm",
     "work/CANVAS MAN.canvas"
   ]
 }

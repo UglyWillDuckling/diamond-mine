@@ -1,4 +1,3 @@
-
 [github list](https://github.com/JefMari/awesome-wysiwyg-editors)
 
 ---
@@ -62,7 +61,6 @@ SELECT *, LENGTH (body) bodysize FROM
 
 ### live test
 
-
 #### hosting the library
 
 **files list** 🗃
@@ -75,12 +73,6 @@ SELECT *, LENGTH (body) bodysize FROM
 
 ---
 #### currently trying to host the Trumbowyg
-[[generated backyard css]]
-
-> [!tip] CSS is working
-
-> [!tip] JS is working
-
 
 after we will load up an example editor and see how it compares
 ...and then we will use actual data for a side by side comparison. Hopefully we can do this on the same page

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "123b2831183a9e0c",
+            "id": "50addabc53b0d0d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/object orientation.md",
+                "file": "Education/Typescript/Execute program/execute program courses.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5
+    "width": 299.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concepts/object orientation.md",
+                "file": "Education/Typescript/Execute program/execute program courses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concepts/object orientation.md",
+                "file": "Education/Typescript/Execute program/execute program courses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concepts/object orientation.md"
+                "file": "Education/Typescript/Execute program/execute program courses.md"
               }
             }
           },
@@ -166,8 +166,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-kanban:Create new board": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -175,13 +173,28 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "688b3d615137a273",
+  "active": "50addabc53b0d0d6",
   "lastOpenFiles": [
+    "Education/Typescript/Execute program/Everyday Typescript/Optional Chaining.md",
+    "Education/Typescript/Execute program/Everyday Typescript/EveryDay Typescript.md",
+    "Education/Typescript/Execute program/execute program courses.md",
+    "Education/Typescript/Learning TypeScript.md",
+    "Education/Typescript/resources/resources.md",
     "Education/Typescript/Typesript Education.md",
+    "days/2024-07-25.md",
+    "Education/Typescript/Execute program/Everyday Typescript/quiz.md",
+    "Education/Typescript/Typescript docs/typescript documentation.md",
+    "tools/smalltalk.md",
+    "experiments/vim - vimrc.md",
+    "experiments/columns.md",
+    "Education/Typescript/resources/execute program/EveryDay Typescript.md",
+    "Education/Typescript/Typescript docs/EveryDay Typescript.md",
     "concepts/object orientation.md",
     "work/calls/1 on 1.md",
     "work/calls/Sprint Review  - 22.07.md",
@@ -191,7 +204,6 @@
     "work/tasks - tickets/qsl.canvas",
     "Excalidraw",
     "work/tasks - tickets/Untitled.md",
-    "2024-07-25.md",
     "work/Kanban 11.md",
     "Welcome.md",
     "days/2024-07-22.md",
@@ -199,24 +211,12 @@
     "work/tasks - tickets/resources",
     "work/ticktes",
     "days/2024-07-24.md",
-    "tools/trumbowyg.md",
-    "Education/Typescript/resources/Learning TypeScript.md",
-    "tools/javascript.md",
-    "tools/typescript.md",
     "tools",
     "concepts",
-    "experiments/vim - vimrc.md",
-    "Education/Typescript/Typescript docs/typescript documentation.md",
-    "Education/Typescript/resources/execute program/Everyday Typescript/quiz.md",
-    "Education/Typescript/Typescript docs/EveryDay Typescript.md",
-    "Education/Typescript/resources/resources.md",
     "Education/Typescript/resources",
-    "concepts/web/How the web works.md",
-    "days/2024-07-23 1.md",
-    "days/2024-07-23.md",
     "Education/Typescript/Typescript docs",
-    "Education/Typescript/resources/execute program/Everyday Typescript",
-    "Education/Typescript/resources/execute program",
+    "Education/Typescript/Execute program/Everyday Typescript",
+    "Education/Typescript/Execute program",
     "Education/Typescript",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas"

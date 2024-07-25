@@ -11,11 +11,9 @@
             "id": "f1831b92545d5d78",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "concepts/information hiding - encapsulation.md",
-                "mode": "source",
-                "source": false
+                "file": "OOP/Drawing - Sequence diagrams.md"
               }
             }
           }
@@ -69,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 335.5
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concepts/information hiding - encapsulation.md",
+                "file": "OOP/Drawing - Sequence diagrams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concepts/information hiding - encapsulation.md",
+                "file": "OOP/Drawing - Sequence diagrams.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concepts/information hiding - encapsulation.md"
+                "file": "OOP/Drawing - Sequence diagrams.md"
               }
             }
           },
@@ -170,6 +168,7 @@
   },
   "active": "f1831b92545d5d78",
   "lastOpenFiles": [
+    "concepts/information hiding - encapsulation.md",
     "daily tasks/2024-07-23.md",
     "daily tasks/2024-07-22.md",
     "concepts/message passing.md",
@@ -186,7 +185,6 @@
     "Excalidraw/Drawing 2024-07-22 21.21.09.excalidraw.md",
     "daily tasks",
     "concepts/abstraction.md",
-    "concepts/information hiding - encapsulation.md",
     "concepts",
     "information hiding /encapsulation.md",
     "OOP/smalltalk/Smalltalk - basic statements!.md",

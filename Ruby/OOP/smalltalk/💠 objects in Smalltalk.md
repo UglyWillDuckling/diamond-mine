@@ -24,7 +24,7 @@ assistance in the completion of a task.
 
 **...Smalltalks object's methods do not call other objects' methods directly.**
 
-In OOPS terms, [[information hidingencapsulation]] — as this **<mark style="background: #FF5582A6;">encapsulation</mark>** of code and data is known in computer science—makes for highly portable, easily modifiable and safe software. 
+In OOPS terms, [[information hiding - encapsulation]] — as this **<mark style="background: #FF5582A6;">encapsulation</mark>** of code and data is known in computer science—makes for highly portable, easily modifiable and safe software. 
 
 Large applications may be easily maintained since objects may be updated, recompiled, tested
 and called immediately back into service with their new behavioral capabilities on line.

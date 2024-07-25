@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/message passing.md",
+                "file": "concepts/information hiding - encapsulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 314.5
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concepts/message passing.md",
+                "file": "concepts/information hiding - encapsulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concepts/message passing.md",
+                "file": "concepts/information hiding - encapsulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concepts/message passing.md"
+                "file": "concepts/information hiding - encapsulation.md"
               }
             }
           },
@@ -170,23 +170,23 @@
   },
   "active": "f1831b92545d5d78",
   "lastOpenFiles": [
-    "OOP/object orientation.md",
+    "daily tasks/2024-07-23.md",
+    "daily tasks/2024-07-22.md",
     "concepts/message passing.md",
+    "OOP/object orientation.md",
     "OOP/Drawing - Sequence diagrams.md",
     "OOP/smalltalk/Smalltalk.md",
     "OOP/smalltalk/💠 objects in Smalltalk.md",
     "concepts/polymorphism.md",
-    "daily tasks/2024-07-22.md",
     "Untitled.canvas",
     "OOP/smalltalk/ascii char count draw.md",
-    "daily tasks/2024-07-23.md",
     "2024-07-21.md",
     "OOP/smalltalk/lawyer.png",
     "OOP/smalltalk/Smalltalk connections.canvas",
     "Excalidraw/Drawing 2024-07-22 21.21.09.excalidraw.md",
     "daily tasks",
     "concepts/abstraction.md",
-    "concepts/information hidingencapsulation.md",
+    "concepts/information hiding - encapsulation.md",
     "concepts",
     "information hiding /encapsulation.md",
     "OOP/smalltalk/Smalltalk - basic statements!.md",

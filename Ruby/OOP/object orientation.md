@@ -3,7 +3,7 @@
 ### basic concepts
 [[polymorphism]] become anything you want as long as I can still talk to you 💬
 [[abstraction]] show **only** what is important
-[[information hidingencapsulation]] hide anything and everything that you can
+[[information hiding - encapsulation]] hide anything and everything that you can
 [[message passing]] a system of objects that are able to communicate with each other via messages
 
 ---

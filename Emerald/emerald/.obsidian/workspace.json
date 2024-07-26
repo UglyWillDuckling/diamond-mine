@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "50addabc53b0d0d6",
+            "id": "9b6e69e64e1e2323",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Typescript/Execute program/execute program courses.md",
+                "file": "work/tickets/spike - qsl projector.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 288.5110321044922
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -85,8 +85,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Typescript/Execute program/execute program courses.md",
-                "collapseAll": false,
+                "file": "work/tickets/spike - qsl projector.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Typescript/Execute program/execute program courses.md",
+                "file": "work/tickets/spike - qsl projector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Typescript/Execute program/execute program courses.md"
+                "file": "work/tickets/spike - qsl projector.md"
               }
             }
           },
@@ -156,16 +156,27 @@
               "type": "code-execute-manage-executors",
               "state": {}
             }
+          },
+          {
+            "id": "208fbde1a3bbc195",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 409.5,
+    "width": 487.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -173,51 +184,49 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-kanban:Create new board": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "50addabc53b0d0d6",
+  "active": "9b6e69e64e1e2323",
   "lastOpenFiles": [
+    "tools/smalltalk.md",
+    "days/2024-07-25.md",
+    "Education/Typescript/Learning TypeScript.md",
+    "Education/Typescript/Execute program/Everyday Typescript/quiz.md",
     "Education/Typescript/Execute program/Everyday Typescript/Optional Chaining.md",
     "Education/Typescript/Execute program/Everyday Typescript/EveryDay Typescript.md",
     "Education/Typescript/Execute program/execute program courses.md",
-    "Education/Typescript/Learning TypeScript.md",
-    "Education/Typescript/resources/resources.md",
-    "Education/Typescript/Typesript Education.md",
-    "days/2024-07-25.md",
-    "Education/Typescript/Execute program/Everyday Typescript/quiz.md",
-    "Education/Typescript/Typescript docs/typescript documentation.md",
-    "tools/smalltalk.md",
-    "experiments/vim - vimrc.md",
+    "Education/Typescript/Execute program/Everyday Typescript",
+    "Education/Typescript/Execute program",
+    "2024-07-25.md",
+    "work/entities/place entity.md",
+    "work/tickets/spike - qsl projector.md",
+    "work/entities/contract entity.md",
+    "2024-07-26.md",
+    "days/2024-07-17.md",
+    "experiments/mermaid.md",
     "experiments/columns.md",
-    "Education/Typescript/resources/execute program/EveryDay Typescript.md",
-    "Education/Typescript/Typescript docs/EveryDay Typescript.md",
+    "work/entities/listing.md",
+    "work/entities",
+    "work/tickets/add found drawing.md",
+    "days/2024-07-19.md",
     "concepts/object orientation.md",
+    "Education/Typescript/Typesript Education.md",
     "work/calls/1 on 1.md",
     "work/calls/Sprint Review  - 22.07.md",
-    "work/tasks - tickets/Wysiwyg replacement.md",
-    "work/tasks - tickets/spike - qsl project.md",
-    "work/tasks - tickets/add found drawing.md",
+    "work/tickets/Wysiwyg replacement.md",
     "work/tasks - tickets/qsl.canvas",
     "Excalidraw",
     "work/tasks - tickets/Untitled.md",
     "work/Kanban 11.md",
     "Welcome.md",
-    "days/2024-07-22.md",
-    "work/tasks - tickets/resources/generated backyard css.md",
     "work/tasks - tickets/resources",
     "work/ticktes",
-    "days/2024-07-24.md",
     "tools",
     "concepts",
     "Education/Typescript/resources",
     "Education/Typescript/Typescript docs",
-    "Education/Typescript/Execute program/Everyday Typescript",
-    "Education/Typescript/Execute program",
-    "Education/Typescript",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas"
   ]

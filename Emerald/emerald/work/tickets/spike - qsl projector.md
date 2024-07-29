@@ -3,8 +3,9 @@
 
 - make a **use case** diagram
 
-
 ## Context
+
+We need to find out how the [[listing]] is used on the page in order to be able to add a new type of listing for the [[Se Loger]] website.
 
 ## Requirements
 
@@ -61,32 +62,40 @@ type response = {
 	project_id: number,
 	realtor_id: number,
 	contract_id: number,
-	offline: boolean | 0 | 1,
+	offline: boolean | 0 | 1, // Is the listing still active?
+	title: string,
+	price: number | string | object,
+	start_date: datetime | string,
+	created: date | string, // created at timestamp
+	version: date | string, // this represents the last updated timestamp
+	?ref: string | any, // represents a references back to Se Loger
+	?picture_data: string | object,
+	?description: string,
 	?contact_id: number, // would make it easier for us link the listing to a contact
 	?url_to_seloger: string // would be good to have it here
 }
 ```
 
+## Investigation 🔍
+
 **todo for now** ☑
-- [ ] explore the current implementation
-	- [ ] what is done exactly and where
-	- [ ] what is shown and which data is required
+- [x] explore the current implementation
+	- [x] what is done exactly and where
+	- [x] what is shown and which data is required
 		- examine each of the pages that use the [[listing]] entity
 		- see which data is used 
 		- check if all of this is required for the new **Se Loger** listing
 - [ ] take a look at the **db model**
 	- [ ] see what information is there
 		- determine what is actually used and needed for this use case
-## Investigation 🔍
 
 **entity**
-
 name: [[listing]]
 class: `listing2`
 file: `share/mkt/listing.inc`
 
 used methods:
-- [ ] `get_place` - returns the [[place entity]] `ref`
+- `get_place` - returns the [[place entity]] `ref`(**dynamic**)
 - `get_url` - generates the `URL` for the listing
 	- atm, links only to the [[Meilurs Agent]] website
 - `get_title` - simply return the title
@@ -94,3 +103,30 @@ used methods:
 - `get_main_picture_url` - generates the image `URL`
 - `price` - a field, the current listing **price
 - `contract` - a field, contains a `ref` to the associated [[contract entity]]
+- `contract_type` - a field, contains a value linked to a constant
+- `start_date` - a field,  contains listings start date
+- `end_date` - a field, contains the listings end date (used to check if the listing is still active)
+- `created`- a date field containing the creation date
+- `version`- a date field containing the date of the last modification
+- `ref_from_ma` - a field, containing a `ref` back to the [[Meilurs Agent]] site
+- `transaction_type` - a field, determines the type of the transaction  - matches one of the db enums
+
+#### where is the [[listing]] entity used?
+
+**[[backyard]] pages**
+* ~~backyard/templates/contacts/projects/contracts/listing.html~~
+- ~~- backyard/templates/admin/passerelle/realtor/listing.html~~
+* ~~backyard/templates/admin/passerelle/realtor/index.html~~
+* ~~backyard/templates/realtors/contact_notification_realtor_listings.html~~
+### current
+
+checking passerelle pages under `admin/passerelle`...
+
+[realtor link ](http://localhost:8001/admin/passerelle/realtor/2167)
+
+**notes 📔**
+ - the listing pages under `admin/passerelle/realtor/2169/listing/{listing_id}` don't work
+
+ share/controller/backyard.passerelle.inc
+
+**transaction_type** field

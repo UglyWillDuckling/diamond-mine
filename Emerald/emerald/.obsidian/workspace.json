@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5110321044922
+    "width": 247.5,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -166,11 +167,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 487.5,
+    "width": 613.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -190,6 +191,21 @@
   },
   "active": "9b6e69e64e1e2323",
   "lastOpenFiles": [
+    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle/realtor/listing.html.md",
+    "work/tickets/spike - qsl projector.md",
+    "work/entities/contract entity.md",
+    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle/realtor",
+    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle",
+    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin",
+    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates",
+    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard",
+    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy",
+    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy.md",
+    "home/vsedlar/dev/projects/MeilleursAgents",
+    "home/vsedlar/dev/projects",
+    "home/vsedlar/dev",
+    "home/vsedlar",
+    "work/tickets/Meilurs Agent.md",
     "tools/smalltalk.md",
     "days/2024-07-25.md",
     "Education/Typescript/Learning TypeScript.md",
@@ -197,18 +213,13 @@
     "Education/Typescript/Execute program/Everyday Typescript/Optional Chaining.md",
     "Education/Typescript/Execute program/Everyday Typescript/EveryDay Typescript.md",
     "Education/Typescript/Execute program/execute program courses.md",
-    "Education/Typescript/Execute program/Everyday Typescript",
-    "Education/Typescript/Execute program",
     "2024-07-25.md",
     "work/entities/place entity.md",
-    "work/tickets/spike - qsl projector.md",
-    "work/entities/contract entity.md",
     "2024-07-26.md",
     "days/2024-07-17.md",
     "experiments/mermaid.md",
     "experiments/columns.md",
     "work/entities/listing.md",
-    "work/entities",
     "work/tickets/add found drawing.md",
     "days/2024-07-19.md",
     "concepts/object orientation.md",
@@ -217,16 +228,6 @@
     "work/calls/Sprint Review  - 22.07.md",
     "work/tickets/Wysiwyg replacement.md",
     "work/tasks - tickets/qsl.canvas",
-    "Excalidraw",
-    "work/tasks - tickets/Untitled.md",
-    "work/Kanban 11.md",
-    "Welcome.md",
-    "work/tasks - tickets/resources",
-    "work/ticktes",
-    "tools",
-    "concepts",
-    "Education/Typescript/resources",
-    "Education/Typescript/Typescript docs",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas"
   ]

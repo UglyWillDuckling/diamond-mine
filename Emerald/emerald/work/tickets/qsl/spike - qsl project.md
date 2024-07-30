@@ -91,42 +91,31 @@ used methods:
 - `ref_from_ma` - a field, containing a `ref` back to the [[Meilurs Agent]] site
 - `transaction_type` - a field, determines the type of the transaction  - matches one of the db enums
 
-#### where is the [[listing]] entity used?
-
-**[[backyard]] pages**
-* ~~backyard/templates/contacts/projects/contracts/listing.html~~
-- ~~- backyard/templates/admin/passerelle/realtor/listing.html~~
-* ~~backyard/templates/admin/passerelle/realtor/index.html~~
-* ~~backyard/templates/realtors/contact_notification_realtor_listings.html~~
-
-### current!
-[realtor link ](http://localhost:8001/admin/passerelle/realtor/2167)
-
-**notes 📔**
- - the listing pages under `admin/passerelle/realtor/2169/listing/{listing_id}` don't work
- - share/controller/backyard.passerelle.inc
-
-**transaction_type** field
-
-### exploring the current implementation
+---
+## exploring the current implementation
 
 <mark style="background: #FFF3A3A6;">need to write this down for [[Natasa]]</mark>
-
 ### pages 📄
 
 - contracts listing page - **Annonce Premium**
--  
-
+ - admin passerelle realtor index page
+- admin passerelle realtor listings page 
 #### contracts listing page - **Annonce Premium**
 
+ `URL` example
+[dev - contracts - 2080494651](https://backyard-dev.meilleursagents.tech/contacts/5758471/projects/2080878347/contracts/2080494651/listing)
+
+**details**
 - the listings are at the bottom of the page
 - only basic information is displayed
 
-**shown props**
-
+**properties shown**
 - image
 - title
 - price
 - location
 - description
-- link to the actual listing page
+- link to the website listing page
+
+#### admin passerelle realtor index page 🏸
+

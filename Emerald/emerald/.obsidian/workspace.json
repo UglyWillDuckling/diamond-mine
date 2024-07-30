@@ -137,9 +137,16 @@
               "type": "mermaid-toolbar-view",
               "state": {}
             }
+          },
+          {
+            "id": "bf1bb66117c75503",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -161,7 +168,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "688b3d615137a273",
+  "active": "f05e2d02192b81cd",
   "lastOpenFiles": [
     "2024-07-30.md",
     "Kanban.md",

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiPersonStanding",
-      "⛑",
-      "LiSword",
-      "LiPhoneCall",
-      "LiTicket"
+      "LiPawPrint",
+      "🇵🇸",
+      "🖌",
+      "LiPencil",
+      "👧"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -47,5 +47,13 @@
   "work": "⛑",
   "work/entities": "LiPersonStanding",
   "work/tickets": "LiTicket",
-  "work/tickets/add found drawing.md": "LiSword"
+  "work/tickets/add found drawing.md": "LiSword",
+  "tools": "LiWrench",
+  "concepts": "LiShapes",
+  "work/tickets/qsl/required fields.md": "⚠",
+  "Kanban.md": "🎬",
+  "tools/Confluence.md": "LiPencilLine",
+  "work/people/Natasa.md": "👧",
+  "work/tickets/Wysiwyg replacement.md": "LiPawPrint",
+  "work/tickets/qsl/spike - qsl project.md": "✏"
 }

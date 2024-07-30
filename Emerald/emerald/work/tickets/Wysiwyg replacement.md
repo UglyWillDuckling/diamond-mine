@@ -1,15 +1,10 @@
 [github list](https://github.com/JefMari/awesome-wysiwyg-editors)
 
 ---
-
 ### possible options found 🔍
-
 * ~~summerNote~~ 
 	* requires `Bootstrap` to work
 * **Trumbowyg** ✅
-* ...
-
----
 #### Trumbowyg
 [github](https://alex-d.github.io/Trumbowyg)
 
@@ -51,41 +46,25 @@
 
 #### gathering requirements
 
-**sql query** to get all the templates needed 
-
+**sql query** to get all the templates needed
 ```sql
 SELECT *, LENGTH (body) bodysize FROM 
 		config.email_template ORDER BY bodysize DESC;
 ```
 
-
-### live test
+### live testing
 
 #### hosting the library
 
 **files list** 🗃
 * static/js/resources/backyard.js 
 
-**steps**
+**steps** 🦶
 1. host js
 2. host css
 3. load both on FE
-
----
-#### currently trying to host the Trumbowyg
-
-after we will load up an example editor and see how it compares
-...and then we will use actual data for a side by side comparison. Hopefully we can do this on the same page
-
-**test URL**
-http://localhost:8001/tools/campaign/simple_emails/edit?key=reseau-courrier-prospection
-
-### testing on the real page
-
-* [x] need to test the **saving** feature
-* [x] test other content loading and saving
-
-`www-realtor-email-contact`
+- [ ] 
+## End 🏁
 
 **All done**
 

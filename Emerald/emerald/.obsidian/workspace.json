@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c1b50471b37d29ce",
+        "id": "68735db216b71643",
         "type": "tabs",
         "children": [
           {
-            "id": "9b6e69e64e1e2323",
+            "id": "f05e2d02192b81cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/spike - qsl projector.md",
+                "file": "work/tickets/qsl/spike - qsl project.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5,
+    "width": 253.5,
     "collapsed": true
   },
   "right": {
@@ -86,14 +86,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/tickets/spike - qsl projector.md",
+                "file": "work/tickets/qsl/spike - qsl project.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/tickets/spike - qsl projector.md",
+                "file": "work/tickets/qsl/spike - qsl project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,36 +126,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/spike - qsl projector.md"
+                "file": "work/tickets/qsl/spike - qsl project.md"
               }
-            }
-          },
-          {
-            "id": "46c667373ac084d8",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "6e7da95c4d31c942",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "days/2024-07-19.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29ea42dd9d014797",
-            "type": "leaf",
-            "state": {
-              "type": "code-execute-manage-executors",
-              "state": {}
             }
           },
           {
@@ -189,10 +161,27 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9b6e69e64e1e2323",
+  "active": "688b3d615137a273",
   "lastOpenFiles": [
+    "2024-07-30.md",
+    "Kanban.md",
+    "work/tickets/qsl/spike - qsl project.md",
+    "tools/typescript.md",
+    "Education/Typescript/Learning TypeScript.md",
+    "days/2024-07-19.md",
+    "work/tickets/qsl/required fields.md",
+    "spike - qsl project.md",
+    "work/tickets/Wysiwyg replacement.md",
+    "work/tickets/add found drawing.md",
+    "work/people/Natasa.md",
+    "work/people",
+    "tools/Confluence.md",
+    "tools/javascript.md",
+    "days/2024-07-29.md",
+    "work/docs/Meilurs Agent.md",
+    "work/docs",
+    "work/tickets/qsl",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle/realtor/listing.html.md",
-    "work/tickets/spike - qsl projector.md",
     "work/entities/contract entity.md",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle/realtor",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle",
@@ -202,31 +191,14 @@
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy.md",
     "home/vsedlar/dev/projects/MeilleursAgents",
-    "home/vsedlar/dev/projects",
-    "home/vsedlar/dev",
-    "home/vsedlar",
-    "work/tickets/Meilurs Agent.md",
     "tools/smalltalk.md",
     "days/2024-07-25.md",
-    "Education/Typescript/Learning TypeScript.md",
     "Education/Typescript/Execute program/Everyday Typescript/quiz.md",
     "Education/Typescript/Execute program/Everyday Typescript/Optional Chaining.md",
     "Education/Typescript/Execute program/Everyday Typescript/EveryDay Typescript.md",
     "Education/Typescript/Execute program/execute program courses.md",
     "2024-07-25.md",
     "work/entities/place entity.md",
-    "2024-07-26.md",
-    "days/2024-07-17.md",
-    "experiments/mermaid.md",
-    "experiments/columns.md",
-    "work/entities/listing.md",
-    "work/tickets/add found drawing.md",
-    "days/2024-07-19.md",
-    "concepts/object orientation.md",
-    "Education/Typescript/Typesript Education.md",
-    "work/calls/1 on 1.md",
-    "work/calls/Sprint Review  - 22.07.md",
-    "work/tickets/Wysiwyg replacement.md",
     "work/tasks - tickets/qsl.canvas",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas"

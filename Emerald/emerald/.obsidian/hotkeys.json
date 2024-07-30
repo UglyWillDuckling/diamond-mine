@@ -37,7 +37,14 @@
       "key": "1"
     }
   ],
-  "workspace:close": [],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Q"
+    }
+  ],
   "editor:toggle-bullet-list": [
     {
       "modifiers": [
@@ -53,6 +60,15 @@
         "Mod"
       ],
       "key": "Q"
+    }
+  ],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
     }
   ]
 }

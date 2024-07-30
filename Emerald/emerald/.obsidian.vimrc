@@ -1,8 +1,7 @@
 """"""""""""""""""""""
 " Leader
 """"""""""""""""""""""
-" let mapleader=,
-" can't set leaders in Obsidian vim, so the key just has to be used consistently.
+" let mapleader=, can't set leaders in Obsidian vim, so the key just has to be used consistently.
 " However, it needs to be unmapped, to not trigger default behavior: https://github.com/esm7/obsidian-vimrc-support#some-help-with-binding-space-chords-doom-and-spacemacs-fans
 unmap ,
 
@@ -371,8 +370,8 @@ exmap splitVertical obcommand workspace:split-vertical
 nnoremap <C-w>v :splitVertical
 
 " Split Switching
-exmap nextSplit obcomamnd cycle-through-panes:cycle-through-panes
-nnoremap <C-CR> :nextSplit
+exmap nextSplit obcommand cycle-through-panes:cycle-through-panes
+nnoremap <C-s> :nextSplit
 
 " Tabs
 exmap nextTab obcommand workspace:next-tab
@@ -396,11 +395,10 @@ nnoremap qq :contextualComment
 " Folding
 """"""""""""""""""""""
 " Emulate vim folding command
-exmap togglefold obcommand editor:toggle-fold
-nnoremap za :togglefold
 nnoremap zo :togglefold
 nnoremap zc :togglefold
 nnoremap ^ :togglefold
+nnoremap <C-space> :togglefold
 
 exmap unfoldall obcommand editor:unfold-all
 exmap foldall obcommand editor:fold-all

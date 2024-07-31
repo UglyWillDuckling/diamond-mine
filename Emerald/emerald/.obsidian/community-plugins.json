@@ -11,5 +11,9 @@
   "obsidian-excalidraw-plugin",
   "mermaid-tools",
   "nldates-obsidian",
-  "companion"
+  "companion",
+  "obsidian-hider",
+  "obsidian-list-callouts",
+  "settings-search",
+  "obsidian-show-file-path"
 ]

@@ -1,4 +1,3 @@
-
 [execute ](https://www.executeprogram.com/courses)
 
 ---
@@ -60,4 +59,8 @@ let numberAndString: [number, string] = [1, 2];
 numberAndString[1];
 // type error: Type 'number' is not assignable to type 'string'.
 ```
+
+- ! an important list item is here
+- @ a less important item in the list 
+
 

@@ -58,23 +58,18 @@ The list of all the things that will change and what we need in order for this t
 ![[required fields#short list]]
 ## Investigation 🔍
 
-**todo for now** ☑
-- [x] explore the current implementation
-	- [x] what is done exactly and where
-	- [x] what is shown and which data is required
-		- examine each of the pages that use the [[listing]] entity
-		- see which data is used 
-		- check if all of this is required for the new **Se Loger** listing
+### todo ☑
 - [ ] take a look at the **db model**
 	- [ ] see what information is there
 		- determine what is actually used and needed for this use case
+## exploring the existing implementation 🧭
 
-**entity**
+### entity
 name: [[listing]]
 class: `listing2`
 file: `share/mkt/listing.inc`
+#### used methods
 
-used methods:
 - `get_place` - returns the [[place entity]] `ref`(**dynamic**)
 - `get_url` - generates the `URL` for the listing
 	- atm, links only to the [[Meilurs Agent]] website
@@ -90,17 +85,12 @@ used methods:
 - `version`- a date field containing the date of the last modification
 - `ref_from_ma` - a field, containing a `ref` back to the [[Meilurs Agent]] site
 - `transaction_type` - a field, determines the type of the transaction  - matches one of the db enums
-
----
-## exploring the current implementation
-
-<mark style="background: #FFF3A3A6;">need to write this down for [[Natasa]]</mark>
 ### pages 📄
 
 - contracts listing page - **Annonce Premium**
  - admin passerelle realtor index page
 - admin passerelle realtor listings page 
-#### contracts listing page - **Annonce Premium**
+#### contracts listing page - **Annonce Premium** 🪐
 
  `URL` example
 [dev - contracts - 2080494651](https://backyard-dev.meilleursagents.tech/contacts/5758471/projects/2080878347/contracts/2080494651/listing)
@@ -116,6 +106,52 @@ used methods:
 - location
 - description
 - link to the website listing page
-
 #### admin passerelle realtor index page 🏸
 
+template: `backyard/templates/admin/passerelle/realtor/index.html`
+
+**props shown/used**
+- url
+- id
+- created
+- version
+- title(`get_title()`)
+
+#### admin passerelle realtor listings page 📃
+
+template: `backyard/templates/admin/passerelle/realtor/listing.html`
+
+**properties shown/used**
+- place ref
+- item_type
+- room_count
+- area (surface area)
+- transaction_type
+- current_price(price)
+- description
+- energy_consumption
+- is_exclusive
+- greenhouse_gaz
+
+## ideas for the pages
+
+- take some pictures and explain the current situation on the application
+	- mention that some pages aren't working or are really slow to load
+- think about possible issues that might arise after the new listing type is added
+	- what functionality needs to work on the new entity?
+	- how will the 2 entities be connected? :link
+
+
+```typescript
+type {
+this is the new code font
+}
+```
+
+what should I write now
+how about now?
+	will it work 
+
+lets do this then
+
+still doesn't appear to be working 

@@ -1,8 +1,8 @@
-
 ### main
 
-- [[typescript documentation]]
-- [[execute program courses]]
+- [[typescript documentation]] 📰
+- [[execute program courses]] {}
+- 
 #### other resources
 
 * 🖼[Garys video on typescript](https://www.youtube.com/watch?v=GrnBXhsr0ng&ab_channel=Programmed)

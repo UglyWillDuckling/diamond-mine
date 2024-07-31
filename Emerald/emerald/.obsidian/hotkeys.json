@@ -22,18 +22,6 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "`"
-    },
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "`"
-    },
-    {
-      "modifiers": [
-        "Mod"
-      ],
       "key": "1"
     }
   ],
@@ -69,6 +57,23 @@
         "Shift"
       ],
       "key": "C"
+    }
+  ],
+  "editor:insert-codeblock": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "2"
     }
   ]
 }

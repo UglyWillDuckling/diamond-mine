@@ -26,12 +26,13 @@ tags:
 
 ## active
 
-- [ ] finish [[work/tickets/qsl/spike - qsl project]] @{2024-07-30}
+- [ ] education / typescript advanced [[Typesript Education]]
 
 
 ## finished
 
 **Complete**
+- [x] finish [[work/tickets/qsl/spike - qsl project]] @{2024-07-30}
 
 
 ***

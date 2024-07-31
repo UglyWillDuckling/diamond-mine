@@ -3,12 +3,15 @@
 #learn
 #roadmap
 #objects
-[[resources]]
+[[resources list]]
 
 ---
 ### notes 📔
 * think about object orientation - how does typescript fit into all of this?
 	* can we do everything that we can i let's say [[smalltalk]] or [[ruby]]? Can we do **more**?
+
+### resources 📚
+![[resources list#other resources]]
 
 ### what we'l do today 📆
 
@@ -23,9 +26,9 @@ Afterwords, we move, rather quickly, to start to build an actual app using types
 * **game** - very playful and you get to use objects more
 * **plugin** for [[Obsidian]] - very useful and can be based of off existing code
 * ... 
-
 #### day 2
-Today, we continue with our exploration of [[typescript]] by diving deeper into the main documentation files [[typescript documentation]]. Then, we will descend into deeper waters by following the [[Learning TypeScript]] book which offers a great introduction into both [[javascript]] and [[typescript]], providing an excellent way of slowly trasitioning to a fully typed programming langauge. It also has a great learning curve going from the basics all the to the highly advanced stuff.
+Today, we continue with our exploration of [[typescript]] by diving deeper into the main documentation files [[typescript documentation]]. 
+Then, we will descend into 🏊‍♀deeper waters by following the [[Learning TypeScript]] book which offers a great introduction into both [[javascript]] and [[typescript]], providing an excellent way of slowly trasitioning to a fully typed programming langauge. It also has a great learning curve going from the basics all the to the highly advanced stuff.
 
 **ideas** 💡
 - create  a Kanban board with the list of items that need doing
@@ -37,4 +40,9 @@ Today, we continue with our exploration of [[typescript]] by diving deeper into 
 	* don't forget 🤯 what you already know...
 * make a **canvas**  containing stuff that I've learned about typescript
 
-![[resources#other resources]]
+#### day 3
+
+- [[execute program courses]] {}
+- [[Learning TypeScript]] 📖
+- what else?
+- see [[git butler]] docs and website

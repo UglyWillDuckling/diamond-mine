@@ -1,6 +1,4 @@
 
-
-
 ```typescript
 type Success = {
     kind: 'success',

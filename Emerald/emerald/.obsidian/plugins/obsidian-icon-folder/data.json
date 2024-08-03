@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🎴",
+      "LiCode2",
       "📙",
       "LiArchive",
-      "LiEgg",
-      "LiPersonStanding",
-      "LiPawPrint"
+      "LiEgg"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -55,7 +55,8 @@
   "work/tickets/qsl/spike - qsl project.md": "✏",
   "work/people": "LiPersonStanding",
   "work/docs": "LiArchive",
-  "Education/Typescript/resources/Typescript docs": "📔",
-  "Education/Typescript/resources/Learning TypeScript.md": "📙",
-  "Education/Typescript/resources/resources list.md": "LiArchive"
+  "Education/Typescript/resources/resources list.md": "LiArchive",
+  "Education/Typescript/resources/Learning Typescript Book/Learning TypeScript book.md": "📙",
+  "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md": "LiCode2",
+  "work/fun": "🎴"
 }

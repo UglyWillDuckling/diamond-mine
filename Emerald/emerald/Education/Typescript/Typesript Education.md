@@ -28,7 +28,7 @@ Afterwords, we move, rather quickly, to start to build an actual app using types
 * ... 
 #### day 2
 Today, we continue with our exploration of [[typescript]] by diving deeper into the main documentation files [[typescript documentation]]. 
-Then, we will descend into 🏊‍♀deeper waters by following the [[Learning TypeScript]] book which offers a great introduction into both [[javascript]] and [[typescript]], providing an excellent way of slowly trasitioning to a fully typed programming langauge. It also has a great learning curve going from the basics all the to the highly advanced stuff.
+Then, we will descend into 🏊‍♀deeper waters by following the [[Learning TypeScript book]] book which offers a great introduction into both [[javascript]] and [[typescript]], providing an excellent way of slowly trasitioning to a fully typed programming langauge. It also has a great learning curve going from the basics all the to the highly advanced stuff.
 
 **ideas** 💡
 - create  a Kanban board with the list of items that need doing
@@ -43,6 +43,15 @@ Then, we will descend into 🏊‍♀deeper waters by following the [[Learning T
 #### day 3
 
 - [[execute program courses]] {}
-- [[Learning TypeScript]] 📖
+- [[Learning TypeScript book]] 📖
 - what else?
 - see [[git butler]] docs and website
+
+[[2024-08-01]]
+
+I worked on the [[Learning TypeScript book]], only on the practical parts.
+
+[[2024-08-02]]
+
+Worked on the [[Learning TypeScript book#chapter 3 - Unions and literals]] - practical tasks
+[[Learning Typescript practical#Chapter 3]]

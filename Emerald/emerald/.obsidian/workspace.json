@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3401791c411cf710",
+        "id": "e55832ec95d724de",
         "type": "tabs",
         "children": [
           {
-            "id": "3d5bc7b1f3b4feae",
+            "id": "21fc72349b96a71b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Typescript/resources/Learning TypeScript.md",
+                "file": "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -56,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#practical",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 390.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -96,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Typescript/resources/Learning TypeScript.md"
+                "file": "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md"
               }
             }
           },
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Typescript/resources/Learning TypeScript.md",
+                "file": "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,13 +124,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Typescript/resources/Learning TypeScript.md",
+                "file": "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -152,18 +154,29 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "3d5bc7b1f3b4feae",
+  "active": "21fc72349b96a71b",
   "lastOpenFiles": [
-    "Education/Typescript/resources/resources list.md",
-    "Education/Typescript/resources/Execute program/execute program courses.md",
     "Education/Typescript/Typesript Education.md",
-    "tools/git butler.md",
-    "2024-07-31.md",
-    "Education/Typescript/resources/Learning TypeScript.md",
-    "Education/Typescript/resources/Typescript docs/typescript documentation.md",
+    "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md",
+    "concepts/object.md",
     "tools/typescript.md",
+    "2024-08-02.md",
+    "2024-08-03.md",
+    "Education/Typescript/resources/Learning Typescript Book/Learning TypeScript book.md",
+    "tools/Confluence.md",
+    "Education/Typescript/resources/Typescript docs/typescript documentation.md",
+    "work/fun/Git Butler Presentation.md",
+    "work/fun",
+    "Education/Typescript/resources/resources list.md",
+    "Education/Typescript/resources/Learning Typescript Book",
+    "work/lost time.md",
     "Kanban.md",
-    "work/Git Butler Presentation.md",
+    "work/tickets/add found drawing.md",
+    "work/tickets/Wysiwyg replacement.md",
+    "work/tickets/qsl/required fields.md",
+    "Education/Typescript/resources/Execute program/execute program courses.md",
+    "tools/git butler.md",
+    "days/2024-07-31.md",
     "days/2024-07-30.md",
     "Education/Typescript/resources/Execute program/Everyday Typescript/quiz.md",
     "Education/Typescript/resources/Execute program/Everyday Typescript/As operator.md",
@@ -171,25 +184,14 @@
     "Education/Typescript/resources/Execute program/Everyday Typescript/EveryDay Typescript.md",
     "work/tickets/qsl/spike - qsl project.md",
     "work/tickets/qsl/QQQ.md",
-    "work/tickets/qsl/Untitled 1.md",
-    "work/tickets/qsl/Untitled.md",
-    "work/lost time.md",
-    "work/tickets/spike - qsl projector.md",
-    "work/tickets/Meilurs Agent.md",
-    "work/Kanban 11.md",
-    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle/realtor/listing.html.md",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle/realtor",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard",
-    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy.md",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy",
     "home/vsedlar/dev/projects/MeilleursAgents",
     "home/vsedlar/dev/projects",
-    "home/vsedlar/dev",
-    "home/vsedlar",
-    "2024-07-26.md",
     "work/tasks - tickets/qsl.canvas",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas"

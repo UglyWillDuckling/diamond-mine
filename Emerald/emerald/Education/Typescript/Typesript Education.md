@@ -16,7 +16,7 @@
 ### what we'l do today 📆
 
 #### day 1
-First, we can continue the course on [Execute program](https://www.executeprogram.com/courses/everyday-typescript) that will give us a practical understanding of typescript covering most of its basic and some more advanced features using everyday easy to understand examples, [[execute program courses]].
+First, we can continue the course on [Execute program](https://www.executeprogram.com/courses/everyday-typescript) that will give us a practical understanding of typescript covering most of its basic and some more advanced features using everyday easy to understand examples, [[execute program courses 🎓]].
 
 #manifesto #core #basics
 After the course, we move on to typescript basics using the roadmap and following the essential [documentation](documentation) needed to understand the core of  [[typescript]] and not get lost 🧭.
@@ -42,16 +42,20 @@ Then, we will descend into 🏊‍♀deeper waters by following the [[Learning T
 
 #### day 3
 
-- [[execute program courses]] {}
+- [[execute program courses 🎓]] {}
 - [[Learning TypeScript book]] 📖
 - what else?
 - see [[git butler]] docs and website
 
-[[2024-08-01]]
+### [[2024-08-01]]
 
 I worked on the [[Learning TypeScript book]], only on the practical parts.
 
-[[2024-08-02]]
+### [[2024-08-02]]
 
 Worked on the [[Learning TypeScript book#chapter 3 - Unions and literals]] - practical tasks
 [[Learning Typescript practical#Chapter 3]]
+
+### [[2024-08-06]]
+
+- [[execute program courses 🎓]]

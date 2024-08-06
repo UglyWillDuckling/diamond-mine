@@ -27,7 +27,7 @@ let rawDataThird: RawData;
 
 > Type aliases are a handy feature to use in TypeScript whenever your types start getting complex. For now, that just includes long union types; later on it will include array, function, and object types.
 
-**example from [[execute program courses]]**
+**example from [[execute program courses 🎓]]**
 ```typescript
 
 type ConversionSucceeded = {

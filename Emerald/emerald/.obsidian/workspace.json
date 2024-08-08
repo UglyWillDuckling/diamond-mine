@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md",
+                "file": "Education/Typescript/Typesript Education.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.5
+    "width": 401.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md"
+                "file": "Education/Typescript/Typesript Education.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md",
+                "file": "Education/Typescript/Typesript Education.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md",
+                "file": "Education/Typescript/Typesript Education.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,42 +156,42 @@
   },
   "active": "21fc72349b96a71b",
   "lastOpenFiles": [
+    "Education/Typescript/resources list.md",
     "Education/Typescript/Typesript Education.md",
+    "Education/Typescript/resources/Learning Typescript Book/Learning TypeScript book.md",
+    "Education/Typescript/resources/Execute program/execute program courses.md",
+    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/EveryDay Typescript.md",
+    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/As operator.md",
+    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/Single and Multiple Inheritance.md",
+    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/small notes/C++ and Python multiple inheritance.md",
+    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/quizes.../quiz.md",
+    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/small notes",
+    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/quizes...",
+    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/Object spread Lesson.md",
+    "concepts/tuple.md",
+    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/Optional Properties.md",
+    "2024-08-04.md",
     "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md",
     "concepts/object.md",
     "tools/typescript.md",
     "2024-08-02.md",
     "2024-08-03.md",
-    "Education/Typescript/resources/Learning Typescript Book/Learning TypeScript book.md",
     "tools/Confluence.md",
     "Education/Typescript/resources/Typescript docs/typescript documentation.md",
     "work/fun/Git Butler Presentation.md",
     "work/fun",
-    "Education/Typescript/resources/resources list.md",
     "Education/Typescript/resources/Learning Typescript Book",
     "work/lost time.md",
     "Kanban.md",
     "work/tickets/add found drawing.md",
     "work/tickets/Wysiwyg replacement.md",
     "work/tickets/qsl/required fields.md",
-    "Education/Typescript/resources/Execute program/execute program courses.md",
-    "tools/git butler.md",
-    "days/2024-07-31.md",
-    "days/2024-07-30.md",
-    "Education/Typescript/resources/Execute program/Everyday Typescript/quiz.md",
-    "Education/Typescript/resources/Execute program/Everyday Typescript/As operator.md",
-    "Education/Typescript/resources/Execute program/Everyday Typescript/Optional Chaining.md",
-    "Education/Typescript/resources/Execute program/Everyday Typescript/EveryDay Typescript.md",
-    "work/tickets/qsl/spike - qsl project.md",
-    "work/tickets/qsl/QQQ.md",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle/realtor",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy",
-    "home/vsedlar/dev/projects/MeilleursAgents",
-    "home/vsedlar/dev/projects",
     "work/tasks - tickets/qsl.canvas",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas"

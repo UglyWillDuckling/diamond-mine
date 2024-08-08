@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiStickyNote",
+      "LiSnapToObject",
       "🎴",
       "LiCode2",
-      "📙",
-      "LiArchive",
-      "LiEgg"
+      "📙"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -55,8 +55,9 @@
   "work/tickets/qsl/spike - qsl project.md": "✏",
   "work/people": "LiPersonStanding",
   "work/docs": "LiArchive",
-  "Education/Typescript/resources/resources list.md": "LiArchive",
   "Education/Typescript/resources/Learning Typescript Book/Learning TypeScript book.md": "📙",
   "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md": "LiCode2",
-  "work/fun": "🎴"
+  "work/fun": "🎴",
+  "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/Single and Multiple Inheritance.md": "LiSnapToObject",
+  "Education/Typescript/resources list.md": "LiArchive"
 }

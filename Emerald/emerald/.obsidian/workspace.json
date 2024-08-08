@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "21fc72349b96a71b",
+            "id": "4f68db4215515d60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Typescript/Typesript Education.md",
+                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Function Parameters.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 282.5,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -97,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Typescript/Typesript Education.md"
+                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Function Parameters.md"
               }
             }
           },
@@ -107,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Typescript/Typesript Education.md",
+                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Function Parameters.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Typescript/Typesript Education.md",
+                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Function Parameters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,30 +155,26 @@
       "companion:Toggle completion": false
     }
   },
-  "active": "21fc72349b96a71b",
+  "active": "4f68db4215515d60",
   "lastOpenFiles": [
-    "Education/Typescript/resources list.md",
+    "Education/Typescript/Execute program {}/execute program courses 🎓.md",
+    "Education/Typescript/Execute program {}/Everyday Typescript/Function Parameters.md",
+    "Education/Typescript/Execute program {}/Everyday Typescript/Index Signatures.md",
     "Education/Typescript/Typesript Education.md",
+    "Education/Typescript/resources/Typescript docs/typescript documentation.md",
+    "Education/Typescript/resources/resources list.md",
     "Education/Typescript/resources/Learning Typescript Book/Learning TypeScript book.md",
-    "Education/Typescript/resources/Execute program/execute program courses.md",
-    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/EveryDay Typescript.md",
-    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/As operator.md",
-    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/Single and Multiple Inheritance.md",
-    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/small notes/C++ and Python multiple inheritance.md",
-    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/quizes.../quiz.md",
-    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/small notes",
-    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/quizes...",
-    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/Object spread Lesson.md",
-    "concepts/tuple.md",
-    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/Optional Properties.md",
-    "2024-08-04.md",
+    "Education/Typescript/short notes 📒/📒short notes.md",
+    "Education/Typescript/Execute program {}/Everyday Typescript/Optional Chaining.md",
+    "Education/Typescript/resources/Execute program/discriminated.md",
+    "2024-08-06.md",
+    "Education/Typescript/short notes 📒",
     "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md",
     "concepts/object.md",
     "tools/typescript.md",
-    "2024-08-02.md",
-    "2024-08-03.md",
+    "days/2024-08-02.md",
+    "days/2024-08-03.md",
     "tools/Confluence.md",
-    "Education/Typescript/resources/Typescript docs/typescript documentation.md",
     "work/fun/Git Butler Presentation.md",
     "work/fun",
     "Education/Typescript/resources/Learning Typescript Book",
@@ -186,12 +183,16 @@
     "work/tickets/add found drawing.md",
     "work/tickets/Wysiwyg replacement.md",
     "work/tickets/qsl/required fields.md",
+    "tools/git butler.md",
+    "days/2024-07-31.md",
+    "days/2024-07-30.md",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle/realtor",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy",
+    "home/vsedlar/dev/projects/MeilleursAgents",
     "work/tasks - tickets/qsl.canvas",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas"

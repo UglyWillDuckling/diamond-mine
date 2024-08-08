@@ -1,7 +1,7 @@
 ### main
 
 - [[typescript documentation]] 📰
-- [[execute program courses]] {}
+- [[execute program courses 🎓]] {}
 - 
 #### other resources
 

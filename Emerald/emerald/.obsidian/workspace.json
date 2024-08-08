@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Function Parameters.md",
+                "file": "Education/Typescript/resources/Execute program/Indexing Into Object Types.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#practical",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Function Parameters.md"
+                "file": "Education/Typescript/resources/Execute program/Indexing Into Object Types.md"
               }
             }
           },
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Function Parameters.md",
+                "file": "Education/Typescript/resources/Execute program/Indexing Into Object Types.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Function Parameters.md",
+                "file": "Education/Typescript/resources/Execute program/Indexing Into Object Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +158,14 @@
   },
   "active": "4f68db4215515d60",
   "lastOpenFiles": [
-    "Education/Typescript/Execute program {}/execute program courses 🎓.md",
+    "days/2024-08-04.md",
+    "2024-08-06.md",
+    "2024-08-08.md",
+    "Education/Typescript/resources/Execute program/execute program courses.md",
+    "Education/Typescript/resources/Execute program/Indexing Into Object Types.md",
+    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/Object spread Lesson.md",
     "Education/Typescript/Execute program {}/Everyday Typescript/Function Parameters.md",
+    "Education/Typescript/Execute program {}/execute program courses 🎓.md",
     "Education/Typescript/Execute program {}/Everyday Typescript/Index Signatures.md",
     "Education/Typescript/Typesript Education.md",
     "Education/Typescript/resources/Typescript docs/typescript documentation.md",
@@ -167,7 +174,6 @@
     "Education/Typescript/short notes 📒/📒short notes.md",
     "Education/Typescript/Execute program {}/Everyday Typescript/Optional Chaining.md",
     "Education/Typescript/resources/Execute program/discriminated.md",
-    "2024-08-06.md",
     "Education/Typescript/short notes 📒",
     "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md",
     "concepts/object.md",
@@ -181,11 +187,6 @@
     "work/lost time.md",
     "Kanban.md",
     "work/tickets/add found drawing.md",
-    "work/tickets/Wysiwyg replacement.md",
-    "work/tickets/qsl/required fields.md",
-    "tools/git butler.md",
-    "days/2024-07-31.md",
-    "days/2024-07-30.md",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle/realtor",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin",

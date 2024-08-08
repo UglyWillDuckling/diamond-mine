@@ -9,7 +9,7 @@
 
 ---
 
-### By Day
+## By Day
 
 [[2024-07-25]]
 **review** [[EveryDay Typescript]]
@@ -66,7 +66,7 @@ numberAndString[1];
 - ~ bookmarked
 - % and scaled
 
-#### [[2024-08-04]]
+### [[2024-08-04]]
 	doing a basic review and continuing on
 
 - [[Optional Properties]]
@@ -111,3 +111,37 @@ let amirEmail: HasEmail = amir;
 
 amirEmail.admin;
 ```
+
+### [[2024-08-08]]
+
+#### review
+
+- [[Single and Multiple Inheritance]]
+	- interfaces can extend each other and create <mark style="background: #ADCCFFA6;">complex hierarchies</mark>
+	- a single type can implement **<mark style="background: #ABF7F7A6;">multiple</mark>** interfaces
+	- incompatible types are <mark style="background: #FF5582A6;">errors</mark>
+- [[Object spread Lesson]]
+
+
+**Inheritance**
+```typescript
+class User implements NameIsAmirOrBetty, NameIsAmirOrCindy {
+  name: string;
+  constructor(name: string) {
+    this.name = name;
+  }
+}
+```
+
+
+**Object spread**
+```typescript
+const partialAmir = {name: 'Amir'};
+const fullAmir = {...partialAmir, admin: true};
+fullAmir;
+// {name: 'Amir', admin: true}
+```
+
+#### Lessons 📖
+
+[[Indexing Into Object Types]] - typescript allows you to access Object Types and index them directly...

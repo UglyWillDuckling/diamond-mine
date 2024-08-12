@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Typescript/resources/Execute program/Indexing Into Object Types.md",
+                "file": "2024-08-12.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -99,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Typescript/resources/Execute program/Indexing Into Object Types.md"
+                "file": "2024-08-12.md"
               }
             }
           },
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Typescript/resources/Execute program/Indexing Into Object Types.md",
+                "file": "2024-08-12.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Typescript/resources/Execute program/Indexing Into Object Types.md",
+                "file": "2024-08-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,17 +152,16 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "companion:Toggle completion": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "4f68db4215515d60",
   "lastOpenFiles": [
+    "Education/Typescript/resources/Execute program/Indexing Into Object Types.md",
     "days/2024-08-04.md",
     "2024-08-06.md",
     "2024-08-08.md",
     "Education/Typescript/resources/Execute program/execute program courses.md",
-    "Education/Typescript/resources/Execute program/Indexing Into Object Types.md",
     "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/Object spread Lesson.md",
     "Education/Typescript/Execute program {}/Everyday Typescript/Function Parameters.md",
     "Education/Typescript/Execute program {}/execute program courses 🎓.md",

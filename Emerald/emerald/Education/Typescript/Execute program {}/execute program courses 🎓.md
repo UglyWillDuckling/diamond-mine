@@ -5,7 +5,7 @@
 
 - [[EveryDay Typescript]] - the most common everyday uses of [[typescript]]
 	* [[Optional Chaining]] 
-	* [[quiz]]
+	* [[Education/Typescript/Execute program {}/Everyday Typescript/quiz]]
 
 ---
 ## By Day
@@ -19,6 +19,7 @@
 
 - What follows next is a structured outline of courses and specific topics you're planning to cover, including a review of "EveryDay Typescript" on July 25th and 30th. This shows a clear plan for learning and reviewing the material.
 
+📔
 **Discriminated Unions**
 ```typescript
 type StartedCourse = {
@@ -181,3 +182,148 @@ userEmails.Betty;
 ```
 
 > This code is wrong, but unfortunately it's allowed by the compiler.
+
+### [[2024-08-08]]
+
+#### review
+
+- [[Single and Multiple Inheritance]]
+	- interfaces can extend each other and create <mark style="background: #ADCCFFA6;">complex hierarchies</mark>
+	- a single type can implement **<mark style="background: #ABF7F7A6;">multiple</mark>** interfaces
+	- incompatible types are <mark style="background: #FF5582A6;">errors</mark>
+- [[Object spread Lesson]]
+
+
+**Inheritance**
+```typescript
+class User implements NameIsAmirOrBetty, NameIsAmirOrCindy {
+  name: string;
+  constructor(name: string) {
+    this.name = name;
+  }
+}
+```
+
+
+**Object spread**
+```typescript
+const partialAmir = {name: 'Amir'};
+const fullAmir = {...partialAmir, admin: true};
+fullAmir;
+// {name: 'Amir', admin: true}
+```
+
+#### Lessons 📖
+
+[[Indexing Into Object Types]] - typescript allows you to access Object Types and index them directly...
+
+
+### [[2024-08-13]]
+
+#### review [[2024-08-13]]
+
+- [[Pick and Omit]]
+- [[Set]] 
+- [[Object Literal...]]
+- [[Optional Properties]]
+
+**[[Pick and Omit]]**
+
+```typescript
+type User = {
+  name: string
+  email: string
+  age: number
+};
+
+// These two types are equivalent!
+type NameOnly1 = Pick<User, 'name'>;
+type NameOnly2 = Omit<User, 'email' | 'age'>;
+
+const amir1: {name: string} = {name: 'Amir'};
+const amir2: NameOnly1 = amir1;
+const amir3: NameOnly2 = amir1;
+amir3;
+```
+*either one is fine*
+
+**[[Set]]**
+```typescript
+const s = new Set([1, 2, 3])
+s.add(4)
+s.has(4)
+// true
+```
+
+**[[Object Literal...]]**
+
+```typescript
+type Album = {name: string, copiesSold: number};
+
+function albumSales(album: Album): number {
+  return album.copiesSold;
+}
+
+const sales = albumSales({
+  name: 'Kind of Blue',
+  copiesSold: 4490000
+  // yearOfRelease: 1990
+});
+```
+*literal objects can **only** contain properties that exist on the Type*
+
+**[[Optional Properties]]**
+
+```typescript
+function initializeErrorTracker(
+  opts: {
+    sessions?: boolean
+    appType?: string
+  } = {}
+) {
+  const sessions: boolean = opts.sessions ?? true;
+  const appType: string = opts.appType ?? 'client';
+  return `Tracking: sessions=${sessions}, appType=${appType}`;
+}
+```
+- everything inside the opts type is optional
+- the defaults are provided by the function itself
+- we could also use object destructuring to assign the values, but the code would remain pretty much the same
+
+**[[Function Parameters]]**
+
+```typescript
+function add(...numbers: number[]) {
+  let sum = 0;
+  for (const n of numbers) {
+    sum += n;
+  }
+  return sum;
+}
+[add(), add(1, 2), add(100, 200, 300)];
+//[0, 3, 600]
+```
+
+
+#### Lessons [[2024-08-13]] 📖
+#async
+#promise
+
+- [[Async Await]]
+- [[ReturnType and Parameters]]
+
+**Async Await**
+- all async functions return a [[Promise]]
+
+```typescript
+async function asyncDouble(x: Promise<number>): Promise<number> {
+  return 2 * await x
+}
+
+asyncDouble(Promise.resolve(5))
+// {fulfilled: 10}
+```
+
+**ReturnType and Parameters**
+
+

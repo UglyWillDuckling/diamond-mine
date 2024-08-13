@@ -311,6 +311,7 @@ function add(...numbers: number[]) {
 
 - [[Async Await]]
 - [[ReturnType and Parameters]]
+- [[Partial]]
 
 **Async Await**
 - all async functions return a [[Promise]]
@@ -324,6 +325,9 @@ asyncDouble(Promise.resolve(5))
 // {fulfilled: 10}
 ```
 
-**ReturnType and Parameters**
+**[[ReturnType and Parameters]]**
 
+![[ReturnType and Parameters#**basic example**]]
 
+**Partial**
+![[Partial#Intro]]

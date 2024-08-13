@@ -59,3 +59,8 @@ Worked on the [[Learning TypeScript book#chapter 3 - Unions and literals]] - pra
 ### [[2024-08-06]]
 
 - [[execute program courses 🎓]]
+
+
+### [[2024-08-13]]
+
+[[execute program courses 🎓#2024-08-13]]

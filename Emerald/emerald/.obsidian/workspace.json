@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/oop/object orientation.md",
+                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Partial.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5
+    "width": 310.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "concepts/oop/object orientation.md"
+                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Partial.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "concepts/oop/object orientation.md",
+                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Partial.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "concepts/oop/object orientation.md",
+                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Partial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,13 +153,21 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "688b3d615137a273",
+  "active": "f77211fc5e00f01a",
   "lastOpenFiles": [
-    "concepts/oop",
-    "concepts/Type.md",
-    "Education/Typescript/Execute program {}/ReturnType and Parameters.md",
-    "2024-08-13.md",
     "Education/Typescript/Execute program {}/execute program courses 🎓.md",
+    "Education/Typescript/resources list.md",
+    "Education/Typescript/Typesript Education.md",
+    "Education/Typescript/Execute program {}/Everyday Typescript/Partial.md",
+    "Education/Typescript/Execute program {}/Everyday Typescript/ReturnType and Parameters.md",
+    "Education/Typescript/short notes 📒/📒short notes.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/For-of Loops.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/Const.md",
+    "Education/Typescript/Execute program {}/Modern Javascript",
+    "2024-08-13.md",
+    "concepts/Type.md",
+    "concepts/oop/object orientation.md",
+    "concepts/oop",
     "Education/Typescript/resources/Execute program/execute program courses.md",
     "Education/Typescript/Execute program {}/Everyday Typescript/Pick and Omit.md",
     "Education/Typescript/Execute program {}/Everyday Typescript/Types for Options Objects.md",
@@ -167,8 +175,6 @@
     "Education/Typescript/Execute program {}/Everyday Typescript/quiz.md",
     "Education/Typescript/Execute program {}/Everyday Typescript/In JS, you can define methods on objects directly.md",
     "Education/Typescript/Execute program {}/Everyday Typescript/EveryDay Typescript.md",
-    "Education/Typescript/resources list.md",
-    "Education/Typescript/short notes 📒/📒short notes.md",
     "days/2024-08-06.md",
     "tools/typescript.md",
     "days/2024-08-12.md",
@@ -177,10 +183,6 @@
     "Education/Typescript/Execute program {}/Everyday Typescript/Object spread Lesson.md",
     "Education/Typescript/Execute program {}/Everyday Typescript/Function Parameters.md",
     "Education/Typescript/Execute program {}/Everyday Typescript/Index Signatures.md",
-    "Education/Typescript/Typesript Education.md",
-    "Education/Typescript/resources/Typescript docs/typescript documentation.md",
-    "Education/Typescript/resources/resources list.md",
-    "Education/Typescript/resources/Learning Typescript Book/Learning TypeScript book.md",
     "Education/Typescript/short notes 📒",
     "work/fun",
     "Education/Typescript/resources/Learning Typescript Book",
@@ -189,8 +191,6 @@
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard",
-    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy",
-    "home/vsedlar/dev/projects/MeilleursAgents",
     "work/tasks - tickets/qsl.canvas",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas"

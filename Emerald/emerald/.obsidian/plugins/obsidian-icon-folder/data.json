@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiMousePointer2",
       "🧑‍🎓",
       "🎴",
       "LiCode2",
-      "📙",
-      "LiArchive"
+      "📙"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -59,5 +59,6 @@
   "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md": "LiCode2",
   "work/fun": "🎴",
   "Education/Typescript/resources list.md": "LiArchive",
-  "Education/Typescript/Execute program {}/Everyday Typescript/Single and Multiple Inheritance.md": "LiSnapToObject"
+  "Education/Typescript/Execute program {}/Everyday Typescript/Single and Multiple Inheritance.md": "LiSnapToObject",
+  "work/tickets/SPIKE - myTileCache.md": "LiMousePointer2"
 }

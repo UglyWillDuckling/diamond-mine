@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Partial.md",
+                "file": "2024-08-14.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 241.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Partial.md"
+                "file": "2024-08-14.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Partial.md",
+                "file": "2024-08-14.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,14 +124,22 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Typescript/Execute program {}/Everyday Typescript/Partial.md",
+                "file": "2024-08-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "652fbb60f4dd09cc",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -140,8 +148,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-kanban:Create new board": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -149,22 +155,29 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Create new board": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "f77211fc5e00f01a",
   "lastOpenFiles": [
+    "work/tickets/Wysiwyg replacement.md",
+    "2024-08-14.md",
+    "work/tickets/SPIKE - myTileCache.md",
+    "Kanban.md",
+    "github.md",
+    "days/2024-08-13.md",
+    "Education/Typescript/Execute program {}/Everyday Typescript/Partial.md",
     "Education/Typescript/Execute program {}/execute program courses 🎓.md",
     "Education/Typescript/resources list.md",
     "Education/Typescript/Typesript Education.md",
-    "Education/Typescript/Execute program {}/Everyday Typescript/Partial.md",
     "Education/Typescript/Execute program {}/Everyday Typescript/ReturnType and Parameters.md",
     "Education/Typescript/short notes 📒/📒short notes.md",
     "Education/Typescript/Execute program {}/Modern Javascript/For-of Loops.md",
     "Education/Typescript/Execute program {}/Modern Javascript/Const.md",
     "Education/Typescript/Execute program {}/Modern Javascript",
-    "2024-08-13.md",
     "concepts/Type.md",
     "concepts/oop/object orientation.md",
     "concepts/oop",
@@ -178,11 +191,6 @@
     "days/2024-08-06.md",
     "tools/typescript.md",
     "days/2024-08-12.md",
-    "days/2024-08-04.md",
-    "days/2024-08-08.md",
-    "Education/Typescript/Execute program {}/Everyday Typescript/Object spread Lesson.md",
-    "Education/Typescript/Execute program {}/Everyday Typescript/Function Parameters.md",
-    "Education/Typescript/Execute program {}/Everyday Typescript/Index Signatures.md",
     "Education/Typescript/short notes 📒",
     "work/fun",
     "Education/Typescript/resources/Learning Typescript Book",

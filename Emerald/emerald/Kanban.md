@@ -27,6 +27,7 @@ tags:
 ## active
 
 - [ ] education / typescript advanced [[Typesript Education]]
+- [ ] spike - my tile cache
 
 
 ## finished

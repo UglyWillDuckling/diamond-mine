@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d1a5b21cd3afa513",
+        "id": "b49e9475187b421d",
         "type": "tabs",
         "children": [
           {
-            "id": "f77211fc5e00f01a",
+            "id": "c5854dd5c2ecea14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-14.md",
+                "file": "work/tickets/Add \"Relance signature Mandat\" category.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 226.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-14.md"
+                "file": "work/tickets/Add \"Relance signature Mandat\" category.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-14.md",
+                "file": "work/tickets/Add \"Relance signature Mandat\" category.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-14.md",
+                "file": "work/tickets/Add \"Relance signature Mandat\" category.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -161,11 +161,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f77211fc5e00f01a",
+  "active": "c5854dd5c2ecea14",
   "lastOpenFiles": [
+    "2024-08-15.md",
+    "work/tickets/Add \"Relance signature Mandat\" category.md",
+    "work/tickets/SPIKE's/SPIKE - myTileCache.md",
+    "work/tickets/add found drawing.md",
+    "work/tickets/SPIKE's",
+    "concepts/computer science/oop/design patterns.md",
+    "work/calls/Sprint Review  - 22.07.md",
+    "design patterns.md",
+    "concepts/computer science/Type.md",
+    "concepts/computer science",
+    "days/2024-07-23 1.md",
+    "concepts/computer science/oop/object orientation.md",
+    "concepts/computer science/oop/object.md",
+    "days/2024-08-14.md",
+    "work/lost time.md",
+    "work/people/Danijela.md",
+    "work/people/Natasa.md",
+    "work/calls/1 on 1.md",
+    "work/docs/Meilurs Agent.md",
     "work/tickets/Wysiwyg replacement.md",
-    "2024-08-14.md",
-    "work/tickets/SPIKE - myTileCache.md",
     "Kanban.md",
     "github.md",
     "days/2024-08-13.md",
@@ -174,31 +191,14 @@
     "Education/Typescript/resources list.md",
     "Education/Typescript/Typesript Education.md",
     "Education/Typescript/Execute program {}/Everyday Typescript/ReturnType and Parameters.md",
-    "Education/Typescript/short notes 📒/📒short notes.md",
-    "Education/Typescript/Execute program {}/Modern Javascript/For-of Loops.md",
-    "Education/Typescript/Execute program {}/Modern Javascript/Const.md",
     "Education/Typescript/Execute program {}/Modern Javascript",
-    "concepts/Type.md",
-    "concepts/oop/object orientation.md",
-    "concepts/oop",
-    "Education/Typescript/resources/Execute program/execute program courses.md",
-    "Education/Typescript/Execute program {}/Everyday Typescript/Pick and Omit.md",
-    "Education/Typescript/Execute program {}/Everyday Typescript/Types for Options Objects.md",
-    "Education/Typescript/Execute program {}/Everyday Typescript/Indexing Into Object Types.md",
-    "Education/Typescript/Execute program {}/Everyday Typescript/quiz.md",
-    "Education/Typescript/Execute program {}/Everyday Typescript/In JS, you can define methods on objects directly.md",
-    "Education/Typescript/Execute program {}/Everyday Typescript/EveryDay Typescript.md",
-    "days/2024-08-06.md",
-    "tools/typescript.md",
-    "days/2024-08-12.md",
+    "concepts/computer science/oop",
     "Education/Typescript/short notes 📒",
     "work/fun",
     "Education/Typescript/resources/Learning Typescript Book",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle/realtor",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle",
     "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin",
-    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates",
-    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard",
     "work/tasks - tickets/qsl.canvas",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas"

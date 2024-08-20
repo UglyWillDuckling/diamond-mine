@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "🇵🇸",
-      "🫐",
-      "LiMousePointer2",
-      "🧑‍🎓",
-      "🎴"
+      "🗾",
+      "LiProjector",
+      "LiBug",
+      "🖼",
+      "📔"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -62,5 +62,10 @@
   "Education/Typescript/Execute program {}/Everyday Typescript/Single and Multiple Inheritance.md": "LiSnapToObject",
   "work/people/Danijela.md": "🫐",
   "concepts/computer science/oop/design patterns.md": "🇵🇸",
-  "work/tickets/SPIKE's/SPIKE - myTileCache.md": "LiMousePointer2"
+  "work/notes": "📔",
+  "work/notes/To run tests first build the test image.md": "🖼",
+  "work/tickets/SPIKE's/SPIKE - myTileCache migration to VectorTile?.md": "LiMousePointer2",
+  "work/tickets/bugs": "LiBug",
+  "Education/Typescript/Projects": "LiProjector",
+  "tasks/Fix nvim mappings.md": "🗾"
 }

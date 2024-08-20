@@ -12,6 +12,10 @@ The goal of the SPIKE is to provide information on the current usage of the `myt
 Furthermore, we need to investigate the current status of the **VectorTileAPI** which might be getting decomissioned.
 See [link to a different SPIKe]() for more info on this.
 
+## Related to
+[BackYard API usage](https://avivgroup.atlassian.net/wiki/x/7AHELw) and 
+[LUNA-152](https://avivgroup.atlassian.net/browse/LUNA-152)
+
 ---
 ## Current Usage
 
@@ -60,21 +64,9 @@ This is the easy part 😌. We can simply open the map on the backyard and check
 1. go to the [catchment-area](https://backyard-dev.meilleursagents.tech/realtors/73067/catchment_area) page on dev
 2. play around with the layers and see if they work as before
 
-## Next steps
-1. need to get more information on the `VectorTileAPI` and possible service alternatives
-
 ---
-## Continue
+<mark style="background: #FFB86CA6;">Waiting for info on VectorTile</mark>
 
-**todo** ✅
-- [x] update document with pages where the layers are actually used(shown)
-- [x] cleanup the document
-- [x] update document header with more information
-	- [x] maybe add next steps at the END as well
-- [x] see about vectorTile getting decomissioned
-	- [x] mention that more info is needed from other teams
-- [x] check on **<mark style="background: #ABF7F7A6;">VectorTileAPI</mark>** some more
-- [x] transfer doc to <mark style="background: #ADCCFFA6;">Confluence</mark>
-	- [x] add links
-	- [x] update formatting and the like
-	- [x] add ticket link
+slack [response](https://kugawana.slack.com/archives/C0330AJQY6S/p1724054543244069?thread_ts=1718363743.804699&cid=C0330AJQY6S)
+> **Youcef Zerroug**
+...There is a replacement for the VectorTileAPI named **PriceTileAPI** (https://price-tile-api.poetic-sunfish-preview.aws.aviv.eu/v1/docs). This  PriceTileAPI that is used in the WL Price Pages to render price tiles in the map

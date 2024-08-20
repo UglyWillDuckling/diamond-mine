@@ -15,25 +15,20 @@ tags:
 
 ---
 
-## list 2
+## on hold
 
-- [ ] fffff
-- [ ] hello
-- [ ] rick rolled
-- [ ] ammmmm....
-- [ ] tutankamon
 
 
 ## active
 
 - [ ] education / typescript advanced [[Typesript Education]]
-- [ ] spike - my tile cache
+- [ ] [[Fix nvim mappings]]
 
 
 ## finished
 
 **Complete**
-- [x] finish [[work/tickets/qsl/spike - qsl project]] @{2024-07-30}
+- [x] spike - my tile cache
 
 
 ***
@@ -46,6 +41,7 @@ tags:
 - [ ] boiler plate
 - [x] finish the [[required fields]]
 - [ ] ba
+- [x] finish [[work/tickets/qsl/spike - qsl project]] @{2024-07-30}
 
 %% kanban:settings
 ```

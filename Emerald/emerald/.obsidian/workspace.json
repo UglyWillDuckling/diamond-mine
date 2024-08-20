@@ -4,16 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "b49e9475187b421d",
+        "id": "0f78f4e9653c2998",
         "type": "tabs",
+        "dimension": 54.42857142857142,
         "children": [
           {
-            "id": "c5854dd5c2ecea14",
+            "id": "b584b591deb7759e",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    true,
+                    false,
+                    false
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a026f01233fa881f",
+        "type": "tabs",
+        "dimension": 45.57142857142858,
+        "children": [
+          {
+            "id": "c286be2f27556afe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/Add \"Relance signature Mandat\" category.md",
+                "file": "tasks/Fix nvim mappings.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 352.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -97,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/Add \"Relance signature Mandat\" category.md"
+                "file": "tasks/Fix nvim mappings.md"
               }
             }
           },
@@ -107,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/tickets/Add \"Relance signature Mandat\" category.md",
+                "file": "tasks/Fix nvim mappings.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/tickets/Add \"Relance signature Mandat\" category.md",
+                "file": "tasks/Fix nvim mappings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,44 +187,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c5854dd5c2ecea14",
+  "active": "c286be2f27556afe",
   "lastOpenFiles": [
-    "2024-08-15.md",
+    "Kanban.md",
+    "tasks/Fix nvim mappings.md",
+    "Education/Typescript/short notes 📒/JS - Not an instance of.md",
+    "Drawing 2024-08-20 17.42.37.excalidraw.md",
+    "work/tickets/qsl/required fields.md",
+    "2024-08-20.md",
+    "Education/Typescript/Projects/TODO.md",
+    "Education/Typescript/Projects",
+    "work/tickets/bugs/Cannot display \"Primes\" for Kahina Hammouda.md",
+    "2024-08-16.md",
+    "2024-08-19.md",
+    "work/tickets/bugs",
+    "work/people/Natasa.md",
+    "work/lost time.md",
+    "work/notes/povezivanje na gcloud computer masinu.md",
+    "days/2024-08-15.md",
+    "days/2024-08-14.md",
+    "days/2024-08-13.md",
+    "days/2024-08-12.md",
+    "days/2024-08-10.md",
+    "work/calls/Sprint retro 2024-08-19.md",
+    "work/notes/To run tests first build the test image.md",
+    "work/calls/Sprint Review  - 22.07.md",
+    "work/tickets/qsl/spike - qsl project.md",
     "work/tickets/Add \"Relance signature Mandat\" category.md",
-    "work/tickets/SPIKE's/SPIKE - myTileCache.md",
+    "work/calls/1 on 1 Paulo 2024-08-19.md",
+    "work/tickets/SPIKE's/SPIKE - myTileCache migration to VectorTile?.md",
+    "work/notes",
     "work/tickets/add found drawing.md",
     "work/tickets/SPIKE's",
-    "concepts/computer science/oop/design patterns.md",
-    "work/calls/Sprint Review  - 22.07.md",
-    "design patterns.md",
-    "concepts/computer science/Type.md",
     "concepts/computer science",
-    "days/2024-07-23 1.md",
-    "concepts/computer science/oop/object orientation.md",
-    "concepts/computer science/oop/object.md",
-    "days/2024-08-14.md",
-    "work/lost time.md",
-    "work/people/Danijela.md",
-    "work/people/Natasa.md",
-    "work/calls/1 on 1.md",
-    "work/docs/Meilurs Agent.md",
-    "work/tickets/Wysiwyg replacement.md",
-    "Kanban.md",
-    "github.md",
-    "days/2024-08-13.md",
-    "Education/Typescript/Execute program {}/Everyday Typescript/Partial.md",
-    "Education/Typescript/Execute program {}/execute program courses 🎓.md",
-    "Education/Typescript/resources list.md",
-    "Education/Typescript/Typesript Education.md",
-    "Education/Typescript/Execute program {}/Everyday Typescript/ReturnType and Parameters.md",
     "Education/Typescript/Execute program {}/Modern Javascript",
     "concepts/computer science/oop",
     "Education/Typescript/short notes 📒",
     "work/fun",
     "Education/Typescript/resources/Learning Typescript Book",
-    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle/realtor",
-    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin/passerelle",
-    "home/vsedlar/dev/projects/MeilleursAgents/MALegacy/backyard/templates/admin",
     "work/tasks - tickets/qsl.canvas",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas"

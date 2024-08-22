@@ -6,40 +6,14 @@
       {
         "id": "0f78f4e9653c2998",
         "type": "tabs",
-        "dimension": 54.42857142857142,
         "children": [
           {
             "id": "b584b591deb7759e",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    true,
-                    false,
-                    false
-                  ]
-                }
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "a026f01233fa881f",
-        "type": "tabs",
-        "dimension": 45.57142857142858,
-        "children": [
-          {
-            "id": "c286be2f27556afe",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "tasks/Fix nvim mappings.md",
+                "file": "Education/Typescript/Projects/TODO.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -96,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 291.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -123,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tasks/Fix nvim mappings.md"
+                "file": "Education/Typescript/Projects/TODO.md"
               }
             }
           },
@@ -133,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tasks/Fix nvim mappings.md",
+                "file": "Education/Typescript/Projects/TODO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tasks/Fix nvim mappings.md",
+                "file": "Education/Typescript/Projects/TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,19 +161,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c286be2f27556afe",
+  "active": "b584b591deb7759e",
   "lastOpenFiles": [
-    "Kanban.md",
+    "Education/Typescript/Projects/Mediator.md",
+    "Education/Typescript/Projects/TODO.md",
+    "concepts/computer science/oop/tuple.md",
+    "concepts/computer science/oop/design patterns.md",
+    "concepts/computer science/oop/patterns/Strategy pattern.md",
+    "concepts/computer science/oop/patterns",
+    "2024-08-22.md",
+    "Education/React",
+    "tasks/Resolve performance issues.md",
     "tasks/Fix nvim mappings.md",
+    "2024-08-21.md",
+    "Kanban.md",
+    "2024-08-20.md",
     "Education/Typescript/short notes 📒/JS - Not an instance of.md",
     "Drawing 2024-08-20 17.42.37.excalidraw.md",
     "work/tickets/qsl/required fields.md",
-    "2024-08-20.md",
-    "Education/Typescript/Projects/TODO.md",
     "Education/Typescript/Projects",
     "work/tickets/bugs/Cannot display \"Primes\" for Kahina Hammouda.md",
-    "2024-08-16.md",
-    "2024-08-19.md",
+    "days/2024-08-16.md",
+    "days/2024-08-19.md",
     "work/tickets/bugs",
     "work/people/Natasa.md",
     "work/lost time.md",
@@ -210,21 +193,12 @@
     "days/2024-08-12.md",
     "days/2024-08-10.md",
     "work/calls/Sprint retro 2024-08-19.md",
-    "work/notes/To run tests first build the test image.md",
-    "work/calls/Sprint Review  - 22.07.md",
-    "work/tickets/qsl/spike - qsl project.md",
-    "work/tickets/Add \"Relance signature Mandat\" category.md",
-    "work/calls/1 on 1 Paulo 2024-08-19.md",
-    "work/tickets/SPIKE's/SPIKE - myTileCache migration to VectorTile?.md",
     "work/notes",
-    "work/tickets/add found drawing.md",
     "work/tickets/SPIKE's",
     "concepts/computer science",
     "Education/Typescript/Execute program {}/Modern Javascript",
     "concepts/computer science/oop",
     "Education/Typescript/short notes 📒",
-    "work/fun",
-    "Education/Typescript/resources/Learning Typescript Book",
     "work/tasks - tickets/qsl.canvas",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas"

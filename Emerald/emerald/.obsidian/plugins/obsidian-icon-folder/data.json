@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAtom",
       "🗾",
       "LiProjector",
       "LiBug",
-      "🖼",
-      "📔"
+      "🖼"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -67,5 +67,6 @@
   "work/tickets/SPIKE's/SPIKE - myTileCache migration to VectorTile?.md": "LiMousePointer2",
   "work/tickets/bugs": "LiBug",
   "Education/Typescript/Projects": "LiProjector",
-  "tasks/Fix nvim mappings.md": "🗾"
+  "tasks/Fix nvim mappings.md": "🗾",
+  "Education/React": "LiAtom"
 }

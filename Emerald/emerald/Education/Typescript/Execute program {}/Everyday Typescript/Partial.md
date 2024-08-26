@@ -4,7 +4,7 @@
 > Sometimes we need a flexible way to create "partial" objects. These are objects with some of an object type's properties, but not necessarily all of them. We could do that manually with the ? syntax for optional properties.
 
 - Partial allows us to define **two** or more different types that are both related and kept in sync
-	- the second, `partial`, type has all of its properties defined as **optional**, see [[Optional Properties]] 👀 :eye
+	- the second, `partial`, type has all of its properties defined as **optional**, see [[Optional Properties]] 👀
 
 ---
 
@@ -22,8 +22,7 @@ partialAmir.postalCode;
 
 > When we access the properties in a partial object type, we get a **union** with **undefined**. For example, the `postalCode` property above is a **string | undefined**. As usual, we'll get a type error if we try to use it without considering the undefined case.
 
-**error**
-
+**<mark style="background: #FF5582A6;">error</mark>**
 If we try to use the value without considering the `undefined` case we will get a type error
 
 ```typescript

@@ -64,3 +64,13 @@ Worked on the [[Learning TypeScript book#chapter 3 - Unions and literals]] - pra
 ### [[2024-08-13]]
 
 [[execute program courses 🎓#2024-08-13]]
+
+#### [[2024-08-22]]
+
+[[execute program courses 🎓]]
+
+- [[Partial in Practice]]
+- [[Exceptions]]
+## Reading
+
+[Publishing Node modules with TypeScript and ES modules](https://blog.logrocket.com/publishing-node-modules-typescript-es-modules/)

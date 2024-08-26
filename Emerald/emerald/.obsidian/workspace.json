@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0f78f4e9653c2998",
+        "id": "8b0644a1f2e3321a",
         "type": "tabs",
         "children": [
           {
-            "id": "b584b591deb7759e",
+            "id": "2192cb97a7d924a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Typescript/Projects/TODO.md",
+                "file": "2024-08-26.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "pick",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 241.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Typescript/Projects/TODO.md"
+                "file": "2024-08-26.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Typescript/Projects/TODO.md",
+                "file": "2024-08-26.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Typescript/Projects/TODO.md",
+                "file": "2024-08-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,44 +161,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b584b591deb7759e",
+  "active": "2192cb97a7d924a8",
   "lastOpenFiles": [
-    "Education/Typescript/Projects/Mediator.md",
+    "work/tickets/Wysiwyg replacement.md~",
+    "work/tickets/Ma Perf - take into account incoming calls (Appels entrant).md",
+    "2024-08-26.md",
+    "2024-08-23.md",
+    "work/tickets/Untitled",
+    "work/docs/backyard/tools/Diabolocom.md",
+    "work/docs/backyard/application/Calls/Call Types.md",
+    "work/docs/backyard/application/Calls",
+    "work/notes/Beebole keeps switching between months.md",
+    "work/calls/SLMP call.md",
+    "work/docs/notes/Millions of euros for a buy in France.md",
+    "work/docs/notes",
+    "work/docs/backyard/application/User Types/Coach.md",
+    "work/docs/lost time.md",
+    "work/docs/Meilurs Agent.md",
+    "work/docs/backyard/tools",
+    "execute program courses.md",
+    "work/docs/backyard/application/User Types/Agent.md",
+    "work/docs/backyard/application",
+    "work/docs/backyard/application/User Types",
+    "work/docs/Untitled.md",
+    "work/docs/backyard",
+    "Education/Typescript/Execute program {}/Modern Javascript/Accessors in Object Literals.md",
+    "Education/Typescript/short notes 📒/Need to use webpack for npm modules.md",
+    "Education/React/react.md",
+    "Education/Typescript/Execute program {}/Everyday Typescript/Exceptions.md",
+    "Education/Typescript/short notes 📒/type guard.md",
+    "Education/Typescript/Typesript Education.md",
+    "days/2024-08-22.md",
     "Education/Typescript/Projects/TODO.md",
-    "concepts/computer science/oop/tuple.md",
-    "concepts/computer science/oop/design patterns.md",
-    "concepts/computer science/oop/patterns/Strategy pattern.md",
-    "concepts/computer science/oop/patterns",
-    "2024-08-22.md",
-    "Education/React",
-    "tasks/Resolve performance issues.md",
-    "tasks/Fix nvim mappings.md",
-    "2024-08-21.md",
-    "Kanban.md",
-    "2024-08-20.md",
+    "Education/Typescript/short notes 📒/Sets in JS.md",
     "Education/Typescript/short notes 📒/JS - Not an instance of.md",
-    "Drawing 2024-08-20 17.42.37.excalidraw.md",
-    "work/tickets/qsl/required fields.md",
-    "Education/Typescript/Projects",
-    "work/tickets/bugs/Cannot display \"Primes\" for Kahina Hammouda.md",
-    "days/2024-08-16.md",
-    "days/2024-08-19.md",
-    "work/tickets/bugs",
-    "work/people/Natasa.md",
-    "work/lost time.md",
-    "work/notes/povezivanje na gcloud computer masinu.md",
-    "days/2024-08-15.md",
-    "days/2024-08-14.md",
-    "days/2024-08-13.md",
-    "days/2024-08-12.md",
-    "days/2024-08-10.md",
-    "work/calls/Sprint retro 2024-08-19.md",
-    "work/notes",
-    "work/tickets/SPIKE's",
-    "concepts/computer science",
-    "Education/Typescript/Execute program {}/Modern Javascript",
-    "concepts/computer science/oop",
-    "Education/Typescript/short notes 📒",
+    "Education/Typescript/short notes 📒/for state we could pass methods from the Context object to its states.md",
+    "concepts/computer science/frontend",
+    "concepts/computer science/oop/patterns",
+    "Education/React",
     "work/tasks - tickets/qsl.canvas",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas"

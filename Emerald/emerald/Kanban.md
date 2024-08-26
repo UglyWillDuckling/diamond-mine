@@ -23,6 +23,7 @@ tags:
 
 - [ ] education / typescript advanced [[Typesript Education]]
 - [ ] [[Fix nvim mappings]]
+- [ ] start with [[react]]
 
 
 ## finished

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/bugs/Follow up call.md",
+                "file": "Education/Typescript/short notes 📒/for state we could pass methods from the Context object to its states.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
+    "width": 288.5,
     "collapsed": true
   },
   "right": {
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/bugs/Follow up call.md"
+                "file": "Education/Typescript/short notes 📒/for state we could pass methods from the Context object to its states.md"
               }
             }
           },
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/tickets/bugs/Follow up call.md",
+                "file": "Education/Typescript/short notes 📒/for state we could pass methods from the Context object to its states.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/tickets/bugs/Follow up call.md",
+                "file": "Education/Typescript/short notes 📒/for state we could pass methods from the Context object to its states.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,11 +164,22 @@
   },
   "active": "2192cb97a7d924a8",
   "lastOpenFiles": [
-    "days/2024-08-20.md",
+    "2024-08-27.md",
+    "Education/Typescript/short notes 📒/for state we could pass methods from the Context object to its states.md",
+    "Education/Typescript/Execute program {}/execute program courses 🎓.md",
+    "Education/React/react.md",
+    "Education/Typescript/Execute program {}/Everyday Typescript/Enum.md",
+    "Education/Typescript/Execute program {}/Everyday Typescript/Rejected Promises.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/Shorthand Properties.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/Accessors in Object Literals.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/Computed Properties.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/Basic Array Destructuring.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/modern JS.md",
+    "2024-08-26.md",
     "work/tickets/bugs/Follow up call.md",
+    "days/2024-08-20.md",
     "work/tickets/bugs/Mon Espace > Mes Appels > Appels entrant - Interlocutor's name not shown.md",
     "work/tickets/bugs/Mon Espace > Mes Appels > Appels entrant - Interlocutor's name not shown.md~",
-    "2024-08-26.md",
     "work/tickets/Ma Perf - take into account incoming calls (Appels entrant).md",
     "work/tickets/Wysiwyg replacement.md~",
     "2024-08-23.md",
@@ -185,20 +196,9 @@
     "work/docs/Meilurs Agent.md",
     "work/docs/backyard/tools",
     "execute program courses.md",
-    "work/docs/backyard/application/User Types/Agent.md",
     "work/docs/backyard/application",
     "work/docs/backyard/application/User Types",
-    "work/docs/Untitled.md",
     "work/docs/backyard",
-    "Education/Typescript/Execute program {}/Modern Javascript/Accessors in Object Literals.md",
-    "Education/Typescript/short notes 📒/Need to use webpack for npm modules.md",
-    "Education/React/react.md",
-    "Education/Typescript/Execute program {}/Everyday Typescript/Exceptions.md",
-    "Education/Typescript/short notes 📒/type guard.md",
-    "Education/Typescript/Typesript Education.md",
-    "days/2024-08-22.md",
-    "Education/Typescript/Projects/TODO.md",
-    "Education/Typescript/short notes 📒/Sets in JS.md",
     "concepts/computer science/frontend",
     "work/tasks - tickets/qsl.canvas",
     "work/Untitled.canvas",

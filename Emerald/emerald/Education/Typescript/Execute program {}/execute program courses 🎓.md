@@ -304,7 +304,6 @@ function add(...numbers: number[]) {
 //[0, 3, 600]
 ```
 
-
 #### Lessons [[2024-08-13]] 📖
 #async
 #promise

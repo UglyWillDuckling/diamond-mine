@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🔢",
+      "🩳",
+      "LiCurlyBraces",
       "🇫🇷",
-      "LiStickyNote",
-      "LiPhone",
-      "🈸",
-      "🧰"
+      "LiStickyNote"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -78,5 +78,8 @@
   "work/docs/backyard/application": "🈸",
   "work/docs/backyard/tools/Diabolocom.md": "LiPhone",
   "work/docs/notes": "LiStickyNote",
-  "work/docs/notes/Millions of euros for a buy in France.md": "🇫🇷"
+  "work/docs/notes/Millions of euros for a buy in France.md": "🇫🇷",
+  "Education/Typescript/Execute program {}/Modern Javascript/Basic Array Destructuring.md": "LiCurlyBraces",
+  "Education/Typescript/Execute program {}/Modern Javascript/Shorthand Properties.md": "🩳",
+  "Education/Typescript/Execute program {}/Everyday Typescript/Enum.md": "🔢"
 }

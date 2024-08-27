@@ -1,4 +1,3 @@
-
 ## Getters
 
 ```js

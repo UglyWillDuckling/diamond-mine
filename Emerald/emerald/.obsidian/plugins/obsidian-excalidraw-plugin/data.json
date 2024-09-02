@@ -272,7 +272,7 @@
   "mdBorderColor": "Black",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "defaultTrayMode": true,
+  "defaultTrayMode": false,
   "previousRelease": "2.3.0",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,

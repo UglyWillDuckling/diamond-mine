@@ -19,17 +19,27 @@ tags:
 
 
 
+## next
+
+- [ ] [[Fix nvim mappings]]
+- [ ] books on [[object orientation]]
+- [ ] [[wipe screen]]
+
+
 ## active
 
 - [ ] education / typescript advanced [[Typesript Education]]
-- [ ] [[Fix nvim mappings]]
-- [ ] start with [[react]]
+- [ ] typescript - [[execute program courses 🎓]]
+- [ ] [[Education/React/react|react]]
 
 
 ## finished
 
 **Complete**
+- [x] [[switch over to Firefox]]
+- [x] start with [[Education/React/react]]
 - [x] spike - my tile cache
+- [x] [[Resolve performance issues]]
 
 
 ***
@@ -46,6 +56,6 @@ tags:
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,false],"show-checkboxes":false}
+{"kanban-plugin":"board","list-collapse":[true,false,false,false],"show-checkboxes":false}
 ```
 %%

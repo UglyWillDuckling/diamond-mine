@@ -330,3 +330,42 @@ asyncDouble(Promise.resolve(5))
 
 **Partial**
 ![[Partial#Intro]]
+
+### [[2024-08-27]]
+
+#### review [[2024-08-27]]
+
+- [[Readonly]]
+- [[Any]]
+ ```ts
+	const user: any = {name: 'Amir'};
+	const numbers: number[] = user;
+	numbers;
+	// {name: 'Amir'}
+```
+- [[The Object Type]]
+```ts
+function takesAnObject(obj: object): string {
+  return 'it worked';
+}
+[
+  takesAnObject({name: 'Amir'}),
+  takesAnObject({count: 55}),
+];
+// ['it worked', 'it worked']
+```
+
+#### Lessons 📖 [[2024-08-27]]
+Typescript
+- [[Enum]]
+- [[Namespaces]]
+- [[Readonly Properties vs. Values]]
+
+Javascript
+- [[Basic Object Destructuring]]
+
+### [[2024-08-30]]
+
+#### review [[2024-08-30]]
+
+- [[Async Await]]

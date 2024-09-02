@@ -1,11 +1,13 @@
-
-> [!warning] Haven't tried this one yet
+## idea
 
 Pass private members to **state** objects and <mark style="background: #ABF7F7A6;">share</mark> them between each other
 
----
+> [!warning] Doesn't work because of [[javascript]]. 
+> A good idea though.
+- it is good enough for the State classes to not be exported, this makes the ==public== `stateState`  method unusable outside the module
 
-## to test
+---
+## implementation in [[typescript]]
 
 ```ts
 // player.ts

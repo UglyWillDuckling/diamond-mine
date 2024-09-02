@@ -283,18 +283,18 @@ export function runCommands(): boolean {
 #### important 📕
 - classes are objects as well [[javascript]]
 - you can define classes inside any [[closure]] - this makes it easy to define <mark style="background: #FFF3A3A6;">local classes </mark>tied to a specific context
-- static classes are implemented extremely well in [[javascript]] [doc]
+- **static classes** are implemented extremely well in [[javascript]] [doc]
 	- you can also use entire <mark style="background: #FFB8EBA6;">static blocks</mark>
 	- static classes work just like other [[object]]'s
 - you can implement <mark style="background: #ABF7F7A6;">interfaces</mark> in [[typescript]] using the
 	`implements` keyword - [implement doc](https://www.typescriptlang.org/docs/handbook/interfaces.html)
 -  typescript even supports `[abstract` classes](https://www.tutorialsteacher.com/typescript/abstract-class)
--  
 
 **static blocks**
 ```javascript
 class Statistitian {
 	static {
+		// this refers to the class itself
 		this.instance = new Statistitian()
 	}	
 }

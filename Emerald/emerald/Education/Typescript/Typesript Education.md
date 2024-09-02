@@ -3,7 +3,6 @@
 #learn
 #roadmap
 #objects
-[[resources list]]
 
 ---
 ### notes 📔
@@ -71,6 +70,14 @@ Worked on the [[Learning TypeScript book#chapter 3 - Unions and literals]] - pra
 
 - [[Partial in Practice]]
 - [[Exceptions]]
+
 ## Reading
 
 [Publishing Node modules with TypeScript and ES modules](https://blog.logrocket.com/publishing-node-modules-typescript-es-modules/)
+
+---
+#### [[2024-08-27]]
+
+[[execute program courses 🎓]]
+![[execute program courses 🎓#review 2024-08-27]]
+![[execute program courses 🎓#Lessons 📖 2024-08-27]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-08-30.md",
+                "file": "2024-09-03.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 321.5,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-08-30.md",
+                "file": "2024-09-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-08-30.md",
+                "file": "2024-09-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-08-30.md"
+                "file": "2024-09-03.md"
               }
             }
           },
@@ -137,9 +138,17 @@
               "type": "reminder-list",
               "state": {}
             }
+          },
+          {
+            "id": "4a7e351c6d81ef9d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -163,16 +172,30 @@
   },
   "active": "bf8e5fcb47634adc",
   "lastOpenFiles": [
-    "work/tickets/Lead Fix/Process of creating a new project.md",
     "work/tickets/Lead Fix/Lead Fix - from estima to lead during Project init.md",
-    "2024-09-02.md",
-    "tasks/dev/wipe screen.md",
+    "2024-09-03.md",
+    "work/tickets/Lead Fix/lead table example.md",
+    "work/tickets/Lead Fix/leads without ids.md",
+    "work/tickets/Lead Fix/diagrams and stuff/Process of creating a new project.md",
+    "work/tickets/Lead Fix/Gather information on the transition.md",
+    "work/tickets/Lead Fix/[estima.md",
+    "work/tickets/Lead Fix/diagrams and stuff",
+    "2024-08-30.md",
+    "Education/Typescript/Projects/TODO.md",
+    "work/tickets/Lead Fix/glossary or concept/estima.md",
+    "work/tickets/Lead Fix/glossary or concept/transaction.md",
+    "work/tickets/Lead Fix/glossary or concept",
     "Kanban.md",
+    "work/tickets/Lead Fix/G",
+    "2024-09-02.md",
+    "tasks/Drawing 2024-09-02 10.17.56.excalidraw.md",
+    "work/docs/backyard/Portals/Se Loger.md",
+    "work/docs/backyard/Portals",
     "tasks/switch over to Firefox.md",
+    "tasks/dev/wipe screen.md",
     "Education/Typescript/Typesript Education.md",
     "tasks/dev/Fix nvim mappings.md",
     "tasks/Resolve performance issues.md",
-    "2024-08-30.md",
     "notes/Go to file is the answer.md",
     "work/people/Natasa.md",
     "work/tickets/Lead Fix/Untitled.canvas",
@@ -180,26 +203,12 @@
     "work/tickets/Ma Perf - take into account incoming calls (Appels entrant).md",
     "days/2024-08-29.md",
     "notes/processor info on linux.md",
-    "notes/lazynvim's <leader-s> binding is awesome.md",
-    "notes/lazy nvim has the <leader-s>k mappingo.md",
-    "tasks/dev/Find what grug is about.md",
-    "Education/Typescript/TS and JS/How to do imports in TS.md",
-    "Education/Typescript/things/TS config file.md",
-    "tasks/dev/Nvim - resolve oil starting up each time.md",
-    "Education/Typescript/short notes 📒/📒short notes.md",
-    "Education/Typescript/tasks/Find out what target and module meano.md",
     "Education/Typescript/concepts/Untitled",
     "Education/Typescript/things",
-    "Education/Typescript/tasks/Find out how to import stuff in TS.md",
     "Education/Typescript/tasks",
-    "Education/Typescript/resources list.md",
     "tasks/dev",
     "Education/Typescript/TS and JS",
     "work/tickets/Lead Fix",
-    "concepts/development/Agile",
-    "concepts/development",
-    "work/chores",
-    "people",
     "Education/React/documentation/attachements/sharing_data_parent_clicked.webp",
     "Education/React/documentation/attachements/sharing_data_parent.webp",
     "Education/React/documentation/attachements/unnamed.png",

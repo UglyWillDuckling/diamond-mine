@@ -23,13 +23,13 @@ tags:
 
 - [ ] [[Fix nvim mappings]]
 - [ ] books on [[object orientation]]
-- [ ] [[wipe screen]]
 
 
 ## active
 
+- [ ] [[Lead Fix - from estima to lead during Project init]]
+- [ ] [[Gather information on the transition]]
 - [ ] education / typescript advanced [[Typesript Education]]
-- [ ] typescript - [[execute program courses 🎓]]
 - [ ] [[Education/React/react|react]]
 
 
@@ -37,6 +37,8 @@ tags:
 
 **Complete**
 - [x] [[switch over to Firefox]]
+- [x] [[wipe screen]]
+- [x] typescript - [[execute program courses 🎓]]
 - [x] start with [[Education/React/react]]
 - [x] spike - my tile cache
 - [x] [[Resolve performance issues]]

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "ℹ",
       "🪟",
       "LiSword",
       "LiChevronsLeftRight",
-      "LiArchiveX",
-      "LiSnapToObject"
+      "LiArchiveX"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -97,6 +97,7 @@
   "Education/Typescript/things": "LiSnapToObject",
   "Education/Typescript/resources": "LiArchiveX",
   "Education/Typescript/things/TS config file.md": "LiChevronsLeftRight",
-  "work/tickets/Lead Fix/Process of creating a new project.md": "LiSword",
-  "tasks/dev/wipe screen.md": "🪟"
+  "tasks/dev/wipe screen.md": "🪟",
+  "work/tickets/Lead Fix/Gather information on the transition.md": "ℹ",
+  "work/tickets/Lead Fix/diagrams and stuff/Process of creating a new project.md": "LiSword"
 }

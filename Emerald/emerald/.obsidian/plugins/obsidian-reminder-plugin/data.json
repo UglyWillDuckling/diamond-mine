@@ -1,11 +1,18 @@
 {
   "scanned": true,
   "reminders": {
-    "notes/running vim macros.md": [
+    "tasks/dev/take a look at higher order components article.md": [
       {
-        "title": "",
-        "time": "2024-09-09",
-        "rowNumber": 6
+        "title": "remind",
+        "time": "2024-09-14",
+        "rowNumber": 2
+      }
+    ],
+    "notes/factory functions(methods) are super useful.md": [
+      {
+        "title": "remind",
+        "time": "2024-09-14",
+        "rowNumber": 17
       }
     ]
   },

@@ -3,8 +3,7 @@
 - starting to learn react
 
 ---
-
-
+> 
 ## some resources
 
 ### tutorials 🖋

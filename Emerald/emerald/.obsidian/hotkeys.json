@@ -100,29 +100,12 @@
       "key": "PageDown"
     }
   ],
-  "editor:toggle-code": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "E"
-    }
-  ],
   "switcher:open": [
     {
       "modifiers": [
         "Alt"
       ],
       "key": "O"
-    }
-  ],
-  "editor:fold-more": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "Enter"
     }
   ],
   "editor:insert-callout": [
@@ -132,6 +115,32 @@
         "Shift"
       ],
       "key": "C"
+    }
+  ],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "editor:open-search-replace": [],
+  "highlightr-plugin:highlighter-plugin-menu": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "markdown:toggle-preview": [],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "E"
     }
   ]
 }

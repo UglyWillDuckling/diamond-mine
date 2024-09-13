@@ -1,0 +1,6 @@
+
+For **obsidian**
+
+```
+Alt + o
+```

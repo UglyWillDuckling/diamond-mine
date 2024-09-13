@@ -15,20 +15,22 @@ tags:
 
 ---
 
-## on hold
+## backlog 🗃
+
+- [ ] [[Resolve performance issues]]
+- [ ] [[Find what grug is about]]
 
 
+## next ⏭
 
-## next
-
+- [ ] books on [[object orientation]] and design
 - [ ] [[Fix nvim mappings]]
-- [ ] books on [[object orientation]]
 
 
-## active
+## active ⚔
 
+- [ ] [[take a look at higher order components article]]
 - [ ] [[Lead Fix - from estima to lead during Project init]]
-- [ ] [[Gather information on the transition]]
 - [ ] education / typescript advanced [[Typesript Education]]
 - [ ] [[Education/React/react|react]]
 
@@ -36,12 +38,7 @@ tags:
 ## finished
 
 **Complete**
-- [x] [[switch over to Firefox]]
-- [x] [[wipe screen]]
-- [x] typescript - [[execute program courses 🎓]]
-- [x] start with [[Education/React/react]]
-- [x] spike - my tile cache
-- [x] [[Resolve performance issues]]
+- [x] [[Tic-Tac-Toe]]
 
 
 ***
@@ -54,7 +51,13 @@ tags:
 - [ ] boiler plate
 - [x] finish the [[required fields]]
 - [ ] ba
-- [x] finish [[work/tickets/qsl/spike - qsl project]] @{2024-07-30}
+- [x] finish [[spike - qsl project]] @{2024-07-30}
+- [x] [[wipe screen]]
+- [x] typescript - [[execute program courses 🎓]]
+- [x] start with [[Education/React/react]]
+- [x] spike - my tile cache
+- [x] [[switch over to Firefox]]
+- [x] [[Gather information on the transition]]
 
 %% kanban:settings
 ```

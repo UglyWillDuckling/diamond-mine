@@ -11,12 +11,18 @@
             "id": "bf8e5fcb47634adc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "2024-09-03.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    true,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               }
             }
           }
@@ -70,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 217.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -98,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-03.md",
+                "file": "Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-03.md",
+                "file": "Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-03.md"
+                "file": "Kanban.md"
               }
             }
           },
@@ -148,7 +153,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -172,43 +177,45 @@
   },
   "active": "bf8e5fcb47634adc",
   "lastOpenFiles": [
-    "work/tickets/Lead Fix/Lead Fix - from estima to lead during Project init.md",
-    "2024-09-03.md",
-    "work/tickets/Lead Fix/lead table example.md",
-    "work/tickets/Lead Fix/leads without ids.md",
-    "work/tickets/Lead Fix/diagrams and stuff/Process of creating a new project.md",
-    "work/tickets/Lead Fix/Gather information on the transition.md",
-    "work/tickets/Lead Fix/[estima.md",
-    "work/tickets/Lead Fix/diagrams and stuff",
-    "2024-08-30.md",
-    "Education/Typescript/Projects/TODO.md",
-    "work/tickets/Lead Fix/glossary or concept/estima.md",
-    "work/tickets/Lead Fix/glossary or concept/transaction.md",
-    "work/tickets/Lead Fix/glossary or concept",
+    "concepts/computer science/oop/object orientation.md",
     "Kanban.md",
-    "work/tickets/Lead Fix/G",
-    "2024-09-02.md",
-    "tasks/Drawing 2024-09-02 10.17.56.excalidraw.md",
-    "work/docs/backyard/Portals/Se Loger.md",
-    "work/docs/backyard/Portals",
-    "tasks/switch over to Firefox.md",
-    "tasks/dev/wipe screen.md",
-    "Education/Typescript/Typesript Education.md",
     "tasks/dev/Fix nvim mappings.md",
-    "tasks/Resolve performance issues.md",
-    "notes/Go to file is the answer.md",
-    "work/people/Natasa.md",
+    "Dashboard - Sales.png",
+    "2024-09-13.md",
+    "Education/React/Aliicea Course/DOM and Declarative.../Conceptual Aside - Imperative vs. Declarative Programming.md",
+    "Education/React/Aliicea Course/DOM and Declarative.../DOM Manipulation.md",
+    "notes/archive/running vim macros.md",
+    "concepts/web/Browser.md",
+    "concepts/development/API.md",
+    "Education/React/Aliicea Course/DOM and Declarative.../HTML, The Browser, and the DOM.md",
+    "concepts/web/DOM.md",
+    "Education/React/Aliicea Course/DOM and Declarative.../DOM and ....md",
+    "Education/React/Aliicea Course/notes/Big word Alert.md",
+    "Education/React/Aliicea Course/notes",
+    "Education/React/Aliicea Course/DOM and Declarative.../HTML and Trees.md",
+    "Education/React/react.md",
+    "Education/React/Aliicea Course/DOM and Declarative...",
+    "Education/React/Aliicea Course",
+    "work/notes/Creating branch env's sounds incredible.md",
+    "days/2024-09-10.md",
+    "work/tickets/FEAT/Lead Fix/diff for ....md",
+    "work/tickets/FEAT/Lead Fix/Lead Fix - from estima to lead during Project init.md",
+    "work/tickets/FEAT/Lead Fix/subs/Make script to write out lead and estima id pairs.md",
+    "notes/LUNA team has its own argocd pipeline setup.md",
+    "work/tickets/FEAT/Lead Fix/subs",
+    "work/tickets/FEAT/Lead Fix/Important.md",
+    "work/tickets/FEAT/Lead Fix/diagrams and stuff/Process of creating a new project.md",
+    "tools/dev/xdebug.md",
+    "work/tickets/FEAT/Lead Fix/diagrams and stuff/lead table example.md",
+    "work/tickets/FEAT/Lead Fix/diagrams and stuff/leads without ids.md",
+    "work/tickets/FEAT/Lead Fix/UI test solution",
+    "work/docs/CRM/pics",
+    "work/docs/CRM/pics/Dashboard - Sales.png",
+    "work/docs/CRM",
+    "days/2024",
+    "2024-09-06.md~",
+    "tools/PM",
     "work/tickets/Lead Fix/Untitled.canvas",
-    "work/tickets/bugs/Mon Espace > Mes Appels > Appels entrant - Interlocutor's name not shown.md",
-    "work/tickets/Ma Perf - take into account incoming calls (Appels entrant).md",
-    "days/2024-08-29.md",
-    "notes/processor info on linux.md",
-    "Education/Typescript/concepts/Untitled",
-    "Education/Typescript/things",
-    "Education/Typescript/tasks",
-    "tasks/dev",
-    "Education/Typescript/TS and JS",
-    "work/tickets/Lead Fix",
     "Education/React/documentation/attachements/sharing_data_parent_clicked.webp",
     "Education/React/documentation/attachements/sharing_data_parent.webp",
     "Education/React/documentation/attachements/unnamed.png",

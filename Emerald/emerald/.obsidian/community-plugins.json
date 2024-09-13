@@ -15,6 +15,8 @@
   "obsidian-list-callouts",
   "settings-search",
   "obsidian-show-file-path",
-  "github-embeds",
-  "obsidian-reminder-plugin"
+  "obsidian-reminder-plugin",
+  "github-link",
+  "edit-in-neovim",
+  "vim-yank-highlight"
 ]

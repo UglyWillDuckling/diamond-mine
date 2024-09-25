@@ -369,3 +369,12 @@ Javascript
 #### review [[2024-08-30]]
 
 - [[Async Await]]
+
+### [[2024-09-24]]
+
+#### review [[2024-09-24]]
+- [[]]
+
+#### Lessons 📚
+- [[Bind]]
+- [[Places Where Destructuring Is Allowed]]

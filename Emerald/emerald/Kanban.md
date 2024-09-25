@@ -24,7 +24,8 @@ tags:
 ## next ⏭
 
 - [ ] books on [[object orientation]] and design
-- [ ] [[Fix nvim mappings]]
+- [ ] [[setup inteliphense premium]]
+- [ ] ask SRE about branch env's and deploys
 
 
 ## active ⚔
@@ -39,6 +40,8 @@ tags:
 
 **Complete**
 - [x] [[Tic-Tac-Toe]]
+- [x] [[ask about features on the CRM]]
+- [x] [[Fix nvim mappings]]
 
 
 ***

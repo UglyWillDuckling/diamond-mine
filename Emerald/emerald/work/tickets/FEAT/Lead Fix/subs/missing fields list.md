@@ -1,0 +1,36 @@
+#### from transaction
+- `item_coordinates`
+- **partner**
+#### from item
+- address_id
+- basements_available
+- bedrooms
+- build_period
+- city_id
+- `coordinates`
+- energy_consumption
+- floors
+- iris_id
+- parkings_available
+- street
+- street_id
+- subregion_id
+- subtype
+### hdata
+- construction_works
+- construction_works_price
+- construction_works_year
+- estima_accuracy
+- estima_available
+- estima_date
+- estima_price
+- estima_price_date
+- estima_price_high
+- estima_price_low
+- estima_sqm_price
+- ownership_month
+- ownership_year
+- profile_optin_realtors
+- profile_owner
+- profile_tax_exemption_incentive
+- status

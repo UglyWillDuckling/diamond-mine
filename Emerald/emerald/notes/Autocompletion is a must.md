@@ -1,5 +1,8 @@
+For tools
 
-I simplifies the way you use tools and makes it easier to find new options and features.
+---
+
+It **simplifies** the way you use `tools` and makes it easier to find new options and features.
 
 - faster usage
 - better understanding of the tool

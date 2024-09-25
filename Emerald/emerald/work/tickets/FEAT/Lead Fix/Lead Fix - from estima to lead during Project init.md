@@ -65,14 +65,4 @@ http://localhost:8001/contacts/6562017
 
 ### script for running transasction comparison
 
-- [ ] **find** the lead and estima ids to compare
-	- [ ] update UI to write out both
-	- [ ] store this in a list in obsidian
-
-#### wip
-print_leads_list, backyard/contacts/ui.contacts.inc
-
-**estima_id**=43899054 
-**lead_id**=2082656174
-
-[[diff for ...]]
+[[Make script to write out lead and estima id pairs]]

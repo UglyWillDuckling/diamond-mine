@@ -1,4 +1,9 @@
-For tools
+#console
+#tools
+#completion
+#UX
+
+`For tools`
 
 ---
 
@@ -9,3 +14,5 @@ It **simplifies** the way you use `tools` and makes it easier to find new option
 	- no need to dig through the docs
 - easier discovery of new **features**
 - ...
+
+<mark style="background: #FFF3A3A6;">this is mostly for console commands</mark>

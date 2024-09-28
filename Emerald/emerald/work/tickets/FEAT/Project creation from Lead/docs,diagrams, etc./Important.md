@@ -15,4 +15,5 @@
 
 - a lead without an estima can always be manufactured
 	- just remove its `estima_id`
-- contact id to test with: **6562017** 
+- contact id to test with: **6562017**
+- http://localhost:8001/contacts/6562017 

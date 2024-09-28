@@ -4,25 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8b0644a1f2e3321a",
+        "id": "b07dec9bf73ecf74",
         "type": "tabs",
         "children": [
           {
-            "id": "5a4449b884e65381",
+            "id": "55515176fa8aaed7",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    true,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "tasks/dev/See more about the null object pattern.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -76,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.5
+    "width": 299.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -103,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kanban.md",
+                "file": "tasks/dev/See more about the null object pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kanban.md",
+                "file": "tasks/dev/See more about the null object pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kanban.md"
+                "file": "tasks/dev/See more about the null object pattern.md"
               }
             }
           },
@@ -157,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 431.5,
+    "width": 317.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -175,37 +169,40 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5a4449b884e65381",
+  "active": "55515176fa8aaed7",
   "lastOpenFiles": [
-    "2024-09-25.md",
-    "2024-09-24.md",
-    "days/day template.md",
-    "Education/Typescript/Execute program {}/Modern Javascript/Nested Destructuring.md",
-    "Education/Typescript/Execute program {}/Modern Javascript/Places Where Destructuring Is Allowed.md",
-    "Education/Typescript/Execute program {}/execute program courses 🎓.md",
-    "Pasted image 20240923155220.png",
-    "Education/Typescript/Execute program {}/Modern Javascript/modern JS.md",
-    "Education/Typescript/Execute program {}/Modern Javascript/Bind.md",
-    "days/2024-09-23.md",
-    "work/tickets/FEAT/Lead Fix/subs/Make script to write out lead and estima id pairs.md",
-    "notes/archive/running vim macros.md",
+    "2024-09-28.md",
+    "tasks/dev/See more about the null object pattern.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/sequence - estima processing creation.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/study estima processing.md",
+    "2024-09-27.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Drawing 2024-09-27 16.17.10.excalidraw.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Lead Processing Rewrite.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Make script to compare transactions.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Gather information on the transition.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Doing.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/check that lead id is ahead of estima id.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Lead Processing Tests.md",
     "concepts/computer science/oop/patterns/Decorator.md",
-    "concepts/computer science/oop/ADT/Set.md",
-    "concepts/computer science/oop/object.md",
-    "concepts/computer science/oop/object orientation.md",
-    "concepts/computer science/oop/Type.md",
-    "concepts/computer science/oop/ADT/tuple.md",
+    "work/tickets/FEAT/Project creation from Lead/Use lead for project creation.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./lead project.md",
+    "work/calls/pair programming/pair programming - 2024-09-26.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/iris.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/Untitled",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./missing fields list.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./Important.md",
+    "work/tickets/FEAT/Diabolocom API transition/Diabolocom transition.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/transaction.md",
+    "Kanban.md",
+    "days/2024-09-26.md",
+    "notes/iris-code.png",
+    "concepts/computer science/oop/patterns/Chain of responsibility.md",
+    "concepts/computer science/oop/patterns/Composite.md",
+    "days/2024-09-25.md",
+    "work/tickets/FEAT/Diabolocom API transition",
+    "Pasted image 20240923155220.png",
     "concepts/computer science/oop/ADT",
     "concepts/computer science/oop/patterns/Decorator_UML_class_diagram.svg.png",
-    "work/tickets/FEAT/Lead Fix/Lead Fix - from estima to lead during Project init.md",
-    "Kanban.md",
-    "notes/LUNA team has its own argocd pipeline setup.md",
-    "notes/lazy nvim has the <leader-s>k mapping.md",
-    "notes/lazynvim's <leader-s> binding is awesome.md",
-    "notes/Autocompletion is a must.md",
-    "notes/archive/Butler conflict resolution.md",
-    "c.md",
-    "work/notes/SLMP will be multi-lingual.md",
     "work/tickets/archive",
     "Education/React/React Router/Tutorial - official.md~",
     "work/calls/SPRINT",
@@ -214,8 +211,6 @@
     "Education/React/React Router",
     "tasks/work",
     "Dashboard - Sales.png",
-    "Education/React/Alicea Course/notes",
-    "Education/React/Alicea Course/DOM and Declarative...",
     "work/docs/CRM/pics/Dashboard - Sales.png",
     "work/tickets/Lead Fix/Untitled.canvas",
     "Education/React/documentation/attachements/sharing_data_parent_clicked.webp",

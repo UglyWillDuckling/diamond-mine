@@ -3,6 +3,6 @@
 
 The current [[README]] is completely obsolete and needs to be updated with correct information
 
-- [ ] URL's are not correct
-- [ ] extranet info is wrong
+- [ ] `URL`'s are not correct
+- [ ] `extranet` info is wrong
 - [ ] ...

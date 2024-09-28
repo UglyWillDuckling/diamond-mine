@@ -113,7 +113,7 @@ false ?? [2]
 // false
 ```
 
-> Here's a summary of ??'s behavior:
+> Here's a summary of `??`'s behavior:
 
 ```typescript
 1 ?? 'default' === 1
@@ -367,13 +367,11 @@ Javascript
 ### [[2024-08-30]]
 
 #### review [[2024-08-30]]
-
 - [[Async Await]]
 
 ### [[2024-09-24]]
 
 #### review [[2024-09-24]]
-- [[]]
 
 #### Lessons 📚
 - [[Bind]]

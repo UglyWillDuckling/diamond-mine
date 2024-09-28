@@ -1,2 +1,2 @@
 
-- main tool is the phone ☎ [[Diabolocom]]
+- main tool is the phone ☎ [[work/docs/backyard/tools/Diabolocom]]

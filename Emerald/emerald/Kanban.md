@@ -30,8 +30,9 @@ tags:
 
 ## active ⚔
 
+- [ ] [[remove tab mapping for insert]]
 - [ ] [[take a look at higher order components article]]
-- [ ] [[Lead Fix - from estima to lead during Project init]]
+- [ ] [[Use lead for project creation]]
 - [ ] education / typescript advanced [[Typesript Education]]
 - [ ] [[Education/React/react|react]]
 

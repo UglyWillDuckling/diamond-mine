@@ -1,33 +1,24 @@
+[JIRA](Refactor and test estima processing class)
 [[sequence - estima processing creation]]
 
 ---
-## goals 🏁
-- understand what estima_processing is
-- tigh this back to the diagram
-- find key points
-- list relevant code elements
-- find usages
+# result
 
-## todos
-- [x] start 
-- [x] write down
-- [ ] list key points
-- [ ] list dependencies
-- [ ] list usages
-
-## result
-
-### important entities
 - `estima_processing`
 	- `file`: share/class.**estima_processing**.inc
 	- `table`: backyard::**estima_processing**
-- ...
 
-## work ⛏
+# goals 🏁
+- understand what `estima_processing` is
+- tigh this back to the diagram
+- find key points
+- list relevant code elements
+- find usages 🙈
 
-### estima processing creation
+# work ⛏
 
-#### code flow
+## estima processing creation
+### code flow
 the following shows the flow of estima processing creation
 
 `share/controller/leads.inc:1176`
@@ -61,24 +52,22 @@ public static function from_estima_id($estima_id): \estima_processing
 $estima_processing->set_processed(true)
 ```
 
-`share/class.estima_processing.inc:19`
-```
-
-```
-
-
-
 #### diagram
 ![[sequence - estima processing creation#diagram]]
+
 #### notes 📓
 - as the `estima_processing` for the given ID doesn't yet exist, a new one is created
+	- the `transaction id` is used for the ID value
 - the `estima_processing` is updated on `share/controller/leads.inc:117`
-- `estima_processing` looks to be the only table in the `backyard` DB
+- `estima_processing` looks to be the only table in the `backyard` **DB**
 
-### estima_processing Usage 👐
+## estima_processing Usage 👐
+
+### areas 🟧🟩
 - Frontend
 - ???
-#### questions
+### questions
 1. where is it used?
-2. what can be ignore? 
+2. what can we <mark style="background: #FFB86CA6;">ignore</mark>? 
+
 

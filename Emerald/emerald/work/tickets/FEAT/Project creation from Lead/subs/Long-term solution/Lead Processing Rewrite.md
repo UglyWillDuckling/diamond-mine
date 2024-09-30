@@ -1,5 +1,3 @@
-## intro
-
 ## goals
 - migrate to using the `lead` as the source of data for [[lead project]]
 	- compare the transactions made from estima's and lead's
@@ -18,6 +16,6 @@
 	- [ ] tests?
 - [x] use `Geo API` to retrive required information
 	- [x] `coordinates`, `street`, `iris_id`
-- [ ] move on to `estima processing` - [[study estima processing]]
+- [x] move on to `estima processing` - [[study estima processing]]
 - [ ] think 🤔 about <mark style="background: #BBFABBA6;">tests</mark>
 

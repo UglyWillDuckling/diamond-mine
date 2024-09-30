@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tasks/dev/See more about the null object pattern.md",
+                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 481.5,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tasks/dev/See more about the null object pattern.md",
+                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tasks/dev/See more about the null object pattern.md",
+                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tasks/dev/See more about the null object pattern.md"
+                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md"
               }
             }
           },
@@ -171,20 +172,27 @@
   },
   "active": "55515176fa8aaed7",
   "lastOpenFiles": [
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/study estima processing.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
+    "notes/nvim - windo diffthis.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/archive/check that lead id is ahead of estima id.md",
+    "work/tickets/FEAT/Project creation from Lead/Use lead for project creation.md",
+    "work/notes/Test contact ID.md",
+    "days/2024-09-27.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing",
+    "work/tickets/FEAT/Project creation from Lead/subs/archive",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Drawing 2024-09-27 16.17.10.excalidraw.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Make script to compare transactions.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/transaction.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Lead Processing Rewrite.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/sequence - estima processing creation.md",
+    "2024-09-30.md",
     "2024-09-28.md",
     "tasks/dev/See more about the null object pattern.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/sequence - estima processing creation.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/study estima processing.md",
-    "2024-09-27.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Drawing 2024-09-27 16.17.10.excalidraw.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Lead Processing Rewrite.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Make script to compare transactions.md",
     "work/tickets/FEAT/Project creation from Lead/subs/Gather information on the transition.md",
     "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Doing.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/check that lead id is ahead of estima id.md",
     "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Lead Processing Tests.md",
     "concepts/computer science/oop/patterns/Decorator.md",
-    "work/tickets/FEAT/Project creation from Lead/Use lead for project creation.md",
     "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./lead project.md",
     "work/calls/pair programming/pair programming - 2024-09-26.md",
     "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/iris.md",
@@ -192,13 +200,8 @@
     "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./missing fields list.md",
     "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./Important.md",
     "work/tickets/FEAT/Diabolocom API transition/Diabolocom transition.md",
-    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/transaction.md",
     "Kanban.md",
-    "days/2024-09-26.md",
     "notes/iris-code.png",
-    "concepts/computer science/oop/patterns/Chain of responsibility.md",
-    "concepts/computer science/oop/patterns/Composite.md",
-    "days/2024-09-25.md",
     "work/tickets/FEAT/Diabolocom API transition",
     "Pasted image 20240923155220.png",
     "concepts/computer science/oop/ADT",
@@ -208,8 +211,6 @@
     "work/calls/SPRINT",
     "work/calls/1 on 1",
     "work/calls/pair programming",
-    "Education/React/React Router",
-    "tasks/work",
     "Dashboard - Sales.png",
     "work/docs/CRM/pics/Dashboard - Sales.png",
     "work/tickets/Lead Fix/Untitled.canvas",

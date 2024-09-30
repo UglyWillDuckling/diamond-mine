@@ -6,7 +6,7 @@
 - [JIRA](https://avivgroup.atlassian.net/browse/LUNA-226)
 
 ## goals
-- get a complete understanding of the [[Use lead for project creation]] issues
+- get a complete understanding of the [[Use lead for project creation]] 
 	- need to fully comprehend what is happening and what the plan for the future is
 	- what changes need to made
 	- what can go wrong
@@ -15,6 +15,9 @@
 		- clarify the existing and future data structures
 - replace the usage of estima with lead for project creation
 	- migrate to using the lead as the main data source
+
+# status
+- the project creation is now matching the `fake` estima process used by NOVA on WSL
 
 ---
 # Ideas 🌩
@@ -28,7 +31,7 @@
 
 ![[Important#notes 🗒]]
 ## todo's ✔
-- [x] examine the current workflow [[#examine the workflow 🗞]]
+- [x] examine the current workflow
 	- [x] play around with the workflow on the page
 - [x] understand what the `transaction` represents
 	- [x] what's the purpose of it, responsibility?

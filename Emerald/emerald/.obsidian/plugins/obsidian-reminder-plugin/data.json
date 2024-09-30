@@ -1,18 +1,11 @@
 {
   "scanned": true,
   "reminders": {
-    "work/notes/SLMP will be multi-lingual.md": [
+    "work/notes/Test contact ID.md": [
       {
-        "title": "remind",
-        "time": "2024-09-30",
-        "rowNumber": 4
-      }
-    ],
-    "tools/PM/BeeBole.md": [
-      {
-        "title": "remind",
-        "time": "2024-09-30",
-        "rowNumber": 2
+        "title": "remind me",
+        "time": "2024-10-07",
+        "rowNumber": 3
       }
     ]
   },
@@ -27,7 +20,7 @@
     "dateFormat": "YYYY-MM-DD",
     "dateTimeFormat": "YYYY-MM-DD HH:mm",
     "strictDateFormat": false,
-    "linkDatesToDailyNotes": false,
+    "linkDatesToDailyNotes": true,
     "enableTasksPluginReminderFormat": false,
     "useCustomEmojiForTasksPlugin": false,
     "removeTagsForTasksPlugin": false,

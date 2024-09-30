@@ -2,4 +2,4 @@
 #language
 #french
 
-- [ ] remind (@2024-09-30)
+- [x] remind (@2024-09-30)

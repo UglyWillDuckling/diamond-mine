@@ -12,12 +12,13 @@
 `Correspondence between our perception of the world and its representation in machine terms through Smalltalk gets at the heart of Smalltalk's power.`
 
 #encapsulation 
-!!!Related data and <mark style="background: #FF5582A6;">program</mark> pieces are **encapsulated** within a Smalltalk object, a
+!!!Related data and <mark style="background: #FF5582A6;">program</mark> <mark style="background: #FFB8EBA6;">pieces</mark> are **encapsulated** within a Smalltalk object, a
 **communicating black box**.
 
 #communication
 #collaboration
 #messaging
+
 ...And if an object needs something done that it does not know how to do
 within its own set of methods, it **sends a message** to another object, in effect, asking for
 assistance in the completion of a task.

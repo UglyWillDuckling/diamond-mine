@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "💽",
       "🤔",
       "LiShapes",
       "LiTrash",
-      "LiSword",
-      "LiClipboardCheck"
+      "LiSword"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,5 +37,6 @@
   "Excalidraw": "LiSword",
   "garbage": "LiTrash",
   "OOP": "LiShapes",
-  "concepts": "🤔"
+  "concepts": "🤔",
+  "concepts/Computer science": "💽"
 }

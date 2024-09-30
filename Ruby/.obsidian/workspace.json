@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "4f6ef801d8cef215",
+        "id": "277b77ad8905fac6",
         "type": "tabs",
         "children": [
           {
-            "id": "f1831b92545d5d78",
+            "id": "d05c04e6bf5e0a53",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "OOP/Drawing - Sequence diagrams.md"
+                "file": "OOP/smalltalk/💠 objects in Smalltalk.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 335.5,
+    "collapsed": true
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OOP/Drawing - Sequence diagrams.md",
+                "file": "OOP/smalltalk/💠 objects in Smalltalk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OOP/Drawing - Sequence diagrams.md",
+                "file": "OOP/smalltalk/💠 objects in Smalltalk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OOP/Drawing - Sequence diagrams.md"
+                "file": "OOP/smalltalk/💠 objects in Smalltalk.md"
               }
             }
           },
@@ -166,28 +169,32 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f1831b92545d5d78",
+  "active": "d05c04e6bf5e0a53",
   "lastOpenFiles": [
-    "concepts/information hiding - encapsulation.md",
-    "daily tasks/2024-07-23.md",
-    "daily tasks/2024-07-22.md",
-    "concepts/message passing.md",
-    "OOP/object orientation.md",
-    "OOP/Drawing - Sequence diagrams.md",
-    "OOP/smalltalk/Smalltalk.md",
     "OOP/smalltalk/💠 objects in Smalltalk.md",
-    "concepts/polymorphism.md",
+    "2024-09-24.md",
+    "Untitled 1.canvas",
     "Untitled.canvas",
+    "concepts/Computer science/OOP/polymorphism.md",
+    "daily tasks/2024-07-22.md",
+    "OOP/Drawing - Sequence diagrams.md",
+    "concepts/Computer science/information hiding - encapsulation.md",
+    "concepts/Computer science/OOP",
+    "concepts/Computer science",
+    "concepts/Computer science/abstraction.md",
     "OOP/smalltalk/ascii char count draw.md",
-    "2024-07-21.md",
     "OOP/smalltalk/lawyer.png",
+    "OOP/smalltalk/Smalltalk - basic statements!.md",
     "OOP/smalltalk/Smalltalk connections.canvas",
+    "daily tasks/2024-07-23.md",
+    "concepts/Computer science/OOP/message passing.md",
+    "OOP/object orientation.md",
+    "OOP/smalltalk/Smalltalk.md",
+    "2024-07-21.md",
     "Excalidraw/Drawing 2024-07-22 21.21.09.excalidraw.md",
     "daily tasks",
-    "concepts/abstraction.md",
     "concepts",
     "information hiding /encapsulation.md",
-    "OOP/smalltalk/Smalltalk - basic statements!.md",
     "information hiding ",
     "garbage/Pasted Image 20240722212258_372.jpg",
     "garbage",

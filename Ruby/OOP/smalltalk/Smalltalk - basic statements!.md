@@ -94,7 +94,6 @@ for i := 1 to 26 do
 write(f[i], ' ')
 end.
 ```
-
 #### **smalltalk**
 ```smalltalk
 "The program above ask the user to enter a line of text from the keyboard. It then

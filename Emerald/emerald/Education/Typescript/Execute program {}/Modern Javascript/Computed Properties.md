@@ -1,3 +1,6 @@
+## intro
+
+ES6 allows you to use an expression in brackets []. It’ll then use the result of the expression as the property name of an object.
 
 ## general\
 
@@ -16,19 +19,19 @@ const loginCounts = {
 loginCounts.Betty;
 ```
 
-
 ## practical example
 
 ```js
 const betty = {
   name: 'Betty',
-  emailConfirmed: true,
   yearJoined: 2015
-};
-
-function getYearJoined(user) {
-  return {[user.name]: user.yearJoined};
 }
 
-getYearJoined(betty);
+function getYearJoined(user) {
+  return {[user.name]: user.yearJoined}
+}
+
+getYearJoined(betty)
+
+{Betty: 2015}
 ```

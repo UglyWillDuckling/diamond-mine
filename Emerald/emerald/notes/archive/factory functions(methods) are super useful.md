@@ -16,3 +16,9 @@ function makeListing(taskList: TaskList, list_type: listingOption): TaskListing 
 
 - @ factory methods can be combined with builders as well like with **test builders** where they are used to quickly build a `default` builder
 - [x] remind (@2024-09-16 10:32)
+
+## relates to
+[[Refactoring]]
+[[Factory Method]]
+[[Abstract Factory Pattern]]
+

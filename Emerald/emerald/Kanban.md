@@ -18,29 +18,31 @@ tags:
 ## backlog 🗃
 
 - [ ] [[Find what grug is about]]
+- [ ] explore [[mermaid.js]]
 
 
 ## next ⏭
 
 - [ ] books on [[object orientation]] and design
-- [ ] [[setup inteliphense premium]]
+- [ ] [[take a look at higher order components article]]
 - [ ] [[ask SRE about LUNA environment]]
-- [ ] [[Refactoring]] book
-- [ ] explore [[mermaid.js]]
+- [ ] [[setup inteliphense premium]]
 
 
 ## active ⚔
 
-- [ ] [[take a look at higher order components article]]
-- [ ] education / typescript advanced [[Typesript Education]]
+- [ ] study [[Null Object Pattern]] and [[Special Case Pattern]]
+- [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script
+- [ ] read some [[Refactoring]] 📚
 - [ ] [[Education/React/react|react]]
+- [ ] education / typescript advanced [[Typesript Education]]
 
 
 ## finished
 
 **Complete**
-- [x] [[Use lead for project creation]]
 - [x] [[Tic-Tac-Toe]]
+- [x] ask about adding a `source` field to the [[lead project]] entity 😷
 
 
 ***
@@ -64,6 +66,7 @@ tags:
 - [x] [[ask about features on the CRM]]
 - [x] [[remove tab mapping for insert]]
 - [x] [[Resolve performance issues]]
+- [x] [[Use lead for project creation]]
 
 %% kanban:settings
 ```

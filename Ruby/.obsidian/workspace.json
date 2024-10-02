@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.5,
-    "collapsed": true
+    "width": 234.5
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -180,7 +179,13 @@
   },
   "active": "09ce7996ac88e2a7",
   "lastOpenFiles": [
+    "notes/cronie is required for cron to work.md",
     "articles/Tech is no substitute for depth 🤔.md",
+    "tools/systemd.md",
+    "tools/cron.md",
+    "tools/cronie.md",
+    "tools",
+    "notes",
     "articles",
     "days",
     "2024-09-29.md",
@@ -214,13 +219,8 @@
     "Excalidraw/Drawing 2024-07-22 21.21.09.excalidraw.md",
     "daily tasks",
     "concepts",
-    "information hiding /encapsulation.md",
     "information hiding ",
     "garbage/Pasted Image 20240722212258_372.jpg",
-    "garbage",
-    "Excalidraw",
-    "concepts/Computer science/OOP/smalltalk",
-    "create a link.md",
-    "Welcome.md"
+    "garbage"
   ]
 }

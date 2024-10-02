@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "📓",
       "🤖",
       "✍",
       "LiCalendarDays",
-      "💽",
-      "🤔"
+      "💽"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -38,5 +38,6 @@
   "concepts/Computer science": "💽",
   "days": "LiCalendarDays",
   "articles": "✍",
+  "notes": "📓",
   "articles/Tech is no substitute for depth 🤔.md": "🤖"
 }

@@ -1,4 +1,3 @@
-# Higher Order React Components
 
 When writing user interfaces with the React framework, I often find that several of my components have similar behaviour. For example, I may have different components that display the eventual value of a [promise][], or display changing values of an [Rx event stream], are sources or targets for drag-and-drop interactions, and so on. I want to define these common behaviours once and compose them into my component classes where required. This, in a nutshell, is what "higher-order components" let me do.
 

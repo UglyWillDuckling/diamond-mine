@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-10-02.md",
+                "file": "Education/Articles/Higher Order React Components.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 310.5,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-10-02.md",
+                "file": "Education/Articles/Higher Order React Components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-10-02.md",
+                "file": "Education/Articles/Higher Order React Components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-02.md"
+                "file": "Education/Articles/Higher Order React Components.md"
               }
             }
           },
@@ -172,8 +173,8 @@
   },
   "active": "90aac1a33d0337a4",
   "lastOpenFiles": [
-    "notes/dev/bashmarks can list bookmarks.md",
     "2024-10-02.md",
+    "notes/dev/bashmarks can list bookmarks.md",
     "2024-10-02.md~",
     "Education/Books/Holub on Patterns - Learning Design Patterns by Looking at Code.md",
     "Education/Typescript/Execute program {}/Modern Javascript/Extending Classes.md",

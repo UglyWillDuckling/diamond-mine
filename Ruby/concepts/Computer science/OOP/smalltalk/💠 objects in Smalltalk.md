@@ -61,27 +61,6 @@ answer with a "**Message not understood**" response message.
 ## How does Smalltalk organize objects and their methods?
 
 ```mermaid
-stateDiagram-v2
-        [*] --> Still
-        Still --> [*]
-    
-        Still --> Moving
-        Moving --> Still
-        Moving --> Crash
-        Crash --> [*]
-
-```
-
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-John-->>Alice: Great!
-Alice-)John: See you later!
-
-```
-
-
-```mermaid
 sequenceDiagram
 actor Alice
 actor John

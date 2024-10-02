@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-10-02.md",
+                "file": "notes/dev/bashmarks can list bookmarks.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-10-02.md",
+                "file": "notes/dev/bashmarks can list bookmarks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-10-02.md",
+                "file": "notes/dev/bashmarks can list bookmarks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-02.md"
+                "file": "notes/dev/bashmarks can list bookmarks.md"
               }
             }
           },
@@ -173,8 +173,10 @@
   },
   "active": "90aac1a33d0337a4",
   "lastOpenFiles": [
-    "Education/Books/Holub on Patterns - Learning Design Patterns by Looking at Code.md",
     "2024-10-02.md",
+    "notes/dev/bashmarks can list bookmarks.md",
+    "2024-10-02.md~",
+    "Education/Books/Holub on Patterns - Learning Design Patterns by Looking at Code.md",
     "Education/Typescript/Execute program {}/Modern Javascript/Extending Classes.md",
     "Education/Typescript/Execute program {}/Modern Javascript/Classes.md",
     "Education/Typescript/Execute program {}/Modern Javascript/Arrow Function Scoping.md",
@@ -203,14 +205,12 @@
     "notes/dev",
     "concepts/computer science/state.md",
     "concepts/computer science/program.md",
-    "concepts/computer science/oop/patterns/Special Case Pattern.md",
     "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./diagrams",
     "Education/Books/Patterns of Enterprise/content",
     "Education/Books/Patterns of Enterprise/content/special_case.jpg",
     "Education/experiments/obsidian",
     "Education/Books/Patterns of Enterprise",
     "work/notes/iris-code.png",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing",
     "Pasted image 20240923155220.png",
     "concepts/computer science/oop/patterns/Decorator_UML_class_diagram.svg.png",
     "Dashboard - Sales.png",

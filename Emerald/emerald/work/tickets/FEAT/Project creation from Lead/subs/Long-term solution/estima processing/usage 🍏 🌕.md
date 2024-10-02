@@ -55,4 +55,6 @@ We could even leave the **same logic as is** and only use the `estima_id` DB fie
 - [x] create an **activity diagram** to show the two possible ways to fetch an [[estima_processing]] entity and
 	- [ ] verify if the [[estima]] or [[lead]] have been `processed` - [diagram](https://www.mermaidchart.com/app/projects/c0dfe25c-1b2a-42c9-9b77-260bc9119ec7/diagrams/36b32686-3f3c-4e48-b804-226ff894eec0/version/v0.1/edit)
 - [ ] update the codebase to support both `flows`
+	- [x] create methods to use both lead and estima
+	- [ ] update the codebase to use it
 

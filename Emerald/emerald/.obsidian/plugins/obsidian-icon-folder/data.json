@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiHardHat",
       "🟩",
       "🗃",
       "LiFolderGit",
-      "🎓",
-      "LiSignalZero"
+      "🎓"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -116,7 +116,6 @@
   "Education/React/Alicea Course/DOM and Declarative.../HTML and Trees.md": "LiTreePine",
   "Education/React/Alicea Course/DOM and Declarative.../HTML, The Browser, and the DOM.md": "LiTrees",
   "tasks/dev/Resolve performance issues.md": "🔥",
-  "tasks/work/ask about features on the CRM.md": "LiQuestionMarkGlyph",
   "Education/React/React Router": "LiRoute",
   "work/calls/pair programming/pair programming call - 2024-09-17.md": "LiKeyboard",
   "work/calls/pair programming": "LiKeyboard",
@@ -129,8 +128,6 @@
   "notes/archive/Typescript has decorators.md": "🎍",
   "work/notes/SLMP will be multi-lingual.md": "LiLanguages",
   "notes/archive/Butler conflict resolution.md": "🏋",
-  "notes/LUNA team has its own argocd pipeline setup.md": "LiMoon",
-  "Education/people": "LiPersonStanding",
   "concepts/computer science/oop/patterns": "LiShapes",
   "concepts/computer science": "LiCpu",
   "Education/Typescript/Execute program {}/Modern Javascript/Nested Destructuring.md": "🪺",
@@ -154,14 +151,18 @@
   "tasks/dev/See more about the null object pattern.md": "LiSignalZero",
   "work/tickets/FEAT/Project creation from Lead/subs": "LiListTree",
   "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution": "🌄",
-  "work/tickets/FEAT/Project creation from Lead/subs/Gather information on the transition.md": "ℹ",
   "work/tickets/FEAT/Project creation from Lead/subs/UI test solution": "🔶",
   "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Lead Processing Rewrite.md": "LiShapes",
   "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Make script to compare transactions.md": "LiSubscript",
   "work/tickets/FEAT/Project creation from Lead/subs/UI test solution/UI test lead fix.md": "🔶",
-  "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/sequence - estima processing creation.md": "LiFolderGit",
   "work/tickets/FEAT/Project creation from Lead/subs/archive": "🗃",
   "work/tickets/FEAT/Project creation from Lead/subs/archive/check that lead id is ahead of estima id.md": "🆔",
   "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/study estima processing.md": "🎓",
-  "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md": "🟩"
+  "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md": "🟩",
+  "work/tickets/FEAT/Project creation from Lead/subs/archive/Gather information on the transition.md": "ℹ",
+  "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./sequence - estima processing creation.md": "LiFolderGit",
+  "work/notes/LUNA team has its own argocd pipeline setup.md": "LiMoon",
+  "tasks/dev/Study null object pattern.md": "LiSignalZero",
+  "tasks/archive/ask about features on the CRM.md": "LiQuestionMarkGlyph",
+  "tasks/work": "LiHardHat"
 }

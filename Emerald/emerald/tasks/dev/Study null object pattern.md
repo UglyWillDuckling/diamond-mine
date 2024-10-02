@@ -4,6 +4,7 @@
 #null
 #nil
 
-see [[Martin Fowler]]'s [[Refactoring]] book 📕.
+[[Null Object Pattern]]
 
+see [[Martin Fowler]]'s [[Refactoring]] book 📕.
 

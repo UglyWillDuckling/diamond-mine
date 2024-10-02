@@ -1,3 +1,3 @@
 
 - [x] multi-lingual support
-- [ ] undo-redo features
+- [x] undo-redo features

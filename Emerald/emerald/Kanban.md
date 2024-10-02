@@ -17,7 +17,6 @@ tags:
 
 ## backlog 🗃
 
-- [ ] [[Resolve performance issues]]
 - [ ] [[Find what grug is about]]
 
 
@@ -25,14 +24,14 @@ tags:
 
 - [ ] books on [[object orientation]] and design
 - [ ] [[setup inteliphense premium]]
-- [ ] ask SRE about branch env's and deploys
+- [ ] [[ask SRE about LUNA environment]]
+- [ ] [[Refactoring]] book
+- [ ] explore [[mermaid.js]]
 
 
 ## active ⚔
 
-- [ ] [[remove tab mapping for insert]]
 - [ ] [[take a look at higher order components article]]
-- [ ] [[Use lead for project creation]]
 - [ ] education / typescript advanced [[Typesript Education]]
 - [ ] [[Education/React/react|react]]
 
@@ -40,9 +39,8 @@ tags:
 ## finished
 
 **Complete**
+- [x] [[Use lead for project creation]]
 - [x] [[Tic-Tac-Toe]]
-- [x] [[ask about features on the CRM]]
-- [x] [[Fix nvim mappings]]
 
 
 ***
@@ -62,6 +60,10 @@ tags:
 - [x] spike - my tile cache
 - [x] [[switch over to Firefox]]
 - [x] [[Gather information on the transition]]
+- [x] [[Fix nvim mappings]]
+- [x] [[ask about features on the CRM]]
+- [x] [[remove tab mapping for insert]]
+- [x] [[Resolve performance issues]]
 
 %% kanban:settings
 ```

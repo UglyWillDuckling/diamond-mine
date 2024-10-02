@@ -4,6 +4,8 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
+    ":tickets:",
+    ":books:",
     ":heavy_check_mark:",
     ":keyboard:",
     ":open_file_folder:",
@@ -40,8 +42,6 @@
     ":point_right:",
     ":classical_building:",
     ":curly_loop:",
-    ":books:",
-    ":tickets:",
     ":email:",
     ":file_cabinet:",
     ":card_file_box:",

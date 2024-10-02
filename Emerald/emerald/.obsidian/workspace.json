@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
+                "file": "2024-10-02.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5,
-    "collapsed": true
+    "width": 270.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
+                "file": "2024-10-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
+                "file": "2024-10-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md"
+                "file": "2024-10-02.md"
               }
             }
           },
@@ -172,36 +171,36 @@
   },
   "active": "55515176fa8aaed7",
   "lastOpenFiles": [
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/study estima processing.md",
+    "2024-10-01.md",
+    "2024-10-02.md",
+    "Kanban.md",
+    "tools/dev/mermaid.js.md",
+    "concepts/computer science/oop/patterns/Null Object Pattern.md",
+    "Education/Books/Refactoring.md",
+    "people/Martin Fowler.md",
+    "people/Rebecca Wirfs-Brock.md",
+    "tasks/work/ask SRE about LUNA environment.md",
+    "tasks/archive/ask about features on the CRM.md",
+    "tools/PM/BeeBole.md",
+    "Education/React/react.md",
+    "Education/2024-09-24.md",
+    "Education/React/React Router/Untitled.md",
+    "tasks/dev/Study null object pattern.md",
     "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
-    "notes/nvim - windo diffthis.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/archive/check that lead id is ahead of estima id.md",
+    "tasks/dev/Find what grug is about.md",
+    "tasks/dev/remove tab mapping for insert.md",
+    "Education/Books/Object Design Roles, Responsibilities, and Collaborations.md",
+    "work/notes/iris-code.png",
     "work/tickets/FEAT/Project creation from Lead/Use lead for project creation.md",
-    "work/notes/Test contact ID.md",
-    "days/2024-09-27.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./sequence - estima processing creation.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./What has been done.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./Process of creating a new project.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./missing fields list.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./leads without ids.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./lead table example.md",
     "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing",
     "work/tickets/FEAT/Project creation from Lead/subs/archive",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Drawing 2024-09-27 16.17.10.excalidraw.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Make script to compare transactions.md",
-    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/transaction.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Lead Processing Rewrite.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/sequence - estima processing creation.md",
-    "2024-09-30.md",
-    "2024-09-28.md",
-    "tasks/dev/See more about the null object pattern.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Gather information on the transition.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Doing.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Lead Processing Tests.md",
-    "concepts/computer science/oop/patterns/Decorator.md",
-    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./lead project.md",
-    "work/calls/pair programming/pair programming - 2024-09-26.md",
-    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/iris.md",
     "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/Untitled",
-    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./missing fields list.md",
-    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./Important.md",
-    "work/tickets/FEAT/Diabolocom API transition/Diabolocom transition.md",
-    "Kanban.md",
-    "notes/iris-code.png",
     "work/tickets/FEAT/Diabolocom API transition",
     "Pasted image 20240923155220.png",
     "concepts/computer science/oop/ADT",

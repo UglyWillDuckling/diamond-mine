@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/dev/bashmarks can list bookmarks.md",
+                "file": "2024-10-02.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5,
-    "collapsed": true
+    "width": 310.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/dev/bashmarks can list bookmarks.md",
+                "file": "2024-10-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/dev/bashmarks can list bookmarks.md",
+                "file": "2024-10-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/dev/bashmarks can list bookmarks.md"
+                "file": "2024-10-02.md"
               }
             }
           },
@@ -173,8 +172,8 @@
   },
   "active": "90aac1a33d0337a4",
   "lastOpenFiles": [
-    "2024-10-02.md",
     "notes/dev/bashmarks can list bookmarks.md",
+    "2024-10-02.md",
     "2024-10-02.md~",
     "Education/Books/Holub on Patterns - Learning Design Patterns by Looking at Code.md",
     "Education/Typescript/Execute program {}/Modern Javascript/Extending Classes.md",

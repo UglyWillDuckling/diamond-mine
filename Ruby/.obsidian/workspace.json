@@ -131,14 +131,6 @@
             }
           },
           {
-            "id": "48e400667409845d",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
-          },
-          {
             "id": "ea0b7ca487bd981d",
             "type": "leaf",
             "state": {
@@ -153,9 +145,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "b2d49d0e9b1aefae",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -170,9 +170,10 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-day-planner:Timeline": false,
       "mermaid-tools:Open Mermaid Toolbar": false
     }

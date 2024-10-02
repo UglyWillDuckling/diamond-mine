@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "✍",
+      "LiCalendarDays",
       "💽",
       "🤔",
-      "LiShapes",
-      "LiTrash",
-      "LiSword"
+      "LiShapes"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,9 +34,8 @@
     "debugMode": false
   },
   "daily tasks": "LiClipboardCheck",
-  "Excalidraw": "LiSword",
-  "garbage": "LiTrash",
-  "OOP": "LiShapes",
   "concepts": "🤔",
-  "concepts/Computer science": "💽"
+  "concepts/Computer science": "💽",
+  "days": "LiCalendarDays",
+  "articles": "✍"
 }

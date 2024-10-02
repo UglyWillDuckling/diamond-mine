@@ -3,5 +3,6 @@
   "tabSize": 4,
   "spellcheck": false,
   "showLineNumber": false,
-  "vimMode": true
+  "vimMode": true,
+  "promptDelete": false
 }

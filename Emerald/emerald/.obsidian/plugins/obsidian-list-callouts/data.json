@@ -28,5 +28,11 @@
     "color": "158, 158, 158",
     "char": "%",
     "icon": "lucide-scale"
+  },
+  {
+    "char": "\"",
+    "color": "1, 173, 84",
+    "icon": "lucide-flask-conical",
+    "custom": true
   }
 ]

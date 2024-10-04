@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a3a5e0bff7d0791c",
+        "id": "159b8c9836f48344",
         "type": "tabs",
         "children": [
           {
-            "id": "90aac1a33d0337a4",
+            "id": "fe3dede7f510ae06",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Education/Articles/Higher Order React Components.md",
+                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5,
+    "width": 219.5,
     "collapsed": true
   },
   "right": {
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Articles/Higher Order React Components.md",
+                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Education/Articles/Higher Order React Components.md",
+                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Education/Articles/Higher Order React Components.md"
+                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md"
               }
             }
           },
@@ -168,43 +168,44 @@
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "zk-prefixer:Create new unique note": false
+      "zk-prefixer:Create new unique note": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "90aac1a33d0337a4",
+  "active": "fe3dede7f510ae06",
   "lastOpenFiles": [
-    "2024-10-02.md",
+    "Education/Books/Patterns of Enterprise/Special Case.md",
+    "2024-10-03.md",
+    "people/Allen Holub.md",
+    "Kanban.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/study estima processing.md",
+    "Education/Articles/Higher Order React Components.md",
+    "work/tickets/FEAT/Project creation from Lead/Use lead for project creation.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/Anonymous and Inline Classes.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/Class Scoping.md",
+    "Education/Typescript/Execute program {}/execute program courses 🎓.md",
+    "Education/Typescript/Typesript Education.md",
+    "Education/Typescript/short notes 📒/TS and JS/How to do imports in TS.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/Classes.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/Bind.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/Spread.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/Function Name Property.md",
+    "concepts/pair programming.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/Modern Javascript.md",
+    "Education/Books/Patterns of Enterprise/Patterns of Enterprise Architecture.md",
+    "[New Number Methods.md",
+    "days/2024-10-02.md",
+    "notes/obsidian/callouts.md",
+    "notes/obsidian/arrow function.md",
     "notes/dev/bashmarks can list bookmarks.md",
     "2024-10-02.md~",
     "Education/Books/Holub on Patterns - Learning Design Patterns by Looking at Code.md",
-    "Education/Typescript/Execute program {}/Modern Javascript/Extending Classes.md",
-    "Education/Typescript/Execute program {}/Modern Javascript/Classes.md",
-    "Education/Typescript/Execute program {}/Modern Javascript/Arrow Function Scoping.md",
-    "Education/Typescript/Execute program {}/Modern Javascript/Arrow Function Basics.md",
     "Education/Typescript/Execute program {}/Modern Javascript/Arrow Function Scoping",
-    "notes/obsidian/callouts.md",
-    "notes/obsidian/arrow function.md",
-    "notes/obsidian/you can use embeds in Obsidian.md",
-    "notes/obsidian/You can add identifiers to blocks.md",
-    "days/2024/2024-07-22.md",
-    "notes/archive/Go to file is the answer.md",
-    "notes/archive/lazy nvim has the <leader-s>k mapping.md",
     "notes/obsidian",
-    "notes/Autocompletion is a must.md",
-    "Education/Typescript/Execute program {}/Modern Javascript/arrow function.md",
-    "notes/archive/factory functions(methods) are super useful.md",
-    "concepts/Abstract Factory Pattern.md",
-    "concepts/Factory Method.md",
-    "notes/unique/202410021607.md",
     "notes/unique",
     "notes/templates",
-    "Education/Typescript/Execute program {}/Modern Javascript/Computed Properties.md",
-    "Education/Typescript/Execute program {}/Modern Javascript/New Number Methods.md",
-    "Education/Books/Patterns of Enterprise/Special Case.md",
-    "notes/dev/javascript - getters and setter may be private.md",
     "notes/dev",
-    "concepts/computer science/state.md",
-    "concepts/computer science/program.md",
     "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./diagrams",
     "Education/Books/Patterns of Enterprise/content",
     "Education/Books/Patterns of Enterprise/content/special_case.jpg",

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiDot",
       "🏛",
       "LiArrowtab",
       "LiImage",
-      "♦",
-      "LiDiamond"
+      "♦"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -161,7 +161,6 @@
   "tasks/dev/Study null object pattern.md": "LiSignalZero",
   "tasks/archive/ask about features on the CRM.md": "LiQuestionMarkGlyph",
   "tasks/work": "LiHardHat",
-  "Education/Books/Patterns of Enterprise/Patterns of Enterprise.md": "🌉",
   "Education/Books/Patterns of Enterprise": "LiPalette",
   "tools/vim - vimrc.md": "🙈",
   "Education/experiments/obsidian/columns.md": "LiColumns",
@@ -176,7 +175,8 @@
   "notes/archive/factory functions(methods) are super useful.md": "LiFactory",
   "notes/obsidian": "♦",
   "notes/obsidian/you can use embeds in Obsidian.md": "LiImage",
-  "notes/obsidian/arrow function.md": "LiArrowtab",
   "Education/Typescript/Execute program {}/Modern Javascript/Arrow Function Basics.md": "LiArrowtab",
-  "Education/Typescript/Execute program {}/Modern Javascript/Classes.md": "🏛"
+  "Education/Typescript/Execute program {}/Modern Javascript/Classes.md": "🏛",
+  "Education/Books/Patterns of Enterprise/Patterns of Enterprise Architecture.md": "🌉",
+  "Education/Typescript/Execute program {}/Modern Javascript/Spread.md": "LiDot"
 }

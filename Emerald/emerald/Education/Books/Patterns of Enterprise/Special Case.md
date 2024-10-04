@@ -3,7 +3,7 @@
 #special
 #null 
 
-[[Patterns of Enterprise]], [[Refactoring]]
+[[Patterns of Enterprise Architecture]], [[Refactoring]]
 [[Null Object Pattern]]
 
 > A `subclass` that provides **special** behavior for **particular cases**.
@@ -43,7 +43,7 @@ Rather than just using a null customer, consider having separate <mark style="ba
 
 A common way for a Special Case to override methods is to return another `Special Case`, so if you ask an <mark style="background: #FFB86CA6;">unknown</mark> customer for his last bill, you may well get an **unknown** **bill**.
 
-### example arithmetic - floating points
+### example from arithmetic - floating points
 `IEEE 754` floating-point arithmetic offers good examples of Special Case with positive infinity, negative infinity, and not-a-number (**NaN**). If you divide by zero, instead of getting an exception that you have to deal with, the system just returns **NaN**, and **NaN** participates in arithmetic just like any other `floating point number`.
 
 ## when to use it
@@ -65,9 +65,9 @@ class NullEmployee : Employee, INull
       public override Contract Contract {
          get {return Contract.NULL;}
       }
-****```
+```
 
-> [!TIP] NULL Contract
+> [!TIP] The NULL Contract
 > Notice that when you ask a **null** **employee** for its `contract` you get a **null** **contract** back.
 
 The default values here avoid a lot of **null tests** if they end up with the same null values. The repeated null values are handled by the null object by default. You can also test for nullness explicitly either by giving the customer an `isNull` method or by using a type test for a marker interface.
@@ -80,16 +80,14 @@ The default values here avoid a lot of **null tests** if they end up with the sa
 - in combination with [[exception handling]] and some other `patterns` can almost completely eliminate **NULL checks**, see [[null check]]
 
 ## things to watch out for
-
 - be careful not to use the `special case` in cases where you actually **need** to check for [[null]] values
 	- certain situations actually **need** to `know` if the value/entity exists or not
 		- for this , you may add a `method` on the [[interface]] of the entity/value that returns if the current [[object]] is a `null object`
 	- sometimes its better to use a `local` variation of the `special case` in order to not generalize things and to make the `special case` more **focused** and to **simpler** compared to the main `interface`
 	- yet another solution is to make a new [[type]]  that will behave exactly as you want withing your own context
-		- this new type and the produced object would then either `wrap` the null object or replace it completely
+		- this new [[Type]] and the produced `object` would then either `wrap` the null object or replace it completely
 
 ## personal notes 📔
-
 - aside from being used on a general level, can be employed **locally** within a certain [[scope]], e.g. a class or module
 	- gives the benefit of the more general pattern without being global
 	- allows for <mark style="background: #BBFABBA6;">fine tuning</mark> of the `special` `object` making it more **appropriate** in the given `context`

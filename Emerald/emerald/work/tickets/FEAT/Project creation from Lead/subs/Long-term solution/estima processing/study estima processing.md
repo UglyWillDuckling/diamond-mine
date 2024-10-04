@@ -1,4 +1,4 @@
-[JIRA](Refactor and test estima processing class)
+eJIRA](Refactor and test estima processing class)
 [[sequence - estima processing creation]]
 
 ---
@@ -9,7 +9,7 @@
 	- `table`: backyard::**estima_processing**
 
 # goals 🏁
-- understand what `estima_processing` is
+- understand what `e` is
 - tigh this back to the diagram
 - find key points
 - list relevant code elements
@@ -61,13 +61,5 @@ $estima_processing->set_processed(true)
 - the `estima_processing` is updated on `share/controller/leads.inc:117`
 - `estima_processing` looks to be the only table in the `backyard` **DB**
 
-## estima_processing Usage 👐
 
-### areas 🟧🟩
-- Frontend
-- ???
-### questions
-1. where is it used?
-2. what can we <mark style="background: #FFB86CA6;">ignore</mark>? 
-
-
+[[usage 🍏 🌕]]

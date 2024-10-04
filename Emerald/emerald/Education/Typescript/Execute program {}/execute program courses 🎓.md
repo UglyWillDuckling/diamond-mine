@@ -376,3 +376,12 @@ Javascript
 #### Lessons 📚
 - [[Bind]]
 - [[Places Where Destructuring Is Allowed]]
+
+### [[2024-10-02]]
+
+#### javascript
+##### review
+^review-2024-10-02
+- [[Function Name Property]]
+> - [[Spread]] 
+- [[Class Scoping]] 

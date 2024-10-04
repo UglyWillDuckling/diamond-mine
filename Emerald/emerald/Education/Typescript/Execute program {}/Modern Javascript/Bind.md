@@ -1,4 +1,3 @@
-
 ## short example 
 
 > we bind a functions `this` to the `user` object

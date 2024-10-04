@@ -27,6 +27,8 @@ tags:
 - [ ] [[take a look at higher order components article]]
 - [ ] [[ask SRE about LUNA environment]]
 - [ ] [[setup inteliphense premium]]
+- [ ] start [[Node]] education 🏫
+- [ ] write in chat on how to create `scripts` on the [[backyard]]
 
 
 ## active ⚔
@@ -34,15 +36,15 @@ tags:
 - [ ] study [[Null Object Pattern]] and [[Special Case Pattern]]
 - [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script
 - [ ] read some [[Refactoring]] 📚
-- [ ] [[Education/React/react|react]]
+- [ ] [[Education/React/react|react]] study 🎒
 - [ ] education / typescript advanced [[Typesript Education]]
+- [ ] [[Use lead for project creation]] - `source` field
 
 
 ## finished
 
 **Complete**
 - [x] [[Tic-Tac-Toe]]
-- [x] ask about adding a `source` field to the [[lead project]] entity 😷
 
 
 ***
@@ -67,6 +69,7 @@ tags:
 - [x] [[remove tab mapping for insert]]
 - [x] [[Resolve performance issues]]
 - [x] [[Use lead for project creation]]
+- [x] ask about adding a `source` field to the [[lead project]] entity 😷
 
 %% kanban:settings
 ```

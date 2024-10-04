@@ -18,5 +18,8 @@
   "obsidian-reminder-plugin",
   "github-link",
   "edit-in-neovim",
-  "vim-yank-highlight"
+  "vim-yank-highlight",
+  "callout-manager",
+  "obsidian-advanced-codeblock",
+  "obsidian-better-codeblock"
 ]

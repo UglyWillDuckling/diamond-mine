@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiDiff",
+      "LiTestTube",
       "LiDot",
       "🏛",
-      "LiArrowtab",
-      "LiImage",
-      "♦"
+      "LiArrowtab"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -104,7 +104,6 @@
   "tools/dev": "⌨",
   "tasks/dev/take a look at higher order components article.md": "LiListOrdered",
   "days/day template.md": "LiBookTemplate",
-  "notes/Autocompletion is a must.md": "🤖",
   "notes": "📑",
   "work/calls": "LiPhoneCall",
   "work/calls/CRM - introduction to Design.md": "👑",
@@ -178,5 +177,8 @@
   "Education/Typescript/Execute program {}/Modern Javascript/Arrow Function Basics.md": "LiArrowtab",
   "Education/Typescript/Execute program {}/Modern Javascript/Classes.md": "🏛",
   "Education/Books/Patterns of Enterprise/Patterns of Enterprise Architecture.md": "🌉",
-  "Education/Typescript/Execute program {}/Modern Javascript/Spread.md": "LiDot"
+  "Education/Typescript/Execute program {}/Modern Javascript/Spread.md": "LiDot",
+  "notes/its really difficult to refactor without tests.md": "LiTestTube",
+  "notes/archive/Autocompletion is a must.md": "🤖",
+  "notes/nvim - windo diffthis.md": "LiDiff"
 }

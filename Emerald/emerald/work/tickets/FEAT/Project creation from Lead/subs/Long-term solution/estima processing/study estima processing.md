@@ -52,14 +52,13 @@ public static function from_estima_id($estima_id): \estima_processing
 $estima_processing->set_processed(true)
 ```
 
-#### diagram
+### diagram
 ![[sequence - estima processing creation#diagram]]
 
-#### notes 📓
+### notes 📓
 - as the `estima_processing` for the given ID doesn't yet exist, a new one is created
 	- the `transaction id` is used for the ID value
 - the `estima_processing` is updated on `share/controller/leads.inc:117`
 - `estima_processing` looks to be the only table in the `backyard` **DB**
-
 
 [[usage 🍏 🌕]]

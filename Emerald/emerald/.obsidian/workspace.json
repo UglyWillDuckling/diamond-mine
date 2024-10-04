@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "159b8c9836f48344",
+        "id": "a7f0cc38e25d44d4",
         "type": "tabs",
         "children": [
           {
-            "id": "fe3dede7f510ae06",
+            "id": "3b37879195062119",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
+                "file": "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./diagrams/estima processing flow.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5,
+    "width": 281.5,
     "collapsed": true
   },
   "right": {
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
+                "file": "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./diagrams/estima processing flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
+                "file": "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./diagrams/estima processing flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md"
+                "file": "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./diagrams/estima processing flow.md"
               }
             }
           },
@@ -152,7 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
+    "width": 537.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -172,14 +172,25 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "fe3dede7f510ae06",
+  "active": "3b37879195062119",
   "lastOpenFiles": [
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./diagrams/estima processing flow.md~",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./diagrams/sequence - estima processing creation.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./diagrams/estima processing flow.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./diagrams/estima processing flow~",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./diagrams/estima processing flow",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/estima_processing.md",
+    "2024-10-04.md",
+    "days/2024/2024-10-03.md",
+    "notes/nvim - windo diffthis.md",
+    "notes/its really difficult to refactor without tests.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/lead.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/study estima processing.md",
+    "notes/db restore.md",
     "Education/Books/Patterns of Enterprise/Special Case.md",
-    "2024-10-03.md",
     "people/Allen Holub.md",
     "Kanban.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/study estima processing.md",
     "Education/Articles/Higher Order React Components.md",
     "work/tickets/FEAT/Project creation from Lead/Use lead for project creation.md",
     "Education/Typescript/Execute program {}/Modern Javascript/Anonymous and Inline Classes.md",
@@ -191,26 +202,14 @@
     "Education/Typescript/Execute program {}/Modern Javascript/Bind.md",
     "Education/Typescript/Execute program {}/Modern Javascript/Spread.md",
     "Education/Typescript/Execute program {}/Modern Javascript/Function Name Property.md",
-    "concepts/pair programming.md",
-    "Education/Typescript/Execute program {}/Modern Javascript/Modern Javascript.md",
-    "Education/Books/Patterns of Enterprise/Patterns of Enterprise Architecture.md",
-    "[New Number Methods.md",
-    "days/2024-10-02.md",
-    "notes/obsidian/callouts.md",
-    "notes/obsidian/arrow function.md",
-    "notes/dev/bashmarks can list bookmarks.md",
     "2024-10-02.md~",
-    "Education/Books/Holub on Patterns - Learning Design Patterns by Looking at Code.md",
     "Education/Typescript/Execute program {}/Modern Javascript/Arrow Function Scoping",
     "notes/obsidian",
     "notes/unique",
     "notes/templates",
     "notes/dev",
     "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./diagrams",
-    "Education/Books/Patterns of Enterprise/content",
     "Education/Books/Patterns of Enterprise/content/special_case.jpg",
-    "Education/experiments/obsidian",
-    "Education/Books/Patterns of Enterprise",
     "work/notes/iris-code.png",
     "Pasted image 20240923155220.png",
     "concepts/computer science/oop/patterns/Decorator_UML_class_diagram.svg.png",

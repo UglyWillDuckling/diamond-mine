@@ -1,16 +1,18 @@
 {
 	"nodes":[
-		{"id":"462667169ef648aa","type":"text","text":"crossroads 🚸","x":-400,"y":-700,"width":250,"height":50,"color":"3"},
 		{"id":"16362ab650616d7c","type":"text","text":"go left","x":-580,"y":-540,"width":250,"height":60,"color":"2"},
-		{"id":"45dfb2a673eda4bf","x":-580,"y":-400,"width":250,"height":60,"type":"text","text":"execute backup"},
-		{"id":"462741823f2727ea","type":"text","text":"go right","x":-208,"y":-520,"width":250,"height":60,"color":"5"},
-		{"id":"dae2dc31b07cf1c5","x":-400,"y":-200,"width":250,"height":60,"type":"text","text":"delete file"}
+		{"id":"45dfb2a673eda4bf","type":"text","text":"execute backup","x":-580,"y":-400,"width":250,"height":60,"color":"6"},
+		{"id":"dae2dc31b07cf1c5","type":"text","text":"delete file","x":-400,"y":-200,"width":250,"height":60,"color":"1"},
+		{"id":"503153e1e7a0669f","type":"text","text":"proceed","x":-400,"y":-60,"width":250,"height":60,"color":"4"},
+		{"id":"462667169ef648aa","type":"text","text":"crossroads 🚸","x":-400,"y":-740,"width":250,"height":50,"color":"3"},
+		{"id":"462741823f2727ea","type":"text","text":"go right","x":-208,"y":-540,"width":250,"height":60,"color":"5"}
 	],
 	"edges":[
 		{"id":"1e414e293729f3c9","fromNode":"462667169ef648aa","fromSide":"bottom","toNode":"462741823f2727ea","toSide":"top"},
 		{"id":"12de80e5ec22175a","fromNode":"462667169ef648aa","fromSide":"bottom","toNode":"16362ab650616d7c","toSide":"top"},
 		{"id":"0c4263f6c2d36f5f","fromNode":"16362ab650616d7c","fromSide":"bottom","toNode":"45dfb2a673eda4bf","toSide":"top"},
 		{"id":"7c0c6f1d543f4795","fromNode":"45dfb2a673eda4bf","fromSide":"bottom","toNode":"dae2dc31b07cf1c5","toSide":"top"},
-		{"id":"5b221995255187d6","fromNode":"462741823f2727ea","fromSide":"bottom","toNode":"dae2dc31b07cf1c5","toSide":"top"}
+		{"id":"5b221995255187d6","fromNode":"462741823f2727ea","fromSide":"bottom","toNode":"dae2dc31b07cf1c5","toSide":"top"},
+		{"id":"ac642665d0ae0933","fromNode":"dae2dc31b07cf1c5","fromSide":"bottom","toNode":"503153e1e7a0669f","toSide":"top"}
 	]
 }

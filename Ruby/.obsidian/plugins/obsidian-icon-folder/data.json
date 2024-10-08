@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiArchiveX",
-      "📓",
-      "🤖",
-      "✍",
-      "LiCalendarDays"
+      "📚",
+      "LiBrain",
+      "LiPencilRuler",
+      "LiCloudRainWind",
+      "LiFish"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,11 +34,32 @@
     "debugMode": false
   },
   "daily tasks": "LiClipboardCheck",
-  "concepts": "🤔",
-  "concepts/Computer science": "💽",
   "days": "LiCalendarDays",
-  "articles": "✍",
   "notes": "📓",
-  "articles/archive/Tech is no substitute for depth 🤔.md": "🤖",
-  "articles/archive": "LiArchiveX"
+  "notes/dev": {
+    "iconName": "LiKeyboard",
+    "iconColor": "#474747"
+  },
+  "tools": "🧰",
+  "notes/archive": "LiArchive",
+  "board.md": "LiCircuitBoard",
+  "notes/daily planner looks great.md": "LiCheckSquare2",
+  "notes/cronie is required for cron to work.md": "LiTimer",
+  "notes/dev/mods --setttings.md": "🤖",
+  "tools/pc/cron.md": "LiTimerReset",
+  "notes/mermaid examples.md": {
+    "iconName": "LiFish",
+    "iconColor": "#db1a9e"
+  },
+  "notes/canvas tools is much better than it first appeared.md": {
+    "iconName": "LiPencilRuler",
+    "iconColor": "#2ac4cf"
+  },
+  "knowledge": "LiBrain",
+  "knowledge/concepts": "🤔",
+  "knowledge/concepts/CS": "💽",
+  "knowledge/articles": "✍",
+  "knowledge/articles/archive": "LiArchiveX",
+  "knowledge/articles/archive/Tech is no substitute for depth 🤔.md": "🤖",
+  "knowledge/books": "📚"
 }

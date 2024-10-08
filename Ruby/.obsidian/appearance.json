@@ -1,8 +1,8 @@
 {
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "Shimmering Focus",
   "interfaceFontFamily": "Cantarell",
-  "monospaceFontFamily": "Fira Code",
+  "monospaceFontFamily": "FiraCode Nerd Font Mono",
   "textFontFamily": "",
   "baseFontSizeAction": true,
-  "baseFontSize": 14
+  "baseFontSize": 13
 }

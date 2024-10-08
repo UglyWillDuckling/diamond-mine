@@ -8,13 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "93491e809bcbc665",
+            "id": "57eaf7d484f62633",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "kanban",
               "state": {
-                "file": "Ruby/.obsidian/plugins/obsidian-icon-folder/data.json",
-                "staged": false
+                "file": "Board.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
               }
             }
           }
@@ -47,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#emergence",
+                "query": "tag:#computer-programming",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,6 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Board.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Board.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,31 +126,7 @@
             }
           },
           {
-            "id": "125d89a4b055739f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "68079b8d1751705f",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "b2d49d0e9b1aefae",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
-          },
-          {
-            "id": "4c62846fc6797746",
+            "id": "fa09b9890898fd11",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -149,19 +134,46 @@
             }
           },
           {
-            "id": "3848cfd79f723fa0",
+            "id": "4a97ad7861dd9fce",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "179708e578b0c353",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Board.md"
+              }
+            }
+          },
+          {
+            "id": "d733259267ca1546",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "c1e95447849ffc50",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 778.5
+    "width": 491.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,27 +183,29 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-day-planner:Timeline": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "chronology:Open Chronology": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "93491e809bcbc665",
+  "active": "57eaf7d484f62633",
   "lastOpenFiles": [
-    "knowledge/repository/dev/mermaid examples.md",
-    "knowledge/concepts/CS/abstraction.md",
+    "tasks/setup obsidian on your phone📱.md",
+    "Board.md",
+    "knowledge/concepts/CS/information hiding - encapsulation.md",
+    "2024-10-08.md",
     "choose.canvas",
-    "2024-10-06.md",
+    "knowledge/concepts/CS/abstraction.md",
+    "days/2024",
+    "days/2024/2024-10-06.md",
+    "knowledge/repository/dev/mermaid examples.md",
     "knowledge/repository/dev/cronie is required for cron to work.md",
     "knowledge/repository/dev",
     "tools/obsidian/plugins/callout list.md",
     "knowledge/repository/Untitled.md",
     "knowledge/repository",
-    "board.md",
     "knowledge/books",
     "knowledge",
     "notes/daily planner looks great.md",
@@ -207,17 +221,13 @@
     "tools/pc",
     "tools/obsidian",
     "notes/dev",
-    "knowledge/articles/archive",
     "knowledge/concepts/CS/OOP/smalltalk/💠 objects in Smalltalk.md",
-    "knowledge/concepts/CS/information hiding - encapsulation.md",
     "tools/pc/systemd.md",
     "2024-09-29.md",
     "2024-09-25.md",
     "2024-09-28.md",
     "2024-09-27.md",
     "2024-09-26.md",
-    "2024-09-24.md",
-    "daily tasks/2024-07-22.md",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",

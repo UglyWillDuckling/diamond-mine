@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiListTodo",
       "LiComputer",
       "📪",
       "📚",
-      "LiBrain",
-      "LiPencilRuler"
+      "LiBrain"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -33,7 +33,6 @@
     "lucideIconPackType": "native",
     "debugMode": false
   },
-  "daily tasks": "LiClipboardCheck",
   "days": "LiCalendarDays",
   "notes": "📓",
   "notes/dev": {
@@ -42,7 +41,6 @@
   },
   "tools": "🧰",
   "notes/archive": "LiArchive",
-  "board.md": "LiCircuitBoard",
   "notes/daily planner looks great.md": "LiCheckSquare2",
   "notes/dev/mods --setttings.md": "🤖",
   "tools/pc/cron.md": "LiTimerReset",
@@ -66,5 +64,10 @@
   "knowledge/repository/dev": {
     "iconName": "LiComputer",
     "iconColor": "#31c1c4"
+  },
+  "tasks": "LiClipboardCheck",
+  "Board.md": {
+    "iconName": "LiListTodo",
+    "iconColor": "#b73838"
   }
 }

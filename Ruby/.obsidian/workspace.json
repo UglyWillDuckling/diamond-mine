@@ -4,18 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "87d495a24a401cfa",
+        "id": "91c871050848de86",
         "type": "tabs",
         "children": [
           {
-            "id": "68d74c0d88858275",
+            "id": "93491e809bcbc665",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "2024-10-06.md",
-                "mode": "source",
-                "source": false
+                "file": "Ruby/.obsidian/plugins/obsidian-icon-folder/data.json",
+                "staged": false
               }
             }
           }
@@ -69,7 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5110321044922
+    "width": 382.5110321044922
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-10-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-10-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2024-10-06.md"
-              }
+              "state": {}
             }
           },
           {
@@ -146,35 +141,27 @@
             }
           },
           {
-            "id": "d8b869090ad3428c",
-            "type": "leaf",
-            "state": {
-              "type": "chronology-calendar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "4162dc04f33a1c68",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "4c62846fc6797746",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {}
             }
+          },
+          {
+            "id": "3848cfd79f723fa0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 533.5
+    "width": 778.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,25 +180,28 @@
       "chronology:Open Chronology": false
     }
   },
-  "active": "68d74c0d88858275",
+  "active": "93491e809bcbc665",
   "lastOpenFiles": [
+    "knowledge/repository/dev/mermaid examples.md",
+    "knowledge/concepts/CS/abstraction.md",
+    "choose.canvas",
+    "2024-10-06.md",
+    "knowledge/repository/dev/cronie is required for cron to work.md",
+    "knowledge/repository/dev",
+    "tools/obsidian/plugins/callout list.md",
+    "knowledge/repository/Untitled.md",
+    "knowledge/repository",
+    "board.md",
     "knowledge/books",
     "knowledge",
-    "choose.canvas",
-    "board.md",
-    "2024-10-06.md",
     "notes/daily planner looks great.md",
-    "notes/mermaid examples.md",
-    "notes/cronie is required for cron to work.md",
     "notes/canvas tools is much better than it first appeared.md",
     "tools/pc/cron.md",
     "tools/pc/mods.md",
     "tools/pc/cronie.md",
     "notes/dev/mods --setttings.md",
-    "knowledge/concepts/CS/abstraction.md",
     "Excalidraw/Drawing 2024-10-08 20.40.56.excalidraw.md",
     "Excalidraw",
-    "tools/obsidian/plugins/callout list.md",
     "knowledge/articles/archive/Tech is no substitute for depth 🤔.md",
     "tools/obsidian/plugins",
     "tools/pc",
@@ -220,10 +210,7 @@
     "knowledge/articles/archive",
     "knowledge/concepts/CS/OOP/smalltalk/💠 objects in Smalltalk.md",
     "knowledge/concepts/CS/information hiding - encapsulation.md",
-    "notes/archive",
     "tools/pc/systemd.md",
-    "tools",
-    "notes",
     "2024-09-29.md",
     "2024-09-25.md",
     "2024-09-28.md",
@@ -231,7 +218,6 @@
     "2024-09-26.md",
     "2024-09-24.md",
     "daily tasks/2024-07-22.md",
-    "daily tasks/2024-07-23.md",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",

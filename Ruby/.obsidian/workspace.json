@@ -11,18 +11,8 @@
             "id": "57eaf7d484f62633",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Board.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -75,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5110321044922
+    "width": 365.5110321044922
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -91,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Board.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Board.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Board.md"
-              }
+              "state": {}
             }
           },
           {
@@ -192,24 +178,27 @@
   },
   "active": "57eaf7d484f62633",
   "lastOpenFiles": [
-    "tasks/setup obsidian on your phone📱.md",
+    "tools/obsidian/plugins/callout list.md",
+    "knowledge/questions/questions.md",
+    "notes/having a question list is a good idea.md",
+    "knowledge/questions",
     "Board.md",
+    "choose.canvas",
+    "notes/canvas tool is much better than it first appeared.md",
+    "tasks/setup obsidian on your phone📱.md",
     "knowledge/concepts/CS/information hiding - encapsulation.md",
     "2024-10-08.md",
-    "choose.canvas",
     "knowledge/concepts/CS/abstraction.md",
     "days/2024",
     "days/2024/2024-10-06.md",
     "knowledge/repository/dev/mermaid examples.md",
     "knowledge/repository/dev/cronie is required for cron to work.md",
     "knowledge/repository/dev",
-    "tools/obsidian/plugins/callout list.md",
     "knowledge/repository/Untitled.md",
     "knowledge/repository",
     "knowledge/books",
     "knowledge",
     "notes/daily planner looks great.md",
-    "notes/canvas tools is much better than it first appeared.md",
     "tools/pc/cron.md",
     "tools/pc/mods.md",
     "tools/pc/cronie.md",
@@ -220,14 +209,12 @@
     "tools/obsidian/plugins",
     "tools/pc",
     "tools/obsidian",
-    "notes/dev",
     "knowledge/concepts/CS/OOP/smalltalk/💠 objects in Smalltalk.md",
     "tools/pc/systemd.md",
     "2024-09-29.md",
     "2024-09-25.md",
     "2024-09-28.md",
     "2024-09-27.md",
-    "2024-09-26.md",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",

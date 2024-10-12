@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiQuestionMarkGlyph",
       "LiListTodo",
       "LiComputer",
       "📪",
-      "📚",
-      "LiBrain"
+      "📚"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,10 +44,6 @@
   "notes/daily planner looks great.md": "LiCheckSquare2",
   "notes/dev/mods --setttings.md": "🤖",
   "tools/pc/cron.md": "LiTimerReset",
-  "notes/canvas tools is much better than it first appeared.md": {
-    "iconName": "LiPencilRuler",
-    "iconColor": "#2ac4cf"
-  },
   "knowledge": "LiBrain",
   "knowledge/concepts": "🤔",
   "knowledge/concepts/CS": "💽",
@@ -69,5 +65,14 @@
   "Board.md": {
     "iconName": "LiListTodo",
     "iconColor": "#b73838"
-  }
+  },
+  "notes/canvas tool is much better than it first appeared.md": {
+    "iconName": "LiPencilRuler",
+    "iconColor": "#2ac4cf"
+  },
+  "notes/having a question list is a good idea.md": {
+    "iconName": "LiQuestionMarkGlyph",
+    "iconColor": "#e7cb13"
+  },
+  "knowledge/questions": "LiQuestionMarkGlyph"
 }

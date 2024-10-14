@@ -1,0 +1,15 @@
+## questions❓
+- ? data `migration` - do we **migrate**?
+	- `what` do we migrate?
+	- & still pending
+	- % we need to see
+	- ?g git
+- ? will the backyard project run in **parallel**?
+	- for **how** **long**?
+	- @ yes, for quite some time. The transition will be gradual
+- ? what about **duplicates**([[meta user]])
+	- $  we will need to replicate this [[meta user]] behavior from `backyard`
+- ? what will we be using for [[call campaign]]'s?
+	- B2CApi or?
+	- ' we will need to check
+- ...

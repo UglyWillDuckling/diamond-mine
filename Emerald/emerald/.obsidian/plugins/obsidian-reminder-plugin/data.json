@@ -1,18 +1,46 @@
 {
   "scanned": true,
   "reminders": {
-    "work/notes/Test contact ID.md": [
-      {
-        "title": "remind me",
-        "time": "2024-10-07",
-        "rowNumber": 3
-      }
-    ],
-    "notes/its really difficult to refactor without tests.md": [
+    "work/notes/How to swith between local and dev backyard DB-s.md": [
       {
         "title": "remind",
-        "time": "2024-10-06",
+        "time": "2024-10-21",
+        "rowNumber": 57
+      }
+    ],
+    "work/notes/archive/povezivanje na gcloud computer masinu.md": [
+      {
+        "title": "remind",
+        "time": "2024-10-30",
+        "rowNumber": 9
+      }
+    ],
+    "tasks/add keywords to TODO.md": [
+      {
+        "title": "remind",
+        "time": "2024-10-25",
+        "rowNumber": 31
+      }
+    ],
+    "notes/archive/nvim - windo diffthis.md": [
+      {
+        "title": "remind",
+        "time": "2024-10-21",
         "rowNumber": 7
+      }
+    ],
+    "notes/archive/javascript - getters and setter may be private.md": [
+      {
+        "title": "remind",
+        "time": "2024-10-22",
+        "rowNumber": 24
+      }
+    ],
+    "notes/dev/php - IIFE function expression.md": [
+      {
+        "title": "remind",
+        "time": "2024-10-17",
+        "rowNumber": 21
       }
     ]
   },

@@ -1,4 +1,5 @@
 [Github](https://github.com/huyng/bashmarks/blob/master/bashmarks.sh)
+[[bashmarks]]
 
 By default the function name is `l`
 **Renamed** it to `bl`
@@ -9,7 +10,6 @@ By default the function name is `l`
 - `bm_check_help`: help me
 
 ## listing
-
 ```
 alica                /home/vsedlar/dev/study/javascript/react/alicea/DOM
 alicea               /home/vsedlar/dev/study/javascript/react/alicea/DOM

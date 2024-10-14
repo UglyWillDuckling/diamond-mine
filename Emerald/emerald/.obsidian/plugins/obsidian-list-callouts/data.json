@@ -30,9 +30,21 @@
     "icon": "lucide-scale"
   },
   {
-    "char": "\"",
+    "char": "\"\"",
     "color": "1, 173, 84",
     "icon": "lucide-flask-conical",
+    "custom": true
+  },
+  {
+    "char": "'",
+    "color": "247, 173, 43",
+    "icon": "lucide-book-marked",
+    "custom": true
+  },
+  {
+    "char": "?g",
+    "color": "38, 34, 34",
+    "icon": "lucide-github",
     "custom": true
   }
 ]

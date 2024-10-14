@@ -17,6 +17,8 @@ tags:
 
 ## backlog 🗃
 
+- [ ] cleanup [[unit test]]'s
+- [ ] [[ask SRE about LUNA environment]]
 - [ ] [[Find what grug is about]]
 - [ ] explore [[mermaid.js]]
 
@@ -24,27 +26,29 @@ tags:
 ## next ⏭
 
 - [ ] books on [[object orientation]] and design
-- [ ] [[take a look at higher order components article]]
-- [ ] [[ask SRE about LUNA environment]]
-- [ ] [[setup inteliphense premium]]
+- [ ] [[see how to best manage PR's in the shell and beyond]]
 - [ ] start [[Node]] education 🏫
-- [ ] write in chat on how to create `scripts` on the [[backyard]]
+- [ ] try [[git butler]] again
+- [ ] [[add source field on project]]
+- [ ] fix **bluetooth** headphones disconnect 🎧
+- [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script
 
 
 ## active ⚔
 
-- [ ] study [[Null Object Pattern]] and [[Special Case Pattern]]
-- [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script
-- [ ] read some [[Refactoring]] 📚
-- [ ] [[Education/React/react|react]] study 🎒
 - [ ] education / typescript advanced [[Typesript Education]]
-- [ ] [[Use lead for project creation]] - `source` field
+- [ ] [[Education/React/react|react]] study 🎒
 
 
 ## finished
 
 **Complete**
-- [x] [[Tic-Tac-Toe]]
+- [x] [[add keywords to TODO]]
+- [x] read some [[Refactoring]] 📚
+- [x] [[fix main test]]
+- [x] [[Fix identity link]] - PR submitted
+- [x] [[Fix xss on extranet]]
+- [x] ask SRE about [[extranet]]
 
 
 ***
@@ -70,9 +74,14 @@ tags:
 - [x] [[Resolve performance issues]]
 - [x] [[Use lead for project creation]]
 - [x] ask about adding a `source` field to the [[lead project]] entity 😷
+- [x] merge meta PR
+- [x] [[Tic-Tac-Toe]]
+- [x] study [[Null Object Pattern]] and [[Special Case Pattern]]
+- [x] write in chat on how to create `scripts` on the [[backyard]]
+- [x] [[take a look at higher order components article]]
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,false,false],"show-checkboxes":false}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false],"show-checkboxes":false}
 ```
 %%

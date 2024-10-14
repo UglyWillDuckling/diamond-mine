@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiDiff",
-      "LiTestTube",
-      "LiDot",
-      "🏛",
-      "LiArrowtab"
+      "LiGitPullRequest",
+      "🚦",
+      "LiFolderCheck",
+      "🧑‍🏭",
+      "LiDoorClosed"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -54,7 +54,10 @@
   "work/notes": "📔",
   "work/notes/To run tests first build the test image.md": "🖼",
   "work/tickets/SPIKE's/SPIKE - myTileCache migration to VectorTile?.md": "LiMousePointer2",
-  "work/tickets/bugs": "LiBug",
+  "work/tickets/bugs": {
+    "iconName": "LiBug",
+    "iconColor": "#51a333"
+  },
   "Education/Typescript/Projects": "LiProjector",
   "Education/React": "LiAtom",
   "concepts/computer science/oop/patterns/design patterns.md": "🇵🇸",
@@ -100,19 +103,19 @@
   "tasks/dev": "⌨",
   "tasks/obsidian": "LiGem",
   "tools/PM/Confluence.md": "LiPencilLine",
-  "tools/dev/react.md": "⚛",
-  "tools/dev": "⌨",
-  "tasks/dev/take a look at higher order components article.md": "LiListOrdered",
+  "tools/dev": "🖥",
   "days/day template.md": "LiBookTemplate",
   "notes": "📑",
   "work/calls": "LiPhoneCall",
   "work/calls/CRM - introduction to Design.md": "👑",
   "work/docs/CRM": "👑",
-  "work/notes/Creating branch env's sounds incredible.md": "LiGitBranchPlus",
+  "work/notes/Creating branch env's sounds incredible.md": {
+    "iconName": "LiGitBranchPlus",
+    "iconColor": "#1ecc7b"
+  },
   "Education/React/Alicea Course/DOM and Declarative.../DOM Manipulation.md": "LiHand",
   "Education/React/Alicea Course/DOM and Declarative.../HTML and Trees.md": "LiTreePine",
   "Education/React/Alicea Course/DOM and Declarative.../HTML, The Browser, and the DOM.md": "LiTrees",
-  "tasks/dev/Resolve performance issues.md": "🔥",
   "Education/React/React Router": "LiRoute",
   "work/calls/pair programming/pair programming call - 2024-09-17.md": "LiKeyboard",
   "work/calls/pair programming": "LiKeyboard",
@@ -123,7 +126,6 @@
   "work/tickets/FEAT": "LiStars",
   "work/tickets/SPIKE's": "✏",
   "notes/archive/Typescript has decorators.md": "🎍",
-  "work/notes/SLMP will be multi-lingual.md": "LiLanguages",
   "notes/archive/Butler conflict resolution.md": "🏋",
   "concepts/computer science/oop/patterns": "LiShapes",
   "concepts/computer science": "LiCpu",
@@ -131,7 +133,6 @@
   "Education/Typescript/Execute program {}/Modern Javascript": "LiCoffee",
   "Education/Typescript/Execute program {}/Everyday Typescript": "LiClipboardType",
   "tasks/archive/Fix nvim mappings.md": "🗾",
-  "tasks/dev/remove tab mapping for insert.md": "LiMap",
   "work/tickets/chores/update README.md": "LiDoorClosed",
   "Education/Typescript/Execute program {}/Modern Javascript/Modern Javascript.md": "LiCoffee",
   "concepts/computer science/oop/patterns/Chain of responsibility.md": "⛓",
@@ -144,7 +145,6 @@
   "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/transaction.md": "LiDollarSign",
   "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./Important.md": "❗",
   "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/iris.md": "🟣",
-  "tasks/dev/See more about the null object pattern.md": "LiSignalZero",
   "work/tickets/FEAT/Project creation from Lead/subs": "LiListTree",
   "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution": "🌄",
   "work/tickets/FEAT/Project creation from Lead/subs/UI test solution": "🔶",
@@ -156,8 +156,10 @@
   "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/study estima processing.md": "🎓",
   "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md": "🟩",
   "work/tickets/FEAT/Project creation from Lead/subs/archive/Gather information on the transition.md": "ℹ",
-  "work/notes/LUNA team has its own argocd pipeline setup.md": "LiMoon",
-  "tasks/dev/Study null object pattern.md": "LiSignalZero",
+  "work/notes/LUNA team has its own argocd pipeline setup.md": {
+    "iconName": "LiMoon",
+    "iconColor": "#878787"
+  },
   "tasks/archive/ask about features on the CRM.md": "LiQuestionMarkGlyph",
   "tasks/work": "LiHardHat",
   "Education/Books/Patterns of Enterprise": "LiPalette",
@@ -168,17 +170,91 @@
   "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./diagrams/Process of creating a new project.md": "LiSword",
   "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./diagrams/sequence - estima processing creation.md": "LiFolderGit",
   "concepts/computer science/oop/patterns/Null Object Pattern.md": "🪹",
-  "notes/dev/javascript - getters and setter may be private.md": "🕴",
   "notes/templates": "LiBookTemplate",
   "notes/unique": "LiFunctionSquare",
   "notes/archive/factory functions(methods) are super useful.md": "LiFactory",
   "notes/obsidian": "♦",
-  "notes/obsidian/you can use embeds in Obsidian.md": "LiImage",
   "Education/Typescript/Execute program {}/Modern Javascript/Arrow Function Basics.md": "LiArrowtab",
   "Education/Typescript/Execute program {}/Modern Javascript/Classes.md": "🏛",
   "Education/Books/Patterns of Enterprise/Patterns of Enterprise Architecture.md": "🌉",
   "Education/Typescript/Execute program {}/Modern Javascript/Spread.md": "LiDot",
-  "notes/its really difficult to refactor without tests.md": "LiTestTube",
   "notes/archive/Autocompletion is a must.md": "🤖",
-  "notes/nvim - windo diffthis.md": "LiDiff"
+  "Education/Shell": "LiShell",
+  "Education/Shell/BASH - special options.md": "LiTerminal",
+  "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/add source field on project.md": "LiFlower",
+  "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/fix main test.md": "🧪",
+  "work/tickets/FEAT/Project creation from Lead/subs/archive/fix commits.md": "LiGithub",
+  "tools/dev/git": "LiGitFork",
+  "tools/dev/git/git butler.md": "👔",
+  "notes/obsidian/docs": "📼",
+  "notes/dev/bashmarks can list bookmarks.md": "LiClipboardList",
+  "work/tickets/bugs/XSS - extranet/Fix xss on extranet.md": {
+    "iconName": "LiSubscript",
+    "iconColor": "#c52b2b"
+  },
+  "work/tickets/bugs/XSS - extranet/subs": {
+    "iconName": "LiDownload",
+    "iconColor": "#ff7b00"
+  },
+  "work/tickets/bugs/XSS - extranet/concepts": {
+    "iconName": "LiShapes",
+    "iconColor": "#dd367f"
+  },
+  "tasks/dev/see how to best manage PR's in the shell and beyond.md": "LiGitPullRequest",
+  "tasks/archive/Study null object pattern.md": "LiSignalZero",
+  "tasks/archive/take a look at higher order components article.md": "LiListOrdered",
+  "notes/obsidian/you can use embeds in Obsidian.md": "LiImage",
+  "notes/obsidian/You can add identifiers to blocks.md": "🆔",
+  "notes/dev": {
+    "iconName": "LiComputer",
+    "iconColor": "#3d74f5"
+  },
+  "work/notes/archive/SLMP will be multi-lingual.md": "LiLanguages",
+  "work/notes/How to swith between local and dev backyard DB-s.md": {
+    "iconName": "LiDatabaseBackup",
+    "iconColor": "#f8c50d"
+  },
+  "work/notes/archive/povezivanje na gcloud computer masinu.md": "☁",
+  "work/notes/archive": "🗃",
+  "work/people/luna.md": "LiMoonStar",
+  "work/tickets/bugs/XSS - extranet/subs/sanitize input.md": "🧹",
+  "work/tickets/bugs/XSS - extranet/subs/Fix identity link.md": "LiBrokenLink",
+  "work/tickets/archive/Interlocutor's name not shown.md": "🗯",
+  "work/tickets/bugs/archive": {
+    "iconName": "LiFolderX",
+    "iconColor": "#d6d6d6"
+  },
+  "work/tickets/bugs/archive/Ma Perf - take into account incoming calls (Appels entrant).md": {
+    "iconName": "LiPhoneIncoming",
+    "iconColor": "#d534c0"
+  },
+  "work/tickets/bugs/XSS - extranet": {
+    "iconName": "LiSquareCode",
+    "iconColor": "#f24545"
+  },
+  "tools/PM/BeeBole.md": "🐝",
+  "people": "LiPersonStanding",
+  "tasks/archive/See more about the null object pattern.md": "LiSignalZero",
+  "work/calls/CRM macro estimate v2.md": "👑",
+  "work/calls/CRM in SLMP - macro-estimate session.md": "👑",
+  "tools/dev/js/react.md": "⚛",
+  "tasks/add keywords to TODO.md": "LiWholeWord",
+  "tasks/archive/Resolve performance issues.md": "🔥",
+  "tasks/archive/remove tab mapping for insert.md": "LiMap",
+  "work/calls/Sprint planning 10-14.md": "👟",
+  "notes/dev/nvim - phpactor setup.md": "🧑‍🏭",
+  "notes/archive/its really difficult to refactor without tests.md": "LiTestTube",
+  "notes/archive": "LiFolderCheck",
+  "notes/archive/nvim - windo diffthis.md": "LiDiff",
+  "tools/Trouble.md": "🚦",
+  "notes/archive/javascript - getters and setter may be private.md": "🕴",
+  "notes/dev/Acceptance criteria is awesome.md": "📗",
+  "notes/obsidian/layout plugin looks perfect.md": {
+    "iconName": "LiLayout",
+    "iconColor": "#dd731d"
+  },
+  "notes/dev/php - IIFE function expression.md": "LiDoorClosed",
+  "work/notes/db restore.md": "LiDatabase",
+  "work/notes/archive/MA dev env URL.md": "LiCurlyBraces",
+  "work/github/PR's.md": "LiGitPullRequest"
 }

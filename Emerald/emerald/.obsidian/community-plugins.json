@@ -16,10 +16,13 @@
   "settings-search",
   "obsidian-show-file-path",
   "obsidian-reminder-plugin",
-  "github-link",
   "edit-in-neovim",
   "vim-yank-highlight",
   "callout-manager",
   "obsidian-advanced-codeblock",
-  "obsidian-better-codeblock"
+  "obsidian-better-codeblock",
+  "obsidian-banners",
+  "github-link",
+  "obsidian-completr",
+  "custom-note-width"
 ]

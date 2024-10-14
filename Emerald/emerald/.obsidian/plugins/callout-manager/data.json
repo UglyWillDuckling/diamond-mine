@@ -1,7 +1,9 @@
 {
   "callouts": {
     "custom": [
-      "bookmark"
+      "bookmark",
+      "study",
+      "remember"
     ],
     "settings": {
       "info": [
@@ -45,6 +47,52 @@
           },
           "changes": {
             "color": "255, 174, 82"
+          }
+        }
+      ],
+      "study": [
+        {
+          "changes": {
+            "icon": "lucide-book-open"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "227, 107, 167"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "227, 107, 167"
+          }
+        }
+      ],
+      "remember": [
+        {
+          "changes": {
+            "icon": "lucide-memory-stick"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "88, 187, 185"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "71, 215, 212"
           }
         }
       ]

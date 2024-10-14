@@ -1,0 +1,16 @@
+{
+  "terminal": "alacritty",
+  "listenOn": "127.0.0.1:2006",
+  "openNeovimOnLoad": false,
+  "supportedFileTypes": [
+    "txt",
+    "md",
+    "css",
+    "js",
+    "ts",
+    "tsx",
+    "jsx",
+    "json"
+  ],
+  "pathToBinary": ""
+}

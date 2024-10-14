@@ -1,14 +1,15 @@
+#javascript 
+#typescript 
 [execute ](https://www.executeprogram.com/courses)
 
----
-## Courses
+# Courses
 
 - [[EveryDay Typescript]] - the most common everyday uses of [[typescript]]
 	* [[Optional Chaining]] 
 	* [[Education/Typescript/Execute program {}/Everyday Typescript/quiz]]
 
 ---
-## By Day
+# By Day
 
 ### [[2024-07-25]]
 **review** [[EveryDay Typescript]]
@@ -384,4 +385,24 @@ Javascript
 ^review-2024-10-02
 - [[Function Name Property]]
 > - [[Spread]] 
-- [[Class Scoping]] 
+- [[Class Scoping]]
+
+### [[2024-10-09]]
+
+#### review
+#### Lessons 📖 ^lesson-2024-10-09
+- [[Default Parameters]] in [[javascript]]
+
+## [[2024-10-10]]
+
+### review ^review-10-10
+
+### Lessons 📖^lesson-2024-10-10
+* [[Static methods]]
+
+## [[2024-10-11]]
+
+### Lessons 📖^lesson-2024-10-11
+- [[JSON Stringify and Parse {}]]
+- [[Symbol Basics]]
+- ...

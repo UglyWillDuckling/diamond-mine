@@ -15,13 +15,6 @@
         "rowNumber": 9
       }
     ],
-    "tasks/add keywords to TODO.md": [
-      {
-        "title": "remind",
-        "time": "2024-10-25",
-        "rowNumber": 31
-      }
-    ],
     "notes/archive/nvim - windo diffthis.md": [
       {
         "title": "remind",
@@ -41,6 +34,13 @@
         "title": "remind",
         "time": "2024-10-17",
         "rowNumber": 21
+      }
+    ],
+    "tasks/archive/add keywords to TODO.md": [
+      {
+        "title": "remind",
+        "time": "2024-10-25",
+        "rowNumber": 31
       }
     ]
   },

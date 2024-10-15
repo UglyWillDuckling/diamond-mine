@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e3db6c36ee0379a9",
+        "id": "6cf33b8132c60bf2",
         "type": "tabs",
         "children": [
           {
-            "id": "c69c7a4dc258aa11",
+            "id": "dedc459360fae926",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/notes/test local DB access.md",
+                "file": "2024-10-15.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "safe in",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 350.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/notes/test local DB access.md",
+                "file": "2024-10-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/notes/test local DB access.md",
+                "file": "2024-10-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/notes/test local DB access.md"
+                "file": "2024-10-15.md"
               }
             }
           },
@@ -164,7 +164,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "work/notes/test local DB access.md"
+                "file": "2024-10-15.md"
               }
             }
           }
@@ -195,34 +195,34 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "c69c7a4dc258aa11",
+  "active": "dedc459360fae926",
   "lastOpenFiles": [
-    "work/notes/How to swith between local and dev backyard DB-s.md",
-    "work/notes/test local DB access.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/New Number Methods.md",
+    "2024-10-15.md",
+    "days/2024-10-14.md",
+    "tasks/dev/Filter out diagnostics in nvim.md",
+    "notes/dev/nvim - phpactor setup.md",
+    "tools/phpactor.md",
+    "tasks/dev/see how to best manage PR's in the shell and beyond.md",
+    "tasks/dev/Find what grug is about.md",
+    "tasks/archive/add keywords to TODO.md",
+    "tasks/work/ask SRE about LUNA environment.md",
+    "tasks/dev/take a look at the PR plugin for nvim.md",
     "work/github/PR's.md",
+    "Kanban.md",
+    "work/notes/test local DB access.md",
+    "work/notes/How to swith between local and dev backyard DB-s.md",
     "work/notes/To run tests first build the test image.md",
     "work/notes/archive/MA dev env URL.md",
     "work/notes/LUNA team has its own argocd pipeline setup.md",
     "work/notes/Creating branch env's sounds incredible.md",
     "work/notes/db restore.md",
-    "2024-10-14.md",
     "work/notes/archive/povezivanje na gcloud computer masinu.md",
     "notes/each time a.md",
     "work/notes/each time the local db is recreated the data is lost.md",
     "notes/dev/vim - enable dict.md",
     "notes/dev/phpactor - show specific diagnostic.md",
-    "tools/phpactor.md",
     "notes/dev/link to specific lines on Github.md",
-    "notes/dev/php - IIFE function expression.md",
-    "notes/dev/bashmarks can list bookmarks.md",
-    "notes/dev/nvim - phpactor setup.md",
-    "notes/archive/javascript - getters and setter may be private.md",
-    "tools/Trouble.md",
-    "notes/dev/nvim - you can view diagnostics using Trouble.md",
-    "notes/archive/vim - jump to last insert with `..md",
-    "notes/archive/its really difficult to refactor without tests.md",
-    "notes/archive/nvim - windo diffthis.md",
-    "tools/lsp.md",
     "work/concepts",
     "concepts/computer science/javascript",
     "tools/dev/php",

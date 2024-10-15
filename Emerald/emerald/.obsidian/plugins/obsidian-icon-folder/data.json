@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFilter",
       "LiGitPullRequest",
       "🚦",
       "LiFolderCheck",
-      "🧑‍🏭",
-      "LiDoorClosed"
+      "🧑‍🏭"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -238,7 +238,6 @@
   "work/calls/CRM macro estimate v2.md": "👑",
   "work/calls/CRM in SLMP - macro-estimate session.md": "👑",
   "tools/dev/js/react.md": "⚛",
-  "tasks/add keywords to TODO.md": "LiWholeWord",
   "tasks/archive/Resolve performance issues.md": "🔥",
   "tasks/archive/remove tab mapping for insert.md": "LiMap",
   "work/calls/Sprint planning 10-14.md": "👟",
@@ -256,5 +255,7 @@
   "notes/dev/php - IIFE function expression.md": "LiDoorClosed",
   "work/notes/db restore.md": "LiDatabase",
   "work/notes/archive/MA dev env URL.md": "LiCurlyBraces",
-  "work/github/PR's.md": "LiGitPullRequest"
+  "work/github/PR's.md": "LiGitPullRequest",
+  "tasks/archive/add keywords to TODO.md": "LiWholeWord",
+  "tasks/dev/Filter out diagnostics in nvim.md": "LiFilter"
 }

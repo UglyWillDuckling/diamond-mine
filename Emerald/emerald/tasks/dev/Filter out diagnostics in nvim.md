@@ -1,12 +1,7 @@
 #nvim 
 #diagnostic
 #lsp
-
-[[Trouble]]
-https://github.com/folke/trouble.nvim/blob/main/docs/examples.md
-
 ## example
-
 ```lua
 {
   modes = {
@@ -29,6 +24,5 @@ https://github.com/folke/trouble.nvim/blob/main/docs/examples.md
 }
 ```
 
-
-- $ the filter works, but
-- ? I'm not sure how to apply this as a general rule
+## resolution 🥅
+- done with [[phpactor]] and in [[nvim - phpactor setup]]

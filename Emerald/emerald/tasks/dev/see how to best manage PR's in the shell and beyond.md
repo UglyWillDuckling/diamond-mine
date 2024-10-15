@@ -1,3 +1,6 @@
+#PR
+#github
+#git
 
 ## potential solutions
 
@@ -5,9 +8,4 @@
 - [[nvim]]
 - [[GUI]]
 - [[Obsidian]]
-
-- [x] hello
-- [-] bye
-- [-] not useful
-
 

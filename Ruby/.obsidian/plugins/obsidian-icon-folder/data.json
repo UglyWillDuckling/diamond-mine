@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiQuestionMarkGlyph",
-      "LiListTodo",
-      "LiComputer",
-      "📪",
-      "📚"
+      "LiPcCase",
+      "🪄",
+      "LiCode",
+      "LiGroup",
+      "LiFormula"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,7 +42,6 @@
   "tools": "🧰",
   "notes/archive": "LiArchive",
   "notes/daily planner looks great.md": "LiCheckSquare2",
-  "notes/dev/mods --setttings.md": "🤖",
   "tools/pc/cron.md": "LiTimerReset",
   "knowledge": "LiBrain",
   "knowledge/concepts": "🤔",
@@ -74,5 +73,13 @@
     "iconName": "LiQuestionMarkGlyph",
     "iconColor": "#e7cb13"
   },
-  "knowledge/questions": "LiQuestionMarkGlyph"
+  "knowledge/questions": "LiQuestionMarkGlyph",
+  "notes/grupirati taskove, dane i slicno.md": {
+    "iconName": "LiGroup",
+    "iconColor": "#c2147a"
+  },
+  "notes/archive/I should encrypt folders.md": "LiCode",
+  "tools/pc/mods/mods --setttings.md": "🤖",
+  "tools/pc/mods": "🪄",
+  "tools/pc": "LiPcCase"
 }

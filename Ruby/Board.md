@@ -6,15 +6,17 @@ kanban-plugin: board
 
 ## todo
 
-- [ ] [[setup obsidian on your phone📱]]
 
 
 ## active
 
+- [ ] investigate startup slow
 
 
 ## done
 
+- [ ] plati porez
+- [ ] [[setup obsidian on your phone📱]]
 
 
 

@@ -4,15 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "91c871050848de86",
+        "id": "d8a0726192584818",
         "type": "tabs",
         "children": [
           {
-            "id": "57eaf7d484f62633",
+            "id": "f46842540f89af9c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "tasks.canvas",
+                "viewState": {
+                  "x": 5,
+                  "y": -106.30022305474496,
+                  "zoom": 0
+                }
+              }
             }
           }
         ]
@@ -65,7 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5110321044922
+    "width": 274.5110321044922
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -81,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tasks.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "tasks.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +143,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "tasks.canvas"
+              }
             }
           },
           {
@@ -154,7 +165,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -176,18 +187,29 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "57eaf7d484f62633",
+  "active": "f46842540f89af9c",
   "lastOpenFiles": [
+    "Board.md",
+    "tasks.canvas",
+    "choose.canvas",
+    "task.md",
+    "notes/archive/I should encrypt folders.md",
+    "tools/pc/mods/mods --setttings.md",
+    "tools/pc/mods/mods.md",
+    "tools/pc/mods",
+    "notes/having a question list is a good idea.md",
+    "notes/grupirati taskove, dane i slicno.md",
+    "tasks/archive/setup obsidian on your phone📱.md",
+    "questions?",
+    "tasks/archive",
+    "notes/canvas tool is much better than it first appeared.md",
+    "notes/ranger is actually quite good.md",
+    "2024-10-08.md",
+    "notes/daily planner looks great.md",
     "tools/obsidian/plugins/callout list.md",
     "knowledge/questions/questions.md",
-    "notes/having a question list is a good idea.md",
     "knowledge/questions",
-    "Board.md",
-    "choose.canvas",
-    "notes/canvas tool is much better than it first appeared.md",
-    "tasks/setup obsidian on your phone📱.md",
     "knowledge/concepts/CS/information hiding - encapsulation.md",
-    "2024-10-08.md",
     "knowledge/concepts/CS/abstraction.md",
     "days/2024",
     "days/2024/2024-10-06.md",
@@ -198,23 +220,12 @@
     "knowledge/repository",
     "knowledge/books",
     "knowledge",
-    "notes/daily planner looks great.md",
     "tools/pc/cron.md",
-    "tools/pc/mods.md",
     "tools/pc/cronie.md",
-    "notes/dev/mods --setttings.md",
     "Excalidraw/Drawing 2024-10-08 20.40.56.excalidraw.md",
     "Excalidraw",
     "knowledge/articles/archive/Tech is no substitute for depth 🤔.md",
-    "tools/obsidian/plugins",
-    "tools/pc",
-    "tools/obsidian",
     "knowledge/concepts/CS/OOP/smalltalk/💠 objects in Smalltalk.md",
-    "tools/pc/systemd.md",
-    "2024-09-29.md",
-    "2024-09-25.md",
-    "2024-09-28.md",
-    "2024-09-27.md",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",

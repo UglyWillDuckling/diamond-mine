@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-10-15.md",
+                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/project workflow test.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 350.5,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-10-15.md",
+                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/project workflow test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-10-15.md",
+                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/project workflow test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-15.md"
+                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/project workflow test.md"
               }
             }
           },
@@ -164,8 +165,16 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "2024-10-15.md"
+                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/project workflow test.md"
               }
+            }
+          },
+          {
+            "id": "656c1f0046dd7d6a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
         ],
@@ -197,8 +206,20 @@
   },
   "active": "dedc459360fae926",
   "lastOpenFiles": [
-    "Education/Typescript/Execute program {}/Modern Javascript/New Number Methods.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/project.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/project workflow test.md",
+    "tasks/dev/take a look at the PR plugin for nvim.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/acceptance criteria test.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/acceptance criteria test from JIRA.md",
+    "tasks/dev/check exception rethrow and catch logic in php.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/UI test solution/UI test lead fix.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/evalution.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/add source field on project.md",
     "2024-10-15.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Q.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/project status list.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/transaction.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/New Number Methods.md",
     "days/2024-10-14.md",
     "tasks/dev/Filter out diagnostics in nvim.md",
     "notes/dev/nvim - phpactor setup.md",
@@ -207,22 +228,10 @@
     "tasks/dev/Find what grug is about.md",
     "tasks/archive/add keywords to TODO.md",
     "tasks/work/ask SRE about LUNA environment.md",
-    "tasks/dev/take a look at the PR plugin for nvim.md",
     "work/github/PR's.md",
     "Kanban.md",
     "work/notes/test local DB access.md",
     "work/notes/How to swith between local and dev backyard DB-s.md",
-    "work/notes/To run tests first build the test image.md",
-    "work/notes/archive/MA dev env URL.md",
-    "work/notes/LUNA team has its own argocd pipeline setup.md",
-    "work/notes/Creating branch env's sounds incredible.md",
-    "work/notes/db restore.md",
-    "work/notes/archive/povezivanje na gcloud computer masinu.md",
-    "notes/each time a.md",
-    "work/notes/each time the local db is recreated the data is lost.md",
-    "notes/dev/vim - enable dict.md",
-    "notes/dev/phpactor - show specific diagnostic.md",
-    "notes/dev/link to specific lines on Github.md",
     "work/concepts",
     "concepts/computer science/javascript",
     "tools/dev/php",

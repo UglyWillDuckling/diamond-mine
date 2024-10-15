@@ -73,7 +73,7 @@ tags:
 - [x] [[remove tab mapping for insert]]
 - [x] [[Resolve performance issues]]
 - [x] [[Use lead for project creation]]
-- [x] ask about adding a `source` field to the [[lead project]] entity 😷
+- [x] ask about adding a `source` field to the [[project]] entity 😷
 - [x] merge meta PR
 - [x] [[Tic-Tac-Toe]]
 - [x] study [[Null Object Pattern]] and [[Special Case Pattern]]

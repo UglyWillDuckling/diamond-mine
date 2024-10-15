@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiProjector",
       "LiFilter",
       "LiGitPullRequest",
       "🚦",
-      "LiFolderCheck",
-      "🧑‍🏭"
+      "LiFolderCheck"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -257,5 +257,7 @@
   "work/notes/archive/MA dev env URL.md": "LiCurlyBraces",
   "work/github/PR's.md": "LiGitPullRequest",
   "tasks/archive/add keywords to TODO.md": "LiWholeWord",
-  "tasks/dev/Filter out diagnostics in nvim.md": "LiFilter"
+  "tasks/dev/Filter out diagnostics in nvim.md": "LiFilter",
+  "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/project.md": "LiProjector",
+  "tasks/dev/take a look at the PR plugin for nvim.md": "LiGitPullRequest"
 }

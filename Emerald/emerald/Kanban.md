@@ -26,29 +26,24 @@ tags:
 ## next ⏭
 
 - [ ] books on [[object orientation]] and design
-- [ ] [[see how to best manage PR's in the shell and beyond]]
-- [ ] start [[Node]] education 🏫
-- [ ] try [[git butler]] again
-- [ ] [[add source field on project]]
 - [ ] fix **bluetooth** headphones disconnect 🎧
-- [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script
+- [ ] [[see how to best manage PR's in the shell and beyond]]
+- [ ] try [[git butler]] again
+- [ ] start [[Node]] education 🏫
 
 
 ## active ⚔
 
+- [ ] [[project workflow test]] 🧪
 - [ ] education / typescript advanced [[Typesript Education]]
 - [ ] [[Education/React/react|react]] study 🎒
+- [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script
 
 
 ## finished
 
 **Complete**
-- [x] [[add keywords to TODO]]
-- [x] read some [[Refactoring]] 📚
-- [x] [[fix main test]]
-- [x] [[Fix identity link]] - PR submitted
-- [x] [[Fix xss on extranet]]
-- [x] ask SRE about [[extranet]]
+- [x] [[add source field on project]]
 
 
 ***
@@ -79,9 +74,15 @@ tags:
 - [x] study [[Null Object Pattern]] and [[Special Case Pattern]]
 - [x] write in chat on how to create `scripts` on the [[backyard]]
 - [x] [[take a look at higher order components article]]
+- [x] ask SRE about [[extranet]]
+- [x] [[Fix xss on extranet]]
+- [x] [[fix main test]]
+- [x] read some [[Refactoring]] 📚
+- [x] [[add keywords to TODO]]
+- [x] [[Fix identity link]] - **PR** submitted
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false,false],"show-checkboxes":false}
+{"kanban-plugin":"board","list-collapse":[true,false,false,false],"show-checkboxes":false}
 ```
 %%

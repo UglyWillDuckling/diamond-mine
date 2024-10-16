@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSliders",
+      "LiTabs",
       "LiProjector",
       "LiFilter",
-      "LiGitPullRequest",
-      "🚦",
-      "LiFolderCheck"
+      "LiGitPullRequest"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -259,5 +259,13 @@
   "tasks/archive/add keywords to TODO.md": "LiWholeWord",
   "tasks/dev/Filter out diagnostics in nvim.md": "LiFilter",
   "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/project.md": "LiProjector",
-  "tasks/dev/take a look at the PR plugin for nvim.md": "LiGitPullRequest"
+  "tasks/dev/take a look at the PR plugin for nvim.md": "LiGitPullRequest",
+  "notes/you can switch tabs with Ctrl-1,2,3,4.md": {
+    "iconName": "LiTabs",
+    "iconColor": "#e0720b"
+  },
+  "tasks/dev/install the note size slider.md": {
+    "iconName": "LiSliders",
+    "iconColor": "#d917af"
+  }
 }

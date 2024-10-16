@@ -4,19 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "6cf33b8132c60bf2",
+        "id": "7c29ea00ab588ae1",
         "type": "tabs",
         "children": [
           {
-            "id": "dedc459360fae926",
+            "id": "ff5c720d4e2bb243",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/project workflow test.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    true,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               }
             }
           }
@@ -70,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
-    "collapsed": true
+    "width": 272.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -98,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/project workflow test.md",
+                "file": "Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/project workflow test.md",
+                "file": "Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/project workflow test.md"
+                "file": "Kanban.md"
               }
             }
           },
@@ -165,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/project workflow test.md"
+                "file": "Kanban.md"
               }
             }
           },
@@ -204,34 +209,34 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "dedc459360fae926",
+  "active": "ff5c720d4e2bb243",
   "lastOpenFiles": [
-    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/project.md",
+    "tasks/dev/install the note size slider.md",
+    "tasks/dev/Find what grug is about.md",
+    "notes/you can switch tabs with Ctrl-1,2,3,4.md",
+    "tasks/dev/Filter out diagnostics in nvim.md",
+    "tasks/dev/check exception rethrow and catch logic in php.md",
+    "2024-10-16.md",
+    "notes/each time a.md",
+    "Education/Typescript/Execute program {}/execute program courses 🎓.md",
+    "work/github/PR's.md",
+    "days/2024/2024-10-15.md",
+    "Kanban.md",
     "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/project workflow test.md",
+    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/project.md",
     "tasks/dev/take a look at the PR plugin for nvim.md",
     "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/acceptance criteria test.md",
     "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/acceptance criteria test from JIRA.md",
-    "tasks/dev/check exception rethrow and catch logic in php.md",
     "work/tickets/FEAT/Project creation from Lead/subs/UI test solution/UI test lead fix.md",
     "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/evalution.md",
     "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/add source field on project.md",
-    "2024-10-15.md",
     "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Q.md",
     "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/project status list.md",
     "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/transaction.md",
     "Education/Typescript/Execute program {}/Modern Javascript/New Number Methods.md",
-    "days/2024-10-14.md",
-    "tasks/dev/Filter out diagnostics in nvim.md",
+    "days/2024/2024-10-14.md",
     "notes/dev/nvim - phpactor setup.md",
     "tools/phpactor.md",
-    "tasks/dev/see how to best manage PR's in the shell and beyond.md",
-    "tasks/dev/Find what grug is about.md",
-    "tasks/archive/add keywords to TODO.md",
-    "tasks/work/ask SRE about LUNA environment.md",
-    "work/github/PR's.md",
-    "Kanban.md",
-    "work/notes/test local DB access.md",
-    "work/notes/How to swith between local and dev backyard DB-s.md",
     "work/concepts",
     "concepts/computer science/javascript",
     "tools/dev/php",

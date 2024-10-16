@@ -26,3 +26,5 @@
 
 ## resolution 🥅
 - done with [[phpactor]] and in [[nvim - phpactor setup]]
+
+- [ ] remind (@[[2024-10-30]])

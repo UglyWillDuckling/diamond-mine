@@ -1,0 +1,4 @@
+#obsidian 
+#slider
+#note-size
+

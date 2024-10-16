@@ -42,6 +42,13 @@
         "time": "2024-10-25",
         "rowNumber": 31
       }
+    ],
+    "tasks/dev/Filter out diagnostics in nvim.md": [
+      {
+        "title": "remind",
+        "time": "2024-10-30",
+        "rowNumber": 29
+      }
     ]
   },
   "debug": false,

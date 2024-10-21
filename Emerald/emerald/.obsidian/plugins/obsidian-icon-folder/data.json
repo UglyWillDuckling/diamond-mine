@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiSliders",
-      "LiTabs",
-      "LiProjector",
-      "LiFilter",
-      "LiGitPullRequest"
+      "LiListPlus",
+      "🔍",
+      "LiFolder",
+      "LiTable",
+      "LiPresentation"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -68,8 +68,6 @@
   "work/docs/backyard/tools": "🧰",
   "work/docs/backyard/application": "🈸",
   "work/docs/backyard/tools/Diabolocom.md": "LiPhone",
-  "work/docs/notes": "LiStickyNote",
-  "work/docs/notes/Millions of euros for a buy in France.md": "🇫🇷",
   "Education/Typescript/Execute program {}/Modern Javascript/Basic Array Destructuring.md": "LiCurlyBraces",
   "Education/Typescript/Execute program {}/Modern Javascript/Shorthand Properties.md": "🩳",
   "Education/Typescript/Execute program {}/Everyday Typescript/Enum.md": "🔢",
@@ -87,9 +85,6 @@
   "Education/Typescript/things": "LiSnapToObject",
   "Education/Typescript/resources": "LiArchiveX",
   "Education/Typescript/things/TS config file.md": "LiChevronsLeftRight",
-  "work/docs/entities": "LiEgg",
-  "work/tickets/FEAT/qsl/required fields.md": "⚠",
-  "work/tickets/FEAT/qsl/spike - qsl project.md": "✏",
   "work/tickets/FEAT/Wysiwyg replacement.md": "LiPawPrint",
   "Education/experiments": "LiTestTube2",
   "Education/Books": "LiLibraryBig",
@@ -163,7 +158,6 @@
   "tasks/archive/ask about features on the CRM.md": "LiQuestionMarkGlyph",
   "tasks/work": "LiHardHat",
   "Education/Books/Patterns of Enterprise": "LiPalette",
-  "tools/vim - vimrc.md": "🙈",
   "Education/experiments/obsidian/columns.md": "LiColumns",
   "Education/Books/Patterns of Enterprise/content": "LiBox",
   "Education/Books/Patterns of Enterprise/Special Case.md": "🎴",
@@ -240,7 +234,6 @@
   "tools/dev/js/react.md": "⚛",
   "tasks/archive/Resolve performance issues.md": "🔥",
   "tasks/archive/remove tab mapping for insert.md": "LiMap",
-  "work/calls/Sprint planning 10-14.md": "👟",
   "notes/dev/nvim - phpactor setup.md": "🧑‍🏭",
   "notes/archive/its really difficult to refactor without tests.md": "LiTestTube",
   "notes/archive": "LiFolderCheck",
@@ -255,7 +248,6 @@
   "notes/dev/php - IIFE function expression.md": "LiDoorClosed",
   "work/notes/db restore.md": "LiDatabase",
   "work/notes/archive/MA dev env URL.md": "LiCurlyBraces",
-  "work/github/PR's.md": "LiGitPullRequest",
   "tasks/archive/add keywords to TODO.md": "LiWholeWord",
   "tasks/dev/Filter out diagnostics in nvim.md": "LiFilter",
   "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/project.md": "LiProjector",
@@ -267,5 +259,32 @@
   "tasks/dev/install the note size slider.md": {
     "iconName": "LiSliders",
     "iconColor": "#d917af"
+  },
+  "tasks/dev/check for an ergonomic mouse.md": "LiMouse",
+  "tools/obsidian": "LiDiamond",
+  "work/docs/backyard": "🪦",
+  "work/docs/backyard/entities": "LiEgg",
+  "work/docs/How To": {
+    "iconName": "LiWorkflow",
+    "iconColor": "#f3721b"
+  },
+  "work/docs/How To/deploy extranet.md": "LiRocket",
+  "work/notes/archive/Millions of euros for a buy in France.md": "🇫🇷",
+  "work/fun/github/PR's.md": "LiGitPullRequest",
+  "work/calls/SPRINT/Sprint planning 10-14.md": "👟",
+  "work/calls/Project creation call.md": "LiProjector",
+  "work/calls/SLMP call.md": "LiPresentation",
+  "tools/obsidian/vim - vimrc.md": "🙈",
+  "work/tickets/FEAT/QSL listing/DB table.md": {
+    "iconName": "LiTable",
+    "iconColor": "#5729ae"
+  },
+  "work/tickets/FEAT/QSL listing/docs": "LiFolder",
+  "work/tickets/FEAT/QSL listing/docs/where to find the listing atm.md": "🔍",
+  "work/tickets/FEAT/QSL listing/archive/spike - qsl project.md": "✏",
+  "work/tickets/FEAT/QSL listing/docs/required fields.md": "⚠",
+  "work/tickets/FEAT/QSL listing": {
+    "iconName": "LiListPlus",
+    "iconColor": "#a349bc"
   }
 }

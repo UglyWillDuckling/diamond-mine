@@ -29,13 +29,6 @@
         "rowNumber": 24
       }
     ],
-    "notes/dev/php - IIFE function expression.md": [
-      {
-        "title": "remind",
-        "time": "2024-10-17",
-        "rowNumber": 21
-      }
-    ],
     "tasks/archive/add keywords to TODO.md": [
       {
         "title": "remind",
@@ -48,6 +41,20 @@
         "title": "remind",
         "time": "2024-10-30",
         "rowNumber": 29
+      }
+    ],
+    "notes/PLN theme settings and more.md": [
+      {
+        "title": "remind",
+        "time": "2024-10-24",
+        "rowNumber": 82
+      }
+    ],
+    "notes/dev/php - IIFE function expression.md": [
+      {
+        "title": "remind",
+        "time": "2024-10-24",
+        "rowNumber": 21
       }
     ]
   },

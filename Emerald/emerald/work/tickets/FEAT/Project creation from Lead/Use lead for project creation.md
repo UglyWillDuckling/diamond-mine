@@ -36,15 +36,15 @@
 - [x] understand what the `transaction` represents
 	- [x] what's the purpose of it, responsibility?
 	- [x] what is **required** to create it
-- [ ] examine what the `estima_processing` represents
-	- [ ] where is it used?
-	- [ ] how important is it?
-- [ ] Think about <mark style="background: #BBFABBA6;">tests</mark> 
-	- [ ] testing more `quickly`
+- [x] examine what the `estima_processing` represents
+	- [x] where is it used?
+	- [x] how important is it?
+- [x] Think about <mark style="background: #BBFABBA6;">tests</mark>
+	- [x] testing more `quickly`
 
 ## ideas 🌩
 - [x]  make a script to automate testing
-	- [ ] see if we can easily transfer this to <mark style="background: #BBFABBA6;">tests</mark>
+	- [x] see if we can easily transfer this to <mark style="background: #BBFABBA6;">tests</mark>
 - [x] switch on **FE** using a query param
 	- [x] enforce lead of estima ids
 

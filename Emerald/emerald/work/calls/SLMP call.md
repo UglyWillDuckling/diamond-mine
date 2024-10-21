@@ -1,14 +1,13 @@
-> 
 ## Hypothesis
 
 - Backyard has many unused features
-Not true, the work is just fragmented by the user t ype
-- Backyard is used by all roles
-Not all roles can use the Backyard, instead they have to use replacement tools and other workflows
+Not true, the work is just **fragmented** by the user type
+- Backyard is used by **all roles**
+Not all roles can use the Backyard, instead they **have to use replacement tools and other workflows**
 - Backyard is not scalable
-Most things were made to support **sales** work
+<mark style="background: #FFF3A3A6;">Most<mark style="background: #FFF3A3A6;"></mark> things were made to support **sales** work</mark>
 Other roles are not supported enough
-- Backyard performace
+- Backyard **performance**
 Users don't care *that* much
 
 - [[Coach]]'s communicate by ☎

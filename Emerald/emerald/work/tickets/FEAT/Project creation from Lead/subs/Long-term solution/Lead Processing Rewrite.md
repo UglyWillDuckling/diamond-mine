@@ -10,7 +10,7 @@
 
 ## todo ✔
 - [x] make script to compare [[transaction]]'s
-- [ ] refactor the controller
+- [ ] [[refactor]] the controller
 	- [x] refactor directly in the controller
 	- [ ] `move` to a **separate** class
 	- [ ] tests?

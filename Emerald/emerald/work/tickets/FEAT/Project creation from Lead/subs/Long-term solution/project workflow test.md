@@ -2,10 +2,12 @@
 [local project](http://localhost:8001/contacts/6529808/projects/2081060465/edit?success%5B%5D=)
 
 ## notes 📔
-- [[evalution]]'s need to be added to the [[project]] before it can be moved from [[project status list#Evaluation demandée]] forward
-- multiple [[evalution]]'s are possible
-- [[project status list]]
-- [[acceptance criteria test]]
+
+> [!blank-container]
+>- [[evalution]]'s need to be added to the [[project]] before it can be moved from [[project status list#Evaluation demandée]] forward #mcl/list-column
+>- multiple [[evalution]]'s are possible
+>- [[project status list]]
+>- [[acceptance criteria test]]
 
 ---
 ## required fields and rules per section
@@ -35,10 +37,8 @@ AND confirms the meets by click on “Confirmer RDV éval au client (email & SMS
 2. **WHEN** the Back Office goes to “Mandats"> Nouveau Mandat> Sérénité
 	1. THEN
 
-
 ## future tasks
-
-1. create documentation for the [[project]] screen and its sections
+1. create `documentation` for the [[project]] screen and its sections
 	1. add Edit header
 	2. add required fields
 2. ...

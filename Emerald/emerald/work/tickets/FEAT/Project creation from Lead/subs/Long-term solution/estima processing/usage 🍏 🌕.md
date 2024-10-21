@@ -52,7 +52,7 @@ We could even leave the **same logic as is** and only use the `estima_id` DB fie
 
 # todo's ✔
 - [x] create an **activity diagram** to show the two possible ways to fetch an [[estima_processing]] entity and
-	- [ ] verify if the [[estima]] or [[lead]] have been `processed` - [diagram](https://www.mermaidchart.com/app/projects/c0dfe25c-1b2a-42c9-9b77-260bc9119ec7/diagrams/36b32686-3f3c-4e48-b804-226ff894eec0/version/v0.1/edit)
+	- [x] verify if the [[estima]] or [[lead]] have been `processed` - [diagram](https://www.mermaidchart.com/app/projects/c0dfe25c-1b2a-42c9-9b77-260bc9119ec7/diagrams/36b32686-3f3c-4e48-b804-226ff894eec0/version/v0.1/edit)
 - [x] update the `codebase` to support **both** `flows`
 	- [x] create methods to use both lead and estima
 	- [x] " test `methods`
@@ -60,7 +60,7 @@ We could even leave the **same logic as is** and only use the `estima_id` DB fie
 - [x] update code to use `lead_id` if estima doesn't exist
 - [x] check other `actions` on the page
 - [x] see about implementing tests
-- [ ] **check** <mark style="background: #FFF3A3A6;">JS</mark> to make sure it is `compatible` with the <mark style="background: #FFB86CA6;">changes</mark>
+- [x] **check** <mark style="background: #FFF3A3A6;">JS</mark> to make sure it is `compatible` with the <mark style="background: #FFB86CA6;">changes</mark>
 
 ### method testing 🧪
 [contact local](http://localhost:8001/contacts/6562017)

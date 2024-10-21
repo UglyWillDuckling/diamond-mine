@@ -1,5 +1,5 @@
+### notes 📔
 
-### notes
 **Appel type entrant**
 
 'status_detail'
@@ -38,14 +38,7 @@ public const DATABASE = 'backyard';
  * outbound_call_missed
  * free_number_dialing
 
-**list of statuses to be used for duree calculation**
-- [ ] conversation
-		how long was the person in a call
-- [ ] ???
-
-
 ## Current!
-
 - there are **two** tables tracking the call information
 	- adr
 	- call

@@ -25,25 +25,27 @@ tags:
 
 ## next ⏭
 
-- [ ] books on [[object orientation]] and design
 - [ ] fix **bluetooth** headphones disconnect 🎧
-- [ ] [[see how to best manage PR's in the shell and beyond]]
-- [ ] try [[git butler]] again
+- [ ] books on [[object orientation]] and design
 - [ ] start [[Node]] education 🏫
+- [ ] [[check for an ergonomic mouse]]
+- [ ] [[Education/React/react|react]] study 🎒
 
 
 ## active ⚔
 
-- [ ] [[project workflow test]] 🧪
-- [ ] education / typescript advanced [[Typesript Education]]
-- [ ] [[Education/React/react|react]] study 🎒
 - [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script
+- [ ] education / typescript advanced [[Typesript Education]]
+- [ ] [[see how to best manage PR's in the shell and beyond]]
 
 
 ## finished
 
 **Complete**
+- [x] Beebole 🐝 [[BeeBole]]
 - [x] [[add source field on project]]
+- [x] try [[git butler]] again
+- [x] [[project workflow test]] 🧪
 
 
 ***

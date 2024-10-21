@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"1fe06d118203eb63","type":"text","text":"pitaj za trenutne taskove - sto prvo?\nQSL ili XSS?","x":-320,"y":-400,"width":250,"height":50,"color":"4"},
+		{"id":"9b3fca41f797c349","type":"text","text":"Beebole","x":-320,"y":-320,"width":250,"height":60,"color":"4"},
+		{"id":"50bada865a5d4496","x":-320,"y":-200,"width":250,"height":23,"type":"text","text":"\nstart working on qsl listing DB\n"}
+	],
+	"edges":[
+		{"id":"c66299dfb7ec536f","fromNode":"1fe06d118203eb63","fromSide":"bottom","toNode":"9b3fca41f797c349","toSide":"top"}
+	]
+}

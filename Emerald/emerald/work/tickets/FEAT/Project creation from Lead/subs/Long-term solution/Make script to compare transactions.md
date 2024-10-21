@@ -25,7 +25,7 @@ We should be able to run the diff on multiple [[transaction]]'s and then return 
 	- [ ] study the **relations**
 - [x] try out some other patterns - `composite`, `strategy`
 - [ ] come up with some explanations and advice
-- [ ] check online for more examples and stuff
+- [ ] check online for more examples 
 
 ### notes 🗒
 - `item` is the most important part - it is the part that holds the majority of the data that is persisted

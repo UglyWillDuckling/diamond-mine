@@ -5,7 +5,7 @@
 
 ## Context
 
-We need to find out how the [[listing]] is used on the page in order to be able to add a new type of listing for the [[Se Loger]] website.
+We need to find out how the [[Listing]] is used on the page in order to be able to add a new type of listing for the [[Se Loger]] website.
 
 ## Requirements
 
@@ -59,13 +59,13 @@ The list of all the things that will change and what we need in order for this t
 ## Investigation 🔍
 
 ### todo ☑
-- [ ] take a look at the **db model**
-	- [ ] see what information is there
+- [x] take a look at the **db model**
+	- [x] see what information is there
 		- determine what is actually used and needed for this use case
 ## exploring the existing implementation 🧭
 
 ### entity
-name: [[listing]]
+name: [[Listing]]
 class: `listing2`
 file: `share/mkt/listing.inc`
 #### used methods

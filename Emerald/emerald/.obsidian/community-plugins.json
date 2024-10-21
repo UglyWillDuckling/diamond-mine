@@ -5,7 +5,6 @@
   "obsidian-kanban",
   "obsidian-git",
   "multi-column-markdown",
-  "obsidian-icon-folder",
   "highlightr-plugin",
   "obsidian-vimrc-support",
   "obsidian-excalidraw-plugin",
@@ -24,5 +23,10 @@
   "obsidian-banners",
   "github-link",
   "obsidian-completr",
-  "custom-note-width"
+  "editor-width-slider",
+  "obsidian42-brat",
+  "obsidian-snippet-downloader",
+  "markdown-attributes",
+  "dataview",
+  "obsidian-icon-folder"
 ]

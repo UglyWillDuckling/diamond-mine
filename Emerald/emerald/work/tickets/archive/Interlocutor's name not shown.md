@@ -31,7 +31,7 @@
 
 - [x] measure performance locally
 - [x] commit search changes and deploy to **dev**
-- [ ] test performance on **dev**
+- [x] test performance on **dev**
 ---
 
 Deployment is on...

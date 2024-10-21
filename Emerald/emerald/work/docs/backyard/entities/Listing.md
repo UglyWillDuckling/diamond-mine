@@ -20,3 +20,6 @@ the represenation of a `listing` entity
 ### code👩‍💻
 *how this looks like in the code*
 
+### application
+
+site path: <mark class='path'>contacts/ID/projects/ID/contracts/ID/listing</mark>

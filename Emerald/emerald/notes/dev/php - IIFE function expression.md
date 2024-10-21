@@ -19,4 +19,4 @@ $memberTypes = (function (ReflectionClassLike $reflection) use ($node) {
 })($reflection);
 ```
 
-- [ ] remind (@[[2024-10-17]])
+- [ ] remind (@[[2024-10-24]])

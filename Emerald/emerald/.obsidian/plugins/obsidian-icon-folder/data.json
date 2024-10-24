@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiListPlus",
-      "🔍",
-      "LiFolder",
-      "LiTable",
-      "LiPresentation"
+      "LiQuestionMarkGlyph",
+      "LiBaby",
+      "LiList",
+      "🎄",
+      "🏙"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -43,14 +43,11 @@
   "tools": "LiWrench",
   "concepts": "LiShapes",
   "Kanban.md": "🎬",
-  "work/people/Natasa.md": "👧",
-  "work/people": "LiPersonStanding",
   "work/docs": "LiArchive",
   "Education/Typescript/resources/Learning Typescript Book/Learning TypeScript book.md": "📙",
   "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md": "LiCode2",
   "work/fun": "🎴",
   "Education/Typescript/Execute program {}/Everyday Typescript/Single and Multiple Inheritance.md": "LiSnapToObject",
-  "work/people/Danijela.md": "🫐",
   "work/notes": "📔",
   "work/notes/To run tests first build the test image.md": "🖼",
   "work/tickets/SPIKE's/SPIKE - myTileCache migration to VectorTile?.md": "LiMousePointer2",
@@ -78,8 +75,6 @@
   "Education/React/documentation": "LiArchiveRestore",
   "Education/React/documentation/Tic-Tac-Toe.md": "LiGrid3x3",
   "concepts/development/frontend/Frontend Framework.md": "LiAtom",
-  "work/people/Yoan.md": "🍟",
-  "work/people/Paulo.md": "LiBike",
   "Education/Typescript/Execute program {}/Everyday Typescript/Unknown.md": "LiFileQuestion",
   "Education/Typescript/tasks": "LiCheckCheck",
   "Education/Typescript/things": "LiSnapToObject",
@@ -102,7 +97,6 @@
   "days/day template.md": "LiBookTemplate",
   "notes": "📑",
   "work/calls": "LiPhoneCall",
-  "work/calls/CRM - introduction to Design.md": "👑",
   "work/docs/CRM": "👑",
   "work/notes/Creating branch env's sounds incredible.md": {
     "iconName": "LiGitBranchPlus",
@@ -210,7 +204,6 @@
   },
   "work/notes/archive/povezivanje na gcloud computer masinu.md": "☁",
   "work/notes/archive": "🗃",
-  "work/people/luna.md": "LiMoonStar",
   "work/tickets/bugs/XSS - extranet/subs/sanitize input.md": "🧹",
   "work/tickets/bugs/XSS - extranet/subs/Fix identity link.md": "LiBrokenLink",
   "work/tickets/archive/Interlocutor's name not shown.md": "🗯",
@@ -229,8 +222,6 @@
   "tools/PM/BeeBole.md": "🐝",
   "people": "LiPersonStanding",
   "tasks/archive/See more about the null object pattern.md": "LiSignalZero",
-  "work/calls/CRM macro estimate v2.md": "👑",
-  "work/calls/CRM in SLMP - macro-estimate session.md": "👑",
   "tools/dev/js/react.md": "⚛",
   "tasks/archive/Resolve performance issues.md": "🔥",
   "tasks/archive/remove tab mapping for insert.md": "LiMap",
@@ -275,16 +266,38 @@
   "work/calls/Project creation call.md": "LiProjector",
   "work/calls/SLMP call.md": "LiPresentation",
   "tools/obsidian/vim - vimrc.md": "🙈",
-  "work/tickets/FEAT/QSL listing/DB table.md": {
-    "iconName": "LiTable",
-    "iconColor": "#5729ae"
-  },
   "work/tickets/FEAT/QSL listing/docs": "LiFolder",
   "work/tickets/FEAT/QSL listing/docs/where to find the listing atm.md": "🔍",
-  "work/tickets/FEAT/QSL listing/archive/spike - qsl project.md": "✏",
   "work/tickets/FEAT/QSL listing/docs/required fields.md": "⚠",
   "work/tickets/FEAT/QSL listing": {
     "iconName": "LiListPlus",
     "iconColor": "#a349bc"
-  }
+  },
+  "work/tickets/FEAT/QSL listing/ideas": {
+    "iconName": "LiSunDim",
+    "iconColor": "#ecb43c"
+  },
+  "work/people and teams": {
+    "iconName": "LiPersonStanding",
+    "iconColor": "#ca3f77"
+  },
+  "work/people and teams/Danijela.md": "🫐",
+  "work/people and teams/Natasa.md": "👧",
+  "work/people and teams/Paulo.md": "LiBike",
+  "work/people and teams/Yoan.md": "🍟",
+  "work/people and teams/luna.md": "LiMoonStar",
+  "concepts/development/Prototype.md": "🏙",
+  "tools/dev/nvim/nerdtree-visual-selection.md": "🎄",
+  "work/calls/CRM/CRM - introduction to Design.md": "👑",
+  "work/calls/CRM/CRM in SLMP - macro-estimate session.md": "👑",
+  "work/calls/CRM/CRM macro estimate v2.md": "👑",
+  "work/tickets/FEAT/QSL listing/support new QSL listing option.md": "LiList",
+  "work/tickets/FEAT/QSL listing/subs": "LiBaby",
+  "work/tickets/FEAT/QSL listing/subs/Create DB table.md": {
+    "iconName": "LiTable",
+    "iconColor": "#5729ae"
+  },
+  "work/tickets/FEAT/QSL listing/subs/archive": "LiArchive",
+  "work/tickets/FEAT/QSL listing/subs/archive/spike - qsl project.md": "✏",
+  "notes/how to share actual notes findings between notes?.md": "LiQuestionMarkGlyph"
 }

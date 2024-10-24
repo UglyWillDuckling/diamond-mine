@@ -25,27 +25,24 @@ tags:
 
 ## next ⏭
 
-- [ ] fix **bluetooth** headphones disconnect 🎧
+- [ ] [[check for an ergonomic mouse]]
+- [ ] [[see how to best manage PR's in the shell and beyond]]
 - [ ] books on [[object orientation]] and design
 - [ ] start [[Node]] education 🏫
-- [ ] [[check for an ergonomic mouse]]
 - [ ] [[Education/React/react|react]] study 🎒
 
 
 ## active ⚔
 
+- [ ] [[Create DB table]]
 - [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script
 - [ ] education / typescript advanced [[Typesript Education]]
-- [ ] [[see how to best manage PR's in the shell and beyond]]
 
 
 ## finished
 
 **Complete**
-- [x] Beebole 🐝 [[BeeBole]]
-- [x] [[add source field on project]]
-- [x] try [[git butler]] again
-- [x] [[project workflow test]] 🧪
+- [x] fix **bluetooth** headphones disconnect 🎧
 
 
 ***
@@ -82,6 +79,10 @@ tags:
 - [x] read some [[Refactoring]] 📚
 - [x] [[add keywords to TODO]]
 - [x] [[Fix identity link]] - **PR** submitted
+- [x] Beebole 🐝 [[BeeBole]]
+- [x] [[add source field on project]]
+- [x] try [[git butler]] again
+- [x] [[project workflow test]] 🧪
 
 %% kanban:settings
 ```

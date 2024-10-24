@@ -30,7 +30,7 @@ override({name: 'Betty'})
 ```
 
 > [!NOTE] We could now define multiple templates that the user could choose from and continue to modify
-> <mark style="background: #ABF7F7A6;">This is very similiar to the [[Prototype]] pattern except much neater and quicker</mark>
+> <mark style="background: #ABF7F7A6;">This is very similiar to the [[Prototype pattern]] pattern except much neater and quicker</mark>
 
 ## usage: use cases
 

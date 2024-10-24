@@ -8,33 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "de40acdaba803c08",
+            "id": "20b55ceff0076dee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing/DB table.md",
+                "file": "2024-10-24.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DB table"
-            }
-          },
-          {
-            "id": "a26a152c8568089e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/obsidian/PLN theme settings and more.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PLN theme settings and more"
+              "title": "2024-10-24"
             }
           }
         ]
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 276.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -154,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing/DB table.md"
+                "file": "2024-10-24.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of DB table"
+              "title": "Outline of 2024-10-24"
             }
           },
           {
@@ -215,11 +200,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 308.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -242,46 +227,46 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "de40acdaba803c08",
+  "active": "688b3d615137a273",
   "lastOpenFiles": [
-    "work/tickets/FEAT/Add \"Relance signature Mandat\" category.md",
-    "work/tickets/FEAT/QSL listing/DB table.md",
+    "days/2024-10-23.md",
+    "2024-10-24.md",
+    "Kanban.md",
     "work/tickets/FEAT/QSL listing/docs/required fields.md",
-    "work/tickets/FEAT/QSL listing/archive/spike - qsl project.md",
-    "work/tickets/FEAT/QSL listing/archive",
-    "work/tickets/FEAT/QSL listing/docs/where to find the listing atm.md",
-    "work/docs/backyard/entities/Listing.md",
+    "work/tickets/FEAT/QSL listing/support new QSL listing option.md",
+    "Action.canvas",
+    "notes/how to share actual notes findings between notes?.md",
+    "work/tickets/FEAT/QSL listing/subs/Create DB table.md",
+    "days/2024-10-22.md",
+    "work/tickets/FEAT/Wysiwyg replacement.md",
+    "work/tickets/FEAT/QSL listing/ideas/maybe add check to see if from_buyer_search every succedes.md",
+    "work/tickets/FEAT/QSL listing/subs/how the listings are loaded.md",
+    "work/tickets/FEAT/QSL listing/subs",
+    "work/calls/CRM/CRM macro estimate v3.md",
     "notes/obsidian/PLN theme settings and more.md",
+    "work/calls/CRM/CRM macro estimate v2.md",
+    "work/calls/CRM/CRM in SLMP - macro-estimate session.md",
+    "work/calls/Lead,Estima,Project relation call.md",
+    "work/calls/CRM",
+    "tasks/dev/check for an ergonomic mouse.md",
+    "Education/Typescript/Execute program {}/execute program courses 🎓.md",
+    "tools/dev/nvim/nerdtree-visual-selection.md",
+    "tools/dev/nvim/nerdtree.md",
+    "tools/dev/nvim/emoji-ab.md",
+    "tools/dev/nvim/Drawing 2024-10-22 16.32.14.excalidraw.md",
+    "tasks/dev/setup nerdtree in neovim.md",
+    "concepts/development/Prototype.md",
+    "concepts/computer science/oop/patterns/Prototype pattern.md",
+    "work/docs/QSL listing.md",
+    "work/tickets/FEAT/QSL listing/ideas",
+    "work/tickets/FEAT/QSL listing/subs/archive",
     "work/tickets/FEAT/QSL listing/docs/concepts,entities,etc.",
     "work/tickets/FEAT/QSL listing/docs",
-    "Action.canvas",
-    "notes/you can switch tabs with Ctrl-1,2,3,4.md",
-    "tools/obsidian/vim - vimrc.md",
-    "tools/PM/BeeBole.md",
     "tools/PM/bee-bole-export.png",
-    "notes/ubuntu upgrade error.md",
-    "Kanban.md",
-    "2024-10-21.md",
-    "work/calls/SLMP call.md",
-    "work/people/AVIV/Valentine Croize.md",
-    "work/people/Ivan Vukusic.md",
-    "work/people/Ivan Culina.md",
-    "work/people/luna.md",
-    "work/calls/Project creation call.md",
-    "work/notes/lost time.md",
-    "work/people/AVIV/Charlotte.md",
-    "work/people/AVIV",
-    "work/notes/archive/Millions of euros for a buy in France.md",
+    "work/people and teams/AVIV",
     "work/docs/archive",
-    "work/docs/How To/deploy extranet.md",
-    "work/docs/concepts/Backoffice.md",
-    "days/2024-10-18.md",
-    "work/tickets/bugs/failed to crate contract.md",
     "notes/obsidian/plugins",
     "notes/links",
-    "work/docs/How To",
-    "tools/obsidian",
-    "work/docs/concepts",
     "work/notes/archive/iris-code.png",
     "Education/Books/Patterns of Enterprise/content/special_case.jpg",
     "Pasted image 20240923155220.png",

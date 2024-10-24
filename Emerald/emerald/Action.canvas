@@ -1,10 +1,22 @@
 {
 	"nodes":[
-		{"id":"1fe06d118203eb63","type":"text","text":"pitaj za trenutne taskove - sto prvo?\nQSL ili XSS?","x":-320,"y":-400,"width":250,"height":50,"color":"4"},
-		{"id":"9b3fca41f797c349","type":"text","text":"Beebole","x":-320,"y":-320,"width":250,"height":60,"color":"4"},
-		{"id":"50bada865a5d4496","x":-320,"y":-200,"width":250,"height":23,"type":"text","text":"\nstart working on qsl listing DB\n"}
+		{"id":"1fe06d118203eb63","type":"text","text":"pitaj za trenutne taskove - sto prvo?\nQSL ili XSS?","x":-560,"y":-800,"width":250,"height":50,"color":"4"},
+		{"id":"9b3fca41f797c349","type":"text","text":"Beebole","x":-560,"y":-720,"width":250,"height":60,"color":"4"},
+		{"id":"103ea9a6396c587d","type":"text","text":"investigate qsl [[QSL listing]]\n","x":-360,"y":-100,"width":250,"height":60,"color":"5"},
+		{"id":"50bada865a5d4496","type":"text","text":"start working on qsl listing DB [[Create DB table]]\n\n","x":-360,"y":-280,"width":250,"height":100,"color":"4"},
+		{"id":"031fa4b40c79f7fe","type":"text","text":"see current status, experiment","x":-540,"y":103,"width":250,"height":50,"color":"3"},
+		{"id":"952435f14477dfb5","type":"text","text":"refactor","x":0,"y":103,"width":160,"height":50,"color":"4"},
+		{"id":"42e4aab030f5c46e","x":-175,"y":103,"width":175,"height":50,"color":"#91fe48","type":"text","text":"write test"},
+		{"id":"ec103f70a6c47c3a","type":"text","text":"make(build) a table [[Prototype]]","x":-340,"y":300,"width":250,"height":50,"color":"6"}
 	],
 	"edges":[
-		{"id":"c66299dfb7ec536f","fromNode":"1fe06d118203eb63","fromSide":"bottom","toNode":"9b3fca41f797c349","toSide":"top"}
+		{"id":"c66299dfb7ec536f","fromNode":"1fe06d118203eb63","fromSide":"bottom","toNode":"9b3fca41f797c349","toSide":"top"},
+		{"id":"dde2ce8aec74088d","fromNode":"50bada865a5d4496","fromSide":"bottom","toNode":"103ea9a6396c587d","toSide":"top"},
+		{"id":"4df729d65a55bfda","fromNode":"103ea9a6396c587d","fromSide":"bottom","toNode":"031fa4b40c79f7fe","toSide":"top"},
+		{"id":"ee499a15da601abb","fromNode":"103ea9a6396c587d","fromSide":"bottom","toNode":"952435f14477dfb5","toSide":"top"},
+		{"id":"c89150931a4674e5","fromNode":"031fa4b40c79f7fe","fromSide":"bottom","toNode":"ec103f70a6c47c3a","toSide":"top"},
+		{"id":"3514f63b0a7a2128","fromNode":"952435f14477dfb5","fromSide":"bottom","toNode":"ec103f70a6c47c3a","toSide":"top"},
+		{"id":"dcb996eee27062fa","fromNode":"103ea9a6396c587d","fromSide":"bottom","toNode":"42e4aab030f5c46e","toSide":"top"},
+		{"id":"00df8094d14dc8c8","fromNode":"42e4aab030f5c46e","fromSide":"bottom","toNode":"ec103f70a6c47c3a","toSide":"top"}
 	]
 }

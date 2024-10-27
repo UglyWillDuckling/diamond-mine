@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"6e2a455c2a0bd502","type":"text","text":"plati porez\n","x":-185,"y":-380,"width":250,"height":60,"color":"4"},
-		{"id":"d8aa65d63995eded","type":"text","text":"istrazi sporo pokretanje","x":-220,"y":-220,"width":320,"height":60,"color":"5"}
-	],
-	"edges":[
-		{"id":"b9ab0092022b3784","fromNode":"6e2a455c2a0bd502","fromSide":"bottom","toNode":"d8aa65d63995eded","toSide":"top"}
-	]
-}

@@ -12,5 +12,7 @@
   "highlightr-plugin",
   "settings-search",
   "chronology",
-  "obsidian-list-callouts"
+  "obsidian-list-callouts",
+  "editor-width-slider",
+  "vim-yank-highlight"
 ]

@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d8a0726192584818",
+        "id": "de551b3ba7d77cd5",
         "type": "tabs",
         "children": [
           {
-            "id": "f46842540f89af9c",
+            "id": "2f3659996836bf1e",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "tasks.canvas",
+                "file": "action.canvas",
                 "viewState": {
-                  "x": 5,
-                  "y": -106.30022305474496,
+                  "x": -3.3999999999999915,
+                  "y": -50.48000000000004,
                   "zoom": 0
                 }
-              }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "action"
             }
           }
         ]
@@ -42,7 +44,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -57,7 +61,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -65,14 +71,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 274.5110321044922
+    "width": 211.5
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -88,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tasks.canvas",
+                "file": "action.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +104,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for action"
             }
           },
           {
@@ -105,10 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tasks.canvas",
+                "file": "action.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from action"
             }
           },
           {
@@ -119,15 +131,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "fa09b9890898fd11",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -135,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -144,8 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tasks.canvas"
-              }
+                "file": "action.canvas"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of action"
             }
           },
           {
@@ -153,7 +163,9 @@
             "type": "leaf",
             "state": {
               "type": "chronology-calendar-view",
-              "state": {}
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
             }
           },
           {
@@ -161,11 +173,33 @@
             "type": "leaf",
             "state": {
               "type": "timeline",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "13ad822527123b9c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "a272c8feb61a1e72",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -187,45 +221,45 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f46842540f89af9c",
+  "active": "2f3659996836bf1e",
   "lastOpenFiles": [
+    "2024-10-27.md",
+    "action.canvas",
     "Board.md",
-    "tasks.canvas",
+    "tasks/review Hugama studio.md",
+    "tasks/dev",
+    "tasks/faks/nova godina/poslati mailove za upis na predmete.md",
+    "days/2024-10-15.md",
+    "notes/ranger is actually quite good.md",
+    "notes/grupirati taskove, dane i slicno.md",
+    "Excalidraw/Drawing 2024-10-27 20.21.44.excalidraw.md",
+    "Excalidraw",
+    "tasks/faks/nova godina/organizirati faks za novu godinu.md",
+    "tasks/faks/nova godina",
+    "tasks/faks",
+    "tasks/archive/see why yay won't update.md",
+    "Untitled",
+    "knowledge/questions/questions.md",
+    "knowledge/repository/dev/mermaid examples.md",
+    "knowledge/repository/dev/cronie is required for cron to work.md",
+    "notes/obsidian",
+    "tools/pc/cron.md",
+    "days/2024-10-19.md",
+    "days/2024-10-08.md",
     "choose.canvas",
     "task.md",
     "notes/archive/I should encrypt folders.md",
     "tools/pc/mods/mods --setttings.md",
     "tools/pc/mods/mods.md",
     "tools/pc/mods",
-    "notes/having a question list is a good idea.md",
-    "notes/grupirati taskove, dane i slicno.md",
+    "notes/archive/having a question list is a good idea.md",
     "tasks/archive/setup obsidian on your phone📱.md",
     "questions?",
     "tasks/archive",
-    "notes/canvas tool is much better than it first appeared.md",
-    "notes/ranger is actually quite good.md",
-    "2024-10-08.md",
-    "notes/daily planner looks great.md",
+    "notes/obsidian/canvas tool is much better than it first appeared.md",
+    "notes/obsidian/daily planner looks great.md",
     "tools/obsidian/plugins/callout list.md",
-    "knowledge/questions/questions.md",
     "knowledge/questions",
-    "knowledge/concepts/CS/information hiding - encapsulation.md",
-    "knowledge/concepts/CS/abstraction.md",
-    "days/2024",
-    "days/2024/2024-10-06.md",
-    "knowledge/repository/dev/mermaid examples.md",
-    "knowledge/repository/dev/cronie is required for cron to work.md",
-    "knowledge/repository/dev",
-    "knowledge/repository/Untitled.md",
-    "knowledge/repository",
-    "knowledge/books",
-    "knowledge",
-    "tools/pc/cron.md",
-    "tools/pc/cronie.md",
-    "Excalidraw/Drawing 2024-10-08 20.40.56.excalidraw.md",
-    "Excalidraw",
-    "knowledge/articles/archive/Tech is no substitute for depth 🤔.md",
-    "knowledge/concepts/CS/OOP/smalltalk/💠 objects in Smalltalk.md",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",

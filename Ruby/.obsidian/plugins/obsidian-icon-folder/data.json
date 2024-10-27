@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiPcCase",
-      "🪄",
-      "LiCode",
-      "LiGroup",
-      "LiFormula"
+      "LiCalendar",
+      "LiPaintbrush",
+      "🏇",
+      "📧",
+      "🧑‍🎓"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,7 +41,6 @@
   },
   "tools": "🧰",
   "notes/archive": "LiArchive",
-  "notes/daily planner looks great.md": "LiCheckSquare2",
   "tools/pc/cron.md": "LiTimerReset",
   "knowledge": "LiBrain",
   "knowledge/concepts": "🤔",
@@ -65,14 +64,6 @@
     "iconName": "LiListTodo",
     "iconColor": "#b73838"
   },
-  "notes/canvas tool is much better than it first appeared.md": {
-    "iconName": "LiPencilRuler",
-    "iconColor": "#2ac4cf"
-  },
-  "notes/having a question list is a good idea.md": {
-    "iconName": "LiQuestionMarkGlyph",
-    "iconColor": "#e7cb13"
-  },
   "knowledge/questions": "LiQuestionMarkGlyph",
   "notes/grupirati taskove, dane i slicno.md": {
     "iconName": "LiGroup",
@@ -81,5 +72,27 @@
   "notes/archive/I should encrypt folders.md": "LiCode",
   "tools/pc/mods/mods --setttings.md": "🤖",
   "tools/pc/mods": "🪄",
-  "tools/pc": "LiPcCase"
+  "tools/pc": "LiPcCase",
+  "action.canvas": "LiStepForward",
+  "notes/obsidian/canvas tool is much better than it first appeared.md": {
+    "iconName": "LiPencilRuler",
+    "iconColor": "#2ac4cf"
+  },
+  "notes/obsidian/daily planner looks great.md": "LiCheckSquare2",
+  "notes/archive/having a question list is a good idea.md": {
+    "iconName": "LiQuestionMarkGlyph",
+    "iconColor": "#e7cb13"
+  },
+  "tasks/archive/see why yay won't update.md": "🌌",
+  "tasks/faks/nova godina/organizirati faks za novu godinu.md": "🧑‍🎓",
+  "tasks/faks/nova godina/poslati mailove za upis na predmete.md": "📧",
+  "notes/ranger is actually quite good.md": "🏇",
+  "tasks/review Hugama studio.md": {
+    "iconName": "LiPaintbrush",
+    "iconColor": "#3086b0"
+  },
+  "2024-10-27.md": {
+    "iconName": "LiCalendar",
+    "iconColor": "#c6942a"
+  }
 }

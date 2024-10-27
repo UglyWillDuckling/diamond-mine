@@ -10,19 +10,25 @@ kanban-plugin: board
 
 ## active
 
-- [ ] investigate startup slow
+- [ ] [[organizirati faks za novu godinu]]
 
 
 ## done
 
-- [ ] plati porez
+- [x] [[review Hugama studio]]
+- [x] [[see why yay won't update]]
+
+
+***
+
+## Archive
+
 - [ ] [[setup obsidian on your phone📱]]
-
-
-
+- [ ] plati porez
+- [ ] investigate startup slow
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false]}
+{"kanban-plugin":"board","list-collapse":[false,false,false],"show-checkboxes":true}
 ```
 %%

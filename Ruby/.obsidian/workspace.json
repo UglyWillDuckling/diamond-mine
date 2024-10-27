@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "de551b3ba7d77cd5",
+        "id": "0d359da7f769d22b",
         "type": "tabs",
         "children": [
           {
-            "id": "2f3659996836bf1e",
+            "id": "5adfc58ad3ab8326",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "action.canvas",
-                "viewState": {
-                  "x": -3.3999999999999915,
-                  "y": -50.48000000000004,
-                  "zoom": 0
-                }
+                "file": "Life/Faks/Digitalna/todos/finish the college setup.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "action"
+              "icon": "lucide-file",
+              "title": "finish the college setup"
             }
           }
         ]
@@ -55,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#computer-programming",
+                "query": "path:\"Life/Faks/Digitalna/todos/\" ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.5
+    "width": 272.5
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -96,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "action.canvas",
+                "file": "notes/we could use Kanban for more than tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for action"
+              "title": "Backlinks for we could use Kanban for more than tasks"
             }
           },
           {
@@ -115,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "action.canvas",
+                "file": "Life/Faks/Digitalna/todos/finish the college setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from action"
+              "title": "Outgoing links from finish the college setup"
             }
           },
           {
@@ -152,10 +149,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "action.canvas"
+                "file": "Life/Faks/Digitalna/todos/finish the college setup.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of action"
+              "title": "Outline of finish the college setup"
             }
           },
           {
@@ -199,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -216,50 +213,51 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-day-planner:Timeline": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2f3659996836bf1e",
+  "active": "377a32c0e1ff69da",
   "lastOpenFiles": [
-    "2024-10-27.md",
+    "Life/Faks/Digitalna/digitalan elektronika.md",
+    "Life/Faks/Digitalna/todos/finish the college setup.md",
+    "Life/Faks/Digitalna/todos",
     "action.canvas",
-    "Board.md",
-    "tasks/review Hugama studio.md",
-    "tasks/dev",
-    "tasks/faks/nova godina/poslati mailove za upis na predmete.md",
-    "days/2024-10-15.md",
-    "notes/ranger is actually quite good.md",
-    "notes/grupirati taskove, dane i slicno.md",
-    "Excalidraw/Drawing 2024-10-27 20.21.44.excalidraw.md",
-    "Excalidraw",
-    "tasks/faks/nova godina/organizirati faks za novu godinu.md",
-    "tasks/faks/nova godina",
-    "tasks/faks",
-    "tasks/archive/see why yay won't update.md",
-    "Untitled",
-    "knowledge/questions/questions.md",
-    "knowledge/repository/dev/mermaid examples.md",
+    "2024-10-27.md",
+    "theme.md",
     "knowledge/repository/dev/cronie is required for cron to work.md",
-    "notes/obsidian",
-    "tools/pc/cron.md",
-    "days/2024-10-19.md",
-    "days/2024-10-08.md",
+    "knowledge/questions/questions.md",
+    "Board.md",
+    "Untitled.md",
+    "Life/tasks/arhiva/review Hugama studio.md",
+    "Life/tasks/arhiva",
+    "notes/ranger is actually quite good.md",
+    "tasks/fix shortcuts on PC.md",
+    "Life/tasks",
+    "tasks/use the timeline and daily tasks ✅.md",
+    "2024-10-28.md",
+    "tasks/add some questions.md",
+    "notes/it's not easy to become one with 2 minds.md",
+    "tasks/dev/obsidian - organize folders.md",
+    "notes/Untitled.md",
+    "Life/Faks/faks.md",
+    "tasks/dev/obsidian - organize with tags.md",
+    "Life/Faks/tasks/nova godina/organizirati Obsidian.md",
+    "notes/we could use Kanban for more than tasks.md",
+    "Life/Dev/tasks",
+    "Life/Dev",
+    "LIfe/Faks.md",
+    "Life/Faks/tasks",
+    "tasks/Life",
+    "Life/Faks/tasks/nova godina/organizirati faks za novu godinu.md",
+    "Life/Faks/tasks/nova godina/poslati mailove za upis na predmete.md",
+    "Life/Faks/Digitalna/matematika.md",
+    "Life/Faks/Matematika/matematika.md",
+    "Life/Faks/Digitalna",
+    "Life/Faks/Osnove informatike",
+    "Life/Faks/Matematika",
     "choose.canvas",
-    "task.md",
-    "notes/archive/I should encrypt folders.md",
-    "tools/pc/mods/mods --setttings.md",
-    "tools/pc/mods/mods.md",
-    "tools/pc/mods",
-    "notes/archive/having a question list is a good idea.md",
-    "tasks/archive/setup obsidian on your phone📱.md",
-    "questions?",
-    "tasks/archive",
-    "notes/obsidian/canvas tool is much better than it first appeared.md",
-    "notes/obsidian/daily planner looks great.md",
-    "tools/obsidian/plugins/callout list.md",
-    "knowledge/questions",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",

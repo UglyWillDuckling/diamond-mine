@@ -48,7 +48,7 @@
         "Mod",
         "Shift"
       ],
-      "key": "I"
+      "key": "E"
     }
   ],
   "app:toggle-right-sidebar": [
@@ -141,6 +141,14 @@
         "Mod"
       ],
       "key": "E"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "PageUp"
     }
   ]
 }

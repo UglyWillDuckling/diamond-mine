@@ -11,6 +11,7 @@ kanban-plugin: board
 ## active
 
 - [ ] [[organizirati faks za novu godinu]]
+- [ ] try to remove the **default** folder icon 📁
 
 
 ## done

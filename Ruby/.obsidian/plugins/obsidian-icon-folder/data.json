@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiCalendar",
-      "LiPaintbrush",
-      "🏇",
-      "📧",
-      "🧑‍🎓"
+      "LiFolder",
+      "LiCheckSquare2",
+      "LiDiamond",
+      "LiCircuitBoard",
+      "LiFileDigit"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -59,21 +59,19 @@
     "iconName": "LiComputer",
     "iconColor": "#31c1c4"
   },
-  "tasks": "LiClipboardCheck",
   "Board.md": {
     "iconName": "LiListTodo",
     "iconColor": "#b73838"
   },
   "knowledge/questions": "LiQuestionMarkGlyph",
-  "notes/grupirati taskove, dane i slicno.md": {
-    "iconName": "LiGroup",
-    "iconColor": "#c2147a"
-  },
   "notes/archive/I should encrypt folders.md": "LiCode",
   "tools/pc/mods/mods --setttings.md": "🤖",
   "tools/pc/mods": "🪄",
   "tools/pc": "LiPcCase",
-  "action.canvas": "LiStepForward",
+  "action.canvas": {
+    "iconName": "LiStepForward",
+    "iconColor": "#338dd1"
+  },
   "notes/obsidian/canvas tool is much better than it first appeared.md": {
     "iconName": "LiPencilRuler",
     "iconColor": "#2ac4cf"
@@ -83,16 +81,42 @@
     "iconName": "LiQuestionMarkGlyph",
     "iconColor": "#e7cb13"
   },
-  "tasks/archive/see why yay won't update.md": "🌌",
-  "tasks/faks/nova godina/organizirati faks za novu godinu.md": "🧑‍🎓",
-  "tasks/faks/nova godina/poslati mailove za upis na predmete.md": "📧",
   "notes/ranger is actually quite good.md": "🏇",
-  "tasks/review Hugama studio.md": {
+  "notes/we could use Kanban for more than tasks.md": "LiCircuitBoard",
+  "Life": "🗺",
+  "Life/Dev/tasks": "LiCheckSquare2",
+  "notes/it's not easy to become one with 2 minds.md": "🎗",
+  "notes/archive/grupirati taskove, dane i slicno.md": {
+    "iconName": "LiGroup",
+    "iconColor": "#c2147a"
+  },
+  "Life/Faks/tasks/nova godina/organizirati faks za novu godinu.md": "🧑‍🎓",
+  "Life/Faks/tasks/nova godina/poslati mailove za upis na predmete.md": "📧",
+  "Life/Faks/tasks/nova godina/organizirati Obsidian.md": "♦",
+  "Life/Faks/tasks/nova godina": "⏭",
+  "tasks": "LiClipboardCheck",
+  "tasks/archive/see why yay won't update.md": "🌌",
+  "tasks/dev/obsidian - organize folders.md": {
+    "iconName": "LiFolders",
+    "iconColor": "#eddb1d"
+  },
+  "tasks/dev/obsidian - organize with tags.md": "LiTag",
+  "tasks/add some questions.md": "LiQuestionMarkGlyph",
+  "tasks/fix shortcuts on PC.md": "🩳",
+  "Life/Faks": "🎒",
+  "Life/Dev": "LiCodesandbox",
+  "Life/Faks/Digitalna/digitalan elektronika.md": "LiFileDigit",
+  "Life/Faks/Digitalna": "LiCircuitBoard",
+  "Life/tasks": "LiCheck",
+  "Life/tasks/arhiva/review Hugama studio.md": {
     "iconName": "LiPaintbrush",
     "iconColor": "#3086b0"
   },
   "2024-10-27.md": {
     "iconName": "LiCalendar",
     "iconColor": "#c6942a"
-  }
+  },
+  "tools/obsidian": "LiDiamond",
+  "Life/Faks/Digitalna/todos": "LiCheckSquare2",
+  "Life/Faks/Digitalna/todos/finish the college setup.md": "LiFolder"
 }

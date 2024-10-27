@@ -1,0 +1,4 @@
+
+- [x] @ Matematika
+- [ ] Osnove informatike
+- [ ] 

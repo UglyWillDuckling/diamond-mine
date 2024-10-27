@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"ad18d001810d80aa","type":"text","text":"commit na obsidian\n\n","x":-280,"y":-180,"width":250,"height":60,"color":"6"},
-		{"id":"bcc420e1c208a6bb","type":"text","text":"posloziti Obsidian u vezi faksa\n","x":-345,"y":-40,"width":250,"height":80,"color":"6"},
-		{"id":"71ed32a7823a5b43","type":"text","text":"povezati obsidian sa Notionom\n\n\n","x":-370,"y":100,"width":300,"height":80,"color":"6"},
-		{"id":"b39076bc51f458ac","type":"text","text":"srediti internet na mobitelu","x":-300,"y":340,"width":300,"height":50,"color":"5"},
 		{"id":"2f25f745a429bc0d","type":"text","text":"poslati mail u vezi matematike [[poslati mailove za upis na predmete]]\n","x":-365,"y":-540,"width":420,"height":60,"color":"4"},
-		{"id":"d7fdd146693832f8","type":"text","text":"review Hugama studio\n","x":-280,"y":-440,"width":250,"height":60,"color":"4"}
+		{"id":"d7fdd146693832f8","type":"text","text":"review Hugama studio\n","x":-280,"y":-440,"width":250,"height":60,"color":"4"},
+		{"id":"b39076bc51f458ac","type":"text","text":"srediti internet na mobitelu","x":-345,"y":400,"width":300,"height":50,"color":"5"},
+		{"id":"ad18d001810d80aa","type":"text","text":"commit na obsidian\n\n","x":-320,"y":-360,"width":250,"height":50,"color":"4"},
+		{"id":"71ed32a7823a5b43","type":"text","text":"povezati obsidian sa Notionom\n barem malo\n \n\n","x":-370,"y":80,"width":300,"height":60,"color":"3"},
+		{"id":"bcc420e1c208a6bb","type":"text","text":"posloziti Obsidian u vezi faksa\n","x":-345,"y":-140,"width":250,"height":80,"color":"4"}
 	],
 	"edges":[
 		{"id":"0cf30f52fe801e18","fromNode":"2f25f745a429bc0d","fromSide":"bottom","toNode":"d7fdd146693832f8","toSide":"top"},

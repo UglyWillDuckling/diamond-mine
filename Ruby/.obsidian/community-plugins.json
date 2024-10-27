@@ -14,5 +14,9 @@
   "chronology",
   "obsidian-list-callouts",
   "editor-width-slider",
-  "vim-yank-highlight"
+  "vim-yank-highlight",
+  "obsidian-banners",
+  "obsidian-smart-typography",
+  "obsidian-contextual-typography",
+  "css-snippets"
 ]

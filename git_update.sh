@@ -2,4 +2,4 @@
 
 set -o pipefail
 
-(date && git pull) | tee -a log/update.log 2>&1
+(date && git pull) | tee log/update.log 2>&1

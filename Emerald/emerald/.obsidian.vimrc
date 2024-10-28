@@ -72,8 +72,8 @@ nnoremap <C-k> :prevHeading
 " INFO doesn't work in visual mode
 exmap lineUp obcommand editor:swap-line-up
 exmap lineDown obcommand editor:swap-line-down
-nnoremap <Up> :lineUp
-nnoremap <Down> :lineDown
+nnoremap <Up> :lineUp<CR>
+nnoremap <Down> :lineDown<CR>
 nnoremap <Right> dlp
 nnoremap <Left> dlhhp
 

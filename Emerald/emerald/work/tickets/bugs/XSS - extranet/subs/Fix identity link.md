@@ -3,7 +3,7 @@ title: **Prendre l'identité sur www**
 
 ---
 ## notes 📔
-- works `locally` - redirects to the default [[luna]] `env`
+- works `locally` - redirects to the default [[luna team]] `env`
 - URL used on dev: https://www.meilleursagents.tech
 - unable to determine the env var for this on [[argocd]]
 

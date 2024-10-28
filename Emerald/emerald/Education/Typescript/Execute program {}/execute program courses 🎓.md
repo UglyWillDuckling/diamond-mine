@@ -406,3 +406,10 @@ Javascript
 - [[JSON Stringify and Parse {}]]
 - [[Symbol Basics]]
 - ...
+
+## [[2024-10-25]]
+
+### Lessons 📖^lesson-2024-10-24
+- [[Defining Iterators]]
+- [[Using Iterators]]
+

@@ -4,22 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "20724b2b0d580f1b",
+        "id": "9d5b2bc27b6591a6",
         "type": "tabs",
         "children": [
           {
-            "id": "20b55ceff0076dee",
+            "id": "63f9d50fee302c04",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "2024-10-24.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    true,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "lucide-file",
-              "title": "2024-10-24"
+              "icon": "lucide-trello",
+              "title": "Kanban"
             }
           }
         ]
@@ -78,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 245.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -139,10 +145,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-10-24.md"
+                "file": "Kanban.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-10-24"
+              "title": "Outline of Kanban"
             }
           },
           {
@@ -184,9 +190,11 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "tasks/dev/nvim - setup nvim-tree.md"
+              },
               "icon": "lucide-info",
-              "title": "File properties"
+              "title": "File properties for nvim - setup nvim-tree"
             }
           },
           {
@@ -227,46 +235,46 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "688b3d615137a273",
+  "active": "63f9d50fee302c04",
   "lastOpenFiles": [
-    "days/2024-10-23.md",
-    "2024-10-24.md",
+    "work/calls/PROJECT/Lead,Estima,Project relation call.md",
+    "work/calls/PROJECT/Lead Fix call.md",
+    "work/calls/PROJECT/Project creation call.md",
+    "work/calls/PROJECT",
+    "work/calls/CRM/SLMP call.md",
+    "work/calls/SPRINT/Sprint Review  - 22.07.md",
+    "work/calls/SPRINT/Sprint retro 2024-08-19.md",
+    "work/calls/SPRINT/sprint planning 10-28.md",
+    "2024-10-28.md",
+    "2024-10-25.md",
+    "work/calls/TEAMS/cal with NOVA team about leads.md",
+    "work/calls/TEAMS",
     "Kanban.md",
-    "work/tickets/FEAT/QSL listing/docs/required fields.md",
-    "work/tickets/FEAT/QSL listing/support new QSL listing option.md",
-    "Action.canvas",
-    "notes/how to share actual notes findings between notes?.md",
-    "work/tickets/FEAT/QSL listing/subs/Create DB table.md",
-    "days/2024-10-22.md",
-    "work/tickets/FEAT/Wysiwyg replacement.md",
-    "work/tickets/FEAT/QSL listing/ideas/maybe add check to see if from_buyer_search every succedes.md",
-    "work/tickets/FEAT/QSL listing/subs/how the listings are loaded.md",
-    "work/tickets/FEAT/QSL listing/subs",
-    "work/calls/CRM/CRM macro estimate v3.md",
-    "notes/obsidian/PLN theme settings and more.md",
-    "work/calls/CRM/CRM macro estimate v2.md",
-    "work/calls/CRM/CRM in SLMP - macro-estimate session.md",
-    "work/calls/Lead,Estima,Project relation call.md",
-    "work/calls/CRM",
+    "tasks/dev/nvim - setup nvim-tree.md",
     "tasks/dev/check for an ergonomic mouse.md",
+    "Action.canvas",
+    "Education/Typescript/Execute program {}/Modern Javascript/Using Iterators.md",
+    "home/vsedlar/dev/study/javascript/execute/iterators/using_iterators.js.md",
+    "home/vsedlar/dev/study/javascript/execute/iterators",
+    "home/vsedlar/dev/study/javascript/execute",
+    "home/vsedlar/dev/study/javascript",
+    "home/vsedlar/dev/study",
+    "home/vsedlar/dev",
+    "home/vsedlar",
+    "home",
+    "notes/obsidian/PLN theme settings and more.md",
+    "concepts/computer science/destructuring.md",
+    "concepts/iterator pattern.md",
     "Education/Typescript/Execute program {}/execute program courses 🎓.md",
-    "tools/dev/nvim/nerdtree-visual-selection.md",
-    "tools/dev/nvim/nerdtree.md",
-    "tools/dev/nvim/emoji-ab.md",
-    "tools/dev/nvim/Drawing 2024-10-22 16.32.14.excalidraw.md",
-    "tasks/dev/setup nerdtree in neovim.md",
-    "concepts/development/Prototype.md",
-    "concepts/computer science/oop/patterns/Prototype pattern.md",
-    "work/docs/QSL listing.md",
-    "work/tickets/FEAT/QSL listing/ideas",
-    "work/tickets/FEAT/QSL listing/subs/archive",
-    "work/tickets/FEAT/QSL listing/docs/concepts,entities,etc.",
-    "work/tickets/FEAT/QSL listing/docs",
+    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/Sets.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/Generators.md",
+    "days/2024-10-24.md",
+    "Education/Typescript/short notes 📒/📒short notes.md",
+    "Education/Typescript/Execute program {}/Modern Javascript/Defining Iterators.md",
+    "Education/Typescript/Execute program {}/Everyday Typescript/ReturnType and Parameters.md",
+    "work/calls/CRM/CRM macro estimate v4.md",
+    "work/calls/MOB",
     "tools/PM/bee-bole-export.png",
-    "work/people and teams/AVIV",
-    "work/docs/archive",
-    "notes/obsidian/plugins",
-    "notes/links",
     "work/notes/archive/iris-code.png",
     "Education/Books/Patterns of Enterprise/content/special_case.jpg",
     "Pasted image 20240923155220.png",

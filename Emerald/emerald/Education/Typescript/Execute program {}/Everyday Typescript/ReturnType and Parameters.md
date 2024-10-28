@@ -1,6 +1,3 @@
-
-
----
 ## ReturnType
 
 > Sometimes we want to extract an existing function's return type or parameter types. TypeScript can do both of those! We can use TypeScript's generic ReturnType type to get the return type. It takes a function type as its type parameter, then gives us the return type of that function.
@@ -12,7 +9,6 @@ const hello: OurReturnType = 'hello';
 hello;
 // 'hello'
 ```
-
 
 ## Parameters
 

@@ -27,14 +27,15 @@ tags:
 
 - [ ] [[check for an ergonomic mouse]]
 - [ ] [[see how to best manage PR's in the shell and beyond]]
-- [ ] books on [[object orientation]] and design
-- [ ] start [[Node]] education 🏫
 - [ ] [[Education/React/react|react]] study 🎒
+- [ ] books on [[object orientation]] and design 📘
+- [ ] start [[Node]] education 🏫
 
 
 ## active ⚔
 
 - [ ] [[Create DB table]]
+- [ ] [[nvim - setup nvim-tree]]
 - [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script
 - [ ] education / typescript advanced [[Typesript Education]]
 
@@ -83,6 +84,7 @@ tags:
 - [x] [[add source field on project]]
 - [x] try [[git butler]] again
 - [x] [[project workflow test]] 🧪
+- [ ] mob programming call
 
 %% kanban:settings
 ```

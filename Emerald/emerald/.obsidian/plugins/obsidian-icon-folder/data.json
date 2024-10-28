@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiQuestionMarkGlyph",
-      "LiBaby",
-      "LiList",
-      "🎄",
-      "🏙"
+      "LiThumbsUp",
+      "👟",
+      "LiStars",
+      "LiTreeDeciduous",
+      "LiIterationCw"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -240,16 +240,14 @@
   "work/notes/db restore.md": "LiDatabase",
   "work/notes/archive/MA dev env URL.md": "LiCurlyBraces",
   "tasks/archive/add keywords to TODO.md": "LiWholeWord",
-  "tasks/dev/Filter out diagnostics in nvim.md": "LiFilter",
   "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/project.md": "LiProjector",
-  "tasks/dev/take a look at the PR plugin for nvim.md": "LiGitPullRequest",
+  "tasks/dev/take a look at the PR plugin for nvim.md": {
+    "iconName": "LiGitPullRequest",
+    "iconColor": "#8e30a1"
+  },
   "notes/you can switch tabs with Ctrl-1,2,3,4.md": {
     "iconName": "LiTabs",
     "iconColor": "#e0720b"
-  },
-  "tasks/dev/install the note size slider.md": {
-    "iconName": "LiSliders",
-    "iconColor": "#d917af"
   },
   "tasks/dev/check for an ergonomic mouse.md": "LiMouse",
   "tools/obsidian": "LiDiamond",
@@ -263,8 +261,6 @@
   "work/notes/archive/Millions of euros for a buy in France.md": "🇫🇷",
   "work/fun/github/PR's.md": "LiGitPullRequest",
   "work/calls/SPRINT/Sprint planning 10-14.md": "👟",
-  "work/calls/Project creation call.md": "LiProjector",
-  "work/calls/SLMP call.md": "LiPresentation",
   "tools/obsidian/vim - vimrc.md": "🙈",
   "work/tickets/FEAT/QSL listing/docs": "LiFolder",
   "work/tickets/FEAT/QSL listing/docs/where to find the listing atm.md": "🔍",
@@ -281,11 +277,6 @@
     "iconName": "LiPersonStanding",
     "iconColor": "#ca3f77"
   },
-  "work/people and teams/Danijela.md": "🫐",
-  "work/people and teams/Natasa.md": "👧",
-  "work/people and teams/Paulo.md": "LiBike",
-  "work/people and teams/Yoan.md": "🍟",
-  "work/people and teams/luna.md": "LiMoonStar",
   "concepts/development/Prototype.md": "🏙",
   "tools/dev/nvim/nerdtree-visual-selection.md": "🎄",
   "work/calls/CRM/CRM - introduction to Design.md": "👑",
@@ -299,5 +290,27 @@
   },
   "work/tickets/FEAT/QSL listing/subs/archive": "LiArchive",
   "work/tickets/FEAT/QSL listing/subs/archive/spike - qsl project.md": "✏",
-  "notes/how to share actual notes findings between notes?.md": "LiQuestionMarkGlyph"
+  "notes/how to share actual notes findings between notes?.md": "LiQuestionMarkGlyph",
+  "work/people and teams/LUNA/Danijela.md": "🫐",
+  "work/people and teams/LUNA/Natasa.md": "👧",
+  "work/people and teams/LUNA/Paulo.md": "LiBike",
+  "work/people and teams/NOVA/Yoan.md": "🍟",
+  "work/people and teams/LUNA/luna team.md": "LiMoonStar",
+  "tasks/archive/install the note size slider.md": {
+    "iconName": "LiSliders",
+    "iconColor": "#d917af"
+  },
+  "tasks/archive/Filter out diagnostics in nvim.md": "LiFilter",
+  "tasks/dev/setup nerdtree in neovim.md": {
+    "iconName": "LiTrees",
+    "iconColor": "#27ce85"
+  },
+  "tasks/dev/update Ubuntu.md": "🐧",
+  "Education/Typescript/Execute program {}/Modern Javascript/Using Iterators.md": "LiIterationCw",
+  "tasks/dev/nvim - setup nvim-tree.md": "LiTreeDeciduous",
+  "work/calls/TEAMS/cal with NOVA team about leads.md": "LiStars",
+  "work/calls/SPRINT/sprint planning 10-28.md": "👟",
+  "work/calls/SPRINT/Sprint Review  - 22.07.md": "LiThumbsUp",
+  "work/calls/CRM/SLMP call.md": "LiPresentation",
+  "work/calls/PROJECT/Project creation call.md": "LiProjector"
 }

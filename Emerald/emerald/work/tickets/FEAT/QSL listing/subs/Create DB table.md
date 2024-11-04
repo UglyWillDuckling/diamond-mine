@@ -1,3 +1,6 @@
+---
+color: var(--mk-color-yellow)
+---
 #database
 #table
 

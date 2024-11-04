@@ -7,5 +7,6 @@
   "showInlineTitle": true,
   "showRibbon": false,
   "promptDelete": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "showLineNumber": false
 }

@@ -1,7 +1,6 @@
 [
   "table-editor-obsidian",
   "emoji-shortcodes",
-  "execute-code",
   "obsidian-kanban",
   "obsidian-git",
   "multi-column-markdown",
@@ -15,11 +14,9 @@
   "settings-search",
   "obsidian-show-file-path",
   "obsidian-reminder-plugin",
-  "edit-in-neovim",
   "vim-yank-highlight",
   "callout-manager",
   "obsidian-advanced-codeblock",
-  "obsidian-better-codeblock",
   "obsidian-banners",
   "github-link",
   "obsidian-completr",
@@ -29,5 +26,10 @@
   "markdown-attributes",
   "dataview",
   "obsidian-icon-folder",
-  "mousewheel-image-zoom"
+  "mousewheel-image-zoom",
+  "obsidian-day-planner",
+  "obsidian-tasks-plugin",
+  "obsidian-hover-editor",
+  "obsidian-better-codeblock",
+  "folder-notes"
 ]

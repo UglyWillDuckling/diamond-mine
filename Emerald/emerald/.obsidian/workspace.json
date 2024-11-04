@@ -4,31 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "9d5b2bc27b6591a6",
+        "id": "b17b87aa3049e7fc",
         "type": "tabs",
         "children": [
           {
-            "id": "63f9d50fee302c04",
+            "id": "502bd80c8935f25b",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    true,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "2024-11-01.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Kanban"
+              "icon": "lucide-file",
+              "title": "2024-11-01"
+            }
+          },
+          {
+            "id": "4a98e41e795e32ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/work.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "work"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "static",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 354.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -113,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Education/Typescript/Execute program {}/Modern Javascript/Set Operations.md",
+                "file": "Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Set Operations"
+              "title": "Backlinks for Kanban"
             }
           },
           {
@@ -132,11 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Kanban"
             }
           },
           {
@@ -145,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kanban.md"
+                "file": "work/work.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Kanban"
+              "title": "Outline of work"
             }
           },
           {
@@ -159,16 +170,6 @@
               "state": {},
               "icon": "clock",
               "title": "Reminders"
-            }
-          },
-          {
-            "id": "4a7e351c6d81ef9d",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
             }
           },
           {
@@ -191,10 +192,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tasks/dev/nvim - setup nvim-tree.md"
+                "file": "work/work.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for nvim - setup nvim-tree"
+              "title": "File properties for work"
             }
           },
           {
@@ -206,14 +207,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "59835ade53ce4648",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 308.5,
-    "collapsed": true
+    "width": 386.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,58 +237,59 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "zk-prefixer:Create new unique note": false,
       "callout-manager:Insert Callout": false,
       "obsidian-git:Open Git source control": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "63f9d50fee302c04",
+  "active": "688b3d615137a273",
   "lastOpenFiles": [
-    "work/calls/PROJECT/Lead,Estima,Project relation call.md",
-    "work/calls/PROJECT/Lead Fix call.md",
-    "work/calls/PROJECT/Project creation call.md",
-    "work/calls/PROJECT",
-    "work/calls/CRM/SLMP call.md",
-    "work/calls/SPRINT/Sprint Review  - 22.07.md",
-    "work/calls/SPRINT/Sprint retro 2024-08-19.md",
-    "work/calls/SPRINT/sprint planning 10-28.md",
-    "2024-10-28.md",
-    "2024-10-25.md",
-    "work/calls/TEAMS/cal with NOVA team about leads.md",
-    "work/calls/TEAMS",
+    "2024-11-04.md",
+    "work/calls/DAILY/daily - 24-11-4.md",
+    "work/calls/DAILY/daily - 24-10-31.md",
+    "2024-11-01.md",
+    "2024-10-31.md",
+    "work/tickets/FEAT/QSL listing/subs/build the interface.md",
+    "notes/notes.md",
+    "work/notes/each time the local db is recreated the data is lost.md",
+    "work/notes/db restore.md",
+    "work/notes/how to/test local DB access.md",
+    "work/notes/how to/Creating branch env's sounds incredible.md",
+    "work/notes/how to/build the test image.md",
+    "work/notes/how to",
+    "notes/discovery/tests won't automatically update the vendor folder.md",
+    "work/notes/notes.md",
     "Kanban.md",
-    "tasks/dev/nvim - setup nvim-tree.md",
-    "tasks/dev/check for an ergonomic mouse.md",
+    "Tags/Tags.md",
+    "tasks/organize obsidian notes with dataview and folders.md",
+    "notes/discovery/dev/KDE/switching alt+win is under keyboard settings.md",
+    "notes/discovery/dev/Acceptance criteria is awesome.md",
+    "notes/discovery/dev/nvim - phpactor setup.md",
+    "notes/discovery/archive/vim - enable dict.md",
+    "notes/discovery/archive/phpactor - show specific diagnostic.md",
+    "notes/discovery/archive/php - IIFE function expression.md",
+    "notes/discovery/archive/nvim - you can view diagnostics using Trouble.md",
+    "notes/discovery/archive/nvim - git edit - list status files.md",
+    "notes/discovery/archive/link to specific lines on Github.md",
+    "notes/discovery/archive",
     "Action.canvas",
-    "Education/Typescript/Execute program {}/Modern Javascript/Using Iterators.md",
-    "home/vsedlar/dev/study/javascript/execute/iterators/using_iterators.js.md",
-    "home/vsedlar/dev/study/javascript/execute/iterators",
-    "home/vsedlar/dev/study/javascript/execute",
-    "home/vsedlar/dev/study/javascript",
-    "home/vsedlar/dev/study",
-    "home/vsedlar/dev",
-    "home/vsedlar",
-    "home",
-    "notes/obsidian/PLN theme settings and more.md",
-    "concepts/computer science/destructuring.md",
-    "concepts/iterator pattern.md",
-    "Education/Typescript/Execute program {}/execute program courses 🎓.md",
-    "Education/Typescript/resources/Execute program/Everyday Typescript Lessons/Sets.md",
-    "Education/Typescript/Execute program {}/Modern Javascript/Generators.md",
-    "days/2024-10-24.md",
-    "Education/Typescript/short notes 📒/📒short notes.md",
-    "Education/Typescript/Execute program {}/Modern Javascript/Defining Iterators.md",
-    "Education/Typescript/Execute program {}/Everyday Typescript/ReturnType and Parameters.md",
-    "work/calls/CRM/CRM macro estimate v4.md",
-    "work/calls/MOB",
-    "tools/PM/bee-bole-export.png",
+    "tasks/dev/Obsidian",
+    "Education/Obsidian",
+    "notes/discovery",
+    "notes/questions/archive",
+    "notes/questions",
+    "Education/How TO",
+    "Tags",
+    "notes/ideas and thoughts",
+    "Knowledge/tools/PM/bee-bole-export.png",
     "work/notes/archive/iris-code.png",
-    "Education/Books/Patterns of Enterprise/content/special_case.jpg",
+    "Knowledge/Books/Patterns of Enterprise/content/special_case.jpg",
     "Pasted image 20240923155220.png",
-    "concepts/computer science/oop/patterns/Decorator_UML_class_diagram.svg.png",
+    "Knowledge/concepts/computer science/oop/patterns/Decorator_UML_class_diagram.svg.png",
     "Dashboard - Sales.png",
     "work/docs/CRM/pics/Dashboard - Sales.png",
     "work/tickets/Lead Fix/Untitled.canvas",

@@ -413,3 +413,9 @@ Javascript
 - [[Defining Iterators]]
 - [[Using Iterators]]
 
+## [[2024-10-28]]
+
+### Lessons ^lesson-2024-10-28
+- [[Maps in JS]]
+
+

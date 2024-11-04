@@ -22,4 +22,4 @@ const steve = new User('Steve')
 console.log(steve.fullName)
 ```
 
-- [ ] remind (@[[2024-10-22]])
+- [ ] remind (@[[2024-11-06]])

@@ -17,5 +17,5 @@
 - [x] use `Geo API` to retrive required information
 	- [x] `coordinates`, `street`, `iris_id`
 - [x] move on to `estima processing` - [[study estima processing]]
-- [ ] think 🤔 about <mark style="background: #BBFABBA6;">tests</mark>
+- [x] think 🤔 about <mark style="background: #BBFABBA6;">tests</mark>
 

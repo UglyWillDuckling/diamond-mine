@@ -5,4 +5,4 @@ To **diff** 2 windows side by side
 :windo diffthis
 ```
 
-- [ ] remind (@[[2024-10-21]])
+- [ ] remind (@[[2024-11-06]])

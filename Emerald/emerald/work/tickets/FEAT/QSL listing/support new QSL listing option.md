@@ -1,3 +1,6 @@
+---
+color: var(--mk-color-pink)
+---
 
 ## todos ✔
 
@@ -9,5 +12,5 @@
 			- [x]  maybe make some assertions
 				- [?] turn this into a real `test`
 
-## after
-- [ ] start creating the **DB** [[Create DB table]]
+- [x] start creating the **DB** [[Create DB table]] ✅ 2024-11-01
+- [[build the interface]]

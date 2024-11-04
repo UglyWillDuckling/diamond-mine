@@ -2,7 +2,7 @@
 
 ## Acceptance 📗
 - [x] @  the `transaction` id is also present on the [[project]] 
-- [ ] $ the project contains the **source type** field with the correct value
+- [x] $ the project contains the **source type** field with the correct value
 
 ## valid types 📑
 - `estima`
@@ -32,6 +32,6 @@ Largest Column: standard
 
 ### todo ✔
 - [x] add `source_type` field on transaction hdata
-- [ ] "" **test** to verify that it is set on the project
+- [x] "" **test** to verify that it is set on the project
 
 [[project workflow test]]

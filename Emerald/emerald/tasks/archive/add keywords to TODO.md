@@ -29,4 +29,4 @@ return {
 
 - [ ] **copy** the final config here
 - [ ] see about changing the `IDEA` color
-- [ ] remind (@[[2024-10-25]])
+- [x] remind (@[[2024-10-25]])

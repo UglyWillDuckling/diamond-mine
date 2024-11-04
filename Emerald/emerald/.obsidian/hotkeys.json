@@ -45,8 +45,7 @@
   "editor:insert-codeblock": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt"
       ],
       "key": "I"
     }
@@ -142,5 +141,7 @@
       ],
       "key": "E"
     }
-  ]
+  ],
+  "file-explorer:new-file": [],
+  "make-md:mk-blink": []
 }

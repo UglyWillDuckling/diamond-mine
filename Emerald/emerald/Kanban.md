@@ -12,12 +12,15 @@ tags:
   - kanban-board
   - kanban
   - kankan
+sticker: lucide//clipboard-list
+color: var(--mk-color-orange)
 
 ---
 
 ## backlog 🗃
 
 - [ ] cleanup [[unit test]]'s
+- [ ] [[see how to best manage PR's in the shell and beyond]]
 - [ ] [[ask SRE about LUNA environment]]
 - [ ] [[Find what grug is about]]
 - [ ] explore [[mermaid.js]]
@@ -26,24 +29,28 @@ tags:
 ## next ⏭
 
 - [ ] [[check for an ergonomic mouse]]
-- [ ] [[see how to best manage PR's in the shell and beyond]]
-- [ ] [[Education/React/react|react]] study 🎒
 - [ ] books on [[object orientation]] and design 📘
+- [ ] [[Education/React/react|react]] study 🎒
 - [ ] start [[Node]] education 🏫
+- [ ] [[check presentation from AVIV about Pro tool]]
+- [ ] see how order by work in dataview
 
 
 ## active ⚔
 
-- [ ] [[Create DB table]]
+- [ ] [[see how best to manager folders with notes]]
+- [ ] [[organize obsidian notes with dataview and folders]]
+- [ ] [[build the interface]]
 - [ ] [[nvim - setup nvim-tree]]
-- [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script
+- [ ] update git credentials to use personal account 🐙
 - [ ] education / typescript advanced [[Typesript Education]]
+- [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script
+- [ ] [[refactor movie controller]] from education
 
 
 ## finished
 
 **Complete**
-- [x] fix **bluetooth** headphones disconnect 🎧
 
 
 ***
@@ -85,6 +92,9 @@ tags:
 - [x] try [[git butler]] again
 - [x] [[project workflow test]] 🧪
 - [ ] mob programming call
+- [x] fix **bluetooth** headphones disconnect 🎧
+- [x] ask for account on backyard ✅ 2024-10-30
+- [x] [[update Ubuntu]] ✅ 2024-10-30
 
 %% kanban:settings
 ```

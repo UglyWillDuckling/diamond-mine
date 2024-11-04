@@ -143,5 +143,13 @@
     }
   ],
   "file-explorer:new-file": [],
-  "make-md:mk-blink": []
+  "make-md:mk-blink": [],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "A"
+    }
+  ]
 }

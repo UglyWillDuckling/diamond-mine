@@ -11,9 +11,9 @@
 ## todo ✔
 - [x] make script to compare [[transaction]]'s
 - [ ] [[refactor]] the controller
-	- [x] refactor directly in the controller
+	- [x] refactor directly in the controller 🔼
 	- [ ] `move` to a **separate** class
-	- [ ] tests?
+	- [ ] tests? 🔼
 - [x] use `Geo API` to retrive required information
 	- [x] `coordinates`, `street`, `iris_id`
 - [x] move on to `estima processing` - [[study estima processing]]

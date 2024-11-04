@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCheck",
+      "LiFolder",
+      "LiToyBrick",
       "LiStepForward",
-      "LiTrash",
-      "LiLanguages",
-      "🐘",
-      "📰"
+      "LiTrash"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -347,5 +347,11 @@
   "Knowledge/tools/dev/js/react.md": "⚛",
   "Knowledge/tools/dev/git/git butler.md": "👔",
   "Knowledge/tools/dev/nvim/nerdtree-visual-selection.md": "🎄",
-  "Knowledge/tools/dev/nvim/oil nvim.md": "🛢"
+  "Knowledge/tools/dev/nvim/oil nvim.md": "🛢",
+  "work/tickets/FEAT/QSL listing/subs/build the model.md": {
+    "iconName": "LiToyBrick",
+    "iconColor": "#c24bd2"
+  },
+  "tasks/dev/Obsidian/see how best to manager folders with notes.md": "LiFolder",
+  "tasks/dev/Obsidian/Tasks plugin.md": "LiCheck"
 }

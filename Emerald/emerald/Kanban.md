@@ -28,29 +28,30 @@ color: var(--mk-color-orange)
 
 ## next ⏭
 
-- [ ] [[check for an ergonomic mouse]]
-- [ ] books on [[object orientation]] and design 📘
-- [ ] [[Education/React/react|react]] study 🎒
-- [ ] start [[Node]] education 🏫
+- [ ] [[check for an ergonomic mouse]] #mouse
+- [ ] books on [[object orientation]] and design 📘 #book
+- [ ] [[Education/React/react|react]] study 🎒 #react
+- [ ] start [[Node]] education 🏫 #node
+- [ ] [[see how best to manager folders with notes]] #folders
+- [ ] [[organize obsidian notes with dataview and folders]]
 - [ ] [[check presentation from AVIV about Pro tool]]
-- [ ] see how order by work in dataview
 
 
 ## active ⚔
 
-- [ ] [[see how best to manager folders with notes]]
-- [ ] [[organize obsidian notes with dataview and folders]]
-- [ ] [[build the interface]]
-- [ ] [[nvim - setup nvim-tree]]
-- [ ] update git credentials to use personal account 🐙
-- [ ] education / typescript advanced [[Typesript Education]]
-- [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script
-- [ ] [[refactor movie controller]] from education
+- [ ] [[build the model]] #model
+- [ ] [[see how to manage tasks]] ☑ #tasks
+- [ ] education / typescript advanced [[Typesript Education]] #education
+- [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script #decorator #pattern
 
 
 ## finished
 
 **Complete**
+- [x] [[build the interface]] ✅ 2024-11-04
+- [x] update git credentials to use personal account 🐙 ✅ 2024-11-04
+- [x] [[nvim - setup nvim-tree]] ✅ 2024-11-04
+- [x] [[refactor movie controller]] from education ✅ 2024-11-04
 
 
 ***
@@ -98,6 +99,6 @@ color: var(--mk-color-orange)
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,false,false],"show-checkboxes":false}
+{"kanban-plugin":"board","list-collapse":[true,false,false,true],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true}
 ```
 %%

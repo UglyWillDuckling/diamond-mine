@@ -38,8 +38,8 @@ interface Listing
 - [x] create rendering test
 	- [x] update model accordingly
 - [x] test the new changes on the website ✅ 2024-10-28
-- [ ] update `interface` definition
-- [ ] check other scenarios
+- [x] update `interface` definition ✅ 2024-11-04
+- [x] check other scenarios ✅ 2024-11-04
 
 ### try out the interface
 1. ! find the **place** where it is used

@@ -1,10 +1,18 @@
 ---
 color: var(--mk-color-pink)
 ---
-This is now a bit like a note
-[[daily - 24-10-31]]
+> This is now a bit like a note 📔🗒
 
-## content
+## tasks - active tickets 🎟
 
-## heading
+### group by file
 
+```tasks
+not done
+path includes work/tickets
+sort by path
+sort by priority
+group by filename
+show urgency
+show tree
+```

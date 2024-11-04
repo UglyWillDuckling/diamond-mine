@@ -100,6 +100,7 @@ interesting
 insertion
 instances
 indirection
+introduction
 JavaScript
 July
 Javascript
@@ -260,6 +261,10 @@ dig
 dependencies
 discoveries
 days
+dataview
+diving
+deeper
+descend
 several
 symbols
 string
@@ -453,6 +458,8 @@ sugar
 stack
 subclasssing
 strategy
+standard
+slowly
 for
 first
 fix
@@ -548,6 +555,7 @@ followed
 flexible
 findings
 findfile
+fit
 us
 used
 using
@@ -644,6 +652,7 @@ TCo
 ToUnicode
 TU
 Thoughts
+Then
 are
 an
 as
@@ -896,6 +905,8 @@ module
 mk
 modified
 mind
+manifesto
+mouse
 which
 we
 with
@@ -957,6 +968,8 @@ waiting
 wiki
 wouldn
 won
+waters
+worked
 changing
 code
 can
@@ -1162,6 +1175,10 @@ cream
 condiments
 conditions
 conflict
+covering
+curve
+connect
+canvas
 the
 these
 tells
@@ -1299,6 +1316,8 @@ tye
 talking
 treeutils
 toggle
+trasitioning
+typed
 behavior
 built
 by
@@ -1387,6 +1406,8 @@ base
 butttons
 beneath
 builds
+basics
+book
 of
 our
 one
@@ -1461,6 +1482,8 @@ overall
 outside
 obsidian
 organization
+orientation
+offers
 program
 property
 plugin
@@ -1598,6 +1621,10 @@ problems
 problem
 pair
 planner
+practical
+please
+playful
+providing
 Using
 UI
 Unions
@@ -1678,6 +1705,7 @@ hce
 hb
 hq
 heading
+highly
 runs
 representation
 refers
@@ -1814,6 +1842,8 @@ relation
 remap
 rebuild
 recreation
+roadmap
+rather
 Here
 How
 HOST
@@ -1967,6 +1997,8 @@ entirely
 expect
 esentially
 execution
+exploration
+excellent
 Why
 When
 Whenever
@@ -1993,6 +2025,7 @@ Width
 WC
 Wx
 Waiting
+Worked
 Object
 Or
 Office
@@ -2117,6 +2150,7 @@ linkovi
 limits
 limited
 lives
+langauge
 named
 needs
 no
@@ -2341,6 +2375,7 @@ DescendantFonts
 Decorator
 Designing
 Difficult
+Don
 values
 vim
 vars
@@ -2507,6 +2542,7 @@ CMap
 Count
 Closed
 Component
+Can
 PR
 Phase
 Plan
@@ -2612,6 +2648,7 @@ An
 AIS
 AB
 Application
+Afterwords
 je
 jump
 javascript
@@ -2715,6 +2752,7 @@ gmaps
 generous
 guts
 grep
+game
 Friday
 FE
 First
@@ -2935,6 +2973,7 @@ RU
 RGW
 Related
 Responsibility
+Reading
 MA
 Mandats
 Mandat

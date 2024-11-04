@@ -13,28 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-11-01.md",
+                "file": "2024-11-04.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-01"
+              "title": "2024-11-04"
             }
           },
           {
-            "id": "4a98e41e795e32ac",
+            "id": "2e0664033d534270",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/work.md",
+                "file": "2024-11-04.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "work"
+              "title": "2024-11-04"
             }
           }
         ],
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 268.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/work.md"
+                "file": "2024-11-04.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of work"
+              "title": "Outline of 2024-11-04"
             }
           },
           {
@@ -192,10 +192,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "work/work.md"
+                "file": "Kanban.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for work"
+              "title": "File properties for Kanban"
             }
           },
           {
@@ -209,7 +209,7 @@
             }
           },
           {
-            "id": "59835ade53ce4648",
+            "id": "ae5e35c3567ef26c",
             "type": "leaf",
             "state": {
               "type": "timeline",
@@ -219,11 +219,12 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 386.5
+    "width": 386.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,40 +244,42 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian42-brat:BRAT": false,
       "obsidian-day-planner:Timeline": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false
     }
   },
-  "active": "688b3d615137a273",
+  "active": "2e0664033d534270",
   "lastOpenFiles": [
+    "work/work.md",
     "2024-11-04.md",
+    "Kanban.md",
+    "tasks/work/check presentation from AVIV about Pro tool.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Lead Processing Rewrite.md",
+    "work/tickets/FEAT/QSL listing/subs/build the model.md",
+    "people/people.md",
+    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Make script to compare transactions.md",
+    "Knowledge/concepts/computer science/oop/object orientation.md",
+    "Education/Typescript/Typesript Education.md",
+    "tasks/dev/check for an ergonomic mouse.md",
+    "work/tickets/FEAT/QSL listing/support new QSL listing option.md",
+    "work/tickets/FEAT/QSL listing/subs/build the interface.md",
+    "days/2024-11-01 1.md",
+    "tasks/organize obsidian notes with dataview and folders.md",
+    "tasks/dev/Obsidian/see how best to manager folders with notes.md",
+    "tasks/dev/Obsidian/Tasks plugin.md",
+    "tasks/dev/Obsidian/see how to manage tasks.md",
+    "Action.canvas",
+    "work/tickets/FEAT/QSL listing/QSL listing.md",
+    "Knowledge/tools/refactor movie controller.md",
+    "work/tickets/FEAT/QSL listing/subs/subs.md",
+    "days/2024-10-31.md",
     "work/calls/DAILY/daily - 24-11-4.md",
     "work/calls/DAILY/daily - 24-10-31.md",
-    "2024-11-01.md",
-    "2024-10-31.md",
-    "work/tickets/FEAT/QSL listing/subs/build the interface.md",
     "notes/notes.md",
     "work/notes/each time the local db is recreated the data is lost.md",
-    "work/notes/db restore.md",
-    "work/notes/how to/test local DB access.md",
-    "work/notes/how to/Creating branch env's sounds incredible.md",
-    "work/notes/how to/build the test image.md",
     "work/notes/how to",
-    "notes/discovery/tests won't automatically update the vendor folder.md",
-    "work/notes/notes.md",
-    "Kanban.md",
-    "Tags/Tags.md",
-    "tasks/organize obsidian notes with dataview and folders.md",
-    "notes/discovery/dev/KDE/switching alt+win is under keyboard settings.md",
-    "notes/discovery/dev/Acceptance criteria is awesome.md",
-    "notes/discovery/dev/nvim - phpactor setup.md",
-    "notes/discovery/archive/vim - enable dict.md",
-    "notes/discovery/archive/phpactor - show specific diagnostic.md",
-    "notes/discovery/archive/php - IIFE function expression.md",
-    "notes/discovery/archive/nvim - you can view diagnostics using Trouble.md",
-    "notes/discovery/archive/nvim - git edit - list status files.md",
-    "notes/discovery/archive/link to specific lines on Github.md",
     "notes/discovery/archive",
-    "Action.canvas",
     "tasks/dev/Obsidian",
     "Education/Obsidian",
     "notes/discovery",

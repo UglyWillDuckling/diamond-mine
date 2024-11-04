@@ -1,11 +1,11 @@
 ---
 color: var(--mk-color-pink)
+tags:
+  - work
 ---
 > This is now a bit like a note 📔🗒
 
 ## tasks - active tickets 🎟
-
-### group by file
 
 ```tasks
 not done
@@ -16,3 +16,9 @@ group by filename
 show urgency
 show tree
 ```
+
+## calls - upcoming an recent
+
+- [ ] make the calls tasks
+
+- [i]  maybe we could use [[data view]] here instead with some property filters

@@ -23,22 +23,21 @@
             }
           },
           {
-            "id": "2e0664033d534270",
+            "id": "8e5d7400d13a13e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-11-04.md",
+                "file": "work/tickets/FEAT/QSL listing/QSL listing.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-04"
+              "title": "QSL listing"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 334.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -192,20 +191,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Kanban.md"
+                "file": "work/work.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Kanban"
-            }
-          },
-          {
-            "id": "656c1f0046dd7d6a",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "File properties for work"
             }
           },
           {
@@ -228,6 +217,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "quickadd:QuickAdd": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -242,52 +232,51 @@
       "callout-manager:Insert Callout": false,
       "obsidian-git:Open Git source control": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-day-planner:Timeline": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2e0664033d534270",
+  "active": "688b3d615137a273",
   "lastOpenFiles": [
     "work/work.md",
-    "2024-11-04.md",
-    "Kanban.md",
-    "tasks/work/check presentation from AVIV about Pro tool.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Lead Processing Rewrite.md",
-    "work/tickets/FEAT/QSL listing/subs/build the model.md",
-    "people/people.md",
-    "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/Make script to compare transactions.md",
-    "Knowledge/concepts/computer science/oop/object orientation.md",
-    "Education/Typescript/Typesript Education.md",
-    "tasks/dev/check for an ergonomic mouse.md",
-    "work/tickets/FEAT/QSL listing/support new QSL listing option.md",
+    "work/tickets/chores/update README.md",
+    "work/tickets/chores/Diabolocom - legacy cleanup.md",
+    "work/tickets/archive/merge meta PR.md",
+    "work/docs/PR's.md",
+    "work/notes/lost time.md",
+    "work/docs/backyard/application/User Types/Coach.md",
+    "work/docs/backyard/application/User Types/Agent.md",
+    "work/docs/backyard/application/Calls/Call Types.md",
+    "work/docs/backyard/tools/Diabolocom.md",
+    "work/docs/backyard/entities/place entity.md",
+    "work/docs/backyard/entities/contract entity.md",
+    "work/docs/backyard/application/User Types",
+    "work/docs/backyard/entities/Listing.md",
+    "work/docs/backyard/application/Calls",
+    "work/docs/backyard/Portals/Se Loger.md",
+    "work/docs/backyard/tools",
+    "work/docs/backyard/entities",
+    "work/docs/backyard/backyard.md",
+    "work/docs/backyard/application",
+    "work/docs/backyard/Portals",
+    "work/docs/backyard",
+    "work/notes/LUNA team has its own argocd pipeline setup.md",
+    "work/notes/db restore.md",
+    "work/notes/archive/each time the local db is recreated the data is lost.md",
+    "work/calls/CRM/backyard data migration prep.md",
+    "work/calls/calls.md",
     "work/tickets/FEAT/QSL listing/subs/build the interface.md",
-    "days/2024-11-01 1.md",
-    "tasks/organize obsidian notes with dataview and folders.md",
-    "tasks/dev/Obsidian/see how best to manager folders with notes.md",
-    "tasks/dev/Obsidian/Tasks plugin.md",
-    "tasks/dev/Obsidian/see how to manage tasks.md",
-    "Action.canvas",
     "work/tickets/FEAT/QSL listing/QSL listing.md",
-    "Knowledge/tools/refactor movie controller.md",
-    "work/tickets/FEAT/QSL listing/subs/subs.md",
-    "days/2024-10-31.md",
-    "work/calls/DAILY/daily - 24-11-4.md",
-    "work/calls/DAILY/daily - 24-10-31.md",
-    "notes/notes.md",
-    "work/notes/each time the local db is recreated the data is lost.md",
-    "work/notes/how to",
+    "work/tickets/tickets.md",
+    "work/tickets/FEAT/QSL listing/subs/build the model.md",
+    "work/tickets/FEAT/QSL listing/support new QSL listing option.md",
+    "2024-11-04.md",
+    "Action.canvas",
+    "work/docs/how to",
     "notes/discovery/archive",
     "tasks/dev/Obsidian",
-    "Education/Obsidian",
-    "notes/discovery",
-    "notes/questions/archive",
-    "notes/questions",
-    "Education/How TO",
-    "Tags",
-    "notes/ideas and thoughts",
     "Knowledge/tools/PM/bee-bole-export.png",
     "work/notes/archive/iris-code.png",
     "Knowledge/Books/Patterns of Enterprise/content/special_case.jpg",

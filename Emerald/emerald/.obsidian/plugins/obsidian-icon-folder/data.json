@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFileText",
+      "🪦",
       "LiCheck",
       "LiFolder",
-      "LiToyBrick",
-      "LiStepForward",
-      "LiTrash"
+      "LiToyBrick"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -47,19 +47,10 @@
   "Education/Typescript/Execute program {}/Everyday Typescript/Single and Multiple Inheritance.md": "LiSnapToObject",
   "work/notes": "📔",
   "work/tickets/SPIKE's/SPIKE - myTileCache migration to VectorTile?.md": "LiMousePointer2",
-  "work/tickets/bugs": {
-    "iconName": "LiBug",
-    "iconColor": "#51a333"
-  },
   "Education/Typescript/Projects": "LiProjector",
   "Education/React": "LiAtom",
   "Education/React/react.md": "LiAtom",
   "Education/Typescript/short notes 📒/for state we could pass methods from the Context object to its states.md": "LiLightbulb",
-  "work/docs/backyard/application/User Types/Coach.md": "🎽",
-  "work/docs/backyard/application/User Types/Agent.md": "🐧",
-  "work/docs/backyard/tools": "🧰",
-  "work/docs/backyard/application": "🈸",
-  "work/docs/backyard/tools/Diabolocom.md": "LiPhone",
   "Education/Typescript/Execute program {}/Modern Javascript/Basic Array Destructuring.md": "LiCurlyBraces",
   "Education/Typescript/Execute program {}/Modern Javascript/Shorthand Properties.md": "🩳",
   "Education/Typescript/Execute program {}/Everyday Typescript/Enum.md": "🔢",
@@ -103,7 +94,7 @@
   "Education/Typescript/Execute program {}/Modern Javascript": "LiCoffee",
   "Education/Typescript/Execute program {}/Everyday Typescript": "LiClipboardType",
   "tasks/archive/Fix nvim mappings.md": "🗾",
-  "work/tickets/chores/update README.md": "LiDoorClosed",
+  "work/tickets/chores/update README.md": "LiFileText",
   "Education/Typescript/Execute program {}/Modern Javascript/Modern Javascript.md": "LiCoffee",
   "work/calls/pair programming/pair programming - 2024-09-26.md": "‼",
   "work/tickets/FEAT/Project creation from Lead": "📽",
@@ -144,39 +135,13 @@
   "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/add source field on project.md": "LiFlower",
   "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/fix main test.md": "🧪",
   "work/tickets/FEAT/Project creation from Lead/subs/archive/fix commits.md": "LiGithub",
-  "work/tickets/bugs/XSS - extranet/Fix xss on extranet.md": {
-    "iconName": "LiSubscript",
-    "iconColor": "#c52b2b"
-  },
-  "work/tickets/bugs/XSS - extranet/subs": {
-    "iconName": "LiDownload",
-    "iconColor": "#ff7b00"
-  },
-  "work/tickets/bugs/XSS - extranet/concepts": {
-    "iconName": "LiShapes",
-    "iconColor": "#dd367f"
-  },
   "tasks/dev/see how to best manage PR's in the shell and beyond.md": "LiGitPullRequest",
   "tasks/archive/Study null object pattern.md": "LiSignalZero",
   "tasks/archive/take a look at higher order components article.md": "LiListOrdered",
   "work/notes/archive/SLMP will be multi-lingual.md": "LiLanguages",
   "work/notes/archive/povezivanje na gcloud computer masinu.md": "☁",
   "work/notes/archive": "🗃",
-  "work/tickets/bugs/XSS - extranet/subs/sanitize input.md": "🧹",
-  "work/tickets/bugs/XSS - extranet/subs/Fix identity link.md": "LiBrokenLink",
   "work/tickets/archive/Interlocutor's name not shown.md": "🗯",
-  "work/tickets/bugs/archive": {
-    "iconName": "LiFolderX",
-    "iconColor": "#d6d6d6"
-  },
-  "work/tickets/bugs/archive/Ma Perf - take into account incoming calls (Appels entrant).md": {
-    "iconName": "LiPhoneIncoming",
-    "iconColor": "#d534c0"
-  },
-  "work/tickets/bugs/XSS - extranet": {
-    "iconName": "LiSquareCode",
-    "iconColor": "#f24545"
-  },
   "people": "LiPersonStanding",
   "tasks/archive/See more about the null object pattern.md": "LiSignalZero",
   "tasks/archive/Resolve performance issues.md": "🔥",
@@ -198,13 +163,6 @@
     "iconColor": "#8e30a1"
   },
   "tasks/dev/check for an ergonomic mouse.md": "LiMouse",
-  "work/docs/backyard": "🪦",
-  "work/docs/backyard/entities": "LiEgg",
-  "work/docs/How To": {
-    "iconName": "LiWorkflow",
-    "iconColor": "#f3721b"
-  },
-  "work/docs/How To/deploy extranet.md": "LiRocket",
   "work/notes/archive/Millions of euros for a buy in France.md": "🇫🇷",
   "work/calls/SPRINT/Sprint planning 10-14.md": "👟",
   "work/tickets/FEAT/QSL listing/docs": "LiFolder",
@@ -225,7 +183,6 @@
   "work/calls/CRM/CRM - introduction to Design.md": "👑",
   "work/calls/CRM/CRM in SLMP - macro-estimate session.md": "👑",
   "work/calls/CRM/CRM macro estimate v2.md": "👑",
-  "work/tickets/FEAT/QSL listing/support new QSL listing option.md": "LiList",
   "work/tickets/FEAT/QSL listing/subs": "LiBaby",
   "work/tickets/FEAT/QSL listing/subs/Create DB table.md": {
     "iconName": "LiTable",
@@ -246,7 +203,6 @@
   "work/calls/SPRINT/sprint planning 10-28.md": "👟",
   "work/calls/SPRINT/Sprint Review  - 22.07.md": "LiThumbsUp",
   "work/calls/CRM/SLMP call.md": "LiPresentation",
-  "work/calls/PROJECT/Project creation call.md": "LiProjector",
   "Knowledge": "LiBrain",
   "Knowledge/Books": "LiLibraryBig",
   "Knowledge/Books/Patterns of Enterprise": "LiPalette",
@@ -321,19 +277,6 @@
   "notes/discovery/archive/php - IIFE function expression.md": "🐘",
   "notes/discovery/archive/vim - enable dict.md": "LiLanguages",
   "notes/discovery/archive": "LiTrash",
-  "work/notes/how to/build the test image.md": "🖼",
-  "work/notes/how to": {
-    "iconName": "LiStepForward",
-    "iconColor": "#30a6b5"
-  },
-  "work/notes/how to/Creating branch env's sounds incredible.md": {
-    "iconName": "LiGitBranchPlus",
-    "iconColor": "#1ecc7b"
-  },
-  "work/notes/how to/How to swith between local and dev backyard DB-s.md": {
-    "iconName": "LiDatabaseBackup",
-    "iconColor": "#f8c50d"
-  },
   "Knowledge/tools": "LiWrench",
   "Knowledge/tools/dev": "🖥",
   "Knowledge/tools/obsidian": "LiDiamond",
@@ -353,5 +296,51 @@
     "iconColor": "#c24bd2"
   },
   "tasks/dev/Obsidian/see how best to manager folders with notes.md": "LiFolder",
-  "tasks/dev/Obsidian/Tasks plugin.md": "LiCheck"
+  "tasks/dev/Obsidian/Tasks plugin.md": "LiCheck",
+  "work/calls/backyard/Project creation call.md": "LiProjector",
+  "work/docs/how to": {
+    "iconName": "LiStepForward",
+    "iconColor": "#30a6b5"
+  },
+  "work/docs/how to/Creating branch env's sounds incredible.md": {
+    "iconName": "LiGitBranchPlus",
+    "iconColor": "#1ecc7b"
+  },
+  "work/docs/how to/How to swith between local and dev backyard DB-s.md": {
+    "iconName": "LiDatabaseBackup",
+    "iconColor": "#f8c50d"
+  },
+  "work/docs/how to/build the test image.md": "🖼",
+  "work/docs/how to/deploy extranet.md": "LiRocket",
+  "work/docs/backyard": "🪦",
+  "work/bugs": {
+    "iconName": "LiBug",
+    "iconColor": "#51a333"
+  },
+  "work/bugs/XSS - extranet": {
+    "iconName": "LiSquareCode",
+    "iconColor": "#f24545"
+  },
+  "work/bugs/archive": {
+    "iconName": "LiFolderX",
+    "iconColor": "#d6d6d6"
+  },
+  "work/bugs/XSS - extranet/Fix xss on extranet.md": {
+    "iconName": "LiSubscript",
+    "iconColor": "#c52b2b"
+  },
+  "work/bugs/XSS - extranet/concepts": {
+    "iconName": "LiShapes",
+    "iconColor": "#dd367f"
+  },
+  "work/bugs/XSS - extranet/subs": {
+    "iconName": "LiDownload",
+    "iconColor": "#ff7b00"
+  },
+  "work/bugs/archive/Ma Perf - take into account incoming calls (Appels entrant).md": {
+    "iconName": "LiPhoneIncoming",
+    "iconColor": "#d534c0"
+  },
+  "work/bugs/XSS - extranet/subs/Fix identity link.md": "LiBrokenLink",
+  "work/bugs/XSS - extranet/subs/sanitize input.md": "🧹"
 }

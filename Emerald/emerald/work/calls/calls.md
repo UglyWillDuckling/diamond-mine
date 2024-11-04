@@ -1,3 +1,0 @@
----
-sticker: lucide//phone-call
----

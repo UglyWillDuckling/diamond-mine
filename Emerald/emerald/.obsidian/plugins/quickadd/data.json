@@ -62,12 +62,119 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "b79ca23d-fbbf-470a-b66c-227bbdda0241",
+      "name": "daily",
+      "type": "Template",
+      "command": true,
+      "templatePath": "work/calls/DAILY/@today.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "work/calls/DAILY"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "f64b73ca-b341-422f-83ac-08cf48d5f1e5",
+      "name": "BookFinder",
+      "type": "Macro",
+      "command": true,
+      "macroId": "61dfedc0-d41f-4074-a5ee-fed304e06ef9"
+    },
+    {
+      "id": "84fd25f1-b7ad-42c0-bf3c-4ee1ad046c4d",
+      "name": "Book",
+      "type": "Macro",
+      "command": true,
+      "macroId": "144aa37e-dcdf-4542-b1fc-82f0e0f0245c"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "Book",
+      "id": "144aa37e-dcdf-4542-b1fc-82f0e0f0245c",
+      "commands": [
+        {
+          "name": "BookFinder",
+          "type": "Choice",
+          "id": "45bb593a-f552-4367-98cc-8ff785d3e386",
+          "choiceId": "7574a9f8-d242-487f-af59-6e1d10017810"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "BookFinder",
+      "id": "61dfedc0-d41f-4074-a5ee-fed304e06ef9",
+      "commands": [
+        {
+          "name": "BookFinder",
+          "type": "UserScript",
+          "id": "c59cbb8a-3b59-494b-9ff7-e1a1eeaa356e",
+          "path": "BookFinder.js",
+          "settings": {}
+        },
+        {
+          "name": "book template",
+          "type": "NestedChoice",
+          "id": "679ad964-6902-4b0c-a468-0f1bc246ded2",
+          "choice": {
+            "id": "433f8044-0346-4ab4-9efa-782561c215c8",
+            "name": "book template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "notes/templates/book template.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Knowledge/Books"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "",
+  "templateFolderPath": "notes/templates",
   "announceUpdates": true,
   "version": "1.11.4",
   "disableOnlineFeatures": true,

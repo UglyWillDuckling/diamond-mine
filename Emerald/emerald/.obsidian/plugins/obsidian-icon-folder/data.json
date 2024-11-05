@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiFileText",
-      "🪦",
-      "LiCheck",
-      "LiFolder",
-      "LiToyBrick"
+      "LiSubscript",
+      "LiProjector",
+      "LiCrown",
+      "LiWand",
+      "LiFileText"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -205,10 +205,6 @@
   "work/calls/CRM/SLMP call.md": "LiPresentation",
   "Knowledge": "LiBrain",
   "Knowledge/Books": "LiLibraryBig",
-  "Knowledge/Books/Patterns of Enterprise": "LiPalette",
-  "Knowledge/Books/Patterns of Enterprise/Patterns of Enterprise Architecture.md": "🌉",
-  "Knowledge/Books/Patterns of Enterprise/Special Case.md": "🎴",
-  "Knowledge/Books/Patterns of Enterprise/content": "LiBox",
   "Knowledge/Articles": "LiPencilLine",
   "tasks/dev/nvim - nvim-tree/nvim - setup nvim-tree.md": "LiTreeDeciduous",
   "work/tickets/FEAT/QSL listing/subs/build the interface.md": "LiFacebook",
@@ -342,5 +338,16 @@
     "iconColor": "#d534c0"
   },
   "work/bugs/XSS - extranet/subs/Fix identity link.md": "LiBrokenLink",
-  "work/bugs/XSS - extranet/subs/sanitize input.md": "🧹"
+  "work/bugs/XSS - extranet/subs/sanitize input.md": "🧹",
+  "Knowledge/Books/dev/Patterns of Enterprise": "LiPalette",
+  "Knowledge/Books/dev/Patterns of Enterprise/Patterns of Enterprise Architecture.md": "🌉",
+  "Knowledge/Books/dev/Patterns of Enterprise/Special Case.md": "🎴",
+  "Knowledge/Books/dev/Patterns of Enterprise/content": "LiBox",
+  "Knowledge/Books/Fiction": {
+    "iconName": "LiWand",
+    "iconColor": "#38abc2"
+  },
+  "work/Projects/CRM": "LiCrown",
+  "work/Projects": "LiProjector",
+  "notes/scripts": "LiSubscript"
 }

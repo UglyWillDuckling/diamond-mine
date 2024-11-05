@@ -151,5 +151,14 @@
       ],
       "key": "A"
     }
+  ],
+  "quickadd:choice:f64b73ca-b341-422f-83ac-08cf48d5f1e5": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "F"
+    }
   ]
 }

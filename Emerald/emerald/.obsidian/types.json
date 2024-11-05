@@ -26,6 +26,7 @@
     "hello": "checkbox",
     "finished": "checkbox",
     "start date": "date",
-    "complexity": "multitext"
+    "complexity": "multitext",
+    "": "text"
   }
 }

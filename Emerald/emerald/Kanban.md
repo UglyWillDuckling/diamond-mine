@@ -24,6 +24,7 @@ color: var(--mk-color-orange)
 - [ ] [[ask SRE about LUNA environment]]
 - [ ] [[Find what grug is about]]
 - [ ] explore [[mermaid.js]]
+- [ ] [[check presentation from AVIV about Pro tool]]
 
 
 ## next ⏭
@@ -32,15 +33,14 @@ color: var(--mk-color-orange)
 - [ ] books on [[object orientation]] and design 📘 #book
 - [ ] [[Education/React/react|react]] study 🎒 #react
 - [ ] start [[Node]] education 🏫 #node
-- [ ] [[see how best to manager folders with notes]] #folders
-- [ ] [[organize obsidian notes with dataview and folders]]
-- [ ] [[check presentation from AVIV about Pro tool]]
+- [ ] [[Explore quick add plugin]]
 
 
 ## active ⚔
 
 - [ ] [[build the model]] #model
 - [ ] [[see how to manage tasks]] ☑ #tasks
+- [ ] [[organize obsidian notes with dataview and folders]]
 - [ ] education / typescript advanced [[Typesript Education]] #education
 - [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script #decorator #pattern
 
@@ -48,6 +48,7 @@ color: var(--mk-color-orange)
 ## finished
 
 **Complete**
+- [x] [[see how best to manager folders with notes]] #folders
 - [x] [[build the interface]] ✅ 2024-11-04
 - [x] update git credentials to use personal account 🐙 ✅ 2024-11-04
 - [x] [[nvim - setup nvim-tree]] ✅ 2024-11-04
@@ -99,6 +100,6 @@ color: var(--mk-color-orange)
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,false,true],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true}
+{"kanban-plugin":"board","list-collapse":[false,false,false,false],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true}
 ```
 %%

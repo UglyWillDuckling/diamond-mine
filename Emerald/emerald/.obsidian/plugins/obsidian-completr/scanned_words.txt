@@ -338,6 +338,7 @@ delights
 duplicating
 developments
 develop
+decides
 several
 symbols
 string
@@ -1475,6 +1476,7 @@ career
 coincidence
 contained
 coder
+commands
 the
 these
 tells
@@ -1756,6 +1758,7 @@ bursting
 big
 buy
 bullets
+bonuses
 of
 our
 one
@@ -2298,6 +2301,7 @@ reuse
 rot
 ruthlessly
 responsible
+release
 Here
 How
 HOST
@@ -2789,6 +2793,7 @@ Scale
 Software
 Senior
 Straight
+SCOPE
 If
 In
 Ideas
@@ -2932,6 +2937,7 @@ Distilled
 Design
 Developer
 Delight
+Downloads
 values
 vim
 vars
@@ -2988,6 +2994,7 @@ va
 variability
 vengeance
 vast
+verification
 Examples
 Evaluation
 Evaluations
@@ -3388,6 +3395,7 @@ genius
 grow
 grab
 greatest
+gitbutler
 Friday
 FE
 First

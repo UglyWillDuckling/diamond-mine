@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiHeading",
+      "LiGitCommit",
       "LiSubscript",
       "LiProjector",
-      "LiCrown",
-      "LiWand",
-      "LiFileText"
+      "LiCrown"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -349,5 +349,9 @@
   },
   "work/Projects/CRM": "LiCrown",
   "work/Projects": "LiProjector",
-  "notes/scripts": "LiSubscript"
+  "work/tickets/chores/setup commit verification locally.md": "LiGitCommit",
+  "notes/you can color the headings too.md": {
+    "iconName": "LiHeading",
+    "iconColor": "#eb3dc5"
+  }
 }

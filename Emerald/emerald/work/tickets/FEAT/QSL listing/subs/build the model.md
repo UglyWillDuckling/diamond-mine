@@ -1,5 +1,5 @@
 
-- [ ] commit
+- [x] commit
 - [ ] fix errors
 - [ ] add tests
 

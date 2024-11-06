@@ -5,6 +5,9 @@ tags:
   - crm
   - work/call
   - work
+  - deadline
+  - meeting
+  - meet
 ---
 #call 
 #crm 

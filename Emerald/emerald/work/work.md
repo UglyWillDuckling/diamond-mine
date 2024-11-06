@@ -13,12 +13,16 @@ path includes work/tickets
 sort by path
 sort by priority
 group by filename
-show urgency
 show tree
 ```
 
 ## calls - upcoming an recent
+[[data view]]
 
-- [ ] make the calls tasks
-
-- [i]  maybe we could use [[data view]] here instead with some property filters
+```dataview
+TABLE WITHOUT ID
+file.link as call, file.day - date(today) AS in, regexreplace(file.folder, "^.*\/", "") AS Area
+FROM #work/call
+WHERE file.day AND file.day > date(today)
+sort date DESC
+```

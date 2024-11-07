@@ -1,8 +1,22 @@
 ---
-status: doesn't work atm., commands fails
+status: finished 🏁
 ---
 ## todo's ✔
-- [/] #task 🛫 2024-11-06 🔼 setup commit verification 🔼
-
+- [x] #task 🛫 2024-11-06 🔼 setup commit verification ✅ 2024-11-06
+	- [x] #task [[#install tool]] [[commitlint]] ✅ 2024-11-06
+		- [x] install
+		- [x] make the tool work 🔨
+		- [x] see further, make more tasks ☑
+	- [x] [[#custom configuration]]
+	
 ## <mark style="background: #FF5582A6;">status</mark>
 **`= this.file.frontmatter.status`**
+
+## <mark style="background: #FFF3A3A6;">the end</mark> 🦔
+
+### changes
+- installed [[commitlint]]
+- added `command` to `bin/git/`
+	- `bin/git/commit_verify HEAD~11 HEAD~1`
+
+- [ ] remind (@[[2024-11-15]])

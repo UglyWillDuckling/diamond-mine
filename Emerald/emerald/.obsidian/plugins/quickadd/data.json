@@ -1,34 +1,6 @@
 {
   "choices": [
     {
-      "id": "465e663f-3c44-41f0-8d53-912e9bb2c150",
-      "name": "task",
-      "type": "Template",
-      "command": false,
-      "templatePath": "",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": false,
-        "folders": [],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
       "id": "cf1e9f3f-fe1f-4dd7-96e0-0cd683c2bf30",
       "name": "todo",
       "type": "Capture",
@@ -65,13 +37,13 @@
     },
     {
       "id": "b79ca23d-fbbf-470a-b66c-227bbdda0241",
-      "name": "daily",
+      "name": "daily 🗓️",
       "type": "Template",
       "command": true,
-      "templatePath": "work/calls/DAILY/@today.md",
+      "templatePath": "Knowledge/templates/daily call template.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{DATE:}}"
+        "format": "{{DATE:}} daily"
       },
       "folder": {
         "enabled": true,
@@ -95,7 +67,7 @@
     },
     {
       "id": "f64b73ca-b341-422f-83ac-08cf48d5f1e5",
-      "name": "BookFinder",
+      "name": "BookFinder📕",
       "type": "Macro",
       "command": true,
       "macroId": "61dfedc0-d41f-4074-a5ee-fed304e06ef9"
@@ -106,6 +78,13 @@
       "type": "Macro",
       "command": true,
       "macroId": "144aa37e-dcdf-4542-b1fc-82f0e0f0245c"
+    },
+    {
+      "id": "28b2ee83-9521-431e-944d-9c019ffb364b",
+      "name": "movie🎬",
+      "type": "Macro",
+      "command": true,
+      "macroId": "ff14992f-d89c-4dc9-8b1e-4d84da38598c"
     }
   ],
   "macros": [
@@ -114,10 +93,10 @@
       "id": "144aa37e-dcdf-4542-b1fc-82f0e0f0245c",
       "commands": [
         {
-          "name": "BookFinder",
+          "name": "BookFinder📕",
           "type": "Choice",
-          "id": "45bb593a-f552-4367-98cc-8ff785d3e386",
-          "choiceId": "7574a9f8-d242-487f-af59-6e1d10017810"
+          "id": "e23ac2d7-8b2f-42e7-827c-8cd1dc54d916",
+          "choiceId": "f64b73ca-b341-422f-83ac-08cf48d5f1e5"
         }
       ],
       "runOnStartup": false
@@ -170,11 +149,62 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "movie",
+      "id": "ff14992f-d89c-4dc9-8b1e-4d84da38598c",
+      "commands": [
+        {
+          "name": "movies",
+          "type": "UserScript",
+          "id": "62e55d67-0708-42bb-9dcb-a9fa5d367d45",
+          "path": "movies.js",
+          "settings": {
+            "OMDb API Key": "fa74e20c"
+          }
+        },
+        {
+          "name": "movie template",
+          "type": "NestedChoice",
+          "id": "ef2912e6-6037-44b8-9234-69c0b8647d59",
+          "choice": {
+            "id": "b4b63b0a-c903-4d8e-9e0b-f20e84d97490",
+            "name": "movie template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Knowledge/templates/movie.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:fileName}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Knowledge/Media"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
     }
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "notes/templates",
+  "templateFolderPath": "Knowledge/templates",
   "announceUpdates": true,
   "version": "1.11.4",
   "disableOnlineFeatures": true,

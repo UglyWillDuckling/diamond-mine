@@ -168,6 +168,19 @@
         "Shift"
       ],
       "key": "D"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
     }
-  ]
+  ],
+  "editor:delete-paragraph": []
 }

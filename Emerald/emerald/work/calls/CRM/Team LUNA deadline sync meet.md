@@ -12,6 +12,8 @@ tags:
 #call 
 #crm 
 #work/call
+#luna
+[[luna team]]
 
 **In**: `= this.date - date(today)`
 

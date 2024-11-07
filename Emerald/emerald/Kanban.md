@@ -29,17 +29,18 @@ color: var(--mk-color-orange)
 
 ## next ⏭
 
+- [ ] [[remove scroll-forward mapping in nvim]]
 - [ ] [[check for an ergonomic mouse]] #mouse
 - [ ] books on [[object orientation]] and design 📘 #book
 - [ ] [[Education/React/react|react]] study 🎒 #react
 - [ ] start [[Node]] education 🏫 #node
-- [ ] [[Explore quick add plugin]]
 
 
 ## active ⚔
 
 - [ ] [[build the model]] #model
 - [ ] [[see how to manage tasks]] ☑ #tasks
+- [ ] [[Explore quick add plugin]]
 - [ ] [[organize obsidian notes with dataview and folders]]
 - [ ] education / typescript advanced [[Typesript Education]] #education
 - [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script #decorator #pattern
@@ -48,11 +49,6 @@ color: var(--mk-color-orange)
 ## finished
 
 **Complete**
-- [x] [[see how best to manager folders with notes]] #folders
-- [x] [[build the interface]] ✅ 2024-11-04
-- [x] update git credentials to use personal account 🐙 ✅ 2024-11-04
-- [x] [[nvim - setup nvim-tree]] ✅ 2024-11-04
-- [x] [[refactor movie controller]] from education ✅ 2024-11-04
 
 
 ***
@@ -97,6 +93,11 @@ color: var(--mk-color-orange)
 - [x] fix **bluetooth** headphones disconnect 🎧
 - [x] ask for account on backyard ✅ 2024-10-30
 - [x] [[update Ubuntu]] ✅ 2024-10-30
+- [x] 2024-11-06 12:46 [[build the interface]] ✅ 2024-11-04
+- [x] 2024-11-06 12:46 update git credentials to use personal account 🐙 ✅ 2024-11-04
+- [x] 2024-11-06 12:46 [[nvim - setup nvim-tree]] ✅ 2024-11-04
+- [x] 2024-11-06 12:46 [[refactor movie controller]] from education ✅ 2024-11-04
+- [x] 2024-11-06 12:46 [[see how best to manager folders with notes]] #folders
 
 %% kanban:settings
 ```

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiMap",
+      "LiGithub",
       "LiHeading",
       "LiGitCommit",
-      "LiSubscript",
-      "LiProjector",
-      "LiCrown"
+      "LiSubscript"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -203,7 +203,10 @@
   "work/calls/SPRINT/sprint planning 10-28.md": "👟",
   "work/calls/SPRINT/Sprint Review  - 22.07.md": "LiThumbsUp",
   "work/calls/CRM/SLMP call.md": "LiPresentation",
-  "Knowledge": "LiBrain",
+  "Knowledge": {
+    "iconName": "LiBrain",
+    "iconColor": "#29c76d"
+  },
   "Knowledge/Books": "LiLibraryBig",
   "Knowledge/Articles": "LiPencilLine",
   "tasks/dev/nvim - nvim-tree/nvim - setup nvim-tree.md": "LiTreeDeciduous",
@@ -350,8 +353,10 @@
   "work/Projects/CRM": "LiCrown",
   "work/Projects": "LiProjector",
   "work/tickets/chores/setup commit verification locally.md": "LiGitCommit",
-  "notes/you can color the headings too.md": {
+  "notes/installed git butler from source.md": "LiGithub",
+  "notes/archive/you can color the headings too.md": {
     "iconName": "LiHeading",
     "iconColor": "#eb3dc5"
-  }
+  },
+  "tasks/remove scroll-forward mapping in nvim.md": "LiMap"
 }

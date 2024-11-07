@@ -5,7 +5,7 @@ tags:
 ---
 > This is now a bit like a note 📔🗒
 
-## tasks - active tickets 🎟
+## tasks ✔
 
 ```tasks
 not done
@@ -17,7 +17,6 @@ show tree
 ```
 
 ## calls - upcoming an recent
-[[data view]]
 
 ```dataview
 TABLE WITHOUT ID

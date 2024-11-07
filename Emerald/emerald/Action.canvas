@@ -7,7 +7,6 @@
 		{"id":"42e4aab030f5c46e","type":"text","text":"write test","x":-237,"y":243,"width":175,"height":50,"color":"4"},
 		{"id":"50bada865a5d4496","type":"text","text":"start working on qsl listing DB [[Create DB table]]\n\n","x":-400,"y":-120,"width":250,"height":100,"color":"4"},
 		{"id":"031fa4b40c79f7fe","type":"text","text":"see current status, experiment","x":-540,"y":243,"width":250,"height":50,"color":"4"},
-		{"id":"c92880ea1ec1844c","type":"text","text":"[[nvim - setup nvim-tree]] - custom mappings","x":-1200,"y":415,"width":250,"height":50,"color":"4"},
 		{"id":"ec103f70a6c47c3a","type":"text","text":"make(build) a model","x":-337,"y":515,"width":230,"height":60,"color":"6"},
 		{"id":"cec3c772ac950dfd","type":"text","text":"build the interfaces","x":-355,"y":680,"width":155,"height":50,"color":"3"},
 		{"id":"623737053ee8f170","type":"text","text":"start making the table 📋","x":-200,"y":760,"width":250,"height":60,"color":"#5235bb"},

@@ -1,5 +1,5 @@
 ---
-banner: https://images.unsplash.com/photo-1586256053828-a36b572ab01d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800
+banner: "https://images.unsplash.com/photo-1586256053828-a36b572ab01d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
 tags:
   - computer-science
   - computer-programming

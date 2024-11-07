@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiFolder",
-      "LiCheckSquare2",
-      "LiDiamond",
-      "LiCircuitBoard",
-      "LiFileDigit"
+      "LiCalendarFold",
+      "LiBook",
+      "LiPictureInPicture2",
+      "LiQuestionMarkGlyph",
+      "🔢"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,12 +37,13 @@
   "notes": "📓",
   "notes/dev": {
     "iconName": "LiKeyboard",
-    "iconColor": "#474747"
+    "iconColor": "#716a6a"
   },
-  "tools": "🧰",
   "notes/archive": "LiArchive",
-  "tools/pc/cron.md": "LiTimerReset",
-  "knowledge": "LiBrain",
+  "knowledge": {
+    "iconName": "LiBrain",
+    "iconColor": "#29c797"
+  },
   "knowledge/concepts": "🤔",
   "knowledge/concepts/CS": "💽",
   "knowledge/articles": "✍",
@@ -65,16 +66,9 @@
   },
   "knowledge/questions": "LiQuestionMarkGlyph",
   "notes/archive/I should encrypt folders.md": "LiCode",
-  "tools/pc/mods/mods --setttings.md": "🤖",
-  "tools/pc/mods": "🪄",
-  "tools/pc": "LiPcCase",
   "action.canvas": {
     "iconName": "LiStepForward",
     "iconColor": "#338dd1"
-  },
-  "notes/obsidian/canvas tool is much better than it first appeared.md": {
-    "iconName": "LiPencilRuler",
-    "iconColor": "#2ac4cf"
   },
   "notes/obsidian/daily planner looks great.md": "LiCheckSquare2",
   "notes/archive/having a question list is a good idea.md": {
@@ -90,7 +84,6 @@
     "iconName": "LiGroup",
     "iconColor": "#c2147a"
   },
-  "Life/Faks/tasks/nova godina/organizirati faks za novu godinu.md": "🧑‍🎓",
   "Life/Faks/tasks/nova godina/poslati mailove za upis na predmete.md": "📧",
   "Life/Faks/tasks/nova godina/organizirati Obsidian.md": "♦",
   "Life/Faks/tasks/nova godina": "⏭",
@@ -102,7 +95,6 @@
   },
   "tasks/dev/obsidian - organize with tags.md": "LiTag",
   "tasks/add some questions.md": "LiQuestionMarkGlyph",
-  "tasks/fix shortcuts on PC.md": "🩳",
   "Life/Faks": "🎒",
   "Life/Dev": "LiCodesandbox",
   "Life/Faks/Digitalna/digitalan elektronika.md": "LiFileDigit",
@@ -112,11 +104,36 @@
     "iconName": "LiPaintbrush",
     "iconColor": "#3086b0"
   },
-  "2024-10-27.md": {
+  "Life/Faks/Digitalna/todos": "LiCheckSquare2",
+  "Life/Faks/Digitalna/todos/finish the college setup.md": "LiBook",
+  "Life/Faks/Matematika": "🔢",
+  "Life/Faks/Matematika/todos": "LiCheckSquare2",
+  "notes/questions?": {
+    "iconName": "LiQuestionMarkGlyph",
+    "iconColor": "#ff7e14"
+  },
+  "notes/obsidian": "LiDiamond",
+  "notes/obsidian/theme settings and the like.md": {
+    "iconName": "LiPictureInPicture2",
+    "iconColor": "#d336b6"
+  },
+  "notes/archive/canvas tool is much better than it first appeared.md": {
+    "iconName": "LiPencilRuler",
+    "iconColor": "#2ac4cf"
+  },
+  "knowledge/tools": "🧰",
+  "knowledge/tools/obsidian": "LiDiamond",
+  "knowledge/tools/pc": "LiPcCase",
+  "knowledge/tools/pc/cron.md": "LiTimerReset",
+  "knowledge/tools/pc/mods": "🪄",
+  "knowledge/tools/pc/mods/mods --setttings.md": "🤖",
+  "days/2024-10-27.md": {
     "iconName": "LiCalendar",
     "iconColor": "#c6942a"
   },
-  "tools/obsidian": "LiDiamond",
-  "Life/Faks/Digitalna/todos": "LiCheckSquare2",
-  "Life/Faks/Digitalna/todos/finish the college setup.md": "LiFolder"
+  "tasks/archive/fix shortcuts on PC.md": "🩳",
+  "2024-11-02.md": {
+    "iconName": "LiCalendarFold",
+    "iconColor": "#fff714"
+  }
 }

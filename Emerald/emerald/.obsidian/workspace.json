@@ -11,13 +11,49 @@
             "id": "f47f43a7963b2000",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "work/work.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "work"
+            }
+          },
+          {
+            "id": "5b580a9337f11ee6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge/tools/dev/jeroenjanssens-sample.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "jeroenjanssens-sample"
+            }
+          },
+          {
+            "id": "10d6d4e33d26bc69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/calls/calls.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "calls"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 257.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -134,9 +170,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Knowledge/tools/dev/jeroenjanssens-sample.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of jeroenjanssens-sample"
             }
           },
           {
@@ -226,11 +264,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f47f43a7963b2000",
+  "active": "5b580a9337f11ee6",
   "lastOpenFiles": [
+    "work/work.md",
+    "Knowledge/tools/dev/jeroenjanssens-sample.md",
+    "Knowledge/templates/tool.md",
+    "work/docs/backyard/Infra/Backyard Tasks.md",
+    "work/notes/backyard-tassk.md",
+    "2024-11-07.md",
+    "work/docs/backyard/Infra",
+    "work/calls/DAILY/2024-11-07 daily.md",
+    "work/calls/calls.md",
+    "tasks/dev/Obsidian/see how to manage tasks.md",
+    "k8s.md",
+    "work/calls/DAILY/2024",
+    "work/calls/DAILY/2024-11-06 daily.md",
+    "2024-11-06.md",
     "Knowledge/templates/movie.md",
     "Knowledge/Media/Lord of War.md",
-    "2024-11-06.md",
     "Knowledge/Media/The Lord of the Rings The Fellowship of the Ring.md",
     "Knowledge/Media/Dune Part Two.md",
     "Knowledge/Media/Timothée Chalamet, Zendaya, Rebecca Ferguson.md",
@@ -241,30 +292,17 @@
     "days/Current or active.md",
     "work/tickets/FEAT/QSL listing/QSL listing.md",
     "movies.js",
-    "work/work.md",
     "work/tickets/chores/setup commit verification locally.md",
     "work/tickets/chores/2024-11-10.md",
     "work/tickets/FEAT/QSL listing/subs/build the model.md",
     "work/tickets/FEAT/QSL listing/write the table docs.md",
     "tasks/remove scroll-forward mapping in nvim.md",
-    "tasks/organize obsidian notes with dataview and folders.md",
-    "notes/discovery/obsidian/plugins/data view.md",
-    "work/bugs/make test not working.md",
-    "notes/installed git butler from source.md",
-    "work/docs/concepts/QSL listing.md",
-    "work/calls/CRM/Team LUNA deadline sync meet.md",
-    "Knowledge/tools/dev/git/commitlint.md",
-    "work/tasksCalendar/calendar.md",
     "work/tasksCalendar/view.css~",
     "work/tasksCalendar/view.js~",
-    "work/tasksCalendar/2024-11-14.md",
-    "days/2024-11-05.md",
     "work/tasksCalendar/view.js",
     "work/tasksCalendar/view.css",
     "work/tasksCalendar",
     "BookFinder.js~",
-    "BookFinder.js",
-    "notes/scripts/BookFinder.js",
     "work/docs/CRM/CRM.canvas",
     "Knowledge/tools/PM/bee-bole-export.png",
     "work/notes/archive/iris-code.png",

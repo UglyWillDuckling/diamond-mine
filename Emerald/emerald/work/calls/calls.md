@@ -2,6 +2,16 @@
 #calls
 
 - [ ] remind (@[[2024-11-08]])
+## today
+
+```dataview
+TABLE WITHOUT ID
+file.link as call, file.day - date(today) AS in, regexreplace(file.folder, "^.*\/", "") AS Area
+FROM #work/call
+WHERE file.day AND file.day = date(today)
+sort date DESC
+```
+
 ## upcoming
 
 ```dataview

@@ -4,7 +4,7 @@
       "id": "cf1e9f3f-fe1f-4dd7-96e0-0cd683c2bf30",
       "name": "todo",
       "type": "Capture",
-      "command": false,
+      "command": true,
       "appendLink": false,
       "captureTo": "",
       "captureToActiveFile": true,
@@ -85,6 +85,36 @@
       "type": "Macro",
       "command": true,
       "macroId": "ff14992f-d89c-4dc9-8b1e-4d84da38598c"
+    },
+    {
+      "id": "f2706324-a974-4be8-aa99-3f84420ebb8a",
+      "name": "add tool 🔨",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Knowledge/templates/tool.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Knowledge/tools"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [

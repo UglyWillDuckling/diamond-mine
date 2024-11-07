@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🦹‍♀️",
+      "LiTrainFront",
       "LiMap",
       "LiGithub",
-      "LiHeading",
-      "LiGitCommit",
-      "LiSubscript"
+      "LiHeading"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -358,5 +358,7 @@
     "iconName": "LiHeading",
     "iconColor": "#eb3dc5"
   },
-  "tasks/remove scroll-forward mapping in nvim.md": "LiMap"
+  "tasks/remove scroll-forward mapping in nvim.md": "LiMap",
+  "work/docs/backyard/Infra": "LiTrainFront",
+  "work/docs/backyard/tools/Diabolocom.md": "🦹‍♀️"
 }

@@ -4,6 +4,8 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
+    ":globe_with_meridians:",
+    ":world_map:",
     ":movie_camera:",
     ":test_tube:",
     ":hammer:",
@@ -131,7 +133,6 @@
     ":magic_wand:",
     ":atom_symbol:",
     ":maple_leaf:",
-    ":world_map:",
     ":bat:",
     ":tanabata_tree:",
     ":christmas_tree:",

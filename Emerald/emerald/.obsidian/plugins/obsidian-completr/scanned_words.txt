@@ -358,6 +358,7 @@ directorLink
 destroyed
 destroy
 dealer
+dize
 several
 symbols
 string
@@ -606,6 +607,7 @@ society
 sorted
 standup
 seeking
+svijet
 for
 first
 fix
@@ -790,6 +792,7 @@ uncertainties
 unfaithful
 urge
 unites
+ujutro
 These
 The
 Today
@@ -1038,6 +1041,7 @@ amounts
 altered
 actorLinks
 arms
+ansible
 metaprogramming
 means
 modify
@@ -1188,6 +1192,7 @@ menial
 master
 meek
 morality
+mobitel
 which
 we
 with
@@ -1535,6 +1540,9 @@ conspirators
 companions
 confronts
 chased
+cron
+citav
+compute
 the
 these
 tells
@@ -1911,6 +1919,8 @@ offering
 obvious
 outstanding
 orthogonality
+ostale
+obaveze
 program
 property
 plugin
@@ -2103,6 +2113,8 @@ perfect
 physically
 provider
 powerful
+pet
+pogledati
 Using
 UI
 Unions
@@ -2385,6 +2397,9 @@ respects
 remarks
 ratingImdb
 rating
+racunanje
+rano
+racunalo
 Here
 How
 HOST
@@ -2582,6 +2597,7 @@ explaining
 embryos
 eight
 earth
+engine
 Why
 When
 Whenever
@@ -2767,6 +2783,7 @@ lasting
 lowest
 leaders
 labourers
+ljetno
 named
 needs
 no
@@ -2901,6 +2918,7 @@ SCOPE
 State
 Shire
 Sauron
+Still
 If
 In
 Ideas
@@ -2991,6 +3009,8 @@ king
 knew
 knows
 keeping
+knjige
+kubernetes
 Description
 Date
 Demander
@@ -3106,6 +3126,8 @@ variability
 vengeance
 vast
 verification
+vremena
+vas
 Examples
 Evaluation
 Evaluations
@@ -3715,6 +3737,7 @@ Build
 Brave
 Borrowing
 Beta
+Budni
 Lastly
 LOCAL
 LUNA
@@ -3889,6 +3912,7 @@ VectorTileAPI
 VectorTile
 VALUE
 Vought
+VM
 Quality
 QUEUE
 QSL
@@ -4025,6 +4049,7 @@ zF
 zf
 ze
 zk
+zadatke
 xN
 xe
 xH

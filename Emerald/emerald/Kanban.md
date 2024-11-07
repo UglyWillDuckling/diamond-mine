@@ -34,16 +34,16 @@ color: var(--mk-color-orange)
 - [ ] books on [[object orientation]] and design 📘 #book
 - [ ] [[Education/React/react|react]] study 🎒 #react
 - [ ] start [[Node]] education 🏫 #node
+- [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script #decorator #pattern
 
 
 ## active ⚔
 
 - [ ] [[build the model]] #model
-- [ ] [[see how to manage tasks]] ☑ #tasks
+- [/] [[see how to manage tasks]] ☑ #tasks
 - [ ] [[Explore quick add plugin]]
 - [ ] [[organize obsidian notes with dataview and folders]]
 - [ ] education / typescript advanced [[Typesript Education]] #education
-- [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script #decorator #pattern
 
 
 ## finished
@@ -101,6 +101,6 @@ color: var(--mk-color-orange)
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,false,false],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true}
+{"kanban-plugin":"board","list-collapse":[true,false,false,true],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true}
 ```
 %%

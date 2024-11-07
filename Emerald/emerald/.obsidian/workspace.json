@@ -4,56 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "d7becf8407b11bba",
+        "id": "94b5894d7bac19c0",
         "type": "tabs",
         "children": [
           {
-            "id": "f47f43a7963b2000",
+            "id": "f05466c73dcbea4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/work.md",
+                "file": "days/Current or active.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "work"
-            }
-          },
-          {
-            "id": "5b580a9337f11ee6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledge/tools/dev/jeroenjanssens-sample.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "jeroenjanssens-sample"
-            }
-          },
-          {
-            "id": "10d6d4e33d26bc69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/calls/calls.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "calls"
+              "title": "Current or active"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 287.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -171,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/tools/dev/jeroenjanssens-sample.md"
+                "file": "days/Current or active.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of jeroenjanssens-sample"
+              "title": "Outline of Current or active"
             }
           },
           {
@@ -264,45 +233,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5b580a9337f11ee6",
+  "active": "f05466c73dcbea4e",
   "lastOpenFiles": [
-    "work/work.md",
-    "Knowledge/tools/dev/jeroenjanssens-sample.md",
-    "Knowledge/templates/tool.md",
-    "work/docs/backyard/Infra/Backyard Tasks.md",
-    "work/notes/backyard-tassk.md",
-    "2024-11-07.md",
-    "work/docs/backyard/Infra",
-    "work/calls/DAILY/2024-11-07 daily.md",
     "work/calls/calls.md",
-    "tasks/dev/Obsidian/see how to manage tasks.md",
-    "k8s.md",
-    "work/calls/DAILY/2024",
-    "work/calls/DAILY/2024-11-06 daily.md",
-    "2024-11-06.md",
-    "Knowledge/templates/movie.md",
-    "Knowledge/Media/Lord of War.md",
-    "Knowledge/Media/The Lord of the Rings The Fellowship of the Ring.md",
-    "Knowledge/Media/Dune Part Two.md",
-    "Knowledge/Media/Timothée Chalamet, Zendaya, Rebecca Ferguson.md",
-    "movies.js~",
-    "Action.canvas",
+    "work/docs/infra/PR's.md",
+    "work/docs/infra",
+    "work/docs/backyard/Infra/Backyard Tasks.md",
+    "tasks/tasksCalendar/calendar.md",
+    "tasks/tasks.md",
+    "2024-11-07.md",
+    "work/docs/infra/k8s.md",
+    "work/calls/CRM/Team LUNA deadline sync meet.md",
     "Kanban.md",
+    "work/people and teams/LUNA/Screenshot_20241107_140216.png",
+    "work/people and teams/LUNA/Paulo.md",
+    "Knowledge/tools/dev/KDE Connect.md",
     "tasks/dev/Explore quick add plugin.md",
-    "days/Current or active.md",
+    "Action.canvas",
+    "notes/fixed missing network settings.md",
     "work/tickets/FEAT/QSL listing/QSL listing.md",
+    "work/bugs/make test not working.md",
+    "days/2024-11-06.md",
+    "work/work.md",
+    "work/tickets/chores/see how crons are handled on the backyard.md",
+    "Knowledge/tools/dev/shell/mods.md",
+    "notes/ideas and thoughts/2024-11-21.md",
+    "notes/ideas and thoughts/adding tools looks to be quite useful.md",
+    "Knowledge/tools/dev/shell/jeroenjanssens-sample.md",
+    "Knowledge/tools/obsidian/quickAdd.md",
+    "notes/refactor movie controller.md",
+    "Knowledge/tools/dev/nvim/Trouble.md",
+    "Knowledge/tools/dev/php/ecs.md",
+    "Knowledge/tools/dev/shell",
+    "work/docs/backyard/Infra",
+    "work/calls/DAILY/2024",
+    "movies.js~",
     "movies.js",
-    "work/tickets/chores/setup commit verification locally.md",
-    "work/tickets/chores/2024-11-10.md",
-    "work/tickets/FEAT/QSL listing/subs/build the model.md",
-    "work/tickets/FEAT/QSL listing/write the table docs.md",
-    "tasks/remove scroll-forward mapping in nvim.md",
     "work/tasksCalendar/view.css~",
     "work/tasksCalendar/view.js~",
-    "work/tasksCalendar/view.js",
-    "work/tasksCalendar/view.css",
-    "work/tasksCalendar",
-    "BookFinder.js~",
+    "tasks/tasksCalendar/view.js",
+    "tasks/tasksCalendar/view.css",
     "work/docs/CRM/CRM.canvas",
     "Knowledge/tools/PM/bee-bole-export.png",
     "work/notes/archive/iris-code.png",
@@ -314,7 +284,6 @@
     "work/tickets/Lead Fix/Untitled.canvas",
     "Education/React/documentation/attachements/sharing_data_parent_clicked.webp",
     "Education/React/documentation/attachements/sharing_data_parent.webp",
-    "Education/React/documentation/attachements/unnamed.png",
     "work/tasks - tickets/qsl.canvas",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas"

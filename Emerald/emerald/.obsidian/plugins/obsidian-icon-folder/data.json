@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiTimer",
+      "LiPenTool",
       "🦹‍♀️",
       "LiTrainFront",
-      "LiMap",
-      "LiGithub",
-      "LiHeading"
+      "LiMap"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -216,7 +216,6 @@
     "iconName": "LiShapes",
     "iconColor": "#e5b42e"
   },
-  "work/docs/PR's.md": "LiGitPullRequest",
   "tasks/archive/izdati racun 10.24.md": "LiReceipt",
   "tasks/files": "LiFiles",
   "days/Current or active.md": "LiActivity",
@@ -279,12 +278,9 @@
   "Knowledge/tools": "LiWrench",
   "Knowledge/tools/dev": "🖥",
   "Knowledge/tools/obsidian": "LiDiamond",
-  "Knowledge/tools/refactor movie controller.md": "LiCompass",
-  "Knowledge/tools/Trouble.md": "🚦",
   "Knowledge/tools/PM/BeeBole.md": "🐝",
   "Knowledge/tools/PM/Confluence.md": "LiPencilLine",
   "Knowledge/tools/obsidian/vim - vimrc.md": "🙈",
-  "Knowledge/tools/dev/fastify.md": "LiFastForward",
   "Knowledge/tools/dev/git": "LiGitFork",
   "Knowledge/tools/dev/js/react.md": "⚛",
   "Knowledge/tools/dev/git/git butler.md": "👔",
@@ -360,5 +356,11 @@
   },
   "tasks/remove scroll-forward mapping in nvim.md": "LiMap",
   "work/docs/backyard/Infra": "LiTrainFront",
-  "work/docs/backyard/tools/Diabolocom.md": "🦹‍♀️"
+  "work/docs/backyard/tools/Diabolocom.md": "🦹‍♀️",
+  "Knowledge/tools/dev/js/fastify.md": "LiFastForward",
+  "notes/refactor movie controller.md": "LiCompass",
+  "Knowledge/tools/dev/nvim/Trouble.md": "🚦",
+  "notes/ideas and thoughts/adding tools looks to be quite useful.md": "LiPenTool",
+  "work/tickets/chores/see how crons are handled on the backyard.md": "LiTimer",
+  "work/docs/infra/PR's.md": "LiGitPullRequest"
 }

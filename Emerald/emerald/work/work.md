@@ -16,12 +16,13 @@ group by filename
 show tree
 ```
 
-## calls - upcoming an recent
+## calls - upcoming and recent
 
+todo: recent
 ```dataview
 TABLE WITHOUT ID
 file.link as call, file.day - date(today) AS in, regexreplace(file.folder, "^.*\/", "") AS Area
 FROM #work/call
-WHERE file.day AND file.day > date(today)
+WHERE file.day AND file.day > date(yesterday)
 sort date DESC
 ```

@@ -6,20 +6,43 @@
       {
         "id": "94b5894d7bac19c0",
         "type": "tabs",
+        "dimension": 53.100775193798455,
         "children": [
           {
-            "id": "f05466c73dcbea4e",
+            "id": "110da1f3808d41f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "days/Current or active.md",
+                "file": "tasks/dev/all commands list.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Current or active"
+              "title": "all commands list"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d066484a694ddb67",
+        "type": "tabs",
+        "dimension": 46.89922480620155,
+        "children": [
+          {
+            "id": "dee1d477db4c8d76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tasks/dev/all commands list.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "all commands list"
             }
           }
         ]
@@ -63,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"date\"]",
+                "query": "tag:#task",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 248.5,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -140,20 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "days/Current or active.md"
+                "file": "tasks/dev/all commands list.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Current or active"
-            }
-          },
-          {
-            "id": "66215144ab6ceed1",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
+              "title": "Outline of all commands list"
             }
           },
           {
@@ -201,13 +215,23 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "994423b5118cc303",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 386.5,
+    "width": 493.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -233,37 +257,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f05466c73dcbea4e",
+  "active": "110da1f3808d41f4",
   "lastOpenFiles": [
+    "tasks/dev/all commands list.md",
+    "2024-11-08.md",
+    "tasks/dev/try out some of the vim mappings on obs.md",
+    "work/tickets/FEAT/QSL listing/QSL listing.md",
+    "tasks/tasks.md",
+    "work/work.md",
+    "days/2024-11-07.md",
+    "days/2024-11-06.md",
+    "days/2024-11-05.md",
+    "days/2024-11-04.md",
+    "tasks/archive/calendar.md",
+    "tasks/dev/organize obsidian notes with dataview and folders.md",
+    "work/calls/DAILY/2024-11-08 daily.md",
+    "notes/installed git butler from source.md",
+    "work/docs/concepts/QSL listing.md",
+    "work/tickets/FEAT/QSL listing/subs/build the model.md",
+    "work/tickets/FEAT/QSL listing/subs/Create DB table.md",
+    "work/calls/DAILY/daily; 24-10-30.md",
+    "Knowledge/tools/dev/Cypress testing suite.md",
+    "days/Current or active.md",
+    "Kanban.md",
+    "tasks/dev/Obsidian/see how to manage tasks.md",
+    "work/calls/CRM/Team LUNA deadline sync meet.md",
     "work/calls/calls.md",
     "work/docs/infra/PR's.md",
     "work/docs/infra",
     "work/docs/backyard/Infra/Backyard Tasks.md",
-    "tasks/tasksCalendar/calendar.md",
-    "tasks/tasks.md",
-    "2024-11-07.md",
-    "work/docs/infra/k8s.md",
-    "work/calls/CRM/Team LUNA deadline sync meet.md",
-    "Kanban.md",
     "work/people and teams/LUNA/Screenshot_20241107_140216.png",
-    "work/people and teams/LUNA/Paulo.md",
-    "Knowledge/tools/dev/KDE Connect.md",
-    "tasks/dev/Explore quick add plugin.md",
     "Action.canvas",
-    "notes/fixed missing network settings.md",
-    "work/tickets/FEAT/QSL listing/QSL listing.md",
-    "work/bugs/make test not working.md",
-    "days/2024-11-06.md",
-    "work/work.md",
-    "work/tickets/chores/see how crons are handled on the backyard.md",
-    "Knowledge/tools/dev/shell/mods.md",
-    "notes/ideas and thoughts/2024-11-21.md",
-    "notes/ideas and thoughts/adding tools looks to be quite useful.md",
-    "Knowledge/tools/dev/shell/jeroenjanssens-sample.md",
-    "Knowledge/tools/obsidian/quickAdd.md",
-    "notes/refactor movie controller.md",
-    "Knowledge/tools/dev/nvim/Trouble.md",
-    "Knowledge/tools/dev/php/ecs.md",
     "Knowledge/tools/dev/shell",
     "work/docs/backyard/Infra",
     "work/calls/DAILY/2024",

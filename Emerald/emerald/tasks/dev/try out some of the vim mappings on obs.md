@@ -1,23 +1,7 @@
-""""""""""""""""""""""
-" Leader
-""""""""""""""""""""""
-" let mapleader=, can't set leaders in Obsidian vim, so the key just has to be used consistently.
-" However, it needs to be unmapped, to not trigger default behavior: https://github.com/esm7/obsidian-vimrc-support#some-help-with-binding-space-chords-doom-and-spacemacs-fans
-unmap ,
+https://github.com/esm7/obsidian-vimrc-support
 
-""""""""""""""""""""""
-" Clipboard
-""""""""""""""""""""""
-" yank to system clipboard
-set clipboard=unnamed
 
-" Y consistent with D and C to the end of line
-nnoremap Y y$
-
-" don't pollute the register (HACK since we can't map to `"_x` or `"_C`)
-nnoremap C "_c$
-nnoremap x "_dl
-" nnoremap c "_c " BUG not working with vimrc plugin
+```vim
 
 """"""""""""""""""""""
 " Navigation
@@ -335,19 +319,19 @@ nnoremap wrg yGp
 exmap closeWindow obcommand workspace:close-window
 nnoremap ZZ :closeWindow
 
-" Split
+" Splits
 exmap splitVertical obcommand workspace:split-vertical
-nnoremap <C-w>v :splitVertical<CR>
+nnoremap <C-w>v :splitVertical
 
 " Split Switching
-exmap nextSplit obcommand workspace:cycle-through-panes
-nnoremap <C-s> :nextSplit<CR>
+exmap nextSplit obcommand cycle-through-panes:cycle-through-panes
+nnoremap <C-s> :nextSplit
 
 " Tabs
 exmap nextTab obcommand workspace:next-tab
 exmap prevTab obcommand workspace:previous-tab
-nnoremap gt :nextTab<CR>
-nnoremap gT :prevTab<CR>
+nnoremap gt :nextTab
+nnoremap gT :prevTab
 
 " Alt Buffer (emulates `:buffer #`)
 exmap altBuffer obcommand grappling-hook:alternate-note
@@ -372,8 +356,8 @@ nnoremap <C-space> :togglefold
 
 exmap unfoldall obcommand editor:unfold-all
 exmap foldall obcommand editor:fold-all
-nnoremap zm :foldall<CR>
-nnoremap zr :unfoldall<CR>
+nnoremap zm :foldall
+nnoremap zr :unfoldall
 
 """"""""""""""""""""""
 " Option Toggling
@@ -388,11 +372,8 @@ exmap enableDiagnostics obcommand obsidian-languagetool-plugin:ltcheck-text
 nnoremap ,od :enableDiagnostics
 
 exmap disableDiagnostics obcommand obsidian-languagetool-plugin:ltclear
-nnoremap ,oD :disableDiagnostics"
+nnoremap ,oD :disableDiagnostics
 
-" Go back and forward with Ctrl+O and Ctrl+I
-" (make sure to remove default Obsidian shortcuts for these to work)
-exmap back obcommand app:go-back
-nmap <C-o> :back<CR>
-exmap forward obcommand app:go-forward
-nmap <C-i> :forward<CR>
+```
+
+[[all commands list]]

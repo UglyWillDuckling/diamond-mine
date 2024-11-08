@@ -29,11 +29,11 @@ color: var(--mk-color-orange)
 
 ## next ⏭
 
-- [ ] [[remove scroll-forward mapping in nvim]]
 - [ ] [[check for an ergonomic mouse]] #mouse
 - [ ] books on [[object orientation]] and design 📘 #book
 - [ ] [[Education/React/react|react]] study 🎒 #react
 - [ ] start [[Node]] education 🏫 #node
+- [ ] [[remove scroll-forward mapping in nvim]]
 - [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script #decorator #pattern
 
 

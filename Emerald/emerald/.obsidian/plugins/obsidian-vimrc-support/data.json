@@ -1,0 +1,14 @@
+{
+  "vimrcFileName": ".obsidian.vimrc",
+  "displayChord": false,
+  "displayVimMode": false,
+  "fixedNormalModeLayout": false,
+  "capturedKeyboardMap": {},
+  "supportJsCommands": false,
+  "vimStatusPromptMap": {
+    "normal": "🟢NORMAL",
+    "insert": "🟠INSERT",
+    "visual": "🟡VISUAL",
+    "replace": "🔴"
+  }
+}

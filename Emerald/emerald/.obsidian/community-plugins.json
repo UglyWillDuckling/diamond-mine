@@ -13,7 +13,6 @@
   "obsidian-list-callouts",
   "settings-search",
   "obsidian-show-file-path",
-  "obsidian-reminder-plugin",
   "vim-yank-highlight",
   "callout-manager",
   "obsidian-advanced-codeblock",
@@ -31,5 +30,7 @@
   "obsidian-tasks-plugin",
   "obsidian-better-codeblock",
   "folder-notes",
-  "quickadd"
+  "quickadd",
+  "obsidian-reminder-plugin",
+  "cycle-through-panes"
 ]

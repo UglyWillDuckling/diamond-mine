@@ -6,4 +6,4 @@ gcloud compute ssh --zone "europe-west1-c" "extranet-dev-1c-0" --project "ma-dev
 ```
 
 - sudo works 🦇
-- [ ] remind (@[[2024-10-31]])
+- [x] remind (@[[2024-10-31]])

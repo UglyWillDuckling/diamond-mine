@@ -354,7 +354,6 @@
     "iconName": "LiHeading",
     "iconColor": "#eb3dc5"
   },
-  "tasks/remove scroll-forward mapping in nvim.md": "LiMap",
   "work/docs/backyard/Infra": "LiTrainFront",
   "work/docs/backyard/tools/Diabolocom.md": "🦹‍♀️",
   "Knowledge/tools/dev/js/fastify.md": "LiFastForward",
@@ -362,5 +361,6 @@
   "Knowledge/tools/dev/nvim/Trouble.md": "🚦",
   "notes/ideas and thoughts/adding tools looks to be quite useful.md": "LiPenTool",
   "work/tickets/chores/see how crons are handled on the backyard.md": "LiTimer",
-  "work/docs/infra/PR's.md": "LiGitPullRequest"
+  "work/docs/infra/PR's.md": "LiGitPullRequest",
+  "tasks/dev/remove scroll-forward mapping in nvim.md": "LiMap"
 }

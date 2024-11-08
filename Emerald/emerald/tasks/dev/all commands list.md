@@ -1,5 +1,4 @@
-Available commands: 
-``
+## editor
 editor:save-file
 editor:follow-link
 editor:open-link-in-new-leaf
@@ -42,6 +41,7 @@ workspace:close-tab-group
 workspace:close-others-tab-group
 workspace:show-trash
 
+## app
 app:go-back
 app:go-forward
 app:open-vault
@@ -64,6 +64,9 @@ app:open-help
 app:reload
 app:show-debug-info
 app:open-sandbox-vault
+
+
+## window
 window:toggle-always-on-top
 window:zoom-in
 window:zoom-out
@@ -125,17 +128,17 @@ editor:toggle-spellcheck
 editor:table-row-before
 editor:table-row-after
 editor:table-row-up
-editor:table-row-down
-editor:table-row-copy
-editor:table-row-delete
-editor:table-col-before
-editor:table-col-after
-editor:table-col-left
-editor:table-col-right
-editor:table-col-copy
-editor:table-col-delete
+deitor:table-row-down
+deitor:table-row-copy
+deitor:table-row-delete
+deitor:table-col-before
+deitor:table-col-after
+deitor:table-col-left
+deitor:table-col-right
+deitor:table-col-copy
 editor:table-col-align-left
 editor:table-col-align-center
+editor:table-col-delete
 editor:table-col-align-right
 editor:context-menu
 file-explorer:open
@@ -216,39 +219,6 @@ obsidian-kanban:view-board
 obsidian-kanban:view-table
 obsidian-kanban:view-list
 obsidian-kanban:open-board-settings
-obsidian-git:edit-gitignore
-obsidian-git:open-git-view
-obsidian-git:open-history-view
-obsidian-git:open-diff-view
-obsidian-git:view-file-on-github
-obsidian-git:view-history-on-github
-obsidian-git:pull
-obsidian-git:fetch
-obsidian-git:switch-to-remote-branch
-obsidian-git:add-to-gitignore
-obsidian-git:push
-obsidian-git:backup-and-close
-obsidian-git:commit-push-specified-message
-obsidian-git:commit
-obsidian-git:commit-specified-message
-obsidian-git:commit-staged
-obsidian-git:commit-amend-staged-specified-message
-obsidian-git:commit-staged-specified-message
-obsidian-git:push2
-obsidian-git:stage-current-file
-obsidian-git:unstage-current-file
-obsidian-git:edit-remotes
-obsidian-git:remove-remote
-obsidian-git:set-upstream-branch
-obsidian-git:delete-repo
-obsidian-git:init-repo
-obsidian-git:clone-repo
-obsidian-git:list-changed-files
-obsidian-git:switch-branch
-obsidian-git:create-branch
-obsidian-git:delete-branch
-obsidian-git:discard-all
-obsidian-git:toggle-line-author-info
 multi-column-markdown:toggle-mobile-rendering-mcm
 multi-column-markdown:insert-multi-column-region
 multi-column-markdown:clear-lp-cache-mcm
@@ -298,38 +268,40 @@ obsidian-completr:completr-fake-tab
 obsidian-completr:completr-fake-enter
 obsidian-completr:completr-fake-arrow-up
 obsidian-completr:completr-fake-arrow-down
-obsidian42-brat:AddBetaPlugin
-obsidian42-brat:AddBetaPluginWithFrozenVersion
-obsidian42-brat:checkForUpdatesAndUpdate
-obsidian42-brat:checkForUpdatesAndDontUpdate
-obsidian42-brat:updateOnePlugin
-obsidian42-brat:reinstallOnePlugin
-obsidian42-brat:restartPlugin
-obsidian42-brat:disablePlugin
-obsidian42-brat:enablePlugin
-obsidian42-brat:openGitHubZRepository
-obsidian42-brat:openGitHubRepoTheme
-obsidian42-brat:opentPluginSettings
-obsidian42-brat:GrabBetaTheme
-obsidian42-brat:updateBetaThemes
-obsidian42-brat:allCommands
 obsidian-snippet-downloader:add-snippet
 obsidian-snippet-downloader:update-all-snippets
 obsidian-snippet-downloader:update-specific-repo
 obsidian-snippet-downloader:update-specific-snippet
 obsidian-snippet-downloader:remove-specific-snippet
+
+## dataview
 dataview:dataview-force-refresh-views
 dataview:dataview-drop-cache
 dataview:dataview-rebuild-current-view
+
+{
+cccc
+}
+
+[rrrrr]
+
 obsidian-icon-folder:iconize:set-icon-for-file
+
+
+## day
 obsidian-day-planner:re-sync
 obsidian-day-planner:show-day-planner-timeline
 obsidian-day-planner:show-weekly-view
 obsidian-day-planner:show-multi-day-view
-obsidian-day-planner:show-day-planner-today-note
+-day-planner:show-day-planner-today-note
+
 obsidian-day-planner:reorder-tasks-by-time
+
+## tasks
 obsidian-tasks-plugin:edit-task
 obsidian-tasks-plugin:toggle-done
+
+## notes
 folder-notes:turn-into-folder-note
 folder-notes:create-folder-note
 folder-notes:create-folder-note-for-current-folder
@@ -339,6 +311,7 @@ folder-notes:open-folder-note-for-current-folder
 folder-notes:insert-folder-overview-fn
 folder-notes:create-folder-note-from-selected-text
 
+## cycle
 cycle-through-panes:cycle-through-panes
 cycle-through-panes:cycle-through-panes-reverse
 cycle-through-panes:cycle-through-panes-add-view

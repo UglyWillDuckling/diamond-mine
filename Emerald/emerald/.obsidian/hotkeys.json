@@ -164,20 +164,7 @@
   "obsidian-tasks-plugin:edit-task": [
     {
       "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "D"
-    },
-    {
-      "modifiers": [
         "Alt"
-      ],
-      "key": "D"
-    },
-    {
-      "modifiers": [
-        "Mod"
       ],
       "key": "D"
     }
@@ -186,21 +173,21 @@
   "editor:save-file": [],
   "obsidian-excalidraw-plugin:save": [],
   "editor:toggle-italics": [],
-  "editor:focus-right": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "R"
-    }
-  ],
   "obsidian-completr:completr-open-suggestion-popup": [],
   "editor:focus-left": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
-      "key": "W"
+      "key": "H"
+    }
+  ],
+  "editor:focus-right": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
     }
   ]
 }

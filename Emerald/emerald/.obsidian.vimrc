@@ -30,8 +30,6 @@ nnoremap I g0i
 nnoremap A g$a
 
 " HJKL behaves like hjkl, but bigger distance
-noremap H g0
-noremap L g$
 nnoremap J 6gj
 nnoremap K 6gk
 vnoremap J 6j
@@ -39,10 +37,6 @@ vnoremap K 6k
 
 " dj = delete 2 lines, dJ = delete 3 lines
 onoremap J 2j
-
-" Jumps
-nnoremap <C-h> <C-o>
-nnoremap <C-l> <C-i>
 
 " :bnext/bprev
 exmap goBack obcommand app:go-back
@@ -148,21 +142,6 @@ onoremap a<Space> iW
 
 " Delete Word/Selection
 nnoremap <S-Space> "_daw
-
-" [M]erge Lines
-" the merge from Code Editor Shortcuts plugin is smarter than just using `J`
-" since it removes stuff like list prefixes
-exmap mergeLines obcommand obsidian-editor-shortcuts:joinLines
-nnoremap M :mergeLines
-
-" Make o and O respect context (requires Code Editor Shortcuts Plugin)
-exmap blankAbove obcommand obsidian-editor-shortcuts:insertLineAbove
-nmap &a& :blankAbove
-" nmap O &a&i
-
-exmap blankBelow obcommand obsidian-editor-shortcuts:insertLineBelow
-nmap &b& :blankBelow
-" nmap o &b&i
 
 " Add Blank Line above/below
 nnoremap = mzO<Esc>`z
@@ -381,7 +360,7 @@ nnoremap zr :unfoldall<CR>
 
 " [O]ption: [s]pellcheck
 exmap spellcheck obcommand editor:toggle-spellcheck
-nnoremap ,os :spellcheck
+nnoremap ,os :spellcheck<CR>
 
 " [O]ption: [d]iagnostics
 exmap enableDiagnostics obcommand obsidian-languagetool-plugin:ltcheck-text

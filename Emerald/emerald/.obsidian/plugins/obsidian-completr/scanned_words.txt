@@ -385,6 +385,7 @@ drop
 dd
 disable
 drawing
+deitor
 several
 symbols
 string

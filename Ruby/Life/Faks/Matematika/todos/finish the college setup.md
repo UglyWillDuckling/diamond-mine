@@ -4,4 +4,4 @@ tags:
   - todo
   - college
 ---
-- [ ] #task do it for the math 🔄
+- [x] #task do it for the math 🔄 ✅ 2024-11-07

@@ -4,21 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "424bb84b70c920a4",
+        "id": "4d27592a33579601",
         "type": "tabs",
         "children": [
           {
-            "id": "95f8d19f00e3089c",
+            "id": "eada75f3b01721b4",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Board.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Board"
+            }
+          }
+        ]
+      },
+      {
+        "id": "be90de1f8aec1e87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "104368262eea1fb6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-11-07.md",
+                "file": "tasks/tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-07"
+              "title": "tasks"
             }
           }
         ]
@@ -52,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "b",
+                "query": "you have new mail",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.51103591918945,
-    "collapsed": true
+    "width": 257.51103591918945
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -108,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Life/Faks/Faks.md",
+                "file": "2024-11-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Faks"
+              "title": "Backlinks for 2024-11-07"
             }
           },
           {
@@ -141,10 +166,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-11-07.md"
+                "file": "Board.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-11-07"
+              "title": "Outline of Board"
             }
           },
           {
@@ -166,23 +191,14 @@
               "icon": "clock",
               "title": "Chronology"
             }
-          },
-          {
-            "id": "4a97ad7861dd9fce",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 389.5
+    "width": 379.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,20 +216,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4a97ad7861dd9fce",
+  "active": "eada75f3b01721b4",
   "lastOpenFiles": [
-    "action.canvas",
-    "2024-11-07.md",
-    "2024-11-02.md",
-    "tasks/add some questions.md",
     "tasks/tasks.md",
-    "tasks/registracija auta.md",
     "Board.md",
+    "tasks/review fizio.md",
+    "action.canvas",
     "Life/Dev/tasks/use the timeline and daily tasks ✅.md",
+    "days/2024-11-07.md",
+    "2024-11-10.md",
+    "Life/Faks/Matematika/todos/finish the college setup.md",
+    "days/2024-11-02.md",
+    "Zeljko.md",
+    "Untitled Kanban.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "tasks/add some questions.md",
+    "tasks/registracija auta.md",
     "notes/it's not easy to become one with 2 minds.md",
     "Life/Faks/Faks.md",
     "Life/Faks/Matematika/matematika.md",
-    "Life/Faks/Matematika/todos/finish the college setup.md",
     "days/2024-10-28.md",
     "organizirati faks za novu godinu.md",
     "dataview.md",
@@ -225,10 +247,6 @@
     "Life/Faks/tasks/nova godina/nova godina.md",
     "Life/Faks/tasks/nova godina/organizirati Obsidian.md",
     "Life/Faks/tasks/nova godina/isplanirati polaganje predmeta.md",
-    "Life/Faks/tasks/nova godina/usporediti s Notion stranicom.md",
-    "Life/Faks/tasks/nova godina/organizirati faks za novu godinu.md",
-    "Life/Faks/tasks/nova godina/poslati mailove za upis na predmete.md",
-    "Untitled.canvas",
     "Life/Faks/Matematika/todos",
     "Life/Faks/Digitalna/todos",
     "Life/tasks/arhiva",
@@ -242,7 +260,6 @@
     "choose.canvas",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
-    "Untitled 1.canvas",
     "knowledge/concepts/CS/OOP/smalltalk/lawyer.png",
     "knowledge/concepts/CS/OOP/smalltalk/Smalltalk connections.canvas",
     "garbage/Pasted Image 20240722212258_372.jpg"

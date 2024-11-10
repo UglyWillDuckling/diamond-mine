@@ -6,7 +6,7 @@ kanban-plugin: board
 
 ## todo
 
-- [ ] review fizio
+- [ ] [[review fizio]] #task
 - [ ] [[registracija auta]]
 - [ ] [[organizirati faks za novu godinu]]
 

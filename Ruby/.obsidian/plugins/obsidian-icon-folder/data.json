@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiPointer",
+      "LiListTodo",
       "LiCalendarFold",
       "LiBook",
-      "LiPictureInPicture2",
-      "LiQuestionMarkGlyph",
-      "🔢"
+      "LiPictureInPicture2"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -84,9 +84,6 @@
     "iconName": "LiGroup",
     "iconColor": "#c2147a"
   },
-  "Life/Faks/tasks/nova godina/poslati mailove za upis na predmete.md": "📧",
-  "Life/Faks/tasks/nova godina/organizirati Obsidian.md": "♦",
-  "Life/Faks/tasks/nova godina": "⏭",
   "tasks": "LiClipboardCheck",
   "tasks/archive/see why yay won't update.md": "🌌",
   "tasks/dev/obsidian - organize folders.md": {
@@ -97,17 +94,11 @@
   "tasks/add some questions.md": "LiQuestionMarkGlyph",
   "Life/Faks": "🎒",
   "Life/Dev": "LiCodesandbox",
-  "Life/Faks/Digitalna/digitalan elektronika.md": "LiFileDigit",
-  "Life/Faks/Digitalna": "LiCircuitBoard",
   "Life/tasks": "LiCheck",
   "Life/tasks/arhiva/review Hugama studio.md": {
     "iconName": "LiPaintbrush",
     "iconColor": "#3086b0"
   },
-  "Life/Faks/Digitalna/todos": "LiCheckSquare2",
-  "Life/Faks/Digitalna/todos/finish the college setup.md": "LiBook",
-  "Life/Faks/Matematika": "🔢",
-  "Life/Faks/Matematika/todos": "LiCheckSquare2",
   "notes/questions?": {
     "iconName": "LiQuestionMarkGlyph",
     "iconColor": "#ff7e14"
@@ -135,5 +126,16 @@
   "days/2024-11-02.md": {
     "iconName": "LiCalendarFold",
     "iconColor": "#fff714"
-  }
+  },
+  "Life/Faks/TODO's": "LiListTodo",
+  "Life/Faks/TODO's/nova godina": "⏭",
+  "Life/Faks/TODO's/nova godina/organizirati Obsidian.md": "♦",
+  "Life/Faks/TODO's/nova godina/poslati mailove za upis na predmete.md": "📧",
+  "Life/Faks/Predmeti/Matematika": "🔢",
+  "Life/Faks/Predmeti/Matematika/todos": "LiCheckSquare2",
+  "Life/Faks/Predmeti/Digitalna": "LiCircuitBoard",
+  "Life/Faks/Predmeti/Digitalna/digitalan elektronika.md": "LiFileDigit",
+  "Life/Faks/Predmeti/Digitalna/todos": "LiCheckSquare2",
+  "Life/Faks/Predmeti/Digitalna/todos/finish the college setup.md": "LiBook",
+  "Life/Faks/Zanimljivo": "LiPointer"
 }

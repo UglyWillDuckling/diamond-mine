@@ -6,6 +6,8 @@
   "baseFontSizeAction": true,
   "baseFontSize": 13,
   "enabledCssSnippets": [
-    "remove_folder_icon"
+    "remove_folder_icon",
+    "tasks_padding",
+    "tree_padding"
   ]
 }

@@ -1,6 +1,6 @@
 
-- [x] @ Matematika
-- [ ] Osnove informatike
+- [x] @ [[Life/Faks/Predmeti/Matematika/Matematika|Matematika]]
+- [ ] [[Osnove informatike]]
 
 ## podaci
 

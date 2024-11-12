@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiTimer",
-      "LiPenTool",
-      "🦹‍♀️",
-      "LiTrainFront",
-      "LiMap"
+      "LiCrown",
+      "LiWholeWord",
+      "LiBookUser",
+      "LiClipboard",
+      "👟"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -349,7 +349,6 @@
   "work/Projects/CRM": "LiCrown",
   "work/Projects": "LiProjector",
   "work/tickets/chores/setup commit verification locally.md": "LiGitCommit",
-  "notes/installed git butler from source.md": "LiGithub",
   "notes/archive/you can color the headings too.md": {
     "iconName": "LiHeading",
     "iconColor": "#eb3dc5"
@@ -357,10 +356,22 @@
   "work/docs/backyard/Infra": "LiTrainFront",
   "work/docs/backyard/tools/Diabolocom.md": "🦹‍♀️",
   "Knowledge/tools/dev/js/fastify.md": "LiFastForward",
-  "notes/refactor movie controller.md": "LiCompass",
   "Knowledge/tools/dev/nvim/Trouble.md": "🚦",
   "notes/ideas and thoughts/adding tools looks to be quite useful.md": "LiPenTool",
   "work/tickets/chores/see how crons are handled on the backyard.md": "LiTimer",
   "work/docs/infra/PR's.md": "LiGitPullRequest",
-  "tasks/dev/remove scroll-forward mapping in nvim.md": "LiMap"
+  "tasks/dev/remove scroll-forward mapping in nvim.md": "LiMap",
+  "work/calls/SPRINT/Sprint Planning 11-11.md": "👟",
+  "notes/archive/installed git butler from source.md": "LiGithub",
+  "tasks/refactor movie controller.md": "LiCompass",
+  "Clippings": "LiClipboard",
+  "Clippings/Order James Baldwin books.md": {
+    "iconName": "LiBookUser",
+    "iconColor": "#9024ae"
+  },
+  "notes/wordery has much cheaper shipping.md": "LiWholeWord",
+  "work/calls/CRM": {
+    "iconName": "LiCrown",
+    "iconColor": "#d5c620"
+  }
 }

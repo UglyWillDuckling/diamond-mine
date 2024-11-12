@@ -2,12 +2,12 @@
   "snapStepMinutes": 10,
   "progressIndicator": "bar",
   "showTaskNotification": false,
-  "zoomLevel": 2,
+  "zoomLevel": 1,
   "timelineIcon": "calendar-with-checkmark",
   "endLabel": "All done",
-  "startHour": 6,
+  "startHour": 7,
   "timelineDateFormat": "YYYY-MM-DD",
-  "centerNeedle": false,
+  "centerNeedle": true,
   "plannerHeading": "Day planner",
   "plannerHeadingLevel": 1,
   "timelineColored": false,
@@ -15,7 +15,7 @@
   "timelineEndColor": "#4d194d",
   "timestampFormat": "HH:mm",
   "hourFormat": "H",
-  "dataviewSource": "",
+  "dataviewSource": "#task",
   "extendDurationUntilNext": false,
   "defaultDurationMinutes": 30,
   "minimalDurationMinutes": 10,
@@ -27,12 +27,19 @@
   "pluginVersion": "0.25.0",
   "showCompletedTasks": true,
   "showSubtasksInTaskBlocks": true,
-  "icals": [],
+  "icals": [
+    {
+      "name": "Google",
+      "email": "vladimir.sedlar-ext@aviv-group.com",
+      "url": "https://calendar.google.com/calendar/ical/vladimir.sedlar-ext%40aviv-group.com/public/basic.ics",
+      "color": "#409db0"
+    }
+  ],
   "colorOverrides": [],
   "releaseNotes": true,
   "taskStatusOnCreation": " ",
   "eventFormatOnCreation": "task",
   "sortTasksInPlanAfterEdit": false,
   "firstDayOfWeek": "monday",
-  "multiDayRange": "3-days"
+  "multiDayRange": "work-week"
 }

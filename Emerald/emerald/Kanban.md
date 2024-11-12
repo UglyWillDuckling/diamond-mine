@@ -25,21 +25,21 @@ color: var(--mk-color-orange)
 - [ ] [[Find what grug is about]]
 - [ ] explore [[mermaid.js]]
 - [ ] [[check presentation from AVIV about Pro tool]]
+- [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script #decorator #pattern
+- [ ] books on [[object orientation]] and design 📘 #book
 
 
 ## next ⏭
 
 - [ ] [[check for an ergonomic mouse]] #mouse
-- [ ] books on [[object orientation]] and design 📘 #book
 - [ ] [[Education/React/react|react]] study 🎒 #react
 - [ ] start [[Node]] education 🏫 #node
 - [ ] [[remove scroll-forward mapping in nvim]]
-- [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script #decorator #pattern
 
 
 ## active ⚔
 
-- [ ] [[build the model]] #model
+- [ ] [[work/tickets/FEAT/QSL listing/QSL listing|QSL listing]]
 - [/] [[see how to manage tasks]] ☑ #tasks
 - [ ] [[Explore quick add plugin]]
 - [ ] [[organize obsidian notes with dataview and folders]]
@@ -49,6 +49,8 @@ color: var(--mk-color-orange)
 ## finished
 
 **Complete**
+- [x] [[build the model]] #model
+- [x] [[remove old tree from in neovim]]
 
 
 ***

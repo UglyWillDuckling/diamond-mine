@@ -16,9 +16,10 @@ group by filename
 show tree
 ```
 
-## calls - upcoming and recent
+## calls
 - [x] #task don't show table if no results ✅ 2024-11-08
-- [ ] #task add recent calls table
+
+### upcoming  and today 📆
 
 ```dataviewjs
 const query = `
@@ -34,4 +35,14 @@ if (DQL.values.length > 0){
 } else {
 	dv.el("b", "no upcoming calls found");
 }
+```
+
+### recent ⌛
+
+```dataview
+TABLE WITHOUT ID
+file.link as call, file.day, regexreplace(file.folder, "^.*\/", "") AS Area
+FROM #work/call
+WHERE file.day AND file.day > date(today) - dur(10 day)  AND file.day < date(today)
+sort date DESC
 ```

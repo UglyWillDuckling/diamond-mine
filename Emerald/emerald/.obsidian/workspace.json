@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Order James Baldwin books.md",
+                "file": "2024-11-13.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Order James Baldwin books"
+              "title": "2024-11-13"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.5
+    "width": 200
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -113,10 +113,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/Order James Baldwin books.md"
+                "file": "2024-11-13.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Order James Baldwin books"
+              "title": "Outline of 2024-11-13"
             }
           },
           {
@@ -211,10 +211,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f5b6599b4611fe9b",
+  "active": "688b3d615137a273",
   "lastOpenFiles": [
-    "Clippings/GitHub - deathaumarkdownload A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file..md",
     "Clippings/Order James Baldwin books.md",
+    "Clippings/GitHub - deathaumarkdownload A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file..md",
     "2024-11-13.md",
     "work/tickets/FEAT/QSL listing/subs/study CSV export.md",
     "work/calls/CRM/Team CRM architecture sync.md",

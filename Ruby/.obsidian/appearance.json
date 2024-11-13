@@ -8,6 +8,7 @@
   "enabledCssSnippets": [
     "remove_folder_icon",
     "tasks_padding",
-    "tree_padding"
+    "tree_padding",
+    "remove_table_padding_dv"
   ]
 }

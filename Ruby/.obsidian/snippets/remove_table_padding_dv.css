@@ -1,0 +1,8 @@
+.markdown-rendered table, .markdown-rendered .table-view-table {
+    margin-bottom: 0;
+   }
+   
+   div.dataview-error-box {
+    width: 100%;
+    min-height: 0;
+   }

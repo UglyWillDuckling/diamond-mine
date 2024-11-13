@@ -9,6 +9,7 @@ kanban-plugin: board
 - [ ] [[review fizio]] #task
 - [ ] [[registracija auta]]
 - [ ] [[organizirati faks za novu godinu]]
+- [ ] [[setup obsidian repo on mobile]] #task
 
 
 ## active
@@ -18,12 +19,7 @@ kanban-plugin: board
 
 ## done
 
-- [x] Notion subscription
 - [x] poslati mail profesorici iz Matematike [[poslati mailove za upis na predmete]]
-- [x] try to remove the **default** folder icon 📁
-- [x] [[fix shortcuts on PC]]
-- [x] platiti porez
-- [x] hello @{2024-11-09}
 
 
 ***
@@ -35,6 +31,11 @@ kanban-plugin: board
 - [ ] investigate startup slow
 - [x] [[see why yay won't update]]
 - [x] [[review Hugama studio]]
+- [x] Notion subscription
+- [x] try to remove the **default** folder icon 📁
+- [x] [[fix shortcuts on PC]]
+- [x] hello @{2024-11-09}
+- [x] platiti porez
 
 %% kanban:settings
 ```

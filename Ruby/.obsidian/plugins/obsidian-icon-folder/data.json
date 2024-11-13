@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiPointer",
-      "LiListTodo",
-      "LiCalendarFold",
-      "LiBook",
-      "LiPictureInPicture2"
+      "LiTvMinimalPlay",
+      "LiMouse",
+      "LiFolders",
+      "LiTag",
+      "LiPointer"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -40,37 +40,15 @@
     "iconColor": "#716a6a"
   },
   "notes/archive": "LiArchive",
-  "knowledge": {
-    "iconName": "LiBrain",
-    "iconColor": "#29c797"
-  },
-  "knowledge/concepts": "🤔",
-  "knowledge/concepts/CS": "💽",
-  "knowledge/articles": "✍",
-  "knowledge/articles/archive": "LiArchiveX",
-  "knowledge/articles/archive/Tech is no substitute for depth 🤔.md": "🤖",
-  "knowledge/books": "📚",
-  "knowledge/repository": "📪",
-  "knowledge/repository/dev/cronie is required for cron to work.md": "LiTimer",
-  "knowledge/repository/dev/mermaid examples.md": {
-    "iconName": "LiFish",
-    "iconColor": "#db1a9e"
-  },
-  "knowledge/repository/dev": {
-    "iconName": "LiComputer",
-    "iconColor": "#31c1c4"
-  },
   "Board.md": {
     "iconName": "LiListTodo",
     "iconColor": "#b73838"
   },
-  "knowledge/questions": "LiQuestionMarkGlyph",
   "notes/archive/I should encrypt folders.md": "LiCode",
   "action.canvas": {
     "iconName": "LiStepForward",
     "iconColor": "#338dd1"
   },
-  "notes/obsidian/daily planner looks great.md": "LiCheckSquare2",
   "notes/archive/having a question list is a good idea.md": {
     "iconName": "LiQuestionMarkGlyph",
     "iconColor": "#e7cb13"
@@ -107,21 +85,7 @@
     "iconName": "LiPencilRuler",
     "iconColor": "#2ac4cf"
   },
-  "knowledge/tools": "🧰",
-  "knowledge/tools/obsidian": "LiDiamond",
-  "knowledge/tools/pc": "LiPcCase",
-  "knowledge/tools/pc/cron.md": "LiTimerReset",
-  "knowledge/tools/pc/mods": "🪄",
-  "knowledge/tools/pc/mods/mods --setttings.md": "🤖",
-  "days/2024-10-27.md": {
-    "iconName": "LiCalendar",
-    "iconColor": "#c6942a"
-  },
   "tasks/archive/fix shortcuts on PC.md": "🩳",
-  "days/2024-11-02.md": {
-    "iconName": "LiCalendarFold",
-    "iconColor": "#fff714"
-  },
   "Life/Faks/TODO's": "LiListTodo",
   "Life/Faks/TODO's/nova godina": "⏭",
   "Life/Faks/TODO's/nova godina/organizirati Obsidian.md": "♦",
@@ -136,5 +100,48 @@
   "tasks/archive/review Hugama studio.md": {
     "iconName": "LiPaintbrush",
     "iconColor": "#3086b0"
+  },
+  "notes/obsidian/obsidian might be better managed via tags.md": "LiTag",
+  "notes/questions?/what is the real difference between folders and tags?.md": "LiFolders",
+  "tasks/setup obsidian repo on mobile.md": "LiMouse",
+  "notes/archive/daily planner looks great.md": "LiCheckSquare2",
+  "days/2024/2024-10-27.md": {
+    "iconName": "LiCalendar",
+    "iconColor": "#c6942a"
+  },
+  "days/2024/2024-11-02.md": {
+    "iconName": "LiCalendarFold",
+    "iconColor": "#fff714"
+  },
+  "Knowledge": {
+    "iconName": "LiBrain",
+    "iconColor": "#29c797"
+  },
+  "Knowledge/articles": "✍",
+  "Knowledge/books": "📚",
+  "Knowledge/concepts": "🤔",
+  "Knowledge/questions": "LiQuestionMarkGlyph",
+  "Knowledge/repository": "📪",
+  "Knowledge/tools": "🧰",
+  "Knowledge/articles/archive": "LiArchiveX",
+  "Knowledge/concepts/CS": "💽",
+  "Knowledge/repository/dev": {
+    "iconName": "LiComputer",
+    "iconColor": "#31c1c4"
+  },
+  "Knowledge/tools/obsidian": "LiDiamond",
+  "Knowledge/tools/pc": "LiPcCase",
+  "Knowledge/articles/archive/Tech is no substitute for depth 🤔.md": "🤖",
+  "Knowledge/repository/dev/cronie is required for cron to work.md": "LiTimer",
+  "Knowledge/repository/dev/mermaid examples.md": {
+    "iconName": "LiFish",
+    "iconColor": "#db1a9e"
+  },
+  "Knowledge/tools/pc/cron.md": "LiTimerReset",
+  "Knowledge/tools/pc/mods": "🪄",
+  "Knowledge/tools/pc/mods/mods --setttings.md": "🤖",
+  "Knowledge/media": {
+    "iconName": "LiTvMinimalPlay",
+    "iconColor": "#f561a8"
   }
 }

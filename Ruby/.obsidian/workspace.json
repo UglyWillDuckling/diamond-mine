@@ -11,14 +11,34 @@
             "id": "94f3ac7be1890a2c",
             "type": "leaf",
             "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Board.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Board"
+            }
+          },
+          {
+            "id": "fa699c29334f16b4",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-11-13.md",
+                "file": "tasks/review fizio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-13"
+              "title": "review fizio"
             }
           }
         ]
@@ -77,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 370.5
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -139,10 +159,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-11-13.md"
+                "file": "Board.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-11-13"
+              "title": "Outline of Board"
             }
           },
           {
@@ -166,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -175,6 +195,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "quickadd:QuickAdd": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -189,14 +210,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "94f3ac7be1890a2c",
+  "active": "377a32c0e1ff69da",
   "lastOpenFiles": [
+    "Knowledge/Untitled",
+    "Knowledge/templates",
+    "Knowledge/Media",
+    "Knowledge",
     "tasks/review fizio.md",
-    "action.canvas",
     "Board.md",
-    "2024-11-13.md",
-    "2024-11-10.md",
+    "Knowledge/articles/archive/Tech is no substitute for depth 🤔.md",
+    "Life/Faks/Predmeti/Matematika/sto je tocno ovaj predmet.md",
+    "New board 🐻.md",
+    "Life/Faks/Predmeti/Matematika/Matematika.md",
+    "Life/Faks/TODO's/nova godina/usporediti s Notion stranicom.md",
+    "notes/obsidian/theme settings and the like.md",
+    "notes/questions?/what is the real difference between folders and tags?.md",
+    "Knowledge/media",
+    "notes/obsidian/obsidian might be better managed via tags.md",
+    "notes/archive/daily planner looks great.md",
+    "notes/ranger is actually quite good.md",
+    "notes/it's not easy to become one with 2 minds.md",
     "tasks/tasks.md",
+    "tasks/setup obsidian repo on mobile.md",
+    "2024-11-10.md",
+    "Untitled.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "2024-11-13.md",
+    "notes/scripts/movies.js",
+    "notes/scripts/BookFinder.js",
+    "notes/scripts",
+    "action.canvas",
     "tasks/archive/srediti troskovnik/srediti troskovnik.md",
     "tasks/archive/srediti troskovnik/actions.canvas",
     "Excalidraw/Drawing 2024-11-10 19.36.23.excalidraw.md",
@@ -206,35 +250,13 @@
     "Life/Faks/Profesori",
     "Life/Faks/Faks.md",
     "Life/People/Zeljko.md",
-    "Life/People",
-    "Life/Faks/Zanimljivo",
-    "Life/Faks/Predmeti",
-    "Life/Faks/Predmeti/Matematika/Matematika.md",
-    "Life/Faks/Predmeti/Matematika/materijali",
-    "Life/Faks/TODO's/nova godina/poslati mailove za upis na predmete.md",
-    "Life/Faks/TODO's/nova godina/usporediti s Notion stranicom.md",
-    "Life/Faks/Predmeti/Matematika/matematika.md",
-    "Life/Faks/TODO's/nova godina/nova godina.md",
-    "Life/Faks/Predmeti/Matematika/todos/finish the college setup.md",
-    "Life/Faks/Predmeti/Osnove informatike/Osnove informatike.md",
-    "tasks/archive/review Hugama studio.md",
-    "Life/Dev/tasks/use the timeline and daily tasks ✅.md",
-    "days/2024-11-07.md",
-    "days/2024-11-02.md",
-    "Untitled Kanban.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "tasks/add some questions.md",
-    "tasks/registracija auta.md",
-    "notes/it's not easy to become one with 2 minds.md",
-    "Life/Faks/Predmeti/Matematika/todos",
-    "Life/Faks/Predmeti/Digitalna/todos",
-    "Life/tasks/arhiva",
     "choose.canvas",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
-    "knowledge/concepts/CS/OOP/smalltalk/lawyer.png",
-    "knowledge/concepts/CS/OOP/smalltalk/Smalltalk connections.canvas",
+    "Knowledge/concepts/CS/OOP/smalltalk/lawyer.png",
+    "Knowledge/concepts/CS/OOP/smalltalk/Smalltalk connections.canvas",
     "garbage/Pasted Image 20240722212258_372.jpg"
   ]
 }

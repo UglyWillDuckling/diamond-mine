@@ -8,37 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "94f3ac7be1890a2c",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Board.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "Board"
-            }
-          },
-          {
             "id": "fa699c29334f16b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tasks/review fizio.md",
-                "mode": "source",
+                "file": "Knowledge/Books/Jane Eyre.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "review fizio"
+              "title": "Jane Eyre"
             }
           }
         ]
@@ -97,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.5
+    "width": 347.5
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -159,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Board.md"
+                "file": "Knowledge/Books/Jane Eyre.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Board"
+              "title": "Outline of Jane Eyre"
             }
           },
           {
@@ -210,46 +190,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "377a32c0e1ff69da",
+  "active": "fa699c29334f16b4",
   "lastOpenFiles": [
+    "Knowledge/repository/dev/cronie is required for cron to work.md",
+    "Knowledge/Books/Jane Eyre.md",
+    "Knowledge/tools/pc/systemd.md",
+    "Knowledge/Books/Untitled Kanban.md",
+    "Knowledge/Books/Never Let Me Go.md",
+    "notes/we could use Kanban for more than tasks.md",
+    "New board 🐻.md",
+    "Board.md",
+    "Knowledge/Media/movies/Fight Club.md",
+    "Knowledge/Media/movies/Starship Troopers.md",
+    "Knowledge/templates/book template.md",
+    "Knowledge/Books",
+    "Knowledge/Media/movies/Inception.md",
+    "2024-11-13.md",
+    "Knowledge/Media/movies/Terminator 2 Judgment Day.md",
+    "Knowledge/Media/movies",
+    "tasks/review fizio.md",
+    "Knowledge/templates/daily call template.md",
+    "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page.md",
+    "Knowledge/Media/Inception 1.md",
+    "Knowledge/Media/Inception1.md",
+    "Knowledge/Media",
+    "Knowledge/templates/tool.md",
+    "Knowledge/templates/movie.md",
     "Knowledge/Untitled",
     "Knowledge/templates",
-    "Knowledge/Media",
     "Knowledge",
-    "tasks/review fizio.md",
-    "Board.md",
-    "Knowledge/articles/archive/Tech is no substitute for depth 🤔.md",
+    "Knowledge/Articles/archive/Tech is no substitute for depth 🤔.md",
     "Life/Faks/Predmeti/Matematika/sto je tocno ovaj predmet.md",
-    "New board 🐻.md",
     "Life/Faks/Predmeti/Matematika/Matematika.md",
     "Life/Faks/TODO's/nova godina/usporediti s Notion stranicom.md",
     "notes/obsidian/theme settings and the like.md",
-    "notes/questions?/what is the real difference between folders and tags?.md",
-    "Knowledge/media",
-    "notes/obsidian/obsidian might be better managed via tags.md",
-    "notes/archive/daily planner looks great.md",
-    "notes/ranger is actually quite good.md",
-    "notes/it's not easy to become one with 2 minds.md",
-    "tasks/tasks.md",
-    "tasks/setup obsidian repo on mobile.md",
-    "2024-11-10.md",
-    "Untitled.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "2024-11-13.md",
+    "Knowledge/Media",
     "notes/scripts/movies.js",
     "notes/scripts/BookFinder.js",
     "notes/scripts",
     "action.canvas",
-    "tasks/archive/srediti troskovnik/srediti troskovnik.md",
     "tasks/archive/srediti troskovnik/actions.canvas",
-    "Excalidraw/Drawing 2024-11-10 19.36.23.excalidraw.md",
-    "Excalidraw",
-    "tasks/archive/srediti troskovnik",
-    "Life/Faks/TODO's/nova godina/organizirati Obsidian.md",
-    "Life/Faks/Profesori",
-    "Life/Faks/Faks.md",
-    "Life/People/Zeljko.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "choose.canvas",

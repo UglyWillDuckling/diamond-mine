@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBookTemplate",
+      "📘",
+      "🎥",
       "LiTvMinimalPlay",
-      "LiMouse",
-      "LiFolders",
-      "LiTag",
-      "LiPointer"
+      "LiMouse"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -117,13 +117,10 @@
     "iconName": "LiBrain",
     "iconColor": "#29c797"
   },
-  "Knowledge/articles": "✍",
-  "Knowledge/books": "📚",
   "Knowledge/concepts": "🤔",
   "Knowledge/questions": "LiQuestionMarkGlyph",
   "Knowledge/repository": "📪",
   "Knowledge/tools": "🧰",
-  "Knowledge/articles/archive": "LiArchiveX",
   "Knowledge/concepts/CS": "💽",
   "Knowledge/repository/dev": {
     "iconName": "LiComputer",
@@ -131,7 +128,6 @@
   },
   "Knowledge/tools/obsidian": "LiDiamond",
   "Knowledge/tools/pc": "LiPcCase",
-  "Knowledge/articles/archive/Tech is no substitute for depth 🤔.md": "🤖",
   "Knowledge/repository/dev/cronie is required for cron to work.md": "LiTimer",
   "Knowledge/repository/dev/mermaid examples.md": {
     "iconName": "LiFish",
@@ -140,8 +136,15 @@
   "Knowledge/tools/pc/cron.md": "LiTimerReset",
   "Knowledge/tools/pc/mods": "🪄",
   "Knowledge/tools/pc/mods/mods --setttings.md": "🤖",
-  "Knowledge/media": {
+  "Knowledge/Media": {
     "iconName": "LiTvMinimalPlay",
     "iconColor": "#f561a8"
-  }
+  },
+  "Knowledge/Media/movies": "🎥",
+  "Knowledge/Books": "📚",
+  "Knowledge/Articles": "✍",
+  "Knowledge/Articles/archive": "LiArchiveX",
+  "Knowledge/Articles/archive/Tech is no substitute for depth 🤔.md": "🤖",
+  "Knowledge/Books/Never Let Me Go.md": "📘",
+  "Knowledge/templates": "LiBookTemplate"
 }

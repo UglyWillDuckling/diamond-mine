@@ -73,13 +73,6 @@
       "macroId": "61dfedc0-d41f-4074-a5ee-fed304e06ef9"
     },
     {
-      "id": "84fd25f1-b7ad-42c0-bf3c-4ee1ad046c4d",
-      "name": "Book",
-      "type": "Macro",
-      "command": true,
-      "macroId": "144aa37e-dcdf-4542-b1fc-82f0e0f0245c"
-    },
-    {
       "id": "28b2ee83-9521-431e-944d-9c019ffb364b",
       "name": "movie🎬",
       "type": "Macro",
@@ -119,27 +112,14 @@
   ],
   "macros": [
     {
-      "name": "Book",
-      "id": "144aa37e-dcdf-4542-b1fc-82f0e0f0245c",
-      "commands": [
-        {
-          "name": "BookFinder📕",
-          "type": "Choice",
-          "id": "e23ac2d7-8b2f-42e7-827c-8cd1dc54d916",
-          "choiceId": "f64b73ca-b341-422f-83ac-08cf48d5f1e5"
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
       "name": "BookFinder",
       "id": "61dfedc0-d41f-4074-a5ee-fed304e06ef9",
       "commands": [
         {
           "name": "BookFinder",
           "type": "UserScript",
-          "id": "c59cbb8a-3b59-494b-9ff7-e1a1eeaa356e",
-          "path": "BookFinder.js",
+          "id": "57c60d7a-74e8-4453-87ee-2ed166f3bd7b",
+          "path": "notes/scripts/BookFinder.js",
           "settings": {}
         },
         {
@@ -151,7 +131,7 @@
             "name": "book template",
             "type": "Template",
             "command": false,
-            "templatePath": "notes/templates/book template.md",
+            "templatePath": "Knowledge/templates/book template.md",
             "fileNameFormat": {
               "enabled": true,
               "format": "{{VALUE:title}}"
@@ -210,7 +190,7 @@
             "folder": {
               "enabled": true,
               "folders": [
-                "Knowledge/Media"
+                "Knowledge/Media/movies"
               ],
               "chooseWhenCreatingNote": false,
               "createInSameFolderAsActiveFile": false,

@@ -14,3 +14,7 @@ TABLE FROM #thought AND #active
 
 ## notes
 
+```dataview
+LIST FROM #note AND #active
+```
+

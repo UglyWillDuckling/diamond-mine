@@ -94,11 +94,6 @@
   "tasks/add some questions.md": "LiQuestionMarkGlyph",
   "Life/Faks": "🎒",
   "Life/Dev": "LiCodesandbox",
-  "Life/tasks": "LiCheck",
-  "Life/tasks/arhiva/review Hugama studio.md": {
-    "iconName": "LiPaintbrush",
-    "iconColor": "#3086b0"
-  },
   "notes/questions?": {
     "iconName": "LiQuestionMarkGlyph",
     "iconColor": "#ff7e14"
@@ -137,5 +132,9 @@
   "Life/Faks/Predmeti/Digitalna/digitalan elektronika.md": "LiFileDigit",
   "Life/Faks/Predmeti/Digitalna/todos": "LiCheckSquare2",
   "Life/Faks/Predmeti/Digitalna/todos/finish the college setup.md": "LiBook",
-  "Life/Faks/Zanimljivo": "LiPointer"
+  "Life/Faks/Zanimljivo": "LiPointer",
+  "tasks/archive/review Hugama studio.md": {
+    "iconName": "LiPaintbrush",
+    "iconColor": "#3086b0"
+  }
 }

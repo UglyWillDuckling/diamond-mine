@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing/subs/study CSV export.md",
+                "file": "Clippings/Order James Baldwin books.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "study CSV export"
+              "title": "Order James Baldwin books"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5,
-    "collapsed": true
+    "width": 269.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -114,10 +113,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing/subs/study CSV export.md"
+                "file": "Clippings/Order James Baldwin books.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of study CSV export"
+              "title": "Outline of Order James Baldwin books"
             }
           },
           {
@@ -214,10 +213,13 @@
   },
   "active": "f5b6599b4611fe9b",
   "lastOpenFiles": [
+    "Clippings/GitHub - deathaumarkdownload A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file..md",
+    "Clippings/Order James Baldwin books.md",
+    "2024-11-13.md",
+    "work/tickets/FEAT/QSL listing/subs/study CSV export.md",
     "work/calls/CRM/Team CRM architecture sync.md",
     "work/calls/calls.md",
     "work/tickets/FEAT/QSL listing/subs/check the diagram from Paulo.md",
-    "work/tickets/FEAT/QSL listing/subs/study CSV export.md",
     "work/tickets/FEAT/QSL listing/QSL listing.md",
     "2024-11-12.md",
     "work/work.md",
@@ -235,14 +237,11 @@
     "work/docs/backyard/Infra/envs",
     "Knowledge/Books/Galápagos (novel) - Wikipedia.md",
     "people/James Baldwin.md",
-    "Clippings/Order James Baldwin books.md",
-    "Clippings/GitHub - deathaumarkdownload A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file..md",
     "notes/wordery has much cheaper shipping.md",
     "Clippings",
     "notes/A Set should accept an optional comparison commnad.md",
     "tasks/refactor movie controller.md",
     "notes/archive/fixed missing network settings.md",
-    "tasks/tasks.md",
     "work/docs/infra",
     "work/people and teams/LUNA/Screenshot_20241107_140216.png",
     "Knowledge/tools/dev/shell",

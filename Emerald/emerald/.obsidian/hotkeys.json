@@ -189,5 +189,13 @@
       ],
       "key": "L"
     }
+  ],
+  "editor:insert-wikilink": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "K"
+    }
   ]
 }

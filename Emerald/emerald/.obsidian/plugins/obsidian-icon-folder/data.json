@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiMouse",
+      "LiHeading",
+      "LiEqualNot",
       "LiCrown",
-      "LiWholeWord",
-      "LiBookUser",
-      "LiClipboard",
-      "👟"
+      "LiWholeWord"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -157,7 +157,6 @@
   "work/notes/db restore.md": "LiDatabase",
   "work/notes/archive/MA dev env URL.md": "LiCurlyBraces",
   "tasks/archive/add keywords to TODO.md": "LiWholeWord",
-  "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/project.md": "LiProjector",
   "tasks/dev/take a look at the PR plugin for nvim.md": {
     "iconName": "LiGitPullRequest",
     "iconColor": "#8e30a1"
@@ -373,5 +372,9 @@
   "work/calls/CRM": {
     "iconName": "LiCrown",
     "iconColor": "#d5c620"
-  }
+  },
+  "notes/A Set should accept an optional comparison commnad.md": "LiEqualNot",
+  "notes/questions/how to delete everything under a header?.md": "LiHeading",
+  "work/docs/concepts/project.md": "LiProjector",
+  "notes/questions/how to remove items from the left click menu.md": "LiMouse"
 }

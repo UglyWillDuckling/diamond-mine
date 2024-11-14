@@ -58,5 +58,11 @@
     "color": "255, 142, 36",
     "custom": true,
     "icon": "lucide-axe"
+  },
+  {
+    "char": "'i",
+    "color": "61, 192, 194",
+    "icon": "lucide-info",
+    "custom": true
   }
 ]

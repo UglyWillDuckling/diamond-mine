@@ -1,6 +1,6 @@
 #question #active
 
-## questions
+## questions 😕
 
 ```dataview
 TABLE FROM #question AND #active
@@ -9,12 +9,11 @@ TABLE FROM #question AND #active
 ## thoughts 🤔
 
 ```dataview
-TABLE FROM #thought AND #active
+LIST FROM #thought AND #active
 ```
 
-## notes
+## notes 🗒
 
 ```dataview
 LIST FROM #note AND #active
 ```
-

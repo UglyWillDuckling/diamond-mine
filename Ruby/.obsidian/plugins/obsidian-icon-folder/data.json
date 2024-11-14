@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "💭",
       "LiBookTemplate",
       "📘",
       "🎥",
-      "LiTvMinimalPlay",
-      "LiMouse"
+      "LiTvMinimalPlay"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -146,5 +146,6 @@
   "Knowledge/Articles/archive": "LiArchiveX",
   "Knowledge/Articles/archive/Tech is no substitute for depth 🤔.md": "🤖",
   "Knowledge/Books/Never Let Me Go.md": "📘",
-  "Knowledge/templates": "LiBookTemplate"
+  "Knowledge/templates": "LiBookTemplate",
+  "Life/Dev/notes/more things should be shared between vaults.md": "💭"
 }

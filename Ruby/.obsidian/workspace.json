@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Books/Jane Eyre.md",
-                "mode": "preview",
+                "file": "New board 🐻.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Jane Eyre"
+              "title": "New board 🐻"
+            }
+          },
+          {
+            "id": "ff0bb2a9b23a8dc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Life/Dev/notes/more things should be shared between vaults.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "more things should be shared between vaults"
             }
           }
         ]
@@ -77,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 328.5
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -139,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Books/Jane Eyre.md"
+                "file": "New board 🐻.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Jane Eyre"
+              "title": "Outline of New board 🐻"
             }
           },
           {
@@ -192,13 +206,16 @@
   },
   "active": "fa699c29334f16b4",
   "lastOpenFiles": [
-    "Knowledge/repository/dev/cronie is required for cron to work.md",
+    "Life/Dev/notes/more things should be shared between vaults.md",
+    "New board 🐻.md",
+    "Life/Dev/tasks/use the timeline and daily tasks ✅.md",
+    "Life/Dev/notes",
     "Knowledge/Books/Jane Eyre.md",
+    "Knowledge/repository/dev/cronie is required for cron to work.md",
     "Knowledge/tools/pc/systemd.md",
     "Knowledge/Books/Untitled Kanban.md",
     "Knowledge/Books/Never Let Me Go.md",
     "notes/we could use Kanban for more than tasks.md",
-    "New board 🐻.md",
     "Board.md",
     "Knowledge/Media/movies/Fight Club.md",
     "Knowledge/Media/movies/Starship Troopers.md",
@@ -222,12 +239,9 @@
     "Knowledge/Articles/archive/Tech is no substitute for depth 🤔.md",
     "Life/Faks/Predmeti/Matematika/sto je tocno ovaj predmet.md",
     "Life/Faks/Predmeti/Matematika/Matematika.md",
-    "Life/Faks/TODO's/nova godina/usporediti s Notion stranicom.md",
-    "notes/obsidian/theme settings and the like.md",
     "Knowledge/Media",
     "notes/scripts/movies.js",
     "notes/scripts/BookFinder.js",
-    "notes/scripts",
     "action.canvas",
     "tasks/archive/srediti troskovnik/actions.canvas",
     "Untitled 1.canvas",

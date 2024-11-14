@@ -1,0 +1,1 @@
+#idea #thought #note #active 

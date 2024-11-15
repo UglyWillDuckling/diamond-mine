@@ -35,6 +35,7 @@ color: var(--mk-color-orange)
 - [ ] [[Education/React/react|react]] study 🎒 #react
 - [ ] start [[Node]] education 🏫 #node
 - [ ] [[remove scroll-forward mapping in nvim]]
+- [ ] create day template
 
 
 ## active ⚔

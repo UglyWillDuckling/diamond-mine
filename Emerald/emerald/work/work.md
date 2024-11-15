@@ -9,7 +9,7 @@ tags:
 
 ```tasks
 not done
-path includes work/tickets
+path includes work
 sort by path
 sort by priority
 group by filename
@@ -17,7 +17,6 @@ show tree
 ```
 
 ## calls
-- [x] #task don't show table if no results ✅ 2024-11-08
 
 ### upcoming  and today 📆
 
@@ -46,3 +45,8 @@ FROM #work/call
 WHERE file.day AND file.day > date(today) - dur(10 day)  AND file.day < date(today)
 sort date DESC
 ```
+
+### unsorted
+
+- [x] #task 📅 2024-11-14  [[fix Dockerfile]] ✅ 2024-11-14
+- [ ] ...

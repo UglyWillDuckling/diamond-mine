@@ -1,7 +1,12 @@
-## status
-<mark style="background: #FFB8EBA6;">submitted</mark> a `draft` **PR**
-working on tests
-need to `commit` changes
+
+## all todos
+> includes subfolders
+
+```tasks
+not done
+path includes {{query.file.path}}
+show tree
+```
 
 ## todos ✔
 - [ ] #task update table docs - missing `columns`
@@ -14,7 +19,8 @@ need to `commit` changes
 	- [x] #task [[#end date test]] ✅ 2024-11-12
 	- [x] #task add rendering test for the new listing 📅 2024-11-07
 	- [x] add missing columns #task 📅 2024-11-08 ✅ 2024-11-08
-	- [ ] URL generation [[how to create links for Se Loger]]
+	- [ ] URL generation [[how to create links for Se Loger]] #task 
+	- [x] update schema #task with nullables ✅ 2024-11-14
 - [x] #task fix issue with docker-compose ✅ 2024-11-08
 	- [[make test not working]]
 - [x] [[write the table docs]] #task 📅 2024-11-07 ✅ 2024-11-06
@@ -24,25 +30,20 @@ need to `commit` changes
 	- [ ] #task [[check the diagram from [[Paulo]]]]
 - [x] see 🙈 if we could use the [[project]] as the source for the [[place]] entity
 - [ ] support for `optional` fields #task 📅 2024-11-14 
-	- [/] #task update constructor and creation
-	- [ ] #task update relevant methods
+	- [x] #task update constructor and creation ✅ 2024-11-14
+	- [x] #task update relevant methods ✅ 2024-11-14
 		- 'i try to use data that is **always there**
 	- [!] update tests again
-- [ ] #task `picture data` method
+- [x] #task `picture data` method ✅ 2024-11-14
 - [/] 't update tests with correct values from DB #task
 	- data needs to match with **actual** entities
 	- the entities should also be **linked** properly
 
-### end date test 📆
-```php
-expect($listing->is_online())->toBeFalse();
-expect($listing->is_offline())->toBeTrue();
-```
-- [x] add the opposite test ◀
-
 ### <mark style="background: #FFB8EBA6;">current</mark>
-
-- [x] commit place related changes
-- [/] start work on `optional` stuff
+- [ ] **update** tasks
+- [x] start work on `optional` stuff
 	- @ use what constant fields you can
+- [/] implement `picture data`
+	- [x] implement method
+	- [ ] 't add tests
 

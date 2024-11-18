@@ -35,7 +35,8 @@
               "title": "more things should be shared between vaults"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -153,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "New board 🐻.md"
+                "file": "Life/Dev/notes/more things should be shared between vaults.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of New board 🐻"
+              "title": "Outline of more things should be shared between vaults"
             }
           },
           {
@@ -204,10 +205,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fa699c29334f16b4",
+  "active": "ff0bb2a9b23a8dc3",
   "lastOpenFiles": [
-    "Life/Dev/notes/more things should be shared between vaults.md",
     "New board 🐻.md",
+    "Life/Dev/notes/more things should be shared between vaults.md",
     "Life/Dev/tasks/use the timeline and daily tasks ✅.md",
     "Life/Dev/notes",
     "Knowledge/Books/Jane Eyre.md",

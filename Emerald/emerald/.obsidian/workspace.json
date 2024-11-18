@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "ff7b8cb06739ceb5",
+        "id": "336acb1085c5106b",
         "type": "tabs",
         "children": [
           {
-            "id": "46f7c831c7d30b1a",
+            "id": "fc22a26dd59c4884",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-11-15.md",
+                "file": "events table.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-15"
-            }
-          },
-          {
-            "id": "f9b95135e76bcfa4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Update Diabolocom deprecated csv file export.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Update Diabolocom deprecated csv file export"
+              "title": "events table"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,12 +74,11 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -112,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Update Diabolocom deprecated csv file export.md",
+                "file": "events table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Update Diabolocom deprecated csv file export"
+              "title": "Backlinks for events table"
             }
           },
           {
@@ -145,10 +128,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Update Diabolocom deprecated csv file export.md"
+                "file": "events table.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Update Diabolocom deprecated csv file export"
+              "title": "Outline of events table"
             }
           },
           {
@@ -159,6 +142,43 @@
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
+            }
+          },
+          {
+            "id": "f340fa3de35edf54",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f0470841fc63470d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "214f1bbe450b51fa",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
             }
           }
         ],
@@ -192,9 +212,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f9b95135e76bcfa4",
+  "active": "fc22a26dd59c4884",
   "lastOpenFiles": [
+    "Knowledge/tools/dev/csvlook.md",
+    "Knowledge/tools/dev/csvkit.md",
+    "events table.md",
     "Update Diabolocom deprecated csv file export.md",
+    "2024-11-18.md",
     "2024-11-15.md",
     "days/2024-11-14.md",
     "Knowledge/templates/day.md",
@@ -216,10 +240,6 @@
     "Clippings/Order James Baldwin books.md",
     "Clippings/GitHub - deathaumarkdownload A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file..md",
     "work/tickets/FEAT/QSL listing/subs/study CSV export.md",
-    "work/calls/CRM/Team CRM architecture sync.md",
-    "work/calls/calls.md",
-    "work/tickets/FEAT/QSL listing/subs/check the diagram from Paulo.md",
-    "2024-11-12.md",
     "Action.canvas",
     "work/docs/backyard/Infra/envs",
     "Clippings",

@@ -33,29 +33,30 @@ LIMIT 500;
 ```
 
 ## notes 📔
-- the `script` itself could be run via the browser
-- we can just delete the existing db table entries in order to rerun the script
-
+- <mark style="background: #FFF3A3A6;">the `script` itself can be run via the browser</mark>
+- we can just delete the existing db table entries in order to `rerun` the script
 
 ## <mark style="background: #ABF7F7A6;">questions</mark>
 
-- ? for how long is the calling data relevant?
+- ? for how long is the calling data **relevant**?
 	- does the entire history need to be consistent?
 
 ## todo's
-- [ ] #task Diabolocom update deprecated CSV export 📅 2024-11-19 
+- [/] #task Diabolocom update deprecated CSV export 📅 2024-11-19 
 	- [x] examine the data first #task
 	- [x] try out the script first #task
-	- [/] #task update filename 📅 2024-11-15 ✅ 2024-11-15
-	- [ ] #task [[#verify fields]]
-		- [ ] update mappings as needed
-		- [!] #task check if data is for the day
-	- [ ] #task **plan** on how to update the `codebase` 📅 2024-11-18 
-		- [ ] refactor
-		- [!] error logic and error handling
-		- [ ] logging
-- [x] #task fix build on [[Jenkins]] : [pipe](https://jenkins.ma-backbone.net/blue/organizations/jenkins/malegacy/detail/malegacy/2104/pipeline) ✅ 2024-11-15
-- [ ] #task update JIRA ticket with info
+	- [x] #task update filename 📅 2024-11-15 ✅ 2024-11-19
+	- [x] #task [[#verify fields]] ✅ 2024-11-19
+		- [x] update mappings as needed
+		- [x] #task check if data is for the day ✅ 2024-11-19
+- [/] #task check [[#duration]] column values ✅ 2024-11-19
+- [x] #task think about importing the CSV data as the data coming from the API in a **test** ✅ 2024-11-19
+	- [x] pass in the `api client`
+	- [x] use a `fake class` for testing
+		- [x] have it use the `CSV` data
+- [ ] #task add error handling for the API
+	- [ ] logging
+- [ ] 🤔 think about refactoring the import outside of the model class #task 
 
 ### examine the existing db data
 - [x] check the data
@@ -84,16 +85,58 @@ LIMIT 500;
 
 ### <mark style="background: #ABF7F7A6;">verify</mark> fields
 - [x] **ensure** all the `required` fields <mark style="background: #BBFABBA6;">exist</mark>
-- [/] check all the field `mappings` are <mark style="background: #BBFABBA6;">correct</mark>
+- [x] check all the field `mappings` are <mark style="background: #BBFABBA6;">correct</mark>
 	- [x] check the fields in import 
-	- [/] check the fields in `CSV`
-		- [/] events
-		- [ ] status
+	- [x] check the fields in `CSV`
+		- [x] events
+		- [x] status
 - [x] check that the data is for the same day
 
 - [[events table]]
 
 #### events fields
 
-## current
-- <mark style="background: #FFF3A3A6;">created</mark> the list of new and updated fields for the events(status_detail) `fields`
+### duration ⏲
+
+┌──────────┬────|
+│  duration│old_duration│
+├──────────┼────|
+│ 6138244│ 6138│
+│ 7387747│ 7388│
+│ 4583082│4583│
+│ 2024955│2025│
+
+--- start-multi-column: ID_1lw8
+```column-settings
+Number of Columns: 2
+Largest Column: standard
+```
+
+- [x] check existing db data
+- [x] check `CSV` again
+- [/] update import code
+	- [/] convert `milliseconds` to `seconds`
+	- [ ] check
+
+--- column-break ---
+
+### notes ☑
+- <mark style="background: #FFB86CA6;">the durations are currently in seconds</mark>
+	- the existing logic is built around this
+- CSV duration data looks to be in `milliseconds`
+
+--- end-multi-column
+
+```php
+$adr->duration = (int)round($row->duration / 1000);
+```
+
+## current ♨
+
+PR is done https://github.com/MeilleursAgents/MeilleursAgents/pull/10805
+
+- ==need to add error handling for API errors==
+
+### ideas
+- 'i some `refactorings` are still possible
+- maybe we could separate the update logic into a **distinct** **class** and simplify the logic within

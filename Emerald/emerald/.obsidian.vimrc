@@ -240,8 +240,8 @@ onoremap rp }
 vnoremap rp }
 onoremap m t]
 vnoremap m t]
-onoremap w t"
-vnoremap w t"
+" onoremap w t"
+" vnoremap w t"
 
 """"""""""""""""""""""
 " Substitute
@@ -317,10 +317,6 @@ nnoremap ZZ :closeWindow
 " Split
 exmap splitVertical obcommand workspace:split-vertical
 nnoremap <C-w>v :splitVertical<CR>
-
-" Split Switching
-exmap nextSplit obcommand workspace:cycle-through-panes
-nnoremap <C-s> :nextSplit<CR>
 
 " Tabs
 exmap nextTab obcommand workspace:next-tab

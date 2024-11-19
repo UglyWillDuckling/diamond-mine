@@ -19,13 +19,15 @@ async function start(e, t) {
         if (!t) throw notice("No choice selected."), new Error("No choice selected.");
         n = await getByImdbId(t.imdbID)
     }
+
+    console.error(n)
     QuickAdd.variables = {
         ...n,
         imdbUrl: IMDB_BASE_URL + n.imdbID,
         Released: formatDateString(n.Released)
-        , actorLinks: linkifyList(n.Actors.split(" , "))
-        , genreLinks: linkifyList(n.Genre.split(" , "))
-        , directorLink: linkifyList(n.Director.split(" , "))
+        , actorLinks: linkifyList(n.Actors.split(","))
+        , genreLinks: linkifyList(n.Genre.split(","))
+        , directorLink: linkifyList(n.Director.split(","))
         , fileName: replaceIllegalFileNameCharactersInString(n.Title)
         , typeLink: `[[${"movie" === n.Type ? "Movies" : "Series"}]]`
         , languageLower: n.Language.toLowerCase()
@@ -33,7 +35,9 @@ async function start(e, t) {
 }
 
 function isImdbId(e) { return /^tt\d+$/.test(e) }
+
 function formatTitleForSuggestion(e) { return `(${"movie" === e.Type ? "M" : "TV"}) ${e.Title} (${e.Year})` }
+
 function formatDateString(e) {
     const [t, i, n] = e.split(" "),
         r = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"].indexOf(i),
@@ -51,7 +55,13 @@ async function getByImdbId(e) {
     const t = await apiGet(API_URL, { i: e });
     if (!t) throw notice("No results found."), new Error("No results found.");
     return t
-} function linkifyList(e) { return 0 === e.length ? "" : 1 === e.length ? `\n  - "[[${e[0]}]]"` : e.map((e => `\n  - "[[${e.trim()}]]"`)).join("") } function replaceIllegalFileNameCharactersInString(e) { return e.replace(/[\\,#%&\{\}\/*<>$\'\":@]*/g, "") }
+}
+
+function linkifyList(e) {
+    return 0 === e.length ? "" : 1 === e.length ? `\n  - [[${e[0]}]]` : e.map((e => `\n  - [[${e.trim()}]]`)).join("")
+}
+
+function replaceIllegalFileNameCharactersInString(e) { return e.replace(/[\\,#%&\{\}\/*<>$\'\":@]*/g, "") }
 
 async function apiGet(e, t) {
     let i = new URL(e);

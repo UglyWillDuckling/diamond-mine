@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiTestTube2",
+      "🧛",
       "LiMouse",
       "LiHeading",
-      "LiEqualNot",
-      "LiCrown",
-      "LiWholeWord"
+      "LiEqualNot"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -83,7 +83,6 @@
   "Education/React/React Router": "LiRoute",
   "work/calls/pair programming/pair programming call - 2024-09-17.md": "LiKeyboard",
   "work/calls/pair programming": "LiKeyboard",
-  "work/tickets/chores/Diabolocom - legacy cleanup.md": "🦹",
   "work/tickets/archive": "LiArchiveX",
   "work/tickets/chores": "LiShovel",
   "work/tickets/FEAT": "LiStars",
@@ -116,10 +115,6 @@
   "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/study estima processing.md": "🎓",
   "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md": "🟩",
   "work/tickets/FEAT/Project creation from Lead/subs/archive/Gather information on the transition.md": "ℹ",
-  "work/notes/LUNA team has its own argocd pipeline setup.md": {
-    "iconName": "LiMoon",
-    "iconColor": "#878787"
-  },
   "tasks/archive/ask about features on the CRM.md": "LiQuestionMarkGlyph",
   "tasks/work": "LiHardHat",
   "Education/experiments/obsidian/columns.md": "LiColumns",
@@ -154,7 +149,6 @@
     "iconName": "LiLayout",
     "iconColor": "#dd731d"
   },
-  "work/notes/db restore.md": "LiDatabase",
   "work/notes/archive/MA dev env URL.md": "LiCurlyBraces",
   "tasks/archive/add keywords to TODO.md": "LiWholeWord",
   "tasks/dev/take a look at the PR plugin for nvim.md": {
@@ -376,5 +370,17 @@
   "notes/A Set should accept an optional comparison commnad.md": "LiEqualNot",
   "notes/questions/how to delete everything under a header?.md": "LiHeading",
   "work/docs/concepts/project.md": "LiProjector",
-  "notes/questions/how to remove items from the left click menu.md": "LiMouse"
+  "notes/questions/how to remove items from the left click menu.md": "LiMouse",
+  "work/tickets/archive/Diabolocom - legacy cleanup.md": "🦹",
+  "work/tickets/chores/Update Diabolocom deprecated csv file export.md": "🧛",
+  "work/notes/test - test on backyard have 2 db's.md": {
+    "iconName": "LiTestTube2",
+    "iconColor": "#218358"
+  },
+  "work/notes/test are run using a test Makefile.md": "LiTestTube2",
+  "work/notes/archive/LUNA team has its own argocd pipeline setup.md": {
+    "iconName": "LiMoon",
+    "iconColor": "#878787"
+  },
+  "work/notes/archive/db restore.md": "LiDatabase"
 }

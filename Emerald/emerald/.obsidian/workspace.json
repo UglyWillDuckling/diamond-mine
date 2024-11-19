@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "336acb1085c5106b",
+        "id": "33dfb513df2d5586",
         "type": "tabs",
         "children": [
           {
-            "id": "fc22a26dd59c4884",
+            "id": "026fd0767d0f306c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "events table.md",
+                "file": "2024-11-19.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "events table"
+              "title": "2024-11-19"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#work",
+                "query": "remind",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 317.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -128,10 +127,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "events table.md"
+                "file": "2024-11-19.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of events table"
+              "title": "Outline of 2024-11-19"
             }
           },
           {
@@ -212,35 +211,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fc22a26dd59c4884",
+  "active": "026fd0767d0f306c",
   "lastOpenFiles": [
-    "Knowledge/tools/dev/csvlook.md",
-    "Knowledge/tools/dev/csvkit.md",
-    "events table.md",
-    "Update Diabolocom deprecated csv file export.md",
-    "2024-11-18.md",
-    "2024-11-15.md",
-    "days/2024-11-14.md",
-    "Knowledge/templates/day.md",
-    "Knowledge/templates/daily call template.md",
-    "Kanban.md",
-    "work/calls/DAILY/2024-11-14 daily.md",
-    "days/Current or active.md",
-    "work/calls/DAILY/2024-11-15 daily.md",
-    "work/tickets/FEAT/QSL listing/QSL listing.md",
-    "work/docs/concepts/QSL listing.md",
-    "work/work.md",
-    "work/bugs/fix Dockerfile.md",
-    "Clippings/Started Using the Obsidian Tasks Plugin  λ ryan. himmelwright. net.md",
-    "days/2024-11-12.md",
-    "days/2024-11-13.md",
-    "notes/questions/how to create a note from a task.md",
-    "work/docs/backyard/tools/Diabolocom.md",
-    "work/calls/DAILY/2024-11-13 daily.md",
-    "Clippings/Order James Baldwin books.md",
-    "Clippings/GitHub - deathaumarkdownload A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file..md",
-    "work/tickets/FEAT/QSL listing/subs/study CSV export.md",
     "Action.canvas",
+    "Kanban.md",
+    "Clippings/RD320U｜32” 4K BenQ Programming Monitor with Backlight.md",
+    "check the Benq monitor.md",
+    "work/tickets/chores/Update Diabolocom deprecated csv file export.md",
+    "Clippings/Best Monitor for Programming Clear Code, Full Focus.md",
+    "work/notes/test are run using a test Makefile.md",
+    "work/notes/test - test on backyard have 2 db's.md",
+    "work/notes/archive/db restore.md",
+    "work/notes/archive/backyard-tassk.md",
+    "work/notes/archive/lost time.md",
+    "notes/discovery/obsidian/plugins/PLN theme settings and more.md",
+    "work/calls/backyard/Matching QSL project & SL listing + Display for BY users - Clarifications.md",
+    "tasks/you can list all yanks using <leader-p>.md",
+    "tasks/2024-11-26.md",
+    "days/2024/2024-10-18.md",
+    "work/calls/DAILY/2024-11-19 daily.md",
+    "2024-11-19.md",
+    "work/work.md",
+    "work/calls/calls.md",
+    "work/calls/CRM/Team CRM architecture sync.md",
+    "work/calls/CRM/SLMP call.md",
+    "work/calls/CRM/Seller Lead CRM - User test results.md",
+    "work/calls/CRM/CRM - introduction to Design.md",
+    "work/calls/backyard/Follow up call on estimation funnel.md",
+    "work/calls/DAILY/2024-11-15 daily.md",
+    "movies.js~",
     "work/docs/backyard/Infra/envs",
     "Clippings",
     "work/docs/infra",
@@ -248,7 +247,6 @@
     "Knowledge/tools/dev/shell",
     "work/docs/backyard/Infra",
     "work/calls/DAILY/2024",
-    "movies.js~",
     "movies.js",
     "work/tasksCalendar/view.css~",
     "work/tasksCalendar/view.js~",

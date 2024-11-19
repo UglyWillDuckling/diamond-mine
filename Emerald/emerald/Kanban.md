@@ -36,6 +36,8 @@ color: var(--mk-color-orange)
 - [ ] start [[Node]] education 🏫 #node
 - [ ] [[remove scroll-forward mapping in nvim]]
 - [ ] create day template
+- [ ] [[try out export CSV to sql DB]]
+- [ ] [[check the Benq monitor]]
 
 
 ## active ⚔

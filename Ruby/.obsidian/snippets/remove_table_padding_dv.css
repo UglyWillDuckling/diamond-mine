@@ -8,3 +8,7 @@
     width: 100%;
     min-height: 0;
    }
+   
+   .markdown-source-view.mod-cm6 .cm-content > * {
+   	margin-top: 5px !important;
+   }

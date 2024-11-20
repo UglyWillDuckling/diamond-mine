@@ -11,21 +11,15 @@
             "id": "3da248d6ee929c1a",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    true,
-                    false,
-                    false,
-                    true
-                  ]
-                }
+                "file": "2024-11-20.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Kanban"
+              "icon": "lucide-file",
+              "title": "2024-11-20"
             }
           }
         ]
@@ -133,10 +127,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kanban.md"
+                "file": "2024-11-20.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Kanban"
+              "title": "Outline of 2024-11-20"
             }
           },
           {
@@ -157,6 +151,33 @@
               "state": {},
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
+            }
+          },
+          {
+            "id": "f4c4f30bcaf04680",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "541a63bea0aabb2a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -185,16 +206,14 @@
       "obsidian-git:Open Git source control": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-day-planner:Open Multi-Day View": false
     }
   },
   "active": "3da248d6ee929c1a",
   "lastOpenFiles": [
+    "Kanban.md",
     "tasks/add other quick adds.md",
     "tasks/add a real `quickadd` for todo.md",
-    "Kanban.md",
     "Clippings/QuickAdd - Tasks User Guide - Obsidian Publish.md",
     "2024-11-20.md",
     "Clippings/Capture Add a Task to a Kanban Board  QuickAdd.md",

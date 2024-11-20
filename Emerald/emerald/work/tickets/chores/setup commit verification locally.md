@@ -19,4 +19,8 @@ status: finished 🏁
 - added `command` to `bin/git/`
 	- `bin/git/commit_verify HEAD~11 HEAD~1`
 
-- [ ] remind (@[[2024-11-15]])
+- [ ] see again how this works (@[[2024-11-29]])
+
+```rb
+bin/git/commit_verify HEAD~10 HEAD~1
+```

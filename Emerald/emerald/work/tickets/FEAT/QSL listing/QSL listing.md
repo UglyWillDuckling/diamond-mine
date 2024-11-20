@@ -10,7 +10,7 @@ show tree
 
 ## todos ✔
 - [ ] #task update table docs - missing `columns`
-- [/] #task **QSL** ⏫ 🛫 2024-10-11 ⏳ 2024-11-06 📅 2024-11-12
+- [x] #task **QSL** ⏫ 🛫 2024-10-11 ⏳ 2024-11-06 📅 2024-11-12 ✅ 2024-11-20
 	- [x] start creating the **DB** [[Create DB table]] ✅ 2025-11-01 
 	- [x] [[build the interface]] 🔼 ✅ 2024-11-04
 	- [x] #task [[build the model]] 🎴 ⏫ 🛫 2024-11-04 📅 2024-11-07 ✅ 2024-11-08
@@ -24,12 +24,12 @@ show tree
 - [x] #task fix issue with docker-compose ✅ 2024-11-08
 	- [[make test not working]]
 - [x] [[write the table docs]] #task 📅 2024-11-07 ✅ 2024-11-06
-- [/] #task [[study CSV export]] 📅 2024-11-13 
+- [x] #task [[study CSV export]] 📅 2024-11-13 ✅ 2024-11-20
 	- [x] add new columns #task ✅ 2024-11-13
 	- [x] update existing logic, tests #task ✅ 2024-11-13
-	- [ ] #task [[check the diagram from [[Paulo]]]]
+	- [ ] #task [[check the diagram from [[Paulo]]]] 🔽
 - [x] see 🙈 if we could use the [[project]] as the source for the [[place]] entity
-- [ ] support for `optional` fields #task 📅 2024-11-14 
+- [x] support for `optional` fields #task 📅 2024-11-14 ✅ 2024-11-20
 	- [x] #task update constructor and creation ✅ 2024-11-14
 	- [x] #task update relevant methods ✅ 2024-11-14
 		- 'i try to use data that is **always there**

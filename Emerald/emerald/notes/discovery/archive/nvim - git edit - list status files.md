@@ -1,7 +1,7 @@
-> [!info] This will list all the fiels from `git status`
+> [!info] This will list all the fields from `git status`
 
 ```rb
-<leader>ge
+<leader>gs
 ```
 
-- [ ] remind (@[[2024-11-04]])
+- [ ] try this out again (@[[2024-11-28]])

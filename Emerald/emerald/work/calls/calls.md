@@ -1,8 +1,7 @@
 #work/calls
 #calls
 
-- [ ] remind (@[[2024-11-08]])
-## today
+## today 📆
 
 ```dataview
 TABLE WITHOUT ID

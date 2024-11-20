@@ -73,13 +73,6 @@
       "macroId": "61dfedc0-d41f-4074-a5ee-fed304e06ef9"
     },
     {
-      "id": "84fd25f1-b7ad-42c0-bf3c-4ee1ad046c4d",
-      "name": "Book",
-      "type": "Macro",
-      "command": true,
-      "macroId": "144aa37e-dcdf-4542-b1fc-82f0e0f0245c"
-    },
-    {
       "id": "28b2ee83-9521-431e-944d-9c019ffb364b",
       "name": "movie🎬",
       "type": "Macro",
@@ -115,22 +108,39 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "28a78ebd-975c-43cf-b91b-3a2354238c00",
+      "name": "call ☎️",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Knowledge/templates/call.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "work/calls"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [
-    {
-      "name": "Book",
-      "id": "144aa37e-dcdf-4542-b1fc-82f0e0f0245c",
-      "commands": [
-        {
-          "name": "BookFinder📕",
-          "type": "Choice",
-          "id": "e23ac2d7-8b2f-42e7-827c-8cd1dc54d916",
-          "choiceId": "f64b73ca-b341-422f-83ac-08cf48d5f1e5"
-        }
-      ],
-      "runOnStartup": false
-    },
     {
       "name": "BookFinder",
       "id": "61dfedc0-d41f-4074-a5ee-fed304e06ef9",
@@ -236,7 +246,7 @@
   "devMode": false,
   "templateFolderPath": "Knowledge/templates",
   "announceUpdates": true,
-  "version": "1.11.4",
+  "version": "1.11.5",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": true,
   "ai": {

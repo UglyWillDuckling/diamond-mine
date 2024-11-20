@@ -24,7 +24,7 @@
   "showUnscheduledNestedTasks": true,
   "showNow": true,
   "showNext": true,
-  "pluginVersion": "0.25.0",
+  "pluginVersion": "0.26.2",
   "showCompletedTasks": true,
   "showSubtasksInTaskBlocks": true,
   "icals": [
@@ -41,5 +41,6 @@
   "eventFormatOnCreation": "task",
   "sortTasksInPlanAfterEdit": false,
   "firstDayOfWeek": "monday",
-  "multiDayRange": "work-week"
+  "multiDayRange": "work-week",
+  "showTimeTracker": false
 }

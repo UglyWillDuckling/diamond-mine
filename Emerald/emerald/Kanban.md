@@ -20,24 +20,26 @@ color: var(--mk-color-orange)
 ## backlog 🗃
 
 - [ ] cleanup [[unit test]]'s
-- [ ] [[see how to best manage PR's in the shell and beyond]]
 - [ ] [[ask SRE about LUNA environment]]
 - [ ] [[Find what grug is about]]
 - [ ] explore [[mermaid.js]]
 - [ ] [[check presentation from AVIV about Pro tool]]
 - [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script #decorator #pattern
 - [ ] books on [[object orientation]] and design 📘 #book
+- [ ] [[check the Benq monitor]]
 
 
 ## next ⏭
 
+- [ ] [[remove scroll-forward mapping in nvim]]
+- [ ] [[see how to best manage PR's in the shell and beyond]]
+- [ ] create day template
 - [ ] [[check for an ergonomic mouse]] #mouse
 - [ ] [[Education/React/react|react]] study 🎒 #react
 - [ ] start [[Node]] education 🏫 #node
-- [ ] [[remove scroll-forward mapping in nvim]]
-- [ ] create day template
 - [ ] [[try out export CSV to sql DB]]
-- [ ] [[check the Benq monitor]]
+- [ ] [[fix reminders plugin]]
+- [ ] [[add other quick adds]]
 
 
 ## active ⚔

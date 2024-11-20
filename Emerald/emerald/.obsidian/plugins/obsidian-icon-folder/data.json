@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiTestTube2",
-      "🧛",
-      "LiMouse",
-      "LiHeading",
-      "LiEqualNot"
+      "LiCircleDotDashed",
+      "LiNotebook",
+      "LiFolder",
+      "LiGitCompare",
+      "LiTestTube2"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -356,7 +356,6 @@
   "tasks/dev/remove scroll-forward mapping in nvim.md": "LiMap",
   "work/calls/SPRINT/Sprint Planning 11-11.md": "👟",
   "notes/archive/installed git butler from source.md": "LiGithub",
-  "tasks/refactor movie controller.md": "LiCompass",
   "Clippings": "LiClipboard",
   "Clippings/Order James Baldwin books.md": {
     "iconName": "LiBookUser",
@@ -367,7 +366,6 @@
     "iconName": "LiCrown",
     "iconColor": "#d5c620"
   },
-  "notes/A Set should accept an optional comparison commnad.md": "LiEqualNot",
   "notes/questions/how to delete everything under a header?.md": "LiHeading",
   "work/docs/concepts/project.md": "LiProjector",
   "notes/questions/how to remove items from the left click menu.md": "LiMouse",
@@ -382,5 +380,11 @@
     "iconName": "LiMoon",
     "iconColor": "#878787"
   },
-  "work/notes/archive/db restore.md": "LiDatabase"
+  "work/notes/archive/db restore.md": "LiDatabase",
+  "notes/Git sign off previous commits.md": "LiGitCompare",
+  "tasks/dev/refactor movie controller.md": "LiCompass",
+  "Knowledge/Articles/archive/How to Use Folder Notes.md": "LiFolder",
+  "notes/questions/how to create a note from a task.md": "LiNotebook",
+  "notes/ideas and thoughts/cloning repos multiple times can be useful.md": "LiCircleDotDashed",
+  "notes/archive/A Set should accept an optional comparison commnad.md": "LiEqualNot"
 }

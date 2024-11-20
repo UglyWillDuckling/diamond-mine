@@ -79,4 +79,4 @@ More clarity on the time estimations the deadlines for the [[CRM]] project
 
 ^important
 
-- [ ] remind (@[[2024-11-17]])
+- [x] remind (@[[2024-11-17]])

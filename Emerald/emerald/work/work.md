@@ -7,6 +7,10 @@ tags:
 
 ## tasks ✔
 
+### unsorted
+- [x] #task 📅 2024-11-14  [[fix Dockerfile]] ✅ 2024-11-14
+- [ ] ...
+
 ```tasks
 not done
 path includes work
@@ -45,8 +49,3 @@ FROM #work/call
 WHERE file.day AND file.day > date(today) - dur(10 day)  AND file.day < date(today)
 sort date DESC
 ```
-
-### unsorted
-
-- [x] #task 📅 2024-11-14  [[fix Dockerfile]] ✅ 2024-11-14
-- [ ] ...

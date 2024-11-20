@@ -4,22 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "33dfb513df2d5586",
+        "id": "4ce76a07f80a88e3",
         "type": "tabs",
         "children": [
           {
-            "id": "026fd0767d0f306c",
+            "id": "3da248d6ee929c1a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "2024-11-19.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Kanban.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    true,
+                    false,
+                    false,
+                    true
+                  ]
+                }
               },
-              "icon": "lucide-file",
-              "title": "2024-11-19"
+              "icon": "lucide-trello",
+              "title": "Kanban"
             }
           }
         ]
@@ -63,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "remind",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 210.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -127,47 +133,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-11-19.md"
+                "file": "Kanban.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-11-19"
-            }
-          },
-          {
-            "id": "ae5e35c3567ef26c",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
-            }
-          },
-          {
-            "id": "f340fa3de35edf54",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "f0470841fc63470d",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Outline of Kanban"
             }
           },
           {
@@ -179,13 +148,23 @@
               "icon": "clock",
               "title": "Reminders"
             }
+          },
+          {
+            "id": "61e6c43c3fa5c53f",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 443.5,
+    "width": 570.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -211,34 +190,37 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "026fd0767d0f306c",
+  "active": "3da248d6ee929c1a",
   "lastOpenFiles": [
-    "Action.canvas",
+    "tasks/add other quick adds.md",
+    "tasks/add a real `quickadd` for todo.md",
     "Kanban.md",
-    "Clippings/RD320U｜32” 4K BenQ Programming Monitor with Backlight.md",
-    "check the Benq monitor.md",
+    "Clippings/QuickAdd - Tasks User Guide - Obsidian Publish.md",
+    "2024-11-20.md",
+    "Clippings/Capture Add a Task to a Kanban Board  QuickAdd.md",
+    "Action.canvas",
+    "notes/discovery/obsidian/you can use embeds in Obsidian.md",
+    "work/docs/how to/How to swith between local and dev backyard DB-s.md",
+    "notes/ideas and thoughts/adding tools looks to be quite useful.md",
+    "work/tickets/chores/setup commit verification locally.md",
+    "notes/discovery/dev/KDE/switching alt+win is under keyboard settings.md",
     "work/tickets/chores/Update Diabolocom deprecated csv file export.md",
-    "Clippings/Best Monitor for Programming Clear Code, Full Focus.md",
-    "work/notes/test are run using a test Makefile.md",
-    "work/notes/test - test on backyard have 2 db's.md",
-    "work/notes/archive/db restore.md",
-    "work/notes/archive/backyard-tassk.md",
-    "work/notes/archive/lost time.md",
-    "notes/discovery/obsidian/plugins/PLN theme settings and more.md",
-    "work/calls/backyard/Matching QSL project & SL listing + Display for BY users - Clarifications.md",
-    "tasks/you can list all yanks using <leader-p>.md",
-    "tasks/2024-11-26.md",
+    "notes/discovery/archive/nvim - git edit - list status files.md",
+    "tasks/archive/Filter out diagnostics in nvim.md",
+    "notes/discovery/dev/nvim - phpactor setup.md",
+    "notes/discovery/archive/php - IIFE function expression.md",
     "days/2024/2024-10-18.md",
-    "work/calls/DAILY/2024-11-19 daily.md",
-    "2024-11-19.md",
-    "work/work.md",
+    "tasks/dev/you can list all yanks using <leader-p>.md",
+    "Clippings/tmux 3.md",
+    "notes/I should read books on tools that I use.md",
+    "Knowledge/tools/tools.md",
+    "notes/archive/A Set should accept an optional comparison commnad.md",
+    "work/calls/CRM/New CRM Architecture meet v3.md",
     "work/calls/calls.md",
-    "work/calls/CRM/Team CRM architecture sync.md",
-    "work/calls/CRM/SLMP call.md",
-    "work/calls/CRM/Seller Lead CRM - User test results.md",
-    "work/calls/CRM/CRM - introduction to Design.md",
-    "work/calls/backyard/Follow up call on estimation funnel.md",
-    "work/calls/DAILY/2024-11-15 daily.md",
+    "tmux-client-38289.log",
+    "notes/ideas and thoughts/cloning repos multiple times can be useful.md",
+    "notes/questions/how to share actual notes findings between different notes?.md",
+    "Knowledge/Articles/archive",
     "movies.js~",
     "work/docs/backyard/Infra/envs",
     "Clippings",
@@ -248,8 +230,6 @@
     "work/docs/backyard/Infra",
     "work/calls/DAILY/2024",
     "movies.js",
-    "work/tasksCalendar/view.css~",
-    "work/tasksCalendar/view.js~",
     "work/docs/CRM/CRM.canvas",
     "Knowledge/tools/PM/bee-bole-export.png",
     "work/notes/archive/iris-code.png",

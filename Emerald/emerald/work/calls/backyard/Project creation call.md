@@ -42,4 +42,4 @@
 - [!] **P4** 
 	- [>] **sold**(<mark style="background: #BBFABBA6;">Vendu</mark>)
 
-- [ ] remind (@[[2024-10-28]])
+- [x] remind (@[[2024-10-28]])

@@ -42,7 +42,7 @@ LIMIT 500;
 	- does the entire history need to be consistent?
 
 ## todo's
-- [/] #task Diabolocom update deprecated CSV export 📅 2024-11-19 
+- [x] #task Diabolocom update deprecated CSV export 📅 2024-11-19 ✅ 2024-11-20
 	- [x] examine the data first #task
 	- [x] try out the script first #task
 	- [x] #task update filename 📅 2024-11-15 ✅ 2024-11-19
@@ -57,6 +57,12 @@ LIMIT 500;
 - [ ] #task add error handling for the API
 	- [ ] logging
 - [ ] 🤔 think about refactoring the import outside of the model class #task 
+- [x] #task fix `unsigned` commit
+	[[Git sign off previous commits]]
+- [ ] #task check on dev
+	- [ ] check db
+	- [ ] run
+	- [ ] check db again
 
 ### examine the existing db data
 - [x] check the data
@@ -91,13 +97,9 @@ LIMIT 500;
 		- [x] events
 		- [x] status
 - [x] check that the data is for the same day
-
 - [[events table]]
 
-#### events fields
-
-### duration ⏲
-
+### duration
 ┌──────────┬────|
 │  duration│old_duration│
 ├──────────┼────|
@@ -106,7 +108,7 @@ LIMIT 500;
 │ 4583082│4583│
 │ 2024955│2025│
 
---- start-multi-column: ID_1lw8
+---start-multi-column: ID_1lw8
 ```column-settings
 Number of Columns: 2
 Largest Column: standard
@@ -120,7 +122,6 @@ Largest Column: standard
 
 --- column-break ---
 
-### notes ☑
 - <mark style="background: #FFB86CA6;">the durations are currently in seconds</mark>
 	- the existing logic is built around this
 - CSV duration data looks to be in `milliseconds`
@@ -136,6 +137,7 @@ $adr->duration = (int)round($row->duration / 1000);
 PR is done https://github.com/MeilleursAgents/MeilleursAgents/pull/10805
 
 - ==need to add error handling for API errors==
+- testing on dev
 
 ### ideas
 - 'i some `refactorings` are still possible

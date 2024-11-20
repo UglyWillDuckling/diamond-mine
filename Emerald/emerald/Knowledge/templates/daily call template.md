@@ -10,5 +10,29 @@
 - ...
 
 ^active
-### remarks 🎗
-- ...
+
+### per person
+
+--- start-multi-column: ID_y35e
+```column-settings
+Number of Columns: 3
+Largest Column: standard
+Shadow: off 
+```
+
+#### [[Danijela]]
+- 
+
+--- column-break ---
+
+#### [[Ivan Culina]]
+
+- 
+
+--- column-break ---
+
+#### [[Ivan Vukusic]]
+
+- 
+
+--- end-multi-column

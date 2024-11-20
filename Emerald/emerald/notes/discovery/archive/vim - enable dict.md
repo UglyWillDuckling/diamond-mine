@@ -5,4 +5,4 @@
 :set dictionary+=/usr/share/dict/words
 ```
 
-- [ ] remind (@[[2024-11-15]])
+- [x] remind (@[[2024-11-15]])

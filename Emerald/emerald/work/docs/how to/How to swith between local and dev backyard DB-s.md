@@ -40,7 +40,7 @@ BACKYARD_PGPORT=6543
 ```
 
 ## docker db service
-```docker-compose
+```yml
   db-local:
     image: "postgis/postgis:11-3.3"
     volumes:
@@ -55,4 +55,4 @@ BACKYARD_PGPORT=6543
       - "5432:5432"
 ```
 
-- [ ] remind (@[[2024-11-06]])
+- [x] remind (@[[2024-11-21]])

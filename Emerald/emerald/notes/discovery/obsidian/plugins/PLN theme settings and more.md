@@ -84,4 +84,4 @@ Content of the main articleContent of the main articleContent of the main articl
 <mark class='path'>C:\Users\Roo\Foo</mark>
 <mark class='borders'>Bordered text</mark>
 
-- [ ] remind (@[[2024-10-24]])
+- [x] remind (@[[2024-10-24]])

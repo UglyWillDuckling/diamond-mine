@@ -9,7 +9,6 @@ tags:
 
 ### unsorted
 - [x] #task 📅 2024-11-14  [[fix Dockerfile]] ✅ 2024-11-14
-- [ ] ...
 
 ```tasks
 not done

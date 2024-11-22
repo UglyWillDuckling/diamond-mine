@@ -205,5 +205,14 @@
       ],
       "key": "S"
     }
-  ]
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "workspace:new-tab": []
 }

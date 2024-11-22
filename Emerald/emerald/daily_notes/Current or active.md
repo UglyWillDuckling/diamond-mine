@@ -2,3 +2,4 @@
 
 ## current notes 📓
 - QSL needs to be discussed
+- Diabolocom needs to go live

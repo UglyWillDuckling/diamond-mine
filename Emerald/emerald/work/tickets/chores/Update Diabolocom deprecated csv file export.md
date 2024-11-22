@@ -11,18 +11,25 @@ which includes structural changes.
 <mark style="background: #FFB86CA6;">The structural changes also need be taken into account and all fields to be verified and updated as required.</mark>
 
 ## <mark style="background: #BBFABBA6;">acceptance</mark>
+- [x] the data is generated and stored correctly
+- [ ] the entries are updated `automatically`
+---
+## notes 📔
+- <mark style="background: #FFF3A3A6;">the `script` itself can be run via the browser</mark>
 
-- [x] file path is updated
-- [ ] all fields have been verified
-	- [ ] mappings are added as needed
-- [ ] ...
+## <mark style="background: #ABF7F7A6;">questions</mark>
+- ? for how long is the calling data **relevant**?
+	- does the entire history need to be consistent?
 
-### testing info
+## ideas 💡
+- 'i some `refactorings` are still possible
+- maybe we could separate the update logic into a **distinct** **class** and simplify the logic within
+## info
+- 'i 
+![[crontab for diabolocom]]
 
-**today**: [[2024-11-15]]
-
+### testing 
 **person** to use for test: Donatien Privat
-
 **sql check query**
 ```sql
 SELECT DATE(created) as day, COUNT(*) as record_count  
@@ -32,37 +39,31 @@ ORDER BY day DESC
 LIMIT 500;	
 ```
 
-## notes 📔
-- <mark style="background: #FFF3A3A6;">the `script` itself can be run via the browser</mark>
-- we can just delete the existing db table entries in order to `rerun` the script
-
-## <mark style="background: #ABF7F7A6;">questions</mark>
-
-- ? for how long is the calling data **relevant**?
-	- does the entire history need to be consistent?
+## <mark style="background: #FFB8EBA6;">current</mark> ♨
+- ! need to deploy [[Backyard Tasks]]
 
 ## todo's
-- [x] #task Diabolocom update deprecated CSV export 📅 2024-11-19 ✅ 2024-11-20
+- [ ] 🤔 think about refactoring the import outside of the model class #task 
+- [x] #task Diabolocom update deprecated CSV export 📅 2024-11-19 ✅ 2024-11-22
 	- [x] examine the data first #task
 	- [x] try out the script first #task
 	- [x] #task update filename 📅 2024-11-15 ✅ 2024-11-19
 	- [x] #task [[#verify fields]] ✅ 2024-11-19
-		- [x] update mappings as needed
-		- [x] #task check if data is for the day ✅ 2024-11-19
-- [/] #task check [[#duration]] column values ✅ 2024-11-19
+- [x] #task check [[#duration]] column values ✅ 2024-11-21
 - [x] #task think about importing the CSV data as the data coming from the API in a **test** ✅ 2024-11-19
-	- [x] pass in the `api client`
-	- [x] use a `fake class` for testing
-		- [x] have it use the `CSV` data
-- [ ] #task add error handling for the API
-	- [ ] logging
-- [ ] 🤔 think about refactoring the import outside of the model class #task 
-- [x] #task fix `unsigned` commit
-	[[Git sign off previous commits]]
-- [ ] #task check on dev
-	- [ ] check db
-	- [ ] run
-	- [ ] check db again
+- [x] #task add error handling for the API ✅ 2024-11-21
+- [x] #task check on dev ✅ 2024-11-21
+	- [x] check db
+	- [x] run
+	- [x] check db again
+- [x] #task verify **production** changes ✅ 2024-11-22
+	- [x] check db data
+	- [x] run the import again
+	- [x] check the `my` page
+	- [x] see what should be displayed
+- [!] deploy the [[Backyard Tasks]] #task
+	- [ ] dev
+	- [ ] prod
 
 ### examine the existing db data
 - [x] check the data
@@ -98,7 +99,6 @@ LIMIT 500;
 		- [x] status
 - [x] check that the data is for the same day
 - [[events table]]
-
 ### duration
 ┌──────────┬────|
 │  duration│old_duration│
@@ -107,7 +107,6 @@ LIMIT 500;
 │ 7387747│ 7388│
 │ 4583082│4583│
 │ 2024955│2025│
-
 ---start-multi-column: ID_1lw8
 ```column-settings
 Number of Columns: 2
@@ -127,18 +126,31 @@ Largest Column: standard
 - CSV duration data looks to be in `milliseconds`
 
 --- end-multi-column
-
 ```php
 $adr->duration = (int)round($row->duration / 1000);
 ```
 
-## current ♨
+### verify in <mark style="background: #FFB8EBA6;">production</mark>
+- [x] run the import again
+	- [x] compare the difference in db, backyard
+#### notes 🗒
+- the data should be updating **every 15 min for the entire day after 9AM**
+- after importing, the data seems consistent in both the DB and on the backyard
+- <mark style="background: #BBFABBA6;">this is actually working</mark>
+- we need to apply the changes to [[Backyard Tasks]]
 
-PR is done https://github.com/MeilleursAgents/MeilleursAgents/pull/10805
+### deploy Tasks
+- [ ] resolve deployment issue
+- [ ] try to deploy `prod`
+	https://jenkins.ma-backbone.net/blue/organizations/jenkins/deploy/detail/deploy/12034/pipeline
 
-- ==need to add error handling for API errors==
-- testing on dev
+#### deploy issue
 
-### ideas
-- 'i some `refactorings` are still possible
-- maybe we could separate the update logic into a **distinct** **class** and simplify the logic within
+- https://jenkins.ma-backbone.net/blue/organizations/jenkins/deploy/activity
+- [storage-dev](https://console.cloud.google.com/storage/browser/ma-delivery-dev/apps/malegacy;tab=objects?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22,%22s%22:%5B(%22i%22:%22objectListDisplayFields%2FtimeLastModified%22,%22s%22:%221%22),(%22i%22:%22displayName%22,%22s%22:%220%22)%5D)
+- [storage-prod](https://console.cloud.google.com/storage/browser/ma-delivery-prod/apps/malegacy;tab=objects?pageState=(%22StorageObjectListTable%22:(%22f%22:%22%255B%255D%22,%22s%22:%5B(%22i%22:%22objectListDisplayFields%2FtimeCreated%22,%22s%22:%221%22),(%22i%22:%22displayName%22,%22s%22:%220%22)%5D)
+
+[latest deploy](https://jenkins.ma-backbone.net/job/deploy_ansible/3802/console)
+
+> - [x] contact SRE
+- [x] try out the deploy again

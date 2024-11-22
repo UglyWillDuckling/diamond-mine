@@ -14,4 +14,4 @@ modern javascript
 
 ![[Document.pdf#page=3]]
 
-- [ ] remind (@[[2024-11-21]])
+- [x] remind (@[[2024-11-22]] 14:36)

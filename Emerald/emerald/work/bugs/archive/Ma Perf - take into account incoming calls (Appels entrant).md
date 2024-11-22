@@ -86,7 +86,7 @@ id: 6472069
 <mark style="background: #FF5582A6;">The two table are most likely out of sync in temporal terms
 Their timstamp don't match up, probably due to timezones</mark>
 - the difference is 2 hours
-- conversation's from `adr` are most likely the calls form `call`
+- conversation's from `adr` are most likely the calls from `call`
 
 adr id: 33073032
 

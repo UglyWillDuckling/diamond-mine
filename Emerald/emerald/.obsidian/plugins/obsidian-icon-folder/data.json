@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiCircleDotDashed",
-      "LiNotebook",
-      "LiFolder",
-      "LiGitCompare",
-      "LiTestTube2"
+      "LiBug",
+      "🖥",
+      "LiTv",
+      "LiFilm",
+      "LiFastForward"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -33,7 +33,6 @@
     "lucideIconPackType": "native",
     "debugMode": false
   },
-  "days": "LiCalendarDays",
   "tasks": "LiCheckSquare2",
   "Education": "📚",
   "Education/Typescript": "LiType",
@@ -68,12 +67,10 @@
   "Education/experiments": "LiTestTube2",
   "tasks/archive/switch over to Firefox.md": "🦊",
   "tasks/archive/wipe screen.md": "🪟",
-  "tasks/dev/Find what grug is about.md": "LiEye",
   "tasks/archive/Nvim - resolve oil starting up each time.md": "🛢",
   "tasks/archive": "LiArchive",
   "tasks/dev": "⌨",
   "tasks/obsidian": "LiGem",
-  "days/day template.md": "LiBookTemplate",
   "notes": "📑",
   "work/calls": "LiPhoneCall",
   "work/docs/CRM": "👑",
@@ -130,7 +127,6 @@
   "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/add source field on project.md": "LiFlower",
   "work/tickets/FEAT/Project creation from Lead/subs/Long-term solution/estima processing/fix main test.md": "🧪",
   "work/tickets/FEAT/Project creation from Lead/subs/archive/fix commits.md": "LiGithub",
-  "tasks/dev/see how to best manage PR's in the shell and beyond.md": "LiGitPullRequest",
   "tasks/archive/Study null object pattern.md": "LiSignalZero",
   "tasks/archive/take a look at higher order components article.md": "LiListOrdered",
   "work/notes/archive/SLMP will be multi-lingual.md": "LiLanguages",
@@ -151,11 +147,6 @@
   },
   "work/notes/archive/MA dev env URL.md": "LiCurlyBraces",
   "tasks/archive/add keywords to TODO.md": "LiWholeWord",
-  "tasks/dev/take a look at the PR plugin for nvim.md": {
-    "iconName": "LiGitPullRequest",
-    "iconColor": "#8e30a1"
-  },
-  "tasks/dev/check for an ergonomic mouse.md": "LiMouse",
   "work/notes/archive/Millions of euros for a buy in France.md": "🇫🇷",
   "work/calls/SPRINT/Sprint planning 10-14.md": "👟",
   "work/tickets/FEAT/QSL listing/docs": "LiFolder",
@@ -211,7 +202,6 @@
   },
   "tasks/archive/izdati racun 10.24.md": "LiReceipt",
   "tasks/files": "LiFiles",
-  "days/Current or active.md": "LiActivity",
   "notes/archive/You can add identifiers to blocks.md": "🆔",
   "notes/archive/you can switch tabs with Ctrl-1,2,3,4.md": {
     "iconName": "LiTabs",
@@ -259,10 +249,6 @@
   "notes/discovery/dev/nvim - phpactor setup.md": "🧑‍🏭",
   "notes/discovery/dev/KDE/switching alt+win is under keyboard settings.md": "LiKeyboard",
   "notes/discovery": "📰",
-  "days/2024/2024-10-30.md": {
-    "iconName": "LiCalendarFold",
-    "iconColor": "#ede612"
-  },
   "notes/archive/bashmarks can list bookmarks.md": "LiClipboardList",
   "notes/discovery/archive/nvim - git edit - list status files.md": "LiGitFork",
   "notes/discovery/archive/php - IIFE function expression.md": "🐘",
@@ -353,7 +339,6 @@
   "notes/ideas and thoughts/adding tools looks to be quite useful.md": "LiPenTool",
   "work/tickets/chores/see how crons are handled on the backyard.md": "LiTimer",
   "work/docs/infra/PR's.md": "LiGitPullRequest",
-  "tasks/dev/remove scroll-forward mapping in nvim.md": "LiMap",
   "work/calls/SPRINT/Sprint Planning 11-11.md": "👟",
   "notes/archive/installed git butler from source.md": "LiGithub",
   "Clippings": "LiClipboard",
@@ -381,10 +366,36 @@
     "iconColor": "#878787"
   },
   "work/notes/archive/db restore.md": "LiDatabase",
-  "notes/Git sign off previous commits.md": "LiGitCompare",
-  "tasks/dev/refactor movie controller.md": "LiCompass",
   "Knowledge/Articles/archive/How to Use Folder Notes.md": "LiFolder",
   "notes/questions/how to create a note from a task.md": "LiNotebook",
   "notes/ideas and thoughts/cloning repos multiple times can be useful.md": "LiCircleDotDashed",
-  "notes/archive/A Set should accept an optional comparison commnad.md": "LiEqualNot"
+  "notes/archive/A Set should accept an optional comparison commnad.md": "LiEqualNot",
+  "tasks/dev/Explore quick add plugin/Explore quick add plugin.md": "LiFastForward",
+  "Knowledge/How To's/sign off previous commits.md": "LiGitCompare",
+  "Knowledge/Media/Film": "LiFilm",
+  "Knowledge/Media/Tv": {
+    "iconName": "LiTv",
+    "iconColor": "#8e52ff"
+  },
+  "dev": "🖥",
+  "dev/tasks/check for an ergonomic mouse.md": "LiMouse",
+  "dev/tasks/Find what grug is about.md": "LiEye",
+  "dev/tasks/refactor movie controller.md": "LiCompass",
+  "dev/tasks/remove scroll-forward mapping in nvim.md": "LiMap",
+  "dev/tasks/see how to best manage PR's in the shell and beyond.md": "LiGitPullRequest",
+  "dev/tasks/take a look at the PR plugin for nvim.md": {
+    "iconName": "LiGitPullRequest",
+    "iconColor": "#8e30a1"
+  },
+  "dev/tasks/bugs/fix reminders plugin.md": "LiBug",
+  "daily_notes": "LiCalendarDays",
+  "daily_notes/Current or active.md": "LiActivity",
+  "daily_notes/2024/old/2024-10-30.md": {
+    "iconName": "LiCalendarFold",
+    "iconColor": "#ede612"
+  },
+  "daily_notes/2024/November/2024-11-21.md": {
+    "iconName": "LiCalendarCog",
+    "iconColor": "#f0d62d"
+  }
 }

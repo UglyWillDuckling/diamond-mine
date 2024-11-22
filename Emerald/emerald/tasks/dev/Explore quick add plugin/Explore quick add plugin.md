@@ -41,3 +41,6 @@ We'll need to install a QuickAdd user script for this to work. I have made a vid
     Attach the Macro to the Macro Choice you just created. Do so by clicking the cog ⚙ icon and selecting it.
 
 You can now use the macro to create notes with movie or TV show information in your vault.
+
+## tasks
+[[Tasks Api - QuickAdd plugin]]

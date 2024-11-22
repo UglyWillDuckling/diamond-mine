@@ -1,16 +1,20 @@
 ---
-title: "tmux 3"
-source: "https://pragprog.com/titles/bhtmux3/tmux-3/"
-author:
-published:
+title: tmux 3
+source: https://pragprog.com/titles/bhtmux3/tmux-3/
+author: 
+published: 
 created: 2024-11-20
-description: "Improve productivity with tmux. Manage terminal sessions, run programs side by side, and use custom scripts to streamline your workflow, all without a mouse."
+description: Improve productivity with tmux. Manage terminal sessions, run programs side by side, and use custom scripts to streamline your workflow, all without a mouse.
 tags:
-  - "clippings"
+  - clippings
+  - tmux
+  - unix
+  - tool
 ---
 ## Productive Mouse-Free Development
 
 Your mouse is slowing you down. You’re juggling multiple terminal windows, development tools, or shell sessions, and the context switching is eating away at your productivity. Take control of your environment with tmux, a keyboard-driven terminal multiplexer that you can tailor to your workflow. With this updated third edition for tmux 3, you’ll customize, script, and leverage tmux’s unique abilities to craft a productive terminal environment that lets you keep your fingers on your keyboard’s home row.
+
 
 ### eBook Formats:
 

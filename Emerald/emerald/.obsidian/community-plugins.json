@@ -33,5 +33,7 @@
   "quickadd",
   "obsidian-reminder-plugin",
   "cycle-through-panes",
-  "jira-linker"
+  "jira-linker",
+  "google-calendar",
+  "obsidian-book-search-plugin"
 ]

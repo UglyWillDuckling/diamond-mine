@@ -27,6 +27,7 @@ color: var(--mk-color-orange)
 - [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script #decorator #pattern
 - [ ] books on [[object orientation]] and design 📘 #book
 - [ ] [[check the Benq monitor]]
+- [ ] [[try out export CSV to sql DB]]
 
 
 ## next ⏭
@@ -37,16 +38,15 @@ color: var(--mk-color-orange)
 - [ ] [[check for an ergonomic mouse]] #mouse
 - [ ] [[Education/React/react|react]] study 🎒 #react
 - [ ] start [[Node]] education 🏫 #node
-- [ ] [[try out export CSV to sql DB]]
 - [ ] [[fix reminders plugin]]
 - [ ] [[add other quick adds]]
 
 
 ## active ⚔
 
+- [ ] [[Update Diabolocom deprecated csv file export]]
 - [ ] [[work/tickets/FEAT/QSL listing/QSL listing|QSL listing]]
 - [/] [[see how to manage tasks]] ☑ #tasks
-- [ ] [[Explore quick add plugin]]
 - [ ] [[organize obsidian notes with dataview and folders]]
 - [ ] education / typescript advanced [[Typesript Education]] #education
 
@@ -54,6 +54,7 @@ color: var(--mk-color-orange)
 ## finished
 
 **Complete**
+- [x] [[Explore quick add plugin]]
 - [x] [[build the model]] #model
 - [x] [[remove old tree from in neovim]]
 
@@ -108,6 +109,6 @@ color: var(--mk-color-orange)
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,false,true],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true}
+{"kanban-plugin":"board","list-collapse":[true,false,false,false],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true}
 ```
 %%

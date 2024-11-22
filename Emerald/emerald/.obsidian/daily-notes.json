@@ -1,3 +1,6 @@
 {
-  "autorun": true
+  "autorun": true,
+  "template": "Knowledge/templates/day",
+  "folder": "daily_notes",
+  "format": "YYYY/MMMM/YYYY-MM-DD"
 }

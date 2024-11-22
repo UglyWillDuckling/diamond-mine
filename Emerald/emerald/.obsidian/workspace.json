@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/tools/tmux 3.md",
+                "file": "daily_notes/2024/November/2024-11-22.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tmux 3"
+              "title": "2024-11-22"
             }
           }
         ],
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 260.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -143,10 +143,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/tools/tmux 3.md"
+                "file": "daily_notes/2024/November/2024-11-22.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of tmux 3"
+              "title": "Outline of 2024-11-22"
             }
           },
           {
@@ -230,6 +230,7 @@
   },
   "active": "d333179cc1665919",
   "lastOpenFiles": [
+    "Knowledge/tools/tmux 3.md",
     "daily_notes/2024/November/2024-11-22.md",
     "work/calls/DAILY/2024-11-22 daily.md",
     "work/tickets/chores/Update Diabolocom deprecated csv file export.md",
@@ -257,7 +258,6 @@
     "daily_notes/2024/old/2024-09-22.md",
     "daily_notes/2024/old/2024-07-17.md",
     "daily_notes/2024/old",
-    "Clippings/Logging query language    Google Cloud.md",
     "daily_notes/2024/November",
     "daily_notes/9 2024/November",
     "daily_notes/9 2024",

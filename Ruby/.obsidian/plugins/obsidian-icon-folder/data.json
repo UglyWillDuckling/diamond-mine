@@ -40,10 +40,6 @@
     "iconColor": "#716a6a"
   },
   "notes/archive": "LiArchive",
-  "Board.md": {
-    "iconName": "LiListTodo",
-    "iconColor": "#b73838"
-  },
   "notes/archive/I should encrypt folders.md": "LiCode",
   "action.canvas": {
     "iconName": "LiStepForward",
@@ -147,5 +143,9 @@
   "Knowledge/Articles/archive/Tech is no substitute for depth 🤔.md": "🤖",
   "Knowledge/Books/Never Let Me Go.md": "📘",
   "Knowledge/templates": "LiBookTemplate",
-  "Life/Dev/notes/more things should be shared between vaults.md": "💭"
+  "Life/Dev/notes/more things should be shared between vaults.md": "💭",
+  "task board.md": {
+    "iconName": "LiListTodo",
+    "iconColor": "#b73838"
+  }
 }

@@ -7,14 +7,14 @@ kanban-plugin: board
 ## todo
 
 - [ ] [[review fizio]] #task
-- [ ] [[registracija auta]]
-- [ ] [[organizirati faks za novu godinu]]
 - [ ] [[setup obsidian repo on mobile]] #task
 
 
 ## active
 
 - [ ] [[use the timeline and daily tasks ✅]]
+- [ ] [[registracija auta]]
+- [ ] [[organizirati faks za novu godinu]]
 
 
 ## done

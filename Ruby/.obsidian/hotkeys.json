@@ -159,5 +159,14 @@
       "key": "A"
     }
   ],
-  "editor:toggle-italics": []
+  "editor:toggle-italics": [],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ]
 }

@@ -118,23 +118,23 @@
         {
           "name": "BookFinder",
           "type": "UserScript",
-          "id": "57c60d7a-74e8-4453-87ee-2ed166f3bd7b",
+          "id": "c495a0ab-9f8e-4a51-885c-f828dd938d68",
           "path": "notes/scripts/BookFinder.js",
           "settings": {}
         },
         {
           "name": "book template",
           "type": "NestedChoice",
-          "id": "679ad964-6902-4b0c-a468-0f1bc246ded2",
+          "id": "7ffb9c4d-2d32-4eae-9f7e-288f9519e6b6",
           "choice": {
-            "id": "433f8044-0346-4ab4-9efa-782561c215c8",
+            "id": "6b9021ff-c7f8-4904-9243-6e328fc9cd1f",
             "name": "book template",
             "type": "Template",
             "command": false,
             "templatePath": "Knowledge/templates/book template.md",
             "fileNameFormat": {
-              "enabled": true,
-              "format": "{{VALUE:title}}"
+              "enabled": false,
+              "format": ""
             },
             "folder": {
               "enabled": true,
@@ -151,7 +151,7 @@
               "direction": "vertical",
               "focus": true
             },
-            "openFile": false,
+            "openFile": true,
             "openFileInMode": "default",
             "fileExistsMode": "Increment the file name",
             "setFileExistsBehavior": false
@@ -216,7 +216,7 @@
   "devMode": false,
   "templateFolderPath": "Knowledge/templates",
   "announceUpdates": true,
-  "version": "1.11.4",
+  "version": "1.11.5",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": true,
   "ai": {

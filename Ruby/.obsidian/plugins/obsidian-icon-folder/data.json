@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiClipboardCopy",
+      "LiClipboardPen",
       "💭",
       "LiBookTemplate",
-      "📘",
-      "🎥",
-      "LiTvMinimalPlay"
+      "📘"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -33,7 +33,10 @@
     "lucideIconPackType": "native",
     "debugMode": false
   },
-  "days": "LiCalendarDays",
+  "days": {
+    "iconName": "LiCalendarDays",
+    "iconColor": "#ecd122"
+  },
   "notes": "📓",
   "notes/dev": {
     "iconName": "LiKeyboard",
@@ -147,5 +150,10 @@
   "task board.md": {
     "iconName": "LiListTodo",
     "iconColor": "#b73838"
+  },
+  "Knowledge/Books/Books board.md": "LiClipboardPen",
+  "Clippings": {
+    "iconName": "LiClipboardCopy",
+    "iconColor": "#dd46c9"
   }
 }

@@ -17,4 +17,5 @@ start date:
 ### My Notes
 
 ## Details
+
 {{VALUE:description}}

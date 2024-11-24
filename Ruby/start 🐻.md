@@ -1,4 +1,5 @@
-#board
+#board #start
+> always start here
 
 ## questions 😕
 ```dataview

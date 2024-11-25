@@ -54,9 +54,6 @@ color: var(--mk-color-orange)
 ## finished
 
 **Complete**
-- [x] [[Explore quick add plugin]]
-- [x] [[build the model]] #model
-- [x] [[remove old tree from in neovim]]
 
 
 ***
@@ -106,9 +103,12 @@ color: var(--mk-color-orange)
 - [x] 2024-11-06 12:46 [[nvim - setup nvim-tree]] ✅ 2024-11-04
 - [x] 2024-11-06 12:46 [[refactor movie controller]] from education ✅ 2024-11-04
 - [x] 2024-11-06 12:46 [[see how best to manager folders with notes]] #folders
+- [x] 2024/November/2024-11-25 10:55 [[build the model]] #model
+- [x] 2024/November/2024-11-25 10:55 [[remove old tree from in neovim]]
+- [x] 2024/November/2024-11-25 10:55 [[Explore quick add plugin]]
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,false,false],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true}
+{"kanban-plugin":"board","list-collapse":[true,false,false,true],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true}
 ```
 %%

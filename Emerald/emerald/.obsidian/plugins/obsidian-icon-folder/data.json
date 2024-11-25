@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBookCopy",
       "LiBug",
       "🖥",
       "LiTv",
-      "LiFilm",
-      "LiFastForward"
+      "LiFilm"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -397,5 +397,9 @@
   "daily_notes/2024/November/2024-11-21.md": {
     "iconName": "LiCalendarCog",
     "iconColor": "#f0d62d"
+  },
+  "notes/I should read books on tools that I use.md": {
+    "iconName": "LiBookCopy",
+    "iconColor": "#be2351"
   }
 }

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiRocket",
       "LiBookCopy",
       "LiBug",
       "🖥",
-      "LiTv",
-      "LiFilm"
+      "LiTv"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -401,5 +401,6 @@
   "notes/I should read books on tools that I use.md": {
     "iconName": "LiBookCopy",
     "iconColor": "#be2351"
-  }
+  },
+  "work/notes/deploy na tasks je dosta brz.md": "LiRocket"
 }

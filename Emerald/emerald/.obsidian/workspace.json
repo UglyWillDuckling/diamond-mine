@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a63d0f896718ace4",
+        "id": "9a53b960259dcf48",
         "type": "tabs",
         "children": [
           {
-            "id": "1d9a4c81529f7739",
+            "id": "864f87b3138414fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily_notes/2024/November/2024-11-25.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2024-11-25"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +73,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 241.5,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -126,11 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "daily_notes/2024/November/2024-11-25.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of 2024-11-25"
+              "title": "Outline"
             }
           },
           {
@@ -176,8 +170,8 @@
             "state": {
               "type": "reminder-list",
               "state": {},
-              "icon": "clock",
-              "title": "Reminders"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -207,17 +201,21 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
-      "obsidian-book-search-plugin:Create new book note": false
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1d9a4c81529f7739",
+  "active": "864f87b3138414fe",
   "lastOpenFiles": [
+    "work/calls/SPRINT/Sprint RETRO.md",
+    "daily_notes/2024/November/2024-11-25.md",
+    "work/notes/deploy na tasks je dosta brz.md",
     "dev/tasks/bugs/fix reminders plugin.md",
     "Kanban.md",
     "dev/tasks/add other quick adds.md",
     "work/tickets/chores/Update Diabolocom deprecated csv file export.md",
     "notes/discovery/obsidian/plugins/PLN theme settings and more.md",
-    "daily_notes/2024/November/2024-11-25.md",
     "work/calls/DAILY/2024-11-25 daily.md",
     "Clippings/connect to backyard tasks SSH.md",
     "daily_notes/2024/November/2024-11-22.md",
@@ -237,8 +235,6 @@
     "work/bugs/archive/Ma Perf - take into account incoming calls (Appels entrant).md",
     "daily_notes/2024/November/2024-11-21.md",
     "daily_notes/2024/November/2024-Nov-21.md",
-    "daily_notes/Current or active.md",
-    "Clippings/My Obsidian Daily Note Template.md",
     "daily_notes/2024/old",
     "daily_notes/2024/November",
     "daily_notes/9 2024/November",

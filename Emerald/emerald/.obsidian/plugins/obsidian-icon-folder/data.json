@@ -378,16 +378,6 @@
     "iconColor": "#8e52ff"
   },
   "dev": "🖥",
-  "dev/tasks/check for an ergonomic mouse.md": "LiMouse",
-  "dev/tasks/Find what grug is about.md": "LiEye",
-  "dev/tasks/refactor movie controller.md": "LiCompass",
-  "dev/tasks/remove scroll-forward mapping in nvim.md": "LiMap",
-  "dev/tasks/see how to best manage PR's in the shell and beyond.md": "LiGitPullRequest",
-  "dev/tasks/take a look at the PR plugin for nvim.md": {
-    "iconName": "LiGitPullRequest",
-    "iconColor": "#8e30a1"
-  },
-  "dev/tasks/bugs/fix reminders plugin.md": "LiBug",
   "daily_notes": "LiCalendarDays",
   "daily_notes/Current or active.md": "LiActivity",
   "daily_notes/2024/old/2024-10-30.md": {
@@ -402,5 +392,15 @@
     "iconName": "LiBookCopy",
     "iconColor": "#be2351"
   },
-  "work/notes/deploy na tasks je dosta brz.md": "LiRocket"
+  "work/notes/deploy na tasks je dosta brz.md": "LiRocket",
+  "dev/general/Find what grug is about.md": "LiEye",
+  "dev/general/check for an ergonomic mouse.md": "LiMouse",
+  "dev/general/refactor movie controller.md": "LiCompass",
+  "dev/general/remove scroll-forward mapping in nvim.md": "LiMap",
+  "dev/general/see how to best manage PR's in the shell and beyond.md": "LiGitPullRequest",
+  "dev/general/take a look at the PR plugin for nvim.md": {
+    "iconName": "LiGitPullRequest",
+    "iconColor": "#8e30a1"
+  },
+  "dev/general/bugs/fix reminders plugin.md": "LiBug"
 }

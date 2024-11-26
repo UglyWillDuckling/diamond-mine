@@ -561,6 +561,7 @@ denotes
 discussions
 demande
 div
+dalje
 several
 symbols
 string
@@ -1191,6 +1192,7 @@ formed
 feedback
 fini
 flex
+freeze
 us
 used
 using
@@ -1708,6 +1710,7 @@ accessing
 alternate
 ai
 ahadef
+aggregated
 metaprogramming
 means
 modify
@@ -2485,6 +2488,7 @@ cipele
 crontab
 colgroup
 cfc
+cronjob
 the
 these
 tells
@@ -3361,6 +3365,8 @@ position
 px
 pseudo
 pieces
+produkciju
+prepared
 Using
 UI
 Unions
@@ -3809,6 +3815,7 @@ recognize
 recontacter
 retention
 retain
+radim
 Here
 How
 HOST

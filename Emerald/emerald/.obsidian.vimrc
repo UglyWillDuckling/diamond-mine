@@ -371,3 +371,7 @@ exmap back obcommand app:go-back
 nmap <C-o> :back<CR>
 exmap forward obcommand app:go-forward
 nmap <C-i> :forward<CR>
+
+" Editor
+nmap <C-w>i 0ci[/<Esc>
+

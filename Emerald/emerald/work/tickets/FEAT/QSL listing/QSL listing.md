@@ -35,15 +35,26 @@ show tree
 		- 'i try to use data that is **always there**
 	- [!] update tests again
 - [x] #task `picture data` method ✅ 2024-11-14
-- [/] 't update tests with correct values from DB #task
+- [x] 't update tests with correct values from DB #task ✅ 2024-11-26
 	- data needs to match with **actual** entities
 	- the entities should also be **linked** properly
+- [x] #task update entity ✅ 2024-11-26
+- [ ] #task #fix take a look at ...
+- [ ] #task cleanup tests
+- [ ] #task [[CSV import]]
+
+### update entity
+- [x] remove dates
+- [x] add online field
+	- [x] entity
+	- [x] tests
+		- [x] check db
+	- [x] data
+- [x] depending code
 
 ### <mark style="background: #FFB8EBA6;">current</mark>
-- [ ] **update** tasks
-- [x] start work on `optional` stuff
-	- @ use what constant fields you can
+- [x] update entity
 - [/] implement `picture data`
 	- [x] implement method
-	- [ ] 't add tests
+	- [ ] 't add `tests`
 

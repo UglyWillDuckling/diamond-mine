@@ -4,6 +4,7 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
+    ":fast_forward:",
     ":clipboard:",
     ":keyboard:",
     ":timer_clock:",

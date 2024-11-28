@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiPhoneCall",
       "💾",
       "LiRocket",
       "LiBookCopy",
-      "LiBug",
-      "🖥"
+      "LiBug"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -403,5 +403,6 @@
     "iconName": "LiCalendarFold",
     "iconColor": "#ede612"
   },
-  "Knowledge/Media/Film/2001 A Space Odyssey.md": "💾"
+  "Knowledge/Media/Film/2001 A Space Odyssey.md": "💾",
+  "work/calls/backyard/Vladimir / Paulo WIF and GCP.md": "LiPhoneCall"
 }

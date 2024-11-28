@@ -231,6 +231,13 @@ inspire
 inviting
 ima
 invariant
+impersonate
+impersonation
+identity
+impersonator
+indefinitely
+identities
+interoperability
 JavaScript
 July
 Javascript
@@ -271,6 +278,7 @@ January
 Je
 Jul
 Jun
+JWT
 defines
 defining
 data
@@ -564,6 +572,11 @@ demande
 div
 dalje
 direktordirektro
+delegated
+delegator
+delegate
+driver
+doctrine
 several
 symbols
 string
@@ -1003,6 +1016,8 @@ skips
 stize
 struktura
 slika
+simplifying
+sends
 for
 first
 fix
@@ -1201,6 +1216,8 @@ fini
 flex
 freeze
 finishing
+fixing
+federation
 us
 used
 using
@@ -1308,6 +1325,7 @@ uT
 unnatural
 unordered
 unix
+upgrade
 These
 The
 Today
@@ -1407,6 +1425,7 @@ Tomorrow
 Time
 Thierry
 Toutes
+Token
 are
 an
 as
@@ -1720,6 +1739,10 @@ ai
 ahadef
 aggregated
 abstraction
+assume
+authorized
+accounts
+attribute
 metaprogramming
 means
 modify
@@ -1954,6 +1977,7 @@ min
 max
 managed
 mulitple
+managing
 which
 we
 with
@@ -2072,6 +2096,9 @@ wrote
 whereever
 west
 weather
+wants
+workload
+workloads
 changing
 code
 can
@@ -2501,6 +2528,7 @@ cfc
 cronjob
 constraints
 christmas
+clouds
 the
 these
 tells
@@ -2753,6 +2781,8 @@ tedious
 terrain
 tent
 thead
+technique
+typically
 behavior
 built
 by
@@ -2930,6 +2960,9 @@ beautiful
 broke
 bonne
 banka
+buckets
+behalf
+beyond
 of
 our
 one
@@ -3068,6 +3101,7 @@ officially
 outlined
 organizational
 octet
+orm
 program
 property
 plugin
@@ -3383,6 +3417,9 @@ prepared
 planned
 promijene
 party
+permission
+premises
+providers
 Using
 UI
 Unions
@@ -3832,6 +3869,8 @@ recontacter
 retention
 retain
 radim
+regarding
+recommended
 Here
 How
 HOST
@@ -3889,6 +3928,7 @@ Horizontal
 Hello
 HELLO
 Holds
+Hi
 example
 exists
 explore
@@ -4216,6 +4256,9 @@ WARNING
 WORLD
 Watch
 Writing
+Workspace
+Workload
+Web
 Object
 Or
 Office
@@ -4274,6 +4317,10 @@ ORGANIZATION
 Optimize
 Oct
 Originally
+Okta
+OpenID
+OIDC
+ORM
 looks
 loop
 links
@@ -4443,6 +4490,7 @@ liked
 loved
 largely
 lambda
+lqsh
 named
 needs
 no
@@ -4689,6 +4737,8 @@ SAT
 Storage
 Sort
 Show
+Shipping
+Symfony
 If
 In
 Ideas
@@ -4770,6 +4820,8 @@ Infinity
 ISO
 Inequality
 IPv
+Issues
+IdP
 key
 kanban
 kankan
@@ -4919,6 +4971,7 @@ DEV
 De
 DERRIEN
 Drop
+Discussion
 values
 vim
 vars
@@ -5394,6 +5447,7 @@ Prix
 Pauline
 Public
 PGP
+Platform
 Archive
 At
 Acceptance
@@ -5526,6 +5580,8 @@ Au
 AM
 Aug
 Ante
+Account
+AD
 je
 jump
 javascript
@@ -5569,6 +5625,7 @@ jan
 joindre
 journ
 justify
+json
 Yesterday
 You
 YQ
@@ -5704,6 +5761,7 @@ guru
 gzip
 gcp
 godisnji
+grants
 Friday
 FE
 First
@@ -6447,6 +6505,7 @@ Gen
 Git
 Guide
 GNU
+GCP
 Kit
 Kanban
 Key

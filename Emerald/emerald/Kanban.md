@@ -26,7 +26,6 @@ color: var(--mk-color-orange)
 - [ ] [[check presentation from AVIV about Pro tool]]
 - [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script #decorator #pattern
 - [ ] books on [[object orientation]] and design 📘 #book
-- [ ] [[check the Benq monitor]]
 - [ ] [[try out export CSV to sql DB]]
 
 
@@ -38,22 +37,23 @@ color: var(--mk-color-orange)
 - [ ] [[check for an ergonomic mouse]] #mouse
 - [ ] [[Education/React/react|react]] study 🎒 #react
 - [ ] start [[Node]] education 🏫 #node
-- [ ] [[fix reminders plugin]]
-- [ ] [[add other quick adds]]
 
 
 ## active ⚔
 
-- [ ] [[Update Diabolocom deprecated csv file export]]
 - [ ] [[work/tickets/FEAT/QSL listing/QSL listing|QSL listing]]
 - [/] [[see how to manage tasks]] ☑ #tasks
 - [ ] [[organize obsidian notes with dataview and folders]]
-- [ ] education / typescript advanced [[Typesript Education]] #education
+- [ ] education / typescript advanced [[Typesript Education]] #education #task
+- [ ] [[add other quick adds]]
+- [ ] [[study obsidian some more]] ^1lqsh9
+- [ ] [[check the Benq monitor]]
 
 
 ## finished
 
 **Complete**
+- [x] [[fix reminders plugin]]
 
 
 ***
@@ -106,6 +106,7 @@ color: var(--mk-color-orange)
 - [x] 2024/November/2024-11-25 10:55 [[build the model]] #model
 - [x] 2024/November/2024-11-25 10:55 [[remove old tree from in neovim]]
 - [x] 2024/November/2024-11-25 10:55 [[Explore quick add plugin]]
+- [ ] 2024/November/2024-11-28 09:43 [[Update Diabolocom deprecated csv file export]]
 
 %% kanban:settings
 ```

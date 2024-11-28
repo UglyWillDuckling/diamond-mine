@@ -42,6 +42,13 @@
         "time": "2024-11-29",
         "rowNumber": 17
       }
+    ],
+    "work/tickets/FEAT/QSL listing/subs/CSV import.md": [
+      {
+        "title": "#task write the **real** import ⏫",
+        "time": "2024-11-28",
+        "rowNumber": 27
+      }
     ]
   },
   "debug": false,

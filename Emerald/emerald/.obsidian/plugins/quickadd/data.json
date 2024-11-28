@@ -1,41 +1,6 @@
 {
   "choices": [
     {
-      "id": "cf1e9f3f-fe1f-4dd7-96e0-0cd683c2bf30",
-      "name": "todo",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "#task {{VALUE:task name}} ⏰ {{VDATE:reminder date and time,YYYY-MM-DD HH}} {{VALUE:🔺,⏫,🔼,🔽,⏬️, }} 📅 {{VDATE:due date,YYYY-MM-DD}}"
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": true,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
       "id": "b79ca23d-fbbf-470a-b66c-227bbdda0241",
       "name": "daily 🗓️",
       "type": "Template",
@@ -145,7 +110,7 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "daily_notes/{{DATE:YYYY/MMMM/YYYY-MM-DD}}.md",
+      "captureTo": "Knowledge/daily_notes/{{DATE:YYYY/MMMM/YYYY-MM-DD}}.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,

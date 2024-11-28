@@ -230,6 +230,7 @@ iOS
 inspire
 inviting
 ima
+invariant
 JavaScript
 July
 Javascript
@@ -562,6 +563,7 @@ discussions
 demande
 div
 dalje
+direktordirektro
 several
 symbols
 string
@@ -998,6 +1000,9 @@ ssh
 storage
 saving
 skips
+stize
+struktura
+slika
 for
 first
 fix
@@ -1195,6 +1200,7 @@ feedback
 fini
 flex
 freeze
+finishing
 us
 used
 using
@@ -1713,6 +1719,7 @@ alternate
 ai
 ahadef
 aggregated
+abstraction
 metaprogramming
 means
 modify
@@ -2493,6 +2500,7 @@ colgroup
 cfc
 cronjob
 constraints
+christmas
 the
 these
 tells
@@ -2921,6 +2929,7 @@ browsing
 beautiful
 broke
 bonne
+banka
 of
 our
 one
@@ -3371,6 +3380,9 @@ pseudo
 pieces
 produkciju
 prepared
+planned
+promijene
+party
 Using
 UI
 Unions
@@ -4142,6 +4154,8 @@ explored
 enjoy
 europe
 expiration
+encapsulation
+encapsulated
 Why
 When
 Whenever
@@ -4428,6 +4442,7 @@ linking
 liked
 loved
 largely
+lambda
 named
 needs
 no
@@ -4529,6 +4544,7 @@ nazvati
 notre
 nowrap
 none
+nova
 Symbol
 SRE
 SPIKE
@@ -4990,6 +5006,7 @@ valued
 vs
 votre
 vreichstadt
+vise
 Examples
 Evaluation
 Evaluations
@@ -5253,6 +5270,7 @@ Champagne
 Client
 Crontab
 Created
+Christmas
 PR
 Phase
 Plan
@@ -5375,6 +5393,7 @@ PLAN
 Prix
 Pauline
 Public
+PGP
 Archive
 At
 Acceptance
@@ -5506,6 +5525,7 @@ Adresse
 Au
 AM
 Aug
+Ante
 je
 jump
 javascript
@@ -5683,6 +5703,7 @@ googleapis
 guru
 gzip
 gcp
+godisnji
 Friday
 FE
 First
@@ -5780,6 +5801,7 @@ FOLDER
 Finding
 Finds
 Feel
+Fix
 quick
 query
 qh

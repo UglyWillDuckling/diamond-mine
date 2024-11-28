@@ -33,28 +33,14 @@ show tree
 	- [x] #task update constructor and creation ✅ 2024-11-14
 	- [x] #task update relevant methods ✅ 2024-11-14
 		- 'i try to use data that is **always there**
-	- [!] update tests again
-- [x] #task `picture data` method ✅ 2024-11-14
 - [x] 't update tests with correct values from DB #task ✅ 2024-11-26
 	- data needs to match with **actual** entities
 	- the entities should also be **linked** properly
-- [x] #task update entity ✅ 2024-11-26
-- [ ] #task #fix take a look at ...
+- [/] #task [[CSV import]] ⏫
+- [x] #task add back `start_date` ⏫ ✅ 2024-11-27
 - [ ] #task cleanup tests
-- [ ] #task [[CSV import]]
+- [ ] #task add `created_at` field
 
-### update entity
-- [x] remove dates
-- [x] add online field
-	- [x] entity
-	- [x] tests
-		- [x] check db
-	- [x] data
-- [x] depending code
-
+---
 ### <mark style="background: #FFB8EBA6;">current</mark>
-- [x] update entity
-- [/] implement `picture data`
-	- [x] implement method
-	- [ ] 't add `tests`
-
+[[CSV import]]

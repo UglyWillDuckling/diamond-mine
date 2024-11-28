@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "💾",
       "LiRocket",
       "LiBookCopy",
       "LiBug",
-      "🖥",
-      "LiTv"
+      "🖥"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -378,16 +378,6 @@
     "iconColor": "#8e52ff"
   },
   "dev": "🖥",
-  "daily_notes": "LiCalendarDays",
-  "daily_notes/Current or active.md": "LiActivity",
-  "daily_notes/2024/old/2024-10-30.md": {
-    "iconName": "LiCalendarFold",
-    "iconColor": "#ede612"
-  },
-  "daily_notes/2024/November/2024-11-21.md": {
-    "iconName": "LiCalendarCog",
-    "iconColor": "#f0d62d"
-  },
   "notes/I should read books on tools that I use.md": {
     "iconName": "LiBookCopy",
     "iconColor": "#be2351"
@@ -402,5 +392,16 @@
     "iconName": "LiGitPullRequest",
     "iconColor": "#8e30a1"
   },
-  "dev/general/bugs/fix reminders plugin.md": "LiBug"
+  "dev/general/bugs/fix reminders plugin.md": "LiBug",
+  "Knowledge/daily_notes": "LiCalendarDays",
+  "Knowledge/daily_notes/Current or active.md": "LiActivity",
+  "Knowledge/daily_notes/2024/November/2024-11-21.md": {
+    "iconName": "LiCalendarCog",
+    "iconColor": "#f0d62d"
+  },
+  "Knowledge/daily_notes/2024/old/2024-10-30.md": {
+    "iconName": "LiCalendarFold",
+    "iconColor": "#ede612"
+  },
+  "Knowledge/Media/Film/2001 A Space Odyssey.md": "💾"
 }

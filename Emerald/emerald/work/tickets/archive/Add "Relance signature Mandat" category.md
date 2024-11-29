@@ -22,16 +22,7 @@ When creating a new task, the user can choose from the “Catégory" dropdown a 
 	2. update translation file
 3. add value to the test assets
 
-### how to run the mediaAPI migration
-- uses `alembic`
-- needs to be run inside the container
-
-```bash
- docker exec mediaapi-local-app-run-f9010601bc64 bash -c 'cd migrations; alembic upgrade head'
-```
-*the container name is partially random*
-
----
+![[how to run the mediaAPI migration]]
 
 ## Work
 

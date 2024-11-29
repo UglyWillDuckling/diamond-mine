@@ -4,25 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "a483aa5463af3d82",
+        "id": "05dadc8b55cff2e9",
         "type": "tabs",
         "children": [
           {
-            "id": "5ec05a0bc381cd10",
+            "id": "3d45624c6ec3df48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Books/Algorithms to Live By.md",
+                "file": "Knowledge/daily_notes/2024/November/2024-11-29.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algorithms to Live By"
+              "title": "2024-11-29"
+            }
+          },
+          {
+            "id": "1d67542852f26da6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/tickets/FEAT/QSL listing feature/create real table.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "create real table"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#task",
+                "query": "alembic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 329.5,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -127,10 +144,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Books/Algorithms to Live By.md"
+                "file": "work/tickets/FEAT/QSL listing feature/create real table.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Algorithms to Live By"
+              "title": "Outline of create real table"
             }
           },
           {
@@ -212,14 +229,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5ec05a0bc381cd10",
+  "active": "1d67542852f26da6",
   "lastOpenFiles": [
-    "Knowledge/Books/Bookshelf.md",
-    "Knowledge/Books/Algorithms to Live By.md",
-    "Knowledge/Books/Brave New World.md",
-    "Education/Typescript/resources/Learning Typescript Book/Learning TypeScript book.md",
+    "x/Compte Rendu d'Activité - October 2024.pdf",
+    "work/tickets/FEAT/QSL listing feature/create real table.md",
+    "Untitled",
+    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+    "work/tickets/FEAT/QSL listing feature/subs/CSV import.md",
+    "Knowledge/daily_notes/2024/November/2024-11-29.md",
+    "work/docs/how to/how to run the mediaAPI migration.md",
+    "work/tickets/archive/Add \"Relance signature Mandat\" category.md",
+    "Clippings/Get the name of the current file.md",
+    "work/calls/DAILY/2024-11-29 daily.md",
+    "work/calls/DAILY/daily - 24-10-31.md",
+    "work/calls/DAILY/daily; 24-10-30.md",
     "Kanban.md",
     "Action.canvas",
+    "Knowledge/Books/Algorithms to Live By.md",
+    "Knowledge/Books/Bookshelf.md",
+    "Knowledge/Books/Brave New World.md",
+    "Education/Typescript/resources/Learning Typescript Book/Learning TypeScript book.md",
     "Knowledge/templates/movie.md",
     "Clippings/Order James Baldwin books.md",
     "Knowledge/templates/book.md",
@@ -227,20 +256,9 @@
     "Knowledge/Books/Brave New World1.md",
     "Knowledge/templates/daily call template.md",
     "Knowledge/templates/day.md",
-    "Knowledge/daily_notes/2024/November/2024-11-29.md",
     "Knowledge/templates/tool.md",
-    "work/calls/DAILY/2024-11-29 daily.md",
     "Knowledge/templates/{{DATE}} daily.md",
     "work/calls/CRM/arch meeting v4.md",
-    "work/calls/backyard/Matching QSL project & SL listing + Display for BY users - Clarifications.md",
-    "work/calls/CRM/SLMP call.md",
-    "work/calls/CRM/New CRM Architecture meet v3.md",
-    "work/calls/CRM/CRM macro estimate v3.md",
-    "work/calls/CRM/CRM macro estimate v2.md",
-    "work/calls/CRM/CRM in SLMP - macro-estimate session.md",
-    "work/calls/CRM/CRM - introduction to Design.md",
-    "work/calls/CRM/backyard data migration prep.md",
-    "work/calls/CRM/Architecture call v3.md",
     "x",
     "+",
     "work/calls/backyard/Vladimir ",
@@ -250,7 +268,6 @@
     "Knowledge/daily_notes/2024/November",
     "daily_notes/9 2024/November",
     "daily_notes/9 2024",
-    "daily_notes/35 2024/November",
     "work/people and teams/LUNA/Screenshot_20241107_140216.png",
     "work/docs/CRM/CRM.canvas",
     "Knowledge/tools/PM/bee-bole-export.png",

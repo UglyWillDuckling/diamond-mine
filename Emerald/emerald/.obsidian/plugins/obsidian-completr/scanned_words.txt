@@ -279,6 +279,7 @@ Je
 Jul
 Jun
 JWT
+JohnBeckett
 defines
 defining
 data
@@ -2540,6 +2541,7 @@ clouds
 chapters
 chapter
 convenience
+consisting
 the
 these
 tells
@@ -2794,6 +2796,7 @@ tent
 thead
 technique
 typically
+tail
 behavior
 built
 by
@@ -3478,6 +3481,7 @@ Usually
 UTF
 Unquoted
 Updated
+UTC
 how
 have
 hello
@@ -3886,6 +3890,8 @@ retain
 radim
 regarding
 recommended
+register
+registers
 Here
 How
 HOST
@@ -3945,6 +3951,7 @@ HELLO
 Holds
 Hi
 HH
+Hey
 example
 exists
 explore
@@ -5341,6 +5348,7 @@ Client
 Crontab
 Created
 Christmas
+Ctrl
 PR
 Phase
 Plan
@@ -5600,6 +5608,7 @@ Ante
 Account
 AD
 Aliases
+According
 je
 jump
 javascript
@@ -6230,6 +6239,7 @@ Rue
 Retention
 Regional
 Rows
+Register
 MA
 Mandats
 Mandat
@@ -6413,6 +6423,7 @@ View
 Villa
 Version
 Value
+VimTip
 Quality
 QUEUE
 QSL

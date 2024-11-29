@@ -36,10 +36,11 @@ show tree
 - [x] 't update tests with correct values from DB #task ✅ 2024-11-26
 	- data needs to match with **actual** entities
 	- the entities should also be **linked** properly
-- [/] #task [[CSV import]] ⏫
 - [x] #task add back `start_date` ⏫ ✅ 2024-11-27
+- [/] #task [[CSV import]] ⏫
 - [ ] #task cleanup tests
 - [ ] #task add `created_at` field
+- [ ] #task [[create real table]]
 
 ---
 ### <mark style="background: #FFB8EBA6;">current</mark>

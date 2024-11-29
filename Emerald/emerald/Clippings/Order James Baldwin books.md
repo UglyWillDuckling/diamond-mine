@@ -4,7 +4,8 @@ source: https://wordery.com/checkout2/checkout/complete?ts=1731364116
 created: 2024-11-11
 tags:
   - clippings
-  - book
+  - books
+  - order
 ---
 [[James Baldwin]]
 

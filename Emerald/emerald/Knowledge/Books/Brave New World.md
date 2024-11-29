@@ -1,6 +1,9 @@
 ---
-start date:
+start date: 
+status: unread
 ---
+#📚Book
+
 ![poster](http://books.google.com/books/content?id=ZiLvDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api)
 
 **Author**:: [[Aldous Huxley]]

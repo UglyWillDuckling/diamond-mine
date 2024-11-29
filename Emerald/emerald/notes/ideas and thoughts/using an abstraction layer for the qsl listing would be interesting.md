@@ -4,5 +4,5 @@
 	- @ create a new `table`
 	- use the [tutorial](https://www.doctrine-project.org/projects/doctrine-orm/en/3.3/tutorials/getting-started.html#getting-started-with-doctrine) as a guide
 
-relates to: **[[work/tickets/FEAT/QSL listing/QSL listing|QSL listing]]**, [[PHP 7. choose a different metadata driver. · doctrineorm]]
+relates to: **[[QSL listing feature|QSL listing feature]]**, [[PHP 7. choose a different metadata driver. · doctrineorm]]
 

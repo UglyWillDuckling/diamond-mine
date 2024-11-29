@@ -8,7 +8,7 @@
 
 ## agenda
 
-discussion on the implementation of the qsl import regarding [[work/tickets/FEAT/QSL listing/QSL listing|QSL listing]]
+discussion on the implementation of the qsl import regarding [[QSL listing feature|QSL listing feature]]
 
 ## topics
 - access to bucket on [[GCP]]

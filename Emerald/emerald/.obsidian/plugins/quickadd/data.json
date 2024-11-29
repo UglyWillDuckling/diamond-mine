@@ -161,7 +161,7 @@
             "name": "book template",
             "type": "Template",
             "command": false,
-            "templatePath": "notes/templates/book template.md",
+            "templatePath": "Knowledge/templates/book.md",
             "fileNameFormat": {
               "enabled": true,
               "format": "{{VALUE:title}}"

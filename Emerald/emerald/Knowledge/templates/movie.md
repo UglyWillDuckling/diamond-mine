@@ -1,4 +1,3 @@
-
 director:: {{VALUE:directorLink}}
 genre:: {{VALUE:genreLinks}}
 year:: {{VALUE:Year}}

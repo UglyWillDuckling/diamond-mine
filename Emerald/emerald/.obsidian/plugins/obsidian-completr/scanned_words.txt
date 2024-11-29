@@ -577,6 +577,8 @@ delegator
 delegate
 driver
 doctrine
+danas
+devoid
 several
 symbols
 string
@@ -1018,6 +1020,8 @@ struktura
 slika
 simplifying
 sends
+socialized
+ss
 for
 first
 fix
@@ -1326,6 +1330,8 @@ unnatural
 unordered
 unix
 upgrade
+utopia
+unread
 These
 The
 Today
@@ -1743,6 +1749,7 @@ assume
 authorized
 accounts
 attribute
+aws
 metaprogramming
 means
 modify
@@ -1978,6 +1985,7 @@ max
 managed
 mulitple
 managing
+mm
 which
 we
 with
@@ -2529,6 +2537,9 @@ cronjob
 constraints
 christmas
 clouds
+chapters
+chapter
+convenience
 the
 these
 tells
@@ -3420,6 +3431,9 @@ party
 permission
 premises
 providers
+pocinje
+ponedjeljak
+prophetic
 Using
 UI
 Unions
@@ -3588,6 +3602,7 @@ hashed
 heard
 habitables
 hour
+horrors
 runs
 representation
 refers
@@ -3929,6 +3944,7 @@ Hello
 HELLO
 Holds
 Hi
+HH
 example
 exists
 explore
@@ -4869,6 +4885,7 @@ known
 keyboard
 kept
 kferre
+klizno
 Description
 Date
 Demander
@@ -5582,6 +5599,7 @@ Aug
 Ante
 Account
 AD
+Aliases
 je
 jump
 javascript
@@ -5626,6 +5644,7 @@ joindre
 journ
 justify
 json
+jos
 Yesterday
 You
 YQ
@@ -6054,6 +6073,7 @@ Before
 Bartet
 Bonjour
 Bucket
+Bookshelf
 Lastly
 LOCAL
 LUNA

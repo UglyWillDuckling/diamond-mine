@@ -1,9 +1,11 @@
+#Book #📚Book
+
 ![poster](http://books.google.com/books/content?id=yvaLCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api)
 
 **Author**:: Brian Christian,Tom Griffiths
 **Title**:: Algorithms to Live By
 **Category**::Science
-**Status**:: 📥
+**Status**:: unread
 
 **Related Books**
 ### Core Questions for Me

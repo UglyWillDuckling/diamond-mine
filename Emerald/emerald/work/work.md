@@ -3,12 +3,12 @@ color: var(--mk-color-pink)
 tags:
   - work
 ---
-> This is now a bit like a note 📔🗒
-
 ## tasks ✔
 
 ### unsorted
 - [x] #task 📅 2024-11-14  [[fix Dockerfile]] ✅ 2024-11-14
+
+### pending
 
 ```tasks
 not done

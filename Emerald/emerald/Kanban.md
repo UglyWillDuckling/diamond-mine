@@ -41,7 +41,7 @@ color: var(--mk-color-orange)
 
 ## active ⚔
 
-- [ ] [[work/tickets/FEAT/QSL listing/QSL listing|QSL listing]]
+- [ ] [[QSL listing feature|QSL listing feature]]
 - [/] [[see how to manage tasks]] ☑ #tasks
 - [ ] [[organize obsidian notes with dataview and folders]]
 - [ ] education / typescript advanced [[Typesript Education]] #education #task
@@ -110,6 +110,6 @@ color: var(--mk-color-orange)
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,false,true],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true}
+{"kanban-plugin":"board","list-collapse":[true,false,false,false],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true}
 ```
 %%

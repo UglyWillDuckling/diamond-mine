@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b375357aebaea913",
+        "id": "a483aa5463af3d82",
         "type": "tabs",
         "children": [
           {
-            "id": "26949123ab736961",
+            "id": "5ec05a0bc381cd10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/PHP 7. choose a different metadata driver. · doctrineorm.md",
+                "file": "Knowledge/Books/Algorithms to Live By.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PHP 7. choose a different metadata driver. · doctrineorm"
+              "title": "Algorithms to Live By"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 289.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -127,10 +127,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/PHP 7. choose a different metadata driver. · doctrineorm.md"
+                "file": "Knowledge/Books/Algorithms to Live By.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of PHP 7. choose a different metadata driver. · doctrineorm"
+              "title": "Outline of Algorithms to Live By"
             }
           },
           {
@@ -212,39 +212,39 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "26949123ab736961",
+  "active": "5ec05a0bc381cd10",
   "lastOpenFiles": [
-    "notes/ideas and thoughts/using an abstraction layer for the qsl listing would be interesting.md",
-    "Knowledge/daily_notes/2024/November/2024-11-28.md",
-    "Clippings/PHP 7. choose a different metadata driver. · doctrineorm.md",
-    "Knowledge/tools/dev/php/doctrine.md",
-    "work/calls/backyard/Vladimir / Paulo WIF and GCP.md",
-    "work/calls/backyard/Vladimir /Workload Identity Federation.md",
-    "work/calls/backyard/Vladimir /how WIF works on GCP.md",
-    "work/calls/backyard/Vladimir /what is account impersonation.md",
+    "Knowledge/Books/Bookshelf.md",
+    "Knowledge/Books/Algorithms to Live By.md",
+    "Knowledge/Books/Brave New World.md",
+    "Education/Typescript/resources/Learning Typescript Book/Learning TypeScript book.md",
+    "Kanban.md",
+    "Action.canvas",
+    "Knowledge/templates/movie.md",
+    "Clippings/Order James Baldwin books.md",
+    "Knowledge/templates/book.md",
+    "Knowledge/templates/call.md",
+    "Knowledge/Books/Brave New World1.md",
+    "Knowledge/templates/daily call template.md",
+    "Knowledge/templates/day.md",
+    "Knowledge/daily_notes/2024/November/2024-11-29.md",
+    "Knowledge/templates/tool.md",
+    "work/calls/DAILY/2024-11-29 daily.md",
+    "Knowledge/templates/{{DATE}} daily.md",
+    "work/calls/CRM/arch meeting v4.md",
+    "work/calls/backyard/Matching QSL project & SL listing + Display for BY users - Clarifications.md",
+    "work/calls/CRM/SLMP call.md",
+    "work/calls/CRM/New CRM Architecture meet v3.md",
+    "work/calls/CRM/CRM macro estimate v3.md",
+    "work/calls/CRM/CRM macro estimate v2.md",
+    "work/calls/CRM/CRM in SLMP - macro-estimate session.md",
+    "work/calls/CRM/CRM - introduction to Design.md",
+    "work/calls/CRM/backyard data migration prep.md",
+    "work/calls/CRM/Architecture call v3.md",
     "x",
     "+",
-    "Kanban.md",
-    "Knowledge/daily_notes/Current or active.md",
     "work/calls/backyard/Vladimir ",
-    "dev/general/check the Benq monitor.md",
     "dev/obsidian",
-    "dev/obsidian/study obsidian some more.md",
-    "Action.canvas",
-    "dev/obsidian/add other quick adds.md",
-    "tasks/dev/Obsidian/see how to manage tasks.md",
-    "work/calls/DAILY/2024-11-28 daily.md",
-    "work/calls/DAILY/2024-11-28 daily1.md",
-    "work/people and teams/LUNA/Danijela.md",
-    "people/Allen Holub.md",
-    "people/Rebecca Wirfs-Brock.md",
-    "work/tickets/FEAT/QSL listing/QSL listing.md",
-    "notes/wordery has much cheaper shipping.md",
-    "notes/I should read books on tools that I use.md",
-    "notes/fali mi prostora na ekranu.md",
-    "work/tickets/FEAT/QSL listing/subs/CSV import.md",
-    "Knowledge/daily_notes/2024/November/2024-11-27.md",
-    "dev/general/general.md",
     "dev/nvim",
     "Knowledge/daily_notes/2024/old",
     "Knowledge/daily_notes/2024/November",

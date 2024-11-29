@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "📚",
+      "LiBook",
+      "🎥",
       "LiPhoneCall",
-      "💾",
-      "LiRocket",
-      "LiBookCopy",
-      "LiBug"
+      "💾"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -149,17 +149,6 @@
   "tasks/archive/add keywords to TODO.md": "LiWholeWord",
   "work/notes/archive/Millions of euros for a buy in France.md": "🇫🇷",
   "work/calls/SPRINT/Sprint planning 10-14.md": "👟",
-  "work/tickets/FEAT/QSL listing/docs": "LiFolder",
-  "work/tickets/FEAT/QSL listing/docs/where to find the listing atm.md": "🔍",
-  "work/tickets/FEAT/QSL listing/docs/required fields.md": "⚠",
-  "work/tickets/FEAT/QSL listing": {
-    "iconName": "LiListPlus",
-    "iconColor": "#a349bc"
-  },
-  "work/tickets/FEAT/QSL listing/ideas": {
-    "iconName": "LiSunDim",
-    "iconColor": "#ecb43c"
-  },
   "work/people and teams": {
     "iconName": "LiPersonStanding",
     "iconColor": "#ca3f77"
@@ -167,11 +156,6 @@
   "work/calls/CRM/CRM - introduction to Design.md": "👑",
   "work/calls/CRM/CRM in SLMP - macro-estimate session.md": "👑",
   "work/calls/CRM/CRM macro estimate v2.md": "👑",
-  "work/tickets/FEAT/QSL listing/subs": "LiBaby",
-  "work/tickets/FEAT/QSL listing/subs/Create DB table.md": {
-    "iconName": "LiTable",
-    "iconColor": "#5729ae"
-  },
   "work/people and teams/LUNA/Danijela.md": "🫐",
   "work/people and teams/LUNA/Natasa.md": "👧",
   "work/people and teams/LUNA/Paulo.md": "LiBike",
@@ -194,7 +178,6 @@
   "Knowledge/Books": "LiLibraryBig",
   "Knowledge/Articles": "LiPencilLine",
   "tasks/dev/nvim - nvim-tree/nvim - setup nvim-tree.md": "LiTreeDeciduous",
-  "work/tickets/FEAT/QSL listing/subs/build the interface.md": "LiFacebook",
   "work/calls/DAILY": "🌅",
   "work/docs/concepts": {
     "iconName": "LiShapes",
@@ -213,8 +196,6 @@
   "people/Rebecca Wirfs-Brock.md": "👥",
   "work/people and teams/SRE.md": "LiBringToFront",
   "Kanban.md": "🎬",
-  "work/tickets/FEAT/QSL listing/subs/archive": "LiArchive",
-  "work/tickets/FEAT/QSL listing/subs/archive/spike - qsl project.md": "✏",
   "work/tickets/archive/Wysiwyg replacement.md": "LiPawPrint",
   "Knowledge/concepts": "LiShapes",
   "Knowledge/concepts/computer science": "LiCpu",
@@ -265,10 +246,6 @@
   "Knowledge/tools/dev/git/git butler.md": "👔",
   "Knowledge/tools/dev/nvim/nerdtree-visual-selection.md": "🎄",
   "Knowledge/tools/dev/nvim/oil nvim.md": "🛢",
-  "work/tickets/FEAT/QSL listing/subs/build the model.md": {
-    "iconName": "LiToyBrick",
-    "iconColor": "#c24bd2"
-  },
   "tasks/dev/Obsidian/see how best to manager folders with notes.md": "LiFolder",
   "tasks/dev/Obsidian/Tasks plugin.md": "LiCheck",
   "work/calls/backyard/Project creation call.md": "LiProjector",
@@ -404,5 +381,31 @@
     "iconColor": "#ede612"
   },
   "Knowledge/Media/Film/2001 A Space Odyssey.md": "💾",
-  "work/calls/backyard/Vladimir / Paulo WIF and GCP.md": "LiPhoneCall"
+  "work/calls/backyard/Vladimir / Paulo WIF and GCP.md": "LiPhoneCall",
+  "work/tickets/FEAT/QSL listing feature": {
+    "iconName": "LiListPlus",
+    "iconColor": "#a349bc"
+  },
+  "work/tickets/FEAT/QSL listing feature/docs": "LiFolder",
+  "work/tickets/FEAT/QSL listing feature/ideas": {
+    "iconName": "LiSunDim",
+    "iconColor": "#ecb43c"
+  },
+  "work/tickets/FEAT/QSL listing feature/subs": "LiBaby",
+  "work/tickets/FEAT/QSL listing feature/docs/required fields.md": "⚠",
+  "work/tickets/FEAT/QSL listing feature/docs/where to find the listing atm.md": "🔍",
+  "work/tickets/FEAT/QSL listing feature/subs/Create DB table.md": {
+    "iconName": "LiTable",
+    "iconColor": "#5729ae"
+  },
+  "work/tickets/FEAT/QSL listing feature/subs/archive": "LiArchive",
+  "work/tickets/FEAT/QSL listing feature/subs/build the interface.md": "LiFacebook",
+  "work/tickets/FEAT/QSL listing feature/subs/build the model.md": {
+    "iconName": "LiToyBrick",
+    "iconColor": "#c24bd2"
+  },
+  "work/tickets/FEAT/QSL listing feature/subs/archive/spike - qsl project.md": "✏",
+  "Knowledge/templates/movie.md": "🎥",
+  "Knowledge/templates/book.md": "LiBook",
+  "Knowledge/Books/Bookshelf.md": "📚"
 }

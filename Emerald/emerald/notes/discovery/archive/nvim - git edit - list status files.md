@@ -4,4 +4,4 @@
 <leader>gs
 ```
 
-- [ ] try this out again (@[[2024-11-28]])
+- [x] try this out again (@[[2024-11-28]])

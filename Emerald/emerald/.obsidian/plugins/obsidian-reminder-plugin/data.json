@@ -4,7 +4,7 @@
     "work/notes/test are run using a test Makefile.md": [
       {
         "title": "remind",
-        "time": "2024-11-29",
+        "time": "2024-12-06",
         "rowNumber": 3
       }
     ],
@@ -18,32 +18,18 @@
     "notes/I should read books on tools that I use.md": [
       {
         "title": "remind",
-        "time": "2024-11-28",
+        "time": "2024-12-06",
         "rowNumber": 5
-      }
-    ],
-    "notes/discovery/archive/nvim - git edit - list status files.md": [
-      {
-        "title": "try this out again",
-        "time": "2024-11-28",
-        "rowNumber": 6
-      }
-    ],
-    "work/tickets/chores/setup commit verification locally.md": [
-      {
-        "title": "see again how this works",
-        "time": "2024-11-29",
-        "rowNumber": 21
       }
     ],
     "Clippings/connect to backyard tasks SSH.md": [
       {
         "title": "a friendly reminder",
-        "time": "2024-11-29",
+        "time": "2024-12-06",
         "rowNumber": 17
       }
     ],
-    "work/tickets/FEAT/QSL listing/subs/CSV import.md": [
+    "work/tickets/FEAT/QSL listing feature/subs/CSV import.md": [
       {
         "title": "#task write the **real** import ⏫",
         "time": "2024-11-28",

@@ -1,11 +1,16 @@
 #day
-[[{{DATE}}]]
 
 ![[Current or active#current notes 📓]]
 
 ---
 ## Yesterday
-- ...
+```dataview
+LIST WITHOUT ID "Previous day: " + file.link
+FROM "Knowledge/daily_notes"
+WHERE file.name != this.file.name AND file.day < this.file.day
+SORT file.day DESC
+LIMIT 1
+```
 
 ## Today
 
@@ -20,15 +25,22 @@
 
 ![[{{DATE}} daily#per person]]
 
-### goals 🏴
-- ...
+###  🎏
+- ..
 
-### todo's ✔
+### ☑
 - [ ] pogledati  obaveze i zadatke
 - [ ] **education 🎒**
 - [ ] rest ⛅ 
-	- [ ] pauza 
-	- [ ] pauze ☕ 
+
+### 🤙
+```dataview
+TABLE WITHOUT ID
+file.link as call, file.day - date(today) as when, regexreplace(file.folder, "^.*\/", "") AS Area
+FROM #call
+WHERE file.day AND file.day = date(today)
+sort date DESC
+```
 
 ### Day planner
 

@@ -8,7 +8,7 @@ tags:
 ### unsorted
 - [x] #task 📅 2024-11-14  [[fix Dockerfile]] ✅ 2024-11-14
 
-### pending
+### pending tasks
 
 ```tasks
 not done
@@ -18,6 +18,7 @@ sort by priority
 group by filename
 show tree
 ```
+---
 
 ## calls
 
@@ -43,7 +44,7 @@ if (DQL.values.length > 0){
 
 ```dataview
 TABLE WITHOUT ID
-file.link as call, file.day, regexreplace(file.folder, "^.*\/", "") AS Area
+file.link as call, file.day as when, regexreplace(file.folder, "^.*\/", "") AS Area
 FROM #work/call
 WHERE file.day AND file.day > date(today) - dur(10 day)  AND file.day < date(today)
 sort date DESC

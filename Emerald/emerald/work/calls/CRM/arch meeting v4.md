@@ -5,19 +5,15 @@ date: 2024-11-29
 
 ## who
 - [[luna team]]
-
-## what
-
-## agenda
-
-## topics
+## topics 🍁
+- [[unified shell]]
+- [[gemini components]]
 
 ---
-
-## discussion
-
-## decisions
-
 ## important
 
 ## notes
+
+## discussion
+
+- [?] ...

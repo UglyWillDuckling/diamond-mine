@@ -8,33 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d45624c6ec3df48",
+            "id": "af8c9badd276dfb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/daily_notes/2024/November/2024-11-29.md",
+                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-11-29"
+              "title": "QSL listing feature"
             }
           },
           {
-            "id": "1d67542852f26da6",
+            "id": "c28d4ed922d9c144",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/create real table.md",
+                "file": "work/tickets/FEAT/QSL listing feature/result.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "create real table"
+              "title": "result"
             }
           }
         ],
@@ -79,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "alembic",
+                "query": "tag:#mediaapi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
+    "width": 292.5,
     "collapsed": true
   },
   "right": {
@@ -144,10 +144,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/create real table.md"
+                "file": "work/tickets/FEAT/QSL listing feature/result.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of create real table"
+              "title": "Outline of result"
             }
           },
           {
@@ -229,15 +229,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1d67542852f26da6",
+  "active": "c28d4ed922d9c144",
   "lastOpenFiles": [
-    "x/Compte Rendu d'Activité - October 2024.pdf",
     "work/tickets/FEAT/QSL listing feature/create real table.md",
-    "Untitled",
-    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+    "work/tickets/FEAT/QSL listing feature/result.md",
+    "work/tickets/FEAT/QSL listing feature/subs/study CSV export.md",
     "work/tickets/FEAT/QSL listing feature/subs/CSV import.md",
+    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+    "Knowledge/templates/day.md",
     "Knowledge/daily_notes/2024/November/2024-11-29.md",
+    "work/calls/CRM/arch meeting v4.md",
+    "work/work.md",
+    "work/calls/backyard/ Paulo WIF and GCP.md",
+    "work/calls/CRM/CRM macro estimate v3.md",
+    "work/calls/CRM/Team LUNA deadline sync meet.md",
     "work/docs/how to/how to run the mediaAPI migration.md",
+    "work/calls/calls.md",
+    "x/Compte Rendu d'Activité - October 2024.pdf",
+    "Untitled",
     "work/tickets/archive/Add \"Relance signature Mandat\" category.md",
     "Clippings/Get the name of the current file.md",
     "work/calls/DAILY/2024-11-29 daily.md",
@@ -251,14 +260,6 @@
     "Education/Typescript/resources/Learning Typescript Book/Learning TypeScript book.md",
     "Knowledge/templates/movie.md",
     "Clippings/Order James Baldwin books.md",
-    "Knowledge/templates/book.md",
-    "Knowledge/templates/call.md",
-    "Knowledge/Books/Brave New World1.md",
-    "Knowledge/templates/daily call template.md",
-    "Knowledge/templates/day.md",
-    "Knowledge/templates/tool.md",
-    "Knowledge/templates/{{DATE}} daily.md",
-    "work/calls/CRM/arch meeting v4.md",
     "x",
     "+",
     "work/calls/backyard/Vladimir ",
@@ -267,7 +268,6 @@
     "Knowledge/daily_notes/2024/old",
     "Knowledge/daily_notes/2024/November",
     "daily_notes/9 2024/November",
-    "daily_notes/9 2024",
     "work/people and teams/LUNA/Screenshot_20241107_140216.png",
     "work/docs/CRM/CRM.canvas",
     "Knowledge/tools/PM/bee-bole-export.png",

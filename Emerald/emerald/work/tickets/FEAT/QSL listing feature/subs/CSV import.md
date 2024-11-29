@@ -80,10 +80,7 @@ static function save($listing) {
 
 <mark style="background: #FFF3A3A6;">making the repository a separate class would likely make things much clearer</mark>
 
-### start date
-- [x] entity
-- [x] model
-- [x] data model
+
 ---
 ## active ✔
 ```tasks

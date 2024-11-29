@@ -1,0 +1,9 @@
+.dataview.dataview-error-box {
+ margin-top: 5px;
+ min-height: 0;
+}
+
+// not related
+.cm-preview-code-block.cm-embed-block.markdown-rendered {
+    margin-top: 5px !important;
+}

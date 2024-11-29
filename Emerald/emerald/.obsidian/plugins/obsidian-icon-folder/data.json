@@ -380,7 +380,6 @@
     "iconColor": "#ede612"
   },
   "Knowledge/Media/Film/2001 A Space Odyssey.md": "💾",
-  "work/calls/backyard/Vladimir / Paulo WIF and GCP.md": "LiPhoneCall",
   "work/tickets/FEAT/QSL listing feature": {
     "iconName": "LiListPlus",
     "iconColor": "#a349bc"
@@ -406,5 +405,6 @@
   "work/tickets/FEAT/QSL listing feature/subs/archive/spike - qsl project.md": "✏",
   "Knowledge/templates/movie.md": "🎥",
   "Knowledge/templates/book.md": "LiBook",
-  "Knowledge/Books/Bookshelf.md": "📚"
+  "Knowledge/Books/Bookshelf.md": "📚",
+  "work/calls/backyard/ Paulo WIF and GCP.md": "LiPhoneCall"
 }

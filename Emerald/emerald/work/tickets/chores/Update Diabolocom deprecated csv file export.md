@@ -12,7 +12,7 @@ which includes structural changes.
 
 ## <mark style="background: #BBFABBA6;">acceptance</mark>
 - [x] the data is generated and stored correctly
-- [ ] the entries are updated `automatically` via [[Backyard Tasks]]
+- [ ] the entries are updated `automatically` via [[Backyard Tasks app]]
 ---
 ## notes 📔
 - <mark style="background: #FFF3A3A6;">the `script` itself can be run via the browser</mark>
@@ -43,7 +43,7 @@ LIMIT 500;
 ```
 
 ## <mark style="background: #FFB8EBA6;">current</mark> ♨
-- ! need to deploy [[Backyard Tasks]]
+- ! need to deploy [[Backyard Tasks app]]
 	- dev deployed
 	- next is prod
 ---
@@ -61,7 +61,7 @@ LIMIT 500;
 	- [x] run the import again
 	- [x] check the `my` page
 	- [x] see what should be displayed
-- [x] deploy the [[Backyard Tasks]] #task ✅ 2024-11-25
+- [x] deploy the [[Backyard Tasks app]] #task ✅ 2024-11-25
 	- [x] dev
 	- [x] prod
 - [/] #task check production update
@@ -103,7 +103,7 @@ LIMIT 500;
 #### notes 🗒
 - the data should be updating **every 15 min for the entire day after 9AM**
 - after importing, the data seems consistent in both the DB and on the backyard
-- we need to apply the changes to [[Backyard Tasks]]
+- we need to apply the changes to [[Backyard Tasks app]]
 
 ### deploy Tasks ⛏
 - [x] resolve deployment issue

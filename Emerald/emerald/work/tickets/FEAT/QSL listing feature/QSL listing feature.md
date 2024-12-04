@@ -37,11 +37,13 @@ show tree
 	- data needs to match with **actual** entities
 	- the entities should also be **linked** properly
 - [x] #task add back `start_date` ⏫ ✅ 2024-11-27
-- [/] #task [[CSV import]] ⏫
+- [x] #task [[CSV import]] ⏫ ✅ 2024-12-02
+- [x] #task [[create real table]] ✅ 2024-12-02
+- [x] #task add `created_at` field
+- [>] #task [[research how to add a cronjob]]
 - [ ] #task cleanup tests
-- [ ] #task add `created_at` field
-- [ ] #task [[create real table]]
+- [/] #task [[update online status]] ⏫
 
 ---
 ### <mark style="background: #FFB8EBA6;">current</mark>
-[[CSV import]]
+[[update online status]]

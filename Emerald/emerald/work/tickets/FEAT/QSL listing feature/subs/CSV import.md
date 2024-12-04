@@ -1,5 +1,3 @@
-https://csv.thephpleague.com/9.0/reader/
-
 ## notes 📔
 - reading the file is fast ⏩
 - `price` can easily be `null`
@@ -21,18 +19,13 @@ https://csv.thephpleague.com/9.0/reader/
 	- [x] unique `classified_id`
 	- [-] unique `project_id`
 - [x] #task get back the `start date` ✅ 2024-11-27
-- [/] #task [[#entity import]] ✅ 2024-11-27
+- [x] #task [[#entity import]] ✅ 2024-12-02
 	- [x] #task develop a new way of saving entities #encapsulation #abstraction ✅ 2024-11-27
-	- [x] #test add import tests #test
+	- [x] 't #test add import tests #test
 		- [x] #task create test for `CsvDataSource` construction ✅ 2024-11-26
-	- [!] #task write the **real** import ⏫ 📅 2024-11-28
+	- [x] #task write the **real** import ⏫ 📅 2024-11-28 ✅ 2024-12-02
 - [x] #task support for `created` time csv field 🔼 ✅ 2024-11-27
-- [>] #task research how to add a `cronjob`
-- [ ] #task modify tests to be smaller and quicker
-### data source
-- [x] explore `iterators`
-- [>] picture data 
-#### picture data
+- [x] #task modify tests to be smaller and quicker ✅ 2024-12-02
 
 ### entity import
 - [x] run basic create
@@ -46,8 +39,13 @@ https://csv.thephpleague.com/9.0/reader/
 	- [x] using the model
 	- [x] using the entity
 	- [x] using the class
-- [>] create `script` to run a **real** import
-	- [ ] view data in **real** db
+- [x] #task create a `script` to run a **real** import ✅ 2024-12-02
+	- [x] view data in **real** db
+	- [ ] commit
+- [x] #task [[#error handling]] ✅ 2024-12-02
+	- [x] logging errors
+	- [x] output errors
+	- [/] #task CSV missing file <mark style="background: #FFB8EBA6;">error</mark>
 
 #### saving entities
 
@@ -80,6 +78,26 @@ static function save($listing) {
 
 <mark style="background: #FFF3A3A6;">making the repository a separate class would likely make things much clearer</mark>
 
+### error handling
+
+#### direct output
+<mark style="background: #FF5582A6;">should contain</mark>
+- record information
+	- all of it
+- error information
+	- message
+	- point of origin
+	- other relevant ℹ
+	- **no** stack trace
+
+#### log records
+<mark style="background: #FF5582A6;">should contain</mark>
+- error info
+	- error message
+	- **full** stack trace of the error
+	- `record` information
+	- [x] ID
+	- [?] data
 
 ---
 ## active ✔
@@ -87,4 +105,9 @@ static function save($listing) {
 not done
 path includes {{query.file.path}}
 show tree
+```
+
+### doing 👨‍🏭
+```rb
+bin/exec php backyard/listing/qsl_listing_import.php
 ```

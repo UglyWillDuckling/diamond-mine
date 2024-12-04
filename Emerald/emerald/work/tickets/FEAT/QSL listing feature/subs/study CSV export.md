@@ -29,7 +29,6 @@
 	- [ ] verify `float` values
 	- [ ] check for `null's`
 - [i]  import the data directly into postgres db using [[csvkit]]
-	- [kit](https://csvkit.readthedocs.io/en/latest/index.html)
 - [ ] update entity to support contract being null
 
 ## <mark style="background: #FF5582A6;">important</mark>

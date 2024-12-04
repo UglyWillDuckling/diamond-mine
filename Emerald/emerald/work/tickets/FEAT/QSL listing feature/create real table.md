@@ -1,5 +1,8 @@
 - [x] #task switch to `mkt` schema ✅ 2024-11-29
-- [/] #task update media API
+- [x] #task update media API
+- [/] #task [[#make PR]]
+	- [x] create
+	- [ ] merge
 
 ## switch schema
 - [x] update backyard  mkt
@@ -13,30 +16,13 @@
 		![[how to run the mediaAPI migration]]
 	- [x] check, etc.
 		- [[Phpstorm]] db tool
-- [ ] [[#run the import]]
-- [>] make a **PR**
+- [x] [[#run the import]]
+- [x] make a **PR**
+	https://github.com/MeilleursAgents/MediaAPI/pull/327
+
+## make PR
+[[mediaapi]]
+https://github.com/MeilleursAgents/MediaAPI/pull/327
 
 ### run the import 🛳
 [[result]]
-
-## error handling
-
-### direct output
-<mark style="background: #FF5582A6;">should contain</mark>
-- record information
-	- all of it
-- error information
-	- message
-	- point of origin
-	- other relevant ℹ
-	- **no** stack trace
-
-### log records
-<mark style="background: #FF5582A6;">should contain</mark>
-- error info
-	- error message
-	- **full** stack trace of the error
-	- `record` information
-	- [x] ID
-	- [?] data
-	

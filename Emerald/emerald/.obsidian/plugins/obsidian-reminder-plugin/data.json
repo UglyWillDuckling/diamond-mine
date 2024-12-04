@@ -15,13 +15,6 @@
         "rowNumber": 1
       }
     ],
-    "notes/I should read books on tools that I use.md": [
-      {
-        "title": "remind",
-        "time": "2024-12-06",
-        "rowNumber": 5
-      }
-    ],
     "Clippings/connect to backyard tasks SSH.md": [
       {
         "title": "a friendly reminder",
@@ -29,11 +22,11 @@
         "rowNumber": 17
       }
     ],
-    "work/tickets/FEAT/QSL listing feature/subs/CSV import.md": [
+    "notes/read books on tools that I use.md": [
       {
-        "title": "#task write the **real** import ⏫",
-        "time": "2024-11-28",
-        "rowNumber": 27
+        "title": "remind",
+        "time": "2024-12-06",
+        "rowNumber": 5
       }
     ]
   },

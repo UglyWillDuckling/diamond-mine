@@ -1,3 +1,6 @@
 #bug #fix #issue #reminder-plugin #obsidian 
 
-Might **require** a manual plugin update
+
+- ~ the changes are reverted after a plugin `update`
+- $ needs to be made permanent
+---

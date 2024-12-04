@@ -4,11 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "05dadc8b55cff2e9",
+        "id": "17dbde2cd25255a1",
         "type": "tabs",
         "children": [
           {
-            "id": "af8c9badd276dfb5",
+            "id": "716e75ceb2d49e73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/tickets/FEAT/QSL listing feature/research how to add a cronjob.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "research how to add a cronjob"
+            }
+          },
+          {
+            "id": "14d070174389e5ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,24 +36,8 @@
               "icon": "lucide-file",
               "title": "QSL listing feature"
             }
-          },
-          {
-            "id": "c28d4ed922d9c144",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/result.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "result"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#mediaapi",
+                "query": "[\"created\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5,
+    "width": 225.5,
     "collapsed": true
   },
   "right": {
@@ -111,31 +110,27 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "events table.md",
+                "file": "work/tickets/FEAT/QSL listing feature/research how to add a cronjob.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for events table"
+              "title": "Backlinks for research how to add a cronjob"
             }
           },
           {
-            "id": "a677e5cf3e3fb9c3",
+            "id": "91b172d34c47c779",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "work/tickets/FEAT/QSL listing/QSL listing.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from QSL listing"
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -144,65 +139,32 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/result.md"
+                "file": "work/tickets/FEAT/QSL listing feature/research how to add a cronjob.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of result"
+              "title": "Outline of research how to add a cronjob"
             }
           },
           {
-            "id": "6457e0147c541d37",
+            "id": "a677e5cf3e3fb9c3",
             "type": "leaf",
             "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
-            }
-          },
-          {
-            "id": "2d279095c170259b",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
-            "id": "3eae422ff60d6cab",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
+              "type": "outgoing-link",
               "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
+                "file": "work/tickets/FEAT/QSL listing feature/research how to add a cronjob.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
               },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "2e85d83f0159940c",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "links-going-out",
+              "title": "Outgoing links from research how to add a cronjob"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 411.5,
+    "width": 376.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -220,7 +182,6 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "zk-prefixer:Create new unique note": false,
       "callout-manager:Insert Callout": false,
-      "obsidian-git:Open Git source control": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
@@ -229,37 +190,38 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c28d4ed922d9c144",
+  "active": "716e75ceb2d49e73",
   "lastOpenFiles": [
-    "work/tickets/FEAT/QSL listing feature/create real table.md",
-    "work/tickets/FEAT/QSL listing feature/result.md",
-    "work/tickets/FEAT/QSL listing feature/subs/study CSV export.md",
-    "work/tickets/FEAT/QSL listing feature/subs/CSV import.md",
+    "Clippings/thephpleaguemime-type-detection League Mime Type Detection.md",
+    "work/tickets/FEAT/QSL listing feature/research how to add a cronjob.md",
+    "Knowledge/daily_notes/2024/December/2024-12-04.md",
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-    "Knowledge/templates/day.md",
-    "Knowledge/daily_notes/2024/November/2024-11-29.md",
-    "work/calls/CRM/arch meeting v4.md",
+    "work/calls/DAILY/2024-12-04 daily.md",
+    "Knowledge/daily_notes/2024/December/2024-12-03.md",
+    "how to add a cron job.md",
+    "work/tickets/FEAT/QSL listing feature/Untitled.md",
+    "work/docs/backyard/Infra/Backyard Tasks app.md",
+    "work/docs/backyard/Infra/ma-infra.md",
+    "tasks/tasksCalendar/calendar.md",
+    "Dashboard.md",
+    "Action.canvas",
+    "notes/tmux reading.md",
+    "notes/read books on tools that I use.md",
+    "notes/tmux - resources.md",
+    "notes/fali mi prostora na ekranu.md",
+    "notes/ideas and thoughts/using an abstraction layer for the qsl listing would be interesting.md",
+    "Kanban.md",
+    "dev/obsidian/add other quick adds.md",
+    "notes/discovery/dev/KDE/switching alt+win is under keyboard settings.md",
+    "Clippings/connect to backyard tasks SSH.md",
+    "work/notes/test are run using a test Makefile.md",
     "work/work.md",
-    "work/calls/backyard/ Paulo WIF and GCP.md",
-    "work/calls/CRM/CRM macro estimate v3.md",
-    "work/calls/CRM/Team LUNA deadline sync meet.md",
-    "work/docs/how to/how to run the mediaAPI migration.md",
-    "work/calls/calls.md",
+    "tasks/tasks.md",
+    "notes/2024-12-06.md",
+    "Knowledge/concepts/computer science/abstraction layer.md",
+    "Knowledge/daily_notes/2024/December",
     "x/Compte Rendu d'Activité - October 2024.pdf",
     "Untitled",
-    "work/tickets/archive/Add \"Relance signature Mandat\" category.md",
-    "Clippings/Get the name of the current file.md",
-    "work/calls/DAILY/2024-11-29 daily.md",
-    "work/calls/DAILY/daily - 24-10-31.md",
-    "work/calls/DAILY/daily; 24-10-30.md",
-    "Kanban.md",
-    "Action.canvas",
-    "Knowledge/Books/Algorithms to Live By.md",
-    "Knowledge/Books/Bookshelf.md",
-    "Knowledge/Books/Brave New World.md",
-    "Education/Typescript/resources/Learning Typescript Book/Learning TypeScript book.md",
-    "Knowledge/templates/movie.md",
-    "Clippings/Order James Baldwin books.md",
     "x",
     "+",
     "work/calls/backyard/Vladimir ",
@@ -267,7 +229,6 @@
     "dev/nvim",
     "Knowledge/daily_notes/2024/old",
     "Knowledge/daily_notes/2024/November",
-    "daily_notes/9 2024/November",
     "work/people and teams/LUNA/Screenshot_20241107_140216.png",
     "work/docs/CRM/CRM.canvas",
     "Knowledge/tools/PM/bee-bole-export.png",

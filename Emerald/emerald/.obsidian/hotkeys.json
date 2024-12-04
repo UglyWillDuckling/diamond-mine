@@ -23,6 +23,12 @@
         "Alt"
       ],
       "key": "Q"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
     }
   ],
   "editor:toggle-bullet-list": [
@@ -32,14 +38,6 @@
         "Shift"
       ],
       "key": "L"
-    }
-  ],
-  "editor:toggle-blockquote": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Q"
     }
   ],
   "editor:insert-codeblock": [
@@ -230,5 +228,6 @@
       ],
       "key": "M"
     }
-  ]
+  ],
+  "file-explorer:new-file-in-new-pane": []
 }

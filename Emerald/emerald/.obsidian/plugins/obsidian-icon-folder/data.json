@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSquareDot",
+      "LiScreenShareOff",
+      "LiClipboardList",
       "📚",
-      "LiBook",
-      "🎥",
-      "LiPhoneCall",
-      "💾"
+      "LiBook"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -133,7 +133,6 @@
   "work/notes/archive/povezivanje na gcloud computer masinu.md": "☁",
   "work/notes/archive": "🗃",
   "work/tickets/archive/Interlocutor's name not shown.md": "🗯",
-  "people": "LiPersonStanding",
   "tasks/archive/See more about the null object pattern.md": "LiSignalZero",
   "tasks/archive/Resolve performance issues.md": "🔥",
   "tasks/archive/remove tab mapping for insert.md": "LiMap",
@@ -190,9 +189,6 @@
     "iconColor": "#e0720b"
   },
   "Knowledge/templates": "LiBookTemplate",
-  "people/Allen Holub.md": "LiGlasses",
-  "people/Martin Fowler.md": "🖌",
-  "people/Rebecca Wirfs-Brock.md": "👥",
   "work/people and teams/SRE.md": "LiBringToFront",
   "Kanban.md": "🎬",
   "work/tickets/archive/Wysiwyg replacement.md": "LiPawPrint",
@@ -345,7 +341,6 @@
   "Knowledge/Articles/archive/How to Use Folder Notes.md": "LiFolder",
   "notes/questions/how to create a note from a task.md": "LiNotebook",
   "notes/ideas and thoughts/cloning repos multiple times can be useful.md": "LiCircleDotDashed",
-  "notes/archive/A Set should accept an optional comparison commnad.md": "LiEqualNot",
   "tasks/dev/Explore quick add plugin/Explore quick add plugin.md": "LiFastForward",
   "Knowledge/How To's/sign off previous commits.md": "LiGitCompare",
   "Knowledge/Media/Film": "LiFilm",
@@ -354,10 +349,6 @@
     "iconColor": "#8e52ff"
   },
   "dev": "🖥",
-  "notes/I should read books on tools that I use.md": {
-    "iconName": "LiBookCopy",
-    "iconColor": "#be2351"
-  },
   "work/notes/deploy na tasks je dosta brz.md": "LiRocket",
   "dev/general/Find what grug is about.md": "LiEye",
   "dev/general/check for an ergonomic mouse.md": "LiMouse",
@@ -406,5 +397,20 @@
   "Knowledge/templates/movie.md": "🎥",
   "Knowledge/templates/book.md": "LiBook",
   "Knowledge/Books/Bookshelf.md": "📚",
-  "work/calls/backyard/ Paulo WIF and GCP.md": "LiPhoneCall"
+  "work/calls/backyard/ Paulo WIF and GCP.md": "LiPhoneCall",
+  "Dashboard.md": {
+    "iconName": "LiClipboardList",
+    "iconColor": "#e68a0a"
+  },
+  "notes/archive/A Set should accept an optional comparison command.md": "LiEqualNot",
+  "Knowledge/people": "LiPersonStanding",
+  "Knowledge/people/Allen Holub.md": "LiGlasses",
+  "Knowledge/people/Martin Fowler.md": "🖌",
+  "Knowledge/people/Rebecca Wirfs-Brock.md": "👥",
+  "notes/read books on tools that I use.md": {
+    "iconName": "LiBookCopy",
+    "iconColor": "#be2351"
+  },
+  "notes/fali mi prostora na ekranu.md": "LiScreenShareOff",
+  "notes/ideas and thoughts/using an abstraction layer for the qsl listing would be interesting.md": "LiSquareDot"
 }

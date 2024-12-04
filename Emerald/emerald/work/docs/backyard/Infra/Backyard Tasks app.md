@@ -1,28 +1,25 @@
+
 ## description
 
 backyard tasks is used to manage cron jobs on the [[backyard]] 
-
 (backyard task is deployed on a compute engine VM not kubernetes that why we use ansible)
 
 4:16
 for what I know backyard task is used for cron tasks related to backyard
-
 - Backyard tasks is deployed on a **VM**
 - used to mange cron jobs on the backyard
-- ...
 
 ## how to
 
 ### check existing jobs
-
 ```sql
 select * FROM core_job;
 ```
 
 ## config
+[[ma-infra]]
 
-### ma infra
-> `ansible/group_vars/fr_backyard_tasks/ma-cron.yml`  
+ansible/group_vars/fr_backyard_tasks/ma-cron.yml
 ```yaml
     cron:
       - schedule: "* * * * *"
@@ -60,6 +57,4 @@ select * FROM core_job;
         mail_subject: "Diabolocom error - update adr"
         mail_recipients: "hermes-it@meilleursagents.com"
         comment: "Diabolocom update address"
-
 ```
-

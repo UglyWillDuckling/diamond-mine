@@ -1,24 +1,27 @@
 ---
 title: "mockery/mockery: Mockery is a simple yet flexible PHP mock object framework for use in unit testing with PHPUnit, PHPSpec or any other testing framework. Its core goal is to offer a test double framework with a succinct API capable of clearly defining all possible object operations and interactions using a human readable Domain Specific Language (DSL)."
-source: "https://github.com/mockery/mockery"
+source: https://github.com/mockery/mockery
 author:
   - "[[GitHub]]"
-published:
+published: 
 created: 2024-11-20
-description: "Mockery is a simple yet flexible PHP mock object framework for use in unit testing with PHPUnit, PHPSpec or any other testing framework. Its core goal is to offer a test double framework with a succinct API capable of clearly defining all possible object operations and interactions using a human readable Domain Specific Language (DSL). - mockery/mockery"
+description: Mockery is a simple yet flexible PHP mock object framework for use in unit testing with PHPUnit, PHPSpec or any other testing framework. Its core goal is to offer a test double framework with a succinct API capable of clearly defining all possible object operations and interactions using a human readable Domain Specific Language (DSL). - mockery/mockery
 tags:
-  - "clippings"
+  - clippings
+  - tool
+  - dev
+  - testing
+  - mocking
+  - dsl
 ---
 
 Mockery is a simple yet flexible PHP mock object framework for use in unit testing with PHPUnit, PHPSpec or any other testing framework. Its core goal is to offer a test double framework with a succinct API capable of clearly defining all possible object operations and interactions using a human readable Domain Specific Language (DSL). Designed as a drop in alternative to PHPUnit's phpunit-mock-objects library, Mockery is easy to integrate with PHPUnit and can operate alongside phpunit-mock-objects without the World ending.
-
-Mockery is released under a New BSD License.
 
 ## Installation
 
 To install Mockery, run the command below and you will get the latest version
 
-```
+```rb
 composer require --dev mockery/mockery
 ```
 

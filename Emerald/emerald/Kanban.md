@@ -19,53 +19,51 @@ color: var(--mk-color-orange)
 
 ## backlog 🗃
 
-- [ ] cleanup [[unit test]]'s
 - [ ] [[ask SRE about LUNA environment]]
-- [ ] [[Find what grug is about]]
-- [ ] explore [[mermaid.js]]
-- [ ] [[check presentation from AVIV about Pro tool]]
 - [ ] [[Decorator]] pattern and the [[Make script to compare transactions]] script #decorator #pattern
 - [ ] books on [[object orientation]] and design 📘 #book
+- [ ] [[see how to best manage PR's in the shell and beyond]]
+- [ ] [[Find what grug is about]]
+- [ ] cleanup [[unit test]]'s
+- [ ] explore [[mermaid.js]]
+- [ ] [[check presentation from AVIV about Pro tool]]
 - [ ] [[try out export CSV to sql DB]]
 
 
 ## next ⏭
 
 - [ ] [[remove scroll-forward mapping in nvim]]
-- [ ] [[see how to best manage PR's in the shell and beyond]]
-- [ ] create day template
-- [ ] [[check for an ergonomic mouse]] #mouse
 - [ ] [[Education/React/react|react]] study 🎒 #react
 - [ ] start [[Node]] education 🏫 #node
+- [ ] [[study obsidian some more]] ^1lqsh9
+- [ ] study [[git butler]] #task
 
 
 ## active ⚔
 
-- [ ] [[QSL listing feature|QSL listing feature]]
 - [/] [[see how to manage tasks]] ☑ #tasks
-- [ ] [[organize obsidian notes with dataview and folders]]
-- [ ] education / typescript advanced [[Typesript Education]] #education #task
-- [ ] [[add other quick adds]]
-- [ ] [[study obsidian some more]] ^1lqsh9
-- [ ] [[check the Benq monitor]]
+- [/] [[QSL listing feature|QSL listing feature]]
+- [/] [[organize obsidian notes with dataview and folders]]
+- [/] education / typescript advanced [[Typesript Education]] #education #task
+- [/] #task [[read books on tools that I use]] ⏫
+- [/] [[add other quick adds]]
 
 
 ## finished
 
 **Complete**
-- [x] [[fix reminders plugin]]
 
 
 ***
 
 ## Archive
 
-- [ ] tata
-- [ ] winding road
-- [ ] steamy pasta
-- [ ] boiler plate
+- [x] tata
+- [x] winding road
+- [x] steamy pasta
+- [x] boiler plate
 - [x] finish the [[required fields]]
-- [ ] ba
+- [x] ba
 - [x] finish [[spike - qsl project]] @{2024-07-30}
 - [x] [[wipe screen]]
 - [x] typescript - [[execute program courses 🎓]]
@@ -107,9 +105,13 @@ color: var(--mk-color-orange)
 - [x] 2024/November/2024-11-25 10:55 [[remove old tree from in neovim]]
 - [x] 2024/November/2024-11-25 10:55 [[Explore quick add plugin]]
 - [ ] 2024/November/2024-11-28 09:43 [[Update Diabolocom deprecated csv file export]]
+- [x] 2024/December/2024-12-03 10:50 create day template
+- [x] 2024/December/2024-12-03 10:50 [[check for an ergonomic mouse]] #mouse
+- [x] 2024/December/2024-12-03 10:51 [[check the Benq monitor]]
+- [ ] 2024/December/2024-12-03 16:29 [[fix reminders plugin]]
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,false,false],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true}
+{"kanban-plugin":"board","list-collapse":[true,false,false,true],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true,"table-sizing":{"card":323}}
 ```
 %%

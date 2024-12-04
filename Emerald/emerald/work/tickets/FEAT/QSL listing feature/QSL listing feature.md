@@ -19,7 +19,7 @@ show tree
 	- [x] #task [[#end date test]] ✅ 2024-11-12
 	- [x] #task add rendering test for the new listing 📅 2024-11-07
 	- [x] add missing columns #task 📅 2024-11-08 ✅ 2024-11-08
-	- [ ] URL generation [[how to create links for Se Loger]] #task 
+	- [x] URL generation [[how to create links for Se Loger]] #task ✅ 2024-12-04
 	- [x] update schema #task with nullables ✅ 2024-11-14
 - [x] #task fix issue with docker-compose ✅ 2024-11-08
 	- [[make test not working]]
@@ -40,7 +40,7 @@ show tree
 - [x] #task [[CSV import]] ⏫ ✅ 2024-12-02
 - [x] #task [[create real table]] ✅ 2024-12-02
 - [x] #task add `created_at` field
-- [>] #task [[research how to add a cronjob]]
+- [/] #task [[research how to add a cronjob]]
 - [ ] #task cleanup tests
 - [/] #task [[update online status]] ⏫
 

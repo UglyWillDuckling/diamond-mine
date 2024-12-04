@@ -102,7 +102,7 @@ nnoremap + <C-a>
 """"""""""""""""""""""
 
 " <Esc> clears highlights
-nnoremap <Esc> :nohl
+nnoremap <Esc> :nohl<CR>
 
 " Another Quick Switcher ripgrep-search
 " somewhat close to Telescope's livegrep

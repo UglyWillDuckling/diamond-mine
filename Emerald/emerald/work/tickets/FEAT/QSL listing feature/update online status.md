@@ -9,15 +9,12 @@
 - ..
 ---
 ## tasks
-- [/]  #task build update logic
+- [ ] #task replan online status
+- [x]  #task build update logic
 	- [x] update listing `entity`
-	- [x] [[#http 🛰]]
-	- [/] 't write a basic test
-		- [x] start
-		- [ ] develop further
-	- [ ] `iterate`
-	- [ ] `refactor`
-- [ ] #task replan 
+		- [x] [[#http 🛰]]
+- [/] 't write tests
+	- [  ] come up with testing scenarios 👣
 ---
 ### update logic ⤴
 - [x] basic logic setup
@@ -41,4 +38,10 @@
 	- [x] basic
 	- [x] simplify and `refactor`
 	- [x] 't test
+
+
+## tests 🧪
+
+### come up with scenarios
+
 

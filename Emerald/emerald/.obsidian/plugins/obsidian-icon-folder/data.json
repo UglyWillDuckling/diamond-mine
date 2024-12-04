@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiMoon",
+      "👞",
+      "🎄",
       "LiSquareDot",
-      "LiScreenShareOff",
-      "LiClipboardList",
-      "📚",
-      "LiBook"
+      "LiScreenShareOff"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -412,5 +412,8 @@
     "iconColor": "#be2351"
   },
   "notes/fali mi prostora na ekranu.md": "LiScreenShareOff",
-  "notes/ideas and thoughts/using an abstraction layer for the qsl listing would be interesting.md": "LiSquareDot"
+  "notes/ideas and thoughts/using an abstraction layer for the qsl listing would be interesting.md": "LiSquareDot",
+  "+/Christmas Party.md": "🎄",
+  "+/barefoot.md": "👞",
+  "+/luna email.md": "LiMoon"
 }

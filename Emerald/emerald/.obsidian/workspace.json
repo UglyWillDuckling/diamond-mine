@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "17dbde2cd25255a1",
+        "id": "c8b21df2fd86ee59",
         "type": "tabs",
         "children": [
           {
-            "id": "716e75ceb2d49e73",
+            "id": "eb7345176c35283e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,21 +23,22 @@
             }
           },
           {
-            "id": "14d070174389e5ed",
+            "id": "b31eb6657d732114",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                "file": "work/tickets/FEAT/QSL listing feature/update online status.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "QSL listing feature"
+              "title": "update online status"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5,
-    "collapsed": true
+    "width": 227.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/research how to add a cronjob.md",
+                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for research how to add a cronjob"
+              "title": "Backlinks for QSL listing feature"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/research how to add a cronjob.md"
+                "file": "work/tickets/FEAT/QSL listing feature/update online status.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of research how to add a cronjob"
+              "title": "Outline of update online status"
             }
           },
           {
@@ -151,16 +151,29 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/research how to add a cronjob.md",
+                "file": "work/tickets/FEAT/QSL listing feature/update online status.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from research how to add a cronjob"
+              "title": "Outgoing links from update online status"
+            }
+          },
+          {
+            "id": "727a43291976eef7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -190,12 +203,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "716e75ceb2d49e73",
+  "active": "b31eb6657d732114",
   "lastOpenFiles": [
-    "Clippings/thephpleaguemime-type-detection League Mime Type Detection.md",
     "work/tickets/FEAT/QSL listing feature/research how to add a cronjob.md",
+    "+/luna email.md",
+    "work/people and teams/LUNA/luna team.md",
+    "+/Christmas Party.md",
+    "work/tickets/FEAT/QSL listing feature/update online status.md",
     "Knowledge/daily_notes/2024/December/2024-12-04.md",
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+    "work/calls/1 on 1/with Paulo .md",
+    "+/barefoot.md",
+    "work/calls/CRM/Unified Shell Onboarding - Team Luna.md",
+    "work/calls/CRM/joachim.leistikow.md",
+    "Knowledge/concepts/development/asset.md",
+    "work/fun/unified shell.md",
+    "work/people and teams/Alban Trang.md",
+    "Clippings/thephpleaguemime-type-detection League Mime Type Detection.md",
     "work/calls/DAILY/2024-12-04 daily.md",
     "Knowledge/daily_notes/2024/December/2024-12-03.md",
     "how to add a cron job.md",
@@ -208,17 +232,6 @@
     "notes/tmux reading.md",
     "notes/read books on tools that I use.md",
     "notes/tmux - resources.md",
-    "notes/fali mi prostora na ekranu.md",
-    "notes/ideas and thoughts/using an abstraction layer for the qsl listing would be interesting.md",
-    "Kanban.md",
-    "dev/obsidian/add other quick adds.md",
-    "notes/discovery/dev/KDE/switching alt+win is under keyboard settings.md",
-    "Clippings/connect to backyard tasks SSH.md",
-    "work/notes/test are run using a test Makefile.md",
-    "work/work.md",
-    "tasks/tasks.md",
-    "notes/2024-12-06.md",
-    "Knowledge/concepts/computer science/abstraction layer.md",
     "Knowledge/daily_notes/2024/December",
     "x/Compte Rendu d'Activité - October 2024.pdf",
     "Untitled",

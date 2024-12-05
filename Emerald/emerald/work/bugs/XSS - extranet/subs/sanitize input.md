@@ -10,8 +10,6 @@
 		- [x] normal
 		- [x] [[xss]]
 	- [x] **verify**
-- [x] **commit**
-	- [x] `PR`
 
 ```bash
 SKIP_INIT_DB=true OPT=tests/taskTest.php make test

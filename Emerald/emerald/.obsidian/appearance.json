@@ -3,7 +3,7 @@
   "textFontFamily": "Cantarell",
   "theme": "moonstone",
   "interfaceFontFamily": "Baskerville",
-  "baseFontSize": 11,
+  "baseFontSize": 15,
   "baseFontSizeAction": true,
   "nativeMenus": true,
   "monospaceFontFamily": "FiraCode Nerd Font",
@@ -12,6 +12,7 @@
     "MCL Gallery Cards",
     "highlight",
     "vim",
-    "dataview"
+    "dataview",
+    "tasks"
   ]
 }

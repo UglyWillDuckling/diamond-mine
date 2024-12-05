@@ -1,25 +1,24 @@
 
 ---
 
-## notes 📔
-
 ### active ☢
-
 ```dataview
 LIST FROM "notes" and #active
 ```
 
+### recent 📆 
+
 ```dataview
-LIST FROM #note and #active
-LIMIT 1
+LIST "(" + file.mday + ")"
+FROM "notes" AND !#processed
+SORT mtime DESC LIMIT 6
 ```
 
-
-### recent 📆 
+### created today
 ```dataview
-LIST "(edit: " + file.mday + ")"
-FROM "notes"
-SORT mtime DESC LIMIT 11
+LIST WITHOUT ID
+WHERE date(file.cday) = date(today) 
+SORT file.name
 ```
 
 ## ...

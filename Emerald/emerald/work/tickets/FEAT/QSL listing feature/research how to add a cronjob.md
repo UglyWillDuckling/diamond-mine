@@ -24,7 +24,7 @@
 	- [/] edit file
 	- [ ] make actual changes
 	- [ ] make [[PR]]
-- [ ] test error handling on [[dev]]
+- [ ] test `error` handling on [[dev]]
 #### add cron⏲
 - [x] add cron entry
 	- [x] add cron schedule

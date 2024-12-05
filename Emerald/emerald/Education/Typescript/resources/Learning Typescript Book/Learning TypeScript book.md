@@ -1,17 +1,15 @@
 #book
-#typescript 
 #learn 
 #study 
-#javascript 
 
-a #book about learning [[javascript]] and [[typescript]]
+ #book about learning [[javascript]] and [[typescript]]
 
 - [x] link to github page
 - [ ] add the starting chapters
 
 ---
 ### chapter 3 - Unions and literals
-[github folder](https://github.com/UglyWillDuckling/typescript-projects/tree/main/projects/unions-and-literals)
+[[[github]] folder](https://github.com/UglyWillDuckling/typescript-projects/tree/main/projects/unions-and-literals)
 #### **Type Aliases**
 - mostly used for **convenience**
 	- you don't have to type so much
@@ -25,7 +23,7 @@ let rawDataSecond: RawData;
 let rawDataThird: RawData;
 ```
 
-> Type aliases are a handy feature to use in TypeScript whenever your types start getting complex. For now, that just includes long union types; later on it will include array, function, and object types.
+> [[Type alias]]es are a handy feature to use in [[TypeScript]] whenever your types start getting complex. For now, that just includes long union types; later on it will include array, function, and object types.
 
 **example from [[execute program courses 🎓]]**
 ```typescript

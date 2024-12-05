@@ -2,6 +2,7 @@
 - [x] #task update media API
 - [/] #task [[#make PR]]
 	- [x] create
+	- [ ] #task check PR status
 	- [ ] merge
 
 ## switch schema

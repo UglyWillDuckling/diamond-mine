@@ -41,8 +41,8 @@ color: var(--mk-color-orange)
 
 ## active ⚔
 
-- [/] [[see how to manage tasks]] ☑ #tasks
 - [/] [[QSL listing feature|QSL listing feature]]
+- [/] [[see how to manage tasks]] ☑ #tasks
 - [/] [[organize obsidian notes with dataview and folders]]
 - [/] education / typescript advanced [[Typesript Education]] #education #task
 - [/] #task [[read books on tools that I use]] ⏫

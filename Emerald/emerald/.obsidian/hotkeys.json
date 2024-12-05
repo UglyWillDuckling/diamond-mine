@@ -131,7 +131,14 @@
       "key": "H"
     }
   ],
-  "markdown:toggle-preview": [],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
+  ],
   "editor:toggle-code": [
     {
       "modifiers": [
@@ -229,5 +236,7 @@
       "key": "M"
     }
   ],
-  "file-explorer:new-file-in-new-pane": []
+  "file-explorer:new-file-in-new-pane": [],
+  "obsidian-completr:completr-bypass-tab-key": [],
+  "obsidian-completr:completr-bypass-enter-key": []
 }

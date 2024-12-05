@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "c8b21df2fd86ee59",
+        "id": "ae7ae21864e80712",
         "type": "tabs",
         "children": [
           {
-            "id": "eb7345176c35283e",
+            "id": "7c276234df394eb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/research how to add a cronjob.md",
+                "file": "work/calls/House of Code - All hands or better said Fire Side Chat - Part II .md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "research how to add a cronjob"
-            }
-          },
-          {
-            "id": "b31eb6657d732114",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/update online status.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "update online status"
+              "title": "House of Code - All hands or better said Fire Side Chat - Part II"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,8 +63,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"created\"]",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -94,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 250.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -110,8 +94,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-                "collapseAll": false,
+                "file": "work/calls/House of Code - All hands or better said Fire Side Chat - Part II .md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -120,29 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for QSL listing feature"
-            }
-          },
-          {
-            "id": "91b172d34c47c779",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "c61722d2f0288e0a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/update online status.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of update online status"
+              "title": "Backlinks for House of Code - All hands or better said Fire Side Chat - Part II"
             }
           },
           {
@@ -151,12 +113,24 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/update online status.md",
+                "file": "work/calls/House of Code - All hands or better said Fire Side Chat - Part II .md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from update online status"
+              "title": "Outgoing links from House of Code - All hands or better said Fire Side Chat - Part II"
+            }
+          },
+          {
+            "id": "c61722d2f0288e0a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "work/calls/House of Code - All hands or better said Fire Side Chat - Part II .md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of House of Code - All hands or better said Fire Side Chat - Part II"
             }
           },
           {
@@ -166,18 +140,18 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 376.5,
+    "width": 342.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -200,38 +174,39 @@
       "obsidian-day-planner:Open Multi-Day View": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "obsidian42-brat:BRAT": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "wikipedia-search:Open Article": false
     }
   },
-  "active": "b31eb6657d732114",
+  "active": "7c276234df394eb2",
   "lastOpenFiles": [
-    "work/tickets/FEAT/QSL listing feature/research how to add a cronjob.md",
-    "+/luna email.md",
-    "work/people and teams/LUNA/luna team.md",
-    "+/Christmas Party.md",
-    "work/tickets/FEAT/QSL listing feature/update online status.md",
-    "Knowledge/daily_notes/2024/December/2024-12-04.md",
-    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-    "work/calls/1 on 1/with Paulo .md",
-    "+/barefoot.md",
-    "work/calls/CRM/Unified Shell Onboarding - Team Luna.md",
-    "work/calls/CRM/joachim.leistikow.md",
-    "Knowledge/concepts/development/asset.md",
-    "work/fun/unified shell.md",
-    "work/people and teams/Alban Trang.md",
-    "Clippings/thephpleaguemime-type-detection League Mime Type Detection.md",
-    "work/calls/DAILY/2024-12-04 daily.md",
-    "Knowledge/daily_notes/2024/December/2024-12-03.md",
-    "how to add a cron job.md",
-    "work/tickets/FEAT/QSL listing feature/Untitled.md",
-    "work/docs/backyard/Infra/Backyard Tasks app.md",
-    "work/docs/backyard/Infra/ma-infra.md",
-    "tasks/tasksCalendar/calendar.md",
+    "work/calls/House of Code - All hands or better said Fire Side Chat - Part II .md",
     "Dashboard.md",
+    "Knowledge/daily_notes/2024/December/2024-12-05.md",
+    "+/Meta Bind Docs.md",
+    "+/meta-bind-plugin.md",
+    "Knowledge/concepts/computer science/David Wheeler.md",
+    "work/calls/Education call v1.md",
+    "work/calls/calls.md",
+    "Clippings/shabegombuttons Buttons in Obsidian.md",
+    "notes/questions/how to remove items from the left click menu.md",
+    "notes/a new note.md",
+    "Clippings/Surfing.md",
+    "Clippings/wikipedia-search.md",
     "Action.canvas",
-    "notes/tmux reading.md",
-    "notes/read books on tools that I use.md",
-    "notes/tmux - resources.md",
+    "Knowledge/concepts/computer science/abstraction layer.md",
+    "Knowledge/concepts/computer science/design pattern.md",
+    "Knowledge/tools/dev/php/doctrine.md",
+    "notes/ideas and thoughts/using an abstraction layer for the qsl listing would be interesting.md",
+    "notes/questions/how to share actual notes findings between different notes?.md",
+    "notes/discovery/obsidian/plugins/data view.md",
+    "notes/wordery has much cheaper shipping.md",
+    "notes/ideas and thoughts/nesto nesto.md",
+    "Knowledge/daily_notes/Current or active.md",
+    "notes/archive/Go to file is the answer.md",
+    "notes/You can use the Clipper to clip selected parts of a page.md",
+    "work/calls/DAILY/2024-12-05 daily.md",
+    "notes/2024-12-06.md",
     "Knowledge/daily_notes/2024/December",
     "x/Compte Rendu d'Activité - October 2024.pdf",
     "Untitled",

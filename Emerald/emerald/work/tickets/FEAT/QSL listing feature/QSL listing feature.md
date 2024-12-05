@@ -1,15 +1,16 @@
 
-## all todos
-> includes subfolders
-
-```tasks
-not done
-path includes {{query.file.path}}
-show tree
-```
+> [!check] remaining
+> ```tasks
+> not done
+> path includes {{query.file.folder}}
+> group by function task.file.path.replace(query.file.folder, '').replace('.md','')
+> show tree
+> ```
 
 ## todos ✔
-- [ ] #task update table docs - missing `columns`
+- [/] #task [[research how to add a cronjob]] ⏫
+- [/] #task [[update online status]] ⏫
+- [>] #task update table docs - missing `columns` 🔽
 - [x] #task **QSL** ⏫ 🛫 2024-10-11 ⏳ 2024-11-06 📅 2024-11-12 ✅ 2024-11-20
 	- [x] start creating the **DB** [[Create DB table]] ✅ 2025-11-01 
 	- [x] [[build the interface]] 🔼 ✅ 2024-11-04
@@ -39,10 +40,7 @@ show tree
 - [x] #task add back `start_date` ⏫ ✅ 2024-11-27
 - [x] #task [[CSV import]] ⏫ ✅ 2024-12-02
 - [x] #task [[create real table]] ✅ 2024-12-02
-- [x] #task add `created_at` field
-- [/] #task [[research how to add a cronjob]]
 - [ ] #task cleanup tests
-- [/] #task [[update online status]] ⏫
 
 ---
 ### <mark style="background: #FFB8EBA6;">current</mark>

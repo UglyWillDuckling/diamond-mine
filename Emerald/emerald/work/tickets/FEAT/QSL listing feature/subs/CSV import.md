@@ -45,7 +45,7 @@
 - [x] #task [[#error handling]] ✅ 2024-12-02
 	- [x] logging errors
 	- [x] output errors
-	- [/] #task CSV missing file <mark style="background: #FFB8EBA6;">error</mark>
+	- [x] #task CSV missing file <mark style="background: #FFB8EBA6;">error</mark> ✅ 2024-12-04
 
 #### saving entities
 

@@ -76,7 +76,7 @@ Title: Mon projet de vente
 	- [x] **run** the existing tests
 	- [x] **implement** new tests
 		- [x] normal
-		- [x] [[xss]]
+		- [x] [[Cross-site scripting]]
 	- [x] **verify**
 - [x] **commit**
 	- [x] `PR`

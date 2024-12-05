@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "education call",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -25,6 +25,6 @@
   "repelStrength": 18.1298701298701,
   "linkStrength": 1,
   "linkDistance": 219,
-  "scale": 0.04700288056043217,
-  "close": true
+  "scale": 0.14260847688391984,
+  "close": false
 }

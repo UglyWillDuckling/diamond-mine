@@ -12,7 +12,7 @@ which includes structural changes.
 
 ## <mark style="background: #BBFABBA6;">acceptance</mark>
 - [x] the data is generated and stored correctly
-- [ ] the entries are updated `automatically` via [[Backyard Tasks app]]
+- [x] the entries are updated `automatically` via [[Backyard Tasks app]]
 ---
 ## notes 📔
 - <mark style="background: #FFF3A3A6;">the `script` itself can be run via the browser</mark>
@@ -48,7 +48,7 @@ LIMIT 500;
 	- next is prod
 ---
 ## todo's
-- [ ] 🤔 **think** about refactoring the import outside of the model class #task 
+- [>] 🤔 **think** about refactoring the import outside of the model class #task 
 - [x] #task Diabolocom update deprecated CSV export 📅 2024-11-19 ✅ 2024-11-22
 - [x] #task check [[#duration]] column values ✅ 2024-11-21
 - [x] #task add error handling for the API ✅ 2024-11-21

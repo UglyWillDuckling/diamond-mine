@@ -41,7 +41,6 @@ FROM #call
 WHERE file.day AND file.day = date(today)
 sort date DESC
 ```
-
 ### Day planner
 
 ### New Tasks

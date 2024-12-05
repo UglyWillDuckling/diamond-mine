@@ -35,12 +35,12 @@ color: var(--mk-color-orange)
 - [ ] [[remove scroll-forward mapping in nvim]]
 - [ ] [[Education/React/react|react]] study 🎒 #react
 - [ ] start [[Node]] education 🏫 #node
-- [ ] [[study obsidian some more]] ^1lqsh9
 - [ ] study [[git butler]] #task
 
 
 ## active ⚔
 
+- [ ] [[study obsidian some more]] ^1lqsh9
 - [/] [[QSL listing feature|QSL listing feature]]
 - [/] [[see how to manage tasks]] ☑ #tasks
 - [/] [[organize obsidian notes with dataview and folders]]

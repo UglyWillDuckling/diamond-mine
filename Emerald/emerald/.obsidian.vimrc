@@ -374,5 +374,5 @@ nmap <C-i> :forward<CR>
 
 " Editor
 nmap <C-w>i 0ci[/<Esc>
-nmap <C-q>i 0ci[?<Esc>
+nmap <C-w>? 0ci[?<Esc>
 

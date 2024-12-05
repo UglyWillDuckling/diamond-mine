@@ -4,6 +4,9 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
+    ":bookmark_tabs:",
+    ":arrow_lower_right:",
+    ":notebook_with_decorative_cover:",
     ":cold_face:",
     ":free:",
     ":christmas_tree:",
@@ -11,7 +14,6 @@
     ":timer_clock:",
     ":sun_with_face:",
     ":coffee:",
-    ":notebook_with_decorative_cover:",
     ":foot:",
     ":test_tube:",
     ":footprints:",
@@ -96,7 +98,6 @@
     ":book:",
     ":bee:",
     ":fireworks:",
-    ":bookmark_tabs:",
     ":joystick:",
     ":partly_sunny:",
     ":mouse:",
@@ -202,7 +203,6 @@
     ":racehorse:",
     ":computer:",
     ":desktop_computer:",
-    ":cloud_with_lightning_and_rain:",
-    ":electric_plug:"
+    ":cloud_with_lightning_and_rain:"
   ]
 }

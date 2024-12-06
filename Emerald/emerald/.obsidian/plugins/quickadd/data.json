@@ -138,6 +138,36 @@
       },
       "openFile": false,
       "openFileInMode": "default"
+    },
+    {
+      "id": "bdc83b49-6cfd-4d28-b8e2-3323dabf1c8a",
+      "name": "thought",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Knowledge/templates/thought.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "+"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "horizontal",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [

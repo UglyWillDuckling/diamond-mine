@@ -46,7 +46,30 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [],
+  "treeData": [
+    {
+      "id": "8bd11ef1bb213aea",
+      "parent": 0,
+      "droppable": true,
+      "text": "Git Tips 1: Oldies but Goodies",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "3a78229d8125b9e5",
+      "parent": 0,
+      "droppable": true,
+      "text": "cron - Wikipedia",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ],
   "enableHtmlPreview": false,
   "supportLivePreviewInlineUrl": false,
   "enableTreeView": true,

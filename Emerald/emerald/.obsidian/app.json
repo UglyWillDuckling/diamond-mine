@@ -5,7 +5,7 @@
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
   "showInlineTitle": true,
-  "showRibbon": false,
+  "showRibbon": true,
   "promptDelete": false,
   "readableLineLength": true,
   "showLineNumber": false

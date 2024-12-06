@@ -1,6 +1,11 @@
+---
+source: https://blog.gitbutler.com/git-tips-1-theres-a-git-config-for-that/
+---
 [![GitButler](https://blog.gitbutler.com/content/images/2024/03/icon-gradient-color@3x-1.png)](https://blog.gitbutler.com)
 
-# Git Tips 1: Oldies but Goodies
+#git #active #reading 
+
+## Git Tips 1: Oldies but Goodies
 
 Do you know some of the cool stuff in Git that's been around for a while? All the magical -L and -C options in the Git world? Let's find out!
 
@@ -63,7 +68,7 @@ The _other_ thing you can do to see similar information in a different way, is t
 
 ![](https://blog.gitbutler.com/content/images/2024/02/CleanShot-2024-02-06-at-16.42.55@2x.png)
 
-So instead of being ordered by lines, it sort of gathers all the commits that are shown in the blame and then shows you those commits with code that modified that block in each commit. Basically the same data, but in a different format, more like a story of how that code was put together.
+So instead of being ordered by lines, it sort of gathers all the commits that are shown in the blame and then shows you those commits with code that modified that block in each [[commit]]. Basically the same data, but in a different format, more like a story of how that code was put together.
 
 ## Git Blame with Following
 
@@ -95,7 +100,7 @@ Also, Kiril only really owns a few lines of code, Mattias actually wrote big hun
 
 ## Word Diff
 
-This is incredibly minor, and some GUIs have nice versions of this (I find GitHub's better than what I'm about to show you, since it subtly does both) but if you _ARE_ running `git diff` on the command line and there is a line change where something small changed within it, you can change Git's default format to word-based rather than line based with the `--word-diff` option.
+This is incredibly minor, and some GUIs have nice versions of this (I find [[GitHub]]'s better than what I'm about to show you, since it subtly does both) but if you _ARE_ running `git diff` on the command line and there is a line change where something small changed within it, you can change Git's default format to word-based rather than line based with the `--word-diff` option.
 
 ![](https://blog.gitbutler.com/content/images/2024/02/CleanShot-2024-02-08-at-08.19.47@2x.png)
 

@@ -4,23 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f9162ed3c63edbe8",
+        "id": "3951eeca34655eb2",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "4f15e386582c8243",
+            "id": "57aeb364386e6158",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/concepts/development/Cross-site scripting.md",
+                "file": "Knowledge/daily_notes/2024/December/quote mapping.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cross-site scripting"
+              "title": "quote mapping"
             }
           }
         ]
@@ -49,22 +48,12 @@
             }
           },
           {
-            "id": "2fd0f24bea1de5b8",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "3917ba887ee80a77",
+            "id": "f0f151d112079689",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Cron-example-command.gif)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +65,17 @@
             }
           },
           {
-            "id": "854a47cf3d155e26",
+            "id": "aff4b0deb1f9c79c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "0cf285506fec08cb",
             "type": "leaf",
             "state": {
               "type": "surfing-tab-tree",
@@ -89,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5,
+    "width": 275.5,
     "collapsed": true
   },
   "right": {
@@ -101,75 +100,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4c75dd1dc94107ca",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "aws lambda.md",
-                "collapseAll": true,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for aws lambda"
-            }
-          },
-          {
             "id": "a677e5cf3e3fb9c3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aws lambda.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from aws lambda"
-            }
-          },
-          {
-            "id": "c61722d2f0288e0a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "work/calls/House of Code - All hands or better said Fire Side Chat - Part II .md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of House of Code - All hands or better said Fire Side Chat - Part II"
-            }
-          },
-          {
-            "id": "727a43291976eef7",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "722b2d7a997ae9e2",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Outgoing links"
             }
           },
           {
@@ -183,7 +123,62 @@
             }
           },
           {
-            "id": "6f5fc2fe3b63b283",
+            "id": "c61722d2f0288e0a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "86f9da28a5f14644",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "a31306c838ff21eb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c342f03b0908a894",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ba1acddc04d7df25",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -193,7 +188,7 @@
             }
           },
           {
-            "id": "b3c1e265bcc668b7",
+            "id": "93570a9d687d9f6b",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -234,34 +229,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4f15e386582c8243",
+  "active": "57aeb364386e6158",
   "lastOpenFiles": [
+    "Knowledge/daily_notes/2024/December/quote mapping.md",
+    "Knowledge/daily_notes/2024/December/2024-12-06.md",
+    "+/cron.md",
+    "work/calls/Christmas Party.md",
+    "Knowledge/templates/thought.md",
+    "+/crontab.md",
+    "Clippings/allowed crontab values.md",
+    "Clippings/2024-12-16.md",
+    "Knowledge/Articles/dev/Git Tips 1- Oldies but Goodies.md",
+    "+/luna email.md",
+    "work/people and teams/LUNA/luna team.md",
+    "Knowledge/tools/dev/git/git maintenance.md",
+    "+/Christmas Party.md",
+    "+/girrafe.md",
+    "+/aws lambda.md",
+    "Knowledge/Media/Film/Palestine Is Still the Issue.md",
     "Knowledge/concepts/development/Cross-site scripting.md",
+    "Knowledge/daily_notes/2024/December/2024-12-05.md",
     "Dashboard.md",
     "work/calls/pair programming/[-readable.md",
-    "+/git maintenance.md",
     "work/calls/pair programming/Education call v1.md",
-    "aws lambda.md",
     "work/calls/pair programming/fat lambda.md",
     "Knowledge/tools/dev/AWS.md",
-    "Knowledge/daily_notes/2024/December/2024-12-05.md",
     "work/calls/pair programming/Terraform.md",
     "work/calls/pair programming/infrastructure-as-code.md",
     "work/calls/pair programming/version control system.md",
-    "work/calls/pair programming/HashiCorp Configuration Language.md",
-    "work/calls/pair programming/IaC.md",
-    "Clippings/Terraform (software) - Wikipedia.md",
-    "work/calls/calls.md",
-    "work/tickets/chores/Update Diabolocom deprecated csv file export.md",
-    "dev/obsidian/study obsidian some more.md",
-    "+/Git Tips 1- Oldies but Goodies.md",
-    "notes/questions/how to remove items from the left click menu.md",
-    "Clippings/0bsidian Commander.md",
-    "Kanban.md",
-    "Clippings/Perplexity.md",
-    "+/Obsidian Meeting Note Template - Dann Berg- blog, newsletter, shop, and more.md",
-    "+/girrafe.md",
-    "work/calls/House of Code - All hands, Fireside Chat.md",
     "Action.canvas",
     "Knowledge/daily_notes/2024/December",
     "x/Compte Rendu d'Activité - October 2024.pdf",

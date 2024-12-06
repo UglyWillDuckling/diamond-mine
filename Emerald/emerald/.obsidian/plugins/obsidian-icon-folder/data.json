@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBrain",
       "LiList",
       "LiMoon",
       "👞",
-      "🎄",
-      "LiSquareDot"
+      "🎄"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -417,5 +417,6 @@
   "+/Christmas Party.md": "🎄",
   "+/barefoot.md": "👞",
   "+/luna email.md": "LiMoon",
-  "work/tickets/FEAT/QSL listing feature/QSL listing feature.md": "LiList"
+  "work/tickets/FEAT/QSL listing feature/QSL listing feature.md": "LiList",
+  "Knowledge/templates/thought.md": "LiBrain"
 }

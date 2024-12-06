@@ -271,6 +271,10 @@ invokes
 incorporated
 incorrectly
 innovation
+imo
+iza
+intervals
+ipsum
 JavaScript
 July
 Javascript
@@ -315,6 +319,7 @@ JWT
 JohnBeckett
 Julia
 Joab
+JAN
 defines
 defining
 data
@@ -665,6 +670,13 @@ desist
 denied
 dmy
 disclaimer
+dru
+downloading
+detalja
+dolazak
+dana
+direktno
+dolor
 several
 symbols
 string
@@ -1186,6 +1198,13 @@ stating
 servers
 spreadsheets
 scripting
+separator
+sunday
+scheduler
+suitable
+svi
+smje
+skipped
 for
 first
 fix
@@ -1540,6 +1559,8 @@ usages
 uncaught
 unexpected
 unnecessary
+utility
+uz
 These
 The
 Today
@@ -2021,6 +2042,12 @@ agree
 automates
 attacks
 attackers
+annually
+alerts
+administration
+accomplished
+atmosferi
+amet
 metaprogramming
 means
 modify
@@ -2296,6 +2323,8 @@ maintainability
 mobileaction
 metal
 maintaining
+mogli
+molimo
 which
 we
 with
@@ -2940,6 +2969,9 @@ competitive
 cited
 controlling
 collaborative
+clock
+comgoogle
+caffe
 the
 these
 tells
@@ -3241,6 +3273,8 @@ tricks
 titleform
 tertiary
 trademark
+taja
+tenoj
 behavior
 built
 by
@@ -3457,6 +3491,7 @@ bilo
 bodyContent
 backed
 bare
+bismo
 of
 our
 one
@@ -3613,6 +3648,11 @@ optionally
 operating
 originally
 originated
+originates
+ovu
+organizirati
+opu
+orem
 program
 property
 plugin
@@ -4001,6 +4041,12 @@ profit
 processes
 practice
 processors
+pushpin
+pono
+pozivamo
+potvrdite
+planiraju
+proslaviti
 Using
 UI
 Unions
@@ -4057,6 +4103,8 @@ UserLogin
 Ukrainian
 Upload
 UrlShortener
+Ul
+Unix
 how
 have
 hello
@@ -4552,6 +4600,9 @@ relicensed
 references
 registered
 routes
+reboot
+repetitive
+radnog
 Here
 How
 HOST
@@ -4935,6 +4986,9 @@ excessively
 enables
 equipment
 employs
+etvrtka
+emo
+etak
 Why
 When
 Whenever
@@ -5101,6 +5155,7 @@ OpenStack
 OpenTofu
 OCLC
 Orchestration
+Okupljamo
 looks
 loop
 links
@@ -5408,6 +5463,9 @@ naturel
 nord
 nettes
 nubienne
+najbolji
+najsitnijeg
+neka
 Symbol
 SRE
 SPIKE
@@ -5602,6 +5660,10 @@ Stack
 Systems
 September
 ShareAlike
+Sunday
+SUN
+Stop
+Scheduling
 If
 In
 Ideas
@@ -5702,6 +5764,7 @@ International
 IT
 IaC
 Iac
+Internet
 key
 kanban
 kankan
@@ -5757,6 +5820,7 @@ konflikata
 kg
 kangaroo
 kaaba
+koji
 Description
 Date
 Demander
@@ -5883,6 +5947,9 @@ Discord
 DownloadAsPdf
 DigitalOcean
 DevOps
+Datum
+DEC
+Dragi
 values
 vim
 vars
@@ -5987,6 +6054,8 @@ vam
 vSphere
 vulnerability
 viewed
+van
+vezano
 Examples
 Evaluation
 Evaluations
@@ -6322,6 +6391,10 @@ Cross
 Creative
 Commons
 Corps
+Caffe
+Cronitor
+Cron
+Chronos
 PR
 Phase
 Plan
@@ -6480,6 +6553,7 @@ Printable
 Primary
 Policy
 Privacy
+Pandora
 Archive
 At
 Acceptance
@@ -6690,6 +6764,7 @@ jot
 jumping
 journalist
 jel
+jave
 Yesterday
 You
 YQ
@@ -6852,6 +6927,9 @@ galement
 gpg
 gathers
 generally
+grada
+godinu
+godine
 Friday
 FE
 First
@@ -7010,6 +7088,7 @@ quickest
 quatre
 quente
 qui
+quote
 NOVA
 Nouveau
 Nullish
@@ -7207,6 +7286,7 @@ BUSL
 Bochicchio
 Blog
 Brikman
+Bo
 Lastly
 LOCAL
 LUNA
@@ -7288,6 +7368,8 @@ Look
 Lifespan
 Legs
 LZyiwSnmzQ
+Lokacija
+Lounge
 Renamed
 References
 RDV
@@ -7622,6 +7704,9 @@ Vietnamese
 Verifiability
 VMware
 Vaughan
+Vrijeme
+Vukovara
+Veselim
 Quality
 QUEUE
 QSL
@@ -7690,6 +7775,7 @@ yesterday
 yourself
 yo
 yh
+yearly
 Generic
 Global
 Green
@@ -7801,6 +7887,7 @@ Kenya
 Kordofan
 Kiril
 Korean
+Kako
 XSS
 XS
 XL
@@ -7847,6 +7934,9 @@ zip
 zvuci
 zele
 zadrzat
+zaokru
+zajedno
+zavr
 xN
 xe
 xH
@@ -7882,4 +7972,7 @@ Zettelkasten
 Zeljo
 Zachatoo
 Zoom
+Zagreb
+Za
+Zagreba
 öwmI

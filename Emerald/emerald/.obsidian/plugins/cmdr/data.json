@@ -19,7 +19,24 @@
     ],
     "leftRibbon": [
       "QuickAdd",
-      "Start/stop recording"
+      "Start/stop recording",
+      "Open quick switcher",
+      "Create new canvas",
+      "Insert template",
+      "Open today's daily note",
+      "Open command palette",
+      "Advanced Tables Toolbar",
+      "Open Mermaid Toolbar",
+      "Create new board",
+      "Create new unique note",
+      "Insert Callout",
+      "Manage workspace layouts",
+      "Open Timeline",
+      "Open Multi-Day View",
+      "Create new book note",
+      "BRAT",
+      "Create new drawing",
+      "surfing-bookmark-manager"
     ]
   },
   "spacing": 8,

@@ -6,7 +6,7 @@ updated: 2024-12-04 11:31:38
 ---
 #work #work/call #call
 
-- [ ] see this again (@[[2024-12-06]])
+- [ ] see this again (@[[2024-12-06]] 14:45)
 ## who
 - joachim.leistikow@aviv-group.com - Hamburg, Germany
 - [[joachim.leistikow]]

@@ -376,3 +376,6 @@ nmap <C-i> :forward<CR>
 nmap <C-w>i 0ci[/<Esc>
 nmap <C-w>? 0ci[?<Esc>
 
+" inline quote for selected text
+" NOTE: almost works
+vmap <C-w>q o<Esc>i<q><Esc>gvo<Esc>a</q><Esc>

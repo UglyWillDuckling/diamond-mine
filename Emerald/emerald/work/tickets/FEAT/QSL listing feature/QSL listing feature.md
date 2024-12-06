@@ -25,7 +25,7 @@
 - [x] #task fix issue with docker-compose ✅ 2024-11-08
 	- [[make test not working]]
 - [x] [[write the table docs]] #task 📅 2024-11-07 ✅ 2024-11-06
-- [x] #task [[study CSV export]] 📅 2024-11-13 ✅ 2024-11-20
+- [x] #task [[study CSV export]] 📅 2024-11-13 ✅ 2024-12-06
 	- [x] add new columns #task ✅ 2024-11-13
 	- [x] update existing logic, tests #task ✅ 2024-11-13
 	- [ ] #task [[check the diagram from [[Paulo]]]] 🔽
@@ -41,6 +41,7 @@
 - [x] #task [[CSV import]] ⏫ ✅ 2024-12-02
 - [x] #task [[create real table]] ✅ 2024-12-02
 - [ ] #task cleanup tests
+- [ ] #task [[frontend implementation]]
 
 ---
 ### <mark style="background: #FFB8EBA6;">current</mark>

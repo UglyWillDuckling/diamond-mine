@@ -2,9 +2,30 @@
   "confirmDeletion": true,
   "showAddCommand": true,
   "debug": false,
-  "editorMenu": [],
-  "fileMenu": [],
-  "leftRibbon": [],
+  "editorMenu": [
+    {
+      "id": "graph:open-local",
+      "icon": "lucide-git-fork",
+      "name": "Graph view: Open local graph",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [
+    {
+      "id": "graph:open-local",
+      "icon": "lucide-git-fork",
+      "name": "Graph view: Open local graph",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [
+    {
+      "id": "graph:open-local",
+      "icon": "lucide-git-fork",
+      "name": "Graph view: Open local graph",
+      "mode": "any"
+    }
+  ],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],

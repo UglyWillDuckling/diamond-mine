@@ -340,10 +340,8 @@ nnoremap qq :contextualComment
 " Folding
 """"""""""""""""""""""
 " Emulate vim folding command
-nnoremap zo :togglefold
-nnoremap zc :togglefold
-nnoremap ^ :togglefold
-nnoremap <C-space> :togglefold
+nnoremap zo :togglefold<CR>
+nnoremap zc :togglefold<CR>
 
 exmap unfoldall obcommand editor:unfold-all
 exmap foldall obcommand editor:fold-all

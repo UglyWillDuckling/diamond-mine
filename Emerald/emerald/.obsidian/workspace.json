@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3951eeca34655eb2",
+        "id": "d7193af10b3ac53c",
         "type": "tabs",
         "children": [
           {
-            "id": "57aeb364386e6158",
+            "id": "5a00be3db2f2c284",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/daily_notes/2024/December/quote mapping.md",
+                "file": "work/tickets/FEAT/QSL listing feature/subs/frontend implementation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "quote mapping"
+              "title": "frontend implementation"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Cron-example-command.gif)",
+                "query": "tag:#active",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "aff4b0deb1f9c79c",
+            "id": "8d4c9402c121d3d3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "0cf285506fec08cb",
+            "id": "bee08e2b382e6bf5",
             "type": "leaf",
             "state": {
               "type": "surfing-tab-tree",
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5,
+    "width": 275.51103591918945,
     "collapsed": true
   },
   "right": {
@@ -99,6 +99,25 @@
         "id": "65b8ffe11667d608",
         "type": "tabs",
         "children": [
+          {
+            "id": "86f9da28a5f14644",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "work/tickets/FEAT/QSL listing feature/subs/frontend implementation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for frontend implementation"
+            }
+          },
           {
             "id": "a677e5cf3e3fb9c3",
             "type": "leaf",
@@ -130,24 +149,6 @@
               "state": {},
               "icon": "lucide-list",
               "title": "Outline"
-            }
-          },
-          {
-            "id": "86f9da28a5f14644",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
             }
           },
           {
@@ -210,7 +211,6 @@
       "quickadd:QuickAdd": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
@@ -226,37 +226,40 @@
       "obsidian-book-search-plugin:Create new book note": false,
       "obsidian42-brat:BRAT": false,
       "wikipedia-search:Open Article": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "cmdr:Graph view: Open local graph": false
     }
   },
-  "active": "57aeb364386e6158",
+  "active": "5a00be3db2f2c284",
   "lastOpenFiles": [
-    "Knowledge/daily_notes/2024/December/quote mapping.md",
+    "work/docs/concepts/realtor.md",
+    "work/tickets/FEAT/QSL listing feature/subs/frontend implementation.md",
+    "+/acceptance.md",
+    "agency/realtor.md",
+    "agency",
+    "work/tickets/FEAT/QSL listing feature/docs/where the confirmed listings are printed.md",
+    "work/tickets/FEAT/QSL listing feature/ideas.md",
+    "work/tickets/FEAT/QSL listing feature/❌/result.md",
+    "work/tickets/FEAT/QSL listing feature/subs/write the table docs.md",
+    "work/tickets/FEAT/QSL listing feature/subs/research how to add a cronjob.md",
+    "work/tickets/FEAT/QSL listing feature/subs/update online status.md",
+    "work/tickets/FEAT/QSL listing feature/docs/study CSV export.md",
+    "work/tickets/FEAT/QSL listing feature/subs/archive/build the interface.md",
+    "work/tickets/FEAT/QSL listing feature/❌",
+    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+    "Knowledge/tools/dev/php/Guzzle.md",
+    "+/vim - jump to last edit and enter insert mode.md",
+    "Knowledge/Articles/dev/Vim Jump to Last Change - VimTricks.md",
+    "+/I made an account on the backyard.md",
+    "Knowledge/tools/dev/vim.md",
     "Knowledge/daily_notes/2024/December/2024-12-06.md",
-    "+/cron.md",
-    "work/calls/Christmas Party.md",
-    "Knowledge/templates/thought.md",
-    "+/crontab.md",
-    "Clippings/allowed crontab values.md",
-    "Clippings/2024-12-16.md",
-    "Knowledge/Articles/dev/Git Tips 1- Oldies but Goodies.md",
-    "+/luna email.md",
-    "work/people and teams/LUNA/luna team.md",
-    "Knowledge/tools/dev/git/git maintenance.md",
-    "+/Christmas Party.md",
-    "+/girrafe.md",
-    "+/aws lambda.md",
-    "Knowledge/Media/Film/Palestine Is Still the Issue.md",
-    "Knowledge/concepts/development/Cross-site scripting.md",
-    "Knowledge/daily_notes/2024/December/2024-12-05.md",
+    "dev/obsidian/add other quick adds.md",
+    "Kanban.md",
     "Dashboard.md",
-    "work/calls/pair programming/[-readable.md",
-    "work/calls/pair programming/Education call v1.md",
-    "work/calls/pair programming/fat lambda.md",
-    "Knowledge/tools/dev/AWS.md",
-    "work/calls/pair programming/Terraform.md",
-    "work/calls/pair programming/infrastructure-as-code.md",
-    "work/calls/pair programming/version control system.md",
+    "Knowledge/tools/dev/vimdot.md",
+    "+/vim has the vimdot command.md",
+    "Knowledge/tools/dev/linux/cron.md",
+    "+/crontab.md",
     "Action.canvas",
     "Knowledge/daily_notes/2024/December",
     "x/Compte Rendu d'Activité - October 2024.pdf",
@@ -266,8 +269,6 @@
     "work/calls/backyard/Vladimir ",
     "dev/obsidian",
     "dev/nvim",
-    "Knowledge/daily_notes/2024/old",
-    "Knowledge/daily_notes/2024/November",
     "work/people and teams/LUNA/Screenshot_20241107_140216.png",
     "work/docs/CRM/CRM.canvas",
     "Knowledge/tools/PM/bee-bole-export.png",

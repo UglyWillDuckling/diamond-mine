@@ -4,6 +4,12 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
+    ":arrow_heading_up:",
+    ":people_holding_hands:",
+    ":ticket:",
+    ":heavy_check_mark:",
+    ":spiral_notepad:",
+    ":printer:",
     ":notebook_with_decorative_cover:",
     ":open_file_folder:",
     ":thinking:",
@@ -29,7 +35,6 @@
     ":world_map:",
     ":maple_leaf:",
     ":email:",
-    ":heavy_check_mark:",
     ":clipboard:",
     ":telephone_receiver:",
     ":microscope:",
@@ -37,9 +42,7 @@
     ":blue_book:",
     ":radioactive:",
     ":calendar:",
-    ":spiral_notepad:",
     ":notebook:",
-    ":arrow_heading_up:",
     ":vertical_traffic_light:",
     ":artificial_satellite:",
     ":man_factory_worker:",
@@ -94,7 +97,6 @@
     ":mask:",
     ":octopus:",
     ":congratulations:",
-    ":ticket:",
     ":card_index:",
     ":card_index_dividers:",
     ":brain:",
@@ -183,7 +185,6 @@
     ":necktie:",
     ":service_dog:",
     ":swimming_woman:",
-    ":people_holding_hands:",
     ":olive:",
     ":ringed_planet:",
     ":page_with_curl:",
@@ -202,7 +203,6 @@
     ":pray:",
     ":racehorse:",
     ":computer:",
-    ":desktop_computer:",
-    ":cloud_with_lightning_and_rain:"
+    ":desktop_computer:"
   ]
 }

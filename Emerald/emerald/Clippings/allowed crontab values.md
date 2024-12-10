@@ -27,4 +27,4 @@ created: 2024-12-06
 | SUN-SAT   | alternative single values |
 | 7         | sunday (non-standard)     |
 
-- [ ] take a look again (@[[2024-12-09]])
+- [x] take a look again (@[[2024-12-09]] 15:23)

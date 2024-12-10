@@ -1,8 +1,5 @@
 ---
-date: [{{VALUE:date}}]
-status: unread
-created: {{DATE:YYYY-MM-DD HH:mm:ss}}
-updated: {{DATE:YYYY-MM-DD HH:mm:ss}}
+date: {{date:MMM d, YYYY}}
 ---
 #work #work/call #call
 

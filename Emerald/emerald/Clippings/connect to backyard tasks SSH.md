@@ -15,4 +15,4 @@ tags:
 gcloud compute ssh --zone "europe-west1-c" "backyard-tasks-dev-1c-0"  --project "ma-dev2"
 ```
 
-- [ ] a friendly reminder (@[[2024-12-07]])
+- [x] a friendly reminder (@[[2024-12-09]] 15:23)

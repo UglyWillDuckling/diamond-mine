@@ -5,7 +5,8 @@
 
 ## notes 🗒
 - it is important to use real data updates as it makes it easy to check if updates really happened
-- 't in tests, varying the data set sizes can be useful, either to speed up development or use get a more accurate picture using larger sets
+- 't in `tests`, varying the data set sizes can be useful, either to **speed up** development or
+	to get a more accurate picture using **larger** sets
 - ..
 ---
 ## tasks
@@ -13,8 +14,8 @@
 - [x]  #task build update logic
 	- [x] update listing `entity`
 		- [x] [[#http 🛰]]
-- [/] 't write tests
-	- [  ] come up with testing scenarios 👣
+- [/] 't write tests #task
+	- [ ] come up with testing scenarios 👣 #task
 ---
 ### update logic ⤴
 - [x] basic logic setup
@@ -43,5 +44,3 @@
 ## tests 🧪
 
 ### come up with scenarios
-
-

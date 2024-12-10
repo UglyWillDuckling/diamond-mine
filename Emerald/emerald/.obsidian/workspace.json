@@ -4,25 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "d7193af10b3ac53c",
+        "id": "9db0b535c1b2dfc8",
         "type": "tabs",
         "children": [
           {
-            "id": "5a00be3db2f2c284",
+            "id": "5d9a57f4e4648946",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/subs/frontend implementation.md",
+                "file": "Knowledge/daily_notes/2024/December/2024-12-10.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "frontend implementation"
+              "title": "2024-12-10"
+            }
+          },
+          {
+            "id": "fa20e846009bae02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/calls/DAILY/2024-12-10 daily.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-12-10 daily"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.51103591918945,
+    "width": 338.5,
     "collapsed": true
   },
   "right": {
@@ -100,12 +116,26 @@
         "type": "tabs",
         "children": [
           {
+            "id": "a677e5cf3e3fb9c3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "work/calls/DAILY/2024-12-10 daily.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2024-12-10 daily"
+            }
+          },
+          {
             "id": "86f9da28a5f14644",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/subs/frontend implementation.md",
+                "file": "work/calls/DAILY/2024-12-10 daily.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,20 +145,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for frontend implementation"
-            }
-          },
-          {
-            "id": "a677e5cf3e3fb9c3",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": true,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Backlinks for 2024-12-10 daily"
             }
           },
           {
@@ -146,67 +163,23 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "work/calls/DAILY/2024-12-10 daily.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "a31306c838ff21eb",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "c342f03b0908a894",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "ba1acddc04d7df25",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
-            }
-          },
-          {
-            "id": "93570a9d687d9f6b",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
+              "title": "Outline of 2024-12-10 daily"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 349.5,
-    "collapsed": true
+    "width": 349.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "graph:Open graph view": false,
       "surfing:surfing-bookmark-manager": false,
       "quickadd:QuickAdd": false,
       "audio-recorder:Start/stop recording": false,
@@ -226,41 +199,41 @@
       "obsidian-book-search-plugin:Create new book note": false,
       "obsidian42-brat:BRAT": false,
       "wikipedia-search:Open Article": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "cmdr:Graph view: Open local graph": false
+      "cmdr:Graph view: Open local graph": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5a00be3db2f2c284",
+  "active": "f07468be7d7ba89d",
   "lastOpenFiles": [
-    "work/docs/concepts/realtor.md",
+    "Knowledge/daily_notes/2024/December/2024-12-10.md",
+    "work/calls/DAILY/2024-12-10 daily.md",
     "work/tickets/FEAT/QSL listing feature/subs/frontend implementation.md",
-    "+/acceptance.md",
-    "agency/realtor.md",
-    "agency",
-    "work/tickets/FEAT/QSL listing feature/docs/where the confirmed listings are printed.md",
-    "work/tickets/FEAT/QSL listing feature/ideas.md",
-    "work/tickets/FEAT/QSL listing feature/❌/result.md",
-    "work/tickets/FEAT/QSL listing feature/subs/write the table docs.md",
-    "work/tickets/FEAT/QSL listing feature/subs/research how to add a cronjob.md",
+    "Clippings/Specijalistička ginekološka ordinacija Filomena Tolić Kovačić, SLavonski Brod.md",
+    "Clippings/connect to backyard tasks SSH.md",
+    "Clippings/allowed crontab values.md",
+    "work/calls/SPRINT/Sprint Retro - C8 EXT - Sprint 2.md",
+    "work/calls/SPRINT/spring retro 11-11.md",
+    "work/calls/SPRINT/Sprint Planning - C8 EXT - Sprint 2.md",
+    "work/calls/SPRINT/Sprint RETRO.md",
+    "work/calls/SPRINT/Untitled.md",
+    "Knowledge/daily_notes/2024/December/2024-12-09.md",
+    "tasks/tasks.md",
     "work/tickets/FEAT/QSL listing feature/subs/update online status.md",
-    "work/tickets/FEAT/QSL listing feature/docs/study CSV export.md",
-    "work/tickets/FEAT/QSL listing feature/subs/archive/build the interface.md",
-    "work/tickets/FEAT/QSL listing feature/❌",
-    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-    "Knowledge/tools/dev/php/Guzzle.md",
-    "+/vim - jump to last edit and enter insert mode.md",
-    "Knowledge/Articles/dev/Vim Jump to Last Change - VimTricks.md",
-    "+/I made an account on the backyard.md",
-    "Knowledge/tools/dev/vim.md",
-    "Knowledge/daily_notes/2024/December/2024-12-06.md",
-    "dev/obsidian/add other quick adds.md",
+    "work/calls/DAILY/2024-12-09 daily.md",
+    "dev/general/try out some of the vim mappings on obs.md",
     "Kanban.md",
-    "Dashboard.md",
-    "Knowledge/tools/dev/vimdot.md",
-    "+/vim has the vimdot command.md",
-    "Knowledge/tools/dev/linux/cron.md",
-    "+/crontab.md",
     "Action.canvas",
+    "dev/obsidian/study obsidian some more.md",
+    "Dashboard.md",
+    "+/crontab.md",
+    "+/brain stuff.md",
+    "work/calls/CRM/New CRM Architecture meet v4.md",
+    "Knowledge/templates/call.md",
+    "work/calls/new.md",
+    "work/calls/fff.md",
+    "work/calls/ffff.md",
+    "agency",
+    "work/tickets/FEAT/QSL listing feature/❌",
     "Knowledge/daily_notes/2024/December",
     "x/Compte Rendu d'Activité - October 2024.pdf",
     "Untitled",

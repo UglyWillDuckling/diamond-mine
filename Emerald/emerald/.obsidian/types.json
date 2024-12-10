@@ -27,6 +27,9 @@
     "finished": "checkbox",
     "start date": "date",
     "complexity": "multitext",
-    "": "text"
+    "": "text",
+    "created": "date",
+    "updated": "date",
+    "date": "date"
   }
 }

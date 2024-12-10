@@ -1,5 +1,4 @@
 ---
-
 kanban-plugin: board
 tags:
   - hello
@@ -14,7 +13,6 @@ tags:
   - kankan
 sticker: lucide//clipboard-list
 color: var(--mk-color-orange)
-
 ---
 
 ## backlog 🗃
@@ -42,12 +40,11 @@ color: var(--mk-color-orange)
 
 ## active ⚔
 
-- [ ] [[study obsidian some more]] ^1lqsh9
+- [/] [[study obsidian some more]] ^1lqsh9 #task
 - [/] [[QSL listing feature|QSL listing feature]]
 - [/] #task [[read books on tools that I use]] ⏫
 - [/] [[organize obsidian notes with dataview and folders]]
 - [/] [[add other quick adds]]
-
 
 ## finished
 

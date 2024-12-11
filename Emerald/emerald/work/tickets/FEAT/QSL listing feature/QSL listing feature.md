@@ -40,9 +40,14 @@
 - [x] #task add back `start_date` ⏫ ✅ 2024-11-27
 - [x] #task [[CSV import]] ⏫ ✅ 2024-12-02
 - [x] #task [[create real table]] ✅ 2024-12-02
+- [x] #task [[frontend implementation]]
 - [ ] #task cleanup tests
-- [ ] #task [[frontend implementation]]
+- [ ] #task [[develop CSV backyard export]]
 
 ---
 ### <mark style="background: #FFB8EBA6;">current</mark>
-[[update online status]]
+[[frontend implementation]]
+
+for implementing <mark style="background: #FF5582A6;">error emails</mark>
+<mark class='path'>framework/class.email.inc</mark>
+

@@ -30,6 +30,7 @@
     "": "text",
     "created": "date",
     "updated": "date",
-    "date": "date"
+    "date": "date",
+    "related": "multitext"
   }
 }

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🪣",
       "👠",
       "👟",
       "🔙",
-      "LiDock",
-      "LiBluetoothConnected"
+      "LiDock"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -426,5 +426,6 @@
   "work/tickets/FEAT/QSL listing feature/subs/update online status.md": "LiBluetoothConnected",
   "work/calls/SPRINT": "👠",
   "work/calls/SPRINT/Sprint Planning - C8 EXT - Sprint 2.md": "🔙",
-  "work/calls/SPRINT/Sprint Retro - C8 EXT - Sprint 2.md": "🔙"
+  "work/calls/SPRINT/Sprint Retro - C8 EXT - Sprint 2.md": "🔙",
+  "Knowledge/tools/dev/GCP Bucket.md": "🪣"
 }

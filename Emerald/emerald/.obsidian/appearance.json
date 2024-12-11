@@ -3,7 +3,7 @@
   "textFontFamily": "Cantarell",
   "theme": "moonstone",
   "interfaceFontFamily": "Baskerville",
-  "baseFontSize": 15,
+  "baseFontSize": 11,
   "baseFontSizeAction": true,
   "nativeMenus": true,
   "monospaceFontFamily": "FiraCode Nerd Font",

@@ -280,6 +280,9 @@ img
 inu
 ivota
 izdvojite
+implementationA
+invalid
+initialized
 JavaScript
 July
 Javascript
@@ -687,6 +690,7 @@ demonstrate
 dijelile
 doga
 dojki
+di
 several
 symbols
 string
@@ -1226,6 +1230,11 @@ spirale
 svim
 statement
 srediti
+sorting
+singleton
+stricts
+shortest
+synonym
 for
 first
 fix
@@ -2091,6 +2100,7 @@ ambulanta
 ambulantu
 aje
 alt
+appdata
 metaprogramming
 means
 modify
@@ -3334,6 +3344,7 @@ trudnice
 tim
 tolic
 tipku
+testpath
 behavior
 built
 by
@@ -3719,6 +3730,7 @@ organizirati
 opu
 orem
 ordinacija
+okta
 program
 property
 plugin
@@ -4125,6 +4137,9 @@ prepustite
 pregled
 postavljanje
 prenatalni
+protected
+paradigms
+passwords
 Using
 UI
 Unions
@@ -4687,6 +4702,7 @@ retrieve
 realted
 respond
 resolutions
+resize
 Here
 How
 HOST
@@ -5443,6 +5459,7 @@ lacking
 lambdas
 locations
 lijepe
+lua
 named
 needs
 no
@@ -5563,6 +5580,7 @@ nama
 nelagodi
 nadzor
 nas
+nearline
 Symbol
 SRE
 SPIKE
@@ -5869,6 +5887,7 @@ IT
 IaC
 Iac
 Internet
+Indices
 key
 kanban
 kankan
@@ -5930,6 +5949,7 @@ kroz
 kojima
 ke
 kolposkopija
+kava
 Description
 Date
 Demander
@@ -6062,6 +6082,11 @@ Dragi
 DATA
 DESCRIPTION
 Dec
+Documents
+Develop
+DRY
+DIE
+Duplication
 values
 vim
 vars
@@ -6288,6 +6313,8 @@ En
 Either
 Enterprise
 Email
+Extra
+Evil
 Complete
 Could
 Code
@@ -6515,6 +6542,7 @@ Colin
 Copyright
 Constraints
 COLUMN
+Constant
 PR
 Phase
 Plan
@@ -6843,6 +6871,7 @@ Attribution
 Andy
 Average
 Archives
+ADR
 je
 jump
 javascript
@@ -6926,6 +6955,7 @@ YouTube
 YAML
 Yandex
 Yevgeniy
+Yourself
 goals
 general
 get
@@ -7186,6 +7216,7 @@ FreeBSD
 Foundation
 Filomena
 Foto
+Fatal
 quick
 query
 qh
@@ -8099,6 +8130,7 @@ zaokru
 zajedno
 zavr
 zdravlju
+zavrsiti
 xN
 xe
 xH

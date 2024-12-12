@@ -5,7 +5,7 @@
 
 - [x] remind (@[[2024-12-06]])
 ---
-## tools
+## by tools
 
 - [/] [[tmux 3]] - [[tmux reading]]
 	- [ ] [[tmux - resources]]

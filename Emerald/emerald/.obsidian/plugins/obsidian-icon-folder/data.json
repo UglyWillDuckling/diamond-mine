@@ -43,7 +43,6 @@
   "work/docs": "LiArchive",
   "Education/Typescript/resources/Learning Typescript Book/Learning TypeScript book.md": "📙",
   "Education/Typescript/resources/Learning Typescript Book/Learning Typescript practical.md": "LiCode2",
-  "work/fun": "🎴",
   "Education/Typescript/Execute program {}/Everyday Typescript/Single and Multiple Inheritance.md": "LiSnapToObject",
   "work/notes": "📔",
   "work/tickets/SPIKE's/SPIKE - myTileCache migration to VectorTile?.md": "LiMousePointer2",
@@ -149,18 +148,9 @@
   "tasks/archive/add keywords to TODO.md": "LiWholeWord",
   "work/notes/archive/Millions of euros for a buy in France.md": "🇫🇷",
   "work/calls/SPRINT/Sprint planning 10-14.md": "👟",
-  "work/people and teams": {
-    "iconName": "LiPersonStanding",
-    "iconColor": "#ca3f77"
-  },
   "work/calls/CRM/CRM - introduction to Design.md": "👑",
   "work/calls/CRM/CRM in SLMP - macro-estimate session.md": "👑",
   "work/calls/CRM/CRM macro estimate v2.md": "👑",
-  "work/people and teams/LUNA/Danijela.md": "🫐",
-  "work/people and teams/LUNA/Natasa.md": "👧",
-  "work/people and teams/LUNA/Paulo.md": "LiBike",
-  "work/people and teams/NOVA/Yoan.md": "🍟",
-  "work/people and teams/LUNA/luna team.md": "LiMoonStar",
   "tasks/archive/install the note size slider.md": {
     "iconName": "LiSliders",
     "iconColor": "#d917af"
@@ -190,7 +180,6 @@
     "iconColor": "#e0720b"
   },
   "Knowledge/templates": "LiBookTemplate",
-  "work/people and teams/SRE.md": "LiBringToFront",
   "Kanban.md": "🎬",
   "work/tickets/archive/Wysiwyg replacement.md": "LiPawPrint",
   "Knowledge/concepts": "LiShapes",
@@ -329,11 +318,6 @@
   "notes/questions/how to remove items from the left click menu.md": "LiMouse",
   "work/tickets/archive/Diabolocom - legacy cleanup.md": "🦹",
   "work/tickets/chores/Update Diabolocom deprecated csv file export.md": "🧛",
-  "work/notes/test - test on backyard have 2 db's.md": {
-    "iconName": "LiTestTube2",
-    "iconColor": "#218358"
-  },
-  "work/notes/test are run using a test Makefile.md": "LiTestTube2",
   "work/notes/archive/LUNA team has its own argocd pipeline setup.md": {
     "iconName": "LiMoon",
     "iconColor": "#878787"
@@ -350,7 +334,6 @@
     "iconColor": "#8e52ff"
   },
   "dev": "🖥",
-  "work/notes/deploy na tasks je dosta brz.md": "LiRocket",
   "dev/general/Find what grug is about.md": "LiEye",
   "dev/general/check for an ergonomic mouse.md": "LiMouse",
   "dev/general/refactor movie controller.md": "LiCompass",
@@ -427,5 +410,22 @@
   "work/calls/SPRINT": "👠",
   "work/calls/SPRINT/Sprint Planning - C8 EXT - Sprint 2.md": "🔙",
   "work/calls/SPRINT/Sprint Retro - C8 EXT - Sprint 2.md": "🔙",
-  "Knowledge/tools/dev/GCP Bucket.md": "🪣"
+  "Knowledge/tools/dev/GCP Bucket.md": "🪣",
+  "work/notes/archive/deploy na tasks je dosta brz.md": "LiRocket",
+  "work/notes/archive/test - test on backyard have 2 db's.md": {
+    "iconName": "LiTestTube2",
+    "iconColor": "#218358"
+  },
+  "work/notes/archive/test are run using a test Makefile.md": "LiTestTube2",
+  "work/notes/fun": "🎴",
+  "work/people and teams": {
+    "iconName": "LiPersonStanding",
+    "iconColor": "#ca3f77"
+  },
+  "work/people and teams/SRE.md": "LiBringToFront",
+  "work/people and teams/LUNA/Danijela.md": "🫐",
+  "work/people and teams/LUNA/Natasa.md": "👧",
+  "work/people and teams/LUNA/Paulo.md": "LiBike",
+  "work/people and teams/LUNA/luna team.md": "LiMoonStar",
+  "work/people and teams/NOVA/Yoan.md": "🍟"
 }

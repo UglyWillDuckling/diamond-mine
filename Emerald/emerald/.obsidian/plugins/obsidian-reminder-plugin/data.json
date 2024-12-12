@@ -1,13 +1,6 @@
 {
   "scanned": true,
   "reminders": {
-    "work/notes/test are run using a test Makefile.md": [
-      {
-        "title": "remind",
-        "time": "2024-12-13",
-        "rowNumber": 3
-      }
-    ],
     "work/calls/CRM/Unified Shell Onboarding - Team Luna.md": [
       {
         "title": "see this again",
@@ -27,6 +20,13 @@
         "title": "reminder for [[Slack]]",
         "time": "2024-12-11 16:45",
         "rowNumber": 59
+      }
+    ],
+    "work/notes/archive/test are run using a test Makefile.md": [
+      {
+        "title": "remind",
+        "time": "2024-12-13",
+        "rowNumber": 3
       }
     ]
   },

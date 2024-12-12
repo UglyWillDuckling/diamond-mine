@@ -24,3 +24,9 @@ https://csv.thephpleague.com/9.0
 - no rules for filtering or sorting come to mind
 - the `CSV` export logic **should** go into a separate [[module]]
 
+## ideas
+- $ maybe the export itself could done as an object with more capabilities | [[capability]]
+	- & it could perhaps have the output method on itself instead of returing the `Writer`
+		```php
+		<?php $export->output();
+```

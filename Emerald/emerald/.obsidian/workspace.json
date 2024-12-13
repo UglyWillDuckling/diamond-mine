@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/daily_notes/2024/December/2024-12-12.md",
+                "file": "Knowledge/daily_notes/2024/December/2024-12-13.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-12"
+              "title": "2024-12-13"
             }
           }
         ]
@@ -148,14 +148,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md"
+                "file": "work/tickets/FEAT/QSL listing feature/develop CSV backyard export.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of QSL listing feature"
+              "title": "Outline of develop CSV backyard export"
             }
           },
           {
-            "id": "139210aafb2c3ef4",
+            "id": "438a2f7907632357",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -168,17 +168,7 @@
             }
           },
           {
-            "id": "14f2e320969b7d14",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
-            "id": "f629a1607e189fb9",
+            "id": "a835e11a6f76b8cd",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -192,7 +182,7 @@
             }
           },
           {
-            "id": "161980bebbc24cd5",
+            "id": "19cfa3968b571e83",
             "type": "leaf",
             "state": {
               "type": "planner-timeline",
@@ -200,9 +190,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Timeline"
             }
+          },
+          {
+            "id": "90d67fbbe250b771",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -237,16 +237,20 @@
   },
   "active": "3dda8a94d52102a3",
   "lastOpenFiles": [
+    "work/tickets/FEAT/QSL listing feature/develop CSV backyard export.md",
+    "Knowledge/daily_notes/2024/December/2024-12-13.md",
+    "Knowledge/daily_notes/2024/December/see how to optimize text rendering on Ubuntu.md",
+    "Knowledge/daily_notes/2024/December/2024-12-11.md",
+    "Clippings/Ubuntu, Font Hinting, & You A Cautionary Tale.md",
+    "Clippings/Bad font anti-aliasing in Ubuntu.md",
+    "Knowledge/daily_notes/2024/December/2024-12-12.md",
     "tasks/dev/Go through the VIm help documentation.md",
     "Knowledge/tools/dev/vim.md",
-    "Knowledge/daily_notes/2024/December/2024-12-12.md",
     "notes/read books on tools that I use.md",
     "dev/nvim/nvim.md",
     "work/notes/example bucket path for backyard.md",
     "work/notes/archive/test are run using a test Makefile.md",
     "work/notes/archive/test - test on backyard have 2 db's.md",
-    "Knowledge/daily_notes/2024/December/2024-12-11.md",
-    "work/tickets/FEAT/QSL listing feature/develop CSV backyard export.md",
     "Clippings/PHP Error  Fatal error Constant expression contains invalid operations.md",
     "Knowledge/tools/dev/GCP Bucket.md",
     "work/calls/CRM/Arch call v4.md",
@@ -259,10 +263,6 @@
     "work/tickets/FEAT/QSL listing feature/docs/study CSV export.md",
     "Knowledge/daily_notes/2024/December/2024-12-10.md",
     "work/docs/concepts/QSL listing.md",
-    "work/calls/pair programming/Pair-programming 10.12.2024.md",
-    "work/calls/calls.md",
-    "work/tickets/FEAT/QSL listing feature/subs/frontend implementation.md",
-    "Knowledge/concepts/development/test expecation.md",
     "Action.canvas",
     "agency",
     "work/tickets/FEAT/QSL listing feature/❌",

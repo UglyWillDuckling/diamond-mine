@@ -210,7 +210,6 @@ onoremap am aW
 onoremap im iW
 onoremap aq a"
 onoremap iq i"
-onoremap k i"
 onoremap az a'
 onoremap iz i'
 onoremap ae a`
@@ -340,10 +339,8 @@ nnoremap qq :contextualComment
 " Folding
 """"""""""""""""""""""
 " Emulate vim folding command
-nnoremap zo :togglefold
-nnoremap zc :togglefold
-nnoremap ^ :togglefold
-nnoremap <C-space> :togglefold
+nnoremap zo :togglefold<CR>
+nnoremap zc :togglefold<CR>
 
 exmap unfoldall obcommand editor:unfold-all
 exmap foldall obcommand editor:fold-all
@@ -371,3 +368,13 @@ exmap back obcommand app:go-back
 nmap <C-o> :back<CR>
 exmap forward obcommand app:go-forward
 nmap <C-i> :forward<CR>
+
+" Editor
+nmap <C-w>i 0ci[/<Esc>
+nmap <C-w>? 0ci[?<Esc>
+
+" inline quote for selected text
+" NOTE: test this
+vmap <C-w>q o<Esc>i<lt>q><Esc>gvo<Esc>a<lt>/q><Esc>
+" path mark
+vmap <C-w>P o<Esc>i<lt>mark<space>class='path'><Esc>gvo<Esc>a<lt>/mark><Esc>

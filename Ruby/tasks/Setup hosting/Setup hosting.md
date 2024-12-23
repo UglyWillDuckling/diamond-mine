@@ -5,16 +5,16 @@
 ## questions
 - ? what is a [[reverse DNS]]
 ## todo
-- [ ] #task setup hosting
+- [/] #task Hosting Setup
 	- [x] #task find best deals ✅ 2024-12-23
 		- [x] #task try out the deals personally ✅ 2024-12-19
 	- [x] #task list hosting requirements ✅ 2024-12-19
 	- [/] #task setup a personal [[VPS]]
-		- [ ] 
 - [/] #task investigate how [[domain]]s work  🔼
 - [/] #task [[pointing a domain to Hostinger trial]]
-- [ ] #task [[investigate how to setup an email server]]
+- [ ] #task [[web server trial setup]]
 - [ ] #task [[setup mail server trial]]
+	- [ ] #task [[investigate how to setup an email server]]
 
 ## list hosting requirements
 - [[Server email support]]
@@ -28,7 +28,6 @@
 
 ### hostinger
 [[hostinger]]
-
 #### vps
 pass: ynCWoBr%F5k&xX
 https://hpanel.hostinger.com/vps/673736/overview
@@ -38,4 +37,7 @@ https://hpanel.hostinger.com/vps/673736/overview
 - [x] see how best to manage a [[VPS]]
 - [x] see how to setup [[domain]]’s
 	- Control Panel [[Coolify]]
-- [ ] try  out things
+- [x] try  out things
+
+
+## setup personal VPS

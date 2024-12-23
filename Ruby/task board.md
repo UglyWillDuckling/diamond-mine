@@ -6,20 +6,18 @@ kanban-plugin: board
 
 ## todo
 
-- [ ] [[review fizio]] #task
-- [ ] [[setup obsidian repo on mobile]] #task
+- [ ] [[organizirati faks za novu godinu]]
 
 
 ## active
 
-- [ ] [[use the timeline and daily tasks ✅]]
-- [ ] [[registracija auta]]
-- [ ] [[organizirati faks za novu godinu]]
+- [ ] [[Setup hosting]]
 
 
 ## done
 
-- [x] poslati mail profesorici iz Matematike [[poslati mailove za upis na predmete]]
+- [ ] [[registracija auta]]
+- [x] [[provjeriti techdot domenu]]
 
 
 ***
@@ -36,6 +34,11 @@ kanban-plugin: board
 - [x] [[fix shortcuts on PC]]
 - [x] hello @{2024-11-09}
 - [x] platiti porez
+- [x] poslati mail profesorici iz Matematike [[poslati mailove za upis na predmete]]
+- [x] [[review fizio]] #task ✅ 2024-12-17
+- [x] [[platiti Elan]]
+- [x] [[setup obsidian repo on mobile]] #task ✅ 2024-12-17
+- [x] [[use the timeline and daily tasks ✅]]
 
 %% kanban:settings
 ```

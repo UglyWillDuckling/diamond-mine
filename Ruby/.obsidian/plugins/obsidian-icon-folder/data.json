@@ -31,7 +31,8 @@
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
     "lucideIconPackType": "native",
-    "debugMode": false
+    "debugMode": false,
+    "useInternalPlugins": false
   },
   "days": {
     "iconName": "LiCalendarDays",
@@ -55,7 +56,6 @@
   "notes/ranger is actually quite good.md": "🏇",
   "notes/we could use Kanban for more than tasks.md": "LiCircuitBoard",
   "Life": "🗺",
-  "Life/Dev/tasks": "LiCheckSquare2",
   "notes/it's not easy to become one with 2 minds.md": "🎗",
   "notes/archive/grupirati taskove, dane i slicno.md": {
     "iconName": "LiGroup",
@@ -70,7 +70,6 @@
   "tasks/dev/obsidian - organize with tags.md": "LiTag",
   "tasks/add some questions.md": "LiQuestionMarkGlyph",
   "Life/Faks": "🎒",
-  "Life/Dev": "LiCodesandbox",
   "notes/questions?": {
     "iconName": "LiQuestionMarkGlyph",
     "iconColor": "#ff7e14"
@@ -102,7 +101,6 @@
   },
   "notes/obsidian/obsidian might be better managed via tags.md": "LiTag",
   "notes/questions?/what is the real difference between folders and tags?.md": "LiFolders",
-  "tasks/setup obsidian repo on mobile.md": "LiMouse",
   "notes/archive/daily planner looks great.md": "LiCheckSquare2",
   "days/2024/2024-10-27.md": {
     "iconName": "LiCalendar",
@@ -146,7 +144,6 @@
   "Knowledge/Articles/archive/Tech is no substitute for depth 🤔.md": "🤖",
   "Knowledge/Books/Never Let Me Go.md": "📘",
   "Knowledge/templates": "LiBookTemplate",
-  "Life/Dev/notes/more things should be shared between vaults.md": "💭",
   "task board.md": {
     "iconName": "LiListTodo",
     "iconColor": "#b73838"
@@ -155,5 +152,9 @@
   "Clippings": {
     "iconName": "LiClipboardCopy",
     "iconColor": "#dd46c9"
-  }
+  },
+  "Dev": "LiCodesandbox",
+  "Dev/tasks": "LiCheckSquare2",
+  "Dev/notes/more things should be shared between vaults.md": "💭",
+  "tasks/archive/setup obsidian repo on mobile.md": "LiMouse"
 }

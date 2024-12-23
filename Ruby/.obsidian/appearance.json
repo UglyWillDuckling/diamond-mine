@@ -1,10 +1,10 @@
 {
-  "cssTheme": "Sanctum reborn",
+  "cssTheme": "Sanctum",
   "interfaceFontFamily": "Cantarell",
   "monospaceFontFamily": "FiraCode Nerd Font Mono",
   "textFontFamily": "",
   "baseFontSizeAction": true,
-  "baseFontSize": 13,
+  "baseFontSize": 12,
   "enabledCssSnippets": [
     "remove_folder_icon",
     "tasks_padding",

@@ -167,6 +167,12 @@
         "Mod"
       ],
       "key": "S"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
     }
   ],
   "editor:insert-wikilink": [

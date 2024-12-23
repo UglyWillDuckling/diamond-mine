@@ -14,5 +14,3 @@ related:
 - [/] set up a [[webserver]]
 	- [x] start locally
 	- [x] move on to the [[my VPS]] 
-	- [ ] setup the [[SSL certificate]]
-- [ ] ..<mark style="background: #FFB8EBA6;">add more tasks</mark>

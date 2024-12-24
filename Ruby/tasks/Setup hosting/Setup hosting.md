@@ -9,10 +9,11 @@
 	- [x] #task find best deals ✅ 2024-12-23
 		- [x] #task try out the deals personally ✅ 2024-12-19
 	- [x] #task list hosting requirements ✅ 2024-12-19
-	- [/] #task setup a personal [[VPS]]
+	- [x] #task setup a personal [[VPS]] ✅ 2024-12-24
+- [x] #task [[pointing a domain to Hostinger trial]] ✅ 2024-12-24
+- [x] #task [[web server trial setup]] ✅ 2024-12-24
 - [/] #task investigate how [[domain]]s work  🔼
-- [/] #task [[pointing a domain to Hostinger trial]]
-- [ ] #task [[web server trial setup]]
+- [ ] #task check access to [[Senka]]s services ⏫
 - [ ] #task [[setup mail server trial]]
 	- [ ] #task [[investigate how to setup an email server]]
 - [ ] #task go through the [[Nginx Beginner’s Guide]] and other official docs
@@ -26,19 +27,16 @@
 	- ? is a [[VPS]]  needed for this or can it be done some other way
 
 ## try out deals
-
-### hostinger
 [[hostinger]]
 #### vps
-pass: ynCWoBr%F5k&xX
 https://hpanel.hostinger.com/vps/673736/overview
 - [x] setup the server
 - [x] login via [[SSH]]
-- [ ] make a list of what needs to be installed
-- [x] see how best to manage a [[VPS]]
 - [x] see how to setup [[domain]]’s
-	- Control Panel [[Coolify]]
-- [x] try  out things
+- [>] make a list of what needs to be installed #task 
 
+## check access
 
-## setup personal VPS
+- [ ]  cPanel - https://konoko.hr:2083
+- [ ] Hostinger VPS panel
+- [ ] ..

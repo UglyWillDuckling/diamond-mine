@@ -45,10 +45,6 @@
   },
   "notes/archive": "LiArchive",
   "notes/archive/I should encrypt folders.md": "LiCode",
-  "action.canvas": {
-    "iconName": "LiStepForward",
-    "iconColor": "#338dd1"
-  },
   "notes/archive/having a question list is a good idea.md": {
     "iconName": "LiQuestionMarkGlyph",
     "iconColor": "#e7cb13"

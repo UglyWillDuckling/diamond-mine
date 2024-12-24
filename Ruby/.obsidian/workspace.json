@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Certbot.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Certbot"
+            }
+          },
+          {
+            "id": "32631b44e88de960",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "tasks/Setup hosting/Setup hosting.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "Setup hosting"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5124969482422,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -189,39 +203,38 @@
       "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "4a369e18c5e63e5c",
+  "active": "32631b44e88de960",
   "lastOpenFiles": [
-    "web server trial setup.md",
-    "nginx setup steps for static site.md",
+    "2024-12-24.md",
+    "Certbot.md",
+    "action.canvas",
+    "+/SSL.md",
+    "+/webserver.md",
+    "+/web server trial setup.md",
+    "+/HTTP.md",
+    "dash 💨.md",
+    "tasks/Setup hosting/Setup hosting.md",
+    "+/nginx setup steps for static site.md",
     "Clippings/Nginx Beginner’s Guide.md",
     "Clippings/How to Set Up letsencrypt with Nginx on Docker.md",
-    "lets encrypt requests.md",
+    "+/lets encrypt requests.md",
     "+/my VPS.md",
     "+/hostinger.md",
-    "Let's Encrypt.md",
-    "2024-12-23.md",
-    "Nginx.md",
-    "Certbot.md",
+    "+/Let's Encrypt.md",
+    "days/2024-12-23.md",
+    "+/Nginx.md",
     "Clippings/Nginx and Let’s Encrypt with Docker in Less Than 5 Minutes.md",
     "tasks/pointing a domain to Hostinger trial.md",
-    "web.md",
+    "+/web.md",
     "Clippings/Configuring self-signed SSL certificates for local development.md",
-    "Isprobaj pristup na Senkine sajtove i domene.md",
-    "tasks/Setup hosting/Setup hosting.md",
+    "+/Isprobaj pristup na Senkine sajtove i domene.md",
     "tasks/investigate how to setup an email server.md",
-    "setup mail server trial.md",
-    "TLS.md",
-    "IETF.md",
-    "Netscape.md",
-    "Netscape Navigator.md",
-    "SSL.md",
-    "Knowledge/concepts/CS/internet.md",
-    "HTTPS.md",
+    "+/setup mail server trial.md",
+    "+/TLS.md",
     "Knowledge/howtos",
     "tasks/Setup hosting",
     "Excalidraw",
     "Dev/tasks/archive",
-    "action.canvas",
     "+",
     "Knowledge/Books/Brave New World.md~",
     "Clippings",

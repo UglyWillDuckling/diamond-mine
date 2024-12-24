@@ -1,3 +1,4 @@
+#concept #computer-science 
 
 A [[program]] that acts as a web server, serving content based on sent requests and its own configuration.
 These types of servers typically only support [[HTTP request]]s.

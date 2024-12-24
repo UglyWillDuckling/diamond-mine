@@ -15,6 +15,7 @@
 - [ ] #task [[web server trial setup]]
 - [ ] #task [[setup mail server trial]]
 	- [ ] #task [[investigate how to setup an email server]]
+- [ ] #task go through the [[Nginx Beginner’s Guide]] and other official docs
 
 ## list hosting requirements
 - [[Server email support]]

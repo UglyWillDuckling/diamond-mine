@@ -4,7 +4,7 @@
   "monospaceFontFamily": "FiraCode Nerd Font Mono",
   "textFontFamily": "",
   "baseFontSizeAction": true,
-  "baseFontSize": 12,
+  "baseFontSize": 16,
   "enabledCssSnippets": [
     "remove_folder_icon",
     "tasks_padding",

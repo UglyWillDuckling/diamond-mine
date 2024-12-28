@@ -15,9 +15,13 @@
 
 [[Install and configure Postfix]]
 
+new: [[How To Set Up a Postfix E-Mail Server with Dovecot  HostingPile]]
+
 #### artifacts
 [[trial postfix config file]]
 [[dovecot trial configs]]
 
 - [ ] follow [[Install and configure Postfix]]
+
+- [ ] read [[How To Set Up a Postfix E-Mail Server with Dovecot  HostingPile]]
 

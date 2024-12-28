@@ -6,6 +6,11 @@ tags:
 ## thoughts 💭
 - think 🤔 about reading some books
 
+## notes
+
+- kreiran je folder za Persona project
+`/home/vlado/dev/projects/persona-static`
+
 ## doing
 [[web server trial setup]]
 

@@ -4,33 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "bd75ab82545c1e84",
+        "id": "287de93f0ecf3bf1",
         "type": "tabs",
         "children": [
           {
-            "id": "1caf6a591f49a88d",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.hak.hr/uclani-se/placanje"
-              },
-              "icon": "lucide-file",
-              "title": "Učlani se - HAK"
-            }
-          },
-          {
-            "id": "2e6ec74bd20dfa5a",
+            "id": "551ddc1f6403d614",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tasks/HAK obnoviti clanstvo.md",
+                "file": "dovecot trial configs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HAK obnoviti clanstvo"
+              "title": "dovecot trial configs"
+            }
+          },
+          {
+            "id": "b3af90af2a46994e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/Install and configure Postfix.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Install and configure Postfix"
             }
           }
         ]
@@ -90,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 271.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -139,20 +142,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tasks/Setup hosting/Setup hosting.md"
+                "file": "dovecot trial configs.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Setup hosting"
-            }
-          },
-          {
-            "id": "686bcf89a615f491",
-            "type": "leaf",
-            "state": {
-              "type": "chronology-calendar-view",
-              "state": {},
-              "icon": "clock",
-              "title": "Chronology"
+              "title": "Outline of dovecot trial configs"
             }
           },
           {
@@ -179,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -201,35 +194,38 @@
       "obsidian-day-planner:Open Multi-Day View": true
     }
   },
-  "active": "1caf6a591f49a88d",
+  "active": "551ddc1f6403d614",
   "lastOpenFiles": [
-    "tasks/HAK obnoviti clanstvo.md",
-    "2024-12-28.md",
-    "hak-placanje.png",
-    "Clippings/Do obnove članstva u nekoliko laganih koraka.md",
-    "+/Certbot.md",
-    "+/NS (Name Server).md",
-    "+/Reverse DNS lookup.md",
+    "+/setup mail server trial.md",
+    "dovecot trial configs.md",
+    "Clippings/Install and configure Postfix.md",
+    "SASL.md",
+    "2024-12-29.md",
+    "+/mail server instructions.md",
+    "Clippings/How To Install and Configure Postfix on Ubuntu 20.04  DigitalOcean.md",
+    "x/trial postfix config file.md",
+    "Clippings/Fildžan viška.md",
     "task board.md",
-    "2024-12-24.md",
-    "+/DNS.md",
-    "+/CNAME record.md",
-    "Clippings/Domain Name System.md",
-    "Clippings/A Record.md",
-    "dash 💨.md",
-    "notes/questions?/what is the real difference between folders and tags?.md",
-    "tasks/Setup hosting/Setup hosting.md",
-    "action.canvas",
-    "+/SSL.md",
-    "+/webserver.md",
+    "+/postfix config steps.md",
+    "tasks/Setup hosting - send email to hostinger.md",
     "+/web server trial setup.md",
-    "+/HTTP.md",
-    "+/nginx setup steps for static site.md",
-    "Clippings/Nginx Beginner’s Guide.md",
-    "Clippings/How to Set Up letsencrypt with Nginx on Docker.md",
-    "+/lets encrypt requests.md",
-    "+/my VPS.md",
-    "+/hostinger.md",
+    "+/domain.md",
+    "Fully Qualified Domain Name.md",
+    "Fully qualified domain name - Wikipedia.md",
+    "Knowledge/concepts/hierarchy.md",
+    "Top-level domain - Wikipedia.md",
+    "wiki/Domain_Name_System.md",
+    "wiki/Domain_name.md",
+    "wiki",
+    "Clippings/Zdravstveno osiguranje  Usporedi i kupi najbolje zdravstveno osiguranje.md",
+    "tasks/Obnova dopunsko osiguranja.md",
+    "+/vladimir sedlar.md",
+    "dash 💨.md",
+    "2024-12-28.md",
+    "tasks/Poslati dokumente na Kompare.hr.md",
+    "x/hak-placanje.png",
+    "x",
+    "action.canvas",
     "Knowledge/howtos",
     "tasks/Setup hosting",
     "Excalidraw",
@@ -238,8 +234,6 @@
     "Knowledge/Books/Brave New World.md~",
     "Clippings",
     "Knowledge/Books/Authors",
-    "Dev/notes",
-    "Knowledge/Books",
     "tasks/archive/srediti troskovnik/actions.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",

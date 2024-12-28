@@ -47,7 +47,7 @@
     "defaultFilterType": "tree"
   },
   "treeData": [],
-  "enableHtmlPreview": true,
+  "enableHtmlPreview": false,
   "supportLivePreviewInlineUrl": false,
   "enableTreeView": false,
   "focusSearchBarViaKeyboard": true

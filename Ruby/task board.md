@@ -7,11 +7,13 @@ kanban-plugin: board
 ## todo
 
 - [ ] [[organizirati faks za novu godinu]]
+- [ ] add a quicka add to add a new task to this board
 
 
 ## active
 
 - [ ] [[Setup hosting]]
+- [ ] [[HAK obnoviti clanstvo]]
 
 
 ## done

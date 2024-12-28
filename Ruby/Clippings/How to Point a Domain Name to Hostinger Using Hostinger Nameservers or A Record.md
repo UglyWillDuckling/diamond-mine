@@ -66,7 +66,7 @@ For DNS to resolve correctly, make sure that **the domain is added to a hosting 
 You should use these nameservers to point your domain to [[Hostinger]]. There are two ways to do so:
 
 - **Changing the nameservers to your domain name registrar.** This method is recommended since your DNS zone will be automatically configured to match the hosting’s IP address. Plus, it allows you to transfer the control of your domain settings to Hostinger’s [hPanel](https://www.hostinger.com/tutorials/hpanel-tutorial), making management convenient.
-- **Pointing the domain name via an [[A record]]**. This method requires you to change 
+- **Pointing the domain name via an [[A Record]]**. This method requires you to change 
  the [[IP]] address connected to the DNS records. That way, your domain control stays in the [[registrar]]. This procedure is only recommended if you’re sure the IP address will be static. Remember that with this method, you must create and [check a new A record](https://www.hostinger.com/tutorials/how-to-check-if-domain-a-record-is-pointed-correctly) each time you make a subdomain.
 
 **Important!** This guide shows how to point to a domain name if it’s **NOT** registered with Hostinger. For a general tutorial on pointing a domain name to another provider, check out our tutorial on [How to Change Domain Nameservers](https://www.hostinger.com/tutorials/how-to-change-domain-nameservers).
@@ -110,7 +110,7 @@ For instance, if you have a domain named **domain.[tld](https://www.hostinger.co
 ![A DNS zone page showcasing search results for A records
 ](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2019/11/A-DNS-zone-page-showcasing-search-results-for-A-records-1024x411.webp)
 
-**Important!** It’s also possible that your **[[www]]** [[subdomain]] is pointed to the **[[CNAME record|CNAME]]** (an <mark style="background: #FFF3A3A6;">alias</mark>) record. In that case, you only have to change the [[A record]] for your root domain name.
+**Important!** It’s also possible that your **[[www]]** [[subdomain]] is pointed to the **[[CNAME record|CNAME]]** (an <mark style="background: #FFF3A3A6;">alias</mark>) record. In that case, you only have to change the [[A Record]] for your root domain name.
 
 - **Name/Host** – the domain or the subdomain you want to point to. Some registrars use the **“@”** symbol instead of a name to represent the root domain.
 - **[[TTL]]** – is short for **time-to-live**. It determines how long the server caches DNS-related information before refreshing it. The default value is usually **14,400 seconds**.

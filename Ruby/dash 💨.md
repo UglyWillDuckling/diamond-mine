@@ -1,9 +1,13 @@
-#board #start
-> always start here
+---
+tags:
+  - board
+  - start
+---
+## thoughts 💭
+- think 🤔 about reading some books
 
 ## doing
-
-[[pointing a domain to Hostinger trial]]
+[[web server trial setup]]
 
 ## questions 😕
 ```dataview
@@ -18,3 +22,4 @@ LIST FROM #thought AND #active
 ```dataview
 LIST FROM #note AND #active
 ```
+- think about reading some books on server setup and the like

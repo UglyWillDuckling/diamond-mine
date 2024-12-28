@@ -26,6 +26,7 @@
     "status": "multitext",
     "start date": "date",
     "updated": "datetime",
-    "related": "multitext"
+    "related": "multitext",
+    "parent": "multitext"
   }
 }

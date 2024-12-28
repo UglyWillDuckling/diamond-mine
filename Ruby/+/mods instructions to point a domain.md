@@ -20,7 +20,7 @@ Here's a step-by-step guide on how to point a domain to your [[VPS]]
 
   • Log in to your domain registrar or[[ DNS service]] provider
   • Go to the DNS settings for your domain (e.g., example.com)
-  • Create a new [[A record]] or update an existing one to point to your **VPS's IP**
+  • Create a new [[A Record]] or update an existing one to point to your **VPS's IP**
   address:
     • Hostname:  @  (or  example.com  if your DNS provider requires it)
     • [[IP]] Address:  192.0.2.1  (*example*)

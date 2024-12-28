@@ -39,4 +39,6 @@ https://hpanel.hostinger.com/vps/673736/overview
 
 - [ ]  cPanel - https://konoko.hr:2083
 - [ ] Hostinger VPS panel
-- [ ] ..
+- [ ] [[Regica]] -
+ User name: sblogo22@gmail.com 
+Pass: 22Senija22

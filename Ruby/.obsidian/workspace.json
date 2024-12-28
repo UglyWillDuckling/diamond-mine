@@ -4,39 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "4ebfb450b500e477",
+        "id": "bd75ab82545c1e84",
         "type": "tabs",
         "children": [
           {
-            "id": "4a369e18c5e63e5c",
+            "id": "1caf6a591f49a88d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "surfing-view",
               "state": {
-                "file": "Certbot.md",
-                "mode": "source",
-                "source": false
+                "url": "https://www.hak.hr/uclani-se/placanje"
               },
               "icon": "lucide-file",
-              "title": "Certbot"
+              "title": "Učlani se - HAK"
             }
           },
           {
-            "id": "32631b44e88de960",
+            "id": "2e6ec74bd20dfa5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tasks/Setup hosting/Setup hosting.md",
+                "file": "tasks/HAK obnoviti clanstvo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Setup hosting"
+              "title": "HAK obnoviti clanstvo"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -50,6 +47,23 @@
         "type": "tabs",
         "children": [
           {
+            "id": "eee8884ba9d4f92c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
             "id": "377a32c0e1ff69da",
             "type": "leaf",
             "state": {
@@ -62,24 +76,7 @@
             }
           },
           {
-            "id": "eee8884ba9d4f92c",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#active",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
-            "id": "036d83e21900c15b",
+            "id": "1ffefbe59330e598",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,7 +85,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -108,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "web server trial setup.md",
+                "file": "2024-12-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +116,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for web server trial setup"
+              "title": "Backlinks for 2024-12-24"
             }
           },
           {
@@ -127,12 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "web server trial setup.md",
+                "file": "2024-12-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from web server trial setup"
+              "title": "Outgoing links from 2024-12-24"
             }
           },
           {
@@ -190,47 +188,48 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "quickadd:QuickAdd": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
+      "quickadd:QuickAdd": true,
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "obsidian-book-search-plugin:Create new book note": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false,
-      "obsidian-book-search-plugin:Create new book note": false
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "obsidian-kanban:Create new board": true,
+      "obsidian-day-planner:Open Timeline": true,
+      "obsidian-day-planner:Open Multi-Day View": true
     }
   },
-  "active": "32631b44e88de960",
+  "active": "1caf6a591f49a88d",
   "lastOpenFiles": [
+    "tasks/HAK obnoviti clanstvo.md",
+    "2024-12-28.md",
+    "hak-placanje.png",
+    "Clippings/Do obnove članstva u nekoliko laganih koraka.md",
+    "+/Certbot.md",
+    "+/NS (Name Server).md",
+    "+/Reverse DNS lookup.md",
+    "task board.md",
     "2024-12-24.md",
-    "Certbot.md",
+    "+/DNS.md",
+    "+/CNAME record.md",
+    "Clippings/Domain Name System.md",
+    "Clippings/A Record.md",
+    "dash 💨.md",
+    "notes/questions?/what is the real difference between folders and tags?.md",
+    "tasks/Setup hosting/Setup hosting.md",
     "action.canvas",
     "+/SSL.md",
     "+/webserver.md",
     "+/web server trial setup.md",
     "+/HTTP.md",
-    "dash 💨.md",
-    "tasks/Setup hosting/Setup hosting.md",
     "+/nginx setup steps for static site.md",
     "Clippings/Nginx Beginner’s Guide.md",
     "Clippings/How to Set Up letsencrypt with Nginx on Docker.md",
     "+/lets encrypt requests.md",
     "+/my VPS.md",
     "+/hostinger.md",
-    "+/Let's Encrypt.md",
-    "days/2024-12-23.md",
-    "+/Nginx.md",
-    "Clippings/Nginx and Let’s Encrypt with Docker in Less Than 5 Minutes.md",
-    "tasks/pointing a domain to Hostinger trial.md",
-    "+/web.md",
-    "Clippings/Configuring self-signed SSL certificates for local development.md",
-    "+/Isprobaj pristup na Senkine sajtove i domene.md",
-    "tasks/investigate how to setup an email server.md",
-    "+/setup mail server trial.md",
-    "+/TLS.md",
     "Knowledge/howtos",
     "tasks/Setup hosting",
     "Excalidraw",

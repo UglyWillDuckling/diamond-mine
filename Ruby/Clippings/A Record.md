@@ -23,7 +23,7 @@ Most DNS tools let you check the A record for your website. In fact, most online
 
 # From [[mods]]
   In the context of Domain Name System (DNS), an A record (also known as a **host**
-  **record** or **address record**) is a type of DNS record that <mark style="background: #ABF7F7A6;">maps a hostname to an IP address</mark>.
+  **record** or **address record**) is a type of `DNS` record that <mark style="background: #ABF7F7A6;">maps a hostname to an IP address</mark>.
 
   Here's a breakdown of what that means:
 

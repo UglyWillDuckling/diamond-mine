@@ -1,16 +1,23 @@
 ---
-title: "How To Set Up a Postfix E-Mail Server with Dovecot | HostingPile"
-source: "https://hostingpile.com/tutorials/how-to-set-up-a-postfix-e-mail-server-with-dovecot/"
+title: How To Set Up a Postfix E-Mail Server with Dovecot | HostingPile
+source: https://hostingpile.com/tutorials/how-to-set-up-a-postfix-e-mail-server-with-dovecot/
 author:
   - "[[HostingPile]]"
 published: 2023-11-28
 created: 2024-12-29
-description: "Postfix Introduction This tutorial will tell you how to setup a basic mail server and teach you a bit about the Postfix MTA (Mail Transfer Agent) in the process.Postfix is extremely flexible. Its architecture is based on a loose composition of services that receive emails and pass them on to other services (with services like “smtp” on the receiving outer edge, and “local” and “virtual” on the delivering outer edge, if you’re looking at receiving mail)."
+description: Postfix Introduction This tutorial will tell you how to setup a basic mail server and teach you a bit about the Postfix MTA (Mail Transfer Agent) in the process.Postfix is extremely flexible. Its architecture is based on a loose composition of services that receive emails and pass them on to other services (with services like “smtp” on the receiving outer edge, and “local” and “virtual” on the delivering outer edge, if you’re looking at receiving mail).
 tags:
-  - "clippings"
+  - clippings
+  - howto
+  - article
+  - email
+related:
+  - "[[email]]"
+  - "[[mail server]]"
+  - "[[linux]]"
+  - "[[Dovecot]]"
+  - "[[Postfix]]"
 ---
-November 28, 2023 • 13 min read
-
 ### Postfix Introduction
 
 This tutorial will tell you how to setup a basic mail server and teach you a bit about the Postfix MTA (Mail Transfer Agent) in the process.  
@@ -231,7 +238,7 @@ newaliases
 
 to compile the file into the database Postfix uses for fast lookup.
 
-## Dovecot
+## [[Dovecot]]
 
 This one will be less wall-of-text-y! Take a deep breath, we’re almost done.
 

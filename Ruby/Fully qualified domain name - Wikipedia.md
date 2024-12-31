@@ -6,7 +6,6 @@ related:
   - "[[domain]]"
   - "[[DNS record]]"
   - "[[hierarchy]]"
-rel:
 ---
 Type of Internet domain name
 

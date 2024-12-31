@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/How To Set Up a Postfix E-Mail Server with Dovecot  HostingPile.md",
+                "file": "Postfix.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How To Set Up a Postfix E-Mail Server with Dovecot  HostingPile"
+              "title": "Postfix"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"related\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,41 +127,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/How To Set Up a Postfix E-Mail Server with Dovecot  HostingPile.md"
+                "file": "Postfix.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of How To Set Up a Postfix E-Mail Server with Dovecot  HostingPile"
+              "title": "Outline of Postfix"
             }
           },
           {
-            "id": "5f64bef476ba38a6",
+            "id": "0397b166cb8463da",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "778d15d6de49c800",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
+              "type": "chronology-calendar-view",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
+              "icon": "clock",
+              "title": "Chronology"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 379.5,
+    "width": 341.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -177,15 +163,20 @@
       "command-palette:Open command palette": true,
       "obsidian-kanban:Create new board": true,
       "obsidian-day-planner:Open Timeline": true,
-      "obsidian-day-planner:Open Multi-Day View": true
+      "obsidian-day-planner:Open Multi-Day View": true,
+      "chronology:Open Chronology": false
     }
   },
   "active": "b3af90af2a46994e",
   "lastOpenFiles": [
-    "+/setup mail server trial.md",
     "Clippings/How To Set Up a Postfix E-Mail Server with Dovecot  HostingPile.md",
-    "dovecot trial configs.md",
+    "Postfix.md",
     "Clippings/How to Install and Configure Postfix Mail Server in Linux.md",
+    "Dovecot.md",
+    "hostingpile.md",
+    "Fully qualified domain name - Wikipedia.md",
+    "+/setup mail server trial.md",
+    "dovecot trial configs.md",
     "Clippings/Install and configure Postfix.md",
     "SASL.md",
     "2024-12-29.md",
@@ -199,16 +190,12 @@
     "+/web server trial setup.md",
     "+/domain.md",
     "Fully Qualified Domain Name.md",
-    "Fully qualified domain name - Wikipedia.md",
     "Knowledge/concepts/hierarchy.md",
     "Top-level domain - Wikipedia.md",
     "wiki/Domain_Name_System.md",
     "wiki/Domain_name.md",
     "wiki",
     "Clippings/Zdravstveno osiguranje  Usporedi i kupi najbolje zdravstveno osiguranje.md",
-    "tasks/Obnova dopunsko osiguranja.md",
-    "+/vladimir sedlar.md",
-    "dash 💨.md",
     "x/hak-placanje.png",
     "x",
     "action.canvas",

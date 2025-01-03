@@ -1,12 +1,13 @@
 
-- [x] ! **timesheets**, beebole, monday
-	- [x] napravi racun
-	- [x] https://forms.monday.com/forms/b1ec031538b3bc9e554b967b7d775abe?r=euc1
-- [x] take a look at the [[Ubuntu]] upgrade error
+- [x] ! take a look at the [[Ubuntu]] upgrade error
 - [x] see [[PlantUML]] docs a bit more
 	- [x] @ [[Obsidian]] integration
 	- [x] [[vim]] integration
-- [x] watch [[PlantUML]] video to the end
-- [ ] `finish` the [[email archictecture diagrams]]
-- [/] commit
-- [ ] @ update system
+- [x] `finish` the [[email archictecture diagrams]]
+- [x] @ update system
+
+---
+
+- [ ] watch videos on [[email]]
+- [ ] watch other videos
+

@@ -8,4 +8,3 @@ from https://en.wikipedia.org/wiki/Message_transfer_agent
 from https://www.researchgate.net/figure/Architecture-of-email-system-13_fig1_319182999
 ![[Architecture-of-email-system-13.png]]
 
-o

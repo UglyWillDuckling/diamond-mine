@@ -1,16 +1,13 @@
 ---
 title: "joethei/obsidian-plantuml: Generate PlantUML Diagrams inside Obsidian.md"
-source: https://github.com/joethei/obsidian-plantuml
+source: "https://github.com/joethei/obsidian-plantuml"
 author:
   - "[[GitHub]]"
-published: 
+published:
 created: 2025-01-03
-description: Generate PlantUML Diagrams inside Obsidian.md. Contribute to joethei/obsidian-plantuml development by creating an account on GitHub.
+description: "Generate PlantUML Diagrams inside Obsidian.md. Contribute to joethei/obsidian-plantuml development by creating an account on GitHub."
 tags:
-  - clippings
-  - tool
-  - plugin
-  - obsidian-plugin
+  - "clippings"
 ---
 ## PlantUML Support for Obsidian
 
@@ -50,7 +47,8 @@ This works just as describe in the [official documentation](https://plantuml.com
 
 ### Examples
 
-```plantuml-ascii
+```
+\`\`\`plantuml
 Bob -> Alice : hello
 Alice -> Wonderland: hello
 Wonderland -> next: hello
@@ -59,11 +57,14 @@ Last -> next: hello
 next -> Wonderland : hello
 Wonderland -> Alice : hello
 Alice -> Bob: hello
+\`\`\`
 ```
 
+results in:
+
+[![](https://camo.githubusercontent.com/139a9dbcf893a4deaa07353595f1b63b2d5fbc4caa6401c19e1931c5de304116/687474703a2f2f7777772e706c616e74756d6c2e636f6d2f706c616e74756d6c2f706e672f5379664645684830722d78473069555370454a4b476d6b6933597438494374396f555332796f35497556627641516235454f6276414e315058313134494c7667484762534b5734384730384741505f344f624766613031314e53574d6532583149413278367734366f5572305f79366130303030)](https://camo.githubusercontent.com/139a9dbcf893a4deaa07353595f1b63b2d5fbc4caa6401c19e1931c5de304116/687474703a2f2f7777772e706c616e74756d6c2e636f6d2f706c616e74756d6c2f706e672f5379664645684830722d78473069555370454a4b476d6b6933597438494374396f555332796f35497556627641516235454f6276414e315058313134494c7667484762534b5734384730384741505f344f624766613031314e53574d6532583149413278367734366f5572305f79366130303030)
 
 ```
-
 \`\`\`plantuml-ascii
 Bob -> Alice : hello
 Alice -> Wonderland: hello
@@ -113,4 +114,11 @@ results in:
 ## Known issues
 
 Not all methods of using PlantUML support all different diagrams. Following are a few known issues.
-- [[ASCII]] can only ever generate [[sequence diagram]]s
+
+- ASCII can only ever generate Sequence diagrams
+- The PicoWeb server does not support clickable links in png diagrams
+- Some languages like chinese are not rendered correctly -> Switch to SVG rendering
+
+## Installation
+
+`Settings > Community plugins > Community Plugins > Browse` and search for `PlantUML`.

@@ -1,0 +1,5 @@
+---
+related:
+  - "[[PlantUML]]"
+---
+o

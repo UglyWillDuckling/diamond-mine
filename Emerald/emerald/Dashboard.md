@@ -1,5 +1,3 @@
-o
----
 
 ### active ☢
 ```dataview
@@ -10,7 +8,7 @@ LIST FROM "notes" and #active
 
 ```dataview
 LIST "(" + file.mday + ")"
-FROM "notes" AND !#processed
+FROM "notes" OR "+" AND !#processed
 SORT mtime DESC LIMIT 6
 ```
 

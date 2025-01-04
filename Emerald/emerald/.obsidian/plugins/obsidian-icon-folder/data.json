@@ -385,10 +385,6 @@
   "Knowledge/people/Allen Holub.md": "LiGlasses",
   "Knowledge/people/Martin Fowler.md": "🖌",
   "Knowledge/people/Rebecca Wirfs-Brock.md": "👥",
-  "notes/read books on tools that I use.md": {
-    "iconName": "LiBookCopy",
-    "iconColor": "#be2351"
-  },
   "notes/fali mi prostora na ekranu.md": "LiScreenShareOff",
   "notes/ideas and thoughts/using an abstraction layer for the qsl listing would be interesting.md": "LiSquareDot",
   "+/Christmas Party.md": "🎄",
@@ -427,5 +423,9 @@
   "work/people and teams/LUNA/Natasa.md": "👧",
   "work/people and teams/LUNA/Paulo.md": "LiBike",
   "work/people and teams/LUNA/luna team.md": "LiMoonStar",
-  "work/people and teams/NOVA/Yoan.md": "🍟"
+  "work/people and teams/NOVA/Yoan.md": "🍟",
+  "tasks/read books on tools that I use.md": {
+    "iconName": "LiBookCopy",
+    "iconColor": "#be2351"
+  }
 }

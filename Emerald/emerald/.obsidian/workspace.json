@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6aebae3469459fc6",
+        "id": "9d33af56a165ddbf",
         "type": "tabs",
         "children": [
           {
-            "id": "98aa277dd22d5fe9",
+            "id": "96ea1eb953d17d56",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/Tampermonkey Tutorial · James Hibbard.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Tampermonkey Tutorial · James Hibbard"
             }
           }
         ]
@@ -83,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.51103591918945
+    "width": 230.5110321044922
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -142,10 +147,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/develop CSV backyard export.md"
+                "file": "work/calls/QSL connection call.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of develop CSV backyard export"
+              "title": "Outline of QSL connection call"
             }
           },
           {
@@ -229,45 +234,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "98aa277dd22d5fe9",
+  "active": "96ea1eb953d17d56",
   "lastOpenFiles": [
-    "setup mail server trial.md",
-    "Knowledge/Articles/dev/Git Tips 1- Oldies but Goodies.md",
-    "Knowledge/Articles/dev/Higher Order React Components.md",
-    "Knowledge/Media/Film/2001 A Space Odyssey.md",
-    "Knowledge/links/belenka shoes.md",
-    "notes/archive/Butler conflict resolution.md",
-    "notes/ideas and thoughts/using an abstraction layer for the qsl listing would be interesting.md",
-    "notes/ideas and thoughts/mozda sve racuna dokumentirati na obsidianu.md",
-    "notes/ideas and thoughts/adding tools looks to be quite useful.md",
-    "notes/ideas and thoughts/cloning repos multiple times can be useful.md",
-    "notes/questions/how to share actual notes findings between different notes?.md",
-    "notes/questions/how to remove items from the left click menu.md",
-    "notes/fali mi prostora na ekranu.md",
-    "notes/tmux reading.md",
-    "notes/tmux - resources.md",
-    "work/people and teams/HOC.md",
-    "Dashboard.md",
-    "Knowledge/daily_notes/2024/December/2024-12-31.md",
-    "tasks/tasks.md",
-    "dev/general/try out some of the vim mappings on obs.md",
-    "Knowledge/daily_notes/2024/December/2024-12-13.md",
-    "work/tickets/FEAT/QSL listing feature/develop CSV backyard export.md",
-    "Knowledge/daily_notes/2024/December/see how to optimize text rendering on Ubuntu.md",
-    "Knowledge/daily_notes/2024/December/2024-12-11.md",
-    "Clippings/Ubuntu, Font Hinting, & You A Cautionary Tale.md",
-    "Clippings/Bad font anti-aliasing in Ubuntu.md",
+    "Clippings/International Observers to Venezuela’s Election Pen Letter to the EU.md",
+    "Clippings/Tampermonkey Tutorial · James Hibbard.md",
+    "Clippings/International Observers to Venezuela’s Election Pen Letter to the EU - Venezuelanalysis.md",
+    "Clippings/Hugo Chávez - Wikipedia.md",
+    "todo now.md",
+    "Kanban.md",
+    "Knowledge/daily_notes/2025/January/2025-01-03.md",
+    "Clippings/GrapheneOS the private and secure mobile OS.md",
+    "Clippings/Checkout  wordery.com - Digital Minimalism.md",
+    "Knowledge/Books/Digital Minimalism.md",
+    "Clippings/Checkout  wordery.com.md",
+    "Clippings/Whole Earth Catalog - Wikipedia.md",
+    "Clippings/UnTrap for YouTube.md",
+    "Clippings/Lesson 13 How Email Works.md",
     "Action.canvas",
+    "Dashboard.md",
+    "Clippings/email archictecture diagrams.md",
+    "Knowledge/tools/dev/plant uml themes.md",
+    "Knowledge/tools/dev/PlantUML.md",
+    "Clippings/plantuml Generate PlantUML Diagrams inside Obsidian.md",
+    "Clippings/Test plantuml-syntax.md",
+    "tasks/you can use tables to separate content into columns.md",
+    "notes/splitting the content by columns using MD tables.md",
+    "Clippings/akltplantuml-syntax vim syntax file for plantuml.md",
+    "+/Plant UML can visualise JSON,YAML.md",
+    "Knowledge/Media/Film/The Lord of the Rings The Fellowship of the Ring.md",
+    "Clippings/joetheiobsidian-plantuml Generate PlantUML Diagrams inside Obsidian 1.md",
+    "x/Architecture-of-email-system-13.png",
+    "commentator/styles.css",
+    "commentator/manifest.json",
+    "commentator/main.js",
+    "commentator",
+    "Knowledge/daily_notes/2025/January",
+    "Knowledge/daily_notes/2025",
     "agency",
     "work/tickets/FEAT/QSL listing feature/❌",
     "Knowledge/daily_notes/2024/December",
     "x/Compte Rendu d'Activité - October 2024.pdf",
-    "Untitled",
-    "x",
-    "+",
-    "work/calls/backyard/Vladimir ",
-    "dev/obsidian",
-    "dev/nvim",
     "work/people and teams/LUNA/Screenshot_20241107_140216.png",
     "work/docs/CRM/CRM.canvas",
     "Knowledge/tools/PM/bee-bole-export.png",
@@ -279,7 +285,6 @@
     "work/docs/CRM/pics/Dashboard - Sales.png",
     "work/tickets/Lead Fix/Untitled.canvas",
     "Education/React/documentation/attachements/sharing_data_parent_clicked.webp",
-    "Education/React/documentation/attachements/sharing_data_parent.webp",
     "work/tasks - tickets/qsl.canvas",
     "work/Untitled.canvas",
     "work/CANVAS MAN.canvas"

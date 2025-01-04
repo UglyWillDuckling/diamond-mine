@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "de9a0626e39cb705",
+        "id": "6aebae3469459fc6",
         "type": "tabs",
         "children": [
           {
-            "id": "3dda8a94d52102a3",
+            "id": "98aa277dd22d5fe9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledge/daily_notes/2024/December/2024-12-13.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2024-12-13"
+              "title": "New tab"
             }
           }
         ]
@@ -88,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.51103591918945,
-    "collapsed": true
+    "width": 249.51103591918945
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -235,34 +229,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3dda8a94d52102a3",
+  "active": "98aa277dd22d5fe9",
   "lastOpenFiles": [
-    "work/tickets/FEAT/QSL listing feature/develop CSV backyard export.md",
+    "setup mail server trial.md",
+    "Knowledge/Articles/dev/Git Tips 1- Oldies but Goodies.md",
+    "Knowledge/Articles/dev/Higher Order React Components.md",
+    "Knowledge/Media/Film/2001 A Space Odyssey.md",
+    "Knowledge/links/belenka shoes.md",
+    "notes/archive/Butler conflict resolution.md",
+    "notes/ideas and thoughts/using an abstraction layer for the qsl listing would be interesting.md",
+    "notes/ideas and thoughts/mozda sve racuna dokumentirati na obsidianu.md",
+    "notes/ideas and thoughts/adding tools looks to be quite useful.md",
+    "notes/ideas and thoughts/cloning repos multiple times can be useful.md",
+    "notes/questions/how to share actual notes findings between different notes?.md",
+    "notes/questions/how to remove items from the left click menu.md",
+    "notes/fali mi prostora na ekranu.md",
+    "notes/tmux reading.md",
+    "notes/tmux - resources.md",
+    "work/people and teams/HOC.md",
+    "Dashboard.md",
+    "Knowledge/daily_notes/2024/December/2024-12-31.md",
+    "tasks/tasks.md",
+    "dev/general/try out some of the vim mappings on obs.md",
     "Knowledge/daily_notes/2024/December/2024-12-13.md",
+    "work/tickets/FEAT/QSL listing feature/develop CSV backyard export.md",
     "Knowledge/daily_notes/2024/December/see how to optimize text rendering on Ubuntu.md",
     "Knowledge/daily_notes/2024/December/2024-12-11.md",
     "Clippings/Ubuntu, Font Hinting, & You A Cautionary Tale.md",
     "Clippings/Bad font anti-aliasing in Ubuntu.md",
-    "Knowledge/daily_notes/2024/December/2024-12-12.md",
-    "tasks/dev/Go through the VIm help documentation.md",
-    "Knowledge/tools/dev/vim.md",
-    "notes/read books on tools that I use.md",
-    "dev/nvim/nvim.md",
-    "work/notes/example bucket path for backyard.md",
-    "work/notes/archive/test are run using a test Makefile.md",
-    "work/notes/archive/test - test on backyard have 2 db's.md",
-    "Clippings/PHP Error  Fatal error Constant expression contains invalid operations.md",
-    "Knowledge/tools/dev/GCP Bucket.md",
-    "work/calls/CRM/Arch call v4.md",
-    "Knowledge/daily_notes/2024/December/take a look at the lead flow diagram from NOVA.md",
-    "work/calls/DAILY/2024-12-11 daily.md",
-    "work/tickets/FEAT/Project creation from Lead/docs,diagrams, etc./glossary or concept/lead.md",
-    "notes/discovery/obsidian/plugins/PLN theme settings and more.md",
-    "Knowledge/concepts/development/module.md",
-    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-    "work/tickets/FEAT/QSL listing feature/docs/study CSV export.md",
-    "Knowledge/daily_notes/2024/December/2024-12-10.md",
-    "work/docs/concepts/QSL listing.md",
     "Action.canvas",
     "agency",
     "work/tickets/FEAT/QSL listing feature/❌",

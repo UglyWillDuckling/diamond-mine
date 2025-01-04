@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiKeyRound",
+      "😉",
+      "LiServer",
       "LiSatellite",
-      "LiSatelliteDish",
-      "LiClipboardCopy",
-      "LiClipboardPen",
-      "💭"
+      "LiSatelliteDish"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -145,13 +145,15 @@
     "iconColor": "#b73838"
   },
   "Knowledge/Books/Books board.md": "LiClipboardPen",
-  "Dev": "LiCodesandbox",
-  "Dev/tasks": "LiCheckSquare2",
-  "Dev/notes/more things should be shared between vaults.md": "💭",
   "tasks/archive/setup obsidian repo on mobile.md": "LiMouse",
   "+/DNS.md": "LiSatellite",
   "Clippings": {
     "iconName": "LiClipboardCopy",
     "iconColor": "#dd46c9"
-  }
+  },
+  "tasks/Setup hosting": "LiServer",
+  "days/DKIM.md": "LiKeyRound",
+  "Efforts/Dev": "LiCodesandbox",
+  "Efforts/Dev/tasks": "LiCheckSquare2",
+  "Efforts/Dev/notes/more things should be shared between vaults.md": "💭"
 }

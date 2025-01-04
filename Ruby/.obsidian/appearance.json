@@ -1,7 +1,7 @@
 {
-  "cssTheme": "Sanctum",
-  "interfaceFontFamily": "Cantarell",
-  "monospaceFontFamily": "FiraCode Nerd Font Mono",
+  "cssTheme": "Things",
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "",
   "textFontFamily": "",
   "baseFontSizeAction": true,
   "baseFontSize": 14,
@@ -12,5 +12,6 @@
     "remove_table_padding_dv"
   ],
   "showViewHeader": true,
-  "accentColor": "#ff751a"
+  "accentColor": "#ff751a",
+  "theme": "obsidian"
 }

@@ -13,7 +13,7 @@
 - [x] #task [[pointing a domain to Hostinger trial]] ✅ 2024-12-24
 - [x] #task [[web server trial setup]] ✅ 2024-12-24
 - [/] #task investigate how [[domain]]s work  🔼
-- [ ] #task check access to [[Senka]]s services ⏫
+- [x] #task check access to [[Senka]]s services ⏫ ✅ 2025-01-04
 - [ ] #task [[setup mail server trial]]
 	- [ ] #task [[investigate how to setup an email server]]
 - [ ] #task go through the [[Nginx Beginner’s Guide]] and other official docs
@@ -42,3 +42,9 @@ https://hpanel.hostinger.com/vps/673736/overview
 - [ ] [[Regica]] -
  User name: sblogo22@gmail.com 
 Pass: 22Senija22
+
+
+
+
+
+

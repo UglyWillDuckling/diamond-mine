@@ -5,7 +5,6 @@ not done
 ```
 
 ## important 🔥
-
 ```tasks
 not done
 priority is high
@@ -16,4 +15,3 @@ priority is high
 ```tasks
 path includes Faks
 ```
-

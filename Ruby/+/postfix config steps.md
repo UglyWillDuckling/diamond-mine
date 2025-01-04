@@ -13,8 +13,6 @@
 
 [[Fully Qualified Domain Name]]
 
----
-
 ### after install
 
 [[Postfix]] (main.cf) is now set up with a default configuration.  If you need to

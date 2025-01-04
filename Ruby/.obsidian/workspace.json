@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "287de93f0ecf3bf1",
+        "id": "a44a16dc9bc0f143",
         "type": "tabs",
         "children": [
           {
-            "id": "b3af90af2a46994e",
+            "id": "1983da7d98251246",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Postfix.md",
+                "file": "2025-01-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Postfix"
+              "title": "2025-01-04"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"related\"]",
+                "query": "postfix",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,12 +73,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 271.51103591918945,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -94,17 +94,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-12-24.md",
+                "file": "days/2024-12-31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2024-12-24"
+              "title": "Backlinks for 2024-12-31"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-12-24.md",
+                "file": "2025-01-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2024-12-24"
+              "title": "Outgoing links from 2025-01-04"
             }
           },
           {
@@ -127,10 +127,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Postfix.md"
+                "file": "2025-01-04.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Postfix"
+              "title": "Outline of 2025-01-04"
             }
           },
           {
@@ -142,71 +142,118 @@
               "icon": "clock",
               "title": "Chronology"
             }
+          },
+          {
+            "id": "9f065b00e9d72063",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "74a790eaf4032496",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "22da1786b011b8b6",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "da20e8b30ed5bfb3",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 341.5,
+    "width": 503.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "quickadd:QuickAdd": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
-      "obsidian-book-search-plugin:Create new book note": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "obsidian-kanban:Create new board": true,
-      "obsidian-day-planner:Open Timeline": true,
-      "obsidian-day-planner:Open Multi-Day View": true,
-      "chronology:Open Chronology": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "chronology:Open Chronology": false,
+      "quickadd:QuickAdd": false,
+      "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "b3af90af2a46994e",
+  "active": "1983da7d98251246",
   "lastOpenFiles": [
-    "Clippings/How To Set Up a Postfix E-Mail Server with Dovecot  HostingPile.md",
-    "Postfix.md",
-    "Clippings/How to Install and Configure Postfix Mail Server in Linux.md",
-    "Dovecot.md",
-    "hostingpile.md",
-    "Fully qualified domain name - Wikipedia.md",
-    "+/setup mail server trial.md",
-    "dovecot trial configs.md",
-    "Clippings/Install and configure Postfix.md",
-    "SASL.md",
-    "2024-12-29.md",
-    "+/mail server instructions.md",
-    "Clippings/How To Install and Configure Postfix on Ubuntu 20.04  DigitalOcean.md",
-    "x/trial postfix config file.md",
-    "Clippings/Fildžan viška.md",
+    "tasks/tasks.md",
+    "dash 💨.md",
+    "2025-01-04.md",
+    "Knowledge/Articles/Postfix + Gmail. Certificate verification failed.md",
     "task board.md",
-    "+/postfix config steps.md",
-    "tasks/Setup hosting - send email to hostinger.md",
-    "+/web server trial setup.md",
-    "+/domain.md",
-    "Fully Qualified Domain Name.md",
-    "Knowledge/concepts/hierarchy.md",
-    "Top-level domain - Wikipedia.md",
-    "wiki/Domain_Name_System.md",
-    "wiki/Domain_name.md",
-    "wiki",
-    "Clippings/Zdravstveno osiguranje  Usporedi i kupi najbolje zdravstveno osiguranje.md",
+    "tasks/fix obsidian on PC.md",
+    "tasks/Setup hosting/setup mail server trial.md",
+    "Clippings/The Art of Abstraction - Computerphile.md",
+    "+/Postfix.md",
+    "Clippings/GitHub - obsidian-communityweb-clipper-templates Community collection of templates for the official Obsidian web clipper..md",
+    "Clippings/Adapting to Gmail and Yahoo's 2024 Spam Protection Requirements 1.md",
+    "Life/Faks/Faks.md",
+    "+/Dopunsko Osiguranje.md",
+    "Efforts/Active/Personal VPS/Docs",
+    "Efforts/Active/Personal VPS",
+    "Efforts/Active/Zdravlje/Obnova dopunsko osiguranja.md",
+    "Efforts/Active/Zdravlje",
+    "Efforts/Active/Personal VPS/Docs/spf techdot.biz record.md",
+    "Efforts/Active/Senka/VPS Hosting/Docs/Techdot",
+    "Efforts/Active/Senka/VPS Hosting/Docs",
+    "Efforts/Active/Senka/VPS Hosting",
+    "Efforts/Active/Senka/Persona",
+    "Efforts/Active/Senka",
+    "Efforts/Active",
+    "Efforts",
+    "notes/You can easily switch to a different user using su.md",
+    "days/2025-01-03.md",
+    "days/spam.md",
+    "Clippings/Adapting to Gmail and Yahoo's 2024 Spam Protection Requirements.md",
+    "Clippings/Postfix encrypt email - How we enable this and fix the related errors.md",
+    "Clippings/What are DMARC, DKIM, and SPF.md",
+    "Clippings/SPF Records - VPS Dedicated.md",
+    "Clippings/What Is the SPF Record for Hostinger Email  Hostinger Help Center.md",
+    "days/SPF.md",
+    "days/DKIM.md",
+    "Clippings/How To Set Up a Postfix E-Mail Server with Dovecot.md",
     "x/hak-placanje.png",
-    "x",
     "action.canvas",
-    "Knowledge/howtos",
-    "tasks/Setup hosting",
-    "Excalidraw",
-    "Dev/tasks/archive",
-    "+",
-    "Knowledge/Books/Brave New World.md~",
-    "Clippings",
-    "Knowledge/Books/Authors",
     "tasks/archive/srediti troskovnik/actions.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",

@@ -6,5 +6,9 @@
   "vimMode": true,
   "promptDelete": false,
   "showRibbon": true,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "useTab": false,
+  "readableLineLength": true,
+  "strictLineBreaks": true,
+  "showIndentGuide": false
 }

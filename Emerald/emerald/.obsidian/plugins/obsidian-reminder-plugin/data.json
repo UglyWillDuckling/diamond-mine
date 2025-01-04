@@ -1,21 +1,6 @@
 {
   "scanned": true,
-  "reminders": {
-    "notes/wordery has much cheaper shipping.md": [
-      {
-        "title": "don't forget",
-        "time": "2024-12-20",
-        "rowNumber": 4
-      }
-    ],
-    "work/notes/archive/test are run using a test Makefile.md": [
-      {
-        "title": "remind",
-        "time": "2024-12-20",
-        "rowNumber": 3
-      }
-    ]
-  },
+  "reminders": {},
   "debug": false,
   "settings": {
     "reminderTime": "09:00",

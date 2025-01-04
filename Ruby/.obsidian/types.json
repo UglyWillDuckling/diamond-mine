@@ -27,6 +27,7 @@
     "start date": "date",
     "updated": "datetime",
     "related": "multitext",
-    "parent": "multitext"
+    "parent": "multitext",
+    "part of": "multitext"
   }
 }

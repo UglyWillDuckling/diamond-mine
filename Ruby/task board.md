@@ -8,18 +8,17 @@ kanban-plugin: board
 
 - [ ] [[organizirati faks za novu godinu]]
 - [ ] add a quicka add to add a new task to this board 🔲
+- [ ] [[Obnova dopunsko osiguranja]]
 
 
 ## active
 
 - [ ] [[Setup hosting]] 📡
-- [ ] [[Setup hosting - send email to hostinger]]
+- [ ] [[fix obsidian on PC]]
 
 
 ## done
 
-- [x] [[Poslati dokumente na Kompare.hr]]
-- [x] [[HAK - obnoviti clanstvo]]
 
 
 ***
@@ -43,6 +42,9 @@ kanban-plugin: board
 - [x] [[use the timeline and daily tasks ✅]]
 - [x] [[registracija auta]]
 - [x] [[provjeriti techdot domenu]]
+- [x] [[Setup hosting - send email to hostinger]]
+- [x] [[Poslati dokumente na Kompare.hr]]
+- [x] [[HAK - obnoviti clanstvo]]
 
 %% kanban:settings
 ```

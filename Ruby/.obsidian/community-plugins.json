@@ -10,7 +10,6 @@
   "chronology",
   "obsidian-list-callouts",
   "folder-notes",
-  "obsidian-vimrc-support",
   "quickadd",
   "obsidian-book-search-plugin",
   "obsidian-icon-folder",
@@ -18,9 +17,10 @@
   "obsidian-completr",
   "obsidian-contextual-typography",
   "css-snippets",
-  "editor-width-slider",
   "obsidian-smart-typography",
   "obsidian-tasks-plugin",
   "github-link",
-  "vim-yank-highlight"
+  "vim-yank-highlight",
+  "obsidian-vimrc-support",
+  "obsidian-reminder-plugin"
 ]

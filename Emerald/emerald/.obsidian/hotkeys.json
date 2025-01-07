@@ -20,12 +20,6 @@
   "workspace:close": [
     {
       "modifiers": [
-        "Alt"
-      ],
-      "key": "Q"
-    },
-    {
-      "modifiers": [
         "Mod"
       ],
       "key": "Q"
@@ -238,5 +232,13 @@
   ],
   "file-explorer:new-file-in-new-pane": [],
   "obsidian-completr:completr-bypass-tab-key": [],
-  "obsidian-completr:completr-bypass-enter-key": []
+  "obsidian-completr:completr-bypass-enter-key": [],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Q"
+    }
+  ]
 }

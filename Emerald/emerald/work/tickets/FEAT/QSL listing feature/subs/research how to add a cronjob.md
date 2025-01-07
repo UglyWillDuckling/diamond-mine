@@ -19,7 +19,7 @@
 ## research 🔬
 
 ### backyard tasks
-- [/] #task add shell script to run the import
+- [x] #task add shell script to run the import ✅ 2025-01-06
 - [/] see how to add a new job
 	- [/] edit file
 	- [ ] make actual changes

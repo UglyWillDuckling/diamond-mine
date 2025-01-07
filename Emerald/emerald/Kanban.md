@@ -34,15 +34,15 @@ color: var(--mk-color-orange)
 - [ ] [[Education/React/react|react]] study 🎒 #react
 - [ ] start [[Node]] education 🏫 #node
 - [ ] study [[git butler]] #task
-- [/] [[see how to manage tasks]] ☑ #tasks
-- [/] education / typescript advanced [[Typesript Education]] #education #task
+- [x] [[see how to manage tasks]] ☑ #tasks ✅ 2025-01-06
+- [x] education / typescript advanced [[Typesript Education]] #education #task ✅ 2025-01-06
 
 
 ## active ⚔
 
-- [/] [[study obsidian some more]] ^1lqsh9 #task
+- [x] [[study obsidian some more]] ^1lqsh9 #task ✅ 2025-01-06
 - [/] [[QSL listing feature|QSL listing feature]]
-- [/] #task [[read books on tools that I use]] ⏫
+- [x] #task [[read books on tools that I use]] ⏫ ✅ 2025-01-06
 - [/] [[organize obsidian notes with dataview and folders]]
 - [/] [[add other quick adds]]
 

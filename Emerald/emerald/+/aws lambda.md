@@ -1,4 +1,6 @@
 ---
 aliases:
   - lambda
+tags:
+  - processed
 ---

@@ -18,11 +18,11 @@ Discuss how to consume the QSL listings data
 	- Athen queries 
 		- more robust
 	- CSV file #notebook
-- ! security confirmation is required to use **production** data
+- ! security confirmation is ==required== to use **production** data
 - ! [[Paulo]] - we are not using any account on our side from [[AWS]]
 	- everything goes to [[Amazon Athena]]
 ## notes
-- [[Marc Jonot]] - Flamingo is the main account
+- [[Marc Jonot]] - [[Flamingo account]] is the main account
 - ~ [[Amazon Athena]] gives us  **flexibility** 
 - ! [[Marc Jonot]] - you can put rules on the data
 	- which fields or required
@@ -43,7 +43,6 @@ Discuss how to consume the QSL listings data
 			- you need to come up with metrics that you wish to see
 				- examples: number of records, freshness of data
 - [?] [[Paulo]] - can you handle the procedure? We will give you something from dev and prod
-		on our side we will shift to the Athena query
+		on our side we will <mark style="background: #FFF3A3A6;">shift</mark> to the **Athena query**
 	- [?] do you have any examples?
 		- @ [[Marc Jonot]] I have a bit of [[php]] knowledge , will send a link to an example in php
-	

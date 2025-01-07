@@ -1,6 +1,6 @@
 
 - [x] #task [[add a real `quickadd` for todo]] ⏫ ✅ 2024-11-28
-- [/] #task add **idea**,**note**,**thought** quick 🔼
+- [x] #task add **idea**,**note**,**thought** quick 🔼 ✅ 2025-01-06
 	- [/] [[#thought]]
 	- [ ] idea
 	- [ ] note

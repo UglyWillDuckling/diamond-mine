@@ -64,7 +64,7 @@ LIMIT 500;
 - [x] deploy the [[Backyard Tasks app]] #task ✅ 2024-11-25
 	- [x] dev
 	- [x] prod
-- [/] #task check production update
+- [x] #task check production update ✅ 2025-01-06
 - [>] #task document this ticket 📝
 
 ### examine the existing db data

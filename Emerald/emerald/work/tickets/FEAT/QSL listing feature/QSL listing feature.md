@@ -8,8 +8,8 @@
 > ```
 
 ## todos ✔
-- [/] #task [[research how to add a cronjob]] ⏫
-- [/] #task [[update online status]] ⏫
+- [x] #task [[research how to add a cronjob]] ⏫ ✅ 2025-01-06
+- [x] #task [[update online status]] ⏫ ✅ 2025-01-06
 - [>] #task update table docs - missing `columns` 🔽
 - [x] #task **QSL** ⏫ 🛫 2024-10-11 ⏳ 2024-11-06 📅 2024-11-12 ✅ 2024-11-20
 	- [x] start creating the **DB** [[Create DB table]] ✅ 2025-11-01 
@@ -42,12 +42,13 @@
 - [x] #task [[create real table]] ✅ 2024-12-02
 - [x] #task [[frontend implementation]]
 - [ ] #task cleanup tests
-- [ ] #task [[develop CSV backyard export]]
+- [/] #task [[develop CSV backyard export]]
 
 ---
-### <mark style="background: #FFB8EBA6;">current</mark>
+## <mark style="background: #FFB8EBA6;">current</mark>
 [[frontend implementation]]
 
-for implementing <mark style="background: #FF5582A6;">error emails</mark>
-<mark class='path'>framework/class.email.inc</mark>
+- [ ] #task [[Athena connection]] related to [[investigate QSL listing connection plan]]
+- [ ] [[see how to setup rulesets on the qsl dataset]]
+- [ ] ..
 

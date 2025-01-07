@@ -29,7 +29,7 @@ link: https://backyard-dev.meilleursagents.tech/contacts/6254262/projects/208105
 - [x] refactor the printing in order to simplify the implementation
 - [x] #task update code to include [[QSL listing]]'s in the header ✅ 2024-12-09
 	- [x] #task add a way of fetching project related listings
-- [ ] #task 👁 with multiple [[QSL listing]]'s on a single [[realtor]] | agency
+- [x] #task 👁 with multiple [[QSL listing]]'s on a single [[realtor]] | agency ✅ 2025-01-07
 - [ ] #task [[#write a test for fetching and printing the listing]]
 
 ### printing 🖨

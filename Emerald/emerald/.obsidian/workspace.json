@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 290.5,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -235,12 +236,16 @@
   },
   "active": "a755c2df70c68d39",
   "lastOpenFiles": [
+    "Clippings/PHP composer The zip extension are both missing.md",
+    "work/tickets/FEAT/QSL listing feature/investigate QSL listing connection plan.md",
+    "notes/discovery/archive/nvim - git edit - list status files.md",
+    "work/tickets/FEAT/QSL listing feature/Application Default Credentials.md",
+    "work/tickets/FEAT/QSL listing feature/GDU.md",
+    "Knowledge/daily_notes/2025/January/2025-01-08.md",
+    "tasks/tasks.md",
     "work/tickets/archive/Review mime-type PR.md",
     "todo now.md",
-    "Knowledge/daily_notes/2025/January/2025-01-08.md",
-    "work/tickets/FEAT/QSL listing feature/investigate QSL listing connection plan.md",
     "Knowledge/daily_notes/2024/December/2024-12-05.md",
-    "tasks/tasks.md",
     "Knowledge/tools/dev/Anytype.md",
     "Clippings/googleapisgoogle-api-php-client A PHP client library for accessing Google APIs.md",
     "Knowledge/tools/dev/PlantUML/Plant UML can visualise JSON,YAML.md",
@@ -259,10 +264,6 @@
     "Dashboard.md",
     "work/calls/DAILY/2025-01-08 daily.md",
     "work/docs/CRM/figma for CRM.md",
-    "Clippings/GetQueryResults - Amazon Athena.md",
-    "Clippings/Issue using an IAM role with PHP SDK.md",
-    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-    "work/tickets/FEAT/QSL listing feature/check the diagram from [[Paulo.md",
     "x/option2.png",
     "x/option-1.png",
     "Action.canvas",

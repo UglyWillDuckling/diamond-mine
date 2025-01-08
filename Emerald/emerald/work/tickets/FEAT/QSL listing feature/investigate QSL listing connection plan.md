@@ -8,6 +8,7 @@ tags:
 ---
 - [/] #task investigate qls listing connect plan
 	- [/] #task explore existing GCP <mark style="background: #ABF7F7A6;">connection</mark>
+		- [/] #task try to connect [[GCP]] on [[backyard]] ⏫
 ---
 
 ## important
@@ -39,6 +40,7 @@ Last comment from [[Marc Jonot]] on [slack](https://kugawana.slack.com/archives/
 <mark style="background: #FF5582A6;">error</mark>: "Invalid **grant**: account not found"
 
 ### secrets generation
+- `ServiceAccountCredentials` makes the request
 
 > see the `credentials.json` line
 ```makefile
@@ -64,3 +66,16 @@ generate-secrets:
   "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/integration-backyard%40ma-dev2.iam.gserviceaccount.com"
 }
 ```
+
+- ? what is [[GDU]]
+	- @ Google Distributed Cloud
+- ? what is Application Default Credentials
+	- [[Application Default Credentials]]
+
+### connecting on backyard
+> found this [[PHP composer The zip extension are both missing]]
+
+```bash
+ bin/exec php backyard/gcp_test.php
+```
+

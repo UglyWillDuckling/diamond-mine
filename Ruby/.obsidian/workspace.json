@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-01-04.md",
+                "file": "+/Dovecot autocreate plugin is deprecated, use mailbox { auto } setting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-04"
+              "title": "Dovecot autocreate plugin is deprecated, use mailbox { auto } setting"
             }
           }
         ]
@@ -216,13 +216,13 @@
   },
   "active": "1983da7d98251246",
   "lastOpenFiles": [
+    "2025-01-04.md",
+    "tasks/Setup hosting/setup mail server trial.md",
     "tasks/tasks.md",
     "dash 💨.md",
-    "2025-01-04.md",
     "Knowledge/Articles/Postfix + Gmail. Certificate verification failed.md",
     "task board.md",
     "tasks/fix obsidian on PC.md",
-    "tasks/Setup hosting/setup mail server trial.md",
     "Clippings/The Art of Abstraction - Computerphile.md",
     "+/Postfix.md",
     "Clippings/GitHub - obsidian-communityweb-clipper-templates Community collection of templates for the official Obsidian web clipper..md",

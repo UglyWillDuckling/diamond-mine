@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiNotebookText",
+      "LiSatelliteDish",
+      "LiServer",
+      "LiComputer",
+      "LiKeyRound"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "Efforts/tasks": "LiCheckSquare2",
+  "days": "LiCalendar",
+  "Efforts": "🦾",
+  "task board.md": "LiClipboardList",
+  "Efforts/Active/Persona/Docs": "LiFolders",
+  "Efforts/Active/Persona/Tickets": "LiTicket",
+  "Efforts/Active/Persona/Tickets/setup Persona VPS.md": "LiServer",
+  "Efforts/Active/Persona/Tickets/persona ssl setup.md": "LiKeyRound",
+  "Efforts/Active/Persona/Tickets/persona mail setup.md": "LiMail",
+  "Efforts/Active/Persona/Tickets/migrate Persona DNS.md": "LiSatelliteDish",
+  "Efforts/Active/Persona/Docs/Upute za mail konfiguraciju.md": "LiNotebookText"
+}

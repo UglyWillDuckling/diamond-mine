@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "d3fd3182b5b7335d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c99f7ab2ba228e9f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ccb8d92a670aca32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge/IMAP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IMAP"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "421b21ff91adde0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7257e540e65a9982",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67ac4e3f4e315e0f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "53e419fd8d9494ea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#task",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "369d6f3ac727bb90",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 231.51103591918945,
+    "collapsed": true
+  },
+  "right": {
+    "id": "6b26b603c051936f",
+    "type": "split",
+    "children": [
+      {
+        "id": "05ce95f18513eaae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ea75a16cb86481d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Efforts/Active/Persona/Tickets/persona mail setup.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for persona mail setup"
+            }
+          },
+          {
+            "id": "c03361a3000bd879",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2025-01-04.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-01-04"
+            }
+          },
+          {
+            "id": "732b3c2921195d4b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Efforts/Active/Persona/Tickets/persona mail setup.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of persona mail setup"
+            }
+          },
+          {
+            "id": "08c4f9c69a275725",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "df3c4559bfecf01b",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 456.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "obsidian-kanban:Create new board": true,
+      "obsidian-importer:Open Importer": false,
+      "markwhen:Create new Markwhen file": true,
+      "chronology:Open Chronology": false,
+      "obsidian-day-and-night:Toggle Theme": false
+    }
+  },
+  "active": "ccb8d92a670aca32",
+  "lastOpenFiles": [
+    "+/standard mal ports.md",
+    "Knowledge/IMAP.md",
+    "notes/instaliran je alat GitHub - obsfxlibgen-downloader.md",
+    "Knowledge/World/Elan knjigovodstvo.md",
+    "Knowledge/Media/Books/Never Let Me Go.md",
+    "Knowledge/Media/Books/The DevOps Handbook - Gene Kim Jez Humble Patrick Debois John Willis.md",
+    "Knowledge/World",
+    "Knowledge/mail on linux.md",
+    "Knowledge/tools/GitHub - obsfxlibgen-downloader.md",
+    "Knowledge/linux fonts.md",
+    "platit racune.md",
+    "Clippings/Rockbox on iPod 6th gen..md",
+    "Clippings/Is a CNAME sufficient for a www. record.md",
+    "Clippings/Nginx no-www to www and www to no-www.md",
+    "Efforts/Active/Persona/Persona.md",
+    "Clippings/IPod 7th gen install fail.md",
+    "Clippings/iPod Classic - Wikipedia.md",
+    "Clippings/How To Redirect www to Non-www with Nginx on Ubuntu 14.04  DigitalOcean.md",
+    "301.md",
+    "Clippings/A Record.md",
+    "Clippings/A-record and MX-record how does it work  Copernica.md",
+    "Efforts/Active/Persona/Docs/Upute za mail konfiguraciju.md",
+    "Efforts/tasks/tasks.md",
+    "Life/Faks/TODO's/nova godina/usporediti s Notion stranicom.md",
+    "Efforts/tasks/fix obsidian on PC.md",
+    "task board.md",
+    "Knowledge/tools/pc/Postfix/Postfix.md",
+    "Knowledge/tools/pc/Postfix",
+    "+/Postfix",
+    "Markwhen/test.mw.mw.mw",
+    "Markwhen/Markwhen 1-7-2025 12.01.15.mw",
+    "Markwhen/Markwhen 1-7-2025 12.01.13.mw",
+    "Markwhen/Markwhen 1-4-2025 23.27.28.mw",
+    "Efforts/Active/Persona/Tickets/archive",
+    "Markwhen",
+    "Efforts/Active/Persona/Tickets"
+  ]
+}

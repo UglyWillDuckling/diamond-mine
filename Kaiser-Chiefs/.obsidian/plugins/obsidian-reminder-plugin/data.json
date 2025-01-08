@@ -1,0 +1,38 @@
+{
+  "scanned": true,
+  "reminders": {
+    "notes/You can easily switch to a different user using su.md": [
+      {
+        "title": "remind me in a week",
+        "time": "2025-01-11",
+        "rowNumber": 15
+      }
+    ],
+    "+/working under root - permissions.md": [
+      {
+        "title": "remind me",
+        "time": "2025-01-10",
+        "rowNumber": 6
+      }
+    ]
+  },
+  "debug": false,
+  "settings": {
+    "reminderTime": "09:00",
+    "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
+    "useSystemNotification": false,
+    "autoCompleteTrigger": "(@",
+    "primaryReminderFormat": "ReminderPluginReminderFormat",
+    "enableReminderPluginReminderFormat": true,
+    "dateFormat": "YYYY-MM-DD",
+    "dateTimeFormat": "YYYY-MM-DD HH:mm",
+    "strictDateFormat": false,
+    "linkDatesToDailyNotes": false,
+    "enableTasksPluginReminderFormat": false,
+    "useCustomEmojiForTasksPlugin": false,
+    "removeTagsForTasksPlugin": false,
+    "enableKanbanPluginReminderFormat": false,
+    "editDetectionSec": 10,
+    "reminderCheckIntervalSec": 5
+  }
+}

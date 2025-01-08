@@ -50,6 +50,7 @@ generate-secrets:
 ```
 
 **credentials.json**
+> private key is missing here
 ```json
 {
   "type": "service_account",

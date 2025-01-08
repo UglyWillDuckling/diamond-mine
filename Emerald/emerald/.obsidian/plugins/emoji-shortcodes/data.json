@@ -4,6 +4,10 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
+    ":telephone_receiver:",
+    ":telephone:",
+    ":phone:",
+    ":card_file_box:",
     ":spiral_notepad:",
     ":champagne:",
     ":notebook_with_decorative_cover:",
@@ -38,7 +42,6 @@
     ":world_map:",
     ":maple_leaf:",
     ":email:",
-    ":telephone_receiver:",
     ":microscope:",
     ":dark_sunglasses:",
     ":blue_book:",
@@ -116,7 +119,6 @@
     ":open_hands:",
     ":eyes:",
     ":question:",
-    ":phone:",
     ":rocket:",
     ":classical_building:",
     ":sweat_smile:",
@@ -147,7 +149,6 @@
     ":nesting_dolls:",
     ":point_right:",
     ":curly_loop:",
-    ":card_file_box:",
     ":haircut_woman:",
     ":clock1230:",
     ":exploding_head:",
@@ -202,7 +203,6 @@
     ":video_camera:",
     ":fallen_leaf:",
     ":duck:",
-    ":pray:",
-    ":racehorse:"
+    ":pray:"
   ]
 }

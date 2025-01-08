@@ -44,7 +44,7 @@ xmas-fifth-day:
 ```
 
 ## mindmap
-- [ ] #task move to [[PlantUML]] docs
+- [x] #task move to [[PlantUML]] docs ✅ 2025-01-08
 ```plantuml
 
 @startmindmap

@@ -1,6 +1,0 @@
-- RowCount 
-- IsComplete
-- StandardDeviation 
-- Uniqueness 
-- ColumnValues 
-- ColumnLength 

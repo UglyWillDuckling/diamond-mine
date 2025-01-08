@@ -1,1 +1,6 @@
-{}
+{
+	"nodes":[
+		{"id":"b080286df173c364","type":"text","text":"[Figma](https://www.figma.com/design/JH5mrnpxqZOSfWTY4u6VQ0/NEW-Seller-Leads-CRM?node-id=853-17863&t=yDwEGVUK1DSoc5Qo-0)","x":-400,"y":-380,"width":250,"height":60}
+	],
+	"edges":[]
+}

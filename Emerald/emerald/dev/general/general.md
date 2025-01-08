@@ -4,7 +4,7 @@
 - [ ] #task add nvim mappings for obsidian
 	- [/] editor `mappings`
 		- [x] task status
-- [ ] #task install [[Anytype]]
+- [x] #task install [[Anytype]] ✅ 2025-01-08
 
 ### nvim mappings 
 #### editor 📋

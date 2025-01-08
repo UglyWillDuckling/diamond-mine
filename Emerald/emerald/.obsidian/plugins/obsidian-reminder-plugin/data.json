@@ -1,6 +1,14 @@
 {
   "scanned": true,
-  "reminders": {},
+  "reminders": {
+    "+/vim - jump to last edit and enter insert mode.md": [
+      {
+        "title": "remind me",
+        "time": "2025-01-17",
+        "rowNumber": 13
+      }
+    ]
+  },
   "debug": false,
   "settings": {
     "reminderTime": "09:00",

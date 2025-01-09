@@ -11,20 +11,14 @@
             "id": "1983da7d98251246",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "task board.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    true
-                  ]
-                }
+                "file": "tasks/archive/add some questions 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "task board"
+              "icon": "lucide-file",
+              "title": "add some questions 1"
             }
           }
         ]
@@ -84,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.50260543823242
+    "width": 254.50260543823242
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -172,8 +166,8 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -220,11 +214,18 @@
       "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "1983da7d98251246",
+  "active": "377a32c0e1ff69da",
   "lastOpenFiles": [
-    "tasks/fix obsidian on PC.md",
-    "task board.md",
+    "tasks/archive/Setup Obsidian sync.md",
+    "tasks/dev/setup obsidian repo on mobile.md",
+    "tasks/dev/obsidian - organize folders.md",
+    "tasks/Setup hosting/Setup hosting.md",
+    "tasks/archive/by root.md",
     "2025-01-09.md",
+    "Dev/OBSIDIAN/OBSIDIAN.md",
+    "+/web server trial setup.md",
+    "task board.md",
+    "tasks/archive/fix obsidian on PC.md",
     "dash 💨.md",
     "+/Congo Free State.md",
     "+/Carrie & Lowell.md",
@@ -243,13 +244,6 @@
     "+/Tsundoku.md",
     "+/world of Konrad timeline.md",
     "Clippings/Billy Zane.md",
-    "Clippings/Billy Zane - Wikipedia.md",
-    "Clippings/Robert I Baratheon.md",
-    "Clippings/The Penelopiad.md",
-    "+/United States of America.md",
-    "+/Lost in Translation.md",
-    "+/Madagascar.md",
-    "+/Lulu Friedman.md",
     "x/SmartSelect_20241231-135110_Samsung Notes.jpg",
     "x/SmartSelect_20241231-122246_Samsung Notes.jpg",
     "x/SmartSelect_20241231-122017_Samsung Notes.jpg",
@@ -259,7 +253,7 @@
     "x/Pasted image 20241231001557.jpg",
     "Media DB/books",
     "x/Pasted image 20241230132418.jpg",
-    "tasks/action.canvas",
+    "tasks/archive/action.canvas",
     "Life/People/Mirna 💕💕💕",
     "Media DB/boardgames",
     "Life/Zdravlje",

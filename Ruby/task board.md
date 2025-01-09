@@ -37,8 +37,8 @@ kanban-plugin: board
 - [x] [[review fizio]] #task ✅ 2024-12-17
 - [x] [[platiti Elan]]
 - [x] [[setup obsidian repo on mobile]] #task ✅ 2024-12-17
-- [x] [[use the timeline and daily tasks ✅]]
-- [x] [[registracija auta]]
+- [x] [[Efforts/Dev/tasks/use the timeline and daily tasks ✅]]
+- [x] [[registracija auta 1]]
 - [x] [[provjeriti techdot domenu]]
 - [x] [[Setup hosting - send email to hostinger]]
 - [x] [[Poslati dokumente na Kompare.hr]]

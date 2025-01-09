@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiNotebook",
       "LiKeyRound",
       "😉",
       "LiServer",
-      "LiSatellite",
-      "LiSatelliteDish"
+      "LiSatellite"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -38,7 +38,10 @@
     "iconName": "LiCalendarDays",
     "iconColor": "#ecd122"
   },
-  "notes": "📓",
+  "notes": {
+    "iconName": "LiNotebook",
+    "iconColor": "#d6a51f"
+  },
   "notes/dev": {
     "iconName": "LiKeyboard",
     "iconColor": "#716a6a"
@@ -59,12 +62,6 @@
   },
   "tasks": "LiClipboardCheck",
   "tasks/archive/see why yay won't update.md": "🌌",
-  "tasks/dev/obsidian - organize folders.md": {
-    "iconName": "LiFolders",
-    "iconColor": "#eddb1d"
-  },
-  "tasks/dev/obsidian - organize with tags.md": "LiTag",
-  "tasks/add some questions.md": "LiQuestionMarkGlyph",
   "Life/Faks": "🎒",
   "notes/questions?": {
     "iconName": "LiQuestionMarkGlyph",
@@ -151,9 +148,9 @@
     "iconName": "LiClipboardCopy",
     "iconColor": "#dd46c9"
   },
-  "tasks/Setup hosting": "LiServer",
   "days/DKIM.md": "LiKeyRound",
   "Efforts/Dev": "LiCodesandbox",
   "Efforts/Dev/tasks": "LiCheckSquare2",
-  "Efforts/Dev/notes/more things should be shared between vaults.md": "💭"
+  "Efforts/Dev/notes/more things should be shared between vaults.md": "💭",
+  "tasks/archive/add some questions 1.md": "LiQuestionMarkGlyph"
 }

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tasks/archive/add some questions 1.md",
+                "file": "2025-01-09.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "add some questions 1"
+              "title": "2025-01-09"
             }
           }
         ]
@@ -211,12 +211,16 @@
       "obsidian-day-planner:Open Multi-Day View": false,
       "chronology:Open Chronology": false,
       "quickadd:QuickAdd": false,
-      "obsidian-book-search-plugin:Create new book note": false
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian-media-db-plugin:Add new Media DB entry": true
     }
   },
-  "active": "377a32c0e1ff69da",
+  "active": "1983da7d98251246",
   "lastOpenFiles": [
+    "🏡.md",
+    "Efforts/tasks by root.md",
     "tasks/archive/Setup Obsidian sync.md",
+    "tasks/archive/add some questions 1.md",
     "tasks/dev/setup obsidian repo on mobile.md",
     "tasks/dev/obsidian - organize folders.md",
     "tasks/Setup hosting/Setup hosting.md",
@@ -241,9 +245,6 @@
     "x/SmartSelect_20241231-115105_Samsung Notes.jpg",
     "+/Youth - novel.md",
     "+/The Ancestor’s Tale.md",
-    "+/Tsundoku.md",
-    "+/world of Konrad timeline.md",
-    "Clippings/Billy Zane.md",
     "x/SmartSelect_20241231-135110_Samsung Notes.jpg",
     "x/SmartSelect_20241231-122246_Samsung Notes.jpg",
     "x/SmartSelect_20241231-122017_Samsung Notes.jpg",
@@ -251,13 +252,13 @@
     "x/Pasted image 20241231115403.jpg",
     "x/SmartSelect_20241231-115307_Samsung Notes.jpg",
     "x/Pasted image 20241231001557.jpg",
-    "Media DB/books",
+    "Knowledge/Media/books",
     "x/Pasted image 20241230132418.jpg",
     "tasks/archive/action.canvas",
     "Life/People/Mirna 💕💕💕",
-    "Media DB/boardgames",
+    "Knowledge/Media/boardgames",
     "Life/Zdravlje",
-    "Media DB/wiki",
+    "Knowledge/Media/wiki",
     "Dev/OBSIDIAN",
     "Life/Home 🏠",
     "Dev/notes",

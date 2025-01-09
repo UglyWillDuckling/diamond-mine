@@ -2464,6 +2464,7 @@ trans
 temperature
 threshing
 ticket
+tenjem
 new
 name
 necessary
@@ -3435,6 +3436,7 @@ kinds
 knowledge
 kratica
 kod
+kori
 board
 bundling
 be
@@ -3698,6 +3700,7 @@ DF
 DY
 Desert
 Dance
+Dobiveno
 MX
 Mailtrap
 Mail
@@ -4017,6 +4020,7 @@ ExC
 EKI
 Europe
 East
+EDITED
 Blog
 Being
 By
@@ -5084,6 +5088,7 @@ NX
 NZ
 NPF
 Niger
+NOTES
 zone
 zufrieden
 zeros
@@ -6027,6 +6032,7 @@ CCx
 Cretan
 Coast
 City
+CREATED
 Keep
 Kids
 Kitchen

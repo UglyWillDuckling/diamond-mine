@@ -2,7 +2,7 @@
 ~
 ---
 
-### [[2025-01-02]]
+### [[2025-01-02 1]]
 
 ```bash
 disable_plaintext_auth = no

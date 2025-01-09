@@ -14,7 +14,7 @@ kanban-plugin: board
 ## active
 
 - [/] #task [[platit racune]] 🔺
-- [ ] [[fix obsidian on PC]]
+- [ ] [[fix obsidian on PC]] #task
 
 
 ## done

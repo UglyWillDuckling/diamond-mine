@@ -1,7 +1,11 @@
 {
   "pinned": [
-    "editor:insert-callout",
+    "obsidian-media-db-plugin:open-media-db-search-modal-with-book",
+    "obsidian-book-search-plugin:open-book-search-modal",
+    "quickadd:runQuickAdd",
+    "markdown:add-metadata-property",
+    "open-with-default-app:open",
     "file-explorer:move-file",
-    "markdown:toggle-preview"
+    "editor:insert-callout"
   ]
 }

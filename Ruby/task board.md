@@ -13,8 +13,6 @@ kanban-plugin: board
 
 ## active
 
-- [ ] [[Setup hosting]] 📡
-- [ ] [[fix obsidian on PC]]
 
 
 ## done
@@ -45,6 +43,8 @@ kanban-plugin: board
 - [x] [[Setup hosting - send email to hostinger]]
 - [x] [[Poslati dokumente na Kompare.hr]]
 - [x] [[HAK - obnoviti clanstvo]]
+- [x] [[Setup hosting]] 📡
+- [x] [[fix obsidian on PC]]
 
 %% kanban:settings
 ```

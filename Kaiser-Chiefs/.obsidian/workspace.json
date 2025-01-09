@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c99f7ab2ba228e9f",
+        "id": "11f94bc9f7243e85",
         "type": "tabs",
         "children": [
           {
-            "id": "ccb8d92a670aca32",
+            "id": "ca4d42ca4bbb1c97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/IMAP.md",
+                "file": "2025-01-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IMAP"
+              "title": "2025-01-06"
             }
           }
         ]
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.51103591918945,
-    "collapsed": true
+    "width": 229.51103591918945
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -179,10 +178,19 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "ccb8d92a670aca32",
+  "active": "ca4d42ca4bbb1c97",
   "lastOpenFiles": [
-    "+/standard mal ports.md",
+    "+/timeline test.md",
+    "2025-01-06.md",
+    "+/301.md",
+    "Efforts/tasks/archive/Setup hosting - send email to hostinger.md",
+    "Efforts/tasks/archive/platit racune.md",
     "Knowledge/IMAP.md",
+    "task board.md",
+    "Efforts/tasks/tasks.md",
+    "Efforts/tasks/archive/fix obsidian on PC.md",
+    "+/web server trial setup.md",
+    "+/standard mal ports.md",
     "notes/instaliran je alat GitHub - obsfxlibgen-downloader.md",
     "Knowledge/World/Elan knjigovodstvo.md",
     "Knowledge/Media/Books/Never Let Me Go.md",
@@ -191,7 +199,6 @@
     "Knowledge/mail on linux.md",
     "Knowledge/tools/GitHub - obsfxlibgen-downloader.md",
     "Knowledge/linux fonts.md",
-    "platit racune.md",
     "Clippings/Rockbox on iPod 6th gen..md",
     "Clippings/Is a CNAME sufficient for a www. record.md",
     "Clippings/Nginx no-www to www and www to no-www.md",
@@ -199,15 +206,7 @@
     "Clippings/IPod 7th gen install fail.md",
     "Clippings/iPod Classic - Wikipedia.md",
     "Clippings/How To Redirect www to Non-www with Nginx on Ubuntu 14.04  DigitalOcean.md",
-    "301.md",
     "Clippings/A Record.md",
-    "Clippings/A-record and MX-record how does it work  Copernica.md",
-    "Efforts/Active/Persona/Docs/Upute za mail konfiguraciju.md",
-    "Efforts/tasks/tasks.md",
-    "Life/Faks/TODO's/nova godina/usporediti s Notion stranicom.md",
-    "Efforts/tasks/fix obsidian on PC.md",
-    "task board.md",
-    "Knowledge/tools/pc/Postfix/Postfix.md",
     "Knowledge/tools/pc/Postfix",
     "+/Postfix",
     "Markwhen/test.mw.mw.mw",

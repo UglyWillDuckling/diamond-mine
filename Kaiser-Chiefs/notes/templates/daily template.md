@@ -1,5 +1,19 @@
+> created using [[Table of Contents plugin]]
+- [[#created|created]]
+- [[#tasks|tasks]]
+
+### created
+```dataview
+LIST WITHOUT ID
+WHERE date(file.cday) = date(this.file.cday)
+SORT file.mtime DESC
+LIMIT 22
+```
+
+### Tasks 
 
 ```tasks
 ## Task Log
 done on {{date:YYYY-MM-DD}}
 ```
+

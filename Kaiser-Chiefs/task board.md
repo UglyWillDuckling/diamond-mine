@@ -13,12 +13,14 @@ kanban-plugin: board
 
 ## active
 
-- [/] #task [[platit racune]] 🔺
-- [ ] [[fix obsidian on PC]] #task
+- [ ] [[Tasks Management in Obsidian]]
+- [ ] [[Office Tasks]]
 
 
 ## done
 
+- [ ] [[fix obsidian on PC]] #task
+- [/] #task [[platit racune]] 🔺
 - [x] [[Setup hosting]] 📡
 
 
@@ -49,6 +51,6 @@ kanban-plugin: board
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false],"show-checkboxes":true,"new-note-folder":"Efforts/tasks","lane-width":300}
+{"kanban-plugin":"board","list-collapse":[false,false,true],"show-checkboxes":true,"new-note-folder":"Efforts/tasks","lane-width":300}
 ```
 %%

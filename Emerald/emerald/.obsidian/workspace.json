@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/investigate QSL listing connection plan.md",
+                "file": "Knowledge/daily_notes/2024/December/2024-12-05.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "investigate QSL listing connection plan"
+              "title": "2024-12-05"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "modifie",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,12 +84,12 @@
               "title": "Surfing Tab Tree"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
-    "collapsed": true
+    "width": 290.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -234,10 +234,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a755c2df70c68d39",
+  "active": "f0f151d112079689",
   "lastOpenFiles": [
-    "Clippings/PHP composer The zip extension are both missing.md",
+    "Knowledge/daily_notes/2025/January/2025-01-09.md",
     "work/tickets/FEAT/QSL listing feature/investigate QSL listing connection plan.md",
+    "Clippings/PHP composer The zip extension are both missing.md",
     "notes/discovery/archive/nvim - git edit - list status files.md",
     "work/tickets/FEAT/QSL listing feature/Application Default Credentials.md",
     "work/tickets/FEAT/QSL listing feature/GDU.md",
@@ -263,7 +264,6 @@
     "work/docs/CRM/CRM.canvas",
     "Dashboard.md",
     "work/calls/DAILY/2025-01-08 daily.md",
-    "work/docs/CRM/figma for CRM.md",
     "x/option2.png",
     "x/option-1.png",
     "Action.canvas",

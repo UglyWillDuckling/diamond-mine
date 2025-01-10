@@ -1,5 +1,5 @@
 
 - [x] [[Telemach]]
 - [x] [[Elan knjigovodstvo]]
-- [ ] [[T-com]]
+- [x] [[T-com]]
 

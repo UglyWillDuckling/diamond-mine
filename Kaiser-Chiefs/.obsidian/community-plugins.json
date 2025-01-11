@@ -22,5 +22,7 @@
   "emoji-shortcodes",
   "obsidian-reminder-plugin",
   "obsidian-html-tags-autocomplete",
-  "obsidian-completr"
+  "obsidian-completr",
+  "obsidian-plugin-toc",
+  "metadata-menu"
 ]

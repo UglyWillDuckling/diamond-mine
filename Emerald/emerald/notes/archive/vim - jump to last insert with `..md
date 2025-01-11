@@ -5,4 +5,7 @@ You can **jump** to the **last insert** with:
 `.
 ```
 
-- [x] remind (@[[2024-10-14]] 14:01)
+Edit: [[2025-01-10]]
+You can jump **and** enter [[insert mode]] with `gi`
+
+- [ ] remind (@[[2025-01-17]])

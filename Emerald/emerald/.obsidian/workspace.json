@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "603bfc8144715bf6",
+        "id": "0f70be3e917091c7",
         "type": "tabs",
         "children": [
           {
-            "id": "a755c2df70c68d39",
+            "id": "703795446cc398f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/investigate QSL listing connection plan.md",
+                "file": "work/calls/call qsl - GCP access.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "investigate QSL listing connection plan"
+              "title": "call qsl - GCP access"
             }
           }
         ]
@@ -36,6 +36,23 @@
         "type": "tabs",
         "children": [
           {
+            "id": "f0f151d112079689",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#project/active",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
             "id": "688b3d615137a273",
             "type": "leaf",
             "state": {
@@ -48,23 +65,6 @@
             }
           },
           {
-            "id": "f0f151d112079689",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
             "id": "8d4c9402c121d3d3",
             "type": "leaf",
             "state": {
@@ -73,22 +73,13 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "bee08e2b382e6bf5",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {},
-              "icon": "chrome",
-              "title": "Surfing Tab Tree"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
+    "width": 264.5,
     "collapsed": true
   },
   "right": {
@@ -105,12 +96,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/investigate QSL listing connection plan.md",
+                "file": "work/calls/call qsl - GCP access.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from investigate QSL listing connection plan"
+              "title": "Outgoing links from call qsl - GCP access"
             }
           },
           {
@@ -133,29 +124,29 @@
             }
           },
           {
-            "id": "f07468be7d7ba89d",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "c61722d2f0288e0a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/Athena connection.md"
+                "file": "work/tickets/FEAT/QSL listing feature/investigate QSL listing connection plan.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Athena connection"
+              "title": "Outline of investigate QSL listing connection plan"
             }
           },
           {
-            "id": "438a2f7907632357",
+            "id": "1dc7ac6dd131ac28",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "8d04f7e8cb14cdc7",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -168,7 +159,7 @@
             }
           },
           {
-            "id": "a835e11a6f76b8cd",
+            "id": "eb8ab40e3054941a",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -182,17 +173,17 @@
             }
           },
           {
-            "id": "19cfa3968b571e83",
+            "id": "409dada840619ea6",
             "type": "leaf",
             "state": {
-              "type": "planner-timeline",
+              "type": "calendar",
               "state": {},
               "icon": "calendar-with-checkmark",
-              "title": "Timeline"
+              "title": "Calendar"
             }
           },
           {
-            "id": "90d67fbbe250b771",
+            "id": "feef017d77ea542f",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -205,7 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 349.5,
+    "width": 383.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -231,52 +222,54 @@
       "obsidian42-brat:BRAT": false,
       "wikipedia-search:Open Article": false,
       "cmdr:Graph view: Open local graph": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "a755c2df70c68d39",
+  "active": "703795446cc398f4",
   "lastOpenFiles": [
-    "Clippings/PHP composer The zip extension are both missing.md",
+    "work/calls/gcloud auth info.md",
+    "work/calls/call qsl - GCP access.md",
+    "Clippings/Access AWS using a Google Cloud Platform native workload identity  Amazon Web Services.md",
+    "Clippings/How to Effortlessly Organize Your Tasks in Obsidian.md",
+    "Efforts/Projects/Projects.md",
+    "work/people and teams/Marc Jonot.md",
     "work/tickets/FEAT/QSL listing feature/investigate QSL listing connection plan.md",
-    "notes/discovery/archive/nvim - git edit - list status files.md",
-    "work/tickets/FEAT/QSL listing feature/Application Default Credentials.md",
-    "work/tickets/FEAT/QSL listing feature/GDU.md",
-    "Knowledge/daily_notes/2025/January/2025-01-08.md",
-    "tasks/tasks.md",
-    "work/tickets/archive/Review mime-type PR.md",
-    "todo now.md",
-    "Knowledge/daily_notes/2024/December/2024-12-05.md",
-    "Knowledge/tools/dev/Anytype.md",
-    "Clippings/googleapisgoogle-api-php-client A PHP client library for accessing Google APIs.md",
-    "Knowledge/tools/dev/PlantUML/Plant UML can visualise JSON,YAML.md",
-    "Knowledge/tools/dev/PlantUML/PlantUML.md",
-    "Knowledge/tools/dev/PlantUML",
-    "work/work.md",
-    "Knowledge/Articles/dev/Vim Jump to Last Change - VimTricks.md",
-    "Knowledge/daily_notes/2024/December/2024-12-11.md",
-    "Clippings/OpenID Connect    Authentication    Google for Developers.md",
-    "work/tickets/FEAT/QSL listing feature/Athena connection.md",
-    "+/vim - jump to last edit and enter insert mode.md",
-    "+/Amazon Athena.md",
-    "Clippings/GCP.md",
-    "work/tickets/FEAT/QSL listing feature/docs/list of possible dataset rules.md",
-    "work/docs/CRM/CRM.canvas",
-    "Dashboard.md",
-    "work/calls/DAILY/2025-01-08 daily.md",
+    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+    "work/tickets/FEAT/QSL listing feature/connect to AWS locally.md",
+    "Efforts/Projects/Laptop Maintenance.md",
+    "notes/archive/vim - jump to last insert with `..md",
+    "Efforts/Projects/Vim study.md",
     "work/docs/CRM/figma for CRM.md",
+    "Efforts/Projects/Study Obsidian.md",
+    "Clippings/card-board plugin.md",
+    "Knowledge/daily_notes/2025/January/2025-01-10.md",
+    "notes/tmpl example.md",
+    "notes/footnotes example.md",
+    "Action.canvas",
+    "Clippings/Bug Dataview cannot be rendered in Kanban · Issue 550 · mgmeyersobsidian-kanban.md",
+    "tasks/tasks.md",
+    "work/calls/CRM/architecture part 2 Jan 5, 2025.md",
+    "Clippings/Kanban Plugin.md",
+    "Clippings/Be honest! How useful are bi-directional links.md",
+    "Clippings/Second Brain.md",
+    "Clippings/serendipitous.md",
+    "notes/templater/Inline or Regular Footnote Maker simple.md",
+    "Knowledge/concepts/writing",
+    "Efforts/Projects",
+    "Efforts",
+    "~",
+    "notes/templater",
+    "Knowledge/tools/dev/PlantUML",
+    "work/docs/CRM/CRM.canvas",
     "x/option2.png",
     "x/option-1.png",
-    "Action.canvas",
     "x/Architecture-of-email-system-13.png",
     "commentator/styles.css",
     "commentator/manifest.json",
     "commentator/main.js",
     "commentator",
-    "Knowledge/daily_notes/2025/January",
-    "Knowledge/daily_notes/2025",
-    "agency",
-    "work/tickets/FEAT/QSL listing feature/❌",
-    "Knowledge/daily_notes/2024/December",
     "work/people and teams/LUNA/Screenshot_20241107_140216.png",
     "Knowledge/tools/PM/bee-bole-export.png",
     "work/notes/archive/iris-code.png",

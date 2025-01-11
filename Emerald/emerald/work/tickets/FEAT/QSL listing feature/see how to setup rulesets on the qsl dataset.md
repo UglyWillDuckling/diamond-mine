@@ -1,5 +1,5 @@
 #ticket 
-- [/] #task see how to setup rulesets on [[qsl dataset]]
+- [x] #task see how to setup rulesets on [[qsl dataset]] ✅ 2025-01-10
 ---
 ## info
 - rules go here [github](https://github.com/axel-springer-kugawana/aviv_data-fraudulentactordetection-contracts/blob/master/src/aviv_data_fraudulentactordetection_contracts/quality/live/qsl_boost.py#L13-L20)

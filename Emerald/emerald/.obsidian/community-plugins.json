@@ -8,7 +8,6 @@
   "obsidian-excalidraw-plugin",
   "mermaid-tools",
   "nldates-obsidian",
-  "obsidian-hider",
   "obsidian-list-callouts",
   "settings-search",
   "vim-yank-highlight",
@@ -33,5 +32,9 @@
   "surfing",
   "perplexity-converter",
   "cmdr",
-  "obsidian-plantuml"
+  "obsidian-plantuml",
+  "templater-obsidian",
+  "auto-card-link",
+  "metadata-menu",
+  "card-board"
 ]

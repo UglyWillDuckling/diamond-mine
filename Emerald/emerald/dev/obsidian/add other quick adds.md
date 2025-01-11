@@ -17,4 +17,5 @@
 already made it, [[thought]]
 
 Looks pretty to good. I might add more `properties` or `tags`.
-Need to 🤔 about which folder 📂 to use.
+Need to 🤔 think about which **folder** 📂 to use.
+

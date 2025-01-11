@@ -6,14 +6,14 @@ tags:
   - ticket
   - active
 ---
-- [/] #task investigate qls listing connect plan
-	- [/] #task explore existing GCP <mark style="background: #ABF7F7A6;">connection</mark>
+ [/] #task investigate qls listing connect plan ⏫
+	- [/] #task read on [[Identity and access management]] 🔼
+	- [/] #task explore existing GCP <mark style="background: #ABF7F7A6;">connection</mark> ⏫
 		- [/] #task try to connect [[GCP]] on [[backyard]] ⏫
 ---
 
 ## important
 
-fsdfd
 - we will be making a request to [[Amazon Athena|Athena]] from [[backyard]]
 	- from [[ADR QSL Boost Automation - Tech solution - MPD - Oxygen - Confluence]], this would be **option 1**
 	- [[ADR QSL Boost Automation - Tech solution - MPD - Oxygen - Confluence#^obsolete]]
@@ -40,19 +40,10 @@ Last comment from [[Marc Jonot]] on [slack](https://kugawana.slack.com/archives/
 <mark style="background: #FF5582A6;">error</mark>: "Invalid **grant**: account not found"
 
 ### secrets generation
+[[backyard - secrete generation]]
 - `ServiceAccountCredentials` makes the request
 
-> see the `credentials.json` line
-```makefile
-generate-secrets:
-	berglas access sm://ma-dev2/backyard-google-application-credentials\#1 > credentials.json
-	berglas access sm://ma-dev2/pgpass-malegacy\#4 > .pgpass-malegacy
-	# Postgres client only load .pgpass-malegacy file if he has 600 rights level
-	chmod 600 .pgpass-malegacy
-```
-
 **credentials.json**
-> private key is missing here
 ```json
 {
   "type": "service_account",
@@ -66,6 +57,7 @@ generate-secrets:
   "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/integration-backyard%40ma-dev2.iam.gserviceaccount.com"
 }
 ```
+> private key is missing here
 
 - ? what is [[GDU]]
 	- @ Google Distributed Cloud
@@ -73,9 +65,14 @@ generate-secrets:
 	- [[Application Default Credentials]]
 
 ### connecting on backyard
-> found this [[PHP composer The zip extension are both missing]]
+`backyardy/gcp_test.php`
 
-```bash
- bin/exec php backyard/gcp_test.php
-```
+[[Identity and access management]]
 
+From [[Marc Jonot]]
+Hi [@Vladimir Sedlar](https://kugawana.slack.com/team/U06MM6CVBJ9), it must run on GCP not locally (because we use `accounts.google.com:aud`, `accounts.google.com:oaud` and `accounts.google.com:sub` for security). 
+We also need those parameters to setup the **role** for you. About credential your script should use open ID connect to get authentificated and then you get a token `$bearerToken` that will be used for the **assumed** role
+
+[^hello]
+
+[[connect to AWS locally]]

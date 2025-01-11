@@ -1,0 +1,7 @@
+---
+tags:
+  - unix
+  - hash
+  - command
+---
+

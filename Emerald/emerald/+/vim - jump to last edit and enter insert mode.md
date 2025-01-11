@@ -7,7 +7,6 @@ related:
 tags:
   - howto
   - active
-rela:
 ---
 #vim #note #active 
 

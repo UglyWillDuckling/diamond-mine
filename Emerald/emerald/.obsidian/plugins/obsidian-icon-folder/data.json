@@ -308,7 +308,6 @@
     "iconName": "LiBookUser",
     "iconColor": "#9024ae"
   },
-  "notes/wordery has much cheaper shipping.md": "LiWholeWord",
   "work/calls/CRM": {
     "iconName": "LiCrown",
     "iconColor": "#d5c620"
@@ -385,7 +384,6 @@
   "Knowledge/people/Allen Holub.md": "LiGlasses",
   "Knowledge/people/Martin Fowler.md": "🖌",
   "Knowledge/people/Rebecca Wirfs-Brock.md": "👥",
-  "notes/fali mi prostora na ekranu.md": "LiScreenShareOff",
   "notes/ideas and thoughts/using an abstraction layer for the qsl listing would be interesting.md": "LiSquareDot",
   "+/Christmas Party.md": "🎄",
   "+/barefoot.md": "👞",
@@ -427,5 +425,7 @@
   "tasks/read books on tools that I use.md": {
     "iconName": "LiBookCopy",
     "iconColor": "#be2351"
-  }
+  },
+  "notes/archive/fali mi prostora na ekranu.md": "LiScreenShareOff",
+  "notes/archive/wordery has much cheaper shipping.md": "LiWholeWord"
 }

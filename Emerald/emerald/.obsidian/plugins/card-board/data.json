@@ -1,0 +1,162 @@
+{
+  "version": "0.13.0",
+  "data": {
+    "boardConfigs": [
+      {
+        "columns": [
+          {
+            "tag": "untagged",
+            "data": {
+              "collapsed": true,
+              "name": "Untagged"
+            }
+          },
+          {
+            "tag": "namedTag",
+            "data": {
+              "collapsed": false,
+              "name": "sorting",
+              "tag": "sorting"
+            }
+          },
+          {
+            "tag": "namedTag",
+            "data": {
+              "collapsed": false,
+              "name": "in progress",
+              "tag": "in-progress"
+            }
+          },
+          {
+            "tag": "namedTag",
+            "data": {
+              "collapsed": true,
+              "name": "ready",
+              "tag": "ready-to-start"
+            }
+          },
+          {
+            "tag": "otherTags",
+            "data": {
+              "collapsed": true,
+              "name": "Other Tags"
+            }
+          },
+          {
+            "tag": "completed",
+            "data": {
+              "collapsed": true,
+              "index": 5,
+              "limit": 10,
+              "name": "Completed"
+            }
+          }
+        ],
+        "filters": [
+          {
+            "tag": "tagFilter",
+            "data": "task"
+          },
+          {
+            "tag": "pathFilter",
+            "data": "Efforts"
+          }
+        ],
+        "filterPolarity": "Allow",
+        "filterScope": "Both",
+        "name": "by Status",
+        "showColumnTags": true,
+        "showFilteredTags": true
+      },
+      {
+        "columns": [
+          {
+            "tag": "undated",
+            "data": {
+              "collapsed": false,
+              "name": "Undated"
+            }
+          },
+          {
+            "tag": "dated",
+            "data": {
+              "collapsed": false,
+              "name": "Today",
+              "range": {
+                "tag": "before",
+                "data": 1
+              }
+            }
+          },
+          {
+            "tag": "dated",
+            "data": {
+              "collapsed": true,
+              "name": "Tomorrow",
+              "range": {
+                "tag": "between",
+                "data": {
+                  "from": 1,
+                  "to": 1
+                }
+              }
+            }
+          },
+          {
+            "tag": "dated",
+            "data": {
+              "collapsed": false,
+              "name": "Future",
+              "range": {
+                "tag": "after",
+                "data": 1
+              }
+            }
+          },
+          {
+            "tag": "completed",
+            "data": {
+              "collapsed": true,
+              "index": 4,
+              "limit": 10,
+              "name": "Completed"
+            }
+          }
+        ],
+        "filters": [
+          {
+            "tag": "pathFilter",
+            "data": "Efforts"
+          }
+        ],
+        "filterPolarity": "Allow",
+        "filterScope": "TopLevelOnly",
+        "name": "by day",
+        "showColumnTags": true,
+        "showFilteredTags": true
+      }
+    ],
+    "globalSettings": {
+      "defaultColumnNames": {
+        "today": "",
+        "tomorrow": "",
+        "future": "",
+        "undated": "",
+        "otherTags": "",
+        "untagged": "",
+        "completed": ""
+      },
+      "filters": [
+        {
+          "tag": "pathFilter",
+          "data": "Clippings"
+        }
+      ],
+      "firstDayOfWeek": "FromLocale",
+      "ignoreFileNameDates": true,
+      "taskCompletionFormat": "ObsidianTasks",
+      "taskCompletionInLocalTime": true,
+      "taskCompletionShowUtcOffset": true
+    }
+  }
+}

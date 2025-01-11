@@ -1,4 +1,5 @@
 ---
+
 kanban-plugin: board
 tags:
   - hello
@@ -13,6 +14,7 @@ tags:
   - kankan
 sticker: lucide//clipboard-list
 color: var(--mk-color-orange)
+
 ---
 
 ## backlog 🗃
@@ -36,19 +38,21 @@ color: var(--mk-color-orange)
 - [ ] study [[git butler]] #task
 - [x] [[see how to manage tasks]] ☑ #tasks ✅ 2025-01-06
 - [x] education / typescript advanced [[Typesript Education]] #education #task ✅ 2025-01-06
+- [ ] take a look at [[figma for CRM]] #task
 
 
 ## active ⚔
 
-- [x] [[study obsidian some more]] ^1lqsh9 #task ✅ 2025-01-06
 - [/] [[QSL listing feature|QSL listing feature]]
-- [x] #task [[read books on tools that I use]] ⏫ ✅ 2025-01-06
-- [/] [[organize obsidian notes with dataview and folders]]
-- [/] [[add other quick adds]]
+- [ ] [[add other quick adds]]
+- [ ] #task [[read books on tools that I use]] ⏫
+
 
 ## finished
 
 **Complete**
+- [x] [[study obsidian some more]] ^1lqsh9 #task ✅ 2025-01-06
+- [x] [[organize obsidian notes with dataview and folders]]
 
 
 ***
@@ -109,6 +113,6 @@ color: var(--mk-color-orange)
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,false,true],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true,"table-sizing":{"card":323}}
+{"kanban-plugin":"board","list-collapse":[true,false,false,false],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true,"table-sizing":{"card":323}}
 ```
 %%

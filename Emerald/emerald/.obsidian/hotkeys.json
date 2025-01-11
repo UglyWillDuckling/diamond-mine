@@ -221,15 +221,6 @@
       "key": "N"
     }
   ],
-  "file-explorer:move-file": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "M"
-    }
-  ],
   "file-explorer:new-file-in-new-pane": [],
   "obsidian-completr:completr-bypass-tab-key": [],
   "obsidian-completr:completr-bypass-enter-key": [],
@@ -239,6 +230,23 @@
         "Alt"
       ],
       "key": "Q"
+    }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "P"
+    }
+  ],
+  "note-refactor-obsidian:app:extract-selection-content-only": [],
+  "file-explorer:move-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "M"
     }
   ]
 }

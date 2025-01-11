@@ -32,6 +32,6 @@
     "updated": "date",
     "date": "date",
     "related": "multitext",
-    "rel": "multitext"
+    "standing": "multitext"
   }
 }

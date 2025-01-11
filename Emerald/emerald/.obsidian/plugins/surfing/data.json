@@ -6,7 +6,7 @@
       "url": "https://duckduckgo.com/?q="
     }
   ],
-  "hoverPopover": true,
+  "hoverPopover": false,
   "ignoreList": [
     "notion",
     "craft"
@@ -18,13 +18,13 @@
   "customHighlightFormat": true,
   "highlightFormat": "[{CONTENT}]({URL})",
   "highlightInSameTab": false,
-  "openInSameTab": true,
+  "openInSameTab": false,
   "showRefreshButton": true,
   "openInObsidianWeb": false,
   "useCustomIcons": false,
   "useWebview": true,
   "useIconList": true,
-  "darkMode": true,
+  "darkMode": false,
   "randomBackground": true,
   "lastOpenedFiles": false,
   "bookmarkManager": {
@@ -46,43 +46,9 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "a7bbc53a46dd6293",
-      "parent": 0,
-      "droppable": true,
-      "text": "VIM: Jump Back To Previous or Last Cursor Position - nixCraft",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "796f02db4c5a99a5",
-      "parent": 0,
-      "droppable": true,
-      "text": "vim - how to jump back to the previous edit place - Stack Overflow",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "9e854ac4d52de8e3",
-      "parent": 0,
-      "droppable": true,
-      "text": "Vim Jump to Last Change - VimTricks",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ],
+  "treeData": [],
   "enableHtmlPreview": false,
   "supportLivePreviewInlineUrl": false,
-  "enableTreeView": true,
+  "enableTreeView": false,
   "focusSearchBarViaKeyboard": true
 }

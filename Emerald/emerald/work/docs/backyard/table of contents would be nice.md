@@ -1,0 +1,3 @@
+#note #thought #active 
+
+[[TOC]]

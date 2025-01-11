@@ -72,7 +72,7 @@ static function save($listing) {
 - [x] create a new load by classified id method
 	- [i] maybe remove the current load by id
 - [x] create a new method to create entities from `data source`
-- [>] #task think about splitting this into a #repository class 🤔 🔽
+- [x] #task think about splitting this into a #repository class 🤔 🔽 ✅ 2025-01-10
 
 **thoughts**
 

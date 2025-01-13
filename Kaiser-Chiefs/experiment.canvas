@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"ab4b9ec54c9e3cf8","type":"text","text":"### in progress\n\n```tasks\nnot done \nfilter by function 'IN_PROGRESS'.includes(task.status.type)\nshow tree\n```\n","x":-460,"y":-340,"width":760,"height":440,"color":"5"},
+		{"id":"936f686f04b6978d","type":"text","text":"\n```tasks\nnot done\nfilter by function 'TODO'.includes(task.status.type)\nshow tree\n```\n","x":-1440,"y":-720,"width":940,"height":1030}
+	],
+	"edges":[
+		{"id":"62391b385acbb9f9","fromNode":"936f686f04b6978d","fromSide":"right","toNode":"ab4b9ec54c9e3cf8","toSide":"left"}
+	]
+}

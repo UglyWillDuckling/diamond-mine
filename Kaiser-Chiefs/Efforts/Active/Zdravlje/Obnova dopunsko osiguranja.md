@@ -1,5 +1,9 @@
+---
+related:
+  - "[[vladimir sedlar]]"
+---
 - [/] #task obnoviti dopunsko osiguranje
-    - [ ] pogleda ostala dopunska osiguranje [[Kompare]]
+    - [/] #task pogledati ostala dopunska osiguranje [[Kompare]]
     - [ ] uplatiti [[Dopunsko Osiguranje]]
 
 OIB: 483 294 038 32

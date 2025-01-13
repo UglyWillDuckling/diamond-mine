@@ -17,6 +17,27 @@
       "style": {
         "code": true
       }
+    },
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "Accepts a single value from a list",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {
+          "1": "in progress",
+          "2": "coming soon",
+          "3": ""
+        }
+      },
+      "name": "standing",
+      "id": "wFMTkq",
+      "path": "",
+      "style": {
+        "bold": true
+      }
     }
   ],
   "fileClassQueries": [],
@@ -25,7 +46,7 @@
   "classFilesPath": null,
   "isAutosuggestEnabled": true,
   "fileClassAlias": "fileClass",
-  "settingsVersion": "5.5",
+  "settingsVersion": "5.6",
   "firstDayOfWeek": 1,
   "enableLinks": true,
   "enableTabHeader": true,

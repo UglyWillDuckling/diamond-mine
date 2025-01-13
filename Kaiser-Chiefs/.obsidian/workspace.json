@@ -4,96 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "11f94bc9f7243e85",
+        "id": "cc0f446c8d297e0e",
         "type": "tabs",
-        "dimension": 57.643758765778394,
         "children": [
           {
-            "id": "9f61db84178c05a0",
+            "id": "abba1773c763c958",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Calendar/daily/2025-01-10.md",
-=======
-                "file": "Efforts/Projects/Tasks Management in Obsidian.md",
->>>>>>> 865e85a1ad6d8b30d7938ca103c1f3124540a3a3
+                "file": "Calendar/daily/2025-01-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "2025-01-10"
-=======
-              "title": "Tasks Management in Obsidian"
-            }
-          },
-          {
-            "id": "d2e18b0e3287d950",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/tasks/explore Tasks management in Obsidian.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "explore Tasks management in Obsidian"
->>>>>>> 865e85a1ad6d8b30d7938ca103c1f3124540a3a3
+              "title": "2025-01-13"
             }
           }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "cd189cb34910ab68",
-        "type": "split",
-        "dimension": 42.3562412342216,
-        "children": [
-          {
-            "id": "8b40cb828e478c9f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "18d9ba1af144c6ee",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Clippings/How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager"
-                }
-              }
-            ]
-          },
-          {
-            "id": "1dc97badd2ba5e2a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9dce681884d18f3e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Efforts/Projects.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Projects"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#work",
+                "query": "tag:#task",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -149,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 309.51103591918945
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -198,10 +126,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/daily/2025-01-09.md"
+                "file": "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-01-09"
+              "title": "Outline of Obsidian Tinkering"
             }
           },
           {
@@ -223,8 +151,8 @@
             "state": {
               "type": "reminder-list",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "clock",
+              "title": "Reminders"
             }
           },
           {
@@ -233,8 +161,8 @@
             "state": {
               "type": "chronology-calendar-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "clock",
+              "title": "Chronology"
             }
           },
           {
@@ -246,19 +174,9 @@
               "icon": "clock",
               "title": "Reminders"
             }
-          },
-          {
-            "id": "565e4ff9a608c0ea",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -267,86 +185,59 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-media-db-plugin:Add new Media DB entry": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-<<<<<<< HEAD
-      "daily-notes:Open today's daily note": false,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-importer:Open Importer": false,
-      "obsidian-day-and-night:Toggle Theme": false,
-      "chronology:Open Chronology": true,
-      "markwhen:Create new Markwhen file": true
-=======
       "obsidian-importer:Open Importer": false,
       "obsidian-day-and-night:Toggle Theme": false,
       "obsidian-kanban:Create new board": false,
       "chronology:Open Chronology": true,
       "markwhen:Create new Markwhen file": true,
+      "obsidian-projects:Open projects": false,
       "daily-notes:Open today's daily note": false
->>>>>>> 865e85a1ad6d8b30d7938ca103c1f3124540a3a3
     }
   },
-  "active": "d2e18b0e3287d950",
+  "active": "abba1773c763c958",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "Calendar/daily/2025-01-09.md",
-    "Markwhen/Markwhen 1-10-2025 10.28.37.mw",
-    "2025-01-06.md",
-    "Calendar/daily/2025-01-10.md",
-    "dash 💨.md",
-=======
-    "Efforts/Projects/Tasks Management in Obsidian.md",
-    "Calendar/daily/2025-01-09.md",
-    "Clippings/How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager.md",
+    "experiment.canvas",
+    "Calendar/daily/2025-01-13.md",
+    "Efforts/Projects/Ipod Setup/Setup Rockbox.md",
+    "Clippings/Restore without iTunes - wikiPodLinux.md",
+    "GParted.md",
+    "ipod disk mode.md",
+    "Clippings/Rockbox Utility won't detect my iPod in the right mount point.md",
+    "Efforts/Projects/Ipod Setup",
+    "rockbox.md",
+    "Efforts/Projects/Obsidian Tinkering/Calendar Video Notes.md",
+    "Clippings/Miro (collaboration platform) - Wikipedia.md",
+    "x/Linear Calendar 2025 - White.png",
+    "Linear Calendar 2025 - White.png.zip",
+    "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md",
+    "Efforts/Projects/Obsidian Tinkering/How to use canvas to build dashboards.md",
+    "Clippings/The Most Useful Calendar ViewThat No One Told You About.md",
     "Efforts/Projects/Explore Templatr.md",
-    "Efforts/Projects.md",
-    "task board.md",
-    "Knowledge/tools/Tasks plugin.md",
-    "Clippings/How to Manage Projects in Obsidian.md",
-    "Clippings/Pilet Opensource, Modular, Portable Mini Computer.md",
-    "Efforts/tasks/explore Tasks management in Obsidian.md",
-    "Efforts/tasks/archive/fix obsidian on PC.md",
+    "Efforts/Active/Zdravlje/Obnova dopunsko osiguranja.md",
+    "+/web server trial setup.md",
+    "Atlas/Life/People/vladimir sedlar.md",
     "Efforts/tasks/archive/platit racune.md",
-    "Clippings/Editing Dataview Tables with the Metadata Menu plugin - Obsidian Rocks.md",
-    "Clippings/@kepano's Cards Snippet from the Minimal Theme.md",
-    "Clippings/metadatamenu.md",
-    "Efforts/Projects/Office Tasks.md",
-    "T-com.md",
-    "uputnica za krv - Prosinac.md",
-    "Knowledge/concepts/project.md",
-    "workflow za kreiranje taskova.md",
-    "Portal Zdravlje HR.md",
-    "Efforts/tasks/tasks.md",
-    "Efforts/Projects",
->>>>>>> 865e85a1ad6d8b30d7938ca103c1f3124540a3a3
-    "notes/templates/daily template.md",
+    "See how to manage your library.md",
+    "Clippings/8 AI Tools I Wish I Tried Sooner.md",
+    "Efforts/Projects/Obsidian Tinkering/maps of content exploration.md",
+    "Clippings/Using Obsidian Canvas to Create Custom Dashboards.md",
+    "Clippings/How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager.md",
+    "Efforts/Projects/Tasks Management in Obsidian/explore Tasks management in Obsidian.md",
     "notes/templates/New Project template.md",
-    "Clippings/How to Manage Tasks in Obsidian-The Complete Guide - Obsidian Rocks.md",
-    "Clippings/How to Add Tasks to your Daily Notes.md",
+    "Library Project/Library Project.md",
+    "Library Project",
+    "Projects - Demo Project",
+    "Efforts/Projects/Obsidian Tinkering",
+    "Efforts/Projects/Tasks Management in Obsidian",
+    "Markwhen/Markwhen 1-10-2025 10.28.37.mw",
+    "Efforts/Projects",
     "Calendar/daily/2025",
-    "Atlas/Places",
-    "notes/templates",
-    "Atlas",
-    "Calendar/daily",
-    "Calendar",
-    "Knowledge/World",
-<<<<<<< HEAD
-    "Knowledge/mail on linux.md",
-    "Knowledge/tools/GitHub - obsfxlibgen-downloader.md",
-    "Knowledge/linux fonts.md",
-    "Clippings/Rockbox on iPod 6th gen..md",
-    "Clippings/Is a CNAME sufficient for a www. record.md",
-    "Clippings/Nginx no-www to www and www to no-www.md",
-    "Knowledge/tools/pc/Postfix",
-    "+/Postfix",
-    "Markwhen/test.mw.mw.mw",
-    "Markwhen/Markwhen 1-7-2025 12.01.15.mw"
-=======
-    "Knowledge/tools/pc/Postfix",
-    "+/Postfix"
->>>>>>> 865e85a1ad6d8b30d7938ca103c1f3124540a3a3
+    "Atlas/Places"
   ]
 }

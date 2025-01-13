@@ -24,5 +24,7 @@
   "obsidian-html-tags-autocomplete",
   "obsidian-completr",
   "obsidian-plugin-toc",
-  "metadata-menu"
+  "metadata-menu",
+  "obsidian-projects",
+  "obsidian-media-db-plugin"
 ]

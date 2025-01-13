@@ -20,7 +20,7 @@ kanban-plugin: board
 ## done
 
 - [ ] [[fix obsidian on PC]] #task
-- [/] #task [[platit racune]] 🔺
+- [x] #task [[platit racune]] 🔺 ✅ 2025-01-13
 - [x] [[Setup hosting]] 📡
 
 

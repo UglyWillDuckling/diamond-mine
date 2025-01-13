@@ -5,6 +5,7 @@
     "tags": "tags",
     "standing": "multitext",
     "priority": "number",
-    "deadline": "date"
+    "deadline": "date",
+    "status": "multitext"
   }
 }

@@ -1,7 +1,7 @@
 ## intro
 
 Hypertext Transfer Protocol Secure (HTTPS) is an extension of the Hypertext Transfer Protocol ([[HTTP]]). 
-It uses [[encryption]] for secure communication over a computer network, and is widely used on the [[Internet]]. 
+It uses [[encryption]] for secure communication over a computer network, and is widely used on the [[internet]]. 
 In HTTPS, the communication protocol is encrypted using Transport Layer Security ([[TLS]]) or, formerly, 
 [[SSL|Secure Sockets Layer]]. The protocol is therefore also referred to as [[HTTP]] over [[TLS]], or [[HTTP]] over [[SSL]].
 

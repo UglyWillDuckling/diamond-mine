@@ -8,6 +8,6 @@ standing:
 [[Templater]]
 [[Templatr Docs]]
 
-- [ ] #task explore [[Templatr Docs]] and [[Templater]] itself
+- [/] #task explore [[Templater]]
+	- [ ] #task explore [[Templatr Docs]]
 	- [/] #task explore [discussion](https://github.com/SilentVoid13/Templater/discussions)
-

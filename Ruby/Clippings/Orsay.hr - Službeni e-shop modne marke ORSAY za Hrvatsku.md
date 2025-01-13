@@ -9,7 +9,7 @@ tags:
   - "clippings"
 ---
 ![](https://orsay.cdn.csagdev.cz/zoh4eiLi/IMG/31536000/mXYE_t3Vwb9oFXYZm9OSC9ESjXYxt7fq5tR7E5DmpZ4/fill/96/96/sm/1/aHR0cHM6Ly9vcnNheS5jZG4tYmUuY3NhZ2Rldi5jei9jb25maWcvNDRiMzM1NTctMTkwMi00NTdjLTkxZTUtMGVjZWY4M2Q2OTk0NTA5N2I1YjViZGRlMTJlYzQ1NjlmZmNlYmFkMjc3NTktNjUxMDU2LnBuZw==)
-[[2024-12-14]]
+[[2024-12-14 1]]
 
 Kupujte praktičnije uz našu ORSAY aplikaciju
 

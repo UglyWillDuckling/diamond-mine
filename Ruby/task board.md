@@ -8,11 +8,15 @@ kanban-plugin: board
 
 - [ ] [[organizirati faks za novu godinu]]
 - [ ] add a quicka add to add a new task to this board 🔲
-- [ ] [[Obnova dopunsko osiguranja]]
+- [ ] Kupiti jastuk
+- [ ] Pogledati monitor
+- [ ] Naručiti glukozni monitor
 
 
 ## active
 
+- [ ] Poslati Senki račun
+- [ ] [[Obnova dopunsko osiguranja]]
 
 
 ## done

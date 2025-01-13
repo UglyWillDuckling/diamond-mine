@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a44a16dc9bc0f143",
+        "id": "58bc09b80bb8c2ce",
         "type": "tabs",
         "children": [
           {
-            "id": "1983da7d98251246",
+            "id": "90887dd3bdef5ee0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-01-09.md",
+                "file": "Zen House Sarajevo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-09"
+              "title": "Zen House Sarajevo"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.50260543823242
+    "width": 200
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -215,36 +215,38 @@
       "obsidian-media-db-plugin:Add new Media DB entry": true
     }
   },
-  "active": "1983da7d98251246",
+  "active": "90887dd3bdef5ee0",
   "lastOpenFiles": [
-    "🏡.md",
-    "Efforts/tasks by root.md",
-    "tasks/archive/Setup Obsidian sync.md",
-    "tasks/archive/add some questions 1.md",
-    "tasks/dev/setup obsidian repo on mobile.md",
-    "tasks/dev/obsidian - organize folders.md",
-    "tasks/Setup hosting/Setup hosting.md",
-    "tasks/archive/by root.md",
-    "2025-01-09.md",
-    "Dev/OBSIDIAN/OBSIDIAN.md",
-    "+/web server trial setup.md",
-    "task board.md",
-    "tasks/archive/fix obsidian on PC.md",
-    "dash 💨.md",
-    "+/Congo Free State.md",
-    "+/Carrie & Lowell.md",
-    "+/BIC broj.md",
-    "+/T.S. Eliot.md",
-    "+/Spam fix.md",
-    "+/SWIFT kod.md",
-    "+/Zemljišna knjiga.md",
-    "+/AfricanArt Content.md",
-    "ff.md",
-    "days/2025-01-02 1.md",
+    "days/2025/2025-01-01.md",
+    "days/2024/2024-11-20 1.md",
+    "days/2025",
+    "days/2025/2025-01-12.md",
+    "2025-01-13.md",
+    "Knowledge/Media/movies/The Substance.md",
+    "Knowledge/Media/movies/Totem film.md",
+    "notes/You can easily switch to a different user using su.md",
+    "Zen House Sarajevo.md",
+    "Clippings/Airbnb smještaji za odmor, drvene kuće, kuće na plaži, jedinstveni smještaji i doživljaji.md",
+    "Paulinin tata je strojarski inženjer.md",
+    "Clippings/Dragan Primorac Resurrection 1.md",
+    "Clippings/Dragan Primorac Resurrection.md",
+    "Clippings/The Hitchhiker's Guide to the Galaxy.md",
+    "Clippings/Daleka obala.md",
+    "+/Don’t Miss Mars at Its Brightest on January 16, 2025!.md",
+    "Clippings/Marko Primorac.md",
+    "Clippings/Commonwealth summit in Samoa Why won’t the UK discuss slavery.md",
+    "Clippings/Remembering Matilda, the last survivor of the transatlantic slave trade.md",
+    "days/2025/2025-01-11.md",
+    "Brigita.md",
+    "Kristina.md",
+    "Clippings/Hurricane Helene.md",
+    "Clippings/Hurricane Helene - Wikipedia.md",
+    "Clippings/Dahomey Mino - Wikipedia.md",
+    "Clippings/Second Franco-Dahomean War.md",
+    "Clippings/Béhanzin.md",
+    "Knowledge/People",
     "x/Pasted image 20241231121133.jpg",
     "x/SmartSelect_20241231-115105_Samsung Notes.jpg",
-    "+/Youth - novel.md",
-    "+/The Ancestor’s Tale.md",
     "x/SmartSelect_20241231-135110_Samsung Notes.jpg",
     "x/SmartSelect_20241231-122246_Samsung Notes.jpg",
     "x/SmartSelect_20241231-122017_Samsung Notes.jpg",
@@ -262,8 +264,6 @@
     "Dev/OBSIDIAN",
     "Life/Home 🏠",
     "Dev/notes",
-    "Dev/tasks",
-    "Life/Kviz",
     "action.canvas",
     "tasks/archive/srediti troskovnik/actions.canvas",
     "Untitled 1.canvas",

@@ -2,13 +2,14 @@
 related:
   - "[[ADR QSL Boost Automation - Tech solution - MPD - Oxygen - Confluence]]"
   - "[[QSL connection call]]"
+  - "[[Athena connection]]"
 tags:
   - ticket
   - active
 ---
  [/] #task investigate qls listing connect plan ⏫
 	- [/] #task read on [[Identity and access management]] 🔼
-	- [/] #task explore existing GCP <mark style="background: #ABF7F7A6;">connection</mark> ⏫
+	- [x] #task explore existing GCP <mark style="background: #ABF7F7A6;">connection</mark> ⏫ ✅ 2025-01-14
 		- [/] #task try to connect [[GCP]] on [[backyard]] ⏫
 ---
 
@@ -30,7 +31,6 @@ Last comment from [[Marc Jonot]] on [slack](https://kugawana.slack.com/archives/
 ## current [[GCP]] connection
 - [/] see how it works **atm**
 - [x] see about secrets and the `credentials.json`
-- [ ] ..
 
 **notes**
  - done via `StorageClient`
@@ -74,5 +74,29 @@ Hi [@Vladimir Sedlar](https://kugawana.slack.com/team/U06MM6CVBJ9), it must run
 We also need those parameters to setup the **role** for you. About credential your script should use open ID connect to get authentificated and then you get a token `$bearerToken` that will be used for the **assumed** role
 
 [^hello]
-
 [[connect to AWS locally]]
+
+## connect on backyard
+- [x] #task make a test connection on backyard-tasks dev ⏫ ✅ 2025-01-14
+	- [x] #task **make** PR
+	- [x] #task <mark style="background: #BBFABBA6;">test</mark> **PR** on dev ✅ 2025-01-14
+		- both tasks and backyard itself
+- [/] #task make a test [[Amazon Athena|Athena]] query on tasks ⏫
+- [/] #task start working on the actual implementation 🔼
+
+### athena test query
+> I need to copy the `php script` content over to the **clone project** and test it
+
+> [!error] 
+> Composer lib for [[AWS]] is missing...
+
+<mark style="background: #BBFABBA6;">I will just do this locally</mark>. We can handle the connection on **dev** later...
+
+### actual Implementation
+[var_export](https://www.php.net/manual/en/function.var-export.php)
+[[php result set]]
+
+- [x] store the result into a file
+- [x] ask if the result format can be changed
+- [ ] start on the implementation
+

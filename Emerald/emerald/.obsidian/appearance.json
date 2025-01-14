@@ -1,9 +1,9 @@
 {
-  "cssTheme": "Shimmering Focus",
+  "cssTheme": "Sanctum",
   "textFontFamily": "Cantarell",
-  "theme": "obsidian",
+  "theme": "system",
   "interfaceFontFamily": "Baskerville",
-  "baseFontSize": 16,
+  "baseFontSize": 15,
   "baseFontSizeAction": true,
   "nativeMenus": true,
   "monospaceFontFamily": "FiraCode Nerd Font",

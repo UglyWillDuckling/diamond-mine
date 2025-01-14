@@ -4,6 +4,10 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
+    ":bookmark:",
+    ":thumbsup:",
+    ":thumbsdown:",
+    ":notebook_with_decorative_cover:",
     ":heavy_check_mark:",
     ":writing_hand:",
     ":telephone_receiver:",
@@ -12,7 +16,6 @@
     ":card_file_box:",
     ":spiral_notepad:",
     ":champagne:",
-    ":notebook_with_decorative_cover:",
     ":test_tube:",
     ":clipboard:",
     ":coffee:",
@@ -75,8 +78,6 @@
     ":broom:",
     ":star:",
     ":bug:",
-    ":thumbsdown:",
-    ":thumbsup:",
     ":hotsprings:",
     ":running_man:",
     ":deciduous_tree:",
@@ -202,7 +203,6 @@
     ":tooth:",
     ":video_camera:",
     ":fallen_leaf:",
-    ":duck:",
-    ":pray:"
+    ":duck:"
   ]
 }

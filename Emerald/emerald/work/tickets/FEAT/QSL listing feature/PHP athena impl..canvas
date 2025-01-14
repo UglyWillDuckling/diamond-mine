@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"f83157a46313b8d3","type":"text","text":"**Athena**\n- runs the queries\n\t- returns the id\n- fetches the results\n- is *configurable*\n- hides allot of the details when it comes to [[AWS]]","x":-600,"y":-260,"width":300,"height":240,"color":"2"},
+		{"id":"a0ecde64a331ed41","type":"text","text":"**AWS Source**\n\nShould make the actual query and return the result\n- conforms to the `source` interface\n- converts the aws results to the appropriate type\n","x":-300,"y":20,"width":260,"height":240,"color":"5"}
+	],
+	"edges":[
+		{"id":"e2f249555c5ec006","fromNode":"a0ecde64a331ed41","fromSide":"left","toNode":"f83157a46313b8d3","toSide":"bottom"}
+	]
+}

@@ -1,5 +1,9 @@
+---
+related:
+---
 [[extranet]]
-[JIRA](https://avivgroup.atlassian.net/browse/LUNA-247)
+[JIRA](https://avivgroup.atlassian.net/browse/LUNA-247), related [JIRA-268](https://avivgroup.atlassian.net/browse/LUNA-268)
+
 
 ## intro
 
@@ -14,7 +18,7 @@ The document sent is not checked on the backend side, meaning that an attacker c
 **Note the `URL` on which the document is downloadable and replace the "download" action by "display' :**
 
 #### Affected assets:
-https:/extranet-staging.meilleursagents.org/projects/<ID>/documents
+https:/extranet-staging.meilleursagents.org/projects/\<ID\>/documents
 
 ---
 
@@ -23,4 +27,3 @@ https:/extranet-staging.meilleursagents.org/projects/<ID>/documents
 ### sanitize
 
 ![[sanitize input]]
-

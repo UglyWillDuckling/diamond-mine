@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"67c4563ecc963498","type":"text","text":"**Run Athena query**\n\n```bash\naws athena start-query-execution \\\n   --query-string \"select count(*) from tablename;\" \\\n   --result-configuration OutputLocation=s3://superb-flamingo-dev-athena/qsl-boost-gcp-role/ \\\n   --output text\n```","x":-635,"y":380,"width":632,"height":220,"color":"3"},
+		{"id":"ca01332d99d1fbe7","type":"text","text":"**Export aws vars**\n\n```bash\nexport AWS_ACCESS_KEY_ID=$accessKeyId                   \nexport AWS_SECRET_ACCESS_KEY=$accessKey\nexport AWS_DEFAULT_REGION=eu-west-1\n```\n","x":-635,"y":160,"width":632,"height":180,"color":"1"},
+		{"id":"94db903b2cc7cdf6","type":"text","text":"**2. Assume [[AWS role]]**\n\n```bash\naws sts assume-role-with-web-identity --role-arn arn:aws:iam::008583020256:role/qsl-boost-gcp-role --role-session-name test --web-identity-token $GCP_TOKEN\n```\n\n","x":-635,"y":-40,"width":632,"height":180,"color":"1"},
+		{"id":"7badc00aac517222","type":"text","text":"related: [[AWS auth process]]","x":-900,"y":-430,"width":250,"height":60},
+		{"id":"ca7d699be9a62a35","type":"text","text":"**1. get GCP token**\n\n```bash\ngcloud compute ssh --zone \"europe-west1-c\" \"backyard-tasks-dev-1c-0\" --project \"ma-dev2\" -- gcloud auth print-identity-token\n```","x":-635,"y":-320,"width":632,"height":180,"color":"5"},
+		{"id":"44547b63466e005b","x":-431,"y":-120,"width":224,"height":50,"type":"text","text":"**set $GCP_TOKEN**"},
+		{"id":"1439ca3f3f8365f3","type":"text","text":"Get results\n```bash\naws athena get-query-results --query-execution-id $query_id\n```","x":-520,"y":680,"width":556,"height":200,"color":"#a8ec41"}
+	],
+	"edges":[
+		{"id":"127f83f03b5aca6f","fromNode":"ca7d699be9a62a35","fromSide":"bottom","toNode":"44547b63466e005b","toSide":"top"},
+		{"id":"3669d2bd1193bbd2","fromNode":"94db903b2cc7cdf6","fromSide":"bottom","toNode":"ca01332d99d1fbe7","toSide":"top"},
+		{"id":"f8ec18ceefaa9d52","fromNode":"ca01332d99d1fbe7","fromSide":"bottom","toNode":"67c4563ecc963498","toSide":"top"},
+		{"id":"f9db0018b561ebac","fromNode":"67c4563ecc963498","fromSide":"bottom","toNode":"1439ca3f3f8365f3","toSide":"top"},
+		{"id":"7b8c5d7403e3486a","fromNode":"44547b63466e005b","fromSide":"bottom","toNode":"94db903b2cc7cdf6","toSide":"top"}
+	]
+}

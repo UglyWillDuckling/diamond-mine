@@ -357,7 +357,7 @@ Cardboard will honour the task related settings in Dataview, so if you set Datav
 ### Tasks Plugin
 
 ```
-- [ ] todo in Tasks format 📅 2021-10-30 ✅ 2021-10-29
+- [x] todo in Tasks format 📅 2021-10-30 ✅ 2025-01-13
 ```
 
 Will be read as a task with a due date of 30th Oct 2021 which was completed a day early.

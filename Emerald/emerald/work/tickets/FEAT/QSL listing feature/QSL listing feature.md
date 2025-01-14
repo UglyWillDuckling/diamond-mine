@@ -50,4 +50,3 @@
 
 - [ ] #task [[Athena connection]]
 - [/] #task [[see how to setup rulesets on the qsl dataset]]
-

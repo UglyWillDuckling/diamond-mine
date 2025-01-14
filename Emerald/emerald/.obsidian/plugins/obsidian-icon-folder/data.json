@@ -298,7 +298,6 @@
   "work/docs/backyard/tools/Diabolocom.md": "🦹‍♀️",
   "Knowledge/tools/dev/js/fastify.md": "LiFastForward",
   "Knowledge/tools/dev/nvim/Trouble.md": "🚦",
-  "notes/ideas and thoughts/adding tools looks to be quite useful.md": "LiPenTool",
   "work/tickets/chores/see how crons are handled on the backyard.md": "LiTimer",
   "work/docs/infra/PR's.md": "LiGitPullRequest",
   "work/calls/SPRINT/Sprint Planning 11-11.md": "👟",
@@ -427,5 +426,6 @@
     "iconColor": "#be2351"
   },
   "notes/archive/fali mi prostora na ekranu.md": "LiScreenShareOff",
-  "notes/archive/wordery has much cheaper shipping.md": "LiWholeWord"
+  "notes/archive/wordery has much cheaper shipping.md": "LiWholeWord",
+  "notes/archive/adding tools looks to be quite useful.md": "LiPenTool"
 }

@@ -13,16 +13,13 @@ related:
 
 > [!info] access keys
 > Access keys are located inside the [aws accounts](https://d-93670866e1.awsapps.com/start/#/?tab=accounts)  -> {{select account}} -> **Access keys**
-
 - ~ [[sso]] information is stored inside ` ~/.aws/config` file [[aws-config]]
+
 ### sso login
 >  see [[Getting AWS Credentials with AVIV SSO]]
-Use information from the [[AWS]] access portal
+    Use information from the [[AWS]] access portal
 
 use the command `aws configure sso`
-### saml login
-> [[saml2aws]]
-
-- ~ this will store info at `~/.aws/credentials`
+🔖 this will store info at `~/.aws/credentials`
 
 > [!done] SSO login is the only thing that's required

@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"5fe4bf95ad790163","type":"group","x":-1480,"y":-960,"width":1840,"height":1120,"color":"4","label":"Tasks"},
+		{"id":"eedbae2958471314","type":"text","text":"### active\n\n```tasks\nnot done\nshow tree\n```\n\n","x":-1460,"y":-940,"width":665,"height":1020,"color":"5"},
+		{"id":"cd6584d574a76c32","type":"link","url":"https://jwt.io/","x":-2420,"y":-880,"width":680,"height":1083,"color":"6"},
+		{"id":"73691b49687735b3","type":"file","file":"notes/footnotes example.md","x":-610,"y":-760,"width":540,"height":260,"color":"1"},
+		{"id":"097cdcba370efe05","type":"text","text":"### In Progress\n\n```tasks\nnot done\nfilter by function task.status.type === 'IN_PROGRESS'\n```\n","x":-660,"y":-400,"width":640,"height":290,"color":"6"},
+		{"id":"9508e6dc31e2f98c","type":"file","file":"notes/tmpl example.md","x":-660,"y":300,"width":400,"height":400},
+		{"id":"c2f695431e1147f5","type":"file","file":"notes/ideas and thoughts/cloning repos multiple times can be useful.md","x":-1120,"y":300,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"b74ae388de78e587","fromNode":"eedbae2958471314","fromSide":"right","toNode":"097cdcba370efe05","toSide":"left","color":"4"},
+		{"id":"26acfc35c27c7f5e","fromNode":"097cdcba370efe05","fromSide":"top","toNode":"73691b49687735b3","toSide":"bottom","fromEnd":"arrow","color":"3"}
+	]
+}

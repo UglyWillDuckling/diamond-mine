@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "603bfc8144715bf6",
+        "id": "3c3f20fcc71f4001",
         "type": "tabs",
         "children": [
           {
-            "id": "a755c2df70c68d39",
+            "id": "d9e7ed14897834c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Knowledge/daily_notes/2024/December/2024-12-05.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "work/tickets/FEAT/QSL listing feature/PHP athena impl..canvas",
+                "viewState": {
+                  "x": 42.11630093050334,
+                  "y": 72.15213949786954,
+                  "zoom": 0.09333333333333334
+                }
               },
-              "icon": "lucide-file",
-              "title": "2024-12-05"
+              "icon": "lucide-layout-dashboard",
+              "title": "PHP athena impl."
             }
           }
         ]
@@ -53,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "modifie",
+                "query": "tag:#task",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,23 +75,13 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "bee08e2b382e6bf5",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {},
-              "icon": "chrome",
-              "title": "Surfing Tab Tree"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 378.5,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -105,12 +97,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/investigate QSL listing connection plan.md",
+                "file": "work/tickets/FEAT/QSL listing feature/PHP athena impl..canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from investigate QSL listing connection plan"
+              "title": "Outgoing links from PHP athena impl."
             }
           },
           {
@@ -130,16 +122,6 @@
               },
               "icon": "links-coming-in",
               "title": "Backlinks for investigate QSL listing connection plan"
-            }
-          },
-          {
-            "id": "f07468be7d7ba89d",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
             }
           },
           {
@@ -200,16 +182,29 @@
               "icon": "clock",
               "title": "Reminders"
             }
+          },
+          {
+            "id": "5ed063d4a4a18008",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 349.5,
+    "width": 744.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "wikipedia-search:Open Article": true,
+      "templater-obsidian:Templater": false,
       "graph:Open graph view": true,
       "surfing:surfing-bookmark-manager": false,
       "quickadd:QuickAdd": false,
@@ -226,47 +221,54 @@
       "callout-manager:Insert Callout": false,
       "workspaces:Manage workspace layouts": false,
       "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false,
+      "obsidian-day-planner:Open Multi-Day View": true,
       "obsidian-book-search-plugin:Create new book note": false,
       "obsidian42-brat:BRAT": false,
-      "wikipedia-search:Open Article": false,
       "cmdr:Graph view: Open local graph": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "card-board:CardBoard": false,
+      "chronology:Open Chronology": false
     }
   },
-  "active": "f0f151d112079689",
+  "active": "d9e7ed14897834c3",
   "lastOpenFiles": [
-    "Knowledge/daily_notes/2025/January/2025-01-09.md",
+    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+    "work/tickets/FEAT/QSL listing feature/PHP athena impl..canvas",
     "work/tickets/FEAT/QSL listing feature/investigate QSL listing connection plan.md",
-    "Clippings/PHP composer The zip extension are both missing.md",
-    "notes/discovery/archive/nvim - git edit - list status files.md",
-    "work/tickets/FEAT/QSL listing feature/Application Default Credentials.md",
-    "work/tickets/FEAT/QSL listing feature/GDU.md",
-    "Knowledge/daily_notes/2025/January/2025-01-08.md",
-    "tasks/tasks.md",
-    "work/tickets/archive/Review mime-type PR.md",
-    "todo now.md",
-    "Knowledge/daily_notes/2024/December/2024-12-05.md",
-    "Knowledge/tools/dev/Anytype.md",
-    "Clippings/googleapisgoogle-api-php-client A PHP client library for accessing Google APIs.md",
-    "Knowledge/tools/dev/PlantUML/Plant UML can visualise JSON,YAML.md",
-    "Knowledge/tools/dev/PlantUML/PlantUML.md",
-    "Knowledge/tools/dev/PlantUML",
-    "work/work.md",
-    "Knowledge/Articles/dev/Vim Jump to Last Change - VimTricks.md",
-    "Knowledge/daily_notes/2024/December/2024-12-11.md",
-    "Clippings/OpenID Connect    Authentication    Google for Developers.md",
+    "work/tickets/FEAT/QSL listing feature/❌/aws-config.md",
+    "dash canvas.canvas",
+    "Knowledge/tools/dev/aws CLI.md",
+    "work/tickets/FEAT/QSL listing feature/docs/php result set.md",
     "work/tickets/FEAT/QSL listing feature/Athena connection.md",
-    "+/vim - jump to last edit and enter insert mode.md",
-    "+/Amazon Athena.md",
-    "Clippings/GCP.md",
-    "work/tickets/FEAT/QSL listing feature/docs/list of possible dataset rules.md",
-    "work/docs/CRM/CRM.canvas",
-    "Dashboard.md",
-    "work/calls/DAILY/2025-01-08 daily.md",
-    "x/option2.png",
-    "x/option-1.png",
+    "work/tickets/FEAT/QSL listing feature/QSL listing feature.canvas",
+    "work/calls/pair programming/pair programming Jan 14, 2025.md",
+    "work/calls/call - qsl - GCP access.md",
+    "work/calls/pair programming/Pair-programming 10.12.2024.md",
+    "full path to file in shell.md",
+    "readlink.md",
+    "Knowledge/daily_notes/2025/January/2025-01-10.md",
+    "+/Canvas is awesome.md",
+    "notes/ideas and thoughts/cloning repos multiple times can be useful.md",
+    "Clippings/Set session duration for AWS accounts - AWS IAM Identity Center.md",
+    "Clippings/AWS Security Token Service.md",
+    "work/tickets/FEAT/QSL listing feature/connect to AWS locally.md",
+    "+/Getting AWS Credentials with AVIV SSO.md",
+    "work/docs/AWS/GCP Connection/auth process.canvas",
+    "work/docs/AWS/GCP Connection/GCP Connection.md",
+    "work/docs/AWS/GCP Connection/AWS auth process.md",
+    "Clippings/Obsidian Canvas - Visualize your ideas.md",
+    "Knowledge/daily_notes/2025/January/2025-01-13.md",
+    "Knowledge/daily_notes/2025/January/2025-01-14.md",
+    "notes/tmpl example.md",
+    "Clippings/Canvas - Obsidian Help.md",
     "Action.canvas",
+    "x/option-1.png",
+    "x/option2.png",
+    "work/docs/AWS/GCP Connection",
+    "work/docs/AWS/Untitled",
+    "work/docs/AWS",
+    "Knowledge/tools/dev/PlantUML",
+    "work/docs/CRM/CRM.canvas",
     "x/Architecture-of-email-system-13.png",
     "commentator/styles.css",
     "commentator/manifest.json",
@@ -274,9 +276,6 @@
     "commentator",
     "Knowledge/daily_notes/2025/January",
     "Knowledge/daily_notes/2025",
-    "agency",
-    "work/tickets/FEAT/QSL listing feature/❌",
-    "Knowledge/daily_notes/2024/December",
     "work/people and teams/LUNA/Screenshot_20241107_140216.png",
     "Knowledge/tools/PM/bee-bole-export.png",
     "work/notes/archive/iris-code.png",

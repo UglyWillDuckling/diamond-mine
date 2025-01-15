@@ -1,7 +1,7 @@
 {
-  "cssTheme": "Sanctum",
+  "cssTheme": "Primary",
   "textFontFamily": "Cantarell",
-  "theme": "system",
+  "theme": "obsidian",
   "interfaceFontFamily": "Baskerville",
   "baseFontSize": 15,
   "baseFontSizeAction": true,

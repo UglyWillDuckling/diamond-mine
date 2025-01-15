@@ -4,6 +4,7 @@ related:
   - "[[docker compose]]"
 tags:
   - command
+  - tool
 ---
   The  docker-compose cp  command is used to copy files/directories between a
   running container and the local machine or between containers.

@@ -11,10 +11,9 @@ tags:
 	- [/] #task read on [[Identity and access management]] 🔼
 	- [x] #task explore existing GCP <mark style="background: #ABF7F7A6;">connection</mark> ⏫ ✅ 2025-01-14
 		- [/] #task try to connect [[GCP]] on [[backyard]] ⏫
+
 ---
-
 ## important
-
 - we will be making a request to [[Amazon Athena|Athena]] from [[backyard]]
 	- from [[ADR QSL Boost Automation - Tech solution - MPD - Oxygen - Confluence]], this would be **option 1**
 	- [[ADR QSL Boost Automation - Tech solution - MPD - Oxygen - Confluence#^obsolete]]
@@ -29,7 +28,7 @@ Last comment from [[Marc Jonot]] on [slack](https://kugawana.slack.com/archives/
 > Very good question. We don't have dev data within the data platform so we are usually force to work only on live. But Since their is no PII, if we have security validation we can setup the gcp dev account to query flamingo-live account data. In any cases both dev and gcp accounts.google.com:sub will be required to test the connection in dev.
 
 ## current [[GCP]] connection
-- [/] see how it works **atm**
+- [x] see how it works **atm**
 - [x] see about secrets and the `credentials.json`
 
 **notes**
@@ -81,8 +80,8 @@ We also need those parameters to setup the **role** for you. About credential yo
 	- [x] #task **make** PR
 	- [x] #task <mark style="background: #BBFABBA6;">test</mark> **PR** on dev ✅ 2025-01-14
 		- both tasks and backyard itself
-- [/] #task make a test [[Amazon Athena|Athena]] query on tasks ⏫
-- [/] #task start working on the actual implementation 🔼
+- [x] #task make a test [[Amazon Athena|Athena]] query on tasks ⏫ ✅ 2025-01-15
+- [x] #task start working on the actual implementation 🔼 ✅ 2025-01-15
 
 ### athena test query
 > I need to copy the `php script` content over to the **clone project** and test it
@@ -98,5 +97,5 @@ We also need those parameters to setup the **role** for you. About credential yo
 
 - [x] store the result into a file
 - [x] ask if the result format can be changed
-- [ ] start on the implementation
+- [x] start on the implementation
 

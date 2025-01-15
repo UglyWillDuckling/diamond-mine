@@ -48,5 +48,5 @@
 ## <mark style="background: #FFB8EBA6;">current</mark>
 [[frontend implementation]]
 
-- [ ] #task [[Athena connection]]
+- [/] #task [[Athena connection]] ⏫
 - [/] #task [[see how to setup rulesets on the qsl dataset]]

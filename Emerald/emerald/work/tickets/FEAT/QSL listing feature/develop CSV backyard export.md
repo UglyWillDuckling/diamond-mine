@@ -1,9 +1,11 @@
 #task #work #work/task
 
 ## <mark style="background: #ABF7F7A6;">requirements</mark>
-- [x] route should return a CSV file containing [[QSL listing]]s
-- [x] CSV should contain relevant fields
-- [ ] should be on a separate route
+
+1. route should return a CSV file containing [[QSL listing]]s ✅
+2. CSV should contain relevant fields ✅
+3. should be on a **separate** route
+
 ---
 ## notes 📔
 https://csv.thephpleague.com/9.0
@@ -13,10 +15,6 @@ https://csv.thephpleague.com/9.0
 ## ideas
 - $ maybe the export itself could done as an object with more capabilities | [[capability]]
 	- & it could perhaps have the output method on itself instead of returing the `Writer`
-		```php
-		<?php $export->output();
-```
-
 ## ✔
 - [x] start with basic implementation
 	- [x] develop the CSV generator first
@@ -28,10 +26,9 @@ https://csv.thephpleague.com/9.0
 - [x] make a list of fields that need to be included
 - [x] check for dependencies 🔽
 - [ ] #task write test for backyard csv export 🧪 
+- [x] #task ask for the location of the export button 🔼 ✅ 2025-01-15
 
 ### new route
 📔we also need to place a link to this somewhere
 - % should be under listings, qsl
 - should just output the CSV file
-
-

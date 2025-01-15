@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"fad294614409bf9f","type":"text","text":"#### alternatives / options\n\n**the returned query could be an object**\nEither the returned query **or** even the passed in queries could be `objects`\n**could return a Promise like object**\nAthena could return a `Promise` like object instead a simple query id\n```php\n$promise = $athena->query($sql)\n$promise->then(fn($result) {dd($result)})\n$promise->wait()\n```\n**could return a result object `typed`**\n```php\n$result = $athena->wait($query_id) \n$result->header()\n$result->rows()\n$result->numberOfItems() ...\n```\n\n> [!check] the result object could convert the results into an associative array by itself\n> we could eliminate the need for the `header()` this way\n","x":-1980,"y":-300,"width":480,"height":675,"color":"6"},
+		{"id":"ea6e79039ce396e1","type":"file","file":"work/tickets/FEAT/QSL listing feature/docs/alternatives for Athena impl..md","x":-1360,"y":-585,"width":500,"height":865,"color":"#2eb279"},
+		{"id":"f83157a46313b8d3","type":"text","text":"**Athena**\n- runs the queries\n\t- returns the id\n- fetches the results\n- is *configurable*\n- hides allot of the details when it comes to [[AWS]]\n- gives the ability to `wait` on a query\n- **accepts** a configured AWS client\n","x":-760,"y":-337,"width":400,"height":305,"color":"2"},
+		{"id":"f09435d4ee392992","type":"text","text":"## other possibilities - general\n\n#### \n","x":-500,"y":-1000,"width":440,"height":162,"color":"6"},
+		{"id":"eec6c9eea1872c0e","type":"text","text":"**switch** to using a `Result set` object type","x":-780,"y":376,"width":360,"height":70},
+		{"id":"235b9df14d85bb1b","type":"text","text":"## next steps","x":-800,"y":280,"width":200,"height":57,"color":"#050505"},
+		{"id":"5319d037f24f6d29","type":"text","text":"📔: we could have used the `Metadata` from the result set for the header values","x":-760,"y":-2,"width":400,"height":80},
+		{"id":"3bbac4c01f4ad729","type":"text","text":" **refactor**\n- move everything out\n- update tests\n- use [[Phpstorm]] if needed","x":-360,"y":330,"width":280,"height":163},
+		{"id":"350fc49dc98e597e","type":"text","text":" **refactor** one more time\n- move AWS parts","x":0,"y":364,"width":280,"height":96},
+		{"id":"c5d2d47b117d3e9f","type":"text","text":"related: [[Athena connection]]","x":-800,"y":-1030,"width":260,"height":60},
+		{"id":"a0ecde64a331ed41","type":"text","text":"**AWS Source**\n\nShould make the actual query and return the result\n- uses a `passed in` aws client for the requests\n- conforms to the `source` interface\n- converts the aws results to the appropriate `type`\n","x":-260,"y":-266,"width":400,"height":228,"color":"5"},
+		{"id":"44bbb5915bc79245","type":"text","text":"ask about the ","x":380,"y":376,"width":416,"height":169}
+	],
+	"edges":[
+		{"id":"892f6ea77fd5992f","fromNode":"a0ecde64a331ed41","fromSide":"left","toNode":"f83157a46313b8d3","toSide":"right"},
+		{"id":"efbc93f202e1fa1f","fromNode":"ea6e79039ce396e1","fromSide":"right","toNode":"f83157a46313b8d3","toSide":"left","toEnd":"none"},
+		{"id":"373b61d05c0ffdb5","fromNode":"eec6c9eea1872c0e","fromSide":"right","toNode":"3bbac4c01f4ad729","toSide":"left"},
+		{"id":"f048b5885fc07f3a","fromNode":"3bbac4c01f4ad729","fromSide":"right","toNode":"350fc49dc98e597e","toSide":"left"},
+		{"id":"402a1b2e2d7fc6ef","fromNode":"350fc49dc98e597e","fromSide":"right","toNode":"44bbb5915bc79245","toSide":"left"}
+	]
+}

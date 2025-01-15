@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiArchive",
       "🪣",
       "👠",
       "👟",
-      "🔙",
-      "LiDock"
+      "🔙"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -427,5 +427,6 @@
   },
   "notes/archive/fali mi prostora na ekranu.md": "LiScreenShareOff",
   "notes/archive/wordery has much cheaper shipping.md": "LiWholeWord",
-  "notes/archive/adding tools looks to be quite useful.md": "LiPenTool"
+  "notes/archive/adding tools looks to be quite useful.md": "LiPenTool",
+  "work/tickets/FEAT/QSL listing feature/archive": "LiArchive"
 }

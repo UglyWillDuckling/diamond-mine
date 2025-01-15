@@ -15,9 +15,9 @@
               "state": {
                 "file": "work/tickets/FEAT/QSL listing feature/PHP athena impl..canvas",
                 "viewState": {
-                  "x": 42.11630093050334,
-                  "y": 72.15213949786954,
-                  "zoom": 0.09333333333333334
+                  "x": -50.51851334176081,
+                  "y": 334.9769739747127,
+                  "zoom": -1.1199999999999997
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -224,23 +224,22 @@
       "obsidian-day-planner:Open Multi-Day View": true,
       "obsidian-book-search-plugin:Create new book note": false,
       "obsidian42-brat:BRAT": false,
-      "cmdr:Graph view: Open local graph": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "card-board:CardBoard": false,
-      "chronology:Open Chronology": false
+      "cmdr:Graph view: Open local graph": false
     }
   },
   "active": "d9e7ed14897834c3",
   "lastOpenFiles": [
+    "work/tickets/FEAT/QSL listing feature/alternatives for Athena impl..md",
+    "work/tickets/FEAT/QSL listing feature/QSL listing feature.canvas",
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
     "work/tickets/FEAT/QSL listing feature/PHP athena impl..canvas",
+    "Knowledge/daily_notes/2025/January/2025-01-15.md",
     "work/tickets/FEAT/QSL listing feature/investigate QSL listing connection plan.md",
     "work/tickets/FEAT/QSL listing feature/❌/aws-config.md",
     "dash canvas.canvas",
     "Knowledge/tools/dev/aws CLI.md",
     "work/tickets/FEAT/QSL listing feature/docs/php result set.md",
     "work/tickets/FEAT/QSL listing feature/Athena connection.md",
-    "work/tickets/FEAT/QSL listing feature/QSL listing feature.canvas",
     "work/calls/pair programming/pair programming Jan 14, 2025.md",
     "work/calls/call - qsl - GCP access.md",
     "work/calls/pair programming/Pair-programming 10.12.2024.md",
@@ -259,8 +258,6 @@
     "Clippings/Obsidian Canvas - Visualize your ideas.md",
     "Knowledge/daily_notes/2025/January/2025-01-13.md",
     "Knowledge/daily_notes/2025/January/2025-01-14.md",
-    "notes/tmpl example.md",
-    "Clippings/Canvas - Obsidian Help.md",
     "Action.canvas",
     "x/option-1.png",
     "x/option2.png",

@@ -9,8 +9,7 @@ status:
 [[maps of content exploration]]
 
 - [/] #task see how to use [[canvas]] for building dashboards ⏫
-	- [[Using Obsidian Canvas to Create Custom Dashboards]]
-	- [[How to use canvas to build dashboards]]
+	- [[How to use canvas]]
 - [/] #task checkout Calendar video [[The Most Useful Calendar ViewThat No One Told You About]]
 	- [[Calendar Video Notes]]
 - [ ] #task Explore other ways of syncing
@@ -19,3 +18,5 @@ status:
 	-  📹 [[A Custom Obsidian Theme To Feel More Reflective]]
 - [ ] #task explore [[Maps of Content]] [[maps of content exploration]]
 	- [[Using Obsidian Canvas to Create Custom Dashboards]] video
+
+[[experimenting with canvas]]

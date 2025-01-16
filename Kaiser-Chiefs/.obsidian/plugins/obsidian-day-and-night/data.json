@@ -1,12 +1,12 @@
 {
   "pluginEnabled": true,
-  "currentTheme": "Obsidianite",
+  "currentTheme": "Things",
   "currentColorScheme": "obsidian",
   "dayColorScheme": "moonstone",
   "dayTime": "08:00",
-  "dayTheme": "Things",
+  "dayTheme": "Obsidianite",
   "nightColorScheme": "obsidian",
   "nightTime": "18:30",
-  "nightTheme": "Obsidianite",
-  "pauseThemeToggle": false
+  "nightTheme": "Things",
+  "pauseThemeToggle": true
 }

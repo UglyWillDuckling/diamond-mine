@@ -1,9 +1,140 @@
 {
-	"nodes":[
-		{"id":"936f686f04b6978d","type":"text","text":"\n```tasks\nnot done\nfilter by function 'TODO'.includes(task.status.type)\nshow tree\n```\n","x":-1440,"y":-720,"width":940,"height":1030},
-		{"id":"ab4b9ec54c9e3cf8","type":"text","text":"### in progress\n\n```tasks\nnot done \nfilter by function 'IN_PROGRESS'.includes(task.status.type)\nshow tree\n```\n","x":-420,"y":-545,"width":760,"height":680,"color":"5"}
-	],
-	"edges":[
-		{"id":"62391b385acbb9f9","fromNode":"936f686f04b6978d","fromSide":"right","toNode":"ab4b9ec54c9e3cf8","toSide":"left"}
-	]
+  "edges": [
+    {
+      "color": "3",
+      "fromNode": "936f686f04b6978d",
+      "fromSide": "right",
+      "id": "62391b385acbb9f9",
+      "toNode": "ab4b9ec54c9e3cf8",
+      "toSide": "left"
+    },
+    {
+      "color": "2",
+      "fromNode": "c8e50c125eb1ef4f",
+      "fromSide": "right",
+      "id": "5c43d7e813ae00ae",
+      "styleAttributes": {
+        "arrow": "circle-outline",
+        "path": "dotted",
+        "pathfindingMethod": "direct"
+      },
+      "toNode": "636a388612b6a8a8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "636a388612b6a8a8",
+      "fromSide": "right",
+      "id": "001a946a5fade8de",
+      "styleAttributes": {
+        "arrow": "circle",
+        "path": null,
+        "pathfindingMethod": "a-star"
+      },
+      "toNode": "f971bb9d008b99a5",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "5",
+      "height": 680,
+      "id": "ab4b9ec54c9e3cf8",
+      "styleAttributes": {
+      },
+      "text": "### in progress\n\n```tasks\nnot done \nfilter by function 'IN_PROGRESS'.includes(task.status.type)\nshow tree\n```\n",
+      "type": "text",
+      "width": 760,
+      "x": -440,
+      "y": -640
+    },
+    {
+      "height": 980,
+      "id": "936f686f04b6978d",
+      "styleAttributes": {
+      },
+      "text": "\n```tasks\nnot done\nfilter by function 'TODO'.includes(task.status.type)\nshow tree\n```\n",
+      "type": "text",
+      "width": 920,
+      "x": -1500,
+      "y": -940
+    },
+    {
+      "height": 1020,
+      "id": "a78fa77496a6e312",
+      "styleAttributes": {
+      },
+      "text": "### tasks short\n ```tasks\nnot done\nfilter by function 'TODO'.includes(task.status.type)\nshow tree\nshort mode\n```",
+      "type": "text",
+      "width": 700,
+      "x": -2240,
+      "y": -940
+    },
+    {
+      "height": 120,
+      "id": "c8e50c125eb1ef4f",
+      "styleAttributes": {
+        "border": "dashed",
+        "shape": "pill",
+        "textAlign": "center"
+      },
+      "text": "afsdfdsf",
+      "type": "text",
+      "width": 300,
+      "x": -2900,
+      "y": -1300
+    },
+    {
+      "height": 260,
+      "id": "f971bb9d008b99a5",
+      "styleAttributes": {
+        "border": "dashed",
+        "shape": "database",
+        "textAlign": "center"
+      },
+      "text": "\n\naaaa\n\n\nbye",
+      "type": "text",
+      "width": 480,
+      "x": -1960,
+      "y": -1660
+    },
+    {
+      "height": 170,
+      "id": "636a388612b6a8a8",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "hello",
+      "type": "text",
+      "width": 260,
+      "x": -2500,
+      "y": -1560
+    },
+    {
+      "color": "2",
+      "height": 260,
+      "id": "a5ad7a6c62067929",
+      "styleAttributes": {
+      },
+      "text": "\nfsdfdsfs\nfsdfdsf\nfsdfdsfd\nfsdfdsfds\ndsfdsf\n\nfsdfdsfd\nfsdfsdefsd\nfsdfsdfds\nsdfsdfdsf\nfsdfsdf\nfsdfsdf\nfsdfsdf\nfsdfsdffd\nfdsfsdfds\nfsdfdsfd",
+      "type": "text",
+      "width": 460,
+      "x": -2500,
+      "y": -1460
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "e0498560f0a0d3d6",
+      "styleAttributes": {
+        "shape": "document",
+        "textAlign": "center"
+      },
+      "text": "fssdfds\nfsdfdsf\nfsdfsdfds\nfsdfdsfds\nfsdfdsfdsf\nfsfdsfd\n\nbbbb\nbbbb\ncccc\nfdsfsdf\nfsdfdsfd\nffdsffds",
+      "type": "text",
+      "width": 260,
+      "x": -2660,
+      "y": -1140
+    }
+  ]
 }

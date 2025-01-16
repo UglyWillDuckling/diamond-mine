@@ -4,48 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "cc0f446c8d297e0e",
+        "id": "42db14c180bc0adc",
         "type": "tabs",
         "children": [
           {
-            "id": "abba1773c763c958",
+            "id": "d06bbdcb85adb61c",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "task board.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    true
-                  ]
-                }
+                "file": "Clippings/Obsidian Canvas - Milo.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "task board"
+              "icon": "lucide-file",
+              "title": "Obsidian Canvas - Milo"
             }
           },
           {
-            "id": "14862951dc5490ae",
+            "id": "537746cc85fff3ae",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "experiment.canvas",
+                "file": "Efforts/Projects/Obsidian Tinkering/canvas/experiment.canvas",
                 "viewState": {
-                  "x": -58.59393813111977,
-                  "y": -185.0964570776271,
-                  "zoom": -0.5123657256746696
+                  "x": 619.9445433895124,
+                  "y": 119.49222609464121,
+                  "zoom": -0.6666666401757144
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "experiment"
             }
+          },
+          {
+            "id": "c1a06dac85d2514c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Efforts/Projects/Obsidian Tinkering/How to use canvas.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "How to use canvas"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -170,16 +178,6 @@
             }
           },
           {
-            "id": "df3c4559bfecf01b",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
             "id": "b286b55672c075e3",
             "type": "leaf",
             "state": {
@@ -204,12 +202,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 456.5,
+    "width": 377.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-media-db-plugin:Add new Media DB entry": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-media-db-plugin:Add new Media DB entry": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
@@ -217,51 +216,51 @@
       "command-palette:Open command palette": true,
       "obsidian-importer:Open Importer": false,
       "obsidian-day-and-night:Toggle Theme": false,
-      "obsidian-kanban:Create new board": false,
       "chronology:Open Chronology": true,
       "markwhen:Create new Markwhen file": true,
-      "obsidian-projects:Open projects": false,
-      "daily-notes:Open today's daily note": false
+      "daily-notes:Open today's daily note": false,
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "14862951dc5490ae",
+  "active": "d06bbdcb85adb61c",
   "lastOpenFiles": [
+    "Efforts/Projects/Obsidian Tinkering/canvas/experiment.canvas",
+    "Efforts/Projects/Obsidian Tinkering/How to use canvas.md",
+    "Clippings/Obsidian Canvas - Milo.md",
+    "Clippings/advanced-canvas.md",
+    "Clippings/Using Obsidian Canvas to Create Custom Dashboards.md",
+    "Clippings/How I’m ACTUALLY Using The Obsidian Canvas.md",
+    "Clippings/How I'm Using AI WITH My Obsidian Vault.md",
+    "Untitled Kanban.md",
+    "Atlas/Knowledge/Media/Books/Getting Things Done (2001).md",
+    "Media DB/books",
+    "Media DB",
     "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md",
+    "Atlas/Knowledge/tools/obsidian/plugins/canvas-send-to-back.md",
     "experiment.canvas",
+    "Calendar/daily/2025-01-15.md",
+    "Efforts/Projects/Obsidian Tinkering/canvas/experimenting with canvas.md",
+    "Clippings/simple-canvasearch.md",
+    "cronjob.md",
+    "Efforts/Projects/Obsidian Tinkering/canvas/Untitled.md",
+    "Efforts/Projects/Obsidian Tinkering/canvas",
+    "workflow za kreiranje taskova.md",
+    "task board.md",
     "See how to manage your library.md",
+    "Efforts/tasks/tasks.md",
     "notes/ipod disk mode.md",
     "Calendar/daily/2025-01-13.md",
-    "Untitled Kanban.md",
-    "task board.md",
     "Atlas/Knowledge/tools/pc/rockbox.md",
-    "workflow za kreiranje taskova.md",
     "Atlas/Knowledge/tools/pc/GParted.md",
     "Efforts/Projects/Ipod Setup/Setup Rockbox.md",
     "Clippings/Restore without iTunes - wikiPodLinux.md",
-    "Clippings/Rockbox Utility won't detect my iPod in the right mount point.md",
     "Efforts/Projects/Ipod Setup",
-    "Efforts/Projects/Obsidian Tinkering/Calendar Video Notes.md",
-    "Clippings/Miro (collaboration platform) - Wikipedia.md",
     "x/Linear Calendar 2025 - White.png",
     "Linear Calendar 2025 - White.png.zip",
-    "Efforts/Projects/Obsidian Tinkering/How to use canvas to build dashboards.md",
-    "Clippings/The Most Useful Calendar ViewThat No One Told You About.md",
-    "Efforts/Projects/Explore Templatr.md",
-    "Efforts/Active/Zdravlje/Obnova dopunsko osiguranja.md",
-    "+/web server trial setup.md",
-    "Atlas/Life/People/vladimir sedlar.md",
-    "Efforts/tasks/archive/platit racune.md",
-    "Clippings/8 AI Tools I Wish I Tried Sooner.md",
-    "Efforts/Projects/Obsidian Tinkering/maps of content exploration.md",
-    "Clippings/Using Obsidian Canvas to Create Custom Dashboards.md",
-    "Clippings/How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager.md",
     "Library Project",
     "Projects - Demo Project",
     "Efforts/Projects/Obsidian Tinkering",
     "Efforts/Projects/Tasks Management in Obsidian",
-    "Markwhen/Markwhen 1-10-2025 10.28.37.mw",
-    "Efforts/Projects",
-    "Calendar/daily/2025",
-    "Atlas/Places"
+    "Markwhen/Markwhen 1-10-2025 10.28.37.mw"
   ]
 }

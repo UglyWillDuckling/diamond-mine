@@ -26,5 +26,8 @@
   "obsidian-plugin-toc",
   "metadata-menu",
   "obsidian-projects",
-  "obsidian-media-db-plugin"
+  "obsidian-media-db-plugin",
+  "advanced-canvas",
+  "simple-canvasearch",
+  "canvas-send-to-back"
 ]

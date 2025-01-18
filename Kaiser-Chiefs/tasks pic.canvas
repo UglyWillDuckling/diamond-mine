@@ -1,14 +1,6 @@
 {
   "edges": [
     {
-      "color": "3",
-      "fromNode": "936f686f04b6978d",
-      "fromSide": "right",
-      "id": "62391b385acbb9f9",
-      "toNode": "ab4b9ec54c9e3cf8",
-      "toSide": "left"
-    },
-    {
       "color": "2",
       "fromNode": "c8e50c125eb1ef4f",
       "fromSide": "right",
@@ -32,43 +24,20 @@
       },
       "toNode": "f971bb9d008b99a5",
       "toSide": "left"
+    },
+    {
+      "color": "1",
+      "fromNode": "a78fa77496a6e312",
+      "fromSide": "right",
+      "id": "3010428159ec5140",
+      "styleAttributes": {
+        "arrow": "thin-triangle"
+      },
+      "toNode": "ab4b9ec54c9e3cf8",
+      "toSide": "left"
     }
   ],
   "nodes": [
-    {
-      "color": "5",
-      "height": 680,
-      "id": "ab4b9ec54c9e3cf8",
-      "styleAttributes": {
-      },
-      "text": "### in progress\n\n```tasks\nnot done \nfilter by function 'IN_PROGRESS'.includes(task.status.type)\nshow tree\n```\n",
-      "type": "text",
-      "width": 760,
-      "x": -440,
-      "y": -640
-    },
-    {
-      "height": 980,
-      "id": "936f686f04b6978d",
-      "styleAttributes": {
-      },
-      "text": "\n```tasks\nnot done\nfilter by function 'TODO'.includes(task.status.type)\nshow tree\n```\n",
-      "type": "text",
-      "width": 920,
-      "x": -1500,
-      "y": -940
-    },
-    {
-      "height": 1020,
-      "id": "a78fa77496a6e312",
-      "styleAttributes": {
-      },
-      "text": "### tasks short\n ```tasks\nnot done\nfilter by function 'TODO'.includes(task.status.type)\nshow tree\nshort mode\n```",
-      "type": "text",
-      "width": 700,
-      "x": -2240,
-      "y": -940
-    },
     {
       "height": 120,
       "id": "c8e50c125eb1ef4f",
@@ -135,6 +104,43 @@
       "width": 260,
       "x": -2660,
       "y": -1140
+    },
+    {
+      "height": 800,
+      "id": "936f686f04b6978d",
+      "styleAttributes": {
+      },
+      "text": "\n```tasks\nnot done\nfilter by function 'TODO'.includes(task.status.type)\nshow tree\n```\n",
+      "type": "text",
+      "width": 920,
+      "x": -1600,
+      "y": -1800
+    },
+    {
+      "color": "3",
+      "height": 900,
+      "id": "a78fa77496a6e312",
+      "styleAttributes": {
+      },
+      "text": "### tasks short\n ```tasks\nnot done\nfilter by function 'TODO'.includes(task.status.type)\nshow tree\nshort mode\n```",
+      "type": "text",
+      "width": 520,
+      "x": -1140,
+      "y": -800
+    },
+    {
+      "color": "5",
+      "height": 560,
+      "id": "ab4b9ec54c9e3cf8",
+      "styleAttributes": {
+        "border": "dotted",
+        "textAlign": "center"
+      },
+      "text": "### in progress\n```tasks\nnot done \nfilter by function 'IN_PROGRESS'.includes(task.status.type)\nshow tree\nhide task count\nshort mode\n```\n",
+      "type": "text",
+      "width": 660,
+      "x": -480,
+      "y": -600
     }
   ]
 }

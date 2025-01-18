@@ -26,15 +26,7 @@ Learn the basics of Obsidian Canvas—including secret maneuvers that make it ef
 28:11 - Conclusion  
 28:51 - Outro  
   
-🐦 TWEET: https://twitter.com/NickMilo  
-📖 READ: https://medium.com/@nickmilo22/my-pkm-story-3763985b7a3e  
-🎬 LEARN OBSIDIAN: https://youtu.be/QgbLb6QCK88  
-🗿 DOWNLOAD OBSIDIAN: https://obsidian.md/  
-📩 EMAIL: support@linkingyourthinking.com  
-  
-🖼 BROLL: Johnny Harris images during the intro 
 🏷 TAGS: #Obsidian #obsidianapp #Obsidiannotetakingapp #LinkingYourThinking
-
 
 ---
 # notes
@@ -51,6 +43,5 @@ it works for everything. You can use anything.
 ### shortcuts
 `shift+scroll` **move** horizontally or vertically
 `Ctrl+drag` **duplicate**
-
 
 %% after the note is done, move the knowledge to [[How to use canvas]] %%

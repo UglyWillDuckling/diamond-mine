@@ -6,6 +6,8 @@
     "standing": "multitext",
     "priority": "number",
     "deadline": "date",
-    "status": "multitext"
+    "status": "text",
+    "docs": "multitext",
+    "about": "multitext"
   }
 }

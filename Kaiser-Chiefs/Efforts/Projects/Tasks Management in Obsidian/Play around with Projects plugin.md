@@ -4,8 +4,8 @@ related:
 tags:
   - task
 ---
-- [ ] #task play around with [[Projects Plugin]]
-	- [ ] #task watch video
+- [/] #task play around with [[Projects Plugin]] 🔼
+	- [/] #task watch video
 	- [ ] #task read articles
 	- [ ] ..
 

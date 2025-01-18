@@ -4,55 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "42db14c180bc0adc",
+        "id": "57179559b3f4d603",
         "type": "tabs",
         "children": [
           {
-            "id": "d06bbdcb85adb61c",
+            "id": "52997a42d74e36a7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Clippings/Obsidian Canvas - Milo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian Canvas - Milo"
-            }
-          },
-          {
-            "id": "537746cc85fff3ae",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Efforts/Projects/Obsidian Tinkering/canvas/experiment.canvas",
-                "viewState": {
-                  "x": 619.9445433895124,
-                  "y": 119.49222609464121,
-                  "zoom": -0.6666666401757144
+                "file": "task board.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    true
+                  ]
                 }
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "experiment"
+              "icon": "lucide-trello",
+              "title": "task board"
             }
           },
           {
-            "id": "c1a06dac85d2514c",
+            "id": "334e352cbe6ba364",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Efforts/Projects/Obsidian Tinkering/How to use canvas.md",
+                "file": "Efforts/Active/Persona/How Wordpress development works.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How to use canvas"
+              "title": "How Wordpress development works"
+            }
+          },
+          {
+            "id": "a41cc69889e58ebb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/10 Best WordPress Training Courses (Updated 2024).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10 Best WordPress Training Courses (Updated 2024)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 252.51103591918945
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -222,45 +225,46 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "d06bbdcb85adb61c",
+  "active": "334e352cbe6ba364",
   "lastOpenFiles": [
+    "Clippings/10 Best WordPress Training Courses (Updated 2024).md",
+    "Efforts/Active/Persona/from mods.md",
+    "Efforts/Active/Dev/Personal VPS/Docs/Techdot.biz domena.md",
+    "Efforts/Active/Persona/How Wordpress development works.md",
+    "task board.md",
+    "Efforts/tasks/configure tmux.md",
+    "Efforts/Projects/Tasks Management in Obsidian/Tasks Management in Obsidian.md",
+    "Clippings/How to Manage Tasks in Obsidian-The Complete Guide - Obsidian Rocks.md",
+    "dash 💨.md",
+    "Atlas/Knowledge/tools/pc/cronjob.md",
+    "Atlas/Knowledge/concepts/CS/Development Environment.md",
+    "Efforts/tasks/See how to manage your library.md",
+    "Atlas/Knowledge/Media/Getting Into Knives.md",
+    "Atlas/Knowledge/World/Kompare.md",
+    "notes/workflow za kreiranje taskova.md",
+    "Atlas/Knowledge/Mountain Goats.md",
+    "tasks pic.canvas",
+    "Efforts/Active/Dev/Personal VPS/Docs/my VPS.md",
+    "Atlas/Knowledge/tools/obsidian/plugins/Tasks plugin/Tasks plugin.md",
+    "Atlas/Knowledge/tools/obsidian/plugins/Tasks plugin/Tasks User Guide - Layout.md",
+    "Atlas/Knowledge/tools/obsidian/plugins/Tasks plugin/hide task count in Tasks.md",
+    "Atlas/Knowledge/tools/obsidian/plugins/Tasks plugin",
+    "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md",
+    "Efforts/tasks/tasks.md",
+    "Efforts/Active/Persona/Persona.md",
+    "Efforts/Active/Persona/Persona.hr.md",
+    "Efforts/Projects/Persona/News.md",
+    "Efforts/Active/Dev/Personal VPS/Personal VPS.md",
+    "Efforts/Projects/Persona",
     "Efforts/Projects/Obsidian Tinkering/canvas/experiment.canvas",
-    "Efforts/Projects/Obsidian Tinkering/How to use canvas.md",
-    "Clippings/Obsidian Canvas - Milo.md",
-    "Clippings/advanced-canvas.md",
-    "Clippings/Using Obsidian Canvas to Create Custom Dashboards.md",
-    "Clippings/How I’m ACTUALLY Using The Obsidian Canvas.md",
-    "Clippings/How I'm Using AI WITH My Obsidian Vault.md",
-    "Untitled Kanban.md",
-    "Atlas/Knowledge/Media/Books/Getting Things Done (2001).md",
     "Media DB/books",
     "Media DB",
-    "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md",
-    "Atlas/Knowledge/tools/obsidian/plugins/canvas-send-to-back.md",
-    "experiment.canvas",
-    "Calendar/daily/2025-01-15.md",
-    "Efforts/Projects/Obsidian Tinkering/canvas/experimenting with canvas.md",
-    "Clippings/simple-canvasearch.md",
-    "cronjob.md",
-    "Efforts/Projects/Obsidian Tinkering/canvas/Untitled.md",
     "Efforts/Projects/Obsidian Tinkering/canvas",
-    "workflow za kreiranje taskova.md",
-    "task board.md",
-    "See how to manage your library.md",
-    "Efforts/tasks/tasks.md",
-    "notes/ipod disk mode.md",
-    "Calendar/daily/2025-01-13.md",
-    "Atlas/Knowledge/tools/pc/rockbox.md",
-    "Atlas/Knowledge/tools/pc/GParted.md",
-    "Efforts/Projects/Ipod Setup/Setup Rockbox.md",
-    "Clippings/Restore without iTunes - wikiPodLinux.md",
     "Efforts/Projects/Ipod Setup",
     "x/Linear Calendar 2025 - White.png",
     "Linear Calendar 2025 - White.png.zip",
     "Library Project",
     "Projects - Demo Project",
-    "Efforts/Projects/Obsidian Tinkering",
-    "Efforts/Projects/Tasks Management in Obsidian",
-    "Markwhen/Markwhen 1-10-2025 10.28.37.mw"
+    "Efforts/Projects/Obsidian Tinkering"
   ]
 }

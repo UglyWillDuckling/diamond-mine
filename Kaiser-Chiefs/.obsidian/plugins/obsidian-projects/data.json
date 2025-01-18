@@ -269,7 +269,7 @@
       "defaultName": "",
       "templates": [],
       "excludedNotes": [],
-      "isDefault": true,
+      "isDefault": false,
       "dataSource": {
         "kind": "folder",
         "config": {
@@ -384,6 +384,198 @@
       ],
       "id": "2143b87e-c3fb-478f-b6d9-6bd35467a384",
       "name": "IPOD"
+    },
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "Done"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Efforts/Active/Persona",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "width": 303,
+                "hide": true
+              },
+              "name": {
+                "width": 184
+              }
+            },
+            "orderFields": [
+              "name",
+              "related",
+              "tags"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#2aa28e",
+                "condition": {
+                  "field": "name",
+                  "operator": "is-not-empty",
+                  "enabled": true
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "5d610e51-e3b1-47d3-86e2-f8f5e0ca9647",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "includeFields": [
+              "status"
+            ],
+            "groupByField": "status",
+            "columns": {
+              "No status": {
+                "weight": 0,
+                "records": [
+                  "Efforts/Active/Persona/Persona.hr.md"
+                ]
+              },
+              "In Progress": {
+                "records": [
+                  "Efforts/Active/Persona/How Wordpress development works.md"
+                ],
+                "weight": 1
+              },
+              "Done": {
+                "weight": 2,
+                "records": [
+                  "Efforts/Active/Persona/Persona.md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#1a40ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "In Progress"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "4f5dbcee-de06-4a59-88e7-2174a04e739a",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "654015f9-17f4-4444-b879-9d17906a2c1d",
+      "name": "Persona"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Efforts/Projects/Persona",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "name": {
+                "hide": false
+              }
+            },
+            "orderFields": [
+              "name",
+              "path"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "cf4eb9fb-4a44-4a3c-b818-0bc516448113",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "includeFields": [
+              "status"
+            ],
+            "groupByField": "status",
+            "columns": {
+              "In Progress": {
+                "records": [
+                  "Efforts/Projects/Persona/News.md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "0f4800a8-aec0-4ea5-bf81-b9a2f19f9616",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "050d47f9-76f7-416f-aed0-a7e13cde8679",
+      "name": "Untitled project"
     }
   ],
   "archives": [],

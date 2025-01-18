@@ -1,5 +1,18 @@
 {
   "edges": [
+    {
+      "color": "3",
+      "fromEnd": "arrow",
+      "fromNode": "9f4bdc7af9f1608f",
+      "fromSide": "right",
+      "id": "d1978830340f6caa",
+      "styleAttributes": {
+        "arrow": null,
+        "path": "dotted"
+      },
+      "toNode": "0f3a3351d6b0a959",
+      "toSide": "left"
+    }
   ],
   "nodes": [
     {
@@ -24,8 +37,8 @@
       "text": "dasddsad",
       "type": "text",
       "width": 260,
-      "x": 740,
-      "y": -120
+      "x": 380,
+      "y": -80
     }
   ]
 }

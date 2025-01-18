@@ -5,8 +5,8 @@ tags:
 ---
 ## thoughts 💭
 ## notes
-- kreiran je folder za Persona project
-`/home/vlado/dev/projects/persona-static`
+- kreiran je **folder** za Persona project
+	`/home/vlado/dev/projects/persona-static`
 
 ## doing
 [[web server trial setup]]

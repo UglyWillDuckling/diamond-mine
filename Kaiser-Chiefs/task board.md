@@ -9,6 +9,7 @@ kanban-plugin: board
 - [ ] [[organizirati faks za novu godinu]]
 - [ ] add a quicka add to add a new task to this board 🔲
 - [ ] [[Obnova dopunsko osiguranja]]
+- [ ] [[configure tmux]]
 
 
 ## active
@@ -19,9 +20,6 @@ kanban-plugin: board
 
 ## done
 
-- [ ] [[fix obsidian on PC]] #task
-- [x] #task [[platit racune]] 🔺 ✅ 2025-01-13
-- [x] [[Setup hosting]] 📡
 
 
 ***
@@ -48,6 +46,9 @@ kanban-plugin: board
 - [x] [[Setup hosting - send email to hostinger]]
 - [x] [[Poslati dokumente na Kompare.hr]]
 - [x] [[HAK - obnoviti clanstvo]]
+- [x] [[fix obsidian on PC]] #task ✅ 2025-01-18
+- [x] #task [[platit racune]] 🔺 ✅ 2025-01-13
+- [x] [[Setup hosting]] 📡
 
 %% kanban:settings
 ```

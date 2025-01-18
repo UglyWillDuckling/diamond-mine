@@ -2,6 +2,8 @@
 
 ```tasks
 not done
+short mode
+show tree
 ```
 
 ## important 🔥

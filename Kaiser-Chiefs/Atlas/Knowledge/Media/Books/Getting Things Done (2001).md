@@ -23,7 +23,6 @@ tags:
   - mediaDB/book
   - 📚Book
 ---
-
 ![hello](https://covers.openlibrary.org/b/OLID/OL7360123M-L.jpg)
 
 Author: [[David Allen]]

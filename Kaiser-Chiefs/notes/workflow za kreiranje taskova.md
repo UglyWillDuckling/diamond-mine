@@ -1,3 +1,6 @@
+#active #note 
+
+==potencijalno==
 
 1. napraviti **task** u daily noteu
 	1. postaviti mu prioritet i sve potrebno

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🌄",
       "📹",
       "LiWrench",
       "LiCheckCheck",
-      "LiCheck",
-      "LiCalendarHeart"
+      "LiCheck"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -50,5 +50,6 @@
   "Efforts/Projects/Tasks Management in Obsidian/explore Tasks management in Obsidian.md": "LiCheck",
   "Efforts/Projects/Tasks Management in Obsidian": "LiCheckCheck",
   "Efforts/Projects/Obsidian Tinkering": "LiWrench",
-  "x/Notion database views in Obsidian Projects.md": "📹"
+  "x/Notion database views in Obsidian Projects.md": "📹",
+  "Calendar/Events": "🌄"
 }

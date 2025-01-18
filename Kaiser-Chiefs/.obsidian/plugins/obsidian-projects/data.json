@@ -414,7 +414,13 @@
                 "hide": true
               },
               "name": {
-                "width": 184
+                "width": 304
+              },
+              "related": {
+                "hide": true
+              },
+              "tags": {
+                "hide": true
               }
             },
             "orderFields": [
@@ -457,11 +463,13 @@
                 "weight": 0,
                 "records": [
                   "Efforts/Active/Persona/Persona.hr.md"
-                ]
+                ],
+                "collapse": true
               },
               "In Progress": {
                 "records": [
-                  "Efforts/Active/Persona/How Wordpress development works.md"
+                  "Efforts/Active/Persona/How Wordpress development works.md",
+                  "Efforts/Active/Persona/first local wordpress site.md"
                 ],
                 "weight": 1
               },
@@ -469,7 +477,8 @@
                 "weight": 2,
                 "records": [
                   "Efforts/Active/Persona/Persona.md"
-                ]
+                ],
+                "collapse": false
               }
             }
           },

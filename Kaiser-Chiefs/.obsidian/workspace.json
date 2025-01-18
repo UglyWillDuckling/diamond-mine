@@ -6,27 +6,8 @@
       {
         "id": "57179559b3f4d603",
         "type": "tabs",
+        "dimension": 53.67008681925809,
         "children": [
-          {
-            "id": "52997a42d74e36a7",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "task board.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    true
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "task board"
-            }
-          },
           {
             "id": "334e352cbe6ba364",
             "type": "leaf",
@@ -42,21 +23,42 @@
             }
           },
           {
-            "id": "a41cc69889e58ebb",
+            "id": "a838e9c13602415f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/10 Best WordPress Training Courses (Updated 2024).md",
+                "file": "Efforts/Active/Persona/first local wordpress site.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 Best WordPress Training Courses (Updated 2024)"
+              "title": "first local wordpress site"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "45528caf59e7aea8",
+        "type": "tabs",
+        "dimension": 46.32991318074191,
+        "children": [
+          {
+            "id": "10973b85e83c28ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Knowledge/Articles/Setting Up Your Local Development Environment for WordPress.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Setting Up Your Local Development Environment for WordPress"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.51103591918945
+    "width": 200
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -225,13 +227,30 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "334e352cbe6ba364",
+  "active": "10973b85e83c28ae",
   "lastOpenFiles": [
-    "Clippings/10 Best WordPress Training Courses (Updated 2024).md",
-    "Efforts/Active/Persona/from mods.md",
-    "Efforts/Active/Dev/Personal VPS/Docs/Techdot.biz domena.md",
+    "Efforts/Active/Persona/first local wordpress site.md",
+    "Atlas/Knowledge/Articles/Setting Up Your Local Development Environment for WordPress.md",
     "Efforts/Active/Persona/How Wordpress development works.md",
+    "Efforts/Active/Persona/Persona.hr.md",
+    "Efforts/Active/Persona/Persona.md",
+    "Clippings/Setting Up Your Local Development Environment for WordPress.md",
+    "tasks pic.canvas",
+    "+/web server trial setup.md",
+    "Calendar/Actions",
+    "Calendar/Events",
+    "x/Linear Calendar 2025 - White.png",
+    "Clippings/10 Best WordPress Training Courses.md",
+    "Clippings/Build a solid WordPress dev environment with Docker.md",
+    "Atlas/Knowledge/tools/pc/Wordpress/Wordpress Transient.md",
     "task board.md",
+    "Atlas/Knowledge/tools/pc/Wordpress/Wordpress.md",
+    "Atlas/Knowledge/tools/pc/Wordpress",
+    "Atlas/Knowledge/tools/pc/pc/pc.md",
+    "Atlas/Knowledge/tools/pc/pc",
+    "Atlas/Life/People/Anthony Tran.md",
+    "Efforts/Active/Persona/Docs/from mods.md",
+    "Efforts/Active/Dev/Personal VPS/Docs/Techdot.biz domena.md",
     "Efforts/tasks/configure tmux.md",
     "Efforts/Projects/Tasks Management in Obsidian/Tasks Management in Obsidian.md",
     "Clippings/How to Manage Tasks in Obsidian-The Complete Guide - Obsidian Rocks.md",
@@ -242,29 +261,12 @@
     "Atlas/Knowledge/Media/Getting Into Knives.md",
     "Atlas/Knowledge/World/Kompare.md",
     "notes/workflow za kreiranje taskova.md",
-    "Atlas/Knowledge/Mountain Goats.md",
-    "tasks pic.canvas",
-    "Efforts/Active/Dev/Personal VPS/Docs/my VPS.md",
-    "Atlas/Knowledge/tools/obsidian/plugins/Tasks plugin/Tasks plugin.md",
-    "Atlas/Knowledge/tools/obsidian/plugins/Tasks plugin/Tasks User Guide - Layout.md",
-    "Atlas/Knowledge/tools/obsidian/plugins/Tasks plugin/hide task count in Tasks.md",
     "Atlas/Knowledge/tools/obsidian/plugins/Tasks plugin",
-    "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md",
-    "Efforts/tasks/tasks.md",
-    "Efforts/Active/Persona/Persona.md",
-    "Efforts/Active/Persona/Persona.hr.md",
-    "Efforts/Projects/Persona/News.md",
-    "Efforts/Active/Dev/Personal VPS/Personal VPS.md",
     "Efforts/Projects/Persona",
     "Efforts/Projects/Obsidian Tinkering/canvas/experiment.canvas",
     "Media DB/books",
     "Media DB",
     "Efforts/Projects/Obsidian Tinkering/canvas",
-    "Efforts/Projects/Ipod Setup",
-    "x/Linear Calendar 2025 - White.png",
-    "Linear Calendar 2025 - White.png.zip",
-    "Library Project",
-    "Projects - Demo Project",
-    "Efforts/Projects/Obsidian Tinkering"
+    "Efforts/Projects/Ipod Setup"
   ]
 }

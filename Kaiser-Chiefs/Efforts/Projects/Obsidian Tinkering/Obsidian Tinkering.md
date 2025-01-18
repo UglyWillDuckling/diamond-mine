@@ -10,7 +10,7 @@ status:
 
 - [/] #task see how to use [[canvas]] for building dashboards ⏫
 	- [[How to use canvas]]
-- [/] #task checkout Calendar video 
+- [/] #task checkout Linear Calendar video
 	- [[The Most Useful Calendar ViewThat No One Told You About]]
 	- [[Calendar Video Notes]]
 - [ ] #task Explore other ways of syncing

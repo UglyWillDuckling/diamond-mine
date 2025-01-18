@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "58bc09b80bb8c2ce",
+        "id": "91e4cecfda4ace0c",
         "type": "tabs",
         "children": [
           {
-            "id": "90887dd3bdef5ee0",
+            "id": "3cf1c566683da2a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zen House Sarajevo.md",
+                "file": "2025-01-16.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zen House Sarajevo"
+              "title": "2025-01-16"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 219.50260543823242
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -215,35 +215,37 @@
       "obsidian-media-db-plugin:Add new Media DB entry": true
     }
   },
-  "active": "90887dd3bdef5ee0",
+  "active": "3cf1c566683da2a4",
   "lastOpenFiles": [
-    "days/2025/2025-01-01.md",
-    "days/2024/2024-11-20 1.md",
-    "days/2025",
-    "days/2025/2025-01-12.md",
-    "2025-01-13.md",
-    "Knowledge/Media/movies/The Substance.md",
-    "Knowledge/Media/movies/Totem film.md",
+    "2025-01-17.md",
+    "2025-01-16.md",
+    "narudzba 000009832.md",
+    "Kviz 2025-01-16 Pipa bar.md",
     "notes/You can easily switch to a different user using su.md",
-    "Zen House Sarajevo.md",
-    "Clippings/Airbnb smještaji za odmor, drvene kuće, kuće na plaži, jedinstveni smještaji i doživljaji.md",
-    "Paulinin tata je strojarski inženjer.md",
-    "Clippings/Dragan Primorac Resurrection 1.md",
-    "Clippings/Dragan Primorac Resurrection.md",
-    "Clippings/The Hitchhiker's Guide to the Galaxy.md",
-    "Clippings/Daleka obala.md",
-    "+/Don’t Miss Mars at Its Brightest on January 16, 2025!.md",
-    "Clippings/Marko Primorac.md",
-    "Clippings/Commonwealth summit in Samoa Why won’t the UK discuss slavery.md",
-    "Clippings/Remembering Matilda, the last survivor of the transatlantic slave trade.md",
-    "days/2025/2025-01-11.md",
-    "Brigita.md",
-    "Kristina.md",
-    "Clippings/Hurricane Helene.md",
-    "Clippings/Hurricane Helene - Wikipedia.md",
-    "Clippings/Dahomey Mino - Wikipedia.md",
-    "Clippings/Second Franco-Dahomean War.md",
-    "Clippings/Béhanzin.md",
+    "Bahrein.md",
+    "Clippings/H. R. Giger.md",
+    "Clippings/Alien (film).md",
+    "Osmi putnik(bend).md",
+    "Alien Osmi putnik.md",
+    "Clippings/Comedian (artwork).md",
+    "Gojira(bend).md",
+    "Rim tim tagi dim.md",
+    "Venecija.md",
+    "Zlatarevo zlato.md",
+    "August Šenoa.md",
+    "Ohmov zakon.md",
+    "Pipa bar.md",
+    "days/2025-01-15.md",
+    "days/2025-01-14.md",
+    "days/2025-01-13.md",
+    "Subjectivity (psychoanalysis).md",
+    "Clippings/Monarhije u Europi – Wikipedija 1.md",
+    "Clippings/Monarhije u Europi – Wikipedija.md",
+    "Victor Wembanyama.md",
+    "Baby Lasagna.md",
+    "Media DB/books",
+    "Media DB",
+    "days/2025",
     "Knowledge/People",
     "x/Pasted image 20241231121133.jpg",
     "x/SmartSelect_20241231-115105_Samsung Notes.jpg",
@@ -262,8 +264,6 @@
     "Life/Zdravlje",
     "Knowledge/Media/wiki",
     "Dev/OBSIDIAN",
-    "Life/Home 🏠",
-    "Dev/notes",
     "action.canvas",
     "tasks/archive/srediti troskovnik/actions.canvas",
     "Untitled 1.canvas",

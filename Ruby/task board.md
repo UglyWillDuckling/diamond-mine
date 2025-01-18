@@ -9,18 +9,19 @@ kanban-plugin: board
 - [ ] [[organizirati faks za novu godinu]]
 - [ ] add a quicka add to add a new task to this board 🔲
 - [ ] Kupiti jastuk
-- [ ] Pogledati monitor
 - [ ] Naručiti glukozni monitor
+- [ ] Vađenje krvi
 
 
 ## active
 
-- [ ] Poslati Senki račun
 - [ ] [[Obnova dopunsko osiguranja]]
+- [ ] Naručiti masažu
 
 
 ## done
 
+- [x] [[Naručiti punjenja za penkala]]
 
 
 ***
@@ -49,6 +50,8 @@ kanban-plugin: board
 - [x] [[HAK - obnoviti clanstvo]]
 - [x] [[Setup hosting]] 📡
 - [x] [[fix obsidian on PC]]
+- [x] Pogledati monitor
+- [x] Poslati Senki račun
 
 %% kanban:settings
 ```

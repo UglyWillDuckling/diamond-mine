@@ -13,4 +13,4 @@ su - vlado
 # vlado is the user
 ```
 
-- [ ] remind me in a week (@2025-01-11)
+- [x] remind me in a week (@2025-01-11)

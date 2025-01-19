@@ -5,4 +5,4 @@
 ---
 
 
-[[Efforts/Projects/Obsidian Tinkering/canvas/experiment.canvas|experiment]]
+[[experiment.canvas|experiment]]

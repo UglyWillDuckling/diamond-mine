@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiPersonStanding",
       "🌄",
       "📹",
       "LiWrench",
-      "LiCheckCheck",
-      "LiCheck"
+      "LiCheckCheck"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -47,9 +47,10 @@
   "Calendar/days": "LiCalendar",
   "Atlas": "🗺",
   "Calendar": "LiCalendarHeart",
-  "Efforts/Projects/Tasks Management in Obsidian/explore Tasks management in Obsidian.md": "LiCheck",
-  "Efforts/Projects/Tasks Management in Obsidian": "LiCheckCheck",
-  "Efforts/Projects/Obsidian Tinkering": "LiWrench",
   "x/Notion database views in Obsidian Projects.md": "📹",
-  "Calendar/Events": "🌄"
+  "Calendar/Events": "🌄",
+  "Efforts/Active/Persona/Docs/Dev/Wordpress/wp_users.md": "LiPersonStanding",
+  "Efforts/Active/Obsidian Tinkering": "LiWrench",
+  "Efforts/Active/Tasks Management in Obsidian": "LiCheckCheck",
+  "Efforts/Active/Tasks Management in Obsidian/explore Tasks management in Obsidian.md": "LiCheck"
 }

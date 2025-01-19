@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=PCSmxqFFA3Y
 ### code snippets
 
 You can use code snippets in [[canvas]]. Just copy and paste anything you have.
-[[Efforts/Projects/Obsidian Tinkering/canvas/experiment.canvas|experiment]]
+[[experiment.canvas|experiment]]
 ### plugins
 
 [[canvas-send-to-back]], [[simple-canvasearch]]
@@ -44,4 +44,4 @@ You can use code snippets in [[canvas]]. Just copy and paste anything you have.
 1. there are a few useful plugins for [[canvas]]
 2. using code snippets in canvas can be really useful
 3. You can use the canvas to build a custom Dashboard
-See [[Efforts/Projects/Obsidian Tinkering/canvas/experiment.canvas|experiment]]
+See [[experiment.canvas|experiment]]

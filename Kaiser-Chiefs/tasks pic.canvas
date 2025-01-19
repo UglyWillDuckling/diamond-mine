@@ -14,18 +14,6 @@
   ],
   "nodes": [
     {
-      "color": "3",
-      "height": 900,
-      "id": "a78fa77496a6e312",
-      "styleAttributes": {
-      },
-      "text": "### tasks short\n ```tasks\nnot done\nfilter by function 'TODO'.includes(task.status.type)\nshow tree\nshort mode\n```",
-      "type": "text",
-      "width": 520,
-      "x": -1140,
-      "y": -800
-    },
-    {
       "color": "5",
       "height": 640,
       "id": "ab4b9ec54c9e3cf8",
@@ -36,8 +24,20 @@
       "text": "### in progress\n```tasks\nnot done \nfilter by function 'IN_PROGRESS'.includes(task.status.type)\nshow tree\nhide task count\nshort mode\n```\n",
       "type": "text",
       "width": 580,
-      "x": -400,
+      "x": -440,
       "y": -620
+    },
+    {
+      "color": "3",
+      "height": 900,
+      "id": "a78fa77496a6e312",
+      "styleAttributes": {
+      },
+      "text": "### tasks short\n ```tasks\nnot done\nfilter by function 'TODO'.includes(task.status.type)\nshow tree\nshort mode\n```",
+      "type": "text",
+      "width": 600,
+      "x": -1160,
+      "y": -800
     }
   ]
 }

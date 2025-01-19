@@ -123,5 +123,13 @@
       ],
       "key": "E"
     }
+  ],
+  "backlink:toggle-backlinks-in-document": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
   ]
 }

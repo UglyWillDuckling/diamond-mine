@@ -21,7 +21,7 @@ Zamisljeno kao **odrediste** za sve informacije i znanje pronadeno i steceno gle
 ---
 ### notes
 - You can use code snippets in [[canvas]]. Just copy and paste anything you have.
-	[[Efforts/Projects/Obsidian Tinkering/canvas/experiment.canvas|experiment]]
+	[[experiment.canvas|experiment]]
 ### plugins
 
 [[canvas-send-to-back]], [[simple-canvasearch]]

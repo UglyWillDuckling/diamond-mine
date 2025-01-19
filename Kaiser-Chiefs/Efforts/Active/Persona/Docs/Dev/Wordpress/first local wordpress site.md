@@ -63,3 +63,22 @@ volumes:
  db_data:
 ```
 
+- ! **important notes**
+ uses `wordpress` image
+	- port 8080:80 
+	- [[mariaDB]] is used
+	- [[phpmyadmin]] is installed, port 8180
+	- uses volume: `db_data`
+	- local volume is used: `./wordpress:/var/www/html`
+
+**code path**: `/home/vlado/dev/projects/local-wordpress`
+
+*db details*
+- MYSQL_USER=root
+- MYSQL_PASSWORD=password
+- MYSQL_DATABASE=wordpress
+
+**wordpress site**
+pass: $DjBV7z4rVEB(z2I$0
+
+[[wordpress - db tables default]]

@@ -45,7 +45,7 @@ new: [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 
 - [x] follow [[Install and configure Postfix]]
 - [x] read [[How To Set Up a Postfix E-Mail Server with Dovecot]]
-- [/] #task write [[how to setup email on unix]]
+- [/] #task write [[how to setup email on unix]] 🆔 9fUocW
 ### add mailboxes
 - [x] add user vlado
 - [x] test mail

@@ -10,6 +10,15 @@
       },
       "toNode": "ab4b9ec54c9e3cf8",
       "toSide": "left"
+    },
+    {
+      "fromNode": "d2abdab79826a06e",
+      "fromSide": "bottom",
+      "id": "4058543c57cea1de",
+      "styleAttributes": {
+      },
+      "toNode": "3dc3b44e06e4ddc7",
+      "toSide": "left"
     }
   ],
   "nodes": [
@@ -38,6 +47,30 @@
       "width": 600,
       "x": -1160,
       "y": -800
+    },
+    {
+      "autoResizeHeight": true,
+      "file": "second note.md",
+      "height": 100,
+      "id": "3dc3b44e06e4ddc7",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 260,
+      "x": -700,
+      "y": 460
+    },
+    {
+      "autoResizeHeight": true,
+      "file": "new note.md",
+      "height": 100,
+      "id": "d2abdab79826a06e",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 260,
+      "x": -1040,
+      "y": 280
     }
   ]
 }

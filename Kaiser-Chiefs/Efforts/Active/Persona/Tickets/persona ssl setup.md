@@ -40,7 +40,7 @@ docker compose run --rm certbot certonly --webroot --webroot-path /var/www/certb
 - [x] #task use new ssl certs for mail ✅ 2025-01-06
 	- [x] test mail connection
 - [x] #task update file permissions
-- [>] #task renew the certificate
+- [>] #task renew the certificate 🆔 Htr8QL
 #### mail connection test
 1. Unable to access, wrong permission on the /home directories.
 	1. $ fixed by changing permissions

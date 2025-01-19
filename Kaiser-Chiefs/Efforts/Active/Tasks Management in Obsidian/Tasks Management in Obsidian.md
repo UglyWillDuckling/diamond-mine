@@ -5,6 +5,6 @@ priority: 7
 ---
 #project #project/active 
 
-- [/] #task [[explore Tasks management in Obsidian]]
+- [/] #task [[explore Tasks management in Obsidian]] 🆔 S5WZKZ
 	- [x] [[How to Manage Tasks in Obsidian-The Complete Guide - Obsidian Rocks]]
 

@@ -4,8 +4,8 @@ related:
 ---
 #issue #active 
 
-- [ ] #task fix default file picker issue 🔼 📅 2025-01-20
-	- [ ] **remove** the used file picker
+- [x] #task fix default file picker issue 🔼 📅 2025-01-20 🆔 YXxNOX ✅ 2025-01-20
+	- [x] **remove** the used file picker
 
 For whatever reason I am unable to set the file picker for apps.
 

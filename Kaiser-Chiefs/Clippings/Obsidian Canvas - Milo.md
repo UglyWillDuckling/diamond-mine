@@ -45,3 +45,18 @@ it works for everything. You can use anything.
 `Ctrl+drag` **duplicate**
 
 %% after the note is done, move the knowledge to [[How to use canvas]] %%
+
+## lingering questions
+- ? 
+
+- [ ] ? is it [[markdown]]
+- @ no
+- ? is it **futureproof**
+	- no not yet
+- [ ] ? How big is tche canvas?
+- @ prettye big
+- [ ] ? are there backlings between Cards?
+- @ no, just between notes 
+- [ ] ? links between notes when linked with `edges`
+- @ might come in the future
+- [ ] ? What happens to cards that are 

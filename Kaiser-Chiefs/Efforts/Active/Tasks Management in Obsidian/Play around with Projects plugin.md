@@ -4,9 +4,9 @@ related:
 tags:
   - task
 ---
-- [/] #task play around with [[Projects Plugin]] 🔼
-	- [/] #task watch video
-	- [ ] #task read articles
+- [/] #task play around with [[Projects Plugin]] 🔼 🆔 DJNzeK
+	- [/] #task watch video 🆔 5AUghk
+	- [ ] #task read articles 🆔 bZ4fR8
 	- [ ] ..
 
 - 📹 [[Notion database views in Obsidian Projects]]

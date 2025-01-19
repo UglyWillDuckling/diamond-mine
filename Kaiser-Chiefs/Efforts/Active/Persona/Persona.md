@@ -15,7 +15,7 @@ show tree
 	- use [[Mirna Blagovic]]'s mac [[Mirna - Mac - small]]
 - [x] #task migrate DNS [[#^migrate-persona]] ✅ 2025-01-07
 - [x] #task Setup [[Persona]] [[VPS]] 🔼 [[#^setup-person]] ✅ 2025-01-07
-- [>] #task investigate [[How Domains work]]
+- [>] #task investigate [[How Domains work]] 🆔 XJ8naw
 
 ---
 

@@ -1,9 +1,9 @@
 #task 
 
-- [ ] #task explore tasks in [[Obsidian]]
+- [ ] #task explore tasks in [[Obsidian]] 🆔 tXya1Y
 	- [x] read found articles [[#articles on tasks]]
 	- [ ] [[How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager]]
-- [ ] #task play around with [[Projects Plugin]]
+- [ ] #task play around with [[Projects Plugin]] 🆔 10VsCw
 	- [[Notion database views in Obsidian Projects]]
 
 ## articles on tasks

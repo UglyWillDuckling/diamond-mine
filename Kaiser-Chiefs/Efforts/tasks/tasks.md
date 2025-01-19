@@ -18,7 +18,7 @@ priority is high
 path includes Faks
 ```
 
-- [ ] #task isprobati Notion import [[Import from Notion - Obsidian Help]]
+- [ ] #task isprobati Notion import [[Import from Notion - Obsidian Help]] 🆔 tsGq47
 
 ## task with aa
 ```tasks

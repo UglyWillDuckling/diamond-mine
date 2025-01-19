@@ -448,10 +448,28 @@
                 "id": "36437f51c5c9fc37",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "Clippings/Obsidian Canvas - Milo.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "Obsidian Canvas - Milo"
+                }
+              },
+              {
+                "id": "1e0827809c728e18",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Efforts/Active/Obsidian Tinkering/How to use canvas.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "How to use canvas"
                 }
               }
             ]
@@ -505,13 +523,92 @@
                   "icon": "lucide-bookmark",
                   "title": "Bookmarks"
                 }
+              },
+              {
+                "id": "f77b3a16c8571faa",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Clippings/Obsidian Canvas - Milo.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.641359738489074,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of Obsidian Canvas - Milo"
+                }
+              }
+            ]
+          },
+          {
+            "id": "029d22d993b734c3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8c20eb1f1c1c771a",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Clippings/Obsidian Canvas - Milo.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.641359738489074,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of Obsidian Canvas - Milo"
+                }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 200,
-        "collapsed": true
+        "width": 369.5110321044922
       },
       "right": {
         "id": "6b26b603c051936f",
@@ -626,7 +723,7 @@
         }
       },
       "active": "36437f51c5c9fc37",
-      "mtime": "2025-01-19T23:03:13+01:00",
+      "mtime": "2025-01-20T00:32:51+01:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
           "Efforts",
@@ -854,5 +951,5 @@
       }
     }
   },
-  "active": "empty"
+  "active": "default"
 }

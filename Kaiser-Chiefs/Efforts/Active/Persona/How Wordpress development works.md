@@ -6,8 +6,8 @@ related:
   - "[[Wordpress]]"
 status: In Progress
 ---
-- [/] #task 🔍explore how [[Wordpress]] development works
-	- [/] #task set-up a basic wordpress website 🔼 [[first local wordpress site]]
+- [/] #task 🔍explore how [[Wordpress]] development works 🆔 oZPnUd
+	- [/] #task set-up a basic wordpress website 🔼 [[first local wordpress site]] 🆔 4wQhGn
 		- plugins, theme
 ---
 [[from mods]]

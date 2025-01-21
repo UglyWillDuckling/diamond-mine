@@ -11,7 +11,9 @@ tags:
   - reading
 related:
   - "[[day template]]"
+  - "[[Dann Bergs Daily Note]]"
 ---
+
 ![Dann’s Daily Note template for Obsidian](https://dannb.org/images/blog/2022/10/daily-note-template.png)
 
 ❗ *Feel free to skip the fluff and navigate directly to the **[raw Daily Note template](https://gist.github.com/dannberg/48ea2ba3fc0abdf3f219c6ad8bc78eb6)**.*
@@ -71,7 +73,7 @@ I write these answers first thing in the morning, right after I create the day�
 
 ![Dann’s Daily Note ephemeral and record of work](https://dannb.org/images/blog/2022/04/daily-note-ephemeral-record-of-work.png)
 
-Like the Daily Questions, the Notes section has an empty bullet point ready for me to write. Writing in bullet points makes the task much less daunting. You’re inviting yourself to make a quick note. You should always make it as easy as possible to start.
+Like the Daily Questions, the Notes section has an empty bullet point ready for me to write. Writing in bullet points makes the task much less daunting. You’re inviting yourself to make a quick note. **You should always make it as easy as possible to start**.
 
 Often, I’ll take notes from meetings here, and then spin those notes into their own file using the [Note Refactor plugin](https://github.com/lynchjames/note-refactor-obsidian) during end-of-day processing. All that will be left is a link to the new file.
 
@@ -88,7 +90,7 @@ To use this, place the code `<% tp.file.cursor() %>` wherever you want your curs
 - Automatic jump to cursor
 - Trigger Templater on new file creation
 
-### Record of work
+### **Record of work**
 
 Lastly, the template ends with a few queries powered by the Dataview plugin. These output two unordered lists:
 
@@ -101,11 +103,9 @@ I personally find this information less useful day-of, so just having codeblocks
 
 ## Where to store your daily notes
 
-![Dann’s Daily Note directory structure](https://dannb.org/images/blog/2022/04/daily-note-directory-structure.png)
-
 My overall Obsidian organizational structure is based largely on Nick Milo’s [Linking Your Thinking](https://www.linkingyourthinking.com/). As such, I have a `Timestamps` folder, and all my daily notes live there.
 
-Originally, all my daily notes were in that single directory, but I’ve since moved to a Year > Month > Day system that makes navigating old notes significantly quicker. This organizational structure is super easy to set up for new notes. In the Daily Note settings, set Date Format to `YYYY/MM-MMMM/YYYY-MM-DD-dddd`. Each `/` denotes a new directory, so new daily note files will be created within existing Year and Month folders, or create them if they don’t yet exist.
+Originally, all my daily notes were in that single directory, but I’ve since moved to a `Year > Month > Day` system that makes navigating old notes significantly quicker. This organizational structure is super easy to set up for new notes. In the Daily Note settings, set Date Format to `YYYY/MM-MMMM/YYYY-MM-DD-dddd`. Each `/` denotes a new directory, so new daily note files will be created within existing Year and Month folders, or create them if they don’t yet exist.
 
 ![Dann’s Daily Note settings](https://dannb.org/images/blog/2022/04/daily-note-settings.png)
 
@@ -124,17 +124,11 @@ Additionally, we need to make sure that the Yesterday and Tomorrow links work bo
 In Obsidian Settings, go to Templater settings, and scroll down to Folder Templates. Toggle the “Enable Folder Templates” switch on. For folder, select `Timestamps/` (or whereever you keep your Daily Notes) and for Template, choose our new Daily Note template[^3].
 
 **Dive deeper in Obsidian**
-
-Did you find this post useful? Check out my other Obsidian posts:
-
 - [My Obsidian Meeting Note Template](https://dannb.org/blog/2023/obsidian-meeting-note-template/)
 - [My Obsidian People Note Template](https://dannb.org/blog/2022/obsidian-people-note-template/)
 - [My Obsidian Physical Object System](https://dannb.org/blog/2024/obsidian-physical-object-template/)
-- [Recalling Books You’ve Read, Made Easy](https://dannb.org/blog/2022/recalling-books-youve-read-made-easy/)
 
 ![](https://www.youtube.com/watch?v=v84uSIqqVPQ)
-
-**Prefer video content?** Check out the above video tutorial version of this post. It shows you exactly how to set up your own Daily Note template system.
 
 ---
 

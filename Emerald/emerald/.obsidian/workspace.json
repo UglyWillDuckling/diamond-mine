@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7da41648a6387268",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledge/daily_notes/2025/January/2025-01-20.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-01-20"
-            }
-          },
-          {
             "id": "a589478b53619704",
             "type": "leaf",
             "state": {
@@ -38,22 +23,22 @@
             }
           },
           {
-            "id": "fc44c5e9df019c0f",
+            "id": "e3967fb9205600cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/artifacts/test  cronjob.md",
+                "file": "work/tickets/FEAT/QSL listing feature/AWS client implementation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test  cronjob"
+              "title": "AWS client implementation"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,6 +50,7 @@
       {
         "id": "396d97731e40095f",
         "type": "tabs",
+        "dimension": 56.4179104477612,
         "children": [
           {
             "id": "688b3d615137a273",
@@ -94,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"author\"]",
+                "query": "tag:#artifact",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,24 +90,34 @@
               "icon": "lucide-search",
               "title": "Search"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "57e13f42a93358af",
+        "type": "tabs",
+        "dimension": 43.582089552238806,
+        "children": [
           {
-            "id": "87483564ef924af7",
+            "id": "b0b86a79e9707054",
             "type": "leaf",
             "state": {
-              "type": "surfing-tab-tree",
-              "state": {},
-              "icon": "chrome",
-              "title": "Surfing Tab Tree"
+              "type": "markdown",
+              "state": {
+                "file": "work/tickets/FEAT/QSL listing feature/AWS-Athena backyard implementation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AWS-Athena backyard implementation"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 259,
-    "collapsed": true
+    "width": 445
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -219,16 +215,16 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
-      "workspaces:Manage workspace layouts": false,
+      "graph:Open graph view": true,
+      "workspaces:Manage workspace layouts": true,
       "wikipedia-search:Open Article": false,
       "templater-obsidian:Templater": false,
-      "surfing:surfing-bookmark-manager": false,
-      "quickadd:QuickAdd": false,
+      "surfing:surfing-bookmark-manager": true,
+      "quickadd:QuickAdd": true,
       "obsidian-day-planner:Open Timeline": false,
       "obsidian-day-planner:Open Multi-Day View": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "obsidian42-brat:BRAT": false,
+      "obsidian-book-search-plugin:Create new book note": true,
+      "obsidian42-brat:BRAT": true,
       "cmdr:Graph view: Open local graph": false,
       "cmdr:Workspaces: Manage workspace layouts": false,
       "audio-recorder:Start/stop recording": false,
@@ -244,53 +240,53 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "fc44c5e9df019c0f",
+  "active": "e3967fb9205600cc",
   "lastOpenFiles": [
+    "work/tickets/FEAT/QSL listing feature/AWS-Athena backyard implementation.md",
+    "work/tickets/FEAT/QSL listing feature/AWS client implementation.md",
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-    "Clippings/Learn How to Use Linux Find -printf from 50 Examples.md",
-    "Clippings/Find Command.md",
-    "Clippings/Explanation of % directives in find -printf.md",
-    "work/docs/backyard/backyard tasks cron definition.md",
-    "work/tickets/FEAT/QSL listing feature/artifacts/crontab board.canvas",
-    "work/tickets/FEAT/QSL listing feature/artifacts/test  cronjob.md",
-    "work/tickets/FEAT/QSL listing feature/artifacts",
-    "work/tickets/FEAT/QSL listing feature/archive/research how to add a cronjob.md",
-    "Knowledge/daily_notes/2025/January/2025-01-20.md",
-    "work/tickets/FEAT/QSL listing feature/test cronjob.md",
-    "Knowledge/tools/dev/readlink.md",
-    "Knowledge/tools/dev/symlink.md",
-    "Knowledge/tools/PM/Intranet.md",
-    "Knowledge/tools/PM/Odoo.md",
-    "Clippings/How to export variables from a file.md",
-    "dash canvas.canvas",
-    "Dashboard.md",
-    "Kanban.md",
-    "Knowledge/concepts/computer science/Hard links.md",
-    "Clippings/dooing.md",
-    "Knowledge/daily_notes/2025/January/Workspace Plugin.md",
-    "Extras/People/My Obsidian People Note Template Dann.md",
+    "work/calls/DAILY/2025-01-21 daily.md",
+    "work/tickets/FEAT/QSL listing feature/artifacts/cronjob test.md",
+    "work/docs/backyard/ma cron definition.md",
+    "Spaces/Physical Objects/2025-01-21 TKTK.md",
+    "MOC/🛍️ Physical Objects MOC.md",
+    "Efforts/Active/Obsidian Tinkering/docs/physical MOC template.md",
+    "Efforts/Active/Obsidian Tinkering/docs/physical object notes.md",
+    "work/work.md",
+    "Efforts/Active/Obsidian Tinkering/Physical object system.md",
+    "Clippings/Obsidian Physical Object System.md",
+    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+    "Knowledge/templates/physical object template.md",
     "Clippings/In what ways can we form useful relationships between notes.md",
-    "work/tickets/FEAT/QSL listing feature/CSV backyard export.md",
+    "Efforts/Active/Obsidian Tinkering/docs/physical moc template from Dan.md",
+    "Efforts/Active/Obsidian Tinkering/docs/physical object template from Dan.md",
+    "dash canvas.canvas",
+    "Knowledge/people/Dann Berg.md",
+    "+/action is crucial, we need to define the next steps(actions) with as much detail as possible.md",
+    "Efforts/Active/Obsidian Tinkering/docs",
+    "Spaces/Physical Objects",
+    "MOC",
+    "Spaces",
     "People MOC.md",
-    "work/people and teams/LUNA/Paulo.md",
-    "Knowledge/templates/day template.md",
-    "tasks/dev/Obsidian/configure daily note.md",
+    "Clippings/My Obsidian Daily Note Template.md",
+    "Knowledge/daily_notes/2025/January/2025-01-20.md",
+    "Efforts/Active/Obsidian Tinkering/archive/configure daily note.md",
+    "Efforts/Active/Study Obsidian/Daily Note.md",
+    "Efforts/Active/Obsidian Tinkering/archive",
+    "Efforts/Active/Study Obsidian/Untitled.md",
+    "Efforts/Active/Obsidian Tinkering",
+    "Efforts/Active",
+    "work/tickets/FEAT/QSL listing feature/artifacts/crontab board.canvas",
+    "work/tickets/FEAT/QSL listing feature/artifacts",
     "Extras/People",
     "Extras",
-    "work/tickets/FEAT/QSL listing feature/docs/requirements",
-    "work/tickets/FEAT/QSL listing feature/docs/features",
     "work/tickets/FEAT/QSL listing feature/docs/code/Athena impl..canvas",
     "work/tickets/FEAT/QSL listing feature/docs/code/aws test script solution.canvas",
-    "work/tickets/FEAT/QSL listing feature/docs/code",
-    "work/tickets/FEAT/QSL listing feature/subs/debug aws issues on tasks",
-    "work/calls/pair programming/today",
-    "work/tickets/FEAT/QSL listing feature/archive",
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.canvas",
     "work/docs/AWS/GCP Connection/auth process.canvas",
     "Action.canvas",
     "x/option-1.png",
     "x/option2.png",
-    "work/docs/AWS/GCP Connection",
     "work/docs/CRM/CRM.canvas",
     "x/Architecture-of-email-system-13.png",
     "work/people and teams/LUNA/Screenshot_20241107_140216.png",

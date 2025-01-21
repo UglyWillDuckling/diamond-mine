@@ -1,31 +1,28 @@
 {
-  "edges": [
-  ],
-  "nodes": [
-    {
-      "autoResizeHeight": false,
-      "color": "5",
-      "file": "work/tickets/FEAT/QSL listing feature/artifacts/test  cronjob.md",
-      "height": 740,
-      "id": "607b28ab1aedfe5e",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 1040,
-      "x": -760,
-      "y": -720
-    },
-    {
-      "color": "4",
-      "height": 660,
-      "id": "839f56df1ad59543",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://crontab.guru/#*/5_9-20_*_*_MON-FRI",
-      "width": 560,
-      "x": -1380,
-      "y": -820
-    }
-  ]
+	"edges":[],
+	"nodes":[
+		{
+			"autoResizeHeight":false,
+			"color":"5",
+			"file":"work/tickets/FEAT/QSL listing feature/artifacts/cronjob test.md",
+			"height":740,
+			"id":"607b28ab1aedfe5e",
+			"styleAttributes":{},
+			"type":"file",
+			"width":1040,
+			"x":-760,
+			"y":-720
+		},
+		{
+			"color":"4",
+			"height":660,
+			"id":"839f56df1ad59543",
+			"styleAttributes":{},
+			"type":"link",
+			"url":"https://crontab.guru/#*/5_9-20_*_*_MON-FRI",
+			"width":560,
+			"x":-1380,
+			"y":-820
+		}
+	]
 }

@@ -33,4 +33,4 @@
 		- the different components can all work with the same data
 			- this can also present challenges and might necessitate a [[Mediator]] to work as a coordinator object between the components, see also [[MVC]]
 	- It is very difficult to make sure a portion of the UI get's removed when the component is removed
-		- this is done much better using a [[Frontend Framework]] such as [[Education/React/react]]
+		- this is done much better using a [[Frontend Framework]] such as [[Knowledge/Education/React/react]]

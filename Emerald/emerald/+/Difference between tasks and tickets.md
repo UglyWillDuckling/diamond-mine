@@ -4,7 +4,7 @@ related:
 ---
 #thought #active #note 
 
-- [ ] remind me (@[[2025-01-21]] 10:30)
+- [ ] remind me (@[[2025-01-28]])
 
 although not quite defined we may view as the difference between something that is [[ephemeral]], the task, and something more permanent, the [[ticket]].
 Very often, tasks can be considered forgetabble or even deletable soon after they are completed.

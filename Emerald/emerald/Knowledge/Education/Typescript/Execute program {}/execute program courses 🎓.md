@@ -3,7 +3,7 @@
 
 # Courses
 
-- [[EveryDay Typescript]] - the most common everyday uses of [[typescript]]
+- [[Everyday Typescript]] - the most common everyday uses of [[typescript]]
 	* [[Optional Chaining]] 
 	* [[Education/Typescript/Execute program {}/Everyday Typescript/quiz]]
 
@@ -11,11 +11,11 @@
 # By Day
 
 ### [[2024-07-25]]
-**review** [[EveryDay Typescript]]
+**review** [[Everyday Typescript]]
 
 ### [[2024-07-30]]
 
-**review** [[EveryDay Typescript]]
+**review** [[Everyday Typescript]]
 
 - What follows next is a structured outline of courses and specific topics you're planning to cover, including a review of "EveryDay Typescript" on July 25th and 30th. This shows a clear plan for learning and reviewing the material.
 
@@ -215,7 +215,7 @@ fullAmir;
 
 #### Lessons 📖
 
-[[Indexing Into Object Types]] - typescript allows you to access Object Types and index them directly...
+[[Knowledge/Education/Typescript/Execute program {}/Everyday Typescript/Indexing Into Object Types]] - typescript allows you to access Object Types and index them directly...
 
 
 ### [[2024-08-13]]

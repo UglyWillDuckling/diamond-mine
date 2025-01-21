@@ -8,5 +8,6 @@
   "showRibbon": true,
   "promptDelete": false,
   "readableLineLength": true,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "focusNewTab": false
 }

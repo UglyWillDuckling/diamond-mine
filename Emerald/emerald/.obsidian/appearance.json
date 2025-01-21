@@ -14,5 +14,6 @@
     "vim",
     "dataview",
     "tasks"
-  ]
+  ],
+  "accentColor": "#ff7b00"
 }

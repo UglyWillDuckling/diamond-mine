@@ -4,6 +4,10 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
+    ":small_blue_diamond:",
+    ":diamond_shape_with_a_dot_inside:",
+    ":studio_microphone:",
+    ":telephone:",
     ":email:",
     ":heavy_check_mark:",
     ":test_tube:",
@@ -25,7 +29,6 @@
     ":thumbsup:",
     ":writing_hand:",
     ":telephone_receiver:",
-    ":telephone:",
     ":phone:",
     ":card_file_box:",
     ":spiral_notepad:",
@@ -200,9 +203,6 @@
     ":love_letter:",
     ":rainbow:",
     ":mag:",
-    ":pancakes:",
-    ":toothbrush:",
-    ":tooth:",
-    ":video_camera:"
+    ":pancakes:"
   ]
 }

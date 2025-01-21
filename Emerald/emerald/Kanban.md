@@ -33,7 +33,7 @@ color: var(--mk-color-orange)
 ## next ⏭
 
 - [ ] [[remove scroll-forward mapping in nvim]]
-- [ ] [[Education/React/react|react]] study 🎒 #react
+- [ ] [[Knowledge/Education/React/react|react]] study 🎒 #react
 - [ ] start [[Node]] education 🏫 #node
 - [ ] study [[git butler]] #task 🆔 KjsJyX
 - [ ] take a look at [[figma for CRM]] #task 🆔 LnfHKb
@@ -68,7 +68,7 @@ color: var(--mk-color-orange)
 - [x] finish [[spike - qsl project]] @{2024-07-30}
 - [x] [[wipe screen]]
 - [x] typescript - [[execute program courses 🎓]]
-- [x] start with [[Education/React/react]]
+- [x] start with [[Knowledge/Education/React/react]]
 - [x] spike - my tile cache
 - [x] [[switch over to Firefox]]
 - [x] [[Gather information on the transition]]

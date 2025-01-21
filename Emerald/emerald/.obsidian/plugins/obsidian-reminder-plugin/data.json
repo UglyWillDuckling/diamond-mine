@@ -11,7 +11,7 @@
     "work/calls/1 on 1/with Paulo today.md": [
       {
         "title": "remind",
-        "time": "2025-01-21 12:30",
+        "time": "2025-01-22",
         "rowNumber": 55
       }
     ],
@@ -32,15 +32,8 @@
     "+/Difference between tasks and tickets.md": [
       {
         "title": "remind me",
-        "time": "2025-01-21 10:30",
+        "time": "2025-01-28",
         "rowNumber": 6
-      }
-    ],
-    "dev/general/you can list all yanks using <leader-p>.md": [
-      {
-        "title": "remind",
-        "time": "2025-01-24",
-        "rowNumber": 7
       }
     ],
     "Clippings/How to export variables from a file.md": [
@@ -55,6 +48,27 @@
         "title": "remind me",
         "time": "2025-01-23",
         "rowNumber": 138
+      }
+    ],
+    "Efforts/dev/general/you can list all yanks using <leader-p>.md": [
+      {
+        "title": "remind",
+        "time": "2025-01-24",
+        "rowNumber": 7
+      }
+    ],
+    "+/action is crucial, we need to define the next steps(actions) with as much detail as possible.md": [
+      {
+        "title": "remind me",
+        "time": "2025-01-24",
+        "rowNumber": 14
+      }
+    ],
+    "Clippings/Obsidian Physical Object System.md": [
+      {
+        "title": "come back to this article",
+        "time": "2025-01-31",
+        "rowNumber": 148
       }
     ]
   },

@@ -12,5 +12,3 @@ You need to put the files into [[directory]]ies that [[Slack]] has access to, na
 
 **issue itself**
  ![[Unable to upload files from home directory · Issue 46 · flathubcom.slack.Slack]]
-
-fsdfsdf

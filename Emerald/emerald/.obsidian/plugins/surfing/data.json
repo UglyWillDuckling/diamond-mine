@@ -48,21 +48,10 @@
   },
   "treeData": [
     {
-      "id": "61cbd9580fd21cd4",
+      "id": "1776193a7d685be2",
       "parent": 0,
       "droppable": true,
-      "text": "bash - How to export variables from a file? - Unix & Linux Stack Exchange",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "f23bded7e3b1d8bf",
-      "parent": 0,
-      "droppable": true,
-      "text": "bash - How to export variables from a file? - Unix & Linux Stack Exchange",
+      "text": "Obsidian template for Physical Objects. Full guide coming soon. Find other Obsidian guildes at dannb.org · GitHub",
       "data": {
         "fileType": "site",
         "fileSize": "",

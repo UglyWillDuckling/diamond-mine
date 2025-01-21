@@ -27,7 +27,7 @@ Discuss how to consume the QSL listings data
 - ! [[Marc Jonot]] - you can put rules on the data
 	- which fields or required
 	- even validate the data: no-null, min-max #validateA
-- [[Marc Jonot]] - [[pair programming]] is possible
+- [[Marc Jonot]] - [[Knowledge/concepts/pair programming]] is possible
 - code [examples](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_switch-role-api.html)
 
 ## discussion

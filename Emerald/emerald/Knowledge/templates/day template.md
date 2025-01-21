@@ -61,7 +61,7 @@ List FROM "" WHERE file.mday = date("<%tp.date.now("YYYY-MM-DD")%>") SORT file.m
 - [ ] **education 🎒**
 - [ ] rest ⛅ 
 
-### 🤙
+### 🎙
 ```dataview
 TABLE WITHOUT ID
 file.link as call, file.day - date(today) as when, regexreplace(file.folder, "^.*\/", "") AS Area

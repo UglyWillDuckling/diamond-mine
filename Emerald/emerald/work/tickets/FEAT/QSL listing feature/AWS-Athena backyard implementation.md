@@ -13,5 +13,9 @@ tags:
 - [/] #task implement **AWS source** ⏫ 🆔 QA0LhI
 	- [x] #task implement Athena - [[Athena impl..canvas|Athena impl.]]
 		- [[alternatives for Athena impl.]]
-	- [ ] #task implement the client `ready to start` 🆔 LNgZU9
-	
+	- [/] #task [[AWS client implementation]] 🆔 LNgZU9 ⏫ 📅 2025-01-21
+
+### active
+
+![[AWS client implementation]]
+

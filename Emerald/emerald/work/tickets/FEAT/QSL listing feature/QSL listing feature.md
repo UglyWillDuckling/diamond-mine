@@ -51,11 +51,11 @@ related:
 - [x] #task write [[test script for AWS connection on backyard]] to verify [[AWS]] connection ⏫
 
 ---
-## ==current==
+## ==active==
 
 [[AWS-Athena backyard implementation]]
 
 - [ ] #task cleanup tests 🆔 QdOsoU
 - [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8n
-- [x] #task create a [[test  cronjob]] 🆔 y7tDlU ⏫ 📅 2025-01-20 ✅ 2025-01-21
-
+- [x] #task [[cronjob test]] 🆔 y7tDlU ⏫ 📅 2025-01-20 ✅ 2025-01-21
+- [ ] #task apply the `python` fix to **prod** on [[ma-infra]] ⏫ 📅 2025-01-22

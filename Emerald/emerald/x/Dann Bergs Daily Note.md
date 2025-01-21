@@ -6,7 +6,6 @@ published:
 created: 2025-01-20
 description: Advanced formatting syntax - Obsidian Help
 tags:
-  - clippings
   - code
   - github
   - gist

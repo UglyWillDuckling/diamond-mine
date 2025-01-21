@@ -108,7 +108,7 @@ Using just a single note, you can identify and build relationships between notes
 
 ![](https://miro.medium.com/v2/resize:fit:700/1*-zaTKc2p6Bv_lGR7DCwHmQ.png)
 
-An MOC is just a note — a very special type of note. It uses proximity effectively and acts like a tag and a non-exclusive folder at the same time.
+An [[MOC]] is just a note — a very special type of note. It uses proximity effectively and acts like a tag and a non-exclusive folder at the same time.
 
 - **Tag-lik**e: It groups the links of associated notes in a non-exclusive way. (The notes themselves live freely elsewhere.)
 - **Folder-like**: It assembles notes in a tightly-packed grouping.

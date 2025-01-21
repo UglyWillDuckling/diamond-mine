@@ -176,8 +176,774 @@
         }
       },
       "active": "16dc5ce4e615a7cf",
-      "mtime": "2024-10-09T17:49:43+02:00"
+      "mtime": "2024-10-09T17:49:43+02:00",
+      "workspaces-plus:settings-v1": {}
+    },
+    "daily note template setup": {
+      "main": {
+        "id": "896fb77528c50fee",
+        "type": "split",
+        "children": [
+          {
+            "id": "8f2ec7bd9b5e7984",
+            "type": "tabs",
+            "dimension": 57.268722466960355,
+            "children": [
+              {
+                "id": "d46e464a2255657c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "tasks/dev/Obsidian/configure daily note.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "configure daily note"
+                }
+              },
+              {
+                "id": "3b7a16bd54f60c22",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Knowledge/templates/day template.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "day template"
+                }
+              },
+              {
+                "id": "0910a4a47bf1a0bf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Clippings/My Obsidian Daily Note Template.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "My Obsidian Daily Note Template"
+                }
+              }
+            ]
+          },
+          {
+            "id": "8b31d6fa8671a977",
+            "type": "tabs",
+            "dimension": 42.731277533039645,
+            "children": [
+              {
+                "id": "16dc5ce4e615a7cf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Clippings/In what ways can we form useful relationships between notes.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "In what ways can we form useful relationships between notes"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "abf2911f56f916d8",
+        "type": "split",
+        "children": [
+          {
+            "id": "396d97731e40095f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "688b3d615137a273",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "2fd0f24bea1de5b8",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "3917ba887ee80a77",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 336.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "0bce692d28de0848",
+        "type": "split",
+        "children": [
+          {
+            "id": "65b8ffe11667d608",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bae038ccea34ead9",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "4c75dd1dc94107ca",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "tasks/dev/Obsidian/configure daily note.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for configure daily note"
+                }
+              },
+              {
+                "id": "a677e5cf3e3fb9c3",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "tasks/dev/Obsidian/configure daily note.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from configure daily note"
+                }
+              },
+              {
+                "id": "c61722d2f0288e0a",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "tasks/dev/Obsidian/configure daily note.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of configure daily note"
+                }
+              },
+              {
+                "id": "66215144ab6ceed1",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              },
+              {
+                "id": "4a7e351c6d81ef9d",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {},
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 537.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "wikipedia-search:Open Article": false,
+          "templater-obsidian:Templater": false,
+          "surfing:surfing-bookmark-manager": false,
+          "quickadd:QuickAdd": false,
+          "obsidian-day-planner:Open Timeline": false,
+          "obsidian-day-planner:Open Multi-Day View": false,
+          "obsidian-book-search-plugin:Create new book note": false,
+          "obsidian42-brat:BRAT": false,
+          "cmdr:Graph view: Open local graph": false,
+          "cmdr:Workspaces: Manage workspace layouts": false,
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-kanban:Create new board": false,
+          "mermaid-tools:Open Mermaid Toolbar": false,
+          "zk-prefixer:Create new unique note": false,
+          "callout-manager:Insert Callout": false
+        }
+      },
+      "active": "d46e464a2255657c",
+      "mtime": "2025-01-20T10:48:29+01:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "work",
+          "work/docs",
+          "work/tickets",
+          "work/tickets/FEAT"
+        ]
+      }
+    },
+    "People MOC setup": {
+      "main": {
+        "id": "896fb77528c50fee",
+        "type": "split",
+        "children": [
+          {
+            "id": "8f2ec7bd9b5e7984",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0910a4a47bf1a0bf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Extras/People/My Obsidian People Note Template Dann.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "My Obsidian People Note Template Dann"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "abf2911f56f916d8",
+        "type": "split",
+        "children": [
+          {
+            "id": "396d97731e40095f",
+            "type": "tabs",
+            "dimension": 68.0327868852459,
+            "children": [
+              {
+                "id": "688b3d615137a273",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "2fd0f24bea1de5b8",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "3917ba887ee80a77",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              }
+            ]
+          },
+          {
+            "id": "92bddd3c3e884c9d",
+            "type": "tabs",
+            "dimension": 31.967213114754102,
+            "children": [
+              {
+                "id": "16dc5ce4e615a7cf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Clippings/In what ways can we form useful relationships between notes.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "In what ways can we form useful relationships between notes"
+                }
+              },
+              {
+                "id": "e0506c4cda0e2b8a",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://gist.github.com/dannberg/8e021e84f6c5024dcdfe89de909e3335/raw/37c2cff9b0712642389ab09510fccf072c789cb2/obsidian-people-moc.txt"
+                  },
+                  "icon": "lucide-file",
+                  "title": "Dann Berg's Obsidian People MOC. Uses Metabind and Dataview plugins. View full People Note system: https://dannb.org/blog/2022/obsidian-people-note-template/ · GitHub"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 379
+      },
+      "right": {
+        "id": "0bce692d28de0848",
+        "type": "split",
+        "children": [
+          {
+            "id": "65b8ffe11667d608",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bae038ccea34ead9",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "4c75dd1dc94107ca",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Extras/People/My Obsidian People Note Template Dann.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for My Obsidian People Note Template Dann"
+                }
+              },
+              {
+                "id": "a677e5cf3e3fb9c3",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Extras/People/My Obsidian People Note Template Dann.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from My Obsidian People Note Template Dann"
+                }
+              },
+              {
+                "id": "c61722d2f0288e0a",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Extras/People/My Obsidian People Note Template Dann.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of My Obsidian People Note Template Dann"
+                }
+              },
+              {
+                "id": "66215144ab6ceed1",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              },
+              {
+                "id": "4a7e351c6d81ef9d",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {},
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 537.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "wikipedia-search:Open Article": false,
+          "templater-obsidian:Templater": false,
+          "surfing:surfing-bookmark-manager": false,
+          "quickadd:QuickAdd": false,
+          "obsidian-day-planner:Open Timeline": false,
+          "obsidian-day-planner:Open Multi-Day View": false,
+          "obsidian-book-search-plugin:Create new book note": false,
+          "obsidian42-brat:BRAT": false,
+          "cmdr:Graph view: Open local graph": false,
+          "cmdr:Workspaces: Manage workspace layouts": false,
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-kanban:Create new board": false,
+          "mermaid-tools:Open Mermaid Toolbar": false,
+          "zk-prefixer:Create new unique note": false,
+          "callout-manager:Insert Callout": false
+        }
+      },
+      "active": "0910a4a47bf1a0bf",
+      "mtime": "2025-01-20T12:51:05+01:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "Extras",
+          "Extras/People"
+        ]
+      }
+    },
+    "Work": {
+      "main": {
+        "id": "896fb77528c50fee",
+        "type": "split",
+        "children": [
+          {
+            "id": "8f2ec7bd9b5e7984",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7da41648a6387268",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Knowledge/daily_notes/2025/January/2025-01-20.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "2025-01-20"
+                }
+              },
+              {
+                "id": "a589478b53619704",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "QSL listing feature"
+                }
+              },
+              {
+                "id": "fc44c5e9df019c0f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/artifacts/test  cronjob.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "test  cronjob"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "abf2911f56f916d8",
+        "type": "split",
+        "children": [
+          {
+            "id": "396d97731e40095f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "688b3d615137a273",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "2fd0f24bea1de5b8",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "3917ba887ee80a77",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "[\"author\"]",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "87483564ef924af7",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-tab-tree",
+                  "state": {},
+                  "icon": "chrome",
+                  "title": "Surfing Tab Tree"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 259,
+        "collapsed": true
+      },
+      "right": {
+        "id": "0bce692d28de0848",
+        "type": "split",
+        "children": [
+          {
+            "id": "65b8ffe11667d608",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bae038ccea34ead9",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "4c75dd1dc94107ca",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for QSL listing feature"
+                }
+              },
+              {
+                "id": "a677e5cf3e3fb9c3",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from QSL listing feature"
+                }
+              },
+              {
+                "id": "c61722d2f0288e0a",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/test  cronjob.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of test  cronjob"
+                }
+              },
+              {
+                "id": "66215144ab6ceed1",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              },
+              {
+                "id": "4a7e351c6d81ef9d",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {},
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
+                }
+              }
+            ],
+            "currentTab": 5
+          }
+        ],
+        "direction": "horizontal",
+        "width": 537.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "graph:Open graph view": false,
+          "workspaces:Manage workspace layouts": false,
+          "wikipedia-search:Open Article": false,
+          "templater-obsidian:Templater": false,
+          "surfing:surfing-bookmark-manager": false,
+          "quickadd:QuickAdd": false,
+          "obsidian-day-planner:Open Timeline": false,
+          "obsidian-day-planner:Open Multi-Day View": false,
+          "obsidian-book-search-plugin:Create new book note": false,
+          "obsidian42-brat:BRAT": false,
+          "cmdr:Graph view: Open local graph": false,
+          "cmdr:Workspaces: Manage workspace layouts": false,
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-kanban:Create new board": false,
+          "mermaid-tools:Open Mermaid Toolbar": false,
+          "zk-prefixer:Create new unique note": false,
+          "callout-manager:Insert Callout": false
+        }
+      },
+      "active": "fc44c5e9df019c0f",
+      "mtime": "2025-01-20T15:37:44+01:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "Extras/People"
+        ]
+      }
     }
   },
-  "active": "study typescript"
+  "active": "Work"
 }

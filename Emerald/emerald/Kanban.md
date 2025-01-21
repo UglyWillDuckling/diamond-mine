@@ -35,17 +35,15 @@ color: var(--mk-color-orange)
 - [ ] [[remove scroll-forward mapping in nvim]]
 - [ ] [[Education/React/react|react]] study 🎒 #react
 - [ ] start [[Node]] education 🏫 #node
-- [ ] study [[git butler]] #task
-- [x] [[see how to manage tasks]] ☑ #tasks ✅ 2025-01-06
-- [x] education / typescript advanced [[Typesript Education]] #education #task ✅ 2025-01-06
-- [ ] take a look at [[figma for CRM]] #task
+- [ ] study [[git butler]] #task 🆔 KjsJyX
+- [ ] take a look at [[figma for CRM]] #task 🆔 LnfHKb
 
 
 ## active ⚔
 
 - [/] [[QSL listing feature|QSL listing feature]]
 - [ ] [[add other quick adds]]
-- [ ] #task [[read books on tools that I use]] ⏫
+- [ ] #task [[read books on tools that I use]] ⏫ 🆔 98l35q
 
 
 ## finished
@@ -53,6 +51,8 @@ color: var(--mk-color-orange)
 **Complete**
 - [x] [[study obsidian some more]] ^1lqsh9 #task ✅ 2025-01-06
 - [x] [[organize obsidian notes with dataview and folders]]
+- [x] [[see how to manage tasks]] ☑ #tasks ✅ 2025-01-06
+- [x] education / typescript advanced [[Typesript Education]] #education #task ✅ 2025-01-06
 
 
 ***
@@ -113,6 +113,6 @@ color: var(--mk-color-orange)
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[true,false,false,false],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true,"table-sizing":{"card":323}}
+{"kanban-plugin":"board","list-collapse":[true,false,false,true],"show-checkboxes":true,"hide-card-count":true,"move-dates":true,"show-search":false,"inline-metadata-position":"footer","archive-with-date":true,"move-tags":true,"table-sizing":{"card":323}}
 ```
 %%

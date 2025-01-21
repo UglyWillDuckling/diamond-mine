@@ -1,15 +1,104 @@
 {
-	"nodes":[
-		{"id":"5fe4bf95ad790163","type":"group","x":-1480,"y":-960,"width":1840,"height":1120,"color":"4","label":"Tasks"},
-		{"id":"eedbae2958471314","type":"text","text":"### active\n\n```tasks\nnot done\nshow tree\n```\n\n","x":-1460,"y":-940,"width":665,"height":1020,"color":"5"},
-		{"id":"cd6584d574a76c32","type":"link","url":"https://jwt.io/","x":-2420,"y":-880,"width":680,"height":1083,"color":"6"},
-		{"id":"73691b49687735b3","type":"file","file":"notes/footnotes example.md","x":-610,"y":-760,"width":540,"height":260,"color":"1"},
-		{"id":"097cdcba370efe05","type":"text","text":"### In Progress\n\n```tasks\nnot done\nfilter by function task.status.type === 'IN_PROGRESS'\n```\n","x":-660,"y":-400,"width":640,"height":290,"color":"6"},
-		{"id":"9508e6dc31e2f98c","type":"file","file":"notes/tmpl example.md","x":-660,"y":300,"width":400,"height":400},
-		{"id":"c2f695431e1147f5","type":"file","file":"notes/ideas and thoughts/cloning repos multiple times can be useful.md","x":-1120,"y":300,"width":400,"height":400}
-	],
 	"edges":[
-		{"id":"b74ae388de78e587","fromNode":"eedbae2958471314","fromSide":"right","toNode":"097cdcba370efe05","toSide":"left","color":"4"},
-		{"id":"26acfc35c27c7f5e","fromNode":"097cdcba370efe05","fromSide":"top","toNode":"73691b49687735b3","toSide":"bottom","fromEnd":"arrow","color":"3"}
+		{"color":"4","fromNode":"eedbae2958471314","fromSide":"right","id":"b74ae388de78e587","toNode":"097cdcba370efe05","toSide":"left"},
+		{
+			"color":"3",
+			"fromNode":"097cdcba370efe05",
+			"fromSide":"top",
+			"id":"26acfc35c27c7f5e",
+			"styleAttributes":{"path":"long-dashed","pathfindingMethod":"square"},
+			"toNode":"73691b49687735b3",
+			"toSide":"bottom"
+		},
+		{
+			"fromNode":"e8d0cca765f1f5c9",
+			"fromSide":"right",
+			"id":"c403f1edbe02fda4",
+			"styleAttributes":{},
+			"toNode":"278506a05729c353",
+			"toSide":"left"
+		}
+	],
+	"nodes":[
+		{
+			"color":"4",
+			"height":1120,
+			"id":"5fe4bf95ad790163",
+			"label":"Tasks",
+			"styleAttributes":{},
+			"type":"group",
+			"width":1840,
+			"x":-1480,
+			"y":-960
+		},
+		{"height":780,"id":"d6a4f9c921fc8320","label":"links","type":"group","width":1700,"x":-2340,"y":1000},
+		{
+			"color":"5",
+			"height":1020,
+			"id":"eedbae2958471314",
+			"styleAttributes":{},
+			"text":"### active\n\n```tasks\nnot done\nshow tree\n```\n\n",
+			"type":"text",
+			"width":665,
+			"x":-1460,
+			"y":-940
+		},
+		{
+			"file":"notes/tmpl example.md",
+			"height":400,
+			"id":"9508e6dc31e2f98c",
+			"styleAttributes":{},
+			"type":"file",
+			"width":400,
+			"x":-660,
+			"y":300
+		},
+		{
+			"file":"notes/ideas and thoughts/cloning repos multiple times can be useful.md",
+			"height":400,
+			"id":"c2f695431e1147f5",
+			"styleAttributes":{},
+			"type":"file",
+			"width":400,
+			"x":-1120,
+			"y":300
+		},
+		{
+			"color":"6",
+			"height":400,
+			"id":"097cdcba370efe05",
+			"styleAttributes":{},
+			"text":"### In Progress\n\n```tasks\nnot done\nfilter by function task.status.type === 'IN_PROGRESS'\n```\n",
+			"type":"text",
+			"width":640,
+			"x":-610,
+			"y":-400
+		},
+		{
+			"color":"1",
+			"file":"notes/footnotes example.md",
+			"height":260,
+			"id":"73691b49687735b3",
+			"styleAttributes":{},
+			"type":"file",
+			"width":540,
+			"x":-480,
+			"y":-780
+		},
+		{"autoResizeHeight":true,"file":"Dashboard.md","height":260,"id":"2bc99fe28685de77","type":"file","width":400,"x":-1700,"y":370},
+		{
+			"autoResizeHeight":true,
+			"height":60,
+			"id":"f6abc9d5c4b1be96",
+			"styleAttributes":{},
+			"text":"fdsfdsf",
+			"type":"text",
+			"width":260,
+			"x":-2080,
+			"y":1640
+		},
+		{"autoResizeHeight":false,"file":"Knowledge/tools/dev/symlink.md","height":540,"id":"278506a05729c353","type":"file","width":500,"x":-1160,"y":1020},
+		{"autoResizeHeight":true,"file":"Knowledge/concepts/computer science/Hard links.md","height":100,"id":"e8d0cca765f1f5c9","type":"file","width":400,"x":-1620,"y":1240},
+		{"autoResizeHeight":true,"file":"Knowledge/tools/dev/readlink.md","height":520,"id":"b5590668f2b1449a","type":"file","width":600,"x":-2320,"y":1080}
 	]
 }

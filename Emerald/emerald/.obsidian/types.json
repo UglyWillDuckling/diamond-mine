@@ -32,6 +32,10 @@
     "updated": "date",
     "date": "date",
     "related": "multitext",
-    "standing": "multitext"
+    "standing": "multitext",
+    "implemented on": "date",
+    "part of": "multitext",
+    "implemented during": "multitext",
+    "task": "multitext"
   }
 }

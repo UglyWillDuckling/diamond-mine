@@ -24,7 +24,7 @@
   "useCustomIcons": false,
   "useWebview": true,
   "useIconList": true,
-  "darkMode": false,
+  "darkMode": true,
   "randomBackground": true,
   "lastOpenedFiles": false,
   "bookmarkManager": {
@@ -46,9 +46,32 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [],
+  "treeData": [
+    {
+      "id": "61cbd9580fd21cd4",
+      "parent": 0,
+      "droppable": true,
+      "text": "bash - How to export variables from a file? - Unix & Linux Stack Exchange",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "f23bded7e3b1d8bf",
+      "parent": 0,
+      "droppable": true,
+      "text": "bash - How to export variables from a file? - Unix & Linux Stack Exchange",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ],
   "enableHtmlPreview": false,
   "supportLivePreviewInlineUrl": false,
-  "enableTreeView": false,
+  "enableTreeView": true,
   "focusSearchBarViaKeyboard": true
 }

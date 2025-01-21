@@ -7986,6 +7986,7 @@ var InlineTagWidget = class _InlineTagWidget extends import_view.WidgetType {
     return container;
   }
 };
+var matchRegexp = /(?<!]\()https:\/\/github\.com\/[^\s]+(?<!['".?,:;]+)/g;
 function createInlineViewPlugin(_plugin) {
   class InlineViewPluginValue {
     constructor(view) {
@@ -7997,7 +7998,7 @@ function createInlineViewPlugin(_plugin) {
       this.inCodeblock = false;
       this.inlineTags = import_view.Decoration.none;
       this.matcher = new import_view.MatchDecorator({
-        regexp: /(?<!\[.*?\]\()https:\/\/github\.com\/[^\s,.)]+/g,
+        regexp: matchRegexp,
         decorate: (add, from, to, match, _view) => {
           add(
             from,
@@ -8635,3 +8636,5 @@ lodash/lodash.js:
    * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
    *)
 */
+
+/* nosourcemap */

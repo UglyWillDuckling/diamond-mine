@@ -4,10 +4,10 @@
 	- [/] [[#thought]]
 	- [ ] idea
 	- [ ] note
-- [ ] #task `quickadd` for `tickets`
-	- [ ] #task bugs 🐛
-	- [ ] #task features ⭐
-	- [ ] #task chores 🧹 🔽
+- [ ] #task `quickadd` for `tickets` 🆔 TodwSM
+	- [ ] #task bugs 🐛 🆔 TnaCI3
+	- [ ] #task features ⭐ 🆔 EoLfLX
+	- [ ] #task chores 🧹 🔽 🆔 b9ARV7
 
 ---
 

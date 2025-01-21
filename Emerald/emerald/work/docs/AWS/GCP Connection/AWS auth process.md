@@ -4,7 +4,7 @@ related:
   - "[[auth process.canvas|auth process]]"
 ---
 
-1. get the [[jwt token]] value from [[backyard-tassk]] `gcloud auth print-identity-token`
+1. get the [[jwt token]] value from [[backyard-tasks]] `gcloud auth print-identity-token`
 2. `assume` the role with [[aws CLI]] 
 	 `aws sts assume-role-with-web-identity --role-arn arn:aws:iam::008583020256:role/qsl-boost-gcp-role --role-session-name test --web-identity-token $GCP_TOKEN`
 3. store the shell env vars 
@@ -32,7 +32,7 @@ aws athena start-query-execution \
 >  `aws athena get-query-results --query-execution-id $query_id`
 
 
-- [/] #task automate the [[jwt token]] process and more
+- [x] #task automate the [[jwt token]] process and more ✅ 2025-01-17
 
 1. make a script to get the token (store it)
 2. use the token to authenticate on [[aws CLI]]
@@ -43,7 +43,7 @@ export AWS_SESSION_TOKEN=fbuideagipzahdpoazhopzauhgpazhgpoza
 
 query id: 5557db03-e12a-4f0c-a255-7ca2ae69faeb
 
-[[aws auth script]]
+[[aws auth shell script]]
 
 ## notes 📔
 

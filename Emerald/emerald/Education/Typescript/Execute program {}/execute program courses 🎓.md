@@ -1,5 +1,4 @@
-#javascript 
-#typescript 
+#javascript typescript 
 [execute ](https://www.executeprogram.com/courses)
 
 # Courses

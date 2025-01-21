@@ -1,8 +1,7 @@
 {
   "pinned": [
     "backlink:toggle-backlinks-in-document",
-    "editor:toggle-source",
-    "editor:toggle-blockquote",
-    "note-composer:extract-heading"
+    "note-composer:extract-heading",
+    "workspaces:save"
   ]
 }

@@ -1,16 +1,21 @@
+---
+related:
+  - "[[AWS-Athena backyard implementation]]"
+  - "[[frontend implementation]]"
+  - "[[QSL listing]]"
+---
 
-> [!check] remaining
-> ```tasks
-> not done
-> path includes {{query.file.folder}}
-> group by function task.file.path.replace(query.file.folder, '').replace('.md','')
-> show tree
-> ```
+```tasks
+ not done
+ path includes {{query.file.folder}}
+ show tree
+ short mode
+```
 
-## todos ✔
+## done ✔
 - [x] #task [[research how to add a cronjob]] ⏫ ✅ 2025-01-06
-- [x] #task [[update online status]] ⏫ ✅ 2025-01-06
-- [>] #task update table docs - missing `columns` 🔽
+- [x] #task [[Online status update]] ⏫ ✅ 2025-01-06
+- [>] #task update table docs - missing `columns` 🔽 🆔 eRZtkg
 - [x] #task **QSL** ⏫ 🛫 2024-10-11 ⏳ 2024-11-06 📅 2024-11-12 ✅ 2024-11-20
 	- [x] start creating the **DB** [[Create DB table]] ✅ 2025-11-01 
 	- [x] [[build the interface]] 🔼 ✅ 2024-11-04
@@ -24,11 +29,11 @@
 	- [x] update schema #task with nullables ✅ 2024-11-14
 - [x] #task fix issue with docker-compose ✅ 2024-11-08
 	- [[make test not working]]
-- [x] [[write the table docs]] #task 📅 2024-11-07 ✅ 2024-11-06
+- [x] [[table docs]] #task 📅 2024-11-07 ✅ 2024-11-06
 - [x] #task [[study CSV export]] 📅 2024-11-13 ✅ 2024-12-06
 	- [x] add new columns #task ✅ 2024-11-13
 	- [x] update existing logic, tests #task ✅ 2024-11-13
-	- [ ] #task [[check the diagram from [[Paulo]]]] 🔽
+	- [x] #task [[check the diagram from [[Paulo]]]] 🔽 ✅ 2025-01-17
 - [x] see 🙈 if we could use the [[project]] as the source for the [[place]] entity
 - [x] support for `optional` fields #task 📅 2024-11-14 ✅ 2024-11-20
 	- [x] #task update constructor and creation ✅ 2024-11-14
@@ -41,12 +46,16 @@
 - [x] #task [[CSV import]] ⏫ ✅ 2024-12-02
 - [x] #task [[create real table]] ✅ 2024-12-02
 - [x] #task [[frontend implementation]]
-- [ ] #task cleanup tests
-- [/] #task [[develop CSV backyard export]]
+- [x] #task [[CSV backyard export]] ✅ 2025-01-17
+- [x] #task send [[Natasa]] images of [[QSL listing]] ⏫ ✅ 2025-01-16
+- [x] #task write [[test script for AWS connection on backyard]] to verify [[AWS]] connection ⏫
 
 ---
-## <mark style="background: #FFB8EBA6;">current</mark>
-[[frontend implementation]]
+## ==current==
 
-- [/] #task [[Athena connection]] ⏫
-- [/] #task [[see how to setup rulesets on the qsl dataset]]
+[[AWS-Athena backyard implementation]]
+
+- [ ] #task cleanup tests 🆔 QdOsoU
+- [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8n
+- [x] #task create a [[test  cronjob]] 🆔 y7tDlU ⏫ 📅 2025-01-20 ✅ 2025-01-21
+

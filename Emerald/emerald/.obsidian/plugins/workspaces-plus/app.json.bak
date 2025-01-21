@@ -1,0 +1,12 @@
+{
+  "showIndentGuide": true,
+  "spellcheck": false,
+  "vimMode": true,
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": true,
+  "showRibbon": true,
+  "promptDelete": false,
+  "readableLineLength": true,
+  "showLineNumber": false
+}

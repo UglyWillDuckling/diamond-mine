@@ -7,10 +7,10 @@
       ""
     ]
   ],
-  "trigger_on_file_creation": false,
-  "auto_jump_to_cursor": false,
-  "enable_system_commands": false,
-  "shell_path": "",
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": true,
+  "shell_path": "/usr/bin/bash",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
   "folder_templates": [

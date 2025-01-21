@@ -4,26 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "3c3f20fcc71f4001",
+        "id": "8f2ec7bd9b5e7984",
         "type": "tabs",
         "children": [
           {
-            "id": "87148d8b1ad5f315",
+            "id": "7da41648a6387268",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/AWS implementation.md",
+                "file": "Knowledge/daily_notes/2025/January/2025-01-20.md",
                 "mode": "source",
-                "backlinks": true,
+                "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS implementation"
+              "title": "2025-01-20"
             }
           },
           {
-            "id": "c3384f70220587df",
+            "id": "a589478b53619704",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,8 +36,24 @@
               "icon": "lucide-file",
               "title": "QSL listing feature"
             }
+          },
+          {
+            "id": "fc44c5e9df019c0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/tickets/FEAT/QSL listing feature/artifacts/test  cronjob.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "test  cronjob"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -63,12 +79,22 @@
             }
           },
           {
-            "id": "f0f151d112079689",
+            "id": "2fd0f24bea1de5b8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "3917ba887ee80a77",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:implementation",
+                "query": "[\"author\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,20 +106,22 @@
             }
           },
           {
-            "id": "8d4c9402c121d3d3",
+            "id": "87483564ef924af7",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
+              "type": "surfing-tab-tree",
               "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "icon": "chrome",
+              "title": "Surfing Tab Tree"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 282
+    "width": 259,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -104,52 +132,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a677e5cf3e3fb9c3",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/PHP athena impl..canvas",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from PHP athena impl."
-            }
-          },
-          {
-            "id": "86f9da28a5f14644",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/investigate QSL listing connection plan.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for investigate QSL listing connection plan"
-            }
-          },
-          {
-            "id": "c61722d2f0288e0a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/Athena connection.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Athena connection"
-            }
-          },
-          {
-            "id": "438a2f7907632357",
+            "id": "bae038ccea34ead9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -162,31 +145,52 @@
             }
           },
           {
-            "id": "a835e11a6f76b8cd",
+            "id": "4c75dd1dc94107ca",
             "type": "leaf",
             "state": {
-              "type": "all-properties",
+              "type": "backlink",
               "state": {
-                "sortOrder": "frequency",
+                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
                 "showSearch": false,
-                "searchQuery": ""
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "links-coming-in",
+              "title": "Backlinks for QSL listing feature"
             }
           },
           {
-            "id": "19cfa3968b571e83",
+            "id": "a677e5cf3e3fb9c3",
             "type": "leaf",
             "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
+              "type": "outgoing-link",
+              "state": {
+                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from QSL listing feature"
             }
           },
           {
-            "id": "90d67fbbe250b771",
+            "id": "c61722d2f0288e0a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "work/tickets/FEAT/QSL listing feature/test  cronjob.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of test  cronjob"
+            }
+          },
+          {
+            "id": "66215144ab6ceed1",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -196,30 +200,37 @@
             }
           },
           {
-            "id": "5ed063d4a4a18008",
+            "id": "4a7e351c6d81ef9d",
             "type": "leaf",
             "state": {
-              "type": "chronology-calendar-view",
+              "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "clock",
-              "title": "Chronology"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 744.5,
+    "width": 537.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "wikipedia-search:Open Article": true,
+      "graph:Open graph view": false,
+      "workspaces:Manage workspace layouts": false,
+      "wikipedia-search:Open Article": false,
       "templater-obsidian:Templater": false,
-      "graph:Open graph view": true,
       "surfing:surfing-bookmark-manager": false,
       "quickadd:QuickAdd": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian42-brat:BRAT": false,
+      "cmdr:Graph view: Open local graph": false,
+      "cmdr:Workspaces: Manage workspace layouts": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
@@ -230,62 +241,58 @@
       "obsidian-kanban:Create new board": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "zk-prefixer:Create new unique note": false,
-      "callout-manager:Insert Callout": false,
-      "workspaces:Manage workspace layouts": false,
-      "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": true,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "obsidian42-brat:BRAT": false,
-      "cmdr:Graph view: Open local graph": false
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "87148d8b1ad5f315",
+  "active": "fc44c5e9df019c0f",
   "lastOpenFiles": [
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-    "work/tickets/FEAT/QSL listing feature/AWS implementation.md",
-    "work/tickets/FEAT/QSL listing feature/develop CSV backyard export.md",
-    "work/tickets/FEAT/QSL listing feature/docs/Athena impl..canvas",
-    "Education/How To/full path to file in shell.md",
-    "work/tickets/FEAT/QSL listing feature/Athena connection.md",
-    "work/tickets/FEAT/QSL listing feature/docs/alternatives for Athena impl..md",
-    "work/tickets/FEAT/QSL listing feature/investigate QSL listing connection plan.md",
-    "work/tickets/FEAT/QSL listing feature/archive/see how to setup rulesets on the qsl dataset.md",
-    "Knowledge/tools/dev/docker compose cp command.md",
-    "work/tickets/FEAT/QSL listing feature/archive",
-    "work/docs/AWS/GCP Connection/Application Default Credentials.md",
-    "work/tickets/FEAT/QSL listing feature/QSL listing feature.canvas",
-    "Knowledge/daily_notes/2025/January/2025-01-15.md",
-    "work/tickets/FEAT/QSL listing feature/❌/aws-config.md",
+    "Clippings/Learn How to Use Linux Find -printf from 50 Examples.md",
+    "Clippings/Find Command.md",
+    "Clippings/Explanation of % directives in find -printf.md",
+    "work/docs/backyard/backyard tasks cron definition.md",
+    "work/tickets/FEAT/QSL listing feature/artifacts/crontab board.canvas",
+    "work/tickets/FEAT/QSL listing feature/artifacts/test  cronjob.md",
+    "work/tickets/FEAT/QSL listing feature/artifacts",
+    "work/tickets/FEAT/QSL listing feature/archive/research how to add a cronjob.md",
+    "Knowledge/daily_notes/2025/January/2025-01-20.md",
+    "work/tickets/FEAT/QSL listing feature/test cronjob.md",
+    "Knowledge/tools/dev/readlink.md",
+    "Knowledge/tools/dev/symlink.md",
+    "Knowledge/tools/PM/Intranet.md",
+    "Knowledge/tools/PM/Odoo.md",
+    "Clippings/How to export variables from a file.md",
     "dash canvas.canvas",
-    "Knowledge/tools/dev/aws CLI.md",
-    "work/tickets/FEAT/QSL listing feature/docs/php result set.md",
-    "work/calls/pair programming/pair programming Jan 14, 2025.md",
-    "work/calls/call - qsl - GCP access.md",
-    "work/calls/pair programming/Pair-programming 10.12.2024.md",
-    "readlink.md",
-    "Knowledge/daily_notes/2025/January/2025-01-10.md",
-    "+/Canvas is awesome.md",
-    "notes/ideas and thoughts/cloning repos multiple times can be useful.md",
-    "Clippings/Set session duration for AWS accounts - AWS IAM Identity Center.md",
-    "Clippings/AWS Security Token Service.md",
-    "work/tickets/FEAT/QSL listing feature/archive/connect to AWS locally.md",
-    "+/Getting AWS Credentials with AVIV SSO.md",
+    "Dashboard.md",
+    "Kanban.md",
+    "Knowledge/concepts/computer science/Hard links.md",
+    "Clippings/dooing.md",
+    "Knowledge/daily_notes/2025/January/Workspace Plugin.md",
+    "Extras/People/My Obsidian People Note Template Dann.md",
+    "Clippings/In what ways can we form useful relationships between notes.md",
+    "work/tickets/FEAT/QSL listing feature/CSV backyard export.md",
+    "People MOC.md",
+    "work/people and teams/LUNA/Paulo.md",
+    "Knowledge/templates/day template.md",
+    "tasks/dev/Obsidian/configure daily note.md",
+    "Extras/People",
+    "Extras",
+    "work/tickets/FEAT/QSL listing feature/docs/requirements",
+    "work/tickets/FEAT/QSL listing feature/docs/features",
+    "work/tickets/FEAT/QSL listing feature/docs/code/Athena impl..canvas",
+    "work/tickets/FEAT/QSL listing feature/docs/code/aws test script solution.canvas",
+    "work/tickets/FEAT/QSL listing feature/docs/code",
+    "work/tickets/FEAT/QSL listing feature/subs/debug aws issues on tasks",
+    "work/calls/pair programming/today",
+    "work/tickets/FEAT/QSL listing feature/archive",
+    "work/tickets/FEAT/QSL listing feature/QSL listing feature.canvas",
     "work/docs/AWS/GCP Connection/auth process.canvas",
-    "work/docs/AWS/GCP Connection/GCP Connection.md",
     "Action.canvas",
     "x/option-1.png",
     "x/option2.png",
     "work/docs/AWS/GCP Connection",
-    "work/docs/AWS/Untitled",
-    "work/docs/AWS",
-    "Knowledge/tools/dev/PlantUML",
     "work/docs/CRM/CRM.canvas",
     "x/Architecture-of-email-system-13.png",
-    "commentator/styles.css",
-    "commentator/manifest.json",
-    "commentator/main.js",
-    "commentator",
-    "Knowledge/daily_notes/2025/January",
     "work/people and teams/LUNA/Screenshot_20241107_140216.png",
     "Knowledge/tools/PM/bee-bole-export.png",
     "work/notes/archive/iris-code.png",
@@ -294,8 +301,6 @@
     "Knowledge/concepts/computer science/oop/patterns/Decorator_UML_class_diagram.svg.png",
     "Dashboard - Sales.png",
     "work/tickets/Lead Fix/Untitled.canvas",
-    "work/tasks - tickets/qsl.canvas",
-    "work/Untitled.canvas",
-    "work/CANVAS MAN.canvas"
+    "work/tasks - tickets/qsl.canvas"
   ]
 }

@@ -1,7 +1,6 @@
 ---
 title: My Obsidian Daily Note Template
 source: https://dannb.org/blog/2022/obsidian-daily-note-template/
-author: 
 published: 2024-01-30
 created: 2024-11-21
 description: Updated January 2024. A brief tour of my Daily Note template for Obsidian, using the Templater and Dataview plugins.
@@ -10,12 +9,15 @@ tags:
   - interesting
   - active
   - reading
+related:
+  - "[[day template]]"
 ---
 ![Dann’s Daily Note template for Obsidian](https://dannb.org/images/blog/2022/10/daily-note-template.png)
 
 ❗ *Feel free to skip the fluff and navigate directly to the **[raw Daily Note template](https://gist.github.com/dannberg/48ea2ba3fc0abdf3f219c6ad8bc78eb6)**.*
 
 Also, this tutorial is now available as a *YouTube video*! Watch **[📆 Obsidian Daily Note Template Tour and Tutorial](https://youtu.be/v84uSIqqVPQ)** to see me set up the system from scratch.
+[[Daily Note]]
 
 ---
 
@@ -34,16 +36,6 @@ The template I’m currently using (and am sharing in this post) was built over 
 I wanted to share, because I thought others might be interested. Please steal/remix/reuse anything you like.
 
 ## Setting up the Daily Note Template
-
-These are the plugins you’ll need:
-
-1. [Daily Notes](https://help.obsidian.md/Plugins/Daily+notes) (Core Plugin)
-2. [Dataview](https://github.com/blacksmithgu/obsidian-dataview)
-3. [Templater](https://github.com/SilentVoid13/Templater)
-
-You’ll want to install the plugins [directly through Obsidian](https://help.obsidian.md/Advanced+topics/Community+plugins).
-
-❗ Feel free to jump directly to the [raw Obsidian Daily Note template](https://gist.github.com/dannberg/48ea2ba3fc0abdf3f219c6ad8bc78eb6), if you aren’t interested in this fairly wordy tour.
 
 ### Metadata and Navigation
 

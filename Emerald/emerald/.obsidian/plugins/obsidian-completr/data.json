@@ -8,7 +8,7 @@
   "wordInsertionMode": "Ignore-Case & Replace",
   "ignoreDiacriticsWhenFiltering": false,
   "latexProviderEnabled": false,
-  "latexTriggerInCodeBlocks": true,
+  "latexTriggerInCodeBlocks": false,
   "latexMinWordTriggerLength": 2,
   "latexIgnoreCase": false,
   "fileScannerProviderEnabled": true,

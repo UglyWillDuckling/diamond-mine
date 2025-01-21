@@ -1,0 +1,18 @@
+{
+  "cssTheme": "Primary",
+  "textFontFamily": "Cantarell",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Baskerville",
+  "baseFontSize": 15,
+  "baseFontSizeAction": true,
+  "nativeMenus": true,
+  "monospaceFontFamily": "FiraCode Nerd Font",
+  "enabledCssSnippets": [
+    "MCL Multi Column",
+    "MCL Gallery Cards",
+    "highlight",
+    "vim",
+    "dataview",
+    "tasks"
+  ]
+}

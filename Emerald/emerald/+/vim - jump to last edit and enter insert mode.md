@@ -10,7 +10,7 @@ tags:
 ---
 #vim #note #active 
 
-- [ ] remind me (@[[2025-01-17]])
+- [ ] remind me (@[[2025-01-24]]))
 
 `gi`
 Will take the cursor to the exact point last edited and put you in insert mode, ready to continue typing. (It's also quicker to type!)
@@ -18,7 +18,7 @@ Will take the cursor to the exact point last edited and put you in insert mode, 
 `g;` 
 will go to the previously edited line
 
-`` `. ``
+`` `.
 will bring you to your last change.
 Goes to a mark, and is a "special" mark which is automatically set to the position where the last change was made. See :help `. for some more information.
 

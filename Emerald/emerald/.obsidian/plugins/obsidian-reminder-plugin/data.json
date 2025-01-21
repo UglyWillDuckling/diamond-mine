@@ -1,18 +1,60 @@
 {
   "scanned": true,
   "reminders": {
-    "+/vim - jump to last edit and enter insert mode.md": [
+    "work/tickets/FEAT/QSL listing feature/docs/features/QSL Import.md": [
       {
         "title": "remind me",
-        "time": "2025-01-17",
+        "time": "2025-01-31",
+        "rowNumber": 25
+      }
+    ],
+    "work/calls/1 on 1/with Paulo today.md": [
+      {
+        "title": "remind",
+        "time": "2025-01-21 12:30",
+        "rowNumber": 55
+      }
+    ],
+    "+/vim - jump to last edit and enter insert mode.md": [
+      {
+        "title": "remind me )",
+        "time": "2025-01-24",
         "rowNumber": 12
       }
     ],
-    "notes/archive/vim - jump to last insert with `..md": [
+    "+/It would be very useful to provide testing info for finished tasks.md": [
+      {
+        "title": "remind me",
+        "time": "2025-01-24",
+        "rowNumber": 12
+      }
+    ],
+    "+/Difference between tasks and tickets.md": [
+      {
+        "title": "remind me",
+        "time": "2025-01-21 10:30",
+        "rowNumber": 6
+      }
+    ],
+    "dev/general/you can list all yanks using <leader-p>.md": [
       {
         "title": "remind",
-        "time": "2025-01-17",
-        "rowNumber": 10
+        "time": "2025-01-24",
+        "rowNumber": 7
+      }
+    ],
+    "Clippings/How to export variables from a file.md": [
+      {
+        "title": "remind me",
+        "time": "2025-01-31",
+        "rowNumber": 68
+      }
+    ],
+    "Clippings/Learn How to Use Linux Find -printf from 50 Examples.md": [
+      {
+        "title": "remind me",
+        "time": "2025-01-23",
+        "rowNumber": 138
       }
     ]
   },
@@ -29,8 +71,8 @@
     "strictDateFormat": false,
     "linkDatesToDailyNotes": true,
     "enableTasksPluginReminderFormat": true,
-    "useCustomEmojiForTasksPlugin": false,
-    "removeTagsForTasksPlugin": false,
+    "useCustomEmojiForTasksPlugin": true,
+    "removeTagsForTasksPlugin": true,
     "enableKanbanPluginReminderFormat": false,
     "editDetectionSec": 10,
     "reminderCheckIntervalSec": 5

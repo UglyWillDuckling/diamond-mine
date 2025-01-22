@@ -10,140 +10,6 @@
       "dataSource": {
         "kind": "folder",
         "config": {
-          "path": "Projects - Demo Project",
-          "recursive": false
-        }
-      },
-      "newNotesFolder": "",
-      "views": [
-        {
-          "config": {
-            "fieldConfig": {
-              "name": {
-                "width": 360
-              },
-              "path": {
-                "hide": true
-              }
-            }
-          },
-          "filter": {
-            "conjunction": "and",
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "name": "Table",
-          "id": "f835a10c-3b16-43af-af9f-abbc6e026267",
-          "type": "table"
-        },
-        {
-          "config": {
-            "groupByField": "status",
-            "orderSyncField": "weight",
-            "columns": {
-              "Backlog": {
-                "weight": 0,
-                "records": [
-                  "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md"
-                ]
-              },
-              "In Progress": {
-                "weight": 1,
-                "records": [
-                  "Projects - Demo Project/The Best Notes You'll Ever Make.md",
-                  "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md"
-                ]
-              },
-              "Done": {
-                "weight": 2,
-                "records": [
-                  "Projects - Demo Project/Why You Should Be Taking More Notes.md",
-                  "Projects - Demo Project/The Easiest Way to Start Taking Notes.md"
-                ]
-              }
-            }
-          },
-          "filter": {
-            "conjunction": "and",
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "name": "Board",
-          "id": "90912428-bd63-48af-adad-cf9d737f720a",
-          "type": "board"
-        },
-        {
-          "config": {
-            "interval": "month",
-            "dateField": "due",
-            "checkField": "published"
-          },
-          "filter": {
-            "conjunction": "and",
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "name": "Calendar",
-          "id": "e3d936fa-4648-416e-9414-eb1d34290125",
-          "type": "calendar"
-        },
-        {
-          "config": {
-            "coverField": "image",
-            "fitStyle": "cover",
-            "includeFields": [
-              "status"
-            ]
-          },
-          "filter": {
-            "conjunction": "and",
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": [
-              {
-                "field": "status",
-                "order": "asc",
-                "enabled": true
-              }
-            ]
-          },
-          "name": "Gallery",
-          "id": "98db280a-50f1-4ee4-b148-8d8a270d96c5",
-          "type": "gallery"
-        }
-      ],
-      "name": "Demo project",
-      "id": "549c962f-ee9d-4d09-b6a0-b53e83eff4ea",
-      "path": "Projects - Demo Project"
-    },
-    {
-      "fieldConfig": {},
-      "defaultName": "",
-      "templates": [],
-      "excludedNotes": [],
-      "isDefault": false,
-      "dataSource": {
-        "kind": "folder",
-        "config": {
           "path": "Library Project",
           "recursive": false
         }
@@ -172,14 +38,7 @@
           },
           "filter": {
             "conjunction": "and",
-            "conditions": [
-              {
-                "field": "name",
-                "operator": "is",
-                "enabled": true,
-                "value": ""
-              }
-            ]
+            "conditions": []
           },
           "colors": {
             "conditions": []
@@ -261,6 +120,7 @@
       "fieldConfig": {
         "status": {
           "options": [
+            "No status",
             "Todo",
             "In Progress"
           ]
@@ -273,7 +133,7 @@
       "dataSource": {
         "kind": "folder",
         "config": {
-          "path": "Efforts/Projects/Obsidian Tinkering",
+          "path": "Efforts/Active/Obsidian Tinkering",
           "recursive": false
         }
       },
@@ -284,21 +144,22 @@
             "groupByField": "status",
             "columns": {
               "No status": {
-                "records": [
-                  "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md"
-                ],
-                "weight": 0,
-                "collapse": false
+                "collapse": true,
+                "weight": 0
+              },
+              "Done": {
+                "weight": 1,
+                "collapse": true
               },
               "Todo": {
-                "weight": 1,
+                "weight": 2,
                 "records": [
                   "Efforts/Projects/Obsidian Tinkering/Calendar Video Notes.md",
                   "Efforts/Projects/Obsidian Tinkering/maps of content exploration.md"
                 ]
               },
               "In Progress": {
-                "weight": 2,
+                "weight": 3,
                 "records": [
                   "Efforts/Projects/Obsidian Tinkering/Calendar Video Notes.md",
                   "Efforts/Projects/Obsidian Tinkering/How to use canvas to build dashboards.md"
@@ -351,45 +212,11 @@
       "name": "Obsidian Tinkering"
     },
     {
-      "fieldConfig": {},
-      "defaultName": "",
-      "templates": [],
-      "excludedNotes": [],
-      "isDefault": false,
-      "dataSource": {
-        "kind": "folder",
-        "config": {
-          "path": "Efforts/Projects/Ipod Setup",
-          "recursive": false
-        }
-      },
-      "newNotesFolder": "",
-      "views": [
-        {
-          "config": {},
-          "filter": {
-            "conjunction": "and",
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "a9cbc7f3-cdba-4dc2-a659-b3a1bd759c07",
-          "name": "Table",
-          "type": "table"
-        }
-      ],
-      "id": "2143b87e-c3fb-478f-b6d9-6bd35467a384",
-      "name": "IPOD"
-    },
-    {
       "fieldConfig": {
         "status": {
           "options": [
-            "Done"
+            "Done",
+            "To do"
           ]
         }
       },
@@ -406,6 +233,62 @@
       },
       "newNotesFolder": "",
       "views": [
+        {
+          "config": {
+            "includeFields": [
+              "status"
+            ],
+            "groupByField": "status",
+            "columns": {
+              "No status": {
+                "weight": 0,
+                "records": [
+                  "Efforts/Active/Persona/Persona.hr.md"
+                ],
+                "collapse": true
+              },
+              "Done": {
+                "weight": 1,
+                "records": [
+                  "Efforts/Active/Persona/Persona.md"
+                ],
+                "collapse": true
+              },
+              "To do": {
+                "weight": 2
+              },
+              "In Progress": {
+                "records": [
+                  "Efforts/Active/Persona/How Wordpress development works.md"
+                ],
+                "weight": 3
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#1a40ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "enabled": true,
+                  "value": "In Progress"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "4f5dbcee-de06-4a59-88e7-2174a04e739a",
+          "name": "Board",
+          "type": "board"
+        },
         {
           "config": {
             "fieldConfig": {
@@ -451,60 +334,6 @@
           "id": "5d610e51-e3b1-47d3-86e2-f8f5e0ca9647",
           "name": "Table",
           "type": "table"
-        },
-        {
-          "config": {
-            "includeFields": [
-              "status"
-            ],
-            "groupByField": "status",
-            "columns": {
-              "No status": {
-                "weight": 0,
-                "records": [
-                  "Efforts/Active/Persona/Persona.hr.md"
-                ],
-                "collapse": true
-              },
-              "In Progress": {
-                "records": [
-                  "Efforts/Active/Persona/How Wordpress development works.md",
-                  "Efforts/Active/Persona/first local wordpress site.md"
-                ],
-                "weight": 1
-              },
-              "Done": {
-                "weight": 2,
-                "records": [
-                  "Efforts/Active/Persona/Persona.md"
-                ],
-                "collapse": false
-              }
-            }
-          },
-          "filter": {
-            "conjunction": "and",
-            "conditions": []
-          },
-          "colors": {
-            "conditions": [
-              {
-                "color": "#1a40ff",
-                "condition": {
-                  "field": "status",
-                  "operator": "contains",
-                  "enabled": true,
-                  "value": "In Progress"
-                }
-              }
-            ]
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "4f5dbcee-de06-4a59-88e7-2174a04e739a",
-          "name": "Board",
-          "type": "board"
         }
       ],
       "id": "654015f9-17f4-4444-b879-9d17906a2c1d",
@@ -519,7 +348,7 @@
       "dataSource": {
         "kind": "folder",
         "config": {
-          "path": "Efforts/Projects/Persona",
+          "path": "Efforts/Active/Tasks Management in Obsidian",
           "recursive": false
         }
       },
@@ -528,16 +357,35 @@
         {
           "config": {
             "fieldConfig": {
-              "path": {
+              "name": {
+                "width": 445
+              },
+              "related": {
+                "width": 172,
                 "hide": true
               },
-              "name": {
-                "hide": false
+              "path": {
+                "width": 448,
+                "hide": true
+              },
+              "standing": {
+                "hide": true
+              },
+              "tags": {
+                "hide": true
+              },
+              "priority": {
+                "hide": true
               }
             },
             "orderFields": [
               "name",
-              "path"
+              "path",
+              "deadline",
+              "priority",
+              "related",
+              "standing",
+              "tags"
             ]
           },
           "filter": {
@@ -550,24 +398,12 @@
           "sort": {
             "criteria": []
           },
-          "id": "cf4eb9fb-4a44-4a3c-b818-0bc516448113",
+          "id": "adcc11d7-eb7a-4866-b6ce-fb79aafebc93",
           "name": "Table",
           "type": "table"
         },
         {
-          "config": {
-            "includeFields": [
-              "status"
-            ],
-            "groupByField": "status",
-            "columns": {
-              "In Progress": {
-                "records": [
-                  "Efforts/Projects/Persona/News.md"
-                ]
-              }
-            }
-          },
+          "config": {},
           "filter": {
             "conjunction": "and",
             "conditions": []
@@ -578,13 +414,13 @@
           "sort": {
             "criteria": []
           },
-          "id": "0f4800a8-aec0-4ea5-bf81-b9a2f19f9616",
+          "id": "c1090da5-0155-485c-af66-1036c5ea97fe",
           "name": "Board",
           "type": "board"
         }
       ],
-      "id": "050d47f9-76f7-416f-aed0-a7e13cde8679",
-      "name": "Untitled project"
+      "id": "40dbdd09-4f4b-4552-8334-a90b49c82505",
+      "name": "Tasks M"
     }
   ],
   "archives": [],

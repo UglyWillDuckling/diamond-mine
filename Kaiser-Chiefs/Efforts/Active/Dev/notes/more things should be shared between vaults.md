@@ -4,6 +4,6 @@ A shared folder that is symlinked
 
 ## plugins
  [[callout list]]
-- [[quickadd]]
+- [[quickadd plugin]]
 - [[Tasks plugin]]
 - [[]]

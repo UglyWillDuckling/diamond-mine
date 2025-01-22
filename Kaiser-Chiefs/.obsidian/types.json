@@ -8,6 +8,9 @@
     "deadline": "date",
     "status": "text",
     "docs": "multitext",
-    "about": "multitext"
+    "about": "multitext",
+    "plan-to-watch": "checkbox",
+    "interest": "number",
+    "documents": "multitext"
   }
 }

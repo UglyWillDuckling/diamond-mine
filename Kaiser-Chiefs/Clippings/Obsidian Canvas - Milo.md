@@ -31,8 +31,6 @@ Learn the basics of Obsidian Canvas—including secret maneuvers that make it ef
 ---
 # notes
 
-## start
-
 ### make map
 > map your thoughts
 
@@ -41,22 +39,22 @@ it works for everything. You can use anything.
 ## moves
 
 ### shortcuts
+
 `shift+scroll` **move** horizontally or vertically
 `Ctrl+drag` **duplicate**
 
 %% after the note is done, move the knowledge to [[How to use canvas]] %%
 
 ## lingering questions
-- ? 
 
-- [ ] ? is it [[markdown]]
+- [?] is it [[markdown]]
 - @ no
-- ? is it **futureproof**
+- [?] is it **futureproof**
 	- no not yet
-- [ ] ? How big is tche canvas?
+- [?] How big is tche canvas?
 - @ prettye big
-- [ ] ? are there backlings between Cards?
+- [?] are there backlings between Cards?
 - @ no, just between notes 
-- [ ] ? links between notes when linked with `edges`
+- [?] links between notes when linked with `edges`
 - @ might come in the future
-- [ ] ? What happens to cards that are 
+- [?] What happens to cards that are 

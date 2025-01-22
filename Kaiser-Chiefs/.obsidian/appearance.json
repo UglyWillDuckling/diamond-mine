@@ -3,5 +3,8 @@
   "cssTheme": "Things",
   "accentColor": "#ff751a",
   "baseFontSizeAction": true,
-  "baseFontSize": 18
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "Cards"
+  ]
 }

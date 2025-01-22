@@ -1,6 +1,5 @@
 ---
-status:
-  - In Progress
+status: Done
 related:
   - "[[Using Obsidian Canvas to Create Custom Dashboards]]"
   - "[[Obsidian Tinkering]]"
@@ -16,16 +15,18 @@ Zamisljeno kao **odrediste** za sve informacije i znanje pronadeno i steceno gle
 ## sources
 - [x] [[Using Obsidian Canvas to Create Custom Dashboards]]a 🎮
 - [x] [[How I’m ACTUALLY Using The Obsidian Canvas]] 📹
-- [/] [[Obsidian Canvas - Milo]] 📹
+- [x] [[Obsidian Canvas - Milo]] 📹
 
 ---
-### notes
+### quick facts
+- it's not markdown
+- there are no backlinks based on `edges`
 - You can use code snippets in [[canvas]]. Just copy and paste anything you have.
 	[[experiment.canvas|experiment]]
 ### plugins
-
 [[canvas-send-to-back]], [[simple-canvasearch]]
 [[advanced-canvas]]
 
-## personal
-I need a structure here that will let me easily gather knowledge from different sources all into one place, or at maximum 2 or 3.
+### shortcuts
+`shift+scroll` **move** horizontally or vertically
+`Ctrl+drag` **duplicate**

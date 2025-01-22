@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🎥",
       "LiPersonStanding",
       "🌄",
       "📹",
-      "LiWrench",
-      "LiCheckCheck"
+      "LiWrench"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -52,5 +52,5 @@
   "Efforts/Active/Persona/Docs/Dev/Wordpress/wp_users.md": "LiPersonStanding",
   "Efforts/Active/Obsidian Tinkering": "LiWrench",
   "Efforts/Active/Tasks Management in Obsidian": "LiCheckCheck",
-  "Efforts/Active/Tasks Management in Obsidian/explore Tasks management in Obsidian.md": "LiCheck"
+  "Atlas/Knowledge/Media/movies/movi list - wip.md": "🎥"
 }

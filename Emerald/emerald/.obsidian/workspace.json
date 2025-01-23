@@ -16,27 +16,25 @@
                 "file": "work/tickets/FEAT/QSL listing feature/AWS import.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "AWS import"
             }
           },
           {
-            "id": "44fc7bb06b8e502d",
+            "id": "6a50167287969fa9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
-                "viewState": {
-                  "x": 706.9206730990662,
-                  "y": -156.6027621159319,
-                  "zoom": -0.043737414734589225
-                }
+                "file": "work/tickets/FEAT/QSL listing feature/git butler commit tmp.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "aws import  impl."
+              "icon": "lucide-file",
+              "title": "git butler commit tmp"
             }
           }
         ],
@@ -101,42 +99,12 @@
         "dimension": 50,
         "children": [
           {
-            "id": "a589478b53619704",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "QSL listing feature"
-            }
-          },
-          {
-            "id": "b0b86a79e9707054",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/AWS-Athena implementation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AWS-Athena implementation"
-            }
-          },
-          {
             "id": "e1b02d9f45cae074",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
+                "file": "work/tickets/FEAT/QSL listing feature/git butler commit tmp.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -164,11 +132,28 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of aws import  impl."
+              "title": "Graph of git butler commit tmp"
+            }
+          },
+          {
+            "id": "44fc7bb06b8e502d",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
+                "viewState": {
+                  "x": 413.0262352279967,
+                  "y": 563.0826961903886,
+                  "zoom": -2.258970786446059
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "aws import  impl."
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -291,20 +276,21 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "44fc7bb06b8e502d",
+  "active": "6a50167287969fa9",
   "lastOpenFiles": [
     "work/tickets/FEAT/QSL listing feature/AWS import.md",
+    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+    "work/tickets/FEAT/QSL listing feature/AWS-Athena implementation.md",
+    "work/tickets/FEAT/QSL listing feature/git butler commit tmp.md",
     "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
     "how to update git butler.md",
     "Knowledge/tools/dev/git/git butler.md",
     "Knowledge/daily_notes/2025/January/2025-01-23.md",
-    "work/tickets/FEAT/QSL listing feature/AWS-Athena implementation.md",
     "+/you can use three *** asterisks for more text formatting options.md",
     "work/docs/how to/how to run the mediaAPI migration.md",
     "+/prije slanja nekog dijela koda,izmjena - najbolje napraviti test.md",
     "Clippings/Lemoncodejest-testing-by-sample Learn testing by sample using Jest, each of the samples contains a readme.md file that indicates the purpose of the sample plus an step by step guide to reproduce it..md",
     "work/calls/CRM/Arch call 2025-01-23.md",
-    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
     "work/bugs/XSS - extranet/xss testing tmp.md",
     "+/Xdebug just works.md",
     "work/bugs/XSS - extranet/Fix xss on extranet.md",

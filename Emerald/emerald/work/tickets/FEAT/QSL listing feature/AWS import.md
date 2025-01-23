@@ -42,7 +42,7 @@ The **production** will different on `s3 bucket` and `arn role`
 ### do list ✔
 - [x] **start** exploring the `code base`
 - [x] update `composer`
-- [/] *cleanup* repo
+- [x] *cleanup* repo
 - [/] `commit` changes
 - [?] merge incoming changes, [[git butler]]
 - [ ] think 🤔 what's next ⏭
@@ -59,3 +59,4 @@ The **production** will different on `s3 bucket` and `arn role`
 3. **commit** tests
 	1. **cleanup** what is *Left*
 
+[[git butler commit tmp]]

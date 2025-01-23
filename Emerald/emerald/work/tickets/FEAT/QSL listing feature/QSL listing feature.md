@@ -11,7 +11,6 @@ related:
  show tree
  short mode
 ```
-
 ## done ✔
 - [x] #task [[research how to add a cronjob]] ⏫ ✅ 2025-01-06
 - [x] #task [[Online status update]] ⏫ ✅ 2025-01-06
@@ -51,15 +50,16 @@ related:
 - [x] #task write [[test script for AWS connection on backyard]] to verify [[AWS]] connection ⏫
 
 ---
-## ==active==
+## *active*
 
-[[AWS-Athena implementation]]
+[[AWS-Athena implementation]] [[AWS import]]
 
-- [ ] #task cleanup tests 🆔 QdOsoU
+- [ ] #task cleanup tests 🆔 QdOsoU 🔽
 - [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8n
 - [x] #task [[cronjob test]] 🆔 y7tDlU ⏫ 📅 2025-01-20 ✅ 2025-01-21
 - [ ] #task apply  python` fix to **prod** on [[ma-infra]] ⏫ 📅 2025-01-22 🆔 ixD96M
-- [ ] #task update git repo 🔼 📅 2025-01-22 🆔 7e3TRI
-	- [ ] commit
-	- [ ] **update** project with [[git butler]]
-	
+- [x] #task make a **PR** for dev 🆔 cHk56r ⛔ WNbW5S ⏫ 📅 2025-01-23 ✅ 2025-01-23
+	- [x] #task **update git** repo 🆔 7e3TRI 🔼 📅 2025-01-22 ✅ 2025-01-23
+- [ ] #task deploy and test [[AWS import]]
+	- [/] #task merge **PR** -> deploy ⛔ FSB0EW ⏫ 📅 2025-01-24 🆔 tWXLo2
+	- [ ] #task **verify** on dev 🆔 FSB0EW 🔼 📅 2025-01-24

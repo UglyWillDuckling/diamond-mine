@@ -15,7 +15,7 @@
 	- [x] update listing `entity`
 		- [x] [[#http 🛰]]
 - [x] 't write tests #task ✅ 2025-01-06
-- [ ] #task come up with testing scenarios 👣 🔽 🆔 pAxBj5
+- [x] #task come up with testing scenarios  👣 🆔 pAxBj5 🔽 ✅ 2025-01-23
 ---
 ### update logic ⤴
 - [x] basic logic setup

@@ -7,12 +7,13 @@ related:
 ---
 #artifact #implementation 
 
-- [/] #task AWS importj ⏫ 📅 2025-01-23
-	- [/] #task plan out the implementation 🆔 a8OWs8
-		- [/] #task **write** [[#==definition of done==]] 🆔 gzJOdk
-		- [/] #task **write** out the definitions 🆔 cOKlwm
-			- [/] [[#what is it?]], [[#what it is not?]]
-	- [/] #task start working 🆔 1ybLlc
+- [/] #task AWS import 🆔 WNbW5S ⏫ 📅 2025-01-23
+	- [x] #task plan out the implementation 🆔 a8OWs8 ✅ 2025-01-23
+		- [x] #task **write** [[#==definition of done==]] 🆔 gzJOdk ✅ 2025-01-23
+		- [x] #task **write** out the definitions 🆔 cOKlwm ✅ 2025-01-23
+			- [x] [[#what is it?]], [[#what it is not?]]
+	- [x] #task develop **first** solution 🆔 1ybLlc
+	- [ ] #task think 🤔 what's next ⏭ 📅 2025-01-24 🆔 h4lL3z
 
 ### ==definition of done==
 
@@ -43,20 +44,6 @@ The **production** will different on `s3 bucket` and `arn role`
 - [x] **start** exploring the `code base`
 - [x] update `composer`
 - [x] *cleanup* repo
-- [/] `commit` changes
-- [?] merge incoming changes, [[git butler]]
-- [ ] think 🤔 what's next ⏭
-#### cleanup repo
-...
-- [x] delete tmp files
-
-#### ==commit==
-
-> [!hint] use [[git butler]]
-
-1. commit current work - **aws**
-2. split up the rest of the changes into branches
-3. **commit** tests
-	1. **cleanup** what is *Left*
-
-[[git butler commit tmp]]
+- [x] `commit` changes
+- [x] make a new **PR** in order to push things to prod
+- [x] merge incoming changes, [[git butler]]

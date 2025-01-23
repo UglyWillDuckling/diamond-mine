@@ -8,6 +8,21 @@
         "type": "tabs",
         "children": [
           {
+            "id": "0aa74577a3b3c1c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "QSL listing feature"
+            }
+          },
+          {
             "id": "1015af5b8fb7c73e",
             "type": "leaf",
             "state": {
@@ -21,24 +36,8 @@
               "icon": "lucide-file",
               "title": "AWS import"
             }
-          },
-          {
-            "id": "6a50167287969fa9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/git butler commit tmp.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "git butler commit tmp"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -50,7 +49,7 @@
       {
         "id": "396d97731e40095f",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 63.07277628032345,
         "children": [
           {
             "id": "688b3d615137a273",
@@ -96,7 +95,7 @@
       {
         "id": "57e13f42a93358af",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 36.92722371967655,
         "children": [
           {
             "id": "e1b02d9f45cae074",
@@ -104,7 +103,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/git butler commit tmp.md",
+                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -127,12 +126,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6413597446891256,
+                  "scale": 0.5011133516310482,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of git butler commit tmp"
+              "title": "Graph of QSL listing feature"
             }
           },
           {
@@ -143,8 +142,8 @@
               "state": {
                 "file": "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
                 "viewState": {
-                  "x": 413.0262352279967,
-                  "y": 563.0826961903886,
+                  "x": 429.75662252033123,
+                  "y": 896.9427903273696,
                   "zoom": -2.258970786446059
                 }
               },
@@ -152,13 +151,11 @@
               "title": "aws import  impl."
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 290.01103591918945,
-    "collapsed": true
+    "width": 282.01103591918945
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -276,13 +273,14 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "6a50167287969fa9",
+  "active": "0aa74577a3b3c1c4",
   "lastOpenFiles": [
-    "work/tickets/FEAT/QSL listing feature/AWS import.md",
+    "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
     "work/tickets/FEAT/QSL listing feature/AWS-Athena implementation.md",
+    "work/tickets/FEAT/QSL listing feature/AWS import.md",
+    "Knowledge/notes/archive/Butler conflict resolution.md",
     "work/tickets/FEAT/QSL listing feature/git butler commit tmp.md",
-    "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
     "how to update git butler.md",
     "Knowledge/tools/dev/git/git butler.md",
     "Knowledge/daily_notes/2025/January/2025-01-23.md",
@@ -303,8 +301,6 @@
     "Clippings/Obsidian Physical Object System.md",
     "work/calls/test.md",
     "Knowledge/templates/physical object template.md",
-    "Knowledge/templates/daily call template.md",
-    "x/Dann Bergs Daily Note.md",
     "work/tickets/FEAT/QSL listing feature/docs/code/Athena impl..canvas",
     "dash canvas.canvas",
     "Efforts/Active/Obsidian Tinkering/docs",

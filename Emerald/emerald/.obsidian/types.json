@@ -36,6 +36,7 @@
     "implemented on": "date",
     "part of": "multitext",
     "implemented during": "multitext",
-    "task": "multitext"
+    "task": "multitext",
+    "parent": "multitext"
   }
 }

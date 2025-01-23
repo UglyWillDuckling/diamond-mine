@@ -11,7 +11,7 @@
     "work/calls/1 on 1/with Paulo today.md": [
       {
         "title": "remind",
-        "time": "2025-01-22",
+        "time": "2025-01-24",
         "rowNumber": 55
       }
     ],
@@ -46,7 +46,7 @@
     "Clippings/Learn How to Use Linux Find -printf from 50 Examples.md": [
       {
         "title": "remind me",
-        "time": "2025-01-23",
+        "time": "2025-01-24",
         "rowNumber": 138
       }
     ],
@@ -69,6 +69,27 @@
         "title": "come back to this article",
         "time": "2025-01-31",
         "rowNumber": 148
+      }
+    ],
+    "+/Xdebug just works.md": [
+      {
+        "title": "1 day **remind me**",
+        "time": "2025-01-24",
+        "rowNumber": 4
+      }
+    ],
+    "+/prije slanja nekog dijela koda,izmjena - najbolje napraviti test.md": [
+      {
+        "title": "1day remind me",
+        "time": "2025-01-24",
+        "rowNumber": 6
+      }
+    ],
+    "work/docs/how to/how to run the mediaAPI migration.md": [
+      {
+        "title": "remind me once",
+        "time": "2025-01-30",
+        "rowNumber": 9
       }
     ]
   },

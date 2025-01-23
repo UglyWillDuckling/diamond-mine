@@ -8,33 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a589478b53619704",
+            "id": "1015af5b8fb7c73e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                "file": "work/tickets/FEAT/QSL listing feature/AWS import.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "QSL listing feature"
+              "title": "AWS import"
             }
           },
           {
-            "id": "e3967fb9205600cc",
+            "id": "44fc7bb06b8e502d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/AWS client implementation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
+                "viewState": {
+                  "x": 706.9206730990662,
+                  "y": -156.6027621159319,
+                  "zoom": -0.043737414734589225
+                }
               },
-              "icon": "lucide-file",
-              "title": "AWS client implementation"
+              "icon": "lucide-layout-dashboard",
+              "title": "aws import  impl."
             }
           }
         ],
@@ -50,7 +52,7 @@
       {
         "id": "396d97731e40095f",
         "type": "tabs",
-        "dimension": 56.4179104477612,
+        "dimension": 50,
         "children": [
           {
             "id": "688b3d615137a273",
@@ -96,28 +98,82 @@
       {
         "id": "57e13f42a93358af",
         "type": "tabs",
-        "dimension": 43.582089552238806,
+        "dimension": 50,
         "children": [
+          {
+            "id": "a589478b53619704",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "QSL listing feature"
+            }
+          },
           {
             "id": "b0b86a79e9707054",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/AWS-Athena backyard implementation.md",
+                "file": "work/tickets/FEAT/QSL listing feature/AWS-Athena implementation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS-Athena backyard implementation"
+              "title": "AWS-Athena implementation"
+            }
+          },
+          {
+            "id": "e1b02d9f45cae074",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.6413597446891256,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of aws import  impl."
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 445
+    "width": 290.01103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -179,7 +235,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/test  cronjob.md"
+                "file": "work/calls/1 on 1/today.md"
               },
               "icon": "lucide-list",
               "title": "Outline of test  cronjob"
@@ -215,18 +271,11 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": true,
-      "workspaces:Manage workspace layouts": true,
-      "wikipedia-search:Open Article": false,
       "templater-obsidian:Templater": false,
       "surfing:surfing-bookmark-manager": true,
       "quickadd:QuickAdd": true,
-      "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false,
       "obsidian-book-search-plugin:Create new book note": true,
       "obsidian42-brat:BRAT": true,
-      "cmdr:Graph view: Open local graph": false,
-      "cmdr:Workspaces: Manage workspace layouts": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
@@ -235,52 +284,54 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-kanban:Create new board": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "zk-prefixer:Create new unique note": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "cmdr:Graph view: Open local graph": false,
+      "cmdr:Workspaces: Manage workspace layouts": false,
+      "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "e3967fb9205600cc",
+  "active": "44fc7bb06b8e502d",
   "lastOpenFiles": [
-    "work/tickets/FEAT/QSL listing feature/AWS-Athena backyard implementation.md",
-    "work/tickets/FEAT/QSL listing feature/AWS client implementation.md",
+    "work/tickets/FEAT/QSL listing feature/AWS import.md",
+    "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
+    "how to update git butler.md",
+    "Knowledge/tools/dev/git/git butler.md",
+    "Knowledge/daily_notes/2025/January/2025-01-23.md",
+    "work/tickets/FEAT/QSL listing feature/AWS-Athena implementation.md",
+    "+/you can use three *** asterisks for more text formatting options.md",
+    "work/docs/how to/how to run the mediaAPI migration.md",
+    "+/prije slanja nekog dijela koda,izmjena - najbolje napraviti test.md",
+    "Clippings/Lemoncodejest-testing-by-sample Learn testing by sample using Jest, each of the samples contains a readme.md file that indicates the purpose of the sample plus an step by step guide to reproduce it..md",
+    "work/calls/CRM/Arch call 2025-01-23.md",
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-    "work/calls/DAILY/2025-01-21 daily.md",
-    "work/tickets/FEAT/QSL listing feature/artifacts/cronjob test.md",
-    "work/docs/backyard/ma cron definition.md",
-    "Spaces/Physical Objects/2025-01-21 TKTK.md",
-    "MOC/🛍️ Physical Objects MOC.md",
-    "Efforts/Active/Obsidian Tinkering/docs/physical MOC template.md",
-    "Efforts/Active/Obsidian Tinkering/docs/physical object notes.md",
-    "work/work.md",
-    "Efforts/Active/Obsidian Tinkering/Physical object system.md",
+    "work/bugs/XSS - extranet/xss testing tmp.md",
+    "+/Xdebug just works.md",
+    "work/bugs/XSS - extranet/Fix xss on extranet.md",
+    "work/tickets/FEAT/QSL listing feature/docs/tmp - composer update.md",
+    "Knowledge/daily_notes/2025/January/2025-01-22.md",
+    "Knowledge/templates/day template.md",
+    "Knowledge/daily_notes/2025/January/2025-01-22 daily.md",
+    "work/calls/1 on 1/2025-01-22 1on1.md",
+    "Knowledge/templates/call template.md",
     "Clippings/Obsidian Physical Object System.md",
-    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+    "work/calls/test.md",
     "Knowledge/templates/physical object template.md",
-    "Clippings/In what ways can we form useful relationships between notes.md",
-    "Efforts/Active/Obsidian Tinkering/docs/physical moc template from Dan.md",
-    "Efforts/Active/Obsidian Tinkering/docs/physical object template from Dan.md",
+    "Knowledge/templates/daily call template.md",
+    "x/Dann Bergs Daily Note.md",
+    "work/tickets/FEAT/QSL listing feature/docs/code/Athena impl..canvas",
     "dash canvas.canvas",
-    "Knowledge/people/Dann Berg.md",
-    "+/action is crucial, we need to define the next steps(actions) with as much detail as possible.md",
     "Efforts/Active/Obsidian Tinkering/docs",
     "Spaces/Physical Objects",
     "MOC",
     "Spaces",
-    "People MOC.md",
-    "Clippings/My Obsidian Daily Note Template.md",
-    "Knowledge/daily_notes/2025/January/2025-01-20.md",
-    "Efforts/Active/Obsidian Tinkering/archive/configure daily note.md",
-    "Efforts/Active/Study Obsidian/Daily Note.md",
     "Efforts/Active/Obsidian Tinkering/archive",
-    "Efforts/Active/Study Obsidian/Untitled.md",
     "Efforts/Active/Obsidian Tinkering",
     "Efforts/Active",
     "work/tickets/FEAT/QSL listing feature/artifacts/crontab board.canvas",
     "work/tickets/FEAT/QSL listing feature/artifacts",
     "Extras/People",
     "Extras",
-    "work/tickets/FEAT/QSL listing feature/docs/code/Athena impl..canvas",
     "work/tickets/FEAT/QSL listing feature/docs/code/aws test script solution.canvas",
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.canvas",
     "work/docs/AWS/GCP Connection/auth process.canvas",
@@ -296,7 +347,6 @@
     "Pasted image 20240923155220.png",
     "Knowledge/concepts/computer science/oop/patterns/Decorator_UML_class_diagram.svg.png",
     "Dashboard - Sales.png",
-    "work/tickets/Lead Fix/Untitled.canvas",
-    "work/tasks - tickets/qsl.canvas"
+    "work/tickets/Lead Fix/Untitled.canvas"
   ]
 }

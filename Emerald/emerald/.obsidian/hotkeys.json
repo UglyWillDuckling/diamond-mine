@@ -34,14 +34,6 @@
       "key": "L"
     }
   ],
-  "editor:insert-codeblock": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "I"
-    }
-  ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
@@ -141,7 +133,14 @@
       "key": "E"
     }
   ],
-  "file-explorer:new-file": [],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
   "make-md:mk-blink": [],
   "quickadd:runQuickAdd": [
     {
@@ -171,7 +170,14 @@
   "editor:delete-paragraph": [],
   "editor:save-file": [],
   "obsidian-excalidraw-plugin:save": [],
-  "editor:toggle-italics": [],
+  "editor:toggle-italics": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "I"
+    }
+  ],
   "obsidian-completr:completr-open-suggestion-popup": [],
   "editor:focus-left": [
     {
@@ -205,20 +211,12 @@
       "key": "S"
     }
   ],
-  "daily-notes": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "T"
-    }
-  ],
   "workspace:new-tab": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": "N"
+      "key": "T"
     }
   ],
   "file-explorer:new-file-in-new-pane": [],
@@ -265,6 +263,15 @@
         "Mod"
       ],
       "key": "G"
+    }
+  ],
+  "workspaces:open-modal": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "L"
     }
   ]
 }

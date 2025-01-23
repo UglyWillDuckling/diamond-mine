@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[AWS-Athena backyard implementation]]"
+  - "[[AWS-Athena implementation]]"
   - "[[frontend implementation]]"
   - "[[QSL listing]]"
 ---
@@ -53,9 +53,13 @@ related:
 ---
 ## ==active==
 
-[[AWS-Athena backyard implementation]]
+[[AWS-Athena implementation]]
 
 - [ ] #task cleanup tests 🆔 QdOsoU
 - [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8n
 - [x] #task [[cronjob test]] 🆔 y7tDlU ⏫ 📅 2025-01-20 ✅ 2025-01-21
-- [ ] #task apply the `python` fix to **prod** on [[ma-infra]] ⏫ 📅 2025-01-22
+- [ ] #task apply  python` fix to **prod** on [[ma-infra]] ⏫ 📅 2025-01-22 🆔 ixD96M
+- [ ] #task update git repo 🔼 📅 2025-01-22 🆔 7e3TRI
+	- [ ] commit
+	- [ ] **update** project with [[git butler]]
+	

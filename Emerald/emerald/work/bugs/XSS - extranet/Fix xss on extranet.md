@@ -27,3 +27,5 @@ https:/extranet-staging.meilleursagents.org/projects/\<ID\>/documents
 ### sanitize
 
 ![[sanitize input]]
+
+[[xss testing tmp]]

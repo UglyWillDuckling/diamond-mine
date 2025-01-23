@@ -46,19 +46,7 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "1776193a7d685be2",
-      "parent": 0,
-      "droppable": true,
-      "text": "Obsidian template for Physical Objects. Full guide coming soon. Find other Obsidian guildes at dannb.org · GitHub",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ],
+  "treeData": [],
   "enableHtmlPreview": false,
   "supportLivePreviewInlineUrl": false,
   "enableTreeView": true,

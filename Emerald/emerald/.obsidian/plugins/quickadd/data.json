@@ -79,7 +79,7 @@
       "name": "call ☎️",
       "type": "Template",
       "command": true,
-      "templatePath": "Knowledge/templates/call.md",
+      "templatePath": "Knowledge/templates/call template.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""

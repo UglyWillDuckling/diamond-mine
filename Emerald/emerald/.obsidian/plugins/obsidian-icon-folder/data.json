@@ -248,7 +248,6 @@
   "work/people and teams/LUNA/luna team.md": "LiMoonStar",
   "work/people and teams/NOVA/Yoan.md": "🍟",
   "work/tickets/FEAT/QSL listing feature/archive": "LiArchive",
-  "work/tickets/FEAT/QSL listing feature/AWS-Athena backyard implementation.md": "🗽",
   "work/tickets/FEAT/QSL listing feature/archive/frontend implementation.md": "🖼",
   "work/tickets/FEAT/QSL listing feature/archive/archive": {
     "iconName": "LiArchive",
@@ -436,5 +435,6 @@
   "Knowledge/notes/discovery/obsidian/you can spread lists using the theme listing options.md": "LiColumns4",
   "Knowledge/notes/discovery/obsidian/you can use embeds in Obsidian.md": "LiImage",
   "Knowledge/notes/discovery/dev/KDE/switching alt+win is under keyboard settings.md": "LiKeyboard",
-  "work/tickets/FEAT/QSL listing feature/artifacts/cronjob test.md": "🎨"
+  "work/tickets/FEAT/QSL listing feature/artifacts/cronjob test.md": "🎨",
+  "work/tickets/FEAT/QSL listing feature/AWS-Athena implementation.md": "🗽"
 }

@@ -1,137 +1,180 @@
 {
-	"edges":[
-		{"fromNode":"a0ecde64a331ed41","fromSide":"left","id":"892f6ea77fd5992f","toNode":"f83157a46313b8d3","toSide":"right"},
-		{"fromNode":"ea6e79039ce396e1","fromSide":"right","id":"efbc93f202e1fa1f","toEnd":"none","toNode":"f83157a46313b8d3","toSide":"left"},
-		{"fromNode":"eec6c9eea1872c0e","fromSide":"right","id":"373b61d05c0ffdb5","toNode":"3bbac4c01f4ad729","toSide":"left"},
-		{"fromNode":"3bbac4c01f4ad729","fromSide":"right","id":"f048b5885fc07f3a","toNode":"350fc49dc98e597e","toSide":"left"},
-		{"fromNode":"350fc49dc98e597e","fromSide":"right","id":"402a1b2e2d7fc6ef","toNode":"44bbb5915bc79245","toSide":"left"}
-	],
-	"nodes":[
-		{
-			"color":"6",
-			"height":675,
-			"id":"fad294614409bf9f",
-			"styleAttributes":{},
-			"text":"#### alternatives / options\n\n**the returned query could be an object**\nEither the returned query **or** even the passed in queries could be `objects`\n**could return a Promise like object**\nAthena could return a `Promise` like object instead a simple query id\n```php\n$promise = $athena->query($sql)\n$promise->then(fn($result) {dd($result)})\n$promise->wait()\n```\n**could return a result object `typed`**\n```php\n$result = $athena->wait($query_id) \n$result->header()\n$result->rows()\n$result->numberOfItems() ...\n```\n\n> [!check] the result object could convert the results into an associative array by itself\n> we could eliminate the need for the `header()` this way\n",
-			"type":"text",
-			"width":480,
-			"x":-1980,
-			"y":-300
-		},
-		{
-			"color":"#2eb279",
-			"file":"work/tickets/FEAT/QSL listing feature/docs/code/alternatives for Athena impl..md",
-			"height":865,
-			"id":"ea6e79039ce396e1",
-			"styleAttributes":{},
-			"type":"file",
-			"width":500,
-			"x":-1360,
-			"y":-585
-		},
-		{
-			"color":"2",
-			"height":305,
-			"id":"f83157a46313b8d3",
-			"styleAttributes":{},
-			"text":"**Athena**\n- runs the queries\n\t- returns the id\n- fetches the results\n- is *configurable*\n- hides allot of the details when it comes to [[AWS]]\n- gives the ability to `wait` on a query\n- **accepts** a configured AWS client\n",
-			"type":"text",
-			"width":400,
-			"x":-760,
-			"y":-337
-		},
-		{
-			"color":"6",
-			"height":162,
-			"id":"f09435d4ee392992",
-			"styleAttributes":{},
-			"text":"## other possibilities - general\n\n#### \n",
-			"type":"text",
-			"width":440,
-			"x":-500,
-			"y":-1000
-		},
-		{
-			"height":70,
-			"id":"eec6c9eea1872c0e",
-			"styleAttributes":{},
-			"text":"**switch** to using a `Result set` object type",
-			"type":"text",
-			"width":360,
-			"x":-780,
-			"y":376
-		},
-		{
-			"color":"#050505",
-			"height":57,
-			"id":"235b9df14d85bb1b",
-			"styleAttributes":{},
-			"text":"## next steps",
-			"type":"text",
-			"width":200,
-			"x":-800,
-			"y":280
-		},
-		{
-			"height":80,
-			"id":"5319d037f24f6d29",
-			"styleAttributes":{},
-			"text":"📔: we could have used the `Metadata` from the result set for the header values",
-			"type":"text",
-			"width":400,
-			"x":-760,
-			"y":-2
-		},
-		{
-			"height":163,
-			"id":"3bbac4c01f4ad729",
-			"styleAttributes":{},
-			"text":" **refactor**\n- move everything out\n- update tests\n- use [[Phpstorm]] if needed",
-			"type":"text",
-			"width":280,
-			"x":-360,
-			"y":330
-		},
-		{
-			"height":96,
-			"id":"350fc49dc98e597e",
-			"styleAttributes":{},
-			"text":" **refactor** one more time\n- move AWS parts",
-			"type":"text",
-			"width":280,
-			"x":0,
-			"y":364
-		},
-		{
-			"height":60,
-			"id":"c5d2d47b117d3e9f",
-			"styleAttributes":{},
-			"text":"related: [[Athena connection]]",
-			"type":"text",
-			"width":260,
-			"x":-800,
-			"y":-1030
-		},
-		{
-			"color":"5",
-			"height":228,
-			"id":"a0ecde64a331ed41",
-			"styleAttributes":{},
-			"text":"**AWS Source**\n\nShould make the actual query and return the result\n- uses a `passed in` aws client for the requests\n- conforms to the `source` interface\n- converts the aws results to the appropriate `type`\n",
-			"type":"text",
-			"width":400,
-			"x":-260,
-			"y":-266
-		},
-		{
-			"height":169,
-			"id":"44bbb5915bc79245",
-			"styleAttributes":{},
-			"text":"ask about the ",
-			"type":"text",
-			"width":416,
-			"x":380,
-			"y":376
-		}
-	]
+  "edges": [
+    {
+      "fromNode": "a0ecde64a331ed41",
+      "fromSide": "left",
+      "id": "892f6ea77fd5992f",
+      "toNode": "f83157a46313b8d3",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "ea6e79039ce396e1",
+      "fromSide": "right",
+      "id": "efbc93f202e1fa1f",
+      "toEnd": "none",
+      "toNode": "f83157a46313b8d3",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "eec6c9eea1872c0e",
+      "fromSide": "right",
+      "id": "373b61d05c0ffdb5",
+      "toNode": "3bbac4c01f4ad729",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "3bbac4c01f4ad729",
+      "fromSide": "right",
+      "id": "f048b5885fc07f3a",
+      "toNode": "350fc49dc98e597e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "350fc49dc98e597e",
+      "fromSide": "right",
+      "id": "402a1b2e2d7fc6ef",
+      "toNode": "44bbb5915bc79245",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "6",
+      "height": 675,
+      "id": "fad294614409bf9f",
+      "styleAttributes": {
+      },
+      "text": "#### alternatives / options\n\n**the returned query could be an object**\nEither the returned query **or** even the passed in queries could be `objects`\n**could return a Promise like object**\nAthena could return a `Promise` like object instead a simple query id\n```php\n$promise = $athena->query($sql)\n$promise->then(fn($result) {dd($result)})\n$promise->wait()\n```\n**could return a result object `typed`**\n```php\n$result = $athena->wait($query_id) \n$result->header()\n$result->rows()\n$result->numberOfItems() ...\n```\n\n> [!check] the result object could convert the results into an associative array by itself\n> we could eliminate the need for the `header()` this way\n",
+      "type": "text",
+      "width": 480,
+      "x": -1980,
+      "y": -300
+    },
+    {
+      "color": "#2eb279",
+      "file": "work/tickets/FEAT/QSL listing feature/docs/code/alternatives for Athena impl..md",
+      "height": 865,
+      "id": "ea6e79039ce396e1",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 500,
+      "x": -1360,
+      "y": -585
+    },
+    {
+      "color": "2",
+      "height": 305,
+      "id": "f83157a46313b8d3",
+      "styleAttributes": {
+      },
+      "text": "**Athena**\n- runs the queries\n\t- returns the id\n- fetches the results\n- is *configurable*\n- hides allot of the details when it comes to [[AWS]]\n- gives the ability to `wait` on a query\n- **accepts** a configured AWS client\n",
+      "type": "text",
+      "width": 400,
+      "x": -760,
+      "y": -337
+    },
+    {
+      "color": "6",
+      "height": 162,
+      "id": "f09435d4ee392992",
+      "styleAttributes": {
+      },
+      "text": "## other possibilities - general\n\n#### \n",
+      "type": "text",
+      "width": 440,
+      "x": -500,
+      "y": -1000
+    },
+    {
+      "height": 70,
+      "id": "eec6c9eea1872c0e",
+      "styleAttributes": {
+      },
+      "text": "**switch** to using a `Result set` object type",
+      "type": "text",
+      "width": 360,
+      "x": -780,
+      "y": 376
+    },
+    {
+      "color": "#050505",
+      "height": 57,
+      "id": "235b9df14d85bb1b",
+      "styleAttributes": {
+      },
+      "text": "## next steps",
+      "type": "text",
+      "width": 200,
+      "x": -800,
+      "y": 280
+    },
+    {
+      "height": 80,
+      "id": "5319d037f24f6d29",
+      "styleAttributes": {
+      },
+      "text": "📔: we could have used the `Metadata` from the result set for the header values",
+      "type": "text",
+      "width": 400,
+      "x": -760,
+      "y": -2
+    },
+    {
+      "height": 163,
+      "id": "3bbac4c01f4ad729",
+      "styleAttributes": {
+      },
+      "text": " **refactor**\n- move everything out\n- update tests\n- use [[Phpstorm]] if needed",
+      "type": "text",
+      "width": 280,
+      "x": -360,
+      "y": 330
+    },
+    {
+      "height": 96,
+      "id": "350fc49dc98e597e",
+      "styleAttributes": {
+      },
+      "text": " **refactor** one more time\n- move AWS parts",
+      "type": "text",
+      "width": 280,
+      "x": 0,
+      "y": 364
+    },
+    {
+      "height": 60,
+      "id": "c5d2d47b117d3e9f",
+      "styleAttributes": {
+      },
+      "text": "related: [[Athena connection]]",
+      "type": "text",
+      "width": 260,
+      "x": -800,
+      "y": -1030
+    },
+    {
+      "color": "5",
+      "height": 228,
+      "id": "a0ecde64a331ed41",
+      "styleAttributes": {
+      },
+      "text": "**AWS Source**\n\nShould make the actual query and return the result\n- uses a `passed in` aws client for the requests\n- conforms to the `source` interface\n- converts the aws results to the appropriate `type`\n",
+      "type": "text",
+      "width": 400,
+      "x": -260,
+      "y": -266
+    },
+    {
+      "height": 169,
+      "id": "44bbb5915bc79245",
+      "styleAttributes": {
+      },
+      "text": "ask about the ",
+      "type": "text",
+      "width": 416,
+      "x": 380,
+      "y": 376
+    }
+  ]
 }

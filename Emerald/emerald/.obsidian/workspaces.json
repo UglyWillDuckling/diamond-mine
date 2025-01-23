@@ -1221,7 +1221,580 @@
           "Spaces"
         ]
       }
+    },
+    "aws": {
+      "main": {
+        "id": "896fb77528c50fee",
+        "type": "split",
+        "children": [
+          {
+            "id": "8f2ec7bd9b5e7984",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1015af5b8fb7c73e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/AWS import.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "AWS import"
+                }
+              },
+              {
+                "id": "44fc7bb06b8e502d",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
+                    "viewState": {
+                      "x": 797.5,
+                      "y": 160,
+                      "zoom": 0
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "aws import  impl."
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "abf2911f56f916d8",
+        "type": "split",
+        "children": [
+          {
+            "id": "396d97731e40095f",
+            "type": "tabs",
+            "dimension": 50,
+            "children": [
+              {
+                "id": "688b3d615137a273",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "2fd0f24bea1de5b8",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "3917ba887ee80a77",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#artifact",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              }
+            ]
+          },
+          {
+            "id": "57e13f42a93358af",
+            "type": "tabs",
+            "dimension": 50,
+            "children": [
+              {
+                "id": "a589478b53619704",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "QSL listing feature"
+                }
+              },
+              {
+                "id": "b0b86a79e9707054",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/AWS-Athena implementation.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "AWS-Athena implementation"
+                }
+              },
+              {
+                "id": "e1b02d9f45cae074",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.6413597446891256,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of aws import  impl."
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 290.01103591918945
+      },
+      "right": {
+        "id": "0bce692d28de0848",
+        "type": "split",
+        "children": [
+          {
+            "id": "65b8ffe11667d608",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bae038ccea34ead9",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "4c75dd1dc94107ca",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for QSL listing feature"
+                }
+              },
+              {
+                "id": "a677e5cf3e3fb9c3",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from QSL listing feature"
+                }
+              },
+              {
+                "id": "c61722d2f0288e0a",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "work/calls/1 on 1/today.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of test  cronjob"
+                }
+              },
+              {
+                "id": "66215144ab6ceed1",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              },
+              {
+                "id": "4a7e351c6d81ef9d",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {},
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 537.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "graph:Open graph view": true,
+          "workspaces:Manage workspace layouts": true,
+          "templater-obsidian:Templater": false,
+          "surfing:surfing-bookmark-manager": true,
+          "quickadd:QuickAdd": true,
+          "obsidian-book-search-plugin:Create new book note": true,
+          "obsidian42-brat:BRAT": true,
+          "cmdr:Graph view: Open local graph": false,
+          "cmdr:Workspaces: Manage workspace layouts": false,
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-kanban:Create new board": false,
+          "zk-prefixer:Create new unique note": false,
+          "callout-manager:Insert Callout": false
+        }
+      },
+      "active": "44fc7bb06b8e502d",
+      "mtime": "2025-01-23T14:45:34+01:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "work/tickets",
+          "work/tickets/FEAT"
+        ]
+      }
+    },
+    "xss": {
+      "main": {
+        "id": "896fb77528c50fee",
+        "type": "split",
+        "children": [
+          {
+            "id": "8f2ec7bd9b5e7984",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "63fb7b8524f3b4b0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "work/bugs/XSS - extranet/Fix xss on extranet.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Fix xss on extranet"
+                }
+              },
+              {
+                "id": "966d8160b8dcadd3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "work/bugs/XSS - extranet/xss testing tmp.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "xss testing tmp"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "abf2911f56f916d8",
+        "type": "split",
+        "children": [
+          {
+            "id": "396d97731e40095f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "688b3d615137a273",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "2fd0f24bea1de5b8",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "3917ba887ee80a77",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#artifact",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "986929c4931d13a9",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-tab-tree",
+                  "state": {},
+                  "icon": "chrome",
+                  "title": "Surfing Tab Tree"
+                }
+              }
+            ]
+          },
+          {
+            "id": "8ab65d4e2eebac58",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "31175b648e7e0784",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
+                    "viewState": {
+                      "x": -566.8534396190814,
+                      "y": 730.9080229894605,
+                      "zoom": -1.1527540863736145
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "aws import  impl."
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 375,
+        "collapsed": true
+      },
+      "right": {
+        "id": "0bce692d28de0848",
+        "type": "split",
+        "children": [
+          {
+            "id": "65b8ffe11667d608",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bae038ccea34ead9",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "4c75dd1dc94107ca",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for QSL listing feature"
+                }
+              },
+              {
+                "id": "a677e5cf3e3fb9c3",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from QSL listing feature"
+                }
+              },
+              {
+                "id": "c61722d2f0288e0a",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/test  cronjob.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of test  cronjob"
+                }
+              },
+              {
+                "id": "66215144ab6ceed1",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              },
+              {
+                "id": "4a7e351c6d81ef9d",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {},
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
+                }
+              },
+              {
+                "id": "76bd5841cacd8626",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 537.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "graph:Open graph view": true,
+          "workspaces:Manage workspace layouts": true,
+          "templater-obsidian:Templater": false,
+          "surfing:surfing-bookmark-manager": true,
+          "quickadd:QuickAdd": true,
+          "obsidian-book-search-plugin:Create new book note": true,
+          "obsidian42-brat:BRAT": true,
+          "cmdr:Graph view: Open local graph": false,
+          "cmdr:Workspaces: Manage workspace layouts": false,
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-kanban:Create new board": false,
+          "zk-prefixer:Create new unique note": false,
+          "callout-manager:Insert Callout": false
+        }
+      },
+      "active": "966d8160b8dcadd3",
+      "mtime": "2025-01-23T12:59:11+01:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "Extras/People"
+        ]
+      }
     }
   },
-  "active": "Work"
+  "active": "aws"
 }

@@ -136,7 +136,7 @@ find . -printf "%k\t%p\n"
    ./month.sql
 ```
 
-- [ ] remind me (@[[2025-01-23]])
+- [ ] remind me (@[[2025-01-24]])
 
 ### Location Directives
 

@@ -23,13 +23,22 @@
       "id": "graph:open-local",
       "icon": "lucide-git-fork",
       "name": "Graph view: Open local graph",
-      "mode": "any"
+      "mode": "any",
+      "color": "#82d0f2"
     },
     {
       "id": "workspaces:open-modal",
       "icon": "lucide-layout",
       "name": "Workspaces: Manage workspace layouts",
-      "mode": "any"
+      "mode": "any",
+      "color": "#000000"
+    },
+    {
+      "id": "daily-notes",
+      "icon": "lucide-calendar-days",
+      "name": "Daily notes: Open today's daily note",
+      "mode": "any",
+      "color": "#ffc800"
     }
   ],
   "rightRibbon": [],

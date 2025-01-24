@@ -33,5 +33,7 @@
   "workspaces-plus",
   "morgen-tasks",
   "obsidian-meta-bind-plugin",
-  "multi-column-markdown"
+  "multi-column-markdown",
+  "insta-toc",
+  "obsidian-plugin-toc"
 ]

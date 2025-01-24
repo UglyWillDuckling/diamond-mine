@@ -25,7 +25,7 @@ https://csv.thephpleague.com/9.0
 - [x] make a list of fields that need to be included
 - [x] check for dependencies 🔽
 - [x] #task ask for the location of the export button 🔼 ✅ 2025-01-15
-- [/] #task develop **CSV** export 🆔 Z2OmXI
+- [/] #task develop **CSV** export 🆔 Z2OmXI 🔼 📅 2025-01-27
 	- [ ] #task write test for backyard csv export 🧪  🆔 QyBoz0
 	- [/] #task implement export CSV route ⏫ 🆔 cmQtVf
 		- [ ] add export button

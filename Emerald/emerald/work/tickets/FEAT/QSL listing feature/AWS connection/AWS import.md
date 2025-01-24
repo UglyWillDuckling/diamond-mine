@@ -1,19 +1,20 @@
 ---
 parent:
-  - "[[AWS-Athena implementation]]"
+  - "[[AWS connection]]"
 related:
   - "[[QSL listing feature]]"
   - "[[Athena impl..canvas|Athena impl.]]"
 ---
 #artifact #implementation 
 
-- [/] #task AWS import 🆔 WNbW5S ⏫ 📅 2025-01-23
+
+- [/] #task AWS import 🆔 WNbW5S ⏫ ⏳ 2025-01-24 📅 2025-01-27
 	- [x] #task plan out the implementation 🆔 a8OWs8 ✅ 2025-01-23
 		- [x] #task **write** [[#==definition of done==]] 🆔 gzJOdk ✅ 2025-01-23
 		- [x] #task **write** out the definitions 🆔 cOKlwm ✅ 2025-01-23
 			- [x] [[#what is it?]], [[#what it is not?]]
 	- [x] #task develop **first** solution 🆔 1ybLlc
-	- [ ] #task think 🤔 what's next ⏭ 📅 2025-01-24 🆔 h4lL3z
+	- [ ] #task think 🤔 what's next ⏭ 🆔 h4lL3z 📅 2025-01-24
 
 ### ==definition of done==
 
@@ -28,7 +29,7 @@ a **Full  Scale** solution to implement [[AWS]] and [[Amazon Athena|Athena]]
 - needs to work a `shell script` 
 - needs to vary based on `environment`
 ### resources
-task [[AWS-Athena implementation]]
+task [[AWS connection]]
 actual [[Athena impl..canvas|Athena impl.]]
 
 ---

@@ -10,4 +10,4 @@ Links, screens, testing scenarios, checklists and more could be used.
 - checklists
 - other info
 
-- [ ] remind me (@[[2025-01-24]])
+- [ ] remind me (@[[2025-01-24]] 12:36)

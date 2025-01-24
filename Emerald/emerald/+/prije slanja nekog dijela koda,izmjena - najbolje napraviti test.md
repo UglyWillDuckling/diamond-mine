@@ -4,4 +4,4 @@
 2. primjeniti izmjene koje smo htjeli poslati
 3. provjeriti da li sve radi
 
-- [ ] 1day remind me (@[[2025-01-24]])
+- [ ] 1day remind me (@[[2025-01-31]])

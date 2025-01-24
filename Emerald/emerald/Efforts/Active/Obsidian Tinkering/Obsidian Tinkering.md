@@ -19,5 +19,5 @@ related:
 
 
 - [/] #task Explore [[People MOC]], Dann 🆔 JXgKvh 📅 2025-01-23
-- [/] #task checkout Milos **useful relationships between notes** 🔼 📅 2025-01-22 🆔 cLoIZQ
-- [ ] #task try out [[dooing]] for nvim 🔼 📅 2025-01-23 🆔 iXLmrj
+- [/] #task checkout Milos **useful relationships between notes** 🔼 📅 2025-01-24 🆔 cLoIZQ
+- [ ] #task try out [[dooing]] for nvim 🔼 📅 2025-01-27 🆔 iXLmrj

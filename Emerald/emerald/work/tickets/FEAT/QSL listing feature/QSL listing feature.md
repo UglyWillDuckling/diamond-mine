@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[AWS-Athena implementation]]"
+  - "[[AWS connection]]"
   - "[[frontend implementation]]"
   - "[[QSL listing]]"
 ---
@@ -8,9 +8,10 @@ related:
 ```tasks
  not done
  path includes {{query.file.folder}}
- show tree
  short mode
+ show tree
 ```
+
 ## done ✔
 - [x] #task [[research how to add a cronjob]] ⏫ ✅ 2025-01-06
 - [x] #task [[Online status update]] ⏫ ✅ 2025-01-06
@@ -52,14 +53,14 @@ related:
 ---
 ## *active*
 
-[[AWS-Athena implementation]] [[AWS import]]
+[[AWS connection]] [[AWS import]]
 
-- [ ] #task cleanup tests 🆔 QdOsoU 🔽
-- [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8n
-- [x] #task [[cronjob test]] 🆔 y7tDlU ⏫ 📅 2025-01-20 ✅ 2025-01-21
-- [ ] #task apply  python` fix to **prod** on [[ma-infra]] ⏫ 📅 2025-01-22 🆔 ixD96M
-- [x] #task make a **PR** for dev 🆔 cHk56r ⛔ WNbW5S ⏫ 📅 2025-01-23 ✅ 2025-01-23
-	- [x] #task **update git** repo 🆔 7e3TRI 🔼 📅 2025-01-22 ✅ 2025-01-23
-- [ ] #task deploy and test [[AWS import]]
+- [/] #task *deploy and test* [[AWS import]] 🆔 YD2vvB ⏫ ⏳ 2025-01-24 📅 2025-01-24
 	- [/] #task merge **PR** -> deploy ⛔ FSB0EW ⏫ 📅 2025-01-24 🆔 tWXLo2
 	- [ ] #task **verify** on dev 🆔 FSB0EW 🔼 📅 2025-01-24
+- [ ] #task apply  python` fix to **prod** on [[ma-infra]] ⏫ 📅 2025-01-24 🆔 ixD96M
+- [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8n
+- [ ] #task cleanup tests 🆔 QdOsoU 🔽
+- [x] #task [[cronjob test]] 🆔 y7tDlU ⏫ 📅 2025-01-20 ✅ 2025-01-21
+- [x] #task make a **PR** for dev 🆔 cHk56r ⛔ WNbW5S ⏫ 📅 2025-01-23 ✅ 2025-01-23
+	- [x] #task **update git** repo 🆔 7e3TRI 🔼 📅 2025-01-22 ✅ 2025-01-23

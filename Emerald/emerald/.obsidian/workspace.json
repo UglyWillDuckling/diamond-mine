@@ -8,36 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0aa74577a3b3c1c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "QSL listing feature"
-            }
-          },
-          {
             "id": "1015af5b8fb7c73e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/AWS import.md",
+                "file": "Knowledge/daily_notes/2025/January/2025-01-24.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS import"
+              "title": "2025-01-24"
+            }
+          },
+          {
+            "id": "0748f27e5ad4bf84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/Learn How to Use Linux Find -printf from 50 Examples.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Learn How to Use Linux Find -printf from 50 Examples"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +50,7 @@
       {
         "id": "396d97731e40095f",
         "type": "tabs",
-        "dimension": 63.07277628032345,
+        "dimension": 73.93209200438116,
         "children": [
           {
             "id": "688b3d615137a273",
@@ -89,13 +90,23 @@
               "icon": "lucide-search",
               "title": "Search"
             }
+          },
+          {
+            "id": "b78fc6a6d66ba614",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {},
+              "icon": "chrome",
+              "title": "Surfing Tab Tree"
+            }
           }
         ]
       },
       {
         "id": "57e13f42a93358af",
         "type": "tabs",
-        "dimension": 36.92722371967655,
+        "dimension": 26.06790799561884,
         "children": [
           {
             "id": "e1b02d9f45cae074",
@@ -103,7 +114,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                "file": "Clippings/Learn How to Use Linux Find -printf from 50 Examples.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -131,7 +142,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of QSL listing feature"
+              "title": "Graph of Learn How to Use Linux Find -printf from 50 Examples"
             }
           },
           {
@@ -155,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282.01103591918945
+    "width": 301.01103591918945
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -242,6 +253,20 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "c19e9e295bf05396",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ],
         "currentTab": 4
@@ -253,6 +278,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "graph:Open graph view": false,
+      "workspaces:Manage workspace layouts": false,
       "templater-obsidian:Templater": false,
       "surfing:surfing-bookmark-manager": true,
       "quickadd:QuickAdd": true,
@@ -273,15 +300,25 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "0aa74577a3b3c1c4",
+  "active": "0748f27e5ad4bf84",
   "lastOpenFiles": [
-    "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
+    "work/tickets/FEAT/QSL listing feature/AWS connection/AWS import.md",
+    "Knowledge/daily_notes/2025/January/2025-01-24.md",
+    "Clippings/Learn How to Use Linux Find -printf from 50 Examples.md",
+    "work/tickets/FEAT/QSL listing feature/AWS connection/AWS connection.md",
+    "+/creating tmp notes for actions that you're doing is often the optimal solution.md",
+    "work/tickets/FEAT/QSL listing feature/AWS connection",
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-    "work/tickets/FEAT/QSL listing feature/AWS-Athena implementation.md",
-    "work/tickets/FEAT/QSL listing feature/AWS import.md",
+    "work/tickets/FEAT/QSL listing feature/subs/cronjob implementation.md",
+    "work/tickets/FEAT/QSL listing feature/subs/Online status update.md",
+    "work/tickets/FEAT/QSL listing feature/CSV backyard export.md",
+    "how to update git butler.md",
+    "Clippings/Layout - Tasks User Guide - Obsidian Publish.md",
+    "work/tickets/FEAT/QSL listing feature/archive/test script for AWS connection on backyard.md",
+    "work/tickets/FEAT/QSL listing feature/docs/GCP connection doc.md",
+    "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
     "Knowledge/notes/archive/Butler conflict resolution.md",
     "work/tickets/FEAT/QSL listing feature/git butler commit tmp.md",
-    "how to update git butler.md",
     "Knowledge/tools/dev/git/git butler.md",
     "Knowledge/daily_notes/2025/January/2025-01-23.md",
     "+/you can use three *** asterisks for more text formatting options.md",
@@ -293,14 +330,6 @@
     "+/Xdebug just works.md",
     "work/bugs/XSS - extranet/Fix xss on extranet.md",
     "work/tickets/FEAT/QSL listing feature/docs/tmp - composer update.md",
-    "Knowledge/daily_notes/2025/January/2025-01-22.md",
-    "Knowledge/templates/day template.md",
-    "Knowledge/daily_notes/2025/January/2025-01-22 daily.md",
-    "work/calls/1 on 1/2025-01-22 1on1.md",
-    "Knowledge/templates/call template.md",
-    "Clippings/Obsidian Physical Object System.md",
-    "work/calls/test.md",
-    "Knowledge/templates/physical object template.md",
     "work/tickets/FEAT/QSL listing feature/docs/code/Athena impl..canvas",
     "dash canvas.canvas",
     "Efforts/Active/Obsidian Tinkering/docs",
@@ -313,7 +342,6 @@
     "work/tickets/FEAT/QSL listing feature/artifacts/crontab board.canvas",
     "work/tickets/FEAT/QSL listing feature/artifacts",
     "Extras/People",
-    "Extras",
     "work/tickets/FEAT/QSL listing feature/docs/code/aws test script solution.canvas",
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.canvas",
     "work/docs/AWS/GCP Connection/auth process.canvas",

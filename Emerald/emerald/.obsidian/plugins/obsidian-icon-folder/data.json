@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSheet",
+      "🗽",
+      "LiClock",
       "LiFile",
-      "♦",
-      "LiBook",
-      "LiWeight",
-      "🎨"
+      "♦"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -436,5 +436,12 @@
   "Knowledge/notes/discovery/obsidian/you can use embeds in Obsidian.md": "LiImage",
   "Knowledge/notes/discovery/dev/KDE/switching alt+win is under keyboard settings.md": "LiKeyboard",
   "work/tickets/FEAT/QSL listing feature/artifacts/cronjob test.md": "🎨",
-  "work/tickets/FEAT/QSL listing feature/AWS-Athena implementation.md": "🗽"
+  "work/tickets/FEAT/QSL listing feature/subs/cronjob implementation.md": "LiClock",
+  "work/tickets/FEAT/QSL listing feature/CSV backyard export.md": {
+    "iconName": "LiSheet",
+    "iconColor": "#19b385"
+  },
+  "work/tickets/FEAT/QSL listing feature/AWS connection/AWS connection.md": "🗽",
+  "work/tickets/FEAT/QSL listing feature/AWS connection": "🗽",
+  "work/tickets/FEAT/QSL listing feature/AWS connection/AWS import.md": "🗽"
 }

@@ -1,0 +1,10 @@
+{
+    "id": "insta-toc",
+    "name": "Insta TOC",
+    "version": "6.3.1",
+    "minAppVersion": "0.15.0",
+    "description": "Simultaneously generate, update, and maintain a table of contents for your notes.",
+    "author": "Nick C.",
+    "autherUrl": "https://github.com/iLiftALot/insta-toc",
+    "isDesktopOnly": false
+}

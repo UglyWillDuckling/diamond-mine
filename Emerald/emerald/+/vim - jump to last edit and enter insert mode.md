@@ -10,7 +10,7 @@ tags:
 ---
 #vim #note #active 
 
-- [ ] remind me (@[[2025-01-24]]))
+- [ ] remind me (@[[2025-01-24]] 10:05))
 
 `gi`
 Will take the cursor to the exact point last edited and put you in insert mode, ready to continue typing. (It's also quicker to type!)

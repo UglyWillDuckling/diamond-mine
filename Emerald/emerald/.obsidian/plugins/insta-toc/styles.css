@@ -1,0 +1,34 @@
+.fold-toggle {
+    margin-right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0;
+    width: 16px;
+    height: 20px;
+}
+
+.fold-toggle:focus {
+    outline: none;
+}
+
+.exclude-chars {
+    font-size: larger;
+    font-weight: bolder;
+    width: 100%;
+}
+
+.setting-title {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.insta-toc-text-info {
+    width: 33%;
+}
+
+.insta-toc-text-area {
+    width: 100%;
+}

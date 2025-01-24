@@ -14,6 +14,18 @@ related:
   - "[[Find Command]]"
   - "[[codedoodle]]"
 ---
+- [[#Directives|Directives]]
+- [[#Name Directives|Name Directives]]
+- [[#Ownership Directives|Ownership Directives]]
+- [[#Size Directives|Size Directives]]
+- [[#Location Directives|Location Directives]]
+- [[#Location: Link Directives|Location: Link Directives]]
+- [[#Time Directives|Time Directives]]
+- [[#Time Formats|Time Formats]]
+- [[#Formatting Tips|Formatting Tips]]
+- [[#Mix Matching Directives|Mix Matching Directives]]
+- [[#Linux Find Tutorials|Linux Find Tutorials]]
+
 In this tutorial, you will learn how to use the GNU/Linux find utility’s printf option.
 
 Among the functionalities that make this file searching utility so powerful is its printf option.
@@ -34,19 +46,7 @@ Where <input> can include any user-provided strings, escapes(\\), and directives
 
 Both single quotes(‘) and double quotes(“) are supported.
 
-**Quick Links**
-
-1. [Escapes](https://www.codedodle.com/#escapes)
-2. [Name Directives](https://www.codedodle.com/#name-directives)
-3. [Ownership Directives](https://www.codedodle.com/#ownership-directives)
-4. [Location Directives](https://www.codedodle.com/#location-directives)
-5. [Link Directives](https://www.codedodle.com/#link-directives)
-6. [Time Directives](https://www.codedodle.com/#time-directives)
-7. [Time Formats](https://www.codedodle.com/#time-formats)
-8. [Formatting Tips](https://www.codedodle.com/#formatting-tips)
-9. [Mix Matching Directives](https://www.codedodle.com/#mixing-directives)
-
-### Escapes
+# Escapes
 
 In my opinion, these two are the most important escapes to remember:-
 
@@ -136,7 +136,7 @@ find . -printf "%k\t%p\n"
    ./month.sql
 ```
 
-- [ ] remind me (@[[2025-01-24]])
+- [ ] remind me (@[[2025-01-24]] 10:07)
 
 ### Location Directives
 

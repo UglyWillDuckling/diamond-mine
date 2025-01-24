@@ -9,6 +9,17 @@ tags:
   - task
   - implementation
 ---
+This is the **main** task
+
+```tasks
+ not done
+ path includes {{query.file.folder}}
+ short mode
+ hide task count
+show tree 
+```
+
+---
 
 - [x] #task implement **AWS source** 🆔 QA0LhI ⏫ ✅ 2025-01-23
 	- [x] #task implement Athena - [[Athena impl..canvas|Athena impl.]] 🆔 A4VjpE ✅ 2025-01-22

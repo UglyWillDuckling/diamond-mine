@@ -19,7 +19,7 @@ related: [[Configuring self-signed SSL certificates for local development]]
 [[nginx setup steps for static site]]
 
 - [/] setup [[#real ssl cert]]
-- [ ] #task [[write down how to setup local ssl certificate]] 🆔 MkV3XO
+- [ ] #task [[write down how to setup local ssl certificate]] 🆔 MkV3XO 🔼 ⏳ 2025-02-08 📅 2025-02-08
 
 ### real ssl cert
 - [x] check the basic wordpress installation [[Let's Encrypt]]
@@ -29,7 +29,7 @@ related: [[Configuring self-signed SSL certificates for local development]]
 - [x] try to implement [[Let's Encrypt]] `locally` via [[docker]]
 - [x] implement [[Let's Encrypt]] on [[my VPS]]
 - [x] combine [[Let's Encrypt]] with a simple static site
-- [ ] #task see how to implement a [[cronjob]] for the certificate <mark style="background: #FFF3A3A6;">renewal</mark> 🔼 🆔 AgeYMR
+- [ ] #task see how to implement a [[cronjob]] for the certificate <mark style="background: #FFF3A3A6;">renewal</mark> 🆔 AgeYMR 🔼 ⏳ 2025-01-26
 - [/] #task write web server setup documentation #docs 🆔 yEcJuz
 
 #### implement on [[my VPS]]

@@ -1,68 +1,60 @@
 {
-  "edges": [
-    {
-      "color": "2",
-      "fromNode": "a78fa77496a6e312",
-      "fromSide": "right",
-      "id": "45bf498430b9a318",
-      "styleAttributes": {
-      },
-      "toNode": "ab4b9ec54c9e3cf8",
-      "toSide": "left"
-    }
-  ],
-  "nodes": [
-    {
-      "color": "3",
-      "height": 900,
-      "id": "a78fa77496a6e312",
-      "styleAttributes": {
-      },
-      "text": "### tasks short\n ```tasks\nnot done\nfilter by function 'TODO'.includes(task.status.type)\nshow tree\nshort mode\n```",
-      "type": "text",
-      "width": 600,
-      "x": -1240,
-      "y": -550
-    },
-    {
-      "color": "5",
-      "height": 860,
-      "id": "ab4b9ec54c9e3cf8",
-      "styleAttributes": {
-        "border": "dotted",
-        "textAlign": "center"
-      },
-      "text": "### in progress\n```tasks\nnot done \nfilter by function 'IN_PROGRESS'.includes(task.status.type)\nshow tree\nhide task count\nshort mode\n```\n",
-      "type": "text",
-      "width": 640,
-      "x": -490,
-      "y": -820
-    },
-    {
-      "autoResizeHeight": false,
-      "color": "6",
-      "height": 160,
-      "id": "e51818b31e3a63ee",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "\n### tiny\n```tasks\nnot done\ntags include #tiny\n```\n\n\n",
-      "type": "text",
-      "width": 460,
-      "x": -720,
-      "y": -1020
-    },
-    {
-      "autoResizeHeight": false,
-      "file": "Efforts/Active/Obsidian Tinkering/How to use canvas.md",
-      "height": 640,
-      "id": "ad65ad5e3dce9d75",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 740,
-      "x": 400,
-      "y": -980
-    }
-  ]
+	"edges":[
+		{
+			"color":"2",
+			"fromNode":"a78fa77496a6e312",
+			"fromSide":"right",
+			"id":"45bf498430b9a318",
+			"styleAttributes":{},
+			"toNode":"ab4b9ec54c9e3cf8",
+			"toSide":"left"
+		}
+	],
+	"nodes":[
+		{
+			"color":"3",
+			"height":900,
+			"id":"a78fa77496a6e312",
+			"styleAttributes":{},
+			"text":"### tasks short\n ```tasks\nnot done\nfilter by function 'TODO'.includes(task.status.type)\nshow tree\nshort mode\n```",
+			"type":"text",
+			"width":600,
+			"x":-1240,
+			"y":-550
+		},
+		{
+			"color":"5",
+			"height":860,
+			"id":"ab4b9ec54c9e3cf8",
+			"styleAttributes":{"border":"dotted","textAlign":"center"},
+			"text":"### in progress\n```tasks\nnot done \nfilter by function 'IN_PROGRESS'.includes(task.status.type)\nshow tree\nhide task count\nshort mode\n```\n",
+			"type":"text",
+			"width":640,
+			"x":-490,
+			"y":-820
+		},
+		{
+			"autoResizeHeight":false,
+			"color":"6",
+			"height":160,
+			"id":"e51818b31e3a63ee",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"\n### tiny\n```tasks\nnot done\ntags include #tiny\n```\n\n\n",
+			"type":"text",
+			"width":460,
+			"x":-720,
+			"y":-1020
+		},
+		{
+			"autoResizeHeight":false,
+			"file":"Efforts/Active/Obsidian Tinkering/docs/How to use canvas.md",
+			"height":640,
+			"id":"ad65ad5e3dce9d75",
+			"styleAttributes":{},
+			"type":"file",
+			"width":740,
+			"x":400,
+			"y":-980
+		}
+	]
 }

@@ -11,6 +11,8 @@
     "about": "multitext",
     "plan-to-watch": "checkbox",
     "interest": "number",
-    "documents": "multitext"
+    "documents": "multitext",
+    "rating": "number",
+    "start date": "date"
   }
 }

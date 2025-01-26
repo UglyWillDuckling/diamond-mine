@@ -122,7 +122,8 @@
           "options": [
             "No status",
             "Todo",
-            "In Progress"
+            "In Progress",
+            "Done"
           ]
         }
       },
@@ -147,23 +148,22 @@
                 "collapse": true,
                 "weight": 0
               },
-              "Done": {
-                "weight": 1,
-                "collapse": true
-              },
               "Todo": {
-                "weight": 2,
+                "weight": 1,
                 "records": [
                   "Efforts/Projects/Obsidian Tinkering/Calendar Video Notes.md",
                   "Efforts/Projects/Obsidian Tinkering/maps of content exploration.md"
-                ]
+                ],
+                "collapse": true
               },
               "In Progress": {
-                "weight": 3,
+                "weight": 2,
                 "records": [
-                  "Efforts/Projects/Obsidian Tinkering/Calendar Video Notes.md",
-                  "Efforts/Projects/Obsidian Tinkering/How to use canvas to build dashboards.md"
+                  "Efforts/Active/Obsidian Tinkering/Templatr exploration.md"
                 ]
+              },
+              "Done": {
+                "weight": 3
               }
             },
             "includeFields": []
@@ -223,7 +223,7 @@
       "defaultName": "",
       "templates": [],
       "excludedNotes": [],
-      "isDefault": true,
+      "isDefault": false,
       "dataSource": {
         "kind": "folder",
         "config": {
@@ -421,6 +421,157 @@
       ],
       "id": "40dbdd09-4f4b-4552-8334-a90b49c82505",
       "name": "Tasks M"
+    },
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "No status",
+            "Done"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [
+        ""
+      ],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#project-kuca",
+          "hierarchy": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "d1ed1409-d4cc-4f2d-89e2-46f614b6883a",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "No status": {
+                "collapse": true,
+                "weight": 0
+              },
+              "In Progress": {
+                "weight": 1,
+                "records": [
+                  "Efforts/Active/Kuca/HPB kredit.md"
+                ]
+              },
+              "Done": {
+                "weight": 2,
+                "records": [
+                  "Efforts/Active/Kuca/HPB kredit.md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "695eccd3-544b-45bf-b264-351a13038e4c",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "795582a6-8d2d-40ec-9f1a-816d09cf2022",
+      "name": "Kuca"
+    },
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "In Progress"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Efforts/Active/Linear Calendar",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "652d5f64-c903-4fcf-b035-10f8b45d1005",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "Todo": {
+                "weight": 0,
+                "records": []
+              },
+              "In Progress": {
+                "weight": 1,
+                "records": [
+                  "Efforts/Active/Linear Calendar/New.md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "d37f6ee2-9dc9-428a-8952-c665a5820d5a",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "6f99ce12-bc2f-4b35-8c36-6bffe5f4bf0b",
+      "name": "Linear Calendar"
     }
   ],
   "archives": [],

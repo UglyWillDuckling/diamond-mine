@@ -14,7 +14,7 @@ tags:
 related:
   - "[[Plotting Task Completions]]"
 ---
-- [ ] remind me (@2025-01-24) **plan** for the weekend
+- [ ] remind me (@2025-01-26) **plan** for the weekend
 	- [ ] see about plotting tasks article[[Plotting Task Completions]]
 ---
 

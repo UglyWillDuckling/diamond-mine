@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[Atlas/Knowledge/Articles/Setting Up Your Local Development Environment for WordPress|Setting Up Your Local Development Environment for WordPress]]"
+  - "[[Setting Up Your Local Development Environment for WordPress|Setting Up Your Local Development Environment for WordPress]]"
 status: In Progress
 ---
 #artifact

@@ -8,25 +8,39 @@
         "rowNumber": 7
       }
     ],
-    "notes/You can easily switch to a different user using su.md": [
-      {
-        "title": "remind me in 2 weeks",
-        "time": "2025-01-25",
-        "rowNumber": 20
-      }
-    ],
-    "Atlas/Knowledge/tools/pc/parallel command.md": [
-      {
-        "title": "remind me",
-        "time": "2025-01-25",
-        "rowNumber": 50
-      }
-    ],
     "Clippings/Creating Dynamic Graphs in Obsidian - Obsidian Rocks.md": [
       {
         "title": "remind me **plan** for the weekend",
-        "time": "2025-01-24",
+        "time": "2025-01-26",
         "rowNumber": 16
+      }
+    ],
+    "Atlas/tools/pc/parallel command.md": [
+      {
+        "title": "remind me",
+        "time": "2025-01-26",
+        "rowNumber": 50
+      }
+    ],
+    "Atlas/Personal/notes/You can easily switch to a different user using su.md": [
+      {
+        "title": "remind me in 2 weeks",
+        "time": "2025-01-26",
+        "rowNumber": 20
+      }
+    ],
+    "Atlas/Personal/notes/libgen-downloader.md": [
+      {
+        "title": "remind me",
+        "time": "2025-01-27",
+        "rowNumber": 9
+      }
+    ],
+    "Atlas/Personal/notes/obsidian/theme settings and the like.md": [
+      {
+        "title": "remind me",
+        "time": "2025-01-26",
+        "rowNumber": 25
       }
     ]
   },

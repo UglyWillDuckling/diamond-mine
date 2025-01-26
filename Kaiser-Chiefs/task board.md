@@ -6,20 +6,17 @@ kanban-plugin: board
 
 ## todo
 
-- [ ] [[organizirati faks za novu godinu]]
-- [ ] add a quicka add to add a new task to this board 🔲
-- [ ] [[Obnova dopunsko osiguranja]]
-- [ ] [[configure tmux]]
 
 
 ## active
 
-- [ ] [[Tasks Management in Obsidian]]
-- [ ] [[Office Tasks]]
+- [ ] [[Obnova dopunsko osiguranja]]
 
 
 ## done
 
+- [ ] [[configure tmux]] #task #backburner
+- [x] add a quicka add to add a new task to this board 🔲
 
 
 ***

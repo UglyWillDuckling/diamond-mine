@@ -53,7 +53,7 @@ LifeHQ is my done-for-you vault with all of my Obsidian workflows pre-configured
 
 ---
 ### look at 
-- [ ] **capturing** tasks
-- [ ] **quick add**
-- [ ] tasks **queries**
+- [x] **capturing** tasks
+- [x] **quick add**
+- [x] tasks **queries**
 - [ ] dashboard

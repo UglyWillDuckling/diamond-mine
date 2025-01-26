@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0b41bfbea992785f",
+        "id": "56e267f0dd9aacd0",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "76ee4321a5a47e61",
+            "id": "3d6b710d7b24601a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager note.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager note"
+              "title": "New tab"
             }
           }
         ]
@@ -75,30 +70,10 @@
             }
           }
         ]
-      },
-      {
-        "id": "66ea893fa4e0fb4c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8a244cf9efb9bb99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/Active/Tasks Management in Obsidian/Tasks Management in Obsidian.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tasks Management in Obsidian"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 352.5,
+    "width": 467.5026054382324,
     "collapsed": true
   },
   "right": {
@@ -188,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -209,49 +184,50 @@
       "chronology:Open Chronology": true,
       "markwhen:Create new Markwhen file": true,
       "daily-notes:Open today's daily note": false,
-      "obsidian-projects:Open projects": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "76ee4321a5a47e61",
+  "active": "3d6b710d7b24601a",
   "lastOpenFiles": [
-    "quickadd plugin.md",
-    "How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager note.md",
-    "+/How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager.md",
-    "Efforts/Active/Tasks Management in Obsidian/Tasks Management in Obsidian.md",
+    "Calendar/daily/2025-01-26.md",
+    "Atlas/Personal/notes/obsidian/theme settings and the like.md",
+    "Clippings/Codeblock Reference - Dataview.md",
+    "Atlas/Personal/notes/You can easily switch to a different user using su.md",
+    "+/working under root - permissions.md",
+    "Atlas/Personal/notes/archive/ranger is actually quite good.md",
+    "Atlas/Personal/notes/archive/having a timeline list seems very useful.md",
+    "Atlas/Personal/notes/libgen-downloader.md",
+    "Atlas/Personal/Faks/Faks.md",
+    "Atlas/Knowledge/howtos/git - resolve merge conflict.md",
+    "x/theme options.md",
+    "Atlas/Info/ipod disk mode.md",
+    "Atlas/Info",
+    "Atlas/Knowledge/repository/dev/IMAP.md",
+    "Atlas/Knowledge/repository/dev/linux fonts.md",
+    "Atlas/Knowledge/Media/Musiic/Mountain Goats.md",
+    "Atlas/Knowledge/Media/Musiic",
+    "Baza zemljisnih podataka.md",
+    "Atlas/Services",
+    "Atlas/Places/Online/Obsidian Rocks.md",
+    "Atlas/Places/Online/Portal Zdravlje HR.md",
+    "Atlas/Resources",
+    "Atlas/Places/Online",
+    "Clippings/Netanyahu’s total victory narrative has collapsed  Daniel Levy  The Big Picture.md",
+    "Digitalni katastarki Planovi.md",
+    "clips/How to Create your own Obsidian Web Clipper - Share & showcase - Obsidian Forum.md",
+    "Clippings/UN suspends trips into Houthi-held areas of Yemen after more staff detained.md",
+    "clips",
+    "Clippings/Techdot.md",
+    "Efforts/tasks/dev/See how to manage your library.md",
+    "Efforts/tasks/dev/configure tmux.md",
+    "Efforts/Active/Obsidian Tinkering/Templatr exploration.md",
+    "tasks canvas.canvas",
+    "Efforts/Active/Linear Calendar",
+    "Efforts/Active/Obsidian Tinkering/docs",
+    "Efforts/Active/Obsidian Tinkering/x",
     "tasks pic.canvas",
-    "Atlas/Knowledge/tools/obsidian/plugins/Tasks plugin/Tasks plugin.md",
-    "dataview.md",
-    "Clippings/Snippet so you can use Dataview Cards from Minimal theme in any theme - Share & showcase - Obsidian Forum.md",
-    "Atlas/Knowledge/Media/movies/movi list - wip.md",
-    "Atlas/Knowledge/Media/movies/Apocalypse Now (1979).md",
-    "OMDB.md",
-    "Media DB/movies",
-    "Media DB",
-    "Atlas/Knowledge/Experiment",
-    "Atlas/Knowledge/Media/howtos/how to filter dataview by current dir.md",
-    "Atlas/Knowledge/tools/obsidian/plugins/Tasks plugin/Filters - Tasks User Guide - Obsidian Publish.md",
-    "Atlas/Knowledge/tools/obsidian/plugins/Tasks plugin/Tasks User Guide - Layout.md",
-    "Atlas/Knowledge/tools/obsidian/plugins/Tasks plugin/hide task count in Tasks.md",
-    "Calendar/daily/2025-01-22.md",
-    "Clippings/Creating Dynamic Graphs in Obsidian - Obsidian Rocks.md",
-    "Clippings/Plotting Task Completions.md",
-    "Efforts/Active/Tasks Management in Obsidian/explore Task management in Obsidian.md",
-    "Efforts/Active/Tasks Management in Obsidian/Play around with Projects plugin.md",
-    "Efforts/tasks/tasks.md",
-    "Clippings/How to Manage Tasks in Obsidian-The Complete Guide - Obsidian Rocks.md",
-    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
-    "Efforts/Active/Obsidian Tinkering/How to use canvas.md",
-    "+/Unable to set file picker for apps.md",
-    "Calendar/daily/2025-01-20.md",
-    "Atlas/Life/People/Nick Milo.md",
-    "howot",
-    "Atlas/Knowledge/HowTo",
-    "Efforts/Simmering",
-    "Efforts/Future",
-    "Efforts/Active/Persona/Docs/Dev/Wordpress",
-    "Calendar/Actions",
-    "Calendar/Events",
+    "Efforts/Active/Kuca/HPB kredit",
     "x/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"
   ]

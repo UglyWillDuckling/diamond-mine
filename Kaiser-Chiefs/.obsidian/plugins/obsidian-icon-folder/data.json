@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "🎥",
-      "LiPersonStanding",
-      "🌄",
-      "📹",
-      "LiWrench"
+      "LiNotebookText",
+      "📅",
+      "LiPlay",
+      "🏠",
+      "🎥"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -45,12 +45,15 @@
   "Efforts/Active/Persona/Tickets/migrate Persona DNS.md": "LiSatelliteDish",
   "Efforts/Active/Persona/Docs/Upute za mail konfiguraciju.md": "LiNotebookText",
   "Calendar/days": "LiCalendar",
-  "Atlas": "🗺",
   "Calendar": "LiCalendarHeart",
   "x/Notion database views in Obsidian Projects.md": "📹",
   "Calendar/Events": "🌄",
   "Efforts/Active/Persona/Docs/Dev/Wordpress/wp_users.md": "LiPersonStanding",
-  "Efforts/Active/Obsidian Tinkering": "LiWrench",
+  "Efforts/Active/Obsidian Tinkering": "LiPlay",
   "Efforts/Active/Tasks Management in Obsidian": "LiCheckCheck",
-  "Atlas/Knowledge/Media/movies/movi list - wip.md": "🎥"
+  "Efforts/Active/Kuca": "🏠",
+  "Efforts/Active/Linear Calendar": "📅",
+  "Atlas": "🗺",
+  "Atlas/Knowledge/Media/movies/movi list - wip.md": "🎥",
+  "Atlas/Personal/notes": "LiNotebookText"
 }

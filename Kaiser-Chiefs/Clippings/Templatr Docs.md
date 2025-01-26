@@ -11,7 +11,7 @@ tags:
   - howto
 favicon: https://silentvoid13.github.io/favicon.ico
 related:
-  - "[[Templater]]"
+  - "[[Templatr]]"
 ---
 - [[#Introduction|Introduction]]
 - [[#Quick Example|Quick Example]]

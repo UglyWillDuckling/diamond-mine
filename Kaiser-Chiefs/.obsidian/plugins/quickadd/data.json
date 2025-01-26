@@ -6,6 +6,41 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
+      "captureTo": "Master Task List",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "```js quickadd\nreturn await this.app.plugins.plugins['obsidian-tasks-plugin'].apiV1.createTaskLineModal();\n```"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "848276cd-9c8a-4484-a18f-edc7ecf1974a",
+      "name": "New",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
       "captureTo": "",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
@@ -14,7 +49,7 @@
         "template": ""
       },
       "format": {
-        "enabled": false,
+        "enabled": true,
         "format": ""
       },
       "insertAfter": {
@@ -32,11 +67,68 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
       "openFileInMode": "default"
+    },
+    {
+      "id": "06943143-b59e-4c64-9798-6c28ad910fdc",
+      "name": "book",
+      "type": "Macro",
+      "command": true,
+      "macroId": "03030d5f-1ce3-44b1-99dd-9d28a24ce657"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "book",
+      "id": "03030d5f-1ce3-44b1-99dd-9d28a24ce657",
+      "commands": [
+        {
+          "name": "BookFinder",
+          "type": "UserScript",
+          "id": "2cf20d04-90e8-41a4-a0dc-fc9a00f13b0a",
+          "path": "notes/scripts/BookFinder.js",
+          "settings": {}
+        },
+        {
+          "name": "template",
+          "type": "NestedChoice",
+          "id": "4464dffe-1fef-48b8-8ab6-aacadf5dcb7b",
+          "choice": {
+            "id": "50b38f4d-7f65-4a9c-ae86-b58c82ad8b85",
+            "name": "template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Atlas/Knowledge/templates/book template.md",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Atlas/Knowledge/Media/Books"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",

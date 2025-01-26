@@ -1,0 +1,1 @@
+#tool #obsidian-plugin #plugin 

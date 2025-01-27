@@ -10,10 +10,12 @@ deadline: 2025-01-26
 -  [[How to Manage Projects in Obsidian]]
 - [[How to Use Obsidian Tasks Plugin Deep Dive]] video
 
-### tasks
+### tasks ✔
 
 - [x] #task explore tasks in [[Obsidian]] 🆔 tXya1Y ⏳ 2025-01-26 📅 2025-01-26 ✅ 2025-01-25
 	- [x] read found articles [[#articles on tasks]]
 	- [x] #task look into [[How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager]] 🔼 📅 2025-01-21 ✅ 2025-01-25
-		- [x] #task ✍write down **notes** ⏫ ✅ 2025-01-25
+
 - [ ] #task explore [[Tasks plugin]]  in general #backburner  🆔 12b3go
+
+[[Morgen with Obsidian exploration]]

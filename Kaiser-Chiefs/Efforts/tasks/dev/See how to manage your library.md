@@ -5,7 +5,7 @@ related:
 :LiSquareLibrary:
 :LiSquareLibrary:
 :LiSquareLibrary:
-- [/] #task [[See how to manage your library]] 🆔 CIrDaq 🔽 ⏳ 2025-01-26
+- [/] #task [[See how to manage your library]] 🆔 CIrDaq 🔽 ⏳ 2025-01-29
 
 [[Obsidian Library How To Keep Track of Your Books in Obsidian]]
 

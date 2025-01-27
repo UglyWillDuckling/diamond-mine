@@ -19,7 +19,7 @@ related: [[Configuring self-signed SSL certificates for local development]]
 [[nginx setup steps for static site]]
 
 - [/] setup [[#real ssl cert]]
-- [ ] #task [[write down how to setup local ssl certificate]] 🆔 MkV3XO 🔼 ⏳ 2025-02-08 📅 2025-02-08
+- [x] #task [[write down how to setup local ssl certificate]] 🆔 MkV3XO 🔼 ⏳ 2025-02-08 📅 2025-02-08 ✅ 2025-01-27
 
 ### real ssl cert
 - [x] check the basic wordpress installation [[Let's Encrypt]]

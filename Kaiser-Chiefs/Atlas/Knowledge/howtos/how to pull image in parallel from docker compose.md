@@ -2,6 +2,8 @@
 related:
   - "[[docker]]"
   - "[[Docker Compose]]"
+tags:
+  - howto
 ---
 ```bash
 parallel 'docker pull' ::: $(cat docker-compose.yml | grep image | awk '{print $2}')

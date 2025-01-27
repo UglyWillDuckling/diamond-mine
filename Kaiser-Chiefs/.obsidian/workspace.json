@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fcbee787ea68cb0e",
+        "id": "0ae5bd2c5576aacf",
         "type": "tabs",
         "children": [
           {
-            "id": "6e8d8b1046f58900",
+            "id": "f39341d289f9e397",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Efforts/Active/Wordpress/Wordpress Dev Setup.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Wordpress Dev Setup"
             }
           }
         ]
@@ -48,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "take a look at set ",
+                "query": "tag:#docs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.51103591918945,
-    "collapsed": true
+    "width": 387.51103591918945
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -122,9 +125,24 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Obsidian Tinkering"
+            }
+          },
+          {
+            "id": "08c4f9c69a275725",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -136,17 +154,29 @@
               "icon": "clock",
               "title": "Chronology"
             }
+          },
+          {
+            "id": "e2dfdd096e897a5f",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
+    "width": 442.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian42-brat:BRAT": false,
+      "task-board:Open task board": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-media-db-plugin:Add new Media DB entry": true,
       "switcher:Open quick switcher": true,
@@ -159,16 +189,33 @@
       "chronology:Open Chronology": true,
       "markwhen:Create new Markwhen file": true,
       "daily-notes:Open today's daily note": false,
-      "obsidian-projects:Open projects": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian42-brat:BRAT": true,
-      "task-board:Open task board": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "6e8d8b1046f58900",
+  "active": "f39341d289f9e397",
   "lastOpenFiles": [
+    "Master Task List.md",
+    "Efforts/Active/Wordpress/Wordpress Dev Setup.md",
+    "Efforts/Active/Wordpress/Wordpress.md",
+    "Efforts/Active/Tasks Management in Obsidian/Morgen with Obsidian exploration.md",
+    "Efforts/Active/Tasks Management in Obsidian/Tasks Management in Obsidian.md",
+    "Efforts/Active/Tasks Management in Obsidian/docs",
+    "Efforts/Active/Tasks Management in Obsidian/docs/How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager note.md",
+    "Efforts/Active/Tasks Management in Obsidian/Projects Plugin Notes.md",
+    "tasks canvas.canvas",
+    "task board.md",
+    "Efforts/Active/Wordpress/note on solid wordpress dev with docker.md",
+    "Atlas/Personal/notes/question - how does docker choose from where to take the files for a volume.md",
+    "x/analiza ponuda za dopunsko.md",
+    "Atlas/Knowledge/howtos/how to pull image in parallel from docker compose.md",
+    "Atlas/tools/pc/parallel command.md",
+    "Atlas/Personal/notes/fali mi stvarno linear history za ono sto radim.md",
+    "x/kompare mail s ponudama.md",
+    "Atlas/Knowledge/howtos/you can install fonts on arch using pacman.md",
+    "tasks pic.canvas",
+    "Efforts/Active/Zdravlje/Obnova dopunskog osiguranja.md",
     "Efforts/Active/Kuca/HPB kredit/HPB kredit.md",
-    "fali mi stvarno linear history za ono sto radim.md",
     "Efforts/Active/Kuca/HPB kredit/archive",
     "Efforts/Active/Kuca/HPB kredit/archive/updejt troskovnika za HPB.md",
     "Efforts/Active/Kuca/Kuca.md",
@@ -178,33 +225,14 @@
     "Atlas/Personal/notes/Projects, Tickets -> Tasks.md",
     "uplata groupama.md",
     "Atlas/tools/Morgen.md",
-    "Master Task List.md",
     "Atlas/Knowledge/howtos/how to edit multiple cells in sheets.md",
-    "Atlas/Info/Karenca za dopunsko osiguranje.md",
-    "Atlas/Personal/notes/it is much better to use docker desktop to manage containers.md",
-    "Atlas/World/Companies/Kompare.md",
-    "Atlas/World/Companies/Groupama osiguranje.md",
     "Atlas/World/Companies",
-    "Atlas/Knowledge/howtos/creating local certificates is super simple.md",
-    "Atlas/Personal/People/Danijela Dordevic.md",
-    "kompare mail s ponudama.md",
-    "Efforts/Active/Zdravlje/Obnova dopunskog osiguranja.md",
-    "analiza ponuda za dopunsko.md",
-    "x/elektro troskovnik HPB.md",
-    "+/working under root - permissions.md",
-    "Clippings/arch pacman.md",
-    "Atlas/tools/pc/modprobe.md",
-    "you can install fonts on arch using pacman.md",
-    "Atlas/Knowledge/howtos/how to edit values on scale in sheets.md",
     "Efforts/Active/Wordpress",
     "Efforts/Active/Persona/archive",
     "Atlas/Knowledge/Media/Articles/Dev",
-    "tasks canvas.canvas",
     "Atlas/Info",
     "Atlas/Knowledge/Media/Musiic",
     "Atlas/Services",
-    "Atlas/Resources",
-    "tasks pic.canvas",
     "x/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"
   ]

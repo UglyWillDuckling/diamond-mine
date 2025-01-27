@@ -48,4 +48,4 @@ related:
   •  `-k`  or  --keep-order : preserves the order of the input values.
   •  `-v`  or  --verbose : increases the verbosity of  parallel .
 
-- [ ] remind me (@2025-01-27 23:13)
+- [x] remind me (@2025-01-27 23:13)

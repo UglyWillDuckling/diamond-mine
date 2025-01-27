@@ -279,21 +279,6 @@
                 "completed": ""
             }
         ],
-        "Calendar/daily/2025-01-20.md": [
-            {
-                "id": 767765444,
-                "title": "#task see what to do with [[Boox Palma 2]] 🔼 ⏳ 2025-01-30",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 3,
-                "filePath": "Calendar/daily/2025-01-20.md",
-                "completed": ""
-            }
-        ],
         "Calendar/daily/2025-01-18.md": [
             {
                 "id": 858890408,
@@ -555,8 +540,8 @@
         ],
         "Atlas/Personal/notes/libgen-downloader.md": [
             {
-                "id": 218198639,
-                "title": "remind me (@2025-01-27 22:41)",
+                "id": 1850392316,
+                "title": "monthly reminder (@2025-02-22)",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -723,8 +708,8 @@
         ],
         "Master Task List.md": [
             {
-                "id": 331843084,
-                "title": "#task Use [[Dann]]'s daily note **template** 🔼 ⏳ 2025-01-29 📅 2025-01-29",
+                "id": 1943973,
+                "title": "#task Use [[Dann]]'s daily note **template** 🔼 ⏳ 2025-01-29 📅 2025-01-29 🆔 bbkI80",
                 "body": [],
                 "time": "",
                 "due": "2025-01-29",
@@ -736,7 +721,7 @@
                 "completed": ""
             },
             {
-                "id": 9485199,
+                "id": 1985222437,
                 "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
                 "body": [],
                 "time": "",
@@ -744,6 +729,22 @@
                 "tags": [
                     "#task",
                     "#tiny"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 2150508813,
+                "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-01-30",
+                "body": [
+                    "\t- check online",
+                    "\t- create **real** tasks"
+                ],
+                "time": "",
+                "due": "2025-01-30",
+                "tags": [
+                    "#task"
                 ],
                 "priority": 3,
                 "filePath": "Master Task List.md",
@@ -3134,7 +3135,7 @@
         ],
         "Master Task List.md": [
             {
-                "id": 1279127479,
+                "id": 3452910553,
                 "title": "#task fix [[Morgen]] ⏫ ⏳ 2025-01-27 📅 2025-01-27 🆔 Pe9BLE ✅ 2025-01-27",
                 "body": [],
                 "time": "",
@@ -3147,7 +3148,7 @@
                 "completed": "2025-01-27"
             },
             {
-                "id": 830859678,
+                "id": 2130827833,
                 "title": "#task skinuti glazbu Boba Dylana 🆔 R3dTac 🔼 ⏳ 2025-01-27 📅 2025-01-28 ✅ 2025-01-27",
                 "body": [],
                 "time": "",
@@ -3160,7 +3161,7 @@
                 "completed": "2025-01-27"
             },
             {
-                "id": 271812779,
+                "id": 2241816840,
                 "title": "#task Find a way to edit [[excel]] values **on a scale** 🆔 fgfCyU ⏫ ⏳ 2025-01-27 ✅ 2025-01-27",
                 "body": [
                     "\t- [x] [[how to edit values on scale in sheets]]",
@@ -3245,6 +3246,19 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Atlas/tools/pc/parallel command.md",
+                "completed": ""
+            }
+        ],
+        "Atlas/Personal/notes/libgen-downloader.md": [
+            {
+                "id": 2966382050,
+                "title": "remind me (@2025-01-27 22:41)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Personal/notes/libgen-downloader.md",
                 "completed": ""
             }
         ]

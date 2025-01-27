@@ -1216,6 +1216,7 @@ sistematske
 savjetovanje
 svim
 sN
+simplifying
 doesn
 due
 depends
@@ -2874,6 +2875,7 @@ pobjednik
 partly
 primjeti
 projekata
+pices
 on
 out
 other
@@ -4568,6 +4570,7 @@ mi
 mjerenje
 mase
 minimalnim
+mixing
 copy
 connect
 contain
@@ -5246,6 +5249,7 @@ cachedir
 corrupt
 cijene
 cijena
+constraints
 error
 extremely
 existed
@@ -6420,6 +6424,7 @@ DOD
 Dylana
 DOPUNSKO
 Doktor
+Dann
 Working
 World
 With
@@ -6832,6 +6837,7 @@ Terminus
 Therefore
 Trigliceridi
 ToI
+Taggings
 background
 between
 br
@@ -7165,6 +7171,7 @@ birate
 bolnica
 besplatno
 bolnicama
+belonging
 FFB
 French
 France
@@ -8281,6 +8288,7 @@ alju
 akcijski
 aplikacija
 aplikaciju
+abstraction
 had
 his
 houses
@@ -8483,6 +8491,8 @@ handwriting
 hollow
 hash
 happening
+hierarchies
+health
 name
 not
 new

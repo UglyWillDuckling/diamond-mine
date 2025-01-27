@@ -723,15 +723,29 @@
         ],
         "Master Task List.md": [
             {
-                "id": 1111133748,
-                "title": "#task napraviti novi **projekt** za [[ipod]] glazbu 🆔 7uFa5E",
+                "id": 331843084,
+                "title": "#task Use [[Dann]]'s daily note **template** 🔼 ⏳ 2025-01-29 📅 2025-01-29",
+                "body": [],
+                "time": "",
+                "due": "2025-01-29",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 9485199,
+                "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
                 "body": [],
                 "time": "",
                 "due": "",
                 "tags": [
-                    "#task"
+                    "#task",
+                    "#tiny"
                 ],
-                "priority": 0,
+                "priority": 3,
                 "filePath": "Master Task List.md",
                 "completed": ""
             }
@@ -3120,7 +3134,7 @@
         ],
         "Master Task List.md": [
             {
-                "id": 1975475171,
+                "id": 1279127479,
                 "title": "#task fix [[Morgen]] ⏫ ⏳ 2025-01-27 📅 2025-01-27 🆔 Pe9BLE ✅ 2025-01-27",
                 "body": [],
                 "time": "",
@@ -3133,7 +3147,7 @@
                 "completed": "2025-01-27"
             },
             {
-                "id": 18291975,
+                "id": 830859678,
                 "title": "#task skinuti glazbu Boba Dylana 🆔 R3dTac 🔼 ⏳ 2025-01-27 📅 2025-01-28 ✅ 2025-01-27",
                 "body": [],
                 "time": "",
@@ -3146,7 +3160,7 @@
                 "completed": "2025-01-27"
             },
             {
-                "id": 1070943723,
+                "id": 271812779,
                 "title": "#task Find a way to edit [[excel]] values **on a scale** 🆔 fgfCyU ⏫ ⏳ 2025-01-27 ✅ 2025-01-27",
                 "body": [
                     "\t- [x] [[how to edit values on scale in sheets]]",

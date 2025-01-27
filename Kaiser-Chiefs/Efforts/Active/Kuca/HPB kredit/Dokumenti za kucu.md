@@ -1,7 +1,7 @@
 ---
 tags:
   - project-kuca
-status: In Progress
+status: Done
 ---
 - [x] [[zemljisni podaci]]
 ---

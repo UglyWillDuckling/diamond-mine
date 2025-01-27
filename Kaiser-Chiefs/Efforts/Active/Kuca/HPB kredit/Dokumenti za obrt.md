@@ -1,7 +1,7 @@
 ---
 tags:
   - project-kuca
-status: In Progress
+status: Done
 ---
-- [x] obrtnica
-- [ ] ..
+- [x] [[moja obrtnica]]
+- [x] [[bon 2]]

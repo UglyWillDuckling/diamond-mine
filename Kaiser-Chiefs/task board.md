@@ -10,12 +10,12 @@ kanban-plugin: board
 
 ## active
 
-- [ ] [[Obnova dopunsko osiguranja]]
+- [ ] [[Obnova dopunskog osiguranja]]
 
 
 ## done
 
-- [ ] [[configure tmux]] #task #backburner
+- [ ] [[configure tmux]] #task #backburner 🆔 gH7ToI
 - [x] add a quicka add to add a new task to this board 🔲
 
 

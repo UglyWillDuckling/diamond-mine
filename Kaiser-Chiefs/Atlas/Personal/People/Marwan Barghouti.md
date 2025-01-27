@@ -1,7 +1,5 @@
 ---
 source: https://en.wikipedia.org/wiki/Marwan_Barghouti
-author:
-  - "[[Contributors to Wikimedia projects]]"
 published: 2002-08-15
 created: 2025-01-27
 tags:
@@ -9,6 +7,8 @@ tags:
   - palestine
   - palestinian
   - person
+  - historic-figure
+  - politician
 related:
   - "[[palestine]]"
   - "[[israel]]"

@@ -2,8 +2,8 @@
     "Pending": {
         "task board.md": [
             {
-                "id": 1756428120,
-                "title": "[[Obnova dopunsko osiguranja]]",
+                "id": 2830671463,
+                "title": "[[Obnova dopunskog osiguranja]]",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -13,8 +13,8 @@
                 "completed": ""
             },
             {
-                "id": 1196230817,
-                "title": "[[configure tmux]] #task #backburner",
+                "id": 896223382,
+                "title": "[[configure tmux]] #task #backburner 🆔 gH7ToI",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -27,7 +27,7 @@
                 "completed": ""
             },
             {
-                "id": 2969978715,
+                "id": 3236355215,
                 "title": "[[setup obsidian on your phone📱]]",
                 "body": [],
                 "time": "",
@@ -38,7 +38,7 @@
                 "completed": ""
             },
             {
-                "id": 3677032601,
+                "id": 897721330,
                 "title": "plati porez",
                 "body": [],
                 "time": "",
@@ -49,7 +49,7 @@
                 "completed": ""
             },
             {
-                "id": 2437892950,
+                "id": 3169701150,
                 "title": "investigate startup slow",
                 "body": [],
                 "time": "",
@@ -107,7 +107,7 @@
         ],
         "Efforts/Active/Wordpress/Wordpress Dev Setup.md": [
             {
-                "id": 384786177,
+                "id": 225933786,
                 "title": "#task find more resources for dev 🔼 📅 2025-01-26",
                 "body": [],
                 "time": "",
@@ -120,7 +120,7 @@
                 "completed": ""
             },
             {
-                "id": 3861864519,
+                "id": 1283296117,
                 "title": "#task explore how to use [[composer]] ⏳ 2025-01-26",
                 "body": [
                     "\t- [[Using Composer with WordPress]]"
@@ -135,7 +135,7 @@
                 "completed": ""
             },
             {
-                "id": 2009561627,
+                "id": 3951208743,
                 "title": "#task [[best project structure for wordpress]] ⏳ 2025-01-26",
                 "body": [],
                 "time": "",
@@ -261,23 +261,8 @@
         ],
         "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md": [
             {
-                "id": 3188224765,
-                "title": "#task explore [[Maps of Content]] [[maps of content exploration]] 🆔 sVpPZh 🔼",
-                "body": [
-                    "\t- [[Using Obsidian Canvas to Create Custom Dashboards]] video"
-                ],
-                "time": "",
-                "due": "",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 3,
-                "filePath": "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
-                "completed": ""
-            },
-            {
-                "id": 1529238,
-                "title": "#task Explore [[quickadd]] #backburner 🔼 ➕ 2025-01-25",
+                "id": 1560645264,
+                "title": "#task Explore [[quickadd]] #backburner 🔼 ➕ 2025-01-25 🆔 8D8EFq",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -290,8 +275,8 @@
                 "completed": ""
             },
             {
-                "id": 3643541789,
-                "title": "#task look into **graphing data** 🔼 ➕ 2025-01-26",
+                "id": 666511811,
+                "title": "#task look into **graphing data** 🔼 ➕ 2025-01-26 🆔 gXl19a",
                 "body": [
                     "\t- [[Creating Dynamic Graphs in Obsidian - Obsidian Rocks]]",
                     "\t- [[Plotting Task Completions]]"
@@ -303,19 +288,6 @@
                 ],
                 "priority": 3,
                 "filePath": "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
-                "completed": ""
-            }
-        ],
-        "Efforts/Active/Kuca/HPB kredit/Dokumenti za obrt.md": [
-            {
-                "id": 796376267,
-                "title": "..",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Efforts/Active/Kuca/HPB kredit/Dokumenti za obrt.md",
                 "completed": ""
             }
         ],
@@ -541,8 +513,8 @@
         ],
         "Atlas/tools/pc/parallel command.md": [
             {
-                "id": 3165429757,
-                "title": "remind me (@2025-01-27)",
+                "id": 436771896,
+                "title": "remind me (@2025-01-27 23:13)",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -818,8 +790,21 @@
         ],
         "Master Task List.md": [
             {
-                "id": 819031731,
-                "title": "#task take a look at [[Set up a POWERFUL Obsidian Task and Time Management System with Morgen]] 🔼 ⏳ 2025-01-27",
+                "id": 3510364386,
+                "title": "#task skinuti glazbu Boba Dylana 🔼 ⏳ 2025-01-27 📅 2025-01-28 🆔 R3dTac",
+                "body": [],
+                "time": "",
+                "due": "2025-01-28",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 206577716,
+                "title": "#task take a look at [[Set up a POWERFUL Obsidian Task and Time Management System with Morgen]] 🔼 ⏳ 2025-01-27 🆔 rboaJy",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -830,12 +815,38 @@
                 "filePath": "Master Task List.md",
                 "completed": ""
             }
+        ],
+        "Clippings/arch pacman.md": [
+            {
+                "id": 2718756869,
+                "title": "remind me (@2025-01-30)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/arch pacman.md",
+                "completed": ""
+            }
+        ],
+        "updejt troskovnika za HPB.md": [
+            {
+                "id": 2792151493,
+                "title": "@ poslati troskovnik",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "updejt troskovnika za HPB.md",
+                "completed": ""
+            }
         ]
     },
     "Completed": {
         "task board.md": [
             {
-                "id": 4166230382,
+                "id": 3382917846,
                 "title": "add a quicka add to add a new task to this board 🔲",
                 "body": [],
                 "time": "",
@@ -846,7 +857,7 @@
                 "completed": ""
             },
             {
-                "id": 3327134577,
+                "id": 1477569958,
                 "title": "[[see why yay won't update]]",
                 "body": [],
                 "time": "",
@@ -857,7 +868,7 @@
                 "completed": ""
             },
             {
-                "id": 712931637,
+                "id": 3794073847,
                 "title": "[[review Hugama studio]]",
                 "body": [],
                 "time": "",
@@ -868,7 +879,7 @@
                 "completed": ""
             },
             {
-                "id": 3309123472,
+                "id": 2378482780,
                 "title": "Notion subscription",
                 "body": [],
                 "time": "",
@@ -879,7 +890,7 @@
                 "completed": ""
             },
             {
-                "id": 3841109050,
+                "id": 2259466457,
                 "title": "try to remove the **default** folder icon 📁",
                 "body": [],
                 "time": "",
@@ -890,7 +901,7 @@
                 "completed": ""
             },
             {
-                "id": 3570782835,
+                "id": 1191819292,
                 "title": "[[fix shortcuts on PC]]",
                 "body": [],
                 "time": "",
@@ -901,7 +912,7 @@
                 "completed": ""
             },
             {
-                "id": 2440621599,
+                "id": 999194913,
                 "title": "hello @{2024-11-09}",
                 "body": [],
                 "time": "",
@@ -912,7 +923,7 @@
                 "completed": ""
             },
             {
-                "id": 1455971910,
+                "id": 4029110458,
                 "title": "platiti porez",
                 "body": [],
                 "time": "",
@@ -923,7 +934,7 @@
                 "completed": ""
             },
             {
-                "id": 3692461343,
+                "id": 3559745151,
                 "title": "poslati mail profesorici iz Matematike [[poslati mailove za upis na predmete]]",
                 "body": [],
                 "time": "",
@@ -934,7 +945,7 @@
                 "completed": ""
             },
             {
-                "id": 1152412658,
+                "id": 961117019,
                 "title": "[[review fizio]] #task ✅ 2024-12-17",
                 "body": [],
                 "time": "",
@@ -947,7 +958,7 @@
                 "completed": "2024-12-17"
             },
             {
-                "id": 2156978512,
+                "id": 2173512011,
                 "title": "[[platiti Elan]]",
                 "body": [],
                 "time": "",
@@ -958,7 +969,7 @@
                 "completed": ""
             },
             {
-                "id": 5285535,
+                "id": 76929408,
                 "title": "[[setup obsidian repo on mobile]] #task ✅ 2024-12-17",
                 "body": [],
                 "time": "",
@@ -971,7 +982,7 @@
                 "completed": "2024-12-17"
             },
             {
-                "id": 3970335362,
+                "id": 3488537080,
                 "title": "[[use the timeline and daily tasks ✅]]",
                 "body": [],
                 "time": "",
@@ -982,7 +993,7 @@
                 "completed": ""
             },
             {
-                "id": 329922956,
+                "id": 719337626,
                 "title": "[[registracija auta]]",
                 "body": [],
                 "time": "",
@@ -993,7 +1004,7 @@
                 "completed": ""
             },
             {
-                "id": 3652806154,
+                "id": 3928135097,
                 "title": "[[provjeriti techdot domenu]]",
                 "body": [],
                 "time": "",
@@ -1004,7 +1015,7 @@
                 "completed": ""
             },
             {
-                "id": 2858289567,
+                "id": 4227785816,
                 "title": "[[Setup hosting - send email to hostinger]]",
                 "body": [],
                 "time": "",
@@ -1015,7 +1026,7 @@
                 "completed": ""
             },
             {
-                "id": 965286864,
+                "id": 4226829017,
                 "title": "[[Poslati dokumente na Kompare.hr]]",
                 "body": [],
                 "time": "",
@@ -1026,7 +1037,7 @@
                 "completed": ""
             },
             {
-                "id": 3969255553,
+                "id": 3823647377,
                 "title": "[[HAK - obnoviti clanstvo]]",
                 "body": [],
                 "time": "",
@@ -1037,7 +1048,7 @@
                 "completed": ""
             },
             {
-                "id": 1226437013,
+                "id": 2057335759,
                 "title": "[[fix obsidian on PC]] #task ✅ 2025-01-18",
                 "body": [],
                 "time": "",
@@ -1050,7 +1061,7 @@
                 "completed": "2025-01-18"
             },
             {
-                "id": 1475371937,
+                "id": 55118333,
                 "title": "#task [[platit racune]] 🔺 ✅ 2025-01-13",
                 "body": [],
                 "time": "",
@@ -1063,7 +1074,7 @@
                 "completed": "2025-01-13"
             },
             {
-                "id": 1388619173,
+                "id": 2581929310,
                 "title": "[[Setup hosting]] 📡",
                 "body": [],
                 "time": "",
@@ -2518,7 +2529,7 @@
         ],
         "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md": [
             {
-                "id": 835344978,
+                "id": 3987990702,
                 "title": "#task see how to use [[canvas]] for building dashboards 🆔 awSIXI ⏫ ✅ 2025-01-25",
                 "body": [
                     "\t- [[How to use canvas]]"
@@ -2570,8 +2581,19 @@
         ],
         "Efforts/Active/Kuca/HPB kredit/Dokumenti za obrt.md": [
             {
-                "id": 347604683,
-                "title": "obrtnica",
+                "id": 2357513058,
+                "title": "[[moja obrtnica]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Kuca/HPB kredit/Dokumenti za obrt.md",
+                "completed": ""
+            },
+            {
+                "id": 1022868272,
+                "title": "[[bon 2]]",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -2583,7 +2605,7 @@
         ],
         "Efforts/Active/Kuca/HPB kredit/Dokumenti za kucu.md": [
             {
-                "id": 195195879,
+                "id": 3128027854,
                 "title": "[[zemljisni podaci]]",
                 "body": [],
                 "time": "",
@@ -2594,7 +2616,7 @@
                 "completed": ""
             },
             {
-                "id": 2044048281,
+                "id": 3600546845,
                 "title": "#task izvaditi zemljisne podatke za mirnu ⏫ 📅 2025-01-24",
                 "body": [
                     "\t[[zemljisni podaci]]"
@@ -3146,6 +3168,60 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "+/How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager.md",
+                "completed": ""
+            }
+        ],
+        "Master Task List.md": [
+            {
+                "id": 1852631946,
+                "title": "#task fix [[Morgen]] ⏫ ⏳ 2025-01-27 📅 2025-01-27 🆔 Pe9BLE ✅ 2025-01-27",
+                "body": [],
+                "time": "",
+                "due": "2025-01-27",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Master Task List.md",
+                "completed": "2025-01-27"
+            }
+        ],
+        "Efforts/Active/Kuca/updejt troskovnika za HPB.md": [
+            {
+                "id": 638938847,
+                "title": "#task [[updejt troskovnika za HPB]] 🆔 k7ZYbG ⏫ ⏳ 2025-01-27 📅 2025-01-27 ✅ 2025-01-27",
+                "body": [
+                    "\t- [x] #task poslati troskovnike 🆔 yy78rQ ⏫ 📅 2025-01-27 ✅ 2025-01-27"
+                ],
+                "time": "",
+                "due": "2025-01-27",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Active/Kuca/updejt troskovnika za HPB.md",
+                "completed": "2025-01-27"
+            },
+            {
+                "id": 299850344,
+                "title": "@ poslati troskovnik",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Kuca/updejt troskovnika za HPB.md",
+                "completed": ""
+            },
+            {
+                "id": 1928879648,
+                "title": "sloziti troskovnike u mape",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Kuca/updejt troskovnika za HPB.md",
                 "completed": ""
             }
         ]

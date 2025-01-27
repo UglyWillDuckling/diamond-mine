@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "56e267f0dd9aacd0",
+        "id": "2e9f993e4b0bc1e1",
         "type": "tabs",
         "children": [
           {
-            "id": "3d6b710d7b24601a",
+            "id": "8294d5c41ae5f29c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/Marwan Barghouti.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Marwan Barghouti"
             }
           }
         ]
@@ -70,10 +75,30 @@
             }
           }
         ]
+      },
+      {
+        "id": "ac860b883d5bf382",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c508525dfdee27a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Efforts/Active/Wordpress/Wordpress Dev Setup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Wordpress Dev Setup"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 467.5026054382324,
+    "width": 311.5026054382324,
     "collapsed": true
   },
   "right": {
@@ -123,10 +148,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md"
+                "file": "Clippings/Top 25 Game Boy Advance Games - IGN.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Obsidian Tinkering"
+              "title": "Outline of Top 25 Game Boy Advance Games - IGN"
             }
           },
           {
@@ -163,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -184,50 +209,52 @@
       "chronology:Open Chronology": true,
       "markwhen:Create new Markwhen file": true,
       "daily-notes:Open today's daily note": false,
+      "obsidian-projects:Open projects": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-projects:Open projects": false
+      "obsidian42-brat:BRAT": true,
+      "task-board:Open task board": false
     }
   },
-  "active": "3d6b710d7b24601a",
+  "active": "8294d5c41ae5f29c",
   "lastOpenFiles": [
+    "Clippings/Top 25 Game Boy Advance Games - IGN.md",
+    "Clippings/Marwan Barghouti.md",
+    "Clippings/Console Nintendo Game Boy Advance AGB-001 arancione usato funzionante gameboy   eBay.md",
+    "Clippings/Game Boy Color.md",
+    "+/1965 Tokyo in 60fps HD  Japan in the 1960s.md",
+    "note on solid wordpress dev with docker.md",
+    "Clippings/Set up a POWERFUL Obsidian Task and Time Management System with Morgen.md",
+    "Master Task List.md",
+    "Clippings/WP-CLI.md",
+    "question - how does docker choose from where to take the files for a volume.md",
+    "creating local certificates is super simple.md",
+    "Clippings/mkcert.md",
+    "+/docker.md",
+    "Clippings/Build a solid WordPress dev environment with Docker.md",
     "Calendar/daily/2025-01-26.md",
-    "Atlas/Personal/notes/obsidian/theme settings and the like.md",
-    "Clippings/Codeblock Reference - Dataview.md",
-    "Atlas/Personal/notes/You can easily switch to a different user using su.md",
-    "+/working under root - permissions.md",
-    "Atlas/Personal/notes/archive/ranger is actually quite good.md",
-    "Atlas/Personal/notes/archive/having a timeline list seems very useful.md",
-    "Atlas/Personal/notes/libgen-downloader.md",
-    "Atlas/Personal/Faks/Faks.md",
-    "Atlas/Knowledge/howtos/git - resolve merge conflict.md",
-    "x/theme options.md",
-    "Atlas/Info/ipod disk mode.md",
+    "Clippings/3 ways to fix error 'bind permission denied' in Linux - howtouselinux.md",
+    "it is much better to use docker desktop to manage containers.md",
+    "Efforts/Active/Wordpress/Wordpress Dev Setup.md",
+    "how to pull image in parallel from docker compose.md",
+    "Efforts/Active/Wordpress/Wordpress.md",
+    "Clippings/Task-Board.md",
+    "Clippings/tu2-atmanandTask-Board An Obsidian plugin to view and manage your tasks from whole vault in a much efficient Kanban board format..md",
+    "Clippings/Task Board plugin - Introduction.md",
+    "Efforts/Active/Persona/Docs/Dev/Wordpress/notes on wordpress plugin setup.md",
+    "Atlas/Knowledge/Media/Articles/Setting Up Your Local Development Environment for WordPress.md",
+    "Atlas/tools/pc/Wordpress/you can configure the way you want url's to be displayedi in wordpress.md",
+    "Efforts/Active/Wordpress",
+    "Efforts/Active/Persona/archive",
+    "Atlas/Knowledge/Media/Articles/Dev",
+    "tasks canvas.canvas",
     "Atlas/Info",
-    "Atlas/Knowledge/repository/dev/IMAP.md",
-    "Atlas/Knowledge/repository/dev/linux fonts.md",
-    "Atlas/Knowledge/Media/Musiic/Mountain Goats.md",
     "Atlas/Knowledge/Media/Musiic",
-    "Baza zemljisnih podataka.md",
     "Atlas/Services",
-    "Atlas/Places/Online/Obsidian Rocks.md",
-    "Atlas/Places/Online/Portal Zdravlje HR.md",
     "Atlas/Resources",
     "Atlas/Places/Online",
-    "Clippings/Netanyahu’s total victory narrative has collapsed  Daniel Levy  The Big Picture.md",
-    "Digitalni katastarki Planovi.md",
-    "clips/How to Create your own Obsidian Web Clipper - Share & showcase - Obsidian Forum.md",
-    "Clippings/UN suspends trips into Houthi-held areas of Yemen after more staff detained.md",
     "clips",
-    "Clippings/Techdot.md",
-    "Efforts/tasks/dev/See how to manage your library.md",
-    "Efforts/tasks/dev/configure tmux.md",
-    "Efforts/Active/Obsidian Tinkering/Templatr exploration.md",
-    "tasks canvas.canvas",
     "Efforts/Active/Linear Calendar",
-    "Efforts/Active/Obsidian Tinkering/docs",
-    "Efforts/Active/Obsidian Tinkering/x",
     "tasks pic.canvas",
-    "Efforts/Active/Kuca/HPB kredit",
     "x/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"
   ]

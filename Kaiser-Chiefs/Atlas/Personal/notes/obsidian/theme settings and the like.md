@@ -23,7 +23,7 @@
 - [a] bell
 - [?] question
 
-- [ ] remind me (@2025-01-26)
+- [ ] remind me (@2025-02-02)
 ## progress
 
 <progress value="6" max="10">hello</progress>

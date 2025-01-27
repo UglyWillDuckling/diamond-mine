@@ -7,4 +7,4 @@ tags:
 [[2025-01-09]]
 instaliran je **alat** [[GitHub - obsfxlibgen-downloader]]
 
-- [ ] remind me (@2025-01-27)
+- [ ] remind me (@2025-01-27 22:41)

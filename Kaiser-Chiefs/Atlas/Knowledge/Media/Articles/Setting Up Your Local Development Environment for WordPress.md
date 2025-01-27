@@ -11,7 +11,6 @@ related:
   - "[[Wordpress]]"
   - "[[docker]]"
 ---
-
 As a software developer, you’re likely familiar with local development environments. They allow you to run your code, applications, and sites on your workstation, similarly to how they run on a production server. This gives you a safe environment to make changes, break and fix things, and watch your changes take place in real time, all without disrupting your users. In the case of [WordPress](https://wordpress.com/), local development environments are often used to assist in building new sites, testing changes to existing sites, and developing or trialing new plugins and themes.
 
 In this article, you’ll learn about the different types of local development environments commonly used with WordPress and how to set up your own development environment with [Docker](https://www.docker.com/). Then you’ll make some changes to see it all in action.
@@ -108,7 +107,7 @@ For demonstrative purposes, you’ll create a simple, contrived plugin that regi
 
 ### Creating the **Plugin**
 
-The first step in creating your plugin is creating the files to house the actual plugin. In your code editor, open the project directory, and you should see your `wordpress/` directory. Using either your editor or your terminal, navigate to `wordpress/wp-content/plugins` and create a new directory called `latest-post`. This directory will contain the files for your plugin. Within this directory, create a file named `index.php` and add the following content to that file:
+The first step in creating your plugin is creating the files to house the actual **plugin**. In your code editor, open the project directory, and you should see your `wordpress/` directory. Using either your editor or your terminal, navigate to `wordpress/wp-content/plugins` and create a new directory called `latest-post`. This directory will contain the files for your plugin. Within this directory, create a file named `index.php` and add the following content to that file:
 
 ```php
 <?php
@@ -143,8 +142,10 @@ function latest_post_shortcode() {
     return $latest_post->post_title;
 }
 ```
-This code handles the core functionality of your plugin. It fetches the latest post and returns its title. To avoid making extra database calls, it leverages the [WordPress transient mechanism](https://developer.wordpress.org/apis/transients/) to cache the query result for up to a week. If you publish a new post, you need to invalidate the cache and allow the query to run again.
-%% related to **caching** %%
+
+This code handles the core functionality of your plugin. It fetches the latest post and returns its title. To avoid making extra database calls, it leverages the [WordPress transient mechanism](https://developer.wordpress.org/apis/transients/) to **cache** the query result for up to a week.
+If you publish a new post, you need to invalidate the cache and allow the query to run again.
+%% **caching** mechanism %%
 
 ```php
 // add action hook to remove transient on post save
@@ -157,12 +158,13 @@ function latest_post_transient() {
 ```
 ==This code registers an action hook that will remove the [[Wordpress Transient|transient]]’s current value when a post is saved.==
 
-Save any changes to this file, and go back to your browser. 
+
 Refresh the page, and click the **Activate** button on your plugin’s entry:
 
 ![plugins|500](https://developer.files.wordpress.com/2022/11/image-2.png?w=1024)
 
-With that, your [[shortcode]] is now ready for use. In the navigation menu, hover over **Appearance** and then select **Editor** in the flyout menu. This will take you to the block editor. From here, click the **Plus** button near the top left-hand corner, and search for “shortcode” in the menu that appears:
+With that, your [[shortcode]] is now ready for use. 
+In the navigation menu, hover over **Appearance** and then select **Editor** in the flyout menu. This will take you to the block editor. From here, click the **Plus** button near the top left-hand corner, and search for “shortcode” in the menu that appears:
 
 ![shortcode|500](https://developer.files.wordpress.com/2022/11/image-3.png?w=1024)
 
@@ -173,10 +175,6 @@ Drag the shortcode block onto your page, and in the field that appears, type the
 Save your changes, and then navigate to your site’s home page (`localhost:8080`),
 and you should see that your shortcode has resolved to the name of the site’s default post, “Hello world!” To test that things are working as intended, hover over the **New** menu in the admin navigation at the top of the screen, and select **Post**. Give your new post a title from this page and publish it:
 
-![](https://developer.files.wordpress.com/2022/11/image-5.png?w=1024)
+![post|500](https://developer.files.wordpress.com/2022/11/image-5.png?w=1024)
 
-Now, navigate back to the home page, and you’ll see that the shortcode now resolves to the latest post’s title, as intended:
-
-![](https://developer.files.wordpress.com/2022/11/image-6.png?w=1024)
-
-## the end
+Now, *navigate* back to the **home pag**e, and you’ll see that the **shortcode now resolves to the latest post’s title**, as intended:

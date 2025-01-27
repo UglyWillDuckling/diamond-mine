@@ -14,32 +14,32 @@ tags:
 related:
   - "[[Plotting Task Completions]]"
 ---
-- [ ] remind me (@2025-01-26) **plan** for the weekend
-	- [ ] see about plotting tasks article[[Plotting Task Completions]]
+- [x] remind me (@2025-01-26) **plan** for the weekend
+	- [x] see about plotting tasks article [[Plotting Task Completions]]
+
 ---
 
-Obsidian has an [incredible plugin ecosystem](https://obsidian.rocks/super-powers-for-obsidian-nine-of-the-best-obsidian-plugins/). Not only are the plugins individually impressive, but sometimes they integrate with each other in unexpected and wonderful ways. One of my favorites gives us the ability to create graphs in Obsidian.
+[[dataview]], [[Charts Plugin]]
 
-This trick involves two [community plugins](https://obsidian.rocks/how-to-use-community-plugins-in-obsidian/): [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) and [Obsidian Charts](https://charts.phibr0.de/). Dataview gives you ability to query almost anything you could want, and Charts allows you to plot that data on a graph. We can get into all *kinds* of trouble if we connect those two things.
+This **trick** involves two [community plugins](https://obsidian.rocks/how-to-use-community-plugins-in-obsidian/): [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) and [Obsidian Charts](https://charts.phibr0.de/). 
+Dataview gives you ability to query almost anything you could want, and Charts allows you to **plot** that data on a [[graph]]. We can get into all *kinds* of trouble if we connect those two things.
 
-On This Page \[[hide](https://obsidian.rocks/creating-dynamic-graphs-in-obsidian/#)\]
+- [[#What graphs in Obsidian look like|What graphs in Obsidian look like]]
+- [[#Basic bar charts in Obsidian|Basic bar charts in Obsidian]]
+- [[#Visualizing writing projects with graphs|Visualizing writing projects with graphs]]
+- [[#Creating a daily habits graph in Obsidian|Creating a daily habits graph in Obsidian]]
+- [[#Tracking task completions with graphs|Tracking task completions with graphs]]
+- [[#Tracking the growth of a Zettelkasten with graphs|Tracking the growth of a Zettelkasten with graphs]]
+- [[#In conclusion|In conclusion]]
 
-- [1 What graphs in Obsidian look like](https://obsidian.rocks/creating-dynamic-graphs-in-obsidian/#What-graphs-in-Obsidian-look-like)
-- [2 Basic bar charts in Obsidian](https://obsidian.rocks/creating-dynamic-graphs-in-obsidian/#Basic-bar-charts-in-Obsidian)
-- [3 Visualizing writing projects with graphs](https://obsidian.rocks/creating-dynamic-graphs-in-obsidian/#Visualizing-writing-projects-with-graphs)
-- [4 Creating a daily habits graph in Obsidian](https://obsidian.rocks/creating-dynamic-graphs-in-obsidian/#Creating-a-daily-habits-graph-in-Obsidian)
-- [5 Tracking task completions with graphs](https://obsidian.rocks/creating-dynamic-graphs-in-obsidian/#Tracking-task-completions-with-graphs)
-- [6 Tracking the growth of a Zettelkasten with graphs](https://obsidian.rocks/creating-dynamic-graphs-in-obsidian/#Tracking-the-growth-of-a-Zettelkasten-with-graphs)
-- [7 In conclusion](https://obsidian.rocks/creating-dynamic-graphs-in-obsidian/#In-conclusion)
-
-## What graphs in Obsidian look like
+## What **`graphs`** look like
 
 If you’re like me, you might not get how useful dynamic graphs are until you’re given some concrete examples. Fair enough!
 
 There are all sorts of things you can track in Obsidian using these two plugins. In my own vault, here are a few of the things I use it for:
 
-- Visualizing writing projects
-- Tracking daily habits
+- Visualizing **writing projects**
+- Tracking **daily habits**
 - Tracking task completions
 - Tracking the growth of my Zettelkasten
 

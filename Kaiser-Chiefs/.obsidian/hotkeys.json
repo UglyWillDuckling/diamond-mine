@@ -73,7 +73,14 @@
       "key": "H"
     }
   ],
-  "editor:toggle-italics": [],
+  "editor:toggle-italics": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "I"
+    }
+  ],
   "editor:toggle-source": [
     {
       "modifiers": [

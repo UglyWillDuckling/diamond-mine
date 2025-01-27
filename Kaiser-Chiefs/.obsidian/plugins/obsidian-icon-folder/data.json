@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiPersonStanding",
+      "LiPrinter",
       "LiNotebookText",
       "📅",
-      "LiPlay",
-      "🏠",
-      "🎥"
+      "LiPlay"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -38,11 +38,6 @@
   "Efforts": "LiWeight",
   "task board.md": "LiClipboardList",
   "Efforts/Active/Persona/Docs": "LiFolders",
-  "Efforts/Active/Persona/Tickets": "LiTicket",
-  "Efforts/Active/Persona/Tickets/setup Persona VPS.md": "LiServer",
-  "Efforts/Active/Persona/Tickets/persona ssl setup.md": "LiKeyRound",
-  "Efforts/Active/Persona/Tickets/persona mail setup.md": "LiMail",
-  "Efforts/Active/Persona/Tickets/migrate Persona DNS.md": "LiSatelliteDish",
   "Efforts/Active/Persona/Docs/Upute za mail konfiguraciju.md": "LiNotebookText",
   "Calendar/days": "LiCalendar",
   "Calendar": "LiCalendarHeart",
@@ -55,5 +50,12 @@
   "Efforts/Active/Linear Calendar": "📅",
   "Atlas": "🗺",
   "Atlas/Knowledge/Media/movies/movi list - wip.md": "🎥",
-  "Atlas/Personal/notes": "LiNotebookText"
+  "Atlas/Personal/notes": "LiNotebookText",
+  "Efforts/Active/Persona/archive/archive/setup Persona VPS.md": "LiServer",
+  "Efforts/Active/Persona/archive/archive/migrate Persona DNS.md": "LiSatelliteDish",
+  "Efforts/Active/Persona/archive/archive/persona mail setup.md": "LiMail",
+  "Efforts/Active/Persona/archive/archive/persona ssl setup.md": "LiKeyRound",
+  "Efforts/Active/Persona/Tickets": "LiTicket",
+  "Efforts/Active/Wordpress": "LiPrinter",
+  "Efforts/Active/Persona": "LiPersonStanding"
 }

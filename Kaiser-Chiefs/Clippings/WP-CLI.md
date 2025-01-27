@@ -1,24 +1,22 @@
 ---
-title: "WP-CLI | WP-CLI"
-source: "https://wp-cli.org/"
-author:
-published:
+title: WP-CLI | WP-CLI
+source: https://wp-cli.org/
+author: 
+published: 
 created: 2024-12-19
-description:
+description: 
 tags:
-  - "clippings"
+  - clippings
+  - tool
+  - wordpress
+  - dev
+  - dev/tool
 ---
 [WP-CLI](https://wp-cli.org/) is the command-line interface for [WordPress](https://wordpress.org/). You can update plugins, configure multisite installations and much more, without using a web browser.
 
 Ongoing maintenance is made possible by:
 
- [![Automattic](https://make.wordpress.org/cli/files/2017/04/automattic-1.png)](https://automattic.com/)[![Bluehost](https://make.wordpress.org/cli/files/2017/04/bluehost.png) ](https://www.bluehost.com/)[![Pantheon](https://make.wordpress.org/cli/files/2019/06/pantheon.png) ](https://pantheon.io/)[![SiteGround](https://make.wordpress.org/cli/files/2019/06/SG_logo.png) ](https://www.siteground.com/)[![WP Engine](https://make.wordpress.org/cli/files/2017/04/wpengine.png) ](https://wpengine.com/)[![Cloudways](https://make.wordpress.org/cli/files/2021/02/Cloudways-Logo-e1612285267691.png)](https://www.cloudways.com/)
-
 The current stable release is [version 2.11.0](https://make.wordpress.org/cli/2024/08/08/wp-cli-v2-11-0-release-notes/). For announcements, follow [@wpcli on Twitter](https://twitter.com/wpcli) or [sign up for email updates](https://make.wordpress.org/cli/subscribe/). [Check out the roadmap](https://make.wordpress.org/cli/handbook/roadmap/) for an overview of what’s planned for upcoming releases.
-
-[![Testing](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
-
-Quick links: [Using](https://wp-cli.org/#using) | [Installing](https://wp-cli.org/#installing) | [Support](https://wp-cli.org/#support) | [Extending](https://wp-cli.org/#extending) | [Contributing](https://wp-cli.org/#contributing) | [Credits](https://wp-cli.org/#credits)
 
 ## Using#
 
@@ -193,15 +191,3 @@ WP-CLI has one project maintainer: [schlessera](http://github.com/schlessera).
 On occasion, we [grant write access to contributors](https://make.wordpress.org/cli/handbook/committers-credo/) who have demonstrated, over a period of time, that they are capable and invested in moving the project forward.
 
 Read the [governance document in the handbook](https://make.wordpress.org/cli/handbook/governance/) for more operational details about the project.
-
-## Credits#
-
-Besides the libraries defined in [composer.json](https://wp-cli.org/composer.json), we have used code or ideas from the following projects:
-
-- [Drush](https://github.com/drush-ops/drush) for… a lot of things
-- [wpshell](https://code.trac.wordpress.org/browser/wpshell) for `wp shell`
-- [Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/) for `wp media regenerate`
-- [Search-Replace-DB](https://github.com/interconnectit/Search-Replace-DB) for `wp search-replace`
-- [WordPress-CLI-Exporter](https://github.com/Automattic/WordPress-CLI-Exporter) for `wp export`
-- [WordPress-CLI-Importer](https://github.com/Automattic/WordPress-CLI-Importer) for `wp import`
-- [wordpress-plugin-tests](https://github.com/benbalter/wordpress-plugin-tests/) for `wp scaffold plugin-tests`

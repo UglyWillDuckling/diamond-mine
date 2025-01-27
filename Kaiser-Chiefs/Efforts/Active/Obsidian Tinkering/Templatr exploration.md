@@ -8,5 +8,5 @@ related:
 ---
 #ticket
 
-- [ ] #task explore Templatr [discussion](https://github.com/SilentVoid13/Templater/discussions) 🆔 chRxZP
-- [ ] #task explore [[Templatr Docs]] 🆔 hypMgz 🔼
+
+

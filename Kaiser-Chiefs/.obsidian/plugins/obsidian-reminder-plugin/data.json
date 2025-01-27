@@ -8,39 +8,53 @@
         "rowNumber": 7
       }
     ],
-    "Clippings/Creating Dynamic Graphs in Obsidian - Obsidian Rocks.md": [
-      {
-        "title": "remind me **plan** for the weekend",
-        "time": "2025-01-26",
-        "rowNumber": 16
-      }
-    ],
     "Atlas/tools/pc/parallel command.md": [
       {
         "title": "remind me",
-        "time": "2025-01-26",
+        "time": "2025-01-27 20:10",
         "rowNumber": 50
-      }
-    ],
-    "Atlas/Personal/notes/You can easily switch to a different user using su.md": [
-      {
-        "title": "remind me in 2 weeks",
-        "time": "2025-01-26",
-        "rowNumber": 20
       }
     ],
     "Atlas/Personal/notes/libgen-downloader.md": [
       {
         "title": "remind me",
-        "time": "2025-01-27",
+        "time": "2025-01-27 22:41",
         "rowNumber": 9
       }
     ],
     "Atlas/Personal/notes/obsidian/theme settings and the like.md": [
       {
         "title": "remind me",
-        "time": "2025-01-26",
+        "time": "2025-02-02",
         "rowNumber": 25
+      }
+    ],
+    "Atlas/Personal/notes/You can easily switch to a different user using su.md": [
+      {
+        "title": "remind me in 1 month",
+        "time": "2025-02-26",
+        "rowNumber": 21
+      }
+    ],
+    "it is much better to use docker desktop to manage containers.md": [
+      {
+        "title": "remind me 1 week",
+        "time": "2025-02-01",
+        "rowNumber": 4
+      }
+    ],
+    "creating local certificates is super simple.md": [
+      {
+        "title": "remember me 1 week",
+        "time": "2025-02-26",
+        "rowNumber": 1
+      }
+    ],
+    "question - how does docker choose from where to take the files for a volume.md": [
+      {
+        "title": "**remind** me",
+        "time": "2025-01-29",
+        "rowNumber": 8
       }
     ]
   },

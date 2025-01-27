@@ -6,63 +6,35 @@
         "type": "split",
         "children": [
           {
-            "id": "57179559b3f4d603",
+            "id": "24651b1b0f020b4f",
             "type": "tabs",
             "children": [
               {
-                "id": "334e352cbe6ba364",
+                "id": "423bf677540ed0f5",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Efforts/Active/Persona/How Wordpress development works.md",
+                    "file": "Efforts/Active/Wordpress/Wordpress.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "How Wordpress development works"
+                  "title": "Wordpress"
                 }
               },
               {
-                "id": "2739f30fae77e14c",
+                "id": "f6142140a4908620",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Efforts/Active/Persona/first local wordpress site.md",
+                    "file": "Efforts/Active/Wordpress/Wordpress Dev Setup.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "first local wordpress site"
-                }
-              },
-              {
-                "id": "478193ead499c617",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Atlas/Knowledge/tools/pc/Wordpress/wordpress - db tables default.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "wordpress - db tables default"
-                }
-              },
-              {
-                "id": "46c5a5efa7ed88a2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "wp_posts.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "wp_posts"
+                  "title": "Wordpress Dev Setup"
                 }
               }
             ],
@@ -122,8 +94,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 200,
-        "collapsed": true
+        "width": 349.51103591918945
       },
       "right": {
         "id": "6b26b603c051936f",
@@ -172,10 +143,10 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md"
+                    "file": "Efforts/Active/Wordpress/Wordpress Dev Setup.md"
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Obsidian Tinkering"
+                  "title": "Outline of Wordpress Dev Setup"
                 }
               },
               {
@@ -212,7 +183,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           }
         ],
         "direction": "horizontal",
@@ -237,9 +208,18 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "2739f30fae77e14c",
-      "mtime": "2025-01-19T22:46:00+01:00",
-      "workspaces-plus:settings-v1": {}
+      "active": "f6142140a4908620",
+      "mtime": "2025-01-26T19:58:23+01:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "Atlas",
+          "Atlas/Knowledge/Media/Articles/Dev",
+          "Efforts",
+          "Efforts/Active",
+          "Efforts/Active/Persona/Tickets",
+          "Efforts/Active/Wordpress"
+        ]
+      }
     },
     "empty": {
       "main": {
@@ -969,5 +949,5 @@
       }
     }
   },
-  "active": "tasks"
+  "active": "wordpress"
 }

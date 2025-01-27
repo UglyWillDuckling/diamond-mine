@@ -10,6 +10,7 @@ tags:
   - clippings
   - tool
   - dev/tool
+  - github-repo
 ---
 **mkcert** is a simple tool for making **locally-trusted** `development certificates`. It requires no configuration.
 

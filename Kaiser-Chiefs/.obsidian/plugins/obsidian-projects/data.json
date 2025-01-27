@@ -151,10 +151,9 @@
               "Todo": {
                 "weight": 1,
                 "records": [
-                  "Efforts/Projects/Obsidian Tinkering/Calendar Video Notes.md",
-                  "Efforts/Projects/Obsidian Tinkering/maps of content exploration.md"
+                  "Efforts/Active/Obsidian Tinkering/maps of content exploration.md"
                 ],
-                "collapse": true
+                "collapse": false
               },
               "In Progress": {
                 "weight": 2,
@@ -215,8 +214,8 @@
       "fieldConfig": {
         "status": {
           "options": [
-            "Done",
-            "To do"
+            "To do",
+            "Done"
           ]
         }
       },
@@ -225,10 +224,10 @@
       "excludedNotes": [],
       "isDefault": false,
       "dataSource": {
-        "kind": "folder",
+        "kind": "tag",
         "config": {
-          "path": "Efforts/Active/Persona",
-          "recursive": false
+          "tag": "#persona-project",
+          "hierarchy": false
         }
       },
       "newNotesFolder": "",
@@ -240,28 +239,26 @@
             ],
             "groupByField": "status",
             "columns": {
-              "No status": {
-                "weight": 0,
-                "records": [
-                  "Efforts/Active/Persona/Persona.hr.md"
-                ],
-                "collapse": true
-              },
-              "Done": {
-                "weight": 1,
-                "records": [
-                  "Efforts/Active/Persona/Persona.md"
-                ],
-                "collapse": true
-              },
               "To do": {
-                "weight": 2
+                "weight": 0,
+                "collapse": false,
+                "records": [
+                  "Best Dev Practices in Wordpress.md"
+                ]
               },
               "In Progress": {
                 "records": [
-                  "Efforts/Active/Persona/How Wordpress development works.md"
+                  "Wordpress Dev Setup.md",
+                  "Wordpress Exploration.md"
                 ],
-                "weight": 3
+                "weight": 1
+              },
+              "Done": {
+                "weight": 2,
+                "records": [
+                  "Efforts/Active/Persona/Persona.md"
+                ],
+                "collapse": false
               }
             }
           },
@@ -278,6 +275,15 @@
                   "operator": "contains",
                   "enabled": true,
                   "value": "In Progress"
+                }
+              },
+              {
+                "color": "#ff1a88",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "To do"
                 }
               }
             ]
@@ -572,6 +578,81 @@
       ],
       "id": "6f99ce12-bc2f-4b35-8c36-6bffe5f4bf0b",
       "name": "Linear Calendar"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Efforts/Active/Wordpress",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "dbc9ba62-4de8-4425-8cbe-e172a7469490",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "columns": {
+              "No status": {
+                "weight": 0,
+                "collapse": true
+              },
+              "To do": {
+                "weight": 1
+              },
+              "In Progress": {
+                "weight": 2
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#1aa7ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "In Progress"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "218f6e38-34e3-42e4-9daa-adf207955293",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "e678b1c8-25a5-43f6-85ff-7ff2090867d9",
+      "name": "Wordpress"
     }
   ],
   "archives": [],

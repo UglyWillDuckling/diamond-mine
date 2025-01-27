@@ -8,7 +8,9 @@ status: Done
 not done
 path includes Efforts/Active/Persona
 show tree
+short mode
 ```
+
 # tasks
 - [x] #task napisati ✏ [[Upute za mail konfiguraciju]] i poslati Senki ⏫ ✅ 2025-01-07
 - [x] #task connect with a [[Macintosh|Mac]] client ⏫ ✅ 2025-01-07

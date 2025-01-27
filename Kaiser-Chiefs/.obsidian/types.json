@@ -13,6 +13,7 @@
     "interest": "number",
     "documents": "multitext",
     "rating": "number",
-    "start date": "date"
+    "start date": "date",
+    "reading note": "multitext"
   }
 }

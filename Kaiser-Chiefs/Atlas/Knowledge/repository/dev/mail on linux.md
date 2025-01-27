@@ -5,4 +5,4 @@ You can view the mail by looking athe file inside `/var/mai/{user}`
 bat /var/mail/{username}
 ```
 
-- #note instaliran je **alat** [[GitHub - obsfxlibgen-downloader]]
+- #note instaliran je **alat** [[Atlas/tools/libgen-downloader]]

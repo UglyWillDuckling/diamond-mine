@@ -41,13 +41,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master Task List.md",
+                "file": "Atlas/Personal/notes/libgen-downloader.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Master Task List"
+              "title": "libgen-downloader"
             }
           }
         ],
@@ -224,7 +224,9 @@
   },
   "active": "d25c274e40e34eb3",
   "lastOpenFiles": [
+    "Atlas/tools/libgen-downloader.md",
     "Calendar/daily/2025-01-28.md",
+    "Atlas/Personal/notes/libgen-downloader.md",
     "Master Task List.md",
     "dash 💨.md",
     "Atlas/Info/difference between folders and tags.md",
@@ -252,9 +254,7 @@
     "Efforts/Active/Kuca/HPB kredit/archive/updejt troskovnika za HPB.md",
     "Efforts/Active/Kuca/Kuca.md",
     "Efforts/Active/Kuca/HPB kredit/Dokumenti za kucu.md",
-    "Efforts/Active/Kuca/HPB kredit/Dokumenti za obrt.md",
     "Efforts/Active/Kuca/archive",
-    "Atlas/Personal/notes/Projects, Tickets -> Tasks.md",
     "Atlas/World/Companies",
     "Efforts/Active/Wordpress",
     "Efforts/Active/Persona/archive",

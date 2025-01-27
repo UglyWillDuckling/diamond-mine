@@ -4,5 +4,5 @@
 	- [x] [[how to edit values on scale in sheets]]
 	- [x] [[how to edit multiple cells in sheets]]
 
-- [ ] #task Use [[Dann]]'s daily note **template** 🔼 ⏳ 2025-01-29 📅 2025-01-29
+- [ ] #task Use [[Dann]]'s daily note **template** 🔼 ⏳ 2025-01-29 📅 2025-01-29 🆔 bbkI80
 - [ ] #task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼

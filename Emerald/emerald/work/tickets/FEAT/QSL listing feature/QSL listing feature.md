@@ -4,7 +4,6 @@ related:
   - "[[frontend implementation]]"
   - "[[QSL listing]]"
 ---
-
 ```tasks
  not done
  path includes {{query.file.folder}}
@@ -46,7 +45,7 @@ related:
 - [x] #task [[CSV import]] ⏫ ✅ 2024-12-02
 - [x] #task [[create real table]] ✅ 2024-12-02
 - [x] #task [[frontend implementation]]
-- [x] #task [[CSV backyard export]] ✅ 2025-01-17
+- [x] #task [[CSV QSL Export Feature]] ✅ 2025-01-17
 - [x] #task send [[Natasa]] images of [[QSL listing]] ⏫ ✅ 2025-01-16
 - [x] #task write [[test script for AWS connection on backyard]] to verify [[AWS]] connection ⏫
 
@@ -55,12 +54,14 @@ related:
 
 [[AWS connection]] [[AWS import]]
 
-- [/] #task *deploy and test* [[AWS import]] 🆔 YD2vvB ⏫ ⏳ 2025-01-24 📅 2025-01-24
-	- [/] #task merge **PR** -> deploy ⛔ FSB0EW ⏫ 📅 2025-01-24 🆔 tWXLo2
-	- [ ] #task **verify** on dev 🆔 FSB0EW 🔼 📅 2025-01-24
-- [ ] #task apply  python` fix to **prod** on [[ma-infra]] ⏫ 📅 2025-01-24 🆔 ixD96M
-- [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8n
-- [ ] #task cleanup tests 🆔 QdOsoU 🔽
+- [x] #task apply  python` fix to **prod** on [[ma-infra]] ⏫ 📅 2025-01-24 🆔 ixD96M ✅ 2025-01-28
 - [x] #task [[cronjob test]] 🆔 y7tDlU ⏫ 📅 2025-01-20 ✅ 2025-01-21
 - [x] #task make a **PR** for dev 🆔 cHk56r ⛔ WNbW5S ⏫ 📅 2025-01-23 ✅ 2025-01-23
+
+- [/] #task *deploy and test* [[AWS import]] 🆔 YD2vvB ⏫ ⏳ 2025-01-24 📅 2025-01-29
+	- [x] #task [[qsl dev aws import test]] ⏫ ⏳ 2025-01-28 📅 2025-01-28 🆔 Rh81AG ✅ 2025-01-28
+	- [x] #task **implement** [[aws import fixes]] 🆔 nzQSnw ⏫ 📅 2025-01-28 ✅ 2025-01-29
+
+- [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8n
+- [ ] #task cleanup tests 🆔 QdOsoU 🔽
 	- [x] #task **update git** repo 🆔 7e3TRI 🔼 📅 2025-01-22 ✅ 2025-01-23

@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "8f2ec7bd9b5e7984",
+        "id": "353fe79b2d1e87bb",
         "type": "tabs",
         "children": [
           {
-            "id": "1015af5b8fb7c73e",
+            "id": "4c7470488eacefbb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/daily_notes/2025/January/2025-01-24.md",
+                "file": "work/tickets/FEAT/QSL listing feature/CSV QSL Export Feature.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-24"
-            }
-          },
-          {
-            "id": "0748f27e5ad4bf84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/Learn How to Use Linux Find -printf from 50 Examples.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Learn How to Use Linux Find -printf from 50 Examples"
+              "title": "CSV QSL Export Feature"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -50,7 +34,7 @@
       {
         "id": "396d97731e40095f",
         "type": "tabs",
-        "dimension": 73.93209200438116,
+        "dimension": 68.6939182452642,
         "children": [
           {
             "id": "688b3d615137a273",
@@ -80,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#artifact",
+                "query": "tag:#call",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,23 +74,13 @@
               "icon": "lucide-search",
               "title": "Search"
             }
-          },
-          {
-            "id": "b78fc6a6d66ba614",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {},
-              "icon": "chrome",
-              "title": "Surfing Tab Tree"
-            }
           }
         ]
       },
       {
         "id": "57e13f42a93358af",
         "type": "tabs",
-        "dimension": 26.06790799561884,
+        "dimension": 31.306081754735793,
         "children": [
           {
             "id": "e1b02d9f45cae074",
@@ -114,7 +88,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Clippings/Learn How to Use Linux Find -printf from 50 Examples.md",
+                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -137,12 +111,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5011133516310482,
+                  "scale": 0.6853293307615665,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Learn How to Use Linux Find -printf from 50 Examples"
+              "title": "Graph of QSL listing feature"
             }
           },
           {
@@ -166,7 +140,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.01103591918945
+    "width": 304.5,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -228,20 +203,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/calls/1 on 1/today.md"
+                "file": "work/tickets/FEAT/QSL listing feature/CSV QSL Export Feature.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of test  cronjob"
-            }
-          },
-          {
-            "id": "66215144ab6ceed1",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
+              "title": "Outline of CSV QSL Export Feature"
             }
           },
           {
@@ -255,7 +220,7 @@
             }
           },
           {
-            "id": "c19e9e295bf05396",
+            "id": "0e6e2f0605f1f714",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -267,13 +232,23 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "53413e7c51cbe051",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 537.5,
+    "width": 682.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -300,36 +275,40 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "0748f27e5ad4bf84",
+  "active": "4c7470488eacefbb",
   "lastOpenFiles": [
-    "work/tickets/FEAT/QSL listing feature/AWS connection/AWS import.md",
-    "Knowledge/daily_notes/2025/January/2025-01-24.md",
-    "Clippings/Learn How to Use Linux Find -printf from 50 Examples.md",
-    "work/tickets/FEAT/QSL listing feature/AWS connection/AWS connection.md",
-    "+/creating tmp notes for actions that you're doing is often the optimal solution.md",
-    "work/tickets/FEAT/QSL listing feature/AWS connection",
-    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-    "work/tickets/FEAT/QSL listing feature/subs/cronjob implementation.md",
-    "work/tickets/FEAT/QSL listing feature/subs/Online status update.md",
-    "work/tickets/FEAT/QSL listing feature/CSV backyard export.md",
-    "how to update git butler.md",
-    "Clippings/Layout - Tasks User Guide - Obsidian Publish.md",
-    "work/tickets/FEAT/QSL listing feature/archive/test script for AWS connection on backyard.md",
-    "work/tickets/FEAT/QSL listing feature/docs/GCP connection doc.md",
-    "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
-    "Knowledge/notes/archive/Butler conflict resolution.md",
-    "work/tickets/FEAT/QSL listing feature/git butler commit tmp.md",
-    "Knowledge/tools/dev/git/git butler.md",
-    "Knowledge/daily_notes/2025/January/2025-01-23.md",
-    "+/you can use three *** asterisks for more text formatting options.md",
     "work/docs/how to/how to run the mediaAPI migration.md",
-    "+/prije slanja nekog dijela koda,izmjena - najbolje napraviti test.md",
-    "Clippings/Lemoncodejest-testing-by-sample Learn testing by sample using Jest, each of the samples contains a readme.md file that indicates the purpose of the sample plus an step by step guide to reproduce it..md",
-    "work/calls/CRM/Arch call 2025-01-23.md",
-    "work/bugs/XSS - extranet/xss testing tmp.md",
-    "+/Xdebug just works.md",
-    "work/bugs/XSS - extranet/Fix xss on extranet.md",
-    "work/tickets/FEAT/QSL listing feature/docs/tmp - composer update.md",
+    "work/tickets/FEAT/QSL listing feature/CSV QSL Export Feature.md",
+    "work/tickets/FEAT/QSL listing feature/docs/Daily Csv QSL Listing Export.md",
+    "x/Screenshot 2025-01-16 at 14.14.36.png",
+    "Clippings/shorthand for the find command basic call.md",
+    "Clippings/Learn How to Use Linux Find -printf from 50 Examples.md",
+    "Knowledge/daily_notes/2025/January/2025-01-29.md",
+    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+    "work/work.md",
+    "work/tickets/FEAT/QSL listing feature/aws import fixes.md",
+    "work/docs/backyard/how to find customer id for project.md",
+    "work/calls/Bamboo call.md",
+    "Knowledge/daily_notes/2025/January/2025-02-07.md",
+    "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
+    "work/tickets/FEAT/QSL listing feature/docs/qls import cron implementation.md",
+    "work/calls/DAILY/2025-01-29 daily.md",
+    "Efforts/dev/general/you can list all yanks using <leader-p> in Lazynvim.md",
+    "work/people and teams/LUNA/Natasa.md",
+    "work/tickets/FEAT/QSL listing feature/docs/Athena class.md",
+    "work/tickets/FEAT/QSL listing feature/qsl dev aws import test.md",
+    "+/sve.md",
+    "+/I should always add related notes to small notes and thoughts.md",
+    "work/tickets/FEAT/QSL listing feature/AWS connection/AWS import.md",
+    "People MOC.md",
+    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+    "Knowledge/daily_notes/2025/January/2025-01-28.md",
+    "Efforts/Active/Obsidian Tinkering/Physical object system.md",
+    "Efforts/Projects/Projects.md",
+    "work/calls/SPRINT/PLANNING",
+    "work/calls/SPRINT/RETRO",
+    "work/docs/CRM/CRM.canvas",
+    "work/tickets/FEAT/QSL listing feature/AWS connection",
     "work/tickets/FEAT/QSL listing feature/docs/code/Athena impl..canvas",
     "dash canvas.canvas",
     "Efforts/Active/Obsidian Tinkering/docs",
@@ -340,15 +319,12 @@
     "Efforts/Active/Obsidian Tinkering",
     "Efforts/Active",
     "work/tickets/FEAT/QSL listing feature/artifacts/crontab board.canvas",
-    "work/tickets/FEAT/QSL listing feature/artifacts",
-    "Extras/People",
     "work/tickets/FEAT/QSL listing feature/docs/code/aws test script solution.canvas",
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.canvas",
     "work/docs/AWS/GCP Connection/auth process.canvas",
     "Action.canvas",
     "x/option-1.png",
     "x/option2.png",
-    "work/docs/CRM/CRM.canvas",
     "x/Architecture-of-email-system-13.png",
     "work/people and teams/LUNA/Screenshot_20241107_140216.png",
     "Knowledge/tools/PM/bee-bole-export.png",
@@ -356,7 +332,6 @@
     "Knowledge/Books/dev/Patterns of Enterprise/content/special_case.jpg",
     "Pasted image 20240923155220.png",
     "Knowledge/concepts/computer science/oop/patterns/Decorator_UML_class_diagram.svg.png",
-    "Dashboard - Sales.png",
     "work/tickets/Lead Fix/Untitled.canvas"
   ]
 }

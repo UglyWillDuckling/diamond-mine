@@ -46,9 +46,87 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [],
+  "treeData": [
+    {
+      "id": "eee938bb62f0794a",
+      "parent": 0,
+      "droppable": true,
+      "text": "Format syntax | QuickAdd",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "c2afde3c5ef1abb5",
+      "parent": 0,
+      "droppable": true,
+      "text": "Using variables in QuickAdd - Help - Obsidian Forum",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "4c0f644aa394b59f",
+      "parent": 0,
+      "droppable": true,
+      "text": "How to use QuickAdd for Obsidian - with examples | Christian B. B. Houmann",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "d28c3a4b990d4422",
+      "parent": 0,
+      "droppable": true,
+      "text": "Obsidian QuickAdd: Automate the Boring Stuff | by Esteban Thilliez | The Obsidianist | Medium",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "d337624a969f98fb",
+      "parent": 0,
+      "droppable": true,
+      "text": "How to use QuickAdd for Obsidian - with examples | Christian B. B. Houmann",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "a157044f486c14e8",
+      "parent": 0,
+      "droppable": true,
+      "text": "Obsidian QuickAdd: Automate the Boring Stuff | by Esteban Thilliez | The Obsidianist | Medium",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "336ea278971fd138",
+      "parent": 0,
+      "droppable": true,
+      "text": "QuickAdd help : r/ObsidianMD",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ],
   "enableHtmlPreview": false,
   "supportLivePreviewInlineUrl": false,
-  "enableTreeView": true,
+  "enableTreeView": false,
   "focusSearchBarViaKeyboard": true
 }

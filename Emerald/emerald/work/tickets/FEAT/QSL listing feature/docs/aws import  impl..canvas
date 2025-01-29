@@ -19,43 +19,6 @@
       "toSide": "top"
     },
     {
-      "fromNode": "d6bcd3d82616b783",
-      "fromSide": "top",
-      "id": "36a169c6720eae7c",
-      "label": "requires",
-      "styleAttributes": {
-      },
-      "toNode": "b71fbb6bc8df44b0",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "b71fbb6bc8df44b0",
-      "fromSide": "top",
-      "id": "c77b60e55315df6d",
-      "styleAttributes": {
-      },
-      "toNode": "1582f41af22a3b6b",
-      "toSide": "bottom"
-    },
-    {
-      "fromNode": "d6bcd3d82616b783",
-      "fromSide": "bottom",
-      "id": "48c0c6c908d51bfa",
-      "styleAttributes": {
-      },
-      "toNode": "1223d57acf0f8453",
-      "toSide": "top"
-    },
-    {
-      "fromNode": "1223d57acf0f8453",
-      "fromSide": "left",
-      "id": "635a5ff6f9db8fbb",
-      "styleAttributes": {
-      },
-      "toNode": "b71fbb6bc8df44b0",
-      "toSide": "left"
-    },
-    {
       "fromNode": "4b9d2e12db0599dd",
       "fromSide": "left",
       "id": "246649bbd33c34da",
@@ -139,10 +102,19 @@
       "styleAttributes": {
         "arrow": "thin-triangle",
         "path": "dotted",
-        "pathfindingMethod": "direct"
+        "pathfindingMethod": null
       },
       "toNode": "ca1978da6acc54ec",
       "toSide": "bottom"
+    },
+    {
+      "fromNode": "98ce0a3d02a84e03",
+      "fromSide": "bottom",
+      "id": "af9876f6418a09a6",
+      "styleAttributes": {
+      },
+      "toNode": "313d9f72f20d4a60",
+      "toSide": "top"
     }
   ],
   "nodes": [
@@ -158,7 +130,8 @@
       "y": 20
     },
     {
-      "height": 440,
+      "color": "4",
+      "height": 477,
       "id": "25aaff1cd6fa4b30",
       "label": "import proc",
       "styleAttributes": {
@@ -180,18 +153,6 @@
       "width": 260,
       "x": -940,
       "y": 290
-    },
-    {
-      "autoResizeHeight": false,
-      "height": 360,
-      "id": "05152e15a8b175b8",
-      "styleAttributes": {
-      },
-      "text": "### notes\n\n- procedures represent a more or less linear path of execution\n- arrows on the elements within procs. re\n\n### ",
-      "type": "text",
-      "width": 380,
-      "x": -980,
-      "y": -180
     },
     {
       "autoResizeHeight": false,
@@ -247,6 +208,44 @@
     },
     {
       "autoResizeHeight": false,
+      "color": "3",
+      "height": 229,
+      "id": "05152e15a8b175b8",
+      "styleAttributes": {
+      },
+      "text": "### notes\n\n- procedures represent a more or less linear path of execution\n- arrows on the elements within procs. re",
+      "type": "text",
+      "width": 480,
+      "x": -1020,
+      "y": -214
+    },
+    {
+      "autoResizeHeight": true,
+      "file": "work/tickets/FEAT/QSL listing feature/docs/Athena class.md",
+      "height": 60,
+      "id": "313d9f72f20d4a60",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 330,
+      "x": -665,
+      "y": 480
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "548f959b017af033",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "**config**",
+      "type": "text",
+      "width": 260,
+      "x": 220,
+      "y": 291
+    },
+    {
+      "autoResizeHeight": false,
       "height": 60,
       "id": "6c4eed0cb0d5cca0",
       "styleAttributes": {
@@ -256,18 +255,6 @@
       "width": 190,
       "x": 745,
       "y": 91
-    },
-    {
-      "autoResizeHeight": false,
-      "height": 154,
-      "id": "4b9d2e12db0599dd",
-      "styleAttributes": {
-      },
-      "text": "**config options**\n\n- env\n- bucket name\n- role name",
-      "type": "text",
-      "width": 210,
-      "x": 905,
-      "y": 291
     },
     {
       "autoResizeHeight": false,
@@ -283,81 +270,15 @@
     },
     {
       "autoResizeHeight": false,
-      "height": 201,
-      "id": "b102f3ff0c2dffa0",
+      "height": 154,
+      "id": "4b9d2e12db0599dd",
       "styleAttributes": {
       },
-      "text": "### next steps\n\n1. check athena **test** script\n\t1. file names\n\t2. other\n",
+      "text": "**config options**\n\n- env\n- bucket name\n- role name",
       "type": "text",
-      "width": 340,
-      "x": -810,
-      "y": 692
-    },
-    {
-      "autoResizeHeight": false,
-      "color": "2",
-      "height": 102,
-      "id": "d6bcd3d82616b783",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "**import script**",
-      "type": "text",
-      "width": 340,
-      "x": -280,
-      "y": 842
-    },
-    {
-      "autoResizeHeight": true,
-      "height": 60,
-      "id": "1223d57acf0f8453",
-      "styleAttributes": {
-      },
-      "text": "**import** object",
-      "type": "text",
-      "width": 260,
-      "x": -240,
-      "y": 1062
-    },
-    {
-      "autoResizeHeight": true,
-      "height": 60,
-      "id": "1582f41af22a3b6b",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Athena connection",
-      "type": "text",
-      "width": 260,
-      "x": -240,
-      "y": 552
-    },
-    {
-      "autoResizeHeight": true,
-      "height": 60,
-      "id": "548f959b017af033",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "**config**",
-      "type": "text",
-      "width": 260,
-      "x": 180,
+      "width": 210,
+      "x": 905,
       "y": 291
-    },
-    {
-      "autoResizeHeight": false,
-      "color": "4",
-      "height": 81,
-      "id": "b71fbb6bc8df44b0",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "aws Athena source",
-      "type": "text",
-      "width": 340,
-      "x": -280,
-      "y": 662
     },
     {
       "autoResizeHeight": false,
@@ -380,8 +301,8 @@
       "text": "### config class\n\nresponsible  for providing **aws** config information\nContains logic for returning the information based on *internal*  logic.\n\n**fields**\n\n***interface***\n\n*example*\n- `(get)Role`, `s3Location`, `table` %% all of the fields would depend on **env** %%\n",
       "type": "text",
       "width": 635,
-      "x": 587,
-      "y": -480
+      "x": 588,
+      "y": -440
     }
   ]
 }

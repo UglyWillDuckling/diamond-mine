@@ -4,7 +4,7 @@ related:
 ---
 #thought #active #note 
 
-- [ ] remind me (@[[2025-01-28]])
+- [ ] remind me (@[[2025-01-30]])
 
 although not quite defined we may view as the difference between something that is [[ephemeral]], the task, and something more permanent, the [[ticket]].
 Very often, tasks can be considered forgetabble or even deletable soon after they are completed.
@@ -39,6 +39,6 @@ Connections between tickets are crucial.
 
 **Similiaries between the two**
 
-Both have temporal quality to them so information on time and their position on a timescale is important.
+Both have a temporal quality to them so information on time and their position on a timescale is important.
 They both produce and create value outside of them.
 

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiSheet",
-      "🗽",
-      "LiClock",
-      "LiFile",
-      "♦"
+      "🧪",
+      "LiTimer",
+      "🔙",
+      "LiPaintbrush",
+      "LiSheet"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -60,13 +60,10 @@
   },
   "work/notes/archive/MA dev env URL.md": "LiCurlyBraces",
   "work/notes/archive/Millions of euros for a buy in France.md": "🇫🇷",
-  "work/calls/SPRINT/Sprint planning 10-14.md": "👟",
   "work/calls/CRM/CRM - introduction to Design.md": "👑",
   "work/calls/CRM/CRM in SLMP - macro-estimate session.md": "👑",
   "work/calls/CRM/CRM macro estimate v2.md": "👑",
   "work/calls/TEAMS/cal with NOVA team about leads.md": "LiStars",
-  "work/calls/SPRINT/sprint planning 10-28.md": "👟",
-  "work/calls/SPRINT/Sprint Review  - 22.07.md": "LiThumbsUp",
   "work/calls/CRM/SLMP call.md": "LiPresentation",
   "Knowledge": {
     "iconName": "LiBrain",
@@ -168,7 +165,6 @@
   "Knowledge/tools/dev/nvim/Trouble.md": "🚦",
   "work/tickets/chores/see how crons are handled on the backyard.md": "LiTimer",
   "work/docs/infra/PR's.md": "LiGitPullRequest",
-  "work/calls/SPRINT/Sprint Planning 11-11.md": "👟",
   "Clippings": "LiClipboard",
   "Clippings/Order James Baldwin books.md": {
     "iconName": "LiBookUser",
@@ -227,8 +223,6 @@
   "work/tickets/FEAT/QSL listing feature/QSL listing feature.md": "LiList",
   "Knowledge/templates/thought.md": "LiBrain",
   "work/calls/SPRINT": "👠",
-  "work/calls/SPRINT/Sprint Planning - C8 EXT - Sprint 2.md": "🔙",
-  "work/calls/SPRINT/Sprint Retro - C8 EXT - Sprint 2.md": "🔙",
   "Knowledge/tools/dev/GCP Bucket.md": "🪣",
   "work/notes/archive/deploy na tasks je dosta brz.md": "LiRocket",
   "work/notes/archive/test - test on backyard have 2 db's.md": {
@@ -437,11 +431,24 @@
   "Knowledge/notes/discovery/dev/KDE/switching alt+win is under keyboard settings.md": "LiKeyboard",
   "work/tickets/FEAT/QSL listing feature/artifacts/cronjob test.md": "🎨",
   "work/tickets/FEAT/QSL listing feature/subs/cronjob implementation.md": "LiClock",
-  "work/tickets/FEAT/QSL listing feature/CSV backyard export.md": {
-    "iconName": "LiSheet",
-    "iconColor": "#19b385"
-  },
   "work/tickets/FEAT/QSL listing feature/AWS connection/AWS connection.md": "🗽",
   "work/tickets/FEAT/QSL listing feature/AWS connection": "🗽",
-  "work/tickets/FEAT/QSL listing feature/AWS connection/AWS import.md": "🗽"
+  "work/tickets/FEAT/QSL listing feature/AWS connection/AWS import.md": "🗽",
+  "work/calls/SPRINT/RETRO/Sprint Retro - C8 EXT - Sprint 2.md": "🔙",
+  "work/calls/SPRINT/RETRO/Sprint Review  - 22.07.md": "LiThumbsUp",
+  "work/calls/SPRINT/RETRO": "🔙",
+  "work/calls/SPRINT/PLANNING/Sprint Planning 11-11.md": "👟",
+  "work/calls/SPRINT/PLANNING/Sprint Planning - C8 EXT - Sprint 2.md": "🔙",
+  "work/calls/SPRINT/PLANNING/Sprint planning 10-14.md": "👟",
+  "work/calls/SPRINT/PLANNING/sprint planning 10-28.md": "👟",
+  "work/people and teams/Corentin.md": {
+    "iconName": "LiPaintbrush",
+    "iconColor": "#ff52a5"
+  },
+  "Knowledge/notes/templater/created.md": "LiTimer",
+  "work/tickets/FEAT/QSL listing feature/qsl dev aws import test.md": "🧪",
+  "work/tickets/FEAT/QSL listing feature/CSV QSL Export Feature.md": {
+    "iconName": "LiSheet",
+    "iconColor": "#19b385"
+  }
 }

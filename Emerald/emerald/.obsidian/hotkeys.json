@@ -250,8 +250,7 @@
   "backlink:toggle-backlinks-in-document": [
     {
       "modifiers": [
-        "Alt",
-        "Mod"
+        "Alt"
       ],
       "key": "B"
     }

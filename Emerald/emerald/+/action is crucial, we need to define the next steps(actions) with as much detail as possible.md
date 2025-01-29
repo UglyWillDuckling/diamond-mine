@@ -12,4 +12,4 @@ It also clearly indicates if something is unclear or plainly wrong.
 All of this simplifies actual work and allows us to have a complete understand of where we are and what we are doing.
 %% will need to be rewritten %%
 
-- [ ] remind me (@[[2025-01-24]] 10:06)
+- [ ] remind me (@[[2025-01-31]])

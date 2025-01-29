@@ -9,7 +9,7 @@ tags:
   - task
   - implementation
 ---
-This is the **main** task
+> This is the **main** task
 
 ```tasks
  not done
@@ -26,6 +26,7 @@ show tree
 		- [[alternatives for Athena impl.]]
 		- [x] #task **commit** 🆔 IrLfSW ✅ 2025-01-22
 	- [x] #task update [[composer]] deps 🆔 nZ9ZXf 🔼 📅 2025-01-22 ✅ 2025-01-22
-### active tasks
+
+### **active**
 
 [[AWS import]]

@@ -2,7 +2,7 @@
 ## who
 - entire [[HOC]] 🏚
 ## agenda
-the new [[Bamboo]] tool presentation.
+the new [[Bamboo call]] tool presentation.
 
 ---
 ## important ⚠

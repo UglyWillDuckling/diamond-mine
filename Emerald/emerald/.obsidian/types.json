@@ -37,6 +37,10 @@
     "part of": "multitext",
     "implemented during": "multitext",
     "task": "multitext",
-    "parent": "multitext"
+    "parent": "multitext",
+    "minutes": "number",
+    "datetime": "datetime",
+    "scheduled": "datetime",
+    "link": "text"
   }
 }

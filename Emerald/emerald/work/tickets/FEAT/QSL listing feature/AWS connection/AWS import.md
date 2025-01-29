@@ -1,20 +1,21 @@
 ---
-parent:
-  - "[[AWS connection]]"
 related:
   - "[[QSL listing feature]]"
   - "[[Athena impl..canvas|Athena impl.]]"
+parent:
+  - "[[AWS connection]]"
 ---
 #artifact #implementation 
 
 
-- [/] #task AWS import 🆔 WNbW5S ⏫ ⏳ 2025-01-24 📅 2025-01-27
+- [x] #task AWS import 🆔 WNbW5S ⏫ ⏳ 2025-01-24 📅 2025-01-27 ✅ 2025-01-28
 	- [x] #task plan out the implementation 🆔 a8OWs8 ✅ 2025-01-23
 		- [x] #task **write** [[#==definition of done==]] 🆔 gzJOdk ✅ 2025-01-23
 		- [x] #task **write** out the definitions 🆔 cOKlwm ✅ 2025-01-23
 			- [x] [[#what is it?]], [[#what it is not?]]
 	- [x] #task develop **first** solution 🆔 1ybLlc
-	- [ ] #task think 🤔 what's next ⏭ 🆔 h4lL3z 📅 2025-01-24
+	- [ ] #task **refactor** the variable configurationsc 🔼 ⏳ 2025-01-28 📅 2025-01-30 🆔 YGhvFF
+	- [ ] #task **think** 🤔 what's next ⏭ 🆔 h4lL3z ⏳ 2025-01-29 📅 2025-01-29
 
 ### ==definition of done==
 

@@ -123,7 +123,7 @@
       },
       "insertAfter": {
         "enabled": true,
-        "after": "### New Tasks",
+        "after": "### ✔ New Tasks",
         "insertAtEnd": true,
         "considerSubsections": false,
         "createIfNotFound": true,
@@ -165,6 +165,36 @@
         "focus": true
       },
       "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "012486be-a580-4e78-b309-ca8983d93d35",
+      "name": "retro",
+      "type": "Template",
+      "command": false,
+      "templatePath": "Knowledge/templates/sprint retro template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "RETRO {{DATE}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "work/calls/SPRINT/RETRO"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false

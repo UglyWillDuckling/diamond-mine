@@ -24,8 +24,8 @@ tags:: [[+Daily Notes]]
 - 
 
 ---
-# 📝 Notes
-- <% tp.file.cursor() %>
+### 📝 Notes
+> - <% tp.file.cursor() %>
 ### ✔ New Tasks
 
 ### Notes created today

@@ -61,7 +61,8 @@ related:
 - [/] #task *deploy and test* [[AWS import]] 🆔 YD2vvB ⏫ ⏳ 2025-01-24 📅 2025-01-29
 	- [x] #task [[qsl dev aws import test]] ⏫ ⏳ 2025-01-28 📅 2025-01-28 🆔 Rh81AG ✅ 2025-01-28
 	- [x] #task **implement** [[aws import fixes]] 🆔 nzQSnw ⏫ 📅 2025-01-28 ✅ 2025-01-29
+	- [/] #task make **test** on dev with the **big** `dataset` ⏫ ⏳ 2025-01-29 📅 2025-01-29 🆔 pOGR5Y
 
-- [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8n
-- [ ] #task cleanup tests 🆔 QdOsoU 🔽
-	- [x] #task **update git** repo 🆔 7e3TRI 🔼 📅 2025-01-22 ✅ 2025-01-23
+**Later**
+ - [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8n
+ - [ ] #task cleanup tests 🆔 QdOsoU 🔽

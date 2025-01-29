@@ -22,7 +22,7 @@
 	- [x] develop the CSV generator first
 	- [x] return a [[CSV]] file - have it contain everything to start with
 - [x] make a list of fields that need to be included
-- [/] #task develop **CSV** export 🆔 Z2OmXI 🔼 📅 2025-01-29
+- [x] #task develop **CSV** export 🆔 Z2OmXI 🔼 📅 2025-01-29 ✅ 2025-01-29
 	- [x] main export
 	- [x] #task add [[#export button]] 🔼 ⏳ 2025-01-29 📅 2025-01-29 🆔 uW6CLZ
 	- [x] #task implement export CSV route 🆔 cmQtVf ⏫ 📅 2025-01-29 ✅ 2025-01-29
@@ -32,10 +32,6 @@
 ### new **route**
 - % should be under listings, qsl
 - should just output the **CSV** file
-
-route path: 
-- [ ] add path
-
 ### **export** button
 [ticket LUNA-388](https://avivgroup.atlassian.net/browse/LUNA-388)
 - [x] check naming
@@ -50,6 +46,6 @@ page: **Mandats à signer**
 
 ![[Daily Csv QSL Listing Export#fields]]
 
-- [x] implement
-- [x] send to Natasa and the team
-- [/] commit 
+- [x] `implement`
+- [x] send to [[Natasa]] and the team
+- [x] commit  and **PR**

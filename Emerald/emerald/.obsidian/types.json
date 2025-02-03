@@ -30,7 +30,7 @@
     "": "text",
     "created": "date",
     "updated": "date",
-    "date": "date",
+    "date": "datetime",
     "related": "multitext",
     "standing": "multitext",
     "implemented on": "date",
@@ -41,6 +41,7 @@
     "minutes": "number",
     "datetime": "datetime",
     "scheduled": "datetime",
-    "link": "text"
+    "link": "text",
+    "published": "date"
   }
 }

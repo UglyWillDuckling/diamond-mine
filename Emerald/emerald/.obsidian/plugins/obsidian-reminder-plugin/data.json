@@ -1,73 +1,45 @@
 {
   "scanned": true,
   "reminders": {
-    "work/tickets/FEAT/QSL listing feature/docs/features/QSL Import.md": [
-      {
-        "title": "remind me",
-        "time": "2025-01-31",
-        "rowNumber": 25
-      }
-    ],
-    "work/calls/1 on 1/with Paulo today.md": [
-      {
-        "title": "remind",
-        "time": "2025-01-31",
-        "rowNumber": 55
-      }
-    ],
-    "+/vim - jump to last edit and enter insert mode.md": [
-      {
-        "title": "1 week remind me",
-        "time": "2025-01-31",
-        "rowNumber": 13
-      }
-    ],
     "+/It would be very useful to provide testing info for finished tasks.md": [
       {
-        "title": "1 week reminder o",
-        "time": "2025-01-30",
-        "rowNumber": 13
-      }
-    ],
-    "Clippings/How to export variables from a file.md": [
-      {
-        "title": "remind me",
-        "time": "2025-01-31",
-        "rowNumber": 68
+        "title": "montly reminder",
+        "time": "2025-02-18",
+        "rowNumber": 6
       }
     ],
     "+/action is crucial, we need to define the next steps(actions) with as much detail as possible.md": [
       {
         "title": "remind me",
-        "time": "2025-01-31",
+        "time": "2025-02-04",
         "rowNumber": 14
       }
     ],
     "Clippings/Obsidian Physical Object System.md": [
       {
         "title": "come back to this article",
-        "time": "2025-01-31",
+        "time": "2025-02-04",
         "rowNumber": 148
       }
     ],
     "+/Xdebug just works.md": [
       {
-        "title": "1 day **remind me**",
-        "time": "2025-01-31",
-        "rowNumber": 4
+        "title": "1 week",
+        "time": "2025-02-10",
+        "rowNumber": 5
       }
     ],
     "+/prije slanja nekog dijela koda,izmjena - najbolje napraviti test.md": [
       {
-        "title": "1day remind me",
-        "time": "2025-01-31",
-        "rowNumber": 6
+        "title": "1 week",
+        "time": "2025-02-11",
+        "rowNumber": 3
       }
     ],
     "work/docs/how to/how to run the mediaAPI migration.md": [
       {
         "title": "remind me once",
-        "time": "2025-01-30",
+        "time": "2025-02-06",
         "rowNumber": 9
       }
     ],
@@ -81,15 +53,8 @@
     "+/Difference between tasks and tickets.md": [
       {
         "title": "remind me",
-        "time": "2025-01-30",
+        "time": "2025-02-06",
         "rowNumber": 6
-      }
-    ],
-    "Knowledge/How To's/vim - jump through the change list.md": [
-      {
-        "title": "1 week",
-        "time": "2025-02-03",
-        "rowNumber": 9
       }
     ],
     "Efforts/dev/general/you can list all yanks using <leader-p> in Lazynvim.md": [
@@ -97,6 +62,34 @@
         "title": "week",
         "time": "2025-02-06",
         "rowNumber": 10
+      }
+    ],
+    "+/you have the after command.md": [
+      {
+        "title": "remind me in a week",
+        "time": "2025-02-07",
+        "rowNumber": 12
+      }
+    ],
+    "Knowledge/How To's/How to export variables from a file in Unix.md": [
+      {
+        "title": "2 week",
+        "time": "2025-02-18",
+        "rowNumber": 68
+      }
+    ],
+    "+/vim - jump to last edit and enter insert mode.md": [
+      {
+        "title": "monthly",
+        "time": "2025-02-24",
+        "rowNumber": 14
+      }
+    ],
+    "+/bashword.md": [
+      {
+        "title": "remind",
+        "time": "2025-02-07",
+        "rowNumber": 27
       }
     ]
   },

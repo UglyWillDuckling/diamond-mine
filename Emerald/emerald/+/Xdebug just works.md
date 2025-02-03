@@ -2,4 +2,5 @@
 
 [[xdebug]] simply works via [[Phpstorm]]
 
-- [ ] 1 day **remind me** (@[[2025-01-31]])
+- [x] 1 day **remind me** (@[[2025-02-03]] 10:12)
+- [ ] 1 week (@[[2025-02-10]])

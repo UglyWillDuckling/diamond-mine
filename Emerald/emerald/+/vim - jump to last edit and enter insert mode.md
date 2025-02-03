@@ -11,7 +11,8 @@ tags:
 #vim #note #active 
 
 - [x] remind me (@[[2025-01-24]] 10:05)
-- [ ] 1 week remind me (@[[2025-01-31]])
+- [x] 1 week remind me (@[[2025-02-03]] 12:42)
+- [ ] monthly (@[[2025-02-24]])
 
 `gi`
 Will take the cursor to the **exact point last edited** and put you in **insert mode**, ready to continue typing. (It's also quicker to type!)

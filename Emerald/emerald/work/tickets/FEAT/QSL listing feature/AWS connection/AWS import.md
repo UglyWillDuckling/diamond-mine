@@ -14,8 +14,8 @@ parent:
 		- [x] #task **write** out the definitions 🆔 cOKlwm ✅ 2025-01-23
 			- [x] [[#what is it?]], [[#what it is not?]]
 	- [x] #task develop **first** solution 🆔 1ybLlc
-	- [ ] #task **refactor** the variable configurationsc 🔼 ⏳ 2025-01-28 📅 2025-01-30 🆔 YGhvFF
-	- [ ] #task **think** 🤔 what's next ⏭ 🆔 h4lL3z ⏳ 2025-01-29 📅 2025-01-29
+	- [ ] #task **refactor** the variable configurations 🔼 ⏳ 2025-01-28 📅 2025-01-30 🆔 YGhvFF
+	- [ ] #task **think** 🤔 what's next ⏭ for the import 🆔 h4lL3z ⏳ 2025-01-29 📅 2025-02-03
 
 ### ==definition of done==
 

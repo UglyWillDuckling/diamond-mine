@@ -20,8 +20,9 @@ related:
 
 ## discussion
 
-#### Senior developer
-- more mentorship
+### **Senior** developer
+
+- more **mentorship**
 	- code review
 	- onboarding
 	- interviews
@@ -33,18 +34,17 @@ related:
 - developping new skills
 - manage smaller projects on your own
 - Code quality
-	- docs
-	- effective tests
-#### business experties
-- strong understanding
-- considers customer needs
-- seeks to understand how work contributes
-- uses customer **insights** to improve solutions
-#### security
-- identify **risks**
-- strong awareness of [[GDPR]]
-- how will the data be used **outside** of the application?
-#### teamwork
+	- **docs**
+	- effective **tests**
+### business **expertise**
+- considers **customer** needs
+	- uses customer **insights** to improve solutions
+- **seeks** to **understand** how work **contributes**
+### security
+- *identify* **risks**
+- **how** will the data be used **outside** of the application?
+- ~~strong awareness of [[GDPR]]~~
+### **teamwork** 🤝
 -  communicates **regularly**
 - **positive** team dynamic, resolve conflicts
 - identify potential **deps**
@@ -53,4 +53,4 @@ related:
 #### Autonomy
 - ..
 
-- [ ] remind (@[[2025-01-31]])
+- [x] remind (@[[2025-02-03]] 10:12)

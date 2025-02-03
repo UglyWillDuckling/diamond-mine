@@ -58,11 +58,16 @@ related:
 - [x] #task [[cronjob test]] 🆔 y7tDlU ⏫ 📅 2025-01-20 ✅ 2025-01-21
 - [x] #task make a **PR** for dev 🆔 cHk56r ⛔ WNbW5S ⏫ 📅 2025-01-23 ✅ 2025-01-23
 
-- [/] #task *deploy and test* [[AWS import]] 🆔 YD2vvB ⏫ ⏳ 2025-01-24 📅 2025-01-29
+- [x] #task *deploy and test* [[AWS import]] 🆔 YD2vvB ⏫ ⏳ 2025-01-24 📅 2025-01-29 ✅ 2025-01-29
 	- [x] #task [[qsl dev aws import test]] ⏫ ⏳ 2025-01-28 📅 2025-01-28 🆔 Rh81AG ✅ 2025-01-28
 	- [x] #task **implement** [[aws import fixes]] 🆔 nzQSnw ⏫ 📅 2025-01-28 ✅ 2025-01-29
-	- [/] #task make **test** on dev with the **big** `dataset` ⏫ ⏳ 2025-01-29 📅 2025-01-29 🆔 pOGR5Y
+	- [x] #task make **test** on dev with the **big** `dataset` 🆔 pOGR5Y ⏫ ⏳ 2025-01-29 📅 2025-01-29 ✅ 2025-01-29A
+- [x] #task #fix [[missing icon]] 🆔 gl4dL9 ⏫ ⏳ 2025-01-30 📅 2025-01-31 ✅ 2025-01-30
+- [/] #task **wait** for [[Frederic Dalessandro]] to finish security #wait ⏫ 🆔 jXzU9o
 
 **Later**
  - [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8n
  - [ ] #task cleanup tests 🆔 QdOsoU 🔽
+
+Test locally
+http://localhost:8001/contacts/7008421/projects/2081042895

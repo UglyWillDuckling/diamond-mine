@@ -23,4 +23,4 @@ There are 2 options
 1. open **URL**: http://localhost:8001/listing/qsl_listing_import.php
 2. run in **CLI**:  `bin/exec php backyard/listing/qsl_listing_import.php  > out`
 
-- [ ] remind me (@[[2025-01-31]])
+- [x] remind me (@[[2025-01-31]])

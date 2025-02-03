@@ -27,7 +27,7 @@
 	- [x] #task add [[#export button]] 🔼 ⏳ 2025-01-29 📅 2025-01-29 🆔 uW6CLZ
 	- [x] #task implement export CSV route 🆔 cmQtVf ⏫ 📅 2025-01-29 ✅ 2025-01-29
 	- [/] adjust csv export name format 🆔 30ZWFm
-- [ ] #task write #test for backyard csv export 🧪 🆔 QyBoz0 🔼 ⏳ 2025-01-30 📅 2025-01-30
+- [ ] #task write #test for backyard csv export 🧪 🆔 QyBoz0 🔼 ⏳ 2025-01-30 📅 2025-02-03
 
 ### new **route**
 - % should be under listings, qsl

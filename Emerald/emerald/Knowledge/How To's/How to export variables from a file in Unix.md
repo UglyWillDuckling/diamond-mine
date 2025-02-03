@@ -1,16 +1,13 @@
 ---
-title: How to export variables from a file?
 source: https://unix.stackexchange.com/questions/79064/how-to-export-variables-from-a-file
-author:
-  - "[[Unix & Linux Stack Exchange]]"
 published: 2013-06-11
 created: 2025-01-17
-description: I have a tmp.txt file containing variables to be exported, for example:a=123b="hello world"c="one more variable"How can I export all these variables using the export command, so that they can...
 tags:
-  - clippings
   - howto
   - shell
   - bash
+  - dev
+  - unix
 ---
 ```bash
 set -a
@@ -19,8 +16,12 @@ set +a
 ```
 
 `set -a` causes variables¹ defined from now on to be automatically exported. It's available in any Bourne-like shell. `.` is the standard and Bourne name for the `source` command so I prefer it for portability (`source` comes from `csh` and is now available in most modern Bourne-like shells including `bash` though (sometimes with a slightly different behaviour)).
+%% [[Bourne Shell]] %%
 
-In POSIX shells, you can also use
+In [[POSIX]] shells, you can also use
+[^1]
+[^1]
+[^a named footnote]
 
 ```bash
 set -o allexport
@@ -28,10 +29,8 @@ set -o allexport
 set +o allexport
 ```
 
-as a more descriptive alternative way to write it.
-
 You can make it a [[function]] with:
-
+[^a named footnote]
 ```bash
 export_from() {
   # local is not a standard command but is pretty common. It's needed here
@@ -65,5 +64,12 @@ export_from() {
 ---
 
 <sup>¹ In <code>bash</code>, beware that it also causes all <strong>functions</strong> declared while <code>allexport</code> is on to be exported to the environment (as <code>BASH_FUNC_myfunction%%</code> environment variables that are then imported by all <code>bash</code> shells run in that environment, even when running as <code>sh</code>).</sup>
-> 
-- [ ] remind me(@[[2025-01-31]])
+
+- [x] remind me(@[[2025-01-31]])
+- [ ] 2 week (@[[2025-02-18]])
+[^another one]
+
+[^1]: a new footnote
+
+[^a named footnote]: Hello
+[^another one]: hello

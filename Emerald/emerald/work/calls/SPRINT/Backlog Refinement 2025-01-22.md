@@ -1,5 +1,5 @@
 ---
-date: 2025-01-22
+date: 2025-01-22T00:00:00
 ---
 #work #work/call #call #backlog
 

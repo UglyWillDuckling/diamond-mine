@@ -16,6 +16,12 @@
       "icon": "lucide-git-fork",
       "name": "Graph view: Open local graph",
       "mode": "any"
+    },
+    {
+      "id": "workspace:toggle-pin",
+      "icon": "lucide-pin",
+      "name": "Toggle pin",
+      "mode": "any"
     }
   ],
   "leftRibbon": [

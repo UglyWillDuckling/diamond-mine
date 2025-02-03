@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🦄",
       "🧪",
       "LiTimer",
       "🔙",
-      "LiPaintbrush",
-      "LiSheet"
+      "LiPaintbrush"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -450,5 +450,6 @@
   "work/tickets/FEAT/QSL listing feature/CSV QSL Export Feature.md": {
     "iconName": "LiSheet",
     "iconColor": "#19b385"
-  }
+  },
+  "work/tickets/FEAT/QSL listing feature/missing icon.md": "🦄"
 }

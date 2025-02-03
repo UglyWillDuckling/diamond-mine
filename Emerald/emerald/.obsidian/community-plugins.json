@@ -21,7 +21,6 @@
   "obsidian-reminder-plugin",
   "obsidian-book-search-plugin",
   "note-refactor-obsidian",
-  "surfing",
   "cmdr",
   "obsidian-plantuml",
   "templater-obsidian",
@@ -33,5 +32,6 @@
   "obsidian-meta-bind-plugin",
   "multi-column-markdown",
   "insta-toc",
-  "obsidian-plugin-toc"
+  "obsidian-plugin-toc",
+  "obsidian-footnotes"
 ]

@@ -1683,487 +1683,13 @@ __export(main_exports, {
   default: () => AdvancedCanvasPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian10 = require("obsidian");
-
-// node_modules/monkey-around/mjs/index.js
-function around(obj, factories) {
-  const removers = Object.keys(factories).map((key) => around1(obj, key, factories[key]));
-  return removers.length === 1 ? removers[0] : function() {
-    removers.forEach((r) => r());
-  };
-}
-function around1(obj, method, createWrapper) {
-  const original = obj[method], hadOwn = obj.hasOwnProperty(method);
-  let current = createWrapper(original);
-  if (original)
-    Object.setPrototypeOf(current, original);
-  Object.setPrototypeOf(wrapper, current);
-  obj[method] = wrapper;
-  return remove;
-  function wrapper(...args) {
-    if (current === original && obj[method] === wrapper)
-      remove();
-    return current.apply(this, args);
-  }
-  function remove() {
-    if (obj[method] === wrapper) {
-      if (hadOwn)
-        obj[method] = original;
-      else
-        delete obj[method];
-    }
-    if (current === original)
-      return;
-    current = original;
-    Object.setPrototypeOf(wrapper, original || Function);
-  }
-}
-
-// src/utils/patch-helper.ts
-var PatchHelper = class {
-  static tryPatchWorkspacePrototype(plugin, getTarget, functions) {
-    return new Promise((resolve) => {
-      const tryPatch = () => {
-        const target = getTarget();
-        if (!target)
-          return null;
-        const uninstaller = around(target.constructor.prototype, functions);
-        plugin.register(uninstaller);
-        return target;
-      };
-      const result = tryPatch();
-      if (result) {
-        resolve(result);
-        return;
-      }
-      const listener = plugin.app.workspace.on("layout-change", () => {
-        const result2 = tryPatch();
-        if (result2) {
-          plugin.app.workspace.offref(listener);
-          resolve(result2);
-        }
-      });
-      plugin.registerEvent(listener);
-    });
-  }
-  static patchObjectPrototype(plugin, target, functions) {
-    const uninstaller = around(target.constructor.prototype, functions);
-    plugin.register(uninstaller);
-  }
-  static patchObjectInstance(plugin, target, functions) {
-    const uninstaller = around(target, functions);
-    plugin.register(uninstaller);
-  }
-};
-
-// src/core/events.ts
-var CANVAS_EVENT_PREFIX = "canvas";
-var PLUGIN_EVENT_PREFIX = "advanced-canvas";
-var CanvasEvent = {
-  // Built-in events
-  SelectionContextMenu: `${CANVAS_EVENT_PREFIX}:selection-menu`,
-  NodeContextMenu: `${CANVAS_EVENT_PREFIX}:node-menu`,
-  EdgeContextMenu: `${CANVAS_EVENT_PREFIX}:edge-menu`,
-  NodeConnectionDropContextMenu: `${CANVAS_EVENT_PREFIX}:node-connection-drop-menu`,
-  // Custom events
-  CanvasChanged: `${PLUGIN_EVENT_PREFIX}:canvas-changed`,
-  ViewportChanged: {
-    Before: `${PLUGIN_EVENT_PREFIX}:viewport-changed:before`,
-    After: `${PLUGIN_EVENT_PREFIX}:viewport-changed:after`
-  },
-  NodeMoved: `${PLUGIN_EVENT_PREFIX}:node-moved`,
-  DoubleClick: `${PLUGIN_EVENT_PREFIX}:double-click`,
-  DraggingStateChanged: `${PLUGIN_EVENT_PREFIX}:dragging-state-changed`,
-  NodeCreated: `${PLUGIN_EVENT_PREFIX}:node-created`,
-  EdgeCreated: `${PLUGIN_EVENT_PREFIX}:edge-created`,
-  NodeAdded: `${PLUGIN_EVENT_PREFIX}:node-added`,
-  EdgeAdded: `${PLUGIN_EVENT_PREFIX}:edge-added`,
-  NodeChanged: `${PLUGIN_EVENT_PREFIX}:node-changed`,
-  EdgeChanged: `${PLUGIN_EVENT_PREFIX}:edge-changed`,
-  NodeTextContentChanged: `${PLUGIN_EVENT_PREFIX}:node-text-content-changed`,
-  NodeRemoved: `${PLUGIN_EVENT_PREFIX}:node-removed`,
-  EdgeRemoved: `${PLUGIN_EVENT_PREFIX}:edge-removed`,
-  OnCopy: `${PLUGIN_EVENT_PREFIX}:copy`,
-  NodeEditingStateChanged: `${PLUGIN_EVENT_PREFIX}:node-editing-state-changed`,
-  NodeBreakpointChanged: `${PLUGIN_EVENT_PREFIX}:node-breakpoint-changed`,
-  NodeBBoxRequested: `${PLUGIN_EVENT_PREFIX}:node-bbox-requested`,
-  EdgeCenterRequested: `${PLUGIN_EVENT_PREFIX}:edge-center-requested`,
-  ContainingNodesRequested: `${PLUGIN_EVENT_PREFIX}:containing-nodes-requested`,
-  SelectionChanged: `${PLUGIN_EVENT_PREFIX}:selection-changed`,
-  ZoomToBbox: {
-    Before: `${PLUGIN_EVENT_PREFIX}:zoom-to-bbox:before`,
-    After: `${PLUGIN_EVENT_PREFIX}:zoom-to-bbox:after`
-  },
-  PopupMenuCreated: `${PLUGIN_EVENT_PREFIX}:popup-menu-created`,
-  NodeInteraction: `${PLUGIN_EVENT_PREFIX}:node-interaction`,
-  Undo: `${PLUGIN_EVENT_PREFIX}:undo`,
-  Redo: `${PLUGIN_EVENT_PREFIX}:redo`,
-  ReadonlyChanged: `${PLUGIN_EVENT_PREFIX}:readonly-changed`,
-  DataRequested: `${PLUGIN_EVENT_PREFIX}:data-requested`,
-  LoadData: `${PLUGIN_EVENT_PREFIX}:load-data`,
-  CanvasSaved: {
-    Before: `${PLUGIN_EVENT_PREFIX}:canvas-saved:before`,
-    After: `${PLUGIN_EVENT_PREFIX}:canvas-saved:after`
-  }
-};
-
-// src/core/canvas-patcher.ts
-var import_obsidian = require("obsidian");
-var import_view = require("@codemirror/view");
-
-// node_modules/tiny-jsonc/dist/index.js
-var stringOrCommentRe = /("(?:\\?[^])*?")|(\/\/.*)|(\/\*[^]*?\*\/)/g;
-var stringOrTrailingCommaRe = /("(?:\\?[^])*?")|(,\s*)(?=]|})/g;
-var JSONC = {
-  parse: (text) => {
-    text = String(text);
-    try {
-      return JSON.parse(text);
-    } catch (e) {
-      return JSON.parse(text.replace(stringOrCommentRe, "$1").replace(stringOrTrailingCommaRe, "$1"));
-    }
-  }
-};
-var dist_default = JSONC;
-
-// src/core/canvas-patcher.ts
-var import_json_stable_stringify = __toESM(require_json_stable_stringify());
-var CanvasPatcher = class {
-  constructor(plugin) {
-    this.plugin = plugin;
-    this.applyPatches();
-  }
-  async applyPatches() {
-    const that = this;
-    await new Promise((resolve) => this.plugin.app.workspace.onLayoutReady(() => resolve()));
-    const getCanvasView = async () => {
-      var _a;
-      const canvasLeaf = (_a = this.plugin.app.workspace.getLeavesOfType("canvas")) == null ? void 0 : _a.first();
-      if (!canvasLeaf)
-        return null;
-      if ((0, import_obsidian.requireApiVersion)("1.7.2"))
-        await canvasLeaf.loadIfDeferred();
-      return canvasLeaf.view;
-    };
-    let canvasView = await getCanvasView();
-    canvasView != null ? canvasView : canvasView = await new Promise((resolve) => {
-      const event = this.plugin.app.workspace.on("layout-change", async () => {
-        const newCanvasView = await getCanvasView();
-        if (!newCanvasView)
-          return;
-        resolve(newCanvasView);
-        this.plugin.app.workspace.offref(event);
-      });
-      this.plugin.registerEvent(event);
-    });
-    console.log("Patching canvas view:", canvasView);
-    PatchHelper.patchObjectPrototype(this.plugin, canvasView, {
-      getViewData: (next) => function(...args) {
-        const canvasData = this.canvas.getData();
-        try {
-          return (0, import_json_stable_stringify.default)(canvasData, { space: 2 });
-        } catch (e) {
-          console.error("Failed to stringify canvas data using json-stable-stringify:", e);
-          try {
-            return JSON.stringify(canvasData, null, 2);
-          } catch (e2) {
-            console.error("Failed to stringify canvas data using JSON.stringify:", e2);
-            return next.call(this, ...args);
-          }
-        }
-      },
-      setViewData: (next) => function(json, ...args) {
-        json = json !== "" ? json : "{}";
-        let result;
-        try {
-          result = next.call(this, json, ...args);
-        } catch (e) {
-          console.error("Invalid JSON, repairing through Advanced Canvas:", e);
-          that.plugin.createFileSnapshot(this.file.path, json);
-          json = JSON.stringify(dist_default.parse(json), null, 2);
-          result = next.call(this, json, ...args);
-        }
-        that.triggerWorkspaceEvent(CanvasEvent.CanvasChanged, this.canvas);
-        return result;
-      }
-    });
-    PatchHelper.patchObjectPrototype(this.plugin, canvasView.canvas, {
-      markViewportChanged: (next) => function(...args) {
-        that.triggerWorkspaceEvent(CanvasEvent.ViewportChanged.Before, this);
-        const result = next.call(this, ...args);
-        that.triggerWorkspaceEvent(CanvasEvent.ViewportChanged.After, this);
-        return result;
-      },
-      markMoved: (next) => function(node) {
-        const result = next.call(this, node);
-        that.triggerWorkspaceEvent(CanvasEvent.NodeMoved, this, node);
-        return result;
-      },
-      onDoubleClick: (next) => function(event) {
-        const preventDefault = { value: false };
-        that.triggerWorkspaceEvent(CanvasEvent.DoubleClick, this, event, preventDefault);
-        if (!preventDefault.value)
-          next.call(this, event);
-      },
-      setDragging: (next) => function(dragging) {
-        const result = next.call(this, dragging);
-        that.triggerWorkspaceEvent(CanvasEvent.DraggingStateChanged, this, dragging);
-        return result;
-      },
-      getContainingNodes: (next) => function(bbox) {
-        const result = next.call(this, bbox);
-        that.triggerWorkspaceEvent(CanvasEvent.ContainingNodesRequested, this, bbox, result);
-        return result;
-      },
-      updateSelection: (next) => function(update) {
-        const oldSelection = new Set(this.selection);
-        const result = next.call(this, update);
-        that.triggerWorkspaceEvent(CanvasEvent.SelectionChanged, this, oldSelection, (update2) => next.call(this, update2));
-        return result;
-      },
-      createTextNode: (next) => function(...args) {
-        const node = next.call(this, ...args);
-        that.triggerWorkspaceEvent(CanvasEvent.NodeCreated, this, node);
-        return node;
-      },
-      createFileNode: (next) => function(...args) {
-        const node = next.call(this, ...args);
-        that.triggerWorkspaceEvent(CanvasEvent.NodeCreated, this, node);
-        return node;
-      },
-      createFileNodes: (next) => function(...args) {
-        const nodes = next.call(this, ...args);
-        nodes.forEach((node) => that.triggerWorkspaceEvent(CanvasEvent.NodeCreated, this, node));
-        return nodes;
-      },
-      createGroupNode: (next) => function(...args) {
-        const node = next.call(this, ...args);
-        that.triggerWorkspaceEvent(CanvasEvent.NodeCreated, this, node);
-        return node;
-      },
-      createLinkNode: (next) => function(...args) {
-        const node = next.call(this, ...args);
-        that.triggerWorkspaceEvent(CanvasEvent.NodeCreated, this, node);
-        return node;
-      },
-      addNode: (next) => function(node) {
-        that.patchNode(node);
-        return next.call(this, node);
-      },
-      addEdge: (next) => function(edge) {
-        that.patchEdge(edge);
-        if (!this.viewportChanged)
-          that.triggerWorkspaceEvent(CanvasEvent.EdgeCreated, this, edge);
-        return next.call(this, edge);
-      },
-      removeNode: (next) => function(node) {
-        const result = next.call(this, node);
-        if (!this.isClearing)
-          that.triggerWorkspaceEvent(CanvasEvent.NodeRemoved, this, node);
-        return result;
-      },
-      removeEdge: (next) => function(edge) {
-        const result = next.call(this, edge);
-        if (!this.isClearing)
-          that.triggerWorkspaceEvent(CanvasEvent.EdgeRemoved, this, edge);
-        return result;
-      },
-      handleCopy: (next) => function(...args) {
-        this.isCopying = true;
-        const result = next.call(this, ...args);
-        this.isCopying = false;
-        return result;
-      },
-      getSelectionData: (next) => function(...args) {
-        const result = next.call(this, ...args);
-        if (this.isCopying)
-          that.triggerWorkspaceEvent(CanvasEvent.OnCopy, this, result);
-        return result;
-      },
-      zoomToBbox: (next) => function(bbox) {
-        that.triggerWorkspaceEvent(CanvasEvent.ZoomToBbox.Before, this, bbox);
-        const result = next.call(this, bbox);
-        that.triggerWorkspaceEvent(CanvasEvent.ZoomToBbox.After, this, bbox);
-        return result;
-      },
-      setReadonly: (next) => function(readonly) {
-        const result = next.call(this, readonly);
-        that.triggerWorkspaceEvent(CanvasEvent.ReadonlyChanged, this, readonly);
-        return result;
-      },
-      undo: (next) => function(...args) {
-        const result = next.call(this, ...args);
-        this.importData(this.getData(), true);
-        that.triggerWorkspaceEvent(CanvasEvent.Undo, this);
-        return result;
-      },
-      redo: (next) => function(...args) {
-        const result = next.call(this, ...args);
-        this.importData(this.getData(), true);
-        that.triggerWorkspaceEvent(CanvasEvent.Redo, this);
-        return result;
-      },
-      clear: (next) => function(...args) {
-        this.isClearing = true;
-        const result = next.call(this, ...args);
-        this.isClearing = false;
-        return result;
-      },
-      /*setData: (next: any) => function (...args: any) {
-        //
-        const result = next.call(this, ...args)
-        //
-        return result
-      },*/
-      getData: (next) => function(...args) {
-        const result = next.call(this, ...args);
-        that.triggerWorkspaceEvent(CanvasEvent.DataRequested, this, result);
-        return result;
-      },
-      importData: (next) => function(data, clearCanvas, silent) {
-        const targetFilePath = this.view.file.path;
-        const setData = (data2) => {
-          if (!this.view.file || this.view.file.path !== targetFilePath)
-            return;
-          this.importData(data2, true, true);
-        };
-        if (!silent)
-          that.triggerWorkspaceEvent(CanvasEvent.LoadData, this, data, setData);
-        const result = next.call(this, data, clearCanvas);
-        return result;
-      },
-      requestSave: (next) => function(...args) {
-        that.triggerWorkspaceEvent(CanvasEvent.CanvasSaved.Before, this);
-        const result = next.call(this, ...args);
-        that.triggerWorkspaceEvent(CanvasEvent.CanvasSaved.After, this);
-        return result;
-      }
-    });
-    PatchHelper.patchObjectPrototype(this.plugin, canvasView.canvas.menu, {
-      render: (next) => function(...args) {
-        const result = next.call(this, ...args);
-        that.triggerWorkspaceEvent(CanvasEvent.PopupMenuCreated, this.canvas);
-        next.call(this);
-        return result;
-      }
-    });
-    PatchHelper.patchObjectPrototype(this.plugin, canvasView.canvas.nodeInteractionLayer, {
-      setTarget: (next) => function(node) {
-        const result = next.call(this, node);
-        that.triggerWorkspaceEvent(CanvasEvent.NodeInteraction, this.canvas, node);
-        return result;
-      }
-    });
-    this.plugin.registerEditorExtension([import_view.EditorView.updateListener.of((update) => {
-      if (!update.docChanged)
-        return;
-      const editor = update.state.field(import_obsidian.editorInfoField);
-      const node = editor.node;
-      if (!node)
-        return;
-      that.triggerWorkspaceEvent(CanvasEvent.NodeTextContentChanged, node.canvas, node, update);
-    })]);
-    this.plugin.app.workspace.iterateAllLeaves((leaf) => {
-      if (leaf.view.getViewType() !== "canvas")
-        return;
-      const canvasView2 = leaf.view;
-      canvasView2.leaf.rebuildView();
-    });
-  }
-  patchNode(node) {
-    const that = this;
-    PatchHelper.patchObjectInstance(this.plugin, node, {
-      setData: (next) => function(data, addHistory) {
-        const result = next.call(this, data);
-        if (node.initialized && !node.isDirty) {
-          node.isDirty = true;
-          that.triggerWorkspaceEvent(CanvasEvent.NodeChanged, this.canvas, node);
-          delete node.isDirty;
-        }
-        this.canvas.data = this.canvas.getData();
-        this.canvas.view.requestSave();
-        if (addHistory)
-          this.canvas.pushHistory(this.canvas.data);
-        return result;
-      },
-      setIsEditing: (next) => function(editing, ...args) {
-        const result = next.call(this, editing, ...args);
-        that.triggerWorkspaceEvent(CanvasEvent.NodeEditingStateChanged, this.canvas, node, editing);
-        return result;
-      },
-      updateBreakpoint: (next) => function(breakpoint) {
-        const breakpointRef = { value: breakpoint };
-        that.triggerWorkspaceEvent(CanvasEvent.NodeBreakpointChanged, this.canvas, node, breakpointRef);
-        return next.call(this, breakpointRef.value);
-      },
-      getBBox: (next) => function(...args) {
-        const result = next.call(this, ...args);
-        that.triggerWorkspaceEvent(CanvasEvent.NodeBBoxRequested, this.canvas, node, result);
-        return result;
-      }
-    });
-    this.runAfterInitialized(node, () => {
-      this.triggerWorkspaceEvent(CanvasEvent.NodeAdded, node.canvas, node);
-      this.triggerWorkspaceEvent(CanvasEvent.NodeChanged, node.canvas, node);
-    });
-  }
-  patchEdge(edge) {
-    const that = this;
-    PatchHelper.patchObjectInstance(this.plugin, edge, {
-      setData: (next) => function(data, addHistory) {
-        const result = next.call(this, data);
-        if (edge.initialized && !edge.isDirty) {
-          edge.isDirty = true;
-          that.triggerWorkspaceEvent(CanvasEvent.EdgeChanged, this.canvas, edge);
-          delete edge.isDirty;
-        }
-        this.canvas.data = this.canvas.getData();
-        this.canvas.view.requestSave();
-        if (addHistory)
-          this.canvas.pushHistory(this.canvas.getData());
-        return result;
-      },
-      render: (next) => function(...args) {
-        const result = next.call(this, ...args);
-        that.triggerWorkspaceEvent(CanvasEvent.EdgeChanged, this.canvas, edge);
-        return result;
-      },
-      getCenter: (next) => function(...args) {
-        const result = next.call(this, ...args);
-        that.triggerWorkspaceEvent(CanvasEvent.EdgeCenterRequested, this.canvas, edge, result);
-        return result;
-      }
-    });
-    this.runAfterInitialized(edge, () => {
-      this.triggerWorkspaceEvent(CanvasEvent.EdgeAdded, edge.canvas, edge);
-    });
-  }
-  runAfterInitialized(canvasElement, onReady) {
-    if (canvasElement.initialized) {
-      onReady();
-      return;
-    }
-    const that = this;
-    const uninstall = around(canvasElement, {
-      initialize: (next) => function(...args) {
-        const result = next.call(this, ...args);
-        onReady();
-        uninstall();
-        return result;
-      }
-    });
-    that.plugin.register(uninstall);
-  }
-  triggerWorkspaceEvent(event, ...args) {
-    this.plugin.app.workspace.trigger(event, ...args);
-  }
-};
+var import_obsidian11 = require("obsidian");
 
 // src/quicksettings.ts
-var import_obsidian3 = require("obsidian");
+var import_obsidian2 = require("obsidian");
 
 // src/settings.ts
-var import_obsidian2 = require("obsidian");
+var import_obsidian = require("obsidian");
 
 // src/canvas-extensions/advanced-styles/style-config.ts
 var BUILTIN_NODE_STYLE_ATTRIBUTES = [
@@ -2364,7 +1890,61 @@ var BUILTIN_EDGE_STYLE_ATTRIBUTES = [
   }
 ];
 
-// src/core/canvas-extension.ts
+// src/events.ts
+var CANVAS_EVENT_PREFIX = "canvas";
+var PLUGIN_EVENT_PREFIX = "advanced-canvas";
+var PluginEvent = {
+  SettingsChanged: `${PLUGIN_EVENT_PREFIX}:settings-changed`
+};
+var CanvasEvent = {
+  // Built-in events
+  SelectionContextMenu: `${CANVAS_EVENT_PREFIX}:selection-menu`,
+  NodeContextMenu: `${CANVAS_EVENT_PREFIX}:node-menu`,
+  EdgeContextMenu: `${CANVAS_EVENT_PREFIX}:edge-menu`,
+  NodeConnectionDropContextMenu: `${CANVAS_EVENT_PREFIX}:node-connection-drop-menu`,
+  // Custom events
+  CanvasChanged: `${PLUGIN_EVENT_PREFIX}:canvas-changed`,
+  ViewportChanged: {
+    Before: `${PLUGIN_EVENT_PREFIX}:viewport-changed:before`,
+    After: `${PLUGIN_EVENT_PREFIX}:viewport-changed:after`
+  },
+  NodeMoved: `${PLUGIN_EVENT_PREFIX}:node-moved`,
+  DoubleClick: `${PLUGIN_EVENT_PREFIX}:double-click`,
+  DraggingStateChanged: `${PLUGIN_EVENT_PREFIX}:dragging-state-changed`,
+  NodeCreated: `${PLUGIN_EVENT_PREFIX}:node-created`,
+  EdgeCreated: `${PLUGIN_EVENT_PREFIX}:edge-created`,
+  NodeAdded: `${PLUGIN_EVENT_PREFIX}:node-added`,
+  EdgeAdded: `${PLUGIN_EVENT_PREFIX}:edge-added`,
+  NodeChanged: `${PLUGIN_EVENT_PREFIX}:node-changed`,
+  EdgeChanged: `${PLUGIN_EVENT_PREFIX}:edge-changed`,
+  NodeTextContentChanged: `${PLUGIN_EVENT_PREFIX}:node-text-content-changed`,
+  NodeRemoved: `${PLUGIN_EVENT_PREFIX}:node-removed`,
+  EdgeRemoved: `${PLUGIN_EVENT_PREFIX}:edge-removed`,
+  OnCopy: `${PLUGIN_EVENT_PREFIX}:copy`,
+  NodeEditingStateChanged: `${PLUGIN_EVENT_PREFIX}:node-editing-state-changed`,
+  NodeBreakpointChanged: `${PLUGIN_EVENT_PREFIX}:node-breakpoint-changed`,
+  NodeBBoxRequested: `${PLUGIN_EVENT_PREFIX}:node-bbox-requested`,
+  EdgeCenterRequested: `${PLUGIN_EVENT_PREFIX}:edge-center-requested`,
+  ContainingNodesRequested: `${PLUGIN_EVENT_PREFIX}:containing-nodes-requested`,
+  SelectionChanged: `${PLUGIN_EVENT_PREFIX}:selection-changed`,
+  ZoomToBbox: {
+    Before: `${PLUGIN_EVENT_PREFIX}:zoom-to-bbox:before`,
+    After: `${PLUGIN_EVENT_PREFIX}:zoom-to-bbox:after`
+  },
+  PopupMenuCreated: `${PLUGIN_EVENT_PREFIX}:popup-menu-created`,
+  NodeInteraction: `${PLUGIN_EVENT_PREFIX}:node-interaction`,
+  Undo: `${PLUGIN_EVENT_PREFIX}:undo`,
+  Redo: `${PLUGIN_EVENT_PREFIX}:redo`,
+  ReadonlyChanged: `${PLUGIN_EVENT_PREFIX}:readonly-changed`,
+  DataRequested: `${PLUGIN_EVENT_PREFIX}:data-requested`,
+  LoadData: `${PLUGIN_EVENT_PREFIX}:load-data`,
+  CanvasSaved: {
+    Before: `${PLUGIN_EVENT_PREFIX}:canvas-saved:before`,
+    After: `${PLUGIN_EVENT_PREFIX}:canvas-saved:after`
+  }
+};
+
+// src/canvas-extensions/canvas-extension.ts
 var CanvasExtension = class {
   constructor(plugin) {
     this.plugin = plugin;
@@ -2399,17 +1979,78 @@ var VariableBreakpointCanvasExtension = class extends CanvasExtension {
 };
 
 // src/settings.ts
+var README_URL = "https://github.com/Developer-Mike/obsidian-advanced-canvas?tab=readme-ov-file";
 var ASK_FOR_DONATION_DELAY = 1e3 * 60 * 60 * 24 * 7;
-var SPENT_HOURS = 140;
-var RECEIVED_DONATIONS = 209;
+var SPENT_HOURS = 150;
+var RECEIVED_DONATIONS = 234;
 var HOURLY_RATE_GOAL = 20;
 var KOFI_PAGE_URL = "https://ko-fi.com/X8X27IA08";
 var KOFI_BADGE_URI = "data:image/webp;base64,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";
+var DEFAULT_SETTINGS_VALUES = {
+  downloadTimestamp: (/* @__PURE__ */ new Date()).getTime(),
+  askedForDonation: false,
+  nodeTypeOnDoubleClick: "text",
+  alignNewNodesToGrid: true,
+  defaultTextNodeWidth: 260,
+  defaultTextNodeHeight: 60,
+  defaultFileNodeWidth: 400,
+  defaultFileNodeHeight: 400,
+  minNodeSize: 60,
+  disableFontSizeRelativeToZoom: false,
+  canvasMetadataCompatibilityEnabled: true,
+  treatFileNodeEdgesAsLinks: true,
+  combineCustomStylesInDropdown: false,
+  nodeStylingFeatureEnabled: true,
+  customNodeStyleAttributes: [],
+  defaultTextNodeStyleAttributes: {},
+  edgesStylingFeatureEnabled: true,
+  customEdgeStyleAttributes: [],
+  defaultEdgeLineDirection: "unidirectional",
+  defaultEdgeStyleAttributes: {},
+  edgeStyleUpdateWhileDragging: false,
+  edgeStyleDirectRotateArrow: false,
+  edgeStylePathfinderGridResolution: 10,
+  edgeStylePathfinderPathRounded: true,
+  variableBreakpointFeatureEnabled: true,
+  zOrderingFeatureEnabled: true,
+  zOrderingShowOneLayerShiftOptions: false,
+  commandsFeatureEnabled: true,
+  zoomToClonedNode: true,
+  cloneNodeMargin: 20,
+  expandNodeStepSize: 20,
+  flipEdgeFeatureEnabled: true,
+  betterReadonlyEnabled: true,
+  disableNodePopup: false,
+  disableZoom: false,
+  disablePan: false,
+  autoResizeNodeFeatureEnabled: false,
+  autoResizeNodeEnabledByDefault: false,
+  autoResizeNodeMaxHeight: -1,
+  autoResizeNodeSnapToGrid: true,
+  collapsibleGroupsFeatureEnabled: true,
+  collapsedGroupPreviewOnDrag: true,
+  focusModeFeatureEnabled: true,
+  presentationFeatureEnabled: true,
+  showSetStartNodeInPopup: false,
+  defaultSlideSize: "1200x675",
+  wrapInSlidePadding: 20,
+  resetViewportOnPresentationEnd: true,
+  useArrowKeysToChangeSlides: true,
+  usePgUpPgDownKeysToChangeSlides: true,
+  zoomToSlideWithoutPadding: true,
+  slideTransitionAnimationDuration: 0.5,
+  slideTransitionAnimationIntensity: 1.25,
+  canvasEncapsulationEnabled: true,
+  portalsFeatureEnabled: true,
+  maintainClosedPortalSize: true,
+  showEdgesIntoDisabledPortals: true
+};
 var SETTINGS = {
   // @ts-ignore
   general: {
     label: "General",
     description: "General settings of the Advanced Canvas plugin.",
+    infoSection: "better-default-settings",
     disableToggle: true,
     children: {
       nodeTypeOnDoubleClick: {
@@ -2463,14 +2104,28 @@ var SETTINGS = {
       }
     }
   },
+  canvasMetadataCompatibilityEnabled: {
+    label: "Enable .canvas metadata cache compatibility",
+    description: "Make .canvas files compatible with the backlinks and outgoing links feature and show the connections in the graph view.",
+    infoSection: "full-metadata-cache-support",
+    children: {
+      treatFileNodeEdgesAsLinks: {
+        label: "Treat edges between file nodes as links",
+        description: "When enabled, edges between file nodes will be treated as links. This means that if file node A.md has an edge to file node B.md in the canvas, file A.md will have a link to file B.md in the outgoing links section and show a connection in the graph view.",
+        type: "boolean"
+      }
+    }
+  },
   combineCustomStylesInDropdown: {
     label: "Combine custom styles",
     description: "Combine all style attributes of Advanced Canvas in a single dropdown.",
+    infoSection: null,
     children: {}
   },
   nodeStylingFeatureEnabled: {
     label: "Node styling",
     description: "Style your nodes with different shapes and borders.",
+    infoSection: "node-styles",
     children: {
       customNodeStyleAttributes: {
         label: "Custom node style settings",
@@ -2493,6 +2148,7 @@ var SETTINGS = {
   edgesStylingFeatureEnabled: {
     label: "Edges styling",
     description: "Style your edges with different path styles.",
+    infoSection: "edge-styles",
     children: {
       customEdgeStyleAttributes: {
         label: "Custom edge style settings",
@@ -2543,11 +2199,25 @@ var SETTINGS = {
   variableBreakpointFeatureEnabled: {
     label: "Variable breakpoint",
     description: `Change the zoom breakpoint (the zoom level at which the nodes won't render their content anymore) on a per-node basis using the ${VARIABLE_BREAKPOINT_CSS_VAR} CSS variable.`,
+    infoSection: "variable-breakpoints",
     children: {}
+  },
+  zOrderingFeatureEnabled: {
+    label: "Z ordering controls",
+    description: "Change the z-index of nodes using the context menu.",
+    infoSection: "z-ordering-control",
+    children: {
+      zOrderingShowOneLayerShiftOptions: {
+        label: "Show one layer shift options",
+        description: "When enabled, you can move nodes one layer forward or backward.",
+        type: "boolean"
+      }
+    }
   },
   commandsFeatureEnabled: {
     label: "Extended commands",
     description: "Add more commands to the canvas.",
+    infoSection: "canvas-commands",
     children: {
       zoomToClonedNode: {
         label: "Zoom to cloned node",
@@ -2568,9 +2238,16 @@ var SETTINGS = {
       }
     }
   },
+  flipEdgeFeatureEnabled: {
+    label: "Flip edges",
+    description: "Flip the direction of edges using the popup menu.",
+    infoSection: "flip-edge",
+    children: {}
+  },
   betterReadonlyEnabled: {
     label: "Better readonly",
     description: "Improve the readonly mode.",
+    infoSection: "better-readonly",
     children: {
       disableNodePopup: {
         label: "Disable node popup",
@@ -2592,6 +2269,7 @@ var SETTINGS = {
   autoResizeNodeFeatureEnabled: {
     label: "Auto resize node",
     description: "Automatically resize the height of a node to fit the content.",
+    infoSection: "auto-node-resizing",
     children: {
       autoResizeNodeEnabledByDefault: {
         label: "Enable auto resize by default",
@@ -2617,6 +2295,7 @@ var SETTINGS = {
   collapsibleGroupsFeatureEnabled: {
     label: "Collapsible groups",
     description: "Group nodes can be collapsed and expanded to keep the canvas organized.",
+    infoSection: "collapsible-groups",
     children: {
       collapsedGroupPreviewOnDrag: {
         label: "Collapsed group preview on drag",
@@ -2628,11 +2307,13 @@ var SETTINGS = {
   focusModeFeatureEnabled: {
     label: "Focus mode",
     description: "Focus on a single node and blur all other nodes.",
+    infoSection: "focus-mode",
     children: {}
   },
   presentationFeatureEnabled: {
     label: "Presentations",
     description: "Create a presentation from your canvas.",
+    infoSection: "presentation-mode",
     children: {
       showSetStartNodeInPopup: {
         label: 'Show "Set Start Node" in node popup',
@@ -2686,12 +2367,14 @@ var SETTINGS = {
   },
   canvasEncapsulationEnabled: {
     label: "Canvas encapsulation",
-    description: "Encapsulate a selection of nodes and edges into a new canvas.",
+    description: "Encapsulate a selection of nodes and edges into a new canvas using the context menu.",
+    infoSection: "encapsulate-selection",
     children: {}
   },
   portalsFeatureEnabled: {
     label: "Portals",
     description: "Create portals to other canvases.",
+    infoSection: "portals",
     children: {
       maintainClosedPortalSize: {
         label: "Maintain closed portal size",
@@ -2706,67 +2389,13 @@ var SETTINGS = {
     }
   }
 };
-var DEFAULT_SETTINGS_VALUES = {
-  downloadTimestamp: (/* @__PURE__ */ new Date()).getTime(),
-  askedForDonation: false,
-  nodeTypeOnDoubleClick: "text",
-  alignNewNodesToGrid: true,
-  defaultTextNodeWidth: 260,
-  defaultTextNodeHeight: 60,
-  defaultFileNodeWidth: 400,
-  defaultFileNodeHeight: 400,
-  minNodeSize: 60,
-  disableFontSizeRelativeToZoom: false,
-  combineCustomStylesInDropdown: false,
-  nodeStylingFeatureEnabled: true,
-  customNodeStyleAttributes: [],
-  defaultTextNodeStyleAttributes: {},
-  edgesStylingFeatureEnabled: true,
-  customEdgeStyleAttributes: [],
-  defaultEdgeLineDirection: "unidirectional",
-  defaultEdgeStyleAttributes: {},
-  edgeStyleUpdateWhileDragging: false,
-  edgeStyleDirectRotateArrow: false,
-  edgeStylePathfinderGridResolution: 10,
-  edgeStylePathfinderPathRounded: true,
-  variableBreakpointFeatureEnabled: true,
-  commandsFeatureEnabled: true,
-  zoomToClonedNode: true,
-  cloneNodeMargin: 20,
-  expandNodeStepSize: 20,
-  betterReadonlyEnabled: true,
-  disableNodePopup: false,
-  disableZoom: false,
-  disablePan: false,
-  autoResizeNodeFeatureEnabled: false,
-  autoResizeNodeEnabledByDefault: false,
-  autoResizeNodeMaxHeight: -1,
-  autoResizeNodeSnapToGrid: true,
-  collapsibleGroupsFeatureEnabled: true,
-  collapsedGroupPreviewOnDrag: true,
-  focusModeFeatureEnabled: true,
-  presentationFeatureEnabled: true,
-  showSetStartNodeInPopup: false,
-  defaultSlideSize: "1200x675",
-  wrapInSlidePadding: 20,
-  resetViewportOnPresentationEnd: true,
-  useArrowKeysToChangeSlides: true,
-  usePgUpPgDownKeysToChangeSlides: true,
-  zoomToSlideWithoutPadding: true,
-  slideTransitionAnimationDuration: 0.5,
-  slideTransitionAnimationIntensity: 1.25,
-  canvasEncapsulationEnabled: true,
-  portalsFeatureEnabled: true,
-  maintainClosedPortalSize: true,
-  showEdgesIntoDisabledPortals: true
-};
-var _SettingsManager = class _SettingsManager {
+var SettingsManager = class {
   constructor(plugin) {
     this.plugin = plugin;
   }
   async loadSettings() {
     this.settings = Object.assign({}, DEFAULT_SETTINGS_VALUES, await this.plugin.loadData());
-    this.plugin.app.workspace.trigger(_SettingsManager.SETTINGS_CHANGED_EVENT);
+    this.plugin.app.workspace.trigger(PluginEvent.SettingsChanged);
   }
   async saveSettings() {
     await this.plugin.saveData(this.settings);
@@ -2777,16 +2406,14 @@ var _SettingsManager = class _SettingsManager {
   async setSetting(data) {
     this.settings = Object.assign(this.settings, data);
     await this.saveSettings();
-    this.plugin.app.workspace.trigger(_SettingsManager.SETTINGS_CHANGED_EVENT);
+    this.plugin.app.workspace.trigger(PluginEvent.SettingsChanged);
   }
   addSettingsTab() {
     this.settingsTab = new AdvancedCanvasPluginSettingTab(this.plugin, this);
     this.plugin.addSettingTab(this.settingsTab);
   }
 };
-_SettingsManager.SETTINGS_CHANGED_EVENT = "advanced-canvas:settings-changed";
-var SettingsManager = _SettingsManager;
-var AdvancedCanvasPluginSettingTab = class extends import_obsidian2.PluginSettingTab {
+var AdvancedCanvasPluginSettingTab = class extends import_obsidian.PluginSettingTab {
   constructor(plugin, settingsManager) {
     super(plugin.app, plugin);
     this.settingsManager = settingsManager;
@@ -2799,6 +2426,7 @@ var AdvancedCanvasPluginSettingTab = class extends import_obsidian2.PluginSettin
         containerEl,
         heading.label,
         heading.description,
+        heading.infoSection,
         heading.disableToggle ? null : headingId
       );
       for (let [settingId, setting] of Object.entries(heading.children)) {
@@ -2832,47 +2460,55 @@ var AdvancedCanvasPluginSettingTab = class extends import_obsidian2.PluginSettin
       this.createKoFiOverlay(containerEl);
     }
   }
-  createFeatureHeading(containerEl, label, description, settingsKey) {
-    if (settingsKey === null) {
-      return new import_obsidian2.Setting(containerEl).setHeading().setClass("ac-settings-heading").setName("General");
+  createFeatureHeading(containerEl, label, description, infoSection, settingsKey) {
+    const setting = new import_obsidian.Setting(containerEl).setHeading().setClass("ac-settings-heading").setName(label).setDesc(description);
+    if (infoSection !== null) {
+      setting.addExtraButton(
+        (button) => button.setTooltip("Open github documentation").setIcon("info").onClick(async () => {
+          window.open(`${README_URL}#${infoSection}`);
+        })
+      );
     }
-    return new import_obsidian2.Setting(containerEl).setHeading().setClass("ac-settings-heading").setName(label).setDesc(description).addToggle(
-      (toggle) => toggle.setTooltip("Requires a reload to take effect.").setValue(this.settingsManager.getSetting(settingsKey)).onChange(async (value) => {
-        await this.settingsManager.setSetting({ [settingsKey]: value });
-        new import_obsidian2.Notice("Reload obsidian to apply the changes.");
-      })
-    );
+    if (settingsKey !== null) {
+      setting.addToggle(
+        (toggle) => toggle.setTooltip("Requires a reload to take effect.").setValue(this.settingsManager.getSetting(settingsKey)).onChange(async (value) => {
+          await this.settingsManager.setSetting({ [settingsKey]: value });
+          new import_obsidian.Notice("Reload obsidian to apply the changes.");
+        })
+      );
+    }
+    return setting;
   }
   createTextSetting(containerEl, settingId, setting) {
-    new import_obsidian2.Setting(containerEl).setName(setting.label).setDesc(setting.description).addText(
+    new import_obsidian.Setting(containerEl).setName(setting.label).setDesc(setting.description).addText(
       (text) => text.setValue(this.settingsManager.getSetting(settingId)).onChange(async (value) => {
         await this.settingsManager.setSetting({ [settingId]: setting.parse ? setting.parse(value) : value });
       })
     );
   }
   createNumberSetting(containerEl, settingId, setting) {
-    new import_obsidian2.Setting(containerEl).setName(setting.label).setDesc(setting.description).addText(
+    new import_obsidian.Setting(containerEl).setName(setting.label).setDesc(setting.description).addText(
       (text) => text.setValue(this.settingsManager.getSetting(settingId).toString()).onChange(async (value) => {
         await this.settingsManager.setSetting({ [settingId]: setting.parse(value) });
       })
     );
   }
   createBooleanSetting(containerEl, settingId, setting) {
-    new import_obsidian2.Setting(containerEl).setName(setting.label).setDesc(setting.description).addToggle(
+    new import_obsidian.Setting(containerEl).setName(setting.label).setDesc(setting.description).addToggle(
       (toggle) => toggle.setValue(this.settingsManager.getSetting(settingId)).onChange(async (value) => {
         await this.settingsManager.setSetting({ [settingId]: value });
       })
     );
   }
   createDropdownSetting(containerEl, settingId, setting) {
-    new import_obsidian2.Setting(containerEl).setName(setting.label).setDesc(setting.description).addDropdown(
+    new import_obsidian.Setting(containerEl).setName(setting.label).setDesc(setting.description).addDropdown(
       (dropdown) => dropdown.addOptions(setting.options).setValue(this.settingsManager.getSetting(settingId)).onChange(async (value) => {
         await this.settingsManager.setSetting({ [settingId]: value });
       })
     );
   }
   createButtonSetting(containerEl, settingId, setting) {
-    new import_obsidian2.Setting(containerEl).setName(setting.label).setDesc(setting.description).addButton(
+    new import_obsidian.Setting(containerEl).setName(setting.label).setDesc(setting.description).addButton(
       (button) => button.setButtonText("Open").onClick(() => setting.onClick())
     );
   }
@@ -2884,7 +2520,7 @@ var AdvancedCanvasPluginSettingTab = class extends import_obsidian2.PluginSettin
     summaryEl.textContent = setting.label;
     nestedContainerEl.appendChild(summaryEl);
     for (const styleAttribute of setting.getParameters(this.settingsManager)) {
-      new import_obsidian2.Setting(nestedContainerEl).setName(styleAttribute.label).addDropdown(
+      new import_obsidian.Setting(nestedContainerEl).setName(styleAttribute.label).addDropdown(
         (dropdown) => {
           var _a;
           return dropdown.addOptions(Object.fromEntries(styleAttribute.options.map((option) => [option.value, option.value === null ? `${option.label} (default)` : option.label]))).setValue((_a = this.settingsManager.getSetting(settingId)[styleAttribute.datasetKey]) != null ? _a : "null").onChange(async (value) => {
@@ -2965,7 +2601,7 @@ var Quicksettings = class {
     });
   }
 };
-var SearchKeyValueSettingModal = class extends import_obsidian3.SuggestModal {
+var SearchKeyValueSettingModal = class extends import_obsidian2.SuggestModal {
   constructor(app, settingsManager) {
     super(app);
     this.settingsManager = settingsManager;
@@ -3101,7 +2737,7 @@ var SetStyleAttributeModal = class extends SearchKeyValueSettingModal {
     });
   }
 };
-var SetTextOrNumberSettingModal = class extends import_obsidian3.SuggestModal {
+var SetTextOrNumberSettingModal = class extends import_obsidian2.SuggestModal {
   constructor(app, settingsManager, settingsKey, setting) {
     super(app);
     this.settingsManager = settingsManager;
@@ -3139,7 +2775,7 @@ var SetTextOrNumberSettingModal = class extends import_obsidian3.SuggestModal {
     this.settingsManager.setSetting({ [this.settingsKey]: this.setting.parse ? this.setting.parse(item) : item });
   }
 };
-var SetBooleanSettingModal = class extends import_obsidian3.SuggestModal {
+var SetBooleanSettingModal = class extends import_obsidian2.SuggestModal {
   constructor(app, settingsManager, settingsKey) {
     super(app);
     this.settingsManager = settingsManager;
@@ -3215,7 +2851,7 @@ var SetDropdownSettingModal = class extends SearchKeyValueSettingModal {
 };
 
 // src/utils/icons-helper.ts
-var import_obsidian4 = require("obsidian");
+var import_obsidian3 = require("obsidian");
 var CUSTOM_ICONS = {
   "shape-pill": `<rect rx="31.25" height="62.5" width="93.75" y="18.75" x="3.125" stroke-width="8.333" stroke="currentColor" fill="transparent"/>`,
   "shape-parallelogram": `<rect transform="skewX(-20)" rx="5" height="50" width="70" y="25" x="35" stroke-width="8.333" stroke="currentColor" fill="transparent"/>`,
@@ -3254,7 +2890,7 @@ var CUSTOM_ICONS = {
 var IconsHelper = class {
   static addIcons() {
     for (const [id, svg] of Object.entries(CUSTOM_ICONS)) {
-      (0, import_obsidian4.addIcon)(id, svg);
+      (0, import_obsidian3.addIcon)(id, svg);
     }
   }
 };
@@ -3380,7 +3016,7 @@ var MigrationHelper = class {
   }
 };
 
-// src/windows-manager.ts
+// src/managers/windows-manager.ts
 var WindowsManager = class {
   constructor(plugin) {
     this.windows = [window];
@@ -3396,8 +3032,681 @@ var WindowsManager = class {
   }
 };
 
-// src/utils/canvas-helper.ts
+// node_modules/monkey-around/mjs/index.js
+function around(obj, factories) {
+  const removers = Object.keys(factories).map((key) => around1(obj, key, factories[key]));
+  return removers.length === 1 ? removers[0] : function() {
+    removers.forEach((r) => r());
+  };
+}
+function around1(obj, method, createWrapper) {
+  const original = obj[method], hadOwn = obj.hasOwnProperty(method);
+  let current = createWrapper(original);
+  if (original)
+    Object.setPrototypeOf(current, original);
+  Object.setPrototypeOf(wrapper, current);
+  obj[method] = wrapper;
+  return remove;
+  function wrapper(...args) {
+    if (current === original && obj[method] === wrapper)
+      remove();
+    return current.apply(this, args);
+  }
+  function remove() {
+    if (obj[method] === wrapper) {
+      if (hadOwn)
+        obj[method] = original;
+      else
+        delete obj[method];
+    }
+    if (current === original)
+      return;
+    current = original;
+    Object.setPrototypeOf(wrapper, original || Function);
+  }
+}
+
+// src/utils/patch-helper.ts
+var PatchHelper = class {
+  static tryPatchWorkspacePrototype(plugin, getTarget, functions) {
+    return new Promise((resolve) => {
+      const tryPatch = () => {
+        const target = getTarget();
+        if (!target)
+          return null;
+        const uninstaller = around(target.constructor.prototype, functions);
+        plugin.register(uninstaller);
+        return target;
+      };
+      const result = tryPatch();
+      if (result) {
+        resolve(result);
+        return;
+      }
+      const listener = plugin.app.workspace.on("layout-change", () => {
+        const result2 = tryPatch();
+        if (result2) {
+          plugin.app.workspace.offref(listener);
+          resolve(result2);
+        }
+      });
+      plugin.registerEvent(listener);
+    });
+  }
+  static patchObjectPrototype(plugin, target, functions) {
+    const uninstaller = around(target.constructor.prototype, functions);
+    plugin.register(uninstaller);
+  }
+  static patchObjectInstance(plugin, target, functions) {
+    const uninstaller = around(target, functions);
+    plugin.register(uninstaller);
+  }
+};
+
+// src/patchers/canvas-patcher.ts
+var import_obsidian4 = require("obsidian");
+var import_view = require("@codemirror/view");
+
+// node_modules/tiny-jsonc/dist/index.js
+var stringOrCommentRe = /("(?:\\?[^])*?")|(\/\/.*)|(\/\*[^]*?\*\/)/g;
+var stringOrTrailingCommaRe = /("(?:\\?[^])*?")|(,\s*)(?=]|})/g;
+var JSONC = {
+  parse: (text) => {
+    text = String(text);
+    try {
+      return JSON.parse(text);
+    } catch (e) {
+      return JSON.parse(text.replace(stringOrCommentRe, "$1").replace(stringOrTrailingCommaRe, "$1"));
+    }
+  }
+};
+var dist_default = JSONC;
+
+// src/patchers/canvas-patcher.ts
+var import_json_stable_stringify = __toESM(require_json_stable_stringify());
+
+// src/patchers/patcher.ts
+var Patcher = class {
+  constructor(plugin) {
+    this.plugin = plugin;
+    this.patch();
+  }
+};
+
+// src/patchers/canvas-patcher.ts
+var CanvasPatcher = class extends Patcher {
+  async patch() {
+    const that = this;
+    await new Promise((resolve) => this.plugin.app.workspace.onLayoutReady(() => resolve()));
+    const getCanvasView = async () => {
+      var _a;
+      const canvasLeaf = (_a = this.plugin.app.workspace.getLeavesOfType("canvas")) == null ? void 0 : _a.first();
+      if (!canvasLeaf)
+        return null;
+      if ((0, import_obsidian4.requireApiVersion)("1.7.2"))
+        await canvasLeaf.loadIfDeferred();
+      return canvasLeaf.view;
+    };
+    let canvasView = await getCanvasView();
+    canvasView != null ? canvasView : canvasView = await new Promise((resolve) => {
+      const event = this.plugin.app.workspace.on("layout-change", async () => {
+        const newCanvasView = await getCanvasView();
+        if (!newCanvasView)
+          return;
+        resolve(newCanvasView);
+        this.plugin.app.workspace.offref(event);
+      });
+      this.plugin.registerEvent(event);
+    });
+    PatchHelper.patchObjectPrototype(this.plugin, canvasView, {
+      getViewData: (next) => function(...args) {
+        const canvasData = this.canvas.getData();
+        try {
+          return (0, import_json_stable_stringify.default)(canvasData, { space: 2 });
+        } catch (e) {
+          console.error("Failed to stringify canvas data using json-stable-stringify:", e);
+          try {
+            return JSON.stringify(canvasData, null, 2);
+          } catch (e2) {
+            console.error("Failed to stringify canvas data using JSON.stringify:", e2);
+            return next.call(this, ...args);
+          }
+        }
+      },
+      setViewData: (next) => function(json, ...args) {
+        json = json !== "" ? json : "{}";
+        let result;
+        try {
+          result = next.call(this, json, ...args);
+        } catch (e) {
+          console.error("Invalid JSON, repairing through Advanced Canvas:", e);
+          that.plugin.createFileSnapshot(this.file.path, json);
+          json = JSON.stringify(dist_default.parse(json), null, 2);
+          result = next.call(this, json, ...args);
+        }
+        that.triggerWorkspaceEvent(CanvasEvent.CanvasChanged, this.canvas);
+        return result;
+      }
+    });
+    PatchHelper.patchObjectPrototype(this.plugin, canvasView.canvas, {
+      markViewportChanged: (next) => function(...args) {
+        that.triggerWorkspaceEvent(CanvasEvent.ViewportChanged.Before, this);
+        const result = next.call(this, ...args);
+        that.triggerWorkspaceEvent(CanvasEvent.ViewportChanged.After, this);
+        return result;
+      },
+      markMoved: (next) => function(node) {
+        const result = next.call(this, node);
+        that.triggerWorkspaceEvent(CanvasEvent.NodeMoved, this, node);
+        return result;
+      },
+      onDoubleClick: (next) => function(event) {
+        const preventDefault = { value: false };
+        that.triggerWorkspaceEvent(CanvasEvent.DoubleClick, this, event, preventDefault);
+        if (!preventDefault.value)
+          next.call(this, event);
+      },
+      setDragging: (next) => function(dragging) {
+        const result = next.call(this, dragging);
+        that.triggerWorkspaceEvent(CanvasEvent.DraggingStateChanged, this, dragging);
+        return result;
+      },
+      getContainingNodes: (next) => function(bbox) {
+        const result = next.call(this, bbox);
+        that.triggerWorkspaceEvent(CanvasEvent.ContainingNodesRequested, this, bbox, result);
+        return result;
+      },
+      updateSelection: (next) => function(update) {
+        const oldSelection = new Set(this.selection);
+        const result = next.call(this, update);
+        that.triggerWorkspaceEvent(CanvasEvent.SelectionChanged, this, oldSelection, (update2) => next.call(this, update2));
+        return result;
+      },
+      createTextNode: (next) => function(...args) {
+        const node = next.call(this, ...args);
+        that.triggerWorkspaceEvent(CanvasEvent.NodeCreated, this, node);
+        return node;
+      },
+      createFileNode: (next) => function(...args) {
+        const node = next.call(this, ...args);
+        that.triggerWorkspaceEvent(CanvasEvent.NodeCreated, this, node);
+        return node;
+      },
+      createFileNodes: (next) => function(...args) {
+        const nodes = next.call(this, ...args);
+        nodes.forEach((node) => that.triggerWorkspaceEvent(CanvasEvent.NodeCreated, this, node));
+        return nodes;
+      },
+      createGroupNode: (next) => function(...args) {
+        const node = next.call(this, ...args);
+        that.triggerWorkspaceEvent(CanvasEvent.NodeCreated, this, node);
+        return node;
+      },
+      createLinkNode: (next) => function(...args) {
+        const node = next.call(this, ...args);
+        that.triggerWorkspaceEvent(CanvasEvent.NodeCreated, this, node);
+        return node;
+      },
+      addNode: (next) => function(node) {
+        that.patchNode(node);
+        return next.call(this, node);
+      },
+      addEdge: (next) => function(edge) {
+        that.patchEdge(edge);
+        if (!this.viewportChanged)
+          that.triggerWorkspaceEvent(CanvasEvent.EdgeCreated, this, edge);
+        return next.call(this, edge);
+      },
+      removeNode: (next) => function(node) {
+        const result = next.call(this, node);
+        if (!this.isClearing)
+          that.triggerWorkspaceEvent(CanvasEvent.NodeRemoved, this, node);
+        return result;
+      },
+      removeEdge: (next) => function(edge) {
+        const result = next.call(this, edge);
+        if (!this.isClearing)
+          that.triggerWorkspaceEvent(CanvasEvent.EdgeRemoved, this, edge);
+        return result;
+      },
+      handleCopy: (next) => function(...args) {
+        this.isCopying = true;
+        const result = next.call(this, ...args);
+        this.isCopying = false;
+        return result;
+      },
+      getSelectionData: (next) => function(...args) {
+        const result = next.call(this, ...args);
+        if (this.isCopying)
+          that.triggerWorkspaceEvent(CanvasEvent.OnCopy, this, result);
+        return result;
+      },
+      zoomToBbox: (next) => function(bbox) {
+        that.triggerWorkspaceEvent(CanvasEvent.ZoomToBbox.Before, this, bbox);
+        const result = next.call(this, bbox);
+        that.triggerWorkspaceEvent(CanvasEvent.ZoomToBbox.After, this, bbox);
+        return result;
+      },
+      setReadonly: (next) => function(readonly) {
+        const result = next.call(this, readonly);
+        that.triggerWorkspaceEvent(CanvasEvent.ReadonlyChanged, this, readonly);
+        return result;
+      },
+      undo: (next) => function(...args) {
+        const result = next.call(this, ...args);
+        this.importData(this.getData(), true);
+        that.triggerWorkspaceEvent(CanvasEvent.Undo, this);
+        return result;
+      },
+      redo: (next) => function(...args) {
+        const result = next.call(this, ...args);
+        this.importData(this.getData(), true);
+        that.triggerWorkspaceEvent(CanvasEvent.Redo, this);
+        return result;
+      },
+      clear: (next) => function(...args) {
+        this.isClearing = true;
+        const result = next.call(this, ...args);
+        this.isClearing = false;
+        return result;
+      },
+      /*setData: (next: any) => function (...args: any) {
+        //
+        const result = next.call(this, ...args)
+        //
+        return result
+      },*/
+      getData: (next) => function(...args) {
+        const result = next.call(this, ...args);
+        that.triggerWorkspaceEvent(CanvasEvent.DataRequested, this, result);
+        return result;
+      },
+      importData: (next) => function(data, clearCanvas, silent) {
+        const targetFilePath = this.view.file.path;
+        const setData = (data2) => {
+          if (!this.view.file || this.view.file.path !== targetFilePath)
+            return;
+          this.importData(data2, true, true);
+        };
+        if (!silent)
+          that.triggerWorkspaceEvent(CanvasEvent.LoadData, this, data, setData);
+        const result = next.call(this, data, clearCanvas);
+        return result;
+      },
+      requestSave: (next) => function(...args) {
+        that.triggerWorkspaceEvent(CanvasEvent.CanvasSaved.Before, this);
+        const result = next.call(this, ...args);
+        that.triggerWorkspaceEvent(CanvasEvent.CanvasSaved.After, this);
+        return result;
+      }
+    });
+    PatchHelper.patchObjectPrototype(this.plugin, canvasView.canvas.menu, {
+      render: (next) => function(...args) {
+        const result = next.call(this, ...args);
+        that.triggerWorkspaceEvent(CanvasEvent.PopupMenuCreated, this.canvas);
+        next.call(this);
+        return result;
+      }
+    });
+    PatchHelper.patchObjectPrototype(this.plugin, canvasView.canvas.nodeInteractionLayer, {
+      setTarget: (next) => function(node) {
+        const result = next.call(this, node);
+        that.triggerWorkspaceEvent(CanvasEvent.NodeInteraction, this.canvas, node);
+        return result;
+      }
+    });
+    this.plugin.registerEditorExtension([import_view.EditorView.updateListener.of((update) => {
+      if (!update.docChanged)
+        return;
+      const editor = update.state.field(import_obsidian4.editorInfoField);
+      const node = editor.node;
+      if (!node)
+        return;
+      that.triggerWorkspaceEvent(CanvasEvent.NodeTextContentChanged, node.canvas, node, update);
+    })]);
+    this.plugin.app.workspace.iterateAllLeaves((leaf) => {
+      if (leaf.view.getViewType() !== "canvas")
+        return;
+      const canvasView2 = leaf.view;
+      canvasView2.leaf.rebuildView();
+    });
+  }
+  patchNode(node) {
+    const that = this;
+    PatchHelper.patchObjectInstance(this.plugin, node, {
+      setData: (next) => function(data, addHistory) {
+        const result = next.call(this, data);
+        if (node.initialized && !node.isDirty) {
+          node.isDirty = true;
+          that.triggerWorkspaceEvent(CanvasEvent.NodeChanged, this.canvas, node);
+          delete node.isDirty;
+        }
+        this.canvas.data = this.canvas.getData();
+        this.canvas.view.requestSave();
+        if (addHistory)
+          this.canvas.pushHistory(this.canvas.data);
+        return result;
+      },
+      setIsEditing: (next) => function(editing, ...args) {
+        const result = next.call(this, editing, ...args);
+        that.triggerWorkspaceEvent(CanvasEvent.NodeEditingStateChanged, this.canvas, node, editing);
+        return result;
+      },
+      updateBreakpoint: (next) => function(breakpoint) {
+        const breakpointRef = { value: breakpoint };
+        that.triggerWorkspaceEvent(CanvasEvent.NodeBreakpointChanged, this.canvas, node, breakpointRef);
+        return next.call(this, breakpointRef.value);
+      },
+      getBBox: (next) => function(...args) {
+        const result = next.call(this, ...args);
+        that.triggerWorkspaceEvent(CanvasEvent.NodeBBoxRequested, this.canvas, node, result);
+        return result;
+      }
+    });
+    this.runAfterInitialized(node, () => {
+      this.triggerWorkspaceEvent(CanvasEvent.NodeAdded, node.canvas, node);
+      this.triggerWorkspaceEvent(CanvasEvent.NodeChanged, node.canvas, node);
+    });
+  }
+  patchEdge(edge) {
+    const that = this;
+    PatchHelper.patchObjectInstance(this.plugin, edge, {
+      setData: (next) => function(data, addHistory) {
+        const result = next.call(this, data);
+        if (edge.initialized && !edge.isDirty) {
+          edge.isDirty = true;
+          that.triggerWorkspaceEvent(CanvasEvent.EdgeChanged, this.canvas, edge);
+          delete edge.isDirty;
+        }
+        this.canvas.data = this.canvas.getData();
+        this.canvas.view.requestSave();
+        if (addHistory)
+          this.canvas.pushHistory(this.canvas.getData());
+        return result;
+      },
+      render: (next) => function(...args) {
+        const result = next.call(this, ...args);
+        that.triggerWorkspaceEvent(CanvasEvent.EdgeChanged, this.canvas, edge);
+        return result;
+      },
+      getCenter: (next) => function(...args) {
+        const result = next.call(this, ...args);
+        that.triggerWorkspaceEvent(CanvasEvent.EdgeCenterRequested, this.canvas, edge, result);
+        return result;
+      }
+    });
+    this.runAfterInitialized(edge, () => {
+      this.triggerWorkspaceEvent(CanvasEvent.EdgeAdded, edge.canvas, edge);
+    });
+  }
+  runAfterInitialized(canvasElement, onReady) {
+    if (canvasElement.initialized) {
+      onReady();
+      return;
+    }
+    const that = this;
+    const uninstall = around(canvasElement, {
+      initialize: (next) => function(...args) {
+        const result = next.call(this, ...args);
+        onReady();
+        uninstall();
+        return result;
+      }
+    });
+    that.plugin.register(uninstall);
+  }
+  triggerWorkspaceEvent(event, ...args) {
+    this.plugin.app.workspace.trigger(event, ...args);
+  }
+};
+
+// src/utils/hash-helper.ts
+var import_crypto = __toESM(require("crypto"));
+var HashHelper = class {
+  static hash(str) {
+    return import_crypto.default.createHash("sha256").update(str).digest("hex");
+  }
+};
+
+// src/utils/path-helper.ts
+var PathHelper = class {
+  static extension(path) {
+    return path.includes(".") ? path.split(".").pop() : void 0;
+  }
+};
+
+// src/patchers/metadata-cache-patcher.ts
+var MetadataCachePatcher = class extends Patcher {
+  async patch() {
+    if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled"))
+      return;
+    const that = this;
+    await PatchHelper.patchObjectPrototype(this.plugin, this.plugin.app.metadataCache, {
+      getCache: (next) => function(filepath, ...args) {
+        if (PathHelper.extension(filepath) === "canvas") {
+          if (!this.fileCache.hasOwnProperty(filepath))
+            return null;
+          const hash = this.fileCache[filepath].hash;
+          return this.metadataCache[hash] || null;
+        }
+        return next.call(this, filepath, ...args);
+      },
+      computeFileMetadataAsync: (next) => async function(file, ...args) {
+        var _a;
+        if (PathHelper.extension(file.path) !== "canvas")
+          return next.call(this, file, ...args);
+        const fileHash = HashHelper.hash(file.path);
+        this.saveFileCache(file.path, {
+          hash: fileHash,
+          // Hash wouldn't get set in the original function
+          mtime: file.stat.mtime,
+          size: file.stat.size
+        });
+        const content = JSON.parse((_a = await this.vault.cachedRead(file)) != null ? _a : "{}");
+        if (!(content == null ? void 0 : content.nodes))
+          return;
+        const fileNodesEmbeds = content.nodes.filter((node) => node.type === "file" && node.file).map((node) => [node.id, node.file]).map(([nodeId, file2]) => ({
+          link: file2,
+          original: file2,
+          displayText: file2,
+          position: {
+            nodeId,
+            start: { line: 0, col: 0, offset: 0 },
+            end: { line: 0, col: 0, offset: 0 }
+          }
+        }));
+        const textEncoder = new TextEncoder();
+        const textNodes = content.nodes.filter((node) => node.type === "text" && node.text);
+        const textNodesIds = textNodes.map((node) => node.id);
+        const textNodesMetadataPromises = textNodes.map((node) => textEncoder.encode(node.text).buffer).map((buffer) => this.computeMetadataAsync(buffer));
+        const textNodesMetadata = await Promise.all(textNodesMetadataPromises);
+        const textNodesEmbeds = textNodesMetadata.map((metadata, index) => (metadata.embeds || []).map((embed) => ({
+          ...embed,
+          position: {
+            nodeId: textNodesIds[index],
+            ...embed.position
+          }
+        }))).flat();
+        const textNodesLinks = textNodesMetadata.map((metadata, index) => (metadata.links || []).map((link) => ({
+          ...link,
+          position: {
+            nodeId: textNodesIds[index],
+            ...link.position
+          }
+        }))).flat();
+        this.metadataCache[fileHash] = {
+          v: 1,
+          embeds: [
+            ...fileNodesEmbeds,
+            ...textNodesEmbeds
+          ],
+          links: [
+            ...textNodesLinks
+          ],
+          nodes: {
+            ...textNodesMetadata.reduce((acc, metadata, index) => {
+              acc[textNodesIds[index]] = metadata;
+              return acc;
+            }, {})
+          }
+        };
+        this.trigger("changed", file, "", this.metadataCache[fileHash]);
+        this.resolveLinks(file.path, content);
+      },
+      resolveLinks: (next) => async function(filepath, cachedContent) {
+        var _a, _b, _c;
+        if (PathHelper.extension(filepath) !== "canvas")
+          return next.call(this, filepath);
+        const file = this.vault.getAbstractFileByPath(filepath);
+        if (!file)
+          return;
+        const metadataCache = this.metadataCache[(_a = this.fileCache[filepath]) == null ? void 0 : _a.hash];
+        if (!metadataCache)
+          return;
+        const metadataReferences = [...metadataCache.links || [], ...metadataCache.embeds || []];
+        this.resolvedLinks[filepath] = metadataReferences.reduce((acc, metadataReference) => {
+          const resolvedLinkpath = this.getFirstLinkpathDest(metadataReference.link, filepath);
+          if (!resolvedLinkpath)
+            return acc;
+          acc[resolvedLinkpath.path] = (acc[resolvedLinkpath.path] || 0) + 1;
+          return acc;
+        }, {});
+        if (that.plugin.settings.getSetting("treatFileNodeEdgesAsLinks")) {
+          for (const edge of cachedContent.edges || []) {
+            const from = (_b = cachedContent.nodes) == null ? void 0 : _b.find((node) => node.id === edge.fromNode);
+            const to = (_c = cachedContent.nodes) == null ? void 0 : _c.find((node) => node.id === edge.toNode);
+            if (!from || !to)
+              continue;
+            if (from.type !== "file" || to.type !== "file" || !from.file || !to.file)
+              continue;
+            this.registerInternalLinkAC(file.name, from.file, to.file);
+            if (!(edge.toEnd !== "none" || edge.fromEnd === "arrow"))
+              this.registerInternalLinkAC(file.name, to.file, from.file);
+          }
+        }
+        this.trigger("resolve", file);
+        this.trigger("resolved");
+      },
+      registerInternalLinkAC: (_next) => function(canvasName, from, to) {
+        var _a, _b, _c, _d;
+        const fromFileHash = (_b = (_a = this.fileCache[from]) == null ? void 0 : _a.hash) != null ? _b : HashHelper.hash(from);
+        const fromFileMetadataCache = (_c = this.metadataCache[fromFileHash]) != null ? _c : { v: 1 };
+        this.metadataCache[fromFileHash] = {
+          ...fromFileMetadataCache,
+          links: [
+            ...fromFileMetadataCache.links || [],
+            {
+              link: to,
+              original: to,
+              displayText: `${canvasName} \u2192 ${to}`,
+              position: { start: { line: 0, col: 0, offset: 0 }, end: { line: 0, col: 0, offset: 0 } }
+            }
+          ]
+        };
+        this.resolvedLinks[from] = {
+          ...this.resolvedLinks[from],
+          [to]: (((_d = this.resolvedLinks[from]) == null ? void 0 : _d[to]) || 0) + 1
+        };
+      }
+    });
+    this.plugin.registerEvent(this.plugin.app.vault.on("modify", (file) => {
+      if (PathHelper.extension(file.path) !== "canvas")
+        return;
+      this.plugin.app.metadataCache.computeFileMetadataAsync(file);
+    }));
+  }
+};
+
+// src/patchers/backlinks-patcher.ts
 var import_obsidian5 = require("obsidian");
+var BacklinksPatcher = class extends Patcher {
+  constructor() {
+    super(...arguments);
+    this.isRecomputingBacklinks = false;
+  }
+  async patch() {
+    if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled"))
+      return;
+    const that = this;
+    const backlinkPatch = PatchHelper.tryPatchWorkspacePrototype(this.plugin, () => {
+      var _a, _b;
+      return (_b = (_a = this.plugin.app.workspace.getLeavesOfType("backlink").first()) == null ? void 0 : _a.view) == null ? void 0 : _b.backlink;
+    }, {
+      recomputeBacklink: (next) => function(file, ...args) {
+        that.isRecomputingBacklinks = true;
+        const result = next.call(this, file, ...args);
+        that.isRecomputingBacklinks = false;
+        return result;
+      }
+    });
+    const vaultPatch = PatchHelper.patchObjectPrototype(this.plugin, this.plugin.app.vault, {
+      recurseChildrenAC: (_next) => function(origin, traverse) {
+        for (var stack = [origin]; stack.length > 0; ) {
+          var current = stack.pop();
+          if (current) {
+            traverse(current);
+            if (current instanceof import_obsidian5.TFolder)
+              stack = stack.concat(current.children);
+          }
+        }
+      },
+      getMarkdownFiles: (next) => function(file, ...args) {
+        if (!that.isRecomputingBacklinks)
+          return next.call(this, file, ...args);
+        var files = [];
+        var root = this.getRoot();
+        this.recurseChildrenAC(root, (child) => {
+          if (child instanceof import_obsidian5.TFile && (child.extension === "md" || child.extension === "canvas")) {
+            files.push(child);
+          }
+        });
+        return files;
+      }
+    });
+    const [backlink] = await Promise.all([backlinkPatch, vaultPatch]);
+    backlink.recomputeBacklink(this.plugin.app.workspace.getActiveFile());
+  }
+};
+
+// src/patchers/outgoing-links-patcher.ts
+var OutgoingLinksPatcher = class extends Patcher {
+  async patch() {
+    if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled"))
+      return;
+    const that = this;
+    const outgoingLinkPatch = PatchHelper.tryPatchWorkspacePrototype(this.plugin, () => {
+      var _a, _b;
+      return (_b = (_a = this.plugin.app.workspace.getLeavesOfType("outgoing-link").first()) == null ? void 0 : _a.view) == null ? void 0 : _b.outgoingLink;
+    }, {
+      recomputeLinks: (next) => function(...args) {
+        var _a;
+        const isCanvas = ((_a = this.file) == null ? void 0 : _a.extension) === "canvas";
+        if (isCanvas)
+          this.file.extension = "md";
+        const result = next.call(this, ...args);
+        if (isCanvas)
+          this.file.extension = "canvas";
+        return result;
+      },
+      recomputeUnlinked: (next) => function(...args) {
+        var _a;
+        const isCanvas = ((_a = this.file) == null ? void 0 : _a.extension) === "canvas";
+        if (isCanvas)
+          this.file.extension = "md";
+        const result = next.call(this, ...args);
+        if (isCanvas)
+          this.file.extension = "canvas";
+        return result;
+      }
+    });
+    const [outgoingLink] = await Promise.all([outgoingLinkPatch]);
+    outgoingLink.recomputeLinks();
+    outgoingLink.recomputeUnlinked();
+  }
+};
+
+// src/utils/canvas-helper.ts
+var import_obsidian6 = require("obsidian");
 
 // src/utils/bbox-helper.ts
 var BBoxHelper = class {
@@ -3483,6 +3792,18 @@ var BBoxHelper = class {
         return { x: 0, y: 0 };
     }
   }
+  static getOppositeSide(side) {
+    switch (side) {
+      case "top":
+        return "bottom";
+      case "right":
+        return "left";
+      case "bottom":
+        return "top";
+      case "left":
+        return "right";
+    }
+  }
   static isHorizontal(side) {
     return side === "left" || side === "right";
   }
@@ -3508,8 +3829,8 @@ var _CanvasHelper = class _CanvasHelper {
     if (menuOption.id)
       quickSetting.id = menuOption.id;
     quickSetting.classList.add("canvas-control-item");
-    (0, import_obsidian5.setIcon)(quickSetting, menuOption.icon);
-    (0, import_obsidian5.setTooltip)(quickSetting, menuOption.label, { placement: "left" });
+    (0, import_obsidian6.setIcon)(quickSetting, menuOption.icon);
+    (0, import_obsidian6.setTooltip)(quickSetting, menuOption.label, { placement: "left" });
     quickSetting.addEventListener("click", () => {
       var _a;
       return (_a = menuOption.callback) == null ? void 0 : _a.call(menuOption);
@@ -3528,8 +3849,8 @@ var _CanvasHelper = class _CanvasHelper {
       menuOptionElement.id = menuOption.id;
     menuOptionElement.classList.add("canvas-card-menu-button");
     menuOptionElement.classList.add("mod-draggable");
-    (0, import_obsidian5.setIcon)(menuOptionElement, menuOption.icon);
-    (0, import_obsidian5.setTooltip)(menuOptionElement, menuOption.label, { placement: "top" });
+    (0, import_obsidian6.setIcon)(menuOptionElement, menuOption.icon);
+    (0, import_obsidian6.setTooltip)(menuOptionElement, menuOption.label, { placement: "top" });
     menuOptionElement.addEventListener("click", (_e) => {
       onPlaced(canvas, this.getCenterCoordinates(canvas, previewNodeSize()));
     });
@@ -3552,8 +3873,8 @@ var _CanvasHelper = class _CanvasHelper {
     if (menuOption.id)
       menuOptionElement.id = menuOption.id;
     menuOptionElement.classList.add("clickable-icon");
-    (0, import_obsidian5.setIcon)(menuOptionElement, menuOption.icon);
-    (0, import_obsidian5.setTooltip)(menuOptionElement, menuOption.label, { placement: "top" });
+    (0, import_obsidian6.setIcon)(menuOptionElement, menuOption.icon);
+    (0, import_obsidian6.setTooltip)(menuOptionElement, menuOption.label, { placement: "top" });
     menuOptionElement.addEventListener("click", () => {
       var _a;
       return (_a = menuOption.callback) == null ? void 0 : _a.call(menuOption);
@@ -3649,7 +3970,7 @@ var _CanvasHelper = class _CanvasHelper {
         callback: () => {
           setStyleAttribute(stylableAttribute, styleOption.value);
           currentStyleAttributes[stylableAttribute.datasetKey] = styleOption.value;
-          (0, import_obsidian5.setIcon)(menuOption, styleOption.icon);
+          (0, import_obsidian6.setIcon)(menuOption, styleOption.icon);
           menuOption.dispatchEvent(new Event("click"));
         }
       })));
@@ -3668,8 +3989,8 @@ var _CanvasHelper = class _CanvasHelper {
     const styleMenuButtonElement = document.createElement("button");
     styleMenuButtonElement.id = STYLE_MENU_ID;
     styleMenuButtonElement.classList.add("clickable-icon");
-    (0, import_obsidian5.setIcon)(styleMenuButtonElement, "paintbrush");
-    (0, import_obsidian5.setTooltip)(styleMenuButtonElement, "Style", { placement: "top" });
+    (0, import_obsidian6.setIcon)(styleMenuButtonElement, "paintbrush");
+    (0, import_obsidian6.setTooltip)(styleMenuButtonElement, "Style", { placement: "top" });
     popupMenuElement.appendChild(styleMenuButtonElement);
     styleMenuButtonElement.addEventListener("click", () => {
       var _a2, _b2, _c;
@@ -3699,7 +4020,7 @@ var _CanvasHelper = class _CanvasHelper {
         const iconElement = document.createElement("div");
         iconElement.classList.add("menu-item-icon");
         let selectedStyle = (_c = stylableAttribute.options.find((option) => currentStyleAttributes[stylableAttribute.datasetKey] === option.value)) != null ? _c : stylableAttribute.options.find((value) => value.value === null);
-        (0, import_obsidian5.setIcon)(iconElement, selectedStyle.icon);
+        (0, import_obsidian6.setIcon)(iconElement, selectedStyle.icon);
         stylableAttributeElement.appendChild(iconElement);
         const labelElement = document.createElement("div");
         labelElement.classList.add("menu-item-title");
@@ -3707,7 +4028,7 @@ var _CanvasHelper = class _CanvasHelper {
         stylableAttributeElement.appendChild(labelElement);
         const expandIconElement = document.createElement("div");
         expandIconElement.classList.add("menu-item-icon");
-        (0, import_obsidian5.setIcon)(expandIconElement, "chevron-right");
+        (0, import_obsidian6.setIcon)(expandIconElement, "chevron-right");
         stylableAttributeElement.appendChild(expandIconElement);
         styleMenuDropdownElement.appendChild(stylableAttributeElement);
         stylableAttributeElement.addEventListener("pointerenter", () => {
@@ -3733,45 +4054,61 @@ var _CanvasHelper = class _CanvasHelper {
           else
             styleMenuDropdownSubmenuElement.style.right = `${rightPosition2}px`;
           for (const styleOption of stylableAttribute.options) {
-            const styleMenuDropdownSubmenuOptionElement = document.createElement("div");
-            styleMenuDropdownSubmenuOptionElement.classList.add("menu-item");
-            styleMenuDropdownSubmenuOptionElement.classList.add("tappable");
-            const submenuIconElement = document.createElement("div");
-            submenuIconElement.classList.add("menu-item-icon");
-            (0, import_obsidian5.setIcon)(submenuIconElement, styleOption.icon);
-            styleMenuDropdownSubmenuOptionElement.appendChild(submenuIconElement);
-            const submenuLabelElement = document.createElement("div");
-            submenuLabelElement.classList.add("menu-item-title");
-            submenuLabelElement.textContent = styleOption.label;
-            styleMenuDropdownSubmenuOptionElement.appendChild(submenuLabelElement);
+            const styleMenuDropdownSubmenuOptionElement = this.createDropdownOptionElement({
+              label: styleOption.label,
+              icon: styleOption.icon,
+              callback: () => {
+                setStyleAttribute(stylableAttribute, styleOption.value);
+                currentStyleAttributes[stylableAttribute.datasetKey] = styleOption.value;
+                selectedStyle = styleOption;
+                (0, import_obsidian6.setIcon)(iconElement, styleOption.icon);
+                styleMenuDropdownSubmenuElement.remove();
+              }
+            });
             if (selectedStyle === styleOption) {
               styleMenuDropdownSubmenuOptionElement.classList.add("mod-selected");
               const selectedIconElement = document.createElement("div");
               selectedIconElement.classList.add("menu-item-icon");
               selectedIconElement.classList.add("mod-selected");
-              (0, import_obsidian5.setIcon)(selectedIconElement, "check");
+              (0, import_obsidian6.setIcon)(selectedIconElement, "check");
               styleMenuDropdownSubmenuOptionElement.appendChild(selectedIconElement);
             }
             styleMenuDropdownSubmenuElement.appendChild(styleMenuDropdownSubmenuOptionElement);
-            styleMenuDropdownSubmenuOptionElement.addEventListener("pointerenter", () => {
-              styleMenuDropdownSubmenuOptionElement.classList.add("selected");
-            });
-            styleMenuDropdownSubmenuOptionElement.addEventListener("pointerleave", () => {
-              styleMenuDropdownSubmenuOptionElement.classList.remove("selected");
-            });
-            styleMenuDropdownSubmenuOptionElement.addEventListener("click", () => {
-              setStyleAttribute(stylableAttribute, styleOption.value);
-              currentStyleAttributes[stylableAttribute.datasetKey] = styleOption.value;
-              selectedStyle = styleOption;
-              (0, import_obsidian5.setIcon)(iconElement, styleOption.icon);
-              styleMenuDropdownSubmenuElement.remove();
-            });
           }
           popupMenuElement.appendChild(styleMenuDropdownSubmenuElement);
         });
       }
       popupMenuElement.appendChild(styleMenuDropdownElement);
     });
+  }
+  static createDropdownOptionElement(menuOption) {
+    const menuDropdownOptionElement = document.createElement("div");
+    menuDropdownOptionElement.classList.add("menu-item");
+    menuDropdownOptionElement.classList.add("tappable");
+    const iconElement = document.createElement("div");
+    iconElement.classList.add("menu-item-icon");
+    (0, import_obsidian6.setIcon)(iconElement, menuOption.icon);
+    menuDropdownOptionElement.appendChild(iconElement);
+    const labelElement = document.createElement("div");
+    labelElement.classList.add("menu-item-title");
+    labelElement.textContent = menuOption.label;
+    menuDropdownOptionElement.appendChild(labelElement);
+    menuDropdownOptionElement.addEventListener("pointerenter", () => {
+      menuDropdownOptionElement.classList.add("selected");
+    });
+    menuDropdownOptionElement.addEventListener("pointerleave", () => {
+      menuDropdownOptionElement.classList.remove("selected");
+    });
+    menuDropdownOptionElement.addEventListener("click", () => {
+      var _a;
+      (_a = menuOption.callback) == null ? void 0 : _a.call(menuOption);
+    });
+    return menuDropdownOptionElement;
+  }
+  static createDropdownSeparatorElement() {
+    const separatorElement = document.createElement("div");
+    separatorElement.classList.add("menu-separator");
+    return separatorElement;
   }
 };
 _CanvasHelper.GRID_SIZE = 20;
@@ -3811,7 +4148,7 @@ var GroupCanvasExtension = class extends CanvasExtension {
 };
 
 // src/canvas-extensions/presentation-canvas-extension.ts
-var import_obsidian6 = require("obsidian");
+var import_obsidian7 = require("obsidian");
 var START_SLIDE_NAME = "Start Slide";
 var DEFAULT_SLIDE_NAME = "New Slide";
 var PresentationCanvasExtension = class extends CanvasExtension {
@@ -4058,7 +4395,7 @@ var PresentationCanvasExtension = class extends CanvasExtension {
     if (!tryContinue || this.visitedNodeIds.length === 0) {
       const startNode2 = this.getStartNode(canvas);
       if (!startNode2) {
-        new import_obsidian6.Notice("No start node found. Please mark a node as a start node trough the popup menu.");
+        new import_obsidian7.Notice("No start node found. Please mark a node as a start node trough the popup menu.");
         return;
       }
       this.visitedNodeIds = [startNode2.getData().id];
@@ -4178,6 +4515,82 @@ var PresentationCanvasExtension = class extends CanvasExtension {
   }
 };
 
+// src/canvas-extensions/z-ordering-canvas-extension.ts
+var ZOrderingCanvasExtension = class extends CanvasExtension {
+  isEnabled() {
+    return "zOrderingFeatureEnabled";
+  }
+  init() {
+    this.plugin.registerEvent(this.plugin.app.workspace.on(
+      CanvasEvent.NodeContextMenu,
+      (menu, node) => this.nodeContextMenu(node, menu)
+    ));
+    this.plugin.registerEvent(this.plugin.app.workspace.on(
+      CanvasEvent.SelectionContextMenu,
+      (menu, canvas) => this.selectionContextMenu(canvas, menu)
+    ));
+  }
+  nodeContextMenu(node, menu) {
+    this.addZOrderingContextMenuItems(node.canvas, [node], menu);
+  }
+  selectionContextMenu(canvas, menu) {
+    const selectedNodes = canvas.getSelectionData().nodes.map((nodeData) => canvas.nodes.get(nodeData.id)).filter((node) => node !== void 0);
+    this.addZOrderingContextMenuItems(canvas, selectedNodes, menu);
+  }
+  addZOrderingContextMenuItems(canvas, nodes, menu) {
+    menu.addSeparator();
+    if (this.plugin.settings.getSetting("zOrderingShowOneLayerShiftOptions") && nodes.length === 1) {
+      menu.addItem((item) => {
+        item.setTitle("Move one layer forward");
+        item.setIcon("arrow-up");
+        item.onClick(() => this.moveOneLayer(canvas, nodes.first(), true));
+      });
+      menu.addItem((item) => {
+        item.setTitle("Move one layer backward");
+        item.setIcon("arrow-down");
+        item.onClick(() => this.moveOneLayer(canvas, nodes.first(), false));
+      });
+    }
+    menu.addItem((item) => {
+      item.setTitle("Bring to Front");
+      item.setIcon("bring-to-front");
+      item.onClick(() => this.moveMaxLayers(canvas, nodes, true));
+    });
+    menu.addItem((item) => {
+      item.setTitle("Send to Back");
+      item.setIcon("send-to-back");
+      item.onClick(() => this.moveMaxLayers(canvas, nodes, false));
+    });
+    menu.addSeparator();
+  }
+  moveOneLayer(canvas, selectedNode, forward) {
+    const selectedNodeBBox = selectedNode.getBBox();
+    const collidingNodes = [...canvas.nodes.values()].filter((node) => BBoxHelper.isColliding(selectedNodeBBox, node.getBBox())).filter((node) => node !== selectedNode);
+    const nearestZIndexNode = collidingNodes.sort((a, b) => forward ? a.zIndex - b.zIndex : b.zIndex - a.zIndex).filter((node) => forward ? node.zIndex > selectedNode.zIndex : node.zIndex < selectedNode.zIndex).first();
+    if (nearestZIndexNode === void 0)
+      return;
+    const targetZIndex = nearestZIndexNode.zIndex;
+    this.setNodesZIndex([nearestZIndexNode], selectedNode.zIndex);
+    this.setNodesZIndex([selectedNode], targetZIndex);
+  }
+  moveMaxLayers(canvas, selectedNodes, forward) {
+    let targetZIndex = forward ? Math.max(...this.getAllZIndexes(canvas)) + 1 : Math.min(...this.getAllZIndexes(canvas)) - selectedNodes.length;
+    this.setNodesZIndex(selectedNodes, targetZIndex);
+  }
+  setNodesZIndex(nodes, zIndex) {
+    const sortedNodes = nodes.sort((a, b) => a.zIndex - b.zIndex);
+    for (let i = 0; i < sortedNodes.length; i++) {
+      const node = sortedNodes[i];
+      const finalZIndex = zIndex + i;
+      node.zIndex = finalZIndex;
+      node.nodeEl.style.zIndex = finalZIndex.toString();
+    }
+  }
+  getAllZIndexes(canvas) {
+    return [...canvas.nodes.values()].map((n) => n.zIndex);
+  }
+};
+
 // src/canvas-extensions/better-readonly-canvas-extension.ts
 var BetterReadonlyCanvasExtension = class extends CanvasExtension {
   isEnabled() {
@@ -4292,17 +4705,8 @@ var BetterReadonlyCanvasExtension = class extends CanvasExtension {
 };
 
 // src/utils/modal-helper.ts
-var import_obsidian7 = require("obsidian");
-
-// src/utils/path-helper.ts
-var PathHelper = class {
-  static extension(path) {
-    return path.includes(".") ? path.split(".").pop() : void 0;
-  }
-};
-
-// src/utils/modal-helper.ts
-var FileNameModal = class extends import_obsidian7.SuggestModal {
+var import_obsidian8 = require("obsidian");
+var FileNameModal = class extends import_obsidian8.SuggestModal {
   constructor(app, parentPath, fileExtension) {
     super(app);
     this.parentPath = parentPath;
@@ -4330,7 +4734,7 @@ var FileNameModal = class extends import_obsidian7.SuggestModal {
     });
   }
 };
-var FileSelectModal = class extends import_obsidian7.SuggestModal {
+var FileSelectModal = class extends import_obsidian8.SuggestModal {
   constructor(app, extensionsRegex, suggestNewFile = false) {
     super(app);
     this.files = this.app.vault.getFiles().map((file) => file.path).filter((path) => {
@@ -4373,7 +4777,7 @@ var FileSelectModal = class extends import_obsidian7.SuggestModal {
     return new Promise((resolve, _reject) => {
       this.onChooseSuggestion = (path, _evt) => {
         const file = this.app.vault.getAbstractFileByPath(path);
-        if (file instanceof import_obsidian7.TFile)
+        if (file instanceof import_obsidian8.TFile)
           return resolve(file);
         if (!this.suggestNewFile)
           return;
@@ -4509,6 +4913,27 @@ var CommandsCanvasExtension = class extends CanvasExtension {
         )
       });
     }
+    this.plugin.addCommand({
+      id: "flip-selection-horizontally",
+      name: "Flip selection horizontally",
+      checkCallback: CanvasHelper.canvasCommand(
+        this.plugin,
+        (canvas) => !canvas.readonly && canvas.selection.size > 0,
+        (canvas) => this.flipSelection(
+          canvas,
+          true
+        )
+      )
+    });
+    this.plugin.addCommand({
+      id: "flip-selection-vertically",
+      name: "Flip selection vertically",
+      checkCallback: CanvasHelper.canvasCommand(
+        this.plugin,
+        (canvas) => !canvas.readonly && canvas.selection.size > 0,
+        (canvas) => this.flipSelection(canvas, false)
+      )
+    });
   }
   createTextNode(canvas) {
     const size = canvas.config.defaultTextNodeDimensions;
@@ -4563,6 +4988,40 @@ var CommandsCanvasExtension = class extends CanvasExtension {
       width: node.width + expand.x * expandNodeStepSize,
       height: node.height + expand.y * expandNodeStepSize
     });
+  }
+  flipSelection(canvas, horizontally) {
+    const selectionData = canvas.getSelectionData();
+    if (selectionData.nodes.length === 0)
+      return;
+    const nodeIds = /* @__PURE__ */ new Set();
+    for (const nodeData of selectionData.nodes) {
+      nodeIds.add(nodeData.id);
+      const node = canvas.nodes.get(nodeData.id);
+      if (!node)
+        continue;
+      const newX = horizontally ? 2 * selectionData.center.x - nodeData.x - nodeData.width : nodeData.x;
+      const newY = horizontally ? nodeData.y : 2 * selectionData.center.y - nodeData.y - nodeData.height;
+      node.setData({
+        ...nodeData,
+        x: newX,
+        y: newY
+      });
+    }
+    for (const edge of canvas.edges.values()) {
+      const edgeData = edge.getData();
+      let newFromSide = edgeData.fromSide;
+      if (nodeIds.has(edgeData.fromNode) && BBoxHelper.isHorizontal(edgeData.fromSide) === horizontally)
+        newFromSide = BBoxHelper.getOppositeSide(edgeData.fromSide);
+      let newToSide = edgeData.toSide;
+      if (nodeIds.has(edgeData.toNode) && BBoxHelper.isHorizontal(edgeData.toSide) === horizontally)
+        newToSide = BBoxHelper.getOppositeSide(edgeData.toSide);
+      edge.setData({
+        ...edgeData,
+        fromSide: newFromSide,
+        toSide: newToSide
+      });
+    }
+    canvas.pushHistory(canvas.getData());
   }
 };
 
@@ -4682,7 +5141,7 @@ var AutoResizeNodeCanvasExtension = class extends CanvasExtension {
 };
 
 // src/canvas-extensions/portals-canvas-extension.ts
-var import_obsidian8 = require("obsidian");
+var import_obsidian9 = require("obsidian");
 var PORTAL_PADDING = 50;
 var MIN_OPEN_PORTAL_SIZE = { width: 200, height: 200 };
 var PortalsCanvasExtension = class extends CanvasExtension {
@@ -4981,7 +5440,7 @@ var PortalsCanvasExtension = class extends CanvasExtension {
       this.nestedPortals[parentPortalId].push(portalNodeData.portalToFile);
     }
     const portalFile = this.plugin.app.vault.getAbstractFileByPath(portalNodeData.file);
-    if (!(portalFile instanceof import_obsidian8.TFile) || portalFile.extension !== "canvas") {
+    if (!(portalFile instanceof import_obsidian9.TFile) || portalFile.extension !== "canvas") {
       portalNodeData.portalToFile = void 0;
       return addedData;
     }
@@ -5065,7 +5524,7 @@ var BetterDefaultSettingsCanvasExtension = class extends CanvasExtension {
   init() {
     this.modifyCanvasSettings(this.plugin.getCurrentCanvas());
     this.plugin.registerEvent(this.plugin.app.workspace.on(
-      SettingsManager.SETTINGS_CHANGED_EVENT,
+      PluginEvent.SettingsChanged,
       () => this.modifyCanvasSettings(this.plugin.getCurrentCanvas())
     ));
     this.plugin.registerEvent(this.plugin.app.workspace.on(
@@ -5269,7 +5728,7 @@ var ColorPaletteCanvasExtension = class extends CanvasExtension {
 };
 
 // src/canvas-extensions/collapsible-groups-canvas-extension.ts
-var import_obsidian9 = require("obsidian");
+var import_obsidian10 = require("obsidian");
 var COLLAPSE_BUTTON_ID = "group-collapse-button";
 var CollapsibleGroupsCanvasExtension = class extends CanvasExtension {
   isEnabled() {
@@ -5305,7 +5764,7 @@ var CollapsibleGroupsCanvasExtension = class extends CanvasExtension {
     (_a = groupNode.nodeEl) == null ? void 0 : _a.querySelectorAll(`#${COLLAPSE_BUTTON_ID}`).forEach((el) => el.remove());
     const collapseButton = document.createElement("span");
     collapseButton.id = COLLAPSE_BUTTON_ID;
-    (0, import_obsidian9.setIcon)(collapseButton, groupNodeData.isCollapsed ? "plus-circle" : "minus-circle");
+    (0, import_obsidian10.setIcon)(collapseButton, groupNodeData.isCollapsed ? "plus-circle" : "minus-circle");
     collapseButton.onclick = () => {
       this.setCollapsed(canvas, groupNode, groupNode.getData().isCollapsed ? void 0 : true);
       canvas.markMoved(groupNode);
@@ -5425,6 +5884,64 @@ var FocusModeCanvasExtension = class extends CanvasExtension {
   }
 };
 
+// src/canvas-extensions/flip-edge-canvas-extension.ts
+var FlipEdgeCanvasExtension = class extends CanvasExtension {
+  isEnabled() {
+    return "flipEdgeFeatureEnabled";
+  }
+  init() {
+    this.plugin.registerEvent(this.plugin.app.workspace.on(
+      CanvasEvent.PopupMenuCreated,
+      (canvas) => this.onPopupMenuCreated(canvas)
+    ));
+  }
+  onPopupMenuCreated(canvas) {
+    var _a, _b;
+    const popupMenuEl = (_a = canvas == null ? void 0 : canvas.menu) == null ? void 0 : _a.menuEl;
+    if (!popupMenuEl)
+      return;
+    const POSSIBLE_ICONS = ["lucide-arrow-right", "lucide-move-horizontal", "line-horizontal"];
+    let edgeDirectionButton = null;
+    for (const icon of POSSIBLE_ICONS) {
+      edgeDirectionButton = (_b = popupMenuEl.querySelector(`button:not([id]) > .svg-icon.${icon}`)) == null ? void 0 : _b.parentElement;
+      if (edgeDirectionButton)
+        break;
+    }
+    if (!edgeDirectionButton)
+      return;
+    edgeDirectionButton.addEventListener("click", () => this.onEdgeDirectionDropdownCreated(canvas));
+  }
+  onEdgeDirectionDropdownCreated(canvas) {
+    const dropdownEl = document.body.querySelector("div.menu");
+    if (!dropdownEl)
+      return;
+    const separatorEl = CanvasHelper.createDropdownSeparatorElement();
+    dropdownEl.appendChild(separatorEl);
+    const flipEdgeButton = CanvasHelper.createDropdownOptionElement({
+      icon: "flip-horizontal-2",
+      label: "Flip Edge",
+      callback: () => this.flipEdge(canvas)
+    });
+    dropdownEl.appendChild(flipEdgeButton);
+  }
+  flipEdge(canvas) {
+    const selectedEdges = [...canvas.selection].filter((item) => item.path !== void 0);
+    if (selectedEdges.length === 0)
+      return;
+    for (const edge of selectedEdges) {
+      const edgeData = edge.getData();
+      edge.setData({
+        ...edgeData,
+        fromNode: edgeData.toNode,
+        fromSide: edgeData.toSide,
+        toNode: edgeData.fromNode,
+        toSide: edgeData.fromSide
+      });
+    }
+    canvas.pushHistory(canvas.getData());
+  }
+};
+
 // src/canvas-extensions/advanced-styles/node-styles.ts
 var NodeStylesExtension = class extends CanvasExtension {
   isEnabled() {
@@ -5433,7 +5950,7 @@ var NodeStylesExtension = class extends CanvasExtension {
   init() {
     this.allNodeStyles = [...BUILTIN_NODE_STYLE_ATTRIBUTES, ...this.plugin.settings.getSetting("customNodeStyleAttributes")];
     this.plugin.registerEvent(this.plugin.app.workspace.on(
-      SettingsManager.SETTINGS_CHANGED_EVENT,
+      PluginEvent.SettingsChanged,
       () => this.allNodeStyles = [...BUILTIN_NODE_STYLE_ATTRIBUTES, ...this.plugin.settings.getSetting("customNodeStyleAttributes")]
     ));
     this.plugin.registerEvent(this.plugin.app.workspace.on(
@@ -5772,7 +6289,7 @@ var EdgeStylesExtension = class extends CanvasExtension {
   init() {
     this.allEdgeStyleAttributes = [...BUILTIN_EDGE_STYLE_ATTRIBUTES, ...this.plugin.settings.getSetting("customEdgeStyleAttributes")];
     this.plugin.registerEvent(this.plugin.app.workspace.on(
-      SettingsManager.SETTINGS_CHANGED_EVENT,
+      PluginEvent.SettingsChanged,
       () => this.allEdgeStyleAttributes = [...BUILTIN_EDGE_STYLE_ATTRIBUTES, ...this.plugin.settings.getSetting("customEdgeStyleAttributes")]
     ));
     this.plugin.registerEvent(this.plugin.app.workspace.on(
@@ -6048,7 +6565,7 @@ var CanvasWrapperExposerExtension = class extends CanvasExtension {
   }
   init() {
     this.plugin.registerEvent(this.plugin.app.workspace.on(
-      SettingsManager.SETTINGS_CHANGED_EVENT,
+      PluginEvent.SettingsChanged,
       () => this.updateExposedSettings(this.plugin.getCurrentCanvas())
     ));
     this.plugin.registerEvent(this.plugin.app.workspace.on(
@@ -6075,6 +6592,12 @@ var CanvasWrapperExposerExtension = class extends CanvasExtension {
 };
 
 // src/main.ts
+var PATCHERS = [
+  CanvasPatcher,
+  MetadataCachePatcher,
+  BacklinksPatcher,
+  OutgoingLinksPatcher
+];
 var CANVAS_EXTENSIONS = [
   // Dataset Exposers
   CanvasWrapperExposerExtension,
@@ -6088,6 +6611,8 @@ var CANVAS_EXTENSIONS = [
   VariableBreakpointCanvasExtension,
   BetterDefaultSettingsCanvasExtension,
   CommandsCanvasExtension,
+  FlipEdgeCanvasExtension,
+  ZOrderingCanvasExtension,
   BetterReadonlyCanvasExtension,
   AutoResizeNodeCanvasExtension,
   GroupCanvasExtension,
@@ -6099,7 +6624,7 @@ var CANVAS_EXTENSIONS = [
   PresentationCanvasExtension,
   PortalsCanvasExtension
 ];
-var AdvancedCanvasPlugin = class extends import_obsidian10.Plugin {
+var AdvancedCanvasPlugin = class extends import_obsidian11.Plugin {
   async onload() {
     this.migrationHelper = new MigrationHelper(this);
     await this.migrationHelper.migrate();
@@ -6109,13 +6634,13 @@ var AdvancedCanvasPlugin = class extends import_obsidian10.Plugin {
     this.settings.addSettingsTab();
     this.quicksettings = new Quicksettings(this);
     this.windowsManager = new WindowsManager(this);
-    this.canvasPatcher = new CanvasPatcher(this);
+    this.patchers = PATCHERS.map((Patcher2) => new Patcher2(this));
     this.canvasExtensions = CANVAS_EXTENSIONS.map((Extension) => new Extension(this));
   }
   onunload() {
   }
   getCurrentCanvasView() {
-    const canvasView = this.app.workspace.getActiveViewOfType(import_obsidian10.ItemView);
+    const canvasView = this.app.workspace.getActiveViewOfType(import_obsidian11.ItemView);
     if ((canvasView == null ? void 0 : canvasView.getViewType()) !== "canvas")
       return null;
     return canvasView;
@@ -6138,6 +6663,5 @@ var AdvancedCanvasPlugin = class extends import_obsidian10.Plugin {
     this.debugHelper = new DebugHelper(this);
   }
 };
-
 
 /* nosourcemap */

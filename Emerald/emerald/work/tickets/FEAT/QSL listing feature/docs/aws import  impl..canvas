@@ -142,6 +142,42 @@
       "y": -40
     },
     {
+      "autoResizeHeight": false,
+      "height": 154,
+      "id": "4b9d2e12db0599dd",
+      "styleAttributes": {
+      },
+      "text": "**config options**\n\n- env\n- bucket name\n- role name",
+      "type": "text",
+      "width": 210,
+      "x": 905,
+      "y": 291
+    },
+    {
+      "autoResizeHeight": false,
+      "height": 137,
+      "id": "d9bbfe74b2e451b3",
+      "styleAttributes": {
+      },
+      "text": "**role name**",
+      "type": "text",
+      "width": 180,
+      "x": 660,
+      "y": 300
+    },
+    {
+      "autoResizeHeight": true,
+      "file": "work/tickets/FEAT/QSL listing feature/docs/Athena class.md",
+      "height": 60,
+      "id": "313d9f72f20d4a60",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 330,
+      "x": -665,
+      "y": 480
+    },
+    {
       "autoResizeHeight": true,
       "height": 60,
       "id": "b4957a15f08d8caa",
@@ -153,6 +189,45 @@
       "width": 260,
       "x": -940,
       "y": 290
+    },
+    {
+      "autoResizeHeight": false,
+      "height": 81,
+      "id": "532bf1a620a4de9b",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "aws Athena source",
+      "type": "text",
+      "width": 340,
+      "x": -280,
+      "y": 279
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "98ce0a3d02a84e03",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Athena connection",
+      "type": "text",
+      "width": 260,
+      "x": -630,
+      "y": 290
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "548f959b017af033",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "**config**",
+      "type": "text",
+      "width": 260,
+      "x": 220,
+      "y": 291
     },
     {
       "autoResizeHeight": false,
@@ -182,32 +257,6 @@
     },
     {
       "autoResizeHeight": false,
-      "height": 81,
-      "id": "532bf1a620a4de9b",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "aws Athena source",
-      "type": "text",
-      "width": 340,
-      "x": -280,
-      "y": 279
-    },
-    {
-      "autoResizeHeight": true,
-      "height": 60,
-      "id": "98ce0a3d02a84e03",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Athena connection",
-      "type": "text",
-      "width": 260,
-      "x": -630,
-      "y": 290
-    },
-    {
-      "autoResizeHeight": false,
       "color": "3",
       "height": 229,
       "id": "05152e15a8b175b8",
@@ -218,31 +267,6 @@
       "width": 480,
       "x": -1020,
       "y": -214
-    },
-    {
-      "autoResizeHeight": true,
-      "file": "work/tickets/FEAT/QSL listing feature/docs/Athena class.md",
-      "height": 60,
-      "id": "313d9f72f20d4a60",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 330,
-      "x": -665,
-      "y": 480
-    },
-    {
-      "autoResizeHeight": true,
-      "height": 60,
-      "id": "548f959b017af033",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "**config**",
-      "type": "text",
-      "width": 260,
-      "x": 220,
-      "y": 291
     },
     {
       "autoResizeHeight": false,
@@ -267,30 +291,6 @@
       "width": 215,
       "x": 960,
       "y": 66
-    },
-    {
-      "autoResizeHeight": false,
-      "height": 154,
-      "id": "4b9d2e12db0599dd",
-      "styleAttributes": {
-      },
-      "text": "**config options**\n\n- env\n- bucket name\n- role name",
-      "type": "text",
-      "width": 210,
-      "x": 905,
-      "y": 291
-    },
-    {
-      "autoResizeHeight": false,
-      "height": 137,
-      "id": "d9bbfe74b2e451b3",
-      "styleAttributes": {
-      },
-      "text": "**role name**",
-      "type": "text",
-      "width": 180,
-      "x": 660,
-      "y": 300
     },
     {
       "autoResizeHeight": false,

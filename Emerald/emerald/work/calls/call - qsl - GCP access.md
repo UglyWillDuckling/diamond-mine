@@ -84,4 +84,4 @@ aws sts assume-role-with-web-identity --role-arn arn:aws:iam::008583020256:role/
 
 > [!NOTEj] [[Marc Jonot]]: it will work on next monday [[2025-01-13]]
 
-- [ ] #task [[Marc Jonot]] would like some **docs** for this 🆔 FllsGy
+- [x] #task [[Marc Jonot]] would like some **docs** for this 🆔 FllsGy ✅ 2025-02-06

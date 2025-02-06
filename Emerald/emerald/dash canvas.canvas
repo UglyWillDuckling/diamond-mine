@@ -9,54 +9,102 @@
       "toSide": "left"
     },
     {
-      "fromNode": "e8d0cca765f1f5c9",
+      "fromNode": "b5590668f2b1449a",
       "fromSide": "right",
-      "id": "c403f1edbe02fda4",
+      "id": "735c7eb58043e419",
       "styleAttributes": {
       },
       "toNode": "278506a05729c353",
       "toSide": "left"
+    },
+    {
+      "fromNode": "278506a05729c353",
+      "fromSide": "left",
+      "id": "17805018667008f8",
+      "styleAttributes": {
+      },
+      "toEnd": "none",
+      "toNode": "e8d0cca765f1f5c9",
+      "toSide": "right"
     }
   ],
   "nodes": [
     {
-      "color": "4",
-      "height": 1180,
+      "height": 1360,
       "id": "5fe4bf95ad790163",
       "label": "Tasks",
       "styleAttributes": {
       },
       "type": "group",
-      "width": 1840,
-      "x": -1480,
-      "y": -1020
+      "width": 1920,
+      "x": -1640,
+      "y": -1200
     },
     {
-      "height": 780,
+      "height": 820,
       "id": "d6a4f9c921fc8320",
       "label": "links",
       "styleAttributes": {
       },
       "type": "group",
-      "width": 1700,
+      "width": 1760,
       "x": -2340,
+      "y": 900
+    },
+    {
+      "autoResizeHeight": false,
+      "file": "Dashboard.md",
+      "height": 600,
+      "id": "2bc99fe28685de77",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 700,
+      "x": -2100,
+      "y": 220
+    },
+    {
+      "autoResizeHeight": false,
+      "color": "5",
+      "file": "Knowledge/tools/dev/symlink.md",
+      "height": 640,
+      "id": "278506a05729c353",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 500,
+      "x": -1160,
       "y": 1000
     },
     {
-      "autoResizeHeight": true,
+      "autoResizeHeight": false,
       "file": "Knowledge/tools/dev/readlink.md",
-      "height": 520,
+      "height": 460,
       "id": "b5590668f2b1449a",
       "styleAttributes": {
       },
       "type": "file",
-      "width": 600,
-      "x": -2320,
-      "y": 1080
+      "width": 500,
+      "x": -1760,
+      "y": 1200
+    },
+    {
+      "autoResizeHeight": true,
+      "color": "6",
+      "file": "Knowledge/concepts/computer science/Hard links.md",
+      "height": 80,
+      "id": "e8d0cca765f1f5c9",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1710,
+      "y": 1020
     },
     {
       "color": "6",
-      "height": 580,
+      "height": 500,
       "id": "097cdcba370efe05",
       "styleAttributes": {
         "textAlign": "center"
@@ -64,90 +112,20 @@
       "text": "### **In Progress**\n```tasks\nnot done\nfilter by function task.status.type === 'IN_PROGRESS'\nshort mode\nshow tree\nhide task count\n```\n",
       "type": "text",
       "width": 680,
-      "x": -680,
-      "y": -600
-    },
-    {
-      "file": "Knowledge/notes/tmpl example.md",
-      "height": 400,
-      "id": "9508e6dc31e2f98c",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -660,
-      "y": 300
+      "x": -640,
+      "y": -730
     },
     {
       "color": "5",
-      "height": 1020,
+      "height": 1040,
       "id": "eedbae2958471314",
       "styleAttributes": {
       },
       "text": "### active\n\n```tasks\nnot done\nshow tree\nshort mode\n```\n\n\n",
       "type": "text",
-      "width": 665,
-      "x": -1460,
-      "y": -940
-    },
-    {
-      "file": "Knowledge/notes/ideas and thoughts/cloning repos multiple times can be useful.md",
-      "height": 400,
-      "id": "c2f695431e1147f5",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -1120,
-      "y": 300
-    },
-    {
-      "autoResizeHeight": true,
-      "file": "Dashboard.md",
-      "height": 260,
-      "id": "2bc99fe28685de77",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -1700,
-      "y": 370
-    },
-    {
-      "autoResizeHeight": true,
-      "height": 60,
-      "id": "f6abc9d5c4b1be96",
-      "styleAttributes": {
-      },
-      "text": "fdsfdsf",
-      "type": "text",
-      "width": 260,
-      "x": -2080,
-      "y": 1640
-    },
-    {
-      "autoResizeHeight": false,
-      "file": "Knowledge/tools/dev/symlink.md",
-      "height": 540,
-      "id": "278506a05729c353",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 500,
-      "x": -1160,
-      "y": 1020
-    },
-    {
-      "autoResizeHeight": true,
-      "file": "Knowledge/concepts/computer science/Hard links.md",
-      "height": 100,
-      "id": "e8d0cca765f1f5c9",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -1620,
-      "y": 1240
+      "width": 740,
+      "x": -1480,
+      "y": -1040
     }
   ]
 }

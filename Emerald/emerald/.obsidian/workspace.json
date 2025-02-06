@@ -8,39 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a589478b53619704",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledge/daily_notes/2025/February/2025-02-06.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-02-06"
-            }
-          },
-          {
-            "id": "d0a261e65af0812f",
+            "id": "68f0c6f373a15f96",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "dash canvas.canvas",
                 "viewState": {
-                  "x": -360,
-                  "y": -310,
-                  "zoom": 0
+                  "x": -372.66883801298206,
+                  "y": -705.3630725454767,
+                  "zoom": -1.1392629016757152
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "dash canvas"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,6 +168,20 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "672c0139700221be",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ],
         "currentTab": 4
@@ -216,13 +214,17 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "d0a261e65af0812f",
+  "active": "68f0c6f373a15f96",
   "lastOpenFiles": [
-    "Knowledge/daily_notes/2025/February/2025-02-06.md",
+    "Efforts/Active/Obsidian Tinkering/Obsidian Footnotes Exploration.md",
+    "dash canvas.canvas",
+    "+/perhaps we could create a dashboard using canvas.md",
+    "Knowledge/daily_notes/2024/December/2024-12-11.md",
     "work/tickets/Upload issue on extranet.md",
+    "Knowledge/daily_notes/2025/February/2025-02-06.md",
+    "Knowledge/daily_notes/2025/January/2025-01-27.md",
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
     "work/tickets/event issue solution canvas.canvas",
-    "dash canvas.canvas",
     "work/calls/pair programming/Pair Programming 2025-02-06.md",
     "work/bugs/you can easily reference any text block by using.md",
     "work/calls/pair programming/circleci.md",
@@ -235,16 +237,12 @@
     "Knowledge/daily_notes/2024/December/2024-12-06.md",
     "work/tickets/FEAT/QSL listing feature/Frederic Dalessandro.md",
     "work/tickets/FEAT/QSL listing feature/archive/tasks archive.md",
-    "Efforts/Active/Obsidian Tinkering/Obsidian Footnotes Exploration.md",
     "Clippings/Basic formatting syntax - Obsidian.md",
     "Knowledge/tools/obsidian/obsidian-footnotes Plugin.md",
     "Knowledge/Articles/Ted Talks are dangerously eloquent.md",
     "Knowledge/daily_notes/2025/February/2025-02-03.md",
     "Knowledge/tools/Vivaldi browser.md",
     "Efforts/Projects/Vim study.md",
-    "+/vim has the vimdot command.md",
-    "+/Information Networks.md",
-    "+/Difference between tasks and tickets.md",
     "+/lazyvim - set all configurations in lua/config",
     "+/lazyvim - set all configurations in lua",
     "Efforts/Active/Vim Exploration",

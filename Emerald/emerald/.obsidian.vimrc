@@ -313,10 +313,6 @@ nnoremap wrg yGp
 exmap closeWindow obcommand workspace:close-window
 nnoremap ZZ :closeWindow
 
-" Split
-exmap splitVertical obcommand workspace:split-vertical
-nnoremap <C-w>v :splitVertical<CR>
-
 " Tabs
 exmap nextTab obcommand workspace:next-tab
 exmap prevTab obcommand workspace:previous-tab
@@ -370,11 +366,11 @@ exmap forward obcommand app:go-forward
 nmap <C-i> :forward<CR>
 
 " Editor
-nmap <C-w>i 0ci[/<Esc>
-nmap <C-w>? 0ci[?<Esc>
+nmap <C-m>/ 0ci[/<Esc>
+nmap <C-m>? 0ci[?<Esc>
 
 " inline quote for selected text
 " NOTE: test this
-vmap <C-w>q o<Esc>i<lt>q><Esc>gvo<Esc>a<lt>/q><Esc>
+vmap <C-m>q o<Esc>i<lt>q><Esc>gvo<Esc>a<lt>/q><Esc>
 " path mark
-vmap <C-w>P o<Esc>i<lt>mark<space>class='path'><Esc>gvo<Esc>a<lt>/mark><Esc>
+vmap <C-m>P o<Esc>i<lt>mark<space>class='path'><Esc>gvo<Esc>a<lt>/mark><Esc>

@@ -10,7 +10,7 @@ related:
   - "[[alias]]"
   - "[[file system]]"
 ---
-#concept 
+#concept #tool 
 ### Abstract
 
 A **symlink**, or **symbolic link**, is a type of file that serves as a [[reference]] to

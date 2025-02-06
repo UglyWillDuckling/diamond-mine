@@ -307,7 +307,7 @@ Options:
 
 > [!NOTE$c] use `--help` to see detailed options
 
-- [ ] remind me about --help for **fd** (@[[2025-02-05]])
+- [x] remind me about --help for **fd** (@[[2025-02-05]] 10:21)
 ## Integration with other programs
 
 ### Using fd with `fzf`

@@ -1,7 +1,7 @@
 #tool #git 
 
 related:: [[version control system]]
-
+> 
 **Git** is a popular version control system used for  source code management
  and coordinating work among programmers collaborating on a project. 
   It allows multiple people to work on the same project at the same time without

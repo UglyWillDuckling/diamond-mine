@@ -33,5 +33,7 @@
   "multi-column-markdown",
   "insta-toc",
   "obsidian-plugin-toc",
-  "obsidian-footnotes"
+  "obsidian-footnotes",
+  "tag-wrangler",
+  "toggle-dark-mode"
 ]

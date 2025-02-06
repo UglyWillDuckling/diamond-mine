@@ -1,5 +1,4 @@
 about:: [[AWS import]], [[QSL listing feature]]
-related:: [[backyard-tasks]]
 
 ### **Steps** to run the qsl import manually on [[backyard-tasks]] [^1]
 

@@ -25,4 +25,4 @@ Generate passwords for the given **users**
 { echo user1; echo user2; echo user3 } | paste - <(bashword -c 3)
 ```
 
-- [ ] remind (@[[2025-02-07]])
+- [ ] remind (@[[2025-02-10]])

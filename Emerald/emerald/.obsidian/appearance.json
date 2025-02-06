@@ -1,9 +1,9 @@
 {
-  "cssTheme": "Minimal",
+  "cssTheme": "Notation",
   "textFontFamily": "Cantarell",
   "theme": "obsidian",
   "interfaceFontFamily": "Baskerville",
-  "baseFontSize": 18,
+  "baseFontSize": 16,
   "baseFontSizeAction": true,
   "nativeMenus": true,
   "monospaceFontFamily": "FiraCode Nerd Font",
@@ -15,6 +15,6 @@
     "dataview",
     "tasks"
   ],
-  "accentColor": "#ff7b00",
+  "accentColor": "#14aee1",
   "showRibbon": true
 }

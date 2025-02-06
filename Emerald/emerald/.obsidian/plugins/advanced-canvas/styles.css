@@ -361,6 +361,26 @@ details.setting-item > *:not(summary) {
   stroke: rgb(var(--canvas-color));
   stroke-width: calc(3px * var(--zoom-multiplier));
 }
+.canvas.is-exporting {
+  --zoom-multiplier: 1;
+}
+.canvas.is-exporting * {
+  pointer-events: none !important;
+  transition: none !important;
+}
+.canvas.is-exporting > .canvas-node {
+  --variable-breakpoint: -999999999;
+}
+.canvas.is-exporting #watermark-ac {
+  z-index: 9999999;
+  position: absolute;
+}
+.progress-bar-modal-ac {
+  margin-top: 0.75em;
+}
+.progress-bar-modal-ac.error .setting-progress-bar {
+  color: var(--color-error);
+}
 .canvas-wrapper[data-disable-font-size-relative-to-zoom=true] {
   --zoom-multiplier: 1 !important;
 }

@@ -1,8 +1,13 @@
 #ticket #explore 
 
-- [/] #task [[Obsidian Footnotes Exploration]] 🔽 ⏳ 2025-02-03 📅 2025-02-17
+related:: [[Footnote]]
 
-- [[Ted Talks are dangerously eloquent]] ✔
-- [[Basic formatting syntax - Obsidian]]
+> [!NOTE] In general
+>Play around with Footnotes in other notes, see how they work, can they make things flow better.
 
-Play around with Footnotes in other notes, see how they work, can they make things flow better.
+- [/] #task [[Obsidian Footnotes Exploration]] 🔽 ⏳ 2025-02-03 📅 2025-02-17 🆔 1MwQnN
+	- [/] #task try out [[obsidian-footnotes Plugin]] 🆔 YRlUuK
+		- [[Ted Talks are dangerously eloquent]]
+	- [ ] read [[Basic formatting syntax - Obsidian]]
+	- [ ] **find** ⛱ more sources on the Obsidian Footnotes topic: 📹, 📰
+	- [ ] write✍ down something

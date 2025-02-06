@@ -1,0 +1,1 @@
+- [/] #task study vim jump to last edit 🔼 [[vim - jump to last insert with `.]] 🆔 QMJ8iS

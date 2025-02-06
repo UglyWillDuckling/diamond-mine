@@ -106,7 +106,7 @@
     },
     {
       "id": "6b6e430f-6b96-493e-88a4-bf078ff6ae19",
-      "name": "Add Task ☑️",
+      "name": "Task Add ☑️",
       "type": "Capture",
       "command": true,
       "appendLink": false,
@@ -136,7 +136,7 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
       "openFileInMode": "default"
     },
     {

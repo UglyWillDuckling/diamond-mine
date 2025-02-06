@@ -17,8 +17,6 @@ related:
 
 ![Nick Milo](https://miro.medium.com/v2/resize:fill:88:88/0*OlCa18nVLOtn9Uo9.jpg)
 
-](https://medium.com/@nickmilo22?source=post_page---byline--9b9ec46973c6--------------------------------)
-
 Are you into personal knowledge management (PKM)? Are you confused about when to use a **folder** versus a **tag** versus a **link** versus a **Map of Content**? Let’s explore each “relationship-builder” and how we can use them expertly.
 
 *Main Ideas*

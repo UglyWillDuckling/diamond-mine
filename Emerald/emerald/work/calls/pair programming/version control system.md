@@ -1,3 +1,7 @@
+---
+aliases:
+  - VCS
+---
 [wiki](https://en.wikipedia.org/wiki/Version_control)
 
 Version control (also known as revision control, source control, and source code management) is the software engineering practice of controlling, organizing, and tracking different versions in history of computer files; primarily source code text files, but generally any type of file.

@@ -13,6 +13,12 @@ related:
   - "[[unix]]"
   - "[[Linux]]"
 ---
+### docs
+```dataview
+LIST
+FROM #gnu-parallel AND #docs 
+```
+### description
 
 GNU **parallel** is a shell tool for executing jobs in parallel using one or more computers. A job can be a single command or a small script that has to be run for each of the lines in the input. The typical input is a list of files, a list of hosts, a list of users, a list of URLs, or a list of tables. A job can also be a command that reads from a pipe. GNU **parallel** can then split the input and pipe it into commands in parallel.
 
@@ -111,16 +117,9 @@ For development sources, bug and patch trackers, and other information, please s
 
 Maintainer
 
-GNU **parallel** is currently maintained by [Ole Tange](http://ole.tange.dk/). Please use the mailing lists for contact.
+GNU **parallel** is currently maintained by [[Ole Tange]]. Please use the mailing lists for contact.
 
 ### Merchandise
 
 You can show your support for GNU **parallel** using [our merchandise](https://gnuparallel.threadless.com/designs/gnu-parallel).
 
-### Licensing
-
-GNU **parallel** is free software; you can redistribute it and/or modify it under the terms of the [GNU General Public License](https://www.gnu.org/licenses/gpl.html) as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
-
-When using GNU **parallel** for a publication please cite:
-
-*O. Tange (2018): GNU Parallel 2018, March 2018, https://doi.org/10.5281/zenodo.1146014.*

@@ -7,3 +7,7 @@
 .cm-preview-code-block.cm-embed-block.markdown-rendered {
     margin-top: 5px !important;
 }
+
+.markdown-rendered ul, .markdown-rendered ol {
+    margin: 0;
+}

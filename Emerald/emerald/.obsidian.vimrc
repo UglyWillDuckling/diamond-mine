@@ -325,7 +325,7 @@ nnoremap gT :prevTab<CR>
 
 " Alt Buffer (emulates `:buffer #`)
 exmap altBuffer obcommand grappling-hook:alternate-note
-nnoremap <CR> :altBuffer
+nnoremap <CR> :altBuffer<CR>
 
 """"""""""""""""""""""
 " Comments

@@ -21,7 +21,7 @@
   "nodes": [
     {
       "color": "4",
-      "height": 1120,
+      "height": 1180,
       "id": "5fe4bf95ad790163",
       "label": "Tasks",
       "styleAttributes": {
@@ -29,7 +29,7 @@
       "type": "group",
       "width": 1840,
       "x": -1480,
-      "y": -960
+      "y": -1020
     },
     {
       "height": 780,
@@ -43,6 +43,31 @@
       "y": 1000
     },
     {
+      "autoResizeHeight": true,
+      "file": "Knowledge/tools/dev/readlink.md",
+      "height": 520,
+      "id": "b5590668f2b1449a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 600,
+      "x": -2320,
+      "y": 1080
+    },
+    {
+      "color": "6",
+      "height": 580,
+      "id": "097cdcba370efe05",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### **In Progress**\n```tasks\nnot done\nfilter by function task.status.type === 'IN_PROGRESS'\nshort mode\nshow tree\nhide task count\n```\n",
+      "type": "text",
+      "width": 680,
+      "x": -680,
+      "y": -600
+    },
+    {
       "file": "Knowledge/notes/tmpl example.md",
       "height": 400,
       "id": "9508e6dc31e2f98c",
@@ -52,6 +77,18 @@
       "width": 400,
       "x": -660,
       "y": 300
+    },
+    {
+      "color": "5",
+      "height": 1020,
+      "id": "eedbae2958471314",
+      "styleAttributes": {
+      },
+      "text": "### active\n\n```tasks\nnot done\nshow tree\nshort mode\n```\n\n\n",
+      "type": "text",
+      "width": 665,
+      "x": -1460,
+      "y": -940
     },
     {
       "file": "Knowledge/notes/ideas and thoughts/cloning repos multiple times can be useful.md",
@@ -111,43 +148,6 @@
       "width": 400,
       "x": -1620,
       "y": 1240
-    },
-    {
-      "autoResizeHeight": true,
-      "file": "Knowledge/tools/dev/readlink.md",
-      "height": 520,
-      "id": "b5590668f2b1449a",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 600,
-      "x": -2320,
-      "y": 1080
-    },
-    {
-      "color": "5",
-      "height": 1020,
-      "id": "eedbae2958471314",
-      "styleAttributes": {
-      },
-      "text": "### active\n\n```tasks\nnot done\nshow tree\nshort mode\n```\n\n\n",
-      "type": "text",
-      "width": 665,
-      "x": -1460,
-      "y": -940
-    },
-    {
-      "color": "6",
-      "height": 360,
-      "id": "097cdcba370efe05",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "### **In Progress**\n```tasks\nnot done\nfilter by function task.status.type === 'IN_PROGRESS'\nshort mode\n```\n",
-      "type": "text",
-      "width": 480,
-      "x": -680,
-      "y": -600
     }
   ]
 }

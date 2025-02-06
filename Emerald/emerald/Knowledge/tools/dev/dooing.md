@@ -7,14 +7,12 @@ published:
 created: 2025-01-20
 description: The minimalist to-do list for Neovim. Contribute to atiladefreitas/dooing development by creating an account on GitHub.
 tags:
-  - clippings
   - plugin
   - nvim
   - nvim-plugin
+  - github
 ---
-## Dooing
-
-Dooing is a **minimalist** todo list manager for [[Neovim]], designed with simplicity and efficiency in mind. It provides a clean, distraction-free interface to manage your **tasks directly within Neovim**.
+**Dooing** is a **minimalist** todo list manager for [[neovim]], designed with simplicity and efficiency in mind. It provides a clean, distraction-free interface to manage your **tasks directly within Neovim**.
 Perfect for users who want to keep track of their todos without leaving their editor.
 
 [![dooing demo](https://private-user-images.githubusercontent.com/83841300/391095032-ffb921d6-6dd8-4a01-8aaa-f2440891b22e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzczNzQ3OTUsIm5iZiI6MTczNzM3NDQ5NSwicGF0aCI6Ii84Mzg0MTMwMC8zOTEwOTUwMzItZmZiOTIxZDYtNmRkOC00YTAxLThhYWEtZjI0NDA4OTFiMjJlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTIwVDEyMDEzNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUzZGViOGFjODZmMzJkYjY0MGRiZjUyOTRlNTFmOGZlMmE0ZTFkMGRlMWRmMzQ0Y2UyMTk5ZDg5M2EzYjVlOTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.yXgqYr8rYyCbx_ul8V4wOQgFl6BIytgRTSBrsgwElzQ)](https://private-user-images.githubusercontent.com/83841300/391095032-ffb921d6-6dd8-4a01-8aaa-f2440891b22e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzczNzQ3OTUsIm5iZiI6MTczNzM3NDQ5NSwicGF0aCI6Ii84Mzg0MTMwMC8zOTEwOTUwMzItZmZiOTIxZDYtNmRkOC00YTAxLThhYWEtZjI0NDA4OTFiMjJlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTIwVDEyMDEzNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUzZGViOGFjODZmMzJkYjY0MGRiZjUyOTRlNTFmOGZlMmE0ZTFkMGRlMWRmMzQ0Y2UyMTk5ZDg5M2EzYjVlOTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.yXgqYr8rYyCbx_ul8V4wOQgFl6BIytgRTSBrsgwElzQ)
@@ -29,32 +27,9 @@ Perfect for users who want to keep track of their todos without leaving their ed
 - 🛠️ Compatible with **Lazy.nvim** for effortless installation
 
 ---
+## Default Configuration
 
-## 📦 Installation
-
-### Prerequisites
-
-- Neovim `>= 0.10.0`
-- [Lazy.nvim](https://github.com/folke/lazy.nvim) as your plugin manager
-
-### Using Lazy.nvim
-
-```lua
-return {
-    "atiladefreitas/dooing",
-    config = function()
-        require("dooing").setup({
-            -- your custom config here (optional)
-        })
-    end,
-}
-```
-
-Run the following commands in Neovim to install Dooing:
-
-### Default Configuration
-
-Dooing comes with sensible defaults that you can override:
+comes with sensible defaults that you can override:
 
 ```lua
 {
@@ -186,14 +161,12 @@ Dooing provides several commands for task management:
 - `:Dooing set [index] [field] [value]` - Modifies todo properties
 - `priorities` - Set/update priorities (use "nil" to clear)
 - `ect` - Set estimated completion time (e.g. "30m", "2h", "1d", "0.5w")
-
 ---
-
 ## 🔑 Keybindings
 
 Dooing comes with intuitive keybindings:
 
-#### Main Window
+#### **Main** Window
 
 | Key          | Action                     |
 | ------------ | -------------------------- |
@@ -222,14 +195,15 @@ Dooing comes with intuitive keybindings:
 
 #### Tags Window
 
-| Key | Action |
-| --- | --- |
-| `e` | Edit tag |
-| `d` | Delete tag |
+| Key    | Action        |
+| ------ | ------------- |
+| `e`    | Edit tag      |
+| `d`    | Delete tag    |
 | `<CR>` | Filter by tag |
-| `q` | Close window |
+| `q`    | Close window  |
+|        |               |
 
-#### Calendar Window
+#### **Calendar** Window
 
 | Key | Action |
 | --- | --- |
@@ -244,25 +218,3 @@ Dooing comes with intuitive keybindings:
 
 ---
 
-## 📥 Backlog
-
-Planned features and improvements for future versions of Dooing:
-
-#### Core Features
-
-- Due Dates Support
-- Priority Levels
-- Todo Filtering by Tags
-- Todo Search
-- Todo List Per Project
-
-#### UI Enhancements
-
-- Tag Highlighting
-- Custom Todo Colors
-- Todo Categories View
-
-#### Quality of Life
-
-- Multiple Todo Lists
-- Import/Export Features

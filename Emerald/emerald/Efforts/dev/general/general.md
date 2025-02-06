@@ -1,5 +1,5 @@
 ## tasks ✔
-- [ ] #task [[fix reminders plugin]] 🔽 🆔 0gYNlc
+- [x] #task [[fix reminders plugin]] 🔽 🆔 0gYNlc ✅ 2025-02-06
 - [ ] #task explore [[generator]]'s in [[php]] #php #generators 🆔 O9n1h5
 - [ ] #task add nvim mappings for obsidian 🆔 Y2SK34
 	- [/] editor `mappings`

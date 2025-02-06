@@ -1,9 +1,7 @@
 ---
-title: "IOError: [Errno 24] Too many open files:"
 source: https://stackoverflow.com/questions/18280612/ioerror-errno-24-too-many-open-files
 published: 2013-08-16
 created: 2025-01-29
-description: I have a huge file that I am writing into approximately 450 files. I am getting error as too many files open. I searched the web and found some solution but it is not helping. import resourceres...
 tags:
   - unix
   - open_files
@@ -49,7 +47,6 @@ $
 
 I am still getting the same error. PS: I also restarted my system and run the program but with no success.
 
-
 ---
 
 I changed my ulimit to **4096** from 1024 and it worked. Following is the procedure:
@@ -61,3 +58,15 @@ Check your num of descriptors limit using:
 For me it was 1024, and I updated it to 4096 and it worked.
 
 `ulimit -n 4096`
+
+---
+
+### ==another solution==
+
+sudo vim /etc/security/limits.conf
+
+add
+
+*         hard    nofile      500000
+*         soft    nofile      500000
+to the file.

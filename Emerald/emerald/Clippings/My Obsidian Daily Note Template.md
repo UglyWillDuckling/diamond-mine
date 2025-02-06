@@ -13,7 +13,6 @@ related:
   - "[[day template]]"
   - "[[Dann Bergs Daily Note]]"
 ---
-
 ![Dann’s Daily Note template for Obsidian](https://dannb.org/images/blog/2022/10/daily-note-template.png)
 
 ❗ *Feel free to skip the fluff and navigate directly to the **[raw Daily Note template](https://gist.github.com/dannberg/48ea2ba3fc0abdf3f219c6ad8bc78eb6)**.*

@@ -8,6 +8,8 @@ add_note_obs() {
     local path="$1"
     cat >"$path"
     echo "$path"
+
+    $EDITOR "$path"
 }
 
 add_note_obs "$VAULT_PATH$1.md"

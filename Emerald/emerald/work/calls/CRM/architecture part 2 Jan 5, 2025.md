@@ -25,7 +25,7 @@ date: Jan 5, 2025
 #diagram #c-4
 [[c-4 diagrams]]
 
-### [[B2c LeadRankingAPi]]
+### [[B2c LeadRankingAPI]]
 
 #### provides
 

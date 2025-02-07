@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d8c9c421e3875a53",
+        "id": "e1e0690d60be8044",
         "type": "tabs",
         "children": [
           {
-            "id": "c4a5be26ef81f556",
+            "id": "7378e25861544798",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "work/calls/CRM/Architecture Meet 2025-02-07.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Architecture Meet 2025-02-07"
             }
           }
         ]
@@ -74,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 359.5,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -153,9 +159,35 @@
               "icon": "clock",
               "title": "Chronology"
             }
+          },
+          {
+            "id": "1cceddc0fea9ba5c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3ac24b16dbbfddf7",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "work/calls/CRM/Architecture Meet 2025-02-07.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Architecture Meet 2025-02-07"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -185,13 +217,21 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "c4a5be26ef81f556",
+  "active": "7378e25861544798",
   "lastOpenFiles": [
+    "work/Projects/B2c LeadRankingAPI.md",
+    "add_note_obs.sh~",
+    "work/calls/CRM/Architecture Meet 2025-02-07.md",
+    "+/VOIP.md",
+    "Knowledge/templates/day template.md",
+    "Knowledge/daily_notes/2025/February/2025-02-07.md",
+    "+/FIFO.md",
+    "+/FIFO.md~",
+    "work/calls/CRM/New CRM Architecture meet v4.md",
+    "Knowledge/daily_notes/2025/February/Untitled.md",
     "+/add_note_script.md",
     "Knowledge/Books/Brave New Words - Salman Khan.md",
-    "Knowledge/daily_notes/2025/February/2025-02-07.md",
     "add_note_script.md",
-    "add_note_obs.sh~",
     "add_note_script.md~",
     "lastone.md",
     "with_echo.md",
@@ -215,17 +255,8 @@
     "Knowledge/daily_notes/2024/December/2024-12-11.md",
     "work/tickets/how to test upload validation on extranet.md",
     "x/Brave New Words - Salman Khan.jpg",
-    "Brave New Words.md",
-    "{{coverUrl}}.md",
-    "Knowledge/Books/Brave New Words.md",
-    "+/git patch.md",
     "dash canvas.canvas",
-    "Efforts/Active/Obsidian Tinkering/Obsidian Footnotes Exploration.md",
-    "+/perhaps we could create a dashboard using canvas.md",
-    "Knowledge/daily_notes/2025/February/2025-02-06.md",
-    "Knowledge/daily_notes/2025/January/2025-01-27.md",
     "work/tickets/event issue solution canvas.canvas",
-    "+/lazyvim - set all configurations in lua/config",
     "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
     "x/Screenshot 2025-01-16 at 14.14.36.png",
     "work/docs/CRM/CRM.canvas",

@@ -5,7 +5,7 @@
 **Extranet** allows for uploading things that it shouldn't.
 - [[SVG]] uploaded as a different file type
 
-- [/] #task fix xss upload issue on [[extranet]] 🆔 Zxm2X1
+- [x] #task fix xss upload issue on [[extranet]] 🆔 Zxm2X1 ✅ 2025-02-07
 	- [/] investigate what is happening and write down in [[#investigation]]
 	- [x] try changing the file **extension**
 		- [x] svg -> jpg
@@ -50,7 +50,7 @@ http://localhost:8001/contacts/5758471/projects/2080878347/documents
 - [x] test svg validation
 - [x] test spoofed `svg` 
 - [x] test normal upload
-- [ ] ! try to **modify** the document
+- [x] ! try to **modify** the document
 
 ##### **path through the upload on by**
 
@@ -61,9 +61,3 @@ share/controller/document.inc
 ...
 `share/class.document.inc::upload_document` -> `::clean_upload_document(array $file)`
 %% this should now validate  %%
-
-##### modify
-
-- [ ] upload
-- [ ] list
-- [ ] modify

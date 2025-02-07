@@ -1,3 +1,5 @@
+#tool/keyboard
+
 VIA is a free, open-source keyboard firmware and configuration tool that
   allows users to customize the layout, functions, and behavior of their
   mechanical keyboards. It was developed as an alternative to other

@@ -5,7 +5,7 @@
   "content": "",
   "useDefaultFrontmatter": true,
   "defaultFrontmatterKeyType": "Camel Case",
-  "templateFile": "Template, book.md",
+  "templateFile": "Knowledge/templates/Template, book.md",
   "serviceProvider": "google",
   "naverClientId": "",
   "naverClientSecret": "",

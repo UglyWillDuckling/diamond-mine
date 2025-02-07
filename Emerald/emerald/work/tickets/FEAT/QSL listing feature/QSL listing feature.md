@@ -14,9 +14,9 @@ related:
 
 ## active
 
-- [/] #task refactoring of configuration #work #tiny 🔼 📅 2025-02-07 🆔 SfTAnC
+- [x] #task refactoring of configuration #work #tiny 🔼 📅 2025-02-07 🆔 SfTAnC ✅ 2025-02-07
 - [/] #task **wait** for [[Frederic Dalessandro]] to finish security #work #wait ⏫ 🆔 jXzU9o
-	- [ ] implement production changes
+- [ ] #task implement production changes ⏫ ⏳ 2025-02-07 📅 2025-02-07 🆔 TH7CQw
 
 ### **Later**
  - [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8nkkkkk

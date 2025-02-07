@@ -42,6 +42,9 @@
     "datetime": "datetime",
     "scheduled": "datetime",
     "link": "text",
-    "published": "date"
+    "published": "date",
+    "categories": "multitext",
+    "author": "multitext",
+    "cover": "multitext"
   }
 }

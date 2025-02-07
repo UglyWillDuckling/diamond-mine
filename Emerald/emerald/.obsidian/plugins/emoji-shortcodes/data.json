@@ -4,15 +4,16 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
+    ":ballot_box_with_check:",
+    ":arrow_down:",
+    ":heavy_check_mark:",
+    ":notebook_with_decorative_cover:",
     ":parasol_on_ground:",
     ":writing_hand:",
     ":newspaper:",
     ":video_camera:",
     ":sun_with_face:",
     ":checkered_flag:",
-    ":notebook_with_decorative_cover:",
-    ":heavy_check_mark:",
-    ":ballot_box_with_check:",
     ":handshake:",
     ":white_check_mark:",
     ":information_desk_person:",
@@ -202,7 +203,6 @@
     ":swimming_woman:",
     ":olive:",
     ":ringed_planet:",
-    ":page_with_curl:",
-    ":compass:"
+    ":page_with_curl:"
   ]
 }

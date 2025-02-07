@@ -10,4 +10,5 @@ after () {
 }
 ```
 
-- [ ] remind me in a week (@[[2025-02-07]])
+- [x] remind me in a week (@[[2025-02-07]] 10:54)
+- [ ] bi-weekly (@[[2025-02-21]])

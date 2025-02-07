@@ -30,4 +30,4 @@
 - `]q` next item, `[q` previous
 - `[Q` start, `]Q` end
 
-- [ ] **remind** me (@[[2025-02-07]])
+- [x] **remind** me (@[[2025-02-07]] 09:51)

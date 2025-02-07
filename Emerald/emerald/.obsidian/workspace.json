@@ -4,27 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "8f2ec7bd9b5e7984",
+        "id": "22c6baab0d827bed",
         "type": "tabs",
         "children": [
           {
-            "id": "68f0c6f373a15f96",
+            "id": "a589478b53619704",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "dash canvas.canvas",
-                "viewState": {
-                  "x": -372.66883801298206,
-                  "y": -705.3630725454767,
-                  "zoom": -1.1392629016757152
-                }
+                "file": "work/tickets/Upload issue on extranet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "dash canvas"
+              "icon": "lucide-file",
+              "title": "Upload issue on extranet"
+            }
+          },
+          {
+            "id": "6160d2fc6aa9f48e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/docs/how to/where and how to upload files on by.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "where and how to upload files on by"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,52 +157,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/test  cronjob.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of test  cronjob"
-            }
-          },
-          {
-            "id": "66215144ab6ceed1",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
-            "id": "4a7e351c6d81ef9d",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "672c0139700221be",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
+                "file": "work/docs/how to/where and how to upload files on by.md",
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "lucide-list",
+              "title": "Outline of where and how to upload files on by"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 537.5,
+    "width": 384.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -214,16 +197,35 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "68f0c6f373a15f96",
+  "active": "688b3d615137a273",
   "lastOpenFiles": [
-    "Efforts/Active/Obsidian Tinkering/Obsidian Footnotes Exploration.md",
-    "dash canvas.canvas",
-    "+/perhaps we could create a dashboard using canvas.md",
-    "Knowledge/daily_notes/2024/December/2024-12-11.md",
+    "+/VIA.md",
+    "+/second.md",
+    "+/first",
+    "+/hello from the shell",
+    "+/second",
+    "+/hello",
+    "+/testing",
     "work/tickets/Upload issue on extranet.md",
+    "work/docs/how to/where and how to upload files on by.md",
+    "+/you have the after command.md",
+    "work/tickets/FEAT/QSL listing feature/refactoring of configuration.md",
+    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+    "Knowledge/daily_notes/2025/February/2025-02-07.md",
+    "Knowledge/daily_notes/2024/December/2024-12-11.md",
+    "work/tickets/how to test upload validation on extranet.md",
+    "Brave New Words - Salman Khan.md",
+    "x/Brave New Words - Salman Khan.jpg",
+    "Template, book.md",
+    "Brave New Words.md",
+    "{{coverUrl}}.md",
+    "Knowledge/Books/Brave New Words.md",
+    "+/git patch.md",
+    "dash canvas.canvas",
+    "Efforts/Active/Obsidian Tinkering/Obsidian Footnotes Exploration.md",
+    "+/perhaps we could create a dashboard using canvas.md",
     "Knowledge/daily_notes/2025/February/2025-02-06.md",
     "Knowledge/daily_notes/2025/January/2025-01-27.md",
-    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
     "work/tickets/event issue solution canvas.canvas",
     "work/calls/pair programming/Pair Programming 2025-02-06.md",
     "work/bugs/you can easily reference any text block by using.md",
@@ -231,18 +233,6 @@
     "work/calls/pair programming/circle Ci link for Luqa.md",
     "Efforts/Active/Vim Exploration/Vim Exploration.md",
     "Efforts/Active/Vim Exploration/explore lists in Vim.md",
-    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
-    "Knowledge/notes/archive/vim - jump to last insert with `..md",
-    "Knowledge/notes/archive/2025-02-27.md",
-    "Knowledge/daily_notes/2024/December/2024-12-06.md",
-    "work/tickets/FEAT/QSL listing feature/Frederic Dalessandro.md",
-    "work/tickets/FEAT/QSL listing feature/archive/tasks archive.md",
-    "Clippings/Basic formatting syntax - Obsidian.md",
-    "Knowledge/tools/obsidian/obsidian-footnotes Plugin.md",
-    "Knowledge/Articles/Ted Talks are dangerously eloquent.md",
-    "Knowledge/daily_notes/2025/February/2025-02-03.md",
-    "Knowledge/tools/Vivaldi browser.md",
-    "Efforts/Projects/Vim study.md",
     "+/lazyvim - set all configurations in lua/config",
     "+/lazyvim - set all configurations in lua",
     "Efforts/Active/Vim Exploration",
@@ -250,13 +240,8 @@
     "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
     "x/Screenshot 2025-01-16 at 14.14.36.png",
     "work/calls/SPRINT/PLANNING",
-    "work/calls/SPRINT/RETRO",
     "work/docs/CRM/CRM.canvas",
-    "work/tickets/FEAT/QSL listing feature/AWS connection",
     "work/tickets/FEAT/QSL listing feature/docs/code/Athena impl..canvas",
-    "Efforts/Active/Obsidian Tinkering/docs",
-    "Spaces/Physical Objects",
-    "MOC",
     "work/tickets/FEAT/QSL listing feature/artifacts/crontab board.canvas",
     "work/tickets/FEAT/QSL listing feature/docs/code/aws test script solution.canvas",
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.canvas",
@@ -269,7 +254,6 @@
     "Knowledge/tools/PM/bee-bole-export.png",
     "work/notes/archive/iris-code.png",
     "Knowledge/Books/dev/Patterns of Enterprise/content/special_case.jpg",
-    "Pasted image 20240923155220.png",
-    "Knowledge/concepts/computer science/oop/patterns/Decorator_UML_class_diagram.svg.png"
+    "Pasted image 20240923155220.png"
   ]
 }

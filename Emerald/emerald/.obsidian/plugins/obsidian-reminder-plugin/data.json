@@ -36,13 +36,6 @@
         "rowNumber": 6
       }
     ],
-    "+/you have the after command.md": [
-      {
-        "title": "remind me in a week",
-        "time": "2025-02-07",
-        "rowNumber": 12
-      }
-    ],
     "Knowledge/How To's/How to export variables from a file in Unix.md": [
       {
         "title": "2 week",
@@ -78,13 +71,6 @@
         "rowNumber": 27
       }
     ],
-    "Knowledge/tools/dev/nvim/vim - quickfix list.md": [
-      {
-        "title": "**remind** me",
-        "time": "2025-02-07",
-        "rowNumber": 32
-      }
-    ],
     "Clippings/git includeif - multiple configs.md": [
       {
         "title": "weekly",
@@ -104,6 +90,13 @@
         "title": "weekly",
         "time": "2025-02-20",
         "rowNumber": 9
+      }
+    ],
+    "+/you have the after command.md": [
+      {
+        "title": "bi-weekly",
+        "time": "2025-02-21",
+        "rowNumber": 13
       }
     ]
   },

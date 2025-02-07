@@ -11,15 +11,17 @@
             "id": "7378e25861544798",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "work/calls/CRM/Architecture Meet 2025-02-07.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "dash canvas.canvas",
+                "viewState": {
+                  "x": -290.13089207313055,
+                  "y": -432.32281639582186,
+                  "zoom": -0.0191001200851727
+                }
               },
-              "icon": "lucide-file",
-              "title": "Architecture Meet 2025-02-07"
+              "icon": "lucide-layout-dashboard",
+              "title": "dash canvas"
             }
           }
         ]
@@ -79,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5,
-    "collapsed": true
+    "width": 359.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -180,10 +181,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "work/calls/CRM/Architecture Meet 2025-02-07.md"
+                "file": "dash canvas.canvas"
               },
               "icon": "lucide-info",
-              "title": "File properties for Architecture Meet 2025-02-07"
+              "title": "File properties for dash canvas"
             }
           }
         ],
@@ -219,22 +220,26 @@
   },
   "active": "7378e25861544798",
   "lastOpenFiles": [
+    "Kanban.md",
+    "Dashboard.md",
+    "work/work.md",
+    "lastone.md",
+    "with_echo.md",
+    "{{coverUrl}}.md",
+    "work/calls/CRM/Architecture Meet 2025-02-07.md",
+    "Knowledge/daily_notes/2025/February/Untitled.md",
     "work/Projects/B2c LeadRankingAPI.md",
     "add_note_obs.sh~",
-    "work/calls/CRM/Architecture Meet 2025-02-07.md",
     "+/VOIP.md",
     "Knowledge/templates/day template.md",
     "Knowledge/daily_notes/2025/February/2025-02-07.md",
     "+/FIFO.md",
     "+/FIFO.md~",
     "work/calls/CRM/New CRM Architecture meet v4.md",
-    "Knowledge/daily_notes/2025/February/Untitled.md",
     "+/add_note_script.md",
     "Knowledge/Books/Brave New Words - Salman Khan.md",
     "add_note_script.md",
     "add_note_script.md~",
-    "lastone.md",
-    "with_echo.md",
     "HELLO.md",
     "add_note_obs.sh",
     "add_note_obs",
@@ -251,9 +256,6 @@
     "+/testing",
     "+/you have the after command.md",
     "work/tickets/FEAT/QSL listing feature/refactoring of configuration.md",
-    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-    "Knowledge/daily_notes/2024/December/2024-12-11.md",
-    "work/tickets/how to test upload validation on extranet.md",
     "x/Brave New Words - Salman Khan.jpg",
     "dash canvas.canvas",
     "work/tickets/event issue solution canvas.canvas",

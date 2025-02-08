@@ -187,29 +187,30 @@ To remove a package, which is required by another package, without removing the 
 ```
 
 ### Querying package databases ^querying
-- [ ] remind me (@2025-01-30)
+- [x] remind me (@2025-02-03 19:37)
+- [ ] monthly (@2025-02-24)
 
 *Pacman* queries the **local package database** with the `-Q` flag, the sync database with the `-S` flag and the files database with the `-F` flag. See `pacman -Q --help`, `pacman -S --help` and `pacman -F --help` for the respective suboptions of each flag.
 
 *Pacman* can search for packages in the database, searching both in packages' names and descriptions:
 
-```
-$ pacman -Ss string1 string2 ...
+```bash
+pacman -Ss string1 string2 ...
 ```
 
-Sometimes, `-s`'s builtin ERE (Extended Regular Expressions) can cause a lot of unwanted results, so it has to be limited to match the package name only; not the description nor any other field:
+Sometimes, `-s`'s builtin ERE (Extended Regular Expressions) can cause a lot of unwanted results, so it has to be **limited** to match the package name only; not the description nor any other field:
 
 ```
 $ pacman -Ss '^vim-'
 ```
 
-To search for already installed packages:
+To search **installed** packages:
 
 ```
 $ pacman -Qs string1 string2 ...
 ```
 
-To search for package file names in remote packages:
+To search for package file **names** in **remote** packages:
 
 ```
 $ pacman -F string1 string2 ...
@@ -221,7 +222,7 @@ To display extensive information about a given package (e.g. its dependencies):
 $ pacman -Si package_name
 ```
 
-For locally installed packages:
+For locally **installed** packages:
 
 ```
 $ pacman -Qi package_name

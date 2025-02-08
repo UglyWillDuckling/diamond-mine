@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[Wordpress]]"
+  - "[[Efforts/Active/Wordpress/Wordpress]]"
 ---
 #project #project/active 
 

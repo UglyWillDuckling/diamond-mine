@@ -224,10 +224,10 @@
       "excludedNotes": [],
       "isDefault": false,
       "dataSource": {
-        "kind": "tag",
+        "kind": "folder",
         "config": {
-          "tag": "#persona-project",
-          "hierarchy": false
+          "path": "Efforts/Active/Persona",
+          "recursive": false
         }
       },
       "newNotesFolder": "",
@@ -243,7 +243,7 @@
                 "weight": 0,
                 "collapse": false,
                 "records": [
-                  "Best Dev Practices in Wordpress.md"
+                  "Efforts/Active/Persona/SSH Configuration to store.md"
                 ]
               },
               "In Progress": {
@@ -259,6 +259,9 @@
                   "Efforts/Active/Persona/Persona.md"
                 ],
                 "collapse": false
+              },
+              "No status": {
+                "collapse": true
               }
             }
           },
@@ -595,22 +598,6 @@
       "newNotesFolder": "",
       "views": [
         {
-          "config": {},
-          "filter": {
-            "conjunction": "and",
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "dbc9ba62-4de8-4425-8cbe-e172a7469490",
-          "name": "Table",
-          "type": "table"
-        },
-        {
           "config": {
             "groupByField": "status",
             "columns": {
@@ -649,6 +636,22 @@
           "id": "218f6e38-34e3-42e4-9daa-adf207955293",
           "name": "Board",
           "type": "board"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "dbc9ba62-4de8-4425-8cbe-e172a7469490",
+          "name": "Table",
+          "type": "table"
         }
       ],
       "id": "e678b1c8-25a5-43f6-85ff-7ff2090867d9",

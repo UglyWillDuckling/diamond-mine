@@ -1,25 +1,11 @@
 {
   "scanned": true,
   "reminders": {
-    "+/working under root - permissions.md": [
-      {
-        "title": "remind me in 2 weeks",
-        "time": "2025-01-31",
-        "rowNumber": 7
-      }
-    ],
     "Atlas/Personal/notes/libgen-downloader.md": [
       {
         "title": "monthly reminder",
         "time": "2025-02-22",
         "rowNumber": 10
-      }
-    ],
-    "Atlas/Personal/notes/obsidian/theme settings and the like.md": [
-      {
-        "title": "remind me",
-        "time": "2025-02-02",
-        "rowNumber": 25
       }
     ],
     "Atlas/Personal/notes/You can easily switch to a different user using su.md": [
@@ -29,13 +15,6 @@
         "rowNumber": 21
       }
     ],
-    "Clippings/arch pacman.md": [
-      {
-        "title": "remind me",
-        "time": "2025-01-30",
-        "rowNumber": 189
-      }
-    ],
     "Atlas/Knowledge/howtos/creating local certificates is super simple.md": [
       {
         "title": "remember me 1 week",
@@ -43,18 +22,39 @@
         "rowNumber": 1
       }
     ],
-    "Atlas/Personal/notes/it is much better to use docker desktop to manage containers.md": [
-      {
-        "title": "remind me 1 week",
-        "time": "2025-02-01",
-        "rowNumber": 4
-      }
-    ],
     "Atlas/Personal/notes/question - how does docker choose from where to take the files for a volume.md": [
       {
         "title": "**remind** me",
-        "time": "2025-01-29",
+        "time": "2025-02-12",
         "rowNumber": 8
+      }
+    ],
+    "Clippings/arch pacman.md": [
+      {
+        "title": "monthly",
+        "time": "2025-02-24",
+        "rowNumber": 190
+      }
+    ],
+    "Atlas/Personal/notes/mozes se ulogirat u PBZ online.md": [
+      {
+        "title": "reminder",
+        "time": "2025-02-15",
+        "rowNumber": 4
+      }
+    ],
+    "Atlas/Personal/notes/having tasks or tickets belong to more than just one project could be useful in certain situations.md": [
+      {
+        "title": "remind me",
+        "time": "2025-02-09",
+        "rowNumber": 4
+      }
+    ],
+    "Atlas/Personal/Info/snap installations have problem accessing system resources.md": [
+      {
+        "title": "remind",
+        "time": "2025-02-26",
+        "rowNumber": 6
       }
     ]
   },

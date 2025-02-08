@@ -14,7 +14,7 @@ kanban-plugin: board
 
 ## done
 
-- [x] [[Obnova dopunskog osiguranja]]
+- [x] [[Obnova dopunskog osiguranja]] |  ✅2025-02-03/19:08 
 - [ ] [[configure tmux]] #task #backburner 🆔 gH7ToI
 - [x] add a quicka add to add a new task to this board 🔲
 

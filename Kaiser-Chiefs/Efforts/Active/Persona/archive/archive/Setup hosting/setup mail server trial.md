@@ -105,7 +105,7 @@ new: [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 ```
 ### add spf record
 [[DNS record]] [[SPF]], [[DKIM]]
-[[spf techdot.biz record]] for [[my VPS]]
+[[spf techdot.biz record]] for [[my VPS - techdot.biz]]
 ### fix spam
 you can use `postconf -n` to see [[Postfix]]
 [[Postfix encrypt email - How we enable this and fix the related errors]]

@@ -8,7 +8,7 @@ tags:
   - docs
   - howto
 related:
-  - "[[Wordpress]]"
+  - "[[Efforts/Active/Wordpress/Wordpress]]"
   - "[[docker]]"
 ---
 As a software developer, you’re likely familiar with local development environments. They allow you to run your code, applications, and sites on your workstation, similarly to how they run on a production server. This gives you a safe environment to make changes, break and fix things, and watch your changes take place in real time, all without disrupting your users. In the case of [WordPress](https://wordpress.com/), local development environments are often used to assist in building new sites, testing changes to existing sites, and developing or trialing new plugins and themes.

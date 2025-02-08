@@ -27,12 +27,12 @@ related: [[Configuring self-signed SSL certificates for local development]]
 - [x] ask AI
 - [x] investigate [[Let's Encrypt]] automatic setup
 - [x] try to implement [[Let's Encrypt]] `locally` via [[docker]]
-- [x] implement [[Let's Encrypt]] on [[my VPS]]
+- [x] implement [[Let's Encrypt]] on [[my VPS - techdot.biz]]
 - [x] combine [[Let's Encrypt]] with a simple static site
 - [ ] #task implement a [[cronjob]] for the certificate <mark style="background: #FFF3A3A6;">renewal</mark> 🆔 AgeYMR 🔼 ⏳ 2025-01-26
 - [/] #task write web server setup documentation #docs 🆔 yEcJuz
 
-#### implement on [[my VPS]]
+#### implement on [[my VPS - techdot.biz]]
  [[How to Set Up letsencrypt with Nginx on Docker]]
 
 [[lets encrypt requests]]

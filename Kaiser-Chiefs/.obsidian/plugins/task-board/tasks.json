@@ -96,7 +96,7 @@
         ],
         "Efforts/Active/Wordpress/Wordpress.md": [
             {
-                "id": 1091537961,
+                "id": 2373510511,
                 "title": "[[Wordpress Exploration]] in general",
                 "body": [],
                 "time": "",
@@ -107,7 +107,7 @@
                 "completed": ""
             },
             {
-                "id": 3023098190,
+                "id": 2488814020,
                 "title": "[[Best Dev Practices in Wordpress]]",
                 "body": [],
                 "time": "",
@@ -120,7 +120,7 @@
         ],
         "Efforts/Active/Tasks Management in Obsidian/Tasks Management in Obsidian.md": [
             {
-                "id": 2363742820,
+                "id": 4041904426,
                 "title": "#task explore [[Tasks plugin]]  in general #backburner  🆔 12b3go",
                 "body": [],
                 "time": "",
@@ -207,7 +207,7 @@
         ],
         "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md": [
             {
-                "id": 1560645264,
+                "id": 211996880,
                 "title": "#task Explore [[quickadd]] #backburner 🔼 ➕ 2025-01-25 🆔 8D8EFq",
                 "body": [],
                 "time": "",
@@ -221,7 +221,7 @@
                 "completed": ""
             },
             {
-                "id": 666511811,
+                "id": 2466896516,
                 "title": "#task look into **graphing data** 🔼 ➕ 2025-01-26 🆔 gXl19a",
                 "body": [
                     "\t- [[Creating Dynamic Graphs in Obsidian - Obsidian Rocks]]",
@@ -260,22 +260,6 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Clippings/How to Manage Projects in Obsidian.md",
-                "completed": ""
-            }
-        ],
-        "Calendar/daily/2025-01-22.md": [
-            {
-                "id": 3086054835,
-                "title": "#task vidjeti **daily template** od [[Dann]]a #obsidian 🔼",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [
-                    "#task",
-                    "#obsidian"
-                ],
-                "priority": 3,
-                "filePath": "Calendar/daily/2025-01-22.md",
                 "completed": ""
             }
         ],
@@ -525,19 +509,6 @@
                 "completed": ""
             }
         ],
-        "Atlas/Personal/notes/obsidian/theme settings and the like.md": [
-            {
-                "id": 892679528,
-                "title": "remind me (@2025-02-02)",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Atlas/Personal/notes/obsidian/theme settings and the like.md",
-                "completed": ""
-            }
-        ],
         "Atlas/Personal/notes/libgen-downloader.md": [
             {
                 "id": 1850392316,
@@ -598,19 +569,6 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Atlas/Knowledge/Media/Books/Books board.md",
-                "completed": ""
-            }
-        ],
-        "+/working under root - permissions.md": [
-            {
-                "id": 4131263866,
-                "title": "remind me in 2 weeks(@2025-01-31)",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "+/working under root - permissions.md",
                 "completed": ""
             }
         ],
@@ -708,20 +666,20 @@
         ],
         "Master Task List.md": [
             {
-                "id": 1943973,
-                "title": "#task Use [[Dann]]'s daily note **template** 🔼 ⏳ 2025-01-29 📅 2025-01-29 🆔 bbkI80",
+                "id": 2211293872,
+                "title": "#task Fix [[desktop Compositor issue on KDE]] ⏫ 📅 2025-02-07",
                 "body": [],
                 "time": "",
-                "due": "2025-01-29",
+                "due": "2025-02-07",
                 "tags": [
                     "#task"
                 ],
-                "priority": 3,
+                "priority": 2,
                 "filePath": "Master Task List.md",
                 "completed": ""
             },
             {
-                "id": 1985222437,
+                "id": 89285366,
                 "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
                 "body": [],
                 "time": "",
@@ -735,32 +693,19 @@
                 "completed": ""
             },
             {
-                "id": 2150508813,
-                "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-01-30",
+                "id": 729553000,
+                "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-07",
                 "body": [
                     "\t- check online",
                     "\t- create **real** tasks"
                 ],
                 "time": "",
-                "due": "2025-01-30",
+                "due": "2025-02-07",
                 "tags": [
                     "#task"
                 ],
                 "priority": 3,
                 "filePath": "Master Task List.md",
-                "completed": ""
-            }
-        ],
-        "Clippings/arch pacman.md": [
-            {
-                "id": 2718756869,
-                "title": "remind me (@2025-01-30)",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Clippings/arch pacman.md",
                 "completed": ""
             }
         ],
@@ -777,20 +722,230 @@
                 "completed": ""
             }
         ],
-        "Efforts/Active/Tasks Management in Obsidian/Morgen with Obsidian exploration.md": [
+        "Atlas/Personal/notes/question - how does docker choose from where to take the files for a volume.md": [
             {
-                "id": 781425456,
-                "title": "#task **explore** [[Morgen]] with [[Obsidian]] 🆔 YXQzL9 ⏳ 2025-01-27 📅 2025-01-29",
+                "id": 3396242013,
+                "title": "**remind** me (@2025-02-12)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Personal/notes/question - how does docker choose from where to take the files for a volume.md",
+                "completed": ""
+            }
+        ],
+        "Clippings/arch pacman.md": [
+            {
+                "id": 405800355,
+                "title": "monthly (@2025-02-24)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/arch pacman.md",
+                "completed": ""
+            }
+        ],
+        "mozes se ulogirat u PBZ online.md": [
+            {
+                "id": 1078380291,
+                "title": "reminder (@2025-02-15)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "mozes se ulogirat u PBZ online.md",
+                "completed": ""
+            }
+        ],
+        "having tasks or tickets belong to more than just one project could be useful in certain situations.md": [
+            {
+                "id": 2225009897,
+                "title": "remind me (@2025-02-09)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "having tasks or tickets belong to more than just one project could be useful in certain situations.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Active/Obsidian Tinkering/New Daily Template Ticket.md": [
+            {
+                "id": 879097702,
+                "title": "#task build daily template 🔼 ⏳ 2025-02-05 🆔 gQezXD",
                 "body": [
-                    "\t- [ ] take a look at [[Set up a POWERFUL Obsidian Task and Time Management System with Morgen]] 🔼 ⏳ 2025-01-27 🆔 rboaJy"
+                    "\t- [ ] #task vidjeti **daily template** od [[Dann]]a #obsidian 🔼 |🔼 📅 2025-02-05 #obsidian 🆔 VmrQHi"
                 ],
                 "time": "",
-                "due": "2025-01-29",
+                "due": "",
                 "tags": [
                     "#task"
                 ],
+                "priority": 3,
+                "filePath": "Efforts/Active/Obsidian Tinkering/New Daily Template Ticket.md",
+                "completed": ""
+            }
+        ],
+        "~/templates/daily template v2.md": [
+            {
+                "id": 681458422,
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
                 "priority": 0,
-                "filePath": "Efforts/Active/Tasks Management in Obsidian/Morgen with Obsidian exploration.md",
+                "filePath": "~/templates/daily template v2.md",
+                "completed": ""
+            }
+        ],
+        "snap installations have problem accessing system resources.md": [
+            {
+                "id": 3930755861,
+                "title": "remind (@2025-02-26)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "snap installations have problem accessing system resources.md",
+                "completed": ""
+            }
+        ],
+        "Calendar/daily/2025-02-06.md": [
+            {
+                "id": 3705393372,
+                "title": "pay the bills - [[Senka]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025-02-06.md",
+                "completed": ""
+            },
+            {
+                "id": 141384529,
+                "title": "explore [[Efforts/Active/Wordpress/Wordpress",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025-02-06.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Active/Persona/SSH Configuration to store.md": [
+            {
+                "id": 2439585792,
+                "title": "#task store the **ssh** configurations for remotes 🔼 📅 2025-02-08 🆔 i3ibCT",
+                "body": [
+                    "\t- [ ] create configurations: [[Persona.hr]], [[my VPS - techdot.biz]]",
+                    "\t\t- [ ] ",
+                    "\t- [ ] store on PC"
+                ],
+                "time": "",
+                "due": "2025-02-08",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Active/Persona/SSH Configuration to store.md",
+                "completed": ""
+            },
+            {
+                "id": 110894925,
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Persona/SSH Configuration to store.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE.md": [
+            {
+                "id": 2790058646,
+                "title": "#task Fix [[desktop Compositor issue on KDE]] ⏫ 📅 2025-02-07 🆔 WAcvF7",
+                "body": [],
+                "time": "",
+                "due": "2025-02-07",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE.md",
+                "completed": ""
+            },
+            {
+                "id": 1817904658,
+                "title": "see what else can be done 🙈",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞.md": [
+            {
+                "id": 1383384640,
+                "title": "#task Fix [[desktop Compositor issue on KDE 🐞]] ⏫ 📅 2025-02-07 🆔 WAcvF7",
+                "body": [],
+                "time": "",
+                "due": "2025-02-07",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞.md",
+                "completed": ""
+            },
+            {
+                "id": 3122762708,
+                "title": "see what else can be done 🙈",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞.md",
+                "completed": ""
+            }
+        ],
+        "Clippings/Adding Metadata - Dataview.md": [
+            {
+                "id": 570809208,
+                "title": "Send an mail to David about the deadline [due:: 2022-04-05].",
+                "body": [],
+                "time": "",
+                "due": "2022-04-05",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/Adding Metadata - Dataview.md",
+                "completed": ""
+            }
+        ],
+        "Calendar/daily/2025-02-08.md": [
+            {
+                "id": 4103583678,
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025-02-08.md",
                 "completed": ""
             }
         ]
@@ -1046,6 +1201,28 @@
                 "priority": 0,
                 "filePath": "task board.md",
                 "completed": ""
+            },
+            {
+                "id": 2666059346,
+                "title": "[[Obnova dopunskog osiguranja]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": "2025-02-03/19:08"
+            },
+            {
+                "id": 2666059346,
+                "title": "[[Obnova dopunskog osiguranja]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": "2025-02-03/19:08"
             }
         ],
         "Efforts/tasks/archive/srediti troskovnik/srediti troskovnik.md": [
@@ -1296,7 +1473,7 @@
         ],
         "Efforts/Active/Tasks Management in Obsidian/Tasks Management in Obsidian.md": [
             {
-                "id": 465314147,
+                "id": 3060238096,
                 "title": "#task explore tasks in [[Obsidian]] 🆔 tXya1Y ⏳ 2025-01-26 📅 2025-01-26 ✅ 2025-01-25",
                 "body": [
                     "\t- [x] read found articles [[#articles on tasks]]",
@@ -1864,7 +2041,7 @@
         ],
         "Efforts/Active/Persona/archive/archive/persona ssl setup.md": [
             {
-                "id": 2093779774,
+                "id": 641181443,
                 "title": "#task setup person.hr [[SSL certificate]] ✅ 2025-01-06",
                 "body": [
                     "\t- [x] #task check cert from backup ✅ 2025-01-06"
@@ -1879,7 +2056,7 @@
                 "completed": "2025-01-06"
             },
             {
-                "id": 4012916225,
+                "id": 1523535333,
                 "title": "find the cert",
                 "body": [],
                 "time": "",
@@ -1890,7 +2067,7 @@
                 "completed": ""
             },
             {
-                "id": 1187587922,
+                "id": 2913619465,
                 "title": "copy to server",
                 "body": [
                     "\t- [x] move to `/etc/ssl/*` dirs"
@@ -1903,7 +2080,7 @@
                 "completed": ""
             },
             {
-                "id": 3208403727,
+                "id": 1513444217,
                 "title": "use for mail",
                 "body": [
                     "\t- [x] postfix",
@@ -1917,7 +2094,7 @@
                 "completed": ""
             },
             {
-                "id": 1042362461,
+                "id": 3427872643,
                 "title": "#task generate new [[SSL certificate]] for [[Persona.hr]] ✅ 2025-01-06",
                 "body": [
                     "\t- [x] #task [[#setup Let's Encrypt on Persona]] ✅ 2025-01-06",
@@ -1934,7 +2111,7 @@
                 "completed": "2025-01-06"
             },
             {
-                "id": 1389446573,
+                "id": 1751989212,
                 "title": "copy over the files from VPS or local",
                 "body": [],
                 "time": "",
@@ -1945,7 +2122,7 @@
                 "completed": ""
             },
             {
-                "id": 1963811585,
+                "id": 2221096885,
                 "title": "turn off current nginx",
                 "body": [],
                 "time": "",
@@ -1956,7 +2133,7 @@
                 "completed": ""
             },
             {
-                "id": 3079555004,
+                "id": 3366276319,
                 "title": "start new server",
                 "body": [],
                 "time": "",
@@ -1967,7 +2144,7 @@
                 "completed": ""
             },
             {
-                "id": 954896539,
+                "id": 3077660770,
                 "title": "run a test 🧪",
                 "body": [],
                 "time": "",
@@ -1978,7 +2155,7 @@
                 "completed": ""
             },
             {
-                "id": 679237341,
+                "id": 1693246078,
                 "title": "map the certs folder",
                 "body": [],
                 "time": "",
@@ -1989,7 +2166,7 @@
                 "completed": ""
             },
             {
-                "id": 2608231302,
+                "id": 2353764464,
                 "title": "copy the files to the `etc/ssl/` directories",
                 "body": [],
                 "time": "",
@@ -2000,7 +2177,7 @@
                 "completed": ""
             },
             {
-                "id": 3134701401,
+                "id": 3601897352,
                 "title": "#task use new ssl certs for mail ✅ 2025-01-06",
                 "body": [
                     "\t- [x] test mail connection"
@@ -2015,7 +2192,7 @@
                 "completed": "2025-01-06"
             },
             {
-                "id": 476460767,
+                "id": 2251659705,
                 "title": "#task update file permissions",
                 "body": [],
                 "time": "",
@@ -2491,7 +2668,7 @@
         ],
         "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md": [
             {
-                "id": 3987990702,
+                "id": 1465526858,
                 "title": "#task see how to use [[canvas]] for building dashboards 🆔 awSIXI ⏫ ✅ 2025-01-25",
                 "body": [
                     "\t- [[How to use canvas]]"
@@ -2504,6 +2681,35 @@
                 "priority": 2,
                 "filePath": "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
                 "completed": "2025-01-25"
+            },
+            {
+                "id": 1895580235,
+                "title": "#task checkout **Linear Calendar** 🆔 IIEx0A ⏫ 📅 2025-01-28 ✅ 2025-01-29",
+                "body": [
+                    "\t- [[The Most Useful Calendar ViewThat No One Told You About]]",
+                    "\t- [[Calendar Video Notes]]"
+                ],
+                "time": "",
+                "due": "2025-01-28",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+                "completed": "2025-01-29"
+            },
+            {
+                "id": 718544780,
+                "title": "#task Explore Obsidian nested Tags 🔼 ⏳ 2025-02-05 📅 2025-02-08 🆔 s5Cvje",
+                "body": [],
+                "time": "",
+                "due": "2025-02-08",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+                "completed": ""
             }
         ],
         "Efforts/Active/Kuca/docs/zemljisni podaci.md": [
@@ -2625,7 +2831,7 @@
         ],
         "Calendar/daily/2025-01-22.md": [
             {
-                "id": 467893913,
+                "id": 414620420,
                 "title": "#task posalji stolarske radove [[Zeljko]] #tiny",
                 "body": [],
                 "time": "",
@@ -2943,8 +3149,19 @@
         ],
         "+/working under root - permissions.md": [
             {
-                "id": 3129447495,
+                "id": 2083297875,
                 "title": "remind me in 2 weeks (@2025-01-24)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "+/working under root - permissions.md",
+                "completed": ""
+            },
+            {
+                "id": 2585460094,
+                "title": "remind me in 2 weeks(@2025-02-03 19:37)",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -3133,50 +3350,6 @@
                 "completed": ""
             }
         ],
-        "Master Task List.md": [
-            {
-                "id": 3452910553,
-                "title": "#task fix [[Morgen]] ⏫ ⏳ 2025-01-27 📅 2025-01-27 🆔 Pe9BLE ✅ 2025-01-27",
-                "body": [],
-                "time": "",
-                "due": "2025-01-27",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 2,
-                "filePath": "Master Task List.md",
-                "completed": "2025-01-27"
-            },
-            {
-                "id": 2130827833,
-                "title": "#task skinuti glazbu Boba Dylana 🆔 R3dTac 🔼 ⏳ 2025-01-27 📅 2025-01-28 ✅ 2025-01-27",
-                "body": [],
-                "time": "",
-                "due": "2025-01-28",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 3,
-                "filePath": "Master Task List.md",
-                "completed": "2025-01-27"
-            },
-            {
-                "id": 2241816840,
-                "title": "#task Find a way to edit [[excel]] values **on a scale** 🆔 fgfCyU ⏫ ⏳ 2025-01-27 ✅ 2025-01-27",
-                "body": [
-                    "\t- [x] [[how to edit values on scale in sheets]]",
-                    "\t- [x] [[how to edit multiple cells in sheets]]"
-                ],
-                "time": "",
-                "due": "",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 2,
-                "filePath": "Master Task List.md",
-                "completed": "2025-01-27"
-            }
-        ],
         "Efforts/Active/Kuca/updejt troskovnika za HPB.md": [
             {
                 "id": 638938847,
@@ -3260,6 +3433,262 @@
                 "priority": 0,
                 "filePath": "Atlas/Personal/notes/libgen-downloader.md",
                 "completed": ""
+            }
+        ],
+        "Efforts/Active/Obsidian Tinkering/how to take notes on articles.md": [
+            {
+                "id": 3621067870,
+                "title": "#task see [[how to take notes on articles]] on videos and articles ⏫ 📅 2025-01-29",
+                "body": [
+                    "\t\t%% references itself  %%",
+                    "\t- [x] explore [[Dann Berg]]"
+                ],
+                "time": "",
+                "due": "2025-01-29",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Active/Obsidian Tinkering/how to take notes on articles.md",
+                "completed": ""
+            },
+            {
+                "id": 2550257746,
+                "title": "search for this on [[youtube]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Obsidian Tinkering/how to take notes on articles.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Active/Tasks Management in Obsidian/Morgen with Obsidian exploration.md": [
+            {
+                "id": 4135648497,
+                "title": "#task **explore** [[Morgen]] with [[Obsidian]] 🆔 YXQzL9 ⏳ 2025-01-29 📅 2025-01-29 ✅ 2025-01-29",
+                "body": [
+                    "\t- [x] take a look at [[Set up a POWERFUL Obsidian Task and Time Management System with Morgen]] 🔼 ⏳ 2025-01-27 🆔 rboaJy"
+                ],
+                "time": "",
+                "due": "2025-01-29",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Active/Tasks Management in Obsidian/Morgen with Obsidian exploration.md",
+                "completed": "2025-01-29"
+            },
+            {
+                "id": 853482837,
+                "title": "connected Mirna's acount to Cloud",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Tasks Management in Obsidian/Morgen with Obsidian exploration.md",
+                "completed": ""
+            },
+            {
+                "id": 1768567456,
+                "title": "shared Mirna's calendar with me",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Tasks Management in Obsidian/Morgen with Obsidian exploration.md",
+                "completed": ""
+            }
+        ],
+        "Clippings/arch pacman.md": [
+            {
+                "id": 2661046085,
+                "title": "remind me (@2025-02-03 19:37)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/arch pacman.md",
+                "completed": ""
+            }
+        ],
+        "Atlas/Personal/notes/obsidian/theme settings and the like.md": [
+            {
+                "id": 3762490361,
+                "title": "one",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Personal/notes/obsidian/theme settings and the like.md",
+                "completed": ""
+            },
+            {
+                "id": 1066807158,
+                "title": "remind me (@2025-02-03 20:07)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Personal/notes/obsidian/theme settings and the like.md",
+                "completed": ""
+            }
+        ],
+        "how to take notes.md": [
+            {
+                "id": 1206087780,
+                "title": "#task see [[how to take notes]] on videos and articles ⏫ 📅 2025-01-29",
+                "body": [
+                    "\t- [ ] explore [[Dann]]"
+                ],
+                "time": "",
+                "due": "2025-01-29",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "how to take notes.md",
+                "completed": "2025-02-03/23:15"
+            }
+        ],
+        "how to take notes on articles.md": [
+            {
+                "id": 3119176930,
+                "title": "#task see [[how to take notes on articles]] on videos and articles ⏫ 📅 2025-01-29",
+                "body": [
+                    "\t- [ ] explore [[Dann]]"
+                ],
+                "time": "",
+                "due": "2025-01-29",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "how to take notes on articles.md",
+                "completed": "2025-02-03/23:15"
+            }
+        ],
+        "Efforts/tasks/archive/task archive.md": [
+            {
+                "id": 2298418559,
+                "title": "#task fix [[Morgen]] ⏫ ⏳ 2025-01-27 📅 2025-01-27 🆔 Pe9BLE ✅ 2025-01-27",
+                "body": [],
+                "time": "",
+                "due": "2025-01-27",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/tasks/archive/task archive.md",
+                "completed": "2025-01-27"
+            },
+            {
+                "id": 2837759011,
+                "title": "#task skinuti glazbu Boba Dylana 🆔 R3dTac 🔼 ⏳ 2025-01-27 📅 2025-01-28 ✅ 2025-01-27",
+                "body": [],
+                "time": "",
+                "due": "2025-01-28",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/tasks/archive/task archive.md",
+                "completed": "2025-01-27"
+            },
+            {
+                "id": 3146517643,
+                "title": "#task Find a way to edit [[excel]] values **on a scale** 🆔 fgfCyU ⏫ ⏳ 2025-01-27 ✅ 2025-01-27",
+                "body": [
+                    "\t- [x] [[how to edit values on scale in sheets]]",
+                    "\t- [x] [[how to edit multiple cells in sheets]]"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/tasks/archive/task archive.md",
+                "completed": "2025-01-27"
+            }
+        ],
+        "Morgen General exploration.md": [
+            {
+                "id": 3418893697,
+                "title": "📹 [[Morgen for beginners Organizing Tasks and Events in one place]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Morgen General exploration.md",
+                "completed": ""
+            }
+        ],
+        "Calendar/daily/2025-02-05.md": [
+            {
+                "id": 2627667803,
+                "title": "Build the daily template from scratch",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025-02-05.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Active/Obsidian Tinkering/New Daily Template.md": [
+            {
+                "id": 2427807245,
+                "title": "#task build daily template 🆔 gQezXD 🔼 ⏳ 2025-02-05 ✅ 2025-02-05",
+                "body": [
+                    "\t- [x] #task vidjeti **daily template** od [[Dann Berg]] #obsidian 🔼 |🔼 📅 2025-02-05 #obsidian 🆔 VmrQHi ✅ 2025-02-05"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Active/Obsidian Tinkering/New Daily Template.md",
+                "completed": "2025-02-05"
+            }
+        ],
+        "Efforts/Active/Tasks Management in Obsidian/Morgen team work.md": [
+            {
+                "id": 2482336841,
+                "title": "#task see how to add multiple google Calendars 🔼 ⏳ 2025-01-30 📅 2025-01-30 🆔 d3exvv ✅ 2025-02-03",
+                "body": [],
+                "time": "",
+                "due": "2025-01-30",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Active/Tasks Management in Obsidian/Morgen team work.md",
+                "completed": "2025-02-03"
+            }
+        ],
+        "Master Task List.md": [
+            {
+                "id": 4041244249,
+                "title": "#task Naruci hranu za macke ⏫ ⏳ 2025-02-05 📅 2025-02-06 🆔 9IWUeA ✅ 2025-02-06",
+                "body": [],
+                "time": "",
+                "due": "2025-02-06",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Master Task List.md",
+                "completed": "2025-02-06"
             }
         ]
     }

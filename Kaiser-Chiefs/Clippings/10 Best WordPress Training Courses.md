@@ -5,7 +5,7 @@ author:
 published: 2024-06-02
 created: 2025-01-18
 related:
-  - "[[Wordpress]]"
+  - "[[Efforts/Active/Wordpress/Wordpress]]"
   - "[[Wordpress Plugins]]"
 tags:
   - wordpress

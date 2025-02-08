@@ -13,4 +13,4 @@ related:
 - [x] use a [[DNS checker]] to check that the changes propagated
 - [/] set up a [[web server]]
 	- [x] start locally
-	- [x] move on to the [[my VPS]] 
+	- [x] move on to the [[my VPS - techdot.biz]] 

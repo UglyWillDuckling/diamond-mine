@@ -66,14 +66,6 @@
                 "to": 0
               }
             }
-          },
-          {
-            "colType": "completed",
-            "active": true,
-            "collapsed": false,
-            "limit": 20,
-            "name": "Completed",
-            "index": 6
           }
         ],
         "filters": [

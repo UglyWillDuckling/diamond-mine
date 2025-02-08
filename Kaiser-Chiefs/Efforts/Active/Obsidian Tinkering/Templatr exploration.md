@@ -7,6 +7,3 @@ related:
   - "[[Templatr]]"
 ---
 #ticket
-
-
-

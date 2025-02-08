@@ -12,7 +12,7 @@ tags:
   - article
   - how-to-article
 ---
-[[Wordpress]]
+[[Efforts/Active/Wordpress/Wordpress]]
 ### Introduction
 
 [WordPress](https://www.digitalocean.com/community/tutorials/__https://wordpress.org/__) is a free and open-source [Content Management System (CMS)](https://www.digitalocean.com/community/tutorials/__https://www.digitalocean.com/community/tutorials/digitalocean-community-glossary#content-management-system__) built on a [MySQL](https://www.digitalocean.com/community/tutorials/__https://www.mysql.com/__) database with [PHP](https://www.digitalocean.com/community/tutorials/__https://www.php.net/__) processing. Thanks to its extensible plugin architecture and templating system, most of its administration can be done through the web interface. This is a reason why WordPress is a popular choice when creating different types of websites, from blogs to product pages to eCommerce sites.

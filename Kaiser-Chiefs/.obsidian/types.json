@@ -15,6 +15,7 @@
     "rating": "number",
     "start date": "date",
     "reading note": "multitext",
-    "tag": "text"
+    "tag": "text",
+    "artifacts": "multitext"
   }
 }

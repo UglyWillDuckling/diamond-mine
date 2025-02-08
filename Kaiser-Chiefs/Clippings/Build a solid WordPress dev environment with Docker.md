@@ -11,7 +11,7 @@ tags:
 related:
   - "[[Setting Up Your Local Development Environment for WordPress|Setting Up Your Local Development Environment for WordPress]]"
 about:
-  - "[[Wordpress]]"
+  - "[[Efforts/Active/Wordpress/Wordpress]]"
 reading note: "[[note on solid wordpress dev with docker]]"
 ---
 ![](https://www.youtube.com/watch?v=kIqWxjDj4IU)  

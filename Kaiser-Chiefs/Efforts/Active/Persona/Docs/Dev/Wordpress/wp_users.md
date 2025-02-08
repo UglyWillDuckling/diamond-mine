@@ -1,5 +1,5 @@
 ---
 related:
-  - "[[Wordpress]]"
+  - "[[Efforts/Active/Wordpress/Wordpress]]"
 ---
 #wordpress #db-table

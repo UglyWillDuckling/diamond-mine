@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiPersonStanding",
-      "LiPrinter",
-      "LiNotebookText",
-      "📅",
-      "LiPlay"
+      "LiHammer",
+      "🖥",
+      "LiLibraryBig",
+      "LiMusic4",
+      "🤔"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -47,7 +47,6 @@
   "Efforts/Active/Obsidian Tinkering": "LiPlay",
   "Efforts/Active/Tasks Management in Obsidian": "LiCheckCheck",
   "Efforts/Active/Kuca": "🏠",
-  "Efforts/Active/Linear Calendar": "📅",
   "Atlas": "🗺",
   "Atlas/Knowledge/Media/movies/movi list - wip.md": "🎥",
   "Atlas/Personal/notes": "LiNotebookText",
@@ -57,5 +56,22 @@
   "Efforts/Active/Persona/archive/archive/persona ssl setup.md": "LiKeyRound",
   "Efforts/Active/Persona/Tickets": "LiTicket",
   "Efforts/Active/Wordpress": "LiPrinter",
-  "Efforts/Active/Persona": "LiPersonStanding"
+  "Efforts/Active/Persona": "LiPersonStanding",
+  "Efforts/Future": "LiFunctionSquare",
+  "Efforts/Ongoing": "👟",
+  "Efforts/Simmering": "🍲",
+  "Efforts/Active": {
+    "iconName": "LiStar",
+    "iconColor": "#fee648"
+  },
+  "Efforts/Complete": {
+    "iconName": "LiArchive",
+    "iconColor": "#4b8b64"
+  },
+  "Efforts/Simmering/Linear Calendar": "📅",
+  "Efforts/Simmering/Ipod Music": "LiMusic4",
+  "Efforts/Undefined": "🤔",
+  "Efforts/Simmering/See how to manage your library.md": "LiLibraryBig",
+  "Efforts/Ongoing/PC Maintenance": "🖥",
+  "Atlas/Tools": "LiHammer"
 }

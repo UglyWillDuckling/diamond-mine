@@ -87,6 +87,12 @@
         "Alt"
       ],
       "key": "S"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
     }
   ],
   "graph:open": [],
@@ -154,5 +160,22 @@
       ],
       "key": "A"
     }
-  ]
+  ],
+  "obsidian-footnotes:insert-autonumbered-footnote": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "juggl:open-vis": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "editor:save-file": []
 }

@@ -1,9 +1,9 @@
 ---
 related:
-  - "[[Wordpress]]"
+  - "[[Efforts/Active/Wordpress/Wordpress]]"
   - "[[run sql command in docker examples]]"
   - "[[database]]"
-rela:
+rela: 
 ---
 #wordpress #db-table 
 

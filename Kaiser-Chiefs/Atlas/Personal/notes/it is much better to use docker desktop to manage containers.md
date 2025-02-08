@@ -2,4 +2,4 @@
 
 You can see **everything**
 
-- [ ] remind me 1 week (@2025-02-01)
+- [x] remind me 1 week (@2025-02-04)

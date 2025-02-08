@@ -8,7 +8,7 @@ status: In Progress
 **based on **: [[Setting Up Your Local Development Environment for WordPress]]**
 ### quick facts
 - uses [[docker-compose]]
-- setup for [[Wordpress]]
+- setup for [[Efforts/Active/Wordpress/Wordpress]]
 - ..
 ---
 

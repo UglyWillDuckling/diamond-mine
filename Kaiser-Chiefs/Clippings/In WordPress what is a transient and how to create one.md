@@ -8,7 +8,7 @@ tags:
   - article
   - dev/article
 related:
-  - "[[Wordpress]]"
+  - "[[Efforts/Active/Wordpress/Wordpress]]"
 ---
 **about**:: [[Wordpress Transient]]
 

@@ -3,7 +3,7 @@ related:
   - "[[persona mail setup]]"
   - "[[Persona]]"
 ---
-- [x] #task setup person.hr [[SSL certificate]] ✅ 2025-01-06
+- [x] #task setup person.hr [[SSL certificate]] ✅ 2025-02-09
 	- [x] #task check cert from backup ✅ 2025-01-06
 ### use old cert
 > [[Mail Config]]

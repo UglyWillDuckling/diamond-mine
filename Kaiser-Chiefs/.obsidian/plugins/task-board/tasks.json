@@ -949,46 +949,32 @@
                 "completed": ""
             }
         ],
-        "Efforts/Active/Persona/archive/archive/persona ssl setup.md": [
+        "Efforts/Active/Persona/certificate renewal.md": [
             {
-                "id": 3847500205,
-                "title": "#task renew the certificate 🆔 Htr8QL ⏫ ⏳ 2025-02-08 📅 2025-02-09",
+                "id": 3278255940,
+                "title": "think 🤔 what would happen if we update the cert manually",
                 "body": [
-                    "\t- [[certificate renewal]]"
+                    "\t- [ ] what whould happen to the mail :LiMail:?",
+                    "\t- [ ] would it also update that cert :LiKeyRound:? "
                 ],
                 "time": "",
-                "due": "2025-02-09",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 2,
-                "filePath": "Efforts/Active/Persona/archive/archive/persona ssl setup.md",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Persona/certificate renewal.md",
                 "completed": ""
             }
         ],
-        "Efforts/Active/Persona/certificate renewal.md": [
+        "Calendar/daily/2025-02-09.md": [
             {
-                "id": 3611295725,
-                "title": "#task [[certificate renewal]] 🆔 Htr8QL ⏫ ⏳ 2025-02-08 📅 2025-02-09",
-                "body": [],
-                "time": "",
-                "due": "2025-02-09",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 2,
-                "filePath": "Efforts/Active/Persona/certificate renewal.md",
-                "completed": ""
-            },
-            {
-                "id": 1865095276,
+                "id": 2420089646,
                 "title": "",
                 "body": [],
                 "time": "",
                 "due": "",
                 "tags": [],
                 "priority": 0,
-                "filePath": "Efforts/Active/Persona/certificate renewal.md",
+                "filePath": "Calendar/daily/2025-02-09.md",
                 "completed": ""
             }
         ]
@@ -2084,8 +2070,8 @@
         ],
         "Efforts/Active/Persona/archive/archive/persona ssl setup.md": [
             {
-                "id": 3898788586,
-                "title": "#task setup person.hr [[SSL certificate]] ✅ 2025-01-06",
+                "id": 660975289,
+                "title": "#task setup person.hr [[SSL certificate]] ✅ 2025-02-09",
                 "body": [
                     "\t- [x] #task check cert from backup ✅ 2025-01-06"
                 ],
@@ -2096,10 +2082,10 @@
                 ],
                 "priority": 0,
                 "filePath": "Efforts/Active/Persona/archive/archive/persona ssl setup.md",
-                "completed": "2025-01-06"
+                "completed": "2025-02-09"
             },
             {
-                "id": 1267449581,
+                "id": 2288411456,
                 "title": "find the cert",
                 "body": [],
                 "time": "",
@@ -2110,7 +2096,7 @@
                 "completed": ""
             },
             {
-                "id": 355644343,
+                "id": 373551563,
                 "title": "copy to server",
                 "body": [
                     "\t- [x] move to `/etc/ssl/*` dirs"
@@ -2123,7 +2109,7 @@
                 "completed": ""
             },
             {
-                "id": 2179437460,
+                "id": 4176743446,
                 "title": "use for mail",
                 "body": [
                     "\t- [x] postfix",
@@ -2137,7 +2123,7 @@
                 "completed": ""
             },
             {
-                "id": 1905793644,
+                "id": 3597439412,
                 "title": "#task generate new [[SSL certificate]] for [[Persona.hr]] ✅ 2025-01-06",
                 "body": [
                     "\t- [x] #task [[#setup Let's Encrypt on Persona]] ✅ 2025-01-06",
@@ -2154,7 +2140,7 @@
                 "completed": "2025-01-06"
             },
             {
-                "id": 2627516114,
+                "id": 1059679479,
                 "title": "copy over the files from VPS or local",
                 "body": [],
                 "time": "",
@@ -2165,7 +2151,7 @@
                 "completed": ""
             },
             {
-                "id": 2161498135,
+                "id": 1567562625,
                 "title": "turn off current nginx",
                 "body": [],
                 "time": "",
@@ -2176,7 +2162,7 @@
                 "completed": ""
             },
             {
-                "id": 2330847943,
+                "id": 2736482565,
                 "title": "start new server",
                 "body": [],
                 "time": "",
@@ -2187,7 +2173,7 @@
                 "completed": ""
             },
             {
-                "id": 3688149219,
+                "id": 2766253681,
                 "title": "run a test 🧪",
                 "body": [],
                 "time": "",
@@ -2198,7 +2184,7 @@
                 "completed": ""
             },
             {
-                "id": 2603013358,
+                "id": 120881492,
                 "title": "map the certs folder",
                 "body": [],
                 "time": "",
@@ -2209,7 +2195,7 @@
                 "completed": ""
             },
             {
-                "id": 758156234,
+                "id": 836832995,
                 "title": "copy the files to the `etc/ssl/` directories",
                 "body": [],
                 "time": "",
@@ -2220,7 +2206,7 @@
                 "completed": ""
             },
             {
-                "id": 229869171,
+                "id": 1526470079,
                 "title": "#task use new ssl certs for mail ✅ 2025-01-06",
                 "body": [
                     "\t- [x] test mail connection"
@@ -2235,7 +2221,7 @@
                 "completed": "2025-01-06"
             },
             {
-                "id": 2769383090,
+                "id": 2187289409,
                 "title": "#task update file permissions",
                 "body": [],
                 "time": "",

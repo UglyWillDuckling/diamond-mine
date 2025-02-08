@@ -30,6 +30,7 @@
     "works": "multitext",
     "parent": "multitext",
     "vrijeme": "datetime",
-    "author": "multitext"
+    "author": "multitext",
+    "city": "multitext"
   }
 }

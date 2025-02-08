@@ -1,4 +1,4 @@
-#Bankar
+#Bankar #person #personal-life 
 
 Email martina.cosic@hpb.hr 
 Mob 091 4800 053

@@ -5,7 +5,7 @@ related:
 tags:
   - psychoanalysis
 ---
-#psychilogy
+#psychilogy #concept
 
 Subjectivity in [[psychoanalysis]]
 

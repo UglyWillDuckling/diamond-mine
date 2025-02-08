@@ -1,3 +1,8 @@
+---
+~
+---
+#cosmic-event
+
 🌌 Viewers around the world will soon be able to witness the Grand Planetary Alignment of 2025! Here are all the details 👇🏻
 
 Until now, six of the seven planets in the sky could be seen simultaneously. However, starting February 20, Mercury will join the spectacle in the west after sunset.

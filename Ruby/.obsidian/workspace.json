@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-01-16.md",
+                "file": "x/Narudžba Instax mini evo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-16"
+              "title": "Narudžba Instax mini evo"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 537.5026054382324
+    "width": 334.5026054382324
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -205,36 +205,37 @@
       "obsidian-media-db-plugin:Add new Media DB entry": true
     }
   },
-  "active": "325e13a50c6de6f2",
+  "active": "377a32c0e1ff69da",
   "lastOpenFiles": [
-    "2025-02-08.md",
-    "booking-rezervacija rogaska.md",
-    "Clippings/Ništa se neće vratiti - Damir Urban u Domu kulture, Nova Gradiška  Nova Gradiška  Entrio.md",
-    "Clippings/Potvrda rezervacije ___ Rogaska.md",
-    "Kosovo.md",
-    "kuca-faze-udio.webp",
-    "booking rogaska.md",
-    "Clippings/Tehnička olovka Parker Jotter - Biroteka.md",
-    "Penworld order confirmation 2200070162.md",
+    "Life/People/Martina Cosic.md",
+    "x/narudzba 000009832.md",
+    "Life/Kviz/Kviz 2025-01-16 Pipa bar.md",
+    "Ohmov zakon.md",
+    "Knowledge/People/Lenny Bruce.md",
+    "Knowledge/Books/Brave New Words - Salman Khan.md",
+    "tasks/archive/Kupiti jastuk.md",
+    "Zaba poslovnica brod.md",
+    "Dobroje ici spavatiu sorcu.md",
+    "Knowledge/concepts/Subjectivity (psychoanalysis).md",
+    "Knowledge/Media/Rim tim tagi dim.md",
+    "Knowledge/Places/Pipa bar.md",
+    "Pitanje za HPB.md",
+    "Knowledge/planetary alignment.md",
+    "Knowledge/Places/Venecija.md",
+    "Life/People/Graditelj.md",
+    "Life/People/Kristina.md",
+    "Knowledge/Places/Kuća tambure.md",
+    "Knowledge/Places/Kosovo.md",
+    "Knowledge/Media/Gojira(bend).md",
+    "Knowledge/People/George Carlin.md",
+    "Knowledge/Places/Bahrein.md",
+    "Alien Osmi putnik.md",
+    "Clippings/Alien (film).md",
+    "Knowledge/Places",
+    "Life/People/Brigita.md",
+    "2025-01-16.md",
+    "x/kuca-faze-udio.webp",
     "Penworld order confirmation 2200070162.pdf",
-    "Clippings/Penworld.md",
-    "Knowledge/repository/Darvel.md",
-    "Clippings/Order history - Biroteka 2025-01-14.md",
-    "Narudžba Instax mini evo.md",
-    "2025-02-07.md",
-    "Clippings/Trump’s plan to colonise Gaza is rooted in an old white fantasy.md",
-    "Clippings/Towards a Trump Tower in Gaza.md",
-    "Brave New Words - Salman Khan.md",
-    "Clippings/oo.md",
-    "2025-02-06.md",
-    "2025-02-05.md",
-    "Clippings/Dylan Riley, Fire and Spark — Sidecar.md",
-    "Clippings/Matthew Karp, Trump Redux, NLR 150, November–December 2024.md",
-    "Clippings/Haim Haneghi, Moshe Machover & Akiva Orr, The Class Nature of Israeli Society, NLR I65, January–February 1971.md",
-    "Clippings/Ilan Pappé, The Collapse of Zionism — Sidecar.md",
-    "Clippings/Obsidian The Good Parts 1.md",
-    "Clippings/Obsidian The Good Parts.md",
-    "Clippings/Flag of the Republic of Venice - Wikipedia.md",
     "Efforts/Active/Kuća",
     "Life/Sugar logs",
     "Media DB/books",
@@ -253,7 +254,6 @@
     "Knowledge/Media/books",
     "tasks/archive/action.canvas",
     "Life/People/Mirna 💕💕💕",
-    "Knowledge/Media/boardgames",
     "action.canvas",
     "tasks/archive/srediti troskovnik/actions.canvas",
     "Untitled 1.canvas",

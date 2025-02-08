@@ -2,4 +2,4 @@
 related:
   - "[[Lenny Bruce]]"
 ---
-#comedian 
+#comedian  #person #historic-figure 

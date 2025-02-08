@@ -1,6 +1,6 @@
 #issue #bug #kde #desktop
 
-- [ ] #task Fix [[desktop Compositor issue on KDE 🐞]] ⏫ 📅 2025-02-07 🆔 WAcvF7
+- [x] #task Fix [[desktop Compositor issue on KDE 🐞]] ⏫ 📅 2025-02-07 🆔 WAcvF7 ✅ 2025-02-08
 
 related:: [[KDE]] [[KDE Plasma]]
 created_during:: [[how to check desktop environment on unix-like systems]]

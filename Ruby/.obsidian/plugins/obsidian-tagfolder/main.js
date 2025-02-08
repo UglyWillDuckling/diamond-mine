@@ -81,7 +81,8 @@ var import_obsidian8 = require("obsidian"), enumShowListIn = {
   },
   linkShowOnlyFDR: true,
   linkCombineOtherTree: true,
-  showListIn: ""
+  showListIn: "",
+  displayFolderAsTag: false
 }, VIEW_TYPE_SCROLL = "tagfolder-view-scroll", EPOCH_MINUTE = 60, EPOCH_HOUR = 60 * EPOCH_MINUTE, EPOCH_DAY = 24 * EPOCH_HOUR, FRESHNESS_1 = "FRESHNESS_01", FRESHNESS_2 = "FRESHNESS_02", FRESHNESS_3 = "FRESHNESS_03", FRESHNESS_4 = "FRESHNESS_04", FRESHNESS_5 = "FRESHNESS_05", tagDispDict = {
   FRESHNESS_01: "🕐",
   FRESHNESS_02: "📖",
@@ -89,7 +90,8 @@ var import_obsidian8 = require("obsidian"), enumShowListIn = {
   FRESHNESS_04: "📚",
   FRESHNESS_05: "🗄",
   _VIRTUAL_TAG_FRESHNESS: "⌛",
-  _VIRTUAL_TAG_CANVAS: "📋 Canvas"
+  _VIRTUAL_TAG_CANVAS: "📋 Canvas",
+  _VIRTUAL_TAG_FOLDER: "📁"
 }, VIEW_TYPE_TAGFOLDER = "tagfolder-view", VIEW_TYPE_TAGFOLDER_LINK = "tagfolder-link-view", VIEW_TYPE_TAGFOLDER_LIST = "tagfolder-view-list", OrderKeyTag = {
   NAME: "Tag name",
   ITEMS: "Count of items"
@@ -3448,7 +3450,7 @@ function V2TreeItemComponent($$anchor, $$props) {
   }
   const _setting = derived((() => store_get(tagFolderSetting, "$tagFolderSetting", $$stores))), _currentActiveFilePath = derived((() => store_get(currentFile, "$currentFile", $$stores)));
   let isActive = derived((() => $$props.item.path == get(_currentActiveFilePath))), isItemVisible = state(false);
-  const tagsLeft = derived((() => get(isItemVisible) ? uniqueCaseIntensive(getExtraTags($$props.item.tags, [ ...$$props.trail ], get(_setting).reduceNestedParent).map((e => trimSlash(e, false, true))).filter((e => "" != e))) : [])), extraTagsHtml = derived((() => `${get(tagsLeft).map((e => `<span class="tf-tag">${escapeStringToHTML(renderSpecialTag(e))}</span>`)).join("")}`)), draggable = derived((() => !get(_setting).disableDragging)), app = derived((() => null === $pluginInstance() || void 0 === $pluginInstance() ? void 0 : $pluginInstance().app)), dm = derived((() => null === get(app) || void 0 === get(app) ? void 0 : get(app).dragManager));
+  const tagsLeft = derived((() => get(isItemVisible) ? uniqueCaseIntensive(getExtraTags($$props.item.tags, [ ...$$props.trail ], get(_setting).reduceNestedParent).map((e => trimSlash(e, false, true))).map((e => e.split("/").map((ee => renderSpecialTag(ee))).join("/"))).filter((e => "" != e))) : [])), extraTagsHtml = derived((() => `${get(tagsLeft).map((e => `<span class="tf-tag">${escapeStringToHTML(e)}</span>`)).join("")}`)), draggable = derived((() => !get(_setting).disableDragging)), app = derived((() => null === $pluginInstance() || void 0 === $pluginInstance() ? void 0 : $pluginInstance().app)), dm = derived((() => null === get(app) || void 0 === get(app) ? void 0 : get(app).dragManager));
   function dragStartFile(args) {
     if (!get(draggable)) return;
     const file = get(app).vault.getAbstractFileByPath($$props.item.path), param = get(dm).dragFile(args, file);
@@ -4905,6 +4907,11 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
         const disp = secondsToFreshness(today - fileCache.file.stat.mtime);
         allTags.push(`_VIRTUAL_TAG_FRESHNESS/${disp}`);
       }
+      if (this.settings.displayFolderAsTag) {
+        const path = [ "_VIRTUAL_TAG_FOLDER", ...fileCache.file.path.split("/") ];
+        path.pop();
+        if (path.length > 0) allTags.push(`${path.join("/")}`);
+      }
       if (allTags.some((tag => ignoreDocTags.contains(tag.toLowerCase())))) continue;
       if (searchItems.map((searchItem => {
         let bx = false;
@@ -5360,6 +5367,12 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
         await this.plugin.saveSettings();
       }));
     }));
+    new import_obsidian8.Setting(containerEl).setName("Display folder as tag").addToggle((toggle => {
+      toggle.setValue(this.plugin.settings.displayFolderAsTag).onChange((async value => {
+        this.plugin.settings.displayFolderAsTag = value;
+        await this.plugin.saveSettings();
+      }));
+    }));
     new import_obsidian8.Setting(containerEl).setName("Store tags in frontmatter for new notes").setDesc("Otherwise, tags are stored with #hashtags at the top of the note").addToggle((toggle => {
       toggle.setValue(this.plugin.settings.useFrontmatterTagsForNewNotes).onChange((async value => {
         this.plugin.settings.useFrontmatterTagsForNewNotes = value;
@@ -5498,9 +5511,9 @@ var TagFolderPlugin5 = class extends import_obsidian8.Plugin {
     })))).addButton((button => button.setButtonText("Copy disguised tags").setDisabled(false).onClick((async () => {
       const x = new Map;
       let i = 0;
-      const items = (await this.plugin.getItemsList("tag")).map((e => e.tags.filter((e2 => "_untagged" != e2)).map((e2 => x.has(e2) ? x.get(e2) : (x.set(e2, i++), 
-      i))))).filter((e => e.length));
-      await navigator.clipboard.writeText(items.map((e => e.map((e2 => `#tag${e2}`)).join(", "))).join("\n"));
+      const items = (await this.plugin.getItemsList("tag")).map((e => e.tags.filter((e2 => "_untagged" != e2)).map((e2 => e2.split("/").map((e3 => e3.startsWith("_VIRTUAL") ? e3 : x.has(e3) ? x.get(e3) : (x.set(e3, "tag" + i++), 
+      i))).join("/"))).filter((e2 => e2.length))));
+      await navigator.clipboard.writeText(items.map((e => e.map((e2 => `#${e2}`)).join(", "))).join("\n"));
       new import_obsidian8.Notice("Copied to clipboard");
     }))));
   }

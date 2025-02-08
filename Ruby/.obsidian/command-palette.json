@@ -1,11 +1,12 @@
 {
   "pinned": [
     "backlink:toggle-backlinks-in-document",
-    "obsidian-media-db-plugin:open-media-db-search-modal-with-book",
     "obsidian-book-search-plugin:open-book-search-modal",
     "quickadd:runQuickAdd",
     "markdown:add-metadata-property",
     "file-explorer:move-file",
-    "editor:insert-callout"
+    "editor:insert-callout",
+    "workspaces:load",
+    "obsidian-tasks-plugin:edit-task"
   ]
 }

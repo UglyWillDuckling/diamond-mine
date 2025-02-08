@@ -1,7 +1,7 @@
 ---
 status: To do
 ---
-- [ ] #task store the **ssh** configurations for remotes 🔼 📅 2025-02-08 🆔 i3ibCT
+- [ ] #task store the **ssh** configurations for remotes 🔼 📅 2025-02-10 🆔 i3ibCT
 	- [ ] create configurations: [[Persona.hr]], [[my VPS - techdot.biz]]
 		- [ ] 
 	- [ ] store on PC

@@ -5,7 +5,6 @@
   "showLineNumber": false,
   "vimMode": true,
   "promptDelete": false,
-  "showRibbon": true,
   "showInlineTitle": true,
   "useTab": false,
   "readableLineLength": true,
@@ -17,6 +16,7 @@
     "editor:toggle-checklist-status",
     "editor:toggle-bold",
     "editor:toggle-highlight",
+    "editor:toggle-italics",
     "editor:toggle-bullet-list",
     "editor:indent-list",
     "editor:unindent-list",
@@ -33,5 +33,6 @@
     "note-composer:extract-heading",
     "editor:toggle-numbered-list",
     "editor:configure-toolbar"
-  ]
+  ],
+  "mobilePullAction": "command-palette:open"
 }

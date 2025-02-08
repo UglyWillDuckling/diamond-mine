@@ -4,8 +4,8 @@ source: https://en.m.wikipedia.org/wiki/Roy_Schafer
 published: 2007-05-21
 created: 2025-01-07
 tags:
-  - clippings
   - active
+  - person
 ---
 **Roy Schafer** (December 14, 1922 - August 5, 2018) was an American psychologist and psychoanalyst, who emphasised a psychoanalytic concept of [narrative](https://en.m.wikipedia.org/wiki/Narrative "Narrative"). For Schafer, an important purpose of the analytic process is that the [[analysand]] regains agency of **their own story and of their own life.** [[Psychoanalyst]] and analysand each have a role in telling and retelling the analysand's life story: the analyst helps the analysand by elevating [[Subjectivity (psychoanalysis)]] as **awareness of multiple interpretations.
 

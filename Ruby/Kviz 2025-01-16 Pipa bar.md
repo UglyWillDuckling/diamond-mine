@@ -1,19 +1,28 @@
+---
+start date: 2025-01-16
+tags:
+  - kviz
+  - event
+---
 [[2025-01-16]]
-Prvi put u [[Pipa bar]]
+**Prvi** put u [[Pipa bar]]u
 
 ---
 
-**Dora** [[Zlatarevo zlato]] 
+**Dora** [[Zlatarovo zlato]]
 [[August Šenoa]]
+
 [[Rim tim tagi dim]]
+[[DORA natjecanje]]
 
 [[Ohmov zakon]]
 
 [[Turska]] [[olimpijske igre]] pucanje
 
 [[Sveti Marko]] [[Venecija]]
+[[Flag of the Republic of Venice - Wikipedia]]
 
-[[Bahrein]] zastava
+[[Bahrein]] zastava [[Manama]] grad 
 
 [[Umag]] teniski turnir
 [[Baby Lasagna]]

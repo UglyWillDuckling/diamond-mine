@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "91e4cecfda4ace0c",
+        "id": "a1734cbe18fe0949",
         "type": "tabs",
         "children": [
           {
-            "id": "3cf1c566683da2a4",
+            "id": "325e13a50c6de6f2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-01-16.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-01-16"
+              "title": "New tab"
             }
           }
         ]
@@ -57,7 +53,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -78,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.50260543823242
+    "width": 254.50260543823242
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -144,43 +141,6 @@
             }
           },
           {
-            "id": "9f065b00e9d72063",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "74a790eaf4032496",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "22da1786b011b8b6",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
-            }
-          },
-          {
             "id": "da20e8b30ed5bfb3",
             "type": "leaf",
             "state": {
@@ -191,11 +151,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 503.5,
+    "width": 694.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -215,34 +175,38 @@
       "obsidian-media-db-plugin:Add new Media DB entry": true
     }
   },
-  "active": "3cf1c566683da2a4",
+  "active": "325e13a50c6de6f2",
   "lastOpenFiles": [
-    "2025-01-17.md",
-    "2025-01-16.md",
-    "narudzba 000009832.md",
-    "Kviz 2025-01-16 Pipa bar.md",
-    "notes/You can easily switch to a different user using su.md",
-    "Bahrein.md",
-    "Clippings/H. R. Giger.md",
-    "Clippings/Alien (film).md",
-    "Osmi putnik(bend).md",
-    "Alien Osmi putnik.md",
-    "Clippings/Comedian (artwork).md",
-    "Gojira(bend).md",
-    "Rim tim tagi dim.md",
-    "Venecija.md",
-    "Zlatarevo zlato.md",
-    "August Šenoa.md",
-    "Ohmov zakon.md",
-    "Pipa bar.md",
-    "days/2025-01-15.md",
-    "days/2025-01-14.md",
-    "days/2025-01-13.md",
-    "Subjectivity (psychoanalysis).md",
-    "Clippings/Monarhije u Europi – Wikipedija 1.md",
-    "Clippings/Monarhije u Europi – Wikipedija.md",
-    "Victor Wembanyama.md",
-    "Baby Lasagna.md",
+    "2025-02-08.md",
+    "booking-rezervacija rogaska.md",
+    "Clippings/Ništa se neće vratiti - Damir Urban u Domu kulture, Nova Gradiška  Nova Gradiška  Entrio.md",
+    "Clippings/Potvrda rezervacije ___ Rogaska.md",
+    "Kosovo.md",
+    "kuca-faze-udio.webp",
+    "booking rogaska.md",
+    "Clippings/Tehnička olovka Parker Jotter - Biroteka.md",
+    "Penworld order confirmation 2200070162.md",
+    "Penworld order confirmation 2200070162.pdf",
+    "Clippings/Penworld.md",
+    "Knowledge/repository/Darvel.md",
+    "Clippings/Order history - Biroteka 2025-01-14.md",
+    "Narudžba Instax mini evo.md",
+    "2025-02-07.md",
+    "Clippings/Trump’s plan to colonise Gaza is rooted in an old white fantasy.md",
+    "Clippings/Towards a Trump Tower in Gaza.md",
+    "Brave New Words - Salman Khan.md",
+    "Clippings/oo.md",
+    "2025-02-06.md",
+    "2025-02-05.md",
+    "Clippings/Dylan Riley, Fire and Spark — Sidecar.md",
+    "Clippings/Matthew Karp, Trump Redux, NLR 150, November–December 2024.md",
+    "Clippings/Haim Haneghi, Moshe Machover & Akiva Orr, The Class Nature of Israeli Society, NLR I65, January–February 1971.md",
+    "Clippings/Ilan Pappé, The Collapse of Zionism — Sidecar.md",
+    "Clippings/Obsidian The Good Parts 1.md",
+    "Clippings/Obsidian The Good Parts.md",
+    "Clippings/Flag of the Republic of Venice - Wikipedia.md",
+    "Efforts/Active/Kuća",
+    "Life/Sugar logs",
     "Media DB/books",
     "Media DB",
     "days/2025",
@@ -257,13 +221,9 @@
     "x/SmartSelect_20241231-115307_Samsung Notes.jpg",
     "x/Pasted image 20241231001557.jpg",
     "Knowledge/Media/books",
-    "x/Pasted image 20241230132418.jpg",
     "tasks/archive/action.canvas",
     "Life/People/Mirna 💕💕💕",
     "Knowledge/Media/boardgames",
-    "Life/Zdravlje",
-    "Knowledge/Media/wiki",
-    "Dev/OBSIDIAN",
     "action.canvas",
     "tasks/archive/srediti troskovnik/actions.canvas",
     "Untitled 1.canvas",

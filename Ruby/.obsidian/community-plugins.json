@@ -23,5 +23,6 @@
   "vim-yank-highlight",
   "obsidian-vimrc-support",
   "obsidian-reminder-plugin",
-  "obsidian-media-db-plugin"
+  "obsidian-media-db-plugin",
+  "obsidian-meta-bind-plugin"
 ]

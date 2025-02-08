@@ -6,21 +6,23 @@ kanban-plugin: board
 
 ## todo
 
-- [ ] [[organizirati faks za novu godinu]]
-- [ ] add a quicka add to add a new task to this board 🔲
-- [ ] Kupiti jastuk
-- [ ] Naručiti glukozni monitor
-- [ ] Vađenje krvi
 
 
 ## active
 
-- [ ] [[Obnova dopunsko osiguranja]]
-- [ ] Naručiti masažu
+- [x] Kupiti polaroid
+- [ ] Vađenje krvi
+- [x] Explore [[Bob Dylan]]
+- [x] Proučiti osnove obsidiana
+- [x] Play around with DND
+- [ ] Platiti Senki
 
 
 ## done
 
+- [x] [[organizirati faks za novu godinu]]
+- [x] Naručiti masažu
+- [x] [[Kupiti jastuk]]
 - [x] [[Naručiti punjenja za penkala]]
 
 
@@ -52,6 +54,9 @@ kanban-plugin: board
 - [x] [[fix obsidian on PC]]
 - [x] Pogledati monitor
 - [x] Poslati Senki račun
+- [x] add a quicka add to add a new task to this board 🔲
+- [x] Naručiti glukozni monitor
+- [x] [[Obnova dopunsko osiguranja]]
 
 %% kanban:settings
 ```

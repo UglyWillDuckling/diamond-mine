@@ -24,10 +24,12 @@
     "excalidraw-embeddable-theme": "text",
     "excalidraw-open-md": "checkbox",
     "status": "multitext",
-    "start date": "date",
+    "start date": "datetime",
     "related": "multitext",
     "director": "multitext",
     "works": "multitext",
-    "parent": "multitext"
+    "parent": "multitext",
+    "vrijeme": "datetime",
+    "author": "multitext"
   }
 }

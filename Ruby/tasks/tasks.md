@@ -2,6 +2,7 @@
 
 ```tasks
 not done
+short mode
 ```
 
 ## important 🔥

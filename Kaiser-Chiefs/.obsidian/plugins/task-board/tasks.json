@@ -666,20 +666,20 @@
         ],
         "Master Task List.md": [
             {
-                "id": 2211293872,
-                "title": "#task Fix [[desktop Compositor issue on KDE]] ⏫ 📅 2025-02-07",
+                "id": 1645886806,
+                "title": "#task investigate Obsidian CLI tools and automations 🔼 ⏳ 2025-02-09 📅 2025-02-14",
                 "body": [],
                 "time": "",
-                "due": "2025-02-07",
+                "due": "2025-02-14",
                 "tags": [
                     "#task"
                 ],
-                "priority": 2,
+                "priority": 3,
                 "filePath": "Master Task List.md",
                 "completed": ""
             },
             {
-                "id": 89285366,
+                "id": 2079928255,
                 "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
                 "body": [],
                 "time": "",
@@ -693,14 +693,14 @@
                 "completed": ""
             },
             {
-                "id": 729553000,
-                "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-07",
+                "id": 2155166557,
+                "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-09",
                 "body": [
                     "\t- check online",
                     "\t- create **real** tasks"
                 ],
                 "time": "",
-                "due": "2025-02-07",
+                "due": "2025-02-09",
                 "tags": [
                     "#task"
                 ],
@@ -946,6 +946,49 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Calendar/daily/2025-02-08.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Active/Persona/archive/archive/persona ssl setup.md": [
+            {
+                "id": 3847500205,
+                "title": "#task renew the certificate 🆔 Htr8QL ⏫ ⏳ 2025-02-08 📅 2025-02-09",
+                "body": [
+                    "\t- [[certificate renewal]]"
+                ],
+                "time": "",
+                "due": "2025-02-09",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Active/Persona/archive/archive/persona ssl setup.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Active/Persona/certificate renewal.md": [
+            {
+                "id": 3611295725,
+                "title": "#task [[certificate renewal]] 🆔 Htr8QL ⏫ ⏳ 2025-02-08 📅 2025-02-09",
+                "body": [],
+                "time": "",
+                "due": "2025-02-09",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Active/Persona/certificate renewal.md",
+                "completed": ""
+            },
+            {
+                "id": 1865095276,
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Persona/certificate renewal.md",
                 "completed": ""
             }
         ]
@@ -2041,7 +2084,7 @@
         ],
         "Efforts/Active/Persona/archive/archive/persona ssl setup.md": [
             {
-                "id": 641181443,
+                "id": 3898788586,
                 "title": "#task setup person.hr [[SSL certificate]] ✅ 2025-01-06",
                 "body": [
                     "\t- [x] #task check cert from backup ✅ 2025-01-06"
@@ -2056,7 +2099,7 @@
                 "completed": "2025-01-06"
             },
             {
-                "id": 1523535333,
+                "id": 1267449581,
                 "title": "find the cert",
                 "body": [],
                 "time": "",
@@ -2067,7 +2110,7 @@
                 "completed": ""
             },
             {
-                "id": 2913619465,
+                "id": 355644343,
                 "title": "copy to server",
                 "body": [
                     "\t- [x] move to `/etc/ssl/*` dirs"
@@ -2080,7 +2123,7 @@
                 "completed": ""
             },
             {
-                "id": 1513444217,
+                "id": 2179437460,
                 "title": "use for mail",
                 "body": [
                     "\t- [x] postfix",
@@ -2094,7 +2137,7 @@
                 "completed": ""
             },
             {
-                "id": 3427872643,
+                "id": 1905793644,
                 "title": "#task generate new [[SSL certificate]] for [[Persona.hr]] ✅ 2025-01-06",
                 "body": [
                     "\t- [x] #task [[#setup Let's Encrypt on Persona]] ✅ 2025-01-06",
@@ -2111,7 +2154,7 @@
                 "completed": "2025-01-06"
             },
             {
-                "id": 1751989212,
+                "id": 2627516114,
                 "title": "copy over the files from VPS or local",
                 "body": [],
                 "time": "",
@@ -2122,7 +2165,7 @@
                 "completed": ""
             },
             {
-                "id": 2221096885,
+                "id": 2161498135,
                 "title": "turn off current nginx",
                 "body": [],
                 "time": "",
@@ -2133,7 +2176,7 @@
                 "completed": ""
             },
             {
-                "id": 3366276319,
+                "id": 2330847943,
                 "title": "start new server",
                 "body": [],
                 "time": "",
@@ -2144,7 +2187,7 @@
                 "completed": ""
             },
             {
-                "id": 3077660770,
+                "id": 3688149219,
                 "title": "run a test 🧪",
                 "body": [],
                 "time": "",
@@ -2155,7 +2198,7 @@
                 "completed": ""
             },
             {
-                "id": 1693246078,
+                "id": 2603013358,
                 "title": "map the certs folder",
                 "body": [],
                 "time": "",
@@ -2166,7 +2209,7 @@
                 "completed": ""
             },
             {
-                "id": 2353764464,
+                "id": 758156234,
                 "title": "copy the files to the `etc/ssl/` directories",
                 "body": [],
                 "time": "",
@@ -2177,7 +2220,7 @@
                 "completed": ""
             },
             {
-                "id": 3601897352,
+                "id": 229869171,
                 "title": "#task use new ssl certs for mail ✅ 2025-01-06",
                 "body": [
                     "\t- [x] test mail connection"
@@ -2192,7 +2235,7 @@
                 "completed": "2025-01-06"
             },
             {
-                "id": 2251659705,
+                "id": 2769383090,
                 "title": "#task update file permissions",
                 "body": [],
                 "time": "",
@@ -3678,7 +3721,7 @@
         ],
         "Master Task List.md": [
             {
-                "id": 4041244249,
+                "id": 3202247106,
                 "title": "#task Naruci hranu za macke ⏫ ⏳ 2025-02-05 📅 2025-02-06 🆔 9IWUeA ✅ 2025-02-06",
                 "body": [],
                 "time": "",

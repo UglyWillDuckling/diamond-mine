@@ -11,10 +11,14 @@
             "id": "325e13a50c6de6f2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025-01-16.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-01-16"
             }
           }
         ]
@@ -75,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.50260543823242
+    "width": 537.5026054382324
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -149,6 +153,31 @@
               "icon": "clock",
               "title": "Reminders"
             }
+          },
+          {
+            "id": "39c7077f3864b28f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f582133930dc5a2e",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
           }
         ],
         "currentTab": 3
@@ -160,6 +189,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": false,

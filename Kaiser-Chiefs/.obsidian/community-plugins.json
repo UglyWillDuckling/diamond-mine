@@ -38,5 +38,6 @@
   "task-board",
   "obsidian-footnotes",
   "juggl",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-vimrc-support"
 ]

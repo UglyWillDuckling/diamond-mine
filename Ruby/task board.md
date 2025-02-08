@@ -10,12 +10,9 @@ kanban-plugin: board
 
 ## active
 
-- [x] Kupiti polaroid
 - [ ] Vađenje krvi
 - [x] Explore [[Bob Dylan]]
-- [x] Proučiti osnove obsidiana
 - [x] Play around with DND
-- [ ] Platiti Senki
 
 
 ## done
@@ -57,9 +54,12 @@ kanban-plugin: board
 - [x] add a quicka add to add a new task to this board 🔲
 - [x] Naručiti glukozni monitor
 - [x] [[Obnova dopunsko osiguranja]]
+- [x] Proučiti osnove obsidiana
+- [x] Kupiti polaroid
+- [x] Platiti Senki
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,true],"show-checkboxes":true}
+{"kanban-plugin":"board","list-collapse":[true,false,true],"show-checkboxes":true}
 ```
 %%

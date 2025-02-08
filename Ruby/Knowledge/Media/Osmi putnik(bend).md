@@ -5,6 +5,7 @@ tags:
   - bend
   - exyu
   - hrvatski
+  - bend/exyu
+  - 90s
 ---
-[[Alien Osmi putnik]]
 [[Alien (film)]]

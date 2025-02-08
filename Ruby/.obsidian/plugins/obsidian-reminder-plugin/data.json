@@ -1,17 +1,17 @@
 {
   "scanned": true,
   "reminders": {
-    "Zen House Sarajevo.md": [
-      {
-        "title": "remind me",
-        "time": "2025-02-15",
-        "rowNumber": 7
-      }
-    ],
-    "booking-rezervacija rogaska.md": [
+    "tasks/booking-rezervacija rogaska.md": [
       {
         "title": "reminder",
         "time": "2025-03-01",
+        "rowNumber": 12
+      }
+    ],
+    "Knowledge/Places/Zen House Sarajevo.md": [
+      {
+        "title": "remind me",
+        "time": "2025-02-15",
         "rowNumber": 12
       }
     ]

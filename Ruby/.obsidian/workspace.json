@@ -4,21 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "a1734cbe18fe0949",
+        "id": "1c76df2cb4ba3c01",
         "type": "tabs",
         "children": [
           {
-            "id": "325e13a50c6de6f2",
+            "id": "9cde294815da7511",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "x/Narudžba Instax mini evo.md",
-                "mode": "source",
-                "source": false
+                "file": "task board.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    true,
+                    false,
+                    true
+                  ]
+                }
               },
-              "icon": "lucide-file",
-              "title": "Narudžba Instax mini evo"
+              "icon": "lucide-trello",
+              "title": "task board"
             }
           }
         ]
@@ -79,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5026054382324
+    "width": 359.5026054382324
   },
   "right": {
     "id": "23b4250bedc38d10",
@@ -205,37 +211,37 @@
       "obsidian-media-db-plugin:Add new Media DB entry": true
     }
   },
-  "active": "377a32c0e1ff69da",
+  "active": "9cde294815da7511",
   "lastOpenFiles": [
+    "Knowledge/Media/Zlatarevo zlato.md",
+    "Knowledge/People/Baby Lasagna.md",
+    "task board.md",
+    "pametni odabir.md",
+    "Knowledge/Media/Osmi putnik(bend).md",
+    "x/Penworld order confirmation 2200070162.pdf",
+    "Knowledge/Places/Zen House Sarajevo.md",
+    "Knowledge/Places/Zaba poslovnica brod.md",
+    "Knowledge/People/Victor Wembanyama.md",
+    "notes/Paulinin tata je strojarski inženjer.md",
+    "Knowledge/People/August Šenoa.md",
+    "Knowledge/Ohmov zakon.md",
+    "Knowledge/People/Baez.md",
+    "🏡.md",
+    "x/Narudza penkala.md",
+    "tasks/booking-rezervacija rogaska.md",
+    "tasks/archive/Naručiti punjenja za penkala.md",
+    "booking rogaska.md",
+    "x/Narudžba Instax mini evo.md",
     "Life/People/Martina Cosic.md",
     "x/narudzba 000009832.md",
     "Life/Kviz/Kviz 2025-01-16 Pipa bar.md",
-    "Ohmov zakon.md",
     "Knowledge/People/Lenny Bruce.md",
     "Knowledge/Books/Brave New Words - Salman Khan.md",
     "tasks/archive/Kupiti jastuk.md",
-    "Zaba poslovnica brod.md",
     "Dobroje ici spavatiu sorcu.md",
     "Knowledge/concepts/Subjectivity (psychoanalysis).md",
-    "Knowledge/Media/Rim tim tagi dim.md",
-    "Knowledge/Places/Pipa bar.md",
-    "Pitanje za HPB.md",
-    "Knowledge/planetary alignment.md",
-    "Knowledge/Places/Venecija.md",
-    "Life/People/Graditelj.md",
-    "Life/People/Kristina.md",
-    "Knowledge/Places/Kuća tambure.md",
-    "Knowledge/Places/Kosovo.md",
-    "Knowledge/Media/Gojira(bend).md",
-    "Knowledge/People/George Carlin.md",
-    "Knowledge/Places/Bahrein.md",
-    "Alien Osmi putnik.md",
-    "Clippings/Alien (film).md",
     "Knowledge/Places",
-    "Life/People/Brigita.md",
-    "2025-01-16.md",
     "x/kuca-faze-udio.webp",
-    "Penworld order confirmation 2200070162.pdf",
     "Efforts/Active/Kuća",
     "Life/Sugar logs",
     "Media DB/books",

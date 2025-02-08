@@ -31,6 +31,7 @@
     "parent": "multitext",
     "vrijeme": "datetime",
     "author": "multitext",
-    "city": "multitext"
+    "city": "multitext",
+    "country": "multitext"
   }
 }

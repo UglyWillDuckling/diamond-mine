@@ -207,7 +207,33 @@
         ],
         "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md": [
             {
-                "id": 211996880,
+                "id": 2835257610,
+                "title": "#task See about Vim and Obsidian Integration 🔼 ⏳ 2025-02-09 📅 2025-02-14 🆔 aB8VUm",
+                "body": [],
+                "time": "",
+                "due": "2025-02-14",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+                "completed": ""
+            },
+            {
+                "id": 3620215317,
+                "title": "#task fix themes in [[alacritty]] 🔼 ⏳ 2025-02-09 📅 2025-02-09 🆔 RnbnaE",
+                "body": [],
+                "time": "",
+                "due": "2025-02-09",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+                "completed": ""
+            },
+            {
+                "id": 1839093730,
                 "title": "#task Explore [[quickadd]] #backburner 🔼 ➕ 2025-01-25 🆔 8D8EFq",
                 "body": [],
                 "time": "",
@@ -221,7 +247,7 @@
                 "completed": ""
             },
             {
-                "id": 2466896516,
+                "id": 2562304237,
                 "title": "#task look into **graphing data** 🔼 ➕ 2025-01-26 🆔 gXl19a",
                 "body": [
                     "\t- [[Creating Dynamic Graphs in Obsidian - Obsidian Rocks]]",
@@ -572,46 +598,6 @@
                 "completed": ""
             }
         ],
-        "+/web server trial setup.md": [
-            {
-                "id": 144395554,
-                "title": "[[#SSL certificate setup]]",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "+/web server trial setup.md",
-                "completed": ""
-            },
-            {
-                "id": 280877554,
-                "title": "#task [[write down how to setup local ssl certificate]] 🆔 MkV3XO 🔼 ⏳ 2025-02-08 📅 2025-02-08",
-                "body": [],
-                "time": "",
-                "due": "2025-02-08",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 3,
-                "filePath": "+/web server trial setup.md",
-                "completed": ""
-            },
-            {
-                "id": 3048157657,
-                "title": "#task implement a [[cronjob]] for the certificate <mark style=\"background: #FFF3A3A6;\">renewal</mark> 🆔 AgeYMR 🔼 ⏳ 2025-01-26",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [
-                    "#task",
-                    "#FFF3A3A6;\">renewal</mark>"
-                ],
-                "priority": 3,
-                "filePath": "+/web server trial setup.md",
-                "completed": ""
-            }
-        ],
         "+/How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager.md": [
             {
                 "id": 3690826948,
@@ -666,11 +652,39 @@
         ],
         "Master Task List.md": [
             {
-                "id": 1645886806,
-                "title": "#task investigate Obsidian CLI tools and automations 🔼 ⏳ 2025-02-09 📅 2025-02-14",
+                "id": 382003156,
+                "title": "#task build a New Movies list ⏳ 2025-02-09 📅 2025-02-10 🆔 qiGLZM",
+                "body": [
+                    "\t- create new movie entries in the process"
+                ],
+                "time": "",
+                "due": "2025-02-10",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 3198681637,
+                "title": "#task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-02-09 🆔 iD0UCB",
                 "body": [],
                 "time": "",
-                "due": "2025-02-14",
+                "due": "2025-02-09",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 3235788395,
+                "title": "#task pocistiti Downloads folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-10 🆔 0oe1mt",
+                "body": [],
+                "time": "",
+                "due": "2025-02-10",
                 "tags": [
                     "#task"
                 ],
@@ -679,7 +693,7 @@
                 "completed": ""
             },
             {
-                "id": 2079928255,
+                "id": 194235625,
                 "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
                 "body": [],
                 "time": "",
@@ -693,7 +707,7 @@
                 "completed": ""
             },
             {
-                "id": 2155166557,
+                "id": 846866109,
                 "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-09",
                 "body": [
                     "\t- check online",
@@ -967,14 +981,95 @@
         ],
         "Calendar/daily/2025-02-09.md": [
             {
-                "id": 2420089646,
-                "title": "",
+                "id": 909698810,
+                "title": "[[platiti racune]]",
                 "body": [],
                 "time": "",
                 "due": "",
                 "tags": [],
                 "priority": 0,
                 "filePath": "Calendar/daily/2025-02-09.md",
+                "completed": ""
+            }
+        ],
+        "Atlas/Personal/notes/mozes se ulogirat u PBZ online.md": [
+            {
+                "id": 2637092241,
+                "title": "reminder (@2025-02-15)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Personal/notes/mozes se ulogirat u PBZ online.md",
+                "completed": ""
+            }
+        ],
+        "Golden Topaz is great for reading.md": [
+            {
+                "id": 686882,
+                "title": "remind (@2025-02-16)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Golden Topaz is great for reading.md",
+                "completed": ""
+            }
+        ],
+        "Vim mapping for resume search.md": [
+            {
+                "id": 2358502353,
+                "title": "remind me (@2025-02-13)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Vim mapping for resume search.md",
+                "completed": ""
+            }
+        ],
+        "Atlas/Personal/notes/Vim mapping for resume search.md": [
+            {
+                "id": 1530987426,
+                "title": "remind me (@2025-02-13)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Personal/notes/Vim mapping for resume search.md",
+                "completed": ""
+            }
+        ],
+        "Atlas/Dev/notes/Golden Topaz is great for reading.md": [
+            {
+                "id": 3298688195,
+                "title": "remind (@2025-02-16)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Dev/notes/Golden Topaz is great for reading.md",
+                "completed": ""
+            }
+        ],
+        "Markdown + Vim.md": [
+            {
+                "id": 458560999,
+                "title": "#task look into [[markdown-wiki Vim]] ⏳ 2025-02-09 #short",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task",
+                    "#short"
+                ],
+                "priority": 0,
+                "filePath": "Markdown + Vim.md",
                 "completed": ""
             }
         ]
@@ -2697,7 +2792,7 @@
         ],
         "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md": [
             {
-                "id": 1465526858,
+                "id": 4164117725,
                 "title": "#task see how to use [[canvas]] for building dashboards 🆔 awSIXI ⏫ ✅ 2025-01-25",
                 "body": [
                     "\t- [[How to use canvas]]"
@@ -2712,7 +2807,7 @@
                 "completed": "2025-01-25"
             },
             {
-                "id": 1895580235,
+                "id": 2029957961,
                 "title": "#task checkout **Linear Calendar** 🆔 IIEx0A ⏫ 📅 2025-01-28 ✅ 2025-01-29",
                 "body": [
                     "\t- [[The Most Useful Calendar ViewThat No One Told You About]]",
@@ -2728,7 +2823,7 @@
                 "completed": "2025-01-29"
             },
             {
-                "id": 718544780,
+                "id": 3096387146,
                 "title": "#task Explore Obsidian nested Tags 🔼 ⏳ 2025-02-05 📅 2025-02-08 🆔 s5Cvje",
                 "body": [],
                 "time": "",
@@ -3202,7 +3297,7 @@
         ],
         "+/web server trial setup.md": [
             {
-                "id": 4256686830,
+                "id": 2014294048,
                 "title": "check for guides on the [[web]]",
                 "body": [],
                 "time": "",
@@ -3213,7 +3308,31 @@
                 "completed": ""
             },
             {
-                "id": 3187380285,
+                "id": 58571222,
+                "title": "setup [[#real ssl cert]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "+/web server trial setup.md",
+                "completed": ""
+            },
+            {
+                "id": 3311071877,
+                "title": "#task [[write down how to setup local ssl certificate]] 🆔 MkV3XO 🔼 ⏳ 2025-02-08 📅 2025-02-08 ✅ 2025-01-27",
+                "body": [],
+                "time": "",
+                "due": "2025-02-08",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "+/web server trial setup.md",
+                "completed": "2025-01-27"
+            },
+            {
+                "id": 2188986694,
                 "title": "check the basic wordpress installation [[Let's Encrypt]]",
                 "body": [],
                 "time": "",
@@ -3224,7 +3343,7 @@
                 "completed": ""
             },
             {
-                "id": 3675346456,
+                "id": 2685146729,
                 "title": "check online",
                 "body": [],
                 "time": "",
@@ -3235,7 +3354,7 @@
                 "completed": ""
             },
             {
-                "id": 2344322259,
+                "id": 2915522496,
                 "title": "ask AI",
                 "body": [],
                 "time": "",
@@ -3246,7 +3365,7 @@
                 "completed": ""
             },
             {
-                "id": 2819672034,
+                "id": 1953856123,
                 "title": "investigate [[Let's Encrypt]] automatic setup",
                 "body": [],
                 "time": "",
@@ -3257,7 +3376,7 @@
                 "completed": ""
             },
             {
-                "id": 29362690,
+                "id": 651783730,
                 "title": "try to implement [[Let's Encrypt]] `locally` via [[docker]]",
                 "body": [],
                 "time": "",
@@ -3268,8 +3387,8 @@
                 "completed": ""
             },
             {
-                "id": 112308268,
-                "title": "implement [[Let's Encrypt]] on [[my VPS]]",
+                "id": 2056075377,
+                "title": "implement [[Let's Encrypt]] on [[my VPS - techdot.biz]]",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -3279,7 +3398,7 @@
                 "completed": ""
             },
             {
-                "id": 429895299,
+                "id": 3509496010,
                 "title": "combine [[Let's Encrypt]] with a simple static site",
                 "body": [],
                 "time": "",
@@ -3290,8 +3409,19 @@
                 "completed": ""
             },
             {
-                "id": 557227235,
+                "id": 905159285,
                 "title": "implement locally",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "+/web server trial setup.md",
+                "completed": ""
+            },
+            {
+                "id": 2441581050,
+                "title": "do it on the VPS",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -3705,19 +3835,31 @@
                 "completed": "2025-02-03"
             }
         ],
-        "Master Task List.md": [
+        "platiti racune.md": [
             {
-                "id": 3202247106,
-                "title": "#task Naruci hranu za macke ⏫ ⏳ 2025-02-05 📅 2025-02-06 🆔 9IWUeA ✅ 2025-02-06",
+                "id": 1093085191,
+                "title": "senka x 2",
+                "body": [
+                    "\t- [x] prvi",
+                    "\t- [x] drugi"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "platiti racune.md",
+                "completed": ""
+            },
+            {
+                "id": 723672706,
+                "title": "[[Elan knjigovodstvo",
                 "body": [],
                 "time": "",
-                "due": "2025-02-06",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 2,
-                "filePath": "Master Task List.md",
-                "completed": "2025-02-06"
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "platiti racune.md",
+                "completed": ""
             }
         ]
     }

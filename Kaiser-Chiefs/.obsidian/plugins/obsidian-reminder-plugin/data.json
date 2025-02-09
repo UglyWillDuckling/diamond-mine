@@ -56,6 +56,20 @@
         "time": "2025-02-26",
         "rowNumber": 6
       }
+    ],
+    "Atlas/Personal/notes/Vim mapping for resume search.md": [
+      {
+        "title": "remind me",
+        "time": "2025-02-13",
+        "rowNumber": 0
+      }
+    ],
+    "Atlas/Dev/notes/Golden Topaz is great for reading.md": [
+      {
+        "title": "remind",
+        "time": "2025-02-16",
+        "rowNumber": 4
+      }
     ]
   },
   "debug": false,

@@ -8,17 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "59fc6d6cf2d7ed6f",
+            "id": "411ca51d9442fbee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Efforts/Active/Persona/certificate renewal.md",
+                "file": "Markdown + Vim.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "certificate renewal"
+              "title": "Markdown + Vim"
+            }
+          },
+          {
+            "id": "0a41898deb3b5092",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Tools/markdown-wiki Vim.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "markdown-wiki Vim"
+            }
+          },
+          {
+            "id": "9e8059ce39e7911d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Knowledge/howtos/new rust cli appo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "new rust cli appo"
             }
           }
         ]
@@ -33,7 +71,6 @@
       {
         "id": "7257e540e65a9982",
         "type": "tabs",
-        "dimension": 36.87002652519894,
         "children": [
           {
             "id": "67ac4e3f4e315e0f",
@@ -47,61 +84,12 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
-          },
-          {
-            "id": "cb7ead59a0be727c",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#issue",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
-            "id": "d156b1c98892f487",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "737edb8048bb5517",
-        "type": "tabs",
-        "dimension": 63.12997347480106,
-        "children": [
-          {
-            "id": "ec734c854620847a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "desktop Compositor issue on KDE 🐞"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 387.51103591918945,
+    "width": 255.51103591918945,
     "collapsed": true
   },
   "right": {
@@ -118,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Knowledge/Media/Articles/Morgen for beginners Organizing Tasks and Events in one place.md",
+                "file": "Markdown + Vim.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +116,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Morgen for beginners Organizing Tasks and Events in one place"
+              "title": "Backlinks for Markdown + Vim"
             }
           },
           {
@@ -245,8 +233,7 @@
               "title": "Plugin no longer active"
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "horizontal",
@@ -256,7 +243,7 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian42-brat:BRAT": true,
-      "task-board:Open task board": false,
+      "task-board:Open task board": true,
       "obsidian-kanban:Create new board": false,
       "obsidian-media-db-plugin:Add new Media DB entry": true,
       "switcher:Open quick switcher": true,
@@ -275,35 +262,38 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "59fc6d6cf2d7ed6f",
+  "active": "411ca51d9442fbee",
   "lastOpenFiles": [
-    "Efforts/Active/Persona/archive/archive/persona ssl setup.md",
-    "Efforts/Active/Persona/certificate renewal.md",
-    "Calendar/daily/2025-02-09.md",
-    "Tasks Plugin - Review and check your Statuses 2025-02-09 00-48-42.md",
-    "Tasks Plugin - Review and check your Statuses 2025-02-09 00-50-49.md",
-    "Tasks Plugin - Review and check your Statuses 2025-02-09 00-46-41.md",
-    "Tasks Plugin - Review and check your Statuses 2025-02-09 00-47-15.md",
-    "Atlas/Knowledge/concepts/SSL certificate.md",
-    "Calendar/daily/2025-02-08.md",
-    "Efforts/Active/Persona/Persona.hr.md",
+    "mckyobsidian-cli",
+    "new.md~",
+    "Atlas/Knowledge/howtos/new rust cli appo.md",
+    "Atlas/Tools/markdown-wiki Vim.md",
+    "Markdown + Vim.md",
+    "Efforts/Ongoing/Vim Mastery/Vim Mastery.md",
+    "Efforts/Ongoing/Vim Mastery",
+    "Atlas/Dev/notes/Golden Topaz is great for reading.md",
     "Master Task List.md",
-    "Calendar/daily/2025-02-06.md",
-    "Clippings/Adding Metadata - Dataview.md",
-    "Atlas/Tools/obsidian/plugins/dataview.md",
-    "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞.md",
-    "Clippings/xdg-desktop-portal-kde suddenly broken  Applications & Desktop Environments  Arch Linux Forums.md",
-    "Clippings/3 ways to fix error 'bind permission denied' in Linux - howtouselinux.md",
-    "Atlas/Personal/Info/snap installations have problem accessing system resources.md",
-    "Atlas/Knowledge/howtos/how to check desktop environment on unix-like systems.md",
-    "Atlas/Knowledge/howtos/snap -- allow access to plugs.md",
+    "new.md",
+    "Atlas/Personal/notes/Vim mapping for resume search.md",
+    "Atlas/Personal/notes/Varivo.md",
+    "Efforts/Active/Obsidian Tinkering/Obsidian CLI tools and automations.md",
+    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+    "Clippings/mckyobsidian-cli.md",
+    "Atlas/Knowledge/howtos/Elan procedura za placanje.md",
+    "Efforts/tasks/archive/platiti racune.md",
+    "Atlas/Knowledge/howtos/senka procedura za racune.md",
+    "Atlas/Tools/Boox Palma 2.md",
+    "Tasks Plugin - Review and check your Statuses 2025-02-09 00-46-41.md",
+    "Clippings/How to Generate Random Passwords in Bash using `devurandom`.md",
+    "Atlas/Personal/notes/mozes se ulogirat u PBZ online.md",
+    "Efforts/Ongoing/PC Maintenance/MaintenancePC.md",
+    "Efforts/Ongoing/PC",
+    "Calendar/daily/2025-02-09.md",
+    "Atlas/Tools/obsidian/obsidian-cli.md",
+    "+/web server trial setup.md",
+    "Efforts/Active/Persona/certificate renewal.md",
+    "Efforts/Active/Persona/archive/archive/persona ssl setup.md",
     "Efforts/Ongoing/PC Maintenance",
-    "Efforts/Active/Wordpress/best project structure for wordpress.md",
-    "Atlas/Personal/Kim.md",
-    "Efforts/Master Task List.md",
-    "Atlas/Personal/Macke.md",
-    "Atlas/Personal/Simba.md",
-    "new chapter.md",
     "tasks canvas.canvas",
     "~/templates",
     "~",
@@ -311,9 +301,6 @@
     "Efforts/Undefined",
     "Efforts/Ongoing",
     "Efforts/Simmering/Ipod Music",
-    "Efforts/Complete",
-    "Margaret Atwood - The Penelopiad_ The Myth of Penelope and Odysseus-Canongate U.S. (2005).epub",
-    "Efforts/Active/Tasks Management in Obsidian/docs",
     "tasks pic.canvas",
     "x/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"

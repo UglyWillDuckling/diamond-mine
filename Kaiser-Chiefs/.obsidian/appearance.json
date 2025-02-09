@@ -1,9 +1,9 @@
 {
-  "theme": "obsidian",
-  "cssTheme": "Things",
+  "theme": "moonstone",
+  "cssTheme": "Golden Topaz",
   "accentColor": "#ff751a",
   "baseFontSizeAction": true,
-  "baseFontSize": 16,
+  "baseFontSize": 15,
   "enabledCssSnippets": [
     "Cards"
   ]

@@ -1,5 +1,4 @@
 ---
-date: Jan 5, 2025
 ---
 #work #work/call #call
 

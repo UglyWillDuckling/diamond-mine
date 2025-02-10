@@ -9,7 +9,7 @@ description: An indepth look at the meaning and etymology of the awesome name Ke
 tags:
   - clippings
 related:
-  - "[[Kenan]]"
+  - "[[Kenan Jamakovic]]"
 ---
 #### Source: https://www.abarim-publications.com/Meaning/Kenan.html
 

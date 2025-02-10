@@ -22,7 +22,7 @@ minutes: 45
 
 ## discussion
 
-### [[Kenan]]
+### [[Kenan Jamakovic]]
 
 working on some ADR's
 

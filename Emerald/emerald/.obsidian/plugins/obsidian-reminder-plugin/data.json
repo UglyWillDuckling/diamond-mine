@@ -8,17 +8,10 @@
         "rowNumber": 6
       }
     ],
-    "Clippings/Obsidian Physical Object System.md": [
-      {
-        "title": "come back to this article",
-        "time": "2025-02-12",
-        "rowNumber": 148
-      }
-    ],
     "+/Xdebug just works.md": [
       {
         "title": "1 week",
-        "time": "2025-02-10",
+        "time": "2025-02-17",
         "rowNumber": 5
       }
     ],
@@ -64,25 +57,11 @@
         "rowNumber": 11
       }
     ],
-    "+/bashword.md": [
-      {
-        "title": "remind",
-        "time": "2025-02-10",
-        "rowNumber": 27
-      }
-    ],
     "Clippings/git includeif - multiple configs.md": [
       {
         "title": "weekly",
         "time": "2025-02-19",
         "rowNumber": 27
-      }
-    ],
-    "Knowledge/notes/archive/vim - jump to last insert with `..md": [
-      {
-        "title": "monthly",
-        "time": "2025-02-27",
-        "rowNumber": 11
       }
     ],
     "work/bugs/you can easily reference any text block by using.md": [
@@ -97,6 +76,41 @@
         "title": "bi-weekly",
         "time": "2025-02-21",
         "rowNumber": 13
+      }
+    ],
+    "Efforts/Active/Vim Exploration/vim - navigation through changes.md": [
+      {
+        "title": "monthly",
+        "time": "2025-02-27",
+        "rowNumber": 11
+      }
+    ],
+    "Knowledge/Articles/Obsidian Physical Object System.md": [
+      {
+        "title": "come back to this article",
+        "time": "2025-02-12",
+        "rowNumber": 147
+      }
+    ],
+    "Knowledge/Articles/Obsidian/Metabind can create interactive elements on the page.md": [
+      {
+        "title": "remind",
+        "time": "2025-02-21",
+        "rowNumber": 4
+      }
+    ],
+    "work/calls/CRM/CRM architecture call 2024-11-12.md": [
+      {
+        "title": "remind me maybe use this as a **template**",
+        "time": "2025-02-10 10:54",
+        "rowNumber": 15
+      }
+    ],
+    "Knowledge/tools/dev/bashword.md": [
+      {
+        "title": "monthly reminder",
+        "time": "2025-03-03",
+        "rowNumber": 28
       }
     ]
   },

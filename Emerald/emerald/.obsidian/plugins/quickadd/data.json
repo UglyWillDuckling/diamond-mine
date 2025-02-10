@@ -171,9 +171,9 @@
     },
     {
       "id": "012486be-a580-4e78-b309-ca8983d93d35",
-      "name": "retro",
+      "name": "retro👗",
       "type": "Template",
-      "command": false,
+      "command": true,
       "templatePath": "Knowledge/templates/sprint retro template.md",
       "fileNameFormat": {
         "enabled": true,
@@ -190,11 +190,11 @@
       },
       "appendLink": false,
       "openFileInNewTab": {
-        "enabled": false,
+        "enabled": true,
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false

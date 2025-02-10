@@ -2,4 +2,4 @@
 
 ## current 📓
 - working on [[QSL listing feature]]
-- the rest of the team is working on the [[CRM]] preparations
+- the rest of the team is working on the [[LUQA]] preparations

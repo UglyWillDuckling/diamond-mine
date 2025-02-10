@@ -1,5 +1,5 @@
 ---
-date: Dec 1, 2024
+date: 2024-12-01T10:40:00
 ---
 #work #work/call #call #sprint-retro 
 

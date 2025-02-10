@@ -228,6 +228,12 @@
         "Alt"
       ],
       "key": "Q"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
     }
   ],
   "templater-obsidian:insert-templater": [
@@ -305,6 +311,14 @@
         "Alt"
       ],
       "key": "V"
+    }
+  ],
+  "juggl:open-vis": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
     }
   ]
 }

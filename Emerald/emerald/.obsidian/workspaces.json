@@ -434,6 +434,21 @@
             "type": "tabs",
             "children": [
               {
+                "id": "76f76915a3842d83",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Knowledge/daily_notes/2025/February/2025-02-10.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "2025-02-10"
+                }
+              },
+              {
                 "id": "a589478b53619704",
                 "type": "leaf",
                 "state": {
@@ -441,41 +456,11 @@
                   "state": {
                     "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
                     "mode": "source",
-                    "backlinks": false,
-                    "source": false
+                    "source": false,
+                    "backlinks": false
                   },
                   "icon": "lucide-file",
                   "title": "QSL listing feature"
-                }
-              },
-              {
-                "id": "b0b86a79e9707054",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/AWS-Athena backyard implementation.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "AWS-Athena backyard implementation"
-                }
-              },
-              {
-                "id": "e3967fb9205600cc",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/AWS client implementation.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "AWS client implementation"
                 }
               }
             ]
@@ -497,7 +482,8 @@
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -534,7 +520,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 287
+        "width": 266.5
       },
       "right": {
         "id": "0bce692d28de0848",
@@ -632,18 +618,17 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
+          "juggl:Juggl global graph": false,
           "graph:Open graph view": true,
           "workspaces:Manage workspace layouts": true,
-          "wikipedia-search:Open Article": false,
           "templater-obsidian:Templater": false,
-          "surfing:surfing-bookmark-manager": true,
           "quickadd:QuickAdd": true,
-          "obsidian-day-planner:Open Timeline": false,
-          "obsidian-day-planner:Open Multi-Day View": false,
           "obsidian-book-search-plugin:Create new book note": true,
           "obsidian42-brat:BRAT": true,
           "cmdr:Graph view: Open local graph": false,
           "cmdr:Workspaces: Manage workspace layouts": false,
+          "cmdr:Daily notes: Open today's daily note": false,
           "audio-recorder:Start/stop recording": false,
           "switcher:Open quick switcher": false,
           "canvas:Create new canvas": false,
@@ -652,18 +637,12 @@
           "command-palette:Open command palette": false,
           "table-editor-obsidian:Advanced Tables Toolbar": false,
           "obsidian-kanban:Create new board": false,
-          "mermaid-tools:Open Mermaid Toolbar": false,
           "zk-prefixer:Create new unique note": false,
           "callout-manager:Insert Callout": false
         }
       },
-      "active": "a589478b53619704",
-      "mtime": "2025-01-21T14:41:08+01:00",
-      "workspaces-plus:settings-v1": {
-        "explorerFoldState": [
-          "Extras/People"
-        ]
-      }
+      "active": "76f76915a3842d83",
+      "mtime": "2025-02-10T09:43:12+01:00"
     },
     "Obsidian tinkering": {
       "main": {
@@ -1396,254 +1375,6 @@
       "active": "5bdc64da78050927",
       "mtime": "2025-02-05T10:08:34+01:00"
     },
-    "gnu parallel": {
-      "main": {
-        "id": "896fb77528c50fee",
-        "type": "split",
-        "children": [
-          {
-            "id": "8f2ec7bd9b5e7984",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8d4f68ff0aad2fe3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Knowledge/tools/dev/GNU Parallel.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "GNU Parallel"
-                }
-              },
-              {
-                "id": "b04a2bc58936f5d1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Knowledge/How To's/GNU PARALLEL EXAMPLES.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "GNU PARALLEL EXAMPLES"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "abf2911f56f916d8",
-        "type": "split",
-        "children": [
-          {
-            "id": "396d97731e40095f",
-            "type": "tabs",
-            "dimension": 58.10945273631841,
-            "children": [
-              {
-                "id": "688b3d615137a273",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "2fd0f24bea1de5b8",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "3917ba887ee80a77",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": true,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              }
-            ]
-          },
-          {
-            "id": "d6e148c88412ceb8",
-            "type": "tabs",
-            "dimension": 41.89054726368159,
-            "children": [
-              {
-                "id": "16dc5ce4e615a7cf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Clippings/In what ways can we form useful relationships between notes.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "In what ways can we form useful relationships between notes"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 380.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "0bce692d28de0848",
-        "type": "split",
-        "children": [
-          {
-            "id": "65b8ffe11667d608",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "66215144ab6ceed1",
-                "type": "leaf",
-                "state": {
-                  "type": "reminder-list",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Reminders"
-                }
-              },
-              {
-                "id": "4c75dd1dc94107ca",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Knowledge/How To's/GNU PARALLEL EXAMPLES.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for GNU PARALLEL EXAMPLES"
-                }
-              },
-              {
-                "id": "a677e5cf3e3fb9c3",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Efforts/Active/Study Obsidian.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from Study Obsidian"
-                }
-              },
-              {
-                "id": "c61722d2f0288e0a",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Efforts/Active/Study Obsidian.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of Study Obsidian"
-                }
-              },
-              {
-                "id": "2413b07c83ca5a3d",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "6591109b230470b8",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 591.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "graph:Open graph view": true,
-          "workspaces:Manage workspace layouts": false,
-          "templater-obsidian:Templater": false,
-          "quickadd:QuickAdd": false,
-          "obsidian-book-search-plugin:Create new book note": false,
-          "obsidian42-brat:BRAT": false,
-          "cmdr:Graph view: Open local graph": false,
-          "cmdr:Daily notes: Open today's daily note": false,
-          "cmdr:Workspaces: Manage workspace layouts": false,
-          "audio-recorder:Start/stop recording": false,
-          "switcher:Open quick switcher": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "obsidian-kanban:Create new board": false,
-          "zk-prefixer:Create new unique note": false,
-          "callout-manager:Insert Callout": false
-        }
-      },
-      "active": "b04a2bc58936f5d1",
-      "mtime": "2025-02-05T14:54:19+01:00"
-    },
     "tasks": {
       "main": {
         "id": "896fb77528c50fee",
@@ -1942,28 +1673,103 @@
       "active": "46731eeae6a48f91",
       "mtime": "2025-02-06T11:21:52+01:00"
     },
-    "extranet upload": {
+    "vim exploration": {
       "main": {
         "id": "896fb77528c50fee",
         "type": "split",
         "children": [
           {
-            "id": "8f2ec7bd9b5e7984",
+            "id": "e1e0690d60be8044",
             "type": "tabs",
             "children": [
               {
-                "id": "a589478b53619704",
+                "id": "7378e25861544798",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "work/tickets/Upload issue on extranet.md",
+                    "file": "Efforts/Active/Vim Exploration/Vim Exploration.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "Upload issue on extranet"
+                  "title": "Vim Exploration"
+                }
+              },
+              {
+                "id": "fb3702c03b5df945",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Knowledge/How To's/vim - jump through the change list.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "vim - jump through the change list"
+                }
+              },
+              {
+                "id": "59c361ece3a6fc29",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Knowledge/notes/archive/vim - jump to last insert with `..md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "vim - jump to last insert with `."
+                }
+              },
+              {
+                "id": "6bacf5436efba494",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Efforts/Active/Obsidian Tinkering/Obsidian Footnotes Exploration.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Obsidian Footnotes Exploration"
+                }
+              },
+              {
+                "id": "13d1b36b718819cb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Efforts/Active/Obsidian Tinkering/Obsidian Footnotes Exploration.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Obsidian Footnotes Exploration"
+                }
+              },
+              {
+                "id": "fbcecc3347f9ac33",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Obsidian Tinkering"
                 }
               }
             ]
@@ -2023,7 +1829,270 @@
           }
         ],
         "direction": "horizontal",
-        "width": 287
+        "width": 359.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "0bce692d28de0848",
+        "type": "split",
+        "children": [
+          {
+            "id": "65b8ffe11667d608",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bae038ccea34ead9",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "4c75dd1dc94107ca",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for QSL listing feature"
+                }
+              },
+              {
+                "id": "a677e5cf3e3fb9c3",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from QSL listing feature"
+                }
+              },
+              {
+                "id": "c61722d2f0288e0a",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline"
+                }
+              },
+              {
+                "id": "46144c0a59b0a25d",
+                "type": "leaf",
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Chronology"
+                }
+              },
+              {
+                "id": "1cceddc0fea9ba5c",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "3ac24b16dbbfddf7",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Efforts/Active/Vim Exploration/Vim Exploration.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for Vim Exploration"
+                }
+              }
+            ],
+            "currentTab": 6
+          }
+        ],
+        "direction": "horizontal",
+        "width": 384.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "cmdr:Daily notes: Open today's daily note": false,
+          "graph:Open graph view": true,
+          "workspaces:Manage workspace layouts": true,
+          "templater-obsidian:Templater": false,
+          "quickadd:QuickAdd": true,
+          "obsidian-book-search-plugin:Create new book note": true,
+          "obsidian42-brat:BRAT": true,
+          "cmdr:Graph view: Open local graph": false,
+          "cmdr:Workspaces: Manage workspace layouts": false,
+          "audio-recorder:Start/stop recording": false,
+          "switcher:Open quick switcher": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-kanban:Create new board": false,
+          "zk-prefixer:Create new unique note": false,
+          "callout-manager:Insert Callout": false
+        }
+      },
+      "active": "7378e25861544798",
+      "mtime": "2025-02-07T17:13:10+01:00"
+    },
+    "notes relations": {
+      "main": {
+        "id": "896fb77528c50fee",
+        "type": "split",
+        "children": [
+          {
+            "id": "9621b3b9a85c4b84",
+            "type": "tabs",
+            "dimension": 50.09019843656043,
+            "children": [
+              {
+                "id": "edd385702d6be0fe",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Knowledge/Articles/Obsidian/Relationships between Notes.md",
+                    "mode": "source",
+                    "source": true,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Relationships between Notes"
+                }
+              }
+            ]
+          },
+          {
+            "id": "943de20efb929f5f",
+            "type": "tabs",
+            "dimension": 49.909801563439565,
+            "children": [
+              {
+                "id": "bf323cc51c929d16",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Obsidian Tinkering"
+                }
+              },
+              {
+                "id": "fa81c47fd78bd313",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Knowledge/Articles/Obsidian/In what ways can we form useful relationships between notes.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "In what ways can we form useful relationships between notes"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "abf2911f56f916d8",
+        "type": "split",
+        "children": [
+          {
+            "id": "396d97731e40095f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "688b3d615137a273",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "3917ba887ee80a77",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#call/sprint",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "byCreatedTime"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "65e42d7f94802132",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 305.51103591918945,
+        "collapsed": true
       },
       "right": {
         "id": "0bce692d28de0848",
@@ -2112,7 +2181,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           }
         ],
         "direction": "horizontal",
@@ -2121,15 +2190,17 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "cmdr:Daily notes: Open today's daily note": false,
+          "templater-obsidian:Templater": false,
+          "cmdr:Graph view: Open local graph": false,
+          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
           "graph:Open graph view": true,
           "workspaces:Manage workspace layouts": true,
-          "templater-obsidian:Templater": false,
           "quickadd:QuickAdd": true,
           "obsidian-book-search-plugin:Create new book note": true,
           "obsidian42-brat:BRAT": true,
-          "cmdr:Graph view: Open local graph": false,
+          "juggl:Juggl global graph": false,
           "cmdr:Workspaces: Manage workspace layouts": false,
+          "cmdr:Daily notes: Open today's daily note": false,
           "audio-recorder:Start/stop recording": false,
           "switcher:Open quick switcher": false,
           "canvas:Create new canvas": false,
@@ -2142,9 +2213,9 @@
           "callout-manager:Insert Callout": false
         }
       },
-      "active": "a589478b53619704",
-      "mtime": "2025-02-06T15:30:02+01:00"
+      "active": "edd385702d6be0fe",
+      "mtime": "2025-02-10T13:10:42+01:00"
     }
   },
-  "active": "extranet upload"
+  "active": "QSL"
 }

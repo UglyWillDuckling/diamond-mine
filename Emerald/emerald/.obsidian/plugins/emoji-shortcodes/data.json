@@ -4,6 +4,8 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
+    ":spiral_notepad:",
+    ":zzz:",
     ":notebook_with_decorative_cover:",
     ":ballot_box_with_check:",
     ":arrow_down:",
@@ -30,7 +32,6 @@
     ":notebook:",
     ":warning:",
     ":derelict_house:",
-    ":spiral_notepad:",
     ":link:",
     ":chains:",
     ":small_blue_diamond:",
@@ -202,7 +203,6 @@
     ":service_dog:",
     ":swimming_woman:",
     ":olive:",
-    ":ringed_planet:",
-    ":page_with_curl:"
+    ":ringed_planet:"
   ]
 }

@@ -47,7 +47,7 @@ size: XL
 ### permissions
 <mark style="background: #FFB86CA6;">size</mark>: L?
 
--  **list** of permissions in the [[CRM]]
+-  **list** of permissions in the [[LUQA]]
 - <mark style="background: #FFF3A3A6;">assigned</mark> to roles
 
 <mark class='important'>needs to be assigned to each action(route), and even to [[component]]'s</mark>

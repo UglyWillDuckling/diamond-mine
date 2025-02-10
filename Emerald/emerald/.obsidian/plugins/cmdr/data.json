@@ -8,6 +8,12 @@
       "icon": "lucide-git-fork",
       "name": "Graph view: Open local graph",
       "mode": "any"
+    },
+    {
+      "id": "editor:save-file",
+      "icon": "lucide-alarm-clock",
+      "name": "Save current file",
+      "mode": "any"
     }
   ],
   "fileMenu": [

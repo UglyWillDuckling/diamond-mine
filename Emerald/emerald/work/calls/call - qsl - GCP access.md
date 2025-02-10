@@ -1,5 +1,5 @@
 ---
-date: Jan 5, 2025
+date: 2025-01-05T10:37:00
 related:
   - "[[investigate QSL listing connection plan]]"
   - "[[gcloud compute execute command remotely]]"

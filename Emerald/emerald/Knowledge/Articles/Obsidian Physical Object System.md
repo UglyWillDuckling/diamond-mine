@@ -5,9 +5,7 @@ author:
   - "[[Dann Berg]]"
 published: 2024-02-21
 created: 2025-01-21
-description: A look at my Obsidian People Note system, built for busy people that are often in meetings for work. Uses Templater, Dataview, and Meta Bind plugins.
 tags:
-  - clippings
   - howto/video
   - article
   - video
@@ -16,7 +14,8 @@ related:
   - "[[Dann Berg]]"
   - "[[templatr]]"
 ---
-![Dann’s Physical Object Note template for Obsidian](https://dannb.org/images/blog/2024/02/physical-object-sony-tv.jpg)
+
+![[1f1ee051c7b1a60237f066926c6f9f7a_MD5.jpg|500]]
 
 ❗ *Feel free to skip the fluff and navigate directly to the **[Physical Object Template](https://gist.github.com/dannberg/87e712916fab68c32fa2c759f98bfc42)** or the **[Physical Object MOC template](https://gist.github.com/dannberg/1ee8fd5947a02e3a65e312fc417d541e)**.*
 
@@ -107,13 +106,13 @@ After that, you can close out of Preferences. Everything in our Physical Object 
 
 On your Physical Objects MOC page, the `meta-bind-button` code block should now be rendering as a real button. If you followed this tutorial to the letter, it should work out-of-the-box. But it probably won’t. So let’s re-create that button from scratch.
 
-![Meta Bind Button Builder from Control Palette](https://dannb.org/images/blog/2024/02/obsidian-meta-bind-open-button-builder.jpg)
+![[d4aed17d7f1d69a2485adcf4932c25ce_MD5.jpg|500]]
 
 First, delete the entire `meta-bind-button` code block. Type Command-P to open the Obsidian Command Palette and type Meta Bind. Select Open Button Builder and press enter.
 
 For the button’s name, type “New Physical Object.” Then, look for the Actions section and choose `templaterCreateNote` and select Add Action.
 
-![Meta Bind Button Builder Settings](https://dannb.org/images/blog/2024/02/obsidian-meta-bind-button-builder-settings.jpg)
+![[dfac35ab27f0ebb1b93fbfd80ef2c36a_MD5.jpg|500]]
 
 In the Template File field, choose the Physical Objects template file we just created: `Template, Physical Object`. For Folder, select the directory where you want these physical object notes to live—for me that’s `Spaces/Physical Objects`. For filename, I just use `TKTK`[^1].
 

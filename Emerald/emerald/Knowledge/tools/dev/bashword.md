@@ -11,18 +11,19 @@ bashword
 ```
 
 Generate a **30** character password with **digits and symbols**
-```bash
+```rb
 bashword -30
 ```
 
 Generate a **10** character password with only **alphanumeric** characters
-```
+```rb
 bashword -S -10
 ```
 
 Generate passwords for the given **users**
-```
+```bash
 { echo user1; echo user2; echo user3 } | paste - <(bashword -c 3)
 ```
 
-- [ ] remind (@[[2025-02-10]])
+- [x] remind (@[[Planning 2025-02-10]] 10:51)
+- [ ] monthly reminder (@[[2025-03-03]])

@@ -1,17 +1,18 @@
 #ticket
 
+[LUNA-268](https://avivgroup.atlassian.net/browse/LUNA-268)
+
 ## description
 
 **Extranet** allows for uploading things that it shouldn't.
 - [[SVG]] uploaded as a different file type
 
 - [x] #task fix xss upload issue on [[extranet]] 🆔 Zxm2X1 ✅ 2025-02-07
-	- [/] investigate what is happening and write down in [[#investigation]]
+	- [x] investigate what is happening and write down in [[#investigation]]
 	- [x] try changing the file **extension**
 		- [x] svg -> jpg
 	- [x] #task verify false negatives; upload actual image files 🆔 uQLN6l ✅ 2025-02-07
-	- [ ] #task test on **backyard** 🆔 zQjE8t
-
+	- [x] #task test on **backyard** 🆔 zQjE8t ✅ 2025-02-10
 ### investigation
 - $ looks like the validation isn't setup properrly
 	- it should run on the full path to the file
@@ -36,8 +37,7 @@ Note that latter change aligns with `tests/helpers_fileTest.php::test_validate_m
  %% this can be tmp content %% 
 
 - [x] find an **upload** button
-- [/] test to make sure it works  [[#test upload]]
-
+- [x] test to make sure it works  [[#test upload]]
 #### find the button
 - ~~search for the document mentions: `share/class.document.inc`~~ 
 - search for HTML upload `input` ✔

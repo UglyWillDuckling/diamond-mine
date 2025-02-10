@@ -22,7 +22,7 @@ Get a better understanding of the [[unified shell]]'s architecture and stuff.
 
 ---
 ## notes 📔
-- The [[CRM]] is  [[B2B]] 
+- The [[LUQA]] is  [[B2B]] 
 
 ## quotes'
 [[joachim.leistikow]]

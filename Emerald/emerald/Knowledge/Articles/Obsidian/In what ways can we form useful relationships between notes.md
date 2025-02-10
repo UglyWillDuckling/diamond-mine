@@ -1,28 +1,31 @@
 ---
-title: In what ways can we form useful relationships between notes?
 source: https://medium.com/@nickmilo22/in-what-ways-can-we-form-useful-relationships-between-notes-9b9ec46973c6
 author:
   - "[[Nick Milo]]"
 published: 2020-08-08
 created: 2025-01-20
-description: Are you into personal knowledge management (PKM)? Are you confused about when to use a folder versus a tag versus a link versus a Map of Content? Let’s explore each “relationship-builder” and how we…
 tags:
-  - clippings
   - obsidian
   - article
   - interesting
+  - article/obsidian
+  - processing
 related:
   - "[[Nick Milo]]"
+finished: false
+image: x/be3a0f383e0959645eefa8e3df59270a_MD5.jpg
+exampleProperty: 40
 ---
+![[be3a0f383e0959645eefa8e3df59270a_MD5.jpg]]
 
-![Nick Milo](https://miro.medium.com/v2/resize:fill:88:88/0*OlCa18nVLOtn9Uo9.jpg)
+similiar:: [[People MOC]], [[Obsidian Physical Object System]]
 
-Are you into personal knowledge management (PKM)? Are you confused about when to use a **folder** versus a **tag** versus a **link** versus a **Map of Content**? Let’s explore each “relationship-builder” and how we can use them expertly.
+Are you into personal knowledge management (**PKM**)? Are you confused about when to use a **folder** versus a **tag** versus a **link** versus a **Map of Content**? Let’s explore each “relationship-builder” and how we can use them expertly.
 
 *Main Ideas*
 
 - Top-down categorizing has gotten a bad rap. It has a place.
-- Bottom-up creating is great, but it needs a bit of top-down structure as your library grows. But using just folders is the WRONG way.
+- Bottom-up creating is great, but it needs a bit of **top-down structure** as your library grows. But using just folders is the **WRONG** way.
 - **Maps of Contents (MOCs)** are game-changers.
 
 A flat structure of notes — i.e. one big folder — is “frictionless”. There is no thinking “now where exactly does this go?” However, over time it becomes messy and overwhelming. To overcome the chaos, we need to build healthy, flexible frameworks that can grow with our knowledge over time.
@@ -30,22 +33,38 @@ A flat structure of notes — i.e. one big folder — is “frictionless”. The
 Let’s examine the known— and lesser known — ways we form useful relationships between notes.
 
 ## Direct Links
+[[direct link]]
 
-![](https://miro.medium.com/v2/resize:fit:700/1*SMU0M-iBKedBR6PwUKrayw.png)
+![[a97a75bc8e1cee1b9ae03f4932b05b83_MD5.png|250]]
 
-Direct links are the strongest type of relationship. They are the purest and most explicit way of connecting two notes. This is the core method of growing a healthy, dynamic zettelkasten.
+**Direct** links are the strongest type of relationship. They are the purest and most explicit way of connecting two notes. This is the core method of growing a healthy, dynamic zettelkasten.
 
-Despite the proclamations, direct links alone are not enough. They do not allow for easy, dependable high-level navigation. They are a system of streets connecting one block to another. But sometimes you want to zoom out and view the map.
+%% this might not be completely true as you could also have more specific links e.g. parent/child, source %%
+
+Despite the proclamations, direct links alone are **not enough**. They do not allow for easy, dependable **high-level navigation.** They are a system of streets connecting one block to another. But sometimes you want to zoom out and **view the ==map==**.
 
 ## **Folders**
 
-Folders are rigid and exclusionary by their nature. Whatever is in a folder lives separated from the main collection. It’s a rigid hierarchy that imposes order. Without special workarounds this limits note accessibility, discourages interdisciplinary thinking, and stunts the long-term growth of a complex and interesting [[zettelkasten]].
+Folders are rigid and exclusionary by their nature. Whatever is in a folder lives separated from the main collection. It’s a rigid hierarchy that **imposes order.** Without special workarounds this limits note accessibility, <mark style="background: #FF5582A6;">discourages</mark> **interdisciplinary** **thinking**, and 
+ the long-term growth of a complex and interesting [[zettelkasten]].
 
-There are some strategic uses for folders, but their overuse may be a sign that the user is uncomfortable with other, arguably better methods of building relationships between notes while maintaining the long-term health of their digital library. If you have some quixotic notion about creating a digital library that acts as an interesting conversation partner — folders don’t make it as easy.
+`INPUT[toggle:finished]`
+
+`INPUT[number:exampleProperty]`
+
+```meta-bind
+INPUT[progressBar:exampleProperty]
+```
+
+`INPUT[date:exampleProperty]`
+`INPUT[datePicker:exampleProperty]`
+
+
+There are some strategic uses for folders, but their overuse may be a sign that the user is **uncomfortable**  with other, arguably better methods of building relationships between notes while maintaining the long-term health of their digital library. If you have some quixotic notion about creating a digital library that acts as an interesting conversation partner — folders don’t make it as easy.
 
 **What about for projects?** Depending on the use cases, a person might like using folders for projects.
 
-- If your goal is to manage projects, folders are great — **maybe even ideal**. You might decide that you want your projects to be actively walled-off units.
+- If your goal is to manage projects, folders are great — **maybe even ideal**. You might decide that you want your projects to be actively **walled-off** units.
 - But once they are **final**, ==you take the extra steps of reformulating any good stuff into your main digital library.==
 
 A possible use for a folder is as a **temporary inbox**, or “incubation” folder. As long as you view these research streams as temporary staging grounds, to be deleted or assimilated with the Borg- er, I mean, your **main-brain-frame**; you should be fine. Otherwise, that inbox folder can get awfully crufty.
@@ -74,7 +93,7 @@ What happens when you can’t remember that when you’re tagging a new note? Yo
 
 Saved Searches are another partial and robust solution. You can save a tag search like “***#PermanentNotes*** AND ***#habits***”.
 
-![](https://miro.medium.com/v2/resize:fit:382/1*uCSHtOqZCE3izP1-l_6RUQ.png)
+![[01b8a2f8e213990fa073aba07a2188d2_MD5.png]]
 
 ## Proximity
 
@@ -84,7 +103,7 @@ Everyone tends to forget how we use the **proximity** between notes to build rel
 
 - *Alphabetical*: Sure “Apple” and “Banana” start next to each other and hold a strong relationship. But over time that proximity will change; because years later the list looks like “Apple”, “aqua”, “aqualung”, “arabesque”, “arachne”, “arbiter”, “arc”, “arena”, “aries”, “arise”, “Arkansas”, “Banana”. So relationships that start out strong can weaken over time.
 
-![](https://miro.medium.com/v2/resize:fit:293/1*uzcKVhnrPyQ6bNNwEuCP6Q.png)
+![[66e906929963092b83c261c8f84a966e_MD5.png]]
 
 - *Chronological:* If you sort by creation date, the proximities between notes won’t change but they are inherently more arbitrary (random), except for their temporal context (which holds varying value depending on the context).
 
@@ -94,7 +113,7 @@ Everyone tends to forget how we use the **proximity** between notes to build rel
 
 **3\. Organizing by Proximity in an MOC (Map of Content):**
 
-![](https://miro.medium.com/v2/resize:fit:465/1*_2jKjcURnsgnTmDCZWspuA.png)
+![[d516326fd4ed9087f77414294591ccf6_MD5.png]]
 
 - Notes in the same MOC are very likely to be closely related, especially after they are manually sorted in some form of relational positioning. **This is the best way to apply the power of proximity.**
 
@@ -104,7 +123,7 @@ Using just a single note, you can identify and build relationships between notes
 
 ## [[Map of Contents]] (MOC)
 
-![](https://miro.medium.com/v2/resize:fit:700/1*-zaTKc2p6Bv_lGR7DCwHmQ.png)
+![[249c294c60af5298fa4d1da1d0cd7174_MD5.png]]
 
 An [[MOC]] is just a note — a very special type of note. It uses proximity effectively and acts like a tag and a non-exclusive folder at the same time.
 
@@ -120,7 +139,7 @@ Using MOCs is like being in your own warehouse full of workbenches, where each w
 
 Another way to consider MOCs is through [[emergence]].
 
-> MOCs are [[Evergreen notes]], just at the next level of emergence.
+> MOCs are [[Evergreen notes]], just at the next level of [[emergence]].
 
 In an MOC, the party is always happening. It’s the “room where it happens.” Individual notes can “shadow-clone” themselves and essentially be in multiple parties simultaneous — interacting and developing complexity from each party at the same time!
 
@@ -132,7 +151,7 @@ MOCs **serve much broader purposes**. Oftentimes an MOC can morph into a TOC as 
 
 ## A [[Home Note]]
 
-![](https://miro.medium.com/v2/resize:fit:700/1*XDjhBzNev_j-6EnXRFoc3Q.png)
+![[0df0870fc39c2be1755196cb5a11bb65_MD5.png]]
 
 ==Think of your Home note as the highest-level of your zettelkasten / digital library. It has links to the main MOCs in your library along with your most relevant tags.==
 
@@ -146,5 +165,4 @@ Until recently, folders were all we had. They weren’t good enough. Now we have
 
 These relationship-builders include: a [[Home note]]. [[Maps of Content]]. [[Direct Links]]. [[Proximity]]. [[Tags]].
 
-And yes, even a few **folders**.
-[[Folder]]
+And yes, even a few **[[Folder|folders]]**.

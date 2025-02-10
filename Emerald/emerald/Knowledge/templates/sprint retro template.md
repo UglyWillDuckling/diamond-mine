@@ -2,7 +2,7 @@
 scheduled: {{DATE: YYYY-MM-DD HH:mm}}
 link: {{VALUE:link}}
 ---
-#work #work/call #call #retro-call
+#work #call/work #call/sprint/retro
 
 [[luna team]]
 

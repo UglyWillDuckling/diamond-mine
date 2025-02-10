@@ -1,6 +1,6 @@
 #howto #work #extranet
 
-related:: [[Upload issue on extranet]]
+related:: [[Upload issue on extranet - LUNA-268]]
 
 1. apply the git patch[^1] located in `var/`
 2. copy `xss_req.sh` script from `var/`

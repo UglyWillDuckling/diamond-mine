@@ -3,10 +3,11 @@
 
 ## today 📆
 %% the queries will need to be updated %%
+
 ```dataview
 TABLE WITHOUT ID
 file.link as call, regexreplace(file.folder, "^.*\/", "") AS Area
-FROM #work/call
+FROM #call/work
 WHERE file.day AND file.day = date(today)
 sort date DESC
 ```

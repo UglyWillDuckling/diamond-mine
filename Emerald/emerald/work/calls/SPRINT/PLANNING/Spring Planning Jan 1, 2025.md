@@ -1,5 +1,5 @@
 ---
-date: Jan 1, 2025
+date: 2025-01-01T10:39:00
 ---
 #work #work/call #call
 

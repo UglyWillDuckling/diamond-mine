@@ -48,7 +48,7 @@ LIMIT 500;
 	- next is prod
 ---
 ## todo's
-- [>] 🤔 **think** about refactoring the import outside of the model class #task  🆔 Abn2VB
+- [x] 🤔 **think** about refactoring the import outside of the model class #task  🆔 Abn2VB ✅ 2025-02-10
 - [x] #task Diabolocom update deprecated CSV export 📅 2024-11-19 ✅ 2024-11-22
 - [x] #task check [[#duration]] column values ✅ 2024-11-21
 - [x] #task add error handling for the API ✅ 2024-11-21
@@ -65,7 +65,7 @@ LIMIT 500;
 	- [x] dev
 	- [x] prod
 - [x] #task check production update ✅ 2025-01-06
-- [>] #task document this ticket 📝 🆔 RSsdAT
+- [x] #task document this ticket 📝 🆔 RSsdAT ✅ 2025-02-10
 
 ### examine the existing db data
 - [x] check the data

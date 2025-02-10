@@ -1,20 +1,14 @@
 ---
-date: <% tp.date.now("YYYY-MM-DD") %>
-link:
+link: 
+scheduled: <% tp.date.now("YYYY-MM-DD-hh-mm") %>
 ---
 #work #work/call #call
+
 ## who
 - ...
-
 ## agenda
 
-
 ---
-## important
-
-## notes
+## 🗒notes
 
 ## discussion
-
-## decisions
-

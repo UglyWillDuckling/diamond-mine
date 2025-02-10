@@ -103,19 +103,6 @@
       "y": 1020
     },
     {
-      "color": "6",
-      "height": 550,
-      "id": "097cdcba370efe05",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "### **In Progress**\n```tasks\nnot done\nfilter by function task.status.type === 'IN_PROGRESS'\nshort mode\nshow tree\nhide task count\n```\n",
-      "type": "text",
-      "width": 680,
-      "x": -640,
-      "y": -730
-    },
-    {
       "color": "5",
       "height": 1040,
       "id": "eedbae2958471314",
@@ -126,6 +113,19 @@
       "width": 740,
       "x": -1480,
       "y": -1040
+    },
+    {
+      "color": "6",
+      "height": 550,
+      "id": "097cdcba370efe05",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### **In Progress**\n```tasks\nnot done\nfilter by function task.status.type === 'IN_PROGRESS'\nshort mode\nshow tree\nhide task count\n```\n",
+      "type": "text",
+      "width": 680,
+      "x": -460,
+      "y": -720
     }
   ]
 }

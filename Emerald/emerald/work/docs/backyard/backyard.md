@@ -1,5 +1,7 @@
 ---
 tags:
   - application
-  - project
 ---
+#app #backyard/app
+
+Documents the backyard as an application entity.

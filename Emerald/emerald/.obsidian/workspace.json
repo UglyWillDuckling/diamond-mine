@@ -21,8 +21,19 @@
               "icon": "lucide-file",
               "title": "QSL listing feature"
             }
+          },
+          {
+            "id": "713abba777e0065c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -34,7 +45,6 @@
       {
         "id": "396d97731e40095f",
         "type": "tabs",
-        "dimension": 68.6939182452642,
         "children": [
           {
             "id": "688b3d615137a273",
@@ -47,16 +57,6 @@
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
-            }
-          },
-          {
-            "id": "2fd0f24bea1de5b8",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
             }
           },
           {
@@ -74,50 +74,6 @@
               },
               "icon": "lucide-search",
               "title": "Search"
-            }
-          }
-        ]
-      },
-      {
-        "id": "57e13f42a93358af",
-        "type": "tabs",
-        "dimension": 31.306081754735793,
-        "children": [
-          {
-            "id": "e1b02d9f45cae074",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.5224166661089904,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Graph of QSL listing feature"
             }
           }
         ]
@@ -187,13 +143,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/subs/cronjob implementation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cronjob implementation"
+              "title": "Outline"
             }
           },
           {
@@ -242,7 +197,7 @@
     "hiddenItems": {
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "juggl:Juggl global graph": false,
-      "graph:Open graph view": false,
+      "graph:Open graph view": true,
       "workspaces:Manage workspace layouts": false,
       "templater-obsidian:Templater": false,
       "quickadd:QuickAdd": true,
@@ -263,36 +218,38 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "5bdc64da78050927",
+  "active": "713abba777e0065c",
   "lastOpenFiles": [
+    "work/tickets/FEAT/QSL listing feature/qsl production deployment.md",
+    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+    "work/tickets/FEAT/QSL listing feature/qsl cron.md",
+    "work/docs/backyard/backyard-tasks.md",
+    "work/tickets/FEAT/QSL listing feature/subs/cronjob implementation.md",
+    "work/docs/backyard/backyard.md",
+    "work/tickets/FEAT/QSL listing feature/docs/how to steps to run the qsl import on tasks.md",
+    "work/tickets/FEAT/QSL listing feature/docs/how to check(test) cron backyard-tasks.md",
+    "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
+    "Kanban.md",
+    "Knowledge/daily_notes/2025/February/2025-02-10.md",
+    "Clippings/Story Point Estimation 📰.md",
+    "Clippings/12 common mistakes made when using Story Points 📰.md",
+    "work/calls/SPRINT/RETRO/RETRO 2025-02-10.md",
+    "Clippings/Understanding Story Points Best Practices, Examples, and Methods.md",
+    "work/docs/how to/how to add a cron job.md",
     "tasks canvas.canvas",
     "Knowledge/daily_notes/2025/February/2025-02-07.md",
-    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-    "work/tickets/FEAT/QSL listing feature/subs/cronjob implementation.md",
     "Knowledge/Articles/Obsidian/Relationships between Notes.md",
     "Knowledge/Articles/Obsidian/In what ways can we form useful relationships between notes.md",
     "Knowledge/Articles/Obsidian/hierarchy.md",
-    "Knowledge/daily_notes/2025/February/2025-02-10.md",
     "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
     "Knowledge/templates/call template.md",
     "work/calls/temp.md",
     "Knowledge/tools/obsidian/dataview/Dataview using date as a filter.md",
     "Knowledge/tools/obsidian/dataview/dataview.md",
     "Clippings/Dataview Date Formatting.md",
-    "work/calls/SPRINT/RETRO/RETRO 2025-02-10.md",
     "work/calls/SPRINT/PLANNING/Planning 2025-02-10.md",
     "Knowledge/tools/obsidian/dataview",
-    "Clippings/Data Cmds - FROM, WHERE, ....md",
-    "work/calls/SPRINT/sprint calls.md",
     "Knowledge/World",
-    "Knowledge/tools/dev/bashword.md",
-    "work/calls/SPRINT/RETRO/Sprint Retro - C8 EXT - Sprint 2.md",
-    "work/calls/SPRINT/PLANNING/Spring Planning Jan 1, 2025.md",
-    "work/calls/pair programming/pair programming Jan 14, 2025.md",
-    "work/calls/call - qsl - GCP access.md",
-    "work/calls/CRM/architecture part 2 Jan 5, 2025.md",
-    "work/calls/pair programming/today.md",
-    "work/calls/calls.md",
     "work/calls/SPRINT/Untitled",
     "x/0df0870fc39c2be1755196cb5a11bb65_MD5.png",
     "x/249c294c60af5298fa4d1da1d0cd7174_MD5.png",
@@ -315,7 +272,6 @@
     "add_note_obs",
     "+/first",
     "work/tickets/event issue solution canvas.canvas",
-    "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
     "work/docs/CRM/CRM.canvas",
     "work/tickets/FEAT/QSL listing feature/docs/code/Athena impl..canvas",
     "work/tickets/FEAT/QSL listing feature/artifacts/crontab board.canvas",

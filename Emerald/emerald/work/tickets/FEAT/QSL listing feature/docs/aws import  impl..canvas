@@ -142,6 +142,18 @@
       "y": -40
     },
     {
+      "autoResizeHeight": true,
+      "file": "work/tickets/FEAT/QSL listing feature/docs/Athena class.md",
+      "height": 60,
+      "id": "313d9f72f20d4a60",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 330,
+      "x": -665,
+      "y": 480
+    },
+    {
       "autoResizeHeight": false,
       "height": 154,
       "id": "4b9d2e12db0599dd",
@@ -164,31 +176,6 @@
       "width": 180,
       "x": 660,
       "y": 300
-    },
-    {
-      "autoResizeHeight": true,
-      "file": "work/tickets/FEAT/QSL listing feature/docs/Athena class.md",
-      "height": 60,
-      "id": "313d9f72f20d4a60",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 330,
-      "x": -665,
-      "y": 480
-    },
-    {
-      "autoResizeHeight": true,
-      "height": 60,
-      "id": "b4957a15f08d8caa",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "**AWS client** for athena",
-      "type": "text",
-      "width": 260,
-      "x": -940,
-      "y": 290
     },
     {
       "autoResizeHeight": false,
@@ -257,19 +244,6 @@
     },
     {
       "autoResizeHeight": false,
-      "color": "3",
-      "height": 229,
-      "id": "05152e15a8b175b8",
-      "styleAttributes": {
-      },
-      "text": "### notes\n\n- procedures represent a more or less linear path of execution\n- arrows on the elements within procs. re",
-      "type": "text",
-      "width": 480,
-      "x": -1020,
-      "y": -214
-    },
-    {
-      "autoResizeHeight": false,
       "height": 60,
       "id": "6c4eed0cb0d5cca0",
       "styleAttributes": {
@@ -303,6 +277,32 @@
       "width": 635,
       "x": 588,
       "y": -440
+    },
+    {
+      "autoResizeHeight": false,
+      "color": "3",
+      "height": 229,
+      "id": "05152e15a8b175b8",
+      "styleAttributes": {
+      },
+      "text": "### notes\n\n- procedures represent a more or less linear path of execution\n- arrows on the elements within procs. re",
+      "type": "text",
+      "width": 480,
+      "x": -1020,
+      "y": -214
+    },
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "b4957a15f08d8caa",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "**AWS client** for athena",
+      "type": "text",
+      "width": 260,
+      "x": -940,
+      "y": 290
     }
   ]
 }

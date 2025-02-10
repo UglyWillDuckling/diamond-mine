@@ -1,4 +1,4 @@
-#howto #cronjob 
+#howto #cronjob #backyard-tasks #howto/backyard
 
 related:: [[backyard-tasks]]
 

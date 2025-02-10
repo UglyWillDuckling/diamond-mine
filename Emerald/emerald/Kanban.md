@@ -32,18 +32,11 @@ color: var(--mk-color-orange)
 
 ## next ⏭
 
-- [ ] [[remove scroll-forward mapping in nvim]]
-- [ ] [[Knowledge/Education/React/react|react]] study 🎒 #react
-- [ ] start [[Node]] education 🏫 #node
-- [ ] study [[git butler]] #task 🆔 KjsJyX
-- [ ] take a look at [[figma for CRM]] #task 🆔 LnfHKb
 
 
 ## active ⚔
 
-- [/] [[QSL listing feature|QSL listing feature]]
-- [ ] [[add other quick adds]]
-- [ ] #task [[read books on tools that I use]] ⏫ 🆔 98l35q
+- [ ] [[remove scroll-forward mapping in nvim]]
 
 
 ## finished

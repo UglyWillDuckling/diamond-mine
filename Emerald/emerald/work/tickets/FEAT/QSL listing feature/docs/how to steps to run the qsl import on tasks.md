@@ -1,6 +1,7 @@
 about:: [[AWS import]], [[QSL listing feature]]
 
-### **Steps** to run the qsl import manually on [[backyard-tasks]] [^1]
+### **Steps** to run the qsl import manually on [[backyard-tasks]] 
+[^1]
 
  1. `ssh`
 	 1. **login** as meilleursagents: `sudo su - meilleursagents`

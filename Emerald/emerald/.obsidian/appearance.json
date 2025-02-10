@@ -1,9 +1,9 @@
 {
-  "cssTheme": "Sanctum",
+  "cssTheme": "AnuPpuccin",
   "textFontFamily": "Cantarell",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "interfaceFontFamily": "Baskerville",
-  "baseFontSize": 14,
+  "baseFontSize": 12,
   "baseFontSizeAction": true,
   "nativeMenus": true,
   "monospaceFontFamily": "FiraCode Nerd Font",

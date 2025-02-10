@@ -4,6 +4,10 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
+    ":satellite:",
+    ":artificial_satellite:",
+    ":exploding_head:",
+    ":face_with_head_bandage:",
     ":spiral_notepad:",
     ":zzz:",
     ":notebook_with_decorative_cover:",
@@ -82,7 +86,6 @@
     ":radioactive:",
     ":calendar:",
     ":vertical_traffic_light:",
-    ":artificial_satellite:",
     ":man_factory_worker:",
     ":passenger_ship:",
     ":flags:",
@@ -169,7 +172,6 @@
     ":point_right:",
     ":curly_loop:",
     ":haircut_woman:",
-    ":exploding_head:",
     ":loud_sound:",
     ":cloud_with_lightning:",
     ":flashlight:",
@@ -201,8 +203,6 @@
     ":postbox:",
     ":necktie:",
     ":service_dog:",
-    ":swimming_woman:",
-    ":olive:",
-    ":ringed_planet:"
+    ":swimming_woman:"
   ]
 }

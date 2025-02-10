@@ -34,7 +34,7 @@ related:
 ### verify cron again
 
 **use** 
-![[how to check cron backyard-tasks]]
+![[how to check(test) cron backyard-tasks]]
 
 - [x] check if the cron is working after modifying to run every 15m
 	- check at 15:00

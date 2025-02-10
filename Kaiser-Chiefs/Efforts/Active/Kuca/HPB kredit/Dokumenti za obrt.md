@@ -4,4 +4,4 @@ tags:
 status: Done
 ---
 - [x] [[moja obrtnica]]
-- [x] [[bon 2]]
+- [x] [[BON 2]]

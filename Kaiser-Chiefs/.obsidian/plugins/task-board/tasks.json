@@ -207,7 +207,7 @@
         ],
         "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md": [
             {
-                "id": 2835257610,
+                "id": 3359958863,
                 "title": "#task See about Vim and Obsidian Integration 🔼 ⏳ 2025-02-09 📅 2025-02-14 🆔 aB8VUm",
                 "body": [],
                 "time": "",
@@ -220,20 +220,7 @@
                 "completed": ""
             },
             {
-                "id": 3620215317,
-                "title": "#task fix themes in [[alacritty]] 🔼 ⏳ 2025-02-09 📅 2025-02-09 🆔 RnbnaE",
-                "body": [],
-                "time": "",
-                "due": "2025-02-09",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 3,
-                "filePath": "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
-                "completed": ""
-            },
-            {
-                "id": 1839093730,
+                "id": 1948870597,
                 "title": "#task Explore [[quickadd]] #backburner 🔼 ➕ 2025-01-25 🆔 8D8EFq",
                 "body": [],
                 "time": "",
@@ -247,7 +234,7 @@
                 "completed": ""
             },
             {
-                "id": 2562304237,
+                "id": 3573485446,
                 "title": "#task look into **graphing data** 🔼 ➕ 2025-01-26 🆔 gXl19a",
                 "body": [
                     "\t- [[Creating Dynamic Graphs in Obsidian - Obsidian Rocks]]",
@@ -1070,6 +1057,80 @@
                 ],
                 "priority": 0,
                 "filePath": "Markdown + Vim.md",
+                "completed": ""
+            }
+        ],
+        "dokumentacija za kredit Damir.md": [
+            {
+                "id": 925272032,
+                "title": "#task dokumentacija za Damira 🆔 h1mCuI",
+                "body": [
+                    "\t- [x] DOH",
+                    "\t- [x] potvrda o stanju duga: [[Elan knjigovodstvo]]",
+                    "\t\t- mail :LiMail: je poslan",
+                    "\t- [x] pregled primitaka i izdataka za 2 godine ",
+                    "\t\t- [x] poslati mail [[Elan knjigovodstvo|elanu]] :LiMail:",
+                    "\t\t- mail je poslan [[Elan knjigovodstvo|elan]]",
+                    "\t- [ ] potvrda da nisam u **blokadi**: [[e-gradani]]",
+                    "\t\t- [[Nove funkcionalnosti usluge e-Dugovanja (bivše e-Blokade) - gov.hr]]"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "dokumentacija za kredit Damir.md",
+                "completed": ""
+            }
+        ],
+        "Clippings/Kako izvaditi potvrdu o prebivalištu ili boravištu preko interneta.md": [
+            {
+                "id": 3557865924,
+                "title": "remind me (@2025-02-24)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/Kako izvaditi potvrdu o prebivalištu ili boravištu preko interneta.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Active/Kuca/dokumentacija za kredit Damir.md": [
+            {
+                "id": 1497118427,
+                "title": "**prebaciti** sve dokumente u Obsidian Vault",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Kuca/dokumentacija za kredit Damir.md",
+                "completed": ""
+            },
+            {
+                "id": 1606241344,
+                "title": "#task dokumentacija za Damira 🆔 h1mCuI",
+                "body": [
+                    "\t- [x] DOH",
+                    "\t- [x] potvrda o stanju duga: [[Elan knjigovodstvo]]",
+                    "\t\t- mail :LiMail: je poslan",
+                    "\t- [x] pregled primitaka i izdataka za 2 godine ",
+                    "\t\t- [x] poslati mail [[Elan knjigovodstvo|elanu]] :LiMail:",
+                    "\t\t- mail je poslan [[Elan knjigovodstvo|elan]]",
+                    "\t- [x] potvrda da nisam u **blokadi**: [[e-gradani]]",
+                    "\t\t- [[e-Dugovanja (bivše e-Blokade) - gov.hr]]",
+                    "\t- [x] BON 2 [^1]: ZABA-u kontaktirati putem maila :LiMail:",
+                    "\t\t- $ mail je poslan"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Active/Kuca/dokumentacija za kredit Damir.md",
                 "completed": ""
             }
         ]
@@ -2792,7 +2853,7 @@
         ],
         "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md": [
             {
-                "id": 4164117725,
+                "id": 1510942196,
                 "title": "#task see how to use [[canvas]] for building dashboards 🆔 awSIXI ⏫ ✅ 2025-01-25",
                 "body": [
                     "\t- [[How to use canvas]]"
@@ -2807,7 +2868,7 @@
                 "completed": "2025-01-25"
             },
             {
-                "id": 2029957961,
+                "id": 3474884001,
                 "title": "#task checkout **Linear Calendar** 🆔 IIEx0A ⏫ 📅 2025-01-28 ✅ 2025-01-29",
                 "body": [
                     "\t- [[The Most Useful Calendar ViewThat No One Told You About]]",
@@ -2823,7 +2884,7 @@
                 "completed": "2025-01-29"
             },
             {
-                "id": 3096387146,
+                "id": 4276239224,
                 "title": "#task Explore Obsidian nested Tags 🔼 ⏳ 2025-02-05 📅 2025-02-08 🆔 s5Cvje",
                 "body": [],
                 "time": "",
@@ -2834,6 +2895,19 @@
                 "priority": 3,
                 "filePath": "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
                 "completed": ""
+            },
+            {
+                "id": 2469814295,
+                "title": "#task fix themes in [[alacritty]] 🔼 ⏳ 2025-02-09 📅 2025-02-09 🆔 RnbnaE ✅ 2025-02-10",
+                "body": [],
+                "time": "",
+                "due": "2025-02-09",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+                "completed": "2025-02-10"
             }
         ],
         "Efforts/Active/Kuca/docs/zemljisni podaci.md": [
@@ -2873,7 +2947,7 @@
         ],
         "Efforts/Active/Kuca/HPB kredit/Dokumenti za obrt.md": [
             {
-                "id": 2357513058,
+                "id": 3511874216,
                 "title": "[[moja obrtnica]]",
                 "body": [],
                 "time": "",
@@ -2884,8 +2958,8 @@
                 "completed": ""
             },
             {
-                "id": 1022868272,
-                "title": "[[bon 2]]",
+                "id": 1848835820,
+                "title": "[[BON 2]]",
                 "body": [],
                 "time": "",
                 "due": "",

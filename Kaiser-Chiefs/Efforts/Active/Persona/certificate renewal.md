@@ -7,7 +7,7 @@ ssl_end: 2025-04-06
 
 Ticket to implement certificate **renewal** ==process== on Persona
 
-- [/] #task [[certificate renewal]] 🆔 Htr8QL ⏫ ⏳ 2025-02-08 📅 2025-02-09
+- [/] #task [[certificate renewal]] 🆔 Htr8QL ⏫ ⏳ 2025-02-08 📅 2025-02-12
 	- [x] check current **status** of the **ssl** **cert** [^1] on [[Persona.hr]]
 ### cert details
 Issued January 6, 2025 `INPUT[datePicker:ssl_start]`

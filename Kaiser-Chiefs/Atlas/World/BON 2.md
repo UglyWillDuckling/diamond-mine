@@ -1,10 +1,11 @@
 ---
 source: https://www.moj-bankar.hr/Kazalo/B/BON-2
 author:
-  - [[moj-bankar]]
-published: 
+  - - - moj-bankar
 created: 2025-01-24
-tags: 
+tags:
+  - dokument
+  - dokument/firma
 related:
 ---
 ![icon](https://www.moj-bankar.hr/favicons/android-icon-192x192.png)

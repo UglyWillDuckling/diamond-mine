@@ -4,9 +4,9 @@
 	- [/] [[#thought]]
 	- [ ] idea
 	- [ ] note
-- [ ] #task `quickadd` for `tickets` 🆔 TodwSM
-	- [ ] #task bugs 🐛 🆔 TnaCI3
-	- [ ] #task features ⭐ 🆔 EoLfLX
+- [x] #task `quickadd` for `tickets` 🆔 TodwSM ✅ 2025-02-10
+	- [x] #task bugs 🐛 🆔 TnaCI3 ✅ 2025-02-10
+	- [x] #task features ⭐ 🆔 EoLfLX ✅ 2025-02-10
 	- [ ] #task chores 🧹 🔽 🆔 b9ARV7
 
 ---

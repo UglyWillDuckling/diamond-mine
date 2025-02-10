@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cc0af8329e4bc827",
+            "id": "3189e83078dac039",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Efforts/Active/Kuca/dokumentacija za kredit Damir.md",
+                "file": "Efforts/Active/Kuca/docs/zemljisni podaci.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dokumentacija za kredit Damir"
+              "title": "zemljisni podaci"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -51,8 +51,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.51103591918945,
-    "collapsed": true
+    "width": 447.5
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -68,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Efforts/Active/Kuca/dokumentacija za kredit Damir.md",
+                "file": "Efforts/Active/Kuca/docs/zemljisni podaci.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -78,7 +77,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for dokumentacija za kredit Damir"
+              "title": "Backlinks for zemljisni podaci"
             }
           },
           {
@@ -224,15 +223,23 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "cc0af8329e4bc827",
+  "active": "3189e83078dac039",
   "lastOpenFiles": [
-    "Atlas/World/BON 2.md",
+    "Efforts/Active/Kuca/docs/zemljisni podaci.md",
+    "Efforts/Active/Kuca/docs/dokumenti x/DOH-2023.pdf",
+    "Efforts/Active/Kuca/docs/dokumenti x/Potvda o blokadi računa i novčanih sredstava.pdf",
+    "Efforts/Active/Kuca/docs/dokumenti x",
+    "Efforts/Active/Kuca/docs/dokumenti x/DOH-2024.pdf",
+    "Atlas/World/e-gradani.md",
+    "Efforts/Ongoing/Vim Mastery/Markdown + Vim.md",
+    "Master Task List.md",
+    "new.md",
     "Efforts/Active/Kuca/dokumentacija za kredit Damir.md",
+    "Atlas/World/BON 2.md",
     "Clippings/e-Dugovanja (bivše e-Blokade) - gov.hr.md",
     "Clippings/Što su e-Dugovanja Saznajte više!  BE-ON d.o.o..md",
     "Clippings/Kako izvaditi e-radnu knjižicu s e-Građana.md",
     "Clippings/Kako izvaditi potvrdu o prebivalištu ili boravištu preko interneta.md",
-    "e-gradani.md",
     "Clippings/convfmt - crates.io Rust Package Registry.md",
     "Clippings/yaml2toml-converter.md",
     "converting yaml to toml command line tools for convert.md",
@@ -240,29 +247,20 @@
     "Atlas/Tools/markdown-wiki Vim.md",
     "mckyobsidian-cli~",
     "new.md~",
-    "Markdown + Vim.md",
     "mckyobsidian-cli",
     "Atlas/Knowledge/howtos/new rust cli appo.md",
     "Efforts/Ongoing/Vim Mastery/Vim Mastery.md",
     "Efforts/Ongoing/Vim Mastery",
     "Atlas/Dev/notes/Golden Topaz is great for reading.md",
-    "Master Task List.md",
-    "new.md",
     "Atlas/Personal/notes/Vim mapping for resume search.md",
     "Atlas/Personal/notes/Varivo.md",
     "Efforts/Active/Obsidian Tinkering/Obsidian CLI tools and automations.md",
     "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
     "Clippings/mckyobsidian-cli.md",
     "Atlas/Knowledge/howtos/Elan procedura za placanje.md",
-    "Efforts/tasks/archive/platiti racune.md",
-    "Atlas/Knowledge/howtos/senka procedura za racune.md",
     "Efforts/Ongoing/PC",
     "Efforts/Ongoing/PC Maintenance",
     "tasks canvas.canvas",
-    "~/templates",
-    "~",
-    "Efforts/Active/Untitled",
-    "Efforts/Undefined",
     "tasks pic.canvas",
     "x/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"

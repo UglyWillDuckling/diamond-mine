@@ -1135,19 +1135,6 @@
                 "completed": ""
             }
         ],
-        "Calendar/daily/2025-02-11.md": [
-            {
-                "id": 1798730470,
-                "title": "isplanirati taskove",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Calendar/daily/2025-02-11.md",
-                "completed": ""
-            }
-        ],
         "Atlas/Personal/notes/having tasks or tickets belong to more than just one project could be useful in certain situations.md": [
             {
                 "id": 4155315329,
@@ -1171,30 +1158,6 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Clippings/OpenSSH Config File Examples.md",
-                "completed": ""
-            }
-        ],
-        "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md": [
-            {
-                "id": 2792956578,
-                "title": "install [[LGTM stack]]",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md",
-                "completed": ""
-            },
-            {
-                "id": 1732921629,
-                "title": "",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md",
                 "completed": ""
             }
         ]
@@ -4012,7 +3975,7 @@
         ],
         "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md": [
             {
-                "id": 3767373026,
+                "id": 3727813761,
                 "title": "install [[docker]]",
                 "body": [],
                 "time": "",
@@ -4025,7 +3988,7 @@
         ],
         "Calendar/daily/2025-02-11.md": [
             {
-                "id": 832094394,
+                "id": 2326861186,
                 "title": "platiti sve",
                 "body": [],
                 "time": "",
@@ -4036,7 +3999,7 @@
                 "completed": ""
             },
             {
-                "id": 3432683973,
+                "id": 3147619849,
                 "title": "[[Grafana is the goat... Let's deploy the LGTM stack]]",
                 "body": [],
                 "time": "",

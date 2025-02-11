@@ -8,34 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7e11fa6dfce5857b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calendar/daily/2025-02-11.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-02-11"
-            }
-          },
-          {
             "id": "86153a969eb8fe9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LGTM stack.md",
+                "file": "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LGTM stack"
+              "title": "Grafana is the goat... Let's deploy the LGTM stack"
+            }
+          },
+          {
+            "id": "1797346ff9ae5d89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/grafanaotel-lgtm - Docker Image  Docker Hub.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "grafanaotel-lgtm - Docker Image  Docker Hub"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -265,15 +266,21 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "7e11fa6dfce5857b",
+  "active": "1797346ff9ae5d89",
   "lastOpenFiles": [
+    "Prometheus⁠ metrics.md",
     "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md",
-    "Calendar/daily/2025-02-11.md",
+    "Tempo Trace.md",
+    "Clippings/grafanaotel-lgtm - Docker Image  Docker Hub.md",
     "LGTM stack.md",
+    "Clippings/SOLVED Invalid or Corrupted package (PGP signature)  Pacman & Package Upgrade Issues.md",
+    "how to fix trust issues on Hostinger VPS.md",
+    "keyring trust issue on second VPS.md",
+    "Clippings/Installing ZSH.md",
+    "Clippings/Neovim - ArchWiki.md",
+    "Calendar/daily/2025-02-11.md",
     "Graphana.md",
-    "Prometheus Tool.md",
     "Loki Logs.md",
-    "Tempo Tool.md",
     "Master Task List.md",
     "SSH.md",
     "Clippings/OpenSSH Config File Examples.md",
@@ -299,12 +306,6 @@
     "Yin-Yang/yin_yang/plugins/system.py",
     "Yin-Yang/yin_yang/plugins/only_office.py",
     "Yin-Yang/resources/README.md",
-    "Atlas/World/e-gradani.md",
-    "Efforts/Ongoing/Vim Mastery/Markdown + Vim.md",
-    "new.md",
-    "Efforts/Active/Kuca/dokumentacija za kredit Damir.md",
-    "Atlas/World/BON 2.md",
-    "Clippings/e-Dugovanja (bivše e-Blokade) - gov.hr.md",
     "tasks pic.canvas",
     "x/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"

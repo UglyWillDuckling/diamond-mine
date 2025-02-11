@@ -567,6 +567,9 @@ rg
 rx
 rect
 rsa
+reopen
+reimport
+rm
 status
 ssl
 syncing
@@ -1452,6 +1455,13 @@ showgrid
 stroke
 softwareengineer
 substituted
+spavam
+swap
+specially
+shells
+stadard
+signture
+stopping
 doesn
 due
 depends
@@ -2010,6 +2020,7 @@ deploy
 dsa
 drops
 disconnect
+derivatives
 work
 workin
 waiting
@@ -2769,6 +2780,8 @@ treats
 timeout
 threshold
 terminating
+taskove
+tabs
 previewLink
 persona
 plugin
@@ -3593,6 +3606,12 @@ pageopacity
 pagecheckerboard
 pogledaj
 proxyus
+pager
+packaged
+populating
+populate
+personalisation
+partners
 on
 out
 other
@@ -3953,6 +3972,7 @@ ogZ
 offset
 observability
 occurrence
+otel
 for
 file
 folders
@@ -4839,6 +4859,14 @@ ServerAliveInterval
 ServerAliveCountMax
 Specifies
 Sets
+Symlinking
+Sierra
+SHELL
+Solus
+Slackware
+Schwartz
+Sy
+Strictly
 Persona
 Portuguese
 Parisians
@@ -5261,6 +5289,13 @@ PJD
 Pj
 PyPy
 ProxyCommand
+Provides
+Pull
+Prevents
+PGP
+Preference
+Preferences
+Prometheus
 mail
 migrate
 mark
@@ -5715,6 +5750,11 @@ mFC
 mTV
 mckyobsidian
 maximized
+minimalistic
+macs
+mem
+marginal
+metrics
 copy
 connect
 contain
@@ -6469,6 +6509,8 @@ cL
 cyberciti
 crash
 computerWARNING
+companies
+collector
 error
 extremely
 existed
@@ -6919,6 +6961,11 @@ evaluate
 ecdsa
 extends
 encrypted
+expressive
+exiting
+elementary
+emulator
+eschwartz
 is
 in
 issue
@@ -7420,6 +7467,8 @@ isolate
 inkscape
 interval
 inactivity
+isplanirati
+identifiable
 Next
 Now
 Network
@@ -7633,6 +7682,9 @@ NF
 NOm
 Notifications
 Numeric
+Neovim
+Nvim
+Necessary
 Directories
 During
 Dutch
@@ -7984,6 +8036,7 @@ Desktops
 Donate
 Deno
 DSA
+Deepin
 Working
 World
 With
@@ -8203,6 +8256,7 @@ WCC
 Wad
 Woah
 Wallpaper
+WSL
 This
 The
 Treba
@@ -8531,6 +8585,10 @@ TSf
 TN
 Telemetry
 Trusted
+Test
+Termux
+Targeting
+Tempo
 background
 between
 br
@@ -8965,6 +9023,9 @@ borderopacity
 breakfree
 blogpost
 bashrc
+bol
+bolje
+blinking
 FFB
 French
 France
@@ -9261,6 +9322,8 @@ Fireship
 FIRESHIP
 ForwardAgent
 ForwardX
+Funtoo
+Functional
 CA
 Ceylon
 Caribbean
@@ -9741,6 +9804,12 @@ CM
 Contributors
 Conda
 Chat
+Comes
+Cursor
+Centos
+Consent
+Cookies
+Components
 all
 again
 and
@@ -10304,6 +10373,13 @@ aws
 apache
 alive
 aliased
+aiming
+assuming
+alert
+aggregated
+anonymous
+advertising
+adverts
 had
 his
 houses
@@ -10877,6 +10953,7 @@ namedview
 nfs
 nixcraft
 nas
+neovim
 using
 useful
 until
@@ -11176,6 +11253,7 @@ uJ
 uWJozM
 ud
 userSpaceOnUse
+uniquely
 GitHub
 George
 God
@@ -11415,6 +11493,7 @@ Gd
 GY
 Gx
 GVK
+Gentoo
 Obisdian
 Origins
 Obtaining
@@ -11619,6 +11698,8 @@ Oj
 Oxv
 Owpc
 OnlyOffice
+OpenBSD
+OpenTelemetry
 version
 very
 volume
@@ -11864,6 +11945,8 @@ vxD
 vRV
 venv
 vscode
+visits
+visitors
 Arabia
 Arabs
 Africa
@@ -12306,6 +12389,9 @@ Ant
 AhIVQS
 Ability
 Append
+Assuming
+Alpine
+APT
 Muslim
 Mecca
 Mail
@@ -12694,6 +12780,10 @@ Mawz
 MU
 MgO
 Miscellaneous
+Migrating
+Mint
+Manjaro
+MSYS
 long
 left
 later
@@ -13010,6 +13100,8 @@ linearGradient
 linejoin
 lighting
 lan
+ledima
+lgtm
 By
 Baba
 Budan
@@ -13338,6 +13430,9 @@ Bl
 Bc
 Bj
 Budgie
+BASH
+Busybox
+Backend
 In
 Indian
 Italy
@@ -13849,6 +13944,8 @@ EFj
 Ex
 Ed
 ECDSA
+Expected
+Eli
 Lanka
 Let
 Looks
@@ -14086,6 +14183,10 @@ LjN
 Ln
 LGTM
 LocalForward
+LiBed
+Lua
+Lastplace
+Loki
 Java
 Job
 JMBAG
@@ -14508,6 +14609,7 @@ gradientTransform
 gradientUnits
 groupmode
 gateway
+grafana
 zadaci
 zeguel
 za
@@ -14771,6 +14873,7 @@ jH
 jjQ
 jL
 jC
+jansson
 Hello
 However
 Here
@@ -14990,6 +15093,7 @@ HgK
 HOME
 HostName
 Home
+Helix
 Renewal
 Run
 Replace
@@ -15281,6 +15385,9 @@ RvP
 RED
 RB
 RE
+Replacing
+Recent
+Raspbian
 your
 you
 yet
@@ -15867,6 +15974,7 @@ ktJ
 kC
 kD
 kFJ
+koncetracija
 xethred
 xml
 xmlns
@@ -16394,6 +16502,7 @@ Vv
 Vcz
 Vgt
 Viewing
+Void
 Quiz
 QA
 Questions
@@ -16621,6 +16730,8 @@ ZF
 ZEt
 Zw
 ZgZk
+Zsh
+Zorin
 XML
 XAMPP
 Xc

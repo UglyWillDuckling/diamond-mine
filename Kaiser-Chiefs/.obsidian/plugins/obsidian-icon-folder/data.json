@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCookingPot",
+      "🗄",
       "LiHammer",
       "🖥",
-      "LiLibraryBig",
-      "LiMusic4",
-      "🤔"
+      "LiLibraryBig"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -36,7 +36,6 @@
   },
   "Efforts/tasks": "LiCheckSquare2",
   "Efforts": "LiWeight",
-  "task board.md": "LiClipboardList",
   "Efforts/Active/Persona/Docs": "LiFolders",
   "Efforts/Active/Persona/Docs/Upute za mail konfiguraciju.md": "LiNotebookText",
   "Calendar/days": "LiCalendar",
@@ -59,7 +58,7 @@
   "Efforts/Active/Persona": "LiPersonStanding",
   "Efforts/Future": "LiFunctionSquare",
   "Efforts/Ongoing": "👟",
-  "Efforts/Simmering": "🍲",
+  "Efforts/Simmering": "LiCookingPot",
   "Efforts/Active": {
     "iconName": "LiStar",
     "iconColor": "#fee648"
@@ -73,5 +72,6 @@
   "Efforts/Undefined": "🤔",
   "Efforts/Simmering/See how to manage your library.md": "LiLibraryBig",
   "Efforts/Ongoing/PC Maintenance": "🖥",
-  "Atlas/Tools": "LiHammer"
+  "Atlas/Tools": "LiHammer",
+  "Efforts/Undefined/Office Tasks.md": "🗄"
 }

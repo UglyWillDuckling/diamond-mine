@@ -2,7 +2,7 @@
   "choices": [
     {
       "id": "2ad99686-91d4-42a4-9cbe-2e60a36b7eb2",
-      "name": "New Task",
+      "name": "New Task ✅",
       "type": "Capture",
       "command": true,
       "appendLink": false,
@@ -76,6 +76,41 @@
       "type": "Macro",
       "command": true,
       "macroId": "03030d5f-1ce3-44b1-99dd-9d28a24ce657"
+    },
+    {
+      "id": "c406b8bf-deaa-4cde-bf01-6f774a8be45c",
+      "name": "Thought 💭",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "#thought #note #new"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
     }
   ],
   "macros": [

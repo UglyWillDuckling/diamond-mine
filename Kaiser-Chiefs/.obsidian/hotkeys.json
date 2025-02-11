@@ -84,12 +84,6 @@
   "editor:toggle-source": [
     {
       "modifiers": [
-        "Alt"
-      ],
-      "key": "S"
-    },
-    {
-      "modifiers": [
         "Mod"
       ],
       "key": "S"

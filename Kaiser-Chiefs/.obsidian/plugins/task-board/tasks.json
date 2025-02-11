@@ -2,21 +2,7 @@
     "Pending": {
         "task board.md": [
             {
-                "id": 119233439,
-                "title": "[[configure tmux]] #task #backburner 🆔 gH7ToI",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [
-                    "#task",
-                    "#backburner"
-                ],
-                "priority": 0,
-                "filePath": "task board.md",
-                "completed": ""
-            },
-            {
-                "id": 880675623,
+                "id": 262371195,
                 "title": "[[setup obsidian on your phone📱]]",
                 "body": [],
                 "time": "",
@@ -27,7 +13,7 @@
                 "completed": ""
             },
             {
-                "id": 4147975087,
+                "id": 2050756481,
                 "title": "plati porez",
                 "body": [],
                 "time": "",
@@ -38,7 +24,7 @@
                 "completed": ""
             },
             {
-                "id": 3964931968,
+                "id": 2049560992,
                 "title": "investigate startup slow",
                 "body": [],
                 "time": "",
@@ -639,7 +625,7 @@
         ],
         "Master Task List.md": [
             {
-                "id": 382003156,
+                "id": 841210626,
                 "title": "#task build a New Movies list ⏳ 2025-02-09 📅 2025-02-10 🆔 qiGLZM",
                 "body": [
                     "\t- create new movie entries in the process"
@@ -654,33 +640,35 @@
                 "completed": ""
             },
             {
-                "id": 3198681637,
-                "title": "#task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-02-09 🆔 iD0UCB",
-                "body": [],
-                "time": "",
-                "due": "2025-02-09",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 0,
-                "filePath": "Master Task List.md",
-                "completed": ""
-            },
-            {
-                "id": 3235788395,
-                "title": "#task pocistiti Downloads folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-10 🆔 0oe1mt",
+                "id": 3744266916,
+                "title": "#task pocistiti Downloads folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-10 🆔 0oe1mt #tiny",
                 "body": [],
                 "time": "",
                 "due": "2025-02-10",
                 "tags": [
-                    "#task"
+                    "#task",
+                    "#tiny"
                 ],
                 "priority": 3,
                 "filePath": "Master Task List.md",
                 "completed": ""
             },
             {
-                "id": 194235625,
+                "id": 3420812320,
+                "title": "#task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-02-10 🆔 iD0UCB #habbit",
+                "body": [],
+                "time": "",
+                "due": "2025-02-10",
+                "tags": [
+                    "#task",
+                    "#habbit"
+                ],
+                "priority": 0,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 3353676946,
                 "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
                 "body": [],
                 "time": "",
@@ -694,14 +682,14 @@
                 "completed": ""
             },
             {
-                "id": 846866109,
-                "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-09",
+                "id": 1066414637,
+                "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-17",
                 "body": [
                     "\t- check online",
                     "\t- create **real** tasks"
                 ],
                 "time": "",
-                "due": "2025-02-09",
+                "due": "2025-02-17",
                 "tags": [
                     "#task"
                 ],
@@ -1133,34 +1121,88 @@
                 "filePath": "Efforts/Active/Kuca/dokumentacija za kredit Damir.md",
                 "completed": ""
             }
+        ],
+        "Atlas/Tools/pc/Yin-Yang program.md": [
+            {
+                "id": 3522213356,
+                "title": "remind me (@2025-03-03)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Tools/pc/Yin-Yang program.md",
+                "completed": ""
+            }
+        ],
+        "Calendar/daily/2025-02-11.md": [
+            {
+                "id": 1798730470,
+                "title": "isplanirati taskove",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025-02-11.md",
+                "completed": ""
+            }
+        ],
+        "Atlas/Personal/notes/having tasks or tickets belong to more than just one project could be useful in certain situations.md": [
+            {
+                "id": 4155315329,
+                "title": "remind me (@2025-02-18)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Personal/notes/having tasks or tickets belong to more than just one project could be useful in certain situations.md",
+                "completed": ""
+            }
+        ],
+        "Clippings/OpenSSH Config File Examples.md": [
+            {
+                "id": 3050164467,
+                "title": "remind me (@2025-02-25)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/OpenSSH Config File Examples.md",
+                "completed": ""
+            }
+        ],
+        "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md": [
+            {
+                "id": 2792956578,
+                "title": "install [[LGTM stack]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md",
+                "completed": ""
+            },
+            {
+                "id": 1732921629,
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md",
+                "completed": ""
+            }
         ]
     },
     "Completed": {
         "task board.md": [
             {
-                "id": 2666059346,
-                "title": "[[Obnova dopunskog osiguranja]]",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "task board.md",
-                "completed": ""
-            },
-            {
-                "id": 3442957933,
-                "title": "add a quicka add to add a new task to this board 🔲",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "task board.md",
-                "completed": ""
-            },
-            {
-                "id": 2775852447,
+                "id": 1453952196,
                 "title": "[[see why yay won't update]]",
                 "body": [],
                 "time": "",
@@ -1171,7 +1213,7 @@
                 "completed": ""
             },
             {
-                "id": 134210631,
+                "id": 805821568,
                 "title": "[[review Hugama studio]]",
                 "body": [],
                 "time": "",
@@ -1182,7 +1224,7 @@
                 "completed": ""
             },
             {
-                "id": 31397064,
+                "id": 2350141718,
                 "title": "Notion subscription",
                 "body": [],
                 "time": "",
@@ -1193,7 +1235,7 @@
                 "completed": ""
             },
             {
-                "id": 1486669521,
+                "id": 1077864055,
                 "title": "try to remove the **default** folder icon 📁",
                 "body": [],
                 "time": "",
@@ -1204,7 +1246,7 @@
                 "completed": ""
             },
             {
-                "id": 355499255,
+                "id": 1050760250,
                 "title": "[[fix shortcuts on PC]]",
                 "body": [],
                 "time": "",
@@ -1215,7 +1257,7 @@
                 "completed": ""
             },
             {
-                "id": 1583961179,
+                "id": 3373265150,
                 "title": "hello @{2024-11-09}",
                 "body": [],
                 "time": "",
@@ -1226,7 +1268,7 @@
                 "completed": ""
             },
             {
-                "id": 3416969226,
+                "id": 3651848870,
                 "title": "platiti porez",
                 "body": [],
                 "time": "",
@@ -1237,7 +1279,7 @@
                 "completed": ""
             },
             {
-                "id": 928113402,
+                "id": 4097576772,
                 "title": "poslati mail profesorici iz Matematike [[poslati mailove za upis na predmete]]",
                 "body": [],
                 "time": "",
@@ -1248,7 +1290,7 @@
                 "completed": ""
             },
             {
-                "id": 486078336,
+                "id": 2845083838,
                 "title": "[[review fizio]] #task ✅ 2024-12-17",
                 "body": [],
                 "time": "",
@@ -1261,7 +1303,7 @@
                 "completed": "2024-12-17"
             },
             {
-                "id": 3331504046,
+                "id": 2501244834,
                 "title": "[[platiti Elan]]",
                 "body": [],
                 "time": "",
@@ -1272,7 +1314,7 @@
                 "completed": ""
             },
             {
-                "id": 942999078,
+                "id": 3390970321,
                 "title": "[[setup obsidian repo on mobile]] #task ✅ 2024-12-17",
                 "body": [],
                 "time": "",
@@ -1285,7 +1327,7 @@
                 "completed": "2024-12-17"
             },
             {
-                "id": 929254150,
+                "id": 1749735130,
                 "title": "[[use the timeline and daily tasks ✅]]",
                 "body": [],
                 "time": "",
@@ -1296,7 +1338,7 @@
                 "completed": ""
             },
             {
-                "id": 1465883230,
+                "id": 4078463491,
                 "title": "[[registracija auta]]",
                 "body": [],
                 "time": "",
@@ -1307,7 +1349,7 @@
                 "completed": ""
             },
             {
-                "id": 2968057265,
+                "id": 1411660621,
                 "title": "[[provjeriti techdot domenu]]",
                 "body": [],
                 "time": "",
@@ -1318,7 +1360,7 @@
                 "completed": ""
             },
             {
-                "id": 3092896278,
+                "id": 3605976477,
                 "title": "[[Setup hosting - send email to hostinger]]",
                 "body": [],
                 "time": "",
@@ -1329,7 +1371,7 @@
                 "completed": ""
             },
             {
-                "id": 3552465069,
+                "id": 1886354701,
                 "title": "[[Poslati dokumente na Kompare.hr]]",
                 "body": [],
                 "time": "",
@@ -1340,7 +1382,7 @@
                 "completed": ""
             },
             {
-                "id": 2612565883,
+                "id": 217934996,
                 "title": "[[HAK - obnoviti clanstvo]]",
                 "body": [],
                 "time": "",
@@ -1351,7 +1393,7 @@
                 "completed": ""
             },
             {
-                "id": 910983293,
+                "id": 2551181927,
                 "title": "[[fix obsidian on PC]] #task ✅ 2025-01-18",
                 "body": [],
                 "time": "",
@@ -1364,7 +1406,7 @@
                 "completed": "2025-01-18"
             },
             {
-                "id": 344213117,
+                "id": 2240941167,
                 "title": "#task [[platit racune]] 🔺 ✅ 2025-01-13",
                 "body": [],
                 "time": "",
@@ -1377,7 +1419,7 @@
                 "completed": "2025-01-13"
             },
             {
-                "id": 3540330470,
+                "id": 127985403,
                 "title": "[[Setup hosting]] 📡",
                 "body": [],
                 "time": "",
@@ -1386,28 +1428,6 @@
                 "priority": 0,
                 "filePath": "task board.md",
                 "completed": ""
-            },
-            {
-                "id": 2666059346,
-                "title": "[[Obnova dopunskog osiguranja]]",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "task board.md",
-                "completed": "2025-02-03/19:08"
-            },
-            {
-                "id": 2666059346,
-                "title": "[[Obnova dopunskog osiguranja]]",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "task board.md",
-                "completed": "2025-02-03/19:08"
             }
         ],
         "Efforts/tasks/archive/srediti troskovnik/srediti troskovnik.md": [
@@ -3933,6 +3953,97 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "platiti racune.md",
+                "completed": ""
+            }
+        ],
+        "new 2 year hosting.md": [
+            {
+                "id": 3335282515,
+                "title": "#task pogledaj 2 godine [[hostinger]] hostinga + Fireship 10% popust #tiny 🔼 ⏳ 2025-02-11 📅 2025-02-11",
+                "body": [
+                    "\t- [[new 2 year hosting]]"
+                ],
+                "time": "",
+                "due": "2025-02-11",
+                "tags": [
+                    "#task",
+                    "#tiny"
+                ],
+                "priority": 0,
+                "filePath": "new 2 year hosting.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Ongoing/VPS/new 2 year hosting.md": [
+            {
+                "id": 551149122,
+                "title": "#task pogledaj 2 godine [[hostinger]] hostinga + Fireship 10% popust #tiny 🔼 ⏳ 2025-02-11 📅 2025-02-11",
+                "body": [
+                    "\t- [[new 2 year hosting]]"
+                ],
+                "time": "",
+                "due": "2025-02-11",
+                "tags": [
+                    "#task",
+                    "#tiny"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Ongoing/VPS/new 2 year hosting.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Ongoing/VPS/second VPS.md": [
+            {
+                "id": 3900310752,
+                "title": "#task pogledaj 2 godine [[hostinger]] hostinga + Fireship 10% popust #tiny 🔼 ⏳ 2025-02-11 📅 2025-02-11",
+                "body": [
+                    "\t- [[second VPS]]"
+                ],
+                "time": "",
+                "due": "2025-02-11",
+                "tags": [
+                    "#task",
+                    "#tiny"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Ongoing/VPS/second VPS.md",
+                "completed": ""
+            }
+        ],
+        "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md": [
+            {
+                "id": 3767373026,
+                "title": "install [[docker]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md",
+                "completed": ""
+            }
+        ],
+        "Calendar/daily/2025-02-11.md": [
+            {
+                "id": 832094394,
+                "title": "platiti sve",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025-02-11.md",
+                "completed": ""
+            },
+            {
+                "id": 3432683973,
+                "title": "[[Grafana is the goat... Let's deploy the LGTM stack]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025-02-11.md",
                 "completed": ""
             }
         ]

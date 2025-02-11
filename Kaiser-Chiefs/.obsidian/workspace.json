@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "57336503c668b7dd",
+        "id": "237b302bb4ee1ea2",
         "type": "tabs",
         "children": [
           {
-            "id": "3189e83078dac039",
+            "id": "7e11fa6dfce5857b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Efforts/Active/Kuca/docs/zemljisni podaci.md",
+                "file": "Calendar/daily/2025-02-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "zemljisni podaci"
+              "title": "2025-02-11"
+            }
+          },
+          {
+            "id": "86153a969eb8fe9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LGTM stack.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LGTM stack"
             }
           }
         ]
@@ -41,17 +55,45 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
+            }
+          },
+          {
+            "id": "712488661cbfc149",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8cc700f05ddb6912",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 447.5
+    "width": 306.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -223,44 +265,46 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "3189e83078dac039",
+  "active": "7e11fa6dfce5857b",
   "lastOpenFiles": [
+    "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md",
+    "Calendar/daily/2025-02-11.md",
+    "LGTM stack.md",
+    "Graphana.md",
+    "Prometheus Tool.md",
+    "Loki Logs.md",
+    "Tempo Tool.md",
+    "Master Task List.md",
+    "SSH.md",
+    "Clippings/OpenSSH Config File Examples.md",
+    "Efforts/Ongoing/VPS/second VPS.md",
+    "Efforts/Ongoing/VPS",
+    "new tought.md",
+    "Clippings/Managing Python.md",
     "Efforts/Active/Kuca/docs/zemljisni podaci.md",
-    "Efforts/Active/Kuca/docs/dokumenti x/DOH-2023.pdf",
+    "Atlas/Tools/pc/Yin-Yang program.md",
+    "tasks canvas.canvas",
+    "Efforts/Undefined/Office Tasks.md",
+    "task board.md",
+    "Yin-Yang/resources/logo.svg",
+    "Yin-Yang/README.md",
+    "converting yaml to toml command line tools for convert.md",
     "Efforts/Active/Kuca/docs/dokumenti x/Potvda o blokadi računa i novčanih sredstava.pdf",
-    "Efforts/Active/Kuca/docs/dokumenti x",
-    "Efforts/Active/Kuca/docs/dokumenti x/DOH-2024.pdf",
+    "Yin-Yang/yin_yang/ui/resources_rc.py",
+    "Yin-Yang/yin_yang/ui/main_window_connector.py",
+    "Yin-Yang/yin_yang/ui/main_window.py",
+    "Yin-Yang/yin_yang/ui/__init__.py",
+    "Yin-Yang/yin_yang/plugins/wallpaper.py",
+    "Yin-Yang/yin_yang/plugins/vscode.py",
+    "Yin-Yang/yin_yang/plugins/system.py",
+    "Yin-Yang/yin_yang/plugins/only_office.py",
+    "Yin-Yang/resources/README.md",
     "Atlas/World/e-gradani.md",
     "Efforts/Ongoing/Vim Mastery/Markdown + Vim.md",
-    "Master Task List.md",
     "new.md",
     "Efforts/Active/Kuca/dokumentacija za kredit Damir.md",
     "Atlas/World/BON 2.md",
     "Clippings/e-Dugovanja (bivše e-Blokade) - gov.hr.md",
-    "Clippings/Što su e-Dugovanja Saznajte više!  BE-ON d.o.o..md",
-    "Clippings/Kako izvaditi e-radnu knjižicu s e-Građana.md",
-    "Clippings/Kako izvaditi potvrdu o prebivalištu ili boravištu preko interneta.md",
-    "Clippings/convfmt - crates.io Rust Package Registry.md",
-    "Clippings/yaml2toml-converter.md",
-    "converting yaml to toml command line tools for convert.md",
-    "Clippings/toml-cli.md",
-    "Atlas/Tools/markdown-wiki Vim.md",
-    "mckyobsidian-cli~",
-    "new.md~",
-    "mckyobsidian-cli",
-    "Atlas/Knowledge/howtos/new rust cli appo.md",
-    "Efforts/Ongoing/Vim Mastery/Vim Mastery.md",
-    "Efforts/Ongoing/Vim Mastery",
-    "Atlas/Dev/notes/Golden Topaz is great for reading.md",
-    "Atlas/Personal/notes/Vim mapping for resume search.md",
-    "Atlas/Personal/notes/Varivo.md",
-    "Efforts/Active/Obsidian Tinkering/Obsidian CLI tools and automations.md",
-    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
-    "Clippings/mckyobsidian-cli.md",
-    "Atlas/Knowledge/howtos/Elan procedura za placanje.md",
-    "Efforts/Ongoing/PC",
-    "Efforts/Ongoing/PC Maintenance",
-    "tasks canvas.canvas",
     "tasks pic.canvas",
     "x/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"

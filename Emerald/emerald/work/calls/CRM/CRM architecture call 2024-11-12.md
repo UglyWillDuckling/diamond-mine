@@ -13,7 +13,7 @@ project.
 ## who
 [[luna team]]
 
-- [ ] remind me (@[[2025-02-10]] 10:54)   maybe use this as a **template**
+- [ ] remind me (@[[2025-02-18]])   maybe use this as a **template**
 ---
 ## notes 🗒
 - maybe we will use [[Vonage]] instead of [[Diabolocom]]

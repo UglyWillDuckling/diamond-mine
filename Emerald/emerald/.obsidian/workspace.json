@@ -15,7 +15,7 @@
               "state": {
                 "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
@@ -26,14 +26,18 @@
             "id": "713abba777e0065c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "+/prije slanja nekog dijela koda,izmjena - najbolje napraviti test.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "prije slanja nekog dijela koda,izmjena - najbolje napraviti test"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -75,13 +79,22 @@
               "icon": "lucide-search",
               "title": "Search"
             }
+          },
+          {
+            "id": "b6bc225df823ce9f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 391.5,
-    "collapsed": true
+    "width": 265.5
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -184,6 +197,26 @@
               "icon": "clock",
               "title": "Reminders"
             }
+          },
+          {
+            "id": "ce163a992f67ad4d",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "22f567bc02f22b01",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
           }
         ],
         "currentTab": 3
@@ -218,10 +251,23 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "713abba777e0065c",
+  "active": "5bdc64da78050927",
   "lastOpenFiles": [
-    "work/tickets/FEAT/QSL listing feature/qsl production deployment.md",
+    "x/HOC Invoice October.pdf",
+    "x/Dann Bergs Daily Note.md",
     "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+    "x/dfac35ab27f0ebb1b93fbfd80ef2c36a_MD5.jpg",
+    "x/d516326fd4ed9087f77414294591ccf6_MD5.png",
+    "x/be3a0f383e0959645eefa8e3df59270a_MD5.jpg",
+    "x/Brave New Words - Salman Khan.jpg",
+    "x/Architecture-of-email-system-13.png",
+    "x/1f1ee051c7b1a60237f066926c6f9f7a_MD5.jpg",
+    "x/66e906929963092b83c261c8f84a966e_MD5.png",
+    "x/01b8a2f8e213990fa073aba07a2188d2_MD5.png",
+    "x/0df0870fc39c2be1755196cb5a11bb65_MD5.png",
+    "work/tickets/FEAT/QSL listing feature/qsl production deployment.md",
+    "+/prije slanja nekog dijela koda,izmjena - najbolje napraviti test.md",
+    "Knowledge/daily_notes/2025/February/2025-02-11.md",
     "work/tickets/FEAT/QSL listing feature/qsl cron.md",
     "work/docs/backyard/backyard-tasks.md",
     "work/tickets/FEAT/QSL listing feature/subs/cronjob implementation.md",
@@ -244,23 +290,10 @@
     "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
     "Knowledge/templates/call template.md",
     "work/calls/temp.md",
-    "Knowledge/tools/obsidian/dataview/Dataview using date as a filter.md",
-    "Knowledge/tools/obsidian/dataview/dataview.md",
-    "Clippings/Dataview Date Formatting.md",
-    "work/calls/SPRINT/PLANNING/Planning 2025-02-10.md",
     "Knowledge/tools/obsidian/dataview",
     "Knowledge/World",
     "work/calls/SPRINT/Untitled",
-    "x/0df0870fc39c2be1755196cb5a11bb65_MD5.png",
     "x/249c294c60af5298fa4d1da1d0cd7174_MD5.png",
-    "x/d516326fd4ed9087f77414294591ccf6_MD5.png",
-    "x/66e906929963092b83c261c8f84a966e_MD5.png",
-    "x/01b8a2f8e213990fa073aba07a2188d2_MD5.png",
-    "x/a97a75bc8e1cee1b9ae03f4932b05b83_MD5.png",
-    "x/be3a0f383e0959645eefa8e3df59270a_MD5.jpg",
-    "x/1f1ee051c7b1a60237f066926c6f9f7a_MD5.jpg",
-    "x/dfac35ab27f0ebb1b93fbfd80ef2c36a_MD5.jpg",
-    "x/d4aed17d7f1d69a2485adcf4932c25ce_MD5.jpg",
     "Knowledge/Articles/Untitled.canvas",
     "Knowledge/Articles/Untitled 1.canvas",
     "Knowledge/Articles/Obsidian",

@@ -1,7 +1,7 @@
 
 #ticket 
 
-- [/] #task **plan** out [[qsl production deployment|prod deployment]] ⏫ ⏳ 2025-02-10 📅 2025-02-10
+- [/] #task **plan** out [[qsl production deployment|prod deployment]] ⏫ ⏳ 2025-02-10 📅 2025-02-11 🆔 KAs9n1
 	- [x] deployment
 	- [x] testing
 ### the plan

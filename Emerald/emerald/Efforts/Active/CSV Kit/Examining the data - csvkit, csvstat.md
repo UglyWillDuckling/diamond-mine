@@ -4,6 +4,7 @@ source: https://csvkit.readthedocs.io/en/latest/tutorial/2_examining_the_data.ht
 tags:
   - howto/csvkit/data
   - docs/csvkit
+  - tutorial
 related:
   - "[[csvstat]]"
   - "[[csvkit]]"
@@ -74,11 +75,12 @@ Lastly, the `ship_date` column (type `Date`) shows us that the earliest data is 
 
 As a journalist, this quick glance at the data gave me a tremendous amount of information about the dataset. Although we have to be careful about assuming too much from this quick glance (always double-check the numbers mean what you think they mean!) it can be an invaluable way to familiarize yourself with a new dataset.
 
-## 2.2. csvgrep: find the data you need[¶](https://csvkit.readthedocs.io/en/latest/tutorial/#csvgrep-find-the-data-you-need "Link to this heading")
+## 2.2. [[csvgrep - csvkit|csvgrep]]: find the data you need
 
-After reviewing the summary statistics you might wonder what equipment was received by a particular county. To get a simple answer to the question we can use [csvgrep](https://csvkit.readthedocs.io/en/latest/scripts/csvgrep.html) to search for the state’s name amongst the rows. Let’s also use [csvcut](https://csvkit.readthedocs.io/en/latest/scripts/csvcut.html) to just look at the columns we care about and [csvlook](https://csvkit.readthedocs.io/en/latest/scripts/csvlook.html) to format the output:
+After reviewing the summary statistics you might wonder what equipment was received by a particular county. To get a simple answer to the question we can use [csvgrep](https://csvkit.readthedocs.io/en/latest/scripts/csvgrep.html) to search for the state’s name amongst the rows. 
+Let’s also use [csvcut](https://csvkit.readthedocs.io/en/latest/scripts/csvcut.html) to just look at the columns we care about and [csvlook](https://csvkit.readthedocs.io/en/latest/scripts/csvlook.html) to format the output:
 
-```console
+```bash
 $ csvcut -c county,item_name,total_cost data.csv | csvgrep -c county -m LANCASTER | csvlook
 | county    | item_name                      | total_cost |
 | --------- | ------------------------------ | ---------- |
@@ -102,13 +104,15 @@ $ csvcut -c county,item_name,total_cost data.csv | csvgrep -c county -m LANCASTE
 | LANCASTER | IMAGE INTENSIFIER,NIGHT VISION |      6,800 |
 ```
 
-`LANCASTER` county contains Lincoln, Nebraska, the capital of the state and its second-largest city. The `-m` flag means “match” and will find text anywhere in a given column–in this case the `county` column. For those who need a more powerful search you can also use `-r` to search for a regular expression.
+`LANCASTER` county contains Lincoln, Nebraska, the capital of the state and its second-largest city. 
 
-## 2.3. csvsort: order matters[¶](https://csvkit.readthedocs.io/en/latest/tutorial/#csvsort-order-matters "Link to this heading")
+**The `-m` flag means “match” and will find text anywhere in a given column–in this case the `county` column. For those who need a more powerful search you can also use `-r` to search for a regular expression.**
+
+## 2.3. [[csvsort - csvkit]]: order matters[¶](https://csvkit.readthedocs.io/en/latest/tutorial/#csvsort-order-matters "Link to this heading")
 
 Now let’s use [csvsort](https://csvkit.readthedocs.io/en/latest/scripts/csvsort.html) to sort the rows by the `total_cost` column, in reverse (descending) order:
 
-```console
+```bash
 $ csvcut -c county,item_name,total_cost data.csv | csvgrep -c county -m LANCASTER | csvsort -c total_cost -r | csvlook
 | county    | item_name                      | total_cost |
 | --------- | ------------------------------ | ---------- |
@@ -134,8 +138,8 @@ $ csvcut -c county,item_name,total_cost data.csv | csvgrep -c county -m LANCASTE
 
 Two interesting things should jump out about this sorted data: that `LANCASTER` county got a very expensive `MINE RESISTANT VEHICLE` and that it also go three other `LIGHT ARMORED VEHICLE`.
 
-What commands would you use to figure out if other counties also received large numbers of vehicles?
+- ? What commands would you use to figure out if other counties also received large numbers of vehicles?
 
-## 2.4. Summing up[¶](https://csvkit.readthedocs.io/en/latest/tutorial/#summing-up "Link to this heading")
+## 2.4. Summing up
 
-At this point you should be able to use csvkit to investigate the basic properties of a dataset. If you understand this section, you should be ready to move onto [Power tools](https://csvkit.readthedocs.io/en/latest/tutorial/3_power_tools.html).
+At this point you should be able to use csvkit to investigate the basic properties of a dataset. If you understand this section, you should be ready to move onto [[Power tools - csvkit,csvsql]]

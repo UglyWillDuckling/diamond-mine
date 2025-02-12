@@ -119,7 +119,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "```js quickadd\nreturn await this.app.plugins.plugins['obsidian-tasks-plugin'].apiV1.createTaskLineModal();\n```"
+        "format": "```js quickadd\nreturn await this.app.plugins.plugins['obsidian-tasks-plugin'].apiV1.createTaskLineModal();\n```\n"
       },
       "insertAfter": {
         "enabled": true,
@@ -132,7 +132,7 @@
       "prepend": false,
       "task": false,
       "openFileInNewTab": {
-        "enabled": false,
+        "enabled": true,
         "direction": "vertical",
         "focus": true
       },

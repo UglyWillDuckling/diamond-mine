@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md",
+                "file": "Calendar/daily/2025-02-12.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Grafana is the goat... Let's deploy the LGTM stack"
+              "title": "2025-02-12"
             }
           },
           {
-            "id": "1797346ff9ae5d89",
+            "id": "864a5c79988e704c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/grafanaotel-lgtm - Docker Image  Docker Hub.md",
+                "file": "Master Task List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "grafanaotel-lgtm - Docker Image  Docker Hub"
+              "title": "Master Task List"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.51103591918945,
-    "collapsed": true
+    "width": 306.51103591918945
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -266,12 +265,16 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "1797346ff9ae5d89",
+  "active": "864a5c79988e704c",
   "lastOpenFiles": [
-    "Prometheus⁠ metrics.md",
+    "Calendar/daily/2025-02-12.md",
+    "Clippings/Flamingo Framework.md",
+    "Atlas/Personal/notes/Senka Zoom Link.md",
+    "Senka.md",
     "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md",
-    "Tempo Trace.md",
     "Clippings/grafanaotel-lgtm - Docker Image  Docker Hub.md",
+    "Prometheus⁠ metrics.md",
+    "Tempo Trace.md",
     "LGTM stack.md",
     "Clippings/SOLVED Invalid or Corrupted package (PGP signature)  Pacman & Package Upgrade Issues.md",
     "how to fix trust issues on Hostinger VPS.md",
@@ -292,10 +295,7 @@
     "Atlas/Tools/pc/Yin-Yang program.md",
     "tasks canvas.canvas",
     "Efforts/Undefined/Office Tasks.md",
-    "task board.md",
     "Yin-Yang/resources/logo.svg",
-    "Yin-Yang/README.md",
-    "converting yaml to toml command line tools for convert.md",
     "Efforts/Active/Kuca/docs/dokumenti x/Potvda o blokadi računa i novčanih sredstava.pdf",
     "Yin-Yang/yin_yang/ui/resources_rc.py",
     "Yin-Yang/yin_yang/ui/main_window_connector.py",
@@ -305,7 +305,6 @@
     "Yin-Yang/yin_yang/plugins/vscode.py",
     "Yin-Yang/yin_yang/plugins/system.py",
     "Yin-Yang/yin_yang/plugins/only_office.py",
-    "Yin-Yang/resources/README.md",
     "tasks pic.canvas",
     "x/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"

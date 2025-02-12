@@ -1091,246 +1091,6 @@
         ]
       }
     },
-    "QSL": {
-      "main": {
-        "id": "896fb77528c50fee",
-        "type": "split",
-        "children": [
-          {
-            "id": "500719640c66538f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "5bdc64da78050927",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "QSL listing feature"
-                }
-              },
-              {
-                "id": "ae509fed38e6c4ef",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/production deployment.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "production deployment"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "abf2911f56f916d8",
-        "type": "split",
-        "children": [
-          {
-            "id": "396d97731e40095f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "688b3d615137a273",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "2fd0f24bea1de5b8",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "3917ba887ee80a77",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#task",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "horizontal",
-        "width": 391.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "0bce692d28de0848",
-        "type": "split",
-        "children": [
-          {
-            "id": "65b8ffe11667d608",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "bae038ccea34ead9",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "4c75dd1dc94107ca",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for QSL listing feature"
-                }
-              },
-              {
-                "id": "a677e5cf3e3fb9c3",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from QSL listing feature"
-                }
-              },
-              {
-                "id": "c61722d2f0288e0a",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/docs/Notes on prod deploy of QSL.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of cronjob implementation"
-                }
-              },
-              {
-                "id": "4a7e351c6d81ef9d",
-                "type": "leaf",
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {},
-                  "icon": "spreadsheet",
-                  "title": "Advanced Tables"
-                }
-              },
-              {
-                "id": "0e6e2f0605f1f714",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "53413e7c51cbe051",
-                "type": "leaf",
-                "state": {
-                  "type": "reminder-list",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Reminders"
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "horizontal",
-        "width": 365.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-          "juggl:Juggl global graph": false,
-          "graph:Open graph view": false,
-          "workspaces:Manage workspace layouts": false,
-          "templater-obsidian:Templater": false,
-          "quickadd:QuickAdd": true,
-          "obsidian-book-search-plugin:Create new book note": true,
-          "obsidian42-brat:BRAT": true,
-          "audio-recorder:Start/stop recording": false,
-          "switcher:Open quick switcher": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "obsidian-kanban:Create new board": false,
-          "zk-prefixer:Create new unique note": false,
-          "callout-manager:Insert Callout": false,
-          "cmdr:Graph view: Open local graph": false,
-          "cmdr:Workspaces: Manage workspace layouts": false,
-          "cmdr:Daily notes: Open today's daily note": false
-        }
-      },
-      "active": "ae509fed38e6c4ef",
-      "mtime": "2025-02-10T15:24:44+01:00"
-    },
     "tasks": {
       "main": {
         "id": "896fb77528c50fee",
@@ -2178,37 +1938,22 @@
         "type": "split",
         "children": [
           {
-            "id": "500719640c66538f",
+            "id": "159181fa3e74a269",
             "type": "tabs",
             "children": [
               {
-                "id": "87a267d31c716b7d",
+                "id": "696814d3952bc08e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Clippings/Examining the data - csvkit.md",
+                    "file": "Efforts/Active/CSV Kit/Power tools - csvkit,csvsql.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "Examining the data - csvkit"
-                }
-              },
-              {
-                "id": "c2eb562264a5bd70",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Knowledge/daily_notes/2025/February/2025-02-11.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "2025-02-11"
+                  "title": "Power tools - csvkit,csvsql"
                 }
               }
             ]
@@ -2238,22 +1983,12 @@
                 }
               },
               {
-                "id": "2fd0f24bea1de5b8",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "3917ba887ee80a77",
+                "id": "068070505dd619de",
                 "type": "leaf",
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:tool",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -2263,14 +1998,43 @@
                   "icon": "lucide-search",
                   "title": "Search"
                 }
+              },
+              {
+                "id": "f1e3da73bacbb619",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
               }
-            ],
-            "currentTab": 2
+            ]
+          },
+          {
+            "id": "1ce1ad63807bae60",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "751acc16e5b428a8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Efforts/Active/CSV Kit/csv kit project.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "csv kit project"
+                }
+              }
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 391.5,
-        "collapsed": true
+        "width": 400.51103591918945
       },
       "right": {
         "id": "0bce692d28de0848",
@@ -2281,16 +2045,17 @@
             "type": "tabs",
             "children": [
               {
-                "id": "bae038ccea34ead9",
+                "id": "a677e5cf3e3fb9c3",
                 "type": "leaf",
                 "state": {
-                  "type": "tag",
+                  "type": "outgoing-link",
                   "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
+                    "file": "Efforts/Active/CSV Kit/Power tools - csvkit,csvsql.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
                   },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Power tools - csvkit,csvsql"
                 }
               },
               {
@@ -2299,7 +2064,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                    "file": "Efforts/Active/CSV Kit/Power tools - csvkit,csvsql.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2309,21 +2074,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for QSL listing feature"
-                }
-              },
-              {
-                "id": "a677e5cf3e3fb9c3",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from QSL listing feature"
+                  "title": "Backlinks for Power tools - csvkit,csvsql"
                 }
               },
               {
@@ -2332,27 +2083,32 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Clippings/Examining the data - csvkit.md",
+                    "file": "Efforts/Active/CSV Kit/Power tools - csvkit,csvsql.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Examining the data - csvkit"
+                  "title": "Outline of Power tools - csvkit,csvsql"
                 }
               },
               {
-                "id": "4a7e351c6d81ef9d",
+                "id": "fe71e7a22f2e8ba8",
                 "type": "leaf",
                 "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {},
-                  "icon": "spreadsheet",
-                  "title": "Advanced Tables"
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
                 }
               },
               {
-                "id": "0e6e2f0605f1f714",
+                "id": "3eba33c3a3136b9b",
                 "type": "leaf",
                 "state": {
                   "type": "all-properties",
@@ -2366,7 +2122,7 @@
                 }
               },
               {
-                "id": "53413e7c51cbe051",
+                "id": "b49794795697eb3d",
                 "type": "leaf",
                 "state": {
                   "type": "reminder-list",
@@ -2374,20 +2130,40 @@
                   "icon": "clock",
                   "title": "Reminders"
                 }
+              },
+              {
+                "id": "d42bd51dc7bf49c3",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_nodes",
+                  "state": {},
+                  "icon": "ag-node-list",
+                  "title": "Juggl nodes"
+                }
+              },
+              {
+                "id": "90039d53fcdf787b",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_style",
+                  "state": {},
+                  "icon": "ag-style",
+                  "title": "Juggl style"
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
-        "width": 365.5,
+        "width": 488.5,
         "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
           "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true,
           "juggl:Juggl global graph": false,
-          "graph:Open graph view": false,
+          "graph:Open graph view": true,
           "workspaces:Manage workspace layouts": false,
           "templater-obsidian:Templater": false,
           "quickadd:QuickAdd": true,
@@ -2408,9 +2184,9 @@
           "cmdr:Daily notes: Open today's daily note": false
         }
       },
-      "active": "87a267d31c716b7d",
-      "mtime": "2025-02-11T15:04:56+01:00"
+      "active": "696814d3952bc08e",
+      "mtime": "2025-02-12T13:11:56+01:00"
     }
   },
-  "active": "csvkit"
+  "active": "Work"
 }

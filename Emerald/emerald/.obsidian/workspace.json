@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6f29d70cd0542ed6",
+        "id": "8f2ec7bd9b5e7984",
         "type": "tabs",
         "children": [
           {
-            "id": "1785bef62649d12d",
+            "id": "76f76915a3842d83",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,21 +23,22 @@
             }
           },
           {
-            "id": "1d58e08f788006a7",
+            "id": "56866e1f439aaf4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/bugs/security issue - general file access.md",
+                "file": "work/tickets/Upload issue on extranet - LUNA-268.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "security issue - general file access"
+              "title": "Upload issue on extranet - LUNA-268"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#backyard/project",
+                "query": "tag:#artifact",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,12 +91,11 @@
               "title": "Search"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 391.5,
+    "width": 266.5,
     "collapsed": true
   },
   "right": {
@@ -106,6 +106,19 @@
         "id": "65b8ffe11667d608",
         "type": "tabs",
         "children": [
+          {
+            "id": "bae038ccea34ead9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
           {
             "id": "4c75dd1dc94107ca",
             "type": "leaf",
@@ -145,16 +158,17 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "work/tickets/Upload issue on extranet - LUNA-268.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Upload issue on extranet - LUNA-268"
             }
           },
           {
-            "id": "53413e7c51cbe051",
+            "id": "66215144ab6ceed1",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -164,52 +178,13 @@
             }
           },
           {
-            "id": "4032e8d905cbd82a",
+            "id": "4a7e351c6d81ef9d",
             "type": "leaf",
             "state": {
-              "type": "juggl_nodes",
+              "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
-            }
-          },
-          {
-            "id": "bce620978f4a1952",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "7dff4d3aecda43bb",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "753c1c3501ed40fc",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -217,18 +192,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5
+    "width": 474.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "juggl:Juggl global graph": false,
-      "graph:Open graph view": false,
-      "workspaces:Manage workspace layouts": false,
+      "graph:Open graph view": true,
+      "workspaces:Manage workspace layouts": true,
       "templater-obsidian:Templater": false,
       "quickadd:QuickAdd": true,
       "obsidian-book-search-plugin:Create new book note": true,
       "obsidian42-brat:BRAT": true,
+      "cmdr:Graph view: Open local graph": false,
+      "cmdr:Workspaces: Manage workspace layouts": false,
+      "cmdr:Daily notes: Open today's daily note": false,
       "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
@@ -238,40 +217,40 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-kanban:Create new board": false,
       "zk-prefixer:Create new unique note": false,
-      "callout-manager:Insert Callout": false,
-      "cmdr:Graph view: Open local graph": false,
-      "cmdr:Workspaces: Manage workspace layouts": false,
-      "cmdr:Daily notes: Open today's daily note": false
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "1785bef62649d12d",
+  "active": "56866e1f439aaf4a",
   "lastOpenFiles": [
-    "+/prije slanja nekog dijela koda,izmjena - najbolje napraviti test.md",
     "Knowledge/daily_notes/2025/February/2025-02-12.md",
+    "work/tickets/Upload issue on extranet - LUNA-268.md",
+    "Knowledge/daily_notes/2025/February/2025-02-10.md",
+    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+    "Efforts/Active/CSV Kit/Power tools - csvkit,csvsql.md",
+    "Efforts/Active/CSV Kit/csv kit project.md",
+    "Efforts/Active/CSV Kit/Examining the data - csvkit, csvstat.md",
+    "Clippings/csvstack - csvkit.md",
+    "Knowledge/tools/dev/csvkit.md",
+    "Efforts/Active/CSV Kit/csvsort - csvkit.md",
+    "dash canvas.canvas",
+    "obx_note_new.md",
+    "Knowledge/tools/dev/csvgrep - csvkit.md",
+    "Clippings/Getting started - csvkit.md",
+    "Knowledge/daily_notes/2025/February/2025-02-11.md",
+    "tasks canvas.canvas",
+    "Efforts/Active/CSV Kit",
+    "Clippings/csvcut - csvkit.md",
+    "Clippings/csvcut.md",
+    "Clippings/Arguments common to all tools - csvkit.md",
+    "Knowledge/tools/dev/in2csv - csvkit.md",
+    "Clippings/1. Getting started - csvkit 2.0.1 documentation 1.md",
+    "Clippings/csvsql.md",
     "work/bugs/security issue - general file access.md",
+    "+/Xdebug just works.md",
+    "+/Difference between tasks and tickets.md",
+    "+/prije slanja nekog dijela koda,izmjena - najbolje napraviti test.md",
     "work/docs/backyard/production backyard tasks ssh.md",
     "Knowledge/tools/dev/fd.md",
-    "work/tickets/FEAT/QSL listing feature/qsl cron.md",
-    "work/tickets/FEAT/QSL listing feature/subs/Missing qsl listings - `en cours`.md",
-    "Knowledge/daily_notes/2025/February/2025-02-11.md",
-    "work/people and teams/AVIV/Charlotte Gruter.md",
-    "work/docs/concepts/Real Estate Project.md",
-    "work/tickets/FEAT/QSL listing feature/subs/en cours(In Progress).md",
-    "work/calls/pair programming/Pair Programming 2025-02-11.md",
-    "Clippings/A Comprehensive Guide to Mock Service Worker (MSW).md",
-    "Knowledge/tools/dev/Mock Service Worker.md",
-    "work/calls/pair programming/Mock Service Worker.md",
-    "Clippings/Examining the data - csvkit.md",
-    "Knowledge/daily_notes/2025/February/2025-02-10.md",
-    "Knowledge/tools/dev/csvstat.md",
-    "Knowledge/tools/dev/csvkit.md",
-    "work/tickets/FEAT/QSL listing feature/docs/Notes on prod deploy of QSL.md",
-    "Clippings/Markdown Tutorial => Horizontal Rules.md",
-    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-    "work/tickets/FEAT/QSL listing feature/qsl production deployment.md",
-    "work/docs/concepts/QSL listing.md",
-    "work/tickets/FEAT/QSL listing feature/Mandat a signer.md",
-    "Knowledge/How To's/Homebrew Install.md",
     "obx_note_new.md~",
     "x/HOC Invoice October.pdf",
     "x/dfac35ab27f0ebb1b93fbfd80ef2c36a_MD5.jpg",
@@ -284,7 +263,6 @@
     "x/01b8a2f8e213990fa073aba07a2188d2_MD5.png",
     "x/0df0870fc39c2be1755196cb5a11bb65_MD5.png",
     "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
-    "tasks canvas.canvas",
     "Knowledge/tools/obsidian/dataview",
     "Knowledge/World",
     "work/calls/SPRINT/Untitled",
@@ -292,11 +270,9 @@
     "Knowledge/Articles/Untitled.canvas",
     "Knowledge/Articles/Untitled 1.canvas",
     "Knowledge/Articles/Obsidian",
-    "dash canvas.canvas",
     "add_note_obs.sh~",
     "+/FIFO.md~",
     "add_note_script.md~",
-    "add_note_obs.sh",
     "work/tickets/event issue solution canvas.canvas",
     "work/docs/CRM/CRM.canvas",
     "work/tickets/FEAT/QSL listing feature/docs/code/Athena impl..canvas",

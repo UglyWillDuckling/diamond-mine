@@ -2,7 +2,7 @@
 ~
 ---
 ## <mark style="background: #FFB86CA6;">description</mark>
-Implement the qsl listing frontend display. The listings should be displayed in the [[project]]'s header **only**.
+Implement the qsl listing frontend display. The listings should be displayed in the [[Real Estate Project]]'s header **only**.
  At least for now.
 The listings need to be grouped by the [[realtor]] as are the existing listings.
 ## <mark style="background: #BBFABBA6;">accept</mark>

@@ -161,7 +161,6 @@
     "iconName": "LiCrown",
     "iconColor": "#d5c620"
   },
-  "work/docs/concepts/project.md": "LiProjector",
   "work/tickets/archive/Diabolocom - legacy cleanup.md": "🦹",
   "work/tickets/chores/Update Diabolocom deprecated csv file export.md": "🧛",
   "work/notes/archive/LUNA team has its own argocd pipeline setup.md": {
@@ -452,5 +451,6 @@
     "iconName": "LiLink",
     "iconColor": "#2bc57d"
   },
-  "Knowledge/Media": "🎥"
+  "Knowledge/Media": "🎥",
+  "work/docs/concepts/Real Estate Project.md": "LiProjector"
 }

@@ -15,7 +15,7 @@
 
 - [!]   [[Backoffice]] is set **automatically** when the project is in  **P1**
 - [i] In real life, the [[Backoffice]] has to send an **email** to the [[contact]] when the [[Evaluation]] is `organised`
-- [?] Is there an easy way to see if the [[project]] is a [[P1]]?
+- [?] Is there an easy way to see if the [[Real Estate Project]] is a [[P1]]?
 	- [x] @ `Evaluation en cours` **status**
 - [?] When does the [[Backoffice]] create the [[task]]?
 	- [?] Is this <mark style="background: #FFB8EBA6;">necessary</mark> to complete the creation process?

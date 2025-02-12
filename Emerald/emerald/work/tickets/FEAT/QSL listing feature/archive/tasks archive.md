@@ -20,7 +20,7 @@
 	- [x] add new columns #task ✅ 2024-11-13
 	- [x] update existing logic, tests #task ✅ 2024-11-13
 	- [x] #task [[check the diagram from [[Paulo]]]] 🔽 ✅ 2025-01-17
-- [x] see 🙈 if we could use the [[project]] as the source for the [[place]] entity
+- [x] see 🙈 if we could use the [[Real Estate Project]] as the source for the [[place]] entity
 - [x] support for `optional` fields #task 📅 2024-11-14 ✅ 2024-11-20
 	- [x] #task update constructor and creation ✅ 2024-11-14
 	- [x] #task update relevant methods ✅ 2024-11-14

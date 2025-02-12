@@ -366,11 +366,11 @@ exmap forward obcommand app:go-forward
 nmap <C-i> :forward<CR>
 
 " Editor
-nmap <C-m>/ 0ci[/<Esc>
-nmap <C-m>? 0ci[?<Esc>
+nmap <A-m>/ 0ci[/<Esc>
+nmap <A-m>? 0ci[?<Esc>
 
 " inline quote for selected text
 " NOTE: test this
-vmap <C-m>q o<Esc>i<lt>q><Esc>gvo<Esc>a<lt>/q><Esc>
+vmap <A-m>q o<Esc>i<lt>q><Esc>gvo<Esc>a<lt>/q><Esc>
 " path mark
-vmap <C-m>P o<Esc>i<lt>mark<space>class='path'><Esc>gvo<Esc>a<lt>/mark><Esc>
+vmap <A-m>P o<Esc>i<lt>mark<space>class='path'><Esc>gvo<Esc>a<lt>/mark><Esc>

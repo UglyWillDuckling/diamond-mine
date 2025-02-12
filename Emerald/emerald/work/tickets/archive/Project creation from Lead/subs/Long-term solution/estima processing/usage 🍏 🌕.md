@@ -47,7 +47,7 @@ The system checks to see if the `estima` or `lead` have been **processed** yet. 
 
 ## what I've learned
 
-We could use the lead and the estima at the same time to check whether an `estima_processing` entity exists, in other words, if a [[project]] was created from the given [[estima]] or [[lead]].
+We could use the lead and the estima at the same time to check whether an `estima_processing` entity exists, in other words, if a [[Real Estate Project]] was created from the given [[estima]] or [[lead]].
 We could even leave the **same logic as is** and only use the `estima_id` DB field for both entities keys since the `lead_id` is so far ahead of `estima_id`, see [[check that lead id is ahead of estima id]].
 
 # todo's ✔
@@ -69,7 +69,7 @@ We could even leave the **same logic as is** and only use the `estima_id` DB fie
 	- [x] create project based on [[lead]]
 		- [x] **enforce** the usage of `lead_id`
 		- [x] **check** that the `lead` is marked as `read`
-	- [x] create [[project]] based on [[estima]]
+	- [x] create [[Real Estate Project]] based on [[estima]]
 		- [x] **check** that the `estima` is marked as `read`
 - [x] **check** other pages to see if they match
 
@@ -77,7 +77,7 @@ We could even leave the **same logic as is** and only use the `estima_id` DB fie
 **ID**:  `2082675399`
 `query param`: **lead_test**
 
-- [x] use `lead_id` to create a [[project]]
+- [x] use `lead_id` to create a [[Real Estate Project]]
 - [x] check table to see the new item added
 - [x] verify the **ID** - this should be the `estima_id` field
 - [x] check that the [[lead]] is now marked as `processed`

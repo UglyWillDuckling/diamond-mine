@@ -13,6 +13,8 @@ tags:
 related:
   - "[[mocking]]"
   - "[[javascript]]"
+aliases:
+  - msw
 ---
 ## Industry standard API mocking for JavaScript.
 

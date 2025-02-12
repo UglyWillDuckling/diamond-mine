@@ -8,7 +8,7 @@ tags:
   - active
 ---
  [/] #task investigate qls listing connect plan ⏫
-	- [/] #task read on [[Identity and access management]] 🔼 🆔 4buwz8
+	- [x] #task read on [[Identity and access management]] 🔼 🆔 4buwz8 ✅ 2025-02-11
 	- [x] #task explore existing GCP <mark style="background: #ABF7F7A6;">connection</mark> ⏫ ✅ 2025-01-14
 		- [x] #task try to connect [[GCP]] on [[backyard]] ⏫ 🆔 DlkWHJ ✅ 2025-02-06
 

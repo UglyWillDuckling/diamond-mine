@@ -248,7 +248,7 @@
   "file-explorer:move-file": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "M"
     }
@@ -319,6 +319,20 @@
         "Alt"
       ],
       "key": "G"
+    }
+  ],
+  "webviewer:search": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
     }
   ]
 }

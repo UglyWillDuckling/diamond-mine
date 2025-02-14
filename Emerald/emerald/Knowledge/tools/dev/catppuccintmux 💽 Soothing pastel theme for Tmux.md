@@ -106,7 +106,7 @@ Breaking changes have been introduced since 0.3, to understand how to migrate yo
 
 This configuration shows some customisation options, that can be further extended as desired. This is what is used for the previews above.
 
-[![[e83bb595e99b0db15358588215e08bd2_MD5.webp]]](https://github.com/catppuccin/tmux/blob/main/assets/mocha.webp)
+[![[x/e83bb595e99b0db15358588215e08bd2_MD5.webp]]](https://github.com/catppuccin/tmux/blob/main/assets/mocha.webp)
 
 ```rb
 # ~/.tmux.conf

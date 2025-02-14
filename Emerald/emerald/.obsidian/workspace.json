@@ -37,7 +37,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -47,7 +47,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5110321044922
+    "width": 306.5110321044922
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -76,7 +76,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +85,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for QSL listing feature"
+              "title": "Backlinks"
             }
           },
           {
@@ -95,12 +94,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from QSL listing feature"
+              "title": "Outgoing links"
             }
           },
           {
@@ -109,13 +107,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/bugs/security issue - general file access via download/security issue - general file access via download.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of security issue - general file access via download"
+              "title": "Outline"
             }
           },
           {
@@ -173,7 +170,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -207,14 +204,14 @@
   },
   "active": "688b3d615137a273",
   "lastOpenFiles": [
-    "x/Dann Bergs Daily Note.md",
+    "e83bb595e99b0db15358588215e08bd2_MD5.webp",
     "Knowledge/tools/dev/catppuccintmux 💽 Soothing pastel theme for Tmux.md",
+    "Knowledge/daily_notes/2025/February/2025-02-14.md",
+    "x/Dann Bergs Daily Note.md",
     "x/docs",
     "x/5ac51250c5cb61e8b1f58c26db4a4039_MD5.webp",
     "x/e83bb595e99b0db15358588215e08bd2_MD5.webp",
     "Clippings/Getting Started · tmuxtmux Wiki.md",
-    "Knowledge/daily_notes/2025/February/2025-02-14.md",
-    "e83bb595e99b0db15358588215e08bd2_MD5.webp",
     "x/0b09a5990896b544b51c6f81b76dd26a_MD5.webp",
     "x/9faa3053f95953d7387230f468f290b3_MD5.webp",
     "x/615647843c17954467e3b7365f50a3c4_MD5.svg",
@@ -239,7 +236,6 @@
     "Clippings/Dataview date column formatting not working - Help - Obsidian Forum 1.md",
     "Clippings/Dataview date column formatting not working - Help - Obsidian Forum.md",
     "Clippings/Dataview Date Formatting.md",
-    "work/calls/SPRINT/sprint calls.md",
     "work/bugs/Security issue - General file access download, passerell/x/b9d5f3c7e40c9e2155f3b8cfc83ed798_MD5.jpg",
     "work/bugs/Security issue - General file access download, passerell/x",
     "work/bugs/Security issue - General file access download, passerell",

@@ -1,19 +1,19 @@
 {
   "choices": [
     {
-      "id": "b79ca23d-fbbf-470a-b66c-227bbdda0241",
-      "name": "daily 🗓️",
+      "id": "bdc83b49-6cfd-4d28-b8e2-3323dabf1c8a",
+      "name": "thought",
       "type": "Template",
       "command": true,
-      "templatePath": "Knowledge/templates/daily call template.md",
+      "templatePath": "Knowledge/templates/thought.md",
       "fileNameFormat": {
-        "enabled": true,
-        "format": "{{DATE:}} daily"
+        "enabled": false,
+        "format": ""
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "work/calls/DAILY"
+          "+"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -21,82 +21,8 @@
       },
       "appendLink": false,
       "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
-      "id": "f64b73ca-b341-422f-83ac-08cf48d5f1e5",
-      "name": "BookFinder📕",
-      "type": "Macro",
-      "command": true,
-      "macroId": "61dfedc0-d41f-4074-a5ee-fed304e06ef9"
-    },
-    {
-      "id": "28b2ee83-9521-431e-944d-9c019ffb364b",
-      "name": "movie🎬",
-      "type": "Macro",
-      "command": true,
-      "macroId": "ff14992f-d89c-4dc9-8b1e-4d84da38598c"
-    },
-    {
-      "id": "f2706324-a974-4be8-aa99-3f84420ebb8a",
-      "name": "add tool 🔨",
-      "type": "Template",
-      "command": true,
-      "templatePath": "Knowledge/templates/tool.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
         "enabled": true,
-        "folders": [
-          "Knowledge/tools"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": true
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
-      "id": "28a78ebd-975c-43cf-b91b-3a2354238c00",
-      "name": "call ☎️",
-      "type": "Template",
-      "command": true,
-      "templatePath": "Knowledge/templates/call template.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "work/calls"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": true
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "vertical",
+        "direction": "horizontal",
         "focus": true
       },
       "openFile": true,
@@ -140,11 +66,25 @@
       "openFileInMode": "default"
     },
     {
-      "id": "bdc83b49-6cfd-4d28-b8e2-3323dabf1c8a",
-      "name": "thought",
+      "id": "28b2ee83-9521-431e-944d-9c019ffb364b",
+      "name": "movie🎬",
+      "type": "Macro",
+      "command": true,
+      "macroId": "ff14992f-d89c-4dc9-8b1e-4d84da38598c"
+    },
+    {
+      "id": "f64b73ca-b341-422f-83ac-08cf48d5f1e5",
+      "name": "BookFinder📕",
+      "type": "Macro",
+      "command": true,
+      "macroId": "61dfedc0-d41f-4074-a5ee-fed304e06ef9"
+    },
+    {
+      "id": "28a78ebd-975c-43cf-b91b-3a2354238c00",
+      "name": "call ☎️",
       "type": "Template",
       "command": true,
-      "templatePath": "Knowledge/templates/thought.md",
+      "templatePath": "Knowledge/templates/call template.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -152,16 +92,16 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "+"
+          "work/calls"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
+        "chooseFromSubfolders": true
       },
       "appendLink": false,
       "openFileInNewTab": {
         "enabled": true,
-        "direction": "horizontal",
+        "direction": "vertical",
         "focus": true
       },
       "openFile": true,

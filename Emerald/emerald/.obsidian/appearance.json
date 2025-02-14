@@ -1,9 +1,9 @@
 {
-  "cssTheme": "Things",
+  "cssTheme": "Minimal",
   "textFontFamily": "Cantarell",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "interfaceFontFamily": "Baskerville",
-  "baseFontSize": 16,
+  "baseFontSize": 20,
   "baseFontSizeAction": true,
   "nativeMenus": true,
   "monospaceFontFamily": "FiraCode Nerd Font",

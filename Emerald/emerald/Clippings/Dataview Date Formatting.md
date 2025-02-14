@@ -3,6 +3,8 @@ published: 2022-05-14
 author:
   - "[[cwhiii]]"
 source: https://forum.obsidian.md/t/dataview-date-formatting/37456/2
+about:
+  - "[[dataview]]"
 tags:
   - howto/obsidian/dataview
 ---

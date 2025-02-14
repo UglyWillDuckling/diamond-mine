@@ -1,13 +1,13 @@
 ---
 source: https://blacksmithgu.github.io/obsidian-dataview/queries/dql-js-inline/
-author: 
-published: 
 created: 2025-02-08
 tags:
-  - data-view
-  - docs
-  - official
+  - docs/dataview
+  - docs/official
 ---
+about:: [[dataview]]
+___
+
 Once you've added [useful data to relevant pages](https://blacksmithgu.github.io/obsidian-dataview/annotation/add-metadata/), you'll want to actually display it somewhere or operate on it. Dataview allows this in four different ways, all of which are written in codeblocks directly in your Markdown and live-reloaded when your vault changes.
 
 ## Dataview Query Language (DQL)

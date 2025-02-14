@@ -4,41 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "8f2ec7bd9b5e7984",
+        "id": "9968ba47fd81b241",
         "type": "tabs",
         "children": [
           {
-            "id": "76f76915a3842d83",
+            "id": "0b3ec940330b471a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledge/daily_notes/2025/February/2025-02-12.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-02-12"
-            }
-          },
-          {
-            "id": "56866e1f439aaf4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/tickets/Upload issue on extranet - LUNA-268.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Upload issue on extranet - LUNA-268"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -58,45 +37,17 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
-            }
-          },
-          {
-            "id": "2fd0f24bea1de5b8",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "3917ba887ee80a77",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#artifact",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 326.5110321044922
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -158,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/Upload issue on extranet - LUNA-268.md",
+                "file": "work/bugs/security issue - general file access via download/security issue - general file access via download.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Upload issue on extranet - LUNA-268"
+              "title": "Outline of security issue - general file access via download"
             }
           },
           {
@@ -186,6 +137,40 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "83a3eb7907bec801",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f3d26d9f4b79cf54",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "015e0b12424c0bc6",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
           }
         ],
         "currentTab": 3
@@ -198,7 +183,7 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-      "juggl:Juggl global graph": false,
+      "juggl:Juggl global graph": true,
       "graph:Open graph view": true,
       "workspaces:Manage workspace layouts": true,
       "templater-obsidian:Templater": false,
@@ -220,59 +205,59 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "56866e1f439aaf4a",
+  "active": "688b3d615137a273",
   "lastOpenFiles": [
-    "Knowledge/daily_notes/2025/February/2025-02-12.md",
-    "work/tickets/Upload issue on extranet - LUNA-268.md",
-    "Knowledge/daily_notes/2025/February/2025-02-10.md",
-    "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-    "Efforts/Active/CSV Kit/Power tools - csvkit,csvsql.md",
-    "Efforts/Active/CSV Kit/csv kit project.md",
-    "Efforts/Active/CSV Kit/Examining the data - csvkit, csvstat.md",
-    "Clippings/csvstack - csvkit.md",
-    "Knowledge/tools/dev/csvkit.md",
-    "Efforts/Active/CSV Kit/csvsort - csvkit.md",
+    "x/Dann Bergs Daily Note.md",
+    "Knowledge/tools/dev/catppuccintmux 💽 Soothing pastel theme for Tmux.md",
+    "x/docs",
+    "x/5ac51250c5cb61e8b1f58c26db4a4039_MD5.webp",
+    "x/e83bb595e99b0db15358588215e08bd2_MD5.webp",
+    "Clippings/Getting Started · tmuxtmux Wiki.md",
+    "Knowledge/daily_notes/2025/February/2025-02-14.md",
+    "e83bb595e99b0db15358588215e08bd2_MD5.webp",
+    "x/0b09a5990896b544b51c6f81b76dd26a_MD5.webp",
+    "x/9faa3053f95953d7387230f468f290b3_MD5.webp",
+    "x/615647843c17954467e3b7365f50a3c4_MD5.svg",
+    "work/bugs/Security issue - General file access download, passerell/Security issue - General file access download, passerell.md",
+    "Clippings/catppuccintmux · tmux reference configuration.md at main.md",
+    "+/separating by a dot in the middle look cool.md",
+    "Knowledge/tools/dev/tmux 3.md",
+    "Clippings/tmux-catppuccin 💽 Soothing pastel theme for Tmux!.md",
+    "Knowledge/daily_notes/2025/February/Media API.md",
+    "Knowledge/daily_notes/2025/February/mediaapi.md",
+    "work/calls/SPRINT/LUQA Onboarding.md",
+    "work/calls/SPRINT/command to LUQA -  dev myselogerpro.md",
+    "work/calls/SPRINT/Backlog Refinement 2025-01-22.md",
+    "Knowledge/tools/dev/ocrs.md",
+    "Efforts/tasks/archive/fix mapping for heading toggle and similiar.md",
+    "work/calls/CRM/Backlog Refinement 2025-02-13.md",
+    "work/calls/CRM/Team Create Modal Component.md",
+    "work/calls/CRM/onboarding call with Kenan 1.md",
+    "Knowledge/daily_notes/2025/February/2025-02-13.md",
+    "Knowledge/How To's/DQL, JS and Inlines - Dataview.md",
+    "work/calls/pair programming/Pair Programming 2025-02-13.md",
+    "Clippings/Dataview date column formatting not working - Help - Obsidian Forum 1.md",
+    "Clippings/Dataview date column formatting not working - Help - Obsidian Forum.md",
+    "Clippings/Dataview Date Formatting.md",
+    "work/calls/SPRINT/sprint calls.md",
+    "work/bugs/Security issue - General file access download, passerell/x/b9d5f3c7e40c9e2155f3b8cfc83ed798_MD5.jpg",
+    "work/bugs/Security issue - General file access download, passerell/x",
+    "work/bugs/Security issue - General file access download, passerell",
     "dash canvas.canvas",
-    "obx_note_new.md",
-    "Knowledge/tools/dev/csvgrep - csvkit.md",
-    "Clippings/Getting started - csvkit.md",
-    "Knowledge/daily_notes/2025/February/2025-02-11.md",
     "tasks canvas.canvas",
     "Efforts/Active/CSV Kit",
-    "Clippings/csvcut - csvkit.md",
-    "Clippings/csvcut.md",
-    "Clippings/Arguments common to all tools - csvkit.md",
-    "Knowledge/tools/dev/in2csv - csvkit.md",
-    "Clippings/1. Getting started - csvkit 2.0.1 documentation 1.md",
-    "Clippings/csvsql.md",
-    "work/bugs/security issue - general file access.md",
-    "+/Xdebug just works.md",
-    "+/Difference between tasks and tickets.md",
-    "+/prije slanja nekog dijela koda,izmjena - najbolje napraviti test.md",
-    "work/docs/backyard/production backyard tasks ssh.md",
-    "Knowledge/tools/dev/fd.md",
     "obx_note_new.md~",
     "x/HOC Invoice October.pdf",
     "x/dfac35ab27f0ebb1b93fbfd80ef2c36a_MD5.jpg",
     "x/d516326fd4ed9087f77414294591ccf6_MD5.png",
     "x/be3a0f383e0959645eefa8e3df59270a_MD5.jpg",
-    "x/Brave New Words - Salman Khan.jpg",
-    "x/Architecture-of-email-system-13.png",
-    "x/1f1ee051c7b1a60237f066926c6f9f7a_MD5.jpg",
-    "x/66e906929963092b83c261c8f84a966e_MD5.png",
-    "x/01b8a2f8e213990fa073aba07a2188d2_MD5.png",
-    "x/0df0870fc39c2be1755196cb5a11bb65_MD5.png",
     "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
     "Knowledge/tools/obsidian/dataview",
     "Knowledge/World",
     "work/calls/SPRINT/Untitled",
-    "x/249c294c60af5298fa4d1da1d0cd7174_MD5.png",
     "Knowledge/Articles/Untitled.canvas",
     "Knowledge/Articles/Untitled 1.canvas",
     "Knowledge/Articles/Obsidian",
-    "add_note_obs.sh~",
-    "+/FIFO.md~",
-    "add_note_script.md~",
     "work/tickets/event issue solution canvas.canvas",
     "work/docs/CRM/CRM.canvas",
     "work/tickets/FEAT/QSL listing feature/docs/code/Athena impl..canvas",

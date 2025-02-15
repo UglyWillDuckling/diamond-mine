@@ -1,5 +1,5 @@
 {
-  "cssTheme": "Things",
+  "cssTheme": "Sanctum",
   "interfaceFontFamily": "Cantarell",
   "monospaceFontFamily": "FiraCode Nerd Font Mono",
   "textFontFamily": "",
@@ -13,5 +13,6 @@
   ],
   "showViewHeader": true,
   "accentColor": "#ff751a",
-  "theme": "system"
+  "theme": "system",
+  "showRibbon": true
 }

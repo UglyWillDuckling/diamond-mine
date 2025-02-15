@@ -3,7 +3,7 @@
   "cssTheme": "Minimal",
   "accentColor": "#e67a33",
   "baseFontSizeAction": true,
-  "baseFontSize": 15,
+  "baseFontSize": 16,
   "enabledCssSnippets": [
     "Cards"
   ]

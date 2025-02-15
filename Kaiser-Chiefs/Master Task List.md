@@ -2,7 +2,8 @@
 tags:
   - task-list
 ---
-- [/] #task see how [[rsync]] works #backburner #dev
+- [x] #task see how [[rsync]] works #backburner #dev ✅ 2025-02-15
+	- [[rsync]]
 
 - [ ] #task Look into what SSE means 📅 2025-02-16 🆔 5dKDNT #dev
 	- see [[Deno Web Server]]

@@ -445,8 +445,8 @@ A task is treated as `blocking` if:
 For example:
 
 ```text
-- [ ] I am blocking 🆔 12345
-- [ ] I am not blocking ⛔ 12345
+- [x] I am blocking 🆔 12345 |  ✅ 2025-02-14/21:34 
+- [x] I am not blocking ⛔ 12345 |  ✅ 2025-02-14/21:35 
 ```
 
 Note also:
@@ -473,8 +473,8 @@ A task is treated as `blocked` if:
 For example:
 
 ```text
-- [ ] I am not blocked 🆔 12345
-- [ ] I am blocked ⛔ 12345
+- [x] I am not blocked 🆔 12345 |  ✅ 2025-02-14/21:35 
+- [x] I am blocked ⛔ 12345 |  ✅ 2025-02-14/21:35 
 ```
 
 Note also:

@@ -171,5 +171,21 @@
       "key": "G"
     }
   ],
-  "editor:save-file": []
+  "editor:save-file": [],
+  "editor:insert-callout": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
+  ],
+  "webviewer:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ]
 }

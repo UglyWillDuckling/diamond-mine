@@ -20,3 +20,4 @@ Dodati opciju pregleda slobodnih termina kao i mogucnost bookinga.
 - [[# kontakt forma]]
 - [[#booking termina]]
 - ..
+[[currrent persona ssl cert]]

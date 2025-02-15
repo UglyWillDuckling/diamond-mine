@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "237b302bb4ee1ea2",
+        "id": "bb3fba45b2d8fe6c",
         "type": "tabs",
         "children": [
           {
-            "id": "86153a969eb8fe9c",
+            "id": "d86143c9a18fe5da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md",
+                "file": "Atlas/Personal/notes/Vim mapping for resume search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Grafana is the goat... Let's deploy the LGTM stack"
+              "title": "Vim mapping for resume search"
             }
           },
           {
-            "id": "1797346ff9ae5d89",
+            "id": "5024564e7bbb2c34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/grafanaotel-lgtm - Docker Image  Docker Hub.md",
+                "file": "Calendar/daily/2025-02-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "grafanaotel-lgtm - Docker Image  Docker Hub"
+              "title": "2025-02-15"
             }
           }
         ],
@@ -63,12 +63,12 @@
             }
           },
           {
-            "id": "712488661cbfc149",
+            "id": "53e419fd8d9494ea",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#task",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +80,7 @@
             }
           },
           {
-            "id": "8cc700f05ddb6912",
+            "id": "369d6f3ac727bb90",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.51103591918945,
-    "collapsed": true
+    "width": 243.50260543823242
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -110,8 +109,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Efforts/Active/Kuca/docs/zemljisni podaci.md",
-                "collapseAll": true,
+                "file": "Calendar/daily/2025-01-09.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -120,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for zemljisni podaci"
+              "title": "Backlinks for 2025-01-09"
             }
           },
           {
@@ -129,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Master Task List.md",
+                "file": "Calendar/daily/2025-01-09.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Master Task List"
+              "title": "Outgoing links from 2025-01-09"
             }
           },
           {
@@ -143,17 +142,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Atlas/Knowledge/Media/Articles/Morgen for beginners Organizing Tasks and Events in one place.md",
-                "followCursor": true,
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Morgen for beginners Organizing Tasks and Events in one place"
+              "title": "Outline"
             }
           },
           {
-            "id": "08c4f9c69a275725",
+            "id": "3c6353045726b67a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -168,27 +166,7 @@
             }
           },
           {
-            "id": "b286b55672c075e3",
-            "type": "leaf",
-            "state": {
-              "type": "chronology-calendar-view",
-              "state": {},
-              "icon": "clock",
-              "title": "Chronology"
-            }
-          },
-          {
-            "id": "e2dfdd096e897a5f",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
-            "id": "9af19dbd817d4304",
+            "id": "46bc5db22ff62231",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -198,7 +176,7 @@
             }
           },
           {
-            "id": "c800eb8fbf7a1b39",
+            "id": "b124f7e55c27c5de",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -208,46 +186,29 @@
             }
           },
           {
-            "id": "1acb206a9cba5e52",
+            "id": "bef71e4e3fa1e2ad",
             "type": "leaf",
             "state": {
-              "type": "BC-matrix",
+              "type": "reminder-list",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "45a7fd4bd735a2a0",
-            "type": "leaf",
-            "state": {
-              "type": "BC-tree",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "4902e2762b135266",
-            "type": "leaf",
-            "state": {
-              "type": "BC-ducks",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "clock",
+              "title": "Reminders"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 442.5,
+    "width": 377.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian42-brat:BRAT": true,
-      "task-board:Open task board": true,
+      "task-board:Open task board": false,
+      "juggl:Juggl global graph": false,
+      "templater-obsidian:Templater": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-media-db-plugin:Add new Media DB entry": true,
       "switcher:Open quick switcher": true,
@@ -259,55 +220,52 @@
       "obsidian-day-and-night:Toggle Theme": false,
       "chronology:Open Chronology": true,
       "markwhen:Create new Markwhen file": true,
-      "obsidian-projects:Open projects": false,
       "daily-notes:Open today's daily note": false,
-      "workspaces:Manage workspace layouts": false,
-      "juggl:Juggl global graph": true,
-      "templater-obsidian:Templater": true
+      "obsidian-projects:Open projects": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1797346ff9ae5d89",
+  "active": "5024564e7bbb2c34",
   "lastOpenFiles": [
-    "Prometheus⁠ metrics.md",
-    "Clippings/Grafana is the goat... Let's deploy the LGTM stack.md",
-    "Tempo Trace.md",
-    "Clippings/grafanaotel-lgtm - Docker Image  Docker Hub.md",
-    "LGTM stack.md",
-    "Clippings/SOLVED Invalid or Corrupted package (PGP signature)  Pacman & Package Upgrade Issues.md",
-    "how to fix trust issues on Hostinger VPS.md",
-    "keyring trust issue on second VPS.md",
-    "Clippings/Installing ZSH.md",
-    "Clippings/Neovim - ArchWiki.md",
-    "Calendar/daily/2025-02-11.md",
-    "Graphana.md",
-    "Loki Logs.md",
+    "Atlas/Personal/notes/Vim mapping for resume search.md",
+    "Calendar/daily/2025-02-15.md",
     "Master Task List.md",
-    "SSH.md",
-    "Clippings/OpenSSH Config File Examples.md",
-    "Efforts/Ongoing/VPS/second VPS.md",
-    "Efforts/Ongoing/VPS",
-    "new tought.md",
-    "Clippings/Managing Python.md",
-    "Efforts/Active/Kuca/docs/zemljisni podaci.md",
-    "Atlas/Tools/pc/Yin-Yang program.md",
     "tasks canvas.canvas",
-    "Efforts/Undefined/Office Tasks.md",
-    "task board.md",
+    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+    "Efforts/Ongoing/PC Maintenance/docs/new gpg key on PC.md",
+    "desktop Compositor issue on KDE.md",
+    "Untitled.md",
+    "Efforts/Ongoing/PC Maintenance/docs",
+    "Clippings/Fix ‘ERROR failed to solve error getting credentials – err exit status 1, out ’.md",
+    "Atlas/Tools/obsidian/plugins/Tasks plugin/Filters - Tasks User Guide - Obsidian Publish.md",
+    "Atlas/Knowledge/Media/Books/Books board.md",
+    "Efforts/Active/Kuca/dokumentacija za kredit OTP · Damir.md",
+    "Calendar/daily/2025-02-14.md",
+    "Atlas/Knowledge/howtos/how to fix trust issues on Hostinger VPS.md",
+    "Atlas/Personal/notes/pretty x chars.md",
+    "howot",
+    "Efforts/Ongoing/Vim Mastery/Nvim - Lsp - How to inspect info.md",
+    "Atlas/Dev/notes/Mason is responsible for managing lsp;s.md",
+    "Atlas/Knowledge/howtos/certbot renew process.md",
+    "Atlas/Tools/pc/Prometheus⁠ metrics.md",
+    "Atlas/Knowledge/howtos/How to fix KDE compositor error.md",
+    "Efforts/Active/Persona/Docs/currrent persona ssl cert.md",
+    "Efforts/Active/Kuca/docs/dokumenti x/Elektronicki_zapis-radna_knjizica.pdf",
+    "Efforts/Active/Kuca/docs/zemljisni podaci.md",
+    "Efforts/Active/Kuca/HPB kredit/HPB kredit.md",
+    "Efforts/Active/Kuca/HPB kredit/Dokumenti za obrt.md",
+    "Efforts/Active/Persona/Docs/Persona.hr.md",
+    "Efforts/Active/Persona/certificate renewal.md",
+    "Efforts/Ongoing/VPS",
     "Yin-Yang/resources/logo.svg",
-    "Yin-Yang/README.md",
-    "converting yaml to toml command line tools for convert.md",
     "Efforts/Active/Kuca/docs/dokumenti x/Potvda o blokadi računa i novčanih sredstava.pdf",
     "Yin-Yang/yin_yang/ui/resources_rc.py",
     "Yin-Yang/yin_yang/ui/main_window_connector.py",
     "Yin-Yang/yin_yang/ui/main_window.py",
     "Yin-Yang/yin_yang/ui/__init__.py",
     "Yin-Yang/yin_yang/plugins/wallpaper.py",
-    "Yin-Yang/yin_yang/plugins/vscode.py",
-    "Yin-Yang/yin_yang/plugins/system.py",
-    "Yin-Yang/yin_yang/plugins/only_office.py",
-    "Yin-Yang/resources/README.md",
     "tasks pic.canvas",
-    "x/Linear Calendar 2025 - White.png",
+    "×/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"
   ]
 }

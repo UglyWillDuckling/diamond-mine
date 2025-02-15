@@ -25,7 +25,7 @@
     "Atlas/Personal/notes/question - how does docker choose from where to take the files for a volume.md": [
       {
         "title": "**remind** me",
-        "time": "2025-02-12",
+        "time": "2025-02-16",
         "rowNumber": 8
       }
     ],
@@ -39,7 +39,7 @@
     "Atlas/Personal/notes/mozes se ulogirat u PBZ online.md": [
       {
         "title": "reminder",
-        "time": "2025-02-15",
+        "time": "2025-02-22",
         "rowNumber": 4
       }
     ],
@@ -55,13 +55,6 @@
         "title": "remind",
         "time": "2025-02-26",
         "rowNumber": 6
-      }
-    ],
-    "Atlas/Personal/notes/Vim mapping for resume search.md": [
-      {
-        "title": "remind me",
-        "time": "2025-02-13",
-        "rowNumber": 0
       }
     ],
     "Atlas/Dev/notes/Golden Topaz is great for reading.md": [
@@ -90,6 +83,41 @@
         "title": "remind me",
         "time": "2025-02-25",
         "rowNumber": 11
+      }
+    ],
+    "Atlas/Knowledge/Media/Articles/Dev/Configuring self-signed SSL certificates for local development.md": [
+      {
+        "title": "remind me",
+        "time": "2025-02-16",
+        "rowNumber": 16
+      }
+    ],
+    "Clippings/How to trust cert authority - arch.md": [
+      {
+        "title": "remind me",
+        "time": "2025-02-22",
+        "rowNumber": 12
+      }
+    ],
+    "Atlas/Dev/notes/Mason is responsible for managing lsp;s.md": [
+      {
+        "title": "remind me",
+        "time": "2025-02-18",
+        "rowNumber": 4
+      }
+    ],
+    "Efforts/Ongoing/Vim Mastery/Nvim - Lsp - How to inspect info.md": [
+      {
+        "title": "remind me",
+        "time": "2025-02-25",
+        "rowNumber": 5
+      }
+    ],
+    "Atlas/Personal/notes/Vim mapping for resume search.md": [
+      {
+        "title": "remind me ( )",
+        "time": "2025-03-01",
+        "rowNumber": 1
       }
     ]
   },

@@ -135,7 +135,7 @@ Change the value of `credsStore` to match the credential store you are using. Fo
 }
 ```
 2. **Save and Close the File:** After making the changes, save the file and close the text editor. Restart Docker to apply the changes:
-```
+```bash
 sudo systemctl restart docker
 ```
 

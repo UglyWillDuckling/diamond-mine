@@ -32,32 +32,6 @@
     },
     {
       "autoResizeHeight": false,
-      "color": "1",
-      "height": 130,
-      "id": "98842ea77f333413",
-      "styleAttributes": {
-      },
-      "text": "**Clarify**\n\n```tasks\nnot done\ntags includes #clarify\nhide tags\nshort mode\n```\n",
-      "type": "text",
-      "width": 420,
-      "x": 500,
-      "y": -250
-    },
-    {
-      "autoResizeHeight": false,
-      "color": "#be37ac",
-      "height": 60,
-      "id": "45677451fe4b20c7",
-      "styleAttributes": {
-      },
-      "text": "[[Master Task List]]",
-      "type": "text",
-      "width": 220,
-      "x": 60,
-      "y": -415
-    },
-    {
-      "autoResizeHeight": false,
       "color": "5",
       "height": 370,
       "id": "6c83bf0c07cece34",
@@ -84,34 +58,6 @@
     },
     {
       "autoResizeHeight": false,
-      "color": "6",
-      "height": 130,
-      "id": "b226912847dd7720",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "\n### tiny\n```tasks\nnot done\ntags include #tiny\n```\n\n\n",
-      "type": "text",
-      "width": 460,
-      "x": -420,
-      "y": -315
-    },
-    {
-      "autoResizeHeight": false,
-      "color": "6",
-      "height": 640,
-      "id": "6ea88ea809413bf1",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "text": "**Scheduled**\n```tasks\nnot done\n(has due date) OR (has scheduled date) OR (has start date)\nhide tags\nlimit 8\nshort mode\nshow tree\n```\n",
-      "type": "text",
-      "width": 720,
-      "x": -420,
-      "y": 580
-    },
-    {
-      "autoResizeHeight": false,
       "color": "4",
       "height": 700,
       "id": "fd8d806473e9e81d",
@@ -133,8 +79,62 @@
       "text": "**Waiting**\n\n```tasks\nnot done\ntags includes #waiting\nshow tree\nshort mode\n```\n",
       "type": "text",
       "width": 420,
-      "x": 70,
-      "y": -295
+      "x": 60,
+      "y": -270
+    },
+    {
+      "autoResizeHeight": false,
+      "color": "1",
+      "height": 130,
+      "id": "98842ea77f333413",
+      "styleAttributes": {
+      },
+      "text": "**Clarify**\n\n```tasks\nnot done\ntags includes #clarify\nhide tags\nshort mode\n```\n",
+      "type": "text",
+      "width": 420,
+      "x": 500,
+      "y": -355
+    },
+    {
+      "autoResizeHeight": false,
+      "color": "6",
+      "height": 640,
+      "id": "6ea88ea809413bf1",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "**Scheduled**\n```tasks\nnot done\n(has due date) OR (has scheduled date) OR (has start date)\nhide tags\nlimit 8\nshort mode\nshow tree\n```\n",
+      "type": "text",
+      "width": 720,
+      "x": -400,
+      "y": 640
+    },
+    {
+      "autoResizeHeight": false,
+      "color": "6",
+      "height": 145,
+      "id": "b226912847dd7720",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "\n### tiny\n```tasks\nnot done\ntags include #tiny\n```\n\n\n",
+      "type": "text",
+      "width": 540,
+      "x": -500,
+      "y": -415
+    },
+    {
+      "autoResizeHeight": false,
+      "color": "#be37ac",
+      "height": 60,
+      "id": "45677451fe4b20c7",
+      "styleAttributes": {
+      },
+      "text": "[[Master Task List]]",
+      "type": "text",
+      "width": 220,
+      "x": 40,
+      "y": -415
     }
   ]
 }

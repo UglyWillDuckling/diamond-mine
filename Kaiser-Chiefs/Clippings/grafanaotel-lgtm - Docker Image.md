@@ -1,9 +1,8 @@
 ---
-source: "https://hub.docker.com/r/grafana/otel-lgtm"
-author:
-published:
+source: https://hub.docker.com/r/grafana/otel-lgtm
 created: 2025-02-11
 tags:
+  - docker-image/lgtm
 ---
 An OpenTelemetry Backend in a Docker Image
 grafana/otel-lgtm contains a complete OpenTelemetry backend in a single Docker image:

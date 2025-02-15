@@ -2,6 +2,6 @@
 
 Radi preko [[withkey]].
 
-- [ ] reminder (@2025-02-15)
+- [ ] reminder (@2025-02-22)
 
 korisnicki broj: 20596099

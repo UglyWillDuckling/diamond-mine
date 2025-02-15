@@ -40,7 +40,6 @@
   "Efforts/Active/Persona/Docs/Upute za mail konfiguraciju.md": "LiNotebookText",
   "Calendar/days": "LiCalendar",
   "Calendar": "LiCalendarHeart",
-  "x/Notion database views in Obsidian Projects.md": "📹",
   "Calendar/Events": "🌄",
   "Efforts/Active/Persona/Docs/Dev/Wordpress/wp_users.md": "LiPersonStanding",
   "Efforts/Active/Obsidian Tinkering": "LiPlay",
@@ -73,5 +72,7 @@
   "Efforts/Simmering/See how to manage your library.md": "LiLibraryBig",
   "Efforts/Ongoing/PC Maintenance": "🖥",
   "Atlas/Tools": "LiHammer",
-  "Efforts/Undefined/Office Tasks.md": "🗄"
+  "Efforts/Undefined/Office Tasks.md": "🗄",
+  "×/Notion database views in Obsidian Projects.md": "📹",
+  "Efforts/Ongoing/PC Maintenance/docs": "LiLibraryBig"
 }

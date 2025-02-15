@@ -71,11 +71,11 @@
         "filters": [
           "#task"
         ],
-        "filterPolarity": "0",
+        "filterPolarity": "1",
         "filterScope": "Both",
         "name": "Time Based Workflow",
         "index": 1,
-        "showColumnTags": false,
+        "showColumnTags": true,
         "showFilteredTags": true
       },
       {
@@ -131,11 +131,11 @@
         "filters": [
           "#task"
         ],
-        "filterPolarity": "0",
+        "filterPolarity": "1",
         "filterScope": "Both",
         "name": "Static Kanban",
         "index": 2,
-        "showColumnTags": false,
+        "showColumnTags": true,
         "showFilteredTags": true
       }
     ],
@@ -153,12 +153,14 @@
         },
         "tags": {
           "polarity": 3,
-          "values": []
+          "values": [
+            "#task"
+          ]
         }
       },
-      "firstDayOfWeek": "Mon",
+      "firstDayOfWeek": "2",
       "ignoreFileNameDates": false,
-      "taskCompletionFormat": "1",
+      "taskCompletionFormat": "2",
       "taskCompletionDateTimePattern": "yyyy-MM-DD/HH:mm",
       "dailyNotesPluginComp": false,
       "dueDateFormat": "yyyy-MM-DD",

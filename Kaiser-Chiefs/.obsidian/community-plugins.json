@@ -40,5 +40,6 @@
   "juggl",
   "templater-obsidian",
   "obsidian-vimrc-support",
-  "obsidian-meta-bind-plugin"
+  "obsidian-meta-bind-plugin",
+  "obsidian-style-settings"
 ]

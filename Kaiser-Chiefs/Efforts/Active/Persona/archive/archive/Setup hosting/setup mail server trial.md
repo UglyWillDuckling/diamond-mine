@@ -61,7 +61,7 @@ new: [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 [[trial postfix config file]]
 [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 ## now
-- [ ] create senka@techdot.biz account
+- [x] create senka@techdot.biz account |  ✅ 2025-02-14/21:37 
 - [/] @ create more folders in [[Dovecot]]
 - [x] ! reinstall [[Postfix]]
 - [x] ! add [[SPF]] record
@@ -131,6 +131,8 @@ solution:
 - [x] find the cert
 - [x] copy to server
 	- [x] move to `/etc/ssl/*` dirs
-- [ ] use for mail
+- [x] use for mail |  ✅ 2025-02-14/21:37 
+	- [x] postfix
+	- [x] dovecot
 	- [x] postfix
 	- [x] dovecot

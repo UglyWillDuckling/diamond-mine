@@ -12,3 +12,7 @@ domain:: srv722492.hstgr.cloud
 location:: [[Germany]]
 OS: [[Arch Linux]]
 ___
+
+http:://srv722492.hstgr.cloud
+
+

@@ -86,7 +86,7 @@ Fields on list items and tasks
 When you want to annotate a list item, e.g. a task, with metadata, you always need to use the bracket syntax (because the field is not the only information in this line)
 
 ```
-- [ ] Send an mail to David about the deadline [due:: 2022-04-05].
+- [x] Send an mail to David about the deadline [due:: 2022-04-05]. | 📅2022-04-05  ✅2025-02-14/21:26 
 ```
 
 Bracketed inline fields are the only way to explicitly add fields to specific list items, YAML frontmatter always applies to the whole page (but is also available in context of list items.)

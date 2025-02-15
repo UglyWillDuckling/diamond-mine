@@ -1,16 +1,14 @@
 ---
 title: "GitHub - FiloSottile/mkcert: A simple zero-config tool to make locally trusted development certificates with any names you'd like."
 source: https://github.com/FiloSottile/mkcert
-author:
-  - "[[GitHub]]"
-published: 
 created: 2024-12-19
 description: A simple zero-config tool to make locally trusted development certificates with any names you'd like. - FiloSottile/mkcert
 tags:
   - clippings
-  - tool
-  - dev/tool
   - github-repo
+  - tool/ssl
+  - tool/cli
+  - tool/dev
 ---
 **mkcert** is a simple tool for making **locally-trusted** `development certificates`. It requires no configuration.
 
@@ -33,8 +31,6 @@ Created a new certificate valid for the following names 📜
 The certificate is at "./example.com+5.pem" and the key at "./example.com+5-key.pem" ✅
 ```
 
-[![Chrome and Firefox screenshot](https://user-images.githubusercontent.com/1225294/51066373-96d4aa80-15be-11e9-91e2-f4e44a3a4458.png)](https://user-images.githubusercontent.com/1225294/51066373-96d4aa80-15be-11e9-91e2-f4e44a3a4458.png)
-
 Using certificates from real certificate authorities (CAs) for development can be dangerous or impossible (for hosts like `example.test`, `localhost` or `127.0.0.1`), but self-signed certificates cause trust errors. Managing your own CA is the best solution, but usually involves arcane commands, specialized knowledge and manual steps.
 
 mkcert automatically creates and installs a local CA in the system root store, and generates locally-trusted certificates. mkcert does not automatically configure servers to use the certificates, though, that's up to you.
@@ -47,7 +43,7 @@ mkcert automatically creates and installs a local CA in the system root store, a
 
 On macOS, use [Homebrew](https://brew.sh/)
 
-```
+```shell
 brew install mkcert
 brew install nss # if you use Firefox
 ```

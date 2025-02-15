@@ -79,7 +79,17 @@ When you use `show tree`, Tasks shows all found tasks, and **all** their nested 
 Suppose you have a note called `Party Planner`, with the following list:
 
 ```text
-- [ ] Have a party
+- [x] Have a party |  ✅ 2025-02-14/21:35 
+	    - Planning
+	        - [x] Decide who to invite ✅ 2024-10-26
+	        - [ ] Send out the invites
+	    - Preparation
+	        - [ ] Plan the menu
+	            - **Remember Sam's dietary requests**
+	        - [ ] Buy the food
+	    - On the day
+	        - [ ] Prepare the food
+	        - [ ] Tidy up
     - Planning
         - [x] Decide who to invite ✅ 2024-10-26
         - [ ] Send out the invites

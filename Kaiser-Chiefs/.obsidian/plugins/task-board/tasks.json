@@ -13,84 +13,6 @@
                 "completed": ""
             }
         ],
-        "Master Task List.md": [
-            {
-                "id": 3995742304,
-                "title": "#task Look into what SSE means 📅 2025-02-16 🆔 5dKDNT #dev",
-                "body": [
-                    "\t- see [[Deno Web Server]]"
-                ],
-                "time": "",
-                "due": "2025-02-16",
-                "tags": [
-                    "#task",
-                    "#dev"
-                ],
-                "priority": 0,
-                "filePath": "Master Task List.md",
-                "completed": ""
-            },
-            {
-                "id": 3897755478,
-                "title": "#task build a New **Movies** list ⏳ 2025-02-09 📅 2025-02-14 🆔 qiGLZM",
-                "body": [
-                    "\t- create **new movie entries** in the process"
-                ],
-                "time": "",
-                "due": "2025-02-14",
-                "tags": [
-                    "#task",
-                    "#backburner"
-                ],
-                "priority": 0,
-                "filePath": "Master Task List.md",
-                "completed": ""
-            },
-            {
-                "id": 1082141785,
-                "title": "#task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-02-19 🆔 iD0UCB #habbit",
-                "body": [],
-                "time": "",
-                "due": "2025-02-19",
-                "tags": [
-                    "#task",
-                    "#habbit"
-                ],
-                "priority": 0,
-                "filePath": "Master Task List.md",
-                "completed": ""
-            },
-            {
-                "id": 1768711801,
-                "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [
-                    "#task",
-                    "#tiny"
-                ],
-                "priority": 3,
-                "filePath": "Master Task List.md",
-                "completed": ""
-            },
-            {
-                "id": 3656989046,
-                "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-17",
-                "body": [
-                    "\t- check online",
-                    "\t- create **real** tasks"
-                ],
-                "time": "",
-                "due": "2025-02-17",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 3,
-                "filePath": "Master Task List.md",
-                "completed": ""
-            }
-        ],
         "Efforts/tasks/tasks.md": [
             {
                 "id": 2431209381,
@@ -160,21 +82,6 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞.md",
-                "completed": ""
-            }
-        ],
-        "Efforts/Master Task List.md": [
-            {
-                "id": 225787363,
-                "title": "#task [[Backup Drive]] 🔼 ⏳ 2025-02-03 🆔 OpBFPk",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 3,
-                "filePath": "Efforts/Master Task List.md",
                 "completed": ""
             }
         ],
@@ -801,6 +708,270 @@
                 "filePath": "Atlas/Dev/notes/Golden Topaz is great for reading.md",
                 "completed": ""
             }
+        ],
+        "persona ssl cronjob.md": [
+            {
+                "id": 2988568969,
+                "title": "get the [[#code to run]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "persona ssl cronjob.md",
+                "completed": ""
+            },
+            {
+                "id": 3250995071,
+                "title": "make the [[#schedule]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "persona ssl cronjob.md",
+                "completed": ""
+            }
+        ],
+        "Odrzavanja kuce.md": [
+            {
+                "id": 3317812515,
+                "title": "#task water plants 🔼 🔁 every week on Sunday 📅 2025-02-16 🆔 wFvjtU",
+                "body": [
+                    "\t- ovo ide svaki tjedan"
+                ],
+                "time": "",
+                "due": "2025-02-16",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Odrzavanja kuce.md",
+                "completed": ""
+            }
+        ],
+        "how to change the hostname on a linux machie.md": [
+            {
+                "id": 2975462043,
+                "title": "remind me (@2025-03-01)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "how to change the hostname on a linux machie.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Ongoing/VPS/second VPS.md": [
+            {
+                "id": 2136618309,
+                "title": "#task try installing [[zsh]] on the one of the remote VPS's 🔼 ⏳ 2025-02-15 📅 2025-02-16",
+                "body": [],
+                "time": "",
+                "due": "2025-02-16",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Ongoing/VPS/second VPS.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Ongoing/VPS/Master Task List.md": [
+            {
+                "id": 2584277005,
+                "title": "#task Fix missing restart of nginx docker service after cert renewal ⏫",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Ongoing/VPS/Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 2428197172,
+                "title": "#task Look into what SSE means 📅 2025-02-16 🆔 5dKDNT #dev",
+                "body": [
+                    "\t- see [[Deno Web Server]]"
+                ],
+                "time": "",
+                "due": "2025-02-16",
+                "tags": [
+                    "#task",
+                    "#dev"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Ongoing/VPS/Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 818170483,
+                "title": "#task build a New **Movies** list ⏳ 2025-02-09 📅 2025-02-14 🆔 qiGLZM",
+                "body": [
+                    "\t- create **new movie entries** in the process"
+                ],
+                "time": "",
+                "due": "2025-02-14",
+                "tags": [
+                    "#task",
+                    "#backburner"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Ongoing/VPS/Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 1235281476,
+                "title": "#task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-02-19 🆔 iD0UCB #habbit",
+                "body": [],
+                "time": "",
+                "due": "2025-02-19",
+                "tags": [
+                    "#task",
+                    "#habbit"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Ongoing/VPS/Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 4229977969,
+                "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task",
+                    "#tiny"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Ongoing/VPS/Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 2819632129,
+                "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-17",
+                "body": [
+                    "\t- check online",
+                    "\t- create **real** tasks"
+                ],
+                "time": "",
+                "due": "2025-02-17",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Ongoing/VPS/Master Task List.md",
+                "completed": ""
+            }
+        ],
+        "Master Task List.md": [
+            {
+                "id": 4198307522,
+                "title": "#task Fix missing restart of nginx docker service after cert renewal ⏫",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 3759254948,
+                "title": "#task Look into what SSE means 📅 2025-02-16 🆔 5dKDNT #dev",
+                "body": [
+                    "\t- see [[Deno Web Server]]"
+                ],
+                "time": "",
+                "due": "2025-02-16",
+                "tags": [
+                    "#task",
+                    "#dev"
+                ],
+                "priority": 0,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 801062633,
+                "title": "#task build a New **Movies** list ⏳ 2025-02-09 📅 2025-02-14 🆔 qiGLZM",
+                "body": [
+                    "\t- create **new movie entries** in the process"
+                ],
+                "time": "",
+                "due": "2025-02-14",
+                "tags": [
+                    "#task",
+                    "#backburner"
+                ],
+                "priority": 0,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 2947367602,
+                "title": "#task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-02-19 🆔 iD0UCB #habbit",
+                "body": [],
+                "time": "",
+                "due": "2025-02-19",
+                "tags": [
+                    "#task",
+                    "#habbit"
+                ],
+                "priority": 0,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 1380087019,
+                "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task",
+                    "#tiny"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 932928340,
+                "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-17",
+                "body": [
+                    "\t- check online",
+                    "\t- create **real** tasks"
+                ],
+                "time": "",
+                "due": "2025-02-17",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 4176380381,
+                "title": "#task [[Backup Drive]] 🔼 ⏳ 2025-02-03 🆔 OpBFPk",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            }
         ]
     },
     "Completed": {
@@ -1108,7 +1279,7 @@
         ],
         "Efforts/Ongoing/VPS/second VPS.md": [
             {
-                "id": 2100342923,
+                "id": 3136127226,
                 "title": "#task pogledaj 2 godine [[hostinger]] hostinga + Fireship 10% popust #tiny 🔼 ⏳ 2025-02-11 📅 2025-02-11",
                 "body": [
                     "\t- [[second VPS]]"
@@ -1311,12 +1482,12 @@
         ],
         "Efforts/Active/Persona/certificate renewal.md": [
             {
-                "id": 1059521867,
+                "id": 2216026789,
                 "title": "#task [[certificate renewal]] 🆔 Htr8QL ⏫ ⏳ 2025-02-08 📅 2025-02-12 ✅ 2025-02-12",
                 "body": [
                     "\t- [x] check current **status** of the **ssl** **cert** [^1] on [[Persona.hr]]",
                     "\t- [x] permanently save the new cert details",
-                    "\t- [ ] #task Implement permanent solution, cronjob 🔼 ⏳ 2025-02-13 📅 2025-02-16 🆔 nMfbCO"
+                    "\t- [x] #task Implement permanent solution, cronjob 🆔 nMfbCO 🔼 ⏳ 2025-02-13 📅 2025-02-16 ✅ 2025-02-15"
                 ],
                 "time": "",
                 "due": "2025-02-12",
@@ -1328,7 +1499,7 @@
                 "completed": "2025-02-12"
             },
             {
-                "id": 38742819,
+                "id": 2545031388,
                 "title": "think 🤔 what would happen if we update the cert manually",
                 "body": [
                     "\t- [x] what whould happen to the mail :LiMail:?",
@@ -1342,7 +1513,7 @@
                 "completed": ""
             },
             {
-                "id": 1915549694,
+                "id": 1129257364,
                 "title": "renew cert",
                 "body": [],
                 "time": "",
@@ -1353,7 +1524,7 @@
                 "completed": ""
             },
             {
-                "id": 1619729479,
+                "id": 3052615363,
                 "title": "**check** **expiry** of web cert",
                 "body": [],
                 "time": "",
@@ -1364,7 +1535,7 @@
                 "completed": ""
             },
             {
-                "id": 1260033362,
+                "id": 3198187425,
                 "title": "see how the mail ssl cert is setup",
                 "body": [],
                 "time": "",
@@ -3738,12 +3909,104 @@
                 "completed": "2025-02-14/21:38"
             }
         ],
-        "Master Task List.md": [
+        "Efforts/Active/Persona/persona ssl cronjob.md": [
             {
-                "id": 1485054904,
+                "id": 3644934933,
+                "title": "build the [[#script]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Persona/persona ssl cronjob.md",
+                "completed": ""
+            },
+            {
+                "id": 2479473702,
+                "title": "make the [[#schedule]]",
+                "body": [
+                    "\t- [x] set the time",
+                    "\t- [x] call the script",
+                    "\t- [x] test the call"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Persona/persona ssl cronjob.md",
+                "completed": ""
+            },
+            {
+                "id": 3510553527,
+                "title": "setup cron",
+                "body": [
+                    "\t- [x] **install**/add cron",
+                    "\t- [x] test cron"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Persona/persona ssl cronjob.md",
+                "completed": ""
+            },
+            {
+                "id": 3660233045,
+                "title": "schedule the **test** 🧪 of the the next cron run",
+                "body": [
+                    "\t- @ [[2025-02-17]]"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Persona/persona ssl cronjob.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Ongoing/VPS/Master Task List.md": [
+            {
+                "id": 2486136966,
                 "title": "#task see how [[rsync]] works #backburner #dev ✅ 2025-02-15",
                 "body": [
-                    "\t- [[rsync - Wikipedia]]"
+                    "\t- [[rsync]]"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task",
+                    "#backburner",
+                    "#dev"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Ongoing/VPS/Master Task List.md",
+                "completed": "2025-02-15"
+            },
+            {
+                "id": 1376178043,
+                "title": "#task pocistiti Downloads folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny",
+                "body": [],
+                "time": "",
+                "due": "2025-02-13",
+                "tags": [
+                    "#task",
+                    "#tiny",
+                    "#task",
+                    "#tiny",
+                    "#task",
+                    "#tiny"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Ongoing/VPS/Master Task List.md",
+                "completed": "2025-02-15"
+            }
+        ],
+        "Master Task List.md": [
+            {
+                "id": 3383540169,
+                "title": "#task see how [[rsync]] works #backburner #dev ✅ 2025-02-15",
+                "body": [
+                    "\t- [[rsync]]"
                 ],
                 "time": "",
                 "due": "",
@@ -3757,7 +4020,7 @@
                 "completed": "2025-02-15"
             },
             {
-                "id": 3026596728,
+                "id": 841498646,
                 "title": "#task pocistiti Downloads folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny",
                 "body": [],
                 "time": "",

@@ -1,9 +1,9 @@
-#procedure/certbot #howto/dev/procedure
+#procedure/certbot #howto/dev/procedure #procedure/dev #procedure/ssl
 
 part_of:: [[Certbot]]
 
   When you run  certbot renew , Certbot checks if any of your certificates are
-  near expiration (typically within 30 days) and attempts to renew them. If a
+  near expiration (**typically within 30 days**) and attempts to renew them. If a
   certificate is due for renewal, Certbot will:
 
   1. Check the certificate's expiration date.
@@ -23,7 +23,9 @@ part_of:: [[Certbot]]
 
   Example usage:
 
-    certbot renew --dry-run
+```bash
+certbot renew --dry-run
+```
 
   This command will simulate the renewal process, showing you what Certbot would
   do without actually making any changes.

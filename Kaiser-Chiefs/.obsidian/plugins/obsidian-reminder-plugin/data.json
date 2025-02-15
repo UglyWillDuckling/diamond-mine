@@ -119,11 +119,26 @@
         "time": "2025-03-01",
         "rowNumber": 1
       }
+    ],
+    "Efforts/Active/Persona/persona ssl cronjob.md": [
+      {
+        "title": "remind me Persona ssl cert cron",
+        "time": "2025-02-17 10:30",
+        "rowNumber": 39
+      }
+    ],
+    "Atlas/Knowledge/howtos/how to change the hostname on a linux machie.md": [
+      {
+        "title": "remind me",
+        "time": "2025-03-01",
+        "rowNumber": 2
+      }
     ]
   },
   "debug": false,
   "settings": {
     "reminderTime": "09:00",
+    "reminderTimeStep": 15,
     "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
     "useSystemNotification": false,
     "autoCompleteTrigger": "(@",

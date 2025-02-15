@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiTimerReset",
       "LiCookingPot",
       "🗄",
       "LiHammer",
-      "🖥",
-      "LiLibraryBig"
+      "🖥"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -73,6 +73,7 @@
   "Efforts/Ongoing/PC Maintenance": "🖥",
   "Atlas/Tools": "LiHammer",
   "Efforts/Undefined/Office Tasks.md": "🗄",
-  "×/Notion database views in Obsidian Projects.md": "📹",
-  "Efforts/Ongoing/PC Maintenance/docs": "LiLibraryBig"
+  "Efforts/Ongoing/PC Maintenance/docs": "LiLibraryBig",
+  "Efforts/Active/Persona/persona ssl cronjob.md": "LiTimerReset",
+  "~/×/Notion database views in Obsidian Projects.md": "📹"
 }

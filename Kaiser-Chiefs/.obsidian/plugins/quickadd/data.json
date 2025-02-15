@@ -6,7 +6,7 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "Master Task List",
+      "captureTo": "Master Task List.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,

@@ -2,6 +2,7 @@
 tags:
   - task-list
 ---
+- [ ] #task Fix missing restart of nginx docker service after cert renewal ⏫ 🆔 5ij4NX
 - [x] #task see how [[rsync]] works #backburner #dev ✅ 2025-02-15
 	- [[rsync]]
 
@@ -17,3 +18,4 @@ tags:
 - [ ] #task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-17
 	- check online
 	- create **real** tasks
+- [ ] #task [[Backup Drive]] 🔼 ⏳ 2025-02-03 🆔 OpBFPk

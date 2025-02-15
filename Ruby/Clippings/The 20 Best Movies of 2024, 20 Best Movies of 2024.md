@@ -5,12 +5,11 @@ author:
   - "[[David Fear]]"
 published: 2024-12-04
 created: 2025-01-10
-description: 
 tags:
-  - clippings
   - article
   - movies
   - processing
+  - bestlist
 related:
   - "[[Perfect Days]]"
 ---
@@ -64,16 +63,14 @@ Mike Leigh returns to the modest, immeasurably moving character-driven dramas he
 
 ![](https://www.rollingstone.com/wp-content/uploads/2024/11/02_PerfectDays_Courtesy-NEON.jpg?w=800)
 ‘
-[[Perfect Days]]
-Legendary Japanese actor Kōji Yakusho gives a career-best performance as Hirayama, a middle-aged man who cleans public toilets for a living. He’s the kind of invisible civil servant who goes about their business in big cities throughout the world with both professionalism and anonymity, yet Yakusho and filmmaker Wim Wenders gives us an extended peek into this everyman’s inner life — and the result is a gentle, affectionate portrait of someone who has truly embraced a *carpe diem* mentality. For so much of *Perfect Days*‘ running time, the star doesn’t seem to be “acting.” He laughs, he momentarily tears up, he plays a beer-buzzed game of tag. And then Yakusho hits you with the sucker punch, courtesy of a close-up that leaves you reeling. [Read the full review](https://www.rollingstone.com/tv-movies/tv-movie-reviews/perfect-days-review-koji-yakusho-wim-wenders-best-performance-of-2024-1234942074/)
+## [[Perfect Days]]
+Legendary Japanese actor [[Kōji Yakusho]] gives a career-best performance as Hirayama, a middle-aged man who cleans public toilets for a living. He’s the kind of invisible civil servant who goes about their business in big cities throughout the world with both professionalism and anonymity, yet Yakusho and filmmaker Wim Wenders gives us an extended peek into this everyman’s inner life — and the result is a gentle, affectionate portrait of someone who has truly embraced a *carpe diem* mentality. For so much of *Perfect Days*‘ running time, the star doesn’t seem to be “acting.” He laughs, he momentarily tears up, he plays a beer-buzzed game of tag. And then Yakusho hits you with the sucker punch, courtesy of a close-up that leaves you reeling. [Read the full review](https://www.rollingstone.com/tv-movies/tv-movie-reviews/perfect-days-review-koji-yakusho-wim-wenders-best-performance-of-2024-1234942074/)
 
-![](https://www.rollingstone.com/wp-content/uploads/2024/11/RobotDreams.jpg?w=800)
-
-[[Robot Dreams]]
+## [[Robot Dreams]]
 Do androids dream of electric sheep? A better question: What if their R.E.M. cycles were filled with the same thoughts of love and loneliness and hopes and fears as the rest of us? Based on Sarah Varon’s 2007 graphic novel, Pablo Berger’s animated buddy dramedy treats that idea as a given, pairing an anthropomorphic dog and his some-assembly-required robot best friend as they tool around a cartoon New York City. Then an incident causes these two inseparable pals to be separated, time passes, and the world keeps turning. The question is not what happens to Robot and Dog in the interim before the last day of one summer and the start of another, nor what dreams may come before then — though the various flights of slumbering fancy that the movie does show run an impressive gamut from Grimm fairy-tale nightmares to Busby Berkeley extravaganzas. It’s what will occur when these two buddies encounter each other again. A hint: Have several boxes of tissue handy. And know that you will never, ever hear Earth, Wind & Fire’s “September” the same way again. [Read the full review](https://www.rollingstone.com/tv-movies/tv-movie-reviews/robot-dreams-review-1235027225/)
 
 ![](https://www.rollingstone.com/wp-content/uploads/2024/11/Janet-Planet_06.jpg?w=800)
-[[Janet Planet]]
+## [[Janet Planet]]
 Pulitzer-winning playwright Annie Baker steps behind the camera and delivers the last word on mother-daughter relationships, crafting a dual character study of a hippie-ish New England mom (Julianne Nicholson) and her 11-year-old kid (newcomer Zoe Ziegler) as they spend a summer navigating a particularly fraught push-pull dynamic. Like her stage work, Baker’s directorial debut is filled with long silences, empty spaces and things left unsaid; it’s also a testament to the power of leaving things unresolved, as a preadolescent tries to make sense of an adult world that, frankly, seems as foreign to her grasping, seeking parent as it does to her. A beautiful minor masterpiece. [Read the full review](https://www.rollingstone.com/tv-movies/tv-movie-reviews/janet-planet-review-annie-baker-1235036444/)
 
 ![](https://www.rollingstone.com/wp-content/uploads/2024/11/TIRE_TOWN_STILLS_PULL_230607_002_RC_rgb.jpg?w=1024)
@@ -95,7 +92,7 @@ A near-mystical drama from Italian filmmaker [[Alice Rohrwacher]] ([*Happy as La
 ![](https://www.rollingstone.com/wp-content/uploads/2024/11/DoNotExpect-Much.jpg?w=1024)
 ## [[Do Not Expect Much From the End of the World]]
 
-In which the end comes not with a bang, but with a **TikTok** post featuring a fake incel bragging about his prolific sex life. Romanian filmmaker [[Radu Jude]]’s biting satire captures our current the-center-cannot-hold moment better than just about any other film of the past few years; its title may be a mouthful, but the more accurate name *Apocalypse Now* was, regrettably, already spoken for.
+In which the end comes not with a bang, but with a **TikTok** post featuring a fake incel bragging about his prolific sex life. **Romanian** filmmaker [[Radu Jude]]’s biting satire captures our current the-center-cannot-hold moment better than just about any other film of the past few years; its title may be a mouthful, but the more accurate name *Apocalypse Now* was, regrettably, already spoken for.
 Following Angela (Ilinca Manolache), a Bucharest-based production assistant frantically driving from one meaningless task to the next, this chaotic comedy contrasts this gig-economy worker’s **wage-slavery** with life during the authoritarian [[Ceaușescu]] regime and comes to the conclusion that only the dates on the calendar have changed. Angela social-media rants via her alter ego — a toxic-male caricature known as Bobita — couldn’t be more crudely hilarious. The movie’s climax, in which we see a dead man’s family get gaslit and reality gets hijacked, couldn’t feel more unsettling. [Read the full review](https://www.rollingstone.com/tv-movies/tv-movie-reviews/do-not-expect-too-much-from-the-end-of-the-world-review-1234992697/)
 
 ![](https://www.rollingstone.com/wp-content/uploads/2024/11/Substance.jpg?w=1024)

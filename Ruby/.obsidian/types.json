@@ -32,6 +32,7 @@
     "vrijeme": "datetime",
     "author": "multitext",
     "city": "multitext",
-    "country": "multitext"
+    "country": "multitext",
+    "rodendan": "date"
   }
 }

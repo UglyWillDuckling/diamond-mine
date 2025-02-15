@@ -1,5 +1,5 @@
 {
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Things",
   "interfaceFontFamily": "Cantarell",
   "monospaceFontFamily": "FiraCode Nerd Font Mono",
   "textFontFamily": "",
@@ -13,6 +13,5 @@
   ],
   "showViewHeader": true,
   "accentColor": "#ff751a",
-  "theme": "system",
-  "showRibbon": true
+  "theme": "system"
 }

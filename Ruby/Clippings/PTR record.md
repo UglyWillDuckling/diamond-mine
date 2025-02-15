@@ -45,7 +45,7 @@ Here is an example of a PTR record that maps the IPv4 address `10.0.0.1` to the 
 
 ## PTR record names
 
-The owner name of a PTR record always lies in the .arpa zone. The .arpa Top Level Domain was the first TLD created. It was proposed in 1983 by [RFC 881](https://datatracker.ietf.org/doc/html/rfc881). For [[IPv4]] addresses, the rightmost labels are always "in-addr.arpa". For IPv6 addresses, "ip6.arpa" is used.
+The owner name of a PTR record always lies in the .arpa zone. The .arpa Top Level Domain was the first TLD created. It was proposed in 1983 by [RFC 881](https://datatracker.ietf.org/doc/html/rfc881). For [[IPv4 example]] addresses, the rightmost labels are always "in-addr.arpa". For IPv6 addresses, "ip6.arpa" is used.
 
 Preceding "in-addr.arpa" or "ip6.arpa" are DNS labels that contain the IP address in a specific format. For IPv4, there are four labels for the address, one for each octet in the IPv4 address. For IPv6, there is one label for each hex digit in the IPv6 address. The address labels appear in reverse order. The least significant labels of the address come first.
 

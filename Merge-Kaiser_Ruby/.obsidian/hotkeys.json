@@ -1,0 +1,191 @@
+{
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "editor:insert-wikilink": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "K"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
+  ],
+  "file-explorer:move-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "obsidian-tasks-plugin:edit-task": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "highlightr-plugin:highlighter-plugin-menu": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "editor:toggle-italics": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "I"
+    }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "graph:open": [],
+  "graph:open-local": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "editor:open-search-replace": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
+  ],
+  "backlink:toggle-backlinks-in-document": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
+  "workspaces:open-modal": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
+  ],
+  "quickadd:runQuickAdd": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "A"
+    }
+  ],
+  "obsidian-footnotes:insert-autonumbered-footnote": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "juggl:open-vis": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "editor:save-file": [],
+  "editor:insert-callout": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
+  ],
+  "webviewer:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ]
+}

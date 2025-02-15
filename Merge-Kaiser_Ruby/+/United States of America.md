@@ -1,0 +1,6 @@
+---
+aliases:
+  - America
+  - SAD
+  - USA
+---

@@ -1,0 +1,1350 @@
+{
+  "workspaces": {
+    "wordpress": {
+      "main": {
+        "id": "d3fd3182b5b7335d",
+        "type": "split",
+        "children": [
+          {
+            "id": "24651b1b0f020b4f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "423bf677540ed0f5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Efforts/Active/Wordpress/Wordpress.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Wordpress"
+                }
+              },
+              {
+                "id": "f6142140a4908620",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Efforts/Active/Wordpress/Wordpress Dev Setup.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Wordpress Dev Setup"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "421b21ff91adde0d",
+        "type": "split",
+        "children": [
+          {
+            "id": "7257e540e65a9982",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "67ac4e3f4e315e0f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "53e419fd8d9494ea",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#task",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "369d6f3ac727bb90",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 349.51103591918945
+      },
+      "right": {
+        "id": "6b26b603c051936f",
+        "type": "split",
+        "children": [
+          {
+            "id": "05ce95f18513eaae",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3ea75a16cb86481d",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Calendar/daily/2025-01-09.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for 2025-01-09"
+                }
+              },
+              {
+                "id": "c03361a3000bd879",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Calendar/daily/2025-01-09.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from 2025-01-09"
+                }
+              },
+              {
+                "id": "732b3c2921195d4b",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Efforts/Active/Wordpress/Wordpress Dev Setup.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Wordpress Dev Setup"
+                }
+              },
+              {
+                "id": "08c4f9c69a275725",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "b286b55672c075e3",
+                "type": "leaf",
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Chronology"
+                }
+              },
+              {
+                "id": "e2dfdd096e897a5f",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 377.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-kanban:Create new board": false,
+          "obsidian-media-db-plugin:Add new Media DB entry": true,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": true,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": true,
+          "obsidian-importer:Open Importer": false,
+          "obsidian-day-and-night:Toggle Theme": false,
+          "chronology:Open Chronology": true,
+          "markwhen:Create new Markwhen file": true,
+          "daily-notes:Open today's daily note": false,
+          "obsidian-projects:Open projects": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "f6142140a4908620",
+      "mtime": "2025-01-26T19:58:23+01:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "Atlas",
+          "Atlas/Knowledge/Media/Articles/Dev",
+          "Efforts",
+          "Efforts/Active",
+          "Efforts/Active/Persona/Tickets",
+          "Efforts/Active/Wordpress"
+        ]
+      }
+    },
+    "empty": {
+      "main": {
+        "id": "d3fd3182b5b7335d",
+        "type": "split",
+        "children": [
+          {
+            "id": "0b41bfbea992785f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "36437f51c5c9fc37",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "421b21ff91adde0d",
+        "type": "split",
+        "children": [
+          {
+            "id": "7257e540e65a9982",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "67ac4e3f4e315e0f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "53e419fd8d9494ea",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#task",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "369d6f3ac727bb90",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200,
+        "collapsed": true
+      },
+      "right": {
+        "id": "6b26b603c051936f",
+        "type": "split",
+        "children": [
+          {
+            "id": "05ce95f18513eaae",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3ea75a16cb86481d",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Calendar/daily/2025-01-09.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for 2025-01-09"
+                }
+              },
+              {
+                "id": "c03361a3000bd879",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Calendar/daily/2025-01-09.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from 2025-01-09"
+                }
+              },
+              {
+                "id": "732b3c2921195d4b",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Obsidian Tinkering"
+                }
+              },
+              {
+                "id": "08c4f9c69a275725",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "b286b55672c075e3",
+                "type": "leaf",
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Chronology"
+                }
+              },
+              {
+                "id": "e2dfdd096e897a5f",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 377.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-kanban:Create new board": false,
+          "obsidian-media-db-plugin:Add new Media DB entry": true,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": true,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": true,
+          "obsidian-importer:Open Importer": false,
+          "obsidian-day-and-night:Toggle Theme": false,
+          "chronology:Open Chronology": true,
+          "markwhen:Create new Markwhen file": true,
+          "daily-notes:Open today's daily note": false,
+          "obsidian-projects:Open projects": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "36437f51c5c9fc37",
+      "mtime": "2025-01-19T22:50:12+01:00",
+      "workspaces-plus:settings-v1": {}
+    },
+    "tasks": {
+      "main": {
+        "id": "d3fd3182b5b7335d",
+        "type": "split",
+        "children": [
+          {
+            "id": "14f0272006c7adca",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8bd8a1f1d07dc627",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "tasks canvas.canvas",
+                    "viewState": {
+                      "x": -35.624360885298614,
+                      "y": 615.1208063481879,
+                      "zoom": -0.30429029831201493
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "tasks canvas"
+                }
+              },
+              {
+                "id": "8fffb5e05aa6f1b1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "+/How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager"
+                }
+              },
+              {
+                "id": "5cf814c9f30eb899",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "x/note on Manage tasks.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "note on Manage tasks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "421b21ff91adde0d",
+        "type": "split",
+        "children": [
+          {
+            "id": "7257e540e65a9982",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "67ac4e3f4e315e0f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "53e419fd8d9494ea",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#docs",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "369d6f3ac727bb90",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 235.50260543823242
+      },
+      "right": {
+        "id": "6b26b603c051936f",
+        "type": "split",
+        "children": [
+          {
+            "id": "05ce95f18513eaae",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3ea75a16cb86481d",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Calendar/daily/2025-01-09.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for 2025-01-09"
+                }
+              },
+              {
+                "id": "c03361a3000bd879",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Calendar/daily/2025-01-09.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from 2025-01-09"
+                }
+              },
+              {
+                "id": "732b3c2921195d4b",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Obsidian Tinkering"
+                }
+              },
+              {
+                "id": "08c4f9c69a275725",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "b286b55672c075e3",
+                "type": "leaf",
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Chronology"
+                }
+              },
+              {
+                "id": "e2dfdd096e897a5f",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "horizontal",
+        "width": 377.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-kanban:Create new board": false,
+          "obsidian-media-db-plugin:Add new Media DB entry": true,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": true,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": true,
+          "obsidian-importer:Open Importer": false,
+          "obsidian-day-and-night:Toggle Theme": false,
+          "chronology:Open Chronology": true,
+          "markwhen:Create new Markwhen file": true,
+          "daily-notes:Open today's daily note": false,
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-projects:Open projects": false
+        }
+      },
+      "active": "8bd8a1f1d07dc627",
+      "mtime": "2025-01-25T21:56:15+01:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "Efforts/Active",
+          "Efforts/Active/Kuca",
+          "Efforts/Active/Kuca/HPB kredit"
+        ]
+      }
+    },
+    "home": {
+      "main": {
+        "id": "d3fd3182b5b7335d",
+        "type": "split",
+        "children": [
+          {
+            "id": "99037b45043f324a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f5b1d04b59361241",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "dash 💨.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "dash 💨"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "421b21ff91adde0d",
+        "type": "split",
+        "children": [
+          {
+            "id": "7257e540e65a9982",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "67ac4e3f4e315e0f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "53e419fd8d9494ea",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#question",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "369d6f3ac727bb90",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 283.51103591918945
+      },
+      "right": {
+        "id": "6b26b603c051936f",
+        "type": "split",
+        "children": [
+          {
+            "id": "05ce95f18513eaae",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3ea75a16cb86481d",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Calendar/daily/2025-01-09.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for 2025-01-09"
+                }
+              },
+              {
+                "id": "c03361a3000bd879",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Calendar/daily/2025-01-09.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from 2025-01-09"
+                }
+              },
+              {
+                "id": "732b3c2921195d4b",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Obsidian Tinkering"
+                }
+              },
+              {
+                "id": "08c4f9c69a275725",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "b286b55672c075e3",
+                "type": "leaf",
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Chronology"
+                }
+              },
+              {
+                "id": "e2dfdd096e897a5f",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 442.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian42-brat:BRAT": false,
+          "task-board:Open task board": false,
+          "obsidian-kanban:Create new board": false,
+          "obsidian-media-db-plugin:Add new Media DB entry": true,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": true,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": true,
+          "obsidian-importer:Open Importer": false,
+          "obsidian-day-and-night:Toggle Theme": false,
+          "chronology:Open Chronology": true,
+          "markwhen:Create new Markwhen file": true,
+          "daily-notes:Open today's daily note": false,
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-projects:Open projects": false
+        }
+      },
+      "active": "f5b1d04b59361241",
+      "mtime": "2025-01-28T00:00:04+01:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "Efforts",
+          "Efforts/Active/Kuca",
+          "Efforts/Active/Kuca/HPB kredit",
+          "Efforts/Active/Tasks Management in Obsidian"
+        ]
+      }
+    },
+    "obsidian CLI": {
+      "main": {
+        "id": "d3fd3182b5b7335d",
+        "type": "split",
+        "children": [
+          {
+            "id": "5ed3e794edf667da",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0a41898deb3b5092",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Efforts/Active/Obsidian Tinkering/Obsidian CLI tools and automations.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Obsidian CLI tools and automations"
+                }
+              },
+              {
+                "id": "9e8059ce39e7911d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "new rust cli appo.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "new rust cli appo"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "421b21ff91adde0d",
+        "type": "split",
+        "children": [
+          {
+            "id": "7257e540e65a9982",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "67ac4e3f4e315e0f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 204.51103591918945,
+        "collapsed": true
+      },
+      "right": {
+        "id": "6b26b603c051936f",
+        "type": "split",
+        "children": [
+          {
+            "id": "05ce95f18513eaae",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3ea75a16cb86481d",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Efforts/Active/Obsidian Tinkering/Obsidian CLI tools and automations.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Obsidian CLI tools and automations"
+                }
+              },
+              {
+                "id": "c03361a3000bd879",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Master Task List.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Master Task List"
+                }
+              },
+              {
+                "id": "732b3c2921195d4b",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Atlas/Knowledge/Media/Articles/Morgen for beginners Organizing Tasks and Events in one place.md",
+                    "followCursor": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Morgen for beginners Organizing Tasks and Events in one place"
+                }
+              },
+              {
+                "id": "08c4f9c69a275725",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "b286b55672c075e3",
+                "type": "leaf",
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Chronology"
+                }
+              },
+              {
+                "id": "e2dfdd096e897a5f",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              },
+              {
+                "id": "9af19dbd817d4304",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_nodes",
+                  "state": {},
+                  "icon": "ag-node-list",
+                  "title": "Juggl nodes"
+                }
+              },
+              {
+                "id": "c800eb8fbf7a1b39",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_style",
+                  "state": {},
+                  "icon": "ag-style",
+                  "title": "Juggl style"
+                }
+              },
+              {
+                "id": "1acb206a9cba5e52",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-matrix",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "45a7fd4bd735a2a0",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-tree",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "4902e2762b135266",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-ducks",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 442.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian42-brat:BRAT": true,
+          "task-board:Open task board": true,
+          "obsidian-kanban:Create new board": false,
+          "obsidian-media-db-plugin:Add new Media DB entry": true,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": true,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": true,
+          "obsidian-importer:Open Importer": false,
+          "obsidian-day-and-night:Toggle Theme": false,
+          "chronology:Open Chronology": true,
+          "markwhen:Create new Markwhen file": true,
+          "obsidian-projects:Open projects": false,
+          "daily-notes:Open today's daily note": false,
+          "workspaces:Manage workspace layouts": false,
+          "juggl:Juggl global graph": true,
+          "templater-obsidian:Templater": true
+        }
+      },
+      "active": "0a41898deb3b5092",
+      "mtime": "2025-02-09T13:40:50+01:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": []
+      }
+    },
+    "kuca": {
+      "main": {
+        "id": "d3fd3182b5b7335d",
+        "type": "split",
+        "children": [
+          {
+            "id": "acc47fc4df76fd60",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e5c5a251a87d8969",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Efforts/Active/Kuca/docs/zemljisni podaci.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "zemljisni podaci"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "421b21ff91adde0d",
+        "type": "split",
+        "children": [
+          {
+            "id": "7257e540e65a9982",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "67ac4e3f4e315e0f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 308.5
+      },
+      "right": {
+        "id": "6b26b603c051936f",
+        "type": "split",
+        "children": [
+          {
+            "id": "05ce95f18513eaae",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3ea75a16cb86481d",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Efforts/Active/Kuca/docs/zemljisni podaci.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for zemljisni podaci"
+                }
+              },
+              {
+                "id": "c03361a3000bd879",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Master Task List.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Master Task List"
+                }
+              },
+              {
+                "id": "732b3c2921195d4b",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Atlas/Knowledge/Media/Articles/Morgen for beginners Organizing Tasks and Events in one place.md",
+                    "followCursor": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Morgen for beginners Organizing Tasks and Events in one place"
+                }
+              },
+              {
+                "id": "08c4f9c69a275725",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "b286b55672c075e3",
+                "type": "leaf",
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Chronology"
+                }
+              },
+              {
+                "id": "e2dfdd096e897a5f",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              },
+              {
+                "id": "9af19dbd817d4304",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_nodes",
+                  "state": {},
+                  "icon": "ag-node-list",
+                  "title": "Juggl nodes"
+                }
+              },
+              {
+                "id": "c800eb8fbf7a1b39",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_style",
+                  "state": {},
+                  "icon": "ag-style",
+                  "title": "Juggl style"
+                }
+              },
+              {
+                "id": "1acb206a9cba5e52",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-matrix",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "45a7fd4bd735a2a0",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-tree",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "4902e2762b135266",
+                "type": "leaf",
+                "state": {
+                  "type": "BC-ducks",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 442.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian42-brat:BRAT": true,
+          "task-board:Open task board": true,
+          "obsidian-kanban:Create new board": false,
+          "obsidian-media-db-plugin:Add new Media DB entry": true,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": true,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": true,
+          "obsidian-importer:Open Importer": false,
+          "obsidian-day-and-night:Toggle Theme": false,
+          "chronology:Open Chronology": true,
+          "markwhen:Create new Markwhen file": true,
+          "obsidian-projects:Open projects": false,
+          "daily-notes:Open today's daily note": false,
+          "workspaces:Manage workspace layouts": false,
+          "juggl:Juggl global graph": true,
+          "templater-obsidian:Templater": true
+        }
+      },
+      "active": "e5c5a251a87d8969",
+      "mtime": "2025-02-10T21:02:15+01:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "Yin-Yang/designer",
+          "Yin-Yang/resources"
+        ]
+      }
+    }
+  },
+  "active": "empty"
+}

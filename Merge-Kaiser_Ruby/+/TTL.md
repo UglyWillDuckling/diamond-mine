@@ -1,0 +1,4 @@
+---
+aliases:
+  - time-to-live
+---

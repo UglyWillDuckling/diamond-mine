@@ -1,5 +1,5 @@
 ## goals
-- migrate to using the `lead` as the source of data for [[project]]
+- migrate to using the `lead` as the source of data for [[Real Estate Project]]
 	- compare the transactions made from estima's and lead's
 	- ensure they are **compatible**
 

@@ -1,7 +1,7 @@
 #feature/cronjob
 
 developed_in:: [[QSL listing feature]]
-### notes
+### *notes*
 
 - [[#definition]] is stored/located in [[ma-infra]] repo
 

@@ -24,7 +24,6 @@ created: <% tp.file.creation_date() %>
 - <% tp.file.cursor() %>
 ### ✔ New Tasks
 
-
 ### Notes created today
 ```dataview
 List FROM "" WHERE file.cday = date("<%tp.date.now("YYYY-MM-DD")%>") SORT file.ctime asc
@@ -39,14 +38,10 @@ List FROM "" WHERE file.mday = date("<%tp.date.now("YYYY-MM-DD")%>") SORT file.m
 
 ### standup 🪑
 
-> [!multi-column]
->> [!warning]+ Important
->> ![[{{DATE}} daily#^important]]
->
->> [!note]+ Notes
->> ![[{{DATE}} daily#^active]]
-
-![[{{DATE}} daily#per person]]
+#### quick notes
+- 
+#### me 
+- 
 
 ### ☑ checklist
 - [ ] pogledati  obaveze i zadatke

@@ -148,7 +148,7 @@ To really search *all* files and directories, simply combine the hidden and igno
 
 ### Matching the full path
 
-By default, *fd* only matches the filename of each file. However, using the `--full-path` or `-p` option, you can **match against the full path.**
+By default, *fd* only **matches the filename** of each file. However, using the `--full-path` or `-p` option, you can **match against the full path.**
 
 ```bash
 fd -p -g '**/.git/config'
@@ -216,20 +216,25 @@ fd -tf -x md5sum > file_checksums.txt
 #### **Parallel** vs. *serial* execution 
 
 For `-x`/`--exec`, you can control the number of parallel jobs by using the `-j`/`--threads` option. Use `--threads=1` for serial execution.
+
 ### `Excluding`  *files* or directories
 
 Sometimes we want to ignore search results from a specific subdirectory. For example, we might want to search all hidden files and directories (`-H`) but exclude all matches from `.git` directories. We can use the `-E` (or `--exclude`) option for this. It takes an arbitrary **glob pattern** as an argument:
 
 We can also use this to skip mounted directories:
-
 ```ruby
 fd -E /mnt/external-drive …
 ```
 
-.. or to skip certain file types:
+.. or to skip certain **file types**:
+```bash
+fd -E '*.bak' …
+```
 
-To make exclude-patterns like these permanent, you can create a `.fdignore` file. They work like `.gitignore` files, but are specific to `fd`. For example:
+#### ignore files
+To make exclude-patterns like these permanent, you can create a `.fdignore` file. They work like `.gitignore` files, but are specific to `fd`. 
 
+For example:
 ```bash
 cat ~/.fdignore
 /mnt/external-drive
@@ -310,7 +315,7 @@ Options:
 - [x] remind me about --help for **fd** (@[[2025-02-05]] 10:21)
 ## Integration with other programs
 
-### Using fd with `fzf`
+### Using fd with [[fzf]]
 
 You can use *fd* to generate input for the command-line fuzzy finder [fzf](https://github.com/junegunn/fzf):
 
@@ -336,7 +341,7 @@ export FZF_DEFAULT_OPTS="--ansi"
 
 For more details, see the [Tips section](https://github.com/junegunn/fzf#tips) of the fzf README.
 
-### Using fd with `rofi`
+### Using fd with [[rofi]]
 
 [*rofi*](https://github.com/davatorium/rofi) is a graphical launch menu application that is able to create menus by reading from *stdin*. Piping `fd` output into `rofi`s `-dmenu` mode creates fuzzy-searchable lists of files and directories.
 
@@ -350,7 +355,7 @@ fd --type f -e pdf . $HOME | rofi -keep-right -dmenu -i -p FILES -multi-select |
 
 To modify the list that is presented by rofi, add arguments to the `fd` command. To modify the search behaviour of rofi, add arguments to the `rofi` command.
 
-### Using fd with `emacs`
+### Using fd with [[emacs]]
 
 The emacs package [find-file-in-project](https://github.com/technomancy/find-file-in-project) can use *fd* to find files.
 
@@ -379,7 +384,7 @@ On bash and similar you can simply create an alias:
 alias as-tree='tree --fromfile'
 ```
 
-### Using fd with `xargs` or `parallel`
+### Using fd with [[xargs]] or [[GNU Parallel]]
 
 Note that `fd` has a builtin feature for [command execution](https://github.com/sharkdp/#command-execution) with its `-x`/`--exec` and `-X`/`--exec-batch` options. If you prefer, you can still use it in combination with `xargs`:
 

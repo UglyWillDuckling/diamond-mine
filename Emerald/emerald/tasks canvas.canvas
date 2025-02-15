@@ -58,22 +58,8 @@
     },
     {
       "autoResizeHeight": false,
-      "color": "6",
-      "height": 580,
-      "id": "6ea88ea809413bf1",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "text": "**Scheduled**\n```tasks\nnot done\n(has due date) OR (has scheduled date) OR (has start date)\nhide tags\nshort mode\nshow tree\nhide task count\n```\n",
-      "type": "text",
-      "width": 720,
-      "x": -450,
-      "y": 640
-    },
-    {
-      "autoResizeHeight": false,
       "color": "4",
-      "height": 520,
+      "height": 615,
       "id": "fd8d806473e9e81d",
       "styleAttributes": {
       },
@@ -82,20 +68,6 @@
       "width": 820,
       "x": -500,
       "y": 25
-    },
-    {
-      "autoResizeHeight": false,
-      "color": "6",
-      "height": 130,
-      "id": "b226912847dd7720",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "\n### tiny\n```tasks\nnot done\ntags include #tiny\n```\n\n\n",
-      "type": "text",
-      "width": 500,
-      "x": -380,
-      "y": -105
     },
     {
       "autoResizeHeight": false,
@@ -122,6 +94,34 @@
       "width": 700,
       "x": 980,
       "y": 520
+    },
+    {
+      "autoResizeHeight": false,
+      "color": "6",
+      "height": 130,
+      "id": "b226912847dd7720",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "\n### tiny\n```tasks\nnot done\ntags include #tiny\n```\n\n\n",
+      "type": "text",
+      "width": 540,
+      "x": -380,
+      "y": -120
+    },
+    {
+      "autoResizeHeight": false,
+      "color": "6",
+      "height": 640,
+      "id": "6ea88ea809413bf1",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "**Scheduled**\n```tasks\nnot done\n(has due date) OR (has scheduled date) OR (has start date)\nhide tags\nshort mode\nshow tree\nhide task count\n```\n",
+      "type": "text",
+      "width": 720,
+      "x": -450,
+      "y": 660
     }
   ]
 }

@@ -18,7 +18,7 @@
 First, we can continue the course on [Execute program](https://www.executeprogram.com/courses/everyday-typescript) that will give us a practical understanding of typescript covering most of its basic and some more advanced features using everyday easy to understand examples, [[execute program courses 🎓]].
 
 #manifesto #core #basics
-After the course, we move on to typescript basics using the roadmap and following the essential [documentation](documentation) needed to understand the core of  [[typescript]] and not get lost 🧭.
+After the course, we move on to typescript basics using the roadmap and following the essential [Homebrew](Homebrew.md) needed to understand the core of  [[typescript]] and not get lost 🧭.
 
 Afterwords, we move, rather quickly, to start to build an actual app using typescript. Don't to the **todo** list today please 🙏, do something different to get started like:
 

@@ -1,9 +1,13 @@
-
 #ticket 
 
-- [/] #task **plan** out [[qsl production deployment|prod deployment]] ⏫ ⏳ 2025-02-10 📅 2025-02-11 🆔 KAs9n1
+parent:: [[QSL listing feature]]
+
+- [x] #task **plan** out [[qsl production deployment|prod deployment]] 🆔 KAs9n1 ⏫ ⏳ 2025-02-10 📅 2025-02-11 ✅ 2025-02-11
 	- [x] deployment
 	- [x] testing
+- [x] #task production deployment 🆔 fI6USQ ✅ 2025-02-11
+	- [x] [[backyard-tasks]]
+	- [x] backyard
 ### the plan
 
 1. ==deploy== [[backyard-tasks]] app
@@ -18,7 +22,7 @@
 ## testing
 
 ### DB entries
-- & there should be around **700** listings
+- 📔 there should be around **700** listings
 ### Project header 🤯
 
 - Should **contain** the **seloger** icon
@@ -29,3 +33,9 @@
 - & **should** run with the [[qsl cron]] 
 - checks and updates the status of each [[QSL listing]] according to the its online availability
 
+## final notes
+
+- $ no issues reported
+- **711** listings imported
+- most [[QSL listing]]s have the status [[Mandat a signer]]
+- ..

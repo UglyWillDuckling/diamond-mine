@@ -1,19 +1,19 @@
 {
   "choices": [
     {
-      "id": "b79ca23d-fbbf-470a-b66c-227bbdda0241",
-      "name": "daily 🗓️",
+      "id": "bdc83b49-6cfd-4d28-b8e2-3323dabf1c8a",
+      "name": "thought",
       "type": "Template",
       "command": true,
-      "templatePath": "Knowledge/templates/daily call template.md",
+      "templatePath": "Knowledge/templates/thought.md",
       "fileNameFormat": {
-        "enabled": true,
-        "format": "{{DATE:}} daily"
+        "enabled": false,
+        "format": ""
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "work/calls/DAILY"
+          "+"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -21,8 +21,8 @@
       },
       "appendLink": false,
       "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
+        "enabled": true,
+        "direction": "horizontal",
         "focus": true
       },
       "openFile": true,
@@ -31,11 +31,39 @@
       "setFileExistsBehavior": false
     },
     {
-      "id": "f64b73ca-b341-422f-83ac-08cf48d5f1e5",
-      "name": "BookFinder📕",
-      "type": "Macro",
+      "id": "6b6e430f-6b96-493e-88a4-bf078ff6ae19",
+      "name": "Task Add ☑️",
+      "type": "Capture",
       "command": true,
-      "macroId": "61dfedc0-d41f-4074-a5ee-fed304e06ef9"
+      "appendLink": false,
+      "captureTo": "Knowledge/daily_notes/{{DATE:YYYY/MMMM/YYYY-MM-DD}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "Knowledge/templates/day.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "```js quickadd\nreturn await this.app.plugins.plugins['obsidian-tasks-plugin'].apiV1.createTaskLineModal();\n```\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "### ✔ New Tasks",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
     },
     {
       "id": "28b2ee83-9521-431e-944d-9c019ffb364b",
@@ -45,34 +73,11 @@
       "macroId": "ff14992f-d89c-4dc9-8b1e-4d84da38598c"
     },
     {
-      "id": "f2706324-a974-4be8-aa99-3f84420ebb8a",
-      "name": "add tool 🔨",
-      "type": "Template",
+      "id": "f64b73ca-b341-422f-83ac-08cf48d5f1e5",
+      "name": "BookFinder📕",
+      "type": "Macro",
       "command": true,
-      "templatePath": "Knowledge/templates/tool.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "Knowledge/tools"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": true
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "macroId": "61dfedc0-d41f-4074-a5ee-fed304e06ef9"
     },
     {
       "id": "28a78ebd-975c-43cf-b91b-3a2354238c00",
@@ -97,71 +102,6 @@
       "openFileInNewTab": {
         "enabled": true,
         "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
-      "id": "6b6e430f-6b96-493e-88a4-bf078ff6ae19",
-      "name": "Task Add ☑️",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "Knowledge/daily_notes/{{DATE:YYYY/MMMM/YYYY-MM-DD}}.md",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": true,
-        "createWithTemplate": true,
-        "template": "Knowledge/templates/day.md"
-      },
-      "format": {
-        "enabled": true,
-        "format": "```js quickadd\nreturn await this.app.plugins.plugins['obsidian-tasks-plugin'].apiV1.createTaskLineModal();\n```"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "### ✔ New Tasks",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": true,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "bdc83b49-6cfd-4d28-b8e2-3323dabf1c8a",
-      "name": "thought",
-      "type": "Template",
-      "command": true,
-      "templatePath": "Knowledge/templates/thought.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "+"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "horizontal",
         "focus": true
       },
       "openFile": true,

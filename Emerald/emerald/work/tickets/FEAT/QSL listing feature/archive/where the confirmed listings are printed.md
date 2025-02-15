@@ -6,7 +6,7 @@
 
 ## notes 🗒
 - method: `project_contract_header`
-- page location: [[project]] `header`
+- page location: [[Real Estate Project]] `header`
 -  **1** listing per [[realtor]] is shown at the most
 
 ## scenarios

@@ -175,7 +175,7 @@ inet_interfaces = all
 
 We set the hostname and the default origin, which is sourced from `/etc/mailname` by debian convention. 
 You can set it explicitly if you don’t have /etc/mailname. The default origin is used to construct the **‘From’** address for local users. 
-`mydestination` sets the **domains** that [[Postfix]] accepts emails for as final destination, and we set “`relayhost`” empty to **disable** relaying mail (relaying means accepting mail and then [[forwarding]] to a mail server that is not the final destination for the mail and we have no need for that; that is useful e.g. in a corporate [[intranet]] where a central mail server should check mail before it leaves the network.) 
+`mydestination` sets the **domains** that [[postfix]] accepts emails for as final destination, and we set “`relayhost`” empty to **disable** relaying mail (relaying means accepting mail and then [[forwarding]] to a mail server that is not the final destination for the mail and we have no need for that; that is useful e.g. in a corporate [[intranet]] where a central mail server should check mail before it leaves the network.) 
 
 Let’s now set the **local alias maps**. We don’t have to set this setting since we’re just keeping the default setting, but it’s good to make it explicit in case we later want to add another method of defining alias maps.
 
@@ -256,7 +256,7 @@ passdb {
 protocols = " imap"
 ```
 This enables **plaintext auth** (The “[[plaintext]]” authentication will be tunneled through **TLS**), tells [[dovecot]] to use the `mail` **system group** for accessing the local mailboxes (plus the location of the mailboxes), 
-**use the unix authentication system** to authenticate users, and enable [[IMAP]] only.  
+**use the unix authentication system** to authenticate users, and enable [[imap]] only.  
 If you want, you can have dovecot automatically add a Trash and Sent folder to mailboxes:
 > [!attention] Deprecation issue
 > [[Dovecot autocreate plugin is deprecated, use mailbox { auto } setting]]
@@ -273,7 +273,7 @@ plugin {
 }
 ```
 
-Next, we need to open a [[socket]] that [[Postfix]] can use to `piggy-back` on dovecot’s **authentication**:
+Next, we need to open a [[socket]] that [[postfix]] can use to `piggy-back` on dovecot’s **authentication**:
 ```
 service auth {
   unix_listener /var/spool/postfix/private/auth {

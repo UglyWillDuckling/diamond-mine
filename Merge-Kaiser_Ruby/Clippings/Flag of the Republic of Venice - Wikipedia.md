@@ -1,0 +1,19 @@
+---
+title: Flag of the Republic of Venice - Wikipedia
+source: https://en.m.wikipedia.org/wiki/Flag_of_the_Republic_of_Venice
+published: 2018-11-10
+created: 2025-01-17
+tags:
+  - grb
+---
+(Redirected from [Flag of Venice](https://en.m.wikipedia.org/w/index.php?title=Flag_of_Venice&redirect=no "Flag of Venice"))
+
+The **Flag of the Republic of Venice**, commonly known as the **Banner** or **Standard of Saint Mark** (*stendardo di San Marco*), was the symbol of the [Republic of Venice](https://en.m.wikipedia.org/wiki/Republic_of_Venice "Republic of Venice"), until its [dissolution](https://en.m.wikipedia.org/wiki/Fall_of_the_Republic_of_Venice "Fall of the Republic of Venice") in 1797.
+
+<table><caption>Flag of the Republic of Venice</caption><tbody><tr><td colspan="2"></td></tr><tr><td colspan="2"><span><a href="https://en.m.wikipedia.org/wiki/File:Flag_of_Republic_of_Venice_(1659-1675).svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Republic_of_Venice_%281659-1675%29.svg/255px-Flag_of_Republic_of_Venice_%281659-1675%29.svg.png" width="255" height="121"></a></span></td></tr><tr><th scope="row">Other names</th><td><i>Banner of St. Mark</i>, <i>Standard of St. Mark</i></td></tr><tr><th scope="row">Proportion</th><td>1:2</td></tr><tr><th scope="row">Relinquished</th><td>1797<span>&nbsp;(<span>1797</span>)</span></td></tr><tr><th scope="row">Design</th><td>A gold <a href="https://en.m.wikipedia.org/wiki/Lion_of_St._Mark">Lion of St. Mark</a> on a field of dark red accompanied by six <a href="https://en.m.wikipedia.org/wiki/Sestiere_(Venice)">sestiere</a> on the fly</td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"></td></tr><tr><td colspan="2"><span><a href="https://en.m.wikipedia.org/wiki/File:(Venice)_Stendardo_Navale_-_Stemma_del_Doge_Domenico_Contarini_-_Museuo_Correr.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/%28Venice%29_Stendardo_Navale_-_Stemma_del_Doge_Domenico_Contarini_-_Museuo_Correr.jpg/203px-%28Venice%29_Stendardo_Navale_-_Stemma_del_Doge_Domenico_Contarini_-_Museuo_Correr.jpg" width="203" height="105"></a></span><p>The original version of the year 1659 at the Museo Correr</p></td></tr><tr><td colspan="2"></td></tr></tbody></table>
+
+Its main [charge](https://en.m.wikipedia.org/wiki/Charge_\(heraldry\) "Charge (heraldry)") was the [Lion of Saint Mark](https://en.m.wikipedia.org/wiki/Lion_of_Saint_Mark "Lion of Saint Mark"), symbolizing [Mark the Evangelist](https://en.m.wikipedia.org/wiki/Mark_the_Evangelist "Mark the Evangelist"), the [patron saint](https://en.m.wikipedia.org/wiki/Patron_saint "Patron saint") of [Venice](https://en.m.wikipedia.org/wiki/Venice "Venice").[^:3-1] A distinguishing feature of the flag is its six fringes, which were added to represent the original six [sestiere](https://en.m.wikipedia.org/wiki/Sestiere "Sestiere") of Venice. The fringes also serve to prevent damage being caused to the central section of the flag by wind.[^:0-2]
+
+During times of peace, the Lion of Saint Mark was depicted alongside an open book. However, when the Republic was at war the Bible was replaced with the lion grasping an upright sword.[^:3-1] During the *corteo dogale* (lit. 'procession of the [doges](https://en.m.wikipedia.org/wiki/Doge_\(title\) "Doge (title)")'), four banners of Saint Mark with different background colours, white, purple, blue, and red, were carried, with the one in front representing the state of the republic at that time (at peace, in a truce, in an alliance, at war, respectively). When at war, the war version of the Lion of Saint Mark was used.[^3][^4]
+
+The flag inspired the modern [flag of the Veneto region](https://en.m.wikipedia.org/wiki/Flag_of_Veneto "Flag of Veneto") in Italy.[^5]

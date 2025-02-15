@@ -14,7 +14,7 @@ related:
   - "[[domain]]"
 ---
 ## description
-**A Record** ( Address Mapping Record ) is a DNS record which maps a  [[domain name]] to the [IPv4](https://www.plesk.com/wiki/ipv4/) address of the server which hosts the domain. An A record is used for discovering the [[IP]] address of the server connected to [[internet]] from a given [[hostname]]. 
+**A Record** ( Address Mapping Record ) is a DNS record which maps a  [[domain name]] to the [IPv4](https://www.plesk.com/wiki/ipv4/) address of the server which hosts the domain. An A record is used for discovering the [[IP]] address of the server connected to [[Internet]] from a given [[hostname]]. 
 <mark style="background: #ABF7F7A6;">
 You can associate same hostname with multiple IP addresses by adding another A Record</mark> with the same hostname although with a different value of IP address.
 

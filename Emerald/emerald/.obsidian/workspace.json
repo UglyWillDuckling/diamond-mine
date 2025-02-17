@@ -11,13 +11,34 @@
             "id": "0b3ec940330b471a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "rfc-3339.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "rfc-3339"
+            }
+          },
+          {
+            "id": "60d317cead95e6ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge/tools/dev/ocrs.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "ocrs"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -42,12 +63,40 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
+          },
+          {
+            "id": "9d622f2a281c02e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "537a2a4cf264776b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 306.5110321044922
+    "width": 306.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -76,6 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Clippings/ISO 8601.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for ISO 8601"
             }
           },
           {
@@ -94,11 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Clippings/ISO 8601.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from ISO 8601"
             }
           },
           {
@@ -107,12 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Clippings/ISO 8601.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of ISO 8601"
             }
           },
           {
@@ -202,8 +254,12 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "688b3d615137a273",
+  "active": "60d317cead95e6ad",
   "lastOpenFiles": [
+    "Knowledge/daily_notes/2025/February/2025-02-17.md",
+    "Clippings/ISO 8601.md",
+    "rfc-3339.md",
+    "rfc-3339.md~",
     "e83bb595e99b0db15358588215e08bd2_MD5.webp",
     "Knowledge/tools/dev/catppuccintmux 💽 Soothing pastel theme for Tmux.md",
     "Knowledge/daily_notes/2025/February/2025-02-14.md",
@@ -234,8 +290,6 @@
     "Knowledge/How To's/DQL, JS and Inlines - Dataview.md",
     "work/calls/pair programming/Pair Programming 2025-02-13.md",
     "Clippings/Dataview date column formatting not working - Help - Obsidian Forum 1.md",
-    "Clippings/Dataview date column formatting not working - Help - Obsidian Forum.md",
-    "Clippings/Dataview Date Formatting.md",
     "work/bugs/Security issue - General file access download, passerell/x/b9d5f3c7e40c9e2155f3b8cfc83ed798_MD5.jpg",
     "work/bugs/Security issue - General file access download, passerell/x",
     "work/bugs/Security issue - General file access download, passerell",
@@ -253,7 +307,6 @@
     "work/calls/SPRINT/Untitled",
     "Knowledge/Articles/Untitled.canvas",
     "Knowledge/Articles/Untitled 1.canvas",
-    "Knowledge/Articles/Obsidian",
     "work/tickets/event issue solution canvas.canvas",
     "work/docs/CRM/CRM.canvas",
     "work/tickets/FEAT/QSL listing feature/docs/code/Athena impl..canvas",

@@ -16,7 +16,8 @@ ___
 
 - [>] see: [[NGINX Service Mesh Observability with the LGTM Stack from Grafana]]
 
-- [/] #task setup [[wordrepress]] with **bedrock** and [[docker]] 🔼 ⏳ 2025-02-17 📅 2025-02-18 🆔 JU5wbL
+- [/] #task [[wordrepress]] on **bedrock** and [[docker]] 🔼 ⏳ 2025-02-17 📅 2025-02-18 🆔 JU5wbL
+	- [/] #task use **laravel** example `docker` to build a new setup 🆔 76K4jr
 	- [x] make a basic installation with [[composer]]
 	- [x] add docker compose configuration
 	- [x] setup **bedbrock** with **Docker**
@@ -45,21 +46,25 @@ ___
 		- [x] Add PHP config file
 			- [x] Fix settings: remove comments
 	- [x] [[#**fix** access to PHP files]]
-		- all traffic to `index.php`
-	- [/] #task use **laravel** example docker to build a new setup 🆔 76K4jr
+		- all traffic routed to `index.php`
 		- [[Laravel Development Setup with Docker Compose]]
 		- [[laravel-docker-examples]] 
-	- [ ] test out **xdebug**
-	- [ ] explore how to use [[wp-cli]]
+	
+	- [>] test out **[[xdebug]]**
+	- [>] explore how to use [[wp-cli]]
 ___
 ### setup with laravel docker example
 [[laravel-docker-examples]]
 
 - [x] use the Dockerfile provided
 - [x] check `xdebug` docker setup
-- [/] compare `docker compose` files
 - [x] start up the project
+- [x] add `production` [[docker compose file | compose file]]
+- [x] compare `docker compose` files
+- [/] test out `prod compose`
 - [ ] see how to **configure** **PHP**
-- [ ] add `production` [[docker compose file | compose file]]
+- [ ] configure [[PHP FPM]]
 
-- [ ] check ownership and permissions
+- [>] check ownership and permissions
+
+- [ ] 'a put this on **Github**

@@ -1,9 +1,11 @@
 - [/] #task study vim jump to last edit 🔼 [[vim - jump to last insert with `.]] 🆔 QMJ8iS
-	- [[Vim Jump to Last Change - VimTricks]]
-	- [[vim - jump to last insert with `.]]
-	- [[vim - jump through the change list]]
+	- [/] write [[vim - navigation through changes]]
 
-### artifacts
+- [x] #task Install [[tmux-resurrect]] 🆔 TVBtmY 🔼 ⏳ 2025-02-18 📅 2025-02-18 ✅ 2025-02-18
+	- [x] install
+	- [x] remap
+	- [x] try it out
 
-**working on / writing**
-- [/] [[vim - navigation through changes]]
+### **artifacts**
+
+[[vim - navigation through changes]]

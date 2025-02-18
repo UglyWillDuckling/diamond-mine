@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "9968ba47fd81b241",
+        "id": "10e2fab5c1353af9",
         "type": "tabs",
         "children": [
           {
-            "id": "0b3ec940330b471a",
+            "id": "29ab67df91cf7e03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rfc-3339.md",
+                "file": "setup wordpress with Bedrock and Docker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "rfc-3339"
-            }
-          },
-          {
-            "id": "60d317cead95e6ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledge/tools/dev/ocrs.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "ocrs"
+              "title": "setup wordpress with Bedrock and Docker"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5110321044922,
+    "width": 281.5124969482422,
     "collapsed": true
   },
   "right": {
@@ -107,26 +91,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bae038ccea34ead9",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
             "id": "4c75dd1dc94107ca",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/ISO 8601.md",
-                "collapseAll": false,
+                "file": "Clippings/setup nginx metrics.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -135,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ISO 8601"
+              "title": "Backlinks for setup nginx metrics"
             }
           },
           {
@@ -158,37 +129,32 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/ISO 8601.md",
+                "file": "Clippings/setup nginx metrics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ISO 8601"
+              "title": "Outline of setup nginx metrics"
             }
           },
           {
-            "id": "66215144ab6ceed1",
+            "id": "b96698a4c84bbc44",
             "type": "leaf",
             "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
-            "id": "4a7e351c6d81ef9d",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "83a3eb7907bec801",
+            "id": "c19a1c2baae21f3d",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -202,7 +168,17 @@
             }
           },
           {
-            "id": "f3d26d9f4b79cf54",
+            "id": "5d0fcdf03d60c938",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          },
+          {
+            "id": "a40a71cabcd2e667",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -212,7 +188,7 @@
             }
           },
           {
-            "id": "015e0b12424c0bc6",
+            "id": "dae51b8e8cede2a3",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -222,11 +198,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 474.5,
+    "width": 711.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -254,42 +230,42 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "60d317cead95e6ad",
+  "active": "29ab67df91cf7e03",
   "lastOpenFiles": [
-    "Knowledge/daily_notes/2025/February/2025-02-17.md",
-    "Clippings/ISO 8601.md",
-    "rfc-3339.md",
+    "Clippings/laravel-docker-examples.md",
+    "setup wordpress with Bedrock and Docker.md",
+    "Knowledge/Articles/dev/Laravel Development Setup with Docker Compose.md",
+    "Clippings/Setting up PHP with Docker and Nginx A Guide.md",
+    "Clippings/How To Install and Set Up Laravel with Docker Compose on Ubuntu 22.04  DigitalOcean.md",
+    "Knowledge/daily_notes/2025/February/2025-02-18.md",
+    "Knowledge/tools/dev/ss command.md",
+    "Clippings/SS Command In Linux {With Examples}  phoenixNAP KB.md",
+    "Efforts/Active/Vim Exploration/vim - navigation through changes.md",
+    "Knowledge/How To's/vim - jump through the change list.md",
+    "Efforts/Active/Vim Exploration/Vim Exploration.md",
+    "Clippings/tmux-resurrect.md",
+    "Efforts/Active/Vim Exploration/explore lists in Vim.md",
+    "Clippings/key bindings for tmux-resurrect.md",
+    "Clippings/setup nginx metrics.md",
+    "Knowledge/How To's/How to export variables from a file in Unix.md",
+    "work/calls/pair programming/Pair programming 2025-02-18.md",
+    "Kanban.md",
+    "Knowledge/notes/rfc-3339.md",
+    "Clippings/wordpress dockerfile wip.md",
+    "Clippings/NGINX Performance Metrics with Prometheus.md",
+    "Clippings/Configuring the Nginx Error and Access Logs.md",
+    "+/you can usually check how a docker image is built by going to github.md",
+    "Clippings/How to Visualize NGINX Plus with Prometheus and Grafana.md",
+    "Clippings/How To Install WordPress With Docker Compose  DigitalOcean.md",
+    "Clippings/NGINX Service Mesh Observability with the LGTM Stack from Grafana.md",
     "rfc-3339.md~",
     "e83bb595e99b0db15358588215e08bd2_MD5.webp",
-    "Knowledge/tools/dev/catppuccintmux 💽 Soothing pastel theme for Tmux.md",
-    "Knowledge/daily_notes/2025/February/2025-02-14.md",
-    "x/Dann Bergs Daily Note.md",
     "x/docs",
     "x/5ac51250c5cb61e8b1f58c26db4a4039_MD5.webp",
     "x/e83bb595e99b0db15358588215e08bd2_MD5.webp",
-    "Clippings/Getting Started · tmuxtmux Wiki.md",
     "x/0b09a5990896b544b51c6f81b76dd26a_MD5.webp",
     "x/9faa3053f95953d7387230f468f290b3_MD5.webp",
     "x/615647843c17954467e3b7365f50a3c4_MD5.svg",
-    "work/bugs/Security issue - General file access download, passerell/Security issue - General file access download, passerell.md",
-    "Clippings/catppuccintmux · tmux reference configuration.md at main.md",
-    "+/separating by a dot in the middle look cool.md",
-    "Knowledge/tools/dev/tmux 3.md",
-    "Clippings/tmux-catppuccin 💽 Soothing pastel theme for Tmux!.md",
-    "Knowledge/daily_notes/2025/February/Media API.md",
-    "Knowledge/daily_notes/2025/February/mediaapi.md",
-    "work/calls/SPRINT/LUQA Onboarding.md",
-    "work/calls/SPRINT/command to LUQA -  dev myselogerpro.md",
-    "work/calls/SPRINT/Backlog Refinement 2025-01-22.md",
-    "Knowledge/tools/dev/ocrs.md",
-    "Efforts/tasks/archive/fix mapping for heading toggle and similiar.md",
-    "work/calls/CRM/Backlog Refinement 2025-02-13.md",
-    "work/calls/CRM/Team Create Modal Component.md",
-    "work/calls/CRM/onboarding call with Kenan 1.md",
-    "Knowledge/daily_notes/2025/February/2025-02-13.md",
-    "Knowledge/How To's/DQL, JS and Inlines - Dataview.md",
-    "work/calls/pair programming/Pair Programming 2025-02-13.md",
-    "Clippings/Dataview date column formatting not working - Help - Obsidian Forum 1.md",
     "work/bugs/Security issue - General file access download, passerell/x/b9d5f3c7e40c9e2155f3b8cfc83ed798_MD5.jpg",
     "work/bugs/Security issue - General file access download, passerell/x",
     "work/bugs/Security issue - General file access download, passerell",

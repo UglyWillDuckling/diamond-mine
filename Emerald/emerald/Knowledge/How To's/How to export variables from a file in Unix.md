@@ -66,8 +66,7 @@ export_from() {
 <sup>¹ In <code>bash</code>, beware that it also causes all <strong>functions</strong> declared while <code>allexport</code> is on to be exported to the environment (as <code>BASH_FUNC_myfunction%%</code> environment variables that are then imported by all <code>bash</code> shells run in that environment, even when running as <code>sh</code>).</sup>
 
 - [x] remind me(@[[2025-01-31]])
-- [ ] 2 week (@[[2025-02-18]])
-[^another one]
+- [x] 2 week (@[[2025-02-18]] 10:00)
 
 [^1]: a new footnote
 

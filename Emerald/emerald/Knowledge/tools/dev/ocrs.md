@@ -9,7 +9,8 @@ tags:
   - tool/cli
   - tool/image-to-text
 ---
-- [ ] remind me (@[[2025-02-17]])
+- [x] remind me (@[[2025-02-17]])
+- [ ] 2 weeks (@[[2025-03-04]])
 ___
 
 **ocrs** is a Rust library and CLI tool for extracting text from images, also known as OCR (Optical Character Recognition).

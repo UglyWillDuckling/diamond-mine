@@ -4,15 +4,8 @@
     "+/It would be very useful to provide testing info for finished tasks.md": [
       {
         "title": "montly reminder",
-        "time": "2025-02-18",
+        "time": "2025-02-25",
         "rowNumber": 6
-      }
-    ],
-    "Knowledge/How To's/How to export variables from a file in Unix.md": [
-      {
-        "title": "2 week",
-        "time": "2025-02-18",
-        "rowNumber": 68
       }
     ],
     "+/vim - jump to last edit and enter insert mode.md": [
@@ -25,7 +18,7 @@
     "+/action is crucial, we need to define the next steps(actions) with as much detail as possible.md": [
       {
         "title": "bi-weekly",
-        "time": "2025-02-18",
+        "time": "2025-02-19",
         "rowNumber": 15
       }
     ],
@@ -67,7 +60,7 @@
     "Knowledge/Articles/Obsidian Physical Object System.md": [
       {
         "title": "come back to this article",
-        "time": "2025-02-17 14:28",
+        "time": "2025-02-19",
         "rowNumber": 147
       }
     ],
@@ -76,13 +69,6 @@
         "title": "remind",
         "time": "2025-02-21",
         "rowNumber": 4
-      }
-    ],
-    "work/calls/CRM/CRM architecture call 2024-11-12.md": [
-      {
-        "title": "remind me maybe use this as a **template**",
-        "time": "2025-02-18",
-        "rowNumber": 15
       }
     ],
     "Knowledge/tools/dev/bashword.md": [
@@ -129,8 +115,29 @@
     ],
     "Knowledge/tools/dev/ocrs.md": [
       {
+        "title": "2 weeks",
+        "time": "2025-03-04",
+        "rowNumber": 12
+      }
+    ],
+    "+/you can usually check how a docker image is built by going to github.md": [
+      {
+        "title": "remind",
+        "time": "2025-02-25",
+        "rowNumber": 4
+      }
+    ],
+    "Knowledge/notes/rfc-3339.md": [
+      {
+        "title": "remind",
+        "time": "2025-03-06",
+        "rowNumber": 5
+      }
+    ],
+    "Clippings/tmux-resurrect.md": [
+      {
         "title": "remind me",
-        "time": "2025-02-17",
+        "time": "2025-02-21",
         "rowNumber": 11
       }
     ]

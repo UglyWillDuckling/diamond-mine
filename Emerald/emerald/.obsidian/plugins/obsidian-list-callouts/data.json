@@ -64,5 +64,11 @@
     "color": "61, 192, 194",
     "icon": "lucide-info",
     "custom": true
+  },
+  {
+    "char": "'c",
+    "color": "10, 17, 230",
+    "icon": "lucide-eye",
+    "custom": true
   }
 ]

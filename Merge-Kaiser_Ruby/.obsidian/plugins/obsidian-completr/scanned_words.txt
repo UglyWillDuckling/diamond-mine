@@ -1517,6 +1517,9 @@ sss
 similiar
 stdin
 shebang
+subnet
+subnets
+subnetworks
 doesn
 due
 depends
@@ -2099,6 +2102,7 @@ dom
 dow
 declaring
 descriptor
+divides
 work
 workin
 waiting
@@ -3740,6 +3744,7 @@ policies
 passwd
 parser
 predictions
+pocisti
 on
 out
 other
@@ -4522,6 +4527,7 @@ fmt
 flair
 fancy
 fsdfd
+falls
 Setup
 Sri
 Spanish
@@ -5041,6 +5047,8 @@ Specifically
 Systems
 Slash
 Snapshots
+Subnet
+Subnetting
 Persona
 Portuguese
 Parisians
@@ -10157,6 +10165,8 @@ Char
 Comma
 Crontabs
 CGI
+Classless
+CIDR
 all
 again
 and
@@ -11342,6 +11352,7 @@ nofollow
 naive
 newsgroup
 nMfbCO
+notation
 using
 useful
 until
@@ -11894,6 +11905,7 @@ Grsync
 Gzip
 Gilbert
 Granting
+GDrive
 Obisdian
 Origins
 Obtaining
@@ -12818,6 +12830,7 @@ AIX
 Authorization
 Allowed
 Asterisk
+Addresses
 Muslim
 Mecca
 Mail
@@ -13222,6 +13235,7 @@ Minute
 Minutes
 Months
 Meaning
+Mask
 long
 left
 later
@@ -15901,6 +15915,7 @@ Replication
 Ramsey
 Reboot
 Required
+Routing
 your
 you
 yet
@@ -16205,6 +16220,7 @@ UpDownCounter
 UnsupportedMediaType
 UDP
 Usenet
+Usable
 Your
 You
 York
@@ -16497,6 +16513,7 @@ koncetracija
 kickstart
 koa
 krb
+kraja
 xethred
 xml
 xmlns

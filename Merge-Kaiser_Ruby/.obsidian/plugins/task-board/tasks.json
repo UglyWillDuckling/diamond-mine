@@ -685,8 +685,8 @@
         ],
         "Atlas/Dev/notes/Mason is responsible for managing lsp;s.md": [
             {
-                "id": 3538232576,
-                "title": "remind me (@2025-02-18)",
+                "id": 3052793880,
+                "title": "remind me (@2025-02-26)",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -871,8 +871,21 @@
         ],
         "Master Task List.md": [
             {
-                "id": 4198307522,
-                "title": "#task Fix missing restart of nginx docker service after cert renewal ⏫",
+                "id": 3788936345,
+                "title": "#task pocisti GDrive do kraja 🔼 ⏳ 2025-02-20 📅 2025-02-23",
+                "body": [],
+                "time": "",
+                "due": "2025-02-23",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 2079323008,
+                "title": "#task Fix missing restart of nginx docker service after cert renewal ⏫ 🆔 5ij4NX",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -884,7 +897,7 @@
                 "completed": ""
             },
             {
-                "id": 3759254948,
+                "id": 663199903,
                 "title": "#task Look into what SSE means 📅 2025-02-16 🆔 5dKDNT #dev",
                 "body": [
                     "\t- see [[Deno Web Server]]"
@@ -900,7 +913,7 @@
                 "completed": ""
             },
             {
-                "id": 801062633,
+                "id": 4257168166,
                 "title": "#task build a New **Movies** list ⏳ 2025-02-09 📅 2025-02-14 🆔 qiGLZM",
                 "body": [
                     "\t- create **new movie entries** in the process"
@@ -916,7 +929,7 @@
                 "completed": ""
             },
             {
-                "id": 2947367602,
+                "id": 4152334166,
                 "title": "#task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-02-19 🆔 iD0UCB #habbit",
                 "body": [],
                 "time": "",
@@ -930,7 +943,7 @@
                 "completed": ""
             },
             {
-                "id": 1380087019,
+                "id": 3855680693,
                 "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
                 "body": [],
                 "time": "",
@@ -944,7 +957,7 @@
                 "completed": ""
             },
             {
-                "id": 932928340,
+                "id": 3766724766,
                 "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-17",
                 "body": [
                     "\t- check online",
@@ -960,7 +973,7 @@
                 "completed": ""
             },
             {
-                "id": 4176380381,
+                "id": 1041418957,
                 "title": "#task [[Backup Drive]] 🔼 ⏳ 2025-02-03 🆔 OpBFPk",
                 "body": [],
                 "time": "",
@@ -4003,7 +4016,7 @@
         ],
         "Master Task List.md": [
             {
-                "id": 3383540169,
+                "id": 3884955430,
                 "title": "#task see how [[rsync]] works #backburner #dev ✅ 2025-02-15",
                 "body": [
                     "\t- [[rsync]]"
@@ -4020,7 +4033,7 @@
                 "completed": "2025-02-15"
             },
             {
-                "id": 841498646,
+                "id": 1473979457,
                 "title": "#task pocistiti Downloads folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny",
                 "body": [],
                 "time": "",

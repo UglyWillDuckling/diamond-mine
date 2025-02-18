@@ -2,6 +2,7 @@
 tags:
   - task-list
 ---
+- [ ] #task pocisti GDrive do kraja 🔼 ⏳ 2025-02-20 📅 2025-02-23
 - [ ] #task Fix missing restart of nginx docker service after cert renewal ⏫ 🆔 5ij4NX
 - [x] #task see how [[rsync]] works #backburner #dev ✅ 2025-02-15
 	- [[rsync]]

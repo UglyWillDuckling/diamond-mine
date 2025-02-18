@@ -6,7 +6,7 @@ published: 2025-01-03
 created: 2025-01-26
 tags: 
 related:
-  - "[[tasks]]"
+  - "[[tasks 1]]"
 ---
 ![icon|50](https://www.youtube.com/s/desktop/024ccc3d/img/logos/favicon_32x32.png)
 

@@ -871,8 +871,36 @@
         ],
         "Master Task List.md": [
             {
-                "id": 3788936345,
-                "title": "#task pocisti GDrive do kraja 🔼 ⏳ 2025-02-20 📅 2025-02-23",
+                "id": 1865058390,
+                "title": "#task **Find** remote vault encryption password ⏫ ⏳ 2025-02-20 📅 2025-02-22",
+                "body": [],
+                "time": "",
+                "due": "2025-02-22",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 3177643606,
+                "title": "#task Explore **IP addresses** - ipv4, ipv6 🔼 ⏳ 2025-02-22 📅 2025-03-05",
+                "body": [
+                    "\t[[IPv4 example]]"
+                ],
+                "time": "",
+                "due": "2025-03-05",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 2164084128,
+                "title": "#task pocisti [[GDrive]] do kraja 🔼 ⏳ 2025-02-20 📅 2025-02-23",
                 "body": [],
                 "time": "",
                 "due": "2025-02-23",
@@ -884,8 +912,8 @@
                 "completed": ""
             },
             {
-                "id": 2079323008,
-                "title": "#task Fix missing restart of nginx docker service after cert renewal ⏫ 🆔 5ij4NX",
+                "id": 1458677264,
+                "title": "#task Fix missing **restart** of **nginx** docker service after cert renewal ⏫ 🆔 5ij4NX",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -897,7 +925,7 @@
                 "completed": ""
             },
             {
-                "id": 663199903,
+                "id": 2603425350,
                 "title": "#task Look into what SSE means 📅 2025-02-16 🆔 5dKDNT #dev",
                 "body": [
                     "\t- see [[Deno Web Server]]"
@@ -913,7 +941,7 @@
                 "completed": ""
             },
             {
-                "id": 4257168166,
+                "id": 2262538387,
                 "title": "#task build a New **Movies** list ⏳ 2025-02-09 📅 2025-02-14 🆔 qiGLZM",
                 "body": [
                     "\t- create **new movie entries** in the process"
@@ -929,7 +957,7 @@
                 "completed": ""
             },
             {
-                "id": 4152334166,
+                "id": 3815449511,
                 "title": "#task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-02-19 🆔 iD0UCB #habbit",
                 "body": [],
                 "time": "",
@@ -943,7 +971,7 @@
                 "completed": ""
             },
             {
-                "id": 3855680693,
+                "id": 1813585902,
                 "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
                 "body": [],
                 "time": "",
@@ -957,7 +985,7 @@
                 "completed": ""
             },
             {
-                "id": 3766724766,
+                "id": 2724790913,
                 "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-17",
                 "body": [
                     "\t- check online",
@@ -973,7 +1001,7 @@
                 "completed": ""
             },
             {
-                "id": 1041418957,
+                "id": 1858610236,
                 "title": "#task [[Backup Drive]] 🔼 ⏳ 2025-02-03 🆔 OpBFPk",
                 "body": [],
                 "time": "",
@@ -4016,25 +4044,8 @@
         ],
         "Master Task List.md": [
             {
-                "id": 3884955430,
-                "title": "#task see how [[rsync]] works #backburner #dev ✅ 2025-02-15",
-                "body": [
-                    "\t- [[rsync]]"
-                ],
-                "time": "",
-                "due": "",
-                "tags": [
-                    "#task",
-                    "#backburner",
-                    "#dev"
-                ],
-                "priority": 0,
-                "filePath": "Master Task List.md",
-                "completed": "2025-02-15"
-            },
-            {
-                "id": 1473979457,
-                "title": "#task pocistiti Downloads folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny",
+                "id": 1110494530,
+                "title": "#task pocistiti **Downloads** folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny",
                 "body": [],
                 "time": "",
                 "due": "2025-02-13",
@@ -4049,6 +4060,49 @@
                 "priority": 3,
                 "filePath": "Master Task List.md",
                 "completed": "2025-02-15"
+            },
+            {
+                "id": 4212700141,
+                "title": "#task see how [[rsync]] works #backburner #dev ✅ 2025-02-15",
+                "body": [
+                    "\t- [[rsync]]"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task",
+                    "#backburner",
+                    "#dev"
+                ],
+                "priority": 0,
+                "filePath": "Master Task List.md",
+                "completed": "2025-02-15"
+            }
+        ],
+        "days/2024/2024-11-10.md": [
+            {
+                "id": 3525034155,
+                "title": "[[Life/Faks/Predmeti/Matematika/Matematika]]",
+                "body": [],
+                "time": "11:30 - 12:10",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "days/2024/2024-11-10.md",
+                "completed": ""
+            },
+            {
+                "id": 3924437146,
+                "title": "[[Efforts/tasks/archive/archive 1/srediti troskovnik/srediti troskovnik]] #task ✅ 2024-11-13",
+                "body": [],
+                "time": "18:50 - 20:00",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "days/2024/2024-11-10.md",
+                "completed": "2024-11-13"
             }
         ]
     }

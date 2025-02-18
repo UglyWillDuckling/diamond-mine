@@ -1,7 +1,7 @@
 ---
 related:
   - "[[Setup hosting]]"
-  - "[[pointing a domain to Hostinger trial]]"
+  - "[[Efforts/tasks/archive/archive 1/pointing a domain to Hostinger trial]]"
 tags:
   - howto
   - instructions

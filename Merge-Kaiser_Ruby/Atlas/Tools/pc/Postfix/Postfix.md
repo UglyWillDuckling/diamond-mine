@@ -11,7 +11,7 @@ tags:
 ---
 #tool #email 
 
-first encountered: [[setup mail server trial]], [[investigate how to setup an mail server]], [[How To Set Up a Postfix E-Mail Server with Dovecot]]
+first encountered: [[setup mail server trial]], [[Efforts/tasks/archive/archive 1/investigate how to setup an mail server]], [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 
 Used to send email using the [[SMTP]] protocol.
 

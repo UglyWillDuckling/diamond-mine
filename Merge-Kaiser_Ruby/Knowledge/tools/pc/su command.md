@@ -14,4 +14,3 @@
 
   - Execute a command as another user:
     su - username -c "command"
-

@@ -14,10 +14,11 @@ tags:
 
 ## questions 😕
 ```dataview
-TABLE FROM #question AND #active
+LIST FROM #question AND #active
 ```
 
 ## thoughts 🤔
+
 - think 🤔 about reading some books
 ```dataview
 LIST FROM #thought AND #active

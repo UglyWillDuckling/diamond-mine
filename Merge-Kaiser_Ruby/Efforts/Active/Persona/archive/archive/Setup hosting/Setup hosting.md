@@ -11,11 +11,11 @@
 		- [x] #task try out the deals personally ✅ 2024-12-19
 	- [x] #task list hosting requirements ✅ 2024-12-19
 	- [x] #task setup a personal [[VPS]] ✅ 2024-12-24
-- [x] #task [[pointing a domain to Hostinger trial]] ✅ 2024-12-24
+- [x] #task [[Efforts/tasks/archive/archive 1/pointing a domain to Hostinger trial]] ✅ 2024-12-24
 - [x] #task [[web server trial setup]] ✅ 2024-12-24
 - [x] #task check access to [[Senka]]s services ⏫ ✅ 2025-01-04
 - [x] #task [[setup mail server trial]] ✅ 2025-01-04
-	- [x] #task [[investigate how to setup an email server]] ✅ 2025-01-04
+	- [x] #task [[Efforts/tasks/archive/archive 1/investigate how to setup an email server]] ✅ 2025-01-04
 ## list hosting requirements
 - [[Server email support]]
 	- needs to support [[email]]

@@ -4,22 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "1b04837b3b87b450",
+        "id": "1fcc9657cb98c4f6",
         "type": "tabs",
         "children": [
           {
-            "id": "1751db99c305ea69",
+            "id": "84d0421b7027cc5f",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.7"
+                "file": "dash 💨.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.7"
+              "icon": "lucide-file",
+              "title": "dash 💨"
+            }
+          },
+          {
+            "id": "2c16a386cb6a7d4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Master Task List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Master Task List"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.50260543823242
+    "width": 300.5
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -206,35 +223,35 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1751db99c305ea69",
+  "active": "2c16a386cb6a7d4e",
   "lastOpenFiles": [
+    "dash 💨.md",
+    "Atlas/Dev/notes/IPv4 example.md",
+    "Atlas/Notes",
+    "Atlas/Dev/notes/Mason is responsible for managing lsp;s.md",
     "Master Task List.md",
-    "IPv4 example.md",
+    "Kristijan Sedlar.md",
+    "Knowledge/tools/pc/su command.md",
+    "Efforts/Ongoing/Odrzavanja kuce.md",
     "Efforts/Active/Persona/persona ssl cronjob.md",
     "Efforts/Master Task List.md",
     "Atlas/Tools/Hostinger Backup.md",
     "Atlas/Knowledge/howtos/how to change the hostname on a linux machie.md",
     "Atlas/Dev/notes/fixing the bad shell path issue.md",
-    "dash 💨.md",
     "Atlas/Tools/pc/Hostinger Snapshot.md",
     "Efforts/Active/Persona/certificate renewal.md",
     "Atlas/Knowledge/howtos/certbot renew process.md",
     "Clippings/The Ultimate Crontab Cheatsheet  Codementor.md",
     "Clippings/Crontab Generator.md",
     "Efforts/Ongoing/VPS/second VPS.md",
-    "su command.md",
     "Clippings/How to Change Hostname on Ubuntu.md",
     "Clippings/Pluggable Authentication Module.md",
     "PAM Framework.md",
     "Calendar/daily/2025-02-15.md",
-    "Odrzavanja kuce.md",
     "tasks canvas.canvas",
     "Atlas/Tools/pc/rsync.md",
     "Senka.md",
     "Atlas/Personal/notes/Vim mapping for resume search.md",
-    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
-    "Efforts/Ongoing/PC Maintenance/docs/new gpg key on PC.md",
-    "desktop Compositor issue on KDE.md",
     "Efforts/Ongoing/PC Maintenance/docs",
     "howot",
     "Efforts/Active/Kuca/docs/dokumenti x/Elektronicki_zapis-radna_knjizica.pdf",
@@ -245,7 +262,6 @@
     "Yin-Yang/yin_yang/ui/main_window_connector.py",
     "Yin-Yang/yin_yang/ui/main_window.py",
     "Yin-Yang/yin_yang/ui/__init__.py",
-    "Yin-Yang/yin_yang/plugins/wallpaper.py",
     "tasks pic.canvas",
     "~/×/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"

@@ -10,7 +10,3 @@ Godina `=this.dob - date(today)`
 New `$= dv.current().dob.diffNow()`
 
 New `$= dv.current().dob.until(dv.date('today'))`
-
-
-
-

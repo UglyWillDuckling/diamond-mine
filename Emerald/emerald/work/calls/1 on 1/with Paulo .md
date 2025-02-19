@@ -8,7 +8,7 @@ updated: 2024-12-04 12:12:11
 #work #work/call #call #1on1 
 
 ## who
-- with [[Paulo]]
+- with [[Paulo Baskovic]]
 
 ## topics
 - [[barefoot]]

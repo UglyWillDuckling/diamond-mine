@@ -1,5 +1,5 @@
 [[2024-08-29]]
-[[Paulo]]
+[[Paulo Baskovic]]
 
 - the show all button shows **all** transactions for a lead
 - ...

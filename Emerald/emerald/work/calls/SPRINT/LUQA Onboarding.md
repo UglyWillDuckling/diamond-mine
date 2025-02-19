@@ -1,6 +1,6 @@
 #ticket 
 
-- [ ] #task [[LUQA Onboarding]] 🆔 zT8KZb
+- [/] #task [[LUQA Onboarding]] 🆔 zT8KZb ⏳ 2025-02-20 📅 2025-02-24
 	- [ ] #task service access 🆔 C72A1R
 		- [/] [[Lokalize]] service: **check** status
 		- [ ] [[sonar testing suite]]

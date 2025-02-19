@@ -20,7 +20,7 @@ reproduce:
 
 ### **possibilites**
 - logs  could be one way to go
-- asking [[Paulo]] what he did to find this
+- asking [[Paulo Baskovic]] what he did to find this
 
 - [x] ask Paulo
 - [x] examine the logs if needed

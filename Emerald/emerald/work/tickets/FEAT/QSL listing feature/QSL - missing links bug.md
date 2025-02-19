@@ -11,7 +11,7 @@ Some of the projects are not having their [[QSL listing]] links displayed despit
 We will need to **reconsider** the display logic, the listings need to be **separated** from the realtors printing and should be on their own. After that, we can consider including the realtors within the `Listing header section`.
 ___
 - [x] **render** the lstings by themselves
-- [x] send `ss` to [[Natasa]]
+- [x] send `ss` to [[Natasa Bozic]]
 - [x] implement changes
 - [x] include realtor link
 - [x] take a break 🏖

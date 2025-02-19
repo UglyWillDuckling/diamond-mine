@@ -5,7 +5,7 @@
     {
       "autoResizeHeight": false,
       "color": "#f047aa",
-      "height": 780,
+      "height": 920,
       "id": "9f7b42d8169bdcfa",
       "styleAttributes": {
         "shape": null,
@@ -13,22 +13,9 @@
       },
       "text": "### unscheduled\n```tasks\nnot done\n(no due date) AND (no start date) AND (no scheduled date)\nshow tree\nshort mode\n```\n",
       "type": "text",
-      "width": 560,
+      "width": 780,
       "x": 360,
       "y": 400
-    },
-    {
-      "autoResizeHeight": false,
-      "color": "3",
-      "height": 110,
-      "id": "0f0ed0b59ea9a0ad",
-      "styleAttributes": {
-      },
-      "text": "**Waiting**\n\n```tasks\nnot done\ntags includes #waiting\nshow tree\nshort mode\n```\n",
-      "type": "text",
-      "width": 420,
-      "x": -30,
-      "y": -260
     },
     {
       "autoResizeHeight": false,
@@ -59,15 +46,15 @@
     {
       "autoResizeHeight": false,
       "color": "4",
-      "height": 615,
+      "height": 660,
       "id": "fd8d806473e9e81d",
       "styleAttributes": {
       },
-      "text": "**Ready**\n```tasks\nnot done\n(due before next week) OR (scheduled before next week)\nsort by due\nshow tree\nshort mode\nhide task count\n```\n",
+      "text": "**Ready**\n\n```tasks\nnot done\n(due before next week) OR (scheduled before next week)\nsort by due\nshow tree\nshort mode\nhide task count\n```\n",
       "type": "text",
       "width": 820,
       "x": -500,
-      "y": 25
+      "y": -20
     },
     {
       "autoResizeHeight": false,
@@ -84,35 +71,8 @@
     },
     {
       "autoResizeHeight": false,
-      "color": "#100e0e",
-      "height": 540,
-      "id": "4dff6fb0730f58ac",
-      "styleAttributes": {
-      },
-      "text": "### inbox\n\n```tasks\nnot done\nno due date\nno start date\nno scheduled date\nno tag\nshort mode\nshow tree\nhide task count\nlimit 8\n```\n",
-      "type": "text",
-      "width": 700,
-      "x": 980,
-      "y": 520
-    },
-    {
-      "autoResizeHeight": false,
       "color": "6",
-      "height": 130,
-      "id": "b226912847dd7720",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "\n### tiny\n```tasks\nnot done\ntags include #tiny\n```\n\n\n",
-      "type": "text",
-      "width": 540,
-      "x": -380,
-      "y": -120
-    },
-    {
-      "autoResizeHeight": false,
-      "color": "6",
-      "height": 640,
+      "height": 1100,
       "id": "6ea88ea809413bf1",
       "styleAttributes": {
         "textAlign": null
@@ -122,6 +82,46 @@
       "width": 720,
       "x": -450,
       "y": 660
+    },
+    {
+      "autoResizeHeight": false,
+      "color": "3",
+      "height": 110,
+      "id": "0f0ed0b59ea9a0ad",
+      "styleAttributes": {
+      },
+      "text": "**Waiting**\n\n```tasks\nnot done\ntags includes #waiting\nshow tree\nshort mode\n```\n",
+      "type": "text",
+      "width": 420,
+      "x": 160,
+      "y": -440
+    },
+    {
+      "autoResizeHeight": false,
+      "color": "6",
+      "height": 225,
+      "id": "b226912847dd7720",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "\n### tiny\n```tasks\nnot done\ntags include #tiny\n```\n\n\n",
+      "type": "text",
+      "width": 680,
+      "x": -480,
+      "y": -327
+    },
+    {
+      "autoResizeHeight": false,
+      "color": "#100e0e",
+      "height": 540,
+      "id": "4dff6fb0730f58ac",
+      "styleAttributes": {
+      },
+      "text": "### inbox\n\n```tasks\nnot done\nno due date\nno start date\nno scheduled date\nno tag\nshort mode\nshow tree\nhide task count\nlimit 8\n```\n",
+      "type": "text",
+      "width": 700,
+      "x": 1360,
+      "y": 540
     }
   ]
 }

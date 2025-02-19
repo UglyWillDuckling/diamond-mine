@@ -3,7 +3,7 @@
 [[2024-10-18]]
 
 ## with 🕹
-- [[Natasa]]
+- [[Natasa Bozic]]
 - Charlotte Gruter
 - Valentine Croize
 

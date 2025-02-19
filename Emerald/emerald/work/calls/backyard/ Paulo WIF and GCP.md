@@ -4,7 +4,7 @@
 ## who
 
 - [[me]]
-- [[Paulo]]
+- [[Paulo Baskovic]]
 
 ## agenda
 

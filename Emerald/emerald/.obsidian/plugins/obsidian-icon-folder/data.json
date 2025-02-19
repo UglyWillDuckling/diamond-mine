@@ -222,8 +222,6 @@
   },
   "work/people and teams/SRE.md": "LiBringToFront",
   "work/people and teams/LUNA/Danijela.md": "🫐",
-  "work/people and teams/LUNA/Natasa.md": "👧",
-  "work/people and teams/LUNA/Paulo.md": "LiBike",
   "work/people and teams/LUNA/luna team.md": "LiMoonStar",
   "work/people and teams/NOVA/Yoan.md": "🍟",
   "work/tickets/FEAT/QSL listing feature/archive": "LiArchive",
@@ -457,5 +455,7 @@
   "work/tickets/FEAT/QSL listing feature/archive/refactoring of configuration.md": "🏬",
   "work/tickets/FEAT/QSL listing feature/subs/AWS connection": "🗽",
   "work/tickets/FEAT/QSL listing feature/subs/AWS connection/AWS connection.md": "🗽",
-  "work/tickets/FEAT/QSL listing feature/subs/AWS connection/AWS import.md": "🗽"
+  "work/tickets/FEAT/QSL listing feature/subs/AWS connection/AWS import.md": "🗽",
+  "work/people and teams/LUNA/Paulo Baskovic.md": "LiBike",
+  "work/people and teams/LUNA/Natasa Bozic.md": "👧"
 }

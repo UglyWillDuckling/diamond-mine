@@ -6,7 +6,7 @@ date: 2024-11-19
 ## who
 - Marie-Lucile Jumel
 - Thomas Sirgant
-- [[Paulo]]
+- [[Paulo Baskovic]]
 
 ## what
 
@@ -23,7 +23,7 @@ date: 2024-11-19
 	- @ there is no `automation` at this point
 - [?] How will the listing be shown? A person sees the one link to the listing?
 	- [?] What happens if the listing is not the right one?
-		- @ [[Paulo]] For now , we don't have support to do anything
+		- @ [[Paulo Baskovic]] For now , we don't have support to do anything
 - [?] any discussion  with Sona on the timeline and the future
 	- for now no
 - [?] Marie: could we get a screen of the new link?

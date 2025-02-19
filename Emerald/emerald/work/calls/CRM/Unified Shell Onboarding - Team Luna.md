@@ -52,9 +52,9 @@ Get a better understanding of the [[unified shell]]'s architecture and stuff.
 ## discussion 🗯
 - [?] [[Ivan Culina]] - making a [[Hello World]] app
 	- @ [[joachim.leistikow]] bla bla bla
-- [?] [[joachim.leistikow]] do you have a timeline - @ [[Paulo]] June/July
+- [?] [[joachim.leistikow]] do you have a timeline - @ [[Paulo Baskovic]] June/July
 - [?] What are brands?
-- [?] [[Paulo]] [[User authentication]]
+- [?] [[Paulo Baskovic]] [[User authentication]]
 	- @ [[joachim.leistikow]] - [[runtime module]]
 		- for Okta, we would need to contact another team, #extra-requirement
 - [?] [[joachim.leistikow]] - an Epic would help, do you have one?

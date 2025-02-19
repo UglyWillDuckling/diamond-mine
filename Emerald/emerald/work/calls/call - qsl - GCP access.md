@@ -53,7 +53,7 @@ from [[Marc Jonot]]
 3. then query [[Amazon Athena|Athena]]
 
 > [!NOTE]
-> [[Paulo]] managed to assume the 
+> [[Paulo Baskovic]] managed to assume the 
 
 We can connect locally then via the **CLI**
 

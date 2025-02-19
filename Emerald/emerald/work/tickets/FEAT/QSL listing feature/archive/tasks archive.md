@@ -19,7 +19,7 @@
 - [x] #task [[study CSV export]] 📅 2024-11-13 ✅ 2024-12-06
 	- [x] add new columns #task ✅ 2024-11-13
 	- [x] update existing logic, tests #task ✅ 2024-11-13
-	- [x] #task [[check the diagram from [[Paulo]]]] 🔽 ✅ 2025-01-17
+	- [x] #task [[check the diagram from [[Paulo Baskovic]]]] 🔽 ✅ 2025-01-17
 - [x] see 🙈 if we could use the [[Real Estate Project]] as the source for the [[place]] entity
 - [x] support for `optional` fields #task 📅 2024-11-14 ✅ 2024-11-20
 	- [x] #task update constructor and creation ✅ 2024-11-14
@@ -33,7 +33,7 @@
 - [x] #task [[create real table]] ✅ 2024-12-02
 - [x] #task [[frontend implementation]]
 - [x] #task [[CSV QSL Export Feature]] ✅ 2025-01-17
-- [x] #task send [[Natasa]] images of [[QSL listing]] ⏫ ✅ 2025-01-16
+- [x] #task send [[Natasa Bozic]] images of [[QSL listing]] ⏫ ✅ 2025-01-16
 - [x] #task write [[test script for AWS connection on backyard]] to verify [[AWS]] connection ⏫
 - [x] #task [[cronjob test]] 🆔 y7tDlU ⏫ 📅 2025-01-20 ✅ 2025-01-21
 - [x] #task apply  python` fix to **prod** on [[ma-infra]] ⏫ 📅 2025-01-24 🆔 ixD96M ✅ 2025-01-28

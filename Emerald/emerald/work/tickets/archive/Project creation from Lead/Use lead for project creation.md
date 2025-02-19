@@ -1,7 +1,7 @@
 # intro
 
 ## links and stuff
-- [PR](https://github.com/MeilleursAgents/MeilleursAgents/pull/10772/commits/b25c03a0a83f6b14d26fdcc2ad7047228b3aeb75?diff=split&w=1) from [[Paulo]]
+- [PR](https://github.com/MeilleursAgents/MeilleursAgents/pull/10772/commits/b25c03a0a83f6b14d26fdcc2ad7047228b3aeb75?diff=split&w=1) from [[Paulo Baskovic]]
 	- a quick fix to get everything working and explore the current process
 - [JIRA](https://avivgroup.atlassian.net/browse/LUNA-226)
 

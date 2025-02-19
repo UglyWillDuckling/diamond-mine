@@ -6,7 +6,7 @@ related:
 #work #work/call #call
 
 ## who
-- [[Paulo]]
+- [[Paulo Baskovic]]
 ## agenda
 
 ## topics

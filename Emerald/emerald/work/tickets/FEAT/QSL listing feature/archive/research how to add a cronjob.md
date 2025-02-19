@@ -9,7 +9,7 @@ related:
 	- [x] check the infra repo
 	- [x] check [[Backyard Tasks app]] app
 - [x] #task test out error mail 📧 ⏫ 📅 2024-12-04 ✅ 2024-12-04
-- [b] #task 📝 document **cron** solution 🆔 2yNMDC
+- [x] #task 📝 document **cron** solution 🆔 2yNMDC 📅 2025-02-28 ✅ 2025-02-19
 
 ## shell script
 - [x] check error handling

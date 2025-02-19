@@ -18,7 +18,7 @@ ___
 ## work
 
 - [/] #task [[wordrepress]] on **bedrock** and [[docker]] 🔼 ⏳ 2025-02-17 📅 2025-02-18 🆔 JU5wbL
-	- [/] #task use **laravel** example `docker` to build a new setup 🆔 76K4jr
+	- [/] #task use **laravel** example `docker` to build a new setup 🆔 76K4jr ⏳ 2025-02-20 📅 2025-02-21
 	- [x] make a basic installation with [[composer]]
 	- [x] add docker compose configuration
 	- [x] setup **bedbrock** with **Docker**

@@ -1,4 +1,4 @@
-- [/] #task study vim jump to last edit 🔼 [[vim - jump to last insert with `.]] 🆔 QMJ8iS
+- [/] #task study vim jump to last edit 🔼 [[vim - jump to last insert with `.]] 🆔 QMJ8iS 🔼 ⏳ 2025-02-20 📅 2025-02-28
 	- [/] write [[vim - navigation through changes]]
 
 - [x] #task Install [[tmux-resurrect]] 🆔 TVBtmY 🔼 ⏳ 2025-02-18 📅 2025-02-18 ✅ 2025-02-18

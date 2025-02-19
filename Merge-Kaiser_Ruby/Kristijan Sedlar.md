@@ -3,10 +3,8 @@ dob: 1981-02-15
 ---
 #person #bratic
 
-Rođendan: `=this.dob`
+**Rođendan**: `=this.dob`
 
-Godina `=this.dob - date(today)`
+Godina `=date(today) - this.dob`
 
 New `$= dv.current().dob.diffNow()`
-
-New `$= dv.current().dob.until(dv.date('today'))`

@@ -2,9 +2,9 @@
 tags:
   - task-list
 ---
-- [ ] #task **Find** remote vault encryption password ⏫ ⏳ 2025-02-20 📅 2025-02-22
+- [x] #task **Find** remote vault encryption password ⏫ ⏳ 2025-02-20 📅 2025-02-22 ✅ 2025-02-19
 - [ ] #task Explore **IP addresses** - ipv4, ipv6 🔼 ⏳ 2025-02-22 📅 2025-03-05
-	[[IPv4 example]]
+	[[+/IPv4 example]]
 
 - [ ] #task pocisti [[GDrive]] do kraja 🔼 ⏳ 2025-02-20 📅 2025-02-23
 - [ ] #task Fix missing **restart** of **nginx** docker service after cert renewal ⏫ 🆔 5ij4NX

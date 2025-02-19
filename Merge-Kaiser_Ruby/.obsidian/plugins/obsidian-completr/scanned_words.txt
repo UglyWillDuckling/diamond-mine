@@ -1517,9 +1517,6 @@ sss
 similiar
 stdin
 shebang
-subnet
-subnets
-subnetworks
 doesn
 due
 depends
@@ -2102,7 +2099,6 @@ dom
 dow
 declaring
 descriptor
-divides
 dob
 work
 workin
@@ -2386,7 +2382,6 @@ wire
 wil
 wild
 weekday
-wFvjtU
 to
 task
 the
@@ -2894,7 +2889,6 @@ transferring
 transfers
 transmitting
 talkative
-tjedan
 previewLink
 persona
 plugin
@@ -4530,7 +4524,6 @@ fmt
 flair
 fancy
 fsdfd
-falls
 Setup
 Sri
 Spanish
@@ -5050,8 +5043,6 @@ Specifically
 Systems
 Slash
 Snapshots
-Subnet
-Subnetting
 Persona
 Portuguese
 Parisians
@@ -7748,7 +7739,6 @@ interventation
 infrastructure
 incorporation
 intervals
-ide
 ipv
 Next
 Now
@@ -8338,6 +8328,7 @@ Department
 Dempsey
 Debra
 DragonFly
+Doktorica
 Working
 World
 With
@@ -10172,8 +10163,6 @@ Char
 Comma
 Crontabs
 CGI
-Classless
-CIDR
 all
 again
 and
@@ -11359,7 +11348,6 @@ nofollow
 naive
 newsgroup
 nMfbCO
-notation
 using
 useful
 until
@@ -11912,7 +11900,6 @@ Grsync
 Gzip
 Gilbert
 Granting
-GDrive
 Godina
 Obisdian
 Origins
@@ -12838,7 +12825,6 @@ AIX
 Authorization
 Allowed
 Asterisk
-Addresses
 Muslim
 Mecca
 Mail
@@ -13243,7 +13229,6 @@ Minute
 Minutes
 Months
 Meaning
-Mask
 long
 left
 later
@@ -15923,7 +15908,6 @@ Replication
 Ramsey
 Reboot
 Required
-Routing
 Ro
 your
 you
@@ -16229,7 +16213,6 @@ UpDownCounter
 UnsupportedMediaType
 UDP
 Usenet
-Usable
 Your
 You
 York

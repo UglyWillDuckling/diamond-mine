@@ -1,6 +1,6 @@
 #markdown #howto/markdown
 
-- [ ] remind me (@[[2025-02-19]])
+- [ ] remind me (@[[2025-02-26]])
 ___
 ### Example
 

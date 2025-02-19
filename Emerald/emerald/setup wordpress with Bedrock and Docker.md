@@ -12,9 +12,10 @@ uses:: [[bedrock WordPress boilerplate]]
 ## artifacts
 - [[how bedrock works]] ✍
 - [[wordpress dockerfile wip]]
+## knowledge
+- you have to use the `--build` **flag** to make `docker` use the correct `target`[^1] 
 ___
-
-- [>] see: [[NGINX Service Mesh Observability with the LGTM Stack from Grafana]]
+## work
 
 - [/] #task [[wordrepress]] on **bedrock** and [[docker]] 🔼 ⏳ 2025-02-17 📅 2025-02-18 🆔 JU5wbL
 	- [/] #task use **laravel** example `docker` to build a new setup 🆔 76K4jr
@@ -52,6 +53,7 @@ ___
 	
 	- [>] test out **[[xdebug]]**
 	- [>] explore how to use [[wp-cli]]
+	- [>] check ownership and permissions
 ___
 ### setup with laravel docker example
 [[laravel-docker-examples]]
@@ -61,10 +63,14 @@ ___
 - [x] start up the project
 - [x] add `production` [[docker compose file | compose file]]
 - [x] compare `docker compose` files
-- [/] test out `prod compose`
+- [x] test out `prod compose`
+- [/] **test** production `target` latest **changes**
+- [x] 'a put this on **Github**
+- [ ] ..
 - [ ] see how to **configure** **PHP**
-- [ ] configure [[PHP FPM]]
+	- [ ] [[PHP FPM]]
 
-- [>] check ownership and permissions
+#### fix production target not working
+Was missing directory for project files
 
-- [ ] 'a put this on **Github**
+[^1]: [[Dockerfile Target]]

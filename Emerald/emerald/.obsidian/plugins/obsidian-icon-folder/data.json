@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🏬",
+      "LiBrokenLink",
       "🎥",
       "📚",
-      "🦄",
-      "🧪",
-      "LiTimer"
+      "🦄"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -416,9 +416,6 @@
   "Knowledge/notes/discovery/dev/KDE/switching alt+win is under keyboard settings.md": "LiKeyboard",
   "work/tickets/FEAT/QSL listing feature/artifacts/cronjob test.md": "🎨",
   "work/tickets/FEAT/QSL listing feature/subs/cronjob implementation.md": "LiClock",
-  "work/tickets/FEAT/QSL listing feature/AWS connection/AWS connection.md": "🗽",
-  "work/tickets/FEAT/QSL listing feature/AWS connection": "🗽",
-  "work/tickets/FEAT/QSL listing feature/AWS connection/AWS import.md": "🗽",
   "work/calls/SPRINT/RETRO/Sprint Retro - C8 EXT - Sprint 2.md": "🔙",
   "work/calls/SPRINT/RETRO/Sprint Review  - 22.07.md": "LiThumbsUp",
   "work/calls/SPRINT/RETRO": "🔙",
@@ -431,11 +428,6 @@
     "iconColor": "#ff52a5"
   },
   "Knowledge/notes/templater/created.md": "LiTimer",
-  "work/tickets/FEAT/QSL listing feature/qsl dev aws import test.md": "🧪",
-  "work/tickets/FEAT/QSL listing feature/CSV QSL Export Feature.md": {
-    "iconName": "LiSheet",
-    "iconColor": "#19b385"
-  },
   "work/tickets/FEAT/QSL listing feature/archive/missing icon.md": "🦄",
   "Knowledge/Media/Books": "LiLibraryBig",
   "Knowledge/Media/Books/Bookshelf.md": "📚",
@@ -452,5 +444,18 @@
     "iconColor": "#2bc57d"
   },
   "Knowledge/Media": "🎥",
-  "work/docs/concepts/Real Estate Project.md": "LiProjector"
+  "work/docs/concepts/Real Estate Project.md": "LiProjector",
+  "work/tickets/FEAT/QSL listing feature/artifacts/CSV QSL Export Feature.md": {
+    "iconName": "LiSheet",
+    "iconColor": "#19b385"
+  },
+  "work/tickets/FEAT/QSL listing feature/archive/qsl dev aws import test.md": "🧪",
+  "work/tickets/FEAT/QSL listing feature/QSL - missing links bug.md": {
+    "iconName": "LiBrokenLink",
+    "iconColor": "#ec0909"
+  },
+  "work/tickets/FEAT/QSL listing feature/archive/refactoring of configuration.md": "🏬",
+  "work/tickets/FEAT/QSL listing feature/subs/AWS connection": "🗽",
+  "work/tickets/FEAT/QSL listing feature/subs/AWS connection/AWS connection.md": "🗽",
+  "work/tickets/FEAT/QSL listing feature/subs/AWS connection/AWS import.md": "🗽"
 }

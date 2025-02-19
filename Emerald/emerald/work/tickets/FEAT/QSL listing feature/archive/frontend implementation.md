@@ -28,7 +28,7 @@ method: `project_contract_header`
 ### smaller tasks
 - [x] #task update code to include [[QSL listing]]'s in the header ✅ 2024-12-09
 - [x] #task 👁 with multiple [[QSL listing]]'s on a single [[realtor]] | agency ✅ 2025-01-07
-- [ ] #task [[#write a test for fetching and printing the listing]] 🆔 auEPL7
+- [/] #task [[#write a test for fetching and printing the listing]] 🆔 auEPL7
 
 ### update header
 ==include qsl listings==
@@ -36,10 +36,9 @@ method: `project_contract_header`
 
 ### add fetch by realtor/project method
 - [x] test in the real world
-- [/] update code that updates header info
+- [x] update code that updates header info
 	- [x] main update
 	- [x] see about the if statement first part in `share/class.contract.inc::2630`
-	- [ ] ..
 ### write a test for fetching and printing the listing
 - [x] write the `render logic`
 - [ ] add [[test expecation|expectation]]s to the test

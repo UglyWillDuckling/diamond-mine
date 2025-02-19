@@ -29,8 +29,3 @@ Additionally, it runs the [[#qsl online status update script]].
 	logfile: "/home/meilleursagents/qsl_listing_update.log"
 ```
 
-#### qsl import script
-%% could be moved to a separate note %%
-
-####  qsl online status update script
-%% could be moved to a separate note %%

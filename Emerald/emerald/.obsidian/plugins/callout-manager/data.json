@@ -95,6 +95,14 @@
             "color": "71, 215, 212"
           }
         }
+      ],
+      "important": [
+        {
+          "changes": {
+            "icon": "lucide-bell-electric",
+            "color": "253, 68, 204"
+          }
+        }
       ]
     }
   },

@@ -77,13 +77,7 @@ This will set the limit to 500000 with every new terminal session. After editing
 answered Dec 7, 2018 at 0:45
 
 [
-
 ![dave4jr's user avatar](https://www.gravatar.com/avatar/e66056126a0d8a44af13a398d8c6f8f5?s=64&d=identicon&r=PG)
-
 ](https://stackoverflow.com/users/2569090/dave4jr)
 
 [dave4jr](https://stackoverflow.com/users/2569090/dave4jr)dave4jr
-
-1,4441 gold badge16 silver badges21 bronze badges
-
-2

@@ -9,7 +9,7 @@ tags:
 part of:
   - "[[tmux 3]]"
 ---
-- [ ] remind me (@[[2025-02-21]])
+- [ ] remind me (@[[2025-02-28]])
 	- works really well
 	- [[key bindings for tmux-resurrect]]
 	

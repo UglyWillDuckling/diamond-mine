@@ -4,39 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c8de4822a3ae7cab",
+        "id": "f4333c27b4551902",
         "type": "tabs",
         "children": [
           {
-            "id": "66eeee4b89b4eb51",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "tasks canvas.canvas",
-                "viewState": {
-                  "x": 206.88890649130735,
-                  "y": 974.3417625316956,
-                  "zoom": -0.08852580830937802
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "tasks canvas"
-            }
-          },
-          {
-            "id": "14e4e1d69683d994",
+            "id": "29ab67df91cf7e03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "setup wordpress with Bedrock and Docker.md",
+                "file": "Clippings/Command  Bashly.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "setup wordpress with Bedrock and Docker"
+              "title": "Command  Bashly"
             }
           }
         ]
@@ -92,12 +75,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 399.5124969482422,
+    "width": 281.5124969482422,
     "collapsed": true
   },
   "right": {
@@ -147,13 +129,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tasks canvas.canvas",
+                "file": "Clippings/setup nginx metrics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tasks canvas"
+              "title": "Outline of setup nginx metrics"
             }
           },
           {
@@ -216,7 +198,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -225,6 +207,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "khoj:Khoj": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "juggl:Juggl global graph": true,
       "graph:Open graph view": true,
@@ -248,34 +231,42 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "66eeee4b89b4eb51",
+  "active": "29ab67df91cf7e03",
   "lastOpenFiles": [
-    "+/Fali mi graficki view za git logove.md",
-    "tasks canvas.canvas",
-    "Knowledge/daily_notes/2025/February/2025-02-19.md",
-    "Knowledge/daily_notes/2025/February/2025-02-10.md",
-    "Efforts/Active/Vim Exploration/Vim Exploration.md",
-    "Knowledge/daily_notes/2024/December/2024-12-12.md",
-    "Efforts/Projects/Laptop Maintenance.md",
-    "Efforts/Active/CSV Kit/csv kit project.md",
-    "work/calls/SPRINT/LUQA Onboarding.md",
     "setup wordpress with Bedrock and Docker.md",
-    "Efforts/tasks/work/Feedbacks for review.md",
-    "work/people and teams/LUNA/Natasa Bozic.md",
-    "work/people and teams/LUNA/Paulo Baskovic.md",
-    "Feedback for Natasa.md",
-    "work/tickets/FEAT/QSL listing feature/SSH issues with GIT.md",
-    "work/tickets/FEAT/QSL listing feature/QSL - missing links bug.md",
-    "work/tickets/FEAT/QSL listing feature/subs/production changes.md",
-    "work/tickets/FEAT/QSL listing feature/artifacts/qsl cron.md",
-    "work/tickets/FEAT/QSL listing feature/archive/bad query state.md",
-    "work/tickets/FEAT/QSL listing feature/archive/refactoring of configuration.md",
-    "work/tickets/FEAT/QSL listing feature/archive/frontend implementation.md",
-    "work/tickets/FEAT/QSL listing feature/archive/qsl dev aws import test.md",
-    "work/tickets/FEAT/QSL listing feature/archive/qsl production deployment.md",
-    "work/docs/backyard/Mandat a signer.md",
-    "work/tickets/FEAT/QSL listing feature/subs/aws import fixes.md",
-    "work/tickets/FEAT/QSL listing feature/artifacts/CSV QSL Export Feature.md",
+    "Clippings/Command  Bashly.md",
+    "Clippings/Examples  Bashly.md",
+    "Clippings/Welcome to Bashly  Bashly - Bash Command Line Framework.md",
+    "Knowledge/daily_notes/2025/02-February/2025-02-21-Fri.md",
+    "tasks canvas.canvas",
+    "People MOC.md",
+    "Clippings/Setting up PHP with Docker and Nginx A Guide.md",
+    "work/people and teams/LUNA/Danijela.md",
+    "work/notes/Feedback for Natasa.md",
+    "Knowledge/notes/discovery/meta bind playground.md",
+    "Knowledge/Articles/Obsidian/In what ways can we form useful relationships between notes.md",
+    "Knowledge/Articles/Obsidian/Relationships between Notes.md",
+    "x/0df0870fc39c2be1755196cb5a11bb65_MD5.png",
+    "Knowledge/Articles/Obsidian/Map of Content.md",
+    "work/tickets/archive/Project creation from Lead/docs,diagrams, etc./diagrams/Process of creating a new project.md",
+    "Knowledge/Articles/Obsidian/🌱 What is an Evergreen Note and How Can You Create One.md",
+    "Clippings/Evergreen note.md",
+    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+    "Knowledge/Articles/Obsidian/tag.md",
+    "work/bugs/Security issue - General file access download, passerell/Security issue - General file access download, passerell.md",
+    "work/bugs/Security issue - General file access download, passerell/x/b9d5f3c7e40c9e2155f3b8cfc83ed798_MD5.jpg",
+    "Knowledge/templates/day template.md",
+    "aaa.md",
+    "new reminder.md",
+    "Knowledge/templates/thought.md",
+    "Clippings/laravel-docker-examples.md",
+    "+/there is a web_search command as well.md",
+    "Knowledge/daily_notes/2025/02-February/2025-02-20.md",
+    "Knowledge/daily_notes/2025/02-February",
+    "Timestamps/2025/02-February",
+    "Timestamps/2025",
+    "Timestamps",
+    "x/9f87d200d057293dc4d551426b0933fd_MD5.jpg",
     "rfc-3339.md~",
     "e83bb595e99b0db15358588215e08bd2_MD5.webp",
     "x/docs",
@@ -284,20 +275,13 @@
     "x/0b09a5990896b544b51c6f81b76dd26a_MD5.webp",
     "x/9faa3053f95953d7387230f468f290b3_MD5.webp",
     "x/615647843c17954467e3b7365f50a3c4_MD5.svg",
-    "work/bugs/Security issue - General file access download, passerell/x/b9d5f3c7e40c9e2155f3b8cfc83ed798_MD5.jpg",
     "work/bugs/Security issue - General file access download, passerell/x",
     "work/bugs/Security issue - General file access download, passerell",
     "dash canvas.canvas",
     "Efforts/Active/CSV Kit",
     "obx_note_new.md~",
-    "x/HOC Invoice October.pdf",
     "x/dfac35ab27f0ebb1b93fbfd80ef2c36a_MD5.jpg",
-    "x/d516326fd4ed9087f77414294591ccf6_MD5.png",
-    "x/be3a0f383e0959645eefa8e3df59270a_MD5.jpg",
     "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
-    "Knowledge/tools/obsidian/dataview",
-    "Knowledge/World",
-    "work/calls/SPRINT/Untitled",
     "Knowledge/Articles/Untitled.canvas",
     "Knowledge/Articles/Untitled 1.canvas",
     "work/tickets/event issue solution canvas.canvas",

@@ -1,16 +1,13 @@
 ---
-title: Meta Bind Docs
-source: https://www.moritzjung.dev/obsidian-meta-bind-plugin-docs/
 author:
   - "[[Meta Bind Docs]]"
-published: 
 created: 2024-12-05
-description: Getting started with Meta Bind.
+source: https://www.moritzjung.dev/obsidian-meta-bind-plugin-docs/
 tags:
   - clippings
   - obsidian-plugin
 ---
-[[meta-bind-plugin]]
+[[Meta Bind Plugin]]
 
 Meta Bind is a plugin for [Obsidian](https://obsidian.md/) to make your notes interactive!
 

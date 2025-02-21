@@ -17,6 +17,6 @@
 
 https://www.hinomi.co/collections/ergonomic-office-furniture
 
-[[react query]]
+[[React Query]]
 https://dev.to/emmalegend/getting-started-with-react-query-ia4
 https://www.ikea.com/gb/en/p/elloven-monitor-stand-with-drawer-anthracite-00485101/

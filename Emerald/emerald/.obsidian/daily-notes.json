@@ -2,5 +2,5 @@
   "autorun": true,
   "template": "Knowledge/templates/day template",
   "folder": "Knowledge/daily_notes",
-  "format": "YYYY/MMMM/YYYY-MM-DD"
+  "format": "YYYY/MM-MMMM/YYYY-MM-DD-ddd"
 }

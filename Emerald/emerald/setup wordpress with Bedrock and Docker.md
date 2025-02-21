@@ -1,9 +1,9 @@
 #ticket/personal
 
 target:: [[wordpress]]
-
 related:: [[docker]], [[docker compose]], [[php]]
 uses:: [[bedrock WordPress boilerplate]]
+___
 ## resources
 - [[Bedrock · Server Configuration doc]]
 - [[How to Set Up WordPress with Composer and Docker]]
@@ -11,14 +11,14 @@ uses:: [[bedrock WordPress boilerplate]]
 - [[Setting up PHP with Docker and Nginx A Guide]] ✔
 ## artifacts
 - [[how bedrock works]] ✍
-- [[wordpress dockerfile wip]]
 ## knowledge
 - you have to use the `--build` **flag** to make `docker` use the correct `target`[^1] 
+- admin path: http://localhost/wp/wp-admin
 ___
 ## work
 
-- [/] #task [[wordrepress]] on **bedrock** and [[docker]] 🔼 ⏳ 2025-02-17 📅 2025-02-18 🆔 JU5wbL
-	- [/] #task use **laravel** example `docker` to build a new setup 🆔 76K4jr ⏳ 2025-02-20 📅 2025-02-21
+- [/] #task [[wordrepress]] on **bedrock** and [[docker]] 🔼 ⏳ 2025-02-17 📅 2025-02-24 🆔 JU5wbL
+	- [/] #task use **laravel** example `docker` to build a new setup 🆔 76K4jr ⏳ 2025-02-20 📅 2025-02-23
 	- [x] make a basic installation with [[composer]]
 	- [x] add docker compose configuration
 	- [x] setup **bedbrock** with **Docker**
@@ -50,27 +50,55 @@ ___
 		- all traffic routed to `index.php`
 		- [[Laravel Development Setup with Docker Compose]]
 		- [[laravel-docker-examples]] 
+	- [x] #task fix **admin** access 🆔 UNVO6B ✅ 2025-02-19
+	
+	 - [/] think 🤔 about using `extend` in docker compose
+		 - [[docker compose extend]]
+		 - https://docs.docker.com/compose/how-tos/multiple-compose-files/extends/
 	
 	- [>] test out **[[xdebug]]**
 	- [>] explore how to use [[wp-cli]]
-	- [>] check ownership and permissions
+	
+	 - [>] #task adjust ownership of files #security #big 🆔 zBsH8G ⏫
+		- [x] **check** ownership and permissions
+		`www-data` user, build process, `docker-compose`
+	 - [>] #task add **mail** support 🆔 6gq6gY 🔼
+		 - [ ] dev mail with tools like [[mailhog]]
+		 - [ ] main mail support
+	 - [ ] #task add a **CLI tool** to control the project 🆔 MlPSxb
+		 - maybe [[bashly]]
+	- [ ] #task **explore** how **wordpress** is actually **installed** 🆔 CCQpiU
 ___
 ### setup with laravel docker example
 [[laravel-docker-examples]]
 
-- [x] use the Dockerfile provided
-- [x] check `xdebug` docker setup
-- [x] start up the project
+- [x] ~~use the `Dockerfile` provided~~
+- [x] ~~check `xdebug` docker setup~~
 - [x] add `production` [[docker compose file | compose file]]
-- [x] compare `docker compose` files
-- [x] test out `prod compose`
-- [/] **test** production `target` latest **changes**
 - [x] 'a put this on **Github**
-- [ ] ..
-- [ ] see how to **configure** **PHP**
-	- [ ] [[PHP FPM]]
+- [x] ~~**fix** `ignored` files in repo~~
+- [x] ~~test out **prod** **target** again~~
+- [/] see how to **configure** `PHP`
+	- [x] general php config
+	- [ ] [[php fpm]] configuration
 
-#### fix production target not working
-Was missing directory for project files
+### fix **ignored** files
+used [[How to remove files in the .gitignore but in the repository]]
+
+### **PHP configuration**
+
+-  file `mapping` for this
+- One for **dev** and one for **prod**
+- for prod can be `empty` and used only if needed
+
+- [x] **Implemented** file mapping for the additional php configuration
+
+#### [[php-fpm]] config
+
+
+### CLI with [[bashly]]
+
+
+
 
 [^1]: [[Dockerfile Target]]

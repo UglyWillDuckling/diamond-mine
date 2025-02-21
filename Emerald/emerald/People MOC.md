@@ -1,4 +1,4 @@
-[[+Home]] #MOC
+#MOC
 
 ```meta-bind-button
 label: New People Note
@@ -21,16 +21,24 @@ A personal CRM. People Notes are about jotting down notable information about pe
 
 These are the different categories of People Notes:
 - Work
-- Personal
+- **Personal**
 - Creative
-- Fictional
-- Notable
+- **Fictional**
+- **Notable**
 
 ---
 ### Templates
 - [[Template, People]]
 
 # People
+
+## work
+```dataview
+table title
+from #person/work 
+sort file.name asc
+```
+
 
 ```dataview
 table title

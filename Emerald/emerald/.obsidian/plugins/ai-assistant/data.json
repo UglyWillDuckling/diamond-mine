@@ -1,0 +1,11 @@
+{
+  "mySetting": "default",
+  "openAIapiKey": "",
+  "anthropicApiKey": "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",
+  "modelName": "claude-3-5-sonnet-latest",
+  "imageModelName": "dall-e-3",
+  "maxTokens": 500,
+  "replaceSelection": true,
+  "imgFolder": "AiAssistant/Assets",
+  "language": ""
+}

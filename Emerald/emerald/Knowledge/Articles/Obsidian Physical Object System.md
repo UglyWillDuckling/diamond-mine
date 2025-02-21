@@ -145,4 +145,4 @@ Check out my other Obsidian posts:
 
 [^1]: In case you haven’t seen `TKTK` before, it’s an abbreviation [often used by writers](https://en.wikipedia.org/wiki/To_come_\(publishing\)) as a way to quickly denote “I’ll come back to that” and keep writing. I picked it up during my years as a journalist and now use it *all the time*.
 
-- [ ] come back to this article (@[[2025-02-20]])
+- [ ] come back to this article (@[[2025-02-27]])

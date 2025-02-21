@@ -22,4 +22,5 @@ ___
 	- [x] check projects without listings
 	- [x] check existing projects
 	- [x] **run** old tests if any
+- [ ] check on **dev**
 - [?] write  tests`

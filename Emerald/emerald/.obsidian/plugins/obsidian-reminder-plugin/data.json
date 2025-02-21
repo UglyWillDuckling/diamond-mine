@@ -18,7 +18,7 @@
     "+/action is crucial, we need to define the next steps(actions) with as much detail as possible.md": [
       {
         "title": "bi-weekly",
-        "time": "2025-02-20",
+        "time": "2025-02-28",
         "rowNumber": 15
       }
     ],
@@ -36,20 +36,6 @@
         "rowNumber": 30
       }
     ],
-    "work/bugs/you can easily reference any text block by using.md": [
-      {
-        "title": "weekly",
-        "time": "2025-02-20",
-        "rowNumber": 9
-      }
-    ],
-    "+/you have the after command.md": [
-      {
-        "title": "bi-weekly",
-        "time": "2025-02-21",
-        "rowNumber": 13
-      }
-    ],
     "Efforts/Active/Vim Exploration/vim - navigation through changes.md": [
       {
         "title": "monthly",
@@ -60,15 +46,8 @@
     "Knowledge/Articles/Obsidian Physical Object System.md": [
       {
         "title": "come back to this article",
-        "time": "2025-02-20",
+        "time": "2025-02-27",
         "rowNumber": 147
-      }
-    ],
-    "Knowledge/Articles/Obsidian/Metabind can create interactive elements on the page.md": [
-      {
-        "title": "remind",
-        "time": "2025-02-21",
-        "rowNumber": 4
       }
     ],
     "Knowledge/tools/dev/bashword.md": [
@@ -137,7 +116,7 @@
     "Clippings/tmux-resurrect.md": [
       {
         "title": "remind me",
-        "time": "2025-02-21",
+        "time": "2025-02-28",
         "rowNumber": 11
       }
     ],
@@ -152,6 +131,76 @@
       {
         "title": "remind me",
         "time": "2025-02-28",
+        "rowNumber": 2
+      }
+    ],
+    "Clippings/Git - gitignore Documentation.md": [
+      {
+        "title": "remind me",
+        "time": "2025-02-24",
+        "rowNumber": 8
+      }
+    ],
+    "work/bugs/you can easily reference any text block by using.md": [
+      {
+        "title": "weekly",
+        "time": "2025-03-07",
+        "rowNumber": 10
+      }
+    ],
+    "Clippings/How to remove files in the .gitignore but in the repository.md": [
+      {
+        "title": "remind me",
+        "time": "2025-02-24",
+        "rowNumber": 29
+      }
+    ],
+    "work/calls/SPRINT/how to npm login on LUQA.md": [
+      {
+        "title": "remind me",
+        "time": "2025-03-10",
+        "rowNumber": 3
+      }
+    ],
+    "+/you have the after command.md": [
+      {
+        "title": "monthly",
+        "time": "2025-03-14",
+        "rowNumber": 14
+      }
+    ],
+    "Knowledge/tools/dev/nvim/vim - quickfix list.md": [
+      {
+        "title": "remind me",
+        "time": "2025-03-11",
+        "rowNumber": 33
+      }
+    ],
+    "+/LazyNvim has a scratch buffer.md": [
+      {
+        "title": "remind me",
+        "time": "2025-02-26",
+        "rowNumber": 3
+      }
+    ],
+    "Efforts/Projects/Vim study.md": [
+      {
+        "title": "remind me  **notify** history",
+        "time": "2025-02-24",
+        "rowNumber": 28
+      }
+    ],
+    "Efforts/Projects/ssh access issue.md": [
+      {
+        "title": "remind me",
+        "time": "2025-03-13",
+        "rowNumber": 4
+      }
+    ],
+    "+/there is a web_search command as well.md": [
+      {
+        "title": "remind me of `web_search`",
+        "time": "2025-02-25",
         "rowNumber": 2
       }
     ]

@@ -30,4 +30,5 @@
 - `]q` next item, `[q` previous
 - `[Q` start, `]Q` end
 
-- [x] **remind** me (@[[2025-02-07]] 09:51)
+- [x] **remind** me (@[[Knowledge/daily_notes/2025/January/2025-02-07]] 09:51)
+- [ ] remind me (@[[2025-03-11]])

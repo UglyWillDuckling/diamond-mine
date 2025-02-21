@@ -24,7 +24,7 @@ related:
 	- [x] check listing entities in **DB**
 ### Later
  - [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8nkkkkk
- - [ ] #task cleanup tests 🆔 QdOsoU 🔽
+ - [ ] #task cleanup **QSL** tests 🆔 QdOsoU 🔽
 
 ## **active**
 

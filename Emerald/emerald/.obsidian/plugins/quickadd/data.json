@@ -1,47 +1,17 @@
 {
   "choices": [
     {
-      "id": "bdc83b49-6cfd-4d28-b8e2-3323dabf1c8a",
-      "name": "thought",
-      "type": "Template",
-      "command": true,
-      "templatePath": "Knowledge/templates/thought.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "+"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "horizontal",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
-    },
-    {
       "id": "6b6e430f-6b96-493e-88a4-bf078ff6ae19",
       "name": "Task Add ☑️",
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "Knowledge/daily_notes/{{DATE:YYYY/MMMM/YYYY-MM-DD}}.md",
+      "captureTo": "Knowledge/daily_notes/{{DATE:YYYY/MM-MMMM/YYYY-MM-DD-ddd}}.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
         "createWithTemplate": true,
-        "template": "Knowledge/templates/day.md"
+        "template": "Knowledge/templates/day template.md"
       },
       "format": {
         "enabled": true,
@@ -138,6 +108,71 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "bdc83b49-6cfd-4d28-b8e2-3323dabf1c8a",
+      "name": "thought",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Knowledge/templates/thought.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "+"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "horizontal",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "9a197575-b236-4baa-9b0c-c75817fce760",
+      "name": "⏲️ reminder",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "#note/reminder\n\n- [ ] remind me  ()\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "horizontal",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
     }
   ],
   "macros": [

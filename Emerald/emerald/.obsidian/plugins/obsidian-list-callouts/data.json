@@ -66,9 +66,21 @@
     "custom": true
   },
   {
-    "char": "'c",
-    "color": "10, 17, 230",
+    "char": "'l",
+    "color": "44, 172, 181",
     "icon": "lucide-eye",
+    "custom": true
+  },
+  {
+    "char": "'w",
+    "color": "254, 197, 98",
+    "icon": "lucide-alert-triangle",
+    "custom": true
+  },
+  {
+    "char": "!!",
+    "color": "249, 123, 197",
+    "icon": "lucide-alert-octagon",
     "custom": true
   }
 ]

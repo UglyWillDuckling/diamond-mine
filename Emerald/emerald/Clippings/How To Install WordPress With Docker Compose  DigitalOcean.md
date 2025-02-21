@@ -2,9 +2,9 @@
 author:
   - "[[Digital Ocean]]"
 created: 2025-02-17
-published: 
 source: https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-docker-compose
 tags:
+  - howto/wordpress/docker
 ---
 ### Introduction
 

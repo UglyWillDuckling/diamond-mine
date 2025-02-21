@@ -15,7 +15,7 @@
 	- [x] #task test on **backyard** 🆔 zQjE8t ✅ 2025-02-10
 - [x] #task deploy upload fix to [[extranet]] ⏫ ⏳ 2025-02-12 📅 2025-02-12 🆔 MrBgxo ✅ 2025-02-12
 	- [x] #task [[extranet-dev]] 🆔 iGQtW7: [jenkins pipe](https://jenkins.ma-backbone.net/blue/organizations/jenkins/deploy/detail/deploy/12082/pipeline/) ✅ 2025-02-12
-	- [/] #task [[extranet-prod]] 🆔 tnnyWq
+	- [x] #task [[extranet-prod]] 🆔 tnnyWq ✅ 2025-02-21
 	- [x] **test** to make sure it work
 ### investigation
 - $ looks like the validation isn't setup properrly

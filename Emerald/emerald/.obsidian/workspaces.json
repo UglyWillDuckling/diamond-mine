@@ -1293,9 +1293,9 @@
         "type": "split",
         "children": [
           {
-            "id": "9621b3b9a85c4b84",
+            "id": "5c6cd950cc22db24",
             "type": "tabs",
-            "dimension": 50.09019843656043,
+            "dimension": 49.05082669932639,
             "children": [
               {
                 "id": "edd385702d6be0fe",
@@ -1305,7 +1305,7 @@
                   "state": {
                     "file": "Knowledge/Articles/Obsidian/Relationships between Notes.md",
                     "mode": "source",
-                    "source": true,
+                    "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
@@ -1315,25 +1315,10 @@
             ]
           },
           {
-            "id": "943de20efb929f5f",
+            "id": "f974be69f2b2241c",
             "type": "tabs",
-            "dimension": 49.909801563439565,
+            "dimension": 50.949173300673614,
             "children": [
-              {
-                "id": "bf323cc51c929d16",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Obsidian Tinkering"
-                }
-              },
               {
                 "id": "fa81c47fd78bd313",
                 "type": "leaf",
@@ -1349,8 +1334,7 @@
                   "title": "In what ways can we form useful relationships between notes"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1377,23 +1361,6 @@
                 }
               },
               {
-                "id": "3917ba887ee80a77",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#call/sprint",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "byCreatedTime"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
                 "id": "65e42d7f94802132",
                 "type": "leaf",
                 "state": {
@@ -1402,13 +1369,30 @@
                   "icon": "lucide-bookmark",
                   "title": "Bookmarks"
                 }
+              },
+              {
+                "id": "2b58daa09caa0d47",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "[\"excalidraw-plugin\"]",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "horizontal",
-        "width": 305.51103591918945,
+        "width": 502.5110321044922,
         "collapsed": true
       },
       "right": {
@@ -1420,25 +1404,12 @@
             "type": "tabs",
             "children": [
               {
-                "id": "bae038ccea34ead9",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
                 "id": "4c75dd1dc94107ca",
                 "type": "leaf",
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                    "file": "Knowledge/Articles/Obsidian/Relationships between Notes.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1448,7 +1419,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for QSL listing feature"
+                  "title": "Backlinks for Relationships between Notes"
                 }
               },
               {
@@ -1471,38 +1442,21 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/test  cronjob.md"
+                    "file": "Knowledge/Articles/Obsidian/Relationships between Notes.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of test  cronjob"
-                }
-              },
-              {
-                "id": "66215144ab6ceed1",
-                "type": "leaf",
-                "state": {
-                  "type": "reminder-list",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Reminders"
-                }
-              },
-              {
-                "id": "4a7e351c6d81ef9d",
-                "type": "leaf",
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {},
-                  "icon": "spreadsheet",
-                  "title": "Advanced Tables"
+                  "title": "Outline of Relationships between Notes"
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 2
           }
         ],
         "direction": "horizontal",
-        "width": 537.5,
+        "width": 931.5,
         "collapsed": true
       },
       "left-ribbon": {
@@ -1531,7 +1485,7 @@
         }
       },
       "active": "edd385702d6be0fe",
-      "mtime": "2025-02-10T13:10:42+01:00"
+      "mtime": "2025-02-21T17:49:39+01:00"
     },
     "csvkit": {
       "main": {
@@ -2602,21 +2556,8 @@
                   "icon": "lucide-file",
                   "title": "setup wordpress with Bedrock and Docker"
                 }
-              },
-              {
-                "id": "46dce7ba9e6eb39a",
-                "type": "leaf",
-                "state": {
-                  "type": "release-notes",
-                  "state": {
-                    "currentVersion": "1.8.7"
-                  },
-                  "icon": "lucide-book-up",
-                  "title": "Release Notes 1.8.7"
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -2824,8 +2765,8 @@
           "callout-manager:Insert Callout": false
         }
       },
-      "active": "46dce7ba9e6eb39a",
-      "mtime": "2025-02-19T09:28:01+01:00"
+      "active": "29ab67df91cf7e03",
+      "mtime": "2025-02-20T09:51:13+01:00"
     }
   },
   "active": "wordpress"

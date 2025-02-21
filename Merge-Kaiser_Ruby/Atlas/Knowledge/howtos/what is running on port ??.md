@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[web hosting]]"
+  - "[[Atlas/Knowledge/Knowledge/concepts/web hosting]]"
   - "[[Setup hosting]]"
 tags:
   - howto

@@ -6,12 +6,12 @@ kanban-plugin: board
 
 ## backlog
 
-- [ ] [[Jane Eyre]]
+- [ ] [[Atlas/Knowledge/Knowledge/Books/Jane Eyre]]
 
 
 ## reading
 
-- [ ] [[Never Let Me Go]]
+- [ ] [[Atlas/Knowledge/Knowledge/Books/Never Let Me Go]]
 
 
 ## finished

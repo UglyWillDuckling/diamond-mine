@@ -193,4 +193,4 @@ await app.listen({ hostname: "127.0.0.1", port: 8000 });
 
 #### https server
 > [!info]
-> Requires [[SSL certificate]]s
+> Requires [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]s

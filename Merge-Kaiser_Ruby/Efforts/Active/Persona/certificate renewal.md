@@ -40,4 +40,4 @@ Expires April 6, 2025 `INPUT[datePicker:ssl_end]`
 [[currrent persona ssl cert]]
 [[persona ssl cronjob]] :LiPickaxe:
 
-[^1]: [[SSL certificate]]
+[^1]: [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]

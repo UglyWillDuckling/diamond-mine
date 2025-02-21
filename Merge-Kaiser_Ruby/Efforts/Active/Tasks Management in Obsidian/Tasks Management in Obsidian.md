@@ -15,6 +15,6 @@ deadline: 2025-01-26
 - [x] #task explore tasks in [[Obsidian]] 🆔 tXya1Y ⏳ 2025-01-26 📅 2025-01-26 ✅ 2025-01-25
 	- [x] read found articles [[#articles on tasks]]
 	- [x] #task look into [[How to Manage Tasks in Obsidian I Turned Obsidian into the Ultimate Task Manager]] 🔼 📅 2025-01-21 ✅ 2025-01-25
-- [x] #task explore [[Tasks plugin]]  in general #backburner  🆔 12b3go | #task #backburner ✅ 2025-02-14/21:39 
+- [x] #task explore [[Atlas/Knowledge/Knowledge/tools/Tasks plugin]]  in general #backburner  🆔 12b3go | #task #backburner ✅ 2025-02-14/21:39 
 
 [[Morgen with Obsidian exploration]]

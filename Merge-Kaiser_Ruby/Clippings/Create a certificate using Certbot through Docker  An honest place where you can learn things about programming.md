@@ -10,7 +10,7 @@ favicon: https://www.willianantunes.com/favicon.ico
 related:
   - "[[Certbot]]"
   - "[[SSL]]"
-  - "[[SSL certificate]]"
+  - "[[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]"
   - "[[persona ssl setup]]"
 ---
 ![icon](https://www.willianantunes.com/favicon.ico]

@@ -10,7 +10,7 @@ tags:
   - abstraction
   - computer-science
 related:
-  - "[[abstraction]]"
+  - "[[Atlas/Knowledge/Knowledge/concepts/CS/abstraction]]"
   - "[[computer science]]"
 ---
 ![](https://www.youtube.com/watch?v=p7nGcY73epw)  

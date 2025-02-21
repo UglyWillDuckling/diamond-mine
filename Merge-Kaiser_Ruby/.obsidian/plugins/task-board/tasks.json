@@ -972,6 +972,35 @@
                 "filePath": "Master Task List.md",
                 "completed": ""
             }
+        ],
+        "Calendar/daily/2025-02-19.md": [
+            {
+                "id": 832707991,
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025-02-19.md",
+                "completed": ""
+            }
+        ],
+        "Kristijan Sedlar.md": [
+            {
+                "id": 220314786,
+                "title": "#task explore dataview and date outputs #small",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task",
+                    "#small"
+                ],
+                "priority": 0,
+                "filePath": "Kristijan Sedlar.md",
+                "completed": ""
+            }
         ]
     },
     "Completed": {

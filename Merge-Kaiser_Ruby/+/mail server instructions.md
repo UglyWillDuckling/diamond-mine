@@ -63,7 +63,7 @@ created as part of [[setup mail server trial]]
 
 ### 4. <mark style="background: #BBFABBA6;">Configure SSL/TLS:</mark>
 
-  Obtain an [[SSL certificate]] from a trusted certificate authority (e.g., [[Let's Encrypt]]) and configure Postfix to use it:
+  Obtain an [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]] from a trusted certificate authority (e.g., [[Let's Encrypt]]) and configure Postfix to use it:
 
     postfix tls setup
 

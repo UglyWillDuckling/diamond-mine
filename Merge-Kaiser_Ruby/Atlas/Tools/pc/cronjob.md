@@ -1,6 +1,6 @@
 ---
 related:
   - "[[unix]]"
-  - "[[cron]]"
+  - "[[Atlas/Tools/pc/cron]]"
 ---
 #tool #dev 

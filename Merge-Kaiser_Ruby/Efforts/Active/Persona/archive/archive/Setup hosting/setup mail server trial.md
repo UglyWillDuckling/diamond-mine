@@ -28,7 +28,7 @@ part of:
 - [x] try out sending emails to [[Gmail]]
 - [ ] write down all the steps  to repeat this ✍
 ## status
-- mails are now signed with the [[SSL certificate]]([[TLS]])
+- mails are now signed with the [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]([[TLS]])
 - ..
 ---
 ## work
@@ -110,7 +110,7 @@ new: [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 you can use `postconf -n` to see [[Postfix]]
 [[Postfix encrypt email - How we enable this and fix the related errors]]
 
-[[Postfix + Gmail. Certificate verification failed]]
+[[Atlas/Knowledge/Knowledge/Articles/Postfix + Gmail. Certificate verification failed]]
 **error**
  `certificate verification failed for alt1.gmail-smtp-in.l.google.com`
 solution:
@@ -123,7 +123,7 @@ solution:
 [[Dovecot: autocreate plugin is deprecated, use mailbox { auto } setting]]
 
 ## persona ssl
-- [x] #task setup person.hr [[SSL certificate]] ✅ 2025-01-07
+- [x] #task setup person.hr [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]] ✅ 2025-01-07
 	- [x] #task check cert from backup ✅ 2025-01-06
 	- [x] #task user cert for mails ✅ 2025-01-07
 ### use old cert

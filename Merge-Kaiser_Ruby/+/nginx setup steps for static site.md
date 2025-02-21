@@ -13,4 +13,4 @@ tags:
 4. add `listen` on ports `80` and `443`
 5. add `server_name`
 	- ~ should be your [[domain]]
-6. add valid [[SSL certificate]]s
+6. add valid [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]s

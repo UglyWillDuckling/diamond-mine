@@ -6,7 +6,7 @@ https://persona.hr
 ## opis
 
 Projekt koji radimo za [[Senka]]u.
-[[Efforts/Active/Wordpress/Wordpress]] [[CMS]] projekt koji bi trebao sluziti kao mjesto na [[internet]]u na kojem se moze vidjeti **sve** sto [[Senka]] radi.
+[[Efforts/Active/Wordpress/Wordpress]] [[CMS]] projekt koji bi trebao sluziti kao mjesto na [[Atlas/Knowledge/Knowledge/concepts/CS/internet]]u na kojem se moze vidjeti **sve** sto [[Senka]] radi.
 
 ## cilj 🪐
 

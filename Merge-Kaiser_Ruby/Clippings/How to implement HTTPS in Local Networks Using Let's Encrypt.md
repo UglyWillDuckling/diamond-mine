@@ -12,9 +12,9 @@ tags:
   - how-to-article
   - howto/article
 related:
-  - "[[SSL certificate]]"
+  - "[[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]"
 ---
-[[SSL certificate]]
+[[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]
 ## Introduction
 
 While browsing the internet, you may have noticed that URLs sometimes begin with "HTTPS" instead of "HTTP." This extra "S" signifies a secure connection, where your communication with the website is encrypted. This encryption ensures that only you and the website can decipher the exchanged information, protecting against "Man in the Middle" (MitM) attacks. Such attacks involve interceptors eavesdropping or altering messages without detection. HTTPS scrambles the data into an indecipherable format for anyone intercepting it.

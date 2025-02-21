@@ -1,6 +1,6 @@
 ---
 about:
-  - "[[Tasks plugin]]"
+  - "[[Atlas/Tools/obsidian/plugins/Tasks plugin/Tasks plugin]]"
 related:
   - "[[Tasks User Guide - Layout]]"
 tags:

@@ -3,7 +3,7 @@ start date:
 ---
 ![poster](http://books.google.com/books/content?id=IuZaAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api)
 
-**Author**:: [[Aldous Huxley]]
+**Author**:: [[Life/People/Aldous Huxley]]
 **Title**:: [Brave New World - ](http://books.google.com/books?id=IuZaAAAAMAAJ&q=intitle:brave+new+world&dq=intitle:brave+new+world&hl=&cd=1&source=gbs_api)
 **Category**::Fiction
 **Published**:: 1998

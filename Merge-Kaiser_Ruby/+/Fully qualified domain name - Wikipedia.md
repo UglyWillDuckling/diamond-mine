@@ -5,7 +5,7 @@ related:
   - "[[DNS]]"
   - "[[domain]]"
   - "[[DNS record]]"
-  - "[[hierarchy]]"
+  - "[[Atlas/Knowledge/Knowledge/concepts/hierarchy]]"
 ---
 Type of Internet domain name
 

@@ -1,4 +1,4 @@
-## intro
+[](Atlas/Knowledge/Knowledge/concepts/CS/OOP/smalltalk/💠%20objects%20in%20Smalltalk.md)[](Atlas/Knowledge/Knowledge/concepts/CS/OOP/smalltalk/ascii%20char%20count%20draw.md)## intro
 
 🧭 the journey starts here... 
 
@@ -118,7 +118,7 @@ s := FillInTheBlank request: 'Enter line'.
 	].
 ^f.
 ```
-![[ascii char count draw]]
+![[Atlas/Knowledge/concepts/CS/OOP/smalltalk/ascii char count draw]]
 The example emphasizes the similarities of Pascal and Smalltalk syntax. The algorithm
 used is identical in both cases. The input characters are examined one at a time and if they
 are characters, the frequency counter for that letter is incremented.

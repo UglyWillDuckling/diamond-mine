@@ -11,7 +11,7 @@ favicon: https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db313057
 related:
   - "[[persona ssl setup]]"
   - "[[Certbot]]"
-  - "[[SSL certificate]]"
+  - "[[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]"
 ---
 ![icon](https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db313057fa3c3de41c6f5b494b19]
 

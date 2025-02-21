@@ -8,7 +8,7 @@ tags:
   - error
   - kvm
 related:
-  - "[[virtualbox]]"
+  - "[[Atlas/Tools/pc/virtualbox]]"
   - "[[docker]]"
   - "[[Docker Desktop]]"
 ---

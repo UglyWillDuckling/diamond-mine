@@ -1,5 +1,5 @@
 ## random
-- [[what is running on port ??]]
+- [[Atlas/Knowledge/Knowledge/howtos/what is running on port ??]]
 	- @ [[How to Check for Listening Ports in Linux (Ports in use)]]
 - [[Configuring self-signed SSL certificates for local development]]
 ## questions
@@ -19,7 +19,7 @@
 ## list hosting requirements
 - [[Server email support]]
 	- needs to support [[email]]
-- [[SSL certificate]]’s with `automatic` renewal
+- [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]’s with `automatic` renewal
 - needs to be affordable #price 
 - see about using a static [[IP]] 
 	- ? is a [[VPS]]  needed for this or can it be done some other way

@@ -1,5 +1,5 @@
 ---
 related:
-  - "[[internet]]"
+  - "[[Atlas/Knowledge/concepts/CS/internet]]"
 ---
 #web 

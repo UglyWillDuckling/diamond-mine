@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[Tasks plugin]]"
+  - "[[Atlas/Tools/obsidian/plugins/Tasks plugin/Tasks plugin]]"
   - "[[Tasks Management in Obsidian]]"
   - "[[Task management]]"
 tags:

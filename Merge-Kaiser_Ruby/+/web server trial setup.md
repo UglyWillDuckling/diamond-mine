@@ -10,7 +10,7 @@
 - …
 
 ---
-## [[SSL certificate]] setup
+## [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]] setup
 related: [[Configuring self-signed SSL certificates for local development]]
 - [x] check for guides on the [[web]]
 ### start using ssl on the webserver

@@ -8,7 +8,7 @@ tags:
   - docs
   - docs/official
 related:
-  - "[[Tasks plugin]]"
+  - "[[Atlas/Tools/obsidian/plugins/Tasks plugin/Tasks plugin]]"
 ---
 ![icon](https://publish.obsidian.md/favicon.ico?2f00d8412bad8f37975c)
 

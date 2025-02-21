@@ -3,7 +3,7 @@ related:
   - "[[persona mail setup]]"
   - "[[Persona]]"
 ---
-- [x] #task setup person.hr [[SSL certificate]] ✅ 2025-02-09
+- [x] #task setup person.hr [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]] ✅ 2025-02-09
 	- [x] #task check cert from backup ✅ 2025-01-06
 ### use old cert
 > [[Mail Config]]
@@ -16,9 +16,9 @@ related:
 
 **ssl certificate isn't working**, will need to generate a new one. `Blocks` [[persona mail setup]]
 
-- [x] #task generate new [[SSL certificate]] for [[Persona.hr]] ✅ 2025-01-06
+- [x] #task generate new [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]] for [[Persona.hr]] ✅ 2025-01-06
 	- [x] #task [[#setup Let's Encrypt on Persona]] ✅ 2025-01-06
-	- [x] #task create [[SSL certificate]] ✅ 2025-01-06
+	- [x] #task create [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]] ✅ 2025-01-06
 		- [x] #task use the new cert for mail ✅ 2025-01-06
 
 ### setup [[Let's Encrypt]] on Persona

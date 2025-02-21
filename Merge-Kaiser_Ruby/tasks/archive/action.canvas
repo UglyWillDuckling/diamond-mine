@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"d02a139ad7d52ce2","type":"text","text":"start using the [[Atlas/Knowledge/Knowledge/tools/Tasks plugin]]\n- [x] #todo hello","x":-780,"y":-760,"width":300,"height":80,"color":"4"}
+		{"id":"d02a139ad7d52ce2","type":"text","text":"start using the [[Tasks plugin]]\n- [x] #todo hello","x":-780,"y":-760,"width":300,"height":80,"color":"4"}
 	],
 	"edges":[]
 }

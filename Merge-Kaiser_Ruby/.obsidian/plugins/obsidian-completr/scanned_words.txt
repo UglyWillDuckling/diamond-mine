@@ -1517,6 +1517,7 @@ sss
 similiar
 stdin
 shebang
+staviti
 doesn
 due
 depends
@@ -3742,6 +3743,8 @@ passwd
 parser
 predictions
 pocisti
+praksa
+polaroid
 on
 out
 other
@@ -4113,6 +4116,8 @@ onmessage
 occupies
 openpgp
 optimization
+outputs
+obsidiana
 for
 file
 folders
@@ -5479,6 +5484,10 @@ Patch
 Pool
 PAM
 Pluggable
+Pogledati
+Poslati
+Prou
+Platiti
 mail
 migrate
 mark
@@ -5951,6 +5960,8 @@ mimic
 multiples
 maintains
 mechanisms
+masa
+male
 copy
 connect
 contain
@@ -7960,6 +7971,8 @@ NotFound
 NetBSD
 Norman
 NSS
+Naru
+NOTES
 Directories
 During
 Dutch
@@ -8329,6 +8342,7 @@ Dempsey
 Debra
 DragonFly
 Doktorica
+DND
 Working
 World
 With
@@ -10163,6 +10177,9 @@ Char
 Comma
 Crontabs
 CGI
+Canesten
+Canespor
+CREATED
 all
 again
 and
@@ -14423,6 +14440,7 @@ EventSource
 EED
 Elsevier
 Executable
+EDITED
 Lanka
 Let
 Looks
@@ -14671,6 +14689,7 @@ LiPickaxe
 Layer
 LDAP
 LiBadgeMinus
+LiTags
 Java
 Job
 JMBAG
@@ -15101,6 +15120,7 @@ getElementById
 gided
 gpg
 greenend
+glukozni
 zadaci
 zeguel
 za
@@ -15239,6 +15259,7 @@ zyF
 zPI
 zatrazio
 zsync
+zadatke
 je
 jesu
 jos
@@ -15909,6 +15930,7 @@ Ramsey
 Reboot
 Required
 Ro
+Rojazol
 your
 you
 yet
@@ -16891,6 +16913,7 @@ KDEs
 Khalid
 Kerberos
 KRB
+Kupiti
 Vault
 VCard
 Video

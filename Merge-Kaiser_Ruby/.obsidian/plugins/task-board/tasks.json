@@ -1001,6 +1001,54 @@
                 "filePath": "Kristijan Sedlar.md",
                 "completed": ""
             }
+        ],
+        "Knowledge/Places/Zen House Sarajevo.md": [
+            {
+                "id": 984987354,
+                "title": "remind me (@2025-02-22)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Knowledge/Places/Zen House Sarajevo.md",
+                "completed": ""
+            }
+        ],
+        "task board.md": [
+            {
+                "id": 3544017230,
+                "title": "[[setup obsidian on your phone📱]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 3092059963,
+                "title": "plati porez",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 3321729861,
+                "title": "investigate startup slow",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            }
         ]
     },
     "Completed": {
@@ -4065,6 +4113,375 @@
                 "priority": 3,
                 "filePath": "Master Task List.md",
                 "completed": "2025-02-15"
+            }
+        ],
+        "task board.md": [
+            {
+                "id": 1443277342,
+                "title": "Explore [[Bob Dylan]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 3738870724,
+                "title": "Play around with DND",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 231951940,
+                "title": "[[organizirati faks za novu godinu]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 1209507004,
+                "title": "Naručiti masažu",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 1979922294,
+                "title": "[[Kupiti jastuk]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 2073284518,
+                "title": "[[Naručiti punjenja za penkala]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 4181229555,
+                "title": "[[see why yay won't update]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 2416394653,
+                "title": "[[review Hugama studio]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 64704017,
+                "title": "Notion subscription",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 4245735546,
+                "title": "try to remove the **default** folder icon 📁",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 2117354473,
+                "title": "[[fix shortcuts on PC]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 3323021174,
+                "title": "hello @{2024-11-09}",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 1680188663,
+                "title": "platiti porez",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 1792906061,
+                "title": "poslati mail profesorici iz Matematike [[poslati mailove za upis na predmete]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 2477185450,
+                "title": "[[review fizio]] #task ✅ 2024-12-17",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": "2024-12-17"
+            },
+            {
+                "id": 2414668373,
+                "title": "[[platiti Elan]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 4050584501,
+                "title": "[[setup obsidian repo on mobile]] #task ✅ 2024-12-17",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": "2024-12-17"
+            },
+            {
+                "id": 763761268,
+                "title": "[[Efforts/Dev/tasks/use the timeline and daily tasks ✅]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 4068330610,
+                "title": "[[registracija auta 1]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 2432588302,
+                "title": "[[provjeriti techdot domenu]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 2154772905,
+                "title": "[[Setup hosting - send email to hostinger]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 1095213254,
+                "title": "[[Poslati dokumente na Kompare.hr]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 2985351367,
+                "title": "[[HAK - obnoviti clanstvo]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 1240906149,
+                "title": "[[Setup hosting]] 📡",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 1111113276,
+                "title": "[[fix obsidian on PC]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 115251308,
+                "title": "Pogledati monitor",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 1539784249,
+                "title": "Poslati Senki račun",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 4064164059,
+                "title": "add a quicka add to add a new task to this board 🔲",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 318043903,
+                "title": "Naručiti glukozni monitor",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 3615788911,
+                "title": "[[Obnova dopunsko osiguranja]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 213901173,
+                "title": "Proučiti osnove obsidiana",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 2351685067,
+                "title": "Kupiti polaroid",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
+            },
+            {
+                "id": 2400238082,
+                "title": "Platiti Senki",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "task board.md",
+                "completed": ""
             }
         ]
     }

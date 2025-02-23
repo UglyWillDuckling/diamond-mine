@@ -1,17 +1,21 @@
 #ticket 
 
-%% this could later turn into a final product, an artifact, a place to contain concrete information on cli tools and automations for Obsidian. For now, it starts with having tasks %%
+%% this could later turn into a final product, an artifact, a place to contain concrete information on cli tools and automations for Obsidian. 
+For now, it starts out with having tasks %%
 
-- [/] #task investigate [[Obsidian CLI tools and automations]] 🆔 xgN6bQ 🔼 ⏳ 2025-02-09 📅 2025-02-17
-	- [[mckyobsidian-cli]]
-	- [[obsidian-cli]]
+[[2025-02-23]] decided to just use [[Markdown + Vim]] integration
+___
+
+- [x] #task investigate [[Obsidian CLI tools and automations]] 🆔 xgN6bQ 🔼 ⏳ 2025-02-09 📅 2025-03-02 ✅ 2025-02-23
+	- [x] [[mckyobsidian-cli]]
+	- [x] [[obsidian-cli]]
 
 ### [[mckyobsidian-cli]]
 
 - written in [[Rust]]
 - intuitive
 - decent featureset
-#### commands
+### commands
 
 **obx notes**
 

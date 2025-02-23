@@ -2,7 +2,7 @@
 
 %% this could later turn into a final product, an artifact, a place to contain concrete information on cli tools and automations for Obsidian. For now, it starts with having tasks %%
 
-- [/] #task investigate [[Obsidian CLI tools and automations]] 🆔 xgN6bQ 🔼 ⏳ 2025-02-09 📅 2025-02-17
+- [x] #task investigate [[Obsidian CLI tools and automations]] 🆔 xgN6bQ 🔼 ⏳ 2025-02-09 📅 2025-02-28 ✅ 2025-02-23
 	- [[mckyobsidian-cli]]
 	- [[obsidian-cli]]
 

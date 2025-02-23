@@ -544,8 +544,8 @@
         ],
         "Atlas/Personal/notes/question - how does docker choose from where to take the files for a volume.md": [
             {
-                "id": 1315508070,
-                "title": "**remind** me (@2025-02-16)",
+                "id": 2079361760,
+                "title": "**remind** me (@2025-02-22)",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -667,19 +667,6 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Atlas/Knowledge/Media/Books/Books board.md",
-                "completed": ""
-            }
-        ],
-        "Atlas/Knowledge/Media/Articles/Dev/Configuring self-signed SSL certificates for local development.md": [
-            {
-                "id": 2651235785,
-                "title": "remind me (@2025-02-16)",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Atlas/Knowledge/Media/Articles/Dev/Configuring self-signed SSL certificates for local development.md",
                 "completed": ""
             }
         ],
@@ -4036,6 +4023,40 @@
                 "priority": 3,
                 "filePath": "Master Task List.md",
                 "completed": "2025-02-15"
+            }
+        ],
+        "Efforts/Active/Obsidian Tinkering/Morgen General exploration.md": [
+            {
+                "id": 1195359704,
+                "title": "#task [[Morgen General exploration]] 🆔 lIfIhk ⏳ 2025-01-29 📅 2025-02-28 ✅ 2025-02-23",
+                "body": [
+                    "\t- [x] #task Find 👀 **content** online 🆔 lPpH02 ⏳ 2025-02-05 📅 2025-02-28 ✅ 2025-02-23",
+                    "\t\t- **official** docs",
+                    "\t\t- articles",
+                    "\t\t- videos",
+                    "\t\t- [x] look at [[Morgen for beginners Organizing Tasks and Events in one place]]"
+                ],
+                "time": "",
+                "due": "2025-02-28",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Active/Obsidian Tinkering/Morgen General exploration.md",
+                "completed": "2025-02-23"
+            }
+        ],
+        "Atlas/Knowledge/Media/Articles/Dev/Configuring self-signed SSL certificates for local development.md": [
+            {
+                "id": 2895843410,
+                "title": "remind me (@2025-02-16)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Knowledge/Media/Articles/Dev/Configuring self-signed SSL certificates for local development.md",
+                "completed": ""
             }
         ]
     }

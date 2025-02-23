@@ -3,7 +3,7 @@
 > [!question]
 > What to do?
 
-- [ ] #task Fix the **editor** bug `again` #obsidian 🆔 lDqejr ⏫ ⏳ 2025-02-23 📅 2025-02-23
+- [x] #task Fix the **editor** bug `again` #obsidian 🆔 lDqejr ⏫ ⏳ 2025-02-23 📅 2025-02-23 ✅ 2025-02-23
 
 # options
 

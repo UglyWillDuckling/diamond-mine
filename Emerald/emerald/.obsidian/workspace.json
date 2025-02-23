@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Command  Bashly.md",
+                "file": "setup wordpress with Bedrock and Docker.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Command  Bashly"
+              "title": "setup wordpress with Bedrock and Docker"
             }
           }
         ]
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5124969482422,
-    "collapsed": true
+    "width": 236.51103591918945
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -198,7 +197,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -233,11 +232,11 @@
   },
   "active": "29ab67df91cf7e03",
   "lastOpenFiles": [
-    "setup wordpress with Bedrock and Docker.md",
+    "Knowledge/daily_notes/2025/02-February/2025-02-21-Fri.md",
     "Clippings/Command  Bashly.md",
+    "setup wordpress with Bedrock and Docker.md",
     "Clippings/Examples  Bashly.md",
     "Clippings/Welcome to Bashly  Bashly - Bash Command Line Framework.md",
-    "Knowledge/daily_notes/2025/02-February/2025-02-21-Fri.md",
     "tasks canvas.canvas",
     "People MOC.md",
     "Clippings/Setting up PHP with Docker and Nginx A Guide.md",

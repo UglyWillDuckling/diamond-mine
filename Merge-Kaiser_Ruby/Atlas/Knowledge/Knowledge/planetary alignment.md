@@ -16,4 +16,4 @@ Near the eastern horizon, Mars will shine brightly with its signature red hue, m
 Uranus will be positioned near Jupiter, and Neptune will be close to Venus and Saturn. You will need optical aid to see both these ice giants, as their magnitude is beyond the naked eye limit.
 
 Happy Sky-gazing 💜
-- [ ] #task Planetary alignment 🔼 📅 2025-01-26 🆔 sbCGFr
+- [x] #task Planetary alignment 🔼 📅 2025-01-26 🆔 sbCGFr ✅ 2025-02-23

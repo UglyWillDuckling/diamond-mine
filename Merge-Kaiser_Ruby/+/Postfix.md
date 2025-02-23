@@ -1,7 +1,7 @@
 ---
 related:
   - "[[postfix config steps]]"
-  - "[[trial postfix config file]]"
+  - "[[trial postfix config file 1]]"
   - "[[setup mail server trial]]"
   - "[[How To Set Up a Postfix E-Mail Server with Dovecot]]"
 tags:

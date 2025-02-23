@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/daily/2025/2025-02-23-Sun.md",
+                "file": "+/fix editor, again.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-23-Sun"
+              "title": "fix editor, again"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5110321044922
+    "width": 281.51103591918945
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -137,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/daily/2025/2025-02-23-Sun.md",
+                "file": "+/fix editor, again.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-02-23-Sun"
+              "title": "Outline of fix editor, again"
             }
           }
         ],
@@ -178,9 +178,12 @@
   },
   "active": "95da1afea26bd59a",
   "lastOpenFiles": [
+    "+/Bo Burnham.md",
+    "🏡.md",
+    "~/×/20241221_132354.jpg",
+    "Calendar/daily/2025/2025-02-23-Sun.md",
     "Calendar/daily/2025/2025-02-21-Fri.md",
     "Calendar/daily/2025/2025-02-22-Sat.md",
-    "Calendar/daily/2025/2025-02-23-Sun.md",
     "Clippings/obsidian.nvim.md",
     "Calendar/daily/2024/2024-12-31.md",
     "Calendar/daily/2024 1/2024-12-31.md",
@@ -202,8 +205,6 @@
     "Calendar/daily/2025-02-22.md",
     "Calendar/daily/2025-02-23.md",
     "2025-02-23.md",
-    "Efforts/Active/Obsidian Tinkering/Obsidian CLI tools and automations.md",
-    "Atlas/Tools/obsidian/obsidian-cli.md",
     "tasks canvas.canvas",
     "Efforts/Active/Senka/Wordpress",
     "Timestamps/2025/02-February",

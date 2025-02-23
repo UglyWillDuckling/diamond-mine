@@ -39,7 +39,7 @@ part of:
 [[Install and configure Postfix]]
 new: [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 #### artifacts
-[[trial postfix config file]]
+[[trial postfix config file 1]]
 [[dovecot trial configs]]
 [[how to setup email on unix]]
 
@@ -58,7 +58,7 @@ new: [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 [[dovecot trial configs]]
 ### postfix config
 [[postfix config steps]]
-[[trial postfix config file]]
+[[trial postfix config file 1]]
 [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 ## now
 - [x] create senka@techdot.biz account |  ✅ 2025-02-14/21:37 

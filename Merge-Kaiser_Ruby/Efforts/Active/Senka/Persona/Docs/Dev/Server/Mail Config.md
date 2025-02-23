@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[trial postfix config file]]"
+  - "[[trial postfix config file 1]]"
   - "[[Persona]]"
   - "[[prepare for migration]]"
 ---

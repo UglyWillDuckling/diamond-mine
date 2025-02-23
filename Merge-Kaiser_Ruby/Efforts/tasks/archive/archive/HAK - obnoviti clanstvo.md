@@ -21,7 +21,7 @@ Od: 2017.
 
 ## run
 
-![[hak-placanje.png]]
+![[hak-placanje 1.png]]
 
 - [x] projeriti clanstvo
 - [x] obnovit za Mirnu

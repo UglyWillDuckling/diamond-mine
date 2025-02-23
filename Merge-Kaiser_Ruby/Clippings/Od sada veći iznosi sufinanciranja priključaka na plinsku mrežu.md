@@ -14,4 +14,4 @@ Na kolegiju Gradonačelnika danas, 13. veljače, donesen je Zaključak o davanju
 
 Zaključak je u cijelosti dostupan [**OVDJE**](https://www.slavonski-brod.hr/images/naslove_fotografije/sken_plinskamreza.pdf).
 
-- [ ] REMIND ([[2025-02-14]])
+- [ ] REMIND ([[2025-02-14 1]])

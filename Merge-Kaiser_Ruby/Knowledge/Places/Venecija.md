@@ -1,2 +1,0 @@
-#Grad #place 
-[[Venice - Wikipedia]]

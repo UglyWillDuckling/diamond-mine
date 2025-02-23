@@ -1,13 +1,6 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/Personal/notes/libgen-downloader.md": [
-      {
-        "title": "monthly reminder",
-        "time": "2025-02-22",
-        "rowNumber": 10
-      }
-    ],
     "Atlas/Personal/notes/You can easily switch to a different user using su.md": [
       {
         "title": "remind me in 1 month",
@@ -34,13 +27,6 @@
         "title": "monthly",
         "time": "2025-02-24",
         "rowNumber": 190
-      }
-    ],
-    "Atlas/Personal/notes/mozes se ulogirat u PBZ online.md": [
-      {
-        "title": "reminder",
-        "time": "2025-02-22",
-        "rowNumber": 4
       }
     ],
     "Atlas/Personal/notes/having tasks or tickets belong to more than just one project could be useful in certain situations.md": [
@@ -95,7 +81,7 @@
     "Clippings/How to trust cert authority - arch.md": [
       {
         "title": "remind me",
-        "time": "2025-02-22",
+        "time": "2025-03-01",
         "rowNumber": 12
       }
     ],
@@ -132,13 +118,6 @@
         "title": "remind me",
         "time": "2025-03-01",
         "rowNumber": 2
-      }
-    ],
-    "Knowledge/Places/Zen House Sarajevo.md": [
-      {
-        "title": "remind me",
-        "time": "2025-02-22",
-        "rowNumber": 12
       }
     ]
   },

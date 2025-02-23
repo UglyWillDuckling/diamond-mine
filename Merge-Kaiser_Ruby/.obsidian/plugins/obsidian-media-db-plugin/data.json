@@ -1,7 +1,7 @@
 {
-  "OMDbKey": "46d8123f",
+  "OMDbKey": "",
   "MobyGamesKey": "",
-  "sfwFilter": true,
+  "sfwFilter": false,
   "templates": true,
   "customDateFormat": "L",
   "openNoteInNewTab": true,
@@ -31,7 +31,7 @@
   "musicReleasePropertyConversionRules": "",
   "boardgamePropertyConversionRules": "",
   "bookPropertyConversionRules": "",
-  "movieFolder": "Atlas/Knowledge/Media/movies",
+  "movieFolder": "Media DB/movies",
   "seriesFolder": "Media DB/series",
   "mangaFolder": "Media DB/manga",
   "gameFolder": "Media DB/games",

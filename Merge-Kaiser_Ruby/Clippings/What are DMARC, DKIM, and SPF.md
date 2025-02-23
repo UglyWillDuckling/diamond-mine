@@ -10,9 +10,9 @@ tags:
   - email
   - validation
 related:
-  - "[[DKIM]]"
+  - "[[+/DKIM]]"
   - "[[DMARC]]"
-  - "[[SPF]]"
+  - "[[+/SPF]]"
   - "[[setup mail server trial]]"
 ---
 ## What are DMARC, DKIM, and SPF?
@@ -41,7 +41,7 @@ Read the Q4 2023 DDoS Threat Landscape Report
 
 Sender Policy Framework (SPF) is a way for a domain to list all the servers they send emails from. Think of it like a publicly available employee directory that helps someone to confirm if an employee works for an organization.
 
-[SPF records](https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/) list all the [IP addresses](https://www.cloudflare.com/learning/dns/glossary/what-is-my-ip-address/) of all the servers that are allowed to send emails from the domain, just as an employee directory lists the names of all employees for an organization. Mail servers that receive an email message can check it against the [[SPF]] record before passing it on to the recipient's inbox.
+[SPF records](https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/) list all the [IP addresses](https://www.cloudflare.com/learning/dns/glossary/what-is-my-ip-address/) of all the servers that are allowed to send emails from the domain, just as an employee directory lists the names of all employees for an organization. Mail servers that receive an email message can check it against the [[+/SPF]] record before passing it on to the recipient's inbox.
 
 ## How does DKIM work?
 

@@ -11,7 +11,7 @@ tags:
   - email
 related:
   - "[[What Is the SPF Record for Hostinger Email  Hostinger Help Center]]"
-  - "[[SPF]]"
+  - "[[+/SPF]]"
   - "[[email]]"
   - "[[setup mail server trial]]"
 ---

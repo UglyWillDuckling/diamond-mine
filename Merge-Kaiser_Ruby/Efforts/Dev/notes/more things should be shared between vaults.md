@@ -6,4 +6,4 @@ A shared folder that is symlinked
 - [[quickadd]]
 - [[Atlas/Knowledge/Knowledge/tools/Tasks plugin]]
 
-- [ ] #task **share** stuff ==between== vaults 🔼 
+- [ ] #task **share** stuff ==between== vaults 🔼  🆔 s7fGVt

@@ -2,7 +2,7 @@
 title: How to Ditch Digital Distraction in 2025
 source: https://www.youtube.com/watch?v=ucpqQbHHOGY&ab_channel=Spencer%E2%80%99sAdventures
 author:
-  - "[[Spencer’s Adventures]]"
+  - "[[Atlas/Life/People/Spencer’s Adventures]]"
 published: 2024-12-20
 created: 2024-12-22
 description: Today we're talking about smartphones and 5 key strategies I've found to keep my focus and attention while interacting with the smart world. Let me know what you think in the comments! Join the Spen

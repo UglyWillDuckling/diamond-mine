@@ -64,12 +64,12 @@ new: [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 - [x] create senka@techdot.biz account |  ✅ 2025-02-14/21:37 
 - [/] @ create more folders in [[Dovecot]]
 - [x] ! reinstall [[Postfix]]
-- [x] ! add [[SPF]] record
+- [x] ! add [[+/SPF]] record
 	[[What Is the SPF Record for Hostinger Email  Hostinger Help Center]]
-- [/] investigate relationship between [[SPF]], [[DKIM]] and [[DMARC]]
+- [/] investigate relationship between [[+/SPF]], [[+/DKIM]] and [[DMARC]]
 	- [[What are DMARC, DKIM, and SPF]]
 		- [[What are DMARC, DKIM, and SPF#How to check if an email has passed]]
-- [x] fix issue with emails ending up in [[spam]] folder
+- [x] fix issue with emails ending up in [[+/spam]] folder
 - [x] #task store configs ✅ 2025-01-05
 	- [ ] store [[Postfix]] config
 	- [ ] store [[Dovecot]] config
@@ -104,7 +104,7 @@ new: [[How To Set Up a Postfix E-Mail Server with Dovecot]]
     smtp_tls_CApath = /etc/ssl/certs
 ```
 ### add spf record
-[[DNS record]] [[SPF]], [[DKIM]]
+[[DNS record]] [[+/SPF]], [[+/DKIM]]
 [[spf techdot.biz record]] for [[my VPS - techdot.biz]]
 ### fix spam
 you can use `postconf -n` to see [[Postfix]]

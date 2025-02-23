@@ -508,5 +508,3 @@ var SettingsSearch = class extends import_obsidian.Plugin {
       this.app.setting.openTabById(this.app.setting.lastTabId);
   }
 };
-
-/* nosourcemap */

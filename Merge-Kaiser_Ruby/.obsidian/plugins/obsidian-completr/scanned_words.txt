@@ -596,6 +596,10 @@ ratified
 restoring
 refered
 rewrite
+reasonable
+reversed
+rezervacija
+rogaska
 status
 ssl
 syncing
@@ -1518,6 +1522,13 @@ similiar
 stdin
 shebang
 staviti
+spec
+strict
+substitutions
+smartcase
+subnet
+subnets
+subnetworks
 doesn
 due
 depends
@@ -2101,6 +2112,9 @@ dow
 declaring
 descriptor
 dob
+differentiate
+disable
+divides
 work
 workin
 waiting
@@ -2383,6 +2397,8 @@ wire
 wil
 wild
 weekday
+weekdays
+weekends
 to
 task
 the
@@ -2890,6 +2906,10 @@ transferring
 transfers
 transmitting
 talkative
+telescope
+timers
+trigger
+tata
 previewLink
 persona
 plugin
@@ -3745,6 +3765,7 @@ predictions
 pocisti
 praksa
 polaroid
+passthrough
 on
 out
 other
@@ -4118,6 +4139,9 @@ openpgp
 optimization
 outputs
 obsidiana
+occurrences
+odmor
+outgoing
 for
 file
 folders
@@ -4529,6 +4553,9 @@ fmt
 flair
 fancy
 fsdfd
+feasible
+falls
+forged
 Setup
 Sri
 Spanish
@@ -5048,6 +5075,12 @@ Specifically
 Systems
 Slash
 Snapshots
+Syntax
+Selecting
+Specific
+Substitutions
+Subnet
+Subnetting
 Persona
 Portuguese
 Parisians
@@ -5488,6 +5521,9 @@ Pogledati
 Poslati
 Prou
 Platiti
+Pickers
+Prolje
+Paulinin
 mail
 migrate
 mark
@@ -5962,6 +5998,9 @@ maintains
 mechanisms
 masa
 male
+managers
+mutually
+mgpFNP
 copy
 connect
 contain
@@ -6757,6 +6796,14 @@ cronjobs
 crontabs
 charaters
 closing
+complement
+concealing
+committing
+cycle
+conceallevel
+correspond
+cmp
+concealment
 error
 extremely
 existed
@@ -7227,6 +7274,9 @@ edits
 enforce
 executes
 endan
+extmarks
+extend
+enjer
 is
 in
 issue
@@ -7751,6 +7801,9 @@ infrastructure
 incorporation
 intervals
 ipv
+inserting
+ignorecase
+indeed
 Next
 Now
 Network
@@ -7973,6 +8026,7 @@ Norman
 NSS
 Naru
 NOTES
+NeoVim
 Directories
 During
 Dutch
@@ -8343,6 +8397,8 @@ Debra
 DragonFly
 Doktorica
 DND
+DomainKeys
+DKIM
 Working
 World
 With
@@ -8568,6 +8624,8 @@ Weiss
 Wikidata
 Was
 Weekends
+WARNING
+Workspaces
 This
 The
 Treba
@@ -8909,6 +8967,7 @@ Towards
 Troy
 Temporarily
 Thrice
+Trg
 background
 between
 br
@@ -10180,6 +10239,11 @@ CGI
 Canesten
 Canespor
 CREATED
+Completion
+Client
+Concealing
+Classless
+CIDR
 all
 again
 and
@@ -10777,6 +10841,10 @@ authenticator
 annually
 afile
 appending
+achieves
+affixing
+attachments
+affixed
 had
 his
 houses
@@ -11365,6 +11433,8 @@ nofollow
 naive
 newsgroup
 nMfbCO
+necessarily
+notation
 using
 useful
 until
@@ -11672,6 +11742,7 @@ unusual
 uncompressed
 utilizes
 unspecified
+uppercase
 GitHub
 George
 God
@@ -12132,6 +12203,9 @@ ObservableGauge
 OpenTelemtry
 Obtain
 OpenPAM
+ObsidianFollowLink
+ObsidianQuickSwitch
+ObsidianPasteImg
 version
 very
 volume
@@ -12383,6 +12457,7 @@ validity
 validate
 vice
 versa
+viml
 Arabia
 Arabs
 Africa
@@ -12842,6 +12917,7 @@ AIX
 Authorization
 Allowed
 Asterisk
+Addresses
 Muslim
 Mecca
 Mail
@@ -13246,6 +13322,7 @@ Minute
 Minutes
 Months
 Meaning
+Mask
 long
 left
 later
@@ -13576,6 +13653,7 @@ logos
 librsync
 latency
 ldap
+lDqejr
 By
 Baba
 Budan
@@ -13912,6 +13990,7 @@ Barring
 Burns
 Bert
 Backups
+BRNR
 In
 Indian
 Italy
@@ -14169,6 +14248,7 @@ Implement
 Implementations
 Integrating
 Implementing
+Identified
 European
 Europe
 Example
@@ -15121,6 +15201,8 @@ gided
 gpg
 greenend
 glukozni
+generous
+guarantees
 zadaci
 zeguel
 za
@@ -15931,6 +16013,8 @@ Reboot
 Required
 Ro
 Rojazol
+Routing
+RPQKX
 your
 you
 yet
@@ -16235,6 +16319,8 @@ UpDownCounter
 UnsupportedMediaType
 UDP
 Usenet
+Ultra
+Usable
 Your
 You
 York
@@ -16528,6 +16614,8 @@ kickstart
 koa
 krb
 kraja
+keybinding
+kolodvoru
 xethred
 xml
 xmlns
@@ -16635,6 +16723,7 @@ xwe
 xJSL
 xlink
 xygrid
+xclip
 questions
 qualify
 qualified
@@ -17294,6 +17383,7 @@ Zsh
 Zorin
 Zstd
 Zlib
+ZUKT
 XML
 XAMPP
 Xc

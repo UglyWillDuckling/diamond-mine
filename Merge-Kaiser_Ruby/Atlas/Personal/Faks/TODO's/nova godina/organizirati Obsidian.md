@@ -13,7 +13,7 @@
 		- ispis materijala `dataview`
 		- …
 	- plan ucenja i
-	- plan polaganja ispita [[isplanirati polaganje predmeta]]
+	- plan polaganja ispita [[Atlas/Personal/Faks/TODO's/nova godina/isplanirati polaganje predmeta]]
 	- zanimljivosti
 
 ---

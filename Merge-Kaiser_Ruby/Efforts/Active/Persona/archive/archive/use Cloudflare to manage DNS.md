@@ -14,7 +14,7 @@ IP: 92.112.180.200
 - [x] ! #task add [[DNS record]]s ✅ 2025-01-05
 
 ## add DNS records
-- [x] [[SPF]]
+- [x] [[+/SPF]]
 	- v=spf1 +a +mx +ip4:92.112.180.200 ~all
 - [x] [[MX record]]
 	- mail.persona.hr

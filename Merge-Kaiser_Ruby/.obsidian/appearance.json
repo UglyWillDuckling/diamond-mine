@@ -1,15 +1,12 @@
 {
-  "cssTheme": "Cupertino",
-  "interfaceFontFamily": "Cantarell",
-  "monospaceFontFamily": "FiraCode Nerd Font Mono",
-  "textFontFamily": "",
+  "theme": "system",
+  "cssTheme": "Minimal",
+  "accentColor": "#f9ab62",
   "baseFontSizeAction": true,
   "baseFontSize": 16,
   "enabledCssSnippets": [
-    "remove_table_padding_dv"
-  ],
-  "showViewHeader": true,
-  "accentColor": "#f9ab62",
-  "theme": "moonstone",
-  "showRibbon": true
+    "remove_table_padding_dv",
+    "tasks_padding",
+    "tree_padding"
+  ]
 }

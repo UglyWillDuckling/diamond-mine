@@ -1,8 +1,8 @@
 {
   "choices": [
     {
-      "id": "2ad99686-91d4-42a4-9cbe-2e60a36b7eb2",
-      "name": "New Task ✅",
+      "id": "cf1e9f3f-fe1f-4dd7-96e0-0cd683c2bf30",
+      "name": "Task ✅",
       "type": "Capture",
       "command": true,
       "appendLink": false,
@@ -15,7 +15,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "```js quickadd\nreturn await this.app.plugins.plugins['obsidian-tasks-plugin'].apiV1.createTaskLineModal();\n```\n"
+        "format": "#task {{VALUE:task name}} {{VALUE:🔺,⏫,🔼,🔽,⏬️, }} 📅 {{VDATE:due date,YYYY-MM-DD}}"
       },
       "insertAfter": {
         "enabled": false,
@@ -28,113 +28,80 @@
       "prepend": false,
       "task": false,
       "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "848276cd-9c8a-4484-a18f-edc7ecf1974a",
-      "name": "New",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
         "enabled": true,
-        "format": ""
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
+        "direction": "horizontal",
         "focus": true
       },
       "openFile": true,
       "openFileInMode": "default"
     },
     {
-      "id": "06943143-b59e-4c64-9798-6c28ad910fdc",
-      "name": "book",
+      "id": "f64b73ca-b341-422f-83ac-08cf48d5f1e5",
+      "name": "BookFinder📕",
       "type": "Macro",
       "command": true,
-      "macroId": "03030d5f-1ce3-44b1-99dd-9d28a24ce657"
+      "macroId": "61dfedc0-d41f-4074-a5ee-fed304e06ef9"
     },
     {
-      "id": "c406b8bf-deaa-4cde-bf01-6f774a8be45c",
-      "name": "Thought 💭",
-      "type": "Capture",
+      "id": "28b2ee83-9521-431e-944d-9c019ffb364b",
+      "name": "movie🎬",
+      "type": "Macro",
       "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": true,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "#thought #note #new"
-      },
-      "insertAfter": {
+      "macroId": "ff14992f-d89c-4dc9-8b1e-4d84da38598c"
+    },
+    {
+      "id": "f2706324-a974-4be8-aa99-3f84420ebb8a",
+      "name": "add tool 🔨",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Knowledge/templates/tool.md",
+      "fileNameFormat": {
         "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
+        "format": ""
       },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
+      "folder": {
         "enabled": true,
+        "folders": [
+          "Knowledge/tools"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": true
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
         "direction": "vertical",
         "focus": true
       },
       "openFile": true,
-      "openFileInMode": "default"
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [
     {
-      "name": "book",
-      "id": "03030d5f-1ce3-44b1-99dd-9d28a24ce657",
+      "name": "BookFinder",
+      "id": "61dfedc0-d41f-4074-a5ee-fed304e06ef9",
       "commands": [
         {
           "name": "BookFinder",
           "type": "UserScript",
-          "id": "2cf20d04-90e8-41a4-a0dc-fc9a00f13b0a",
+          "id": "c495a0ab-9f8e-4a51-885c-f828dd938d68",
           "path": "notes/scripts/BookFinder.js",
           "settings": {}
         },
         {
-          "name": "template",
+          "name": "book template",
           "type": "NestedChoice",
-          "id": "4464dffe-1fef-48b8-8ab6-aacadf5dcb7b",
+          "id": "7ffb9c4d-2d32-4eae-9f7e-288f9519e6b6",
           "choice": {
-            "id": "50b38f4d-7f65-4a9c-ae86-b58c82ad8b85",
-            "name": "template",
+            "id": "6b9021ff-c7f8-4904-9243-6e328fc9cd1f",
+            "name": "book template",
             "type": "Template",
             "command": false,
-            "templatePath": "Atlas/Knowledge/templates/book template.md",
+            "templatePath": "Knowledge/templates/book template.md",
             "fileNameFormat": {
               "enabled": false,
               "format": ""
@@ -142,7 +109,7 @@
             "folder": {
               "enabled": true,
               "folders": [
-                "Atlas/Knowledge/Media/Books"
+                "Knowledge/Books"
               ],
               "chooseWhenCreatingNote": false,
               "createInSameFolderAsActiveFile": false,
@@ -150,7 +117,58 @@
             },
             "appendLink": false,
             "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "movie",
+      "id": "ff14992f-d89c-4dc9-8b1e-4d84da38598c",
+      "commands": [
+        {
+          "name": "movies",
+          "type": "UserScript",
+          "id": "1e0a1bb4-970a-408f-9c76-c08086b1999f",
+          "path": "notes/scripts/movies.js",
+          "settings": {
+            "OMDb API Key": "fa74e20c"
+          }
+        },
+        {
+          "name": "movie template",
+          "type": "NestedChoice",
+          "id": "ef2912e6-6037-44b8-9234-69c0b8647d59",
+          "choice": {
+            "id": "b4b63b0a-c903-4d8e-9e0b-f20e84d97490",
+            "name": "movie template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Knowledge/templates/movie.md",
+            "fileNameFormat": {
               "enabled": true,
+              "format": "{{VALUE:fileName}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Knowledge/Media/movies"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
               "direction": "vertical",
               "focus": true
             },
@@ -166,11 +184,11 @@
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "",
+  "templateFolderPath": "Knowledge/templates",
   "announceUpdates": true,
   "version": "1.11.5",
   "disableOnlineFeatures": true,
-  "enableRibbonIcon": false,
+  "enableRibbonIcon": true,
   "ai": {
     "defaultModel": "Ask me",
     "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",

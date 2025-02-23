@@ -1,2 +1,0 @@
-#song 
-author:: [[Baby Lasagna]]

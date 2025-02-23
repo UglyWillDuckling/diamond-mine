@@ -1,4 +1,4 @@
-- [/] #task obnoviti dopunsko osiguranje
+- [/] #task obnoviti dopunsko osiguranje 🆔 rYoI3H
     - [ ] pogleda ostala dopunska osiguranje [[Kompare]]
     - [ ] uplatiti [[Dopunsko Osiguranje]]
 

@@ -1,6 +1,6 @@
 
 - [x] @ [[Atlas/Personal/Faks/Predmeti/Matematika/Matematika|Matematika]]
-- [x] [[Osnove informatike]] |  ✅ 2025-02-14/21:35 
+- [x] [[Atlas/Life/Faks/Predmeti/Osnove informatike/Osnove informatike]] |  ✅ 2025-02-14/21:35 
 
 ## podaci
 

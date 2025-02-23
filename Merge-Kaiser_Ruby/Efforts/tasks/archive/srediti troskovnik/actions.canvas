@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"ca684617e9cfc661","type":"text","text":"pogledati mail","x":-280,"y":-280,"width":250,"height":60,"color":"4"},
-		{"id":"632354765358719a","type":"text","text":"kontaktirati [[Zeljko]]","x":-280,"y":-166,"width":250,"height":60,"color":"4"},
+		{"id":"632354765358719a","type":"text","text":"kontaktirati [[Atlas/Life/People/Zeljko]]","x":-280,"y":-166,"width":250,"height":60,"color":"4"},
 		{"id":"38c1050e92c456bd","type":"text","text":"pogledati dokumente","x":-280,"y":-46,"width":250,"height":60,"color":"4"}
 	],
 	"edges":[

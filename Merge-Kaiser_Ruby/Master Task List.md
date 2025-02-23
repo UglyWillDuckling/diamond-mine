@@ -1,12 +1,15 @@
 ---
+id: Master Task List
+aliases: []
 tags:
   - task-list
 ---
-- [x] #task **Find** remote vault encryption password ⏫ ⏳ 2025-02-20 📅 2025-02-22 ✅ 2025-02-19
-- [ ] #task Explore **IP addresses** - ipv4, ipv6 🔼 ⏳ 2025-02-22 📅 2025-03-05
+- [ ] #task new task ⏰ 2025-02-23 18 ⏫ 📅 2025-02-24
+
+- [ ] #task Explore **IP addresses** - ipv4, ipv6 🔼 ⏳ 2025-02-22 📅 2025-03-05 🆔 mgpFNP
 	[[+/IPv4 example]]
 
-- [ ] #task pocisti [[GDrive]] do kraja 🔼 ⏳ 2025-02-20 📅 2025-02-23
+- [ ] #task pocisti [[GDrive]] do kraja 🔼 ⏳ 2025-02-20 📅 2025-02-23 🆔 7RPQKX
 - [ ] #task Fix missing **restart** of **nginx** docker service after cert renewal ⏫ 🆔 5ij4NX
 
 - [ ] #task Look into what SSE means 📅 2025-02-16 🆔 5dKDNT #dev
@@ -25,3 +28,5 @@ tags:
 - [x] #task pocistiti **Downloads** folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny | #task #tiny #task #tiny 🔼 📅 2025-02-15 ✅ 2025-02-15
 - [x] #task see how [[rsync]] works #backburner #dev ✅ 2025-02-15
 	- [[rsync]]
+
+- [x] #task **Find** remote vault encryption password ⏫ ⏳ 2025-02-20 📅 2025-02-22 ✅ 2025-02-19

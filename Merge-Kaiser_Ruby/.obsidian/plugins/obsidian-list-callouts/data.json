@@ -28,9 +28,9 @@
     "char": "%"
   },
   {
-    "char": "-i",
-    "color": "254, 208, 42",
-    "icon": "lucide-lightbulb",
+    "char": "\"\"",
+    "color": "0, 209, 63",
+    "icon": "lucide-test-tube-2",
     "custom": true
   }
 ]

@@ -111,7 +111,7 @@
         ],
         "Efforts/Active/Persona/archive/archive/Setup hosting/setup mail server trial.md": [
             {
-                "id": 3261750053,
+                "id": 1891228685,
                 "title": "write down all the steps  to repeat this ✍",
                 "body": [],
                 "time": "",
@@ -871,8 +871,50 @@
         ],
         "Master Task List.md": [
             {
-                "id": 4198307522,
-                "title": "#task Fix missing restart of nginx docker service after cert renewal ⏫",
+                "id": 3129119084,
+                "title": "#task Fix the editor bug again 🔼 ⏳ 2025-02-22 📅 2025-02-23 #obsidian",
+                "body": [],
+                "time": "",
+                "due": "2025-02-23",
+                "tags": [
+                    "#task",
+                    "#obsidian"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 441900416,
+                "title": "#task Explore **IP addresses** - ipv4, ipv6 🔼 ⏳ 2025-02-22 📅 2025-03-05",
+                "body": [
+                    "\t[[+/IPv4 example]]"
+                ],
+                "time": "",
+                "due": "2025-03-05",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 1116829270,
+                "title": "#task pocisti [[GDrive]] do kraja 🔼 ⏳ 2025-02-20 📅 2025-02-23",
+                "body": [],
+                "time": "",
+                "due": "2025-02-23",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": ""
+            },
+            {
+                "id": 2261144737,
+                "title": "#task Fix missing **restart** of **nginx** docker service after cert renewal ⏫ 🆔 5ij4NX",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -884,7 +926,7 @@
                 "completed": ""
             },
             {
-                "id": 3759254948,
+                "id": 3976840780,
                 "title": "#task Look into what SSE means 📅 2025-02-16 🆔 5dKDNT #dev",
                 "body": [
                     "\t- see [[Deno Web Server]]"
@@ -900,7 +942,7 @@
                 "completed": ""
             },
             {
-                "id": 801062633,
+                "id": 2257737938,
                 "title": "#task build a New **Movies** list ⏳ 2025-02-09 📅 2025-02-14 🆔 qiGLZM",
                 "body": [
                     "\t- create **new movie entries** in the process"
@@ -916,7 +958,7 @@
                 "completed": ""
             },
             {
-                "id": 2947367602,
+                "id": 2484399494,
                 "title": "#task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-02-19 🆔 iD0UCB #habbit",
                 "body": [],
                 "time": "",
@@ -930,7 +972,7 @@
                 "completed": ""
             },
             {
-                "id": 1380087019,
+                "id": 1904510800,
                 "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
                 "body": [],
                 "time": "",
@@ -944,7 +986,7 @@
                 "completed": ""
             },
             {
-                "id": 932928340,
+                "id": 4171436486,
                 "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-17",
                 "body": [
                     "\t- check online",
@@ -960,7 +1002,7 @@
                 "completed": ""
             },
             {
-                "id": 4176380381,
+                "id": 989699128,
                 "title": "#task [[Backup Drive]] 🔼 ⏳ 2025-02-03 🆔 OpBFPk",
                 "body": [],
                 "time": "",
@@ -1047,6 +1089,47 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "task board.md",
+                "completed": ""
+            }
+        ],
+        "Life/Sugar logs/Sugar Logs 🧊.md": [
+            {
+                "id": 57408057,
+                "title": "#task prepisati šećer iz bilježnice 📅 2025-01-21",
+                "body": [],
+                "time": "",
+                "due": "2025-01-21",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Life/Sugar logs/Sugar Logs 🧊.md",
+                "completed": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-02-21-Fri.md": [
+            {
+                "id": 2750737843,
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-02-21-Fri.md",
+                "completed": ""
+            }
+        ],
+        "Clippings/Od sada veći iznosi sufinanciranja priključaka na plinsku mrežu.md": [
+            {
+                "id": 3733906341,
+                "title": "REMIND ([[2025-02-14 1]])",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/Od sada veći iznosi sufinanciranja priključaka na plinsku mrežu.md",
                 "completed": ""
             }
         ]
@@ -2133,7 +2216,7 @@
         ],
         "Efforts/Active/Persona/archive/archive/Setup hosting/setup mail server trial.md": [
             {
-                "id": 1998372492,
+                "id": 249488945,
                 "title": "install mail server program - [[Postfix]]",
                 "body": [],
                 "time": "",
@@ -2144,7 +2227,7 @@
                 "completed": ""
             },
             {
-                "id": 3698009404,
+                "id": 1740430771,
                 "title": "configure mail server",
                 "body": [],
                 "time": "",
@@ -2155,7 +2238,7 @@
                 "completed": ""
             },
             {
-                "id": 2570712202,
+                "id": 428598664,
                 "title": "! configure [[SSL]]",
                 "body": [],
                 "time": "",
@@ -2166,7 +2249,7 @@
                 "completed": ""
             },
             {
-                "id": 549235460,
+                "id": 2021218788,
                 "title": "setup multiple `mailboxes`",
                 "body": [],
                 "time": "",
@@ -2177,7 +2260,7 @@
                 "completed": ""
             },
             {
-                "id": 2242215172,
+                "id": 1146981395,
                 "title": "[[#connect with local mail client]] #task ✅ 2025-01-04",
                 "body": [
                     "    - [x] ! connect with other [[email client]]s #task ✅ 2025-01-04"
@@ -2192,7 +2275,7 @@
                 "completed": "2025-01-04"
             },
             {
-                "id": 2844878552,
+                "id": 644361614,
                 "title": "try out sending emails to [[Gmail]]",
                 "body": [],
                 "time": "",
@@ -2203,7 +2286,7 @@
                 "completed": ""
             },
             {
-                "id": 3932627972,
+                "id": 3373302487,
                 "title": "follow [[Install and configure Postfix]]",
                 "body": [],
                 "time": "",
@@ -2214,7 +2297,7 @@
                 "completed": ""
             },
             {
-                "id": 1228957509,
+                "id": 726259465,
                 "title": "read [[How To Set Up a Postfix E-Mail Server with Dovecot]]",
                 "body": [],
                 "time": "",
@@ -2225,7 +2308,7 @@
                 "completed": ""
             },
             {
-                "id": 852198928,
+                "id": 2246847909,
                 "title": "add user vlado",
                 "body": [],
                 "time": "",
@@ -2236,7 +2319,7 @@
                 "completed": ""
             },
             {
-                "id": 3768058671,
+                "id": 2304013769,
                 "title": "test mail",
                 "body": [],
                 "time": "",
@@ -2247,7 +2330,7 @@
                 "completed": ""
             },
             {
-                "id": 275316832,
+                "id": 3515934745,
                 "title": "try to connect",
                 "body": [],
                 "time": "",
@@ -2258,7 +2341,7 @@
                 "completed": ""
             },
             {
-                "id": 3076853193,
+                "id": 1935331574,
                 "title": "use a <mark style=\"background: #FFB8EBA6;\">secure</mark> connection",
                 "body": [],
                 "time": "",
@@ -2271,7 +2354,7 @@
                 "completed": ""
             },
             {
-                "id": 1763093051,
+                "id": 585052975,
                 "title": "create senka@techdot.biz account",
                 "body": [],
                 "time": "",
@@ -2282,7 +2365,7 @@
                 "completed": "2025-02-14/21:37"
             },
             {
-                "id": 4229925963,
+                "id": 203473935,
                 "title": "! reinstall [[Postfix]]",
                 "body": [],
                 "time": "",
@@ -2293,8 +2376,8 @@
                 "completed": ""
             },
             {
-                "id": 1805224238,
-                "title": "! add [[SPF]] record",
+                "id": 2753912295,
+                "title": "! add [[+/SPF]] record",
                 "body": [
                     "\t[[What Is the SPF Record for Hostinger Email  Hostinger Help Center]]"
                 ],
@@ -2306,8 +2389,8 @@
                 "completed": ""
             },
             {
-                "id": 2980992448,
-                "title": "fix issue with emails ending up in [[spam]] folder",
+                "id": 443731297,
+                "title": "fix issue with emails ending up in [[+/spam]] folder",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -2317,7 +2400,7 @@
                 "completed": ""
             },
             {
-                "id": 1694412855,
+                "id": 3214994075,
                 "title": "#task store configs ✅ 2025-01-05",
                 "body": [
                     "\t- [ ] store [[Postfix]] config",
@@ -2333,7 +2416,7 @@
                 "completed": "2025-01-05"
             },
             {
-                "id": 931110750,
+                "id": 1259181989,
                 "title": "#task create dovecot folder ✅ 2025-01-04",
                 "body": [],
                 "time": "",
@@ -2346,8 +2429,8 @@
                 "completed": "2025-01-04"
             },
             {
-                "id": 1827542355,
-                "title": "#task setup person.hr [[SSL certificate]] ✅ 2025-01-07",
+                "id": 1411489507,
+                "title": "#task setup person.hr [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]] ✅ 2025-01-07",
                 "body": [
                     "\t- [x] #task check cert from backup ✅ 2025-01-06",
                     "\t- [x] #task user cert for mails ✅ 2025-01-07"
@@ -2362,7 +2445,7 @@
                 "completed": "2025-01-07"
             },
             {
-                "id": 1843703418,
+                "id": 235605208,
                 "title": "find the cert",
                 "body": [],
                 "time": "",
@@ -2373,7 +2456,7 @@
                 "completed": ""
             },
             {
-                "id": 2359085558,
+                "id": 3112619363,
                 "title": "copy to server",
                 "body": [
                     "\t- [x] move to `/etc/ssl/*` dirs"
@@ -2386,7 +2469,7 @@
                 "completed": ""
             },
             {
-                "id": 3766365545,
+                "id": 3113419127,
                 "title": "use for mail",
                 "body": [
                     "\t- [x] postfix",
@@ -4080,25 +4163,21 @@
         ],
         "Master Task List.md": [
             {
-                "id": 3383540169,
-                "title": "#task see how [[rsync]] works #backburner #dev ✅ 2025-02-15",
-                "body": [
-                    "\t- [[rsync]]"
-                ],
+                "id": 2130541613,
+                "title": "#task **Find** remote vault encryption password ⏫ ⏳ 2025-02-20 📅 2025-02-22 ✅ 2025-02-19",
+                "body": [],
                 "time": "",
-                "due": "",
+                "due": "2025-02-22",
                 "tags": [
-                    "#task",
-                    "#backburner",
-                    "#dev"
+                    "#task"
                 ],
-                "priority": 0,
+                "priority": 2,
                 "filePath": "Master Task List.md",
-                "completed": "2025-02-15"
+                "completed": "2025-02-19"
             },
             {
-                "id": 841498646,
-                "title": "#task pocistiti Downloads folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny",
+                "id": 2512987090,
+                "title": "#task pocistiti **Downloads** folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny",
                 "body": [],
                 "time": "",
                 "due": "2025-02-13",
@@ -4111,6 +4190,23 @@
                     "#tiny"
                 ],
                 "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": "2025-02-15"
+            },
+            {
+                "id": 1838934859,
+                "title": "#task see how [[rsync]] works #backburner #dev ✅ 2025-02-15",
+                "body": [
+                    "\t- [[rsync]]"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task",
+                    "#backburner",
+                    "#dev"
+                ],
+                "priority": 0,
                 "filePath": "Master Task List.md",
                 "completed": "2025-02-15"
             }
@@ -4482,6 +4578,117 @@
                 "priority": 0,
                 "filePath": "task board.md",
                 "completed": ""
+            }
+        ],
+        "days/2025/2025-02-03.md": [
+            {
+                "id": 2478191677,
+                "title": "[[OVB]] sastanak u 18",
+                "body": [
+                    "    - [x] pripremiti se: **popis** pitanja, situacija "
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "days/2025/2025-02-03.md",
+                "completed": ""
+            },
+            {
+                "id": 930892259,
+                "title": "**config** riješenje za qsl",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "days/2025/2025-02-03.md",
+                "completed": ""
+            },
+            {
+                "id": 2901617568,
+                "title": "==izmjena== troskovnika",
+                "body": [
+                    "    - [x] uzeti [[Atlas/Life/People/Zeljko]]v troškovnik ",
+                    "    - [x] napravili izmjene cijena",
+                    "    - [x] poslati [[Mirna 💕💕💕]]i i [[Atlas/Life/People/Zeljko]]u"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "days/2025/2025-02-03.md",
+                "completed": ""
+            }
+        ],
+        "days/2025/2025-01-03.md": [
+            {
+                "id": 2342365159,
+                "title": "[[setup mail server trial]]",
+                "body": [
+                    "\t- [x] ssl",
+                    "\t- [x] Local Mail Agent connection"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "days/2025/2025-01-03.md",
+                "completed": ""
+            }
+        ],
+        "days/2025/2025-02-08.md": [
+            {
+                "id": 3100870730,
+                "title": "naručiti **cross punjenje**",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "days/2025/2025-02-08.md",
+                "completed": ""
+            },
+            {
+                "id": 981982920,
+                "title": "naručiti jos jednu **olovku**",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "days/2025/2025-02-08.md",
+                "completed": ""
+            },
+            {
+                "id": 3997615530,
+                "title": "#task [[rogaska slatina]] [[Travanj]] ⏫ ⏳ 2025-02-08 📅 2025-02-09 ✅ 2025-02-08",
+                "body": [
+                    "    - [[Efforts/booking-rezervacija rogaska]]"
+                ],
+                "time": "",
+                "due": "2025-02-09",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "days/2025/2025-02-08.md",
+                "completed": "2025-02-08"
+            }
+        ],
+        "Atlas/Life/Sugar logs/Sugar Logs 🧊.md": [
+            {
+                "id": 1516883818,
+                "title": "#task prepisati šećer iz bilježnice 📅 2025-01-21 🆔 MWLm43 ✅ 2025-02-21",
+                "body": [],
+                "time": "",
+                "due": "2025-01-21",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Atlas/Life/Sugar logs/Sugar Logs 🧊.md",
+                "completed": "2025-02-21"
             }
         ]
     }

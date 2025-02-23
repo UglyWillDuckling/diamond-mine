@@ -1,5 +1,5 @@
 ---
-doktor: "[[IVANA AGATIĆ RAŠKOVIĆ]]"
+doktor: "[[+/IVANA AGATIĆ RAŠKOVIĆ]]"
 tags:
   - ordinacija
 ---

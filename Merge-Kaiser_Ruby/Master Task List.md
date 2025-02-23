@@ -4,8 +4,6 @@ aliases: []
 tags:
   - task-list
 ---
-- [ ] #task new task ⏰ 2025-02-23 18 ⏫ 📅 2025-02-24
-
 - [ ] #task Explore **IP addresses** - ipv4, ipv6 🔼 ⏳ 2025-02-22 📅 2025-03-05 🆔 mgpFNP
 	[[+/IPv4 example]]
 

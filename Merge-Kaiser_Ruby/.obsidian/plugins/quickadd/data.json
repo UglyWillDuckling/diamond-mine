@@ -15,7 +15,7 @@
       },
       "format": {
         "enabled": true,
-        "format": "#task {{VALUE:task name}} {{VALUE:🔺,⏫,🔼,🔽,⏬️, }} 📅 {{VDATE:due date,YYYY-MM-DD}}"
+        "format": "```js quickadd\nreturn await this.app.plugins.plugins['obsidian-tasks-plugin'].apiV1.createTaskLineModal();\n```\n"
       },
       "insertAfter": {
         "enabled": false,
@@ -78,6 +78,41 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "027b67de-687e-481a-a283-41f337b9d4a0",
+      "name": "Thought ",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "#thought #note #new\n\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "horizontal",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default"
     }
   ],
   "macros": [

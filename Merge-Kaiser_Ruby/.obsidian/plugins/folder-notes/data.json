@@ -8,7 +8,7 @@
   "enableCollapsing": false,
   "excludeFolders": [],
   "whitelistFolders": [],
-  "showDeleteConfirmation": false,
+  "showDeleteConfirmation": true,
   "underlineFolder": true,
   "stopWhitespaceCollapsing": true,
   "underlineFolderInPath": true,

@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "9b5c78b21e032e0a",
+        "id": "76da4c95a4f3ad5a",
         "type": "tabs",
         "children": [
           {
-            "id": "177a74ac2a0c9bf6",
+            "id": "b22b4f2b5d2207bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master Task List.md",
+                "file": "Efforts/Active/Persona/Persona.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Master Task List"
+              "title": "Persona"
             }
           },
           {
-            "id": "2c51ad6692b69069",
+            "id": "74690ef6f82ed576",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Master Task List.md",
+                "file": "ponuda za Senku.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Master Task List"
+              "title": "ponuda za Senku"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5110321044922
+    "width": 211.5110321044922
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -142,95 +142,36 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md"
+                "file": "ponuda za Senku.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Obsidian Tinkering"
+              "title": "Outline of ponuda za Senku"
             }
           },
           {
-            "id": "08c4f9c69a275725",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "b286b55672c075e3",
-            "type": "leaf",
-            "state": {
-              "type": "chronology-calendar-view",
-              "state": {},
-              "icon": "clock",
-              "title": "Chronology"
-            }
-          },
-          {
-            "id": "e2dfdd096e897a5f",
+            "id": "ff545fb0d4a79b51",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "070c1c02c8e16cc5",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "17a4fb01b22e5082",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "3f561d9a205517cb",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
-            }
-          },
-          {
-            "id": "56b91b84e2e83d7a",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
+              "icon": "clock",
+              "title": "Reminders"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 377.5,
+    "width": 594.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "chronology:Open Chronology": false,
       "quickadd:QuickAdd": true,
       "obsidian-book-search-plugin:Create new book note": true,
       "templater-obsidian:Templater": true,
@@ -250,11 +191,18 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "2c51ad6692b69069",
+  "active": "74690ef6f82ed576",
   "lastOpenFiles": [
-    "how to fix editor.md",
+    "ponuda za Senku.md",
+    "Efforts/Active/Persona/Persona.md",
     "Master Task List.md",
+    "how to fix editor.md",
     "Mirna 30ti rođendan.md",
+    "Atlas/Knowledge/Media/Articles/Dev/Configuring self-signed SSL certificates for local development.md",
+    "Atlas/Dev/notes/Mason is responsible for managing lsp;s.md",
+    "Calendar/daily/2025-02-23.md",
+    "ffff.md",
+    "new thoug.md",
     "Calendar/daily/2025/2025-02-23-Sun.md",
     "Timestamps/2025/02-February",
     "Timestamps/2025",
@@ -280,13 +228,6 @@
     "Atlas/Knowledge/howtos/How to change the shell.md",
     "Atlas/Knowledge/DKIM.md",
     "Calendar/daily/2025/2025-01-13 1.md",
-    "Calendar/daily/2025/2025-01-14.md",
-    "Calendar/daily/2025 1/2025-01-02 1.md",
-    "Calendar/daily/2025 1/2025-01-02.md",
-    "Efforts/tasks by root.md",
-    "2025-02-21.md",
-    "Efforts/booking-rezervacija rogaska.md",
-    "Atlas/Notes/it's not easy to become one with 2 minds.md",
     "Life/People/Kristijan Sedlar.md~",
     "Knowledge/concepts/CS/OOP/smalltalk/lawyer.png",
     "Knowledge/concepts/CS/OOP/smalltalk/Smalltalk connections.canvas",

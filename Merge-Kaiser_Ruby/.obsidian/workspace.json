@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2caf33aea82977d3",
+        "id": "b43352b2cbaf2b43",
         "type": "tabs",
         "children": [
           {
-            "id": "ba6bc23155675dc6",
+            "id": "a5047b23ac5a5f5c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Mirna 30ti rođendan.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Mirna 30ti rođendan"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 499.51103591918945
+    "width": 260.51103591918945
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -185,7 +189,7 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian42-brat:BRAT": true,
-      "task-board:Open task board": false,
+      "task-board:Open task board": true,
       "juggl:Juggl global graph": true,
       "templater-obsidian:Templater": false,
       "obsidian-kanban:Create new board": false,
@@ -204,12 +208,22 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ba6bc23155675dc6",
+  "active": "a5047b23ac5a5f5c",
   "lastOpenFiles": [
-    "Python Conversion.md",
+    "Master Task List.md",
+    "dash 💨.md",
+    "Atlas/Knowledge/howtos/how to check DNS info.md",
+    "Clippings/Fix ‘ERROR failed to solve error getting credentials – err exit status 1, out ’.md",
+    "Efforts/Ongoing/PC Maintenance/docs/new gpg key on PC.md",
+    "Efforts/Ongoing/PC Maintenance/MaintenancePC.md",
+    "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞.md",
+    "Efforts/booking-rezervacija rogaska.md",
+    "Efforts/Ongoing/Vacation",
+    "Efforts/Active/Techdot.IO/Techdot.IO.md",
+    "Efforts/Active/Techdot.IO/techdot.io domain.md",
+    "Efforts/Ongoing/Studying Python/Python Conversion.md",
     "Calendar/daily/2025-02-24.md",
     "Clippings/Arch Linux - moreutils 0.70-1 (x86_64).md",
-    "Master Task List.md",
     "Atlas/Knowledge/Knowledge/howtos/what is running on port ??.md",
     "Atlas/Knowledge/Knowledge/Places/Kuća tambure.md",
     "Atlas/Knowledge/Knowledge/Articles/Articles.md",
@@ -224,15 +238,6 @@
     "tasks canvas.canvas",
     "Atlas/Dev/notes/Golden Topaz is great for reading.md",
     "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
-    "Efforts/Active/Persona/persona ssl cronjob.md",
-    "Efforts/Master Task List.md",
-    "Atlas/Tools/Hostinger Backup.md",
-    "Atlas/Knowledge/howtos/how to change the hostname on a linux machie.md",
-    "Atlas/Dev/notes/fixing the bad shell path issue.md",
-    "dash 💨.md",
-    "Atlas/Tools/pc/Hostinger Snapshot.md",
-    "Efforts/Active/Persona/certificate renewal.md",
-    "Atlas/Knowledge/howtos/certbot renew process.md",
     "Efforts/Ongoing/PC Maintenance/docs",
     "howot",
     "Efforts/Active/Kuca/docs/dokumenti x/Elektronicki_zapis-radna_knjizica.pdf",
@@ -243,7 +248,6 @@
     "Yin-Yang/yin_yang/ui/main_window_connector.py",
     "Yin-Yang/yin_yang/ui/main_window.py",
     "Yin-Yang/yin_yang/ui/__init__.py",
-    "Yin-Yang/yin_yang/plugins/wallpaper.py",
     "tasks pic.canvas",
     "~/×/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"

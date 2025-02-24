@@ -12,4 +12,4 @@ what I tried:
 - try out various **settings**
 - tried another **reinstall**
 
-- [ ] see what else can be done 🙈
+- [x] see what else can be done 🙈

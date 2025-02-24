@@ -72,19 +72,6 @@
                 "completed": ""
             }
         ],
-        "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞.md": [
-            {
-                "id": 209124476,
-                "title": "see what else can be done 🙈",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞.md",
-                "completed": ""
-            }
-        ],
         "Efforts/Active/Wordpress/Wordpress.md": [
             {
                 "id": 939549115,
@@ -959,6 +946,19 @@
                 "filePath": "Calendar/daily/2025-02-24.md",
                 "completed": ""
             }
+        ],
+        "Atlas/Knowledge/howtos/how to check DNS info.md": [
+            {
+                "id": 2491034736,
+                "title": "remind me DNS checker (@2025-03-14)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Knowledge/howtos/how to check DNS info.md",
+                "completed": ""
+            }
         ]
     },
     "Completed": {
@@ -1284,7 +1284,7 @@
         ],
         "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞.md": [
             {
-                "id": 1156447224,
+                "id": 3320112673,
                 "title": "#task Fix [[desktop Compositor issue on KDE 🐞]] ⏫ 📅 2025-02-07 🆔 WAcvF7",
                 "body": [],
                 "time": "",
@@ -1296,6 +1296,17 @@
                 "priority": 2,
                 "filePath": "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞.md",
                 "completed": "2025-02-14/21:26"
+            },
+            {
+                "id": 2562585237,
+                "title": "see what else can be done 🙈",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞.md",
+                "completed": ""
             }
         ],
         "Efforts/Complete/Ipod Setup/Setup Rockbox.md": [
@@ -4070,6 +4081,34 @@
                 "priority": 0,
                 "filePath": "Clippings/Kako izvaditi potvrdu o prebivalištu ili boravištu preko interneta.md",
                 "completed": ""
+            }
+        ],
+        "Efforts/Active/Techdot.IO/Techdot.IO.md": [
+            {
+                "id": 222640031,
+                "title": "#task setup techdot.io domain on Cloudflare ⏫ ⏳ 2025-02-24 📅 2025-02-24 🆔 cchisl ✅ 2025-02-24",
+                "body": [],
+                "time": "",
+                "due": "2025-02-24",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Active/Techdot.IO/Techdot.IO.md",
+                "completed": "2025-02-24"
+            },
+            {
+                "id": 390651648,
+                "title": "#task Renew [[techdot.io domain]] Domain ⏫ ⏳ 2025-02-24 📅 2025-02-24 ✅ 2025-02-24",
+                "body": [],
+                "time": "",
+                "due": "2025-02-24",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Active/Techdot.IO/Techdot.IO.md",
+                "completed": "2025-02-24"
             }
         ]
     }

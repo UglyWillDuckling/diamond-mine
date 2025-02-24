@@ -597,6 +597,12 @@ restoring
 refered
 rewrite
 resmon
+rezervacija
+rogaska
+rodendan
+resursi
+ro
+radionica
 status
 ssl
 syncing
@@ -1522,6 +1528,7 @@ savjet
 slucaju
 sublicense
 str
+skola
 doesn
 due
 depends
@@ -2105,6 +2112,10 @@ dow
 declaring
 descriptor
 daj
+datum
+decko
+dan
+doga
 work
 workin
 waiting
@@ -3754,6 +3765,8 @@ predictions
 pGTKZy
 pocisti
 pursuant
+plesa
+potrazi
 on
 out
 other
@@ -4125,6 +4138,10 @@ onmessage
 occupies
 openpgp
 optimization
+odmor
+orphaned
+organizirati
+okolici
 for
 file
 folders
@@ -5058,6 +5075,7 @@ Specifically
 Systems
 Slash
 Snapshots
+Spa
 Persona
 Portuguese
 Parisians
@@ -5495,6 +5513,7 @@ Pool
 PAM
 Pluggable
 Poly
+Pizza
 mail
 migrate
 mark
@@ -5969,6 +5988,7 @@ maintains
 mechanisms
 mgpFNP
 mixed
+mine
 copy
 connect
 contain
@@ -6767,6 +6787,8 @@ closing
 cautious
 casting
 conversions
+cchisl
+cloudflare
 error
 extremely
 existed
@@ -7237,6 +7259,8 @@ edits
 enforce
 executes
 explicit
+electron
+endan
 is
 in
 issue
@@ -7764,6 +7788,8 @@ ide
 investigating
 ipv
 integers
+ideje
+internetu
 Next
 Now
 Network
@@ -9372,6 +9398,7 @@ bronze
 broker
 backups
 beta
+bjv
 FFB
 French
 France
@@ -10789,6 +10816,7 @@ authenticator
 annually
 afile
 appending
+aktivnosti
 had
 his
 houses
@@ -12146,6 +12174,7 @@ OpenTelemtry
 Obtain
 OpenPAM
 OZBwNh
+Onda
 version
 very
 volume
@@ -13929,6 +13958,7 @@ Barring
 Burns
 Bert
 Backups
+Brodu
 In
 Indian
 Italy
@@ -15142,6 +15172,8 @@ gided
 gpg
 greenend
 grep
+gosti
+grupne
 zadaci
 zeguel
 za
@@ -15280,6 +15312,7 @@ zyF
 zPI
 zatrazio
 zsync
+zanimljive
 je
 jesu
 jos
@@ -16548,6 +16581,9 @@ kickstart
 koa
 krb
 kraja
+karting
+kuglanje
+kombinirali
 xethred
 xml
 xmlns
@@ -16933,6 +16969,7 @@ KDEs
 Khalid
 Kerberos
 KRB
+Kreativni
 Vault
 VCard
 Video

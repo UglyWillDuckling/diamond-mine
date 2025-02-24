@@ -7,7 +7,7 @@
 [[2024-07-22]]
 
 ## What are objects?
-![[Atlas/Knowledge/concepts/CS/OOP/smalltalk/lawyer.png]]
+![[Atlas/Knowledge/Knowledge/concepts/CS/OOP/smalltalk/lawyer.png]]
  
 `Correspondence between our perception of the world and its representation in machine terms through Smalltalk gets at the heart of Smalltalk's power.`
 

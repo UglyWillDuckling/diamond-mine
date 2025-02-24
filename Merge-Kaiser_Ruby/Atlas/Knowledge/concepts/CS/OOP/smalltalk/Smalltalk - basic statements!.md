@@ -118,7 +118,7 @@ s := FillInTheBlank request: 'Enter line'.
 	].
 ^f.
 ```
-![[Atlas/Knowledge/concepts/CS/OOP/smalltalk/ascii char count draw]]
+![[Atlas/Knowledge/Knowledge/concepts/CS/OOP/smalltalk/ascii char count draw]]
 The example emphasizes the similarities of Pascal and Smalltalk syntax. The algorithm
 used is identical in both cases. The input characters are examined one at a time and if they
 are characters, the frequency counter for that letter is incremented.

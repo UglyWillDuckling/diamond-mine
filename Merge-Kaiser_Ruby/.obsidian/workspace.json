@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "fcb5379e2b95290f",
+        "id": "2caf33aea82977d3",
         "type": "tabs",
         "children": [
           {
-            "id": "e9935ec7f3c9eff0",
+            "id": "ba6bc23155675dc6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/Ongoing/Studying Python/Studying Python.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Studying Python"
-            }
-          },
-          {
-            "id": "a4812db2fb1f2206",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python Conversion.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python Conversion"
-            }
-          },
-          {
-            "id": "f1a3ed42e06353cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/pacmanTips and tricks - ArchWiki.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pacmanTips and tricks - ArchWiki"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -77,12 +44,12 @@
             }
           },
           {
-            "id": "af2e98ca87193aed",
+            "id": "53e419fd8d9494ea",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#task",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +61,7 @@
             }
           },
           {
-            "id": "af2610505c2c0537",
+            "id": "369d6f3ac727bb90",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -104,31 +71,10 @@
             }
           }
         ]
-      },
-      {
-        "id": "8401a1fa9068e097",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "263928e57e29771b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/IPv4 vs IPv6 - Difference Between Internet Protocol Versions - AWS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IPv4 vs IPv6 - Difference Between Internet Protocol Versions - AWS"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 441.5,
-    "collapsed": true
+    "width": 499.51103591918945
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -144,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/daily/2025-01-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +99,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-01-09"
+              "title": "Backlinks"
             }
           },
           {
@@ -172,7 +117,21 @@
             }
           },
           {
-            "id": "ff545fb0d4a79b51",
+            "id": "732b3c2921195d4b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "e391705350c567f1",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -182,44 +141,53 @@
             }
           },
           {
-            "id": "732b3c2921195d4b",
+            "id": "55fe5da9bd49ac30",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "tag",
               "state": {
-                "file": "Python Conversion.md",
-                "followCursor": false,
+                "sortOrder": "frequency",
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-list",
-              "title": "Outline of Python Conversion"
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
-            "id": "a169d4801b25125c",
+            "id": "5c84a53a3efc7a68",
             "type": "leaf",
             "state": {
-              "type": "khoj-chat-view",
+              "type": "juggl_nodes",
               "state": {},
-              "icon": "message-circle",
-              "title": "Khoj Chat"
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "1530d74fd1fa5492",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 584.5,
+    "width": 476.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "chronology:Open Chronology": true,
-      "quickadd:QuickAdd": true,
-      "obsidian-book-search-plugin:Create new book note": true,
-      "templater-obsidian:Templater": true,
+      "obsidian42-brat:BRAT": true,
+      "task-board:Open task board": false,
+      "juggl:Juggl global graph": true,
+      "templater-obsidian:Templater": false,
       "obsidian-kanban:Create new board": false,
       "obsidian-media-db-plugin:Add new Media DB entry": true,
       "switcher:Open quick switcher": true,
@@ -227,60 +195,55 @@
       "canvas:Create new canvas": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "workspaces:Manage workspace layouts": false,
-      "obsidian42-brat:BRAT": true,
-      "obsidian-day-and-night:Toggle Theme": false,
       "obsidian-importer:Open Importer": false,
-      "juggl:Juggl global graph": true,
-      "obsidian-projects:Open projects": false,
+      "obsidian-day-and-night:Toggle Theme": false,
+      "chronology:Open Chronology": true,
+      "markwhen:Create new Markwhen file": true,
       "daily-notes:Open today's daily note": false,
-      "khoj:Khoj": false
+      "obsidian-projects:Open projects": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a4812db2fb1f2206",
+  "active": "ba6bc23155675dc6",
   "lastOpenFiles": [
-    "Efforts/Ongoing/Studying Python/Studying Python.md",
     "Python Conversion.md",
-    "Efforts/Ongoing/PC Maintenance/MaintenancePC.md",
+    "Calendar/daily/2025-02-24.md",
+    "Clippings/Arch Linux - moreutils 0.70-1 (x86_64).md",
     "Master Task List.md",
-    "Clippings/pacmanTips and tricks - ArchWiki.md",
-    "Clippings/IPv4 vs IPv6 - Difference Between Internet Protocol Versions - AWS.md",
-    "Calendar/daily/2025/2025-02-24-Mon.md",
-    "Efforts/Ongoing/VPS/second VPS.md",
-    "+/email.md",
-    "How To show special chars in Vim.md",
-    "Article Rating.md",
-    "Atlas/Knowledge/Knowledge/Articles/What are DMARC, DKIM, and SPF.md",
-    "Atlas/Tools/obsidian/plugins/dataview.md",
-    "Atlas/Knowledge/repository/DomainKeys Identified Mail (DKIM).md",
-    "+/DKIM.md",
-    "DomainKeys Identified Mail (DKIM).md",
-    "Atlas/Knowledge/SPF.md",
-    "Efforts/Active/Techdot.IO/Techdot.IO.md",
-    "Efforts/Active/Kuca/Kuca.md",
-    "Efforts/Active/Deno Web Server Exploration.md",
-    "Efforts/Active/Techdot.IO",
-    "Efforts/Ongoing/Studying Python/Python Boolean Logic.md",
-    "Efforts/Ongoing/Studying Python/Python printing.md",
-    "Efforts/Ongoing/Studying Python/Python Arithmetic.md",
-    "techdot.io.md",
-    "Clippings/Execute Program.md",
-    "Efforts/Ongoing/Studying Python/Untitled",
-    "Efforts/Ongoing/Studying Python",
-    "Clippings/Balon klub Zagreb.md",
-    "x",
-    "notes",
+    "Atlas/Knowledge/Knowledge/howtos/what is running on port ??.md",
+    "Atlas/Knowledge/Knowledge/Places/Kuća tambure.md",
+    "Atlas/Knowledge/Knowledge/Articles/Articles.md",
+    "Atlas/Knowledge/Knowledge/Books/Books.md",
+    "Atlas/Knowledge/Knowledge/howtos/howtos.md",
+    "Atlas/Knowledge/Knowledge/People/People.md",
+    "Atlas/Knowledge/Knowledge/Places/Places.md",
+    "Atlas/Knowledge/howtos/How To show special chars in Vim.md",
+    "su command.md",
+    "new.md",
+    "Odrzavanja kuce.md",
     "tasks canvas.canvas",
-    "~/×/Ponuda_Persona-Wordpress.pdf",
-    "~/×/Persona-home-v1.jpeg",
-    "~/%",
-    "~/@",
-    "~/!",
-    "~/×/20241221_132354.jpg",
-    "Efforts/Active/Senka/Wordpress",
-    "Knowledge/concepts/CS/OOP/smalltalk/lawyer.png",
-    "Knowledge/concepts/CS/OOP/smalltalk/Smalltalk connections.canvas",
+    "Atlas/Dev/notes/Golden Topaz is great for reading.md",
+    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+    "Efforts/Active/Persona/persona ssl cronjob.md",
+    "Efforts/Master Task List.md",
+    "Atlas/Tools/Hostinger Backup.md",
+    "Atlas/Knowledge/howtos/how to change the hostname on a linux machie.md",
+    "Atlas/Dev/notes/fixing the bad shell path issue.md",
+    "dash 💨.md",
+    "Atlas/Tools/pc/Hostinger Snapshot.md",
+    "Efforts/Active/Persona/certificate renewal.md",
+    "Atlas/Knowledge/howtos/certbot renew process.md",
+    "Efforts/Ongoing/PC Maintenance/docs",
+    "howot",
+    "Efforts/Active/Kuca/docs/dokumenti x/Elektronicki_zapis-radna_knjizica.pdf",
+    "Efforts/Ongoing/VPS",
     "Yin-Yang/resources/logo.svg",
+    "Efforts/Active/Kuca/docs/dokumenti x/Potvda o blokadi računa i novčanih sredstava.pdf",
+    "Yin-Yang/yin_yang/ui/resources_rc.py",
+    "Yin-Yang/yin_yang/ui/main_window_connector.py",
+    "Yin-Yang/yin_yang/ui/main_window.py",
+    "Yin-Yang/yin_yang/ui/__init__.py",
+    "Yin-Yang/yin_yang/plugins/wallpaper.py",
     "tasks pic.canvas",
     "~/×/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"

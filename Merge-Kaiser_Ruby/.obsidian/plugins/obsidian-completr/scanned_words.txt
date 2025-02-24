@@ -596,6 +596,7 @@ ratified
 restoring
 refered
 rewrite
+resmon
 status
 ssl
 syncing
@@ -1517,6 +1518,10 @@ sss
 similiar
 stdin
 shebang
+savjet
+slucaju
+sublicense
+str
 doesn
 due
 depends
@@ -2099,6 +2104,7 @@ dom
 dow
 declaring
 descriptor
+daj
 work
 workin
 waiting
@@ -2381,6 +2387,7 @@ wire
 wil
 wild
 weekday
+wFvjtU
 to
 task
 the
@@ -2888,6 +2895,10 @@ transferring
 transfers
 transmitting
 talkative
+tjedan
+tlnp
+tasklist
+tuple
 previewLink
 persona
 plugin
@@ -3741,6 +3752,8 @@ passwd
 parser
 predictions
 pGTKZy
+pocisti
+pursuant
 on
 out
 other
@@ -4523,6 +4536,9 @@ fmt
 flair
 fancy
 fsdfd
+findstr
+fuser
+fundamentally
 Setup
 Sri
 Spanish
@@ -5478,6 +5494,7 @@ Patch
 Pool
 PAM
 Pluggable
+Poly
 mail
 migrate
 mark
@@ -5950,6 +5967,8 @@ mimic
 multiples
 maintains
 mechanisms
+mgpFNP
+mixed
 copy
 connect
 contain
@@ -6745,6 +6764,9 @@ cronjobs
 crontabs
 charaters
 closing
+cautious
+casting
+conversions
 error
 extremely
 existed
@@ -7214,6 +7236,7 @@ expiry
 edits
 enforce
 executes
+explicit
 is
 in
 issue
@@ -7737,6 +7760,10 @@ interventation
 infrastructure
 incorporation
 intervals
+ide
+investigating
+ipv
+integers
 Next
 Now
 Network
@@ -7957,6 +7984,7 @@ NotFound
 NetBSD
 Norman
 NSS
+Netstat
 Directories
 During
 Dutch
@@ -8325,6 +8353,7 @@ Department
 Dempsey
 Debra
 DragonFly
+Different
 Working
 World
 With
@@ -8891,6 +8920,9 @@ Towards
 Troy
 Temporarily
 Thrice
+Tasklist
+Trademark
+Torvalds
 background
 between
 br
@@ -10158,6 +10190,8 @@ Char
 Comma
 Crontabs
 CGI
+Conversions
+Casting
 all
 again
 and
@@ -11343,6 +11377,7 @@ nofollow
 naive
 newsgroup
 nMfbCO
+netstat
 using
 useful
 until
@@ -11895,6 +11930,7 @@ Grsync
 Gzip
 Gilbert
 Granting
+Griffin
 Obisdian
 Origins
 Obtaining
@@ -12109,6 +12145,7 @@ ObservableGauge
 OpenTelemtry
 Obtain
 OpenPAM
+OZBwNh
 version
 very
 volume
@@ -12819,6 +12856,7 @@ AIX
 Authorization
 Allowed
 Asterisk
+Aaron
 Muslim
 Mecca
 Mail
@@ -13553,6 +13591,8 @@ logos
 librsync
 latency
 ldap
+lsof
+licensee
 By
 Baba
 Budan
@@ -14146,6 +14186,7 @@ Implement
 Implementations
 Integrating
 Implementing
+Incompatible
 European
 Europe
 Example
@@ -14417,6 +14458,7 @@ EventSource
 EED
 Elsevier
 Executable
+Explicit
 Lanka
 Let
 Looks
@@ -14665,6 +14707,9 @@ LiPickaxe
 Layer
 LDAP
 LiBadgeMinus
+Levente
+LMI
+Linus
 Java
 Job
 JMBAG
@@ -14826,6 +14871,7 @@ JHV
 Jetbrains
 Jun
 Johns
+Judd
 growing
 getting
 guide
@@ -15095,6 +15141,7 @@ getElementById
 gided
 gpg
 greenend
+grep
 zadaci
 zeguel
 za
@@ -15902,6 +15949,8 @@ Replication
 Ramsey
 Reboot
 Required
+Regice
+RPQKX
 your
 you
 yet
@@ -16498,6 +16547,7 @@ koncetracija
 kickstart
 koa
 krb
+kraja
 xethred
 xml
 xmlns
@@ -17032,6 +17082,7 @@ Void
 Values
 VSS
 Valid
+Vinet
 Quiz
 QA
 Questions

@@ -445,7 +445,7 @@
       "excludedNotes": [
         ""
       ],
-      "isDefault": false,
+      "isDefault": true,
       "dataSource": {
         "kind": "tag",
         "config": {
@@ -656,41 +656,6 @@
       ],
       "id": "e678b1c8-25a5-43f6-85ff-7ff2090867d9",
       "name": "Wordpress"
-    },
-    {
-      "fieldConfig": {},
-      "defaultName": "",
-      "templates": [],
-      "excludedNotes": [],
-      "isDefault": true,
-      "dataSource": {
-        "kind": "folder",
-        "config": {
-          "path": "Efforts/Active/Senka/Wordpress",
-          "recursive": false
-        }
-      },
-      "newNotesFolder": "",
-      "views": [
-        {
-          "config": {},
-          "filter": {
-            "conjunction": "and",
-            "conditions": []
-          },
-          "colors": {
-            "conditions": []
-          },
-          "sort": {
-            "criteria": []
-          },
-          "id": "66458270-1cc1-4141-b39c-e3c909e5bf45",
-          "name": "Table",
-          "type": "table"
-        }
-      ],
-      "id": "947b3015-c440-4264-a957-6d2c4aff2f48",
-      "name": "Persona Wordpress"
     }
   ],
   "archives": [],

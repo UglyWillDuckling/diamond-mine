@@ -1,14 +1,10 @@
 {
   "theme": "obsidian",
-  "cssTheme": "Minimal",
+  "cssTheme": "Golden Topaz",
   "accentColor": "#e67a33",
   "baseFontSizeAction": true,
   "baseFontSize": 16,
   "enabledCssSnippets": [
-    "Cards",
-    "remove_table_padding_dv",
-    "tasks_padding",
-    "tree_padding",
-    "dataview-margin-remove"
+    "Cards"
   ]
 }

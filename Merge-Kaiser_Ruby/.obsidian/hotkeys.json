@@ -187,14 +187,5 @@
       ],
       "key": "S"
     }
-  ],
-  "editor:delete-paragraph": [],
-  "workspace:split-vertical": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "V"
-    }
   ]
 }

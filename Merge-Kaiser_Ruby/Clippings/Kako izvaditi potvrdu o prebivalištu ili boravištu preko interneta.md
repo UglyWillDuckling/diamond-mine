@@ -8,7 +8,7 @@ tags:
   - howto/article
   - howto/gov
 ---
-- [ ] remind me (@2025-02-25 19:28)
+- [x] remind me (@2025-02-24)
 ---
 
 Vodič je stariji od 2 godine i možda nije u **potpunosti aktualan**.

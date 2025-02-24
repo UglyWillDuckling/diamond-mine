@@ -2,4 +2,4 @@
 
 [[Golden Topaz Theme]]
 
-- [ ] remind (@2025-03-02)
+- [x] remind (@2025-02-16)

@@ -1,0 +1,3 @@
+#domain/mine
+
+registrar:: [[Namecheap]]

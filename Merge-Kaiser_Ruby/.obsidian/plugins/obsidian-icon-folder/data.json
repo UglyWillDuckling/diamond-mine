@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🖥",
+      "LiDotSquare",
       "👩‍🏫",
       "LiTimerReset",
-      "LiCookingPot",
-      "🗄",
-      "LiHammer"
+      "LiCookingPot"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,6 +34,11 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
+  "notes/questions?": {
+    "iconName": "LiQuestionMarkGlyph",
+    "iconColor": "#ff7e14"
+  },
+  "notes/questions?/what is the real difference between folders and tags?.md": "LiFolders",
   "Efforts/tasks": "LiCheckSquare2",
   "Efforts": "LiWeight",
   "Calendar/days": "LiCalendar",
@@ -66,6 +71,100 @@
   "Efforts/Undefined/Office Tasks.md": "🗄",
   "Efforts/Ongoing/PC Maintenance/docs": "LiLibraryBig",
   "~/×/Notion database views in Obsidian Projects.md": "📹",
+  "notes/dev": {
+    "iconName": "LiKeyboard",
+    "iconColor": "#716a6a"
+  },
+  "notes/archive": "LiArchive",
+  "notes/archive/I should encrypt folders.md": "LiCode",
+  "notes/archive/having a question list is a good idea.md": {
+    "iconName": "LiQuestionMarkGlyph",
+    "iconColor": "#e7cb13"
+  },
+  "Life": "🗺",
+  "notes/it's not easy to become one with 2 minds.md": "🎗",
+  "notes/archive/grupirati taskove, dane i slicno.md": {
+    "iconName": "LiGroup",
+    "iconColor": "#c2147a"
+  },
+  "Life/Faks": "🎒",
+  "notes/obsidian": "LiDiamond",
+  "notes/obsidian/theme settings and the like.md": {
+    "iconName": "LiPictureInPicture2",
+    "iconColor": "#d336b6"
+  },
+  "notes/archive/canvas tool is much better than it first appeared.md": {
+    "iconName": "LiPencilRuler",
+    "iconColor": "#2ac4cf"
+  },
+  "Life/Faks/TODO's": "LiListTodo",
+  "Life/Faks/TODO's/nova godina": "⏭",
+  "Life/Faks/TODO's/nova godina/organizirati Obsidian.md": "♦",
+  "Life/Faks/TODO's/nova godina/poslati mailove za upis na predmete.md": "📧",
+  "Life/Faks/Predmeti/Matematika": "🔢",
+  "Life/Faks/Predmeti/Matematika/todos": "LiCheckSquare2",
+  "Life/Faks/Predmeti/Digitalna": "LiCircuitBoard",
+  "Life/Faks/Predmeti/Digitalna/digitalan elektronika.md": "LiFileDigit",
+  "Life/Faks/Predmeti/Digitalna/todos": "LiCheckSquare2",
+  "Life/Faks/Predmeti/Digitalna/todos/finish the college setup.md": "LiBook",
+  "Life/Faks/Zanimljivo": "LiPointer",
+  "notes/obsidian/obsidian might be better managed via tags.md": "LiTag",
+  "notes/archive/daily planner looks great.md": "LiCheckSquare2",
+  "days/2024/2024-10-27.md": {
+    "iconName": "LiCalendar",
+    "iconColor": "#c6942a"
+  },
+  "days/2024/2024-11-02.md": {
+    "iconName": "LiCalendarFold",
+    "iconColor": "#fff714"
+  },
+  "Knowledge/concepts": "🤔",
+  "Knowledge/questions": "LiQuestionMarkGlyph",
+  "Knowledge/repository": "📪",
+  "Knowledge/tools": "🧰",
+  "Knowledge/concepts/CS": "💽",
+  "Knowledge/repository/dev": {
+    "iconName": "LiComputer",
+    "iconColor": "#31c1c4"
+  },
+  "Knowledge/tools/obsidian": "LiDiamond",
+  "Knowledge/tools/pc": "LiPcCase",
+  "Knowledge/repository/dev/cronie is required for cron to work.md": "LiTimer",
+  "Knowledge/repository/dev/mermaid examples.md": {
+    "iconName": "LiFish",
+    "iconColor": "#db1a9e"
+  },
+  "Knowledge/tools/pc/cron.md": "LiTimerReset",
+  "Knowledge/tools/pc/mods": "🪄",
+  "Knowledge/tools/pc/mods/mods --setttings.md": "🤖",
+  "Knowledge/Books": "📚",
+  "Knowledge/Articles": "✍",
+  "Knowledge/Articles/archive": "LiArchiveX",
+  "Knowledge/Articles/archive/Tech is no substitute for depth 🤔.md": "🤖",
+  "Knowledge/Books/Never Let Me Go.md": "📘",
+  "Knowledge/templates": "LiBookTemplate",
+  "task board.md": {
+    "iconName": "LiListTodo",
+    "iconColor": "#b73838"
+  },
+  "notes/archive/ranger is actually quite good.md": "🏇",
+  "notes/archive/we could use Kanban for more than tasks.md": "LiCircuitBoard",
+  "Efforts/tasks/archive/archive/add some questions.md": "LiQuestionMarkGlyph",
+  "Efforts/tasks/archive/archive/fix shortcuts on PC.md": "🩳",
+  "Efforts/tasks/archive/archive/review Hugama studio.md": {
+    "iconName": "LiPaintbrush",
+    "iconColor": "#3086b0"
+  },
+  "Efforts/tasks/archive/archive/see why yay won't update.md": "🌌",
+  "Knowledge": {
+    "iconName": "LiBrain",
+    "iconColor": "#29c797"
+  },
+  "Knowledge/Media": {
+    "iconName": "LiTvMinimalPlay",
+    "iconColor": "#f561a8"
+  },
+  "Knowledge/Media/movies": "🎥",
   "Efforts/Active/Senka/Persona": "LiPersonStanding",
   "Efforts/Active/Senka/Persona/Docs": "LiFolders",
   "Efforts/Active/Senka/Persona/Tickets": "LiTicket",
@@ -76,5 +175,7 @@
   "Efforts/Active/Senka/Persona/archive/archive/persona ssl setup.md": "LiKeyRound",
   "Efforts/Active/Senka/Persona/archive/archive/setup Persona VPS.md": "LiServer",
   "Efforts/Active/Senka/Persona/Docs/Dev/Wordpress/wp_users.md": "LiPersonStanding",
-  "Efforts/Active/Senka": "👩‍🏫"
+  "Efforts/Active/Senka": "👩‍🏫",
+  "Efforts/Active/Techdot.IO": "LiDotSquare",
+  "Efforts/Active/Personal VPS": "🖥"
 }

@@ -4,7 +4,7 @@
 
 about:: [[Deno]], [[Deno Web Server]]
 
-- [x] #task Explore [[Deno Web Server]] ⏳ 2025-02-12 📅 2025-02-14 🆔 2ieFkV ✅ 2025-02-14
+- [x] #task Explore [[Deno Web Server]] ⏳ 2025-02-12 📅 2025-02-14 🆔 2ieFkV ✅ 2025-02-14 #dev #fun
 	- [ ]  look at [[oak framework|oak]]
 ___
 ## oak

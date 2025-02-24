@@ -8,4 +8,4 @@ tags:
 instaliran je **alat** [[Atlas/Tools/libgen-downloader|libgen-downloader]]
 
 - [x] remind me (@2025-01-27 22:41)
-- [ ] monthly reminder (@2025-02-24)
+- [ ] monthly reminder (@2025-02-25 15:42)

@@ -1,6 +1,6 @@
 #vps #vps/personal #vps/hostinger
 
-related:: [[hostinger]]
+hosting:: [[hostinger]]
 ___
 
 - [x] #task pogledaj 2 godine [[hostinger]] hostinga + Fireship 10% popust #tiny 🔼 ⏳ 2025-02-11 📅 2025-02-11
@@ -14,3 +14,5 @@ domain:: srv722492.hstgr.cloud
 location:: [[Germany]]
 OS: [[Arch Linux]]
 domain_url:: http:://srv722492.hstgr.cloud
+
+Uzeto na 2 godine. Istice: 2027.

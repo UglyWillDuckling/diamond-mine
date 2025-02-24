@@ -10,8 +10,7 @@ datum: 2025-03-16
 
 [[Za svakoga ponešto! Ako planirate vikend provesti u Zagrebu, imamo popis atrakcija koje morate posjetiti - Putni Kofer]]
 
-___
-## rođendan [[Mirna 💕💕💕]]
+___## rođendan [[Mirna 💕💕💕]]
 
 - [/] #task organizirati **rođendan** ⏫ ⏳ 2025-02-24 📅 2025-03-05 🆔 k81bjv
 
@@ -30,9 +29,11 @@ ___
 - ? skola plesa
 - **Spa** 
 - [[petnja]] + [[Uno restoran]]
-- 
+- **kuglanje** 
 
 Onda bi kombinirali **više aktivnosti** i napravili cijeli plan za taj dan a možda i više…
 
 - [ ] potrazi  na **internetu** zanimljive aktivnosti u okolici
 - [ ] provjeriti događanja u Brodu u isto vrijeme
+
+[[Balon klub Zagreb]]

@@ -61,8 +61,8 @@ Arch's package manager *pacman* can install, update, and remove those packages. 
 
 To install a single package or list of packages, including dependencies, issue the following command:
 
-```
-# pacman -S package_name1 package_name2 ...
+```sh
+pacman -S package_name1 package_name2
 ```
 
 To install a list of packages with regex (see [this forum thread](https://bbs.archlinux.org/viewtopic.php?id=7179)):
@@ -73,14 +73,14 @@ pacman -S $(pacman -Ssq package_regex)
 
 Sometimes there are multiple versions of a package in different repositories (e.g. *extra* and *testing*). To install the version from the *extra* repository in this example, the repository needs to be defined in front of the package name:
 
-```
+```sh
 pacman -S extra/package_name
 ```
 
 To install a number of packages sharing similar patterns in their names, one can use curly brace expansion. For example:
 
-```
-# pacman -S plasma-{desktop,mediacenter,nm}
+```sh
+pacman -S plasma-{desktop,mediacenter,nm}
 ```
 
 This can be expanded to however many levels needed:
@@ -133,42 +133,42 @@ Also visit [https://archlinux.org/groups/](https://archlinux.org/groups/) to see
 
 To remove a single package, leaving all of its dependencies installed:
 
-```
-# pacman -R package_name
+```sh
+pacman -R package_name
 ```
 
-To remove a package and its dependencies which are not required by any other installed package:
+To remove a **package and its dependencies** which are not required by any other installed package:
 
-```
-# pacman -Rs package_name
+```sh
+pacman -Rs package_name
 ```
 
 **Warning:** When removing a group, such as *gnome*, this ignores the install reason of the packages in the group, because it acts as though each package in the group is listed separately. Install reason of dependencies is still respected.
 
 The above may sometimes refuse to run when removing a group which contains otherwise needed packages. In this case try:
 
-```
-# pacman -Rsu package_name
+```sh
+pacman -Rsu package_name
 ```
 
-To remove a package, its dependencies and all the packages that depend on the target package:
+**To remove a package, its dependencies and all the packages that depend on the target package**:
 
-**Warning:** This operation is recursive, and must be used with care since it can remove many potentially needed packages.
+⚠**Warning:** This operation is recursive, and must be used with care since it can remove many potentially needed packages.
 
-```
-# pacman -Rsc package_name
+```sh
+pacman -Rsc package_name
 ```
 
 To remove a package, which is required by another package, without removing the dependent package:
 
-```
-# pacman -Rdd package_name
+```sh
+pacman -Rdd package_name
 ```
 
 *Pacman* saves important configuration files when removing certain applications and names them with the extension: *.pacsave*. To prevent the creation of these backup files use the `-n` option:
 
-```
-# pacman -Rn package_name
+```sh
+pacman -Rn package_name
 ```
 
 **Note:** *Pacman* will not remove configurations that the application itself creates (for example "dotfiles" in the home directory).
@@ -182,13 +182,13 @@ To remove a package, which is required by another package, without removing the 
 
 *Pacman* can update all packages on the system with just one command. This could take quite a while depending on how up-to-date the system is. The following command synchronizes the repository databases *and* updates the system's packages, excluding "local" packages that are not in the configured repositories:
 
-```
-# pacman -Syu
+```sh
+pacman -Syu
 ```
 
 ### Querying package databases ^querying
-- [x] remind me (@2025-02-03 19:37)
-- [ ] monthly (@2025-02-24)
+- [x] monthly (@2025-02-24)
+- [x] monthly (@2025-03-24)
 
 *Pacman* queries the **local package database** with the `-Q` flag, the sync database with the `-S` flag and the files database with the `-F` flag. See `pacman -Q --help`, `pacman -S --help` and `pacman -F --help` for the respective suboptions of each flag.
 
@@ -200,14 +200,14 @@ pacman -Ss string1 string2 ...
 
 Sometimes, `-s`'s builtin ERE (Extended Regular Expressions) can cause a lot of unwanted results, so it has to be **limited** to match the package name only; not the description nor any other field:
 
-```
-$ pacman -Ss '^vim-'
+```sh
+pacman -Ss '^vim-'
 ```
 
 To search **installed** packages:
 
-```
-$ pacman -Qs string1 string2 ...
+```sh
+pacman -Qs string1 string2 ...
 ```
 
 To search for package file **names** in **remote** packages:
@@ -218,14 +218,14 @@ $ pacman -F string1 string2 ...
 
 To display extensive information about a given package (e.g. its dependencies):
 
-```
-$ pacman -Si package_name
+```sh
+pacman -Si package_name
 ```
 
 For locally **installed** packages:
 
-```
-$ pacman -Qi package_name
+```sh
+pacman -Qi package_name
 ```
 
 Passing two `-i` flags will also display the list of backup files and their modification states:
@@ -268,14 +268,14 @@ $ pacman -F /path/to/file_name
 
 To list all packages no longer required as dependencies (orphans):
 
-```
-$ pacman -Qdt
+```sh
+pacman -Qdt
 ```
 
 To list all packages explicitly installed and not required as dependencies:
 
-```
-$ pacman -Qet
+```sh
+pacman -Qet
 ```
 
 See [pacman/Tips and tricks](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks "Pacman/Tips and tricks") for more examples.

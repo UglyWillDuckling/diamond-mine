@@ -1,51 +1,38 @@
 ---
 title: What are DMARC, DKIM, and SPF?
-source: https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/
-author: 
-published: 
 created: 2025-01-04
-description: SPF, DKIM, and DMARC help prevent spam and authenticate email senders by verifying where emails come from. Learn how SPF, DKIM, and DMARC work.
-tags:
-  - clippings
-  - email
-  - validation
+source: https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/
 related:
-  - "[[+/DKIM]]"
   - "[[DMARC]]"
   - "[[+/SPF]]"
   - "[[setup mail server trial]]"
+  - "[[DomainKeys Identified Mail (DKIM)|DKIM]]"
+tags:
+  - article/email
+rating: 18
 ---
 ## What are DMARC, DKIM, and SPF?
 
 DMARC, DKIM, and SPF are three email [authentication](https://www.cloudflare.com/learning/access-management/what-is-authentication/) methods. Together, they help prevent spammers, [phishers](https://www.cloudflare.com/learning/access-management/phishing-attack/), and other unauthorized parties from sending [emails](https://www.cloudflare.com/learning/email-security/what-is-email/) on behalf of a [domain](https://www.cloudflare.com/learning/dns/glossary/what-is-a-domain-name/)\* they do not own.
 
-DKIM and SPF can be compared to a business license or a doctor's medical degree displayed on the wall of an office — they help demonstrate legitimacy.
+[[DKIM]] and [[SPF]] can be compared to a business license or a doctor's medical degree displayed on the wall of an office — they help demonstrate legitimacy.
 
-Meanwhile, DMARC tells mail servers what to do when DKIM or SPF fail, whether that is marking the failing emails as "[spam](https://www.cloudflare.com/learning/email-security/how-to-stop-spam-emails/)," delivering the emails anyway, or dropping the emails altogether.
+Meanwhile, [[DMARC]] tells mail servers what to do when DKIM or SPF fail, whether that is marking the failing emails as "[spam](https://www.cloudflare.com/learning/email-security/how-to-stop-spam-emails/)," delivering the emails anyway, or dropping the emails altogether.
 
 Domains that have not set up SPF, DKIM, and DMARC correctly may find that their emails get quarantined as spam, or are not delivered to their recipients. They are also in danger of having spammers impersonate them.
 
 \**A domain, roughly speaking, is a website address like "example.com". Domains form the second half of an email address: alice@example.com, for instance.*
 
-Report
+## **How does SPF work?**
 
-2023 Phishing Threats Report
-
-  
-
-Report
-
-Read the Q4 2023 DDoS Threat Landscape Report
-
-## How does SPF work?
-
-Sender Policy Framework (SPF) is a way for a domain to list all the servers they send emails from. Think of it like a publicly available employee directory that helps someone to confirm if an employee works for an organization.
+Sender Policy Framework (SPF) is a way for a domain to **list all the servers** they send emails from. 
+Think of it like a publicly available employee directory that helps someone to confirm if an employee works for an organization.
 
 [SPF records](https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/) list all the [IP addresses](https://www.cloudflare.com/learning/dns/glossary/what-is-my-ip-address/) of all the servers that are allowed to send emails from the domain, just as an employee directory lists the names of all employees for an organization. Mail servers that receive an email message can check it against the [[+/SPF]] record before passing it on to the recipient's inbox.
 
-## How does DKIM work?
+## **How does DKIM work?**
 
-DomainKeys Identified Mail (DKIM) enables domain owners to automatically "sign" emails from their domain, just as the signature on a check helps confirm who wrote the check. The DKIM "signature" is a digital signature that uses cryptography to mathematically verify that the email came from the domain.
+[[DomainKeys Identified Mail (DKIM)]] enables domain owners to automatically "sign" emails from their domain, just as the signature on a check helps confirm who wrote the check. The DKIM "signature" is a digital signature that uses cryptography to mathematically verify that the email came from the domain.
 
 Specifically, DKIM uses [public key cryptography](https://www.cloudflare.com/learning/ssl/how-does-public-key-encryption-work/):
 

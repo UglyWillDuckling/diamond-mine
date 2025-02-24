@@ -17,7 +17,6 @@
   "obsidian-kanban",
   "obsidian-media-db-plugin",
   "reading-comments",
-  "double-switch",
   "obsidian-clipper",
   "text-extractor",
   "templater-obsidian",
@@ -46,5 +45,7 @@
   "vim-yank-highlight",
   "workspaces-plus",
   "obsidian-tagfolder",
-  "obsidian-annotator"
+  "obsidian-annotator",
+  "canvas-send-to-back",
+  "khoj"
 ]

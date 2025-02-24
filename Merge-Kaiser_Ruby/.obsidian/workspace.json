@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/daily/2025-02-24.md",
+                "file": "Calendar/daily/2025/2025-02-24-Mon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-24"
+              "title": "2025-02-24-Mon"
             }
           }
         ]
@@ -211,6 +211,8 @@
   "active": "a5047b23ac5a5f5c",
   "lastOpenFiles": [
     "Mirna 30ti rođendan.md",
+    "Calendar/daily/2025-02-24.md",
+    "Calendar/daily/2025/2025-02-24-Mon.md",
     "Master Task List.md",
     "dash 💨.md",
     "Atlas/Knowledge/howtos/how to check DNS info.md",
@@ -223,7 +225,6 @@
     "Efforts/Active/Techdot.IO/Techdot.IO.md",
     "Efforts/Active/Techdot.IO/techdot.io domain.md",
     "Efforts/Ongoing/Studying Python/Python Conversion.md",
-    "Calendar/daily/2025-02-24.md",
     "Clippings/Arch Linux - moreutils 0.70-1 (x86_64).md",
     "Atlas/Knowledge/Knowledge/howtos/what is running on port ??.md",
     "Atlas/Knowledge/Knowledge/Places/Kuća tambure.md",
@@ -237,7 +238,6 @@
     "new.md",
     "Odrzavanja kuce.md",
     "tasks canvas.canvas",
-    "Atlas/Dev/notes/Golden Topaz is great for reading.md",
     "Efforts/Ongoing/PC Maintenance/docs",
     "howot",
     "Efforts/Active/Kuca/docs/dokumenti x/Elektronicki_zapis-radna_knjizica.pdf",

@@ -4110,6 +4110,30 @@
                 "filePath": "Efforts/Active/Techdot.IO/Techdot.IO.md",
                 "completed": "2025-02-24"
             }
+        ],
+        "Calendar/daily/2025/2025-02-24-Mon.md": [
+            {
+                "id": 2140964429,
+                "title": "Renew domain",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-02-24-Mon.md",
+                "completed": ""
+            },
+            {
+                "id": 1682797666,
+                "title": "explore python: [[Studying Python]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-02-24-Mon.md",
+                "completed": ""
+            }
         ]
     }
 }

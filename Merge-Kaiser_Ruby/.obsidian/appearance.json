@@ -5,6 +5,10 @@
   "baseFontSizeAction": true,
   "baseFontSize": 16,
   "enabledCssSnippets": [
-    "Cards"
+    "dataview-margin-remove",
+    "remove_folder_icon",
+    "remove_table_padding_dv",
+    "tasks_padding",
+    "tree_padding"
   ]
 }

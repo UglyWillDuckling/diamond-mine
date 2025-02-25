@@ -4,6 +4,8 @@ aliases: []
 tags:
   - task-list
 ---
+- [ ] #task See how difficult it is to setup a local FTP server ⏳ 2025-02-25 📅 2025-03-02 🆔 592cRS
+
 - [x] #task daj Senki savjet da pogleda mail od Regice u slucaju da vec nije #rad 🆔 OZBwNh 🔼 ⏳ 2025-02-24 📅 2025-02-24 ✅ 2025-02-24
 
 - [/] #task Explore **IP addresses** - ipv4, ipv6 🔼 ⏳ 2025-02-22 📅 2025-03-05 🆔 mgpFNP #dev

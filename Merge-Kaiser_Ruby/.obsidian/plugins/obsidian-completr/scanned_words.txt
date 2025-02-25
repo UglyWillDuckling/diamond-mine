@@ -603,6 +603,7 @@ rodendan
 resursi
 ro
 radionica
+raditi
 status
 ssl
 syncing
@@ -1529,6 +1530,7 @@ slucaju
 sublicense
 str
 skola
+sestra
 doesn
 due
 depends
@@ -2116,6 +2118,8 @@ datum
 decko
 dan
 doga
+doktor
+dzsb
 work
 workin
 waiting
@@ -4142,6 +4146,9 @@ odmor
 orphaned
 organizirati
 okolici
+ordinacija
+ordinaciji
+oom
 for
 file
 folders
@@ -5076,6 +5083,8 @@ Systems
 Slash
 Snapshots
 Spa
+Slavonski
+Srijeda
 Persona
 Portuguese
 Parisians
@@ -5514,6 +5523,8 @@ PAM
 Pluggable
 Poly
 Pizza
+Ponedjeljak
+Petak
 mail
 migrate
 mark
@@ -5989,6 +6000,7 @@ mechanisms
 mgpFNP
 mixed
 mine
+med
 copy
 connect
 contain
@@ -6789,6 +6801,7 @@ casting
 conversions
 cchisl
 cloudflare
+cRS
 error
 extremely
 existed
@@ -7262,6 +7275,7 @@ explicit
 electron
 endan
 emotions
+etvrtak
 is
 in
 issue
@@ -7791,6 +7805,7 @@ ipv
 integers
 ideje
 internetu
+inje
 Next
 Now
 Network
@@ -8012,6 +8027,7 @@ NetBSD
 Norman
 NSS
 Netstat
+Nikole
 Directories
 During
 Dutch
@@ -8381,6 +8397,7 @@ Dempsey
 Debra
 DragonFly
 Different
+Doma
 Working
 World
 With
@@ -8950,6 +8967,7 @@ Thrice
 Tasklist
 Trademark
 Torvalds
+Telefon
 background
 between
 br
@@ -9706,6 +9724,7 @@ Freebsd
 Flexible
 Foundation
 Fixed
+FTP
 CA
 Ceylon
 Caribbean
@@ -10220,6 +10239,7 @@ Crontabs
 CGI
 Conversions
 Casting
+Config
 all
 again
 and
@@ -12176,6 +12196,7 @@ Obtain
 OpenPAM
 OZBwNh
 Onda
+Odlaskom
 version
 very
 volume
@@ -12887,6 +12908,7 @@ Authorization
 Allowed
 Asterisk
 Aaron
+Agati
 Muslim
 Mecca
 Mail
@@ -13292,6 +13314,7 @@ Minutes
 Months
 Meaning
 Mes
+Medicinska
 long
 left
 later
@@ -13961,6 +13984,7 @@ Burns
 Bert
 Backups
 Brodu
+Brod
 In
 Indian
 Italy
@@ -14219,6 +14243,7 @@ Implementations
 Integrating
 Implementing
 Incompatible
+Ivana
 European
 Europe
 Example
@@ -15986,6 +16011,7 @@ Reboot
 Required
 Regice
 RPQKX
+Radno
 your
 you
 yet
@@ -16290,6 +16316,8 @@ UpDownCounter
 UnsupportedMediaType
 UDP
 Usenet
+Ulica
+Utorak
 Your
 You
 York
@@ -16586,6 +16614,7 @@ kraja
 karting
 kuglanje
 kombinirali
+kovi
 xethred
 xml
 xmlns
@@ -17122,6 +17151,7 @@ Values
 VSS
 Valid
 Vinet
+Vrijeme
 Quiz
 QA
 Questions
@@ -17353,6 +17383,7 @@ Zsh
 Zorin
 Zstd
 Zlib
+Zrinskog
 XML
 XAMPP
 Xc

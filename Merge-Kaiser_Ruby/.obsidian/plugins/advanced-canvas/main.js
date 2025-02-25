@@ -1683,7 +1683,7 @@ __export(main_exports, {
   default: () => AdvancedCanvasPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian13 = require("obsidian");
+var import_obsidian14 = require("obsidian");
 
 // src/quicksettings.ts
 var import_obsidian2 = require("obsidian");
@@ -1691,10 +1691,51 @@ var import_obsidian2 = require("obsidian");
 // src/settings.ts
 var import_obsidian = require("obsidian");
 
+// src/utils/text-helper.ts
+var TextHelper = class {
+  static toCamelCase(str) {
+    return str.replace(/-./g, (x) => x[1].toUpperCase());
+  }
+};
+
 // src/canvas-extensions/advanced-styles/style-config.ts
+function styleAttributeValidator(json) {
+  var _a;
+  const hasKey = json.key !== void 0;
+  const hasLabel = json.label !== void 0;
+  const hasOptions = Array.isArray(json.options);
+  if (!hasKey)
+    console.error('Style attribute is missing the "key" property');
+  if (!hasLabel)
+    console.error('Style attribute is missing the "label" property');
+  if (!hasOptions)
+    console.error('Style attribute is missing the "options" property or it is not an array');
+  json.key = TextHelper.toCamelCase(json.key);
+  let optionsValid = true;
+  let hasDefault = false;
+  for (const option of json.options) {
+    const hasIcon = option.icon !== void 0;
+    const hasLabel2 = option.label !== void 0;
+    const hasValue = option.value !== void 0;
+    if (!hasIcon)
+      console.error(`Style attribute option (${(_a = option.value) != null ? _a : option.label}) is missing the "icon" property`);
+    if (!hasLabel2)
+      console.error(`Style attribute option (${option.value}) is missing the "label" property`);
+    if (!hasValue)
+      console.error(`Style attribute option (${option.label}) is missing the "value" property`);
+    if (!hasIcon || !hasLabel2 || !hasValue)
+      optionsValid = false;
+    if (option.value === null)
+      hasDefault = true;
+  }
+  if (!hasDefault)
+    console.error('Style attribute is missing a default option (option with a "value" of null)');
+  const isValid = hasKey && hasLabel && hasOptions && optionsValid && hasDefault;
+  return isValid ? json : null;
+}
 var BUILTIN_NODE_STYLE_ATTRIBUTES = [
   {
-    datasetKey: "textAlign",
+    key: "textAlign",
     label: "Text Alignment",
     nodeTypes: ["text"],
     options: [
@@ -1716,7 +1757,7 @@ var BUILTIN_NODE_STYLE_ATTRIBUTES = [
     ]
   },
   {
-    datasetKey: "shape",
+    key: "shape",
     label: "Shape",
     nodeTypes: ["text"],
     options: [
@@ -1763,7 +1804,7 @@ var BUILTIN_NODE_STYLE_ATTRIBUTES = [
     ]
   },
   {
-    datasetKey: "border",
+    key: "border",
     label: "Border",
     options: [
       {
@@ -1791,7 +1832,7 @@ var BUILTIN_NODE_STYLE_ATTRIBUTES = [
 ];
 var BUILTIN_EDGE_STYLE_ATTRIBUTES = [
   {
-    datasetKey: "path",
+    key: "path",
     label: "Path Style",
     options: [
       {
@@ -1817,7 +1858,7 @@ var BUILTIN_EDGE_STYLE_ATTRIBUTES = [
     ]
   },
   {
-    datasetKey: "arrow",
+    key: "arrow",
     label: "Arrow Style",
     options: [
       {
@@ -1859,11 +1900,16 @@ var BUILTIN_EDGE_STYLE_ATTRIBUTES = [
         icon: "arrow-circle-outline",
         label: "Circle Outline",
         value: "circle-outline"
+      },
+      {
+        icon: "tally-1",
+        label: "Blunt",
+        value: "blunt"
       }
     ]
   },
   {
-    datasetKey: "pathfindingMethod",
+    key: "pathfindingMethod",
     label: "Pathfinding Method",
     options: [
       {
@@ -1919,6 +1965,10 @@ var CanvasEvent = {
   NodeChanged: `${PLUGIN_EVENT_PREFIX}:node-changed`,
   EdgeChanged: `${PLUGIN_EVENT_PREFIX}:edge-changed`,
   NodeTextContentChanged: `${PLUGIN_EVENT_PREFIX}:node-text-content-changed`,
+  EdgeConnectionDragging: {
+    Before: `${PLUGIN_EVENT_PREFIX}:edge-connection-dragging:before`,
+    After: `${PLUGIN_EVENT_PREFIX}:edge-connection-dragging:after`
+  },
   NodeRemoved: `${PLUGIN_EVENT_PREFIX}:node-removed`,
   EdgeRemoved: `${PLUGIN_EVENT_PREFIX}:edge-removed`,
   OnCopy: `${PLUGIN_EVENT_PREFIX}:copy`,
@@ -2019,6 +2069,8 @@ var DEFAULT_SETTINGS_VALUES = {
   zoomToClonedNode: true,
   cloneNodeMargin: 20,
   expandNodeStepSize: 20,
+  floatingEdgeFeatureEnabled: false,
+  newEdgeFromSideFloating: false,
   flipEdgeFeatureEnabled: true,
   betterExportFeatureEnabled: true,
   betterReadonlyEnabled: true,
@@ -2238,6 +2290,18 @@ var SETTINGS = {
         description: "The step size for expanding the node.",
         type: "number",
         parse: (value) => Math.max(1, parseInt(value) || 0)
+      }
+    }
+  },
+  floatingEdgeFeatureEnabled: {
+    label: "Floating edges (auto edge side)",
+    description: "Create edges that are automatically placed on the most suitable side of the node by dragging the edge over the target node without placing it over a specific side connection point.",
+    infoSection: "auto-edge-side",
+    children: {
+      newEdgeFromSideFloating: {
+        label: "New edge from side floating",
+        description: 'When enabled, the "from" side of the edge will always be floating.',
+        type: "boolean"
       }
     }
   },
@@ -2531,12 +2595,12 @@ var AdvancedCanvasPluginSettingTab = class extends import_obsidian.PluginSetting
       new import_obsidian.Setting(nestedContainerEl).setName(styleAttribute.label).addDropdown(
         (dropdown) => {
           var _a;
-          return dropdown.addOptions(Object.fromEntries(styleAttribute.options.map((option) => [option.value, option.value === null ? `${option.label} (default)` : option.label]))).setValue((_a = this.settingsManager.getSetting(settingId)[styleAttribute.datasetKey]) != null ? _a : "null").onChange(async (value) => {
+          return dropdown.addOptions(Object.fromEntries(styleAttribute.options.map((option) => [option.value, option.value === null ? `${option.label} (default)` : option.label]))).setValue((_a = this.settingsManager.getSetting(settingId)[styleAttribute.key]) != null ? _a : "null").onChange(async (value) => {
             const newValue = this.settingsManager.getSetting(settingId);
             if (value === "null")
-              delete newValue[styleAttribute.datasetKey];
+              delete newValue[styleAttribute.key];
             else
-              newValue[styleAttribute.datasetKey] = value;
+              newValue[styleAttribute.key] = value;
             await this.settingsManager.setSetting({
               [settingId]: newValue
             });
@@ -2694,7 +2758,7 @@ var SearchStyleAttributeModal = class extends SearchKeyValueSettingModal {
     return "Type to search style attributes...";
   }
   getAllSuggestions() {
-    return this.setting.getParameters(this.settingsManager).map((styleAttribute) => [styleAttribute.datasetKey, styleAttribute]);
+    return this.setting.getParameters(this.settingsManager).map((styleAttribute) => [styleAttribute.key, styleAttribute]);
   }
   doesSuggestionMatchQuery(key, value, query) {
     return key.toLowerCase().includes(query.toLowerCase()) || value.label.toLowerCase().includes(query.toLowerCase());
@@ -2737,9 +2801,9 @@ var SetStyleAttributeModal = class extends SearchKeyValueSettingModal {
   onSelectedSuggestion(key, _value) {
     const newValue = this.settingsManager.getSetting(this.settingsKey);
     if (key === null)
-      delete newValue[this.styleAttribute.datasetKey];
+      delete newValue[this.styleAttribute.key];
     else
-      newValue[this.styleAttribute.datasetKey] = key;
+      newValue[this.styleAttribute.key] = key;
     this.settingsManager.setSetting({
       [this.settingsKey]: newValue
     });
@@ -3167,6 +3231,110 @@ var Patcher = class {
   }
 };
 
+// src/utils/bbox-helper.ts
+var BBoxHelper = class {
+  static combineBBoxes(bboxes) {
+    let minX = Infinity;
+    let minY = Infinity;
+    let maxX = -Infinity;
+    let maxY = -Infinity;
+    for (let bbox of bboxes) {
+      minX = Math.min(minX, bbox.minX);
+      minY = Math.min(minY, bbox.minY);
+      maxX = Math.max(maxX, bbox.maxX);
+      maxY = Math.max(maxY, bbox.maxY);
+    }
+    return { minX, minY, maxX, maxY };
+  }
+  static scaleBBox(bbox, scale) {
+    let diffX = (scale - 1) * (bbox.maxX - bbox.minX);
+    let diffY = (scale - 1) * (bbox.maxY - bbox.minY);
+    return {
+      minX: bbox.minX - diffX / 2,
+      maxX: bbox.maxX + diffX / 2,
+      minY: bbox.minY - diffY / 2,
+      maxY: bbox.maxY + diffY / 2
+    };
+  }
+  static isColliding(bbox1, bbox2) {
+    return bbox1.minX <= bbox2.maxX && bbox1.maxX >= bbox2.minX && bbox1.minY <= bbox2.maxY && bbox1.maxY >= bbox2.minY;
+  }
+  static insideBBox(position, bbox, canTouchEdge) {
+    var _a, _b, _c, _d;
+    const providedBBox = {
+      minX: (_a = position.minX) != null ? _a : position.x,
+      minY: (_b = position.minY) != null ? _b : position.y,
+      maxX: (_c = position.maxX) != null ? _c : position.x,
+      maxY: (_d = position.maxY) != null ? _d : position.y
+    };
+    return canTouchEdge ? providedBBox.minX >= bbox.minX && providedBBox.maxX <= bbox.maxX && providedBBox.minY >= bbox.minY && providedBBox.maxY <= bbox.maxY : providedBBox.minX > bbox.minX && providedBBox.maxX < bbox.maxX && providedBBox.minY > bbox.minY && providedBBox.maxY < bbox.maxY;
+  }
+  static enlargeBBox(bbox, padding) {
+    return {
+      minX: bbox.minX - padding,
+      minY: bbox.minY - padding,
+      maxX: bbox.maxX + padding,
+      maxY: bbox.maxY + padding
+    };
+  }
+  static moveInDirection(position, side, distance) {
+    switch (side) {
+      case "top":
+        return { x: position.x, y: position.y - distance };
+      case "right":
+        return { x: position.x + distance, y: position.y };
+      case "bottom":
+        return { x: position.x, y: position.y + distance };
+      case "left":
+        return { x: position.x - distance, y: position.y };
+    }
+  }
+  static getCenterOfBBoxSide(bbox, side) {
+    switch (side) {
+      case "top":
+        return { x: (bbox.minX + bbox.maxX) / 2, y: bbox.minY };
+      case "right":
+        return { x: bbox.maxX, y: (bbox.minY + bbox.maxY) / 2 };
+      case "bottom":
+        return { x: (bbox.minX + bbox.maxX) / 2, y: bbox.maxY };
+      case "left":
+        return { x: bbox.minX, y: (bbox.minY + bbox.maxY) / 2 };
+    }
+  }
+  static getSideVector(side) {
+    switch (side) {
+      case "top":
+        return { x: 0, y: 1 };
+      case "right":
+        return { x: 1, y: 0 };
+      case "bottom":
+        return { x: 0, y: -1 };
+      case "left":
+        return { x: -1, y: 0 };
+      default:
+        return { x: 0, y: 0 };
+    }
+  }
+  static getOppositeSide(side) {
+    switch (side) {
+      case "top":
+        return "bottom";
+      case "right":
+        return "left";
+      case "bottom":
+        return "top";
+      case "left":
+        return "right";
+    }
+  }
+  static isHorizontal(side) {
+    return side === "left" || side === "right";
+  }
+  static direction(side) {
+    return side === "right" || side === "bottom" ? 1 : -1;
+  }
+};
+
 // src/patchers/canvas-patcher.ts
 var CanvasPatcher = class extends Patcher {
   async patch() {
@@ -3447,6 +3615,17 @@ var CanvasPatcher = class extends Patcher {
         const result = next.call(this, ...args);
         that.triggerWorkspaceEvent(CanvasEvent.NodeBBoxRequested, this.canvas, node, result);
         return result;
+      }),
+      onConnectionPointerdown: PatchHelper.OverrideExisting((next) => function(e, side) {
+        const addEdgeEventRef = that.plugin.app.workspace.on(CanvasEvent.EdgeAdded, (_canvas, edge) => {
+          that.triggerWorkspaceEvent(CanvasEvent.EdgeConnectionDragging.Before, this.canvas, edge, e, true, "to");
+          that.plugin.app.workspace.offref(addEdgeEventRef);
+          document.addEventListener("pointerup", (e2) => {
+            that.triggerWorkspaceEvent(CanvasEvent.EdgeConnectionDragging.After, this.canvas, edge, e2, true, "to");
+          }, { once: true });
+        });
+        const result = next.call(this, e, side);
+        return result;
       })
     });
     this.runAfterInitialized(node, () => {
@@ -3459,10 +3638,10 @@ var CanvasPatcher = class extends Patcher {
     PatchHelper.patch(this.plugin, edge, {
       setData: PatchHelper.OverrideExisting((next) => function(data, addHistory) {
         const result = next.call(this, data);
-        if (edge.initialized && !edge.isDirty) {
-          edge.isDirty = true;
-          that.triggerWorkspaceEvent(CanvasEvent.EdgeChanged, this.canvas, edge);
-          delete edge.isDirty;
+        if (this.initialized && !this.isDirty) {
+          this.isDirty = true;
+          that.triggerWorkspaceEvent(CanvasEvent.EdgeChanged, this.canvas, this);
+          delete this.isDirty;
         }
         this.canvas.data = this.canvas.getData();
         this.canvas.view.requestSave();
@@ -3472,12 +3651,24 @@ var CanvasPatcher = class extends Patcher {
       }),
       render: PatchHelper.OverrideExisting((next) => function(...args) {
         const result = next.call(this, ...args);
-        that.triggerWorkspaceEvent(CanvasEvent.EdgeChanged, this.canvas, edge);
+        that.triggerWorkspaceEvent(CanvasEvent.EdgeChanged, this.canvas, this);
         return result;
       }),
       getCenter: PatchHelper.OverrideExisting((next) => function(...args) {
         const result = next.call(this, ...args);
-        that.triggerWorkspaceEvent(CanvasEvent.EdgeCenterRequested, this.canvas, edge, result);
+        that.triggerWorkspaceEvent(CanvasEvent.EdgeCenterRequested, this.canvas, this, result);
+        return result;
+      }),
+      onConnectionPointerdown: PatchHelper.OverrideExisting((next) => function(e) {
+        const result = next.call(this, e);
+        const eventPos = this.canvas.posFromEvt(e);
+        const fromPos = BBoxHelper.getCenterOfBBoxSide(this.from.node.getBBox(), this.from.side);
+        const toPos = BBoxHelper.getCenterOfBBoxSide(this.to.node.getBBox(), this.to.side);
+        const draggingSide = Math.hypot(eventPos.x - fromPos.x, eventPos.y - fromPos.y) > Math.hypot(eventPos.x - toPos.x, eventPos.y - toPos.y) ? "to" : "from";
+        that.triggerWorkspaceEvent(CanvasEvent.EdgeConnectionDragging.Before, this.canvas, this, e, false, draggingSide);
+        document.addEventListener("pointerup", (e2) => {
+          that.triggerWorkspaceEvent(CanvasEvent.EdgeConnectionDragging.After, this.canvas, this, e2, false, draggingSide);
+        }, { once: true });
         return result;
       })
     });
@@ -3773,112 +3964,6 @@ var OutgoingLinksPatcher = class extends Patcher {
 
 // src/utils/canvas-helper.ts
 var import_obsidian7 = require("obsidian");
-
-// src/utils/bbox-helper.ts
-var BBoxHelper = class {
-  static combineBBoxes(bboxes) {
-    let minX = Infinity;
-    let minY = Infinity;
-    let maxX = -Infinity;
-    let maxY = -Infinity;
-    for (let bbox of bboxes) {
-      minX = Math.min(minX, bbox.minX);
-      minY = Math.min(minY, bbox.minY);
-      maxX = Math.max(maxX, bbox.maxX);
-      maxY = Math.max(maxY, bbox.maxY);
-    }
-    return { minX, minY, maxX, maxY };
-  }
-  static scaleBBox(bbox, scale) {
-    let diffX = (scale - 1) * (bbox.maxX - bbox.minX);
-    let diffY = (scale - 1) * (bbox.maxY - bbox.minY);
-    return {
-      minX: bbox.minX - diffX / 2,
-      maxX: bbox.maxX + diffX / 2,
-      minY: bbox.minY - diffY / 2,
-      maxY: bbox.maxY + diffY / 2
-    };
-  }
-  static isColliding(bbox1, bbox2) {
-    return bbox1.minX <= bbox2.maxX && bbox1.maxX >= bbox2.minX && bbox1.minY <= bbox2.maxY && bbox1.maxY >= bbox2.minY;
-  }
-  static insideBBox(position, bbox, canTouchEdge) {
-    var _a, _b, _c, _d;
-    const providedBBox = {
-      minX: (_a = position.minX) != null ? _a : position.x,
-      minY: (_b = position.minY) != null ? _b : position.y,
-      maxX: (_c = position.maxX) != null ? _c : position.x,
-      maxY: (_d = position.maxY) != null ? _d : position.y
-    };
-    return canTouchEdge ? providedBBox.minX >= bbox.minX && providedBBox.maxX <= bbox.maxX && providedBBox.minY >= bbox.minY && providedBBox.maxY <= bbox.maxY : providedBBox.minX > bbox.minX && providedBBox.maxX < bbox.maxX && providedBBox.minY > bbox.minY && providedBBox.maxY < bbox.maxY;
-  }
-  static enlargeBBox(bbox, padding) {
-    return {
-      minX: bbox.minX - padding,
-      minY: bbox.minY - padding,
-      maxX: bbox.maxX + padding,
-      maxY: bbox.maxY + padding
-    };
-  }
-  static moveInDirection(position, side, distance) {
-    switch (side) {
-      case "top":
-        return { x: position.x, y: position.y - distance };
-      case "right":
-        return { x: position.x + distance, y: position.y };
-      case "bottom":
-        return { x: position.x, y: position.y + distance };
-      case "left":
-        return { x: position.x - distance, y: position.y };
-    }
-  }
-  static getCenterOfBBoxSide(bbox, side) {
-    switch (side) {
-      case "top":
-        return { x: (bbox.minX + bbox.maxX) / 2, y: bbox.minY };
-      case "right":
-        return { x: bbox.maxX, y: (bbox.minY + bbox.maxY) / 2 };
-      case "bottom":
-        return { x: (bbox.minX + bbox.maxX) / 2, y: bbox.maxY };
-      case "left":
-        return { x: bbox.minX, y: (bbox.minY + bbox.maxY) / 2 };
-    }
-  }
-  static getSideVector(side) {
-    switch (side) {
-      case "top":
-        return { x: 0, y: 1 };
-      case "right":
-        return { x: 1, y: 0 };
-      case "bottom":
-        return { x: 0, y: -1 };
-      case "left":
-        return { x: -1, y: 0 };
-      default:
-        return { x: 0, y: 0 };
-    }
-  }
-  static getOppositeSide(side) {
-    switch (side) {
-      case "top":
-        return "bottom";
-      case "right":
-        return "left";
-      case "bottom":
-        return "top";
-      case "left":
-        return "right";
-    }
-  }
-  static isHorizontal(side) {
-    return side === "left" || side === "right";
-  }
-  static direction(side) {
-    return side === "right" || side === "bottom" ? 1 : -1;
-  }
-};
-
-// src/utils/canvas-helper.ts
 var _CanvasHelper = class _CanvasHelper {
   static canvasCommand(plugin, check, run) {
     return (checking) => {
@@ -4038,9 +4123,9 @@ var _CanvasHelper = class _CanvasHelper {
   static addStyleAttributesButtons(canvas, stylableAttributes, currentStyleAttributes, setStyleAttribute) {
     var _a;
     for (const stylableAttribute of stylableAttributes) {
-      const selectedStyle = (_a = stylableAttribute.options.find((option) => currentStyleAttributes[stylableAttribute.datasetKey] === option.value)) != null ? _a : stylableAttribute.options.find((value) => value.value === null);
+      const selectedStyle = (_a = stylableAttribute.options.find((option) => currentStyleAttributes[stylableAttribute.key] === option.value)) != null ? _a : stylableAttribute.options.find((value) => value.value === null);
       const menuOption = _CanvasHelper.createExpandablePopupMenuOption({
-        id: `menu-option-${stylableAttribute.datasetKey}`,
+        id: `menu-option-${stylableAttribute.key}`,
         label: stylableAttribute.label,
         icon: selectedStyle.icon
       }, stylableAttribute.options.map((styleOption) => ({
@@ -4048,7 +4133,7 @@ var _CanvasHelper = class _CanvasHelper {
         icon: styleOption.icon,
         callback: () => {
           setStyleAttribute(stylableAttribute, styleOption.value);
-          currentStyleAttributes[stylableAttribute.datasetKey] = styleOption.value;
+          currentStyleAttributes[stylableAttribute.key] = styleOption.value;
           (0, import_obsidian7.setIcon)(menuOption, styleOption.icon);
           menuOption.dispatchEvent(new Event("click"));
         }
@@ -4098,7 +4183,7 @@ var _CanvasHelper = class _CanvasHelper {
         stylableAttributeElement.classList.add("tappable");
         const iconElement = document.createElement("div");
         iconElement.classList.add("menu-item-icon");
-        let selectedStyle = (_c = stylableAttribute.options.find((option) => currentStyleAttributes[stylableAttribute.datasetKey] === option.value)) != null ? _c : stylableAttribute.options.find((value) => value.value === null);
+        let selectedStyle = (_c = stylableAttribute.options.find((option) => currentStyleAttributes[stylableAttribute.key] === option.value)) != null ? _c : stylableAttribute.options.find((value) => value.value === null);
         (0, import_obsidian7.setIcon)(iconElement, selectedStyle.icon);
         stylableAttributeElement.appendChild(iconElement);
         const labelElement = document.createElement("div");
@@ -4138,7 +4223,7 @@ var _CanvasHelper = class _CanvasHelper {
               icon: styleOption.icon,
               callback: () => {
                 setStyleAttribute(stylableAttribute, styleOption.value);
-                currentStyleAttributes[stylableAttribute.datasetKey] = styleOption.value;
+                currentStyleAttributes[stylableAttribute.key] = styleOption.value;
                 selectedStyle = styleOption;
                 (0, import_obsidian7.setIcon)(iconElement, styleOption.icon);
                 styleMenuDropdownSubmenuElement.remove();
@@ -7077,17 +7162,184 @@ var ExportCanvasExtension = class extends CanvasExtension {
   }
 };
 
+// src/canvas-extensions/floating-edge-canvas-extension.ts
+var FloatingEdgeCanvasExtension = class extends CanvasExtension {
+  isEnabled() {
+    return "floatingEdgeFeatureEnabled";
+  }
+  init() {
+    this.plugin.registerEvent(this.plugin.app.workspace.on(
+      CanvasEvent.NodeMoved,
+      (canvas, node) => this.onNodeMoved(canvas, node)
+    ));
+    this.plugin.registerEvent(this.plugin.app.workspace.on(
+      CanvasEvent.EdgeConnectionDragging.Before,
+      (canvas, edge, event, newEdge, side) => this.onEdgeStartedDragging(canvas, edge, event, newEdge, side)
+    ));
+    this.plugin.registerEvent(this.plugin.app.workspace.on(
+      CanvasEvent.EdgeConnectionDragging.After,
+      (canvas, edge, event, newEdge, side) => this.onEdgeStoppedDragging(canvas, edge, event, newEdge, side)
+    ));
+  }
+  onNodeMoved(canvas, node) {
+    const affectedEdges = canvas.getEdgesForNode(node);
+    for (const edge of affectedEdges)
+      this.updateEdgeConnectionSide(edge);
+  }
+  updateEdgeConnectionSide(edge) {
+    const edgeData = edge.getData();
+    if (edgeData.fromFloating) {
+      const fixedNodeConnectionPoint = BBoxHelper.getCenterOfBBoxSide(edge.to.node.getBBox(), edge.to.side);
+      const bestSide = this.getBestSideForFloatingEdge(fixedNodeConnectionPoint, edge.from.node);
+      if (bestSide !== edge.from.side) {
+        edge.setData({
+          ...edgeData,
+          fromSide: bestSide
+        });
+      }
+    }
+    if (edgeData.toFloating) {
+      const fixedNodeConnectionPoint = BBoxHelper.getCenterOfBBoxSide(edge.from.node.getBBox(), edge.from.side);
+      const bestSide = this.getBestSideForFloatingEdge(fixedNodeConnectionPoint, edge.to.node);
+      if (bestSide !== edge.to.side) {
+        edge.setData({
+          ...edgeData,
+          toSide: bestSide
+        });
+      }
+    }
+  }
+  getBestSideForFloatingEdge(sourcePos, target) {
+    const targetBBox = target.getBBox();
+    const possibleSides = ["top", "right", "bottom", "left"];
+    const possibleTargetPos = possibleSides.map((side) => [side, BBoxHelper.getCenterOfBBoxSide(targetBBox, side)]);
+    let bestSide = null;
+    let bestDistance = Infinity;
+    for (const [side, pos] of possibleTargetPos) {
+      const distance = Math.sqrt(Math.pow(sourcePos.x - pos.x, 2) + Math.pow(sourcePos.y - pos.y, 2));
+      if (distance < bestDistance) {
+        bestDistance = distance;
+        bestSide = side;
+      }
+    }
+    return bestSide;
+  }
+  onEdgeStartedDragging(canvas, edge, _event, newEdge, _side) {
+    if (newEdge && this.plugin.settings.getSetting("newEdgeFromSideFloating"))
+      edge.setData({
+        ...edge.getData(),
+        fromFloating: true
+        // New edges can only get dragged from the "from" side
+      });
+    let cachedViewportNodes = null;
+    let hasNaNFloatingEdgeDropZones = false;
+    this.onPointerMove = (event) => {
+      if (cachedViewportNodes === null || hasNaNFloatingEdgeDropZones || canvas.viewportChanged) {
+        hasNaNFloatingEdgeDropZones = false;
+        cachedViewportNodes = canvas.getViewportNodes().map((node) => {
+          const nodeFloatingEdgeDropZone = this.getFloatingEdgeDropZoneForNode(node);
+          if (isNaN(nodeFloatingEdgeDropZone.minX) || isNaN(nodeFloatingEdgeDropZone.minY) || isNaN(nodeFloatingEdgeDropZone.maxX) || isNaN(nodeFloatingEdgeDropZone.maxY))
+            hasNaNFloatingEdgeDropZones = true;
+          return [node, nodeFloatingEdgeDropZone];
+        });
+      }
+      for (const [node, nodeFloatingEdgeDropZoneClientRect] of cachedViewportNodes) {
+        const hovering = BBoxHelper.insideBBox({ x: event.clientX, y: event.clientY }, nodeFloatingEdgeDropZoneClientRect, true);
+        node.nodeEl.classList.toggle("hovering-floating-edge-zone", hovering);
+      }
+    };
+    document.addEventListener("pointermove", this.onPointerMove);
+  }
+  onEdgeStoppedDragging(_canvas, edge, event, _newEdge, side) {
+    document.removeEventListener("pointermove", this.onPointerMove);
+    const dropZoneNode = side === "from" ? edge.from.node : edge.to.node;
+    const floatingEdgeDropZone = this.getFloatingEdgeDropZoneForNode(dropZoneNode);
+    const wasDroppedInFloatingEdgeDropZone = BBoxHelper.insideBBox({ x: event.clientX, y: event.clientY }, floatingEdgeDropZone, true);
+    const edgeData = edge.getData();
+    if (side === "from" && wasDroppedInFloatingEdgeDropZone == edgeData.fromFloating)
+      return;
+    if (side === "to" && wasDroppedInFloatingEdgeDropZone == edgeData.toFloating)
+      return;
+    if (side === "from")
+      edgeData.fromFloating = wasDroppedInFloatingEdgeDropZone;
+    else
+      edgeData.toFloating = wasDroppedInFloatingEdgeDropZone;
+    edge.setData(edgeData);
+    this.updateEdgeConnectionSide(edge);
+  }
+  getFloatingEdgeDropZoneForNode(node) {
+    const nodeElClientBoundingRect = node.nodeEl.getBoundingClientRect();
+    const nodeFloatingEdgeDropZoneElStyle = window.getComputedStyle(node.nodeEl, ":after");
+    const nodeFloatingEdgeDropZoneSize = {
+      width: parseFloat(nodeFloatingEdgeDropZoneElStyle.getPropertyValue("width")),
+      height: parseFloat(nodeFloatingEdgeDropZoneElStyle.getPropertyValue("height"))
+    };
+    return {
+      minX: nodeElClientBoundingRect.left + (nodeElClientBoundingRect.width - nodeFloatingEdgeDropZoneSize.width) / 2,
+      minY: nodeElClientBoundingRect.top + (nodeElClientBoundingRect.height - nodeFloatingEdgeDropZoneSize.height) / 2,
+      maxX: nodeElClientBoundingRect.right - (nodeElClientBoundingRect.width - nodeFloatingEdgeDropZoneSize.width) / 2,
+      maxY: nodeElClientBoundingRect.bottom - (nodeElClientBoundingRect.height - nodeFloatingEdgeDropZoneSize.height) / 2
+    };
+  }
+};
+
+// src/managers/css-styles-config-manager.ts
+var import_obsidian13 = require("obsidian");
+var CssStylesConfigManager = class {
+  constructor(plugin, trigger, validate) {
+    this.plugin = plugin;
+    this.validate = validate;
+    this.cachedConfig = null;
+    this.configRegex = new RegExp(`\\/\\*\\s*@${trigger}\\s*\\n([\\s\\S]*?)\\*\\/`, "g");
+    this.plugin.registerEvent(this.plugin.app.workspace.on(
+      "css-change",
+      () => {
+        this.cachedConfig = null;
+      }
+    ));
+  }
+  getStyles() {
+    if (this.cachedConfig)
+      return this.cachedConfig;
+    this.cachedConfig = [];
+    const styleSheets = document.styleSheets;
+    for (let i = 0; i < styleSheets.length; i++) {
+      const sheet = styleSheets.item(i);
+      if (!sheet)
+        continue;
+      const styleSheetConfigs = this.parseStyleConfigsFromCSS(sheet);
+      for (const config of styleSheetConfigs) {
+        const validConfig = this.validate(config);
+        if (!validConfig)
+          continue;
+        this.cachedConfig.push(validConfig);
+      }
+    }
+    return this.cachedConfig;
+  }
+  parseStyleConfigsFromCSS(sheet) {
+    var _a, _b;
+    const textContent = (_b = (_a = sheet == null ? void 0 : sheet.ownerNode) == null ? void 0 : _a.textContent) == null ? void 0 : _b.trim();
+    if (!textContent)
+      return [];
+    const configs = [];
+    const matches = textContent.matchAll(this.configRegex);
+    for (const match of matches) {
+      const yamlString = match[1];
+      const configYaml = (0, import_obsidian13.parseYaml)(yamlString);
+      configs.push(configYaml);
+    }
+    return configs;
+  }
+};
+
 // src/canvas-extensions/advanced-styles/node-styles.ts
 var NodeStylesExtension = class extends CanvasExtension {
   isEnabled() {
     return "nodeStylingFeatureEnabled";
   }
   init() {
-    this.allNodeStyles = [...BUILTIN_NODE_STYLE_ATTRIBUTES, ...this.plugin.settings.getSetting("customNodeStyleAttributes")];
-    this.plugin.registerEvent(this.plugin.app.workspace.on(
-      PluginEvent.SettingsChanged,
-      () => this.allNodeStyles = [...BUILTIN_NODE_STYLE_ATTRIBUTES, ...this.plugin.settings.getSetting("customNodeStyleAttributes")]
-    ));
+    this.cssStylesManager = new CssStylesConfigManager(this.plugin, "advanced-canvas-node-style", styleAttributeValidator);
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       CanvasEvent.PopupMenuCreated,
       (canvas) => this.onPopupMenuCreated(canvas)
@@ -7099,7 +7351,12 @@ var NodeStylesExtension = class extends CanvasExtension {
     if (canvas.readonly || selectionNodeData.length === 0 || selectionNodeData.length !== canvas.selection.size)
       return;
     const selectedNodeTypes = new Set(selectionNodeData.map((node) => node.type));
-    const availableNodeStyles = this.allNodeStyles.filter((style) => !style.nodeTypes || style.nodeTypes.some((type) => selectedNodeTypes.has(type)));
+    const availableNodeStyles = [
+      ...BUILTIN_NODE_STYLE_ATTRIBUTES,
+      /* Legacy */
+      ...this.plugin.settings.getSetting("customNodeStyleAttributes"),
+      ...this.cssStylesManager.getStyles()
+    ].filter((style) => !style.nodeTypes || style.nodeTypes.some((type) => selectedNodeTypes.has(type)));
     CanvasHelper.addStyleAttributesToPopup(
       this.plugin,
       canvas,
@@ -7120,7 +7377,7 @@ var NodeStylesExtension = class extends CanvasExtension {
         ...nodeData,
         styleAttributes: {
           ...nodeData.styleAttributes,
-          [attribute.datasetKey]: value
+          [attribute.key]: value
         }
       });
     }
@@ -7426,11 +7683,7 @@ var EdgeStylesExtension = class extends CanvasExtension {
     return "edgesStylingFeatureEnabled";
   }
   init() {
-    this.allEdgeStyleAttributes = [...BUILTIN_EDGE_STYLE_ATTRIBUTES, ...this.plugin.settings.getSetting("customEdgeStyleAttributes")];
-    this.plugin.registerEvent(this.plugin.app.workspace.on(
-      PluginEvent.SettingsChanged,
-      () => this.allEdgeStyleAttributes = [...BUILTIN_EDGE_STYLE_ATTRIBUTES, ...this.plugin.settings.getSetting("customEdgeStyleAttributes")]
-    ));
+    this.cssStylesManager = new CssStylesConfigManager(this.plugin, "advanced-canvas-edge-style", styleAttributeValidator);
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       CanvasEvent.PopupMenuCreated,
       (canvas) => this.onPopupMenuCreated(canvas)
@@ -7480,7 +7733,12 @@ var EdgeStylesExtension = class extends CanvasExtension {
     CanvasHelper.addStyleAttributesToPopup(
       this.plugin,
       canvas,
-      this.allEdgeStyleAttributes,
+      [
+        ...BUILTIN_EDGE_STYLE_ATTRIBUTES,
+        /* Legacy */
+        ...this.plugin.settings.getSetting("customEdgeStyleAttributes"),
+        ...this.cssStylesManager.getStyles()
+      ],
       (_a = selectedEdges[0].getData().styleAttributes) != null ? _a : {},
       (attribute, value) => this.setStyleAttributeForSelection(canvas, attribute, value)
     );
@@ -7493,7 +7751,7 @@ var EdgeStylesExtension = class extends CanvasExtension {
         ...edgeData,
         styleAttributes: {
           ...edgeData.styleAttributes,
-          [attribute.datasetKey]: value
+          [attribute.key]: value
         }
       });
     }
@@ -7512,8 +7770,17 @@ var EdgeStylesExtension = class extends CanvasExtension {
     var _a, _b, _c, _d, _e, _f, _g;
     if (!canvas.dirty.has(edge) && !canvas.selection.has(edge))
       return;
-    if (!this.shouldUpdateEdge(canvas) && canvas.selection.size > MAX_LIVE_UPDATE_SELECTION_SIZE)
-      return;
+    if (!this.shouldUpdateEdge(canvas)) {
+      const tooManySelected = canvas.selection.size > MAX_LIVE_UPDATE_SELECTION_SIZE;
+      if (tooManySelected)
+        return;
+      const groupNodesSelected = [...canvas.selection].some((item) => {
+        var _a2;
+        return ((_a2 = item.getData()) == null ? void 0 : _a2.type) === "group";
+      });
+      if (groupNodesSelected)
+        return;
+    }
     const edgeData = edge.getData();
     if (!edge.bezier)
       return;
@@ -7556,6 +7823,8 @@ var EdgeStylesExtension = class extends CanvasExtension {
       return `0,0 5,10 0,20 -5,10`;
     else if (arrowStyle === "circle" || arrowStyle === "circle-outline")
       return `0 0, 4.95 1.8, 7.5 6.45, 6.6 11.7, 2.7 15, -2.7 15, -6.6 11.7, -7.5 6.45, -4.95 1.8`;
+    else if (arrowStyle === "blunt")
+      return `-10,8 10,8 10,6 -10,6`;
     else
       return `0,0 6.5,10.4 -6.5,10.4`;
   }
@@ -7696,7 +7965,8 @@ var EdgeExposerExtension = class extends CanvasExtension {
 var EXPOSED_SETTINGS = [
   "disableFontSizeRelativeToZoom",
   "collapsibleGroupsFeatureEnabled",
-  "collapsedGroupPreviewOnDrag"
+  "collapsedGroupPreviewOnDrag",
+  "floatingEdgeFeatureEnabled"
 ];
 var CanvasWrapperExposerExtension = class extends CanvasExtension {
   isEnabled() {
@@ -7750,6 +8020,7 @@ var CANVAS_EXTENSIONS = [
   VariableBreakpointCanvasExtension,
   BetterDefaultSettingsCanvasExtension,
   CommandsCanvasExtension,
+  FloatingEdgeCanvasExtension,
   FlipEdgeCanvasExtension,
   ZOrderingCanvasExtension,
   BetterReadonlyCanvasExtension,
@@ -7764,7 +8035,7 @@ var CANVAS_EXTENSIONS = [
   PresentationCanvasExtension,
   PortalsCanvasExtension
 ];
-var AdvancedCanvasPlugin = class extends import_obsidian13.Plugin {
+var AdvancedCanvasPlugin = class extends import_obsidian14.Plugin {
   async onload() {
     this.migrationHelper = new MigrationHelper(this);
     await this.migrationHelper.migrate();
@@ -7780,7 +8051,7 @@ var AdvancedCanvasPlugin = class extends import_obsidian13.Plugin {
   onunload() {
   }
   getCurrentCanvasView() {
-    const canvasView = this.app.workspace.getActiveViewOfType(import_obsidian13.ItemView);
+    const canvasView = this.app.workspace.getActiveViewOfType(import_obsidian14.ItemView);
     if ((canvasView == null ? void 0 : canvasView.getViewType()) !== "canvas")
       return null;
     return canvasView;

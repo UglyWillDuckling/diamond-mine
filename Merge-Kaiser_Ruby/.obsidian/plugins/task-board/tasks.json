@@ -266,19 +266,6 @@
                 "completed": ""
             }
         ],
-        "Clippings/OpenSSH Config File Examples.md": [
-            {
-                "id": 2074453262,
-                "title": "remind me (@2025-02-25)",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Clippings/OpenSSH Config File Examples.md",
-                "completed": ""
-            }
-        ],
         "Clippings/How to trust cert authority - arch.md": [
             {
                 "id": 1783881645,
@@ -832,26 +819,26 @@
         ],
         "Master Task List.md": [
             {
-                "id": 4198307522,
-                "title": "#task Fix missing restart of nginx docker service after cert renewal ⏫",
+                "id": 2023434146,
+                "title": "#task See how difficult it is to setup a local FTP server ⏳ 2025-02-25 📅 2025-03-02",
                 "body": [],
                 "time": "",
-                "due": "",
+                "due": "2025-03-02",
                 "tags": [
                     "#task"
                 ],
-                "priority": 2,
+                "priority": 0,
                 "filePath": "Master Task List.md",
                 "completed": ""
             },
             {
-                "id": 3759254948,
-                "title": "#task Look into what SSE means 📅 2025-02-16 🆔 5dKDNT #dev",
+                "id": 1206953278,
+                "title": "#task Look into what **SSE** means 📅 2025-03-03 🆔 5dKDNT #dev",
                 "body": [
                     "\t- see [[Deno Web Server]]"
                 ],
                 "time": "",
-                "due": "2025-02-16",
+                "due": "2025-03-03",
                 "tags": [
                     "#task",
                     "#dev"
@@ -861,7 +848,7 @@
                 "completed": ""
             },
             {
-                "id": 801062633,
+                "id": 446724799,
                 "title": "#task build a New **Movies** list ⏳ 2025-02-09 📅 2025-02-14 🆔 qiGLZM",
                 "body": [
                     "\t- create **new movie entries** in the process"
@@ -877,11 +864,11 @@
                 "completed": ""
             },
             {
-                "id": 2947367602,
-                "title": "#task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-02-19 🆔 iD0UCB #habbit",
+                "id": 3943338885,
+                "title": "#task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-03-03 🆔 iD0UCB #habbit",
                 "body": [],
                 "time": "",
-                "due": "2025-02-19",
+                "due": "2025-03-03",
                 "tags": [
                     "#task",
                     "#habbit"
@@ -891,7 +878,7 @@
                 "completed": ""
             },
             {
-                "id": 1380087019,
+                "id": 1827147607,
                 "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
                 "body": [],
                 "time": "",
@@ -905,14 +892,14 @@
                 "completed": ""
             },
             {
-                "id": 932928340,
-                "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-17",
+                "id": 4171686973,
+                "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-25",
                 "body": [
                     "\t- check online",
                     "\t- create **real** tasks"
                 ],
                 "time": "",
-                "due": "2025-02-17",
+                "due": "2025-02-25",
                 "tags": [
                     "#task"
                 ],
@@ -921,7 +908,7 @@
                 "completed": ""
             },
             {
-                "id": 4176380381,
+                "id": 2076955579,
                 "title": "#task [[Backup Drive]] 🔼 ⏳ 2025-02-03 🆔 OpBFPk",
                 "body": [],
                 "time": "",
@@ -957,6 +944,19 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Atlas/Knowledge/howtos/how to check DNS info.md",
+                "completed": ""
+            }
+        ],
+        "Clippings/Kako izvaditi potvrdu o prebivalištu ili boravištu preko interneta.md": [
+            {
+                "id": 3729490968,
+                "title": "remind me (@2025-02-25 22:13)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/Kako izvaditi potvrdu o prebivalištu ili boravištu preko interneta.md",
                 "completed": ""
             }
         ]
@@ -4001,7 +4001,65 @@
         ],
         "Master Task List.md": [
             {
-                "id": 3383540169,
+                "id": 4227451164,
+                "title": "#task daj Senki savjet da pogleda mail od Regice u slucaju da vec nije #rad 🆔 OZBwNh 🔼 ⏳ 2025-02-24 📅 2025-02-24 ✅ 2025-02-24",
+                "body": [],
+                "time": "",
+                "due": "2025-02-24",
+                "tags": [
+                    "#task",
+                    "#rad"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": "2025-02-24"
+            },
+            {
+                "id": 3715184906,
+                "title": "#task pocisti [[GDrive]] do kraja 🔼 ⏳ 2025-02-20 📅 2025-02-23 🆔 7RPQKX ✅ 2025-02-23",
+                "body": [],
+                "time": "",
+                "due": "2025-02-23",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": "2025-02-23"
+            },
+            {
+                "id": 1743894176,
+                "title": "#task Fix missing **restart** of **nginx** docker service after cert renewal ⏫ 🆔 5ij4NX ✅ 2025-02-23",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Master Task List.md",
+                "completed": "2025-02-23"
+            },
+            {
+                "id": 3652623689,
+                "title": "#task pocistiti **Downloads** folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny",
+                "body": [],
+                "time": "",
+                "due": "2025-02-13",
+                "tags": [
+                    "#task",
+                    "#tiny",
+                    "#task",
+                    "#tiny",
+                    "#task",
+                    "#tiny"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completed": "2025-02-15"
+            },
+            {
+                "id": 2877760994,
                 "title": "#task see how [[rsync]] works #backburner #dev ✅ 2025-02-15",
                 "body": [
                     "\t- [[rsync]]"
@@ -4018,22 +4076,17 @@
                 "completed": "2025-02-15"
             },
             {
-                "id": 841498646,
-                "title": "#task pocistiti Downloads folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny",
+                "id": 3518057264,
+                "title": "#task **Find** remote vault encryption password ⏫ ⏳ 2025-02-20 📅 2025-02-22 ✅ 2025-02-19",
                 "body": [],
                 "time": "",
-                "due": "2025-02-13",
+                "due": "2025-02-22",
                 "tags": [
-                    "#task",
-                    "#tiny",
-                    "#task",
-                    "#tiny",
-                    "#task",
-                    "#tiny"
+                    "#task"
                 ],
-                "priority": 3,
+                "priority": 2,
                 "filePath": "Master Task List.md",
-                "completed": "2025-02-15"
+                "completed": "2025-02-19"
             }
         ],
         "Efforts/Active/Obsidian Tinkering/Morgen General exploration.md": [
@@ -4067,19 +4120,6 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Atlas/Knowledge/Media/Articles/Dev/Configuring self-signed SSL certificates for local development.md",
-                "completed": ""
-            }
-        ],
-        "Clippings/Kako izvaditi potvrdu o prebivalištu ili boravištu preko interneta.md": [
-            {
-                "id": 2631114353,
-                "title": "remind me (@2025-02-24)",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Clippings/Kako izvaditi potvrdu o prebivalištu ili boravištu preko interneta.md",
                 "completed": ""
             }
         ],
@@ -4132,6 +4172,19 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Calendar/daily/2025/2025-02-24-Mon.md",
+                "completed": ""
+            }
+        ],
+        "Clippings/OpenSSH Config File Examples.md": [
+            {
+                "id": 758212148,
+                "title": "remind me (@2025-02-25 22:12)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/OpenSSH Config File Examples.md",
                 "completed": ""
             }
         ]

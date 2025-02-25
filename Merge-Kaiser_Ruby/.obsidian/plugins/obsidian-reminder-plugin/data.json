@@ -29,17 +29,24 @@
         "rowNumber": 17
       }
     ],
-    "Clippings/OpenSSH Config File Examples.md": [
+    "Atlas/Knowledge/Media/Articles/Dev/Configuring self-signed SSL certificates for local development.md": [
       {
-        "title": "remind me",
-        "time": "2025-02-25",
-        "rowNumber": 11
+        "title": "monthly",
+        "time": "2025-04-05",
+        "rowNumber": 16
+      }
+    ],
+    "Atlas/Dev/notes/Mason is responsible for managing lsp;s.md": [
+      {
+        "title": "monthly",
+        "time": "2025-03-22",
+        "rowNumber": 5
       }
     ],
     "Efforts/Ongoing/Vim Mastery/Nvim - Lsp - How to inspect info.md": [
       {
         "title": "remind me",
-        "time": "2025-02-25",
+        "time": "2025-02-25 22:13",
         "rowNumber": 5
       }
     ],
@@ -57,11 +64,11 @@
         "rowNumber": 2
       }
     ],
-    "Atlas/Dev/notes/Mason is responsible for managing lsp;s.md": [
+    "Efforts/Active/Senka/Persona/persona ssl cronjob.md": [
       {
-        "title": "monthly",
-        "time": "2025-03-22",
-        "rowNumber": 5
+        "title": "remind me Persona ssl cert cron",
+        "time": "2025-03-02",
+        "rowNumber": 39
       }
     ],
     "Clippings/How to trust cert authority - arch.md": [
@@ -71,11 +78,39 @@
         "rowNumber": 13
       }
     ],
+    "Clippings/pacmanTips and tricks - ArchWiki.md": [
+      {
+        "title": "remind me Pacman orphans",
+        "time": "2025-03-09",
+        "rowNumber": 266
+      }
+    ],
     "Atlas/Knowledge/howtos/how to check DNS info.md": [
       {
         "title": "remind me DNS checker",
         "time": "2025-03-14",
         "rowNumber": 4
+      }
+    ],
+    "Atlas/Knowledge/Places/Zen House Sarajevo.md": [
+      {
+        "title": "remind me",
+        "time": "2025-03-04",
+        "rowNumber": 12
+      }
+    ],
+    "Atlas/Personal/notes/having tasks or tickets belong to more than just one project could be useful in certain situations.md": [
+      {
+        "title": "remind me",
+        "time": "2025-02-26",
+        "rowNumber": 4
+      }
+    ],
+    "Clippings/Kako izvaditi potvrdu o prebivalištu ili boravištu preko interneta.md": [
+      {
+        "title": "remind me",
+        "time": "2025-02-25 22:13",
+        "rowNumber": 10
       }
     ]
   },

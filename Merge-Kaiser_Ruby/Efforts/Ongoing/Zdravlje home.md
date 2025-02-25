@@ -1,4 +1,4 @@
 #project
 
 **Opća** praksa:
-[[Ordinacija općeobiteljske medicine – Ivana Agatić Rašković]]
+[[Ordinacija obiteljske medicine – Ivana Agatić Rašković]]

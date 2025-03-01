@@ -6,7 +6,7 @@ tags:
 part of:
   - "[[git]]"
 ---
-- [ ] remind me (@[[2025-02-24]])
+- [x] remind me (@[[2025-02-25]] 11:08)
 ___
 ## NAME
 

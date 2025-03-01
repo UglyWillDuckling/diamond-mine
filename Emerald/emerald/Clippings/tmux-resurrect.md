@@ -1,6 +1,6 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[github]]"
 created: 2025-02-18
 source: https://github.com/tmux-plugins/tmux-resurrect
 tags:
@@ -9,10 +9,21 @@ tags:
 part of:
   - "[[tmux 3]]"
 ---
-- [ ] remind me (@[[2025-02-28]])
+- [ ] remind me (@[[2025-03-07]])
 	- works really well
 	- [[key bindings for tmux-resurrect]]
-	
+___
+## personal notes 🗒
+
+**Works** really well. 
+
+Some small bugs probably exist but nothing I would worry about.
+
+**Will take some time to get into the habbit of using it.**
+
+A **longer period of time** is required to **evaluate** it fully
+
+___
 ## Tmux Resurrect
 
 Restore `tmux` environment after system restart.
@@ -120,6 +131,4 @@ Both contributing and bug reports are welcome. Please check out [contributing gu
 
 [Mislav Marohnić](https://github.com/mislav) - the idea for the plugin came from his [tmux-session script](https://github.com/mislav/dotfiles/blob/2036b5e03fb430bbcbc340689d63328abaa28876/bin/tmux-session).
 
-### License
-
-[MIT](https://github.com/tmux-plugins/tmux-resurrect/blob/master/LICENSE.md)
+___

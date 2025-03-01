@@ -22,12 +22,10 @@ related:
 - [x] #task check status if import on production 🔼 ⏳ 2025-02-12 📅 2025-0 🆔 xEvMvt ✅ 2025-02-12
 	- [x] check import log
 	- [x] check listing entities in **DB**
-### Later
+### **Later**
  - [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8nkkkkk
  - [ ] #task cleanup **QSL** tests 🆔 QdOsoU 🔽
 
-## **active**
+## **Active**
 
-Production Import **looks good**, number of entities in prod is **766**
-
-created [[QSL production import]].
+[[QSL - missing links issue]]

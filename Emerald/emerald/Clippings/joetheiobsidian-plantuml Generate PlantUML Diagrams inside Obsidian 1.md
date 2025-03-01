@@ -1,13 +1,13 @@
 ---
 title: "joethei/obsidian-plantuml: Generate PlantUML Diagrams inside Obsidian.md"
-source: "https://github.com/joethei/obsidian-plantuml"
+source: https://github.com/joethei/obsidian-plantuml
 author:
-  - "[[GitHub]]"
-published:
+  - "[[github]]"
+published: 
 created: 2025-01-03
-description: "Generate PlantUML Diagrams inside Obsidian.md. Contribute to joethei/obsidian-plantuml development by creating an account on GitHub."
+description: Generate PlantUML Diagrams inside Obsidian.md. Contribute to joethei/obsidian-plantuml development by creating an account on GitHub.
 tags:
-  - "clippings"
+  - clippings
 ---
 ## PlantUML Support for Obsidian
 

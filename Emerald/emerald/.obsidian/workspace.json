@@ -4,25 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "f4333c27b4551902",
+        "id": "2f72d0976c923978",
         "type": "tabs",
         "children": [
           {
-            "id": "29ab67df91cf7e03",
+            "id": "c9b58eaca7ce97cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Command  Bashly.md",
+                "file": "Efforts/example Modal using Gemini.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Command  Bashly"
+              "title": "example Modal using Gemini"
+            }
+          },
+          {
+            "id": "2bd71bce0c5ac1c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-03-01-Sat"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,12 +65,12 @@
             }
           },
           {
-            "id": "9d622f2a281c02e8",
+            "id": "38f920169df534f5",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "migrate vim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +82,7 @@
             }
           },
           {
-            "id": "537a2a4cf264776b",
+            "id": "30bd1d2383f253d2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -75,12 +91,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 281.5124969482422,
-    "collapsed": true
+    "width": 490.5110321044922
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -91,13 +107,26 @@
         "type": "tabs",
         "children": [
           {
+            "id": "bae038ccea34ead9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
             "id": "4c75dd1dc94107ca",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/setup nginx metrics.md",
-                "collapseAll": true,
+                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -106,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for setup nginx metrics"
+              "title": "Backlinks for QSL listing feature"
             }
           },
           {
@@ -115,12 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clippings/ISO 8601.md",
+                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ISO 8601"
+              "title": "Outgoing links from QSL listing feature"
             }
           },
           {
@@ -129,32 +158,37 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/setup nginx metrics.md",
+                "file": "Atlas/Knowledge/Articles/dev/Morgen Planner.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of setup nginx metrics"
+              "title": "Outline of Morgen Planner"
             }
           },
           {
-            "id": "b96698a4c84bbc44",
+            "id": "66215144ab6ceed1",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
             }
           },
           {
-            "id": "c19a1c2baae21f3d",
+            "id": "4a7e351c6d81ef9d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "83a3eb7907bec801",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -168,17 +202,7 @@
             }
           },
           {
-            "id": "5d0fcdf03d60c938",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
-            "id": "a40a71cabcd2e667",
+            "id": "f3d26d9f4b79cf54",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -188,7 +212,7 @@
             }
           },
           {
-            "id": "dae51b8e8cede2a3",
+            "id": "015e0b12424c0bc6",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -196,20 +220,42 @@
               "icon": "ag-style",
               "title": "Juggl style"
             }
+          },
+          {
+            "id": "c6a999a37906ae19",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "work/Projects/LUQA/useref react.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for useref react"
+            }
+          },
+          {
+            "id": "e58c1e7bd6c12e73",
+            "type": "leaf",
+            "state": {
+              "type": "khoj-chat-view",
+              "state": {},
+              "icon": "message-circle",
+              "title": "Khoj Chat"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 711.5,
+    "width": 809.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "khoj:Khoj": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-      "juggl:Juggl global graph": true,
+      "juggl:Juggl global graph": false,
       "graph:Open graph view": true,
       "workspaces:Manage workspace layouts": true,
       "templater-obsidian:Templater": false,
@@ -231,56 +277,56 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "29ab67df91cf7e03",
+  "active": "2bd71bce0c5ac1c8",
   "lastOpenFiles": [
-    "setup wordpress with Bedrock and Docker.md",
-    "Clippings/Command  Bashly.md",
-    "Clippings/Examples  Bashly.md",
-    "Clippings/Welcome to Bashly  Bashly - Bash Command Line Framework.md",
-    "Knowledge/daily_notes/2025/02-February/2025-02-21-Fri.md",
+    "Atlas/Knowledge/daily_notes/2025/02-February/2025-02-28-Fri.md",
+    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md",
+    "Atlas/Knowledge/daily_notes/2025/03-March",
+    "Efforts/moda example code.md",
+    "Efforts/example Modal using Gemini.md",
+    "Clippings/php-examples-for-aws-lambda0.6-MVC-to-microservice at master · aws-samplesphp-examples-for-aws-lambda.md",
+    "Clippings/The serverless LAMP stack part 6 From MVC to serverless microservices  Amazon Web Services.md",
+    "Atlas/Knowledge/tools/gemini components.md",
+    "Efforts/master task list.md",
+    "+/action is crucial, we need to define the next steps(actions) with as much detail as possible.md",
+    "work/calls/CRM/architecture/architecture meet 2025-02-28.md",
+    "work/calls/CRM/architecture/Amin Khansari.md",
+    "Clippings/Fat Lambda — Everything You Need to Know.md",
+    "work/calls/CRM/LUQA architecture diagram.md",
+    "Atlas/Knowledge/Articles/dev/Vim Jump to Last Change - VimTricks.md",
+    "Efforts/Active/Vim Exploration/vim - navigation through changes.md",
+    "Atlas/Knowledge/Articles/dev/Untitled.md",
+    "Atlas/Knowledge/Articles/dev/Untitled 2.md",
+    "Atlas/Knowledge/Articles/dev/Untitled 1.md",
+    "vim - jump to last insert with `..md",
+    "+/Xdebug just works.md",
+    "work/tickets/FEAT/QSL listing feature/SSH issues with GIT.md",
+    "Atlas/Knowledge/daily_notes/Current or active.md",
+    "work/docs/CRM/figma for CRM.md",
+    "Efforts/Active/Vim Exploration/Vim Exploration.md",
+    "Clippings/kylechuinvim-surround Addchangedelete surrounding delimiter pairs with ease. Written with in Lua..md",
+    "Clippings/stevearcconform.nvim Lightweight yet powerful formatter plugin for Neovim.md",
+    "x",
     "tasks canvas.canvas",
-    "People MOC.md",
-    "Clippings/Setting up PHP with Docker and Nginx A Guide.md",
-    "work/people and teams/LUNA/Danijela.md",
-    "work/notes/Feedback for Natasa.md",
-    "Knowledge/notes/discovery/meta bind playground.md",
-    "Knowledge/Articles/Obsidian/In what ways can we form useful relationships between notes.md",
-    "Knowledge/Articles/Obsidian/Relationships between Notes.md",
-    "x/0df0870fc39c2be1755196cb5a11bb65_MD5.png",
-    "Knowledge/Articles/Obsidian/Map of Content.md",
-    "work/tickets/archive/Project creation from Lead/docs,diagrams, etc./diagrams/Process of creating a new project.md",
-    "Knowledge/Articles/Obsidian/🌱 What is an Evergreen Note and How Can You Create One.md",
-    "Clippings/Evergreen note.md",
-    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
-    "Knowledge/Articles/Obsidian/tag.md",
-    "work/bugs/Security issue - General file access download, passerell/Security issue - General file access download, passerell.md",
-    "work/bugs/Security issue - General file access download, passerell/x/b9d5f3c7e40c9e2155f3b8cfc83ed798_MD5.jpg",
-    "Knowledge/templates/day template.md",
-    "aaa.md",
-    "new reminder.md",
-    "Knowledge/templates/thought.md",
-    "Clippings/laravel-docker-examples.md",
-    "+/there is a web_search command as well.md",
-    "Knowledge/daily_notes/2025/02-February/2025-02-20.md",
-    "Knowledge/daily_notes/2025/02-February",
-    "Timestamps/2025/02-February",
-    "Timestamps/2025",
-    "Timestamps",
-    "x/9f87d200d057293dc4d551426b0933fd_MD5.jpg",
-    "rfc-3339.md~",
+    "~/% tmpl/pages",
+    "~/% tmpl/templater",
+    "work/calls/CRM/architecture",
+    "~/% tmpl",
+    "Atlas",
+    "work/calls/_archive",
+    "work/calls/SPRINT/PLANNING/sprint planning today",
+    "~/x/0df0870fc39c2be1755196cb5a11bb65_MD5.png",
+    "work/bugs/Security issue - General file access, passerell/x/b9d5f3c7e40c9e2155f3b8cfc83ed798_MD5.jpg",
+    "Atlas/Knowledge/daily_notes/2025/02-February",
+    "~/x/9f87d200d057293dc4d551426b0933fd_MD5.jpg",
     "e83bb595e99b0db15358588215e08bd2_MD5.webp",
-    "x/docs",
-    "x/5ac51250c5cb61e8b1f58c26db4a4039_MD5.webp",
-    "x/e83bb595e99b0db15358588215e08bd2_MD5.webp",
-    "x/0b09a5990896b544b51c6f81b76dd26a_MD5.webp",
-    "x/9faa3053f95953d7387230f468f290b3_MD5.webp",
-    "x/615647843c17954467e3b7365f50a3c4_MD5.svg",
-    "work/bugs/Security issue - General file access download, passerell/x",
-    "work/bugs/Security issue - General file access download, passerell",
+    "~/x/5ac51250c5cb61e8b1f58c26db4a4039_MD5.webp",
+    "~/x/e83bb595e99b0db15358588215e08bd2_MD5.webp",
+    "~/x/0b09a5990896b544b51c6f81b76dd26a_MD5.webp",
+    "~/x/9faa3053f95953d7387230f468f290b3_MD5.webp",
+    "~/x/615647843c17954467e3b7365f50a3c4_MD5.svg",
     "dash canvas.canvas",
-    "Efforts/Active/CSV Kit",
-    "obx_note_new.md~",
-    "x/dfac35ab27f0ebb1b93fbfd80ef2c36a_MD5.jpg",
+    "~/x/dfac35ab27f0ebb1b93fbfd80ef2c36a_MD5.jpg",
     "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
     "Knowledge/Articles/Untitled.canvas",
     "Knowledge/Articles/Untitled 1.canvas",

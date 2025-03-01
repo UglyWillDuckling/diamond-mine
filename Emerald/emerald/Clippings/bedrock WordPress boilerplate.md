@@ -1,6 +1,6 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[github]]"
 created: 2025-02-17
 published: 
 source: https://github.com/roots/bedrock?tab=readme-ov-file

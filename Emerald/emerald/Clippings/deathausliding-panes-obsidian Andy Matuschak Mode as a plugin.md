@@ -2,7 +2,7 @@
 title: "deathau/sliding-panes-obsidian: Andy Matuschak Mode as a plugin"
 source: https://github.com/deathau/sliding-panes-obsidian
 author:
-  - "[[GitHub]]"
+  - "[[github]]"
 created: 2025-01-09
 description: Andy Matuschak Mode as a plugin. Contribute to deathau/sliding-panes-obsidian development by creating an account on GitHub.
 tags:

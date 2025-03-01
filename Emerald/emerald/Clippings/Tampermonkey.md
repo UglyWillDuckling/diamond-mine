@@ -7,7 +7,7 @@ tags:
   - clippings
   - tool
 ---
-It allows its users to customize and **enhance the functionality of your favorite web pages**. `Userscripts` are small [[JavaScript]] programs that can be used to add new features or modify existing ones on web pages. With Tampermonkey, you can easily create, manage, and run these userscripts on any website you visit.
+It allows its users to customize and **enhance the functionality of your favorite web pages**. `Userscripts` are small [[javascript]] programs that can be used to add new features or modify existing ones on web pages. With Tampermonkey, you can easily create, manage, and run these userscripts on any website you visit.
 
 For example, with Tampermonkey, you could add a new button to a web page that lets you quickly share a link on social media, or to automatically fill in a form with your personal information. This is especially useful in the age of digitization, where web pages are often used as user interfaces for accessing a wide range of services and applications.
 

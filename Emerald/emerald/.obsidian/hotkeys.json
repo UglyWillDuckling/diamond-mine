@@ -311,6 +311,12 @@
         "Alt"
       ],
       "key": "V"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "\\"
     }
   ],
   "juggl:open-vis": [
@@ -333,6 +339,14 @@
         "Alt"
       ],
       "key": "S"
+    }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "-"
     }
   ]
 }

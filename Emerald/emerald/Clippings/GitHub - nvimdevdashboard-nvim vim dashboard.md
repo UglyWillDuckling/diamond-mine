@@ -1,13 +1,13 @@
 ---
 title: "GitHub - nvimdev/dashboard-nvim: vim dashboard"
-source: "https://github.com/nvimdev/dashboard-nvim"
+source: https://github.com/nvimdev/dashboard-nvim
 author:
-  - "[[GitHub]]"
-published:
+  - "[[github]]"
+published: 
 created: 2025-02-04
-description: "vim dashboard. Contribute to nvimdev/dashboard-nvim development by creating an account on GitHub."
+description: vim dashboard. Contribute to nvimdev/dashboard-nvim development by creating an account on GitHub.
 tags:
-  - "clippings"
+  - clippings
 ---
 ## Fancy and Blazing Fast start screen plugin of neovim
 

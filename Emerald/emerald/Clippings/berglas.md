@@ -2,7 +2,7 @@
 title: "GoogleCloudPlatform/berglas: A tool for managing secrets on Google Cloud"
 source: https://github.com/GoogleCloudPlatform/berglas
 author:
-  - "[[GitHub]]"
+  - "[[github]]"
 created: 2025-01-09
 description: A tool for managing secrets on Google Cloud. Contribute to GoogleCloudPlatform/berglas development by creating an account on GitHub.
 tags:

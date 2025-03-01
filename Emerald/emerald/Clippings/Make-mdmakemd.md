@@ -2,7 +2,7 @@
 title: Make-md/makemd
 source: https://github.com/make-md/makemd?tab=readme-ov-file
 author:
-  - "[[GitHub]]"
+  - "[[github]]"
 created: 2025-01-09
 description: Contribute to Make-md/makemd development by creating an account on GitHub.
 tags:

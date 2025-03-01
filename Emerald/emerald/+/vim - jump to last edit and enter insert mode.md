@@ -8,11 +8,12 @@ tags:
   - howto
   - active
 ---
-#vim #note #active 
+#vim #note #active #howto/vim 
 
 - [x] remind me (@[[2025-01-24]] 10:05)
 - [x] 1 week remind me (@[[2025-02-03]] 12:42)
-- [ ] monthly (@[[2025-02-24]])
+- [x] monthly (@[[2025-02-25]] 17:04)
+- [ ] second month (@[[2025-03-24]])
 
 `gi`
 Will take the cursor to the **exact point last edited** and put you in **insert mode**, ready to continue typing. (It's also quicker to type!)

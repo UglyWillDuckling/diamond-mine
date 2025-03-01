@@ -1,32 +1,11 @@
 {
   "scanned": true,
   "reminders": {
-    "+/It would be very useful to provide testing info for finished tasks.md": [
-      {
-        "title": "montly reminder",
-        "time": "2025-02-25",
-        "rowNumber": 6
-      }
-    ],
-    "+/vim - jump to last edit and enter insert mode.md": [
-      {
-        "title": "monthly",
-        "time": "2025-02-24",
-        "rowNumber": 14
-      }
-    ],
     "+/action is crucial, we need to define the next steps(actions) with as much detail as possible.md": [
       {
         "title": "bi-weekly",
-        "time": "2025-02-28",
+        "time": "2025-03-08",
         "rowNumber": 15
-      }
-    ],
-    "work/docs/how to/how to run the mediaAPI migration.md": [
-      {
-        "title": "monthly",
-        "time": "2025-02-26",
-        "rowNumber": 11
       }
     ],
     "Clippings/git includeif - multiple configs.md": [
@@ -36,31 +15,10 @@
         "rowNumber": 30
       }
     ],
-    "Efforts/Active/Vim Exploration/vim - navigation through changes.md": [
-      {
-        "title": "monthly",
-        "time": "2025-02-27",
-        "rowNumber": 11
-      }
-    ],
-    "Knowledge/Articles/Obsidian Physical Object System.md": [
-      {
-        "title": "come back to this article",
-        "time": "2025-02-27",
-        "rowNumber": 147
-      }
-    ],
-    "Knowledge/tools/dev/bashword.md": [
-      {
-        "title": "monthly reminder",
-        "time": "2025-03-03",
-        "rowNumber": 28
-      }
-    ],
     "Clippings/Markdown Tutorial => Horizontal Rules.md": [
       {
         "title": "remind me",
-        "time": "2025-02-26",
+        "time": "2025-03-05",
         "rowNumber": 2
       }
     ],
@@ -71,95 +29,32 @@
         "rowNumber": 4
       }
     ],
-    "+/Difference between tasks and tickets.md": [
-      {
-        "title": "remind me",
-        "time": "2025-02-26",
-        "rowNumber": 6
-      }
-    ],
     "+/Xdebug just works.md": [
       {
-        "title": "1 week",
-        "time": "2025-02-28",
-        "rowNumber": 5
-      }
-    ],
-    "+/A timeline of sorts is really missing for features.md": [
-      {
-        "title": "reminder",
-        "time": "2025-02-25",
-        "rowNumber": 2
-      }
-    ],
-    "Knowledge/tools/dev/ocrs.md": [
-      {
-        "title": "2 weeks",
-        "time": "2025-03-04",
-        "rowNumber": 12
+        "title": "monthly",
+        "time": "2025-03-28",
+        "rowNumber": 6
       }
     ],
     "+/you can usually check how a docker image is built by going to github.md": [
       {
         "title": "remind",
-        "time": "2025-02-25",
+        "time": "2025-03-04",
         "rowNumber": 4
-      }
-    ],
-    "Knowledge/notes/rfc-3339.md": [
-      {
-        "title": "remind",
-        "time": "2025-03-06",
-        "rowNumber": 5
       }
     ],
     "Clippings/tmux-resurrect.md": [
       {
         "title": "remind me",
-        "time": "2025-02-28",
+        "time": "2025-03-07",
         "rowNumber": 11
-      }
-    ],
-    "add new ssh key.md": [
-      {
-        "title": "remind me",
-        "time": "2025-02-27",
-        "rowNumber": 2
       }
     ],
     "work/tickets/FEAT/QSL listing feature/SSH issues with GIT.md": [
       {
         "title": "remind me",
-        "time": "2025-02-28",
+        "time": "2025-03-08",
         "rowNumber": 2
-      }
-    ],
-    "Clippings/Git - gitignore Documentation.md": [
-      {
-        "title": "remind me",
-        "time": "2025-02-24",
-        "rowNumber": 8
-      }
-    ],
-    "work/bugs/you can easily reference any text block by using.md": [
-      {
-        "title": "weekly",
-        "time": "2025-03-07",
-        "rowNumber": 10
-      }
-    ],
-    "Clippings/How to remove files in the .gitignore but in the repository.md": [
-      {
-        "title": "remind me",
-        "time": "2025-02-24",
-        "rowNumber": 29
-      }
-    ],
-    "work/calls/SPRINT/how to npm login on LUQA.md": [
-      {
-        "title": "remind me",
-        "time": "2025-03-10",
-        "rowNumber": 3
       }
     ],
     "+/you have the after command.md": [
@@ -169,27 +64,6 @@
         "rowNumber": 14
       }
     ],
-    "Knowledge/tools/dev/nvim/vim - quickfix list.md": [
-      {
-        "title": "remind me",
-        "time": "2025-03-11",
-        "rowNumber": 33
-      }
-    ],
-    "+/LazyNvim has a scratch buffer.md": [
-      {
-        "title": "remind me",
-        "time": "2025-02-26",
-        "rowNumber": 3
-      }
-    ],
-    "Efforts/Projects/Vim study.md": [
-      {
-        "title": "remind me  **notify** history",
-        "time": "2025-02-24",
-        "rowNumber": 28
-      }
-    ],
     "Efforts/Projects/ssh access issue.md": [
       {
         "title": "remind me",
@@ -197,17 +71,116 @@
         "rowNumber": 4
       }
     ],
+    "work/calls/CRM/Vim LazyVim - Fzf controls.md": [
+      {
+        "title": "remind me qf list navigation",
+        "time": "2025-03-03",
+        "rowNumber": 4
+      }
+    ],
+    "Clippings/How to remove files in the .gitignore but in the repository.md": [
+      {
+        "title": "monthly",
+        "time": "2025-03-17",
+        "rowNumber": 18
+      }
+    ],
+    "work/docs/CRM/how to npm login on LUQA (AWS).md": [
+      {
+        "title": "remind me",
+        "time": "2025-03-10",
+        "rowNumber": 3
+      }
+    ],
     "+/there is a web_search command as well.md": [
       {
-        "title": "remind me of `web_search`",
-        "time": "2025-02-25",
-        "rowNumber": 2
+        "title": "monthly web search",
+        "time": "2025-03-25",
+        "rowNumber": 3
+      }
+    ],
+    "+/vim - jump to last edit and enter insert mode.md": [
+      {
+        "title": "second month",
+        "time": "2025-03-24",
+        "rowNumber": 15
+      }
+    ],
+    "Atlas/Knowledge/Articles/Obsidian Physical Object System.md": [
+      {
+        "title": "come back to this article",
+        "time": "2025-03-07",
+        "rowNumber": 147
+      }
+    ],
+    "Atlas/Knowledge/How To's/vim - jump through the change list.md": [
+      {
+        "title": "monthly",
+        "time": "2025-03-17",
+        "rowNumber": 6
+      }
+    ],
+    "Atlas/Knowledge/notes/rfc-3339.md": [
+      {
+        "title": "remind",
+        "time": "2025-03-06",
+        "rowNumber": 5
+      }
+    ],
+    "Atlas/Knowledge/tools/dev/bashword.md": [
+      {
+        "title": "monthly reminder",
+        "time": "2025-03-03",
+        "rowNumber": 28
+      }
+    ],
+    "Atlas/Knowledge/tools/dev/ocrs.md": [
+      {
+        "title": "2 weeks",
+        "time": "2025-03-04",
+        "rowNumber": 12
+      }
+    ],
+    "Atlas/Knowledge/tools/dev/nvim/vim - quickfix list.md": [
+      {
+        "title": "remind me",
+        "time": "2025-03-11",
+        "rowNumber": 33
+      }
+    ],
+    "Atlas/Knowledge/How To's/you can easily reference any text block by using.md": [
+      {
+        "title": "weekly",
+        "time": "2025-03-07",
+        "rowNumber": 9
+      }
+    ],
+    "+/LazyNvim has a scratch buffer.md": [
+      {
+        "title": "biweekly",
+        "time": "2025-03-10",
+        "rowNumber": 4
+      }
+    ],
+    "+/Difference between tasks and tickets.md": [
+      {
+        "title": "remind me",
+        "time": "2025-03-03",
+        "rowNumber": 6
+      }
+    ],
+    "Clippings/Nuphy AIR 75 connection problem (BT + Dongle) and side leds not working!!.md": [
+      {
+        "title": "remind me nuphy",
+        "time": "2025-03-18",
+        "rowNumber": 18
       }
     ]
   },
   "debug": false,
   "settings": {
     "reminderTime": "09:00",
+    "reminderTimeStep": 15,
     "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
     "useSystemNotification": false,
     "autoCompleteTrigger": "(@",

@@ -1,13 +1,13 @@
 ---
 title: "fedepujol/move.nvim: Gain the power to move lines and blocks and auto-indent them!"
-source: "https://github.com/fedepujol/move.nvim"
+source: https://github.com/fedepujol/move.nvim
 author:
-  - "[[GitHub]]"
-published:
+  - "[[github]]"
+published: 
 created: 2024-11-21
-description: "Gain the power to move lines and blocks and auto-indent them! - fedepujol/move.nvim"
+description: Gain the power to move lines and blocks and auto-indent them! - fedepujol/move.nvim
 tags:
-  - "clippings"
+  - clippings
 ---
 ## move.nvim
 

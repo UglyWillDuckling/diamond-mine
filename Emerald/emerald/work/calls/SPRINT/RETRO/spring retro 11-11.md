@@ -22,4 +22,4 @@
 
 - & find things to demonstrate on the Sprint review
 	- we can use stuff from `education` and `pair programming calls`
-- testing call 📲 during [[Knowledge/concepts/pair programming]]
+- testing call 📲 during [[Atlas/Knowledge/concepts/pair programming]]

@@ -1,6 +1,6 @@
 {
   "autorun": true,
   "template": "Knowledge/templates/day template",
-  "folder": "Knowledge/daily_notes",
+  "folder": "Atlas/Knowledge/daily_notes",
   "format": "YYYY/MM-MMMM/YYYY-MM-DD-ddd"
 }

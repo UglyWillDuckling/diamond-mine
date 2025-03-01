@@ -13,4 +13,4 @@ All of this simplifies actual work and allows us to have a complete understand o
 %% will need to be rewritten %%
 
 - [x] remind me (@[[2025-02-04]] 11:34)
-- [ ] bi-weekly (@[[2025-02-28]])
+- [ ] bi-weekly (@[[2025-03-08]])

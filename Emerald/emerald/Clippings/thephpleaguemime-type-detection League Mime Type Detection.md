@@ -1,13 +1,13 @@
 ---
 title: "thephpleague/mime-type-detection: League Mime Type Detection"
-source: "https://github.com/thephpleague/mime-type-detection"
+source: https://github.com/thephpleague/mime-type-detection
 author:
-  - "[[GitHub]]"
-published:
+  - "[[github]]"
+published: 
 created: 2024-12-04
-description: "League Mime Type Detection. Contribute to thephpleague/mime-type-detection development by creating an account on GitHub."
+description: League Mime Type Detection. Contribute to thephpleague/mime-type-detection development by creating an account on GitHub.
 tags:
-  - "clippings"
+  - clippings
 ---
 ## League Mime Type Detection
 

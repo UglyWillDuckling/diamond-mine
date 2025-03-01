@@ -1,7 +1,7 @@
 ---
 date: 2024-12-10
 related:
-  - "[[Knowledge/concepts/pair programming]]"
+  - "[[Atlas/Knowledge/concepts/pair programming]]"
   - "[[calls]]"
 ---
 #work #work/call #call #pair-programming-call

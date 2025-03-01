@@ -1,6 +1,6 @@
 #issue/git
 
-- [ ] remind me (@[[2025-02-28]])
+- [ ] remind me (@[[2025-03-08]])
 ## git uses the first added key only!
 
 An issue can occur if multiple keys are added to the [[ssh agent]].
@@ -25,11 +25,14 @@ ssh-add ~/.ssh/id_{key}
 
 ## **notes**
 
-ssh adds by default the key named `id_rsa`, the rest are added manually
-It seems that git can work with **multiple** keys, at least when a `default` one is used and another one is then added.
+1. ssh adds by default the key named `id_rsa`, the rest are added manually
+	It seems that git can work with **multiple** keys, at least when a `default` one is used and another one is then added.
 
-Example:
+**Example**:
 1. a `id_rsa` key file exists
 2. ssh picks up the key **automatically**
 3. another key is added `ssh-add ~/.ssh/{key_name}`
 4. git now uses **both** keys
+
+not sure about this one
+- [ ] test this hypothesis

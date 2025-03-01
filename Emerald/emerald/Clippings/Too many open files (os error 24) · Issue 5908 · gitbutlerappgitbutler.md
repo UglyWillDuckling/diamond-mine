@@ -3,7 +3,7 @@ source: https://github.com/gitbutlerapp/gitbutler/issues/5908
 created: 2025-02-04
 related:
   - "[[git]]"
-  - "[[Git Butler]]"
+  - "[[git butler]]"
   - "[[Too many open files (os error 24) · Issue 5908 · gitbutlerappgitbutler]]"
   - "[[Errno 24 Too many open files...]]"
 tags:

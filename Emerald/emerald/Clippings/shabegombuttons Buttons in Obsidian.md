@@ -2,7 +2,7 @@
 title: "shabegom/buttons: Buttons in Obsidian"
 source: https://github.com/shabegom/buttons
 author:
-  - "[[GitHub]]"
+  - "[[github]]"
 published: 
 created: 2024-12-05
 description: Buttons in Obsidian. Contribute to shabegom/buttons development by creating an account on GitHub.

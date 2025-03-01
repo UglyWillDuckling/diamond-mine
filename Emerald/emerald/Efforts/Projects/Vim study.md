@@ -26,4 +26,4 @@ press `.,`
 
 `,n`
 
-- [ ] remind me  **notify** history (@[[2025-02-24]])
+- [x] remind me  **notify** history (@[[2025-02-24]])

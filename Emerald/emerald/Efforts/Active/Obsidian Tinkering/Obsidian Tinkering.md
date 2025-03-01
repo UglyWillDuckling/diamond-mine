@@ -23,7 +23,7 @@ related:
 	- [ ] **search** plugins
 	- [ ] explore `online`
 
-- [/] #task Explore [[People MOC]], Dann 🆔 JXgKvh 📅 2025-02-21
+- [/] #task Explore [[People MOC]], Dann 🆔 JXgKvh 📅 2025-02-27
 	
 - [/] #task Explore [[Meta Bind Plugin]] ⏳ 2025-02-24 📅 2025-02-28 🆔 AbTXbd
 	- [[meta bind playground]]

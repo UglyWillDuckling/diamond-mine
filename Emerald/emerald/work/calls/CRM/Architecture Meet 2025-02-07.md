@@ -2,18 +2,17 @@
 date: 2025-02-07T13:00
 previous: "[[arch meeting 2025-01-24|prev meet]]"
 duration: 60
+scheduled: 2025-02-07T13:00
 ---
-#work #work/call #call #call/architecture
+#work #work/call #call #call/work/crm/architecture 
 
 `= this.previous`
 
 date:: `INPUT[dateTime:date]`
 
-filename = `= this.file.name`
+filename: `= this.file.name`
 
-date = `= date(this.date)`
-
-Today is `= date(today)` 
+date and time: `= date(this.scheduled)`
 
 ## who
 - [[luna team]]

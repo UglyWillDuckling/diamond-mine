@@ -2,7 +2,7 @@
 date: 2025-01-30T10:00:00
 link:
 ---
-#work #work/call #call
+#work #work/call #call #needs-review
 
 ## who
 - [[luna team]], [[Corentin]]
@@ -38,3 +38,6 @@ my estimate: 5
 
 > [!check] needs to be refined
 > This will require further **discussion** and design
+
+___
+#needs-review #under-review

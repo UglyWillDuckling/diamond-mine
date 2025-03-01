@@ -2,7 +2,7 @@
 title: "Versent/saml2aws: CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP"
 source: https://github.com/Versent/saml2aws/issues/1203
 author:
-  - "[[GitHub]]"
+  - "[[github]]"
 published: 
 created: 2025-01-09
 description: CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP - Versent/saml2aws

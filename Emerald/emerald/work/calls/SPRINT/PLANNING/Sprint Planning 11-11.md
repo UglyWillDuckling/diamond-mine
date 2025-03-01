@@ -21,5 +21,5 @@ continuing with this. I will be working
 ### education 🎒
 
 [[Ivan Vukusic]] and [[Ivan Culina]] on education
-- [[Knowledge/Education/React/react|react]]
+- [[Atlas/Knowledge/Education/React/react|react]]
 - [[fastify]]

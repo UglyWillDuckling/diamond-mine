@@ -13,4 +13,4 @@ This will generated 2 certificate files
 
 You can use these files with with a [[web server]] now
 
-**related**:: [[SSL]], [[SSL certificate]], [[write down how to setup local ssl certificate]]
+**related**:: [[SSL]], [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]], [[write down how to setup local ssl certificate]]

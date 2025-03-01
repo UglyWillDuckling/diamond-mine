@@ -30,18 +30,6 @@
 		},
 		{
 			"autoResizeHeight":false,
-			"color":"#79b224",
-			"height":289,
-			"id":"68961bc3c07571ad",
-			"styleAttributes":{},
-			"text":"### This month\n\n```tasks\nnot done \n(has due date) OR (has scheduled date)\n((due after this week) AND (due in or before next 4 weeks)) OR ((scheduled after this week) AND (scheduled in or before next 4 weeks))\nsort by due\nhide tags\nshort mode\n```",
-			"type":"text",
-			"width":615,
-			"x":360,
-			"y":51
-		},
-		{
-			"autoResizeHeight":false,
 			"color":"4",
 			"height":718,
 			"id":"fd8d806473e9e81d",
@@ -54,32 +42,8 @@
 		},
 		{
 			"autoResizeHeight":false,
-			"color":"3",
-			"height":110,
-			"id":"0f0ed0b59ea9a0ad",
-			"styleAttributes":{},
-			"text":"**Waiting**\n\n```tasks\nnot done\ntags includes #waiting\nshow tree\nshort mode\n```\n",
-			"type":"text",
-			"width":420,
-			"x":60,
-			"y":-270
-		},
-		{
-			"autoResizeHeight":false,
-			"color":"1",
-			"height":130,
-			"id":"98842ea77f333413",
-			"styleAttributes":{},
-			"text":"**Clarify**\n\n```tasks\nnot done\ntags includes #clarify\nhide tags\nshort mode\n```\n",
-			"type":"text",
-			"width":420,
-			"x":500,
-			"y":-355
-		},
-		{
-			"autoResizeHeight":false,
 			"color":"6",
-			"height":200,
+			"height":145,
 			"id":"b226912847dd7720",
 			"styleAttributes":{"textAlign":"center"},
 			"text":"\n### tiny\n```tasks\nnot done\ntags include #tiny\n```\n\n\n",
@@ -125,6 +89,42 @@
 			"width":220,
 			"x":100,
 			"y":-620
+		},
+		{
+			"autoResizeHeight":false,
+			"color":"#79b224",
+			"height":460,
+			"id":"68961bc3c07571ad",
+			"styleAttributes":{},
+			"text":"### This month\n\n```tasks\nnot done \n(has due date) OR (has scheduled date)\n((due after this week) AND (due in or before next 4 weeks)) OR ((scheduled after this week) AND (scheduled in or before next 4 weeks))\nsort by due\nhide tags\nshort mode\n```",
+			"type":"text",
+			"width":615,
+			"x":360,
+			"y":-100
+		},
+		{
+			"autoResizeHeight":false,
+			"color":"1",
+			"height":130,
+			"id":"98842ea77f333413",
+			"styleAttributes":{},
+			"text":"**Clarify**\n\n```tasks\nnot done\ntags includes #clarify\nhide tags\nshort mode\n```\n",
+			"type":"text",
+			"width":420,
+			"x":555,
+			"y":-435
+		},
+		{
+			"autoResizeHeight":false,
+			"color":"3",
+			"height":110,
+			"id":"0f0ed0b59ea9a0ad",
+			"styleAttributes":{},
+			"text":"**Waiting**\n\n```tasks\nnot done\ntags includes #waiting\nshow tree\nshort mode\n```\n",
+			"type":"text",
+			"width":420,
+			"x":110,
+			"y":-305
 		}
 	]
 }

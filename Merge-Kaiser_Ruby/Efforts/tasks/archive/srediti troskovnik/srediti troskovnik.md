@@ -1,6 +1,6 @@
 #excel
 #PDV
-[[Zeljko]]
+[[Atlas/Life/People/Zeljko]]
 
 - Striko
 - mail

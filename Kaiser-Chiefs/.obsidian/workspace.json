@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1b04837b3b87b450",
+        "id": "999fcbdb437e82e9",
         "type": "tabs",
         "children": [
           {
-            "id": "1751db99c305ea69",
+            "id": "1eac6b0c60a972ca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Odrzavanja kuce.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Odrzavanja kuce"
             }
           }
         ]
@@ -204,11 +208,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "67ac4e3f4e315e0f",
+  "active": "1eac6b0c60a972ca",
   "lastOpenFiles": [
+    "Master Task List.md",
+    "su command.md",
+    "new.md",
+    "Odrzavanja kuce.md",
+    "tasks canvas.canvas",
+    "Atlas/Dev/notes/Golden Topaz is great for reading.md",
+    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
     "Efforts/Active/Persona/persona ssl cronjob.md",
     "Efforts/Master Task List.md",
-    "Master Task List.md",
     "Atlas/Tools/Hostinger Backup.md",
     "Atlas/Knowledge/howtos/how to change the hostname on a linux machie.md",
     "Atlas/Dev/notes/fixing the bad shell path issue.md",
@@ -219,19 +229,14 @@
     "Clippings/The Ultimate Crontab Cheatsheet  Codementor.md",
     "Clippings/Crontab Generator.md",
     "Efforts/Ongoing/VPS/second VPS.md",
-    "su command.md",
     "Clippings/How to Change Hostname on Ubuntu.md",
     "Clippings/Pluggable Authentication Module.md",
     "PAM Framework.md",
     "Calendar/daily/2025-02-15.md",
-    "Odrzavanja kuce.md",
-    "tasks canvas.canvas",
     "Atlas/Tools/pc/rsync.md",
     "Senka.md",
     "Atlas/Personal/notes/Vim mapping for resume search.md",
-    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
     "Efforts/Ongoing/PC Maintenance/docs/new gpg key on PC.md",
-    "desktop Compositor issue on KDE.md",
     "Efforts/Ongoing/PC Maintenance/docs",
     "howot",
     "Efforts/Active/Kuca/docs/dokumenti x/Elektronicki_zapis-radna_knjizica.pdf",

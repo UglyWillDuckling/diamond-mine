@@ -2,8 +2,8 @@
 
 A shared folder that is symlinked
 ## plugins
- [[callout list]]
+ [[Atlas/Tools/obsidian/plugins/callout list]]
 - [[quickadd]]
-- [[Tasks plugin]]
+- [[Atlas/Knowledge/Knowledge/tools/Tasks plugin]]
 
-- [ ] #task **share** stuff ==between== vaults 🔼 
+- [ ] #task **share** stuff ==between== vaults 🔼  🆔 s7fGVt

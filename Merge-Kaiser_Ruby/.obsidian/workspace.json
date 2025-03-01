@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1b04837b3b87b450",
+        "id": "3dd3c197be0fd9a7",
         "type": "tabs",
         "children": [
           {
-            "id": "1751db99c305ea69",
+            "id": "772444999c774e1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/daily/2025-02-19.md",
+                "file": "Efforts/Ongoing/Vim Mastery/Nvim - Lsp - How to inspect info.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-19"
+              "title": "Nvim - Lsp - How to inspect info"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.50260543823242
+    "width": 260.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "6b26b603c051936f",
@@ -94,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Clippings/OpenSSH Config File Examples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for OpenSSH Config File Examples"
             }
           },
           {
@@ -145,7 +147,7 @@
             }
           },
           {
-            "id": "55fe5da9bd49ac30",
+            "id": "8713e99fbd716e12",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -160,7 +162,7 @@
             }
           },
           {
-            "id": "5c84a53a3efc7a68",
+            "id": "226384866ec4d527",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -170,7 +172,7 @@
             }
           },
           {
-            "id": "1530d74fd1fa5492",
+            "id": "105da04c90fad0e6",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -179,17 +181,17 @@
               "title": "Juggl style"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 476.5,
-    "collapsed": true
+    "width": 852.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian42-brat:BRAT": true,
-      "task-board:Open task board": false,
+      "task-board:Open task board": true,
       "juggl:Juggl global graph": true,
       "templater-obsidian:Templater": false,
       "obsidian-kanban:Create new board": false,
@@ -208,35 +210,38 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1751db99c305ea69",
+  "active": "772444999c774e1c",
   "lastOpenFiles": [
-    "Atlas/templates/daily template v2.md",
-    "Calendar/daily/2025-02-19.md",
+    "Clippings/OpenSSH Config File Examples.md",
+    "Calendar/daily/2025/2025-02-25-Tue.md",
+    "Clippings/OpenSSH Config File Examples.md~",
+    "Calendar/daily/2025/2025-02-24-Mon.md",
+    "+/Ordinacija obiteljske medicine – Ivana Agatić Rašković.md",
     "Master Task List.md",
-    "Kristijan Sedlar.md",
+    "notes",
+    "x",
+    "Spavanja promijena napredak.md",
+    "Untitled.md",
+    "Mirna 30ti rođendan.md",
+    "Calendar/daily/2025-02-24.md",
     "dash 💨.md",
-    "2025-02-18.md",
-    "2025-02-17.md",
-    "Efforts/Active/Persona/persona ssl cronjob.md",
-    "Efforts/Master Task List.md",
-    "Atlas/Tools/Hostinger Backup.md",
-    "Atlas/Knowledge/howtos/how to change the hostname on a linux machie.md",
-    "Atlas/Dev/notes/fixing the bad shell path issue.md",
-    "Atlas/Tools/pc/Hostinger Snapshot.md",
-    "Efforts/Active/Persona/certificate renewal.md",
-    "Atlas/Knowledge/howtos/certbot renew process.md",
-    "Clippings/The Ultimate Crontab Cheatsheet  Codementor.md",
-    "Clippings/Crontab Generator.md",
-    "Efforts/Ongoing/VPS/second VPS.md",
-    "su command.md",
-    "Clippings/How to Change Hostname on Ubuntu.md",
-    "Clippings/Pluggable Authentication Module.md",
-    "PAM Framework.md",
-    "Calendar/daily/2025-02-15.md",
-    "Odrzavanja kuce.md",
+    "Atlas/Knowledge/howtos/how to check DNS info.md",
+    "Clippings/Fix ‘ERROR failed to solve error getting credentials – err exit status 1, out ’.md",
+    "Efforts/Ongoing/PC Maintenance/docs/new gpg key on PC.md",
+    "Efforts/Ongoing/PC Maintenance/MaintenancePC.md",
+    "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞.md",
+    "Efforts/booking-rezervacija rogaska.md",
+    "Efforts/Ongoing/Vacation",
+    "Efforts/Active/Techdot.IO/Techdot.IO.md",
+    "Efforts/Active/Techdot.IO/techdot.io domain.md",
+    "Efforts/Ongoing/Studying Python/Python Conversion.md",
+    "Clippings/Arch Linux - moreutils 0.70-1 (x86_64).md",
+    "Atlas/Knowledge/Knowledge/howtos/what is running on port ??.md",
+    "Atlas/Knowledge/Knowledge/Places/Kuća tambure.md",
+    "Atlas/Knowledge/Knowledge/Articles/Articles.md",
+    "Atlas/Knowledge/Knowledge/Books/Books.md",
+    "Atlas/Knowledge/Knowledge/howtos/howtos.md",
     "tasks canvas.canvas",
-    "Atlas/Tools/pc/rsync.md",
-    "Senka.md",
     "Efforts/Ongoing/PC Maintenance/docs",
     "howot",
     "Efforts/Active/Kuca/docs/dokumenti x/Elektronicki_zapis-radna_knjizica.pdf",
@@ -244,10 +249,6 @@
     "Yin-Yang/resources/logo.svg",
     "Efforts/Active/Kuca/docs/dokumenti x/Potvda o blokadi računa i novčanih sredstava.pdf",
     "Yin-Yang/yin_yang/ui/resources_rc.py",
-    "Yin-Yang/yin_yang/ui/main_window_connector.py",
-    "Yin-Yang/yin_yang/ui/main_window.py",
-    "Yin-Yang/yin_yang/ui/__init__.py",
-    "Yin-Yang/yin_yang/plugins/wallpaper.py",
     "tasks pic.canvas",
     "~/×/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"

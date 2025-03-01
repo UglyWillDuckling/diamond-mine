@@ -596,6 +596,14 @@ ratified
 restoring
 refered
 rewrite
+resmon
+rezervacija
+rogaska
+rodendan
+resursi
+ro
+radionica
+raditi
 status
 ssl
 syncing
@@ -1517,6 +1525,12 @@ sss
 similiar
 stdin
 shebang
+savjet
+slucaju
+sublicense
+str
+skola
+sestra
 doesn
 due
 depends
@@ -2099,7 +2113,13 @@ dom
 dow
 declaring
 descriptor
-dob
+daj
+datum
+decko
+dan
+doga
+doktor
+dzsb
 work
 workin
 waiting
@@ -2382,6 +2402,7 @@ wire
 wil
 wild
 weekday
+wFvjtU
 to
 task
 the
@@ -2889,6 +2910,10 @@ transferring
 transfers
 transmitting
 talkative
+tjedan
+tlnp
+tasklist
+tuple
 previewLink
 persona
 plugin
@@ -3741,7 +3766,11 @@ policies
 passwd
 parser
 predictions
+pGTKZy
 pocisti
+pursuant
+plesa
+potrazi
 on
 out
 other
@@ -4113,6 +4142,13 @@ onmessage
 occupies
 openpgp
 optimization
+odmor
+orphaned
+organizirati
+okolici
+ordinacija
+ordinaciji
+oom
 for
 file
 folders
@@ -4524,6 +4560,9 @@ fmt
 flair
 fancy
 fsdfd
+findstr
+fuser
+fundamentally
 Setup
 Sri
 Spanish
@@ -5043,6 +5082,9 @@ Specifically
 Systems
 Slash
 Snapshots
+Spa
+Slavonski
+Srijeda
 Persona
 Portuguese
 Parisians
@@ -5479,6 +5521,10 @@ Patch
 Pool
 PAM
 Pluggable
+Poly
+Pizza
+Ponedjeljak
+Petak
 mail
 migrate
 mark
@@ -5951,6 +5997,10 @@ mimic
 multiples
 maintains
 mechanisms
+mgpFNP
+mixed
+mine
+med
 copy
 connect
 contain
@@ -6746,6 +6796,12 @@ cronjobs
 crontabs
 charaters
 closing
+cautious
+casting
+conversions
+cchisl
+cloudflare
+cRS
 error
 extremely
 existed
@@ -7215,7 +7271,11 @@ expiry
 edits
 enforce
 executes
+explicit
+electron
 endan
+emotions
+etvrtak
 is
 in
 issue
@@ -7739,7 +7799,13 @@ interventation
 infrastructure
 incorporation
 intervals
+ide
+investigating
 ipv
+integers
+ideje
+internetu
+inje
 Next
 Now
 Network
@@ -7960,6 +8026,8 @@ NotFound
 NetBSD
 Norman
 NSS
+Netstat
+Nikole
 Directories
 During
 Dutch
@@ -8328,7 +8396,8 @@ Department
 Dempsey
 Debra
 DragonFly
-Doktorica
+Different
+Doma
 Working
 World
 With
@@ -8895,6 +8964,10 @@ Towards
 Troy
 Temporarily
 Thrice
+Tasklist
+Trademark
+Torvalds
+Telefon
 background
 between
 br
@@ -9344,7 +9417,7 @@ bronze
 broker
 backups
 beta
-bratic
+bjv
 FFB
 French
 France
@@ -9651,6 +9724,7 @@ Freebsd
 Flexible
 Foundation
 Fixed
+FTP
 CA
 Ceylon
 Caribbean
@@ -10163,6 +10237,9 @@ Char
 Comma
 Crontabs
 CGI
+Conversions
+Casting
+Config
 all
 again
 and
@@ -10760,6 +10837,7 @@ authenticator
 annually
 afile
 appending
+aktivnosti
 had
 his
 houses
@@ -11348,6 +11426,7 @@ nofollow
 naive
 newsgroup
 nMfbCO
+netstat
 using
 useful
 until
@@ -11900,7 +11979,7 @@ Grsync
 Gzip
 Gilbert
 Granting
-Godina
+Griffin
 Obisdian
 Origins
 Obtaining
@@ -12115,6 +12194,9 @@ ObservableGauge
 OpenTelemtry
 Obtain
 OpenPAM
+OZBwNh
+Onda
+Odlaskom
 version
 very
 volume
@@ -12825,6 +12907,8 @@ AIX
 Authorization
 Allowed
 Asterisk
+Aaron
+Agati
 Muslim
 Mecca
 Mail
@@ -13229,6 +13313,8 @@ Minute
 Minutes
 Months
 Meaning
+Mes
+Medicinska
 long
 left
 later
@@ -13559,6 +13645,8 @@ logos
 librsync
 latency
 ldap
+lsof
+licensee
 By
 Baba
 Budan
@@ -13895,6 +13983,8 @@ Barring
 Burns
 Bert
 Backups
+Brodu
+Brod
 In
 Indian
 Italy
@@ -14152,6 +14242,8 @@ Implement
 Implementations
 Integrating
 Implementing
+Incompatible
+Ivana
 European
 Europe
 Example
@@ -14423,6 +14515,7 @@ EventSource
 EED
 Elsevier
 Executable
+Explicit
 Lanka
 Let
 Looks
@@ -14671,6 +14764,9 @@ LiPickaxe
 Layer
 LDAP
 LiBadgeMinus
+Levente
+LMI
+Linus
 Java
 Job
 JMBAG
@@ -14832,6 +14928,7 @@ JHV
 Jetbrains
 Jun
 Johns
+Judd
 growing
 getting
 guide
@@ -15101,6 +15198,9 @@ getElementById
 gided
 gpg
 greenend
+grep
+gosti
+grupne
 zadaci
 zeguel
 za
@@ -15239,6 +15339,7 @@ zyF
 zPI
 zatrazio
 zsync
+zanimljive
 je
 jesu
 jos
@@ -15908,7 +16009,9 @@ Replication
 Ramsey
 Reboot
 Required
-Ro
+Regice
+RPQKX
+Radno
 your
 you
 yet
@@ -16213,6 +16316,8 @@ UpDownCounter
 UnsupportedMediaType
 UDP
 Usenet
+Ulica
+Utorak
 Your
 You
 York
@@ -16506,6 +16611,10 @@ kickstart
 koa
 krb
 kraja
+karting
+kuglanje
+kombinirali
+kovi
 xethred
 xml
 xmlns
@@ -16891,6 +17000,7 @@ KDEs
 Khalid
 Kerberos
 KRB
+Kreativni
 Vault
 VCard
 Video
@@ -17040,6 +17150,8 @@ Void
 Values
 VSS
 Valid
+Vinet
+Vrijeme
 Quiz
 QA
 Questions
@@ -17271,6 +17383,7 @@ Zsh
 Zorin
 Zstd
 Zlib
+Zrinskog
 XML
 XAMPP
 Xc

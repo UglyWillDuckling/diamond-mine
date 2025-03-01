@@ -1,0 +1,17 @@
+{
+  "cache": null,
+  "settings": {
+    "accounts": [],
+    "defaultPageSize": 10,
+    "showPagination": true,
+    "showRefresh": true,
+    "showExternalLink": true,
+    "logLevel": 0,
+    "tagTooltips": false,
+    "tagShowPRMergeable": false,
+    "cacheIntervalSeconds": 60,
+    "maxCacheAgeHours": 120,
+    "minRequestSeconds": 60
+  },
+  "dataVersion": 1
+}

@@ -98,7 +98,9 @@ used [[How to remove files in the .gitignore but in the repository]]
 
 ### CLI with [[bashly]]
 
-
+- docker commands
+- ? wp commands
+- ..
 
 
 [^1]: [[Dockerfile Target]]

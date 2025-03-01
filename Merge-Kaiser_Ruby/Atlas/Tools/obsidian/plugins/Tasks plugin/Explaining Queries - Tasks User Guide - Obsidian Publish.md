@@ -10,7 +10,7 @@ tags:
 ---
 ![icon|50](https://publish.obsidian.md/favicon.ico?4bb6aa9a821f975db2a1)
 
-about:: [[Tasks plugin]]
+about:: [[Atlas/Tools/obsidian/plugins/Tasks plugin/Tasks plugin]]
 ## Overview: the 'explain' instruction
 
 Introduced in Tasks 1.19.0.

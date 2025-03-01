@@ -4,7 +4,7 @@
 
 about:: [[Deno]], [[Deno Web Server]]
 
-- [x] #task Explore [[Deno Web Server]] ⏳ 2025-02-12 📅 2025-02-14 🆔 2ieFkV ✅ 2025-02-14
+- [x] #task Explore [[Deno Web Server]] ⏳ 2025-02-12 📅 2025-02-14 🆔 2ieFkV ✅ 2025-02-14 #dev #fun
 	- [ ]  look at [[oak framework|oak]]
 ___
 ## oak
@@ -193,4 +193,4 @@ await app.listen({ hostname: "127.0.0.1", port: 8000 });
 
 #### https server
 > [!info]
-> Requires [[SSL certificate]]s
+> Requires [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]s

@@ -1,10 +1,14 @@
 {
-  "theme": "moonstone",
+  "theme": "obsidian",
   "cssTheme": "Minimal",
-  "accentColor": "#f9ab62",
+  "accentColor": "#e67a33",
   "baseFontSizeAction": true,
   "baseFontSize": 16,
   "enabledCssSnippets": [
-    "remove_table_padding_dv"
+    "dataview-margin-remove",
+    "remove_folder_icon",
+    "remove_table_padding_dv",
+    "tasks_padding",
+    "tree_padding"
   ]
 }

@@ -1,5 +1,5 @@
 ---
-related: "[[IVANA AGATIĆ RAŠKOVIĆ]]"
+related: "[[+/IVANA AGATIĆ RAŠKOVIĆ]]"
 ---
 Odlaskom [[Stjepan Žagar]] dr. med iz Doma zdravlja Slavonski Brod u ordinaciji počinje raditi Ivana Agatić Rašković, dr.med
 

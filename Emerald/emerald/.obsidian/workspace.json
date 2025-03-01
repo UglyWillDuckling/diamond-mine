@@ -1,29 +1,14 @@
 {
   "main": {
-    "id": "896fb77528c50fee",
+    "id": "19b95c9e12174138",
     "type": "split",
     "children": [
       {
-        "id": "2f72d0976c923978",
+        "id": "bdaa2398d05c08b1",
         "type": "tabs",
         "children": [
           {
-            "id": "c9b58eaca7ce97cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/example Modal using Gemini.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "example Modal using Gemini"
-            }
-          },
-          {
-            "id": "2bd71bce0c5ac1c8",
+            "id": "6498b8401340aa08",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,22 +22,21 @@
               "title": "2025-03-01-Sat"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "abf2911f56f916d8",
+    "id": "d2c8174330e8fc4f",
     "type": "split",
     "children": [
       {
-        "id": "396d97731e40095f",
+        "id": "74722ab8c20300b6",
         "type": "tabs",
         "children": [
           {
-            "id": "688b3d615137a273",
+            "id": "a87c234f19295953",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -65,12 +49,12 @@
             }
           },
           {
-            "id": "38f920169df534f5",
+            "id": "663b43744af4d4d7",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "migrate vim",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +66,7 @@
             }
           },
           {
-            "id": "30bd1d2383f253d2",
+            "id": "c102f4929dd5c986",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,41 +75,27 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 490.5110321044922
+    "width": 300
   },
   "right": {
-    "id": "0bce692d28de0848",
+    "id": "a4cc5cab7d2ca3c4",
     "type": "split",
     "children": [
       {
-        "id": "65b8ffe11667d608",
+        "id": "4c72f380de770d19",
         "type": "tabs",
         "children": [
           {
-            "id": "bae038ccea34ead9",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "4c75dd1dc94107ca",
+            "id": "0295735161264f4f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,60 +105,40 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for QSL listing feature"
+              "title": "Backlinks for 2025-03-01-Sat"
             }
           },
           {
-            "id": "a677e5cf3e3fb9c3",
+            "id": "22b591c5c15ac6c0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from QSL listing feature"
+              "title": "Outgoing links from 2025-03-01-Sat"
             }
           },
           {
-            "id": "c61722d2f0288e0a",
+            "id": "b88cc7be919bf484",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "tag",
               "state": {
-                "file": "Atlas/Knowledge/Articles/dev/Morgen Planner.md",
-                "followCursor": false,
+                "sortOrder": "frequency",
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-list",
-              "title": "Outline of Morgen Planner"
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
-            "id": "66215144ab6ceed1",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
-            "id": "4a7e351c6d81ef9d",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "83a3eb7907bec801",
+            "id": "8cb08ee703f87d78",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -202,7 +152,22 @@
             }
           },
           {
-            "id": "f3d26d9f4b79cf54",
+            "id": "42537086106242f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-03-01-Sat"
+            }
+          },
+          {
+            "id": "47049f74c4eba867",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -212,7 +177,7 @@
             }
           },
           {
-            "id": "015e0b12424c0bc6",
+            "id": "0ba59d82ab129e67",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -222,118 +187,48 @@
             }
           },
           {
-            "id": "c6a999a37906ae19",
+            "id": "b8c46bade201d437",
             "type": "leaf",
             "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "work/Projects/LUQA/useref react.md"
-              },
-              "icon": "lucide-info",
-              "title": "File properties for useref react"
-            }
-          },
-          {
-            "id": "e58c1e7bd6c12e73",
-            "type": "leaf",
-            "state": {
-              "type": "khoj-chat-view",
+              "type": "reminder-list",
               "state": {},
-              "icon": "message-circle",
-              "title": "Khoj Chat"
+              "icon": "clock",
+              "title": "Reminders"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 809.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "khoj:Khoj": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-      "juggl:Juggl global graph": false,
-      "graph:Open graph view": true,
-      "workspaces:Manage workspace layouts": true,
-      "templater-obsidian:Templater": false,
-      "quickadd:QuickAdd": true,
-      "obsidian-book-search-plugin:Create new book note": true,
-      "obsidian42-brat:BRAT": true,
-      "cmdr:Graph view: Open local graph": false,
-      "cmdr:Workspaces: Manage workspace layouts": false,
-      "cmdr:Daily notes: Open today's daily note": false,
-      "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-kanban:Create new board": false,
-      "zk-prefixer:Create new unique note": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "obsidian42-brat:BRAT": false,
+      "quickadd:QuickAdd": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "cmdr:Graph view: Open local graph": false,
+      "cmdr:Workspaces: Manage workspace layouts": false,
+      "cmdr:Daily notes: Open today's daily note": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
+      "juggl:Juggl global graph": false,
+      "khoj:Khoj": false
     }
   },
-  "active": "2bd71bce0c5ac1c8",
-  "lastOpenFiles": [
-    "Atlas/Knowledge/daily_notes/2025/02-February/2025-02-28-Fri.md",
-    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md",
-    "Atlas/Knowledge/daily_notes/2025/03-March",
-    "Efforts/moda example code.md",
-    "Efforts/example Modal using Gemini.md",
-    "Clippings/php-examples-for-aws-lambda0.6-MVC-to-microservice at master · aws-samplesphp-examples-for-aws-lambda.md",
-    "Clippings/The serverless LAMP stack part 6 From MVC to serverless microservices  Amazon Web Services.md",
-    "Atlas/Knowledge/tools/gemini components.md",
-    "Efforts/master task list.md",
-    "+/action is crucial, we need to define the next steps(actions) with as much detail as possible.md",
-    "work/calls/CRM/architecture/architecture meet 2025-02-28.md",
-    "work/calls/CRM/architecture/Amin Khansari.md",
-    "Clippings/Fat Lambda — Everything You Need to Know.md",
-    "work/calls/CRM/LUQA architecture diagram.md",
-    "Atlas/Knowledge/Articles/dev/Vim Jump to Last Change - VimTricks.md",
-    "Efforts/Active/Vim Exploration/vim - navigation through changes.md",
-    "Atlas/Knowledge/Articles/dev/Untitled.md",
-    "Atlas/Knowledge/Articles/dev/Untitled 2.md",
-    "Atlas/Knowledge/Articles/dev/Untitled 1.md",
-    "vim - jump to last insert with `..md",
-    "+/Xdebug just works.md",
-    "work/tickets/FEAT/QSL listing feature/SSH issues with GIT.md",
-    "Atlas/Knowledge/daily_notes/Current or active.md",
-    "work/docs/CRM/figma for CRM.md",
-    "Efforts/Active/Vim Exploration/Vim Exploration.md",
-    "Clippings/kylechuinvim-surround Addchangedelete surrounding delimiter pairs with ease. Written with in Lua..md",
-    "Clippings/stevearcconform.nvim Lightweight yet powerful formatter plugin for Neovim.md",
-    "x",
-    "tasks canvas.canvas",
-    "~/% tmpl/pages",
-    "~/% tmpl/templater",
-    "work/calls/CRM/architecture",
-    "~/% tmpl",
-    "Atlas",
-    "work/calls/_archive",
-    "work/calls/SPRINT/PLANNING/sprint planning today",
-    "~/x/0df0870fc39c2be1755196cb5a11bb65_MD5.png",
-    "work/bugs/Security issue - General file access, passerell/x/b9d5f3c7e40c9e2155f3b8cfc83ed798_MD5.jpg",
-    "Atlas/Knowledge/daily_notes/2025/02-February",
-    "~/x/9f87d200d057293dc4d551426b0933fd_MD5.jpg",
-    "e83bb595e99b0db15358588215e08bd2_MD5.webp",
-    "~/x/5ac51250c5cb61e8b1f58c26db4a4039_MD5.webp",
-    "~/x/e83bb595e99b0db15358588215e08bd2_MD5.webp",
-    "~/x/0b09a5990896b544b51c6f81b76dd26a_MD5.webp",
-    "~/x/9faa3053f95953d7387230f468f290b3_MD5.webp",
-    "~/x/615647843c17954467e3b7365f50a3c4_MD5.svg",
-    "dash canvas.canvas",
-    "~/x/dfac35ab27f0ebb1b93fbfd80ef2c36a_MD5.jpg",
-    "work/tickets/FEAT/QSL listing feature/docs/aws import  impl..canvas",
-    "Knowledge/Articles/Untitled.canvas",
-    "Knowledge/Articles/Untitled 1.canvas",
-    "work/tickets/event issue solution canvas.canvas",
-    "work/docs/CRM/CRM.canvas",
-    "work/tickets/FEAT/QSL listing feature/docs/code/Athena impl..canvas",
-    "work/tickets/FEAT/QSL listing feature/artifacts/crontab board.canvas",
-    "work/tickets/FEAT/QSL listing feature/docs/code/aws test script solution.canvas"
-  ]
+  "active": "6498b8401340aa08",
+  "lastOpenFiles": []
 }

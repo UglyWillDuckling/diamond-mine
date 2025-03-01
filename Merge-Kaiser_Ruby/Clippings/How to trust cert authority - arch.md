@@ -5,9 +5,10 @@ created: 2025-02-12
 tags:
   - howto/ssl
 ---
-related:: [[mkcert]], [[SSL/TLS]], [[SSL certificate]], [[Certificate Authorities]]
+related:: [[mkcert]], [[SSL/TLS]], [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]], [[Certificate Authorities]]
 ___
 ```bash
 sudo trust anchor --store ~/my-ca-cert.crt
 ```
-- [ ]  remind me (@2025-02-22)
+- [x]  remind me (@2025-02-22)
+- [ ] monthly (@2025-03-23 10:16)

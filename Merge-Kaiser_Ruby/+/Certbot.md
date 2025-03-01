@@ -4,7 +4,7 @@ tags:
 related:
   - "[[domain]]"
   - "[[SSL]]"
-  - "[[SSL certificate]]"
+  - "[[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]"
   - "[[Nginx]]"
   - "[[webserver]]"
 ---

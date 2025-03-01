@@ -14,14 +14,14 @@ related:
   - "[[domain]]"
 ---
 ## description
-**A Record** ( Address Mapping Record ) is a DNS record which maps a  [[domain name]] to the [IPv4](https://www.plesk.com/wiki/ipv4/) address of the server which hosts the domain. An A record is used for discovering the [[IP]] address of the server connected to [[Internet]] from a given [[hostname]]. 
+**A Record** ( Address Mapping Record ) is a DNS record which maps a  [[domain name]] to the [IPv4](https://www.plesk.com/wiki/ipv4/) address of the server which hosts the domain. An A record is used for discovering the [[IP]] address of the server connected to [[Atlas/Knowledge/Knowledge/concepts/CS/internet]] from a given [[hostname]]. 
 <mark style="background: #ABF7F7A6;">
 You can associate same hostname with multiple IP addresses by adding another A Record</mark> with the same hostname although with a different value of IP address.
 
 ## How to check an A record
 Most DNS tools let you check the A record for your website. In fact, most online tools will first show you the A record for the domain, and next show you the NS records. This checking process is calling a DNS lookup. If you have a UNIX machine you can use the “dig” command to do a DNS lookup.
 
-# From [[mods]]
+# From [[Atlas/Tools/pc/mods/mods]]
   In the context of Domain Name System (DNS), an A record (also known as a **host**
   **record** or **address record**) is a type of `DNS` record that <mark style="background: #ABF7F7A6;">maps a hostname to an IP address</mark>.
 

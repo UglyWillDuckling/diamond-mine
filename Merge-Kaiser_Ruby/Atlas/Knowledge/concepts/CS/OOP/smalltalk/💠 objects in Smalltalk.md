@@ -7,7 +7,7 @@
 [[2024-07-22]]
 
 ## What are objects?
-![[lawyer.png]]
+![[Atlas/Knowledge/Knowledge/concepts/CS/OOP/smalltalk/lawyer.png]]
  
 `Correspondence between our perception of the world and its representation in machine terms through Smalltalk gets at the heart of Smalltalk's power.`
 
@@ -25,7 +25,7 @@ assistance in the completion of a task.
 
 **...Smalltalks object's methods do not call other objects' methods directly.**
 
-In OOPS terms, [[information hiding - encapsulation]] — as this **<mark style="background: #FF5582A6;">encapsulation</mark>** of code and data is known in computer science—makes for highly portable, easily modifiable and safe software. 
+In OOPS terms, [[Atlas/Knowledge/Knowledge/concepts/CS/information hiding - encapsulation]] — as this **<mark style="background: #FF5582A6;">encapsulation</mark>** of code and data is known in computer science—makes for highly portable, easily modifiable and safe software. 
 
 Large applications may be easily maintained since objects may be updated, recompiled, tested
 and called immediately back into service with their new behavioral capabilities on line.
@@ -46,7 +46,7 @@ and called immediately back into service with their new behavioral capabilities 
 
 #polymorphism
  This Smalltalk characteristic of having different objects responding **uniquely** to the **same**
-**message** is known as **[[polymorphism]]**.
+**message** is known as **[[Atlas/Knowledge/Knowledge/concepts/CS/OOP/polymorphism]]**.
 
 Smalltalk guarantees that there will be a response by a message recipient. If an object
 determines that it does not know how to perform a requested behavior, it will at least

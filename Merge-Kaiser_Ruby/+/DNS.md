@@ -1,7 +1,7 @@
 ---
 related:
   - "[[domain]]"
-  - "[[internet]]"
+  - "[[Atlas/Knowledge/Knowledge/concepts/CS/internet]]"
   - "[[IP]]"
 ---
 #concept 

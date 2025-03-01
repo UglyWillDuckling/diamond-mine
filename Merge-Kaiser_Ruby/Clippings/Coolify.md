@@ -13,7 +13,7 @@ tags:
 related:
   - "[[VPS]]"
 ---
-[[web hosting]]
+[[Atlas/Knowledge/Knowledge/concepts/web hosting]]
 ## Self-hosting with superpowers.
 
 ## An open-source & self-hostable Heroku / Netlify / Vercel alternative.

@@ -1,5 +1,5 @@
 {
+  "minimal-style@@bold-color@@light": "#4E63C8",
   "minimal-advanced@@font-ui-small": 12,
-  "minimal-style@@bold-color@@light": "#141414",
-  "minimal-style@@bold-modifier": 300
+  "minimal-style@@bold-color@@dark": "#D22974"
 }

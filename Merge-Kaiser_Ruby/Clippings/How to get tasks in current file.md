@@ -9,7 +9,7 @@ related:
 ---
 ![icon|50](https://publish.obsidian.md/favicon.ico?4bb6aa9a821f975db2a1)
 
-about:: [[Tasks plugin]]
+about:: [[Atlas/Knowledge/Knowledge/tools/Tasks plugin]]
 ## Motivation and assumptions
 
 When working on a note with lots of tasks, it can be useful to see a list of all the remaining tasks in the file, for example to make sure no task gets accidentally missed.

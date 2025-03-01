@@ -2,6 +2,6 @@
 related:
   - "[[DNS]]"
   - "[[domain]]"
-  - "[[internet]]"
+  - "[[Atlas/Knowledge/Knowledge/concepts/CS/internet]]"
 ---
 #tool

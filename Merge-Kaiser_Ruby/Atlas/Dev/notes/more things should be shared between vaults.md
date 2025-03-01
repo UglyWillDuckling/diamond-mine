@@ -3,7 +3,7 @@
 A shared folder that is symlinked
 
 ## plugins
- [[callout list]]
+ [[Atlas/Tools/obsidian/plugins/callout list]]
 - [[quickadd plugin]]
-- [[Tasks plugin]]
+- [[Atlas/Knowledge/Knowledge/tools/Tasks plugin]]
 - [[]]

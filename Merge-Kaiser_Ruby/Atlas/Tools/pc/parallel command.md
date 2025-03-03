@@ -4,7 +4,7 @@ related:
 ---
 #tool #command #parallel
 
-## from [[Atlas/Tools/pc/mods/mods]]
+## from [[mods AI]]
 
  **parallel**  is a command that allows you to execute multiple commands in
   parallel, taking advantage of multiple CPU cores to speed up processing. It's a

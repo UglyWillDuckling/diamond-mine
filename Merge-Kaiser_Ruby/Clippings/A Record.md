@@ -21,7 +21,7 @@ You can associate same hostname with multiple IP addresses by adding another A R
 ## How to check an A record
 Most DNS tools let you check the A record for your website. In fact, most online tools will first show you the A record for the domain, and next show you the NS records. This checking process is calling a DNS lookup. If you have a UNIX machine you can use the “dig” command to do a DNS lookup.
 
-# From [[Atlas/Tools/pc/mods/mods]]
+# From [[mods AI]]
   In the context of Domain Name System (DNS), an A record (also known as a **host**
   **record** or **address record**) is a type of `DNS` record that <mark style="background: #ABF7F7A6;">maps a hostname to an IP address</mark>.
 

@@ -1,7 +1,5 @@
 ---
 source: https://en.m.wikipedia.org/wiki/The_Breakfast_Club#Soundtrack
-author:
-  - "[[Contributors to Wikimedia projects]]"
 published: 2001-03-30
 created: 2025-02-28
 tags:

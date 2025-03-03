@@ -1,13 +1,6 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/Tools/pc/Yin-Yang program.md": [
-      {
-        "title": "remind me",
-        "time": "2025-03-03",
-        "rowNumber": 17
-      }
-    ],
     "Atlas/Knowledge/Media/Articles/Dev/Configuring self-signed SSL certificates for local development.md": [
       {
         "title": "monthly",
@@ -20,27 +13,6 @@
         "title": "monthly",
         "time": "2025-03-22",
         "rowNumber": 5
-      }
-    ],
-    "Atlas/Personal/notes/Vim mapping for resume search.md": [
-      {
-        "title": "remind me ( )",
-        "time": "2025-03-01",
-        "rowNumber": 1
-      }
-    ],
-    "Atlas/Knowledge/howtos/how to change the hostname on a linux machie.md": [
-      {
-        "title": "remind me",
-        "time": "2025-03-01",
-        "rowNumber": 2
-      }
-    ],
-    "Efforts/Active/Senka/Persona/persona ssl cronjob.md": [
-      {
-        "title": "remind me Persona ssl cert cron",
-        "time": "2025-03-02",
-        "rowNumber": 39
       }
     ],
     "Clippings/How to trust cert authority - arch.md": [
@@ -90,6 +62,20 @@
         "title": "monthly",
         "time": "2025-03-26 19:30",
         "rowNumber": 2
+      }
+    ],
+    "Efforts/Active/Senka/Persona/persona ssl cronjob.md": [
+      {
+        "title": "remind me Persona ssl cert cron",
+        "time": "2025-03-03 23:09",
+        "rowNumber": 39
+      }
+    ],
+    "Atlas/Tools/pc/Yin-Yang program.md": [
+      {
+        "title": "remind me",
+        "time": "2025-03-10",
+        "rowNumber": 17
       }
     ]
   },

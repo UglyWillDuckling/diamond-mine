@@ -4,6 +4,13 @@
 
 [[TOP 100  NES Games]]
 
+[[The 20 Greatest Sega Mega Drive  Genesis Games of All-Time]]
+
+[[Sega Genesis - Wikipedia]]
+
+[[Kunio kun game collection]]
+
+[[Childhood Video Games  90s Video Games]]
 
 
 ## list of games
@@ -55,3 +62,23 @@
 [[C-12 Final Resistance  PS1  4K60ᶠᵖˢ UHD🔴  Longplay Walkthrough Playthrough Full Movie Game]]
 
 [[Let's play Darkstone PS1 version (Part 1)]]
+
+[[Ninja Turtles NES]]
+
+[[Is Mission Impossible NES Worth Playing Today - SNESdrunk]]
+
+[[Isolated Warrior]]
+
+[[NES Longplay 264 Nekketsu! Street Basket Ganbare Dunk Heroes]]
+
+[[NES Longplay 077 F-1 Race (JP)]]
+
+
+[[NES Longplay 752 Sky Destroyer]]
+
+[[NES Longplay 289 Hogan's Alley]]
+
+[[Tom & Jerry (NES) Playthrough]]
+
+[[NES Longplay 399 Zen - Intergalactic Ninja]]
+

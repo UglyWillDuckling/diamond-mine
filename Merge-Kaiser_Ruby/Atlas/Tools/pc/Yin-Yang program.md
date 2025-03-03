@@ -15,7 +15,7 @@ related:
 ---
 ![Yin & Yang logo|50](https://github.com/oskarsh/Yin-Yang/raw/master/resources/logo.svg)
 
-- [ ] remind me (@2025-03-03)
+- [ ] remind me (@2025-03-10)
 
 Auto Night-mode for Linux, it supports popular Desktops like KDE, GNOME, Budgie and also themes your favourite editors like VSCode or Atom.
 

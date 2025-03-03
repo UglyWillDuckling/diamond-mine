@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/daily/2025/2025-02-28-Fri.md",
+                "file": "Clippings/Kernel-based Virtual Machine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-28-Fri"
+              "title": "Kernel-based Virtual Machine"
+            }
+          },
+          {
+            "id": "e0943b631400db4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paravirtualization.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Paravirtualization"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/OpenSSH Config File Examples.md",
+                "file": "Paravirtualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +135,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OpenSSH Config File Examples"
+              "title": "Backlinks for Paravirtualization"
             }
           },
           {
@@ -129,12 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calendar/daily/2025-01-09.md",
+                "file": "Paravirtualization.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-01-09"
+              "title": "Outgoing links from Paravirtualization"
             }
           },
           {
@@ -185,23 +200,13 @@
               "icon": "ag-node-list",
               "title": "Juggl nodes"
             }
-          },
-          {
-            "id": "0b11b7ec87183970",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 852.5,
+    "width": 754.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -227,40 +232,43 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "f5ad3fc4c0c3e089",
+  "active": "e0943b631400db4a",
   "lastOpenFiles": [
-    "Calendar/daily/2025/2025-03-01-Sat.md",
-    "Clippings/Never miss an expiring certificate with Red Sift Certificates Lite.md",
-    "Clippings/The 20 Best Movies of 2024, 20 Best Movies of 2024.md",
-    "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-    "Calendar/daily/2025/2025-02-28-Fri.md",
-    "Clippings/Pirahã The Amazonian Tribe That Challenges Everything We Know About Language  SLICE.md",
-    "Clippings/The Breakfast Club - Wikipedia.md",
-    "Videogame memories.md",
-    "Clippings/Let's play Darkstone PS1 version (Part 1).md",
-    "Clippings/C-12 Final Resistance  PS1  4K60ᶠᵖˢ UHD🔴  Longplay Walkthrough Playthrough Full Movie Game.md",
-    "Clippings/NES Longplay 354 The Young Indiana Jones Chronicles.md",
-    "Clippings/NES Longplay 552 Jungle Book.md",
-    "Clippings/NES Longplay 325 Ghostbusters II.md",
-    "Clippings/New Ghostbusters II (NES) Playthrough - NintendoComplete.md",
-    "Clippings/TOP 100  NES Games.md",
-    "Clippings/PSX Longplay 708 The Fifth Element (US).md",
-    "Clippings/NES Longplay 403 RoboCop 3.md",
+    "Atlas/Tools/pc/mods AI/mods AI.md",
+    "Paravirtualization.md",
+    "Clippings/Kernel-based Virtual Machine.md",
+    "snimka Sonje.md",
+    "300px-Libvirt_support.svg.png",
+    "400px-Kernel-based_Virtual_Machine.svg.png",
+    "Clippings/ARM architecture family - Wikipedia.md",
+    "Calendar/daily/2025/2025-03-03-Mon.md",
+    "Clippings/Conan pustolov EP01 - Noć plamenih suza (Hrvatska verzija).md",
+    "Clippings/Conan pustolov - uvodna špica (Hrvatska verzija).md",
+    "Clippings/The Legend of Prince Valiant - Opening Sequence.md",
+    "Mighty Max.md",
+    "Screenshot_20250303-203645_Firefox.jpg",
+    "popis crtića mog djetinjstva.md",
+    "Clippings/Doktor Argus - Čarobni Višebojni Dijamant.md",
+    "Clippings/Crtane serije iz 90-ih koje bismo rado gledali i danas.md",
+    "Clippings/Moje tijelo Život - YouTube.md",
+    "Clippings/Nostalgija 90-ih - naši najdraži crtići uz koje smo odrasli - Elegant.hr.md",
+    "Clippings/Najbolji stari crtići - 15 Legendarnih koje nikad nećete zaboraviti.md",
+    "Clippings/Lutonjica Toporko i devet župančića cijela priča    Lektire.hr.md",
+    "Videogame memories sjećanja.md",
+    "Clippings/NES Longplay 399 Zen - Intergalactic Ninja.md",
+    "Clippings/Tom & Jerry (NES) Playthrough.md",
+    "Clippings/NES Longplay 289 Hogan's Alley.md",
+    "Clippings/NES Longplay 752 Sky Destroyer.md",
+    "Clippings/NES Longplay 077 F-1 Race (JP).md",
+    "Clippings/Childhood Video Games  90s Video Games.md",
+    "Clippings/Nekketsu Fighting Legend - Wikipedia.md",
+    "Marina Sprajc (Vuko).md",
     "Screenshot_20250227-195854_Firefox.jpg",
-    "Atlas/Knowledge/Media/movies/RoboCop (1987).md",
-    "Clippings/NES Longplay 402 RoboCop 2.md",
-    "Clippings/Top Gun (NES) Playthrough.md",
-    "Clippings/The Terminator (NES) Playthrough.md",
-    "Clippings/KickMaster (NES) Playthrough.md",
     "notes",
     "x",
-    "Clippings/Conquest of the Crystal Palace (NES) Playthrough - NintendoComplete.md",
     "Screenshot_20250227-181612_Firefox.jpg",
     "Screenshot_20250227-181435_Firefox.jpg",
     "Screenshot_20250227-181214_Firefox.jpg",
-    "Clippings/Isolated Warrior (NES) Playthrough - NintendoComplete.md",
-    "Clippings/Top 100 NES Games Part 1  😭1980s NOSTALGIA that WILL make YOU CRY😭.md",
-    "Calendar/daily/2025/2025-02-27-Thu.md",
     "tasks canvas.canvas",
     "Efforts/Ongoing/Zdravlje/archive",
     "Clippings/OpenSSH Config File Examples.md~",

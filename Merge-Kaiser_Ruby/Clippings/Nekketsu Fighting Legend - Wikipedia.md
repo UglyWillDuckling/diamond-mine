@@ -1,0 +1,27 @@
+---
+title: Nekketsu Fighting Legend - Wikipedia
+source: https://en.m.wikipedia.org/wiki/Nekketsu_Fighting_Legend
+author:
+  - "[[Contributors to Wikimedia projects]]"
+published: 2012-04-24
+created: 2025-03-02
+description: 
+tags:
+  - videogame
+---
+Learn more
+
+You can help **expand this article with text translated from [the corresponding article](https://ja.wikipedia.org/wiki/%E7%86%B1%E8%A1%80%E6%A0%BC%E9%97%98%E4%BC%9D%E8%AA%AC "ja:熱血格闘伝説") in Japanese**. *(April 2012)* Click \[show\] for important translation instructions.
+
+- [View](https://translate.google.com/translate?&u=https%3A%2F%2Fja.wikipedia.org%2Fwiki%2F%E7%86%B1%E8%A1%80%E6%A0%BC%E9%97%98%E4%BC%9D%E8%AA%AC&sl=ja&tl=en&prev=_t&hl=en) a machine-translated version of the Japanese article.
+- Machine translation, like [DeepL](https://deepl.com/) or [Google Translate](https://translate.google.com/), is a useful starting point for translations, but translators must revise errors as necessary and confirm that the translation is accurate, rather than simply copy-pasting machine-translated text into the English Wikipedia.
+- Do not translate text that appears unreliable or low-quality. If possible, verify the text with references provided in the foreign-language article.
+- You **must** provide [copyright attribution](https://en.m.wikipedia.org/wiki/Wikipedia:Copying_within_Wikipedia "Wikipedia:Copying within Wikipedia") in the [edit summary](https://en.m.wikipedia.org/wiki/Help:Edit_summary "Help:Edit summary") accompanying your translation by providing an [interlanguage link](https://en.m.wikipedia.org/wiki/Help:Interlanguage_links "Help:Interlanguage links") to the source of your translation. A model attribution edit summary is `Content in this edit is translated from the existing Japanese Wikipedia article at [[:ja:熱血格闘伝説]]; see its history for attribution.`
+- You may also add the template `{{Translated|ja|熱血格闘伝説}}` to the [talk page](https://en.m.wikipedia.org/wiki/Talk:Nekketsu_Fighting_Legend "Talk:Nekketsu Fighting Legend").
+- For more guidance, see [Wikipedia:Translation](https://en.m.wikipedia.org/wiki/Wikipedia:Translation "Wikipedia:Translation").
+
+***Nekketsu Fighting Legend*** (Nekketsu Kakutō Densetsu 熱血格闘伝説, *lit. "Hot Blooded Fighting Legend"*) is a 1992 [tournament](https://en.m.wikipedia.org/wiki/Tournament "Tournament")\-style [fighting game](https://en.m.wikipedia.org/wiki/Fighting_game "Fighting game") developed and published by [Technōs Japan](https://en.m.wikipedia.org/wiki/Techn%C5%8Ds_Japan "Technōs Japan") exclusively in [Japan](https://en.m.wikipedia.org/wiki/Japan "Japan") for the [Family Computer](https://en.m.wikipedia.org/wiki/Nintendo_Entertainment_System "Nintendo Entertainment System") on December 23, 1992. It is a spin-off of the *[Kunio-kun](https://en.m.wikipedia.org/wiki/Kunio-kun "Kunio-kun")* series, as well as Technōs Japan's first attempt in the genre since their port of their *[Double Dragon](https://en.m.wikipedia.org/wiki/Double_Dragon_\(video_game\) "Double Dragon (video game)")* arcade game on the same platform. Technōs Japan later became better known for its [Neo Geo](https://en.m.wikipedia.org/wiki/Neo_Geo_\(system\) "Neo Geo (system)") titles, such as *[Double Dragon fighting game](https://en.m.wikipedia.org/wiki/Double_Dragon_\(Neo-Geo\) "Double Dragon (Neo-Geo)")* and *[Voltage Fighter Gowcaizer](https://en.m.wikipedia.org/wiki/Voltage_Fighter_Gowcaizer "Voltage Fighter Gowcaizer")*.
+
+<table><tbody><tr><th colspan="2">Nekketsu Fighting Legend</th></tr><tr><td colspan="2"><span><a href="https://en.m.wikipedia.org/wiki/File:NekketsuKakutouDensetsu_frontcover.png"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/NekketsuKakutouDensetsu_frontcover.png/220px-NekketsuKakutouDensetsu_frontcover.png" width="220" height="152"></a></span><p>Front cover of <i>Nekketsu Fighting Legend</i></p></td></tr><tr><th scope="row"><a href="https://en.m.wikipedia.org/wiki/Video_game_developer">Developer(s)</a></th><td><a href="https://en.m.wikipedia.org/wiki/Techn%C5%8Ds_Japan">Technōs Japan</a></td></tr><tr><th scope="row"><a href="https://en.m.wikipedia.org/wiki/Video_game_publisher">Publisher(s)</a></th><td>Technōs Japan</td></tr><tr><th scope="row">Series</th><td><i><a href="https://en.m.wikipedia.org/wiki/Kunio-kun">Kunio-kun</a></i></td></tr><tr><th scope="row"><a href="https://en.m.wikipedia.org/wiki/Computing_platform">Platform(s)</a></th><td><a href="https://en.m.wikipedia.org/wiki/Nintendo_Entertainment_System">Family Computer</a></td></tr><tr><th scope="row">Release</th><td><div><ul><li><span><a href="https://en.m.wikipedia.org/wiki/Japan">JP</a>:</span> December 23, 1992</li></ul></div></td></tr><tr><th scope="row"><a href="https://en.m.wikipedia.org/wiki/Video_game_genre">Genre(s)</a></th><td><a href="https://en.m.wikipedia.org/wiki/Fighting_game">Fighting</a></td></tr><tr><th scope="row">Mode(s)</th><td><a href="https://en.m.wikipedia.org/wiki/Single-player_video_game">Single-player</a>, <a href="https://en.m.wikipedia.org/wiki/Multiplayer_video_game">multiplayer</a></td></tr></tbody></table>
+
+It is also the first fighting game to allow up to four players to play simultaneously against each other. In order for more than two players to play, a [multitap](https://en.m.wikipedia.org/wiki/Multitap "Multitap") (like the [4-Players Adaptor](https://en.m.wikipedia.org/wiki/4-Players_Adaptor "4-Players Adaptor") by Hori) is required.

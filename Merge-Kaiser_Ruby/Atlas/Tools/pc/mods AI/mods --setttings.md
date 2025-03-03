@@ -2,7 +2,7 @@
 #shell
 #mods
 
-[[Atlas/Tools/pc/mods/mods]] has the --settings [[flag]] which allows you to modify the settings.
+[[mods AI]] has the --settings [[flag]] which allows you to modify the settings.
 
 - @ `~/.config/mods/mods.yml`
 

@@ -3,7 +3,7 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "vimMode": true,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "mobileToolbarCommands": [
     "editor:insert-wikilink",
     "editor:insert-tag",
@@ -22,5 +22,6 @@
     "editor:toggle-code",
     "editor:toggle-numbered-list",
     "editor:configure-toolbar"
-  ]
+  ],
+  "tabSize": 2
 }

@@ -2,7 +2,7 @@
 related:
   - "[[vladimir sedlar]]"
 ---
-- [x] #task [[Obnova dopunskog osiguranja]] 🆔 nggx4R ⏳ 2025-01-26 📅 2025-01-27 ✅ 2025-01-27
+- [x] #task [[Obnova dopunskog osiguranja 2025]] 🆔 nggx4R ⏳ 2025-01-26 📅 2025-01-27 ✅ 2025-01-27
     - [x] #task provjeriti stanje dopunskog osiguranja ⏫ ⏳ 2025-01-27 📅 2025-01-27 ✅ 2025-01-27
     - [x] pogledati dopunska osiguranje iz [[Kompare]] 🆔 HyvReT ⏳ 2025-01-27 📅 2025-01-27
 	    - [x] [[analiza ponuda za dopunsko]]

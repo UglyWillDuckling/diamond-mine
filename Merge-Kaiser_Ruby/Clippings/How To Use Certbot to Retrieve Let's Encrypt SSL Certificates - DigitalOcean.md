@@ -1,12 +1,10 @@
 ---
-title: "How To Use Certbot Standalone Mode to Retrieve Let's Encrypt SSL Certificates on Ubuntu 20.04 | DigitalOcean"
-source: "https://www.digitalocean.com/community/tutorials/how-to-use-certbot-standalone-mode-to-retrieve-let-s-encrypt-ssl-certificates-on-ubuntu-20-04"
-author:
-published:
+source: https://www.digitalocean.com/community/tutorials/how-to-use-certbot-standalone-mode-to-retrieve-let-s-encrypt-ssl-certificates-on-ubuntu-20-04
+published: 
 created: 2025-01-06
-description: "Certbot offers a variety of ways to validate your domain, fetch certificates, and automatically configure Apache and Nginx. In this tutorial, we’ll discuss C…"
 tags:
-favicon: "https://www.digitalocean.com/_next/static/media/android-chrome-192x192.f09059d8.png"
+  - howto/ssl
+  - howto/certbot
 ---
 ![icon](https://www.digitalocean.com/_next/static/media/android-chrome-192x192.f09059d8.png]
 
@@ -40,16 +38,16 @@ Now that we have Certbot installed, let’s run it to get our certificate.
 
 ## Step 2 — Running Certbot
 
-Certbot needs to answer a cryptographic challenge issued by the Let’s Encrypt API in order to prove we control our domain. It uses ports `80` (HTTP) or `443` (HTTPS) to accomplish this. Open up the appropriate port(s) in your firewall:
+Certbot needs to answer a **cryptographic challenge** issued by the [[Let’s Encrypt]] API in order to prove we control our domain. 
+It uses ports `80` (HTTP) or `443` (HTTPS) to accomplish this.
 
-```
-OutputRule added
-Rule added (v6)
-```
-
-We can now run Certbot to get our certificate. We’ll use the `--standalone` option to tell Certbot to handle the challenge using its own built-in web server. Finally, the `-d` flag is used to specify the domain you’re requesting a certificate for. You can add multiple `-d` options to cover multiple domains in one certificate.
+We’ll use the `--standalone` option to tell Certbot to handle the challenge using its own built-in web server. Finally, the `-d` flag is used to specify the domain you’re requesting a certificate for. You can add multiple `-d` options to cover multiple domains in one certificate.
 
 When running the command, you will be prompted to enter an email address and agree to the terms of service. After doing so, you should see a message telling you the process was successful and where your certificates are stored:
+
+```sh
+certbot certonly --standalone -d your_domain
+```
 
 ```
 OutputIMPORTANT NOTES:

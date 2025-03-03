@@ -39,13 +39,10 @@ Zemlje po veličini [[List of countries and dependencies by area - Wikipedia]]
 
 [[Washington D.C.]]
 
-[[Maria Skłodowska-Curie]] 2 Nobelove nagrade 
-
+[[Maria Skłodowska-Curie]] **2 Nobelove nagrade** 
 
 ### povezano
 
 [[List of countries and dependencies by area - Wikipedia]]
-
-[[List of largest cities - Wikipedia]]
 
 [[Largest Cities by Population 2024]]

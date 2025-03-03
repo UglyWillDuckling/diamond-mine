@@ -1,12 +1,10 @@
 ---
-title: How To Set Up a Postfix E-Mail Server with Dovecot | HostingPile
-source: https://hostingpile.com/tutorials/how-to-set-up-a-postfix-e-mail-server-with-dovecot/
 author:
   - "[[HostingPile]]"
   - "[[Lukas Erlacher]]"
 published: 2023-11-28
 created: 2024-12-29
-description: Postfix Introduction This tutorial will tell you how to setup a basic mail server and teach you a bit about the Postfix MTA (Mail Transfer Agent) in the process.Postfix is extremely flexible. Its architecture is based on a loose composition of services that receive emails and pass them on to other services (with services like “smtp” on the receiving outer edge, and “local” and “virtual” on the delivering outer edge, if you’re looking at receiving mail).
+source: https://hostingpile.com/tutorials/how-to-set-up-a-postfix-e-mail-server-with-dovecot/
 tags:
   - clippings
   - howto
@@ -110,7 +108,7 @@ Additional information can be found in the Host Name setup and DNS tips and tric
 
 DNS will take a few hours to propagate all over the internet, but it should be set on your DNS server after a few minutes. You can check with dig & host:
 
-```
+```bash
 [root@yourbase] ~# dig MX mydomain.com +short @ns1.digitalocean.com
 50 mail.mydomain.com.
 [root@yourbase] ~# host mail.mydomain.com ns1.digitalocean.com

@@ -1,27 +1,6 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/Personal/notes/You can easily switch to a different user using su.md": [
-      {
-        "title": "remind me in 1 month",
-        "time": "2025-02-26",
-        "rowNumber": 21
-      }
-    ],
-    "Atlas/Knowledge/howtos/creating local certificates is super simple.md": [
-      {
-        "title": "remember me 1 week",
-        "time": "2025-02-26",
-        "rowNumber": 1
-      }
-    ],
-    "Atlas/Personal/Info/snap installations have problem accessing system resources.md": [
-      {
-        "title": "remind",
-        "time": "2025-02-26",
-        "rowNumber": 6
-      }
-    ],
     "Atlas/Tools/pc/Yin-Yang program.md": [
       {
         "title": "remind me",
@@ -40,13 +19,6 @@
       {
         "title": "monthly",
         "time": "2025-03-22",
-        "rowNumber": 5
-      }
-    ],
-    "Efforts/Ongoing/Vim Mastery/Nvim - Lsp - How to inspect info.md": [
-      {
-        "title": "remind me",
-        "time": "2025-02-25 22:13",
         "rowNumber": 5
       }
     ],
@@ -99,18 +71,25 @@
         "rowNumber": 12
       }
     ],
-    "Atlas/Personal/notes/having tasks or tickets belong to more than just one project could be useful in certain situations.md": [
+    "Efforts/Ongoing/Vim Mastery/Nvim - Lsp - How to inspect info.md": [
       {
         "title": "remind me",
-        "time": "2025-02-26",
-        "rowNumber": 4
+        "time": "2025-03-05",
+        "rowNumber": 5
       }
     ],
-    "Clippings/Kako izvaditi potvrdu o prebivalištu ili boravištu preko interneta.md": [
+    "Atlas/Personal/Info/snap installations have problem accessing system resources.md": [
       {
-        "title": "remind me",
-        "time": "2025-02-25 22:13",
-        "rowNumber": 10
+        "title": "remind",
+        "time": "2025-03-05",
+        "rowNumber": 2
+      }
+    ],
+    "Atlas/Knowledge/howtos/creating local certificates is super simple.md": [
+      {
+        "title": "monthly",
+        "time": "2025-03-26 19:30",
+        "rowNumber": 2
       }
     ]
   },

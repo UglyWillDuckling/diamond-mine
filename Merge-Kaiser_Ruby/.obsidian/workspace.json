@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3dd3c197be0fd9a7",
+        "id": "ca10d22e937feaad",
         "type": "tabs",
         "children": [
           {
-            "id": "772444999c774e1c",
+            "id": "f5ad3fc4c0c3e089",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Efforts/Ongoing/Vim Mastery/Nvim - Lsp - How to inspect info.md",
+                "file": "Calendar/daily/2025/2025-02-28-Fri.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nvim - Lsp - How to inspect info"
+              "title": "2025-02-28-Fri"
             }
           }
         ]
@@ -48,12 +48,26 @@
             }
           },
           {
-            "id": "53e419fd8d9494ea",
+            "id": "a8fbe07ef7a22dbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "setup mail server trial"
+            }
+          },
+          {
+            "id": "82ec65ee2e7f5fee",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#task",
+                "query": "tag:bestlist/filmd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +79,7 @@
             }
           },
           {
-            "id": "369d6f3ac727bb90",
+            "id": "e18128b28d6fd909",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,11 +88,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 260.51103591918945,
+    "width": 583.5110321044922,
     "collapsed": true
   },
   "right": {
@@ -147,7 +162,7 @@
             }
           },
           {
-            "id": "8713e99fbd716e12",
+            "id": "08ad00a8521b7326",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -162,7 +177,7 @@
             }
           },
           {
-            "id": "226384866ec4d527",
+            "id": "eba7e2c934b4710f",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -172,7 +187,7 @@
             }
           },
           {
-            "id": "105da04c90fad0e6",
+            "id": "0b11b7ec87183970",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -186,7 +201,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 852.5
+    "width": 852.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,50 +221,56 @@
       "obsidian-day-and-night:Toggle Theme": false,
       "chronology:Open Chronology": true,
       "markwhen:Create new Markwhen file": true,
-      "daily-notes:Open today's daily note": false,
       "obsidian-projects:Open projects": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "callout-manager:Insert Callout": true,
+      "daily-notes:Open today's daily note": false
     }
   },
-  "active": "772444999c774e1c",
+  "active": "f5ad3fc4c0c3e089",
   "lastOpenFiles": [
-    "Clippings/OpenSSH Config File Examples.md",
-    "Calendar/daily/2025/2025-02-25-Tue.md",
-    "Clippings/OpenSSH Config File Examples.md~",
-    "Calendar/daily/2025/2025-02-24-Mon.md",
-    "+/Ordinacija obiteljske medicine – Ivana Agatić Rašković.md",
-    "Master Task List.md",
+    "Calendar/daily/2025/2025-03-01-Sat.md",
+    "Clippings/Never miss an expiring certificate with Red Sift Certificates Lite.md",
+    "Clippings/The 20 Best Movies of 2024, 20 Best Movies of 2024.md",
+    "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
+    "Calendar/daily/2025/2025-02-28-Fri.md",
+    "Clippings/Pirahã The Amazonian Tribe That Challenges Everything We Know About Language  SLICE.md",
+    "Clippings/The Breakfast Club - Wikipedia.md",
+    "Videogame memories.md",
+    "Clippings/Let's play Darkstone PS1 version (Part 1).md",
+    "Clippings/C-12 Final Resistance  PS1  4K60ᶠᵖˢ UHD🔴  Longplay Walkthrough Playthrough Full Movie Game.md",
+    "Clippings/NES Longplay 354 The Young Indiana Jones Chronicles.md",
+    "Clippings/NES Longplay 552 Jungle Book.md",
+    "Clippings/NES Longplay 325 Ghostbusters II.md",
+    "Clippings/New Ghostbusters II (NES) Playthrough - NintendoComplete.md",
+    "Clippings/TOP 100  NES Games.md",
+    "Clippings/PSX Longplay 708 The Fifth Element (US).md",
+    "Clippings/NES Longplay 403 RoboCop 3.md",
+    "Screenshot_20250227-195854_Firefox.jpg",
+    "Atlas/Knowledge/Media/movies/RoboCop (1987).md",
+    "Clippings/NES Longplay 402 RoboCop 2.md",
+    "Clippings/Top Gun (NES) Playthrough.md",
+    "Clippings/The Terminator (NES) Playthrough.md",
+    "Clippings/KickMaster (NES) Playthrough.md",
     "notes",
     "x",
-    "Spavanja promijena napredak.md",
-    "Untitled.md",
-    "Mirna 30ti rođendan.md",
-    "Calendar/daily/2025-02-24.md",
-    "dash 💨.md",
-    "Atlas/Knowledge/howtos/how to check DNS info.md",
-    "Clippings/Fix ‘ERROR failed to solve error getting credentials – err exit status 1, out ’.md",
-    "Efforts/Ongoing/PC Maintenance/docs/new gpg key on PC.md",
-    "Efforts/Ongoing/PC Maintenance/MaintenancePC.md",
-    "Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞.md",
-    "Efforts/booking-rezervacija rogaska.md",
-    "Efforts/Ongoing/Vacation",
-    "Efforts/Active/Techdot.IO/Techdot.IO.md",
-    "Efforts/Active/Techdot.IO/techdot.io domain.md",
-    "Efforts/Ongoing/Studying Python/Python Conversion.md",
-    "Clippings/Arch Linux - moreutils 0.70-1 (x86_64).md",
-    "Atlas/Knowledge/Knowledge/howtos/what is running on port ??.md",
-    "Atlas/Knowledge/Knowledge/Places/Kuća tambure.md",
-    "Atlas/Knowledge/Knowledge/Articles/Articles.md",
-    "Atlas/Knowledge/Knowledge/Books/Books.md",
-    "Atlas/Knowledge/Knowledge/howtos/howtos.md",
+    "Clippings/Conquest of the Crystal Palace (NES) Playthrough - NintendoComplete.md",
+    "Screenshot_20250227-181612_Firefox.jpg",
+    "Screenshot_20250227-181435_Firefox.jpg",
+    "Screenshot_20250227-181214_Firefox.jpg",
+    "Clippings/Isolated Warrior (NES) Playthrough - NintendoComplete.md",
+    "Clippings/Top 100 NES Games Part 1  😭1980s NOSTALGIA that WILL make YOU CRY😭.md",
+    "Calendar/daily/2025/2025-02-27-Thu.md",
     "tasks canvas.canvas",
+    "Efforts/Ongoing/Zdravlje/archive",
+    "Clippings/OpenSSH Config File Examples.md~",
+    "Efforts/Ongoing/Vacation",
     "Efforts/Ongoing/PC Maintenance/docs",
     "howot",
     "Efforts/Active/Kuca/docs/dokumenti x/Elektronicki_zapis-radna_knjizica.pdf",
     "Efforts/Ongoing/VPS",
     "Yin-Yang/resources/logo.svg",
     "Efforts/Active/Kuca/docs/dokumenti x/Potvda o blokadi računa i novčanih sredstava.pdf",
-    "Yin-Yang/yin_yang/ui/resources_rc.py",
     "tasks pic.canvas",
     "~/×/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"

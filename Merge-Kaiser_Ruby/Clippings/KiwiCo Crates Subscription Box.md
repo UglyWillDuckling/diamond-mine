@@ -1,19 +1,17 @@
 ---
-source: "https://www.kiwico.com/studio"
+source: https://www.kiwico.com/studio
 author:
   - "[[KiwiCo]]"
-published:
 created: 2025-02-22
 tags:
+  - product
 ---
-![KiwiCo Studio](https://icdn.kiwico.com/site/clubs/logo-studio.svg)
+![KiwiCo Studio|500](https://icdn.kiwico.com/site/clubs/logo-studio.svg)
 
 ## Your hands-on studio for creativity.
 
 Giving artists of all ages the tools and creative confidence to express themselves.
 
-- [ ] #task pogledaj kiwi crates 
-- [ ] ..
 ![](https://icdn.kiwico.com/site/clubs/studio-dots-mobile-1.svg)
 
 ![](https://icdn.kiwico.com/site/age-range/programs/studio-9-14_product.webp)![](https://icdn.kiwico.com/site/age-range/programs/studio-9-12_lifestyle2.webp)

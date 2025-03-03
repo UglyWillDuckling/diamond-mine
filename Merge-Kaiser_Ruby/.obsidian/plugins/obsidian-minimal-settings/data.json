@@ -1,6 +1,6 @@
 {
   "lightStyle": "minimal-light-contrast",
-  "darkStyle": "minimal-dark",
+  "darkStyle": "minimal-dark-black",
   "lightScheme": "minimal-default-light",
   "darkScheme": "minimal-default-dark",
   "editorFont": "",
@@ -8,7 +8,7 @@
   "lineWidth": 40,
   "lineWidthWide": 50,
   "maxWidth": 88,
-  "textNormal": 16,
+  "textNormal": 18,
   "textSmall": 13,
   "imgGrid": false,
   "imgWidth": "img-default-width",
@@ -29,6 +29,6 @@
   "underlineExternal": true,
   "folding": true,
   "lineNumbers": false,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "devBlockWidth": false
 }

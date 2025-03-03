@@ -1,5 +1,5 @@
 
-parent:: [[Obnova dopunskog osiguranja]]
+parent:: [[Obnova dopunskog osiguranja 2025]]
 
 about:: [[kompare mail s ponudama]]
 

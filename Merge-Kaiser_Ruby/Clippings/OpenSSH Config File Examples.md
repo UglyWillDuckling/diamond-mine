@@ -13,7 +13,7 @@ source: https://gist.github.com/numberwhun/d986bb536af15c5fccdcd5dfa656e4a1
 ---
 about:: [[ssh]]
 ___
-- [x] remind me (@2025-02-25 22:12)
+- [x] remind me (@2025-03-04 22:12)
 
 /etc/ssh/ssh\_config : This files set the default configuration for all users of OpenSSH clients on that desktop/laptop and it must be readable by all users on the system.
 

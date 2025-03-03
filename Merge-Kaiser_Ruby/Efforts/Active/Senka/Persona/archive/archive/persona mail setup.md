@@ -12,6 +12,7 @@ previewLink:
 	- [x] #task connect to **Persona** mail ✅ 2025-01-06
 	- [x] #task migrate mail `folders` ✅ 2025-01-06
 	- [x] #task connect to Persona mail ⏫ ✅ 2025-01-07
+___
 ### connect to persona mail
 [[Persona VPS]]
 doesn't work due to **ssl error** [[persona ssl setup]]

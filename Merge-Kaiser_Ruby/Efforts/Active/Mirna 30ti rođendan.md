@@ -4,6 +4,7 @@ datum: 2025-03-16
 #rodendan/Mirna #rodendan/2025 #rodendan/30
 
 ### resursi 
+
 [[14 zabavnih ideja za proslavu rođendana koje će rezultirati toplim uspomenama 1]]
 
 [[21 Fun Birthday Activities for Adults Based on Interests]]
@@ -11,6 +12,10 @@ datum: 2025-03-16
 [[Za svakoga ponešto! Ako planirate vikend provesti u Zagrebu, imamo popis atrakcija koje morate posjetiti - Putni Kofer]]
 
 ___## rođendan [[Mirna 💕💕💕]]
+
+- [/] #task rodendanski poklon za Mirnu ⏫ ⏳ 2025-02-26 📅 2025-03-01 🆔 IeKKFd
+	- [x] #task pogledaj [[KiwiCo Crates Subscription Box]]
+	- [[kiwi order for Mirna]]\
 
 - [/] #task organizirati **rođendan** ⏫ ⏳ 2025-02-24 📅 2025-03-05 🆔 k81bjv
 
@@ -35,5 +40,3 @@ Onda bi kombinirali **više aktivnosti** i napravili cijeli plan za taj dan a mo
 
 - [ ] potrazi  na **internetu** zanimljive aktivnosti u okolici
 - [ ] provjeriti događanja u Brodu u isto vrijeme
-
-[[Balon klub Zagreb]]

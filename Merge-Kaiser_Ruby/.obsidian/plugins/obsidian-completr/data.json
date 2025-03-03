@@ -18,5 +18,5 @@
   "frontMatterTagAppendSuffix": true,
   "frontMatterIgnoreCase": true,
   "calloutProviderEnabled": true,
-  "calloutProviderSource": "Completr"
+  "calloutProviderSource": "Callout Manager"
 }

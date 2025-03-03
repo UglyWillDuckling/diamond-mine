@@ -10,6 +10,8 @@ tags:
   - movies
   - processing
   - bestlist
+  - list/film
+  - bestlist/film
 related:
   - "[[Perfect Days]]"
 ---
@@ -89,11 +91,13 @@ Coming-of-age movies so often run the gamut from cloyingly sentimental to cringe
 
 A near-mystical drama from Italian filmmaker [[Alice Rohrwacher]] ([*Happy as Lazzaro*](https://www.rollingstone.com/tv-movies/tv-movie-reviews/happy-as-lazzaro-movie-review-760319/)), about a British archeological scholar ([[Josh O’Connor]] — who, between this and *Challengers,* has now officially ascended to Scuzzy Sex Symbol status) occasionally moonlighting as a tomb raider. He’s got a sixth sense for finding graves filled with ancient — and lucrative — artifacts, which makes a return to his old stomping grounds a boon for his old partners in crime. It’s not greed but grief, however, that drives this thief, and the way that O’Connor turns his throwback, seedy ’70s anti-hero into a man of constant sorrow is revelatory. An absolutely glorious, gutting story about stealing from the past while still being cursed to never, ever bring it back. [Read the full review.](https://www.rollingstone.com/tv-movies/tv-movie-reviews/la-chimera-review-josh-oconnor-1234993753/)
 
+
 ![](https://www.rollingstone.com/wp-content/uploads/2024/11/DoNotExpect-Much.jpg?w=1024)
 ## [[Do Not Expect Much From the End of the World]]
 
 In which the end comes not with a bang, but with a **TikTok** post featuring a fake incel bragging about his prolific sex life. **Romanian** filmmaker [[Radu Jude]]’s biting satire captures our current the-center-cannot-hold moment better than just about any other film of the past few years; its title may be a mouthful, but the more accurate name *Apocalypse Now* was, regrettably, already spoken for.
-Following Angela (Ilinca Manolache), a Bucharest-based production assistant frantically driving from one meaningless task to the next, this chaotic comedy contrasts this gig-economy worker’s **wage-slavery** with life during the authoritarian [[Ceaușescu]] regime and comes to the conclusion that only the dates on the calendar have changed. Angela social-media rants via her alter ego — a toxic-male caricature known as Bobita — couldn’t be more crudely hilarious. The movie’s climax, in which we see a dead man’s family get gaslit and reality gets hijacked, couldn’t feel more unsettling. [Read the full review](https://www.rollingstone.com/tv-movies/tv-movie-reviews/do-not-expect-too-much-from-the-end-of-the-world-review-1234992697/)
+Following Angela (Ilinca Manolache), a Bucharest-based production assistant frantically driving from one meaningless task to the next, this chaotic comedy contrasts this gig-economy worker’s **wage-slavery** with life during the authoritarian [[Ceaușescu]] regime and comes to the conclusion that only the dates on the calendar have changed. Angela social-media rants via her alter ego — a toxic-male caricature known as Bobita — couldn’t be more crudely hilarious. The movie’s climax, in which we see a dead man’s family get gaslit and reality gets hijacked, couldn’t feel more unsettling. [Read the full review](https://www.rollingstone.com/tv-movies/tv-movie-reviews/do-not-expect-too-much-from-the-end-of-the-world-review-1234992697/).
+
 
 ![](https://www.rollingstone.com/wp-content/uploads/2024/11/Substance.jpg?w=1024)
 ## [[The Substance]]

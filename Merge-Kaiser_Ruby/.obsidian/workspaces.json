@@ -223,21 +223,25 @@
     },
     "empty": {
       "main": {
-        "id": "d3fd3182b5b7335d",
+        "id": "aff9f374e33fe321",
         "type": "split",
         "children": [
           {
-            "id": "0b41bfbea992785f",
+            "id": "4c9a281e27ca9d2f",
             "type": "tabs",
             "children": [
               {
-                "id": "36437f51c5c9fc37",
+                "id": "0797c0aa4de27032",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "Calendar/daily/2025/2025-02-27-Thu.md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "2025-02-27-Thu"
                 }
               }
             ]
@@ -246,174 +250,188 @@
         "direction": "vertical"
       },
       "left": {
-        "id": "421b21ff91adde0d",
-        "type": "split",
+        "id": "8cb644ccd4b9381b",
+        "type": "mobile-drawer",
         "children": [
           {
-            "id": "7257e540e65a9982",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "67ac4e3f4e315e0f",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
+            "id": "ecf2e9bb362e7aaf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
-              {
-                "id": "53e419fd8d9494ea",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#task",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "acb49ad1251e5867",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#rodenda30",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               },
-              {
-                "id": "369d6f3ac727bb90",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              }
-            ]
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ee438edbedd583c7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7e82b09816b7ec84",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
           }
         ],
-        "direction": "horizontal",
-        "width": 200,
-        "collapsed": true
+        "currentTab": 1
       },
       "right": {
-        "id": "6b26b603c051936f",
-        "type": "split",
+        "id": "363774834194ae5c",
+        "type": "mobile-drawer",
         "children": [
           {
-            "id": "05ce95f18513eaae",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3ea75a16cb86481d",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Calendar/daily/2025-01-09.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for 2025-01-09"
-                }
+            "id": "311f44eceb9f0bae",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Clippings/Vrli novi svijet – Wikipedija.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               },
-              {
-                "id": "c03361a3000bd879",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Calendar/daily/2025-01-09.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from 2025-01-09"
-                }
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "1b03c16a80831efd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Clippings/Vrli novi svijet – Wikipedija.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               },
-              {
-                "id": "732b3c2921195d4b",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of Obsidian Tinkering"
-                }
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "5f535b1a8df25bf6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "task board.md"
               },
-              {
-                "id": "08c4f9c69a275725",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "b286b55672c075e3",
-                "type": "leaf",
-                "state": {
-                  "type": "chronology-calendar-view",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Chronology"
-                }
-              },
-              {
-                "id": "e2dfdd096e897a5f",
-                "type": "leaf",
-                "state": {
-                  "type": "reminder-list",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Reminders"
-                }
-              }
-            ],
-            "currentTab": 4
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "161e8aa6b908a5b8",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "a315abefebde8c97",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
+            }
+          },
+          {
+            "id": "c871c93ebf4da621",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "3d9855013252530a",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
+          },
+          {
+            "id": "6922c11d4f719727",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
           }
         ],
-        "direction": "horizontal",
-        "width": 377.5,
-        "collapsed": true
+        "currentTab": 4
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-kanban:Create new board": false,
-          "obsidian-media-db-plugin:Add new Media DB entry": true,
-          "switcher:Open quick switcher": true,
-          "graph:Open graph view": true,
-          "canvas:Create new canvas": true,
-          "templates:Insert template": true,
-          "command-palette:Open command palette": true,
+          "chronology:Open Chronology": false,
+          "obsidian42-brat:BRAT": false,
           "obsidian-importer:Open Importer": false,
-          "obsidian-day-and-night:Toggle Theme": false,
-          "chronology:Open Chronology": true,
-          "markwhen:Create new Markwhen file": true,
-          "daily-notes:Open today's daily note": false,
+          "juggl:Juggl global graph": false,
           "obsidian-projects:Open projects": false,
-          "workspaces:Manage workspace layouts": false
+          "templater-obsidian:Templater": false,
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-media-db-plugin:Add new Media DB entry": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "obsidian-kanban:Create new board": false
         }
       },
-      "active": "36437f51c5c9fc37",
-      "mtime": "2025-01-19T22:50:12+01:00",
-      "workspaces-plus:settings-v1": {}
+      "active": "0797c0aa4de27032",
+      "mtime": "2025-02-27T18:37:17+01:00"
     },
     "tasks": {
       "main": {

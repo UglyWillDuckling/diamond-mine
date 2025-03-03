@@ -1,7 +1,6 @@
 ---
 tags:
   - note
-  - active
   - PC
 ---
 [[Calendar/daily/2025 1/2025-01-09]]

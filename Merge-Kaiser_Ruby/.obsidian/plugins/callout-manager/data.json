@@ -1,0 +1,35 @@
+{
+  "callouts": {
+    "custom": [
+      "remember"
+    ],
+    "settings": {
+      "remember": [
+        {
+          "changes": {
+            "icon": "lucide-brain-circuit"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "66, 173, 194"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

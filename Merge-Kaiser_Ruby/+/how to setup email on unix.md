@@ -1,18 +1,18 @@
 ## high level steps
+
 1. install required software
 2. configure software
 3. setup the DNS records
 4. test
-5. ..
 
 ## install software
-[[Postfix]], [[Dovecot]]
 
-### postfix
+### [[Atlas/Tools/pc/Postfix/Postfix|Postfix]]
 
 ```bash
  apt install postfix
 ```
+## [[Dovecot]]
 
 ## configure
 
@@ -28,3 +28,5 @@ A pointer record that is used for a [[Reverse DNS lookup]].
 The standard [[DNS record]] used for [[email]].
 
 ### [[DNS SOA record]]
+
+

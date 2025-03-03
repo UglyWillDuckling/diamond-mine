@@ -1,12 +1,4 @@
 {
-  "editor:toggle-blockquote": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Q"
-    }
-  ],
   "editor:swap-line-up": [
     {
       "modifiers": [
@@ -121,6 +113,12 @@
         "Mod"
       ],
       "key": "`"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
     }
   ],
   "editor:toggle-code": [
@@ -186,6 +184,14 @@
         "Alt"
       ],
       "key": "S"
+    }
+  ],
+  "editor:toggle-blockquote": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Q"
     }
   ]
 }

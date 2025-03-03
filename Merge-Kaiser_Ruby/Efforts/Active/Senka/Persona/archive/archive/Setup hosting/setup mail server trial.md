@@ -27,10 +27,7 @@ part of:
     - [x] ! connect with other [[email client]]s #task ✅ 2025-01-04
 - [x] try out sending emails to [[Gmail]]
 - [ ] write down all the steps  to repeat this ✍
-## status
-- mails are now signed with the [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]([[TLS]])
-- ..
----
+___
 ## work
 ### install mail server
 [[Postfix]], [[postfix config steps]]
@@ -41,11 +38,9 @@ new: [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 #### artifacts
 [[trial postfix config file 1]]
 [[dovecot trial configs]]
-[[how to setup email on unix]]
 
 - [x] follow [[Install and configure Postfix]]
 - [x] read [[How To Set Up a Postfix E-Mail Server with Dovecot]]
-- [/] #task write [[how to setup email on unix]] 🆔 9fUocW ⏳ 2025-01-26
 ### add mailboxes
 - [x] add user vlado
 - [x] test mail
@@ -53,16 +48,18 @@ new: [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 [[Mailspring]]
 - [x] try to connect
 - [x] use a <mark style="background: #FFB8EBA6;">secure</mark> connection
-- [/] use **multiple** clients
+- [x] use **multiple** clients
 #### configuring dovecot
 [[dovecot trial configs]]
 ### postfix config
 [[postfix config steps]]
 [[trial postfix config file 1]]
 [[How To Set Up a Postfix E-Mail Server with Dovecot]]
-## now
+
+## **now**
+
 - [x] create senka@techdot.biz account |  ✅ 2025-02-14/21:37 
-- [/] @ create more folders in [[Dovecot]]
+- [x] @ create more folders in [[Dovecot]]
 - [x] ! reinstall [[Postfix]]
 - [x] ! add [[+/SPF]] record
 	[[What Is the SPF Record for Hostinger Email  Hostinger Help Center]]
@@ -115,10 +112,6 @@ you can use `postconf -n` to see [[Postfix]]
  `certificate verification failed for alt1.gmail-smtp-in.l.google.com`
 solution:
     Had to set `smtp_tls_CApath = /etc/ssl/certs
-
-> [!check] TLS
-> The mail now has a TLS signature
-
 ### dovecot folders
 [[Dovecot: autocreate plugin is deprecated, use mailbox { auto } setting]]
 

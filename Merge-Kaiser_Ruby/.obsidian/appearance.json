@@ -3,12 +3,9 @@
   "cssTheme": "Minimal",
   "accentColor": "#e67a33",
   "baseFontSizeAction": true,
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "enabledCssSnippets": [
     "dataview-margin-remove",
-    "remove_folder_icon",
-    "remove_table_padding_dv",
-    "tasks_padding",
-    "tree_padding"
+    "tasks_padding"
   ]
 }

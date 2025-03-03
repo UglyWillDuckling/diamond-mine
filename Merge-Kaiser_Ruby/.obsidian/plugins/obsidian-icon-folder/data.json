@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "🐍",
-      "🌅",
-      "LiTimerReset",
-      "LiCookingPot",
-      "🗄"
+      "🧹",
+      "😪",
+      "🎥",
+      "💯",
+      "🐍"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,7 +34,6 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "notes": "📓",
   "notes/questions?": {
     "iconName": "LiQuestionMarkGlyph",
     "iconColor": "#ff7e14"
@@ -59,7 +58,10 @@
   },
   "Efforts/Simmering/Linear Calendar": "📅",
   "Efforts/Undefined": "🤔",
-  "Efforts/Simmering/See how to manage your library.md": "LiLibraryBig",
+  "Efforts/Simmering/See how to manage your library.md": {
+    "iconName": "LiLibraryBig",
+    "iconColor": "#c08011"
+  },
   "Efforts/Ongoing/PC Maintenance": "🖥",
   "Atlas/Tools": "LiHammer",
   "Efforts/Undefined/Office Tasks.md": "🗄",
@@ -187,5 +189,9 @@
   "Efforts/_Complete": {
     "iconName": "LiArchive",
     "iconColor": "#4b8b64"
-  }
+  },
+  "Efforts/Simmering/Article Rating.md": "💯",
+  "Efforts/Simmering/Create A Movie List.md": "🎥",
+  "Efforts/Ongoing/Spavanja promijena napredak.md": "😪",
+  "Efforts/Ongoing/Odrzavanja kuce.md": "🧹"
 }

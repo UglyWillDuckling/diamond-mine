@@ -1,13 +1,11 @@
 ---
-title: "How To Install and Configure Postfix on Ubuntu 20.04 | DigitalOcean"
-source: "https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-20-04"
+source: https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-20-04
 author:
   - "[[Hanif Jetha and Mark Drake]]"
 published: 2001-05-21
 created: 2024-12-29
-description: "Postfix is a popular open-source Mail Transfer Agent (MTA) that can be used to route and deliver email on a Linux system. It is estimated that around 25% of…"
 tags:
-  - "clippings"
+  - article
 ---
 *A previous version of this tutorial was written by [Justin Ellingwood](https://www.digitalocean.com/community/users/jellingwood)*
 
@@ -245,5 +243,8 @@ Output+[/home/sammy/Maildir/]sent: 1 message 1 new
 You can manage sent mail using the same commands you use for incoming mail.
 
 ## Conclusion
+
+> [!NOTE] Title
+> Contents
 
 You now have Postfix configured on your Ubuntu 20.04 server. Managing email servers can be a tough task for new system administrators, but with this configuration, you should have enough MTA email functionality to get yourself started.

@@ -1,7 +1,7 @@
 #issue/snap
 
+- [ ] remind (@2025-03-05)
+
 about:: [[snap]]
-
-For example opening other **applications** or **resources**
-
-- [ ] remind (@2025-02-26)
+___
+For example, opening other **applications** or **resources**.

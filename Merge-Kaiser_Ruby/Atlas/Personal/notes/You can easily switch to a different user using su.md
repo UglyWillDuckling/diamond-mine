@@ -19,4 +19,4 @@ sudo su - root
 
 - [x] remind me in a week (@2025-01-12 00:33)
 - [x] remind me in 2 weeks (@2025-01-26)
-- [ ] remind me in 1 month (@2025-02-26)
+- [x] remind me in 1 month (@2025-02-27)

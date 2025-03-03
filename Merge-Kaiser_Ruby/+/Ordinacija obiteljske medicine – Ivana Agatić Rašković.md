@@ -3,7 +3,7 @@ doktor: "[[+/IVANA AGATIĆ RAŠKOVIĆ]]"
 tags:
   - ordinacija
 ---
-- [/] #task zatrazi recept za [[dermatolog]] 🔼 ⏳ 2025-02-25 📅 2025-02-25
+- [x] #task zatrazi recept za [[dermatolog]] 🔼 ⏳ 2025-02-25 📅 2025-02-25 🆔 xbMnYp ✅ 2025-02-26
 	- [[Ordinacija obiteljske medicine – Ivana Agatić Rašković]]
 
 Odlaskom [[Stjepan Žagar]] dr. med iz Doma zdravlja Slavonski Brod u ordinaciji počinje raditi Ivana Agatić Rašković, dr.med.

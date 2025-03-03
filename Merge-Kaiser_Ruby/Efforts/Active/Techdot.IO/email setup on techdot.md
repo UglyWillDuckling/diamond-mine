@@ -1,0 +1,68 @@
+related:: [[persona mail setup]]
+uses:: [[second VPS]]
+### resources / related
+- [[How To Set Up a Postfix E-Mail Server with Dovecot]]
+- [[setup mail server trial]]
+### artifacts
+[[how to setup email on unix]]
+[[send a simple mail on unix]]
+
+___
+
+## **Prerequisites**
+- [x] system update
+- [/] read through the previous docs and tasks:
+	- [[persona mail setup]] 
+	- [[How To Set Up a Postfix E-Mail Server with Dovecot]]
+- [/] find other relevant docs
+
+## **tasks**
+
+- [/] #task Setup Techdot mail  🆔 5u1PYy
+	- [x] install [[Postfix]] and [[dovecot]]
+	- [ ] install [[mailutils]]
+	- [x] copy the [[Mail Config]] from [[my VPS]]
+	- [x] get [[SSL certificate]] for techdot.io
+	- [x] copy `aliases` file
+	- [/]  connect to **Techdot** mail 
+		- [ ] ..
+
+### store mail configs
+1. copy over all the configuration files from [[my VPS]]
+	1. postfix: /etc/postfix/{master.cf,main.cf}
+	2. dovecot: /etc/dovecot.confA
+2. store all the files **locally**
+	1. 🤔 think about storing them **directly** in obsidian
+
+### copy over the mail config files
+`stored` at: /home/vlado/dev/docs/mail_setup
+
+### generating the certs
+> use [[Certbot]]
+
+based on: [[How To Use Certbot to Retrieve Let's Encrypt SSL Certificates - DigitalOcean]]
+
+```bash
+certbot certonly --standalone -d techdot.io
+```
+
+### connecting the mail
+
+try to **send** a mail
+
+```sh
+ echo 'Frfom Root Test email' | mail -s "Test" -r root@techdot.io
+```
+
+### how to test?
+%% write down how to test here %%
+
+https://www.claudiokuenzler.com/blog/1306/postfix-not-resolving-mx-host-domain-not-found-dns-server-change
+
+### postifix fixes
+
+1. failed to resolve DNS
+	Hand to copy over the resolv.conf file to ``
+
+2. timeout - in progress
+[[Postfix - ArchWiki]]

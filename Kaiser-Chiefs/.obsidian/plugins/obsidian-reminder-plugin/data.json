@@ -1,13 +1,6 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/Personal/notes/libgen-downloader.md": [
-      {
-        "title": "monthly reminder",
-        "time": "2025-02-22",
-        "rowNumber": 10
-      }
-    ],
     "Atlas/Personal/notes/You can easily switch to a different user using su.md": [
       {
         "title": "remind me in 1 month",
@@ -20,34 +13,6 @@
         "title": "remember me 1 week",
         "time": "2025-02-26",
         "rowNumber": 1
-      }
-    ],
-    "Atlas/Personal/notes/question - how does docker choose from where to take the files for a volume.md": [
-      {
-        "title": "**remind** me",
-        "time": "2025-02-22",
-        "rowNumber": 8
-      }
-    ],
-    "Clippings/arch pacman.md": [
-      {
-        "title": "monthly",
-        "time": "2025-02-24",
-        "rowNumber": 190
-      }
-    ],
-    "Atlas/Personal/notes/mozes se ulogirat u PBZ online.md": [
-      {
-        "title": "reminder",
-        "time": "2025-02-22",
-        "rowNumber": 4
-      }
-    ],
-    "Atlas/Personal/notes/having tasks or tickets belong to more than just one project could be useful in certain situations.md": [
-      {
-        "title": "remind me",
-        "time": "2025-02-18",
-        "rowNumber": 4
       }
     ],
     "Atlas/Personal/Info/snap installations have problem accessing system resources.md": [
@@ -85,20 +50,6 @@
         "rowNumber": 11
       }
     ],
-    "Clippings/How to trust cert authority - arch.md": [
-      {
-        "title": "remind me",
-        "time": "2025-02-22",
-        "rowNumber": 12
-      }
-    ],
-    "Atlas/Dev/notes/Mason is responsible for managing lsp;s.md": [
-      {
-        "title": "remind me",
-        "time": "2025-02-18",
-        "rowNumber": 4
-      }
-    ],
     "Efforts/Ongoing/Vim Mastery/Nvim - Lsp - How to inspect info.md": [
       {
         "title": "remind me",
@@ -111,13 +62,6 @@
         "title": "remind me ( )",
         "time": "2025-03-01",
         "rowNumber": 1
-      }
-    ],
-    "Efforts/Active/Persona/persona ssl cronjob.md": [
-      {
-        "title": "remind me Persona ssl cert cron",
-        "time": "2025-02-17 10:30",
-        "rowNumber": 39
       }
     ],
     "Atlas/Knowledge/howtos/how to change the hostname on a linux machie.md": [

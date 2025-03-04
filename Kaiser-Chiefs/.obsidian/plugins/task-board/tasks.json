@@ -253,19 +253,6 @@
                 "completed": ""
             }
         ],
-        "Clippings/arch pacman.md": [
-            {
-                "id": 180384843,
-                "title": "monthly (@2025-02-24)",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Clippings/arch pacman.md",
-                "completed": ""
-            }
-        ],
         "Clippings/Task Board plugin - Introduction.md": [
             {
                 "id": 3043715992,
@@ -2995,8 +2982,19 @@
         ],
         "Clippings/arch pacman.md": [
             {
-                "id": 2890791474,
+                "id": 1914029682,
                 "title": "remind me (@2025-02-03 19:37)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/arch pacman.md",
+                "completed": ""
+            },
+            {
+                "id": 1754909596,
+                "title": "monthly (@2025-02-24)",
                 "body": [],
                 "time": "",
                 "due": "",

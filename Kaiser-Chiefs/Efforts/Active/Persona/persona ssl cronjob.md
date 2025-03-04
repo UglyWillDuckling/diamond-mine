@@ -37,7 +37,7 @@ docker compose run --rm certbot renew --force-renewal
 ### schedule
 - should run **once per week**
 -  next at 2025-02-17 01:20:00
-	- [ ] remind me Persona ssl cert cron (@2025-02-17 10:30)
+	- [x] remind me Persona ssl cert cron (@2025-02-17 10:30)
 #### solution
 
 ```c

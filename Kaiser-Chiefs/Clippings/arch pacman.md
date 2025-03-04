@@ -188,7 +188,7 @@ To remove a package, which is required by another package, without removing the 
 
 ### Querying package databases ^querying
 - [x] remind me (@2025-02-03 19:37)
-- [ ] monthly (@2025-02-24)
+- [x] monthly (@2025-02-24)
 
 *Pacman* queries the **local package database** with the `-Q` flag, the sync database with the `-S` flag and the files database with the `-F` flag. See `pacman -Q --help`, `pacman -S --help` and `pacman -F --help` for the respective suboptions of each flag.
 

@@ -2,7 +2,7 @@
 
 ## [[quickfix list vim | qf list]]
 
-- [ ] remind me qf list navigation (@[[2025-03-03]])
+Questions
   
   config.defaults.keymap.fzf["ctrl-q"] = "select-all+accept"
   config.defaults.keymap.fzf["ctrl-u"] = "half-page-up"

@@ -2,4 +2,4 @@
 
 Most images are built using a github repo, this makes it transparent as to what is going on.
 
-- [ ] remind (@[[2025-03-04]])
+- [x] remind (@[[2025-03-04]])

@@ -36,13 +36,6 @@
         "rowNumber": 6
       }
     ],
-    "+/you can usually check how a docker image is built by going to github.md": [
-      {
-        "title": "remind",
-        "time": "2025-03-04",
-        "rowNumber": 4
-      }
-    ],
     "Clippings/tmux-resurrect.md": [
       {
         "title": "remind me",
@@ -68,13 +61,6 @@
       {
         "title": "remind me",
         "time": "2025-03-13",
-        "rowNumber": 4
-      }
-    ],
-    "work/calls/CRM/Vim LazyVim - Fzf controls.md": [
-      {
-        "title": "remind me qf list navigation",
-        "time": "2025-03-03",
         "rowNumber": 4
       }
     ],
@@ -130,14 +116,14 @@
     "Atlas/Knowledge/tools/dev/bashword.md": [
       {
         "title": "monthly reminder",
-        "time": "2025-03-03",
+        "time": "2025-03-04 10:07",
         "rowNumber": 28
       }
     ],
     "Atlas/Knowledge/tools/dev/ocrs.md": [
       {
         "title": "2 weeks",
-        "time": "2025-03-04",
+        "time": "2025-03-04 10:07",
         "rowNumber": 12
       }
     ],
@@ -165,7 +151,7 @@
     "+/Difference between tasks and tickets.md": [
       {
         "title": "remind me",
-        "time": "2025-03-03",
+        "time": "2025-03-04 12:37",
         "rowNumber": 6
       }
     ],

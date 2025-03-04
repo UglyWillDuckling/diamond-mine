@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "bdaa2398d05c08b1",
+        "id": "f0a57b80ef737cf9",
         "type": "tabs",
         "children": [
           {
-            "id": "6498b8401340aa08",
+            "id": "ef1604bf6631237f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md",
+                "file": "MOC/🛍️ Physical Objects MOC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-01-Sat"
+              "title": "🛍️ Physical Objects MOC"
             }
           }
         ]
@@ -229,6 +229,13 @@
       "khoj:Khoj": false
     }
   },
-  "active": "6498b8401340aa08",
-  "lastOpenFiles": []
+  "active": "a87c234f19295953",
+  "lastOpenFiles": [
+    "People MOC.md",
+    "Atlas/Knowledge/How To's/vim - jump to last insert with `..md",
+    "work/calls/CRM/Vim LazyVim - Fzf controls.md",
+    "x",
+    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-04-Tue.md",
+    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md"
+  ]
 }

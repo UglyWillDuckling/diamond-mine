@@ -6,5 +6,4 @@ component_link:: https://gemini-storybook.prompt-scorpion-preview.aws.aviv.eu/?p
 JIRA::
 ___
 
-
-[[moda example code]]
+[[modal example code]]

@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f0a57b80ef737cf9",
+        "id": "c314a4f5df84d1ea",
         "type": "tabs",
         "children": [
           {
-            "id": "ef1604bf6631237f",
+            "id": "e34b5332d89c6e2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOC/🛍️ Physical Objects MOC.md",
+                "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-05-Wed.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "🛍️ Physical Objects MOC"
+              "title": "2025-03-05-Wed"
             }
           }
         ]
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a4cc5cab7d2ca3c4",
@@ -95,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-03-01-Sat"
+              "title": "Backlinks"
             }
           },
           {
@@ -123,7 +123,21 @@
             }
           },
           {
-            "id": "b88cc7be919bf484",
+            "id": "42537086106242f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "1a3ce602e5f9eeb4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -138,7 +152,7 @@
             }
           },
           {
-            "id": "8cb08ee703f87d78",
+            "id": "c13b4cdaf709f61d",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -152,22 +166,7 @@
             }
           },
           {
-            "id": "42537086106242f6",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 2025-03-01-Sat"
-            }
-          },
-          {
-            "id": "47049f74c4eba867",
+            "id": "6ed10242172092f4",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -177,7 +176,7 @@
             }
           },
           {
-            "id": "0ba59d82ab129e67",
+            "id": "f2b75b73c9eda42d",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -187,7 +186,7 @@
             }
           },
           {
-            "id": "b8c46bade201d437",
+            "id": "69e5e1c2e2c26ad5",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -196,7 +195,8 @@
               "title": "Reminders"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -206,7 +206,7 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
+      "graph:Open graph view": true,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
@@ -222,20 +222,38 @@
       "obsidian-book-search-plugin:Create new book note": false,
       "cmdr:Graph view: Open local graph": false,
       "cmdr:Workspaces: Manage workspace layouts": false,
-      "cmdr:Daily notes: Open today's daily note": false,
       "templater-obsidian:Templater": false,
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-      "juggl:Juggl global graph": false,
+      "juggl:Juggl global graph": true,
+      "cmdr:Daily notes: Open today's daily note": false,
       "khoj:Khoj": false
     }
   },
-  "active": "a87c234f19295953",
+  "active": "e34b5332d89c6e2d",
   "lastOpenFiles": [
+    "Clippings/Fzf  LazyVim.md",
+    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-05-Wed.md",
+    "Clippings/How to disable the timeout on the vim leader key.md",
+    "Clippings/folkesnacks.nvim 🍿 A collection of QoL plugins for Neovim.md",
+    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-04-Tue.md",
+    "work/calls/CRM/Team Create Modal Component.md",
+    "x/485ddd1f4dd3778a21748ca3db44dce3_MD5.jpeg",
+    "Screenshot 2025-02-13 at 13.46.16.png",
+    "work/calls/pair programming/today 2025-03-04.md",
+    "LUQA issue.md",
+    "Atlas/Knowledge/tools/dev/ocrs.md",
+    "Efforts/example Modal using Gemini.md",
+    "Efforts/modal example code.md",
+    "Atlas/Knowledge/concepts/development/aws fat lambda.md",
+    "Atlas/Knowledge/tools/dev/bashword.md",
+    "Efforts/tasks/archive/kako izdati racun HOC.md",
+    "Aviv VPN certificate backup.md",
+    "Efforts/tasks/archive/izdati racun 10.24.md",
+    "MOC/🛍️ Physical Objects MOC.md",
     "People MOC.md",
     "Atlas/Knowledge/How To's/vim - jump to last insert with `..md",
     "work/calls/CRM/Vim LazyVim - Fzf controls.md",
     "x",
-    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-04-Tue.md",
     "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md"
   ]
 }

@@ -6,7 +6,7 @@ A shell tool for quickly generating passwords.
 ## Examples
 
 Generate a **20** character password with **digits and symbols**
-```
+```sh
 bashword
 ```
 
@@ -26,4 +26,5 @@ Generate passwords for the given **users**
 ```
 
 - [x] remind (@[[Planning 2025-02-10]] 10:51)
-- [ ] monthly reminder (@[[2025-03-04]] 10:07)
+- [x] monthly reminder (@[[2025-03-04]] 10:44)
+- [ ] bi-weekly (@[[2025-03-18]])

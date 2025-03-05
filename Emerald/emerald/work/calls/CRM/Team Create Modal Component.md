@@ -22,3 +22,6 @@ Figma design:
 
 **NOTE**: 
 Person that has manager role inside the group is at the same time the groups manager (can have advanced viewing and edit rights, as defined in the role’s permission)
+
+[[x/485ddd1f4dd3778a21748ca3db44dce3_MD5.jpeg|ss.png]]
+![[x/485ddd1f4dd3778a21748ca3db44dce3_MD5.jpeg|1000]]

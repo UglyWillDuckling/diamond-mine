@@ -13,7 +13,7 @@ date: 2024-12-05
 ---
 ## notes 📔
 - lambdas are essentially routes
-- [[fat lambda]]'s are a grouping of [[aws lambda|lambda]]'s
+- [[aws fat lambda]]'s are a grouping of [[aws lambda|lambda]]'s
 
 ## presentation 🖼
 

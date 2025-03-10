@@ -1,9 +1,9 @@
 {
-  "theme": "obsidian",
+  "theme": "system",
   "cssTheme": "Minimal",
   "accentColor": "#e67a33",
   "baseFontSizeAction": true,
-  "baseFontSize": 18,
+  "baseFontSize": 15,
   "enabledCssSnippets": [
     "dataview-margin-remove",
     "tasks_padding"

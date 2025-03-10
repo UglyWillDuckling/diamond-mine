@@ -35,8 +35,9 @@ KVM provides device abstraction but no processor emulation. It exposes the **/de
 - Feed the guest simulated I/O.
 - Map the guest's video display back onto the system host.
 
-Originally, a forked version of [QEMU](https://en.wikipedia.org/wiki/QEMU "QEMU") was provided to launch guests and deal with hardware emulation that is not handled by the kernel. That support was eventually merged into the upstream project. 
-There are now numerous Virtual Machine Monitors (VMMs) which can utilise the KVM interface including [[kvmtool]], [[crosvm]] and [Firecracker](https://en.wikipedia.org/wiki/Firecracker_\(software\) "Firecracker (software)") and numerous specialised VMMs built with frameworks such as rust-vmm.
+Originally, a forked version of [[QEMU]] was provided to launch guests and deal with hardware emulation that is not handled by the kernel. That support was eventually merged into the upstream project. 
+
+There are now numerous Virtual Machine Monitors (**VMMs**) which can utilise the KVM interface including [[kvmtool]], [[crosvm]] and [Firecracker](https://en.wikipedia.org/wiki/Firecracker_\(software\) "Firecracker (software)") and numerous specialised VMMs built with frameworks such as rust-vmm.
 
 Internally, KVM uses [SeaBIOS](https://en.wikipedia.org/wiki/SeaBIOS "SeaBIOS") as an open source implementation of a 16-bit x86 [BIOS](https://en.wikipedia.org/wiki/BIOS "BIOS").[^25]
 

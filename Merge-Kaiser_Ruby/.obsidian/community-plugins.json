@@ -21,7 +21,6 @@
   "markwhen",
   "emoji-shortcodes",
   "obsidian-reminder-plugin",
-  "obsidian-html-tags-autocomplete",
   "obsidian-completr",
   "obsidian-plugin-toc",
   "metadata-menu",
@@ -43,5 +42,8 @@
   "obsidian-meta-bind-plugin",
   "obsidian-minimal-settings",
   "obsidian-style-settings",
-  "callout-manager"
+  "callout-manager",
+  "table-editor-obsidian",
+  "obsidian-book-search-plugin",
+  "github-link"
 ]

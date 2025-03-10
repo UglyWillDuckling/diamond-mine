@@ -803,7 +803,24 @@
         ],
         "Master Task List.md": [
             {
-                "id": 2151978063,
+                "id": 1072117949,
+                "status": "/",
+                "title": "#task Prodi [[Bug 388]] i instaliraj zeljeni software 🔼 ⏳ 2025-03-03 📅 2025-03-02 🆔 BVw5Ce",
+                "body": [
+                    "\t[[instalacija sofwarea iz Bug 388]]\t"
+                ],
+                "time": "",
+                "due": "2025-03-02",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completion": ""
+            },
+            {
+                "id": 318654172,
+                "status": " ",
                 "title": "#task See how difficult it is to setup a local FTP server ⏳ 2025-02-25 📅 2025-03-02 🆔 592cRS",
                 "body": [],
                 "time": "",
@@ -813,26 +830,11 @@
                 ],
                 "priority": 0,
                 "filePath": "Master Task List.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 3662491822,
-                "title": "#task Look into what **SSE** means 📅 2025-03-03 🆔 5dKDNT #dev",
-                "body": [
-                    "\t- see [[Deno Web Server]]"
-                ],
-                "time": "",
-                "due": "2025-03-03",
-                "tags": [
-                    "#task",
-                    "#dev"
-                ],
-                "priority": 0,
-                "filePath": "Master Task List.md",
-                "completed": ""
-            },
-            {
-                "id": 1152228624,
+                "id": 2775838796,
+                "status": " ",
                 "title": "#task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-03-03 🆔 iD0UCB #habbit",
                 "body": [],
                 "time": "",
@@ -843,10 +845,11 @@
                 ],
                 "priority": 0,
                 "filePath": "Master Task List.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 3541563304,
+                "id": 2020128248,
+                "status": " ",
                 "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
                 "body": [],
                 "time": "",
@@ -857,10 +860,11 @@
                 ],
                 "priority": 3,
                 "filePath": "Master Task List.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 2246582953,
+                "id": 3857578220,
+                "status": " ",
                 "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-28",
                 "body": [
                     "\t- check online",
@@ -873,10 +877,11 @@
                 ],
                 "priority": 3,
                 "filePath": "Master Task List.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 2180954039,
+                "id": 1633296813,
+                "status": " ",
                 "title": "#task [[Backup Drive]] 🆔 OpBFPk 🔼",
                 "body": [],
                 "time": "",
@@ -886,7 +891,7 @@
                 ],
                 "priority": 3,
                 "filePath": "Master Task List.md",
-                "completed": ""
+                "completion": ""
             }
         ],
         "Calendar/daily/2025-02-24.md": [
@@ -1244,6 +1249,237 @@
                 "priority": 0,
                 "filePath": "Clippings/Never miss an expiring certificate with Red Sift Certificates Lite.md",
                 "completed": ""
+            }
+        ],
+        "Efforts/Active/setup Media Server,.md": [
+            {
+                "id": 1120127125,
+                "title": "categorize content: `movies/films`, `tv shows/series`",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/setup Media Server,.md",
+                "completed": ""
+            },
+            {
+                "id": 992769149,
+                "title": "try to map Othe entire [[ External Drive]]: `media folder`",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/setup Media Server,.md",
+                "completed": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-03-05-Wed.md": [
+            {
+                "id": 3927381115,
+                "title": "[[setup Media Server]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-03-05-Wed.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Active/setup Media Server.md": [
+            {
+                "id": 2044898205,
+                "status": "/",
+                "title": "#task [[setup Media Server]] Jellyfin 🔼 ⏳ 2025-03-05 📅 2025-03-02 🆔 FeBHHo",
+                "body": [],
+                "time": "",
+                "due": "2025-03-02",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Active/setup Media Server.md",
+                "completion": ""
+            },
+            {
+                "id": 768459309,
+                "status": "/",
+                "title": "#task [[Skinuti filmove, serije i slicno]] 🔼 ⏳ 2025-03-07 📅 2025-03-02 🆔 tIBxyP",
+                "body": [],
+                "time": "",
+                "due": "2025-03-02",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Active/setup Media Server.md",
+                "completion": ""
+            },
+            {
+                "id": 4160612903,
+                "status": ">",
+                "title": "checkout plugins for [[Jellyfin]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/setup Media Server.md",
+                "completion": ""
+            },
+            {
+                "id": 4275590298,
+                "status": " ",
+                "title": "[[#trajno rijesenje za mountanje drive-a]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/setup Media Server.md",
+                "completion": ""
+            }
+        ],
+        "Skinuti filmove, serije i slicno.md": [
+            {
+                "id": 3461702536,
+                "status": " ",
+                "title": "[[avatar The Last Airbender]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Skinuti filmove, serije i slicno.md",
+                "completion": ""
+            },
+            {
+                "id": 1462003517,
+                "status": " ",
+                "title": "[[yu-gi-oh]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Skinuti filmove, serije i slicno.md",
+                "completion": ""
+            },
+            {
+                "id": 1808693692,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Skinuti filmove, serije i slicno.md",
+                "completion": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-03-08-Sat.md": [
+            {
+                "id": 3579638576,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-03-08-Sat.md",
+                "completion": ""
+            }
+        ],
+        "Clippings/FixPart - Bosch Siemens glava usisivača.md": [
+            {
+                "id": 2174692922,
+                "status": "/",
+                "title": "#task #home Nabavi zamjenski dio za usisavac #home-repair 🔼 ⏳ 2025-03-08 📅 2025-03-15",
+                "body": [],
+                "time": "",
+                "due": "2025-03-15",
+                "tags": [
+                    "#task",
+                    "#home",
+                    "#home-repair"
+                ],
+                "priority": 3,
+                "filePath": "Clippings/FixPart - Bosch Siemens glava usisivača.md",
+                "completion": ""
+            },
+            {
+                "id": 1726583019,
+                "status": "1",
+                "title": "(https://fixpart.hr/proizvod/?apl=2759694#)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/FixPart - Bosch Siemens glava usisivača.md",
+                "completion": ""
+            },
+            {
+                "id": 29972733,
+                "status": "2",
+                "title": "(https://fixpart.hr/proizvod/?apl=2759694#)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/FixPart - Bosch Siemens glava usisivača.md",
+                "completion": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-03-10-Mon.md": [
+            {
+                "id": 943283662,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-03-10-Mon.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Active/Moje djetinjstvo, istraga.md": [
+            {
+                "id": 1598582693,
+                "status": "/",
+                "title": "#task napravi listu crtica za skinuti ⏫ ⏳ 2025-03-10 📅 2025-03-09 🆔 kB5bD2",
+                "body": [],
+                "time": "",
+                "due": "2025-03-09",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            },
+            {
+                "id": 2175026855,
+                "status": "/",
+                "title": "#task Explore Console Emulators 🔼 🛫 2025-03-10 ⏳ 2025-03-10 📅 2025-03-17 🆔 RX2D6z",
+                "body": [
+                    "\t- [[Install Mesen in Arch Linux  Mike Polinowski]]"
+                ],
+                "time": "",
+                "due": "2025-03-17",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga.md",
+                "completion": ""
             }
         ]
     },
@@ -4311,8 +4547,54 @@
         ],
         "Master Task List.md": [
             {
-                "id": 1684024242,
-                "title": "#task pocistiti **Downloads** folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny",
+                "id": 398697230,
+                "status": "x",
+                "title": "#task Skini SHE-RA AND THE PRINCESSES OF POWER ⏳ 2025-03-09 📅 2025-03-10",
+                "body": [],
+                "time": "",
+                "due": "2025-03-10",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Master Task List.md",
+                "completion": ""
+            },
+            {
+                "id": 154102758,
+                "status": "x",
+                "title": "#task Skini Matrix 🔼 📅 2025-03-08 🆔 dyQA3h",
+                "body": [],
+                "time": "",
+                "due": "2025-03-08",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completion": ""
+            },
+            {
+                "id": 2896946365,
+                "status": "x",
+                "title": "#task Look into what **SSE** means #dev 🆔 5dKDNT 📅 2025-03-03 ✅ 2025-03-10",
+                "body": [
+                    "\t- see [[Deno Web Server]]"
+                ],
+                "time": "",
+                "due": "2025-03-03",
+                "tags": [
+                    "#task",
+                    "#dev"
+                ],
+                "priority": 0,
+                "filePath": "Master Task List.md",
+                "completion": "2025-03-10"
+            },
+            {
+                "id": 4244856264,
+                "status": "x",
+                "title": "#task pocistiti **Downloads** folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny | #task #tiny #task #tiny 🔼 📅 2025-02-15 ✅ 2025-02-15",
                 "body": [],
                 "time": "",
                 "due": "2025-02-13",
@@ -4326,10 +4608,11 @@
                 ],
                 "priority": 3,
                 "filePath": "Master Task List.md",
-                "completed": "2025-02-15"
+                "completion": "2025-02-15"
             },
             {
-                "id": 3599671927,
+                "id": 1991486854,
+                "status": "x",
                 "title": "#task see how [[rsync]] works #backburner #dev ✅ 2025-02-15",
                 "body": [
                     "\t- [[rsync]]"
@@ -4343,10 +4626,11 @@
                 ],
                 "priority": 0,
                 "filePath": "Master Task List.md",
-                "completed": "2025-02-15"
+                "completion": "2025-02-15"
             },
             {
-                "id": 638571566,
+                "id": 813186211,
+                "status": "x",
                 "title": "#task **Find** remote vault encryption password ⏫ ⏳ 2025-02-20 📅 2025-02-22 ✅ 2025-02-19",
                 "body": [],
                 "time": "",
@@ -4356,10 +4640,11 @@
                 ],
                 "priority": 2,
                 "filePath": "Master Task List.md",
-                "completed": "2025-02-19"
+                "completion": "2025-02-19"
             },
             {
-                "id": 200338383,
+                "id": 3633447665,
+                "status": "x",
                 "title": "#task daj Senki savjet da pogleda mail od Regice u slucaju da vec nije #rad 🆔 OZBwNh 🔼 ⏳ 2025-02-24 📅 2025-02-24 ✅ 2025-02-24",
                 "body": [],
                 "time": "",
@@ -4370,10 +4655,11 @@
                 ],
                 "priority": 3,
                 "filePath": "Master Task List.md",
-                "completed": "2025-02-24"
+                "completion": "2025-02-24"
             },
             {
-                "id": 1611719375,
+                "id": 2222508903,
+                "status": "x",
                 "title": "#task pocisti [[GDrive]] do kraja 🔼 ⏳ 2025-02-20 📅 2025-02-23 🆔 7RPQKX ✅ 2025-02-23",
                 "body": [],
                 "time": "",
@@ -4383,10 +4669,11 @@
                 ],
                 "priority": 3,
                 "filePath": "Master Task List.md",
-                "completed": "2025-02-23"
+                "completion": "2025-02-23"
             },
             {
-                "id": 2831497438,
+                "id": 2828119301,
+                "status": "x",
                 "title": "#task Fix missing **restart** of **nginx** docker service after cert renewal ⏫ 🆔 5ij4NX ✅ 2025-02-23",
                 "body": [],
                 "time": "",
@@ -4396,10 +4683,11 @@
                 ],
                 "priority": 2,
                 "filePath": "Master Task List.md",
-                "completed": "2025-02-23"
+                "completion": "2025-02-23"
             },
             {
-                "id": 3368025865,
+                "id": 3212050736,
+                "status": "x",
                 "title": "#task Fix, again, the big editor issue 🔼 ⏳ 2025-02-27 📅 2025-02-23 ✅ 2025-02-26",
                 "body": [],
                 "time": "",
@@ -4409,7 +4697,7 @@
                 ],
                 "priority": 3,
                 "filePath": "Master Task List.md",
-                "completed": "2025-02-26"
+                "completion": "2025-02-26"
             }
         ],
         "Efforts/Active/Obsidian Tinkering/Morgen General exploration.md": [
@@ -4981,6 +5269,174 @@
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
                 "completed": "2025-02-14/21:37"
+            }
+        ],
+        "Efforts/Active/Senka/Persona/persona ssl cronjob.md": [
+            {
+                "id": 124056559,
+                "title": "build the [[#script]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Senka/Persona/persona ssl cronjob.md",
+                "completed": ""
+            },
+            {
+                "id": 3721617368,
+                "title": "make the [[#schedule]]",
+                "body": [
+                    "\t- [x] set the time",
+                    "\t- [x] call the script",
+                    "\t- [x] test the call"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Senka/Persona/persona ssl cronjob.md",
+                "completed": ""
+            },
+            {
+                "id": 2606701636,
+                "title": "setup cron",
+                "body": [
+                    "\t- [x] **install**/add cron",
+                    "\t- [x] test cron"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Senka/Persona/persona ssl cronjob.md",
+                "completed": ""
+            },
+            {
+                "id": 908667423,
+                "title": "schedule the **test** 🧪 of the the next cron run",
+                "body": [
+                    "\t- @ [[2025-02-17]]"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Senka/Persona/persona ssl cronjob.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Active/setup Media Server,.md": [
+            {
+                "id": 1372576629,
+                "title": "make the basic setup",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/setup Media Server,.md",
+                "completed": ""
+            },
+            {
+                "id": 3986433634,
+                "title": "map `movies` directory",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/setup Media Server,.md",
+                "completed": ""
+            }
+        ],
+        "Videoigre mog djetinjstva sjećanja.md": [
+            {
+                "id": 867952107,
+                "title": "[[Medievil 2]] ♥",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Videoigre mog djetinjstva sjećanja.md",
+                "completed": ""
+            },
+            {
+                "id": 2100079943,
+                "title": "[[Super Mario Land (1989) Full Walkthrough - No Commentary]] ♥",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Videoigre mog djetinjstva sjećanja.md",
+                "completed": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-03-05-Wed.md": [
+            {
+                "id": 3463143031,
+                "title": "work on [[nvim]] new config setup",
+                "body": [
+                    "\t- [[new nvim setup]]"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-03-05-Wed.md",
+                "completed": ""
+            }
+        ],
+        "Efforts/Active/setup Media Server.md": [
+            {
+                "id": 2985427609,
+                "status": "x",
+                "title": "make the basic setup",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/setup Media Server.md",
+                "completion": ""
+            },
+            {
+                "id": 737274374,
+                "status": "x",
+                "title": "map `movies` directory",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/setup Media Server.md",
+                "completion": ""
+            },
+            {
+                "id": 2666855266,
+                "status": "x",
+                "title": "categorize content: `movies/films`, `tv shows/series`",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/setup Media Server.md",
+                "completion": ""
+            },
+            {
+                "id": 2563808767,
+                "status": "x",
+                "title": "try to map the entire [[ Personal External Drive | Ext. Drive]]: `media folder`",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/setup Media Server.md",
+                "completion": ""
             }
         ]
     }

@@ -4,10 +4,16 @@ aliases: []
 tags:
   - task-list
 ---
+
+- [x] #task Skini SHE-RA AND THE PRINCESSES OF POWER ⏳ 2025-03-09 📅 2025-03-10
+- [x] #task Skini Matrix 🔼 📅 2025-03-08 🆔 dyQA3h
+
+- [/] #task Prodi [[Bug 388]] i instaliraj zeljeni software 🔼 ⏳ 2025-03-03 📅 2025-03-02 🆔 BVw5Ce
+	[[instalacija sofwarea iz Bug 388]]	
 	
 - [ ] #task See how difficult it is to setup a local FTP server ⏳ 2025-02-25 📅 2025-03-02 🆔 592cRS
 
-- [ ] #task Look into what **SSE** means 📅 2025-03-03 🆔 5dKDNT #dev
+- [x] #task Look into what **SSE** means #dev 🆔 5dKDNT 📅 2025-03-03 ✅ 2025-03-10
 	- see [[Deno Web Server]]
 - [ ] #task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-03-03 🆔 iD0UCB #habbit
 

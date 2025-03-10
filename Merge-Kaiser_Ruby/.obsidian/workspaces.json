@@ -223,25 +223,39 @@
     },
     "empty": {
       "main": {
-        "id": "aff9f374e33fe321",
+        "id": "67b00fc9261485ee",
         "type": "split",
         "children": [
           {
-            "id": "4c9a281e27ca9d2f",
+            "id": "fbf6de515cde09cc",
             "type": "tabs",
             "children": [
               {
-                "id": "0797c0aa4de27032",
+                "id": "fbb3fac42c446151",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Calendar/daily/2025/2025-02-27-Thu.md",
+                    "file": "Clippings/Super Mario Land 2 6 Golden Coins (Game Boy) Playthrough - NintendoComplete.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "2025-02-27-Thu"
+                  "title": "Super Mario Land 2 6 Golden Coins (Game Boy) Playthrough - NintendoComplete"
+                }
+              },
+              {
+                "id": "d5ff745e1f3c39fd",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Clippings/PSX Longplay 521 Colony Wars.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "PSX Longplay 521 Colony Wars"
                 }
               }
             ]
@@ -250,11 +264,11 @@
         "direction": "vertical"
       },
       "left": {
-        "id": "8cb644ccd4b9381b",
+        "id": "a4e5ffda6787149c",
         "type": "mobile-drawer",
         "children": [
           {
-            "id": "ecf2e9bb362e7aaf",
+            "id": "6eae668b8abc6df4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -267,12 +281,12 @@
             }
           },
           {
-            "id": "acb49ad1251e5867",
+            "id": "ead71bd433aae702",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#rodenda30",
+                "query": "tag:clippings",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -284,7 +298,7 @@
             }
           },
           {
-            "id": "ee438edbedd583c7",
+            "id": "1f0e0be2e600458b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -297,7 +311,7 @@
             }
           },
           {
-            "id": "7e82b09816b7ec84",
+            "id": "c439b729529d3248",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -310,16 +324,16 @@
         "currentTab": 1
       },
       "right": {
-        "id": "363774834194ae5c",
+        "id": "d705053399cd2967",
         "type": "mobile-drawer",
         "children": [
           {
-            "id": "311f44eceb9f0bae",
+            "id": "f74beb42e09e49b4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/Vrli novi svijet – Wikipedija.md",
+                "file": "Knowledge/Media/books/Zlatarovo zlato.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -333,12 +347,12 @@
             }
           },
           {
-            "id": "1b03c16a80831efd",
+            "id": "2a0beceeaf5f13ea",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clippings/Vrli novi svijet – Wikipedija.md",
+                "file": "Clippings/Remembering Matilda, the last survivor of the transatlantic slave trade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -347,29 +361,19 @@
             }
           },
           {
-            "id": "5f535b1a8df25bf6",
+            "id": "85d92fdd5c1c5eff",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "task board.md"
+                "file": "2024-12-28.md"
               },
               "icon": "lucide-list",
               "title": "Outline"
             }
           },
           {
-            "id": "161e8aa6b908a5b8",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "a315abefebde8c97",
+            "id": "7834b2ab885353d7",
             "type": "leaf",
             "state": {
               "type": "chronology-calendar-view",
@@ -379,7 +383,17 @@
             }
           },
           {
-            "id": "c871c93ebf4da621",
+            "id": "41322c3add76adac",
+            "type": "leaf",
+            "state": {
+              "type": "reading-comments",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "44f5818e135acc9e",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -389,7 +403,7 @@
             }
           },
           {
-            "id": "3d9855013252530a",
+            "id": "12bea41f21e83304",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -399,7 +413,7 @@
             }
           },
           {
-            "id": "6922c11d4f719727",
+            "id": "890d130950bc889c",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -409,29 +423,31 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       "left-ribbon": {
         "hiddenItems": {
+          "callout-manager:Insert Callout": false,
           "chronology:Open Chronology": false,
           "obsidian42-brat:BRAT": false,
           "obsidian-importer:Open Importer": false,
           "juggl:Juggl global graph": false,
           "obsidian-projects:Open projects": false,
-          "templater-obsidian:Templater": false,
-          "workspaces:Manage workspace layouts": false,
           "obsidian-media-db-plugin:Add new Media DB entry": false,
+          "obsidian-kanban:Create new board": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "canvas:Create new canvas": false,
           "daily-notes:Open today's daily note": false,
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
-          "obsidian-kanban:Create new board": false
+          "workspaces:Manage workspace layouts": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-book-search-plugin:Create new book note": false
         }
       },
-      "active": "0797c0aa4de27032",
-      "mtime": "2025-02-27T18:37:17+01:00"
+      "active": "fbb3fac42c446151",
+      "mtime": "2025-03-09T21:59:48+01:00"
     },
     "tasks": {
       "main": {
@@ -1362,6 +1378,248 @@
           "Yin-Yang/resources"
         ]
       }
+    },
+    "Sjećanja na moje djetinjstvo": {
+      "main": {
+        "id": "67b00fc9261485ee",
+        "type": "split",
+        "children": [
+          {
+            "id": "fbf6de515cde09cc",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "5eed74bf07df4dcc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Clippings/M.A.S.K 1985 - Opening Theme (Extended).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "M.A.S.K 1985 - Opening Theme (Extended)"
+                }
+              },
+              {
+                "id": "fbb3fac42c446151",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Clippings/Super Mario Land 2 6 Golden Coins (Game Boy) Playthrough - NintendoComplete.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Super Mario Land 2 6 Golden Coins (Game Boy) Playthrough - NintendoComplete"
+                }
+              },
+              {
+                "id": "d5ff745e1f3c39fd",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Clippings/Really the Best of the Digimon World Games - Digimon World 3 Review.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Really the Best of the Digimon World Games - Digimon World 3 Review"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "a4e5ffda6787149c",
+        "type": "mobile-drawer",
+        "children": [
+          {
+            "id": "6eae668b8abc6df4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ead71bd433aae702",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:clippings",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1f0e0be2e600458b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c439b729529d3248",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      "right": {
+        "id": "d705053399cd2967",
+        "type": "mobile-drawer",
+        "children": [
+          {
+            "id": "f74beb42e09e49b4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Knowledge/Media/books/Zlatarovo zlato.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "2a0beceeaf5f13ea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Clippings/Remembering Matilda, the last survivor of the transatlantic slave trade.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "85d92fdd5c1c5eff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2024-12-28.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "7834b2ab885353d7",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
+            }
+          },
+          {
+            "id": "41322c3add76adac",
+            "type": "leaf",
+            "state": {
+              "type": "reading-comments",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "44f5818e135acc9e",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "12bea41f21e83304",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
+          },
+          {
+            "id": "890d130950bc889c",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "callout-manager:Insert Callout": false,
+          "chronology:Open Chronology": false,
+          "obsidian42-brat:BRAT": false,
+          "obsidian-importer:Open Importer": false,
+          "juggl:Juggl global graph": false,
+          "obsidian-projects:Open projects": false,
+          "obsidian-media-db-plugin:Add new Media DB entry": false,
+          "obsidian-kanban:Create new board": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "workspaces:Manage workspace layouts": false,
+          "templater-obsidian:Templater": false
+        }
+      },
+      "active": "d5ff745e1f3c39fd",
+      "mtime": "2025-03-06T11:05:34+01:00"
     }
   },
   "active": "empty"

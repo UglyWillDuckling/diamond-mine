@@ -4,39 +4,97 @@
     "type": "split",
     "children": [
       {
-        "id": "ca10d22e937feaad",
+        "id": "555aa22c634135dc",
         "type": "tabs",
         "children": [
           {
-            "id": "f5ad3fc4c0c3e089",
+            "id": "b52397c209ef5e20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Kernel-based Virtual Machine.md",
+                "file": "Calendar/daily/2025/2025-03-10-Mon.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "Kernel-based Virtual Machine"
+              "title": "2025-03-10-Mon"
             }
           },
           {
-            "id": "e0943b631400db4a",
+            "id": "16746d7fbeb7b91d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paravirtualization.md",
+                "file": "posjet Jarmini, uspomene.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Paravirtualization"
+              "title": "posjet Jarmini, uspomene"
+            }
+          },
+          {
+            "id": "8d62a7d7b04ba787",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Master Task List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Master Task List"
+            }
+          },
+          {
+            "id": "66d44cedf249b932",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Efforts/Active/Moje djetinjstvo, istraga.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Moje djetinjstvo, istraga"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
+      },
+      {
+        "id": "5c67c3b5fbf120dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e995ff45037b0d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zmajeva Kugla.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Zmajeva Kugla"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:bestlist/filmd",
+                "query": "tag:#task",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 583.5110321044922,
+    "width": 347.5,
     "collapsed": true
   },
   "right": {
@@ -125,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Paravirtualization.md",
+                "file": "Clippings/Nausikaja iz vjetrovite doline – Wikipedija.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +193,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Paravirtualization"
+              "title": "Backlinks for Nausikaja iz vjetrovite doline – Wikipedija"
             }
           },
           {
@@ -144,12 +202,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Paravirtualization.md",
+                "file": "Clippings/Nausikaja iz vjetrovite doline – Wikipedija.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Paravirtualization"
+              "title": "Outgoing links from Nausikaja iz vjetrovite doline – Wikipedija"
             }
           },
           {
@@ -200,17 +258,27 @@
               "icon": "ag-node-list",
               "title": "Juggl nodes"
             }
+          },
+          {
+            "id": "273635cd10b8634b",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 754.5,
+    "width": 489.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-book-search-plugin:Create new book note": false,
       "obsidian42-brat:BRAT": true,
       "task-board:Open task board": true,
       "juggl:Juggl global graph": true,
@@ -232,53 +300,53 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "e0943b631400db4a",
+  "active": "9e995ff45037b0d1",
   "lastOpenFiles": [
-    "Atlas/Tools/pc/mods AI/mods AI.md",
-    "Paravirtualization.md",
-    "Clippings/Kernel-based Virtual Machine.md",
-    "snimka Sonje.md",
-    "300px-Libvirt_support.svg.png",
-    "400px-Kernel-based_Virtual_Machine.svg.png",
-    "Clippings/ARM architecture family - Wikipedia.md",
-    "Calendar/daily/2025/2025-03-03-Mon.md",
-    "Clippings/Conan pustolov EP01 - Noć plamenih suza (Hrvatska verzija).md",
-    "Clippings/Conan pustolov - uvodna špica (Hrvatska verzija).md",
-    "Clippings/The Legend of Prince Valiant - Opening Sequence.md",
-    "Mighty Max.md",
-    "Screenshot_20250303-203645_Firefox.jpg",
-    "popis crtića mog djetinjstva.md",
-    "Clippings/Doktor Argus - Čarobni Višebojni Dijamant.md",
-    "Clippings/Crtane serije iz 90-ih koje bismo rado gledali i danas.md",
-    "Clippings/Moje tijelo Život - YouTube.md",
-    "Clippings/Nostalgija 90-ih - naši najdraži crtići uz koje smo odrasli - Elegant.hr.md",
-    "Clippings/Najbolji stari crtići - 15 Legendarnih koje nikad nećete zaboraviti.md",
-    "Clippings/Lutonjica Toporko i devet župančića cijela priča    Lektire.hr.md",
-    "Videogame memories sjećanja.md",
-    "Clippings/NES Longplay 399 Zen - Intergalactic Ninja.md",
-    "Clippings/Tom & Jerry (NES) Playthrough.md",
-    "Clippings/NES Longplay 289 Hogan's Alley.md",
-    "Clippings/NES Longplay 752 Sky Destroyer.md",
-    "Clippings/NES Longplay 077 F-1 Race (JP).md",
-    "Clippings/Childhood Video Games  90s Video Games.md",
-    "Clippings/Nekketsu Fighting Legend - Wikipedia.md",
-    "Marina Sprajc (Vuko).md",
-    "Screenshot_20250227-195854_Firefox.jpg",
+    "Zmajeva Kugla.md",
+    "Efforts/Active/Moje djetinjstvo, istraga.md",
+    "Clippings/Install Mesen in Arch Linux  Mike Polinowski.md",
+    "Master Task List.md",
+    "posjet Jarmini, uspomene.md",
+    "Calendar/daily/2025/2025-03-10-Mon.md",
+    "Efforts/Active/setup Media Server.md",
+    "Atlas/Knowledge/Media/movies/The Matrix (1999).md",
+    "Calendar/daily/2025/2025-03-09-Sun.md",
+    "Clippings/Pokemon  SINKRONIZACIJE  Project 6 Studio.md",
+    "Calendar/daily/2025/2025-03-08-Sat.md",
+    "Clippings/FixPart - Bosch Siemens glava usisivača.md",
+    "Clippings/Psihijatrijska bolnica Ugljan.md",
+    "Clippings/Ugljan – Wikipedija.md",
+    "Oregon.md",
+    "Potvrda narudžbe 202504036992 na FixPart.pdf",
+    "Clippings/Dunder Mifflin.md",
+    "Clippings/Dunder Mifflin - Wikipedia.md",
+    "Skinuti filmove, serije i slicno.md",
+    "Clippings/Pokemon - Serija (HR, SR) - Online sinkronizirani crtić.md",
+    "Clippings/Digimoni (SR) - Online sinkronizirani crtić.md",
+    "Clippings/Andor Season 2.md",
+    "Clippings/Star Wars Andor TV Show.md",
+    "Calendar/daily/2025/2025-03-07-Fri.md",
+    "Clippings/Why CRT TVs Are IMPORTANT for Retro Gaming.md",
+    "Clippings/Soul Edge (Arcade 1995) - Sophitia Alexandra - PlaythroughLongPlay.md",
+    "Clippings/PSX Longplay 521 Colony Wars.md",
+    "Efforts/Active/setup Media Server.md~",
+    "Atlas/Knowledge/Media/VideoGames",
+    "sonja.m4a",
+    "~/×/400px-Kernel-based_Virtual_Machine.svg.png",
+    "~/×/300px-Libvirt_support.svg.png",
+    "~/×/Screenshot_20250227-181214_Firefox.jpg",
+    "~/×/Screenshot_20250227-181435_Firefox.jpg",
+    "~/×/Screenshot_20250303-203645_Firefox.jpg",
+    "~/×/Screenshot_20250227-181612_Firefox.jpg",
+    "~/×/Screenshot_20250227-195854_Firefox.jpg",
     "notes",
     "x",
-    "Screenshot_20250227-181612_Firefox.jpg",
-    "Screenshot_20250227-181435_Firefox.jpg",
-    "Screenshot_20250227-181214_Firefox.jpg",
     "tasks canvas.canvas",
     "Efforts/Ongoing/Zdravlje/archive",
     "Clippings/OpenSSH Config File Examples.md~",
     "Efforts/Ongoing/Vacation",
     "Efforts/Ongoing/PC Maintenance/docs",
-    "howot",
-    "Efforts/Active/Kuca/docs/dokumenti x/Elektronicki_zapis-radna_knjizica.pdf",
-    "Efforts/Ongoing/VPS",
     "Yin-Yang/resources/logo.svg",
-    "Efforts/Active/Kuca/docs/dokumenti x/Potvda o blokadi računa i novčanih sredstava.pdf",
     "tasks pic.canvas",
     "~/×/Linear Calendar 2025 - White.png",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"

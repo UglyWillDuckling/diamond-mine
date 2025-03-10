@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🦆",
       "🧹",
       "😪",
       "🎥",
-      "💯",
-      "🐍"
+      "💯"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -193,5 +193,6 @@
   "Efforts/Simmering/Article Rating.md": "💯",
   "Efforts/Simmering/Create A Movie List.md": "🎥",
   "Efforts/Ongoing/Spavanja promijena napredak.md": "😪",
-  "Efforts/Ongoing/Odrzavanja kuce.md": "🧹"
+  "Efforts/Ongoing/Odrzavanja kuce.md": "🧹",
+  "Efforts/Active/Moje djetinjstvo, istraga.md": "🦆"
 }

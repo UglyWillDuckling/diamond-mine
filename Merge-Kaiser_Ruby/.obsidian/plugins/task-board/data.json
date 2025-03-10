@@ -179,7 +179,23 @@
         "bug/solver": "#22f7de99",
         "feat": "#b50df2f2"
       },
-      "editButtonAction": "popUp"
+      "editButtonAction": "popUp",
+      "tasksPluginCustomStatuses": [
+        {
+          "symbol": "/",
+          "name": "In Progress",
+          "nextStatusSymbol": "x",
+          "availableAsCommand": true,
+          "type": "IN_PROGRESS"
+        },
+        {
+          "symbol": "-",
+          "name": "Cancelled",
+          "nextStatusSymbol": " ",
+          "availableAsCommand": true,
+          "type": "CANCELLED"
+        }
+      ]
     }
   }
 }

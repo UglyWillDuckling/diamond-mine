@@ -5655,6 +5655,8 @@ var DEFAULT_SETTINGS = {
   logLevel: 0 /* Error */,
   tagTooltips: false,
   tagShowPRMergeable: false,
+  tagShowFileBranchName: true,
+  tagShowFileLineNumber: true,
   cacheIntervalSeconds: 60,
   maxCacheAgeHours: 120,
   minRequestSeconds: 60
@@ -6820,13 +6822,20 @@ var GithubLinkPluginSettingsTab = class extends import_obsidian4.PluginSettingTa
       });
     }).addSlider((slider) => {
       var _a;
-      const displayValue = createSpan({ text: PluginSettings.defaultPageSize.toString() });
-      (_a = slider.sliderEl.parentElement) == null ? void 0 : _a.prepend(displayValue);
+      const manualInput = createEl("input", { attr: { type: "number" }, cls: "github-link-slider-input" });
+      manualInput.value = PluginSettings.defaultPageSize.toString();
+      manualInput.addEventListener("change", (e) => {
+        const value = parseInt(e.target.value, 10);
+        PluginSettings.defaultPageSize = value;
+        slider.setValue(value);
+        void this.saveSettings();
+      });
+      (_a = slider.sliderEl.parentElement) == null ? void 0 : _a.prepend(manualInput);
       slider.setLimits(0, 30, 1);
       slider.setDynamicTooltip();
       slider.setValue(PluginSettings.defaultPageSize);
       slider.onChange((value) => {
-        displayValue.setText(value.toString());
+        manualInput.value = value.toString();
         PluginSettings.defaultPageSize = value;
         void this.saveSettings();
       });
@@ -6866,6 +6875,20 @@ var GithubLinkPluginSettingsTab = class extends import_obsidian4.PluginSettingTa
         void this.saveSettings();
       });
     });
+    new import_obsidian4.Setting(containerEl).setName("File branch name").setDesc("Append the branch name to links to an individual file inside a repo").addToggle((toggle) => {
+      toggle.setValue(PluginSettings.tagShowFileBranchName);
+      toggle.onChange((value) => {
+        PluginSettings.tagShowFileBranchName = value;
+        void this.saveSettings();
+      });
+    });
+    new import_obsidian4.Setting(containerEl).setName("File line number").setDesc("Append the line number (if provided) to links to an individual file inside a repo").addToggle((toggle) => {
+      toggle.setValue(PluginSettings.tagShowFileLineNumber);
+      toggle.onChange((value) => {
+        PluginSettings.tagShowFileLineNumber = value;
+        void this.saveSettings();
+      });
+    });
     containerEl.createEl("h3", { text: "Cache settings" });
     new import_obsidian4.Setting(containerEl).setClass("github-link-sub-setting").setName("Cache save interval (seconds)").setDesc(
       "If it has been updated, cache will be saved to disk after this number of seconds while Obsidian is open."
@@ -6880,14 +6903,21 @@ var GithubLinkPluginSettingsTab = class extends import_obsidian4.PluginSettingTa
       });
     }).addSlider((slider) => {
       var _a;
-      const displayValue = createSpan({ text: PluginSettings.cacheIntervalSeconds.toString() });
-      (_a = slider.sliderEl.parentElement) == null ? void 0 : _a.prepend(displayValue);
+      const manualInput = createEl("input", { attr: { type: "number" }, cls: "github-link-slider-input" });
+      manualInput.value = PluginSettings.cacheIntervalSeconds.toString();
+      manualInput.addEventListener("change", (e) => {
+        const value = parseInt(e.target.value, 10);
+        PluginSettings.cacheIntervalSeconds = value;
+        slider.setValue(value);
+        void this.saveSettings();
+      });
+      (_a = slider.sliderEl.parentElement) == null ? void 0 : _a.prepend(manualInput);
       slider.setValue(PluginSettings.cacheIntervalSeconds);
       slider.setLimits(10, 1200, 10);
       slider.setDynamicTooltip();
       slider.onChange(async (value) => {
         PluginSettings.cacheIntervalSeconds = value;
-        displayValue.setText(value.toString());
+        manualInput.value = value.toString();
         await this.saveSettings();
         this.plugin.setCacheInterval();
       });
@@ -6903,14 +6933,21 @@ var GithubLinkPluginSettingsTab = class extends import_obsidian4.PluginSettingTa
       });
     }).addSlider((slider) => {
       var _a;
-      const displayValue = createSpan({ text: PluginSettings.maxCacheAgeHours.toString() });
-      (_a = slider.sliderEl.parentElement) == null ? void 0 : _a.prepend(displayValue);
+      const manualInput = createEl("input", { attr: { type: "number" }, cls: "github-link-slider-input" });
+      manualInput.value = PluginSettings.maxCacheAgeHours.toString();
+      manualInput.addEventListener("change", (e) => {
+        const value = parseInt(e.target.value, 10);
+        PluginSettings.maxCacheAgeHours = value;
+        slider.setValue(value);
+        void this.saveSettings();
+      });
+      (_a = slider.sliderEl.parentElement) == null ? void 0 : _a.prepend(manualInput);
       slider.setValue(PluginSettings.maxCacheAgeHours);
       slider.setLimits(0, 170, 10);
       slider.setDynamicTooltip();
       slider.onChange(async (value) => {
         PluginSettings.maxCacheAgeHours = value;
-        displayValue.setText(value.toString());
+        manualInput.value = value.toString();
         await this.saveSettings();
       });
     });
@@ -6926,14 +6963,21 @@ var GithubLinkPluginSettingsTab = class extends import_obsidian4.PluginSettingTa
       });
     }).addSlider((slider) => {
       var _a;
-      const displayValue = createSpan({ text: PluginSettings.minRequestSeconds.toString() });
-      (_a = slider.sliderEl.parentElement) == null ? void 0 : _a.prepend(displayValue);
+      const manualInput = createEl("input", { attr: { type: "number" }, cls: "github-link-slider-input" });
+      manualInput.value = PluginSettings.minRequestSeconds.toString();
+      manualInput.addEventListener("change", (e) => {
+        const value = parseInt(e.target.value, 10);
+        PluginSettings.minRequestSeconds = value;
+        slider.setValue(value);
+        void this.saveSettings();
+      });
+      (_a = slider.sliderEl.parentElement) == null ? void 0 : _a.prepend(manualInput);
       slider.setValue(PluginSettings.minRequestSeconds);
       slider.setLimits(10, 1200, 10);
       slider.setDynamicTooltip();
       slider.onChange(async (value) => {
         PluginSettings.minRequestSeconds = value;
-        displayValue.setText(value.toString());
+        manualInput.value = value.toString();
         await this.saveSettings();
       });
     });
@@ -7065,6 +7109,9 @@ function setIssueIcon(icon, status) {
   (0, import_obsidian5.setIcon)(icon, IssueIcon[status]);
   icon.classList.add("issue");
   icon.dataset.status = status;
+}
+function setFileIcon(icon) {
+  (0, import_obsidian5.setIcon)(icon, "file");
 }
 function setPRMergeableIcon(icon, mergeable) {
   if (PluginSettings.tagTooltips) {
@@ -7202,6 +7249,8 @@ function parseUrl2(urlString) {
         if (urlParts[5]) {
           const pathParts = urlParts.slice(5);
           parsedUrl.code.path = pathParts.join("/");
+          parsedUrl.code.filename = pathParts.last();
+          parsedUrl.code.line = url.hash.slice(1);
         }
         break;
       case "commit":
@@ -7842,7 +7891,7 @@ function createTag(href) {
   createIconSection(config);
   createOrgSection(config, parsedUrl);
   createRepoSection(config, parsedUrl);
-  if (parsedUrl.issue !== void 0 || parsedUrl.pr !== void 0) {
+  if (parsedUrl.issue !== void 0 || parsedUrl.pr !== void 0 || parsedUrl.code !== void 0) {
     const orgIndex = config.sections.findIndex((section) => section.classList.contains("github-link-inline-org"));
     if (orgIndex !== -1) {
       config.sections.splice(orgIndex, 1);
@@ -7851,6 +7900,8 @@ function createTag(href) {
       createIssueSection(config, parsedUrl, container);
     } else if (parsedUrl.pr !== void 0) {
       createPullRequestSection(config, parsedUrl, container);
+    } else if (parsedUrl.code !== void 0) {
+      createFileSection(config, parsedUrl, container);
     }
   }
   for (const section of config.sections) {
@@ -7930,6 +7981,27 @@ function createPullRequestSection(config, parsedUrl, container) {
     }).catch((err) => {
       createErrorSection(config, container, err);
     });
+  }
+}
+function createFileSection(config, parsedUrl, _container) {
+  if (parsedUrl.code === void 0) {
+    return;
+  }
+  const fileContainer = createSpan({ cls: "github-link-inline-file" });
+  setFileIcon(config.icon);
+  config.sections.push(fileContainer);
+  if (parsedUrl.code.filename) {
+    fileContainer.setText(parsedUrl.code.filename);
+  } else if (parsedUrl.code.path) {
+    fileContainer.setText(parsedUrl.code.path);
+  }
+  if (PluginSettings.tagShowFileLineNumber && parsedUrl.code.line) {
+    fileContainer.appendChild(createSpan({ cls: "github-link-inline-file-line-number", text: parsedUrl.code.line }));
+  }
+  if (PluginSettings.tagShowFileBranchName && parsedUrl.code.branch) {
+    fileContainer.appendChild(
+      createSpan({ cls: "github-link-inline-file-branch", text: `(${parsedUrl.code.branch})` })
+    );
   }
 }
 function createPullRequestMergeableSection(config, pullRequest, container) {

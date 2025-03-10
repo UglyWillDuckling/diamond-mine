@@ -12,3 +12,7 @@
 
 [[Najbolji stari crtići - 15 Legendarnih koje nikad nećete zaboraviti]]
 
+[[M.A.S.K 1985 - Opening Theme (Extended)]]
+
+[[Speed Racer - E01 - Velika pokusna vožnja Mach-a 5 - Hr.Sink.]]
+

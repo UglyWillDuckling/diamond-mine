@@ -1,6 +1,6 @@
 #issue/snap
 
-- [ ] remind (@2025-03-05)
+- [x] remind (@2025-03-05)
 
 about:: [[snap]]
 ___

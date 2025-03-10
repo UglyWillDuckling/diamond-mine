@@ -3385,7 +3385,8 @@ var CanvasPatcher = class extends Patcher {
           result = next.call(this, json, ...args);
         } catch (e) {
           console.error("Invalid JSON, repairing through Advanced Canvas:", e);
-          that.plugin.createFileSnapshot(this.file.path, json);
+          if (this.file)
+            that.plugin.createFileSnapshot(this.file.path, json);
           json = JSON.stringify(dist_default.parse(json), null, 2);
           result = next.call(this, json, ...args);
         }
@@ -3501,6 +3502,21 @@ var CanvasPatcher = class extends Patcher {
         that.triggerWorkspaceEvent(CanvasEvent.ZoomToBbox.After, this, bbox);
         return result;
       }),
+      // Custom
+      zoomToRealBbox: (_next) => function(bbox) {
+        if (this.canvasRect.width === 0 || this.canvasRect.height === 0)
+          return;
+        that.triggerWorkspaceEvent(CanvasEvent.ZoomToBbox.Before, this, bbox);
+        const widthZoom = this.canvasRect.width / (bbox.maxX - bbox.minX);
+        const heightZoom = this.canvasRect.height / (bbox.maxY - bbox.minY);
+        const zoom = this.screenshotting ? Math.min(widthZoom, heightZoom) : Math.clamp(Math.min(widthZoom, heightZoom), -4, 1);
+        this.tZoom = Math.log2(zoom);
+        this.zoomCenter = null;
+        this.tx = (bbox.minX + bbox.maxX) / 2;
+        this.ty = (bbox.minY + bbox.maxY) / 2;
+        this.markViewportChanged();
+        that.triggerWorkspaceEvent(CanvasEvent.ZoomToBbox.After, this, bbox);
+      },
       setReadonly: PatchHelper.OverrideExisting((next) => function(readonly) {
         const result = next.call(this, readonly);
         that.triggerWorkspaceEvent(CanvasEvent.ReadonlyChanged, this, readonly);
@@ -3582,7 +3598,16 @@ var CanvasPatcher = class extends Patcher {
       if (leaf.view.getViewType() !== "canvas")
         return;
       const canvasView2 = leaf.view;
+      const hasChangesToSave = canvasView2.lastSavedData !== canvasView2.data;
+      const originalOnClose = canvasView2.onClose;
+      if (!hasChangesToSave)
+        canvasView2.onClose = () => {
+          var _a;
+          return (_a = canvasView2.canvas) == null ? void 0 : _a.unload();
+        };
       canvasView2.leaf.rebuildView();
+      if (!hasChangesToSave)
+        canvasView2.onClose = originalOnClose;
     });
   }
   patchNode(node) {
@@ -3596,7 +3621,8 @@ var CanvasPatcher = class extends Patcher {
           delete node.isDirty;
         }
         this.canvas.data = this.canvas.getData();
-        this.canvas.view.requestSave();
+        if (this.initialized)
+          this.canvas.view.requestSave();
         if (addHistory)
           this.canvas.pushHistory(this.canvas.data);
         return result;
@@ -3644,7 +3670,8 @@ var CanvasPatcher = class extends Patcher {
           delete this.isDirty;
         }
         this.canvas.data = this.canvas.getData();
-        this.canvas.view.requestSave();
+        if (this.initialized)
+          this.canvas.view.requestSave();
         if (addHistory)
           this.canvas.pushHistory(this.canvas.getData());
         return result;
@@ -4088,18 +4115,6 @@ var _CanvasHelper = class _CanvasHelper {
     }).filter((bbox) => bbox !== null);
     return BBoxHelper.combineBBoxes(bBoxes);
   }
-  static zoomToRealBBox(canvas, bbox) {
-    if (canvas.canvasRect.width === 0 || canvas.canvasRect.height === 0)
-      return;
-    const widthZoom = canvas.canvasRect.width / (bbox.maxX - bbox.minX);
-    const heightZoom = canvas.canvasRect.height / (bbox.maxY - bbox.minY);
-    const zoom = canvas.screenshotting ? Math.min(widthZoom, heightZoom) : Math.clamp(Math.min(widthZoom, heightZoom), -4, 1);
-    canvas.tZoom = Math.log2(zoom);
-    canvas.zoomCenter = null;
-    canvas.tx = (bbox.minX + bbox.maxX) / 2;
-    canvas.ty = (bbox.minY + bbox.maxY) / 2;
-    canvas.markViewportChanged();
-  }
   static getSmallestAllowedZoomBBox(canvas, bbox) {
     if (canvas.screenshotting)
       return bbox;
@@ -4539,21 +4554,21 @@ var PresentationCanvasExtension = class extends CanvasExtension {
       const fromNodeBBox = CanvasHelper.getSmallestAllowedZoomBBox(canvas, fromNode.getBBox());
       const currentNodeBBoxEnlarged = BBoxHelper.scaleBBox(fromNodeBBox, animationIntensity);
       if (useCustomZoomFunction)
-        CanvasHelper.zoomToRealBBox(canvas, currentNodeBBoxEnlarged);
+        canvas.zoomToRealBbox(currentNodeBBoxEnlarged);
       else
         canvas.zoomToBbox(currentNodeBBoxEnlarged);
       await sleep(animationDurationMs / 2);
       if (fromNode.getData().id !== toNode.getData().id) {
         const nextNodeBBoxEnlarged = BBoxHelper.scaleBBox(toNodeBBox, animationIntensity + 0.1);
         if (useCustomZoomFunction)
-          CanvasHelper.zoomToRealBBox(canvas, nextNodeBBoxEnlarged);
+          canvas.zoomToRealBbox(nextNodeBBoxEnlarged);
         else
           canvas.zoomToBbox(nextNodeBBoxEnlarged);
         await sleep(animationDurationMs / 2);
       }
     }
     if (useCustomZoomFunction)
-      CanvasHelper.zoomToRealBBox(canvas, toNodeBBox);
+      canvas.zoomToRealBbox(toNodeBBox);
     else
       canvas.zoomToBbox(toNodeBBox);
   }
@@ -4759,6 +4774,10 @@ var ZOrderingCanvasExtension = class extends CanvasExtension {
 
 // src/canvas-extensions/better-readonly-canvas-extension.ts
 var BetterReadonlyCanvasExtension = class extends CanvasExtension {
+  constructor() {
+    super(...arguments);
+    this.isMovingToBBox = false;
+  }
   isEnabled() {
     return "betterReadonlyEnabled";
   }
@@ -4767,34 +4786,13 @@ var BetterReadonlyCanvasExtension = class extends CanvasExtension {
       CanvasEvent.PopupMenuCreated,
       (canvas, _node) => this.updatePopupMenu(canvas)
     ));
-    let movingToBBox = false;
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       CanvasEvent.ViewportChanged.Before,
-      (canvas) => {
-        var _a, _b, _c, _d, _e, _f;
-        if (movingToBBox) {
-          movingToBBox = false;
-          this.updateLockedZoom(canvas);
-          this.updateLockedPan(canvas);
-          return;
-        }
-        if (!canvas.readonly)
-          return;
-        if (this.plugin.settings.getSetting("disableZoom")) {
-          canvas.zoom = (_a = canvas.lockedZoom) != null ? _a : canvas.zoom;
-          canvas.tZoom = (_b = canvas.lockedZoom) != null ? _b : canvas.tZoom;
-        }
-        if (this.plugin.settings.getSetting("disablePan")) {
-          canvas.x = (_c = canvas.lockedX) != null ? _c : canvas.x;
-          canvas.tx = (_d = canvas.lockedX) != null ? _d : canvas.tx;
-          canvas.y = (_e = canvas.lockedY) != null ? _e : canvas.y;
-          canvas.ty = (_f = canvas.lockedY) != null ? _f : canvas.ty;
-        }
-      }
+      (canvas) => this.onBeforeViewPortChanged(canvas)
     ));
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       CanvasEvent.ZoomToBbox.Before,
-      () => movingToBBox = true
+      () => this.isMovingToBBox = true
     ));
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       CanvasEvent.ReadonlyChanged,
@@ -4808,6 +4806,27 @@ var BetterReadonlyCanvasExtension = class extends CanvasExtension {
       CanvasEvent.CanvasChanged,
       (canvas) => this.addQuickSettings(canvas)
     ));
+  }
+  onBeforeViewPortChanged(canvas) {
+    var _a, _b, _c, _d, _e, _f;
+    if (this.isMovingToBBox) {
+      this.isMovingToBBox = false;
+      this.updateLockedZoom(canvas);
+      this.updateLockedPan(canvas);
+      return;
+    }
+    if (!canvas.readonly)
+      return;
+    if (this.plugin.settings.getSetting("disableZoom")) {
+      canvas.zoom = (_a = canvas.lockedZoom) != null ? _a : canvas.zoom;
+      canvas.tZoom = (_b = canvas.lockedZoom) != null ? _b : canvas.tZoom;
+    }
+    if (this.plugin.settings.getSetting("disablePan")) {
+      canvas.x = (_c = canvas.lockedX) != null ? _c : canvas.x;
+      canvas.tx = (_d = canvas.lockedX) != null ? _d : canvas.tx;
+      canvas.y = (_e = canvas.lockedY) != null ? _e : canvas.y;
+      canvas.ty = (_f = canvas.lockedY) != null ? _f : canvas.ty;
+    }
   }
   addQuickSettings(canvas) {
     var _a;
@@ -5024,6 +5043,15 @@ var CommandsCanvasExtension = class extends CanvasExtension {
     return "commandsFeatureEnabled";
   }
   init() {
+    this.plugin.addCommand({
+      id: "toggle-readonly",
+      name: "Toggle readonly",
+      checkCallback: CanvasHelper.canvasCommand(
+        this.plugin,
+        (_canvas) => true,
+        (canvas) => canvas.setReadonly(!canvas.readonly)
+      )
+    });
     this.plugin.addCommand({
       id: "create-text-node",
       name: "Create text node",
@@ -7033,7 +7061,7 @@ var ExportCanvasExtension = class extends CanvasExtension {
         const actualHeight = targetWidth / actualAspectRatio;
         adjustedBoundingBox.maxY = enlargedTargetBoundingBox.minY + actualHeight;
       }
-      CanvasHelper.zoomToRealBBox(canvas, adjustedBoundingBox);
+      canvas.zoomToRealBbox(adjustedBoundingBox);
       canvas.setViewport(canvas.tx, canvas.ty, canvas.tZoom);
       await sleep(10);
       let canvasScale = parseFloat(((_a = canvas.canvasEl.style.transform.match(/scale\((\d+(\.\d+)?)\)/)) == null ? void 0 : _a[1]) || "1");
@@ -7045,7 +7073,7 @@ var ExportCanvasExtension = class extends CanvasExtension {
       const enlargedEdgePathsBBox = BBoxHelper.enlargeBBox(edgePathsBBox, 1.1);
       enlargedTargetBoundingBox = BBoxHelper.combineBBoxes([enlargedTargetBoundingBox, enlargedEdgePathsBBox]);
       adjustedBoundingBox = BBoxHelper.combineBBoxes([adjustedBoundingBox, enlargedEdgePathsBBox]);
-      CanvasHelper.zoomToRealBBox(canvas, adjustedBoundingBox);
+      canvas.zoomToRealBbox(adjustedBoundingBox);
       canvas.setViewport(canvas.tx, canvas.ty, canvas.tZoom);
       await sleep(10);
       const canvasViewportBBox = canvas.getViewportBBox();

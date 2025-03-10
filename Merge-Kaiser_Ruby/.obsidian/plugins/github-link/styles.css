@@ -151,6 +151,10 @@ body.theme-dark {
 	padding-left: 2rem;
 }
 
+.github-link-slider-input {
+	width: 3rem;
+}
+
 .github-link-inline {
 	display: inline-flex;
 	background-color: var(--gh-color-canvas-default);
@@ -174,6 +178,14 @@ body.theme-dark {
 	justify-content: center;
 	padding: 0 5px;
 	overflow: hidden;
+}
+
+.github-link-inline-section:first-child {
+	border-radius: 3.5px 0 0 3.5px;
+}
+
+.github-link-inline-section:last-child {
+	border-radius: 0 3.5px 3.5px 0;
 }
 
 .github-link-inline-icon {
@@ -265,11 +277,21 @@ body.theme-dark {
 }
 
 .github-link-inline-pr-title,
-.github-link-inline-issue-title {
+.github-link-inline-issue-title,
+.github-link-inline-file {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	text-wrap: nowrap;
 	line-height: var(--line-height-normal);
+}
+
+.github-link-inline-file {
+	display: flex;
+	gap: 2px;
+}
+.github-link-inline-file > .github-link-inline-file-line-number,
+.github-link-inline-file > .github-link-inline-file-branch {
+	color: var(--gh-color-fg-muted);
 }
 
 .github-link-table-wrapper {

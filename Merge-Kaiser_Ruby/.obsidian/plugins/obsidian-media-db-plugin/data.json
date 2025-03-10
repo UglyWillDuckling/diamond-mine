@@ -1,7 +1,8 @@
 {
   "OMDbKey": "46d8123f",
   "MobyGamesKey": "",
-  "sfwFilter": true,
+  "GiantBombKey": "",
+  "sfwFilter": false,
   "templates": true,
   "customDateFormat": "L",
   "openNoteInNewTab": true,
@@ -46,146 +47,146 @@
         {
           "property": "type",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "subType",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "title",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "englishTitle",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "year",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "dataSource",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "url",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "id",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "plot",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "genres",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "director",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "writer",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "studio",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "duration",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "onlineRating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "actors",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "image",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "released",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "streamingServices",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "premiere",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "watched",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "lastWatched",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "personalRating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "tags",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         }
       ]
     },
@@ -195,158 +196,158 @@
         {
           "property": "type",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "subType",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "title",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "englishTitle",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "year",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "dataSource",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "url",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "id",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "plot",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "genres",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "writer",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "studio",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "episodes",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "duration",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "onlineRating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "actors",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "image",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "released",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "streamingServices",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "airing",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "airedFrom",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "airedTo",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "watched",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "lastWatched",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "personalRating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "tags",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         }
       ]
     },
@@ -356,146 +357,146 @@
         {
           "property": "type",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "subType",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "title",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "englishTitle",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "year",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "dataSource",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "url",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "id",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "plot",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
-        },
-        {
-          "property": "genres",
-          "newProperty": "",
-          "mapping": "default",
-          "locked": false
-        },
-        {
-          "property": "authors",
-          "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "alternateTitles",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "genres",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "authors",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "chapters",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "volumes",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "onlineRating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "image",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "released",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "status",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "publishedFrom",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "publishedTo",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "watched",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "lastWatched",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "personalRating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "tags",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         }
       ]
     },
@@ -505,110 +506,110 @@
         {
           "property": "type",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "subType",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "title",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "englishTitle",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "year",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "dataSource",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "url",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "id",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "developers",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "publishers",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "genres",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "onlineRating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "image",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "released",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "releaseDate",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "played",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "personalRating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "tags",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         }
       ]
     },
@@ -618,74 +619,74 @@
         {
           "property": "type",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "subType",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "title",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "englishTitle",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "year",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "dataSource",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "url",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "id",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "wikiUrl",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "lastUpdated",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "length",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "tags",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         }
       ]
     },
@@ -695,86 +696,86 @@
         {
           "property": "type",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "subType",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "title",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "englishTitle",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "year",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "dataSource",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "url",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "id",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "genres",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "artists",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "image",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "rating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "personalRating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "tags",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         }
       ]
     },
@@ -784,122 +785,122 @@
         {
           "property": "type",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "subType",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "title",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "englishTitle",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "year",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "dataSource",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "url",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "id",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "genres",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "onlineRating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
-        },
-        {
-          "property": "minPlayers",
-          "newProperty": "",
-          "mapping": "default",
-          "locked": false
-        },
-        {
-          "property": "maxPlayers",
-          "newProperty": "",
-          "mapping": "default",
-          "locked": false
-        },
-        {
-          "property": "playtime",
-          "newProperty": "",
-          "mapping": "default",
-          "locked": false
-        },
-        {
-          "property": "publishers",
-          "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "complexityRating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "minPlayers",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "maxPlayers",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "playtime",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "publishers",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "image",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "released",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "played",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "personalRating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "tags",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         }
       ]
     },
@@ -909,116 +910,122 @@
         {
           "property": "type",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "subType",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "title",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "englishTitle",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "year",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "dataSource",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "url",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "id",
           "newProperty": "",
-          "mapping": "default",
-          "locked": true
+          "locked": true,
+          "mapping": "default"
         },
         {
           "property": "author",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
+        },
+        {
+          "property": "plot",
+          "newProperty": "",
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "pages",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "image",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "onlineRating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "isbn",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "isbn13",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "released",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "read",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "lastRead",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "personalRating",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         },
         {
           "property": "tags",
           "newProperty": "",
-          "mapping": "default",
-          "locked": false
+          "locked": false,
+          "mapping": "default"
         }
       ]
     }

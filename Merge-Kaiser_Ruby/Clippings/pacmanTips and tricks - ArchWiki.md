@@ -264,7 +264,7 @@ They can accumulate on your system over time either due to uninstalling packages
 
 For **recursively** removing orphans and their configuration files:
 
-- [ ] remind me Pacman orphans (@2025-03-09)
+- [x] remind me Pacman orphans (@2025-03-10)
 ```sh
 pacman -Qdtq | pacman -Rns -
 ```

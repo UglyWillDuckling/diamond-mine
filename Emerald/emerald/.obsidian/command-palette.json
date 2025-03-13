@@ -2,6 +2,7 @@
   "pinned": [
     "backlink:toggle-backlinks-in-document",
     "note-composer:extract-heading",
-    "workspaces:save"
+    "workspaces:save",
+    "obsidian-meta-bind-plugin:open-button-builder"
   ]
 }

@@ -173,13 +173,6 @@
       "type": "Macro",
       "command": true,
       "macroId": "ff14992f-d89c-4dc9-8b1e-4d84da38598c"
-    },
-    {
-      "id": "fbb95ad2-855c-4c2e-bb08-a312e14af233",
-      "name": "new macro",
-      "type": "Macro",
-      "command": true,
-      "macroId": "80e8fcf0-76a8-4711-a1ca-86a84e4f3713"
     }
   ],
   "macros": [
@@ -254,7 +247,7 @@
             "name": "movie template",
             "type": "Template",
             "command": false,
-            "templatePath": "Knowledge/templates/movie.md",
+            "templatePath": "~/% tmpl/pages/movie.md",
             "fileNameFormat": {
               "enabled": true,
               "format": "{{VALUE:fileName}}"
@@ -278,31 +271,6 @@
             "openFileInMode": "default",
             "fileExistsMode": "Increment the file name",
             "setFileExistsBehavior": false
-          }
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "new macro",
-      "id": "80e8fcf0-76a8-4711-a1ca-86a84e4f3713",
-      "commands": [
-        {
-          "name": "AI Assistant",
-          "type": "AIAssistant",
-          "id": "dd4b4493-b90d-4850-803b-e33a060679e0",
-          "model": "Ask me",
-          "systemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
-          "outputVariableName": "output",
-          "promptTemplate": {
-            "enable": false,
-            "name": ""
-          },
-          "modelParameters": {
-            "temperature": 0.3,
-            "top_p": 1,
-            "frequency_penalty": 0.2,
-            "presence_penalty": 0.3
           }
         }
       ],

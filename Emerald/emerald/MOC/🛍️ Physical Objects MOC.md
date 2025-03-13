@@ -13,7 +13,7 @@ id: ""
 hidden: false
 actions:
   - type: templaterCreateNote
-    templateFile: Knowledge/templates/physical object template.md
+    templateFile: ~/% tmpl/pages/physical object template.md
     folderPath: Spaces/Physical Objects
     fileName: TKTK
     openNote: true

@@ -4,7 +4,7 @@ related:
 ---
 #thought #active #note 
 
-- [ ] remind me (@[[2025-03-05]])
+- [x] remind me (@[[2025-03-14]])
 
 Although not quite defined we may view as the difference between something that is [[ephemeral]], the task, and something more permanent, the [[ticket]].
 

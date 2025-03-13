@@ -29,5 +29,5 @@ SORT scheduled DESC
 
 [[LUQA architecture diagram]]
 
-- [ ] #task take a look at the [[LUQA architecture diagram]] 🆔 GHg43Z
+- [x] #task take a look at the [[LUQA architecture diagram]] 🆔 GHg43Z ✅ 2025-03-07
 	- examine, leave comments, write things down

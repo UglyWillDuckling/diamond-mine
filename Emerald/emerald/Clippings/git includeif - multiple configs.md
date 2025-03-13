@@ -28,4 +28,4 @@ Note that the order of precedence for included configuration files is
 ___
 - [x] remind me (@[[2025-02-05]] 10:21)
 - [x] weekly (@[[2025-02-19]] 13:52)
-- [ ] monthly (@[[2025-03-11]])
+- [x] monthly (@[[2025-03-11]] 09:57)

@@ -2,4 +2,4 @@
 [[2025-02-21]]
 was caused by the [[Cloudflare VPN work]]. <mark style="background: #BBFABBA6;">Works</mark> now.
 
-- [ ] remind me (@[[2025-03-13]])  
+- [x] remind me (@[[2025-03-13]])  

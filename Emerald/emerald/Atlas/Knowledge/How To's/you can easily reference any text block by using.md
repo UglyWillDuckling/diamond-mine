@@ -7,4 +7,5 @@ Use \^ to reference any block of text in [[Obsidian]]
  ![[Git - gitignore Documentation#^906ae0]]
  ___
 - [x] remind me (@[[2025-02-06]] 15:10)
-- [ ] weekly (@[[2025-03-07]])
+- [x] weekly (@[[2025-03-07 Nuphy keyboard]])
+- [ ] monthly (@[[2025-04-04]])

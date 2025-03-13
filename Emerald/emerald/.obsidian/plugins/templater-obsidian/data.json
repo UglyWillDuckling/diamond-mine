@@ -12,14 +12,18 @@
   "enable_system_commands": true,
   "shell_path": "/usr/bin/bash",
   "user_scripts_folder": "",
-  "enable_folder_templates": true,
+  "enable_folder_templates": false,
   "folder_templates": [
+    {
+      "folder": "",
+      "template": ""
+    },
     {
       "folder": "",
       "template": ""
     }
   ],
-  "enable_file_templates": false,
+  "enable_file_templates": true,
   "file_templates": [
     {
       "regex": ".*",

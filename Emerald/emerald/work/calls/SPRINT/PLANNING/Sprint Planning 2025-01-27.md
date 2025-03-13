@@ -5,7 +5,7 @@ minutes: 45
 ---
 #work #work/call #call
 
-[[figma for CRM]]
+[[figma for LUQA CRM]]
 ## who
 - [[luna team]]
 - [[Corentin]]

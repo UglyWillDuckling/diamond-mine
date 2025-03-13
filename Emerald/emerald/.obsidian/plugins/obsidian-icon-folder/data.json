@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiBox",
-      "LiAlertOctagon",
-      "🗃",
-      "🅿",
-      "🏬"
+      "LiBlocks",
+      "🗒",
+      "LiFlower",
+      "LiDock",
+      "LiBox"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -269,7 +269,10 @@
   "work/tickets/FEAT/QSL listing feature/subs/AWS connection/AWS import.md": "🗽",
   "work/people and teams/LUNA/Paulo Baskovic.md": "LiBike",
   "work/people and teams/LUNA/Natasa Bozic.md": "👧",
-  "work/Projects/LUQA": "LiCrown",
+  "work/Projects/LUQA": {
+    "iconName": "LiCrown",
+    "iconColor": "#ecbe18"
+  },
   "work/calls/_archive/DAILY": "🌅",
   "work/calls/_archive/backyard/ Paulo WIF and GCP.md": "LiPhoneCall",
   "work/calls/_archive/backyard/Project creation call.md": "LiProjector",
@@ -279,7 +282,6 @@
     "iconName": "LiBrokenLink",
     "iconColor": "#ec0909"
   },
-  "work/bugs/Security issue - General file access, passerell/Security issue - General file access, passerell.md": "LiAlertOctagon",
   "work/bugs/archive/XSS - extranet": {
     "iconName": "LiSquareCode",
     "iconColor": "#f24545"
@@ -333,7 +335,6 @@
   },
   "Atlas/Knowledge/notes/questions": "LiQuestionMarkGlyph",
   "Atlas/Knowledge/templates/book.md": "LiBook",
-  "Atlas/Knowledge/templates/movie.md": "🎥",
   "Atlas/Knowledge/people/Allen Holub.md": "LiGlasses",
   "Atlas/Knowledge/people/Martin Fowler.md": "🖌",
   "Atlas/Knowledge/people/Rebecca Wirfs-Brock.md": "👥",
@@ -426,13 +427,9 @@
   "Atlas/Knowledge/notes/discovery/obsidian/you can use embeds in Obsidian.md": "LiImage",
   "Atlas/Knowledge/tools/dev/git/git butler.md": "👔",
   "Atlas/Knowledge/tools/dev/js/fastify.md": "LiFastForward",
-  "Atlas/Knowledge/tools/dev/js/react.md": "⚛",
   "Atlas/Knowledge/tools/dev/nvim/Trouble.md": "🚦",
   "Atlas/Knowledge/tools/dev/nvim/nerdtree-visual-selection.md": "🎄",
   "Atlas/Knowledge/tools/dev/nvim/oil nvim.md": "🛢",
-  "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../DOM Manipulation.md": "LiHand",
-  "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../HTML and Trees.md": "LiTreePine",
-  "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../HTML, The Browser, and the DOM.md": "LiTrees",
   "Atlas/Knowledge/Education/Typescript/Execute program {}/Everyday Typescript/Enum.md": "🔢",
   "Atlas/Knowledge/Education/Typescript/Execute program {}/Everyday Typescript/Namespaces.md": "LiCurlyBraces",
   "Atlas/Knowledge/Education/Typescript/Execute program {}/Everyday Typescript/Readonly.md": "LiFileSpreadsheet",
@@ -459,5 +456,18 @@
   "~/% tmpl/templater/arch call listing prev.md": "LiBox",
   "work/calls/pair programming": "LiKeyboard",
   "work/calls/pair programming/pair programming - 2024-09-26.md": "‼",
-  "work/calls/pair programming/pair programming call - 2024-09-17.md": "LiKeyboard"
+  "work/calls/pair programming/pair programming call - 2024-09-17.md": "LiKeyboard",
+  "Atlas/Knowledge/tools/dev/js/react/react.md": "⚛",
+  "work/Projects/LUQA/docs": "LiDock",
+  "work/Projects/Backyard": {
+    "iconName": "LiFlower",
+    "iconColor": "#11c804"
+  },
+  "work/Projects/LUQA/howtos": "🗒",
+  "work/bugs/archive/Security issue - General file access, passerell/Security issue - General file access, passerell.md": "LiAlertOctagon",
+  "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../2) HTML, The Browser, and the DOM.md": "LiTrees",
+  "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../1) HTML and Trees.md": "LiTreePine",
+  "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../3) DOM Manipulation.md": "LiHand",
+  "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../4) Conceptual Aside - Imperative vs. Declarative Programming.md": "LiBlocks",
+  "~/% tmpl/pages/movie.md": "🎥"
 }

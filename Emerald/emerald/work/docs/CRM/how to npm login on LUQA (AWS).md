@@ -1,7 +1,7 @@
 part_of:: [[LUQA]]
 related:: [[npm]], [[AWS]]
 
-- [ ] remind me (@[[2025-03-10]])
+- [x] remind me (@[[2025-03-10]] 10:18)
 ___
 
 1. login to AWS via [[Okta]]

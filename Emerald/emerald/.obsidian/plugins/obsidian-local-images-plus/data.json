@@ -14,7 +14,7 @@
   "showNotifications": true,
   "includeps": "md|canvas",
   "includepattern": "(?<md>.*\\.md)|(?<canvas>.*\\.canvas)",
-  "mediaRootDir": "x",
+  "mediaRootDir": "~/x/",
   "disAddCom": false,
   "useMD5ForNewAtt": true,
   "removeMediaFolder": true,

@@ -16,7 +16,7 @@ date: 2025-01-22T00:00:00
 ## decisions
 
 ## topics / tickets
-[[figma for CRM]]
+[[figma for LUQA CRM]]
 
 ### Projects page FE
 

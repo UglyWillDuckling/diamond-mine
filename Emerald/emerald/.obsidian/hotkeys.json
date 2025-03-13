@@ -287,14 +287,6 @@
       "key": "F"
     }
   ],
-  "obsidian-footnotes:insert-named-footnote": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "-"
-    }
-  ],
   "templater-obsidian:replace-in-file-templater": [],
   "toggle-dark-mode:toggle-dark-mode": [
     {
@@ -306,12 +298,6 @@
     }
   ],
   "workspace:split-vertical": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "V"
-    },
     {
       "modifiers": [
         "Mod"
@@ -344,7 +330,7 @@
   "workspace:split-horizontal": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
       "key": "-"
     }

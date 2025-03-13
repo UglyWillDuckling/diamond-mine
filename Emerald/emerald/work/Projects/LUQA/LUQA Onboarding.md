@@ -1,5 +1,7 @@
 #ticket 
 
+related:: [[Team Create Modal Component]]
+___
 - [/] #task [[LUQA Onboarding]] 🆔 zT8KZb ⏳ 2025-02-20 📅 2025-02-28
 	- [/] #task service access 🆔 C72A1R
 		- [/] [[Lokalize]] service: **check** status
@@ -7,10 +9,10 @@
 	- [/] #task explore projects code 🆔 ii12pe
 		- [/] #task examine and study the [[#folder structure]] 🆔 PEayUI
 		- [ ]  #task study the [[#tools in use]] 🆔 xCxe9D
-		- [ ] #task check [[vim]] `integration` with JS and the rest #small  🆔 lzakH5
+		- [x] #task check [[vim]] `integration` with JS and the rest #small 🆔 lzakH5 ✅ 2025-03-05
 		- [ ] #task examine deployment [[#deployment]] 🆔 GyExTb
-	- [ ] #task experiment with making a [[# new component]] 🆔 hoz77n
-	- [ ] #task checkout [Storybook](https://gemini-storybook.prompt-scorpion-preview.aws.aviv.eu/?path=/docs/introduction-getting-started--docs) 🆔 U6ldLo
+	- [/] #task experiment with making a [[# new component]] 🆔 hoz77n
+	- [x] #task checkout [Storybook](https://gemini-storybook.prompt-scorpion-preview.aws.aviv.eu/?path=/docs/introduction-getting-started--docs) 🆔 U6ldLo ✅ 2025-03-05
 
 ___
 
@@ -36,8 +38,11 @@ config file: `.circleci/continue-config.yml`
 ## new component
 > Just a sample component to start with
 
-
 **interesting findinds**
 
 - [[useeffect]]
 - [[useref react]]
+
+## [[Lokalize]] access
+
+project id: 7742713467a213388b6c79.78436734

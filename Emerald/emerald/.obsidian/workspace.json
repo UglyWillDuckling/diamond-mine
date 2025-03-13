@@ -4,25 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "c314a4f5df84d1ea",
+        "id": "78187488fea38d40",
         "type": "tabs",
         "children": [
           {
-            "id": "e34b5332d89c6e2d",
+            "id": "68aafefc31b02184",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-05-Wed.md",
+                "file": "~/% tmpl/pages/movie.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-05-Wed"
+              "title": "movie"
+            }
+          },
+          {
+            "id": "a4ccbee8a039d750",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge/Media/Finding Nemo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Finding Nemo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 330.5110321044922
   },
   "right": {
     "id": "a4cc5cab7d2ca3c4",
@@ -226,34 +241,51 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "juggl:Juggl global graph": true,
       "cmdr:Daily notes: Open today's daily note": false,
-      "khoj:Khoj": false
+      "khoj:Khoj": true
     }
   },
-  "active": "e34b5332d89c6e2d",
+  "active": "a4ccbee8a039d750",
   "lastOpenFiles": [
-    "Clippings/Fzf  LazyVim.md",
-    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-05-Wed.md",
-    "Clippings/How to disable the timeout on the vim leader key.md",
-    "Clippings/folkesnacks.nvim 🍿 A collection of QoL plugins for Neovim.md",
-    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-04-Tue.md",
-    "work/calls/CRM/Team Create Modal Component.md",
-    "x/485ddd1f4dd3778a21748ca3db44dce3_MD5.jpeg",
-    "Screenshot 2025-02-13 at 13.46.16.png",
-    "work/calls/pair programming/today 2025-03-04.md",
-    "LUQA issue.md",
-    "Atlas/Knowledge/tools/dev/ocrs.md",
-    "Efforts/example Modal using Gemini.md",
-    "Efforts/modal example code.md",
-    "Atlas/Knowledge/concepts/development/aws fat lambda.md",
-    "Atlas/Knowledge/tools/dev/bashword.md",
-    "Efforts/tasks/archive/kako izdati racun HOC.md",
-    "Aviv VPN certificate backup.md",
-    "Efforts/tasks/archive/izdati racun 10.24.md",
-    "MOC/🛍️ Physical Objects MOC.md",
-    "People MOC.md",
-    "Atlas/Knowledge/How To's/vim - jump to last insert with `..md",
-    "work/calls/CRM/Vim LazyVim - Fzf controls.md",
-    "x",
-    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md"
+    "~/% tmpl/pages/movie.md",
+    "Knowledge/Media/Finding Nemo.md",
+    "~/% tmpl/pages/call template.md",
+    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-13-Thu.md",
+    "work/Projects/LUQA/Team Create Modal Component.md",
+    "Knowledge/Media",
+    "Knowledge",
+    "~/x/485ddd1f4dd3778a21748ca3db44dce3_MD5.jpeg",
+    "Atlas/Knowledge/tools/dev/js/jest Testing Framework.md",
+    "Clippings/Jest CLI Options.md",
+    "Clippings/Beyond .not Exploring Alternative Approaches for Negative Testing in Jest.md",
+    "Clippings/jamietrejest-examples.md",
+    "Atlas/Knowledge/tools/dev/nvim/vim - quickfix list.md",
+    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-12-Wed.md",
+    "work/Projects/LUQA/jest.md",
+    "work/calls/SPRINT/Backlog Refinement 2025-03-12.md",
+    "work/calls/CRM/architecture/Architecture meet 2025-03-12.md",
+    "work/calls/CRM/architecture/calling segment.md",
+    "work/Projects/LUQA/docs/calling campaign.md",
+    "work/calls/CRM/architecture/Untitled 2.md",
+    "work/calls/CRM/architecture/lead rank.md",
+    "work/calls/CRM/architecture/lead score.md",
+    "work/calls/CRM/architecture/Campaing Rules doc.md",
+    "work/Projects/LUQA/docs/cut-off campaign.md",
+    "work/Projects/LUQA/docs/Sale Slot entity.md",
+    "work/calls/CRM/architecture/Modjo.md",
+    "work/calls/CRM/architecture/Architecture meet 2025-03-07.md",
+    "work/calls/CRM/architecture/Architecture meet 2025-02-28.md",
+    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-06-Thu.md",
+    "work/Projects/LUQA/howtos",
+    "work/Projects/LUQA/docs",
+    "Atlas/Knowledge/tools/dev/js/react",
+    "~/x/9f87d200d057293dc4d551426b0933fd_MD5.jpg",
+    "tasks canvas.canvas",
+    "~/x/Screenshot_20250307_123511.jpg",
+    "~/x/7b97f2fc8b5ea46d9df2c0613857037f_MD5.jpg",
+    "~/x/822882a1bf88e2ad6ac4f2749abe2443_MD5.jpg",
+    "~/x/e8c8a9311883beab07df67e9006996eb_MD5.jpg",
+    "~/x/7c9e34f22aae4e0a1a1b81527716debb_MD5.jpg",
+    "~/x/Screenshot 2025-02-13 at 13.46.16.png",
+    "x"
   ]
 }

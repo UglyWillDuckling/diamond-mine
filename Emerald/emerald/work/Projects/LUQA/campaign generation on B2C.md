@@ -2,7 +2,7 @@
 related:
   - "[[work/Projects/B2c LeadRankingAPI.md|B2c LeadRankingAPI]]"
 used_entities:
-  - "[[work/Sale Slot entity.md|Sale Slot entity]]"
+  - "[[Sale Slot entity|Sale Slot entity]]"
 ---
 #artifact/doc
 
@@ -39,4 +39,4 @@ ___
 - ..
 
 ____
-- [/] #task check [[campaign generation on B2C]] 🔼 ⏳ 2026-02-07 📅 2025-02-27 🆔 LXUtFY ✅ 2025-02-26
+- [x] #task check [[campaign generation on B2C]] 🆔 LXUtFY 🔼 ⏳ 2026-02-07 📅 2025-02-27 ✅ 2025-03-10

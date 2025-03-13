@@ -1,12 +1,14 @@
-#communication
-#interaction
-#dom 
-#manipulate
-#re-render
+---
+part of:
+  - "[[Alicea Course]]"
+previous: "[[2) HTML, The Browser, and the DOM]]"
+next: "[[4) Conceptual Aside - Imperative vs. Declarative Programming]]"
+---
+#note/course
 
 ## Important
-- The [[DOM]] can be manipulated
-	- changed after it is rendered
+- The [[DOM]] can be `manipulated`
+	- changed after it is `rendered`
 	- the browser #re-render 's the **DOM**
 - Browser [[API]]
 	- `appendChild`
@@ -27,7 +29,7 @@ appendChild()
 
 ## Real world example
 
-### adding new DOM elements dynamically
+### adding new **DOM** elements dynamically
 ```html
 <html>
 	<head></head>

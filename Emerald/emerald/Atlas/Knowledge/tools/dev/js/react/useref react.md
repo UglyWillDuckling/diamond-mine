@@ -1,6 +1,8 @@
 ---
 aliases:
   - useref
+part of:
+  - "[[Atlas/Knowledge/tools/dev/js/react/react|react]]"
 ---
 #react/hook
 

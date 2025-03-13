@@ -1,21 +1,24 @@
-\[[+Home]] %% tags:: #MOC %% 
-# Physical Objects MOC
+#MOC 
 
 ```meta-bind-button
-label: New Physical Object
-hidden: false
-class: ""
-tooltip: ""
-id: ""
+label: Create Object
+icon: 📦
 style: primary
+class: ""
+cssStyle: ""
+backgroundImage: ""
+tooltip: Create object new
+id: ""
+hidden: false
 actions:
   - type: templaterCreateNote
-    templateFile: Extras/Templates/Template, Physical Object.md
-    folderPath: Spaces/Physical Objects
+    templateFile: Atlas/Knowledge/templates/physical object template.md
+    folderPath: /
     fileName: TKTK
     openNote: true
-
+    openIfAlreadyExists: true
 ```
+
 
 ## Template
 - [[Template, Physical Object]]

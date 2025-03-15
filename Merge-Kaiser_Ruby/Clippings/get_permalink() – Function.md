@@ -9,7 +9,7 @@ tags:
   - docs/official
   - wordpress
 related:
-  - "[[Efforts/Active/Wordpress/Wordpress]]"
+  - "[[Efforts/Simmering/Wordpress/Wordpress]]"
 ---
 Retrieves the full permalink for the current post or post ID.
 

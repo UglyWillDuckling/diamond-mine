@@ -11,21 +11,21 @@ ___
 
 ## **Prerequisites**
 - [x] system update
-- [/] read through the previous docs and tasks:
+- [x] read through the previous docs and tasks:
 	- [[persona mail setup]] 
 	- [[How To Set Up a Postfix E-Mail Server with Dovecot]]
-- [/] find other relevant docs
+- [x] find other relevant docs
 
 ## **tasks**
 
 - [/] #task Setup Techdot mail  🆔 5u1PYy
 	- [x] install [[Postfix]] and [[dovecot]]
-	- [ ] install [[mailutils]]
+	- [x] install [[mailutils]]
 	- [x] copy the [[Mail Config]] from [[my VPS]]
 	- [x] get [[SSL certificate]] for techdot.io
 	- [x] copy `aliases` file
-	- [/]  connect to **Techdot** mail 
-		- [ ] ..
+	- [x]  connect to **Techdot** mail 
+	- [ ] #task [[techdot docker email setup]] #docker 🆔 2jqQhk
 
 ### store mail configs
 1. copy over all the configuration files from [[my VPS]]

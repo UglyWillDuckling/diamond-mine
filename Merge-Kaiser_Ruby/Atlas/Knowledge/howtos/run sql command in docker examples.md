@@ -4,7 +4,7 @@ tags:
   - example
   - sql
 related:
-  - "[[docker]]"
+  - "[[Docker]]"
   - "[[Docker Compose]]"
   - "[[sql]]"
   - "[[mysql]]"

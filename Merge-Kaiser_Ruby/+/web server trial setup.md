@@ -25,7 +25,7 @@ related: [[Configuring self-signed SSL certificates for local development]]
 - [x] check online
 - [x] ask AI
 - [x] investigate [[Let's Encrypt]] automatic setup
-- [x] try to implement [[Let's Encrypt]] `locally` via [[docker]]
+- [x] try to implement [[Let's Encrypt]] `locally` via [[Docker]]
 - [x] implement [[Let's Encrypt]] on [[my VPS - techdot.biz]]
 - [x] combine [[Let's Encrypt]] with a simple static site
 

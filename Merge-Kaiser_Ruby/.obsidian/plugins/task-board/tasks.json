@@ -803,7 +803,21 @@
         ],
         "Master Task List.md": [
             {
-                "id": 1072117949,
+                "id": 3560944188,
+                "status": "/",
+                "title": "#task [[setup Owncloud]] 🔼 🛫 2025-03-14 ⏳ 2025-03-14 📅 2025-03-16",
+                "body": [],
+                "time": "",
+                "due": "2025-03-16",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completion": ""
+            },
+            {
+                "id": 116274640,
                 "status": "/",
                 "title": "#task Prodi [[Bug 388]] i instaliraj zeljeni software 🔼 ⏳ 2025-03-03 📅 2025-03-02 🆔 BVw5Ce",
                 "body": [
@@ -819,7 +833,7 @@
                 "completion": ""
             },
             {
-                "id": 318654172,
+                "id": 1015156393,
                 "status": " ",
                 "title": "#task See how difficult it is to setup a local FTP server ⏳ 2025-02-25 📅 2025-03-02 🆔 592cRS",
                 "body": [],
@@ -833,22 +847,7 @@
                 "completion": ""
             },
             {
-                "id": 2775838796,
-                "status": " ",
-                "title": "#task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-03-03 🆔 iD0UCB #habbit",
-                "body": [],
-                "time": "",
-                "due": "2025-03-03",
-                "tags": [
-                    "#task",
-                    "#habbit"
-                ],
-                "priority": 0,
-                "filePath": "Master Task List.md",
-                "completion": ""
-            },
-            {
-                "id": 2020128248,
+                "id": 3057928795,
                 "status": " ",
                 "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
                 "body": [],
@@ -863,7 +862,7 @@
                 "completion": ""
             },
             {
-                "id": 3857578220,
+                "id": 2893548314,
                 "status": " ",
                 "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-28",
                 "body": [
@@ -880,7 +879,7 @@
                 "completion": ""
             },
             {
-                "id": 1633296813,
+                "id": 3000851868,
                 "status": " ",
                 "title": "#task [[Backup Drive]] 🆔 OpBFPk 🔼",
                 "body": [],
@@ -940,8 +939,9 @@
         ],
         "Efforts/Ongoing/Zdravlje/Plan za testiranje glukoze.md": [
             {
-                "id": 229317259,
-                "title": "#task zapisivati nalaze glukoze prema [[Plan za testiranje glukoze",
+                "id": 3651839994,
+                "status": "/",
+                "title": "#task zapisivati nalaze glukoze prema [[Plan za testiranje glukoze|planu]] 🆔 jyMUcS ⏳ 2025-03-04 📅 2025-03-25",
                 "body": [
                     "\t- [ ] napraviti popis `opasne` hrane",
                     "\t- [ ] napraviti popis `dobre` hrane",
@@ -954,7 +954,7 @@
                 ],
                 "priority": 0,
                 "filePath": "Efforts/Ongoing/Zdravlje/Plan za testiranje glukoze.md",
-                "completed": ""
+                "completion": ""
             }
         ],
         "Spavanja promijena napredak.md": [
@@ -1046,8 +1046,9 @@
         ],
         "Efforts/Simmering/Create A Movie List.md": [
             {
-                "id": 1097179442,
-                "title": "#task build a New **Movies** list 🆔 qiGLZM",
+                "id": 3642121687,
+                "status": " ",
+                "title": "#task build a New **Movies** list 🆔 qiGLZM #backburner ⏳ 2025-03-26",
                 "body": [
                     "\t- create **new movie entries** in the process"
                 ],
@@ -1059,7 +1060,7 @@
                 ],
                 "priority": 0,
                 "filePath": "Efforts/Simmering/Create A Movie List.md",
-                "completed": ""
+                "completion": ""
             }
         ],
         "Efforts/Ongoing/Spavanja promijena napredak.md": [
@@ -1151,7 +1152,22 @@
         ],
         "Efforts/Active/Mirna 30ti rođendan.md": [
             {
-                "id": 1503614133,
+                "id": 2008529453,
+                "status": "/",
+                "title": "#task organizirati **rođendan** ⏫ ⏳ 2025-02-24 📅 2025-03-05 🆔 k81bjv",
+                "body": [],
+                "time": "",
+                "due": "2025-03-05",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Active/Mirna 30ti rođendan.md",
+                "completion": ""
+            },
+            {
+                "id": 4166789253,
+                "status": " ",
                 "title": "potrazi  na **internetu** zanimljive aktivnosti u okolici",
                 "body": [],
                 "time": "",
@@ -1159,10 +1175,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Mirna 30ti rođendan.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 3406196178,
+                "id": 2027849770,
+                "status": " ",
                 "title": "provjeriti događanja u Brodu u isto vrijeme",
                 "body": [],
                 "time": "",
@@ -1170,7 +1187,7 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Mirna 30ti rođendan.md",
-                "completed": ""
+                "completion": ""
             }
         ],
         "email setup on techdot.md": [
@@ -1196,7 +1213,8 @@
         ],
         "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md": [
             {
-                "id": 3406406931,
+                "id": 1581941887,
+                "status": " ",
                 "title": "write down all the steps  to repeat this ✍",
                 "body": [],
                 "time": "",
@@ -1204,7 +1222,22 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
+            },
+            {
+                "id": 1225136683,
+                "status": "/",
+                "title": "investigate relationship between [[+/SPF]], [[+/DKIM]] and [[DMARC]]",
+                "body": [
+                    "\t- [[What are DMARC, DKIM, and SPF]]",
+                    "\t\t- [[What are DMARC, DKIM, and SPF#How to check if an email has passed]]"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
+                "completion": ""
             }
         ],
         "Clippings/yet another tech-blog - made in Switzerland.md": [
@@ -1290,7 +1323,7 @@
         ],
         "Efforts/Active/setup Media Server.md": [
             {
-                "id": 2044898205,
+                "id": 1990044849,
                 "status": "/",
                 "title": "#task [[setup Media Server]] Jellyfin 🔼 ⏳ 2025-03-05 📅 2025-03-02 🆔 FeBHHo",
                 "body": [],
@@ -1304,7 +1337,7 @@
                 "completion": ""
             },
             {
-                "id": 768459309,
+                "id": 1456187943,
                 "status": "/",
                 "title": "#task [[Skinuti filmove, serije i slicno]] 🔼 ⏳ 2025-03-07 📅 2025-03-02 🆔 tIBxyP",
                 "body": [],
@@ -1318,7 +1351,7 @@
                 "completion": ""
             },
             {
-                "id": 4160612903,
+                "id": 4088601853,
                 "status": ">",
                 "title": "checkout plugins for [[Jellyfin]]",
                 "body": [],
@@ -1330,7 +1363,7 @@
                 "completion": ""
             },
             {
-                "id": 4275590298,
+                "id": 510342462,
                 "status": " ",
                 "title": "[[#trajno rijesenje za mountanje drive-a]]",
                 "body": [],
@@ -1344,8 +1377,8 @@
         ],
         "Skinuti filmove, serije i slicno.md": [
             {
-                "id": 3461702536,
-                "status": " ",
+                "id": 1918292714,
+                "status": "/",
                 "title": "[[avatar The Last Airbender]]",
                 "body": [],
                 "time": "",
@@ -1356,21 +1389,9 @@
                 "completion": ""
             },
             {
-                "id": 1462003517,
+                "id": 672683043,
                 "status": " ",
                 "title": "[[yu-gi-oh]]",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Skinuti filmove, serije i slicno.md",
-                "completion": ""
-            },
-            {
-                "id": 1808693692,
-                "status": " ",
-                "title": "",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -1452,9 +1473,9 @@
         ],
         "Efforts/Active/Moje djetinjstvo, istraga.md": [
             {
-                "id": 1598582693,
+                "id": 3682272680,
                 "status": "/",
-                "title": "#task napravi listu crtica za skinuti ⏫ ⏳ 2025-03-10 📅 2025-03-09 🆔 kB5bD2",
+                "title": "#task napravi **listu** crtica i filmova za **skinuti** ⏫ ⏳ 2025-03-10 📅 2025-03-09 🆔 kB5bD2",
                 "body": [],
                 "time": "",
                 "due": "2025-03-09",
@@ -1466,9 +1487,9 @@
                 "completion": ""
             },
             {
-                "id": 2175026855,
+                "id": 2499634827,
                 "status": "/",
-                "title": "#task Explore Console Emulators 🔼 🛫 2025-03-10 ⏳ 2025-03-10 📅 2025-03-17 🆔 RX2D6z",
+                "title": "#task [[Explore Console Emulators]] 🔼 🛫 2025-03-10 ⏳ 2025-03-10 📅 2025-03-17 🆔 RX2D6z",
                 "body": [
                     "\t- [[Install Mesen in Arch Linux  Mike Polinowski]]"
                 ],
@@ -1479,6 +1500,152 @@
                 ],
                 "priority": 3,
                 "filePath": "Efforts/Active/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            },
+            {
+                "id": 1056888584,
+                "status": " ",
+                "title": "Make a list of films to watch",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-03-13-Thu.md": [
+            {
+                "id": 3425760931,
+                "status": " ",
+                "title": "start working on a personal Cloud storage solution",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-03-13-Thu.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md": [
+            {
+                "id": 3123553719,
+                "status": "/",
+                "title": "#task napravi **listu** crtica i filmova za **skinuti** ⏫ ⏳ 2025-03-10 📅 2025-03-09 🆔 kB5bD2",
+                "body": [],
+                "time": "",
+                "due": "2025-03-09",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            },
+            {
+                "id": 3803610302,
+                "status": "/",
+                "title": "#task [[Explore Console Emulators]] 🔼 🛫 2025-03-10 ⏳ 2025-03-10 📅 2025-03-17 🆔 RX2D6z",
+                "body": [],
+                "time": "",
+                "due": "2025-03-17",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            },
+            {
+                "id": 1129658392,
+                "status": " ",
+                "title": "Make a list of films to watch",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            }
+        ],
+        "Clippings/Rootless mode.md": [
+            {
+                "id": 3009778541,
+                "status": " ",
+                "title": "! remind me (@2025-03-22)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/Rootless mode.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Active/Techdot.IO/Techdot.IO.md": [
+            {
+                "id": 3291001216,
+                "status": "/",
+                "title": "#task Setup Email for [[Techdot.IO]] on [[second vps]] ⏫ ⏳ 2025-02-26 📅 2025-02-27 🆔 BNF5gz",
+                "body": [
+                    "\t- [[email setup on techdot]]",
+                    "\t\t- [[techdot docker email setup]]"
+                ],
+                "time": "",
+                "due": "2025-02-27",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Active/Techdot.IO/Techdot.IO.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Active/Techdot.IO/email setup on techdot.md": [
+            {
+                "id": 1170439366,
+                "status": "/",
+                "title": "#task Setup Techdot mail  🆔 5u1PYy",
+                "body": [
+                    "\t- [x] install [[Postfix]] and [[dovecot]]",
+                    "\t- [x] install [[mailutils]]",
+                    "\t- [x] copy the [[Mail Config]] from [[my VPS]]",
+                    "\t- [x] get [[SSL certificate]] for techdot.io",
+                    "\t- [x] copy `aliases` file",
+                    "\t- [x]  connect to **Techdot** mail ",
+                    "\t- [ ] #task [[techdot docker email setup]] #docker 🆔 2jqQhk"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Active/Techdot.IO/email setup on techdot.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Active/Techdot.IO/techdot docker email setup.md": [
+            {
+                "id": 1321862280,
+                "status": "/",
+                "title": "setup using [[mlandocker-postfix]]",
+                "body": [
+                    "\t- [x] make a demo",
+                    "\t- [x] create a Github repo + `commit` files",
+                    "\t\t- [x] pull `repo`  on `VPS`",
+                    "\t\t- [x] start the server",
+                    "\t- [/] configure on [[techdot.io domain]]",
+                    "\t- [ ] .."
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Techdot.IO/techdot docker email setup.md",
                 "completion": ""
             }
         ]
@@ -3796,10 +3963,11 @@
         ],
         "Calendar/daily/2024/2024-11-02.md": [
             {
-                "id": 900338997,
-                "title": "osobni zadaci",
+                "id": 128328643,
+                "status": "x",
+                "title": "22:00 - 22:50 osobni zadaci",
                 "body": [
-                    "\t- [x] [[poslati mailove za upis na predmete]]",
+                    "\t- [x] [[Atlas/Life/Faks/TODO's/nova godina/poslati mailove za upis na predmete]]",
                     "\t- [x] porez"
                 ],
                 "time": "22:00 - 22:50",
@@ -3807,11 +3975,12 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Calendar/daily/2024/2024-11-02.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 3523556078,
-                "title": "#task Obsidian - organize tasks with the [[Tasks plugin]] ✅ 2024-11-05",
+                "id": 64591734,
+                "status": "x",
+                "title": "#task Obsidian - organize tasks with the [[Atlas/Knowledge/Knowledge/tools/Tasks plugin]] ✅ 2024-11-05",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -3820,10 +3989,11 @@
                 ],
                 "priority": 0,
                 "filePath": "Calendar/daily/2024/2024-11-02.md",
-                "completed": "2024-11-05"
+                "completion": "2024-11-05"
             },
             {
-                "id": 2109404088,
+                "id": 3362784838,
+                "status": "x",
                 "title": "#task another one 📅 2024-11-03 ✅ 2024-11-05",
                 "body": [],
                 "time": "",
@@ -3833,11 +4003,12 @@
                 ],
                 "priority": 0,
                 "filePath": "Calendar/daily/2024/2024-11-02.md",
-                "completed": "2024-11-05"
+                "completion": "2024-11-05"
             },
             {
-                "id": 1183267687,
-                "title": "#task [[use the timeline and daily tasks ✅]] ⏫ ➕ 2024-11-02 ✅ 2024-11-05",
+                "id": 73231456,
+                "status": "x",
+                "title": "#task [[Efforts/_Complete/Dev/tasks/use the timeline and daily tasks ✅]] ⏫ ➕ 2024-11-02 ✅ 2024-11-05",
                 "body": [],
                 "time": "",
                 "due": "",
@@ -3846,7 +4017,7 @@
                 ],
                 "priority": 2,
                 "filePath": "Calendar/daily/2024/2024-11-02.md",
-                "completed": "2024-11-05"
+                "completion": "]]"
             }
         ],
         "Calendar/daily/2024/2024-10-27.md": [
@@ -4547,7 +4718,7 @@
         ],
         "Master Task List.md": [
             {
-                "id": 398697230,
+                "id": 1820171970,
                 "status": "x",
                 "title": "#task Skini SHE-RA AND THE PRINCESSES OF POWER ⏳ 2025-03-09 📅 2025-03-10",
                 "body": [],
@@ -4561,7 +4732,7 @@
                 "completion": ""
             },
             {
-                "id": 154102758,
+                "id": 653083463,
                 "status": "x",
                 "title": "#task Skini Matrix 🔼 📅 2025-03-08 🆔 dyQA3h",
                 "body": [],
@@ -4575,7 +4746,7 @@
                 "completion": ""
             },
             {
-                "id": 2896946365,
+                "id": 2170793629,
                 "status": "x",
                 "title": "#task Look into what **SSE** means #dev 🆔 5dKDNT 📅 2025-03-03 ✅ 2025-03-10",
                 "body": [
@@ -4592,7 +4763,22 @@
                 "completion": "2025-03-10"
             },
             {
-                "id": 4244856264,
+                "id": 2746343775,
+                "status": "x",
+                "title": "#task prekini konstantni updejt pluginova #habbit 🆔 iD0UCB ⏳ 2025-02-09 📅 2025-03-03 ✅ 2025-03-14",
+                "body": [],
+                "time": "",
+                "due": "2025-03-03",
+                "tags": [
+                    "#task",
+                    "#habbit"
+                ],
+                "priority": 0,
+                "filePath": "Master Task List.md",
+                "completion": "2025-03-14"
+            },
+            {
+                "id": 2523327911,
                 "status": "x",
                 "title": "#task pocistiti **Downloads** folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny | #task #tiny #task #tiny 🔼 📅 2025-02-15 ✅ 2025-02-15",
                 "body": [],
@@ -4611,7 +4797,7 @@
                 "completion": "2025-02-15"
             },
             {
-                "id": 1991486854,
+                "id": 358432841,
                 "status": "x",
                 "title": "#task see how [[rsync]] works #backburner #dev ✅ 2025-02-15",
                 "body": [
@@ -4629,7 +4815,7 @@
                 "completion": "2025-02-15"
             },
             {
-                "id": 813186211,
+                "id": 3709728983,
                 "status": "x",
                 "title": "#task **Find** remote vault encryption password ⏫ ⏳ 2025-02-20 📅 2025-02-22 ✅ 2025-02-19",
                 "body": [],
@@ -4643,7 +4829,7 @@
                 "completion": "2025-02-19"
             },
             {
-                "id": 3633447665,
+                "id": 1486538966,
                 "status": "x",
                 "title": "#task daj Senki savjet da pogleda mail od Regice u slucaju da vec nije #rad 🆔 OZBwNh 🔼 ⏳ 2025-02-24 📅 2025-02-24 ✅ 2025-02-24",
                 "body": [],
@@ -4658,7 +4844,7 @@
                 "completion": "2025-02-24"
             },
             {
-                "id": 2222508903,
+                "id": 2548924850,
                 "status": "x",
                 "title": "#task pocisti [[GDrive]] do kraja 🔼 ⏳ 2025-02-20 📅 2025-02-23 🆔 7RPQKX ✅ 2025-02-23",
                 "body": [],
@@ -4672,7 +4858,7 @@
                 "completion": "2025-02-23"
             },
             {
-                "id": 2828119301,
+                "id": 4220607912,
                 "status": "x",
                 "title": "#task Fix missing **restart** of **nginx** docker service after cert renewal ⏫ 🆔 5ij4NX ✅ 2025-02-23",
                 "body": [],
@@ -4686,7 +4872,7 @@
                 "completion": "2025-02-23"
             },
             {
-                "id": 3212050736,
+                "id": 3754646989,
                 "status": "x",
                 "title": "#task Fix, again, the big editor issue 🔼 ⏳ 2025-02-27 📅 2025-02-23 ✅ 2025-02-26",
                 "body": [],
@@ -4736,7 +4922,8 @@
         ],
         "Efforts/Active/Techdot.IO/Techdot.IO.md": [
             {
-                "id": 2158004458,
+                "id": 254950736,
+                "status": "x",
                 "title": "#task setup techdot.io domain on [[Cloudflare]] ⏫ ⏳ 2025-02-24 📅 2025-02-24 🆔 cchisl ✅ 2025-02-24",
                 "body": [],
                 "time": "",
@@ -4746,10 +4933,11 @@
                 ],
                 "priority": 2,
                 "filePath": "Efforts/Active/Techdot.IO/Techdot.IO.md",
-                "completed": "2025-02-24"
+                "completion": "2025-02-24"
             },
             {
-                "id": 4282997636,
+                "id": 3225255802,
+                "status": "x",
                 "title": "#task Renew [[techdot.io domain]] Domain ⏫ ⏳ 2025-02-24 📅 2025-02-24 ✅ 2025-02-24",
                 "body": [],
                 "time": "",
@@ -4759,7 +4947,7 @@
                 ],
                 "priority": 2,
                 "filePath": "Efforts/Active/Techdot.IO/Techdot.IO.md",
-                "completed": "2025-02-24"
+                "completion": "2025-02-24"
             }
         ],
         "Calendar/daily/2025/2025-02-24-Mon.md": [
@@ -4814,7 +5002,8 @@
         ],
         "Efforts/Ongoing/Zdravlje/archive/Obnova dopunskog osiguranja 2025.md": [
             {
-                "id": 1676824893,
+                "id": 2904160411,
+                "status": "x",
                 "title": "#task [[Obnova dopunskog osiguranja 2025]] 🆔 nggx4R ⏳ 2025-01-26 📅 2025-01-27 ✅ 2025-01-27",
                 "body": [
                     "    - [x] #task provjeriti stanje dopunskog osiguranja ⏫ ⏳ 2025-01-27 📅 2025-01-27 ✅ 2025-01-27",
@@ -4829,7 +5018,7 @@
                 ],
                 "priority": 0,
                 "filePath": "Efforts/Ongoing/Zdravlje/archive/Obnova dopunskog osiguranja 2025.md",
-                "completed": "2025-01-27"
+                "completion": "2025-01-27"
             }
         ],
         "Atlas/Knowledge/howtos/creating local certificates is super simple.md": [
@@ -4967,7 +5156,8 @@
         ],
         "Efforts/Active/Techdot.IO/email setup on techdot.md": [
             {
-                "id": 724177038,
+                "id": 1039380321,
+                "status": "x",
                 "title": "system update",
                 "body": [],
                 "time": "",
@@ -4975,12 +5165,40 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Techdot.IO/email setup on techdot.md",
-                "completed": ""
+                "completion": ""
+            },
+            {
+                "id": 2074681772,
+                "status": "x",
+                "title": "read through the previous docs and tasks:",
+                "body": [
+                    "\t- [[persona mail setup]] ",
+                    "\t- [[How To Set Up a Postfix E-Mail Server with Dovecot]]"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Techdot.IO/email setup on techdot.md",
+                "completion": ""
+            },
+            {
+                "id": 908154147,
+                "status": "x",
+                "title": "find other relevant docs",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Techdot.IO/email setup on techdot.md",
+                "completion": ""
             }
         ],
         "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md": [
             {
-                "id": 3558978120,
+                "id": 1880231254,
+                "status": "x",
                 "title": "install mail server program - [[Postfix]]",
                 "body": [],
                 "time": "",
@@ -4988,10 +5206,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 1096873454,
+                "id": 3683909749,
+                "status": "x",
                 "title": "configure mail server",
                 "body": [],
                 "time": "",
@@ -4999,10 +5218,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 341356689,
+                "id": 2855341316,
+                "status": "x",
                 "title": "! configure [[SSL]]",
                 "body": [],
                 "time": "",
@@ -5010,10 +5230,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 2796198775,
+                "id": 2978187389,
+                "status": "x",
                 "title": "setup multiple `mailboxes`",
                 "body": [],
                 "time": "",
@@ -5021,10 +5242,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 3432783162,
+                "id": 4172268433,
+                "status": "x",
                 "title": "[[#connect with local mail client]] #task ✅ 2025-01-04",
                 "body": [
                     "    - [x] ! connect with other [[email client]]s #task ✅ 2025-01-04"
@@ -5036,10 +5258,11 @@
                 ],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": "2025-01-04"
+                "completion": "2025-01-04"
             },
             {
-                "id": 256296586,
+                "id": 3657087722,
+                "status": "x",
                 "title": "try out sending emails to [[Gmail]]",
                 "body": [],
                 "time": "",
@@ -5047,10 +5270,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 4235673365,
+                "id": 504931550,
+                "status": "x",
                 "title": "follow [[Install and configure Postfix]]",
                 "body": [],
                 "time": "",
@@ -5058,10 +5282,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 2185818759,
+                "id": 3661417608,
+                "status": "x",
                 "title": "read [[How To Set Up a Postfix E-Mail Server with Dovecot]]",
                 "body": [],
                 "time": "",
@@ -5069,10 +5294,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 821229955,
+                "id": 2040892009,
+                "status": "x",
                 "title": "add user vlado",
                 "body": [],
                 "time": "",
@@ -5080,10 +5306,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 921348431,
+                "id": 836538852,
+                "status": "x",
                 "title": "test mail",
                 "body": [],
                 "time": "",
@@ -5091,10 +5318,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 3662668363,
+                "id": 83874267,
+                "status": "x",
                 "title": "try to connect",
                 "body": [],
                 "time": "",
@@ -5102,10 +5330,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 255152074,
+                "id": 3885211955,
+                "status": "x",
                 "title": "use a <mark style=\"background: #FFB8EBA6;\">secure</mark> connection",
                 "body": [],
                 "time": "",
@@ -5115,10 +5344,11 @@
                 ],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 1198753819,
+                "id": 899637476,
+                "status": "x",
                 "title": "use **multiple** clients",
                 "body": [],
                 "time": "",
@@ -5126,21 +5356,23 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 4039511504,
-                "title": "create senka@techdot.biz account",
+                "id": 4115930225,
+                "status": "x",
+                "title": "create senka@techdot.biz account |  ✅ 2025-02-14/21:37",
                 "body": [],
                 "time": "",
                 "due": "",
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": "2025-02-14/21:37"
+                "completion": "2025-02-14/21:37"
             },
             {
-                "id": 362209461,
+                "id": 2422410902,
+                "status": "x",
                 "title": "@ create more folders in [[Dovecot]]",
                 "body": [],
                 "time": "",
@@ -5148,10 +5380,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 3311807403,
+                "id": 310261415,
+                "status": "x",
                 "title": "! reinstall [[Postfix]]",
                 "body": [],
                 "time": "",
@@ -5159,10 +5392,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 2062510548,
+                "id": 711153019,
+                "status": "x",
                 "title": "! add [[+/SPF]] record",
                 "body": [
                     "\t[[What Is the SPF Record for Hostinger Email  Hostinger Help Center]]"
@@ -5172,10 +5406,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 768251633,
+                "id": 2629609242,
+                "status": "x",
                 "title": "fix issue with emails ending up in [[+/spam]] folder",
                 "body": [],
                 "time": "",
@@ -5183,10 +5418,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 3693977478,
+                "id": 3942127869,
+                "status": "x",
                 "title": "#task store configs ✅ 2025-01-05",
                 "body": [
                     "\t- [ ] store [[Postfix]] config",
@@ -5199,10 +5435,11 @@
                 ],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": "2025-01-05"
+                "completion": "2025-01-05"
             },
             {
-                "id": 6731088,
+                "id": 2257288810,
+                "status": "x",
                 "title": "#task create dovecot folder ✅ 2025-01-04",
                 "body": [],
                 "time": "",
@@ -5212,10 +5449,11 @@
                 ],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": "2025-01-04"
+                "completion": "2025-01-04"
             },
             {
-                "id": 643438921,
+                "id": 965861222,
+                "status": "x",
                 "title": "#task setup person.hr [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]] ✅ 2025-01-07",
                 "body": [
                     "\t- [x] #task check cert from backup ✅ 2025-01-06",
@@ -5228,10 +5466,11 @@
                 ],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": "2025-01-07"
+                "completion": "2025-01-07"
             },
             {
-                "id": 2981185262,
+                "id": 98911391,
+                "status": "x",
                 "title": "find the cert",
                 "body": [],
                 "time": "",
@@ -5239,10 +5478,11 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 202606154,
+                "id": 1539563472,
+                "status": "x",
                 "title": "copy to server",
                 "body": [
                     "\t- [x] move to `/etc/ssl/*` dirs"
@@ -5252,11 +5492,12 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": ""
+                "completion": ""
             },
             {
-                "id": 27655365,
-                "title": "use for mail",
+                "id": 1048008204,
+                "status": "x",
+                "title": "use for mail |  ✅ 2025-02-14/21:37",
                 "body": [
                     "\t- [x] postfix",
                     "\t- [x] dovecot",
@@ -5268,7 +5509,7 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "completed": "2025-02-14/21:37"
+                "completion": "2025-02-14/21:37"
             }
         ],
         "Efforts/Active/Senka/Persona/persona ssl cronjob.md": [
@@ -5391,7 +5632,7 @@
         ],
         "Efforts/Active/setup Media Server.md": [
             {
-                "id": 2985427609,
+                "id": 2277185775,
                 "status": "x",
                 "title": "make the basic setup",
                 "body": [],
@@ -5403,7 +5644,7 @@
                 "completion": ""
             },
             {
-                "id": 737274374,
+                "id": 2566381898,
                 "status": "x",
                 "title": "map `movies` directory",
                 "body": [],
@@ -5415,7 +5656,7 @@
                 "completion": ""
             },
             {
-                "id": 2666855266,
+                "id": 3836745842,
                 "status": "x",
                 "title": "categorize content: `movies/films`, `tv shows/series`",
                 "body": [],
@@ -5427,7 +5668,7 @@
                 "completion": ""
             },
             {
-                "id": 2563808767,
+                "id": 1621271631,
                 "status": "x",
                 "title": "try to map the entire [[ Personal External Drive | Ext. Drive]]: `media folder`",
                 "body": [],
@@ -5437,6 +5678,220 @@
                 "priority": 0,
                 "filePath": "Efforts/Active/setup Media Server.md",
                 "completion": ""
+            }
+        ],
+        "Efforts/Active/Moje djetinjstvo, istraga.md": [
+            {
+                "id": 2312874186,
+                "status": "x",
+                "title": "[[The Matrix (1999)]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            },
+            {
+                "id": 1929432659,
+                "status": "x",
+                "title": "[[Raise the Red Lantern - Wikipedia]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            },
+            {
+                "id": 3590887844,
+                "status": "x",
+                "title": "[[Chungking Express (1994)]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            },
+            {
+                "id": 3709525518,
+                "status": "x",
+                "title": "[[The Fifth Element (1997)]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            },
+            {
+                "id": 4284044560,
+                "status": "x",
+                "title": "[[American Beauty (1999)]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Simmering/Senka/Persona/certificate renewal.md": [
+            {
+                "id": 1991515282,
+                "status": "x",
+                "title": "#task [[certificate renewal]] 🆔 Htr8QL ⏫ ⏳ 2025-02-08 📅 2025-02-12 ✅ 2025-02-12",
+                "body": [
+                    "\t- [x] check current **status** of the **ssl** **cert** [^1] on [[Efforts/Simmering/Senka/Persona/Docs/Persona.hr]]",
+                    "\t- [x] permanently save the new cert details",
+                    "\t- [x] #task Implement permanent solution, cronjob 🆔 nMfbCO 🔼 ⏳ 2025-02-13 📅 2025-02-16 ✅ 2025-02-15"
+                ],
+                "time": "",
+                "due": "2025-02-12",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Simmering/Senka/Persona/certificate renewal.md",
+                "completion": "2025-02-12"
+            },
+            {
+                "id": 2042534309,
+                "status": "x",
+                "title": "think 🤔 what would happen if we update the cert manually",
+                "body": [
+                    "\t- [x] what whould happen to the mail :LiMail:?",
+                    "\t- [x] would it also update that cert :LiKeyRound:? "
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Simmering/Senka/Persona/certificate renewal.md",
+                "completion": ""
+            },
+            {
+                "id": 1494181901,
+                "status": "x",
+                "title": "renew cert",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Simmering/Senka/Persona/certificate renewal.md",
+                "completion": ""
+            },
+            {
+                "id": 1961477346,
+                "status": "x",
+                "title": "**check** **expiry** of web cert",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Simmering/Senka/Persona/certificate renewal.md",
+                "completion": ""
+            },
+            {
+                "id": 3646492653,
+                "status": "x",
+                "title": "see how the mail ssl cert is setup",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Simmering/Senka/Persona/certificate renewal.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md": [
+            {
+                "id": 1231187050,
+                "status": "x",
+                "title": "[[The Matrix (1999)]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            },
+            {
+                "id": 4109755904,
+                "status": "x",
+                "title": "[[Raise the Red Lantern - Wikipedia]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            },
+            {
+                "id": 3384578868,
+                "status": "x",
+                "title": "[[Chungking Express (1994)]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            },
+            {
+                "id": 3122252320,
+                "status": "x",
+                "title": "[[The Fifth Element (1997)]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            },
+            {
+                "id": 3611340773,
+                "status": "x",
+                "title": "[[American Beauty (1999)]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Active/Mirna 30ti rođendan.md": [
+            {
+                "id": 792885284,
+                "status": "x",
+                "title": "#task rodendanski poklon za Mirnu 🆔 IeKKFd ⏫ ⏳ 2025-02-26 📅 2025-03-01 ✅ 2025-03-14",
+                "body": [
+                    "\t- [x] #task pogledaj [[KiwiCo Crates Subscription Box]]",
+                    "\t- [[kiwi order for Mirna]]\\"
+                ],
+                "time": "",
+                "due": "2025-03-01",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Active/Mirna 30ti rođendan.md",
+                "completion": "2025-03-14"
             }
         ]
     }

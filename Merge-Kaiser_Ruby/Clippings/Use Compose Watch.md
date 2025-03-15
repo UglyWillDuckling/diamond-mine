@@ -7,7 +7,7 @@ published: 2024-10-01
 created: 2024-12-23
 description: Use File watch to automatically update running services as you work
 related:
-  - "[[docker]]"
+  - "[[Docker]]"
   - "[[docker-compose]]"
 tags:
   - clippings

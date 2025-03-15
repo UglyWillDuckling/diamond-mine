@@ -1,0 +1,4 @@
+#emulation/nes
+
+[[bsnes-hd]]
+

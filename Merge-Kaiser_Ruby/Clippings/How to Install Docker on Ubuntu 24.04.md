@@ -14,7 +14,7 @@ tags:
 related:
   - "[[Ubuntu Server]]"
   - "[[ubuntu]]"
-  - "[[docker]]"
+  - "[[Docker]]"
   - "[[Docker Compose]]"
 ---
 ![icon](https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/linuxiac.com/wp-content/uploads/2022/02/cropped-favicon-32x32.png)

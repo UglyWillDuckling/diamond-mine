@@ -1,0 +1,1 @@
+#tool/emulation/nes

@@ -1,97 +1,38 @@
 {
   "main": {
-    "id": "d3fd3182b5b7335d",
+    "id": "67b00fc9261485ee",
     "type": "split",
     "children": [
       {
-        "id": "555aa22c634135dc",
+        "id": "3b7270e8b55522e8",
         "type": "tabs",
         "children": [
           {
-            "id": "b52397c209ef5e20",
+            "id": "bc504f2232254584",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calendar/daily/2025/2025-03-10-Mon.md",
+                "file": "Clippings/She-Ra and the Princesses of Power.md",
                 "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": true,
-                  "unlinkedCollapsed": true
-                }
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-10-Mon"
+              "title": "She-Ra and the Princesses of Power"
             }
           },
           {
-            "id": "16746d7fbeb7b91d",
+            "id": "0bb8e288fc9605a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posjet Jarmini, uspomene.md",
+                "file": "Media DB/series/She-Ra and the Princesses of Power (2018–2020).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "posjet Jarmini, uspomene"
-            }
-          },
-          {
-            "id": "8d62a7d7b04ba787",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Master Task List.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Master Task List"
-            }
-          },
-          {
-            "id": "66d44cedf249b932",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/Active/Moje djetinjstvo, istraga.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Moje djetinjstvo, istraga"
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "5c67c3b5fbf120dc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9e995ff45037b0d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zmajeva Kugla.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Zmajeva Kugla"
+              "title": "She-Ra and the Princesses of Power (2018–2020)"
             }
           }
         ]
@@ -100,15 +41,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "421b21ff91adde0d",
+    "id": "8f80a4c2d66183f1",
     "type": "split",
     "children": [
       {
-        "id": "7257e540e65a9982",
+        "id": "0bada21f89c8a23d",
         "type": "tabs",
         "children": [
           {
-            "id": "67ac4e3f4e315e0f",
+            "id": "1609489df2a4853f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -121,26 +62,12 @@
             }
           },
           {
-            "id": "a8fbe07ef7a22dbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/Active/Senka/Persona/archive/archive/Setup hosting/setup mail server trial.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "setup mail server trial"
-            }
-          },
-          {
-            "id": "82ec65ee2e7f5fee",
+            "id": "e79271154d7d9f0c",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#task",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -152,7 +79,7 @@
             }
           },
           {
-            "id": "e18128b28d6fd909",
+            "id": "6d2f469688fb7fb8",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -161,81 +88,56 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 347.5,
+    "width": 257.5,
     "collapsed": true
   },
   "right": {
-    "id": "6b26b603c051936f",
+    "id": "581ddc9947999c84",
     "type": "split",
     "children": [
       {
-        "id": "05ce95f18513eaae",
+        "id": "a3e5c3bc2e757ca9",
         "type": "tabs",
         "children": [
           {
-            "id": "3ea75a16cb86481d",
+            "id": "48628ecfe098ca10",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/Nausikaja iz vjetrovite doline – Wikipedija.md",
+                "file": "Efforts/Active/Moje djetinjstvo, istraga.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Nausikaja iz vjetrovite doline – Wikipedija"
+              "title": "Backlinks for Moje djetinjstvo, istraga"
             }
           },
           {
-            "id": "c03361a3000bd879",
+            "id": "44452ad6f0058bfd",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clippings/Nausikaja iz vjetrovite doline – Wikipedija.md",
+                "file": "Efforts/Active/Moje djetinjstvo, istraga.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Nausikaja iz vjetrovite doline – Wikipedija"
+              "title": "Outgoing links from Moje djetinjstvo, istraga"
             }
           },
           {
-            "id": "732b3c2921195d4b",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "e391705350c567f1",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
-            "id": "08ad00a8521b7326",
+            "id": "7bc20ee8f0fa5a24",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -250,7 +152,22 @@
             }
           },
           {
-            "id": "eba7e2c934b4710f",
+            "id": "c42424a2960f21a9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Efforts/Active/Moje djetinjstvo, istraga.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Moje djetinjstvo, istraga"
+            }
+          },
+          {
+            "id": "1c7e16c0e3a79754",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -260,7 +177,7 @@
             }
           },
           {
-            "id": "273635cd10b8634b",
+            "id": "f299e02e16f8f41f",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -268,70 +185,88 @@
               "icon": "ag-style",
               "title": "Juggl style"
             }
+          },
+          {
+            "id": "84739040dc977ba1",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 489.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-book-search-plugin:Create new book note": false,
+      "task-board:Open task board": false,
+      "obsidian-day-and-night:Toggle Theme": true,
+      "markwhen:Create new Markwhen file": true,
+      "callout-manager:Insert Callout": true,
+      "chronology:Open Chronology": true,
       "obsidian42-brat:BRAT": true,
-      "task-board:Open task board": true,
+      "obsidian-importer:Open Importer": true,
       "juggl:Juggl global graph": true,
-      "templater-obsidian:Templater": false,
-      "obsidian-kanban:Create new board": false,
+      "obsidian-projects:Open projects": true,
       "obsidian-media-db-plugin:Add new Media DB entry": true,
+      "obsidian-kanban:Create new board": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "obsidian-importer:Open Importer": false,
-      "obsidian-day-and-night:Toggle Theme": false,
-      "chronology:Open Chronology": true,
-      "markwhen:Create new Markwhen file": true,
-      "obsidian-projects:Open projects": false,
       "workspaces:Manage workspace layouts": false,
-      "callout-manager:Insert Callout": true,
-      "daily-notes:Open today's daily note": false
+      "daily-notes:Open today's daily note": false,
+      "templater-obsidian:Templater": true,
+      "obsidian-book-search-plugin:Create new book note": true
     }
   },
-  "active": "9e995ff45037b0d1",
+  "active": "bc504f2232254584",
   "lastOpenFiles": [
-    "Zmajeva Kugla.md",
-    "Efforts/Active/Moje djetinjstvo, istraga.md",
-    "Clippings/Install Mesen in Arch Linux  Mike Polinowski.md",
+    "Media DB/series/She-Ra and the Princesses of Power (2018–2020).md",
+    "Clippings/She-Ra and the Princesses of Power.md",
+    "Clippings/SPF Surveyor - dmarcian.md",
+    "Media DB/series",
+    "Media DB",
+    "Efforts/Active/Techdot.IO/techdot docker email setup.md",
+    "Atlas/Knowledge/howtos/how to check DNS info.md",
+    "Efforts/Active/Techdot.IO/Techdot.IO.md",
+    "Clippings/8. User Management — KC Administrator Manual 8.0.0 documentation.md",
+    "Clippings/Lightweight Directory Access Protocol - Wikipedia.md",
+    "Clippings/Kopano User Management — KC Administrator Manual 8.0.0 documentation.md",
+    "Atlas/Tools/pc/mlandocker-postfix.md",
+    "Efforts/Active/Techdot.IO/email setup on techdot.md",
+    "+/Docker.md",
+    "docker image.md",
+    "tasks canvas.canvas",
+    "Efforts/Active/setup Owncloud.md",
+    "Clippings/Rootless mode.md",
+    "Clippings/Owncloud - Installing with Docker.md",
+    "Clippings/ownCloud.md",
+    "Efforts/Active/instalacija sofwarea iz Bug 388.md",
     "Master Task List.md",
-    "posjet Jarmini, uspomene.md",
-    "Calendar/daily/2025/2025-03-10-Mon.md",
-    "Efforts/Active/setup Media Server.md",
-    "Atlas/Knowledge/Media/movies/The Matrix (1999).md",
-    "Calendar/daily/2025/2025-03-09-Sun.md",
-    "Clippings/Pokemon  SINKRONIZACIJE  Project 6 Studio.md",
-    "Calendar/daily/2025/2025-03-08-Sat.md",
-    "Clippings/FixPart - Bosch Siemens glava usisivača.md",
-    "Clippings/Psihijatrijska bolnica Ugljan.md",
-    "Clippings/Ugljan – Wikipedija.md",
-    "Oregon.md",
-    "Potvrda narudžbe 202504036992 na FixPart.pdf",
-    "Clippings/Dunder Mifflin.md",
-    "Clippings/Dunder Mifflin - Wikipedia.md",
-    "Skinuti filmove, serije i slicno.md",
-    "Clippings/Pokemon - Serija (HR, SR) - Online sinkronizirani crtić.md",
-    "Clippings/Digimoni (SR) - Online sinkronizirani crtić.md",
-    "Clippings/Andor Season 2.md",
-    "Clippings/Star Wars Andor TV Show.md",
-    "Calendar/daily/2025/2025-03-07-Fri.md",
-    "Clippings/Why CRT TVs Are IMPORTANT for Retro Gaming.md",
-    "Clippings/Soul Edge (Arcade 1995) - Sophitia Alexandra - PlaythroughLongPlay.md",
-    "Clippings/PSX Longplay 521 Colony Wars.md",
-    "Efforts/Active/setup Media Server.md~",
-    "Atlas/Knowledge/Media/VideoGames",
+    "snimka Sonje.md",
     "sonja.m4a",
+    "Atlas/Life/notes/booking-rezervacija rogaska.md",
+    "Efforts/tasks by root.md",
+    "Atlas/Notes/Personal External Drive.md",
+    "Atlas/Science/Quaternary.md",
+    "Atlas/Tools/pc/lspci.md",
+    "Atlas/Knowledge/howtos/how to check graphics card used on linux.md",
+    "Efforts/Active/Deno Web Server Exploration",
+    "Efforts/Active/Moje djetinjstvo, istraga",
+    "Efforts/Active/Media Organization",
+    "Atlas/Science",
+    "Timestamps/2025/03-March",
+    "Timestamps/2025",
+    "Timestamps",
     "~/×/400px-Kernel-based_Virtual_Machine.svg.png",
     "~/×/300px-Libvirt_support.svg.png",
     "~/×/Screenshot_20250227-181214_Firefox.jpg",
@@ -339,13 +274,6 @@
     "~/×/Screenshot_20250303-203645_Firefox.jpg",
     "~/×/Screenshot_20250227-181612_Firefox.jpg",
     "~/×/Screenshot_20250227-195854_Firefox.jpg",
-    "notes",
-    "x",
-    "tasks canvas.canvas",
-    "Efforts/Ongoing/Zdravlje/archive",
-    "Clippings/OpenSSH Config File Examples.md~",
-    "Efforts/Ongoing/Vacation",
-    "Efforts/Ongoing/PC Maintenance/docs",
     "Yin-Yang/resources/logo.svg",
     "tasks pic.canvas",
     "~/×/Linear Calendar 2025 - White.png",

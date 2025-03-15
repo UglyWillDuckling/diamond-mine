@@ -7,7 +7,7 @@ created: 2025-01-26
 tags:
   - article
 related:
-  - "[[Efforts/Active/Wordpress/Wordpress]]"
+  - "[[Efforts/Simmering/Wordpress/Wordpress]]"
 ---
 ![icon|50](https://codecraftwp.com/wp-content/uploads/2023/08/cropped-site-icon-32x32.png)
 

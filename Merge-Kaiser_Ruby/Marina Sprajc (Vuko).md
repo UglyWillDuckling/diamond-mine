@@ -1,3 +1,0 @@
-#person 
-
-related:: [[Sandrino M.]]

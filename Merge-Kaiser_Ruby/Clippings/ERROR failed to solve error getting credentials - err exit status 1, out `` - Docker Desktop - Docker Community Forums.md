@@ -8,7 +8,7 @@ tags:
   - error
   - author
 related:
-  - "[[docker]]"
+  - "[[Docker]]"
 ---
 ![icon](https://global.discourse-cdn.com/docker/optimized/3X/6/5/65d9a8c18d1ca9f553a198cc78045be7743a4be2_2_32x32.png)
 

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBaby",
       "🦆",
       "🧹",
       "😪",
-      "🎥",
-      "💯"
+      "🎥"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -48,8 +48,6 @@
   "Efforts/Active/Kuca": "🏠",
   "Atlas": "🗺",
   "Atlas/Knowledge/Media/movies/movi list - wip.md": "🎥",
-  "Atlas/Personal/notes": "LiNotebookText",
-  "Efforts/Active/Wordpress": "LiPrinter",
   "Efforts/Ongoing": "👟",
   "Efforts/Simmering": "LiCookingPot",
   "Efforts/Active": {
@@ -161,16 +159,6 @@
     "iconColor": "#3086b0"
   },
   "Efforts/tasks/archive/archive/see why yay won't update.md": "🌌",
-  "Efforts/Active/Senka/Persona": "LiPersonStanding",
-  "Efforts/Active/Senka/Persona/Docs": "LiFolders",
-  "Efforts/Active/Senka/Persona/persona ssl cronjob.md": "LiTimerReset",
-  "Efforts/Active/Senka/Persona/Docs/Upute za mail konfiguraciju.md": "LiNotebookText",
-  "Efforts/Active/Senka/Persona/archive/archive/migrate Persona DNS.md": "LiSatelliteDish",
-  "Efforts/Active/Senka/Persona/archive/archive/persona mail setup.md": "LiMail",
-  "Efforts/Active/Senka/Persona/archive/archive/persona ssl setup.md": "LiKeyRound",
-  "Efforts/Active/Senka/Persona/archive/archive/setup Persona VPS.md": "LiServer",
-  "Efforts/Active/Senka/Persona/Docs/Dev/Wordpress/wp_users.md": "LiPersonStanding",
-  "Efforts/Active/Senka": "👩‍🏫",
   "Efforts/Active/Persona/Docs": "LiFolders",
   "Efforts/Active/Persona/Docs/Upute za mail konfiguraciju.md": "LiNotebookText",
   "Calendar/Events": "🌄",
@@ -194,5 +182,18 @@
   "Efforts/Simmering/Create A Movie List.md": "🎥",
   "Efforts/Ongoing/Spavanja promijena napredak.md": "😪",
   "Efforts/Ongoing/Odrzavanja kuce.md": "🧹",
-  "Efforts/Active/Moje djetinjstvo, istraga.md": "🦆"
+  "Atlas/Life/notes": "LiNotebookText",
+  "Efforts/Simmering/Wordpress": "LiPrinter",
+  "Efforts/Simmering/Senka": "👩‍🏫",
+  "Efforts/Simmering/Senka/Persona": "LiPersonStanding",
+  "Efforts/Simmering/Senka/Persona/Docs": "LiFolders",
+  "Efforts/Simmering/Senka/Persona/persona ssl cronjob.md": "LiTimerReset",
+  "Efforts/Simmering/Senka/Persona/Docs/Upute za mail konfiguraciju.md": "LiNotebookText",
+  "Efforts/Simmering/Senka/Persona/archive/archive/migrate Persona DNS.md": "LiSatelliteDish",
+  "Efforts/Simmering/Senka/Persona/archive/archive/persona mail setup.md": "LiMail",
+  "Efforts/Simmering/Senka/Persona/archive/archive/persona ssl setup.md": "LiKeyRound",
+  "Efforts/Simmering/Senka/Persona/archive/archive/setup Persona VPS.md": "LiServer",
+  "Efforts/Simmering/Senka/Persona/Docs/Dev/Wordpress/wp_users.md": "LiPersonStanding",
+  "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md": "🦆",
+  "Efforts/Active/Moje djetinjstvo, istraga": "LiBaby"
 }

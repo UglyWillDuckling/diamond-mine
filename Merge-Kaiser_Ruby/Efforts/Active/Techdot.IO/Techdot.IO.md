@@ -5,5 +5,5 @@
 ___
 
 - [/] #task Setup Email for [[Techdot.IO]] on [[second vps]] ⏫ ⏳ 2025-02-26 📅 2025-02-27 🆔 BNF5gz
-
-[[email setup on techdot]]
+	- [[email setup on techdot]]
+		- [[techdot docker email setup]]

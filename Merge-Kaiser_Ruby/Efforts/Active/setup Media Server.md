@@ -1,9 +1,8 @@
 ---
 id: setup Media Server
-aliases: []
-tags: []
+tags:
+  - project
 ---
-
 #project
 
 uses:: [[Jellyfin]]
@@ -17,7 +16,7 @@ ____
 This project is based around [[Jellyfin]], a media server that is free and open source, requires minimal setup, offers a large number of features and even has a healthy plugin ecosystem.
 
 ## reqs
-- needs to use [[docker]]
+- needs to use [[Docker]]
 - **available** on all devices in the House
 	- PC's, mobiles phones, [[Chromecast]]
 	- %% maybe even farther %%

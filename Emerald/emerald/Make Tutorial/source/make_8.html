@@ -1,0 +1,713 @@
+<!-- This HTML file has been created by texi2html 1.30
+     from /mit/gnu/src/make-3.72/make.texinfo on 6 November 1994 -->
+
+<TITLE>GNU Make - Functions for Transforming Text</TITLE>
+<P>Go to the <A HREF="make_7.html">previous</A>, <A HREF="make_9.html">next</A> section.<P>
+<A NAME="IDX444"></A>
+<H1><A NAME="SEC71" HREF="make_toc.html#SEC71">Functions for Transforming Text</A></H1>
+<P>
+<DFN>Functions</DFN> allow you to do text processing in the makefile to compute
+the files to operate on or the commands to use.  You use a function in a
+<DFN>function call</DFN>, where you give the name of the function and some text
+(the <DFN>arguments</DFN>) for the function to operate on.  The result of the
+function's processing is substituted into the makefile at the point of the
+call, just as a variable might be substituted.
+<P>
+<A NAME="IDX445"></A>
+<A NAME="IDX446"></A>
+<A NAME="IDX447"></A>
+<A NAME="IDX448"></A>
+<H2><A NAME="SEC72" HREF="make_toc.html#SEC72">Function Call Syntax</A></H2>
+<P>
+A function call resembles a variable reference.  It looks like this:
+<P>
+<PRE>
+$(<VAR>function</VAR> <VAR>arguments</VAR>)
+</PRE>
+<P>
+or like this:
+<P>
+<PRE>
+${<VAR>function</VAR> <VAR>arguments</VAR>}
+</PRE>
+<P>
+Here <VAR>function</VAR> is a function name; one of a short list of names that
+are part of <CODE>make</CODE>.  There is no provision for defining new functions.
+<P>
+The <VAR>arguments</VAR> are the arguments of the function.  They are
+separated from the function name by one or more spaces or tabs, and if
+there is more than one argument, then they are separated by commas.
+Such whitespace and commas are not part of an argument's value.  The
+delimiters which you use to surround the function call, whether
+parentheses or braces, can appear in an argument only in matching pairs;
+the other kind of delimiters may appear singly.  If the arguments
+themselves contain other function calls or variable references, it is
+wisest to use the same kind of delimiters for all the references; write
+<SAMP>`$(subst a,b,$(x))'</SAMP>, not <SAMP>`$(subst a,b,${x})'</SAMP>.  This
+is because it is clearer, and because only one type of delimiter is
+matched to find the end of the reference.
+<P>
+The text written for each argument is processed by substitution of
+variables and function calls to produce the argument value, which
+is the text on which the function acts.  The substitution is done in the
+order in which the arguments appear.
+<P>
+Commas and unmatched parentheses or braces cannot appear in the text of an
+argument as written; leading spaces cannot appear in the text of the first
+argument as written.  These characters can be put into the argument value
+by variable substitution.  First define variables <CODE>comma</CODE> and
+<CODE>space</CODE> whose values are isolated comma and space characters, then
+substitute these variables where such characters are wanted, like this:
+<P>
+<PRE>
+comma:= ,
+empty:=
+space:= $(empty) $(empty)
+foo:= a b c
+bar:= $(subst $(space),$(comma),$(foo))
+# bar is now `a,b,c'.
+</PRE>
+<P>
+Here the <CODE>subst</CODE> function replaces each space with a comma, through
+the value of <CODE>foo</CODE>, and substitutes the result.
+<P>
+<A NAME="IDX449"></A>
+<H2><A NAME="SEC73" HREF="make_toc.html#SEC73">Functions for String Substitution and Analysis</A></H2>
+<P>
+Here are some functions that operate on strings:
+<P>
+<DL COMPACT>
+<A NAME="IDX450"></A>
+<DT><CODE>$(subst <VAR>from</VAR>,<VAR>to</VAR>,<VAR>text</VAR>)</CODE>
+<DD>Performs a textual replacement on the text <VAR>text</VAR>: each occurrence
+of <VAR>from</VAR> is replaced by <VAR>to</VAR>.  The result is substituted for
+the function call.  For example,
+<P>
+<PRE>
+$(subst ee,EE,feet on the street)
+</PRE>
+<P>
+substitutes the string <SAMP>`fEEt on the strEEt'</SAMP>.
+<P>
+<A NAME="IDX451"></A>
+<DT><CODE>$(patsubst <VAR>pattern</VAR>,<VAR>replacement</VAR>,<VAR>text</VAR>)</CODE>
+<DD>Finds whitespace-separated words in <VAR>text</VAR> that match
+<VAR>pattern</VAR> and replaces them with <VAR>replacement</VAR>.  Here
+<VAR>pattern</VAR> may contain a <SAMP>`%'</SAMP> which acts as a wildcard,
+matching any number of any characters within a word.  If
+<VAR>replacement</VAR> also contains a <SAMP>`%'</SAMP>, the <SAMP>`%'</SAMP> is replaced
+by the text that matched the <SAMP>`%'</SAMP> in <VAR>pattern</VAR>.<A NAME="IDX452"></A>
+<A NAME="IDX453"></A>
+<A NAME="IDX454"></A>
+<A NAME="IDX455"></A>
+<A NAME="IDX456"></A>
+<P>
+<SAMP>`%'</SAMP> characters in <CODE>patsubst</CODE> function invocations can be
+quoted with preceding backslashes (<SAMP>`\'</SAMP>).  Backslashes that would
+otherwise quote <SAMP>`%'</SAMP> characters can be quoted with more backslashes.
+Backslashes that quote <SAMP>`%'</SAMP> characters or other backslashes are
+removed from the pattern before it is compared file names or has a stem
+substituted into it.  Backslashes that are not in danger of quoting
+<SAMP>`%'</SAMP> characters go unmolested.  For example, the pattern
+<TT>`the\%weird\\%pattern\\'</TT> has <SAMP>`the%weird\'</SAMP> preceding the
+operative <SAMP>`%'</SAMP> character, and <SAMP>`pattern\\'</SAMP> following it.  The
+final two backslashes are left alone because they cannot affect any
+<SAMP>`%'</SAMP> character.<P>
+Whitespace between words is folded into single space characters;
+leading and trailing whitespace is discarded.
+<P>
+For example,
+<P>
+<PRE>
+$(patsubst %.c,%.o,x.c.c bar.c)
+</PRE>
+<P>
+produces the value <SAMP>`x.c.o bar.o'</SAMP>.
+<P>
+Substitution references (see section <A HREF="make_6.html#SEC59">Substitution References</A>) are a simpler way to get the effect of the <CODE>patsubst</CODE>
+function:
+<P>
+<PRE>
+$(<VAR>var</VAR>:<VAR>pattern</VAR>=<VAR>replacement</VAR>)  
+</PRE>
+<P>
+is equivalent to 
+<P>
+<PRE>
+$(patsubst <VAR>pattern</VAR>,<VAR>replacement</VAR>,$(<VAR>var</VAR>))
+</PRE>
+<P>
+The second shorthand simplifies one of the most common uses of
+<CODE>patsubst</CODE>: replacing the suffix at the end of file names.
+<P>
+<PRE>
+$(<VAR>var</VAR>:<VAR>suffix</VAR>=<VAR>replacement</VAR>) 
+</PRE>
+<P>
+is equivalent to 
+<P>
+<PRE>
+$(patsubst %<VAR>suffix</VAR>,%<VAR>replacement</VAR>,$(<VAR>var</VAR>))
+</PRE>
+<P>
+For example, you might have a list of object files:
+<P>
+<PRE>
+objects = foo.o bar.o baz.o
+</PRE>
+<P>
+To get the list of corresponding source files, you could simply write:
+<P>
+<PRE>
+$(objects:.o=.c)
+</PRE>
+<P>
+instead of using the general form:
+<P>
+<PRE>
+$(patsubst %.o,%.c,$(objects))
+</PRE>
+<P>
+<A NAME="IDX457"></A>
+<A NAME="IDX458"></A>
+<A NAME="IDX459"></A>
+<A NAME="IDX460"></A>
+<DT><CODE>$(strip <VAR>string</VAR>)</CODE>
+<DD>Removes leading and trailing whitespace from <VAR>string</VAR> and replaces
+each internal sequence of one or more whitespace characters with a
+single space.  Thus, <SAMP>`$(strip a b  c )'</SAMP> results in <SAMP>`a b c'</SAMP>.
+<P>
+The function <CODE>strip</CODE> can be very useful when used in conjunction
+with conditionals.  When comparing something with the empty string
+<SAMP>`'</SAMP> using <CODE>ifeq</CODE> or <CODE>ifneq</CODE>, you usually want a string of
+just whitespace to match the empty string (see section <A HREF="make_7.html#SEC67">Conditional Parts of Makefiles</A>).
+<P>
+Thus, the following may fail to have the desired results:
+<P>
+<PRE>
+.PHONY: all
+ifneq   "$(needs_made)" ""
+all: $(needs_made)
+else
+all:;@echo 'Nothing to make!'
+endif
+</PRE>
+<P>
+Replacing the variable reference <SAMP>`$(needs_made)'</SAMP> with the
+function call <SAMP>`$(strip $(needs_made))'</SAMP> in the <CODE>ifneq</CODE>
+directive would make it more robust.<P>
+<A NAME="IDX461"></A>
+<A NAME="IDX462"></A>
+<A NAME="IDX463"></A>
+<A NAME="IDX464"></A>
+<DT><CODE>$(findstring <VAR>find</VAR>,<VAR>in</VAR>)</CODE>
+<DD>Searches <VAR>in</VAR> for an occurrence of <VAR>find</VAR>.  If it occurs, the
+value is <VAR>find</VAR>; otherwise, the value is empty.  You can use this
+function in a conditional to test for the presence of a specific
+substring in a given string.  Thus, the two examples,
+<P>
+<PRE>
+$(findstring a,a b c)
+$(findstring a,b c)
+</PRE>
+<P>
+produce the values <SAMP>`a'</SAMP> and <SAMP>`'</SAMP> (the empty string),
+respectively.  See section <A HREF="make_7.html#SEC70">Conditionals that Test Flags</A>, for a practical application of
+<CODE>findstring</CODE>.<A NAME="IDX465"></A>
+<A NAME="IDX466"></A>
+<A NAME="IDX467"></A>
+<P>
+<DT><CODE>$(filter <VAR>pattern</VAR>...,<VAR>text</VAR>)</CODE>
+<DD>Removes all whitespace-separated words in <VAR>text</VAR> that do
+<EM>not</EM> match any of the <VAR>pattern</VAR> words, returning only
+matching words.  The patterns are written using <SAMP>`%'</SAMP>, just like
+the patterns used in the <CODE>patsubst</CODE> function above.<P>
+The <CODE>filter</CODE> function can be used to separate out different types
+of strings (such as file names) in a variable.  For example:
+<P>
+<PRE>
+sources := foo.c bar.c baz.s ugh.h
+foo: $(sources)
+        cc $(filter %.c %.s,$(sources)) -o foo
+</PRE>
+<P>
+says that <TT>`foo'</TT> depends of <TT>`foo.c'</TT>, <TT>`bar.c'</TT>,
+<TT>`baz.s'</TT> and <TT>`ugh.h'</TT> but only <TT>`foo.c'</TT>, <TT>`bar.c'</TT> and
+<TT>`baz.s'</TT> should be specified in the command to the
+compiler.<P>
+<A NAME="IDX468"></A>
+<A NAME="IDX469"></A>
+<A NAME="IDX470"></A>
+<DT><CODE>$(filter-out <VAR>pattern</VAR>...,<VAR>text</VAR>)</CODE>
+<DD>Removes all whitespace-separated words in <VAR>text</VAR> that <EM>do</EM>
+match the <VAR>pattern</VAR> words, returning only the words that <EM>do
+not</EM> match.  This is the exact opposite of the <CODE>filter</CODE>
+function.<P>
+For example, given:
+<P>
+<PRE>
+objects=main1.o foo.o main2.o bar.o
+mains=main1.o main2.o
+</PRE>
+<P>
+the following generates a list which contains all the object files not
+in <SAMP>`mains'</SAMP>:
+<P>
+<PRE>
+$(filter-out $(mains),$(objects))
+</PRE>
+<A NAME="IDX471"></A>
+<A NAME="IDX472"></A>
+<P>
+<DT><CODE>$(sort <VAR>list</VAR>)</CODE>
+<DD>Sorts the words of <VAR>list</VAR> in lexical order, removing duplicate
+words.  The output is a list of words separated by single spaces.
+Thus,
+<P>
+<PRE>
+$(sort foo bar lose)
+</PRE>
+<P>
+returns the value <SAMP>`bar foo lose'</SAMP>.
+<A NAME="IDX473"></A>
+<A NAME="IDX474"></A>
+<A NAME="IDX475"></A>
+<P>
+Incidentally, since <CODE>sort</CODE> removes duplicate words, you can use
+it for this purpose even if you don't care about the sort order.
+</DL>
+<P>
+Here is a realistic example of the use of <CODE>subst</CODE> and
+<CODE>patsubst</CODE>.  Suppose that a makefile uses the <CODE>VPATH</CODE> variable
+to specify a list of directories that <CODE>make</CODE> should search for
+dependency files 
+(see section <A HREF="make_4.html#SEC26"><CODE>VPATH</CODE>: Search Path for All Dependencies</A>).  
+This example shows how to
+tell the C compiler to search for header files in the same list of
+directories.<P>
+The value of <CODE>VPATH</CODE> is a list of directories separated by colons,
+such as <SAMP>`src:../headers'</SAMP>.  First, the <CODE>subst</CODE> function is used to
+change the colons to spaces:
+<P>
+<PRE>
+$(subst :, ,$(VPATH))
+</PRE>
+<P>
+This produces <SAMP>`src ../headers'</SAMP>.  Then <CODE>patsubst</CODE> is used to turn
+each directory name into a <SAMP>`-I'</SAMP> flag.  These can be added to the
+value of the variable <CODE>CFLAGS</CODE>, which is passed automatically to the C
+compiler, like this:
+<P>
+<PRE>
+override CFLAGS += $(patsubst %,-I%,$(subst :, ,$(VPATH)))
+</PRE>
+<P>
+The effect is to append the text <SAMP>`-Isrc -I../headers'</SAMP> to the
+previously given value of <CODE>CFLAGS</CODE>.  The <CODE>override</CODE> directive is
+used so that the new value is assigned even if the previous value of
+<CODE>CFLAGS</CODE> was specified with a command argument (see section <A HREF="make_6.html#SEC64">The <CODE>override</CODE> Directive</A> Directive}).
+<P>
+<A NAME="IDX476"></A>
+<A NAME="IDX477"></A>
+<H2><A NAME="SEC74" HREF="make_toc.html#SEC74">Functions for File Names</A></H2>
+<P>
+Several of the built-in expansion functions relate specifically to
+taking apart file names or lists of file names.
+<P>
+Each of the following functions performs a specific transformation on a
+file name.  The argument of the function is regarded as a series of file
+names, separated by whitespace.  (Leading and trailing whitespace is
+ignored.)  Each file name in the series is transformed in the same way and
+the results are concatenated with single spaces between them.
+<P>
+<DL COMPACT>
+<A NAME="IDX478"></A>
+<A NAME="IDX479"></A>
+<A NAME="IDX480"></A>
+<DT><CODE>$(dir <VAR>names</VAR>...)</CODE>
+<DD>Extracts the directory-part of each file name in <VAR>names</VAR>.  The
+directory-part of the file name is everything up through (and
+including) the last slash in it.  If the file name contains no slash,
+the directory part is the string <SAMP>`./'</SAMP>.  For example,
+<P>
+<PRE>
+$(dir src/foo.c hacks)
+</PRE>
+<P>
+produces the result <SAMP>`src/ ./'</SAMP>.
+<P>
+<A NAME="IDX481"></A>
+<A NAME="IDX482"></A>
+<A NAME="IDX483"></A>
+<DT><CODE>$(notdir <VAR>names</VAR>...)</CODE>
+<DD>Extracts all but the directory-part of each file name in <VAR>names</VAR>.
+If the file name contains no slash, it is left unchanged.  Otherwise,
+everything through the last slash is removed from it.
+<P>
+A file name that ends with a slash becomes an empty string.  This is
+unfortunate, because it means that the result does not always have the
+same number of whitespace-separated file names as the argument had;
+but we do not see any other valid alternative.
+<P>
+For example,
+<P>
+<PRE>
+$(notdir src/foo.c hacks)
+</PRE>
+<P>
+produces the result <SAMP>`foo.c hacks'</SAMP>.
+<P>
+<A NAME="IDX484"></A>
+<A NAME="IDX485"></A>
+<A NAME="IDX486"></A>
+<DT><CODE>$(suffix <VAR>names</VAR>...)</CODE>
+<DD>Extracts the suffix of each file name in <VAR>names</VAR>.  If the file name
+contains a period, the suffix is everything starting with the last
+period.  Otherwise, the suffix is the empty string.  This frequently
+means that the result will be empty when <VAR>names</VAR> is not, and if
+<VAR>names</VAR> contains multiple file names, the result may contain fewer
+file names.
+<P>
+For example,
+<P>
+<PRE>
+$(suffix src/foo.c hacks)
+</PRE>
+<P>
+produces the result <SAMP>`.c'</SAMP>.
+<P>
+<A NAME="IDX487"></A>
+<A NAME="IDX488"></A>
+<A NAME="IDX489"></A>
+<DT><CODE>$(basename <VAR>names</VAR>...)</CODE>
+<DD>Extracts all but the suffix of each file name in <VAR>names</VAR>.  If the
+file name contains a period, the basename is everything starting up to
+(and not including) the last period.  Otherwise, the basename is the
+entire file name.  For example,
+<P>
+<PRE>
+$(basename src/foo.c hacks)
+</PRE>
+<P>
+produces the result <SAMP>`src/foo hacks'</SAMP>.
+<P>
+<A NAME="IDX490"></A>
+<A NAME="IDX491"></A>
+<A NAME="IDX492"></A>
+<DT><CODE>$(addsuffix <VAR>suffix</VAR>,<VAR>names</VAR>...)</CODE>
+<DD>The argument <VAR>names</VAR> is regarded as a series of names, separated
+by whitespace; <VAR>suffix</VAR> is used as a unit.  The value of
+<VAR>suffix</VAR> is appended to the end of each individual name and the
+resulting larger names are concatenated with single spaces between
+them.  For example,
+<P>
+<PRE>
+$(addsuffix .c,foo bar)
+</PRE>
+<P>
+produces the result <SAMP>`foo.c bar.c'</SAMP>.
+<P>
+<A NAME="IDX493"></A>
+<A NAME="IDX494"></A>
+<A NAME="IDX495"></A>
+<DT><CODE>$(addprefix <VAR>prefix</VAR>,<VAR>names</VAR>...)</CODE>
+<DD>The argument <VAR>names</VAR> is regarded as a series of names, separated
+by whitespace; <VAR>prefix</VAR> is used as a unit.  The value of
+<VAR>prefix</VAR> is prepended to the front of each individual name and the
+resulting larger names are concatenated with single spaces between
+them.  For example,
+<P>
+<PRE>
+$(addprefix src/,foo bar)
+</PRE>
+<P>
+produces the result <SAMP>`src/foo src/bar'</SAMP>.
+<P>
+<A NAME="IDX496"></A>
+<A NAME="IDX497"></A>
+<A NAME="IDX498"></A>
+<DT><CODE>$(join <VAR>list1</VAR>,<VAR>list2</VAR>)</CODE>
+<DD>Concatenates the two arguments word by word: the two first words (one
+from each argument) concatenated form the first word of the result, the
+two second words form the second word of the result, and so on.  So the
+<VAR>n</VAR>th word of the result comes from the <VAR>n</VAR>th word of each
+argument.  If one argument has more words that the other, the extra
+words are copied unchanged into the result.
+<P>
+For example, <SAMP>`$(join a b,.c .o)'</SAMP> produces <SAMP>`a.c b.o'</SAMP>.
+<P>
+Whitespace between the words in the lists is not preserved; it is
+replaced with a single space.
+<P>
+This function can merge the results of the <CODE>dir</CODE> and
+<CODE>notdir</CODE> functions, to produce the original list of files which
+was given to those two functions.<P>
+<A NAME="IDX499"></A>
+<A NAME="IDX500"></A>
+<A NAME="IDX501"></A>
+<DT><CODE>$(word <VAR>n</VAR>,<VAR>text</VAR>)</CODE>
+<DD>Returns the <VAR>n</VAR>th word of <VAR>text</VAR>.  The legitimate values of
+<VAR>n</VAR> start from 1.  If <VAR>n</VAR> is bigger than the number of words
+in <VAR>text</VAR>, the value is empty.  For example,
+<P>
+<PRE>
+$(word 2, foo bar baz)
+</PRE>
+<P>
+returns <SAMP>`bar'</SAMP>.
+<P>
+<A NAME="IDX502"></A>
+<A NAME="IDX503"></A>
+<DT><CODE>$(words <VAR>text</VAR>)</CODE>
+<DD>Returns the number of words in <VAR>text</VAR>.  
+Thus, the last word of <VAR>text</VAR> is
+<CODE>$(word $(words <VAR>text</VAR>),<VAR>text</VAR>)</CODE>.<P>
+<A NAME="IDX504"></A>
+<A NAME="IDX505"></A>
+<DT><CODE>$(firstword <VAR>names</VAR>...)</CODE>
+<DD>The argument <VAR>names</VAR> is regarded as a series of names, separated
+by whitespace.  The value is the first name in the series.  The rest
+of the names are ignored.
+<P>
+For example,
+<P>
+<PRE>
+$(firstword foo bar)
+</PRE>
+<P>
+produces the result <SAMP>`foo'</SAMP>.  Although <CODE>$(firstword
+<VAR>text</VAR>)</CODE> is the same as <CODE>$(word 1,<VAR>text</VAR>)</CODE>, the
+<CODE>firstword</CODE> function is retained for its simplicity.<P>
+<A NAME="IDX506"></A>
+<A NAME="IDX507"></A>
+<DT><CODE>$(wildcard <VAR>pattern</VAR>)</CODE>
+<DD>The argument <VAR>pattern</VAR> is a file name pattern, typically containing
+wildcard characters (as in shell file name patterns).  The result of
+<CODE>wildcard</CODE> is a space-separated list of the names of existing files
+that match the pattern.
+See section <A HREF="make_4.html#SEC21">Using Wildcard Characters in File Names</A>.
+</DL>
+<P>
+<A NAME="IDX508"></A>
+<A NAME="IDX509"></A>
+<H2><A NAME="SEC75" HREF="make_toc.html#SEC75">The <CODE>foreach</CODE> Function</A></H2>
+<P>
+The <CODE>foreach</CODE> function is very different from other functions.  It
+causes one piece of text to be used repeatedly, each time with a different
+substitution performed on it.  It resembles the <CODE>for</CODE> command in the
+shell <CODE>sh</CODE> and the <CODE>foreach</CODE> command in the C-shell <CODE>csh</CODE>.
+<P>
+The syntax of the <CODE>foreach</CODE> function is:
+<P>
+<PRE>
+$(foreach <VAR>var</VAR>,<VAR>list</VAR>,<VAR>text</VAR>)
+</PRE>
+<P>
+The first two arguments, <VAR>var</VAR> and <VAR>list</VAR>, are expanded before
+anything else is done; note that the last argument, <VAR>text</VAR>, is
+<STRONG>not</STRONG> expanded at the same time.  Then for each word of the expanded
+value of <VAR>list</VAR>, the variable named by the expanded value of <VAR>var</VAR>
+is set to that word, and <VAR>text</VAR> is expanded.  Presumably <VAR>text</VAR>
+contains references to that variable, so its expansion will be different
+each time.
+<P>
+The result is that <VAR>text</VAR> is expanded as many times as there are
+whitespace-separated words in <VAR>list</VAR>.  The multiple expansions of
+<VAR>text</VAR> are concatenated, with spaces between them, to make the result
+of <CODE>foreach</CODE>.
+<P>
+This simple example sets the variable <SAMP>`files'</SAMP> to the list of all files
+in the directories in the list <SAMP>`dirs'</SAMP>:
+<P>
+<PRE>
+dirs := a b c d
+files := $(foreach dir,$(dirs),$(wildcard $(dir)/*))
+</PRE>
+<P>
+Here <VAR>text</VAR> is <SAMP>`$(wildcard $(dir)/*)'</SAMP>.  The first repetition
+finds the value <SAMP>`a'</SAMP> for <CODE>dir</CODE>, so it produces the same result
+as <SAMP>`$(wildcard a/*)'</SAMP>; the second repetition produces the result
+of <SAMP>`$(wildcard b/*)'</SAMP>; and the third, that of <SAMP>`$(wildcard c/*)'</SAMP>.
+<P>
+This example has the same result (except for setting <SAMP>`dirs'</SAMP>) as
+the following example:
+<P>
+<PRE>
+files := $(wildcard a/* b/* c/* d/*)
+</PRE>
+<P>
+When <VAR>text</VAR> is complicated, you can improve readability by giving it
+a name, with an additional variable:
+<P>
+<PRE>
+find_files = $(wildcard $(dir)/*)
+dirs := a b c d
+files := $(foreach dir,$(dirs),$(find_files))
+</PRE>
+<P>
+Here we use the variable <CODE>find_files</CODE> this way.  We use plain <SAMP>`='</SAMP>
+to define a recursively-expanding variable, so that its value contains an
+actual function call to be reexpanded under the control of <CODE>foreach</CODE>;
+a simply-expanded variable would not do, since <CODE>wildcard</CODE> would be
+called only once at the time of defining <CODE>find_files</CODE>.
+<P>
+The <CODE>foreach</CODE> function has no permanent effect on the variable
+<VAR>var</VAR>; its value and flavor after the <CODE>foreach</CODE> function call are
+the same as they were beforehand.  The other values which are taken from
+<VAR>list</VAR> are in effect only temporarily, during the execution of
+<CODE>foreach</CODE>.  The variable <VAR>var</VAR> is a simply-expanded variable
+during the execution of <CODE>foreach</CODE>.  If <VAR>var</VAR> was undefined
+before the <CODE>foreach</CODE> function call, it is undefined after the call.
+See section <A HREF="make_6.html#SEC57">The Two Flavors of Variables</A>.<P>
+You must take care when using complex variable expressions that result in
+variable names because many strange things are valid variable names, but
+are probably not what you intended.  For example,
+<P>
+<PRE>
+files := $(foreach Es escrito en espanol!,b c ch,$(find_files))
+</PRE>
+<P>
+might be useful if the value of <CODE>find_files</CODE> references the variable
+whose name is <SAMP>`Es escrito en espanol!'</SAMP> (es un nombre bastante largo,
+no?), but it is more likely to be a mistake.
+<P>
+<A NAME="IDX510"></A>
+<A NAME="IDX511"></A>
+<A NAME="IDX512"></A>
+<H2><A NAME="SEC76" HREF="make_toc.html#SEC76">The <CODE>origin</CODE> Function</A></H2>
+<P>
+The <CODE>origin</CODE> function is unlike most other functions in that it does
+not operate on the values of variables; it tells you something <EM>about</EM>
+a variable.  Specifically, it tells you where it came from.
+<P>
+The syntax of the <CODE>origin</CODE> function is:
+<P>
+<PRE>
+$(origin <VAR>variable</VAR>)
+</PRE>
+<P>
+Note that <VAR>variable</VAR> is the <EM>name</EM> of a variable to inquire about;
+not a <EM>reference</EM> to that variable.  Therefore you would not normally
+use a <SAMP>`$'</SAMP> or parentheses when writing it.  (You can, however, use a
+variable reference in the name if you want the name not to be a constant.)
+<P>
+The result of this function is a string telling you how the variable
+<VAR>variable</VAR> was defined:
+<P>
+<DL COMPACT>
+<DT><SAMP>`undefined'</SAMP>
+<DD><P>
+if <VAR>variable</VAR> was never defined.
+<P>
+<DT><SAMP>`default'</SAMP>
+<DD><P>
+if <VAR>variable</VAR> has a default definition, as is usual with <CODE>CC</CODE>
+and so on.  See section <A HREF="make_10.html#SEC89">Variables Used by Implicit Rules</A>.
+Note that if you have redefined a default variable, the <CODE>origin</CODE>
+function will return the origin of the later definition.
+<P>
+<DT><SAMP>`environment'</SAMP>
+<DD><P>
+if <VAR>variable</VAR> was defined as an environment variable and the
+<SAMP>`-e'</SAMP> option is <EM>not</EM> turned on (see section <A HREF="make_9.html#SEC85">Summary of Options</A>).
+<P>
+<DT><SAMP>`environment override'</SAMP>
+<DD><P>
+if <VAR>variable</VAR> was defined as an environment variable and the
+<SAMP>`-e'</SAMP> option <EM>is</EM> turned on (see section <A HREF="make_9.html#SEC85">Summary of Options</A>).<P>
+<DT><SAMP>`file'</SAMP>
+<DD><P>
+if <VAR>variable</VAR> was defined in a makefile.
+<P>
+<DT><SAMP>`command line'</SAMP>
+<DD><P>
+if <VAR>variable</VAR> was defined on the command line.
+<P>
+<DT><SAMP>`override'</SAMP>
+<DD><P>
+if <VAR>variable</VAR> was defined with an <CODE>override</CODE> directive in a
+makefile (see section <A HREF="make_6.html#SEC64">The <CODE>override</CODE> Directive</A>).
+<P>
+<DT><SAMP>`automatic'</SAMP>
+<DD><P>
+if <VAR>variable</VAR> is an automatic variable defined for the
+execution of the commands for each rule
+(see section <A HREF="make_10.html#SEC94">Automatic Variables</A>).
+</DL>
+<P>
+This information is primarily useful (other than for your curiosity) to
+determine if you want to believe the value of a variable.  For example,
+suppose you have a makefile <TT>`foo'</TT> that includes another makefile
+<TT>`bar'</TT>.  You want a variable <CODE>bletch</CODE> to be defined in <TT>`bar'</TT>
+if you run the command <SAMP>`make -f bar'</SAMP>, even if the environment contains
+a definition of <CODE>bletch</CODE>.  However, if <TT>`foo'</TT> defined
+<CODE>bletch</CODE> before including <TT>`bar'</TT>, you do not want to override that
+definition.  This could be done by using an <CODE>override</CODE> directive in
+<TT>`foo'</TT>, giving that definition precedence over the later definition in
+<TT>`bar'</TT>; unfortunately, the <CODE>override</CODE> directive would also
+override any command line definitions.  So, <TT>`bar'</TT> could
+include:<P>
+<PRE>
+ifdef bletch
+ifeq "$(origin bletch)" "environment"
+bletch = barf, gag, etc.
+endif
+endif
+</PRE>
+<P>
+If <CODE>bletch</CODE> has been defined from the environment, this will redefine
+it.
+<P>
+If you want to override a previous definition of <CODE>bletch</CODE> if it came
+from the environment, even under <SAMP>`-e'</SAMP>, you could instead write:
+<P>
+<PRE>
+ifneq "$(findstring environment,$(origin bletch))" ""
+bletch = barf, gag, etc.
+endif
+</PRE>
+<P>
+Here the redefinition takes place if <SAMP>`$(origin bletch)'</SAMP> returns either
+<SAMP>`environment'</SAMP> or <SAMP>`environment override'</SAMP>.
+See section <A HREF="make_8.html#SEC73">Functions for String Substitution and Analysis</A>.
+<P>
+<A NAME="IDX513"></A>
+<A NAME="IDX514"></A>
+<A NAME="IDX515"></A>
+<A NAME="IDX516"></A>
+<H2><A NAME="SEC77" HREF="make_toc.html#SEC77">The <CODE>shell</CODE> Function</A></H2>
+<P>
+The <CODE>shell</CODE> function is unlike any other function except the
+<CODE>wildcard</CODE> function 
+(see section <A HREF="make_4.html#SEC24">The Function <CODE>wildcard</CODE></A>) in that it
+communicates with the world outside of <CODE>make</CODE>.
+<P>
+The <CODE>shell</CODE> function performs the same function that backquotes
+(<SAMP>``'</SAMP>) perform in most shells: it does <DFN>command expansion</DFN>.  This
+means that it takes an argument that is a shell command and returns the
+output of the command.  The only processing <CODE>make</CODE> does on the result,
+before substituting it into the surrounding text, is to convert newlines to
+spaces.<P>
+The commands run by calls to the <CODE>shell</CODE> function are run when the
+function calls are expanded.  In most cases, this is when the makefile is
+read in.  The exception is that function calls in the commands of the rules
+are expanded when the commands are run, and this applies to <CODE>shell</CODE>
+function calls like all others.
+<P>
+Here are some examples of the use of the <CODE>shell</CODE> function:
+<P>
+<PRE>
+contents := $(shell cat foo)
+</PRE>
+<P>
+sets <CODE>contents</CODE> to the contents of the file <TT>`foo'</TT>, with a space
+(rather than a newline) separating each line.
+<P>
+<PRE>
+files := $(shell echo *.c)
+</PRE>
+<P>
+sets <CODE>files</CODE> to the expansion of <SAMP>`*.c'</SAMP>.  Unless <CODE>make</CODE> is
+using a very strange shell, this has the same result as
+<SAMP>`$(wildcard *.c)'</SAMP>.<P>
+<P>Go to the <A HREF="make_7.html">previous</A>, <A HREF="make_9.html">next</A> section.<P>

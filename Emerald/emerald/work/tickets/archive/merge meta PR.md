@@ -5,4 +5,4 @@
 - [x] confirm
 
 ## notes 🗒
-- will also merge [[Yoan]]'s PR - [change listing endpoints](https://github.com/MeilleursAgents/MeilleursAgents/pull/10790)
+- will also merge [[Yoan Haouzi]]'s PR - [change listing endpoints](https://github.com/MeilleursAgents/MeilleursAgents/pull/10790)

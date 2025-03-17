@@ -83,7 +83,7 @@ ___
 	- [ ] [[php fpm]] configuration
 
 ### fix **ignored** files
-used [[How to remove files in the .gitignore but in the repository]]
+used [[How to remove ignored files in the .gitignore but in the repository]]
 
 ### **PHP configuration**
 

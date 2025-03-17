@@ -1,6 +1,6 @@
 #note/study/typescript
 
-made_during:: [[Team Create Modal Component]]
+made_during:: [[Team Create-Edit Modal Component]]
 ___
 ### importing types
 

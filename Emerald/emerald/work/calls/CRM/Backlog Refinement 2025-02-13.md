@@ -22,7 +22,7 @@ points: 3
 points: 3
 
 ### Create a **Team** `Modal`
-ticket: [[Team Create Modal Component]]
+ticket: [[Team Create-Edit Modal Component]]
 points: 5
 
 The user can access **creation** of teams from TEAMS tab of User management.

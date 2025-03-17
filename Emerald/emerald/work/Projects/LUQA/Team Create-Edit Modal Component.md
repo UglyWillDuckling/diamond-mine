@@ -2,16 +2,24 @@
 status: In Progress
 ---
 #ticket 
-https://avivgroup.atlassian.net/browse/LUNA-368
 
-- [/] #task [[Team Create Modal Component]] 🔼 🛫 2025-03-05 ⏳ 2025-03-12 📅 2025-03-09 🆔 hx4byP
+> https://avivgroup.atlassian.net/browse/LUNA-368
+
+- [/] #task [[Team Create-Edit Modal Component]] 🔼 🛫 2025-03-05 ⏳ 2025-03-12 📅 2025-03-09 🆔 hx4byP
 	- [x] make draft PR
 	- [x] make requested changes
-	- [x] add **tests**
-	- [/] expand on tests
-	- [ ] add translations
+	- [x] add [[#tests]]
+	- [/] add **update** team logic
+	- [/] add translations
 
+## **current**
+- need to add update team logic [[#rewrite to support `editing` teams]]
 ___
+## resources
+- [[route list for LUQA]]
+- [figma](https://www.figma.com/design/adnxuwYgX04UHGq6KtxmK4/Seller-Lead-CRM?node-id=242-72537&p=f&t=y9Z4rGIQhwjepIRC-0 )
+- [[CSS Flexbox Layout Guide  CSS-Tricks]]
+
 ## description
 
 As admin, 
@@ -28,29 +36,15 @@ Then he can:
 - select team members - optional
 - select departments / postal codes for the teams - optional
 
-**Figma** design: 
-[figma link](https://www.figma.com/design/adnxuwYgX04UHGq6KtxmK4/Seller-Lead-CRM?node-id=242-72537&p=f&t=y9Z4rGIQhwjepIRC-0 )
 
 [[485ddd1f4dd3778a21748ca3db44dce3_MD5.jpeg|ss.png]]
 ![[485ddd1f4dd3778a21748ca3db44dce3_MD5.jpeg|1000]]
 
-### checklist ☑
-
-- [x] add cancel button
-- [x] look at the design
-- [x] update **text** area to match design
-- [x] update button width
-- [x] Update button text
-- [x] submit `draft` PR
-- [x] check the logic again
-
-- [>] add translation
-
 ## tests
+> [[how to testing a specific test on LUQA#steps]]
 > [[jest Testing Framework]]
 
 ### **test commands**
-
 ```json
 "test": "jest --passWithNoTests",
 "test:update": "pnpm test -- --updateSnapshot",
@@ -58,15 +52,9 @@ Then he can:
 "test:watch": "pnpm test -- --watch",
 ```
 
-### testing a specific test
+## rewrite to support `editing` teams
 
-1. run `test:watch`
-2. click `p` to filter by `filename`
-3. enter `filename` of the test
+- [x] add create button
+- [/] add edit button: edit existing team
 
-### current
-
-tests to add:
-- server error `error message` test
-- form validation error test
-- form `reset` test???
+[[CSS Flexbox Layout Guide  CSS-Tricks]]

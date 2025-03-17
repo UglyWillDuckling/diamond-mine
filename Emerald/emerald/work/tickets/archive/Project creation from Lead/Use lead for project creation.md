@@ -26,7 +26,7 @@
 
 ## next steps
 1. try out the **workflow** on the page some more
-	1. gather info and talk with [[Yoan]]
+	1. gather info and talk with [[Yoan Haouzi]]
 	2. update diagrams to reflect the new **knowledge**
 
 ![[Important#notes 🗒]]

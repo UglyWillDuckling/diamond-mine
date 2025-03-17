@@ -11,15 +11,8 @@
     "+/you have the after command.md": [
       {
         "title": "monthly",
-        "time": "2025-03-14",
+        "time": "2025-03-21",
         "rowNumber": 14
-      }
-    ],
-    "Clippings/How to remove files in the .gitignore but in the repository.md": [
-      {
-        "title": "monthly",
-        "time": "2025-03-17",
-        "rowNumber": 18
       }
     ],
     "+/there is a web_search command as well.md": [
@@ -34,13 +27,6 @@
         "title": "second month",
         "time": "2025-03-24",
         "rowNumber": 15
-      }
-    ],
-    "Atlas/Knowledge/How To's/vim - jump through the change list.md": [
-      {
-        "title": "monthly",
-        "time": "2025-03-17",
-        "rowNumber": 6
       }
     ],
     "Clippings/Nuphy AIR 75 connection problem (BT + Dongle) and side leds not working!!.md": [
@@ -76,6 +62,27 @@
         "title": "remind me",
         "time": "2025-04-07",
         "rowNumber": 2
+      }
+    ],
+    "work/notes/LUQA has been pushed back.md": [
+      {
+        "title": "remind me",
+        "time": "2025-03-21",
+        "rowNumber": 2
+      }
+    ],
+    "Atlas/Knowledge/How To's/vim - jump through the change list.md": [
+      {
+        "title": "bi-monthly",
+        "time": "2025-05-06",
+        "rowNumber": 7
+      }
+    ],
+    "Clippings/How to remove suffix in bash.md": [
+      {
+        "title": "remind me",
+        "time": "2025-03-25",
+        "rowNumber": 4
       }
     ]
   },

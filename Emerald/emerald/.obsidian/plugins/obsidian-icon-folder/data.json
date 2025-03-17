@@ -143,7 +143,6 @@
   "work/people and teams/SRE.md": "LiBringToFront",
   "work/people and teams/LUNA/Danijela.md": "🫐",
   "work/people and teams/LUNA/luna team.md": "LiMoonStar",
-  "work/people and teams/NOVA/Yoan.md": "🍟",
   "work/tickets/FEAT/QSL listing feature/archive": "LiArchive",
   "work/tickets/FEAT/QSL listing feature/archive/frontend implementation.md": "🖼",
   "work/tickets/FEAT/QSL listing feature/archive/archive": {
@@ -469,5 +468,6 @@
   "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../1) HTML and Trees.md": "LiTreePine",
   "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../3) DOM Manipulation.md": "LiHand",
   "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../4) Conceptual Aside - Imperative vs. Declarative Programming.md": "LiBlocks",
-  "~/% tmpl/pages/movie.md": "🎥"
+  "~/% tmpl/pages/movie.md": "🎥",
+  "work/people and teams/NOVA/Yoan Haouzi.md": "🍟"
 }

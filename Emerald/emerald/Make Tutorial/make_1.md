@@ -1,0 +1,127 @@
+GNU Make - Overview of \@code{make}
+
+Go to the [next](make_2.md) section.
+
+\@shorttitlepage GNU Make Copyright (C) 1988, \'89, \'90, \'91, \'92,
+\'93, \'94 Free Software Foundation, Inc.
+
+Published by the Free Software Foundation\
+675 Massachusetts Avenue,\
+Cambridge, MA 02139 USA\
+Printed copies are available for \$20 each.\
+ISBN 1-882114-50-7\
+
+Permission is granted to make and distribute verbatim copies of this
+manual provided the copyright notice and this permission notice are
+preserved on all copies.
+
+Permission is granted to copy and distribute modified versions of this
+manual under the conditions for verbatim copying, provided that the
+entire resulting derived work is distributed under the terms of a
+permission notice identical to this one.
+
+Permission is granted to copy and distribute translations of this manual
+into another language, under the above conditions for modified versions,
+except that this permission notice may be stated in a translation
+approved by the Free Software Foundation.
+
+Cover art by Etienne Suvasa.
+
+# [Overview of `make`](make_toc.md#SEC1){#SEC1}
+
+The `make` utility automatically determines which pieces of a large
+program need to be recompiled, and issues commands to recompile them.
+This manual describes GNU `make`, which was implemented by Richard
+Stallman and Roland McGrath. GNU `make` conforms to section 6.2 of IEEE
+Standard 1003.2-1992 (POSIX.2). []{#IDX2} []{#IDX3} []{#IDX1}
+
+Our examples show C programs, since they are most common, but you can
+use `make` with any programming language whose compiler can be run with
+a shell command. Indeed, `make` is not limited to programs. You can use
+it to describe any task where some files must be updated automatically
+from others whenever the others change.
+
+To prepare to use `make`, you must write a file called the
+[makefile]{.dfn} that describes the relationships among files in your
+program and provides commands for updating each file. In a program,
+typically, the executable file is updated from object files, which are
+in turn made by compiling source files.
+
+Once a suitable makefile exists, each time you change some source files,
+this simple shell command:
+
+    make
+
+suffices to perform all necessary recompilations. The `make` program
+uses the makefile data base and the last-modification times of the files
+to decide which of the files need to be updated. For each of those
+files, it issues the commands recorded in the data base.
+
+You can provide command line arguments to `make` to control which files
+should be recompiled, or how. See section [How to Run
+`make`](make_9.md#SEC78)}.
+
+## [How to Read This Manual](make_toc.md#SEC2){#SEC2}
+
+If you are new to `make`, or are looking for a general introduction,
+read the first few sections of each chapter, skipping the later
+sections. In each chapter, the first few sections contain introductory
+or general information and the later sections contain specialized or
+technical information. The exception is section [An Introduction to
+Makefiles](make_2.md#SEC4), all of which is introductory.
+
+If you are familiar with other `make` programs, see section [Features of
+GNU `make`](make_12.md#SEC107)}, which lists the enhancements GNU
+`make` has, and section [Incompatibilities and Missing
+Features](make_13.md#SEC108), which explains the few things GNU `make`
+lacks that others have.
+
+For a quick summary, see section [Summary of
+Options](make_9.md#SEC85), section [Quick
+Reference](make_15.md#SEC115), and section [Special Built-in Target
+Names](make_4.md#SEC34).
+
+[]{#IDX4} []{#IDX5} []{#IDX6}
+
+## [Problems and Bugs](make_toc.md#SEC3){#SEC3}
+
+If you have problems with GNU `make` or think you\'ve found a bug,
+please report it to the developers; we cannot promise to do anything but
+we might well want to fix it.
+
+Before reporting a bug, make sure you\'ve actually found a real bug.
+Carefully reread the documentation and see if it really says you can do
+what you\'re trying to do. If it\'s not clear whether you should be able
+to do something or not, report that too; it\'s a bug in the
+documentation!
+
+Before reporting a bug or trying to fix it yourself, try to isolate it
+to the smallest possible makefile that reproduces the problem. Then send
+us the makefile and the exact results `make` gave you. Also say what you
+expected to occur; this will help us decide whether the problem was
+really in the documentation.
+
+Once you\'ve got a precise problem, please send electronic mail either
+through the Internet or via UUCP:
+
+    Internet address:
+        bug-gnu-utils@prep.ai.mit.edu
+
+    UUCP path:
+        mit-eddie!prep.ai.mit.edu!bug-gnu-utils
+
+Please include the version number of `make` you are using. You can get
+this information with the command `` `make --version' ``{.sample}. Be
+sure also to include the type of machine and operating system you are
+using. If possible, include the contents of the file `` `config.h' ``
+that is generated by the configuration process.
+
+Non-bug suggestions are always welcome as well. If you have questions
+about things that are unclear in the documentation or are just obscure
+features, send a message to the bug reporting address. We cannot
+guarantee you\'ll get help with your problem, but many seasoned `make`
+users read the mailing list and they will probably try to help you out.
+The maintainers sometimes answer such questions as well, when time
+permits.
+
+Go to the [next](make_2.md) section.

@@ -1,58 +1,42 @@
 {
   "main": {
-    "id": "19b95c9e12174138",
+    "id": "896fb77528c50fee",
     "type": "split",
     "children": [
       {
-        "id": "78187488fea38d40",
+        "id": "3ef47e9aab2ba1a4",
         "type": "tabs",
         "children": [
           {
-            "id": "68aafefc31b02184",
+            "id": "6e7c0130e71ce071",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "~/% tmpl/pages/movie.md",
+                "file": "Make Tutorial/make_toc.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "movie"
-            }
-          },
-          {
-            "id": "a4ccbee8a039d750",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowledge/Media/Finding Nemo.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Finding Nemo"
+              "title": "make_toc"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d2c8174330e8fc4f",
+    "id": "abf2911f56f916d8",
     "type": "split",
     "children": [
       {
-        "id": "74722ab8c20300b6",
+        "id": "396d97731e40095f",
         "type": "tabs",
         "children": [
           {
-            "id": "a87c234f19295953",
+            "id": "688b3d615137a273",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -65,24 +49,7 @@
             }
           },
           {
-            "id": "663b43744af4d4d7",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
-            "id": "c102f4929dd5c986",
+            "id": "2fd0f24bea1de5b8",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -90,27 +57,58 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "3917ba887ee80a77",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "dateformat",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "byModifiedTimeReverse"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 330.5110321044922
+    "width": 272.51103591918945
   },
   "right": {
-    "id": "a4cc5cab7d2ca3c4",
+    "id": "0bce692d28de0848",
     "type": "split",
     "children": [
       {
-        "id": "4c72f380de770d19",
+        "id": "65b8ffe11667d608",
         "type": "tabs",
         "children": [
           {
-            "id": "0295735161264f4f",
+            "id": "bae038ccea34ead9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4c75dd1dc94107ca",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,54 +118,60 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for QSL listing feature"
             }
           },
           {
-            "id": "22b591c5c15ac6c0",
+            "id": "a677e5cf3e3fb9c3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md",
+                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-03-01-Sat"
+              "title": "Outgoing links from QSL listing feature"
             }
           },
           {
-            "id": "42537086106242f6",
+            "id": "c61722d2f0288e0a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "work/bugs/security issue - general file access via download/security issue - general file access via download.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of security issue - general file access via download"
             }
           },
           {
-            "id": "1a3ce602e5f9eeb4",
+            "id": "66215144ab6ceed1",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
             }
           },
           {
-            "id": "c13b4cdaf709f61d",
+            "id": "4a7e351c6d81ef9d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "83a3eb7907bec801",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -181,7 +185,7 @@
             }
           },
           {
-            "id": "6ed10242172092f4",
+            "id": "f3d26d9f4b79cf54",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -191,7 +195,7 @@
             }
           },
           {
-            "id": "f2b75b73c9eda42d",
+            "id": "015e0b12424c0bc6",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -199,85 +203,79 @@
               "icon": "ag-style",
               "title": "Juggl style"
             }
-          },
-          {
-            "id": "69e5e1c2e2c26ad5",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 474.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
+      "juggl:Juggl global graph": false,
       "graph:Open graph view": true,
+      "workspaces:Manage workspace layouts": true,
+      "templater-obsidian:Templater": false,
+      "quickadd:QuickAdd": true,
+      "obsidian-book-search-plugin:Create new book note": true,
+      "obsidian42-brat:BRAT": true,
+      "cmdr:Graph view: Open local graph": false,
+      "cmdr:Workspaces: Manage workspace layouts": false,
+      "cmdr:Daily notes: Open today's daily note": false,
+      "audio-recorder:Start/stop recording": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false,
-      "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-kanban:Create new board": false,
-      "callout-manager:Insert Callout": false,
-      "obsidian42-brat:BRAT": false,
-      "quickadd:QuickAdd": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "cmdr:Graph view: Open local graph": false,
-      "cmdr:Workspaces: Manage workspace layouts": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-      "juggl:Juggl global graph": true,
-      "cmdr:Daily notes: Open today's daily note": false,
-      "khoj:Khoj": true
+      "zk-prefixer:Create new unique note": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "a4ccbee8a039d750",
+  "active": "6e7c0130e71ce071",
   "lastOpenFiles": [
-    "~/% tmpl/pages/movie.md",
-    "Knowledge/Media/Finding Nemo.md",
-    "~/% tmpl/pages/call template.md",
-    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-13-Thu.md",
-    "work/Projects/LUQA/Team Create Modal Component.md",
-    "Knowledge/Media",
-    "Knowledge",
+    "Make Tutorial/make_2.md",
+    "Make Tutorial/make_toc.md",
+    "Make Tutorial/make_1.md",
+    "Make Tutorial/make_toc.md.tmp",
+    "Make Tutorial/make_9.md",
+    "Make Tutorial/make_9.md.tmp",
+    "Make Tutorial/make_8.md",
+    "Make Tutorial/make_8.md.tmp",
+    "Make Tutorial/make_7.md",
+    "Make Tutorial/make_7.md.tmp",
+    "Make Tutorial/make_6.md",
+    "Make Tutorial/make_6.md.tmp",
+    "Make Tutorial/make_5.md",
+    "Make Tutorial/make_5.md.tmp",
+    "Make Tutorial/make_4.md",
+    "Make Tutorial/make_4.md.tmp",
+    "Make Tutorial/make_3.md",
+    "Make Tutorial/make_3.md.tmp",
+    "Make Tutorial/make_18.md",
+    "Make Tutorial/make_17.md",
+    "Make Tutorial/make_16.md",
+    "Make Tutorial/make_15.md",
+    "Make Tutorial/make_14.md",
+    "Make Tutorial/make_11.md",
+    "Make Tutorial/make_10.md",
+    "Make Tutorial/make_10.md.tmp",
+    "Make Tutorial/Makefile~",
+    "Make Tutorial/make_13.md",
+    "Make Tutorial/make_12.md",
+    "Make Tutorial/Make Tutorial.md",
+    "Clippings/Why does sed not replace all occurrences.md",
+    "make/source/make_5.md",
+    "make/source/make_1.md",
+    "Clippings/markdownload.md",
+    "make/source/make_toc.md",
     "~/x/485ddd1f4dd3778a21748ca3db44dce3_MD5.jpeg",
-    "Atlas/Knowledge/tools/dev/js/jest Testing Framework.md",
-    "Clippings/Jest CLI Options.md",
-    "Clippings/Beyond .not Exploring Alternative Approaches for Negative Testing in Jest.md",
-    "Clippings/jamietrejest-examples.md",
-    "Atlas/Knowledge/tools/dev/nvim/vim - quickfix list.md",
-    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-12-Wed.md",
-    "work/Projects/LUQA/jest.md",
-    "work/calls/SPRINT/Backlog Refinement 2025-03-12.md",
-    "work/calls/CRM/architecture/Architecture meet 2025-03-12.md",
-    "work/calls/CRM/architecture/calling segment.md",
-    "work/Projects/LUQA/docs/calling campaign.md",
-    "work/calls/CRM/architecture/Untitled 2.md",
-    "work/calls/CRM/architecture/lead rank.md",
-    "work/calls/CRM/architecture/lead score.md",
-    "work/calls/CRM/architecture/Campaing Rules doc.md",
-    "work/Projects/LUQA/docs/cut-off campaign.md",
-    "work/Projects/LUQA/docs/Sale Slot entity.md",
-    "work/calls/CRM/architecture/Modjo.md",
-    "work/calls/CRM/architecture/Architecture meet 2025-03-07.md",
-    "work/calls/CRM/architecture/Architecture meet 2025-02-28.md",
-    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-06-Thu.md",
-    "work/Projects/LUQA/howtos",
-    "work/Projects/LUQA/docs",
-    "Atlas/Knowledge/tools/dev/js/react",
+    "~/x/182391d825620ac10a650844c68c7ff6_MD5.svg",
     "~/x/9f87d200d057293dc4d551426b0933fd_MD5.jpg",
     "tasks canvas.canvas",
     "~/x/Screenshot_20250307_123511.jpg",
@@ -285,7 +283,6 @@
     "~/x/822882a1bf88e2ad6ac4f2749abe2443_MD5.jpg",
     "~/x/e8c8a9311883beab07df67e9006996eb_MD5.jpg",
     "~/x/7c9e34f22aae4e0a1a1b81527716debb_MD5.jpg",
-    "~/x/Screenshot 2025-02-13 at 13.46.16.png",
-    "x"
+    "~/x/Screenshot 2025-02-13 at 13.46.16.png"
   ]
 }

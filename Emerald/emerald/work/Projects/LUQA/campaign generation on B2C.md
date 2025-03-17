@@ -20,14 +20,12 @@ ___
 `file`: b2cleadrankingapi/services/campaign_service.py
 
 ## purpose
-
 - **generate** a [[calling campaign]]
 - **assign** to Sales People
 ## take note
 
 - the generation uses `Slots` which are themselves entities
 	- [[Sale Slot entity]]
-- 
 
 ## how it works
 
@@ -38,5 +36,10 @@ ___
 	- a segment is basically a way to group associated calls
 - ..
 
+### glossary
+
+- [[RDVVQ]]
+
+
 ____
-- [x] #task check [[campaign generation on B2C]] 🆔 LXUtFY 🔼 ⏳ 2026-02-07 📅 2025-02-27 ✅ 2025-03-10
+- [/] #task check [[campaign generation on B2C]] 🆔 LXUtFY 🔼 ⏳ 2026-02-07 📅 2025-02-27 ✅ 2025-03-10

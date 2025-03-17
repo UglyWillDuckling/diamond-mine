@@ -1,0 +1,5 @@
+---
+aliases:
+  - QSL
+---
+AKA **QSL**

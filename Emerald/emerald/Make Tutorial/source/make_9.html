@@ -1,0 +1,644 @@
+<!-- This HTML file has been created by texi2html 1.30
+     from /mit/gnu/src/make-3.72/make.texinfo on 6 November 1994 -->
+
+<TITLE>GNU Make - How to Run @code{make}</TITLE>
+<P>Go to the <A HREF="make_8.html">previous</A>, <A HREF="make_10.html">next</A> section.<P>
+<H1><A NAME="SEC78" HREF="make_toc.html#SEC78">How to Run <CODE>make</CODE></A></H1>
+<P>
+A makefile that says how to recompile a program can be used in more
+than one way.  The simplest use is to recompile every file that is out
+of date.  Usually, makefiles are written so that if you run
+<CODE>make</CODE> with no arguments, it does just that.
+<P>
+But you might want to update only some of the files; you might want to use
+a different compiler or different compiler options; you might want just to
+find out which files are out of date without changing them.
+<P>
+By giving arguments when you run <CODE>make</CODE>, you can do any of these
+things and many others.
+<P>
+The exit status of <CODE>make</CODE> is always one of three values:
+<DL COMPACT>
+<DT><CODE>0</CODE>
+<DD>The exit status is zero if <CODE>make</CODE> is successful.
+<DT><CODE>2</CODE>
+<DD>The exit status is two if <CODE>make</CODE> encounters any errors.
+It will print messages describing the particular errors.
+<DT><CODE>1</CODE>
+<DD>The exit status is one if you use the <SAMP>`-q'</SAMP> flag and <CODE>make</CODE>
+determines that some target is not already up to date.
+See section <A HREF="make_9.html#SEC81">Instead of Executing the Commands</A>.
+</DL>
+<P>
+<A NAME="IDX517"></A>
+<A NAME="IDX518"></A>
+<A NAME="IDX519"></A>
+<H2><A NAME="SEC79" HREF="make_toc.html#SEC79">Arguments to Specify the Makefile</A></H2>
+<P>
+The way to specify the name of the makefile is with the <SAMP>`-f'</SAMP> or
+<SAMP>`--file'</SAMP> option (<SAMP>`--makefile'</SAMP> also works).  For example,
+<SAMP>`-f altmake'</SAMP> says to use the file <TT>`altmake'</TT> as the makefile.
+<P>
+If you use the <SAMP>`-f'</SAMP> flag several times and follow each <SAMP>`-f'</SAMP>
+with an argument, all the specified files are used jointly as
+makefiles.
+<P>
+If you do not use the <SAMP>`-f'</SAMP> or <SAMP>`--file'</SAMP> flag, the default is
+to try <TT>`GNUmakefile'</TT>, <TT>`makefile'</TT>, and <TT>`Makefile'</TT>, in
+that order, and use the first of these three which exists or can be made
+(see section <A HREF="make_3.html#SEC12">Writing Makefiles</A>).<P>
+<A NAME="IDX520"></A>
+<H2><A NAME="SEC80" HREF="make_toc.html#SEC80">Arguments to Specify the Goals</A></H2>
+<P>
+The <DFN>goals</DFN> are the targets that <CODE>make</CODE> should strive ultimately
+to update.  Other targets are updated as well if they appear as
+dependencies of goals, or dependencies of dependencies of goals, etc.
+<P>
+By default, the goal is the first target in the makefile (not counting
+targets that start with a period).  Therefore, makefiles are usually
+written so that the first target is for compiling the entire program or
+programs they describe.  If the first rule in the makefile has several
+targets, only the first target in the rule becomes the default goal, not
+the whole list.
+<P>
+You can specify a different goal or goals with arguments to <CODE>make</CODE>.
+Use the name of the goal as an argument.  If you specify several goals,
+<CODE>make</CODE> processes each of them in turn, in the order you name them.
+<P>
+Any target in the makefile may be specified as a goal (unless it
+starts with <SAMP>`-'</SAMP> or contains an <SAMP>`='</SAMP>, in which case it will be
+parsed as a switch or variable definition, respectively).  Even
+targets not in the makefile may be specified, if <CODE>make</CODE> can find
+implicit rules that say how to make them.
+<P>
+One use of specifying a goal is if you want to compile only a part of
+the program, or only one of several programs.  Specify as a goal each
+file that you wish to remake.  For example, consider a directory containing
+several programs, with a makefile that starts like this:
+<P>
+<PRE>
+.PHONY: all
+all: size nm ld ar as
+</PRE>
+<P>
+If you are working on the program <CODE>size</CODE>, you might want to say
+<SAMP>`make size'</SAMP> so that only the files of that program are recompiled.
+<P>
+Another use of specifying a goal is to make files that are not normally
+made.  For example, there may be a file of debugging output, or a
+version of the program that is compiled specially for testing, which has
+a rule in the makefile but is not a dependency of the default goal.
+<P>
+Another use of specifying a goal is to run the commands associated with
+a phony target (see section <A HREF="make_4.html#SEC31">Phony Targets</A>) or empty target (see section <A HREF="make_4.html#SEC33">Empty Target Files to Record Events</A>).  Many makefiles contain
+a phony target named <TT>`clean'</TT> which deletes everything except source
+files.  Naturally, this is done only if you request it explicitly with
+<SAMP>`make clean'</SAMP>.  Following is a list of typical phony and empty
+target names.  See section <A HREF="make_14.html#SEC112">Standard Targets for Users</A>, for a detailed list of all the
+standard target names which GNU software packages use.
+<P>
+<DL COMPACT>
+<A NAME="IDX521"></A>
+<DT><TT>`all'</TT>
+<DD>Make all the top-level targets the makefile knows about.
+<P>
+<A NAME="IDX522"></A>
+<DT><TT>`clean'</TT>
+<DD>Delete all files that are normally created by running <CODE>make</CODE>.
+<P>
+<A NAME="IDX523"></A>
+<DT><TT>`mostlyclean'</TT>
+<DD>Like <SAMP>`clean'</SAMP>, but may refrain from deleting a few files that people
+normally don't want to recompile.  For example, the <SAMP>`mostlyclean'</SAMP>
+target for GCC does not delete <TT>`libgcc.a'</TT>, because recompiling it
+is rarely necessary and takes a lot of time.
+<P>
+<A NAME="IDX524"></A>
+<DT><TT>`distclean'</TT>
+<DD><A NAME="IDX525"></A>
+<DT><TT>`realclean'</TT>
+<DD><A NAME="IDX526"></A>
+<DT><TT>`clobber'</TT>
+<DD>Any of these targets might be defined to delete <EM>more</EM> files than
+<SAMP>`clean'</SAMP> does.  For example, this would delete configuration files
+or links that you would normally create as preparation for compilation,
+even if the makefile itself cannot create these files.
+<P>
+<A NAME="IDX527"></A>
+<DT><TT>`install'</TT>
+<DD>Copy the executable file into a directory that users typically search
+for commands; copy any auxiliary files that the executable uses into
+the directories where it will look for them.
+<P>
+<A NAME="IDX528"></A>
+<DT><TT>`print'</TT>
+<DD>Print listings of the source files that have changed.
+<P>
+<A NAME="IDX529"></A>
+<DT><TT>`tar'</TT>
+<DD>Create a tar file of the source files.
+<P>
+<A NAME="IDX530"></A>
+<DT><TT>`shar'</TT>
+<DD>Create a shell archive (shar file) of the source files.
+<P>
+<A NAME="IDX531"></A>
+<DT><TT>`dist'</TT>
+<DD>Create a distribution file of the source files.  This might
+be a tar file, or a shar file, or a compressed version of one of the
+above, or even more than one of the above.
+<P>
+<A NAME="IDX532"></A>
+<DT><TT>`TAGS'</TT>
+<DD>Update a tags table for this program.
+<P>
+<A NAME="IDX533"></A>
+<DT><TT>`check'</TT>
+<DD><A NAME="IDX534"></A>
+<DT><TT>`test'</TT>
+<DD>Perform self tests on the program this makefile builds.
+</DL>
+<P>
+<A NAME="IDX535"></A>
+<A NAME="IDX536"></A>
+<H2><A NAME="SEC81" HREF="make_toc.html#SEC81">Instead of Executing the Commands</A></H2>
+<P>
+The makefile tells <CODE>make</CODE> how to tell whether a target is up to date,
+and how to update each target.  But updating the targets is not always
+what you want.  Certain options specify other activities for <CODE>make</CODE>.
+<P>
+<DL COMPACT>
+<DT><SAMP>`-n'</SAMP>
+<DD><DT><SAMP>`--just-print'</SAMP>
+<DD><DT><SAMP>`--dry-run'</SAMP>
+<DD><A NAME="IDX537"></A>
+<A NAME="IDX538"></A>
+<A NAME="IDX539"></A>
+<A NAME="IDX540"></A>
+<DT><SAMP>`--recon'</SAMP>
+<DD><P>
+"No-op".  The activity is to print what commands would be used to make
+the targets up to date, but not actually execute them.
+<P>
+<DT><SAMP>`-t'</SAMP>
+<DD><A NAME="IDX541"></A>
+<A NAME="IDX542"></A>
+<A NAME="IDX543"></A>
+<A NAME="IDX544"></A>
+<DT><SAMP>`--touch'</SAMP>
+<DD><P>
+"Touch".  The activity is to mark the targets as up to date without
+actually changing them.  In other words, <CODE>make</CODE> pretends to compile
+the targets but does not really change their contents.
+<P>
+<DT><SAMP>`-q'</SAMP>
+<DD><A NAME="IDX545"></A>
+<A NAME="IDX546"></A>
+<A NAME="IDX547"></A>
+<DT><SAMP>`--question'</SAMP>
+<DD><P>
+"Question".  The activity is to find out silently whether the targets
+are up to date already; but execute no commands in either case.  In other
+words, neither compilation nor output will occur.
+<P>
+<DT><SAMP>`-W <VAR>file</VAR>'</SAMP>
+<DD><DT><SAMP>`--what-if=<VAR>file</VAR>'</SAMP>
+<DD><DT><SAMP>`--assume-new=<VAR>file</VAR>'</SAMP>
+<DD><A NAME="IDX548"></A>
+<A NAME="IDX549"></A>
+<A NAME="IDX550"></A>
+<A NAME="IDX551"></A>
+<A NAME="IDX552"></A>
+<A NAME="IDX553"></A>
+<DT><SAMP>`--new-file=<VAR>file</VAR>'</SAMP>
+<DD><P>
+"What if".  Each <SAMP>`-W'</SAMP> flag is followed by a file name.  The given
+files' modification times are recorded by <CODE>make</CODE> as being the present
+time, although the actual modification times remain the same.  
+You can use the <SAMP>`-W'</SAMP> flag in conjunction with the <SAMP>`-n'</SAMP> flag
+to see what would happen if you were to modify specific files.</DL>
+<P>
+With the <SAMP>`-n'</SAMP> flag, <CODE>make</CODE> prints the commands that it would
+normally execute but does not execute them.
+<P>
+With the <SAMP>`-t'</SAMP> flag, <CODE>make</CODE> ignores the commands in the rules
+and uses (in effect) the command <CODE>touch</CODE> for each target that needs to
+be remade.  The <CODE>touch</CODE> command is also printed, unless <SAMP>`-s'</SAMP> or
+<CODE>.SILENT</CODE> is used.  For speed, <CODE>make</CODE> does not actually invoke
+the program <CODE>touch</CODE>.  It does the work directly.
+<P>
+With the <SAMP>`-q'</SAMP> flag, <CODE>make</CODE> prints nothing and executes no
+commands, but the exit status code it returns is zero if and only if the
+targets to be considered are already up to date.  If the exit status is
+one, then some updating needs to be done.  If <CODE>make</CODE> encounters an
+error, the exit status is two, so you can distinguish an error from a
+target that is not up to date.
+<P>
+It is an error to use more than one of these three flags in the same
+invocation of <CODE>make</CODE>.
+<P>
+The <SAMP>`-n'</SAMP>, <SAMP>`-t'</SAMP>, and <SAMP>`-q'</SAMP> options do not affect command
+lines that begin with <SAMP>`+'</SAMP> characters or contain the strings
+<SAMP>`$(MAKE)'</SAMP> or <SAMP>`${MAKE}'</SAMP>.  Note that only the line containing
+the <SAMP>`+'</SAMP> character or the strings <SAMP>`$(MAKE)'</SAMP> or <SAMP>`${MAKE}'</SAMP>
+is run regardless of these options.  Other lines in the same rule are
+not run unless they too begin with <SAMP>`+'</SAMP> or contain <SAMP>`$(MAKE)'</SAMP> or
+<SAMP>`${MAKE}'</SAMP> (See section <A HREF="make_5.html#SEC49">How the <CODE>MAKE</CODE> Variable Works</A>.)
+<P>
+The <SAMP>`-W'</SAMP> flag provides two features:
+<P>
+<UL>
+<LI>
+If you also use the <SAMP>`-n'</SAMP> or <SAMP>`-q'</SAMP> flag, you can see what
+<CODE>make</CODE> would do if you were to modify some files.
+<P>
+<LI>
+Without the <SAMP>`-n'</SAMP> or <SAMP>`-q'</SAMP> flag, when <CODE>make</CODE> is actually
+executing commands, the <SAMP>`-W'</SAMP> flag can direct <CODE>make</CODE> to act
+as if some files had been modified, without actually modifying the
+files.</UL>
+<P>
+Note that the options <SAMP>`-p'</SAMP> and <SAMP>`-v'</SAMP> allow you to obtain other
+information about <CODE>make</CODE> or about the makefiles in use
+(see section <A HREF="make_9.html#SEC85">Summary of Options</A>).<P>
+<A NAME="IDX554"></A>
+<A NAME="IDX555"></A>
+<A NAME="IDX556"></A>
+<A NAME="IDX557"></A>
+<A NAME="IDX558"></A>
+<A NAME="IDX559"></A>
+<H2><A NAME="SEC82" HREF="make_toc.html#SEC82">Avoiding Recompilation of Some Files</A></H2>
+<P>
+Sometimes you may have changed a source file but you do not want to
+recompile all the files that depend on it.  For example, suppose you add a
+macro or a declaration to a header file that many other files depend on.
+Being conservative, <CODE>make</CODE> assumes that any change in the header file
+requires recompilation of all dependent files, but you know that they do not
+need to be recompiled and you would rather not waste the time waiting for
+them to compile.
+<P>
+If you anticipate the problem before changing the header file, you can
+use the <SAMP>`-t'</SAMP> flag.  This flag tells <CODE>make</CODE> not to run the
+commands in the rules, but rather to mark the target up to date by
+changing its last-modification date.  You would follow this procedure:
+<P>
+<OL>
+<LI>
+Use the command <SAMP>`make'</SAMP> to recompile the source files that really
+need recompilation.
+<P>
+<LI>
+Make the changes in the header files.
+<P>
+<LI>
+Use the command <SAMP>`make -t'</SAMP> to mark all the object files as
+up to date.  The next time you run <CODE>make</CODE>, the changes in the
+header files will not cause any recompilation.
+</OL>
+<P>
+If you have already changed the header file at a time when some files
+do need recompilation, it is too late to do this.  Instead, you can
+use the <SAMP>`-o <VAR>file</VAR>'</SAMP> flag, which marks a specified file as
+"old" (see section <A HREF="make_9.html#SEC85">Summary of Options</A>).  This means
+that the file itself will not be remade, and nothing else will be
+remade on its account.  Follow this procedure:
+<P>
+<OL>
+<LI>
+Recompile the source files that need compilation for reasons independent
+of the particular header file, with <SAMP>`make -o <VAR>headerfile</VAR>'</SAMP>.
+If several header files are involved, use a separate <SAMP>`-o'</SAMP> option
+for each header file.
+<P>
+<LI>
+Touch all the object files with <SAMP>`make -t'</SAMP>.
+</OL>
+<P>
+<A NAME="IDX560"></A>
+<A NAME="IDX561"></A>
+<A NAME="IDX562"></A>
+<A NAME="IDX563"></A>
+<H2><A NAME="SEC83" HREF="make_toc.html#SEC83">Overriding Variables</A></H2>
+<P>
+An argument that contains <SAMP>`='</SAMP> specifies the value of a variable:
+<SAMP>`<VAR>v</VAR>=<VAR>x</VAR>'</SAMP> sets the value of the variable <VAR>v</VAR> to <VAR>x</VAR>.
+If you specify a value in this way, all ordinary assignments of the same
+variable in the makefile are ignored; we say they have been
+<DFN>overridden</DFN> by the command line argument.
+<P>
+The most common way to use this facility is to pass extra flags to
+compilers.  For example, in a properly written makefile, the variable
+<CODE>CFLAGS</CODE> is included in each command that runs the C compiler, so a
+file <TT>`foo.c'</TT> would be compiled something like this:
+<P>
+<PRE>
+cc -c $(CFLAGS) foo.c
+</PRE>
+<P>
+Thus, whatever value you set for <CODE>CFLAGS</CODE> affects each compilation
+that occurs.  The makefile probably specifies the usual value for
+<CODE>CFLAGS</CODE>, like this:
+<P>
+<PRE>
+CFLAGS=-g
+</PRE>
+<P>
+Each time you run <CODE>make</CODE>, you can override this value if you
+wish.  For example, if you say <SAMP>`make CFLAGS='-g -O''</SAMP>, each C
+compilation will be done with <SAMP>`cc -c -g -O'</SAMP>.  (This illustrates
+how you can use quoting in the shell to enclose spaces and other
+special characters in the value of a variable when you override it.)
+<P>
+The variable <CODE>CFLAGS</CODE> is only one of many standard variables that
+exist just so that you can change them this way.  See section <A HREF="make_10.html#SEC89">Variables Used by Implicit Rules</A>, for a complete list.
+<P>
+You can also program the makefile to look at additional variables of your
+own, giving the user the ability to control other aspects of how the
+makefile works by changing the variables.
+<P>
+When you override a variable with a command argument, you can define either
+a recursively-expanded variable or a simply-expanded variable.  The
+examples shown above make a recursively-expanded variable; to make a
+simply-expanded variable, write <SAMP>`:='</SAMP> instead of <SAMP>`='</SAMP>.  But, unless
+you want to include a variable reference or function call in the
+<EM>value</EM> that you specify, it makes no difference which kind of
+variable you create.
+<P>
+There is one way that the makefile can change a variable that you have
+overridden.  This is to use the <CODE>override</CODE> directive, which is a line
+that looks like this: <SAMP>`override <VAR>variable</VAR> = <VAR>value</VAR>'</SAMP>
+(see section <A HREF="make_6.html#SEC64">The <CODE>override</CODE> Directive</A>).
+<P>
+<A NAME="IDX564"></A>
+<A NAME="IDX565"></A>
+<H2><A NAME="SEC84" HREF="make_toc.html#SEC84">Testing the Compilation of a Program</A></H2>
+<P>
+Normally, when an error happens in executing a shell command, <CODE>make</CODE>
+gives up immediately, returning a nonzero status.  No further commands are
+executed for any target.  The error implies that the goal cannot be
+correctly remade, and <CODE>make</CODE> reports this as soon as it knows.
+<P>
+When you are compiling a program that you have just changed, this is not
+what you want.  Instead, you would rather that <CODE>make</CODE> try compiling
+every file that can be tried, to show you as many compilation errors
+as possible.
+<A NAME="IDX566"></A>
+<A NAME="IDX567"></A>
+<P>
+On these occasions, you should use the <SAMP>`-k'</SAMP> or
+<SAMP>`--keep-going'</SAMP> flag.  This tells <CODE>make</CODE> to continue to
+consider the other dependencies of the pending targets, remaking them
+if necessary, before it gives up and returns nonzero status.  For
+example, after an error in compiling one object file, <SAMP>`make -k'</SAMP>
+will continue compiling other object files even though it already
+knows that linking them will be impossible.  In addition to continuing
+after failed shell commands, <SAMP>`make -k'</SAMP> will continue as much as
+possible after discovering that it does not know how to make a target
+or dependency file.  This will always cause an error message, but
+without <SAMP>`-k'</SAMP>, it is a fatal error (see section <A HREF="make_9.html#SEC85">Summary of Options</A>).<P>
+The usual behavior of <CODE>make</CODE> assumes that your purpose is to get the
+goals up to date; once <CODE>make</CODE> learns that this is impossible, it might
+as well report the failure immediately.  The <SAMP>`-k'</SAMP> flag says that the
+real purpose is to test as much as possible of the changes made in the
+program, perhaps to find several independent problems so that you can
+correct them all before the next attempt to compile.  This is why Emacs'
+<KBD>M-x compile</KBD> command passes the <SAMP>`-k'</SAMP> flag by default.
+<P>
+<A NAME="IDX568"></A>
+<A NAME="IDX569"></A>
+<A NAME="IDX570"></A>
+<H2><A NAME="SEC85" HREF="make_toc.html#SEC85">Summary of Options</A></H2>
+<P>
+Here is a table of all the options <CODE>make</CODE> understands:
+<P>
+<DL COMPACT>
+<A NAME="IDX571"></A>
+<DT><SAMP>`-b'</SAMP>
+<DD><A NAME="IDX572"></A>
+<DT><SAMP>`-m'</SAMP>
+<DD>These options are ignored for compatibility with other versions of <CODE>make</CODE>.
+<P>
+<A NAME="IDX573"></A>
+<DT><SAMP>`-C <VAR>dir</VAR>'</SAMP>
+<DD><A NAME="IDX574"></A>
+<DT><SAMP>`--directory=<VAR>dir</VAR>'</SAMP>
+<DD>Change to directory <VAR>dir</VAR> before reading the makefiles.  If multiple
+<SAMP>`-C'</SAMP> options are specified, each is interpreted relative to the
+previous one: <SAMP>`-C / -C etc'</SAMP> is equivalent to <SAMP>`-C /etc'</SAMP>.
+This is typically used with recursive invocations of <CODE>make</CODE>
+(see section <A HREF="make_5.html#SEC48">Recursive Use of <CODE>make</CODE></A>).
+<P>
+<A NAME="IDX575"></A>
+<DT><SAMP>`-d'</SAMP>
+<DD><A NAME="IDX576"></A>
+<DT><SAMP>`--debug'</SAMP>
+<DD><P>
+Print debugging information in addition to normal processing.  The
+debugging information says which files are being considered for
+remaking, which file-times are being compared and with what results,
+which files actually need to be remade, which implicit rules are
+considered and which are applied--everything interesting about how
+<CODE>make</CODE> decides what to do.
+<P>
+<A NAME="IDX577"></A>
+<DT><SAMP>`-e'</SAMP>
+<DD><A NAME="IDX578"></A>
+<DT><SAMP>`--environment-overrides'</SAMP>
+<DD>Give variables taken from the environment precedence
+over variables from makefiles.
+See section <A HREF="make_6.html#SEC66">Variables from the Environment</A>.
+<P>
+<A NAME="IDX579"></A>
+<DT><SAMP>`-f <VAR>file</VAR>'</SAMP>
+<DD><A NAME="IDX580"></A>
+<DT><SAMP>`--file=<VAR>file</VAR>'</SAMP>
+<DD><A NAME="IDX581"></A>
+<DT><SAMP>`--makefile=<VAR>file</VAR>'</SAMP>
+<DD>Read the file named <VAR>file</VAR> as a makefile.
+See section <A HREF="make_3.html#SEC12">Writing Makefiles</A>.
+<P>
+<A NAME="IDX582"></A>
+<DT><SAMP>`-h'</SAMP>
+<DD><A NAME="IDX583"></A>
+<DT><SAMP>`--help'</SAMP>
+<DD><P>
+Remind you of the options that <CODE>make</CODE> understands and then exit.
+<P>
+<A NAME="IDX584"></A>
+<DT><SAMP>`-i'</SAMP>
+<DD><A NAME="IDX585"></A>
+<DT><SAMP>`--ignore-errors'</SAMP>
+<DD>Ignore all errors in commands executed to remake files.
+See section <A HREF="make_5.html#SEC46">Errors in Commands</A>.
+<P>
+<A NAME="IDX586"></A>
+<DT><SAMP>`-I <VAR>dir</VAR>'</SAMP>
+<DD><A NAME="IDX587"></A>
+<DT><SAMP>`--include-dir=<VAR>dir</VAR>'</SAMP>
+<DD>Specifies a directory <VAR>dir</VAR> to search for included makefiles.
+See section <A HREF="make_3.html#SEC15">Including Other Makefiles</A>.  If several <SAMP>`-I'</SAMP>
+options are used to specify several directories, the directories are
+searched in the order specified.
+<P>
+<A NAME="IDX588"></A>
+<DT><SAMP>`-j [<VAR>jobs</VAR>]'</SAMP>
+<DD><A NAME="IDX589"></A>
+<DT><SAMP>`--jobs=[<VAR>jobs</VAR>]'</SAMP>
+<DD>Specifies the number of jobs (commands) to run simultaneously.  With no
+argument, <CODE>make</CODE> runs as many jobs simultaneously as possible.  If
+there is more than one <SAMP>`-j'</SAMP> option, the last one is effective.
+See section <A HREF="make_5.html#SEC45">Parallel Execution</A>,
+for more information on how commands are run.
+<P>
+<A NAME="IDX590"></A>
+<DT><SAMP>`-k'</SAMP>
+<DD><A NAME="IDX591"></A>
+<DT><SAMP>`--keep-going'</SAMP>
+<DD>Continue as much as possible after an error.  While the target that
+failed, and those that depend on it, cannot be remade, the other
+dependencies of these targets can be processed all the same.
+See section <A HREF="make_9.html#SEC84">Testing the Compilation of a Program</A>.
+<P>
+<A NAME="IDX592"></A>
+<DT><SAMP>`-l [<VAR>load</VAR>]'</SAMP>
+<DD><A NAME="IDX593"></A>
+<DT><SAMP>`--load-average[=<VAR>load</VAR>]'</SAMP>
+<DD><A NAME="IDX594"></A>
+<DT><SAMP>`--max-load[=<VAR>load</VAR>]'</SAMP>
+<DD>Specifies that no new jobs (commands) should be started if there are
+other jobs running and the load average is at least <VAR>load</VAR> (a
+floating-point number).  With no argument, removes a previous load
+limit.  See section <A HREF="make_5.html#SEC45">Parallel Execution</A>.
+<P>
+<A NAME="IDX595"></A>
+<DT><SAMP>`-n'</SAMP>
+<DD><A NAME="IDX596"></A>
+<DT><SAMP>`--just-print'</SAMP>
+<DD><A NAME="IDX597"></A>
+<DT><SAMP>`--dry-run'</SAMP>
+<DD><A NAME="IDX598"></A>
+<DT><SAMP>`--recon'</SAMP>
+<DD><P>
+Print the commands that would be executed, but do not execute them.
+See section <A HREF="make_9.html#SEC81">Instead of Executing the Commands</A>.
+<P>
+<A NAME="IDX599"></A>
+<DT><SAMP>`-o <VAR>file</VAR>'</SAMP>
+<DD><A NAME="IDX600"></A>
+<DT><SAMP>`--old-file=<VAR>file</VAR>'</SAMP>
+<DD><A NAME="IDX601"></A>
+<DT><SAMP>`--assume-old=<VAR>file</VAR>'</SAMP>
+<DD>Do not remake the file <VAR>file</VAR> even if it is older than its
+dependencies, and do not remake anything on account of changes in
+<VAR>file</VAR>.  Essentially the file is treated as very old and its rules
+are ignored.  See section <A HREF="make_9.html#SEC82">Avoiding Recompilation of Some Files</A>.<P>
+<A NAME="IDX602"></A>
+<DT><SAMP>`-p'</SAMP>
+<DD><A NAME="IDX603"></A>
+<DT><SAMP>`--print-data-base'</SAMP>
+<DD>Print the data base (rules and variable values) that results from
+reading the makefiles; then execute as usual or as otherwise
+specified.  This also prints the version information given by
+the <SAMP>`-v'</SAMP> switch (see below).  To print the data base without
+trying to remake any files, use <SAMP>`make -p -f /dev/null'</SAMP>.
+<P>
+<A NAME="IDX604"></A>
+<DT><SAMP>`-q'</SAMP>
+<DD><A NAME="IDX605"></A>
+<DT><SAMP>`--question'</SAMP>
+<DD>"Question mode".  Do not run any commands, or print anything; just
+return an exit status that is zero if the specified targets are already
+up to date, one if any remaking is required, or two if an error is
+encountered.  See section <A HREF="make_9.html#SEC81">Instead of Executing the Commands</A>.<P>
+<A NAME="IDX606"></A>
+<DT><SAMP>`-r'</SAMP>
+<DD><A NAME="IDX607"></A>
+<DT><SAMP>`--no-builtin-rules'</SAMP>
+<DD>Eliminate use of the built-in implicit rules (see section <A HREF="make_10.html#SEC86">Using Implicit Rules</A>).  You can still define your own by writing
+pattern rules (see section <A HREF="make_10.html#SEC91">Defining and Redefining Pattern Rules</A>).  The <SAMP>`-r'</SAMP> option also clears out the default list of
+suffixes for suffix rules (see section <A HREF="make_10.html#SEC99">Old-Fashioned Suffix Rules</A>).  But you can still define your own suffixes with a rule for
+<CODE>.SUFFIXES</CODE>, and then define your own suffix rules.
+<P>
+<A NAME="IDX608"></A>
+<DT><SAMP>`-s'</SAMP>
+<DD><A NAME="IDX609"></A>
+<DT><SAMP>`--silent'</SAMP>
+<DD><A NAME="IDX610"></A>
+<DT><SAMP>`--quiet'</SAMP>
+<DD><P>
+Silent operation; do not print the commands as they are executed.
+See section <A HREF="make_5.html#SEC43">Command Echoing</A>.
+<P>
+<A NAME="IDX611"></A>
+<DT><SAMP>`-S'</SAMP>
+<DD><A NAME="IDX612"></A>
+<DT><SAMP>`--no-keep-going'</SAMP>
+<DD><A NAME="IDX613"></A>
+<DT><SAMP>`--stop'</SAMP>
+<DD><P>
+Cancel the effect of the <SAMP>`-k'</SAMP> option.  This is never necessary
+except in a recursive <CODE>make</CODE> where <SAMP>`-k'</SAMP> might be inherited
+from the top-level <CODE>make</CODE> via <CODE>MAKEFLAGS</CODE>
+(see section <A HREF="make_5.html#SEC48">Recursive Use of <CODE>make</CODE></A>)
+or if you set <SAMP>`-k'</SAMP> in <CODE>MAKEFLAGS</CODE> in your environment.<P>
+<A NAME="IDX614"></A>
+<DT><SAMP>`-t'</SAMP>
+<DD><A NAME="IDX615"></A>
+<DT><SAMP>`--touch'</SAMP>
+<DD><P>
+Touch files (mark them up to date without really changing them)
+instead of running their commands.  This is used to pretend that the
+commands were done, in order to fool future invocations of
+<CODE>make</CODE>.  See section <A HREF="make_9.html#SEC81">Instead of Executing the Commands</A>.
+<P>
+<A NAME="IDX616"></A>
+<DT><SAMP>`-v'</SAMP>
+<DD><A NAME="IDX617"></A>
+<DT><SAMP>`--version'</SAMP>
+<DD>Print the version of the <CODE>make</CODE> program plus a copyright, a list
+of authors, and a notice that there is no warranty; then exit.
+<P>
+<A NAME="IDX618"></A>
+<DT><SAMP>`-w'</SAMP>
+<DD><A NAME="IDX619"></A>
+<DT><SAMP>`--print-directory'</SAMP>
+<DD>Print a message containing the working directory both before and after
+executing the makefile.  This may be useful for tracking down errors
+from complicated nests of recursive <CODE>make</CODE> commands.
+See section <A HREF="make_5.html#SEC48">Recursive Use of <CODE>make</CODE></A>.  (In practice, you
+rarely need to specify this option since <SAMP>`make'</SAMP> does it for you;
+see section <A HREF="make_5.html#SEC52">The <SAMP>`--print-directory'</SAMP> Option</A>.)
+<P>
+<A NAME="IDX620"></A>
+<DT><SAMP>`--no-print-directory'</SAMP>
+<DD>Disable printing of the working directory under <CODE>-w</CODE>.
+This option is useful when <CODE>-w</CODE> is turned on automatically,
+but you do not want to see the extra messages.
+See section <A HREF="make_5.html#SEC52">The <SAMP>`--print-directory'</SAMP> Option</A>.
+<P>
+<A NAME="IDX621"></A>
+<DT><SAMP>`-W <VAR>file</VAR>'</SAMP>
+<DD><A NAME="IDX622"></A>
+<DT><SAMP>`--what-if=<VAR>file</VAR>'</SAMP>
+<DD><A NAME="IDX623"></A>
+<DT><SAMP>`--new-file=<VAR>file</VAR>'</SAMP>
+<DD><A NAME="IDX624"></A>
+<DT><SAMP>`--assume-new=<VAR>file</VAR>'</SAMP>
+<DD>Pretend that the target <VAR>file</VAR> has just been modified.  When used
+with the <SAMP>`-n'</SAMP> flag, this shows you what would happen if you were
+to modify that file.  Without <SAMP>`-n'</SAMP>, it is almost the same as
+running a <CODE>touch</CODE> command on the given file before running
+<CODE>make</CODE>, except that the modification time is changed only in the
+imagination of <CODE>make</CODE>.
+See section <A HREF="make_9.html#SEC81">Instead of Executing the Commands</A>.
+<P>
+<A NAME="IDX625"></A>
+<A NAME="IDX626"></A>
+<A NAME="IDX627"></A>
+<DT><SAMP>`--warn-undefined-variables'</SAMP>
+<DD>Issue a warning message whenever <CODE>make</CODE> sees a reference to an
+undefined variable.  This can be helpful when you are trying to debug
+makefiles which use variables in complex ways.
+</DL>
+<P>
+<P>Go to the <A HREF="make_8.html">previous</A>, <A HREF="make_10.html">next</A> section.<P>

@@ -1,6 +1,6 @@
 #ticket 
 
-related:: [[Team Create Modal Component]]
+related:: [[Team Create-Edit Modal Component]]
 ___
 - [/] #task [[LUQA Onboarding]] 🆔 zT8KZb ⏳ 2025-02-20 📅 2025-02-28
 	- [/] #task service access 🆔 C72A1R

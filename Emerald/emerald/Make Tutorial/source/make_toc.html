@@ -1,0 +1,168 @@
+<!-- This HTML file has been created by texi2html 1.30
+     from /mit/gnu/src/make-3.72/make.texinfo on 6 November 1994 -->
+
+<TITLE>GNU Make - Table of Contents</TITLE>
+<H1>GNU Make</H1>
+<H2>A Program for Directing Recompilation</H2>
+<H2>Edition 0.47, for <CODE>make</CODE> Version 3.72 Beta.</H2>
+<H2>November 1994</H2>
+<ADDRESS>Richard M. Stallman and Roland McGrath</ADDRESS>
+<P>
+<UL>
+<LI><A NAME="SEC1" HREF="make_1.html#SEC1">Overview of <CODE>make</CODE></A>
+<UL>
+<LI><A NAME="SEC2" HREF="make_1.html#SEC2">How to Read This Manual</A>
+<LI><A NAME="SEC3" HREF="make_1.html#SEC3">Problems and Bugs</A>
+</UL>
+<LI><A NAME="SEC4" HREF="make_2.html#SEC4">An Introduction to Makefiles</A>
+<UL>
+<LI><A NAME="SEC5" HREF="make_2.html#SEC5">What a Rule Looks Like</A>
+<LI><A NAME="SEC6" HREF="make_2.html#SEC6">A Simple Makefile</A>
+<LI><A NAME="SEC7" HREF="make_2.html#SEC7">How <CODE>make</CODE> Processes a Makefile</A>
+<LI><A NAME="SEC8" HREF="make_2.html#SEC8">Variables Make Makefiles Simpler</A>
+<LI><A NAME="SEC9" HREF="make_2.html#SEC9">Letting <CODE>make</CODE> Deduce the Commands</A>
+<LI><A NAME="SEC10" HREF="make_2.html#SEC10">Another Style of Makefile</A>
+<LI><A NAME="SEC11" HREF="make_2.html#SEC11">Rules for Cleaning the Directory</A>
+</UL>
+<LI><A NAME="SEC12" HREF="make_3.html#SEC12">Writing Makefiles</A>
+<UL>
+<LI><A NAME="SEC13" HREF="make_3.html#SEC13">What Makefiles Contain</A>
+<LI><A NAME="SEC14" HREF="make_3.html#SEC14">What Name to Give Your Makefile</A>
+<LI><A NAME="SEC15" HREF="make_3.html#SEC15">Including Other Makefiles</A>
+<LI><A NAME="SEC16" HREF="make_3.html#SEC16">The Variable <CODE>MAKEFILES</CODE></A>
+<LI><A NAME="SEC17" HREF="make_3.html#SEC17">How Makefiles Are Remade</A>
+<LI><A NAME="SEC18" HREF="make_3.html#SEC18">Overriding Part of Another Makefile</A>
+</UL>
+<LI><A NAME="SEC19" HREF="make_4.html#SEC19">Writing Rules</A>
+<UL>
+<LI><A NAME="SEC20" HREF="make_4.html#SEC20">Rule Syntax</A>
+<LI><A NAME="SEC21" HREF="make_4.html#SEC21">Using Wildcard Characters in File Names</A>
+<UL>
+<LI><A NAME="SEC22" HREF="make_4.html#SEC22">Wildcard Examples</A>
+<LI><A NAME="SEC23" HREF="make_4.html#SEC23">Pitfalls of Using Wildcards</A>
+<LI><A NAME="SEC24" HREF="make_4.html#SEC24">The Function <CODE>wildcard</CODE></A>
+</UL>
+<LI><A NAME="SEC25" HREF="make_4.html#SEC25">Searching Directories for Dependencies</A>
+<UL>
+<LI><A NAME="SEC26" HREF="make_4.html#SEC26"><CODE>VPATH</CODE>: Search Path for All Dependencies</A>
+<LI><A NAME="SEC27" HREF="make_4.html#SEC27">The <CODE>vpath</CODE> Directive</A>
+<LI><A NAME="SEC28" HREF="make_4.html#SEC28">Writing Shell Commands with Directory Search</A>
+<LI><A NAME="SEC29" HREF="make_4.html#SEC29">Directory Search and Implicit Rules</A>
+<LI><A NAME="SEC30" HREF="make_4.html#SEC30">Directory Search for Link Libraries</A>
+</UL>
+<LI><A NAME="SEC31" HREF="make_4.html#SEC31">Phony Targets</A>
+<LI><A NAME="SEC32" HREF="make_4.html#SEC32">Rules without Commands or Dependencies</A>
+<LI><A NAME="SEC33" HREF="make_4.html#SEC33">Empty Target Files to Record Events</A>
+<LI><A NAME="SEC34" HREF="make_4.html#SEC34">Special Built-in Target Names</A>
+<LI><A NAME="SEC35" HREF="make_4.html#SEC35">Multiple Targets in a Rule</A>
+<LI><A NAME="SEC36" HREF="make_4.html#SEC36">Multiple Rules for One Target</A>
+<LI><A NAME="SEC37" HREF="make_4.html#SEC37">Static Pattern Rules</A>
+<UL>
+<LI><A NAME="SEC38" HREF="make_4.html#SEC38">Syntax of Static Pattern Rules</A>
+<LI><A NAME="SEC39" HREF="make_4.html#SEC39">Static Pattern Rules versus Implicit Rules</A>
+</UL>
+<LI><A NAME="SEC40" HREF="make_4.html#SEC40">Double-Colon Rules</A>
+<LI><A NAME="SEC41" HREF="make_4.html#SEC41">Generating Dependencies Automatically</A>
+</UL>
+<LI><A NAME="SEC42" HREF="make_5.html#SEC42">Writing the Commands in Rules</A>
+<UL>
+<LI><A NAME="SEC43" HREF="make_5.html#SEC43">Command Echoing</A>
+<LI><A NAME="SEC44" HREF="make_5.html#SEC44">Command Execution</A>
+<LI><A NAME="SEC45" HREF="make_5.html#SEC45">Parallel Execution</A>
+<LI><A NAME="SEC46" HREF="make_5.html#SEC46">Errors in Commands</A>
+<LI><A NAME="SEC47" HREF="make_5.html#SEC47">Interrupting or Killing <CODE>make</CODE></A>
+<LI><A NAME="SEC48" HREF="make_5.html#SEC48">Recursive Use of <CODE>make</CODE></A>
+<UL>
+<LI><A NAME="SEC49" HREF="make_5.html#SEC49">How the <CODE>MAKE</CODE> Variable Works</A>
+<LI><A NAME="SEC50" HREF="make_5.html#SEC50">Communicating Variables to a Sub-<CODE>make</CODE></A>
+<LI><A NAME="SEC51" HREF="make_5.html#SEC51">Communicating Options to a Sub-<CODE>make</CODE></A>
+<LI><A NAME="SEC52" HREF="make_5.html#SEC52">The <SAMP>`--print-directory'</SAMP> Option</A>
+</UL>
+<LI><A NAME="SEC53" HREF="make_5.html#SEC53">Defining Canned Command Sequences</A>
+<LI><A NAME="SEC54" HREF="make_5.html#SEC54">Using Empty Commands</A>
+</UL>
+<LI><A NAME="SEC55" HREF="make_6.html#SEC55">How to Use Variables</A>
+<UL>
+<LI><A NAME="SEC56" HREF="make_6.html#SEC56">Basics of Variable References</A>
+<LI><A NAME="SEC57" HREF="make_6.html#SEC57">The Two Flavors of Variables</A>
+<LI><A NAME="SEC58" HREF="make_6.html#SEC58">Advanced Features for Reference to Variables</A>
+<UL>
+<LI><A NAME="SEC59" HREF="make_6.html#SEC59">Substitution References</A>
+<LI><A NAME="SEC60" HREF="make_6.html#SEC60">Computed Variable Names</A>
+</UL>
+<LI><A NAME="SEC61" HREF="make_6.html#SEC61">How Variables Get Their Values</A>
+<LI><A NAME="SEC62" HREF="make_6.html#SEC62">Setting Variables</A>
+<LI><A NAME="SEC63" HREF="make_6.html#SEC63">Appending More Text to Variables</A>
+<LI><A NAME="SEC64" HREF="make_6.html#SEC64">The <CODE>override</CODE> Directive</A>
+<LI><A NAME="SEC65" HREF="make_6.html#SEC65">Defining Variables Verbatim</A>
+<LI><A NAME="SEC66" HREF="make_6.html#SEC66">Variables from the Environment</A>
+</UL>
+<LI><A NAME="SEC67" HREF="make_7.html#SEC67">Conditional Parts of Makefiles</A>
+<UL>
+<LI><A NAME="SEC68" HREF="make_7.html#SEC68">Example of a Conditional</A>
+<LI><A NAME="SEC69" HREF="make_7.html#SEC69">Syntax of Conditionals</A>
+<LI><A NAME="SEC70" HREF="make_7.html#SEC70">Conditionals that Test Flags</A>
+</UL>
+<LI><A NAME="SEC71" HREF="make_8.html#SEC71">Functions for Transforming Text</A>
+<UL>
+<LI><A NAME="SEC72" HREF="make_8.html#SEC72">Function Call Syntax</A>
+<LI><A NAME="SEC73" HREF="make_8.html#SEC73">Functions for String Substitution and Analysis</A>
+<LI><A NAME="SEC74" HREF="make_8.html#SEC74">Functions for File Names</A>
+<LI><A NAME="SEC75" HREF="make_8.html#SEC75">The <CODE>foreach</CODE> Function</A>
+<LI><A NAME="SEC76" HREF="make_8.html#SEC76">The <CODE>origin</CODE> Function</A>
+<LI><A NAME="SEC77" HREF="make_8.html#SEC77">The <CODE>shell</CODE> Function</A>
+</UL>
+<LI><A NAME="SEC78" HREF="make_9.html#SEC78">How to Run <CODE>make</CODE></A>
+<UL>
+<LI><A NAME="SEC79" HREF="make_9.html#SEC79">Arguments to Specify the Makefile</A>
+<LI><A NAME="SEC80" HREF="make_9.html#SEC80">Arguments to Specify the Goals</A>
+<LI><A NAME="SEC81" HREF="make_9.html#SEC81">Instead of Executing the Commands</A>
+<LI><A NAME="SEC82" HREF="make_9.html#SEC82">Avoiding Recompilation of Some Files</A>
+<LI><A NAME="SEC83" HREF="make_9.html#SEC83">Overriding Variables</A>
+<LI><A NAME="SEC84" HREF="make_9.html#SEC84">Testing the Compilation of a Program</A>
+<LI><A NAME="SEC85" HREF="make_9.html#SEC85">Summary of Options</A>
+</UL>
+<LI><A NAME="SEC86" HREF="make_10.html#SEC86">Using Implicit Rules</A>
+<UL>
+<LI><A NAME="SEC87" HREF="make_10.html#SEC87">Using Implicit Rules</A>
+<LI><A NAME="SEC88" HREF="make_10.html#SEC88">Catalogue of Implicit Rules</A>
+<LI><A NAME="SEC89" HREF="make_10.html#SEC89">Variables Used by Implicit Rules</A>
+<LI><A NAME="SEC90" HREF="make_10.html#SEC90">Chains of Implicit Rules</A>
+<LI><A NAME="SEC91" HREF="make_10.html#SEC91">Defining and Redefining Pattern Rules</A>
+<UL>
+<LI><A NAME="SEC92" HREF="make_10.html#SEC92">Introduction to Pattern Rules</A>
+<LI><A NAME="SEC93" HREF="make_10.html#SEC93">Pattern Rule Examples</A>
+<LI><A NAME="SEC94" HREF="make_10.html#SEC94">Automatic Variables</A>
+<LI><A NAME="SEC95" HREF="make_10.html#SEC95">How Patterns Match</A>
+<LI><A NAME="SEC96" HREF="make_10.html#SEC96">Match-Anything Pattern Rules</A>
+<LI><A NAME="SEC97" HREF="make_10.html#SEC97">Canceling Implicit Rules</A>
+</UL>
+<LI><A NAME="SEC98" HREF="make_10.html#SEC98">Defining Last-Resort Default Rules</A>
+<LI><A NAME="SEC99" HREF="make_10.html#SEC99">Old-Fashioned Suffix Rules</A>
+<LI><A NAME="SEC100" HREF="make_10.html#SEC100">Implicit Rule Search Algorithm</A>
+</UL>
+<LI><A NAME="SEC101" HREF="make_11.html#SEC101">Using <CODE>make</CODE> to Update Archive Files</A>
+<UL>
+<LI><A NAME="SEC102" HREF="make_11.html#SEC102">Archive Members as Targets</A>
+<LI><A NAME="SEC103" HREF="make_11.html#SEC103">Implicit Rule for Archive Member Targets</A>
+<UL>
+<LI><A NAME="SEC104" HREF="make_11.html#SEC104">Updating Archive Symbol Directories</A>
+</UL>
+<LI><A NAME="SEC105" HREF="make_11.html#SEC105">Dangers When Using Archives</A>
+<LI><A NAME="SEC106" HREF="make_11.html#SEC106">Suffix Rules for Archive Files</A>
+</UL>
+<LI><A NAME="SEC107" HREF="make_12.html#SEC107">Features of GNU <CODE>make</CODE></A>
+<LI><A NAME="SEC108" HREF="make_13.html#SEC108">Incompatibilities and Missing Features</A>
+<LI><A NAME="SEC109" HREF="make_14.html#SEC109">Makefile Conventions</A>
+<UL>
+<LI><A NAME="SEC110" HREF="make_14.html#SEC110">General Conventions for Makefiles</A>
+<LI><A NAME="SEC111" HREF="make_14.html#SEC111">Utilities in Makefiles</A>
+<LI><A NAME="SEC112" HREF="make_14.html#SEC112">Standard Targets for Users</A>
+<LI><A NAME="SEC113" HREF="make_14.html#SEC113">Variables for Specifying Commands</A>
+<LI><A NAME="SEC114" HREF="make_14.html#SEC114">Variables for Installation Directories</A>
+</UL>
+<LI><A NAME="SEC115" HREF="make_15.html#SEC115">Quick Reference</A>
+<LI><A NAME="SEC116" HREF="make_16.html#SEC116">Complex Makefile Example</A>
+<LI><A NAME="SEC117" HREF="make_17.html#SEC117">Index of Concepts</A>
+<LI><A NAME="SEC118" HREF="make_18.html#SEC118">Index of Functions, Variables, &#38; Directives</A>
+</UL>

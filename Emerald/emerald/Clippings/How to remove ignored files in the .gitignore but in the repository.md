@@ -16,4 +16,4 @@ git rm --cached `git ls-files -i -c --exclude-from=.gitignore`
 ```
 ___
 - [x] remind me (@[[2025-02-25]] 11:09)
-- [ ] monthly (@[[2025-03-17]])
+- [x] monthly (@[[2025-03-17]])

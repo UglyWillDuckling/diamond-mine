@@ -8,13 +8,6 @@
         "rowNumber": 16
       }
     ],
-    "Atlas/Dev/notes/Mason is responsible for managing lsp;s.md": [
-      {
-        "title": "monthly",
-        "time": "2025-03-22",
-        "rowNumber": 5
-      }
-    ],
     "Clippings/How to trust cert authority - arch.md": [
       {
         "title": "monthly",
@@ -22,18 +15,25 @@
         "rowNumber": 13
       }
     ],
-    "Atlas/Knowledge/howtos/how to check DNS info.md": [
-      {
-        "title": "remind me DNS checker",
-        "time": "2025-03-14",
-        "rowNumber": 4
-      }
-    ],
     "Atlas/Knowledge/howtos/creating local certificates is super simple.md": [
       {
         "title": "monthly",
         "time": "2025-03-26 19:30",
         "rowNumber": 2
+      }
+    ],
+    "Atlas/Life/Dev/notes/Mason is responsible for managing lsp;s.md": [
+      {
+        "title": "monthly",
+        "time": "2025-03-22",
+        "rowNumber": 5
+      }
+    ],
+    "Clippings/Rootless mode.md": [
+      {
+        "title": "! remind me",
+        "time": "2025-03-22",
+        "rowNumber": 266
       }
     ]
   },

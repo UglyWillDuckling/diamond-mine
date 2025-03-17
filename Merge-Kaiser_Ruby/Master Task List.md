@@ -4,6 +4,7 @@ aliases: []
 tags:
   - task-list
 ---
+- [/] #task [[setup Owncloud]] 🔼 🛫 2025-03-14 ⏳ 2025-03-14 📅 2025-03-16 🆔 7oRd3s
 
 - [x] #task Skini SHE-RA AND THE PRINCESSES OF POWER ⏳ 2025-03-09 📅 2025-03-10
 - [x] #task Skini Matrix 🔼 📅 2025-03-08 🆔 dyQA3h
@@ -15,7 +16,7 @@ tags:
 
 - [x] #task Look into what **SSE** means #dev 🆔 5dKDNT 📅 2025-03-03 ✅ 2025-03-10
 	- see [[Deno Web Server]]
-- [ ] #task prekini konstantni updejt pluginova ⏳ 2025-02-09 📅 2025-03-03 🆔 iD0UCB #habbit
+- [x] #task prekini konstantni updejt pluginova #habbit 🆔 iD0UCB ⏳ 2025-02-09 📅 2025-03-03 ✅ 2025-03-14
 
 - [ ] #task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼
 - [ ] #task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-28

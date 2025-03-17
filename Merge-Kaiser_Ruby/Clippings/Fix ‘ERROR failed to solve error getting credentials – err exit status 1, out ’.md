@@ -6,7 +6,7 @@ tags:
   - error
   - fix
 related:
-  - "[[docker]]"
+  - "[[Docker]]"
 ---
 ![icon](https://i0.wp.com/collabnix.com/wp-content/uploads/2020/09/cropped-cropped-cropped-cropped-collabnix_logo-1-3.png?fit=32%2C32&ssl=1)
 

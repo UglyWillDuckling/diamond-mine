@@ -8,8 +8,8 @@ tags:
   - docs
   - howto
 related:
-  - "[[Efforts/Active/Wordpress/Wordpress]]"
-  - "[[docker]]"
+  - "[[Efforts/Simmering/Wordpress/Wordpress]]"
+  - "[[Docker]]"
 ---
 As a software developer, you’re likely familiar with local development environments. They allow you to run your code, applications, and sites on your workstation, similarly to how they run on a production server. This gives you a safe environment to make changes, break and fix things, and watch your changes take place in real time, all without disrupting your users. In the case of [WordPress](https://wordpress.com/), local development environments are often used to assist in building new sites, testing changes to existing sites, and developing or trialing new plugins and themes.
 
@@ -24,7 +24,7 @@ Several components are at play in a normal user-facing WordPress site, such as t
 Consider, for example, database access. In a production environment, you would likely want to lock down database access so that only connections from particular hosts are permitted. Imposing this same level of restriction in a development environment would be unnecessary and actively disruptive to your development efforts if you wanted to simply check some records in the database. Some of the solutions for local development environments tend to prioritize convenience and ease of use over security and production-readiness to circumvent these issues. This priority shift is fine as long as you keep this limitation in mind and don’t try to use a local development environment tool for your user-facing production site. Mostly, these tools are suitable for development, local testing, validation, and trialing or experimenting with plugins and themes. For production workloads, you should typically consider one of the many [WordPress hosting services available](https://wordpress.com/).
 
 ### Docker
-[[docker]]
+[[Docker]]
 
 Docker is a **containerization platform** that allows you to create containers where you can run applications inside. These containers run on top of your operating system but are somewhat decoupled from it, making the applications portable and allowing you to run things like WordPress without having to install all the dependencies on your host machine, such as the PHP runtime and a compatible database.
 

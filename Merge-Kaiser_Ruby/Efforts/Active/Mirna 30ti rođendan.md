@@ -13,7 +13,7 @@ datum: 2025-03-16
 
 ___## rođendan [[Mirna 💕💕💕]]
 
-- [/] #task rodendanski poklon za Mirnu ⏫ ⏳ 2025-02-26 📅 2025-03-01 🆔 IeKKFd
+- [x] #task rodendanski poklon za Mirnu 🆔 IeKKFd ⏫ ⏳ 2025-02-26 📅 2025-03-01 ✅ 2025-03-14
 	- [x] #task pogledaj [[KiwiCo Crates Subscription Box]]
 	- [[kiwi order for Mirna]]\
 

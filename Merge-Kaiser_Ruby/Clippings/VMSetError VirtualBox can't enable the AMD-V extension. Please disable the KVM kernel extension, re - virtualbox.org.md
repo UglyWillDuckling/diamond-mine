@@ -9,7 +9,7 @@ tags:
   - kvm
 related:
   - "[[Atlas/Tools/pc/virtualbox]]"
-  - "[[docker]]"
+  - "[[Docker]]"
   - "[[Docker Desktop]]"
 ---
 

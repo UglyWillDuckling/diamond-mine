@@ -1,9 +1,9 @@
 {
-  "theme": "system",
+  "theme": "moonstone",
   "cssTheme": "Minimal",
   "accentColor": "#e67a33",
   "baseFontSizeAction": true,
-  "baseFontSize": 15,
+  "baseFontSize": 16,
   "enabledCssSnippets": [
     "dataview-margin-remove",
     "tasks_padding"

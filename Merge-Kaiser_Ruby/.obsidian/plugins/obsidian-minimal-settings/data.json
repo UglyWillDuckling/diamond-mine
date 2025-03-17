@@ -1,5 +1,5 @@
 {
-  "lightStyle": "minimal-light-tonal",
+  "lightStyle": "minimal-light-contrast",
   "darkStyle": "minimal-dark",
   "lightScheme": "minimal-default-light",
   "darkScheme": "minimal-default-dark",
@@ -8,7 +8,7 @@
   "lineWidth": 40,
   "lineWidthWide": 50,
   "maxWidth": 88,
-  "textNormal": 15,
+  "textNormal": 16,
   "textSmall": 13,
   "imgGrid": false,
   "imgWidth": "img-default-width",

@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[vladimir sedlar]]"
+  - "[[+/vladimir sedlar]]"
 ---
 - [x] #task [[Obnova dopunskog osiguranja 2025]] 🆔 nggx4R ⏳ 2025-01-26 📅 2025-01-27 ✅ 2025-01-27
     - [x] #task provjeriti stanje dopunskog osiguranja ⏫ ⏳ 2025-01-27 📅 2025-01-27 ✅ 2025-01-27
@@ -12,6 +12,6 @@ OIB: 483 294 038 32
 MBO: 152510736
 DOB: 6.9.1990.
 
-[[vladimir sedlar]]
+[[+/vladimir sedlar]]
 
 [[kompare mail s ponudama]]

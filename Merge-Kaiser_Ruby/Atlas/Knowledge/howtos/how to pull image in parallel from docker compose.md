@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[docker]]"
+  - "[[Docker]]"
   - "[[Docker Compose]]"
 tags:
   - howto

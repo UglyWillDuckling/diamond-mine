@@ -2,7 +2,7 @@
 tags:
   - howto
 ---
-- [ ] remind me DNS checker (@2025-03-14)
+- [x] remind me DNS checker (@2025-03-15)
 ___
 
 go to

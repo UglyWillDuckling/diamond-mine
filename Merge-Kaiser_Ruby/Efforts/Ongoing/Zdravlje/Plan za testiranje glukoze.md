@@ -1,4 +1,4 @@
-- [ ] #task zapisivati nalaze glukoze prema [[Plan za testiranje glukoze|planu]] ⏳ 2025-03-04 📅 2025-03-25 🆔 jyMUcS
+- [/] #task zapisivati nalaze glukoze prema [[Plan za testiranje glukoze|planu]] 🆔 jyMUcS ⏳ 2025-03-04 📅 2025-03-25
 	- [ ] napraviti popis `opasne` hrane
 	- [ ] napraviti popis `dobre` hrane
 	- [ ] zapisivati zanimljivosti 

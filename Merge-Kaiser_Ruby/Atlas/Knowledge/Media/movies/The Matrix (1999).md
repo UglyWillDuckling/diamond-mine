@@ -17,8 +17,6 @@ director:
 writer:
   - Lilly Wachowski
   - Lana Wachowski
-studio:
-  - N/A
 duration: 136 min
 onlineRating: 8.7
 actors:
@@ -34,3 +32,4 @@ personalRating: 0
 tags:
   - film
 ---
+![matrix](https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg)

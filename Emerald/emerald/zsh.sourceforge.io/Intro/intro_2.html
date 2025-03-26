@@ -1,0 +1,283 @@
+<HTML>
+<HEAD>
+<!-- This HTML file has been created by texi2html 1.44
+     from intro.texi on 30 November 1995 -->
+
+<TITLE>An Introduction to the Z Shell - Filename Generation</TITLE>
+</HEAD>
+<BODY>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_1.html">previous</A>, <A HREF="intro_3.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+<HR>
+
+
+<H1><A NAME="SEC2" HREF="intro_toc.html#SEC2">Filename Generation</A></H1>
+<P>
+<A NAME="IDX1"></A>
+<A NAME="IDX2"></A>
+
+</P>
+
+<P>
+<A NAME="IDX3"></A>
+
+</P>
+<P>
+Otherwise known as <EM>globbing</EM>, filename generation is quite
+extensive in zsh.  Of course, it has all the basics:
+</P>
+
+<PRE>
+% ls
+Makefile   file.pro   foo.o      main.o     q.c        run234     stuff
+bar.o      foo        link       morestuff  run123     run240     sub
+file.h     foo.c      main.h     pipe       run2       run303
+% ls *.c
+foo.c  q.c
+% ls *.[co]
+bar.o   foo.c   foo.o   main.o  q.c
+% ls foo.?
+foo.c  foo.o
+% ls *.[^c]
+bar.o   file.h  foo.o   main.h  main.o
+% ls *.[^oh]
+foo.c  q.c
+</PRE>
+
+<P>
+<A NAME="IDX4"></A>
+Also, if the <CODE>EXTENDEDGLOB</CODE> option is set, some new features are
+activated.  For example, the <KBD>^</KBD> character negates the pattern
+following it:
+</P>
+
+<PRE>
+% setopt extendedglob
+% ls -d ^*.c
+Makefile   file.pro   link       morestuff  run2       run303
+bar.o      foo        main.h     pipe       run234     stuff
+file.h     foo.o      main.o     run123     run240     sub
+% ls -d ^*.*
+Makefile   link       pipe       run2       run240     stuff
+foo        morestuff  run123     run234     run303     sub
+% ls -d ^Makefile
+bar.o      foo        link       morestuff  run123     run240     sub
+file.h     foo.c      main.h     pipe       run2       run303
+file.pro   foo.o      main.o     q.c        run234     stuff
+% ls -d *.^c
+.rhosts   bar.o     file.h    file.pro  foo.o     main.h    main.o
+</PRE>
+
+<P>
+An expression of the form <CODE>&#60;x-y&#62;</CODE> matches a range of integers:
+
+</P>
+
+<PRE>
+% ls run&#60;200-300&#62;
+run234  run240
+% ls run&#60;300-400&#62;
+run303
+% ls run&#60;-200&#62;
+run123  run2
+% ls run&#60;300-&#62;
+run303
+% ls run&#60;&#62;
+run123  run2    run234  run240  run303
+</PRE>
+
+<P>
+Grouping is possible:
+<A NAME="IDX5"></A>
+
+</P>
+
+<PRE>
+% ls (foo|bar).*
+bar.o  foo.c  foo.o
+% ls *.(c|o|pro)
+bar.o     file.pro  foo.c     foo.o     main.o    q.c
+</PRE>
+
+<P>
+Also, the string <CODE>**/</CODE> forces a recursive search of subdirectories:
+<A NAME="IDX6"></A>
+<A NAME="IDX7"></A>
+
+</P>
+
+<PRE>
+% ls -R
+Makefile   file.pro   foo.o      main.o     q.c        run234     stuff
+bar.o      foo        link       morestuff  run123     run240     sub
+file.h     foo.c      main.h     pipe       run2       run303
+
+morestuff:
+
+stuff:
+file  xxx   yyy
+
+stuff/xxx:
+foobar
+
+stuff/yyy:
+frobar
+% ls **/*bar
+stuff/xxx/foobar  stuff/yyy/frobar
+% ls **/f*
+file.h            foo               foo.o             stuff/xxx/foobar
+file.pro          foo.c             stuff/file        stuff/yyy/frobar
+% ls *bar*
+bar.o
+% ls **/*bar*
+bar.o             stuff/xxx/foobar  stuff/yyy/frobar
+% ls stuff/**/*bar*
+stuff/xxx/foobar  stuff/yyy/frobar
+</PRE>
+
+<P>
+It is possible to exclude certain files from the patterns using the
+<KBD>~</KBD> character.  A pattern of the form <CODE>*.c~bar.c</CODE> lists all
+files matching <CODE>*.c</CODE>, except for the file <TT>`bar.c'</TT>.
+</P>
+
+<PRE>
+% ls *.c
+foo.c    foob.c    bar.c
+% ls *.c~bar.c
+foo.c    foob.c
+% ls *.c~f*
+bar.c
+</PRE>
+
+<P>
+<A NAME="IDX8"></A>
+One can add a number of <EM>qualifiers</EM> to the end of any of these
+patterns, to restrict matches to certain file types.  A qualified
+pattern is of the form
+
+</P>
+<P>
+<VAR>pattern(...)</VAR>
+
+</P>
+<P>
+with single-letter qualifiers inside the parentheses.
+
+</P>
+
+<PRE>
+% alias l='ls -dF'
+% l *
+Makefile    foo*        main.h      q.c         run240
+bar.o       foo.c       main.o      run123      run303
+file.h      foo.o       morestuff/  run2        stuff/
+file.pro    link@       pipe        run234      sub
+% l *(/)
+morestuff/  stuff/
+% l *(@)
+link@
+% l *(*)
+foo*        link@       morestuff/  stuff/
+% l *(x)
+foo*        link@       morestuff/  stuff/
+% l *(X)
+foo*        link@       morestuff/  stuff/
+% l *(R)
+bar.o       foo*        link@       morestuff/  run123      run240
+file.h      foo.c       main.h      pipe        run2        run303
+file.pro    foo.o       main.o      q.c         run234      stuff/
+</PRE>
+
+<P>
+Note that <CODE>*(x)</CODE> and <CODE>*(*)</CODE> both match executables.
+<CODE>*(X)</CODE> matches files executable by others, as opposed to
+<CODE>*(x)</CODE>, which matches files executable by the owner.
+<CODE>*(R)</CODE> and <CODE>*(r)</CODE> match readable files;
+<CODE>*(W)</CODE> and <CODE>*(w)</CODE>, which checks for writable files.
+<CODE>*(W)</CODE> is especially important, since it checks for world-writable
+files:
+
+</P>
+
+<PRE>
+% l *(w)
+bar.o       foo*        link@       morestuff/  run123      run240
+file.h      foo.c       main.h      pipe        run2        run303
+file.pro    foo.o       main.o      q.c         run234      stuff/
+% l *(W)
+link@   run240
+% l -l link run240
+lrwxrwxrwx  1 pfalstad       10 May 23 18:12 link -&#62; /bin/false*
+-rw-rw-rw-  1 pfalstad        0 May 23 18:12 run240
+</PRE>
+
+<P>
+You can filter out the symbolic links with the <KBD>^</KBD> character:
+
+</P>
+
+<PRE>
+% l *(W^@)
+run240
+% l *(x)
+foo*        link@       morestuff/  stuff/
+% l *(x^@/)
+foo*
+</PRE>
+
+<P>
+To find all plain files, you can use <KBD>.</KBD>:
+
+</P>
+
+<PRE>
+% l *(.)
+Makefile  file.h    foo*      foo.o     main.o    run123    run234    run303
+bar.o     file.pro  foo.c     main.h    q.c       run2      run240    sub
+% l *(^.)
+link@       morestuff/  pipe        stuff/
+% l s*(.)
+stuff/   sub
+% l *(p)
+pipe
+% l -l *(p)
+prw-r--r--  1 pfalstad        0 May 23 18:12 pipe
+</PRE>
+
+<P>
+<CODE>*(U)</CODE> matches all files owned by you.  To search for all files not
+owned by you, use <CODE>*(^U)</CODE>:
+
+</P>
+
+<PRE>
+% l -l *(^U)
+-rw-------  1 subbarao       29 May 23 18:13 sub
+</PRE>
+
+<P>
+This searches for setuid files:
+
+</P>
+
+<PRE>
+% l -l *(s)
+-rwsr-xr-x  1 pfalstad       16 May 23 18:12 foo*
+</PRE>
+
+<P>
+This checks for a certain user's files:
+
+</P>
+
+<PRE>
+% ypmatch subbarao passwd
+subbarao:*:3338:35:Kartik Subbarao:/u/subbarao:/usr/princeton/bin/zsh
+% l -l *(u3338)
+-rw-------  1 subbarao       29 May 23 18:13 sub
+</PRE>
+
+<HR>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_1.html">previous</A>, <A HREF="intro_3.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+</BODY>
+</HTML>

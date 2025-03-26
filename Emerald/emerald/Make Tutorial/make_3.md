@@ -4,16 +4,19 @@ Go to the [previous](make_2.md), [next](make_4.md) section.
 
 # [Writing Makefiles](make_toc.md#SEC12){#SEC12}
 
-[]{#IDX48}
-
 The information that tells `make` how to recompile a system comes from
 reading a data base called the [makefile]{.dfn}.
 
-## [What Makefiles Contain](make_toc.md#SEC13){#SEC13}
+## [What Makefiles Contain](make_toc.md#SEC13)
 
-Makefiles contain five kinds of things: [explicit rules]{.dfn},
-[implicit rules]{.dfn}, [variable definitions]{.dfn},
-[directives]{.dfn}, and [comments]{.dfn}. Rules, variables, and
+Makefiles contain five kinds of things: 
+- [explicit rules]{.dfn},
+- [implicit rules]{.dfn},
+- [variable definitions]{.dfn},
+- [directives]{.dfn},``
+- [comments]{.dfn}. 
+
+Rules, variables, and
 directives are described at length in later chapters.
 
 []{#IDX49} []{#IDX50}
@@ -56,7 +59,7 @@ directives are described at length in later chapters.
 
 []{#IDX57} []{#IDX58} []{#IDX59} []{#IDX60}
 
-## [What Name to Give Your Makefile](make_toc.md#SEC14){#SEC14}
+## [What Name to Give Your Makefile](make_toc.md#SEC14)
 
 By default, when `make` looks for the makefile, it tries the following
 names, in order: `` `GNUmakefile' ``, `` `makefile' `` and
@@ -89,9 +92,6 @@ several makefiles. All the makefiles are effectively concatenated in the
 order specified. The default makefile names `` `GNUmakefile' ``,
 `` `makefile' `` and `` `Makefile' `` are not checked automatically if
 you specify `` `-f' ``{.sample} or `` `--file' ``{.sample}.[]{#IDX69}
-[]{#IDX70} []{#IDX71} []{#IDX68}
-
-[]{#IDX72} []{#IDX73}
 
 ## [Including Other Makefiles](make_toc.md#SEC15){#SEC15}
 
@@ -142,8 +142,6 @@ is included by the main makefile. This practice is generally cleaner
 than that of somehow appending the dependencies to the end of the main
 makefile as has been traditionally done with other versions of `make`.
 See section [Generating Dependencies Automatically](make_4.md#SEC41).
-[]{#IDX79} []{#IDX80} []{#IDX78} []{#IDX81} []{#IDX82} []{#IDX83}
-[]{#IDX84} []{#IDX85}
 
 If the specified name does not start with a slash, and the file is not
 found in the current directory, several other directories are searched.
@@ -173,11 +171,7 @@ instead of `include`, like this:
 This is acts like `include` in every way except that there is no error
 (not even a warning) if any of the `filenames`{.variable} do not exist.
 
-[]{#IDX86} []{#IDX87}
-
 ## [The Variable `MAKEFILES`](make_toc.md#SEC16){#SEC16}
-
-[]{#IDX88}
 
 If the environment variable `MAKEFILES` is defined, `make` considers its
 value as a list of names (separated by whitespace) of additional
@@ -205,9 +199,7 @@ by anyone else. It is much better to write explicit `include` directives
 in the makefiles. See section [Including Other
 Makefiles](make_3.md#SEC15).
 
-## [How Makefiles Are Remade](make_toc.md#SEC17){#SEC17}
-
-[]{#IDX90} []{#IDX91} []{#IDX92}
+## [How Makefiles Are Remade](make_toc.md#SEC17)
 
 Sometimes makefiles can be remade from other files, such as RCS or SCCS
 files. If a makefile can be remade from other files, you probably want
@@ -279,8 +271,6 @@ actually running them, and then print the commands needed to update
 those specified by the existing contents of `` `mfile' ``.
 
 ## [Overriding Part of Another Makefile](make_toc.md#SEC18){#SEC18}
-
-[]{#IDX93} []{#IDX94}
 
 Sometimes it is useful to have a makefile that is mostly just like
 another makefile. You can often use the `` `include' ``{.sample}

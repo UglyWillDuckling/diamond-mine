@@ -14,20 +14,20 @@ Here is a brief overview:
 
 Run all tests (default):
 
-```prism
+```r
 jest
 ```
 
 Run only the tests that were specified with a pattern or filename:
 
-```prism
+```r
 jest my-test #or
 jest path/to/my-test.js
 ```
 
 Run tests related to changed files based on hg/git (uncommitted files):
 
-```prism
+```r
 jest -o
 ```
 

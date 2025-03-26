@@ -2,7 +2,7 @@
 tags:
   - howto
 ---
-  - [ ] remind me (@[[2025-03-25]])
+  - [x] remind me (@[[2025-03-25]])
   ___
   
   To remove a suffix from a filename in bash, you can use the following

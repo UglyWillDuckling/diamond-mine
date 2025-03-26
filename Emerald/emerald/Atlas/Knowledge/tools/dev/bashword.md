@@ -27,4 +27,4 @@ Generate passwords for the given **users**
 
 - [x] remind (@[[Planning 2025-02-10]] 10:51)
 - [x] monthly reminder (@[[2025-03-04]] 10:44)
-- [ ] bi-weekly (@[[2025-03-18]])
+- [x] bi-weekly (@[[2025-03-25]])

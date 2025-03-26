@@ -1,5 +1,7 @@
 ---
 date: 2025-02-21T10:16:00
+related:
+  - "[[Error 24 - unix]]"
 ---
 #issue/gitbutler 
 

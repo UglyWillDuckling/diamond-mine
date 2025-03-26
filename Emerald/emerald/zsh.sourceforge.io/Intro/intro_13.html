@@ -1,0 +1,288 @@
+<HTML>
+<HEAD>
+<!-- This HTML file has been created by texi2html 1.44
+     from intro.texi on 30 November 1995 -->
+
+<TITLE>An Introduction to the Z Shell - Shell Parameters</TITLE>
+</HEAD>
+<BODY>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_12.html">previous</A>, <A HREF="intro_14.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+<HR>
+
+
+<H1><A NAME="SEC13" HREF="intro_toc.html#SEC13">Shell Parameters</A></H1>
+<P>
+<A NAME="IDX161"></A>
+<A NAME="IDX162"></A>
+
+</P>
+
+<P>
+The shell has many predefined parameters that may be accessed.  Here are
+some examples:
+<A NAME="IDX163"></A>
+<A NAME="IDX164"></A>
+<A NAME="IDX165"></A>
+<A NAME="IDX166"></A>
+<A NAME="IDX167"></A>
+
+</P>
+
+<PRE>
+% sleep 10 &#38;
+[1] 3820
+% echo $!
+3820
+% set a b c
+% echo $#
+3
+% echo $ARGC
+3
+% ( exit 20 ) ; echo $?
+20
+% false; echo $status
+1
+</PRE>
+
+<P>
+(<CODE>$?</CODE> and <CODE>$status</CODE> are equivalent.)
+<A NAME="IDX168"></A>
+<A NAME="IDX169"></A>
+<A NAME="IDX170"></A>
+<A NAME="IDX171"></A>
+<A NAME="IDX172"></A>
+<A NAME="IDX173"></A>
+
+</P>
+
+<PRE>
+% echo $HOST $HOSTTYPE
+dendrite sun4
+% echo $UID $GID
+701 60
+% cd /tmp
+% cd /home
+% echo $PWD $OLDPWD
+/home /tmp
+% ls $OLDPWD/.getwd 
+/tmp/.getwd
+</PRE>
+
+<P>
+<CODE>~+</CODE> and <CODE>~-</CODE> are short for <CODE>$PWD</CODE> and <CODE>$OLDPWD</CODE>, 
+respectively.<A NAME="IDX174"></A>
+<A NAME="IDX175"></A>
+<A NAME="IDX176"></A>
+<A NAME="IDX177"></A>
+<A NAME="IDX178"></A>
+<A NAME="IDX179"></A>
+
+</P>
+
+<PRE>
+% ls ~-/.getwd
+/tmp/.getwd
+% ls -d ~+/learning
+/home/learning
+% echo $RANDOM
+4880
+% echo $RANDOM
+11785
+% echo $RANDOM
+2062
+% echo $TTY
+/dev/ttyp4
+% echo $VERSION
+zsh v2.00.03
+% echo $USERNAME
+pf
+</PRE>
+
+<P>
+<A NAME="IDX180"></A>
+<A NAME="IDX181"></A>
+The <CODE>cdpath</CODE> variable sets the search path for the <CODE>cd</CODE>
+command.  If you do not specify <KBD>.</KBD> somewhere in the path, it is
+assumed to be the first component.
+</P>
+
+<PRE>
+% cdpath=( /usr ~ ~/zsh )
+% ls /usr
+5bin         dict         lang         net          sccs         sys
+5include     etc          lector       nserve       services     tmp
+5lib         export       lib          oed          share        ucb
+adm          games        local        old          skel         ucbinclude
+bin          geac         lost+found   openwin      spool        ucblib
+boot         hosts        macsyma_417  pat          src          xpg2bin
+demo         include      man          princeton    stand        xpg2include
+diag         kvm          mdec         pub          swap         xpg2lib
+% cd spool
+/usr/spool
+% cd bin
+/usr/bin
+% cd func
+~/func
+% cd 
+% cd pub
+% pwd
+/u/pfalstad/pub
+% ls -d /usr/pub
+/usr/pub
+</PRE>
+
+<P>
+<A NAME="IDX182"></A>
+<A NAME="IDX183"></A>
+<CODE>PATH</CODE> and <CODE>path</CODE> both set the search path for commands.
+These two variables are equivalent, except that one is a string and one
+is an array.  If the user modifies <CODE>PATH</CODE>, the shell changes
+<CODE>path</CODE> as well, and vice versa.
+</P>
+
+<PRE>
+% PATH=/bin:/usr/bin:/tmp:.
+% echo $path
+/bin /usr/bin /tmp .
+% path=( /usr/bin . /usr/local/bin /usr/ucb )
+% echo $PATH
+/usr/bin:.:/usr/local/bin:/usr/ucb
+</PRE>
+
+<P>
+The same is true of <CODE>CDPATH</CODE> and <CODE>cdpath</CODE>:
+<A NAME="IDX184"></A>
+<A NAME="IDX185"></A>
+
+</P>
+
+<PRE>
+% echo $CDPATH
+/usr:/u/pfalstad:/u/pfalstad/zsh
+% CDPATH=/u/subbarao:/usr/src:/tmp
+% echo $cdpath
+/u/subbarao /usr/src /tmp
+</PRE>
+
+<P>
+<A NAME="IDX186"></A>
+In general, parameters with names in all lowercase are arrays;
+assignments to them take the form:
+
+</P>
+
+<PRE>
+<VAR>name</VAR>=(<VAR>elem ...</VAR>)
+</PRE>
+
+<P>
+<A NAME="IDX187"></A>
+Parameters with names in all uppercase are strings.  If there is both an
+array and a string version of the same parameter, the string version is
+a colon-separated list, like <CODE>PATH</CODE>.
+
+</P>
+<P>
+<A NAME="IDX188"></A>
+<A NAME="IDX189"></A>
+<A NAME="IDX190"></A>
+<CODE>HISTFILE</CODE> is the name of the history file, where the history is
+saved when a shell exits.
+</P>
+
+<PRE>
+% zsh
+phoenix% HISTFILE=/tmp/history
+phoenix% SAVEHIST=20
+phoenix% echo foo
+foo
+phoenix% date
+Fri May 24 05:39:35 EDT 1991
+phoenix% uptime
+  5:39am  up 4 days, 20:02,  40 users,  load average: 2.30, 2.20, 2.00
+phoenix% exit
+% cat /tmp/history
+HISTFILE=/tmp/history
+SAVEHIST=20
+echo foo
+date
+uptime
+exit
+% HISTSIZE=3
+% history
+   28  rm /tmp/history
+   29  HISTSIZE=3
+   30  history
+</PRE>
+
+<P>
+In zsh, if you say
+
+</P>
+
+<PRE>
+% &#62;file
+</PRE>
+
+<P>
+the command <CODE>cat</CODE> is normally assumed:
+
+</P>
+
+<PRE>
+% &#62;file
+foo!    
+^D
+% cat file
+foo!
+</PRE>
+
+<P>
+Thus, you can view a file simply by typing:
+
+</P>
+
+<PRE>
+% &#60;file
+foo!
+</PRE>
+
+<P>
+<A NAME="IDX191"></A>
+However, this is not csh or sh compatible.  To correct this, change the
+value of the parameter <CODE>NULLCMD</CODE>, which is <CODE>cat</CODE> by default.
+<A NAME="IDX192"></A>
+
+</P>
+
+<PRE>
+% NULLCMD=:
+% &#62;file
+% ls -l file
+-rw-r--r--  1 pfalstad        0 May 24 05:41 file
+</PRE>
+
+<P>
+If <CODE>NULLCMD</CODE> is unset, the shell reports an error if no command is
+specified (like csh).
+
+</P>
+
+<PRE>
+% unset NULLCMD
+% &#62;file
+zsh: redirection with no command
+</PRE>
+
+<P>
+<A NAME="IDX193"></A>
+Actually, <CODE>READNULLCMD</CODE> is used whenever you have a null command
+reading input from a single file.  Thus, you can set <CODE>READNULLCMD</CODE>
+to <CODE>more</CODE> or <CODE>less</CODE> rather than <CODE>cat</CODE>.  Also, if you set
+<CODE>NULLCMD</CODE> to <KBD>:</KBD> for sh compatibility, you can still read files
+with <CODE>&#60; file</CODE> if you leave <CODE>READNULLCMD</CODE> set to <CODE>more</CODE>.
+</P>
+<HR>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_12.html">previous</A>, <A HREF="intro_14.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+</BODY>
+</HTML>

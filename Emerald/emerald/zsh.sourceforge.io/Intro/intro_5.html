@@ -1,0 +1,155 @@
+<HTML>
+<HEAD>
+<!-- This HTML file has been created by texi2html 1.44
+     from intro.texi on 30 November 1995 -->
+
+<TITLE>An Introduction to the Z Shell - Directories</TITLE>
+</HEAD>
+<BODY>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_4.html">previous</A>, <A HREF="intro_6.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+<HR>
+
+
+<H1><A NAME="SEC5" HREF="intro_toc.html#SEC5">Directories</A></H1>
+<P>
+<A NAME="IDX28"></A>
+
+</P>
+
+<P>
+One nice feature of zsh is the way it prints directories.  For example,
+if we set the prompt like this:
+
+</P>
+
+<PRE>
+phoenix% PROMPT='%~&#62; '
+~&#62; cd src
+~/src&#62;
+</PRE>
+
+<P>
+the shell will print the current directory in the prompt, using the
+<KBD>~</KBD> character.  However, zsh is smarter than most other shells in
+this respect:
+</P>
+
+<PRE>
+~/src&#62; cd ~subbarao
+~subbarao&#62; cd ~maruchck
+~maruchck&#62; cd lib
+~maruchck/lib&#62; cd fun
+~maruchck/lib/fun&#62; foo=/usr/princeton/common/src
+~maruchck/lib/fun&#62; cd ~foo
+~foo&#62; cd ..
+/usr/princeton/common&#62; cd src
+~foo&#62; cd news/nntp
+~foo/news/nntp&#62; cd inews
+~foo/news/nntp/inews&#62;
+</PRE>
+
+<P>
+Note that zsh prints <EM>other</EM> users' directories in the form
+<CODE>~user</CODE>.  Also note that you can set a parameter and use it as a
+directory name; zsh will act as if <CODE>foo</CODE> is a user with the login
+directory <CODE>/usr/princeton/common/src</CODE>.  This is convenient,
+especially if you're sick of seeing prompts like this:
+</P>
+
+<PRE>
+phoenix:/usr/princeton/common/src/X.V11R4/contrib/clients/xv/docs&#62;
+</PRE>
+
+<P>
+If you get stuck in this position, you can give the current directory a
+short name, like this:
+
+</P>
+
+<PRE>
+/usr/princeton/common/src/news/nntp/inews&#62; inews=$PWD
+/usr/princeton/common/src/news/nntp/inews&#62; echo ~inews
+/usr/princeton/common/src/news/nntp/inews
+~inews&#62;
+</PRE>
+
+<P>
+When you reference a directory in the form <CODE>~inews</CODE>, the shell
+assumes that you want the directory displayed in this form; thus simply
+typing <CODE>echo ~inews</CODE> or <CODE>cd ~inews</CODE> causes the prompt to be
+shortened.  You can define a shell function for this purpose:
+</P>
+
+<PRE>
+~inews&#62; namedir () { $1=$PWD ;  : ~$1 }
+~inews&#62; cd /usr/princeton/bin
+/usr/princeton/bin&#62; namedir pbin
+~pbin&#62; cd /var/spool/mail
+/var/spool/mail&#62; namedir spool
+~spool&#62; cd .msgs
+~spool/.msgs&#62;
+</PRE>
+
+<P>
+<A NAME="IDX29"></A>
+You may want to add this one-line function to your <TT>`.zshrc'</TT>.
+
+</P>
+
+<P>
+<A NAME="IDX30"></A>
+zsh can also put the current directory in your title bar, if you are
+using a windowing system.  One way to do this is with the <CODE>chpwd</CODE>
+function, which is automatically executed by the shell whenever you
+change directory.  If you are using xterm, this will work:
+<A NAME="IDX31"></A>
+<A NAME="IDX32"></A>
+
+</P>
+
+<PRE>
+chpwd () { print -Pn '^[]2;%~^G' }
+</PRE>
+
+<P>
+<A NAME="IDX33"></A>
+The <CODE>-P</CODE> option tells <CODE>print</CODE> to treat its arguments like a
+prompt string; otherwise the <CODE>%~</CODE> would not be expanded.  The
+<CODE>-n</CODE> option suppresses the terminating newline, as with
+<CODE>echo</CODE>.<A NAME="IDX34"></A>
+
+</P>
+<P>
+If you are using an IRIS <CODE>wsh</CODE>, do this:
+
+</P>
+
+<PRE>
+chpwd () { print -Pn '^[P1.y%~^[' }
+</PRE>
+
+<P>
+The <CODE>print -D</CODE> command has other uses.  For example, to print the
+current directory to standard output in short form, you can do this:
+
+</P>
+
+<PRE>
+% print -D $PWD
+~subbarao/src
+</PRE>
+
+<P>
+and to print each component of the path in short form:
+
+</P>
+
+<PRE>
+% print -D $path
+/bin /usr/bin ~locbin ~locbin/X11 ~/bin
+</PRE>
+
+<HR>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_4.html">previous</A>, <A HREF="intro_6.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+</BODY>
+</HTML>

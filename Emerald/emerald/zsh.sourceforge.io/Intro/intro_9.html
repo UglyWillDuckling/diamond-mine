@@ -1,0 +1,104 @@
+<HTML>
+<HEAD>
+<!-- This HTML file has been created by texi2html 1.44
+     from intro.texi on 30 November 1995 -->
+
+<TITLE>An Introduction to the Z Shell - History</TITLE>
+</HEAD>
+<BODY>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_8.html">previous</A>, <A HREF="intro_10.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+<HR>
+
+
+<H1><A NAME="SEC9" HREF="intro_toc.html#SEC9">History</A></H1>
+<P>
+<A NAME="IDX64"></A>
+
+</P>
+
+<P>
+There are several ways to manipulate history in zsh.  One way is to use
+csh-style <KBD>!</KBD> history:
+
+</P>
+
+<PRE>
+% /usr/local/bin/!:0 !-2*:s/foo/bar/ &#62;&#62;!$
+</PRE>
+
+<P>
+If you don't want to use this, you can turn it off by typing
+<CODE>setopt nobanghist</CODE>.
+</P>
+<P>
+<A NAME="IDX65"></A>
+Another way is to use the <CODE>fc</CODE> command.  For example, if you type
+an erroneous command:
+</P>
+
+<PRE>
+% for i in `cat /etc/clients` 
+ do 
+ rpu $i 
+ done
+zsh: command not found: rpu
+zsh: command not found: rpu
+zsh: command not found: rpu
+...
+</PRE>
+
+<P>
+typing <CODE>fc</CODE> will execute an editor on this command, allowing you to
+fix it.  (The default editor is <CODE>vi</CODE>, by the way, not
+<CODE>ed</CODE>).<A NAME="IDX66"></A>
+<A NAME="IDX67"></A>
+
+</P>
+
+<PRE>
+% fc
+49
+/rpu/s//rup/p
+ rup $i 
+w
+49
+q
+for i in `cat /etc/clients` 
+ do 
+ rup $i 
+ done
+        beam    up  2 days, 10:17,    load average: 0.86, 0.80, 0.50
+         bow    up  4 days,  8:41,    load average: 0.91, 0.80, 0.50
+        burn    up          17:18,    load average: 0.91, 0.80, 0.50
+       burst    up  9 days,  1:49,    load average: 0.95, 0.80, 0.50
+         tan    up          11:14,    load average: 0.91, 0.80, 0.50
+       bathe    up  3 days, 17:49,    load average: 1.84, 1.79, 1.50
+        bird    up  1 day,   9:13,    load average: 1.95, 1.82, 1.51
+      bonnet    up  2 days, 21:18,    load average: 0.93, 0.80, 0.50
+...
+</PRE>
+
+<P>
+A variant of the <CODE>fc</CODE> command is <CODE>r</CODE>, which redoes the last
+command, with optional changes:<A NAME="IDX68"></A>
+
+</P>
+
+<PRE>
+% echo foo
+foo
+% r
+echo foo
+foo
+
+% echo foo
+foo
+% r foo=bar
+echo bar
+bar
+</PRE>
+
+<HR>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_8.html">previous</A>, <A HREF="intro_10.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+</BODY>
+</HTML>

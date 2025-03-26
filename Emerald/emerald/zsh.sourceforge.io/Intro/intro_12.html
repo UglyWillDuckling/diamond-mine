@@ -1,0 +1,329 @@
+<HTML>
+<HEAD>
+<!-- This HTML file has been created by texi2html 1.44
+     from intro.texi on 30 November 1995 -->
+
+<TITLE>An Introduction to the Z Shell - Parameter Substitution</TITLE>
+</HEAD>
+<BODY>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_11.html">previous</A>, <A HREF="intro_13.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+<HR>
+
+
+<H1><A NAME="SEC12" HREF="intro_toc.html#SEC12">Parameter Substitution</A></H1>
+<P>
+<A NAME="IDX138"></A>
+<A NAME="IDX139"></A>
+
+</P>
+
+<P>
+In zsh, parameters are set like this:
+
+</P>
+
+<PRE>
+% foo=bar
+% echo $foo
+bar
+</PRE>
+
+<P>
+Spaces before or after the <KBD>=</KBD> are frowned upon:
+
+</P>
+
+<PRE>
+% foo = bar
+zsh: command not found: foo
+</PRE>
+
+<P>
+Also, <CODE>set</CODE> doesn't work for setting parameters:
+<A NAME="IDX140"></A>
+
+</P>
+
+<PRE>
+% set foo=bar
+% set foo = bar
+% echo $foo
+
+%
+</PRE>
+
+<P>
+Note that no error message was printed.  This is because both of these
+commands were perfectly valid; the <CODE>set</CODE> builtin assigns its
+arguments to the <EM>positional parameters</EM> (<CODE>$1</CODE>, <CODE>$2</CODE>,
+etc.).<A NAME="IDX141"></A>
+<A NAME="IDX142"></A>
+<A NAME="IDX143"></A>
+<A NAME="IDX144"></A>
+
+</P>
+
+<PRE>
+% set foo=bar
+% echo $1
+foo=bar
+% set foo = bar
+% echo $3 $2
+bar =
+</PRE>
+
+<P>
+If you're really intent on using the csh syntax, define a function like
+this:
+<A NAME="IDX145"></A>
+
+</P>
+
+<PRE>
+% set () {
+&#62;    eval "$1$2$3"
+&#62; }
+% set foo = bar
+% set fuu=brrr
+% echo $foo $fuu
+bar brrr
+</PRE>
+
+<P>
+But then, of course you can't use the form of <CODE>set</CODE> with options,
+like <CODE>set -F</CODE> (which turns off filename generation).  Also, the
+<CODE>set</CODE> command by itself won't list all the parameters like it
+should.  To get around that you need a <CODE>case</CODE> statement:<A NAME="IDX146"></A>
+
+</P>
+
+<PRE>
+% set () {
+&#62;    case $1 in
+&#62;    -*|+*|") builtin set $* ;;
+&#62;    *) eval "$1$2$3" ;;
+&#62;    esac
+&#62; }
+</PRE>
+
+<P>
+For the most part, this should make csh users happy.
+
+</P>
+
+<P>
+The following sh-style operators are supported in zsh:
+<A NAME="IDX147"></A>
+<A NAME="IDX148"></A>
+
+</P>
+
+<PRE>
+% unset null
+% echo ${foo-xxx}
+bar
+% echo ${null-xxx}
+xxx
+% unset null
+% echo ${null=xxx}
+xxx
+% echo $null
+xxx
+% echo ${foo=xxx}
+bar
+% echo $foo
+bar
+% unset null
+% echo ${null+set}
+
+% echo ${foo+set}
+set
+</PRE>
+
+<P>
+Also, csh-style <KBD>:</KBD> modifiers may be appended to a parameter
+<A NAME="IDX149"></A>
+<A NAME="IDX150"></A>
+substitution.
+
+</P>
+
+<PRE>
+% echo $PWD
+/home/learning/pf/zsh/zsh2.00/src
+% echo $PWD:h
+/home/learning/pf/zsh/zsh2.00
+% echo $PWD:h:h
+/home/learning/pf/zsh
+% echo $PWD:t
+src
+% name=foo.c
+% echo $name
+foo.c
+% echo $name:r
+foo
+% echo $name:e
+c
+</PRE>
+
+<P>
+<A NAME="IDX151"></A>
+<A NAME="IDX152"></A>
+The equivalent constructs in ksh (which are also supported in zsh) are a
+bit more general and easier to remember.  When the shell expands
+<CODE>${foo#<VAR>pat</VAR>}</CODE>, it checks to see if <VAR>pat</VAR> matches a
+substring at the beginning of the value of <CODE>foo</CODE>.  If so, it
+removes that portion of <CODE>foo</CODE>, using the shortest possible match.
+With <CODE>${foo##<VAR>pat</VAR>}</CODE>, the longest possible match is removed.
+<CODE>${foo%<VAR>pat</VAR>}</CODE> and <CODE>${foo%%<VAR>pat</VAR>}</CODE> remove the
+match from the end.  Here are the ksh equivalents of the <KBD>:</KBD>
+modifiers:
+</P>
+
+<PRE>
+% echo ${PWD%/*}
+/home/learning/pf/zsh/zsh2.00
+% echo ${PWD%/*/*}
+/home/learning/pf/zsh
+% echo ${PWD##*/}
+src
+% echo ${name%.*}
+foo
+% echo ${name#*.}
+c
+</PRE>
+
+<P>
+zsh also has upper/lowercase modifiers:
+<A NAME="IDX153"></A>
+<A NAME="IDX154"></A>
+
+</P>
+
+<PRE>
+% xx=Test
+% echo $xx:u
+TEST
+% echo $xx:l
+test
+</PRE>
+
+<P>
+and a substitution modifier:
+<A NAME="IDX155"></A>
+<A NAME="IDX156"></A>
+
+</P>
+
+<PRE>
+% echo $name:s/foo/bar/
+bar.c
+% ls
+foo.c    foo.h    foo.o    foo.pro
+% for i in foo.*; mv $i $i:s/foo/bar/
+% ls
+bar.c    bar.h    bar.o    bar.pro
+</PRE>
+
+<P>
+<A NAME="IDX157"></A>
+<A NAME="IDX158"></A>
+One possible source of confusion is the fact that in zsh, the result of
+parameter substitution is <EM>not</EM> split into words.  Thus, this will
+not work:
+</P>
+
+<PRE>
+% srcs='glob.c exec.c init.c'
+% ls $srcs
+glob.c exec.c init.c not found
+</PRE>
+
+<P>
+This is considered a feature, not a bug.  If splitting were done by
+default, as it is in most other shells, functions like this would not
+work properly:
+
+</P>
+
+<PRE>
+$ ll () { ls -F $* }
+$ ll 'fuu bar'
+fuu not found
+bar not found
+
+% ll 'fuu bar'
+fuu bar not found
+</PRE>
+
+<P>
+Of course, a hackish workaround is available in sh (and zsh):
+
+</P>
+
+<PRE>
+% setopt shwordsplit
+% ll () { ls -F "$@" }
+% ll 'fuu bar'
+fuu bar not found
+</PRE>
+
+<P>
+If you like the sh behaviour, zsh can accomodate you:
+
+</P>
+
+<PRE>
+% ls ${=srcs}
+exec.c  glob.c  init.c
+% setopt shwordsplit
+% ls $srcs
+exec.c  glob.c  init.c
+</PRE>
+
+<P>
+Another way to get the <CODE>$srcs</CODE> trick to work is to use an array:
+<A NAME="IDX159"></A>
+
+</P>
+
+<PRE>
+% unset srcs
+% srcs=( glob.c exec.c init.c )  
+% ls $srcs
+exec.c  glob.c  init.c
+</PRE>
+
+<P>
+or an alias:
+
+</P>
+
+<PRE>
+% alias -g SRCS='exec.c glob.c init.c'
+% ls SRCS
+exec.c  glob.c  init.c
+</PRE>
+
+<P>
+Another option that modifies parameter expansion is <CODE>RCEXPANDPARAM</CODE>:
+<A NAME="IDX160"></A>
+
+</P>
+
+<PRE>
+% echo foo/$srcs
+foo/glob.c exec.c init.c
+% setopt rcexpandparam
+% echo foo/$srcs
+foo/glob.c foo/exec.c foo/init.c
+% echo foo/${^srcs}
+foo/glob.c foo/exec.c foo/init.c
+% echo foo/$^srcs
+foo/glob.c foo/exec.c foo/init.c
+</PRE>
+
+<HR>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_11.html">previous</A>, <A HREF="intro_13.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+</BODY>
+</HTML>

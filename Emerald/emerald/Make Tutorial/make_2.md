@@ -2,18 +2,17 @@ GNU Make - An Introduction to Makefiles
 
 Go to the [previous](make_1.md), [next](make_3.md) section.
 
-# [An Introduction to Makefiles](make_toc.md#SEC4){#SEC4}
+# [An Introduction to Makefiles](make_toc.md#SEC4)
 
-You need a file called a [makefile]{.dfn} to tell `make` what to do.
+You need a file called a [makefile] to tell `make` what to do.
 Most often, the makefile tells `make` how to compile and link a program.
-[]{#IDX7}
 
 In this chapter, we will discuss a simple makefile that describes how to
 compile and link a text editor which consists of eight C source files
 and three header files. The makefile can also tell `make` how to run
-miscellaneous commands when explicitly asked (for example, to remove
-certain files as a clean-up operation). To see a more complex example of
-a makefile, see section [Complex Makefile Example](make_16.md#SEC116).
+`miscellaneous` commands when explicitly asked (for example, to remove
+certain files as a clean-up operation). 
+To see a more complex example of a makefile, see section [Complex Makefile Example](make_16.md#SEC116).
 
 When `make` recompiles the editor, each changed C source file must be
 recompiled. If a header file has changed, each C source file that
@@ -23,12 +22,9 @@ any source file has been recompiled, all the object files, whether newly
 made or saved from previous compilations, must be linked together to
 produce the new executable editor. []{#IDX9} []{#IDX8}
 
-[]{#IDX10} []{#IDX11} []{#IDX12}
+## [What a Rule Looks Like](make_toc.md#SEC5)
 
-## [What a Rule Looks Like](make_toc.md#SEC5){#SEC5}
-
-A simple makefile consists of \"rules\" with the following shape:
-[]{#IDX13} []{#IDX14} []{#IDX15}
+A simple makefile consists of \"**rules**\" with the following [[shape - programming|shape]]:
 
     target ... : dependencies ...
             command
@@ -44,9 +40,11 @@ A [dependency]{.dfn} is a file that is used as input to create the
 target. A target often depends on several files. []{#IDX16}
 
 A [command]{.dfn} is an action that `make` carries out. A rule may have
-more than one command, each on its own line. **Please note:** you need
-to put a tab character at the beginning of every command line! This is
-an obscurity that catches the unwary.
+more than one command, each on its own line. 
+
+> [!warning] Please note
+> you need to put a **tab** character at the beginning of every command line! This is
+> an obscurity that catches the unwary.
 
 Usually a command is in a rule with dependencies and serves to create a
 target file if any of the dependencies change. However, the rule that
@@ -63,8 +61,6 @@ Rules](make_4.md#SEC19).
 A makefile may contain other text besides rules, but a simple makefile
 need only contain rules. Rules may look somewhat more complicated than
 shown in this template, but all fit the pattern more or less.
-
-[]{#IDX17} []{#IDX18}
 
 ## [A Simple Makefile](make_toc.md#SEC6){#SEC6}
 
@@ -207,7 +203,7 @@ and `` `files.o' `` and then link the file `` `edit' ``.
 
 []{#IDX33} []{#IDX34}
 
-## [Variables Make Makefiles Simpler](make_toc.md#SEC8){#SEC8}
+## [Variables Make Makefiles Simpler](make_toc.md#SEC8)
 
 In our example, we had to list all the object files twice in the rule
 for `` `edit' `` (repeated here):

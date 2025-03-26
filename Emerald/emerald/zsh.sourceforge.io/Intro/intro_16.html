@@ -1,0 +1,261 @@
+<HTML>
+<HEAD>
+<!-- This HTML file has been created by texi2html 1.44
+     from intro.texi on 30 November 1995 -->
+
+<TITLE>An Introduction to the Z Shell - Options</TITLE>
+</HEAD>
+<BODY>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_15.html">previous</A>, <A HREF="intro_17.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+<HR>
+
+
+<H1><A NAME="SEC16" HREF="intro_toc.html#SEC16">Options</A></H1>
+<P>
+<A NAME="IDX204"></A>
+
+</P>
+<P>
+Some options have already been mentioned; here are a few more:
+
+</P>
+
+<PRE>
+% cd /
+% setopt autocd
+% bin
+% pwd
+/bin
+% ../etc
+% pwd
+/etc
+</PRE>
+
+<P>
+<A NAME="IDX205"></A>
+Using the <CODE>AUTOCD</CODE> option, you can simply type the name of a
+directory, and it will become the current directory.
+</P>
+
+<PRE>
+% setopt cdablevars
+% foo=/tmp
+% cd foo
+/tmp
+</PRE>
+
+<P>
+<A NAME="IDX206"></A>
+<A NAME="IDX207"></A>
+With <CODE>CDABLEVARS</CODE>, if the argument to <CODE>cd</CODE> is the name of a
+parameter whose value is a valid directory, it will become the current
+directory.
+</P>
+<P>
+<A NAME="IDX208"></A>
+<A NAME="IDX209"></A>
+<A NAME="IDX210"></A>
+<A NAME="IDX211"></A>
+<CODE>CORRECT</CODE> turns on spelling correction for commands, and the
+<CODE>CORRECTALL</CODE> option turns on spelling correction for all arguments.
+
+</P>
+
+<PRE>
+% setopt correct
+% sl
+zsh: correct `sl' to `ls' [nyae]? y
+% setopt correctall
+% ls x.v11r4
+zsh: correct `x.v11r4' to `X.V11R4' [nyae]? n
+/usr/princton/src/x.v11r4 not found
+% ls /etc/paswd
+zsh: correct to `/etc/paswd' to `/etc/passwd' [nyae]? y
+/etc/passwd
+</PRE>
+
+<P>
+If you press <KBD>y</KBD> when the shell asks you if you want to correct a
+word, it will be corrected.  If you press <KBD>n</KBD>, it will be left
+alone.  Pressing <KBD>a</KBD> aborts the command, and pressing <KBD>e</KBD> brings
+the line up for editing again, in case you agree the word is spelled
+wrong but you don't like the correction.
+</P>
+<P>
+Normally, a quoted expression may contain a newline:
+
+</P>
+
+<PRE>
+% echo '
+&#62; foo
+&#62; '
+
+foo
+
+%
+</PRE>
+
+<P>
+<A NAME="IDX212"></A>
+With <CODE>CSHJUNKIEQUOTES</CODE> set, this is illegal, as it is in csh.
+
+</P>
+
+<PRE>
+% setopt cshjunkiequotes
+% ls 'foo
+zsh: unmatched '
+</PRE>
+
+<P>
+<A NAME="IDX213"></A>
+<A NAME="IDX214"></A>
+<CODE>GLOBDOTS</CODE> lets files beginning with a <KBD>.</KBD> be matched without
+explicitly specifying the dot.
+</P>
+
+<PRE>
+% ls -d *x*
+Mailboxes
+% setopt globdots
+% ls -d *x*
+.exrc         .pnewsexpert  .xserverrc
+.mushexpert   .xinitrc      Mailboxes
+</PRE>
+
+<P>
+<A NAME="IDX215"></A>
+<A NAME="IDX216"></A>
+<A NAME="IDX217"></A>
+<CODE>HISTIGNOREDUPS</CODE> prevents the current line from being saved in the
+history if it is the same as the previous one; <CODE>HISTIGNORESPACE</CODE>
+prevents the current line from being saved if it begins with a space.
+
+</P>
+
+<PRE>
+% PROMPT='%h&#62; '
+39&#62; setopt histignoredups
+40&#62; echo foo
+foo
+41&#62; echo foo
+foo
+41&#62; echo foo
+foo
+41&#62; echo bar
+bar
+42&#62; setopt histignorespace
+43&#62;  echo foo
+foo
+43&#62;  echo fubar
+fubar
+43&#62;  echo fubar
+fubar
+</PRE>
+
+<P>
+<CODE>IGNOREBRACES</CODE> turns off csh-style brace expansion.
+<A NAME="IDX218"></A>
+<A NAME="IDX219"></A>
+<A NAME="IDX220"></A>
+
+</P>
+
+<PRE>
+% echo x{y{z,a},{b,c}d}e
+xyze xyae xbde xcde
+% setopt ignorebraces
+% echo x{y{z,a},{b,c}d}e
+x{y{z,a},{b,c}d}e
+</PRE>
+
+<P>
+<CODE>IGNOREEOF</CODE> forces the user to type <CODE>exit</CODE> or <CODE>logout</CODE>,
+instead of just pressing ^D.<A NAME="IDX221"></A>
+<A NAME="IDX222"></A>
+
+</P>
+
+<PRE>
+% setopt ignoreeof
+% ^D
+zsh: use 'exit' to exit.
+</PRE>
+
+<P>
+<CODE>INTERACTIVECOMMENTS</CODE> turns on interactive comments; comments begin
+with a <KBD>#</KBD>.<A NAME="IDX223"></A>
+
+</P>
+
+<PRE>
+% setopt interactivecomments
+% date # this is a comment
+Fri May 24 06:54:14 EDT 1991
+</PRE>
+
+<P>
+<CODE>NOCLOBBER</CODE> prevents you from accidentally overwriting an existing
+file.<A NAME="IDX224"></A>
+
+</P>
+
+<PRE>
+% setopt noclobber
+% cat /dev/null &#62;~/.zshrc
+zsh: file exists: /u/pfalstad/.zshrc
+</PRE>
+
+<P>
+If you really do want to clobber a file, you can use the <CODE>&#62;!</CODE>
+operator.  To make things easier in this case, the <CODE>&#62;</CODE> is stored in
+the history list as a <CODE>&#62;!</CODE>:
+</P>
+
+<PRE>
+% cat /dev/null &#62;! ~/.zshrc
+% cat /etc/motd &#62; ~/.zshrc
+zsh: file exists: /u/pfalstad/.zshrc
+% !!
+cat /etc/motd &#62;! ~/.zshrc
+% ...
+</PRE>
+
+<P>
+<CODE>RCQUOTES</CODE> lets you use a more elegant method for including single
+quotes in a singly quoted string:
+<A NAME="IDX225"></A>
+
+</P>
+
+<PRE>
+% echo '"don'\"t do that."'
+"don't do that."
+% echo '"don"t do that."'
+"dont do that."
+% setopt rcquotes
+% echo '"don"t do that."'
+"don't do that."
+</PRE>
+
+<P>
+<A NAME="IDX226"></A>
+<A NAME="IDX227"></A>
+Finally, <CODE>SUNKEYBOARDHACK</CODE> wins the award for the strangest option.
+If a line ends with <KBD>`</KBD>, and there are an odd number of them on the
+line, the shell will ignore the trailing <KBD>`</KBD>.  This is provided for
+keyboards whose RETURN key is too small, and too close to the <KBD>`</KBD>
+key.
+</P>
+
+<PRE>
+% setopt sunkeyboardhack
+% date`
+Fri May 24 06:55:38 EDT 1991
+</PRE>
+
+<HR>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_15.html">previous</A>, <A HREF="intro_17.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+</BODY>
+</HTML>

@@ -16,4 +16,4 @@ tags:
 4. Insert the 2.4G receiver and wait for the pairing to succeed.
 
 ___
-- [ ] remind me nuphy (@[[2025-03-18]])
+- [x] remind me nuphy (@[[2025-03-18]])

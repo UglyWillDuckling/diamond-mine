@@ -1,0 +1,112 @@
+<HTML>
+<HEAD>
+<!-- This HTML file has been created by texi2html 1.44
+     from intro.texi on 30 November 1995 -->
+
+<TITLE>An Introduction to the Z Shell - Prompting</TITLE>
+</HEAD>
+<BODY>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_13.html">previous</A>, <A HREF="intro_15.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+<HR>
+
+
+<H1><A NAME="SEC14" HREF="intro_toc.html#SEC14">Prompting</A></H1>
+<P>
+<A NAME="IDX194"></A>
+
+</P>
+
+<P>
+The default prompt for zsh is:
+
+</P>
+
+<PRE>
+phoenix% echo $PROMPT
+%m%# 
+</PRE>
+
+<P>
+The <CODE>%m</CODE> stands for the short form of the current hostname, and the
+<CODE>%#</CODE> stands for a <CODE>%</CODE> or a <CODE>#</CODE>, depending on whether the
+shell is running as root or not.  zsh supports many other control
+sequences in the <CODE>PROMPT</CODE> variable.<A NAME="IDX195"></A>
+
+</P>
+
+<PRE>
+% PROMPT='%/&#62; '
+/u/pfalstad/etc/TeX/zsh&#62;
+
+% PROMPT='%~&#62; '   
+~/etc/TeX/zsh&#62; 
+
+% PROMPT='%h %~&#62; '
+6 ~/etc/TeX/zsh&#62; 
+</PRE>
+
+<P>
+<CODE>%h</CODE> represents the number of current history event.
+
+</P>
+
+<PRE>
+% PROMPT='%h %~ %M&#62; '
+10 ~/etc/TeX/zsh apple-gunkies.gnu.ai.mit.edu&#62; 
+
+% PROMPT='%h %~ %m&#62; '
+11 ~/etc/TeX/zsh apple-gunkies&#62; 
+
+% PROMPT='%h %t&#62; '
+12 6:11am&#62; 
+
+% PROMPT='%n %w tty%l&#62;'
+pfalstad Fri 24 ttyp0&#62;
+</PRE>
+
+<P>
+<A NAME="IDX196"></A>
+Also available is the <CODE>RPROMPT</CODE> parameter.  If this is set, the
+shell puts a prompt on the <EM>right</EM> side of the screen.
+</P>
+
+<PRE>
+% RPROMPT='%t'
+%                                                      6:14am
+
+% RPROMPT='%~'
+%                                               ~/etc/TeX/zsh
+
+% PROMPT='%l %T %m[%h] ' RPROMPT=' %~'
+p0 6:15 phoenix[5]                              ~/etc/TeX/zsh
+</PRE>
+
+<P>
+These special escape sequences can also be used with the <CODE>-P</CODE>
+option to <CODE>print</CODE>:<A NAME="IDX197"></A>
+<A NAME="IDX198"></A>
+
+</P>
+
+<PRE>
+% print -P %h tty%l
+15 ttyp1
+</PRE>
+
+<P>
+<A NAME="IDX199"></A>
+The <CODE>POSTEDIT</CODE> parameter is printed whenever the editor exits.
+This can be useful for termcap tricks.  To highlight the prompt and
+command line while leaving command output unhighlighted, try
+this:
+</P>
+
+<PRE>
+% POSTEDIT=`echotc se`
+% PROMPT='%S%% '
+</PRE>
+
+<HR>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_13.html">previous</A>, <A HREF="intro_15.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+</BODY>
+</HTML>

@@ -15,7 +15,7 @@ Permission is granted to make and distribute verbatim copies of this
 manual provided the copyright notice and this permission notice are
 preserved on all copies.
 
-Permission is granted to copy and distribute modified versions of this
+Permission is granted to copy and `distribute` modified versions of this
 manual under the conditions for verbatim copying, provided that the
 entire resulting derived work is distributed under the terms of a
 permission notice identical to this one.
@@ -27,22 +27,21 @@ approved by the Free Software Foundation.
 
 Cover art by Etienne Suvasa.
 
-# [Overview of `make`](make_toc.md#SEC1){#SEC1}
+# Overview of make
 
 The `make` utility automatically determines which pieces of a large
 program need to be recompiled, and issues commands to recompile them.
-This manual describes GNU `make`, which was implemented by Richard
-Stallman and Roland McGrath. GNU `make` conforms to section 6.2 of IEEE
-Standard 1003.2-1992 (POSIX.2). []{#IDX2} []{#IDX3} []{#IDX1}
+This manual describes GNU `make`, which was implemented by [[Richard
+Stallman]] and [[Roland McGrath]]. 
 
-Our examples show C programs, since they are most common, but you can
+Our examples show **C programs**, since they are most common, but you can
 use `make` with any programming language whose compiler can be run with
 a shell command. Indeed, `make` is not limited to programs. You can use
 it to describe any task where some files must be updated automatically
 from others whenever the others change.
 
 To prepare to use `make`, you must write a file called the
-[makefile]{.dfn} that describes the relationships among files in your
+`makefile` that describes the relationships among files in your
 program and provides commands for updating each file. In a program,
 typically, the executable file is updated from object files, which are
 in turn made by compiling source files.
@@ -59,16 +58,16 @@ files, it issues the commands recorded in the data base.
 
 You can provide command line arguments to `make` to control which files
 should be recompiled, or how. See section [How to Run
-`make`](make_9.md#SEC78)}.
+`make`](make_9.md)}.
 
-## [How to Read This Manual](make_toc.md#SEC2){#SEC2}
+## [How to Read This Manual](make_toc.md#SEC2)
 
 If you are new to `make`, or are looking for a general introduction,
 read the first few sections of each chapter, skipping the later
 sections. In each chapter, the first few sections contain introductory
 or general information and the later sections contain specialized or
-technical information. The exception is section [An Introduction to
-Makefiles](make_2.md#SEC4), all of which is introductory.
+technical information. 
+The exception is section [An Introduction to Makefiles](make_2.md#SEC4), all of which is introductory.
 
 If you are familiar with other `make` programs, see section [Features of
 GNU `make`](make_12.md#SEC107)}, which lists the enhancements GNU

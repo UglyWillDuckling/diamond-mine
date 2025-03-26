@@ -1,0 +1,287 @@
+<HTML>
+<HEAD>
+<!-- This HTML file has been created by texi2html 1.44
+     from intro.texi on 30 November 1995 -->
+
+<TITLE>An Introduction to the Z Shell - Shell Functions</TITLE>
+</HEAD>
+<BODY>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_3.html">previous</A>, <A HREF="intro_5.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+<HR>
+
+
+<H1><A NAME="SEC4" HREF="intro_toc.html#SEC4">Shell Functions</A></H1>
+
+<P>
+zsh also allows you to create your own commands by defining shell
+functions.  For example:
+<A NAME="IDX18"></A>
+
+</P>
+
+<PRE>
+% yp () {
+&#62;       ypmatch $1 passwd.byname
+&#62; }
+% yp pfalstad
+pfalstad:*:3564:35:Paul John Falstad:/u/pfalstad:/usr/princeton/bin/zsh
+</PRE>
+
+<P>
+<A NAME="IDX19"></A>
+This function looks up a user in the NIS password map.  The <CODE>$1</CODE>
+expands to the first argument to <CODE>yp</CODE>.  The function could have
+been equivalently defined in one of the following ways:<A NAME="IDX20"></A>
+
+</P>
+
+<PRE>
+% function yp {
+&#62;       ypmatch $1 passwd.byname
+&#62; }
+% function yp () {
+&#62;       ypmatch $1 passwd.byname
+&#62; }
+% function yp () ypmatch $1 passwd.byname
+</PRE>
+
+<P>
+<A NAME="IDX21"></A>
+Note that aliases are expanded when the function definition is parsed,
+not when the function is executed.  For example:
+
+</P>
+
+<PRE>
+% alias ypmatch=echo
+% yp pfalstad
+pfalstad:*:3564:35:Paul John Falstad:/u/pfalstad:/usr/princeton/bin/zsh
+</PRE>
+
+<P>
+Since the alias was defined after the function was parsed, it has no
+effect on the function's execution.  However, if we define the function
+again with the alias in place:
+
+</P>
+
+<PRE>
+% function yp () { ypmatch $1 passwd.byname }
+% yp pfalstad
+pfalstad passwd.byname
+</PRE>
+
+<P>
+it is parsed with the new alias definition in place.  Therefore, in
+general you must define aliases before functions.
+
+</P>
+<P>
+We can make the function take multiple arguments:
+
+</P>
+
+<PRE>
+% unalias ypmatch
+% yp () {
+&#62;       for i
+&#62;       do ypmatch $i passwd.byname
+&#62;       done
+&#62; }
+% yp pfalstad subbarao sukthnkr
+pfalstad:*:3564:35:Paul John Falstad:/u/pfalstad:/usr/princeton/bin/zsh
+subbarao:*:3338:35:Kartik Subbarao:/u/subbarao:/usr/princeton/bin/zsh
+sukthnkr:*:1267:35:Rahul Sukthankar:/u/sukthnkr:/usr/princeton/bin/tcsh
+</PRE>
+
+<P>
+The <CODE>for i</CODE> loops through each of the function's arguments, setting
+<CODE>i</CODE> equal to each of them in turn.  We can also make the function
+do something sensible if no arguments are given:
+</P>
+
+<PRE>
+% yp () {
+&#62;       if (( $# == 0 ))
+&#62;       then echo usage: yp name ...; fi
+&#62;       for i; do ypmatch $i passwd.byname; done
+&#62; }
+% yp
+usage: yp name ...
+% yp pfalstad sukthnkr
+pfalstad:*:3564:35:Paul John Falstad:/u/pfalstad:/usr/princeton/bin/zsh
+sukthnkr:*:1267:35:Rahul Sukthankar:/u/sukthnkr:/usr/princeton/bin/tcsh
+</PRE>
+
+<P>
+<A NAME="IDX22"></A>
+<CODE>$#</CODE> is the number of arguments supplied to the function.  If it is
+equal to zero, we print a usage message; otherwise, we loop through the
+arguments, and <CODE>ypmatch</CODE> all of them.
+
+</P>
+<P>
+Here's a function that selects a random line from a file:
+
+</P>
+
+<PRE>
+% randline () {
+&#62;       integer z=$(wc -l &#60;$1)
+&#62;       sed -n $[RANDOM % z + 1]p $1
+&#62; }
+% randline /etc/motd
+PHOENIX WILL BE DOWN briefly Friday morning, 5/24/91 from 8 AM to
+% randline /etc/motd
+SunOS Release 4.1.1 (PHOENIX) #19: Tue May 14 19:03:15 EDT 1991
+% randline /etc/motd
+| Please use the "msgs" command to read announcements.  Refer to the   |
+% echo $z
+
+%
+</PRE>
+
+<P>
+<A NAME="IDX23"></A>
+<CODE>randline</CODE> has a local variable, <CODE>z</CODE>, that holds the number of
+lines in the file.  <CODE>$[RANDOM % z + 1]</CODE> expands to a random number
+between 1 and <CODE>z</CODE>.  An expression of the form <CODE>$[...]</CODE> expands
+to the value of the arithmetic expression within the brackets, and the
+<CODE>RANDOM</CODE> variable returns a random number each time it is
+referenced.  <CODE>%</CODE> is the modulus operator, as in C.  Therefore,
+<CODE>sed -n $[RANDOM%z+1]p</CODE> picks a random line from its input, from 1
+to <CODE>z</CODE>.
+</P>
+
+<P>
+Function definitions can be viewed with the <CODE>functions</CODE> builtin:
+<A NAME="IDX24"></A>
+
+</P>
+
+<PRE>
+% functions randline
+randline () {
+        integer z=$(wc -l &#60;$1)
+        sed -n $[RANDOM % z + 1]p $1
+
+}
+% functions
+yp () {
+        if let $# == 0 
+        
+        then
+                echo usage: yp name ...
+        
+        fi
+        for i
+        do
+                ypmatch $i passwd.byname
+        
+                done
+
+}
+randline () {
+        integer z=$(wc -l &#60;$1)
+        sed -n $[RANDOM % z + 1]p $1
+
+}
+</PRE>
+
+<P>
+Here's another one:
+
+</P>
+
+<PRE>
+% cx () { chmod +x $* }
+% ls -l foo bar
+-rw-r--r--  1 pfalstad       29 May 24 04:38 bar
+-rw-r--r--  1 pfalstad       29 May 24 04:38 foo
+% cx foo bar
+% ls -l foo bar
+-rwxr-xr-x  1 pfalstad       29 May 24 04:38 bar
+-rwxr-xr-x  1 pfalstad       29 May 24 04:38 foo
+</PRE>
+
+<P>
+Note that this could also have been implemented as an alias:
+
+</P>
+
+<PRE>
+% chmod 644 foo bar
+% alias cx='chmod +x'
+% cx foo bar
+% ls -l foo bar
+-rwxr-xr-x  1 pfalstad       29 May 24 04:38 bar
+-rwxr-xr-x  1 pfalstad       29 May 24 04:38 foo
+</PRE>
+
+<P>
+<A NAME="IDX25"></A>
+<A NAME="IDX26"></A>
+Instead of defining a lot of functions in your <TT>`.zshrc'</TT>, all of
+which you may not use, it is often better to use the <CODE>autoload</CODE>
+builtin.  The idea is, you create a directory where function definitions
+are stored, declare the names in your <TT>`.zshrc'</TT>, and tell the shell
+where to look for them.  Whenever you reference a function, the shell
+will automatically load it into memory.
+
+</P>
+
+<PRE>
+% mkdir /tmp/funs
+% cat &#62;/tmp/funs/yp
+ypmatch $1 passwd.byname
+^D
+% cat &#62;/tmp/funs/cx
+chmod +x $*
+^D
+% FPATH=/tmp/funs
+% autoload cx yp
+% functions cx yp
+undefined cx ()
+undefined yp ()
+% chmod 755 /tmp/funs/{cx,yp}
+% yp egsirer
+egsirer:*:3214:35:Emin Gun Sirer:/u/egsirer:/bin/sh
+% functions yp
+yp () {
+        ypmatch $1 passwd.byname
+}
+</PRE>
+
+<P>
+<A NAME="IDX27"></A>
+This idea has other benefits.  By adding a <CODE>#!</CODE> header to the
+files, you can make them double as shell scripts.  (Although it is
+faster to use them as functions, since a separate process is not
+created.)
+</P>
+
+<PRE>
+% ed /tmp/funs/yp
+25
+i
+#! /usr/local/bin/zsh
+.
+w
+42
+q
+% &#60;/tmp/funs/yp
+#! /usr/local/bin/zsh
+ypmatch $1 passwd.byname
+% /tmp/funs/yp sukthnkr
+sukthnkr:*:1267:35:Rahul Sukthankar:/u/sukthnkr:/usr/princeton/bin/tcsh
+</PRE>
+
+<P>
+Now other people, who may not use zsh, or who don't want to copy all of
+your <TT>`.zshrc'</TT>, may use these functions as shell scripts.
+
+</P>
+<HR>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_3.html">previous</A>, <A HREF="intro_5.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+</BODY>
+</HTML>

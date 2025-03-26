@@ -9,6 +9,8 @@ tags:
 ---
 [![Cover image for How to download an entire website for offline usage (using wget)](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmixm6e8ijo6sefk0tczd.jpeg)](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmixm6e8ijo6sefk0tczd.jpeg)
 
+- [ ] reminder - download entire website (@[[2025-04-04]])
+
 *Here is a simple step to downloading an entire website and making it available offline using wget.*
 
 > 💡**Wget** is a command-line **utility for retrieving files** using HTTP, HTTPS and FTP protocols.

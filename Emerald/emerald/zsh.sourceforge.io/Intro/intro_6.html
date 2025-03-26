@@ -1,0 +1,208 @@
+<HTML>
+<HEAD>
+<!-- This HTML file has been created by texi2html 1.44
+     from intro.texi on 30 November 1995 -->
+
+<TITLE>An Introduction to the Z Shell - Directory Stacks</TITLE>
+</HEAD>
+<BODY>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_5.html">previous</A>, <A HREF="intro_7.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+<HR>
+
+
+<H1><A NAME="SEC6" HREF="intro_toc.html#SEC6">Directory Stacks</A></H1>
+<P>
+<A NAME="IDX35"></A>
+<A NAME="IDX36"></A>
+
+</P>
+
+<P>
+<A NAME="IDX37"></A>
+<A NAME="IDX38"></A>
+If you use csh, you may know about directory stacks.  The <CODE>pushd</CODE>
+command puts the current directory on the stack, and changes to a new
+directory; the <CODE>popd</CODE> command pops a directory off the stack and
+changes to it.
+</P>
+
+<PRE>
+phoenix% cd 
+phoenix% PROMPT='Z %~&#62; '
+Z ~&#62; pushd /tmp
+/tmp ~
+Z /tmp&#62; pushd /usr/etc
+/usr/etc /tmp ~
+Z /usr/etc&#62; pushd /usr/bin
+/usr/bin /usr/etc /tmp ~
+Z /usr/bin&#62; popd
+/usr/etc /tmp ~
+Z /usr/etc&#62; popd
+/tmp ~
+Z /tmp&#62; pushd /etc
+/etc /tmp ~
+Z /etc&#62; popd 
+/tmp ~
+</PRE>
+
+<P>
+zsh's directory stack commands work similarly.  One difference is the
+way <CODE>pushd</CODE> is handled if no arguments are given.  As in csh, this
+exchanges the top two elements of the directory stack:
+
+</P>
+
+<PRE>
+Z /tmp&#62; dirs
+/tmp ~
+Z /tmp&#62; pushd
+~ /tmp
+</PRE>
+
+<P>
+unless the stack only has one entry:
+
+</P>
+
+<PRE>
+Z ~&#62; popd
+/tmp
+Z /tmp&#62; dirs
+/tmp
+Z /tmp&#62; pushd
+~ /tmp
+</PRE>
+
+<P>
+or unless the <CODE>PUSHDTOHOME</CODE> option is set:
+<A NAME="IDX39"></A>
+
+</P>
+
+<PRE>
+Z ~&#62; setopt pushdtohome
+Z ~&#62; pushd
+~ ~ /tmp
+</PRE>
+
+<P>
+<A NAME="IDX40"></A>
+<A NAME="IDX41"></A>
+As an alternative to using directory stacks in this manner, we can get
+something like a <EM>directory history</EM> by setting a few more options
+and parameters:
+</P>
+
+<PRE>
+~&#62; DIRSTACKSIZE=8
+~&#62; setopt autopushd pushdminus pushdsilent pushdtohome
+~&#62; alias dh='dirs -v'
+~&#62; cd /tmp
+/tmp&#62; cd /usr
+/usr&#62; cd bin
+/usr/bin&#62; cd ../pub
+/usr/pub&#62; dh
+0       /usr/pub
+1       /usr/bin
+2       /usr
+3       /tmp
+4       ~
+/usr/pub&#62; cd -3
+/tmp&#62; dh
+0       /tmp
+1       /usr/pub
+2       /usr/bin
+3       /usr
+4       ~
+/tmp&#62; ls =2/df
+/usr/bin/df
+/tmp&#62; cd -4
+~&#62;
+</PRE>
+
+<P>
+Note that <CODE>=2</CODE> expanded to the second directory in the history
+list, and that <CODE>cd -3</CODE> recalled the third directory in the
+list.
+</P>
+<P>
+<A NAME="IDX42"></A>
+<A NAME="IDX43"></A>
+You may be wondering what all those options do.  <CODE>AUTOPUSHD</CODE> made
+<CODE>cd</CODE> act like <CODE>pushd</CODE>.  (<CODE>alias cd=pushd</CODE> is not
+sufficient, for various reasons.)  <CODE>PUSHDMINUS</CODE> swapped the meaning
+of <CODE>cd +1</CODE> and <CODE>cd -1</CODE>; we want them to mean the opposite of
+what they mean in csh, because it makes more sense in this scheme, and
+it's easier to type:
+</P>
+
+<PRE>
+~&#62; dh
+0       ~
+1       /tmp
+2       /usr/pub
+3       /usr/bin
+4       /usr
+~&#62; unsetopt pushdminus
+~&#62; cd +1
+/tmp&#62; dh
+0       /tmp
+1       ~
+2       /usr/pub
+3       /usr/bin
+4       /usr
+/tmp&#62; cd +2
+/usr/pub&#62;
+</PRE>
+
+<P>
+<A NAME="IDX44"></A>
+<CODE>PUSHDSILENT</CODE> keeps the shell from printing the directory stack
+each time we do a <CODE>cd</CODE>, and <CODE>PUSHDTOHOME</CODE> we mentioned
+earlier:
+</P>
+
+<PRE>
+/usr/pub&#62; unsetopt pushdsilent
+/usr/pub&#62; cd /etc
+/etc /usr/pub /tmp ~ /usr/bin /usr
+/etc&#62; cd
+~ /etc /usr/pub /tmp ~ /usr/bin /usr
+~&#62; unsetopt pushdtohome
+~&#62; cd
+/etc ~ /usr/pub /tmp ~ /usr/bin /usr
+/etc&#62;
+</PRE>
+
+<P>
+<A NAME="IDX45"></A>
+<A NAME="IDX46"></A>
+<CODE>DIRSTACKSIZE</CODE> keeps the directory stack from getting too large,
+much like <CODE>HISTSIZE</CODE>:
+</P>
+
+<PRE>
+/etc&#62; setopt pushdsilent
+/etc&#62; cd /
+/&#62; cd /
+/&#62; cd /
+/&#62; cd /
+/&#62; cd /
+/&#62; cd /
+/&#62; cd /
+/&#62; cd /
+/&#62; dh
+0       /
+1       /
+2       /
+3       /
+4       /
+5       /
+6       /
+7       /
+</PRE>
+
+<HR>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_5.html">previous</A>, <A HREF="intro_7.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+</BODY>
+</HTML>

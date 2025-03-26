@@ -1,0 +1,140 @@
+<HTML>
+<HEAD>
+<!-- This HTML file has been created by texi2html 1.44
+     from intro.texi on 30 November 1995 -->
+
+<TITLE>An Introduction to the Z Shell - Bindings</TITLE>
+</HEAD>
+<BODY>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_10.html">previous</A>, <A HREF="intro_12.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+<HR>
+
+
+<H1><A NAME="SEC11" HREF="intro_toc.html#SEC11">Bindings</A></H1>
+<P>
+<A NAME="IDX122"></A>
+
+</P>
+<P>
+Each of the above editor commands was actually a function bound by
+default to a certain key.  The real names of the commands are:
+</P>
+
+<PRE>
+expand-or-complete   <KBD>TAB</KBD>
+push-line            <KBD><KBD>ESC</KBD>-Q</KBD>
+run-help             <KBD><KBD>ESC</KBD>-H</KBD>
+accept-and-hold      <KBD><KBD>ESC</KBD>-A</KBD>
+quote-line           <KBD><KBD>ESC</KBD>-'</KBD>
+</PRE>
+
+<P>
+<A NAME="IDX123"></A>
+<A NAME="IDX124"></A>
+<A NAME="IDX125"></A>
+<A NAME="IDX126"></A>
+<A NAME="IDX127"></A>
+<A NAME="IDX128"></A>
+
+</P>
+<P>
+These bindings are arbitrary; you could change them if you want.  For
+example, to bind <CODE>accept-line</CODE> to ^Z:
+
+</P>
+
+<PRE>
+% bindkey '^Z' accept-line
+</PRE>
+
+<P>
+Another idea would be to bind the delete key to <CODE>delete-char</CODE>; this
+might be convenient if you use ^H for backspace.
+<A NAME="IDX129"></A>
+
+</P>
+
+<PRE>
+% bindkey '^?' delete-char
+</PRE>
+
+<P>
+Or, you could bind ^X^H to <CODE>run-help</CODE>:
+
+</P>
+
+<PRE>
+% bindkey '^X^H' run-help
+</PRE>
+
+<P>
+Other examples:
+
+</P>
+
+<PRE>
+% bindkey '^X^Z' universal-argument
+% bindkey ' ' magic-space
+% bindkey -s '^T' 'uptime
+&#62; '
+</PRE>
+
+<P>
+<A NAME="IDX130"></A>
+<A NAME="IDX131"></A>
+<CODE>universal-argument</CODE> multiplies the next command by 4.  Thus
+^X^Z^W might delete the last four words on the line.
+If you bind space to <CODE>magic-space</CODE>, then csh-style history
+expansion is done on the line whenever you press the space bar.
+</P>
+<P>
+The <CODE>-s</CODE> flag to <CODE>bindkey</CODE> specifies that you are binding the
+key to a string, not a command.  Thus <CODE>bindkey -s '^T' 'uptime\n'</CODE>
+lets you VMS lovers get the load average whenever you press
+^T.<A NAME="IDX132"></A>
+
+</P>
+<P>
+<A NAME="IDX133"></A>
+If you have a NeXT keyboard, the one with the <KBD>|</KBD> and <KBD>\</KBD> keys
+very inconveniently placed, the following bindings may come in
+handy:
+</P>
+
+<PRE>
+% bindkey -s '\/' '\\'
+% bindkey -s '\=' '|'
+</PRE>
+
+<P>
+<A NAME="IDX134"></A>
+<A NAME="IDX135"></A>
+Now you can type <KBD><KBD>ALT</KBD>-/</KBD> to get a backslash, and <KBD><KBD>ALT</KBD>-=</KBD>
+to get a vertical bar.  This only works inside zsh, of course;
+<CODE>bindkey</CODE> has no effect on the key mappings inside <CODE>talk</CODE> or
+<CODE>mail</CODE>, etc.
+</P>
+<P>
+Another use of the editor is to edit the value of variables.  For
+example, an easy way to change your path is to use the <CODE>vared</CODE>
+command:<A NAME="IDX136"></A>
+
+</P>
+
+<PRE>
+% vared PATH
+&#62; /u/pfalstad/scr:/u/pfalstad/bin/sun4:/u/maruchck/scr:/u/subbarao/bin:/u/maruc
+hck/bin:/u/subbarao/scripts:/usr/princeton/bin:/usr/ucb:/usr/bin:/bin:/usr/host
+s:/usr/princeton/bin/X11:/./usr/lang:/./usr/etc:/./etc
+</PRE>
+
+<P>
+You can now edit the path.  When you press return, the contents of the
+edit buffer will be assigned to <CODE>PATH</CODE>.
+<A NAME="IDX137"></A>
+
+</P>
+<HR>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_10.html">previous</A>, <A HREF="intro_12.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+</BODY>
+</HTML>

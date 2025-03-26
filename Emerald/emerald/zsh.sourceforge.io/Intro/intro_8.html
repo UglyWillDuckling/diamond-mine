@@ -1,0 +1,286 @@
+<HTML>
+<HEAD>
+<!-- This HTML file has been created by texi2html 1.44
+     from intro.texi on 30 November 1995 -->
+
+<TITLE>An Introduction to the Z Shell - Aliasing</TITLE>
+</HEAD>
+<BODY>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_7.html">previous</A>, <A HREF="intro_9.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+<HR>
+
+
+<H1><A NAME="SEC8" HREF="intro_toc.html#SEC8">Aliasing</A></H1>
+<P>
+<A NAME="IDX54"></A>
+
+</P>
+
+<P>
+Often-used commands can be abbreviated with an alias:
+<A NAME="IDX55"></A>
+
+</P>
+
+<PRE>
+% alias uc=uncompress
+% ls
+hanoi.Z
+% uc hanoi
+% ls
+hanoi
+</PRE>
+
+<P>
+or commands with certain desired options:
+
+</P>
+
+<PRE>
+% alias fm='finger -m'
+% fm root
+Login name: root                        In real life: Operator
+Directory: /                            Shell: /bin/csh
+On since May 19 10:41:15 on console     3 days 5 hours Idle Time
+No unread mail
+No Plan.
+
+% alias lock='lock -p -60000'
+% lock
+lock: /dev/ttyr4 on phoenix. timeout in 60000 minutes
+time now is Fri May 24 04:23:18 EDT 1991
+Key: 
+
+% alias l='ls -AF'
+% l /
+.bash_history              kadb*
+.bashrc                    lib@
+.cshrc                     licensed/
+.exrc                      lost+found/
+.login                     macsyma
+...
+</PRE>
+
+<P>
+Aliases can also be used to replace old commands:
+
+</P>
+
+<PRE>
+% alias grep=egrep ps=sps make=gmake
+% alias whoami='echo root'
+% whoami
+root
+</PRE>
+
+<P>
+or to define new ones:
+
+</P>
+
+<PRE>
+% cd /
+% alias sz='ls -l | sort -n +3 | tail -10'
+% sz
+drwxr-sr-x  7 bin          3072 May 23 11:59 etc
+drwxrwxrwx 26 root         5120 May 24 04:20 tmp
+drwxr-xr-x  2 root         8192 Dec 26 19:34 lost+found
+drwxr-sr-x  2 bin         14848 May 23 18:48 dev
+-r--r--r--  1 root       140520 Dec 26 20:08 boot
+-rwxr-xr-x  1 root       311172 Dec 26 20:08 kadb
+-rwxr-xr-x  1 root      1209695 Apr 16 15:33 vmunix.old
+-rwxr-xr-x  1 root      1209702 May 14 19:04 vmunix
+-rwxr-xr-x  1 root      1209758 May 21 12:23 vmunix.new.kernelmap.old
+-rwxr-xr-x  1 root      1711848 Dec 26 20:08 vmunix.org
+% cd
+% alias rable='ls -AFtrd *(R)' nrable='ls -AFtrd *(^R)'
+% rable
+README      func/       bin/        pub/        News/       src/
+nicecolors  etc/        scr/        tmp/        iris/       zsh*
+% nrable
+Mailboxes/  mail/       notes
+</PRE>
+
+<P>
+(The pattern <CODE>*(R)</CODE> matches all readable files in the current
+directory, and <CODE>*(^R)</CODE> matches all unreadable files.)
+
+</P>
+
+<P>
+<A NAME="IDX56"></A>
+<A NAME="IDX57"></A>
+Most other shells have aliases of this kind (<EM>command</EM> aliases).
+However, zsh also has <EM>global</EM> aliases, which are substituted
+anywhere on a line.  Global aliases can be used to abbreviate
+frequently-typed usernames, hostnames, etc.
+</P>
+
+<PRE>
+% alias -g me=pfalstad gun=egsirer mjm=maruchck
+% who | grep me
+pfalstad ttyp0   May 24 03:39   (mickey.Princeton)
+pfalstad ttyp5   May 24 03:42   (mickey.Princeton)
+% fm gun
+Login name: egsirer                     In real life: Emin Gun Sirer
+Directory: /u/egsirer                   Shell: /bin/sh
+Last login Thu May 23 19:05 on ttyq3 from bow.Princeton.ED
+New mail received Fri May 24 02:30:28 1991;
+  unread since Fri May 24 02:30:27 1991
+% alias -g phx=phoenix.princeton.edu warc=wuarchive.wustl.edu
+% ftp warc
+Connected to wuarchive.wustl.edu.
+</PRE>
+
+<P>
+Here are some more interesting uses.
+
+</P>
+
+<PRE>
+% alias -g M='| more' GF='| fgrep -f ~/.friends'
+% who M    <EM># pipes the output of <CODE>who</CODE> through <CODE>more</CODE></EM>
+% who GF   <EM># see if your friends are on</EM>
+% w GF     <EM># see what your friends are doing</EM>
+</PRE>
+
+<P>
+<A NAME="IDX58"></A>
+<A NAME="IDX59"></A>
+Another example makes use of zsh's process substitution.  If you run
+NIS, and you miss being able to do this:
+
+</P>
+
+<PRE>
+% grep pfalstad /etc/passwd
+</PRE>
+
+<P>
+you can define an alias that will seem more natural than <CODE>ypmatch
+pfalstad passwd</CODE>:
+
+</P>
+
+<PRE>
+% alias -g PASS='&#60;(ypcat passwd)'
+% grep pfalstad PASS
+pfalstad:*:3564:35:Paul John Falstad:/u/pfalstad:/usr/princeton/bin/zsh
+</PRE>
+
+<P>
+If you're really crazy, you can even call it <CODE>/etc/passwd</CODE>:
+
+</P>
+
+<PRE>
+% alias -g /etc/passwd='&#60;(ypcat passwd)'
+% grep pfalstad /etc/passwd
+pfalstad:*:3564:35:Paul John Falstad:/u/pfalstad:/usr/princeton/bin/zsh
+</PRE>
+
+<P>
+<A NAME="IDX60"></A>
+The last example shows one of the perils of global aliases; they have a
+lot of potential to cause confusion.  For example, if you defined a
+global alias called <CODE>|</CODE> (which is possible), zsh would begin to act
+very strangely; every pipe symbol would be replaced with the text of
+your alias.  To some extent, global aliases are like macros in C;
+discretion is advised in using them and in choosing names for them.
+Using names in all caps is not a bad idea, especially for aliases which
+introduce shell metasyntax (like <CODE>M</CODE> and <CODE>GF</CODE> above).
+</P>
+
+<P>
+<A NAME="IDX61"></A>
+<A NAME="IDX62"></A>
+Note that zsh aliases are not like csh aliases.  The syntax for defining
+them is different, and they do not have arguments.  All your favorite
+csh aliases will probably not work under zsh.  For example, if you try:
+
+</P>
+
+<PRE>
+alias rm mv '\!* /tmp/wastebasket'
+</PRE>
+
+<P>
+no aliases will be defined, but zsh will not report an error.  In csh,
+this line defines an alias that makes <CODE>rm</CODE> safe--files that are
+<CODE>rm</CODE>'d will be moved to a temporary directory instead of instantly
+destroyed.  In zsh's syntax, however, this line asks the shell to print
+any existing alias definitions for <CODE>rm</CODE>, <CODE>mv</CODE>, or <CODE>!*
+/tmp/wastebasket</CODE>.  Since there are none, most likely, the shell will
+not print anything, although <CODE>alias</CODE> will return a nonzero exit
+code.  The proper syntax is this:
+</P>
+
+<PRE>
+alias rm='mv \!* /tmp/wastebasket'
+</PRE>
+
+<P>
+However, this won't work either:
+
+</P>
+
+<PRE>
+% rm foo.dvi
+zsh: no matches found: !*
+</PRE>
+
+<P>
+While this makes <CODE>rm</CODE> safe, it is certainly not what the user
+intended.  In zsh, you must use a shell function for this:
+</P>
+
+<PRE>
+% unalias rm
+% rm () { mv $* /tmp/wastebasket }
+% rm foo.dvi
+% ls /tmp/wastebasket
+foo.dvi
+</PRE>
+
+<P>
+While this is much cleaner and easier to read (I hope you will agree),
+it is not csh-compatible.  Therefore, a script to convert csh aliases
+and variables has been provided.  You should only need to use it once,
+to convert all your csh aliases and parameters to zsh format:
+<A NAME="IDX63"></A>
+
+</P>
+
+<PRE>
+% csh
+csh&#62; alias
+l       ls -AF
+more    less
+on      last -2 !:1 ; who | grep !:1
+csh&#62; exit
+% c2z &#62;neat_zsh_aliases
+% cat neat_zsh_aliases
+alias l='ls -AF'
+alias more='less'
+on () { last -2 $1 ; who | grep $1 }
+...
+</PRE>
+
+<P>
+The first two aliases were converted to regular zsh aliases, while the
+third, since it needed to handle arguments, was converted to a function.
+<CODE>c2z</CODE> can convert most aliases to zsh format without any problems.
+However, if you're using some really arcane csh tricks, or if you have
+an alias with a name like <CODE>do</CODE> (which is reserved in zsh), you may
+have to fix some of the aliases by hand.
+</P>
+<P>
+The <CODE>c2z</CODE> script checks your csh setup, and produces a list
+of zsh commands which replicate your aliases and parameter settings
+as closely as possible.  You could include its output in your
+startup file, <TT>`.zshrc'</TT>.
+</P>
+<HR>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_7.html">previous</A>, <A HREF="intro_9.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+</BODY>
+</HTML>

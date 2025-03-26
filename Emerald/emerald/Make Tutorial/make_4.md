@@ -2,9 +2,10 @@ GNU Make - Writing Rules
 
 Go to the [previous](make_3.md), [next](make_5.md) section.
 
-[]{#IDX96} []{#IDX97} []{#IDX98} []{#IDX99}
+- [ ] #task master [[Makefile]] 🆔 vR2KT4
+___
 
-# [Writing Rules](make_toc.md#SEC19){#SEC19}
+# [Writing Rules](make_toc.md#SEC19)
 
 A [rule]{.dfn} appears in the makefile and says when and how to remake
 certain files, called the rule\'s [targets]{.dfn} (most often only one
@@ -27,9 +28,7 @@ one for compiling the entire program or all the programs described by
 the makefile (often with a target called `` `all' ``{.sample}). See
 section [Arguments to Specify the Goals](make_9.md#SEC80).
 
-## [Rule Syntax](make_toc.md#SEC20){#SEC20}
-
-[]{#IDX102} []{#IDX103}
+## [Rule Syntax](make_toc.md#SEC20)
 
 In general, a rule looks like this:
 
@@ -43,8 +42,6 @@ or like this:
             command
             ...
 
-[]{#IDX104} []{#IDX105}
-
 The `targets`{.variable} are file names, separated by spaces. Wildcard
 characters may be used (see section [Using Wildcard Characters in File
 Names](make_4.md#SEC21)) and a name of the form
@@ -53,8 +50,7 @@ Names](make_4.md#SEC21)) and a name of the form
 The `command`{.variable} lines start with a tab character. The first
 command may appear on the line after the dependencies, with a tab
 character, or may appear on the same line, with a semicolon. Either way,
-the effect is the same. See section [Writing the Commands in
-Rules](make_5.md#SEC42). []{#IDX108} []{#IDX109} []{#IDX110}
+the effect is the same. See section [Writing the Commands in Rules](make_5.md#SEC42). 
 
 Because dollar signs are used to start variable references, if you
 really want a dollar sign in a rule you must write two of them,
@@ -64,28 +60,31 @@ backslash followed by a newline, but this is not required, as `make`
 places no limit on the length of a line in a makefile.
 
 A rule tells `make` two things: when the targets are out of date, and
-how to update them when necessary. []{#IDX111} []{#IDX112}
+how to update them when necessary. 
 
-The criterion for being out of date is specified in terms of the
+### **outdated**
+
+The criterion for being **out of date** is specified in terms of the
 `dependencies`{.variable}, which consist of file names separated by
-spaces. (Wildcards and archive members (see section [Using `make` to
-Update Archive Files](make_11.md#SEC101)) are allowed here too.) A
-target is out of date if it does not exist or if it is older than any of
-the dependencies (by comparison of last-modification times). The idea is
-that the contents of the target file are computed based on information
-in the dependencies, so if any of the dependencies changes, the contents
-of the existing target file are no longer necessarily valid.
+spaces.
+(Wildcards and archive members (see section [Using `make` to
+Update Archive Files](make_11.md#SEC101)) are allowed here too.) 
+
+> [!tip]
+> A target is out of date **if it does not exist or if it is older than** any of
+> the dependencies (by comparison of last-modification times).
+> 
+
+The idea is that the contents of the target file are computed based on information
+in the dependencies, so **if any of the dependencies changes, the contents**
+**of the existing target file are no longer necessarily valid.**
 
 How to update is specified by `commands`{.variable}. These are lines to
 be executed by the shell (normally `` `sh' ``{.sample}), but with some
 extra features (see section [Writing the Commands in
 Rules](make_5.md#SEC42)).
 
-[]{#IDX113} []{#IDX114} []{#IDX115}
-
 ## [Using Wildcard Characters in File Names](make_toc.md#SEC21){#SEC21}
-
-[]{#IDX116} []{#IDX117} []{#IDX118}
 
 A single file name can specify many files using [wildcard
 characters]{.dfn}. The wildcard characters in `make` are

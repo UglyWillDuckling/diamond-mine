@@ -2,7 +2,8 @@
 
 ## current 📓
 
-- [[LUQA Onboarding]]
-- ..
+^8067b7
 
+- [[Team Create-Edit Modal Component]]
+- [[Transac Zones update ticket]]
 ^current

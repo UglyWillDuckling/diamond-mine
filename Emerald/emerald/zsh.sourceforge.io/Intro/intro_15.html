@@ -1,0 +1,143 @@
+<HTML>
+<HEAD>
+<!-- This HTML file has been created by texi2html 1.44
+     from intro.texi on 30 November 1995 -->
+
+<TITLE>An Introduction to the Z Shell - Login/Logout Watching</TITLE>
+</HEAD>
+<BODY>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_14.html">previous</A>, <A HREF="intro_16.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+<HR>
+
+
+<H1><A NAME="SEC15" HREF="intro_toc.html#SEC15">Login/Logout Watching</A></H1>
+<P>
+<A NAME="IDX200"></A>
+
+</P>
+<P>
+<A NAME="IDX201"></A>
+You can specify login or logout events to monitor by setting the
+<CODE>watch</CODE> variable.  Normally, this is done by specifying a list of
+usernames.
+</P>
+
+<PRE>
+% watch=( pfalstad subbarao sukthnkr egsirer )
+</PRE>
+
+<P>
+<A NAME="IDX202"></A>
+The <CODE>log</CODE> command reports all people logged in that you are
+watching for.
+</P>
+
+<PRE>
+% log
+pfalstad has logged on p0 from mickey.
+pfalstad has logged on p5 from mickey.
+% ...
+subbarao has logged on p8 from phoenix.
+% ...
+subbarao has logged off p8 from phoenix.
+% ...
+sukthnkr has logged on p8 from dew.
+% ...
+sukthnkr has logged off p8 from dew.
+</PRE>
+
+<P>
+If you specify hostnames with an <KBD>@</KBD> prepended, the shell will
+watch for all users logging in from the specified host.
+</P>
+
+<PRE>
+% watch=( @mickey @phoenix )
+% log
+djthongs has logged on q2 from phoenix.
+pfalstad has logged on p0 from mickey.
+pfalstad has logged on p5 from mickey.
+</PRE>
+
+<P>
+If you give a tty name with a <KBD>%</KBD> prepended, the shell will watch
+for all users logging in on that tty.
+</P>
+
+<PRE>
+% watch=( %ttyp0 %console )
+% log
+root has logged on console from .
+pfalstad has logged on p0 from mickey.
+</PRE>
+
+<P>
+The format of the reports may also be changed.
+
+</P>
+
+<PRE>
+% watch=( pfalstad gettes eps djthongs jcorr bdavis )
+% log
+jcorr has logged on tf from 128.112.176.3:0.
+jcorr has logged on r0 from 128.112.176.3:0.
+gettes has logged on p4 from yo:0.0.
+djthongs has logged on pe from grumpy:0.0.
+djthongs has logged on q2 from phoenix.
+bdavis has logged on qd from BRUNO.
+eps has logged on p3 from csx30:0.0.
+pfalstad has logged on p0 from mickey.
+pfalstad has logged on p5 from mickey.
+% WATCHFMT='%n on tty%l from %M'
+% log
+jcorr on ttytf from 128.112.176.3:0.
+jcorr on ttyr0 from 128.112.176.3:0.
+gettes on ttyp4 from yo:0.0
+djthongs on ttype from grumpy:0.0
+djthongs on ttyq2 from phoenix.Princeto
+bdavis on ttyqd from BRUNOpl.gov
+eps on ttyp3 from csx30:0.0
+pfalstad on ttyp0 from mickey.Princeton
+pfalstad on ttyp5 from mickey.Princeton
+% WATCHFMT='%n fm %m'
+% log
+jcorr fm 128.112.176.3:0
+jcorr fm 128.112.176.3:0
+gettes fm yo:0.0
+djthongs fm grumpy:0.0
+djthongs fm phoenix
+bdavis fm BRUNO
+eps fm csx30:0.0
+pfalstad fm mickey
+pfalstad fm mickey
+% WATCHFMT='%n %a at %t %w.'
+% log
+jcorr logged on at 3:15pm Mon 20.
+jcorr logged on at 3:16pm Wed 22.
+gettes logged on at 6:54pm Wed 22.
+djthongs logged on at 7:19am Thu 23.
+djthongs logged on at 7:20am Thu 23.
+bdavis logged on at 12:40pm Thu 23.
+eps logged on at 4:19pm Thu 23.
+pfalstad logged on at 3:39am Fri 24.
+pfalstad logged on at 3:42am Fri 24.
+</PRE>
+
+<P>
+<A NAME="IDX203"></A>
+If you have a <TT>`.friends'</TT> file in your home directory, a convenient
+way to make zsh watch for all your friends is to do this:
+<PRE>
+% watch=( $(&#60; ~/.friends) )
+% echo $watch
+subbarao maruchck root sukthnkr ...
+</PRE>
+
+<P>
+If <CODE>watch</CODE> is set to <CODE>all</CODE>, then all users logging in or out
+will be reported.
+</P>
+<HR>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_14.html">previous</A>, <A HREF="intro_16.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+</BODY>
+</HTML>

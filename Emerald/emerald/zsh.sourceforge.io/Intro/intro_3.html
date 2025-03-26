@@ -1,0 +1,71 @@
+<HTML>
+<HEAD>
+<!-- This HTML file has been created by texi2html 1.44
+     from intro.texi on 30 November 1995 -->
+
+<TITLE>An Introduction to the Z Shell - Startup Files</TITLE>
+</HEAD>
+<BODY>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_2.html">previous</A>, <A HREF="intro_4.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+<HR>
+
+
+<H1><A NAME="SEC3" HREF="intro_toc.html#SEC3">Startup Files</A></H1>
+<P>
+<A NAME="IDX9"></A>
+<A NAME="IDX10"></A>
+
+</P>
+<P>
+There are five startup files that zsh will read commands from:
+
+</P>
+
+<PRE>
+$ZDOTDIR/.zshenv
+$ZDOTDIR/.zprofile
+$ZDOTDIR/.zshrc
+$ZDOTDIR/.zlogin
+$ZDOTDIR/.zlogout
+</PRE>
+
+<P>
+If <CODE>ZDOTDIR</CODE> is not set, then the value of <CODE>HOME</CODE> is used;
+this is the usual case.<A NAME="IDX11"></A>
+<A NAME="IDX12"></A>
+
+</P>
+<P>
+<A NAME="IDX13"></A>
+<TT>`.zshenv'</TT> is sourced on all invocations of the shell, unless the
+<CODE>-f</CODE> option is set.  It should contain commands to set the command
+search path, plus other important environment variables.  <TT>`.zshenv'</TT>
+should not contain commands that produce output or assume the shell is
+attached to a tty.
+</P>
+<P>
+<A NAME="IDX14"></A>
+<TT>`.zshrc'</TT> is sourced in interactive shells.  It should contain
+commands to set up aliases, functions, options, key bindings,
+etc.
+</P>
+<P>
+<A NAME="IDX15"></A>
+<A NAME="IDX16"></A>
+<A NAME="IDX17"></A>
+<TT>`.zlogin'</TT> is sourced in login shells.  It should contain commands
+that should be executed only in login shells.  <TT>`.zlogout'</TT> is
+sourced when login shells exit.  <TT>`.zprofile'</TT> is similar to
+<TT>`.zlogin'</TT>, except that it is sourced before <TT>`.zshrc'</TT>.
+<TT>`.zprofile'</TT> is meant as an alternative to <TT>`.zlogin'</TT> for ksh
+fans; the two are not intended to be used together, although this could
+certainly be done if desired.  <TT>`.zlogin'</TT> is not the place for alias
+definitions, options, environment variable settings, etc.; as a general
+rule, it should not change the shell environment at all.  Rather, it
+should be used to set the terminal type and run a series of external
+commands (<CODE>fortune</CODE>, <CODE>msgs</CODE>, etc).
+</P>
+<HR>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_2.html">previous</A>, <A HREF="intro_4.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+</BODY>
+</HTML>

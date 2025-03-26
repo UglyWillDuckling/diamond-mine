@@ -8,41 +8,6 @@
         "rowNumber": 6
       }
     ],
-    "+/you have the after command.md": [
-      {
-        "title": "monthly",
-        "time": "2025-03-21",
-        "rowNumber": 14
-      }
-    ],
-    "+/there is a web_search command as well.md": [
-      {
-        "title": "monthly web search",
-        "time": "2025-03-25",
-        "rowNumber": 3
-      }
-    ],
-    "+/vim - jump to last edit and enter insert mode.md": [
-      {
-        "title": "second month",
-        "time": "2025-03-24",
-        "rowNumber": 15
-      }
-    ],
-    "Clippings/Nuphy AIR 75 connection problem (BT + Dongle) and side leds not working!!.md": [
-      {
-        "title": "remind me nuphy",
-        "time": "2025-03-18",
-        "rowNumber": 18
-      }
-    ],
-    "Atlas/Knowledge/tools/dev/bashword.md": [
-      {
-        "title": "bi-weekly",
-        "time": "2025-03-18",
-        "rowNumber": 29
-      }
-    ],
     "Atlas/Knowledge/tools/dev/ocrs.md": [
       {
         "title": "month",
@@ -64,13 +29,6 @@
         "rowNumber": 2
       }
     ],
-    "work/notes/LUQA has been pushed back.md": [
-      {
-        "title": "remind me",
-        "time": "2025-03-21",
-        "rowNumber": 2
-      }
-    ],
     "Atlas/Knowledge/How To's/vim - jump through the change list.md": [
       {
         "title": "bi-monthly",
@@ -78,11 +36,25 @@
         "rowNumber": 7
       }
     ],
-    "Clippings/How to remove suffix in bash.md": [
+    "+/you have the after command.md": [
       {
-        "title": "remind me",
-        "time": "2025-03-25",
-        "rowNumber": 4
+        "title": "after command monthly",
+        "time": "2025-04-11",
+        "rowNumber": 15
+      }
+    ],
+    "work/calls/groq API key location.md": [
+      {
+        "title": "remind",
+        "time": "2025-03-31",
+        "rowNumber": 3
+      }
+    ],
+    "Clippings/How to download an entire website for offline usage (using wget).md": [
+      {
+        "title": "reminder - download entire website",
+        "time": "2025-04-04",
+        "rowNumber": 11
       }
     ]
   },

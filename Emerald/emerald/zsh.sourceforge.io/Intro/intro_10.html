@@ -1,0 +1,553 @@
+<HTML>
+<HEAD>
+<!-- This HTML file has been created by texi2html 1.44
+     from intro.texi on 30 November 1995 -->
+
+<TITLE>An Introduction to the Z Shell - Command Line Editing</TITLE>
+</HEAD>
+<BODY>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_9.html">previous</A>, <A HREF="intro_11.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+<HR>
+
+
+<H1><A NAME="SEC10" HREF="intro_toc.html#SEC10">Command Line Editing</A></H1>
+
+<P>
+<A NAME="IDX69"></A>
+zsh's command line editor, <STRONG>ZLE</STRONG>, is quite powerful.  It is
+designed to emulate either emacs or vi; the default is emacs.  To set
+the bindings for vi mode, type <CODE>bindkey -v</CODE>.
+<A NAME="IDX70"></A>
+<A NAME="IDX71"></A>
+<A NAME="IDX72"></A>
+<A NAME="IDX73"></A>
+
+</P>
+<P>
+In addition to basic editing, the shell allows you to recall previous
+lines in the history.  In emacs mode, this is done with ^P
+(control-P):<A NAME="IDX74"></A>
+
+</P>
+
+<PRE>
+% ls ~
+-           README      file        mail        pub         tmp
+Mailboxes   bin         func        nicecolors  scr         zsh
+News        etc         iris        notes       src
+% echo foobar
+foobar
+% <KBD>^P</KBD>
+% echo foobar<KBD>^P</KBD>
+% ls ~_
+</PRE>
+
+<P>
+Pressing ^P once brings up the previous line (<CODE>echo foobar</CODE>);
+pressing it again brings up the line before that (<CODE>ls ~</CODE>).  The
+cursor is left at the end of the line, allowing you to edit the line if
+desired before executing it.  In many cases, <STRONG>ZLE</STRONG> eliminates the
+need for the <CODE>fc</CODE> command, since it is powerful enough to handle
+even multiline commands:<A NAME="IDX75"></A>
+
+</P>
+
+<PRE>
+% for i in a b c d e
+&#62; do
+&#62; echo $i
+&#62; done
+a
+b
+c
+d
+e
+% <KBD>^P</KBD>
+% for i in a b c d e 
+ do 
+ echo $i 
+ done_
+</PRE>
+
+<P>
+Now you can just move up to the part you want to change...
+
+</P>
+
+<PRE>
+% for i in a_ b c d e
+ do 
+ echo $i 
+ done
+</PRE>
+
+<P>
+change it, and execute the new command.
+
+</P>
+
+<PRE>
+% for i in f g h i j
+ do 
+ echo $i 
+ done
+f
+g
+h
+i
+j
+</PRE>
+
+<P>
+Also, you can search the history for a certain command using
+<KBD><KBD>ESC</KBD>-P</KBD>:<A NAME="IDX76"></A>
+<A NAME="IDX77"></A>
+
+</P>
+
+<PRE>
+% set <KBD>ESC-P</KBD>
+% setopt autolist <KBD>ESC-P</KBD>
+% setopt nocorrect_
+</PRE>
+
+<P>
+Another way is to do an incremental search, emacs-style:
+<A NAME="IDX78"></A>
+<A NAME="IDX79"></A>
+
+</P>
+
+<PRE>
+% <KBD>^R</KBD>
+% _
+i-search:
+
+% l_s /usr/bin
+i-search: l
+
+% date &#62; foofil_e.c
+i-search: le
+</PRE>
+
+<P>
+Another useful feature of the editor is command and filename completion.
+<A NAME="IDX80"></A>
+<A NAME="IDX81"></A>
+<A NAME="IDX82"></A>
+<A NAME="IDX83"></A>
+<A NAME="IDX84"></A>
+
+</P>
+
+<PRE>
+% comp<KBD>TAB</KBD>
+% compress _
+
+% ls /nic<KBD>TAB</KBD>
+% ls /nicecolors _
+
+% ls /usr/pr<KBD>TAB</KBD>
+% ls /usr/princeton/_
+
+% ls -l =com<KBD>TAB</KBD>
+% ls -l =compress _
+</PRE>
+
+<P>
+If the completion is ambiguous, the editor will beep.  You can list
+possible completions by pressing ^D:
+<A NAME="IDX85"></A>
+<A NAME="IDX86"></A>
+
+</P>
+
+<PRE>
+% ls /vmu<KBD>TAB</KBD> <EM>beep</EM>
+% ls /vmunix_
+% ls /vmunix<KBD>^D</KBD>
+vmunix                    vmunix.old                
+vmunix.new.kernelmap.old  vmunix.org
+</PRE>
+
+<P>
+Or, you could just set the <CODE>AUTOLIST</CODE> option:
+<A NAME="IDX87"></A>
+
+</P>
+
+<PRE>
+% setopt autolist
+% ls /vmu<KBD>TAB</KBD> <EM>beep</EM>
+vmunix                    vmunix.old                
+vmunix.new.kernelmap.old  vmunix.org
+% ls /vmunix_
+</PRE>
+
+<P>
+<A NAME="IDX88"></A>
+Another option you could set is <CODE>RECEXACT</CODE>, which causes exact
+matches to be accepted, even if there are other possible
+completions:
+</P>
+
+<PRE>
+% setopt recexact
+% ls /vmu<KBD>TAB</KBD> <EM>beep</EM>
+vmunix                    vmunix.old                
+vmunix.new.kernelmap.old  vmunix.org
+% ls /vmunix_<KBD>TAB</KBD>
+% ls /vmunix _
+</PRE>
+
+<P>
+<A NAME="IDX89"></A>
+The <CODE>fignore</CODE> variable lists suffixes of files to ignore during
+completion.
+
+</P>
+
+<PRE>
+% ls foo<KBD>TAB</KBD> <EM>beep</EM>
+foofile.c  foofile.o
+% fignore=( .o \~ .bak .junk )
+% ls foo<KBD>TAB</KBD>
+% ls foofile.c _
+</PRE>
+
+<P>
+Since <CODE>foofile.o</CODE> has a suffix that is in the <CODE>fignore</CODE> list,
+it was not considered a possible completion of <CODE>foo</CODE>.
+</P>
+
+<P>
+Username completion is also supported:
+<A NAME="IDX90"></A>
+<A NAME="IDX91"></A>
+
+</P>
+
+<PRE>
+% ls ~pfal<KBD>TAB</KBD>
+% ls ~pfalstad/_
+</PRE>
+
+<P>
+and parameter name completion:
+<A NAME="IDX92"></A>
+<A NAME="IDX93"></A>
+
+</P>
+
+<PRE>
+% echo $ORG<KBD>TAB</KBD>
+% echo $ORGANIZATION _
+</PRE>
+
+<P>
+and hostname completion, if you give the shell a list of hosts to
+complete:
+<A NAME="IDX94"></A>
+<A NAME="IDX95"></A>
+<A NAME="IDX96"></A>
+
+</P>
+
+<PRE>
+% hosts=( phoenix.princeton.edu uunet.uu.net nic.ddn.mil
+&#62; diskfarm.princeton.edu gnu.ai.mit.edu
+&#62; eniac.seas.upenn.edu )
+% telnet disk<KBD>TAB</KBD>
+% telnet diskfarm.princeton.edu _
+
+% ftp uu<KBD>TAB</KBD>
+% ftp uunet.uu.net _
+
+% mail subbarao@ph<KBD>TAB</KBD>
+% mail subbarao@phoenix.princeton.edu _
+</PRE>
+
+<P>
+and option completion:
+<A NAME="IDX97"></A>
+<A NAME="IDX98"></A>
+
+</P>
+
+<PRE>
+% setopt nocl<KBD>TAB</KBD>
+% setopt noclobber _
+</PRE>
+
+<P>
+and binding completion:
+<A NAME="IDX99"></A>
+<A NAME="IDX100"></A>
+
+</P>
+
+<PRE>
+% bindkey '^X^X' pu<KBD>TAB</KBD>
+% bindkey '^X^X' push-line _
+</PRE>
+
+<P>
+<A NAME="IDX101"></A>
+The <CODE>compctl</CODE> command is used to control how completion works.  For
+example, to specify that certain commands show take commands as
+arguments, you use <CODE>compctl -c</CODE>:
+</P>
+
+<PRE>
+% compctl -c man nohup
+% man upt<KBD>TAB</KBD>
+% man uptime _
+</PRE>
+
+<P>
+To specify that a command should complete filenames, you should use
+<CODE>compctl -f</CODE>.  This is the default.  It can be combined with
+<CODE>-c</CODE>, as well.
+</P>
+
+<PRE>
+% compctl -cf echo
+% echo upt<KBD>TAB</KBD>
+% echo uptime _
+
+% echo fo<KBD>TAB</KBD>
+% echo foo.c
+</PRE>
+
+<P>
+Similarly, use <CODE>-h</CODE> to specify hostnames, <CODE>-o</CODE> to specify
+options, <CODE>-v</CODE> to specify variables, and <CODE>-b</CODE> to specify
+bindings.
+</P>
+
+<PRE>
+% compctl -h rlogin
+% compctl -hfc rsh
+% compctl -b bindkey
+</PRE>
+
+<P>
+You can also use <CODE>-k</CODE> to specify a custom list of keywords to use
+in completion.<A NAME="IDX102"></A>
+<A NAME="IDX103"></A>
+
+</P>
+
+<PRE>
+% ftphosts=(ftp.uu.net wuarchive.wustl.edu)
+% compctl -k ftphosts ftp
+% ftp wu<KBD>TAB</KBD>
+% ftp wuarchive.wustl.edu _
+
+% friends=(cpirazzi subbarao sukthnkr)
+% compctl -k friends mail finger su
+% finger cp<KBD>TAB</KBD>
+% finger cpirazzi _
+</PRE>
+
+<P>
+In addition to completion, <KBD>TAB</KBD> performs expansion if possible.
+<A NAME="IDX104"></A>
+<A NAME="IDX105"></A>
+
+</P>
+
+<PRE>
+% ls *.c<KBD>TAB</KBD>
+% ls foofile.c fortune.c rnd.c strfile.c unstr.c_
+</PRE>
+
+<P>
+For example, suppose you have a bunch of weird files in an important
+directory:
+<A NAME="IDX106"></A>
+<A NAME="IDX107"></A>
+
+</P>
+
+<PRE>
+% ls
+  * * *       ; &#38; % $??foo  dspfok        foo.c
+  !"foo"!       ` \ `         foo           rrr
+</PRE>
+
+<P>
+You want to remove them, but you don't want to damage <CODE>foo.c</CODE>.
+Here is one way to do this:
+</P>
+
+<PRE>
+% rm *<KBD>TAB</KBD>
+% rm \ \ \*\ \*\ \*\ \ \  \!\"foo\"\! \;\ \&#38;\ %\ \$'
+'foo \`\ \\\ \` dspfok foo foo.c rrr_
+</PRE>
+
+<P>
+When you expand <KBD>*</KBD>, zsh inserts the names of all the files into the
+editing buffer, with proper shell quoting.  Now, just move back and
+remove <CODE>foo.c</CODE> from the buffer:
+
+</P>
+
+<PRE>
+% rm \ \ \*\ \*\ \*\ \ \  \!\"foo\"\! \;\ \&#38;\ %\ \$'
+'foo \`\ \\\ \` dspfok foo \kxr\l'|\nxu\(ul'rr
+</PRE>
+
+<P>
+and press return.  Everything except <CODE>foo.c</CODE> will be deleted from
+the directory.
+</P>
+
+<P>
+Here's another trick; let's say you have typed this command in:
+
+</P>
+
+<PRE>
+% gcc -o x.out foob.c -g -Wpointer-arith -Wtrigraphs_
+</PRE>
+
+<P>
+and you forget which library you want.  You need to escape out for a
+minute and check by typing <CODE>ls /usr/lib</CODE>, or some other such
+command; but you don't want to retype the whole command again, and you
+can't press return now because the current command is incomplete.  In
+zsh, you can put the line on the <EM>buffer stack</EM>, using <KBD><KBD>ESC</KBD>-Q</KBD>,
+<A NAME="IDX108"></A>
+<A NAME="IDX109"></A>
+<A NAME="IDX110"></A>
+<A NAME="IDX111"></A>
+and type some other commands.  The next time a prompt is printed, the
+<CODE>gcc</CODE> line will be popped off the stack and put in the editing
+buffer automatically; you can then enter the proper library name and
+press return (or, <KBD><KBD>ESC</KBD>-Q</KBD> again and look for some other
+libraries whose names you forgot).
+</P>
+<P>
+A similar situation: what if you forget the option to gcc that finds
+bugs using AI techniques?  You could either use <KBD><KBD>ESC</KBD>-Q</KBD> again,
+and type <CODE>man gcc</CODE>, or you could press <KBD><KBD>ESC</KBD>-H</KBD>, which
+<A NAME="IDX112"></A>
+essentially does the same thing; it puts the current line on the buffer
+stack, and executes the command <CODE>run-help gcc</CODE>, where
+<CODE>run-help</CODE> is an alias for <CODE>man</CODE>.<A NAME="IDX113"></A>
+
+</P>
+<P>
+<A NAME="IDX114"></A>
+<A NAME="IDX115"></A>
+Another interesting command is <KBD><KBD>ESC</KBD>-A</KBD>.  This executes the
+current line, but retains it in the buffer, so that it appears again
+when the next prompt is printed.  Also, the cursor stays in the same
+place.  This is useful for executing a series of similar
+commands:
+</P>
+
+<PRE>
+% cc grok.c -g -lc -lgl -lsun -lmalloc -Bstatic -o b.out
+% cc fubar.c -g -lc -lgl -lsun -lmalloc -Bstatic -o b.out
+% cc fooble.c -g -lc -lgl -lsun -lmalloc -Bstatic -o b.out
+</PRE>
+
+<P>
+The <KBD><KBD>ESC</KBD>-'</KBD> command is useful for managing the shell's quoting
+<A NAME="IDX116"></A>
+<A NAME="IDX117"></A>
+<A NAME="IDX118"></A>
+conventions.  Let's say you want to print this string:
+
+</P>
+
+<PRE>
+don't do that; type 'rm -rf \*', with a \ before the *.
+</PRE>
+
+<P>
+All that is necessary is to type it into the editing buffer:
+
+</P>
+
+<PRE>
+% don't do that; type 'rm -rf \*', with a \ before the *.
+</PRE>
+
+<P>
+press <KBD><KBD>ESC</KBD>-'</KBD> (escape-quote):
+
+</P>
+
+<PRE>
+% 'don'\"t do that; type '\"rm -rf \*'\", with a \ before the *.'
+</PRE>
+
+<P>
+then move to the beginning and add the <CODE>echo</CODE> command.
+
+</P>
+
+<PRE>
+% echo 'don'\"t do that; type '\"rm -rf \*'\", with a \ before the *.'
+don't do that; type 'rm -rf \*', with a \ before the *.
+</PRE>
+
+<P>
+Let's say you want to create an alias to do this <CODE>echo</CODE> command.
+This can be done by recalling the line with ^P and pressing
+<KBD><KBD>ESC</KBD>-'</KBD> again:
+</P>
+
+<PRE>
+% 'echo '\"don'\"\'\"'\"t do that; type '\"\'\"'\"rm -rf
+\*'\"\'\"'\", with a \ before the *.'\"'
+</PRE>
+
+<P>
+and then move to the beginning and add the command to create an alias.
+
+</P>
+
+<PRE>
+% alias zoof='echo '\"don'\"\'\"'\"t do that; type '\"\'\"'\"
+rm -rf \*'\"\'\"'\", with a \ before the *.'\"'
+% zoof
+don't do that; type 'rm -rf \*', with a \ before the *.
+</PRE>
+
+<P>
+Another interesting option is <CODE>MENUCOMPLETE</CODE>.  This affects the way
+<KBD>TAB</KBD> works.  Let's look at the <CODE>/vmunix</CODE> example again:
+<A NAME="IDX119"></A>
+<A NAME="IDX120"></A>
+
+</P>
+
+<PRE>
+% setopt menucomplete
+% ls /vmu<KBD>TAB</KBD>
+% ls /vmunix<KBD>TAB</KBD>
+% ls /vmunix.new.kernelmap.old<KBD>TAB</KBD>
+% ls /vmunix.old_
+</PRE>
+
+<P>
+Each time you press <KBD>TAB</KBD>, it displays the next possible completion.
+In this way, you can cycle through the possible completions until you
+find the one you want.
+</P>
+<P>
+<A NAME="IDX121"></A>
+The <CODE>AUTOMENU</CODE> option makes a nice compromise between this method
+of completion and the regular method.  If you set this option, pressing
+the <KBD>TAB</KBD> key repeatedly after an ambiguous completion will cycle
+through the possible completions.
+</P>
+<HR>
+Go to the <A HREF="intro_1.html">first</A>, <A HREF="intro_9.html">previous</A>, <A HREF="intro_11.html">next</A>, <A HREF="intro_21.html">last</A> section, <A HREF="intro_toc.html">table of contents</A>.
+</BODY>
+</HTML>

@@ -2,7 +2,7 @@ GNU Make - Complex Makefile Example
 
 Go to the [previous](make_15.md), [next](make_17.md) section.
 
-# [Complex Makefile Example](make_toc.md#SEC116){#SEC116}
+# [Complex Makefile Example](make_toc.md#SEC116)
 
 Here is the makefile for the GNU `tar` program. This is a moderately
 complex makefile.

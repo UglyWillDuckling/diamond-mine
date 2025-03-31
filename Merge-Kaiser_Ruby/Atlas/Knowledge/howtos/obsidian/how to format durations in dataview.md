@@ -8,10 +8,8 @@ duration.minutes
 ...
 ```
 
-
 > [!NOTE] be Careful
 > The values returned will all be for the whole duration value, NOT just the part you're asking for
-
 ## example
 
 For duration of 73 years and 2 months

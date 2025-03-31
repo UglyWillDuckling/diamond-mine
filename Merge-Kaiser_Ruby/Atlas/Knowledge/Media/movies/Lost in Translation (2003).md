@@ -24,7 +24,7 @@ actors:
 image: https://m.media-amazon.com/images/M/MV5BMTUxMzk0NDg1MV5BMl5BanBnXkFtZTgwNDg0NjkxMDI@._V1_SX300.jpg
 released: true
 premiere: 10/03/2003
-watched: false
+watched: true
 lastWatched: ""
 personalRating: 0
 tags:

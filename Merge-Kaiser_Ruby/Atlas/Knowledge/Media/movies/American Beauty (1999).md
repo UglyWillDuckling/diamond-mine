@@ -26,7 +26,7 @@ image: https://m.media-amazon.com/images/M/MV5BMDI1MDE0OTMtMmI2MS00Yjc2LTg2MTItM
 released: true
 streamingServices: 
 premiere: 10/01/1999
-watched: false
+watched: true
 lastWatched: ""
 personalRating: 0
 tags:

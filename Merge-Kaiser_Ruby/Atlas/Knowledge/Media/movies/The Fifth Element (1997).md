@@ -26,7 +26,7 @@ actors:
 image: https://m.media-amazon.com/images/M/MV5BODU4ZTE5MWYtNmY2MC00NDkyLTk0NDgtNTk5YjgzMzc4NmQwXkEyXkFqcGc@._V1_SX300.jpg
 released: true
 premiere: 05/09/1997
-watched: false
+watched: true
 lastWatched: ""
 personalRating: 0
 interest: 8

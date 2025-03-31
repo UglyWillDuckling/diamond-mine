@@ -1934,6 +1934,50 @@
                 "filePath": "Atlas/Knowledge/Media/Articles/Dev/The Early History Of Smalltalk.md",
                 "completion": ""
             }
+        ],
+        "Calendar/daily/2025/2025-03-31-Mon.md": [
+            {
+                "id": 1000300350,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-03-31-Mon.md",
+                "completion": ""
+            }
+        ],
+        "Clippings/How to restore etc-X11 folder.md": [
+            {
+                "id": 4009780758,
+                "status": "/",
+                "title": "#task fix [[xorg]] not working after longer wait ⏫ ⏳ 2025-03-31 📅 2025-03-30",
+                "body": [],
+                "time": "",
+                "due": "2025-03-30",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Clippings/How to restore etc-X11 folder.md",
+                "completion": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-04-01-Tue.md": [
+            {
+                "id": 2650252531,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-04-01-Tue.md",
+                "completion": ""
+            }
         ]
     },
     "Completed": {

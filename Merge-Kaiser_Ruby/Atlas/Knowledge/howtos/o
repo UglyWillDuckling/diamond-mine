@@ -1,0 +1,9 @@
+#howto/dataview 
+
+just use `choice`.
+
+```js
+table textValue as "Text Value",
+choice(booleanValue , "✅", "✘") as "Boolean Value"
+from #tag
+```

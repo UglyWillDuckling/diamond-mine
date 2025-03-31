@@ -27,7 +27,7 @@ released: true
 tags:
   - mediaDB/tv/movie
   - film/90s
-watched: false
+watched: true
 lastWatched: ""
 personalRating: 0
 ---

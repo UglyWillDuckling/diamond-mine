@@ -11,7 +11,7 @@
 
 ## scenarios
 - [[Listing]] exists: `Voir annonce` link to the listing
-- has potential listing: [[link]] to contract listings page
+- has potential listing: [[slack link techtalk-croatia]] to contract listings page
 	- `/contacts/%s/projects/%s/contracts/%s/listing`
 	- `Détectée`
 - No listing: `Aucune annonce` 

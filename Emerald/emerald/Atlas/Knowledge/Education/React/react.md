@@ -1,13 +1,14 @@
-[[2024-08-27]]
-
-- starting to learn react
-
----
-> 
-## some resources
+## resources
 
 ### tutorials 🖋
-- ~~W3C tutorials~~
 
 ### articles 🍞
+
 [[React with design patterns article]]
+
+```dataview
+TABLE
+interest
+FROM #article/react 
+SORT interest DESC
+```

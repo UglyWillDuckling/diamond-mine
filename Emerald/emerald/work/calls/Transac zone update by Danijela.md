@@ -14,9 +14,6 @@ ___
 
 Used by [[SalesForceApi]] to automatically updated zones.
 
-### 🗒**notes**
-- ..
-
 ### used by
 - [[SalesForceApi]]
 

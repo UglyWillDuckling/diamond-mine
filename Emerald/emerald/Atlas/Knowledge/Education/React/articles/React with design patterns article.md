@@ -1,4 +1,9 @@
-## Container/Presentational Pattern
+---
+interest: 8
+tags:
+  - article/react
+---
+## [[Container/Presentational Pattern]]
 
 - Concept: Separates presentation logic (UI) from business logic (data fetching, state management).
 - Benefits: Improved code organization, cleaner components, easier testing and maintenance.
@@ -39,9 +44,9 @@ function ProductList({ products }) {
 export default ProductList;
 ```
 
-## Higher-Order Components (HOCs):
+## [[Higher-Order Components]] (HOCs):
 
-- Concept: Wraps a component with additional functionality (like authentication, data fetching) without modifying the original component.
+- Concept: Wraps a component with **additional functionality** (like authentication, data fetching) without modifying the original component.
 - Benefits: Code reusability, cleaner components, reduced boilerplate code.
 - Use Case: Securing multiple components in your app with an “authenticated user” requirement. The withAuth HOC can be applied to any component, saving you from writing repetitive authentication logic.
 
@@ -63,9 +68,7 @@ const MyProtectedComponent = () => {
 };
 ```
 
-export default withAuth(MyProtectedComponent);
-
-## Render Props Pattern
+## [[Render Props Pattern]]
 
 - Concept: Passes a function from parent to child component, allowing the child to define how it renders and interacts with the data.
 - Benefits: Increased flexibility, dynamic rendering, component decoupling.
@@ -92,4 +95,5 @@ function MyPage() {
 }
 ```
 
-> Remember, design patterns are **tools**, not rules. Choosing the right pattern depends on your specific needs and context. Experiment, find what works best for your project, and watch your React code evolve from chaotic to clean and maintainable!
+Remember, design patterns are **tools**, not rules. 
+Choosing the right pattern depends on your specific needs and context. Experiment, find what works best for your project, and watch your React code evolve from chaotic to clean and maintainable!

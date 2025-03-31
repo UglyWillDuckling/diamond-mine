@@ -4,56 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "a89f87e9533bf834",
+        "id": "d100bb0c2979ae60",
         "type": "tabs",
         "children": [
           {
-            "id": "7e8486092a10b5df",
+            "id": "c560533c8df4d5f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Setting Up SSH Keys - FreeCodeCamp.md",
+                "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-31-Mon.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Setting Up SSH Keys - FreeCodeCamp"
-            }
-          },
-          {
-            "id": "6da7be20f485cb8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/how do we specify an ssh default identity.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "how do we specify an ssh default identity"
-            }
-          },
-          {
-            "id": "181c7c709516b2d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/Knowledge/tools/dev/zsh/An Introduction to the Z Shell - Startup Files.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "An Introduction to the Z Shell - Startup Files"
+              "title": "2025-03-31-Mon"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -65,6 +34,7 @@
       {
         "id": "396d97731e40095f",
         "type": "tabs",
+        "dimension": 35.02824858757062,
         "children": [
           {
             "id": "688b3d615137a273",
@@ -107,10 +77,33 @@
             }
           }
         ]
+      },
+      {
+        "id": "88141fa1c7c58976",
+        "type": "tabs",
+        "dimension": 64.97175141242938,
+        "children": [
+          {
+            "id": "eed85141903b77dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Transac Zones update ticket"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 237.5110321044922
+    "width": 467.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "0bce692d28de0848",
@@ -172,12 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Clippings/React Higher-Order Components (HOCs).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of React Higher-Order Components (HOCs)"
             }
           },
           {
@@ -267,18 +261,42 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "181c7c709516b2d8",
+  "active": "c560533c8df4d5f5",
   "lastOpenFiles": [
-    "Atlas/Knowledge/tools/dev/zsh/zsh.md",
-    "Clippings/how do we specify an ssh default identity.md",
+    "Clippings/bash development requirements.md",
+    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-31-Mon.md",
+    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-28-Fri.md",
+    "Clippings/mvdansh A shell parser, formatter, and interpreter with bash support; includes shfmt.md",
+    "Clippings/Daniel Martí.md",
+    "Atlas/Knowledge/Education/React/react.md",
+    "Atlas/Knowledge/Education/React/articles/React with design patterns article.md",
+    "Clippings/Top 10 Oh My Zsh Plugins.md",
+    "Clippings/bash-language-server.md",
+    "Clippings/zigtoolszls A Zig language server supporting Zig developers with features like autocomplete and goto definition.md",
+    "Atlas/Knowledge/Education/React/articles/slack link techtalk-croatia.md",
+    "Clippings/React List Components by Example.md",
+    "Atlas/Knowledge/Articles/dev/React Conditional Rendering.md",
+    "Clippings/React Higher-Order Components (HOCs).md",
+    "Atlas/Knowledge/Articles/dev/A Complete Guide to useEffect — overreacted.md",
+    "Clippings/How to fetch data with React Hooks.md",
+    "Clippings/Why You Want React Query.md",
+    "Clippings/Web Applications 101.md",
+    "Atlas/Knowledge/daily_notes/2025/03-March/brojevi tima.md",
+    "Clippings/How to fetch data in React 2024.md",
+    "Clippings/React Function Components.md",
+    "Clippings/Road to React Learn React.js 19 with Hooks in JavaScript.md",
+    "Atlas/Knowledge/daily_notes/2025/03-March/Team Update Meeting.md",
+    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-27-Thu.md",
+    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
+    "Clippings/Thinking in React – React.md",
+    "coverage update canvas.canvas",
+    "work/tickets/FEAT/Transac Zones update ticket",
     "Atlas/Knowledge/tools/dev/zsh",
-    "Atlas/Knowledge/tools/dev/zsh/An Introduction to the Z Shell - Startup Files.md",
     "zsh.sourceforge.io/favicon.png",
     "zsh.sourceforge.io/favicon.svg",
     "zsh.sourceforge.io/Images/top.png",
     "zsh.sourceforge.io/Images/prev.png",
     "zsh.sourceforge.io/Images/next.png",
-    "work/tickets/FEAT/Transac Zones update ticket.md",
     "zsh.sourceforge.io/Intro/intro_toc.html",
     "zsh.sourceforge.io/Intro/intro_9.html",
     "zsh.sourceforge.io/Intro/intro_8.html",
@@ -287,29 +305,7 @@
     "zsh.sourceforge.io/Intro/intro_5.html",
     "zsh.sourceforge.io/Intro/intro_4.html",
     "zsh.sourceforge.io/Intro/intro_3.html",
-    "zsh.sourceforge.io/Intro/intro_21.html",
     "zsh.sourceforge.io/Images/up.png",
-    "Clippings/How to download an entire website for offline usage (using wget).md",
-    "Clippings/ssh configuration on laptop.md",
-    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-26-Wed.md",
-    "Clippings/Setting Up SSH Keys - FreeCodeCamp.md",
-    "Clippings/How to remove suffix in bash.md",
-    "Atlas/Knowledge/daily_notes/Current or active.md",
-    "work/docs/how to/add new ssh key.md",
-    "work/Projects/LUQA/Team Create-Edit Modal Component.md",
-    "Atlas/Knowledge/people/stevearco.md",
-    "Clippings/A Complete Guide to useEffect — overreacted.md",
-    "Clippings/The “Bug-O” Notation — overreacted.md",
-    "Clippings/Investigate Usage of product_coverage table on Backyard.md",
-    "Clippings/quicker.nvim.md",
-    "Atlas/Knowledge/tools/dev/js/react/useeffect.md",
-    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-25-Tue.md",
-    "Clippings/Terraform Troubleshooting Fixing Fails, Errors, and Cloud Chaos.md",
-    "Atlas/Knowledge/tools/dev/js/npx.md",
-    "Clippings/overreacted.md",
-    "Clippings/Create Workflow using Alacritty, Fish Shell, tmux, and Vim.md",
-    "Clippings/2025-03-25.md",
-    "+/vim - jump to last edit and enter insert mode.md",
     "~/x/eebc1cd7a1e8268640c6f4d605b25264_MD5.jpeg",
     "toucan(1).png",
     "~/x/485ddd1f4dd3778a21748ca3db44dce3_MD5.jpeg",

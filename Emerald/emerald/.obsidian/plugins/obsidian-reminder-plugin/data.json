@@ -1,13 +1,6 @@
 {
   "scanned": true,
   "reminders": {
-    "+/Xdebug just works.md": [
-      {
-        "title": "monthly",
-        "time": "2025-03-28",
-        "rowNumber": 6
-      }
-    ],
     "Atlas/Knowledge/tools/dev/ocrs.md": [
       {
         "title": "month",
@@ -41,13 +34,6 @@
         "title": "after command monthly",
         "time": "2025-04-11",
         "rowNumber": 15
-      }
-    ],
-    "work/calls/groq API key location.md": [
-      {
-        "title": "remind",
-        "time": "2025-03-31",
-        "rowNumber": 3
       }
     ],
     "Clippings/How to download an entire website for offline usage (using wget).md": [

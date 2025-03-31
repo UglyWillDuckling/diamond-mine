@@ -1,0 +1,67 @@
+{
+  "edges": [
+    {
+      "fromNode": "b0673bb8e8c35feb",
+      "fromSide": "right",
+      "id": "c1aedcbe9fc0fc05",
+      "styleAttributes": {
+      },
+      "toNode": "b4e459b743844a4b",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "autoResizeHeight": true,
+      "height": 60,
+      "id": "4be4f1b654babb5a",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "**UPDATE PROCESS**\n",
+      "type": "text",
+      "width": 440,
+      "x": -400,
+      "y": -660
+    },
+    {
+      "autoResizeHeight": false,
+      "color": "1",
+      "height": 266,
+      "id": "b4e459b743844a4b",
+      "styleAttributes": {
+      },
+      "text": "**coverage table update**\n- cities are added to  `biz_product_coverage` \n- the `place_id` value is retrieved from `geo_place2`\n\t- filtered by the `city_id` ",
+      "type": "text",
+      "width": 290,
+      "x": -130,
+      "y": -320
+    },
+    {
+      "autoResizeHeight": true,
+      "color": "5",
+      "height": 100,
+      "id": "b0673bb8e8c35feb",
+      "styleAttributes": {
+      },
+      "text": "**backyard UI sends request** \n- sends list of cities",
+      "type": "text",
+      "width": 260,
+      "x": -460,
+      "y": -237
+    },
+    {
+      "autoResizeHeight": false,
+      "height": 200,
+      "id": "2ce6c52f7c33530d",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "**NOTES** 📔\n\n- only [[RDVVQ]] items are relevant",
+      "type": "text",
+      "width": 320,
+      "x": -700,
+      "y": -520
+    }
+  ]
+}

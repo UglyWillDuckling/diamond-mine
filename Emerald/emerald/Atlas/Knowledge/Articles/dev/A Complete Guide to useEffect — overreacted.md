@@ -7,8 +7,11 @@ tags:
   - article/react
 part of:
   - "[[overreacted]]"
+interest: 7
 ---
 March 9, 2019
+
+- [/] #task read [[A Complete Guide to useEffect — overreacted]] #read ⏳ 2025-03-26 📅 2025-03-27 🆔 xkBIYd
 ___
 
 - [[#TLDR|TLDR]]
@@ -2451,6 +2454,6 @@ Now that you know pretty much everything I know about using effects, check out t
 
 I’d love to hear from you on Twitter! Thanks for reading.
 
----
+___
 
-[Discuss on Bluesky](https://bsky.app/search?q=https%3A%2F%2Foverreacted.io%2Fa-complete-guide-to-useeffect%2F) · [Edit on GitHub](https://github.com/gaearon/overreacted.io/edit/main/public/a-complete-guide-to-useeffect/index.md)
+after:: [[How to fetch data with React Hooks]]

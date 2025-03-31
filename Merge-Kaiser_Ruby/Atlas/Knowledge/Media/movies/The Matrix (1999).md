@@ -28,8 +28,9 @@ released: true
 premiere: 03/31/1999
 watched: true
 lastWatched: 2025-03-09
-personalRating: 0
+personalRating: 9
 tags:
   - film
 ---
 ![matrix](https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg)
+

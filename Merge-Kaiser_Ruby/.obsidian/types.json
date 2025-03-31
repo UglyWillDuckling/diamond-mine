@@ -42,6 +42,8 @@
     "premiere": "text",
     "year": "date",
     "lastWatched": "date",
-    "awards": "multitext"
+    "awards": "multitext",
+    "birthday": "date",
+    "list": "multitext"
   }
 }

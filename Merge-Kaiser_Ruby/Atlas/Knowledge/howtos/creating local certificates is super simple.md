@@ -1,6 +1,6 @@
 
 - [x] remember me 1 week (@2025-02-26 13:23)
-- [ ] monthly (@2025-03-26 19:30)
+- [x] monthly (@2025-03-29)
 ___
 
 Just use [[mkcert]] to generate the certificates and then use them.

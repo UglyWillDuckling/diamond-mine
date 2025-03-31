@@ -1,3 +1,6 @@
+---
+birthday: 1955-01-21
+---
 #person #family-person #mom
 
 **Informacije**
@@ -7,7 +10,7 @@ Broj cipela: **37**
 
 ---
 
-Mama se rodila u Jarmini i tu je i odrasla. Zavrsila je osnovnu skolu i 2 razreda gimnazije. Bila je odlican dak i morala je napustiti skolu zbog financijskih razloga.
+Mama se rodila u [[Jarmini]] i tu je i odrasla. Zavrsila je osnovnu skolu i 2 razreda gimnazije. Bila je odlican dak i morala je napustiti skolu zbog financijskih razloga.
 
 Udala se vrlo brzo nakon skole za covjeka pod imenom Milivoj. Zajedno su se preselili u [Sabac](https://sh.wikipedia.org/wiki/%C5%A0abac), mjesto u Srbiji, nedaleko od granice s Hrvatskom.
 

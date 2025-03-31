@@ -690,21 +690,21 @@
         "type": "split",
         "children": [
           {
-            "id": "99037b45043f324a",
+            "id": "493b28fed2c94b39",
             "type": "tabs",
             "children": [
               {
-                "id": "f5b1d04b59361241",
+                "id": "702c0e3731ba4caf",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "dash 💨.md",
+                    "file": "Atlas/Knowledge/Media/movies/Mad Max (1979).md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "dash 💨"
+                  "title": "Mad Max (1979)"
                 }
               }
             ]
@@ -726,7 +726,8 @@
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -763,7 +764,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 283.51103591918945
+        "width": 355.5,
+        "collapsed": true
       },
       "right": {
         "id": "6b26b603c051936f",
@@ -850,6 +852,26 @@
                   "icon": "clock",
                   "title": "Reminders"
                 }
+              },
+              {
+                "id": "c39b88bb47b76ae8",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_nodes",
+                  "state": {},
+                  "icon": "ag-node-list",
+                  "title": "Juggl nodes"
+                }
+              },
+              {
+                "id": "d150285ed84a8d58",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_style",
+                  "state": {},
+                  "icon": "ag-style",
+                  "title": "Juggl style"
+                }
               }
             ],
             "currentTab": 3
@@ -861,8 +883,12 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian42-brat:BRAT": false,
-          "task-board:Open task board": false,
+          "callout-manager:Insert Callout": true,
+          "juggl:Juggl global graph": true,
+          "templater-obsidian:Templater": true,
+          "obsidian-book-search-plugin:Create new book note": true,
+          "obsidian42-brat:BRAT": true,
+          "task-board:Open task board": true,
           "obsidian-kanban:Create new board": false,
           "obsidian-media-db-plugin:Add new Media DB entry": true,
           "switcher:Open quick switcher": true,
@@ -870,23 +896,23 @@
           "canvas:Create new canvas": true,
           "templates:Insert template": true,
           "command-palette:Open command palette": true,
-          "obsidian-importer:Open Importer": false,
-          "obsidian-day-and-night:Toggle Theme": false,
+          "obsidian-importer:Open Importer": true,
+          "obsidian-day-and-night:Toggle Theme": true,
           "chronology:Open Chronology": true,
           "markwhen:Create new Markwhen file": true,
           "daily-notes:Open today's daily note": false,
           "workspaces:Manage workspace layouts": false,
-          "obsidian-projects:Open projects": false
+          "obsidian-projects:Open projects": true
         }
       },
-      "active": "f5b1d04b59361241",
-      "mtime": "2025-01-28T00:00:04+01:00",
+      "active": "702c0e3731ba4caf",
+      "mtime": "2025-03-28T18:13:57+01:00",
       "workspaces-plus:settings-v1": {
         "explorerFoldState": [
-          "Efforts",
-          "Efforts/Active/Kuca",
-          "Efforts/Active/Kuca/HPB kredit",
-          "Efforts/Active/Tasks Management in Obsidian"
+          "Atlas",
+          "Atlas/Knowledge/Media/VideoGames",
+          "Media DB",
+          "Media DB/series"
         ]
       }
     },
@@ -1851,7 +1877,273 @@
       "active": "fbb3fac42c446151",
       "mtime": "2025-03-11T12:56:20+01:00",
       "workspaces-plus:settings-v1": {}
+    },
+    "vjeroatnost": {
+      "main": {
+        "id": "d3fd3182b5b7335d",
+        "type": "split",
+        "children": [
+          {
+            "id": "40c86e38a0621a83",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6a5d8547415c01a1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Ispit - vjerojatnost i kombinatorika.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Ispit - vjerojatnost i kombinatorika"
+                }
+              },
+              {
+                "id": "82b620c135d9c059",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Probability study.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Probability study"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "421b21ff91adde0d",
+        "type": "split",
+        "children": [
+          {
+            "id": "7257e540e65a9982",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "67ac4e3f4e315e0f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "53e419fd8d9494ea",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#question",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "369d6f3ac727bb90",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          },
+          {
+            "id": "c8479d8fd21954ec",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "603d31b0900c3e75",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Probability study.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Probability study"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 290.5026054382324
+      },
+      "right": {
+        "id": "6b26b603c051936f",
+        "type": "split",
+        "children": [
+          {
+            "id": "05ce95f18513eaae",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3ea75a16cb86481d",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Calendar/daily/2025-01-09.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for 2025-01-09"
+                }
+              },
+              {
+                "id": "c03361a3000bd879",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Calendar/daily/2025-01-09.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from 2025-01-09"
+                }
+              },
+              {
+                "id": "732b3c2921195d4b",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Obsidian Tinkering"
+                }
+              },
+              {
+                "id": "08c4f9c69a275725",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "b286b55672c075e3",
+                "type": "leaf",
+                "state": {
+                  "type": "chronology-calendar-view",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Chronology"
+                }
+              },
+              {
+                "id": "e2dfdd096e897a5f",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              },
+              {
+                "id": "c39b88bb47b76ae8",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_nodes",
+                  "state": {},
+                  "icon": "ag-node-list",
+                  "title": "Juggl nodes"
+                }
+              },
+              {
+                "id": "d150285ed84a8d58",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_style",
+                  "state": {},
+                  "icon": "ag-style",
+                  "title": "Juggl style"
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 442.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "callout-manager:Insert Callout": true,
+          "juggl:Juggl global graph": true,
+          "templater-obsidian:Templater": true,
+          "obsidian-book-search-plugin:Create new book note": true,
+          "obsidian42-brat:BRAT": true,
+          "task-board:Open task board": true,
+          "obsidian-kanban:Create new board": false,
+          "obsidian-media-db-plugin:Add new Media DB entry": true,
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": true,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": true,
+          "obsidian-importer:Open Importer": true,
+          "obsidian-day-and-night:Toggle Theme": true,
+          "chronology:Open Chronology": true,
+          "markwhen:Create new Markwhen file": true,
+          "daily-notes:Open today's daily note": false,
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-projects:Open projects": true
+        }
+      },
+      "active": "82b620c135d9c059",
+      "mtime": "2025-03-24T19:47:17+01:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": [
+          "Efforts",
+          "Efforts/Active/Kuca",
+          "Efforts/Active/Kuca/HPB kredit",
+          "Efforts/Active/Tasks Management in Obsidian"
+        ]
+      }
     }
   },
-  "active": "History"
+  "active": "home"
 }

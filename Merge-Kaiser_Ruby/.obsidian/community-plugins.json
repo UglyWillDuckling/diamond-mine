@@ -45,5 +45,7 @@
   "callout-manager",
   "table-editor-obsidian",
   "obsidian-book-search-plugin",
-  "github-link"
+  "github-link",
+  "obsidian-latex-suite",
+  "mathlive"
 ]

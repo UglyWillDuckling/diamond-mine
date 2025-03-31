@@ -10,4 +10,4 @@ related:: [[Potvrda rezervacije ___ Rogaska]]
 start: `INPUT[date:date_start]`
 end: `INPUT[date:date_end]`
 
-- [ ] reminder (@2025-03-01)
+- [x] reminder (@2025-03-26 11:49)

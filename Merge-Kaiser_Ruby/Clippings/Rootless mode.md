@@ -264,7 +264,7 @@ $ systemctl --user restart docker
 
 Or add `net.ipv4.ip_unprivileged_port_start=0` to `/etc/sysctl.conf` (or `/etc/sysctl.d`) and run `sudo sysctl --system`.
 
-- [ ] ! remind me (@2025-03-22)
+- [x] ! remind me (@2025-03-22)
 ### Limiting resources
 
 Limiting resources with cgroup-related `docker run` flags such as `--cpus`, `--memory`, `--pids-limit` is supported only when running with cgroup v2 and systemd. See [Changing cgroup version](https://docs.docker.com/engine/containers/runmetrics/) to enable cgroup v2.

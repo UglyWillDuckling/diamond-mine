@@ -11,4 +11,4 @@ ___
 sudo trust anchor --store ~/my-ca-cert.crt
 ```
 - [x]  remind me (@2025-02-22)
-- [ ] monthly (@2025-03-23 10:16)
+- [x] monthly (@2025-03-23 10:16)

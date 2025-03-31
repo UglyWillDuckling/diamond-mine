@@ -578,19 +578,6 @@
                 "completed": ""
             }
         ],
-        "Atlas/Knowledge/howtos/creating local certificates is super simple.md": [
-            {
-                "id": 1783088662,
-                "title": "monthly (@2025-03-26 19:30)",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Atlas/Knowledge/howtos/creating local certificates is super simple.md",
-                "completed": ""
-            }
-        ],
         "Atlas/Knowledge/Media/Books/Books board.md": [
             {
                 "id": 3871289577,
@@ -803,12 +790,12 @@
         ],
         "Master Task List.md": [
             {
-                "id": 3560944188,
+                "id": 680955622,
                 "status": "/",
-                "title": "#task [[setup Owncloud]] 🔼 🛫 2025-03-14 ⏳ 2025-03-14 📅 2025-03-16",
+                "title": "#task Setup Printer on PC 🔼 ⏳ 2025-03-28 📅 2025-03-23",
                 "body": [],
                 "time": "",
-                "due": "2025-03-16",
+                "due": "2025-03-23",
                 "tags": [
                     "#task"
                 ],
@@ -817,7 +804,7 @@
                 "completion": ""
             },
             {
-                "id": 116274640,
+                "id": 1923954902,
                 "status": "/",
                 "title": "#task Prodi [[Bug 388]] i instaliraj zeljeni software 🔼 ⏳ 2025-03-03 📅 2025-03-02 🆔 BVw5Ce",
                 "body": [
@@ -833,28 +820,30 @@
                 "completion": ""
             },
             {
-                "id": 1015156393,
+                "id": 1355755853,
                 "status": " ",
-                "title": "#task See how difficult it is to setup a local FTP server ⏳ 2025-02-25 📅 2025-03-02 🆔 592cRS",
+                "title": "#task #backburner See how difficult it is to setup a local FTP server ⏳ 2025-02-25 📅 2025-03-02 🆔 592cRS",
                 "body": [],
                 "time": "",
                 "due": "2025-03-02",
                 "tags": [
-                    "#task"
+                    "#task",
+                    "#backburner"
                 ],
                 "priority": 0,
                 "filePath": "Master Task List.md",
                 "completion": ""
             },
             {
-                "id": 3057928795,
+                "id": 3063057025,
                 "status": " ",
-                "title": "#task napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
+                "title": "#task #backburner napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
                 "body": [],
                 "time": "",
                 "due": "",
                 "tags": [
                     "#task",
+                    "#backburner",
                     "#tiny"
                 ],
                 "priority": 3,
@@ -862,7 +851,7 @@
                 "completion": ""
             },
             {
-                "id": 2893548314,
+                "id": 4083604705,
                 "status": " ",
                 "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-28",
                 "body": [
@@ -879,10 +868,13 @@
                 "completion": ""
             },
             {
-                "id": 3000851868,
+                "id": 740192627,
                 "status": " ",
                 "title": "#task [[Backup Drive]] 🆔 OpBFPk 🔼",
-                "body": [],
+                "body": [
+                    "\t- [[Duplicati]]",
+                    "\t- **narucio** novi drive"
+                ],
                 "time": "",
                 "due": "",
                 "tags": [
@@ -1571,20 +1563,6 @@
                 "completion": ""
             }
         ],
-        "Clippings/Rootless mode.md": [
-            {
-                "id": 3009778541,
-                "status": " ",
-                "title": "! remind me (@2025-03-22)",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Clippings/Rootless mode.md",
-                "completion": ""
-            }
-        ],
         "Efforts/Active/Techdot.IO/Techdot.IO.md": [
             {
                 "id": 3291001216,
@@ -1646,6 +1624,314 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Efforts/Active/Techdot.IO/techdot docker email setup.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Undefined/Office Tasks.md": [
+            {
+                "id": 4268281234,
+                "status": " ",
+                "title": "#task provjeri stanje [[uputnice]] ⏫ 🆔 OJq5Ah",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Undefined/Office Tasks.md",
+                "completion": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-03-16-Sun.md": [
+            {
+                "id": 3925813734,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-03-16-Sun.md",
+                "completion": ""
+            }
+        ],
+        "Clippings/My neovim markdown setup in 2024.md": [
+            {
+                "id": 2318740284,
+                "status": " ",
+                "title": "#task take a look at [[My neovim markdown setup in 2024]] article/tutorial",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Clippings/My neovim markdown setup in 2024.md",
+                "completion": ""
+            }
+        ],
+        "Clippings/preservimvim-markdown.md": [
+            {
+                "id": 1432649726,
+                "status": " ",
+                "title": "#task checkout plugin [[preservimvim-markdown]] #nvim",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task",
+                    "#nvim"
+                ],
+                "priority": 0,
+                "filePath": "Clippings/preservimvim-markdown.md",
+                "completion": ""
+            }
+        ],
+        "Clippings/Becoming good at math is easy, actually.md": [
+            {
+                "id": 3985376477,
+                "status": " ",
+                "title": "#task look at [[Becoming good at math is easy, actually]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Clippings/Becoming good at math is easy, actually.md",
+                "completion": ""
+            }
+        ],
+        "Probability study.md": [
+            {
+                "id": 3635784766,
+                "status": "/",
+                "title": "#task study probability ⏫ 🛫 2025-03-17 ⏳ 2025-03-17 📅 2025-03-01 🆔 20eGeN",
+                "body": [
+                    "\t- [x] start creating a resource list ",
+                    "\t- [/] make a list of resources",
+                    "\t\t- [x] **gather** a bunch of links in Obsidian",
+                    "\t\t- [/] **triage** the resources",
+                    "\t- [/] examine the **college** material [[vjerojatnost i statistika]]",
+                    "\t\t- [ ] [[Kombinatorika]]"
+                ],
+                "time": "",
+                "due": "2025-03-01",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Probability study.md",
+                "completion": ""
+            },
+            {
+                "id": 2798445255,
+                "status": "/",
+                "title": "go through the [[Brilliant Course - Predicting with Probability]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Probability study.md",
+                "completion": ""
+            },
+            {
+                "id": 619923117,
+                "status": "/",
+                "title": "[[Probability Crash Course Series]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Probability study.md",
+                "completion": ""
+            },
+            {
+                "id": 4290190386,
+                "status": " ",
+                "title": "watch [[Why “probability of 0” does not mean “impossible”  Probabilities of probabilities, part 2]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Probability study.md",
+                "completion": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-03-18-Tue.md": [
+            {
+                "id": 648281744,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-03-18-Tue.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Active/setup Owncloud.md": [
+            {
+                "id": 3029860669,
+                "status": "/",
+                "title": "#task [[setup Owncloud]] 🔼 🛫 2025-03-14 ⏳ 2025-03-14 📅 2025-03-16 🆔 7oRd3s",
+                "body": [],
+                "time": "",
+                "due": "2025-03-16",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Active/setup Owncloud.md",
+                "completion": ""
+            }
+        ],
+        "Probability Crash Course Series.md": [
+            {
+                "id": 2024256089,
+                "status": "/",
+                "title": "[[Probability Part 2 Updating Your Beliefs with Bayes Crash Course Statistics 14]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Probability Crash Course Series.md",
+                "completion": ""
+            },
+            {
+                "id": 3446236063,
+                "status": " ",
+                "title": "[[The Binomial Distribution Crash Course Statistics 15]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Probability Crash Course Series.md",
+                "completion": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-03-19-Wed.md": [
+            {
+                "id": 2318710372,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-03-19-Wed.md",
+                "completion": ""
+            }
+        ],
+        "Clippings/Rootless mode.md": [
+            {
+                "id": 2036399638,
+                "status": " ",
+                "title": "monthly reminder (@2025-04-20)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/Rootless mode.md",
+                "completion": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-03-28-Fri.md": [
+            {
+                "id": 1227432769,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-03-28-Fri.md",
+                "completion": ""
+            }
+        ],
+        "Clippings/DataviewJS Snippet Showcase - Share & showcase.md": [
+            {
+                "id": 746029914,
+                "status": " ",
+                "title": "#task take a look at the showcase for dataview",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Clippings/DataviewJS Snippet Showcase - Share & showcase.md",
+                "completion": ""
+            },
+            {
+                "id": 1059961714,
+                "status": " ",
+                "title": "it catches these too",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/DataviewJS Snippet Showcase - Share & showcase.md",
+                "completion": ""
+            }
+        ],
+        "Atlas/Knowledge/Media/Television/Andor (2022–2025).md": [
+            {
+                "id": 2394030008,
+                "status": " ",
+                "title": "reminder, new Season coming on April 22nd (@2025-04-22)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Knowledge/Media/Television/Andor (2022–2025).md",
+                "completion": ""
+            }
+        ],
+        "Calendar/daily/1952/1952-01-29-Tue.md": [
+            {
+                "id": 1358426745,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/1952/1952-01-29-Tue.md",
+                "completion": ""
+            }
+        ],
+        "Atlas/Knowledge/Media/Articles/Dev/The Early History Of Smalltalk.md": [
+            {
+                "id": 1590827203,
+                "status": " ",
+                "title": "#task read [[The Early History Of Smalltalk]] 🆔 EP2I1M",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Atlas/Knowledge/Media/Articles/Dev/The Early History Of Smalltalk.md",
                 "completion": ""
             }
         ]
@@ -1907,20 +2193,8 @@
         ],
         "Efforts/Undefined/Office Tasks.md": [
             {
-                "id": 975501705,
-                "title": "#task provjeri stanje [[uputnice]] ⏫ ✅ 2025-01-09",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 2,
-                "filePath": "Efforts/Undefined/Office Tasks.md",
-                "completed": "2025-01-09"
-            },
-            {
-                "id": 1962277518,
+                "id": 2017514306,
+                "status": "x",
                 "title": "#task upload racuna - [[T-com]] ⏫ ✅ 2025-01-13",
                 "body": [],
                 "time": "",
@@ -1930,7 +2204,7 @@
                 ],
                 "priority": 2,
                 "filePath": "Efforts/Undefined/Office Tasks.md",
-                "completed": "2025-01-13"
+                "completion": "2025-01-13"
             }
         ],
         "Efforts/Ongoing/Zdravlje/Obnova dopunskog osiguranja.md": [
@@ -4718,67 +4992,23 @@
         ],
         "Master Task List.md": [
             {
-                "id": 1820171970,
+                "id": 380244122,
                 "status": "x",
-                "title": "#task Skini SHE-RA AND THE PRINCESSES OF POWER ⏳ 2025-03-09 📅 2025-03-10",
-                "body": [],
-                "time": "",
-                "due": "2025-03-10",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 0,
-                "filePath": "Master Task List.md",
-                "completion": ""
-            },
-            {
-                "id": 653083463,
-                "status": "x",
-                "title": "#task Skini Matrix 🔼 📅 2025-03-08 🆔 dyQA3h",
-                "body": [],
-                "time": "",
-                "due": "2025-03-08",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 3,
-                "filePath": "Master Task List.md",
-                "completion": ""
-            },
-            {
-                "id": 2170793629,
-                "status": "x",
-                "title": "#task Look into what **SSE** means #dev 🆔 5dKDNT 📅 2025-03-03 ✅ 2025-03-10",
+                "title": "#task **uploadaj** racune i ostalo ⏫ ⏳ 2025-03-18 📅 2025-03-18 ✅ 2025-03-18",
                 "body": [
-                    "\t- see [[Deno Web Server]]"
+                    "\t- [x] posalji mail :LiMailCheck:"
                 ],
                 "time": "",
-                "due": "2025-03-03",
+                "due": "2025-03-18",
                 "tags": [
-                    "#task",
-                    "#dev"
+                    "#task"
                 ],
-                "priority": 0,
+                "priority": 2,
                 "filePath": "Master Task List.md",
-                "completion": "2025-03-10"
+                "completion": "2025-03-18"
             },
             {
-                "id": 2746343775,
-                "status": "x",
-                "title": "#task prekini konstantni updejt pluginova #habbit 🆔 iD0UCB ⏳ 2025-02-09 📅 2025-03-03 ✅ 2025-03-14",
-                "body": [],
-                "time": "",
-                "due": "2025-03-03",
-                "tags": [
-                    "#task",
-                    "#habbit"
-                ],
-                "priority": 0,
-                "filePath": "Master Task List.md",
-                "completion": "2025-03-14"
-            },
-            {
-                "id": 2523327911,
+                "id": 1114661677,
                 "status": "x",
                 "title": "#task pocistiti **Downloads** folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny | #task #tiny #task #tiny 🔼 📅 2025-02-15 ✅ 2025-02-15",
                 "body": [],
@@ -4797,7 +5027,7 @@
                 "completion": "2025-02-15"
             },
             {
-                "id": 358432841,
+                "id": 2747376761,
                 "status": "x",
                 "title": "#task see how [[rsync]] works #backburner #dev ✅ 2025-02-15",
                 "body": [
@@ -4815,7 +5045,7 @@
                 "completion": "2025-02-15"
             },
             {
-                "id": 3709728983,
+                "id": 2833027947,
                 "status": "x",
                 "title": "#task **Find** remote vault encryption password ⏫ ⏳ 2025-02-20 📅 2025-02-22 ✅ 2025-02-19",
                 "body": [],
@@ -4829,7 +5059,7 @@
                 "completion": "2025-02-19"
             },
             {
-                "id": 1486538966,
+                "id": 2203654713,
                 "status": "x",
                 "title": "#task daj Senki savjet da pogleda mail od Regice u slucaju da vec nije #rad 🆔 OZBwNh 🔼 ⏳ 2025-02-24 📅 2025-02-24 ✅ 2025-02-24",
                 "body": [],
@@ -4844,7 +5074,7 @@
                 "completion": "2025-02-24"
             },
             {
-                "id": 2548924850,
+                "id": 3576077404,
                 "status": "x",
                 "title": "#task pocisti [[GDrive]] do kraja 🔼 ⏳ 2025-02-20 📅 2025-02-23 🆔 7RPQKX ✅ 2025-02-23",
                 "body": [],
@@ -4858,7 +5088,7 @@
                 "completion": "2025-02-23"
             },
             {
-                "id": 4220607912,
+                "id": 1602261275,
                 "status": "x",
                 "title": "#task Fix missing **restart** of **nginx** docker service after cert renewal ⏫ 🆔 5ij4NX ✅ 2025-02-23",
                 "body": [],
@@ -4872,7 +5102,7 @@
                 "completion": "2025-02-23"
             },
             {
-                "id": 3754646989,
+                "id": 2874277109,
                 "status": "x",
                 "title": "#task Fix, again, the big editor issue 🔼 ⏳ 2025-02-27 📅 2025-02-23 ✅ 2025-02-26",
                 "body": [],
@@ -4884,6 +5114,66 @@
                 "priority": 3,
                 "filePath": "Master Task List.md",
                 "completion": "2025-02-26"
+            },
+            {
+                "id": 3323219089,
+                "status": "x",
+                "title": "#task Skini SHE-RA AND THE PRINCESSES OF POWER ⏳ 2025-03-09 📅 2025-03-10",
+                "body": [],
+                "time": "",
+                "due": "2025-03-10",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Master Task List.md",
+                "completion": ""
+            },
+            {
+                "id": 3376825051,
+                "status": "x",
+                "title": "#task Skini Matrix 🔼 📅 2025-03-08 🆔 dyQA3h",
+                "body": [],
+                "time": "",
+                "due": "2025-03-08",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 3,
+                "filePath": "Master Task List.md",
+                "completion": ""
+            },
+            {
+                "id": 2081434122,
+                "status": "x",
+                "title": "#task Look into what **SSE** means #dev 🆔 5dKDNT 📅 2025-03-03 ✅ 2025-03-10",
+                "body": [
+                    "\t- see [[Deno Web Server]]"
+                ],
+                "time": "",
+                "due": "2025-03-03",
+                "tags": [
+                    "#task",
+                    "#dev"
+                ],
+                "priority": 0,
+                "filePath": "Master Task List.md",
+                "completion": "2025-03-10"
+            },
+            {
+                "id": 1800565923,
+                "status": "x",
+                "title": "#task prekini konstantni updejt pluginova #habbit 🆔 iD0UCB ⏳ 2025-02-09 📅 2025-03-03 ✅ 2025-03-14",
+                "body": [],
+                "time": "",
+                "due": "2025-03-03",
+                "tags": [
+                    "#task",
+                    "#habbit"
+                ],
+                "priority": 0,
+                "filePath": "Master Task List.md",
+                "completion": "2025-03-14"
             }
         ],
         "Efforts/Active/Obsidian Tinkering/Morgen General exploration.md": [
@@ -5023,15 +5313,28 @@
         ],
         "Atlas/Knowledge/howtos/creating local certificates is super simple.md": [
             {
-                "id": 2922509345,
-                "title": "remember me 1 week (@2025-02-26 19:49)",
+                "id": 3756479543,
+                "status": "x",
+                "title": "remember me 1 week (@2025-02-26 13:23)",
                 "body": [],
                 "time": "",
                 "due": "",
                 "tags": [],
                 "priority": 0,
                 "filePath": "Atlas/Knowledge/howtos/creating local certificates is super simple.md",
-                "completed": ""
+                "completion": ""
+            },
+            {
+                "id": 719772218,
+                "status": "x",
+                "title": "monthly (@2025-03-29)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Knowledge/howtos/creating local certificates is super simple.md",
+                "completion": ""
             }
         ],
         "Efforts/Active/Senka/Persona/archive/archive/persona mail setup.md": [
@@ -5892,6 +6195,104 @@
                 "priority": 2,
                 "filePath": "Efforts/Active/Mirna 30ti rođendan.md",
                 "completion": "2025-03-14"
+            }
+        ],
+        "Clippings/Jericho - Wikipedia.md": [
+            {
+                "id": 2654930432,
+                "status": "x",
+                "title": "**Jericho** ( [*JERR\\-ik-oh*](https://en.m.wikipedia.org/wiki/Help:Pronunciation_respelling_key \"Help:Pronunciation respelling key\"); [Arabic](https://en.m.wikipedia.org/wiki/Arabic_language \"Arabic language\"): أريحا, [romanized](https://en.m.wikipedia.org/wiki/Romanization_of_Arabic \"Romanization of Arabic\"): *Arīḥā*, IPA: [\\[ʔaˈriːħaː\\]](https://en.m.wikipedia.org/wiki/Help:IPA/Arabic \"Help:IPA/Arabic\") <sup class=\"ext-phonos-attribution noexcerpt navigation-not-searchable\"><a href=\"https://en.m.wikipedia.org/wiki/File:ArJericho.ogg\" title=\"File:ArJericho.ogg\">ⓘ</a></sup>; [Hebrew](https://en.m.wikipedia.org/wiki/Hebrew_language \"Hebrew language\"): יְרִיחוֹ, [romanized](https://en.m.wikipedia.org/wiki/Romanization_of_Hebrew \"Romanization of Hebrew\"): *Yərīḥō*) is a city in the [West Bank](https://en.m.wikipedia.org/wiki/West_Bank \"West Bank\"), [Palestine](https://en.m.wikipedia.org/wiki/State_of_Palestine \"State of Palestine\"); it is the administrative seat of the [Jericho Governorate](https://en.m.wikipedia.org/wiki/Jericho_Governorate \"Jericho Governorate\") of Palestine.[^4] Jericho is located in the [Jordan Valley](https://en.m.wikipedia.org/wiki/Jordan_Valley \"Jordan Valley\"), with the [Jordan River](https://en.m.wikipedia.org/wiki/Jordan_River \"Jordan River\") to the east and [Jerusalem](https://en.m.wikipedia.org/wiki/Jerusalem \"Jerusalem\") to the west. In 2017, it had a population of 20,907.[^prelimensus2017-3]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/Jericho - Wikipedia.md",
+                "completion": ""
+            }
+        ],
+        "Probability study.md": [
+            {
+                "id": 1557236175,
+                "status": "x",
+                "title": "watch [[Probability Tree Diagrams - GCSE Maths]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Probability study.md",
+                "completion": ""
+            }
+        ],
+        "Probability Crash Course Series.md": [
+            {
+                "id": 564071009,
+                "status": "x",
+                "title": "[[Probability Part 1 Rules and Patterns Crash Course Statistics 13]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Probability Crash Course Series.md",
+                "completion": ""
+            }
+        ],
+        "Atlas/Life/Dev/notes/Mason is responsible for managing lsp;s.md": [
+            {
+                "id": 2394517314,
+                "status": "x",
+                "title": "remind me (@2025-02-18)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Life/Dev/notes/Mason is responsible for managing lsp;s.md",
+                "completion": ""
+            },
+            {
+                "id": 106994869,
+                "status": "x",
+                "title": "monthly (@2025-03-22)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Life/Dev/notes/Mason is responsible for managing lsp;s.md",
+                "completion": ""
+            }
+        ],
+        "Clippings/Rootless mode.md": [
+            {
+                "id": 356955862,
+                "status": "x",
+                "title": "! remind me (@2025-03-22)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Clippings/Rootless mode.md",
+                "completion": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-03-24-Mon.md": [
+            {
+                "id": 1034472901,
+                "status": "x",
+                "title": "otici na ispit iz vjerojatnosti",
+                "body": [
+                    "\t- [/] pogledati [[Kombinatorika]]"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-03-24-Mon.md",
+                "completion": ""
             }
         ]
     }

@@ -1,10 +1,11 @@
 #ticket 
 
-based_on:: 
+- [/] #task [[setup Owncloud]] 🔼 🛫 2025-03-14 ⏳ 2025-03-14 📅 2025-03-16 🆔 7oRd3s
+
+based_on::
 - [[Bug 388]]
 - [[instalacija sofwarea iz Bug 388]]
 
-resources::
+**resources**::
 - [[Owncloud - Installing with Docker]]
-
-![[Owncloud - Installing with Docker#Docker Compose]]
+- [[Techdot.IO]] VPS

@@ -5,5 +5,5 @@ standing:
 ---
 #project #project/active
 
-- [x] #task provjeri stanje [[uputnice]] ⏫ ✅ 2025-01-09
+- [ ] #task provjeri stanje [[uputnice]] ⏫ 🆔 OJq5Ah
 - [x] #task upload racuna - [[T-com]] ⏫ ✅ 2025-01-13

@@ -28,4 +28,5 @@ personalRating: 0
 tags:
   - film
 ---
+
 In a dystopic and crime-ridden Detroit, a terminally wounded cop returns to the force as a powerful cyborg haunted by submerged memories.

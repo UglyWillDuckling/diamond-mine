@@ -1,38 +1,20 @@
 {
   "main": {
-    "id": "67b00fc9261485ee",
+    "id": "d3fd3182b5b7335d",
     "type": "split",
     "children": [
       {
-        "id": "3b7270e8b55522e8",
+        "id": "d5bb7cd014ab7f41",
         "type": "tabs",
         "children": [
           {
-            "id": "bc504f2232254584",
+            "id": "faaf52c02f930a0f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/She-Ra and the Princesses of Power.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "She-Ra and the Princesses of Power"
-            }
-          },
-          {
-            "id": "0bb8e288fc9605a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Media DB/series/She-Ra and the Princesses of Power (2018–2020).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "She-Ra and the Princesses of Power (2018–2020)"
+              "title": "New tab"
             }
           }
         ]
@@ -41,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8f80a4c2d66183f1",
+    "id": "421b21ff91adde0d",
     "type": "split",
     "children": [
       {
-        "id": "0bada21f89c8a23d",
+        "id": "7257e540e65a9982",
         "type": "tabs",
         "children": [
           {
-            "id": "1609489df2a4853f",
+            "id": "67ac4e3f4e315e0f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,12 +44,12 @@
             }
           },
           {
-            "id": "e79271154d7d9f0c",
+            "id": "53e419fd8d9494ea",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#person",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +61,7 @@
             }
           },
           {
-            "id": "6d2f469688fb7fb8",
+            "id": "369d6f3ac727bb90",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,82 +74,96 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 355.5
   },
   "right": {
-    "id": "581ddc9947999c84",
+    "id": "6b26b603c051936f",
     "type": "split",
     "children": [
       {
-        "id": "a3e5c3bc2e757ca9",
+        "id": "05ce95f18513eaae",
         "type": "tabs",
         "children": [
           {
-            "id": "48628ecfe098ca10",
+            "id": "3ea75a16cb86481d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Efforts/Active/Moje djetinjstvo, istraga.md",
+                "file": "Calendar/daily/2025-01-09.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Moje djetinjstvo, istraga"
+              "title": "Backlinks for 2025-01-09"
             }
           },
           {
-            "id": "44452ad6f0058bfd",
+            "id": "c03361a3000bd879",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Efforts/Active/Moje djetinjstvo, istraga.md",
+                "file": "Calendar/daily/2025-01-09.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Moje djetinjstvo, istraga"
+              "title": "Outgoing links from 2025-01-09"
             }
           },
           {
-            "id": "7bc20ee8f0fa5a24",
+            "id": "732b3c2921195d4b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Obsidian Tinkering"
+            }
+          },
+          {
+            "id": "08c4f9c69a275725",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "c42424a2960f21a9",
+            "id": "b286b55672c075e3",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Efforts/Active/Moje djetinjstvo, istraga.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Moje djetinjstvo, istraga"
+              "type": "chronology-calendar-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
             }
           },
           {
-            "id": "1c7e16c0e3a79754",
+            "id": "e2dfdd096e897a5f",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          },
+          {
+            "id": "c39b88bb47b76ae8",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -177,7 +173,7 @@
             }
           },
           {
-            "id": "f299e02e16f8f41f",
+            "id": "d150285ed84a8d58",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -185,88 +181,78 @@
               "icon": "ag-style",
               "title": "Juggl style"
             }
-          },
-          {
-            "id": "84739040dc977ba1",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 442.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "task-board:Open task board": false,
-      "obsidian-day-and-night:Toggle Theme": true,
-      "markwhen:Create new Markwhen file": true,
       "callout-manager:Insert Callout": true,
-      "chronology:Open Chronology": true,
-      "obsidian42-brat:BRAT": true,
-      "obsidian-importer:Open Importer": true,
       "juggl:Juggl global graph": true,
-      "obsidian-projects:Open projects": true,
+      "templater-obsidian:Templater": true,
+      "obsidian-book-search-plugin:Create new book note": true,
+      "obsidian42-brat:BRAT": true,
+      "task-board:Open task board": true,
+      "obsidian-kanban:Create new board": false,
       "obsidian-media-db-plugin:Add new Media DB entry": true,
-      "obsidian-kanban:Create new board": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "workspaces:Manage workspace layouts": false,
+      "obsidian-importer:Open Importer": true,
+      "obsidian-day-and-night:Toggle Theme": true,
+      "chronology:Open Chronology": true,
+      "markwhen:Create new Markwhen file": true,
       "daily-notes:Open today's daily note": false,
-      "templater-obsidian:Templater": true,
-      "obsidian-book-search-plugin:Create new book note": true
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-projects:Open projects": true
     }
   },
-  "active": "bc504f2232254584",
+  "active": "faaf52c02f930a0f",
   "lastOpenFiles": [
-    "Media DB/series/She-Ra and the Princesses of Power (2018–2020).md",
-    "Clippings/She-Ra and the Princesses of Power.md",
-    "Clippings/SPF Surveyor - dmarcian.md",
+    "+/Mistaeks I Hav Made.md",
+    "Atlas/Knowledge/Media/Articles/Dev/The Early History Of Smalltalk.md",
+    "Atlas/Knowledge/Media/Articles/Dev/Mistaeks I Hav Made Test Data Builders an alternative to the Object Mother    pattern.md",
+    "Atlas/Life/People/tata.md",
+    "Upcoming birthdays.md",
+    "Atlas/Life/People/Nat Pryce.md",
+    "Calendar/daily/2025/2025-03-30-Sun.md",
+    "Clippings/Mistaeks I Hav Made Refactoring JavaScript from Sync to Async in Safe Baby-Steps.md",
+    "Clippings/Mistaeks I Hav Made Higher Order React Components.md",
+    "Clippings/Mistaeks I Hav Made State vs Interaction BasedTesting.md",
+    "how to format durations in dataview.md",
+    "Atlas/Tools/obsidian/plugins/dataview.md",
+    "tasks canvas.canvas",
+    "Local Epson Printer.md",
+    "Efforts/Active/Probability study/Kombinatorika.md",
+    "docker image.md",
+    "Atlas/Tools/pc/Docker.md",
+    "Atlas/Knowledge/howtos/How to restart plasma and org.md",
+    "Efforts/Active/Probability study/Ispit - vjerojatnost i kombinatorika.md",
+    "Atlas/Life/notes/snimka Sonje.md",
+    "Movie List.md",
+    "Atlas/World/Places/rogaska slatina.md",
+    "Atlas/World/Places/National Academy of Sciences Washington.md",
+    "Efforts/Active/Probability study/Probability Crash Course Series.md",
+    "Efforts/Active/Probability study/Probability study.md",
+    "Efforts/Active/Probability study",
+    "x/sonja.m4a",
+    "Brilliant Course - Predicting with Probability.md",
+    "Atlas/Life/People/Mama.md",
+    "Calendar/daily/1952",
+    "People",
+    "~/×/UNISB-IZV-INFO-II-IV-VI-konačna verzija-ode(1).pdf",
+    "notes",
+    "Atlas/Personal/Info",
+    "Atlas/Personal",
     "Media DB/series",
     "Media DB",
-    "Efforts/Active/Techdot.IO/techdot docker email setup.md",
-    "Atlas/Knowledge/howtos/how to check DNS info.md",
-    "Efforts/Active/Techdot.IO/Techdot.IO.md",
-    "Clippings/8. User Management — KC Administrator Manual 8.0.0 documentation.md",
-    "Clippings/Lightweight Directory Access Protocol - Wikipedia.md",
-    "Clippings/Kopano User Management — KC Administrator Manual 8.0.0 documentation.md",
-    "Atlas/Tools/pc/mlandocker-postfix.md",
-    "Efforts/Active/Techdot.IO/email setup on techdot.md",
-    "+/Docker.md",
-    "docker image.md",
-    "tasks canvas.canvas",
-    "Efforts/Active/setup Owncloud.md",
-    "Clippings/Rootless mode.md",
-    "Clippings/Owncloud - Installing with Docker.md",
-    "Clippings/ownCloud.md",
-    "Efforts/Active/instalacija sofwarea iz Bug 388.md",
-    "Master Task List.md",
-    "snimka Sonje.md",
-    "sonja.m4a",
-    "Atlas/Life/notes/booking-rezervacija rogaska.md",
-    "Efforts/tasks by root.md",
-    "Atlas/Notes/Personal External Drive.md",
-    "Atlas/Science/Quaternary.md",
-    "Atlas/Tools/pc/lspci.md",
-    "Atlas/Knowledge/howtos/how to check graphics card used on linux.md",
-    "Efforts/Active/Deno Web Server Exploration",
-    "Efforts/Active/Moje djetinjstvo, istraga",
-    "Efforts/Active/Media Organization",
-    "Atlas/Science",
-    "Timestamps/2025/03-March",
-    "Timestamps/2025",
-    "Timestamps",
     "~/×/400px-Kernel-based_Virtual_Machine.svg.png",
     "~/×/300px-Libvirt_support.svg.png",
     "~/×/Screenshot_20250227-181214_Firefox.jpg",

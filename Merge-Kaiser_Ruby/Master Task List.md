@@ -4,20 +4,18 @@ aliases: []
 tags:
   - task-list
 ---
-- [/] #task Setup Printer on PC 🔼 ⏳ 2025-03-28 📅 2025-03-23 🆔 rQkj6h
-- [x] #task **uploadaj** racune i ostalo ⏫ ⏳ 2025-03-18 📅 2025-03-18 ✅ 2025-03-18
-	- [x] posalji mail :LiMailCheck:
-	
+- [ ] #task [[Setup AI locally]] ⏳ 2025-04-05 📅 2025-04-05 🆔 wuhNhv
+	- [[ClipboardConqueror]]
+- [/] #task [[Setup Printer on PC]] 🔼 ⏳ 2025-03-28 📅 2025-04-04 🆔 rQkj6h
 ___
 
-
-- [/] #task Prodi [[Bug 388]] i instaliraj zeljeni software 🔼 ⏳ 2025-03-03 📅 2025-03-02 🆔 BVw5Ce
+- [/] #task Prodi [[Bug 388]] i instaliraj zeljeni software 🔼 ⏳ 2025-03-03 📅 2025-04-09 🆔 BVw5Ce #paused
 	[[instalacija sofwarea iz Bug 388]]	
 	
-- [ ] #task #backburner See how difficult it is to setup a local FTP server ⏳ 2025-02-25 📅 2025-03-02 🆔 592cRS
+- [ ] #task #backburner See how difficult it is to setup a local FTP server ⏳ 2025-02-25 📅 2025-04-09 🆔 592cRS
 
 - [ ] #task #backburner napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼
-- [ ] #task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-28
+- [ ] #task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-04-07 #backburner 
 	- check online
 	- create **real** tasks
 - [ ] #task [[Backup Drive]] 🆔 OpBFPk 🔼

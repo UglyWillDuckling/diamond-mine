@@ -17,7 +17,7 @@ ___## rođendan [[Mirna 💕💕💕]]
 	- [x] #task pogledaj [[KiwiCo Crates Subscription Box]]
 	- [[kiwi order for Mirna]]\
 
-- [/] #task organizirati **rođendan** ⏫ ⏳ 2025-02-24 📅 2025-03-05 🆔 k81bjv
+- [x] #task organizirati **rođendan** ⏫ ⏳ 2025-02-24 📅 2025-03-05 🆔 k81bjv ✅ 2025-04-02
 
 ### gosti 
 - [[Kristina]]

@@ -9,6 +9,7 @@ description:
 tags:
   - clippings
   - film
+watched: true
 ---
 ***His Three Daughters*** is a 2023 American [drama](https://en.m.wikipedia.org/wiki/Drama_\(film_and_television\) "Drama (film and television)") film written and directed by [Azazel Jacobs](https://en.m.wikipedia.org/wiki/Azazel_Jacobs "Azazel Jacobs"). The film stars [Carrie Coon](https://en.m.wikipedia.org/wiki/Carrie_Coon "Carrie Coon"), [Natasha Lyonne](https://en.m.wikipedia.org/wiki/Natasha_Lyonne "Natasha Lyonne") and [Elizabeth Olsen](https://en.m.wikipedia.org/wiki/Elizabeth_Olsen "Elizabeth Olsen") as three estranged sisters who come back together to care for their ailing father. It premiered at the [Toronto International Film Festival](https://en.m.wikipedia.org/wiki/2023_Toronto_International_Film_Festival "2023 Toronto International Film Festival") on September 9, 2023, and was released in [select theaters](https://en.m.wikipedia.org/wiki/Limited_theatrical_release "Limited theatrical release") in the United States on September 6, 2024, before its streaming debut by Netflix on September 20, 2024. It received positive reviews and was named one of the [Top Ten Independent Films](https://en.m.wikipedia.org/wiki/National_Board_of_Review:_Top_Ten_Independent_Films "National Board of Review: Top Ten Independent Films") of 2024 by the [National Board of Review](https://en.m.wikipedia.org/wiki/National_Board_of_Review "National Board of Review").[^nbr-1]
 

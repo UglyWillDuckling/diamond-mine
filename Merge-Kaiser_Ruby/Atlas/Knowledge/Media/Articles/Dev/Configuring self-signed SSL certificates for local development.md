@@ -14,7 +14,7 @@ tags:
 tools:: [[mkcert]]
 
 - [x] remind me (@2025-02-23 19:15)
-- [ ] monthly (@2025-04-05)
+- [x] monthly (@2025-04-05)
 ___
 
 <mark style="background: #FFF3A3A6;">Sometimes</mark> it's preferible to keep your local development environment **as close to production as possible**.

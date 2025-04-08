@@ -1,11 +1,11 @@
 
-- [/] #task study probability ⏫ 🛫 2025-03-17 ⏳ 2025-03-17 📅 2025-03-01 🆔 20eGeN
+- [x] #task study probability ⏫ 🛫 2025-03-17 ⏳ 2025-03-17 📅 2025-03-01 🆔 20eGeN ✅ 2025-04-02
 	- [x] start creating a resource list 
 	- [/] make a list of resources
 		- [x] **gather** a bunch of links in Obsidian
 		- [/] **triage** the resources
-	- [/] examine the **college** material [[vjerojatnost i statistika]]
-		- [ ] [[Kombinatorika]]
+	- [x] examine the **college** material [[vjerojatnost i statistika]]
+		- [x] [[Kombinatorika]]
 ___
 ### **concepts**
 - [[Probability - Wikipedia]]
@@ -33,8 +33,7 @@ ___
 - [[The Binomial Distribution Crash Course Statistics 15]]
 
 [[An Intuitive (and Short) Explanation of Bayes’ Theorem – BetterExplained]]
+
 [[BetterExplained – Math lessons that click]]
 
-[[Techniques for Adding the Numbers 1 to 100 – BetterExplained]]
-
-[[Ispit - vjerojatnost i kombinatorika]]
+[[bayes theorem example]]

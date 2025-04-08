@@ -18,7 +18,7 @@ ___
 
 ## **tasks**
 
-- [/] #task Setup Techdot mail  🆔 5u1PYy
+- [x] #task Setup Techdot mail  🆔 5u1PYy ✅ 2025-04-02
 	- [x] install [[Postfix]] and [[dovecot]]
 	- [x] install [[mailutils]]
 	- [x] copy the [[Mail Config]] from [[my VPS]]

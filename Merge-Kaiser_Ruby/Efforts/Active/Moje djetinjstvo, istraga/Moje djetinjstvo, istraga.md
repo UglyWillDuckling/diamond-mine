@@ -1,8 +1,8 @@
 #project 
 
-- [/] #task napravi **listu** crtica i filmova za **skinuti** ⏫ ⏳ 2025-03-10 📅 2025-03-09 🆔 kB5bD2
+- [/] #task napravi **listu** crtica i filmova za **skinuti** ⏫ ⏳ 2025-03-10 📅 2025-04-09 🆔 kB5bD2
 
-- [/] #task [[Explore Console Emulators]] 🔼 🛫 2025-03-10 ⏳ 2025-03-10 📅 2025-03-17 🆔 RX2D6z
+- [x] #task [[Explore Console Emulators]] 🔼 🛫 2025-03-10 ⏳ 2025-03-10 📅 2025-03-17 🆔 RX2D6z ✅ 2025-04-02
 ___
 # za skinuti
 

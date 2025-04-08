@@ -29,7 +29,7 @@ related: [[Configuring self-signed SSL certificates for local development]]
 - [x] implement [[Let's Encrypt]] on [[my VPS - techdot.biz]]
 - [x] combine [[Let's Encrypt]] with a simple static site
 
-- [/] #task write web server setup documentation #docs 🆔 yEcJuz
+- [x] #task write web server setup documentation #docs 🆔 yEcJuz ✅ 2025-04-02
 
 #### implement on [[my VPS - techdot.biz]]
  [[How to Set Up letsencrypt with Nginx on Docker]]

@@ -1,16 +1,14 @@
 ---
 title: Dahomey (film) - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Dahomey_(film)
-author:
-  - "[[Contributors to Wikimedia projects]]"
-published: 2024-01-28
 created: 2025-01-10
-description: 
 tags:
-  - clippings
   - film
 related:
   - "[[The 20 Best Movies of 2024, 20 Best Movies of 2024]]"
+image: https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Dahomey_film_poster.jpg/220px-Dahomey_film_poster.jpg
+plan-to-watch: true
+interest: 7
 ---
 ***Dahomey*** is a 2024 [documentary film](https://en.m.wikipedia.org/wiki/Documentary_film "Documentary film") directed by [Mati Diop](https://en.m.wikipedia.org/wiki/Mati_Diop "Mati Diop"). It is a dramatised account of 26 royal treasures from the [Kingdom of Dahomey](https://en.m.wikipedia.org/wiki/Dahomey "Dahomey") (in modern-day [Republic of Benin](https://en.m.wikipedia.org/wiki/Benin "Benin")), which were held in a museum in [France](https://en.m.wikipedia.org/wiki/France "France"). The film explores how the artifacts were returned from France to Benin, and the reactions of Beninese people.[^lead:cine-4] The film was an international co-production between companies in France, [Senegal](https://en.m.wikipedia.org/wiki/Senegal "Senegal"), and Benin.[^5]
 

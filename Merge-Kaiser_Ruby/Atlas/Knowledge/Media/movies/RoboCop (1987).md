@@ -27,6 +27,7 @@ lastWatched: 2003-02-27
 personalRating: 0
 tags:
   - film
+interest: 7
 ---
 
 In a dystopic and crime-ridden Detroit, a terminally wounded cop returns to the force as a powerful cyborg haunted by submerged memories.

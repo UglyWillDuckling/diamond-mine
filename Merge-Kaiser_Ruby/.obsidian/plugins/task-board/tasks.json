@@ -2156,6 +2156,20 @@
                 "filePath": "Efforts/Ongoing/Upcoming birthdays.md",
                 "completion": ""
             }
+        ],
+        "Calendar/daily/2025/2025-04-08-Tue.md": [
+            {
+                "id": 1687494239,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-04-08-Tue.md",
+                "completion": ""
+            }
         ]
     },
     "Completed": {

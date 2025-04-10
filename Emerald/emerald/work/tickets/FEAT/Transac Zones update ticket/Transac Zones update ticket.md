@@ -8,28 +8,33 @@ related::
 
 ___
 ## Handle usage of biz_product_coverage table
+> [[coverage table creation def]]
 
 - [x] [[call with Paulo -transac zones table]]
 	- [x] make a [[list of places that modify table biz_product_coverage]]
-	- [/] **check** **diagram** for the transac solution
-	- [ ] ? make a [[list of places that use the table]]
-	- [ ] plan a new solution to update the coverage table based on changes made to ???
-		- [ ] update diagram to match the changes
-
+	- [x] **check** **diagram** for the transac solution
+	- [x] ? make a [[list of places that use the table]]
+- [/] plan a new solution to update the coverage table based on changes made to ???
+	- [/] update diagram to match the changes
 
 ### **check** transac diagram in relation to the table
+- [x] check [[transac diagram]]
+- [x] make [[coverage update canvas.canvas|coverage update canvas]]
 
-https://drive.google.com/file/d/19rpvZT8BmRjLOecpJWUqzpKRgAXOORSu/view?usp=sharing
+This `city_id` is only used as a **filter**. It takes all irises for **one** city from the `geo` table  
+ and performs an insert into `coverage`. The Backyard is just a way to <mark style="background: #FF5582A6;">trigger</mark> an update of  certain cities.
 
-- [/] check [[transac diagram]]
-	- [/] make [[coverage update canvas.canvas|coverage update canvas]]
+- ? Not sure what is the relation(mapping) between the different `id` fields in the coverage table.
 
-This `city_id` is only used as a **filter**. It takes all irises for a single city from the `geo` table  
- and does an insert into `coverage`. The Backyard is just a way to trigger an update of  certain cities.
+- & **Place** **id** **is** **the id** from the `geo_place2` table
+	- it functions as a `foreign key`[^1]
 
-Not sure what is the relation(mapping) between the different `id` fields in the coverage table.
+## deploy SalesForce changes + trigger update
 
-- & Place **id** **is** the id from the `geo_place2` table
-	- it functions as a foreign key
+We need to deploy the `SalesForce` changes and after **trigger** the update in [[Media API]]
 
-[[coverage table creation def]]
+- [x] merge [[Media API Clients repo]] PR https://github.com/MeilleursAgents/MA-ApiClients/pull/361
+- [ ] merge [[SalesForceApi]] PR 
+
+
+[^1]: [[foreign key]]

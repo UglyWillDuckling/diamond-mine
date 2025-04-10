@@ -61,7 +61,6 @@ Evo redoslijedom kojim se trebaju mergat PR-ovi za deploy transac zona:
 MA-ApiClients add route to api clients lib
 
 1. [[Media API Clients repo]] https://github.com/MeilleursAgents/MA-ApiClients/pull/361
-	
 2. [[SalesForceApi]] https://github.com/MeilleursAgents/MeilleursAgents/pull/10853
 
 NAKON OVOGA POKRENIT **TRIGGER**, pa deployat ostalo

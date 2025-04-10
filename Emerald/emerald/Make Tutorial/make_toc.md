@@ -1,12 +1,9 @@
-GNU Make - Table of Contents
-
 # GNU Make
 
 ## A Program for Directing Recompilation
 
 ## Edition 0.47, for `make` Version 3.72 Beta.
-
-## November 1994
+November 1994
 
 Richard M. Stallman and Roland McGrath
 

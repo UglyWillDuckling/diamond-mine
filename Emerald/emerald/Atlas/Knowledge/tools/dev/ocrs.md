@@ -9,7 +9,7 @@ tags:
 ---
 - [x] remind me (@[[2025-02-17]])
 - [x] 2 weeks (@[[2025-03-04]] 13:14)
-- [ ] month (@[[2025-04-09]])
+- [x] month (@[[2025-04-09]])
 ___
 
 **ocrs** is a Rust library and CLI tool for extracting text from images, also known as OCR (Optical Character Recognition).

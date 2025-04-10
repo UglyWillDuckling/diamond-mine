@@ -2,7 +2,7 @@
 
 related:: [[Team Create-Edit Modal Component]]
 ___
-- [/] #task [[LUQA Onboarding]] 🆔 zT8KZb ⏳ 2025-02-20 📅 2025-02-28
+- [x] #task [[LUQA Onboarding]] 🆔 zT8KZb ⏳ 2025-02-20 📅 2025-02-28 ✅ 2025-04-03
 	- [x] #task service access 🆔 C72A1R ✅ 2025-03-19
 		- [x] [[Lokalize]] service: **check** status
 		- [x] [[sonar testing suite]]

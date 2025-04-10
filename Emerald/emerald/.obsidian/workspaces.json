@@ -447,548 +447,6 @@
       "active": "0910a4a47bf1a0bf",
       "mtime": "2025-02-04T16:01:19+01:00"
     },
-    "physical objects": {
-      "main": {
-        "id": "896fb77528c50fee",
-        "type": "split",
-        "children": [
-          {
-            "id": "8f2ec7bd9b5e7984",
-            "type": "tabs",
-            "dimension": 49.168797953964194,
-            "children": [
-              {
-                "id": "aa926dd5e8456ae5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Efforts/Active/Obsidian Tinkering/Physical object system.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Physical object system"
-                }
-              },
-              {
-                "id": "a11e07d547f956b7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Efforts/Active/Obsidian Tinkering/docs/physical object notes.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "physical object notes"
-                }
-              },
-              {
-                "id": "9204b6f716ab3bdb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "MOC/🛍️ Physical Objects MOC.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "🛍️ Physical Objects MOC"
-                }
-              }
-            ],
-            "currentTab": 2
-          },
-          {
-            "id": "405e94df6a011274",
-            "type": "tabs",
-            "dimension": 50.831202046035806,
-            "children": [
-              {
-                "id": "6621c9bd72fad37b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Clippings/Obsidian Physical Object System.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Obsidian Physical Object System"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "abf2911f56f916d8",
-        "type": "split",
-        "children": [
-          {
-            "id": "396d97731e40095f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "688b3d615137a273",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "2fd0f24bea1de5b8",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "3917ba887ee80a77",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": true,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 439.0110321044922
-      },
-      "right": {
-        "id": "0bce692d28de0848",
-        "type": "split",
-        "children": [
-          {
-            "id": "65b8ffe11667d608",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "4c75dd1dc94107ca",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "MOC/🛍️ Physical Objects MOC.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for 🛍️ Physical Objects MOC"
-                }
-              },
-              {
-                "id": "a677e5cf3e3fb9c3",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "MOC/🛍️ Physical Objects MOC.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from 🛍️ Physical Objects MOC"
-                }
-              },
-              {
-                "id": "c61722d2f0288e0a",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "MOC/🛍️ Physical Objects MOC.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of 🛍️ Physical Objects MOC"
-                }
-              },
-              {
-                "id": "66215144ab6ceed1",
-                "type": "leaf",
-                "state": {
-                  "type": "reminder-list",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Reminders"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 426,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "graph:Open graph view": false,
-          "workspaces:Manage workspace layouts": false,
-          "wikipedia-search:Open Article": false,
-          "templater-obsidian:Templater": false,
-          "surfing:surfing-bookmark-manager": false,
-          "quickadd:QuickAdd": false,
-          "obsidian-day-planner:Open Timeline": false,
-          "obsidian-day-planner:Open Multi-Day View": false,
-          "obsidian-book-search-plugin:Create new book note": false,
-          "obsidian42-brat:BRAT": false,
-          "cmdr:Graph view: Open local graph": false,
-          "cmdr:Workspaces: Manage workspace layouts": false,
-          "audio-recorder:Start/stop recording": false,
-          "switcher:Open quick switcher": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "obsidian-kanban:Create new board": false,
-          "mermaid-tools:Open Mermaid Toolbar": false,
-          "zk-prefixer:Create new unique note": false,
-          "callout-manager:Insert Callout": false
-        }
-      },
-      "active": "9204b6f716ab3bdb",
-      "mtime": "2025-01-21T14:12:54+01:00",
-      "workspaces-plus:settings-v1": {
-        "explorerFoldState": [
-          "Efforts/Active",
-          "Efforts/Active/Obsidian Tinkering",
-          "Knowledge/daily_notes/2024",
-          "MOC",
-          "Spaces"
-        ]
-      }
-    },
-    "vim exploration": {
-      "main": {
-        "id": "896fb77528c50fee",
-        "type": "split",
-        "children": [
-          {
-            "id": "e1e0690d60be8044",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "7378e25861544798",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Efforts/Active/Vim Exploration/Vim Exploration.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Vim Exploration"
-                }
-              },
-              {
-                "id": "fb3702c03b5df945",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Knowledge/How To's/vim - jump through the change list.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "vim - jump through the change list"
-                }
-              },
-              {
-                "id": "59c361ece3a6fc29",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Knowledge/notes/archive/vim - jump to last insert with `..md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "vim - jump to last insert with `."
-                }
-              },
-              {
-                "id": "6bacf5436efba494",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Efforts/Active/Obsidian Tinkering/Obsidian Footnotes Exploration.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Obsidian Footnotes Exploration"
-                }
-              },
-              {
-                "id": "13d1b36b718819cb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Efforts/Active/Obsidian Tinkering/Obsidian Footnotes Exploration.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Obsidian Footnotes Exploration"
-                }
-              },
-              {
-                "id": "fbcecc3347f9ac33",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Obsidian Tinkering"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "abf2911f56f916d8",
-        "type": "split",
-        "children": [
-          {
-            "id": "396d97731e40095f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "688b3d615137a273",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "2fd0f24bea1de5b8",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "3917ba887ee80a77",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#artifact",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 359.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "0bce692d28de0848",
-        "type": "split",
-        "children": [
-          {
-            "id": "65b8ffe11667d608",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "bae038ccea34ead9",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "4c75dd1dc94107ca",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for QSL listing feature"
-                }
-              },
-              {
-                "id": "a677e5cf3e3fb9c3",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from QSL listing feature"
-                }
-              },
-              {
-                "id": "c61722d2f0288e0a",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline"
-                }
-              },
-              {
-                "id": "46144c0a59b0a25d",
-                "type": "leaf",
-                "state": {
-                  "type": "chronology-calendar-view",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Chronology"
-                }
-              },
-              {
-                "id": "1cceddc0fea9ba5c",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "3ac24b16dbbfddf7",
-                "type": "leaf",
-                "state": {
-                  "type": "file-properties",
-                  "state": {
-                    "file": "Efforts/Active/Vim Exploration/Vim Exploration.md"
-                  },
-                  "icon": "lucide-info",
-                  "title": "File properties for Vim Exploration"
-                }
-              }
-            ],
-            "currentTab": 6
-          }
-        ],
-        "direction": "horizontal",
-        "width": 384.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "cmdr:Daily notes: Open today's daily note": false,
-          "graph:Open graph view": true,
-          "workspaces:Manage workspace layouts": true,
-          "templater-obsidian:Templater": false,
-          "quickadd:QuickAdd": true,
-          "obsidian-book-search-plugin:Create new book note": true,
-          "obsidian42-brat:BRAT": true,
-          "cmdr:Graph view: Open local graph": false,
-          "cmdr:Workspaces: Manage workspace layouts": false,
-          "audio-recorder:Start/stop recording": false,
-          "switcher:Open quick switcher": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "obsidian-kanban:Create new board": false,
-          "zk-prefixer:Create new unique note": false,
-          "callout-manager:Insert Callout": false
-        }
-      },
-      "active": "7378e25861544798",
-      "mtime": "2025-02-07T17:13:10+01:00"
-    },
     "csvkit": {
       "main": {
         "id": "896fb77528c50fee",
@@ -1243,262 +701,6 @@
       },
       "active": "696814d3952bc08e",
       "mtime": "2025-02-12T13:11:56+01:00"
-    },
-    "luqa": {
-      "main": {
-        "id": "896fb77528c50fee",
-        "type": "split",
-        "children": [
-          {
-            "id": "7a2ce4b72f3710bd",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e446b1a3a99c6994",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              },
-              {
-                "id": "169d9789718a5de7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "work/Projects/LUQA/Team Create Modal Component.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Team Create Modal Component"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "abf2911f56f916d8",
-        "type": "split",
-        "children": [
-          {
-            "id": "396d97731e40095f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "688b3d615137a273",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": true
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "2fd0f24bea1de5b8",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "3917ba887ee80a77",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "dateformat",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "byModifiedTimeReverse"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "horizontal",
-        "width": 272.51103591918945,
-        "collapsed": true
-      },
-      "right": {
-        "id": "0bce692d28de0848",
-        "type": "split",
-        "children": [
-          {
-            "id": "65b8ffe11667d608",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "bae038ccea34ead9",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "4c75dd1dc94107ca",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for QSL listing feature"
-                }
-              },
-              {
-                "id": "a677e5cf3e3fb9c3",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from QSL listing feature"
-                }
-              },
-              {
-                "id": "c61722d2f0288e0a",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "work/bugs/security issue - general file access via download/security issue - general file access via download.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of security issue - general file access via download"
-                }
-              },
-              {
-                "id": "66215144ab6ceed1",
-                "type": "leaf",
-                "state": {
-                  "type": "reminder-list",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Reminders"
-                }
-              },
-              {
-                "id": "4a7e351c6d81ef9d",
-                "type": "leaf",
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {},
-                  "icon": "spreadsheet",
-                  "title": "Advanced Tables"
-                }
-              },
-              {
-                "id": "83a3eb7907bec801",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "f3d26d9f4b79cf54",
-                "type": "leaf",
-                "state": {
-                  "type": "juggl_nodes",
-                  "state": {},
-                  "icon": "ag-node-list",
-                  "title": "Juggl nodes"
-                }
-              },
-              {
-                "id": "015e0b12424c0bc6",
-                "type": "leaf",
-                "state": {
-                  "type": "juggl_style",
-                  "state": {},
-                  "icon": "ag-style",
-                  "title": "Juggl style"
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "horizontal",
-        "width": 474.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "khoj:Khoj": false,
-          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-          "juggl:Juggl global graph": false,
-          "graph:Open graph view": true,
-          "workspaces:Manage workspace layouts": true,
-          "templater-obsidian:Templater": false,
-          "quickadd:QuickAdd": true,
-          "obsidian-book-search-plugin:Create new book note": true,
-          "obsidian42-brat:BRAT": true,
-          "cmdr:Graph view: Open local graph": false,
-          "cmdr:Workspaces: Manage workspace layouts": false,
-          "cmdr:Daily notes: Open today's daily note": false,
-          "audio-recorder:Start/stop recording": false,
-          "switcher:Open quick switcher": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "obsidian-kanban:Create new board": false,
-          "zk-prefixer:Create new unique note": false,
-          "callout-manager:Insert Callout": false
-        }
-      },
-      "active": "169d9789718a5de7",
-      "mtime": "2025-03-13T13:33:19+01:00"
     },
     "wordpress": {
       "main": {
@@ -2284,71 +1486,25 @@
         "type": "split",
         "children": [
           {
-            "id": "0ea32d53600709b2",
+            "id": "d01e04ed9bf88de7",
             "type": "tabs",
             "children": [
               {
-                "id": "3f7da07f068950ae",
+                "id": "e30654314e0ec406",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../Typescript - quick study.md",
+                    "file": "Atlas/Knowledge/Education/React/react.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "Typescript - quick study"
-                }
-              },
-              {
-                "id": "15f2c7ee1d488bfb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Atlas/Knowledge/Education/React/Alicea Course/Alicea Course.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Alicea Course"
-                }
-              },
-              {
-                "id": "2e027ee6f00c7e32",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../4) Conceptual Aside - Imperative vs. Declarative Programming.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "4) Conceptual Aside - Imperative vs. Declarative Programming"
-                }
-              },
-              {
-                "id": "435e9fa5006072e4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Atlas/Knowledge/tools/dev/nvim/vim - quickfix list.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "vim - quickfix list"
+                  "title": "react"
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           }
         ],
         "direction": "vertical"
@@ -2405,7 +1561,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 234.5110321044922
+        "width": 234.5110321044922,
+        "collapsed": true
       },
       "right": {
         "id": "a4cc5cab7d2ca3c4",
@@ -2551,91 +1708,82 @@
           "templater-obsidian:Templater": false,
           "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
           "juggl:Juggl global graph": true,
-          "cmdr:Daily notes: Open today's daily note": false,
-          "khoj:Khoj": true
+          "cmdr:Daily notes: Open today's daily note": false
         }
       },
-      "active": "435e9fa5006072e4",
-      "mtime": "2025-03-12T11:27:47+01:00"
+      "active": "e30654314e0ec406",
+      "mtime": "2025-03-31T18:30:25+02:00"
     },
-    "transac zones danijela": {
+    "git study": {
       "main": {
-        "id": "896fb77528c50fee",
+        "id": "19b95c9e12174138",
         "type": "split",
         "children": [
           {
-            "id": "3d6d6ed452e3e1c0",
+            "id": "135e611f44e6f465",
             "type": "tabs",
-            "dimension": 53.10693641618497,
             "children": [
               {
-                "id": "e7bfc27688a96fa7",
+                "id": "5f70d7ced00ac240",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "work/calls/call s Danijelom - handover.md",
+                    "file": "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-10-Thu.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "call s Danijelom - handover"
+                  "title": "2025-04-10-Thu"
                 }
               },
               {
-                "id": "41ef9b1bdb304a6d",
+                "id": "bad2ec0f208f06ce",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "work/calls/Transac zone update by Danijela.md",
+                    "file": "Efforts/git book.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "Transac zone update by Danijela"
+                  "title": "git book"
+                }
+              },
+              {
+                "id": "133ee7cc1356c3bf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Transac Zones update ticket"
                 }
               }
             ],
-            "currentTab": 1
-          },
-          {
-            "id": "3f033b19140f0115",
-            "type": "tabs",
-            "dimension": 46.89306358381503,
-            "children": [
-              {
-                "id": "85c85ed835fa605d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "work/calls/pair programming/pair programming 2025-03-20.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "pair programming 2025-03-20"
-                }
-              }
-            ]
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
       },
       "left": {
-        "id": "abf2911f56f916d8",
+        "id": "d2c8174330e8fc4f",
         "type": "split",
         "children": [
           {
-            "id": "396d97731e40095f",
+            "id": "74722ab8c20300b6",
             "type": "tabs",
             "children": [
               {
-                "id": "688b3d615137a273",
+                "id": "a87c234f19295953",
                 "type": "leaf",
                 "state": {
                   "type": "file-explorer",
@@ -2648,7 +1796,24 @@
                 }
               },
               {
-                "id": "2fd0f24bea1de5b8",
+                "id": "663b43744af4d4d7",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "c102f4929dd5c986",
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
@@ -2656,59 +1821,28 @@
                   "icon": "lucide-bookmark",
                   "title": "Bookmarks"
                 }
-              },
-              {
-                "id": "3917ba887ee80a77",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#task",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "byModifiedTimeReverse"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 237.5110321044922,
+        "width": 234.5110321044922,
         "collapsed": true
       },
       "right": {
-        "id": "0bce692d28de0848",
+        "id": "a4cc5cab7d2ca3c4",
         "type": "split",
         "children": [
           {
-            "id": "65b8ffe11667d608",
+            "id": "4c72f380de770d19",
             "type": "tabs",
             "children": [
               {
-                "id": "bae038ccea34ead9",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "4c75dd1dc94107ca",
+                "id": "0295735161264f4f",
                 "type": "leaf",
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2718,60 +1852,55 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for QSL listing feature"
+                  "title": "Backlinks"
                 }
               },
               {
-                "id": "a677e5cf3e3fb9c3",
+                "id": "22b591c5c15ac6c0",
                 "type": "leaf",
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                    "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from QSL listing feature"
+                  "title": "Outgoing links from 2025-03-01-Sat"
                 }
               },
               {
-                "id": "c61722d2f0288e0a",
+                "id": "42537086106242f6",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "work/calls/Transac zone update by Danijela.md",
+                    "file": "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Transac zone update by Danijela"
+                  "title": "Outline of Transac Zones update ticket"
                 }
               },
               {
-                "id": "66215144ab6ceed1",
+                "id": "1e7c1a72e53a8dc8",
                 "type": "leaf",
                 "state": {
-                  "type": "reminder-list",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Reminders"
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
                 }
               },
               {
-                "id": "4a7e351c6d81ef9d",
-                "type": "leaf",
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {},
-                  "icon": "spreadsheet",
-                  "title": "Advanced Tables"
-                }
-              },
-              {
-                "id": "83a3eb7907bec801",
+                "id": "4f0aba9ac99ffdbd",
                 "type": "leaf",
                 "state": {
                   "type": "all-properties",
@@ -2785,7 +1914,17 @@
                 }
               },
               {
-                "id": "f3d26d9f4b79cf54",
+                "id": "afdcd06e0b99e0b0",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              },
+              {
+                "id": "3024960cccb42948",
                 "type": "leaf",
                 "state": {
                   "type": "juggl_nodes",
@@ -2795,7 +1934,7 @@
                 }
               },
               {
-                "id": "015e0b12424c0bc6",
+                "id": "f70b0a7dfe0c32bb",
                 "type": "leaf",
                 "state": {
                   "type": "juggl_style",
@@ -2805,41 +1944,41 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "horizontal",
-        "width": 474.5,
+        "width": 596.5,
         "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-          "juggl:Juggl global graph": false,
-          "graph:Open graph view": true,
-          "workspaces:Manage workspace layouts": true,
-          "templater-obsidian:Templater": false,
-          "quickadd:QuickAdd": true,
-          "obsidian-book-search-plugin:Create new book note": true,
-          "obsidian42-brat:BRAT": true,
-          "cmdr:Graph view: Open local graph": false,
-          "cmdr:Workspaces: Manage workspace layouts": false,
-          "cmdr:Daily notes: Open today's daily note": false,
-          "audio-recorder:Start/stop recording": false,
           "switcher:Open quick switcher": false,
+          "graph:Open graph view": true,
           "canvas:Create new canvas": false,
           "daily-notes:Open today's daily note": false,
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
+          "zk-prefixer:Create new unique note": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
           "table-editor-obsidian:Advanced Tables Toolbar": false,
           "obsidian-kanban:Create new board": false,
-          "zk-prefixer:Create new unique note": false,
-          "callout-manager:Insert Callout": false
+          "callout-manager:Insert Callout": false,
+          "obsidian42-brat:BRAT": false,
+          "quickadd:QuickAdd": false,
+          "obsidian-book-search-plugin:Create new book note": false,
+          "cmdr:Graph view: Open local graph": false,
+          "cmdr:Workspaces: Manage workspace layouts": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
+          "juggl:Juggl global graph": true,
+          "cmdr:Daily notes: Open today's daily note": false
         }
       },
-      "active": "41ef9b1bdb304a6d",
-      "mtime": "2025-03-20T14:20:41+01:00"
+      "active": "133ee7cc1356c3bf",
+      "mtime": "2025-04-10T10:27:59+02:00"
     }
   },
-  "active": "transac zones danijela"
+  "active": "git study"
 }

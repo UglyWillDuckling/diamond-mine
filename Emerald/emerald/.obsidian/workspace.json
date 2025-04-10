@@ -1,25 +1,25 @@
 {
   "main": {
-    "id": "896fb77528c50fee",
+    "id": "19b95c9e12174138",
     "type": "split",
     "children": [
       {
-        "id": "d100bb0c2979ae60",
+        "id": "bd73d3e4bb9ea65d",
         "type": "tabs",
         "children": [
           {
-            "id": "c560533c8df4d5f5",
+            "id": "2d3e40f1b5e823cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-31-Mon.md",
+                "file": "Efforts/git book.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-03-31-Mon"
+              "title": "git book"
             }
           }
         ]
@@ -28,16 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "abf2911f56f916d8",
+    "id": "d2c8174330e8fc4f",
     "type": "split",
     "children": [
       {
-        "id": "396d97731e40095f",
+        "id": "74722ab8c20300b6",
         "type": "tabs",
-        "dimension": 35.02824858757062,
         "children": [
           {
-            "id": "688b3d615137a273",
+            "id": "a87c234f19295953",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +49,24 @@
             }
           },
           {
-            "id": "2fd0f24bea1de5b8",
+            "id": "663b43744af4d4d7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c102f4929dd5c986",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -58,81 +74,28 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "3917ba887ee80a77",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#task",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "byModifiedTimeReverse"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          }
-        ]
-      },
-      {
-        "id": "88141fa1c7c58976",
-        "type": "tabs",
-        "dimension": 64.97175141242938,
-        "children": [
-          {
-            "id": "eed85141903b77dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Transac Zones update ticket"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 467.5026054382324,
+    "width": 257.5124969482422,
     "collapsed": true
   },
   "right": {
-    "id": "0bce692d28de0848",
+    "id": "a4cc5cab7d2ca3c4",
     "type": "split",
     "children": [
       {
-        "id": "65b8ffe11667d608",
+        "id": "4c72f380de770d19",
         "type": "tabs",
         "children": [
           {
-            "id": "bae038ccea34ead9",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "4c75dd1dc94107ca",
+            "id": "0295735161264f4f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,60 +105,55 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for QSL listing feature"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "a677e5cf3e3fb9c3",
+            "id": "22b591c5c15ac6c0",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work/tickets/FEAT/QSL listing feature/QSL listing feature.md",
+                "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from QSL listing feature"
+              "title": "Outgoing links from 2025-03-01-Sat"
             }
           },
           {
-            "id": "c61722d2f0288e0a",
+            "id": "42537086106242f6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/React Higher-Order Components (HOCs).md",
+                "file": "Efforts/git book.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of React Higher-Order Components (HOCs)"
+              "title": "Outline of git book"
             }
           },
           {
-            "id": "66215144ab6ceed1",
+            "id": "1e7c1a72e53a8dc8",
             "type": "leaf",
             "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
-            "id": "4a7e351c6d81ef9d",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "83a3eb7907bec801",
+            "id": "4f0aba9ac99ffdbd",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -209,7 +167,17 @@
             }
           },
           {
-            "id": "f3d26d9f4b79cf54",
+            "id": "afdcd06e0b99e0b0",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          },
+          {
+            "id": "3024960cccb42948",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -219,7 +187,7 @@
             }
           },
           {
-            "id": "015e0b12424c0bc6",
+            "id": "f70b0a7dfe0c32bb",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -229,74 +197,80 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 474.5,
+    "width": 596.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true,
-      "juggl:Juggl global graph": true,
-      "graph:Open graph view": true,
-      "workspaces:Manage workspace layouts": true,
-      "templater-obsidian:Templater": true,
-      "quickadd:QuickAdd": true,
-      "obsidian-book-search-plugin:Create new book note": true,
-      "obsidian42-brat:BRAT": true,
-      "cmdr:Graph view: Open local graph": true,
-      "cmdr:Workspaces: Manage workspace layouts": false,
-      "cmdr:Daily notes: Open today's daily note": false,
-      "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": true,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-kanban:Create new board": false,
-      "zk-prefixer:Create new unique note": false,
-      "callout-manager:Insert Callout": false
+      "callout-manager:Insert Callout": false,
+      "obsidian42-brat:BRAT": false,
+      "quickadd:QuickAdd": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "cmdr:Graph view: Open local graph": false,
+      "cmdr:Workspaces: Manage workspace layouts": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
+      "juggl:Juggl global graph": true,
+      "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "c560533c8df4d5f5",
+  "active": "2d3e40f1b5e823cd",
   "lastOpenFiles": [
-    "Clippings/bash development requirements.md",
-    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-31-Mon.md",
-    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-28-Fri.md",
-    "Clippings/mvdansh A shell parser, formatter, and interpreter with bash support; includes shfmt.md",
-    "Clippings/Daniel Martí.md",
-    "Atlas/Knowledge/Education/React/react.md",
-    "Atlas/Knowledge/Education/React/articles/React with design patterns article.md",
-    "Clippings/Top 10 Oh My Zsh Plugins.md",
-    "Clippings/bash-language-server.md",
-    "Clippings/zigtoolszls A Zig language server supporting Zig developers with features like autocomplete and goto definition.md",
-    "Atlas/Knowledge/Education/React/articles/slack link techtalk-croatia.md",
-    "Clippings/React List Components by Example.md",
-    "Atlas/Knowledge/Articles/dev/React Conditional Rendering.md",
-    "Clippings/React Higher-Order Components (HOCs).md",
-    "Atlas/Knowledge/Articles/dev/A Complete Guide to useEffect — overreacted.md",
-    "Clippings/How to fetch data with React Hooks.md",
-    "Clippings/Why You Want React Query.md",
-    "Clippings/Web Applications 101.md",
-    "Atlas/Knowledge/daily_notes/2025/03-March/brojevi tima.md",
-    "Clippings/How to fetch data in React 2024.md",
-    "Clippings/React Function Components.md",
-    "Clippings/Road to React Learn React.js 19 with Hooks in JavaScript.md",
-    "Atlas/Knowledge/daily_notes/2025/03-March/Team Update Meeting.md",
-    "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-27-Thu.md",
+    "Efforts/git book.md",
+    "Clippings/Git - pretty-formats Documentation.md",
+    "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-10-Thu.md",
+    "Clippings/Swim with Vimdiff and You’ll Never Drown in Merge Conflicts Ever Again.md",
+    "Clippings/Using Vimdiff with Git Diff - Samuel Mullen.md",
+    "Clippings/gitignore A collection of useful .gitignore templates.md",
+    "~/x/fd767c02f62018aa8710d603c11ca878_MD5.jpeg",
+    "lifecycle.png",
+    "Make Tutorial/Make Tutorial.md",
+    "Make Tutorial/make_toc.md",
+    "~/x/f58bd5a9c4fd6c4d7503fd40cf6a9bdd_MD5.jpeg",
+    "People MOC.md",
+    "~/x/Pasted image 20250409110620.jpg",
+    "~/x/Pasted image 20250409110554.jpg",
+    "~/x/Pasted image 20250409110535.png",
+    "work/tickets/FEAT/Transac Zones update ticket/coverage update canvas.canvas",
+    "~/x/distributed.png",
+    "Atlas/Knowledge/How To's/How to resolve gcloud access issues.md",
+    "areas.png",
     "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
-    "Clippings/Thinking in React – React.md",
-    "coverage update canvas.canvas",
+    "Efforts/master task list.md",
+    "~/x/ac0b0728c3274b8b3c7e270fa9fb7d4d_MD5.jpeg",
+    "~/x/f32fc30d35668a11de0a88800eb0d46f_MD5.jpeg",
+    "Clippings/20 years of Git. Still weird, still wonderful..md",
+    "Atlas/Knowledge/tools/dev/ocrs.md",
+    "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-08-Tue.md",
+    "work/notes/Aviv VPN certificate backup.md",
+    "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-07-Mon.md",
+    "Clippings/Top Neovim Colorschemes in 2025.md",
+    "Clippings/pytest.md",
+    "Clippings/second standup with NOVA team.md",
+    "Clippings/how to set env variable before running a command.md",
+    "Clippings/bash.md",
+    "Clippings/Untitled 2.md",
+    "Clippings/error Yoan.md",
+    "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-04-Fri.md",
+    "Clippings/Why I stopped using AI code editors ·Luciano Nooijen.md",
+    "Atlas/Knowledge/daily_notes/2025/04-April",
     "work/tickets/FEAT/Transac Zones update ticket",
     "Atlas/Knowledge/tools/dev/zsh",
-    "zsh.sourceforge.io/favicon.png",
-    "zsh.sourceforge.io/favicon.svg",
-    "zsh.sourceforge.io/Images/top.png",
-    "zsh.sourceforge.io/Images/prev.png",
-    "zsh.sourceforge.io/Images/next.png",
     "zsh.sourceforge.io/Intro/intro_toc.html",
     "zsh.sourceforge.io/Intro/intro_9.html",
     "zsh.sourceforge.io/Intro/intro_8.html",
@@ -304,12 +278,6 @@
     "zsh.sourceforge.io/Intro/intro_6.html",
     "zsh.sourceforge.io/Intro/intro_5.html",
     "zsh.sourceforge.io/Intro/intro_4.html",
-    "zsh.sourceforge.io/Intro/intro_3.html",
-    "zsh.sourceforge.io/Images/up.png",
-    "~/x/eebc1cd7a1e8268640c6f4d605b25264_MD5.jpeg",
-    "toucan(1).png",
-    "~/x/485ddd1f4dd3778a21748ca3db44dce3_MD5.jpeg",
-    "~/x/182391d825620ac10a650844c68c7ff6_MD5.svg",
     "tasks canvas.canvas"
   ]
 }

@@ -1,27 +1,6 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/Knowledge/tools/dev/ocrs.md": [
-      {
-        "title": "month",
-        "time": "2025-04-09",
-        "rowNumber": 11
-      }
-    ],
-    "Atlas/Knowledge/How To's/you can easily reference any text block by using.md": [
-      {
-        "title": "monthly",
-        "time": "2025-04-04",
-        "rowNumber": 10
-      }
-    ],
-    "work/notes/Aviv VPN certificate backup.md": [
-      {
-        "title": "remind me",
-        "time": "2025-04-07",
-        "rowNumber": 2
-      }
-    ],
     "Atlas/Knowledge/How To's/vim - jump through the change list.md": [
       {
         "title": "bi-monthly",
@@ -36,11 +15,25 @@
         "rowNumber": 15
       }
     ],
-    "Clippings/How to download an entire website for offline usage (using wget).md": [
+    "Efforts/tasks/archive/kako izdati racun HOC.md": [
       {
-        "title": "reminder - download entire website",
-        "time": "2025-04-04",
-        "rowNumber": 11
+        "title": "remind me za racun",
+        "time": "2025-04-29",
+        "rowNumber": 2
+      }
+    ],
+    "Atlas/Knowledge/How To's/How to resolve gcloud access issues.md": [
+      {
+        "title": "remind me",
+        "time": "2025-04-22",
+        "rowNumber": 2
+      }
+    ],
+    "Clippings/gitignore A collection of useful .gitignore templates.md": [
+      {
+        "title": "remind me weekly",
+        "time": "2025-04-18",
+        "rowNumber": 9
       }
     ]
   },

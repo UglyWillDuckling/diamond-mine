@@ -19,7 +19,7 @@ related:
  - `updated` [[day template]]
 ---
 
-- [ ] #task Explore [[AI in Obsidian]] 🔼 ⏳ 2025-02-21 📅 2025-02-28 🆔 mYn1FU
+- [x] #task Explore [[AI in Obsidian]] 🔼 ⏳ 2025-02-21 📅 2025-02-28 🆔 mYn1FU ✅ 2025-04-03
 	- [ ] **search** plugins
 	- [ ] explore `online`
 

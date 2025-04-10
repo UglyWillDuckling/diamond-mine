@@ -12,22 +12,9 @@
   ],
   "nodes": [
     {
-      "autoResizeHeight": true,
-      "height": 60,
-      "id": "4be4f1b654babb5a",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "**UPDATE PROCESS**\n",
-      "type": "text",
-      "width": 440,
-      "x": -400,
-      "y": -660
-    },
-    {
       "autoResizeHeight": false,
       "color": "1",
-      "height": 266,
+      "height": 540,
       "id": "b4e459b743844a4b",
       "styleAttributes": {
       },
@@ -39,20 +26,33 @@
     },
     {
       "autoResizeHeight": true,
+      "height": 60,
+      "id": "4be4f1b654babb5a",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "**UPDATE PROCESS**\n",
+      "type": "text",
+      "width": 440,
+      "x": -380,
+      "y": -540
+    },
+    {
+      "autoResizeHeight": true,
       "color": "5",
-      "height": 100,
+      "height": 280,
       "id": "b0673bb8e8c35feb",
       "styleAttributes": {
       },
-      "text": "**backyard UI sends request** \n- sends list of cities",
+      "text": "**backyard UI sends request** \n- sends **list** of cities",
       "type": "text",
       "width": 260,
-      "x": -460,
-      "y": -237
+      "x": -510,
+      "y": -190
     },
     {
       "autoResizeHeight": false,
-      "height": 200,
+      "height": 240,
       "id": "2ce6c52f7c33530d",
       "styleAttributes": {
         "textAlign": "center"
@@ -60,8 +60,8 @@
       "text": "**NOTES** 📔\n\n- only [[RDVVQ]] items are relevant",
       "type": "text",
       "width": 320,
-      "x": -700,
-      "y": -520
+      "x": -800,
+      "y": -480
     }
   ]
 }

@@ -24,7 +24,7 @@ Conditional rendering in React isn't difficult. In JSX - the syntax extension us
 
 The most basic conditional rendering logic in React is done with a single **if** statement. Imagine you don't want to render something in your [React component](https://www.robinwieruch.de/react-function-component/), because it doesn't have the necessary [React props](https://www.robinwieruch.de/react-pass-props-to-component/) available. For instance, a [List component in React](https://www.robinwieruch.de/react-list-component) shouldn't render the list HTML elements in a view if there is no list of items in the first place. You can use a plain JavaScript if statement to return earlier (guard pattern):
 
-```
+```jsx
 const users = [
   { id: '1', firstName: 'Robin', lastName: 'Wieruch' },
   { id: '2', firstName: 'Dennis', lastName: 'Wieruch' },
@@ -70,7 +70,7 @@ In this example, we have done the conditional rendering based on props, but the 
 
 Let's move on with the previous example to learn about **if else** statements in React. If there is no list, we render nothing and hide the HTML as we have seen before with the single if statement. However, you may want to show a text as feedback for your user when the list is empty for a better user experience. This would work with another single if statement, but we will expand the example with an if else statement instead:
 
-```
+```jsx
 function List({ list }) {
   if (!list) {
     return null;
@@ -92,7 +92,7 @@ function List({ list }) {
 
 Now, the List component renders either nothing, a text, or the list of items based on some JavaScript logic. Even though the previous example shows you how to use if else statements in React, I suggest to use single if statements every time you want to guard your main return (here: returning the list) as a best practice:
 
-```
+```jsx
 function List({ list }) {
   if (!list) {
     return null;
@@ -118,7 +118,7 @@ This is way more readable than the previous if else conditional rendering. All t
 
 It's true that we can use JavaScript in JSX, but it becomes difficult when using statements like **if, else, and switch case within JSX**. There is no real way to inline it. Another way to express an if else statement in JavaScript is the **[ternary operator](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)**:
 
-```
+```jsx
 // if else
 function getFood(isVegetarian) {
   if (isVegetarian) {
@@ -136,7 +136,7 @@ function getFood(isVegetarian) {
 
 For instance, imagine your component shows either a preview or edit mode. The condition is a JavaScript boolean which comes in as React prop. You can use the boolean to decide which element you want to conditionally render:
 
-```
+```jsx
 function Recipe({ food, isEdit }) {
   return (
     <div>
@@ -422,7 +422,8 @@ It works; however I would recommend avoiding nested conditional renders because 
 
 [Higher-Order Components (HOCs)](https://www.robinwieruch.de/react-higher-order-components/) are a perfect match for a conditional rendering in React. HOCs can help with multiple use cases, yet one use case could be to alter the look of a component with a conditional rendering. Let's check out a HOC that either shows a element or a component:
 
-```
+```jsx
+
 // Higher-Order Component
 function withLoadingIndicator(Component) {
   return function EnhancedComponent({ isLoading, ...props }) {
@@ -453,24 +454,7 @@ function App({ list, isLoading }) {
 
 In this example, the List component can focus on rendering the list. It doesn't have to bother with a loading status. A HOC hides away all the noise from your actual component. Ultimately, you could add multiple higher-order components (composition) to hide away more than one conditional rendering edge case. As alternative to HOCs, you could also use [conditional rendering with a render prop](https://www.robinwieruch.de/react-render-props/).
 
-## If Else Components in React
-
-Last but not least, there are external libraries to deal with conditional renderings on a markup level. They add control components to enable conditional renderings without the JS in JSX:
-
-```
-<Choose>
-  <When condition={isLoading}>
-    <div><p>Loading...</p></div>
-  </When>
-  <Otherwise>
-    <div>{list.map(item => <Item item={item} />)}</div>
-  </Otherwise>
-</Choose>
-```
-
-Some people use it, but personally I wouldn't recommend it. JSX allows you to use the powerful set of JavaScript functionalities to handle conditional renderings yourself. There is no need to add templating components to enable it. A lot of people consider React including JSX as their library of choice, because they can handle the rendering with pure HTML and JS in JSX.
-
----
+## summary
 
 I hope this React tutorial was helpful for you to learn about conditional renderings. If you liked it, please share it with your friends. In the end, I got an all conditional renderings in a cheatsheet for you:
 
@@ -501,6 +485,4 @@ I hope this React tutorial was helpful for you to learn about conditional render
 - HOCs
 	- components can focus on their main purpose
 	- use HOC to shield away conditional rendering
-	- use multiple composable HOCs to shield away multiple conditional renderings
-- external templating components
-	- avoid them and be comfortable with JSX and JS
+	- use multiple composable HOCs to shield away **multiple** conditional renderings

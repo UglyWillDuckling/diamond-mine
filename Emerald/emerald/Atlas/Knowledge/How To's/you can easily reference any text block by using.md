@@ -8,4 +8,4 @@ Use \^ to reference any block of text in [[Obsidian]]
  ___
 - [x] remind me (@[[2025-02-06]] 15:10)
 - [x] weekly (@[[2025-03-07 Nuphy keyboard]])
-- [ ] monthly (@[[2025-04-04]])
+- [x] monthly (@[[2025-04-04]])

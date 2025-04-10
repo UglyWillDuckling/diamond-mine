@@ -1,5 +1,6 @@
 ## Automatic vars
- 1.  $@ : The name of the target file.                                       
+
+ 1.  $@ : The name of the target                                      
   2.  $< : The name of the first prerequisite.                                
   3.  $^ : The names of all the prerequisites, separated by a space.          
   4.  $? : The names of all the prerequisites that are newer than the target. 

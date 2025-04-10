@@ -46,6 +46,7 @@
     "Purchased": "date",
     "number_in_series": "number",
     "order_in_course": "number",
-    "interest": "number"
+    "interest": "number",
+    "participants": "multitext"
   }
 }

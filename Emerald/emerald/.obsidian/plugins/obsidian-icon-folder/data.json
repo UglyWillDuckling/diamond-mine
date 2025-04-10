@@ -343,7 +343,6 @@
   "Atlas/Knowledge/Education/React/React Router": "LiRoute",
   "Atlas/Knowledge/Education/React/articles": "LiPen",
   "Atlas/Knowledge/Education/React/documentation": "LiArchiveRestore",
-  "Atlas/Knowledge/Education/React/react.md": "LiAtom",
   "Atlas/Knowledge/Education/Shell/BASH - special options.md": "LiTerminal",
   "Atlas/Knowledge/Education/Typescript/Projects": "LiProjector",
   "Atlas/Knowledge/Education/Typescript/Typesript Education.md": "📙",
@@ -469,5 +468,6 @@
   "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../3) DOM Manipulation.md": "LiHand",
   "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../4) Conceptual Aside - Imperative vs. Declarative Programming.md": "LiBlocks",
   "~/% tmpl/pages/movie.md": "🎥",
-  "work/people and teams/NOVA/Yoan Haouzi.md": "🍟"
+  "work/people and teams/NOVA/Yoan Haouzi.md": "🍟",
+  "Atlas/Knowledge/Education/React/react study.md": "LiAtom"
 }

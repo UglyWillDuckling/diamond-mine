@@ -5,7 +5,7 @@ status: In Progress
 
 > https://avivgroup.atlassian.net/browse/LUNA-368
 
-- [/] #task [[Team Create-Edit Modal Component]] 🔼 🛫 2025-03-05 ⏳ 2025-03-12 📅 2025-03-09 🆔 hx4byP
+- [x] #task [[Team Create-Edit Modal Component]] 🔼 🛫 2025-03-05 ⏳ 2025-03-12 📅 2025-03-09 🆔 hx4byP ✅ 2025-04-03
 	- [x] make draft PR
 	- [x] make requested changes
 	- [x] add [[#tests]]

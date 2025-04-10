@@ -4,6 +4,9 @@ related:
 status: doesn't work due to
 previewLink:
 ---
+
+> [!NOTE] Title
+> Contents
 - [x] #task Setup Persona mail ✅ 2025-01-07
 	- [x] #task copy the [[Mail Config]] ✅ 2025-01-05
 		- [x] [[Postfix]]

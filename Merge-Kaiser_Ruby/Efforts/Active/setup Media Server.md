@@ -8,8 +8,8 @@ tags:
 uses:: [[Jellyfin]]
 ____
 
-- [/] #task [[setup Media Server]] Jellyfin 🔼 ⏳ 2025-03-05 📅 2025-03-02 🆔 FeBHHo
-- [/] #task [[Skinuti filmove, serije i slicno]] 🔼 ⏳ 2025-03-07 📅 2025-03-02 🆔 tIBxyP
+- [x] #task [[setup Media Server]] Jellyfin 🔼 ⏳ 2025-03-05 📅 2025-03-02 🆔 FeBHHo ✅ 2025-04-02
+- [x] #task [[Skinuti filmove, serije i slicno]] 🔼 ⏳ 2025-03-07 📅 2025-03-02 🆔 tIBxyP ✅ 2025-04-02
 
 ### description
 

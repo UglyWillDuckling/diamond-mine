@@ -27,7 +27,7 @@ image: https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtO
 released: true
 premiere: 03/31/1999
 watched: true
-plan-to-watch: true
+plan-to-watch: false
 lastWatched: 2025-03-09
 personalRating: 9
 tags:

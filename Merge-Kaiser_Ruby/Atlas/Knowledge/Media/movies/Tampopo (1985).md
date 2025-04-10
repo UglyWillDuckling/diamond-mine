@@ -30,6 +30,7 @@ lastWatched: ""
 personalRating: 0
 tags:
   - film
+interest: 7
 ---
 `$= '![Image|360](' + dv.current().image + ')'`
 

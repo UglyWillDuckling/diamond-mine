@@ -9,6 +9,7 @@ description:
 tags:
   - film
   - active
+watched: true
 ---
 ***All We Imagine as Light*** is a 2024 [drama film](https://en.m.wikipedia.org/wiki/Drama_\(film_and_television\) "Drama (film and television)") written and directed by [Payal Kapadia](https://en.m.wikipedia.org/wiki/Payal_Kapadia_\(filmmaker\) "Payal Kapadia (filmmaker)"). The cast includes [Kani Kusruti](https://en.m.wikipedia.org/wiki/Kani_Kusruti "Kani Kusruti"), [Divya Prabha](https://en.m.wikipedia.org/wiki/Divya_Prabha "Divya Prabha"), [Chhaya Kadam](https://en.m.wikipedia.org/wiki/Chhaya_Kadam "Chhaya Kadam") and [Hridhu Haroon](https://en.m.wikipedia.org/wiki/Hridhu_Haroon "Hridhu Haroon"). Featuring [Malayalam](https://en.m.wikipedia.org/wiki/Malayalam "Malayalam"), [Hindi](https://en.m.wikipedia.org/wiki/Hindi "Hindi"), and [Marathi](https://en.m.wikipedia.org/wiki/Marathi_language "Marathi language") dialogue, it was an [international co-production](https://en.m.wikipedia.org/wiki/International_co-production "International co-production") involving companies from France, India, Netherlands, Luxembourg and Italy.
 

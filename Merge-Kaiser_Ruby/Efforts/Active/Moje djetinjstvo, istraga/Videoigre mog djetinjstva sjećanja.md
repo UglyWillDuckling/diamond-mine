@@ -1,6 +1,6 @@
 #project 
 
-- [/] #task sjeti se videoigara svog djetinjstva ⏫ ⏳ 2025-03-05 📅 2025-03-01 🆔 RV0Ca0
+- [x] #task sjeti se videoigara svog djetinjstva ⏫ ⏳ 2025-03-05 📅 2025-03-01 🆔 RV0Ca0 ✅ 2025-04-02
 	- [ ] grupirati po konzolama
 	- [ ] staviti na vremensku liniju
 	- [ ] igrati igre

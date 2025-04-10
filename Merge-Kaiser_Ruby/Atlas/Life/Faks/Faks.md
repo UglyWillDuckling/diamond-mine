@@ -1,7 +1,7 @@
 ## info
 💟 [**SRCE**](https://moodle.srce.hr/)
 [Postani student ](https://www.notion.so/Postani-student-4a7143c872c6459faf9049b09ed6ef27?pvs=21)
-**JMBAG**: 0367008119fdsfsdf
+**JMBAG**: 0367008119
 
 ## todo ✔
 

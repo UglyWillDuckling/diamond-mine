@@ -790,9 +790,25 @@
         ],
         "Master Task List.md": [
             {
-                "id": 680955622,
+                "id": 1939802608,
+                "status": " ",
+                "title": "#task [[Setup AI locally]] ⏳ 2025-04-05 📅 2025-04-01 🆔 wuhNhv",
+                "body": [
+                    "\t- [[ClipboardConqueror]]"
+                ],
+                "time": "",
+                "due": "2025-04-01",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Master Task List.md",
+                "completion": ""
+            },
+            {
+                "id": 2771939454,
                 "status": "/",
-                "title": "#task Setup Printer on PC 🔼 ⏳ 2025-03-28 📅 2025-03-23",
+                "title": "#task [[Setup Printer on PC]] 🔼 ⏳ 2025-03-28 📅 2025-03-23 🆔 rQkj6h",
                 "body": [],
                 "time": "",
                 "due": "2025-03-23",
@@ -804,23 +820,24 @@
                 "completion": ""
             },
             {
-                "id": 1923954902,
+                "id": 1278518050,
                 "status": "/",
-                "title": "#task Prodi [[Bug 388]] i instaliraj zeljeni software 🔼 ⏳ 2025-03-03 📅 2025-03-02 🆔 BVw5Ce",
+                "title": "#task Prodi [[Bug 388]] i instaliraj zeljeni software 🔼 ⏳ 2025-03-03 📅 2025-03-02 🆔 BVw5Ce #paused",
                 "body": [
                     "\t[[instalacija sofwarea iz Bug 388]]\t"
                 ],
                 "time": "",
                 "due": "2025-03-02",
                 "tags": [
-                    "#task"
+                    "#task",
+                    "#paused"
                 ],
                 "priority": 3,
                 "filePath": "Master Task List.md",
                 "completion": ""
             },
             {
-                "id": 1355755853,
+                "id": 3047128255,
                 "status": " ",
                 "title": "#task #backburner See how difficult it is to setup a local FTP server ⏳ 2025-02-25 📅 2025-03-02 🆔 592cRS",
                 "body": [],
@@ -835,7 +852,7 @@
                 "completion": ""
             },
             {
-                "id": 3063057025,
+                "id": 2890706207,
                 "status": " ",
                 "title": "#task #backburner napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼",
                 "body": [],
@@ -851,9 +868,9 @@
                 "completion": ""
             },
             {
-                "id": 4083604705,
+                "id": 549161164,
                 "status": " ",
-                "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-28",
+                "title": "#task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-02-28 #backburner",
                 "body": [
                     "\t- check online",
                     "\t- create **real** tasks"
@@ -861,14 +878,15 @@
                 "time": "",
                 "due": "2025-02-28",
                 "tags": [
-                    "#task"
+                    "#task",
+                    "#backburner"
                 ],
                 "priority": 3,
                 "filePath": "Master Task List.md",
                 "completion": ""
             },
             {
-                "id": 740192627,
+                "id": 1066524822,
                 "status": " ",
                 "title": "#task [[Backup Drive]] 🆔 OpBFPk 🔼",
                 "body": [
@@ -1976,6 +1994,180 @@
                 "tags": [],
                 "priority": 0,
                 "filePath": "Calendar/daily/2025/2025-04-01-Tue.md",
+                "completion": ""
+            }
+        ],
+        "Setup AI locally.md": [
+            {
+                "id": 3661173101,
+                "status": "/",
+                "title": "setup [[LocalAI]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Setup AI locally.md",
+                "completion": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-04-02-Wed.md": [
+            {
+                "id": 1316023671,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-04-02-Wed.md",
+                "completion": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-04-03-Thu.md": [
+            {
+                "id": 725444786,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-04-03-Thu.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Active/Probability study/Probability study.md": [
+            {
+                "id": 4178477828,
+                "status": "/",
+                "title": "go through the [[Brilliant Course - Predicting with Probability]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Probability study/Probability study.md",
+                "completion": ""
+            },
+            {
+                "id": 4119372687,
+                "status": "/",
+                "title": "[[Probability Crash Course Series]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Probability study/Probability study.md",
+                "completion": ""
+            },
+            {
+                "id": 2622187455,
+                "status": " ",
+                "title": "watch [[Why “probability of 0” does not mean “impossible”  Probabilities of probabilities, part 2]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Probability study/Probability study.md",
+                "completion": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-04-06-Sun.md": [
+            {
+                "id": 1603791360,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-04-06-Sun.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Simmering/IP address exploration.md": [
+            {
+                "id": 3059886176,
+                "status": "/",
+                "title": "#task [[IP address exploration]] - ipv4, ipv6 🔼 ⏳ 2025-02-22 📅 2025-03-05 🆔 mgpFNP #dev",
+                "body": [],
+                "time": "",
+                "due": "2025-03-05",
+                "tags": [
+                    "#task",
+                    "#dev"
+                ],
+                "priority": 3,
+                "filePath": "Efforts/Simmering/IP address exploration.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Active/Create A Movie List.md": [
+            {
+                "id": 1942803589,
+                "status": "/",
+                "title": "#task build a New **Movies** list 🆔 qiGLZM #backburner ⏳ 2025-03-26",
+                "body": [
+                    "\t- [[Movie List]]"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task",
+                    "#backburner"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Active/Create A Movie List.md",
+                "completion": ""
+            }
+        ],
+        "Atlas/Knowledge/howtos/writing/how to download entire site with wget.md": [
+            {
+                "id": 680330060,
+                "status": " ",
+                "title": "remind me (@2025-04-15)",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Atlas/Knowledge/howtos/writing/how to download entire site with wget.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Ongoing/Upcoming birthdays.md": [
+            {
+                "id": 4175339740,
+                "status": "/",
+                "title": "#task make a birthday list for all the peoples 🎂 🔽 ⏳ 2025-04-14 📅 2025-04-01",
+                "body": [],
+                "time": "",
+                "due": "2025-04-01",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 4,
+                "filePath": "Efforts/Ongoing/Upcoming birthdays.md",
+                "completion": ""
+            }
+        ],
+        "Calendar/daily/2025/2025-04-08-Tue.md": [
+            {
+                "id": 1687494239,
+                "status": " ",
+                "title": "",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Calendar/daily/2025/2025-04-08-Tue.md",
                 "completion": ""
             }
         ]
@@ -4456,19 +4648,6 @@
                 "completed": "2025-02-14/21:35"
             }
         ],
-        "Atlas/Tools/pc/parallel command.md": [
-            {
-                "id": 119918935,
-                "title": "remind me (@2025-01-27 23:13)",
-                "body": [],
-                "time": "",
-                "due": "",
-                "tags": [],
-                "priority": 0,
-                "filePath": "Atlas/Tools/pc/parallel command.md",
-                "completed": ""
-            }
-        ],
         "Atlas/Tools/obsidian/plugins/Tasks plugin/Tasks User Guide - Layout.md": [
             {
                 "id": 2320563396,
@@ -5036,23 +5215,7 @@
         ],
         "Master Task List.md": [
             {
-                "id": 380244122,
-                "status": "x",
-                "title": "#task **uploadaj** racune i ostalo ⏫ ⏳ 2025-03-18 📅 2025-03-18 ✅ 2025-03-18",
-                "body": [
-                    "\t- [x] posalji mail :LiMailCheck:"
-                ],
-                "time": "",
-                "due": "2025-03-18",
-                "tags": [
-                    "#task"
-                ],
-                "priority": 2,
-                "filePath": "Master Task List.md",
-                "completion": "2025-03-18"
-            },
-            {
-                "id": 1114661677,
+                "id": 42563407,
                 "status": "x",
                 "title": "#task pocistiti **Downloads** folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny | #task #tiny #task #tiny 🔼 📅 2025-02-15 ✅ 2025-02-15",
                 "body": [],
@@ -5071,7 +5234,7 @@
                 "completion": "2025-02-15"
             },
             {
-                "id": 2747376761,
+                "id": 3868993347,
                 "status": "x",
                 "title": "#task see how [[rsync]] works #backburner #dev ✅ 2025-02-15",
                 "body": [
@@ -5089,7 +5252,7 @@
                 "completion": "2025-02-15"
             },
             {
-                "id": 2833027947,
+                "id": 2891053774,
                 "status": "x",
                 "title": "#task **Find** remote vault encryption password ⏫ ⏳ 2025-02-20 📅 2025-02-22 ✅ 2025-02-19",
                 "body": [],
@@ -5103,7 +5266,7 @@
                 "completion": "2025-02-19"
             },
             {
-                "id": 2203654713,
+                "id": 3877449254,
                 "status": "x",
                 "title": "#task daj Senki savjet da pogleda mail od Regice u slucaju da vec nije #rad 🆔 OZBwNh 🔼 ⏳ 2025-02-24 📅 2025-02-24 ✅ 2025-02-24",
                 "body": [],
@@ -5118,7 +5281,7 @@
                 "completion": "2025-02-24"
             },
             {
-                "id": 3576077404,
+                "id": 2304297865,
                 "status": "x",
                 "title": "#task pocisti [[GDrive]] do kraja 🔼 ⏳ 2025-02-20 📅 2025-02-23 🆔 7RPQKX ✅ 2025-02-23",
                 "body": [],
@@ -5132,7 +5295,7 @@
                 "completion": "2025-02-23"
             },
             {
-                "id": 1602261275,
+                "id": 3741043229,
                 "status": "x",
                 "title": "#task Fix missing **restart** of **nginx** docker service after cert renewal ⏫ 🆔 5ij4NX ✅ 2025-02-23",
                 "body": [],
@@ -5146,7 +5309,7 @@
                 "completion": "2025-02-23"
             },
             {
-                "id": 2874277109,
+                "id": 364707220,
                 "status": "x",
                 "title": "#task Fix, again, the big editor issue 🔼 ⏳ 2025-02-27 📅 2025-02-23 ✅ 2025-02-26",
                 "body": [],
@@ -5160,7 +5323,7 @@
                 "completion": "2025-02-26"
             },
             {
-                "id": 3323219089,
+                "id": 1389563285,
                 "status": "x",
                 "title": "#task Skini SHE-RA AND THE PRINCESSES OF POWER ⏳ 2025-03-09 📅 2025-03-10",
                 "body": [],
@@ -5174,7 +5337,7 @@
                 "completion": ""
             },
             {
-                "id": 3376825051,
+                "id": 854940894,
                 "status": "x",
                 "title": "#task Skini Matrix 🔼 📅 2025-03-08 🆔 dyQA3h",
                 "body": [],
@@ -5188,7 +5351,7 @@
                 "completion": ""
             },
             {
-                "id": 2081434122,
+                "id": 3424732717,
                 "status": "x",
                 "title": "#task Look into what **SSE** means #dev 🆔 5dKDNT 📅 2025-03-03 ✅ 2025-03-10",
                 "body": [
@@ -5205,7 +5368,7 @@
                 "completion": "2025-03-10"
             },
             {
-                "id": 1800565923,
+                "id": 1101202850,
                 "status": "x",
                 "title": "#task prekini konstantni updejt pluginova #habbit 🆔 iD0UCB ⏳ 2025-02-09 📅 2025-03-03 ✅ 2025-03-14",
                 "body": [],
@@ -6337,6 +6500,195 @@
                 "priority": 0,
                 "filePath": "Calendar/daily/2025/2025-03-24-Mon.md",
                 "completion": ""
+            }
+        ],
+        "Setup AI locally.md": [
+            {
+                "id": 1507545923,
+                "status": "x",
+                "title": "setup [[Ollama]] %% whatever that is %%",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Setup AI locally.md",
+                "completion": ""
+            },
+            {
+                "id": 4161740994,
+                "status": "x",
+                "title": "add a model to Ollama",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Setup AI locally.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Active/Probability study/Probability study.md": [
+            {
+                "id": 4052983838,
+                "status": "x",
+                "title": "#task study probability ⏫ 🛫 2025-03-17 ⏳ 2025-03-17 📅 2025-03-01 🆔 20eGeN ✅ 2025-04-02",
+                "body": [
+                    "\t- [x] start creating a resource list ",
+                    "\t- [/] make a list of resources",
+                    "\t\t- [x] **gather** a bunch of links in Obsidian",
+                    "\t\t- [/] **triage** the resources",
+                    "\t- [x] examine the **college** material [[vjerojatnost i statistika]]",
+                    "\t\t- [x] [[Kombinatorika]]"
+                ],
+                "time": "",
+                "due": "2025-03-01",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Active/Probability study/Probability study.md",
+                "completion": "2025-04-02"
+            },
+            {
+                "id": 160999758,
+                "status": "x",
+                "title": "watch [[Probability Tree Diagrams - GCSE Maths]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Active/Probability study/Probability study.md",
+                "completion": ""
+            }
+        ],
+        "Efforts/Simmering/Senka/Persona/archive/archive/persona mail setup.md": [
+            {
+                "id": 3551290279,
+                "status": "x",
+                "title": "#task Setup Persona mail ✅ 2025-01-07",
+                "body": [
+                    "\t- [x] #task copy the [[Mail Config]] ✅ 2025-01-05",
+                    "\t\t- [x] [[Postfix]]",
+                    "\t\t- [x] [[Dovecot]]",
+                    "\t- [x] copy `aliases` file",
+                    "\t- [x] #task connect to **Persona** mail ✅ 2025-01-06",
+                    "\t- [x] #task migrate mail `folders` ✅ 2025-01-06",
+                    "\t- [x] #task connect to Persona mail ⏫ ✅ 2025-01-07"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Simmering/Senka/Persona/archive/archive/persona mail setup.md",
+                "completion": "2025-01-07"
+            },
+            {
+                "id": 3808134253,
+                "status": "x",
+                "title": "kopiraj foldere i otpakiraj",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Simmering/Senka/Persona/archive/archive/persona mail setup.md",
+                "completion": ""
+            },
+            {
+                "id": 2147889560,
+                "status": "x",
+                "title": "#task connect to senka the account via mail client",
+                "body": [
+                    "\t- [x] #task #test mail sending ✅ 2025-01-06",
+                    "\t- [x] #task #test mail receiving ✅ 2025-01-06"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Simmering/Senka/Persona/archive/archive/persona mail setup.md",
+                "completion": ""
+            },
+            {
+                "id": 2081618535,
+                "status": "x",
+                "title": "check if any **synchronization** is working",
+                "body": [
+                    "\t- $ syncing is working for the rest"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Simmering/Senka/Persona/archive/archive/persona mail setup.md",
+                "completion": ""
+            },
+            {
+                "id": 4062178105,
+                "status": "x",
+                "title": "#task fix [[Dovecot]] folder structure again ⏫ ✅ 2025-01-07",
+                "body": [
+                    "\t- dot issue(.)",
+                    "\t- [x] match the directories between monkey and senka",
+                    "\t- [x] #task try this out with senka's account ✅ 2025-01-07",
+                    "\t- [x] #task [[#try other clients]] ✅ 2025-01-07"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 2,
+                "filePath": "Efforts/Simmering/Senka/Persona/archive/archive/persona mail setup.md",
+                "completion": "2025-01-07"
+            },
+            {
+                "id": 3302707757,
+                "status": "x",
+                "title": "[[Mailspring]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Simmering/Senka/Persona/archive/archive/persona mail setup.md",
+                "completion": ""
+            },
+            {
+                "id": 4288184926,
+                "status": "x",
+                "title": "[[Nautilus mail]]",
+                "body": [],
+                "time": "",
+                "due": "",
+                "tags": [],
+                "priority": 0,
+                "filePath": "Efforts/Simmering/Senka/Persona/archive/archive/persona mail setup.md",
+                "completion": ""
+            },
+            {
+                "id": 2599869489,
+                "status": "x",
+                "title": "#task test **receiving** of mails again ✅ 2025-01-07",
+                "body": [
+                    "\t- [x] #task change the username to just`senka`",
+                    "\t- [x] reconnect",
+                    "\t- [x] try a different [[email client]] again"
+                ],
+                "time": "",
+                "due": "",
+                "tags": [
+                    "#task"
+                ],
+                "priority": 0,
+                "filePath": "Efforts/Simmering/Senka/Persona/archive/archive/persona mail setup.md",
+                "completion": "2025-01-07"
             }
         ]
     }

@@ -1,6 +1,8 @@
 ---
 related:
   - "[[unix]]"
+aliases:
+  - GNU Parallel
 ---
 #tool #command #parallel
 
@@ -31,9 +33,12 @@ related:
   You can also use  parallel  to parallelize a loop. For example, suppose you want
   to execute a command on multiple directories  dir1 ,  dir2 , ...,  dir10 :
 
-    parallel 'cd {} && command' ::: dir*
+```sh
+   parallel 'cd {} && command' ::: dir*
+```
 
-  Here,  cd {} && command  is the command that will be executed in each directory.
+  Here,  `cd {} && command`  is the command that will be executed in each directory.
+	
   The  {}  placeholder represents the input value (e.g.,  dir1 ,  dir2 , ...). The
   &&  is used to concatenate the  cd  command with the  command  that follows.
 
@@ -47,5 +52,3 @@ related:
   each command.
   •  `-k`  or  --keep-order : preserves the order of the input values.
   •  `-v`  or  --verbose : increases the verbosity of  parallel .
-
-- [x] remind me (@2025-01-27 23:13)

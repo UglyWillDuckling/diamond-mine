@@ -9,20 +9,20 @@ Korisnicko ime je senka, tu cesto zna doc do greske jer se kao username automats
 
 Testirali smo i spajanje na Macu, sve je proslo bez problema.
 
+**IP**: 92.112.180.200
+
 email adresa: senka@persona.hr
 password: a
 username: senka
 
-**imap**
+**IMAP**
 server: persona.hr
 port: 993
-
 security: SSL/TLS
 
-**smtp**
+**SMTP**
 server: persona.hr
 port: 587
-
 security: STARTTLS
 
 

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Knowledge/tools/dev/nvim/preservimvim-markdown.md",
+                "file": "Pro Git - Scott Chacon/Git Branching/Git Branching.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "preservimvim-markdown"
+              "title": "Git Branching"
             }
           }
         ]
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5124969482422,
-    "collapsed": true
+    "width": 297.5
   },
   "right": {
     "id": "a4cc5cab7d2ca3c4",
@@ -128,13 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Efforts/git book.md",
+                "file": "Pro Git - Scott Chacon/Git Branching/Git Branching.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of git book"
+              "title": "Outline of Git Branching"
             }
           },
           {
@@ -201,7 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 596.5,
+    "width": 568.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -231,53 +230,53 @@
   },
   "active": "a726837707e5eafb",
   "lastOpenFiles": [
-    "Atlas/Knowledge/tools/dev/nvim/vim -set global var.md",
-    "Atlas/Knowledge/tools/dev/nvim/preservimvim-markdown.md",
+    "Pro Git - Scott Chacon/Pro Git - Scott Chacon.md",
+    "Pro Git - Scott Chacon/Pro Git (1).md",
+    "Pro Git - Scott Chacon/GitHub/GitHub.md",
+    "Pro Git - Scott Chacon/Contributors.md",
+    "Pro Git - Scott Chacon/Dedications.md",
+    "Pro Git - Scott Chacon/Introduction.md",
+    "Pro Git - Scott Chacon/Preface by Ben Straub.md",
+    "Pro Git - Scott Chacon/License.md",
+    "Pro Git - Scott Chacon/Preface by Scott Chacon.md",
+    "Pro Git - Scott Chacon/Pro Git.md",
+    "Pro Git - Scott Chacon/Pro Git (2).md",
+    "Pro Git - Scott Chacon/Git Basics/Git Basics.md",
+    "work/work.md",
+    "Clippings/The detached HEAD state in Git What it is and how to fix it.md",
+    "Clippings/detached head.md",
+    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Branching and Merging/git tag.md",
     "Efforts/git book.md",
-    "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-11-Fri.md",
-    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
-    "Clippings/Why I Program in Lisp.md",
-    "Clippings/US “reciprocal tariffs” will ultimately backfire.md",
-    "Efforts/razgovor s Bojanom.md",
-    "Clippings/Najdoktor.com - Najbolji doktori u Hrvatskoj - Iskustva pacijenata.md",
-    "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-10-Thu.md",
-    "Clippings/Git - pretty-formats Documentation.md",
-    "Clippings/Swim with Vimdiff and You’ll Never Drown in Merge Conflicts Ever Again.md",
-    "Clippings/Using Vimdiff with Git Diff - Samuel Mullen.md",
-    "Clippings/gitignore A collection of useful .gitignore templates.md",
-    "~/x/fd767c02f62018aa8710d603c11ca878_MD5.jpeg",
-    "lifecycle.png",
-    "Make Tutorial/Make Tutorial.md",
-    "Make Tutorial/make_toc.md",
-    "~/x/f58bd5a9c4fd6c4d7503fd40cf6a9bdd_MD5.jpeg",
-    "People MOC.md",
-    "~/x/Pasted image 20250409110620.jpg",
-    "~/x/Pasted image 20250409110554.jpg",
-    "~/x/Pasted image 20250409110535.png",
+    "Pro Git - Scott Chacon/Git Basics/Tagging/Deleting Tags.md",
+    "Pro Git - Scott Chacon/Git Basics/Tagging/Checking out Tags.md",
+    "Pro Git - Scott Chacon/Git Basics/Tagging/Tagging.md",
+    "Pro Git - Scott Chacon/Git Basics/Undoing Things/Unmodifying a Modified File.md",
+    "Pro Git - Scott Chacon/Git Basics/Undoing Things/Undoing things with git restore.md",
+    "Pro Git - Scott Chacon/Git Basics/Undoing Things/Undoing Things.md",
+    "Pro Git - Scott Chacon/Git Basics/Viewing the Commit History/Viewing the Commit History.md",
+    "Pro Git - Scott Chacon/Git Basics/Viewing the Commit History/Limiting Log Output.md",
+    "Pro Git - Scott Chacon/Git Basics/Working with Remotes/Inspecting a Remote.md",
+    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Administration",
+    "Pro Git - Scott Chacon/Appendix C_ Git Commands/External Systems",
+    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Email",
+    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Patching",
+    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Debugging",
+    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Inspection and Comparison",
+    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Sharing and Updating Projects",
+    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Branching and Merging",
+    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Basic Snapshotting",
+    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Getting and Creating Projects",
+    "Pro Git - Scott Chacon/images/zsh-prompt.png",
+    "Pro Git - Scott Chacon/images/zsh-oh-my.png",
+    "Pro Git - Scott Chacon/images/your-profile.png",
+    "Pro Git - Scott Chacon/images/undomerge-start.png",
+    "Pro Git - Scott Chacon/images/undomerge-revert3.png",
+    "Pro Git - Scott Chacon/images/undomerge-revert2.png",
+    "Pro Git - Scott Chacon/images/undomerge-revert.png",
+    "Pro Git - Scott Chacon/images/undomerge-reset.png",
+    "Pro Git - Scott Chacon/images/two-branches.png",
+    "Pro Git - Scott Chacon/images/topic-branches-2.png",
     "work/tickets/FEAT/Transac Zones update ticket/coverage update canvas.canvas",
-    "~/x/distributed.png",
-    "Atlas/Knowledge/How To's/How to resolve gcloud access issues.md",
-    "areas.png",
-    "Efforts/master task list.md",
-    "~/x/ac0b0728c3274b8b3c7e270fa9fb7d4d_MD5.jpeg",
-    "~/x/f32fc30d35668a11de0a88800eb0d46f_MD5.jpeg",
-    "Clippings/20 years of Git. Still weird, still wonderful..md",
-    "Atlas/Knowledge/tools/dev/ocrs.md",
-    "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-08-Tue.md",
-    "work/notes/Aviv VPN certificate backup.md",
-    "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-07-Mon.md",
-    "Clippings/Top Neovim Colorschemes in 2025.md",
-    "Clippings/pytest.md",
-    "Atlas/Knowledge/daily_notes/2025/04-April",
-    "work/tickets/FEAT/Transac Zones update ticket",
-    "Atlas/Knowledge/tools/dev/zsh",
-    "zsh.sourceforge.io/Intro/intro_toc.html",
-    "zsh.sourceforge.io/Intro/intro_9.html",
-    "zsh.sourceforge.io/Intro/intro_8.html",
-    "zsh.sourceforge.io/Intro/intro_7.html",
-    "zsh.sourceforge.io/Intro/intro_6.html",
-    "zsh.sourceforge.io/Intro/intro_5.html",
-    "zsh.sourceforge.io/Intro/intro_4.html",
     "tasks canvas.canvas"
   ]
 }

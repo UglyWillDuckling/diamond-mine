@@ -34,7 +34,12 @@ This `city_id` is only used as a **filter**. It takes all irises for **one** cit
 We need to deploy the `SalesForce` changes and after **trigger** the update in [[Media API]]
 
 - [x] merge [[Media API Clients repo]] PR https://github.com/MeilleursAgents/MA-ApiClients/pull/361
-- [ ] merge [[SalesForceApi]] PR 
+- [x] merge [[SalesForceApi]] PR 
 
+# status
+
+tested on dev with [[SalesForceApi]], missing `iris_id` field on each request.
+
+Created `curl.sh` in the root of MediaAPI folder
 
 [^1]: [[foreign key]]

@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "71022a1f4c09a959",
+        "id": "453be9ecd528e03b",
         "type": "tabs",
         "children": [
           {
@@ -13,42 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Efforts/git book.md",
+                "file": "Atlas/Knowledge/tools/dev/nvim/preservimvim-markdown.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "git book"
-            }
-          },
-          {
-            "id": "f16aba0e5222b06b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "95b765cdd1e73942",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Transac Zones update ticket"
+              "title": "preservimvim-markdown"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,16 +167,6 @@
             }
           },
           {
-            "id": "afdcd06e0b99e0b0",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
             "id": "3024960cccb42948",
             "type": "leaf",
             "state": {
@@ -220,6 +184,16 @@
               "state": {},
               "icon": "ag-style",
               "title": "Juggl style"
+            }
+          },
+          {
+            "id": "98a076e353d9f930",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
             }
           }
         ],
@@ -255,9 +229,13 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "95b765cdd1e73942",
+  "active": "a726837707e5eafb",
   "lastOpenFiles": [
+    "Atlas/Knowledge/tools/dev/nvim/vim -set global var.md",
+    "Atlas/Knowledge/tools/dev/nvim/preservimvim-markdown.md",
     "Efforts/git book.md",
+    "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-11-Fri.md",
+    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
     "Clippings/Why I Program in Lisp.md",
     "Clippings/US “reciprocal tariffs” will ultimately backfire.md",
     "Efforts/razgovor s Bojanom.md",
@@ -280,7 +258,6 @@
     "~/x/distributed.png",
     "Atlas/Knowledge/How To's/How to resolve gcloud access issues.md",
     "areas.png",
-    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
     "Efforts/master task list.md",
     "~/x/ac0b0728c3274b8b3c7e270fa9fb7d4d_MD5.jpeg",
     "~/x/f32fc30d35668a11de0a88800eb0d46f_MD5.jpeg",
@@ -291,9 +268,6 @@
     "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-07-Mon.md",
     "Clippings/Top Neovim Colorschemes in 2025.md",
     "Clippings/pytest.md",
-    "Clippings/second standup with NOVA team.md",
-    "Clippings/how to set env variable before running a command.md",
-    "Clippings/bash.md",
     "Atlas/Knowledge/daily_notes/2025/04-April",
     "work/tickets/FEAT/Transac Zones update ticket",
     "Atlas/Knowledge/tools/dev/zsh",

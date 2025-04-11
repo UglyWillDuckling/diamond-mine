@@ -281,7 +281,7 @@
   "devMode": false,
   "templateFolderPath": "~/% tmpl",
   "announceUpdates": true,
-  "version": "1.11.5",
+  "version": "1.13.2",
   "disableOnlineFeatures": false,
   "enableRibbonIcon": true,
   "ai": {

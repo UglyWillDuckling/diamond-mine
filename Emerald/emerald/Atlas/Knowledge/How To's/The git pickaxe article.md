@@ -1,12 +1,15 @@
 ---
 author:
   - "[[Philip Potter]]"
+published: 2014-02-09
 created: 2025-03-21
 source: http://www.philandstuff.com/2014/02/09/git-pickaxe.html
 tags:
   - howto/git/pickaxe
+related:
+  - "[[git book - Pro Git]]"
 ---
-- [ ] #task read [[The git pickaxe]] article and look into [[git pickaxe]] in more **detail** #dev 
+- [x] #task read [[The git pickaxe article]] article and look into [[git pickaxe]] in more **detail** #dev ✅ 2025-04-14
 ___
 
 **Posted on 09 February 2014**
@@ -23,9 +26,9 @@ So I still want to find the commit that added that --debug switch, but git blame
 
 > `git log -p -S --debug`
 
-This will show me every commit that either introduced or removed the string `--debug`. (It's a slightly confusing example, because --debug is not being used as a command-line switch to git, but as a string argument to the `-S` switch instead. Nevertheless, git does the right thing.) The `-p` switch shows the commit diff as well. There are in fact a few matches for this search, but the third commit that comes up is the winner:
+This will show me every commit that either introduced or removed the string `--debug`. (It's a slightly confusing example, because `--debug` is not being used as a command-line switch to git, but as a string argument to the `-S` switch instead. Nevertheless, git does the right thing.) The `-p` switch shows the commit diff as well. There are in fact a few matches for this search, but the third commit that comes up is the winner:
 
-```d
+```diff
 commit 5288d5804a3fc20dae4f3b2deeaa7f687595aff1
 Author: Philip Potter <philip.g.potter@gmail.com>
 Date:   Tue Dec 17 09:33:59 2013 +0000
@@ -54,11 +57,11 @@ index 43a16ee..2322b2d
 +exec python '<%= @root_dir %>/bin/carbon-cache.py' --debug start
 ```
 
-Now I know exactly why `--debug` is there, and I know that I certainly don't want to remove it. But what if my commit message had just been "Re-add --debug option"? I'd be none the wiser. This is why I care so much about commit messages: because I have the tools to quickly get from a piece of code to the commit that introduced it, I spend much more time reading commit messages.
+Now I know exactly why `--debug` is there, and I know that I certainly don't want to remove it. But what if my commit message had just been "Re-add --debug option"? I'd be none the wiser. This is why I care so much about commit messages: because I have the tools to quickly get from a piece of code to the commit that introduced it, I spend much more time **reading commit messages**.
 
-This example is also interesting because it raises another question: should this explanation have been in a code comment instead? The --debug flag is inherently confusing, and a comment could have answered my questions even quicker by being right there in the file.
+This example is also interesting because it raises another question: should this explanation have been in a **code** **comment** instead? The --debug flag is inherently confusing, and a comment could have answered my questions even quicker by being right there in the file.
 
-However, a 6-line comment in the file would be quite a bit of noise whenever you *weren't* interested in the --debug switch, whereas a commit message can be as big as it needs to be to make the explanation clear. Comments and commit messages can be complementary: there could be a one-line comment saying that --debug causes carbon-cache to stay in the foreground, and a more detailed explanation in the commit message. In some ways I see commit messages as a type of expanded commenting system which is available at your fingertips whenever you need it but automatically hides when you just want to read the code.
+However, a 6-line comment in the file would be quite a bit of noise whenever you *weren't* interested in the --debug switch, whereas a commit message can be as big as it needs to be to make the explanation clear. Comments and commit messages can be complementary: there could be a one-line comment saying that --debug causes carbon-cache to stay in the foreground, and a more detailed explanation in the commit message. In some ways I see commit messages as a type of **expanded commenting system** which is available at your fingertips whenever you need it but automatically hides when you just want to read the code.
 
 ---
 

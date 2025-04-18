@@ -1,13 +1,6 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/Knowledge/How To's/vim - jump through the change list.md": [
-      {
-        "title": "bi-monthly",
-        "time": "2025-05-06",
-        "rowNumber": 7
-      }
-    ],
     "Efforts/tasks/archive/kako izdati racun HOC.md": [
       {
         "title": "remind me za racun",
@@ -22,11 +15,11 @@
         "rowNumber": 2
       }
     ],
-    "Clippings/gitignore A collection of useful .gitignore templates.md": [
+    "Atlas/Knowledge/How To's/vim - jump to last edit how to.md": [
       {
-        "title": "remind me weekly",
-        "time": "2025-04-18",
-        "rowNumber": 9
+        "title": "final reminder",
+        "time": "2025-04-29",
+        "rowNumber": 15
       }
     ]
   },

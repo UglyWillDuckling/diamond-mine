@@ -6,4 +6,4 @@ I would really like to have a current status and all the changes from the past i
 
 Later, these could be displayed alongside other feature histories and provide a deeper insight into their relationship.
 
-- [ ] #task try out the **timeline** plugin  🆔 N6TurZ
+- [x] #task try out the **timeline** plugin 🆔 N6TurZ ✅ 2025-04-14

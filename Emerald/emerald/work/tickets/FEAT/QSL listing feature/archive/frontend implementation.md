@@ -28,7 +28,7 @@ method: `project_contract_header`
 ### smaller tasks
 - [x] #task update code to include [[QSL listing]]'s in the header ✅ 2024-12-09
 - [x] #task 👁 with multiple [[QSL listing]]'s on a single [[realtor]] | agency ✅ 2025-01-07
-- [/] #task [[#write a test for fetching and printing the listing]] 🆔 auEPL7
+- [x] #task [[#write a test for fetching and printing the listing]] 🆔 auEPL7 ✅ 2025-04-14
 
 ### update header
 ==include qsl listings==

@@ -23,8 +23,8 @@ related:
 	- [x] check import log
 	- [x] check listing entities in **DB**
 ### **Later**
- - [ ] #task create [[GCP connection doc]] 🔽 🆔 FllC8nkkkkk
- - [ ] #task cleanup **QSL** tests 🆔 QdOsoU 🔽
+ - [x] #task create [[GCP connection doc]] 🆔 FllC8nkkkkk 🔽 ✅ 2025-04-14
+ - [x] #task cleanup **QSL** tests 🆔 QdOsoU 🔽 ✅ 2025-04-14
 
 ## **Active**
 

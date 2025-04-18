@@ -1,6 +1,6 @@
 follows:: [[NGINX Performance Metrics with Prometheus]]
 
-- [/] #task [[setup nginx metrics]] 🔼 ⏳ 2025-02-21 📅 2025-02-21
+- [x] #task [[setup nginx metrics]] 🔼 ⏳ 2025-02-21 📅 2025-02-21 ✅ 2025-04-14
 ___
 
 **metrics**

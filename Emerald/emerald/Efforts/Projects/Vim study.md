@@ -7,7 +7,7 @@ tags:
   - project/active
 priority: "5"
 ---
-- [ ] #task see [[vim-test]] plugin for Vim 🛫 2025-03-20 ⏳ 2025-03-20 📅 2025-03-01 🆔 kfiR1V
+- [x] #task see [[vim-test]] plugin for Vim 🆔 kfiR1V 🛫 2025-03-20 ⏳ 2025-03-20 📅 2025-03-01 ✅ 2025-04-14
 
 - [x] #task checkout Vim some more #in-progress ⏫ 🆔 6CYQJY ✅ 2025-02-06
 

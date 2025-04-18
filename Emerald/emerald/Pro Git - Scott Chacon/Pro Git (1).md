@@ -72,7 +72,7 @@
         8.  [[Git Basics|Checking out Tags]]
     7.  [[Git Basics|Git Aliases]]
     8.  [[Git Basics|Summary]]
-9.  [[ch03-git-branching.xhtml|Git Branching]]
+9.  [[Git Branching]]
     1.  [[Git Branching|Branches in a Nutshell]]
         1.  [[Git Branching|Creating a New Branch]]
         2.  [[Git Branching|Switching Branches]]

@@ -10,7 +10,7 @@ tags:
   - article/react
 interest: 8
 ---
-- [/] #task read [[How to fetch data with React Hooks]] ⏳ 2025-03-26 📅 2025-03-27
+- [x] #task read [[How to fetch data with React Hooks]] ⏳ 2025-03-26 📅 2025-03-27 ✅ 2025-04-14
 ___
 
 In the world of client-side React, React Query is the industry standard for data fetching. However, in this tutorial, you'll learn how to fetch data using React Hooks without any third-party libraries. This approach helps beginners grasp the fundamentals of state and effect management in React, and understand how to build custom hooks.

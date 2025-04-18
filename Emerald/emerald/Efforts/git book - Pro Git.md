@@ -9,6 +9,8 @@ tags:
 ![[~/x/8dfcd8268886d8282ab786d68693cdb3_MD5.jpg]]
 The most prominent and widely read book on [[git]].
 https://git-scm.com/book/en/v2
+
+by: [[Scott Chacon]]
 ___
 # chapter 1 - About Version Control
 
@@ -726,6 +728,13 @@ For instance, if you wanted to find the last commit that added or removed a refe
 git log -S function_name
 ```
 
+see also: [[The git pickaxe article]]
+
+Yeah so this is about estimation funnel : I need to have a connection between an estimation to a lead_period to a project.
+To do so, I understood that it was possible to recreate an id from the estima and story it in lead periods & projects in order to have tha connection
+1:54
+so in my mind the need would be to take any estima, create an estimation id or une the WLEF estimation id, and with that id, store it in biz_lead_peirod table and biz_project_table.
+All of that in order to be able to say : this project comes from this lead period and this lead period comes from this estimation ; and this for 100% of estimations stored in BackYard
 The last really useful option to pass to git log as a filter is a path. If you specify a directory or file name, you can limit the log output to commits that introduced a change to those files. This is always the last option and is generally preceded by double dashes (--) to separate the paths from the options:
 
 ```
@@ -763,7 +772,7 @@ b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unbor
 - no merges
 - `t/` directory (`-- t/` at the end)
 
-[^4]: [[The git pickaxe]]
+[^4]: [[The git pickaxe article]]
 
 ## **Undoing** Things
 

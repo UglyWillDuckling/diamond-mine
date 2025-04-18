@@ -1,6 +1,6 @@
 #ticket 
 
-- [/] #task **Explore** how campaigns work, the rules, related concepts, ideas, etc. 🆔 qzmRdj
+- [x] #task **Explore** how campaigns work, the rules, related concepts, ideas, etc. 🆔 qzmRdj ✅ 2025-04-14
 ___
 related::
 - [[Campaing Rules doc]]

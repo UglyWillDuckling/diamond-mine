@@ -6,7 +6,7 @@ ___
 	- [x] #task service access 🆔 C72A1R ✅ 2025-03-19
 		- [x] [[Lokalize]] service: **check** status
 		- [x] [[sonar testing suite]]
-	- [/] #task explore projects code 🆔 ii12pe
+	- [x] #task explore projects code 🆔 ii12pe ✅ 2025-04-14
 		- [/] #task examine and study the [[#folder structure]] 🆔 PEayUI
 		- [ ]  #task study the [[#tools in use]] 🆔 xCxe9D
 		- [x] #task check [[vim]] `integration` with JS and the rest #small 🆔 lzakH5 ✅ 2025-03-05

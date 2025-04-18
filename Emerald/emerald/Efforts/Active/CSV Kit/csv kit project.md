@@ -1,7 +1,7 @@
 #project/active 
 
 about:: [[csvkit]]
-- [/] #task study [[csvkit]] 🆔 DELTd6 ⏳ 2025-02-20 📅 2025-02-28
+- [x] #task study [[csvkit]] 🆔 DELTd6 ⏳ 2025-02-20 📅 2025-02-28 ✅ 2025-04-14
 ___
 ### active notes
 - [x] [[Getting started - csvkit]]

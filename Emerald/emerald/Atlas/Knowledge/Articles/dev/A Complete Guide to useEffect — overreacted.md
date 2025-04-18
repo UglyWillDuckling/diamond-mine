@@ -11,7 +11,7 @@ interest: 7
 ---
 March 9, 2019
 
-- [/] #task read [[A Complete Guide to useEffect — overreacted]] #read ⏳ 2025-03-26 📅 2025-03-27 🆔 xkBIYd
+- [x] #task read [[A Complete Guide to useEffect — overreacted]] #read 🆔 xkBIYd ⏳ 2025-03-26 📅 2025-03-27 ✅ 2025-04-14
 ___
 
 - [[#TLDR|TLDR]]

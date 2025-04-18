@@ -17,7 +17,7 @@ ___
 ___
 ## work
 
-- [/] #task [[wordrepress]] on **bedrock** and [[docker]] 🔼 ⏳ 2025-02-17 📅 2025-03-03 🆔 JU5wbL
+- [x] #task [[wordrepress]] on **bedrock** and [[docker]] 🆔 JU5wbL 🔼 ⏳ 2025-02-17 📅 2025-03-03 ✅ 2025-04-14
 	- [x] #task use **laravel** example `docker` to build a new setup 🆔 76K4jr ⏳ 2025-02-20 📅 2025-02-23 ✅ 2025-02-26
 	- [x] make a basic installation with [[composer]]
 	- [x] add docker compose configuration
@@ -52,22 +52,22 @@ ___
 		- [[laravel-docker-examples]] 
 	- [x] #task fix **admin** access 🆔 UNVO6B ✅ 2025-02-19
 	
-	 - [/] think 🤔 about using `extend` in docker compose
+	 - [x] think 🤔 about using `extend` in docker compose
 		 - [[docker compose extend]]
 		 - https://docs.docker.com/compose/how-tos/multiple-compose-files/extends/
 	
-	- [>] test out **[[xdebug]]**
-	- [>] explore how to use [[wp-cli]]
+	- [x] test out **[[xdebug]]**
+	- [x] explore how to use [[wp-cli]]
 	
-	 - [>] #task adjust ownership of files #security #big 🆔 zBsH8G ⏫
+	 - [x] #task adjust ownership of files #security #big 🆔 zBsH8G ⏫ ✅ 2025-04-14
 		- [x] **check** ownership and permissions
 		`www-data` user, build process, `docker-compose`
-	 - [>] #task add **mail** support 🆔 6gq6gY 🔼
+	 - [x] #task add **mail** support 🆔 6gq6gY 🔼 ✅ 2025-04-14
 		 - [ ] dev mail with tools like [[mailhog]]
 		 - [ ] main mail support
 	 - [x] #task add a **CLI tool** to control the project 🆔 MlPSxb ✅ 2025-02-26
 		 - maybe [[bashly]]
-	- [ ] #task **explore** how **wordpress** is actually **installed** 🆔 CCQpiU
+	- [x] #task **explore** how **wordpress** is actually **installed** 🆔 CCQpiU ✅ 2025-04-14
 ___
 ### setup with laravel docker example
 [[laravel-docker-examples]]

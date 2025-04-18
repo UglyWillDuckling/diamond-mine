@@ -7,7 +7,7 @@ tags:
   - tool/repo
   - tool/git
 ---
-- [ ] remind me weekly (@[[2025-04-18]])
+- [x] remind me weekly (@[[2025-04-18]])
 ___
 
 This is GitHub’s collection of [`.gitignore`](http://git-scm.com/docs/gitignore) file templates. We use this list to populate the `.gitignore` template choosers available in the GitHub.com interface when creating new repositories and files.

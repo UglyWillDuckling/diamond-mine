@@ -1,14 +1,15 @@
 ---
 title: Pro Git - Scott Chacon
-author: Scott Chacon
+author:
+  - Scott Chacon
 publisher: 
-status: false
 tags:
   - epub-book
-cover: /Pro Git - Scott Chacon/images/front-cover.png
-
+cover:
+  - /Pro Git - Scott Chacon/images/front-cover.png
+reading:
+  - done
 ---
-- [[Pro Git - Scott Chacon/License|License]]
 - [[Pro Git - Scott Chacon/Preface by Scott Chacon|Preface by Scott Chacon]]
 - [[Pro Git - Scott Chacon/Preface by Ben Straub|Preface by Ben Straub]]
 - [[Pro Git - Scott Chacon/Dedications|Dedications]]

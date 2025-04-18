@@ -3,6 +3,6 @@
 
 [LUQA](https://www.figma.com/design/adnxuwYgX04UHGq6KtxmK4/Luqa-MVP?node-id=242-72537&t=luvuF317sFG1uRrL-1)
 
-- [ ] #task Explore Figma design #ready-to-start 🆔 HKpGLc 🔼 ⏳ 2025-01-29
+- [x] #task Explore Figma design #ready-to-start 🆔 HKpGLc 🔼 ⏳ 2025-01-29 ✅ 2025-04-14
 
 - ? Is it better to run multiple queries, **or** one big query

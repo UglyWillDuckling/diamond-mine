@@ -1,19 +1,19 @@
 ---
 source: https://vi.stackexchange.com/questions/2001/how-do-i-jump-to-the-location-of-my-last-edit
 related:
-  - "[[vim]]"
-  - "[[nvim]]"
   - "[[Vim Jump to Last Change - VimTricks]]"
+  - "[[vim - jump to last insert with `.]]"
+about:
+  - "[[vim]]"
 tags:
   - howto
-  - active
+  - howto/git
 ---
-#vim #note #active #howto/vim 
-
 - [x] remind me (@[[2025-01-24]] 10:05)
 - [x] 1 week remind me (@[[2025-02-03]] 12:42)
 - [x] monthly (@[[2025-02-25]] 17:04)
 - [x] second month (@[[2025-03-24]])
+- [ ] final reminder (@[[2025-04-29]])
 
 `gi`
 Will take the cursor to the **exact point last edited** and put you in **insert mode**, ready to continue typing. (It's also quicker to type!)
@@ -26,4 +26,5 @@ will go to the **previously edited line**
 will bring you to your last change.
 Goes to a mark, and is a "special" mark which is automatically set to the position where the last change was made. See :help `. for some more information.
 
+___
 See also: [[Vim Jump to Last Change - VimTricks]]

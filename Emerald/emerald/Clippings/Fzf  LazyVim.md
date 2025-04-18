@@ -11,7 +11,7 @@ tags:
 
 ## `Fzf`
 
-- [ ] #task #vim Take a look at the mappings
+- [x] #task #vim Take a look at the mappings ✅ 2025-04-14
 ___
 
 You can enable the extra with the `:LazyExtras` command. Plugins marked as optional will only be configured if they are installed.

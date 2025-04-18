@@ -30,7 +30,7 @@ scheduled: 2025-03-20T16:05:00
 		- koji je tocno plan?
 
 
-- [ ] #task zatraziti pristup na [[dashlane]]H ⏫ ⏳ 2025-03-24 📅 2025-03-24 🆔 FabQ2r
+- [x] #task zatraziti pristup na [[dashlane]]H 🆔 FabQ2r ⏫ ⏳ 2025-03-24 📅 2025-03-24 ✅ 2025-04-14
 
 backyard transac update zone:
 https://backyard.meilleursagents.com/admin/scripts/rdvvq/batch.add.cities.php

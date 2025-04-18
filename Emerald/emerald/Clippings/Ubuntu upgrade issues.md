@@ -1,5 +1,5 @@
 
-- [/] #task fix ubuntu upgrade issues ⏫ ⏳ 2025-04-01 📅 2025-04-02
+- [x] #task fix ubuntu upgrade issues ⏫ ⏳ 2025-04-01 📅 2025-04-02 ✅ 2025-04-14
 
 
 [[dpkg error trying to overwrite file, which is also in...]]

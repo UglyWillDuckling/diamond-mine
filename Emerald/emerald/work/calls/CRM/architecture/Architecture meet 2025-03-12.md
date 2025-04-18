@@ -19,7 +19,7 @@ LIMIT 3
 
 ## results
 
-- [/] #task explore the [[Campaing Rules doc]] 🆔 IXfwgc
+- [x] #task explore the [[Campaing Rules doc]] 🆔 IXfwgc ✅ 2025-04-14
 
 ## 🗒notes
 - sales people are paid only for **P1**

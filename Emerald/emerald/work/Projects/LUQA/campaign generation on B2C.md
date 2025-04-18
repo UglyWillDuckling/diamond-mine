@@ -42,4 +42,4 @@ ___
 
 
 ____
-- [/] #task check [[campaign generation on B2C]] 🆔 LXUtFY 🔼 ⏳ 2026-02-07 📅 2025-02-27 ✅ 2025-03-10
+- [x] #task check [[campaign generation on B2C]] 🆔 LXUtFY 🔼 ⏳ 2026-02-07 📅 2025-02-27 ✅ 2025-04-14

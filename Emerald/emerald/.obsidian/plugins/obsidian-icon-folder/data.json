@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiLink2off",
       "LiBlocks",
       "🗒",
       "LiFlower",
-      "LiDock",
-      "LiBox"
+      "LiDock"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -469,5 +469,6 @@
   "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../4) Conceptual Aside - Imperative vs. Declarative Programming.md": "LiBlocks",
   "~/% tmpl/pages/movie.md": "🎥",
   "work/people and teams/NOVA/Yoan Haouzi.md": "🍟",
-  "Atlas/Knowledge/Education/React/react study.md": "LiAtom"
+  "Atlas/Knowledge/Education/React/react study.md": "LiAtom",
+  "work/bugs/investigate estima - lead call - lead window -lead connection.md": "LiLink2off"
 }

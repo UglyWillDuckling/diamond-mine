@@ -2,6 +2,8 @@
 tags:
   - ticket
   - ticket/explore
+calls:
+  - "[[Resolve estima data issues from legacy to AWS]]"
 status:
   - In Progress
 ---
@@ -42,3 +44,8 @@ Link between **estima** -> **lead_period** -> **project**
 ## origin `estima id`
 
 this can either be a link to a `lead` **or** an `estima`
+
+# status
+
+[[Star Trek Team]] will remove the `city_id` filter. This should give them 
+**all** `project->estima` connections.

@@ -38,8 +38,13 @@ We need to deploy the `SalesForce` changes and after **trigger** the update in [
 
 # status
 
-tested on dev with [[SalesForceApi]], missing `iris_id` field on each request.
-
 Created `curl.sh` in the root of MediaAPI folder
+
+Made some changes to [[Media API]], enabled saving of new `iris_ids`.
+
+- [x] check if the id's are in the database
+- [x] let [[Yoan Haouzi]] know what's happening
+- [/] cover other scenarios/vectors
+
 
 [^1]: [[foreign key]]

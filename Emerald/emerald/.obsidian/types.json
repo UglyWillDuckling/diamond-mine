@@ -51,6 +51,7 @@
     "usefulness": "number",
     "people_involed": "multitext",
     "status": "multitext",
-    "reading": "multitext"
+    "reading": "multitext",
+    "calls": "multitext"
   }
 }

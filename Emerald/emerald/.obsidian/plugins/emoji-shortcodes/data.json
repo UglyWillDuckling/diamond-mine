@@ -4,8 +4,13 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
-    ":notebook_with_decorative_cover:",
+    ":ticket:",
     ":left_speech_bubble:",
+    ":notebook_with_decorative_cover:",
+    ":books:",
+    ":link:",
+    ":stuffed_flatbread:",
+    ":love_letter:",
     ":right_anger_bubble:",
     ":warning:",
     ":eyeglasses:",
@@ -22,7 +27,6 @@
     ":sunrise_over_mountains:",
     ":sun_with_face:",
     ":newspaper_roll:",
-    ":ticket:",
     ":world_map:",
     ":file_cabinet:",
     ":people_holding_hands:",
@@ -62,7 +66,6 @@
     ":next_track_button:",
     ":notebook:",
     ":derelict_house:",
-    ":link:",
     ":chains:",
     ":small_blue_diamond:",
     ":diamond_shape_with_a_dot_inside:",
@@ -119,7 +122,6 @@
     ":sheep:",
     ":toolbox:",
     ":green_book:",
-    ":books:",
     ":broom:",
     ":star:",
     ":bug:",
@@ -201,8 +203,6 @@
     ":fountain_pen:",
     ":bread:",
     ":construction_worker:",
-    ":magic_wand:",
-    ":atom_symbol:",
-    ":bat:"
+    ":magic_wand:"
   ]
 }

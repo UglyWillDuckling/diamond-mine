@@ -7,7 +7,7 @@ related:
 #call/work
 ## who
 - [[Danijela]]
-- [[me]]
+- [[vladimir sedlar]]
 ---
 
 ## 🗒notes

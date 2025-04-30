@@ -7,14 +7,13 @@ source: https://blog.gitbutler.com/20-years-of-git/
 tags:
   - article/git
 interest: 8
+processed: false
 ---
 ![20 years of Git. Still weird, still wonderful.](https://blog.gitbutler.com/content/images/size/w500/2025/04/20-yaers-of-git.webp)
 
-by — 11 min read
+**Twenty years ago, Git was born.** How did this unlikely "information manager" take over the world?
 
-Twenty years ago, Git was born. How did this unlikely "information manager" take over the world?
-
-Twenty years ago today, Linus Torvalds made the [very first commit](https://github.com/git/git/commit/e83c5163316f89bfbde7d9ab23ca2e25604af290?ref=blog.gitbutler.com) to Git, the information manager from hell.
+Twenty years ago today, [[Linus Torvalds]] made the [very first commit](https://github.com/git/git/commit/e83c5163316f89bfbde7d9ab23ca2e25604af290?ref=blog.gitbutler.com) to Git, the information manager from hell.
 
 ![](https://blog.gitbutler.com/content/images/2025/04/CleanShot-2025-04-05-at-07.58.54@2x.png)
 

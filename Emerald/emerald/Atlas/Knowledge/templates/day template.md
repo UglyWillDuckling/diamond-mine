@@ -1,6 +1,7 @@
 ---
 created: <% tp.file.creation_date() %>
 ---
+<% tp.web.random_picture("200x200") %>
 ### <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %>
 
 << [[Knowledge/daily_notes/<% tp.date.now("YYYY", -1) %>/<% tp.date.now("MM-MMMM", -1) %>/<% tp.date.now("YYYY-MM-DD-ddd", -1) %>|Yesterday]] | [[Timestamps/<% tp.date.now("YYYY", 1) %>/<% tp.date.now("MM-MMMM", 1) %>/<% tp.date.now("YYYY-MM-DD-dddd", 1) %>|Tomorrow]] >>
@@ -49,10 +50,19 @@ List FROM "" WHERE file.mday = date("<%tp.date.now("YYYY-MM-DD")%>") SORT file.m
 - [ ] rest ⛅ 
 
 ### 🎙
+
 ```dataview
 TABLE WITHOUT ID
 file.link as call, file.day - date(today) as when, regexreplace(file.folder, "^.*\/", "") AS Area
 FROM #call
 WHERE file.day AND file.day = date(today)
 sort date DESC
+```
+
+```dataview
+TABLE WITHOUT ID
+file.link as call, scheduled
+FROM #call
+WHERE scheduled > date("<%tp.date.now("YYYY-MM-DD")%>") AND scheduled < date("<%tp.date.tomorrow("YYYY-MM-DD")%>")
+SORT scheduled
 ```

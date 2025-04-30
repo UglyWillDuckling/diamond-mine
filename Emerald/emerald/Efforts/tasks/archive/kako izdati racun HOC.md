@@ -1,6 +1,6 @@
 #howto/obrt/HOC
 
-- [ ] remind me za racun (@[[2025-04-29]])
+- [x] remind me za racun (@[[2025-04-29]])
 ___
 ### 1. [[monday.com]]
 https://forms.monday.com/forms/b1ec031538b3bc9e554b967b7d775abe?r=euc1

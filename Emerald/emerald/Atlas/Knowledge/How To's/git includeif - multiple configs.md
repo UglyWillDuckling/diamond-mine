@@ -1,5 +1,7 @@
- #git #howto 
-
+---
+tags:
+  - howto/git
+---
 part_of:: [[git]]
 ___
  

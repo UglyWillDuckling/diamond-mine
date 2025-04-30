@@ -39,7 +39,6 @@ from #person/work
 sort file.name asc
 ```
 
-
 ## everybody
 ```dataview
 table title

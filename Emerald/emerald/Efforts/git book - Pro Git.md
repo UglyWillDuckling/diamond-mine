@@ -4,7 +4,7 @@ author:
 about:
   - "[[git]]"
 tags:
-  - 📚Book
+  - 📚Book/git
 ---
 ![[~/x/8dfcd8268886d8282ab786d68693cdb3_MD5.jpg]]
 The most prominent and widely read book on [[git]].

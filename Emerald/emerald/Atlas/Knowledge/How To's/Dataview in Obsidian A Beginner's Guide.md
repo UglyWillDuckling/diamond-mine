@@ -5,8 +5,10 @@ author:
 published: 2023-03-02
 created: 2025-02-08
 tags:
-  - data-view
   - tutorial
+  - howto/obsidian/dataview
+about:
+  - "[[dataview]]"
 ---
 related:: [[Obsidian]], [[dataview]]
 

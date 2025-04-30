@@ -1,9 +1,7 @@
 ---
-title: "sharkdp/fd: A simple, fast and user-friendly alternative to 'find'"
 source: https://github.com/sharkdp/fd
 author:
   - "[[sharkdp]]"
-published: 
 created: 2025-01-24
 description: A simple, fast and user-friendly alternative to 'find' - sharkdp/fd
 tags:
@@ -15,8 +13,6 @@ related:
   - "[[GNU Parallel]]"
 ---
 ## fd
-
-[![CICD](https://github.com/sharkdp/fd/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/fd/actions/workflows/CICD.yml) [![Version info](https://camo.githubusercontent.com/46e7b8055060fc07204baffe8886b0d1da9d6e841bd3745c119905a120aaef8b/68747470733a2f2f696d672e736869656c64732e696f2f6372617465732f762f66642d66696e642e737667)](https://crates.io/crates/fd-find) \[[中文](https://github.com/cha0ran/fd-zh)\] \[[한국어](https://github.com/spearkkk/fd-kor)\]
 
 `fd` is a program to find entries in your filesystem. It is a simple, fast and user-friendly alternative to [`find`](https://www.gnu.org/software/findutils/). While it does not aim to support all of `find`'s powerful functionality, it provides sensible (opinionated) defaults for a majority of use cases.
 

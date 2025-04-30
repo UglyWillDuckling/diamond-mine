@@ -118,7 +118,7 @@
       "styleAttributes": {
         "textAlign": null
       },
-      "text": "**Scheduled**\n```tasks\nnot done\n(has due date) OR (has scheduled date) OR (has start date)\nhide tags\nshort mode\nhide task count\nsort by due\n```\n",
+      "text": "**Scheduled**\n\n```tasks\nnot done\n(has due date) OR (has scheduled date) OR (has start date)\nhide tags\nshort mode\nhide task count\nsort by due\n```\n",
       "type": "text",
       "width": 720,
       "x": -540,

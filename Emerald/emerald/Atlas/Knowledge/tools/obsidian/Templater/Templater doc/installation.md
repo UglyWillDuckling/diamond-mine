@@ -23,15 +23,7 @@
 2. [**4.2.** Execution Commands](execution-command)
 3. [**4.3.** Whitespace Control](whitespace-control)
 
-- Light (default)
-- Rust
-- Coal
-- Navy
-- Ayu
-
-# Templater
-
-[Print this book](print)
+[[Templater doc/faq]]
 
 # [Installation](installation)
 

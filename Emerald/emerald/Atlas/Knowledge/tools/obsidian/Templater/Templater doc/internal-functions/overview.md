@@ -1,9 +1,9 @@
-1. [**1.** Introduction](introduction)
-1. [**1.1.** Installation](installation)
+1. [**1.** Introduction](Pro%20Git%20-%20Scott%20Chacon/Introduction.md)
+1. [**1.1.** Installation](Atlas/Knowledge/tools/dev/Zellij/zellijdoc/installation.md)
 2. [**1.2.** Terminology](terminology)
 3. [**1.3.** Syntax](syntax)
 4. [**1.4.** Settings](settings)
-5. [**1.5.** FAQ](faq)
+5. [**1.5.** FAQ](Atlas/Knowledge/tools/dev/Zellij/zellijdoc/faq.md)
 3. [**2.** Internal Functions](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/internal-functions/overview)
 01. [**2.1.** tp.app](app-module)
 02. [**2.2.** tp.config](config-module)
@@ -53,7 +53,7 @@ If you understood the [object hierarchy](syntax) correctly, this means that a ty
 
 I invite everyone to contribute to this plugin development by adding new internal functions. More information [here](contribute).
 
-[Previous chapter](faq)
+[Previous chapter](Atlas/Knowledge/tools/dev/Zellij/zellijdoc/faq.md)
 
-[Previous chapter](faq)
+[Previous chapter](Atlas/Knowledge/tools/dev/Zellij/zellijdoc/faq.md)
 

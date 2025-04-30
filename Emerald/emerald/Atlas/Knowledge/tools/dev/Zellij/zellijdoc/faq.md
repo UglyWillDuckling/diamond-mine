@@ -62,7 +62,7 @@ By default, Zellij looks for an editor defined in the `EDITOR` or `VISUAL` envir
 Make sure one is set (eg. `export EDITOR=/usr/bin/vim`) before Zellij starts.
 Alternatively, you can set one in the Zellij [config](configuration.html) using `scrollback-editor`.
 
-[Previous chapter](integration.html "Previous chapter")[Next chapter](commands.html "Next chapter")
+[Previous chapter](integration.html "Previous chapter")[Next chapter](commands.html.md "Next chapter")
 
-[Previous chapter](integration.html "Previous chapter")[Next chapter](commands.html "Next chapter")
+[Previous chapter](integration.html "Previous chapter")[Next chapter](commands.html.md "Next chapter")
 

@@ -4,7 +4,7 @@ related::
 - [[call s Danijelom - handover]]
 - [[Transac zone update by Danijela]]
 
-- [/] #task handle `biz_product_coverage` table usage [[#Handle usage of biz_product_coverage table]]
+- [/] #task handle `biz_product_coverage` table usage [[#Handle usage of biz_product_coverage table]] 🆔 mjQoyM
 	- [ ] sync feature
 	- [ ] update ticket 🎫
 

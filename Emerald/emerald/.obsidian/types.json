@@ -54,6 +54,7 @@
     "reading": "multitext",
     "calls": "multitext",
     "processed": "checkbox",
-    "Price": "number"
+    "Price": "number",
+    "about": "text"
   }
 }

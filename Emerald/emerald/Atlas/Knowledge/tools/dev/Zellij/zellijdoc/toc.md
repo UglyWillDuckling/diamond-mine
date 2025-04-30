@@ -2,7 +2,7 @@
     1. [**1.1.** Installation](installation.html)
     2. [**1.2.** Integration](integration.html)
     3. [**1.3.** FAQ](faq.html)
-03. [**2.** Commands](commands.html)
+03. [**2.** Commands](commands.html.md)
 04. [**3.** Rebinding Keys](rebinding-keys.html)
     1. [**3.1.** Keybinding Presets](keybinding-presets.html)
     2. [**3.2.** Changing Modifiers](changing-modifiers.html)

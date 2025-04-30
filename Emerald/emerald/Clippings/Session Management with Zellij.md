@@ -5,6 +5,7 @@ published:
 source: https://zellij.dev/tutorials/session-management/
 tags:
   - howto/zellij
+about: "[[Zellij]]"
 ---
 **This tutorial shows how to use Zellij to manage sessions in the terminal.**
 

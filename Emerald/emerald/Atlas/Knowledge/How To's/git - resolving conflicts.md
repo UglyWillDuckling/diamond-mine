@@ -1,3 +1,7 @@
+---
+tags:
+  - howto/git
+---
 #howto/git 
 
 - [ ] remind me weekly (@[[2025-05-06]])

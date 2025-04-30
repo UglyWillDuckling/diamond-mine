@@ -18,7 +18,7 @@ For some users, these shortcuts may "collide" with other shortcuts they use in t
 2. Changing the [modifier keys](changing-modifiers.html) Zellij uses for keybindings to ones that do not collide
 3. Reconfiguring keybindings entirely as part of the [configuration file](keybindings.html)
 
-[Previous chapter](commands.html "Previous chapter")[Next chapter](keybinding-presets.html "Next chapter")
+[Previous chapter](commands.html.md "Previous chapter")[Next chapter](keybinding-presets.html "Next chapter")
 
-[Previous chapter](commands.html "Previous chapter")[Next chapter](keybinding-presets.html "Next chapter")
+[Previous chapter](commands.html.md "Previous chapter")[Next chapter](keybinding-presets.html "Next chapter")
 

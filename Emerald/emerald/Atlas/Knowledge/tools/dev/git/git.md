@@ -8,9 +8,9 @@ tags:
 	- [ ] [[20 years of Git. Still weird, still wonderful.]] article 📰
 ___
 related:: [[version control system]]
-> 
+>
 **Git** is a popular version control system used for  source code management
->  and coordinating work among programmers collaborating on a project. 
+>  and coordinating work among programmers collaborating on a project.
   It allows multiple people to work on the same project at the same time without
  overwriting each other's changes, and provides a way to track and manage
  changes to the codebase over time.
@@ -21,29 +21,21 @@ It is known for its speed, efficiency, and powerful features, such as [[git bran
 
 # have the correct `main-tag`
 
-
 ```dataview
-LIST
+TABLE WITHOUT ID
 
+file.link as note, tags
+
+FROM #howto/git OR #docs/git
+SORT file.tags
 ```
 
-# linked 🔗
-
-```dataview
-TABLE
-file.path, tags
-FROM [[#]]
-SORT tags DESC
-```
-
-
-[[Atlas/Knowledge/How To's/Dataview in Obsidian A Beginner's Guide|Dataview in Obsidian A Beginner's Guide]]
 # interest
 > articles and howto's
 
 ```dataview
-TABLE
-interest
+TABLE WITHOUT ID
+file.link as note,interest
 FROM #article/git or #howto/git
 WHERE interest >= 8 AND !processed
 SORT interest DESC
@@ -55,14 +47,14 @@ SORT interest DESC
 
 ```dataview
 LIST
-FROM #howto/git 
+FROM #howto/git
 ```
 
 ## articles
 
 ```dataview
 LIST
-FROM #article/git 
+FROM #article/git
 SORT file.cday DESC
 ```
 
@@ -70,5 +62,5 @@ SORT file.cday DESC
 
 ```dataview
 LIST
-FROM #📚Book/git 
+FROM #📚Book/git
 ```

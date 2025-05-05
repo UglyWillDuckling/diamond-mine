@@ -1,7 +1,0 @@
-#macke
-
-[[Kim]]
-[[Simba]]
-
-## hrana
-

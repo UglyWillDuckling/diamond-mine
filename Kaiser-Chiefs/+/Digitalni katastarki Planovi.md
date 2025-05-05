@@ -1,5 +1,0 @@
----
-aliases:
-  - DKP
----
-#service #resource 

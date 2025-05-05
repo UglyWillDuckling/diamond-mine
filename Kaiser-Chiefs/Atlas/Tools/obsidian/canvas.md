@@ -1,3 +1,0 @@
-#tool #obsidian 
-
-An infinity canvas for you to *think* on ...

@@ -1,5 +1,0 @@
----
-tags:
-  - plugin
-  - obsidian-plugin
----

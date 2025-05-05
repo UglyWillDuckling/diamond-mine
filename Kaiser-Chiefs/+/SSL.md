@@ -1,4 +1,0 @@
----
-aliases:
-  - Secure Sockets Layer
----

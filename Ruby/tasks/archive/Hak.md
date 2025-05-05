@@ -1,5 +1,0 @@
-
-[[Mirna 💕💕💕]] ima člansku iskaznicu 
-
----
-

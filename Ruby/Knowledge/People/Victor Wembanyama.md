@@ -1,1 +1,0 @@
-#person #basketball_player

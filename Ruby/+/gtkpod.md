@@ -1,5 +1,0 @@
----
-related:
-  - "[[ipod]]"
----
-#tool 

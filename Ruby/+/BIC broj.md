@@ -1,1 +1,0 @@
-BIC je kratica za Bank Identifier Code, jedinstveni kod koji identificira banku u globalnom financijskom sustavu.

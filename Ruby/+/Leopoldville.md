@@ -1,6 +1,0 @@
----
-tags:
-  - city
-aliases:
-  - Kinshasa
----

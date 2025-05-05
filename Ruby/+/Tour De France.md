@@ -1,3 +1,0 @@
-#event/sport
-
-Tour de France je godišnje natjecanje u biciklizmu koje se održava kroz cijelu Francusku uz povremene posjete susjednim zemljama. Prvi put je održana 1903. i od tada se održava svake godine uz nekoliko godina pauze tijekom dva svjetska rata. Trka se tradicionalno vozi u srpnju kroz tri tjedna i dugačka je oko 3500 km te se sastoji od 21 etape i dva slobodna dana. Tour de France, skupa s utrkama Giro d'Italia i Vuelta, čini "Grand tour"- tri najveće biciklističke utrke na svijetu. Tijekom utrke vodeći u ukupnom poretku nosi žutu majicu. Osim nje postoje i točkasta majica (najbolji brdski vozač), zelena majica (najbolji sprinter) i bijela majica (najbolji mladi vozač). Uobičajeno na utrci sudjeluje izneđu 20 i 22 ekipe, a svaka broji 9 članova.

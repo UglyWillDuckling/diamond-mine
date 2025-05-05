@@ -1,5 +1,0 @@
----
-author:
-  - "[[Sufjan Stevens]]"
----
-#song 

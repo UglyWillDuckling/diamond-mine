@@ -1,7 +1,8 @@
 ---
 title: Zlatarovo zlato lektira, August Šenoa  |  Lektire.hr
 source: https://www.lektire.hr/zlatarovo-zlato/
-author: 
+author:
+  - "[[August Šenoa]]"
 published: 
 created: 2025-01-17
 description: Zlatarovo zlato lektira, kratak sadržaj, analiza djela i analiza likova. Roman od dvije fabule, ljubavne i povijesne zbog koje se naziva povijesnim romanom.

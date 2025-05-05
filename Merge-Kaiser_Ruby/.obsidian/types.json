@@ -45,6 +45,14 @@
     "awards": "multitext",
     "birthday": "date",
     "list": "multitext",
-    "themes": "multitext"
+    "themes": "multitext",
+    "friends": "multitext",
+    "lokacija": "multitext",
+    "participants": "multitext",
+    "written": "checkbox",
+    "studied": "checkbox",
+    "watching": "multitext",
+    "parents": "multitext",
+    "reading": "text"
   }
 }

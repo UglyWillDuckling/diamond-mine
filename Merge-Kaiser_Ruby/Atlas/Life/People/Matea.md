@@ -1,0 +1,1 @@
+#person/life #person/friend 

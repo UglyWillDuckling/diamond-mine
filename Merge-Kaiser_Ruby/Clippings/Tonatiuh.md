@@ -1,35 +1,32 @@
 ---
-source: "https://mythopedia.com/topics/tonatiuh"
+source: https://mythopedia.com/topics/tonatiuh
 author:
   - "[[Mythopedia]]"
-published:
 created: 2025-03-20
 tags:
+  - god
 ---
-###### Contents
 
-1. [Overview](https://mythopedia.com/topics/#overview)
-2. [Etymology](https://mythopedia.com/topics/#etymology)
-3. [Attributes](https://mythopedia.com/topics/#attributes)
-4. [Family](https://mythopedia.com/topics/#family)
-1. [Family Tree](https://mythopedia.com/topics/#family-tree)
-5. [Mythology](https://mythopedia.com/topics/#mythology)
-1. [The Beginning of the Fifth Age](https://mythopedia.com/topics/#the-beginning-of-the-fifth-age)
-2. [Setting the Sun into Motion](https://mythopedia.com/topics/#setting-the-sun-into-motion)
-3. [The Demise of the Fifth Age](https://mythopedia.com/topics/#the-demise-of-the-fifth-age)
-6. [Pop Culture](https://mythopedia.com/topics/#pop-culture)
+- [[#Overview|Overview]]
+- [[#Etymology|Etymology]]
+- [[#Attributes|Attributes]]
+- [[#Family|Family]]
+	- [[#Family#Family Tree|Family Tree]]
+- [[#Mythology|Mythology]]
+	- [[#Mythology#The Beginning of the **Fifth** Age|The Beginning of the **Fifth** Age]]
+	- [[#Mythology#Setting the Sun into Motion|Setting the Sun into Motion]]
+	- [[#Mythology#The Demise of the Fifth Age|The Demise of the Fifth Age]]
+- [[#Pop Culture|Pop Culture]]
 
 ## Overview
 
-According to Aztec beliefs, the current era is the fifth age. The previous four ages were defined by their unique sun—each of which was ultimately destroyed. After the fourth sun was destroyed, the Aztec gods gathered together to create the fifth and final sun: Tonatiuh.
+According to Aztec beliefs, the current era is the **fifth age**. The previous four ages were defined by their unique sun—each of which was ultimately destroyed. After the fourth sun was destroyed, the Aztec gods gathered together to create the fifth and final sun: **Tonatiuh**.
 
 ![Tonatiuh Codex Borgia](https://media.mythopedia.com/21EKbS0AKwfrfXruHcgNy6/1ac7ba836db3e7e61a291268db7404bf/Tonatiuh_6_b.jpg?w=1920&q=60&auto=compress,format)
-
-Tonatiuh as depicted in the 16th-century Codex Borgia.
-
+> Tonatiuh as depicted in the 16th-century Codex Borgia.
 [FAMSI](http://www.famsi.org/research/loubat/Borgia/thumbs1.html)Public Domain
 
-Like the suns that preceded him, Tonatiuh was not immortal. Upon his death, the world would descend into permanent darkness and the reign of men would come to an end.
+Like the suns that preceded him, Tonatiuh was not immortal. Upon his death, the world would descend into permanent darkness and the **reign of men would come to an end.**
 
 ## Etymology
 
@@ -55,13 +52,6 @@ As Tonatiuh was created through the sacrifice of the god Nanahuatzin, he lacked 
 
 Nanahuatzin was closely linked to the god Xolotl—so closely, in fact, that the two may have simply been different representations of the same deity.<sup id="note-4-ref"><a href="https://mythopedia.com/topics/#note-4" aria-label="Note number 4">[4]</a></sup>
 
-### Family Tree
-
-- ##### Parents
-
-| ###### Father |
-| --- |
-| - Nanahuatzin |
 
 ## Mythology
 
@@ -77,7 +67,7 @@ This Tonatiuh relief appears alongside images of other [[National Academy of Sci
 
 A central tenant in Aztec cosmology was that of the five suns. Each sun was created by—or out of—a god. The fourth sun was the goddess 4-Water, sometimes identified as [Chalchiuhtlicue](https://mythopedia.com/topics/chalchiuhtlicue), one of [Tlaloc](https://mythopedia.com/topics/tlaloc)’s wives.<sup id="note-5-ref"><a href="https://mythopedia.com/topics/#note-5" aria-label="Note number 5">[5]</a></sup> The fourth age ended with 52 years of flooding which destroyed the sun and left the Earth in darkness.
 
-The Aztec gods sought to create a new sun to return light to world, and it was decided that both Tecciztecatel and Nanahuatzin would be sacrificed to bring it into existence.
+The Aztec gods sought to create a new sun to return light to world, and it was decided that both [[Tecciztecatel]] and [[Nanahuatzin]] would be sacrificed to bring it into existence.
 
 Both of the gods prepared for their sacrifice by fasting for four days. Tecciztecatel’s preparations were extravagant:
 

@@ -23,7 +23,7 @@ table without id
 	choice(plan-to-watch, "▶️", "") as "Plan"
 from #film 
 WHERE !watched OR plan-to-watch
-SORT plan-to-watch DESC, interest DESC, personalRating DESC
+SORT plan-to-watch DESC, interest DESC
 LIMIT 22
 ```
 
@@ -38,6 +38,6 @@ table without id
 	"by " + director as Director,
 	onlineRating as "⭐ rating",
 	personalRating
-from #film 
+from #film
 SORT personalRating DESC
 ```

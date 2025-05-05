@@ -1,7 +1,6 @@
 [
   "dataview",
   "obsidian-tasks-plugin",
-  "obsidian-kanban",
   "obsidian-icon-folder",
   "quickadd",
   "obsidian-annotator",
@@ -23,18 +22,13 @@
   "obsidian-reminder-plugin",
   "obsidian-completr",
   "obsidian-plugin-toc",
-  "metadata-menu",
-  "obsidian-projects",
   "obsidian-media-db-plugin",
   "advanced-canvas",
   "simple-canvasearch",
   "canvas-send-to-back",
   "workspaces-plus",
   "morgen-tasks",
-  "obsidian-dictionary-plugin",
-  "vim-yank-highlight",
   "obsidian42-brat",
-  "task-board",
   "obsidian-footnotes",
   "juggl",
   "templater-obsidian",
@@ -47,5 +41,6 @@
   "obsidian-book-search-plugin",
   "github-link",
   "obsidian-latex-suite",
-  "mathlive"
+  "mathlive",
+  "tabs"
 ]

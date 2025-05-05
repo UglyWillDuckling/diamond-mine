@@ -76,3 +76,4 @@ if (text) {
 
 **Type**: `$= dv.current().type`
 **Online Rating**: `$= dv.current().onlineRating`
+

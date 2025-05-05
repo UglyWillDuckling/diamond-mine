@@ -1,21 +1,6 @@
 {
   "scanned": true,
-  "reminders": {
-    "Atlas/Knowledge/Media/Television/Andor (2022–2025).md": [
-      {
-        "title": "reminder, new Season coming on April 22nd",
-        "time": "2025-04-22",
-        "rowNumber": 50
-      }
-    ],
-    "Atlas/Knowledge/howtos/writing/how to download entire site with wget.md": [
-      {
-        "title": "remind me",
-        "time": "2025-04-15",
-        "rowNumber": 2
-      }
-    ]
-  },
+  "reminders": {},
   "debug": false,
   "settings": {
     "reminderTime": "09:00",

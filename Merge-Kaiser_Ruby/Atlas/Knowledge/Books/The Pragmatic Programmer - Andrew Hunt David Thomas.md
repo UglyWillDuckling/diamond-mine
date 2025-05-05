@@ -1,9 +1,13 @@
 ---
-tag: 📚Book
-title: "The Pragmatic Programmer"
-subtitle: "From Journeyman to Master"
-author: [Andrew Hunt, David Thomas]
-category: [Computers]
+tags:
+  - 📚Book
+title: The Pragmatic Programmer
+subtitle: From Journeyman to Master
+author:
+  - Andrew Hunt
+  - David Thomas
+category:
+  - Computers
 publisher: Addison-Wesley Professional
 publish: 1999-10-20
 total: 346
@@ -13,6 +17,7 @@ localCover:
 status: unread
 created: 2024-11-20 22:12:06
 updated: 2024-11-20 22:12:06
+read: true
 ---
 %% To use an image URL from the server, use the following syntax: %%
 ![cover|150](http://books.google.com/books/content?id=5wBQEp6ruIAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)

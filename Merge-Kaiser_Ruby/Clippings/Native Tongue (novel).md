@@ -1,17 +1,17 @@
 ---
-title: Native Tongue (Elgin novel) - Wikipedia
 source: https://en.wikipedia.org/wiki/Native_Tongue_(Elgin_novel)
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - "[[Suzette Haden Elgin]]"
 published: 2007-03-19
 created: 2025-01-09
-description: 
 tags:
-  - 📚Book
-  - novel
+  - 📚Book/novel
+  - 📚Book/fiction
 related:
   - "[[Nazareth - Native Tongue]]"
   - "[[Ask A Book Critic]]"
+interest: 6
+image: https://upload.wikimedia.org/wikipedia/en/thumb/4/47/NativeTongueElgin.jpg/220px-NativeTongueElgin.jpg
 ---
 **1984** novel by [[Suzette Haden Elgin]]
 

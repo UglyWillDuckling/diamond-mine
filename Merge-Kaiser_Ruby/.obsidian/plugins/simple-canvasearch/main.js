@@ -31,6 +31,16 @@ var import_obsidian = require("obsidian");
 var DEFAULT_SETTINGS = {
   searchText: false
 };
+var EXCLUDED_IMAGE_EXTENSIONS = [
+  ".avif",
+  ".bmp",
+  ".gif",
+  ".jpeg",
+  ".jpg",
+  ".png",
+  ".svg",
+  ".webp"
+];
 var current_index;
 function focusOnNode(canvas, node) {
   canvas.zoomToBbox({
@@ -43,6 +53,9 @@ function focusOnNode(canvas, node) {
   canvas.deselectAll();
   canvas.select(node_full);
 }
+function checkExtensions(filename, extensions) {
+  return extensions.some((ext) => filename.endsWith(ext));
+}
 var CanvaSearch = class extends import_obsidian.Plugin {
   async index_canvas_notes(searchText) {
     const canvasView = this.app.workspace.getActiveViewOfType(import_obsidian.ItemView);
@@ -53,10 +66,14 @@ var CanvaSearch = class extends import_obsidian.Plugin {
       if (searchText) {
         return_array = canvas.data.nodes.map(async function(a) {
           if (a.type == "file") {
-            let content = await vault.cachedRead(
-              vault.getAbstractFileByPath(a.file)
-            );
-            return [a, content];
+            if (!checkExtensions(a.file, EXCLUDED_IMAGE_EXTENSIONS)) {
+              let content = await vault.cachedRead(
+                vault.getAbstractFileByPath(a.file)
+              );
+              return [a, content];
+            } else {
+              return [a, ""];
+            }
           }
           if (a.type == "text") {
             let content = a.text;

@@ -9,5 +9,4 @@
 - [x] setup [[Ollama]] %% whatever that is %%
 - [x] add a model to Ollama
 - [/] setup [[LocalAI]]
-
-___
+- [ ] see [[Bug 388]] [[instalacija sofwarea iz Bug 388]]

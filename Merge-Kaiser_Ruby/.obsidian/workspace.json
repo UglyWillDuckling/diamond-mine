@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b792ffdcb758eb8c",
+        "id": "3353fa950c13b8cb",
         "type": "tabs",
         "children": [
           {
-            "id": "620d9326528f7fad",
+            "id": "2496ba8c6565f4b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zvonko.md",
+                "file": "DAS - watchlist/das-0022-test-isolation-and-refactoring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zvonko"
+              "title": "das-0022-test-isolation-and-refactoring"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "421b21ff91adde0d",
+    "id": "cf2d5393fa50c446",
     "type": "split",
     "children": [
       {
-        "id": "7257e540e65a9982",
+        "id": "1e911cdd0e8a843e",
         "type": "tabs",
         "children": [
           {
-            "id": "67ac4e3f4e315e0f",
+            "id": "937564d863a6697f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,12 +48,12 @@
             }
           },
           {
-            "id": "53e419fd8d9494ea",
+            "id": "f7567d6307813f32",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#person",
+                "query": "makefile",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "369d6f3ac727bb90",
+            "id": "26e46519dc5b08a4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,63 +78,51 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.51103591918945
+    "width": 227.50152206420898
   },
   "right": {
-    "id": "6b26b603c051936f",
+    "id": "3daebda00016f277",
     "type": "split",
     "children": [
       {
-        "id": "05ce95f18513eaae",
+        "id": "4b820b274839dd85",
         "type": "tabs",
         "children": [
           {
-            "id": "3ea75a16cb86481d",
+            "id": "b1c7bf0bf1881a1d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/daily/2025-01-09.md",
+                "file": "Atlas/Knowledge/Books/Earthsea series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-01-09"
+              "title": "Backlinks for Earthsea series"
             }
           },
           {
-            "id": "c03361a3000bd879",
+            "id": "1cc5aa4bd8fc42a2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calendar/daily/2025-01-09.md",
+                "file": "Atlas/Knowledge/Books/Earthsea series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-01-09"
+              "title": "Outgoing links from Earthsea series"
             }
           },
           {
-            "id": "732b3c2921195d4b",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Efforts/Projects/Obsidian Tinkering/Obsidian Tinkering.md"
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Obsidian Tinkering"
-            }
-          },
-          {
-            "id": "08c4f9c69a275725",
+            "id": "aa18ff62c26d36ff",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -149,27 +137,52 @@
             }
           },
           {
-            "id": "b286b55672c075e3",
+            "id": "abb9e7fd6f724245",
             "type": "leaf",
             "state": {
-              "type": "chronology-calendar-view",
-              "state": {},
-              "icon": "clock",
-              "title": "Chronology"
+              "type": "outline",
+              "state": {
+                "file": "DAS - watchlist/das-0002-how-and-why-to-avoid-nil.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of das-0002-how-and-why-to-avoid-nil"
             }
           },
           {
-            "id": "e2dfdd096e897a5f",
+            "id": "b8afa4a703ab3377",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "5c0225c952bc32e4",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "806ee37b5685d92f",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
               "state": {},
-              "icon": "clock",
-              "title": "Reminders"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
-            "id": "c39b88bb47b76ae8",
+            "id": "71649246b37ea879",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -179,7 +192,7 @@
             }
           },
           {
-            "id": "d150285ed84a8d58",
+            "id": "8409bdb91d85a67f",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -193,64 +206,73 @@
       }
     ],
     "direction": "horizontal",
-    "width": 442.5,
+    "width": 344.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "callout-manager:Insert Callout": true,
-      "juggl:Juggl global graph": true,
-      "templater-obsidian:Templater": true,
-      "obsidian-book-search-plugin:Create new book note": true,
-      "obsidian42-brat:BRAT": true,
-      "task-board:Open task board": true,
-      "obsidian-kanban:Create new board": false,
-      "obsidian-media-db-plugin:Add new Media DB entry": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "obsidian-importer:Open Importer": true,
+      "workspaces:Manage workspace layouts": false,
+      "quickadd:QuickAdd": true,
+      "obsidian-importer:Open Importer": false,
+      "daily-notes:Open today's daily note": false,
       "obsidian-day-and-night:Toggle Theme": true,
       "chronology:Open Chronology": true,
       "markwhen:Create new Markwhen file": true,
-      "daily-notes:Open today's daily note": false,
-      "workspaces:Manage workspace layouts": false,
-      "obsidian-projects:Open projects": true
+      "obsidian-media-db-plugin:Add new Media DB entry": true,
+      "obsidian42-brat:BRAT": true,
+      "juggl:Juggl global graph": true,
+      "templater-obsidian:Templater": true,
+      "callout-manager:Insert Callout": true,
+      "obsidian-book-search-plugin:Create new book note": true
     }
   },
-  "active": "620d9326528f7fad",
+  "active": "937564d863a6697f",
   "lastOpenFiles": [
-    "Calendar/daily/2025/2025-04-08-Tue.md",
-    "Clippings/Cannot start epson-printer-utility.md",
-    "Clippings/3 Phase Electric Wiring.md",
+    "DAS - watchlist/DAS - watchlist.md",
+    "DAS - watchlist/das-0022-test-isolation-and-refactoring.md",
+    "DAS - watchlist/das-0074-splitting-active-record-models.md",
+    "DAS - watchlist/das-0073-collapsing-services-into-values.md",
+    "DAS - watchlist/das-0061-pushing-complexity-down.md",
+    "DAS - watchlist/das-0071-test-isolation-without-mocks.md",
+    "Udemy Courses.md",
+    "DAS - watchlist/das-0005-extracting-domain-objects.md",
+    "Atlas/Knowledge/howtos/dev/vim/how to vim  - add good word to dict.md",
+    "Atlas/Knowledge/Books/Books.md",
+    "Clippings/A Wizard of Earthsea.md",
+    "Atlas/Knowledge/Books/books - by interest 💌.md",
+    "Atlas/Knowledge/Books/books - reading 👓.md",
+    "Atlas/Knowledge/Books/Books board.md",
+    "+/bolt job application.md",
     "Master Task List.md",
-    "Efforts/Active/Probability study/bayes theorem example.md",
-    "Efforts/Ongoing/Upcoming birthdays.md",
-    "Atlas/Knowledge/howtos/how to convert from html to markdown.md",
-    "Atlas/Knowledge/howtos/writing/basic while read in bash.md",
-    "Atlas/Life/Items/Local Epson Printer.md",
-    "Atlas/Life/Items",
+    "physical items/novi hard disk - 4GB.md",
+    "Calendar/daily/2025/2025-05-05-Mon.md",
+    "Untitled.md",
+    "physical items",
+    "Efforts/Ongoing/organizacija prostora.md",
+    "DAS - watchlist/das-0047-brittle-and-fragile-tests.md",
+    "DAS - watchlist/das-0080-isolating-by-separating-value.md",
+    "Calendar/daily/2025/2025-05-03-Sat.md",
+    "DAS - watchlist/das-0079-primitive-obsession.md",
+    "DAS - watchlist/das-0079-primitive-obsession.mp4",
+    "DAS - watchlist/das-0088-test-recommendations.mp4.md",
+    "DAS - watchlist/das-0088-test-recommendations.mp4",
+    "DAS - watchlist/das-0002-how-and-why-to-avoid-nil.md",
+    "~/×/das-0002-how-and-why-to-avoid-nil.mp4",
+    "DAS - watchlist",
+    "Calendar/Events",
+    "Atlas/Life/Faks/Predmeti/Osnove Programiranja/RV2.pdf",
+    "Atlas/Life/Faks/Predmeti/Osnove Programiranja/LV - 1.dio.pdf",
+    "Atlas/Life/Faks/Predmeti/Osnove Programiranja",
+    "Media DB/books",
     "tasks canvas.canvas",
-    "Atlas/Knowledge/howtos/writing/how to download entire site with wget.md",
-    "Zvonko.md",
-    "Efforts/Active/Setup AI locally.md",
-    "placeni racuni Senki.md",
-    "new_index.md",
-    "Movie List.md",
-    "Atlas/Knowledge/concepts/impedence.md",
-    "index.md",
-    "Atlas/Tools/pc/Fd - -exec.md",
-    "🏡.md",
-    "Efforts/Active/Create A Movie List.md",
-    "Efforts/Simmering/IP address exploration.md",
-    "Efforts/Simmering/Senka/Persona/Docs/Upute za mail konfiguraciju.md",
-    "Efforts/Simmering/Senka/Persona/Docs/Persona.hr.md",
-    "Efforts/Simmering/Senka/Persona/archive/archive/persona mail setup.md",
-    "Efforts/Simmering/Senka/Persona/Docs/Dev/Server/Persona VPS.md",
-    "+/Persona.hr.md",
-    "localai.io/index.html",
+    "React/documentation/attachements/unnamed.png",
+    "React/documentation/attachements/sharing_data_parent_clicked.webp",
+    "React/documentation/attachements/sharing_data_parent.webp",
     "localai.io/7b16676e-d5b1-4c97-89bd-9fa5065c21ad_7786675119832255465.gif",
     "localai.io/8ca277cf-c208-4562-8929-808b2324b584_8893940777665839621.gif",
     "localai.io/b8cadddf-a467-49cf-a1ed-8850de95366d_2274280574799932814.png",
@@ -258,17 +280,6 @@
     "localai.io/cb0a0897-3b58-4350-af66-e6f4387b58d3_375066517387404064.gif",
     "localai.io/8aaca62a-e864-4011-98ae-dcc708103928_499489486369471042.png",
     "localai.io/ede67b25-fac4-4833-ae4f-78290e401e60_10265476229148744963.gif",
-    "localai.io/1935a69a-ecce-4afc-a099-1ac28cb649b3_7750309802988116952.png",
-    "localai.io/d50af51c-51b7-4f39-b6c2-bf04c403894c_13417830047754340622.png",
-    "localai.io/e3f89d15-1d2c-45ab-974f-6c9eb8eae41d_15608127381937591055.gif",
-    "localai.io/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
-    "localai.io/cdn-cgi/scripts/5c5dd728/cloudflare-static",
-    "localai.io/cdn-cgi/scripts/5c5dd728",
-    "localai.io/cdn-cgi/l/email-protection",
-    "localai.io/cdn-cgi/scripts",
-    "localai.io/cdn-cgi/l",
-    "localai.io/cdn-cgi",
-    "localai.io/faq/index.html",
     "tasks pic.canvas",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"
   ]

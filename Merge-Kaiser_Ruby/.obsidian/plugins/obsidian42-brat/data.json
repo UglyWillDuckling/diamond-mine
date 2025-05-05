@@ -2,7 +2,12 @@
   "pluginList": [
     "tu2-atmanand/Task-Board"
   ],
-  "pluginSubListFrozenVersion": [],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "tu2-atmanand/Task-Board",
+      "version": ""
+    }
+  ],
   "themesList": [],
   "updateAtStartup": true,
   "updateThemesAtStartup": true,

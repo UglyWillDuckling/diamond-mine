@@ -3,6 +3,8 @@
     "backlink:toggle-backlinks-in-document",
     "note-composer:extract-heading",
     "workspaces:save",
-    "obsidian-media-db-plugin:open-media-db-search-modal-with-movie"
+    "obsidian-media-db-plugin:open-media-db-search-modal-with-movie",
+    "daily-notes",
+    "file-explorer:move-file"
   ]
 }

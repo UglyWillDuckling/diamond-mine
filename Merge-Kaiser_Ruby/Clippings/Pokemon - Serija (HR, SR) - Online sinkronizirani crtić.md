@@ -5,7 +5,6 @@ created: 2025-03-07
 source: https://jockantv.com/sinkronizirani-crtici/pokemon-hr-sr.html
 tags:
   - streaming/crtic/pokemoni
-  - 📚Book
 about:
   - "[[pokemoni]]"
 ---

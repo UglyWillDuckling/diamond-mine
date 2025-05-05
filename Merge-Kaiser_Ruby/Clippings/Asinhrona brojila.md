@@ -1,0 +1,11 @@
+---
+source: "https://www.fpz.unizg.hr/hgold/ES/DE/a.brojila.htm"
+published:
+created: 2025-04-27
+tags:
+---
+|     |
+| --- |
+
+|  |  | **2.3.0 Asinhrona brojila**  **Slika 2.3-1(a) prikazuje logički dijagram trobitnog asinhronog brojila s JK bistabilima. Iz vremenskog dijagrama, slika 2.3-1(b), vidljivo je da kada je signal brisanja jednak stanju logičke nule, izlaz najlijevijeg bistabila će mijenjati stanje kod svakog takt impulsa. Izlaz drugog bistabila Q <sub>1</sub>, je upravljan stanjem izlaza Q <sub>0</sub> te mijenja stanje svaki puta kada Q <sub>0</sub> prelazi iz stanja logičke nule u stanje logičke jedinice. Slično, izlaz drugog bistabila upravlja izlazom najdesnijeg bistabila.**  **![](https://www.fpz.unizg.hr/hgold/ES/DE/kompo1.gif)**  **Slika 2.3-1 Trobitno asinhrono brojilo: (a) logički dijagram**  **![](https://www.fpz.unizg.hr/hgold/ES/DE/kompo2.gif)**  **Slika 2.3-1 Trobitno asinhrono brojilo: (b) vremenski dijagram**  **Tablica 2.3-1 prikazuje izlaze Q <sub>0</sub>, Q <sub>1</sub> i Q <sub>2</sub> za prvih osam takt impulsa. Brojilo broji od 000 do 111. Nakon što brojilo dostigne 111, brojanje započinje od 000. Dakle, trobitno brojilo prolazi kroz ciklus od 8 stanja. Slično tome, četverobitno brojilo prolazi kroz ciklus od 16 stanja, od 0000 do 1111. Općenito, n-bitno asinhrono brojilo prolazi kroz 2 <sup>n</sup> stanja, od 0 do 2 <sup>n</sup> -1.**  **![](https://www.fpz.unizg.hr/hgold/ES/DE/kompon3.gif)**  **Tablica 2.1-1 Izlaz 3-bitnog asinhronog brojila**  **Brojila koja prolaze kroz 2 <sup>n</sup> stanja, od 0 do 2 <sup>n</sup> -1 su brojila s brojanjem na više. Brojila koja prolaze kroz 2 <sup>n</sup> stanja, od 2 <sup>n</sup> -1 do 0 su brojila s brojanjem na niže. Brojilo na slici 2.3-1(a) predstavlja brojilo s brojanjem na više ako se stanja uzimaju sa izlaza Q <sub>2</sub> Q <sub>1 </sub> Q <sub>0</sub>, a brojilo s brojanjem na niže ako se stanja uzimaju s komplementarnih izlaza .**  **n-bitno asinhrono brojilo koje prolazi kroz 2 <sup>n</sup> stanja poznato je kao brojilo koje dijeli s 2 <sup>n</sup>. Poznato je i kao binarno brojilo s modulom 2 <sup>n</sup>.**  **Izvedba asinhronog brojila je u vidu integriranog kruga srednjeg stupnja integracije, npr. integrirani krug 74LS93 je četverobitno asinhrono brojilo.**  [**povratak**](https://www.fpz.unizg.hr/hgold/ES/DE/kompa1.htm) |
+| --- | --- | --- |

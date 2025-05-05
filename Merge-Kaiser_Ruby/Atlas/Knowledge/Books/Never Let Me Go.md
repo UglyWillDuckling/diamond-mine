@@ -1,6 +1,9 @@
 ---
 start date:
 ---
+
+> [!NOTE] Title
+> Contents
 ![poster](http://books.google.com/books/content?id=qLfZf7f5_pkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api)
 
 **Author**:: [[Kazuo Ishiguro]]

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAtom",
       "LiBaby",
       "🦆",
       "🧹",
-      "😪",
-      "🎥"
+      "😪"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,7 +44,6 @@
   "Calendar/days": "LiCalendar",
   "Calendar": "LiCalendarHeart",
   "Efforts/Active/Obsidian Tinkering": "LiPlay",
-  "Efforts/Active/Tasks Management in Obsidian": "LiCheckCheck",
   "Efforts/Active/Kuca": "🏠",
   "Atlas": "🗺",
   "Atlas/Knowledge/Media/movies/movi list - wip.md": "🎥",
@@ -195,5 +194,6 @@
   "Efforts/Simmering/Senka/Persona/Docs/Dev/Wordpress/wp_users.md": "LiPersonStanding",
   "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md": "🦆",
   "Efforts/Active/Moje djetinjstvo, istraga": "LiBaby",
-  "Efforts/Active/Create A Movie List.md": "🎥"
+  "React": "LiAtom",
+  "Efforts/Simmering/Tasks Management in Obsidian": "LiCheckCheck"
 }

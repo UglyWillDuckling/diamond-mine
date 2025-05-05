@@ -12,7 +12,7 @@ updated: 2024-12-04 11:31:38
 - [[joachim.leistikow]]
 - [[luna team]]
 - [[Alban Trang]]
-- [[me]]
+- [[vladimir sedlar]]
 
 ## agenda 🍁
 Get a better understanding of the [[unified shell]]'s architecture and stuff.
@@ -47,7 +47,7 @@ Get a better understanding of the [[unified shell]]'s architecture and stuff.
 		- `90%` of errors are due to [[asset]]'s
 	- _we are your contact for the shell_
 	- _you are our customers_
-- ! [[me]] this seems **very complicated**
+- ! [[vladimir sedlar]] this seems **very complicated**
 
 ## discussion 🗯
 - [?] [[Ivan Culina]] - making a [[Hello World]] app

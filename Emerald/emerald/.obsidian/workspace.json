@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "267623c81702d074",
+        "id": "b6828d564ffb5679",
         "type": "tabs",
         "children": [
           {
-            "id": "270ff8c0e8b427bc",
+            "id": "67ce2d418351e6e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Knowledge/people/Allen Holub.md",
+                "file": "Atlas/Knowledge/tools/dev/Zellij/Zellij.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Allen Holub"
+              "title": "Zellij"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "-strategy-option theirs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.51103591918945
+    "width": 277.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "a4cc5cab7d2ca3c4",
@@ -127,17 +128,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "senka meet.md",
+                "file": "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of senka meet"
+              "title": "Outline of Transac Zones update ticket"
             }
           },
           {
-            "id": "1e7c1a72e53a8dc8",
+            "id": "b46c9b34cc163892",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,7 +153,7 @@
             }
           },
           {
-            "id": "4f0aba9ac99ffdbd",
+            "id": "03e1aaa5b18945a7",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -166,7 +167,7 @@
             }
           },
           {
-            "id": "3024960cccb42948",
+            "id": "67ea24e3a8fdcc4b",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -176,7 +177,7 @@
             }
           },
           {
-            "id": "f70b0a7dfe0c32bb",
+            "id": "129550ef50e5a084",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -186,17 +187,17 @@
             }
           },
           {
-            "id": "af4038e3004e22c2",
+            "id": "48e88a491a13427c",
             "type": "leaf",
             "state": {
-              "type": "chronology-calendar-view",
+              "type": "reminder-list",
               "state": {},
               "icon": "clock",
-              "title": "Chronology"
+              "title": "Reminders"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -228,55 +229,55 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "270ff8c0e8b427bc",
+  "active": "67ce2d418351e6e9",
   "lastOpenFiles": [
-    "Knowledge/Media/Finding Nemo.md",
-    "Atlas/Knowledge/people/Allen Holub.md",
-    "Atlas/Knowledge/people/Dann Berg.md",
-    "Atlas/Knowledge/people/stevearco.md",
-    "Atlas/Knowledge/people/Rebecca Wirfs-Brock.md",
-    "Atlas/Knowledge/tools/Terraform.md",
-    "Atlas/Knowledge/How To's/Make Tutorial.md",
-    "work/bugs/investigate estima - lead call - lead window -lead connection.md",
-    "Dashboard.md",
-    "work/calls/1 on 1/1 on 1 with Yoan.md",
-    "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-24-Thu.md",
-    "work/calls/Resolve estima data issues from legacy to AWS.md",
-    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
-    "Atlas/Knowledge/How To's/How to resolve gcloud access issues.md",
-    "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-22-Tue.md",
-    "Pro Git - Scott Chacon/Git Branching/Git Branching.md",
-    "Pro Git - Scott Chacon/images/commit-and-tree.png",
-    "Clippings/Why would I set TERM to xterm-256color when using Alacritty.md",
-    "Atlas/Knowledge/tools/dev/Zellij.md",
-    "Efforts/master task list.md",
-    "work/tickets/FEAT/Transac Zones update ticket/transac diagram.md",
-    "Clippings/gitignore A collection of useful .gitignore templates.md",
-    "Pro Git - Scott Chacon/images/advance-master.png",
-    "Pro Git - Scott Chacon/images/checkout-master.png",
-    "Pro Git - Scott Chacon/images/advance-testing.png",
-    "Pro Git - Scott Chacon/images/head-to-testing.png",
-    "Pro Git - Scott Chacon/images/head-to-master.png",
-    "Pro Git - Scott Chacon/images/two-branches.png",
-    "Pro Git - Scott Chacon/images/branch-and-history.png",
-    "Pro Git - Scott Chacon/images/commits-and-parents.png",
-    "Atlas/Knowledge/tools/dev/git/git - author - commiter difference.md",
-    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Basic Snapshotting/git commit.md",
-    "Pro Git - Scott Chacon/Pro Git (1).md",
-    "Atlas/Knowledge/concepts/development/timestamp - concept.md",
-    "Pro Git - Scott Chacon/Git Branching/checksum.md",
+    "Atlas/Knowledge/tools/dev/Zellij/how to filter by current file link in dataview.md",
+    "~/x/how to filter by current file supplement.md",
+    "Atlas/Knowledge/tools/dev/Zellij/Zellij.md",
+    "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-30-Wed.md",
+    "Clippings/Session Management with Zellij.md",
+    "~/% tmpl/templater/tool template.md",
+    "Atlas/Knowledge/tools/dev/git/git.md",
+    "~/% tmpl/templater/main tag template.md",
+    "Atlas/Knowledge/How To's/git - resolving conflicts.md",
+    "Atlas/Knowledge/How To's/The git pickaxe article.md",
+    "Pro Git - Scott Chacon/GitHub/Maintaining a Project/Maintaining a Project.md",
+    "Pro Git - Scott Chacon/Git Internals/Maintenance and Data Recovery/Maintenance.md",
+    "~/% tmpl/templater/created.md",
+    "~/% tmpl/templater/arch call listing prev.md",
+    "Atlas/Knowledge/How To's/css tip for strings of numbers.md",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/installation.md",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/faq.md",
+    "Atlas/Knowledge/daily_notes/2025/04-April/tmp today.md",
+    "Atlas/Knowledge/tools/tools.md",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/internal-functions/contribute.md",
+    "Atlas/Knowledge/tools/dev/Zellij/zellijdoc/faq.md",
+    "Atlas/Knowledge/tools/dev/Zellij/zellijdoc/commands.html.md",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/favicon.png",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/internal-functions/internal-modules/file-module.md",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/introduction.md",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/terminology.md",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/settings.md",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/favicon.svg",
+    "Path/To/MyFolder",
+    "Path/To",
+    "Path",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.woff?v=4.7.0",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.ttf?v=4.7.0",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.svg?v=4.7.0",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.eot?v=4.7.0",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.eot?",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/internal-functions/internal-modules/web-module.html",
+    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/imgs/templater_user_templates.png",
+    "tmp/Templater/imgs/templater_user_templates.png",
+    "tmp/Templater/favicon.svg",
+    "tmp/Templater/favicon.png",
+    "tmp/silentvoid13.github.io/Templater/imgs/templater_user_templates.png",
+    "tmp/silentvoid13.github.io/Templater/favicon.png",
+    "tmp/silentvoid13.github.io/Templater/favicon.svg",
     "tasks canvas.canvas",
-    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Administration",
-    "Pro Git - Scott Chacon/Appendix C_ Git Commands/External Systems",
-    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Email",
-    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Patching",
-    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Debugging",
-    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Inspection and Comparison",
-    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Sharing and Updating Projects",
-    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Branching and Merging",
-    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Basic Snapshotting",
-    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Getting and Creating Projects",
-    "Pro Git - Scott Chacon/images/zsh-prompt.png",
+    "Pro Git - Scott Chacon/images/commit-and-tree.png",
     "work/tickets/FEAT/Transac Zones update ticket/coverage update canvas.canvas"
   ]
 }

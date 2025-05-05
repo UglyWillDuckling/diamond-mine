@@ -5,7 +5,7 @@ scheduled: 2025-02-13T11:00:00
 #work #work/call #call
 
 ## who
-- [[me]]
+- [[vladimir sedlar]]
 - [[Kenan Jamakovic|Kenan]]
 ## agenda
 

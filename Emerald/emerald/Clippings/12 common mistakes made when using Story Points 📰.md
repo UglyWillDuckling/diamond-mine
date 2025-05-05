@@ -43,11 +43,11 @@ Story Points are about effort**.** Complexity, uncertainty, and risk are factors
 
 **2\. Translating Story Points to hours**
 
-By translating Story Points to hours, you stop benefiting from the speed of relative estimation. You start working in hours and risk giving commitment. It provides a false sense of accuracy as you reduce a story point with a time range of 10–20 hours to a precise number like 15 hours. It will be more difficult to reach an agreement in estimates when you work in the exact realm of hours.
+**By translating Story Points to hours, you stop benefiting from the speed of relative estimation**. You start working in hours and risk giving commitment. It provides a false sense of accuracy as you reduce a story point with a time range of 10–20 hours to a precise number like 15 hours. **It will be more difficult to reach an agreement in estimates when you work in the exact realm of hours.**
 
 **3\. Averaging Story Points**
 
-In a planning poker session, half of the team estimates a PBI at 3 Story Points and the other half at 5 Story Points. It is easy to resolve the discussion by just putting 4 Story Points as the estimate. The team should not do this as it once again attempts to provide a false sense of accuracy. The point is not to be 100% accurate. The point is to be accurate enough to plan ahead of time. Plus, you may lose a valuable discussion by averaging. Maybe 5 Story Points was a better estimate.
+In a planning poker session, half of the team estimates a PBI at 3 Story Points and the other half at 5 Story Points. It is easy to resolve the discussion by just putting 4 Story Points as the estimate. The team should not do this as it once again attempts to provide a false sense of accuracy. The point is not to be 100% accurate. The point is to be accurate enough to plan ahead of time. Plus, **you may lose a valuable discussion by averaging.** Maybe 5 Story Points was a better estimate.
 
 **4\. Adjusting Story Point estimates of issues during the Sprint**
 

@@ -5,7 +5,7 @@ scheduled: 2025-03-20T16:05:00
 #call/work
 
 ## who: 
-[[Paulo Baskovic|paulo]], [[me]]
+[[Paulo Baskovic|paulo]], [[vladimir sedlar]]
 ## agenda
 
 1 on 1

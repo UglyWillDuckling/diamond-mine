@@ -6,7 +6,7 @@ scheduled: 2025-02-13T14:06:00
 
 ## who
 - [[luna dev team]]
-- [[me]]
+- [[vladimir sedlar]]
 - [[Kenan Jamakovic|Kenan]]
 - [[Danijela]]
 - [[Ivan Vukusic]]

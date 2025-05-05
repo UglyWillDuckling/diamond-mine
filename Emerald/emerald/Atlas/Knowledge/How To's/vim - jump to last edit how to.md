@@ -6,14 +6,13 @@ related:
 about:
   - "[[vim]]"
 tags:
-  - howto
-  - howto/git
+  - howto/vim
 ---
 - [x] remind me (@[[2025-01-24]] 10:05)
 - [x] 1 week remind me (@[[2025-02-03]] 12:42)
 - [x] monthly (@[[2025-02-25]] 17:04)
 - [x] second month (@[[2025-03-24]])
-- [ ] final reminder (@[[2025-04-29]])
+- [x] final reminder (@[[2025-04-29]])
 
 `gi`
 Will take the cursor to the **exact point last edited** and put you in **insert mode**, ready to continue typing. (It's also quicker to type!)

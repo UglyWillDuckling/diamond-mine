@@ -1,18 +1,18 @@
 {
   "scanned": true,
   "reminders": {
-    "Efforts/tasks/archive/kako izdati racun HOC.md": [
+    "Atlas/Knowledge/How To's/git - resolving conflicts.md": [
       {
-        "title": "remind me za racun",
-        "time": "2025-04-29",
-        "rowNumber": 2
+        "title": "remind me weekly",
+        "time": "2025-05-06",
+        "rowNumber": 6
       }
     ],
-    "Atlas/Knowledge/How To's/vim - jump to last edit how to.md": [
+    "Atlas/Knowledge/How To's/css tip for strings of numbers.md": [
       {
-        "title": "final reminder",
-        "time": "2025-04-29",
-        "rowNumber": 15
+        "title": "remind me",
+        "time": "2025-05-09",
+        "rowNumber": 2
       }
     ]
   },

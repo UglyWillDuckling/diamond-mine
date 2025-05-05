@@ -3,7 +3,7 @@
 
 ## who
 
-- [[me]]
+- [[vladimir sedlar]]
 - [[Paulo Baskovic]]
 
 ## agenda

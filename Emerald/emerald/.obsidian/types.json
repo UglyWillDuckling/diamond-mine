@@ -52,6 +52,9 @@
     "people_involed": "multitext",
     "status": "multitext",
     "reading": "multitext",
-    "calls": "multitext"
+    "calls": "multitext",
+    "processed": "checkbox",
+    "Price": "number",
+    "about": "text"
   }
 }

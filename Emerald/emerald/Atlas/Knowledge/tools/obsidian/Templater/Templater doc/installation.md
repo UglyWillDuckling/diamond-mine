@@ -1,9 +1,9 @@
-1. [**1.** Introduction](introduction)
-1. [**1.1.** Installation](installation)
+1. [**1.** Introduction](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/introduction.md)
+1. [**1.1.** Installation](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/installation.md)
 2. [**1.2.** Terminology](terminology)
 3. [**1.3.** Syntax](syntax)
 4. [**1.4.** Settings](settings)
-5. [**1.5.** FAQ](faq)
+5. [**1.5.** FAQ](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/faq.md)
 3. [**2.** Internal Functions](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/internal-functions/overview)
 01. [**2.1.** tp.app](app-module)
 02. [**2.2.** tp.config](config-module)
@@ -23,23 +23,15 @@
 2. [**4.2.** Execution Commands](execution-command)
 3. [**4.3.** Whitespace Control](whitespace-control)
 
-- Light (default)
-- Rust
-- Coal
-- Navy
-- Ayu
+[[Templater doc/faq]]
 
-# Templater
-
-[Print this book](print)
-
-# [Installation](installation)
+# [Installation](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/installation.md)
 
 You can install this plugin via the Community Plugins tab within Obsidian. Search for "Templater".
 
 It's a good practice to restart the Obsidian app after the installation of [Templater](https://github.com/SilentVoid13/Templater), to make sure everything is working properly.
 
-[Previous chapter](introduction)
+[Previous chapter](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/introduction.md)
 
-[Previous chapter](introduction)
+[Previous chapter](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/introduction.md)
 

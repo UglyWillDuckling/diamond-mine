@@ -4,7 +4,9 @@ related::
 - [[call s Danijelom - handover]]
 - [[Transac zone update by Danijela]]
 
-- [/] handle `biz_product_coverage` table usage [[#Handle usage of biz_product_coverage table]]
+- [/] #task handle `biz_product_coverage` table usage [[#Handle usage of biz_product_coverage table]] 🆔 mjQoyM
+	- [ ] sync feature
+	- [ ] update ticket 🎫
 
 ___
 ## Handle usage of biz_product_coverage table
@@ -42,9 +44,10 @@ Created `curl.sh` in the root of MediaAPI folder
 
 Made some changes to [[Media API]], enabled saving of new `iris_ids`.
 
-- [x] check if the id's are in the database
-- [x] let [[Yoan Haouzi]] know what's happening
-- [/] cover other scenarios/vectors
+- [ ] add information about the tables sync to the **ticket**
+	- [ ] ? maybe create a separate ticket for this
+- [ ] start working on the `sync` feature
+
 
 
 [^1]: [[foreign key]]

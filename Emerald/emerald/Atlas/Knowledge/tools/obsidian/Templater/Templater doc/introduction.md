@@ -1,9 +1,9 @@
-1. [**1.** Introduction](introduction)
-1. [**1.1.** Installation](installation)
+1. [**1.** Introduction](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/introduction.md)
+1. [**1.1.** Installation](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/installation.md)
 2. [**1.2.** Terminology](terminology)
 3. [**1.3.** Syntax](syntax)
 4. [**1.4.** Settings](settings)
-5. [**1.5.** FAQ](faq)
+5. [**1.5.** FAQ](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/faq.md)
 3. [**2.** Internal Functions](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/internal-functions/overview)
 01. [**2.1.** tp.app](app-module)
 02. [**2.2.** tp.config](config-module)
@@ -33,13 +33,13 @@
 
 [Print this book](print)
 
-# [Introduction](introduction)
+# [Introduction](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/introduction.md)
 
 [Templater](https://github.com/SilentVoid13/Templater) is a template language that lets you insert **variables** and **functions** results into your notes. It will also let you execute JavaScript code manipulating those variables and functions.
 
 With [Templater](https://github.com/SilentVoid13/Templater), you will be able to create powerful templates to automate manual tasks.
 
-## [Quick Example](introduction)
+## [Quick Example](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/introduction.md)
 
 The following template file, that is using [Templater](https://github.com/SilentVoid13/Templater) syntax:
 
@@ -75,7 +75,7 @@ modification date: Thursday 7th January 2021 17:20:43
 
 ```
 
-[Next chapter](installation)
+[Next chapter](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/installation.md)
 
-[Next chapter](installation)
+[Next chapter](Atlas/Knowledge/tools/obsidian/Templater/Templater%20doc/installation.md)
 

@@ -39,7 +39,7 @@ discuss the issue on the [[Big query]].
 			- [x] [[Vincent Dibiaggio]]: should be fixed asap(coming from higher up)
 	- [?] [[Kristijan Rebrovic]] what is the change
 		- [x] [[Vincent Dibiaggio]]: we need full coverage
-	- [?] [[Kristijan Rebrovic]]: need some information from [[Vladimir Sedlar]]
+	- [?] [[Kristijan Rebrovic]]: need some information from [[vladimir sedlar]]
 	- [x] [[Vincent Dibiaggio]] the connection is broken in the `projects` table
 		- the connection is broken with the estima
 	- [ ] [[Kristijan Rebrovic]]: we are taking data from `biz_lead` and dumping them

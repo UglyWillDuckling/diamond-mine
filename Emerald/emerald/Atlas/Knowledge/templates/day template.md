@@ -53,14 +53,6 @@ List FROM "" WHERE file.mday = date("<%tp.date.now("YYYY-MM-DD")%>") SORT file.m
 
 ```dataview
 TABLE WITHOUT ID
-file.link as call, file.day - date(today) as when, regexreplace(file.folder, "^.*\/", "") AS Area
-FROM #call
-WHERE file.day AND file.day = date(today)
-sort date DESC
-```
-
-```dataview
-TABLE WITHOUT ID
 file.link as call, scheduled
 FROM #call
 WHERE scheduled > date("<%tp.date.now("YYYY-MM-DD")%>") AND scheduled < date("<%tp.date.tomorrow("YYYY-MM-DD")%>")

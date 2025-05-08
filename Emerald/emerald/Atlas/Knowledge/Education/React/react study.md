@@ -1,5 +1,5 @@
 
-- [/] #task study react 🔼 🆔 x0x5OT
+- [x] #task study react 🔼 🆔 x0x5OT ✅ 2025-05-07
 	- [/] [[Robin Wieruch articles ticket]]
 ____
 ## working on 

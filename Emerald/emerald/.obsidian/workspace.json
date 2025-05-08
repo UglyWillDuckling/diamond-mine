@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b6828d564ffb5679",
+        "id": "300f40fc6e687aee",
         "type": "tabs",
         "children": [
           {
-            "id": "67ce2d418351e6e9",
+            "id": "7722b9d273bcd0da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Knowledge/tools/dev/Zellij/Zellij.md",
+                "file": "work/Projects/Backyard/Features/QSL listing feature/how to's/how to get GCP token.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Zellij"
+              "title": "how to get GCP token"
             }
           }
         ]
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5026054382324,
-    "collapsed": true
+    "width": 515.5110321044922
   },
   "right": {
     "id": "a4cc5cab7d2ca3c4",
@@ -128,13 +127,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
+                "file": "work/Projects/Backyard/Features/QSL listing feature/how to's/how to get GCP token.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Transac Zones update ticket"
+              "title": "Outline of how to get GCP token"
             }
           },
           {
@@ -229,35 +228,43 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "67ce2d418351e6e9",
+  "active": "a87c234f19295953",
   "lastOpenFiles": [
-    "Atlas/Knowledge/tools/dev/Zellij/how to filter by current file link in dataview.md",
-    "~/x/how to filter by current file supplement.md",
-    "Atlas/Knowledge/tools/dev/Zellij/Zellij.md",
-    "Atlas/Knowledge/daily_notes/2025/04-April/2025-04-30-Wed.md",
-    "Clippings/Session Management with Zellij.md",
-    "~/% tmpl/templater/tool template.md",
-    "Atlas/Knowledge/tools/dev/git/git.md",
-    "~/% tmpl/templater/main tag template.md",
-    "Atlas/Knowledge/How To's/git - resolving conflicts.md",
-    "Atlas/Knowledge/How To's/The git pickaxe article.md",
-    "Pro Git - Scott Chacon/GitHub/Maintaining a Project/Maintaining a Project.md",
-    "Pro Git - Scott Chacon/Git Internals/Maintenance and Data Recovery/Maintenance.md",
-    "~/% tmpl/templater/created.md",
-    "~/% tmpl/templater/arch call listing prev.md",
-    "Atlas/Knowledge/How To's/css tip for strings of numbers.md",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/installation.md",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/faq.md",
-    "Atlas/Knowledge/daily_notes/2025/04-April/tmp today.md",
-    "Atlas/Knowledge/tools/tools.md",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/internal-functions/contribute.md",
-    "Atlas/Knowledge/tools/dev/Zellij/zellijdoc/faq.md",
-    "Atlas/Knowledge/tools/dev/Zellij/zellijdoc/commands.html.md",
+    "work/Projects/Backyard/Features/QSL listing feature/docs/code/aws test script solution.canvas",
+    "work/Projects/Backyard/Features/QSL listing feature/how to's/how to get GCP token.md",
+    "work/Projects/Backyard/Features/QSL listing feature/QSL listing feature.md",
+    "work/docs/how to/how to test upload validation on extranet.md",
+    "work/docs/CRM/CRM.canvas",
+    "work/Projects/Backyard/Features/QSL listing feature/archive/tasks.md",
+    "work/bugs/qsl import issue/qsl import issue.md",
+    "work/Projects/Backyard/Features/QSL listing feature/docs/code/table docs.md",
+    "work/Projects/extranet.md",
+    "work/Projects/Backyard/Features/QSL listing feature/how to's/how to run the qsl import on tasks.md",
+    "work/Projects/Backyard/Features/QSL listing feature/how to's/how to check(test) cron backyard-tasks.md",
+    "work/Projects/Backyard/Features/QSL listing feature/how to's/where to find the listings atm.md",
+    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-08-Thu.md",
+    "work/Projects/Backyard/Features/QSL listing feature/archive/❌/investigate QSL listing connection plan.md",
+    "work/Projects/Backyard/Features/QSL listing feature/Notes on prod deploy of QSL.md",
+    "work/Projects/Backyard/features/QSL listing feature/docs/tmp - composer update.md",
+    "work/Projects/Backyard/Features/QSL listing feature/how to's",
+    "work/Projects/Backyard/Features/QSL listing feature/docs/features/how the listings are loaded.md",
+    "work/Projects/Backyard/Features/QSL listing feature/docs/features/Daily Csv QSL Listing Export.md",
+    "work/Projects/Backyard/features/QSL listing feature/docs/GCP connection doc.md",
+    "work/Projects/Backyard/features/QSL listing feature/docs/QSL production import.md",
+    "work/Projects/Backyard/features/QSL listing feature/docs/qls import cron implementation.md",
+    "work/Projects/Backyard/Features/QSL listing feature/docs/features/QSL Import.md",
+    "work/Projects/Backyard/Features/QSL listing feature/docs/features/aws import  impl..canvas",
+    "work/Projects/Backyard/Features/QSL listing feature/docs/code/Athena class.md",
+    "work/Projects/Backyard/Features/QSL listing feature/artifacts/crontab board.canvas",
+    "work/Projects/Backyard/Features/QSL listing feature/artifacts/cronjob test.md",
+    "work/Projects/Backyard/Features/QSL listing feature/archive/subs/Online status update.md",
+    "work/Projects/Backyard/Features/QSL listing feature/archive/subs/cronjob implementation.md",
+    "work/Projects/Backyard/Features",
+    "work/Projects/Backyard/Features/QSL listing feature/archive/frontend implementation.md",
+    "work/bugs/qsl import issue",
+    "work/Projects/Backyard/Features/QSL listing feature/docs/code/Athena impl..canvas",
+    "Atlas/Knowledge/daily_notes/2025/05-May",
     "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/favicon.png",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/internal-functions/internal-modules/file-module.md",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/introduction.md",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/terminology.md",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/settings.md",
     "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/favicon.svg",
     "Path/To/MyFolder",
     "Path/To",
@@ -265,10 +272,6 @@
     "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.woff?v=4.7.0",
     "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
     "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.ttf?v=4.7.0",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.svg?v=4.7.0",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.eot?v=4.7.0",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.eot?",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/internal-functions/internal-modules/web-module.html",
     "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/imgs/templater_user_templates.png",
     "tmp/Templater/imgs/templater_user_templates.png",
     "tmp/Templater/favicon.svg",

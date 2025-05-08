@@ -55,6 +55,8 @@
     "calls": "multitext",
     "processed": "checkbox",
     "Price": "number",
-    "about": "text"
+    "about": "text",
+    "reported": "date",
+    "resolved": "checkbox"
   }
 }

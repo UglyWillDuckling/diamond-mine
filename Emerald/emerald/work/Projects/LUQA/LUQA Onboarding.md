@@ -7,10 +7,10 @@ ___
 		- [x] [[Lokalize]] service: **check** status
 		- [x] [[sonar testing suite]]
 	- [x] #task explore projects code 🆔 ii12pe ✅ 2025-04-14
-		- [/] #task examine and study the [[#folder structure]] 🆔 PEayUI
-		- [ ]  #task study the [[#tools in use]] 🆔 xCxe9D
+		- [x] #task examine and study the [[#folder structure]] 🆔 PEayUI ✅ 2025-05-02
+		- [x]  #task study the [[#tools in use]] 🆔 xCxe9D ✅ 2025-05-02
 		- [x] #task check [[vim]] `integration` with JS and the rest #small 🆔 lzakH5 ✅ 2025-03-05
-		- [ ] #task examine deployment [[#deployment]] 🆔 GyExTb
+		- [x] #task examine deployment [[#deployment]] 🆔 GyExTb ✅ 2025-05-02
 	- [x] #task experiment with making a [[# new component]] 🆔 hoz77n ✅ 2025-03-19
 	- [x] #task checkout [Storybook](https://gemini-storybook.prompt-scorpion-preview.aws.aviv.eu/?path=/docs/introduction-getting-started--docs) 🆔 U6ldLo ✅ 2025-03-05
 	- [ ] open the project i both [[vscode]] and [[Phpstorm]]

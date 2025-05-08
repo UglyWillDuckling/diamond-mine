@@ -8,10 +8,10 @@ main-tag: zellij
 ---
 ![Portrait|100](https://zellij.dev/img/logo.png)
 
-- [/] #task start using [[Zellij]] 🆔 so9XuP 🔼 ⏳ 2025-04-21 📅 2025-04-13
+- [x] #task start using [[Zellij]] 🆔 so9XuP 🔼 ⏳ 2025-04-21 📅 2025-04-13 ✅ 2025-05-02
 	- [/] [[zellij setup]]
 
-A terminal workspace with batteries included
+A **terminal workspace** with `batteries` included
 ___
 # interest 💌
 

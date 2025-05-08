@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiLink2off",
-      "LiBlocks",
-      "🗒",
-      "LiFlower",
-      "LiDock"
+      "LiCoins",
+      "▶",
+      "LiCode",
+      "LiNotebookText",
+      "LiTestTube"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -116,18 +116,11 @@
     "iconColor": "#878787"
   },
   "work/notes/archive/db restore.md": "LiDatabase",
-  "work/tickets/FEAT/QSL listing feature": {
-    "iconName": "LiListPlus",
-    "iconColor": "#a349bc"
-  },
-  "work/tickets/FEAT/QSL listing feature/docs": "LiFolder",
-  "work/tickets/FEAT/QSL listing feature/subs": "LiBaby",
   "Dashboard.md": {
     "iconName": "LiClipboardList",
     "iconColor": "#e68a0a"
   },
   "+/barefoot.md": "👞",
-  "work/tickets/FEAT/QSL listing feature/QSL listing feature.md": "LiList",
   "work/calls/SPRINT": "👠",
   "work/notes/archive/deploy na tasks je dosta brz.md": "LiRocket",
   "work/notes/archive/test - test on backyard have 2 db's.md": {
@@ -136,38 +129,6 @@
   },
   "work/notes/archive/test are run using a test Makefile.md": "LiTestTube2",
   "work/notes/fun": "🎴",
-  "work/people and teams": {
-    "iconName": "LiPersonStanding",
-    "iconColor": "#ca3f77"
-  },
-  "work/people and teams/SRE.md": "LiBringToFront",
-  "work/people and teams/LUNA/Danijela.md": "🫐",
-  "work/people and teams/LUNA/luna team.md": "LiMoonStar",
-  "work/tickets/FEAT/QSL listing feature/archive": "LiArchive",
-  "work/tickets/FEAT/QSL listing feature/archive/frontend implementation.md": "🖼",
-  "work/tickets/FEAT/QSL listing feature/archive/archive": {
-    "iconName": "LiArchive",
-    "iconColor": "#878787"
-  },
-  "work/tickets/FEAT/QSL listing feature/archive/archive/build the interface.md": "LiFacebook",
-  "work/tickets/FEAT/QSL listing feature/archive/archive/build the model.md": {
-    "iconName": "LiToyBrick",
-    "iconColor": "#c24bd2"
-  },
-  "work/tickets/FEAT/QSL listing feature/archive/archive/spike - qsl project.md": "✏",
-  "work/tickets/FEAT/QSL listing feature/archive/archive/Create DB table.md": {
-    "iconName": "LiTable",
-    "iconColor": "#5729ae"
-  },
-  "work/tickets/FEAT/QSL listing feature/docs/table docs.md": "LiPencil",
-  "work/tickets/FEAT/QSL listing feature/subs/Online status update.md": "🔗",
-  "work/tickets/FEAT/QSL listing feature/docs/code/aws test script solution.canvas": "LiSubscript",
-  "work/tickets/FEAT/QSL listing feature/docs/features/CSV import.md": {
-    "iconName": "LiTable",
-    "iconColor": "#20974a"
-  },
-  "work/tickets/FEAT/QSL listing feature/docs/requirements/required fields.md": "⚠",
-  "work/tickets/FEAT/QSL listing feature/❌/where to find the listing atm.md": "🔍",
   "work/tickets/archive/Project creation from Lead": "📽",
   "work/tickets/archive/Project creation from Lead/Use lead for project creation.md": "LiCreateGroup",
   "work/tickets/archive/Project creation from Lead/docs,diagrams, etc.": "LiWorkflow",
@@ -192,8 +153,6 @@
   "work/tickets/archive/Project creation from Lead/subs/Long-term solution/estima processing/fix main test.md": "🧪",
   "work/tickets/archive/Project creation from Lead/subs/Long-term solution/estima processing/study estima processing.md": "🎓",
   "work/tickets/archive/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md": "🟩",
-  "work/tickets/FEAT/QSL listing feature/archive/research how to add a cronjob.md": "LiClock",
-  "work/tickets/FEAT/QSL listing feature/artifacts": "🎨",
   "Efforts/tasks": "LiCheckSquare2",
   "Efforts/tasks/archive": "LiArchive",
   "Efforts/tasks/dev": "⌨",
@@ -242,8 +201,6 @@
   "Efforts": "LiWeight",
   "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md": "♦",
   "Efforts/Active/Obsidian Tinkering/docs": "LiFile",
-  "work/tickets/FEAT/QSL listing feature/artifacts/cronjob test.md": "🎨",
-  "work/tickets/FEAT/QSL listing feature/subs/cronjob implementation.md": "LiClock",
   "work/calls/SPRINT/RETRO/Sprint Retro - C8 EXT - Sprint 2.md": "🔙",
   "work/calls/SPRINT/RETRO/Sprint Review  - 22.07.md": "LiThumbsUp",
   "work/calls/SPRINT/RETRO": "🔙",
@@ -251,23 +208,7 @@
   "work/calls/SPRINT/PLANNING/Sprint Planning - C8 EXT - Sprint 2.md": "🔙",
   "work/calls/SPRINT/PLANNING/Sprint planning 10-14.md": "👟",
   "work/calls/SPRINT/PLANNING/sprint planning 10-28.md": "👟",
-  "work/people and teams/Corentin.md": {
-    "iconName": "LiPaintbrush",
-    "iconColor": "#ff52a5"
-  },
-  "work/tickets/FEAT/QSL listing feature/archive/missing icon.md": "🦄",
   "work/docs/concepts/Real Estate Project.md": "LiProjector",
-  "work/tickets/FEAT/QSL listing feature/artifacts/CSV QSL Export Feature.md": {
-    "iconName": "LiSheet",
-    "iconColor": "#19b385"
-  },
-  "work/tickets/FEAT/QSL listing feature/archive/qsl dev aws import test.md": "🧪",
-  "work/tickets/FEAT/QSL listing feature/archive/refactoring of configuration.md": "🏬",
-  "work/tickets/FEAT/QSL listing feature/subs/AWS connection": "🗽",
-  "work/tickets/FEAT/QSL listing feature/subs/AWS connection/AWS connection.md": "🗽",
-  "work/tickets/FEAT/QSL listing feature/subs/AWS connection/AWS import.md": "🗽",
-  "work/people and teams/LUNA/Paulo Baskovic.md": "LiBike",
-  "work/people and teams/LUNA/Natasa Bozic.md": "👧",
   "work/Projects/LUQA": {
     "iconName": "LiCrown",
     "iconColor": "#ecbe18"
@@ -277,10 +218,6 @@
   "work/calls/_archive/backyard/Project creation call.md": "LiProjector",
   "work/calls/_archive": "🗃",
   "work/notes/archive/Christmas Party.md": "🎄",
-  "work/tickets/FEAT/QSL listing feature/QSL - missing links issue.md": {
-    "iconName": "LiBrokenLink",
-    "iconColor": "#ec0909"
-  },
   "work/bugs/archive/XSS - extranet": {
     "iconName": "LiSquareCode",
     "iconColor": "#f24545"
@@ -468,7 +405,77 @@
   "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../3) DOM Manipulation.md": "LiHand",
   "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../4) Conceptual Aside - Imperative vs. Declarative Programming.md": "LiBlocks",
   "~/% tmpl/pages/movie.md": "🎥",
-  "work/people and teams/NOVA/Yoan Haouzi.md": "🍟",
   "Atlas/Knowledge/Education/React/react study.md": "LiAtom",
-  "work/bugs/investigate estima - lead call - lead window -lead connection.md": "LiLink2off"
+  "work/bugs/archive/investigate estima - lead call - lead window -lead connection.md": "LiLink2off",
+  "work/bugs/qsl import issue/qsl import issue.md": "LiImport",
+  "work/Projects/Backyard/Features/QSL listing feature": {
+    "iconName": "LiListPlus",
+    "iconColor": "#a349bc"
+  },
+  "work/Projects/Backyard/Features/QSL listing feature/QSL listing feature.md": "LiList",
+  "work/Projects/Backyard/Features/QSL listing feature/archive": "LiArchive",
+  "work/Projects/Backyard/Features/QSL listing feature/artifacts": "🎨",
+  "work/Projects/Backyard/Features/QSL listing feature/docs": "LiFolder",
+  "work/Projects/Backyard/Features/QSL listing feature/archive/QSL - missing links issue.md": {
+    "iconName": "LiBrokenLink",
+    "iconColor": "#ec0909"
+  },
+  "work/Projects/Backyard/Features/QSL listing feature/archive/archive": {
+    "iconName": "LiArchive",
+    "iconColor": "#878787"
+  },
+  "work/Projects/Backyard/Features/QSL listing feature/archive/frontend implementation.md": "🖼",
+  "work/Projects/Backyard/Features/QSL listing feature/archive/missing icon.md": "🦄",
+  "work/Projects/Backyard/Features/QSL listing feature/archive/qsl dev aws import test.md": "🧪",
+  "work/Projects/Backyard/Features/QSL listing feature/archive/refactoring of configuration.md": "🏬",
+  "work/Projects/Backyard/Features/QSL listing feature/archive/research how to add a cronjob.md": "LiClock",
+  "work/Projects/Backyard/Features/QSL listing feature/artifacts/CSV QSL Export Feature.md": {
+    "iconName": "LiSheet",
+    "iconColor": "#19b385"
+  },
+  "work/Projects/Backyard/Features/QSL listing feature/artifacts/cronjob test.md": "🎨",
+  "work/Projects/Backyard/Features/QSL listing feature/archive/archive/Create DB table.md": {
+    "iconName": "LiTable",
+    "iconColor": "#5729ae"
+  },
+  "work/Projects/Backyard/Features/QSL listing feature/archive/archive/build the interface.md": "LiFacebook",
+  "work/Projects/Backyard/Features/QSL listing feature/archive/archive/build the model.md": {
+    "iconName": "LiToyBrick",
+    "iconColor": "#c24bd2"
+  },
+  "work/Projects/Backyard/Features/QSL listing feature/archive/archive/spike - qsl project.md": "✏",
+  "work/Projects/Backyard/Features/QSL listing feature/docs/code/aws test script solution.canvas": "LiSubscript",
+  "work/Projects/Backyard/Features/QSL listing feature/docs/features/CSV import.md": {
+    "iconName": "LiTable",
+    "iconColor": "#20974a"
+  },
+  "work/Projects/Backyard/Features/QSL listing feature/archive/subs": "LiBaby",
+  "work/Projects/Backyard/Features/QSL listing feature/archive/subs/AWS connection": "🗽",
+  "work/Projects/Backyard/Features/QSL listing feature/archive/subs/Online status update.md": "🔗",
+  "work/Projects/Backyard/Features/QSL listing feature/archive/subs/cronjob implementation.md": "LiClock",
+  "work/Projects/Backyard/Features/QSL listing feature/archive/subs/AWS connection/AWS connection.md": "🗽",
+  "work/Projects/Backyard/Features/QSL listing feature/archive/subs/AWS connection/AWS import.md": "🗽",
+  "work/Projects/Backyard/Features/QSL listing feature/how to's/how to check(test) cron backyard-tasks.md": "LiTestTube",
+  "work/Projects/Backyard/Features/QSL listing feature/Notes on prod deploy of QSL.md": "LiNotebookText",
+  "work/Projects/Backyard/Features/QSL listing feature/how to's/how to run the qsl import on tasks.md": "LiImport",
+  "work/Projects/Backyard/Features/QSL listing feature/how to's/where to find the listings atm.md": "🔍",
+  "work/Projects/Backyard/Features/QSL listing feature/docs/code/table docs.md": "LiPencil",
+  "work/Projects/Backyard/Features/QSL listing feature/docs/code": "LiCode",
+  "work/Projects/Backyard/Features/QSL listing feature/archive/requirements/required fields.md": "⚠",
+  "work/people": {
+    "iconName": "LiPersonStanding",
+    "iconColor": "#ca3f77"
+  },
+  "work/people/Corentin.md": {
+    "iconName": "LiPaintbrush",
+    "iconColor": "#ff52a5"
+  },
+  "work/people/SRE.md": "LiBringToFront",
+  "work/people/LUNA/Danijela.md": "🫐",
+  "work/people/LUNA/Natasa Bozic.md": "👧",
+  "work/people/LUNA/Paulo Baskovic.md": "LiBike",
+  "work/people/LUNA/luna team.md": "LiMoonStar",
+  "work/people/NOVA/Yoan Haouzi.md": "🍟",
+  "work/Projects/Backyard/Features/QSL listing feature/how to's": "▶",
+  "work/Projects/Backyard/Features/QSL listing feature/how to's/how to get GCP token.md": "LiCoins"
 }

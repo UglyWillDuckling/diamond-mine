@@ -4,7 +4,7 @@ tags:
 ---
 #howto/git 
 
-- [ ] remind me weekly (@[[2025-05-06]])
+- [x] remind me weekly (@[[2025-05-06]])
 ___
 #  in a conflicted state
 

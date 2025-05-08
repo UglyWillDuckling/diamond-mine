@@ -8,7 +8,7 @@ uses:
 	- [x] resolve [[conflict between txt object plugins]]: [[min.ai]] | [[targets.vim]]
 ___
 # 🗒 Notes 
-..
+- ..
 # 🗺 crucial mappings
 - ..
 ## main mapping to keep in mind
@@ -51,8 +51,12 @@ ___
 - `<C-w>D` - show current line diagnostics
 - errors
 	- `[e`, `]e` prev/next error
-	- 
-# Fzf
 
 # Floating  terminal
 - [x] fix mapping for terminal
+
+# Coding
+
+- [/] implement full support for [[phpactor]]
+	- [x] install and setup
+	- [ ] configure for **legacy** project

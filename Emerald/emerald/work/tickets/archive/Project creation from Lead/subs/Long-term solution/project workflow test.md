@@ -32,7 +32,7 @@
 fills all the necessary info for each agency (date and time of visit, and changes status to “Organisee")
 AND confirms the meets by click on “Confirmer RDV éval au client (email & SMS)” button
 	1. <mark style="background: #BBFABBA6;">Evaluation organisée.</mark>
-	2. A new [[task]] is created for **Relance signature mandat**
+	2. A new [[work/Projects/Backyard/Features/QSL listing feature/archive/tasks]] is created for **Relance signature mandat**
 	3. A confirmation email is sent to the [[contact]]
 2. **WHEN** the Back Office goes to “Mandats"> Nouveau Mandat> Sérénité
 	1. THEN

@@ -4,9 +4,11 @@ related::
 - [[call s Danijelom - handover]]
 - [[Transac zone update by Danijela]]
 
+- [/] #task fix [[SalesForceApi]] to send data to `media` 🆔 O0ejus
+
 - [/] #task handle `biz_product_coverage` table usage [[#Handle usage of biz_product_coverage table]] 🆔 mjQoyM
-	- [ ] sync feature
-	- [ ] update ticket 🎫
+	- [ ] **sync** feature
+	- [ ] **update** ticket 🎫
 
 ___
 ## Handle usage of biz_product_coverage table
@@ -16,7 +18,7 @@ ___
 	- [x] make a [[list of places that modify table biz_product_coverage]]
 	- [x] **check** **diagram** for the transac solution
 	- [x] ? make a [[list of places that use the table]]
-- [/] plan a new solution to update the coverage table based on changes made to ???
+- [/] plan a new solution to update the **coverage** table based on changes made to ???
 	- [/] update diagram to match the changes
 
 ### **check** transac diagram in relation to the table
@@ -40,10 +42,12 @@ We need to deploy the `SalesForce` changes and after **trigger** the update in [
 
 # status
 
-Created `curl.sh` in the root of MediaAPI folder
-
-Made some changes to [[Media API]], enabled saving of new `iris_ids`.
-
+- [x] update [[SalesForceApi]] to preserve the `iris_id` data
+	- [x] code changes
+	- [x] make **PR**
+- [x] test changes on dev
+	- [x] single
+	- [/] all, [[Alan Jaouen]]
 - [ ] add information about the tables sync to the **ticket**
 	- [ ] ? maybe create a separate ticket for this
 - [ ] start working on the `sync` feature

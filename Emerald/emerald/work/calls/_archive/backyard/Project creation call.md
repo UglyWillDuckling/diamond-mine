@@ -17,7 +17,7 @@
 - [i] In real life, the [[Backoffice]] has to send an **email** to the [[contact]] when the [[Evaluation]] is `organised`
 - [?] Is there an easy way to see if the [[Real Estate Project]] is a [[P1]]?
 	- [x] @ `Evaluation en cours` **status**
-- [?] When does the [[Backoffice]] create the [[task]]?
+- [?] When does the [[Backoffice]] create the [[work/Projects/Backyard/Features/QSL listing feature/archive/tasks]]?
 	- [?] Is this <mark style="background: #FFB8EBA6;">necessary</mark> to complete the creation process?
 - [?] How did we **fix** the issue with creating the [[mandate]]?
 	- @ we have to select the agent on the contract

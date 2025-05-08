@@ -31,7 +31,7 @@ size: **L**
 ### automatic tasks
 
 ##### <mark style="background: #BBFABBA6;">Criteria</mark>
-`Automatic` [[task]] should be created based on project status and events
+`Automatic` [[work/Projects/Backyard/Features/QSL listing feature/archive/tasks]] should be created based on project status and events
 
 size: L
 

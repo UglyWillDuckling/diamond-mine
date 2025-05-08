@@ -1,7 +1,7 @@
 #thought #active #note 
 
 based on:: [[AWS import]]
-related:: [[tasks]], [[Tasks plugin]]
+related:: [[Efforts/tasks/tasks]], [[Tasks plugin]]
 
 This would make it easy to **track** what is being worked on by looking at the *calendar*.
 

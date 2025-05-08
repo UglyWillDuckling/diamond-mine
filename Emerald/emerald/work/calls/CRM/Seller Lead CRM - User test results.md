@@ -8,7 +8,7 @@ date: 2024-10-30
 - [[#ehll]]
 
 ## tasks
-- automatic [[task]]'s need  to be rescheduled manually every day #reschedule
+- automatic [[work/Projects/Backyard/Features/QSL listing feature/archive/tasks]]'s need  to be rescheduled manually every day #reschedule
 - **Kanban** is <mark style="background: #FFB8EBA6;">not interesting</mark>
 - filtering is ok
 - ...

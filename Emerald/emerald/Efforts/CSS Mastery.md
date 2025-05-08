@@ -1,6 +1,6 @@
 #ticket/personal 
 
-- [ ] #task Learn CSS [[CSS Mastery]] 🔼 ⏳ 2025-03-07 📅 2025-03-01 🆔 BWJi91
+- [ ] #task Learn CSS [[CSS Mastery]] 🔼 ⏳ 2025-03-07 📅 2025-05-12 🆔 BWJi91
 ___
 ## resources
 

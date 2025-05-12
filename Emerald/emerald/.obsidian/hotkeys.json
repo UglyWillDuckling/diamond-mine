@@ -72,7 +72,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "Tab"
+      "key": "Q"
     }
   ],
   "workspace:next-tab": [
@@ -81,6 +81,12 @@
         "Ctrl"
       ],
       "key": "PageDown"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
     }
   ],
   "switcher:open": [
@@ -226,12 +232,6 @@
     {
       "modifiers": [
         "Alt"
-      ],
-      "key": "Q"
-    },
-    {
-      "modifiers": [
-        "Mod"
       ],
       "key": "Q"
     }

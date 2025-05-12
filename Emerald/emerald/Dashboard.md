@@ -1,4 +1,4 @@
-### active ☢
+### **active** ☢
 ```dataview
 LIST FROM "notes" and #active
 ```

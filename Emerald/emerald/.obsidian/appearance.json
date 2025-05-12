@@ -13,7 +13,8 @@
     "highlight",
     "vim",
     "dataview",
-    "tasks"
+    "tasks",
+    "active-menu-off-in-folder-tree"
   ],
   "accentColor": "#14aee1",
   "showRibbon": true

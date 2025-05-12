@@ -4,25 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "300f40fc6e687aee",
+        "id": "712376057955cdf7",
         "type": "tabs",
         "children": [
           {
-            "id": "7722b9d273bcd0da",
+            "id": "3dc40c838ed7a7c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/Projects/Backyard/Features/QSL listing feature/how to's/how to get GCP token.md",
+                "file": "Efforts/Active/zellij First setup/zellij First setup.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "how to get GCP token"
+              "title": "zellij First setup"
+            }
+          },
+          {
+            "id": "e4028a50b5908aa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Efforts/Active/zellij First setup/Diabolocom numbers issue - obsolete numbers in use.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Diabolocom numbers issue - obsolete numbers in use"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -54,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "-strategy-option theirs",
+                "query": "tag:#task",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 515.5110321044922
+    "width": 285.5
   },
   "right": {
     "id": "a4cc5cab7d2ca3c4",
@@ -127,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/Projects/Backyard/Features/QSL listing feature/how to's/how to get GCP token.md",
+                "file": "Efforts/Active/zellij First setup/Diabolocom numbers issue - obsolete numbers in use.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of how to get GCP token"
+              "title": "Outline of Diabolocom numbers issue - obsolete numbers in use"
             }
           },
           {
@@ -228,39 +244,44 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "a87c234f19295953",
+  "active": "e4028a50b5908aa9",
   "lastOpenFiles": [
-    "work/Projects/Backyard/Features/QSL listing feature/docs/code/aws test script solution.canvas",
-    "work/Projects/Backyard/Features/QSL listing feature/how to's/how to get GCP token.md",
-    "work/Projects/Backyard/Features/QSL listing feature/QSL listing feature.md",
-    "work/docs/how to/how to test upload validation on extranet.md",
-    "work/docs/CRM/CRM.canvas",
-    "work/Projects/Backyard/Features/QSL listing feature/archive/tasks.md",
+    "Efforts/Active/zellij First setup/zellij First setup.md",
+    "Efforts/Active/zellij First setup/Diabolocom numbers issue - obsolete numbers in use.md",
+    "Efforts/Active/zellij First setup/Zellij keymaps.md",
+    "Atlas/Knowledge/tools/dev/Zellij/zellijdoc/theme-list - zellij.md",
+    "Atlas/Knowledge/tools/dev/Zellij/Zellij.md",
+    "Clippings/Session Management with Zellij.md",
+    "Efforts/Active/zellij First setup/zellij config file.md",
+    "Efforts/Active/zellij First setup",
+    "Efforts/Active/Git Mastery.md",
+    "Efforts/Active/Vim Exploration/conflict between txt object plugins.md",
+    "Efforts/Active/Vim Exploration/new nvim config.md",
+    "Efforts/Active/Vim Exploration/testing plugin for vim.md",
+    "Efforts/Done/setup wordpress with Bedrock and Docker.md",
+    "work/Projects/LUQA/docs/modal example code.md",
+    "Efforts/master task list.md",
+    "Efforts/list of books on tools.md",
+    "Efforts/Done/explore terminal Fonts.md",
+    "Efforts/Done",
+    "work/Projects/LUQA/docs/example Modal using Gemini.md",
+    "Efforts/Simmering",
+    "Efforts/Ongoing",
+    "Efforts/Flexbox Froggy.md",
+    "Spaces/Physical Objects/2025-03-07 Logitech MX Master 3 Mouse.md",
+    "Spaces/Physical Objects/2025-01-21 TKTK.md",
+    "Spaces/Physical Objects/2025-03-07 physical object template 1.md",
+    "Spaces/Physical Objects/2025-03-07 Nuphy keyboard.md",
+    "Dashboard.md",
+    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-09-Fri.md",
+    "Clippings/GetQueryResults - Amazon Athena 1.md",
     "work/bugs/qsl import issue/qsl import issue.md",
-    "work/Projects/Backyard/Features/QSL listing feature/docs/code/table docs.md",
-    "work/Projects/extranet.md",
-    "work/Projects/Backyard/Features/QSL listing feature/how to's/how to run the qsl import on tasks.md",
-    "work/Projects/Backyard/Features/QSL listing feature/how to's/how to check(test) cron backyard-tasks.md",
-    "work/Projects/Backyard/Features/QSL listing feature/how to's/where to find the listings atm.md",
-    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-08-Thu.md",
-    "work/Projects/Backyard/Features/QSL listing feature/archive/❌/investigate QSL listing connection plan.md",
-    "work/Projects/Backyard/Features/QSL listing feature/Notes on prod deploy of QSL.md",
-    "work/Projects/Backyard/features/QSL listing feature/docs/tmp - composer update.md",
+    "work/Projects/Backyard/Features/QSL listing feature/docs/artifacts/crontab board.canvas",
+    "work/Projects/Backyard/Features/QSL listing feature/docs/code/aws test script solution.canvas",
+    "work/docs/CRM/CRM.canvas",
     "work/Projects/Backyard/Features/QSL listing feature/how to's",
-    "work/Projects/Backyard/Features/QSL listing feature/docs/features/how the listings are loaded.md",
-    "work/Projects/Backyard/Features/QSL listing feature/docs/features/Daily Csv QSL Listing Export.md",
-    "work/Projects/Backyard/features/QSL listing feature/docs/GCP connection doc.md",
-    "work/Projects/Backyard/features/QSL listing feature/docs/QSL production import.md",
-    "work/Projects/Backyard/features/QSL listing feature/docs/qls import cron implementation.md",
-    "work/Projects/Backyard/Features/QSL listing feature/docs/features/QSL Import.md",
     "work/Projects/Backyard/Features/QSL listing feature/docs/features/aws import  impl..canvas",
-    "work/Projects/Backyard/Features/QSL listing feature/docs/code/Athena class.md",
-    "work/Projects/Backyard/Features/QSL listing feature/artifacts/crontab board.canvas",
-    "work/Projects/Backyard/Features/QSL listing feature/artifacts/cronjob test.md",
-    "work/Projects/Backyard/Features/QSL listing feature/archive/subs/Online status update.md",
-    "work/Projects/Backyard/Features/QSL listing feature/archive/subs/cronjob implementation.md",
     "work/Projects/Backyard/Features",
-    "work/Projects/Backyard/Features/QSL listing feature/archive/frontend implementation.md",
     "work/bugs/qsl import issue",
     "work/Projects/Backyard/Features/QSL listing feature/docs/code/Athena impl..canvas",
     "Atlas/Knowledge/daily_notes/2025/05-May",
@@ -268,10 +289,6 @@
     "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/favicon.svg",
     "Path/To/MyFolder",
     "Path/To",
-    "Path",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.woff?v=4.7.0",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/FontAwesome/fonts/fontawesome-webfont.ttf?v=4.7.0",
     "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/imgs/templater_user_templates.png",
     "tmp/Templater/imgs/templater_user_templates.png",
     "tmp/Templater/favicon.svg",

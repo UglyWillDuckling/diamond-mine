@@ -7730,6 +7730,8 @@ sdy
 szf
 stol
 sirina
+semestar
+subota
 doesn
 due
 depends
@@ -21170,6 +21172,9 @@ pTmcd
 pyps
 prouciti
 pronaden
+premjesti
+projektu
+petak
 on
 out
 other
@@ -24153,6 +24158,7 @@ ouL
 oAeW
 oLq
 olxZ
+ozdravio
 for
 file
 folders
@@ -30761,6 +30767,8 @@ Soin
 SIsN
 SKVs
 SKi
+SATNICA
+SUSTAVI
 Persona
 Portuguese
 Parisians
@@ -33656,6 +33664,12 @@ PcwQ
 Pstsz
 PDh
 PPz
+Predavaonica
+Predavanja
+Praznik
+PROGRAMIRANJA
+PROGRAMSKO
+PERIFERNIH
 mail
 migrate
 mark
@@ -47408,6 +47422,8 @@ iwBf
 ibb
 ilst
 insides
+ionicama
+ionica
 Next
 Now
 Network
@@ -53054,6 +53070,9 @@ DeHq
 DTiL
 DHGL
 Documents
+DAN
+DATUM
+DIGITALNE
 Working
 World
 With
@@ -59066,6 +59085,7 @@ TFa
 TxU
 Tdlw
 TKC
+Tjelesno
 background
 between
 br
@@ -71246,6 +71266,7 @@ amn
 aTy
 alm
 aBK
+avnosti
 had
 his
 houses
@@ -76659,6 +76680,8 @@ nKA
 nvn
 naruciti
 naruceno
+notifikacije
+nalaz
 using
 useful
 until
@@ -82324,6 +82347,8 @@ GgcWe
 Gwn
 GpD
 GVlj
+GRADNJA
+Gunduli
 Obisdian
 Origins
 Obtaining
@@ -87696,6 +87721,7 @@ vAa
 vgJ
 visina
 vrAgDn
+vodenje
 Arabia
 Arabs
 Africa
@@ -96917,6 +96943,7 @@ lae
 lxjp
 lMO
 longterm
+laboratorij
 By
 Baba
 Budan
@@ -99735,6 +99762,7 @@ BUJ
 BAuZ
 BGo
 Bolt
+Branko
 In
 Indian
 Italy
@@ -102817,6 +102845,8 @@ Iuvn
 IbaE
 IScG
 ITu
+INFORMATICI
+INFORMACIJSKI
 European
 Europe
 Example
@@ -105435,6 +105465,9 @@ EaF
 EYQ
 ETg
 EuS
+ELEKTRONIKE
+ENJERSTVO
+ENGLESKI
 Questions
 Queen
 Quarters
@@ -106988,6 +107021,8 @@ LYp
 Lavf
 LiTable
 LiEthernetPort
+LiTags
+Listing
 year
 you
 your
@@ -108432,6 +108467,8 @@ zDg
 zII
 zLG
 zwZ
+zadatke
+zgrada
 Huffman
 Help
 Hainish
@@ -110931,6 +110968,9 @@ Ucd
 Unp
 UsK
 Use
+UNALA
+URE
+UGRADBENI
 just
 journals
 jackrabbit
@@ -113561,6 +113601,7 @@ kOcx
 kAZ
 kutu
 kanban
+kalendar
 quickly
 quo
 quest
@@ -115101,6 +115142,7 @@ YTJ
 YEZ
 YIUQ
 Yqd
+YYYY
 Kroeber
 Kracaw
 Karl
@@ -116711,6 +116753,9 @@ JVJ
 JXZ
 Jle
 JsS
+Jesi
+JEZIK
+JMBAG
 Rushdie
 Robert
 Renaissance

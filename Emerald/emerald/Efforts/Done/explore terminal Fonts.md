@@ -4,4 +4,3 @@
 ____
 installed
 - https://github.com/be5invis/Iosevka?tab=readme-ov-file
-- 

@@ -53,6 +53,12 @@
     "studied": "checkbox",
     "watching": "multitext",
     "parents": "multitext",
-    "reading": "text"
+    "reading": "text",
+    "done": "checkbox",
+    "reviewed": "checkbox",
+    "date": "datetime",
+    "scheduled": "datetime",
+    "score": "number",
+    "parent": "text"
   }
 }

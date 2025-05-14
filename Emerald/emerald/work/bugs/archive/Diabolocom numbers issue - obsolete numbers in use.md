@@ -1,4 +1,16 @@
-# **JIRA** ticket 
+---
+created: 2025-05-12
+start date: 2025-05-12
+reported: 2025-05-12
+tags:
+  - ticket/bug/diabolocom
+impacts: "[[Diabolocom]]"
+status:
+  - finished 🏁
+resolved: true
+---
+# **JIRA** ticket
+
 [[Diabolocom]], our telephony provider, warned us that they were going to disable on 12/05 numbers that we are using for our call campaigns and these numbers have the following structure `07432403XX`.
 
 Indeed, our **B2C sales people** had these numbers defined in the “Campagne” field on their Backyard page (see screenshot),
@@ -12,7 +24,7 @@ The need is to understand / check (in the b2cLeadRankingApi) why aren’t the 07
 ___
 # requirements
 
-- [/] **stop** using 07432403XX
+- [x] **stop** using 07432403XX
 - still used for **PVI**
 
 # impl / work
@@ -33,7 +45,6 @@ ___
 
 - ! the number **33743240302** is hardcoded
 
-- [/] communicate with [[Thomas Sirgant]]
+- [x] communicate with [[Thomas Sirgant]]
 	- [x] found the hardcoded number
 		- we need a replacement for it
-	- [/] wait for response

@@ -1,25 +1,23 @@
 ---
-start date: 2025-05-05
 created: 2025-05-06
+start date: 2025-05-05
 reported: 2025-05-05
-related:
-  - "[[QSL listing feature]]"
+impacts: "[[QSL listing feature]]"
 tags:
   - ticket/bug
-  - 📚Book
 status:
   - In Progress
 resolved:
 ---
 reported:: [[2025-05-06-Tue]]
 
-Directly follows [[QSL listing feature]]
+Directly **follows** [[QSL listing feature]]
 
 # notes
 - [[how to get the GCP token on dev]]
 ___
 
-- [/] #task qsl import issue 🔼 ⏳ 2025-05-08 📅 2025-05-04 🆔 dBfGhl
+- [/] #task qsl import issue 🔼 ⏳ 2025-05-08 📅 2025-05-14 🆔 dBfGhl #work 
 	- [x] resolve issue with wrong status read
 			PHP issues with recursive calls
 	- [x] add **pagination** [^1]

@@ -57,6 +57,10 @@
     "Price": "number",
     "about": "text",
     "reported": "date",
-    "resolved": "checkbox"
+    "resolved": "checkbox",
+    "first_appeared": "date",
+    "last_appeared": "date",
+    "related_work": "multitext",
+    "resolved_date": "date"
   }
 }

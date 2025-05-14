@@ -3,13 +3,14 @@
 about:: [[Zellij]]
 ___
 
-- [ ] #task zellij setup 🆔 3qbbTO
+- [/] #task zellij setup 🆔 3qbbTO
 	- [x] initial setup
-	- [/] setup [[Zellij keymaps]]
 	- [x] check session resurection
 	- [x] [[#custom config]]
 		- [x] configure to be locked by default
-	- [?] setup features via plugins
+	- [x] setup [[Zellij keymaps]]
+	- [x] setup features via plugins
+	- [ ] learn how to **cleanup** sessions
 
 # custom config
 - [x] see what can be **configured**

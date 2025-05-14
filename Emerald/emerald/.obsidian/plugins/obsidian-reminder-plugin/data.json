@@ -1,19 +1,33 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/Knowledge/How To's/css tip for strings of numbers.md": [
+    "Atlas/Knowledge/tools/dev/nvim/vim.env.md": [
       {
         "title": "remind me",
-        "time": "2025-05-09",
-        "rowNumber": 2
+        "time": "2025-05-20 11:00",
+        "rowNumber": 16
+      }
+    ],
+    "implemented a new way to run php unit test.md": [
+      {
+        "title": "remind me",
+        "time": "2025-05-19",
+        "rowNumber": 5
+      }
+    ],
+    "Atlas/Knowledge/tools/dev/nvim/how to print lua values in nvim.md": [
+      {
+        "title": "remind me",
+        "time": "2025-05-26",
+        "rowNumber": 21
       }
     ]
   },
   "debug": false,
   "settings": {
-    "reminderTime": "09:00",
-    "reminderTimeStep": 15,
-    "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
+    "reminderTime": "10:30",
+    "reminderTimeStep": 30,
+    "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nin 5 hours\nTomorrow\nIn 5 day\nNext week\nnext month",
     "useSystemNotification": false,
     "autoCompleteTrigger": "(@",
     "primaryReminderFormat": "ReminderPluginReminderFormat",

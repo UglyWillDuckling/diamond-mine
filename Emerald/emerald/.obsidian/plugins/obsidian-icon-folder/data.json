@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "📟",
       "LiCoins",
       "▶",
       "LiCode",
-      "LiNotebookText",
-      "LiTestTube"
+      "LiNotebookText"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -407,7 +407,6 @@
   "~/% tmpl/pages/movie.md": "🎥",
   "Atlas/Knowledge/Education/React/react study.md": "LiAtom",
   "work/bugs/archive/investigate estima - lead call - lead window -lead connection.md": "LiLink2off",
-  "work/bugs/qsl import issue/qsl import issue.md": "LiImport",
   "work/Projects/Backyard/Features/QSL listing feature": {
     "iconName": "LiListPlus",
     "iconColor": "#a349bc"
@@ -477,5 +476,6 @@
   "work/Projects/Backyard/Features/QSL listing feature/docs/features/CSV QSL Export Feature.md": {
     "iconName": "LiSheet",
     "iconColor": "#19b385"
-  }
+  },
+  "work/bugs/qsl import issue - missing pagination/qsl import issue - missing pagination.md": "📟"
 }

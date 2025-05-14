@@ -4,25 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "019e08d94ab52c68",
+        "id": "b7c0c78df75efa97",
         "type": "tabs",
         "children": [
           {
-            "id": "3c0b045278711b8c",
+            "id": "dc66741de84f91b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pro Git - Scott Chacon/Distributed Git/Distributed Git.md",
+                "file": "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-14-Wed.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Distributed Git"
+              "title": "2025-05-14-Wed"
+            }
+          },
+          {
+            "id": "6b0f2a041abb268c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-14-Wed.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-05-14-Wed"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5004348754883
+    "width": 270.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "a4cc5cab7d2ca3c4",
@@ -228,11 +245,14 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "3c0b045278711b8c",
+  "active": "6b0f2a041abb268c",
   "lastOpenFiles": [
+    "work/bugs/qsl import issue - missing pagination/qsl import issue - missing pagination.md",
+    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-14-Wed.md",
+    "Pro Git - Scott Chacon/Distributed Git/Distributed Git.md",
+    "Pro Git - Scott Chacon/Distributed Git/GPG pass phrase.md",
     "Clippings/Borrowing - Rust By Example.md",
     "Clippings/micrograd - A tiny scalar-valued autograd engine and a neural net library on top of it with PyTorch-like API.md",
-    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-14-Wed.md",
     "Clippings/Everything you need to know to configure neovim using lua  Devlog.md",
     "Atlas/Knowledge/tools/dev/nvim/Lua - Neovim docs.md",
     "Atlas/Knowledge/tools/dev/nvim/how to print lua values in nvim.md",
@@ -245,7 +265,6 @@
     "Clippings/location of nvim plugins.md",
     "work/bugs/archive/bug example.md",
     "work/bugs/archive/Diabolocom numbers issue - obsolete numbers in use.md",
-    "work/bugs/qsl import issue/qsl import issue.md",
     "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-05-Mon.md",
     "Clippings/location of neotest log file.md",
     "Atlas/Knowledge/tools/dev/Zellij/zellijdoc/theme-list - zellij.md",
@@ -254,8 +273,6 @@
     "Clippings/olimorrisneotest-phpunit 🧪 Neotest adapter for PHPUnit.md",
     "implemented a new way to run php unit test.md",
     "Atlas/Knowledge/tools/dev/nvim/vim.env.md",
-    "Efforts/Active/zellij First setup/zellij First setup.md",
-    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-12-Mon.md",
     "Knowledge/Books",
     "Knowledge",
     "Efforts/Active/zellij First setup",
@@ -268,7 +285,7 @@
     "work/Projects/Backyard/Features/QSL listing feature/how to's",
     "work/Projects/Backyard/Features/QSL listing feature/docs/features/aws import  impl..canvas",
     "work/Projects/Backyard/Features",
-    "work/bugs/qsl import issue",
+    "work/bugs/qsl import issue - missing pagination",
     "work/Projects/Backyard/Features/QSL listing feature/docs/code/Athena impl..canvas",
     "Atlas/Knowledge/daily_notes/2025/05-May",
     "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/favicon.png",

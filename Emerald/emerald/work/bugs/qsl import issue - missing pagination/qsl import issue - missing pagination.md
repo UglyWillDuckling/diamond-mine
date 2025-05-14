@@ -24,7 +24,9 @@ ___
 	- [x] ! **comment** on the impact of increasing the number of listings on the **UI** [^2]
 	- [x] communicate on the effort required
 	- [x] implement the **feature** with [[#pagination]]
-	- [ ] write tests
+	- [/] write tests
+		- [x] `ResultSetAthena`
+		- [ ] **pagination** test
 
 [^1]: [[pagination in development|pagination]]
 [^2]: [[frontend implementation| QSL listing - frontend]]

@@ -1,14 +1,13 @@
 ---
 source: https://www.youtube.com/watch?v=6B-SVpM8x2w
 author:
-  - "[[Intermation]]"
+  - "[[YouTube]]"
+published: 
 created: 2025-05-05
 tags:
   - college-resource/digitalna
-interest: 9
-score: 8
-reviewed: true
-parent: "[[Computer Organization and Design Fundamentals]]"
+interest: 8
+reviewed:
 ---
 ![](https://www.youtube.com/watch?v=6B-SVpM8x2w)  
 

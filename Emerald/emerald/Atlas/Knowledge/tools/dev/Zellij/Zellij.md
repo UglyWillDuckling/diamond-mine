@@ -9,7 +9,6 @@ main-tag: zellij
 ![Portrait|100](https://zellij.dev/img/logo.png)
 
 - [x] #task start using [[Zellij]] 🆔 so9XuP 🔼 ⏳ 2025-04-21 📅 2025-04-13 ✅ 2025-05-02
-	- [/] [[zellij setup]]
 
 A **terminal workspace** with `batteries` included
 ___
@@ -62,3 +61,10 @@ LIST
 FROM #docs/zellij
 SORT file.cday
 ```
+# features
+
+## session resurection
+
+Zellij preserves all sessions by default. Please see [[zellij - how to attach to a session]].
+
+If you wish to get rid of a session, you need to explicitly `destroy` it.

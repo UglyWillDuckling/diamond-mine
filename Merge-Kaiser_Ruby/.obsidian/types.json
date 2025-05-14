@@ -57,8 +57,6 @@
     "done": "checkbox",
     "reviewed": "checkbox",
     "date": "datetime",
-    "scheduled": "datetime",
-    "score": "number",
-    "parent": "text"
+    "scheduled": "datetime"
   }
 }

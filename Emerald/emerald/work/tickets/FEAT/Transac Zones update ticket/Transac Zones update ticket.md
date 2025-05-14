@@ -4,9 +4,9 @@ related::
 - [[call s Danijelom - handover]]
 - [[Transac zone update by Danijela]]
 
-- [/] #task fix [[SalesForceApi]] to send data to `media` 🆔 O0ejus
+- [/] #task fix [[SalesForceApi]] to send data to `media` 🆔 O0ejus #work
 
-- [/] #task handle `biz_product_coverage` table usage [[#Handle usage of biz_product_coverage table]] 🆔 mjQoyM
+- [/] #task handle `biz_product_coverage` table usage [[#Handle usage of biz_product_coverage table]] 🆔 mjQoyM #work
 	- [ ] **sync** feature
 	- [ ] **update** ticket 🎫
 

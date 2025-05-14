@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0223b11bd49f8875",
+            "id": "2496ba8c6565f4b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Life/Faks/Predmeti/Digitalna/digitalna elektronika.md",
+                "file": "Atlas/Life/Faks/faks - raspored za kraj 2025, godine - tablica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "digitalna elektronika"
-            }
-          },
-          {
-            "id": "b633f057c948eb2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Master Task List.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Master Task List"
+              "title": "faks - raspored za kraj 2025, godine - tablica"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.501522064209
+    "width": 319.5110321044922
   },
   "right": {
     "id": "3daebda00016f277",
@@ -246,48 +231,48 @@
       "obsidian-book-search-plugin:Create new book note": true
     }
   },
-  "active": "b633f057c948eb2c",
+  "active": "937564d863a6697f",
   "lastOpenFiles": [
-    "Atlas/Tools/obsidian/Obsidian.md",
-    "Atlas/Tools/obsidian/quickadd.md",
-    "Atlas/Tools/Dev/Hostinger Backup.md",
-    "Atlas/Tools/Boox Palma 2.md",
-    "Atlas/Tools/libgen-downloader.md",
-    "Atlas/Tools/markdown-wiki Vim.md",
-    "Atlas/Life/Faks/Predmeti/Digitalna/resursi/Asinhrona brojila.md",
-    "Master Task List.md",
-    "Zelena Zadruga.md",
-    "Atlas/Life/Faks/Predmeti/Digitalna/digitalna elektronika.md",
-    "Clippings/Ep 034 Basic Boolean Algebraic Simplification Examples.md",
-    "Atlas/Tools/Dev/React/React.md",
-    "Atlas/Tools/Dev",
-    "Calendar/daily/2025/2025-05-14-Wed.md",
-    "Atlas/Life/People/Nikola Stipešević.md",
-    "Calendar/daily/2025/2025-05-13-Tue.md",
-    "bend Chui.md",
-    "Clippings/Chui - Do Zvijezda (Full Album Official Audio) - YouTube.md",
-    "Clippings/Slavonski Brod Otvorenje 10. hrvatskog triennala akvarela.md",
-    "Ivica Malčić.md",
-    "application for Laravel position.md",
-    "Untitled.md",
-    "Clippings/First look at the Summer 2025 Predictions for Europe from the seasonal weather models.md",
-    "Calendar/daily/2025/2025-05-12-Mon.md",
-    "Calendar/daily/2025/2025-05-10-Sat.md",
-    "Calendar/daily/2025/2025-05-11-Sun.md",
-    "Calendar/daily/2025/2025-05-08-Thu.md",
-    "~/×/UNISB-IZV-INFO-II-IV-VI-revizija učionica-vrijedi od 31.03.2025_.pdf",
+    "Atlas/Life/Faks/Faks.md",
+    "Atlas/Life/Faks/faks - raspored za kraj 2025, godine - tablica.md",
+    "Calendar/daily/2025/2025-05-07-Wed.md",
+    "Calendar/Events/Meetings/razgovor s Bojanom.md",
     "Calendar/Events/Meetings",
+    "Udemy Courses.md",
+    "Movie List.md",
+    "Master Task List.md",
+    "🏡.md",
+    "Timestamps/2025/05-May/2025-05-05-Monday.md",
+    "GNU Make Tutorial.md",
+    "Atlas/Knowledge/History/Prehistoric/Dinosaurs/Stegosaurus.md",
     "Atlas/Knowledge/History/Prehistoric/Dinosaurs",
+    "Dinosaurs/Triceratops.md",
+    "Clippings/South Dakota loo.md",
     "Dinosaurs",
+    "Clippings/Ungulate.md",
+    "Calendar/daily/2025/2025-05-06-Tue.md",
+    "Timestamps/2025/05-May",
+    "Timestamps/2025",
+    "Timestamps",
+    "Clippings/Environment variables - ArchWiki.md",
+    "Clippings/Ep 031 Identities of Boolean Algebra.md",
+    "Atlas/Life/Faks/Predmeti/Digitalna/resursi/Ep 030 Introduction to Boolean Algebra.md",
+    "Atlas/Life/Faks/Predmeti/Digitalna/resursi/Asinhrona brojila.md",
     "Atlas/Life/Faks/Predmeti/Digitalna/resursi",
+    "DAS - watchlist/das-0022-test-isolation-and-refactoring.md",
+    "DAS - watchlist/DAS - watchlist.md",
+    "DAS - watchlist/das-0074-splitting-active-record-models.md",
+    "DAS - watchlist/das-0073-collapsing-services-into-values.md",
+    "DAS - watchlist/das-0061-pushing-complexity-down.md",
+    "DAS - watchlist/das-0071-test-isolation-without-mocks.md",
+    "DAS - watchlist/das-0005-extracting-domain-objects.md",
     "physical items",
     "DAS - watchlist/das-0079-primitive-obsession.mp4",
     "DAS - watchlist/das-0088-test-recommendations.mp4",
-    "~/×/das-0002-how-and-why-to-avoid-nil.mp4",
     "tasks canvas.canvas",
-    "Atlas/Tools/Dev/React/documentation/attachements/unnamed.png",
-    "Atlas/Tools/Dev/React/documentation/attachements/sharing_data_parent_clicked.webp",
-    "Atlas/Tools/Dev/React/documentation/attachements/sharing_data_parent.webp",
+    "React/documentation/attachements/unnamed.png",
+    "React/documentation/attachements/sharing_data_parent_clicked.webp",
+    "React/documentation/attachements/sharing_data_parent.webp",
     "localai.io/7b16676e-d5b1-4c97-89bd-9fa5065c21ad_7786675119832255465.gif",
     "localai.io/8ca277cf-c208-4562-8929-808b2324b584_8893940777665839621.gif",
     "localai.io/b8cadddf-a467-49cf-a1ed-8850de95366d_2274280574799932814.png",

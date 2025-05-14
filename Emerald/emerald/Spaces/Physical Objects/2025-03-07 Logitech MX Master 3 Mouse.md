@@ -1,8 +1,9 @@
 ---
-
 Purchased: 2025-03-07
 Price: 
-URL:
+URL: 
+tags:
+  - physical-item/mouse
 ---
 tags:: [[🛍️ Physical Objects MOC]], computer-mouse
 

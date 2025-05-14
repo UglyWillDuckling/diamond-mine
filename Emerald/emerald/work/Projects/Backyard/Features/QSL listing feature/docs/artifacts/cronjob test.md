@@ -31,5 +31,3 @@ related:
 ### update cron def
 - [x] add **file logging**
 - [x] check the logs on VM
-
-- ! doesn't work, [[gcloud CLI]] throws an error -> missing `python`

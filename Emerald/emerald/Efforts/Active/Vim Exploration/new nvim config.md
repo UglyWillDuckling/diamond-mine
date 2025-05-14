@@ -4,10 +4,10 @@ uses:
 ---
 #project 
 
-- [/] #task/nvim work on [[new nvim config]] #longterm  🆔 Tag1Xq
+- [x] #task/nvim work on [[new nvim config]] #longterm  🆔 Tag1Xq ✅ 2025-05-12
 	- [x] resolve [[conflict between txt object plugins]]: [[min.ai]] | [[targets.vim]]
 ___
-# 🗒 Notes 
+# 🗒 Notes
 - ..
 # 🗺 crucial mappings
 - ..
@@ -60,3 +60,7 @@ ___
 - [/] implement full support for [[phpactor]]
 	- [x] install and setup
 	- [ ] configure for **legacy** project
+
+## php - phpactor
+[[phpactor]]
+

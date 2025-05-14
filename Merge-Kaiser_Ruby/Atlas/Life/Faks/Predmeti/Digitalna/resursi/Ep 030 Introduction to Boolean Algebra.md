@@ -9,9 +9,6 @@ tags:
   - college-resource/digitalna
 interest: 9
 reviewed: true
-part of:
-  - "[[Computer Organization and Design Fundamentals]]"
-parent: "[[Computer Organization and Design Fundamentals]]"
 ---
 
 ![vid|100](https://www.youtube.com/watch?v=_COKT-0JiOg)  

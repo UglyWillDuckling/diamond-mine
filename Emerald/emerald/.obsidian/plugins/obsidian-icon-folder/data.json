@@ -414,7 +414,6 @@
   },
   "work/Projects/Backyard/Features/QSL listing feature/QSL listing feature.md": "LiList",
   "work/Projects/Backyard/Features/QSL listing feature/archive": "LiArchive",
-  "work/Projects/Backyard/Features/QSL listing feature/artifacts": "🎨",
   "work/Projects/Backyard/Features/QSL listing feature/docs": "LiFolder",
   "work/Projects/Backyard/Features/QSL listing feature/archive/QSL - missing links issue.md": {
     "iconName": "LiBrokenLink",
@@ -429,11 +428,6 @@
   "work/Projects/Backyard/Features/QSL listing feature/archive/qsl dev aws import test.md": "🧪",
   "work/Projects/Backyard/Features/QSL listing feature/archive/refactoring of configuration.md": "🏬",
   "work/Projects/Backyard/Features/QSL listing feature/archive/research how to add a cronjob.md": "LiClock",
-  "work/Projects/Backyard/Features/QSL listing feature/artifacts/CSV QSL Export Feature.md": {
-    "iconName": "LiSheet",
-    "iconColor": "#19b385"
-  },
-  "work/Projects/Backyard/Features/QSL listing feature/artifacts/cronjob test.md": "🎨",
   "work/Projects/Backyard/Features/QSL listing feature/archive/archive/Create DB table.md": {
     "iconName": "LiTable",
     "iconColor": "#5729ae"
@@ -477,5 +471,11 @@
   "work/people/LUNA/luna team.md": "LiMoonStar",
   "work/people/NOVA/Yoan Haouzi.md": "🍟",
   "work/Projects/Backyard/Features/QSL listing feature/how to's": "▶",
-  "work/Projects/Backyard/Features/QSL listing feature/how to's/how to get GCP token.md": "LiCoins"
+  "work/Projects/Backyard/Features/QSL listing feature/how to's/how to get GCP token.md": "LiCoins",
+  "work/Projects/Backyard/Features/QSL listing feature/docs/artifacts": "🎨",
+  "work/Projects/Backyard/Features/QSL listing feature/docs/artifacts/cronjob test.md": "🎨",
+  "work/Projects/Backyard/Features/QSL listing feature/docs/features/CSV QSL Export Feature.md": {
+    "iconName": "LiSheet",
+    "iconColor": "#19b385"
+  }
 }

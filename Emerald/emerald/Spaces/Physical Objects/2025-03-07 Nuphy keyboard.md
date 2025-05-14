@@ -3,6 +3,7 @@ Purchased: 2025-03-07
 Price: 
 URL: 
 tags:
+  - physical-item/keyboard
 ---
 tags:: [[🛍️ Physical Objects MOC]]
 

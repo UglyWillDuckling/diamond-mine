@@ -3,6 +3,9 @@ id: Master Task List
 tags:
   - task-list
 ---
+
+- [ ] #task **Faks** - pogledati raspored ispita i prijaviti ispite po potrebi 🔼 ⏳ 2025-05-15 📅 2025-05-11
+- [ ] #task **Kontaktirati** [[Zelena Zadruga|zelenu zadrugu]] 📅 2025-05-15
 - [ ] #task Apply to [[Bolt]] for work 🔼 📅 2025-05-04 🆔 0k90Er
 	- [[bolt job application]]
 - [ ] #task import something from [[Notion]] 🔼 ⏳ 2025-05-04 📅 2025-05-10 🆔 F2nx7C

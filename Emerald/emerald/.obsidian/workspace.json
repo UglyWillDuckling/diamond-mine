@@ -4,76 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "6e7a96caf60ac9f2",
+        "id": "7b4c1e9c04843007",
         "type": "tabs",
-        "dimension": 56.118143459915615,
         "children": [
           {
-            "id": "fa9194240171e2e0",
+            "id": "9638b883e52a6368",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sets/Types/meetingType.md",
+                "file": "Sets/MovieSet/MovieSet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "meetingType"
+              "title": "MovieSet"
             }
           },
           {
-            "id": "8081c3b63d2e9f53",
+            "id": "d9dc27be5b7a7e9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sets/MeetingSet/MeetingSet.md",
+                "file": "Clippings/obsidian-sets docs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "MeetingSet"
-            }
-          },
-          {
-            "id": "1cf8ca3782fed1eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-15-Thu.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-05-15-Thu"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "a5072b477e21caab",
-        "type": "tabs",
-        "dimension": 43.88185654008439,
-        "children": [
-          {
-            "id": "8c851ef3b5695150",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/obsidian-sets docsdoc.md.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "obsidian-sets docsdoc.md"
+              "title": "obsidian-sets docs"
             }
           }
         ]
@@ -108,10 +69,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gpg",
+                "query": "undoing things",
                 "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
+                "explainSearch": true,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -133,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.50152587890625,
+    "width": 330.5110321044922,
     "collapsed": true
   },
   "right": {
@@ -150,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-15-Thu.md",
+                "file": "Sets/MovieSet/Aliens.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-05-15-Thu"
+              "title": "Backlinks for Aliens"
             }
           },
           {
@@ -294,14 +255,35 @@
       "dbfolder:Create a new database table": true
     }
   },
-  "active": "1cf8ca3782fed1eb",
+  "active": "9638b883e52a6368",
   "lastOpenFiles": [
-    "work/bugs/qsl import issue - missing pagination/qsl import issue - missing pagination.md",
+    "Clippings/obsidian-sets docs.md",
+    "Sets/MovieSet/MovieSet.md",
+    "Sets/MovieSet/Up.md",
     "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-15-Thu.md",
-    "Clippings/obsidian-sets docsdoc.md.md",
+    "Knowledge/Media/Three Times.md",
+    "Atlas/Knowledge/tools/dev/obsidian-sets.md",
+    "~/x/d136608e8bbe399debcc1513a2c08b32_MD5.jpg",
+    "Sets/MovieSet/Aliens.md",
+    "Sets/MovieSet/MovieSet.md~",
+    "Sets/Types/movieType.md",
+    "~/x/cf4f554afb2ab9f4904dc57b21fbc382_MD5.jpg",
+    "Clippings/kraibseobsidian-table-sorting This essential plugin will finally allow you to organize your tables non-destructively right within Obsidian. Sorting by multiple columns is supported!.md",
+    "Atlas/Knowledge/concepts/computer science/undefined.md",
+    "Sets/MovieSet/James Cameron.md",
     "Sets/Types/meetingType.md",
+    "~/% tmpl/pages/movie.md",
+    "Knowledge/Media",
+    "Knowledge",
+    "Sets/MovieSet",
+    "Pro Git - Scott Chacon/Pro Git (1).md",
+    "Pro Git - Scott Chacon/git verify commit.md",
+    "Pro Git - Scott Chacon/git restore.md",
+    "Pro Git - Scott Chacon/Pro Git - Scott Chacon.md",
+    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Basic Snapshotting/git commit.md",
+    "Pro Git - Scott Chacon/images/scripting-03-webhook.png",
     "Sets/MeetingSet/MeetingSet.md",
-    "Clippings/obsidian-sets.md",
+    "work/bugs/qsl import issue - missing pagination/qsl import issue - missing pagination.md",
     "Sets/MeetingSet/first meet ever.md",
     "Sets/MeetingSet",
     "Sets/Types",
@@ -310,29 +292,10 @@
     "work/tickets/FEAT/Features db.md",
     "work/tickets/FEAT/bealzebub.md",
     "work/tickets/FEAT/new note.md",
-    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
-    "work/tickets/FEAT/Transac Zones update ticket/Investigate Usage of product_coverage table on Backyard.md",
-    "Clippings/vim-notes.md",
-    "Atlas/Knowledge/tools/dev/nvim/vimwiki.md",
-    "Atlas/Knowledge/tools/dev/nvim/note - Alt+space opens cmd search.md",
     "index.md~",
     "Efforts/Active/Obsidian Tinkering/display data in tables.md~",
     "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md~",
-    "diary",
-    "index.md",
-    "work/tickets/FEAT/Transac Zones update ticket/setup Pyton env for salesforce.md",
-    "Clippings/Database Folder - db Folder.md",
-    "work/calls/SalesForceApi.md",
-    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
-    "Efforts/tasks/dev/Obsidian/Untitled.md",
-    "Efforts/master task list.md",
-    "work/tickets/FEAT/Transac Zones update ticket/list of places that modify table biz_product_coverage.md",
-    "work/work.md",
-    "work/tickets/FEAT/Transac Zones update ticket/Untitled 2.md",
     "work/tickets/event issue solution canvas.canvas",
-    "Knowledge/Books",
-    "Knowledge",
-    "Efforts/Active/zellij First setup",
     "work/Projects/Backyard/Features/QSL listing feature/docs/artifacts/crontab board.canvas",
     "work/Projects/Backyard/Features/QSL listing feature/docs/code/aws test script solution.canvas",
     "work/docs/CRM/CRM.canvas",
@@ -345,10 +308,7 @@
     "tmp/Templater/favicon.svg",
     "tmp/Templater/favicon.png",
     "tmp/silentvoid13.github.io/Templater/imgs/templater_user_templates.png",
-    "tmp/silentvoid13.github.io/Templater/favicon.png",
-    "tmp/silentvoid13.github.io/Templater/favicon.svg",
     "tasks canvas.canvas",
-    "Pro Git - Scott Chacon/images/commit-and-tree.png",
     "work/tickets/FEAT/Transac Zones update ticket/coverage update canvas.canvas"
   ]
 }

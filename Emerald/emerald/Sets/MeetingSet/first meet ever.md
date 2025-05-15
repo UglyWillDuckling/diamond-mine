@@ -1,7 +1,7 @@
 ---
 type: meeting
-created: 
-scheduled: 2025-05-16T16:15:00
+created: 2025-05-15
+scheduled: 2025-05-17T16:12:00
 related: 
 participants:
   - "[[Alan Jaouen]]"

@@ -1,5 +1,5 @@
 {
-  "showAtStartup": true,
+  "showAtStartup": false,
   "setsRoot": "Sets",
   "typeSetSuffix": "Set",
   "typesFolder": "Types",

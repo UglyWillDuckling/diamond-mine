@@ -1,6 +1,0 @@
-
-= My knowledge base =
-    * Tasks -- things to be done _yesterday_!!!
-    * Project Gutenberg -- good books are power.
-    * Scratchpad -- various temporary stuff.
-    *

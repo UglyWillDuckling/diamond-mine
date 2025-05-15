@@ -5,13 +5,13 @@ scope:
   - meeting
 fields:
   - __bname
-  - created
   - scheduled
+  - created
   - related
   - participants
 sortby:
   - - scheduled
     - true
-timestamp: 1747318614349
+timestamp: 1747319124993
 
 ```

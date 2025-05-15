@@ -3,11 +3,12 @@ type: meeting
 created: 
 scheduled: 
 related: 
-participants:
+participants: 
+previous: 
+meeting type:
 ---
 meeting Archetype: add the properties of the meeting here
 
+**All** **meetings** should adhere to this data structure.
 
-All meetings should adhere to this data structure.
-
-Additonal properites may of course be added.
+==Additonal== properites may of course be added.

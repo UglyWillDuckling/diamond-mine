@@ -64,6 +64,13 @@
     "resolved_date": "date",
     "installed": "checkbox",
     "active": "checkbox",
-    "examples": "multitext"
+    "examples": "multitext",
+    "director": "multitext",
+    "writer": "number",
+    "screenwriter": "multitext",
+    "genre": "multitext",
+    "actors": "multitext",
+    "cast": "multitext",
+    "watched": "checkbox"
   }
 }

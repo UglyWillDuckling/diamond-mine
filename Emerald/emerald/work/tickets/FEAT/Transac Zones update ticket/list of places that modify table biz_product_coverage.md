@@ -1,3 +1,4 @@
+done:: true
 #artifact/doc
 
 part_of:: [[Transac Zones update ticket]]

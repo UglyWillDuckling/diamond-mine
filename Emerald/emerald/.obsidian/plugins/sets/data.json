@@ -1,0 +1,35 @@
+{
+  "showAtStartup": true,
+  "setsRoot": "Sets",
+  "typeSetSuffix": "Set",
+  "typesFolder": "Types",
+  "typesSuffix": "Type",
+  "typeAttributeKey": "type",
+  "collectionsRoot": "Collections",
+  "collectionAttributeKey": "collection",
+  "collectionType": "collection",
+  "inferCollectionFieldsByDefault": true,
+  "inferSetFieldsByDefault": false,
+  "inferQueryFieldsByDefault": false,
+  "createObjectsInSetsFolder": false,
+  "topResults": 200,
+  "topResultsWidget": 10,
+  "registerCustomTypes": true,
+  "sidebarState": {
+    "typesCollapsed": false,
+    "collectionsCollapsed": false,
+    "widgets": [
+      {
+        "title": "New widget",
+        "collapsed": false,
+        "definition": {
+          "scope": [
+            "type",
+            "meeting"
+          ],
+          "timestamp": 1747317190492
+        }
+      }
+    ]
+  }
+}

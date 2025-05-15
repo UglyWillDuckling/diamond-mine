@@ -50,32 +50,17 @@
       "y": -720
     },
     {
-      "autoResizeHeight": true,
-      "color": "4",
+      "autoResizeHeight": false,
+      "color": "6",
       "height": 60,
-      "id": "8bff9f65148d70d8",
+      "id": "8c394000ca11fd97",
       "styleAttributes": {
-        "textAlign": "center"
       },
-      "text": "**reproduce** \n",
+      "text": "debug\n",
       "type": "text",
-      "width": 320,
-      "x": -1080,
-      "y": -680
-    },
-    {
-      "autoResizeHeight": true,
-      "color": "4",
-      "height": 60,
-      "id": "5a168dbb4412b6c1",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "**ask** Paulo what happened\n",
-      "type": "text",
-      "width": 290,
-      "x": -1010,
-      "y": -580
+      "width": 260,
+      "x": -460,
+      "y": -520
     },
     {
       "autoResizeHeight": false,
@@ -88,8 +73,22 @@
       "text": "think about the problem\n\n",
       "type": "text",
       "width": 560,
-      "x": -582,
-      "y": -680
+      "x": -596,
+      "y": -660
+    },
+    {
+      "autoResizeHeight": true,
+      "color": "4",
+      "height": 60,
+      "id": "5a168dbb4412b6c1",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "**ask** Paulo what happened\n",
+      "type": "text",
+      "width": 290,
+      "x": -1035,
+      "y": -550
     },
     {
       "color": "4",
@@ -100,8 +99,8 @@
       "text": "examine the logs\n",
       "type": "text",
       "width": 315,
-      "x": -1022,
-      "y": -490
+      "x": -1047,
+      "y": -460
     },
     {
       "autoResizeHeight": true,
@@ -113,21 +112,22 @@
       "text": "check git logs\n",
       "type": "text",
       "width": 260,
-      "x": -995,
-      "y": -390
+      "x": -1020,
+      "y": -360
     },
     {
-      "autoResizeHeight": false,
-      "color": "6",
+      "autoResizeHeight": true,
+      "color": "4",
       "height": 60,
-      "id": "8c394000ca11fd97",
+      "id": "8bff9f65148d70d8",
       "styleAttributes": {
+        "textAlign": "center"
       },
-      "text": "debug\n",
+      "text": "**reproduce** \n",
       "type": "text",
-      "width": 260,
-      "x": -460,
-      "y": -550
+      "width": 320,
+      "x": -1065,
+      "y": -660
     },
     {
       "autoResizeHeight": false,
@@ -140,8 +140,8 @@
       "text": "examine the codebase\n\n",
       "type": "text",
       "width": 527,
-      "x": -580,
-      "y": -373
+      "x": -563,
+      "y": -360
     }
   ]
 }

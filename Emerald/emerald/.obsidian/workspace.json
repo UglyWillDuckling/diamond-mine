@@ -4,41 +4,79 @@
     "type": "split",
     "children": [
       {
-        "id": "b7c0c78df75efa97",
+        "id": "6e7a96caf60ac9f2",
         "type": "tabs",
+        "dimension": 56.118143459915615,
         "children": [
           {
-            "id": "dc66741de84f91b2",
+            "id": "fa9194240171e2e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-14-Wed.md",
+                "file": "Sets/Types/meetingType.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-14-Wed"
+              "title": "meetingType"
             }
           },
           {
-            "id": "6b0f2a041abb268c",
+            "id": "8081c3b63d2e9f53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-14-Wed.md",
+                "file": "Sets/MeetingSet/MeetingSet.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-14-Wed"
+              "title": "MeetingSet"
+            }
+          },
+          {
+            "id": "1cf8ca3782fed1eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-15-Thu.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-05-15-Thu"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "a5072b477e21caab",
+        "type": "tabs",
+        "dimension": 43.88185654008439,
+        "children": [
+          {
+            "id": "8c851ef3b5695150",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/obsidian-sets docsdoc.md.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "obsidian-sets docsdoc.md"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,12 +129,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 270.5004348754883,
+    "width": 342.50152587890625,
     "collapsed": true
   },
   "right": {
@@ -113,6 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-15-Thu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +160,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2025-05-15-Thu"
             }
           },
           {
@@ -211,9 +249,19 @@
               "icon": "clock",
               "title": "Reminders"
             }
+          },
+          {
+            "id": "10ebd5a02f6a0ae7",
+            "type": "leaf",
+            "state": {
+              "type": "Sets-view",
+              "state": {},
+              "icon": "database",
+              "title": "Sets"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -242,52 +290,54 @@
       "templater-obsidian:Templater": true,
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true,
       "juggl:Juggl global graph": true,
-      "cmdr:Daily notes: Open today's daily note": false
+      "cmdr:Daily notes: Open today's daily note": false,
+      "dbfolder:Create a new database table": true
     }
   },
-  "active": "6b0f2a041abb268c",
+  "active": "1cf8ca3782fed1eb",
   "lastOpenFiles": [
     "work/bugs/qsl import issue - missing pagination/qsl import issue - missing pagination.md",
-    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-14-Wed.md",
-    "Pro Git - Scott Chacon/Distributed Git/Distributed Git.md",
-    "Pro Git - Scott Chacon/Distributed Git/GPG pass phrase.md",
-    "Clippings/Borrowing - Rust By Example.md",
-    "Clippings/micrograd - A tiny scalar-valued autograd engine and a neural net library on top of it with PyTorch-like API.md",
-    "Clippings/Everything you need to know to configure neovim using lua  Devlog.md",
-    "Atlas/Knowledge/tools/dev/nvim/Lua - Neovim docs.md",
-    "Atlas/Knowledge/tools/dev/nvim/how to print lua values in nvim.md",
-    "Atlas/Knowledge/tools/dev/nvim/neotest-pest Neotest adapter for Pest.md",
-    "Clippings/Getting started with tree-sitter.md",
-    "Atlas/Knowledge/tools/dev/nvim/neotest - php watch_query.md",
-    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-13-Tue.md",
-    "Atlas/Knowledge/tools/dev/nvim/Neotest.md",
-    "Clippings/Tree-sitter.md",
-    "Clippings/location of nvim plugins.md",
-    "work/bugs/archive/bug example.md",
-    "work/bugs/archive/Diabolocom numbers issue - obsolete numbers in use.md",
-    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-05-Mon.md",
-    "Clippings/location of neotest log file.md",
-    "Atlas/Knowledge/tools/dev/Zellij/zellijdoc/theme-list - zellij.md",
-    "Atlas/Knowledge/tools/dev/Zellij/zellijdoc/theme-list.html.md",
-    "Atlas/Knowledge/tools/dev/Zellij/zellijdoc/themes.md",
-    "Clippings/olimorrisneotest-phpunit 🧪 Neotest adapter for PHPUnit.md",
-    "implemented a new way to run php unit test.md",
-    "Atlas/Knowledge/tools/dev/nvim/vim.env.md",
+    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-15-Thu.md",
+    "Clippings/obsidian-sets docsdoc.md.md",
+    "Sets/Types/meetingType.md",
+    "Sets/MeetingSet/MeetingSet.md",
+    "Clippings/obsidian-sets.md",
+    "Sets/MeetingSet/first meet ever.md",
+    "Sets/MeetingSet",
+    "Sets/Types",
+    "Sets",
+    "Efforts/Active/Obsidian Tinkering/display data in tables.md",
+    "work/tickets/FEAT/Features db.md",
+    "work/tickets/FEAT/bealzebub.md",
+    "work/tickets/FEAT/new note.md",
+    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+    "work/tickets/FEAT/Transac Zones update ticket/Investigate Usage of product_coverage table on Backyard.md",
+    "Clippings/vim-notes.md",
+    "Atlas/Knowledge/tools/dev/nvim/vimwiki.md",
+    "Atlas/Knowledge/tools/dev/nvim/note - Alt+space opens cmd search.md",
+    "index.md~",
+    "Efforts/Active/Obsidian Tinkering/display data in tables.md~",
+    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md~",
+    "diary",
+    "index.md",
+    "work/tickets/FEAT/Transac Zones update ticket/setup Pyton env for salesforce.md",
+    "Clippings/Database Folder - db Folder.md",
+    "work/calls/SalesForceApi.md",
+    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
+    "Efforts/tasks/dev/Obsidian/Untitled.md",
+    "Efforts/master task list.md",
+    "work/tickets/FEAT/Transac Zones update ticket/list of places that modify table biz_product_coverage.md",
+    "work/work.md",
+    "work/tickets/FEAT/Transac Zones update ticket/Untitled 2.md",
+    "work/tickets/event issue solution canvas.canvas",
     "Knowledge/Books",
     "Knowledge",
     "Efforts/Active/zellij First setup",
-    "Efforts/Done",
-    "Efforts/Simmering",
-    "Efforts/Ongoing",
     "work/Projects/Backyard/Features/QSL listing feature/docs/artifacts/crontab board.canvas",
     "work/Projects/Backyard/Features/QSL listing feature/docs/code/aws test script solution.canvas",
     "work/docs/CRM/CRM.canvas",
-    "work/Projects/Backyard/Features/QSL listing feature/how to's",
     "work/Projects/Backyard/Features/QSL listing feature/docs/features/aws import  impl..canvas",
-    "work/Projects/Backyard/Features",
-    "work/bugs/qsl import issue - missing pagination",
     "work/Projects/Backyard/Features/QSL listing feature/docs/code/Athena impl..canvas",
-    "Atlas/Knowledge/daily_notes/2025/05-May",
     "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/favicon.png",
     "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/favicon.svg",
     "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/imgs/templater_user_templates.png",

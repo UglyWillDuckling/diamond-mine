@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiDatabase",
       "📟",
       "LiCoins",
       "▶",
-      "LiCode",
-      "LiNotebookText"
+      "LiCode"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -477,5 +477,9 @@
     "iconName": "LiSheet",
     "iconColor": "#19b385"
   },
-  "work/bugs/qsl import issue - missing pagination/qsl import issue - missing pagination.md": "📟"
+  "work/bugs/qsl import issue - missing pagination/qsl import issue - missing pagination.md": "📟",
+  "work/tickets/FEAT/Features db.md": {
+    "iconName": "LiDatabase",
+    "iconColor": "#e5f415"
+  }
 }

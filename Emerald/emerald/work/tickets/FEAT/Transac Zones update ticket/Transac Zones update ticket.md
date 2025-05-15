@@ -1,4 +1,10 @@
-#ticket 
+---
+status:
+  - In Progress
+tags:
+  - ticket/feature
+done:
+---
 
 related:: 
 - [[call s Danijelom - handover]]

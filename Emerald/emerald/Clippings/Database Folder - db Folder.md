@@ -1,14 +1,18 @@
 ---
-title: Database Folder
+aliases:
+  - db folder
 source: https://rafaelgb.github.io/obsidian-db-folder/
 author:
   - "[[rafael gb]]"
 published: 
 created: 2024-12-03
-description: 
 tags:
-  - clippings
   - active
+  - plugin/obsidian
+installed: true
+active: true
+examples:
+  - "[[Features db]]"
 ---
 ## Welcome to Obsidian Database Folder!
 

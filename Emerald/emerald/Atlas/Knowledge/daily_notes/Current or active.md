@@ -2,8 +2,8 @@
 
 ## current 📓
 
-^8067b7
-
-- [[Team Create-Edit Modal Component]]
+- [[qsl import issue - missing pagination]]
+- [[update of DNS on Backyard]]
 - [[Transac Zones update ticket]]
+
 ^current

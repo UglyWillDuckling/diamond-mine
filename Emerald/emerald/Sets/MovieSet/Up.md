@@ -1,14 +1,16 @@
 ---
 type: movie
 description: 
-director: 
+director:
+  - "[[James Cameron]]"
 screenwriter: 
 cover:
   - "[[special_case.jpg]]"
 genre:
   - adventure
   - animation
-cast: 
+cast:
+  - "[[Michael Biehn]]"
 tags:
   - movie
 year: 

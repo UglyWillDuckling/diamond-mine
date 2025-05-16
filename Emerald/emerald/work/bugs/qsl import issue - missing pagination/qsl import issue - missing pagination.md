@@ -24,7 +24,7 @@ ___
 	- [x] ! **comment** on the impact of increasing the number of listings on the **UI** [^2]
 	- [x] communicate on the effort required
 	- [x] implement the **feature** with [[#pagination]]
-	- [ ] fix broken tests
+	- [x] fix broken tests
 	- [/] write tests
 		- [x] `ResultSetAthena`
 		- [ ] **pagination** test

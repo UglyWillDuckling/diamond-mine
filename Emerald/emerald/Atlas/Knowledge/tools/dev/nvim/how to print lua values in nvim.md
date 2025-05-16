@@ -1,5 +1,5 @@
 
-# tables
+## tables
 
 ```lua
 -- in vim
@@ -12,10 +12,11 @@ print(vim.inspect(your_table))
 ```
 
 ```lua
+-- in lua
 vim.print(package.loaded)
 ```
 
-> from:: 
+> from::
  - [[Everything you need to know to configure neovim using lua  Devlog#print tables]]
  - [[Lua - Neovim docs]]
 

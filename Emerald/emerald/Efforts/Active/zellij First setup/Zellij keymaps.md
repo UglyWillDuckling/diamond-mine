@@ -6,7 +6,7 @@
 - [x] add a quick way to move tabs around
 - [x] **global** `close` pane
 - [x] remap **popup** window to `ctrl alt f`
-
+- [ ] remap move,focus and resize - switch them up
 # maps to remember
 
 | map         | result                           | done |

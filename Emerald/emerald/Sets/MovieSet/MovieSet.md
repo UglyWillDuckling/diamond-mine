@@ -1,4 +1,5 @@
 
+# all
 ```set
 scope:
   - type
@@ -34,29 +35,29 @@ calculatedFields:
 
 ```
 
-# watch plan
+# watch plan 👀
+
 ```set
 scope:
   - type
   - movie
 fields:
-  - __bname
   - director
+  - __bname
   - cast
   - year
   - name and year
   - rating
   - rate
   - watched
-timestamp: 1747327356869
+timestamp: 1747328505801
 viewMode: board
 gallery:
   transclude:
     - cover
-    - watched
   minWidth: 300
 calculatedFields:
-  name and year: prop("year")
+  name and year: prop("__bname") + ", " + prop("year")
   rate: |-
     const fullStars = Math.floor(prop("rating")) / 2; 
     let result = '';     
@@ -69,6 +70,5 @@ board:
   lanes:
     - want to watch
     - watch again
-    - watched
 
 ```

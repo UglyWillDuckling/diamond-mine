@@ -33,7 +33,3 @@ Please see full documentation [here](https://github.com/Canna71/obsidian-sets/bl
 - Integration with other plugins (Templater, etc)
 - More properties types (Enums, etc)
 - Joins
-
-## Acknowledgements
-
-Thanks to [Obsidian Typings](https://github.com/Fevol/obsidian-typings) for the extended typings

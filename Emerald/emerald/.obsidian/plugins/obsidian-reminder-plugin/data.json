@@ -12,24 +12,17 @@
       {
         "title": "remind me",
         "time": "2025-05-26",
-        "rowNumber": 21
+        "rowNumber": 22
       }
     ],
-    "work/notes/implemented a new way to run php unit test.md": [
+    "Atlas/Knowledge/tools/dev/nvim/note - Alt+space opens cmd search on KDE.md": [
       {
-        "title": "remind me",
-        "time": "2025-05-19",
+        "title": "bi-weekly",
+        "time": "2025-05-29",
         "rowNumber": 5
       }
     ],
-    "Atlas/Knowledge/tools/dev/nvim/note - Alt+space opens cmd search.md": [
-      {
-        "title": "reminder",
-        "time": "2025-05-23",
-        "rowNumber": 4
-      }
-    ],
-    "Pro Git - Scott Chacon/git verify commit.md": [
+    "Atlas/Knowledge/tools/dev/git/git verify-commit.md": [
       {
         "title": "remind me",
         "time": "2025-05-27",

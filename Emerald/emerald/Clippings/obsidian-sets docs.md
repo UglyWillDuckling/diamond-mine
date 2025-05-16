@@ -101,7 +101,7 @@ If you go to the Set folder that was created, you will see a note with the same 
 
 In order to display items of this type in a different note, you can create a view, by adding a code block as described above, and then specifying the scope as `Type` and the type as the one you just created.
 
-[![Enter Type Name](https://github.com/Canna71/obsidian-sets/raw/main/docs/image.png)](https://github.com/Canna71/obsidian-sets/blob/main/docs/image.png)
+[![Enter Type Name|600](https://github.com/Canna71/obsidian-sets/raw/main/docs/image.png)](https://github.com/Canna71/obsidian-sets/blob/main/docs/image.png)
 
 More on queries and views later.
 
@@ -111,7 +111,7 @@ A collection is a set of items that are explicitely added to it. In other words,
 
 You create a collection by using the command `Sets: Create a new collection`. It will ask you a name:
 
-[![Collection Name](https://github.com/Canna71/obsidian-sets/raw/main/docs/image-1.png)](https://github.com/Canna71/obsidian-sets/blob/main/docs/image-1.png)
+[![Collection Name|600](https://github.com/Canna71/obsidian-sets/raw/main/docs/image-1.png)](https://github.com/Canna71/obsidian-sets/blob/main/docs/image-1.png)
 
 After you click save, it will create the following:
 

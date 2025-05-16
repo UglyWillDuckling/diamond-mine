@@ -3,6 +3,6 @@ Simply adding a `phpunit.xml` [^1] enables you to run [[phpunit]]  directly, **w
 
 ==Much fast and simpler== 👍
 
-- [ ] remind me (@[[2025-05-19]])
+- [x] remind me (@[[2025-05-19]])
 
 [^1]: [[phpunit.xml config]]

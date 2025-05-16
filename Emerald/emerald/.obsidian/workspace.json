@@ -13,31 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sets/MovieSet/MovieSet.md",
+                "file": "Atlas/Knowledge/tools/dev/git/git verify-commit.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "MovieSet"
+              "title": "git verify-commit"
             }
           },
           {
-            "id": "d9dc27be5b7a7e9d",
+            "id": "54544a40d91af588",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/obsidian-sets docs.md",
+                "file": "Atlas/Knowledge/tools/dev/git/lazygit - mappings.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "obsidian-sets docs"
+              "title": "lazygit - mappings"
+            }
+          },
+          {
+            "id": "4eee707b0e9e87f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Knowledge/tools/dev/git/how to shift params in bash.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "how to shift params in bash"
+            }
+          },
+          {
+            "id": "5421d3821ec6d18e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "work/notes/It might just be best to schedule a dedicated time for reminders review.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "It might just be best to schedule a dedicated time for reminders review"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5110321044922,
+    "width": 279.5,
     "collapsed": true
   },
   "right": {
@@ -104,6 +135,7 @@
       {
         "id": "4c72f380de770d19",
         "type": "tabs",
+        "dimension": 70.28218694885362,
         "children": [
           {
             "id": "0295735161264f4f",
@@ -111,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sets/MovieSet/Aliens.md",
+                "file": "Atlas/Knowledge/tools/dev/git/lazygit - mappings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +153,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Aliens"
+              "title": "Backlinks for lazygit - mappings"
             }
           },
           {
@@ -130,79 +162,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Knowledge/daily_notes/2025/03-March/2025-03-01-Sat.md",
+                "file": "Atlas/Knowledge/tools/dev/git/lazygit - mappings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-03-01-Sat"
+              "title": "Outgoing links from lazygit - mappings"
             }
           },
           {
-            "id": "42537086106242f6",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "b46c9b34cc163892",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "03e1aaa5b18945a7",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
-            "id": "67ea24e3a8fdcc4b",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
-            }
-          },
-          {
-            "id": "129550ef50e5a084",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
-            }
-          },
-          {
-            "id": "48e88a491a13427c",
+            "id": "c87bf1abfef9bf22",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -210,23 +179,35 @@
               "icon": "clock",
               "title": "Reminders"
             }
-          },
-          {
-            "id": "10ebd5a02f6a0ae7",
-            "type": "leaf",
-            "state": {
-              "type": "Sets-view",
-              "state": {},
-              "icon": "database",
-              "title": "Sets"
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
+      },
+      {
+        "id": "614d841b279e00cf",
+        "type": "tabs",
+        "dimension": 29.717813051146386,
+        "children": [
+          {
+            "id": "42537086106242f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Atlas/Knowledge/tools/dev/git/lazygit - mappings.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of lazygit - mappings"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 568.5,
+    "width": 570.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -255,14 +236,25 @@
       "dbfolder:Create a new database table": true
     }
   },
-  "active": "9638b883e52a6368",
+  "active": "54544a40d91af588",
   "lastOpenFiles": [
-    "Clippings/obsidian-sets docs.md",
+    "Atlas/Knowledge/tools/dev/git/git verify-commit.md",
+    "Atlas/Knowledge/tools/dev/git/lazygit - mappings.md",
+    "Atlas/Knowledge/tools/dev/nvim/how to print lua values in nvim.md",
+    "work/notes/It might just be best to schedule a dedicated time for reminders review.md",
+    "Atlas/Knowledge/tools/dev/git/how to shift params in bash.md",
+    "Atlas/Knowledge/tools/dev/nvim/note - Alt+space opens cmd search on KDE.md",
+    "work/notes/implemented a new way to run php unit test.md",
+    "work/work.md",
     "Sets/MovieSet/MovieSet.md",
-    "Sets/MovieSet/Up.md",
-    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-15-Thu.md",
+    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-16-Fri.md",
     "Knowledge/Media/Three Times.md",
     "Atlas/Knowledge/tools/dev/obsidian-sets.md",
+    "Clippings/obsidian-sets docs.md",
+    "Efforts/Active/zellij First setup/Zellij keymaps.md",
+    "Efforts/Active/zellij First setup/zellij config file.md",
+    "Sets/MovieSet/Up.md",
+    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-15-Thu.md",
     "~/x/d136608e8bbe399debcc1513a2c08b32_MD5.jpg",
     "Sets/MovieSet/Aliens.md",
     "Sets/MovieSet/MovieSet.md~",
@@ -277,21 +269,11 @@
     "Knowledge",
     "Sets/MovieSet",
     "Pro Git - Scott Chacon/Pro Git (1).md",
-    "Pro Git - Scott Chacon/git verify commit.md",
     "Pro Git - Scott Chacon/git restore.md",
-    "Pro Git - Scott Chacon/Pro Git - Scott Chacon.md",
-    "Pro Git - Scott Chacon/Appendix C_ Git Commands/Basic Snapshotting/git commit.md",
     "Pro Git - Scott Chacon/images/scripting-03-webhook.png",
-    "Sets/MeetingSet/MeetingSet.md",
-    "work/bugs/qsl import issue - missing pagination/qsl import issue - missing pagination.md",
-    "Sets/MeetingSet/first meet ever.md",
     "Sets/MeetingSet",
     "Sets/Types",
     "Sets",
-    "Efforts/Active/Obsidian Tinkering/display data in tables.md",
-    "work/tickets/FEAT/Features db.md",
-    "work/tickets/FEAT/bealzebub.md",
-    "work/tickets/FEAT/new note.md",
     "index.md~",
     "Efforts/Active/Obsidian Tinkering/display data in tables.md~",
     "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md~",

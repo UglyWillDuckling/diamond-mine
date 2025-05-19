@@ -2,7 +2,7 @@
 created: 2025-02-26
 source: https://www.morgen.so/guides/how-to-add-multiple-alerts-to-calendar-events
 about:
-  - "[[Clippings/Morgen.md|Morgen]]"
+  - "[[Morgen|Morgen]]"
 tags:
   - article/morgen
 ---

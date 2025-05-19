@@ -1,3 +1,6 @@
+---
+source: https://www.grymoire.com/Unix/Bourne.html
+---
 #bash
 #shell
 #options
@@ -13,6 +16,8 @@ special variables. But there is <mark style="background: #FFB86CA6;">another cla
 **They are not read**. That is, you don't use them in strings, tests, filenames, or anything like this. These variables are `boolean` variables, and are <mark style="background: #ABF7F7A6;">internal</mark> to the shell. That is, they are **either true or false**. You cannot assign arbitrary values to them using the "=" character. Instead, you use the `set` command. Also, you can set them and remove them, but you cannot read them. At least, not like other variables. You read them by examining the "$-" variable, which shows you which ones are set.
 
 ## X - Bourne Shell echo flag
+
+- [ ] remind me (@[[2025-05-23]]) use the `-x` flag to print out every line of executed code
 
 If you are having trouble understanding how a shell script works, you could modify the script, adding echo commands so you can see what is happening. Another solution is to execute the script with the "x" flag. There are three ways to set this flag. The first, and perhaps easiest, is to specify the option when executing the script: To demonstrate, assume the file script is:
 
@@ -32,7 +37,7 @@ the script will print out
 
 Notice that built-in commands are displayed, while external commands are displayed with a "+" before each line. If you have several commands separated by a semicolon, each part would be displayed on its own line.
 
-The "x" variable shows you each line before it executes it. The second way to turn on this variable is to modify the first line of the script, i.e.:
+**The "x" variable shows you each line before it executes it.** The second way to turn on this variable is to modify the first line of the script, i.e.:
 
     #!/bin/sh -x
 
@@ -47,7 +52,6 @@ turns it on, while
 turns the flag off again. You can, therefore, turn the "echo before execute" flag on or off when convenient.
 
 ## V - Bourne Shell verbose flag
-#verbose
 
 A similar flag is the "v," or **verbose** flag. It is also useful in [[debugging]] scripts. The difference is this: The "v" flag echoes the line as it is **read**, while the "x" flag causes each command to be echoed as it is **executed**. Let's examine this in more detail. Given the script:
 
@@ -75,7 +79,7 @@ However, "sh -v script" reports
 
 As you can see, **the comments are echoed with the verbose flag**. Also, **each line is echoed before the variables and the commands in backquotes are evaluated.** Also note the "x" command echoes the assignment to variables a and b on two lines, while the verbose flag echoed one line. Perhaps the best way to understand the difference is that <mark style="background: #FFF3A3A6;">the verbose flag echoes the line before the shell does anything with it, while the "x" flag causes the shell to echo each command.</mark> Think of it as a case of **Before** and **After**.
 
-> [!study] difference between `x` and `v`
+> [!study] **difference** between `x` and `v`
 > the `verbose` flag echoes the line before the shell does anything with it, while the `x` flag causes the shell to echo each command.
 
 ## Combining flags
@@ -116,7 +120,6 @@ A simple way to check a complex shell script is the "-n" option. If set, the she
 > [!bookmark] will not execute the commands
 
 ## E - Bourne Shell exit flag
-#exit-status
 
 - $ 0 status is `normal`
 - ! positive status is an `error`

@@ -3,6 +3,7 @@
     "backlink:toggle-backlinks-in-document",
     "note-composer:extract-heading",
     "workspaces:save",
-    "obsidian-meta-bind-plugin:open-button-builder"
+    "obsidian-meta-bind-plugin:open-button-builder",
+    "daily-notes"
   ]
 }

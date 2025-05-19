@@ -100,5 +100,3 @@ AND striptime(created-date) = date(today)
 SORT created-date DESC
 \`\`\`
 ```
-
-This topic was automatically closed 90 days after the last reply. New replies are no longer allowed.

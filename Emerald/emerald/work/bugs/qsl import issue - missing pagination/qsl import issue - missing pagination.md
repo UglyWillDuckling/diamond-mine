@@ -17,7 +17,7 @@ Directly **follows** [[QSL listing feature]]
 - [[how to get the GCP token on dev]]
 ___
 
-- [/] #task qsl import issue 🔼 ⏳ 2025-05-08 📅 2025-05-14 🆔 dBfGhl #work 
+- [/] #task qsl import issue 🔼 ⏳ 2025-05-08 📅 2025-05-20 🆔 dBfGhl #work 
 	- [x] resolve issue with wrong status read
 			PHP issues with recursive calls
 	- [x] add **pagination** [^1]

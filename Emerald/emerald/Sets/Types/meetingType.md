@@ -1,14 +1,21 @@
 ---
 type: meeting
+meeting type: 
 created: 
 scheduled: 
 related: 
-participants: 
 previous: 
-meeting type:
+agenda: 
+participants: 
+tags:
+  - meet
 ---
-meeting Archetype: add the properties of the meeting here
+## who?
 
-**All** **meetings** should adhere to this data structure.
+`=this.participants`
+## why?
+> what caused this to happen, why do we need to have this meeting?
 
-==Additonal== properites may of course be added.
+## what?
+> meeting agenda
+

@@ -3,7 +3,7 @@
 ## current 📓
 
 - [[qsl import issue - missing pagination]]
-- [[update of DNS on Backyard]]
+- [[update of Diabolocom DNS on Backyard]]
 - [[Transac Zones update ticket]]
 
 ^current

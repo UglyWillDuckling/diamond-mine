@@ -18,14 +18,14 @@
         "format": "```js quickadd\nreturn await this.app.plugins.plugins['obsidian-tasks-plugin'].apiV1.createTaskLineModal();\n```\n"
       },
       "insertAfter": {
-        "enabled": false,
-        "after": "### ✔ New Tasks",
+        "enabled": true,
+        "after": "### ✔ New",
         "insertAtEnd": true,
         "considerSubsections": false,
         "createIfNotFound": true,
         "createIfNotFoundLocation": "top"
       },
-      "prepend": true,
+      "prepend": false,
       "task": false,
       "openFileInNewTab": {
         "enabled": true,

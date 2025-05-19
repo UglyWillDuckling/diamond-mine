@@ -70,6 +70,7 @@ More clarity on the time estimations the deadlines for the [[LUQA]] project
 		- we have to see what is `practical`
 
 ## <mark style="background: #FF5582A6;">important</mark>
+
 - ! we can't decommission [[backyard]]
 - history of the deadline was completely based on the business
 	- they need the solution to be ready by `June`
@@ -78,5 +79,3 @@ More clarity on the time estimations the deadlines for the [[LUQA]] project
 - we need to `derisk` the transition to ???
 
 ^important
-
-- [x] remind (@[[2024-11-17]])

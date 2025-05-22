@@ -16,18 +16,24 @@
   "topResultsWidget": 10,
   "registerCustomTypes": true,
   "sidebarState": {
-    "typesCollapsed": false,
+    "typesCollapsed": true,
     "collectionsCollapsed": false,
     "widgets": [
       {
-        "title": "New widget",
+        "title": "meetings coming up 💬",
         "collapsed": false,
         "definition": {
           "scope": [
             "type",
             "meeting"
           ],
-          "timestamp": 1747317190492
+          "timestamp": 1747829708654,
+          "sortby": [
+            [
+              "scheduled",
+              false
+            ]
+          ]
         }
       }
     ]

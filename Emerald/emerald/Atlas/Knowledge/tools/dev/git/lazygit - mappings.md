@@ -1,5 +1,10 @@
 
 - [/] #task look into [[lazygit - mappings]] ⏳ 2025-05-20 📅 2025-05-26 🆔 lVC7oS
+	- [ ] global 🌐
+	- [ ] files 🗄
+	- [ ] commits #‍⃣
+	- [ ] branches 🎄
+	- [ ] tags 🉐
 ___
 # global
 
@@ -15,3 +20,8 @@ ___
 - filter by path: `ctrl-b`
 - ..
 
+## commits
+
+## branches
+
+## tags

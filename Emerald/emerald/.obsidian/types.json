@@ -71,6 +71,11 @@
     "genre": "multitext",
     "actors": "multitext",
     "cast": "multitext",
-    "watched": "checkbox"
+    "watched": "checkbox",
+    "deployed": "checkbox",
+    "finish date": "date",
+    "areas": "multitext",
+    "related_courses": "multitext",
+    "covers": "multitext"
   }
 }

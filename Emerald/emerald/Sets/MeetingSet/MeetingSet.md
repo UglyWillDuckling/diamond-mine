@@ -15,13 +15,13 @@ fields:
 sortby:
   - - scheduled
     - true
-timestamp: 1747668008624
+timestamp: 1747821444069
 viewMode: board
 board:
   groupField: meeting type
   lanes:
     - 1on1
-    - sprint-retro
+    - backyard-daily
 topResults: 22
 
 ```
@@ -43,8 +43,9 @@ sortby:
 timestamp: 1747667796217
 
 ```
+
 ## upcoming 🗨
-> meetings from the future
+> meetings from the future ⏲
 
 ```set
 scope:
@@ -57,8 +58,8 @@ fields:
   - related
 sortby:
   - - scheduled
-    - true
-timestamp: 1747667770341
+    - false
+timestamp: 1747821553119
 filter:
   - - scheduled
     - gte
@@ -66,8 +67,8 @@ filter:
 topResults: 22
 
 ```
-
-## recent ⌛
+ 
+ ## recent ⌛
 > made with [[dataview]]
 
 ```dataview

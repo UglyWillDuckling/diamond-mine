@@ -1,6 +1,6 @@
 #note/thought
 
-- [/] #task checkout [[It might just be best to schedule a dedicated time for reminders review]]  🆔 nqAdwY
+- [x] #task checkout [[It might just be best to schedule a dedicated time for reminders review]]  🆔 nqAdwY ✅ 2025-05-20
 	- [x] [[#recurring task setup]]
 ___
 

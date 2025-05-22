@@ -1,12 +1,12 @@
 ---
 source: https://www.grymoire.com/Unix/Bourne.html
+about: "[[bash]]"
 ---
-#bash
-#shell
-#options
+#bash/howto
+
 ## intro
 
-As you recall, the dollar sign is a special character in the Bourne shell. Normally, it's used to identify variables. If the variable starts with a letter, it's a normal variable. If it starts with a number, it's a positional parameter, used to pass parameters to a shell script. Earlier, I've discussed the
+As you recall, the **dollar** sign (`$`) is a special character in the Bourne shell. Normally, it's used to identify variables. If the variable starts with a letter, it's a normal variable. If it starts with a number, it's a positional parameter, used to pass parameters to a shell script. Earlier, I've discussed the
 
 ```js
 $*, $@, $#, $$, and $!
@@ -17,7 +17,7 @@ special variables. But there is <mark style="background: #FFB86CA6;">another cla
 
 ## X - Bourne Shell echo flag
 
-- [ ] remind me (@[[2025-05-23]]) use the `-x` flag to print out every line of executed code
+- [ ] **remind** me (@[[2025-05-23]])  to use the `-x` flag to print out every line of executed code
 
 If you are having trouble understanding how a shell script works, you could modify the script, adding echo commands so you can see what is happening. Another solution is to execute the script with the "x" flag. There are three ways to set this flag. The first, and perhaps easiest, is to specify the option when executing the script: To demonstrate, assume the file script is:
 
@@ -103,7 +103,7 @@ The first line of a script has an `exception`. You can use the format
 
     #!/bin/sh -xv
 
-but the following <mark style="background: #FF5582A6;">will not work</mark>:
+**but** the following <mark style="background: #FF5582A6;">will not work</mark>:
 
     #!/bin/sh -x -v
 

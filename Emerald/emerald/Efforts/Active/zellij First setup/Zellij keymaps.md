@@ -7,6 +7,10 @@
 - [x] **global** `close` pane
 - [x] remap **popup** window to `ctrl alt f`
 - [ ] remap move,focus and resize - switch them up
+- [ ] see [[it could be useful to map more things to <space>]]
+	- [ ] maybe session switching
+	- [ ] ..
+
 # maps to remember
 
 | map         | result                           | done |

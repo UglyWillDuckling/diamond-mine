@@ -1,7 +1,7 @@
 ---
 type: meeting
 created: 2025-05-19
-scheduled: 2025-05-21T14:45:00
+scheduled: 2025-05-22T11:30:00
 related:
   - "[[2. 1 on 1 with Yoan]]"
 participants:

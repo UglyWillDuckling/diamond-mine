@@ -7,7 +7,8 @@ tags:
   - ticket/bug
 status:
   - In Progress
-resolved:
+resolved: true
+deployed: true
 ---
 reported:: [[2025-05-06-Tue]]
 
@@ -17,7 +18,7 @@ Directly **follows** [[QSL listing feature]]
 - [[how to get the GCP token on dev]]
 ___
 
-- [/] #task qsl import issue 🔼 ⏳ 2025-05-08 📅 2025-05-20 🆔 dBfGhl #work 
+- [x] #task qsl import issue 🔼 ⏳ 2025-05-08 📅 2025-05-21 🆔 dBfGhl #work  ✅ 2025-05-21
 	- [x] resolve issue with wrong status read
 			PHP issues with recursive calls
 	- [x] add **pagination** [^1]
@@ -27,7 +28,6 @@ ___
 	- [x] fix broken tests
 	- [/] write tests
 		- [x] `ResultSetAthena`
-		- [ ] **pagination** test
 
 [^1]: [[pagination in development|pagination]]
 [^2]: [[frontend implementation| QSL listing - frontend]]

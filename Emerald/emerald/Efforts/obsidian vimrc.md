@@ -1,3 +1,5 @@
+
+```c
 """"""""""""""""""""""
 " Leader
 """"""""""""""""""""""
@@ -309,6 +311,10 @@ nnoremap wrg yGp
 " Tabs, Splits & Alt-file
 """"""""""""""""""""""
 
+" Close
+"exmap closeWindow obcommand workspace:close-window
+"nnoremap ZZ :closeWindow
+
 " Tabs
 exmap nextTab obcommand workspace:next-tab
 exmap prevTab obcommand workspace:previous-tab
@@ -362,3 +368,5 @@ nmap <A-m>? 0ci[?<Esc>
 vmap <A-m>q o<Esc>i<lt>q><Esc>gvo<Esc>a<lt>/q><Esc>
 " path mark
 vmap <A-m>P o<Esc>i<lt>mark<space>class='path'><Esc>gvo<Esc>a<lt>/mark><Esc>
+
+```

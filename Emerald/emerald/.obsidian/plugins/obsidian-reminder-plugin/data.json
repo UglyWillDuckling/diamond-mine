@@ -1,13 +1,6 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/Knowledge/tools/dev/nvim/vim.env.md": [
-      {
-        "title": "remind me",
-        "time": "2025-05-20 11:00",
-        "rowNumber": 16
-      }
-    ],
     "Atlas/Knowledge/tools/dev/nvim/how to print lua values in nvim.md": [
       {
         "title": "remind me",
@@ -31,14 +24,14 @@
     ],
     "Atlas/Knowledge/tools/dev/git/how to shift params in bash.md": [
       {
-        "title": "remind me keyword is `shift {number}`",
+        "title": "remind me keyword is `shift {n}`",
         "time": "2025-05-29",
-        "rowNumber": 19
+        "rowNumber": 18
       }
     ],
     "Atlas/Knowledge/Education/Shell/BASH - special options.md": [
       {
-        "title": "remind me use the `-x` flag to print out every line of executed code",
+        "title": "**remind** me to use the `-x` flag to print out every line of executed code",
         "time": "2025-05-23",
         "rowNumber": 19
       }
@@ -47,7 +40,21 @@
       {
         "title": "remind me",
         "time": "2025-05-30",
-        "rowNumber": 12
+        "rowNumber": 11
+      }
+    ],
+    "Atlas/Knowledge/tools/dev/nvim/vim.env.md": [
+      {
+        "title": "remind one more time",
+        "time": "2025-06-11",
+        "rowNumber": 17
+      }
+    ],
+    "Atlas/Knowledge/Education/Shell/note - you should always add a Finished log after a Start one.md": [
+      {
+        "title": "remind me",
+        "time": "2025-06-02",
+        "rowNumber": 2
       }
     ]
   },

@@ -36,7 +36,7 @@ related:
 
 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Journal.pone.0138352.g001A.jpg/1280px-Journal.pone.0138352.g001A.jpg)
+![[~/×/b6f0853b24f449d4a0d4546b894511f8_MD5.jpg]]
 
 > Mounted skeleton of S. stenops (nicknamed "Sophie"), [[Natural History Museum, London
 ]]
@@ -100,7 +100,7 @@ On July 17, 2024, a nearly complete, 27-foot (8.2m) long *Stegosaurus* skeleton,
 
 ## Description
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Stegosaurus_size_comparison.svg/1280px-Stegosaurus_size_comparison.svg.png)
+![[~/×/bbe0ef35fc35959c94976437bbce88c4_MD5.png]]
 Size of *S. ungulatus* (orange) and *S. stenops* (green) compared to a human
 
 The quadrupedal *Stegosaurus* is one of the most easily identifiable **dinosaur genera**, due to the distinctive double row of kite-shaped plates rising vertically along the rounded back and the two pairs of long spikes extending horizontally near the end of the tail. *S. stenops* reached 6.5 m (21.3 ft) in length and 3.5 metric tons (3.9 short tons) in body mass, while *S. ungulatus* reached 7 m (23.0 ft) in length and 3.8 metric tons (4.2 short tons) in body mass.[^35] Some large individuals may have reached 7.5 m (25 ft) in length and 5.0–5.3 metric tons (5.5–5.8 short tons) in body mass.[^36][^37]
@@ -109,7 +109,7 @@ Most of the information known about *Stegosaurus* comes from the remains of matu
 
 ### Skull
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Stegosaurus_stenops_skull_cast_-_Natural_History_Museum_of_Utah_-_DSC07228.JPG/1280px-Stegosaurus_stenops_skull_cast_-_Natural_History_Museum_of_Utah_-_DSC07228.JPG)
+![[~/×/5c5fcde7d4fc64d713834e88366af204_MD5.jpg]]
 > *S. stenops* skull cast, [[Natural History Museum of Utah]]
 
 The long and narrow [skull](https://en.m.wikipedia.org/wiki/Skull "Skull") was small in proportion to the body. It had a small [antorbital fenestra](https://en.m.wikipedia.org/wiki/Antorbital_fenestra "Antorbital fenestra"), the hole between the nose and eye common to most [archosaurs](https://en.m.wikipedia.org/wiki/Archosaur "Archosaur"), including modern birds, though lost in extant crocodylians. The skull's low position suggests that *Stegosaurus* may have been a browser of low-growing vegetation. This interpretation is supported by the absence of front teeth and their likely replacement by a horny beak or [rhamphotheca](https://en.m.wikipedia.org/wiki/Beak#Anatomy "Beak"). The lower jaw had flat downward and upward extensions that would have completely hidden the teeth when viewed from the side, and these probably supported a turtle-like beak in life. The presence of a beak extended along much of the jaws may have precluded the presence of cheeks in these species.[^40] Such an extensive **beak** was probably unique to *Stegosaurus* and some other advanced stegosaurids among ornithischians, which usually had beaks restricted to the jaw tips.[^41][^42] Other researchers have interpreted these ridges as modified versions of similar structures in other ornithischians which might have supported fleshy cheeks, rather than beaks.[^43] Stegosaurian teeth were small, triangular, and flat; wear facets show that they did grind their food.[^44]
@@ -118,7 +118,7 @@ Despite the animal's overall size, the braincase of *Stegosaurus* was small, bei
 
 ### Skeleton
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Stegosaurus_ungulatus.jpg/1280px-Stegosaurus_ungulatus.jpg)
+![[~/×/b79052813b09f49d13e91c44b5227652_MD5.jpg]]
 > Mounted composite skeleton referred to *S. ungulatus*, [Carnegie Museum of Natural History](https://en.m.wikipedia.org/wiki/Carnegie_Museum_of_Natural_History "Carnegie Museum of Natural History")
 
 In *Stegosaurus stenops* there are 27 bones in the [vertebral column](https://en.m.wikipedia.org/wiki/Vertebral_column "Vertebral column")[anterior](https://en.m.wikipedia.org/wiki/Anterior "Anterior") to the [sacrum](https://en.m.wikipedia.org/wiki/Sacrum "Sacrum"), a varying number of vertebrae in the sacrum, with four in most subadults, and around 46 caudal (tail) vertebrae. The presacrals are divided into cervical (neck) and dorsal (back) vertebrae, with around 10 cervicals and 17 dorsals, the total number being one greater than in *[Hesperosaurus](https://en.m.wikipedia.org/wiki/Hesperosaurus "Hesperosaurus")*, two greater than *[Huayangosaurus](https://en.m.wikipedia.org/wiki/Huayangosaurus "Huayangosaurus")*, although *[Miragaia](https://en.m.wikipedia.org/wiki/Miragaia_longicollum "Miragaia longicollum")* preserves 17 cervicals and an unknown number of dorsals. The first cervical vertebra is the [axis bone](https://en.m.wikipedia.org/wiki/Axis_bone "Axis bone"), which is connected and often fused to the [atlas bone](https://en.m.wikipedia.org/wiki/Atlas_bone "Atlas bone"). Farther posteriorly, the proportionately larger the cervicals become, although they do not change greatly in anything other than size. Past the first few dorsals, the [centrum](https://en.m.wikipedia.org/wiki/Vertebral_centrum "Vertebral centrum") of the bones become more elongate front-to-back, and the [transverse](https://en.wiktionary.org/wiki/transverse "wikt:transverse") processes become more elevated [dorsal](https://en.m.wikipedia.org/wiki/Dorsa "Dorsa"). The sacrum of *S. stenops* includes four sacral vertebrae, but one of the dorsals is also incorporated into the structure. In some specimens of *S. stenops*, a caudal is also incorporated, as a caudosacral. In *[Hesperosaurus](https://en.m.wikipedia.org/wiki/Hesperosaurus "Hesperosaurus")* there are two dorsosacrals, and only four fused sacrals, but in *[Kentrosaurus](https://en.m.wikipedia.org/wiki/Kentrosaurus "Kentrosaurus")* there may be as many as seven vertebrae in the sacrum, with both dorsosacrals and caudosacrals. *S. stenops* preserves 46 caudal vertebrae, and up to 49, and along the series both the centrums and the [neural spines](https://en.m.wikipedia.org/wiki/Neural_spines "Neural spines") become smaller, until the neural spines disappear at caudal 35. Around the middle of the tail, the neural spines become [bifurcated](https://en.wiktionary.org/wiki/bifurcation "wikt:bifurcation"), meaning they are divided near the top.[^27]
@@ -135,10 +135,10 @@ In a 2010 review of *Stegosaurus* species, [[Peter Galton ]]suggested that the a
 
 ## Classification and species
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Stegosaurus_ungulatus.png/1280px-Stegosaurus_ungulatus.png)
+![[~/×/6e776b679735651fdeb43c8be614c7d8_MD5.png]]
 Restoration of *S. ungulatus*
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Stegosaurus_dorsal_plate_-_Museum_of_the_Rockies_-_2013-07-08.jpg/1280px-Stegosaurus_dorsal_plate_-_Museum_of_the_Rockies_-_2013-07-08.jpg)
+![[~/×/b9ccc915dae4b688947b224b34e4b9bf_MD5.jpg]]
 Back plate cast, [Museum of the Rockies](https://en.m.wikipedia.org/wiki/Museum_of_the_Rockies "Museum of the Rockies"), [Bozeman, Montana](https://en.m.wikipedia.org/wiki/Bozeman,_Montana "Bozeman, Montana")
 
 Like the spikes and shields of [ankylosaurs](https://en.m.wikipedia.org/wiki/Ankylosaur "Ankylosaur"), the [bony plates](https://en.m.wikipedia.org/wiki/Bony_plate "Bony plate") and spines of stegosaurians evolved from the low-keeled **osteoderms** characteristic of basal thyreophorans.[^50][Galton](https://en.m.wikipedia.org/wiki/Peter_Galton "Peter Galton") (2019) interpreted plates of an armored dinosaur from the [Lower Jurassic](https://en.m.wikipedia.org/wiki/Lower_Jurassic "Lower Jurassic") ([Sinemurian](https://en.m.wikipedia.org/wiki/Sinemurian "Sinemurian")\-[Pliensbachian](https://en.m.wikipedia.org/wiki/Pliensbachian "Pliensbachian")) Lower [Kota Formation](https://en.m.wikipedia.org/wiki/Kota_Formation "Kota Formation") of [India](https://en.m.wikipedia.org/wiki/India "India") as fossils of a member of [Ankylosauria](https://en.m.wikipedia.org/wiki/Ankylosauria "Ankylosauria"); the author argued that this finding indicates a probable early Early Jurassic origin for both Ankylosauria and its [sister group](https://en.m.wikipedia.org/wiki/Sister_group "Sister group") Stegosauria.[^51]
@@ -182,7 +182,7 @@ In 2024, Li and colleagues described specimen [GSAU](https://en.m.wikipedia.org/
 
 ## Paleobiology
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/HMNS_Stegosaurus.jpg/1280px-HMNS_Stegosaurus.jpg)
+![[~/×/c6d7a12f9e642a3e7b348f406b999bbd_MD5.jpg]]
 Mounted skeleton in bipedal posture, [Houston Museum of Natural Science](https://en.m.wikipedia.org/wiki/Houston_Museum_of_Natural_Science "Houston Museum of Natural Science")
 
 ### Posture and movement
@@ -195,7 +195,7 @@ As the plates would have been obstacles during copulation, it is possible the fe
 
 ### **Plate function**
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Allosaurus_attacks_Stegosaurus.jpg/1280px-Allosaurus_attacks_Stegosaurus.jpg)
+![[~/×/b0a938514ce3a8b8cd895b940e258be7_MD5.jpg]]
 Adult and juvenile *S. stenops* mounted as if under attack from an *[Allosaurus fragilis](https://en.m.wikipedia.org/wiki/Allosaurus_fragilis "Allosaurus fragilis")*, [Denver Museum of Nature and Science](https://en.m.wikipedia.org/wiki/Denver_Museum_of_Nature_and_Science "Denver Museum of Nature and Science")
 
 The function of *Stegosaurus'* plates has been much debated. Marsh suggested that they functioned as some form of armor,[^70] though Davitashvili (1961) disputed this, claiming that they were too fragile and ill-placed for defensive purposes, leaving the animal's sides unprotected.[^76] Nevertheless, others have continued to support a defensive function. Bakker suggested in 1986 that the plates were covered in horn comparing the surface of the fossilized plates to the bony cores of horns in other animals known or thought to bear horns.[^77] 
@@ -203,7 +203,7 @@ Christiansen and Tschopp (2010), having studied a well-preserved specimen of *[H
 
 Another possible function of the plates is they may have helped to control the body temperature of the animal,[^78] in a similar way to the sails of the [pelycosaurs](https://en.m.wikipedia.org/wiki/Pelycosaur "Pelycosaur")*[Dimetrodon](https://en.m.wikipedia.org/wiki/Dimetrodon "Dimetrodon")* and *[Edaphosaurus](https://en.m.wikipedia.org/wiki/Edaphosaurus "Edaphosaurus")* (and modern elephant and rabbit ears). The plates had blood vessels running through grooves and air flowing around the plates would have cooled the blood.[^79] Buffrénil, et al. (1986) found "extreme vascularization of the outer layer of bone",[^80][^78] which was seen as evidence that the plates "acted as thermoregulatory devices".[^80] Likewise, 2010 structural comparisons of *Stegosaurus* plates to *[Alligator](https://en.m.wikipedia.org/wiki/Alligator "Alligator")* osteoderms seem to support the conclusion that the potential for a thermoregulatory role in the plates of *Stegosaurus* definitely exists.[^81]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Stegosaurus_plates.jpg/1280px-Stegosaurus_plates.jpg)
+![[~/×/d9ca3d711cf4e56576b9ba8489b9eb3f_MD5.jpg]]
 > Plates of *Stegosaurus* specimen "Sophie"
 
 The thermoregulation hypothesis has been seriously questioned, since other stegosaurs such as *Kentrosaurus*, had more low [surface area](https://en.m.wikipedia.org/wiki/Surface_area "Surface area") spikes than plates, implying that cooling was not important enough to require specialized structural formations such as plates. However, it has also been suggested that the plates could have helped the animal increase heat absorption from the sun. Since a cooling trend occurred towards the end of the Jurassic, a large [[ectothermic]] reptile might have used the increased surface area afforded by the plates to absorb radiation from the sun.[^82] Christiansen and Tschopp (2010) state that the presence of a smooth, insulating keratin covering would have hampered thermoregulation, but such a function cannot be entirely ruled out as extant cattle and ducks use horns and beaks to dump excess heat despite the keratin covering.[^49][Histological](https://en.m.wikipedia.org/wiki/Histology "Histology") surveys of plate microstructure attributed the vascularization to the need to transport nutrients for rapid plate growth.[^80][^83]
@@ -216,12 +216,12 @@ A 2015 study of the shapes and sizes of *Hesperosaurus* plates suggested that th
 
 Main article: [Thagomizer](https://en.m.wikipedia.org/wiki/Thagomizer "Thagomizer")
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Thagomizer_01.jpg/1280px-Thagomizer_01.jpg)
+![[~/×/483689d082230105e5e7e48775229d91_MD5.jpg]]
 Thagomizer on mounted tail
 
 There has been debate about whether the tail spikes were only used for display, as posited by Gilmore in 1914,[^8] or used as a weapon. Robert Bakker noted the tail was likely to have been much more flexible than that of other dinosaurs, as it lacked ossified tendons, thus lending credence to the idea of the tail as a weapon. However, as Carpenter has noted, the plates overlap so many tail vertebrae, movement would be limited.[^26] Bakker also observed that *Stegosaurus* could have maneuvered its rear easily, by keeping its large hind limbs stationary and pushing off with its very powerfully muscled but short forelimbs, allowing it to swivel deftly to deal with attack.[^60]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Thagomizer_%28spike%29.jpg/1280px-Thagomizer_%28spike%29.jpg)
+![[~/×/4e7be0dbb04a8d7c6b55e29c59ea6eee_MD5.jpg]]
 *Allosaurus* tail vertebra punctured by a *Stegosaurus*[thagomizer](https://en.m.wikipedia.org/wiki/Thagomizer "Thagomizer")
 
 More recently, a study of the tail spikes by McWhinney *et al.*, which showed a high incidence of trauma-related damage, lends more weight to the position that the spikes were indeed used in combat. This study showed that 9.8% of *Stegosaurus* specimens examined had injuries to their tail spikes.[^86]
@@ -259,14 +259,14 @@ This space, however, is more likely to have served other purposes. The sacro-lum
 
 ## Paleoecology
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Stegosaurus_dinosaur_footprints_in_sandstone_%28Morrison_Formation%2C_Upper_Jurassic%3B_Quarry_5%2C_Dinosaur_Ridge%2C_west_of_Denver%2C_north-central_Colorado%2C_USA%29_%2815354473407%29.jpg/1280px-thumbnail.jpg)
+![[~/×/8de6c4f164248b7b3239377d10a07db8_MD5.jpg]]
 > Footprints of an adult and juvenile from the Morrison Formation
 
 The Morrison Formation is interpreted as a semiarid environment with distinct wet and dry seasons, and flat floodplains. Vegetation varied from river-lining forests of conifers, tree ferns, and ferns (gallery forests), to fern savannas with occasional trees such as the [Araucaria](https://en.m.wikipedia.org/wiki/Araucaria "Araucaria")\-like conifer *[Brachyphyllum](https://en.m.wikipedia.org/wiki/Brachyphyllum "Brachyphyllum")*. 
 The flora of the period has been revealed by fossils of green algae, fungi, mosses, horsetails, ferns, cycads, ginkoes, and several families of conifers.
 Animal fossils discovered include bivalves, snails, ray-finned fishes, frogs, salamanders, turtles like *[Glyptops](https://en.m.wikipedia.org/wiki/Glyptops "Glyptops")*, sphenodonts, lizards, terrestrial and aquatic crocodylomorphs like *[Hoplosuchus](https://en.m.wikipedia.org/wiki/Hoplosuchus "Hoplosuchus")*, several species of [pterosaurs](https://en.m.wikipedia.org/wiki/Pterosaur "Pterosaur") such as *[Harpactognathus](https://en.m.wikipedia.org/wiki/Harpactognathus "Harpactognathus")* and *[Mesadactylus](https://en.m.wikipedia.org/wiki/Mesadactylus "Mesadactylus")*, numerous dinosaur species, and early mammals such as [docodonts](https://en.m.wikipedia.org/wiki/Docodonta "Docodonta") (like *[Docodon](https://en.m.wikipedia.org/wiki/Docodon "Docodon")*), [multituberculates](https://en.m.wikipedia.org/wiki/Multituberculata "Multituberculata"), [symmetrodonts](https://en.m.wikipedia.org/wiki/Symmetrodonta "Symmetrodonta"), and [triconodonts](https://en.m.wikipedia.org/wiki/Eutriconodonta "Eutriconodonta").[^100]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Stegosaurus_and_Ceratosaurus_in_Smithsonian_National_Museum.jpg/1280px-Stegosaurus_and_Ceratosaurus_in_Smithsonian_National_Museum.jpg)
+![[~/×/ca79be5c696a8a0c46d498e220159169_MD5.jpg]]
 > Mounted casts of *Stegosaurus* and *Ceratosaurus* skeletons posed in combat as "Spikes vs. Claws" in the Deep Time hall at the Smithsonian National Museum of Natural History
 
 Dinosaurs that lived alongside *Stegosaurus* included [[theropods]] *[Allosaurus](https://en.m.wikipedia.org/wiki/Allosaurus "Allosaurus")*, *[Saurophaganax](https://en.m.wikipedia.org/wiki/Saurophaganax "Saurophaganax")*, *[Torvosaurus](https://en.m.wikipedia.org/wiki/Torvosaurus "Torvosaurus")*, *[Ceratosaurus](https://en.m.wikipedia.org/wiki/Ceratosaurus "Ceratosaurus")*, *[Marshosaurus](https://en.m.wikipedia.org/wiki/Marshosaurus "Marshosaurus")*, *[Stokesosaurus](https://en.m.wikipedia.org/wiki/Stokesosaurus "Stokesosaurus")*, *[Ornitholestes](https://en.m.wikipedia.org/wiki/Ornitholestes "Ornitholestes")*, *[Coelurus](https://en.m.wikipedia.org/wiki/Coelurus "Coelurus")* and *[Tanycolagreus](https://en.m.wikipedia.org/wiki/Tanycolagreus "Tanycolagreus")*. [[Sauropods]] dominated the region, and included *[Brontosaurus](https://en.m.wikipedia.org/wiki/Brontosaurus "Brontosaurus")*, *[Brachiosaurus](https://en.m.wikipedia.org/wiki/Brachiosaurus "Brachiosaurus")*, *[Apatosaurus](https://en.m.wikipedia.org/wiki/Apatosaurus "Apatosaurus")*, *[Diplodocus](https://en.m.wikipedia.org/wiki/Diplodocus "Diplodocus")*, *[Camarasaurus](https://en.m.wikipedia.org/wiki/Camarasaurus "Camarasaurus")*, and *[Barosaurus](https://en.m.wikipedia.org/wiki/Barosaurus "Barosaurus")*. Other ornithischians included *[Camptosaurus](https://en.m.wikipedia.org/wiki/Camptosaurus "Camptosaurus")*, *[Gargoyleosaurus](https://en.m.wikipedia.org/wiki/Gargoyleosaurus "Gargoyleosaurus")*, *[Dryosaurus](https://en.m.wikipedia.org/wiki/Dryosaurus "Dryosaurus")*, and *[Nanosaurus](https://en.m.wikipedia.org/wiki/Nanosaurus "Nanosaurus")*.[^101]
@@ -277,7 +277,7 @@ Dinosaurs that lived alongside *Stegosaurus* included [[theropods]] *[Allosaurus
 
 Main article: [Stegosaurus in popular culture](https://en.m.wikipedia.org/wiki/Stegosaurus_in_popular_culture "Stegosaurus in popular culture")
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Dinosaurs_Sci_Am_1884.png/1280px-Dinosaurs_Sci_Am_1884.png)
+![[~/×/2f8c47a6a9218b3984c03d603ab4f892_MD5.png]]
 Early restoration of *Stegosaurus* by A. Jobin, 1884
 
 One of the most recognizable of all dinosaurs,[^44]*Stegosaurus* has been depicted on film, in cartoons and comics and as children's toys. 
@@ -289,7 +289,7 @@ Marsh published his more accurate skeletal reconstruction of *Stegosaurus* in 18
 Artist [Charles R. Knight](https://en.m.wikipedia.org/wiki/Charles_R._Knight "Charles R. Knight") published his first illustration of *Stegosaurus ungulatus* based on Marsh's skeletal reconstruction in a November 1897 issue of *[The Century Magazine](https://en.m.wikipedia.org/wiki/The_Century_Magazine "The Century Magazine")*. This illustration would later go on to form the basis of the stop-motion puppet used in the 1933 film *[King Kong](https://en.m.wikipedia.org/wiki/King_Kong_\(1933_film\) "King Kong (1933 film)")*. Like Marsh's reconstruction, Knight's first restoration had a single row of large plates, though he next used a double row for his more well-known 1901 painting, produced under the direction of Frederic Lucas. Again under Lucas, Knight revised his version of *Stegosaurus* again two years later, producing a model with a staggered double row of plates. 
 Knight would go on to paint a stegosaur with a staggered double plate row in 1927 for the [Field Museum of Natural History](https://en.m.wikipedia.org/wiki/Field_Museum_of_Natural_History "Field Museum of Natural History"), and was followed by [Rudolph F. Zallinger](https://en.m.wikipedia.org/wiki/Rudolph_F._Zallinger "Rudolph F. Zallinger"), who painted *Stegosaurus* this way in his "Age of Reptiles" mural at the Peabody Museum in 1947.[^106]
 
-![](https://upload.wikimedia.org/wikipedia/commons/5/5f/Stegosaurus_stenops_model_Smithsonian.png)
+![[~/×/fdc217c7f090f3b08897137d95b6784b_MD5.png]]
 > Life-sized restoration of *Stegosaurus stenops* in the U.S. National Museum, ca. 1911
 
 *Stegosaurus* made its major public debut as a paper mache model commissioned by the U.S. [National Museum of Natural History](https://en.m.wikipedia.org/wiki/National_Museum_of_Natural_History "National Museum of Natural History") for the 1904 [Louisiana Purchase Exposition](https://en.m.wikipedia.org/wiki/Louisiana_Purchase_Exposition "Louisiana Purchase Exposition"). The model was based on Knight's latest miniature with the double row of staggered plates,[^13] and was exhibited in the United States Government Building at the exposition in [St. Louis](https://en.m.wikipedia.org/wiki/St._Louis "St. Louis") before being relocated to [Portland, Oregon](https://en.m.wikipedia.org/wiki/Portland,_Oregon "Portland, Oregon") for the [Lewis and Clark Centennial Exposition](https://en.m.wikipedia.org/wiki/Lewis_and_Clark_Centennial_Exposition "Lewis and Clark Centennial Exposition") in 1905. The model was moved to the [Smithsonian](https://en.m.wikipedia.org/wiki/Smithsonian "Smithsonian") National Museum of Natural History (now the [Arts and Industries Building](https://en.m.wikipedia.org/wiki/Arts_and_Industries_Building "Arts and Industries Building")) in [Washington, D.C.](https://en.m.wikipedia.org/wiki/Washington,_D.C. "Washington, D.C.") along with other prehistory displays, and to the current National Museum of Natural History building in 1911. Following renovations to the museum in the 2010s, the model was moved once again for display at the [Museum of the Earth](https://en.m.wikipedia.org/wiki/Museum_of_the_Earth "Museum of the Earth") in [Ithaca, New York](https://en.m.wikipedia.org/wiki/Ithaca,_New_York "Ithaca, New York").[^107]

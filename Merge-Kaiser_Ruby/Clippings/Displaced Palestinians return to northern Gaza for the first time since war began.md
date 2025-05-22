@@ -36,7 +36,7 @@ Her mother had been enduring the starvation wrought on the north of the enclave 
 
 "I salute \[my mother\] and salute every woman in Gaza that has been resilient and patient."
 
-![A Palestinian girl returning to north Gaza holds a sign that reads: ](https://www.middleeasteye.net/sites/default/files/palestinian-girl-north-gaza-sign-return-27-jan-2025_1.jpeg)
+![[~/×/540d9368e72cffe5c20a266aeb9e4622_MD5.jpg]]
 
 A Palestinian girl returning to north Gaza holds a sign that reads: "We have grown old waiting for this historic moment" (MEE/Ahmed Aziz)
 
@@ -54,7 +54,7 @@ Qatar, mediating alongside Egypt and the US, announced late Sunday that Hamas wo
 
 Following the agreement, Israeli Prime Minister Benjamin Netanyahu said in a post on X that displaced Palestinians would begin returning north on Monday morning. 
 
-[![](https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/gaza%20return%20mee.jpg.webp?itok=4JWv7tfj)](https://www.middleeasteye.net/news/palestinians-north-gaza-return-home-rubble-and-destruction)
+[![[~/×/f3121d076594ada8d84fd5627aa4837d_MD5.webp]]](https://www.middleeasteye.net/news/palestinians-north-gaza-return-home-rubble-and-destruction)
 
 Palestinians in northern Gaza return home to rubble and destruction
 

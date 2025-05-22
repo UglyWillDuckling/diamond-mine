@@ -29,7 +29,7 @@ In **2004**, the [Tertiary Period](https://en.m.wikipedia.org/wiki/Tertiary_Peri
 ## [[Paleogene]] 
 
 The **Paleogene** spans from the extinction of non-avian dinosaurs, **66 million years ago**, to the dawn of the **Neogene**, **23.03** million years ago. It features three [epochs](https://en.m.wikipedia.org/wiki/Epoch_\(geology\) "Epoch (geology)"): the [Paleocene](https://en.m.wikipedia.org/wiki/Paleocene "Paleocene"), [Eocene](https://en.m.wikipedia.org/wiki/Eocene "Eocene") and [Oligocene](https://en.m.wikipedia.org/wiki/Oligocene "Oligocene")
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Basilosaurus.jpg/220px-Basilosaurus.jpg)
+![[~/×/81c9740bf442162631e89998f98f3b87_MD5.jpg]]
 
 *[Basilosaurus](https://en.m.wikipedia.org/wiki/Basilosaurus "Basilosaurus")*
 
@@ -99,7 +99,7 @@ The [Quaternary](https://en.m.wikipedia.org/wiki/Quaternary "Quaternary") spans 
 It is divided into two epochs: 
 the **Pleistocene and the Holocene**.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Ice_age_fauna_of_northern_Spain_-_Mauricio_Ant%C3%B3n.jpg/220px-Ice_age_fauna_of_northern_Spain_-_Mauricio_Ant%C3%B3n.jpg)
+![[~/×/f595c5b80b2cdb64eaf65a0047596561_MD5.jpg]]
 
 Megafauna of **Pleistocene Europe** ([mammoths](https://en.m.wikipedia.org/wiki/Mammoth "Mammoth"), [cave lions](https://en.m.wikipedia.org/wiki/Panthera_spelaea "Panthera spelaea"), [woolly rhino](https://en.m.wikipedia.org/wiki/Woolly_rhino "Woolly rhino"), [reindeer](https://en.m.wikipedia.org/wiki/Reindeer "Reindeer"), [horses](https://en.m.wikipedia.org/wiki/Wild_horse "Wild horse"))
 
@@ -132,7 +132,7 @@ In the Cretaceous, the climate was hot and humid with lush forests at the poles,
 ### Life
 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Paleotherium_magnum.jpg/220px-Paleotherium_magnum.jpg)
+![[~/×/b990445fd91d9ff55a42568d96452f48_MD5.jpg]]
 
 Restoration of *[Palaeotherium](https://en.m.wikipedia.org/wiki/Palaeotherium "Palaeotherium")*, a [Paleogene](https://en.m.wikipedia.org/wiki/Paleogene "Paleogene") relative of horses that lived in subtropical climates of Europe during the [Eocene](https://en.m.wikipedia.org/wiki/Eocene "Eocene")
 

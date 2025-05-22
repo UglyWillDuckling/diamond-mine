@@ -21,7 +21,7 @@ Remnants of Igbo religious rites spread among African descendants in the Caribbe
 
 *Ọdịnala* in central Igbo dialect is the compound of the words *ọ̀ dị̀* ('located') + *n* (*nà*, 'within') + *àla* (the one god) \[consisting of anu (E nu) above (the heavens) and Ala, below (the earth)\].[^kwenu-odinani-11][^12][^echema2010-13] Other dialectal variants include *ọdịnanị*, *ọdịnana*, *omenala*, *omenana*, and *omenanị*.[^echema2010-13][^14] The word ọdịnala and all its variations is also associated with the culture and customary laws of the Igbo people. Many of the laws and culture were counterparts with religion such as taboos and laws concerning sacred spaces like a deity's sacred forest. Since customary law is recognised in Nigeria, many in Igbo society find themselves syncretising these beliefs with other beliefs and religions.<sup class="noprint Inline-Template Template-Fact">[<i><a href="https://en.m.wikipedia.org/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (August 2021)">citation needed</span></a></i>]</sup>
 
-![Magic lantern Image of the entrance to the cave of the Ibini Ukpabi oracle at Arochukwu.](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/-Remains_of_Long_Juju_Gorge%2C_Arochuku-%2C_late_19th_century_%28imp-cswc-GB-237-CSWC47-LS2-041%29.jpg/220px--Remains_of_Long_Juju_Gorge%2C_Arochuku-%2C_late_19th_century_%28imp-cswc-GB-237-CSWC47-LS2-041%29.jpg)
+![[~/×/36162f5de99670fe4011e6c4b67bc8a8_MD5.jpg]]
 
 Entrance to the cave of the [Ibini Ukpabi](https://en.m.wikipedia.org/wiki/Ibini_Ukpabi "Ibini Ukpabi") oracle at [Arochukwu](https://en.m.wikipedia.org/wiki/Arochukwu "Arochukwu"), 1900s
 
@@ -37,7 +37,7 @@ Olupona rejects the western/Islamic definition of [Monotheism](https://en.m.wiki
 
 Chukwuemeka Mbaegbu from the [Nnamdi Azikiwe University](https://en.m.wikipedia.org/wiki/Nnamdi_Azikiwe_University "Nnamdi Azikiwe University"), [Awka](https://en.m.wikipedia.org/wiki/Awka "Awka"), [Nigeria](https://en.m.wikipedia.org/wiki/Nigeria "Nigeria"), describes the Igbo religion's system as "*Monopolytheism*", referring to the belief in many distinct gods and spirits, but with one distant and unpersonalized supreme force, which resulted in the creation of everything, but is not a god per definition.[^mbaegbu,_chukwuemeka_2015-4]
 
-![An interior photograph of a chi shrine with plates inset into the polished mud walls](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Chi_shrine.jpg/220px-Chi_shrine.jpg)
+![[~/×/d49aee120faa02f826e4b726cf1f9c59_MD5.jpg]]
 
 Interior of a chi shrine at Nkarahia, southern Igboland, 1900s
 
@@ -45,7 +45,7 @@ In Odinani, the Igbo people believe that each person has their own personal spir
 
 The community of visible interacting beings and the cosmos is referred to as *ụ̀wà*, which includes all living things *íhẹ́ ndi dị́ ńdụ̀*, including animals and vegetation and their mineral elements which possess a vital force and are regarded as counterparts to invisible forces in the spirit world.[^agbadiere-20] These living things and geomorphological features of the world therefore possess a guardian deity. Igbo cosmology presents a balance between the feminine and masculine, perhaps, with a preponderance of female representation in Igbo lore.[^agbadiere-20] In Igbo cosmology, the world was divided into four corners by the high god corresponding to *èké* *órìè* *àfọ̀* *ǹkwọ́* which are the days of the week in the [Igbo calendar](https://en.m.wikipedia.org/wiki/Igbo_calendar "Igbo calendar") regarded as market days.[^ukaegbu-34][^35] The universe is regarded as a composite of bounded spaces in an overlapping hemispherical structure, the total spaces are referred to as *élú nà àlà*.[^agbadiere-20] In one Igbo cosmological theory reported by W.R.G. Morton in the 1950s from an elder in Ibagwa Nike in northern Igboland, Chukwu sees that the sun travels across the world in the day time and then cuts into two in order for the moon to pass on a perpendicular route, and so the world is divided into four parts and four days.[^ukaegbu-34] The quarterly division of the earth and the days makes the number four sacred (*ńsọ́*) to the Igbo.[^ukaegbu-34][^morton-36] The *élú nà àlà* space is defined by two boundaries: *élú ígwé*, 'sky's limit' composed of heavenly bodies under the main forces of the 'masculine' sun and 'feminine' moon, and *élú àlà*, 'earth or lands limit' consisting of the four material elements of fire and air (masculine), and earth and water (feminine).[^agbadiere-20]
 
-![Picture of figures drawn in chalk on the ground](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ogbo_Obodo.jpg/200px-Ogbo_Obodo.jpg)
+![[~/×/ee75dafaf03a48f1267c0aebceb2076f_MD5.jpg]]
 
 Ogbo Obodo figures for the cult of Nkpetime, near [Asaba](https://en.m.wikipedia.org/wiki/Asaba,_Delta "Asaba, Delta"), 1900s
 
@@ -61,7 +61,7 @@ The Igbo traditionally believe in an [afterlife](https://en.m.wikipedia.org/wiki
 
 An *ọgbanje* is a reincarnating [evil or revengeful spirit](https://en.m.wikipedia.org/wiki/Evil_spirit "Evil spirit"), that would deliberately plague a family with misfortune. In folklore, the *ọgbanje*, upon being born by the mother, would deliberately die after a certain amount of time (usually before [puberty](https://en.m.wikipedia.org/wiki/Puberty "Puberty")) and then come back and repeat the cycle, causing the family grief. This time period varies between minutes, hours, days and years. [Female circumcision](https://en.m.wikipedia.org/wiki/Igbo_culture#Female_circumcision "Igbo culture") was sometimes thought to get rid of the evil spirit. Finding the evil spirit's *[Iyi-uwa](https://en.m.wikipedia.org/wiki/Iyi-uwa "Iyi-uwa")*, which is buried in a secret location, would ensure that the *ọgbanje* would never plague the family with misfortune again. The *Iyi-uwa* is a stone that the *ọgbanje's* way of coming back to the human world and is also a way of finding its targeted family. The stone is usually buried deep enough to not have been hidden by a child. The *iyi-uwa* is dug out by a priest and destroyed. Female *ọgbanje* die during pregnancies along with the baby, male *ọgbanje* die before the birth of a wife's baby or the baby dies. The child is confirmed to no longer be an *ọgbanje* after the destruction of the stone or after the mother successfully gives birth to another baby.[^nnam2007-43]
 
-![An image of a pottery piece depicting three people seated representing the Igbo deity Ifejioku](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pottery_shrine_piece%2C_Ibo_-_African_objects_in_the_American_Museum_of_Natural_History_-_DSC05998.JPG/220px-Pottery_shrine_piece%2C_Ibo_-_African_objects_in_the_American_Museum_of_Natural_History_-_DSC05998.JPG)
+![[~/×/4a2ef62fb4f3d6a77c2bcb65516d2a2a_MD5.jpg]]
 
 Shrine representation of the *alusi* [Ifejioku](https://en.m.wikipedia.org/wiki/Ahia_Njoku "Ahia Njoku")
 
@@ -73,7 +73,7 @@ The Arusi, who are also known as *the Arushi*, *Anusi* or *Alusi* by dialects (s
 
 [Ala](https://en.m.wikipedia.org/wiki/Ala_\(odinala\) "Ala (odinala)") (meaning '[earth](https://en.m.wikipedia.org/wiki/Earth "Earth")' and 'land' in Igbo, also *Ájá-ànà*)[^isichei1977-49][^oriji2011-50] is the feminine earth spirit who is responsible for morality, fertility and the [dead ancestors](https://en.m.wikipedia.org/wiki/Ancestor_veneration "Ancestor veneration") who are stored in the underworld in her womb. Ala is at the head of the Igbo pantheon, maintaining order and carrying out justice against wrongdoers. Ala is the most prominent and worshipped Arusi,[^udoye-45] almost every Igbo village has a shrine dedicated to her called *íhú Ala* where large decisions are taken.[^agbadiere-20] Ala is believed to be involved in all aspects of human affairs including festivals and at offerings. Ala stands for fertility and things that generate life including water, stone and vegetation, colour (*àgwà*), beauty (*mmá*) which is connected to goodness in Igbo society, and uniqueness (*ájà*).[^agbadiere-20] She is a symbol of morality who sanctioned *omenala* Igbo customs from which these moral and ethical behaviours are upheld in Igbo society.[^ogbaa-51] Ala is the ground itself, and for this reason taboos and crimes are known as *ńsọ́ Ala* ('desecration of Ala'), all land is holy as the embodiment of Ala making her the principal legal sanctioning authority.[^agbadiere-20][^ogbaa-51] Prohibitions include murder, suicide, theft, incest, and abnormalities of birth such as in many places the birth of twins and the killing and eating of pregnant animals, if a slaughtered animal is found to be pregnant sacrifices are made to Ala and the foetus is buried.[^agbadiere-20] People who commit suicides are not buried in the ground or given burial rites but cast away in order not to further offend and pollute the land, their ability to become ancestors is therefore nullified.[^okoh2012-30] When an individual dies a 'bad death' in the society, such as from the effects of divine retributive justice or breaking a taboo, they are not buried in the earth, but are discarded in a forest so as not to offend Ala. As in cases of most Arusi, Ala has the ability to be malevolent if perceived to be offended and can cause harm against those who offend her.[^agbadiere-20][^ogbaa-51]
 
-![An up-close photograph of a royal python which is a messenger of Ala](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Python-regius-kopf-k%C3%B6nigspython.jpg/220px-Python-regius-kopf-k%C3%B6nigspython.jpg)
+![[~/×/c704b56c31ca470e0fdd9912d1c59e09_MD5.jpg]]
 
 The royal python is revered as an agent of Ala.
 
@@ -81,7 +81,7 @@ Within the earth's spherical limit, in a cosmological sense, is a designation of
 
 Amadioha (from *ámádí* + *ọ̀hà*, 'free will of the people' in Igbo) is the Arusi of justice, thunder, lightning and the sky. He is referred to as *Amadioha* in southern Igboland, *Kamalu*, *Kamanu*, *Kalu* among the Aro and other [Cross River](https://en.m.wikipedia.org/wiki/Cross_River_\(Nigeria\) "Cross River (Nigeria)") Igbo people, *Igwe* among the [Isuama](https://en.m.wikipedia.org/wiki/Isuama "Isuama") Igbo and in northwestern Igboland, and *Ofufe* in certain parts of Igboland.[^onunwa-54][^55][^56][^57][^58] His governing planet is the [Sun](https://en.m.wikipedia.org/wiki/Sun_\(astrology\) "Sun (astrology)").[^uchendu-59] His color is red, and his symbol is a white ram.[^diala,_isidore_page_104-60] Metaphysically, Amadioha represents the collective will of the people and he is often associated with Anyanwu.[^61] He is the expression of divine justice and wrath against taboos and crimes; in oaths he is sworn by and strikes down those who swear falsely with thunder and lightning.[^onunwa-54] Amadioha shrines exist around Igboland, his main shrine is located at Ozuzu in the riverine Igbo region in northern [Rivers State](https://en.m.wikipedia.org/wiki/Rivers_State "Rivers State"). While Anyanwu is more prominent in northern Igboland, Amadioha is more prominent in the south. His day is Afọ, which is the second market day.[^62] In mbari houses Amadioha is depicted beside Ala as her consort.[^63]
 
-![An image of a carved deity named Ikenga, the grey wooden piece has legs, a stylised but simple body, a trinagular head and shallow facial features and two horns around 1/3 its size](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Raccolte_Extraeuropee_-_Passar%C3%A9_00279_-_Statua_Igbo_-_Nigeria.jpg/220px-Raccolte_Extraeuropee_-_Passar%C3%A9_00279_-_Statua_Igbo_-_Nigeria.jpg)
+![[~/×/9497c37258564d11fd1a9a02f11b8590_MD5.jpg]]
 
 A miniature abstract cylindrical Ikenga figure
 
@@ -105,7 +105,7 @@ Among the Mmuo are:
 - Urashi and Enyija: god of the river
 - Ezenwaanyi/Owummiri: Female Water Spirit, Mermaid, Seductress
 
-![A black and white photo of an Igbo traditional spiritual practitioner known as dibia wearing a cloth alung round the should and sitting cross legged on an outside sand floor, tools of his practice are in front of him including what appear to be animal skins, a small carved image of Ikenga, and a bell. He has a white line of chalk over his eyes and is slightly bowing. In the background is a carved door with intricate lines carved into it, appearing to stick out the ground behind the man.](https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Igbo_medicine_man.jpg/220px-Igbo_medicine_man.jpg)
+![[~/×/97b022d71f9513350cac11d712d046d4_MD5.jpg]]
 
 A dibia from the early 20th century with tools of his practice including bells and a miniature Ikenga figure
 
@@ -115,7 +115,7 @@ The name of divination in Igbo derives from *ígbá áfà* or *áhà* meaning 't
 
 ### Ancestral veneration
 
-![An image of a brown wooden standing male figure partially painted with large black, yellow and white pigment, figure is in an exhibition case on a green background](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Igbo_male_figure.jpg/220px-Igbo_male_figure.jpg)
+![[~/×/8a92407a9cd0f09faba7035dc2194e5c_MD5.jpg]]
 
 A male ancestral figure
 
@@ -123,7 +123,7 @@ Ndebunze, or *ndichie*, are the deceased ancestors who are considered to be in t
 
 A number of major masking institutions exist around Igboland that honour ancestors and reflect the spirit world in the land of the living. Young women, for example, are incarnated in the society through the [àgbọ́ghọ̀ mmúọ́](https://en.m.wikipedia.org/wiki/Agbogho_mmuo "Agbogho mmuo") masking tradition in which mean represent ideal and benevolent spirits of maidens of the spirit world in the form of feminine masks. These masks are performed at festivals at agricultural cycles and at funerals of prominent individuals in the society.[^82]
 
-![An image of a kola nut bowl in a museum showcase, it is wooden, round and brown and a small compartment is at the centre with a lid featuring animal faces carved on.](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Kolanut_bowl_%28%E1%BB%8Dkwa_%E1%BB%8Dj%E1%BB%8B%29%2C_Nigeria%2C_Igbo_people%2C_early_20th_century%2C_wood_-_Chazen_Museum_of_Art_-_DSC01783.jpg/220px-Kolanut_bowl_%28%E1%BB%8Dkwa_%E1%BB%8Dj%E1%BB%8B%29%2C_Nigeria%2C_Igbo_people%2C_early_20th_century%2C_wood_-_Chazen_Museum_of_Art_-_DSC01783.jpg)
+![[~/×/8f1eaf7e901f1d3cc744589fdc3f3be7_MD5.jpg]]
 
 An ókwá ọ́jị̀ bowl in the Chazen Museum of Art, [Wisconsin](https://en.m.wikipedia.org/wiki/Wisconsin "Wisconsin")
 
@@ -131,11 +131,11 @@ An ókwá ọ́jị̀ bowl in the Chazen Museum of Art, [Wisconsin](https://en.m
 
 The Igbos have been known to pass down their culture from generation to generation with the use of verbal (largely undocumented) stories. Examples include:
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Gnome-mime-sound-openclipart.svg/50px-Gnome-mime-sound-openclipart.svg.png)
+![[~/×/898fa62bd16a6d1717aa66e577d4b22d_MD5.png]]
 
 <audio id="mwe_player_0_placeholder" preload="none" data-mw-tmh="" class="" width="232" data-durationhint="549" data-mwtitle="Ogbozoroba_-_Nwunywe_di_na_Nwunye_di.mp3" data-mwprovider="wikimediacommons" playsinline="" disabled="disabled" tabindex="-1"></audio>Duration: 9 minutes and 9 seconds.
 
-![An image of modelled figure in an mbari house](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/RAAI_645.3_%282%29.jpg/220px-RAAI_645.3_%282%29.jpg)
+![[~/×/58388ccd28ef430eb3d30bff02354bbc_MD5.jpg]]
 
 Scene in an mbari house, 1904
 

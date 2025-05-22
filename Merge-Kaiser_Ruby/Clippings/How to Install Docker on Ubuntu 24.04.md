@@ -17,7 +17,7 @@ related:
   - "[[Docker]]"
   - "[[Docker Compose]]"
 ---
-![icon](https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/linuxiac.com/wp-content/uploads/2022/02/cropped-favicon-32x32.png)
+![[~/×/7ba9728abffff155f4e4c206791c23f6_MD5.avif]]
 
 Docker is a powerful tool for creating, deploying, and managing containers, making running applications in a consistent environment easier and time-saving. At the same time, Ubuntu is a great and reliable platform, suitable both for development and as a server you can trust for your Docker needs.
 
@@ -53,7 +53,7 @@ Next, import the Docker GPG repository key to your Ubuntu system. This security 
 ```bash
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 ```
-![Add Docker’s official GPG key.](https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/linuxiac.com/wp-content/uploads/2024/05/ubuntu2404-docker01.jpg)
+![[~/×/35cdf83f68296bd9131214390a5c3c4f_MD5.avif]]
 
 Add Docker’s official GPG key.
 
@@ -64,7 +64,7 @@ After importing the GPG keys, we’ll add the official Docker repository to our 
 ```bash
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
-![Add the official Docker repository to Ubuntu 24.04 LTS.](https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/linuxiac.com/wp-content/uploads/2024/05/ubuntu2404-docker02.jpg)
+![[~/×/9ce4f3945bdb032b45c1d78df67eeb16_MD5.jpg]]
 
 Add the official Docker repository to Ubuntu 24.04 LTS.
 
@@ -73,7 +73,7 @@ As with the previous command, its execution produces no output. Next, refresh th
 ```bash
 sudo apt update
 ```
-![](https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/linuxiac.com/wp-content/uploads/2024/05/ubuntu2404-docker03.jpg)
+![[~/×/68a10d084689e56b340acbec73680a7d_MD5.jpg]]
 
 Update the package base.
 
@@ -86,7 +86,7 @@ Run the below command to install the latest up-to-date Docker release on Ubuntu.
 ```bash
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
-![Install Docker on Ubuntu 24.04 LTS (Noble Numbat).](https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/linuxiac.com/wp-content/uploads/2024/05/ubuntu2404-docker04.jpg)
+![[~/×/3ac434eaa4134b29ab2565c5e7584f8a_MD5.jpg]]
 
 Install Docker on Ubuntu 24.04 LTS (Noble Numbat).
 
@@ -103,7 +103,7 @@ That’s all! Docker should now be installed, service enabled, and set to start 
 ```bash
 sudo systemctl is-active docker
 ```
-![Check the status of the Docker service.](https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/linuxiac.com/wp-content/uploads/2024/05/ubuntu2404-docker05.jpg)
+![[~/×/5b8028b377086949f31d3b4527e23c41_MD5.jpg]]
 
 Check the status of the Docker service.
 
@@ -114,7 +114,7 @@ The moment of truth. Let’s check if our new Docker installation works correct
 ```bash
 sudo docker run hello-world
 ```
-![Docker successfully installed, up & running on Ubuntu 24.04 LTS.](https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/linuxiac.com/wp-content/uploads/2024/05/ubuntu2404-docker06.jpg)
+![[~/×/883e861ad72a720d9d34b9bc1ee143f9_MD5.jpg]]
 
 Docker successfully installed, up & running on Ubuntu 24.04 LTS.
 
@@ -126,7 +126,7 @@ So far, you have successfully installed Docker on your Ubuntu 22.04 LTS system. 
 
 That means if you attempt to run the `docker` command without prefixing it with `sudo`, you’ll get an error message like this:
 
-![Docker permission denied.](https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/linuxiac.com/wp-content/uploads/2024/05/ubuntu2404-docker07.jpg)
+![[~/×/4f04cc1cc984d813775fdea1e4075b0a_MD5.jpg]]
 
 Docker permission denied.
 
@@ -138,7 +138,7 @@ sudo usermod -aG docker ${USER}
 
 In the above command, “*${USER}*” is an environment variable that contains your username. To apply for the new group membership, reboot your Ubuntu system. You can then execute `docker` commands without prefixing them with `sudo`.
 
-![Run the docker command as a regular user.](https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/linuxiac.com/wp-content/uploads/2024/05/ubuntu2404-docker08.jpg)
+![[~/×/dd22fd7d66407d94b491a69e96ec62a5_MD5.jpg]]
 
 Run the docker command as a regular user.
 

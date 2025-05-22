@@ -116,7 +116,7 @@ hide backlink
 
 The `show tree` instruction enables us to see the parent/child relationships in the tasks, and their nested tasks and list items:
 
-![Sample search results with 'show tree' instruction](https://publish-01.obsidian.md/access/40e62a316a834ff6f495ebf1d122cae6/images/show-tree.png)
+![[~/×/3e1177d8958dffa624eada3c3aecdaf8_MD5.png]]
 
 Sample search results with 'show tree' instruction
 

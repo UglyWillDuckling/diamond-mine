@@ -43,7 +43,7 @@ U nastavku ćemo navesti kratki pregled tih pružatelja hosting usluga i upoznat
 
 Kako bismo testirali istinsku izvedbu svake tvrtke za web hosting, morali smo izraditi web stranicu. Kupili smo plan hostinga od svakog od pružatelja usluga koji su ušli u uži izbor na našem popisu i izradili smo jednostavnu internetsku trgovinu s tekstom, slikama i interaktivnim elementima.
 
-![Website Planet Nutritionistica test site landing page](https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2019/06/unnamed-4.jpg)
+![[~/×/0f967515529476884540252a7587efff_MD5.jpg]]
 
 Koristili smo našu novu WordPress trgovinu za testiranje web hostova
 
@@ -163,19 +163,19 @@ Ipak, vrijedi uzeti ga u razmatranje – neograničeni resursi po tako niskoj ci
 
 Ako niti jedna od gore navedenih opcija ne odgovara vašim potrebama, **InfoNET nudi hrvatske domene i podršku, a uz to, njegovi poslužitelji su u Hrvatskoj**. Njegove cijene i značajke također su impresivne, što ga čini izvrsnim izborom vrijednosti za novac.€2.68 /Mjesec€0.90 /Mjesec
 
-[![infonet-logo-alt](https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2019/06/infonet-logo-alt.png)](https://www.websiteplanet.com/goto.php?id=207433&lang=hr&deep_id=0&deep_name=&btn_name=top10tableShortcode_762899&post_id=703208&direct_link=&type=vendor&amp=0&pageview_id=3|1734692059509&clickout_id=3|1734692059509|29|207433)
+[![[~/×/9d6402598b8ade46328232cec678798b_MD5.png]]](https://www.websiteplanet.com/goto.php?id=207433&lang=hr&deep_id=0&deep_name=&btn_name=top10tableShortcode_762899&post_id=703208&direct_link=&type=vendor&amp=0&pageview_id=3|1734692059509&clickout_id=3|1734692059509|29|207433)
 
 €1.18 /Mjesec
 
-[![xhosting-logo-alt](https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2019/02/xhosting-logo-alt.png)](https://www.websiteplanet.com/goto.php?id=391593&lang=hr&deep_id=0&deep_name=&btn_name=top10tableShortcode_762900&post_id=703208&direct_link=&type=vendor&amp=0&pageview_id=3|1734692059509&clickout_id=3|1734692059509|31|391593)
+[![[~/×/4b0f988ebc7ad08a32a2091271360c7d_MD5.png]]](https://www.websiteplanet.com/goto.php?id=391593&lang=hr&deep_id=0&deep_name=&btn_name=top10tableShortcode_762900&post_id=703208&direct_link=&type=vendor&amp=0&pageview_id=3|1734692059509&clickout_id=3|1734692059509|31|391593)
 
 €6.16 /Mjesec
 
-[![siteground-logo-alt](https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2018/10/siteground-logo-alt.png)](https://www.websiteplanet.com/goto.php?id=244542&lang=hr&deep_id=0&deep_name=&btn_name=top10tableShortcode_762901&post_id=703208&direct_link=&type=vendor&amp=0&pageview_id=3|1734692059509&clickout_id=3|1734692059509|33|244542)
+[![[~/×/b1c218368f7d278cf460b1dfb76c8776_MD5.png]]](https://www.websiteplanet.com/goto.php?id=244542&lang=hr&deep_id=0&deep_name=&btn_name=top10tableShortcode_762901&post_id=703208&direct_link=&type=vendor&amp=0&pageview_id=3|1734692059509&clickout_id=3|1734692059509|33|244542)
 
 €1.79 /Mjesec
 
-[![orbis-logo-alt](https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2019/05/orbis-logo-alt.png)](https://www.websiteplanet.com/goto.php?id=595101&lang=hr&deep_id=0&deep_name=&btn_name=top10tableShortcode_762902&post_id=703208&direct_link=&type=vendor&amp=0&pageview_id=3|1734692059509&clickout_id=3|1734692059509|35|595101)
+[![[~/×/d9211f5344e5c2458261869feb40c9a7_MD5.png]]](https://www.websiteplanet.com/goto.php?id=595101&lang=hr&deep_id=0&deep_name=&btn_name=top10tableShortcode_762902&post_id=703208&direct_link=&type=vendor&amp=0&pageview_id=3|1734692059509&clickout_id=3|1734692059509|35|595101)
 
 €4.05 /Mjesec
 

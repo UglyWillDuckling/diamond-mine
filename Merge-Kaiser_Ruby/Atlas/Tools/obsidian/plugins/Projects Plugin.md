@@ -8,7 +8,7 @@ description: Plain text project planning in Obsidian. Contribute to marcusolsson
 tags: 
 favicon: https://github.githubassets.com/favicons/favicon-dark.svg
 ---
-![icon](https://github.githubassets.com/favicons/favicon-dark.svg)
+![[~/×/229d748078e89b224aac4ea2cafd7498_MD5.svg]]
 
 
 Projects is a plugin for [Obsidian](https://obsidian.md/) that lets you manage and visualize notes for project management.

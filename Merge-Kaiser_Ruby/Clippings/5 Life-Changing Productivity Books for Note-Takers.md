@@ -11,7 +11,7 @@ tags:
   - processing
 related:
 ---
-![icon|50](https://www.youtube.com/s/desktop/87990107/img/logos/favicon_32x32.png)
+![[~/×/37add6d2928c1686924bc244399373f7_MD5.png|50]]
 
 ![](https://www.youtube.com/watch?v=ljjkhxaL26o)  
 

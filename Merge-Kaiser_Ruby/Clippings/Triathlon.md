@@ -19,7 +19,7 @@ The sport originated in the late 1970s[^5] in Southern California as sports club
 
 Triathletes train to achieve endurance, strength, and speed. The sport requires focused persistent and [periodised](https://en.m.wikipedia.org/wiki/Sports_periodization "Sports periodization") training for each of the three disciplines, as well as combination workouts and general strength conditioning.[^twelveweek-7]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/18-6-22_course_des_trois_sports.jpg/220px-18-6-22_course_des_trois_sports.jpg)
+![[~/×/8d7cde655ec232b0f381ade3f431a722_MD5.jpg]]
 
 1922 Course des trois sports
 
@@ -61,7 +61,7 @@ The World Triathlon accepts a 5% margin of error in the cycle and run course dis
 
 While specific rules for triathlon can vary depending on the governing body (e.g. World Triathlon, USA Triathlon), as well as for an individual race venue, there are some basic universal rules. Traditionally, triathlon is an individual sport and each athlete is competing against the course and the clock for the best time. As such, athletes are not allowed to receive assistance from anyone else outside the race, with the exception of race-sanctioned aid volunteers who distribute food and water on the course.[^usat_common-65][^itu_rules-66]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/TriathlonHamburg.jpg/220px-TriathlonHamburg.jpg)
+![[~/×/6ff7f4606b1f276912a45753018373fe_MD5.jpg]]
 
 Transition area (bicycles) of [Hamburg Triathlon](https://en.m.wikipedia.org/w/index.php?title=Hamburg_Triathlon&action=edit&redlink=1 "Hamburg Triathlon (page does not exist)"), 2002
 

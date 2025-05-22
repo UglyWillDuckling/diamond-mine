@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3353fa950c13b8cb",
+        "id": "67cb033762416ef5",
         "type": "tabs",
         "children": [
           {
-            "id": "2496ba8c6565f4b6",
+            "id": "dfb63fa4b3775603",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Life/Faks/faks - raspored za kraj 2025, godine - tablica.md",
+                "file": "Master Task List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "faks - raspored za kraj 2025, godine - tablica"
+              "title": "Master Task List"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "makefile",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5110321044922
+    "width": 285.501522064209
   },
   "right": {
     "id": "3daebda00016f277",
@@ -87,6 +87,7 @@
       {
         "id": "4b820b274839dd85",
         "type": "tabs",
+        "dimension": 68.32993890020367,
         "children": [
           {
             "id": "b1c7bf0bf1881a1d",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Knowledge/Books/Earthsea series.md",
+                "file": "Master Task List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Earthsea series"
+              "title": "Backlinks for Master Task List"
             }
           },
           {
@@ -113,62 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Knowledge/Books/Earthsea series.md",
+                "file": "Master Task List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Earthsea series"
-            }
-          },
-          {
-            "id": "aa18ff62c26d36ff",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "abb9e7fd6f724245",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "DAS - watchlist/das-0002-how-and-why-to-avoid-nil.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of das-0002-how-and-why-to-avoid-nil"
-            }
-          },
-          {
-            "id": "b8afa4a703ab3377",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "5c0225c952bc32e4",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "Outgoing links from Master Task List"
             }
           },
           {
@@ -177,36 +128,38 @@
             "state": {
               "type": "reminder-list",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "71649246b37ea879",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
-            }
-          },
-          {
-            "id": "8409bdb91d85a67f",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
+              "icon": "clock",
+              "title": "Reminders"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
+      },
+      {
+        "id": "ad60b0636f1a5512",
+        "type": "tabs",
+        "dimension": 31.67006109979633,
+        "children": [
+          {
+            "id": "abb9e7fd6f724245",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Master Task List.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Master Task List"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 344.5,
+    "width": 517.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -228,58 +181,59 @@
       "juggl:Juggl global graph": true,
       "templater-obsidian:Templater": true,
       "callout-manager:Insert Callout": true,
-      "obsidian-book-search-plugin:Create new book note": true
+      "obsidian-book-search-plugin:Create new book note": true,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true
     }
   },
-  "active": "937564d863a6697f",
+  "active": "dfb63fa4b3775603",
   "lastOpenFiles": [
-    "Atlas/Life/Faks/Faks.md",
-    "Atlas/Life/Faks/faks - raspored za kraj 2025, godine - tablica.md",
-    "Calendar/daily/2025/2025-05-07-Wed.md",
-    "Calendar/Events/Meetings/razgovor s Bojanom.md",
-    "Calendar/Events/Meetings",
-    "Udemy Courses.md",
-    "Movie List.md",
+    "Clippings/Jellyfin.md",
+    "Calendar/daily/2025/2025-05-22-Thu.md",
+    "Efforts/Ongoing/Setup Printer on PC.md",
+    "Clippings/Mother (video game series) - Wikipedia.md",
+    "Clippings/Mother 3.md",
+    "Clippings/Mother 3 - Wikipedia.md",
+    "Top 25 Game Boy Advance Games of All Time.md",
+    "~/×/0318cec192415f4b583242cbdcc9af36_MD5.jpg",
+    "~/×/a29991eecd186c08fbbdb0e4e9309911_MD5.jpg",
+    "~/×/a87d31de8ba35a55bef6d94cc85daaf9_MD5.jpg",
+    "~/×/90526e10ce6a4cc2daab7d9b4c931cb9_MD5.jpg",
+    "~/×/f9132600a3052ae14672c0857b103e6b_MD5.jpg",
+    "~/×/2b538dd8f7fd3d34a85cdcc3423a8ef5_MD5.jpg",
+    "~/×/d6adf5655d43523fbe69bb60741d6f6e_MD5.jpg",
+    "~/×/e5713b3090465e0832ecd7d665b70341_MD5.jpg",
+    "~/×/27cd1e1f55aef328ea936fcc41de3c8e_MD5.jpg",
+    "~/×/d5d2308bec72f866237ce14426af502f_MD5.jpg",
+    "Clippings/Top 25 Game Boy Advance Games of All Time.md",
+    "Calendar/daily/2025/2025-05-21-Wed.md",
     "Master Task List.md",
-    "🏡.md",
-    "Timestamps/2025/05-May/2025-05-05-Monday.md",
+    "Atlas/World/Udruge/Zelena Zadruga.md",
+    "Atlas/World/Udruge",
+    "Atlas/Life/Items/Local Epson Printer - L3060.md",
+    "Movie List.md",
+    "application for Laravel position - cover letter.md",
+    "you can navigate back and fort with ctrl-alt- <- ->.md",
+    "Atlas/Notes/osobni dokumenti.md",
+    "Atlas/Notes/github recover codes.md",
+    "Sets/ActioneventSet/enabled cups service.md",
     "GNU Make Tutorial.md",
-    "Atlas/Knowledge/History/Prehistoric/Dinosaurs/Stegosaurus.md",
-    "Atlas/Knowledge/History/Prehistoric/Dinosaurs",
-    "Dinosaurs/Triceratops.md",
-    "Clippings/South Dakota loo.md",
-    "Dinosaurs",
-    "Clippings/Ungulate.md",
-    "Calendar/daily/2025/2025-05-06-Tue.md",
+    "🏡.md",
+    "Calendar/daily/2025/2025-05-20-Tue.md",
+    "Untitled 1.md",
+    "Sets/ActioneventSet/ActioneventSet.md",
+    "Calendar/daily/2025/2025-05-19-Mon.md",
+    "Timestamps/2025/05-May/2025-05-20-Tuesday.md",
     "Timestamps/2025/05-May",
     "Timestamps/2025",
     "Timestamps",
-    "Clippings/Environment variables - ArchWiki.md",
-    "Clippings/Ep 031 Identities of Boolean Algebra.md",
-    "Atlas/Life/Faks/Predmeti/Digitalna/resursi/Ep 030 Introduction to Boolean Algebra.md",
-    "Atlas/Life/Faks/Predmeti/Digitalna/resursi/Asinhrona brojila.md",
-    "Atlas/Life/Faks/Predmeti/Digitalna/resursi",
-    "DAS - watchlist/das-0022-test-isolation-and-refactoring.md",
-    "DAS - watchlist/DAS - watchlist.md",
-    "DAS - watchlist/das-0074-splitting-active-record-models.md",
-    "DAS - watchlist/das-0073-collapsing-services-into-values.md",
-    "DAS - watchlist/das-0061-pushing-complexity-down.md",
-    "DAS - watchlist/das-0071-test-isolation-without-mocks.md",
-    "DAS - watchlist/das-0005-extracting-domain-objects.md",
-    "physical items",
-    "DAS - watchlist/das-0079-primitive-obsession.mp4",
-    "DAS - watchlist/das-0088-test-recommendations.mp4",
+    "Sets/ActioneventSet/enabled ecbd.service.md",
+    "Sets/ActioneventSet",
     "tasks canvas.canvas",
-    "React/documentation/attachements/unnamed.png",
-    "React/documentation/attachements/sharing_data_parent_clicked.webp",
-    "React/documentation/attachements/sharing_data_parent.webp",
-    "localai.io/7b16676e-d5b1-4c97-89bd-9fa5065c21ad_7786675119832255465.gif",
-    "localai.io/8ca277cf-c208-4562-8929-808b2324b584_8893940777665839621.gif",
-    "localai.io/b8cadddf-a467-49cf-a1ed-8850de95366d_2274280574799932814.png",
-    "localai.io/19ebd44a-20ff-412c-b92f-cfb8efbe4b21_6738893279686544059.png",
-    "localai.io/cb0a0897-3b58-4350-af66-e6f4387b58d3_375066517387404064.gif",
-    "localai.io/8aaca62a-e864-4011-98ae-dcc708103928_499489486369471042.png",
-    "localai.io/ede67b25-fac4-4833-ae4f-78290e401e60_10265476229148744963.gif",
+    "~/×/fe44e80481b9f64f6fe71b9474861f65_MD5.ico",
+    "~/×/30e4665e2772e1fcbba0ada2c89eff38_MD5.ico",
+    "~/×/86cb6957b34a2e7956808e34a1f55c1e_MD5.ico",
+    "~/×/4d08bd0854926f79ff184d21edd4a628_MD5.ico",
+    "~/×/2bbff94f3e43ec77e6f24450f2586bcd_MD5.ico",
     "tasks pic.canvas",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"
   ]

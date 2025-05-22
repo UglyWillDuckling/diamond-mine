@@ -21,7 +21,7 @@ In 2024, the area where the massacre occurred and the memorial became a [World H
 
 Sharpeville was first built in 1943 to replace Topville, a nearby township that suffered overcrowding where illnesses like pneumonia were widespread. Due to the illness, removals from Topville began in 1958. Approximately 10,000 Africans were forcibly removed to Sharpeville. Sharpeville had a high rate of unemployment as well as high crime rates. There were also youth problems because many children joined gangs and were affiliated with crimes instead of schools. Furthermore, a new police station was created, from which the police were energetic to check passes, deporting illegal residents, and raiding illegal [shebeens](https://en.m.wikipedia.org/wiki/Shebeen "Shebeen").[^:1-5]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Protestors_discarding_passbooks_in_South_Africa.jpg/220px-Protestors_discarding_passbooks_in_South_Africa.jpg)
+![[~/×/9e94eb26a0dcdbe2b2be5b1c83e18ef9_MD5.jpg]]
 
 Demonstrators discarding their passbooks to protest apartheid, 1960
 
@@ -47,7 +47,7 @@ Police reports in 1960 claimed that young and inexperienced police officers pani
 
 The [Truth and Reconciliation Commission](https://en.m.wikipedia.org/wiki/Truth_and_Reconciliation_Commission_\(South_Africa\) "Truth and Reconciliation Commission (South Africa)") found in 1998 that "the evidence of Commission deponents reveals a degree of deliberation in the decision to open fire at Sharpeville and indicates that the shooting was more than the result of inexperienced and frightened police officers losing their nerve."[^trcreport-8] 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Murder_at_Sharpeville_21_March_1960.jpg/220px-Murder_at_Sharpeville_21_March_1960.jpg)
+![[~/×/de3a973ded995f97a7237ed243b3ba03_MD5.jpg]]
 Painting depicting victims of the massacre
 
 The uproar among South Africa's black population was immediate, and the following week saw demonstrations, protest marches, strikes, and riots around the country. On 30 March 1960, the government declared a [state of emergency](https://en.m.wikipedia.org/wiki/State_of_emergency "State of emergency"), detaining more than 18,000 people, including prominent anti-apartheid activists who were known as members of the [Congress Alliance](https://en.m.wikipedia.org/wiki/Congress_Alliance "Congress Alliance") including [Nelson Mandela](https://en.m.wikipedia.org/wiki/Nelson_Mandela "Nelson Mandela") and some still enmeshed in the [Treason Trial](https://en.m.wikipedia.org/wiki/1956_Treason_Trial "1956 Treason Trial").[^:2-13]

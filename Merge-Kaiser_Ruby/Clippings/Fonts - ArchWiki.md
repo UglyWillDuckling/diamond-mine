@@ -6,7 +6,7 @@ created: 2025-01-27
 tags:
 related:
 ---
-![icon|50](https://wiki.archlinux.org/favicon.ico)
+![[~/×/03f009a77266f2d1dafc9880bbb72c0a_MD5.png|50]]
 
 Related articles
 
@@ -353,7 +353,7 @@ Relevant websites:
 
 #### Unsorted
 
-![](https://wiki.archlinux.org/images/5/53/Tango-edit-clear.svg)**This article or section needs language, wiki syntax or style improvements. See [Help:Style](https://wiki.archlinux.org/title/Help:Style "Help:Style") for reference.**
+![[~/×/7dcc0c0e505f49980db8d2e3dd2c7e15_MD5.svg|50]]**This article or section needs language, wiki syntax or style improvements. See [Help:Style](https://wiki.archlinux.org/title/Help:Style "Help:Style") for reference.**
 
 **Reason:** This section should be absorbed into the Monospace/Serif/Sans-Serif structure (Discuss in [Talk:Fonts](https://wiki.archlinux.org/title/Talk:Fonts))
 
@@ -534,7 +534,7 @@ Additionally, [texlive-basic](https://archlinux.org/packages/?name=texlive-basic
 
 ## Font alias
 
-![](https://wiki.archlinux.org/images/7/77/Merge-arrows-2.svg)**This article or section is a candidate for merging with [Fontconfig](https://wiki.archlinux.org/title/Fontconfig "Fontconfig").**
+![[~/×/cc893181b0eba5a855aa93b6258ce5d8_MD5.svg|50]]**This article or section is a candidate for merging with [Fontconfig](https://wiki.archlinux.org/title/Fontconfig "Fontconfig").**
 
 **Notes:** This section is Fontconfig-specific. (Discuss in [Talk:Fonts](https://wiki.archlinux.org/title/Talk:Fonts))
 
@@ -553,7 +553,7 @@ In this case, `DejaVuSansMono.ttf` is the font represented by the `monospace` al
 
 ## Fallback font order
 
-![](https://wiki.archlinux.org/images/7/77/Merge-arrows-2.svg)**This article or section is a candidate for merging with [Fontconfig](https://wiki.archlinux.org/title/Fontconfig "Fontconfig").**
+![[~/×/cc893181b0eba5a855aa93b6258ce5d8_MD5.svg|50]]**This article or section is a candidate for merging with [Fontconfig](https://wiki.archlinux.org/title/Fontconfig "Fontconfig").**
 
 **Notes:** This section contains Fontconfig-only related information. (Discuss in [Talk:Fonts](https://wiki.archlinux.org/title/Talk:Fonts))
 
@@ -590,7 +590,7 @@ For more information, have a look at the Fontconfig manual. See also [Font confi
 
 ### List installed fonts for a particular language
 
-![](https://wiki.archlinux.org/images/7/77/Merge-arrows-2.svg)**This article or section is a candidate for merging with [Fontconfig](https://wiki.archlinux.org/title/Fontconfig "Fontconfig").**
+![[~/×/cc893181b0eba5a855aa93b6258ce5d8_MD5.svg|50]]**This article or section is a candidate for merging with [Fontconfig](https://wiki.archlinux.org/title/Fontconfig "Fontconfig").**
 
 **Notes:** This section is Fontconfig-specific. (Discuss in [Talk:Fonts](https://wiki.archlinux.org/title/Talk:Fonts))
 
@@ -609,7 +609,7 @@ $ fc-list -f '%{file}\n' :lang=ar
 
 ### List installed fonts for a particular Unicode character
 
-![](https://wiki.archlinux.org/images/7/77/Merge-arrows-2.svg)**This article or section is a candidate for merging with [Fontconfig](https://wiki.archlinux.org/title/Fontconfig "Fontconfig").**
+![[~/×/cc893181b0eba5a855aa93b6258ce5d8_MD5.svg|50]]**This article or section is a candidate for merging with [Fontconfig](https://wiki.archlinux.org/title/Fontconfig "Fontconfig").**
 
 **Notes:** This section is Fontconfig-specific. (Discuss in [Talk:Fonts](https://wiki.archlinux.org/title/Talk:Fonts))
 

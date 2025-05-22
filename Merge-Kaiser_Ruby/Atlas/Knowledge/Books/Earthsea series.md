@@ -12,7 +12,7 @@ tags:
 
 ### Geography
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Earthsea.svg/500px-Earthsea.svg.png)
+![[~/×/aeded96435ac6027df16c91aeff61bca_MD5.png|200]]
 
 Map of Earthsea
 
@@ -30,7 +30,7 @@ The Dry Land is where most people go after they die, with the exception of the K
 
 ### Daoist philosophy
 
-![yinyang|200](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Yin_and_Yang_symbol.svg/250px-Yin_and_Yang_symbol.svg.png)
+![[~/×/cfacc8dff8cbfa67c9c1fa2aca9f6763_MD5.png|200]]
 [[Yin-Yang symbol]] of balanced opposites. In Le Guin's words, "Light is the left hand of darkness; darkness is the right hand of light." [^48] [^49]
 
 Erlich writes that the *Earthsea* books embody [Taoist](https://en.wikipedia.org/wiki/Taoism "Taoism") philosophy, with *Tehanu* counterbalancing the initial trilogy.[^11] In *Tehanu*, Ged returns to Gont, completing the cycle of his quest: Erlich comments that this movement back to his roots is Daoist.[^11] The balancing of "polarities" such as light and dark, male and female, **doing and being** is central to the philosophy and to the novels. The [Yin-Yang](https://en.wikipedia.org/wiki/Yin-Yang "Yin-Yang") symbol reflects this, and Erlich analyses multiple occurrences of Yin-Yang in the series, commenting that "Yin-Yang, indeed, is a unifying symbol in the trilogy".[^11]

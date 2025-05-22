@@ -14,7 +14,7 @@ related:
   - "[[How to Manage Projects in Obsidian]]"
   - "[[metadatamenu]]"
 ---
-![icon](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/01/or-logo-1.png?fit=32%2C32&ssl=1)
+![[~/×/35fbaebc16d53a5dd8a0eee6726e1862_MD5.png]]
 
 Dataview is a wonderful tool, and I recommend it to just about anyone who uses Obsidian. **But it has its limitations.**
 
@@ -38,7 +38,7 @@ If you have a table with a lot of items, it can be hard to go into each note and
 
 But we can fix that. With a little more set up, you can create Dataview tables that you can effortlessly update inline. In practice, that looks like this:
 
-![An example of editing Dataview data inside a table.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/07/editable-dataview-table.png?resize=807%2C238&ssl=1)
+![[~/×/1e2bc2f5ead4476ada1fb47f80a5ab1f_MD5.png]]
 
 In the screenshot above, both “standing” and “priority” are editable *within the table itself*. Standing has a dropdown menu that allows you to select from a few different options, and priority is a number that you can increase or decrease at the click of a button.
 
@@ -56,23 +56,23 @@ Let’s start with a “priority” field, like in the example above. Priority i
 
 To set up priority, open up the Metadata Menu settings, and expand the “Preset Fields Settings”:
 
-![A screenshot of the Metadata Menu settings pane.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/07/metadata-settings.png?resize=1024%2C680&ssl=1)
+![[~/×/27a6ec95b491f0f741d6b3c2f57054b6_MD5.png]]
 
 Click “Add new”, and you should see this popup:
 
-![A screenshot of the "add a new field" overlay.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/07/metadata-add-field.png?resize=670%2C603&ssl=1)
+![[~/×/479a905a789453fd380f20feeb1921de_MD5.png]]
 
 For Field Name, enter “Priority”. For Field Type, select “Accept a number”. And finally, enter “0” for Min value and “10” for max value. (you can change that if you like, but I find that ten numbers is enough levels of priority for me)
 
 When you’re done, the overlay should look like this:
 
-![A screenshot of the "add a new field" overlay with configuration for the Priority field.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/07/metadata-add-priority.png?resize=670%2C603&ssl=1)
+![[~/×/8db32155abf9e662a2933a79c6583499_MD5.png]]
 
 “Step” is optional, but if you add a “1” to that field then it will be easier to update.
 
 Click the checkmark to save your work. Now you should see your newly created Priority field under the Preset Fields Settings:
 
-![A screenshot of the Metadata Preset Fields settings with a priority field added.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/07/metadata-settings-with-priority.png?resize=840%2C276&ssl=1)
+![[~/×/7d5e87d2d85d1066bb216ef58734e55b_MD5.png]]
 
 And that should be all we need to do in our settings for now. Close the overlay and go back to your notes.
 
@@ -84,13 +84,13 @@ Now that you have a priority field created, you can add it to any files you want
 
 Metadata Menu includes context menu prompts, so when you right-click inside a note, you will see the “Add field…” new options:
 
-![A screenshot of the right-click context menu with options added by Metadata Menu.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/07/metadata-context-menu.png?resize=296%2C364&ssl=1)
+![[~/×/000432dc259c6ee4de427f6caf9d07f5_MD5.png]]
 
 Click “Add field at section” and select “Add on top of the file”. Then it will ask you what field to add, and you should have two options: ++New++ and the field that we created, “Priority”. Select Priority and give it a value of 1.
 
 Metadata Menu will then add priority to the top of your file, it should look like this:
 
-![An example of a project called "Walk the Dog" with a priority of 1.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/07/priority-added.png?resize=407%2C234&ssl=1)
+![[~/×/621dbe090b505f8c1306e5fbe846a781_MD5.png]]
 
 Feel free to add this to as many files as you like. Once you’ve added priority to at least one file, we can move on to the Dataview portion of this tutorial.
 
@@ -116,7 +116,7 @@ sort priority desc
 
 If we add the `#project/active` tag to our Walk the Dog project above, and paste the above query into a new note called “Active Projects”, it looks like this:
 
-![A screenshot of the Walk the Dog project showing up in a Dataview table.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/07/dataview-project-pull.png?resize=766%2C188&ssl=1)
+![[~/×/fd2335ca5653f78d3ee71c4c352968fe_MD5.png]]
 
 In order to make this table interactive, we first need to convert it to DataviewJS.
 

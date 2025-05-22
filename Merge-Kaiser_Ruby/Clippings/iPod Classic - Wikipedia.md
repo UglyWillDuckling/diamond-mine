@@ -9,7 +9,7 @@ description:
 tags:
 favicon: "https://en.wikipedia.org/static/favicon/wikipedia.ico"
 ---
-![icon](https://en.wikipedia.org/static/favicon/wikipedia.ico)
+![[~/×/1419f996a467c3a4b43f96f549fe6ff3_MD5.ico]]
 
 Portable media players by Apple, 2001–2014
 
@@ -23,7 +23,7 @@ On September 9, 2014, Apple discontinued the iPod Classic.[^discontinued-1][^4] 
 
 ## Technical information
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/IPod_wheel.svg/220px-IPod_wheel.svg.png)
+![[~/×/62841f30582d30ef75e807ce66a13581_MD5.png]]
 
 The iPod's signature [click wheel](https://en.wikipedia.org/wiki/IPod_click_wheel "IPod click wheel")
 
@@ -43,7 +43,7 @@ The iPod's operating system is stored on its dedicated storage medium. An additi
 
 In March 2002, Apple added limited [PDA](https://en.wikipedia.org/wiki/Personal_digital_assistant "Personal digital assistant")\-like functionality: text files can be displayed, while contacts and schedules can be viewed and synchronized with the host computer.[^7] Some built-in [games](https://en.wikipedia.org/wiki/IPod_games "IPod games") are available, including *Brick* (a clone of [Breakout](https://en.wikipedia.org/wiki/Breakout_\(arcade_game\) "Breakout (arcade game)")), [Parachute](https://en.wikipedia.org/w/index.php?title=Parachute_\(iPod_Game\)&action=edit&redlink=1 "Parachute (iPod Game) (page does not exist)"), *[Solitaire](https://en.wikipedia.org/wiki/Solitaire_\(game\) "Solitaire (game)")*, and *iPod Quiz*. A firmware update released in September 2006 brought some extra features to fifth-generation iPods including adjustable screen brightness, [gapless playback](https://en.wikipedia.org/wiki/Gapless_playback "Gapless playback"), and downloadable games. However, as of September 30, 2011, these games are no longer available on the iTunes Store.[^8]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Lightmatter_ipod_1G.jpg/170px-Lightmatter_ipod_1G.jpg)
+![[~/×/bd58153238a2c67a9123fccc546f6454_MD5.jpg]]
 
 iPod (1st gen), 2001
 
@@ -51,7 +51,7 @@ Apple introduced the first-generation iPod (M8541) on October 23, 2001, with the
 
 On March 20, 2002, Apple introduced a 10 GB model of the first-generation iPod for US$499. VCard compatibility was added, allowing iPods to display business card information synced from a Mac.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ipod_2G.png/170px-Ipod_2G.png)
+![[~/×/47d71eee2f834d688a4a24144b1e3a7e_MD5.png]]
 
 iPod (2nd gen), 2002
 
@@ -61,7 +61,7 @@ Notably, the second-generation iPods and the updated first-generation iPod were 
 
 In December 2002, Apple unveiled its first limited edition iPods, with either [Madonna](https://en.wikipedia.org/wiki/Madonna_\(entertainer\) "Madonna (entertainer)")'s, [Tony Hawk](https://en.wikipedia.org/wiki/Tony_Hawk "Tony Hawk")'s, or [Beck](https://en.wikipedia.org/wiki/Beck "Beck")'s signature or [No Doubt](https://en.wikipedia.org/wiki/No_Doubt "No Doubt")'s band logo engraved on the back for an extra US$50.[^10]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/3G_ipod_in_dock.jpg/170px-3G_ipod_in_dock.jpg)
+![[~/×/ae192f145dddbb84fa2f3c323e0258e2_MD5.jpg]]
 
 iPod (3rd gen), 2003
 
@@ -75,7 +75,7 @@ A special [U2](https://en.wikipedia.org/wiki/U2 "U2") edition was announced on O
 
 A Special [Harry Potter](https://en.wikipedia.org/wiki/Harry_Potter "Harry Potter") Edition was announced on September 7, 2005. It was released in conjunction with the Harry Potter [audiobooks](https://en.wikipedia.org/wiki/Audiobook "Audiobook") in [iTunes](https://en.wikipedia.org/wiki/ITunes "ITunes").[^11] It had a [Hogwarts](https://en.wikipedia.org/wiki/Hogwarts "Hogwarts") logo engraved on the back, and all six Harry Potter audiobooks which were available at the time preloaded.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/IPodphoto4G_1.png/170px-IPodphoto4G_1.png)
+![[~/×/392ddbc04397c97bed4957836a8ebd7f_MD5.png]]
 
 iPod Photo, 2004
 
@@ -89,11 +89,11 @@ On June 28, 2005, just nine months after its introduction, the iPod Photo was me
 
 ### 5th generation ("iPod with video")
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Ipod_5th_Generation_white.jpg/170px-Ipod_5th_Generation_white.jpg)
+![[~/×/04853494330009936d25ab8d20018eac_MD5.jpg]]
 
 iPod (5th gen), 2005
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/20070913_iPod_5-6_Gen_side-by-side.jpg/220px-20070913_iPod_5-6_Gen_side-by-side.jpg)
+![[~/×/1f2a8586c802c45ee9daa95f4e7abd41_MD5.jpg]]
 
 iPod classic (6th gen) (left) & iPod (5th gen) (right): showing the updated view feature
 
@@ -107,11 +107,11 @@ The fifth-generation iPod has a [Broadcom](https://en.wikipedia.org/wiki/Broadco
 
 Videos or photo slideshows may be played from the fifth-generation iPod on a television set, projector or monitor with the use of the Apple Composite AV cable or via an older dock providing an S-Video output. It is also possible to obtain composite video from the headphone jack, using an iPod AV Cable or generic equivalent ([appropriately wired TRRS minijack](https://en.wikipedia.org/wiki/Phone_connector_\(audio\)#TRRS_standards "Phone connector (audio)")), a feature removed from the following generation.[^videocablecompatibility-13]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ipodclassic80gb.jpg/220px-Ipodclassic80gb.jpg)
+![[~/×/dff2cf09bead54c031d8deb02b7934a0_MD5.jpg]]
 
 iPod classic (6th gen), 2007
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/IPod_classic_6G_-_with_Rockbox_firmware.jpeg/220px-IPod_classic_6G_-_with_Rockbox_firmware.jpeg)
+![[~/×/03fd993f6a57c0acb118a90ba8ead466_MD5.jpg]]
 
 iPod Classic (6th gen) with [Rockbox](https://en.wikipedia.org/wiki/Rockbox "Rockbox") firmware
 
@@ -147,7 +147,7 @@ On September 9, 2014, Apple officially discontinued the iPod Classic.[^discontin
 
 ## Timeline of full-size iPod models
 
-![](https://upload.wikimedia.org/wikipedia/en/timeline/1wj3eejvz2vpyiy8tr7szc82mc3ehsg.png)
+![[~/×/b9ff8f9b3c6774cc413598dab8863e4c_MD5.png]]
 
 Sources: [Apple](https://en.wikipedia.org/wiki/Apple_Inc. "Apple Inc.") press release library,[^appleprlib-31] [Mactracker](https://en.wikipedia.org/wiki/Mactracker "Mactracker") Apple Inc. model database[^mactrackerintemplate-32]
 
@@ -215,6 +215,6 @@ Sources: [Apple](https://en.wikipedia.org/wiki/Apple_Inc. "Apple Inc.") press re
 
 [^mactrackerintemplate-32]: [Mactracker](https://en.wikipedia.org/wiki/Mactracker "Mactracker") ([mactracker.ca](http://www.mactracker.ca/)), [Apple Inc.](https://en.wikipedia.org/wiki/Apple_Inc. "Apple Inc.") model database, version as of 17 July 2015.
 
-[![](https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png)](https://en.wikipedia.org/wiki/File:Commons-logo.svg) Media related to [IPod classic](https://commons.wikimedia.org/wiki/IPod_classic "commons:IPod classic") at Wikimedia Commons
+[![[~/×/c3066fbed701452fbf25e36499a5f977_MD5.png]]](https://en.wikipedia.org/wiki/File:Commons-logo.svg) Media related to [IPod classic](https://commons.wikimedia.org/wiki/IPod_classic "commons:IPod classic") at Wikimedia Commons
 
 - [Official website](https://web.archive.org/web/20130301115547/http://www.apple.com/ipodclassic/) at the [Wayback Machine](https://en.wikipedia.org/wiki/Wayback_Machine "Wayback Machine") (archived March 1, 2013)

@@ -9,13 +9,13 @@ tags:
 part of:
   - "[[yet another tech-blog - made in Switzerland]]"
 ---
-![icon|50](https://www.claudiokuenzler.com/favicon-32x32.png)
+![[~/×/d5fcbf6904821837b4f49f68713f788e_MD5.png|50]]
 
 ---
 
 After deploying new DNS resolvers across a large infrastructure, the mail queues of certain [Postfix mail servers](https://www.postfix.org/) (sending directly via Internet, not using a SMTP relay) suddenly started to increase.
 
-![Postfix MTA](https://www.claudiokuenzler.com/graph/news/1306-postfix-logo_small.jpg)
+![[~/×/ae038cbae308e4ac4d52cbd9ae0e8d1d_MD5.jpg|50]]
 
 ## Host or domain name not found
 

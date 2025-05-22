@@ -10,11 +10,11 @@ tags:
   - github-repo
 favicon: https://github.githubassets.com/favicons/favicon-dark.svg
 ---
-![icon](https://github.githubassets.com/favicons/favicon-dark.svg)
+![[~/×/229d748078e89b224aac4ea2cafd7498_MD5.svg|200]]
 
 ## Templater Obsidian Plugin
 
-[![templater_logo|200](https://github.com/SilentVoid13/Templater/raw/master/imgs/templater_logo.svg)](https://github.com/SilentVoid13/Templater/blob/master/imgs/templater_logo.svg)
+[![[~/×/daad7d8ed38424dae73e9da81bfb017d_MD5.svg|200]]](https://github.com/SilentVoid13/Templater/blob/master/imgs/templater_logo.svg)
 
 [Templater](https://github.com/SilentVoid13/Templater) is a template plugin for [Obsidian.md](https://obsidian.md/). It defines a templating language that lets you insert variables and functions results into your notes. It will also let you execute JavaScript code manipulating those variables and functions.
 
@@ -70,4 +70,4 @@ Check [this](https://silentvoid13.github.io/Templater/internal-functions/contrib
 
 If you want to support me and my work, you can [sponsor me on Github](https://github.com/sponsors/SilentVoid13) (preferred method) or donate something on [**Paypal**](https://www.paypal.com/donate?hosted_button_id=U2SRGAFYXT32Q).
 
-[![GitHub Sponsors](https://camo.githubusercontent.com/cbc8e8ba7d6111ab26f330a8e63909aca64336b712aa5674ec87f9259b22d958/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73706f6e736f72732f73696c656e74766f696431333f6c6162656c3d53706f6e736f72266c6f676f3d47697448756225323053706f6e736f7273267374796c653d666f722d7468652d6261646765)](https://github.com/sponsors/silentvoid13) [![Paypal](https://camo.githubusercontent.com/09d5d4b044d59171baed42f2bd561a2393d4d52babee22e79b335e67a3a34ec6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f70617970616c2d73696c656e74766f696431332d79656c6c6f773f7374796c653d736f6369616c266c6f676f3d70617970616c)](https://www.paypal.com/donate?hosted_button_id=U2SRGAFYXT32Q)
+[![[~/×/bc8d70cbadde18feb3d2e6c907fcd416_MD5.svg|200]]](https://github.com/sponsors/silentvoid13) [![[~/×/2ee5b0d0672273c6aed93738ea9c0d7b_MD5.svg|200]]](https://www.paypal.com/donate?hosted_button_id=U2SRGAFYXT32Q)

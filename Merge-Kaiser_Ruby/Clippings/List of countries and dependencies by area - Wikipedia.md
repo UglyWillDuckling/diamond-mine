@@ -11,7 +11,7 @@ tags:
 ---
 This is a list of the world's countries and their [dependencies](https://en.m.wikipedia.org/wiki/Dependent_territory "Dependent territory"), ranked by total area, including land and water.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Fuller_projection_with_largest_countries.svg/330px-Fuller_projection_with_largest_countries.svg.png)
+![[~/×/f4364a11d3e5e364447563728edb0692_MD5.png]]
 
 [Dymaxion map](https://en.m.wikipedia.org/wiki/Dymaxion_map "Dymaxion map") of the world with the 30 largest countries and territories by area
 
@@ -27,7 +27,7 @@ This list includes three measurements of area:
 
 Total area is taken from the [United Nations Statistics Division](https://en.m.wikipedia.org/wiki/United_Nations_Statistics_Division "United Nations Statistics Division") unless otherwise noted.[^4] Land and water are taken from the [Food and Agriculture Organization](https://en.m.wikipedia.org/wiki/Food_and_Agriculture_Organization "Food and Agriculture Organization") unless otherwise noted.[^5] The [CIA *World Factbook*](https://en.m.wikipedia.org/wiki/CIA_World_Factbook "CIA World Factbook") is most often used when different UN departments disagree.[^ciastats-1] Other sources and details for each entry may be specified in the relevant footnote.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Countries_by_area_2025.svg/880px-Countries_by_area_2025.svg.png)
+![[~/×/24ee8dd9348866923df972d099a7e83c_MD5.png]]
 
 Countries of the world by area
 

@@ -9,7 +9,7 @@ tags:
 
 Welcome to Clipboard Conqueror, a powerful tool that brings the power of Artificial Intelligence to your fingertips. Whether you're a developer, writer, student, or just someone who loves to explore, Clipboard Conqueror is here to help.
 
-[![Clipboard Conqueror Logo](https://github.com/aseichter2007/ClipboardConqueror/raw/main/CCfinal.jpg)](https://github.com/aseichter2007/ClipboardConqueror/blob/main/CCfinal.jpg)
+[![[~/×/33f83326d8186974dfc452311e6ac29e_MD5.jpg]]](https://github.com/aseichter2007/ClipboardConqueror/blob/main/CCfinal.jpg)
 
 [Install](https://github.com/aseichter2007/ClipboardConqueror/blob/main/Readme-Install.md), [Choosing a Model](https://github.com/aseichter2007/ClipboardConqueror/blob/main/Readme-Choosing-A-Model.md), [Basic Use](https://github.com/aseichter2007/ClipboardConqueror/blob/main/Readme-How-To-Use-CC.md), [Bookmarklets](https://aseichter2007.github.io/ClipboardConqueror/bookmarklets.html), [Prompt Reference](https://github.com/aseichter2007/ClipboardConqueror/blob/main/Readme-Prompt-Reference.md), [Prompt Formatting](https://github.com/aseichter2007/ClipboardConqueror/blob/main/Readme-Prompt-Formatting.md), [API Switching](https://github.com/aseichter2007/ClipboardConqueror/blob/main/Readme-Endpoints.md), [Chaining Inference](https://github.com/aseichter2007/ClipboardConqueror/blob/main/Readme-Inference-Chaining.md), [Setup.js](https://github.com/aseichter2007/ClipboardConqueror/blob/main/Readme-Setup.md)
 
@@ -91,15 +91,15 @@ Clipboard Conqueror does not collect any metrics or send any data behind the sce
 
 Quick Start Jam, Reccomended:
 
-[![YouTube Video](https://camo.githubusercontent.com/7114701532a1f9a0a5ee1afc5ebc087f941224cfbbd5f38d5405fc8d6e79f8d7/68747470733a2f2f692e7974696d672e636f6d2f76692f66634d38644474565459512f687164656661756c742e6a7067)](https://youtu.be/fcM8dDtVTYQ)
+[![[~/×/f170d30b89d55a9c18b2c671372825d4_MD5.jpg]]](https://youtu.be/fcM8dDtVTYQ)
 
 Quick demo:
 
-[![YouTube Video](https://camo.githubusercontent.com/8a54cb8dd2137f1105fb7640462a0581f16e590eedbbb33d6ea3c0e8f46f1c57/68747470733a2f2f692e7974696d672e636f6d2f76692f6e3874514a6c6e653371732f687164656661756c742e6a7067)](https://youtu.be/n8tQJlne3qs)
+[![[~/×/4cb26626e5f9593f96499bc439c68f4f_MD5.jpg]]](https://youtu.be/n8tQJlne3qs)
 
 Using Clipboard Conqueror to mutate content, and Installation:
 
-[![Youtube Video](https://camo.githubusercontent.com/b46044e6922b19f8582ad3546ec07164f5a887708a154e31900b64e976da6b3a/68747470733a2f2f692e7974696d672e636f6d2f76692f4e716e704269304d4873632f687164656661756c742e6a7067)](https://youtu.be/NqnpBi0MHsc)
+[![[~/×/f0e9ec17e8b27a38bd553d637da3895f_MD5.jpg]]](https://youtu.be/NqnpBi0MHsc)
 
 - \*note in this video I mention context leaking with Context Shift, that was my mistake, for a bit I had a bug where |||re| was persisting unexpectedly.
 

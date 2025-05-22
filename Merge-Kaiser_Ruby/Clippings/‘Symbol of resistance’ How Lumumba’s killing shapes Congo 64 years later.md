@@ -28,7 +28,7 @@ For years murkiness surrounded the details of his killing, but it is now known t
 
 Sixty-four years on, Lumumba remains a symbol of African resistance, while many Congolese still carry the burden of his aborted legacy – whether they favoured his ideas or not.
 
-![Lumumba](https://www.aljazeera.com/wp-content/uploads/2025/01/AP6009070795-1737097739.jpg?w=770&resize=770%2C505&quality=80)
+![[~/×/90785b5a57183a29552d5961a3cbb9e1_MD5.jpg]]
 
 [[Patrice Lumumba,]], centre, and supporters on September 7, 1960, in Leopoldville, Congo \[File: AP Photo\]
 
@@ -50,7 +50,7 @@ Lukombola accuses the Wazungu (a term meaning “foreigners”, but generally us
 
 Lukombola believes that if Lumumba hadn’t been killed, he would have transformed the country into a veritable “El Dorado” for millions of Congolese, based on the vision he had for his people and the continent as a whole.
 
-![Congolese troops](https://www.aljazeera.com/wp-content/uploads/2025/01/AP6012070105-1737097715.jpg?w=770&resize=770%2C504&quality=80)
+![[~/×/b89ac4a5c240a614fbbf70b0852e5602_MD5.jpg]]
 
 Jeeps carrying Congolese soldiers pass by as people look on along a roadside in Congo on December 7, 1960, after the arrest of Patrice Lumumba \[File: Horst Faas/AP Photo\]
 
@@ -94,7 +94,7 @@ According to him, the first prime minister was too quick in wanting immediate in
 
 “Lumumba was in a hurry to ask for independence. I found that many of our leaders were not prepared to lead this country, and that’s unfortunate,” Bahati told Al Jazeera. “In my opinion, it was a big mistake on Lumumba’s part.”
 
-![Patrice Lumumba, the Prime Minister of the Congo, signs the act of independence of the Congo in Leopoldville, Congo on June 30, 1960. At right is Gaston Eyskens, Prime Minister of Belgium, who signed](https://www.aljazeera.com/wp-content/uploads/2020/06/1015533ba7644bd39177207bad3c6bdc_8.jpeg?w=770&resize=770%2C565&quality=80)
+![[~/×/6c87228e540b888dc3b2215b2d5476c6_MD5.jpg]]
 
 Lumumba signs the act of independence of the Congo in [[Leopoldville]], Congo on June 30, 1960. At his right is [[Gaston Eyskens]], the Belgian prime minister, who signed the act on behalf of Belgium. The Congo had been administered by Belgium for nearly **80 years** \[File: Jean-Jacques Levy/AP Photo\]
 
@@ -122,7 +122,7 @@ For him, his uncle remains a symbol of a fair and better Congo, and someone he d
 
 Jean Jacques feels Lumumba no longer belongs just to the DRC and Africa, but to all those who desire freedom and dignity around the world.
 
-![Lumumba pickets 1961 AP photo](https://www.aljazeera.com/wp-content/uploads/2020/06/cedf1d8a4e784ddd984a85bbc40251e3_18.jpeg?w=770&resize=770%2C432&quality=80)
+![[~/×/c4515927a819b66339950e6052332884_MD5.jpg]]
 
 **Picketers** carrying anti-Belgian and pro-Lumumba placards parade on New York’s West 51st Street outside The Associated Press Building on February 11, 1961, after Lumumba was killed but news of his death had not yet been released \[File: Jacob Harris/[[AP Photo]]\]
 

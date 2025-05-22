@@ -27,7 +27,7 @@ read: true
 
 # The Pragmatic Programmer
 
-![](http://books.google.com/books/content?id=5wBQEp6ruIAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
+![[~/×/0e022fd01ba5b931b0379a766fddc9b8_MD5.jpg]]
 
 ## details 📜
 

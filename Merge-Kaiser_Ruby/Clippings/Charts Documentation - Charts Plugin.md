@@ -36,19 +36,19 @@ Chart Types
 
 Charts Documentation
 
-[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/phibr0/obsidian-charts)](https://github.com/phibr0/obsidian-charts/releases) ![GitHub all releases](https://img.shields.io/github/downloads/phibr0/obsidian-charts/total)
+[![[~/×/133be8d4978e8f5c09e1a83e5b4ea7e7_MD5.svg]]](https://github.com/phibr0/obsidian-charts/releases) ![[~/×/b77f70f86533825e377e06eb3977050b_MD5.svg]]
 
 ## Getting started
 
 Charts let's you create interactive Charts inside [Obsidian](https://www.obsidian.md/):
 
-![Pasted image 20230224202045.png](https://publish-01.obsidian.md/access/90d6cc468259705356e25425d81ef8e0/Meta/Charts/Assets/Pasted%20image%2020230224202045.png)  
+![[~/×/f0602f96d44e9811f689232bf4535996_MD5.png]]  
 *[by Trikzon](https://discord.com/channels/686053708261228577/771575014382108672/950463118578946068)*
 
-![Pasted image 20230224202155.png](https://publish-01.obsidian.md/access/90d6cc468259705356e25425d81ef8e0/Meta/Charts/Assets/Pasted%20image%2020230224202155.png)  
+![[~/×/29753823f9259e29e9ca36f95524cdc3_MD5.png]]  
 *[by Kepano](https://discord.com/channels/686053708261228577/771575014382108672/947277096546365480)*
 
-![Pasted image 20230224202249.png](https://publish-01.obsidian.md/access/90d6cc468259705356e25425d81ef8e0/Meta/Charts/Assets/Pasted%20image%2020230224202249.png)  
+![[~/×/69ea8a17e58e06c6cb97c50475eea2a3_MD5.png]]  
 *[By Bryan](https://discord.com/channels/686053708261228577/694233507500916796/832847542529163268)*
 
 **But how?** First [Install the Plugin](https://charts.phib.ro/Meta/Charts/Install+the+Plugin)

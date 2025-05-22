@@ -31,7 +31,7 @@ The Fang people were victims of the large trans-Atlantic and trans-Saharan slave
 
 ## Society and culture
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tocado_fang_MNA.jpg/180px-Tocado_fang_MNA.jpg)
+![[~/×/2fffa5094222c117c7d3923feb6647a9_MD5.jpg]]
 
 A head dress of the Fang people with embedded artwork.
 
@@ -45,7 +45,7 @@ The art works of Fang people, particularly from wood, iron and [steatite](https:
 
 The art works of Fang people, particularly from wood, iron and [steatite](https://en.m.wikipedia.org/wiki/Steatite "Steatite"), are regionally famous. Their wooden masks and idol carvings are on display at numerous museums of the world. Discovery of Fang artwork was source of inspiration for much of the European [avant-garde](https://en.m.wikipedia.org/wiki/Avant-garde "Avant-garde") artwork created during the 20th century.[^:0-16] Much of the art is either used for their masquerades, or function as reliquaries and effigies. All are primarily made by the men of the village.[^:1-17][^:22-18] There is reason to believe that many of these reliquaries were made during the Fang's migration as a form of burial which was also portable.[^:3-19]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Reliquary_guardian_head%2C_Fang_peoples%2C_Gabon%2C_Late_19th_to_early_20th_century_Wood%2C_metal%2C_oil_patina_%282923633684%29.jpg/220px-Reliquary_guardian_head%2C_Fang_peoples%2C_Gabon%2C_Late_19th_to_early_20th_century_Wood%2C_metal%2C_oil_patina_%282923633684%29.jpg)
+![[~/×/9ec57683a6632d7737d8efb516b77403_MD5.jpg]]
 
 Reliquary guardian head, Fang peoples, Gabon. Late 19th to early 20th century. Wood, metal, oil patina
 
@@ -66,7 +66,7 @@ Throughout Gabon, these figures serve as [talisman](https://en.m.wikipedia.org/w
 
 Some earlier figures had cavities in the abdomen as a place to store bones of ancestors.[^:1-17] The figures aren't completed until they are ceremoniously presented and rubbed with palm oil. Members of the community will continually visit figures and rub them with oil so they maintain their protective powers.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/1617_6077f_Byeri_reliquary_figure%2C_Fang%2C_Gabon_%285633954132%29.jpg/128px-1617_6077f_Byeri_reliquary_figure%2C_Fang%2C_Gabon_%285633954132%29.jpg)
+![[~/×/702d35cebcd51013c78d3ca4f6ff125f_MD5.jpg]]
 
 1617 Byeri reliquary figure, Fang, Gabon. The Byeri Figure used as a guardian statue to surmount the Reliquary Byeri Box in which bones of important ancestors were held.
 

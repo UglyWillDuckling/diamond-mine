@@ -32,7 +32,7 @@ The memorial service drew to a close, the bugle strains of “Taps” as plainti
 
 ---
 
-![](https://assets-c3.propublica.org/images/articles/_threeTwo400w/20171207-shalon-in-uniform-inline.jpg)
+![[~/×/fe6e529e744935fad3f61e59e31be7e9_MD5.jpg]]
 
 Shalon MauRene Irving was a lieutenant commander in the uniformed ranks of the U.S. Public Health Service. (Courtesy of Wanda Irving)
 
@@ -50,7 +50,7 @@ For much of American history, these types of disparities were largely blamed on 
 
 The systemic problems start with the type of social inequities that Shalon studied — differential access to healthy food and clean drinking water, safe neighborhoods and good schools, decent jobs and reliable transportation. Black women are more likely to be uninsured outside of pregnancy, when Medicaid kicks in, and thus more likely to start prenatal care later and to lose coverage in the postpartum period. They are more likely to have chronic conditions such as obesity, diabetes, and hypertension that make having a baby more dangerous. The [hospitals where they give birth](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4698019/) are often the products of historical segregation, lower in quality than those where white mothers deliver, with [significantly higher rates](https://www.ncbi.nlm.nih.gov/pubmed/?term=Site+of+delivery+contribution+to+black-white+severe+maternal+morbidity+disparity) of life-threatening complications.
 
-![](https://assets-c3.propublica.org/images/articles/_threeTwo400w/20171207-raegan-portrait-inline.jpg)
+![[~/×/b8165dbe967a3249393c92b7f8270a9d_MD5.jpg]]
 
 Looking over Shalon’s medical records, her friend Raegan McDonald-Mosley saw many missed opportunities “at multiple parts of the health care system.” (Ariel Zambelich for ProPublica)
 
@@ -90,7 +90,7 @@ That’s a paradigm shift that professional organizations and providers have bar
 
 ---
 
-![](https://assets-c3.propublica.org/images/articles/_threeTwo400w/20171207-kid-photo-inline.jpg)
+![[~/×/c2571e3c34381a37d51705bd54cacea8_MD5.jpg]]
 
 Shalon, her baby brother Simone and her older brother Sam III, in a photo taken in the mid-1980s (Courtesy of Wanda Irving)
 
@@ -106,7 +106,7 @@ They were all bearing the same burden. “There’s this feeling that we’re ca
 
 Shalon set the bar especially high: She was pursuing a double Ph.D. in sociology and gerontology, focusing on themes she would return to often — the long-term effects of early childhood trauma and maltreatment, the impact of the parent-child relationship on lifelong health. She finished in under five years, once again with top honors — “one of the best writers I’ve had in my academic career,” her adviser, [sociologist Kenneth Ferraro](https://www.purdue.edu/aging/ferraro/), said.
 
-![](https://assets-c3.propublica.org/images/articles/_threeTwo400w/20171207-wanda-shalon-inline.jpg)
+![[~/×/639b3ec015d40c319e11a8a65135242e_MD5.jpg]]
 
 Wanda and Shalon were so close, “they were like the ‘Gilmore Girls,’” one friend said. (Courtesy of Wanda Irving)
 
@@ -120,7 +120,7 @@ The stress and frustration triggered the old corrosive self-doubts. But graduall
 
 ---
 
-![](https://assets-c3.propublica.org/images/articles/_threeTwo400w/20171207-shalon-couch-inline.jpg)
+![[~/×/2f670607b4bb5cd5baccf9218fcf91b9_MD5.jpg]]
 
 “No words have been created to adequately capture the fear and love and excitement that I feel right now,” Shalon, shown here with her puppy Lady Day, wrote to her daughter. (Courtesy of Wanda Irving)
 
@@ -136,7 +136,7 @@ By April 2016, Shalon had given up. She had a new boyfriend and she was on her w
 
 More good news: A few weeks later Pryor learned she was pregnant, too. “All right,” she told Shalon, “let’s finally go after our rainbows and unicorns! Because for so long it was just dark clouds and rain.”
 
-![](https://assets-c3.propublica.org/images/articles/_threeTwo400w/20171207-bianca-pryor-inline.jpg)
+![[~/×/6b27e4f06c911665db00cf275e73b79d_MD5.jpg]]
 
 A worried Bianca Pryor quizzed her best friend from grad school: “Are you getting out of the house? Are you going for your walks?” (Melissa Bunni Elian for ProPublica)
 
@@ -164,7 +164,7 @@ It’s not just doctors and nurses who need to think differently. Like a lot of 
 
 The birth was “a beautiful time,” Wanda said. Shalon did so well that she convinced her doctor to let her and Soleil — French for “sun” — leave the hospital after two nights (three or four nights are more typical). Then at home, “things got real,” Pryor said. “It was Shalon and her mom trying to figure things out, and the late nights, and trying to get baby on schedule. Shalon was very honest. She told me, ‘Friend, this is hard.’”
 
-![](https://assets-c3.propublica.org/images/articles/_threeTwo400w/20171207-bianca-with-son-inline.jpg)
+![[~/×/ee21878cc58bf22e0bc7e9676a26baee_MD5.jpg]]
 
 When Pryor found she was pregnant, too, with her son Everton, she told Shalon, “Let’s finally go after our rainbows and unicorns!” (Melissa Bunni Elian for ProPublica)
 
@@ -194,7 +194,7 @@ Habiba Tran was so upset at Shalon’s condition that she took her frustrations 
 
 ---
 
-![](https://assets-c3.propublica.org/images/articles/_threeTwo400w/20171207-wanda-with-dad-inline.jpg)
+![[~/×/c7d28623d3b6e5475a1eec7d868dad96_MD5.jpg]]
 
 Shalon took this selfie with her dad, Samuel, and her newborn daughter on the morning of Jan. 24, 2017. Twelve hours later, she collapsed. (Courtesy of Wanda Irving)
 
@@ -220,7 +220,7 @@ Northside declined to do an autopsy, telling Wanda and Samuel that none was requ
 
 Wanda always knew she would be spending a lot of time caring for her granddaughter. She and Shalon loved the idea of the three of them making their way in the world together, trying to change it for the better.
 
-![](https://assets-c3.propublica.org/images/articles/_threeTwo400w/20171206-flag-inline.jpg)
+![[~/×/0fecd206c51a7408a44451633ce7fcad_MD5.jpg]]
 
 The flag that covered Shalon’s casket is now in a memorial case with other mementos and photos (Sheila Pree Bright for ProPublica)
 
@@ -236,7 +236,7 @@ She also knew how Shalon wanted to raise her daughter, and she was determined to
 
 One Saturday afternoon in October, Wanda received another book, this one compiled by Shalon’s friends from the Epidemic Intelligence Service and entitled “Letters to Soleil.” She put the baby on her lap and said, “I’m gonna read you some letters about your mom.” One thing Wanda has tried never to do is cry in front of Soleil. But as she began reading aloud, she was sobbing. “And Soleil just kept looking at me — she couldn’t understand what was going on. And about a minute later she took my glasses off with her hands and put them down and then laid her head right on my chest and started patting me. Which made me cry all the more.”
 
-![](https://assets-c3.propublica.org/images/articles/_threeTwo400w/20171207-wanda-soleil-end-inline.jpg)
+![[~/×/deaf951d2357a7a88343f2a08b9b4594_MD5.jpg]]
 
 Wanda in the living room of the town house she shares with Soleil. A photo of Shalon is in the background. (Sheila Pree Bright for ProPublica)
 

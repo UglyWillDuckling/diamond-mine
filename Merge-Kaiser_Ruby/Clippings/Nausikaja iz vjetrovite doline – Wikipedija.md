@@ -15,7 +15,7 @@ U časopisu *Animage*, *Nausikaja iz vjetrovite doline* je 1985. završila na pr
 
 **[Upozorenje čitatelju](https://hr.wikipedia.org/wiki/Wikipedija:Otkrivanje_radnje "Wikipedija:Otkrivanje radnje")**: *Slijedi tekst koji sadrži pojedinosti o radnji ili o završetku ovog djela.*
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Nausica%C3%A4Cosplay.jpg/150px-Nausica%C3%A4Cosplay.jpg)
+![[~/×/caa2998b3f202947bb2392db54591951_MD5.jpg]]
 
 Cosplay glavne junakinje Nausikaje
 
@@ -39,7 +39,7 @@ Nakon uspjeha pustolovno humorističnog anime filma *[Cagliostrin dvorac](https:
 
 Osim radnje, postoje velike razlike i u drugim područjima: likovi su mnogo razrađeniji, a [ekološke](https://hr.wikipedia.org/wiki/Ekologija "Ekologija") teme nisu onako pojednostavljene. Junakinja je predstavljena kao složeni lik, koji je istodobno [pacifist](https://hr.wikipedia.org/wiki/Pacifizam "Pacifizam") i zakleti aktivist za prava prirode. Dok je 1970-ih radio u animacijskom studiju Toei, Miyazaki je upoznao [Isaa Takahatu](https://hr.wikipedia.org/wiki/Isao_Takahata "Isao Takahata") s kojim je surađivao u dva kratkometražna anime filma *[Panda! Go Panda!](https://hr.wikipedia.org/w/index.php?title=Panda!_Go_Panda!&action=edit&redlink=1 "Panda! Go Panda! (stranica ne postoji)")*.[^britannica-12] Tu je Miyazaki imao funkciju scenarista a Takahata redatelja, dok je za *Nausikaju* odlučeno da Takahata producira a Miyazaki preuzme režiju.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Minamata_Bay_1974.jpg/200px-Minamata_Bay_1974.jpg)
+![[~/×/0f4d039f58bd57a966ab75e221ef3840_MD5.jpg]]
 
 Prilagođavanje ekosustava zagađenju u zaljevu Minamata bio je jedan od Miyazakijevih utjecaja prilikom pisanja priče[^footnotecavallaro200648-2]
 
@@ -59,7 +59,7 @@ Miyazaki navodi da mu je najveći poticaj i nadahnuće bila spoznaja da je zaga�
 
 Film je pušten u distribuciju 11. ožujka 1984.[^release-21] te je odmah postigao ogroman uspjeh u japanskim kinima a kritike su većinom bile pozitivne. Izvan Japana je *Nausikaja* rijetko gdje prikazana u svjetskim kinima (prije nego što li je Miyazaki stekao svjetsku slavu) jer su tada animirani filmovi još uvijek smatrani robom za djecu a ne za odrasle.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Ghibli-museum-mitaka.jpg/180px-Ghibli-museum-mitaka.jpg)
+![[~/×/fdc6ebdbe5267184790bdc9cc5cf3c4b_MD5.jpg]]
 
 Najveće nasljedstvo filma bilo je što je njegov uspjeh 1984. osigurao sredstva kojima se uspostavio studio Ghibli, specijaliziran za anime filmove
 

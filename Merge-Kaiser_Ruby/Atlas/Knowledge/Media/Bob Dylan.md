@@ -19,7 +19,7 @@ Dylan has received [numerous accolades](https://en.m.wikipedia.org/wiki/List_of_
 
 ## Early life and education
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ZimmermanHouseHibbingMN.jpg/220px-ZimmermanHouseHibbingMN.jpg)
+![[~/×/b7bb5c97ba5862191dde335795db1a04_MD5.jpg]]
 
 The Zimmerman family home in Hibbing, Minnesota
 
@@ -50,7 +50,7 @@ In addition to visiting Guthrie, Dylan befriended his protégé [Ramblin' Jack E
 From February 1961, Dylan played at clubs around [Greenwich Village](https://en.m.wikipedia.org/wiki/Greenwich_Village "Greenwich Village"), befriending and picking up material from folk singers, including [Dave Van Ronk](https://en.m.wikipedia.org/wiki/Dave_Van_Ronk "Dave Van Ronk"), [Fred Neil](https://en.m.wikipedia.org/wiki/Fred_Neil "Fred Neil"), [Odetta](https://en.m.wikipedia.org/wiki/Odetta "Odetta"), the [New Lost City Ramblers](https://en.m.wikipedia.org/wiki/New_Lost_City_Ramblers "New Lost City Ramblers") and Irish musicians [the Clancy Brothers and Tommy Makem](https://en.m.wikipedia.org/wiki/The_Clancy_Brothers "The Clancy Brothers").[^44] In September, *[The New York Times](https://en.m.wikipedia.org/wiki/The_New_York_Times "The New York Times")* critic [Robert Shelton](https://en.m.wikipedia.org/wiki/Robert_Shelton_\(critic\) "Robert Shelton (critic)") boosted Dylan's career with a very enthusiastic review of his performance at [Gerde's Folk City](https://en.m.wikipedia.org/wiki/Gerde%27s_Folk_City "Gerde's Folk City"): "Bob Dylan: A Distinctive Folk-Song Stylist".[^45] 
 That month, Dylan played harmonica on folk singer [Carolyn Hester](https://en.m.wikipedia.org/wiki/Carolyn_Hester "Carolyn Hester")'s third album, bringing him to the attention of the album's producer [John Hammond](https://en.m.wikipedia.org/wiki/John_Hammond_\(record_producer\) "John Hammond (record producer)"),[^46] who signed Dylan to [Columbia Records](https://en.m.wikipedia.org/wiki/Columbia_Records "Columbia Records").[^47] Dylan's debut album, *[Bob Dylan](https://en.m.wikipedia.org/wiki/Bob_Dylan_\(album\) "Bob Dylan (album)")*, released March 19, 1962,[^48][^49] consisted of traditional folk, blues and [gospel](https://en.m.wikipedia.org/wiki/Gospel_music "Gospel music") material with just two original compositions, "[Talkin' New York](https://en.m.wikipedia.org/wiki/Talkin%27_New_York "Talkin' New York")" and "[Song to Woody](https://en.m.wikipedia.org/wiki/Song_to_Woody "Song to Woody")". The album sold 5,000 copies in its first year, just breaking even.[^scaduto110-50]
 
-![Dylan is seated, singing and playing guitar. Seated to his right is a woman gazing upwards and singing with him.](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Joan_Baez_Bob_Dylan.jpg/220px-Joan_Baez_Bob_Dylan.jpg)
+![[~/×/a7bbe5fd44ab97d8d30c8d8ef71f8722_MD5.jpg]]
 
 [Joan Baez](https://en.m.wikipedia.org/wiki/Joan_Baez "Joan Baez") and Dylan during the civil rights "[March on Washington for Jobs and Freedom](https://en.m.wikipedia.org/wiki/March_on_Washington_for_Jobs_and_Freedom "March on Washington for Jobs and Freedom")", August 28, 1963
 

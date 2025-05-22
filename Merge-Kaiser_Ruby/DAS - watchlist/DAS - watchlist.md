@@ -1,7 +1,7 @@
 
 a **first step** to forming a plan to process [[Destroy All Software]]
 
-- [/] #task organize [[DAS - watchlist]] 🆔 eFw6ir
+- [x] #task organize [[DAS - watchlist]] 🆔 eFw6ir ✅ 2025-05-18
 	- [x] organize first layer of videos
 	- [/] organize `series`
 - [/] #task watch videos from [[DAS - watchlist]] #longterm 🆔 WJL1Zs

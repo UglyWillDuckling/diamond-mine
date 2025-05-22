@@ -10,7 +10,7 @@ tags:
   - website
 related: "[[Darvel Trvtka]]"
 ---
-- [![en](https://darvel.hr/pub/static/frontend/GaussDev/darvel/hr_HR/images/flags/en.png)EN](https://darvel.hr/#)
+- [![[~/×/8a8a54555328a1b7fd607275bf7574a2_MD5.png]]EN](https://darvel.hr/#)
 
 - [Pretraživač trgovina](https://darvel.hr/storelocator)
 
@@ -18,7 +18,7 @@ related: "[[Darvel Trvtka]]"
 - [Novosti](https://darvel.hr/novosti/)
 - [Ambasadori Brandova](https://darvel.hr/ambasadori-brandova/)
 
-**![darvel](https://darvel.hr/pub/media/logo/stores/1/504x144.png)**
+**![[~/×/c24170e2936a4f7974de853c4ca28c3c_MD5.png]]**
 
 - [Izbornik](https://darvel.hr/#main-Menucontent)
 - [Moj Račun](https://darvel.hr/#main-Accountcontent)
@@ -130,7 +130,7 @@ related: "[[Darvel Trvtka]]"
 
 - [Pretraživač trgovina](https://darvel.hr/storelocator)
 
-[![Giveaway Banner](https://darvel.hr/pub/media/wysiwyg/panel/Giveaway.jpg)](https://forms.gle/EonE2t21qUKFMWEX8)
+[![[~/×/2e6c0aac6e01dfb06f3d7fe4dd385c9a_MD5.jpg]]](https://forms.gle/EonE2t21qUKFMWEX8)
 
 ### 
 
@@ -140,68 +140,68 @@ NAJNOVIJI PROIZVODI
 
 ---
 
- [![S.T. Dupont Line D Eternity Nalivpero](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/4/2/420070m.jpg)](https://darvel.hr/s-t-dupont-420070m.html)Novo
+ [![[~/×/a8bfaac54ef0df3b1bb4f1aeb70855b9_MD5.jpg]]](https://darvel.hr/s-t-dupont-420070m.html)Novo
 
- [![S.T. Dupont Line D Eternity Nalivpero](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/4/2/420018m.jpg)](https://darvel.hr/s-t-dupont-420018m.html)Novo
+ [![[~/×/4dec38fea2342bfe2dd9c73e918d0fcc_MD5.jpg]]](https://darvel.hr/s-t-dupont-420018m.html)Novo
 
- [![S.T. Dupont Line D Eternity Nalivpero](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/4/2/420016m.jpg)](https://darvel.hr/s-t-dupont-420016m.html)Novo
+ [![[~/×/c17c74f3435d784a4307f2c255524ade_MD5.jpg]]](https://darvel.hr/s-t-dupont-420016m.html)Novo
 
- [![S.T. Dupont Initial](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/2/0/20841.jpg)](https://darvel.hr/s-t-dupont-20841.html)Novo
+ [![[~/×/c36080a10d7ce63b19d82e1ee2611a1c_MD5.jpg]]](https://darvel.hr/s-t-dupont-20841.html)Novo
 
- [![S.T. Dupont Initial](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/2/0/20840.jpg)](https://darvel.hr/s-t-dupont-20840.html)Novo
+ [![[~/×/94a141dd54474b853d1519f8c15b2e82_MD5.jpg]]](https://darvel.hr/s-t-dupont-20840.html)Novo
 
- [![S.T. Dupont Slimmy Upaljač](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/2/8/28010.jpg)](https://darvel.hr/s-t-dupont-28010.html)Novo
+ [![[~/×/f0db7d8c16b32849465e49ae8f4d8ade_MD5.jpg]]](https://darvel.hr/s-t-dupont-28010.html)Novo
 
- [![S.T. Dupont Slimmy Upaljač](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/2/8/28009.jpg)](https://darvel.hr/s-t-dupont-28009.html)Novo
+ [![[~/×/2f6f617955be31af1abe6e7d635f58df_MD5.jpg]]](https://darvel.hr/s-t-dupont-28009.html)Novo
 
- [![S.T. Dupont Slimmy Upaljač](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/2/8/28005.jpg)](https://darvel.hr/s-t-dupont-28031.html)Novo
+ [![[~/×/7743b962a2f58437a1f72479d6f995cb_MD5.jpg]]](https://darvel.hr/s-t-dupont-28031.html)Novo
 
- [![S.T. Dupont Slimmy Upaljač](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/2/8/28007.jpg)](https://darvel.hr/s-t-dupont-28007.html)Novo
+ [![[~/×/0a6e8f17606b58c2bfbc9f32f7f3a898_MD5.jpg]]](https://darvel.hr/s-t-dupont-28007.html)Novo
 
- [![S.T. Dupont Slimmy Upaljač](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/2/8/28030.jpg)](https://darvel.hr/s-t-dupont-28030.html)Novo
+ [![[~/×/7426e843ef3a4afb5278bd5c53245b5c_MD5.jpg]]](https://darvel.hr/s-t-dupont-28030.html)Novo
 
- [![S.T. Dupont Slimmy Upaljač](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/2/8/28004.jpg)](https://darvel.hr/s-t-dupont-28004.html)Novo
+ [![[~/×/7b699affe5332085e437df8404755873_MD5.jpg]]](https://darvel.hr/s-t-dupont-28004.html)Novo
 
- [![S.T. Dupont Slimmy Upaljač](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/2/8/28002.jpg)](https://darvel.hr/s-t-dupont-28002.html)Novo
+ [![[~/×/32869d4d9d46c77bab75eef783de2ce4_MD5.jpg]]](https://darvel.hr/s-t-dupont-28002.html)Novo
 
- [![S.T. Dupont Slimmy Upaljač](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/2/8/28001.jpg)](https://darvel.hr/s-t-dupont-28001.html)Novo
+ [![[~/×/26bbb19a2cb801ca7f0222915a69b439_MD5.jpg]]](https://darvel.hr/s-t-dupont-28001.html)Novo
 
- [![S.T. Dupont Fire X Twiggy](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/3/0/30070.jpg)](https://darvel.hr/s-t-dupont-30070.html)Novo
+ [![[~/×/ba8028401a30b42a7a5c4b8de978f4c8_MD5.jpg]]](https://darvel.hr/s-t-dupont-30070.html)Novo
 
- [![S.T. Dupont Twiggy](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/3/0/30031.jpg)](https://darvel.hr/s-t-dupont-30031.html)Novo
+ [![[~/×/a464236bc397b3cb9af0570af95411a0_MD5.jpg]]](https://darvel.hr/s-t-dupont-30031.html)Novo
 
- [![S.T. Dupont Twiggy](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/3/0/30030.jpg)](https://darvel.hr/s-t-dupont-30030.html)Novo
+ [![[~/×/adb14e6c27b74313077cfdd8897b5746_MD5.jpg]]](https://darvel.hr/s-t-dupont-30030.html)Novo
 
- [![S.T. Dupont Twiggy](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/3/0/30011.jpg)](https://darvel.hr/s-t-dupont-30011.html)Novo
+ [![[~/×/2e5b914347ff4a9c63405097936f3b77_MD5.jpg]]](https://darvel.hr/s-t-dupont-30011.html)Novo
 
- [![S.T. Dupont Twiggy](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/3/0/30007.jpg)](https://darvel.hr/s-t-dupont-30007.html)Novo
+ [![[~/×/d76334ac0dc269574693a4bb74a81523_MD5.jpg]]](https://darvel.hr/s-t-dupont-30007.html)Novo
 
- [![S.T. Dupont Twiggy](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/3/0/30005.jpg)](https://darvel.hr/s-t-dupont-30005.html)Novo
+ [![[~/×/d44697cef44e37bae56993d585bbb927_MD5.jpg]]](https://darvel.hr/s-t-dupont-30005.html)Novo
 
- [![S.T. Dupont Twiggy](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/3/0/30002.jpg)](https://darvel.hr/s-t-dupont-30002.html)Novo
+ [![[~/×/d996c9aaeab9a7758e57f1865cc48b7c_MD5.jpg]]](https://darvel.hr/s-t-dupont-30002.html)Novo
 
- [![S.T. Dupont Twiggy](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/3/0/30001.jpg)](https://darvel.hr/s-t-dupont-30001.html)Novo
+ [![[~/×/d9a048bd5f707036bea1c4ae1e867657_MD5.jpg]]](https://darvel.hr/s-t-dupont-30001.html)Novo
 
- [![S.T. Dupont Casablanca Nalivpero](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/4/2/420111l_1_2.jpg)](https://darvel.hr/s-t-dupont-420111l-nalivpero.html)Novo
+ [![[~/×/c2a9ef3b00e00b718755b5bcf7f5c536_MD5.jpg]]](https://darvel.hr/s-t-dupont-420111l-nalivpero.html)Novo
 
- [![S.T. Dupont Casablanca Roler](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/4/2/422111l.jpg)](https://darvel.hr/st-dupont-casablancaroler.html)Novo
+ [![[~/×/447051430a34734f146539ca88e7856b_MD5.jpg]]](https://darvel.hr/st-dupont-casablancaroler.html)Novo
 
- [![S.T. Dupont Casablanca Line 2 Upaljač](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/c/1/c16122.jpg)](https://darvel.hr/s-t-dupont-c16122.html)Novo
+ [![[~/×/627361e0f14696c783b0f5ebbdc04e3d_MD5.jpg]]](https://darvel.hr/s-t-dupont-c16122.html)Novo
 
- [![S.T. Dupont Casablanca Slimmy Upaljač](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/2/8/28132.jpg)](https://darvel.hr/s-t-dupont-28132.html)Novo
+ [![[~/×/bc2e0c714a5c7444e3c4eec93f5aa8db_MD5.jpg]]](https://darvel.hr/s-t-dupont-28132.html)Novo
 
- [![S.T. Dupont Casablanca Biggy Upaljač](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/2/5/25022.jpg)](https://darvel.hr/s-t-dupont-25022.html)Novo
+ [![[~/×/21ec6d3e312ca288e8b215962f2946d9_MD5.jpg]]](https://darvel.hr/s-t-dupont-25022.html)Novo
 
- [![S.T. Dupont Casablanca Porculanska Pepeljara](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/6/2/6222.jpg)](https://darvel.hr/s-t-dupont-6222.html)Novo
+ [![[~/×/7cd69d7a5ea5a7822e7dbd071136e352_MD5.jpg]]](https://darvel.hr/s-t-dupont-6222.html)Novo
 
- [![S.T. Dupont Casablanca Rezač za Cigare](https://darvel.hr/pub/media/catalog/product/cache/4da185f69b21e08e1ffe2e52a8bc87bf/3/4/3432.jpg)](https://darvel.hr/s-t-dupont-3432.html)Novo
+ [![[~/×/749cebc20b597602e8593aa9b27bbfe8_MD5.jpg]]](https://darvel.hr/s-t-dupont-3432.html)Novo
 
-- [![Montblanc - Maria Callas](https://darvel.hr/pub/media/mgs_blog/n/a/naslovna_2.jpg)](https://darvel.hr/novosti/novost-montblanc-maria-callas?___store=hr "Montblanc - Maria Callas")
-- [![Lapis Bard - Hampton L-Zip](https://darvel.hr/pub/media/mgs_blog/n/a/naslovna.jpg)](https://darvel.hr/novosti/novost-lapis-bard-ruksak?___store=hr "Lapis Bard - Hampton L-Zip")
+- [![[~/×/5f89fa0eed7489b4c223f0c9bd440984_MD5.jpg]]](https://darvel.hr/novosti/novost-montblanc-maria-callas?___store=hr "Montblanc - Maria Callas")
+- [![[~/×/62970bde47d41766f284303179225c81_MD5.jpg]]](https://darvel.hr/novosti/novost-lapis-bard-ruksak?___store=hr "Lapis Bard - Hampton L-Zip")
 
-[![](https://darvel.hr/pub/media/promobanners//l/e/le_mans_3_1.png)](https://darvel.hr/s-t-dupont.html)
+[![[~/×/9a846a3f2fdbd159d6c3d75b0bb318b8_MD5.png]]](https://darvel.hr/s-t-dupont.html)
 
-[![](https://darvel.hr/pub/media/promobanners//p/r/promo_darovi.png)](https://darvel.hr/promotivni_darovi)
+[![[~/×/aa46831be81e73e88c80fecd64d73567_MD5.png]]](https://darvel.hr/promotivni_darovi)
 
 Koristimo kolačiće kako bismo poboljšali naše usluge, pružili personalizirane ponude i unaprijedili vaše iskustvo. Ako ne prihvatite opcionalne kolačiće u nastavku, vaše iskustvo može biti narušeno. Ako želite znati više, molimo vas da pročitate [Pravila o kolačićima](https://darvel.hr/pravila-o-privatnosti/ "Pravila o kolačićima").
 

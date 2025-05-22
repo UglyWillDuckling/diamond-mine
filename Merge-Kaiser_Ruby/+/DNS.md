@@ -42,7 +42,7 @@ The domain name space consists of a [tree data structure](https://en.wikipedia.o
 
 The tree sub-divides into *zones* beginning at the [root zone](https://en.wikipedia.org/wiki/DNS_root_zone "DNS root zone"). A [DNS zone](https://en.wikipedia.org/wiki/DNS_zone "DNS zone") may consist of as many domains and subdomains as the zone manager chooses. DNS can also be partitioned according to *class* where the separate classes can be thought of as an array of parallel namespace trees.[^dnsparts-25]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Domain_name_space.svg/400px-Domain_name_space.svg.png)
+![[~/×/a394f1f30cd03324c3f6f50ca8d30a29_MD5.png]]
 
 The hierarchical Domain Name System for class *Internet*, organized into zones, each served by a name server
 
@@ -62,7 +62,7 @@ A label may contain zero to 63 characters, because the length is only allowed to
 
 Domain name resolvers determine the domain name servers responsible for the domain name in question by a sequence of queries starting with the right-most (top-level) domain label.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Example_of_an_iterative_DNS_resolver.svg/400px-Example_of_an_iterative_DNS_resolver.svg.png)
+![[~/×/af72bf89c5426dfc4c993f7356730e12_MD5.png]]
 
 A DNS resolver that implements the iterative approach mandated by RFC 1034; in this case, the resolver consults three name servers to resolve the [fully qualified domain name](https://en.wikipedia.org/wiki/Fully_qualified_domain_name "Fully qualified domain name") "www.wikipedia.org".
 

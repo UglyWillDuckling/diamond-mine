@@ -30,7 +30,7 @@ In May 2016, with its headquarters in Lincoln becoming too large, the company ac
 
 On November 16, 2017, Transom Capital Group, LLC announced that it had bought the assets of A.T. Cross Company.[^9][^transom-2]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Biden1stExecutiveOrders.png/180px-Biden1stExecutiveOrders.png)
+![[~/×/b551d3ac3835658761e985c9dd718b81_MD5.png]]
 
 President [Joe Biden](https://en.wikipedia.org/wiki/Joe_Biden "Joe Biden") signs his first executive order upon taking office with a black Cross Century II Rollerball[^projo20210121-10]
 
@@ -40,11 +40,11 @@ While an official Cross–White House program was begun under president [Bill Cl
 
 The [Trump administration](https://en.wikipedia.org/wiki/First_presidency_of_Donald_Trump "First presidency of Donald Trump") placed an initial order for 150 Cross Century II pens in January 2017.[^cnn-trump-11] Sometime before November 2018, Trump broke with tradition and ceased using the Cross pen, saying "it was a horrible pen, and it was extremely expensive."[^bizinsider-12] Thereafter, he signed documents using a customized [Sharpie marker](https://en.wikipedia.org/wiki/Sharpie_\(marker\) "Sharpie (marker)") manufactured by [Newell Brands](https://en.wikipedia.org/wiki/Newell_Brands "Newell Brands").[^bizinsider-12] Joe Biden returned the tradition of Cross Pens to the White House, favoring the same model as Obama, the Century II Rollerball in a black lacquer finish with 23-karat gold-plated appointments.[^projo20210121-10] Biden is reported to use the felt-tip refill unit.[^projo20210121-10]
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Cross_Pen.jpg/188px-Cross_Pen.jpg)](https://en.wikipedia.org/wiki/File:Cross_Pen.jpg)
+[![[~/×/94646bf975641c44847e107a318437c5_MD5.jpg]]](https://en.wikipedia.org/wiki/File:Cross_Pen.jpg)
 
 Fountain pen, with the distinctive "Cross" lettering on its nib
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Aboard_Air_Force_One%2C_a_close-up_of_the_President%E2%80%99s_signature_on_the_American_Recovery_and_Reinvestment_Act%2C_which_he_had_just_signed_in_Denver.jpg/196px-Aboard_Air_Force_One%2C_a_close-up_of_the_President%E2%80%99s_signature_on_the_American_Recovery_and_Reinvestment_Act%2C_which_he_had_just_signed_in_Denver.jpg)](https://en.wikipedia.org/wiki/File:Aboard_Air_Force_One,_a_close-up_of_the_President%E2%80%99s_signature_on_the_American_Recovery_and_Reinvestment_Act,_which_he_had_just_signed_in_Denver.jpg)
+[![[~/×/683288716899f2616d399e0f26413cba_MD5.jpg]]](https://en.wikipedia.org/wiki/File:Aboard_Air_Force_One,_a_close-up_of_the_President%E2%80%99s_signature_on_the_American_Recovery_and_Reinvestment_Act,_which_he_had_just_signed_in_Denver.jpg)
 
 Obama's Townsend in black lacquer
 
@@ -84,8 +84,8 @@ In late 1997, Cross and [IBM](https://en.wikipedia.org/wiki/IBM "IBM") teamed up
 
 [^14]: ["CrossPad product support"](https://web.archive.org/web/20110708204828/http://www.cross.com/ProductSupport/CrossPad.aspx?cat_name=CrossPad). Archived from [the original](http://www.cross.com/ProductSupport/CrossPad.aspx?cat_name=CrossPad) on 2011-07-08. Retrieved 2011-04-08.
 
-![](https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png)
+![[~/×/ed45fd374ea254291db2e22399c10c40_MD5.png]]
 
 Wikimedia Commons has media related to [A.T. Cross](https://commons.wikimedia.org/wiki/Category:A.T._Cross "commons:Category:A.T. Cross").
 
-- [Official website](https://www.cross.com/) [![Edit this at Wikidata](https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png)](https://www.wikidata.org/wiki/Q4119347#P856 "Edit this at Wikidata")
+- [Official website](https://www.cross.com/) [![[~/×/46a5f281259955b3cfc92a415ea2f3e8_MD5.png]]](https://www.wikidata.org/wiki/Q4119347#P856 "Edit this at Wikidata")

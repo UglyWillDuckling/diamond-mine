@@ -6,13 +6,13 @@ created: 2025-02-26
 tags:
 related:
 ---
-![icon|50](https://www.freekb.net/base_images/favicon.ico)
+![[~/×/30e4665e2772e1fcbba0ada2c89eff38_MD5.ico|50]]
 
 ****Linux Files - /etc/resolv.conf (DNS)****
 
 ---
 
-![](https://www.freekb.net/base_images/jeremy.jpg)
+![[~/×/c0a2cea452dcb4271e36466b294baa2a_MD5.png|50]]
 
 ---
 
@@ -112,7 +112,7 @@ lease {
 
 ### Did you find this article helpful?
 
-If so, consider buying me a coffee over at [![Buy Me A Coffee](https://www.freekb.net/images/buy_me_a_coffee_small.png)](https://www.buymeacoffee.com/jeremycanfield)
+If so, consider buying me a coffee over at [![[~/×/355c77e4e46d2d11b750e39b881c074f_MD5.png|50]]](https://www.buymeacoffee.com/jeremycanfield)
 
   
 

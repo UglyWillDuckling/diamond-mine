@@ -3,7 +3,7 @@ start date:
 rating: 
 read: false
 ---
-![poster](http://books.google.com/books/content?id=B_L8CAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api)
+![[~/×/a689cbb2581d14967901c412379f874a_MD5.jpg]]
 
 **Author**:: [[Cal Newport]]
 **Title**:: [Deep Work - Rules for Focused Success in a Distracted World](http://books.google.com/books?id=B_L8CAAAQBAJ&printsec=frontcover&dq=intitle:Deep+Work&hl=&cd=1&source=gbs_api)

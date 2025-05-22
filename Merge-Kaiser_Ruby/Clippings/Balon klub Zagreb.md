@@ -14,7 +14,7 @@ Za sve Vas kojima ne manjka kreativnosti i osjećaja za avanturu, let balonom je
 
 U Balon klubu Zagreb uz svaku članarinu dobivate ručno izrađeni, unikatni poklon bon, prijevoz do našeg uzletišta, let nad neistraženim krajolicima Hrvatskog Zagorja u trajanju od jednog sata, zakusku uz vrhunski pjenušac i balonaško krštenje, te naposljetku individualiziranu diplomu o letu kao podsjetnik na nezaboravno iskustvo.
 
-![](https://baloni.hr/wp-content/uploads/2018/12/WhatsApp-Image-2018-12-14-at-16.25.47.jpeg)
+![[~/×/f695ed7d85c522b58a84d89cf188e23d_MD5.jpg]]
 
 Pozivom na jedan od dolje navedenih brojeva, moguće je već ovaj tjedan osigurati mjesto u košari uz naš tim vrhunskih pilota i osjetiti čar jedne potpuno nove perspektive! Balon klub Zagreb sve poklon bonove isti dan dostavlja na željenu adresu, a moguće ih je iskoristiti bilo kada tijekom iduće godine.
 

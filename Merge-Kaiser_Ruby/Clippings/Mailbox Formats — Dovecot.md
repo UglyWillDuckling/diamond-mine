@@ -12,7 +12,7 @@ related:
 part of:
   - "[[Dovecot]]"
 ---
-![icon](https://doc.dovecot.org/favicon.ico)
+![[~/×/2bbff94f3e43ec77e6f24450f2586bcd_MD5.ico]]
 
 Mailbox formats supported by Dovecot:
 

@@ -13,7 +13,7 @@ tags:
 ---
 > January 13 marks 85 years since the death of Matilda, whose name at birth was Abake – meaning ‘born to be loved by all’ among the Tarkar people of Western Africa.
 
-![](https://www.aljazeera.com/wp-content/uploads/2025/01/An-undated-portrait-of-Matilda-McCrear-photo-courtesy-of-John-Crear-1-1736514083.jpg?resize=770%2C513&quality=80)
+![[~/×/65472c9e0fb8334068eea7af9b4f9e50_MD5.jpg]]
 
 On a cold December morning in 1931, a short, elderly Black woman set out on a 24km (15-mile) walk from her homestead in Alabama, United States, on a quest for justice. The long trek to the court in Selma was no small undertaking for a person in her mid-70s. But Matilda McCrear was determined to go and make her legal claim for compensation for the horrors that she and her family had been through.
 
@@ -35,7 +35,7 @@ US politics, Canada’s multiculturalism, South America’s geopolitical rise—
 
 Abake and her family members were sold as part of a consignment of slaves to one Captain William Foster, of Canadian origin. He wrote in his journal: “I went to see the King of Dahomey. Having agreeably transacted \[our\] affairs … we went to the warehouse where they had in confinement four thousand captives in a state of nudity from which they gave me liberty to select one hundred and twenty-five as mine, offering to brand them for me, from which I preemptorily forbid \[sic\]; commenced taking on cargo of negroes, successfully securing on board one hundred and ten.”
 
-![Clotilda](https://www.aljazeera.com/wp-content/uploads/2025/01/Clotildas-cargo-hold-was-a-hellish-dungeon-for-108-African-captives-brought-to-Alabama-in-1860.-National-Geographic-image-created-by-Thom-Tenery.-1736325489.avif?w=770&quality=80)
+![[~/×/5fb3458032452fabe06394ccce9bcbf3_MD5.avif]]
 
 Clotilda’s cargo hold was a hellish dungeon for 108 African captives brought to Alabama in early 1860 \[National Geographic image created by Thom Tenery\]
 
@@ -51,7 +51,7 @@ Of the approximately 12.5 million enslaved Africans transported to the Americas 
 
 Foster navigated the Clotilda, now carrying 108 slaves, into the port of Mobile, Alabama under cover of darkness in early 1860. He had it towed up the Mobile River to Twelvemile Island, where the captive Africans were transferred to a river steamboat. Foster wrote in his journal that the Clotilda was then burned to destroy any evidence.
 
-![Brooks](https://www.aljazeera.com/wp-content/uploads/2025/01/Drawing-of-the-Liverpool-slave-ship-Brooks-Getty-Images-1736325693.webp?w=770&resize=770%2C433&quality=80)
+![[~/×/f6dd8fa4e6fc441d3c765fb3bc2f25ea_MD5.jpg]]
 
 A drawing of a similar ship, the Liverpool slave ship Brooks \[Getty Images\]
 
@@ -77,7 +77,7 @@ Matilda would have been about seven years old at this time. Her family headed no
 
 They were free, but what would that so-called freedom mean?
 
-![civil rights, US](https://www.aljazeera.com/wp-content/uploads/2025/01/AP6502010413-1-1736325959.jpg?w=770&resize=770%2C514&quality=80)
+![[~/×/f773a25412dc78dc3895de7d9a9b7f1e_MD5.jpg]]
 
 Young people carry signs on February 1, 1965, protesting against segregation after more than 250 people were arrested during a march on the Selma court in Alabama, where Matilda’s claim for compensation was denied more than two decades earlier. Those arrested included Martin Luther King Jr, the Nobel Peace Prize 1964 winner \[Bill Hudson/AP\]
 
@@ -95,7 +95,7 @@ The 13th Amendment of 1865 officially ended slavery in all US states and territo
 
 To counter this, southern states, including Matilda’s home of Alabama, enacted the so-called “Black Codes”, curtailing the right of African Americans to own property, conduct business, buy and lease land or move freely in public spaces. The Black Codes forced many Black people into newly exploitative labour arrangements such as sharecropping.
 
-![segregation](https://www.aljazeera.com/wp-content/uploads/2025/01/Segregation-in-American-South-1930s.-Credit-Library-of-Congress.-1736325802.jpg?w=700&resize=700%2C466&quality=80)
+![[~/×/6f8b43bc1c5316ae1e86b36841cb96b8_MD5.jpg]]
 
 Segregation in the American South in the 1930s \[Courtesy of Library of Congress\]
 
@@ -117,7 +117,7 @@ Even places of worship were strictly segregated according to the colour of their
 
 All these laws, policies and social attitudes were enforced, frequently with extreme violence, by white supremacist groups such as the Ku Klux Klan, often with the direct or tacit support of the police.
 
-![KKK](https://www.aljazeera.com/wp-content/uploads/2025/01/Ku-Kux-Klan-rally-Union-County-Arkansas-circa-1920s.-Courtesy-of-University-of-Arkansas-Libraries.-1736324945.webp?w=745&resize=745%2C550&quality=80)
+![[~/×/9be16b371d7ab9f44d43d1c6aadc3544_MD5.jpg]]
 
 A Ku Klux Klan rally in Union County, Arkansas, circa 1920s \[Courtesy of University of Arkansas Libraries\]
 
@@ -137,7 +137,7 @@ The article went on to relate that “Tildy has vigor and spirit in spite of her
 
 Durkin writes that Matilda’s story is particularly remarkable “because she resisted what was expected of a Black woman in the US South in the years after emancipation. She did not get married. Instead, she had a decades-long common-law marriage … Even though she left West Africa when she was a toddler, she appears throughout her life to have worn her hair in a traditional Yoruba style, a style presumably taught to her by her mother.”
 
-![Selma court house](https://www.aljazeera.com/wp-content/uploads/2025/01/AP650215076-1-1736325954.jpg?w=770&resize=770%2C535&quality=80)
+![[~/×/5ffb5c305a55693137760db24cec2ca6_MD5.jpg]]
 
 African Americans line up outside the Selma court in Alabama, where Matilda’s claim for compensation was rejected in 1931, to register to vote more than 20 years later on February 15, 1965. The line stretched for several blocks \[File: AP Photo\]
 

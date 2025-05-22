@@ -19,7 +19,7 @@ related:
 
 ## What is a Binomial Distribution?
 
-![what is a binomial distribution](https://www.statisticshowto.com/wp-content/uploads/2013/07/Binomial_distribution_pmf.svg_.png)
+![[~/×/807beccd99fd29f0307804c840132982_MD5.png]]
 
 A binomial distribution probability mass function (pmf) \[1\].
 
@@ -43,7 +43,7 @@ The binomial distribution formula is: **b(x; n, P) = <sub>n</sub>C<sub>x</sub> \
 - P = probability of a success on a single attempt
 - n = number of attempts or trials.
 
-**Note:** The binomial distribution formula can also be written in a slightly different way, because <sub>n</sub>C<sub>x</sub> = n! / x!(n – x)! (this binomial distribution formula uses [factorials](https://www.statisticshowto.com/factorial-distribution/). “q” in this formula is the probability of failure (subtract your probability of success from 1). [![binomialprobabilityformula](https://www.statisticshowto.com/wp-content/uploads/2009/09/binomialprobabilityformula1.bmp)](https://www.statisticshowto.com/wp-content/uploads/2009/09/binomialprobabilityformula1.bmp)
+**Note:** The binomial distribution formula can also be written in a slightly different way, because <sub>n</sub>C<sub>x</sub> = n! / x!(n – x)! (this binomial distribution formula uses [factorials](https://www.statisticshowto.com/factorial-distribution/). “q” in this formula is the probability of failure (subtract your probability of success from 1). [![[~/×/ed29a3656a10fc7b05a53de5524d6627_MD5.png]]](https://www.statisticshowto.com/wp-content/uploads/2009/09/binomialprobabilityformula1.bmp)
 
 ## Binomial Distribution Formula Examples
 

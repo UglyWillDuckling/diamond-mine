@@ -23,7 +23,7 @@ Le Guin's writing was enormously influential in the field of speculative fiction
 
 ## Life
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Ishi.jpg/250px-Ishi.jpg)
+![[~/×/d2faef10568f07504ad7baa96f78580d_MD5.jpg]]
 > Ursula's father, Alfred Kroeber, with **Ishi**, the last of the [[Yahi people]] (**1911**)
 
 Ursula Kroeber was born in [Berkeley, California](https://en.wikipedia.org/wiki/Berkeley,_California "Berkeley, California"), on October 21, 1929. Her father, [Alfred Louis Kroeber](https://en.wikipedia.org/wiki/Alfred_L._Kroeber "Alfred L. Kroeber"), was an [anthropologist](https://en.wikipedia.org/wiki/Anthropologist "Anthropologist") at the [University of California, Berkeley](https://en.wikipedia.org/wiki/University_of_California,_Berkeley "University of California, Berkeley").[^8] [^9] Le Guin's mother, [Theodora Kroeber](https://en.wikipedia.org/wiki/Theodora_Kroeber "Theodora Kroeber") (born Theodora Covel Kracaw), had a graduate degree in psychology, but turned to writing in her 60s, developing a successful career as an author. Among her works was *[Ishi in Two Worlds](https://en.wikipedia.org/wiki/Ishi_in_Two_Worlds "Ishi in Two Worlds")* (1961), a biographical volume about [Ishi](https://en.wikipedia.org/wiki/Ishi "Ishi"), an [Indigenous American](https://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Americas "Indigenous peoples of the Americas") who had been studied by Alfred Kroeber. Ishi was the last known member of the [Yahi](https://en.wikipedia.org/wiki/Yahi "Yahi") tribe after the rest of its members died or (mostly) were killed by white colonizers.[^8] [^10] [^11]
@@ -63,7 +63,7 @@ When publishing her story "Nine Lives" in 1968, *[Playboy](https://en.wikipedia.
 
 Le Guin's next two books brought her sudden and widespread critical acclaim. *[A Wizard of Earthsea](https://en.wikipedia.org/wiki/A_Wizard_of_Earthsea "A Wizard of Earthsea")*, published in 1968, was a fantasy novel written initially for teenagers.[^4] Le Guin had not planned to write for young adults, but was asked to write a novel targeted at this group by the editor of Parnassus Press, who saw it as a market with great potential.[^48] [^49] A [coming of age story](https://en.wikipedia.org/wiki/Bildungsroman "Bildungsroman") set in the fictional archipelago of Earthsea, the book received a positive reception in both the U.S. and Britain.[^48] [^50]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ursula_Le_Guin_Harlan_Ellison.jpg/250px-Ursula_Le_Guin_Harlan_Ellison.jpg)
+![[~/×/90368a6fb86a4941132070f271e8d62c_MD5.jpg]]
 
 Le Guin with Harlan Ellison at Westercon in Portland, Oregon (1984)
 
@@ -117,7 +117,7 @@ A number of Le Guin's writings, including the *Earthsea* series, challenged the 
 
 Gender and sexuality are prominent themes in a number of Le Guin's works. *The Left Hand of Darkness*, published in 1969, was among the first books in the genre now known as [feminist science fiction](https://en.wikipedia.org/wiki/Feminist_science_fiction "Feminist science fiction"), and is the most famous examination of [androgyny](https://en.wikipedia.org/wiki/Androgyny "Androgyny") in science fiction.[^134] The story is set on the fictional planet of Gethen, whose inhabitants are ambisexual humans with no fixed [gender identity](https://en.wikipedia.org/wiki/Gender_identity "Gender identity"), who [adopt female or male sexual characteristics](https://en.wikipedia.org/wiki/Biology_in_fiction "Biology in fiction") for brief periods of their sexual cycle.[^135] Which sex they adopt can depend on context and relationships.[^136] Gethen was portrayed as a society without war, as a result of this absence of fixed gender characteristics, and also without sexuality as a continuous factor in social relationships.[^52] [^135] Gethenian culture was explored in the novel through the eyes of a [Terran](https://en.wikipedia.org/wiki/Earth "Earth"), whose masculinity proves a barrier to cross-cultural communication.[^52] Outside the Hainish Cycle, Le Guin's use of a female protagonist in *The Tombs of Atuan*, published in 1971, was described as a "significant exploration of womanhood".[^137]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Ursula_K_Le_Guin.JPG/250px-Ursula_K_Le_Guin.JPG)
+![[~/×/2ec48a8452bec7c0ce979bc1237df8c9_MD5.jpg]]
 
 Le Guin at a reading in Danville, California (June 2008)
 
@@ -153,7 +153,7 @@ Her writing was recognized by the popular media and by commentators. The *[Los A
 
 Le Guin's fellow authors also praised her writing. After Le Guin's death in 2018, writer [Michael Chabon](https://en.wikipedia.org/wiki/Michael_Chabon "Michael Chabon") referred to her as the "greatest American writer of her generation", and said that she had "awed \[him\] with the power of an unfettered imagination".[^6] [^7] Author Margaret Atwood hailed Le Guin's "sane, smart, crafty and lyrical voice", and wrote that social injustice was a powerful motivation through Le Guin's life.[^186] Her prose, according to [Zadie Smith](https://en.wikipedia.org/wiki/Zadie_Smith "Zadie Smith"), was "as elegant and beautiful as any written in the twentieth century".[^6] Academic and author [Joyce Carol Oates](https://en.wikipedia.org/wiki/Joyce_Carol_Oates "Joyce Carol Oates") highlighted Le Guin's "outspoken sense of justice, decency, and common sense", and called her "one of the great American writers and a visionary artist whose work will long endure".[^6] [China Miéville](https://en.wikipedia.org/wiki/China_Mi%C3%A9ville "China Miéville") described Le Guin as a "literary colossus", and wrote that she was a "writer of intense ethical seriousness and intelligence, of wit and fury, of radical politics, of subtlety, of freedom and yearning".[^6]
 
-![Le Guin seated in a bookstore](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/UrsulaLeGuin.01.jpg/250px-UrsulaLeGuin.01.jpg)
+![[~/×/4bec0ee24acd29bb7d9e4e76c3932f32_MD5.jpg]]
 
 Le Guin at a "meet the author" event in 2004
 
@@ -179,7 +179,7 @@ Le Guin's novel *The Left Hand of Darkness* was adapted for the stage in 1995 by
 
 ## Written works
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ursula_Le_Guin.jpg/250px-Ursula_Le_Guin.jpg)
+![[~/×/b1fc71d9987ee89fe7282a435cef7a29_MD5.jpg]]
 
 Le Guin signing a book in 2013
 

@@ -175,4 +175,4 @@ In this tutorial, we saw some methods we can use to let a rootless container bin
 ---
 
 **Comments and Discussions**  
-![Linux Forum](https://linuxconfig.org/wp-content/uploads/2024/04/linuxconfig-forum-logo-1.webp)
+![[~/×/980c29bf0070c509ed1736a770fd5722_MD5.webp]]

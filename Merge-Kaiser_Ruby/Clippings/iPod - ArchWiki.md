@@ -108,7 +108,7 @@ If you have never synced your device using *iTunes*, you will get error messages
 
 #### Unobfuscating the Database
 
-![](https://wiki.archlinux.org/images/4/4e/View-refresh-red.svg)**This article or section is out of date.**
+![[~/×/47e1dc905b14a617d928d82d84e71a84_MD5.svg]]**This article or section is out of date.**
 
 **Reason:** iOS version 2.0 is from 2008, and libgpod is already able to read the database without jailbreaking the device and editing system files. (Discuss in [Talk:IPod](https://wiki.archlinux.org/title/Talk:IPod))
 

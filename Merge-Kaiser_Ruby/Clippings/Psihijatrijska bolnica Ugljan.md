@@ -11,7 +11,7 @@ tags:
 ---
 [Skip to content](https://www.pbu.hr/#content)
 
-![Upoznajte naš Domski smještaj](http://www.pbu.hr/wp-content/uploads/2023/02/mozaik-domski-smjestaj.jpg "#slidecaption1") ![Individualne, grupne psihoterapije i socioterapije](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-2.jpg "#slidecaption2") ![Povjerite nam brigu o svom mentalnom zdravlju](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg "#slidecaption3") ![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-2.jpg)
+![[~/×/25b1f9812c4fb3d97e5c760c51ac4ef6_MD5.jpg]]![[~/×/33bcc694a2be3d7e80166103a595bd14_MD5.jpg]]![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]![[~/×/33bcc694a2be3d7e80166103a595bd14_MD5.jpg]]
 
 ## Povjerite nam brigu o svom mentalnom zdravlju
 
@@ -19,35 +19,35 @@ Liječenje se provodi i kroz odjel Dnevne bolnice, koja ima kapacitet od 20 stol
 
 [Pročitaj više](https://www.pbu.hr/#link3)
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
-![](http://www.pbu.hr/wp-content/uploads/2016/02/Slide-3.jpg)
+![[~/×/330b5736b4d38d86e1cd852d9c55e1e5_MD5.jpg]]
 
 ## Upoznajte naš Domski smještaj
 
@@ -67,13 +67,13 @@ Liječenje se provodi i kroz odjel Dnevne bolnice, koja ima kapacitet od 20 stol
 
 [Pročitaj više](https://www.pbu.hr/#link3)
 
-![](https://www.pbu.hr/wp-content/uploads/2023/02/o-nama-bolnica.jpg)
+![[~/×/351eb2f5387a6d0cdaa4debe8762477d_MD5.jpg]]
 
 O nama
 
 Psihijatrijska bolnica Ugljan zdravstvena je ustanova koja ima bogato iskustvo i tradiciju u provođenju zdravstvene zaštite psihičkog zdravlja ljudi. Bolnica je smještena na jednom od najljepših dalmatinskih otoka, na otoku Ugljanu [<span aria-label="Nastavi...](https://www.pbu.hr/o-nama/#more-6)[Pročitaj više](https://www.pbu.hr/o-nama/)
 
-![](https://www.pbu.hr/wp-content/uploads/2016/02/Kreveti-1.jpg)
+![[~/×/160bfebf933fda4e16dfd86a2286087e_MD5.jpg]]
 
 Organizacija
 
@@ -81,7 +81,7 @@ Na temelju članka 44. Statuta Psihijatrijske bolnice Ugljan, Upravno vijeće bo
 
 [Pročitaj više](https://www.pbu.hr/organizacija/)
 
-![](https://www.pbu.hr/wp-content/uploads/2016/02/Bolnica-povijest.jpg)
+![[~/×/6beb9ff09ba43e420637f868d8e055e9_MD5.jpg]]
 
 Povijest
 

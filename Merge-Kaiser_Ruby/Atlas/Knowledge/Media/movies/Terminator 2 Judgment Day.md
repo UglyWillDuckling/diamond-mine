@@ -16,4 +16,4 @@ cast::
   - "[[Arnold Schwarzenegger, Linda Hamilton, Edward Furlong]]"
 plot:: A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten year old son John from an even more advanced and powerful cyborg.
 
-![poster](https://m.media-amazon.com/images/M/MV5BNGMyMGNkMDUtMjc2Ni00NWFlLTgyODEtZTY2MzBiZTg0OWZiXkEyXkFqcGc@._V1_SX300.jpg)
+![[~/×/cbed76696a2feefa4615173a2b687077_MD5.jpg]]

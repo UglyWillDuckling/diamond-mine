@@ -97,7 +97,7 @@ In June 2021, Stevenson told [Insider](https://en.wikipedia.org/wiki/Insider_\(w
 
 ### Staff and cast
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Noelle_Stevenson%2C_Aimee_Carrero_%26_AJ_Michalka_%2832596048737%29.jpg/220px-Noelle_Stevenson%2C_Aimee_Carrero_%26_AJ_Michalka_%2832596048737%29.jpg)
+![[~/×/2c5e512d30b855d20f516159cf3513bc_MD5.jpg]]
 
 [ND Stevenson](https://en.wikipedia.org/wiki/ND_Stevenson "ND Stevenson"), the creator of the rebooted *She-Ra*, with [Aimee Carrero](https://en.wikipedia.org/wiki/Aimee_Carrero "Aimee Carrero"), voice of [She-Ra](https://en.wikipedia.org/wiki/She-Ra "She-Ra"), and [AJ Michalka](https://en.wikipedia.org/wiki/AJ_Michalka "AJ Michalka"), voice of [Catra](https://en.wikipedia.org/wiki/Catra "Catra").
 
@@ -109,7 +109,7 @@ Visually, the rebooted *She-Ra* series takes inspiration from [anime](https://en
 
 #### Character design
 
-![](https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/She-Ra_comparison.png/330px-She-Ra_comparison.png)
+![[~/×/b7748371d79779d9d58c152b3a18cb56_MD5.png]]
 
 She-Ra in the 1985 series (left) and her 2018 redesign (right) that triggered debate on social media.
 

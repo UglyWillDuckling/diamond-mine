@@ -11,7 +11,7 @@ tags:
   - email
 ---
 
-![Featured image for Email Hosting](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Email-alt-1-1024x596.webp)
+![[~/×/d9d6c5665c72aba26d5f8ec1426c64f7_MD5.webp]]
 
 Terminating your existing email services and transitioning to a new email provider can be daunting, requiring careful planning and execution. However, it is a worthwhile effort for businesses looking to scale their growth.
 
@@ -59,7 +59,7 @@ Considering these factors, **Hostinger** is a great choice for email hosting. We
 
 Coupled with **24/7** support, our email service is both dependable and user-friendly, making it an ideal choice for businesses.
 
-![](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/02/Email-hosting-cta-banner-1024x300.webp)
+![[~/×/968d1cbc337c38ac679008a579210a82_MD5.webp]]
 
 ### 2\. Prepare for Email Migration
 
@@ -111,17 +111,17 @@ Here’s how you can create a new email address for the two types of email servi
 
 1. Open the **Emails** section on hPanel and click **Manage** next to the relevant domain or subdomain to access the Email Accounts page.
 
-![The Emails section in the Hostinger Dashboard](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Hostinger-email-manage.webp)
+![[~/×/977f29e5b1388a33a13e96d1553a58de_MD5.webp]]
 
 **Important!** For Hostinger Email, your domain will have a blue envelope symbol next to it.
 
 2. On the Email Accounts page, click on **Create email account** to open the email setup window.
 
-![email hPanel for the associated domain](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Hostinger-email-create.webp)
+![[~/×/2dbfa639442f5b79bcf03dab1c657e9b_MD5.webp]]
 
 3. Enter the email address, create a secure password, and click **Create**.
 
-![Hostinger email setup guide](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Hostinger-email-account-setup.webp)
+![[~/×/380ad6b1a090dd204f68796f8dcc7071_MD5.webp]]
 
 **Titan Email**
 
@@ -133,22 +133,21 @@ The **Enterprise Email** plan, priced at **$3.99/month/inbox**, offers a substan
 
 1. Open the **Emails** section in your Hostinger dashboard and click **Manage** next to the domain or subdomain.
 
-![The Emails section in Hostinger Dashboard showcasing a domain with Titan email service
-](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Titan-email-manage.webp)
+![[~/×/cff313b6baf1c769fe8b4cfc862772b6_MD5.webp]]
 
 **Important!** For Titan Email, your domain will have a Titan logo next to it.
 
 2. In the new window, select **Email Accounts**.
 
-![Titan email dashboard](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Titan-email-create.webp)
+![[~/×/a3e1579ca5887bf8368397b620b27608_MD5.webp]]
 
 3. Next, click on **Create new email account**.
 
-![Titan email account setup window](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Titan-email-account-setup.webp)
+![[~/×/00ed5882f4fbbac4aa146761ab41d023_MD5.webp]]
 
 4. Enter the email address, create a secure password, provide a recovery email, then hit **Create new account**. You also have the option to make the account an admin.
 
-![Titan email setup wizard](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Titan-email-setup-wizard.webp)
+![[~/×/0a8841a850902e0f4bc010b4b85cb9a4_MD5.webp]]
 
 Once done, simply log in to use your professional email account.
 
@@ -173,7 +172,7 @@ You must ensure the correct DNS records are set for your email services to funct
 
 1. Navigate to the DNS management section on your Hostinger account by clicking **Connect Domain**.
 
-![Hostinger hPanel Connect Domain section](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Hostinger-DNS.webp)
+![[~/×/df2d234c67ffb09405783e2daadd03ba_MD5.webp]]
 
 2. Enter the required [DNS records for Hostinger email services](https://support.hostinger.com/en/articles/8650765-set-up-a-domain-for-hostinger-email). You can find the values under the **Expected records** section of each tab. Once done, make sure to save the changes.
 
@@ -210,17 +209,16 @@ This method uses the IMAP protocol to sync messages between your old email servi
 1. Access the Email Accounts page in your Hostinger account.
 2. Click on **Email Import** in the sidebar menu.
 
-![Hostinger control panel with the Email Import option highlighted](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Hostinger-email-import.webp)
+![[~/×/40ca2428b54dc9eb15f9fc076db542ec_MD5.webp]]
 
 3. In the next window, click on **New email import request**.
 4. Prepare for the import by reviewing the provided support articles.
 
-![Email import preparation support in Hostinger Dashboard
-](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Hostinger-email-import-prepare.webp)
+![[~/×/d9a6c0ee30ff9b4360c10ecebc58800b_MD5.webp]]
 
 5. In the **Import from** window, enter the account and IMAP details of your old email service.
 
-![Email import setup asking for old email account credentials and IMAP details](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Hostinger-email-import-IMAP.webp)
+![[~/×/3688fcdd8093f36efdae16f7b8180504_MD5.webp]]
 
 6. Specify the import location and start the migration process.
 
@@ -229,11 +227,11 @@ This method uses the IMAP protocol to sync messages between your old email servi
 1. Head to the **Emails** section on hPanel and click **Manage** next to the domain.
 2. In the next window, click on **Import Email Data**.
 
-![Import Email Data option in Titan email control panel](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Titan-email-import.webp)
+![[~/×/5ed6736f17ccae31be928ce5bdd86dd6_MD5.webp]]
 
 3. Now, select **Import a mailbox** and follow the provided steps to transfer emails to your new Hostinger mail server.
 
-![Titan email import window](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Titan-email-import-steps.webp)
+![[~/×/7d0211e706affa4d48f1317de3089cb9_MD5.webp]]
 
 #### Manual Email Data Backup and Restore
 
@@ -243,15 +241,15 @@ If you’d rather handle email imports yourself, follow these steps. In this exa
 2. Go to the **Emails** section on hPanel and click on **Manage** next to the domain name to open the Email Accounts page.
 3. Navigate to the **Manage Email Accounts** section and click on **Webmail** next to the listed account.
 
-![Manage Email Account tab in Hostinger Members Area](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Hostinger-webmail.webp)
+![[~/×/11c21e6c05f30343c1941631a64f04fb_MD5.webp]]
 
 4. This action will open your inbox. Here, click on **More** → **Import**.
 
-![Hostinger webmail dashborad](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Hostinger-webmail-import.webp)
+![[~/×/c3604597f6d27f961bd6bb41ef413920_MD5.webp]]
 
 5. Select the **MBOX** or **MIME** file you exported from your old email account and click on **Import**.
 
-![Email backup import wizard in Hostinger webmail](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Hostinger-webmail-import-file.webp)
+![[~/×/d1cdfef4d37c2f4a454132cf1933f5ac_MD5.webp]]
 
 #### Third-Party Email Migration Tools
 
@@ -269,21 +267,21 @@ Here’s a guide on how to safely back up and import contacts:
 
 1. Open Hostinger webmail and go to **Contacts** → **Import**.
 
-![Hostinger webmail dashboard](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Hostinger-webmail-contacts.webp)
+![[~/×/36ca032fbd1f1359097e4e41f982cb0e_MD5.webp]]
 
 2. Select the CSV file in the relevant field and click **Import**.
 
-![Hostinger webmail contact import tool](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Hostinger-import-contacts.webp)
+![[~/×/f3af42b404a7a0ce0b76a7f27bd724d2_MD5.webp]]
 
 **Titan Email**
 
 1. Open Titan webmail and go to **Settings** → **Preferences → Import Contacts**.
 
-![Titan webmail dashboard](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Titan-webmail-preferences.webp)
+![[~/×/71374ed9d558465b35f3946946259454_MD5.webp]]
 
 3. In the **Import Contacts** window, you have the option to either import contacts from Gmail or from a **CSV** file.
 
-![Titan webmail contact import feature](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/10/Migrate-email-Titan-webmail-contacts.webp)
+![[~/×/eb8cc6dbd5832a4bac4cbc754d4db133_MD5.webp]]
 
 ### 8\. Set Up Devices and Email Clients
 
@@ -345,7 +343,7 @@ Some of the standout features of Hostinger’s email services include:
 - **Custom DKIM** – use DKIM to authenticate sent emails, ensuring their legitimacy to recipients.
 - **Reliability** – Hostinger Email and Titan guarantee reliable email server uptime, data protection, and **24/7** support.
 
-![](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/02/Email-hosting-cta-banner-1024x300.webp)
+![[~/×/968d1cbc337c38ac679008a579210a82_MD5.webp]]
 
 ## Conclusion
 
@@ -386,6 +384,6 @@ Challenges like synchronization issues, data loss, settings misalignment, or mis
 
 Send and receive emails from your new setup, check attachments to ensure they open, ensure your email signatures are updated, and confirm that email sequences and folder structures remain unchanged. Regular testing for a few days post-migration is advisable.
 
-![Author](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/06/Screenshot-2023-06-06-at-13.52.24-148x150.webp)
+![[~/×/5bb02ffcb240fc950071277673627009_MD5.webp]]
 
 Akshay is a Senior Content Writer who loves writing about technology. As a Computer Engineering graduate and a certified digital marketer, he aims to make tech easier for everyone. He also enjoys cooking, traveling, and learning new languages. Follow him on [LinkedIn](https://www.linkedin.com/in/axeyked).

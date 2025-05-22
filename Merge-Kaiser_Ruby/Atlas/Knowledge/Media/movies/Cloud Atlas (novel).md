@@ -15,7 +15,7 @@ read: true
 Cloud Atlas, published in **2004**, is the third novel by British author [[David Mitchell]]. The book combines metafiction, historical fiction, contemporary fiction and science fiction, with interconnected nested stories that take the reader from the remote South Pacific in the 19th century to the island of Hawaii in a distant post-apocalyptic future. Its title references a piece of music by [[Toshi Ichiyanagi]]. 
 
 
-![](https://upload.wikimedia.org/wikipedia/en/3/38/Cloud_atlas.jpg)
+![[~/×/38c02f91c5a30995d2f600d91b410e6c_MD5.jpg]]
 
 It received awards from both the general literary community and the speculative fiction community, including the [[British Book Awards]] Literary Fiction award and the Richard & Judy Book of the Year award, it was also short-listed for the [[Booker Prize]], [[Nebula Award ]]for Best Novel, and [[Arthur C. Clarke Award]]. A [[Cloud Atlas film (2012)|film adaptation]] directed by the Wachowskis and [[Tom Tykwer]] and featuring an ensemble cast, was released in **2012**.
 

@@ -27,7 +27,7 @@ The [Algonquian](https://en.m.wikipedia.org/wiki/Algonquian_peoples "Algonquian 
 
 ### Founding
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/USCapitol1800.jpg/220px-USCapitol1800.jpg)
+![[~/×/8121ff0bbd54b0d6cc5509207753cd65_MD5.jpg]]
 
 The [United States Congress](https://en.m.wikipedia.org/wiki/United_States_Congress "United States Congress") began assembling in the new [United States Capitol](https://en.m.wikipedia.org/wiki/United_States_Capitol "United States Capitol") in 1800 after the nation's capital was moved from [Philadelphia](https://en.m.wikipedia.org/wiki/Philadelphia "Philadelphia").
 
@@ -49,7 +49,7 @@ Congress passed the [District of Columbia Organic Act of 1801](https://en.m.wiki
 
 ### Burning during War of 1812
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/British_Burning_Washington.jpg/220px-British_Burning_Washington.jpg)
+![[~/×/6cfb4cee97d1512c2ba7815e0c7dd76c_MD5.jpg]]
 
 After their victory at the [Battle of Bladensburg](https://en.m.wikipedia.org/wiki/Battle_of_Bladensburg "Battle of Bladensburg") in 1814, the [British Army](https://en.m.wikipedia.org/wiki/British_Army_during_the_American_Revolutionary_War "British Army during the American Revolutionary War") burned the [White House](https://en.m.wikipedia.org/wiki/White_House "White House") and other buildings during a one-day occupation of Washington, D.C.
 
@@ -57,7 +57,7 @@ On August 24, 1814, during the [War of 1812](https://en.m.wikipedia.org/wiki/War
 
 ### Retrocession and the Civil War
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/LincolnInauguration1861a.jpg/220px-LincolnInauguration1861a.jpg)
+![[~/×/c0146dd533152e8f8a1f48b8950b9157_MD5.jpg]]
 
 The [U.S. Capitol dome](https://en.m.wikipedia.org/wiki/United_States_Capitol_dome "United States Capitol dome") was under construction during [Lincoln's first inauguration](https://en.m.wikipedia.org/wiki/Abraham_Lincoln%27s_first_inaugural_address "Abraham Lincoln's first inaugural address") on March 4, 1861, five weeks before the start of the [American Civil War](https://en.m.wikipedia.org/wiki/American_Civil_War "American Civil War").
 
@@ -69,7 +69,7 @@ The outbreak of the [American Civil War](https://en.m.wikipedia.org/wiki/America
 
 ### Growth and redevelopment
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Army_Headquarters_in_Washington_-_State%2C_War%2C_and_Navy_Building%2C_c._1888_%28cropped%29.jpg/220px-Army_Headquarters_in_Washington_-_State%2C_War%2C_and_Navy_Building%2C_c._1888_%28cropped%29.jpg)
+![[~/×/44e1b6cdccc32b4dd4bcc0200011244e_MD5.jpg]]
 
 The [Eisenhower Executive Office Building](https://en.m.wikipedia.org/wiki/Eisenhower_Executive_Office_Building "Eisenhower Executive Office Building"), built between 1871 and 1888, was the world's largest office building until 1943, when it was surpassed by [The Pentagon](https://en.m.wikipedia.org/wiki/The_Pentagon "The Pentagon").
 
@@ -89,7 +89,7 @@ Increased federal spending under the [New Deal](https://en.m.wikipedia.org/wiki/
 
 ### Civil rights and home rule era
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/IhaveadreamMarines.jpg/220px-IhaveadreamMarines.jpg)
+![[~/×/d58c5e2e6563f3cbe1f158dd65d8b7e8_MD5.jpg]]
 
 The [March on Washington](https://en.m.wikipedia.org/wiki/March_on_Washington_for_Jobs_and_Freedom "March on Washington for Jobs and Freedom") at the [Lincoln Memorial Reflecting Pool](https://en.m.wikipedia.org/wiki/Lincoln_Memorial_Reflecting_Pool "Lincoln Memorial Reflecting Pool") on August 28, 1963
 
@@ -105,11 +105,11 @@ Since the 1980s, the [D.C. statehood movement](https://en.m.wikipedia.org/wiki/D
 
 ## Geography
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/DC_Cherry_Blossom_April_2018_03.jpg/220px-DC_Cherry_Blossom_April_2018_03.jpg)
+![[~/×/56b118b1c8f306cd209961d9e8b8079d_MD5.jpg]]
 
 The [Washington Monument](https://en.m.wikipedia.org/wiki/Washington_Monument "Washington Monument") viewed from the [Tidal Basin](https://en.m.wikipedia.org/wiki/Tidal_Basin "Tidal Basin") during the [National Cherry Blossom Festival](https://en.m.wikipedia.org/wiki/National_Cherry_Blossom_Festival "National Cherry Blossom Festival") in April 2018
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Washington%2C_D.C._locator_map.svg/220px-Washington%2C_D.C._locator_map.svg.png)
+![[~/×/07cfcb1def5822358979e0d56772f385_MD5.png]]
 
 Washington, D.C. is located on the north side of the [Potomac River](https://en.m.wikipedia.org/wiki/Potomac_River "Potomac River"). It is bordered on three sides by [Maryland](https://en.m.wikipedia.org/wiki/Maryland "Maryland") and by [Northern Virginia](https://en.m.wikipedia.org/wiki/Northern_Virginia "Northern Virginia") to its southwest.
 
@@ -125,7 +125,7 @@ The [National Park Service](https://en.m.wikipedia.org/wiki/National_Park_Servic
 
 ### Climate
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Flickr_-_USCapitol_-_February_2010_Blizzard.jpg/220px-Flickr_-_USCapitol_-_February_2010_Blizzard.jpg)
+![[~/×/55df02ce6d1f2a8dfe9fe25234b8475d_MD5.jpg]]
 
 The [U.S. Capitol](https://en.m.wikipedia.org/wiki/United_States_Capitol "United States Capitol") during the [February 5–6, 2010 North American blizzard](https://en.m.wikipedia.org/wiki/February_5%E2%80%936,_2010_North_American_blizzard "February 5–6, 2010 North American blizzard")
 

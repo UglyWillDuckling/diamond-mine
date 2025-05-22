@@ -9,7 +9,7 @@ tags:
 related:
   - "[[Efforts/Simmering/Wordpress/Wordpress]]"
 ---
-![icon|50](https://codecraftwp.com/wp-content/uploads/2023/08/cropped-site-icon-32x32.png)
+![[~/×/a5ac34179e0cb0b82c905d8975c87fb9_MD5.png|50]]
 
 Want to improve your WordPress website’s **SEO**? Learn how to create custom post URLs and avoid common issues with our comprehensive guide. From installation to best practices, we’ve got you covered.
 

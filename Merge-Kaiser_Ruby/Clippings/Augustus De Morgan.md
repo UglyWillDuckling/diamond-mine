@@ -104,7 +104,7 @@ De Morgan was on occasion accused of atheism [^70] which he dismissed as sectari
 
 > I commend my future with hope and confidence to Almighty God; to God the Father of our Lord Jesus Christ, whom I believe in my heart to be the Son of God, but whom I have not confessed with my lips, because in my time such confession has always been the way up in the world.[^73]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Augustus_De_Morgan.jpg/250px-Augustus_De_Morgan.jpg)
+![[~/×/72fd8c376aa78e5174b145964e102390_MD5.jpg]]
 
 Augustus De Morgan.
 

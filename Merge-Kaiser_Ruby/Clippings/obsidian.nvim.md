@@ -748,4 +748,4 @@ Please read the [CONTRIBUTING](https://github.com/epwalsh/obsidian.nvim/blob/mai
 
 And if you're feeling especially generous I always appreciate some coffee funds! ❤️
 
-[![BuyMeACoffee](https://camo.githubusercontent.com/f463c0a4a22167a100f0c9d4ed64cc645053b89579c870e6d55ea9e3edf04ece/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4275792532304d6525323061253230436f666665652d6666646430303f7374796c653d666f722d7468652d6261646765266c6f676f3d6275792d6d652d612d636f66666565266c6f676f436f6c6f723d626c61636b)](https://www.buymeacoffee.com/epwalsh)
+[![[~/×/cac754517ef599538fa8c66c5a517fb5_MD5.svg]]](https://www.buymeacoffee.com/epwalsh)

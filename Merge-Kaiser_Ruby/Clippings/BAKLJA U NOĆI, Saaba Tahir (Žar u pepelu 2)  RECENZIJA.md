@@ -12,7 +12,7 @@ tags:
   - Review
   - Book-review
 ---
-![Sabaa Tahir Baklja u noći Žar u pepelu](https://cdn-aodab.nitrocdn.com/EVmRvYkKpFBImLWIdweeSlEHgopfGqSN/assets/images/optimized/rev-fb42839/kljuczaknjigu.com/wp-content/uploads/2020/12/baklja-u-noci-recenzija.jpg)
+![[~/×/0556a9a66508afc04887409e6be96dd5_MD5.jpg]]
 
 BAKLJA U NOĆI NA [GOODREADSU](https://www.goodreads.com/book/show/25558608-a-torch-against-the-night?from_search=true&from_srp=true&qid=8js0GmGocW&rank=5)
 
@@ -51,8 +51,8 @@ A ako volite fantastiku, svakako kliknite [ovdje](https://kljuczaknjigu.com/cate
 - [About](https://kljuczaknjigu.com/young-adult-2/baklja-u-noci-saaba-tahir/#abh_about)
 - [Latest Posts](https://kljuczaknjigu.com/young-adult-2/baklja-u-noci-saaba-tahir/#abh_posts)
 
-[![Rose Strong](https://cdn-aodab.nitrocdn.com/EVmRvYkKpFBImLWIdweeSlEHgopfGqSN/assets/images/optimized/rev-fb42839/kljuczaknjigu.com/wp-content/uploads/gravatar/screenshot_26-1.jpg)](https://kljuczaknjigu.com/author/rose-strong/ "Rose Strong")
+[![[~/×/6164303b3911ed99285723cc37fd24b8_MD5.jpg]]](https://kljuczaknjigu.com/author/rose-strong/ "Rose Strong")
 
 Opsesivna čitateljica čija soba je uvijek u neredu zbog poprilične količine knjiga koje leže svuda uokolo. Visjele bi i sa stropa da je to moguće izvesti.Ovisnica o ljubavnim romanima, erotskom fantasyju i self-help literaturi. Surprise! Right? ?
 
-[![Rose Strong](https://cdn-aodab.nitrocdn.com/EVmRvYkKpFBImLWIdweeSlEHgopfGqSN/assets/images/optimized/rev-fb42839/kljuczaknjigu.com/wp-content/uploads/gravatar/screenshot_26-1.jpg)](https://kljuczaknjigu.com/author/rose-strong/ "Rose Strong")
+[![[~/×/6164303b3911ed99285723cc37fd24b8_MD5.jpg]]](https://kljuczaknjigu.com/author/rose-strong/ "Rose Strong")

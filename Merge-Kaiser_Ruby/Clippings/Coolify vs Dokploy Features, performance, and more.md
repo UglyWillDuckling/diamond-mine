@@ -15,7 +15,7 @@ Aris S.
 
 6min Read
 
-![Coolify vs Dokploy: Features, performance, and more](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/10/Coolify-vs-Dokploy.png)
+![[~/×/2a270984227b5336bb0f64c729a843ef_MD5.png]]
 
 Coolify and Dokploy are popular control panels that simplify application management on systems without a graphical interface, like a virtual private server (VPS). They are widely used as an open-source and more affordable alternative to a platform as a service (PaaS).
 
@@ -80,7 +80,7 @@ Both Coolify and Dokploy are simple VPS control panels with an intuitive, beginn
 
 Installation is also simple in both control panels, but Coolify takes the edge since it has out-of-box features like an integrated [secure sockets layer](https://www.hostinger.com/tutorials/what-is-ssl) (SSL). Moreover, it has an onboarding that guides you through the setup.
 
-![Coolify onboarding page](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/10/coolify-onboarding-page-1024x412.png)
+![[~/×/b0440fc8d1a909be531069b77df32879_MD5.png]]
 
 However, Dokploy makes deploying services and applications simpler than Coolify, especially if you use Docker with multiple containers or external cloud platforms.
 
@@ -94,7 +94,7 @@ Both Coolify and Dokploy support applications built with any programming languag
 
 Dokploy is superior in terms of compatibility with application deployment. In addition to Dockerfile, Nixpacks, and Git platforms, it supports buildpacks from popular PaaS providers.
 
-![Dokploy's build type list on the deployment menu](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/10/dokploy-build-type-list-on-the-deployment-menu-1024x450.png)
+![[~/×/2b7cd391b3f8e1210ccaed726ebc81cf_MD5.png]]
 
 **Winner – Dokploy**
 
@@ -106,7 +106,7 @@ Coolify and Dokploy provide [webhooks](https://mailchimp.com/marketing-glossary/
 
 While Coolify offers more application templates, Dokploy lets you create a custom one. Moreover, Dokploy integrates with Traefik, which you can easily adjust through the control panel’s dashboard.
 
-![Traefik configuration on Dokploy's dsahboard](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/10/traefik-configuration-on-dokploy-dashboard-1024x381.png)
+![[~/×/6c5c3406b77b7be9a03a9bacd7db4df7_MD5.png]]
 
 Dokploy also natively supports multi-server deployment, meaning you can integrate services on different remote VPS to set up an application. While [Coolify offers a similar feature](https://coolify.io/docs/knowledge-base/server/multiple-servers/), it is still experimental.
 
@@ -120,7 +120,7 @@ Since Coolify and Dokploy are open-source control panels, you can modify their s
 
 Though the options are limited, Dokploy lets you change your control panel appearance using pre-made configurations. You can [create a custom Docker template](https://github.com/Dokploy/dokploy/blob/canary/CONTRIBUTING.md#templates) to set up any applications, making it more flexible.
 
-![Coolify's built-in template options](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/10/coolify-built-in-template-options-1024x586.png)
+![[~/×/4d52045c0643403cf5f98ed62a9acbea_MD5.png]]
 
 Coolify lacks a custom template but offers more options by default. Moreover, this control panel is more flexible regarding the web stack since it supports more databases.
 
@@ -138,7 +138,7 @@ Both Coolify and Dokploy require a minimum of a **two-core** processor, **2 GB**
 
 Based on the minimum requirements, expect both control panels to perform similarly. We tried installing them on the **Hostinger KVM 2 VPS plan** and checked the resource consumption through [hPanel’s built-in monitoring tool](https://support.hostinger.com/en/articles/9173071-how-to-enable-website-monitoring).
 
-![hPanel's resource monitor shows hardware consumption of Coolify while idle](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/10/hpanel-resource-monitor-shows-hardware-consumption-of-coolify-while-idle-1024x287.png)
+![[~/×/81781be5bfeeb68e02e767de3dd6b875_MD5.png]]
 
 Based on our test, Coolify consumes **9%** of CPU and **41%** of RAM on idle without any application running. Meanwhile, Dokploy uses **9%** of CPU and **44%** of RAM in the same operational state.
 
@@ -148,13 +148,13 @@ However, Dokploy is easier to scale horizontally, meaning you can add new server
 
 It offers more scaling opportunities by setting up more server instances and using the built-in load balancer.
 
-![](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/02/VPS-hosting-banner-1024x300.webp)
+![[~/×/20205e2cc9cc8700a31ecc62f7141788_MD5.webp]]
 
 ### Security
 
 Coolify offers more robust security features out of the box, providing a free **Let’s Encrypt SSL** certificate. While Dokploy offers a certificate from the same provider, it doesn’t have any encryption by default.
 
-![Dokploy dashboard requires manual certificate issuance](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/10/dokploy-dashboard-requires-manual-certificate-issuance-1024x373.png)
+![[~/×/834ed23e5fc32fec94515bed2156ca61_MD5.png]]
 
 Moreover, Coolify enforces a no-vendor lock-in policy, giving you full control over your server settings and data even after deactivating the control panel. This policy helps avoid sensitive information leaks and improves privacy.
 
@@ -216,6 +216,6 @@ Yes, Coolify and Dokploy are available for free. However, Coolify provides a man
 
 Generally, Dokploy is better for large-scale applications since it supports native multi-server deployment, offers an easily configurable load balancer, and works seamlessly with Docker tools. Its dashboard also lets you manage multiple server instances or containers in a centralized location, which is ideal for microservice-based applications.
 
-![Author](https://secure.gravatar.com/avatar/959b33c75a85c9aab800fa4231751fa3?s=96&d=mm&r=g)
+![[~/×/b48f7ea6351f7c7a73b0ead927563f0b_MD5.jpg]]
 
 Aris is a Content Writer specializing in Linux and WordPress development. He has a passion for networking, front-end web development, and server administration. By combining his IT and writing experience, Aris creates content that helps people easily understand complex technical topics to start their online journey. Follow him on [LinkedIn](https://www.linkedin.com/in/aris-sentika).

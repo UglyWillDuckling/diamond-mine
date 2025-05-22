@@ -7,7 +7,7 @@ tags:
   - band
   - music
 ---
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Disambig.svg/20px-Disambig.svg.png) Ovo je glavno značenje pojma **Daleka obala**. Za istoimeni album pogledajte [Daleka obala (album)](https://hr.m.wikipedia.org/wiki/Daleka_obala_\(album\) "Daleka obala (album)").
+![[~/×/3f44c36374d2d5bd1b7ed6a1efe2ccb1_MD5.png]] Ovo je glavno značenje pojma **Daleka obala**. Za istoimeni album pogledajte [Daleka obala (album)](https://hr.m.wikipedia.org/wiki/Daleka_obala_\(album\) "Daleka obala (album)").
 
 **Daleka obala** bila je [splitski](https://hr.m.wikipedia.org/wiki/Split "Split") *[rock](https://hr.m.wikipedia.org/wiki/Rock_glazba "Rock glazba")*\-sastav.
 

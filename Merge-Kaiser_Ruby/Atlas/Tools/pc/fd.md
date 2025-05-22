@@ -27,7 +27,7 @@ tags:
 
 ## Demo
 
-[![Demo](https://github.com/sharkdp/fd/raw/master/doc/screencast.svg)](https://github.com/sharkdp/fd/blob/master/doc/screencast.svg)
+[![[~/×/9d33604dcd8e6e5a9563c376a317f50e_MD5.svg]]](https://github.com/sharkdp/fd/blob/master/doc/screencast.svg)
 
 ## How to use
 
@@ -483,7 +483,7 @@ Here, the `-0` option tells *fd* to separate search results by the NULL characte
 
 ## Installation
 
-[![Packaging status](https://camo.githubusercontent.com/1a9733f50528d347f71abcc7be5933afba1a3cb88ac43af6a3d3be9782c12b63/68747470733a2f2f7265706f6c6f67792e6f72672f62616467652f766572746963616c2d616c6c7265706f732f66642d66696e642e737667)](https://repology.org/project/fd-find/versions)
+[![[~/×/703a0de32b7b981528ee727678ea0f4c_MD5.svg]]](https://repology.org/project/fd-find/versions)
 
 ### On Ubuntu
 

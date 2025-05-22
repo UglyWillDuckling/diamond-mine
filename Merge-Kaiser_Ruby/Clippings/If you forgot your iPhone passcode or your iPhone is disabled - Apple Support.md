@@ -15,10 +15,10 @@ If your iPhone uses iOS 15.2 or later, [reset your passcode on your device witho
 
 If your iPhone uses an earlier version of iOS, select your iPhone type:
 
-- ![](https://cdsassets.apple.com/live/7WUAS350/images/what-you-need-computer-icon.png) Mac or Windows PC
-- ![](https://cdsassets.apple.com/live/7WUAS350/images/what-you-need-cable-icon.png) Cable that could charge your phone
-- ![](https://cdsassets.apple.com/live/7WUAS350/images/what-you-need-internet-icon.png) Internet connection
-- ![](https://cdsassets.apple.com/live/7WUAS350/images/what-you-need-time-icon.png) Up to 60 minutes
+- ![[~/×/6a39dc82488b8a376f031a0ff78a4fa6_MD5.png]] Mac or Windows PC
+- ![[~/×/a1b6da5fd02d21f60670bf98acff7d74_MD5.png]] Cable that could charge your phone
+- ![[~/×/ddea1e00436bb8bf76faac6ac76e6840_MD5.png]] Internet connection
+- ![[~/×/fae008f48228387985486dfaea73fa66_MD5.png]] Up to 60 minutes
 
 If you don't have a computer and you can't borrow one, you need to go to [an Apple Store or Apple Authorized Service Provider](https://locate.apple.com/) for help.
 
@@ -28,7 +28,7 @@ If you reset your device with these steps, the process erases the data currently
 
 Press and hold both the side button and the Volume down button until the power off slider appears.
 
-![These are the Volume down and side buttons on an iPhone with Face ID.](https://cdsassets.apple.com/live/7WUAS350/images/turn-off-iphone-face-id.png)
+![[~/×/c147255de33f2b593f12f9ad063091c5_MD5.png]]
 
 Drag the slider to power off your iPhone.
 
@@ -40,7 +40,7 @@ Connect the cable to your Mac or Windows PC. Next, connect the cable to your iPh
 
 Continue to hold the side button while the Apple logo appears. Do not release the side button until an image of a computer and a cable appears.
 
-![To put your iPhone in recovery mode, you need to hold the side button on an iPhone with Face ID as you connect the device to your computer with a cable.](https://cdsassets.apple.com/live/7WUAS350/images/recovery-mode-iphone-face-id.png)
+![[~/×/99e0895af1b9390e332e36cfffc094af_MD5.png]]
 
 If your iPhone buttons don't respond and you can't get to the image of a computer and a cable on the recovery mode screen, you might need service. [Get service](https://getsupport.apple.com/?caller=kbase)
 
@@ -48,19 +48,19 @@ Connect the cable to your Mac or Windows PC. Next, connect the cable to your iPh
 
 Continue to hold the button while the Apple logo appears. Do not release the side button until an image of a computer and a cable appears.
 
-![To put an iPhone 8, iPhone 8 Plus, or iPhone SE (2nd and 3rd generation) in recovery mode, you need to hold the side button as you connect the device to your computer with a cable.](https://cdsassets.apple.com/live/7WUAS350/images/recovery-mode-iphone-8.png)
+![[~/×/99e0895af1b9390e332e36cfffc094af_MD5.png]]
 
 Connect the cable to your Mac or Windows PC. Next, connect the cable to your iPhone and quickly hold the Volume down button. Do not release it.
 
 Continue to hold the button while the Apple logo appears. Do not release the button until an image of a computer and a cable appears.
 
-![To put an iPhone 7 or iPhone 7 Plus in recovery mode, you need to hold the Volume down button as you connect the device to your computer with a cable.](https://cdsassets.apple.com/live/7WUAS350/images/recovery-mode-iphone-7.png)
+![[~/×/947c05a8224a78f8969dc71f494a3252_MD5.png]]
 
 Connect the cable to your Mac or Windows PC. Next, connect the cable to your iPhone and quickly hold the Home button. Do not release it.
 
 Continue to hold the button while the Apple logo appears. Do not release the button until an image of a computer and a cable appears.
 
-![Your iPhone is in recovery mode when a picture of a computer with a cable appears.](https://cdsassets.apple.com/live/7WUAS350/images/recovery-mode-iphone-6.png)
+![[~/×/fe54acad8bef350299e0a14414ce86f2_MD5.png]]
 
 If your iPhone buttons don't respond and you can't get to the image of a computer and a cable on the recovery mode screen, you might need service. [Get service](https://getsupport.apple.com/?caller=kbase)
 

@@ -8,7 +8,7 @@ tags:
 ---
 The **geologic time scale** or **geological time scale** (**GTS**) is a representation of [time](https://en.m.wikipedia.org/wiki/Time "Time") based on the [rock record](https://en.m.wikipedia.org/wiki/Geologic_record "Geologic record") of [Earth](https://en.m.wikipedia.org/wiki/Earth "Earth"). It is a system of [chronological dating](https://en.m.wikipedia.org/wiki/Chronological_dating "Chronological dating") that uses [chronostratigraphy](https://en.m.wikipedia.org/wiki/Chronostratigraphy "Chronostratigraphy") (the process of relating [strata](https://en.m.wikipedia.org/wiki/Stratum "Stratum") to time) and [geochronology](https://en.m.wikipedia.org/wiki/Geochronology "Geochronology") (a scientific branch of [geology](https://en.m.wikipedia.org/wiki/Geology "Geology") that aims to determine the age of rocks). It is used primarily by [Earth scientists](https://en.m.wikipedia.org/wiki/Earth_science "Earth science") (including [geologists](https://en.m.wikipedia.org/wiki/Geologist "Geologist"), [paleontologists](https://en.m.wikipedia.org/wiki/Paleontology "Paleontology"), [geophysicists](https://en.m.wikipedia.org/wiki/Geophysics "Geophysics"), [geochemists](https://en.m.wikipedia.org/wiki/Geochemistry "Geochemistry"), and [paleoclimatologists](https://en.m.wikipedia.org/wiki/Paleoclimatology "Paleoclimatology")) to describe the timing and relationships of events in geologic history. The time scale has been developed through the study of rock layers and the observation of their relationships and identifying features such as [lithologies](https://en.m.wikipedia.org/wiki/Lithology "Lithology"), [paleomagnetic](https://en.m.wikipedia.org/wiki/Paleomagnetism "Paleomagnetism") properties, and [fossils](https://en.m.wikipedia.org/wiki/Fossil "Fossil"). The definition of standardised international units of geological time is the responsibility of the [International Commission on Stratigraphy](https://en.m.wikipedia.org/wiki/International_Commission_on_Stratigraphy "International Commission on Stratigraphy") (ICS), a constituent body of the [International Union of Geological Sciences](https://en.m.wikipedia.org/wiki/International_Union_of_Geological_Sciences "International Union of Geological Sciences") (IUGS), whose primary objective[^ics_statutes-1] is to precisely define global chronostratigraphic units of the International Chronostratigraphic Chart (ICC)[^icc_cohen_2013-2] that are used to define divisions of geological time. The chronostratigraphic divisions are in turn used to define geochronologic units.[^icc_cohen_2013-2]
 
-![Geologic time scale proportionally represented as a log-spiral. The image also shows some notable events in Earth's history and the general evolution of life.](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Geologic_time_scale_-_spiral_-_ICS_colours_%28light%29_-_path_text.svg/330px-Geologic_time_scale_-_spiral_-_ICS_colours_%28light%29_-_path_text.svg.png)
+![[~/×/3602de91ea17d40261ca2cf01d8438e1_MD5.png]]
 
 The geologic time scale, proportionally represented as a [log-spiral](https://en.m.wikipedia.org/wiki/Logarithmic_spiral "Logarithmic spiral") with some major events in Earth's history. A [megaannus](https://en.m.wikipedia.org/wiki/Megaannus "Megaannus") (Ma) represents one million (10<sup>6</sup>) years.
 
@@ -168,17 +168,17 @@ Following on from Holmes, several *A Geological Time Scale* books were published
 
 The following five timelines show the geologic time scale to scale. The first shows the entire time from the formation of Earth to the present, but this gives little space for the most recent eon. The second timeline shows an expanded view of the most recent eon. In a similar way, the most recent era is expanded in the third timeline, the most recent period is expanded in the fourth timeline, and the most recent epoch is expanded in the fifth timeline.
 
-![](https://upload.wikimedia.org/wikipedia/en/timeline/7fpe0eimwt1x3pyv7f0gdzaqm887ixm.png)
+![[~/×/489d3115b61ef51c3d25214631c91423_MD5.png]]
 
-![](https://upload.wikimedia.org/wikipedia/en/timeline/1p7ranz6q1y5dxkzdb8huwzb327mxrf.png)
+![[~/×/9eac3d7bc2ae145bf5ee276072256149_MD5.png]]
 
-![](https://upload.wikimedia.org/wikipedia/en/timeline/gulzqjw1x4uvqz9lenmf2nuz0ptfg82.png)
+![[~/×/b70841040e621beed4e4dc0e33b4f2f3_MD5.png]]
 
-![](https://upload.wikimedia.org/wikipedia/en/timeline/o148ko038imue7clp0z9q0kiq4p4xca.png)
+![[~/×/52fc2b8280550d8b5d398cf0a30da36e_MD5.png]]
 
 (Horizontal scale is millions of years for the above timelines; thousands of years for the timeline below)
 
-![](https://upload.wikimedia.org/wikipedia/en/timeline/lxc2g51p3uio18i50e3mbdw0jmbt07d.png)
+![[~/×/d02e8fa59bc9bd196eb655486d32f114_MD5.png]]
 
 ## Major proposed revisions to the ICC
 
@@ -215,11 +215,11 @@ An international working group of the ICS on pre-Cryogenian chronostratigraphic 
 
 Proposed pre-Cambrian timeline (Shield et al. 2021, ICS working group on pre-Cryogenian chronostratigraphy), shown to scale:[^kratian-80]
 
-![](https://upload.wikimedia.org/wikipedia/en/timeline/l5zd2j9hyfau3v6kr4b0e4yc6n0opnw.png)
+![[~/×/18a34c8dba3398f3ded4ca5cbf092af2_MD5.png]]
 
 ICC pre-Cambrian timeline (v2024/12, current as of January 2025<sup class="plainlinks noexcerpt noprint asof-tag update"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Geologic_time_scale&amp;action=edit">[update]</a></sup>), shown to scale:
 
-![](https://upload.wikimedia.org/wikipedia/en/timeline/cyl1j66bxvwxvpd90zb7ebvuax1gowz.png)
+![[~/×/6e724ec92b63d7b5fc2cc254b17dbcc0_MD5.png]]
 
 #### Van Kranendonk et al. 2012 (GTS2012)
 
@@ -248,11 +248,11 @@ The book, *Geologic Time Scale 2012,* was the last commercial publication of an 
 
 Proposed pre-Cambrian timeline (GTS2012), shown to scale:
 
-![](https://upload.wikimedia.org/wikipedia/en/timeline/re6wppnru9dvts0bl42x31dwoj904o2.png)
+![[~/×/583e2bae5f29a0fc434a8c962578dc9c_MD5.png]]
 
 ICC pre-Cambrian timeline (v2024/12, current as of January 2025<sup class="plainlinks noexcerpt noprint asof-tag update"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Geologic_time_scale&amp;action=edit">[update]</a></sup>), shown to scale:
 
-![](https://upload.wikimedia.org/wikipedia/en/timeline/rdfx6nfh1awecg2ap9k34vl2syzv0vh.png)
+![[~/×/d5f5fe8ea24e3ff5b1980819de450e93_MD5.png]]
 
 ## Table of geologic time
 
@@ -268,7 +268,7 @@ Some other [planets](https://en.m.wikipedia.org/wiki/Planet#Solar_System "Planet
 
 The [geologic history](https://en.m.wikipedia.org/wiki/Geology_of_the_Moon "Geology of the Moon") of Earth's Moon has been divided into a time scale based on [geomorphological](https://en.m.wikipedia.org/wiki/Geomorphology "Geomorphology") markers, namely [impact cratering](https://en.m.wikipedia.org/wiki/Impact_crater "Impact crater"), [volcanism](https://en.m.wikipedia.org/wiki/Volcanism "Volcanism"), and [erosion](https://en.m.wikipedia.org/wiki/Erosion "Erosion"). This process of dividing the Moon's history in this manner means that the time scale boundaries do not imply fundamental changes in geological processes, unlike Earth's geologic time scale. Five geologic systems/periods ([Pre-Nectarian](https://en.m.wikipedia.org/wiki/Pre-Nectarian "Pre-Nectarian"), [Nectarian](https://en.m.wikipedia.org/wiki/Nectarian "Nectarian"), [Imbrian](https://en.m.wikipedia.org/wiki/Imbrian "Imbrian"), [Eratosthenian](https://en.m.wikipedia.org/wiki/Eratosthenian "Eratosthenian"), [Copernican](https://en.m.wikipedia.org/wiki/Copernican_period "Copernican period")), with the Imbrian divided into two series/epochs (Early and Late) were defined in the latest Lunar geologic time scale.[^wilhelms_1987-115] The Moon is unique in the Solar System in that it is the only other body from which humans have rock samples with a known geological context.
 
-![](https://upload.wikimedia.org/wikipedia/en/timeline/rqgvwx9mhj95lj57eva0a98t8ypxloi.png)
+![[~/×/210a46ea37457a8af8dc153771b2233d_MD5.png]]
 
 Millions of years before present
 
@@ -276,17 +276,17 @@ Millions of years before present
 
 The [geological history of Mars](https://en.m.wikipedia.org/wiki/Geological_history_of_Mars "Geological history of Mars") has been divided into two alternate time scales. The first time scale for Mars was developed by studying the impact crater densities on the Martian surface. Through this method four periods have been defined, the Pre-Noachian (~4,500–4,100 Ma), Noachian (~4,100–3,700 Ma), Hesperian (~3,700–3,000 Ma), and Amazonian (~3,000 Ma to present).[^tanaka_1986-116][^carr_2010-117]
 
-![](https://upload.wikimedia.org/wikipedia/en/timeline/qet6aufoz6py1mu8mqq7qxqakgkq7df.png)
+![[~/×/0eb7f4f45a632a6e78babad41a86e45e_MD5.png]]
 
 Martian time periods (millions of years ago)
 
 Epochs:
 
-![](https://upload.wikimedia.org/wikipedia/en/timeline/l9mdbu2kk36h4dwzxwhwkvq47h8t0cb.png)
+![[~/×/416e3e10b6a18a22e47f36786313dbcc_MD5.png]]
 
 A second time scale based on mineral alteration observed by the OMEGA [spectrometer](https://en.m.wikipedia.org/wiki/Spectrometer "Spectrometer") on board the [Mars Express](https://en.m.wikipedia.org/wiki/Mars_Express "Mars Express"). Using this method, three periods were defined, the Phyllocian (~4,500–4,000 Ma), Theiikian (~4,000–3,500 Ma), and Siderikian (~3,500 Ma to present).[^bibring_2006-118]
 
-![](https://upload.wikimedia.org/wikipedia/en/timeline/ell5m8tawqvpfmeygbgb4dgf8bskzpu.png)
+![[~/×/34fa2778905ed61bf1e64193f02608c6_MD5.png]]
 
 - [Age of the Earth](https://en.m.wikipedia.org/wiki/Age_of_the_Earth "Age of the Earth")
 - [Cosmic calendar](https://en.m.wikipedia.org/wiki/Cosmic_calendar "Cosmic calendar")

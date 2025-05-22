@@ -16,7 +16,7 @@ answered Sep 26, 2013 at 13:35
 
 [
 
-![zwets's user avatar](https://i.sstatic.net/7e0KN.jpg?s=64)
+![[~/×/98df686c48c9522f93ace494b24e4919_MD5.jpg]]
 
 ](https://askubuntu.com/users/134479/zwets)
 
@@ -78,7 +78,7 @@ answered Sep 12, 2015 at 16:11
 
 [
 
-![PHP Learner's user avatar](https://www.gravatar.com/avatar/162c23412dd615fa632ffb2ec0f24647?s=64&d=identicon&r=PG)
+![[~/×/df48694af166ac3c9a3d77d3931eda44_MD5.png]]
 
 ](https://askubuntu.com/users/180452/php-learner)
 
@@ -122,7 +122,7 @@ answered May 30, 2014 at 11:18
 
 [
 
-![some_other_guy's user avatar](https://www.gravatar.com/avatar/bacf1ef3e9bdacd4eeaee05b0eff9335?s=64&d=identicon&r=PG)
+![[~/×/e342bd089bbbddbd4b86ed39760d1d4c_MD5.jpg]]
 
 ](https://askubuntu.com/users/83900/some-other-guy)
 
@@ -192,7 +192,7 @@ Follow this answer to receive notifications
 
 [
 
-![Zanna's user avatar](https://i.sstatic.net/hv0DE.jpg?s=64)
+![[~/×/e563e72dd9b13a0af1000593200828eb_MD5.jpg]]
 
 ](https://askubuntu.com/users/527764/zanna)
 
@@ -204,7 +204,7 @@ answered Mar 31, 2022 at 17:51
 
 [
 
-![Zac Helmberger's user avatar](https://www.gravatar.com/avatar/f3f60d1d778dbe77c95c0529c3afa566?s=64&d=identicon&r=PG&f=y&so-version=2)
+![[~/×/6563087fbf3b901b481f7d839183af59_MD5.png]]
 
 ](https://askubuntu.com/users/935748/zac-helmberger)
 

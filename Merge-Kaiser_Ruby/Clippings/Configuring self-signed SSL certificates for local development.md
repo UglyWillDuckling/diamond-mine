@@ -126,7 +126,7 @@ Note: Firefox support is not available on your platform. ℹ️
 
 You should see a popup like the one below. Click "Yes" to install the CA on the Windows 10 host.
 
-[![You are about to install a certificate from a root authority (CA) claiming to represent...](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv2hz8zfah5yyada0315a.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv2hz8zfah5yyada0315a.png)
+[![[~/×/95aef4d2d1cf4c70922e6f00c6cfa173_MD5.png]]](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv2hz8zfah5yyada0315a.png)
 
 ## Firefox on Windows
 
@@ -134,11 +134,11 @@ After that's installed let's fix Firefox so it doesn't complain that our certs a
 
 To do that open the Firefox browser and navigate to the settings and search for certificates:
 
-[![Firefox search results for ](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0xazor0f4x4le2ig307x.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0xazor0f4x4le2ig307x.png)
+[![[~/×/e0c59dd367b7cedcdc0e745e11366bcf_MD5.png]]](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0xazor0f4x4le2ig307x.png)
 
 Click on "View Certificates"
 
-[![Firefox certificates manager](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fp0hlgkrdhfk80fyhsulu.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fp0hlgkrdhfk80fyhsulu.png)
+[![[~/×/0fdfd13d7f00f2c21a8438316af30a91_MD5.png]]](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fp0hlgkrdhfk80fyhsulu.png)
 
 Next click on "Import". We want to locate the root CA from our Linux instance. Mine was located here but yours will be different depending on your WSL2 linux distro:  
 
@@ -150,18 +150,18 @@ Next click on "Import". We want to locate the root CA from our Linux instance. M
 
 Once installed you will see your local CA in the list of Authorities:
 
-[![Firefox certificates manager - authorities tab](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy6lct97yq808lzngm08k.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy6lct97yq808lzngm08k.png)
+[![[~/×/e030c4a82f180839e171e676dc292277_MD5.png]]](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy6lct97yq808lzngm08k.png)
 
 Now if we visit our local development server in Firefox on our Windows host we should see the page load without any warnings.
 
 ### Firefox
 
-[![Firefox web browser localhost:5000 over HTTPS with no warnings](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3vm22ysnuuscbhw09o5m.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3vm22ysnuuscbhw09o5m.png)
+[![[~/×/1bf8dcd8b6a63067fc16d7b8eb02f9b9_MD5.png]]](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3vm22ysnuuscbhw09o5m.png)
 
 ### Edge
 
-[![Edge web browser localhost:5000 over HTTPS with no warnings](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fh599gtlytiui4abn615w.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fh599gtlytiui4abn615w.png)
+[![[~/×/292834aad60684d6de1d1b2484b9eea5_MD5.png]]](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fh599gtlytiui4abn615w.png)
 
 ### Chrome
 
-[![Chrome web browser localhost:5000 over HTTPS with no warnings](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fajt668c0qgm2sp4frsnn.png)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fajt668c0qgm2sp4frsnn.png)
+[![[~/×/fcd72863323a7e6ab0bce4d4f321f5da_MD5.png]]](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fajt668c0qgm2sp4frsnn.png)

@@ -5,13 +5,13 @@ published:
 created: 2025-03-07
 tags:
 ---
-![](https://jockantv.com/wpimages/wpde413a4f_06.png) ![](https://jockantv.com/wpimages/logo_veliki.png) ![](https://jockantv.com/images/screen-tv.png)
+![[~/×/ed08b5cd7d59846eb0f98448fdccdd12_MD5.png]] ![[~/×/37b3518d10b8b9b39b163f3acd90a4e3_MD5.png]] ![[~/×/4db4f68d58004449cb169910cee3c6cf_MD5.png]]
 
 [Početna](https://jockantv.com/) [Sinkronizirani crtići](https://jockantv.com/sinkronizirani-crtici.html) [Strani crtići](https://jockantv.com/strani-crtici.html) [3D crtići](https://jockantv.com/3d-crtici.html) [Filmovi za Djecu](https://jockantv.com/filmovi-za-djecu.html) [Popis crtića](https://jockantv.com/sinkronizirani-crtici/popis-crtica.html)
 
 REKLAME u playeru nisu postavljene od strane jockantv-a,nego su iste postavljene od strane video hostinga (openload, streamango. itd...).Niti jedan video sadržaj se NE nalazi na ovom web hostingu,nego su preuzeti od strane video hostinga embed kodom,te zbog toga ne odgovaramo za kršenje autorskih prava!!!
 
-![](https://jockantv.com/wpimages/no_signal.gif)
+![[~/×/07d11b7d15d9e7e494ddeca4a134afe8_MD5.gif]]
 
 [Ne radi - prijavi](http://jockantv.com/ne-radi-prijavi.html)
 
@@ -19,7 +19,7 @@ Digimoni,
 
 Digimoni (SR)
 
-![](https://jockantv.com/wpimages/wpeb09a569_06.png)
+![[~/×/0c14a6fc7381bcacd8b7a6bb431df63e_MD5.png]]
 
 1.sezona
 
@@ -131,7 +131,7 @@ Digimoni (SR)
 
 [53](https://estream.to/embed-j8o3nisib97j.html "Digimoni_S01_Avanture_01_-_53")
 
-![](https://jockantv.com/wpimages/wp94172f1c_06.png)
+![[~/×/a11f0274b46b1785d83cd6c4da7d87e0_MD5.png]]
 
 2.sezona
 

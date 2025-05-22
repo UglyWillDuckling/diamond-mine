@@ -26,7 +26,7 @@ Picasso worked somewhat dispassionately from January until late April on the pro
 
 ### Bombing of 26 April 1937
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bundesarchiv_Bild_183-H25224%2C_Guernica%2C_Ruinen.jpg/220px-Bundesarchiv_Bild_183-H25224%2C_Guernica%2C_Ruinen.jpg)
+![[~/×/c0c209fc93ad69282623a83418ef9e46_MD5.jpg]]
 
 Guernica in ruins, 1937
 
@@ -38,7 +38,7 @@ Monday was Guernica's market day, and since most of its men were away fighting o
 
 Guernica, the capital of [Biscay](https://en.m.wikipedia.org/wiki/Biscay "Biscay"), was 10 kilometers from the front lines and in-between the front lines and Bilbao. A Republican retreat towards Bilbao, or an advance towards it, had to pass through Guernica.[^14] Richthofen's 26 April 1937 diary entry states the town was targeted "...to halt and disrupt the Red withdrawal which has to pass through here." The following day, Richthofen wrote in his diary, "Guernica burning".[^beevor233-15] The nearest miliary target, a war product factory on Guernica's outskirts, went through the attack unscathed, so the attack was widely condemned as a terror bombing.[^16][^17]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/El_poblado_de_Guernica_en_ruinas_tras_el_bombardeo.jpg/300px-El_poblado_de_Guernica_en_ruinas_tras_el_bombardeo.jpg)
+![[~/×/ec8d2a130a7d4a51f2689cc7998b49f9_MD5.jpg]]
 
 Damage sustained during the air attack
 
@@ -62,7 +62,7 @@ As early as 1968, Franco had expressed an interest in having *Guernica* come to 
 
 Upon its arrival in Spain in September 1981,[^uned-51] it was first displayed behind bomb-and bullet-proof glass screens[^52] at the [Casón del Buen Retiro](https://en.m.wikipedia.org/wiki/Cas%C3%B3n_del_Buen_Retiro "Casón del Buen Retiro") in Madrid in time to celebrate the centenary of Picasso's birth, 25 October.[^uned-51] The exhibition was visited by almost a million people in the first year.[^53] Since that time there has never been any attempted vandalism or other security threat to the painting.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Mural_del_Gernika.jpg/220px-Mural_del_Gernika.jpg)
+![[~/×/beff4978631e42ab01bcd0156af63c80_MD5.jpg]]
 
 A tiled wall in Gernika claims *"Guernica" Gernikara*, "The *Guernica* (painting) to Gernika"
 

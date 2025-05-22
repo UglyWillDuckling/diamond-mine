@@ -10,7 +10,7 @@ tags:
 related:
   - "[[Atlas/Tools/obsidian/plugins/Tasks plugin/Tasks plugin]]"
 ---
-![icon](https://publish.obsidian.md/favicon.ico?2f00d8412bad8f37975c)
+![[~/×/86cb6957b34a2e7956808e34a1f55c1e_MD5.ico]]
 
 ## Contents
 
@@ -1348,7 +1348,7 @@ filter by function \
 - **or** their preceding heading contains the text `#context/home` anywhere.
 - For demonstration purposes, this is slightly imprecise, in that it would also match nested tasks, such as `#context/home/ground-floor`.
 
-![Custom filters can extract dates and tags from headings](https://publish-01.obsidian.md/access/40e62a316a834ff6f495ebf1d122cae6/images/search-headings-for-date-and-tag.png)
+![[~/×/95f12863fc4accb8f86f07586619f560_MD5.png]]
 
 Custom filters can extract dates and tags from headings.
 

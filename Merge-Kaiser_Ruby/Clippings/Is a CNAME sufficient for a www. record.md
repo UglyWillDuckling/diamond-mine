@@ -15,7 +15,7 @@ related:
   - "[[A Record]]"
   - "[[www record]]"
 ---
-![icon](https://cdn.sstatic.net/Sites/serverfault/Img/favicon.ico?v=18e9cc4f2aea)
+![[~/×/4d08bd0854926f79ff184d21edd4a628_MD5.ico]]
 
 The reason the error is being flagged is because A records resolve quicker than CNAMEs since they only require a single lookup. So it is generally considered best practices to use A records for both your naked domain as well as the www subdomain (especially if the www subdomain is canonical).
 

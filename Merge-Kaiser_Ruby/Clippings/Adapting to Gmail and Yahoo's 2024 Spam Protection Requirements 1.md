@@ -17,7 +17,7 @@ The urgency of adapting to these new standards is underscored by alarming spam s
 
 In 2022, around 49% of email traffic was identified as spam, according to [Statista](https://www.statista.com/statistics/420391/spam-email-traffic-share/#:~:text=Spam%20messages%20accounted%20for%20over,mails%20originating%20from%20the%20country.). This staggering figure highlights the necessity for stricter email protocols. Gmail and Yahoo’s initiative in this direction is more than a policy update; it’s a proactive step towards creating a more secure, [spam-free email ecosystem](https://unspam.email/articles/avoid-spam-traps-blacklists/). 
 
-![Adapting to Gmail and Yahoo's 2024 Spam Protection Requirements](https://unspam.email/articles/wp-content/uploads/2023/12/image13.jpg)
+![[~/×/d30c9d8055ccf76f4e4d82cfd0360b25_MD5.jpg]]
 
 For email senders, it’s a clear call to action: adapt to these changes or risk falling behind in an increasingly secure digital world.
 
@@ -99,7 +99,7 @@ Here’s a detailed [guide on DMARC](https://unspam.email/articles/dmarc/).
 
 ### Include Unsubscribe Options in Emails
 
-![Unsubscribe button](https://unspam.email/articles/wp-content/uploads/2023/12/image11.jpg)
+![[~/×/729fe61c57bdfddd8233f59a0a8554c3_MD5.jpg]]
 
 Incorporating unsubscribe options in your emails is a crucial component of the new requirements. Here’s how to ensure your emails contain these options effectively:
 
@@ -111,7 +111,7 @@ Incorporating unsubscribe options in your emails is a crucial component of the n
 
 **Adding a List-Unsubscribe Header**
 
-![One-click unsubscribe button](https://unspam.email/articles/wp-content/uploads/2023/12/image5.jpg)
+![[~/×/7b36b4bc83b5c5fca339990129b5ffa7_MD5.jpg]]
 
 - Alongside the one-click unsubscribe link, it’s important to incorporate a [List-Unsubscribe](https://unspam.email/articles/list-unsubscribe-header/) header in your emails. This header allows email recipients to easily opt out from your mailing list directly from their email client interface.
 - If you are using a platform like Journeys, which has default unsubscribe functionality, this header is usually included automatically.
@@ -145,7 +145,7 @@ By following these steps, email senders can significantly enhance their complian
 
 ## Impact Of the New Spam Protection Requirements on Bulk Email Senders
 
-![New Spam Protection Requirements on Bulk Email Senders](https://unspam.email/articles/wp-content/uploads/2023/12/image8.jpg)
+![[~/×/b91745b46964171ee312ee7456022301_MD5.jpg]]
 
 The updated requirements from Gmail and Yahoo have particular implications for bulk email senders, especially those dispatching **over 5,000 emails daily**. 
 
@@ -177,7 +177,7 @@ This consistency in the sending domain, coupled with authentication protocols, m
 
 ### Strategies for Amazon SES Customers
 
-![Strategies for Amazon SES Customers](https://unspam.email/articles/wp-content/uploads/2023/12/image3.jpg)
+![[~/×/3c8608c51b80676758cb27cab400933f_MD5.jpg]]
 
 [Amazon Simple Email Service](https://aws.amazon.com/ses/) (SES) customers should move towards using verified domain identities, rather than just email address identities, for sending emails. This aids in aligning DKIM signatures with the sending domain.
 
@@ -205,19 +205,19 @@ Here are some tools we recommend:
 
 - **Google Analytics:** Offers [detailed insights](https://marketingplatform.google.com/about/analytics/) into how recipients interact with your emails, including tracking conversions from email campaigns.
 
-![Monitoring and Managing Email Reputation](https://unspam.email/articles/wp-content/uploads/2023/12/image12.jpg)
+![[~/×/edeaa06b86f0ce26d64a59c56c052253_MD5.jpg]]
 
 - **Mailchimp:** Provides user-friendly analytics with visual reports on open rates, click-throughs, and subscriber activity, ideal for small to medium-sized businesses.
 
-![Mailchimp](https://unspam.email/articles/wp-content/uploads/2023/12/image4.jpg)
+![[~/×/d8519ff943907c2c8bc28427f4994ef4_MD5.jpg]]
 
 - **HubSpot:** Integrates email analytics with CRM data, offering a comprehensive view of how email campaigns influence customer behavior and sales.
 
-![HubSpot](https://unspam.email/articles/wp-content/uploads/2023/12/image2.jpg)
+![[~/×/4972a0667d67f65032d4b11215147af9_MD5.jpg]]
 
 - **SendGrid:** Features real-time analytics with detailed reports on deliverability, engagement, and ISP responses, making it ideal for high-volume senders.
 
-![SendGrid](https://unspam.email/articles/wp-content/uploads/2023/12/image7.jpg)
+![[~/×/bdd635389a1182a73669da2e5ff99738_MD5.jpg]]
 
 ### 2\. Feedback Loops
 
@@ -225,7 +225,7 @@ Set up feedback loops with major ISPs. This service informs senders when recipie
 
 ### 3\. Regular A/B Testing
 
-![AB Test](https://unspam.email/articles/wp-content/uploads/2023/12/image10.jpg)
+![[~/×/0bc9861496c568be6bc7501eab73d664_MD5.jpg]]
 
 Conduct A/B testing on various elements of your emails (like subject lines, content, and send times) to determine what resonates best with your audience and minimizes spam complaints.
 
@@ -235,7 +235,7 @@ For businesses sending different types of emails (transactional, promotional, et
 
 Incorporating a tool like Alfred by Email Industries in this process can significantly streamline the task of email list cleaning and verification. 
 
-![Alfred email verification](https://unspam.email/articles/wp-content/uploads/2023/12/image1.jpg)
+![[~/×/77d85be1599e7cb289d8aff07f5c648b_MD5.jpg]]
 
 Regularly clean your email list using Alfred’s advanced threat detection and validation services to remove inactive or unengaged subscribers. This practice helps in maintaining a healthy sender reputation and reduces the risk of spam complaints. 
 
@@ -247,7 +247,7 @@ Here’s how you can utilize these tools to modify your email marketing strategi
 
 [Google Postmaster Tools](https://www.gmail.com/postmaster/) provide critical insights into various metrics such as spam rate, domain reputation, and feedback loop results for [emails sent to Gmail addresses](https://unspam.email/articles/fix-email-deliverability-gmail/). 
 
-![Google Postmaster Tools](https://unspam.email/articles/wp-content/uploads/2023/12/image9.jpg)
+![[~/×/35cad68a5c0471c16126566b5d3fd79c_MD5.jpg]]
 
 Regularly reviewing these metrics allows senders to adjust their strategies in real-time, ensuring better inbox placement and reduced spam complaints.
 
@@ -275,7 +275,7 @@ Implementing changes gradually over the next few months can help organizations a
 
 Utilize tools like [Designmodo’s Postcards](https://designmodo.com/postcards/), an intuitive email builder, to effortlessly integrate these elements into your [email templates](https://designmodo.com/email-templates/). 
 
-![Designmodo's Postcards](https://unspam.email/articles/wp-content/uploads/2023/12/image6.jpg)
+![[~/×/d8d55e2fd405cae0d3fb98257f5635e3_MD5.jpg]]
 
 Postcards offers a user-friendly platform to customize your emails, ensuring they are not only compliant but also visually appealing and engaging for your audience.
 

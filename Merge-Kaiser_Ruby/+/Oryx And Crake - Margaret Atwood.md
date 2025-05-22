@@ -17,4 +17,4 @@ isbn13: 9780748113354
 isbn10: 0748113355
 ---
 
-![](http://books.google.com/books/content?id=NljT2Bn3Y-wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
+![[~/×/2690aa35d01ab5dab805897f9549da5b_MD5.jpg]]

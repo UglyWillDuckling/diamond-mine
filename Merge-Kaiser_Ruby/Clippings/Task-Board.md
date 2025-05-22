@@ -9,7 +9,7 @@ tags:
   - obsidian-plugin
 related:
 ---
-![icon|50](https://github.githubassets.com/favicons/favicon.svg)
+![[~/×/f60c2ee61a16073c5192c4c939b00a7b_MD5.svg|50]]
 
 ### **"Document your progress while completing your tasks"**
 
@@ -42,7 +42,7 @@ Join the forum top to share your thoughts, ideas or requests and hear from other
 
 > Since the plugin has not been published on Obsidian Marketplace, you can install it using BRAT. Follow these steps : [Install plugin using BRAT](https://tu2-atmanand.github.io/task-board-docs/docs/Installation/#method-2--using-brat-plugin).
 
-[![How to setup Task Board](https://github.com/tu2-atmanand/Task-Board/raw/main/assets/HowToSetupTaskBoard.gif)](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/HowToSetupTaskBoard.gif)
+[![[~/×/c040f19457896732c55ecb50087cadc4_MD5.gif|50]]](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/HowToSetupTaskBoard.gif)
 
 **Step 2 :** Open Task Board using the Icon from the right side Ribbon Icon Bar. There is also a command in the Command Pallet.
 
@@ -62,7 +62,7 @@ The task can have metadata like due date, time duration, tags, priority, etc sep
 
 Additionally, you can add multi-level sub-tasks and body description with images and files with the accepted format as explained in the docs. Following is an example of a task :
 
-[![An Complete task example](https://github.com/tu2-atmanand/Task-Board/raw/main/assets/TaskExample.png)](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/TaskExample.png)
+[![[~/×/b6fdb92842cc34c2d2efb5daafdc2d2e_MD5.png|50]]](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/TaskExample.png)
 
 ### Adding a Task
 
@@ -70,21 +70,21 @@ There are two way to add/show your task.
 
 **Obvious Method :** Your old way of adding a task, that is directly writing inside the markdow files. After you have written the content of the task switch you focus away from the editor, like click on the Task Board and your task will be directly added in the board. Provided you havent applied Scan Filters on that edited file.
 
-[![Adding New task using common method](https://github.com/tu2-atmanand/Task-Board/raw/main/assets/AddingNewTaskFromFile.gif)](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/AddingNewTaskFromFile.gif)
+[![[~/×/ec5dd74f98e798a589ab2d60456f4a0d_MD5.gif|50]]](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/AddingNewTaskFromFile.gif)
 
 **Using Command :** The plugin provides a command to open a `Add New Task` pop-up window to add task and many more functionalities directly using input elements. Assign a shortcut to this even more easier.
 
-[![Add New Task Command Pallete](https://github.com/tu2-atmanand/Task-Board/raw/main/assets/AddNewTaskCommandPallete.png)](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/AddNewTaskCommandPallete.png)
+[![[~/×/a3567e3efcefb48f3aeeef9a9e185fb8_MD5.png|50]]](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/AddNewTaskCommandPallete.png)
 
 ### Marking as Complete
 
-Marking a Task as complete from the board is real-time, as soon as you will mark or unmark the task, the changes will be instantly made in the parent markdown file. [![Realt Time changes for marking task complete](https://github.com/tu2-atmanand/Task-Board/raw/main/assets/MarkTaskComplete.gif)](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/MarkTaskComplete.gif)
+Marking a Task as complete from the board is real-time, as soon as you will mark or unmark the task, the changes will be instantly made in the parent markdown file. [![[~/×/4f2e656114ed4b00f192a0d227b4cfac_MD5.gif|50]]](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/MarkTaskComplete.gif)
 
 ### Editing a Task
 
 Edit task directly from the Edit Task Window. You can add different properties to the task, add more subTask, add or edit description to the task. And the changes will be return to the parent markdown file exactly the way you see it in the preview.
 
-[![Editing a Task Item](https://github.com/tu2-atmanand/Task-Board/raw/main/assets/EditTaskWindow.gif)](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/EditTaskWindow.gif)
+[![[~/×/c0d26b595ba1e71c3142963d91f6a3cd_MD5.gif|50]]](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/EditTaskWindow.gif)
 
 ### Deleting a Task
 
@@ -124,9 +124,9 @@ While development I took inspirations from CardBoard and Kanban plugin as well a
 
 A great effort of work has been put into this idea to make it happen. I created the plugin for personal use, but I believed it will surely help other to make their work easier in managing tasks and handling project. If you have got benefitted with this plugin, consider donating for further improvement of this idea.
 
-[![GitHub Sponsors](https://camo.githubusercontent.com/039160823b883a3d76adb934cbfd74c76ffdd1db2d151cf8626b25287d0a2f75/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73706f6e736f72732f7475322d61746d616e616e643f6c6162656c3d53706f6e736f72266c6f676f3d47697448756225323053706f6e736f7273267374796c653d666f722d7468652d6261646765)](https://github.com/sponsors/tu2-atmanand)
+[![[~/×/15346f8257cec0778219f8ce8ba03fc6_MD5.svg|50]]](https://github.com/sponsors/tu2-atmanand)
 
-[![](https://camo.githubusercontent.com/16b27bafcb1ef638c9055cf2d05244a72e4fc7649620f8526bd1f7018bff4e8a/68747470733a2f2f696d672e6275796d6561636f666665652e636f6d2f627574746f6e2d6170692f3f746578743d427579206d65206120626f6f6b26656d6f6a693df09f939626736c75673d7475325f61746d616e616e6426627574746f6e5f636f6c6f75723d42443546464626666f6e745f636f6c6f75723d66666666666626666f6e745f66616d696c793d436f6f6b6965266f75746c696e655f636f6c6f75723d30303030303026636f666665655f636f6c6f75723d464644443030)](https://www.buymeacoffee.com/tu2_atmanand)
+[![[~/×/bd6f687769761d81fd0e5ddb45d84ed1_MD5.svg|50]]](https://www.buymeacoffee.com/tu2_atmanand)
 
 ## License
 

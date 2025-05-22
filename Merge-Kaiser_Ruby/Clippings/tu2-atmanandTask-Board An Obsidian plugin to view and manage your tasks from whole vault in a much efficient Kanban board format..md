@@ -6,14 +6,14 @@ created: 2025-01-26
 tags:
 related:
 ---
-![icon|50](https://github.githubassets.com/favicons/favicon.svg)
+![[~/×/f60c2ee61a16073c5192c4c939b00a7b_MD5.svg|50]]
 
 ## **Task Board**
 
 ### **"Document your progress while completing your tasks"**
 
-[![GitHub star count](https://camo.githubusercontent.com/c921ac50ab9bf6ec357bd4103e2de03625094c12961d0ee38147b06da3b894ed/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f7475322d61746d616e616e642f5461736b2d426f6172643f636f6c6f72413d33363361346626636f6c6f72423d653061633030267374796c653d666f722d7468652d6261646765)](https://github.com/tu2-atmanand/Task-Board/stargazers) [![Open issues on GitHub](https://camo.githubusercontent.com/ef0b4a615d1b781d427de93d01adad91801bbac17e357b7b8db6f88f4b6066d1/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f7475322d61746d616e616e642f5461736b2d426f6172643f636f6c6f72413d33363361346626636f6c6f72423d653933313437267374796c653d666f722d7468652d6261646765)](https://github.com/tu2-atmanand/Task-Board/issues) [![List of contributors](https://camo.githubusercontent.com/1663f2e8dd631c53ad67ff7c3c3cea27573dc4cb43e2018e318b0b782d6f8fe1/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6e7472696275746f72732f7475322d61746d616e616e642f5461736b2d426f6172643f636f6c6f72413d33363361346626636f6c6f72423d303862393465267374796c653d666f722d7468652d6261646765)](https://github.com/tu2-atmanand/Task-Board/contributors)  
-[![](https://camo.githubusercontent.com/ed05f65dec27666d875878962f4fc248409c9cdb819f4241ee5dc2d06de74ef4/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f7363616d626965722e78797a2f6f6273696469616e2d656e64706f696e74732f7461736b2d626f6172642e6a736f6e267374796c653d666f722d7468652d626164676526636f6c6f72413d33363361346626636f6c6f72423d643533393834)](https://obsidian.md/plugins?id=task-board) [![GitHub Release](https://camo.githubusercontent.com/f4fb24172084d7bed42521ace3e07e9036cede808a4f8411ca8e3141375d83ff/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f7475322d61746d616e616e642f5461736b2d426f6172643f7374796c653d666f722d7468652d6261646765)](https://camo.githubusercontent.com/f4fb24172084d7bed42521ace3e07e9036cede808a4f8411ca8e3141375d83ff/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f7475322d61746d616e616e642f5461736b2d426f6172643f7374796c653d666f722d7468652d6261646765) [![GPL-3.0 license](https://camo.githubusercontent.com/9cf0d98730a2747751ac7f6022a0cd3c827dfd90e6445eec9cb34b3189af9d7c/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76312e7376673f7374796c653d666f722d7468652d6261646765266c6162656c3d4c6963656e7365266d6573736167653d47504c2d332e3026636f6c6f72413d33363361346626636f6c6f72423d623762646638)](https://github.com/tu2-atmanand/Task-Board/blob/main/LICENSE)
+[![[~/×/747df2995ed194da37a4469413b35a26_MD5.svg|50]]](https://github.com/tu2-atmanand/Task-Board/stargazers) [![[~/×/2f051f8a642f7d0673851afe92c6c535_MD5.svg|50]]](https://github.com/tu2-atmanand/Task-Board/issues) [![[~/×/5e6baab3488a2e4b9635a7155b133879_MD5.svg|50]]](https://github.com/tu2-atmanand/Task-Board/contributors)  
+[![[~/×/af370c318aa4a5a7cd4a8dbf778afe5a_MD5.svg|50]]](https://obsidian.md/plugins?id=task-board) [![[~/×/e72ae7d86eb482db313bb6b1948d9b64_MD5.svg|50]]](https://camo.githubusercontent.com/f4fb24172084d7bed42521ace3e07e9036cede808a4f8411ca8e3141375d83ff/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f7475322d61746d616e616e642f5461736b2d426f6172643f7374796c653d666f722d7468652d6261646765) [![[~/×/783c20f6d7ae965ad6b06c15f190b876_MD5.svg|50]]](https://github.com/tu2-atmanand/Task-Board/blob/main/LICENSE)
 
 An Obsidian plugin to view and manage all your tasks, throughout the vault in a much efficient Kanban board format.
 
@@ -44,7 +44,7 @@ Join the forum top to share your thoughts, ideas or requests and hear from other
 
 > Since the plugin has not been published on Obsidian Marketplace, you can install it using BRAT. Follow these steps : [Install plugin using BRAT](https://tu2-atmanand.github.io/task-board-docs/docs/Installation/#method-2--using-brat-plugin).
 
-[![How to setup Task Board](https://github.com/tu2-atmanand/Task-Board/raw/main/assets/HowToSetupTaskBoard.gif)](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/HowToSetupTaskBoard.gif)
+[![[~/×/c040f19457896732c55ecb50087cadc4_MD5.gif|50]]](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/HowToSetupTaskBoard.gif)
 
 **Step 2 :** Open Task Board using the Icon from the right side Ribbon Icon Bar. There is also a command in the Command Pallet.
 
@@ -64,7 +64,7 @@ The task can have metadata like due date, time duration, tags, priority, etc sep
 
 Additionally, you can add multi-level sub-tasks and body description with images and files with the accepted format as explained in the docs. Following is an example of a task :
 
-[![An Complete task example](https://github.com/tu2-atmanand/Task-Board/raw/main/assets/TaskExample.png)](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/TaskExample.png)
+[![[~/×/b6fdb92842cc34c2d2efb5daafdc2d2e_MD5.png|50]]](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/TaskExample.png)
 
 ### Adding a Task
 
@@ -72,21 +72,21 @@ There are two way to add/show your task.
 
 **Obvious Method :** Your old way of adding a task, that is directly writing inside the markdow files. After you have written the content of the task switch you focus away from the editor, like click on the Task Board and your task will be directly added in the board. Provided you havent applied Scan Filters on that edited file.
 
-[![Adding New task using common method](https://github.com/tu2-atmanand/Task-Board/raw/main/assets/AddingNewTaskFromFile.gif)](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/AddingNewTaskFromFile.gif)
+[![[~/×/ec5dd74f98e798a589ab2d60456f4a0d_MD5.gif|50]]](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/AddingNewTaskFromFile.gif)
 
 **Using Command :** The plugin provides a command to open a `Add New Task` pop-up window to add task and many more functionalities directly using input elements. Assign a shortcut to this even more easier.
 
-[![Add New Task Command Pallete](https://github.com/tu2-atmanand/Task-Board/raw/main/assets/AddNewTaskCommandPallete.png)](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/AddNewTaskCommandPallete.png)
+[![[~/×/a3567e3efcefb48f3aeeef9a9e185fb8_MD5.png|50]]](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/AddNewTaskCommandPallete.png)
 
 ### Marking as Complete
 
-Marking a Task as complete from the board is real-time, as soon as you will mark or unmark the task, the changes will be instantly made in the parent markdown file. [![Realt Time changes for marking task complete](https://github.com/tu2-atmanand/Task-Board/raw/main/assets/MarkTaskComplete.gif)](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/MarkTaskComplete.gif)
+Marking a Task as complete from the board is real-time, as soon as you will mark or unmark the task, the changes will be instantly made in the parent markdown file. [![[~/×/4f2e656114ed4b00f192a0d227b4cfac_MD5.gif|50]]](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/MarkTaskComplete.gif)
 
 ### Editing a Task
 
 Edit task directly from the Edit Task Window. You can add different properties to the task, add more subTask, add or edit description to the task. And the changes will be return to the parent markdown file exactly the way you see it in the preview.
 
-[![Editing a Task Item](https://github.com/tu2-atmanand/Task-Board/raw/main/assets/EditTaskWindow.gif)](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/EditTaskWindow.gif)
+[![[~/×/c0d26b595ba1e71c3142963d91f6a3cd_MD5.gif|50]]](https://github.com/tu2-atmanand/Task-Board/blob/main/assets/EditTaskWindow.gif)
 
 ### Deleting a Task
 
@@ -126,9 +126,9 @@ While development I took inspirations from CardBoard and Kanban plugin as well a
 
 A great effort of work has been put into this idea to make it happen. I created the plugin for personal use, but I believed it will surely help other to make their work easier in managing tasks and handling project. If you have got benefitted with this plugin, consider donating for further improvement of this idea.
 
-[![GitHub Sponsors](https://camo.githubusercontent.com/039160823b883a3d76adb934cbfd74c76ffdd1db2d151cf8626b25287d0a2f75/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73706f6e736f72732f7475322d61746d616e616e643f6c6162656c3d53706f6e736f72266c6f676f3d47697448756225323053706f6e736f7273267374796c653d666f722d7468652d6261646765)](https://github.com/sponsors/tu2-atmanand)
+[![[~/×/15346f8257cec0778219f8ce8ba03fc6_MD5.svg|50]]](https://github.com/sponsors/tu2-atmanand)
 
-[![](https://camo.githubusercontent.com/16b27bafcb1ef638c9055cf2d05244a72e4fc7649620f8526bd1f7018bff4e8a/68747470733a2f2f696d672e6275796d6561636f666665652e636f6d2f627574746f6e2d6170692f3f746578743d427579206d65206120626f6f6b26656d6f6a693df09f939626736c75673d7475325f61746d616e616e6426627574746f6e5f636f6c6f75723d42443546464626666f6e745f636f6c6f75723d66666666666626666f6e745f66616d696c793d436f6f6b6965266f75746c696e655f636f6c6f75723d30303030303026636f666665655f636f6c6f75723d464644443030)](https://www.buymeacoffee.com/tu2_atmanand)
+[![[~/×/bd6f687769761d81fd0e5ddb45d84ed1_MD5.svg|50]]](https://www.buymeacoffee.com/tu2_atmanand)
 
 ## License
 

@@ -13,7 +13,7 @@ related:
 
 **Member**
 
-![](https://bbs.archlinux.org/img/avatars/13473.gif?m=1572193442)
+![[~/×/c28be75c53ca916e16aea1cac781778a_MD5.gif]]
 
 Registered: 2007-11-20
 
@@ -118,7 +118,7 @@ syys 07 23:36:36 rocinante systemd-coredump[683]: [?] Process 662 (xdg-desktop-p
 
 **Member**
 
-![](https://bbs.archlinux.org/img/avatars/13473.gif?m=1572193442)
+![[~/×/c28be75c53ca916e16aea1cac781778a_MD5.gif]]
 
 Registered: 2007-11-20
 
@@ -144,7 +144,7 @@ orlfman wrote:
 
 > Thanks bitterhalt. Nice to know I am not the only one. It looks like xdg-desktop-portal itself is just broken. I'm getting the white theme look too with some apps that use xdg-desktop-portal to get system theme information.
 
-Righ now only way to fix this is to uninstall xdg-desktop-portal. But it is bit hard because I have installed Plasma-meta on my main system and xdg is in plasma-meta's group dependencies.  ![tongue](https://bbs.archlinux.org/img/smilies/tongue.png)
+Righ now only way to fix this is to uninstall xdg-desktop-portal. But it is bit hard because I have installed Plasma-meta on my main system and xdg is in plasma-meta's group dependencies.  ![[~/×/638fd3c7145beaf4fea07fa4157e7c68_MD5.png]]
 
 *Last edited by bitterhalt (2022-09-07 21:34:11)*
 
@@ -202,7 +202,7 @@ Thank you
 
 **Member**
 
-![](https://bbs.archlinux.org/img/avatars/13473.gif?m=1572193442)
+![[~/×/c28be75c53ca916e16aea1cac781778a_MD5.gif]]
 
 Registered: 2007-11-20
 
@@ -328,7 +328,7 @@ attishno1 wrote:
 > 
 > Alright. Then I guess I will wait for it and continue using Firefox as it is. The white light that comes everytime when I open the portal is really irritating me though.
 
-Let us now if it gets fixed at some point ![smile](https://bbs.archlinux.org/img/smilies/smile.png)
+Let us now if it gets fixed at some point ![[~/×/b3185421c2d2b702862cf10f5223e40f_MD5.png]]
 
 I just uninstalled it because I can't stand the white theme and I can live without flatpaks.
 
@@ -338,7 +338,7 @@ I just uninstalled it because I can't stand the white theme and I can live witho
 
 **Member**
 
-![](https://bbs.archlinux.org/img/avatars/13473.gif?m=1572193442)
+![[~/×/c28be75c53ca916e16aea1cac781778a_MD5.gif]]
 
 Registered: 2007-11-20
 
@@ -372,7 +372,7 @@ orlfman wrote:
 > 
 > i can confirm this is working for me as well. interesting enough, when i went to remove xdg-desktop-portal, it warned about firefox needing it. but firefox is working fine with just xdg-desktop-portal-kde. no more white theme, no more errors in journalctl.
 
-In my understanding Firefox only need that if you want to use KDE file picker instead of default GTK one and it is hidden setting called "widget.use-xdg-desktop-portal.file-picker" when you open advanced settings in Firefox  by typing: about:config ![smile](https://bbs.archlinux.org/img/smilies/smile.png)
+In my understanding Firefox only need that if you want to use KDE file picker instead of default GTK one and it is hidden setting called "widget.use-xdg-desktop-portal.file-picker" when you open advanced settings in Firefox  by typing: about:config ![[~/×/b3185421c2d2b702862cf10f5223e40f_MD5.png]]
 
 [https://wiki.archlinux.org/title/firefo … ntegration](https://wiki.archlinux.org/title/firefox#KDE_integration)
 
@@ -384,7 +384,7 @@ In my understanding Firefox only need that if you want to use KDE file picker in
 
 **Member**
 
-![](https://bbs.archlinux.org/img/avatars/137918.png?m=1656821115)
+![[~/×/83e972a602bd5bb52c4d46db5d8375b0_MD5.png]]
 
 Registered: 2021-08-11
 
@@ -400,7 +400,7 @@ Same problem here, KDE File Picker doesn't have the proper QT theme, same goes f
 
 **Member**
 
-![](https://bbs.archlinux.org/img/avatars/13473.gif?m=1572193442)
+![[~/×/c28be75c53ca916e16aea1cac781778a_MD5.gif]]
 
 Registered: 2007-11-20
 
@@ -418,7 +418,7 @@ bitterhalt wrote:
 > > 
 > > i can confirm this is working for me as well. interesting enough, when i went to remove xdg-desktop-portal, it warned about firefox needing it. but firefox is working fine with just xdg-desktop-portal-kde. no more white theme, no more errors in journalctl.
 > 
-> In my understanding Firefox only need that if you want to use KDE file picker instead of default GTK one and it is hidden setting called "widget.use-xdg-desktop-portal.file-picker" when you open advanced settings in Firefox  by typing: about:config ![smile](https://bbs.archlinux.org/img/smilies/smile.png)
+> In my understanding Firefox only need that if you want to use KDE file picker instead of default GTK one and it is hidden setting called "widget.use-xdg-desktop-portal.file-picker" when you open advanced settings in Firefox  by typing: about:config ![[~/×/b3185421c2d2b702862cf10f5223e40f_MD5.png]]
 > 
 > [https://wiki.archlinux.org/title/firefo … ntegration](https://wiki.archlinux.org/title/firefox#KDE_integration)
 
@@ -530,7 +530,7 @@ I Checked, and the only error I get is about xdg-desktop-portal, I don't really 
 
 **Forum Moderator**
 
-![](https://bbs.archlinux.org/img/avatars/64676.png?m=1572193435)
+![[~/×/603b1938b0e5b0963e291f45b23640ff_MD5.png]]
 
 Registered: 2012-10-16
 
@@ -580,7 +580,7 @@ Adding to this: If you append the command to the end of the .xinitrc file in you
 
 **Member**
 
-![](https://bbs.archlinux.org/img/avatars/13473.gif?m=1572193442)
+![[~/×/c28be75c53ca916e16aea1cac781778a_MD5.gif]]
 
 Registered: 2007-11-20
 

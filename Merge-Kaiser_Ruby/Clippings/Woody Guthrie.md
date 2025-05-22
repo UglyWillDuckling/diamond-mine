@@ -22,11 +22,11 @@ Throughout his life, Guthrie was associated with [United States communist](https
 
 Guthrie was married three times and fathered eight children. His son [Arlo Guthrie](https://en.m.wikipedia.org/wiki/Arlo_Guthrie "Arlo Guthrie") became nationally known as a musician. Guthrie died in 1967 from complications of [Huntington's disease](https://en.m.wikipedia.org/wiki/Huntington%27s_disease "Huntington's disease"). His first two daughters also died of the disease.
 
-![A white map of Oklahoma with a red dot in the center](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/OKMap-doton-Okemah.PNG/220px-OKMap-doton-Okemah.PNG)
+![[~/×/ca777fa420d9f9737bfde7702ab97936_MD5.png]]
 
 Okemah in Oklahoma
 
-![A simple house](https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Guthrie_house.jpg/220px-Guthrie_house.jpg)
+![[~/×/23b79f99c788ac08e19e944b0842e238_MD5.jpg]]
 
 Woody Guthrie's [Okfuskee County, Oklahoma](https://en.m.wikipedia.org/wiki/Okfuskee_County,_Oklahoma "Okfuskee County, Oklahoma"), childhood home as it appeared in 1979
 

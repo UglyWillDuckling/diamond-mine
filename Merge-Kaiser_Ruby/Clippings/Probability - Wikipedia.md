@@ -8,7 +8,7 @@ tags:
 ---
 **Probability** is a branch of [mathematics](https://en.m.wikipedia.org/wiki/Mathematics "Mathematics") and [statistics](https://en.m.wikipedia.org/wiki/Statistics "Statistics") concerning [events](https://en.m.wikipedia.org/wiki/Event_\(probability_theory\) "Event (probability theory)") and numerical descriptions of how likely they are to occur. The probability of an event is a number between 0 and 1; the larger the probability, the more likely an event is to occur.[^1][^stuart_and_ord_2009-2][^feller-3] This number is often expressed as a percentage (%), ranging from 0% to 100%. A simple example is the tossing of a fair (unbiased) coin. Since the coin is fair, the two outcomes ("heads" and "tails") are both equally probable; the probability of "heads" equals the probability of "tails"; and since no other outcomes are possible, the probability of either "heads" or "tails" is 1/2 (which could also be written as 0.5 or 50%).
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dice_Distribution_%28bar%29.svg/250px-Dice_Distribution_%28bar%29.svg.png)
+![[~/×/6bf1a5b5c12b4fe8b8ce838861002362_MD5.png]]
 
 The probabilities of rolling several numbers using two dice
 
@@ -22,7 +22,7 @@ There are other methods for quantifying uncertainty, such as the [Dempster–Sha
 
 ## Mathematical treatment
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Probability_vs_odds.svg/220px-Probability_vs_odds.svg.png)
+![[~/×/1bdd753e208879455d7632bcb5ba7c07_MD5.png]]
 
 Calculation of probability (risk) vs odds
 
@@ -40,7 +40,7 @@ If two events, *A* and *B* are [independent](https://en.m.wikipedia.org/wiki/Ind
 
 ${\displaystyle P(A{\mbox{ and }}B)=P(A\cap B)=P(A)P(B).}$ 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Independent_and_Non-independent_Probability_Events.jpg/220px-Independent_and_Non-independent_Probability_Events.jpg)
+![[~/×/1d934071f82ae75a54e28819557dd160_MD5.jpg]]
 
 Events A and B depicted as independent vs non-independent in space Ω
 

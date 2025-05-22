@@ -15,7 +15,7 @@ tags:
 
 *Isolated Warrior* received mostly positive reception from critics since its initial release; some drew comparison with *Zaxxon* due to the use of isometric projection, with praise being given to aspects such as the presentation, visuals and frenetic action, but other felt mixed in regards to the sound, difficulty and replay value, while common complaints were geared towards the amount of flickering that occurs when too many objects are present on-screen. Retrospective commentary has been mixed.
 
-![](https://upload.wikimedia.org/wikipedia/en/f/f7/NES_Isolated_Warrior_%28Max_Warrior_-_Wakusei_Kaigenrei%29.png)
+![[~/×/1c01fd7596c5c81e31695e3f5136e68e_MD5.png]]
 
 Gameplay screenshot of level 1
 

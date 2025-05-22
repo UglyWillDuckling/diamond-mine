@@ -19,7 +19,7 @@ While visiting Vienna in 1781, Mozart was dismissed from his Salzburg position. 
 
 ## Life and career
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Casa_natale_di_Mozart.jpg/180px-Casa_natale_di_Mozart.jpg)
+![[~/×/727e0447bd181a1bc081499dcb12a4ea_MD5.jpg]]
 
 Mozart's birthplace at Getreidegasse 9, Salzburg
 
@@ -27,7 +27,7 @@ Mozart's birthplace at Getreidegasse 9, Salzburg
 
 #### Family and childhood
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Wolfgang_Amadeus_Mozart_baptism_record.jpg/220px-Wolfgang_Amadeus_Mozart_baptism_record.jpg)
+![[~/×/a561d45c14c122829f544fae0d6c9d4a_MD5.jpg]]
 
 Baptismal record showing him as "Joannes Chrysostomus Wolfgangus Theophilus Mozart"
 
@@ -232,7 +232,7 @@ Although some of Mozart's early pieces were written for harpsichord, he also bec
 
 ## Influence
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Frankfurt%2C_Mozartdenkmal.jpg/170px-Frankfurt%2C_Mozartdenkmal.jpg)
+![[~/×/1e1d86dcb0208a6d04d6f418299fe429_MD5.jpg]]
 
 [Mozart Monument](https://en.m.wikipedia.org/w/index.php?title=Mozart_Monument,_Frankfurt&action=edit&redlink=1 "Mozart Monument, Frankfurt (page does not exist)") \[[de](https://de.wikipedia.org/wiki/Mozart-Denkmal_\(Frankfurt_am_Main\) "de:Mozart-Denkmal (Frankfurt am Main)")\], Mozartplatz, Frankfurt
 

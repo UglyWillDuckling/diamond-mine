@@ -35,7 +35,7 @@ When an email is sent, the sender’s MTA initiates a DNS query to identify the 
 
 Here is an example of an MX record configuration:
 
-![](https://mailtrap.io/wp-content/uploads/2023/04/DNS-MX-Records-Explained-05-1.png)
+![[~/×/6b4db8dec1fcc106df09552b8f28fdf0_MD5.png]]
 
 In this table representing MX records for “dummyserver.com”, we see two records with different priority values and mail hosts. The “priority” numbers in these MX records signify preference, with lower values being more preferred.
 

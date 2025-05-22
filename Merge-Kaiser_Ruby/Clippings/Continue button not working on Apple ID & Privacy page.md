@@ -14,11 +14,11 @@ favicon: https://www.reddit.com/favicon.ico
 related:
   - "[[reddit]]"
 ---
-![icon](https://www.reddit.com/favicon.ico)
+![[~/×/614c079ee9027b36ff086c8b2f5b3365_MD5.png]]
 
 I have a free six month trial for Apple Music and I decided to claim it today. While trying to claim it, I got a message saying I need to update my account by going to appleid.apple.com. As I was my account, I got to the "Apple ID & Privacy" page and when I try to press the continue button, nothing happens. I tried updating my account on the website and it was no good either. Any suggestions?
 
-![r/applehelp - Continue button not working on "Apple ID & Privacy" page](https://preview.redd.it/continue-button-not-working-on-apple-id-privacy-page-v0-jgxbu8ev7e1c1.png?width=640&crop=smart&auto=webp&s=ee7296eb19e955cef6b397074152c0dd5e8c3f8e)
+![[~/×/69c4d7a6627970b64309d57503a11711_MD5.png]]
 
 ---
 

@@ -6,11 +6,11 @@ created: 2025-04-08
 tags:
   - concept
 ---
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Foundation-l_word_cloud_without_headers_and_quotes.png/250px-Foundation-l_word_cloud_without_headers_and_quotes.png)
+![[~/×/e7e3d40d0b81b4ce7a0465b8c2c74503_MD5.png]]
 
 Tag cloud of a mailing list [^1]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Web_2.0_Map.svg/220px-Web_2.0_Map.svg.png)
+![[~/×/7afc805ae26532e7aee4e9c49f82d0d6_MD5.png]]
 
 A tag cloud with terms related to [Web 2.0](https://en.wikipedia.org/wiki/Web_2.0 "Web 2.0")
 
@@ -18,7 +18,7 @@ A **tag cloud** (also known as a **word cloud** or **weighted list** in visual d
 
 ## History
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Heidi_Paris_-_Tausend_Plateaus_-_Coverentwurf_1991.jpg/250px-Heidi_Paris_-_Tausend_Plateaus_-_Coverentwurf_1991.jpg)
+![[~/×/9f9728d4cc77eb66939de59b1e893307_MD5.jpg]]
 
 Heidi Paris: initial cover draft for the German edition of "A Thousand Plateaus" by Gilles Deleuze and Fèlix Guattari, dated Nov 14 1991
 
@@ -34,7 +34,7 @@ A second generation of software development discovered a wider diversity of uses
 
 ## Types
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Word_population_tagcloud_2011.png/220px-Word_population_tagcloud_2011.png)
+![[~/×/954dec8461a7c2cc90c20b8d6488df54_MD5.png]]
 
 A data cloud showing the population of each of the world's countries. Created in [R](https://en.wikipedia.org/wiki/R_\(programming_language\) "R (programming language)") with the *wordcloud* package, using data from [Country population](https://en.wikipedia.org/wiki/Country_population "Country population"). The proportional sizes of China and India were divided in half.
 
@@ -70,7 +70,7 @@ Tag cloud visual taxonomy is determined by a number of attributes: tag ordering 
 
 ## Data clouds
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Top_500_by_volume_on_the_NYSE.png/220px-Top_500_by_volume_on_the_NYSE.png)
+![[~/×/d50e95383fd6c705a30b3b7687ac4a39_MD5.png]]
 
 A data cloud showing stock price movement. Color indicates positive or negative change, font size indicates percentage change.
 
@@ -78,11 +78,11 @@ A **data cloud** or **cloud data** is a data display which uses font size and/or
 
 ## Text clouds
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/State_of_the_union_word_clouds.png/220px-State_of_the_union_word_clouds.png)
+![[~/×/f9f9b95c2d949a8481ff5a9b9482d541_MD5.png]]
 
 Text cloud comparing [2002 State of the Union Address](https://en.wikipedia.org/wiki/2002_State_of_the_Union_Address "2002 State of the Union Address") by U.S. President Bush and [2011 State of the Union Address](https://en.wikipedia.org/wiki/2011_State_of_the_Union_Address "2011 State of the Union Address") by President Obama [^22]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Malayalam_World_Cloud_with_Science_related_words_-BlueBackground.svg/220px-Malayalam_World_Cloud_with_Science_related_words_-BlueBackground.svg.png)
+![[~/×/6e831bad3dd9ee3786290299a26f118a_MD5.png]]
 
 Malayalam text cloud with science-related words
 
@@ -110,7 +110,7 @@ Felix et al.[^26] compared how human reading performance differs from traditiona
 
 ## Creation
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Wikipedia_Wordle_-_Top_1000_vital_article_hits.png/250px-Wikipedia_Wordle_-_Top_1000_vital_article_hits.png)
+![[~/×/35a4d8ebdfb5a17d996d8efa7956bd76_MD5.png]]
 
 Tag cloud constructed from Wikipedia's top 1000 vital articles sorted by number of views [^27]
 

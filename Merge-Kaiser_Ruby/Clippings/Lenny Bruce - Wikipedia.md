@@ -39,7 +39,7 @@ In the midst of a severe blizzard, Bruce gave a famous performance at [Carnegie 
 
 In August 1965, a year before his death, Bruce gave his penultimate performance at San Francisco's [Basin Street West](https://en.m.wikipedia.org/wiki/Basin_Street_West "Basin Street West"), mainly talking about his legal troubles. The filmed performance was released by Rhino Home Video in 1992 as *The Lenny Bruce Performance Film*.[^33]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Lenny_Bruce_arrest.jpg/170px-Lenny_Bruce_arrest.jpg)
+![[~/×/a6f44c195978c618e050062b6c365f3c_MD5.jpg]]
 
 Bruce at his arrest in 1961
 
@@ -59,7 +59,7 @@ In April 1964, he appeared twice at the [Cafe Au Go Go](https://en.m.wikipedia.o
 
 A three-judge panel presided over his widely publicized six-month trial, prosecuted by Manhattan Assistant District Attorney [Richard Kuh](https://en.m.wikipedia.org/wiki/Richard_Kuh "Richard Kuh"), with [Ephraim London](https://en.m.wikipedia.org/wiki/Ephraim_London "Ephraim London") and [Martin Garbus](https://en.m.wikipedia.org/wiki/Martin_Garbus "Martin Garbus") as the defense attorneys. Bruce and Howard Solomon were found guilty of obscenity on November 4, 1964. The conviction was announced despite positive testimony and petitions of support from—among other artists, writers and educators—[Woody Allen](https://en.m.wikipedia.org/wiki/Woody_Allen "Woody Allen"), [Bob Dylan](https://en.m.wikipedia.org/wiki/Bob_Dylan "Bob Dylan"), [Jules Feiffer](https://en.m.wikipedia.org/wiki/Jules_Feiffer "Jules Feiffer"), [Allen Ginsberg](https://en.m.wikipedia.org/wiki/Allen_Ginsberg "Allen Ginsberg"), [Norman Mailer](https://en.m.wikipedia.org/wiki/Norman_Mailer "Norman Mailer"), [William Styron](https://en.m.wikipedia.org/wiki/William_Styron "William Styron"), and [James Baldwin](https://en.m.wikipedia.org/wiki/James_Baldwin "James Baldwin"), and Manhattan journalist and television personality [Dorothy Kilgallen](https://en.m.wikipedia.org/wiki/Dorothy_Kilgallen "Dorothy Kilgallen") and [sociologist](https://en.m.wikipedia.org/wiki/Sociology "Sociology") [Herbert Gans](https://en.m.wikipedia.org/wiki/Herbert_J._Gans "Herbert J. Gans").[^51] Bruce was sentenced on December 21, 1964, to four months in a [workhouse](https://en.m.wikipedia.org/wiki/Penal_labor_in_the_United_States "Penal labor in the United States"); he was set free on bail during the appeals process and died before the appeal was decided. Solomon, the owner of the club where Lenny was arrested, later saw Bruce's conviction overturned.[^52]
 
-![](https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Lenny_Bruce_at_the_Fillmore.jpg/220px-Lenny_Bruce_at_the_Fillmore.jpg)
+![[~/×/2071b719efd0dfedd1002db97ca65789_MD5.jpg]]
 
 Poster for Bruce's last series of performances, which took place at [The Fillmore](https://en.m.wikipedia.org/wiki/The_Fillmore "The Fillmore") in San Francisco on June 24 and 25, 1966
 
@@ -77,7 +77,7 @@ At the request of Hefner and with the aid of [Paul Krassner](https://en.m.wikipe
 
 ## Death and posthumous pardon
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/LennyBruce_Grave.JPG/220px-LennyBruce_Grave.JPG)
+![[~/×/6ac742603e367149b89f00799c07defb_MD5.jpg]]
 
 Bruce's grave at [Eden Memorial Park Cemetery](https://en.m.wikipedia.org/wiki/Eden_Memorial_Park_Cemetery "Eden Memorial Park Cemetery") in [Mission Hills, California](https://en.m.wikipedia.org/wiki/Mission_Hills,_Los_Angeles "Mission Hills, Los Angeles")
 

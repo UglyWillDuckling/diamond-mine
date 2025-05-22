@@ -11,8 +11,7 @@ tags:
 ---
 Specifications
 
-[![Samsung Galaxy Note9
-MORE PICTURES](https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-note9-r1.jpg)](https://m.gsmarena.com/samsung_galaxy_note9-pictures-9163.php)
+[![[~/×/0e9ec791b9a1922d8ca96bc61f0f2b61_MD5.jpg]]](https://m.gsmarena.com/samsung_galaxy_note9-pictures-9163.php)
 
 - **6.4"** 1440x2960 pixels
 - **12MP** 2160p

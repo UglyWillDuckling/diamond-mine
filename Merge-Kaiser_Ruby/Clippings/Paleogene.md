@@ -7,7 +7,7 @@ tags:
 part of:
   - "[[Cenozoic]]"
 ---
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Mollweide_Paleographic_Map_of_Earth%2C_45_Ma_%28Lutetian_Age%29.png/1280px-Mollweide_Paleographic_Map_of_Earth%2C_45_Ma_%28Lutetian_Age%29.png)
+![[~/×/7af6d18488ccf0386c47a57833af150c_MD5.png]]
 
 
 The **Paleogene Period** ( [*PAY\-lee-ə-jeen, -⁠lee-oh-, PAL\-ee-*](https://en.m.wikipedia.org/wiki/Help:Pronunciation_respelling_key "Help:Pronunciation respelling key"); [also spelled](https://en.m.wikipedia.org/wiki/British_English "British English") **Palaeogene** or **Palæogene**) is a [geologic period and system](https://en.m.wikipedia.org/wiki/Geologic_period "Geologic period") that spans 43 million years from the end of the [Cretaceous](https://en.m.wikipedia.org/wiki/Cretaceous "Cretaceous") Period 66 [Ma](https://en.m.wikipedia.org/wiki/Megaannum "Megaannum") (million years ago) to the beginning of the [Neogene](https://en.m.wikipedia.org/wiki/Neogene "Neogene") Period 23.04 Ma. 

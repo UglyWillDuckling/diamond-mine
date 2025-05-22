@@ -8,7 +8,7 @@ tags:
   - unix
 related:
 ---
-![icon|50](https://manned.org/favicon.ico)
+![[~/×/fe44e80481b9f64f6fe71b9474861f65_MD5.ico|50]]
 
 **Sections**
 

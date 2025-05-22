@@ -23,7 +23,7 @@ ___
 
 ### Razine elektro-energetskog sustava
 
-![](https://i.imgur.com/Zpaz8Lf.png)
+![[~/×/fa8ba4b5199a472e6fbb10f1f6e62a12_MD5.png]]
 
 ## **Dovod** električne energije do potrošača 
 
@@ -34,7 +34,7 @@ ___
 Dosljedno provođenje suvremene tehničke regulative
 - električna energija je bezopasna
 
-![](https://i.imgur.com/M6J1guJ.png)
+![[~/×/d6fdacef6ddb0715e5ab71daa81d4215_MD5.png]]
 
 
 1. `Električna instalacija` - skup međusobno spojene **niskonaponske**
@@ -62,10 +62,10 @@ strujni krugovi od izvora struje do sabirnica, odnosno priključka za osigurač 
 - KPMO - kucni prikljucni mjerni ormaric
 
 1. podrucne (nadzemne)
-	![](https://i.imgur.com/IglFM2q.png)
+	![[~/×/f43e3ccb6292d5bf384530e6b4760397_MD5.png]]
 	
 2. gradske(kabelske)
-	![](https://i.imgur.com/J9aGzl9.png)
+	![[~/×/f7792bbbed0aacd927b570e72a82ccca_MD5.png]]
 
 ### Električna instalacija 
 
@@ -97,7 +97,7 @@ Na **težinu** ozljeđivanja električnom strujom utječu
 - jakost struje
 - trajanje prolaska struje kroz organizam
 
-![](https://i.imgur.com/uNDlRT2.png)
+![[~/×/fb1565b0c90912f1ffccff7f6743375c_MD5.png]]
 
 Dijagram se odnosi na izmjeničnu struju frekvencije 15-100 Hz te za put struje od lijeve ruke prema objema nogama.
 ### **Označena područja**
@@ -143,7 +143,7 @@ Napon dodira je napon između istodobno dostupnih vodljivih dijelova, odnosno na
 Odnos između dozvoljene struje kroz ljudsko tijelo i dozvoljenog napona dodira nije linearan.
 Tome je uzrok, prije svega, promjenljiva impedancija ljudskog tijela.
 
-![](https://i.imgur.com/h69CFSv.png)
+![[~/×/e14a45aa03bfd14598feb0fb3409272a_MD5.png]]
 > shema otpora ljudskog tijela
 
 Impedancija ljudskog tijela ovisi o:
@@ -173,13 +173,13 @@ U tom smislu može se na osnovi tablice i dijagrama zaključiti i upamtiti:
 	❑ u lošim uvjetima je granica opasnog dodirnog napona
 	**25 V** ∼(60 V -).
 
-![](https://i.imgur.com/tcH8Bx2.png)
+![[~/×/fe601a5ffd293824cfc982c79bfd220a_MD5.png]]
 > dijagram napona dodira, `L1 i L2` - normalni i losi uvjeti
 > 	`maksimumi` su **`25 i 50V`**
 
 #  GROMOBRANI I GROMOBRANSKE INSTALACIJE
 
-![](https://i.imgur.com/1GLlF4t.png)
+![[~/×/9eb6532687aa3b4590aed642e074a461_MD5.png]]
 
 ## Dijelovi zastite
 
@@ -222,7 +222,7 @@ Otpor rasprostiranja može biti stacionarni, udarni i valni. Udarni i valni otpo
 	- `Temeljni` - metalni vodiči postavljeni u temelje objekta i preko velike površine betona dolaze u kontakt sa okolnom zemljom
 • **mjerni spoj -** spoj za odvajanje instalacije na krovu od uzemljivača zbog određivanja otpora uzemljenja i provjere instalacije
 
-![](https://i.imgur.com/hmVvIey.png)
+![[~/×/2144f14f3da1994048e9f869315788d0_MD5.png]]
 
 
 `Izjednačenje` potencijala je **odstranjivanje razlike potencijala.** [^5]
@@ -240,7 +240,7 @@ $$ k = \frac{1}{2\pi l} * \ln\frac{{4}l}{d} $$
 Za `traku`
 $$ k = \frac{1}{2\pi l} * \ln\frac{{2}l^2}{hd}$$
 
-![](https://i.imgur.com/ucYOI4l.png)
+![[~/×/45e092901d2dfa553d2bb71295201712_MD5.png]]
 
 
 ## **Kvaliteta uzemljivača** (što niža otpornost) 
@@ -396,7 +396,7 @@ ohladi na temperaturu okoline.
 **Potrošačko postrojenje** - `skup` pogonskih sredstava u vlasništvu
 ili nadležnosti jednog potrošača (primjerice, `instalacija u stanu`).
 
-![](https://i.imgur.com/3h9XRCV.png)
+![[~/×/a1975698898deb833802a54793f1c0c6_MD5.png]]
 
 **Karakteristike** NN potrošačkog postrojenja:
 - Nazivni priključni napon
@@ -442,7 +442,7 @@ $$ m = \frac{W_{d}}{24P_{v}}$$
 $W_d$ - ukupno potrošena električna energija tijekom dana
  $P_{}v$ - vršno opterećenje
 
-![](https://i.imgur.com/mXrHliP.png) 
+![[~/×/023d27864dd54226b08e9e1b5a88ba38_MD5.png]] 
 > **dnevni** dijagram opterecenja
 
 
@@ -451,7 +451,7 @@ $W_d$ - ukupno potrošena električna energija tijekom dana
 Faktor potražnje fp određuje se za jedno potrošačko postrojenje ili grupu trošila.
 Slika prikazuje principijelnu spojnu shemu električne instalacije stana.
 
-![](https://i.imgur.com/Xn8QEb2.png)
+![[~/×/4de01a855ef1405c7f360ea22073ac94_MD5.png]]
 
 Sva trošila u domaćinstvu nisu nikada istovremenose može pisati:
 

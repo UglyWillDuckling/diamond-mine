@@ -8,7 +8,7 @@ description: "Century Classic Medalist Tehnička Olovka"
 tags:
   - "clippings"
 ---
-- [![en](https://darvel.hr/pub/static/frontend/GaussDev/darvel/hr_HR/images/flags/en.png)EN](https://darvel.hr/catalog/product/view/id/899/s/century-classic-medalist-tehnicka-olovka/category/56/#)
+- [![[~/×/8a8a54555328a1b7fd607275bf7574a2_MD5.png]]EN](https://darvel.hr/catalog/product/view/id/899/s/century-classic-medalist-tehnicka-olovka/category/56/#)
 
 - [Pretraživač trgovina](https://darvel.hr/storelocator)
 
@@ -16,7 +16,7 @@ tags:
 - [Novosti](https://darvel.hr/novosti/)
 - [Ambasadori Brandova](https://darvel.hr/ambasadori-brandova/)
 
-[![darvel](https://darvel.hr/pub/media/logo/stores/1/504x144.png)](https://darvel.hr/ "darvel")
+[![[~/×/c24170e2936a4f7974de853c4ca28c3c_MD5.png]]](https://darvel.hr/ "darvel")
 
 - [Izbornik](https://darvel.hr/catalog/product/view/id/899/s/century-classic-medalist-tehnicka-olovka/category/56/#main-Menucontent)
 - [Moj Račun](https://darvel.hr/catalog/product/view/id/899/s/century-classic-medalist-tehnicka-olovka/category/56/#main-Accountcontent)
@@ -133,11 +133,11 @@ Pojedinosti o proizvodu
 - [Početna](https://darvel.hr/ "Idi na početnu stranicu")
 - **Cross Century Classic Medalist Tehnička Olovka**
 
-![](https://darvel.hr/pub/media/catalog/product/cache/6991753f80a56b75e3cdfc8b4135573f/3/3/330305.jpg) ![](https://darvel.hr/pub/media/catalog/product/cache/6991753f80a56b75e3cdfc8b4135573f/3/3/330305.jpg)
+![[~/×/4cdf549c3dec2cd30df1cae12eedd98a_MD5.jpg]] ![[~/×/4cdf549c3dec2cd30df1cae12eedd98a_MD5.jpg]]
 
 **SKU** 330305
 
-[![Cross](https://darvel.hr/pub/media/mgs_brand/c/r/cross-web.jpg)](https://darvel.hr/kupuj-prema-brandu/cross "Cross")
+[![[~/×/8f6101c82298313a412ff80c98ed05d8_MD5.jpg]]](https://darvel.hr/kupuj-prema-brandu/cross "Cross")
 
 Century Classic Medalist Tehnička Olovka
 

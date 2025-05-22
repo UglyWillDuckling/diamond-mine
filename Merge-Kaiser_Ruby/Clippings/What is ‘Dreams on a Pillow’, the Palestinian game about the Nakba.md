@@ -36,7 +36,7 @@ The latest news from around the world. Timely. Accurate. Fair.
 
 Abueideh, who is based in Nablus in the West Bank, says he would like the world to understand that the Israeli war on Gaza is a direct result of previous events and decisions beyond the event of October 7, 2023.
 
-![Dreams on a pillow](https://www.aljazeera.com/wp-content/uploads/2025/01/image_png-3-1737025174.png?w=770&resize=770%2C1104&quality=80)
+![[~/×/8e46bc9f94a7b42241fa449e61f3dda5_MD5.png]]
 
 Concept art shows images from the new game based on the Nakba \[Courtesy of Dreams on a Pillow\]
 
@@ -74,7 +74,7 @@ In a recent [[Ask Me Anything]] (AMA) [live](https://www.reddit.com/r/IAmA/s/0yQ
 
 Zionist militias committed more than 70 massacres that resulted in the killing of more than 15,000 Palestinians leading up to the creation of Israel in 1948.
 
-![Dreams on a pillow](https://www.aljazeera.com/wp-content/uploads/2025/01/Dreams-on-a-pillow-Nakba-Map-1737025248.png?w=770&resize=770%2C1117&quality=80)
+![[~/×/b597c618e21723bd86dace2df4fb2fe7_MD5.png]]
 
 Concept art for the game which is set in historic [[Palestine]] \[Courtesy of Dreams on a Pillow\]
 
@@ -94,7 +94,7 @@ Apple [initially rejected the Game](https://x.com/Liylawar/status/73298423798540
 
 “Players must deal with the stark realities of life amid conflict, challenging them to navigate through relentless bombings and gunfire in search of sanctuary. The game mechanics operate no different than other games, although it is set in the Gaza Strip,” he says.
 
-![dreams on a pillow](https://www.aljazeera.com/wp-content/uploads/2025/01/interior-v1-1737025280.png?w=770&resize=770%2C433&quality=80)
+![[~/×/b2a35e8bea317f39c1808b799657fd52_MD5.png]]
 
 Concept art from the new game, which is set during the 1948 Nakba when **750,000** Palestinians were ethnically cleansed from the land now called Israel \[Courtesy of Dreams on a Pillow\]
 
@@ -116,7 +116,7 @@ Her psychological fear manifests through the game’s mechanics. At each level, 
 
 According to Abueideh, the game will require two years of development with a planned release due in 2026. Due to the sensitive nature of the subject matter, it’s unclear from the development team which platforms will accept the game.
 
-![dreams on a pillow](https://www.aljazeera.com/wp-content/uploads/2025/01/exterior-v1-1737025265.png?w=770&resize=770%2C433&quality=80)
+![[~/×/f11414160512b1c50fa0c77364893046_MD5.png]]
 
 Concept art from the game which also shows life before the Nakba \[Courtesy of Dreams on a Pillow\]
 
@@ -128,7 +128,7 @@ The remaining 22 percent was split into two areas: the West Bank, which is now u
 
 Approximately 750,000 Palestinians were forcibly displaced from their homes and territories following the violence unleashed by Zionist militias.
 
-![INTERACTIVE - NAKBA - What is the Nakba infographic map-1684081612](https://www.aljazeera.com/wp-content/uploads/2023/05/INTERACTIVE-NAKBA-What-is-the-Nakba-infographic-map-1684081612.jpg?w=770&resize=770%2C770&quality=80)
+![[~/×/a6db76176963c1de8125ba51003efc97_MD5.jpg]]
 
 (Al Jazeera)
 

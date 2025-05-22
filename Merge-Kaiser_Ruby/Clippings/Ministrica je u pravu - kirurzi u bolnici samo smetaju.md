@@ -65,7 +65,7 @@ A vama, ministrice, svaka čast na viziji. Bolnica bez liječnika. Ma što bi uo
 
 *\*Stavovi izneseni u kolumnama i komentarima su osobni stavovi autora i ne odražavaju nužno stav redakcije Index.hr portala*
 
-![](https://www.index.hr/Content/img/article-cta.svg)
+![[~/×/8290c409e14d741570491fbc21769aaf_MD5.svg]]
 
 Imate važnu priču? Javite se na **[desk@index.hr](https://www.index.hr/mobile/vijesti/clanak/ministrica-je-u-pravu-kirurzi-u-bolnici-samo-smetaju/)** ili klikom **[ovdje](https://www.index.hr/mobile/posaljite-pricu)**. Atraktivne fotografije i videe plaćamo.
 

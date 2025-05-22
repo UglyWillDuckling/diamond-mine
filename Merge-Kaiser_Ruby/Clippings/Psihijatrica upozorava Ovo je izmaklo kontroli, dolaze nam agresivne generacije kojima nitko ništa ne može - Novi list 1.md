@@ -27,7 +27,7 @@ Oduzeli su nam sva prava i doista je ovo, nažalost, bilo pitanje dana. Policija
 
   
 
-![Ne treba tu samo dijagnoza djece, nego dijagnoza društva koje je bolesno - debelo bolesno - prof. prim. dr. sc. Katarina Dodig Ćurković / Foto Arhiva NL](https://www.novilist.hr/wp-content/uploads/2024/12/10278569-.jpg)
+![[~/×/707117afc3485ca549b1d2665c58804d_MD5.jpg]]
 
 Ne treba tu samo dijagnoza djece, nego dijagnoza društva koje je bolesno – debelo bolesno – prof. prim. dr. sc. Katarina Dodig Ćurković / Foto Arhiva NL
 

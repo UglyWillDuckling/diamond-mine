@@ -10,7 +10,7 @@ tags:
 ---
 ***Hopes and Impediments: Selected Essays, 1965–1987*** is collection of [essays](https://en.m.wikipedia.org/wiki/Essay "Essay") by [Chinua Achebe](https://en.m.wikipedia.org/wiki/Chinua_Achebe "Chinua Achebe"), published in 1988.[^achebe-1]
 
-![](https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/HopesAndImpedimentsAchebe.jpg/220px-HopesAndImpedimentsAchebe.jpg)
+![[~/×/bb17debbc4095ee3ffed76f77720a581_MD5.jpg]]
 
 First edition (publ. [Doubleday](https://en.m.wikipedia.org/wiki/Doubleday_\(publisher\) "Doubleday (publisher)"))
 

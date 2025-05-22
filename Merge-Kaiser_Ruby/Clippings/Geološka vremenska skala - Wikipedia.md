@@ -7,12 +7,12 @@ description:
 tags:
   - time-scale
 ---
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Geologic_Clock_with_events_and_periods_HR.svg/1280px-Geologic_Clock_with_events_and_periods_HR.svg.png)
+![[~/×/80bd972ca419f4ea29c7ede5248b7c8b_MD5.png]]
 
 
 **Geološka vremenska skala** (**GTS**) je sistem [hronološkog datiranja](https://bs.m.wikipedia.org/w/index.php?title=Hronolo%C5%A1ko_datiranje&action=edit&redlink=1 "Hronološko datiranje (stranica ne postoji)") koji određuje odnose geoloških slojeva ([stratigrafija](https://bs.m.wikipedia.org/wiki/Stratigrafija "Stratigrafija")) sa vremenom i koristi u [geologiji](https://bs.m.wikipedia.org/wiki/Geologija "Geologija"), [paleontologiji](https://bs.m.wikipedia.org/wiki/Paleontologija "Paleontologija") i drugim naukama o Zemlji, da opiše vremena i odnose događaja koji su se dogodili u [historiji Zemlje](https://bs.m.wikipedia.org/w/index.php?title=Historija_Zemlje&action=edit&redlink=1 "Historija Zemlje (stranica ne postoji)"). Tabela raspona geoloških vremena, koja je ovdje predstavljena, slaže se sa [nomenklaturom](https://bs.m.wikipedia.org/w/index.php?title=Nau%C4%8Dna_klasifikacija&action=edit&redlink=1 "Naučna klasifikacija (stranica ne postoji)"), datiranju i standardnim bojama kodova, koje je utvrdila [Međunarodna komisija za stratigrafiju](https://bs.m.wikipedia.org/wiki/Me%C4%91unarodna_komisija_za_stratigrafiju "Međunarodna komisija za stratigrafiju").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Geologic_Clock_with_events_and_periods.svg/300px-Geologic_Clock_with_events_and_periods.svg.png)
+![[~/×/8206bcddc42d0c75f80beeaf47bb141a_MD5.png]]
 
 Sat koji predstavlja neke od glavnih jedinica geološkog vremena i definitivnih događaja u Zemljinoj historiji.  
 Hadeanski eon predstavlja vrijeme prije fosilnih otkrića života na Zemlji.  

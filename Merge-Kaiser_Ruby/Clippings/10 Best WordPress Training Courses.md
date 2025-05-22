@@ -11,7 +11,7 @@ tags:
   - wordpress
   - courses
 ---
-![icon](https://s14308.pcdn.co/wp-content/uploads/2015/11/cropped-beaver-builder-icon-32x32.png.webp)
+![[~/×/18a66a098df6e2b4dfbc341ba142b29a_MD5.webp]]
 
 It’s true, you can teach yourself WordPress by learning as you go. There are plenty of blogs, YouTube videos, and how-to guides available as a resource.
 
@@ -27,7 +27,7 @@ You will find that there are paid and free training courses available. Free cour
 
 ### 1\. [Beaver Builder’s Course Library](https://courses.wpbeaverbuilder.com/)
 
-![Beaver Builder courses](https://s14308.pcdn.co/wp-content/uploads/2020/01/beaver-builder-courses-1024x440.png.webp)
+![[~/×/8f54c04de2b6500954cc62ccd8fda1c2_MD5.webp]]
 
 If you want to learn how to use WordPress with a page builder, the best place to do it is with our own [Course Library](https://courses.wpbeaverbuilder.com/). The official Beaver Builder Course Library contains six free courses. They cover everything from using the Beaver Builder WordPress page builder to getting to know the Themer tool.
 
@@ -41,7 +41,7 @@ Our library also contains courses on setting up website hosting and a domain if 
 
 ### 2\. [Web Design Trainer](https://webdesigntrainer.com/)
 
-![Web Design Trainer Course](https://s14308.pcdn.co/wp-content/uploads/2023/01/Web-Design-Trainner-Course.png.webp)
+![[~/×/8f492cd4274c0b2f8f0cf41ec90db19d_MD5.webp]]
 
 The [Web Design Trainer](https://webdesigntrainer.com/) course teaches you how to create awesome websites using WordPress and Beaver Builder. You’ll start from scratch, learning the basics, and then move on to more advanced techniques to build professional-looking sites. It’s perfect for beginners, with step-by-step lessons, quizzes, and downloadable resources to help you along the way.
 
@@ -62,7 +62,7 @@ You also get step-by-step guides with each lesson, downloadable resources, cheat
 
 ### 3\. [WP101](https://www.wpbeaverbuilder.com/go/wp101/)
 
-![WP101 WordPress Training](https://s14308.pcdn.co/wp-content/uploads/2019/04/wp101-homepage-1024x541.png.webp)
+![[~/×/94215a989427af201d3bf1dbd177256c_MD5.webp]]
 
 [WP101](https://www.wpbeaverbuilder.com/go/wp101/) is considered one of the most popular video tutorial series for WordPress beginners. Created in 2008, WP101 has helped more than 2 million people learn how to use WordPress. They have a lot of courses to choose from and their step-by-step videos make it easy to follow along.
 
@@ -88,7 +88,7 @@ They also have a great course on how to use Beaver Builder, a drag-and-drop page
 
 ### 4\. [WP Apprentice](https://wpapprentice.com/)
 
-![WP Apprentice Training Programs](https://s14308.pcdn.co/wp-content/uploads/2019/04/wp-apprentice-homepage-1024x564.png.webp)
+![[~/×/8579b187e8b03f30a37565c926959102_MD5.webp]]
 
 [WP Apprentice](https://wpapprentice.com/) is another WordPress training course provider. They offer a free course that helps you get your website up in less than 1 hour. WP Apprentice also has more courses that help you dive further into topics like SEO and eCommerce.
 
@@ -107,7 +107,7 @@ Included with your purchase is access to a members forum, Tune-Up Guide, WordPre
 
 ### 5\. [WPSessions](https://wpsessions.com/)
 
-![WPSessions WordPress Courses](https://s14308.pcdn.co/wp-content/uploads/2019/04/wpsessions-homepage-1024x431.png.webp)
+![[~/×/0d2dced1bf5e843bce8568b9ffab8832_MD5.webp]]
 
 [WPSessions](https://wpsessions.com/) offers WordPress training taught by experts. They have a growing library of training sessions and courses. The topics are on a variety of subjects such as WordPress Maintenance, SEO, Creating a Plugin, and Speed Optimization.
 
@@ -125,7 +125,7 @@ Included with your purchase is access to a members forum, Tune-Up Guide, WordPre
 
 ### 6\. [Udemy](https://www.udemy.com/courses/search/?ref=home&src=ukw&q=wordpress)
 
-![The Udemy Homepage.](https://s14308.pcdn.co/wp-content/uploads/2019/04/udemy-homepage-1024x572.png.webp)
+![[~/×/af6fc660f76cb76621c4041d56f66448_MD5.webp]]
 
 [Udemy](https://www.udemy.com/courses/search/?ref=home&src=ukw&q=wordpress) is a marketplace for course creators. This comprehensive online learning platform offers courses on many topics, including WordPress.
 
@@ -142,7 +142,7 @@ You have to be very selective when it comes to picking courses on Udemy. Pick a 
 
 ### 7\. [Yoast](https://yoast.com/academy/free-training-wordpress-for-beginners/)
 
-[![Yoast WordPress Training](https://s14308.pcdn.co/wp-content/uploads/2019/04/Yoast.jpg.webp)](https://s14308.pcdn.co/wp-content/uploads/2019/04/Yoast.jpg.webp)
+[![[~/×/a84b68fb339148c63bd16b1376bd1e8f_MD5.webp]]](https://s14308.pcdn.co/wp-content/uploads/2019/04/Yoast.jpg.webp)
 
 [Yoast](https://yoast.com/academy/free-training-wordpress-for-beginners/) offers free WordPress training designed for beginners. This training is great for all types of people. So if you want to start a personal blog, create an eCommerce site, or an online business this course will help you get your platform off the ground.
 
@@ -164,7 +164,7 @@ The training offers 23 quizzes to help reinforce what you’ve learned as well. 
 
 ### 8\. [LinkedIn Learning](https://www.linkedin.com/learning/search?entityType=COURSE&keywords=wordpress)
 
-![LinkedIn Learning WordPress Training](https://s14308.pcdn.co/wp-content/uploads/2019/04/linkedin-learning-homepage-1024x401.png.webp)
+![[~/×/b3c9e24b1e53515bfb04434efad942c0_MD5.webp]]
 
 [LinkedIn Learning](https://www.linkedin.com/learning/search?entityType=COURSE&keywords=wordpress) is an online training platform. They offer a wide variety of career-boosting courses, including how to use WordPress. There are over 81 high-quality WordPress courses available and they’re divided into different levels: Beginner, Intermediate, and Advanced.
 
@@ -186,7 +186,7 @@ If you want to use WordPress to further your career, this is a convenient way to
 
 ### 9\. [WPShout](https://courses.wpshout.com/)
 
-![WPShout WordPress Tutorials](https://s14308.pcdn.co/wp-content/uploads/2019/04/wpshout-homepage-1024x530.png.webp)
+![[~/×/1edc83774ebc7393c4b2230e543bf6f1_MD5.webp]]
 
 [WPShout](https://courses.wpshout.com/) is great for people who want to learn about WordPress development.
 
@@ -201,7 +201,7 @@ They offer video lessons with in-depth articles on each topic. This makes it eas
 
 ### 10\. [OSTraining](https://ostraining.com/all-courses/?course_catid=20)
 
-![OSTraining WordPress Courses](https://s14308.pcdn.co/wp-content/uploads/2019/04/OSTraining-WordPress-Courses-1024x480.png.webp)
+![[~/×/4b81a21e163a7db18bf7a5ed198e6097_MD5.webp]]
 
 [OSTraining](https://ostraining.com/all-courses/?course_catid=20) has helped over 100,000 people with its online training programs. They also offer a library of ebooks included with your subscription.
 
@@ -260,7 +260,7 @@ Do you have a favorite training course or class, or any recommendations that we 
 
 *Connect with us on social!*
 
-![](https://secure.gravatar.com/avatar/0f37603d7e21e32198c9f3b97bfa275e?s=96&d=https%3A%2F%2Fwww.wpbeaverbuilder.com%2Fwp-content%2Fthemes%2Fbb-theme-store%2Fimg%2Fbb-gravatar.jpg&r=g)
+![[~/×/6f161f58f8053df8c316965a43ead768_MD5.png]]
 
 ### About Anthony Tran
 

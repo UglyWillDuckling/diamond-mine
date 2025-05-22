@@ -21,7 +21,7 @@ First, make sure your system is up-to-date by running this command:
 sudo pacman -Syu
 ```
 
-![A screenshot of a computer Description automatically generated](https://linuxgenie.net/wp-content/uploads/2024/01/a-screenshot-of-a-computer-description-automatica-71.png)
+![[~/×/12ae6fa9e10f90f7056de0ad018ee553_MD5.png]]
 
 The above command will update the system packages and synchronize the package database with the server. It also upgrades all the packages that are out of date.
 
@@ -31,7 +31,7 @@ Next, install PostgreSQL from the official repository by running this command:
 sudo pacman -S postgresql
 ```
 
-![A screenshot of a computer program Description automatically generated](https://linuxgenie.net/wp-content/uploads/2024/01/a-screenshot-of-a-computer-program-description-au-23.png)
+![[~/×/a7055c64b9232390eb436105b9f8f98a_MD5.png]]
 
 To check if the installation was successful, run this command:
 
@@ -39,7 +39,7 @@ To check if the installation was successful, run this command:
 postgres --version
 ```
 
-![A screen shot of a computer Description automatically generated](https://linuxgenie.net/wp-content/uploads/2024/01/a-screen-shot-of-a-computer-description-automatic-9.png)
+![[~/×/bb988fa4a0a096e1c6ee6bbe02d4a740_MD5.png]]
 
 ## Configure PostgreSQL Server
 
@@ -53,7 +53,7 @@ As we have already installed PostgreSQL, now we have to configure PostgreSQL. Fo
 sudo -iu postgres
 ```
 
-![](https://linuxgenie.net/wp-content/uploads/2024/01/word-image-12988-4.png)
+![[~/×/b67929ea4e489d5cc7e00e81c8ca34cd_MD5.png]]
 
 You will be prompted to enter the password and give your Arch system password.
 
@@ -63,7 +63,7 @@ Now, you need to initialize the directory for data. The PostgreSQL will store it
 initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data/'
 ```
 
-![A screenshot of a computer Description automatically generated](https://linuxgenie.net/wp-content/uploads/2024/01/a-screenshot-of-a-computer-description-automatica-72.png)
+![[~/×/ff3407d3d9e99647d7f0cc26ed585756_MD5.png]]
 
 You can also enable data checksums for extra data integrity by adding the *–data-checksums* argument to the previous command. To see if data checksums are enabled, run this command:
 
@@ -71,7 +71,7 @@ You can also enable data checksums for extra data integrity by adding the *–da
 psql --tuples-only -c "SHOW data_checksums"
 ```
 
-![A screen shot of a computer Description automatically generated](https://linuxgenie.net/wp-content/uploads/2024/01/a-screen-shot-of-a-computer-description-automatic-10.png)
+![[~/×/7f2f4a29d1a9f171952a52f2d57274b1_MD5.png]]
 
 To initialize the data directory with data checksums enabled, you can run this command:
 
@@ -79,7 +79,7 @@ To initialize the data directory with data checksums enabled, you can run this c
 initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data/' --data-checksums
 ```
 
-![](https://linuxgenie.net/wp-content/uploads/2024/01/word-image-12988-7.png)
+![[~/×/3eb5b990c285e46f2c07a25fbc4250da_MD5.png]]
 
 This will create a new data directory at */var/lib/postgres/data/* with the specified locale and encoding. In addition, it also performs data checksum verification for each page written to disk. This can help detect data corruption caused by faulty hardware.
 

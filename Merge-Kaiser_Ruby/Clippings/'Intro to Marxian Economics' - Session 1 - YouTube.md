@@ -10,4 +10,4 @@ tags:
 ---
 ![](https://www.youtube.com/watch?v=embed)
 
-- [/] #task watch series in Marxian Economy ⏳ 2025-02-26 📅 2025-03-12
+- [/] #task watch series in Marxian Economy ⏳ 2025-02-26 📅 2025-06-30

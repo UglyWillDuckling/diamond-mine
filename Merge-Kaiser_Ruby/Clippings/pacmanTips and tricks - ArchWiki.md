@@ -379,7 +379,7 @@ Alternative ways of getting and restoring packages.
 
 ### Installing packages from a CD/DVD or USB stick
 
-![](https://wiki.archlinux.org/images/7/77/Merge-arrows-2.svg)**This article or section is a candidate for merging with [#Custom local repository](https://wiki.archlinux.org/title/Pacman/#Custom_local_repository).**
+![[~/×/cc893181b0eba5a855aa93b6258ce5d8_MD5.svg]]**This article or section is a candidate for merging with [#Custom local repository](https://wiki.archlinux.org/title/Pacman/#Custom_local_repository).**
 
 To download packages, or groups of packages:
 

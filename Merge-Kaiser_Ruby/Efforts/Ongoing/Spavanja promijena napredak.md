@@ -12,7 +12,7 @@ Spavam 8 sati
 - [ ] probuditi se u 8
 
 # Tasks
-- [/] #task popraviti san 🆔 3f76dE ⏳ 2025-02-26 📅 2025-03-12 #longer
+- [x] #task popraviti san #longer 🆔 3f76dE ⏳ 2025-02-26 📅 2025-03-12 ✅ 2025-05-18
 
 ## Tjedan dana
 

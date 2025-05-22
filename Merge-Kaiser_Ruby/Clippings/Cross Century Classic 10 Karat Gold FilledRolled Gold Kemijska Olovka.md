@@ -14,11 +14,11 @@ related: "[[A. T. Cross Company]]"
 [[A. T. Cross Company]]
 - **Cross Century Classic 10 Karat Gold Filled/Rolled Gold Kemijska Olovka**
 
-![](https://darvel.hr/pub/media/catalog/product/cache/6991753f80a56b75e3cdfc8b4135573f/4/5/4502.jpg) ![](https://darvel.hr/pub/media/catalog/product/cache/6991753f80a56b75e3cdfc8b4135573f/4/5/4502.jpg)
+![[~/×/bf049c6d2ad759e0f120e71d7a161783_MD5.jpg]] ![[~/×/bf049c6d2ad759e0f120e71d7a161783_MD5.jpg]]
 
 **SKU** 4502
 
-[![Cross](https://darvel.hr/pub/media/mgs_brand/c/r/cross-web.jpg)](https://darvel.hr/kupuj-prema-brandu/cross "Cross")
+[![[~/×/8f6101c82298313a412ff80c98ed05d8_MD5.jpg]]](https://darvel.hr/kupuj-prema-brandu/cross "Cross")
 
 Century Classic 10 Karat Gold Filled/Rolled Gold Kemijska Olovka
 

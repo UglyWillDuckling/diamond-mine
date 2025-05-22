@@ -17,11 +17,11 @@ At the end of the preceding Pliocene, the previously isolated North and [South A
 
 The [aridification](https://en.m.wikipedia.org/wiki/Aridification "Aridification") and cooling trends of the preceding [Neogene](https://en.m.wikipedia.org/wiki/Neogene "Neogene") were continued in the Pleistocene. The climate was strongly variable depending on the glacial cycle, with the sea levels being up to 120 metres (390 ft) lower than present at peak glaciation, allowing the connection of Asia and North America via [Beringia](https://en.m.wikipedia.org/wiki/Beringia "Beringia") and the covering of most of northern North America by the [Laurentide Ice Sheet](https://en.m.wikipedia.org/wiki/Laurentide_Ice_Sheet "Laurentide Ice Sheet").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Evolution_of_temperature_in_the_Post-Glacial_period_according_to_Greenland_ice_cores.jpg/440px-Evolution_of_temperature_in_the_Post-Glacial_period_according_to_Greenland_ice_cores.jpg)
+![[~/×/99239a2655a0a4986a72f1be8ae91879_MD5.jpg]]
 
 Evolution of temperature in the Post-Glacial period at the very end of the Pleistocene, according to Greenland ice cores[^6]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/20191021_Temperature_from_20%2C000_to_10%2C000_years_ago_-_recovery_from_ice_age.png/330px-20191021_Temperature_from_20%2C000_to_10%2C000_years_ago_-_recovery_from_ice_age.png)
+![[~/×/f99a1bed74fe3a03fc6cea4e87a9c4b6_MD5.png]]
 
 Temperature rise marking the end of the Pleistocene, as derived from Antarctic ice core data.
 
@@ -140,7 +140,7 @@ The [evolution](https://en.m.wikipedia.org/wiki/Human_evolution "Human evolution
 
 According to mitochondrial timing techniques, [modern humans](https://en.m.wikipedia.org/wiki/Anatomically_modern_humans "Anatomically modern humans") migrated from Africa after the [Riss glaciation](https://en.m.wikipedia.org/wiki/Riss_glaciation "Riss glaciation") in the Middle Palaeolithic during the [Eemian Stage](https://en.m.wikipedia.org/wiki/Eemian_Stage "Eemian Stage"), spreading all over the ice-free world during the late Pleistocene.[^39][^40][^41] A 2005 study posits that humans in this migration interbred with [archaic human](https://en.m.wikipedia.org/wiki/Archaic_human "Archaic human") forms already outside of Africa by the late Pleistocene, incorporating archaic human genetic material into the modern human gene pool.[^42]
 
-| ![](https://upload.wikimedia.org/wikipedia/en/timeline/6czm1zbsyn8vup5lky3uzj2szippxys.png) |
+| ![[~/×/76fda05ca79932275a1f0dd48b5f5165_MD5.png]] |
 | --- |
 
 - [Climate change](https://en.m.wikipedia.org/wiki/Climate_change "Climate change")

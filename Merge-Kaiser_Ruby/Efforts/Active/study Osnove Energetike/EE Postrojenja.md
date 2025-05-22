@@ -1,6 +1,6 @@
 # Klasifikacija električnih shema
 
-![](https://i.imgur.com/EWRrTMD.png)
+![[~/×/c887e646aba14fbc1b4fd031d1822499_MD5.png|500]]
 
 - **pregledna** `shema` [[#Pregledne sheme]]
 	- pomoću **simbola** `pojednostavljeno` prikazuje **najvažnije** dijelove postrojenja ili dijela postrojenja s funkcionalnim međuvezama
@@ -14,11 +14,11 @@
 
 ## Pregledne sheme
 
-![](https://i.imgur.com/KtUkn5W.png)
+![[~/×/46e01b73b1a62e60b850c373fc7162f0_MD5.png|500]]
 
 ## Strujna shema, shema djelovanja
 
-![](https://i.imgur.com/TjtDZ6p.png)
+![[~/×/e3a79e47b5ebc427985558f88589b53a_MD5.png|500]]
 
 # Klasifikacija električnih planova
 
@@ -43,9 +43,9 @@ skupinaskupinaskupinaskupina1
 : priključnica
 
 
-![](https://i.imgur.com/xo89jBD.png)
+![[~/×/8b4edd942244cfe1c4581bb625d63be6_MD5.png|500]]
 
-![](https://i.imgur.com/YHtLs4Z.png)
+![[~/×/45a42a9337f06e05b9658cc7a88e50cc_MD5.png|500]]
 
 ## **Projekt** NN mreže i instalacije
 
@@ -135,7 +135,7 @@ uklapaju pomoćne strujne krugove (npr. releji)
 ## Osigurači
 
 **sklopni** aparat koji služi kao **zaštitna** `komponenta`
-![osig|100](https://i.imgur.com/CKhfhWU.png)
+![[~/×/c3e6f500fcfff04eda5e1283d33587cb_MD5.png|100]]
 
 - do taljenja jednog ili više taljivih vodiča dolazi ukoliko struja određene veličine protječe **dovoljno dugo** kroz osigurač
 
@@ -143,7 +143,7 @@ Ukoliko je rastalno vrijeme osigurača **kraće od 5 ms,** osigurač ograničava
 
 `Ip` je maksimalna vrijednost struje kratkog spoja koja će se pojaviti u strujnom krugu s osiguračem.
 
-![](https://i.imgur.com/plUJ3pk.png)
+![[~/×/9462b37c885828fda537416584131d5c_MD5.png|100]]
 
 ### Funkcionalni razredi:
 
@@ -164,14 +164,14 @@ Osigurači iz ovog razreda štite strujne krugove od preopterećenja i struja kr
 - **manja ispitna struja** (**Inf**) je struja kod koje u vremenu od jednog sata ne smije doći do `pregaranja` osigurača
 - **veća ispitna struja** (**I2**) je vrijednost struje kod koje u vremenu od jednog sata mora doći do `pregaranja` osigurača
 
-![](https://i.imgur.com/EfgpSnx.png)
+![[~/×/193a91c710ef27c2faab82ab983973e1_MD5.png|100]]
 
 l,0000
 
 npr. za osigurač In=32 A vrijedi da pri struji **Inf**=1,25 x 32 A = 40 A **ne smije** pregorjeti ako ona traje **1 h.**
 **ali ako se rad**i o struji većoj ili jednakoj **I2**=1,6 x 32 A = 52,1 A **on mora** pregorjeti u vremenu **1 h**
 
-![](https://i.imgur.com/rk4RLxs.png)
+![[~/×/4a1747452fc6b966f580f0099194969f_MD5.png|100]]
 
 ####  funkcionalni razred a ili osigurači za pojedina područja
 > (eng. partial-range breaking fuse-link)
@@ -212,7 +212,7 @@ Takve se struje najčešće javljaju u NN razdjelnim mrežama i industrijskim mr
 		tropolna ili jednopolna)
 	• indikator pregaranja (LED)
 
-![os|500](https://i.imgur.com/W3MsPGg.png)
+![[~/×/5d0716743dd2d42fec4b9cbf4b687577_MD5.png|500]]
 
 
 – Uspješno se primjenjuju za ograničavanje struje kratkog spoja (prekidaju struju prije nego što ona postigne maksimalnu vrijednost).
@@ -260,7 +260,7 @@ NEOZED (osigurači smanjenih dimenzija, tip Do) za napone 380V.
 - brze 🟦
 - sporo-brze (spore u području preopterećenja, brze u području struja kratkog spoja) ⬛
 - spore 🟥
-![](https://i.imgur.com/EsfPYDa.png)
+![[~/×/e908db93fada28a0053bd9a9796e1ede_MD5.png|500]]
 
  Efekti brzine postižu se tehnološkim zahvatima na rastalnici:
 • oblikom poprečnog presjeka rastalnice
@@ -275,7 +275,7 @@ rastali se cijela rastalnica)
 
 Prikladni su za ugradnju na onim mjestima u električnim instalacijama gdje se javlja struja kratkog spoja do 6 (25) kA i gdje su pogonske prilike takve da često dolazi do preopterećenja i kratkih spojeva.
 
-![](https://i.imgur.com/hgLiWK5.png)
+![[~/×/a804db022963332d01ae0b7a43a48820_MD5.png|500]]
 H – strujni krugovi u domaćinstvu
 L – strujni krugovi za rasvjetu i
 upravljanje
@@ -287,7 +287,7 @@ Izrađuju se s termičkim (bimetalnim) okidačem za isklapanje kod dugotrajnih m
 Usporedba karakteristika brzog i tromog instalacijskog osigurača,
 te instalacijskog automatskog prekidača (LS) iste nazivne struje.
 
-![brzi|500](https://i.imgur.com/4FjbFGs.png)
+![[~/×/09281d63c12ca5c158ee857a2d6d09e1_MD5.png|500]]
 
 **Karakteristike automatskih osigurača:**
 
@@ -340,7 +340,7 @@ digitalni.
 - okidač na prekidač djeluje izravno, dok relej (kao zasebni aparat) djeluje putem električne energije u pomoćnom strujnom krugu
 - Osim toga za razliku od releja koji reagira na različite fizikalne veličine, okidač redovito reagira na električne veličine (struja, napon)
 
-![](https://i.imgur.com/XqqOtgH.png)
+![[~/×/7408d1ddca719fe8b43ea7a37c95bb89_MD5.png|500]]
 
 
 Prekidači se izabiru prema:
@@ -417,18 +417,18 @@ Instalacijske sklopke:
 
 ## Instalacijske sklopke
 
-![](https://i.imgur.com/i0An921.png)
+![[~/×/46c7c8d58a7e6b0c30cd51e747b4062e_MD5.png|500]]
 
 
-![](https://i.imgur.com/AWhpQH1.png)
+![[~/×/66bb506dcaf0d9fa67d275435b8c70c4_MD5.png|500]]
 
 - [[Kako Spojiti Izmjenični Prekidač]]
 - ..
 
-![](https://i.imgur.com/lpD71lT.png)
+![[~/×/053c3d8d8eb356636d67854bd35baabd_MD5.png|500]]
 
 
-![](https://i.imgur.com/HJkMSFi.png)
+![[~/×/2ddfd797d9fb6410edb76d4869db8e7c_MD5.png|500]]
 - križna se sklopka koristi u kombinaciji s izmjeničnim za sklapanja jednog
 trošila s tri ili više mjesta (svako naredno mjesto zahtjeva još jednu križnu
 sklopku)
@@ -453,10 +453,10 @@ B. instalacijski vodovi za trajno polaganje
 	c. polaganje u instalacijske cijevi
 
 
-![](https://i.imgur.com/VMsu50U.png)
+![[~/×/f3da2c7b84c6113dc16742f34e539f54_MD5.png|500]]
 
 
-![](https://i.imgur.com/1B4jm15.png)
+![[~/×/3dbc1b64388cf497fac57ce2f0f40662_MD5.png|500]]
 polaganje el. instalacije u kuhinji, kupaonici i rad. prostoriji
 
 ## Vrste uzemljivača

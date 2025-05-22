@@ -5,24 +5,24 @@ published:
 created: 2025-02-28
 tags:
 ---
-![](https://red-sift.cdn.prismic.io/red-sift/Z313WpbqstJ99JUN_letsencrypt-logo-horizontal1.svg)
+![[~/×/5f9107281f3b39dbda8531ff8b969d59_MD5.svg]]
 
 Recommended service
 
-![Video Thumbnail](https://embed-ssl.wistia.com/deliveries/bf0ef1b1b12d078d2fa4ff7c7cd85470.webp?image_crop_resized=640x361)
+![[~/×/49babfa7562078cee0d6bc290887c79b_MD5.webp]]
 
-![](https://red-sift.cdn.prismic.io/red-sift/Z4_EwZbqstJ99smv_visibilityicon.svg)
+![[~/×/e50f0e6783166a456740a536eb96ef48_MD5.svg]]
 
 - [ ] #task try out [[Red Sift]] to monitor [[SSL certificate]] expirations and renewals #dev
 ___
 
-![](https://red-sift.cdn.prismic.io/red-sift/Z4_Ev5bqstJ99sms_downtimeicon.svg)
+![[~/×/7e61e3accfbee6014f421a9b256831f9_MD5.svg]]
 
 Prevent downtime
 
 Get a clear view of all upcoming expiries, plus email alerts to stay ahead of renewals.
 
-![](https://red-sift.cdn.prismic.io/red-sift/Z4_EwJbqstJ99smt_expenseicon.svg)
+![[~/×/ea29476ed071379dbaff714e99fcc60e_MD5.svg]]
 
 Maintain a unified inventory
 
@@ -30,7 +30,7 @@ Manage an inventory of up to 250 certificates at no cost - ideal for teams with 
 
 "Millions of people rely on Let's Encrypt to secure their website connections and that number is growing since our service is free and automated. Certificates Lite, the new service from Red Sift, is intended to improve the options available to individuals and organizations for monitoring certificates, including and beyond expiration notices."
 
-![](https://red-sift.cdn.prismic.io/red-sift/Z313WpbqstJ99JUN_letsencrypt-logo-horizontal1.svg)
+![[~/×/5f9107281f3b39dbda8531ff8b969d59_MD5.svg]]
 
 ## FAQs
 

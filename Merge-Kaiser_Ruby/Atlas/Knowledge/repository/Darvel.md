@@ -7,7 +7,7 @@ description: Tvrtka Darvel se od 1995 godine posvetila prezentiranju visoko kval
 tags:
   - webshop
 ---
-- [![en](https://darvel.hr/pub/static/frontend/GaussDev/darvel/hr_HR/images/flags/en.png)EN](https://darvel.hr/kupuj-prema-brandu/#)
+- [![[~/×/8a8a54555328a1b7fd607275bf7574a2_MD5.png]]EN](https://darvel.hr/kupuj-prema-brandu/#)
 
 - [Pretraživač trgovina](https://darvel.hr/storelocator)
 
@@ -15,7 +15,7 @@ tags:
 - [Novosti](https://darvel.hr/novosti/)
 - [Ambasadori Brandova](https://darvel.hr/ambasadori-brandova/)
 
-[![darvel](https://darvel.hr/pub/media/logo/stores/1/504x144.png)](https://darvel.hr/ "darvel")
+[![[~/×/c24170e2936a4f7974de853c4ca28c3c_MD5.png]]](https://darvel.hr/ "darvel")
 
 - [Izbornik](https://darvel.hr/kupuj-prema-brandu/#main-Menucontent)
 - [Moj Račun](https://darvel.hr/kupuj-prema-brandu/#main-Accountcontent)

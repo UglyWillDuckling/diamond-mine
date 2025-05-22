@@ -11,11 +11,11 @@ tags:
 ---
 The Mourning Cloak butterfly, scientifically known as Nymphalis antiopa, is a striking species that captivates observers with its distinctive appearance and intriguing behaviors. Found across a vast expanse from North America to Eurasia, these large butterflies are renowned for their extensive migrations, allowing them to be seen in regions far from their typical habitats.
 
-[![Mourning Cloak Butterfly](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Mourning-Cloak-Butterfly-300x200.webp)](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Mourning-Cloak-Butterfly.webp)
+[![[~/×/539c9d18c8e7cbbda2324bcb75a549a0_MD5.webp]]](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Mourning-Cloak-Butterfly.webp)
 
 ### Scientific Classification
-![](https://www.butterflyidentification.com/wp-content/uploads/2023/11/butterflygray.png)
-![](https://www.butterflyidentification.com/wp-content/uploads/2023/11/linehr.png)
+![[~/×/16559fe7b91d50f511f07188965fa834_MD5.png]]
+![[~/×/06d09e24664d457fe1c9857d1ebedda9_MD5.png]]
 
 - **Family:** *[Nymphalidae](https://www.butterflyidentification.com/brush-footed-nymphalidae)*
 - **Genus:** *Nymphalis*
@@ -28,7 +28,7 @@ Characterized by their resilience and remarkable ability to navigate across cont
 
 ## Description and Identification
 
-### [![Mourning Cloak Butterfly Larvae](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Mourning-Cloak-Butterfly-Larvae-300x200.webp)](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Mourning-Cloak-Butterfly-Larvae.webp)[![Mourning Cloak Caterpillar](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Mourning-Cloak-Caterpillar-300x200.webp)](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Mourning-Cloak-Caterpillar.webp)Caterpillar
+### [![[~/×/391eea48ce61fe6bd192b78bf65849b0_MD5.webp]]](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Mourning-Cloak-Butterfly-Larvae.webp)[![[~/×/dbba1e4e1e8ae83d3349006b61d322f2_MD5.webp]]](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Mourning-Cloak-Caterpillar.webp)Caterpillar
 
 The early life of a Mourning Cloak begins as a ‘spiny elm caterpillar’, notable for its spiny black body adorned with a distinctive row of reddish-orange dots along its back. Equipped with bright red prolegs, its body is a fascinating mix of black spines, white spots, and small hairs, capable of growing **up to two inches in length.**
 
@@ -44,7 +44,7 @@ In their adult form, Mourning Cloaks showcase a rich maroon or brown hue **when 
 
 **Color and Appearance:** Maroon or brown wings with pale yellow edges and iridescent blue spots **when open**; dull gray with similar borders **when closed**.
 
-**[![Nymphalis antiopa](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Nymphalis-antiopa-300x200.webp)](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Nymphalis-antiopa.webp)[![Mourning Cloak](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Mourning-Cloak-300x200.webp)](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Mourning-Cloak.webp)Average Wingspan:** Ranges from **2¼ to 4 inches (5.7 – 10.1 cm)**
+**[![[~/×/eb7dc1e37b0f15309f4f301fc96de4d2_MD5.webp]]](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Nymphalis-antiopa.webp)[![[~/×/40ba3e69df57f88c917687c3a96cb68a_MD5.webp]]](https://www.butterflyidentification.com/wp-content/uploads/2019/01/Mourning-Cloak.webp)Average Wingspan:** Ranges from **2¼ to 4 inches (5.7 – 10.1 cm)**
 
 **Flight Pattern:** Known for their fast and strong flapping.
 

@@ -8,7 +8,7 @@ tags:
   - gaming-console
 related:
 ---
-![icon|25](https://en.wikipedia.org/static/favicon/wikipedia.ico)
+![[~/×/1419f996a467c3a4b43f96f549fe6ff3_MD5.ico|25]]
 
 Handheld game console by Nintendo
 
@@ -36,7 +36,7 @@ The Game Boy Color was announced in March 1998 and released in Japan that Octobe
 
 The Game Boy Color had a relatively short lifespan, being on the market for only two and a half years before being succeeded by the [Game Boy Advance](https://en.wikipedia.org/wiki/Game_Boy_Advance "Game Boy Advance") in 2001. The successor finally brought the 32-bit processing power envisioned in Project Atlantis. Despite the new arrival, the Game Boy Color remained in production, serving as a budget-friendly alternative.[^day_2016-3] The last units were reportedly sold by March 2003.[^nintendo_2016-11]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Nintendo-Game-Boy-Color-Motherboard-Bottom.jpg/220px-Nintendo-Game-Boy-Color-Motherboard-Bottom.jpg)
+![[~/×/7b070f19906ed7f85582e36a29e73d6b_MD5.jpg|25]]
 
 The Game Boy Color motherboard  
 ([Annotated version](https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Color-Motherboard-Bottom.jpg "commons:File:Nintendo-Game-Boy-Color-Motherboard-Bottom.jpg"))
@@ -78,15 +78,15 @@ The left side offers a [Game Link Cable](https://en.wikipedia.org/wiki/Game_Link
 | [I/O](https://en.wikipedia.org/wiki/Input/output "Input/output") | - [Game Link Cable](https://en.wikipedia.org/wiki/Game_Link_Cable "Game Link Cable") (512 [kbit/s](https://en.wikipedia.org/wiki/Kbit/s "Kbit/s") between up to 4 devices)[^game_boy_programming_manual-15] - [Game Boy Game Pak](https://en.wikipedia.org/wiki/Game_Boy_Game_Pak "Game Boy Game Pak") slot - Infrared (9.5 kbit/s,[^game_boy_programming_manual-15]  usable at distances less than 2 m (6 ft 7 in), and within 45°) |
 | Controls | - Eight-way [control pad](https://en.wikipedia.org/wiki/D-pad "D-pad") - Four action buttons (A, B, Start, Select) - Volume [potentiometer](https://en.wikipedia.org/wiki/Potentiometer "Potentiometer") - Power switch |
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Nintendo-Game-Boy-Cartridge.jpg/93px-Nintendo-Game-Boy-Cartridge.jpg)](https://en.wikipedia.org/wiki/File:Nintendo-Game-Boy-Cartridge.jpg)
+[![[~/×/36f5e648e940f8b924c406d64a7694dc_MD5.jpg|25]]](https://en.wikipedia.org/wiki/File:Nintendo-Game-Boy-Cartridge.jpg)
 
 Original Game Boy Game Pak
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Nintendo-Game-Boy-Cartridge-Black.jpg/93px-Nintendo-Game-Boy-Cartridge-Black.jpg)](https://en.wikipedia.org/wiki/File:Nintendo-Game-Boy-Cartridge-Black.jpg)
+[![[~/×/1dabcece8492317a31195a552294f0b8_MD5.jpg|25]]](https://en.wikipedia.org/wiki/File:Nintendo-Game-Boy-Cartridge-Black.jpg)
 
 Color enhanced Game Boy Game Pak
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Nintendo-Game-Boy-Color-Cartridge.jpg/93px-Nintendo-Game-Boy-Color-Cartridge.jpg)](https://en.wikipedia.org/wiki/File:Nintendo-Game-Boy-Color-Cartridge.jpg)
+[![[~/×/484a23ec7e460f2c989cd6c625cb1c21_MD5.jpg|25]]](https://en.wikipedia.org/wiki/File:Nintendo-Game-Boy-Color-Cartridge.jpg)
 
 Game Boy Color Game Pak
 
@@ -94,7 +94,7 @@ Games are stored on cartridges called [Game Boy Game Paks](https://en.wikipedia.
 
 The Game Boy Color has backward compatibility with all original Game Boy games. Three main Game Pak cartridge types for the handheld were released:
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/GBC_keypad_palettes.png/220px-GBC_keypad_palettes.png)
+![[~/×/d84f74ffc963dfcd8b31e426b05908ab_MD5.png|25]]
 
 Samples of the color palettes and the key combinations to select them on an original Game Pak.
 
@@ -104,15 +104,15 @@ Samples of the color palettes and the key combinations to select them on an orig
 
 **Game Boy Color Game Pak** (Clear Case): Designed specifically for the Game Boy Color, these cartridges feature the full-color range (56 colors simultaneously out of a palette of 32,768) and benefit from the increased processing speed and memory of the Game Boy Color.[^day_2016-3] Because of this reliance on newer hardware, these games are incompatible with the older monochrome Game Boy models.[^33]
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Game-Boy-Color-Yellow.jpg/74px-Game-Boy-Color-Yellow.jpg)](https://en.wikipedia.org/wiki/File:Game-Boy-Color-Yellow.jpg)
+[![[~/×/70372de8700c2a6335ed613e9b4690d1_MD5.jpg|25]]](https://en.wikipedia.org/wiki/File:Game-Boy-Color-Yellow.jpg)
 
 Dandelion
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Gameboy_color.jpg/86px-Gameboy_color.jpg)](https://en.wikipedia.org/wiki/File:Gameboy_color.jpg)
+[![[~/×/46ea44baffa6ca29335ed0d556074bd3_MD5.jpg|25]]](https://en.wikipedia.org/wiki/File:Gameboy_color.jpg)
 
 Teal
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Game-Boy-Color-Purple.jpg/70px-Game-Boy-Color-Purple.jpg)](https://en.wikipedia.org/wiki/File:Game-Boy-Color-Purple.jpg)
+[![[~/×/5b5bdf6166dfcfd8116c2657421e97a4_MD5.jpg|25]]](https://en.wikipedia.org/wiki/File:Game-Boy-Color-Purple.jpg)
 
 Atomic Purple
 

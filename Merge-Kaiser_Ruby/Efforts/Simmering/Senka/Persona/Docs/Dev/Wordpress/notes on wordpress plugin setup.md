@@ -70,7 +70,7 @@ We now add the shortcode to the websites content.
 1. go to the **Appereance** in the navigation menu and select **Editor**
 	- this will open the [[Block Editor]]
 2. In the editor, click the **Plus** button and *search* for `shortcode`
-![shortcode|250](https://developer.files.wordpress.com/2022/11/image-3.png?w=1024)
+![[~/×/9ab325241348f334a1662399ffeffded_MD5.png|250]]
 3. Drag the `block` onto the [[wordpress page|page]] and *type* the name of the shortcode(`latest_post`) -> [latest_post]
 4. navigate to the **homepage**
 5. *check* that the **title** displayed is correct

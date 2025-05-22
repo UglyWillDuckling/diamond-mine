@@ -15,7 +15,7 @@ related:
 ---
 **David Mandessi Diop** (9 July 1927 – 29 August 1960)[^britannica-1] was a [French West African](https://en.m.wikipedia.org/wiki/French_West_Africa "French West Africa") poet known for his contribution to the [Négritude](https://en.m.wikipedia.org/wiki/N%C3%A9gritude "Négritude") literary movement.[^republika-2] His work reflects his anti-colonial stance.[^uniflorida-3]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Diop_gros_plan.png/220px-Diop_gros_plan.png)
+![[~/×/7203b9a7831a1b2385fab510f2505608_MD5.png]]
 
 David Diop
 

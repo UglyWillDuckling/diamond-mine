@@ -33,7 +33,7 @@ Anybody any advice?
 
 Attachments
 
-![](https://forums.virtualbox.org/images/upload_icons/txt.gif) [ubuntu-mate-22.04-2022-09-16-15-31-38.log](https://forums.virtualbox.org/download/file.php?id=47685)
+![[~/×/53036b38ddb474fb42ffd48a7d321a60_MD5.gif]] [ubuntu-mate-22.04-2022-09-16-15-31-38.log](https://forums.virtualbox.org/download/file.php?id=47685)
 
 (98.44 KiB) Downloaded 143 times
 

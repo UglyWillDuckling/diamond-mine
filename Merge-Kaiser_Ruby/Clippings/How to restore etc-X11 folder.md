@@ -9,7 +9,7 @@ tags:
   - howto/xorg
   - howto/fix
 ---
-- [/] #task fix [[xorg]] not working after longer wait ⏫ ⏳ 2025-03-31 📅 2025-03-30
+- [x] #task fix [[xorg]] not working after longer wait ⏫ ⏳ 2025-03-31 📅 2025-03-30 ✅ 2025-05-18
 ___
 Asked Modified [6 months ago](https://unix.stackexchange.com/questions/783146/?lastactivity "2024-09-07 07:45:07Z") Viewed 189 times
 

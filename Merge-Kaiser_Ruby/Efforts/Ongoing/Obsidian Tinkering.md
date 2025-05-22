@@ -11,7 +11,7 @@
 
 ### tasks
 
-- [ ] #task Try out [[Annotator plugin]] for epub books 🔼 ⏳ 2025-02-23 📅 2025-04-07 🆔 SbXM9G #dev #obsidian 
+- [ ] #task Try out [[Annotator plugin]] for epub books #dev #obsidian 🆔 SbXM9G ⏳ 2025-02-23 📅 2025-05-25
 
 - [x] #task merge **Ruby** Into **Kaiser** **🔼** ⏳ 2025-02-12 📅 2025-02-13 #obsidian |🔼 📅 2025-02-15 #task 🆔 pGTKZy ✅ 2025-02-26
 	- [x] basic merge

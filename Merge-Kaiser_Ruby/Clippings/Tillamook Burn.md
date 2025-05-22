@@ -15,13 +15,13 @@ aliases:
 ---
 The **Tillamook Burn** was a series of [forest fires](https://en.m.wikipedia.org/wiki/Forest_fire "Forest fire") in the [Northern Oregon Coast Range](https://en.m.wikipedia.org/wiki/Northern_Oregon_Coast_Range "Northern Oregon Coast Range") of [Oregon](https://en.m.wikipedia.org/wiki/Oregon "Oregon") in the [United States](https://en.m.wikipedia.org/wiki/United_States "United States") that destroyed a total area of 350,000 acres (140,000 hectares) of [old growth timber](https://en.m.wikipedia.org/wiki/Old_growth_forest "Old growth forest") in what is now known as the [Tillamook State Forest](https://en.m.wikipedia.org/wiki/Tillamook_State_Forest "Tillamook State Forest"). There were four wildfires in this series, which spanned the years of 1933–1951. By association, the name Tillamook Burn also refers to the location of these fires. This event is an important part of Oregon's history.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/WMA_button2b.png/17px-WMA_button2b.png "Show location on an interactive map")[45°32′N 123°17′W﻿ / ﻿45.54°N 123.29°W﻿ / 45.54; -123.29](https://geohack.toolforge.org/geohack.php?pagename=Tillamook_Burn&params=45.54_N_123.29_W_type:event_region:US-OR_dim:20km)
+![[~/×/d8c9f64bb42cf37babbe4bfa8b9b5f0d_MD5.png]][45°32′N 123°17′W﻿ / ﻿45.54°N 123.29°W﻿ / 45.54; -123.29](https://geohack.toolforge.org/geohack.php?pagename=Tillamook_Burn&params=45.54_N_123.29_W_type:event_region:US-OR_dim:20km)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/View_of_Tillamook_Fire%2C_Oregon_from_airplane_-_NARA_-_299308.jpg/350px-View_of_Tillamook_Fire%2C_Oregon_from_airplane_-_NARA_-_299308.jpg)
+![[~/×/ec4a7977eb2756da8e006d587af0f02b_MD5.jpg]]
 
 Aerial view of one of the fires in August 1933
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Tillamookburn.jpg/250px-Tillamookburn.jpg)
+![[~/×/30ae51f3a5ab4cb087481ff5ce2e71be_MD5.jpg]]
 
 The Tillamook burn photographed in 1941
 

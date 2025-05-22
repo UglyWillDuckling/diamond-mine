@@ -7,7 +7,7 @@ tags:
 related:
   - "[[dataview]]"
 ---
-![icon|50](https://blacksmithgu.github.io/obsidian-dataview/assets/obsidian.png)
+![[~/×/4fed18a162b83b59b90f2b52edf1ef5e_MD5.png|50]]
 
 Dataview JavaScript Codeblocks are created using the `dataviewjs` language specification for a codeblock:
 

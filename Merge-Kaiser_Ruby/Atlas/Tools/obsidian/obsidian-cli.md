@@ -11,7 +11,7 @@ tags:
 
 ---
 
-## [![obsidian-cli Usage](https://github.com/Yakitrak/obsidian-cli/raw/main/docs/usage.png)](https://github.com/Yakitrak/obsidian-cli/blob/main/docs/usage.png)## Description
+## [![[~/×/472a2d0c93f988edba5730f93279c9ed_MD5.png]]](https://github.com/Yakitrak/obsidian-cli/blob/main/docs/usage.png)## Description
 
 Obsidian is a powerful and extensible knowledge base application that works on top of your local folder of plain text notes. This CLI tool (written in Go) will let you interact with the application using the terminal. You are currently able to open, search, move, create, update and delete notes.
 

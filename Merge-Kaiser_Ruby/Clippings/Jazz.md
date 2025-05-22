@@ -16,7 +16,7 @@ The mid-1950s saw the emergence of [hard bop](https://en.m.wikipedia.org/wiki/Ha
 
 ## Etymology and definition
 
-Main article: [*Jazz* (word)](https://en.m.wikipedia.org/wiki/Jazz_\(word\) "Jazz (word)")![](https://upload.wikimedia.org/wikipedia/commons/e/eb/EubieBlake.jpg)
+Main article: [*Jazz* (word)](https://en.m.wikipedia.org/wiki/Jazz_\(word\) "Jazz (word)")![[~/×/f4e57e38cb8eee7a21e976f71f3a28db_MD5.jpg]]
 
 American jazz composer, lyricist, and pianist [Eubie Blake](https://en.m.wikipedia.org/wiki/Eubie_Blake "Eubie Blake") made an early contribution to the genre's etymology.
 
@@ -25,7 +25,7 @@ The origin of the word *[jazz](https://en.m.wikipedia.org/wiki/Jazz_\(word\) "Ja
 The use of the word in a musical context was documented as early as 1915 in the *[Chicago Daily Tribune](https://en.m.wikipedia.org/wiki/Chicago_Daily_Tribune "Chicago Daily Tribune").*[^4][^5] Its first documented use in a musical context in New Orleans was in a November 14, 1916, *[Times-Picayune](https://en.m.wikipedia.org/wiki/Times-Picayune "Times-Picayune")* article about "jas bands".[^6] In an interview with [National Public Radio](https://en.m.wikipedia.org/wiki/National_Public_Radio "National Public Radio"), musician [Eubie Blake](https://en.m.wikipedia.org/wiki/Eubie_Blake "Eubie Blake") offered his recollections of the slang connotations of the term, saying: "When [[Broadway]] picked it up, they called it 'J-A-Z-Z'. It wasn't called that. It was spelled 'J-A-S-S'. That was dirty, and if you knew what it was, you wouldn't say it in front of ladies."[^7]
 The [American Dialect Society](https://en.m.wikipedia.org/wiki/American_Dialect_Society "American Dialect Society") named it the [Word of the 20th Century](https://en.m.wikipedia.org/wiki/Word_of_the_year "Word of the year").[^8]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Albert_Gleizes%2C_1915%2C_Composition_pour_Jazz%2C_oil_on_cardboard%2C_73_x_73_cm%2C_Solomon_R._Guggenheim_Museum%2C_New_York.jpg/250px-Albert_Gleizes%2C_1915%2C_Composition_pour_Jazz%2C_oil_on_cardboard%2C_73_x_73_cm%2C_Solomon_R._Guggenheim_Museum%2C_New_York.jpg)
+![[~/×/fd72b40e8f23d4632ae2eb504b39f5b9_MD5.jpg]]
 
 [Albert Gleizes](https://en.m.wikipedia.org/wiki/Albert_Gleizes "Albert Gleizes"), 1915, *[Composition for "Jazz"](https://en.m.wikipedia.org/wiki/Composition_for_%22Jazz%22 "Composition for \"Jazz\"")* from the Solomon R. Guggenheim Museum, New York
 

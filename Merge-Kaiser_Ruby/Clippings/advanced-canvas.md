@@ -16,7 +16,7 @@ related:
   - "[[simple-canvasearch]]"
   - "[[Using Obsidian Canvas to Create Custom Dashboards]]"
 ---
-![icon](https://github.githubassets.com/favicons/favicon-dark.svg)
+![[~/×/229d748078e89b224aac4ea2cafd7498_MD5.svg]]
 
 **⚡ Supercharge** your canvas experience! Create presentations, flowcharts and more!
 ## Installation
@@ -101,7 +101,7 @@ All features can be enabled/disabled in the settings.
 
 Please consider supporting the plugin. There are many hours of work and effort behind it. The two easiest ways to support the plugin are either by starring ⭐ the repository or by donating any amount on [Ko-fi](https://ko-fi.com/X8X27IA08) ❤️. Thank you!
 
-[![ko-fi](https://camo.githubusercontent.com/70e2ef5e0263b261f9a2a314bb1d6919d1d43292eed117fe8fc766a68c7d96ea/68747470733a2f2f6b6f2d66692e636f6d2f696d672f676974687562627574746f6e5f736d2e737667)](https://ko-fi.com/X8X27IA08) [![Time Spent](https://camo.githubusercontent.com/be536cbcb7e50dffc25ed04bbeb033a108999239a8d8274e3472e76787f86fa4/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f77616b6170692e6465762f6170692f636f6d7061742f736869656c64732f76312f446576656c6f7065722d4d696b652f696e74657276616c3a616c6c5f74696d652f70726f6a6563743a6f6273696469616e2d616476616e6365642d63616e766173266c6162656c3d54696d652532305370656e74267374796c653d666f722d7468652d626164676526636f6c6f72413d66666666666626636f6c6f72423d666635653562)](https://camo.githubusercontent.com/be536cbcb7e50dffc25ed04bbeb033a108999239a8d8274e3472e76787f86fa4/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f77616b6170692e6465762f6170692f636f6d7061742f736869656c64732f76312f446576656c6f7065722d4d696b652f696e74657276616c3a616c6c5f74696d652f70726f6a6563743a6f6273696469616e2d616476616e6365642d63616e766173266c6162656c3d54696d652532305370656e74267374796c653d666f722d7468652d626164676526636f6c6f72413d66666666666626636f6c6f72423d666635653562)
+[![[~/×/756c3b1004d39763e8dfcdf4b5dfd3c4_MD5.svg]]](https://ko-fi.com/X8X27IA08) [![[~/×/15a53c19901557455b4144cbde88842f_MD5.svg]]](https://camo.githubusercontent.com/be536cbcb7e50dffc25ed04bbeb033a108999239a8d8274e3472e76787f86fa4/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470733a2f2f77616b6170692e6465762f6170692f636f6d7061742f736869656c64732f76312f446576656c6f7065722d4d696b652f696e74657276616c3a616c6c5f74696d652f70726f6a6563743a6f6273696469616e2d616476616e6365642d63616e766173266c6162656c3d54696d652532305370656e74267374796c653d666f722d7468652d626164676526636f6c6f72413d66666666666626636f6c6f72423d666635653562)
 
 ## Better Default Settings
 
@@ -135,7 +135,7 @@ You can customize the default node styles using the settings.
 
 ### Node Shapes
 
-Flowchart Example [![Flowchart Example](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/sample-flowchart.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/sample-flowchart.png) 
+Flowchart Example [![[~/×/960d663836cc22547d642871846498cb_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/sample-flowchart.png) 
 
 #### Usage
 
@@ -143,13 +143,13 @@ Flowchart Example [![Flowchart Example](https://github.com/Developer-Mike/obsidi
 
 #### Shapes
 
-Terminal Shape [![Terminal Shape](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/flowchart-nodes/terminal.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/terminal.png)  Process/Center Shape [![Process/Center Shape](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/flowchart-nodes/process.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/process.png)  Decision Shape [![Decision Shape](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/flowchart-nodes/decision.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/decision.png)  Input/Output Shape [![Input/Output Shape](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/flowchart-nodes/input-output.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/input-output.png)  On-page Reference Shape [![On-page Reference Shape](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/flowchart-nodes/reference.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/reference.png)  Predefined Process Shape [![Predefined Process Shape](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/flowchart-nodes/predefined-process.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/predefined-process.png)  Document Shape [![Document Shape](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/flowchart-nodes/document.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/document.png)  Database Shape [![Database Shape](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/flowchart-nodes/database.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/database.png) 
+Terminal Shape [![[~/×/64b3a6d7fdb9d132282bffed39224ba5_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/terminal.png)  Process/Center Shape [![[~/×/1314e97aac978c635e9e45e978d6ad12_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/process.png)  Decision Shape [![[~/×/9e2d0fdc22cc15567b602a6114b5c596_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/decision.png)  Input/Output Shape [![[~/×/b11be140e7ef3d560cb089d10ce028dd_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/input-output.png)  On-page Reference Shape [![[~/×/f675b854120af1f462f758fafb468c89_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/reference.png)  Predefined Process Shape [![[~/×/421a32e29cf0c53b162a843a002171ca_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/predefined-process.png)  Document Shape [![[~/×/255ba0b33f0cbf02f2b8513a1df796de_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/document.png)  Database Shape [![[~/×/dffef2ddd0d8ab4964901118eb657b07_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/flowchart-nodes/database.png) 
 
 ### Border Styles
 
 Set the style of the border to dotted, dashed or invisible.
 
-Border Styles Example [![Border Styles Example](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/border-styles.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/border-styles.png) 
+Border Styles Example [![[~/×/6c20869184680d1b8b98ed0aae2410df_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/border-styles.png) 
 
 ## Edge Styles
 
@@ -159,19 +159,19 @@ You can customize the default edge styles using the settings.
 
 Set the style of the edge paths to dotted, short-dashed or long-dashed.
 
-Edge Styles Example [![Edge Path Styles Example](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/edge-path-styles.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/edge-path-styles.png) 
+Edge Styles Example [![[~/×/e2f90339410e0aade97588b4b9b9bcfc_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/edge-path-styles.png) 
 
 ### Arrow Styles
 
 Set the style of the arrows to triangle outline, halved triangle, thin triangle, diamond, diamond outline, circle or circle outline.
 
-Arrow Styles Example [![Edge Arrow Styles Example](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/edge-arrow-styles.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/edge-arrow-styles.png) 
+Arrow Styles Example [![[~/×/8c0bee521c8bceb8c53125095b957cb8_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/edge-arrow-styles.png) 
 
 ### Pathfinding Methods
 
 Set the pathfinding method of the edges (arrows) to default, straight, squared or A\*.
 
-Path Styles Example [![Edge Pathfinding Methods Example](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/edge-pathfinding-methods.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/edge-pathfinding-methods.png) 
+Path Styles Example [![[~/×/373a6fd2ee1fa4bdf6f341db6978fdea_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/edge-pathfinding-methods.png) 
 
 ## Custom Styles
 
@@ -212,7 +212,7 @@ Custom style attributes for nodes and edges can easily be added.
 }
 ```
 3. Reload Obsidian and enjoy your new custom style!  
-[![Custom Style Attribute Example](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/custom-style-attribute-example.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/custom-style-attribute-example.png)
+[![[~/×/e997961376f444f4b04c04809865613c_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/custom-style-attribute-example.png)
 
 ## Custom Colors
 
@@ -226,21 +226,21 @@ Add custom colors to the color picker. You can add them using the following css 
 }
 ```
 
-Custom Colors In Palette [![Custom Colors In Palette](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/custom-colors.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/custom-colors.png) 
+Custom Colors In Palette [![[~/×/a83a7458ad0f1079943d24bca8356610_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/custom-colors.png) 
 
 ## Presentation Mode
 
 In presentation mode, you can navigate through the nodes using the arrow keys or the PageUp/PageDown keys (Compatible with most presentation remotes). The different slides/nodes are connected using arrows. If you want to have multiple arrows pointing from the same node, you can number them in the order you want to navigate through them. While in presentation mode, the canvas is in readonly mode (So [better readonly](https://github.com/Developer-Mike/#better-readonly) effects the presentation mode as well!). You can exit the presentation mode using the `ESC` key or the corresponding command. If you want to continue the presentation from the last slide you were on, you can use the `Advanced Canvas: Continue presentation` command.
 
-[![Presentation mode example](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/sample-presentation-simple.gif)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/sample-presentation-simple.gif)
+[![[~/×/7c104726546491fc2d1149f17884448f_MD5.gif]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/sample-presentation-simple.gif)
 
-Canvas File [![Presentation canvas file](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/sample-presentation-simple.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/sample-presentation-simple.png) 
+Canvas File [![[~/×/96f20804b62e49535989e2e0265892ec_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/sample-presentation-simple.png) 
 
 ### More Complex Example
 
-[![Complex presentation mode example](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/sample-presentation-complex.gif)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/sample-presentation-complex.gif)
+[![[~/×/ed3bcf361de2d2ad498e771a6be21955_MD5.gif]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/sample-presentation-complex.gif)
 
-Canvas File [![Complex presentation canvas file](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/sample-presentation-complex.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/sample-presentation-complex.png) 
+Canvas File [![[~/×/b7cf468777566e4185db6f587312cfd9_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/sample-presentation-complex.png) 
 
 ### Usage
 
@@ -260,7 +260,7 @@ Canvas File [![Complex presentation canvas file](https://github.com/Developer-Mi
 
 Embed other canvases inside your canvas and create edges (arrows) to the embedded canvas.
 
-[![Portal example](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/sample-portal-usage.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/sample-portal-usage.png)
+[![[~/×/7b98082ef482fe3bfbd2090b5ec4649a_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/sample-portal-usage.png)
 
 ### Usage
 
@@ -270,19 +270,19 @@ Embed other canvases inside your canvas and create edges (arrows) to the embedde
 
 Collapse and expand groups to organize your canvas.
 
-Collapsible Groups Example [![Collapsible Groups Example](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/collapsible-groups.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/collapsible-groups.png) 
+Collapsible Groups Example [![[~/×/89c5a76ce2343e5f75069711f0c9fe5f_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/collapsible-groups.png) 
 
 ## Auto Node Resizing
 
 Resize nodes automatically when the text content changes.
 
-Auto Node Resizing Example [![Auto Node Resizing Example](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/auto-node-resizing.gif)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/auto-node-resizing.gif) 
+Auto Node Resizing Example [![[~/×/ba55f93ba2ab56980fa2ababb5f6ca87_MD5.gif]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/auto-node-resizing.gif) 
 
 ## Focus Mode
 
 Focus on a single node and blur all other nodes.
 
-Focus Mode Example [![Focus Mode](https://github.com/Developer-Mike/obsidian-advanced-canvas/raw/main/assets/focus-mode.png)](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/focus-mode.png) 
+Focus Mode Example [![[~/×/0c680150d9c102e70b106e90b78e635e_MD5.png]]](https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/assets/focus-mode.png) 
 
 ## Better Readonly
 

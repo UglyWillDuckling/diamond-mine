@@ -18,7 +18,7 @@ Strauss was the son of [Johann Strauss I](https://en.m.wikipedia.org/wiki/Johann
 
 ## Musical rivals and admirers
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Strauss_Monument.JPG/220px-Strauss_Monument.JPG)
+![[~/×/58e0860d7b0be73eda4ed2614b5cc799_MD5.jpg]]
 
 Statue of the Waltz King in [Stadtpark, Vienna](https://en.m.wikipedia.org/wiki/Stadtpark,_Vienna "Stadtpark, Vienna")
 
@@ -32,7 +32,7 @@ Most of the Strauss works that are performed today may once have existed in a sl
 
 Two museums in Vienna are dedicated to Johann Strauss II. His [residence in the Praterstrasse](https://en.m.wikipedia.org/wiki/Vienna_Museum#Johann_Strauss_residence "Vienna Museum"), where he lived in the 1860s, is now part of the [Vienna Museum](https://en.m.wikipedia.org/wiki/Vienna_Museum "Vienna Museum"). The [Strauss Museum](https://en.m.wikipedia.org/wiki/Strauss_Museum "Strauss Museum") is about the whole family, with a focus on Johann Strauss II.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Johann_Strauss_II%2C_silhouette.jpg/170px-Johann_Strauss_II%2C_silhouette.jpg)
+![[~/×/8579a46bb9433c2a858aa87bc7d3515e_MD5.jpg]]
 
 Silhouette by [Otto Böhler](https://en.m.wikipedia.org/wiki/Otto_B%C3%B6hler "Otto Böhler")
 

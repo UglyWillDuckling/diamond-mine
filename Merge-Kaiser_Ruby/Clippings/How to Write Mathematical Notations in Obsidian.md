@@ -19,11 +19,11 @@ Despite their extensive user interfaces, even text editors like Microsoft Word c
 
 In reality, writing math in Obsidian is more straightforward than in Word, thanks to its native support for MathJax, a JavaScript library that enables users to input math notations.
 
-![Math syntax in Obsidian](https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/07/obsidian-math-syntax.jpg)
+![[~/×/b1fcfd2cee79aaae67b534279aaa5508_MD5.avif]]
 
 Thanks to MathJax, you can write math notations in Obsidian effortlessly, without even moving your mouse. All the necessary tools are already available on your keyboard. To begin a math notation, all you have to do is enclose your formula in dollar signs (**$**). Using double dollar signs (**$$**) dedicates an entire line.
 
-![Basic MathJax codes in Obsidian](https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/07/obsidian-math-codes.jpg)
+![[~/×/2dfb47e2fcb4cb2a15c10c542a28d612_MD5.avif]]
 
 MathJax uses specific codes for inputting symbols. To type special characters, you can enter the code for a symbol after a backslash (**\\**). When writing math notations, the circumflex (^) indicates a superscript, and the underscore (**\_**) indicates a subscript.
 
@@ -35,7 +35,7 @@ $$A = \pi r^2$$
 
 In this syntax, **\\pi** summons the symbol for pi, and **r^2** displays **r** as a power of two. You can input other Greek characters similarly: a backslash and the symbol's name.
 
-![obsidian-math-fractions](https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/07/obsidian-math-fractions.jpg)
+![[~/×/0db8ef35e2ceb5841ec2f512b314be77_MD5.avif]]
 
 Another usage of MathJax is typing fractions in Obsidian:
 
@@ -45,7 +45,7 @@ $$\frac{numerator}{denominator}$$
 
 After typing **\\frac** in the syntax, you must include two sets of curly brackets. The content of the first set will be the numerator, while the content of the second set will be the denominator.
 
-![Math notations in Obsidian](https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/07/obsidian-math-advanced.jpg)
+![[~/×/c32f3fc704b5d2cedfdfac3686903b22_MD5.avif]]
 
 With knowledge of MathJax in Obsidian and the code for a specific symbol, you can also input more complex mathematical symbols such as sum, limit, integral, and much more. You can use math notations with other [Markdown elements in Obsidian](https://www.makeuseof.com/formatting-notes-in-obsidian-a-beginners-guide/).
 
@@ -57,13 +57,13 @@ The Latex Suite plugin makes math even easier. This plugin simplifies the proces
 
 You can install Latex Suite as you would [install any Obsidian plugin](https://www.makeuseof.com/install-obsidian-plugins/). It is available both on [GitHub](https://github.com/artisticat1/obsidian-latex-suite) and the Obsidian community plugins page.
 
-![Auto fraction with Latex Suite in Obsidian](https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/07/auto-fraction-anim.gif)
+![[~/×/d3a9a923138b9f578dcf6ff11e12ff5a_MD5.gif]]
 
 Once you've installed Latex Suite, enable it from the settings and review the designated snippets. For instance, if you type a slash after a number, Latex Suite automatically initiates a fraction. From there, all you have to do is type the numerator and denominator, press **Tab** to exit the fraction, and continue typing the rest of your expression.
 
 Latex Suite replaces complex MathJax codes with their preview format to simplify your code. Once you move your cursor to the preview inside the code, it'll display the original MathJax code for you to edit. As a result, your MathJax code becomes more concise and easier to navigate.
 
-![Latex Suite settings in Obsidian](https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/07/latex-suite-settings.jpg)
+![[~/×/16f1ad2d84bfe0c009b45e3c49b50e55_MD5.avif]]
 
 For more information on Latex Suite's capabilities, visit its GitHub page. If you want to know all the snippets, view the complete snippet code in the plugin's settings inside Obsidian.
 

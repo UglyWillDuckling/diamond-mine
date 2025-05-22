@@ -10,11 +10,11 @@ tags:
 
 Most lessons offer low-level details in a linear, seemingly logical sequence. Better Explained focuses on the big picture — the Aha! moment — and then the specifics. Here’s the difference:
 
-![Math lessons that click](https://betterexplained.com/wp-content/uploads/calculus/baseline_vs_progressive.png)
+![[~/×/2c7d6c40d7caca13bb1e7fe82d04de02_MD5.png]]
 
 I know which approach keeps my curiosity and enthusiasm. The learning strategy is the [ADEPT Method](https://betterexplained.com/articles/adept-method/):
 
-[![Math lessons that click](https://betterexplained.com/wp-content/uploads/adept/adept-method.png)](https://betterexplained.com/articles/adept-method/)
+[![[~/×/c773ab85c53f9b5c899cb72834a1d5c1_MD5.png]]](https://betterexplained.com/articles/adept-method/)
 
 Learning isn’t about memorizing facts to pass a test. It’s about unlocking the joy of discovery when an idea finally makes sense. If this approach resonates with you, welcome aboard.
 

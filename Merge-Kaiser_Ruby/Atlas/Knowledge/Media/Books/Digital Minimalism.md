@@ -7,7 +7,7 @@ tags:
   - reading
 read: 
 ---
-![poster](http://books.google.com/books/content?id=uS9eDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api)
+![[~/×/470439b6961e8f6ebd3b1707e9bee339_MD5.jpg]]
 
 **Author**:: [[Cal Newport]]
 **Title**:: [Digital Minimalism - Choosing a Focused Life in a Noisy World](http://books.google.com/books?id=uS9eDwAAQBAJ&printsec=frontcover&dq=intitle:Digital+Minimalism&hl=&cd=1&source=gbs_api)

@@ -13,7 +13,7 @@ related:
   - "[[setup mail server trial]]"
   - "[[mail command]]"
 ---
-![Image of Linux terminal with mail command focusing on email communication and message handling](https://ioflood.com/blog/wp-content/uploads/2023/12/Image-of-Linux-terminal-with-mail-command-focusing-on-email-communication-and-message-handling-300x300.jpg.webp)
+![[~/×/4433fc23c571e0def7afb131211244a6_MD5.webp]]
 
 Are you finding it challenging to send emails from the terminal using the mail command in Linux? You’re not alone. Many system administrators and developers find themselves in a similar situation, but there’s a tool that can make this process a breeze. Think of the ‘mail’ command in Linux as a postman – it can deliver your messages straight from the command line. This command is a powerful utility that can seamlessly send your emails, even with attachments, directly from the terminal.
 

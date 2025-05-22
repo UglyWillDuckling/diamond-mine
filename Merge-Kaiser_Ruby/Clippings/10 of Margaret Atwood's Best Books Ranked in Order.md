@@ -16,7 +16,7 @@ This list focuses on ten of the best. Some, such as *The Handmaid’s Tale* and 
 
 ## *[The Handmaid’s Tale](https://bookanalysis.com/margaret-atwood/the-handmaids-tale/)*
 
-![The Handmaid’s Tale Digital Art](https://bookanalysis.com/wp-content/uploads/2022/04/The-Handmaids-Tale-by-Margaret-Atwood-Digital-Art-1024x640.jpg)
+![[~/×/cedbbf1e4b190092e2e15fb9447ba322_MD5.jpg]]
 
 *The Handmaid’s Tale* Digital Art
 
@@ -28,7 +28,7 @@ Throughout the novel, the reader learns, through flashbacks, what happened befor
 
 ## *Oryx & Crake* 
 
-![Visual interpretation of Oryx & Crake](https://bookanalysis.com/wp-content/uploads/2023/05/Oryx-Crake-novel-artwork-1024x683.jpg)
+![[~/×/4cb578c85dc3bc897c160bc6906bdf68_MD5.jpg]]
 
 Jimmy, alone in the post-apocalyptic landscape of the novel
 
@@ -36,7 +36,7 @@ Jimmy, alone in the post-apocalyptic landscape of the novel
 
 ## *The Robber Bride* 
 
-![Artwork of Zenia from The Robber Bride](https://bookanalysis.com/wp-content/uploads/2023/05/The-Robber-Bride-novel-artwork-1024x683.jpg)
+![[~/×/cad64286238a90a71c4b3f506471062a_MD5.jpg]]
 
 Zenia, the “home-wrecker” of the novel *The Robber Bride*
 
@@ -44,7 +44,7 @@ Published in 1993, *The Robber Bride* is set in modern-day Toronto, Canada, and 
 
 ## *The Blind Assassin* 
 
-![Margaret Atwood's Top 10 Books Ranked 1](https://bookanalysis.com/wp-content/uploads/2023/05/The-Blind-Assassin-novel-artwork-1-1024x683.jpg)
+![[~/×/236b6ac019eacaa0401410e70aae800b_MD5.jpg]]
 
 Young Iris and Laura, the focuses of *The Blind Assassin*
 
@@ -52,7 +52,7 @@ Young Iris and Laura, the focuses of *The Blind Assassin*
 
 ## *The Testaments* 
 
-![Visual representation of the novel The Testaments](https://bookanalysis.com/wp-content/uploads/2023/05/The-Testaments-novel-artwork-1024x683.jpg)
+![[~/×/a40b95bb42e8367913b0774495b18921_MD5.jpg]]
 
 The cover of *The Testaments* depicts a green-cloaked Handmaiden
 
@@ -60,7 +60,7 @@ The cover of *The Testaments* depicts a green-cloaked Handmaiden
 
 ## *Alias Grace* 
 
-![Grace Marks of Alias Grace in prison](https://bookanalysis.com/wp-content/uploads/2023/05/Alias-Grace-novel-artwork-1024x683.jpg)
+![[~/×/d17d0a0f633eb20a1ed25c84dc1a5cfe_MD5.jpg]]
 
 Grace Marks, the main focus of *Alias Grace*, in jail for her alleged crimes
 
@@ -68,7 +68,7 @@ Grace Marks, the main focus of *Alias Grace*, in jail for her alleged crimes
 
 ## *Hag-Seed* 
 
-![Hag-Seed's Felix loses theater job](https://bookanalysis.com/wp-content/uploads/2023/05/Hag-Seed-novel-artwork-1024x683.jpg)
+![[~/×/60e45f6bec72821f58b5d7e71935ca59_MD5.jpg]]
 
 Felix loses his dream job at the theater in the novel, *Hag-Seed*
 
@@ -76,7 +76,7 @@ Felix loses his dream job at the theater in the novel, *Hag-Seed*
 
 ## *Surfacing* 
 
-![Cabin in the woods from Surfacing](https://bookanalysis.com/wp-content/uploads/2023/05/Surfacing-novel-artwork-1024x683.jpg)
+![[~/×/30db4d8c2df91bfc14045f205a3d3862_MD5.jpg]]
 
 *Surfacing*‘s protaganist searches an old cabin in the woods for her father
 
@@ -84,7 +84,7 @@ Felix loses his dream job at the theater in the novel, *Hag-Seed*
 
 ## *Cat’s Eye* 
 
-![Artistic interpretation of a young Margaret Atwood](https://bookanalysis.com/wp-content/uploads/2023/05/Cats-Eye-novel-artwork-1024x683.jpg)
+![[~/×/26e08a1a5befaf028f23eea9d496950c_MD5.jpg]]
 
 *Cat’s Eye* focuses on the story of Margaret Atwood’s life, and how it shaped her
 
@@ -92,7 +92,7 @@ Felix loses his dream job at the theater in the novel, *Hag-Seed*
 
 ## *The Heart Goes Last* 
 
-![Charmaine and Stan from The Heart Goes Last ](https://bookanalysis.com/wp-content/uploads/2023/05/The-Heart-Goes-Last-novel-artwork-1024x683.jpg)
+![[~/×/470a413ac490b816e1540cf74bc67206_MD5.jpg]]
 
 The couple sit in their car home and discuss future possibilities
 

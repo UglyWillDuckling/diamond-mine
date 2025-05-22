@@ -39,7 +39,7 @@ Monáe signed to the label, Bad Boy, in 2006. The label's chief role was to faci
 
 ### *Metropolis* and *The ArchAndroid* (2007–2011)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Janellemonae_%28300dpi%29.jpg/220px-Janellemonae_%28300dpi%29.jpg)
+![[~/×/da6592009c8d25f02c7354f8d3e63f63_MD5.jpg]]
 
 Monáe performing at the Austin Music Hall in 2009
 
@@ -57,7 +57,7 @@ In September 2011, Monáe was featured as a guest vocalist on [fun.](https://en.
 
 Monáe was also featured on "Do My Thing" for [Estelle](https://en.wikipedia.org/wiki/Estelle_\(musician\) "Estelle (musician)")'s studio album, *[All of Me](https://en.wikipedia.org/wiki/All_of_Me_\(Estelle_album\) "All of Me (Estelle album)")*. In June 2012, Monáe performed two new songs, "Electric Lady" and "Dorothy Dandridge Eyes" – from her then-upcoming sophomore studio album, *[The Electric Lady](https://en.wikipedia.org/wiki/The_Electric_Lady "The Electric Lady")* – at the Toronto Jazz Festival.[^50] In July 2012, for the second year in a row, Monáe appeared at the [North Sea Jazz](https://en.wikipedia.org/wiki/North_Sea_Jazz "North Sea Jazz") Festival in Europe as well as in the 46th edition of the Montreux Jazz Festival in Switzerland on the 14th.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Janelle_Mon%C3%A1e_-_Way_Out_West_2014.jpg/220px-Janelle_Mon%C3%A1e_-_Way_Out_West_2014.jpg)
+![[~/×/408ce2163b864e997bcfa5003900405f_MD5.jpg]]
 
 Monáe performing at [Way Out West](https://en.wikipedia.org/wiki/Way_Out_West_\(festival\) "Way Out West (festival)") in Gothenburg, Sweden, on August 8, 2014
 
@@ -75,7 +75,7 @@ In mid-2014, Monáe had an interview with Fuse where she teased a follow-up to *
 
 ### *The Eephus*, *Moonlight*, and *Hidden Figures* (2015–2016)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Janelle_Mon%C3%A1e_2016.jpg/220px-Janelle_Mon%C3%A1e_2016.jpg)
+![[~/×/508fdd13301052ef910d3c931d18b014_MD5.jpg]]
 
 Monáe at the premiere of [*Moonlight*](https://en.wikipedia.org/wiki/Moonlight_\(2016_film\) "Moonlight (2016 film)") in 2016
 
@@ -93,7 +93,7 @@ In October 2016, Monáe made her big screen acting debut in the critically accla
 
 ### *Dirty Computer* and other projects (2017–2022)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Janelle_Mon%C3%A1e_Dirty_Computer_Tour_2018.jpg/220px-Janelle_Mon%C3%A1e_Dirty_Computer_Tour_2018.jpg)
+![[~/×/7b1097cb91cfdf7e609d169994d31925_MD5.jpg]]
 
 Janelle Monáe performing at the Dirty Computer Tour
 
@@ -115,7 +115,7 @@ In 2022, Monáe portrayed twin sisters Helen and Cassandra "Andi" Brand in *[Gla
 
 ### *The Age of Pleasure* (2023)
 
-![Photo of Monae looking into the camera while gripping the brim of their oversized straw hat](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Janelle_Monae_Age_Of_PleasureTour_2023.jpg/201px-Janelle_Monae_Age_Of_PleasureTour_2023.jpg)
+![[~/×/ed19604858b264031ea27e4274ff0545_MD5.jpg]]
 
 Janelle Monae performing during 'The Age of Pleasure' tour in 2023
 
@@ -137,7 +137,7 @@ Monáe's roots in Kansas City, Kansas, where she was born and raised, are eviden
 
 —Monáe, on her image and artistic freedom[^io9.com-138]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Janelle_Monae_at_the_2022_TIFF_Premiere_of_Glass_Onion-_A_Knives_Out_Mystery_%2852358878321%29_%28cropped%29.jpg/164px-Janelle_Monae_at_the_2022_TIFF_Premiere_of_Glass_Onion-_A_Knives_Out_Mystery_%2852358878321%29_%28cropped%29.jpg)
+![[~/×/5f198c0c1d86d11749c58557238f83d0_MD5.jpg]]
 
 Janelle Monáe is known for her eccentric style
 

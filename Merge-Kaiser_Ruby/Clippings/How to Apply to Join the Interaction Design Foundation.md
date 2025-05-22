@@ -6,7 +6,7 @@ published:
 created: 2025-04-17
 tags:
 ---
-![](https://assets.interaction-design.org/build/assets/careers-Dq820yFy.jpg)
+![[~/×/97d315396208821954273b22e113ff3c_MD5.jpg]]
 
 ## Join Our Team: Shape the Design Education of Tomorrow
 

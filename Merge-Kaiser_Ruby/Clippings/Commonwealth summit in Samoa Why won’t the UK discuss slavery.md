@@ -88,7 +88,7 @@ However, UK officials succeeded in removing this separate section from the commu
 
 It mentioned calls for “discussions on reparatory justice with regard to the transatlantic trade in enslaved Africans and chattel enslavement… agreed that the time has come for a meaningful, truthful and respectful conversation towards forging a common future based on equity”.
 
-![Commonwealth Heads of Government Meeting](https://www.aljazeera.com/wp-content/uploads/2024/10/AP24299100993099-1729865152.jpg?w=770&resize=770%2C513&quality=80)
+![[~/×/18142a3bb4ac8d6b5927fc4a3f4327e1_MD5.jpg]]
 
 Britain’s prime minister, Keir Starmer, centre, watches as dancers perform during the opening ceremony for the Commonwealth Heads of Government Meeting (CHOGM) in Apia, Samoa, on Friday, October 25, 2024 \[William West/AP\]
 

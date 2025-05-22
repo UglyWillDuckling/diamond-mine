@@ -5,7 +5,7 @@ published:
 created: 2025-03-10
 tags:
 ---
-![Shenzhen, China](https://mpolinowski.github.io/assets/images/photo-kt443t6d_64hdh43hfh6dgjdfhg4_d-bdb08691301ecbfc0de5c0bac3e0f0be.jpg)
+![[~/×/1dbd65b7112e61e062dea920da384d1c_MD5.jpg]]
 
 - [Emulation](https://mpolinowski.github.io/docs/DevOps/Linux/2021-10-24--arch-linux-install-mesen/2021-10-24/#emulation)
 - [Installing dependencies](https://mpolinowski.github.io/docs/DevOps/Linux/2021-10-24--arch-linux-install-mesen/2021-10-24/#installing-dependencies)

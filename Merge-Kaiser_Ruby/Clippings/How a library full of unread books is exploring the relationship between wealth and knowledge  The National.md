@@ -33,7 +33,7 @@ But this refusal to index also has the effect of forcing people to engage with b
 
 Chong has played with similar ideas before. In 2015, for example, as part of a solo show at the South London Gallery, he placed a random selection of second-­hand books in the gallery shop. He wanted visitors to "think about why these titles are in this bookshop, in this context". It is as if, through placing books in unexpected places, Chong gives them, and the knowledge within them, new life.
 
-![The artist Heman Chong, who co-founded The Library of Unread Books with Renee Staal](https://thenational-the-national-prod.cdn.arcpublishing.com/resizer/v2/KVBRHMOQJK2M7HSCO7QJYICVXY.jpg?smart=true&auth=3f3cd473cfce85abca54638d1940d34575682094974d757141fe25d2670e66df&width=400&height=244)
+![[~/×/06da492f60a4098b648efccdc5aa9ac6_MD5.jpg]]
 
 The artist Heman Chong, who co-founded The Library of Unread Books with Renee Staal
 

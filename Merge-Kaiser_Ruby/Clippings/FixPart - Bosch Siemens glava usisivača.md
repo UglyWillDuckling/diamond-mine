@@ -20,7 +20,7 @@ TrustedShops certificirano
 
 ](https://www.trustedshops.eu/buyerrating/info_X09916A7ADAECEB74F43A60DD4645316E.html)
 
-[![FixPart logotip](https://fixpart.hr/img/logo-white.svg "FixPart")](https://fixpart.hr/)
+[![[~/×/460b1ba8a6b13948b7ef321a1fd4d708_MD5.svg]]](https://fixpart.hr/)
 
 **Tražite** proizvod ili uređaj
 
@@ -38,13 +38,13 @@ Služba za korisnike
 
   (8 recenzija)](https://fixpart.hr/proizvod/?apl=2759694#reviews)
 
-![Bosch Siemens glava usisivača slika 1](https://cdn.fixpart.net/311950704/51309567e3b8488108b8954c58cf9c1a.jpg)
+![[~/×/2f09d88347776dd63c1a554a0db78d7f_MD5.jpg]]
 
-![Bosch Siemens glava usisivača slika 2](https://cdn.fixpart.net/311950704/c7e5305c757caa3c094560d7151ab6f2.jpg)
+![[~/×/96a2800f6643b99e2e26b802f97b24c7_MD5.jpg]]
 
-![Bosch Siemens glava usisivača slika 3](https://cdn.fixpart.net/311950704/792dffb40847cc365451b3b00de1d067.jpg)
+![[~/×/682e5b534f8320042f769b31ca7cce89_MD5.jpg]]
 
-![Bosch Siemens glava usisivača slika 4](https://cdn.fixpart.net/311950704/f3d49aabcdf0d3a9151e0b77f26a7286.jpg)
+![[~/×/6484883fcbd2b045d015a501800738ea_MD5.jpg]]
 
 72,53 €
 

@@ -7,7 +7,7 @@ tags:
   - bestlist/film/85
   - year85
 ---
-![](https://editorial.rottentomatoes.com/wp-content/uploads/2025/03/700BackToTheFuture.jpg?w=700)
+![[~/×/c39d8c78482ab9d697627ed5bb7ee64b_MD5.jpg]]
 
 **While 1985** has no shortage of highfalutin cinematic endeavors, it is equally defined by its brash, epic, and often counter-cultural crowd-pleasers. **This 100 Best Movies guide highlights the top films of 1985 based on Tomatometer score, with Certified Fresh films first, followed by Fresh and Rotten movies with at least 1,000 user ratings on the Popcornmeter.**  
   

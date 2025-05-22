@@ -7,7 +7,7 @@ created: 2025-01-29
 tags:
 related:
 ---
-![icon|50](https://publish.obsidian.md/favicon.ico?4bb6aa9a821f975db2a1)
+![[~/×/86cb6957b34a2e7956808e34a1f55c1e_MD5.ico|50]]
 
 about:: [[Atlas/Knowledge/Knowledge/tools/Tasks plugin]]
 ## Motivation and assumptions

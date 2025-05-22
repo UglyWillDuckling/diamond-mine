@@ -18,7 +18,7 @@ Yanagita was born as the fifth child of the Matsuoka family in the town of [Fuku
 
 Yanagita was known from a fairly young age for his interest in literature, particularly that of poetry. He also was a fan of Western literature. As he began to take an interest in folklore, Yanagita began reading ethnologies by Western anthropologists, such as [Edward Burnett Tylor](https://en.m.wikipedia.org/wiki/Edward_Burnett_Tylor "Edward Burnett Tylor"), shaping his later work.[^:0-1]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Matsuoka5brothers.JPG/200px-Matsuoka5brothers.JPG)
+![[~/×/cbf0a263d2bae976cef85f9545318ed2_MD5.jpg]]
 
 The Matsuoka brothers prior to Kunio's adoption by Yanagita
 
@@ -34,7 +34,7 @@ Yanagita's focus on local traditions was part of a larger effort to insert the l
 
 As a whole, Yanagita's work is highly memorable and genre-defining. He is one of the premiere folklorists of Japan, and he helped to create the field of *minzokugaku* itself, earning him the title of "father of modern Japanese folklore."[^:2-6]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kunio_yanagita01_1920.jpg/250px-Kunio_yanagita01_1920.jpg)
+![[~/×/31668d5ecc1cb960868c942494eb60fd_MD5.jpg]]
 
 Yakusai Matsuoka's home
 

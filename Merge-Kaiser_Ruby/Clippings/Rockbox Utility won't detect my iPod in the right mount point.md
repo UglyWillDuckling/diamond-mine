@@ -9,22 +9,22 @@ tags:
 related:
   - "[[rockbox]]"
 ---
-![icon](https://forums.rockbox.org/favicon.ico)
-### ![](https://forums.rockbox.org/Themes/Classic/images/topic/normal_post.gif) Topic: Rockbox Utility won't detect my iPod in the right mount point  (Read 1596 times)
+![[~/×/689995b5db91eb2ebd9c68e6205e76f1_MD5.ico]]
+### ![[~/×/abcc574f037005c2cb577418d28f1b10_MD5.gif]] Topic: Rockbox Utility won't detect my iPod in the right mount point  (Read 1596 times)
 
 I just plugged in my iPod and executed the utility app on Windows 10 but, for some reason, it  
 keeps telling me it can't detect it on mount point G:/, even though its actually on F:/ and I can't  
 change the mount point in the configuration to the actual one. I'm stuck on G:/ in the dropdown menu  
 so I'm unable to do anything with my iPod.
 
-![](https://forums.rockbox.org/Themes/Classic/images/ip.gif) Logged
+![[~/×/8ac61eb352fd349833969bf3dab7c383_MD5.gif]] Logged
 
 ---
 
 Actually, I just unplugged the iPod and, for some reason,  
 the Utility app is still detecting an iPod device that doesn't even exist.
 
-![](https://forums.rockbox.org/Themes/Classic/images/ip.gif) Logged
+![[~/×/8ac61eb352fd349833969bf3dab7c383_MD5.gif]] Logged
 
 ---
 
@@ -35,7 +35,7 @@ That's not "detecting". It loads and shows the previously used configuration val
 
 Additionally, it filters out all devices that have an incompatible filesystem. I suspect this to be the case here. Please go to Help / System Trace, save the trace file and post it so we can understand what happened. These screenshots aren't helpful for that.
 
-![](https://forums.rockbox.org/Themes/Classic/images/ip.gif) Logged
+![[~/×/8ac61eb352fd349833969bf3dab7c383_MD5.gif]] Logged
 
 ---
 
@@ -466,7 +466,7 @@ Here you go.
 \[rbsettings.cpp:163 Info\] GET U: "cachepath" "R:\\\\Temp"  
 \[systrace.cpp:93 Info\] saving trace at "2022-11-12T10:54:32"
 
-![](https://forums.rockbox.org/Themes/Classic/images/ip.gif) Logged
+![[~/×/8ac61eb352fd349833969bf3dab7c383_MD5.gif]] Logged
 
 ---
 
@@ -475,20 +475,20 @@ As you can find close to the end of the log your player is formatted as exFAT. R
 Relevant line in the log is this:  
 \[utils.cpp:678 Info\] Ignored: "F:/" type "exFAT"
 
-![](https://forums.rockbox.org/Themes/Classic/images/ip.gif) Logged
+![[~/×/8ac61eb352fd349833969bf3dab7c383_MD5.gif]] Logged
 
 ---
 
 Unfortunately, I am unable to format the iPod to FAT32.  
 I can only choose exFAT or NTFS for it.
 
-![](https://forums.rockbox.org/Themes/Classic/images/ip.gif) Logged
+![[~/×/8ac61eb352fd349833969bf3dab7c383_MD5.gif]] Logged
 
 ---
 
 You could use iTunes to restore it to FAT32.
 
-![](https://forums.rockbox.org/Themes/Classic/images/ip.gif) Logged
+![[~/×/8ac61eb352fd349833969bf3dab7c383_MD5.gif]] Logged
 
 ---
 

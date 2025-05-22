@@ -31,7 +31,7 @@ Kako kaže, tokom protestne šetnje jedna gospođa ih je pitala da li imaju crve
 
 „Moj prilazak policajcu ispred Vlade Republike Srbije je bila reakcija na to što se smejao ženi dok je plakala. Nakon toga je nastala fotografija njega sa spuštenom glavom“.
 
-![](https://n1info.rs/wp-content/uploads/2025/01/31/1738325593-IMG-bbbe1a4c01ef3b3d408cb90e6a4d820b-V-1024x682.jpg)
+![[~/×/09c4a5fdb402c586c0d87ad2a49b3a8a_MD5.jpg]]
 
 Marko Risović
 
@@ -45,7 +45,7 @@ Govoreći o motivaciji, Dunja kaže da je odrasla uz roditelje koji su je nauči
 
 „Vodeći se time, ceo život sam aktivni učesnik na svim protestima. U tome i leži cela motivacija za moj aktivizam tokom ovih s[tudenskih protesta](https://n1info.rs/tag/studentski-protest/). Ja, kao jedna od njih, [student](https://n1info.rs/tag/studenti/) u Beogradu, osećam dužnost da budem među svojim kolegama danas. Smatram da više nemamo prostora za apolitičnost i da se ova zemlja može dići iz letargije samo ujedinjenjem. Potrebno je vratiti nadu u bolje sutra i pokazati ljudima da sloga i jedinstvo i dalje postoji“, naglašava Dunja.
 
-![](https://n1info.rs/wp-content/uploads/2025/01/31/1738325697-20250131_100352-1024x576.jpg)
+![[~/×/c33c7c444cd4b49bf5451e77d996cfdb_MD5.jpg]]
 
 Gavrilo Andrić
 
@@ -53,7 +53,7 @@ Kako dodaje, nada se da je javnost do sada shvatila da među studentima ne posto
 
 „Demokratija je trenutno najbitniji adut među studentima, i drugačije ne bismo bili ovde gde i jesmo. Baš zbog toga što ne postoji vođa, mi studenti vam ni ne možemo reći kuda ćemo dalje, strpljivo čekamo dalje planove, aktivno učestvujemo na plenumima i dajemo sve što je u našoj moći da dođemo do našeg cilja. Do ispunjenja svih zahteva i do sistema u državi koji nama obećava sigurnost i funkcionalan život“, zaključuje sagovornica portala N1.
 
-![](https://n1info.rs/wp-content/uploads/2025/02/01/1738414615-1733828309-rtziztoizu8oi-1024x576.jpg)
+![[~/×/db5f92b5ba3df5efe4b8c6c28ad3c25d_MD5.jpg]]
 
 N1
 
@@ -75,7 +75,7 @@ Mirnoća i ignorisanje provokacija su nešto što mnogima blo upadljivo. Andrej 
 
 „Neću ustuknuti i neću nikoga udariti prvi. Očekujući batinaše sa metalnim šipkama, mogu da kažem da je ovaj prizor bio skoro pa bezazlen. Hteo bih da se zahvalim kolegi, koji me je podsetio rečima „samo ćuti“ kada je M.M. počeo da mi se približava. Njegove reči sam kanalisao u tim momentima“, poručuju Andrej.
 
-![](https://n1info.rs/wp-content/uploads/2025/02/01/1738414650-1733828304-54u75689679-1024x576.jpg)
+![[~/×/b3b251fbd67418f566b2ea1985d21f24_MD5.jpg]]
 
 N1
 

@@ -11,7 +11,7 @@ tags:
 ---
 The **Tethys Ocean** ( [*TEETH\-iss, TETH\-*](https://en.m.wikipedia.org/wiki/Help:Pronunciation_respelling_key "Help:Pronunciation respelling key"); [Greek](https://en.m.wikipedia.org/wiki/Greek_language "Greek language"): Τηθύς *Tēthús*), also called the **Tethys Sea** or the **Neo-Tethys**, was a prehistoric ocean during much of the [Mesozoic Era](https://en.m.wikipedia.org/wiki/Mesozoic "Mesozoic") and early-mid [Cenozoic Era](https://en.m.wikipedia.org/wiki/Cenozoic "Cenozoic"). It was the predecessor to the modern [Indian Ocean](https://en.m.wikipedia.org/wiki/Indian_Ocean "Indian Ocean"), the [Mediterranean Sea](https://en.m.wikipedia.org/wiki/Mediterranean_Sea "Mediterranean Sea"), and the Eurasian inland marine basins (primarily represented today by the [Black Sea](https://en.m.wikipedia.org/wiki/Black_Sea "Black Sea") and [Caspian Sea](https://en.m.wikipedia.org/wiki/Caspian_Sea "Caspian Sea")).[^:0-1][^:1-2]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Laurasia-Gondwana.svg/330px-Laurasia-Gondwana.svg.png)
+![[~/×/56ba05274867ea5080aae5c5c37e509d_MD5.png]]
 
 First phase of the Tethys Ocean's forming: the (first) Tethys Sea starts dividing [Pangaea](https://en.m.wikipedia.org/wiki/Pangaea "Pangaea") into two supercontinents, [Laurasia](https://en.m.wikipedia.org/wiki/Laurasia "Laurasia") and [Gondwana](https://en.m.wikipedia.org/wiki/Gondwana "Gondwana").
 
@@ -33,7 +33,7 @@ From the [Ediacaran](https://en.m.wikipedia.org/wiki/Ediacaran "Ediacaran") (600
 
 From the [Silurian](https://en.m.wikipedia.org/wiki/Silurian "Silurian") (440 Mya) through the [Jurassic](https://en.m.wikipedia.org/wiki/Jurassic "Jurassic") periods, the Paleo-Tethys Ocean existed between the [Hunic terranes](https://en.m.wikipedia.org/wiki/Hunic_terranes "Hunic terranes") and Gondwana. Over a period of 400 million years, continental [terranes](https://en.m.wikipedia.org/wiki/Terrane "Terrane") intermittently separated from Gondwana in the Southern Hemisphere to migrate northward to form Asia in the Northern Hemisphere.[^metcalfe-8]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/249_global.png/220px-249_global.png)
+![[~/×/d77a059293d2a661bf57b2b5b290de3c_MD5.png]]
 
 Plate tectonic reconstruction of the Tethys realm at 249 Mya
 

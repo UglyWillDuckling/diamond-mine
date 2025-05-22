@@ -18,6 +18,6 @@ personalRating: 7
 read: false
 ---
 
-![hello](https://covers.openlibrary.org/b/OLID/OL7360123M-L.jpg)
+![[~/×/066745d9e22d1848f32106a5a3c6b5c4_MD5.jpg]]
 
 Author: [[David Allen]]

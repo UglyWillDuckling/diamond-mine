@@ -17,7 +17,7 @@ related:
 
 One of the projects I had to deal with recently was close to the following architecture:
 
-![The technical architecture shows three actors: a person, the CDN (content delivery network), and a bucket S3. It shows the process of retrieving an asset through HTTP GET.](https://www.willianantunes.com/assets/posts/blog-29-order-1-image-1-architecture.png "Architecture")
+![[~/×/0f731e934b06506f779decf6729ab29f_MD5.png]]
 
 The red part is where you make an HTTP request. You usually do it with an HTTPS endpoint through a custom domain. So, instead of using the CloudFront address, let's say `d7w4qdbq7iqgl.cloudfront.net`, you use a custom one like `assets.amazonplayground.willianantunes.com`.
 

@@ -9,7 +9,7 @@ description: "Table of Contents For my website, jackwhitworth.com, I’ve embrac
 tags:
   - "clippings"
 ---
-![Picture of the auther, Jack Whitworth](https://media.jackwhitworth.com/uploads/2023/12/jack-whitworth-headshot-150x150.webp)
+![[~/×/292f95c44fe08d42361b4066d9520c9f_MD5.webp]]
 
 Written by: **Jack Whitworth**
 
@@ -64,7 +64,7 @@ WordPress can be seamlessly integrated with Composer. This integration offers a 
 
 ## WordPress Composer GitHub Template Repository
 
-![](https://media.jackwhitworth.com/uploads/2024/01/jack-whitworth-wordpress-composer-github-1024x512.webp)
+![[~/×/aef1d52af3225869cb23488c55d30180_MD5.webp]]
 
 The social share image for the jmwhitworth/wordpress-composer repository.
 

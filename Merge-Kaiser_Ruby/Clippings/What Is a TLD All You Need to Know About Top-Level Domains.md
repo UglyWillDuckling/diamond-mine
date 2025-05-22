@@ -47,7 +47,7 @@ A top-level domain (TLD) or a domain extension is the end part of a domain name.
 
 A [domain name is](https://www.hostinger.com/tutorials/what-is-a-domain-name) the web address visitors type into the browser to reach your website.
 
-![A graphic explaining URL's structure](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/05/url-structure.png)
+![[~/×/1f43a742df758852cc1de5625f7cdc02_MD5.png]]
 
 From left to right, the domain structure includes:
 
@@ -59,7 +59,7 @@ With different types of TLDs, it’s easier to secure unique domains. Most [doma
 
 Hostinger, for example, has around 300 [domain endings](https://www.hostinger.com/tld) for various purposes. Our AI domain checker can pair domain variations with the appropriate TLDs based on your brand description to ensure they’re unique.
 
-![Hostinger's domain name search tool showing different options when the preferred one is taken](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/05/hostinger-domain-search-1024x782.png)
+![[~/×/c05e4b48c782eaa194636a749fd8a1ff_MD5.png]]
 
 Let’s look at different types of top-level domains so you can make an informed decision when [choosing a domain name](https://www.hostinger.com/tutorials/how-to-choose-the-right-domain-name) for your website.
 
@@ -167,7 +167,7 @@ Alternatively, redirect the domain from your hosting or domain registrar account
 
 1. Log in to your hosting account and head to the **Websites** page. Click on the **Manage** button next to the website you want to redirect.
 
-![Websites section in hPanel, highlighting the option to manage a specific website](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/05/hpanel-websites-1-1024x270.png)
+![[~/×/d0df61eb422912c9159f96b295b10a3b_MD5.png]]
 
 2. Open **Domains** → **Redirects** on the left sidebar.
 3. Fill in the required information:
@@ -176,7 +176,7 @@ Alternatively, redirect the domain from your hosting or domain registrar account
 - **Redirect to URL or IP** – pick your desired type of destination.
 - **Redirect to** – enter the destination to where the domain will redirect.
 
-![Domain redirect configuration page in hPanel](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/05/hpanel-domains-redirects-1-1024x464.png)
+![[~/×/bd522acf59db4d8e223198c4b43353a6_MD5.png]]
 
 4. Hit **Create** once you’re done.
 
@@ -210,6 +210,6 @@ Anyone can register domains with generic extensions. However, access to sponsore
 
 Statista reports that [46% of global websites](https://www.statista.com/statistics/265677/number-of-internet-top-level-domains-worldwide/) use a **.com** domain extension, making it the most popular TLD today. Other widely used TLDs include **.org**, **.ru**, **.de**, and **.net**, with **.org** accounting for 4.5% of websites.
 
-![Author](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2021/11/71d35a74-f86e-4ab6-b40e-77d37e05282a-Copy-138x150.webp)
+![[~/×/76c3e3e7b1fbe40de6cac59e886e4134_MD5.webp]]
 
 Jordana is a Senior Content Writer at Hostinger with a background in Information Systems. She has over five years of experience in WordPress and is casually dabbling with PHP and MySQL. Her passion for writing and technology drives her to create tutorials for anyone wanting to build their online presence. Follow her on [LinkedIn](https://www.linkedin.com/in/jordana-alexandrea/).

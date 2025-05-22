@@ -13,7 +13,7 @@ Ah, the 1990s – the decade that brought you indie-cinema breakouts and bullet-
 
 So we’ve assembled a crack team of film fanatics, culture vultures, pop-culture pundits and various critics to weigh in on the 100 greatest movies of the Nineties. From Oscar-winners to obscure-but-wonderful gems, nonfiction social-issue sagas to a seven-hour Hungarian masterpiece, *Titanic* to Tarantino, these are the films we still argue over, quote endlessly and return to again and again. Crank up your dial-up connection, crack open a Zima and let the arguments begin.
 
-![100 Best Movies of 1990s](https://www.rollingstone.com/wp-content/uploads/2018/06/rexfeatures_5883894q-86c03293-9055-4432-a9e9-af6ebd5e74ff.jpg?w=800)
+![[~/×/395ce936896187b3ab9a452c014a276a_MD5.jpg]]
 
 Photo: Rex
 
@@ -23,7 +23,7 @@ Photo: Rex
 
 Shakespeare had a hell of a run in the Nineties, from the riot grrrl shrew-taming of *Ten Things I Hate About You* to Keanu as Prince Hal in *My Own Private Idaho*. But Baz Luhrmann really did the Bard proud with his MTV take on the tale of star-crossed lovers, snagging two of the era’s glossiest newcomers: Claire Danes, fresh from *My So-Called Life*; and a baby-faced, soon-to-be-superstar Leonardo DiCaprio. It’s the play reimagined as a pulp fantasy, complete with guns, drugs, swimming pools, SoCal gang warfare (let’s rumble at Verona Beach!), angel wings, doe-eyed glances through fish tanks and a soundtrack that’s as iconic as the film itself. *Rob Sheffield*
 
-![100 Greatest Hip-Hop Songs of All Time](https://www.rollingstone.com/wp-content/uploads/2018/06/rexfeatures_5879622i-5e100d8c-3146-4889-af0b-4eacf061e8e9.jpg?w=800)
+![[~/×/f1ba6c8e9478064d625ed36682d77a66_MD5.jpg]]
 
 Photo: Rex
 

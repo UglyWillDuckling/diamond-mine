@@ -11,11 +11,11 @@ ___
 
 ## Container images​
 
-Official container image: `jellyfin/jellyfin` [![Docker Pull Count](https://img.shields.io/docker/pulls/jellyfin/jellyfin.svg)](https://hub.docker.com/r/jellyfin/jellyfin).
+Official container image: `jellyfin/jellyfin` [![[~/×/7cc11fb30e1abe7e0e9372c526de90e7_MD5.svg]]](https://hub.docker.com/r/jellyfin/jellyfin).
 
-LinuxServer.io image: `linuxserver/jellyfin` [![Docker Pull Count](https://img.shields.io/docker/pulls/linuxserver/jellyfin.svg)](https://hub.docker.com/r/linuxserver/jellyfin).
+LinuxServer.io image: `linuxserver/jellyfin` [![[~/×/c9ff665029a739a04b451a48b6b9c449_MD5.svg]]](https://hub.docker.com/r/linuxserver/jellyfin).
 
-hotio image: `hotio/jellyfin` [![Docker Pull Count](https://img.shields.io/docker/pulls/hotio/jellyfin.svg)](https://hub.docker.com/r/hotio/jellyfin).
+hotio image: `hotio/jellyfin` [![[~/×/8c33d54dbc177e5b81dce0fe4666c0a0_MD5.svg]]](https://hub.docker.com/r/hotio/jellyfin).
 
 Jellyfin distributes [official container images on Docker Hub](https://hub.docker.com/r/jellyfin/jellyfin/) for multiple architectures. These images are based on Debian and [built directly from the Jellyfin source code](https://github.com/jellyfin/jellyfin-packaging/blob/master/docker/Dockerfile).
 

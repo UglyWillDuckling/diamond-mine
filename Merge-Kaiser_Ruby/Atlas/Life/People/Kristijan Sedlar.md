@@ -6,7 +6,7 @@ dob: "1981-02-15"
 ---
 #person #bratic
 
-- [/] #task explore dataview and date outputs #small ⏳ 2025-02-23 📅 2025-03-03 🆔 1e01JV
+- [x] #task explore dataview and date outputs #small 🆔 1e01JV ⏳ 2025-02-23 📅 2025-03-03 ✅ 2025-05-18
 ___
 
 **Rođendan**: `=this.dob`

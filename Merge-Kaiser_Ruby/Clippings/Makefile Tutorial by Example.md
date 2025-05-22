@@ -78,7 +78,7 @@ Makefiles are used to help decide which parts of a large program need to be reco
 
 Here's an example dependency graph that you might build with Make. If any file's dependencies changes, then the file will get recompiled:
 
-![](https://makefiletutorial.com/assets/dependency_graph.png)
+![[~/×/cf61c83cff0e326e77eefed22a224e9f_MD5.png]]
 
 ## What alternatives are there to Make?
 

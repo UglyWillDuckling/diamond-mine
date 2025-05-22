@@ -508,7 +508,7 @@ To setup an addresslist in OpenLDAP, follow these steps:
 3. Set the cn attribute to the unique name of the addresslist
 4. Create a condition query in the `kopanoFilter` attribute, see for example condition queries.
 
-![Addresslists in LDAP](https://documentation.kopano.io/kopanocore_administrator_manual/_images/LDAP_AddressLists.png)
+![[~/×/4afb73ad6f8d9074faa47283bb6e926c_MD5.png]]
 
 Figure 8.5. Addresslists in LDAP
 
@@ -554,8 +554,8 @@ Table 8.1. Access control overview
 
 |  | Service enabled for user | Service disabled for user | Nothing configured for user |
 | --- | --- | --- | --- |
-| Service listed in disable\_feature in server.cfg | ![_static/allow.png](https://documentation.kopano.io/kopanocore_administrator_manual/_images/allow.png) | ![_static/decline.png](https://documentation.kopano.io/kopanocore_administrator_manual/_images/decline.png) | ![_static/decline.png](https://documentation.kopano.io/kopanocore_administrator_manual/_images/decline.png) |
-| Service not listed in disable\_feature in server.cfg | ![_static/allow.png](https://documentation.kopano.io/kopanocore_administrator_manual/_images/allow.png) | ![_static/decline.png](https://documentation.kopano.io/kopanocore_administrator_manual/_images/decline.png) | ![_static/allow.png](https://documentation.kopano.io/kopanocore_administrator_manual/_images/allow.png) |
+| Service listed in disable\_feature in server.cfg | ![[~/×/2a57737056082d0590909c63a96ffc6f_MD5.png]] | ![[~/×/711c981c4b9512f25c8ac67e4da0ebfb_MD5.png]] | ![[~/×/711c981c4b9512f25c8ac67e4da0ebfb_MD5.png]] |
+| Service not listed in disable\_feature in server.cfg | ![[~/×/2a57737056082d0590909c63a96ffc6f_MD5.png]] | ![[~/×/711c981c4b9512f25c8ac67e4da0ebfb_MD5.png]] | ![[~/×/2a57737056082d0590909c63a96ffc6f_MD5.png]] |
 
 ### 8.7.1. Globally enabling features¶
 
@@ -576,7 +576,7 @@ kopano-admin -u john --disable-feature pop3
 
 For Active Directory or OpenLDAP setups (using the `ldap` or `ldapms` user plugin), the features will be managed from two LDAP attributes `kopanoEnabledFeatures` and `kopanoDisabledFeatures`. Make sure the latest schema file or Active Directory plugin is installed, before using these attributes. These multi-valued attributes can contain any string, but only the features Kopano knows about will actually be provided through the system.
 
-![Kopano Features tab in ADS](https://documentation.kopano.io/kopanocore_administrator_manual/_images/ADE_KopanoFeaturesTab.png)
+![[~/×/6de0e92f2173edd5f604c514f6efcbae_MD5.png]]
 
 Figure 8.6. Kopano features tab in ADS
 
@@ -617,7 +617,7 @@ After the automatic acceptance of meeting requests is configured, make sure the 
 
 To automatic book a resource make sure the resource option is really selected in the Freebusy times when scheduling the meeting.
 
-![Resource option in Freebusy times](https://documentation.kopano.io/kopanocore_administrator_manual/_images/KC_ResourceBooking.png)
+![[~/×/ab1aab2bb6de3cde5a7c86bff9ea65e6_MD5.png]]
 
 Figure 8.7. Resource option in Freebusy times
 

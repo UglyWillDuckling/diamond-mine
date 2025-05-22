@@ -22,7 +22,7 @@ related:
 
 **Kontakt telefon:** +385 (0)33 781 570   —– **E-mail:** info@tz-virovitica.hr
 
-[![](https://www.tz-virovitica.hr/wp-content/uploads/2021/05/suvenirnica2000x.jpg)](https://www.tz-virovitica.hr/wp-content/uploads/2021/05/suvenirnica2000x.jpg "suvenirnica2000x")
+[![[~/×/3c466be98c96160aa7c83cdb8fe7db2a_MD5.jpg]]](https://www.tz-virovitica.hr/wp-content/uploads/2021/05/suvenirnica2000x.jpg "suvenirnica2000x")
 
 ### O povijesti Dvorca
 
@@ -40,9 +40,9 @@ U sklopu projekta **obnovljen je Dvorac Pejačević**, **Gradskom parku** vraće
 
 Virovitica je u povijesti bila poznata i kao **„mala Venecija“** sa čak 16  mostova u samom centru grada. Kao *hommage* tom vremenu, kroz projekt obnove Dvorca postavljeno je pet dizajnerskih drvenih mostova od kojih svaki priča svoju priču – **Most ljubav**i koji vodi prema Crkvi sv. Roka sa posebnim proširenjem na kojemu se naše mladenke vole fotografirati uz Dvorac Pejačević u pozadini, **Most zrcala** koji daje različite poglede na sam Dvorac, **Gimnazijski most** za druženje virovitičkih generacija, **Portal most** koji predstavlja „prolaz“ iz stare Virovitice u novu urbanu Viroviticu i **Glazbeni most** koji svira kako posjetitelji po njemu hodaju, postavljen u blizini mjesta na kojemu je nekad u povijesti bila Glazbena škola.
 
-[![](https://www.tz-virovitica.hr/wp-content/uploads/2021/03/MG_2602.jpg)](https://www.tz-virovitica.hr/wp-content/uploads/2021/03/MG_2602.jpg "_MG_2602")
+[![[~/×/9213a755489264e46f160bae4abf5d5c_MD5.jpg]]](https://www.tz-virovitica.hr/wp-content/uploads/2021/03/MG_2602.jpg "_MG_2602")
 
-[![](https://www.tz-virovitica.hr/wp-content/uploads/2021/03/dvorac.jpg)](https://www.tz-virovitica.hr/wp-content/uploads/2021/03/dvorac.jpg "dvorac")
+[![[~/×/e7147019e5a6739011db2e1bcae91630_MD5.jpg]]](https://www.tz-virovitica.hr/wp-content/uploads/2021/03/dvorac.jpg "dvorac")
 
 Krovna tema novog stalnog postava Gradskog muzeja Virovitica – **„Drveno doba“** prikazuje drvo kroz nekoliko aspekata povijesnog razvoja samog grada, kao i starosjedilaca Virovitice – Mikeša. U zapadnom krilu Dvorca prikazano je drvo u životu građana – od sobe „Šuma“ u kojoj se mogu čuti zvukovi šuštanja lišća i osjetiti mirisi šume, preko soba koje prikazuju drvo u svakodnevnom životu kroz sukob seljačke obitelji i građanske obitelji, do sobe „Ženski svijet“ kao najintimnije prostorije u svakom domu. U istočnom krilu je, uz salon obitelji Pejačević s velikim drvenim klavirom, prikazano drvo kao sredstvo privređivanja kroz prikaz starih virovitičkih obrta, cehova do TVIN-a, tvornice namještaja, koja je izgradila Viroviticu. U potkrovlju Dvorca prikazano je drvo u društvenom, duhovnom i sakralnom životu Virovitičana kroz prikaz starih drvenih instrumenta, udruga KUD Virovitica, Gradska glazba i HPD Rodoljub te oltara drvene crkve iz Sedlarice.
 
@@ -50,9 +50,9 @@ Uz kulturnu i povijesnu interpretaciju neprocjenjivih eksponata, dodani su i bro
 
 Tema „Drveno doba“ raširena je i po cijelom gradu poučnom stazom **„Drvoredima Virovitice“** postavljanjem drvenih ploča sa slikama Virovitice kakva je nekad bila te interpretacijom urbanih legendi **o virovitičkom Romeu i Juliji, Marinovom mostu, Maloj Veneciji, Šetalištu Edite Schubert, klizalištu oko Dvorca** i slično.
 
-[![](https://www.tz-virovitica.hr/wp-content/uploads/2021/03/tableee.jpg)](https://www.tz-virovitica.hr/wp-content/uploads/2021/03/tableee.jpg "tableee")
+[![[~/×/a49843f48aa3cfa7a561061470132f45_MD5.jpg]]](https://www.tz-virovitica.hr/wp-content/uploads/2021/03/tableee.jpg "tableee")
 
-[![](https://www.tz-virovitica.hr/wp-content/uploads/2019/12/suvenirnica.jpg)](https://www.tz-virovitica.hr/wp-content/uploads/2019/12/suvenirnica.jpg "suvenirnica")
+[![[~/×/bbc96717bd11e1b90dba29884bdc5387_MD5.jpg]]](https://www.tz-virovitica.hr/wp-content/uploads/2019/12/suvenirnica.jpg "suvenirnica")
 
 Uz dva sata multimedijskih sadržaja, animacija, igara, filmova, glazbe, i preko 1500 neprocjenjivih izložaka, **Gradski muzej Virovitica,** uz **Turistički informativni centar sa suvenirnicom** u obliku godova drveta, **malom multimedijskom dvoranom**, **prostorom za edukaciju, restoranom** te **cafe barom**, čini kompletan i iznimno atraktivan turistički proizvod.
 

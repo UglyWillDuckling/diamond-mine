@@ -16,7 +16,7 @@ related:
   - "[[http redirect]]"
   - "[[setup Persona web]]"
 ---
-![icon|100](https://www.digitalocean.com/_next/static/media/android-chrome-192x192.f09059d8.png)
+![[~/×/a30bc1943be1cbd1bdcd4b810644c024_MD5.png|100]]
 
 ### Introduction
 
@@ -52,7 +52,7 @@ For your second DNS record, you could use a CNAME record instead of an A record.
 
 When you have created both records, it should look something like this:
 
-![Required A records](https://deved-images.nyc3.cdn.digitaloceanspaces.com/CTM-731/my-website-recs.png)
+![[~/×/3e5f1988b1a3ffaf1e9c7d9277beedb7_MD5.png|100]]
 
 With the two records in place, web requests for both `my-website.com` and `www.my-website.com` should reach your Nginx server. Now let’s configure the server.
 

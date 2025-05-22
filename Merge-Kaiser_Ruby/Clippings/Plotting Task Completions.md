@@ -13,9 +13,9 @@ tags:
 related:
   - "[[Creating Dynamic Graphs in Obsidian - Obsidian Rocks]]"
 ---
-![icon](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/01/or-logo-1.png?fit=32%2C32&ssl=1)
+![[~/×/35fbaebc16d53a5dd8a0eee6726e1862_MD5.png]]
 
-![A stylized screenshot of several differently colored task dashboards in Obsidian.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/07/pretty-tasks-graphs.png?resize=1024%2C706&ssl=1)
+![[~/×/dba9cb452dce1e12b5b04ad738f0820c_MD5.png]]
 
 Creating graphs is one of my favorite tricks in Obsidian, and I use data visualization every day in my own vault.
 
@@ -59,7 +59,7 @@ await dv.view("tasks-dashboard", {container: this.container});
 
 If everything is configured properly, you should see something like this:
 
-![A screenshot of the default Tasks Dashboard.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/07/tasks-dashboard-default.png?resize=485%2C1024&ssl=1)
+![[~/×/6055a2c37f822e60959d64910d5ca4bb_MD5.png]]
 
 ## How does the script work?
 

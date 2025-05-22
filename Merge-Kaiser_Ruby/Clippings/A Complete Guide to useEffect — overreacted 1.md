@@ -27,7 +27,7 @@ To *see* the answers, we need to take a step back. The goal of this article isn�
 
 > “Unlearn what you have learned.” — Yoda
 
-![Yoda sniffing the air. Caption: “I smell bacon.”](https://overreacted.io/a-complete-guide-to-useeffect/yoda.jpg)
+![[~/×/3e7eafcb5b59ebf0bf89601f692bb825_MD5.jpg]]
 
 ---
 
@@ -237,7 +237,7 @@ Let’s say I do this sequence of steps:
 - **Press** “Show alert”
 - **Increment** it to 5 before the timeout fires
 
-![Counter demo](https://overreacted.io/a-complete-guide-to-useeffect/counter.gif)
+![[~/×/a1e92c2f26b60eb5b86ff808fe9d55e3_MD5.gif]]
 
 What do you expect the alert to show? Will it show 5 — which is the counter state at the time of the alert? Or will it show 3 — the state when I clicked?
 
@@ -672,7 +672,7 @@ If I click several times with a small delay, what is the log going to look like?
 
 You might think this is a gotcha and the end result is unintuitive. It’s not! We’re going to see a sequence of logs — each one belonging to a particular render and thus with its own `count` value. You can [try it yourself](https://codesandbox.io/s/lyx20m1ol):
 
-![Screen recording of 1, 2, 3, 4, 5 logged in order](https://overreacted.io/a-complete-guide-to-useeffect/timeout_counter.gif)
+![[~/×/14e02f1ebea9fc16f53ca27cea4798bc_MD5.gif]]
 
 You may think: “Of course that’s how it works! How else could it work?”
 
@@ -692,7 +692,7 @@ componentDidUpdate() {
 
 However, `this.state.count` always points at the *latest* count rather than the one belonging to a particular render. So you’ll see `5` logged each time instead:
 
-![Screen recording of 5, 5, 5, 5, 5 logged in order](https://overreacted.io/a-complete-guide-to-useeffect/timeout_counter_class.gif)
+![[~/×/b73ac09d91e8caf71be3dec447d24b7a_MD5.gif]]
 
 I think it’s ironic that Hooks rely so much on JavaScript closures, and yet it’s the class implementation that suffers from [the canonical wrong-value-in-a-timeout confusion](https://wsvincent.com/javascript-closure-settimeout-for-loop/) that’s often associated with closures. This is because the actual source of the confusion in this example is the mutation (React mutates `this.state` in classes to point to the latest state) and not closures themselves.
 
@@ -778,7 +778,7 @@ function Example() {
   // ...
 ```
 
-![Screen recording of 5, 5, 5, 5, 5 logged in order](https://overreacted.io/a-complete-guide-to-useeffect/timeout_counter_refs.gif)
+![[~/×/9e7daa85b3a481715383c555c2a185b5_MD5.gif]]
 
 It might seem quirky to mutate something in React. However, this is exactly how React itself reassigns `this.state` in classes. Unlike with captured props and state, you don’t have any guarantees that reading `latestCount.current` would give you the same value in any particular callback. By definition, you can mutate it any time. This is why it’s not a default, and you have to opt into that.
 
@@ -823,7 +823,7 @@ You might be wondering: but how can the cleanup of the previous effect still “
 
 We’ve been here before… 🤔
 
-![Deja vu (cat scene from the Matrix movie)](https://overreacted.io/a-complete-guide-to-useeffect/deja_vu.gif)
+![[~/×/75e164f1086ebafdd7626625ce7c540f_MD5.gif]]
 
 Quoting the previous section:
 
@@ -1133,7 +1133,7 @@ useEffect(() => {
   }, [name]);
 ```
 
-![Diagram of effects replacing one another](https://overreacted.io/a-complete-guide-to-useeffect/deps-compare-correct.gif)
+![[~/×/8520ddee5e1138c7eee06ec788ed1b30_MD5.gif]]
 
 *(Dependencies are different, so we re-run the effect.)*
 
@@ -1147,7 +1147,7 @@ useEffect(() => {
   }, []); // Wrong: name is missing in deps
 ```
 
-![Diagram of effects replacing one another](https://overreacted.io/a-complete-guide-to-useeffect/deps-compare-wrong.gif)
+![[~/×/62cf7d370169cdc2f9de2dd0e66f0d9a_MD5.gif]]
 
 *(Dependencies are equal, so we skip the effect.)*
 
@@ -1279,7 +1279,7 @@ const count = // ...
 
 Therefore, specifying `[]` as a dependency will create a bug. React will compare the dependencies, and skip updating this effect:
 
-![Diagram of stale interval closure](https://overreacted.io/a-complete-guide-to-useeffect/interval-wrong.gif)
+![[~/×/cff5ac993bafb12cc64dfa3a2a77f645_MD5.gif]]
 
 *(Dependencies are equal, so we skip the effect.)*
 
@@ -1373,7 +1373,7 @@ function Counter() {
 
 That would [fix the problem](https://codesandbox.io/s/0x0mnlyq8l) but our interval would be cleared and set again whenever the `count` changes. That may be undesirable:
 
-![Diagram of interval that re-subscribes](https://overreacted.io/a-complete-guide-to-useeffect/interval-rightish.gif)
+![[~/×/4a0f4ce6355728d9cdbd19456be6b607_MD5.gif]]
 
 *(Dependencies are different, so we re-run the effect.)*
 
@@ -1425,7 +1425,7 @@ That’s exactly what `setCount(c => c + 1)` does. You can think of it as “sen
 
 **Note that we actually *did the work* to remove the dependency. We didn’t cheat. Our effect doesn’t read the `counter` value from the render scope anymore:**
 
-![Diagram of interval that works](https://overreacted.io/a-complete-guide-to-useeffect/interval-right.gif)
+![[~/×/7c8ad60e85dc6313b2d5e2f6473b9a5f_MD5.gif]]
 
 *(Dependencies are equal, so we skip the effect.)*
 
@@ -1833,7 +1833,7 @@ By adding this dependency, we’re not just “appeasing React”. It *makes sen
 
 Thanks to the `exhaustive-deps` lint rule from the `eslint-plugin-react-hooks` plugin, you can [analyze the effects as you type in your editor](https://github.com/facebook/react/issues/14920) and receive suggestions about which dependencies are missing. In other words, a machine can tell you which data flow changes aren’t handled correctly by a component.
 
-![Lint rule gif](https://overreacted.io/a-complete-guide-to-useeffect/exhaustive-deps.gif)
+![[~/×/08c358198ac82327a9c293cbd4f6f043_MD5.gif]]
 
 Pretty sweet.
 

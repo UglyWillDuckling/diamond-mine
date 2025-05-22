@@ -56,7 +56,7 @@ If art is more your creative lane, then a painting party is a great birthday par
 
 You can probably find a local studio that hosts these types of events and try to reserve enough spots for your whole group. If you have the space and want a more intimate experience, hire a [painting party professional](https://www.gigsalad.com/Variety/Painting-Party) who will come to you and provide instruction to your party guests.
 
-![Read this post: Host a Painting Party at Home](https://i0.wp.com/www.gigsalad.com/blog/wp-content/uploads/2024/04/Painting-Party.png?resize=1000%2C400&ssl=1)
+![[~/×/888a23c955c2208de31cbee077420e46_MD5.png]]
 
 ## Birthday Party Ideas for Foodies
 
@@ -102,7 +102,7 @@ If alcohol isn’t your thing, focus on daytime beverages for your birthday part
 
 This is a birthday activity for adults who want a more laid-back gathering on their special day. It’d be perfect for a [birthday brunch](https://www.gigsalad.com/blog/birthday-brunch-ideas/) with close friends and family. Center it around a party theme like Alice in Wonderland or [Bridgerton](https://www.gigsalad.com/blog/bridgerton-themed-party-ideas/) for a celebration personalized to your interests.
 
-![Hire entertainment for an adult birthday party on GigSalad](https://i0.wp.com/www.gigsalad.com/blog/wp-content/uploads/2024/04/Adult-Birthday-Activities-CTA.png?resize=1170%2C585&ssl=1)
+![[~/×/b4b57e738ac0e42770e6124990c0964f_MD5.png]]
 
 🎉 **You might also like:** [5 Amazing Adult Birthday Party Ideas](https://www.gigsalad.com/blog/adult-birthday-party-ideas/)
 
@@ -128,7 +128,7 @@ If your birthday crowd consists of gamers who enjoy taking on a character and fu
 
 There are plenty of ways to host a murder mystery dinner. You can write it yourself, buy a game in a box, or hire a local [murder mystery company](https://www.gigsalad.com/Variety/Murder-Mystery-Event) who will plan everything for you, customize the story, and even provide some actors if you want.
 
-![Read this post: Host a Murder Mystery Party](https://i0.wp.com/www.gigsalad.com/blog/wp-content/uploads/2024/04/Murder-Mystery-Party-smaller.png?resize=1000%2C400&ssl=1)
+![[~/×/70630b4ca393aaac749bb55e83bc820e_MD5.png]]
 
 ## Birthday Party Ideas for Revelers
 
@@ -174,7 +174,7 @@ More and more people are joining the book community, whether it’s through soci
 
 Skip the classic book club formula in favor of a general book discussion or even quiet reading time together. Choose a theme based on the guest of honor’s favorite book or genre and organize food and drinks, as well as trivia or games that go with it.
 
-![Read this post: Plan a Book Birthday Party](https://i0.wp.com/www.gigsalad.com/blog/wp-content/uploads/2024/04/Book-Birthday-Party.png?resize=1000%2C400&ssl=1)
+![[~/×/61561b99837f711c7f36ec9b4d05c9eb_MD5.png]]
 
 💡 **Looking for more ideas?** Check out [these unique birthday party ideas](https://www.gigsalad.com/blog/birthday-party-ideas-by-personality/) based on common personality types.
 
@@ -182,6 +182,6 @@ The best adult birthday party ideas are personalized to the tastes and preferenc
 
 ### Book something awesome for your birthday party! Find the best entertainers and service providers on GigSalad.
 
-![Heather Roonan](https://secure.gravatar.com/avatar/1f1208c16a2d76e6ad3db7ca0d5f8bd1?s=100&d=blank&r=pg)
+![[~/×/f9305af5a3ab070d2c8c786744a66aa0_MD5.jpg]]
 
 Heather is the Content Manager and a GigSalad veteran of 15+ years. She loves helping event planners create unforgettable celebrations and talent make a living doing what they love. When not at work, she enjoys reading romance and fantasy books, bingeing TV shows, playing board games, and spending time with friends.

@@ -9,9 +9,9 @@ There’s a popular story that [Gauss](https://en.wikipedia.org/wiki/Carl_Friedr
 
 Gauss approached with his answer: 5050. So soon? The teacher suspected a cheat, but no. Manual addition was for suckers, and Gauss found a formula to sidestep the problem:
 
-![\displaystyle{\text{Sum from 1 to n} = \frac{n(n+1)}{2}}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/2e9ef5f601b25cef7278a83960a9f8f5.png)
+![[~/×/adbe4b9dd6b4ab118a50ed99a7f0adfb_MD5.png]]
 
-![\displaystyle{\text{Sum from 1 to 100} = \frac{100(100+1)}{2} = (50)(101) = 5050}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/eaa99c27dd993571240dd1f837b4c6b5.png)
+![[~/×/d2ee0c2fa0e2a94b8ea6988ba9888fe6_MD5.png]]
 
 Let’s share a few explanations of this result and really understand it intuitively. For these examples we’ll add 1 to 10, and then see how it applies for 1 to 100 (or 1 to any number).
 
@@ -28,7 +28,7 @@ An interesting pattern emerges: **the sum of each column is 11**. As the top row
 
 Because 1 is paired with 10 (our n), we can say that each column has (n+1). And how many pairs do we have? Well, we have 2 equal rows, we must have n/2 pairs.
 
-![\displaystyle{\text{Number of pairs * Sum of each pair} = (\frac{n}{2})(n+1) = \frac{n(n+1)}{2}}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/2f6fdd513b1b96e51e4b782b8ff09be4.png)
+![[~/×/552a594728b42f0361bad68aea1719ed_MD5.png]]
 
 which is the formula above.
 
@@ -47,7 +47,7 @@ By counting from 0, we get an “extra item” (10 in total) so we can have an e
 
 Notice that each column has a sum of n (not n+1, like before), since 0 and 9 are grouped. And instead of having exactly n items in 2 rows (for n/2 pairs total), we have n + 1 items in 2 rows (for (n + 1)/2 pairs total). If you plug these numbers in you get:
 
-![\displaystyle{\text{Number of pairs * Sum of each pair} = (\frac{n + 1}{2})(n) = \frac{n(n+1)}{2}}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/8827628bdb6232317a31643e270fd2ac.png)
+![[~/×/b9fcf4c002a15daf155e43028286dce4_MD5.png]]
 
 which is the same formula as before. It always bugged me that the same formula worked for both odd and even numbers – won’t you get a fraction? Yep, you get the same formula, but for different reasons.
 
@@ -66,11 +66,11 @@ Notice that we have 10 pairs, and each pair adds up to 10+1.
 
 The total of all the numbers above is
 
-![\displaystyle{\text{Total = pairs * sum of each pair} = n(n + 1)}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/6955144b7f2462a0a51cc58aad4cc7d8.png)
+![[~/×/7af47d5acec396ee021d4b403d942bd8_MD5.png]]
 
 But we only want the sum of one row, not both. So we divide the formula above by 2 and get:
 
-![\displaystyle{\frac{n(n + 1)}{2}}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/7bfee7e1a768105bec3d718ce6d9be5f.png)
+![[~/×/e4aa9054c7c871c3092310ff4fe8c9e6_MD5.png]]
 
 Now this is cool (as cool as rows of numbers can be). It works for an odd or even number of items the same!
 
@@ -106,13 +106,13 @@ Now for the explanation: How many beans do we have total? Well, that’s just th
 
 We have n rows (we didn’t change the number of rows in the pyramid), and our collection is (n + 1) units wide, since 1 “o” is paired up with all the “x”s.
 
-![\displaystyle{\text{Area} = \text{height} \cdot \text{width} = n(n+1)}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/bfe46e3557347bac9ae62f179c5484be.png)
+![[~/×/c1d1470885a405d4833328e2694c825f_MD5.png]]
 
 Notice that this time, we don’t care about n being odd or even – the total area formula works out just fine. If n is odd, we’ll have an even number of items (n+1) in each row.
 
 But of course, we don’t want the total area (the number of x’s and o’s), we just want the number of x’s. Since we doubled the x’s to get the o’s, the x’s by themselves are just half of the total area:
 
-![\displaystyle{\text{Number of x's} = \frac{Area}{2} = \frac{n(n + 1)}{2}}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/ddac7c6e6cdd800d0c26b9cbd79a731e.png)
+![[~/×/4db4584559385f37b781628bc80ad020_MD5.png]]
 
 And we’re back to our original formula. Again, the number of x’s in the pyramid = 1 + 2 + 3 + 4 + 5, or the sum from 1 to n.
 
@@ -148,7 +148,7 @@ Notice in both cases, 1 is on one side of the average and N is equally far away 
 
 Putting this into our formula
 
-![\displaystyle{\text{sum = average * count } = \frac{(1 + n)}{2} \cdot n = \frac{n(n + 1)}{2}}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/3cff490490ae5ed58b90664dd7822c43.png)
+![[~/×/522f2f75c8ff8c15cf71e2164f7a5868_MD5.png]]
 
 And voila! We have a fourth way of thinking about our formula.
 
@@ -158,7 +158,7 @@ Three reasons:
 
 1) Adding up numbers quickly can be useful for estimation. Notice that the formula expands to this:
 
-![\displaystyle{\frac{n(n+1)}{2} = \frac{n^2}{2} + \frac{n}{2} }](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/50a6a49c8e40eebf7ba08b5289aa4d56.png)
+![[~/×/0b4e7a0cb9b5a70056f32971e75b6239_MD5.png]]
 
 Let’s say you want to add the numbers from 1 to 1000: suppose you get 1 additional visitor to your site each day – how many total visitors will you have after 1000 days? Since [thousand squared = 1 million](https://betterexplained.com/articles/mental-math-shortcuts/), we get `million / 2 + 1000/2 = 500,500`.
 

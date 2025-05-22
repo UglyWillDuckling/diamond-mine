@@ -12,7 +12,7 @@ tags:
 related:
   - "[[dataview]]"
 ---
-![icon](https://forum.obsidian.md/uploads/default/optimized/3X/a/b/abf9faf124ba8edea7e6e644ec69d669b49baa30_2_32x32.png)
+![[~/×/f1b1fd86f15c5ac73df3712ec4c3d347_MD5.png]]
 
 This snippet is 100% copied from [Minimal.css 548](https://github.com/kepano/obsidian-minimal/blob/master/Minimal.css).
 
@@ -54,11 +54,11 @@ Sorry for the delay!
 
 Here’s a screenshot of my Cards with Minimal Theme:  
 
-[![image](https://forum.obsidian.md/uploads/default/optimized/3X/d/a/da7f11d52653be0189b2089194c979f0bad12ff6_2_690x350.jpeg)](https://forum.obsidian.md/uploads/default/original/3X/d/a/da7f11d52653be0189b2089194c979f0bad12ff6.jpeg "image")
+[![[~/×/6c2e01cb4d60ada16d5e6f651c2c3fc2_MD5.jpg]]](https://forum.obsidian.md/uploads/default/original/3X/d/a/da7f11d52653be0189b2089194c979f0bad12ff6.jpeg "image")
 
 And here’s the same Cards but with another theme (Shimmering Focus, which I use for all my other Obsidian vaults):  
 
-[![image](https://forum.obsidian.md/uploads/default/optimized/3X/2/b/2bd4cded49dbd5ddc05523c1a707a167e54f2dfb_2_690x352.jpeg)](https://forum.obsidian.md/uploads/default/original/3X/2/b/2bd4cded49dbd5ddc05523c1a707a167e54f2dfb.jpeg "image")
+[![[~/×/4101e7084551b6ff4626b164f6a1b3e2_MD5.jpg]]](https://forum.obsidian.md/uploads/default/original/3X/2/b/2bd4cded49dbd5ddc05523c1a707a167e54f2dfb.jpeg "image")
 
 I was referring to the white spaces to the left and right of the Cards.
 
@@ -68,7 +68,7 @@ Any other ideas?
 
 I installed the snippet but when I try to execute it in my vault, the result is this:
 
-[![CleanShot 2023-11-30 at 16.05.34@2x](https://forum.obsidian.md/uploads/default/optimized/3X/5/6/569e7ae54bfd56ee04b7ac449357ff83900e366a_2_690x353.png)](https://forum.obsidian.md/uploads/default/original/3X/5/6/569e7ae54bfd56ee04b7ac449357ff83900e366a.png "CleanShot 2023-11-30 at 16.05.34@2x")
+[![[~/×/bd5c5f4938af121efa2cc5c7e0410156_MD5.png]]](https://forum.obsidian.md/uploads/default/original/3X/5/6/569e7ae54bfd56ee04b7ac449357ff83900e366a.png "CleanShot 2023-11-30 at 16.05.34@2x")
 
 Does anyone knows the solution?
 
@@ -349,7 +349,7 @@ Here Is A Working Css File.
 
 This only gives me three cards in a line. Plus since one of the newest Obsidian updates I’m only getting really flat “cards”:
 
-[![image](https://forum.obsidian.md/uploads/default/optimized/3X/0/5/058d113a453a3c73ad03747cc19f3e1eacb91168_2_690x76.png)](https://forum.obsidian.md/uploads/default/original/3X/0/5/058d113a453a3c73ad03747cc19f3e1eacb91168.png "image")
+[![[~/×/d136abbf88d7b8c9acd06898da7e49bd_MD5.png]]](https://forum.obsidian.md/uploads/default/original/3X/0/5/058d113a453a3c73ad03747cc19f3e1eacb91168.png "image")
 
 Each of those lines should be a whole card which includes text and an image. Currently my cards only show correctly in Minimal Theme. Any ideas?
 

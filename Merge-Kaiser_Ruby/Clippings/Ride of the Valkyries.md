@@ -12,11 +12,11 @@ tags:
 ---
 The ***Ride of the Valkyries*** (German: *Walkürenritt or Ritt der Walküren*) is the popular name of the prelude to the first scene of the third and last act of *[Die Walküre](https://en.m.wikipedia.org/wiki/Die_Walk%C3%BCre "Die Walküre")*, the second of the four [epic](https://en.m.wikipedia.org/wiki/Epic_poetry "Epic poetry") [music dramas](https://en.m.wikipedia.org/wiki/Musikdrama "Musikdrama") that constitute [[Richard Wagner]] [Richard Wagner](https://en.m.wikipedia.org/wiki/Richard_Wagner "Richard Wagner")'s *[Der Ring des Nibelungen](https://en.m.wikipedia.org/wiki/Der_Ring_des_Nibelungen "Der Ring des Nibelungen")*.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Ring28.jpg/220px-Ring28.jpg)
+![[~/×/7d246f0270fa8e7c6fbbad2ce3a0d078_MD5.jpg]]
 
 [Arthur Rackham](https://en.m.wikipedia.org/wiki/Arthur_Rackham "Arthur Rackham")'s illustration to *The Ride of the Valkyries*
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Gnome-mime-audio-openclipart.svg/50px-Gnome-mime-audio-openclipart.svg.png)
+![[~/×/272268e1b7b62173b60b8b18a19713e0_MD5.png]]
 
 <audio id="mwe_player_0_placeholder" preload="none" data-mw-tmh="" class="" width="232" data-durationhint="258" data-mwtitle="Richard_Wagner_-_Ride_of_the_Valkyries.ogg" data-mwprovider="wikimediacommons" playsinline="" disabled="disabled" tabindex="-1"></audio>Duration: 4 minutes and 18 seconds.
 
@@ -26,7 +26,7 @@ The main theme of the "Ride", the [leitmotif](https://en.m.wikipedia.org/wiki/Le
 
 In the *Walküre* opera, the "Ride", which takes around eight minutes, begins in the prelude to the third act, building up successive layers of accompaniment until the curtain rises to reveal a mountain peak where four of the eight [Valkyrie](https://en.m.wikipedia.org/wiki/Valkyrie "Valkyrie") sisters of [Brünnhilde](https://en.m.wikipedia.org/wiki/Brunhild "Brunhild") have gathered in preparation for the transportation of fallen heroes to [Valhalla](https://en.m.wikipedia.org/wiki/Valhalla "Valhalla"). As they are joined by the other four, the familiar tune is carried by the orchestra, while, above it, the Valkyries greet each other and sing their battle-cry. Apart from the song of the [Rhinemaidens](https://en.m.wikipedia.org/wiki/Rhinemaidens "Rhinemaidens") in *[Das Rheingold](https://en.m.wikipedia.org/wiki/Das_Rheingold "Das Rheingold")*, it is the only ensemble piece in the first three operas of Wagner's *Ring* cycle.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Cesare_Viazzi_%281857-1943%29_La_cavalcata_delle_Valchirie.jpg/290px-Cesare_Viazzi_%281857-1943%29_La_cavalcata_delle_Valchirie.jpg)
+![[~/×/515fad5772ca71fada6c243b91391818_MD5.jpg]]
 
 *Ride of the Valkyries*, [Cesare Viazzi](https://en.m.wikipedia.org/wiki/Cesare_Viazzi "Cesare Viazzi")
 

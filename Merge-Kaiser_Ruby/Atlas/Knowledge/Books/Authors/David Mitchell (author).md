@@ -14,7 +14,7 @@ dob: 1969-01-12
 ---
 David Stephen Mitchell (born 12 January 1969) is an English novelist, screenwriter, and translator.
 
-![](https://upload.wikimedia.org/wikipedia/commons/7/7f/David_Mitchell_by_Kubik.JPG)
+![[~/×/90e4eb9ace6507f516ef8225b6c4432e_MD5.jpg]]
 > Mitchell in 2006
 
 Born

@@ -125,7 +125,7 @@ In all of Baldwin's works, but particularly in his novels, the main characters a
 
 ## Social and political activism
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Heston_Baldwin_Brando_Civil_Rights_March_1963.jpg/220px-Heston_Baldwin_Brando_Civil_Rights_March_1963.jpg)
+![[~/×/f76af7d25adda7c0d90a42cf7a1a61c9_MD5.jpg]]
 
 Baldwin (right of center) with Hollywood actors [Charlton Heston](https://en.m.wikipedia.org/wiki/Charlton_Heston "Charlton Heston") (left) and [Marlon Brando](https://en.m.wikipedia.org/wiki/Marlon_Brando "Marlon Brando") (right) at the 1963 [March on Washington for Jobs and Freedom](https://en.m.wikipedia.org/wiki/March_on_Washington_for_Jobs_and_Freedom "March on Washington for Jobs and Freedom"). [Sidney Poitier](https://en.m.wikipedia.org/wiki/Sidney_Poitier "Sidney Poitier") (rear) and [Harry Belafonte](https://en.m.wikipedia.org/wiki/Harry_Belafonte "Harry Belafonte") (right of Brando) can also be seen in the crowd.
 

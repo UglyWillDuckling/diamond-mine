@@ -7,7 +7,7 @@ created: 2025-03-17
 tags:
   - tutorial/nvim/markdown
 ---
-- [ ] #task take a look at [[My neovim markdown setup in 2024]] article/tutorial
+- [ ] #task take a look at [[My neovim markdown setup in 2024]] article/tutorial ⏳ 2025-05-23 📅 2025-05-23
 ___
 ## Contents
 
@@ -113,14 +113,14 @@ ___
 - 10 Gigabit Ethernet
 - If you want to help me reach my goal, you can [donate here](https://ko-fi.com/linkarzu/goal?g=6)
 
-[![Image](https://linkarzu.com/assets/img/imgs/250103-ko-fi-donate.avif)](https://ko-fi.com/linkarzu/goal?g=6)
+[![[~/×/16c1ec5c7e5d0be7547701f10925306b_MD5.avif]]](https://ko-fi.com/linkarzu/goal?g=6)
 
 ## Discord server
 
 - My discord server is now open to the public, feel free to join and hang out with others
 - join the [discord server in this link](https://discord.gg/NgqMgwwtMH)
 
-[![Image](https://linkarzu.com/assets/img/imgs/250210-discord-free.avif)](https://discord.gg/NgqMgwwtMH)
+[![[~/×/464b84e71e2d4d75fcf6f9a5967856cd_MD5.avif]]](https://discord.gg/NgqMgwwtMH)
 
 - [Twitter (or “X”)](https://x.com/link_arzu)
 - [LinkedIn](https://www.linkedin.com/in/christianarzu)
@@ -138,7 +138,7 @@ ___
 - You want to find out why? More info in my article:
 - [How I use 1password to keep all my accounts safe](https://linkarzu.com/posts/1password/1password/)
 
-[![Image](https://linkarzu.com/assets/img/imgs/250124-1password-banner.avif)](https://www.dpbolvw.net/click-101327218-15917064)
+[![[~/×/8b559293c0566891c1b30d878698f788_MD5.avif]]](https://www.dpbolvw.net/click-101327218-15917064)
 
 - I use the [lazyvim.org](https://www.lazyvim.org/) distro, so my plugins and tips are optimized to be compatible with that the most, if using something different you might need to to a bit of tweaking, but you can grab the overall ideas and adapt them to your own config
 - I use `macOS`, so keep that in mind too
@@ -789,7 +789,7 @@ Mike Johnson,40,Chicago
 
 [Start your 14 day FREE trial](https://www.dpbolvw.net/click-101327218-15917064)
 
-[![Image](https://linkarzu.com/assets/img/imgs/250124-1password-banner-bottom.avif)](https://www.dpbolvw.net/click-101327218-15917064)
+[![[~/×/8b559293c0566891c1b30d878698f788_MD5.avif]]](https://www.dpbolvw.net/click-101327218-15917064)
 
 This post is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) by the author.
 

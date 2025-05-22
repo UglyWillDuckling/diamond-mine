@@ -4,7 +4,7 @@ created: 2025-04-18
 tags:
   - country
 ---
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/1280px-Flag_of_Oman.svg.png)
+![[~/×/29819f75d7f6ea6e3d1442f56c77b38d_MD5.png]]
 
 [[Saudi Arabia ]] [[United ArabEmirates]] [[Yemen]]
 
@@ -119,7 +119,7 @@ Zanzibar was a valuable property as the main [slave market](https://en.m.wikiped
 
 #### Treaty of Seeb
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Maskat_%26_Oman_map.png/500px-Maskat_%26_Oman_map.png)
+![[~/×/ba0a70e266d3c0d371de76f5d7fb5b7c_MD5.png]]
 > The split between the interior region (orange) and the coastal region (red) of Oman and Muscat
 
 The [Hajar Mountains](https://en.m.wikipedia.org/wiki/Hajar_Mountains "Hajar Mountains"), of which the [Jebel Akhdar](https://en.m.wikipedia.org/wiki/Jebel_Akhdar_\(Oman\) "Jebel Akhdar (Oman)") is a part, separate the country into two distinct regions: the interior, and the coastal area dominated by the capital, Muscat. The British imperial development over Muscat and Oman during the 19th century led to the renewed revival of the cause of the Imamate in the interior of Oman, which has appeared in cycles for more than 1,200 years in Oman.[^62] The British Political Agent, who resided in Muscat, owed the alienation of the interior of Oman to the vast influence of the British government over Muscat, which he described as being completely self-interested and without any regard to the social and political conditions of the locals.[^92] In 1913, Imam Salim Alkharusi instigated an anti-Muscat rebellion that lasted until 1920 when the Sultanate established peace with the Imamate by signing the [Treaty of Seeb](https://en.m.wikipedia.org/wiki/Treaty_of_Seeb "Treaty of Seeb"). The treaty was brokered by Britain, which had no economic interest in the interior of Oman during that point of time. The treaty granted autonomous rule to the Imamate in the interior of Oman and recognized the sovereignty of the coast of Oman, the [Sultanate of Muscat](https://en.m.wikipedia.org/wiki/Muscat_and_Oman "Muscat and Oman").[^81][^93][^94][^95] In 1920, Imam Salim Alkharusi died and Muhammad Alkhalili was elected.[^55]
@@ -128,7 +128,7 @@ On 10 January 1923, an agreement between the Sultanate and the British governmen
 
 ### Reign of Sultan Said (1932–1970)
 
-![](https://upload.wikimedia.org/wikipedia/commons/f/f3/Said_bin_Taimur_%28cropped%29.png)
+![[~/×/9fb652c063f85ab56c93fbc54d288dc9_MD5.png]]
 > Sultan [Said bin Taimur](https://en.m.wikipedia.org/wiki/Said_bin_Taimur "Said bin Taimur") ruled from 1932 to 1970
 
 [Said bin Taimur](https://en.m.wikipedia.org/wiki/Said_bin_Taimur "Said bin Taimur") became the sultan of Muscat officially on 10 February 1932. The rule of sultan Said, a very complex character, was backed by the British government, and has been characterised as being [feudal](https://en.m.wikipedia.org/wiki/Feudal "Feudal"), [reactionary](https://en.m.wikipedia.org/wiki/Reactionary "Reactionary") and isolationist.[^95][^62][^88][^99] The British government maintained vast administrative control over the Sultanate as the defence secretary and chief of intelligence, chief adviser to the sultan and all ministers except for two were British.[^88][^100] In 1937, an agreement between the sultan and [Iraq Petroleum Company](https://en.m.wikipedia.org/wiki/Iraq_Petroleum_Company "Iraq Petroleum Company") (IPC), a consortium of oil companies that was 23.75% British owned, was signed to grant oil concessions to IPC. After failing to discover oil in the Sultanate, IPC was intensely interested in some promising geological formations near [Fahud](https://en.m.wikipedia.org/wiki/Fahud "Fahud"), an area located within the Imamate. IPC offered financial support to the sultan to raise an armed force against any potential resistance by the Imamate.[^101][^102]
@@ -157,7 +157,7 @@ In the [Dhofar War](https://en.m.wikipedia.org/wiki/Dhofar_War "Dhofar War"), wh
 
 ### Modern history (1970–present)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Omani_Qaboos_bin_Said_Al_Said_%28cropped%29.jpg/500px-Omani_Qaboos_bin_Said_Al_Said_%28cropped%29.jpg)
+![[~/×/3eb8415d49fc7a574c7f5c46655efcbf_MD5.jpg]]
 > Sultan [Qaboos bin Said](https://en.m.wikipedia.org/wiki/Qaboos_bin_Said "Qaboos bin Said"), whose reign saw a rise in living standards and development, the abolition of slavery, the end of the Dhofar Rebellion, and the promulgation of Oman's constitution
 
 After deposing his father in 1970, [Sultan Qaboos](https://en.m.wikipedia.org/wiki/Sultan_Qaboos "Sultan Qaboos") opened up the country, removed "Muscat and" from the country's name, embarked on economic reforms, and followed a policy of modernisation marked by increased spending on health, education and welfare.[^123] Saudi Arabia invested in the development of the Omani education system, sending Saudi teachers on its own expense.[^124][^125][Slavery](https://en.m.wikipedia.org/wiki/Indian_Ocean_slave_trade "Indian Ocean slave trade"), once a cornerstone of the country's trade and development, was outlawed in 1970.[^126]
@@ -179,7 +179,7 @@ Qaboos, at the time the Arab world's longest-serving ruler, died on 10 January 2
 Main article: [Geography of Oman](https://en.m.wikipedia.org/wiki/Geography_of_Oman "Geography of Oman")
 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Wadi_Shab_%286%29.jpg/500px-Wadi_Shab_%286%29.jpg)
+![[~/×/d3b06dda8cc2a3a4640fea15051b409f_MD5.jpg]]
 > Wadi Shab
 
 An [oasis](https://en.m.wikipedia.org/wiki/Oasis "Oasis") in Oman

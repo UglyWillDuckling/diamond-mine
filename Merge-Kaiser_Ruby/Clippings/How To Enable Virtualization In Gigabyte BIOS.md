@@ -16,7 +16,7 @@ I’ll cover the steps to do this on different Gigabyte [BIOS/UEFI](https://www.
 
 To enable Virtualization, you’ll need to [access your BIOS settings](https://www.technewstoday.com/how-to-get-to-bios-windows-11/) first. Press **F2**/**Del** when booting to enter the Gigabyte BIOS Setup utility.
 
-![gigabyte-boot-screen-bios-key](https://www.technewstoday.com/wp-content/uploads/2023/07/gigabyte-boot-screen-bios-key.webp)
+![[~/×/7479277a3c301d50819eed2d1b4067cc_MD5.webp]]
 
 If you’ve [enabled Fast Boot](https://www.technewstoday.com/fast-boot-gigabyte/) and the BIOS key doesn’t work, you can use an alternate method to get to the firmware interface. 
 
@@ -26,7 +26,7 @@ Restart your PC 3 times in a row to boot to the recovery environment. Then, sele
 
 Press **F2** (if required) to switch to *Advanced Mode*. As mentioned earlier, you’re looking for an option named **SVM** (AMD) or **VT-x** (Intel) here.
 
-![gigabyte-bios-svm-mode](https://www.technewstoday.com/wp-content/uploads/2023/07/gigabyte-bios-svm-mode.webp)
+![[~/×/17dba5b10e049a08ab0766f5d1f90583_MD5.webp]]
 
 Currently, [older Gigabyte boards](https://www.technewstoday.com/check-what-motherboard-i-have/) use the classic black-and-red UI, while the latest ones come with the revamped orange/yellow UI released in 2020.
 
@@ -49,11 +49,11 @@ With the new UI, you can find the virtualization option in the following locatio
 
 Once you find the virtualization option, all you need to do is set it to **Enabled**.
 
-![gigabyte-bios-svm-mode-enabled](https://www.technewstoday.com/wp-content/uploads/2023/07/gigabyte-bios-svm-mode-enabled.webp)
+![[~/×/9f06a42884fa47ac83c52129f12f6c1a_MD5.webp]]
 
 If your CPU supports it, you can also enable the PCI passthrough feature. AMD calls it **IOMMU** while Intel calls it **VT-d**.
 
-![gigabyte-bios-iommu-enabled](https://www.technewstoday.com/wp-content/uploads/2023/07/gigabyte-bios-iommu-enabled.webp)
+![[~/×/de2ae90fef4ea8df218ff18f222c517c_MD5.webp]]
 
 This improves performance by letting the PCI devices function as if they were directly connected to the guest machine (e.g., better GPU performance in video games).
 
@@ -65,8 +65,8 @@ After you exit the BIOS, the system should reboot into Windows. You can easily c
 
 Press Ctrl + Shift + Esc to open the Task Manager. In the **Performance** tab, check the **CPU** page for the Virtualization status.
 
-![task-manager-cpu-virtualization](https://www.technewstoday.com/wp-content/uploads/2023/07/task-manager-cpu-virtualization.webp)
+![[~/×/4cfcb4674e03d1b5acbffa0df5a339bc_MD5.webp]]
 
 System profiling programs like CPU-Z are also popularly used for checking the Virtualization status. If it’s enabled, you should see flags like **AMD-V** or **VT-x** in the CPU Instructions section.
 
-![cpu-z-amd-v-instruction-flag](https://www.technewstoday.com/wp-content/uploads/2023/07/cpu-z-amd-v-instruction-flag.webp)
+![[~/×/f94696d0a217ef0f8490f97d70bcfbfd_MD5.webp]]

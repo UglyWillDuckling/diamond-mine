@@ -9,7 +9,7 @@ description: "This article explains how to find out the ports in use and which s
 tags:
   - "clippings"
 ---
-![Check Open Ports in Linux](https://linuxize.com/post/check-listening-ports-linux/featured_hudaa1c3d55a89bc595312b02fecb14114_42478_768x0_resize_q75_lanczos.jpg)
+![[~/×/fdda0aa0872f21a00e43e0da78b2a499_MD5.jpg]]
 
 When troubleshooting network connectivity or application-specific issues, one of the first things to check should be what ports are actually in use on your system and which application is listening on a specific port.
 

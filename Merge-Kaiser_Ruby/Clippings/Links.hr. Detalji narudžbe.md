@@ -9,7 +9,7 @@ tags:
   - clippings
   - active
 ---
-[![Menu](https://www.links.hr/Themes/Links/Content/images/icon/Menu2.svg)](https://www.links.hr/hr/orderdetails/#) [![Links](https://www.links.hr/Themes/Links/Content/images/common/links-logo.svg)](https://www.links.hr/hr)
+[![[~/×/c68d668e11248eeeb8f9550f169eaf80_MD5.svg]]](https://www.links.hr/hr/orderdetails/#) [![[~/×/edc54d82556e6f24796d20a13a71ae2f_MD5.svg]]](https://www.links.hr/hr)
 [[Boox palma 2]] 
 **Narudžba #917409**
 - Datum narudžbe: 2. prosinca 2024.

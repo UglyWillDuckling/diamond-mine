@@ -32,7 +32,7 @@ Zanimljivo je da se BIC ponekad naziva i [[SWIFT kod]]om. Razlog? [SWIFT](https:
 
 Pri slanju novca u inozemstvo, banka će vas često pitati za BIC broj primatelja. Ovaj mali niz znakova osigurava da vaš novac stigne točno tamo gdje treba!
 
-![svjetske valute na dlanu](https://dir.hr/wp-content/uploads/2024/09/sto-je-bic-broj-internacionalno-placanje-1.jpg)
+![[~/×/23b7593a9f4b70790fbe97b185c22953_MD5.jpg]]
 
 ## Razlika između BIC i SWIFT broja
 
@@ -65,7 +65,7 @@ BIC također **povećava sigurnost**. Svaka banka ima svoj jedinstveni kod, što
 
 Evo zanimljivosti: BIC kod sadrži informacije o zemlji, gradu i samoj banci. Možete ga zamisliti kao **putovnicu za vaš novac**!
 
-![novac putuje oko svijeta](https://dir.hr/wp-content/uploads/2024/09/sto-je-bic-broj-putovnica.jpg)
+![[~/×/0d0344eaa6fda87d5264c311bb0eb58d_MD5.jpg]]
 
 Za one koji često šalju novac u inozemstvo, poznavanje BIC-a može **uštedjeti vrijeme i živce**. Nema više dugih razgovora s bankarima ili pogrešnih transakcija.
 ## Kako koristiti BIC broj u međunarodnim transakcijama
@@ -102,7 +102,7 @@ BIC (Bank Identifier Code), poznat i kao SWIFT kod, sastoji se od **8 ili 11 zna
 
 Zajedno, ovi kodovi omogućuju **preciznu identifikaciju** primatelja novca u međunarodnim transakcijama. Pri slanju novca u inozemstvo, banka traži oba podatka kako bi osigurala da sredstva stignu na pravo odredište.
 
-![kreditne kartice na stolu](https://dir.hr/wp-content/uploads/2024/09/sto-je-bic-broj-kreditne-kartice.jpg)
+![[~/×/e08209577863daf9974547233ff9c1c8_MD5.jpg]]
 
 Zanimljivo je da, iako IBAN varira u duljini ovisno o zemlji, za zemlje SEPA-e (Jedinstveno područje plaćanja u eurima) ne smije prelaziti 34 znaka. Ovo ograničenje pomaže u standardizaciji i pojednostavljenju prekograničnih plaćanja unutar eurozone.
 

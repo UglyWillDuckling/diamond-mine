@@ -13,7 +13,7 @@ The objective is to disable the default Nouveau kernel driver on [Ubuntu 20.04](
 
 - How to blacklist Nouveau nvidia driver
 - How to update kernel initramfs
-[![How to disable/blacklist Nouveau nvidia driver on Ubuntu 20.04 Focal Fossa Linux](https://linuxconfig.org/wp-content/uploads/2019/12/01-how-to-disable-nouveau-nvidia-driver-on-ubuntu-20-04-focal-fossa-linux.avif)](https://linuxconfig.org/wp-content/uploads/2019/12/01-how-to-disable-nouveau-nvidia-driver-on-ubuntu-20-04-focal-fossa-linux.avif "How to disable/blacklist Nouveau nvidia driver on Ubuntu 20.04 Focal Fossa Linux") How to disable/blacklist Nouveau nvidia driver on Ubuntu 20.04 Focal Fossa Linux
+[![[~/×/75d2ca6afad5e0a2acd5130150dcf28a_MD5.avif]]](https://linuxconfig.org/wp-content/uploads/2019/12/01-how-to-disable-nouveau-nvidia-driver-on-ubuntu-20-04-focal-fossa-linux.avif "How to disable/blacklist Nouveau nvidia driver on Ubuntu 20.04 Focal Fossa Linux") How to disable/blacklist Nouveau nvidia driver on Ubuntu 20.04 Focal Fossa Linux
 
 ## Software Requirements and Conventions Used
 

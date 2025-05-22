@@ -43,7 +43,7 @@ Often a database entity is called `database schema` or database model as well. Y
 
 Before diving into the code for your application, it's always a good idea to map the relationships between entities and how to handle the data that must pass between them. A [UML (Unified Modeling Language)](https://en.wikipedia.org/wiki/Unified_Modeling_Language) diagram is a straightforward way to express relationships between entities in a way that can be referenced quickly as you type them out. This is useful for the person laying the groundwork for an application as well as anyone who wants to additional information in the database schema to it. An UML diagram could appear as such:
 
-  ![uml diagram](https://www.robinwieruch.de/static/b7e1ecfc9fb527a687939a0da39fa834/04abd/uml.png "uml diagram")
+  ![[~/×/013bd2afd097f2220c8570ba3cb56180_MD5.png]]
 
 The **User** and **Message** entities have fields that define both their identity within the construct and their relationships to each other. 
 

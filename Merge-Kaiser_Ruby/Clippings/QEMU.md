@@ -181,7 +181,7 @@ QEMU can emulate the paravirtual sPAPR interface with the following peripherals:
 
 On the sPAPR target, another Open-Firmware-compatible BIOS is used, called SLOF.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/QEMU_ARM_Fedora_Login1.png/220px-QEMU_ARM_Fedora_Login1.png)
+![[~/×/e96623e30798e177daeae8469607b632_MD5.png]]
 
 QEMU booted into the ARM port of [Fedora 8](https://en.wikipedia.org/wiki/Fedora_\(operating_system\) "Fedora (operating system)")
 
@@ -371,15 +371,15 @@ External trees exist, supporting the following targets:
 
 [^nongnu_org_qemu_links-51]: ["QEMU links"](http://wiki.qemu.org/Links). 090506 nongnu.org
 
-[![](https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png)](https://en.wikipedia.org/wiki/File:Commons-logo.svg)
+[![[~/×/ed45fd374ea254291db2e22399c10c40_MD5.png]]](https://en.wikipedia.org/wiki/File:Commons-logo.svg)
 
 Wikimedia Commons has media related to [QEMU](https://commons.wikimedia.org/wiki/QEMU "commons:QEMU").
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/40px-Wikibooks-logo-en-noslogan.svg.png)](https://en.wikipedia.org/wiki/File:Wikibooks-logo-en-noslogan.svg)
+[![[~/×/5db3202674f03e069867cf0782d2d3f9_MD5.png]]](https://en.wikipedia.org/wiki/File:Wikibooks-logo-en-noslogan.svg)
 
 Wikibooks has more on the topic of: ***[QEMU](https://en.wikibooks.org/wiki/Special:Search/QEMU "wikibooks:Special:Search/QEMU")***
 
-- [Official website](https://www.qemu.org/) [![Edit this at Wikidata](https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png)](https://www.wikidata.org/wiki/Q624699#P856 "Edit this at Wikidata")
+- [Official website](https://www.qemu.org/) [![[~/×/46a5f281259955b3cfc92a415ea2f3e8_MD5.png]]](https://www.wikidata.org/wiki/Q624699#P856 "Edit this at Wikidata")
 - [QEMU documentation](https://www.qemu.org/docs/master/)
 - [Systems emulation with QEMU](https://web.archive.org/web/20130720074636/http://www.ibm.com/developerworks/linux/library/l-qemu/) an IBM developerWorks article by M. Tim Jones
 - [QVM86 project page](http://savannah.nongnu.org/projects/qvm86/)

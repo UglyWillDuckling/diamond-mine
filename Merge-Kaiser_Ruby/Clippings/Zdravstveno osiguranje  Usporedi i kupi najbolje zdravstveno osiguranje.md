@@ -18,7 +18,7 @@ Jednokratno plaćanje
 
 Većina osiguravajućih kuća daje popust na jednokratno plaćanje.
 
-![logo](https://static.kompare.hr/dzo/images/groupama.svg)
+![[~/×/e5e53fbde8d6834b36daa224146606e4_MD5.svg]]
 
 Iskaznica je sredstvo plaćanja, osim kod podizanja lijekova s B liste.
 
@@ -26,7 +26,7 @@ Svi troškovi participacije su pokriveni neograničeno
 
 Kada ti zatreba pomoć liječnika, ne trebaš ništa nadoplaćivati.
 
-![logo](https://static.kompare.hr/dzo/images/details-allianz.svg)
+![[~/×/dd9fcd987e94099fc2949fc6a2175327_MD5.svg]]
 
 Iskaznica je sredstvo plaćanja, osim kod podizanja lijekova s B liste
 
@@ -36,7 +36,7 @@ Svi troškovi participacije su pokriveni neograničeno
 
 Kada ti zatreba pomoć liječnika, ne trebaš ništa nadoplaćivati.
 
-![logo](https://static.kompare.hr/dzo/images/details-wiener.svg)
+![[~/×/cb44017bfc2039bfb683f4043b713a8c_MD5.svg]]
 
 Iskaznica je sredstvo plaćanja, osim kod podizanja lijekova s B liste.
 
@@ -52,7 +52,7 @@ Vrijedi za jedan ciklus bolničkog liječenja za vrijeme trajanja osiguranja. U 
 
 Manje plastike, više štednje. Uzmi zeleni popust i uštedi 5% popusta prilikom kupnje.
 
-![logo](https://static.kompare.hr/dzo/images/details-uniqa.png)
+![[~/×/ae2d2eebaab90925ad259ab225339b08_MD5.png]]
 
 Iskaznica je sredstvo plaćanja, osim kod podizanja lijekova s B liste.
 
@@ -60,7 +60,7 @@ Svi troškovi participacije su pokriveni neograničeno
 
 Kada ti zatreba pomoć liječnika, ne trebaš ništa nadoplaćivati.
 
-![logo](https://static.kompare.hr/dzo/images/details-triglav.svg)
+![[~/×/9278b7bada82fa47c832d11b27e6de97_MD5.svg]]
 
 Iskaznica je sredstvo plaćanja, osim kod podizanja lijekova s B liste.
 
@@ -68,7 +68,7 @@ Svi troškovi participacije su pokriveni neograničeno
 
 Kada ti zatreba pomoć liječnika, ne trebaš ništa nadoplaćivati.
 
-![logo](https://static.kompare.hr/dzo/images/details-merkur.png)
+![[~/×/1af78fa1b2c8467663c4ef8ebe9dbf28_MD5.png]]
 
 Iskaznica je sredstvo plaćanja, osim kod podizanja lijekova s B liste.
 
@@ -85,7 +85,7 @@ Dnevna bolnička naknada + Kućna njega
 **Dnevna bolnička naknada** - Za svaki dan bolničkog liječenja radi bolesti ili nezgode osigurana svota je 13.27€/dan. Karenca za bolest je 60 dana. karence za nezgodu nema. Najviše 180 dana. U pokriće ne ulaze toplice, fizikalna terapija, porod, promjena spola, kozmetički zahvati, rat, potres, ako se nezgoda ili bolest dogodi radi djelovanja alkohola, droga itd.  
 **Kućna njega** - Ako je osiguranik zbog bolesti ili nezgode bio hospitaliziran 3 dana ili duže, a nakon boravka u bolnici je onemogućen samostalno obavljati redovite kućanske poslove ili je imao prijelom kosti i/ili rupturu ligamenata zbog kojih je onemogućen samostalno obavljati redovite kućanske poslove te mu je potrebna pomoć (npr. nabavka hrane ili odlazak u ljekarnu po lijekove, briga o maloljetnoj djeci, briga o kućnim ljubimcima, pomoć kod čišćenja, pranja rublja, peglanja i sl.) ima pravo na organiziranje korištenja usluge pomoći u kućanstvu- najviše 4h/dan, najviše 3 štetna događaja i maksimalno 200€ po jednom štetnom događaju. U pokriću je i posjet doktora ili medicinske sestre, ako je osoba bila više od 3 dana u bolnici uslijed bolesti, nezgode, prijeloma kosti.
 
-![logo](https://static.kompare.hr/dzo/images/details-croatia.svg)
+![[~/×/ecabdbaf38e7801e701fb870ad054359_MD5.svg]]
 
 Iskaznica je sredstvo plaćanja, i kod podizanja lijekova s B liste.
 
@@ -105,7 +105,7 @@ Moguća dodatna pokrića
 
 Pokriće uključuje: **\- naknadu troškova za stomatološke usluge** do iznosa od 265,45€/god, uz učešće osiguranika od 30%. **\- besplatni dentalni pregled usne šupljine s ortopan snimkom** obavljen u ugovornoj ordinaciji ili pravo na naknadu tih troškova obavljenih u ordinaciji po vlastitom izboru, do visine najniže cijene prema važećem cjeniku Hrvatske komore dentalne medicine. **\- stomatološke usluge obuhvaćene programom su**: liječenje gangrene do 39,82€/jednom godišnje; liječenje pulpitisa do 39,82€/jednom godišnje; terapija kod frakture krune trajnih zuba do 33,18€ po zubu/3 zuba godišnje; ispun – plomba s anestezijom do 33,18€ po zubu/3 zuba godišnje; vađenje zuba do 26,54€/jednom godišnje; RTG snimka do 3,98€ po zubu/5 zuba godišnje; lokalna anestezija do 6,64€ po tretmanu/najviše triput godišnje; ispitivanje vitaliteta do 3,98€ po ispitivanju/najviše triput godišnje; čišćenje zubnog kamenca i poliranje zuba do 26,54€/ednom godišnje. **\- GODIŠNJA NADOPLATA U POLICI: 49,37€**
 
-![logo](https://static.kompare.hr/dzo/images/details-merkur.png)
+![[~/×/1af78fa1b2c8467663c4ef8ebe9dbf28_MD5.png]]
 
 Iskaznica je sredstvo plaćanja, osim kod podizanja lijekova s B liste.
 
@@ -118,7 +118,7 @@ Svi troškovi participacije su pokriveni neograničeno
 
 Kada ti zatreba pomoć liječnika, ne trebaš ništa nadoplaćivati.
 
-![logo](https://static.kompare.hr/dzo/images/details-croatia.svg)
+![[~/×/ecabdbaf38e7801e701fb870ad054359_MD5.svg]]
 
 Iskaznica je sredstvo plaćanja, i kod podizanja lijekova s B liste.
 
@@ -142,7 +142,7 @@ Moguća dodatna pokrića
 
 Pokriće uključuje: **\- naknadu troškova za stomatološke usluge** do iznosa od 265,45€/god, uz učešće osiguranika od 30%. **\- besplatni dentalni pregled usne šupljine s ortopan snimkom** obavljen u ugovornoj ordinaciji ili pravo na naknadu tih troškova obavljenih u ordinaciji po vlastitom izboru, do visine najniže cijene prema važećem cjeniku Hrvatske komore dentalne medicine. **\- stomatološke usluge obuhvaćene programom su**: liječenje gangrene do 39,82€/jednom godišnje; liječenje pulpitisa do 39,82€/jednom godišnje; terapija kod frakture krune trajnih zuba do 33,18€ po zubu/3 zuba godišnje; ispun – plomba s anestezijom do 33,18€ po zubu/3 zuba godišnje; vađenje zuba do 26,54€/jednom godišnje; RTG snimka do 3,98€ po zubu/5 zuba godišnje; lokalna anestezija do 6,64€ po tretmanu/najviše triput godišnje; ispitivanje vitaliteta do 3,98€ po ispitivanju/najviše triput godišnje; čišćenje zubnog kamenca i poliranje zuba do 26,54€/ednom godišnje. **\- GODIŠNJA NADOPLATA U POLICI: 49,37€**
 
-![logo](https://static.kompare.hr/dzo/images/details-croatia.svg)
+![[~/×/ecabdbaf38e7801e701fb870ad054359_MD5.svg]]
 
 Iskaznica je sredstvo plaćanja, i kod podizanja lijekova s B liste.
 
@@ -166,7 +166,7 @@ Svi troškovi participacije su pokriveni neograničeno
 
 Kada ti zatreba pomoc lijecnika, ne trebas nista nadoplacivati.
 
-![logo](https://static.kompare.hr/dzo/images/details-croatia.svg)
+![[~/×/ecabdbaf38e7801e701fb870ad054359_MD5.svg]]
 
 Iskaznica je sredstvo plaćanja, i kod podizanja lijekova s B liste.
 

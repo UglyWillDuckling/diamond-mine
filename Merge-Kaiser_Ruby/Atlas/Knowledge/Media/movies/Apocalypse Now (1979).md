@@ -36,6 +36,7 @@ themes:
   - "[[Colonialism]]"
   - "[[war]]"
   - "[[psychology]]"
+t:
 ---
 
 `$= '![Image|360](' + dv.current().image + ')'`

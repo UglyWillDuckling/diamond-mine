@@ -92,11 +92,11 @@ This command is necessary due to how Docker handles file permissions and how the
 
 When finished, navigate to `localhost:8080` in your browser, and WordPress should greet you with its installation screen:
 
-![](https://developer.files.wordpress.com/2022/11/image.png?w=1024)
+![[~/×/a33a41294875e7e8101037ba142363de_MD5.png|500]]
 
 Proceed through the installation, selecting a language and any other required information, such as site title, username, password, and email. Once you’ve provided these details, WordPress will take you to the login screen, where you can use those details to access the admin dashboard:
 
-![](https://developer.files.wordpress.com/2022/11/image-1.png?w=1024)
+![[~/×/1aac79dd251a57afab24a84be8f3eceb_MD5.png|500]]
 
 With your development environment set up, you can start building WordPress sites, themes, and plugins. However, if you’re new to WordPress or Docker and want to see what sort of things you can do, follow along, and you can create your first WordPress plugin using your new local development environment.
 
@@ -161,20 +161,20 @@ function latest_post_transient() {
 
 Refresh the page, and click the **Activate** button on your plugin’s entry:
 
-![plugins|500](https://developer.files.wordpress.com/2022/11/image-2.png?w=1024)
+![[~/×/205520b5b14bfebcbdf837e8339bb50a_MD5.png|500]]
 
 With that, your [[shortcode]] is now ready for use. 
 In the navigation menu, hover over **Appearance** and then select **Editor** in the flyout menu. This will take you to the block editor. From here, click the **Plus** button near the top left-hand corner, and search for “shortcode” in the menu that appears:
 
-![shortcode|500](https://developer.files.wordpress.com/2022/11/image-3.png?w=1024)
+![[~/×/9ab325241348f334a1662399ffeffded_MD5.png|500]]
 
 Drag the shortcode block onto your page, and in the field that appears, type the **name** of your new shortcode, surrounded by square brackets (*ie* `[latest_post]`):
 
-![name|400](https://developer.files.wordpress.com/2022/11/image-4.png?w=1024)
+![[~/×/e2961deec406e81ed794b3d90616219c_MD5.png|400]]
 
 Save your changes, and then navigate to your site’s home page (`localhost:8080`),
 and you should see that your shortcode has resolved to the name of the site’s default post, “Hello world!” To test that things are working as intended, hover over the **New** menu in the admin navigation at the top of the screen, and select **Post**. Give your new post a title from this page and publish it:
 
-![post|500](https://developer.files.wordpress.com/2022/11/image-5.png?w=1024)
+![[~/×/9312447bd95be309bed95b1c06b08cb6_MD5.png|500]]
 
 Now, *navigate* back to the **home pag**e, and you’ll see that the **shortcode now resolves to the latest post’s title**, as intended:

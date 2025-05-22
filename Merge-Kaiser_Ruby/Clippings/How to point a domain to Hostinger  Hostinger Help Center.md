@@ -34,7 +34,7 @@ Your website may be temporarily unavailable during this time. Usually, it takes 
 
 Navigate to the **[Websites](https://hpanel.hostinger.com/websites)** section of hPanel and click on **Add website**:
 
-[![](https://downloads.intercomcdn.com/i/o/1139781871/675031a3578588fece40075e/image.png?expires=1736100000&signature=f5622a1586b769a9c4252472fc4f7de531abd3a59b8d92c243c8a7e91993bb87&req=dSEkH852nIlYWPMW1HO4zR0MVOgNPzisfsTW9BCHTZpBo3zti8iPtoHW39GH%0A%2BY6WDm5AftM6KUrVeiw%3D%0A)](https://downloads.intercomcdn.com/i/o/1139781871/675031a3578588fece40075e/image.png?expires=1736100000&signature=f5622a1586b769a9c4252472fc4f7de531abd3a59b8d92c243c8a7e91993bb87&req=dSEkH852nIlYWPMW1HO4zR0MVOgNPzisfsTW9BCHTZpBo3zti8iPtoHW39GH%0A%2BY6WDm5AftM6KUrVeiw%3D%0A)
+[![[~/×/a2c13b0d07c722855fb95bea4e931e09_MD5.png]]](https://downloads.intercomcdn.com/i/o/1139781871/675031a3578588fece40075e/image.png?expires=1736100000&signature=f5622a1586b769a9c4252472fc4f7de531abd3a59b8d92c243c8a7e91993bb87&req=dSEkH852nIlYWPMW1HO4zR0MVOgNPzisfsTW9BCHTZpBo3zti8iPtoHW39GH%0A%2BY6WDm5AftM6KUrVeiw%3D%0A)
 Next, follow the onboarding process. Once propagation is completed, you may be able to manage your domain's records using the [DNS Zone Editor](https://support.hostinger.com/en/articles/1583249-how-to-manage-dns-records-at-hostinger).
 
 

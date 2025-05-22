@@ -11,7 +11,7 @@ tags:
 ---
 "**Rule, Britannia!**" is a British [patriotic song](https://en.m.wikipedia.org/wiki/Patriotism "Patriotism"), originating from the 1740 poem "Rule, Britannia" by [James Thomson](https://en.m.wikipedia.org/wiki/James_Thomson_\(poet,_born_1700\) "James Thomson (poet, born 1700)")[^odnb-1] and set to music by [Thomas Arne](https://en.m.wikipedia.org/wiki/Thomas_Arne "Thomas Arne") in the same year.[^2] It is most strongly associated with the [Royal Navy](https://en.m.wikipedia.org/wiki/Royal_Navy "Royal Navy"), but is also used by the [British Army](https://en.m.wikipedia.org/wiki/British_Army "British Army").[^3]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Gnome-mime-audio-openclipart.svg/50px-Gnome-mime-audio-openclipart.svg.png)
+![[~/×/272268e1b7b62173b60b8b18a19713e0_MD5.png]]
 
 <audio id="mwe_player_0_placeholder" preload="none" data-mw-tmh="" class="" width="232" data-durationhint="77" data-mwtitle="'Rule,_Britannia!'_(United_States_Army_Strings).oga" data-mwprovider="wikimediacommons" playsinline="" disabled="disabled" tabindex="-1"></audio>.oga "Play audio")Duration: 1 minute and 17 seconds.
 
@@ -19,15 +19,15 @@ tags:
 
 <audio id="mwe_player_1_placeholder" preload="none" data-mw-tmh="" class="" width="232" data-durationhint="248" data-mwtitle="Rule,_Britannia.ogg" data-mwprovider="wikimediacommons" playsinline="" disabled="disabled" tabindex="-1"></audio>Duration: 4 minutes and 8 seconds.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Rule_Britannia_1.png/220px-Rule_Britannia_1.png)
+![[~/×/950263ac6a5d71adae06b40a58ae5c0a_MD5.png]]
 
 First page of an 1890s edition of the sheet music
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Rule_Britannia_2.png/220px-Rule_Britannia_2.png)
+![[~/×/9638ce191307cf41a1c23b7b3eab21fd_MD5.png]]
 
 Second page
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/38px-Wikisource-logo.svg.png)](https://en.m.wikipedia.org/wiki/File:Wikisource-logo.svg)
+[![[~/×/aa3ac4eff46543bb26af44eca9ebf304_MD5.png]]](https://en.m.wikipedia.org/wiki/File:Wikisource-logo.svg)
 
 [Wikisource](https://en.m.wikipedia.org/wiki/Wikisource "Wikisource") has original text related to this article:
 
@@ -89,7 +89,7 @@ According to Armitage[^9] "Rule, Britannia" was the most lasting expression of t
 
 At the time it appeared, the song was not a celebration of an existing state of naval affairs, but an exhortation. Although the [Dutch Republic](https://en.m.wikipedia.org/wiki/Dutch_Republic "Dutch Republic"), which in the 17th century presented a major challenge to English sea power, was obviously past its peak by 1745, Britain did not yet "rule the waves", although, since it was written during the [War of Jenkins' Ear](https://en.m.wikipedia.org/wiki/War_of_Jenkins%27_Ear "War of Jenkins' Ear"), it could be argued that the words referred to the alleged Spanish aggression against British merchant vessels that caused the war. The time was still to come when the Royal Navy would be an unchallenged dominant force on the oceans. The jesting lyrics of the mid-18th century would assume a material and patriotic significance by the end of the 19th century.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Britannia_rules_the_waves_IMG_2210.JPG/220px-Britannia_rules_the_waves_IMG_2210.JPG)
+![[~/×/ad4b2caa44fb3d531716c0f56a45829b_MD5.jpg]]
 
 *Britannia rule the waves*: decorated plate made in [Liverpool](https://en.m.wikipedia.org/wiki/Liverpool "Liverpool") circa 1793–1794 ([Musée de la Révolution française](https://en.m.wikipedia.org/wiki/Mus%C3%A9e_de_la_R%C3%A9volution_fran%C3%A7aise "Musée de la Révolution française")).
 

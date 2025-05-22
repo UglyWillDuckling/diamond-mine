@@ -1,1 +1,0 @@
-![](https://sound-report.com/gallery/blog/chui-u-slavonskom-brodu-jazz-rock-spektakl-u-sklopu-10-hrvatskog-trijenala-akvarela-i-dana-grada.jpg)

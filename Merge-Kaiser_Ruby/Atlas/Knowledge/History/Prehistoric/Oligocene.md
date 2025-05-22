@@ -16,7 +16,7 @@ The Oligocene is preceded by the [Eocene](https://en.m.wikipedia.org/wiki/Eocene
 The Oligocene is the **third and final** epoch of the [Paleogene](https://en.m.wikipedia.org/wiki/Paleogene "Paleogene") Period.
 [[Paleogene]]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Mollweide_Paleographic_Map_of_Earth%2C_30_Ma_%28Rupelian_Age%29.png/1280px-Mollweide_Paleographic_Map_of_Earth%2C_30_Ma_%28Rupelian_Age%29.png)
+![[~/×/30e0e8635a3400ce64c6a2520843dc55_MD5.png]]
 A map of Earth as it appeared 30 million years ago during the Oligocene Epoch, [[Rupelian Age]]
 
 
@@ -35,12 +35,12 @@ The upper boundary of the Oligocene is defined by its GSSP at [Carrosio](https:/
 Oligocene [faunal stages](https://en.m.wikipedia.org/wiki/Faunal_stage "Faunal stage") from youngest to oldest are:[^stratigraphy379-3][^12]
 
 
-![](https://upload.wikimedia.org/wikipedia/commons/1/18/Oligocene_Chart.jpg) 
+![[~/×/6b10ff77a5ad9d10cececdb4cd947f03_MD5.jpg]] 
 > Subdivisions of the Oligocene
 
 ## **Tectonics** and paleogeography
 
-![](https://upload.wikimedia.org/wikipedia/commons/1/12/Mediterranean_Rupelian.jpg)
+![[~/×/cb7eec54404808cc17bf1dab17f56fd3_MD5.jpg]]
  [Neotethys](https://en.m.wikipedia.org/wiki/Neotethys "Neotethys") during the Oligocene (Rupelian, 33.9–28.4 mya)
 
 During the Oligocene Epoch, the continents continued to [drift](https://en.m.wikipedia.org/wiki/Continental_drift "Continental drift") toward their present.

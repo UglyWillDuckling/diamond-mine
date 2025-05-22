@@ -5,7 +5,7 @@ published:
 created: 2025-04-23
 tags:
 ---
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Yin_and_Yang_symbol.svg/250px-Yin_and_Yang_symbol.svg.png)
+![[~/×/cfacc8dff8cbfa67c9c1fa2aca9f6763_MD5.png]]
 
 The Yin-Yang symbol of balanced opposites in Chinese philosophy. In Le Guin's words, "Light is the left hand of darkness; darkness is the right hand of light." 1 2
 

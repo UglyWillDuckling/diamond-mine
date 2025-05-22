@@ -25,7 +25,7 @@ Kaže da je ukupno šest ključnih dionika u procesu. Osim potrošača, to su do
 
 Navodi da mnogi nisu svjesni ovog kolopleta i kruga od šest dionika i da u javnom prostoru dominira uvjerenje da postoje dva paralelna svijeta koja čine trgovci i potrošači. Pitamo ga zašto su cijene nekih proizvoda ipak u Hrvatskoj toliko veće nego na bogatijem Zapadu.
 
-![](https://ip.index.hr/remote/bucket.index.hr/b/index/9c369308-46b0-4224-8c70-871792c35a64.jpg?width=500)
+![[~/×/49ee544a923f12806788a6562d82de9d_MD5.jpg]]
 
 Navodi kako imamo brojne primjere da isti proizvod ne košta isto u različitim zemljama, pa čak i unutar različitih područja u istoj državi. Kaže da na to utječu brojni faktori, od volumena koji se isporučuju, poreznih tretmana ne samo proizvoda nego i onih koji ga proizvode, distribuiraju i prodaju pa do troška transporta i distribucije, preferencija potrošača, razine konkurencije itd.
 
@@ -41,7 +41,7 @@ Tekst se nastavlja ispod oglasa
 
 Govorimo mu da nam je ekonomski računica jasna, ali da se ljudi ne mogu pomiriti s tim da velika Milka u Hrvatskoj košta gotovo osam eura.
 
-![](https://ip.index.hr/remote/bucket.index.hr/b/index/7d2f19d9-a974-49ac-a90c-0e2ea5f26952.jpg?width=500)
+![[~/×/7f20ea27380335b5bfb7dcdd270a154d_MD5.jpg]]
 
 "Milke do prije 35 godina nije bilo u hrvatskim trgovinama, a nije bilo niti ovoliko trgovina. Milka nije bogomdano pravo. Kupnja Milke je jedno od naših interesa prema načelu "želim konzumirati čokoladu tog brenda, ali nemam bezuvjetno pravo te konzumacije".
 
@@ -59,7 +59,7 @@ Dokazano je empirijski da je inflacija dominantno monetarni fenomen i stoga je b
 
 Kad imamo periode u kojima se intenzivno tiska novac, a gdje nominalno povećana količina natiskanog novca ne korespondira razmjernim povećanjem realne proizvodnje i konzumacije dobara i usluga - tada uvijek dolazi do podizanja razine cijena", kaže.
 
-![](https://ip.index.hr/remote/bucket.index.hr/b/index/684fbb07-63fb-4c61-981f-3dafc7d90e6b.jpg?width=500)
+![[~/×/2ea7e457470854d9b193da7249997196_MD5.jpg]]
 
 "Drugi razlog prolongirane inflacije je ekspanzivna fiskalna politika države. Drugim riječima - snažna državna potrošnja. Rashodi proračuna 2019. su iznosili 18.5 mlrd EUR, a plan za 2025. je 37 mlrd EUR - to je povećanje od 100% u 6 godina. Takvi rashodi doprinose snažnoj potražnji, a u takvim okolnostima teško je očekivati smanjenje cijena na strani ponude", govori.
 
@@ -75,7 +75,7 @@ Ne treba kriviti ljude u javnom sektoru da žele veću plaću, mnogi je i zaslu�
 
 Imate i EU fondove. To je tuđi novac koji pomaže u maskiranju problema, ali to utječe na nedostatak racionalnosti u potrošnji. Prije tog novca, Hrvatska je od 2009. do 2015. bila u recesiji. Valjda jedina na zapadnoj hemisferi koja je toliko dugo bila u recesiji jer nije bilo tuđeg novca. Taj novac je koristan za skupine koji su njegovi primatelji, ali u postojećim okolnostima ima proinflatorni učinak", kaže.
 
-![](https://ip.index.hr/remote/bucket.index.hr/b/index/52d1af71-0a59-4dc9-965f-f8c966942b7c.jpg?width=500)
+![[~/×/fc491053bcf652b9e47bb07af6ed67b0_MD5.jpg]]
 
 Odgovorio je na pitanje kako uz sve ovo što znamo komentira državu, tj. političare koji se priključuju ovom bojkotu.
 
@@ -97,7 +97,7 @@ Zaključuje da država kako bi suzbila inflaciju treba apelirati na restriktivni
 
 Podsjeća i da je subvencioniranje dijeljenje tuđeg novca koje ne potiče racionalizaciju potrošnje nego je potrebno ići s jačim poreznim rasterećenjem. "Takve prilagodbe su mnogima politički neprihvatljive, ali jednom će, barem dio njih, postati politički neizbježan", zaključuje.
 
-![](https://www.index.hr/Content/img/article-cta.svg)
+![[~/×/8290c409e14d741570491fbc21769aaf_MD5.svg]]
 
 Imate važnu priču? Javite se na **[desk@index.hr](https://www.index.hr/mobile/vijesti/clanak/krenuo-je-novi-bojkot-grubisic-za-index-on-ne-utjece-na-uzroke-poskupljenja/)** ili klikom **[ovdje](https://www.index.hr/mobile/posaljite-pricu)**. Atraktivne fotografije i videe plaćamo.
 

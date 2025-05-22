@@ -12,7 +12,7 @@ tags:
 ---
 The **history of the Huns** spans the time from before their first secure recorded appearance in Europe around 370 AD to after the disintegration of their empire around 469. The [Huns](https://en.m.wikipedia.org/wiki/Huns "Huns") likely entered Western Asia shortly before 370, from [Central Asia](https://en.m.wikipedia.org/wiki/Central_Asia "Central Asia"): they first conquered the [Goths](https://en.m.wikipedia.org/wiki/Goths "Goths") and the [Alans](https://en.m.wikipedia.org/wiki/Alans "Alans"), pushing a number of tribes to seek refuge within the [Roman Empire](https://en.m.wikipedia.org/wiki/Roman_Empire "Roman Empire"). In the following years, the Huns conquered most of the [Germanic](https://en.m.wikipedia.org/wiki/Germanic_peoples "Germanic peoples") and [Scythian](https://en.m.wikipedia.org/wiki/Scythians "Scythians") tribes outside of the borders of the Roman Empire. They also launched invasions of both the Asian provinces of Rome and the [Sasanian Empire](https://en.m.wikipedia.org/wiki/Sasanian_Empire "Sasanian Empire") in 375. Under [Uldin](https://en.m.wikipedia.org/wiki/Uldin "Uldin"), the first Hunnic ruler named in contemporary sources, the Huns launched a first unsuccessful large-scale raid into the [Eastern Roman Empire](https://en.m.wikipedia.org/wiki/Eastern_Roman_Empire "Eastern Roman Empire") in Europe in 408. From the 420s, the Huns were led by the brothers [Octar](https://en.m.wikipedia.org/wiki/Octar "Octar") and [Ruga](https://en.m.wikipedia.org/wiki/Rugila "Rugila"), who both cooperated with and threatened the Romans. Upon Ruga's death in 435, his nephews [Bleda](https://en.m.wikipedia.org/wiki/Bleda "Bleda") and [Attila](https://en.m.wikipedia.org/wiki/Attila "Attila") became the new rulers of the Huns, and launched a successful raid into the Eastern Roman Empire before making peace and securing an annual tribute and trading raids under the [Treaty of Margus](https://en.m.wikipedia.org/wiki/Treaty_of_Margus "Treaty of Margus"). Attila appears to have killed his brother, and became sole ruler of the Huns in 445. He would go on to rule for the next eight years, launching a devastating raid on the Eastern Roman Empire in 447, followed by an invasion of [Gaul](https://en.m.wikipedia.org/wiki/Gaul "Gaul") in 451. Attila is traditionally held to have been defeated in Gaul at the [Battle of the Catalaunian Fields](https://en.m.wikipedia.org/wiki/Battle_of_the_Catalaunian_Fields "Battle of the Catalaunian Fields"), however some scholars hold the battle to have been a draw or Hunnic victory. The following year, the Huns invaded Italy and encountered no serious resistance before turning back.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Huns450.png/220px-Huns450.png)
+![[~/×/2c868bad0aa4703078024d7cab0e31b2_MD5.png]]
 
 Territory under Hunnic control, c. 450 AD
 
@@ -26,7 +26,7 @@ It is possible that the Huns were directly or indirectly responsible for the [fa
 
 ### Disintegration of Hunnic rule in the West
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Morte_di_Attila%2C_Ferenc_Paczka.jpg/220px-Morte_di_Attila%2C_Ferenc_Paczka.jpg)
+![[~/×/ce3fb71c6352221785ad189e0e5ba997_MD5.jpg]]
 
 "The Death of Attila" by [Ferenc Paczka](https://en.m.wikipedia.org/w/index.php?title=Ferenc_Paczka&action=edit&redlink=1 "Ferenc Paczka (page does not exist)")
 

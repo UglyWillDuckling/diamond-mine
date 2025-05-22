@@ -4,7 +4,7 @@ duration: 1 year
 tags:
   - list/people
 ---
-- [/] #task make a birthday list for all the peoples 🎂 🔽 ⏳ 2025-04-14 📅 2025-04-01 🆔 PBZ3wr
+- [/] #task make a birthday list for all the peoples 🎂 🆔 PBZ3wr 🔽 ⏳ 2025-04-14 📅 2025-06-08
 
 from:: [[DataviewJS Snippet Showcase - Share & showcase]]
 ___

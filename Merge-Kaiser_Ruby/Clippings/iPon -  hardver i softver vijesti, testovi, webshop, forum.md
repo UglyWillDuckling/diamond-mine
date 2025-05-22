@@ -35,7 +35,7 @@ ADRESA DOSTAVE
 32280 Jarmina, Matije Gupca 121
 
 
-[![BENQ RD320U](https://media.icdn.hu/product/GalleryMod/2025-02/667701/resp/1834739_benq-rd320u.webp)](https://iponcomp.hr/shop/proizvod/benq-rd320u/2345920)
+[![[~/×/4ba978149ee7a6e48557028322e50058_MD5.webp]]](https://iponcomp.hr/shop/proizvod/benq-rd320u/2345920)
 
 [BENQ RD320U](https://iponcomp.hr/shop/proizvod/benq-rd320u/2345920)
 838,43 €

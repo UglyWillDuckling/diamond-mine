@@ -27,7 +27,7 @@ All of these are bound to the email provider you currently use, so recreating th
 
 Make sure that **only Hostinger Email records** are present there, and delete any other MX, SPF, and DKIM records:
 
-[![A good and a bad example of DNS records that are responsible for email service](https://downloads.intercomcdn.com/i/o/809465739/9712db43ae8f5fa0dcb6365b/image.png?expires=1735848000&signature=6cbabfd7a1fc2637170824cfbab4845ac34b41976a8b06ad85dac4c4ea52ef50&req=fCAuEs97moJWFb4f3HP0gL7Co4KPcWT6jYIgn5waiutb5p%2FrrATe2jhp7oVn%0AGkZ%2BuUq6Is8fDROijw%3D%3D%0A)](https://downloads.intercomcdn.com/i/o/809465739/9712db43ae8f5fa0dcb6365b/image.png?expires=1735848000&signature=6cbabfd7a1fc2637170824cfbab4845ac34b41976a8b06ad85dac4c4ea52ef50&req=fCAuEs97moJWFb4f3HP0gL7Co4KPcWT6jYIgn5waiutb5p%2FrrATe2jhp7oVn%0AGkZ%2BuUq6Is8fDROijw%3D%3D%0A)
+[![[~/×/76b6fcaf56400641222be3bac0109420_MD5.png]]](https://downloads.intercomcdn.com/i/o/809465739/9712db43ae8f5fa0dcb6365b/image.png?expires=1735848000&signature=6cbabfd7a1fc2637170824cfbab4845ac34b41976a8b06ad85dac4c4ea52ef50&req=fCAuEs97moJWFb4f3HP0gL7Co4KPcWT6jYIgn5waiutb5p%2FrrATe2jhp7oVn%0AGkZ%2BuUq6Is8fDROijw%3D%3D%0A)
 
 Having only one set of records at a time is needed to avoid possible conflicts and lost emails.
 
@@ -35,7 +35,7 @@ Having only one set of records at a time is needed to avoid possible conflicts a
 
 Any changes in a domain's DNS zone trigger **[propagation](https://support.hostinger.com/en/articles/4146975-what-is-dns-propagation)**, which can require **up to 24 hours** to complete. To check if DNS propagation is over, head to **[DNS Checker](https://dnschecker.org/)**, enter your domain name, select the DNS record type, and make sure that ✅ is shown on every location:
 
-[![Using the DNS Checker tool](https://downloads.intercomcdn.com/i/o/553057281/a225e0a20519124bc4d19da3/image.png?expires=1735848000&signature=1cfd5d0dddb982e61dcfff6944ec230e4a9f5a8cdcfaef65c8f88be273a517cf&req=cSUkFsx5n4leFb4f3HP0gE1zeU8HP0p38XEH%2F1jVb4ufcVxvyWg8TTwrvg5m%0A24FWh8oFS83Wta4lFg%3D%3D%0A)](https://downloads.intercomcdn.com/i/o/553057281/a225e0a20519124bc4d19da3/image.png?expires=1735848000&signature=1cfd5d0dddb982e61dcfff6944ec230e4a9f5a8cdcfaef65c8f88be273a517cf&req=cSUkFsx5n4leFb4f3HP0gE1zeU8HP0p38XEH%2F1jVb4ufcVxvyWg8TTwrvg5m%0A24FWh8oFS83Wta4lFg%3D%3D%0A)
+[![[~/×/abd13bc9d6ccf67a3f5fe550310fe424_MD5.png]]](https://downloads.intercomcdn.com/i/o/553057281/a225e0a20519124bc4d19da3/image.png?expires=1735848000&signature=1cfd5d0dddb982e61dcfff6944ec230e4a9f5a8cdcfaef65c8f88be273a517cf&req=cSUkFsx5n4leFb4f3HP0gE1zeU8HP0p38XEH%2F1jVb4ufcVxvyWg8TTwrvg5m%0A24FWh8oFS83Wta4lFg%3D%3D%0A)
 
 ## Step 5 – Migrate Email Messages
 

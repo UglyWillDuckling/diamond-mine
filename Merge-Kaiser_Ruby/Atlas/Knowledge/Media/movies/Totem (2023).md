@@ -22,7 +22,7 @@ actors:
   - Naíma Sentíes
   - Montserrat Marañon
   - Marisol Gasé
-image: https://m.media-amazon.com/images/M/MV5BY2IwNzA2NDktYjM2Ni00MTIyLWFhM2ItYjk5NzI1YjI5MTExXkEyXkFqcGc@._V1_SX300.jpg
+image: "[[~/×/ebe33ff20ab99c83b24b5d6c4e026f07_MD5.jpg]]"
 released: true
 streamingServices: 
 premiere: 23.04.2024
@@ -32,10 +32,7 @@ personalRating: 9
 tags:
   - film
 ---
-
-`$= '![Image|360](' + dv.current().image + ')'`
-
-# `$= dv.current().title`
+![[~/×/ebe33ff20ab99c83b24b5d6c4e026f07_MD5.jpg]]
 
 ```dataviewjs
 if (dv.current().watched) {

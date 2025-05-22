@@ -25,5 +25,6 @@
     "editor:toggle-numbered-list",
     "editor:configure-toolbar"
   ],
-  "tabSize": 2
+  "tabSize": 2,
+  "attachmentFolderPath": "~/×"
 }

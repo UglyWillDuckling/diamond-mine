@@ -5,7 +5,7 @@ created: 2025-01-25
 tags: 
 related:
 ---
-![icon](https://www.aljazeera.com/favicon_aje.ico)
+![[~/×/c978364a3ef7273437f9c994cc945840_MD5.ico]]
 
 *The Iran-backed group also detains people associated with the US embassy in Sanaa and aid groups.*
 

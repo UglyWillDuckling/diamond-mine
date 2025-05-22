@@ -8,7 +8,7 @@ tags:
 related:
   - "[[Docker]]"
 ---
-![icon](https://i0.wp.com/collabnix.com/wp-content/uploads/2020/09/cropped-cropped-cropped-cropped-collabnix_logo-1-3.png?fit=32%2C32&ssl=1)
+![[~/×/e7d3c08b41a2ea5bfcc5c2a0acb52802_MD5.png]]
 
 - [Common Scenarios Where This Error Occurs](https://collabnix.com/how-to-fix-error-failed-to-solve-error-getting-credentials-err-exit-status-1-out/#Common_Scenarios_Where_This_Error_Occurs "Common Scenarios Where This Error Occurs")
 - [Importance of Resolving This Error for Smooth Docker Operations](https://collabnix.com/how-to-fix-error-failed-to-solve-error-getting-credentials-err-exit-status-1-out/#Importance_of_Resolving_This_Error_for_Smooth_Docker_Operations "Importance of Resolving This Error for Smooth Docker Operations")

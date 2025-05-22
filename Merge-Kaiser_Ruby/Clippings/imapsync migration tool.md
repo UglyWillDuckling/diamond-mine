@@ -11,7 +11,7 @@ favicon: "https://imapsync.lamiral.info/S/images/logo_imapsync_s.png"
 ---
 ![icon](https://imapsync.lamiral.info/S/images/logo_imapsync_s.png]
 
-[![imapsync logo](https://imapsync.lamiral.info/S/images/logo_imapsync.png "Imapsync official website")](https://imapsync.lamiral.info/)
+[![[~/×/f0bd745994e2b9240d3880363845362b_MD5.png]]](https://imapsync.lamiral.info/)
 
 ## The Mailbox Changer
 
@@ -59,7 +59,7 @@ Restart Quiz
 
 ## Contact the author, Gilles LAMIRAL
 
-![Gilles LAMIRAL](https://imapsync.lamiral.info/S/images/gilles_lamiral_400x400.jpeg)
+![[~/×/3f519eef128b81789db432f580c45556_MD5.jpg]]
 
 Gilles LAMIRAL
 
@@ -246,7 +246,7 @@ What to do next?
 Depending on the system where you will run imapsync:
 
 - Windows users, read directly [README\_Windows.txt](https://imapsync.lamiral.info/README_Windows.txt).
-- OS X users, read [INSTALL.Darwin.txt](https://imapsync.lamiral.info/INSTALL.d/INSTALL.Darwin.txt). [![MacStadium logo](https://imapsync.lamiral.info/S/images/5c019d917bba312af7553b49_MacStadium-developerlogo.png)](https://www.macstadium.com/)
+- OS X users, read [INSTALL.Darwin.txt](https://imapsync.lamiral.info/INSTALL.d/INSTALL.Darwin.txt). [![[~/×/16e2a034376094ff882043199d53d6d9_MD5.png]]](https://www.macstadium.com/)
 - Centos users, read [INSTALL.Centos.txt](https://imapsync.lamiral.info/INSTALL.d/INSTALL.Centos.txt).
 - CPanel users, read [INSTALL.CPanel.txt](https://imapsync.lamiral.info/INSTALL.d/INSTALL.CPanel.txt).
 - Debian users, read [INSTALL.Debian.txt](https://imapsync.lamiral.info/INSTALL.d/INSTALL.Debian.txt).
@@ -334,4 +334,4 @@ What you're allowed to do with imapsync is **"No limits to do anything with this
 **This document last modified on Saturday December 07, 2024** ($Id: index.shtml,v 1.540 2024/12/07 13:02:38 gilles Exp gilles $)  
 [Top of the page](https://imapsync.lamiral.info/#TOP)
 
-![Scarf Tracker](https://static.scarf.sh/a.png?x-pxid=28b508c3-c51f-4109-9b88-29f3f6e4cf2f)
+![[~/×/2fca5d2373206ddeef1346525986adb9_MD5.png]]

@@ -11,7 +11,7 @@ tags:
 related:
   - "[[History of the Huns - Wikipedia]]"
 ---
-![Hunnic Mounted Archer (by Amplitude Studios, Copyright)](https://www.worldhistory.org/img/r/p/500x600/16505.jpg?v=1733934508-1666168855)
+![[~/×/a03d6bba51b712db0475f36c6ecddf78_MD5.jpg]]
 
 Hunnic Mounted Archer
 
@@ -39,7 +39,7 @@ In modern scholarship there is no consensus on the Xiongnu-Hun link but, largely
 
 > For some writers, connecting the Xiongnu and the Huns was part of a wider project of understanding the history of Europe as a fight to preserve [civilization](https://www.worldhistory.org/civilization/) against an ever-present oriental threat. The Huns were a warning from history. With their Chinese credentials established, their attacks on the Roman empire could be presented as part of an inevitable cycle of conflict between East and West. (43)
 
-![Invasions of the Roman Empire](https://www.worldhistory.org/img/r/p/500x600/4131.png?v=1733934545)
+![[~/×/8fac4c9c9b458408678713480442003b_MD5.png]]
 
 Invasions of the Roman Empire
 
@@ -75,7 +75,7 @@ The speed with which the Huns moved, and their success in battle, is best illust
 
 The Huns continued their invasion of the region and, as historian Herwig Wolfram writes, citing the ancient source of Ambrose, the chaos this caused was widespread: "the Huns fell upon the Alans, the Alans upon the Goths, and the Goths upon the \[tribes of\] the Taifali and Sarmatians" (73). Many of these tribes, besides the Goths, sought refuge in Roman territory and, when it was denied, they took it upon themselves to find a way in to escape from the Huns.
 
-![Attila the Hun by Delacroix](https://www.worldhistory.org/img/r/p/500x600/3070.jpg?v=1728140645)
+![[~/×/eba5459da284033e4dcb17452ea9e68a_MD5.jpg]]
 
 Attila the Hun by Delacroix
 
@@ -113,7 +113,7 @@ By 430, a Hun chief named Rugila was known to the Romans as King of the Huns. Wh
 
 Rugila had two nephews, Attila and Bleda (also known as Buda) and, when he died on campaign in 433, the two brothers succeeded him and ruled jointly. Attila and Bleda together brokered the Treaty of Margus with Rome in 439. This treaty continued the precedent of Rome paying off the Huns in return for peace, which would be a more or less constant stipulation in Roman-Hun relations until Attila's death. Once the treaty was concluded, the Romans were able to withdraw their troops from the Danube region and send them against the Vandals who were threatening Rome's provinces in [Sicily](https://www.worldhistory.org/sicily/) and North [Africa](https://www.worldhistory.org/disambiguation/africa/). The Huns turned their attention east after the Margus Treaty and warred against the [Sassanid Empire](https://www.worldhistory.org/Sasanian_Empire/) but were repelled and driven back toward the Great Hungarian Plain, which was their home base.
 
-![Attila the Hun Model](https://www.worldhistory.org/img/r/p/500x600/6183.jpg?v=1669093922)
+![[~/×/6dd3de4bae4c9516c20d892c4c557369_MD5.jpg]]
 
 Attila the Hun Model
 
@@ -143,7 +143,7 @@ Kelly observes that Priscus' Roman readers would have been expecting a vastly di
 
 Between 445-451, Attila the Hun led his armies on numerous raids and successful campaigns, slaughtering the inhabitants of the regions and leaving a swath of destruction in his wake. In 451, he was met by the Roman general Flavius Aetius (l. 391-454) and his ally Theodoric I of the Visigoths (r. 418-451) at the Battle of the Cataluanian Plains (also known as The Battle of Chalons) where he was defeated for the first time. In 452 he invaded Italy and was responsible for the creation of the city of Venice in that the inhabitants of the cities and towns fled to the marshes for safety and eventually built homes there. His Italian campaign was no more successful than his invasion of Gaul, and he returned again to his base on the Great Hungarian Plain.
 
-![Attila the Hun Bust](https://www.worldhistory.org/img/r/p/500x600/3078.jpg?v=1618245002)
+![[~/×/35356ecc554ee8d748aff46d4cfcc511_MD5.jpg]]
 
 Attila the Hun Bust
 

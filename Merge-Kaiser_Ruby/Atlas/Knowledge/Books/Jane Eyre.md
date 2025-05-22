@@ -1,7 +1,7 @@
 ---
 start date:
 ---
-![poster](http://books.google.com/books/content?id=lSMGAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api)
+![[~/×/113a5f308d34dc68cb7d21e55bf4ce1e_MD5.jpg]]
 
 **Author**:: [[Charlotte Brontë]]
 **Title**:: [Jane Eyre - ](http://books.google.com/books?id=lSMGAAAAQAAJ&printsec=frontcover&dq=intitle:jane&hl=&cd=1&source=gbs_api)

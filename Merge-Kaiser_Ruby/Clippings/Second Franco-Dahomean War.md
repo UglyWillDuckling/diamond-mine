@@ -16,7 +16,7 @@ The **Second Franco-Dahomean War**, which raged from 1892 to 1894, was a major c
 
 In 1890, the [Fon](https://en.m.wikipedia.org/wiki/Fon_people "Fon people") kingdom of [Dahomey](https://en.m.wikipedia.org/wiki/Dahomey "Dahomey") and the [Third French Republic](https://en.m.wikipedia.org/wiki/Third_French_Republic "Third French Republic") had gone to war in what was remembered as the [First Franco-Dahomean War](https://en.m.wikipedia.org/wiki/First_Franco-Dahomean_War "First Franco-Dahomean War") over the former's rights to certain territories, specifically those in the [Ouémé](https://en.m.wikipedia.org/wiki/Ou%C3%A9m%C3%A9_Department "Ouémé Department") Valley.[^footnotealpern1998193-1] The Fon ceased hostilities with the French after two military defeats, [withdrawing](https://en.m.wikipedia.org/wiki/Withdrawal_\(military\) "Withdrawal (military)") their forces and signing a treaty conceding to all of France's demands.[^footnotealpern1998196-2] However, Dahomey remained a potent force in the area and quickly re-armed with modern weapons in anticipation of a second, decisive conflict.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Combat_de_la_Topaze-1892.jpg/220px-Combat_de_la_Topaze-1892.jpg)
+![[~/×/2a7524cf12955882ef9ab13236d4c9c5_MD5.jpg]]
 
 Dahomey warriors firing at the gunboat *Topaze*.
 
@@ -30,7 +30,7 @@ The French invasion force assembled at the village of Dogba on 14 September some
 
 The French forces moved another 24 km (15 mi) upriver before turning west in the direction of Abomey. On 4 October, the French [column](https://en.m.wikipedia.org/wiki/Column_\(formation\) "Column (formation)") was attacked at Poguessa (also known as Pokissa or Kpokissa) by Fon forces under the command of King Béhanzin himself. The Fon staged several fierce [charges](https://en.m.wikipedia.org/wiki/Charge_\(warfare\) "Charge (warfare)") over two to three hours that all failed against the 20-inch (50 cm) [bayonets](https://en.m.wikipedia.org/wiki/Bayonet "Bayonet") of the French.[^footnotealpern1998201-5] The Dahomey army left the field in defeat losing some 200 soldiers. The French carried the day with only 42 casualties.[^footnotealpern1998202-9] The [Dahomey Amazons](https://en.m.wikipedia.org/wiki/Dahomey_Amazons "Dahomey Amazons") were also conspicuous in the battle.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/March_to_Abomey.jpg/220px-March_to_Abomey.jpg)
+![[~/×/aa462cc2a37e258164312957467f7b0c_MD5.jpg]]
 
 The French route to [Abomey](https://en.m.wikipedia.org/wiki/Abomey "Abomey")
 
@@ -40,7 +40,7 @@ On 6 October, the French had another major encounter with the Fon, at the villag
 
 The French column was able to cross another 24 km (15 mi) toward [Abomey](https://en.m.wikipedia.org/wiki/Abomey "Abomey") after Adégon, bivouacking at the village of Akpa. From the moment they arrived, they were attacked daily. From the French arrival until 14 October, Dahomey's [Amazons](https://en.m.wikipedia.org/wiki/Amazons "Amazons") were absent. On 15 October, some women were noted to have been present on the front lines of the Dahomean forces which were defeated after a bayonet charge by a Legion battalion.[^footnotealpern1998203-10] An Amazon was reported to have shot the battalion commander from close range in the chest at some point before fire from the Legion section "demolished the whole rank" of the Dahomean infantry which the Amazon had led. Once resupplied, the French departed Akpa on 26 October, heading toward the village of Cotopa.[^footnotealpern1998204-11]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Combat_at_Cotopa.jpg/220px-Combat_at_Cotopa.jpg)
+![[~/×/f654bd8d206d8c9a7ecfab4560264a0e_MD5.jpg]]
 
 Hand-to-hand fighting at Cotopa (from a British book)
 
@@ -50,7 +50,7 @@ From 2 to 4 November, the French and Fon armies fought on the outskirts of Cana.
 
 The last engagement at Cana, which took place at the village of Diokoué, site of a royal palace, was the last time Amazons were used. Special units of the Amazons were assigned specifically to target French officers. After a full day of fighting, the French overran the Dahomey army with another bayonet charge.[^footnotealpern1998205-12]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Medaille_du_Dahomey_Loi_du_12_Novembre_1892.jpg/220px-Medaille_du_Dahomey_Loi_du_12_Novembre_1892.jpg)
+![[~/×/7c5106a9cc9b906bfdfa80b741592bfd_MD5.jpg]]
 
 French [Medal of the Dahomey campaign](https://en.m.wikipedia.org/wiki/Dahomey_Expedition_commemorative_medal_1892 "Dahomey Expedition commemorative medal 1892"). Law of 12 November 1892. [Musée de la Légion d'honneur](https://en.m.wikipedia.org/wiki/Mus%C3%A9e_de_la_L%C3%A9gion_d%27honneur "Musée de la Légion d'honneur").
 

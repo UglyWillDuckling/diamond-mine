@@ -124,9 +124,3 @@ $ find /etc -name 'rc*' -or -name '*rc'
 ```
 
 Note that **some of these items are directories**, e.g., *rcS.d* and its numbered cohabitors with similar names. Namely, they contain daemon control scripts, which also function like RUNCOM files.
-
-## 6\. Summary
-
-In this article, we discussed *rc*, its meaning, and how it could hint at the contents of a file or directory.
-
-In conclusion, *rc* is just an affix or extension which designates a file or directory as holding config contents, most often in the form of a RUNCOM.

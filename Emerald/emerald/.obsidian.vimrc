@@ -41,8 +41,8 @@ onoremap J 2j
 " :bnext/bprev
 exmap goBack obcommand app:go-back
 exmap goForward obcommand app:go-forward
-nnoremap <BS> :goBack<CR>
-nnoremap <S-BS> :goForward<CR>
+"nnoremap <BS> :goBack<CR>
+"nnoremap <S-BS> :goForward<CR>
 
 " sentence navigation
 noremap [ (
@@ -77,7 +77,7 @@ vnoremap m %
 
 " [g]oto [s]ymbol via "Another Quick Switcher" Plugin
 exmap gotoHeading obcommand obsidian-another-quick-switcher:header-floating-search-in-file
-nnoremap gs :gotoHeading<CR>
+nnoremap gh :gotoHeading<CR>
 
 " [g]oto [w]riting chapters
 exmap gotoScene obcommand longform:longform-jump-to-scene
@@ -87,15 +87,8 @@ nnoremap gw :gotoScene<CR>
 exmap followNextLink obcommand shukuchi:open-link
 nnoremap gx :followNextLink<CR>
 
-" [g]oto [o]pen file (= Quick Switcher)
-exmap quickSwitcher obcommand obsidian-another-quick-switcher:search-command_recent-search
-nnoremap go :quickSwitcher<CR>
-
 " go to last change (HACK, only works to jump to the last location)
 nnoremap gc u<C-r>
-
-" increment quicker
-nnoremap + <C-a>
 
 """"""""""""""""""""""
 " Search
@@ -107,7 +100,7 @@ nnoremap <Esc> :nohl<CR>
 " Another Quick Switcher ripgrep-search
 " somewhat close to Telescope's livegrep
 exmap liveGrep obcommand obsidian-another-quick-switcher:grep
-nnoremap gl :liveGrep
+nnoremap gl :liveGrep<CR>
 
 " Obsidian builtin Search & replace
 exmap searchReplace obcommand editor:open-search-replace
@@ -121,16 +114,16 @@ nnoremap ,ff :searchReplace<CR>
 nnoremap U <C-r>
 
 " redo all
-nnoremap ,ur 1000<C-r>
+"nnoremap ,ur 1000<C-r>
 
 " split line
-vnoremap ,s gq
-nnoremap ,s gqq
+"vnoremap ,s gq
+"nnoremap ,s gqq
 
 " Case Switch via Code Editor Shortcuts Plugin
 exmap caseSwitch obcommand obsidian-editor-shortcuts:toggleCase
-nnoremap ö :caseSwitch
-vnoremap ö :caseSwitch
+"nnoremap ö :caseSwitch
+"vnoremap ö :caseSwitch
 
 " do not move to the right on toggling case
 nnoremap ~ ~h
@@ -147,16 +140,12 @@ nnoremap <S-Space> "_daw
 nnoremap = mzO<Esc>`z
 nnoremap _ mzo<Esc>`z
 
-" Dial
-nnoremap + <C-a>
-nnoremap ä <C-x>
-
 """"""""""""""""""""""""""""
 " Leader Mappings
 """"""""""""""""""""""""""""
 
 exmap fileRecovery obcommand file-recovery:open
-nnoremap ,ut :fileRecovery
+nnoremap ,ut :fileRecovery<CR>
 
 " pseudo-code-action: enhance URL with title
 exmap enhanceUrlWithTitle obcommand obsidian-auto-link-title:enhance-url-with-title
@@ -198,7 +187,7 @@ vnoremap ,A :rejectAll<CR>
 vnoremap V gj
 
 " so 2x v goes to visual block mode
-vnoremap v <C-v>
+"vnoremap v <C-v>
 
 """"""""""""""""""""""
 " Text Objects
@@ -362,3 +351,6 @@ nmap <A-m>? 0ci[?<Esc>
 vmap <A-m>q o<Esc>i<lt>q><Esc>gvo<Esc>a<lt>/q><Esc>
 " path mark
 vmap <A-m>P o<Esc>i<lt>mark<space>class='path'><Esc>gvo<Esc>a<lt>/mark><Esc>
+
+exmap quick_switch obcommand switcher:open
+nmap go :quick_switch<CR>

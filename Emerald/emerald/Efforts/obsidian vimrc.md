@@ -1,3 +1,31 @@
+- [x] look into [[another-quick-switcher]] mappings
+- [x] install plugins to enable mappings
+	- [x] [[shukuchi]]
+	- [x] [[another-quick-switcher]]
+	- [x] [[enhance url]]
+	- [x] [[commentator]] : not working
+	- [x] grappling hook
+- [ ] look for a way to open quick switcher via Vim
+	- [ ] [[Vimrc for Obsidian]]
+
+## mapping to remember
+[^2]
+1. `gl` grepping inside the vault. Works great [^1]
+2. `gh` go to heading. Just a **perfect** command
+3. `gx` follow link. Flawless
+	1. [[What Is rc and What Are rc Files]]
+4. `gc` go to last change. Really good
+5. `,ff` search&replace
+6. `space` change word
+7. ``=` : add blank line below
+8. `s--` : blank line above
+9. `,ut` fileRecover
+10. `,c` enhance URL with title
+	[Google](http://google.com)
+11. `gf` go to footnote. Much better than mapping in Obsidian
+12. 
+
+### config
 
 ```c
 """"""""""""""""""""""
@@ -370,3 +398,5 @@ vmap <A-m>q o<Esc>i<lt>q><Esc>gvo<Esc>a<lt>/q><Esc>
 vmap <A-m>P o<Esc>i<lt>mark<space>class='path'><Esc>gvo<Esc>a<lt>/mark><Esc>
 
 ```
+
+[^1]: [[grep]]

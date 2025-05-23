@@ -1,8 +1,14 @@
 {
   "pluginList": [
+    "Fevol/obsidian-criticmarkup",
     "Lisandra-dev/obsidian-snippet-downloader"
   ],
-  "pluginSubListFrozenVersion": [],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "Fevol/obsidian-criticmarkup",
+      "version": "latest"
+    }
+  ],
   "themesList": [],
   "updateAtStartup": true,
   "updateThemesAtStartup": true,

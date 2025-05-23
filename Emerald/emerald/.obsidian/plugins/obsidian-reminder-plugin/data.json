@@ -56,6 +56,13 @@
         "time": "2025-05-30",
         "rowNumber": 2
       }
+    ],
+    "Efforts/it can be better to use vim mappings instead of Obsidian ones.md": [
+      {
+        "title": "remind me",
+        "time": "2025-05-28",
+        "rowNumber": 0
+      }
     ]
   },
   "debug": false,

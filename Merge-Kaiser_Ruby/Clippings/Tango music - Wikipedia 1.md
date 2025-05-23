@@ -14,13 +14,13 @@ For other uses, see [Tango (disambiguation)](https://en.m.wikipedia.org/wiki/Tan
 <sub><b>4</b></sub> or <sup><b>4</b></sup>  
 <sub><b>4</b></sub>](https://en.m.wikipedia.org/wiki/Time_signature "Time signature") time that originated among European and African immigrant populations of [Argentina](https://en.m.wikipedia.org/wiki/Argentina "Argentina") and [Uruguay](https://en.m.wikipedia.org/wiki/Uruguay "Uruguay") (collectively, the "[Rioplatenses](https://en.m.wikipedia.org/wiki/Rioplatense_Spanish "Rioplatense Spanish")").[^2] It is traditionally played on a solo guitar, guitar duo, or an ensemble, known as the *[orquesta típica](https://en.m.wikipedia.org/wiki/Orquesta_t%C3%ADpica "Orquesta típica")*, which includes at least two [violins](https://en.m.wikipedia.org/wiki/Violin "Violin"), [flute](https://en.m.wikipedia.org/wiki/Flute "Flute"), [piano](https://en.m.wikipedia.org/wiki/Piano "Piano"), [double bass](https://en.m.wikipedia.org/wiki/Double_bass "Double bass"), and at least two [bandoneóns](https://en.m.wikipedia.org/wiki/Bandone%C3%B3n "Bandoneón"). Sometimes guitars and a clarinet join the ensemble. Tango may be purely instrumental or may include a vocalist. Tango music and [dance](https://en.m.wikipedia.org/wiki/Tango_\(dance\) "Tango (dance)") have become popular throughout the world.
 
-![](https://upload.wikimedia.org/wikipedia/commons/d/d8/ArgentinianTangoRhythm.jpg)
+![[~/×/c50fc55d5f063afc17a0d824a3dfac3e_MD5.jpg]]
 
 Typical tango [rhythm](https://en.m.wikipedia.org/wiki/Rhythm "Rhythm")[^1]
 
 ## Origins
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Early-bandonion.jpg/250px-Early-bandonion.jpg)
+![[~/×/d665f7bb99034fe02de0dcc1deace741_MD5.jpg]]
 
 Early [[bandoneón]], constructed ca. 1905
 
@@ -36,7 +36,7 @@ One song that would become the most widely known of all tango melodies[^11] also
 
 ## Argentine roots of tango
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Gabino_ezeiza_retrato_agn.jpg/250px-Gabino_ezeiza_retrato_agn.jpg)
+![[~/×/107c60a85324e3892a3663605a0e46ba_MD5.jpg]]
 
 [Gabino Ezeiza](https://en.m.wikipedia.org/wiki/Gabino_Ezeiza "Gabino Ezeiza") (1858–1916), pioneer of Argentine tango
 

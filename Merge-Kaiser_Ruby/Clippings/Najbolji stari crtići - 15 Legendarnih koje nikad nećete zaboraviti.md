@@ -10,7 +10,7 @@ description: 🚀 Zakoračite u prošlost i prisjetite se 15 nezaboravnih crtić
 tags:
   - article/crtići
 ---
-[![Didaktičke igračke](https://mamazna.hr/wp-content/uploads/2025/02/Mama-zna.hr-728%C3%9790-didakticke-igracke-s-obrubom-1.png)
+[![[~/×/ec6300f1e7a241b81d205065020bdb7f_MD5.png]]
 Stari crtići su dragocjeno blago koje budi nostalgiju za djetinjstvom. Ovi animirani klasici pričaju bezvremenske priče i prenose važne životne lekcije. 
 
 **Mnogi se i danas rado prisjećaju omiljenih likova poput Bambija, Malog princa ili družine iz Ringe ringe raje.** Iako moderne animacije imaju naprednu tehnologiju, stari crtići imaju posebnu čar i šarm koji ne blijedi s godinama. Njihova jednostavnost i kreativnost i dalje osvajaju srca gledatelja svih uzrasta.
@@ -70,7 +70,7 @@ Serija se ističe po tome što nema dijaloga. Umjesto toga, likovi komuniciraju 
 
 “A je to!” je postala kulturni fenomen u mnogim zemljama. Često se prikazivala na televiziji i u današnje vrijeme uživa kultni status. Serija je osvojila brojne nagrade i priznanja za svoju kreativnost i humor.
 
-[![Didaktičke igračke](https://mamazna.hr/wp-content/uploads/2025/02/Mama-zna.hr-300%C3%97250-didakticke-igracke-s-obrubom.png)](https://www.liber-media.hr/didakticke-igracke)
+[![[~/×/3df27f96fe5a0ca1153d610fce0c0bfe_MD5.png]]](https://www.liber-media.hr/didakticke-igracke)
 
 ## Conan
 
@@ -122,7 +122,7 @@ Crtani filmovi o Popaju postali su pravi hit među djecom i odraslima. Njegove p
 
 Zanimljivo je da je lik Popaja utjecao na popularnost špinata. Mnoga djeca su, gledajući Popaja, zavoljela ovo povrće. Čak i danas, Popaj ostaje simbol snage i zdravog života.
 
-[![Didaktičke igračke](https://mamazna.hr/wp-content/uploads/2025/02/Mama-zna.hr-300%C3%97250-didakticke-igracke-s-obrubom.png)](https://www.liber-media.hr/didakticke-igracke)
+[![[~/×/3df27f96fe5a0ca1153d610fce0c0bfe_MD5.png]]](https://www.liber-media.hr/didakticke-igracke)
 
 ## Casper
 
@@ -172,7 +172,7 @@ Crtić je nastao u Velikoj Britaniji, a prvi put se počeo prikazivati 1987. god
 
 Osim što je zabavan, ovaj crtić ima i edukativnu vrijednost. Kroz Samove avanture, djeca uče o sigurnosti, timskom radu i pomaganju drugima. Vatrogasac Sam pokazuje da se svaki problem može riješiti uz malo hrabrosti i suradnje.
 
-[![Didaktičke igračke](https://mamazna.hr/wp-content/uploads/2025/02/Mama-zna.hr-300%C3%97250-didakticke-igracke-s-obrubom.png)](https://www.liber-media.hr/didakticke-igracke)
+[![[~/×/3df27f96fe5a0ca1153d610fce0c0bfe_MD5.png]]](https://www.liber-media.hr/didakticke-igracke)
 
 ## Pčelica Maja
 

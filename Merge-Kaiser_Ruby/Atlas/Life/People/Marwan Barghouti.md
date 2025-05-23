@@ -13,11 +13,11 @@ related:
   - "[[palestine]]"
   - "[[israel]]"
 ---
-![icon|50](https://en.wikipedia.org/static/favicon/wikipedia.ico)
+![[~/×/1419f996a467c3a4b43f96f549fe6ff3_MD5.ico|50]]
 
 Palestinian politician
 
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Ambox_current_red_Asia_Australia.svg/42px-Ambox_current_red_Asia_Australia.svg.png) | This article needs to be **updated**. Please help update this article to reflect recent events or newly available information. *(June 2024)* |
+| ![[~/×/9cd5a3996e328cca88c0fcb0f2346dc7_MD5.png|50]] | This article needs to be **updated**. Please help update this article to reflect recent events or newly available information. *(June 2024)* |
 | --- | --- |
 
 <table><tbody><tr><th colspan="2"><p>Marwan Barghouti</p></th></tr><tr><td colspan="2"><span><a href="https://en.wikipedia.org/wiki/File:Marwan_Barghouti.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Marwan_Barghouti.jpg/220px-Marwan_Barghouti.jpg" width="220" height="348"></a></span><p>Barghouti in 2001</p></td></tr><tr><td colspan="2"></td></tr><tr><th colspan="2">Member of the <a href="https://en.wikipedia.org/wiki/Palestinian_Legislative_Council">Palestinian Legislative Council</a></th></tr><tr><td colspan="2"><div><p><b><a href="https://en.wikipedia.org/wiki/Incumbent">Incumbent</a></b></p></div></td></tr><tr><td colspan="2"><span><b>Assumed office</b></span><br>1996</td></tr><tr><td colspan="2"></td></tr><tr><th colspan="2">Personal details</th></tr><tr><th scope="row">Born</th><td><span>(<span>1959-06-06</span>) </span>6 June 1959<span> (age&nbsp;65)</span><br><a href="https://en.wikipedia.org/wiki/Kobar">Kobar</a>, <a href="https://en.wikipedia.org/wiki/Jordanian_annexation_of_the_West_Bank">Jordanian West Bank</a></td></tr><tr><th scope="row">Political party</th><td><a href="https://en.wikipedia.org/wiki/Fatah">Fatah</a> (before 2005, 2006–present)<br><a href="https://en.wikipedia.org/wiki/Al-Mustaqbal_(electoral_list)">Al-Mustaqbal</a> (2005–2006)</td></tr><tr><th scope="row">Spouse</th><td><a href="https://en.wikipedia.org/wiki/Fadwa_Barghouti">Fadwa Barghouti</a></td></tr><tr><th scope="row">Children</th><td>4</td></tr><tr><td colspan="2"></td></tr></tbody></table>
@@ -46,7 +46,7 @@ Although he was a strong supporter of the peace process he doubted that Israel w
 
 ## Second Intifada
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/QalandiaWallBarghouti.JPG/250px-QalandiaWallBarghouti.JPG)
+![[~/×/ed36c1e29ac6b99bbc0a912fbe62ba4e_MD5.jpg|50]]
 
 A portrait of Marwan Barghouti on the wall by [Qalandia](https://en.wikipedia.org/wiki/Qalandia "Qalandia").
 
@@ -60,7 +60,7 @@ According to [National Public Radio](https://en.wikipedia.org/wiki/National_Publ
 
 ### Israeli trial and imprisonment
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/%D7%97%D7%95%D7%9E%D7%AA_%D7%9E%D7%92%D7%9F_28.jpg/220px-%D7%97%D7%95%D7%9E%D7%AA_%D7%9E%D7%92%D7%9F_28.jpg)
+![[~/×/7f5576b893f5d29b23d642be2270fab8_MD5.jpg|50]]
 
 Barghouti being arrested by Israeli soldiers in Ramallah during [Operation Defensive Shield](https://en.wikipedia.org/wiki/Operation_Defensive_Shield "Operation Defensive Shield")
 
@@ -76,7 +76,7 @@ The [Inter-Parliamentary Union](https://en.wikipedia.org/wiki/Inter-Parliamentar
 
 ### Campaign for release
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Kufr_ad-Deek.protest.4.JPG/250px-Kufr_ad-Deek.protest.4.JPG)
+![[~/×/45b2db5d4a40b28c36aed6ea35fc7c2e_MD5.jpg|50]]
 
 A portrait of Marwan Barghouti at a demonstration at [Kafr ad-Dik](https://en.wikipedia.org/wiki/Kafr_ad-Dik "Kafr ad-Dik").
 
@@ -94,7 +94,7 @@ However several MKs, including Kadima MK [Meir Sheetrit](https://en.wikipedia.or
 
 ## Split from Fatah
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/%D7%91%D7%99%D7%AA_%D7%90%D7%95%D7%9E%D7%A8_23.4.11_001.jpg/250px-%D7%91%D7%99%D7%AA_%D7%90%D7%95%D7%9E%D7%A8_23.4.11_001.jpg)
+![[~/×/afddcd3d23eb0029da1b39ed0686e9bf_MD5.jpg|50]]
 
 A portrait of Marwan Barghouti at a demonstration at [Beit Ummar](https://en.wikipedia.org/wiki/Beit_Ummar "Beit Ummar").
 

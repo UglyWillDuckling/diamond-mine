@@ -29,7 +29,7 @@ Biko's fame spread posthumously. He became the subject of numerous songs and wor
 
 Bantu Stephen Biko was born on 18 December 1946,[^footnotewoods197849wilson201218hill2015xxi-1] at his grandmother's house in [Tarkastad](https://en.m.wikipedia.org/wiki/Tarkastad "Tarkastad"), [Eastern Cape](https://en.m.wikipedia.org/wiki/Eastern_Cape "Eastern Cape").[^footnotewilson201218hill2015xxi-2] The third child of Mzingaye Mathew Biko and Alice 'Mamcete' Biko,[^footnotesmit199518wilson201218hill2015xxi-3] he had an older sister, Bukelwa, an older brother, Khaya, and a younger sister, Nobandile.[^footnotewilson201219mangcu201489-4] His parents had married in [Whittlesea](https://en.m.wikipedia.org/wiki/Whittlesea,_Eastern_Cape "Whittlesea, Eastern Cape"), where his father worked as a police officer. Mzingaye was transferred to [Queenstown](https://en.m.wikipedia.org/wiki/Queenstown,_Eastern_Cape "Queenstown, Eastern Cape"), [Port Elizabeth](https://en.m.wikipedia.org/wiki/Port_Elizabeth "Port Elizabeth"), [Fort Cox](https://en.m.wikipedia.org/wiki/Fort_Cox,_Eastern_Cape "Fort Cox, Eastern Cape"), and finally [King William's Town](https://en.m.wikipedia.org/wiki/King_William%27s_Town "King William's Town"), where he and Alice settled in [Ginsberg township](https://en.m.wikipedia.org/wiki/Ginsberg,_Eastern_Cape "Ginsberg, Eastern Cape").[^footnotewilson201219-5] This was a settlement of around 800 families, with every four families sharing a water supply and toilet.[^footnotewilson201220-6] Both [Africans](https://en.m.wikipedia.org/wiki/Ethnic_groups_of_Africa "Ethnic groups of Africa") and [Coloured](https://en.m.wikipedia.org/wiki/Coloureds "Coloureds") people lived in the [township](https://en.m.wikipedia.org/wiki/Township_\(South_Africa\) "Township (South Africa)"),[^footnotemangcu2014235-7] where [Xhosa](https://en.m.wikipedia.org/wiki/Xhosa_language "Xhosa language"), [Afrikaans](https://en.m.wikipedia.org/wiki/Afrikaans "Afrikaans"), and English were all spoken.[^footnotewilson201220,_22-8] After resigning from the police force, Mzingaye worked as a clerk in the King William's Town Native Affairs Office,[^footnotesmit199518mangcu201488-9] while studying for a law degree by correspondence from the [University of South Africa](https://en.m.wikipedia.org/wiki/University_of_South_Africa "University of South Africa").[^footnotewilson201219mangcu201488-10] Alice was employed first in domestic work for local white households, then as a cook at [Grey Hospital](https://en.m.wikipedia.org/w/index.php?title=Grey_Hospital&action=edit&redlink=1 "Grey Hospital (page does not exist)") in King William's Town.[^footnotesmit199518wilson201220-11] According to his sister, it was this observation of his mother's difficult working conditions that resulted in Biko's earliest politicisation.[^footnotecock19893-12]
 
-![A black and white photograph of a large mansion house, surrounded by various trees](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/The_National_Archives_UK_-_CO_1069-214-41-Derivative-01.jpg/220px-The_National_Archives_UK_-_CO_1069-214-41-Derivative-01.jpg)
+![[~/×/deb9c803822831aa0f93954610d3fa33_MD5.jpg]]
 
 Biko was briefly educated at the Lovedale boarding school in Alice.
 
@@ -41,7 +41,7 @@ From 1964 to 1965, Biko studied at St. Francis College, a [Catholic](https://en.
 
 ### Early student activism: 1966–1968
 
-![A rectangular yellow wall plaque. It contains a message written in black in both English and Afrikaans. In English, the message reads: "For Use by White Persons. These public premises and the amenities thereof have been reserved for the exclusive use of white persons. By Order Provincial Secretary".](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/ApartheidSignEnglishAfrikaans.jpg/220px-ApartheidSignEnglishAfrikaans.jpg)
+![[~/×/b4f685515f829450f0b7ff400d00f99d_MD5.jpg]]
 
 The apartheid system of racial segregation pervaded all areas of life; Biko was committed to its overthrow.
 
@@ -93,7 +93,7 @@ Biko endorsed the unification of South Africa's black liberationist groups – 
 
 By 1973, the government regarded Black Consciousness as a threat.[^footnotehadfield201094-103] It sought to disrupt Biko's activities, and in March 1973 placed a [banning order](https://en.m.wikipedia.org/wiki/Banning_order "Banning order") on him. This prevented him from leaving the King William's Town magisterial district, prohibited him from speaking either in public or to more than one person at a time, barred his membership of political organisations, and forbade the media from quoting him.[^footnotewoods197849mangcu2014190hadfield201084hill2015151-104] As a result, he returned to Ginsberg, living initially in his mother's house and later in his own residence.[^footnotemangcu2014204,_212-105]
 
-![A small, detached one-story house. The walls are a pale colour, and the roof is made from corrugated iron.](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Steve_Biko_House.jpg/220px-Steve_Biko_House.jpg)
+![[~/×/d011a69cdb7d1d2ffdc6aec194fa1d8d_MD5.jpg]]
 
 Steve Biko's house in Ginsberg, Eastern Cape
 
@@ -101,7 +101,7 @@ In December 1975, attempting to circumvent the restrictions of the banning order
 
 In 1973, Biko had enrolled for a law degree by correspondence from the University of South Africa. He passed several exams, but had not completed the degree at his time of death.[^footnotewoods197869,_116mangcu2014189%e2%80%93190,_213-112] His performance on the course was poor; he was absent from several exams and failed his Practical Afrikaans module.[^footnotemangcu2014213%e2%80%93214-113] The state security services repeatedly sought to intimidate him; he received anonymous threatening phone calls,[^footnotewoods197877%e2%80%9378-114] and gun shots were fired at his house.[^footnotewoods197878-115] A group of young men calling themselves 'The Cubans' began guarding him from these attacks.[^footnotemangcu2014228-116] The security services detained him four times, once for 101 days.[^footnotewoods197876-117] With the ban preventing him from gaining employment, the strained economic situation impacted his marriage.[^footnotemangcu2014205-79]
 
-![A black and white photograph of a middle-aged white man. He has grey hair and is wearing a black suit and tie. He is sitting at a table, and in front of him are two upright books; both feature the face of Steve Biko, a young black man.](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Zuidafrikaan_Donald_Woods_op_Schiphol_in_verband_met_Nederlandse_vertaling_van_z%2C_Bestanddeelnr_929-8037.jpg/220px-Zuidafrikaan_Donald_Woods_op_Schiphol_in_verband_met_Nederlandse_vertaling_van_z%2C_Bestanddeelnr_929-8037.jpg)
+![[~/×/8148547437489ae08eac52fdaccb0197_MD5.jpg]]
 
 Biko became a close friend of white liberal activist Donald Woods, who wrote a book about Biko after his death.
 
@@ -123,7 +123,7 @@ Biko was examined by a doctor, Ivor Lang, who stated that there was no evidence 
 
 News of Biko's death spread quickly across the world, and became symbolic of the abuses of the apartheid system.[^footnotemangcu2014263hill201547wilson2012147-145] His death attracted more global attention than he had ever attained during his lifetime.[^footnotehill201547-146] Protest meetings were held in several cities;[^footnotewoods1978166-147] many were shocked that the security authorities would kill such a prominent dissident leader.[^footnotemangcu2014263-148] Biko's Anglican funeral service, held on 25 September 1977 at King William's Town's Victoria Stadium, took five hours and was attended by around 20,000 people.[^footnotewoods1978169mangcu201428%e2%80%9330hill201562-149] The vast majority were black, but a few hundred whites also attended, including Biko's friends, such as Russell and Woods, and prominent progressive figures like [Helen Suzman](https://en.m.wikipedia.org/wiki/Helen_Suzman "Helen Suzman"), [Alex Boraine](https://en.m.wikipedia.org/wiki/Alex_Boraine "Alex Boraine"), and [Zach de Beer](https://en.m.wikipedia.org/wiki/Zach_de_Beer "Zach de Beer").[^footnotewoods1978169mangcu201430-150] Foreign diplomats from thirteen nations were present, as was an Anglican delegation headed by Bishop [Desmond Tutu](https://en.m.wikipedia.org/wiki/Desmond_Tutu "Desmond Tutu").[^footnotehill201562-151] The event was later described as "the first mass political funeral in the country".[^footnotemangcu201430-152] Biko's coffin had been decorated with the motifs of a clenched black fist, the African continent, and the statement "One Azania, One Nation"; [Azania](https://en.m.wikipedia.org/wiki/Azania "Azania") was the name that many activists wanted South Africa to adopt post-apartheid.[^footnotemangcu201431hill201563-153] Biko was buried in the cemetery at Ginsberg.[^footnotehill201563-154] Two BCM-affiliated artists, [Dikobé Ben Martins](https://en.m.wikipedia.org/w/index.php?title=Dikob%C3%A9_Ben_Martins&action=edit&redlink=1 "Dikobé Ben Martins (page does not exist)") and [Robin Holmes](https://en.m.wikipedia.org/wiki/Robin_Holmes "Robin Holmes"), produced a T-shirt marking the event; the design was banned the following year.[^footnotehill201525-155] Martins also created a commemorative poster for the funeral, the first in a tradition of funeral posters that proved popular throughout the 1980s.[^footnotehill201525,_60-156]
 
-![A stylised motif of a black clenched fist](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Fist.svg/180px-Fist.svg.png)
+![[~/×/5104348e9d227f92bf9261725505d957_MD5.png]]
 
 Biko's coffin featured the motif of a clenched black fist. Many in the Black Consciousness Movement used this fist as a symbol.[^footnotehill201510-157]
 
@@ -183,7 +183,7 @@ In conversation with Woods, Biko insisted that the BCM would not degenerate into
 
 ### Influence
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/SteveBiko_DaanWildschut.jpg/170px-SteveBiko_DaanWildschut.jpg)
+![[~/×/ba50107e43a79c8137c0f230fa32fc2b_MD5.jpg]]
 
 Steve Biko on a stained glass window in the Saint Anna Church in [Heerlen](https://en.m.wikipedia.org/wiki/Heerlen "Heerlen"), the Netherlands
 
@@ -203,7 +203,7 @@ A year after Biko's death, his "Frank Talk" writings were published as an edited
 
 ### Commemoration
 
-![A grave and headstone. The structure is made from a shiny grey rock, and lacks ornamentation. Three flowers encased in circular glass baubles sit on top of it.](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/StevenBantuBiko%27sGrave.jpg/170px-StevenBantuBiko%27sGrave.jpg)
+![[~/×/b44a1c2c1278301fefbe7ea1a139dc3c_MD5.jpg]]
 
 Biko's grave in [Ginsberg](https://en.m.wikipedia.org/wiki/Ginsberg,_Eastern_Cape "Ginsberg, Eastern Cape") cemetery, King William's Town
 

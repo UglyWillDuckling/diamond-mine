@@ -11,28 +11,28 @@ tags:
   - Proizvod
   - jastuk
 ---
-- ![](https://thepillowhome.com/cdn/shop/files/Frame_5770.webp?v=1723151022&width=3200)
+- ![[~/×/445e652ccfa61a464b3c5941ab6dae3c_MD5.png]]
 
 ### ★★★★★
 
 "A trusted choice for anyone seeking relief from neck pain. Plus, it’s designed by a chiropractor to deliver the perfect balance of comfort and support."
-- ![](https://thepillowhome.com/cdn/shop/files/Frame_5768.webp?v=1723151123&width=3200)
+- ![[~/×/45e5b678b17ac9b7fa4e80663dc5d62a_MD5.png]]
 
 ### ★★★★★
 
 "It has an ergonomic design that sets it apart from any other pillow we've tried."
-- ![](https://thepillowhome.com/cdn/shop/files/Frame_5769.webp?v=1723151125&width=3200)
+- ![[~/×/fe72b03294296a197511e5e92b80bcff_MD5.png]]
 
 ### ★★★★★
 
 "Your neck and spine will thank you every morning."
-- ![](https://thepillowhome.com/cdn/shop/files/Frame_5767.webp?v=1723151123&width=3200)
+- ![[~/×/238b590f5ebe2bde895bee6a93918efb_MD5.png]]
 
 ### ★★★★★
 
 "The CozyRest pillow is the perfect self-care gift for anyone seeking comfort and quality sleep."
 
-![](https://thepillowhome.com/cdn/shop/files/71jMoJvKWAL._AC_SL1500.jpg?v=1719235053&width=1500)
+![[~/×/d868992e5ddf2c188e05470acbac13c3_MD5.jpg]]
 
 ## **Alleviate** **Neck & Back Pain**
 
@@ -51,13 +51,13 @@ Drift into deep, uninterrupted sleep and awaken each morning feeling refreshed a
 
 ## We asked our customers and found out...
 
-- ![](https://thepillowhome.com/cdn/shop/files/96_0af9e00e-b4a5-4e61-9a20-293f1cfb759e_1.webp?v=1724784512&width=3200)
+- ![[~/×/4c5a2406d40adaae48ffce2a6c34203a_MD5.png]]
 
 ### **Of Respondents** Reported Lasting Neck Pain Relief and Improved Sleep Quality
-- ![](https://thepillowhome.com/cdn/shop/files/91_7ffe4da1-15ac-4a14-881d-708af6a4c180_1.webp?v=1724784640&width=3200)
+- ![[~/×/416a8f2db969c1d5ed4ddf2d597a07f8_MD5.png]]
 
 ### **Of Respondents** Woke Up Feeling More Energized and Rejuvenated
-- ![](https://thepillowhome.com/cdn/shop/files/97_1527ebf3-cc97-4c7f-96e9-dea909888417_3.webp?v=1724784617&width=3200)
+- ![[~/×/fcb3c0a1df670202d089acdbd4fa1d5e_MD5.png]]
 
 ### **Of Respondents** Experienced Enhanced Posture and Increased Neck Mobility
 
@@ -73,7 +73,7 @@ Sink into the perfect balance of **soft yet supportive memory foam** that adapts
 
 Invest in your future with CozyRest’s **long-lasting support**, designed not just for tonight but for years to come. Our pillow promotes **spinal health** and reduces the risk of **long-term neck issues**, ensuring you wake up not just pain-free, but with a healthier posture and improved well-being every day
 
-![Image](https://cdn.shopify.com/s/files/1/0726/5871/4960/files/Proyecto_nuevo_4.webp?v=1724761289)
+![[~/×/e1b0286397a26b527cd841f3e744d310_MD5.jpg]]
 
 ## Sleep Perfectly Aligned, Every Night
 
@@ -81,7 +81,7 @@ Whether you sleep on your back or side, the CozyRest® pillow is designed to cra
 
 It's not just a pillow; it's the key to waking up refreshed and pain-free, every single day.
 
-![](https://thepillowhome.com/cdn/shop/files/81TlGDHVrGL._AC_SL1500.jpg?v=1719235062&width=1500)
+![[~/×/776b95069adf0f540afbc7d6c14e61f2_MD5.jpg]]
 
 ## **Easy To Clean**
 
@@ -91,7 +91,7 @@ Its unique breathable fabric ensures quick drying after washing. Simply unzip th
 
 ## **90 Day Risk-Free Guarantee**
 
-- ![](https://thepillowhome.com/cdn/shop/files/e411c46dfaf1f347fc8ca455c0c33475_1_1_-min.png?v=1715680387&width=3200)
+- ![[~/×/6e61884a371a98a5183430d7e1681f65_MD5.png]]
 
 We stand by our products with a 90-Day Risk-Free Money Back Guarantee. If you're not completely thrilled with your order, simply return it for a full refund (no questions asked)
 

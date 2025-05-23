@@ -37,7 +37,7 @@ If you made any changes to the domain's records, wait up to 24 hours for the **[
 
 Unlike **A records**, which are created on the domain's DNS Zone, PTR records should be **created on the server**. Open the **[VPS](https://hpanel.hostinger.com/servers/)** section of your hPanel, select your server, and open the **Settings** page:
 
-[![](https://downloads.intercomcdn.com/i/o/894889834/9ebe6f26b85a745694f7a03b/vps-settings-en.png?expires=1735668000&signature=7fc7e8253df28da623a36c343a5e87c14165252c60ac4e800190081569fe538a&req=fCkjHsF3lYJbFb4f3HP0gMFB6ZMDVs9n%2BCd%2F6X2pQjREgIs%2BhQt296SRXD0V%0Apq%2BbFDhCrMJKopTqfQ%3D%3D%0A)](https://downloads.intercomcdn.com/i/o/894889834/9ebe6f26b85a745694f7a03b/vps-settings-en.png?expires=1735668000&signature=7fc7e8253df28da623a36c343a5e87c14165252c60ac4e800190081569fe538a&req=fCkjHsF3lYJbFb4f3HP0gMFB6ZMDVs9n%2BCd%2F6X2pQjREgIs%2BhQt296SRXD0V%0Apq%2BbFDhCrMJKopTqfQ%3D%3D%0A)
+[![[~/×/308a139f9934400bb43ee598e2accb1d_MD5.png]]](https://downloads.intercomcdn.com/i/o/894889834/9ebe6f26b85a745694f7a03b/vps-settings-en.png?expires=1735668000&signature=7fc7e8253df28da623a36c343a5e87c14165252c60ac4e800190081569fe538a&req=fCkjHsF3lYJbFb4f3HP0gMFB6ZMDVs9n%2BCd%2F6X2pQjREgIs%2BhQt296SRXD0V%0Apq%2BbFDhCrMJKopTqfQ%3D%3D%0A)
 
 Go to the **IP address tab**, and click on **Set PTR record** next to the IPv4 or IPv6 address of your server according to your requirements.
 
@@ -45,7 +45,7 @@ On the pop-up window that will appear, enter the **PTR record name**, that is, t
 
 If you need to **remove** an existing PTR record, you can do so in the same section by clicking on **Delete**:
 
-[![The IP address section of VPS Settings showing how to delete a PTR record](https://downloads.intercomcdn.com/i/o/417856972/17cf58587e387ab82d45af5d/image1.png?expires=1735668000&signature=507f17a439f285bd3e6c9aab2e61dd75a08ab7075a833ca46c9e8feb9fffec25&req=cCEgHsx4lIZdFb4f3HP0gBc3Nvq0dAIyCr3%2BR5T1xZ1yHojcb29fP4j7Z4E1%0APmY3A04cNCEup%2FZNjQ%3D%3D%0A)](https://downloads.intercomcdn.com/i/o/417856972/17cf58587e387ab82d45af5d/image1.png?expires=1735668000&signature=507f17a439f285bd3e6c9aab2e61dd75a08ab7075a833ca46c9e8feb9fffec25&req=cCEgHsx4lIZdFb4f3HP0gBc3Nvq0dAIyCr3%2BR5T1xZ1yHojcb29fP4j7Z4E1%0APmY3A04cNCEup%2FZNjQ%3D%3D%0A)
+[![[~/×/3a76c078b249341286bf9b280feb3627_MD5.png]]](https://downloads.intercomcdn.com/i/o/417856972/17cf58587e387ab82d45af5d/image1.png?expires=1735668000&signature=507f17a439f285bd3e6c9aab2e61dd75a08ab7075a833ca46c9e8feb9fffec25&req=cCEgHsx4lIZdFb4f3HP0gBc3Nvq0dAIyCr3%2BR5T1xZ1yHojcb29fP4j7Z4E1%0APmY3A04cNCEup%2FZNjQ%3D%3D%0A)
 
 Deleting a PTR record will allow you to set a new one, for example, if you change your domain name.
 

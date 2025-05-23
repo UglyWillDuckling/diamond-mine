@@ -41,7 +41,7 @@ S obzirom na raspored i funkciju neutralnog i zaštitnog vodiča postoje **tri (
 
 u cijeloj mreži **zaštitni vodič (PE)** **odvojen od neutralnog vodiča (N),** pogonska struja
 ne teče kroz zaštitni vodič.
-![](https://i.imgur.com/P6Xcb6Q.png)
+![[~/×/2b5fa2eb909c94f2c55ad0f778e9735c_MD5.png]]
 
 - razdvojeni neutralni i zaštitni vodič u cijeloj mreži
 
@@ -52,7 +52,7 @@ u dijelu mreže **PEN** vodič ima funkciju **zaštitnog i neutralnog vodiča**,
 1. PEN vodic ima funkciju zastitnog i neutralnog vodica
 2. blizu trosila, zastitni vodic odvojen od neutralnog
 
-![](https://i.imgur.com/ZhKbHHg.png)
+![[~/×/4dc7c3050570b4ac743919f90b06b2d8_MD5.png]]
 - neutralni i zaštitni vodiči sjedinjeni samo u dijelu mreže
 
 
@@ -60,14 +60,14 @@ u dijelu mreže **PEN** vodič ima funkciju **zaštitnog i neutralnog vodiča**,
 
 u cijeloj mreži sjedinjen zaštitni i neutralni vodič u **jedan PEN vodič.**
 
-![](https://i.imgur.com/ZL91sCS.png)
+![[~/×/e5b75436728c6cee58ebfa6de574bd71_MD5.png]]
 - **sjedinjeni zaštitni i neutralni vodič** u jedan PEN vodič u cijeloj mreži
 
 ## TT sustav
 
 Osnovno obilježje - neutralna točka sustava uzemljena posredstvom jednog uzemljivača, a kućišta **trošila uzemljena preko drugih uzemljivača**, električno neovisnih o uzemljenju neutralne točke sustava.
 
-![](https://i.imgur.com/MGzsk7X.png)
+![[~/×/bae0ab4838f6a3749861406abce138fb_MD5.png]]
 - **razdvojena** pogonska i zaštitna uzemljenja
 
 Kod TT mreža su zvjezdište i mase pogonskih sredstava uzemljeni, ali tako da su priključeni na različite uzemljivače.
@@ -82,9 +82,9 @@ primjenjuje se:
 
 **svi aktivni vodiči izolirani su od zemlje** ili su u jednoj točki spojeni sa zemljom preko velike impedancije, **kućišta trošila se uzemljuju.**
 
-![](https://i.imgur.com/q0lViTZ.png)
+![[~/×/8618d60fcdf3ce0751015437d494b862_MD5.png]]
 
-![](https://i.imgur.com/afIOvRm.png)
+![[~/×/f9678e04f7dad9beda02a82e9ce30e61_MD5.png]]
 -  zvjezdište uzemljeno preko velike **impedancije** i **uzemljena kućišta trošila**
 
 
@@ -164,7 +164,7 @@ Glavno izjednačavanje potencijala izvodi se s vodičima koji moraju imati presj
 
 Najveći presjek ne mora bit veći od 25 mm2 za bakrene vodiče.
 
-![](https://i.imgur.com/wsYlftF.png)
+![[~/×/09987f5de603ca905195f2266e538a4f_MD5.png]]
 
 ## Istodobna zaštita od električnog udara u pravilnome radu i u uvjetima kvara
 
@@ -233,7 +233,7 @@ dodirnog napona (UL)
 
 Koncept sličan kao kod SELV sistema, ali je sekundarni krug uzemljen u jednoj točki (kućišta trošila ili vodiča).
 
-![](https://i.imgur.com/I7RHtuy.png)
+![[~/×/01123e0cfa713653c6fc123b3ae34c29_MD5.png]]
 
 
 
@@ -245,7 +245,7 @@ PELV (nisu nužni SELV ili PELV)
 • kada električni krug sadrži opremu nedovoljno izoliranu od visokih
 napona (transformatori, releji, kontaktori i sl.)
 
-![](https://i.imgur.com/crKt65m.png)
+![[~/×/9ecb935157a1f6f8a088fbe491a716e4_MD5.png]]
 
 U slučaju kada se nekoliko uređaja napaja s **razdvojnog transformatora** potrebno je obratiti pažnju na sljedeće:
 
@@ -278,7 +278,7 @@ posebnog uzemljivača
 
 U slučaju proboja izolacije na opremi, odnosno kvara zanemarive impedancije, struja kvara će proteći kroz zatvoreni strujni krug kako je prikazano na slici.
 
-![](https://i.imgur.com/pwKxCmF.png)
+![[~/×/17077537a286b5a553b1eb2d713c687a_MD5.png]]
 
 Kod nadstrujnih uređaja s inverznom karakteristikom t/I
 osigurača, struja Ia mora biti tolike jakosti da sigurno izazove

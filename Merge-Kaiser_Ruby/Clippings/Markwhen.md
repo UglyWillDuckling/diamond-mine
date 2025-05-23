@@ -10,7 +10,7 @@ tags:
   - time
 favicon: https://markwhen.com/favicon.ico
 ---
-![icon|100](https://markwhen.com/favicon.ico)
+![[~/×/67722524c89f3508391c6d45d76217a3_MD5.png|100]]
 
 Markwhen input
 

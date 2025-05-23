@@ -14,7 +14,7 @@ reading: reading
 read: 
 interest: 8.5
 ---
-![cover|200](https://upload.wikimedia.org/wikipedia/en/5/59/AWizardOfEarthsea%281stEd%29.jpg)
+![[~/×/32ad34e9aadff76d98a9a7762e7f139c_MD5.jpg|200]]
 
 ***A Wizard of Earthsea*** is a [fantasy](https://en.wikipedia.org/wiki/Fantasy "Fantasy") novel written by American author [Ursula K. Le Guin](https://en.wikipedia.org/wiki/Ursula_K._Le_Guin "Ursula K. Le Guin") and first published by the [small press](https://en.wikipedia.org/wiki/Small_press "Small press") Parnassus in 1968. It is regarded as a classic of children's literature and of fantasy, within which it is widely influential. The story is set in the fictional [archipelago](https://en.wikipedia.org/wiki/Archipelago "Archipelago") of [Earthsea](https://en.wikipedia.org/wiki/Earthsea_\(universe\) "Earthsea (universe)") and centers on a young [mage](https://en.wikipedia.org/wiki/Magician_\(fantasy\) "Magician (fantasy)") named [Ged](https://en.wikipedia.org/wiki/Ged_\(Earthsea\) "Ged (Earthsea)"), born in a village on the island of Gont. He displays great power while still a boy and joins a school of wizardry, where his prickly nature drives him into conflict with a fellow student. During a magical duel, Ged's spell goes awry and releases a shadow creature that attacks him. The novel follows Ged's journey as he seeks to be free of the creature.
 
@@ -26,7 +26,7 @@ Le Guin wrote five subsequent books that are collectively referred to as the [Ea
 
 ## Background
 
-![Refer to caption](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Ursula_K_Le_Guin.JPG/250px-Ursula_K_Le_Guin.JPG)
+![[~/×/2ec48a8452bec7c0ce979bc1237df8c9_MD5.jpg|200]]
 Le Guin giving a reading in 2008
 
 Early concepts for the [Earthsea](https://en.wikipedia.org/wiki/Earthsea "Earthsea") setting were developed in two short stories, " [The Rule of Names](https://en.wikipedia.org/wiki/The_Rule_of_Names "The Rule of Names") " (1964) and " [The Word of Unbinding](https://en.wikipedia.org/wiki/The_Word_of_Unbinding "The Word of Unbinding") " (1964), both published in *[Fantastic](https://en.wikipedia.org/wiki/Fantastic_\(magazine\) "Fantastic (magazine)")*.[^6] The stories were later collected in Le Guin's anthology *[The Wind's Twelve Quarters](https://en.wikipedia.org/wiki/The_Wind%27s_Twelve_Quarters "The Wind's Twelve Quarters")* (1975).[^7] Earthsea was also used as the setting for a story she wrote in 1965 or 1966, which was never published.[^8] In 1967, Herman Schein (the publisher of Parnassus Press and the husband of [Ruth Robbins](https://en.wikipedia.org/w/index.php?title=Ruth_Robbins&action=edit&redlink=1 "Ruth Robbins (page does not exist)"), the illustrator of the book) [^9] asked Le Guin to try writing a book "for older kids", giving her complete freedom over the subject and the approach.[^10] [^11] She had no previous experience specifically with the genre of young adult literature, which rose in prominence during the late 1960s.[^12] Drawing from her short stories, she began work on *A Wizard of Earthsea*. She has said that the book was in part a response to the image of wizards as ancient and wise, and to wondering where they come from.[^13] She later said that she chose the medium of fantasy, and the theme of coming of age, with her intended adolescent audience in mind.[^14]
@@ -37,7 +37,7 @@ The short stories published in 1964 introduced the world of Earthsea and importa
 
 ### Setting
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Earthsea.svg/500px-Earthsea.svg.png)
+![[~/×/aeded96435ac6027df16c91aeff61bca_MD5.png|200]]
 
 Map of Earthsea
 
@@ -65,7 +65,7 @@ Ged flies back to Ogion on Gont. Unlike Gensher, Ogion insists that all creature
 
 ### Illustrations
 
-![a man with black skin standing with a staff in the stern of a small sailing boat, which has eyes either side of the bows; he wears a cloak. Waves and sky swirl around and above. Beneath the illustration are the words "10 The Open Sea"](https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Robbins_Wizard_of_Earthsea_10_The_Open_Sea.jpg/250px-Robbins_Wizard_of_Earthsea_10_The_Open_Sea.jpg)
+![[~/×/7673120e98094ddb1a389f3f340efbee_MD5.jpg|200]]
 
 Illustration by Ruth Robbins for Chapter 10
 

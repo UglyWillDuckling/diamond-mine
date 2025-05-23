@@ -12,7 +12,7 @@ tags:
 1. [Advice](https://www.whathifi.com/advice)
 2. [Headphones](https://www.whathifi.com/best-buys/headphones)
 
- ![Sennheiser IE 900 lifestyle image on on a dark background](https://cdn.mos.cms.futurecdn.net/DLMfXpXASehpQEbyEgQP38-320-80.jpg)
+ ![[~/×/f311479b3ae7e3690b7ca8b98565c801_MD5.jpg]]
 
   
 
@@ -48,7 +48,7 @@ That isn't always the case, though. Dynamic drivers can still be found within ma
 
 Most IEMs are wired, naturally, whereas headphones and earbuds can come in wired or wireless form, and the majority of monitors will tend to have a wire that is designed to train over the top of your ear to keep it fastened in place. Again, it's not a hard and fast rule, but it does tend to be how most manufacturers recommend you wear their products.  
 
-![Shure Aonic 5 and accessories on a white background](https://cdn.mos.cms.futurecdn.net/kvddt3VSdBHgpM65bt8odi-320-80.jpg)
+![[~/×/1e8010adf3c2ca60b14a8c0b79a34256_MD5.jpg]]
 
 The Shure Aonic 5 are usually classified as IEMs, although they're easily accessible to a consumer, as well as pro, market. (Image credit: Shure)
 
@@ -64,7 +64,7 @@ IEMs which use balanced armature drivers tend to sport a sound that benefits fro
 
 All other things being equal, though, IEMs tend to be detailed, musically adept and authentic, with plenty of solid reproduction across the frequencies and an emphasis on audio clarity. That said, some users can find them a little over-analytical, even clinical, and you won't necessarily get that breadth and weight of sound that you'll receive from a bulky pair of wired over-ears.
 
-![SoundMagic E11C on a ridge background](https://cdn.mos.cms.futurecdn.net/dk34Rt9QkGZiBN4MhHdiuH-320-80.jpg)
+![[~/×/fd18d7021bedff171692a528068a1cbe_MD5.jpg]]
 
 The SoundMagic E11C are wired in-ear headphones more suited to the budget consumer market.  (Image credit: SoundMagic)
 

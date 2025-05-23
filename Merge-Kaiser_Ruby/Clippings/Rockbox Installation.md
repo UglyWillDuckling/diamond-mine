@@ -8,7 +8,7 @@ tags:
   - manual
 rel:
 ---
-[![](https://www.rockbox.org/rockbox100.png)](https://www.rockbox.org/)
+[![[~/×/952e50dcc9da6d2cf98865bbd1e3fd38_MD5.png]]](https://www.rockbox.org/)
 
 Installing Rockbox is generally a quick and easy procedure. However before beginning there are a few important things to know.
 

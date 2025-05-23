@@ -524,21 +524,21 @@ https://your_domain
 
 Select the language you would like to use:
 
-![WordPress Language Selector](https://assets.digitalocean.com/articles/docker-wordpress/wp_language_select.png)
+![[~/×/5c6cf94452be17adfd83d016a18aea9a_MD5.png]]
 
 After clicking **Continue**, you will land on the main setup page, where you will need to pick a name for your site and a username. It’s a good idea to choose a memorable username here (rather than “admin”) and a strong password. You can use the password that WordPress generates automatically or create your own.
 
 Finally, you will need to enter your email address and decide whether or not you want to discourage search engines from indexing your site:
 
-![WordPress Main Setup Page](https://assets.digitalocean.com/articles/docker-wordpress/wp_main_setup.png)
+![[~/×/ba7b0a0fdea4baf0ce7cc748e91de5dd_MD5.png]]
 
 Clicking on **Install WordPress** at the bottom of the page will take you to a login prompt:
 
-![WordPress Login Screen](https://assets.digitalocean.com/articles/docker-wordpress/wp_login.png)
+![[~/×/19d1ed3bc6083138c2336caeb9adaf61_MD5.png]]
 
 Once logged in, you will have access to the WordPress administration dashboard:
 
-![WordPress Main Admin Dashboard](https://assets.digitalocean.com/articles/docker-wordpress/wp_main_dash.png)
+![[~/×/9c0d28c731d9941948f4aa0d7ba4fae9_MD5.png]]
 
 With your WordPress installation complete, you can take steps to ensure that your SSL certificates will renew automatically.
 

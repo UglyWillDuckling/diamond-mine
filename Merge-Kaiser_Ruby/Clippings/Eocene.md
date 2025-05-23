@@ -5,9 +5,10 @@ created: 2025-03-12
 source: https://en.m.wikipedia.org/wiki/Eocene
 tags:
   - geo-epoch
+previous: "[[Clippings/Paleocene|Paleocene]]"
 next: "[[Oligocene]]"
 ---
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Mollweide_Paleographic_Map_of_Earth%2C_45_Ma_%28Lutetian_Age%29.png/1280px-Mollweide_Paleographic_Map_of_Earth%2C_45_Ma_%28Lutetian_Age%29.png)
+![[~/×/7af6d18488ccf0386c47a57833af150c_MD5.png]]
 > A map of Earth 45 million years ago during the Eocene Epoch, Lutetian Age
 
 The **Eocene** ( [*EE\-ə-seen, EE\-oh-*](https://en.m.wikipedia.org/wiki/Help:Pronunciation_respelling_key "Help:Pronunciation respelling key")[^:0-5][^:1-6]) is a geological [epoch](https://en.m.wikipedia.org/wiki/Epoch_\(geology\) "Epoch (geology)") that lasted from about **56 to 33.9** million years ago (Ma). It is the second epoch of the [Paleogene](https://en.m.wikipedia.org/wiki/Paleogene "Paleogene") [Period](https://en.m.wikipedia.org/wiki/Period_\(geology\) "Period (geology)") in the modern [Cenozoic](https://en.m.wikipedia.org/wiki/Cenozoic "Cenozoic") [Era](https://en.m.wikipedia.org/wiki/Era_\(geology\) "Era (geology)"). 
@@ -83,7 +84,7 @@ The beginning of the Kummerian was refined by [Gregory Retallack](https://en.m.w
 ## [[Palaeogeography]] and [[tectonics]]
 
 >  A map of Earth in the **early** Eocene (50 Ma)
-![](https://upload.wikimedia.org/wikipedia/commons/0/03/Ypresian_Earth_50_mya.jpg)
+![[~/×/2778f05c0edac55abaac9c44ea22fa35_MD5.jpg]]
 
 During the Eocene, the [continents](https://en.m.wikipedia.org/wiki/Continent "Continent") continued to [drift](https://en.m.wikipedia.org/wiki/Plate_tectonics "Plate tectonics") toward their present positions. At the beginning of the period, [Australia](https://en.m.wikipedia.org/wiki/Australia "Australia") and [Antarctica](https://en.m.wikipedia.org/wiki/Antarctica "Antarctica") remained connected, and warm equatorial currents may have mixed with colder Antarctic waters, distributing the heat around the planet and keeping global temperatures high. When Australia split from the southern continent around 45 Ma, the warm equatorial currents were routed away from Antarctica. An isolated cold water channel developed between the two continents.[^28] However, modeling results call into question the thermal isolation model for late Eocene cooling,[^29] and decreasing carbon dioxide levels in the atmosphere may have been more important. Once the Antarctic region began to cool down, the ocean surrounding Antarctica began to freeze, sending cold water and [icefloes](https://en.m.wikipedia.org/wiki/Icefloe "Icefloe") north and reinforcing the cooling.[^30]
 

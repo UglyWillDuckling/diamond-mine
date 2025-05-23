@@ -84,7 +84,7 @@ For example, `[[##` will search generically across the vault, whereas `[[## t
 
 Screenshot of searching for a heading link
 
-![internal-links-header.png > interface](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/internal-links-header.png)
+![[~/×/41c3026a086f10e58b2ac28eb5746523_MD5.png]]
 
 ## Link to a block in a note
 
@@ -100,7 +100,7 @@ You can also search for blocks to link to from across your vault using the `[[^
 
 Screenshot of searching for a block link
 
-![link-block-heading.png > interface](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/link-block-heading.png)
+![[~/×/d4ac8edc6c9fbf8a29548ee4d34e93b7_MD5.png]]
 
 You can also create human-readable block identifiers by adding a blank space followed by the identifier. Block identifiers can only consist of Latin letters, numbers, and dashes.
 

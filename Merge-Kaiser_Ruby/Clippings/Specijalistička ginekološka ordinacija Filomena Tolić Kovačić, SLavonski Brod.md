@@ -8,18 +8,18 @@ description: "Ginekološka ambulanta Slavonski Brod"
 tags:
   - "clippings"
 ---
-![shape](http://ginekologija-tolic.hr/assets/img/shape/about-bg-shape.svg)
+![[~/×/6aa21720d93b2f2473ce93e77df31209_MD5.svg]]
 
 ## Tko smo mi
 
-![icon](https://ginekologija-tolic.hr//data/source/logo.png)
+![[~/×/ebd1746e50ca354a95f4a6f8afb56a90_MD5.png]]
 
 Specijalistička ginekološka ordinacija  
 Filomena Tolić Kovačić
 
 Više od 13 godina smo na Plavom polju i kroz našu ambulantu su prošle brojne pacijentice s kojima smo dijelile lijepe i manje lijepe događaje. Zato brigu o ženskom zdravlju , i dalje , prepustite nama ... Unatoč užurbanom načinu života , strahu i nelagodi izdvojite vrijeme za ginekološki pregled, uzimanje PAPA testa i ginekološki ultrazvuk.
 
-![avatar](https://ginekologija-tolic.hr//data/source/avatar.jpg)
+![[~/×/0fc356c024399fdb4a8931d77225331a_MD5.jpg]]
 
 #### dr. Filomena Tolić Kovačić
 
@@ -47,7 +47,7 @@ Nazovite
 
 ## Naše usluge
 
-![icon](https://ginekologija-tolic.hr//data/source/logo.png)
+![[~/×/ebd1746e50ca354a95f4a6f8afb56a90_MD5.png]]
 
 ## Ginekološke usluge
 
@@ -63,22 +63,22 @@ Nazovite
 
 ## Naš tim
 
-![icon](https://ginekologija-tolic.hr//data/source/logo.png)
+![[~/×/ebd1746e50ca354a95f4a6f8afb56a90_MD5.png]]
 
-![Filomena Tolić Kovačić](https://ginekologija-tolic.hr//data/source/nastim/filomena.jpg)
+![[~/×/4d3c03021e850d0404b7b0547075de13_MD5.jpg]]
 
 ---
 
 ## Foto galerija
 
-![icon](https://ginekologija-tolic.hr//data/source/logo.png)
+![[~/×/ebd1746e50ca354a95f4a6f8afb56a90_MD5.png]]
 
-![shape1](http://ginekologija-tolic.hr/assets/img/shape/contact-shape1.svg)
+![[~/×/0d1264fbb14c8095b113064a611f1334_MD5.svg]]
 
-![shape2](http://ginekologija-tolic.hr/assets/img/shape/contact-shape2.svg)
+![[~/×/1c07c8f4f352625924672ed8c6a2ee4b_MD5.svg]]
 
 ## Kontaktirajte nas
 
-![icon](https://ginekologija-tolic.hr//data/source/logo.png)
+![[~/×/ebd1746e50ca354a95f4a6f8afb56a90_MD5.png]]
 
 (+385) 35 400 062, Borovska 7, Slavonski Brod, ginekologija.tolic@gmail.com

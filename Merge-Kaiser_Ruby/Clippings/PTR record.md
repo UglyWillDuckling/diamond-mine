@@ -29,7 +29,7 @@ The PTR record type was introduced in the original DNS specifications ([RFC 1034
 > **They are used as a layer of security to prove that a mail server is trustworthy.**
 
 
-![Pointer records in the DNS](https://www.nslookup.io/img/learning/dns-record-types/ptr/the-dns-ptr-record-type.jpg)
+![[~/×/a67b51482bce3760673bc7fd8007df6d_MD5.jpg]]
 
 Pointer records in the DNS. By NsLookup.io. Licensed under [CC By 4.0](https://creativecommons.org/licenses/by/4.0/ "Creative Commons By 4.0 licence").
 

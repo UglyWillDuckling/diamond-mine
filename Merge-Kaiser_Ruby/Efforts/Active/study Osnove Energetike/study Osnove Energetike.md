@@ -1,6 +1,6 @@
 #project 
 
-- [/] #task pripremiti se za usmeni [[study Osnove Energetike#usmeni]] 🆔 VNAlQD
+- [/] #task pripremiti se za usmeni [[study Osnove Energetike#usmeni]] 🆔 VNAlQD ⏫ 📅 2025-05-26
 	- [/] [[elektricne instalacije]]
 ___
 # usmeni

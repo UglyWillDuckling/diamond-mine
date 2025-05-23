@@ -11,7 +11,7 @@ tags:
 related:
   - "[[Najbolji stari crtići - 15 Legendarnih koje nikad nećete zaboraviti]]"
 ---
-![](https://www.elegant.hr/app/uploads/2021/05/nnnc_featured_image-5-1024x456.jpg)
+![[~/×/ab3c4892bee3e2a59ea290ab3a2dc3c7_MD5.jpg]]
 
 FOTO by IMDb
 

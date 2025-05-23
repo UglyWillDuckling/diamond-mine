@@ -44,7 +44,7 @@ thanks for your help
 
 **Member**
 
-![](https://bbs.archlinux.org/img/avatars/62478.png?m=1572193435)
+![[~/×/a21538e38b62c528fc0987698d19cbfd_MD5.png]]
 
 Registered: 2012-08-01
 

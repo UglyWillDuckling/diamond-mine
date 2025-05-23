@@ -12,7 +12,7 @@ favicon: https://a.kickstarter.com/favicon.ico
 ---
 ![icon](https://a.kickstarter.com/favicon.ico]
 
-![](https://i.kickstarter.com/assets/047/211/534/faab83dba6478ca7a6285fdc1c652779_original.JPG?fit=scale-down&origin=ugc&q=92&v=1731148627&width=680&sig=iSmgVP%2BVsydCzPtqE%2F1vQWZxuoKtaKQAehSIEiQ6Vgg%3D)
+![[~/×/5163f1aafa87a8827d491761b174e9eb_MD5.jpg]]
 
 Pilet is a retro-futuristic, open-source mini-computer powered by the Raspberry Pi 5. With 7-hour battery life and fully modifiable hardware and software, it's built for tinkerers, creatives, learners, and coders who want total freedom. Escape the limitations of closed devices and locked-down systems and bring the fun back into computing.
 
@@ -30,7 +30,7 @@ Note: Early backers will receive a free NVMe module.  Don’t miss out—secure
 - Simple, Practical Design: We've embraced the KISS (Keep It Simple, Stupid) principle to minimize unnecessary complexity. No extra drivers or hardware hassles—just straightforward, 3D-printable, and fully customizable components.
 - Modularity: Pilet’s modular design encourages creativity. You can design and build your own modules, whether it's for cameras, sensors, or actuators. We’re also working on modules like LTE and NVMe.
 
-![](https://i.kickstarter.com/assets/047/720/934/327b5af0baac19703d5a6166de199112_original.webp?fit=scale-down&origin=ugc&q=92&v=1735918515&width=680&sig=1rdWooAWnQNANlHkPWxjCTGr%2BuDU4pKuzcg1hIjpR%2FM%3D)
+![[~/×/893e68363542e53de98afb99192084d0_MD5.webp]]
 
 ### Variants 
 
@@ -38,31 +38,31 @@ Pilet is available in two variants: Pilet 5 and Pilet 7. Both share similar inte
 
 ### Pilet 5
 
-Pilet 5 is the compact console variant, combining retro charm with modern functionality. It features a 5-inch touchscreen, versatile input devices, and a thumb-typing-friendly keyboard (layout still in development). Powered by open-source QMK firmware, the keyboard is fully customizable, making Pilet a hackable handheld perfect for on-the-go or in-bed computing.![](https://i.kickstarter.com/assets/047/210/867/dcfcd729a012058b502f2274252b4f34_original.jpg?fit=scale-down&origin=ugc&q=92&width=3024&sig=7ixO2QnN60g4jQELV5KeULMVaA%2FN6bGpFufWMwlqfZ4%3D)Pilet 5 features a trackball for precise cursor control, complemented by a IPS touch screen for versatile interaction with the OS interface. Together, they create a seamless and intuitive experience, making interactions with the device more enjoyable and natural:
+Pilet 5 is the compact console variant, combining retro charm with modern functionality. It features a 5-inch touchscreen, versatile input devices, and a thumb-typing-friendly keyboard (layout still in development). Powered by open-source QMK firmware, the keyboard is fully customizable, making Pilet a hackable handheld perfect for on-the-go or in-bed computing.![[~/×/cb7c68f768e61f1808663a31a7bab159_MD5.jpg]]Pilet 5 features a trackball for precise cursor control, complemented by a IPS touch screen for versatile interaction with the OS interface. Together, they create a seamless and intuitive experience, making interactions with the device more enjoyable and natural:
 
 In addition to the trackball and keyboard, Pilet 5 includes several other input devices:
 
 - Scroll Wheel: Effortlessly scroll through webpages, app, and games
 - Navigational Switch: Functions as arrow keys and doubles as a basic joystick/D-pad for gaming.
-- Game Buttons: A, B, X, Y buttons for gaming. ![](https://i.kickstarter.com/assets/047/719/321/87868788a308c0b24a8edbfcf1d88b44_original.webp?fit=scale-down&origin=ugc&q=92&v=1735905254&width=1280&sig=oq0u4t%2FvsX6MgkyoZQnr%2F73AIfUt%2BxOPgXfzY%2F9%2Fcoc%3D)
+- Game Buttons: A, B, X, Y buttons for gaming. ![[~/×/f7fffebddae65dff9546ff7b5e680811_MD5.webp]]
 
-We already have two modules in development for Pilet 5: the NVMe module, which is nearly complete, and the LTE module, which is currently in progress.![](https://i.kickstarter.com/assets/047/734/382/d795b230e756babea127f9851978c7ed_original.jpg?fit=scale-down&origin=ugc&q=92&v=1736056187&width=1620&sig=LNaebG%2Ft6GH2jdUX8ZBNV1cgP2rd2SIcjFgCCRoma9U%3D)
+We already have two modules in development for Pilet 5: the NVMe module, which is nearly complete, and the LTE module, which is currently in progress.![[~/×/9ba4a664f2c6a31e9ac704cd126c68c6_MD5.jpg]]
 
 ### Pilet 7
 
-Pilet 7 is the larger tablet variant, featuring a 7-inch touchscreen for more screen real estate while staying portable. It shares the same internals as Pilet 5 and runs KDE Plasma by default, delivering a robust touch experience on a full-fledged Linux distribution—offering true flexibility compared to the limitations of Android and iOS.![](https://i.kickstarter.com/assets/047/211/432/e44c21c89ef57c094d26941dea08bc96_original.png?fit=scale-down&origin=ugc&q=92&width=1000&sig=khCjJTjeDeZghmBlte8CcCLajIZt%2FokoGxlV7uARDlQ%3D)
+Pilet 7 is the larger tablet variant, featuring a 7-inch touchscreen for more screen real estate while staying portable. It shares the same internals as Pilet 5 and runs KDE Plasma by default, delivering a robust touch experience on a full-fledged Linux distribution—offering true flexibility compared to the limitations of Android and iOS.![[~/×/c615e9e3b83d6f1e54aa3b727a254fb5_MD5.png]]
 
-The base model of Pilet 7 is almost ready. We’re currently exploring the inclusion of an additional feature for Pilet 7: Detachable Modules. While it’s not finalized yet, it’s an exciting addition we’re working hard to make a reality. We’ll keep you updated as development progresses. ![](https://i.kickstarter.com/assets/047/211/834/334751f9b9b7c6a23d39a65ffc84a61b_original.png?fit=scale-down&origin=ugc&q=92&width=1000&sig=P2T9UilW3iRe3w%2B%2BRgJAuhh%2FU7qL8WNYnvlGDX8qlZ8%3D)The modular design enables the addition of various components, such as a keyboard, gamepad, or deck. Our aim is to make the modular mechanism fully 3D printable, allowing users to create and customize their own modules to seamlessly attach to the Pilet 7.
+The base model of Pilet 7 is almost ready. We’re currently exploring the inclusion of an additional feature for Pilet 7: Detachable Modules. While it’s not finalized yet, it’s an exciting addition we’re working hard to make a reality. We’ll keep you updated as development progresses. ![[~/×/c9ed052e8b04f80ecfee9ebac243e672_MD5.png]]The modular design enables the addition of various components, such as a keyboard, gamepad, or deck. Our aim is to make the modular mechanism fully 3D printable, allowing users to create and customize their own modules to seamlessly attach to the Pilet 7.
 
-With proper funding, we aim to finalize the modular mechanism of Pilet 7, bringing this exciting feature to life.![](https://i.kickstarter.com/assets/047/218/539/42697c5cd8455047e72843de8547860a_original.jpg?fit=scale-down&origin=ugc&q=92&width=1440&sig=LzT259azKlCVrM%2BsVimcp4mt6fOm2JLDRBxrIjF7L8o%3D)
+With proper funding, we aim to finalize the modular mechanism of Pilet 7, bringing this exciting feature to life.![[~/×/eed68b4fe24bf91518b37416666cb1e9_MD5.jpg]]
 
 ### Battery Management Module
 
 Powering the Raspberry Pi 5 with batteries isn’t always straightforward, especially with heavy workloads or when using power-hungry peripherals. After six months of careful design, we’ve developed a reliable battery module featuring Texas Instruments’ TPS61088. This module ensures stable power delivery, meeting and exceeding the Raspberry Pi’s 5A requirement to keep your setup running smoothly without any undervoltage issues, regardless of the load.
 
-![](https://i.kickstarter.com/assets/047/247/394/db8d9ffdb3c3d69bfb0462dbf6c119f3_original.png?fit=scale-down&origin=ugc&q=100&v=1731426498&width=680&sig=BRJhT5rclTGZqjC64e3YMzv0%2FzUBndMHmr8e7%2FF2ccM%3D)
+![[~/×/82c4c166a0f51d7b60e62a0464d0fa29_MD5.png]]
 
-The battery module features efficient charging with built-in reverse polarity and overcurrent protection for enhanced reliability. We’ve finalized the schematics and PCB design for the battery module. Huge thanks to PCBWay for generously sponsoring our prototyping, allowing us to create and test the module. It has undergone extensive testing to ensure reliable performance.![](https://i.kickstarter.com/assets/047/701/526/9565a64870e8db8edb312bf24016163f_original.jpeg?fit=scale-down&origin=ugc&q=92&v=1735708970&width=1500&sig=Ilo7g2LG0Gv7xG6EQMXmeEuVMKockLuzOOkamevrkJU%3D)
+The battery module features efficient charging with built-in reverse polarity and overcurrent protection for enhanced reliability. We’ve finalized the schematics and PCB design for the battery module. Huge thanks to PCBWay for generously sponsoring our prototyping, allowing us to create and test the module. It has undergone extensive testing to ensure reliable performance.![[~/×/c6b2fd69e5597718df5a8d0310632076_MD5.jpg]]
 
 Typically, the Raspberry Pi 5 requires a power supply that can reliably deliver 5V and 5A. With Pilet, however, you're not limited to using a Raspberry Pi-specific power supply. You can charge your Pilet from any standard 5V USB source—whether it's your laptop, PC, car, airplane, or power bank—even if those sources can't provide 5A. The battery module automatically boosts current for more demanding applications.
 

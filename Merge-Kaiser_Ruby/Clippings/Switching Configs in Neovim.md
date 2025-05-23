@@ -8,7 +8,7 @@ tags:
 ---
 Sep 7, 2023 \- Jan 2, 2025
 
-![A ratchet set in its case, showing signs of age and rust.](https://res.cloudinary.com/ooloth/image/upload/c_scale,f_auto,q_auto,w_1440/v1/mu/ratchet-set?_a=BAMCkGIL0)
+![[~/×/46e5b7fae1ecd6f14f04307dee9b02a7_MD5.jpg]]
 
 Photo by Elena Mozhvilo
 
@@ -90,7 +90,7 @@ vv() {
 
 Which would produce a menu like this:
 
-![A terminal after running the command "vv", showing the options "1) lazyvim 2) kickstart 3) nvchad 4) astrovim 5) lunarvim".](https://res.cloudinary.com/ooloth/image/upload/c_scale,f_auto,q_auto,w_1440/v1/mu/nvim-config-switcher-select?_a=BAMCkGIL0)
+![[~/×/b0c8208423ecdc01cffbca49d85d9868_MD5.png]]
 
 Or you could get fancy and use a fuzzy finder like [fzf](https://github.com/junegunn/fzf) to do the same thing:
 
@@ -113,7 +113,7 @@ Feel free to use 'find' or 'ls' instead of 'fd'.
 
 Here’s what that `fzf` menu would look like:
 
-![A terminal after running the command "vv", showing a menu with the options "nvim-lazyvim", "nvim-kickstart", "nvim-nvchad", "nvim-astrovim" and "nvim-lunarvim".](https://res.cloudinary.com/ooloth/image/upload/c_scale,f_auto,q_auto,w_1440/v1/mu/nvim-config-switcher-fzf?_a=BAMCkGIL0)
+![[~/×/8a6feaab90b17ea92cb02194d9c042f1_MD5.png]]
 
 ## Conclusion
 

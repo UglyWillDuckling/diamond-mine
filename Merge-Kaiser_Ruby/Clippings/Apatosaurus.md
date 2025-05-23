@@ -17,7 +17,7 @@ part of:
 ==Apatosaurus==
 ==Temporal range: Late Jurassic (Kimmeridgian), 152–151 Ma== 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Louisae.jpg/500px-Louisae.jpg)
+![[~/×/e21c124c611619ed642709bdc2a00920_MD5.jpg]]
 
 
 The [cervical vertebrae](https://en.m.wikipedia.org/wiki/Cervical_vertebrae "Cervical vertebrae") of *Apatosaurus* are less elongated and more heavily constructed than those of *[Diplodocus](https://en.m.wikipedia.org/wiki/Diplodocus "Diplodocus")*, a [diplodocid](https://en.m.wikipedia.org/wiki/Diplodocid "Diplodocid") like *Apatosaurus*, and the bones of the leg are much **stockier** despite being longer, implying that *Apatosaurus* was a more robust animal. 
@@ -35,7 +35,7 @@ As it existed in [[North America]] during the late Jurassic, *Apatosaurus* would
 
 ## Description
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Apatosaurus_scale_mmartyniuk_wiki.png/500px-Apatosaurus_scale_mmartyniuk_wiki.png)
+![[~/×/2af51f10c29744a6789e86bf8c930e76_MD5.png]]
 > Comparison of *A. ajax* (orange) and *A.louisae* (red) with a human (blue) and *[Brontosaurus parvus](https://en.m.wikipedia.org/wiki/Brontosaurus_parvus "Brontosaurus parvus")* (green)
 
 *Apatosaurus* was a large, long-necked, [quadrupedal](https://en.m.wikipedia.org/wiki/Quadruped "Quadruped") animal with a long, whip-like tail. Its [forelimbs](https://en.m.wikipedia.org/wiki/Forelimb "Forelimb") were slightly shorter than its [hindlimbs](https://en.m.wikipedia.org/wiki/Hindlimb "Hindlimb"). 
@@ -44,7 +44,7 @@ Most size estimates are based on specimen [CM](https://en.m.wikipedia.org/wiki/C
 
 A 2015 study that estimated the mass of volumetric models of *[Dreadnoughtus](https://en.m.wikipedia.org/wiki/Dreadnoughtus "Dreadnoughtus")*, *Apatosaurus*, and *[Giraffatitan](https://en.m.wikipedia.org/wiki/Giraffatitan "Giraffatitan")* estimates **CM3018** at 21.8–38.2 t (21.5–37.6 long tons; 24.0–42.1 short tons), similar in mass to *Dreadnoughtus*.[^9] Some specimens of *A.ajax* (such as [OMNH](https://en.m.wikipedia.org/wiki/Oklahoma_Museum_of_Natural_History "Oklahoma Museum of Natural History")1670) represent individuals 11–30% longer, suggesting masses twice that of CM3018 or 32.7–72.6 t (32.2–71.5 long tons; 36.0–80.0 short tons), potentially rivaling the largest [titanosaurs](https://en.m.wikipedia.org/wiki/Titanosaur "Titanosaur").[^10] However, the upper size estimate of OMNH1670 is likely an exaggeration, with the size estimates revised in 2020 at 30 m (98 ft) in length and 33 t (36 short tons) in body mass based on volumetric analysis.[^11]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Apatosaurus_ajax_skull.jpg/500px-Apatosaurus_ajax_skull.jpg)
+![[~/×/c7d5ff1c45d4765efed5644db6296384_MD5.jpg]]
 > *A. ajax* skull, specimen CMC VP 7180
 
 The skull is small in relation to the size of the animal. The jaws are lined with spatulate (chisel-like) teeth suited to an [herbivorous](https://en.m.wikipedia.org/wiki/Herbivore "Herbivore") diet.[^12] The snout of *Apatosaurus* and similar [diplodocoids](https://en.m.wikipedia.org/wiki/Diplodocoidea "Diplodocoidea") is squared, with only *[Nigersaurus](https://en.m.wikipedia.org/wiki/Nigersaurus "Nigersaurus")* having a squarer skull.[^13] The braincase of *Apatosaurus* is well preserved in specimen BYU17096, which also preserved much of the skeleton. A phylogenetic analysis found that the braincase had a morphology similar to those of other diplodocoids.[^14] Some skulls of *Apatosaurus* have been found still in articulation with their teeth. Those teeth that have the [enamel](https://en.m.wikipedia.org/wiki/Tooth_enamel "Tooth enamel") surface exposed do not show any scratches on the surface; instead, they display a sugary texture and little wear.[^13]
@@ -93,7 +93,7 @@ No *Apatosaurus* skull was mentioned in literature until the 1970s when [John St
 
 In 2011, the first specimen of *Apatosaurus* where a skull was found articulated with its cervical vertebrae was described. This specimen, [CMC](https://en.m.wikipedia.org/wiki/Cincinnati_Museum_Center "Cincinnati Museum Center")VP7180, was found to differ in both skull and neck features from *A.louisae*, but shared many features of the cervical vertebrae with *A.ajax*.[^43] Another well-preserved skull is [Brigham Young University](https://en.m.wikipedia.org/wiki/Brigham_Young_University "Brigham Young University") specimen 17096, a well-preserved skull and skeleton, with a preserved braincase. The specimen was found in [[Cactus Park Quarry]] in western [Colorado](https://en.m.wikipedia.org/wiki/Colorado "Colorado").[^14] In 2013, [[Matthew Mossbrucker]] and several other authors published an abstract that described a premaxilla and maxilla from Lakes' original quarry in Morrison and referred the material to *Apatosaurus ajax.*[^31]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Brontosaurus_infographic.svg/960px-Brontosaurus_infographic.svg.png)
+![[~/×/cdd153170d323bef3fffe5cd38022fa9_MD5.png]]
 > Infographic explaining the history of *Brontosaurus* and *Apatosaurus* according to Tschopp *etal.* 2015
 
 Almost all modern paleontologists agreed with Riggs that the two dinosaurs should be classified together in a **single genus**. According to the rules of the [ICZN](https://en.m.wikipedia.org/wiki/International_Code_of_Zoological_Nomenclature "International Code of Zoological Nomenclature") (which governs the scientific names of animals), the name *Apatosaurus*, having been published first, has priority as the official name; *Brontosaurus* was considered a [junior synonym](https://en.m.wikipedia.org/wiki/Synonym_\(taxonomy\) "Synonym (taxonomy)") and was therefore long discarded from formal use.[^44][^45][^46][^47] Despite this, at least one paleontologist – [Robert T. Bakker](https://en.m.wikipedia.org/wiki/Robert_T._Bakker "Robert T. Bakker") – argued in the 1990s that *A.ajax* and *A.excelsus* were in fact sufficiently distinct for the latter to merit a separate genus.[^48]
@@ -140,7 +140,7 @@ Shoulder blade and [coracoid](https://en.m.wikipedia.org/wiki/Coracoid "Coracoid
 
 ## Paleobiology
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Infant_Apatosaurus_dinosaur_tracks.jpg/500px-Infant_Apatosaurus_dinosaur_tracks.jpg)
+![[~/×/ac7ac552e41fba7abecb58cd9fbc61a9_MD5.jpg]]
 > Tracks of a juvenile
 
 It was believed throughout the 19th and early 20th centuries that sauropods like *Apatosaurus* were too massive to support their own weight on dry land. It was theorized that they lived partly submerged in water, perhaps in swamps. More recent findings do not support this; sauropods are now thought to have been **fully terrestrial animals**.[^61] 
@@ -155,7 +155,7 @@ Trackways of sauropods like *Apatosaurus* show that they may have had a **range 
 
 Further information: [Sauropod neck posture](https://en.m.wikipedia.org/wiki/Sauropod_neck_posture "Sauropod neck posture")
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Apatosaurus33.jpg/500px-Apatosaurus33.jpg)
+![[~/×/ed9e5678bbb718c7f3fbfbf39c68910c_MD5.jpg]]
 `Artistic interpretation of an individual of *A. louisae* arching its neck down to drink`
 
 Diplodocids like *Apatosaurus* are often portrayed with their necks held high up in the air, allowing them to browse on tall trees. Some studies state diplodocid necks were less flexible than previously believed, because the structure of the neck vertebrae would not have allowed the neck to bend far upward, and that sauropods like *Apatosaurus* were **adapted to low browsing or ground feeding**.[^62][^63][^67]

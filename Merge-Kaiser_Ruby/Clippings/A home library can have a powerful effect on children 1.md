@@ -3,7 +3,7 @@ The average number of books in a U.S. household is 114, according to a just-publ
 
 The effect was found to be powerful in: Children from such homes who ended up attaining just a high-school-level education “become as literate, numerate and technologically apt in adulthood as university graduates who grew up with only a few books.”
 
-![](https://bigthink.com/wp-content/uploads/2018/10/18717201.jpg?w=335)
+![[~/×/142c620c5eced2cdbf45877160c7e084_MD5.jpg]]
 
 (Flicker user \[Jenny\])
 
@@ -15,7 +15,7 @@ The study, led by [Dr. Joanna Sikora](https://researchers.anu.edu.au/researchers
 
 A reasonable question to ask would be about the effect of the rise in digital books. The study downplays the impact of this trend on its findings, saying, “For the time being, however, the perception that social practice of print book consumption is passé is premature.” The reason for this is that large digital libraries, for now at least, parallel large paper ones: “…home library size is positively related to higher levels of digital literacy so, the evidence suggests that for some time to come, engagement with material objects of scholarly culture in parental homes, i.e. books, will continue to confer significant benefits for adult ICT competencies.”
 
-![](https://bigthink.com/wp-content/uploads/2018/10/18717214.jpg?w=335)
+![[~/×/0ce6632366685c4d94e2cbd424eec209_MD5.jpg]]
 
 (Robby Berman)
 

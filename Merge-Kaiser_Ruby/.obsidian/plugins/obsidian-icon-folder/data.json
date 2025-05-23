@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🎥",
       "LiPhoneCall",
       "LiAtom",
       "LiBaby",
-      "🦆",
-      "🧹"
+      "🦆"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -194,7 +194,8 @@
   "Efforts/Simmering/Senka/Persona/Docs/Dev/Wordpress/wp_users.md": "LiPersonStanding",
   "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md": "🦆",
   "Efforts/Active/Moje djetinjstvo, istraga": "LiBaby",
-  "React": "LiAtom",
   "Efforts/Simmering/Tasks Management in Obsidian": "LiCheckCheck",
-  "Calendar/Events/Meetings/razgovor s Bojanom.md": "LiPhoneCall"
+  "React": "LiAtom",
+  "Calendar/Events/Meetings/razgovor s Bojanom.md": "LiPhoneCall",
+  "Atlas/Knowledge/Media/movies": "🎥"
 }

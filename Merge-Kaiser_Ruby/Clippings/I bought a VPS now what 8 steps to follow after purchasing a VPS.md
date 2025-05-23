@@ -18,7 +18,7 @@ These measures are crucial to ensure security and compatibility since VPS servic
 
 To help you get started, this tutorial will explain what to do after purchasing a VPS hosting plan, from getting to know your server to integrating a monitoring tool.
 
-![](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/11/Linux-cheat-sheet-1024x283.webp)
+![[~/×/9608f8554e39eab5c2fc15310c34734a_MD5.webp]]
 
 - [What to do after buying a VPS](https://www.hostinger.com/tutorials/#What_to_do_after_buying_a_VPS "What to do after buying a VPS")
 - [1\. Understand your VPS](https://www.hostinger.com/tutorials/#1_Understand_your_VPS "1. Understand your VPS")
@@ -51,11 +51,11 @@ Consider installing a control panel like [**Coolify** or **Dokploy**](https://ww
 
 Once you’ve figured out your VPS details, let’s proceed with the software installation. At Hostinger, you can configure an operating system and control panel in one click using a VPS template. You might need to use custom commands if you’re using another web hosting provider.
 
-![](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/02/VPS-hosting-banner-1024x300.webp)
+![[~/×/20205e2cc9cc8700a31ecc62f7141788_MD5.webp]]
 
 Once installed, access your VPS via secure shell (SSH) – a secure connection protocol for executing commands on your remote server. You can [use PuTTY](https://www.hostinger.com/tutorials/how-to-use-putty-ssh) to access the Linux server or **Remote Desktop** for Windows.
 
-![PuTTY SSH user interface](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/04/putty-ssh-user-interface.webp)
+![[~/×/031c79f783d9e53329b0895e47110ea6_MD5.webp]]
 
 By default, you will log in as **root**. Since this user has the most privileges, running commands and performing server management tasks with it can be somewhat risky if not careful.
 
@@ -81,13 +81,13 @@ There are a couple of ways to [point a domain name to your VPS](https://www.host
 
 To do so in Hostinger, open **hPanel** and navigate to **Domains** → **Domain Portfolio**. Then, find your domain and click on **Manage**.
 
-![Hostinger's domain portfolio with the Manage button highlighted](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/04/domain-portfolio-manage-1024x279.png)
+![[~/×/8f693e742eea68f88fcdc43be85b5095_MD5.png]]
 
 Next, click on **DNS / Nameservers** on the left side menu, and you’ll be taken to the **DNS records page**.
 
 Under the **Manage DNS records** section, add two new **A records** pointing to your VPS IP address. Name them **www** and **@**, but keep other configuration values identical.
 
-![DNS record management in hPanel](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/04/dns-record-management-in-hpanel-1024x182.webp)
+![[~/×/c7d8df201f5dfbe7c329fe656885ac7e_MD5.webp]]
 
 ### 4\. Secure your VPS
 
@@ -113,7 +113,7 @@ Additionally, consider [changing the default SSH port](https://www.hostinger.com
 sudo nano /etc/ssh/sshd_config
 ```
 
-![The port setting in the SSH configuration file](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/04/the-port-setting-in-the-ssh-configuration-file.webp)
+![[~/×/47fb31362bca462cd6bfab9870543c4f_MD5.webp]]
 
 While not mandatory, we also recommend [setting up SSH keys](https://www.hostinger.com/tutorials/ssh/how-to-set-up-ssh-keys) to secure your connection properly. These are additional login credentials that help protect your server if the username and password are compromised.
 
@@ -153,7 +153,7 @@ To learn more about how to set it up, check out our [installing phpMyAdmin on Ce
 yourvpsdomain.tld/phpmyadmin
 ```
 
-![PhpMyAdmin login page](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/04/phpmyadmin-login-page-1024x507.webp)
+![[~/×/d7491807af0f27b172ad512e1e280115_MD5.webp]]
 
 Log in as the root user you created during the MySQL installation process. To connect the database with your application, add the [PHP mysql\_connect function](https://www.php.net/manual/en/function.mysql-connect.php) to your **index.php** file.
 
@@ -167,7 +167,7 @@ Hostinger VPS supports popular CMSs like WordPress and frameworks like Laravel, 
 
 For example, install WordPress via CyberPanel by going to the **Dashboard** → **Websites** → **List Websites** → **Manage**. Scroll down to the **Application Installer** section and select **WP + LSCache**. Enter the site information and click **Create Website**.
 
-![The application installer menu in CyberPanel](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/04/the-application-installer-menu-in-cyberpanel-1024x209.webp)
+![[~/×/d0198149acaf8c601e621de797b6bdb3_MD5.webp]]
 
 Once installed, visit **yourdomain.tld/wp-admin** to access the WordPress admin dashboard and configure your web page. Navigate to the **Plugin** menu and [install plugins](https://www.hostinger.com/tutorials/wordpress/how-to-install-wordpress-plugins) like **WordFence** to optimize security and enable caching using **LiteSpeed**.
 
@@ -179,7 +179,7 @@ Regularly monitor your server performance to ensure your website or application 
 
 For basic resource tracking, use your management panel’s built-in monitoring feature. In hPanel, you can access it by going to **VPS** → **Manage** → **Backups & Monitoring** → **Server Usage**.
 
-![hPanel VPS monitoring dashboard](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2024/04/hpanel-vps-monitoring-dashboard-1024x539.webp)
+![[~/×/34338643bab5a9891415d8d256da1ee6_MD5.webp]]
 
 Also, regularly update your server software to maintain security. To simplify this recurrent task, set up a [cron job](https://www.hostinger.com/tutorials/cron-job) script to schedule its execution.
 
@@ -219,6 +219,6 @@ At Hostinger, you can install the Apache, NGINX, or OpenLiteSpeed web server usi
 
 The best way to track your VPS performance is by integrating it with a monitoring tool like Prometheus and Grafana. Alternatively, you can use Hostinger’s VPS monitoring tool directly via hPanel, but the information is not as comprehensive. 
 
-![Author](https://secure.gravatar.com/avatar/959b33c75a85c9aab800fa4231751fa3?s=96&d=mm&r=g)
+![[~/×/b48f7ea6351f7c7a73b0ead927563f0b_MD5.jpg]]
 
 Aris is a Content Writer specializing in Linux and WordPress development. He has a passion for networking, front-end web development, and server administration. By combining his IT and writing experience, Aris creates content that helps people easily understand complex technical topics to start their online journey. Follow him on [LinkedIn](https://www.linkedin.com/in/aris-sentika).

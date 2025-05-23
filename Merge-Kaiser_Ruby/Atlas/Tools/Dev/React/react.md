@@ -1,4 +1,4 @@
-- [/] #task Study React ⏫ ⏳ 2025-04-08 📅 2025-04-01 🆔 wmPoo6
+- [x] #task Study React 🆔 wmPoo6 ⏫ ⏳ 2025-04-08 📅 2025-04-01 ✅ 2025-05-18
 	- [/] learn [[How to Start a React Project]]
 	- [ ] learn [['Backend Setup'-series]]
 ___

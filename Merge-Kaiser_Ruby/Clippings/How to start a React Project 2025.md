@@ -16,16 +16,16 @@ Every year, I want to give you a brief overview of how to start a new React proj
 [[Vite]]
 is often considered the **unofficial successor** to the most popular (now deprecated) React starter, create-react-app (CRA), as it doesn't deviate much from it. Compared to CRA (which used Webpack), Vite is much faster because it uses [esbuild](https://esbuild.github.io/) under the hood. It is also more lightweight and has a smaller configuration overhead.
 
-  ![esbuild](https://www.robinwieruch.de/static/6d602bff76e6831f908b811c3184a68d/72e01/esbuild.jpg "esbuild")
+  ![[~/×/bdc18184c2e0f90b94929a22caea28c6_MD5.jpg]]
 
 Vite favors creating single-page applications (SPAs) with [[client-side rendering]] (CSR) over [[server-side rendering]] (SSR). 
 However, since SSR is becoming an increasingly important topic, it is available as an opt-in feature in Vite. Vite is also used in many other frameworks beyond React, such as Vue, Svelte, and Solid.
 
-  ![vite awards](https://www.robinwieruch.de/static/4c266cc0513508c1dd9332e75fe3d89c/4b190/vite-awards.jpg "vite awards")
+  ![[~/×/0ad08578b761fe172fc4d9de32bbe3c6_MD5.jpg]]
 
 When transitioning from client-side rendered applications, using Vite with React is fairly straightforward. Opt-in features like [TypeScript](https://www.robinwieruch.de/vite-typescript/), SVG, and SSR are just a few configurations away in Vite's *vite.config.js* file, in addition to feature-specific files (e.g., *tsconfig* ).
 
-  ![vite happiness](https://www.robinwieruch.de/static/3ceb9d15d71bdc4bb8b32b3f733d337f/72e01/vite-happiness.jpg "vite happiness")
+  ![[~/×/069f4c917d76026d2cabbbbf19ff2899_MD5.jpg]]
 
 Vite with React allows developers to use React without an opinionated framework. It's up to the developer to choose complementary React libraries for [routing](https://www.robinwieruch.de/react-router/), [data fetching](https://www.robinwieruch.de/react-fetching-data/), [state management](https://www.robinwieruch.de/react-state/) and [testing](https://www.robinwieruch.de/vitest-react-testing-library/). Compared to other React frameworks, it doesn't impose any specific React features, libraries, or configurations (at the project level) on you.
 
@@ -58,7 +58,7 @@ In contrast, when learning React within the environment of a framework, React of
 
 [Next.js](https://nextjs.org/) is the most mature framework and, therefore, the obvious choice when a React developer wants to use React in an opinionated framework environment. It comes with many features built-in. However, if Next.js isn't your cup of tea, check out [TanStack Start](https://tanstack.com/start) (Beta) or [React Router (as a framework)](https://remix.run/) (in transition from Remix).
 
-  ![next happiness](https://www.robinwieruch.de/static/dcf0e9c395de2fb7642496549f7b5e6e/72e01/next-happiness.jpg "next happiness")
+  ![[~/×/982596380a50897795577f13a3aae5b5_MD5.jpg]]
 
 Next.js prioritizes server-side rendering (SSR) as its main rendering technique. However, it can also be used with static-site generation (SSG), incremental static regeneration (ISR), and client-side rendering (CSR, as seen with React and Vite). Additionally, it provides React Server Components (RSC) and React Server Functions (RSF) as architectural primitives.
 
@@ -66,7 +66,7 @@ What makes this even more mind-blowing is that you can mix and match rendering t
 
 While React itself only allows you to create client-side applications where you have to choose your backend, Next.js allows you to create full-stack applications. This is a big deal, as it allows you to focus on the frontend and backend in one framework. [React is becoming a full-stack framework](https://www.robinwieruch.de/react-full-stack-framework/) with React Server Components (RSC) and React Server Functions (RSF).
 
-  ![next experience](https://www.robinwieruch.de/static/41a5f139c1841715ee73f05b3b229948/72e01/next-experience.jpg "next experience")
+  ![[~/×/a8ba2d7c7f19356f366877f681dd0e37_MD5.jpg]]
 
 In conclusion, while Next.js comes with many features built-in, it also carries the responsibilities of an opinionated React framework. While React itself (e.g., with Vite) remains relatively stable, you will definitely see changes in the Next.js ecosystem, as they are at the forefront of bringing React to the server.
 
@@ -101,13 +101,13 @@ Personally, I think there were many breaking changes in Next.js 14, but Next.js 
 
 [Astro](https://astro.build/) allows developers to create content-focused websites. Because of its island architecture and therefore selective hydration, it gives every website fast performance by default. Therefore SEO relevant websites profit from using Astro.
 
-  ![astro](https://www.robinwieruch.de/static/e390c21cee84fea74031f7371b260ecf/72e01/astro.jpg "astro")
+  ![[~/×/67d1b3dbe4c58f0dd7225bdd28d3651b_MD5.jpg]]
 
 From an implementation perspective, it favors the concept of multi-page applications (MPAs) over single-page applications (SPAs). Therefore it closes the historical cycle: from MPAs being the predominantly kind of a website (prior 2010) to SPAs taking over (2010 - 2020) to going back to MPAs (and thus making MPAs a term in the first place).
 
 Astro is a framework (here: React) agnostic solution. Thus you can use Astro's built-in component syntax or a framework (e.g. React) of your choice. The framework is only there for server-side rendering though and is not exposed to the client. Only if one decides to hydrate an interactive island (see island architecture) to the client, it gets all the necessary JavaScript code shipped to the browser.
 
-  ![astro ranking](https://www.robinwieruch.de/static/da7a008248e59aed9eb1f71018cb06b0/72e01/astro-ranking.jpg "astro ranking")
+  ![[~/×/eb0bc9b53d5b4b4956df84ac5e9fa001_MD5.jpg]]
 
 In conclusion, even though Next (with either SSR/SSG/ISR) would be a fit for content-focused websites too, Astro seems to fit the more specific requirements (performance, SEO, content as first-class citizen (e.g. collections, MDX)) of having a content-focused website here.
 

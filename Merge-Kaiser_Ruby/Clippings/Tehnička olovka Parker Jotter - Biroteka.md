@@ -8,7 +8,7 @@ description:
 tags:
   - "clippings"
 ---
-[![Biroteka](https://biroteka.hr/img/birotekahr-logo-1523902769.jpg)](https://biroteka.hr/ "Biroteka")
+[![[~/×/dd3b3935c183ffcd6f838e17ef80526c_MD5.jpg]]](https://biroteka.hr/ "Biroteka")
 
 Referenca: 160018
 Tehnička olovka Parker Jotter 			

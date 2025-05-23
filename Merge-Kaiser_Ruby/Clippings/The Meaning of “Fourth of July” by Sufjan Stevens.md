@@ -63,6 +63,6 @@ In *[[The Ancestor’s Tale]]*, evolutionary biologist Richard Dawkins wrote tha
 
 Sufjan Stevens’ *Carrie & Lowell* sounds like the earth meeting the sky. 
 
-![](https://i.ytimg.com/vi/JTeKpWp8Psw/hqdefault.jpg)
+![[~/×/c59a7fb16284721c843eeb7b1d4a4335_MD5.jpg]]
 
 *Photo by [[Nicholas Hunt]]/Getty Images*

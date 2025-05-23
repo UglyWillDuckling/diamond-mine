@@ -9,7 +9,7 @@ related:
 - [Article](https://en.m.wikipedia.org/wiki/Triceratops)
 - [Talk](https://en.m.wikipedia.org/wiki/Talk:Triceratops)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/LA-Triceratops_mount-2.jpg/1280px-LA-Triceratops_mount-2.jpg)
+![[~/×/6fa1737e239dddd4da67e8fb397a5277_MD5.jpg]]
 
 ***Triceratops*** ([/ t r aɪ ˈ s ɛr ə t ɒ p s /](https://en.m.wikipedia.org/wiki/Help:IPA/English "Help:IPA/English") [*try- SERR -ə-tops*](https://en.m.wikipedia.org/wiki/Help:Pronunciation_respelling_key "Help:Pronunciation respelling key");[^1] lit.' three-horned face ') is a [genus](https://en.m.wikipedia.org/wiki/Genus "Genus") of [chasmosaurine](https://en.m.wikipedia.org/wiki/Chasmosaurinae "Chasmosaurinae") [ceratopsian](https://en.m.wikipedia.org/wiki/Ceratopsia "Ceratopsia") [dinosaur](https://en.m.wikipedia.org/wiki/Dinosaur "Dinosaur") that lived during the late [Maastrichtian](https://en.m.wikipedia.org/wiki/Maastrichtian "Maastrichtian") age of the Late [Cretaceous](https://en.m.wikipedia.org/wiki/Cretaceous "Cretaceous") [period](https://en.m.wikipedia.org/wiki/Period_\(geology\) "Period (geology)"), about 68 to 66 [million years ago](https://en.m.wikipedia.org/wiki/Million_years_ago "Million years ago") in what is now western North America. It was one of the last-known non-avian dinosaurs and lived until the [Cretaceous–Paleogene extinction event](https://en.m.wikipedia.org/wiki/Cretaceous-Paleogene_extinction_event "Cretaceous-Paleogene extinction event") 66 million years ago. The name *Triceratops*, which means 'three-horned face', is derived from the [Greek](https://en.m.wikipedia.org/wiki/Ancient_Greek "Ancient Greek") words *trí-* ([τρί-](https://en.wiktionary.org/wiki/%CF%84%CF%81%CE%AF-#Ancient_Greek "wikt:τρί-")) meaning 'three', *kéras* ([κέρας](https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CF%81%CE%B1%CF%82#Ancient_Greek "wikt:κέρας")) meaning 'horn', and *ṓps* ([ὤψ](https://en.wiktionary.org/wiki/%E1%BD%A4%CF%88#Ancient_Greek "wikt:ὤψ")) meaning 'face'.
 
@@ -24,7 +24,7 @@ Two [species](https://en.m.wikipedia.org/wiki/Species "Species"), ***T. horridus
 
 ## Discovery and identification
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/06/Triceratops_alticornis.jpg)
+![[~/×/c16505a801ef4b9b79053a7b6b9e0c49_MD5.jpg]]
 Illustration of specimen YPM 1871E, the horn cores that were erroneously attributed to *Bison alticornis*, the first named specimen of *Triceratops*
 
 The first named [fossil](https://en.m.wikipedia.org/wiki/Fossil "Fossil") specimen now attributed to *Triceratops* is a pair of brow horns attached to a skull roof that were found by [[George Lyman Cannon]] near [[Denver]], [Colorado](https://en.m.wikipedia.org/wiki/Colorado "Colorado"), in the spring of 1887.[^3] This specimen was sent to [[Othniel Charles Marsh]] , who believed that the [formation](https://en.m.wikipedia.org/wiki/Geologic_formation "Geologic formation") from which it came from dated from the [Pliocene](https://en.m.wikipedia.org/wiki/Pliocene "Pliocene") and that the bones belonged to a particularly large and unusual [bison](https://en.m.wikipedia.org/wiki/Bison "Bison"), which he named *Bison alticornis*.[^3] [^4] He realized that there were horned dinosaurs by the next year, which saw his publication of the genus *[Ceratops](https://en.m.wikipedia.org/wiki/Ceratops "Ceratops")* from fragmentary remains,[^5] but he still believed *B. alticornis* to be a Pliocene [mammal](https://en.m.wikipedia.org/wiki/Mammal "Mammal"). It took a third and much more complete skull to fully change his mind.
@@ -75,12 +75,12 @@ Some of the following species are [synonyms](https://en.m.wikipedia.org/wiki/Syn
 
 ## Description
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Triceratops_Scale_V1.svg/1280px-Triceratops_Scale_V1.svg.png)
+![[~/×/6308d384864680d03265dad28549bfe1_MD5.png]]
 Size comparison with *T. horridus* in blue and *T. prorsus* in red
 
 *Triceratops* was a very large animal, measuring around 8–9 m (26–30 ft) in length and weighing up to 6–10 metric tons (6.6–11.0 short tons).[^23] [^24] [^25] A specimen of *T. horridus* named Kelsey measured 6.7–7.3 meters (22–24 ft) long, has a 2-meter (6.5 ft) skull, stood about 2.3 meters (7.5 ft) tall, and was estimated by the [Black Hills Institute](https://en.m.wikipedia.org/wiki/Black_Hills_Institute "Black Hills Institute") to weigh approximately 5.4 metric tons (6.0 short tons).[^26] [^27]
 
-![](https://upload.wikimedia.org/wikipedia/commons/7/7d/Triceratops_skull_frills.jpg)
+![[~/×/192441134e5227039b85ad25c437cbab_MD5.jpg]]
 Front view of skull with a prominent [epoccipital](https://en.m.wikipedia.org/wiki/Epoccipital "Epoccipital") fringe, [Houston Museum of Natural Science](https://en.m.wikipedia.org/wiki/Houston_Museum_of_Natural_Science "Houston Museum of Natural Science")
 
 Like all [chasmosaurines](https://en.m.wikipedia.org/wiki/Chasmosaurinae "Chasmosaurinae"), *Triceratops* had a large skull relative to its body size, among the largest of all land animals. The largest-known skull, specimen [MWC](https://en.m.wikipedia.org/w/index.php?title=Museum_of_Western_Colorado&action=edit&redlink=1 "Museum of Western Colorado (page does not exist)") 7584 (formerly [BYU](https://en.m.wikipedia.org/wiki/Brigham_Young_University "Brigham Young University") 12183), is estimated to have been 2.5 meters (8.2 ft) in length when complete [^28] and could reach almost a third of the length of the entire animal.[^29]
@@ -108,7 +108,7 @@ Although certainly [quadrupedal](https://en.m.wikipedia.org/wiki/Quadruped "Quad
 The hands and forearms of *Triceratops* retained a fairly primitive structure when compared to other quadrupedal dinosaurs, such as [thyreophorans](https://en.m.wikipedia.org/wiki/Thyreophora "Thyreophora") and many [sauropods](https://en.m.wikipedia.org/wiki/Sauropod "Sauropod"). In those two groups, the forelimbs of quadrupedal species were usually rotated so that the hands faced forward with palms backward ("pronated") as the animals walked. *Triceratops*, like other ceratopsians and related quadrupedal [ornithopods](https://en.m.wikipedia.org/wiki/Ornithopod "Ornithopod") (together forming the [Cerapoda](https://en.m.wikipedia.org/wiki/Cerapoda "Cerapoda")), walked with most of their fingers pointing out and away from the body, the original condition for dinosaurs. This was also retained by bipedal forms, like [theropods](https://en.m.wikipedia.org/wiki/Theropod "Theropod"). In *Triceratops*, the weight of the body was carried by only the first three fingers of the hand, while digits 4 and 5 were vestigial and lacked claws or hooves.[^34] The phalangeal formula of the hand is 2-3-4-3-1, meaning that the first or innermost finger of the forelimb has two bones, the next has three, the next has four, etc.[^38]
 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Ceratopsia_skin_integument.png/1280px-Ceratopsia_skin_integument.png)
+![[~/×/a0a90b71da7ca295981010e5a371b802_MD5.png]]
 > Skin impressions of various ceratopsians; k is from the flank of *T. horridus* specimen HMNS PV.1506
 
 Preserved skin from *Triceratops* is known. This skin consist of large scales, some of which exceed 100 millimetres (3.9 in) across, which have conical projections rising from their center. A preserved piece of skin from the frill of a specimen is also known, which consists of small polygonal basement scales.[^39]

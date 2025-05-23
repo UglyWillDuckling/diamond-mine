@@ -17,13 +17,13 @@ tags:
 
 Venice
 
-[![Map](https://maps.wikimedia.org/img/osm,13,45.438,12.3285,310x210.png?lang=en)](https://en.m.wikipedia.org/wiki/#/map/1 "Show in full screen")
+[![[~/×/e1802dadca62458716abf9df6ec91076_MD5.png]]](https://en.m.wikipedia.org/wiki/#/map/1 "Show in full screen")
 
-[![About OpenStreetMaps](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Invisible_Square.svg/12px-Invisible_Square.svg.png)](https://www.openstreetmap.org/copyright "About OpenStreetMaps")
+[![[~/×/a7b14eb71e30c0978fc03cc231e4024d_MD5.png]]](https://www.openstreetmap.org/copyright "About OpenStreetMaps")
 
-[![Maps: terms of use](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Invisible_Square.svg/12px-Invisible_Square.svg.png)](https://foundation.wikimedia.org/wiki/Policy:Maps_Terms_of_Use "Maps: terms of use")
+[![[~/×/a7b14eb71e30c0978fc03cc231e4024d_MD5.png]]](https://foundation.wikimedia.org/wiki/Policy:Maps_Terms_of_Use "Maps: terms of use")
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mapscaleline.svg/52px-Mapscaleline.svg.png)
+![[~/×/553998df41c18d6d42bae1ca0f1aad69_MD5.png]]
 
 1km  
 0.6miles
@@ -32,58 +32,58 @@ Tronchetto
 
 12
 
-[![Tronchetto](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Invisible_Square.svg/14px-Invisible_Square.svg.png)](https://en.m.wikipedia.org/wiki/Tronchetto "Tronchetto")
+[![[~/×/55ab9a20d19960a86acc300c8dd83da9_MD5.png]]](https://en.m.wikipedia.org/wiki/Tronchetto "Tronchetto")
 
 Santa Lucia  
 railway station
 
 11
 
-[![Venezia Santa Lucia railway station](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Invisible_Square.svg/14px-Invisible_Square.svg.png)](https://en.m.wikipedia.org/wiki/Venezia_Santa_Lucia_railway_station "Venezia Santa Lucia railway station")
+[![[~/×/55ab9a20d19960a86acc300c8dd83da9_MD5.png]]](https://en.m.wikipedia.org/wiki/Venezia_Santa_Lucia_railway_station "Venezia Santa Lucia railway station")
 
 Santa Croce
 
 10
 
-[![Santa Croce (Venice)](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Invisible_Square.svg/14px-Invisible_Square.svg.png)](https://en.m.wikipedia.org/wiki/Santa_Croce_\(Venice\) "Santa Croce (Venice)")
+[![[~/×/55ab9a20d19960a86acc300c8dd83da9_MD5.png]]](https://en.m.wikipedia.org/wiki/Santa_Croce_\(Venice\) "Santa Croce (Venice)")
 
 Dorsoduro
 
 9
 
-[![Dorsoduro](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Invisible_Square.svg/14px-Invisible_Square.svg.png)](https://en.m.wikipedia.org/wiki/Dorsoduro "Dorsoduro")
+[![[~/×/55ab9a20d19960a86acc300c8dd83da9_MD5.png]]](https://en.m.wikipedia.org/wiki/Dorsoduro "Dorsoduro")
 
 Castello
 
 8
 
-[![Castello, Venice](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Invisible_Square.svg/14px-Invisible_Square.svg.png)](https://en.m.wikipedia.org/wiki/Castello,_Venice "Castello, Venice")
+[![[~/×/55ab9a20d19960a86acc300c8dd83da9_MD5.png]]](https://en.m.wikipedia.org/wiki/Castello,_Venice "Castello, Venice")
 
 Isola di  
 San Michele
 
 7
 
-[![Isola di San Michele](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Invisible_Square.svg/14px-Invisible_Square.svg.png)](https://en.m.wikipedia.org/wiki/Isola_di_San_Michele "Isola di San Michele")
+[![[~/×/55ab9a20d19960a86acc300c8dd83da9_MD5.png]]](https://en.m.wikipedia.org/wiki/Isola_di_San_Michele "Isola di San Michele")
 
 Cannaregio
 
 6
 
-[![Cannaregio](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Invisible_Square.svg/14px-Invisible_Square.svg.png)](https://en.m.wikipedia.org/wiki/Cannaregio "Cannaregio")
+[![[~/×/55ab9a20d19960a86acc300c8dd83da9_MD5.png]]](https://en.m.wikipedia.org/wiki/Cannaregio "Cannaregio")
 
 Santa Maria della Salute
 
 5
 
-[![Santa Maria della Salute](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Invisible_Square.svg/14px-Invisible_Square.svg.png)](https://en.m.wikipedia.org/wiki/Santa_Maria_della_Salute "Santa Maria della Salute")
+[![[~/×/55ab9a20d19960a86acc300c8dd83da9_MD5.png]]](https://en.m.wikipedia.org/wiki/Santa_Maria_della_Salute "Santa Maria della Salute")
 
 Bridge of  
 Sighs
 
 4
 
-[![Bridge of Sighs](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Invisible_Square.svg/14px-Invisible_Square.svg.png)](https://en.m.wikipedia.org/wiki/Bridge_of_Sighs "Bridge of Sighs")
+[![[~/×/55ab9a20d19960a86acc300c8dd83da9_MD5.png]]](https://en.m.wikipedia.org/wiki/Bridge_of_Sighs "Bridge of Sighs")
 
 Grand Canal
 
@@ -102,7 +102,7 @@ Rialto Bridge
 
 1
 
-[![Rialto Bridge](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Invisible_Square.svg/14px-Invisible_Square.svg.png)](https://en.m.wikipedia.org/wiki/Rialto_Bridge "Rialto Bridge")
+[![[~/×/55ab9a20d19960a86acc300c8dd83da9_MD5.png]]](https://en.m.wikipedia.org/wiki/Rialto_Bridge "Rialto Bridge")
 
 The name is derived from the ancient [Veneti](https://en.m.wikipedia.org/wiki/Adriatic_Veneti "Adriatic Veneti") people who inhabited the region by the 10th century BC.[^5][^6] The city was historically the capital of the [Republic of Venice](https://en.m.wikipedia.org/wiki/Republic_of_Venice "Republic of Venice") for almost a millennium, from 810 to 1797. It was a major financial and maritime power during the [Middle Ages](https://en.m.wikipedia.org/wiki/Middle_Ages "Middle Ages") and [Renaissance](https://en.m.wikipedia.org/wiki/Renaissance "Renaissance"), and a [staging area](https://en.m.wikipedia.org/wiki/Staging_area "Staging area") for the [Crusades](https://en.m.wikipedia.org/wiki/Crusades "Crusades") and the [Battle of Lepanto](https://en.m.wikipedia.org/wiki/Battle_of_Lepanto_\(1571\) "Battle of Lepanto (1571)"), as well as an important centre of commerce—especially silk, grain, and [spice](https://en.m.wikipedia.org/wiki/Spice_trade "Spice trade"), and of art from the 13th century to the end of the 17th. The [city-state](https://en.m.wikipedia.org/wiki/City-state "City-state") of Venice is considered to have been the first real international financial centre, emerging in the 9th century and reaching its greatest prominence in the 14th century.[^7] This made Venice a wealthy city throughout most of its history.[^8] For centuries Venice possessed numerous territories along the Adriatic Sea and within the Italian [peninsula](https://en.m.wikipedia.org/wiki/Peninsula "Peninsula"), leaving a significant impact on the architecture and culture that can still be seen today.[^9][^10] The [Venetian Arsenal](https://en.m.wikipedia.org/wiki/Venetian_Arsenal "Venetian Arsenal") is considered by several historians to be the first factory in history and was the base of Venice's naval power.[^11] The sovereignty of Venice came to an end in 1797, at the hands of [Napoleon](https://en.m.wikipedia.org/wiki/Napoleon "Napoleon"). Subsequently, in 1866, the city became part of the [Kingdom of Italy](https://en.m.wikipedia.org/wiki/Kingdom_of_Italy "Kingdom of Italy").[^12]
 

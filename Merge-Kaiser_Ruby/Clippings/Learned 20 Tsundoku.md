@@ -24,7 +24,7 @@ What these special-hell bound authors mean is that there is no easy one to one t
 
 Let's get to it.
 
-![](https://substackcdn.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F537c148c-479a-4b2a-a8d3-1c312404390d_4480x6720)*Photo by [Nathan Dumlao](https://unsplash.com/photos/3kZpELkaxHc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/stack?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+![[~/×/81a2e8724571ffa5b1216eaae5200ab2_MD5.jpg]]*Photo by [Nathan Dumlao](https://unsplash.com/photos/3kZpELkaxHc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/stack?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
 
 Here are the kanji that comprise the Japanese word "tsundoku:"
 
@@ -75,7 +75,7 @@ That could be valid. Maybe, in the same way that “wabi sabi” briefly transfo
 
 \*\*The Wikipedia article also contains this wonderful quote from A. Edward Newton: “*Even when reading is impossible, the presence of books acquired produces such an ecstasy that the buying of more books than one can read is nothing less than the soul reaching towards infinity ... we cherish books even if unread, their mere presence exudes comfort, their ready access reassurance.*”
 
-![](https://substackcdn.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F93cb78cc-379a-46eb-9960-a11bdddf888b_700x601)*[Image from Ella Frances Sanders on Twitter](https://twitter.com/ellafsanders/status/795910328567603200)*
+![[~/×/67aac9778d8640087b12cd55d949c043_MD5.jpg]]*[Image from Ella Frances Sanders on Twitter](https://twitter.com/ellafsanders/status/795910328567603200)*
 
 by [Ella Frances Sanders](http://ellafrancessanders.com/)
 
@@ -85,7 +85,7 @@ Partly it’s the nature of the content, but the packaging makes this book a wor
 
 Bonus: If Sanders’ effort is not to your liking, another illustrator, [Anjana Iyer](https://www.behance.net/AnjanaIyer), has [created a similar set of illustrations as part of the 100 Days Project](https://www.behance.net/gallery/9633585/Found-In-Translation). She gives credit for the words themselves to [Adam Jacot de Boinod and his book The Meaning of Tingo and Other Extraordinary Words from around the World](http://<a target="_blank" href="https://www.amazon.com/gp/product/1594200866/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1594200866&linkCode=as2&tag=leftfromseatt-20&linkId=6525a8b2df95bf571c8d8c1143ce236d">The Meaning of Tingo: and Other Extraordinary Words from Around the World</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=leftfromseatt-20&l=am2&o=1&a=1594200866" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />).
 
-![](https://substackcdn.com/image/fetch/w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe0c3f92d-f5a1-4313-a6c5-fbd50308feec_2763x1554)[joeldavidneff.net](http://joeldavidneff.net/) | [joeldavidneff at gmail](http://joeldavidneff@gmail.com/) | [@smileytoad](https://www.instagram.com/smileytoad/) | [@joeldneff](https://twitter.com/joeldneff) | [coffee](http://ko-fi.com/joelneff)
+![[~/×/4ded5d3c716027a9cdd79137571820ab_MD5.jpg]][joeldavidneff.net](http://joeldavidneff.net/) | [joeldavidneff at gmail](http://joeldavidneff@gmail.com/) | [@smileytoad](https://www.instagram.com/smileytoad/) | [@joeldneff](https://twitter.com/joeldneff) | [coffee](http://ko-fi.com/joelneff)
 
 It ought to be no surprise that language learning blogs and apps put out lists like this on a regular basis. After all, what better way to get people interested in learning a new language (or in buying your translation service) via your blog, app, what-have-you? Here are a few I found while researching this essay:
 

@@ -94,7 +94,7 @@ valgrind --leak-check=full --show-reachable=yes --track-origins=yes --trace-chil
 
 If any additional info is required, the developers will mention how to acquire the desired information.
 
-![](https://community.kde.org/images.community/c/c1/Note-box-icon.png)
+![[~/×/9a025966474a5dc984c4708b106b47bd_MD5.png]]
 
 **Note**
 

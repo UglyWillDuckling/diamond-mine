@@ -62,7 +62,7 @@ Depending on your current level as a web developer, I encourage you to take a br
 
 **If you are learning about web development, you will most likely start with a traditional website built with HTML and [[CSS]]. 
 A website which isn't styled (CSS) and doesn't have any logic (JavaScript) is just [[HTML]].**
-![](https://www.robinwieruch.de/static/4bcc9df759ae5e4193f5696a29755e62/09ab1/1.webp)
+![[~/×/12e12375549edba1c0979c15d29d13c1_MD5.webp|17]]
 
 If you navigate to a specific [URL](https://en.wikipedia.org/wiki/URL) in your browser (e.g. Firefox) on your laptop or smartphone, a request is made to the web server responsible for that URL. If the web server is able to match the request to a website then it serves the HTML file for that website to your browser.
 
@@ -70,7 +70,7 @@ To transfer a website to a **browser**, [HTTP](https://en.wikipedia.org/wiki/Hyp
 
 The communication between the client and the server is synchronous, which means that the client sends a request to the server and waits for a response from the server. Your website isn't displayed immediately because it takes time to send the request from a client to the web server and to receive a response back from the web server.
 
-![](https://www.robinwieruch.de/static/97d89d8d22f317bdf99275a953fd0484/09ab1/2.webp)
+![[~/×/0c3e09806ea214258ca13bd9f7c06aa2_MD5.webp|17]]
 
 A HTTP request [^2] comes with four essential HTTP methods: GET, POST, PUT, and DELETE. 
 The [[HTTP GET]] method is used to read a resource, whereas the remaining methods are used to write resources -- where a resource can be anything from HTML to [[JSON]]. All four methods can be **abstracted** to the infamous [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations: 
@@ -92,12 +92,12 @@ However, a client doesn't need to be a browser (e.g. [[curl]]).
 
 A Server is an entity that serves a Client. In the traditional sense of a website, a server reacts to a client's requests and either replies with resources (e.g. HTML, CSS, JavaScript) from HTTP GET requests or acknowledges manipulations from HTTP POST, PUT, DELETE requests. Popular web servers, which are a specific kind of server, are [[NGINX]] or [[Apache]].
 
-![](https://www.robinwieruch.de/static/97d89d8d22f317bdf99275a953fd0484/09ab1/2.webp)
+![[~/×/0c3e09806ea214258ca13bd9f7c06aa2_MD5.webp|17]]
 
 It can be said that there is no client without a server and there is no server without a client. 
 They work together, even though they don't need to be in the same place. For example, the browser on your machine is at your local location (e.g. Berlin in Germany) and the web server which serves a website to you is operating at a remote location (e.g. Frankfurt in Germany). A server -- which is just another computer -- is usually located somewhere else than your local machine. 
 
-![](https://www.robinwieruch.de/static/f412e630fb405ce02df4ad53e7f0f584/09ab1/4.webp)
+![[~/×/b439c7cab63f78502e652f4c612a1b92_MD5.webp|17]]
 
 As a client doesn't necessarily need to be a browser on your local machine, it could be somewhere remote as well. But more about this later.
 
@@ -116,7 +116,7 @@ There are two more terms which you may meet: deploying and hosting. I will be br
 
 What happens when I visit a website at a URL and navigate around this domain (e.g. mywebsite.com) from a path (e.g. /about) to another path (/home)? For a traditional website, a new request is made by a client to a web server for every distinct URL.
 
-![](https://www.robinwieruch.de/static/f7042298e4a19d032ac1feb15efcfb6e/09ab1/5.webp)
+![[~/×/f28ba26e6b8e40fbc658df0971e4023e_MD5.webp|17]]
 
 For every **URL**, a distinct HTTP GET method is sent to the dedicated web server to fulfil the request. When a user accesses a website on its `/about` **path** (also called **page** or **route** ) in a browser, for example `http://www.mywebsite.com/about`, the web server sends all the information about this URL back to the browser. This process is called **server-side routing**, because the server decides which resource is sent to the client on each URL. You will learn about client-side routing later.
 
@@ -132,15 +132,15 @@ A modern website consists of **HTML** (structure), **CSS** (style), and **JavaSc
 
 If a browser asks a web server for the HTML of an URL, the web server sends back the HTML file which may include HTML tags that link to other resources like **CSS** or **JavaScript** files. For every link, another request is made to the web server to retrieve the files.
 
-  ![6](https://www.robinwieruch.de/static/bedc5c7e75db402b2c0900f9aa1a0e25/ae6b7/6.png "6")
+  ![[~/×/34999d1f747b88f1a8abb8a4f9df6164_MD5.png|17]]
 
 These are also called [waterfall requests](https://www.keycdn.com/blog/waterfall-analysis), because one request has to wait for another request to finish. In our example, the browser doesn't know that it needs to request the CSS file before the HTML file arrives with the HTML `link` tag. And in the next example the HTML file links to a JavaScript and CSS file, whereas the CSS file links to a JPG file (which may be used as CSS `background` for example).
 
-  ![6 01](https://www.robinwieruch.de/static/0286acd5e758538270300804285368d4/7b439/6.01.png "6 01")
+  ![[~/×/a9351ae6ad3c43ea5dc5423aade35f99_MD5.png|17]]
 
 However, at least if there are multiple references in one file, for example the initial HTML file that links to a CSS and a JavaScript file, these resources will be requested and resolved in **parallel**, as seen in the previous example, but also **illustrated** in the next one.
 
-  ![6 1](https://www.robinwieruch.de/static/2d173833e9a3be21fb4bd4c7db6077ec/ae6b7/6.1.png "6 1")
+  ![[~/×/096f591fa68815696a2897846f6aa475_MD5.png|17]]
 
 Eventually the browser will have all resources (e.g. HTML, CSS, JavaScript, PNGs, JPGs, SVGs) for a specific URL and interprets the HTML with all its included assets to display the desired result for you. It's ready for you to interact with it as a user.
 
@@ -151,21 +151,21 @@ So far, we have only seen HTTP GET methods in action for reading resources, but 
 
 With the rise of [content management systems](https://en.wikipedia.org/wiki/Content_management_system) like [[Wordpress]], a web server had to enable users to not only see resources, but also to manipulate them. For example, a user using a content management system must be able to log in, to create a blog post, to update a blog post, to delete a blog post, and to log out. At this time, the programming language [PHP](https://en.wikipedia.org/wiki/PHP) (which could be interpreted by a web server on the server-side) was the best fit for these kinds of dynamic websites.
 
-![](https://www.robinwieruch.de/static/118caedd287fe9e47ab5421e0ad24858/09ab1/7.webp)
+![[~/×/8e172c6462f499ead0b4d7d363849b31_MD5.webp|17]]
 
 Having the **logic on the server-side**, developers are enabled to process reading and **writing** requests from their users. If a user wants to create a blog post (write operation), the user has to write the blog post in a browser and click a "Save" button to send the content to the server-side logic running on the web server. This logic verifies the user is authorized, validates the blog content, and writes the content in a database. All these permissions were not allowed to take place on a client, otherwise everyone would be able to manipulate the database unauthorized.
 
 Since we still have **server-side routing**, the web server is able to redirect the user to a new page after the blog post has been created successfully. For example, the redirect could be to the newly published blog post. If there is no redirect, a HTTP POST/PUT/DELETE request usually leads to a page refresh/reload anyway.
 
-![](https://www.robinwieruch.de/static/9ef8d6c6f5a64c7da6a26f47a7e057a6/09ab1/8.webp)
+![[~/×/f73aad744ac0a9dbadaa6a55b964d624_MD5.webp|17]]
 
 Since users are able to create **dynamic** content now, we need to have a database [^5] to store this data. The database can be on the same physical server (computer) like the web server (most likely in the early days of Web 2.0) or on another remote computer (most likely in the modern era of web development).
 
-![](https://www.robinwieruch.de/static/0c2dd051cac10339d2b77fb86741217b/b9f96/9.webp)
+![[~/×/8d82b4fe994145df36c88a5b3a20d2c5_MD5.webp|17]]
 
 Once the blog post is inserted in the database, an unique identifier may be generated for this blog post which can be used to redirect the user to the newly published blog post's URL. All of this still happens **asynchronously** [^6].
 
-  ![9 1](https://www.robinwieruch.de/static/6224e57865834e98f48faaa976091d03/a1253/9.1.png "9 1")
+  ![[~/×/e8e41de1f5d060ae37d99d5a8c3fb12c_MD5.png|17]]
 
 Now, after a blog post has been created, how does a server send a HTML file for a blog post if the data for it isn't static, but instead stored in a database? That's where the principal of **server-side rendering** [^7] (not to mistake with server-side routing) comes into play.
 
@@ -204,12 +204,12 @@ A few of the earlier libraries/frameworks to write single-page applications in J
 
 Prior to single-page applications, a browser would request the HTML file and all linked files from a web server for a website. If a user happens to navigate from page (e.g. /home) to page (e.g. /about) within the same domain (e.g. mywebsite.com), there would be *a new request to the web server for every navigation*.
 
-  ![9 2](https://www.robinwieruch.de/static/9061efe6b7434a188991f8ce95dde464/ae6b7/9.2.png "9 2")
+  ![[~/×/92dcb0dd4d48a149af6ec9013f6b297c_MD5.png|17]]
 
 In contrast, a **single-page application** ==encapsulates== the entire application in mostly JavaScript which has all the knowledge about how and what to render with HTML (and CSS) inside it. 
 For the most basic usage of a single-page application, *the browser would request only once a HTML file with one linked JavaScript file* for a domain.
 
-![](https://www.robinwieruch.de/static/d9caa7eb15b4c9e61ee1521e70f30f5e/09ab1/10.webp)
+![[~/×/3afe5d6a7d85e5223b20c0201a1eea11_MD5.webp|17]]
 
 The requested HTML for a single-page application (here a React application) is just a middleman to request the JavaScript application (here *bundle.js* ) which, after it has been requested and resolved on the client, will be rendered in the HTML (here `id="app"` ):
 
@@ -321,7 +321,7 @@ const List = ({ list }) => (
 
 In other words: Instead of serving the pre-rendered HTML directly from the web server, we serve mainly JavaScript from the web server which executes on the client and only then renders the HTML. Often the term SPA can be used synonymously with the term **client-side rendered application**.
 
-  ![10 01](https://www.robinwieruch.de/static/cad6ce322ea44bb32514d3734cd769e2/92252/10.01.png "10 01")
+  ![[~/×/28c360c729a26fad561556ee5d12a6a6_MD5.png|17]]
 
 If the SPA is requested only once from a web server, how does it work when a user navigates from one page to another page within the same domain (e.g. mywebsite.com/about to mywebsite.com/home) without requesting another HTML?
 
@@ -331,7 +331,7 @@ With the usage of a traditional SPAs, we also moved from server-side routing to 
 
 Navigating from one page (e.g. /about) to another page (e.g. /home) wouldn't perform any request to the web server. Instead, a client-side router (e.g. [[React Router ]]for React) takes over to render the appropriate page from the initially requested JavaScript file.
 
-  ![10 02](https://www.robinwieruch.de/static/7f477c95347e24909dd2df8c6cb49308/8aea6/10.02.png "10 02")
+  ![[~/×/059a2afb4374a5a5a42bfe8055ee8c2f_MD5.png|17]]
 
 In a nutshell: A basic single-page application uses **client-side rendering/routing over server-side rendering/routing** while retrieving the entire application only once from a web server. 
 It's a single page, because there is only one request made for the entire application, which is a single HTML page which links to one JavaScript file; which has all the actual UI pages **encapsulated** and executes on the client-side.
@@ -347,12 +347,12 @@ One could say that before we had single-page applications, we have been working 
 
 We have learned that SPAs get shipped in one small HTML file and one JS file as default. The JavaScript file starts small, but it grows in size when your application gets larger, because more JavaScript is packaged in one *bundle.js* file. This impacts the user experience of SPAs, because the initial load time to transfer the JavaScript file from web server to browser increases eventually. When all files are loaded, a user can navigate from page to page without interruptions (good). However, in contrast the initial load time decreases the user experience when the page is requested in the browser (bad).
 
-  ![code splitting large](https://www.robinwieruch.de/static/96f98f07cea77d2dc1998838527de5c6/2bef9/code-splitting-large.png "code splitting large")
+  ![[~/×/9fa894ff0bda6ef25f2118f0232ab776_MD5.png|17]]
 
 Requesting the entire application as JavaScript file becomes a **disadvantage** once the application grows in size. For a more sophisticated single-page application, techniques like **code splitting** (also called **lazy loading** in React + React Router) are used to serve only a fraction of the application that is needed for the current page (e.g. mywebsite.com/home). 
 When navigating to the next page (e.g. mywebsite.com/about), another request is made to the web server to request the fraction for this page.
 
-  ![code splitting small](https://www.robinwieruch.de/static/26a14238719f6593b87acf399f035ddf/2bef9/code-splitting-small.png "code splitting small")
+  ![[~/×/4edbf56e820b6f49c8c29f4290726c08_MD5.png|17]]
 
 If you recap how traditional websites work, you will find out that it's quite similar with code splitting enabled SPAs. For a traditional website, every time a user navigates to a new route a new HTML file (with optional CSS, JavaScript, and other asset files) is loaded. For the SPA with code splitting on a route level, every navigation leads to a newly requested JavaScript file.
 
@@ -360,11 +360,11 @@ If you recap how traditional websites work, you will find out that it's quite si
 
 Code splitting does not need to happen on route level like in the previous scenario. For example, one can extract larger React components into their standalone JavaScript bundle too, so that it gets only loaded on pages where it is actually used.
 
-  ![code splitting component](https://www.robinwieruch.de/static/f384bc16ef37572f1dd39605e14459c8/2bef9/code-splitting-component.png "code splitting component")
+  ![[~/×/ce8cec455b2e19c89a27fb8942201eed_MD5.png|17]]
 
 However, as you can see this leads to redundant code that's requested from the web server. The same happens when a user navigates to a code split route twice, because it would get loaded from the web server twice as well. Hence we want the browser to cache (read: store in the browser's cache on the user's machine) the result.
 
-  ![code splitting caching](https://www.robinwieruch.de/static/d0bdf7ee3a785ba63493261d600ffda0/2bef9/code-splitting-caching.png "code splitting caching")
+  ![[~/×/26e804ba7ae2c8f30a06f5f0fe95f009_MD5.png|17]]
 
 Now what happens if the bundled table.js file changed, because we introduced a new feature to our table such as a [paginated view](https://www.robinwieruch.de/react-table-pagination/) or a [tree view](https://www.robinwieruch.de/react-tree-table/)? If caching is enabled, we would still see the old version of the Table component in the browser.
 
@@ -392,11 +392,11 @@ A full-stack application includes client (e.g. SPA) and server application. If c
 
 Anyway, why do we need full-stack applications? The need for full-stack applications was born due to the rise of single-page applications on the client-side.
 
-  ![10 1](https://www.robinwieruch.de/static/6179594a1eb3430e416114e212688889/17a7a/10.1.png "10 1")
+  ![[~/×/9e8c68cc6c53d564867d8a9369f9ca3a_MD5.png|17]]
 
 So far, we went from traditional websites with HTML/CSS/JavaScript to modern web applications (e.g. React applications). Rendering static content is fine, but how do we render dynamic content, for example user specific content like a blog post (see Web 2.0, but this time with client-side rendering), if only JavaScript (and a little HTML) is served from a web server to a client when dealing with SPAs where client-side rendering took over?
 
-  ![10 2](https://www.robinwieruch.de/static/bd899217178018e3cfebeac636e83ab0/a1253/10.2.png "10 2")
+  ![[~/×/07c158d01d350afbb43d2a4468f37075_MD5.png|17]]
 ==Knows **how** to render but not *what to render*==
 
 The SPA application -- which is encapsulated in a JavaScript file -- doesn't have any user specific data. It's just the logic for the pages; what they look like and how they behave for user interactions. The actual data isn't embedded in there, because it still sits somewhere in a **database** and doesn't get interpolated on the server anymore. 
@@ -404,12 +404,12 @@ That's the tradeoff you have to make when moving from server-side rendering to c
 
 Therefore, another request from client to server (application server written with JavaScript/Node.js or another programming language) has to be made for requesting the missing data to fill in the blanks on the client. The client-side templating engine (e.g. [JSX in React](https://www.robinwieruch.de/react-element-component/) ) takes care of [[interpolating]] content (data) with structure (HTML).
 
-![](https://www.robinwieruch.de/static/1b1671f835a566086179bfcc369d0567/038cb/11.webp)
+![[~/×/799bc474559522d75ad9adf348f7a2d8_MD5.webp|17]]
 
 **Essentially there are two roundtrips** of requests when dealing with client-side rendered applications: one for the JavaScript application and one for the data to fill in the blanks. Once everything is rendered in the browser, a user starts to interact with the application -- for instance by creating a new blog post. 
 [[JSON]] is a preferred format to send data from client to server and vice versa. The server deals with all the requests from the client by reading from or writing to the database; which can be on the same physical server, but doesn't need to be (e.g. just sitting on another physical server).
 
-![](https://www.robinwieruch.de/static/da13733bf6142387b816f8143e902768/db2ac/12.webp)
+![[~/×/0a56f5f1e2979ca0a537e1ae6e67ef19_MD5.webp|17]]
 
 Client-side rendered applications (SPAs) come with the caveat of not having all the data at their disposal from the beginning. They have to request everything to fill in the blanks. As an end user surfing the web, you will notice client-side rendered applications in two ways:
 
@@ -435,13 +435,13 @@ Traditional full-stack applications use [REST](https://en.wikipedia.org/wiki/Rep
 
 However, when using a REST API we are using these HTTP methods on **RESTful resources**. For example, a RESTful resource could be a blog post. A user can read blog posts with a HTTP GET from the application server or create a new blog post with a HTTP POST on the application server.
 
-  ![13 1](https://www.robinwieruch.de/static/18c4105b7df5a9de1d978784d320db9a/084e2/13.1.png "13 1")
+  ![[~/×/cc41bc628b10320d07b27c74b0650a31_MD5.png|17]]
 
 A REST API connects client and server applications without them needing to be implemented in the same programming language. They only need to offer a library for sending and receiving HTTP requests and responses. 
 
 ==REST is a communication paradigm which is free of a data format (it has been XML in the past, but these days it is JSON) and programming language.==
 
-![](https://www.robinwieruch.de/static/a8d22350dd4ddaa557a4b3d9a82c0ad8/db2ac/13.webp)
+![[~/×/0a91da96f065c892f27c168fe9e2e4aa_MD5.webp|17]]
 
 A modern alternative to REST is [GraphQL](https://www.robinwieruch.de/why-graphql-advantages-disadvantages-alternatives/) for APIs between clients and servers. GraphQL isn't bound to a data format either, and in contrast to REST not bound to HTTP, but **most often you will see HTTP and JSON used here as well.**
 
@@ -458,13 +458,13 @@ We haven't discussed the terms frontend and backend yet, because I didn't want t
 
 Both entities result in a client-server architecture (frontend and backend relationship) whereas the backend would be needed for (A) business logic that shouldn't be exposed as source code to the frontend application (e.g. authorization) -- otherwise it would be accessible in the browser -- or for (B) establishing sensitive connections to third-party data sources (e.g. database(s)).
 
-![](https://www.robinwieruch.de/static/b50b4affbda7af9f670ea0e66d90810c/d2334/15.webp)
+![[~/×/136eb8d42ff3a1d66133c17e05ec5a04_MD5.webp|17]]
 
 However, don't mistake client application always for frontend and server application always for backend here. These terms cannot be exchanged that easily. Whereas a frontend application is usually something seen in the browser, a backend usually performs business logic that shouldn't be exposed in a browser and often connects to a database as well.
 
 But, in contrast, the terms client and server are a matter of perspective. A backend application (Backend 1) which consumes another backend application (Backend 2) becomes a client application (Backend 1) for the server application (Backend 2). However, the same backend application (Backend 1) is still the server for another client application which is the frontend application (Frontend).
 
-  ![15](https://www.robinwieruch.de/static/b50b4affbda7af9f670ea0e66d90810c/6db71/15.png "15")
+  ![[~/×/1bfa64566f31fdb00b125781cd3238c5_MD5.png|15]]
 
 If you want to answer the client-server question if someone asks you what role an entity plays in a client-server architecture, always ask yourself who (server) is serving whom (client) and who (client) consumes whom's (backend) functionalities?
 
@@ -472,7 +472,7 @@ If you want to answer the client-server question if someone asks you what role a
 
 For example, microservices is an architecture which splits up one big backend (also called **monolith** ) into smaller backends ( **microservices** ). Each smaller backend may have one domain specific functionality, but they all serve one frontend (or multiple frontends) after all. However, a backend can also consume another backend, whereas the former backend becomes a client and the latter backend the server.
 
-  ![16](https://www.robinwieruch.de/static/b8ed3e68e8e64b31d4556acc93694182/160a3/16.png "16")
+  ![[~/×/52b1a077c20279edb7fe3c7c629346cf_MD5.png|16]]
 
 In a microservice architecture, each backend application can be created with a different programming language, while all backends are able to communicate with each other via APIs. It doesn't matter which API paradigm they choose, whether REST API or GraphQL API, as long as a client who speaks to their servers understands the API specification. It can also happen that a frontend doesn't speak to only one backend, but to multiple backends side-by-side.
 
@@ -486,7 +486,7 @@ In a traditional sense, a single backend application, which is only there to ser
 
 Firebase (by Google), one solution for a backend-as-a-service, offers a database, authentication and authorization as a backend out of the box. A developer is only left with implementing the frontend application (e.g. React application) which needs to connect to this backend-as-a-service.
 
-  ![17](https://www.robinwieruch.de/static/812b44db81d1d0c2c94df4c4b51673d6/42a8d/17.png "17")
+  ![[~/×/c866014be3c79bc8d8c206871b5e1e67_MD5.png|17]]
 
 A backend-as-a-service (BaaS) such as Firebase allows a developer to get up and running with their frontend application very quickly. Everything from authentication, authorization and database is done for you. In addition, most BaaS offer hosting as well, for example your React application can be hosted with Firebase too. So Firebase serves your React application to your client (browser) and enables your application to speak to it for all the other features (e.g. authentication, database). A popular open source alternative to Firebase is [Supabase](https://supabase.com/).
 
@@ -513,7 +513,7 @@ We have learned about server-side rendering for Web 2.0 before. At a later point
 
 When using the popular Next.js framework, which sits on top of React, you are still developing React applications. However, everything you implement in Next.js will be server-side rendered React. In Next.js, you implement each page (e.g. /about, /home) with React. When a user navigates from page to page, only a fraction of the server-side rendered React is sent to the browser. The great thing about it: You can already request the data to fill in the blanks on the server, interpolate the data with React, and send it to the client without any gaps.
 
-  ![server side render](https://www.robinwieruch.de/static/b41c085b39af171fbefad7adaf35e69f/ae6b7/server-side-render.png "server side render")
+  ![[~/×/c394e3d7b54fa8b2ef0336ffc91ade12_MD5.png|17]]
 
 This is different from client-side rendering, because there React only takes over on the client-side, and only starts to request the data to fill in the gaps once it got initially rendered with no data on the client. With SSR React, you can interpolate the data in React already on the server, but also can choose to fetch the data on the client when the application got rendered. Both options, client-side rendering and server-side rendering can be mixed up.
 
@@ -531,7 +531,7 @@ Traditional websites use static files from a web server to be rendered on a brow
 
 React per se isn't made for static files. Instead, React is just JavaScript files which create the application on the fly on the client-side. However, Gatsby.js, a framework which sits on top of React, is used for static site generation for React applications. Gatsby takes a React application and compiles it to static HTML and JavaScript files. Then all these files can be hosted on a web server. If a user visits a URL, the static files are served to the browser.
 
-  ![static site generation](https://www.robinwieruch.de/static/a4025dc1e2a699067ac6def4a28872d3/ae6b7/static-site-generation.png "static site generation")
+  ![[~/×/c42a96cc36f260fccde121889adb09d3_MD5.png|17]]
 
 In contrast to server-side rendering React, the static files are not created on the fly when a user requests them but are only created once on build time. This can be a drawback for dynamic content where the data changes often (e.g. eCommerce), however, for marketing pages or blogs with content which doesn't change often, building your website only once in a while is the perfect solution.
 

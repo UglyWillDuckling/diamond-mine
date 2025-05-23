@@ -11,7 +11,7 @@ related:
   - "[[Dolphin File]]"
 ---
 
-![GTKFileChooser window](https://babarowski.com/images/2021/gtkfilechooser.png)
+![[~/×/a4f32308b760aa30e03260f42e22836f_MD5.png]]
 
 GTK, while being widely adopted and utilized by thousands of apps is still suffering from that unresolved [Add an “icon view with thumbnails”\[0\]](https://gitlab.gnome.org/GNOME/gtk/-/issues/233) issue that has been residing in the project bug tracker for over 17 years (at the time of writing this article, November 2021). Personally, I’ve learned about it fairly recently reading [the article comparing GtkFileChooser to a clogged toilet\[1\]](https://jayfax.neocities.org/mediocrity/gnome-has-no-thumbnails-in-the-file-picker.html), which explains how the inconvenience caused by the issue mostly went unnoticed by many users (including me) for years. It seems like it was a turning point in the life of the issue, as now its presence is being brought up on almost a daily basis in many informal tech communities. Most often, the purpose is scapegoating GTK as an entirety. The reasoning is that if such a conceptually simple, UX-crucial and obviously present at any notable competitor feature cannot be implemented since almost beginning of the project, then something is seriously wrong with the project itself. Perhaps it’s a convoluted codebase, bad maintaining or inadequate concepts fossilized into the core of the project.
 

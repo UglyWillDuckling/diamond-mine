@@ -33,7 +33,7 @@ The scale and scope of the story is epic. It follows the struggles of [gods](htt
 
 The music of the cycle is thick and richly textured, and grows in complexity as the cycle proceeds. Wagner wrote for an orchestra of gargantuan proportions, including a greatly enlarged brass section with new instruments such as the [Wagner tuba](https://en.m.wikipedia.org/wiki/Wagner_tuba "Wagner tuba"), [bass trumpet](https://en.m.wikipedia.org/wiki/Bass_trumpet "Bass trumpet") and [contrabass trombone](https://en.m.wikipedia.org/wiki/Contrabass_trombone "Contrabass trombone"). Remarkably, he uses a chorus only relatively briefly, in acts 2 and 3 of *Götterdämmerung*, and then mostly of men with just a few women. He eventually had a purpose-built theatre constructed, the [Bayreuth Festspielhaus](https://en.m.wikipedia.org/wiki/Bayreuth_Festspielhaus "Bayreuth Festspielhaus"), in which to perform this work. The theatre has a special stage that blends the huge orchestra with the singers' voices, allowing them to sing at a natural volume. The result was that the singers did not have to strain themselves vocally during the long performances.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Harvard_Theatre_Collection_-_Br%C3%BCnnhilde%2C_TS_40.40_%28cropped%29.jpg/180px-Harvard_Theatre_Collection_-_Br%C3%BCnnhilde%2C_TS_40.40_%28cropped%29.jpg)
+![[~/×/ba40c5fca780c297b797c4ffc51a354a_MD5.jpg]]
 
 Illustration of Brünnhilde by [Odilon Redon](https://en.m.wikipedia.org/wiki/Odilon_Redon "Odilon Redon"), 1885
 

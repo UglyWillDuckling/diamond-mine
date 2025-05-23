@@ -11,7 +11,7 @@ tags:
 ---
 ***Vrli novi svijet***, katkad preveden kao ***Divni novi svijet*** ([eng](https://hr.m.wikipedia.org/wiki/Engleski_jezik "Engleski jezik"). *Brave New World*), [znanstvenofantastični](https://hr.m.wikipedia.org/wiki/Znanstvena_fantastika "Znanstvena fantastika") je roman [Aldousa Huxleya](https://hr.m.wikipedia.org/wiki/Aldous_Huxley "Aldous Huxley") iz [1932.](https://hr.m.wikipedia.org/wiki/1932. "1932.") godine.
 
-![](https://upload.wikimedia.org/wikipedia/hr/thumb/e/ee/Vrlinovisvijet.jpg/150px-Vrlinovisvijet.jpg)
+![[~/×/923bf6705535a4cb619d3c8efba0aceb_MD5.jpg]]
 
 Korica knjige »Vrli novi svijet«
 

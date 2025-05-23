@@ -1,0 +1,7 @@
+
+```set
+scope:
+  - type
+  - movie
+
+```

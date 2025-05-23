@@ -6,7 +6,7 @@ created: 2025-01-27
 tags: 
 related:
 ---
-![icon|50](https://wiki.archlinux.org/favicon.ico)
+![[~/×/03f009a77266f2d1dafc9880bbb72c0a_MD5.png|50]]
 
 Related articles
 
@@ -420,7 +420,7 @@ Use `--asexplicit` to do the opposite operation.
 
 ### Search for a package that contains a specific file
 
-![](https://wiki.archlinux.org/images/7/77/Merge-arrows-2.svg)**This article or section is a candidate for merging with [pacman/Tips and tricks](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks "Pacman/Tips and tricks").**
+![[~/×/cc893181b0eba5a855aa93b6258ce5d8_MD5.svg|50]]**This article or section is a candidate for merging with [pacman/Tips and tricks](https://wiki.archlinux.org/title/Pacman/Tips_and_tricks "Pacman/Tips and tricks").**
 
 **Notes:** Looking at [#Querying package databases](https://wiki.archlinux.org/title/#Querying_package_databases) this section duplicates but expands what is already covered there. Either this should be moved inside the previous section or merged as a *pacman* tip in the dedicated article, which is already linked. (Discuss in [Talk:Pacman](https://wiki.archlinux.org/title/Talk:Pacman))
 
@@ -631,7 +631,7 @@ If *pacman* is interrupted while changing the database, this stale lock file can
 
 ### Packages cannot be retrieved on installation
 
-![](https://wiki.archlinux.org/images/1/19/Tango-view-fullscreen.svg)**This article or section needs expansion.**
+![[~/×/f8c6438bdf95094740cf5840c940e5b1_MD5.svg|50]]**This article or section needs expansion.**
 
 **Reason:** This could also be worded to cover situations where a mirror becomes out of sync and people don't get new updates for a while, as the solution is the same. (Discuss in [Talk:Pacman](https://wiki.archlinux.org/title/Talk:Pacman))
 
@@ -645,7 +645,7 @@ See also [FAQ#Why is there only a single version of each shared library in the o
 
 ### Fixing an unbootable system caused by an interrupted upgrade
 
-![](https://wiki.archlinux.org/images/0/0b/Inaccurate.svg)**The factual accuracy of this article or section is disputed.**
+![[~/×/d109a8c122aa091f7cd711eb87c5a166_MD5.svg|50]]**The factual accuracy of this article or section is disputed.**
 
 Whether due to power loss, kernel panic or hardware failure an update may be interrupted. In most cases, there will not be much damage but the system will likely be unbootable.
 

@@ -8,9 +8,9 @@ tags:
 ---
 What is LocalAI?
 
-[![](https://github.com/go-skynet/LocalAI/assets/2420543/0966aa2a-166e-4f99-a3e5-6c915fc997dd)](https://localai.io/)
+[![[~/×/4e96eabe3c0084695e6a11deaa641bf2_MD5.jpg]]](https://localai.io/)
 
-[![mudler%2FLocalAI | Trendshift](https://trendshift.io/api/badge/repositories/5539)](https://trendshift.io/repositories/5539)
+[![[~/×/0338afb7c2ac910d795d767faff93020_MD5.svg]]](https://trendshift.io/repositories/5539)
 
 > 💡 Get help - [❓FAQ](https://localai.io/faq/) [💭Discussions](https://github.com/go-skynet/LocalAI/discussions) [💭Discord](https://discord.gg/uJAeKSAGDy)
 > 
@@ -71,7 +71,7 @@ Support the project by becoming [a backer or sponsor](https://github.com/sponsor
 
 A huge thank you to our generous sponsors who support this project covering CI expenses, and our [Sponsor list](https://github.com/sponsors/mudler):
 
-[![](https://github.com/user-attachments/assets/72eab1dd-8b93-4fc0-9ade-84db49f24962)](https://www.spectrocloud.com/) [![](https://github.com/mudler/LocalAI/assets/2420543/42e4ca83-661e-4f79-8e46-ae43689683d6)  
+[![[~/×/b54b3bf8ada2f0f6b99c2c709cb41229_MD5.png]]](https://www.spectrocloud.com/) [![[~/×/42e0ef02595ba3cde129f2cecaed6770_MD5.png]] 
 ](https://www.premai.io/)
 
 LocalAI is a community-driven project created by [Ettore Di Giacinto](https://github.com/mudler/).
@@ -93,4 +93,4 @@ LocalAI couldn’t have been built without the help of great software already av
 
 ## 🤗 Contributors
 
-This is a community project, a special thanks to our contributors! 🤗 [![](https://contrib.rocks/image?repo=go-skynet/LocalAI)](https://github.com/go-skynet/LocalAI/graphs/contributors)
+This is a community project, a special thanks to our contributors! 🤗 [![[~/×/8903d3f2f0c5fae0d74926a9bc4ca617_MD5.svg]]](https://github.com/go-skynet/LocalAI/graphs/contributors)

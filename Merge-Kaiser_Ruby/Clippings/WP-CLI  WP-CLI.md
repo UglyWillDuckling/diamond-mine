@@ -12,11 +12,11 @@ tags:
 
 Ongoing maintenance is made possible by:
 
- [![Automattic](https://make.wordpress.org/cli/files/2017/04/automattic-1.png)](https://automattic.com/)[![Bluehost](https://make.wordpress.org/cli/files/2017/04/bluehost.png) ](https://www.bluehost.com/)[![Pantheon](https://make.wordpress.org/cli/files/2019/06/pantheon.png) ](https://pantheon.io/)[![SiteGround](https://make.wordpress.org/cli/files/2019/06/SG_logo.png) ](https://www.siteground.com/)[![WP Engine](https://make.wordpress.org/cli/files/2017/04/wpengine.png) ](https://wpengine.com/)[![Cloudways](https://make.wordpress.org/cli/files/2021/02/Cloudways-Logo-e1612285267691.png)](https://www.cloudways.com/)
+ [![[~/×/02fc86d1efb8a247c084a3423385d4c0_MD5.png]]](https://automattic.com/)[![[~/×/2e80d076ed281c976adde4e0f92df524_MD5.png]] ](https://www.bluehost.com/)[![[~/×/f58c714b47400ca09d20fba78bad1147_MD5.png]] ](https://pantheon.io/)[![[~/×/b578f27a994671ddf52fdcd9fe97e66b_MD5.png]] ](https://www.siteground.com/)[![[~/×/734dc4ad42aa3c811127bb8363404588_MD5.png]] ](https://wpengine.com/)[![[~/×/8c42e8a04b8cc0ca3e0797a2d7315f67_MD5.png]]](https://www.cloudways.com/)
 
 The current stable release is [version 2.11.0](https://make.wordpress.org/cli/2024/08/08/wp-cli-v2-11-0-release-notes/). For announcements, follow [@wpcli on Twitter](https://twitter.com/wpcli) or [sign up for email updates](https://make.wordpress.org/cli/subscribe/). [Check out the roadmap](https://make.wordpress.org/cli/handbook/roadmap/) for an overview of what’s planned for upcoming releases.
 
-[![Testing](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml/badge.svg)](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml) [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![Percentage of issues still open](https://isitmaintained.com/badge/open/wp-cli/wp-cli.svg)](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
+[![[~/×/fc5f35d7f868f25be9f17d6a3ccb6562_MD5.svg]]](https://github.com/wp-cli/automated-tests/actions/workflows/testing.yml) [![[~/×/71ebee4b7b8e720b83343a081ba6aacb_MD5.svg]]](https://isitmaintained.com/project/wp-cli/wp-cli "Average time to resolve an issue") [![[~/×/43ed36625675111f3d86657f5feacfb5_MD5.svg]]](https://isitmaintained.com/project/wp-cli/wp-cli "Percentage of issues still open")
 
 Quick links: [Using](https://wp-cli.org/#using) | [Installing](https://wp-cli.org/#installing) | [Support](https://wp-cli.org/#support) | [Extending](https://wp-cli.org/#extending) | [Contributing](https://wp-cli.org/#contributing) | [Credits](https://wp-cli.org/#credits)
 

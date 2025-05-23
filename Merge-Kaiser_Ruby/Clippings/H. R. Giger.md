@@ -11,7 +11,7 @@ tags:
 
 <table><tbody><tr><th colspan="2"><p>H. R. Giger</p></th></tr><tr><td colspan="2"><span><a href="https://en.m.wikipedia.org/wiki/File:HR_Giger_2012.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/HR_Giger_2012.jpg/220px-HR_Giger_2012.jpg" width="220" height="297"></a></span><p>Giger in 2012</p></td></tr><tr><th scope="row">Born</th><td><p>Hans Ruedi Giger</p><br><span>(<span>1940-02-05</span>)</span>5 February 1940<br><div><p><a href="https://en.m.wikipedia.org/wiki/Chur">Chur</a>, <a href="https://en.m.wikipedia.org/wiki/Graub%C3%BCnden">Graubünden</a>, Switzerland</p></div></td></tr><tr><th scope="row">Died</th><td>12 May 2014<span>(2014-05-12)</span> (aged&nbsp;74)<br><div><p><a href="https://en.m.wikipedia.org/wiki/Z%C3%BCrich">Zürich</a>, Switzerland</p></div></td></tr><tr><th scope="row">Occupation(s)</th><td>Painter, sculptor, set designer, film director</td></tr><tr><th scope="row">Style</th><td><a href="https://en.m.wikipedia.org/wiki/Biomechanical_art">Biomechanical art</a>, <a href="https://en.m.wikipedia.org/wiki/Science_fiction">Science fiction</a>, <a href="https://en.m.wikipedia.org/wiki/Horror_fiction">horror</a>, <a href="https://en.m.wikipedia.org/wiki/Fantasy">fantasy</a></td></tr><tr><th scope="row">Spouses</th><td><div><ul><li></li></ul><div><p>Mia Bonzanigo</p><p>​</p><p>​</p><p>(<abbr>m.</abbr>&nbsp;1979; <abbr>div.</abbr>&nbsp;1981)<wbr>​</p></div><ul><li></li></ul><div><p>Carmen Maria Scheifele</p><p>​</p><p>​</p><p>(<abbr>m.</abbr>&nbsp;2006)<wbr>​</p></div></div></td></tr><tr><th scope="row">Partner</th><td><a href="https://en.m.wikipedia.org/wiki/Li_Tobler">Li Tobler</a> (1966–1975)</td></tr><tr><th scope="row">Website</th><td><span><a href="http://hrgiger.com/">hrgiger<wbr>.com</a></span></td></tr><tr><th colspan="2">Signature</th></tr><tr><td colspan="2"><span><a href="https://en.m.wikipedia.org/wiki/File:Hans_Ruedi_Giger-signature.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Hans_Ruedi_Giger-signature.svg/150px-Hans_Ruedi_Giger-signature.svg.png" width="150" height="95"></a></span></td></tr></tbody></table>
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/HR_Giger_Geb%C3%A4rmaschine_Aluminium.jpg/220px-HR_Giger_Geb%C3%A4rmaschine_Aluminium.jpg)
+![[~/×/063dec8d2eb38f4c828c93a06c279027_MD5.jpg]]
 
 *Birth Machine* sculpture in Gruyères
 
@@ -31,11 +31,11 @@ Giger started with small ink drawings before progressing to oil paintings. For m
 
 Giger's most distinctive stylistic innovation was that of a representation of human bodies and machines in cold, [interconnected relationships](https://en.m.wikipedia.org/wiki/Cyborg "Cyborg"), which he described as "biomechanical". His main influences were painters [Dado](https://en.m.wikipedia.org/wiki/Dado_\(painter\) "Dado (painter)"),[^15] [Ernst Fuchs](https://en.m.wikipedia.org/wiki/Ernst_Fuchs_\(artist\) "Ernst Fuchs (artist)"), and [Salvador Dalí](https://en.m.wikipedia.org/wiki/Salvador_Dal%C3%AD "Salvador Dalí"). He was introduced to Dali by painter [Robert Venosa](https://en.m.wikipedia.org/wiki/Robert_Venosa "Robert Venosa"). Giger was also influenced by Polish sculptor [Stanislaw Szukalski](https://en.m.wikipedia.org/wiki/Stanislaw_Szukalski "Stanislaw Szukalski"), and by painters [Austin Osman Spare](https://en.m.wikipedia.org/wiki/Austin_Osman_Spare "Austin Osman Spare") and [Mati Klarwein](https://en.m.wikipedia.org/wiki/Mati_Klarwein "Mati Klarwein"),[^16] and was a personal friend of [Timothy Leary](https://en.m.wikipedia.org/wiki/Timothy_Leary "Timothy Leary"). He studied interior and industrial design at the School of Commercial Art in Zurich from 1962 to 1965, and made his first paintings as [art therapy](https://en.m.wikipedia.org/wiki/Art_therapy "Art therapy").[^arh+-2]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gigerbar.jpg/220px-Gigerbar.jpg)
+![[~/×/63b12e328fdf6ba2551c4928152564e2_MD5.jpg]]
 
 Entrance to Giger Bar in Chur
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Giger_gitarren.jpg/220px-Giger_gitarren.jpg)
+![[~/×/cc7d9db49447de19f1ebef1becd786bd_MD5.jpg]]
 
 Ibanez H. R. Giger signature bass and guitars
 

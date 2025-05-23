@@ -8,7 +8,7 @@ tags:
 about:
   - "[[pebble smartwatch]]"
 ---
-![pebble-lineup.jpg](https://ericmigi.com/assets/why-were-bringing-pebble-back-1-pebble-lineup.jpg)
+![[~/×/74124184775587c331c21fc80f555acd_MD5.jpg]]
 
 > **TL;DR**  
 > We’re making a new Pebble-style smartwatch.  

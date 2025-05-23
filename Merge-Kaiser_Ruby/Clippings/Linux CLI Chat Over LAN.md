@@ -172,7 +172,7 @@ Now on the other machine, let’s call it M2, we’ll initiate a conversation wi
 ```bash
 $ talk bob@192.9.97.10
 ```
-![M1 talk command](https://www.baeldung.com/wp-content/uploads/sites/2/2023/08/talk.png)
+![[~/×/837f85d8291456a7566d4e8bbc7b5361_MD5.png]]
 
 So here we get a screen with 2 windows for the send and receive of the messages. We can see that we’re still waiting for the target user to accept the conversation.
 
@@ -189,15 +189,15 @@ Here we can see a notification for the conversation, if we want to accept and st
 ```bash
 $ talk Alice@192.9.97.8
 ```
-![Alice](https://www.baeldung.com/wp-content/uploads/sites/2/2023/08/talk2.png)
+![[~/×/c2226e6e14d7255164bcaa79bd9b78da_MD5.png]]
 
 So now the connection is established, let’s try to send a message from M1 to M2:
 
-![M1 to M2 message](https://www.baeldung.com/wp-content/uploads/sites/2/2023/08/talk3-3.png)
+![[~/×/0441cc6b31b87842083a6c5c9be9a941_MD5.png]]
 
 If we check the M2 machine now we’ll see that the message appears in the receiving window:
 
-![M2 message](https://www.baeldung.com/wp-content/uploads/sites/2/2023/08/talk4.png)
+![[~/×/ac79a8bffd0bc98a7c9bcb14b9cc9ee2_MD5.png]]
 
 So this confirms that the conversation is working fine and the users can send and receive messages.
 

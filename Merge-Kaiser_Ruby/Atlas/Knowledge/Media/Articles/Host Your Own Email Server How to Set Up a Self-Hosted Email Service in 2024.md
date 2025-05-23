@@ -27,7 +27,7 @@ For such users, self-hosting email servers can be a better option. In addition t
 
 In this article, we will explain how to host your own email server with Hostinger’s virtual private server (VPS) using the CyberPanel control panel. Before getting into the steps, we will also explain the benefits of creating a private mail server.
 
-![](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/11/Linux-cheat-sheet-1024x283.webp)
+![[~/×/9608f8554e39eab5c2fc15310c34734a_MD5.webp]]
 
 - [Why Host Your Own Email Server?](https://www.hostinger.com/tutorials/#Why_Host_Your_Own_Email_Server "Why Host Your Own Email Server?")
 - [How to Host Your Own Mail Server](https://www.hostinger.com/tutorials/#How_to_Host_Your_Own_Mail_Server "How to Host Your Own Mail Server")
@@ -79,7 +79,7 @@ All Hostinger VPS hosting plans include a dedicated IP address to improve email 
 
 We also provide the [Kodee AI Assistant](https://www.hostinger.com/blog/vps-ai-assistant) to help troubleshoot server problems using simple prompts. For example, ask, “I have pointed my domain using custom nameservers, but it won’t propagate. Explain the issues and their solutions,” and the tool will give the guide to fix it.
 
-![](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/02/VPS-hosting-banner-1024x300.webp)
+![[~/×/20205e2cc9cc8700a31ecc62f7141788_MD5.webp]]
 
 ### 2\. Set Up Your Virtual Private Server
 
@@ -93,7 +93,7 @@ For this tutorial, we will use **AlmaLinux 8 with CyberPanel**. You can change t
 4. From the drop-down menu, select **AlmaLinux 8 with CyberPanel**.
 5. Click **Change OS**.
 
-![The operating system installation menu in hPanel](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/12/The-operating-system-installation-menu-in-hPanel-1024x492.webp)
+![[~/×/a98b63ffba5df0c3bbf7bdc45d309d0e_MD5.webp]]
 
 **Warning!** Changing your VPS operating system and control panel will wipe all your existing data. We strongly suggest creating a backup before doing so.
 
@@ -115,14 +115,14 @@ After setting up your VPS, [purchase a domain](https://www.hostinger.com/domain-
 4. Name your child nameservers. For simplicity, we’ll name them **ns1.domain.tld** and **ns2.domain.tld**.
 5. Enter your VPS **IP address**. You can find this information in the **VPS overview** menu. Then, press both of the **Save** buttons.
 
-![Child nameservers configuration menu in hPanel](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/12/Child-nameservers-configuration-menu-in-hPanel-1-1024x380.webp)
+![[~/×/05790256b87cacaf0123e17f89178149_MD5.webp]]
 
 6. Navigate to the **DNS Record** tab.
 7. Under the **Nameservers** section, click **Change nameservers**.
 8. Select **Change nameservers** and enter the two child nameservers. Leave the rest of the fields empty.
 9. Press **Save** to apply the changes.
 
-![Nameservers configuration menu in hPanel](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/12/Nameservers-configuration-menu-in-hPanel-1-1024x600.webp)
+![[~/×/61579c647986f3bf3d0a5f91d59e948b_MD5.webp]]
 
 Wait until the propagation process is complete, which can take up to 24 hours.
 
@@ -145,7 +145,7 @@ Enter the **admin username** and **password** to log in. If you forget the crede
 7. Check the **DKIM Support** box. It will improve your mail security, prevent spoofing, and ensure deliverability.
 8. Click **Create Website** to complete the process.
 
-![Website container creation settings in CyberPanel](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/12/Website-container-creation-settings-in-CyberPanel-1-1024x605.webp)
+![[~/×/fe95d9893516e70ec58e53d37ff98808_MD5.webp]]
 
 **Important!** When accessing CyberPanel for the first time, your web browser might warn you about an unsafe website. You can ignore the warning and proceed to the login page.
 
@@ -180,7 +180,7 @@ Hostinger users can set up a reverse DNS using [PTR records](https://www.hosting
 3. Hit the **IP address** tab → **Set PTR record**.
 4. Enter your **domain name** and click **Save**.
 
-![PTR records configuration in hPanel](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/12/PTR-records-configuration-in-hPanel-1024x327.webp)
+![[~/×/dab23c8c441d67bd60f0dae0e3a5da03_MD5.webp]]
 
 Wait until the propagation process finishes. To check if your VPS IP address resolves to the correct domain, run this command on Terminal:
 
@@ -194,7 +194,7 @@ After the server and domain are set, create your mail address. Open your CyberPa
 
 Select the **domain** from the drop-down list. Enter your **email address** and **password**, then press **Create Email**.
 
-![New email account creation settings in CyberPanel](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/12/New-email-account-creation-settings-in-CyberPanel-1-1024x400.webp)
+![[~/×/4ba18a3cfdc3b5a6a91965ee5baad638_MD5.webp]]
 
 To see all the email accounts, navigate to **Email** → **List Emails** on the sidebar. This menu also displays the **SMTP** and **POP3/IMAP** server configuration for setting up email clients like Thunderbird.
 
@@ -257,6 +257,6 @@ We don’t recommend using a personal machine since setting up and maintaining i
 
 A self-hosted mail server is secure if you configure it properly, like installing an SSL certificate and enabling a firewall. Conversely, DIY email hosting is more prone to cyber attacks when misconfigured since the user is responsible for managing all the security aspects.
 
-![Author](https://secure.gravatar.com/avatar/959b33c75a85c9aab800fa4231751fa3?s=96&d=mm&r=g)
+![[~/×/b48f7ea6351f7c7a73b0ead927563f0b_MD5.jpg]]
 
 Aris is a Content Writer specializing in Linux and WordPress development. He has a passion for networking, front-end web development, and server administration. By combining his IT and writing experience, Aris creates content that helps people easily understand complex technical topics to start their online journey. Follow him on [LinkedIn](https://www.linkedin.com/in/aris-sentika).

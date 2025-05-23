@@ -21,13 +21,13 @@ With that mindset, I'm going to explore what the Kanban integration for Obsidian
 
 To get started, you're going to want to download the Kanban extension from Obsidian's community plugins directory, which you can do [here](https://www.productnook.com/getting-things-done-obsidian/). Configuration is relatively straightforward though I would advise setting the default `Date Display Format` to `YYYY-MM-DD` for reasons discussed in the [last article.](https://www.productnook.com/staying-in-sync-with-obsidian/) Then, create a new Kanban board. You can do this easily using `CMD+P` and selecting `Kanban: Create new board`.
 
-![](https://www.productnook.com/content/images/2023/01/Capture-2023-01-01-at-17.31.04@2x.png)
+![[~/×/8dbf0aaf3c2a277fa7b63d867d5e93a6_MD5.png]]
 
 An empty Kanban!
 
 Let's add some lists. By default, you can select `Add List` from the popover that appears in the top-right, or once you have a list already, clicking on the `+` icon will perform the same function. A standard configuration could be as simple as the following screenshot, but feel free to customize here and make it your own, without going overboard.
 
-![](https://www.productnook.com/content/images/2023/01/Capture-2023-01-01-at-17.35.25@2x.png)
+![[~/×/ac7884d1072c99422523abbf988887fa_MD5.png]]
 
 Lists in Kanban
 
@@ -35,13 +35,13 @@ Lists in Kanban
 
 In Obsidian, you can think of Kanban lists as folders that can house any number of cards. Each card you create is actually just a separate line item in the file itself that was created when you made the Kanban board (and you can see this by clicking the Options menu-item and selecting `Open as Markdown`). When cards are created, they aren't linked to anything and exist only in the file. What makes the plugin especially powerful however is that you can go a step further by making any card a new note.
 
-![](https://www.productnook.com/content/images/2023/01/Capture-2023-01-01-at-17.40.59@2x.png)
+![[~/×/bcb73d1c2e22523676fb06522caebab4_MD5.png]]
 
 Making a note from this Example Card
 
 As tasks pile up, I create new cards in my `Inbox` in order to keep track of them. When work begins, I'll create a new note from that card and timestamp it using `@Today`. If you followed my [last article.](https://www.productnook.com/staying-in-sync-with-obsidian/) then these should *automatically* land in your Daily Note for that same day, which makes it especially convenient of keeping tabs on which tasks were worked on or updated. When a new note is created, you can view it in split view and toggle between both your Kanban and whatever note is active, which is a nice plus. You can of course open these in a new window, or move the tab below your Kanban, or any other combination of "workspaces" that Obsidian allows you to do, but I find this the most straightforward when working straight off my laptop.
 
-![](https://www.productnook.com/content/images/2023/01/Capture-2023-01-01-at-17.47.50@2x.png)
+![[~/×/f99dad59ad110dc5aa8afa9d889d6263_MD5.png]]
 
 #### 📦 Archiving into Daily Notes
 
@@ -70,24 +70,24 @@ The second dataview in my Daily Note points to my work Kanban file, appropriatel
 
 In order to make sure this works as intended, make sure that your `Archive date/time format` option in your Kanban settings is similar to this.
 
-![](https://www.productnook.com/content/images/2023/01/Capture-2023-01-01-at-17.59.06@2x.png)
+![[~/×/838ff57b8fd998fba062fa0ce1c65afe_MD5.png]]
 
 You can modify the syntax, as long as it includes the YYYY-MM-DD format of your Daily Note.
 
 This syntax will come into effect whenever you archive a file directly from your Kanban.
 
-![](https://www.productnook.com/content/images/2023/01/Capture-2023-01-01-at-18.00.41@2x.png)
+![[~/×/744ef8197c212845bb840121c7f5a34e_MD5.png]]
 
 Manually archiving a card.
 
 To drive this home, checking the Markdown version of our example Kanban board should now display the `Example Card` archived above, with the appropriate timestamp.
 
-![](https://www.productnook.com/content/images/2023/01/Capture-2023-01-01-at-18.01.49@2x.png)
+![[~/×/f964f946e05e29f9c8d52d8ef172a22e_MD5.png]]
 
 If you've set a specific list in your Kanban to automatically mark cards as "Complete" when moved into that list, the checkbox here will be filled.
 
 Our Daily Note should now display the `Example Card` in the appropriate section using template code above.
 
-![](https://www.productnook.com/content/images/2023/01/Capture-2023-01-01-at-18.07.17@2x.png)
+![[~/×/956a954a1e4510653013fd60099cc84e_MD5.png]]
 
 A workflow is a constant work in progress, but you can see how a simple configuration can quickly become complex, especially when factoring in Obsidian's plugin offerings. If you're working with Daily Notes as the baseline for keeping track of your day-to-day, this GTD implementation should set you up for success.

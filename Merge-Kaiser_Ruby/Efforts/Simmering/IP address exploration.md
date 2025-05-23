@@ -1,6 +1,6 @@
 #project 
 
-- [/] #task [[IP address exploration]] - ipv4, ipv6 🔼 ⏳ 2025-02-22 📅 2025-03-05 🆔 mgpFNP #dev
+- [/] #task [[IP address exploration]] - ipv4, ipv6 #dev 🆔 mgpFNP 🔼 ⏳ 2025-02-22 📅 2025-06-02
 ___
 
 - [[IPv4 vs IPv6 - Difference Between Internet Protocol Versions - AWS]]

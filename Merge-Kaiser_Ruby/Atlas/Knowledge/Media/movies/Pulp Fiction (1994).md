@@ -32,4 +32,4 @@ lastWatched: ""
 personalRating: 0
 ---
 
-![](https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._)
+![[~/×/72d757847bd312881997a2fb1fea9726_MD5.jpg]]

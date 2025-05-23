@@ -34,7 +34,7 @@ In 1962, Lévi-Strauss published what is for many people his most important work
 
 Now a worldwide celebrity, Lévi-Strauss spent the second half of the 1960s working on his master project, a four-volume study called *[Mythologiques](https://en.m.wikipedia.org/wiki/Mythologiques "Mythologiques")*. In it, he followed a single myth from the tip of South America and all of its variations from group to group north through Central America and eventually into the [Arctic Circle](https://en.m.wikipedia.org/wiki/Arctic_Circle "Arctic Circle"), thus tracing the myth's cultural evolution from one end of the Western Hemisphere to the other. He accomplished this in a typically structuralist way, examining the underlying structure of relationships among the elements of the story rather than focusing on the content of the story itself. While **Pensée Sauvage** was a statement of Lévi-Strauss's big-picture theory, *Mythologiques* was an extended, four-volume example of analysis. Richly detailed and extremely long, it is less widely read than the much shorter and more accessible **Pensée Sauvage**, despite its position as Lévi-Strauss's masterwork.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Claude_L%C3%A9vi-Strauss_%281973%29.jpg/220px-Claude_L%C3%A9vi-Strauss_%281973%29.jpg)
+![[~/×/03da5fac7344ad5680aabbaa98a9979b_MD5.jpg]]
 
 Claude Lévi-Strauss, receiving the [Erasmus Prize](https://en.m.wikipedia.org/wiki/Erasmus_Prize "Erasmus Prize") (1973)
 
@@ -44,7 +44,7 @@ Lévi-Strauss completed the final volume of *Mythologiques* in 1971. On 14 May 1
 
 Lévi-Strauss sought to apply the structural linguistics of [Ferdinand de Saussure](https://en.m.wikipedia.org/wiki/Ferdinand_de_Saussure "Ferdinand de Saussure") to anthropology.[^moore2009-33] At the time, the family was traditionally considered the fundamental object of analysis but was seen primarily as a self-contained unit consisting of a husband, a wife, and their children. Nephews, cousins, aunts, uncles, and grandparents all were treated as secondary. Lévi-Strauss argued that akin to Saussure's notion of [linguistic value](https://en.m.wikipedia.org/wiki/Value_\(semiotics\)#Saussure "Value (semiotics)"), families acquire determinate identities only through relations with one another. Thus, he inverted the classical view of anthropology, putting the secondary family members first and insisting on analyzing the relations between units instead of the units themselves.[^jwp-34]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Levi-strauss_Kinship_Relation.png/220px-Levi-strauss_Kinship_Relation.png)
+![[~/×/d0bdc48cded066e971a5913990f4f51b_MD5.png]]
 
 A diagram illustrating Lévi-Strauss's theory of kinship. In such a case, one can infer that D is positive.
 

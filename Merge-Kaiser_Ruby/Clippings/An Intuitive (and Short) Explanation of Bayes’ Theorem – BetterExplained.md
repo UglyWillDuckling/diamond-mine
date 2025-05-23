@@ -31,7 +31,7 @@ The article describes a cancer testing scenario:
 
 Put in a table, the probabilities look like this:
 
-![bayes table](https://betterexplained.com/wp-content/uploads/math/bayes/bayes_table.png "bayes_table.png")
+![[~/×/682762beee6ded1409cbd8e1cc91a450_MD5.png]]
 
 How do we read it?
 
@@ -51,11 +51,11 @@ Here’s how I think about it:
 
 The table looks like this:
 
-![bayes table computed](https://betterexplained.com/wp-content/uploads/2017/01/bayes_table_computed_new_png.png)
+![[~/×/4e704824f35a3c2efbf7296aa57c1391_MD5.png]]
 
 And what was the question again? Oh yes: what’s the chance we really have cancer if we get a positive result. The chance of an event is the number of ways it could happen given all possible outcomes:
 
-![\displaystyle{ \text{Probability} = \frac{\text{desired event}}{\text{all possibilities}} }](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/ee5390894367d1b1711d23786f6eca84.png)
+![[~/×/60014e3e63b4ded465666a943fde7803_MD5.png]]
 
 The chance of getting a real, positive result is .008. The chance of getting any type of positive result is the chance of a true positive plus the chance of a false positive (.008 + 0.09504 = .10304).
 
@@ -67,7 +67,7 @@ Let’s test our intuition by drawing a conclusion from simply eyeballing the ta
 
 We can turn the process above into an equation, which is Bayes’ Theorem. It lets you take the test results and correct for the “skew” introduced by false positives. You get the real chance of having the event. Here’s the equation:
 
-![bayes theorem colorized equation](https://betterexplained.com/ColorizedMath/img/Bayes_Theorem.png)
+![[~/×/d2a06e3c02c1f4f628102c67276cc466_MD5.png]]
 
 And here’s the decoder key to read it:
 
@@ -81,7 +81,7 @@ Try it with any number:
 
 It all comes down to the chance of a *true* positive divided by the chance of *any* positive. We can simplify the equation to:
 
-![\displaystyle{\Pr(\mathrm{H}|\mathrm{E}) = \frac{\Pr(\mathrm{E}|\mathrm{H})\Pr(\mathrm{H})}{\Pr(\mathrm{E})}}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/abb9243a6a7d838ec02cc5f9713e5604.png)
+![[~/×/836584f1a11b135649c152e0f39eafcd_MD5.png]]
 
 Pr(E) tells us the chance of getting *any* positive result, whether a true positive in the cancer population (1%) or a false positive in the non-cancer population (99%). In acts like a weighting factor, adjusting the odds towards the more likely outcome.
 
@@ -106,7 +106,7 @@ One clever application of Bayes’ Theorem is in [spam filtering](https://en.wik
 
 Plugged into a more readable formula (from Wikipedia):
 
-![\displaystyle{\Pr(\mathrm{spam}|\mathrm{words}) = \frac{\Pr(\mathrm{words}|\mathrm{spam})\Pr(\mathrm{spam})}{\Pr(\mathrm{words})}}](https://betterexplained.com/wp-content/plugins/wp-latexrender/pictures/da59f0597e5b97578af81ba86fe6dc3e.png)
+![[~/×/67dd80b0f0962cf596be2d6143a44601_MD5.png]]
 
 Bayesian filtering allows us to predict the chance a message is really spam given the “test results” (the presence of certain words). Clearly, words like “viagra” have a higher chance of appearing in spam messages than in normal ones.
 

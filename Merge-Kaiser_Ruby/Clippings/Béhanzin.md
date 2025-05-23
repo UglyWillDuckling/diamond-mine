@@ -13,7 +13,7 @@ tags:
 
 <table><tbody><tr><th colspan="2">Gbehanzin</th></tr><tr><td colspan="2"><i><a href="https://en.m.wikipedia.org/wiki/King_of_Dahomey">King of Dahomey</a></i></td></tr><tr><td colspan="2"><span><a href="https://en.m.wikipedia.org/wiki/File:Behanzin-1895.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Behanzin-1895.jpg/220px-Behanzin-1895.jpg" width="220" height="301"></a></span><p>King Béhanzin, <abbr>c.</abbr><span> 1895</span></p></td></tr><tr><th scope="row">Reign</th><td><abbr>c.</abbr><span> January 1890</span> – <abbr>c.</abbr><span> 1894</span></td></tr><tr><th scope="row">Predecessor</th><td><a href="https://en.m.wikipedia.org/wiki/Glele">Glele</a></td></tr><tr><th scope="row">Successor</th><td><a href="https://en.m.wikipedia.org/wiki/Agoli-agbo">Agoli-agbo</a></td></tr><tr><th scope="row">Born</th><td><abbr>c.</abbr><span> 1845</span></td></tr><tr><th scope="row">Died</th><td>December 10, 1906<span>(1906-12-10)</span> (aged&nbsp;60–61)<br><a href="https://en.m.wikipedia.org/wiki/Algiers">Algiers</a>, <a href="https://en.m.wikipedia.org/wiki/French_Algeria">French Algeria</a></td></tr><tr><th scope="row">Father</th><td><a href="https://en.m.wikipedia.org/wiki/Glele">Glele</a></td></tr></tbody></table>
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Gbehanzin.jpg/170px-Gbehanzin.jpg)
+![[~/×/6367fc9540aab69df390583426a19689_MD5.jpg]]
 
 A statue of Béhanzin in [[Abomey]]
 
@@ -47,7 +47,7 @@ Béhanzin was succeeded by [Agoli-agbo](https://en.m.wikipedia.org/wiki/Agoli-ag
 
 ## Artistic representation
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Homme-requin_Dahomey.jpg/170px-Homme-requin_Dahomey.jpg)
+![[~/×/8b9b0d065e8488283430de4650ad2dd9_MD5.jpg]]
 
 *Man-Shark* by Sossa Dede (c. 1890), a [Fon](https://en.m.wikipedia.org/wiki/Fon_people "Fon people") statue symbolizing Béhanzin, [musée du quai Branly](https://en.m.wikipedia.org/wiki/Mus%C3%A9e_du_quai_Branly "Musée du quai Branly"), Paris, France.
 
@@ -55,14 +55,14 @@ Each of Dahomey's kings was represented in sculpture with images that referred t
 
 A captive hanging from a flagpole is a reference to a man from the Nago, or [Yoruba](https://en.m.wikipedia.org/wiki/Yoruba_people "Yoruba people"), city of [Ketou](https://en.m.wikipedia.org/wiki/Ketou "Ketou"), a powerful rival state. This prisoner had boasted that he could attack the king with magic, but Behanzin hanged him from a flagpole as punishment for his rebellion. The king's most famous symbol is the [smoking pipe](https://en.m.wikipedia.org/wiki/Smoking_pipe "Smoking pipe"). This is because he claimed that there wasn't a minute in his life, even when he was a baby, that he was not smoking tobacco.
 
-- [![Royal banner](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Royal_banner_of_B%C3%A9hanzin_of_Dahomey.svg/92px-Royal_banner_of_B%C3%A9hanzin_of_Dahomey.svg.png)](https://en.m.wikipedia.org/wiki/File:Royal_banner_of_B%C3%A9hanzin_of_Dahomey.svg "Royal banner")
+- [![[~/×/739195aa218454c39f3f1ba94f34c7bb_MD5.png]]](https://en.m.wikipedia.org/wiki/File:Royal_banner_of_B%C3%A9hanzin_of_Dahomey.svg "Royal banner")
 
 Royal banner
-- [![Coat of arms](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coat_of_arms_of_B%C3%A9hanzin.svg/87px-Coat_of_arms_of_B%C3%A9hanzin.svg.png)](https://en.m.wikipedia.org/wiki/File:Coat_of_arms_of_B%C3%A9hanzin.svg "Coat of arms")
+- [![[~/×/2403e2a29a678be205de28d5f9997eaf_MD5.png]]](https://en.m.wikipedia.org/wiki/File:Coat_of_arms_of_B%C3%A9hanzin.svg "Coat of arms")
 
 Coat of arms
 
-[![](https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png)](https://en.m.wikipedia.org/wiki/File:Commons-logo.svg)
+[![[~/×/ed45fd374ea254291db2e22399c10c40_MD5.png]]](https://en.m.wikipedia.org/wiki/File:Commons-logo.svg)
 
 Wikimedia Commons has media related to [Behanzin](https://commons.wikimedia.org/wiki/Category:Behanzin "commons:Category:Behanzin").
 

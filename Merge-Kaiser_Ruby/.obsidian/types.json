@@ -57,6 +57,9 @@
     "done": "checkbox",
     "reviewed": "checkbox",
     "date": "datetime",
-    "scheduled": "datetime"
+    "scheduled": "datetime",
+    "type": "text",
+    "when": "datetime",
+    "related-actions": "multitext"
   }
 }

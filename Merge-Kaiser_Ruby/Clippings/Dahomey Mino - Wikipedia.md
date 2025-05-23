@@ -13,7 +13,7 @@ aliases:
 ---
 The **Dahomey Amazons** ([Fon](https://en.m.wikipedia.org/wiki/Fon_language "Fon language"): **Agojie**, **Agoji**, **Mino**, or **Minon**) were a [Fon](https://en.m.wikipedia.org/wiki/Fon_people "Fon people") all-female military regiment of the [Kingdom of Dahomey](https://en.m.wikipedia.org/wiki/Kingdom_of_Dahomey "Kingdom of Dahomey") (in today's [Benin](https://en.m.wikipedia.org/wiki/Benin "Benin"), West Africa) that existed from the 17th century until the late 19th century. They were the only female army in modern history.[^1] They were named Amazons by Western Europeans who encountered them, due to the story of the female warriors of [Amazons](https://en.m.wikipedia.org/wiki/Amazons "Amazons") in [Greek mythology](https://en.m.wikipedia.org/wiki/Greek_mythology "Greek mythology").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Dahomey_amazon2.jpg/350px-Dahomey_amazon2.jpg)
+![[~/×/ef1309036450951a256ae129bc3ee83f_MD5.jpg]]
 
 The Dahomey Mino around 1890
 
@@ -25,7 +25,7 @@ Houegbadja's daughter Queen [Hangbe](https://en.m.wikipedia.org/wiki/Hangbe "Han
 
 From the time of King [Ghezo](https://en.m.wikipedia.org/wiki/Ghezo "Ghezo") (ruling from 1818 to 1858), Dahomey became increasingly militaristic. Ghezo placed great importance on the army, increasing its budget and formalizing its structure from ceremonial to a serious military. While European narratives refer to the women soldiers as "Amazons", they called themselves *ahosi* (king's wives) or *Mino* (our mothers).[^footnotelaw1993-5]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Dahomey_amazon1.jpg/220px-Dahomey_amazon1.jpg)
+![[~/×/cad1798ed8814f99355a4338715124c3_MD5.jpg]]
 
 [Seh-Dong-Hong-Beh](https://en.m.wikipedia.org/wiki/Seh-Dong-Hong-Beh "Seh-Dong-Hong-Beh"), a leader of the Amazons, drawing by Frederick Edwyn Forbes, 1851
 
@@ -43,7 +43,7 @@ Apart from the council, the [Annual Customs of Dahomey](https://en.m.wikipedia.o
 
 ## Combat and structure
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Armed_women_with_the_King_at_their_head%2C_going_to_war-1793.jpg/220px-Armed_women_with_the_King_at_their_head%2C_going_to_war-1793.jpg)
+![[~/×/eec07cd0054794921717b95619d24f27_MD5.jpg]]
 
 Dahomey Amazons with the king at their head, going to war – 1793
 
@@ -73,7 +73,7 @@ By the end of the [Second Franco-Dahomean War](https://en.m.wikipedia.org/wiki/S
 
 Against a military unit with decidedly superior weaponry and a longer bayonet, however, the Dahomey *Mino* could not prevail.[^footnoteyoder1974-12] During a battle with French soldiers at [Adegon](https://en.m.wikipedia.org/wiki/Second_Franco-Dahomean_War#Battle_of_Ad%C3%A9gon "Second Franco-Dahomean War") on October 6, 1892, during the second war, the bulk of the Mino corps were wiped out in a matter of hours in hand-to-hand combat after the French engaged them with a bayonet charge.[^17] The Dahomey lost 86 regulars and 417 Dahomey Mino, with nearly all of those deaths being inflicted by bayonets; the French lost six soldiers.[^18]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/COLLECTIE_TROPENMUSEUM_Groepsportret_van_de_zogenaamde_%27Amazones_uit_Dahomey%27_tijdens_hun_verblijf_in_Parijs_TMnr_60038362.jpg/220px-COLLECTIE_TROPENMUSEUM_Groepsportret_van_de_zogenaamde_%27Amazones_uit_Dahomey%27_tijdens_hun_verblijf_in_Parijs_TMnr_60038362.jpg)
+![[~/×/92ce0a780a02b6680a744c07c6a6b034_MD5.jpg]]
 
 A group portrait of the "Amazons from Dahomey" during their stay in Paris, 1891
 

@@ -17,13 +17,13 @@ Written as ${n \choose k}$ , (read n choose k), where is the binomial coefficien
 An alternate notation is <sub>n</sub>C<sub>k</sub>.
 
 For [non-negative integer](https://www.statisticshowto.com/non-negative-integer/) values of n (number in the set) and k (number of items you choose), every binomial coefficient <sub>n</sub>C<sub>k</sub> is given by the formula:  
-[![Binomial Coefficient - non-negative integer values formula](https://www.statisticshowto.com/wp-content/uploads/2017/07/image1.png)](https://www.statisticshowto.com/wp-content/uploads/2017/07/image1.png)  
+[![[~/×/20bf82f83e3aa824571cc0bfde9c2ddf_MD5.png]]](https://www.statisticshowto.com/wp-content/uploads/2017/07/image1.png)  
 The “!” symbol is a [factorial](https://www.statisticshowto.com/factorial-distribution/#definition).
 
 ## Examples
 
 Imagine you have 5 elements {a, b, c, d, f}. To find out how many different subsets of 2 elements it has, look at the binomial coefficient <sub>5</sub>C<sub>2</sub>.  
-[![Binomial Coefficient - example formula with 5 elements](https://www.statisticshowto.com/wp-content/uploads/2017/07/image-4.png)](https://www.statisticshowto.com/wp-content/uploads/2017/07/image-4.png)  
+[![[~/×/464bb5d4142bccf582e8f75215ea3505_MD5.png]]](https://www.statisticshowto.com/wp-content/uploads/2017/07/image-4.png)  
 This equals 10.
 
 > [!NOTE]
@@ -36,7 +36,7 @@ For a more concrete example, suppose the president of a student club must pick t
 The binomial coefficient is much more than just a simple formula to calculate how many ways you can pull an advisory board from a candidate pool, a 4-digit pin from a 10-digit set, or a plate of apples from a bin of the same. It’s also part of the description of the [binomial distribution,](https://www.statisticshowto.com/probability-and-statistics/binomial-theorem/binomial-distribution-formula/) a simple [probability distribution](https://www.statisticshowto.com/probability-and-statistics/statistics-definitions/probability-distribution/) for frequently encountered 2-outcome situations.
 
 If your observations are [independent](https://www.statisticshowto.com/independent-random-variables/), each represents one of two outcomes (think: success and failure), your number of trials are fixed and the probability of success is the same for each trial, then the probability you have exactly r successes during your n independent trials will be  
-[![Binomial distribution formula](https://www.statisticshowto.com/wp-content/uploads/2017/07/image2.png)](https://www.statisticshowto.com/wp-content/uploads/2017/07/image2.png)  
+[![[~/×/6ce47e6244a9e3b59b1def2ab695b176_MD5.png]]](https://www.statisticshowto.com/wp-content/uploads/2017/07/image2.png)  
 This formula represents the binomial distribution. Here p is the probability of success in each instance, and q=1-p, the probability of failure.
 
 The binomial coefficient n choose r tells you how many success-failure sequences, of the set of all possible sequences, will result in exactly r successes.  The probability of each of those individual sequences happening is just  p<sup>r</sup>q<sup>n-r</sup>.

@@ -9,7 +9,7 @@ description: Read 312 reviews from the world’s largest community     for reade
 tags:
   - book
 ---
-[![Profile Image for Jennifer.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1400787498i/7379032._UX200_CR0,0,200,200_.jpg)](https://www.goodreads.com/user/show/7379032-jennifer)
+[![[~/×/a42a50cf512b67bfac2d0a9b469cf692_MD5.jpg]]](https://www.goodreads.com/user/show/7379032-jennifer)
 
 82 reviews · 7 followers
 
@@ -45,7 +45,7 @@ To conclude, I do think this is a book everyone should read. I'm in awe of Khan'
 
 ---
 
-[![Profile Image for Bryce Andrew Sibley.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1513943027i/49426970._UY200_CR33,0,200,200_.jpg)](https://www.goodreads.com/user/show/49426970-bryce-andrew-sibley)
+[![[~/×/0823c175d286f372b13def4e3a286415_MD5.jpg]]](https://www.goodreads.com/user/show/49426970-bryce-andrew-sibley)
 
 17 reviews · 8 followers
 
@@ -55,7 +55,7 @@ A few good ideas, but basically an ad for Khan Academy.
 
 ---
 
-[![Profile Image for Nelson Zagalo.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1413292588i/3831795._UX200_CR0,2,200,200_.jpg)](https://www.goodreads.com/user/show/3831795-nelson-zagalo)
+[![[~/×/e74760ecd9d0d608fe5959c6d57fbf24_MD5.jpg]]](https://www.goodreads.com/user/show/3831795-nelson-zagalo)
 
 12 books · 435 followers
 
@@ -79,7 +79,7 @@ As a big fan of Khan Academy and the edtech space, I really wanted to like this.
 
 ---
 
-[![Profile Image for Danielle.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1494639656i/50919304._UX200_CR0,0,200,200_.jpg)](https://www.goodreads.com/user/show/50919304-danielle)
+[![[~/×/5024ee60aba9aca975d455fff3d16aae_MD5.jpg]]](https://www.goodreads.com/user/show/50919304-danielle)
 
 404 reviews · 12 followers
 
@@ -89,7 +89,7 @@ While I broadly agree with Kahn’s points and positivity around the potential f
 
 ---
 
-[![Profile Image for Race Schaeffer.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1712241892i/177027261._UX200_CR0,0,200,200_.jpg)](https://www.goodreads.com/user/show/177027261-race-schaeffer)
+[![[~/×/12a36d6b75500d9eac89fef874991106_MD5.jpg]]](https://www.goodreads.com/user/show/177027261-race-schaeffer)
 
 24 reviews · 3 followers
 
@@ -111,7 +111,7 @@ At first, I thought this was a sales pitch for Khanmigo, but as I read this, I l
 
 ---
 
-[![Profile Image for Hugo Salas.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1451065006i/50515871.jpg)](https://www.goodreads.com/user/show/50515871-hugo-salas)
+[![[~/×/3633d101565918e1ea8a726c0b5cd0be_MD5.jpg]]](https://www.goodreads.com/user/show/50515871-hugo-salas)
 
 65 reviews · 1 follower
 
@@ -123,7 +123,7 @@ I liked it, but let's see how well it ages. These things change quickly and what
 
 ---
 
-[![Profile Image for Ikki Kaijima.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1654558790i/151938930._UY200_CR50,0,200,200_.jpg)](https://www.goodreads.com/user/show/151938930-ikki-kaijima)
+[![[~/×/e5679872bb1b18bd550fc1efbde74707_MD5.jpg]]](https://www.goodreads.com/user/show/151938930-ikki-kaijima)
 
 43 reviews · 1 follower
 
@@ -141,7 +141,7 @@ I aim to educate myself on this field even further.
 
 ---
 
-[![Profile Image for Molly.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1651442330i/118062785._UY200_CR0,0,200,200_.jpg)](https://www.goodreads.com/user/show/118062785-molly)
+[![[~/×/fc83c68a20ecbd14c658b1a381a3fad8_MD5.jpg]]](https://www.goodreads.com/user/show/118062785-molly)
 
 74 reviews
 
@@ -165,7 +165,7 @@ Parts of the book felt like an advertisement for Khan Academy's own AI add-on, b
 
 ---
 
-[![Profile Image for Vinayak Hegde.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1502790229i/57521234._UX200_CR0,0,200,200_.jpg)](https://www.goodreads.com/user/show/57521234-vinayak-hegde)
+[![[~/×/da7b5038ea65b63f0e287f169e56e18c_MD5.jpg]]](https://www.goodreads.com/user/show/57521234-vinayak-hegde)
 
 635 reviews · 82 followers
 
@@ -181,7 +181,7 @@ The rapid pace of technological advancement means that parts of the book are alr
 
 ---
 
-[![Profile Image for Nurlan Imangaliyev.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1504119933i/7118025.jpg)](https://www.goodreads.com/user/show/7118025-nurlan-imangaliyev)
+[![[~/×/70b5fd37a5ba83a43f82b352cc01c8cd_MD5.jpg]]](https://www.goodreads.com/user/show/7118025-nurlan-imangaliyev)
 
 164 reviews · 66 followers
 
@@ -193,7 +193,7 @@ With all due respect to Salman Khan for his achievements in education and EdTech
 
 ---
 
-[![Profile Image for Sophia Z.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1698240505i/32406818._UX200_CR0,0,200,200_.jpg)](https://www.goodreads.com/user/show/32406818-sophia-z)
+[![[~/×/c431d6855a84b7dfc669f8e09878e4e3_MD5.jpg]]](https://www.goodreads.com/user/show/32406818-sophia-z)
 
 148 reviews · 8 followers
 
@@ -205,7 +205,7 @@ The book details some very interesting experiments Khan Academy did with ChatGPT
 
 ---
 
-[![Profile Image for Daniel.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1621339724i/76466548._UX200_CR0,0,200,200_.jpg)](https://www.goodreads.com/user/show/76466548-daniel)
+[![[~/×/9496ae5d8c62d8a3943606b002bd0098_MD5.jpg]]](https://www.goodreads.com/user/show/76466548-daniel)
 
 80 reviews · 2 followers
 
@@ -231,7 +231,7 @@ Must read education book. I think Sal Khan is incredibly optimistic about the fu
 
 ---
 
-[![Profile Image for Megan.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1609390459i/5952528._UX200_CR0,0,200,200_.jpg)](https://www.goodreads.com/user/show/5952528-megan)
+[![[~/×/25644d4e612efbcb05cdd20546e4e7a6_MD5.jpg]]](https://www.goodreads.com/user/show/5952528-megan)
 
 1 book · 18 followers
 
@@ -243,7 +243,7 @@ I find this book to be insightful and beneficial. I do believe Khan is hyper opt
 
 ---
 
-[![Profile Image for John Lussier.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1398459357i/7759510.jpg)](https://www.goodreads.com/user/show/7759510-john-lussier)
+[![[~/×/0ca8e972fddfd50faaf16feaf9f0aba5_MD5.jpg]]](https://www.goodreads.com/user/show/7759510-john-lussier)
 
 113 reviews · 8 followers
 
@@ -261,7 +261,7 @@ At its core, Brave New Words is a profoundly hopeful book, reflecting Khan's lif
 
 ---
 
-[![Profile Image for Matt Brown.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1710058382i/93141081._UX200_CR0,0,200,200_.jpg)](https://www.goodreads.com/user/show/93141081-matt-brown)
+[![[~/×/e80be7b62ed2bc4f117dd2d91709c4f3_MD5.jpg]]](https://www.goodreads.com/user/show/93141081-matt-brown)
 
 100 reviews
 
@@ -271,7 +271,7 @@ At its core, Brave New Words is a profoundly hopeful book, reflecting Khan's lif
 
 ---
 
-[![Profile Image for Someone Someplace.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1704832423i/174089422._UY200_CR4,0,200,200_.jpg)](https://www.goodreads.com/user/show/174089422-someone-someplace)
+[![[~/×/3e26b4e09367867197f46b14fcd20182_MD5.jpg]]](https://www.goodreads.com/user/show/174089422-someone-someplace)
 
 32 reviews
 
@@ -317,7 +317,7 @@ Congrats if you actually read this whole thing. Have a cookie 🍪
 
 ---
 
-[![Profile Image for Maya.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1540173641i/34126479._UX200_CR0,0,200,200_.jpg)](https://www.goodreads.com/user/show/34126479-maya)
+[![[~/×/d147ca20ea20483eb19c4cd5824b28ae_MD5.jpg]]](https://www.goodreads.com/user/show/34126479-maya)
 
 453 reviews · 49 followers
 
@@ -337,7 +337,7 @@ One thing Sal mentions as a safeguard that I think is very interesting and also 
 
 ---
 
-[![Profile Image for taylor.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1682232906i/70822.jpg)](https://www.goodreads.com/user/show/70822-taylor)
+[![[~/×/558fb4f38eaef923df1c0fde85f30fc6_MD5.jpg]]](https://www.goodreads.com/user/show/70822-taylor)
 
 60 reviews · 5 followers
 
@@ -350,7 +350,7 @@ It all sounds great, but I don't think AI is yet ready. My crystal ball is a bit
 
 ---
 
-[![Profile Image for Tyler Brown.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1660169898i/154368037._UX200_CR0,0,200,200_.jpg)](https://www.goodreads.com/user/show/154368037-tyler-brown)
+[![[~/×/6c118f459c3f93c3f81b4dcd1bdd2649_MD5.jpg]]](https://www.goodreads.com/user/show/154368037-tyler-brown)
 
 31 reviews · 3 followers
 
@@ -366,7 +366,7 @@ A lot factors in of course.
 
 ---
 
-[![Profile Image for Ashleigh.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1349902484i/13345150._UX200_CR0,0,200,200_.jpg)](https://www.goodreads.com/user/show/13345150-ashleigh)
+[![[~/×/74f70497abe15c35b2e60bfad2519bb9_MD5.jpg]]](https://www.goodreads.com/user/show/13345150-ashleigh)
 
 8 reviews
 
@@ -376,7 +376,7 @@ Some strong pragmatic applications here for educators across subject areas (albe
 
 ---
 
-[![Profile Image for Spen Cer.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1654536487i/129301624._UX200_CR0,0,200,200_.jpg)](https://www.goodreads.com/user/show/129301624-spen-cer)
+[![[~/×/1ad1d75bc11c9b1d6598be5ac5e16582_MD5.jpg]]](https://www.goodreads.com/user/show/129301624-spen-cer)
 
 201 reviews · 3 followers
 
@@ -388,7 +388,7 @@ Not that this book is bad, it’s just not great. While I appreciate his futuris
 
 ---
 
-[![Profile Image for Rob Sedgwick.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1368709602i/20410257.jpg)](https://www.goodreads.com/user/show/20410257-rob-sedgwick)
+[![[~/×/62d47466bb5579968e2137222234b6f4_MD5.jpg]]](https://www.goodreads.com/user/show/20410257-rob-sedgwick)
 
 400 reviews · 5 followers
 
@@ -398,7 +398,7 @@ This book felt like a giant advert for Salman Khan's foundation. Virtually every
 
 ---
 
-[![Profile Image for Carlos Estevez.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1597729742i/3413648._UX200_CR0,1,200,200_.jpg)](https://www.goodreads.com/user/show/3413648-carlos-estevez)
+[![[~/×/63ebc2ba98cf979fd1f0a31b7013ea67_MD5.jpg]]](https://www.goodreads.com/user/show/3413648-carlos-estevez)
 
 4 reviews
 
@@ -408,7 +408,7 @@ Pues este es el primer libro que habla sobre la IA Generativa de forma divulgati
 
 ---
 
-[![Profile Image for Burza.](https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/users/1562500147i/67978284._UX200_CR0,0,200,200_.jpg)](https://www.goodreads.com/user/show/67978284-burza)
+[![[~/×/9655ab980fed28d3d2e465b3f34a5068_MD5.jpg]]](https://www.goodreads.com/user/show/67978284-burza)
 
 2 reviews
 

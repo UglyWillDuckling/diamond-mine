@@ -11,7 +11,7 @@ tags:
 ---
 This tutorial explains how to transfer files to or from an iPhone/iPad/iPod on Ubuntu, Manjaro, and Arch Linux.
 
-![Cover image banner for connecting and accessing iPhone, iPad on Ubuntu, Manjaro, Arch Linux Without iTunes](https://techblog.dev/images/access-iphone-ipad-ubuntu-manjaro-arch-linux-without-itunes-techblog.dev-banner-full.webp)
+![[~/×/0dcb41bc973d214081aeb83739b4d80a_MD5.webp]]
 
 If you have tried downloading iTunes for Ubuntu, Arch Linux, Manjaro, or any other Linux distro in the past, you might have been confronted with a nasty surprise: “There’s no iTunes for Ubuntu / Arch Linux ! How do I access my iPhone / iPad / iPod from Linux !?” That was my reaction when I tried to access my iPad from Linux out of curiosity. Previously, I had always transferred files between my iPad and my computer using iTunes on Windows.
 
@@ -39,7 +39,7 @@ Next, reboot your computer for the changes to take effect.
 
 At this point, connecting your iPhone/iPad to your computer using a USB cable should bring up a prompt on your iPhone/iPad asking if you want to trust this computer. Touch **“Trust”** to give your computer access to the device.
 
-![iOS iPhone Trust This Computer dialog alert](https://techblog.dev/images/ios-trust-computer-alert.webp)
+![[~/×/2b05fef6a8496fd96dc905fa1fe53c8e_MD5.webp]]
 
 ## Step 4: Mount the iPhone / iPad Using iFuse
 
@@ -49,7 +49,7 @@ Run the following command in your Terminal to mount the iDevice. Here, we are ma
 
 If you now open your file manager (e.g Nautilus), you should see two additional entries: One to access the documents for the various apps on your iDevice, and another one to access the Camera Roll and Books.
 
-![iPhone in nautilus](https://techblog.dev/images/idevice-nautilus.png)
+![[~/×/a59536932b44cecf16ef007542bc21a3_MD5.png]]
 
 ## Step 6: Copy Files from Linux to the Files App on iPhone / iPad
 
@@ -60,27 +60,27 @@ If you want to transfer files from your Linux machine to the `Files` app on your
 1. From your iDevice, install an app that allows file sharing. `VLC media player` and `Firefox` (amongst other apps) have that feature. I personally use VLC media player as it has a neat option for wireless transfer, but Firefox should be fine as well.
 2. Open your file manager on Linux and click the **Documents** tab that iFuse has added, and you will see all apps that support file sharing.
 
-![View iPhone iPad document files in Nautilus file manager on Linux](https://techblog.dev/images/idevice-nautilus-documents.png)
+![[~/×/6c1712c8ebb07c3c5dddea82bc87e317_MD5.png]]
 
 3. Double click on any app that you want to use, and you will be taken to the document root of that app. Here I’m using `VLC`. You can now copy any file or directory (folder) into the app’s document root. As an example, I have copied an image `screenshot.png` into the document root of the VLC app.
 
-![Copy or transfer Linux files to iPhone iPad](https://techblog.dev/images/idevice-nautilus-documents-vlc.png)
+![[~/×/e3a82152f233e39ae9a531256ca3f30c_MD5.png]]
 
 4. Next, open the `Files` app on your iPhone/iPad. Then, swipe on the left edge of the screen to reveal the sidebar, and select **“On My iPad”**.
 
-![View sidebar on Files app](https://techblog.dev/images/idevice-files-sidebar.png)
+![[~/×/753ab31b8fa83c3bbd91aad7000fb601_MD5.png]]
 
 5. Inside the `Files` app on your iPhone/iPad, open the app’s folder (e.g VLC) where you copied your files from Linux. Then, do a **long press** on the file / directory that you want and select **“Move”**.
 
-![Move documents](https://techblog.dev/images/idevice-files-move.png)
+![[~/×/33b54928c30929a8fd5258b2c9c69739_MD5.png]]
 
 6. Make sure **“On My iPad”** is highligted and select **“Move”**.
 
-![Move files on iPhone iPad to Files app](https://techblog.dev/images/idevice-files-move-select.png)
+![[~/×/1de15465842b683249eafab2953c32a2_MD5.png]]
 
 7. And voila! If you go back to the first screen of the `Files` app, you should see the file or directory that you copied in the `Files` app on your iPhone/iPad.
 
-![View Linux files n iPhone iPad Files app](https://techblog.dev/images/idevice-files-transferred.png)
+![[~/×/94e416b01ff7b6657554b327dca0659d_MD5.png]]
 
 ## Conclusion
 

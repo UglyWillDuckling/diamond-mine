@@ -15,7 +15,7 @@ Iako nisu sve plijesni otrovne, one mogu izazvati probleme s **dišnim sistemom*
 
 Pojava plijesni može ukazivati ​​na probleme s vlagom, uzrokovanom **curenjem ili loša ventilacija** - a to može dovesti do **ozbiljnijih problema**. Brzo uklanjanje plijesni sa plafona i zidova je ključno. Bitno je pritom ustanoviti uzrok pojave plijesni, a ne samo ‘maskirati‘ problem uklanjanjem plijesni.
 
- [![FUP predao izvještaj protiv Volodera: Napravio štetu Autocestama i Vladi FBiH od 1,25 miliona KM](https://storage.radiosarajevo.ba/article/571233/300x185/fena_voloder_juni2022.jpg?v1733931351) Trending](https://radiosarajevo.ba/vijesti/crna-hronika/fup-predao-izvjestaj-protiv-volodera-napravio-stetu-autocestama-i-vladi-fbih-od-125-miliona-km/571233?utm_source=Clanak&utm_medium=Embed_Trending)
+ [![[~/×/fecac0add043017c284aa30e290b06e8_MD5.jpg]]Trending](https://radiosarajevo.ba/vijesti/crna-hronika/fup-predao-izvjestaj-protiv-volodera-napravio-stetu-autocestama-i-vladi-fbih-od-125-miliona-km/571233?utm_source=Clanak&utm_medium=Embed_Trending)
 
 ## [FUP predao izvještaj protiv Volodera: Napravio štetu Autocestama i Vladi FBiH od 1,25 miliona KM](https://radiosarajevo.ba/vijesti/crna-hronika/fup-predao-izvjestaj-protiv-volodera-napravio-stetu-autocestama-i-vladi-fbih-od-125-miliona-km/571233?utm_source=Clanak&utm_medium=Embed_Trending)Poneki se tog problema pokušaju riješiti **bojanjem zida**, što nikako nije preporučljivo. Ono ne rješava **temeljni problem** i može dovesti do još većih problema u bližoj budućnosti. Plijesan se razvija u vlažnim uslovima, a bojanje preko nje ne eliminiše izvor vlage, već dopušta plijesni da nastavi rasti ispod **nove boje**.
 
@@ -31,7 +31,7 @@ Dakle, pomoću njega ćete se riješiti neugodne plijesni na **plafonu i zidovim
 
 **Tridesetih godina** prošlog stoljeća naučnici su otkrili da **soda bikarbona** može spriječiti rast i širenje plijesni.
 
- [![Stručnjaci upozoravaju: Ova metoda sušenja odjeće može uzrokovati vlagu u vašem domu](https://storage.radiosarajevo.ba/article/569272/300x185/susenje-vesa-peskiri-odjeca-ves-masina-pixabay-12januar23.jpg?v1732551101) 25.11.24. 16:55](https://radiosarajevo.ba/magazin/zivot-i-stil/strucnjaci-upozoravaju-ova-metoda-susenja-odjece-moze-uzrokovati-vlagu-u-vasem-domu/569272?utm_source=Clanak&utm_medium=Embed_Custom)
+ [![[~/×/2659bcbf9a07449b7fa8c73b1b08da5f_MD5.jpg]]25.11.24. 16:55](https://radiosarajevo.ba/magazin/zivot-i-stil/strucnjaci-upozoravaju-ova-metoda-susenja-odjece-moze-uzrokovati-vlagu-u-vasem-domu/569272?utm_source=Clanak&utm_medium=Embed_Custom)
 
 ## [Stručnjaci upozoravaju: Ova metoda sušenja odjeće može uzrokovati vlagu u vašem domu](https://radiosarajevo.ba/magazin/zivot-i-stil/strucnjaci-upozoravaju-ova-metoda-susenja-odjece-moze-uzrokovati-vlagu-u-vasem-domu/569272?utm_source=Clanak&utm_medium=Embed_Custom)Stoga otopite pola čajne kašičice sode u bočici s raspršivačem u koju ste dodali vodu. Poprskajte tekućinom ugroženo mjesto, pa mrlju od plijesni oribajte i isperite.
 

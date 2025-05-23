@@ -22,7 +22,7 @@ The various versions follow the same basic plot but they are in many places mutu
 
 In their travels, Arthur comes to learn that the Earth was actually a giant supercomputer, created by another supercomputer, Deep Thought. Deep Thought had been built by its creators to give the answer to the "Ultimate Question of Life, the Universe, and Everything", which, after eons of calculations, was given simply as "[42](https://en.m.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#The_Answer_to_the_Ultimate_Question_of_Life,_the_Universe,_and_Everything_is_42 "Phrases from The Hitchhiker's Guide to the Galaxy")". Deep Thought was then instructed to design the Earth supercomputer to determine what the Question actually is. The Earth was subsequently destroyed by the Vogons moments before its calculations were completed, and Arthur becomes the target of the descendants of the Deep Thought creators, believing his mind must hold the Question. With his friends' help, Arthur escapes and they decide to have lunch at The Restaurant at the End of the Universe, before embarking on further adventures.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Douglas_adams_portrait_cropped.jpg/220px-Douglas_adams_portrait_cropped.jpg)
+![[~/×/5dcd638fb1e9d96ee60e5d138104160a_MD5.jpg]]
 
 Douglas Adams
 
@@ -135,11 +135,11 @@ Published in 1997, this 832-page leatherbound final omnibus edition contains fiv
 
 Also appearing in *The Ultimate Hitchhiker's Guide*, at the end of Adams's introduction, is a list of instructions on "How to Leave the Planet", providing a humorous explanation of how one might replicate Arthur and Ford's feat at the beginning of *Hitchhiker's*.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/HHGTHG_1979_ICA_Stage_Production_Flyer.jpg/220px-HHGTHG_1979_ICA_Stage_Production_Flyer.jpg)
+![[~/×/156df82d260485f49e478ba14b4a5dbf_MD5.jpg]]
 
 Flyer for the 1979 stage production at the ICA of The Hitchhiker's Guide To The Galaxy
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Adam_Pope_Zaphod_Beeblebrox.JPG/220px-Adam_Pope_Zaphod_Beeblebrox.JPG)
+![[~/×/683dc2bfb76f6c4938ea2f761c921590_MD5.jpg]]
 
 Adam Pope playing Zaphod in an amateur production of HHGTTG by Prudhoe's Really Youthful Theatre Company
 
@@ -159,7 +159,7 @@ The first four radio episodes were adapted for a double LP, also entitled *The H
 
 The script in the first double LP very closely follows the first four radio episodes, although further cuts had to be made for reasons of timing. Despite this, other lines of dialogue that were indicated as having been cut when the original scripts from the radio series were eventually published can be heard in the LP version. The Simon & Schuster cassettes omit the Veet Voojagig narration, the cheerleader's speech as Deep Thought concludes its seven-and-one-half-million-year programme, and a few other lines from both sides of the second LP of the set.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Gnome-mime-sound-openclipart.svg/50px-Gnome-mime-sound-openclipart.svg.png)
+![[~/×/898fa62bd16a6d1717aa66e577d4b22d_MD5.png]]
 
 Most of the original cast returned, except for Susan Sheridan, who was recording a voice for the character of [Princess Eilonwy](https://en.m.wikipedia.org/wiki/Princess_Eilonwy "Princess Eilonwy") in *[The Black Cauldron](https://en.m.wikipedia.org/wiki/The_Black_Cauldron_\(film\) "The Black Cauldron (film)")* for [Walt Disney Pictures](https://en.m.wikipedia.org/wiki/Walt_Disney_Pictures "Walt Disney Pictures"). Cindy Oswin voiced Trillian on all three LPs in her place. Other casting changes in the first double LP included Stephen Moore taking on the additional role of the barman, and [Valentine Dyall](https://en.m.wikipedia.org/wiki/Valentine_Dyall "Valentine Dyall") as the voice of Deep Thought. Adams's voice can be heard making the public address announcements on Magrathea.
 
@@ -199,7 +199,7 @@ The adaptation was adapted by Dirk Maggs primarily from Fit the First, including
 
 While Adams' writing in *The Hitchhiker's Guide* was mostly to poke fun at scientific advance, such as through the artificial personalities built into the work's robots, Adams had predicted some concepts that have since come to be reality. The Guide itself, described as a small book-sized object that held a great volume of information, predated computer laptops and is comparable to [tablet computers](https://en.m.wikipedia.org/wiki/Tablet_computer "Tablet computer"). The idea of being able to instantaneously translate between any language, a function provided by the Babel Fish, has since become possible with several software products that work in near real-time.[^88] In the *Hitchhiker's Guide to the Galaxy*, Adams also mentions computers being controlled by voice, touch and gesture, a reality for humans today.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Towelday-Innsbruck.jpg/220px-Towelday-Innsbruck.jpg)
+![[~/×/6b10cb08633c459f87f9c2e81a4e1c82_MD5.jpg]]
 
 Towel day Innsbruck- Towels with a silkscreen print as homage to Douglas Adams. Next to the words 'DON'T PANIC' there are the [GPS](https://en.m.wikipedia.org/wiki/Global_Positioning_System "Global Positioning System") data from the city [Innsbruck](https://en.m.wikipedia.org/wiki/Innsbruck "Innsbruck") where Adams had the idea for the 'Hitchhiker's Guide To The Galaxy.[^89]
 

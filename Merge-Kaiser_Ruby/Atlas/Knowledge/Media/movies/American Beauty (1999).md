@@ -22,20 +22,20 @@ actors:
   - Kevin Spacey
   - Annette Bening
   - Thora Birch
-image: https://m.media-amazon.com/images/M/MV5BMDI1MDE0OTMtMmI2MS00Yjc2LTg2MTItMWExYTg5NzA1OGUzXkEyXkFqcGc@._V1_SX300.jpg
+image: "[[~/×/e012015289fc4db1b5c8428ad36de688_MD5.jpg]]"
 released: true
 streamingServices: 
 premiere: 10/01/1999
 watched: true
 lastWatched: ""
-personalRating: 0
+personalRating: 8
 tags:
   - mediaDB/tv/movie
   - film
 awards:
   - oscar
 ---
-![](https://m.media-amazon.com/images/M/MV5BMDI1MDE0OTMtMmI2MS00Yjc2LTg2MTItMWExYTg5NzA1OGUzXkEyXkFqcGc@._V1_SX300.jpg)
+![[~/×/e012015289fc4db1b5c8428ad36de688_MD5.jpg]]
 
 American Beauty is a 1999 American psychological dark comedy-drama film written by Alan Ball and directed by Sam Mendes in his feature directorial debut. Kevin Spacey stars as Lester Burnham, an advertising executive who has a midlife crisis when he becomes infatuated with his teenage daughter's best friend, played by Mena Suvari. Annette Bening stars as Lester's materialistic wife, Carolyn, and Thora Birch plays their insecure daughter, Jane. Wes Bentley, Chris Cooper, and Allison Janney co-star. Academics have described the film as satirizing how beauty and personal satisfaction are perceived by the American middle class; further analysis has focused on the film's explorations of romantic and paternal love, sexuality, materialism and self-liberation.
 

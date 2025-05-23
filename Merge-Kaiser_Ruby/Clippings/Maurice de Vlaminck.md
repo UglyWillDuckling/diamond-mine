@@ -15,17 +15,17 @@ tags:
 
 <table><tbody><tr><th colspan="2"><p>Maurice de Vlaminck</p></th></tr><tr><td colspan="2"><span><a href="https://en.m.wikipedia.org/wiki/File:Derain_et_Vlaminck_en_1942.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Derain_et_Vlaminck_en_1942.jpg/270px-Derain_et_Vlaminck_en_1942.jpg" width="270" height="240"></a></span><p>Maurice Vlaminck (right) with André Derain (left), in 1942</p></td></tr><tr><th scope="row">Born</th><td><span>(<span>1876-04-04</span>)</span>4 April 1876<p>Paris, France</p></td></tr><tr><th scope="row">Died</th><td>11 October 1958<span>(1958-10-11)</span> (aged&nbsp;82)<br><div><p><a href="https://en.m.wikipedia.org/wiki/Rueil-la-Gadeli%C3%A8re">Rueil-la-Gadelière</a>, France</p></div></td></tr><tr><th scope="row">Known&nbsp;for</th><td><a href="https://en.m.wikipedia.org/wiki/Painting">Painting</a></td></tr><tr><th scope="row">Movement</th><td><a href="https://en.m.wikipedia.org/wiki/Fauvism">Fauvism</a></td></tr></tbody></table>
 
-![](https://upload.wikimedia.org/wikipedia/en/thumb/2/21/SeineChatou.JPG/250px-SeineChatou.JPG)
+![[~/×/a448a02d7ce2a646c17ce8789c8ef003_MD5.jpg]]
 
 *The River Seine at [Chatou](https://en.m.wikipedia.org/wiki/Chatou "Chatou"),* 1906, [Metropolitan Museum of Art](https://en.m.wikipedia.org/wiki/Metropolitan_Museum_of_Art "Metropolitan Museum of Art")
 
 Maurice de Vlaminck was born on [Rue Pierre Lescot](https://en.m.wikipedia.org/wiki/Les_Halles "Les Halles") in Paris. His father Edmond Julien was [Flemish](https://en.m.wikipedia.org/wiki/Flemish_people "Flemish people") and taught violin and his mother Joséphine Caroline Grillet came from [Lorraine](https://en.m.wikipedia.org/wiki/Lorraine "Lorraine") and taught piano.[^lesfauves-2] His father taught him to play the violin.[^melikian-3] He began painting in his late teens. In 1893, he studied with a painter named Henri Rigalon on the [Île de Chatou](https://fr.wikipedia.org/wiki/%C3%8Ele_des_Impressionnistes "fr:Île des Impressionnistes").[^4] In 1894 he married Suzanne Berly. The turning point in his life was a chance meeting on the train to Paris towards the end of his stint in the army. Vlaminck, then 23 and already active in anarchist circles in Paris,[^5] met an aspiring artist, [André Derain](https://en.m.wikipedia.org/wiki/Andr%C3%A9_Derain "André Derain"), with whom he struck up a lifelong friendship.[^melikian-3] When Vlaminck completed his army service in 1900, the two rented a studio together, the Maison Levanneur, which now houses the Cneai,[^6] for a year before Derain left to do his own military service.[^melikian-3] In 1902 and 1903 he wrote several mildly pornographic novels illustrated by Derain.[^freeman319-7] He painted during the day and earned his livelihood by giving violin lessons and performing with musical bands at night.[^melikian-3]
 
-![](https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Maurice_de_Vlaminck%2C_1905-06%2C_Barges_on_the_Seine_%28Bateaux_sur_la_Seine%29%2C_oil_on_canvas%2C_81_x_100_cm%2C_Pushkin_Museum%2C_Moscow.jpg/220px-Maurice_de_Vlaminck%2C_1905-06%2C_Barges_on_the_Seine_%28Bateaux_sur_la_Seine%29%2C_oil_on_canvas%2C_81_x_100_cm%2C_Pushkin_Museum%2C_Moscow.jpg)
+![[~/×/1313aae39a400d9cf8f2b1b6a0f43c54_MD5.jpg]]
 
 *Barges on the Seine (Bateaux sur la Seine)*, 1905-06, oil on canvas, 81 x 100 cm, [Pushkin Museum](https://en.m.wikipedia.org/wiki/Pushkin_Museum "Pushkin Museum"), Moscow
 
-![](https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Maurice_de_Vlaminck%2C_1907%2C_Le_bassin_%C3%A0_Chatou_%28White_Sailboat_at_Chatou%29%2C_oil_on_canvas%2C_60.2_x_73.7_cm%2C_private_collection.jpg/220px-Maurice_de_Vlaminck%2C_1907%2C_Le_bassin_%C3%A0_Chatou_%28White_Sailboat_at_Chatou%29%2C_oil_on_canvas%2C_60.2_x_73.7_cm%2C_private_collection.jpg)
+![[~/×/7d6d2df3049e0db0788fc343aa85d73a_MD5.jpg]]
 
 *Le bassin à Chatou* (*White Sailboat at Chatou*), 1907, oil on canvas, 60.2 x 73.7 cm, private collection
 
@@ -35,15 +35,15 @@ In 1911, Vlaminck traveled to London and painted by the [Thames](https://en.m.wi
 
 Vlaminck died in Rueil-la-Gadelière on 11 October 1958.
 
-![](https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Maurice_de_Vlaminck%2C_c.1909%2C_Town_on_the_Bank_of_a_Lake%2C_oil_on_canvas%2C_81.3_x_100.3_cm%2C_Hermitage_Museum%2C_Saint_Petersburg.jpg/220px-Maurice_de_Vlaminck%2C_c.1909%2C_Town_on_the_Bank_of_a_Lake%2C_oil_on_canvas%2C_81.3_x_100.3_cm%2C_Hermitage_Museum%2C_Saint_Petersburg.jpg)
+![[~/×/e24ccadcba91c56ae6f79aac23137b46_MD5.jpg]]
 
 *Town on the Bank of a Lake*, c.1909, oil on canvas, 81.3 x 100.3 cm, [Hermitage Museum](https://en.m.wikipedia.org/wiki/Hermitage_Museum "Hermitage Museum"), Saint Petersburg
 
-![](https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Maurice_de_Vlaminck%2C_c.1910%2C_Le_pont_de_Poissy%2C_oil_on_canvas%2C_46.4_x_54.9_cm.jpg/220px-Maurice_de_Vlaminck%2C_c.1910%2C_Le_pont_de_Poissy%2C_oil_on_canvas%2C_46.4_x_54.9_cm.jpg)
+![[~/×/48db8fc35c698b393340bacbf66d126a_MD5.jpg]]
 
 *Le pont de Poissy*, c.1910, oil on canvas, 46.4 x 54.9 cm
 
-![](https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Maurice_de_Vlaminck%2C_c.1912%2C_Village%2C_oil_on_canvas%2C_73.7_x_92.1_cm_%2829_x_36_1-4_in.%29%2C_Art_Institute_of_Chicago.jpg/220px-Maurice_de_Vlaminck%2C_c.1912%2C_Village%2C_oil_on_canvas%2C_73.7_x_92.1_cm_%2829_x_36_1-4_in.%29%2C_Art_Institute_of_Chicago.jpg)
+![[~/×/9611501bd4613d716c2edddc2fe3e501_MD5.jpg]]
 
 *Village*, c.1912, oil on canvas, 73.7 x 92.1 cm (29 x 36 1/4 in.), [Art Institute of Chicago](https://en.m.wikipedia.org/wiki/Art_Institute_of_Chicago "Art Institute of Chicago")
 

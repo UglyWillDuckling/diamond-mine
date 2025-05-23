@@ -23,7 +23,7 @@ A theatrical version was co-produced by the Canadian [National Arts Centre](http
 
 Publisher Jamie Byng of [Canongate Books](https://en.m.wikipedia.org/wiki/Canongate_Books "Canongate Books") solicited author [Margaret Atwood](https://en.m.wikipedia.org/wiki/Margaret_Atwood "Margaret Atwood") to write a novella re-telling a classic myth of her choice. Byng explained it would be published simultaneously in several languages as part of an international project called the *[Canongate Myth Series](https://en.m.wikipedia.org/wiki/Canongate_Myth_Series "Canongate Myth Series")*. Atwood agreed to help the rising young publisher by participating in the project.[^atwood-3] From her home in [Toronto](https://en.m.wikipedia.org/wiki/Toronto "Toronto"), the 64-year-old author made attempts at writing the [Norse creation myth](https://en.m.wikipedia.org/wiki/Ymir "Ymir") and a Native American story but struggled.[^tonkin-4] After speaking with her British literary agent about canceling her contract, Atwood began thinking about the *[Odyssey](https://en.m.wikipedia.org/wiki/Odyssey "Odyssey")*.[^atwood-3] She had first read it as a teenager and remembered finding the imagery of Penelope's twelve maids being hanged in the denouement disturbing. Atwood believed the roles of Penelope and her maids during Odysseus's absence had been a largely neglected scholarly topic and that she could help address it with this project.[^tonkin-4]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Penelope-Homer-Odyssey-Project_Gutenberg_eText.jpg/220px-Penelope-Homer-Odyssey-Project_Gutenberg_eText.jpg)
+![[~/×/adda69676dca5f6be1d5c72d60efe0af_MD5.jpg]]
 
 *Penelope* in the [Vatican Museums](https://en.m.wikipedia.org/wiki/Vatican_Museums "Vatican Museums")
 

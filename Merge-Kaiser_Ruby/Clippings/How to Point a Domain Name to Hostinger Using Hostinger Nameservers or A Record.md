@@ -15,7 +15,7 @@ Domantas G. & Ignas R.
 
 6min Read
 
-![How to Point a Domain Name to Hostinger Using Hostinger Nameservers or A Record](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2019/11/how-to-point-domain-to-hostinger-1.webp)
+![[~/×/62ef02c6bbc5ba725be3b3eb59028145_MD5.webp]]
 
 Understanding how to direct a domain to Hostinger becomes crucial when you want us to [host your website](https://www.hostinger.com/tutorials/how-to-host-a-website) while keeping the domain registered elsewhere. It is also advisable to verify this configuration before transferring your domain away to minimize any potential website downtime.
 
@@ -23,7 +23,7 @@ This guide will present you with two methods to point your [domain](https://www.
 
 **Important!** Before we start, take into account that [DNS changes](https://www.hostinger.com/tutorials/what-is-dns) can take up to **24 hours** to fully propagate worldwide.
 
-![](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/11/eBook-Speed-Up-your-website-1024x283.webp)
+![[~/×/ba9b0636b5c33aeb431a77b4b7c1aa32_MD5.webp]]
 
 - [What Does Domain Pointing Mean?](https://www.hostinger.com/tutorials/#What_Does_Domain_Pointing_Mean "What Does Domain Pointing Mean?")
 - [How to Point Your Domain to Hostinger – Video Tutorial](https://www.hostinger.com/tutorials/#How_to_Point_Your_Domain_to_Hostinger_%E2%80%93_Video_Tutorial "How to Point Your Domain to Hostinger – Video Tutorial")
@@ -46,7 +46,7 @@ In this Hostinger Academy video, you will learn how to point a domain name to a 
 
 ![](https://www.youtube.com/watch?v=UAsYeTL8cZc)
 
-![youtube channel logo](https://www.hostinger.com/tutorials/wp-content/themes/tutorialsthemeuplift/public/images/youtube-channels/hostinger-academy.jpg)
+![[~/×/bea472b6596f32190d7a3e485d235107_MD5.jpg]]
 
 Subscribe For more educational videos! Hostinger Academy
 
@@ -77,8 +77,7 @@ The process of [changing nameservers](https://www.hostinger.com/tutorials/how-to
 
 1. Find Hostinger’s nameservers by accessing the hPanel. You can do this by opening [hPanel’s **DNS Zone Editor**](https://www.hostinger.com/tutorials/how-to-use-hostinger-dns-zone-editor) and entering **“ns”** into the search bar. We use two nameservers to ensure stability and maximum connectivity. So, if one nameserver fails, the other will resolve the requests.
 
-![A DNS zone page showcasing search results for NS records
-](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2019/11/A-DNS-zone-page-showcasing-search-results-for-NS-records-1024x313.webp)
+![[~/×/1fd00c0f944d838bf7391d6a87b04c50_MD5.webp]]
 
 2. All nameservers correspond to an **IP address**, which you can locate by opening the **Details** section on hPanel. While in most cases you only need the names, some registrars may require the IP as well:
 
@@ -107,8 +106,7 @@ In most cases, you must create <mark style="background: #FFB86CA6;">two</mark> A
 
 For instance, if you have a domain named **domain.[tld](https://www.hostinger.com/tutorials/what-is-tld)** and want to point it to **185.185.185.185** as its IP address, you need to create A Record entries that look similar to the image below.
 
-![A DNS zone page showcasing search results for A records
-](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2019/11/A-DNS-zone-page-showcasing-search-results-for-A-records-1024x411.webp)
+![[~/×/33ddb161a08908e10760eb2ba4e0df59_MD5.webp]]
 
 **Important!** It’s also possible that your **[[www]]** [[subdomain]] is pointed to the **[[CNAME record|CNAME]]** (an <mark style="background: #FFF3A3A6;">alias</mark>) record. In that case, you only have to change the [[A Record]] for your root domain name.
 
@@ -127,8 +125,7 @@ The **MX record** specifies mail servers that handle incoming emails. To use Hos
 
 At Hostinger, the MX records can also be found in the **DNS Zone Editor**.
 
-![A DNS zone page showcasing search results for MX records
-](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2019/11/A-DNS-zone-page-showcasing-search-results-for-MX-records-1024x409.webp)
+![[~/×/b56f7f85fd5e79418baa11ec2b33177e_MD5.webp]]
 
 Take note of the mail server’s address. Then, open your domain’s MX record and replace the old mail server:
 
@@ -154,8 +151,7 @@ If you are an advanced user and want to point your domain via AAAA and A records
 
 At Hostinger, AAAA records can be found in the **DNS Zone Editor**.
 
-![A DNS zone page showcasing search results for AAAA records
-](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2019/11/A-DNS-zone-page-showcasing-search-results-for-AAAA-records-1024x231.webp)
+![[~/×/2d38635b6cce2fdfc48abaaa0b05f7b6_MD5.webp]]
 
 Fill in the values that look similar to the ones shown above. Each field stands for:
 
@@ -164,7 +160,7 @@ Fill in the values that look similar to the ones shown above. Each field stands 
 - **Type** – record type, choose AAAA.
 - **Record/Address** – target IPv6 address.
 
-![](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/02/Website-migration_in-text-banner-2-1024x300.webp)
+![[~/×/bdd2d1c93c76e44368b9ab031a6271a5_MD5.webp]]
 
 ## Conclusion
 
@@ -192,10 +188,10 @@ To point your GoDaddy Site to Hostinger, log in to your GoDaddy account and acce
 
 Simply log in to your hosting account, select the domain, and view the current NS and A records. You can also check the propagation using the DNS Checker tool.
 
-![Author](https://secure.gravatar.com/avatar/10283a66d90d6553400640609ef3f6be?s=96&d=mm&r=g)
+![[~/×/a6d10fcfbc9f86b55afafbb7d59ad8d5_MD5.png]]
 
 Domantas leads the content and SEO teams forward with fresh ideas and out of the box approaches. Armed with extensive SEO and marketing knowledge, he aims to spread the word of Hostinger to every corner of the world. During his free time, Domantas likes to hone his web development skills and travel to exotic places.
 
-![Author](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/08/rsz_1screenshot_3-150x146.webp)
+![[~/×/6f561266aac1c53ade664f9c94c4b17a_MD5.webp]]
 
 Ignas takes great satisfaction in helping people tackle even the most complex technical issues. His current goal is to write easy-to-follow articles so that these issues will not happen at all. During his free time, Ignas likes to play video games and fix up things around his house.

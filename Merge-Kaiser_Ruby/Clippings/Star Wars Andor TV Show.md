@@ -19,11 +19,11 @@ Beginning five years before the events of *Rogue One* (2016) and *[A New Hope](h
 
 ## Cast and characters
 
-[![Diego Luna (pictured in 2017)](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Diego_Luna_2017.jpg/138px-Diego_Luna_2017.jpg)](https://en.wikipedia.org/wiki/File:Diego_Luna_2017.jpg)
+[![[~/×/33d700c7be90b0093984bf55bee07320_MD5.jpg]]](https://en.wikipedia.org/wiki/File:Diego_Luna_2017.jpg)
 
-[![Kyle Soller (pictured in 2014)](https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Kyle_Soller_at_The_Keeping_Room_UK_Premiere.jpg/138px-Kyle_Soller_at_The_Keeping_Room_UK_Premiere.jpg)](https://en.wikipedia.org/wiki/File:Kyle_Soller_at_The_Keeping_Room_UK_Premiere.jpg)
+[![[~/×/86d8553d5c183c53ca6032930c98baa9_MD5.jpg]]](https://en.wikipedia.org/wiki/File:Kyle_Soller_at_The_Keeping_Room_UK_Premiere.jpg)
 
-[![Adria Arjona (pictured in 2022)](https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Adria_Arjona_2022_%28cropped%29.jpg/138px-Adria_Arjona_2022_%28cropped%29.jpg)](https://en.wikipedia.org/wiki/File:Adria_Arjona_2022_\(cropped\).jpg)
+[![[~/×/01ca34bc4609c87fcda20d155d2f0416_MD5.jpg]]](https://en.wikipedia.org/wiki/File:Adria_Arjona_2022_\(cropped\).jpg)
 
 Top to bottom: Diego Luna, Kyle Soller, and Adria Arjona star in *Andor*
 
@@ -87,7 +87,7 @@ Additional guest stars include Belle Swarc as Andor's sister Kerri;[^dogcasteps1
 
 ### Development
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tony_Gilroy_%287732161230%29.jpg/170px-Tony_Gilroy_%287732161230%29.jpg)
+![[~/×/e1570409e495e6abdafcfeb8fd0b9ed7_MD5.jpg]]
 
 [Tony Gilroy](https://en.wikipedia.org/wiki/Tony_Gilroy "Tony Gilroy") joined the series after working on the *Star Wars* film *[Rogue One](https://en.wikipedia.org/wiki/Rogue_One "Rogue One")*, and took over development after sharing his vision with the studio
 
@@ -125,17 +125,17 @@ Luna, Skarsgård, O'Reilly, Soller, Arjona, Gough, Marsay, Sethu, Dulau, McArdle
 
 Filming began in London, England, at the end of November 2020,[^lunafilmingstart-48][^titleannouncementverge-64] with the production based at [Pinewood Studios](https://en.wikipedia.org/wiki/Pinewood_Studios "Pinewood Studios").[^cleveleysfilming-65][^pinewoodfilming-66] The series was filmed under the [working title](https://en.wikipedia.org/wiki/Working_title "Working title") *Pilgrim*,[^cleveleysfilming-65] and was the first live-action *Star Wars* series to not make use of the [StageCraft](https://en.wikipedia.org/wiki/StageCraft "StageCraft") digital background technology. This was done because the scripts were more suited to being filmed on locations and large sets, and Luna noted that taking a different filming approach for the series made it similar to *Rogue One*, whose filming style was distinct from other *Star Wars* films.[^nostagecraft-67] Toby Haynes directed the first three episodes,[^haynes-35] with [Ben Caron](https://en.wikipedia.org/wiki/Ben_Caron "Ben Caron"), [Susanna White](https://en.wikipedia.org/wiki/Susanna_White "Susanna White"), and Haynes each directing another "block" of three episodes.[^gilroyempires2timeline-9][^caronwhite-39] [Jonathan Freeman](https://en.wikipedia.org/wiki/Jonathan_Freeman_\(cinematographer\) "Jonathan Freeman (cinematographer)") and Adriano Goldman served as cinematographers.[^goldman-41][^freeman-68] The series was previously reported to begin filming in 2019,[^seriesorder-28] and then June 2020,[^freeman-68] but was delayed multiple times due to the COVID-19 pandemic.[^o'reillygough2-34] Both UK and U.S. COVID-19 protocols were followed on set, including daily temperature checks and tests for COVID-19 three times a week.[^pinewoodfilming-66] Filming at Pinewood Studios was expected to end in July 2021.[^pinewoodfilming-66]
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/London%2C_Barbican_Arts_Centre03.JPG/157px-London%2C_Barbican_Arts_Centre03.JPG)](https://en.wikipedia.org/wiki/File:London,_Barbican_Arts_Centre03.JPG)
+[![[~/×/543fdcb83bb6e1baf6e54fc3c5afe026_MD5.jpg]]](https://en.wikipedia.org/wiki/File:London,_Barbican_Arts_Centre03.JPG)
 
 Barbican Arts Centre, used for [Coruscant](https://en.wikipedia.org/wiki/Coruscant "Coruscant")
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/The_New_Promenade_and_sea_defences%2C_Cleveleys_-_geograph.org.uk_-_1107539.jpg/177px-The_New_Promenade_and_sea_defences%2C_Cleveleys_-_geograph.org.uk_-_1107539.jpg)](https://en.wikipedia.org/wiki/File:The_New_Promenade_and_sea_defences,_Cleveleys_-_geograph.org.uk_-_1107539.jpg)
+[![[~/×/2908243384041924a77d540c0c1e5cb2_MD5.jpg]]](https://en.wikipedia.org/wiki/File:The_New_Promenade_and_sea_defences,_Cleveleys_-_geograph.org.uk_-_1107539.jpg)
 
 [Cleveleys](https://en.wikipedia.org/wiki/Cleveleys "Cleveleys"), used for the resort planet [Niamos](https://en.wikipedia.org/w/index.php?title=Niamos&action=edit&redlink=1 "Niamos (page does not exist)")
 
 By late January 2021, a large village set had been built on the grounds of a former quarry in [Little Marlow](https://en.wikipedia.org/wiki/Little_Marlow "Little Marlow"), [Buckinghamshire](https://en.wikipedia.org/wiki/Buckinghamshire "Buckinghamshire"), not far from Pinewood Studios, with filming expected to last there until April.[^littlemarlowfilming-69] Filming in April also took place at the [Coryton Refinery](https://en.wikipedia.org/wiki/Coryton_Refinery "Coryton Refinery") in [Corringham, Essex](https://en.wikipedia.org/wiki/Corringham,_Essex "Corringham, Essex"),[^corytonfilming-70] and in East London at [Canary Wharf](https://en.wikipedia.org/wiki/Canary_Wharf "Canary Wharf")[^canaryfilming-71] where the plaza under the bridge to the [Elizabeth line](https://en.wikipedia.org/wiki/Elizabeth_line "Elizabeth line") station served as the entrance to the Imperial Security Bureau on [Coruscant](https://en.wikipedia.org/wiki/Coruscant "Coruscant"). Canary Wharf had also been a filming location for *[Rogue One](https://en.wikipedia.org/wiki/Rogue_One "Rogue One")*. The concrete walkways of the [Barbican Centre](https://en.wikipedia.org/wiki/Barbican_Centre "Barbican Centre") were used to represent buildings on [Coruscant](https://en.wikipedia.org/wiki/Coruscant "Coruscant"). Several days of filming occurred in [Cleveleys](https://en.wikipedia.org/wiki/Cleveleys "Cleveleys") on the [Fylde Coast](https://en.wikipedia.org/wiki/Fylde_Coast "Fylde Coast") of [Lancashire](https://en.wikipedia.org/wiki/Lancashire "Lancashire") in early May, with the town's promenade and beach area dressed as an alien location, later revealed to be the resort planet of Niamos[^cleveleysfilming-65] followed by another several days filming in the disused [Winspit](https://en.wikipedia.org/wiki/Winspit "Winspit") quarry in [Dorset](https://en.wikipedia.org/wiki/Dorset "Dorset").[^winspitfilming-72][^winspitfilming2-73] Second unit and location filming began for at least a week at the end of May in [Black Park](https://en.wikipedia.org/wiki/Black_Park "Black Park"), a country park in Buckinghamshire near Pinewood Studios which was also used for filming Disney's *Star Wars* films.[^blackpark-74][^blackpark2-75] By the end of May, main production on *Pilgrim* had moved to [Glen Tilt](https://en.wikipedia.org/wiki/Glen_Tilt "Glen Tilt") in [Perthshire](https://en.wikipedia.org/wiki/Perthshire "Perthshire"), Scotland, and was expected to continue there until late June.[^glentiltfilming-76][^glentiltfilmingpilgrim-77] Around 500 crewmembers traveled to [Oban](https://en.wikipedia.org/wiki/Oban "Oban"), Scotland, for filming at the nearby [Cruachan Dam](https://en.wikipedia.org/wiki/Cruachan_Dam "Cruachan Dam"). This started by June 18, with sets built around the dam and filming also happening in its tunnels.[^hayman-19][^cruachan-78] From June 22 to 24, filming took place at Middle Peak Quarry near [Wirksworth](https://en.wikipedia.org/wiki/Wirksworth "Wirksworth"), [Derbyshire](https://en.wikipedia.org/wiki/Derbyshire "Derbyshire").[^wirksworthfilming-79][^wirksworthfilming2-80] Production was expected to [wrap](https://en.wikipedia.org/wiki/Wrap_\(filmmaking\) "Wrap (filmmaking)") in mid-2021,[^emms-18] and Luna confirmed that it had finished by September 27.[^wrap-81]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Winspit_quarry.JPG/220px-Winspit_quarry.JPG)
+![[~/×/7cd4ae217d86de127309cee9f6f981e2_MD5.jpg]]
 
 Winspit quarry, used for [Saw Gerrera](https://en.wikipedia.org/wiki/Saw_Gerrera "Saw Gerrera")'s base
 

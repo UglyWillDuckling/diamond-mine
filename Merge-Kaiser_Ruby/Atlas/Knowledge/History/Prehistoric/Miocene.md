@@ -10,7 +10,7 @@ related:
 tags:
   - geo-epoch
 ---
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Mollweide_Paleographic_Map_of_Earth%2C_15_Ma_%28Langhian_Age%29.png/1280px-Mollweide_Paleographic_Map_of_Earth%2C_15_Ma_%28Langhian_Age%29.png)
+![[~/×/3a943d582b7df047f22e04b27df02efe_MD5.png]]
 
 
 The **Miocene** ( [*MY\-ə-seen, -⁠oh-*](https://en.m.wikipedia.org/wiki/Help:Pronunciation_respelling_key "Help:Pronunciation respelling key"))[^6][^7] is the first [geological epoch](https://en.m.wikipedia.org/wiki/Epoch_\(geology\) "Epoch (geology)") of the [Neogene](https://en.m.wikipedia.org/wiki/Neogene "Neogene") Period and extends from about [23.03 to 5.333](https://geoltime.github.io/?Ma=23.03%E2%80%935.333) million years ago (Ma). The Miocene was named by Scottish geologist [Charles Lyell](https://en.m.wikipedia.org/wiki/Charles_Lyell "Charles Lyell"); the name comes from the Greek words [μείων](https://en.wiktionary.org/wiki/%CE%BC%CE%B5%CE%AF%CF%89%CE%BD#Ancient_Greek "wikt:μείων") (**meíōn**, "less") and [καινός](https://en.wiktionary.org/wiki/%CE%BA%CE%B1%CE%B9%CE%BD%CF%8C%CF%82#Ancient_Greek "wikt:καινός") (**kainós**, "new")[^8][^onlineetdict-9] and means "less recent" because it has 18% fewer modern [marine invertebrates](https://en.m.wikipedia.org/wiki/Marine_invertebrate "Marine invertebrate") than the [Pliocene](https://en.m.wikipedia.org/wiki/Pliocene "Pliocene") has.[^10] The Miocene followed the [Oligocene](https://en.m.wikipedia.org/wiki/Oligocene "Oligocene") and preceded the Pliocene.

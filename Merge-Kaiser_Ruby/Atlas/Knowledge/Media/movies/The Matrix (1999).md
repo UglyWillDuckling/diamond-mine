@@ -1,6 +1,5 @@
 ---
 type: movie
-subType: ""
 title: The Matrix
 englishTitle: The Matrix
 year: "1999"
@@ -23,7 +22,7 @@ actors:
   - Keanu Reeves
   - Laurence Fishburne
   - Carrie-Anne Moss
-image: https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg
+image: "[[~/×/66d24034ce1a7b51a81168c19535d70e_MD5.jpg]]"
 released: true
 premiere: 03/31/1999
 watched: true
@@ -33,5 +32,5 @@ personalRating: 9
 tags:
   - film
 ---
-![matrix](https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_SX300.jpg)
+![[~/×/66d24034ce1a7b51a81168c19535d70e_MD5.jpg]]
 

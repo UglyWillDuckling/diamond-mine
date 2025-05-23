@@ -59,7 +59,7 @@ Neki sojevi plijesni proizvode konidije, vrstu spora koje se formiraju na vrhovi
 
 U ovom članku smo istražili što je plijesan, kako prepoznati njezino prisustvo u vašem domu, sada donosimo najučinkovitije strategije i savjete za borbu protiv ove neželjene pojave. Naoružani znanjem, moći ćete efikasno djelovati na prve znakove plijesni, osiguravajući time čist i zdrav prostor za život svoje obitelji.
 
-![Čišćenje plijesni](https://www.savjetnica.com/wp-content/uploads/2024/02/plijesan-5.jpg)
+![[~/×/641b71a8231f0e060b2ed7f123d5bae4_MD5.jpg]]
 
 Shutterstock
 
@@ -83,7 +83,7 @@ Za velike zaraze plijesni ili u slučajevima kada je plijesan prodrila duboko u 
 
 Poboljšanje ventilacije u prostorijama može smanjiti vlažnost i spriječiti kondenzaciju, što su ključni čimbenici u rastu plijesni. Instalacija ispušnih ventilatora, posebno u kuhinjama i kupaonicama, može pomoći u uklanjanju vlažnog zraka iz prostora. Redovito otvaranje prozora za poticanje protoka zraka također može znatno doprinijeti smanjenju vlage. Ugradnja kvalitetnih prozora s dvostrukim staklom također može pomoći u smanjenju kondenzacije na prozorima, što je čest izvor vlage koja može potaknuti rast plijesni.
 
-![Kako se riješiti plijesni](https://www.savjetnica.com/wp-content/uploads/2024/02/plijesan-4.jpg)
+![[~/×/b255b164ea915d3d532d7b92792bc16f_MD5.jpg]]
 
 Shutterstock
 
@@ -107,7 +107,7 @@ Održavanje konzistentne unutarnje temperature može pomoći u smanjenju kondenz
 
 Razumijevanje uzroka rasta plijesni i kako se ona širi ključno je za njeno efikasno suzbijanje. Edukacija ukućana o važnosti smanjenja vlage, pravilnog ventiliranja prostora i pravilnog skladištenja materijala može smanjiti rizik od rasta plijesni. Svijest o tome kako svakodnevne aktivnosti, poput kuhanja, pranja i sušenja rublja, mogu utjecati na razinu vlage u domu, također je važna za preventivno djelovanje protiv plijesni.
 
-![Što je plijesan](https://www.savjetnica.com/wp-content/uploads/2024/02/plijesan-3.jpg)
+![[~/×/5c26c76b19796be139d4d5810e677a03_MD5.jpg]]
 
 Shutterstock
 
@@ -131,7 +131,7 @@ Topla voda u cijevima može uzrokovati kondenzaciju, stvarajući povoljne uvjete
 
 Ventilacijski i klima uređaji mogu akumulirati prašinu i vlagu, pružajući idealne uvjete za rast plijesni. Redovita zamjena ili čišćenje filtara u ovim uređajima ključno je za sprječavanje širenja spora plijesni kroz zrak unutar doma. Osim toga, čišćenje unutarnjih dijelova uređaja, uključujući isparivače i kondenzatorske jedinice, može smanjiti rizik od rasta plijesni. Ovo je jedan od najefikacijih načina kako se riješiti plijesni.
 
-![Borba protiv plijesni](https://www.savjetnica.com/wp-content/uploads/2024/02/plijesan-2.jpg)
+![[~/×/83843a41fec8fc234c4e0d1f37a197a3_MD5.jpg]]
 
 Shutterstock
 

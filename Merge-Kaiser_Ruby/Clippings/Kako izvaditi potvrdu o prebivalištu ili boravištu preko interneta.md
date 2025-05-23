@@ -15,7 +15,7 @@ Vodič je stariji od 2 godine i možda nije u **potpunosti aktualan**.
 
 Do sada smo već nekoliko puta pisali o tome [koje sve dokumente možemo preuzeti](https://www.ucionica.net/internet/kako-izvaditi-rodni-list-domovnicu-ili-vjencani-list-preko-interneta-7602/) iz sustava e-Građani iz udobnosti vlastitog doma, iz ureda ili u pokretu s mobitela. Ovdje ćemo vam pokazati gdje možete preuzeti **potvrdu o prebivalištu i/ili potvrdu o boravištu** preko interneta, u svega par klikova.
 
-![Kako izvaditi potvrdu o prebivalištu ili boravištu preko interneta](https://www.ucionica.net/wp-content/uploads/2019/09/cowomen-QRw_BXizqCk-unsplash-1024x683.jpg)
+![[~/×/f922aea4dee6638a8bda84ad35838fb4_MD5.jpg]]
 
 ## Do potvrde o prebivalištu u 3 koraka
 

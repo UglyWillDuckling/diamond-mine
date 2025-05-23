@@ -52,7 +52,7 @@ You can check the version of Emacs that you are running on your PC using the fol
 emacs --version
 ```
 
-![command for checking emacs version on Linux](https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/06/emacs_version_check.jpg)
+![[~/×/2290bd43eb9e9df414970bd302bef6da_MD5.jpg]]
 
 You can start Emacs by running the command **emacs -nw**, and it will start within the terminal. To open Emacs GUI, simply run the command **emacs** without any arguments or parameters.
 
@@ -64,7 +64,7 @@ Alternatively, you can press the **Super** key on your keyboard and type **emacs
 
 Let's look at the terminal-based Emacs because it mostly depends on your ability to use keyboard controls and shortcuts for navigating and processing. You can also use the same commands in the graphical Emacs interface. In addition, you have the GUI buttons that you can click on to access its functionality.
 
-![emacs editor start screen](https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/06/emacs_start_screen.jpg)
+![[~/×/9911113514a4df61472f7d7dd0f9a3b4_MD5.jpg]]
 
 Use the arrow keys to navigate and move the cursor up, down, left, and right as required.
 
@@ -90,7 +90,7 @@ Let's take a look at some basic editing functions that you'll often use in the E
 
 ### Highlighting Text
 
-![emacs editor showiing how to select all text in a document](https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/06/highlight_all_text_in_emacs.jpg)
+![[~/×/da2c06d7b8d790044d951e18bc982403_MD5.jpg]]
 
 To highlight or mark text, first, navigate to the text that you want to highlight. Next, press **Ctrl + Space bar** (**C-Space bar**). Emacs will set a start mark point, and you can then simply move the cursor with your arrow keys to highlight the text that you want.
 

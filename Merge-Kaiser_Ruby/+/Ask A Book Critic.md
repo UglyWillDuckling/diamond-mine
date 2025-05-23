@@ -8,12 +8,12 @@ tags:
   - processing
 authors: "[[Constance Grady]]"
 ---
-![The Vox Explainer](https://media.sailthru.com/composer/images/sailthru-prod-6x9/Vox_NextPage_1920x525.jpg)
+![[~/×/1b8f3905e1035d3b44589dc4f0ff3aac_MD5.jpg]]
 
 _Welcome to **Ask a Book Critic**, a members-only newsletter packed with personalized book recommendations from senior correspondent and resident book critic [Constance Grady](https://link.vox.com/click/38094994.3279/aHR0cHM6Ly93d3cudm94LmNvbS9hdXRob3JzL2NvbnN0YW5jZS1ncmFkeT91ZWlkPTdiMmE0MTEzZmU5NTZkZDBlZjg5ZjAyYmY1YmNjODVm/64ee35740904158c0a020c94B164cfb90). **To get your own book recommendation, [ask Constance here](https://link.vox.com/click/38094994.3279/aHR0cHM6Ly9kb2NzLmdvb2dsZS5jb20vZm9ybXMvZC9lLzFGQUlwUUxTZHFLNmNRTWJ3Y2dYTWp5YkI1UG9ZcEp6OXVxY1VsQVBRUmJoX0stNEtteWtGTmNRL3ZpZXdmb3JtP3VzcD1zZl9saW5rJnVlaWQ9N2IyYTQxMTNmZTk1NmRkMGVmODlmMDJiZjViY2M4NWY/64ee35740904158c0a020c94Ba00cafcb).**_
 
 
-![](https://platform.vox.com/wp-content/uploads/sites/2/2025/01/Vox_NextPage_ConstanceGrady_12-23.png?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=1440)
+![[~/×/6be26668ec57e75362080f5be1659538_MD5.png]]
 
 **Reader Request:**
 

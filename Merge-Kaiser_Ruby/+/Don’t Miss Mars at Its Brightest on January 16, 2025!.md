@@ -77,7 +77,7 @@ Don't miss the **best time to view Mars until 2031**! On **January 16, 2025**, t
 
 Want to learn more facts about space? Then you'll love our quiz about [the “most-est” objects in the Solar System](https://starwalk.space/en/quiz/solar-system-comparisons)! Find out which of them is the hottest or fastest, and where the tallest mountain and deepest canyon are located.
 
-![Solar System Objects Comparison](https://starwalk.space/gallery/images/solar-system-tounament-quiz-intro-2/1920x1080.jpg)
+![[~/×/381af2ceb9976d1c236a9377a0d0429a_MD5.jpg]]
 
 Battle of the Solar System titans!🏆 Take this ultimate quiz to test your knowledge of the most remarkable objects in our Solar System. Giant planets, dwarfs, and moons – see who is the best at their own game. Ready to play?
 ## Best time to see Mars: January 16, 2025 🌟
@@ -86,7 +86,7 @@ Mars will reach [opposition with the Sun](https://starwalk.space/en/news/what-is
 
 Given that this event is quite rare, occurring approximately once every two years, and that this particular opposition will provide the best visibility of Mars in the next six years, we have dedicated special attention to it. To help you make the most of this opportunity, we've created an infographic featuring [key facts about the Mars opposition in 2025](https://starwalk.space/en/infographics/mars-at-opposition). Discover the optimal time of day for observing the planet in opposition and explore what features you can see on its surface during this exceptional event.
 
-![Mars opposition 2025](https://starwalk.space/gallery/images/mars-opposition-2025-infographic-preview/1140x599.jpg)
+![[~/×/dce7beface167ca3042e47dfffbd8363_MD5.jpg]]
 
 Mars will be at its brightest at opposition on January 16, 2025! This event occurs only once every 780 days. Prepare for it with this colorful infographic.
 
@@ -253,7 +253,7 @@ Yes, there is water on Mars. Various missions and studies have confirmed the pre
 
 In the search for extraterrestrial life, scientists pay special attention to worlds where water is present in one form or another, including Mars. Why is this the case, are other conditions for the origin of life possible, and where is humanity on its journey to find extraterrestrial life? Find out in our comprehensive [infographic on life in the Universe](https://starwalk.space/en/infographics/life-in-the-universe).
 
-![Life in the Universe Preview](https://starwalk.space/gallery/images/life-preview-01/1920x1080.jpg)
+![[~/×/7ff6521ebc3e97cbb76724674a76ab41_MD5.jpg]]
 
 ### What is the gravity on Mars?
 

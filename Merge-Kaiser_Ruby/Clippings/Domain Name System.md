@@ -52,7 +52,7 @@ The domain name space consists of a [tree data structure](https://en.wikipedia.o
 
 The tree sub-divides into *zones* beginning at the [root zone](https://en.wikipedia.org/wiki/DNS_root_zone "DNS root zone"). A [DNS zone](https://en.wikipedia.org/wiki/DNS_zone "DNS zone") may consist of as many domains and subdomains as the zone manager chooses. DNS can also be partitioned according to *class* where the separate classes can be thought of as an array of parallel namespace trees.[^dnsparts-25]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Domain_name_space.svg/400px-Domain_name_space.svg.png)
+![[~/×/a394f1f30cd03324c3f6f50ca8d30a29_MD5.png]]
 
 The hierarchical Domain Name System for class *Internet*, organized into zones, each served by a name server
 
@@ -90,7 +90,7 @@ When a name server is designated as the authoritative server for a domain name f
 
 Domain name resolvers determine the domain name servers responsible for the domain name in question by a sequence of queries starting with the right-most (top-level) domain label.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Example_of_an_iterative_DNS_resolver.svg/400px-Example_of_an_iterative_DNS_resolver.svg.png)
+![[~/×/af72bf89c5426dfc4c993f7356730e12_MD5.png]]
 
 A DNS resolver that implements the iterative approach mandated by RFC 1034; in this case, the resolver consults three name servers to resolve the [fully qualified domain name](https://en.wikipedia.org/wiki/Fully_qualified_domain_name "Fully qualified domain name") "www.wikipedia.org".
 
@@ -136,7 +136,7 @@ A [reverse DNS lookup](https://en.wikipedia.org/wiki/Reverse_DNS_lookup "Reverse
 
 When performing a reverse lookup, the DNS client converts the address into these formats before querying the name for a PTR record following the delegation chain as for any DNS query. For example, assuming the IPv4 address 208.80.152.2 is assigned to Wikimedia, it is represented as a DNS name in reverse order: 2.152.80.208.in-addr.arpa. When the DNS resolver gets a pointer (PTR) request, it begins by querying the root servers, which point to the servers of [American Registry for Internet Numbers](https://en.wikipedia.org/wiki/American_Registry_for_Internet_Numbers "American Registry for Internet Numbers") (ARIN) for the 208.in-addr.arpa zone. ARIN's servers delegate 152.80.208.in-addr.arpa to Wikimedia to which the resolver sends another query for 2.152.80.208.in-addr.arpa, which results in an authoritative response.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/DNS_Architecture.svg/400px-DNS_Architecture.svg.png)
+![[~/×/787e859a685d11ebbf0c3badbc3f781f_MD5.png]]
 
 DNS resolution sequence
 

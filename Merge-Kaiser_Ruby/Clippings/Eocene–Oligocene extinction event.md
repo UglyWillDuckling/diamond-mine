@@ -11,7 +11,7 @@ tags:
 ---
 The **Eocene–Oligocene extinction event**, also called the **Eocene-Oligocene transition** (**EOT**) or ***Grande Coupure*** ([French](https://en.m.wikipedia.org/wiki/French_language "French language") for "great cut"), is the transition between the end of the [Eocene](https://en.m.wikipedia.org/wiki/Eocene "Eocene") and the beginning of the [Oligocene](https://en.m.wikipedia.org/wiki/Oligocene "Oligocene"), an extinction event and faunal turnover occurring between 33.9 and 33.4 million years ago.[^ebrobasin-1] It was marked by large-scale extinction and floral and faunal turnover, although it was relatively minor in comparison to the [largest mass extinctions](https://en.m.wikipedia.org/wiki/Extinction_event "Extinction event").[^coolerwinters-2]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Extinction_intensity.svg/320px-Extinction_intensity.svg.png)
+![[~/×/1b58703adf9fd563d1a8d6d50458db79_MD5.png]]
 
 **E-OG**
 
@@ -19,6 +19,6 @@ Marine extinction intensity during [Phanerozoic](https://en.m.wikipedia.org/wiki
 
 Millions of years ago
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Extinction_intensity.svg/320px-Extinction_intensity.svg.png)
+![[~/×/1b58703adf9fd563d1a8d6d50458db79_MD5.png]]
 
 Eocene–Oligocene extinction is labeled E– O**G**.

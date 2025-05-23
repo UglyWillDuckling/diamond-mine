@@ -22,7 +22,7 @@ To prepare your data for import, you will need to export your entire workspace u
 6. Enable **Create folders for subpages**
 7. You will receive a `.zip` file via email or directly in the browser.
 
-![notion-export.png > interface](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/notion-export.png)
+![[~/×/5eda26be10563dca00e8c6a29afcf137_MD5.png]]
 
 ## Import your Notion data into Obsidian
 

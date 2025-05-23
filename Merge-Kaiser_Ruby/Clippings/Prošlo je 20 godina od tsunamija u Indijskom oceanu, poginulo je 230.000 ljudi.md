@@ -17,7 +17,7 @@ Potres magnitude 9.1 po Richteru u blizini obale indonezijske pokrajine Aceh iza
 
 Stotine preživjelih i obitelji žrtava u Indoneziji posjetili su masovnu grobnicu u selu Ulee Lheue i posipali latice cvijeća po kamenju koje označava grobove. Broj žrtava u Indoneziji veći je od polovice ukupnog broja mrtvih. Mnogi su plakali i grlili svoje ukućane. Neki nisu sigurni jesu li im najmiliji tamo jer su mnoge žrtve neidentificirane.
 
-![](https://ip.index.hr/remote/bucket.index.hr/b/index/b5b1220c-5dc4-4f04-8291-361fc05f2071.jpg?width=500)
+![[~/×/4229063b8fd694f1ddecad72e9ecebfa_MD5.jpg]]
 
 Nurkhalis (52) rekao je da je u tsunamiju izgubio suprugu, djecu i roditelje, a nitko od njih nije pronađen.
 
@@ -31,7 +31,7 @@ Komemoracija je također održana u prednjem dvorištu velike džamije Baiturrah
 
 Šri Lanka je dan obilježila s dvije minute šutnje kod memorijalnog spomenika Peraliya Tsunami u gradu Galleu, priopćio je državni centar za upravljanje katastrofama.
 
-![](https://ip.index.hr/remote/bucket.index.hr/b/index/89ccb496-047a-40bf-b1f7-ae2465d33f7a.jpg?width=500)
+![[~/×/284d4c4ed039c210a8f202ed3aaabcc7_MD5.jpg]]
 
 U najteže pogođenoj indijskoj državi Tamil Nadu stanovnici su zapalili svijeće i molili se za poginule.
 

@@ -10,7 +10,7 @@ tags:
 related:
   - "[[Docker]]"
 ---
-![icon](https://global.discourse-cdn.com/docker/optimized/3X/6/5/65d9a8c18d1ca9f553a198cc78045be7743a4be2_2_32x32.png)
+![[~/×/d558e07f5d90c2ec6a194b180bd4384f_MD5.png]]
 
 I recently installed Docker on my Mac air m2.  
 I was following the documentation for docker [setup](https://docs.docker.com/get-started/02_our_app/) but I am facing the error while building the application

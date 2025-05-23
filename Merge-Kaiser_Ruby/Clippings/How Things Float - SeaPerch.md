@@ -15,7 +15,7 @@ tags:
 
 *Last Updated: September 2020*
 
-![](https://robonation.org/app/uploads/sites/5/2020/08/PDF-icon.svg)
+![[~/×/63b54d9811efbd45e6d8e8d1ccd563c5_MD5.svg]]
 
 [Download PDF](https://robonation.org/app/uploads/sites/5/2020/09/How-Things-Float_How-Things-Work.pdf)
 
@@ -31,7 +31,7 @@ Buoyancy is a force that moves an object upward. This upward force occurs when t
 
 Types of Buoyancy
 
-![](https://robonation.org/app/uploads/sites/5/2020/09/HowThingsFloat-Figure1-300x167.jpg)![](https://robonation.org/app/uploads/sites/5/2020/09/HowThingsFloat-Figure2-300x179.jpg)
+![[~/×/d9c28e70019e0619895e297a5ce8a2ff_MD5.jpg]]![[~/×/f9a4a33925da89f5be54a45e1a425967_MD5.jpg]]
 
 1. **NEGATIVE BUOYANCY** –  An object is negatively buoyant when it is denser than the fluid it displaces. The object will sink because its weight is greater than the buoyant force.
 2. **NEUTRAL BUOYANCY**  - An object is neutrally buoyant when its density is equal to the density of the fluid in which it is immersed, resulting in the buoyant force balancing the force of gravity that would otherwise cause the object to sink or rise. An object that has neutral buoyancy will neither sink nor rise.
@@ -41,7 +41,7 @@ Density
 
 Density is a measure of how much matter occupies a given amount of space. High density substances have tightly packed particles and low density substances are made up of loosely packed particles.
 
-![](https://robonation.org/app/uploads/sites/5/2020/09/HowThingsFloat-Figure3-300x210.png)
+![[~/×/2d9cbb5610580de0645a57aa8d36bc1d_MD5.png]]
 
 The density, of a substance is its mass per unit volume. The symbol most often used for density is ρ, the Greek symbol Rho. Mathematically, density is defined as mass divided by volume: where ρ is the density, m is the mass, and v is the volume.
 
@@ -63,15 +63,15 @@ Buoyancy (N) = ρ \* v
 
 1st part: When an object is immersed fully or partially in a fluid, it experiences an upward force that can be seen and felt.
 
-![](https://robonation.org/app/uploads/sites/5/2020/09/HowThingsFloat-Figure4.jpg)
+![[~/×/86f769877b1a986faa6c64495bc6a1a2_MD5.jpg]]
 
-![](https://robonation.org/app/uploads/sites/5/2020/09/HowThingsFloat-Figure5.jpg)
+![[~/×/073a7ab8a6399e0a75475e60a17feb3a_MD5.jpg]]
 
 2nd part: **The upward force is equal to the weight of the fluid displaced by the object**.
 
-![](https://robonation.org/app/uploads/sites/5/2020/09/HowThingsFloat-Figure6.jpg)
+![[~/×/b5704bbc0c45977dc1686acca5f66a9a_MD5.jpg]]
 
-![](https://robonation.org/app/uploads/sites/5/2020/09/HowThingsFloat-Figure7-225x300.jpg)
+![[~/×/8bd75e9035106907446c9df3ba4887c3_MD5.jpg]]
 
 Archimedes, a famous Greek scientist, was given the task of determining whether the king’s golden wreath, a gift to the gods, was made of real gold or some alloy. Archimedes wanted to melt the gold material into a known volume and weigh it, thus determining the density. But the king would not allow this. Archimedes thought about this for some time, until one day while bathing, he noticed the water level increased as he entered the tub, proportionally to his volume. This meant that he could put the difficult-to-measure crown in water and instantly know the volume of the crown by measuring the displacement of water. At this point, Archimedes ran through the streets shouting “Eureka! Eureka!”
 
@@ -110,7 +110,7 @@ Test Your Knowledge
 3. A small fish weighing 27 g displaced a volume of water that weighed 25N. the weight of the fish was 30N. What is the buoyant force on the fish and will it sink or float?
 4. A rock has a mass of 76 g and displaced 80 mL of water when it was submerged. What is the volume of the rock?
 
-![](https://robonation.org/app/uploads/sites/5/2020/09/HowThingsFloat-Figure8.jpg)
+![[~/×/7a6640e0226fa0775b069beaa0480850_MD5.jpg]]
 
 Download PDF
 

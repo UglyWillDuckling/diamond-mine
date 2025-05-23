@@ -9,7 +9,7 @@ tags:
 ---
 sub, 08. velj
 
-![S](https://static.wixstatic.com/media/4c8727_58d102388fb94c989ef36a22450d5af0~mv2.jpg/v1/fill/w_640,h_336,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4c8727_58d102388fb94c989ef36a22450d5af0~mv2.jpg)
+![[~/×/aa1fc8a2afdbe4f4f3087fbf0d6061f1_MD5.jpg]]
 
 Kuća tambure - Slavonska notna bajka
 
@@ -31,4 +31,4 @@ Ulaznice po cijeni od 𝟕 𝐞𝐮𝐫𝐚 možeš kupiti u Kući tambure. 🎟
 
 [#deidemo](https://www.facebook.com/hashtag/deidemo/)
 
-[![Event location map](https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyB4HdxGiJB3BZvRoYGNVJ2cQufiyu2e3oE&language=hr&markers=size%3Amid%7Ccolor%3Ared%7C45.156654%2C18.0063417&scale=2&size=320x180&zoom=14&style=feature%3Aall%7Celement%3Ageometry%7Ccolor%3A0xf5f5f5%7C&style=feature%3Aall%7Celement%3Alabels.icon%7Cvisibility%3Aoff%7C&style=feature%3Aall%7Celement%3Alabels.text.fill%7Ccolor%3A0x616161%7C&style=feature%3Aall%7Celement%3Alabels.text.stroke%7Ccolor%3A0xf5f5f5%7C&style=feature%3Aadministrative.land_parcel%7Celement%3Alabels.text.fill%7Ccolor%3A0xbdbdbd%7C&style=feature%3Apoi%7Celement%3Ageometry%7Ccolor%3A0xeeeeee%7C&style=feature%3Apoi%7Celement%3Alabels.text.fill%7Ccolor%3A0x757575%7C&style=feature%3Apoi.park%7Celement%3Ageometry%7Ccolor%3A0xe5e5e5%7C&style=feature%3Apoi.park%7Celement%3Alabels.text.fill%7Ccolor%3A0x9e9e9e%7C&style=feature%3Aroad%7Celement%3Ageometry%7Ccolor%3A0xffffff%7C&style=feature%3Aroad.arterial%7Celement%3Alabels.text.fill%7Ccolor%3A0x757575%7C&style=feature%3Aroad.highway%7Celement%3Ageometry%7Ccolor%3A0xdadada%7C&style=feature%3Aroad.highway%7Celement%3Alabels.text.fill%7Ccolor%3A0x616161%7C&style=feature%3Aroad.local%7Celement%3Alabels.text.fill%7Ccolor%3A0x9e9e9e%7C&style=feature%3Atransit.line%7Celement%3Ageometry%7Ccolor%3A0xe5e5e5%7C&style=feature%3Atransit.station%7Celement%3Ageometry%7Ccolor%3A0xeeeeee%7C&style=feature%3Awater%7Celement%3Ageometry%7Ccolor%3A0xc9c9c9%7C&style=feature%3Awater%7Celement%3Alabels.text.fill%7Ccolor%3A0x9e9e9e%7C&signature=MxlaboYerivIDU3c6bFy9g4ivdk=)](https://www.google.com/maps/search/?api=1&query=45.156654,18.0063417)
+[![[~/×/dfac2df5fd5f74eda1e7603d48e85e1a_MD5.png]]](https://www.google.com/maps/search/?api=1&query=45.156654,18.0063417)

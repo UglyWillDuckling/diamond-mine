@@ -21,7 +21,7 @@ The most common format for public key certificates is defined by [X.509](https:/
 
 ## Types of certificate
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Chain_of_trust_v2.svg/220px-Chain_of_trust_v2.svg.png)
+![[~/×/19921636ac911b948beafac6a99ba0d3_MD5.png]]
 
 The roles of root certificate, intermediate certificate and end-entity certificate as in the [chain of trust](https://en.wikipedia.org/wiki/Chain_of_trust "Chain of trust").
 
@@ -60,7 +60,7 @@ An end-entity or leaf certificate is any certificate that cannot sign other cert
 
 ### Subject Alternative Name certificate
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Subject_Alt_Names_on_Firefox_90_screenshot.png/300px-Subject_Alt_Names_on_Firefox_90_screenshot.png)
+![[~/×/c0e6a3a6b6ae26eec0f10d6cc950fb42_MD5.png]]
 
 An example of a Subject Alternative Name section for domain names owned by the [Wikimedia Foundation](https://en.wikipedia.org/wiki/Wikimedia_Foundation "Wikimedia Foundation")
 
@@ -79,7 +79,7 @@ As shown in the picture of Wikimedia's section on the right, the SAN field can c
 
 ### Wildcard certificate
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Let%E2%80%99s_Encrypt_example_certificate_on_Firefox_94_screenshot.png/300px-Let%E2%80%99s_Encrypt_example_certificate_on_Firefox_94_screenshot.png)
+![[~/×/9c8c5984740c82dd5c0544528d6fd8e5_MD5.png]]
 
 An example of a wildcard certificate on comifuro.net (note the [asterisk](https://en.wikipedia.org/wiki/Asterisk "Asterisk"): `*`)
 
@@ -245,7 +245,7 @@ In the European Union, [(advanced) electronic signatures](https://en.wikipedia.o
 
 ## Certificate authorities
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/PublicKeyCertificateDiagram_It.svg/550px-PublicKeyCertificateDiagram_It.svg.png)
+![[~/×/9770fde17737fb6d90049c730aac2428_MD5.png]]
 
 The procedure of obtaining a Public key certificate
 

@@ -49,7 +49,7 @@ Također ilustriraju opasan krajolik u kojemu su živjeli. "Tragovi na lubanji u
 
 "Postoje različite ideje o tome kakvu su ulogu moderni ljudi igrali u izumiranju neandertalaca. Smatramo barem vjerojatnim da se relativno mala nadolazeća moderna ljudska populacija možda spojila s dijelom vjerojatno još manje neandertalske populacije u regiji u to vrijeme. Budući da njihov DNK postoji u današnjim ljudskim genomima, oni su - na neki način - živi i zdravi i uspješniji nego ikada", rekao je Sümer.
 
-![](https://www.index.hr/Content/img/article-cta.svg)
+![[~/×/8290c409e14d741570491fbc21769aaf_MD5.svg]]
 
 Imate važnu priču? Javite se na **[desk@index.hr](https://www.index.hr/mobile/vijesti/clanak/krizanje-homo-sapiensa-s-neandertalcima-dogodilo-se-kasnije-nego-sto-se-mislilo/)** ili klikom **[ovdje](https://www.index.hr/mobile/posaljite-pricu)**. Atraktivne fotografije i videe plaćamo.
 

@@ -17,7 +17,7 @@ The Bight of Benin was named after the [Kingdom of Benin](https://en.m.wikipedia
 
 Historical associations with the [Atlantic slave trade](https://en.m.wikipedia.org/wiki/Atlantic_slave_trade "Atlantic slave trade") led to the region becoming known as the [Slave Coast](https://en.m.wikipedia.org/wiki/Slave_Coast_of_West_Africa "Slave Coast of West Africa"). As in many other regions across [Africa](https://en.m.wikipedia.org/wiki/Africa "Africa"), powerful indigenous kingdoms along the Bight of Benin relied heavily on a long established slave trade that expanded greatly after the arrival of European powers and became a global trade with the [colonization of the Americas](https://en.m.wikipedia.org/wiki/Colonization_of_the_Americas "Colonization of the Americas").[^2] Estimates from the 1640s suggest that Benin (Beneh) took in 1200 slaves a year. Restrictions made it hard for slave volume to grow until new states and different routes began to make an increase in slave trade possible.[^3]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/K%C3%BCste_Benin_Hafen_Cotonou.JPG/265px-K%C3%BCste_Benin_Hafen_Cotonou.JPG)
+![[~/×/7460b338486fcbf46efc8b1754d7fe4c_MD5.jpg]]
 
 The coast of Benin with Cotonou port in the background
 

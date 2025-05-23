@@ -11,7 +11,7 @@ tags:
 related:
   - "[[Game Boy Color]]"
 ---
-![icon|50](https://kraken.ignimgs.com/favicon.ico)
+![[~/×/2a96d4b02f4b60da6599569eca2e68d0_MD5.ico|50]]
 
 No ads, unlimited game maps,  
 free games, discounts and more

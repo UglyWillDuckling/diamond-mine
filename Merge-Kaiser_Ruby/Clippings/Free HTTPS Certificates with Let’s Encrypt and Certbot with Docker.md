@@ -56,7 +56,7 @@ $domain = "my.domain.eu"$email = "info@domain.eu"docker run -it --rm --name cert
 
 After the process is completed, here is the output:
 
-![](https://miro.medium.com/v2/resize:fit:700/1*O_Rrp-yUeOOf5paA3IL6rg.png)
+![[~/×/d96a81eed57e6e0983251a8f3ba05c4d_MD5.png]]
 
 [https://eff-certbot.readthedocs.io/en/latest/using.html#where-are-my-certificates](https://eff-certbot.readthedocs.io/en/latest/using.html#where-are-my-certificates)
 
@@ -78,7 +78,7 @@ Explanation:
 
 My initial goal was to use this certificate on **Azure App Service**, but when I tried to upload my brand new pfx, I got this error:
 
-![](https://miro.medium.com/v2/resize:fit:617/1*3Vzgmj3GPGYGBOL4ZzZ_vQ.png)
+![[~/×/25cdcab678930a02a513f9ef1c7183c9_MD5.png]]
 
 So, an additional step is needed (**re-encrypt the pfx in Windows**) to allow Azure to validate it.
 
@@ -93,6 +93,6 @@ So, an additional step is needed (**re-encrypt the pfx in Windows**) to allow Az
 - The Thumbprint is then used to export the certificate to a new PFX file for Azure import.
 - After that, it can safely be uploaded to Azure App Service Certificates storage
 
-![Add the new cert on Azure Certificates storage](https://miro.medium.com/v2/resize:fit:700/1*ZywTvCjO8n6aA9giFogLww.png)
+![[~/×/5f23c1571f5cd894936730d202c80fb6_MD5.png]]
 
 Add the new cert on Azure Certificates storage

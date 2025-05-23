@@ -10,7 +10,7 @@ favicon: https://doc.dovecot.org/favicon.ico
 related:
   - "[[prepare for migration]]"
 ---
-![icon](https://doc.dovecot.org/favicon.ico)
+![[~/×/2bbff94f3e43ec77e6f24450f2586bcd_MD5.ico]]
 
 ## [General](https://doc.dovecot.org/2.3/admin_manual/migrating_mailboxes/#id5)[¶](https://doc.dovecot.org/2.3/admin_manual/migrating_mailboxes/#general "Permalink to this heading")
 

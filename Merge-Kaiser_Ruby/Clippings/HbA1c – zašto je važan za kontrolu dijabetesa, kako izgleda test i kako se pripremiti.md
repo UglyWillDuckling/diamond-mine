@@ -23,7 +23,7 @@ Veliku većinu hemoglobina odraslih čini hemoglobin A.
 
 Na pretragu trebate otići **ako sumnjate** da imate dijabetes (učestalo mokrenje, stalna žeđ, umor). No bez obzira na kvalitetu rezultata same pretrage, uvijek je potrebna dodatna pretraga (OGTT) kako bi se dijagnosticirao dijabetes. **Ako** vam **je** dijabetes već **dijagnosticiran,** HbAc1 test se preporučuje **dvaput godišnje ili svaka tri mjeseca**. Kad ili ako se utvrdi povišena vrijednost HbA1c, liječnik propisuje terapiju kojom se pokušava sniziti razina glukoze u krvi.
 
-![mjerenje-glukoze-u-krvi](https://krenizdravo.dnevnik.hr/wp-content/uploads/2016/12/mjerenje-glukoze-u-krvi.jpg?x38585)
+![[~/×/8e775ec978cec7f36ec4f73f2fd4e90e_MD5.jpg]]
 
 Kontrolom, odnosno snižavanjem HbA1c, **sprječava se nastanak ili razvoj** **kroničnih komplikacija šećerne bolesti**. To su mikrovaskularne komplikacije: **retinopatija, neuropatija** i **dijabetička nefropatija** (bolest bubrega). Oni kojima se razina HbA1c snizi za barem 1% imaju manji rizik od **katarakte**, **zatajenja srca** i **amputacije udova** ili **smrti** zbog **bolesti perifernih arterija**.
 
@@ -39,7 +39,7 @@ Riječ je o krvnoj pretrazi. **Uzorak krvi** dobiva se vađenjem krvi iz vene u 
 
 **Cilj terapije** osoba oboljelih od dijabetesa je održati razinu **HbA1c između** tih vrijednosti, odnosno **6.5% i 7%**. Terapija u tom slučaju uključuje **promjenu prehrane**, propisivanje **dodatne fizičke aktivnosti,** **lijekova** ili kombinaciju sva tri elementa.
 
-![za-trcanje-s-dijabetesom](https://krenizdravo.dnevnik.hr/wp-content/uploads/2016/12/za-trcanje-s-dijabetesom.jpg?x38585)
+![[~/×/4385542e902c1e8b6b1b0eee419bccfa_MD5.jpg]]
 
 ### Kako se pripremiti za pretragu?
 

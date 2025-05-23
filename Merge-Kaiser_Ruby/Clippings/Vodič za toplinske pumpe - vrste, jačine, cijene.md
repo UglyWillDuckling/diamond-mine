@@ -23,7 +23,7 @@ Kako funkcioniraju toplinske pumpe? One prenose toplinsku energiju iz okruženja
 
 > U usporedbi s drugim vrstama grijanja na struju, toplinske pumpe su znatno ekonomičnije.
 
-![toplinska-pumpa.jpg](https://www.emajstor.hr/showfile.php?uuid=601716d86da87e4feef528007da45fd51cb9c45e)
+![[~/×/870101530a9cf2b77116b6b6a57c44f3_MD5.jpg]]
 
 Toplinska pumpa, u prosjeku, na 1 kW električne energije proizvede 4 kW toplinske energije.
 
@@ -41,7 +41,7 @@ Toplinska pumpa zrak-voda ima najmanji COP (koeficijent učinkovitosti), koji iz
 
 Ovaj tip toplinske pumpe bolji je izbor za manje prostore. Iako ima manji COP od ostalih vrsta, kod takvih prostora manja je potrošnja energije, stoga nije nužno ulagati u veće, složenije sustave.
 
-![toplinska-pumpa-zrak-voda.jpg](https://www.emajstor.hr/showfile.php?uuid=5b7ef336fabca9bae752eeca078cb20634bf86ed)
+![[~/×/91de08cef108ca5ab20606b5ba39fe74_MD5.jpg]]
 
 Toplinska pumpa zrak-voda najčešći je izbor zbog jednostavne montaže i najniže cijene.
 
@@ -53,7 +53,7 @@ Ipak, treba napomenuti da toplinska pumpa zrak-voda ima jedan nedostatak u odnos
 
 Toplinska pumpa voda-voda zahtijeva složenije zemljane radove i pristup podzemnim vodama. Zbog toga je ovaj sustav znatno skuplji od toplinske pumpe zrak-voda. Cijena toplinske pumpe voda-voda kreće se između **9000 i 12000 EUR** (bez ulaganja u razvodni sustav, podno ili radijatorsko grijanje).
 
-![toplotna-pumpa-voda-voda.jpg](https://www.emajstor.hr/showfile.php?uuid=c178da98fdc8de786d3ca5977e43e9e992d41c6e)
+![[~/×/2e40166dede3efdb21ed9a1298d5243b_MD5.jpg]]
 
 Toplinska pumpa voda-voda zahtijeva složenije zemljane radove.
 
@@ -75,7 +75,7 @@ Toplinska pumpa zemlja-voda također ima dobar koeficijent učinkovitosti. Njezi
 
 Odabir tipa toplinske pumpe ovisi o terenskim uvjetima, energetskim potrebama kućanstva, veličini objekta i raspoloživom proračunu.
 
-![instalacija-toplotne-pumpe.jpg](https://www.emajstor.hr/showfile.php?uuid=57230bf3443541b4e75600eead8d8e5b167ed5a4)
+![[~/×/bd7d45a68881597513ebf4fb03f11373_MD5.jpg]]
 
 Snagu toplinske pumpe najbolje će odrediti odabrana firma, tj. stručnjaci za toplinske pumpe.
 
@@ -89,7 +89,7 @@ Snaga toplinske pumpe ovisi o **kvaliteti izolacije.** Ako je toplinska izolacij
 
 > Kad govorimo o energetski učinkovitoj kući, jedna od glavnih stvari o kojoj treba razmišljati je izolacija fasade.
 
-![izolacija-fasade.jpg](https://www.emajstor.hr/showfile.php?uuid=a2cf7ea7598cbf5b5a508c6c4e3d8eafcbac3c8c)
+![[~/×/46606c443355828263c371b641277e74_MD5.jpg]]
 
 Jačina toplinske pumpe ovisit će od kvalitete izolacije.
 
@@ -111,7 +111,7 @@ Tražite nekoga kome biste povjerili ugradnju toplinske pumpe? Pošaljite [upit]
 
 Toplinske pumpe karakterizira dug radni vijek, koji traje do **25 godina i više,** s vrlo niskim operativnim troškovima. Premda toplinska pumpa zahtijeva veću početnu investiciju (što mnoge i odvraća od kupnje), ona se višestruko isplati. Uložena investicija u prosjeku se vraća nakon 5 godina, nakon čega toplinska pumpa donosi čistu dobit.
 
-![isplativost-toplotne-pumpe.jpg](https://www.emajstor.hr/showfile.php?uuid=f7eee66e249cdf5e95add356a37a1be400d49cda)
+![[~/×/1b6a217f23fa338976712c25a32e565d_MD5.jpg]]
 
 Uložena investicija se u prosjeku vraća poslije 5 godina, nakon čega toplinska pumpa donosi čistu dobit.
 
@@ -123,7 +123,7 @@ Kod drugih sustava grijanja postoje veće obaveze - dopunjavanje peleta, cijepan
 
 Često mnoge tvrtke, tijekom trajanja garantnog roka, nude besplatno servisiranje i održavanje toplinskih pumpi. Redovnim održavanjem osigurava se pravilno funkcioniranje sustava i sprječavaju veći kvarovi koji su skuplji i zahtjevniji za popravak.
 
-![servis-toplotne-pumpe.jpg](https://www.emajstor.hr/showfile.php?uuid=023983859e5cd0b2fd52f25265d5df5e1fff4332)
+![[~/×/35b6bcf70b460345888dbca2eb06856b_MD5.jpg]]
 
 Redovnim održavanjem se osigurava pravilno funkcioniranje sistema i izbjegavaju veći kvarovi, skuplji i zahtjevniji za popravak.
 
@@ -139,7 +139,7 @@ Drugi nedostatak toplinske pumpe su **složeni zemljani radovi,** međutim, to s
 
 Jeste li znali da ćete učinkovitost toplinske pumpe maksimalno iskoristiti ako je kombinirate s podnim grijanjem? Budući da vodeno podno grijanje radi na niskim temperaturama koje ne prelaze 40 stupnjeva (uglavnom od 21 do 28 stupnjeva), toplinska pumpa može u svakom trenutku osigurati dovoljnu temperaturu vode za funkcioniranje podnog grijanja.
 
-![hidraulicko-podno-grejanje.jpg](https://www.emajstor.hr/showfile.php?uuid=e1670d0db2c473ab4c34f7b54ffb0a0e78b2e6db)
+![[~/×/300399ed13d2bd24c67aae1e61223ba3_MD5.jpg]]
 
 Jeste li znali da ćete toplinske pumpe maksimalno iskoristiti ako je kombinirate s podnim grijanjem?
 
@@ -151,7 +151,7 @@ Koliko košta [podno grijanje](https://www.emajstor.hr/cijene/podno_grijanje)? Z
 
 Tražite nekoga kome biste povjerili ugradnju podnog grijanja? Pošaljite [upit](https://www.emajstor.hr/objavi_upit) odgovarajućim i ocijenjenim stručnjacima za podno grijanje u vašoj okolini – besplatno i bez obaveza!
 
-![toplotna-pumpa-podno-grijanje.jpg](https://www.emajstor.hr/showfile.php?uuid=1f46b64c243adb5f1ef57690dd4c1babf2691685)
+![[~/×/765c8314cf41f2093d899c314ca5a1c9_MD5.jpg]]
 
 Toplinska pumpa i podno grijanje.
 

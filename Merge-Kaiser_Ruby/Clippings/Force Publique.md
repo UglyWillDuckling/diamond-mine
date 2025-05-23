@@ -15,11 +15,11 @@ The ***Force Publique*** (French: [\[fɔʁs pyblik\]](https://en.m.wikipedia.org
 
 ## Under the Congo Free State
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Vauthier_Rene_Le_Congo_Belge_159_Les_sentinelles_de_la_Princesse_Clementine.JPG/220px-Vauthier_Rene_Le_Congo_Belge_159_Les_sentinelles_de_la_Princesse_Clementine.JPG)
+![[~/×/543b7d15a00bb265ac15ea67dbb31e01_MD5.jpg]]
 
 *Force Publique* soldiers photographed in 1900
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Force_publique01.jpg/175px-Force_publique01.jpg)
+![[~/×/9f0a41e4ef484bbff3bf9ba85bf262d7_MD5.jpg]]
 
 Two *Force Publique* soldiers at [Fort Shinkakasa](https://en.m.wikipedia.org/wiki/Fort_de_Shinkakasa "Fort de Shinkakasa"). Shown are the blue and red uniforms worn until 1915
 
@@ -37,7 +37,7 @@ During the Free State period, the *Force Publique* suffered from institutional p
 
 ### Organisation and role
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/COLLECTIE_TROPENMUSEUM_Soldaten_in_uniform_met_geweren_met_bajonetten_TMnr_60032115.jpg/220px-COLLECTIE_TROPENMUSEUM_Soldaten_in_uniform_met_geweren_met_bajonetten_TMnr_60032115.jpg)
+![[~/×/10b4723a44cae3ecccf174991daa93f6_MD5.jpg]]
 
 *Force Publique* soldiers some time after 1910
 
@@ -45,7 +45,7 @@ Following the takeover of the Free State by the Belgian government in 1908, the 
 
 The uniforms of the old Free State remained in use among the *Force Publique* until the [First World War](https://en.m.wikipedia.org/wiki/First_World_War "First World War"): Belgian officers wore white uniforms until late 1914,[^footnoteabbott200911,_31,_46-16] while the blue uniform (with red trim around the neck and down the front opening), red [fez](https://en.m.wikipedia.org/wiki/Fez_\(clothing\) "Fez (clothing)") and [sash](https://en.m.wikipedia.org/wiki/Sash "Sash") of the askaris was phased out in a series of changes during 1915–1917.[^footnoteabbott200931,_47-17] Thereafter, officers and askaris wore a variety of khaki uniforms.[^footnoteabbott200931,_46,_47-18]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/La_d%C3%A9fense_de_drapeau%2C_Force_publique_-_Soci%C3%A9t%C3%A9_de_G%C3%A9ographie_%281928%29.jpeg/250px-La_d%C3%A9fense_de_drapeau%2C_Force_publique_-_Soci%C3%A9t%C3%A9_de_G%C3%A9ographie_%281928%29.jpeg)
+![[~/×/de5fc14325a7bd1f14aede2e4f2b60a6_MD5.jpg]]
 
 The *Force Publique*, 1928
 
@@ -57,7 +57,7 @@ The 2,875 men of the *Troupes du Katanga* constituted a semi-autonomous force of
 
 Lastly, there was the *Compagnie d'Artillerie et de Génie* (Artillery and Engineers Company) manning [Fort de Shinkakasa](https://en.m.wikipedia.org/wiki/Fort_de_Shinkakasa "Fort de Shinkakasa") at the mouth of the [Congo River](https://en.m.wikipedia.org/wiki/Congo_River "Congo River") in [Boma](https://en.m.wikipedia.org/wiki/Boma,_Kongo_Central "Boma, Kongo Central"). The fort contained eight 160mm guns manned by 200 men,[^auto-19] plus an equal-sized auxiliary force, which saw little or no service during the war.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Force_publique_1916.png/220px-Force_publique_1916.png)
+![[~/×/f3d61538c419ec38ecd3c9f83db40b59_MD5.png]]
 
 Map of the 1916 campaign by the *Force Publique* during the [East African campaign](https://en.m.wikipedia.org/wiki/East_African_campaign_\(World_War_I\) "East African campaign (World War I)")
 
@@ -65,7 +65,7 @@ In 1914, the *Force Publique*, including the Katanga companies, totalled about 1
 
 During the First World War (1914–18), an expanded *Force Publique* served against [German colonial forces](https://en.m.wikipedia.org/wiki/Schutztruppe "Schutztruppe") in [Kamerun](https://en.m.wikipedia.org/wiki/Kamerun "Kamerun") and [German East Africa](https://en.m.wikipedia.org/wiki/German_East_Africa "German East Africa") ([Tanzania](https://en.m.wikipedia.org/wiki/Tanzania "Tanzania"), [Rwanda](https://en.m.wikipedia.org/wiki/Rwanda "Rwanda"), [Burundi](https://en.m.wikipedia.org/wiki/Burundi "Burundi")), as part of the [East African campaign](https://en.m.wikipedia.org/wiki/East_African_campaign_\(World_War_I\) "East African campaign (World War I)"). The *Force Publique* performed well on the battlefield, winning the respect of their British and Portuguese allies, as well as that of their German opponents.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Congo_belge_campagne_1918.jpg/280px-Congo_belge_campagne_1918.jpg)
+![[~/×/78ab747fdba683bff9ceb77ddc5f911d_MD5.jpg]]
 
 The *Force Publique* in [German East Africa](https://en.m.wikipedia.org/wiki/German_East_Africa "German East Africa") during the First World War.
 
@@ -75,7 +75,7 @@ After the [First World War](https://en.m.wikipedia.org/wiki/First_World_War "Fir
 
 On 10 May 1919, the Belgian colonial administration issued a decree formally reorganising the *Force Publique* into two branches. The *troupes campées* was tasked with guarding the border and protecting the colony from external aggression, while the *troupes en service territoriale* was responsible for maintaining internal security. Battalions from the latter were assigned to every provincial capital, while companies were stationed at each district headquarters.[^footnotethomas2012305-23]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Belgian_Congo_enlisting_for_the_Force_Publique.jpg/280px-Belgian_Congo_enlisting_for_the_Force_Publique.jpg)
+![[~/×/1073f4e993bf47b12fe8c9e8f49e3a45_MD5.jpg]]
 
 Congolese enlisting in the *Force Publique* during the Second World War, c. 1943.
 
@@ -91,7 +91,7 @@ The *Force Publique* also sent the 10th Belgian Congo Casualty Clearing Station 
 
 At the end of 1940, the *FP* headquarters, recognising the need for aviation support for the force, began forming the *Aviation militaire de la Force Publique* equipped with requisitioned civilian machines and based at [N'Dolo Airport](https://en.m.wikipedia.org/wiki/N%27Dolo_Airport "N'Dolo Airport") in Leopoldville. The first machine purchased for the force was a [de Havilland DH.85 Leopard Moth](https://en.m.wikipedia.org/wiki/De_Havilland_Leopard_Moth "De Havilland Leopard Moth") that entered service on 9 October 1940.[^baudoux-30]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Congolese_gendarmerie_unit_formed_in_L%C3%A9opoldville%2C_1959.jpg/160px-Congolese_gendarmerie_unit_formed_in_L%C3%A9opoldville%2C_1959.jpg)
+![[~/×/8be2040f92e5fea9d17124d1ae2a2741_MD5.jpg]]
 
 [Gendarmerie](https://en.m.wikipedia.org/wiki/Gendarmerie "Gendarmerie") unit in Léopoldville, 1959
 
@@ -99,7 +99,7 @@ For the remainder of the period of Belgium's rule, the *Force Publique* continue
 
 In 1945, the *FP* mobile units consisted of 6 battalions of infantry (the V battalion at [Stanleyville](https://en.m.wikipedia.org/wiki/Stanleyville,_Belgian_Congo "Stanleyville, Belgian Congo"), the VI battalion at [Watsa](https://en.m.wikipedia.org/wiki/Watsa "Watsa"), the VIII battalion at Luluabourg, the XI battalion at [Rumangabo](https://en.m.wikipedia.org/wiki/Rumangabo "Rumangabo"), the XII battalion at [Elizabethville](https://en.m.wikipedia.org/wiki/Lubumbashi "Lubumbashi"), and the XIII battalion at [Léopoldville](https://en.m.wikipedia.org/wiki/L%C3%A9opoldville "Léopoldville")), 3 reconnaissance units, military police units, a brigade under training at Camp Hardy, still under construction at [Thysville](https://en.m.wikipedia.org/wiki/Thysville "Thysville"), 4 coastal defence guns, and a small aviation element including 2 [De Havilland DH.104 Doves](https://en.m.wikipedia.org/wiki/De_Havilland_DH.104_Dove "De Havilland DH.104 Dove").[^31]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/King_Baudouin_of_Belgium_reviews_Congolese_troops_after_his_arrival_in_the_Congo_for_independence_ceremonies_-_Congopresse_3.jpg/270px-King_Baudouin_of_Belgium_reviews_Congolese_troops_after_his_arrival_in_the_Congo_for_independence_ceremonies_-_Congopresse_3.jpg)
+![[~/×/f17e8bdf1f127da29ae8db2b48f822f1_MD5.jpg]]
 
 [King Baudouin of the Belgians](https://en.m.wikipedia.org/wiki/Baudouin_of_the_Belgians "Baudouin of the Belgians") reviews the *Force Publique* on 29 June 1960, the penultimate day of Belgian rule
 
@@ -109,7 +109,7 @@ In 1960, the *Force Publique* comprised 3 *groupements* (Groups) each of which c
 
 Vanderstraeten reported the dispositions of the *Force Publique* in July 1960 as:[^37]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/1956_Force_Publique_map_Atlas_General_du_Congo_67.jpg/200px-1956_Force_Publique_map_Atlas_General_du_Congo_67.jpg)
+![[~/×/a7f2e1776f507764c2b23b0fc2a47335_MD5.jpg]]
 
 Map showing distribution of the *Force Publique*, 1956
 
@@ -122,7 +122,7 @@ Map showing distribution of the *Force Publique*, 1956
 
 Total strength of the Force Publique immediately prior to independence was 22,403 Congolese regular soldiers and NCOs, 599 European NCOs, and 444 European officers.[^footnoteabbott201410-2]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Monument_Albert_Kinshasa_5.JPG/220px-Monument_Albert_Kinshasa_5.JPG)
+![[~/×/6034018c0c8ea6d34cfa7730e6c11926_MD5.jpg]]
 
 [His Excellency](https://en.m.wikipedia.org/wiki/His_Excellency "His Excellency") [Pierre Ryckmans](https://en.m.wikipedia.org/wiki/Pierre_Ryckmans_\(governor-general\) "Pierre Ryckmans (governor-general)"), [Governor-General of the Belgian Congo](https://en.m.wikipedia.org/wiki/Governor-General_of_the_Belgian_Congo "Governor-General of the Belgian Congo"), reviews *FP* troops at the inauguration of the monument to [King Albert I](https://en.m.wikipedia.org/wiki/Albert_I_of_the_Belgians "Albert I of the Belgians") in [Léopoldville](https://en.m.wikipedia.org/wiki/L%C3%A9opoldville "Léopoldville"), 1938
 

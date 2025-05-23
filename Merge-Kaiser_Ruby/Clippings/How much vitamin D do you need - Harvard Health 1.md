@@ -9,7 +9,7 @@ description: "Despite widespread assertions in the popular and scientific press 
 tags:
   - "clippings"
 ---
-![ae7dd8d0-a856-437c-9c81-4a57842e0e34](https://domf5oio6qrcr.cloudfront.net/medialibrary/15990/ae7dd8d0-a856-437c-9c81-4a57842e0e34.jpg)
+![[~/×/b57b94fbc7fc5bf9ffbddff2c5c4a256_MD5.jpg]]
 
 Despite widespread assertions in the popular and scientific press that many Americans have a vitamin D deficiency, the term "deficiency" isn't strictly accurate. The official definition of a vitamin deficiency means that specific health problems stem solely from the lack of (or inability to use) a specific nutrient. An actual vitamin D deficiency results in bone disease, such as rickets, which is rare in the United States. 
 
@@ -17,7 +17,7 @@ On the other hand, lower-than-optimal levels of specific vitamins, including vit
 
 So far, the most clearly established benefit of vitamin D is that it helps the body absorb calcium and therefore promotes healthy bones. However, a steady drumbeat of studies beginning in the 1980s started to build a case that low blood levels of D were connected with a variety of chronic health problems, leading to claims by a number of researchers that the RDA for D was way too low. The confusion and controversy surrounding optimal vitamin D intake and blood values prompted the U.S. and Canadian governments to request that the Institute of Medicine (IOM, now called the Health and Medicine Division) review the evidence on vitamin D and calcium and update the DRIs. 
 
-![](https://domf5oio6qrcr.cloudfront.net/medialibrary/13048/Vitamins_VM0822_Cover.jpg)
+![[~/×/de34e00e41fb3949f5ed985317f7aea1_MD5.jpg]]
 
 About half of all Americans routinely take dietary supplements. The most common ones are multivitamin and multimineral supplements. Making Sense of Vitamins and Minerals: Choosing the foods and nutrients you need to stay healthy explains the evidence behind the benefits and safety profiles of various vitamins and minerals. It also includes the recommended minimum and maximum amounts you should consume, as well as good food sources of each.
 

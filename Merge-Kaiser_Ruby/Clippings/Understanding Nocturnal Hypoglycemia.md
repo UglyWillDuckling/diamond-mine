@@ -117,7 +117,7 @@ If you do have to treat your hypoglycemia to immediately raise your blood sugar 
 - Eat 15 grams of carbohydrates (this can include four glucose tablets or four ounces of fruit juice)
 - Check the blood sugar 15 minutes later
 
-![Yvelette Stines](https://www.verywellhealth.com/thmb/cUYjVYeAP7UYjbkNw4PTFlFbnXk=/144x144/filters:no_upscale():max_bytes(150000):strip_icc()/Stines_0298-db897a176ffb48a0a5abf4ac9edd5b42.jpg)
+![[~/×/68ca752d6433e3752c4196ae2a98b7e9_MD5.jpg]]
 
 By [Yvelette Stines](https://www.verywellhealth.com/yvelette-stines-5077313)  
 Stines is a Michigan-based health writer, book author, and communications specialist.

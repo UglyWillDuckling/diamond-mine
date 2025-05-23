@@ -22,7 +22,7 @@ tags:
 
 According to Aztec beliefs, the current era is the **fifth age**. The previous four ages were defined by their unique sun—each of which was ultimately destroyed. After the fourth sun was destroyed, the Aztec gods gathered together to create the fifth and final sun: **Tonatiuh**.
 
-![Tonatiuh Codex Borgia](https://media.mythopedia.com/21EKbS0AKwfrfXruHcgNy6/1ac7ba836db3e7e61a291268db7404bf/Tonatiuh_6_b.jpg?w=1920&q=60&auto=compress,format)
+![[~/×/c23617863758a8e8b7a94a550c18d39c_MD5.jpg]]
 > Tonatiuh as depicted in the 16th-century Codex Borgia.
 [FAMSI](http://www.famsi.org/research/loubat/Borgia/thumbs1.html)Public Domain
 
@@ -38,7 +38,7 @@ The Aztecs frequently referred to their gods by multiple names, and Tonatiuh was
 
 Tonatiuh was usually depicted wearing red paint and an eagle headdress.
 
-![Codex Telleriano Remensis Pg 46 Detail](https://media.mythopedia.com/5Xv7OfRErzO1vGjhOw2u4H/9f1e06572584dbb69578aa43410f73e9/codex-telleriano-remensis-page-46r-detail.jpg?w=1920&q=60&auto=compress,format)
+![[~/×/244619820c88c787bec63cb9714f2d24_MD5.jpg]]
 
 This vignette from the Codex Telleriano-Remensis illustrates the death of the conquistador Pedro de Alvarado. The sun above his head references his nickname, which he shared with the sun god.
 
@@ -57,7 +57,7 @@ Nanahuatzin was closely linked to the god Xolotl—so closely, in fact, that the
 
 Tonatiuh was formed by the Aztec gods following the destruction of the fourth age. His creation required the sacrifice of gods, and setting him in motion required still more blood to be spilled. Even once set in motion, however, the Aztecs did not believe Tonatiuh to be eternal, predicting his destruction by earthquakes. The Aztecs held that when Tonatiuh’s end eventually arrived, humanity would be destroyed.
 
-![Figure of Aztec Sun God Tonatiuh National Academy of Sciences Washington DC](https://media.mythopedia.com/1DgPKOPUDxIS9B4zdl2BT0/bb913e02ad00e58e3a42699dd44ebd1e/figure-of-aztec-sun-god-tonatiuh-_national-academy-of-sciences-washington-dc-loc.jpg?w=1920&q=60&auto=compress,format)
+![[~/×/722a92fd2134aeb75d2dc41e099dc7f9_MD5.jpg]]
 
 This Tonatiuh relief appears alongside images of other [[National Academy of Sciences Washington]] building in Washington, D.C.
 
@@ -97,7 +97,7 @@ Ehecatl would not back down, however:
 
 According to [Aztec mythology](https://contentful-migration.mythopedia.com/aztec-mythology/), the universe had existed through five distinct ages, each with its own sun. The previous four eras had met with destructive fates predicted by the names of the suns that governed them. The suns themselves were named for the days on which their ages began—a naming practice that carried over to gods as well as individuals.
 
-![Aztec Stone of the Sun at National Anthropology Museum in Mexico City](https://media.mythopedia.com/2XXzv0NbHnQlHxWOToukCz/b70da571bb334f0de014144512718c61/aztec-stone-of-the-sun-at-national-anthropology-museum-in-mexico-city.jpg?w=1920&q=60&auto=compress,format)
+![[~/×/c233ae050ee2cb81a3d7e7ad8d922df0_MD5.jpg]]
 
 The central disk of the massive Stone of the Sun at the National Anthropology Museum in Mexico City features Tonatiuh at its center. He is surrounded by the previous four suns.
 

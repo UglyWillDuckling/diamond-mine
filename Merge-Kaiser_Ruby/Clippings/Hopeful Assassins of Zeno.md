@@ -11,7 +11,7 @@ tags:
 ---
 <table><tbody><tr><th colspan="2">Hopeful Assassins of Zeno</th></tr><tr><td colspan="2"><figure><a href="https://static.wikia.nocookie.net/themountaingoats/images/e/e4/Songs_for_pierre_chuvin.jpg/revision/latest?cb=20200414174429"><img width="300" height="300" src="https://static.wikia.nocookie.net/themountaingoats/images/e/e4/Songs_for_pierre_chuvin.jpg/revision/latest/scale-to-width-down/300?cb=20200414174429"></a></figure><br><i></i></td></tr><tr><td><p><b>Album</b></p></td><td><p>Songs for Pierre Chuvin</p></td></tr><tr><td><p><b>Released</b></p></td><td><p>April 10, 2020</p></td></tr><tr><td><p><b>Length</b></p></td><td><p>3:15</p></td></tr><tr><td><p><b>Previous Track</b></p></td><td><p>"<a href="https://themountaingoats.fandom.com/wiki/January_31,_438">January 31, 438</a>"</p></td></tr><tr><td><p><b>Next Track</b></p></td><td><p>"<a href="https://themountaingoats.fandom.com/wiki/Their_Gods_Do_Not_Have_Surgeons">Their Gods Do Not Have Surgeons</a>"</p></td></tr><tr><td colspan="2"><svg><use href="#wds-icons-menu-control-small"></use></svg></td></tr></tbody></table>
 
-![Hopeful Assassins Of Zeno Lyrics](https://static.wikia.nocookie.net/themountaingoats/images/b/b7/Hopeful_Assassins_Of_Zeno_Lyrics.jpg/revision/latest/scale-to-width-down/2167?cb=20200818013910)
+![[~/×/7e75db8536d7244dfc76db98c3d05b76_MD5.jpg]]
 
 Original lyric sheet for "Hopeful Assassins of Zeno," courtesy of [Reddit.](https://www.reddit.com/r/themountaingoats/comments/ibr17l/i_got_the_hopeful_assassins_of_zeno_lyrics_and/)
 

@@ -74,7 +74,7 @@ const chartData = {
 window.renderChart(chartData, this.container);
 \`\`\`
 ```
-![A simple bar chart in Obsidian.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/02/image-1.png?resize=768%2C396&ssl=1)
+![[~/×/f7fc299b5506796b2d0483c294d83b5b_MD5.png]]
 
 In order to create this type of chart, you need two pieces of data: *labels* and *data*. In the example above, those are stored in the variables called *labels* and *data*. They are both arrays that contain three items, and our chart represents that in the manner above.
 
@@ -126,7 +126,7 @@ window.renderChart(chartData, this.container);
 
 In my own vault, the results of that code look something like this:
 
-![A dynamic bar chart in Obsidian that shows the relative lengths of articles I've been writing.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/02/image-2.png?resize=768%2C396&ssl=1)
+![[~/×/75cf078a9fd25c9c91d5b4b200624924_MD5.png]]
 
 Pretty neat, eh? You can use this same code to display any of the [built in values that Dataview indexes](https://blacksmithgu.github.io/obsidian-dataview/annotation/metadata-pages/).
 
@@ -157,13 +157,13 @@ Once you have this metadata in your notes, you can start to pull it into graphs.
 
 There are a couple of different ways you can visualize this information. If you have multiple habits you want to track, then perhaps the simplest method would be to use a bar chart:
 
-![An example bar chart showing habit completions.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/02/image-3.png?resize=768%2C364&ssl=1)
+![[~/×/fc731eab5b83a216a834512b364ab614_MD5.png]]
 
 Uh oh: looks like I better get back on my workout game.
 
 I also like a line chart for habits. You can either design the chart to be cumulative, or you can do a “streak counter”, where your progress goes back to zero if you miss a day (I find this method is more motivating):
 
-![An example streak counter in Obsidian.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/02/image-4.png?resize=768%2C364&ssl=1)
+![[~/×/4f1a9b422b3c323acd877f067d6e5c0a_MD5.png]]
 
 My longest streak this year is only eight days: another thing I should try to improve!
 
@@ -171,7 +171,7 @@ These two graphs are more complicated to set up, but it’s a great way to visua
 
 See [Streamline Your Day: Enhance Focus and Productivity with RescueTime and Obsidian](https://obsidian.rocks/streamline-your-day-enhance-focus-and-productivity-with-rescuetime-and-obsidian/) if you want to set up this kind of a graph.
 
-![An example of a RescueTime bar graph in Obsidian.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/07/Screenshot-from-2023-07-07-11-25-03.png?resize=1024%2C849&ssl=1)
+![[~/×/c1cd25f1c94eaf0740c0e3c163a8c6d6_MD5.png]]
 
 ## Tracking task completions with graphs
 
@@ -181,7 +181,7 @@ You can also create your own custom data visualizations. For task management, I�
 
 I like to track both *daily* task completions and *monthly*. I find both of these visualizations useful, and I reference them frequently:
 
-![An example graph that shows completed tasks in Obsidian.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/02/image-5.png?resize=768%2C747&ssl=1)
+![[~/×/3441b8835e6e807737c1e27a0c265c41_MD5.png]]
 
 Learn how to make this graph in [Plotting Task Completions with DataviewJS and Obsidian Charts](https://obsidian.rocks/plotting-task-completions-with-dataviewjs-and-obsidian-charts/).
 
@@ -191,7 +191,7 @@ A while back I wrote about [Getting Started with Zettelkasten](https://obsidian.
 
 I ended up with two charts: one is cumulative and the other is a daily report. Here’s what each looks like:
 
-![Zettelkasten analytics in Obsidian.](https://i0.wp.com/forum.obsidian.md/uploads/default/original/3X/c/9/c9f54706d675588ab4d0716be9be2861758f5b40.png?ssl=1)
+![[~/×/cebb523305692251d546b06999313bfe_MD5.png]]
 
 In this case I also added a *table* above the graphs that gives me more direct access to recently created notes. I find this useful, as there’s no way to *explore* notes within the graphs. They are strictly visualizations.
 

@@ -13,10 +13,10 @@ tags:
 
 It is traditionally characterised by being hand-shaped rather than thrown, fairly porous vessels, which result from low firing temperatures, [lead](https://en.m.wikipedia.org/wiki/Lead "Lead")[glazes](https://en.m.wikipedia.org/wiki/Ceramic_glaze "Ceramic glaze") and the removal of pieces from the [kiln](https://en.m.wikipedia.org/wiki/Kiln "Kiln") while still glowing hot. In the traditional Japanese process, the fired raku piece is removed from the hot kiln and is allowed to cool in the open air.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Hon%27ami_Koetsu_Fujisan_1.jpg/220px-Hon%27ami_Koetsu_Fujisan_1.jpg)
+![[~/×/32a790706a1d215664c8f2e20d7aa8db_MD5.jpg]]
 White raku teabowl *Fuji-san* ([Mount Fuji](https://en.m.wikipedia.org/wiki/Mount_Fuji "Mount Fuji")) by [Honami Kōetsu](https://en.m.wikipedia.org/wiki/Honami_K%C5%8Detsu "Honami Kōetsu"), [[Edo period]], **17th century**
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Raku_15.06.2014_11-40-32.jpg/220px-Raku_15.06.2014_11-40-32.jpg)
+![[~/×/cca4d2088a6fc9ca0ae1bf0ea88134a3_MD5.jpg]]
 The final phase in the **Western technique**
 
 The Western version of raku was developed in the 20th century by [studio potters](https://en.m.wikipedia.org/wiki/Studio_potter "Studio potter"). Typically wares are fired at a high temperature, and after removing pieces from the kiln, the wares are placed in an open-air container filled with combustible material, which is not a traditional Raku practice in Japan. The Western process can give a great variety of colors and surface effects, making it very popular with studio and amateur potters.

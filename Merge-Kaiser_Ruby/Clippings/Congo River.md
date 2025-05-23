@@ -17,11 +17,11 @@ The **Congo River**,[^10] formerly also known as the **Zaire River**, is the sec
 
 Measured along with the Lualaba, the main tributary, the Congo River has a total length of 4,370 km (2,720 mi). It is the only major river to cross the [Equator](https://en.m.wikipedia.org/wiki/Equator "Equator") twice.[^12] The [Congo Basin](https://en.m.wikipedia.org/wiki/Congo_Basin "Congo Basin") has a total area of about 4,000,000 km<sup>2</sup> (1,500,000 sq mi), or 13% of the entire African landmass.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Congo_River_with_upstream_half_of_Pool_Malebo_and_Mbamu.jpg/220px-Congo_River_with_upstream_half_of_Pool_Malebo_and_Mbamu.jpg)
+![[~/×/ca23efe51bbb69776b0fadd6fb98e793_MD5.jpg]]
 
 Aerial view from the west of the Congo River with upstream half of [Pool Malebo](https://en.m.wikipedia.org/wiki/Pool_Malebo "Pool Malebo") and [Mbamu](https://en.m.wikipedia.org/wiki/Mbamu "Mbamu")
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/2010-03-07-Kinshasa_depuis_Brazzaville.jpg/220px-2010-03-07-Kinshasa_depuis_Brazzaville.jpg)
+![[~/×/a166f3f5a6d5f2f05787913ec003891b_MD5.jpg]]
 
 [Kinshasa](https://en.m.wikipedia.org/wiki/Kinshasa "Kinshasa") as seen from [Brazzaville](https://en.m.wikipedia.org/wiki/Brazzaville "Brazzaville"), across the [Pool Malebo](https://en.m.wikipedia.org/wiki/Pool_Malebo "Pool Malebo")
 
@@ -35,11 +35,11 @@ The Congo flows generally toward the northwest from [Kisangani](https://en.m.wik
 
 **Lower Congo** constitutes the "lower" parts of the great river; that is the section of the river from the [river mouth](https://en.m.wikipedia.org/wiki/River_mouth "River mouth") at the [Atlantic coast](https://en.m.wikipedia.org/wiki/Atlantic_Ocean "Atlantic Ocean") to the twin capitals of Brazzaville and Kinshasa. In this section of the river, there are two significant tributaries, both on the left or south side. The [Kwilu River](https://en.m.wikipedia.org/w/index.php?title=Kwilu_River_\(Congo_tributary\)&action=edit&redlink=1 "Kwilu River (Congo tributary) (page does not exist)") originates in the hills near the [Angolan](https://en.m.wikipedia.org/wiki/Angola "Angola") [border](https://en.m.wikipedia.org/wiki/Angola%E2%80%93Democratic_Republic_of_the_Congo_border "Angola–Democratic Republic of the Congo border") and enters the Congo some 100 km upstream from [Matadi](https://en.m.wikipedia.org/wiki/Matadi "Matadi"). The other is the [Inkisi River](https://en.m.wikipedia.org/wiki/Inkisi_River "Inkisi River"), that flows in a northerly direction from the [Uíge Province](https://en.m.wikipedia.org/wiki/U%C3%ADge_Province "Uíge Province") in Angola to the [confluence](https://en.m.wikipedia.org/wiki/Confluence "Confluence") with the Congo at [Zongo](https://en.m.wikipedia.org/w/index.php?title=Zongo,_Kongo_Central_DRC&action=edit&redlink=1 "Zongo, Kongo Central DRC (page does not exist)") some 80 km (50 mi) downstream from the twin capitals. Because of the vast number of rapids, in particular the [Livingstone Falls](https://en.m.wikipedia.org/wiki/Livingstone_Falls "Livingstone Falls"), this section of the river is not operated continuously by riverboats.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Oxfam_East_Africa_-_Mbandaka_market.jpg/220px-Oxfam_East_Africa_-_Mbandaka_market.jpg)
+![[~/×/2e946e31a8646550661b929c6b78cfc8_MD5.jpg]]
 
 The town of [Mbandaka](https://en.m.wikipedia.org/wiki/Mbandaka "Mbandaka") is a busy port on the banks of the Congo River.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Congo_maluku.jpg/220px-Congo_maluku.jpg)
+![[~/×/59e08f57b7f4adad21ac6bbfb271526c_MD5.jpg]]
 
 The Congo River at [Maluku](https://en.m.wikipedia.org/wiki/Maluku_\(Kinshasa\) "Maluku (Kinshasa)").
 
@@ -53,11 +53,11 @@ In February 2005, [South Africa](https://en.m.wikipedia.org/wiki/South_Africa "S
 
 ### Pre-colonial history
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Mercator_Congo_map.jpg/220px-Mercator_Congo_map.jpg)
+![[~/×/1df01b3a02dfd01e820c179cc4870423_MD5.jpg]]
 
 17th-century map of the Congo estuary
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Routes_of_European_explorers_in_Africa%2C_to_1853.jpg/220px-Routes_of_European_explorers_in_Africa%2C_to_1853.jpg)
+![[~/×/aa6d5ecd4ada6bc51691b619840a0777_MD5.jpg]]
 
 In this 1853 map of Africa, the remaining *Unexplored Region* essentially corresponds to the Congo basin
 
@@ -86,7 +86,7 @@ On August 3 they reached the hamlet Nsada. From there Stanley sent four men with
 
 [[Leopoldville|Kinshasa]] was founded as a trading post by Stanley in 1881 and named Léopoldville in honor of [Leopold II of Belgium](https://en.m.wikipedia.org/wiki/Leopold_II_of_Belgium "Leopold II of Belgium"). The [[Congo Basin]] was privately claimed by Leopold II as [Congo Free State](https://en.m.wikipedia.org/wiki/Congo_Free_State "Congo Free State") in 1885 where the many [Atrocities in the Congo Free State](https://en.m.wikipedia.org/wiki/Atrocities_in_the_Congo_Free_State "Atrocities in the Congo Free State") were committed until the region was called the [Belgian Congo](https://en.m.wikipedia.org/wiki/Belgian_Congo "Belgian Congo").
 
-- [![Henry M. Stanley with the officers of the Advance Column, Cairo, 1890. From the left: Dr. Thomas Heazle Parke, Robert H. Nelson, Henry M. Stanley, William G. Stairs, and Arthur J. M. Jephson](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Advance_Column_of_the_Emin_Pasha_Relief_Expedition_1890.jpg/200px-Advance_Column_of_the_Emin_Pasha_Relief_Expedition_1890.jpg)](https://en.m.wikipedia.org/wiki/File:Advance_Column_of_the_Emin_Pasha_Relief_Expedition_1890.jpg "Henry M. Stanley with the officers of the Advance Column, Cairo, 1890. From the left: Dr. Thomas Heazle Parke, Robert H. Nelson, Henry M. Stanley, William G. Stairs, and Arthur J. M. Jephson")
+- [![[~/×/9169c07b0ba9b7a4eaef93188cb297af_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Advance_Column_of_the_Emin_Pasha_Relief_Expedition_1890.jpg "Henry M. Stanley with the officers of the Advance Column, Cairo, 1890. From the left: Dr. Thomas Heazle Parke, Robert H. Nelson, Henry M. Stanley, William G. Stairs, and Arthur J. M. Jephson")
 
 Henry M. Stanley with the officers of the Advance Column, Cairo, 1890. From the left: Dr. [Thomas Heazle Parke](https://en.m.wikipedia.org/wiki/Thomas_Heazle_Parke "Thomas Heazle Parke"), [Robert H. Nelson](https://en.m.wikipedia.org/wiki/Robert_H._Nelson_\(explorer\) "Robert H. Nelson (explorer)"), [Henry M. Stanley](https://en.m.wikipedia.org/wiki/Henry_M._Stanley "Henry M. Stanley"), [William G. Stairs](https://en.m.wikipedia.org/wiki/William_G._Stairs "William G. Stairs"), and [Arthur J. M. Jephson](https://en.m.wikipedia.org/wiki/Arthur_J._M._Jephson "Arthur J. M. Jephson")
 - [![Congo River Allegory by Thomas Vinçotte.[60]](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Monument_aux_pionniers_belges_au_Congo_001.jpg/200px-Monument_aux_pionniers_belges_au_Congo_001.jpg)](https://en.m.wikipedia.org/wiki/File:Monument_aux_pionniers_belges_au_Congo_001.jpg "Congo River Allegory by Thomas Vinçotte.[60]")

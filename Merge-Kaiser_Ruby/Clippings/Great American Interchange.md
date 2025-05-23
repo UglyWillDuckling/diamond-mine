@@ -13,7 +13,7 @@ The **Great American Biotic Interchange** (commonly abbreviated as **GABI**), al
 
 The interchange is visible from observation of both [biostratigraphy](https://en.m.wikipedia.org/wiki/Biostratigraphy "Biostratigraphy") and nature ([neontology](https://en.m.wikipedia.org/wiki/Neontology "Neontology")). Its most dramatic effect is on the [zoogeography](https://en.m.wikipedia.org/wiki/Zoogeography "Zoogeography") of [mammals](https://en.m.wikipedia.org/wiki/Mammal "Mammal"), but it also gave an opportunity for [reptiles](https://en.m.wikipedia.org/wiki/Reptile "Reptile"), [amphibians](https://en.m.wikipedia.org/wiki/Amphibian "Amphibian"), [arthropods](https://en.m.wikipedia.org/wiki/Arthropod "Arthropod"), weak-flying or [flightless birds](https://en.m.wikipedia.org/wiki/Flightless_bird "Flightless bird"), and even [freshwater fish](https://en.m.wikipedia.org/wiki/Freshwater_fish "Freshwater fish") to migrate. Coastal and marine biota were affected in the opposite manner; the formation of the Central American Isthmus caused what has been termed the Great American Schism, with significant diversification and extinction occurring as a result of the isolation of the Caribbean from the Pacific.[^lessios-2]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Great_American_Biotic_Interchange_examples.svg/290px-Great_American_Biotic_Interchange_examples.svg.png)
+![[~/×/1102581181f22a9b2081b4ad463df664_MD5.png]]
 
 Examples of migrant species in both Americas. Olive green silhouettes denote North American species with South American ancestors; blue silhouettes denote South American species with North American ancestors.
 
@@ -25,17 +25,17 @@ Analogous interchanges occurred earlier in the Cenozoic, when the formerly isola
 
 ### Isolation of South America
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Thylacosmilus_Amerika.jpg/220px-Thylacosmilus_Amerika.jpg)
+![[~/×/0cd98fe51eece3e5f0a27f4f0e35bb94_MD5.jpg]]
 
 †*[Thylacosmilus](https://en.m.wikipedia.org/wiki/Thylacosmilus "Thylacosmilus")*, a [sparassodont](https://en.m.wikipedia.org/wiki/Sparassodonta "Sparassodonta")
 
 After the late [Mesozoic](https://en.m.wikipedia.org/wiki/Mesozoic "Mesozoic") breakup of [Gondwana](https://en.m.wikipedia.org/wiki/Gondwana "Gondwana"), South America spent most of the Cenozoic era as an island continent whose "splendid isolation" allowed its fauna to evolve into many forms found nowhere else on Earth, most of which are now [extinct](https://en.m.wikipedia.org/wiki/Extinct "Extinct").[^ggsimpson-18] Its [endemic](https://en.m.wikipedia.org/wiki/Endemic_\(ecology\) "Endemic (ecology)") mammals initially consisted primarily of [metatherians](https://en.m.wikipedia.org/wiki/Metatheria "Metatheria") ([marsupials](https://en.m.wikipedia.org/wiki/Marsupial "Marsupial") and [sparassodonts](https://en.m.wikipedia.org/wiki/Sparassodonta "Sparassodonta")), [xenarthrans](https://en.m.wikipedia.org/wiki/Xenarthra "Xenarthra"), and a diverse group of native [ungulates](https://en.m.wikipedia.org/wiki/Ungulates "Ungulates") known as the [Meridiungulata](https://en.m.wikipedia.org/wiki/Meridiungulata "Meridiungulata"): [notoungulates](https://en.m.wikipedia.org/wiki/Notoungulate "Notoungulate") (the "southern ungulates"), [litopterns](https://en.m.wikipedia.org/wiki/Litoptern "Litoptern"), [astrapotheres](https://en.m.wikipedia.org/wiki/Astrapotheres "Astrapotheres"), [pyrotheres](https://en.m.wikipedia.org/wiki/Pyrotheres "Pyrotheres") and [xenungulates](https://en.m.wikipedia.org/wiki/Xenungulates "Xenungulates").[^22][^26] A few non-[therian](https://en.m.wikipedia.org/wiki/Theria "Theria") mammals – [monotremes](https://en.m.wikipedia.org/wiki/Monotreme "Monotreme"), [gondwanatheres](https://en.m.wikipedia.org/wiki/Gondwanathere "Gondwanathere"), [dryolestids](https://en.m.wikipedia.org/wiki/Dryolestida "Dryolestida") and possibly [cimolodont](https://en.m.wikipedia.org/wiki/Cimolodont "Cimolodont") [multituberculates](https://en.m.wikipedia.org/wiki/Multituberculate "Multituberculate") – were also present in the [Paleocene](https://en.m.wikipedia.org/wiki/Paleocene "Paleocene"); while none of these diversified significantly and most lineages did not survive long, forms like *[Necrolestes](https://en.m.wikipedia.org/wiki/Necrolestes "Necrolestes")* and *[Patagonia](https://en.m.wikipedia.org/wiki/Patagonia_\(mammal\) "Patagonia (mammal)")* remained as recently as the [Miocene](https://en.m.wikipedia.org/wiki/Miocene "Miocene").[^27]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Monito_del_Monte_ps6.jpg/180px-Monito_del_Monte_ps6.jpg)
+![[~/×/0f1c95b40ff0d5e928d5b2a41ced9c09_MD5.jpg]]
 
 The [monito del monte](https://en.m.wikipedia.org/wiki/Monito_del_monte "Monito del monte"), *Dromiciops gliroides*, South America's only [australidelphian](https://en.m.wikipedia.org/wiki/Australidelphia "Australidelphia") marsupial
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/AstrapotheriumDB.jpg/220px-AstrapotheriumDB.jpg)
+![[~/×/a99e16847ac36f123e6b89420f2d218b_MD5.jpg]]
 
 †*[Astrapotherium magnum](https://en.m.wikipedia.org/wiki/Astrapotherium_magnum "Astrapotherium magnum")*
 

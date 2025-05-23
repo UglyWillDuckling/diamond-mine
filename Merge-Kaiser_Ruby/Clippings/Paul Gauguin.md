@@ -17,7 +17,7 @@ Bio je bankovni činovnik i slikar amater, a nakon poznanstva s [C. Pissarroom](
 
 Na [Tahiti](https://hr.m.wikipedia.org/wiki/Tahiti "Tahiti") odlazi prvi put 1891., a 1895. definitivno odlazi u [Francusku Polineziju](https://hr.m.wikipedia.org/wiki/Francuska_Polinezija "Francuska Polinezija"), na Markižansko otočje, gdje je u primitivnom i egzotičnom kraju otkrio iskonske životne vrijednosti.[^lzmk2-1] Njegove polinezijske teme svode se na prikazivanje animalne ljepote ženskog tijela u šaroliko ornamentiranim tkanjima u gustom zelenilu tropske vegetacije. Svoje doživljaje i ispovijesti objavio je u knjigama ***"Noa Noa"*** i ***"Prije i poslije"***. Utjecao je na razvoj [ekspresionizma](https://hr.m.wikipedia.org/wiki/Ekspresionizam "Ekspresionizam") i formiranje [fovizma](https://hr.m.wikipedia.org/wiki/Fovizam "Fovizam"). Umro je u patnjama i gorčini daleko od rodnoga kraja.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Paul_Gauguin_137.jpg/250px-Paul_Gauguin_137.jpg)
+![[~/×/a67b76d1ea249c5c236eb47f796dabd0_MD5.jpg]]
 
 Paul Gauguin, *Vizija poslije mise*, 1888., ulje na platnu, [Edinburgh](https://hr.m.wikipedia.org/wiki/Edinburgh "Edinburgh").
 
@@ -25,7 +25,7 @@ Legenda o Van Goghu je komplementarna onoj o njegovom prijatelju Paulu Gauiguinu
 
 naroda južnih mora. Gauguinova umjetnost nema ništa od Van Goghovog nasilnog izričaja, on slika jedan idealiziran, nestvaran i poetski svijet koji nazivamo "[simbolizam](https://hr.m.wikipedia.org/wiki/Simbolizam "Simbolizam")".
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paul_Gauguin_091.jpg/250px-Paul_Gauguin_091.jpg)
+![[~/×/95c35be79c74d5ced33d67bef906483f_MD5.jpg]]
 
 Paul Gauguin, *Nevermore (Nikad više)*, 1897., ulje na platnu, 50 × 116 cm, [London](https://hr.m.wikipedia.org/wiki/London "London").
 
@@ -37,27 +37,27 @@ Gauguin je vjerovao da obnova zapadnoeuropske umjentosti mora poći izvan njene 
 
 *[La Orana Maria](https://hr.m.wikipedia.org/wiki/La_Orana_Maria "La Orana Maria")* (hrv. *Zdravo Marijo*) je ulje na platnu, koje je naslikao Paul Gauguin 1891. godine.
 
-- [![Van Gogh slika suncokrete, 1888., ulje na platnu, 73 × 91 cm, Van Goghov muzej, Amsterdam](https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Paul_Gauguin_104.jpg/120px-Paul_Gauguin_104.jpg)](https://hr.m.wikipedia.org/wiki/Datoteka:Paul_Gauguin_104.jpg "Van Gogh slika suncokrete, 1888., ulje na platnu, 73 × 91 cm, Van Goghov muzej, Amsterdam")
+- [![[~/×/2be4d4d72188aa9e24b633e74387925e_MD5.jpg]]](https://hr.m.wikipedia.org/wiki/Datoteka:Paul_Gauguin_104.jpg "Van Gogh slika suncokrete, 1888., ulje na platnu, 73 × 91 cm, Van Goghov muzej, Amsterdam")
 
 *[Van Gogh](https://hr.m.wikipedia.org/wiki/Van_Gogh "Van Gogh") slika suncokrete*, 1888., ulje na platnu, 73 × 91 cm, Van Goghov muzej, [Amsterdam](https://hr.m.wikipedia.org/wiki/Amsterdam "Amsterdam")
-- [![Autoportret, 1888., ulje na platnu, 45 × 55 cm, Van Goghov muzej, Amsterdam](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Paul_Gauguin_112.jpg/120px-Paul_Gauguin_112.jpg)](https://hr.m.wikipedia.org/wiki/Datoteka:Paul_Gauguin_112.jpg "Autoportret, 1888., ulje na platnu, 45 × 55 cm, Van Goghov muzej, Amsterdam")
+- [![[~/×/f6b28be4aedbcea10f7526b3906fd67a_MD5.jpg]]](https://hr.m.wikipedia.org/wiki/Datoteka:Paul_Gauguin_112.jpg "Autoportret, 1888., ulje na platnu, 45 × 55 cm, Van Goghov muzej, Amsterdam")
 
 *[Autoportret](https://hr.m.wikipedia.org/wiki/Autoportret "Autoportret")*, 1888., ulje na platnu, 45 × 55 cm, Van Goghov muzej, [Amsterdam](https://hr.m.wikipedia.org/wiki/Amsterdam "Amsterdam")
-- [![Žuti Krist, 1889., ulje na platnu, 92.1 × 73 cm, Buffalo, New York](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Gauguin_Il_Cristo_giallo.jpg/94px-Gauguin_Il_Cristo_giallo.jpg)](https://hr.m.wikipedia.org/wiki/Datoteka:Gauguin_Il_Cristo_giallo.jpg "Žuti Krist, 1889., ulje na platnu, 92.1 × 73 cm, Buffalo, New York")
+- [![[~/×/39963221424c96b7893f1dc193b430ce_MD5.jpg]]](https://hr.m.wikipedia.org/wiki/Datoteka:Gauguin_Il_Cristo_giallo.jpg "Žuti Krist, 1889., ulje na platnu, 92.1 × 73 cm, Buffalo, New York")
 
 *[Žuti Krist](https://hr.m.wikipedia.org/wiki/%C5%BDuti_Krist "Žuti Krist")*, 1889., ulje na platnu, 92.1 × 73 cm, [Buffalo](https://hr.m.wikipedia.org/w/index.php?title=Buffalo,_New_York&action=edit&redlink=1 "Buffalo, New York (stranica ne postoji)"), [New York](https://hr.m.wikipedia.org/wiki/New_York "New York")
-- [![Arearea, 1892., 75 × 94 cm, D'Orsay, Pariz](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Arearea%2C_by_Paul_Gauguin.jpg/120px-Arearea%2C_by_Paul_Gauguin.jpg)](https://hr.m.wikipedia.org/wiki/Datoteka:Arearea,_by_Paul_Gauguin.jpg "Arearea, 1892., 75 × 94 cm, D'Orsay, Pariz")
+- [![[~/×/a53849ede9217c05f335869b70bc0f93_MD5.jpg]]](https://hr.m.wikipedia.org/wiki/Datoteka:Arearea,_by_Paul_Gauguin.jpg "Arearea, 1892., 75 × 94 cm, D'Orsay, Pariz")
 
 *Arearea*, 1892., 75 × 94 cm, [D'Orsay](https://hr.m.wikipedia.org/wiki/D%27Orsay "D'Orsay"), [Pariz](https://hr.m.wikipedia.org/wiki/Pariz "Pariz")
-- [![Autoportret, 1893., ulje na pletnu, 45 x 38 cm, d'Orsay, Pariz](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Paul_Gauguin_111.jpg/97px-Paul_Gauguin_111.jpg)](https://hr.m.wikipedia.org/wiki/Datoteka:Paul_Gauguin_111.jpg "Autoportret, 1893., ulje na pletnu, 45 x 38 cm, d'Orsay, Pariz")
+- [![[~/×/3dffdd4f04e6374ad380a420ac6f213d_MD5.jpg]]](https://hr.m.wikipedia.org/wiki/Datoteka:Paul_Gauguin_111.jpg "Autoportret, 1893., ulje na pletnu, 45 x 38 cm, d'Orsay, Pariz")
 
 *Autoportret*, 1893., ulje na pletnu, 45 x 38 cm, d'Orsay, Pariz
-- [![Božji dan, 1894., ulje na platnu, 66 × 87 cm, Umjetnički institut Chicago](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Paul_Gauguin_113.jpg/120px-Paul_Gauguin_113.jpg)](https://hr.m.wikipedia.org/wiki/Datoteka:Paul_Gauguin_113.jpg "Božji dan, 1894., ulje na platnu, 66 × 87 cm, Umjetnički institut Chicago")
+- [![[~/×/2eda91df2f317fc3c0454f83d76d0d8c_MD5.jpg]]](https://hr.m.wikipedia.org/wiki/Datoteka:Paul_Gauguin_113.jpg "Božji dan, 1894., ulje na platnu, 66 × 87 cm, Umjetnički institut Chicago")
 
 *Božji dan*, 1894., ulje na platnu, 66 × 87 cm, Umjetnički institut [Chicago](https://hr.m.wikipedia.org/wiki/Chicago "Chicago")
-- [![Odakle dolazimo? Tko smo? Kamo idemo?, 1898., ulje na platnu, 139.1 × 374.6 cm, Boston, Massachusetts](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Gauguin_Da_dove_veniamo.jpg/120px-Gauguin_Da_dove_veniamo.jpg)](https://hr.m.wikipedia.org/wiki/Datoteka:Gauguin_Da_dove_veniamo.jpg "Odakle dolazimo? Tko smo? Kamo idemo?, 1898., ulje na platnu, 139.1 × 374.6 cm, Boston, Massachusetts")
+- [![[~/×/b4723deb6842eeee870bb7641ba305c3_MD5.jpg]]](https://hr.m.wikipedia.org/wiki/Datoteka:Gauguin_Da_dove_veniamo.jpg "Odakle dolazimo? Tko smo? Kamo idemo?, 1898., ulje na platnu, 139.1 × 374.6 cm, Boston, Massachusetts")
 
 *[Odakle dolazimo? Tko smo? Kamo idemo?](https://hr.m.wikipedia.org/wiki/Odakle_dolazimo%3F_Tko_smo%3F_Kamo_idemo%3F "Odakle dolazimo? Tko smo? Kamo idemo?")*, 1898., ulje na platnu, 139.1 × 374.6 cm, [Boston](https://hr.m.wikipedia.org/wiki/Boston "Boston"), [Massachusetts](https://hr.m.wikipedia.org/wiki/Massachusetts "Massachusetts")
-- [![Egzotične priče, 1902., ulje na pletnu, 130 x 92 cm, Essen](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Paul_Gauguin_-_Contes_barbares_%281902%29.jpg/81px-Paul_Gauguin_-_Contes_barbares_%281902%29.jpg)](https://hr.m.wikipedia.org/wiki/Datoteka:Paul_Gauguin_-_Contes_barbares_\(1902\).jpg "Egzotične priče, 1902., ulje na pletnu, 130 x 92 cm, Essen")
+- [![[~/×/3b390260eb0eab00781992949a1de998_MD5.jpg]]](https://hr.m.wikipedia.org/wiki/Datoteka:Paul_Gauguin_-_Contes_barbares_\(1902\).jpg "Egzotične priče, 1902., ulje na pletnu, 130 x 92 cm, Essen")
 
 *Egzotične priče*, 1902., ulje na pletnu, 130 x 92 cm, [Essen](https://hr.m.wikipedia.org/wiki/Essen "Essen")

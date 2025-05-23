@@ -9,7 +9,7 @@ watching:
   - watching
 watched:
 ---
-![](https://upload.wikimedia.org/wikipedia/en/2/2f/Prehistoric_Planet_2022_cover.jpg)
+![[~/×/5b4a64e5b5691d73f23e80fe81ccdf10_MD5.jpg]]
 
 Prehistoric Planet is a British–American nature documentary television series about dinosaurs, that premiered on [[Apple TV+]] beginning **May 23, 2022.** It is produced by the [[BBC Studios]] Natural History Unit, with Jon Favreau as showrunner, visual effects by The Moving Picture Company, and narration by natural historian[[ Sir David Attenborough]].
 

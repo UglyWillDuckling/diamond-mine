@@ -11,7 +11,7 @@ tags:
 ---
 Monarhija je bila prevladavajući oblik vlasti u [europskoj](https://hr.m.wikipedia.org/wiki/Europa "Europa") povijesti. Jedina bitna konkurencija su joj bile komunalne države poput [pomorskih republika](https://hr.m.wikipedia.org/w/index.php?title=Pomorske_republike&action=edit&redlink=1 "Pomorske republike (stranica ne postoji)") ili [Švicarske Konfederacije.](https://hr.m.wikipedia.org/wiki/Stara_%C5%A0vicarska_Konfederacija "Stara Švicarska Konfederacija")
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/European_monarchies.svg/347px-European_monarchies.svg.png)
+![[~/×/6a740e1830ec0b2daeea719e2c746be5_MD5.png]]
 
 Karta Europe s monarhijama (crveno) i republikama (plavo)
 

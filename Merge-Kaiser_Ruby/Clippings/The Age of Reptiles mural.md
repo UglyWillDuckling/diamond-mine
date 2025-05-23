@@ -8,7 +8,7 @@ tags:
 The Age of Reptiles is a 110-foot (34 m) mural depicting the period of ancient history when reptiles were the dominant creatures on the earth, painted by [[Rudolph Zallinger]]. 
 The fresco sits in the [[Yale Peabody Museum]] in New Haven, Connecticut, and was completed in 1947 after five years of work.[1]
 
-![](https://i.redd.it/em6ai49097zz.jpg)
+![[~/×/e2cf6eb6833cbf072fad713a51b182cd_MD5.jpg]]
 
 The Age of Reptiles was at one time the largest painting in the world, and depicts a span of nearly **350 million** years in Earth's history.
 

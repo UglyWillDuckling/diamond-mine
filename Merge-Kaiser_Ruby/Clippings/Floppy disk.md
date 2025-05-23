@@ -1,14 +1,14 @@
 A **floppy disk** or **floppy diskette** (casually referred to as a **floppy**, a **diskette**, or a **disk**) is a type of [disk storage](https://en.m.wikipedia.org/wiki/Disk_storage "Disk storage") composed of a thin and flexible disk of a [magnetic storage](https://en.m.wikipedia.org/wiki/Magnetic_storage "Magnetic storage") medium in a square or nearly square plastic enclosure lined with a fabric that removes dust particles from the spinning disk. The three most popular (and commercially available) floppy disks are the 8-inch, 5¼-inch, and 3½-inch floppy disks.[^3] Floppy disks store [digital data](https://en.m.wikipedia.org/wiki/Digital_data "Digital data") which can be read and written when the disk is inserted into a **floppy disk drive** (**FDD**) connected to or inside a [computer](https://en.m.wikipedia.org/wiki/Computer "Computer") or other device.[^4]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Floppy_disk_2009_G1.jpg/250px-Floppy_disk_2009_G1.jpg)
+![[~/×/ced52b1e061cf406c0598cd00924f563_MD5.jpg]]
 
 8-inch, 5¼-inch, and 3½-inch floppy disks
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Floppy_Disk_Drives_8_5_3.jpg/250px-Floppy_Disk_Drives_8_5_3.jpg)
+![[~/×/87af64b2c96a912892648ab8ac5219af_MD5.jpg]]
 
 8-inch, 5¼-inch (full height), and 3½-inch drives
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Image3%2C5%27%27-Diskette_removed.jpg/250px-Image3%2C5%27%27-Diskette_removed.jpg)
+![[~/×/a15f61e2084650c6b2a95b39b10d142a_MD5.jpg]]
 
 A 3½-inch floppy disk removed from its housing
 
@@ -16,11 +16,11 @@ The first floppy disks, invented and made by [IBM](https://en.m.wikipedia.org/wi
 
 Floppy disks were so common in late 20th-century culture that many electronic and software programs continue to use save icons that look like floppy disks well into the 21st century, as a form of [skeuomorphic design](https://en.m.wikipedia.org/wiki/Skeuomorph#Virtual_examples "Skeuomorph"). While floppy disk drives still have some limited uses, especially with [legacy industrial computer equipment](https://en.m.wikipedia.org/wiki/Legacy_system "Legacy system"), they have been superseded by data storage methods with much greater data storage capacity and [data transfer speed](https://en.m.wikipedia.org/wiki/Computer_data_storage#Performance "Computer data storage"), such as [USB flash drives](https://en.m.wikipedia.org/wiki/USB_flash_drive "USB flash drive"), [memory cards](https://en.m.wikipedia.org/wiki/Memory_card "Memory card"), [optical discs](https://en.m.wikipedia.org/wiki/Optical_disc "Optical disc"), and storage available through local [computer networks](https://en.m.wikipedia.org/wiki/Computer_network "Computer network") and [cloud storage](https://en.m.wikipedia.org/wiki/Cloud_storage "Cloud storage").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Floppy_Disk_Drive_8_inch.jpg/250px-Floppy_Disk_Drive_8_inch.jpg)
+![[~/×/2e09dcf155f88dcaa10215b7968c5a1a_MD5.jpg]]
 
 8-inch floppy disk, inserted in drive, (3½-inch floppy diskette, in front, shown for scale)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Floppy_disc.jpg/250px-Floppy_disc.jpg)
+![[~/×/efdc9692cea9fdaa6e3887848b1303e5_MD5.jpg]]
 
 3½-inch, high-density floppy diskettes with adhesive labels affixed
 

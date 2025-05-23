@@ -336,7 +336,7 @@ Certificate usage 0 is unsupported, 1 is mapped to 3 and 2 is optional, thus it 
 
 #### Configuration
 
-![](https://wiki.archlinux.org/images/1/19/Tango-view-fullscreen.svg)**This article or section needs expansion.**
+![[~/×/f8c6438bdf95094740cf5840c940e5b1_MD5.svg]]**This article or section needs expansion.**
 
 **Reason:** What does *tempfail* mean? (Discuss in [Talk:Postfix](https://wiki.archlinux.org/title/Talk:Postfix))
 
@@ -399,7 +399,7 @@ Full documentation is found [here](http://www.postfix.org/TLS_README.html#client
 
 ### Postgrey
 
-![](https://wiki.archlinux.org/images/5/53/Tango-edit-clear.svg)**This article or section needs language, wiki syntax or style improvements. See [Help:Style](https://wiki.archlinux.org/title/Help:Style "Help:Style") for reference.**
+![[~/×/7dcc0c0e505f49980db8d2e3dd2c7e15_MD5.svg]]**This article or section needs language, wiki syntax or style improvements. See [Help:Style](https://wiki.archlinux.org/title/Help:Style "Help:Style") for reference.**
 
 [Postgrey](https://postgrey.schweikert.ch/) can be used to enable [greylisting](https://en.wikipedia.org/wiki/Greylisting_\(email\) "wikipedia:Greylisting (email)") for a Postfix mail server.
 

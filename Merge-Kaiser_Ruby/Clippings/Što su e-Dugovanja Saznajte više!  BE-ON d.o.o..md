@@ -41,7 +41,7 @@ Na [YouTube](https://www.youtube.com/playlist?list=PLUTZULOhvRhYTFUp-Ux7q57y9qoQ
 
 Na slici možete vidjeti kako izgleda izbornik jednom kada ste se uspjeli prijaviti u sustav e-Građani i pronaći gdje su e-Dugovanja, u *Katalogu usluga* pod *Financije i porezi*.
 
-![Navigacijski izbornik u sustavu e-Građani s kategorijama Moja dugovanja, Moja potraživanja, Zaštićeni račun i Stečaj potrošača](https://beonsavjetovanje.hr/wp-content/uploads/2023/06/beon-3.jpg)Prije su se u izborniku spominjale osnove za plaćanje i njihov redoslijed. Osnove za plaćanje su zapravo ovrhe, ali ih FINA iz nepoznatih razloga ne zove tim imenom. O ovrhama ste više čitali u našem blogu [*Ovrhe i blokade*](https://beonsavjetovanje.hr/financijski-savjeti/ovrhe-i-blokada-racuna/), tamo smo malo dotakli i temu e-Blokada i e-Ovrha.
+![[~/×/3a518eb6f09892e5b2071e5b0d6faa3e_MD5.jpg]]Prije su se u izborniku spominjale osnove za plaćanje i njihov redoslijed. Osnove za plaćanje su zapravo ovrhe, ali ih FINA iz nepoznatih razloga ne zove tim imenom. O ovrhama ste više čitali u našem blogu [*Ovrhe i blokade*](https://beonsavjetovanje.hr/financijski-savjeti/ovrhe-i-blokada-racuna/), tamo smo malo dotakli i temu e-Blokada i e-Ovrha.
 
 Sada je sučelje puno intuitivnije, nema više „osnova za plaćanje“ nego ***Moja dugovanja*** **i** ***Moja potraživanja***, puno jasnije. Kad otvorite *Moja dugovanja*, možete birati između ***Nenaplaćena dugovanja*** i ***Isknjižena dugovanja***. *Nenaplaćena dugovanja* su aktivne ovrhe prema redoslijedu kojim se naplaćuju u *Očevidniku redoslijeda osnova za plaćanje*, a *Isknjižena dugovanja* su neaktivne ovrhe koje su postale neaktivne sukladno čl. 12 [Zakona o provedbi ovrhe nad novčanim sredstvima](https://www.zakon.hr/z/346/Zakon-o-provedbi-ovrhe-na-nov%C4%8Danim-sredstvima).
 
@@ -49,7 +49,7 @@ Sada je sučelje puno intuitivnije, nema više „osnova za plaćanje“ nego **
 
 Ako u izborniku kliknete s desne strane na „Preuzmite očevidnik“, dobit ćete dokument  koji FINA zove ***OSOP-SN***, ovo SN znači „specifikacija naplate“, što znači da ćete imati uvid u povijesno stanje svih ovrha, dakle i onih koje su podmirene.
 
-![Ekran aplikacije s poljem za pretraživanje, informacijama o stanju svih ovrha te gumbom za preuzimanje dokumenta naziva "Očevidnik".](https://beonsavjetovanje.hr/wp-content/uploads/2024/03/beon-1.jpg)
+![[~/×/8da164e8b856715f452565e77a954904_MD5.jpg]]
 
 Ako ste sretnik koji nije blokiran, tu su sve brojke „nula“, a ako je račun blokiran, svaki vjerovnik po redoslijedu naplate ima ovakvu tablicu u kojem se vidi koliki je bio početni iznos duga, koliko se naplatilo do sada, koliko je iz nekog razloga obustavljeno i koliko je preostalo za naplatu. Za svaku od tih stavki je vidljiva specifikacija **naknada, troškova, kamata i glavnice**.
 
@@ -61,7 +61,7 @@ Ako imate aktivnih ovrha, za svaku osnovu za plaćanje možete vidjeti njenu sli
 
 Sve do sada odnosilo se na Očevidnik, njegovu specifikaciju i ovršne isprave, a sljedeći naslov, **Zaštićeni račun** vjerojatno je najkorisniji za građane jer im omogućava otvaranje (i zatvaranje koje je sigurno sretnija opcija) bez potrebe odlaska u FINU. Opcija je da upravljate primanjima koja su zaštićena od ovrhe, mijenjate ih i dodajete, a u sustavu ostaju i primanja i naknade koja ste u međuvremenu opozvali, kao i računi koje ste zatvorili.
 
-![Ekran aplikacije s odjeljkom Nenaplaćena dugovanja.](https://beonsavjetovanje.hr/wp-content/uploads/2023/06/beon-2-1.jpg)
+![[~/×/51caa8a4dc541d167bcb081492b76dc1_MD5.jpg]]
 
 Kada ste odabrali **Otvaranje zaštićenog računa** morate popuniti *Obavijest o primanjima i naknadama ovršenika izuzetim od ovrhe*. Popunjavate vaše osobne podatke, broj računa na koji primate redovna primanja, vrstu uplate (primanja), obavezno označite sva primanja koja želite zaštititi i podatke o poslodavcu koji uplaćuje ta redovna primanja (ako ste u mirovini onda je to HZMO). Više o primanjima koja su izuzeta od ovrhe smo pisali u našem blogu [Zaštićeni račun – najčešća pitanja](https://beonsavjetovanje.hr/financijski-savjeti/zasticeni-racun/). Na kraju samog obrasca treba priložiti ispravu iz koje je vidljivo da imate dugovanje i da protiv vas može biti pokrenuta ovrha (npr. Prijedlog za ovrhu) i kliknuti na „Predajte zahtjev“.
 

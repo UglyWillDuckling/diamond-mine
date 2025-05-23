@@ -9,7 +9,7 @@ tags:
 
 ***Camarasaurus*** ([/ ˌ k æ m ər ə ˈ s ɔː r ə s /](https://en.m.wikipedia.org/wiki/Help:IPA/English "Help:IPA/English") [*KAM -ər-ə- SOR -əs*](https://en.m.wikipedia.org/wiki/Help:Pronunciation_respelling_key "Help:Pronunciation respelling key")) is a [genus](https://en.m.wikipedia.org/wiki/Genus "Genus") of [sauropod](https://en.m.wikipedia.org/wiki/Sauropoda "Sauropoda") [dinosaur](https://en.m.wikipedia.org/wiki/Dinosaur "Dinosaur") that lived in [North America](https://en.m.wikipedia.org/wiki/Laurentia "Laurentia") during the [Late Jurassic](https://en.m.wikipedia.org/wiki/Late_Jurassic "Late Jurassic") [period](https://en.m.wikipedia.org/wiki/Geologic_time_scale "Geologic time scale"). Its fossil remains have been found in the [Morrison Formation](https://en.m.wikipedia.org/wiki/Morrison_Formation "Morrison Formation"), dating to the [Kimmeridgian](https://en.m.wikipedia.org/wiki/Kimmeridgian "Kimmeridgian") and [Tithonian](https://en.m.wikipedia.org/wiki/Tithonian "Tithonian") ages of the [Jurassic](https://en.m.wikipedia.org/wiki/Jurassic "Jurassic"), between 155 and 145 million years ago (mya).
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Naturalis_Biodiversity_Center_-_Museum_-_Exhibition_Primeval_parade_11_-_Camarasaurus_supremus_skeleton_from_below.jpg/1280px-Naturalis_Biodiversity_Center_-_Museum_-_Exhibition_Primeval_parade_11_-_Camarasaurus_supremus_skeleton_from_below.jpg)
+![[~/×/e29c22819e93b583f171696dce2c7902_MD5.jpg]]
 
 
 *Camarasaurus* presented a distinctive cranial profile of a blunt snout and an arched skull that was remarkably square, typical of basal [macronarians](https://en.m.wikipedia.org/wiki/Macronaria "Macronaria").
@@ -27,7 +27,7 @@ The first record of *Camarasaurus* comes from the spring of 1877 when Mr. Oramel
 
 # fossils 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Camarasaurus_lentus_Carnegie.jpg/1280px-Camarasaurus_lentus_Carnegie.jpg)
+![[~/×/2746f1396a560dc19202582a9353f867_MD5.jpg]]
 The earliest known skeletal reconstruction of a sauropod dinosaur: *C. supremus* by John A. Ryder, 1877
 
 The amount of material was great, it composed of several jumbled partial skeletons.[^2] It was not all prepared at once, but a considerable amount of it was cleaned up by Jacob Geismar under Cope's direction throughout the 1870s to 1890s.[^2] In 1877 a reconstruction of the skeleton of *Camarasaurus* was painted by Dr. John Ryder on several canvasses, under the direction of Professor Cope who would use them in lectures to impress his audience.[^2] This reconstruction would be the first ever made of a sauropod dinosaur, was natural size and represented the remains of a number of individuals. The reconstruction was over fifty feet in length. Cope's collectors sent in more material from 1877 to 1878,[^2] [^3] and as Cope would get more material, he would name taxa based on these newly sent remains. Most of these additional taxa are now considered dubious or synonymous with *Camarasaurus*.[^3] By the end of collecting in Garden Park, at least four individuals and several hundred bones had been found from nearly every part of the skeleton.[^2]
@@ -54,17 +54,17 @@ In 1992, another substantial and articulated skeleton of *Camarasaurus* was coll
 
 # Fossils 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Camarasaurus_lentus_Carnegie.jpg/1280px-Camarasaurus_lentus_Carnegie.jpg)
+![[~/×/2746f1396a560dc19202582a9353f867_MD5.jpg]]
 CM 11338, the most complete known *Camarasaurus* specimen
 
 *Camarasaurus* fossils are very common.[^31] Over 500 specimens are known, including many isolated bones and about 50 partial skeletons.<sup><a href="https://en.m.wikipedia.org/wiki/#cite_note-FOOTNOTEWoodruffFoster201752%E2%80%9353-32"><span>[</span>32<span>]</span></a></sup> It is found in a wide area over the western United States, from as far north as [[Montana]] to as far south as [[New Mexico]], in rocks of the [Morrison Formation](https://en.m.wikipedia.org/wiki/Morrison_Formation "Morrison Formation").[^33] Due to this abundance, *Camarasaurus* is a very well-known sauropod. A juvenile specimen of *Camarasaurus*, CM 11338, is the most complete sauropod skeleton ever discovered. Numerous skulls are known.[^34] Even though complete necks are rarely found in sauropods, five specimens of *Camarasaurus* preserve all or nearly all of the cervical vertebrae.[^35] Most identifiable specimens of *Camarasaurus* belong to one of two species, *C. grandis* and *C. lentus*; *C. lewisi* and *C. supremus* are rarer.[^36]
 
 # description 
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Camarasaurus_Size_Comparison_by_PaleoGeek.svg/1280px-Camarasaurus_Size_Comparison_by_PaleoGeek.svg.png)
+![[~/×/68906290ae915c897cb446312d3e154f_MD5.png]]
 Scale diagram of three known species of *Camarasaurus*
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Camarasaurs1.jpg/1280px-Camarasaurs1.jpg)
+![[~/×/99964e5de8ec3dfc25402f07ab15cd77_MD5.jpg]]
 Restoration of a *C. supremus* herd
 
 *Camarasaurus* is among the most common and frequently well-preserved sauropod dinosaurs uncovered and has been well described in numerous publications.[^21] [^13] [^2] Similar to other macronarians, it had the typical large naris, long forelimbs, and short tail compared to the contemporary diplodocids.[^2] [^37] *Camarasaurus* was a medium-sized sauropod compared to contemporary species in the same formation, but in the [Tithonian](https://en.m.wikipedia.org/wiki/Tithonian "Tithonian") reached large sizes with *C. supremus*.[^7] [^2] The maximum size of the most common species, *C. lentus*, was about 15 m (49 ft) in length. The largest species, *C. supremus*, reached a maximum length of 18-23 meters (59-75 ft) and a maximum estimated weight of 47  [metric tons](https://en.m.wikipedia.org/wiki/Metric_ton "Metric ton") (51.8  [tons](https://en.m.wikipedia.org/wiki/Short_ton "Short ton")).[^38] In 2016, Gregory S. Paul estimated its weight at 23 [metric tons](https://en.m.wikipedia.org/wiki/Metric_ton "Metric ton") (25.4  [tons](https://en.m.wikipedia.org/wiki/Short_ton "Short ton")),[^39] whereas in 2020, John Foster estimated its weight at 42.3 [metric tons](https://en.m.wikipedia.org/wiki/Metric_ton "Metric ton") (46.6  [tons](https://en.m.wikipedia.org/wiki/Short_ton "Short ton")).[^31]

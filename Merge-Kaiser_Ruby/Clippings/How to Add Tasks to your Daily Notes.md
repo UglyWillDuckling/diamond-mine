@@ -12,7 +12,7 @@ tags:
   - howto
   - howto/article
 ---
-![icon](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/01/or-logo-1.png?fit=32%2C32&ssl=1)
+![[~/×/35fbaebc16d53a5dd8a0eee6726e1862_MD5.png]]
 
 > This article is part of a series of tips on handling tasks in Obsidian. To see the full series, see [How to Manage Tasks in Obsidian](https://obsidian.rocks/how-to-manage-tasks-in-obsidian/).
 
@@ -35,7 +35,7 @@ On This Page \[[hide](https://obsidian.rocks/how-to-add-tasks-to-your-daily-note
 
 There are a couple of ways of handling tasks in tandem with [Daily Notes](https://obsidian.rocks/supercharge-your-daily-notes-in-obsidian/ "Daily Notes"). One way is to add tasks *directly* to your daily note. Then at the end of the day, if you have any tasks left, you move them over to the next day. That looks like this:
 
-![A screenshot of a to-do list inside of a Daily Note.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2022/09/2022-09-21_09-06.png?resize=722%2C396&ssl=1)
+![[~/×/736ad7c6be203c832c4f479c2ffd6893_MD5.png]]
 
 This is a good solution if you only have a few tasks to do every day. But this is not my favorite solution, because I tend to have *too many* tasks to manage them like this.
 
@@ -45,7 +45,7 @@ I prefer to plan my projects in their own “project” notes, and pull tasks in
 
 Here’s what it looks like to include only your *completed* tasks within a Daily Note:
 
-![An example of completed tasks showing up inside a Daily Note.](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2022/09/2022-09-21_09-07.png?resize=965%2C419&ssl=1)
+![[~/×/06f39ec9c55d9c2de9a8d65eed465b9c_MD5.png]]
 
 You can create the tasks anywhere within your vault, and your Daily Note will find them as soon as you complete them. I like this, because it allows me to structure my projects however I like, and requires no extra work on my end. If a task is completed today, it will show up in my daily note.
 

@@ -11,71 +11,71 @@ tags:
 ---
 **Oblaci** su vidljive nakupine [vodenih](https://hr.m.wikipedia.org/wiki/Voda "Voda") kapljica, [ledenih](https://hr.m.wikipedia.org/wiki/Led "Led") [kristala](https://hr.m.wikipedia.org/wiki/Kristal "Kristal") ili smjese kapljica i kristala, koje lebde u [Zemljinoj atmosferi](https://hr.m.wikipedia.org/wiki/Zemljina_atmosfera "Zemljina atmosfera"). Nastaju kad se [zrak](https://hr.m.wikipedia.org/wiki/Zrak "Zrak") zasiti [vodenom parom](https://hr.m.wikipedia.org/wiki/Vodena_para "Vodena para"), što se može dogoditi zbog povećanja količine vodene pare u zraku ili zbog smanjenja [temperature](https://hr.m.wikipedia.org/wiki/Temperatura "Temperatura") zraka ispod temperature [rosišta](https://hr.m.wikipedia.org/wiki/Rosi%C5%A1te "Rosište"). U oblacima se mogu nalaziti i veće čestice leda, pa i čestice koje potječu od onečišćenja što ga stvaraju [industrija](https://hr.m.wikipedia.org/wiki/Industrija "Industrija") i [promet](https://hr.m.wikipedia.org/wiki/Promet "Promet") ([aerosoli](https://hr.m.wikipedia.org/wiki/Aerosol "Aerosol")). [Promjer](https://hr.m.wikipedia.org/wiki/Promjer "Promjer") je vodenih kapljica nekoliko [mikrometara](https://hr.m.wikipedia.org/wiki/Mikrometar "Mikrometar"), a ledenih kristala od nekoliko desetaka mikrometara do nekoliko [milimetara](https://hr.m.wikipedia.org/wiki/Milimetar "Milimetar"). Oblaci se razlikuju od [magle](https://hr.m.wikipedia.org/wiki/Magla "Magla") po tome što se nalaze visoko iznad [tla](https://hr.m.wikipedia.org/wiki/Tlo "Tlo"). Važna je njihova uloga u [energetskom stanju atmosfere](https://hr.m.wikipedia.org/wiki/Zemljina_ravnote%C5%BEa_Sun%C4%8Devog_zra%C4%8Denja "Zemljina ravnoteža Sunčevog zračenja"): [raspršuju](https://hr.m.wikipedia.org/wiki/Raspr%C5%A1eno_Sun%C4%8Devo_zra%C4%8Denje "Raspršeno Sunčevo zračenje"), [apsorbiraju i reemitiraju zračenje](https://hr.m.wikipedia.org/wiki/Sun%C4%8Devo_zra%C4%8Denje "Sunčevo zračenje") sa [Zemlje](https://hr.m.wikipedia.org/wiki/Zemlja "Zemlja") i [Sunca](https://hr.m.wikipedia.org/wiki/Sunce "Sunce") i tako onemogućavaju naglo zagrijavanje ili hlađenje tla i zraka, [kondenzacijom](https://hr.m.wikipedia.org/wiki/Kondenzacija "Kondenzacija") vodene pare oslobađaju [latentnu toplinu](https://hr.m.wikipedia.org/wiki/Latentna_toplina "Latentna toplina"), a [oborinskim](https://hr.m.wikipedia.org/wiki/Oborina "Oborina") procesima vraćaju vodu na [tlo](https://hr.m.wikipedia.org/wiki/Tlo "Tlo").[^1] Oblaci sudjeluju u ciklusu vodene pare ([hidrološki ciklus](https://hr.m.wikipedia.org/wiki/Hidrolo%C5%A1ki_ciklus "Hidrološki ciklus")) u [atmosferi](https://hr.m.wikipedia.org/wiki/Atmosfera "Atmosfera") jer se kondenzacijom oslobađa latentna toplina i jer oborinskim procesima vraća vodu na površinu Zemlje.[^2]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Feuerhimmel_2.JPG/300px-Feuerhimmel_2.JPG)
+![[~/×/bfa7960e95bfc0bba2916604a8e9686f_MD5.jpg]]
 
 Oblaci tijekom [zalaska Sunca](https://hr.m.wikipedia.org/wiki/Zalazak_sunca "Zalazak sunca").
 
-![](https://upload.wikimedia.org/wikipedia/hr/thumb/1/18/Oblaci_1.jpg/300px-Oblaci_1.jpg)
+![[~/×/2d9e1faba2dfc1873f7d7add115d728e_MD5.jpg]]
 
 Prema [morfološkoj](https://hr.m.wikipedia.org/wiki/Morfologija "Morfologija") [klasifikaciji](https://hr.m.wikipedia.org/wiki/Klasifikacija "Klasifikacija") (prema visini i obliku) postoje 4 osnovne porodice oblaka: visoki oblaci, srednji oblaci, niski oblaci i oblaci velikog okomitog prostiranja.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Cirrus_fibratus_and_Cirrocumulus.jpg/300px-Cirrus_fibratus_and_Cirrocumulus.jpg)
+![[~/×/7aabc16b885c440f5192e209fcc69c4b_MD5.jpg]]
 
 [Nebo](https://hr.m.wikipedia.org/wiki/Nebo "Nebo") prekriveno oblacima [cirusima](https://hr.m.wikipedia.org/wiki/Cirus "Cirus") koji prelaze u [cirokumuluse](https://hr.m.wikipedia.org/wiki/Cirokumulus "Cirokumulus").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cirrocumulus_in_Hong_Kong.jpg/300px-Cirrocumulus_in_Hong_Kong.jpg)
+![[~/×/44a0b13cc13a1e2f9d5f960fe2a865dc_MD5.jpg]]
 
 [Nebo](https://hr.m.wikipedia.org/wiki/Nebo "Nebo") prekriveno oblacima [cirokumulusima](https://hr.m.wikipedia.org/wiki/Cirokumulus "Cirokumulus").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Cirrostratus.jpg/300px-Cirrostratus.jpg)
+![[~/×/c5c04249bc6c9d1b8daf51836c558e61_MD5.jpg]]
 
 [Nebo](https://hr.m.wikipedia.org/wiki/Nebo "Nebo") prekriveno oblacima [cirostratusima](https://hr.m.wikipedia.org/wiki/Cirostratus "Cirostratus").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Partially_illuminated_Ac_with_shadows.JPG/300px-Partially_illuminated_Ac_with_shadows.JPG)
+![[~/×/6f0a0e60a8f1c2481741b1b17d414efb_MD5.jpg]]
 
 [Altokumulusi](https://hr.m.wikipedia.org/wiki/Altokumulus "Altokumulus") kod [zalaska Sunca](https://hr.m.wikipedia.org/wiki/Zalazak_sunca "Zalazak sunca").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Altostratus_undulatus.jpg/300px-Altostratus_undulatus.jpg)
+![[~/×/3ac9da859158e8100f6fb1464a61616c_MD5.jpg]]
 
 *Altostratus undulatus* ili valoviti [altostratusi](https://hr.m.wikipedia.org/wiki/Altostratus "Altostratus").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Ns1.jpg/300px-Ns1.jpg)
+![[~/×/f50ed34d0555edd91c4c18bab2ae4591_MD5.jpg]]
 
 [Nebo](https://hr.m.wikipedia.org/wiki/Nebo "Nebo") prekriveno [nimbostratusima](https://hr.m.wikipedia.org/wiki/Nimbostratus "Nimbostratus") (*Nimbostratus fractus* ili razlomljeni nimbostratusi).
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Large_Stratocumulus.JPG/300px-Large_Stratocumulus.JPG)
+![[~/×/17d39343b8ebe29900736389f093ea68_MD5.jpg]]
 
 [Nebo](https://hr.m.wikipedia.org/wiki/Nebo "Nebo") prekriveno [stratokumulusima](https://hr.m.wikipedia.org/wiki/Stratokumulus "Stratokumulus") (*Stratocumulus stratiformis perlucidus* ili slojeviti providni stratokumulusi).
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Stratus-Opacus-Uniformis.jpg/300px-Stratus-Opacus-Uniformis.jpg)
+![[~/×/4343c0d0bd77b60059f81bdc3b8c0a39_MD5.jpg]]
 
 [Nebo](https://hr.m.wikipedia.org/wiki/Nebo "Nebo") prekriveno [stratusima](https://hr.m.wikipedia.org/wiki/Stratus "Stratus").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/GoldenMedows.jpg/300px-GoldenMedows.jpg)
+![[~/×/5e7ff922503ee3f2c8f9224534275eac_MD5.jpg]]
 
 [Nebo](https://hr.m.wikipedia.org/wiki/Nebo "Nebo") prekriveno [kumulusima](https://hr.m.wikipedia.org/wiki/Kumulus "Kumulus") (*Cumulus humilis* ili plosnati kumulusi).
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Anvil_shaped_cumulus_panorama_edit.jpg/300px-Anvil_shaped_cumulus_panorama_edit.jpg)
+![[~/×/15a223ddb3be48ea81ba03ce777e5ce2_MD5.jpg]]
 
 *Cumulonimbus incus* ili [kumulonimbusi](https://hr.m.wikipedia.org/wiki/Kumulonimbus "Kumulonimbus") oblika nakovnja.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Rolling-thunder-cloud.jpg/300px-Rolling-thunder-cloud.jpg)
+![[~/×/997f4fda529d7b072f882b78386e7fce_MD5.jpg]]
 
 [Kumulonimbusi](https://hr.m.wikipedia.org/wiki/Kumulonimbus "Kumulonimbus") koji stvaraju [grmljavinsku oluju](https://hr.m.wikipedia.org/wiki/Grmljavinska_oluja "Grmljavinska oluja").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nacreous_clouds_Antarctica.jpg/300px-Nacreous_clouds_Antarctica.jpg)
+![[~/×/8591675a3cee468d86021d496fc75f55_MD5.jpg]]
 
 [Polarni stratosferski oblaci](https://hr.m.wikipedia.org/wiki/Polarni_stratosferski_oblaci "Polarni stratosferski oblaci").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Noctilucent_clouds_over_Uppsala%2C_Sweden.jpg/300px-Noctilucent_clouds_over_Uppsala%2C_Sweden.jpg)
+![[~/×/139585cc0053667c163b079c8ef01ad0_MD5.jpg]]
 
 [Noćni svijetleći oblaci](https://hr.m.wikipedia.org/wiki/No%C4%87ni_svijetle%C4%87i_oblak "Noćni svijetleći oblak") iznad [Uppsale](https://hr.m.wikipedia.org/wiki/Uppsala "Uppsala"), [Švedska](https://hr.m.wikipedia.org/wiki/%C5%A0vedska "Švedska").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Vol_d%27onde.svg/300px-Vol_d%27onde.svg.png)
+![[~/×/7244f3990f7ad5f17f759acb1d8924eb_MD5.png]]
 
 Nastanak valovitih oblaka u [planinama](https://hr.m.wikipedia.org/wiki/Planina "Planina").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CirrostratusUndulatusField.jpg/300px-CirrostratusUndulatusField.jpg)
+![[~/×/2e490d9c8c3d56071ffadcb93856b97d_MD5.jpg]]
 
 *Cirrostratus undulatus* ili valoviti [cirostratus](https://hr.m.wikipedia.org/wiki/Cirostratus "Cirostratus").
 
@@ -83,7 +83,7 @@ Topli zrak pun [vlage](https://hr.m.wikipedia.org/wiki/Vlaga_zraka "Vlaga zraka"
 
 U njima se nalaze kapljice vode koje se skupljaju, pa padnu u obliku kiše na Zemlju.
 
- *[![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Vista-xmag.png/18px-Vista-xmag.png)](https://hr.m.wikipedia.org/wiki/Datoteka:Vista-xmag.png) Podrobniji članak o temi: [Oborine](https://hr.m.wikipedia.org/wiki/Oborine "Oborine")*
+ *[![[~/×/cef9b85e0dd0db10659a3ae7613b7df6_MD5.png]]](https://hr.m.wikipedia.org/wiki/Datoteka:Vista-xmag.png) Podrobniji članak o temi: [Oborine](https://hr.m.wikipedia.org/wiki/Oborine "Oborine")*
 
 Ako u nekom dijelu [Zemljine atmosfere](https://hr.m.wikipedia.org/wiki/Zemljina_atmosfera "Zemljina atmosfera") koji je zasićen [vlagom](https://hr.m.wikipedia.org/wiki/Vlaga "Vlaga") pada [temperatura](https://hr.m.wikipedia.org/wiki/Temperatura "Temperatura"), [kondenzirat](https://hr.m.wikipedia.org/wiki/Kondenzacija "Kondenzacija") će se [vodena para](https://hr.m.wikipedia.org/wiki/Vodena_para "Vodena para") i stvarati [vodene kapljice](https://hr.m.wikipedia.org/wiki/Voda "Voda"). Stvaraju li se te kapljice blizu tla, nastat će [magla](https://hr.m.wikipedia.org/wiki/Magla "Magla"), a stvaraju li se u većim visinama, nastat će oblaci. Oblaci nastaju i na taj način da se topli zrak kao [specifički lakši](https://hr.m.wikipedia.org/wiki/Relativna_gusto%C4%87a "Relativna gustoća") diže uvis, gdje je niža temperatura. Sadrži li taj zrak veliku količinu vlage, ona će se zbog ohlađivanja kondenzirati, i time će nastati oblaci. Stvaranju magle pogoduju [prašina](https://hr.m.wikipedia.org/wiki/Pra%C5%A1ina "Prašina") i [dim](https://hr.m.wikipedia.org/wiki/Dim "Dim") koji se nalaze u zraku. Čestice prašine i dima čine jezgre kondenzacije vodene pare koja je ohlađena ispod [rosišta](https://hr.m.wikipedia.org/wiki/Rosi%C5%A1te "Rosište"). Zimi odnosno na visokim [planinama](https://hr.m.wikipedia.org/wiki/Planina "Planina"), kada je temperatura vrlo niska, smrzavaju se vodene kapljice u sitne kristale, koje stvaraju [snijeg](https://hr.m.wikipedia.org/wiki/Snijeg "Snijeg").
 

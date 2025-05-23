@@ -13,87 +13,87 @@ location:
 
 Osnovana je 2022. godine u Slavonskom Brodu, kao mjesto koje okuplja vrhunske stručnjake iz različitih medicinskih specijalnosti. Opremljena je modernom i visoko sofisticiranom opremom renomiranih proizvođača.
 
-[![image00055](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/image00055-scaled-qktk45ep12bmhnhzxb66tvzdcoq0y2qbc6nczcyx3k.jpeg "image00055")](https://poliklinika-cormed.hr/kontakt/)
+[![[~/×/8cf6be44bb8e5fa50dac0b0d073bc91e_MD5.jpg]]](https://poliklinika-cormed.hr/kontakt/)
 
-[![20374-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/20374-min-qkux3jkoey9xa42ly1or1eh8sn6ic8a44675k0da1c.jpg "20374-min")](https://poliklinika-cormed.hr/o-nama/)
+[![[~/×/594504dbf435768c6f9379001c70caa5_MD5.jpg]]](https://poliklinika-cormed.hr/o-nama/)
 
 ## Naše usluge
 
 ## Poliklinika cormed
 
-![30692-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/30692-min-qkux3lgbkrkahyruyl3th5ht3m3am82by1436cf9a0.jpg "30692-min")
+![[~/×/10eaa4e3cc1d8f9bc7393f4a8aa95139_MD5.jpg]]
 
 ## KARDIOLOGIJA
 
-[![2328-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/2328-min-qkux38akx329zfaz3ff1i8tcs7w5mgm387zaggyrp4.jpg "2328-min")](https://poliklinika-cormed.hr/pulmologija/)
+[![[~/×/a3dccc8c5472bf0c4b6319490a379d5d_MD5.jpg]]](https://poliklinika-cormed.hr/pulmologija/)
 
 ## PULMOLOGIJA
 
-[![270-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/270-min-qkux2yw70qperbommbcrtb6qud6hhhkruxgfnpcpfc.jpg "270-min")](https://poliklinika-cormed.hr/endokrinologija/)
+[![[~/×/804b8c73c53ca1a7986196062e47e31d_MD5.jpg]]](https://poliklinika-cormed.hr/endokrinologija/)
 
 ## ENDOKRINOLOGIJA
 
-[![14321-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/14321-min-qkux3hoytff57ixbkjhb76fyq2ltrfnelii598ktyw.jpg "14321-min")](https://poliklinika-cormed.hr/nefrologija/)
+[![[~/×/20e35d60bbdffbdb5f83a4883aec8d34_MD5.jpg]]](https://poliklinika-cormed.hr/nefrologija/)
 
 ## NEFROLOGIJA
 
-[![780-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/780-min-qkux32njs2uk1rj60cza3a8l7wnyc9zp7g2dkt74qg.jpg "780-min")](https://poliklinika-cormed.hr/gastroenterologija/)
+[![[~/×/cbe814e09d2a63b9046dc7f2c7c1c7f1_MD5.jpg]]](https://poliklinika-cormed.hr/gastroenterologija/)
 
 ## GASTROENTEROLOGIJA
 
-[![784-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/784-min-qkux33ldywvuddhsuvdwns01tajbjz3fjkpv235qk8.jpg "784-min")](https://poliklinika-cormed.hr/reumatologija/)
+[![[~/×/bcc15f5bdb6bcb197214248ab000e569_MD5.jpg]]](https://poliklinika-cormed.hr/reumatologija/)
 
 ## REUMATOLOGIJA
 
-[![2149870307-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/2149870307-min-qkux3sz13ful2ugxqocu13lhup28bsw6n2bz0k43w8.jpg "2149870307-min")](https://poliklinika-cormed.hr/ortopedija/)
+[![[~/×/fb7a811f5951feda8ed7269154bdbceb_MD5.jpg]]](https://poliklinika-cormed.hr/ortopedija/)
 
 ## ORTOPEDIJA
 
-[![108-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/108-min-e1709814036436-qkuzu4v81igfmbn1k6htvabezsejjx9bhr6kcmbgzc.jpg "108-min")](https://poliklinika-cormed.hr/urologija/)
+[![[~/×/e6758625419cf281bd233cd81fce9de6_MD5.jpg]]](https://poliklinika-cormed.hr/urologija/)
 
 ## UROLOGIJA
 
-[![9197-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/9197-min-qkux3dxm239zx32s6husx7e4cj4cwn8h8zw7c4qens.jpg "9197-min")](https://poliklinika-cormed.hr/dermatologija-i-venerologija/)
+[![[~/×/a4672ce240beaf0f0f227b7911a703ec_MD5.jpg]]](https://poliklinika-cormed.hr/dermatologija-i-venerologija/)
 
 ## DERMATOLOGIJA I VENEROLOGIJA
 
-[![13071-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/13071-min-qkux3ftafrckkb01vio226x1jav3c1fxx976aonmbc.jpg "13071-min")](https://poliklinika-cormed.hr/neurologija/)
+[![[~/×/103267e0035f1ed25fc51eee6db0d6b5_MD5.jpg]]](https://poliklinika-cormed.hr/neurologija/)
 
 ## NEUROLOGIJA
 
-[![2147896228-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/2147896228-min-qkux3p7oc3pfsemecmqbr4jnh5krh0h9ajq13g9ol4.jpg "2147896228-min")](https://poliklinika-cormed.hr/psihijatrija/)
+[![[~/×/a26fda3a4f559d9eb1416a65c0bb941b_MD5.jpg]]](https://poliklinika-cormed.hr/psihijatrija/)
 
 ## PSIHIJATRIJA
 
-[![201-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/201-min-qkux2u702kiz59vgdrbmyudfvftnf0246a709bjoag.jpg "201-min")](https://poliklinika-cormed.hr/oftalmologija/)
+[![[~/×/f9e781f07fbed5701ac9d5062d7c15dc_MD5.jpg]]](https://poliklinika-cormed.hr/oftalmologija/)
 
 ## OFTALMOLOGIJA
 
-[![266-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/266-min-qkux2x0in2mu43rcxajiobntnlfr23db6o5gp5fhrs.jpg "266-min")](https://poliklinika-cormed.hr/otorinolaringologija/)
+[![[~/×/6d23996e7ba7ed2653aaf97f64058993_MD5.jpg]]](https://poliklinika-cormed.hr/otorinolaringologija/)
 
 ## OTORINOLARINGOLOGIJA
 
-[![2162-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/2162-min-qkux36ewjezpc7dpeelsd9aflg5f72emjyobhx1k1k.jpg "2162-min")](https://poliklinika-cormed.hr/ambulanta-za-vrtoglavice/)
+[![[~/×/6c83f0afad15134999145319b8877f4a_MD5.jpg]]](https://poliklinika-cormed.hr/ambulanta-za-vrtoglavice/)
 
 ## AMBULANA ZA VRTOGLAVICE
 
-[![346-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/346-min-qkux30rveerzejlwbc60yapo14x7wvs8j6rem99x2w.jpg "346-min")](https://poliklinika-cormed.hr/ultrazvucna-dijagnostika/)
+[![[~/×/621a109199848a84f416271a3abe4b8c_MD5.jpg]]](https://poliklinika-cormed.hr/ultrazvucna-dijagnostika/)
 
 ## ULTRAZVUČNA DIJAGNOSTIKA
 
-[![36846-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/36846-min-qkux3nbzyfmv56p4nlx2m50qadu11m9smaf24wcgxk.jpg "36846-min")](https://poliklinika-cormed.hr/cormed-estetika/)
+[![[~/×/698d3fd283276a501fc0100761f6bb9a_MD5.jpg]]](https://poliklinika-cormed.hr/cormed-estetika/)
 
 ## CORMED ESTETIKA
 
-[![5862-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/5862-min-qkux3c1xof7f9v5ihh1js7v75rdmh910kql8dkt708.jpg "5862-min")](https://poliklinika-cormed.hr/djecji-oftalmoloski-dermatoloski-ortopedski-i-orl-pregledi/)
+[![[~/×/2a8abec06dc13ffe6707c47ebf8d04d8_MD5.jpg]]](https://poliklinika-cormed.hr/djecji-oftalmoloski-dermatoloski-ortopedski-i-orl-pregledi/)
 
 ## DJEČJI OFTALMOLOŠKI, DERMATOLOŠKI, ORTOPEDSKI I ORL PREGLEDI
 
-[![3301-min](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/3301-min-qkux3a69ar4umn88sg8an8c9yzmw1utjwha9f0vzco.jpg "3301-min")](https://poliklinika-cormed.hr/ekspertiza-nalaza/)
+[![[~/×/92acf4becf0071ed32c7b86d29c086ec_MD5.jpg]]](https://poliklinika-cormed.hr/ekspertiza-nalaza/)
 
 ## EKSPERTIZA NALAZA
 
-![](https://poliklinika-cormed.hr/wp-content/uploads/2024/03/favpng_physician-medicine-patient-surgeon-clinic-min.png)
+![[~/×/245b8c7ffdde2a08f7f4cdbf04ead605_MD5.png]]
 
 ## O nama
 
@@ -113,7 +113,7 @@ U Poliklinici CORMED naši specijalisti koriste terminologiju koju će te razumj
 
 Cilj nam je da posjete u našoj poliklinici budu ugodne za pacijenta, da se pacijent osjeća u potpunosti zbrinuto i zadovoljno te da odlazi sa smiješkom.
 
-![](https://poliklinika-cormed.hr/wp-content/uploads/2024/03/image00080-819x1024.jpeg)
+![[~/×/40f377339d36e65973ec4f3913f85db5_MD5.jpg]]
 
 ## Poliklinika CORMED
 
@@ -151,14 +151,14 @@ Ul. Josipa Jurja Strossmayera 24, 35000, Slavonski Brod
 
 - Blog
 
-![Važnost Fizičke Aktivnosti za Zdravlje i Dobrobit](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/2148846563-min-qkux3r3bhx05a7q7ytcvb5280fk2ijg6ohxnxk8n94.jpg)
+![[~/×/ba70a47062e758015739c6fe3c0590c2_MD5.jpg]]
 
 U ovom blog postu istražujemo važnost redovite fizičke aktivnosti za održavanje zdravlja i dobrobiti. Govorimo o brojnim zdravstvenim prednostima vježbanja,...
 
-![Zdrava Ishrana: Temelj za Optimalno Zdravlje](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/image00063-qktk8pwdtd0qcmtlhgp060ybrtlvtu7k63byi4djg8.jpeg)
+![[~/×/0fe07a46ac0219e8421ed572691413f2_MD5.jpg]]
 
 U ovom blog postu istražujemo važnost zdrave ishrane za opće zdravlje i dobrobit. Govorimo o ključnim nutrijentima potrebnim za održavanje...
 
-![Mentalno Zdravlje: Važnost Rane Detekcije i Tretmana](https://poliklinika-cormed.hr/wp-content/uploads/elementor/thumbs/image00071-qktkd9gauj8mgs80yfe37voj4v7r168uskug09n1dk.jpeg)
+![[~/×/d733327ec8e8ab20b6ce271273f9284c_MD5.jpg]]
 
 Ovaj blog post fokusira se na važnost mentalnog zdravlja i rane detekcije mentalnih poremećaja. Razgovaramo o znakovima i simptomima mentalnih...

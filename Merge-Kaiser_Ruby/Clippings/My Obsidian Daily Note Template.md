@@ -10,7 +10,7 @@ related:
   - "[[daily template v2|daily template v2]]"
   - "[[New Daily Template|New Daily Template]]"
 ---
-![Dann’s Daily Note template for Obsidian|400](https://dannb.org/images/blog/2022/10/daily-note-template.png)
+![[~/×/7a89ba4966732bba0e33e1e298a694a0_MD5.png|400]]
 
 ❗ _Feel free to skip the fluff and navigate directly to the **[raw Daily Note template](https://gist.github.com/dannberg/48ea2ba3fc0abdf3f219c6ad8bc78eb6)**._
 
@@ -46,7 +46,7 @@ You’ll want to install the plugins [directly through Obsidian](https://help.ob
 
 ### Metadata and Navigation
 
-![Dann’s Daily Note metadata and navigation](https://dannb.org/images/blog/2022/10/daily-note-metadata-nav.png)
+![[~/×/dd9241345e6827bec495c6b5cdd825ba_MD5.png|400]]
 
 I don’t put too much information into the YAML front matter. Just a created date, using the following Templater code, inserts the current date:
 
@@ -66,7 +66,7 @@ I also include some Previous/Next navigation at the top[1](#fn:1), powered by Te
 
 ### Daily Questions
 
-![Dann’s Daily Note questions](https://dannb.org/images/blog/2022/04/daily-note-daily-questions.png)
+![[~/×/64081c38fb8ad537f1fa9297b7d54d43_MD5.png|400]]
 
 For a long time, I used the [Day One](https://dayoneapp.com/) iOS app for daily journaling. It’s a beautiful mobile app, and I loved storing my daily ephemeral notes there. However, I found myself annoyed every time I wrote an entry, since typing a full-length post on my phone was tedious. I experimented with voice entry, but that felt too unnatural. I explored switching to the MacOS app, but the monthly fee (vs _free_ on a single device) kept me away.
 
@@ -76,7 +76,7 @@ I write these answers first thing in the morning, right after I create the day�
 
 ### Ephemeral Notes
 
-![Dann’s Daily Note ephemeral and record of work](https://dannb.org/images/blog/2022/04/daily-note-ephemeral-record-of-work.png)
+![[~/×/1f743acab4187d3429b0033949ee342b_MD5.png|400]]
 
 Like the Daily Questions, the Notes section has an empty bullet point ready for me to write. Writing in bullet points makes the task much less daunting. You’re inviting yourself to make a quick note. You should always make it as easy as possible to start.
 
@@ -86,7 +86,7 @@ Other times ephemeral notes will juts stay here. Although I recognize that the r
 
 ### Automatic cursor placement
 
-![Dann’s Daily Note Templater cursor placement text](https://dannb.org/images/blog/2022/04/daily-note-cursor-placement-templater.png)
+![[~/×/4f260cb0c1311558e14a49a017e321c6_MD5.png|400]]
 
 **Update Oct 2022**: A [commenter](https://gist.github.com/moritzdawo) on the [gist](https://gist.github.com/dannberg/48ea2ba3fc0abdf3f219c6ad8bc78eb6) pointed out that you can use `<% tp.file.cursor() %>` to tell Obsidian where to place your cursor once Templater creates each new Daily Note.
 
@@ -108,13 +108,13 @@ I personally find this information less useful day-of, so just having codeblocks
 
 ## Where to store your daily notes
 
-![Dann’s Daily Note directory structure](https://dannb.org/images/blog/2022/04/daily-note-directory-structure.png)
+![[~/×/5078b98b08fa6034e78f3cda669fb057_MD5.png|400]]
 
 My overall Obsidian organizational structure is based largely on Nick Milo’s [Linking Your Thinking](https://www.linkingyourthinking.com/). As such, I have a `Timestamps` folder, and all my daily notes live there.
 
 Originally, all my daily notes were in that single directory, but I’ve since moved to a Year > Month > Day system that makes navigating old notes **significantly quicker.** This organizational structure is super easy to set up for new notes. In the Daily Note settings, set Date Format to `YYYY/MM-MMMM/YYYY-MM-DD-dddd`. Each `/` denotes a new directory, so new daily note files will be created within existing Year and Month folders, or create them if they don’t yet exist.
 
-![Dann’s Daily Note settings](https://dannb.org/images/blog/2022/04/daily-note-settings.png)
+![[~/×/00fa2bdd4bebefb246e3a1e5c5d60ab5_MD5.png|400]]
 
 ### Setting up your Daily Note template
 
@@ -122,7 +122,7 @@ Create a new note, and name it `Template, Daily Note`. Move it to your templates
 
 Once the file exists in your desired directory, enter the directory path in the Daily Notes settings page. Each time you click the menu button to create your Daily Note, it will use that template file, along with the Templater plugin, to generate a fully-formed, ready-to-use, daily note.
 
-![Templater setting to run when new file is created](https://dannb.org/images/blog/2022/10/obsidian-templater-trigger-new-file.jpg)
+![[~/×/f39b6dad6983d9e0f6282b182506d9a1_MD5.jpg|400]]
 
 Additionally, in the Templater settings, make sure that you enable `Trigger Templater on new file creation`. With this enabled, you’ll have a new Daily Note, complete with the dynamic text that we created, when you click the Open Today’s Daily Note button[2](#fn:2).
 

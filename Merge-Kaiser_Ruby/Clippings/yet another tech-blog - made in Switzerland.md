@@ -9,9 +9,9 @@ tags:
 related:
   - "[[unix]]"
 ---
-![icon|50](https://www.claudiokuenzler.com/favicon-32x32.png)
+![[~/×/d5fcbf6904821837b4f49f68713f788e_MD5.png|50]]
 
-- [ ] #task store this as a useful resource [[yet another tech-blog - made in Switzerland]]
+- [ ] #task store this as a useful resource [[yet another tech-blog - made in Switzerland]] 📅 2025-05-01
 ___
 ## [check\_esxi\_hardware 20250221 released: pywbem exception improvements](https://www.claudiokuenzler.com/blog/1473/check-esxi-hardware-20250221-release-pywbem-exception-improvements)
 
@@ -19,7 +19,7 @@ ___
 
 A new version of [check\_esxi\_hardware](https://www.claudiokuenzler.com/monitoring-plugins/check_esxi_hardware.php), an open source monitoring plugin to monitor the hardware of [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html) servers, is available.
 
-![Hardware monitoring on ESXi server](https://www.claudiokuenzler.com/graph/news/1455-esxi-monitoring_small.jpg)
+![[~/×/136d30869615846ff97e880b497ec945_MD5.jpg|50]]
 
 ## Improve/Fix pywbem exceptions
 

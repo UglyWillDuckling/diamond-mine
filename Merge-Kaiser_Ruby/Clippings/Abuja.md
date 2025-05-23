@@ -22,11 +22,11 @@ Major religious sites include the [Nigerian National Mosque](https://en.m.wikipe
 
 Abuja is Nigeria's [administrative](https://en.m.wikipedia.org/wiki/Administration_\(government\) "Administration (government)") and political capital. It is also a key capital on the African continent due to Nigeria's [geo-political](https://en.m.wikipedia.org/wiki/Geo-political "Geo-political") influence in regional affairs.[^amlsnconference-22] Abuja is also a conference centre and hosts various meetings annually, such as the 2003 [Commonwealth](https://en.m.wikipedia.org/wiki/Commonwealth_of_Nations "Commonwealth of Nations") Heads of Government meeting and the 2014 World Economic Forum (Africa) meetings.[^amlsnconference-22][^23] Abuja joined the [UNESCO](https://en.m.wikipedia.org/wiki/UNESCO "UNESCO") Global Network of Learning Cities in 2016.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/National_Assembly_Building_with_Mace%2C_Abuja%2C_Nigeria.jpg/220px-National_Assembly_Building_with_Mace%2C_Abuja%2C_Nigeria.jpg)
+![[~/×/eb0469e0b6ebdf64ede6f5a977820e9b_MD5.jpg]]
 
 [National Assembly](https://en.m.wikipedia.org/wiki/National_Assembly_\(Nigeria\) "National Assembly (Nigeria)") Building with Mace, Abuja, Nigeria
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Abuja_Millenium_Park_2019_01.jpg/220px-Abuja_Millenium_Park_2019_01.jpg)
+![[~/×/b59d45d8ffad7a38f854ebc4ac34055b_MD5.jpg]]
 
 Millenium Park
 
@@ -54,7 +54,7 @@ The master plan for Abuja defined the general structure and major design element
 
 The elevation is 360 metres (1,180 ft).[^73]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/NIGERIA.jpg/220px-NIGERIA.jpg)
+![[~/×/5785bafc0440a817f8bb7445e6444ff1_MD5.jpg]]
 
 Abuja, Nigeria
 

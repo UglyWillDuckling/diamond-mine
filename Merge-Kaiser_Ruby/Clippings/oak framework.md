@@ -9,7 +9,7 @@ related:
 ---
 github: https://github.com/oakserver/oak
 
-![a cartoon squirrel holding an acorn](https://oakserver.org/oak_logo.svg?__frsh_c=6ccb8f389a5d8534f54e00d00f731f6c6dc69c61)
+![[~/×/40f153c05003aef10d5d981f0635c41a_MD5.svg]]
 
 oak is a middleware framework for handling HTTP requests across [Deno](https://deno.com/), [Node.js](https://nodejs.org/), [Bun](https://bun.sh/) and [Cloudflare Workers](https://workers.cloudflare.com/).
 

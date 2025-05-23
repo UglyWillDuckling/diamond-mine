@@ -15,7 +15,7 @@ Ignas R. & Aris S.
 
 14min Read
 
-![WordPress on VPS: Best Virtualization + How to Optimize Your Site with KVM VPS](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/06/VPS-alt-1.webp)
+![[~/×/f61b312f6a221a9cc07a18c60ddc413b_MD5.webp]]
 
 When choosing a virtual private server (VPS) plan, WordPress users must consider its [web server](https://www.hostinger.com/tutorials/what-is-a-web-server) and virtualization technology to achieve optimal site speed. At Hostinger, our VPS plans use Kernel-based Virtual Machine (KVM) and OpenLiteSpeed.
 
@@ -23,7 +23,7 @@ In this article, we will explain how to optimize WordPress with KVM VPS at Hosti
 
 We will also compare popular VPS virtualization technologies and different web servers’ performance for various WordPress website types. Lastly, you will learn how to easily set up an optimized WordPress hosting environment on Hostinger VPS using KVM and OpenLiteSpeed.
 
-![](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/11/Linux-cheat-sheet-1024x283.webp)
+![[~/×/9608f8554e39eab5c2fc15310c34734a_MD5.webp]]
 
 - [What Is Virtualization and Why You Should Care About It](https://www.hostinger.com/tutorials/#What_Is_Virtualization_and_Why_You_Should_Care_About_It "What Is Virtualization and Why You Should Care About It")
 - [Types of Virtualization](https://www.hostinger.com/tutorials/#Types_of_Virtualization "Types of Virtualization")
@@ -110,7 +110,7 @@ CPU speed is a crucial factor in determining VPS performance. The CPU is the bra
 
 To ensure data accuracy, we use [Geekbench](https://www.geekbench.com/) CPU benchmark software to test each VPS plan’s performance. A higher score means a faster and more powerful CPU.
 
-![Graph comparing the Geekbench CPU performance of KVM and OpenVZ](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/kvm-openvz-geekbench-cpu-performance-comparison-graph-1024x992.webp)
+![[~/×/a3ab391c7caffa40908004cb4230459b_MD5.webp]]
 
 The graph shows that the **KVM 1** plan offers **35%** higher single-core CPU performance despite only having a single core compared to two in Hostinger’s **VPS 2 OpenVZ**. The multi-core performance is also nearly identical.
 
@@ -120,7 +120,7 @@ Storage speed, also known as disk speed or I/O (Input/Output) performance, is an
 
 The **read** speed measures how fast the drive accesses data stored in it. Meanwhile, **write** speed measures how quickly the drive saves information.
 
-![Graph comparing the FiO storage speed of KVM and OpenVZ](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/kvm-openvz-fio-storage-speed-comparison-graph-1024x992.webp)
+![[~/×/28228904898b91cd43d18299070bf4b2_MD5.webp]]
 
 The graph shows that the KVM plan offers a **67%** increase in read and write speeds compared to the OpenVZ one.
 
@@ -130,7 +130,7 @@ Network speed is crucial for fast data transfer, quick site load time, smooth me
 
 In the following benchmark, we compare network transfer speeds for **Hostinger KVM 1** and **Hostinger VPS 2 OpenVZ** plans using [iPerf3](https://iperf.fr/). This tool measures the maximum achievable bandwidth on a network, including between a client and VPS.
 
-![Graph comparing the iPerf3 network speed of KVM and OpenVZ](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/Graph-comparing-the-iPerf3-network-speed-of-KVM-and-OpenVZ-1024x992.webp)
+![[~/×/0362b7a7a6868bce5a37dc6d50f1be35_MD5.webp]]
 
 KVM shows **66%** better performance in download and upload speeds. In addition, our new KVM plans use a **300** **Mbps** network, while the deprecated OpenVZ plan uses **100** **Mbps**.
 
@@ -180,11 +180,11 @@ We will use **GTmetrix** to test three website types – personal, eCommerce, an
 
 A simple personal website usually functions to showcase personal information, interests, or projects. It typically serves as a digital identity or online portfolio, allowing visitors to learn more about the website owner and their activities.
 
-![A landing page of a personal website](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/a-personal-website-landing-page-1024x584.webp)
+![[~/×/ccef1e94d0a9204cd429b0ff0d2fd45b_MD5.webp]]
 
 The VPS requirement for this type of site is generally modest since personal websites are simple, draw low traffic, and consume minimal server resources. A VPS plan with **one CPU core** and **1-2 GB of RAM** should be sufficient. Here’s the test result:
 
-![A graph comparing the loading speed of a personal website with OpenVZ and KVM](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/personal-website-loading-speed-with-openvz-and-kvm-comparison-graph-1024x992.webp)
+![[~/×/5c74d9df0846b822626edc503b4b3b32_MD5.webp]]
 
 The graph shows that the KVM plan offers a considerable **10%** site speed improvement. Moreover, it performs better despite having **three** **fewer CPU cores** than the OpenVZ one.
 
@@ -194,11 +194,11 @@ Unlike personal websites, an [eCommerce website](https://www.hostinger.com/tutor
 
 As such, a WordPress-based online store is generally more resource-heavy than a simple personal website. Aside from the additional functionalities, an eCommerce website typically has more data and web pages to offer a seamless shopping experience to customers.
 
-![An eCommerce website appearance](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/an-ecommerce-website-appearance-1024x739.webp)
+![[~/×/798c92ddfbd6291f1ff8f9d9f15c7080_MD5.webp]]
 
 For these reasons, eCommerce websites deal with more complex operations and potentially higher traffic. So, we recommended having a VPS with at least **two to four CPU cores** and **4 GB to 8 GB of RAM** to ensure optimal site performance.
 
-![A graph comparing an eCommerce website loading speed using OpenVZ and KVM](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/openvz-kvm-ecommerce-website-loading-speed-comparison-graph-1024x992.webp)
+![[~/×/f2ce7e20109b18e3ea397bccf8fd7ece_MD5.webp]]
 
 Despite the fewer processing units, the KVM plan handles the eCommerce website well and offers a **21%** page load time improvement compared to the OpenVZ VPS.
 
@@ -206,7 +206,7 @@ Despite the fewer processing units, the KVM plan handles the eCommerce website w
 
 A web design agency site is a digital platform showcasing a company’s services, expertise, portfolio, and contact information. Its primary purpose is to attract potential clients, demonstrate the agency’s capabilities, and provide essential information to visitors.
 
-![A web design agency website landing page](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/web-design-agency-website-landing-page-1024x503.webp)
+![[~/×/99e0cb89972f46a80ec1253f9e956ed8_MD5.webp]]
 
 The requirements for a VPS will depend on factors such as the expected traffic, the number of websites hosted, the WordPress theme, and the web pages’ complexity.
 
@@ -214,7 +214,7 @@ For instance, the server resource consumption will increase if a page uses many 
 
 You will also need a higher-performance VPS if the website requires specific services or applications, like a map API. A VPS hosting plan with at least **two CPU cores** and **4 GB RAM** for a web design agency should be sufficient to start with.
 
-![A graph comparing web design agency website loading speed with OpenVZ and KVM](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/openvz-kvm-web-design-agency-website-loading-speed-comparison-graph-1024x992.webp)
+![[~/×/7764d9d8fddc0d8a1a1ce712923ed649_MD5.webp]]
 
 Based on the findings, our new **KVM 1** plan handles the web design agency WordPress website well, offering a **5%** page speed improvement compared to the OpenVZ plan.
 
@@ -292,7 +292,7 @@ To objectively measure their performance, we tested each web server by running p
 
 We also use the same VPS plan, **Hostinger KVM 1** with **one core** and **4 GB of RAM**.
 
-![Graphs comparing the performance of Apache, OpenLiteSpeed, and NGINX web servers for different website types](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/apache-openlitespeed-nginx-performance-comparison-graphs-for-three-website-types-1024x992.webp)
+![[~/×/05ec1c7eba0dae45c58581a44355c8b8_MD5.webp]]
 
 Our tests show that OpenLiteSpeed offers faster page speed for every website type than Apache and NGINX. It is **16%** to **32%** faster in fully loaded time than Apache and performs **14%** to **38%** better than NGINX.
 
@@ -300,7 +300,7 @@ Our tests show that OpenLiteSpeed offers faster page speed for every website typ
 
 In this section, we will explain the steps to set up OpenLiteSpeed and KVM virtualization using Hostinger’s VPS hosting for your WordPress site. Before proceeding, ensure you have purchased the new KVM hosting plan.
 
-![](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/02/VPS-hosting-banner-1024x300.webp)
+![[~/×/20205e2cc9cc8700a31ecc62f7141788_MD5.webp]]
 
 ### Step 1. Install a Template With OpenLiteSpeed and WordPress
 
@@ -310,11 +310,11 @@ For this tutorial, we will use the **Ubuntu 22.04** with WordPress template, whi
 
 1. Log in to **hPanel** and select **VPS** on the top menu. Select your VPS plan:
 
-![The list of user VPS in hPanel's VPS menu](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/hpanel-vps-menu-user-vps-list-1024x269.webp)
+![[~/×/2279156580e3832cce713fcddd0b37cc_MD5.webp]]
 
 2. Navigate to the **Operating System** section, choose **Applications**, and select the **Ubuntu 22.04 64bit with WordPress** template:
 
-![VPS operating system template selection menu in hPanel](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/hpanel-vps-operating-system-template-selection-menu-1024x586.webp)
+![[~/×/6a988e1293eb377e278a8e30d10d71b8_MD5.webp]]
 
 3. Lastly, click on the **Choose OS** button.
 
@@ -328,16 +328,16 @@ On hPanel’s VPS overview menu, follow these steps:
 
 1. Click **Browser terminal**. If your browser returns a pop-up notification message for permission, select **Allow**.
 
-![The Browser terminal button location in hPanel's VPS overview menu](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/browser-terminal-location-in-hpanel-vps-overview-menu-1024x732.webp)
+![[~/×/72e0bfd4fa63e18d59ac4cb853fadc6a_MD5.webp]]
 
 2. Enter your VPS root username and password. You can find them in the **SSH access** tab.
 3. An interactive script will appear after logging in. Enter your domain or VPS IP address to start the installation.
 
-![Browser terminal interactive script requests the user's VPS domain](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/browser-terminal-interactive-script-request-user-vps-domain-1024x683.webp)
+![[~/×/004b396428f7ad35d06d8585d963a963_MD5.webp]]
 
 4. The command line will prompt you with various questions. Enter **y** or **n** to answer the prompts and continue the installation.
 
-![Browser terminal outputs installation prompts and a confirmation message about the successful OpenLiteSpeed installation.](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/browser-terminal-outputs-installation-prompts-and-a-confirmation-about-successful-OpenLiteSpeed-installation-1024x389.webp)
+![[~/×/cd7d67dc3b9e9e997e9f496dffe73dac_MD5.webp]]
 
 Once the OpenLiteSpeed web server is installed, the command line will output a confirmation message.
 
@@ -348,15 +348,15 @@ After setting up the web server, install and configure the WordPress platform. T
 1. Visit your website using its domain name or VPS IP address.
 2. Choose the WordPress installation language.
 
-![WordPress installation language selection menu](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/wordpress-installation-language-selection-menu.webp)
+![[~/×/a13735fc2272845dc80e89c6b62809cd_MD5.webp]]
 
 3. Fill in the required information, like the site title, username, and password, then click **Install WordPress** to confirm.
 
-![WordPress requests user information during the installation process](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/wordpress-installation-requesting-user-information-1016x1024.webp)
+![[~/×/92be45e55c680cf53e07df1d2e6cee4f_MD5.webp]]
 
 WordPress is now ready to use, and the LiteSpeed caching plugin will install automatically.
 
-![A confirmation message about successful WordPress installation](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/successful-wordpress-installation-confirmation-message-1024x558.webp)
+![[~/×/d0c812875a2d34be462a42c8c7cb2f63_MD5.webp]]
 
 ### Step 4. Start Managing Your Server
 
@@ -376,7 +376,7 @@ ufw allow 7080
 
 For more information, refer to the [LiteSpeed control panel access manual](https://docs.litespeedtech.com/cloud/images/wordpress/). Once you successfully access Web Admin, you will see a login screen similar to the one below.
 
-![OpenLiteSpeed's Web Admin login page](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/openlitespeed-web-admin-login-page.webp)
+![[~/×/62303645ba38ad2c46ad1459f01da93a_MD5.webp]]
 
 Enter your Web Admin access credentials and click **Login**. By default, the login username is **Admin**. For the password, check it by running either of the following commands in **Browser terminal**:
 
@@ -389,7 +389,7 @@ sudo cat .litespeed_password
 
 In the control panel, you can manage your domains, SSL certificates, and other server settings:
 
-![OpenLiteSpeed's web admin main dashboard](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/openlitespeed-web-admin-main-dashboard-1024x778.webp)
+![[~/×/d1a69a324ac5bbe90216fac2b5449757_MD5.webp]]
 
 **Setting Up phpMyAdmin**
 
@@ -412,7 +412,7 @@ One of OpenLiteSpeed’s key features is its capability to enable users to fully
 
 You can adjust various caching settings based on your needs. For this tutorial, we will choose the default options and enable [Object Cache](https://www.hostinger.com/tutorials/what-is-object-cache):
 
-![LiteSpeed Cache plugin settings in the WordPress dashboard](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/litespeed-cache-plugin-settings-in-wordpress-dashboard-1024x748.webp)
+![[~/×/cbb19c23171e07ef75936db78da889a6_MD5.webp]]
 
 #### Suggested Reading
 
@@ -424,7 +424,7 @@ To demonstrate the page speed improvement, we will test three WordPress site typ
 
 **Personal Website**
 
-![A graph comparing KVM and OpenVZ personal website loading speed with and without LiteSpeed cache](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/kvm-openvz-personal-website-loading-speed-with-and-without-litespeed-cache-comparison-graph-1024x992.webp)
+![[~/×/5ab339b4aa907a077e4dcb47861e1f5d_MD5.webp]]
 
 The graph shows that the KVM plan offers a **10%** decrease in page load time with the LiteSpeed Cache plugin enabled compared to OpenVZ.
 
@@ -432,13 +432,13 @@ KVM also remains faster without the LiteSpeed caching plugin. It still offers a 
 
 **eCommerce Website**
 
-![A graph comparing KVM and OpenVZ eCommerce website loading speed with and without LiteSpeed cache](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/kvm-openvz-ecommerce-website-loading-speed-with-and-without-litespeed-cache-comparison-graph-1024x992.webp)
+![[~/×/7906f2748c298efea73d37b5d68dc948_MD5.webp]]
 
 For an eCommerce WordPress site, both plans perform similarly. However, the KVM plan offers **8%** and **11%** faster loading time, with the LiteSpeed caching plugin enabled and disabled, respectively.
 
 **Web Design Agency Website**
 
-![A graph comparing KVM and OpenVZ web design agency website loading speed with and without LiteSpeed cache](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/09/kvm-openvz-web-design-agency-website-loading-speed-with-and-without-litespeed-cache-comparison-graph-1024x992.webp)
+![[~/×/572c640fe499796077966ac0ffca36cc_MD5.webp]]
 
 Both VPS plans offer nearly identical performance, but the KVM plan outperforms with a **5%** faster loading time with LiteSpeed Cache on. With the plugin disabled, it still offers a **3%** shorter loading time.
 
@@ -446,7 +446,7 @@ To summarize, KVM VPS consistently delivers up to **11%** better performance tha
 
 The combination provides faster page loading speed and responsiveness, regardless of the website type. If you want to scale and [speed up your WordPress site](https://www.hostinger.com/tutorials/speed-up-wordpress), Hostinger’s VPS hosting OpenLiteSpeed template is an excellent choice.
 
-![](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/02/VPS-hosting-banner-1024x300.webp)
+![[~/×/20205e2cc9cc8700a31ecc62f7141788_MD5.webp]]
 
 ## Conclusion
 
@@ -475,11 +475,11 @@ KVM VPS stands for Kernel-based Virtual Machine Virtual Private Server. It is a 
 
 OpenLiteSpeed is a lightweight open-source web server software. It provides a high-performance, scalable, and feature-rich platform for serving websites and web applications. It is designed to be a faster alternative to Apache, with support for PHP and other popular web technologies.
 
-![Author](https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/08/rsz_1screenshot_3-150x146.webp)
+![[~/×/6f561266aac1c53ade664f9c94c4b17a_MD5.webp]]
 
 Ignas takes great satisfaction in helping people tackle even the most complex technical issues. His current goal is to write easy-to-follow articles so that these issues will not happen at all. During his free time, Ignas likes to play video games and fix up things around his house.
 
-![Author](https://secure.gravatar.com/avatar/959b33c75a85c9aab800fa4231751fa3?s=96&d=mm&r=g)
+![[~/×/b48f7ea6351f7c7a73b0ead927563f0b_MD5.jpg]]
 
 The Co-author
 

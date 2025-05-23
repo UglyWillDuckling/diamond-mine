@@ -6,7 +6,7 @@ tags:
   - event
 date: 2025-05-15T20:05:00
 ---
-![](https://regionalni.hr/wp-content/uploads/2025/05/10.HTA_-1024x792.jpg)
+![[~/×/cef2d146aaee267055d790ccba255a45_MD5.jpg]]
 
 U Likovnom salonu Vladimir Becić u Slavonskom Brodu, na adresi Trg Ivane Brlić Mažuranić 8, u četvrtak 15. svibnja s početkom u 20 sati, bit će svečano otvoren 10. hrvatski triennale akvarela. Izložba se organizira u sklopu obilježavanja Dana grada i Međunarodnog dana muzeja.
 

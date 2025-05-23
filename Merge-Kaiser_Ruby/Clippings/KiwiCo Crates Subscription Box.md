@@ -6,23 +6,23 @@ created: 2025-02-22
 tags:
   - product
 ---
-![KiwiCo Studio|500](https://icdn.kiwico.com/site/clubs/logo-studio.svg)
+![[~/×/90ae400ed1e7bfc70c4691f1ec70ebf0_MD5.svg|500]]
 
 ## Your hands-on studio for creativity.
 
 Giving artists of all ages the tools and creative confidence to express themselves.
 
-![](https://icdn.kiwico.com/site/clubs/studio-dots-mobile-1.svg)
+![[~/×/7ac77fb3d67530531b38c7a0a08c9a26_MD5.svg|500]]
 
-![](https://icdn.kiwico.com/site/age-range/programs/studio-9-14_product.webp)![](https://icdn.kiwico.com/site/age-range/programs/studio-9-12_lifestyle2.webp)
+![[~/×/591c60eac2924b31ffacbd8966f5294f_MD5.webp|500]]![[~/×/691e11279d4d6e9f0437829f00078756_MD5.webp|500]]
 
 #### 9–13 years
 
 Begin your art journey and express your creativity through new techniques.
 
-![](https://icdn.kiwico.com/site/clubs/studio-dots-mobile-2.svg)
+![[~/×/d51ae507e64568482cc0d042a1946409_MD5.svg|500]]
 
-![](https://icdn.kiwico.com/site/age-range/programs/studio-14-18_product.webp)![](https://icdn.kiwico.com/site/age-range/programs/studio-12-16_lifestyle.webp)
+![[~/×/451448b2301d48e68db9df8823e74118_MD5.webp|500]]![[~/×/b8baba5cd333fdba3a3f69effac6cbd9_MD5.webp|500]]
 
 #### 14–18+ years
 
@@ -39,23 +39,23 @@ Studio: Ages **9–13**
 
 **Express your creativity** as you explore a new art technique every month.
 
-![](https://icdn.kiwico.com/site/clubs/studio/studio-topics-9-14.webp)
+![[~/×/4bc808c45abc4338640d4af7260aaa8e_MD5.webp|500]]
 
 Comes with **everything  
 you need** to create your  
 own works of art.
 
-![](https://icdn.kiwico.com/site/clubs/studio/studio-projects-9-14.webp)
+![[~/×/427b462568a84a7286c7f0fc2711e3cb_MD5.webp|500]]
 
 Get **instructions, bonus inspiration & deep dives** into the history of art.
 
-![](https://icdn.kiwico.com/site/clubs/studio/studio-booklet-9-14.webp)
+![[~/×/486dba24f472373e62b3cf6d5ea50c40_MD5.webp|500]]
 
-![](https://icdn.kiwico.com/site/clubs/studio/studio-digitalexp.webp)
+![[~/×/0d517530abac599f938fe6edb1600d3d_MD5.webp|500]]
 
 Get **step-by-step tutorial videos** and more.
 
-![KiwiCo Studio crate box](https://icdn.kiwico.com/site/clubs/studio/studio-box.webp)
+![[~/×/c07aa2cdf3157f81a0bf71c51e654e42_MD5.webp|500]]
 
 delivered monthly  |  cancel anytime [Q](https://support.kiwico.com/en_us/how-do-i-cancel-my-subscription-r1XehPeGv)
 
@@ -69,15 +69,15 @@ delivered monthly  |  cancel anytime
 ## What the KiwiCo Studio  
 journey looks like:
 
-1. ![](https://icdn.kiwico.com/site/clubs/studio/studio-how-1.webp)
+1. ![[~/×/142fbcb3554ba24e8b3c69db9eff710e_MD5.webp|500]]
 
 Select your age range and get a new art and design project delivered each month.
-2. ![](https://icdn.kiwico.com/site/clubs/studio/studio-how-2.webp)
+2. ![[~/×/71343271e621456490f0b96bbc845a3e_MD5.webp|500]]
 
 ### Grow your creativity
 
 Look forward to new, more challenging topics and projects each month as your skills grow!
-3. ![](https://icdn.kiwico.com/site/clubs/digital-content.webp)
+3. ![[~/×/43291413c9db60ce309681a85fb31670_MD5.webp|500]]
 
 ### Go beyond the crate
 
@@ -93,22 +93,22 @@ How often will I receive a KiwiCo Studio crate?
 
 ## Join a club & get member perks
 
-- ![](https://icdn.kiwico.com/site/icons/perks-shipping.webp)
+- ![[~/×/a410bdacefee364348603c7f1676ce0b_MD5.webp|500]]
 
 ## Free shipping
 
 on any U.S. order
-- ![](https://icdn.kiwico.com/site/icons/perks-other.webp)
+- ![[~/×/d1a20c2f5cf10bc649f0de691cc0b930_MD5.webp|500]]
 
 ## Bonus content
 
 for further discoveries
-- ![](https://icdn.kiwico.com/site/icons/perks-sales.webp)
+- ![[~/×/c812a253c491093e5c16b0fe1b2bda34_MD5.webp|500]]
 
 ## 10% off
 
 every order
-- ![](https://icdn.kiwico.com/site/icons/perks-early.webp)
+- ![[~/×/12d8e97ba61faed46574ca1c75ba05f2_MD5.webp|500]]
 
 ## Early access
 
@@ -117,12 +117,12 @@ to new products
 ## Get started with  
 KiwiCo Studio
 
-1. ![](https://icdn.kiwico.com/site/clubs/studio/studio-purchaseicon-9-14.webp)
+1. ![[~/×/56e6957ab11e1a7c21300b804ae66d06_MD5.webp|500]]
 
 9–13 years old
 
 **Begin your art journey** and express your creativity through new techniques.
-2. ![](https://icdn.kiwico.com/site/clubs/studio/studio-purchaseicon-14-18.webp)
+2. ![[~/×/14a555ccffa150240dab12b6e4e7e968_MD5.webp|500]]
 
 14–18+ years old
 
@@ -138,7 +138,7 @@ delivered monthly  |  cancel anytime
 
 an innovator.
 
-![](https://icdn.kiwico.com/site/intro/about-us/lightbulb-light.svg)
+![[~/×/ad553071324632ed2a1c27d81db2b45a_MD5.svg|500]]
 
 Our mission is to inspire kids to build a better world.
 

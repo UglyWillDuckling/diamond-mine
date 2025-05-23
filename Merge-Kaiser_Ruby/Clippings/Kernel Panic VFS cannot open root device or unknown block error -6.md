@@ -16,4 +16,4 @@ That's what I've bee doing for the two weeks or so I've had this problem, and it
 
 I'm reluctant to turn off the computer in case it happens again, and I'd like to just tear out the root of the problem.
 
-Screenshot of error: [![enter image description here](https://i.sstatic.net/OjKfz.jpg)](https://i.sstatic.net/OjKfz.jpg)
+Screenshot of error: [![[~/×/53548efa4f3a66890bef2b2f5638ece4_MD5.jpg]]](https://i.sstatic.net/OjKfz.jpg)

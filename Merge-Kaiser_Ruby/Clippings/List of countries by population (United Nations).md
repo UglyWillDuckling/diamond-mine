@@ -11,7 +11,7 @@ tags:
 ---
 This is the list of [countries](https://en.m.wikipedia.org/wiki/List_of_sovereign_states "List of sovereign states") and other [inhabited territories](https://en.m.wikipedia.org/wiki/Dependent_territory "Dependent territory") of the world by total population, based on estimates published by the [United Nations](https://en.m.wikipedia.org/wiki/United_Nations "United Nations") in the 2024 revision of *World Population Prospects*. It presents population estimates from 1950 to the present.[^un-2]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/United_Nations_geographical_subregions.png/350px-United_Nations_geographical_subregions.png)
+![[~/×/57ed34ca2287bb73c1250d9cda32a0e2_MD5.png]]
 
 Statistical subregions as [defined by](https://en.m.wikipedia.org/wiki/United_Nations_geoscheme "United Nations geoscheme") the [United Nations Statistics Division](https://en.m.wikipedia.org/wiki/United_Nations_Statistics_Division "United Nations Statistics Division")[^unregions-1]
 

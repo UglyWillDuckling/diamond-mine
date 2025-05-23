@@ -13,7 +13,7 @@ tags:
   - search
 favicon: https://github.githubassets.com/favicons/favicon-dark.svg
 ---
-![icon](https://github.githubassets.com/favicons/favicon-dark.svg)
+![[~/×/229d748078e89b224aac4ea2cafd7498_MD5.svg]]
 
 ## Obsidian Simple Canvasearch Plugin
 

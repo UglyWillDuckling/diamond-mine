@@ -32,7 +32,7 @@ Click the link to install the Book Search plugin: [Install Link](https://obsidia
 
 Or, Search in the Obsidian Community plugin. And install it.
 
-[![](https://user-images.githubusercontent.com/3969643/184918934-585375a9-7b25-4905-81c8-5f092ed74991.png)](https://user-images.githubusercontent.com/3969643/184918934-585375a9-7b25-4905-81c8-5f092ed74991.png)
+[![[~/×/3ef950393f3bd5e738b69ebfb2afe0c0_MD5.png]]](https://user-images.githubusercontent.com/3969643/184918934-585375a9-7b25-4905-81c8-5f092ed74991.png)
 
 ### Enhancements: Cover Image Display in Search Results
 
@@ -82,23 +82,23 @@ For those who enable this feature, we've added CSS styling to ensure that cover 
 
 ### 1\. Click the ribbon icon, or excute the command "Create new book note".
 
-[![](https://user-images.githubusercontent.com/3969643/161973483-ab007598-e0b8-433f-9697-75ee0ef74195.png)](https://user-images.githubusercontent.com/3969643/161973483-ab007598-e0b8-433f-9697-75ee0ef74195.png)
+[![[~/×/f7d82127d2f29e290138456ec83fa6e7_MD5.png]]](https://user-images.githubusercontent.com/3969643/161973483-ab007598-e0b8-433f-9697-75ee0ef74195.png)
 
 ### 2\. Search for books by keywords.
 
-[![](https://user-images.githubusercontent.com/3969643/161973979-51f642c9-626a-4015-a7e9-dfdbe6ec2cbc.png)](https://user-images.githubusercontent.com/3969643/161973979-51f642c9-626a-4015-a7e9-dfdbe6ec2cbc.png)
+[![[~/×/e1bd7a02b607557c2dee88687a9c39a3_MD5.png]]](https://user-images.githubusercontent.com/3969643/161973979-51f642c9-626a-4015-a7e9-dfdbe6ec2cbc.png)
 
 ### 3\. Select the book from the search results.
 
-[![](https://user-images.githubusercontent.com/3969643/161974310-13c3b39b-51dc-472f-b787-db64f74caf74.png)](https://user-images.githubusercontent.com/3969643/161974310-13c3b39b-51dc-472f-b787-db64f74caf74.png)
+[![[~/×/36db08e676a44126d62f580d60605cfc_MD5.png]]](https://user-images.githubusercontent.com/3969643/161974310-13c3b39b-51dc-472f-b787-db64f74caf74.png)
 
 ### 4\. Voila! A note has been created.
 
-[![](https://user-images.githubusercontent.com/3969643/161974593-1b7bfe69-cb9d-47d7-a43d-1d725295a122.png)](https://user-images.githubusercontent.com/3969643/161974593-1b7bfe69-cb9d-47d7-a43d-1d725295a122.png)
+[![[~/×/e34e265dc9e3dcfead858f6c75bada9b_MD5.png]]](https://user-images.githubusercontent.com/3969643/161974593-1b7bfe69-cb9d-47d7-a43d-1d725295a122.png)
 
 ## How to use settings
 
-[![](https://user-images.githubusercontent.com/3969643/184919550-68eff0e4-2b02-41bb-8f17-30a5354359a3.png)](https://user-images.githubusercontent.com/3969643/184919550-68eff0e4-2b02-41bb-8f17-30a5354359a3.png)
+[![[~/×/5a37aeac6980be5773c131f4cded513d_MD5.png]]](https://user-images.githubusercontent.com/3969643/184919550-68eff0e4-2b02-41bb-8f17-30a5354359a3.png)
 
 ### New file location
 
@@ -157,7 +157,7 @@ updated: {{DATE:YYYY-MM-DD HH:mm:ss}}
 
 ## Dataview rendering
 
-[![](https://user-images.githubusercontent.com/3969643/184546096-82ccaae6-9893-411b-aed6-a72c54f72cb2.png)](https://user-images.githubusercontent.com/3969643/184546096-82ccaae6-9893-411b-aed6-a72c54f72cb2.png)
+[![[~/×/758f2c5255ccb197506e94d097d23f4c_MD5.png]]](https://user-images.githubusercontent.com/3969643/184546096-82ccaae6-9893-411b-aed6-a72c54f72cb2.png)
 
 Here is the dataview query used in the demo
 
@@ -293,4 +293,4 @@ If this plugin helped you and you wish to contribute :)
 
 Buy me coffee on [buymeacoffee.com/anpigon](https://www.buymeacoffee.com/anpigon)
 
-[![Buy Me A Coffee](https://camo.githubusercontent.com/7b8f7343bfc6e3c65c7901846637b603fd812f1a5f768d8b0572558bde859eb9/68747470733a2f2f63646e2e6275796d6561636f666665652e636f6d2f627574746f6e732f76322f64656661756c742d79656c6c6f772e706e67)](https://www.buymeacoffee.com/anpigon)  [![](https://user-images.githubusercontent.com/3969643/184924261-f0224843-08fa-4bce-af70-dc5db589979f.png)](https://anpigon.github.io/buymeacoffee/)
+[![[~/×/586a60df9ddd0997f422e79b75f0c2b4_MD5.png]]](https://www.buymeacoffee.com/anpigon)  [![[~/×/61751fcd2227071164cf220f2ec7b04c_MD5.png]]](https://anpigon.github.io/buymeacoffee/)

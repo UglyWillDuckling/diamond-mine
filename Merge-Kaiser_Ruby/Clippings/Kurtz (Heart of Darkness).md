@@ -13,7 +13,7 @@ tags:
 
 <table><tbody><tr><th colspan="2">Kurtz</th></tr><tr><th scope="row">First appearance</th><td><i><a href="https://en.m.wikipedia.org/wiki/Heart_of_Darkness">Heart of Darkness</a></i></td></tr><tr><th scope="row">Created by</th><td><a href="https://en.m.wikipedia.org/wiki/Joseph_Conrad">Joseph Conrad</a></td></tr><tr><th colspan="2">In-universe information</th></tr><tr><th scope="row">Gender</th><td>Male</td></tr><tr><th scope="row">Occupation</th><td><a href="https://en.m.wikipedia.org/wiki/Ivory_trade">Ivory trader</a></td></tr></tbody></table>
 
-![Men standing among piles of elephant tusks](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Ivory_1880s.jpg/264px-Ivory_1880s.jpg)
+![[~/×/8f4755331cfbfc887b0ede6a9c1fce87_MD5.jpg]]
 
 Ivory trade in East Africa around 1890.
 
@@ -23,7 +23,7 @@ Kurtz's mother was half [English](https://en.m.wikipedia.org/wiki/English_people
 
 However, over the course of his stay in Africa, Kurtz becomes corrupted. He takes his pamphlet and scribbles in, at the very end, the words "Exterminate all the brutes!" He induces the natives to worship him, setting up rituals and venerations worthy of a tyrant. By the time Marlow, the protagonist, sees Kurtz, he is ill with jungle fever and almost dead. Marlow seizes Kurtz and endeavours to take him back down the river in his steamboat. Kurtz dies on the boat with the last words, "The horror! The horror!" Kurtz ultimately was changed by the jungle. At first, he wanted to bring civilization to the natives, as his painting shows, but by the end it seems he wants to "exterminate" them.
 
-![Photograph of Edmund Musgrave Barttelot sitting on a chair](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cropped_Edmund_Musgrave_Barttelot%2C_from_The_Life_of_Edmund_Musgrave_Barttelot_%281890%29.png/190px-Cropped_Edmund_Musgrave_Barttelot%2C_from_The_Life_of_Edmund_Musgrave_Barttelot_%281890%29.png)
+![[~/×/d596519c81b032481aebe50a0b7951d6_MD5.png]]
 
 [Edmund Musgrave Barttelot](https://en.m.wikipedia.org/wiki/Edmund_Musgrave_Barttelot "Edmund Musgrave Barttelot"), who became notorious for his brutality, is one of the historical persons that may have inspired Kurtz's persona.
 

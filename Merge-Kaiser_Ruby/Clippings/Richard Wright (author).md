@@ -82,7 +82,7 @@ On March 12, 1941, he married Ellen Poplar (née Poplowitz),[^58][^family-59] a 
 
 Ellen Wright, who died on April 6, 2004, aged 92, was the executor of Wright's estate. In this capacity, she unsuccessfully sued a biographer, the poet and writer [Margaret Walker](https://en.m.wikipedia.org/wiki/Margaret_Walker "Margaret Walker"), in *[Wright v. Warner Books, Inc.](https://en.m.wikipedia.org/wiki/Wright_v._Warner_Books,_Inc. "Wright v. Warner Books, Inc.")* She was a literary agent, and her clients included [Simone de Beauvoir](https://en.m.wikipedia.org/wiki/Simone_de_Beauvoir "Simone de Beauvoir"), [Eldridge Cleaver](https://en.m.wikipedia.org/wiki/Eldridge_Cleaver "Eldridge Cleaver"), and [Violette Leduc](https://en.m.wikipedia.org/wiki/Violette_Leduc "Violette Leduc").[^61][^62]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Shimer_College_banned_books_2013.jpg/220px-Shimer_College_banned_books_2013.jpg)
+![[~/×/4aeaa0d8d4f717b0eab5501c15edf93d_MD5.jpg]]
 
 [Banned Books Week](https://en.m.wikipedia.org/wiki/Banned_Books_Week "Banned Books Week") reading of *Black Boy* at [Shimer College](https://en.m.wikipedia.org/wiki/Shimer_College "Shimer College") in 2013
 

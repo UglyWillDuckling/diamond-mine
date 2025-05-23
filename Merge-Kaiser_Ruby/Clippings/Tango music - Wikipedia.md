@@ -11,14 +11,14 @@ tags:
 <sub><b>4</b></sub>](https://en.m.wikipedia.org/wiki/Time_signature "Time signature") time that originated among **European and African immigrant populations** of [Argentina](https://en.m.wikipedia.org/wiki/Argentina "Argentina") and [Uruguay](https://en.m.wikipedia.org/wiki/Uruguay "Uruguay") (collectively, the "[Rioplatenses](https://en.m.wikipedia.org/wiki/Rioplatense_Spanish "Rioplatense Spanish")").<sup><a href="https://en.m.wikipedia.org/wiki/#cite_note-UNESCO-2"><span>[</span> 2 <span>]</span></a></sup> It is traditionally played on a solo guitar, guitar duo, or an ensemble, known as the *[orquesta típica](https://en.m.wikipedia.org/wiki/Orquesta_t%C3%ADpica "Orquesta típica")*, which includes at least two [violins](https://en.m.wikipedia.org/wiki/Violin "Violin"), [flute](https://en.m.wikipedia.org/wiki/Flute "Flute"), [piano](https://en.m.wikipedia.org/wiki/Piano "Piano"), [double bass](https://en.m.wikipedia.org/wiki/Double_bass "Double bass"), and at least two [bandoneóns](https://en.m.wikipedia.org/wiki/Bandone%C3%B3n "Bandoneón"). 
 Sometimes guitars and a clarinet join the ensemble. Tango may be **purely instrumental** or may include a vocalist. Tango music and [dance](https://en.m.wikipedia.org/wiki/Tango_\(dance\) "Tango (dance)") have become popular throughout the world.
 
-![](https://upload.wikimedia.org/wikipedia/commons/d/d8/ArgentinianTangoRhythm.jpg)
+![[~/×/c50fc55d5f063afc17a0d824a3dfac3e_MD5.jpg]]
 Typical tango [rhythm](https://en.m.wikipedia.org/wiki/Rhythm "Rhythm")<sup><a href="https://en.m.wikipedia.org/wiki/#cite_note-Blatter-1"><span>[</span> 1 <span>]</span></a></sup>
 
 
 
 ## Origins
 
-![](https://upload.wikimedia.org/wikipedia/commons/7/7a/Early-bandonion.jpg)
+![[~/×/48c946039e40a79df94987908f058b6c_MD5.jpg]]
 Early bandoneón, constructed ca. 1905
 
 Even though present forms of tango developed in [[Argentina]] and [[Uruguay]] from the mid-19th century, there are records of 19th and early 20th-century tango styles in [[Cuba]] and [[Spain]], while there is a flamenco tango dance that may share a common ancestor in a minuet-style European dance. All sources stress the influence of African communities and their rhythms, while the instruments and techniques brought in by European immigrants in the **20th century** played a major role in the style's final definition, relating it to the salon music styles to which tango would contribute back at a later stage.

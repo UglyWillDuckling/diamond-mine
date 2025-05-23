@@ -14,7 +14,7 @@ tags:
 related:
   - "[[How to Add Tasks to your Daily Notes]]"
 ---
-![icon](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/01/or-logo-1.png?fit=32%2C32&ssl=1)
+![[~/×/35fbaebc16d53a5dd8a0eee6726e1862_MD5.png]]
 
 Managing projects and tasks in Obsidian may seem odd.
 

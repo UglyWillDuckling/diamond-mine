@@ -6,7 +6,7 @@ published: 2024-05-16
 source: "https://linuxhandbook.com/lsblk-command/"
 tags:
 ---
-[![Warp Terminal](https://linuxhandbook.com/assets/images/warp.webp)](https://www.warp.dev/?utm_source=linux_handbook&utm_medium=display&utm_campaign=linux_launch)
+[![[~/×/84a5e16a9a3c3c8b6523cd20cbe5c579_MD5.webp]]](https://www.warp.dev/?utm_source=linux_handbook&utm_medium=display&utm_campaign=linux_launch)
 
 If you notice, most Linux commands explain their purpose by their names. Same goes for the lsblk which stands for list block devices.
 
@@ -18,7 +18,7 @@ So in this tutorial, I will walk you through how you can use the lsblk command w
 
 ## How to use the lsblk command in Linux
 
-To use the lsblk command to its full potential, you are required to know its syntax. This is the reason why I'll start this tutorial by sharing the syntax first:![Ezoic](https://go.ezodn.com/utilcave_com/ezoicbwa.png "ezoic")
+To use the lsblk command to its full potential, you are required to know its syntax. This is the reason why I'll start this tutorial by sharing the syntax first:![[~/×/634511236e6ab68303bec80892e372e7_MD5.png]]
 
 ```
 lsblk [options] [device(s)]
@@ -52,7 +52,7 @@ To list all the block devices, use the `-a` flag with the lsblk command as shown
 ```
 lsblk -a
 ```
-![List all blocks using the lsblk command](https://linuxhandbook.com/content/images/2024/03/List-all-blocks-using-the-lsblk-command.png)
+![[~/×/28e9361a8b80e62f063f140873ca681d_MD5.webp]]
 
 Here,
 
@@ -71,7 +71,7 @@ This is my favorite one. When you use the `-f` flag with the lsblk command, it p
 ```
 lsblk -f
 ```
-![Get detailed information about every disk block using the lsblk command](https://linuxhandbook.com/content/images/2024/03/Get-detailed-information-about-every-disk-block-using-the-lsblk-command.png)
+![[~/×/12008832cf2eeb9ec1122cc25b30df4f_MD5.webp]]
 
 ### 3\. Get information about a specific disk drive
 
@@ -86,7 +86,7 @@ For example, if I want to get details of the `sda` drive, then I'll be using the
 ```
 lsblk /dev/sda
 ```
-![Get details of a specific drive using the lsblk command](https://linuxhandbook.com/content/images/2024/03/Get-details-of-a-specific-drive-using-the-lsblk-command.png)
+![[~/×/4a2466280349fd9bd1042d76dd5bf953_MD5.webp]]
 
 ### 4\. Print specific details only
 
@@ -96,12 +96,12 @@ There are times when you only want to print specific details while using the lsb
 lsblk -o <data_filed(s)>
 ```
 
-For example, if I want to print only ![Ezoic](https://go.ezodn.com/utilcave_com/ezoicbwa.png "ezoic")`NAME`, `SIZE`, `TRAN`, and `REV` so I'll be using the following:
+For example, if I want to print only ![[~/×/634511236e6ab68303bec80892e372e7_MD5.png]]`NAME`, `SIZE`, `TRAN`, and `REV` so I'll be using the following:
 
 ```
 lsblk -o NAME,SIZE,TRAN,REV
 ```
-![Get specific details of disk block using the lsblk](https://linuxhandbook.com/content/images/2024/03/Get-specific-details-of-disk-block-using-the-lsblk.png)
+![[~/×/8539a572ee187c9f6934b7b82b9647f9_MD5.webp]]
 
 ### 5\. Get information of the device owner, group, and mode
 
@@ -110,7 +110,7 @@ If you want to print information such as device owner, group, and mode, then all
 ```
 lsblk -m
 ```
-![Get information of the device owner, group, and mode using the lsblk command](https://linuxhandbook.com/content/images/2024/03/Get-information-of-the-device-owner--group--and-mode-using-the-lsblk-command.png)
+![[~/×/14732d6e42775fabb9dcab9346482b93_MD5.webp]]
 
 ### 6\. Exclude dependent device blocks
 
@@ -121,7 +121,7 @@ So what if you only want to print independent drives such as `sda` and `sdb`? We
 ```
 lsblk -d
 ```
-![Exclude dependent drives from the lsblk output](https://linuxhandbook.com/content/images/2024/03/Exclude-dependent-drives-from-the-lsblk-output.png)
+![[~/×/6548ff0dd7a1711bdb5c603d60cdf835_MD5.webp]]
 
 ## Wrapping Up...
 
@@ -129,6 +129,6 @@ This was a quick tutorial on how you can use the lsblk command on Linux where I 
 
 Sure, you can get more out of it by reading the man page of the lsblk command. Don't know [how to use the man pages yet](https://linuxhandbook.com/man-pages/)? Here's a detailed guide on using man pages:
 
-![](https://linuxhandbook.com/content/images/size/w256h256/2021/08/Linux-Handbook-New-Logo.png)
+![[~/×/36c30af48c6d3bb810dd4c35e9a92342_MD5.webp]]
 
 I hope you will find this guide helpful.

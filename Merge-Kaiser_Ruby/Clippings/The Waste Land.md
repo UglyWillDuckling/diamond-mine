@@ -29,7 +29,7 @@ Upon its initial publication *The Waste Land* received a mixed response, with so
 
 While at [Harvard College](https://en.m.wikipedia.org/wiki/Harvard_College "Harvard College") Eliot met [Emily Hale](https://en.m.wikipedia.org/wiki/Emily_Hale "Emily Hale"), the daughter of a minister at [Harvard Divinity School](https://en.m.wikipedia.org/wiki/Harvard_Divinity_School "Harvard Divinity School"), through family friends. He declared his love for her before leaving to live in Europe in 1914, but he did not believe his feelings to be reciprocated.[^footnotegordon19919%e2%80%9310-9][^footnoteinto_'the_waste_land'20227:05-10] Her influence is felt in *The Waste Land*, and he would renew his correspondence with her in 1927.[^footnoteinto_'the_waste_land'202216:45-11][^footnotegordon199113-12]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Vivienne_Haigh-Wood_Eliot_by_Lady_Ottoline_Morrell.jpg/170px-Vivienne_Haigh-Wood_Eliot_by_Lady_Ottoline_Morrell.jpg)
+![[~/×/aefdf06dcbe85ae2c6fceeb662457996_MD5.jpg]]
 
 [Vivienne Eliot](https://en.m.wikipedia.org/wiki/Vivienne_Eliot "Vivienne Eliot")[^vivienne-name-13] in 1921
 
@@ -43,7 +43,7 @@ Eliot's first collection, *[Prufrock and Other Observations](https://en.m.wikipe
 
 Eliot probably worked on the text that became *The Waste Land* for several years preceding its first publication in 1922. In 1919 he referred to "a long poem I have had on my mind for a long time" in a letter to his mother.[^footnotegish198824-33] In a May 1921 letter to New York lawyer and art patron [John Quinn](https://en.m.wikipedia.org/wiki/John_Quinn_\(collector\) "John Quinn (collector)"), Eliot wrote that he had "a long poem in mind and partly on paper which I am wishful to finish".[^footnoteeliot1988273,_451-34]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Tseliotplaque.jpg/170px-Tseliotplaque.jpg)
+![[~/×/50cafaeb080b244cf0ff0d53d81cee04_MD5.jpg]]
 
 The [blue plaque](https://en.m.wikipedia.org/wiki/Blue_plaque "Blue plaque") near the Nayland Rock shelter in [Margate](https://en.m.wikipedia.org/wiki/Margate "Margate") where Eliot wrote some of *The Waste Land*.
 
@@ -51,7 +51,7 @@ The [blue plaque](https://en.m.wikipedia.org/wiki/Blue_plaque "Blue plaque") nea
 
 In the autumn of 1921 Eliot and Vivienne travelled to the coastal resort of [Margate](https://en.m.wikipedia.org/wiki/Margate,_Kent "Margate, Kent").[^footnotebennett2009-36] Eliot had been recommended rest following a diagnosis of some form of [nervous disorder](https://en.m.wikipedia.org/wiki/Nervous_disorder "Nervous disorder"), and had been granted three months' leave from the bank where he was employed, so the trip was intended as a period of convalescence. Eliot worked on what would become *The Waste Land* while sitting in the Nayland Rock shelter on Margate Sands, producing "some 50 lines", and the area is referenced directly in "The Fire Sermon" ("On Margate Sands / I can connect / Nothing with nothing.")[^footnotemcaloon2018-37][^footnotebritish_library2023-38] The couple travelled to Paris in November, where Eliot showed an early version of the poem to Pound.[^footnoteackroyd1984115-39] Pound had become acquainted with Eliot seven years previously, and had helped get some of Eliot's previous work published.[^footnotelewis2007119%e2%80%93120-40] Eliot was travelling on to [Lausanne](https://en.m.wikipedia.org/wiki/Lausanne "Lausanne") for treatment by Dr Roger Vittoz, who had been recommended to him by [Ottoline Morrell](https://en.m.wikipedia.org/wiki/Ottoline_Morrell "Ottoline Morrell");[^footnotemcaloon2018-37][^footnoteharris200644-41] Vivienne was to stay at a [sanatorium](https://en.m.wikipedia.org/wiki/Sanatorium "Sanatorium") just outside Paris.[^footnoteackroyd1984115-39] While under Vittoz's care, Eliot completed the first draft of *The Waste Land*.[^footnotegold2000519-42]
 
-![](https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Ezra_Pound_by_EO_Hoppe_1920.jpg/134px-Ezra_Pound_by_EO_Hoppe_1920.jpg)
+![[~/×/69ac34e8ac85ee7d00c90fd940e676bd_MD5.jpg]]
 
 [Ezra Pound](https://en.m.wikipedia.org/wiki/Ezra_Pound "Ezra Pound"), a major editor of the work
 
@@ -72,7 +72,7 @@ In a late December 1921 letter to Eliot to celebrate the "birth" of the poem, Po
 > That on each Occasion  
 > Ezra performed the Caesarean Operation.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/T.S._Eliot%2C_1923.JPG/166px-T.S._Eliot%2C_1923.JPG)
+![[~/×/c4768a4ca4e89161b928b1e746d6bf76_MD5.jpg]]
 
 Eliot in 1923
 
@@ -92,7 +92,7 @@ The initial reviews of the poem were mixed.[^footnoteinto_'the_waste_land'20221:
 
 Subsequent reviews and criticism debated the value of some of Eliot's innovations. His notes and quotations were one source of disagreement: they were considered either "distracting or confusing if not pedantic and unpoetic", or "the very basis of a new and significant poetic technique".[^footnotegish198811-84] Similarly, the structure of the poem, or lack thereof, continued to generate debate, as did interpretations of the themes themselves.[^footnotegish198811-84] [I. A. Richards](https://en.m.wikipedia.org/wiki/I._A._Richards "I. A. Richards") praised Eliot on these points in his 1926 book *Principles of Literary Criticism*,[^footnotegish198811%e2%80%9312-85] describing his imagery technique as "a 'music of ideas'",[^footnoterichards192653-86] and in the 1930s Richards' commentary was taken further by [F. R. Leavis](https://en.m.wikipedia.org/wiki/F._R._Leavis "F. R. Leavis"), [F. O. Matthiessen](https://en.m.wikipedia.org/wiki/F._O._Matthiessen "F. O. Matthiessen") and [Cleanth Brooks](https://en.m.wikipedia.org/wiki/Cleanth_Brooks "Cleanth Brooks"), who believed that, despite its apparent disjointedness, the poem contains an underlying unity of form—for Leavis represented by the figure of Tiresias, and for Matthiessen and Brooks by the [Grail](https://en.m.wikipedia.org/wiki/Holy_Grail "Holy Grail") mythology.[^footnotegish198812%e2%80%9313-87] This view became dominant for the next three decades.[^footnotegish198813-88]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Audio-input-microphone.svg/50px-Audio-input-microphone.svg.png)
+![[~/×/bd25371a4c0ce42ed0f72716e79181a5_MD5.png]]
 
 <audio id="mwe_player_0_placeholder" preload="none" data-mw-tmh="" class="" width="232" data-durationhint="1521" data-mwtitle="The_Waste_Land.ogg" data-mwprovider="wikimediacommons" playsinline="" disabled="disabled" tabindex="-1"></audio>Duration: 25 minutes and 21 seconds.
 
@@ -178,7 +178,7 @@ Interpretations of *The Waste Land* in the first few decades after its publicati
 
 ### Fertility and the Fisher King myth
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Perceval-arrives-at-grail-castle-bnf-fr-12577-f18v-1330-detail.jpg/350px-Perceval-arrives-at-grail-castle-bnf-fr-12577-f18v-1330-detail.jpg)
+![[~/×/42d58bdbc89a70195b9124326a526207_MD5.jpg]]
 
 [Perceval](https://en.m.wikipedia.org/wiki/Perceval "Perceval") arrives at the Grail Castle to be greeted by the Fisher King in an illustration for a 1330 manuscript of *[Perceval, the Story of the Grail](https://en.m.wikipedia.org/wiki/Perceval,_the_Story_of_the_Grail "Perceval, the Story of the Grail")*.
 

@@ -33,7 +33,7 @@ The crew decides to self-destruct the *Nostromo* and escape in the shuttle. Whil
 
 As Ripley prepares for stasis, she discovers the alien has stowed itself in a narrow compartment. She dons a spacesuit and flushes it out. It approaches Ripley, but before it can kill her, she opens the airlock door. The resulting explosive decompression almost ejects the alien into space, but it hangs onto the door frame. Ripley fires a grappling hook gun to push it out and activates the engines, blasting the alien into space. After recording her final log entry, she places Jones and herself into stasis for the trip back to Earth.
 
-![The seven principal cast members of the film stand in front of a white backdrop, in costume and holding prop weapons from the film.](https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Alien_%281979%29_-_main_cast.jpg/280px-Alien_%281979%29_-_main_cast.jpg)
+![[~/×/c64c6ce7a4be98fc5700c0d5f6d83091_MD5.jpg]]
 
 The principal cast members of *Alien* (left to right: [Holm](https://en.m.wikipedia.org/wiki/Ian_Holm "Ian Holm"), [Stanton](https://en.m.wikipedia.org/wiki/Harry_Dean_Stanton "Harry Dean Stanton"), [Weaver](https://en.m.wikipedia.org/wiki/Sigourney_Weaver "Sigourney Weaver"), [Kotto](https://en.m.wikipedia.org/wiki/Yaphet_Kotto "Yaphet Kotto"), [Skerritt](https://en.m.wikipedia.org/wiki/Tom_Skerritt "Tom Skerritt"), [Cartwright](https://en.m.wikipedia.org/wiki/Veronica_Cartwright "Veronica Cartwright"), and [Hurt](https://en.m.wikipedia.org/wiki/John_Hurt "John Hurt"))
 
@@ -47,11 +47,11 @@ The principal cast members of *Alien* (left to right: [Holm](https://en.m.wikipe
 - [Bolaji Badejo](https://en.m.wikipedia.org/wiki/Bolaji_Badejo "Bolaji Badejo") as [the alien](https://en.m.wikipedia.org/wiki/Xenomorph "Xenomorph"). Badejo, as a 26-year-old design student, was discovered in a bar by a member of the casting team, who put him in touch with Scott.[^mcintee,_30-16][^8th_passenger-25] Scott believed that Badejo, at 6 feet 10 inches (208 cm) — 7 feet (210 cm) inside the costume — and with a slender frame,[^26] could portray the alien and look as if his arms and legs were too long to be real, creating the illusion that a human being could not possibly be inside the costume.[^mcintee,_30-16][^8th_passenger-25][^book_of_alien-27] [Stuntmen](https://en.m.wikipedia.org/wiki/Stuntmen "Stuntmen") [Eddie Powell](https://en.m.wikipedia.org/wiki/Eddie_Powell "Eddie Powell") and [Roy Scammell](https://en.m.wikipedia.org/wiki/Roy_Scammell "Roy Scammell") also portrayed the alien in some scenes.[^book_of_alien-27][^mcintee,_30-31-28]
 - [Helen Horton](https://en.m.wikipedia.org/wiki/Helen_Horton "Helen Horton") as the voice of Mother, the *Nostromo*'s computer.[^indie-29]
 
-[![A man covered with sweat lays on a medical examination table, with a spider-like alien creature covering his face. The creature is beige in color and has four long, thin fingers on either side of its body that grasp tightly around the man's head, and its long tail is coiled around his neck.](https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Alien-The_Facehugger.png/200px-Alien-The_Facehugger.png)](https://en.m.wikipedia.org/wiki/File:Alien-The_Facehugger.png)
+[![[~/×/f5de64757981221d2932bbff63756fe6_MD5.png]]](https://en.m.wikipedia.org/wiki/File:Alien-The_Facehugger.png)
 
 The "facehugger" was the first creature Giger designed for the film, giving it human-like fingers and a long tail.[^8th_passenger-25][^mcintee,_31-72]
 
-[![The head and tail of an alien creature is emerging from the ruptured chest cavity of a dead man. The small eyeless creature is beige in color, has sharp metallic-looking teeth and a long segmented tail. A significant amount of blood covers the creature and the man's body.](https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Alien-The_Chestburster.png/200px-Alien-The_Chestburster.png)](https://en.m.wikipedia.org/wiki/File:Alien-The_Chestburster.png)
+[![[~/×/e7bb87a3e15a4e46fd8f8e45f6459eb6_MD5.png]]](https://en.m.wikipedia.org/wiki/File:Alien-The_Chestburster.png)
 The "[[chestburster]]" was shoved up through the table and a false torso by a puppeteer.[^8th_passenger-25] The scene has been recognized as one of the film's most memorable.
 
 [[H. R. Giger]]

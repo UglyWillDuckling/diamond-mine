@@ -1,9 +1,9 @@
 {
-  "theme": "moonstone",
-  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "cssTheme": "Cupertino",
   "accentColor": "#e67a33",
   "baseFontSizeAction": true,
-  "baseFontSize": 18,
+  "baseFontSize": 14,
   "enabledCssSnippets": [
     "dataview-margin-remove",
     "tasks_padding"

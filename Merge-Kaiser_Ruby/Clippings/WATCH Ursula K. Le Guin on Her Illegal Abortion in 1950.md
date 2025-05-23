@@ -10,7 +10,7 @@ tags:
 about:
   - "[[Ursula K. Le Guin]]"
 ---
-![](https://s26162.pcdn.co/wp-content/uploads/2023/06/Ursula-K-Le-Guin-at-Radcliffe.jpg)
+![[~/×/a89a14b0eaaab2c111e8da77676c827c_MD5.jpg]]
 
 ## “I beg you to see what it is that we must save, and not to let the bigots and misogynists take it away from us again.”
 
@@ -34,18 +34,18 @@ Ursula’s words won’t let us forget what it was like and what is at stake for
 
 #### \* Further reading:
 
-![sci fi, universe](https://s26162.pcdn.co/wp-content/uploads/2021/07/science-fiction-and-fantasy-women-writers.jpg)
+![[~/×/3c460ce20f21c9732fa04d87277ab90e_MD5.jpg]]
 
 #### How Women Writers Speculated Fictional Futures Free From Patriarchal Control
 
 > “Feminist science fiction authors were… bound together by a shared set of goals, using their art to demonstrate the limits of patriarchal culture and articulate the possibility of more egalitarian alternatives for all.”
 
-![](https://s26162.pcdn.co/wp-content/uploads/2023/06/abortion-march.jpg)
+![[~/×/5cba7506a9e5572c6fcf596059a0db7d_MD5.jpg]]
 
 #### What Contraception Meant to a Century of Women Writers
 
 > “The great 20th-century mother-writers and -artists whose work towers above us now—Doris Lessing, Toni Morrison, Adrienne Rich, Louise Bourgeois, and so on—all owe their careers and lives to the right to reproductive health care.”
 
-![](https://s26162.pcdn.co/wp-content/uploads/2023/06/Ursula-Le-Guin.jpg)
+![[~/×/21e7d48a7328240217b7a2251b75a3ca_MD5.jpg]]
 
 > “There’s a point, around the age of twenty, when you have to choose whether to be like everybody else the rest of your life, or to make a virtue of your peculiarities.”

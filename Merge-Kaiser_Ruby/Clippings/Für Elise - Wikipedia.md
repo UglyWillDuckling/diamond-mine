@@ -26,17 +26,17 @@ The pianist and musicologist [Luca Chiantore](https://en.m.wikipedia.org/wiki/Lu
 
 It is not certain who "Elise" was, although a list of possible dedicatees have been suggested by various scholars over the years. Evidence suggests that "Elise" was a close friend of Beethoven and probably an important figure in his life.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Therese_Malfatti_Anonymus.jpg/170px-Therese_Malfatti_Anonymus.jpg)
+![[~/×/fb4ea72c28857cc4c5faac29f5890700_MD5.jpg]]
 
 Therese Malfatti, widely believed to have been the dedicatee of "Für Elise"
 
 [Max Unger](https://en.m.wikipedia.org/wiki/Max_Unger_\(musicologist\) "Max Unger (musicologist)") suggested that Ludwig Nohl may have transcribed the title incorrectly and the original work may have been named "Für Therese",[^12] a reference to [Therese Malfatti](https://en.m.wikipedia.org/wiki/Therese_Malfatti "Therese Malfatti") von Rohrenbach zu Dezza (1792–1851). She was a friend and student of Beethoven's to whom he supposedly proposed in 1810, though she turned him down to marry the Austrian nobleman and state official Wilhelm von Droßdik in 1816.[^13] The [piano sonata no. 24](https://en.m.wikipedia.org/wiki/Piano_Sonata_No._24_\(Beethoven\) "Piano Sonata No. 24 (Beethoven)"), dedicated to Countess [Thérèse von Brunswick](https://en.m.wikipedia.org/wiki/Th%C3%A9r%C3%A8se_von_Brunswick "Thérèse von Brunswick"), is also referred to sometimes as "für Therese". The Austrian musicologist [Michael Lorenz](https://en.m.wikipedia.org/wiki/Michael_Lorenz_\(musicologist\) "Michael Lorenz (musicologist)")[^ml-14] has shown that Rudolf Schachner, who in 1851 inherited Therese von Droßdik's musical scores, was the son of Babette Bredl, born out of wedlock. Babette in 1865 let Nohl copy the autograph in her possession. Dr. Robert Greenberg, who teaches music through [The Great Courses](https://en.m.wikipedia.org/wiki/Wondrium "Wondrium"), as well as the San Francisco Conservatory of Music and elsewhere, points out that Beethoven's notoriously sloppy handwriting might easily have led to the title "Fur Therese" being misread as "Fur Elise".<sup class="noprint Inline-Template Template-Fact">[<i><a href="https://en.m.wikipedia.org/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (November 2022)">citation needed</span></a></i>]</sup>
 
-![A portrait of Elizabeth Röckel.](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Elisabeth_R%C3%B6ckel.jpg/170px-Elisabeth_R%C3%B6ckel.jpg)
+![[~/×/123c1a670511c4e82fdc49e4578d3db5_MD5.jpg]]
 
 Portrait of Elisabeth Röckel by [Joseph Willibrord Mähler](https://en.m.wikipedia.org/wiki/Joseph_Willibrord_M%C3%A4hler "Joseph Willibrord Mähler")
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Milder_Hummel_Brief.jpg/220px-Milder_Hummel_Brief.jpg)
+![[~/×/0161aa5eb43042c34b3fd1c47869345a_MD5.jpg]]
 
 Anna Milder-Hauptmann, letter to "Frau Kapellmeisterin Elise Hummel", 1830
 

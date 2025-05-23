@@ -27,7 +27,7 @@ Another possible linguistic source for "Gullah" are the [Dyula](https://en.m.wik
 
 One scholar suggested that the Gullah-Geechee name could have also been adopted from the [Ogeechee River](https://en.m.wikipedia.org/wiki/Ogeechee_River "Ogeechee River").[^matory2015-19] [Sapelo Island](https://en.m.wikipedia.org/wiki/Sapelo_Island "Sapelo Island"), the site of the last Gullah community of [Hog Hammock](https://en.m.wikipedia.org/wiki/Hog_Hammock "Hog Hammock"), was also a principal place of refuge for Guale people who fled slavery on the mainland.[^20]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/African_Slave_Trade.png/220px-African_Slave_Trade.png)
+![[~/×/68df1f4c4ef8f55b5bb096298b4657cd_MD5.png]]
 
 Map of both intercontinental and transatlantic slave trade in Africa
 
@@ -37,7 +37,7 @@ According to Port of Charleston records, African slaves shipped to the port came
 
 Particularly along the western coast, the local peoples had cultivated [African rice](https://en.m.wikipedia.org/wiki/African_rice "African rice"), related to but distinct from [Asian rice](https://en.m.wikipedia.org/wiki/Asian_rice "Asian rice"), for what is estimated to approach 3,000 years. It was originally domesticated in the inland delta of the Upper [Niger River](https://en.m.wikipedia.org/wiki/Niger_River "Niger River").[^linares-22][^genome-23] Once Carolinian and Georgian planters in the American South discovered that African rice would grow in that region, they often sought enslaved Africans from rice-growing regions because they had the skills and knowledge needed to develop and build irrigation, dams and earthworks.[^opala2006b-24]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Bunce_Island_1805.jpg/220px-Bunce_Island_1805.jpg)
+![[~/×/0cd378217840ba7cc2d2b757cc91f418_MD5.jpg]]
 
 Bunce Island, a historical slave port where the ancestors of many Gullah departed to the Lowcountry
 
@@ -87,11 +87,11 @@ The Gullah have also been in contact with [West Africa](https://en.m.wikipedia.o
 
 ## Customs and traditions
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Gullah_s_carolina_1790.jpg/220px-Gullah_s_carolina_1790.jpg)
+![[~/×/9ee0b0a08027ab2447bdd61c1a7aa278_MD5.jpg]]
 
 "Old plantation" (1790) demonstrates the cultural retention of Gullah people with aspects such as the [banjo](https://en.m.wikipedia.org/wiki/Banjo "Banjo") and broom hopping.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Wooden_rice_mortar_3.jpg/220px-Wooden_rice_mortar_3.jpg)
+![[~/×/d0b7ecff4d0fe79888cd54fea8aaf3fb_MD5.jpg]]
 
 Wooden mortar and pestle from the rice loft of a South Carolina lowcountry plantation
 

@@ -12,7 +12,7 @@ tags:
 related: 
 "":
 ---
-![icon|25](https://www.howtouselinux.com/wp-content/uploads/2023/09/cropped-howtouselinux-logo-32x32.jpeg)
+![[~/×/ac5b1f21e3a6c8385178f85a2ed684d1_MD5.jpg|25]]
 
 On a Linux system, TCP ports in a reserved range (typically less than 1024) can only be bound by processes with root privilege.
 

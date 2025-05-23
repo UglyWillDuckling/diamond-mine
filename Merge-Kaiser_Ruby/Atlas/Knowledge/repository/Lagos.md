@@ -26,11 +26,11 @@ The [University of Lagos](https://en.m.wikipedia.org/wiki/University_of_Lagos "U
 
 *Lagos* is derived from the Portuguese word for "lakes". The pronunciation ([*LAY\-goss*](https://en.m.wikipedia.org/wiki/Help:Pronunciation_respelling_key "Help:Pronunciation respelling key")) is typically standard in [British](https://en.m.wikipedia.org/wiki/British_English "British English") and [Nigerian English](https://en.m.wikipedia.org/wiki/Nigerian_English "Nigerian English").[^wells-14][^hd-52] Speakers of [American English](https://en.m.wikipedia.org/wiki/American_English "American English") often use the pronunciation ([*LAH\-gohss*](https://en.m.wikipedia.org/wiki/Help:Pronunciation_respelling_key "Help:Pronunciation respelling key")), which sounds more similar to the original Portuguese pronunciation.[^wells-14][^hd-52] The native [Yoruba](https://en.m.wikipedia.org/wiki/Yoruba_language "Yoruba language") name *Èkó* is also used by [Yoruba people](https://en.m.wikipedia.org/wiki/Yoruba_people "Yoruba people"). Lagos may have been named after [Lagos, Portugal](https://en.m.wikipedia.org/wiki/Lagos,_Portugal "Lagos, Portugal"), as it was the main centre of Portuguese maritime expeditions down the African coast in the 15th century.[^53]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Lagos_Map.PNG/220px-Lagos_Map.PNG)
+![[~/×/927874878f4af57f0ba4571e4e1eae9b_MD5.png]]
 
 Map of Lagos's initial city boundaries, showing its contemporary districts. This definition is rarely used in the present day; the expanded metropolitan area is now a more accepted definition of Lagos.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Lagos%2C_Nigeria.jpg/220px-Lagos%2C_Nigeria.jpg)
+![[~/×/854dafef70f8ef5017dbf28cbe8cdc8f_MD5.jpg]]
 
 Satellite image of Lagos
 
@@ -82,11 +82,11 @@ Lagos is a cultural centre of Nigeria. As a [port city](https://en.m.wikipedia.o
 
 ### Monumental buildings
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/National_arts_theatre_%2814981772010%29.jpg/220px-National_arts_theatre_%2814981772010%29.jpg)
+![[~/×/32074d3b27e85ccfe3e5b8addbbbc93f_MD5.jpg]]
 
 [National Arts Theatre](https://en.m.wikipedia.org/wiki/National_Arts_Theatre "National Arts Theatre"), Iganmu, Lagos
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/The_cathedral_%2816878409017%29.jpg/220px-The_cathedral_%2816878409017%29.jpg)
+![[~/×/c67999a02b510cf8b4bd0b743d0263ab_MD5.jpg]]
 
 The [Cathedral Church of Christ](https://en.m.wikipedia.org/wiki/Cathedral_Church_of_Christ,_Lagos "Cathedral Church of Christ, Lagos") at the central Marina on Lagos Island
 

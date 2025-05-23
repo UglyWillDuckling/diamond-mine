@@ -8,7 +8,7 @@ tags:
   - dokument/firma
 related:
 ---
-![icon](https://www.moj-bankar.hr/favicons/android-icon-192x192.png)
+![[~/×/6f2bd4e428442a685a26a9eb9fac9227_MD5.png]]
 
 BON 2 je obrazac o bonitetu koji izdaju poslovne banke svojim komitentima.
 Obrazac nije javno dostupan ukoliko poduzeće vlasnik računa nije dalo suglasnost uvida u bonitet trećim osobama.

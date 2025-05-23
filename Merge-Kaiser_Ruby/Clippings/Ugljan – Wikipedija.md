@@ -9,7 +9,7 @@ description:
 tags:
   - "clippings"
 ---
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Disambig.svg/20px-Disambig.svg.png) *Ovo je glavno značenje pojma **Ugljan**. Za naselje u općini [Preko](https://hr.m.wikipedia.org/wiki/Preko "Preko"), na otoku Ugljanu pogledajte [Ugljan (Preko)](https://hr.m.wikipedia.org/wiki/Ugljan_\(Preko\) "Ugljan (Preko)").*
+![[~/×/3f44c36374d2d5bd1b7ed6a1efe2ccb1_MD5.png]] *Ovo je glavno značenje pojma **Ugljan**. Za naselje u općini [Preko](https://hr.m.wikipedia.org/wiki/Preko "Preko"), na otoku Ugljanu pogledajte [Ugljan (Preko)](https://hr.m.wikipedia.org/wiki/Ugljan_\(Preko\) "Ugljan (Preko)").*
 
 **Ugljan** je otok u [Jadranskom moru](https://hr.m.wikipedia.org/wiki/Jadransko_more "Jadransko more"), na [hrvatskom](https://hr.m.wikipedia.org/wiki/Hrvatska "Hrvatska") dijelu Jadrana.
 
@@ -19,11 +19,11 @@ tags:
 
 Nalazi se u [zadarskom arhipelagu](https://hr.m.wikipedia.org/w/index.php?title=Zadarski_arhipelag&action=edit&redlink=1 "Zadarski arhipelag (stranica ne postoji)"), sjeverozapadno od otoka [Pašmana](https://hr.m.wikipedia.org/wiki/Pa%C5%A1man "Pašman") i jugoistočno od otoka [Rivanj](https://hr.m.wikipedia.org/wiki/Rivanj "Rivanj") i [Sestrunj](https://hr.m.wikipedia.org/wiki/Sestrunj "Sestrunj"). Površinom od 50,21 [km²](https://hr.m.wikipedia.org/wiki/%C4%8Cetvorni_kilometar "Četvorni kilometar") (dug 22 [km](https://hr.m.wikipedia.org/wiki/Kilometar "Kilometar"), širok do 3,8 km) ubraja se među veće hrvatske otoke; 7583 stan. Od kopna ga dijeli [Zadarski kanal](https://hr.m.wikipedia.org/wiki/Zadarski_kanal "Zadarski kanal"), a s otokom Pašmanom povezuje [most](https://hr.m.wikipedia.org/wiki/Most "Most") preko prolaza [Mali Ždrelac](https://hr.m.wikipedia.org/wiki/Mali_%C5%BDdrelac "Mali Ždrelac"). Od otoka [Iža](https://hr.m.wikipedia.org/wiki/I%C5%BE "Iž") je odvojen [Srednjim kanalom](https://hr.m.wikipedia.org/wiki/Srednji_kanal "Srednji kanal").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Preko_Panorama.jpg/220px-Preko_Panorama.jpg)
+![[~/×/805456424ba8eb1b8ffdcc76e0e1ae2a_MD5.jpg]]
 
 [Preko](https://hr.m.wikipedia.org/wiki/Preko "Preko") na otoku Ugljanu.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/New_bridge_across_Strait_of_Mali_%C5%BDdrelac.jpg/250px-New_bridge_across_Strait_of_Mali_%C5%BDdrelac.jpg)
+![[~/×/9b1d62634a4b3664332baa408ac58b6a_MD5.jpg]]
 
 Novi most preko tjesnaca [Mali Ždrelac](https://hr.m.wikipedia.org/wiki/Mali_%C5%BDdrelac "Mali Ždrelac").
 

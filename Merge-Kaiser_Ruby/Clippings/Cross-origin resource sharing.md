@@ -17,7 +17,7 @@ The specification for CORS is included as part of the WHATWG's Fetch Living Stan
 
 ## Technical overview
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flowchart_showing_Simple_and_Preflight_XHR.svg/330px-Flowchart_showing_Simple_and_Preflight_XHR.svg.png)
+![[~/×/7b79531726388bf28463ab2aae44643b_MD5.png]]
 
 Path of an [XMLHttpRequest](https://en.wikipedia.org/wiki/XMLHttpRequest "XMLHttpRequest") (XHR) through CORS.
 

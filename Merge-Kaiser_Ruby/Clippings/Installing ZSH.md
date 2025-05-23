@@ -96,7 +96,7 @@ To install the port:
 cd /usr/ports/shells/zsh/ && make install clean
 ```
 
-To reduce memory usage, optionally enable zsh-mem options with ![installation screen to enable zsh-mem](https://camo.githubusercontent.com/89be01fcc215dac4fc9dc3ac80f1f9d81378e6fd54debf5e4cc63e1146650910/68747470733a2f2f692e696d6775722e636f6d2f6c34696436456b2e706e67)
+To reduce memory usage, optionally enable zsh-mem options with ![[~/×/84bbd6e59b8f67d8bd0aab47304fee19_MD5.png]]
 
 before running "make install".
 

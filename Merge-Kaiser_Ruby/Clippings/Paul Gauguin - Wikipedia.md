@@ -31,70 +31,70 @@ Gauguin is also considered a [Post-Impressionist](https://en.m.wikipedia.org/wik
 
 For a comprehensive list of paintings by Gauguin, see [List of paintings by Paul Gauguin](https://en.m.wikipedia.org/wiki/List_of_paintings_by_Paul_Gauguin "List of paintings by Paul Gauguin").
 
-- [![Still-Life with Fruit and Lemons (c. 1880)](https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Gauguin_Stillleben_mit_Fruchtschale_und_Zitronen.jpg/150px-Gauguin_Stillleben_mit_Fruchtschale_und_Zitronen.jpg)](https://en.m.wikipedia.org/wiki/File:Gauguin_Stillleben_mit_Fruchtschale_und_Zitronen.jpg "Still-Life with Fruit and Lemons (c. 1880)")
+- [![[~/×/97841a631d379d3b15f46785a2846d6c_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Gauguin_Stillleben_mit_Fruchtschale_und_Zitronen.jpg "Still-Life with Fruit and Lemons (c. 1880)")
 
 *Still-Life with Fruit and Lemons* (c. 1880)
-- [![The Swineherd, Brittany (1888)](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Paul_Gauguin_018_%28The_Swineherd%29.jpg/150px-Paul_Gauguin_018_%28The_Swineherd%29.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_018_\(The_Swineherd\).jpg "The Swineherd, Brittany (1888)")
+- [![[~/×/ac4e65ebad53c54cc5b4666d0693c5ec_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_018_\(The_Swineherd\).jpg "The Swineherd, Brittany (1888)")
 
 *The Swineherd, Brittany* (1888)
-- [![Les Alyscamps (1888)](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Paul_Gauguin_085.jpg/115px-Paul_Gauguin_085.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_085.jpg "Les Alyscamps (1888)")
+- [![[~/×/d0b4974cf906924f610a18f641468b5a_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_085.jpg "Les Alyscamps (1888)")
 
 *Les Alyscamps* (1888)
-- [![Vision After the Sermon (Jacob wrestling with the angel) (1888)](https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/La_vision_apr%C3%A8s_le_sermon_%28Paul_Gauguin%29.jpg/150px-La_vision_apr%C3%A8s_le_sermon_%28Paul_Gauguin%29.jpg)](https://en.m.wikipedia.org/wiki/File:La_vision_apr%C3%A8s_le_sermon_\(Paul_Gauguin\).jpg "Vision After the Sermon (Jacob wrestling with the angel) (1888)")
+- [![[~/×/dfda86ebc1875b20a0f0ee014bacc163_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:La_vision_apr%C3%A8s_le_sermon_\(Paul_Gauguin\).jpg "Vision After the Sermon (Jacob wrestling with the angel) (1888)")
 
 *[Vision After the Sermon](https://en.m.wikipedia.org/wiki/Vision_After_the_Sermon "Vision After the Sermon") (Jacob wrestling with the angel)* (1888)
-- [![Night Café at Arles, (Mme Ginoux) (1888)](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Paul_Gauguin_072.jpg/150px-Paul_Gauguin_072.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_072.jpg "Night Café at Arles, (Mme Ginoux) (1888)")
+- [![[~/×/8f68dbd4d494efb2b76c8e44302b286c_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_072.jpg "Night Café at Arles, (Mme Ginoux) (1888)")
 
 *Night Café at Arles, (Mme Ginoux)* (1888)
-- [![Still Life with Japanese Woodcut (1889)](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Paul_Gauguin_121.jpg/150px-Paul_Gauguin_121.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_121.jpg "Still Life with Japanese Woodcut (1889)")
-- [![Tahitian Women on the Beach (1891)](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Paul_Gauguin_056.jpg/150px-Paul_Gauguin_056.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_056.jpg "Tahitian Women on the Beach (1891)")
-- [![Aha Oe Feii? (1892)](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Eh_quoi%21_Tu_es_jaloux%3F_by_Paul_Gauguin.jpg/150px-Eh_quoi%21_Tu_es_jaloux%3F_by_Paul_Gauguin.jpg)](https://en.m.wikipedia.org/wiki/File:Eh_quoi!_Tu_es_jaloux%3F_by_Paul_Gauguin.jpg "Aha Oe Feii? (1892)")
-- [![Delightful Land (Te Nave Nave Fenua) (1892)](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Paul_Gauguin_-_Delightful_Land_%28Te_Nave_Nave_Fenua%29_-_Google_Art_Project.jpg/118px-Paul_Gauguin_-_Delightful_Land_%28Te_Nave_Nave_Fenua%29_-_Google_Art_Project.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_-_Delightful_Land_\(Te_Nave_Nave_Fenua\)_-_Google_Art_Project.jpg "Delightful Land (Te Nave Nave Fenua) (1892)")
+- [![[~/×/e920262e35278d4c9b9a692932830ccb_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_121.jpg "Still Life with Japanese Woodcut (1889)")
+- [![[~/×/92cc3cd3906e406088ed4c37951cd42a_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_056.jpg "Tahitian Women on the Beach (1891)")
+- [![[~/×/5dd4648d546d30941cb2190e48c73465_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Eh_quoi!_Tu_es_jaloux%3F_by_Paul_Gauguin.jpg "Aha Oe Feii? (1892)")
+- [![[~/×/4982dfcc2c302fa189df0f807e3eab28_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_-_Delightful_Land_\(Te_Nave_Nave_Fenua\)_-_Google_Art_Project.jpg "Delightful Land (Te Nave Nave Fenua) (1892)")
 
 *Delightful Land (Te Nave Nave Fenua)* (1892)
-- [![Arii Matamoe (The Royal End) (1892)](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Paul_Gauguin_%28French_-_Arii_Matamoe_%28The_Royal_End%29_-_Google_Art_Project.jpg/150px-Paul_Gauguin_%28French_-_Arii_Matamoe_%28The_Royal_End%29_-_Google_Art_Project.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_\(French_-_Arii_Matamoe_\(The_Royal_End\)_-_Google_Art_Project.jpg "Arii Matamoe (The Royal End) (1892)")
+- [![[~/×/0746a767ae660c75d612a92d5901d3d8_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_\(French_-_Arii_Matamoe_\(The_Royal_End\)_-_Google_Art_Project.jpg "Arii Matamoe (The Royal End) (1892)")
 
 *[Arii Matamoe](https://en.m.wikipedia.org/wiki/Arii_Matamoe "Arii Matamoe") (The Royal End)* (1892)
-- [![The Moon and the Earth (Hina tefatou) (1893)](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Paul_Gauguin_031.jpg/80px-Paul_Gauguin_031.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_031.jpg "The Moon and the Earth (Hina tefatou) (1893)")
+- [![[~/×/7a0b78e69b83a33d19049b89331764ae_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_031.jpg "The Moon and the Earth (Hina tefatou) (1893)")
 
 *The Moon and the Earth (Hina tefatou)* (1893)
-- [![Watermill in Pont-Aven (1894)](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Paul_Gauguin_039.jpg/150px-Paul_Gauguin_039.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_039.jpg "Watermill in Pont-Aven (1894)")
+- [![[~/×/fc0deb5eb3b45abac12e250d6cccd279_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_039.jpg "Watermill in Pont-Aven (1894)")
 
 *Watermill in Pont-Aven* (1894)
-- [![The Midday Nap (1894)](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Paul_Gauguin_044.jpg/150px-Paul_Gauguin_044.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_044.jpg "The Midday Nap (1894)")
+- [![[~/×/7d6ded83ccab3deb5cf8a10e0e437053_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_044.jpg "The Midday Nap (1894)")
 
 *The Midday Nap* (1894)
-- [![Maternity (1899)](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Paul_Gauguin_090.jpg/114px-Paul_Gauguin_090.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_090.jpg "Maternity (1899)")
+- [![[~/×/fd82d7e84ab4704fcb54e7d18c23a927_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_090.jpg "Maternity (1899)")
 
 *Maternity* (1899)
-- [![Two Tahitian Women (1899)](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Paul_Gauguin_-_Deux_Tahitiennes.jpg/116px-Paul_Gauguin_-_Deux_Tahitiennes.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_-_Deux_Tahitiennes.jpg "Two Tahitian Women (1899)")
-- [![Wonderful Land. Gathering Fruit (1899)](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Paul_Gauguin_107.jpg/150px-Paul_Gauguin_107.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_107.jpg "Wonderful Land. Gathering Fruit (1899)")
+- [![[~/×/9aee38f14c81e8ffc6516c6f7fcc2820_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_-_Deux_Tahitiennes.jpg "Two Tahitian Women (1899)")
+- [![[~/×/09956710a14febca819f62758a3d5b62_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_107.jpg "Wonderful Land. Gathering Fruit (1899)")
 
 *Wonderful Land. Gathering Fruit* (1899)
-- [![Two Women (1901 or 1902)](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Paul_Gauguin_-_Two_Women.jpg/150px-Paul_Gauguin_-_Two_Women.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_-_Two_Women.jpg "Two Women (1901 or 1902)")
+- [![[~/×/389c873a403d341df7658cf1a7460845_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_-_Two_Women.jpg "Two Women (1901 or 1902)")
 
 *Two Women* (1901 or 1902)
 
 **Self-portraits:**
 
-- [![Self-portrait, 1875–1877, Fogg Museum, Cambridge, Massachusetts](https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Paul_Gauguin_200.jpg/122px-Paul_Gauguin_200.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_200.jpg "Self-portrait, 1875–1877, Fogg Museum, Cambridge, Massachusetts")
-- [![Self-portrait, 1885, Kimbell Art Museum, Fort Worth, Texas](https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Self-Portrait_by_Paul_Gauguin%2C_1885.jpg/125px-Self-Portrait_by_Paul_Gauguin%2C_1885.jpg)](https://en.m.wikipedia.org/wiki/File:Self-Portrait_by_Paul_Gauguin,_1885.jpg "Self-portrait, 1885, Kimbell Art Museum, Fort Worth, Texas")
-- [![Self-portrait, 1888, Van Gogh Museum, Amsterdam](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Paul_Gauguin_112.jpg/150px-Paul_Gauguin_112.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_112.jpg "Self-portrait, 1888, Van Gogh Museum, Amsterdam")
+- [![[~/×/27d5cb5e810f2e694e6420b1634d3f62_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_200.jpg "Self-portrait, 1875–1877, Fogg Museum, Cambridge, Massachusetts")
+- [![[~/×/1b4ee88188b17c3610e2d736a31e846f_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Self-Portrait_by_Paul_Gauguin,_1885.jpg "Self-portrait, 1885, Kimbell Art Museum, Fort Worth, Texas")
+- [![[~/×/57a207353ef6453cf275bcf8376ba37e_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_112.jpg "Self-portrait, 1888, Van Gogh Museum, Amsterdam")
 
 *Self-portrait,* 1888, [Van Gogh Museum](https://en.m.wikipedia.org/wiki/Van_Gogh_Museum "Van Gogh Museum"), Amsterdam
-- [![Self-Portrait with Halo and Snake, 1889, National Gallery of Art, Washington, DC](https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Paul_Gauguin_-_Self-Portrait_with_Halo_and_Snake.jpg/96px-Paul_Gauguin_-_Self-Portrait_with_Halo_and_Snake.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_-_Self-Portrait_with_Halo_and_Snake.jpg "Self-Portrait with Halo and Snake, 1889, National Gallery of Art, Washington, DC")
-- [![Christ in the Garden of Olives (Gauguin's self-portrait) 1889, Norton Museum of Art](https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Paul_Gauguin_-_Christ_and_the_Garden_of_Olives.jpg/150px-Paul_Gauguin_-_Christ_and_the_Garden_of_Olives.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_-_Christ_and_the_Garden_of_Olives.jpg "Christ in the Garden of Olives (Gauguin's self-portrait) 1889, Norton Museum of Art")
-- [![Jug in the Form of a Head, Self-Portrait, 1889. Kunstindustrimuseet, Copenhagen](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paul_Gauguin_-_Jug_in_the_Form_of_a_Head.jpg/124px-Paul_Gauguin_-_Jug_in_the_Form_of_a_Head.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_-_Jug_in_the_Form_of_a_Head.jpg "Jug in the Form of a Head, Self-Portrait, 1889. Kunstindustrimuseet, Copenhagen")
-- [![Self-portrait, 1889–1890, Musée d'Orsay, Paris](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Gauguin_portrait_1889.JPG/150px-Gauguin_portrait_1889.JPG)](https://en.m.wikipedia.org/wiki/File:Gauguin_portrait_1889.JPG "Self-portrait, 1889–1890, Musée d'Orsay, Paris")
+- [![[~/×/e16dac4dabb714231de1bba29d576680_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_-_Self-Portrait_with_Halo_and_Snake.jpg "Self-Portrait with Halo and Snake, 1889, National Gallery of Art, Washington, DC")
+- [![[~/×/6b732f42637218d9240bf07475d24f40_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_-_Christ_and_the_Garden_of_Olives.jpg "Christ in the Garden of Olives (Gauguin's self-portrait) 1889, Norton Museum of Art")
+- [![[~/×/6e1ad3f9196f1b5210fa69a0a8d2e304_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_-_Jug_in_the_Form_of_a_Head.jpg "Jug in the Form of a Head, Self-Portrait, 1889. Kunstindustrimuseet, Copenhagen")
+- [![[~/×/b2e7def50b575ab3c7a5d6aa94d7af5a_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Gauguin_portrait_1889.JPG "Self-portrait, 1889–1890, Musée d'Orsay, Paris")
 
 *Self-portrait,* 1889–1890, [Musée d'Orsay](https://en.m.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay "Musée d'Orsay"), Paris
-- [![Self-portrait, 1893, Musée d'Orsay](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Paul_Gauguin_111.jpg/121px-Paul_Gauguin_111.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_111.jpg "Self-portrait, 1893, Musée d'Orsay")
-- [![Self-portrait, c. 1893, Detroit Institute of Arts](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Paul_Gauguin%2C_Self-portrait%2C_c.1893%2C_Detroit_Institute_of_Arts.jpg/122px-Paul_Gauguin%2C_Self-portrait%2C_c.1893%2C_Detroit_Institute_of_Arts.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin,_Self-portrait,_c.1893,_Detroit_Institute_of_Arts.jpg "Self-portrait, c. 1893, Detroit Institute of Arts")
-- [![Self-portrait, 1896, São Paulo Museum of Art](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Paul_Gauguin_110.jpg/124px-Paul_Gauguin_110.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_110.jpg "Self-portrait, 1896, São Paulo Museum of Art")
-- [![Self-portrait (for my friend Daniel), 1896, Musée d'Orsay](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Gauguin-_Selbstbildnis_dem_Freund_Daniel_gewidmet_-1896.jpg/115px-Gauguin-_Selbstbildnis_dem_Freund_Daniel_gewidmet_-1896.jpg)](https://en.m.wikipedia.org/wiki/File:Gauguin-_Selbstbildnis_dem_Freund_Daniel_gewidmet_-1896.jpg "Self-portrait (for my friend Daniel), 1896, Musée d'Orsay")
+- [![[~/×/ecb514a64a941a434fe97f2cb636b887_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_111.jpg "Self-portrait, 1893, Musée d'Orsay")
+- [![[~/×/f6a7700a2d90484a191af65a6906aad8_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin,_Self-portrait,_c.1893,_Detroit_Institute_of_Arts.jpg "Self-portrait, c. 1893, Detroit Institute of Arts")
+- [![[~/×/6dadb82937334fc559e992dcc978e744_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_110.jpg "Self-portrait, 1896, São Paulo Museum of Art")
+- [![[~/×/d58974ac3d7aa0f22405dad86844b027_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Gauguin-_Selbstbildnis_dem_Freund_Daniel_gewidmet_-1896.jpg "Self-portrait (for my friend Daniel), 1896, Musée d'Orsay")
 
 *Self-portrait (for my friend Daniel)*, 1896, [Musée d'Orsay](https://en.m.wikipedia.org/wiki/Mus%C3%A9e_d%27Orsay "Musée d'Orsay")
-- [![Self-portrait, 1903, Kunstmuseum Basel](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Paul_Gauguin_-_Self_Portrait_1903_-_Kunstmuseum_Basel_1943.jpg/86px-Paul_Gauguin_-_Self_Portrait_1903_-_Kunstmuseum_Basel_1943.jpg)](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_-_Self_Portrait_1903_-_Kunstmuseum_Basel_1943.jpg "Self-portrait, 1903, Kunstmuseum Basel")
+- [![[~/×/161fe99bf3c7c1ac069658c91497c665_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Paul_Gauguin_-_Self_Portrait_1903_-_Kunstmuseum_Basel_1943.jpg "Self-portrait, 1903, Kunstmuseum Basel")
 
 Self-portrait, 1903, [Kunstmuseum Basel](https://en.m.wikipedia.org/wiki/Kunstmuseum_Basel "Kunstmuseum Basel")
 

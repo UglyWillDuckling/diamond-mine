@@ -12,7 +12,7 @@ tags:
 ---
 The **Harmattan** is a [season](https://en.m.wikipedia.org/wiki/Season "Season") in [West Africa](https://en.m.wikipedia.org/wiki/West_Africa "West Africa") that occurs between the end of November and the middle of March. It is characterized by the dry and dusty northeasterly [trade wind](https://en.m.wikipedia.org/wiki/Trade_wind "Trade wind"), of the same name, which blows from the [Sahara](https://en.m.wikipedia.org/wiki/Sahara "Sahara") over West Africa into the [Gulf of Guinea](https://en.m.wikipedia.org/wiki/Gulf_of_Guinea "Gulf of Guinea").[^bharmattan-1] The name is related to the word *haramata* in the [Twi](https://en.m.wikipedia.org/wiki/Twi "Twi") language.[^2] The temperature is cold mostly at night in some places but can be very hot in certain places during daytime. Generally, temperature differences can also depend on local circumstances.[^3]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/MosqueinAbuja.jpg/300px-MosqueinAbuja.jpg)
+![[~/×/47a06d241ffddae4456ba2d08e8b7c65_MD5.jpg]]
 
 Harmattan haze surrounding [Abuja National Mosque](https://en.m.wikipedia.org/wiki/Abuja_National_Mosque "Abuja National Mosque") in [Abuja](https://en.m.wikipedia.org/wiki/Abuja "Abuja")
 
@@ -20,9 +20,9 @@ The Harmattan blows during the dry season, which occurs during the months with t
 
 This season differs from [winter](https://en.m.wikipedia.org/wiki/Winter "Winter") because it is characterized by cold, dry,[^dove_press-4] dust-laden wind, and also wide fluctuations in the [ambient temperatures](https://en.m.wikipedia.org/wiki/Room_temperature#Ambient_versus_room_temperature "Room temperature") of the day and night. Temperatures can easily be as low as 9 °C (48 °F) all day, but sometimes in the afternoon the temperature can also soar to as high as 35 °C (95 °F), while the [relative humidity](https://en.m.wikipedia.org/wiki/Relative_humidity "Relative humidity") drops under 5%. It can also be hot in some regions, like in the Sahara.[^5]
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Ho%2C_Ghana.JPG/258px-Ho%2C_Ghana.JPG)](https://en.m.wikipedia.org/wiki/File:Ho,_Ghana.JPG)
+[![[~/×/9bd3bcacff8adcdb93ef64bb9d9cdd18_MD5.jpg]]](https://en.m.wikipedia.org/wiki/File:Ho,_Ghana.JPG)
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Harmattan_in_Abuja.png/258px-Harmattan_in_Abuja.png)](https://en.m.wikipedia.org/wiki/File:Harmattan_in_Abuja.png)
+[![[~/×/e938e06d94240865ac76f0ef4b2d964f_MD5.png]]](https://en.m.wikipedia.org/wiki/File:Harmattan_in_Abuja.png)
 
 Before and after comparison of harmattan in Abuja (2004)
 

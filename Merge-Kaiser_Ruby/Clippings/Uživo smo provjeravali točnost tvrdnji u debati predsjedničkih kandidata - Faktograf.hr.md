@@ -27,7 +27,7 @@ Zalagali ste se da se ne izgradi Pelješki most, ustvrdila je prema Milanoviću 
 
 Branka **Lozo** neutemeljeno je optužila Milanovića da je kao premijer prepustio Veliki i Mali Škoj u Malostonskom zaljevu Bosni i Hercegovini. To nije točno. Kao što je Milanović točno replicirao, ta su dva škoja prepuštena BiH ugovorom iz 1999. godine, u vrijeme Franje Tuđmana.
 
-![](https://faktograf.hr/wp-content/uploads/2024/12/hn-20241223841567-685x450.jpg)
+![[~/×/404207c3b106b3222d17492a2c3955fe_MD5.jpg]]
 
 HINA/ POOL/ Damir SENČAR/ ds
 
@@ -39,7 +39,7 @@ Miro **Bulj točno** navodi da je Nizozemska najavila blokadu napredovanja Srbij
 
 “Vidimo da nema dovoljno napretka u oblasti vladavine prava u Srbiji. Istodobno, vidimo nedovoljan napredak u odnosima Beograda i Prištine. I tu Srbija ima jasnu odgovornost. Vidimo da još uvijek dovoljno ne usklađuje svoju vanjsku politiku s vanjskom politikom EU”, rekao je prošli tjedan Caspar Veldkamp, nizozemski ministar vanjskih poslova u Bruxellesu.
 
-![](https://faktograf.hr/wp-content/uploads/2024/12/bulj-tocno-540x450.png)
+![[~/×/032737823f8a899f0ea103330ceb410f_MD5.png]]
 
 Miro **Bulj** tvrdi da je predsjednik Srbije Aleksandar Vučić četnik. **Točno** je da je tijekom ratnih 1990-ih bio član Srpske radikalne stranke te blizak suradnik ratnog huškača i ratnog zločinca Vojislava Šešelja, ujedno četničkog vojvode. Vučić danas u javnim istupima demantira da je četnik, ali neosporno je da je i sam tijekom 1990-ih huškao na rat i ratne zločine. Posebno je poznat njegov govor u Glini 1995. godine u kojem je zazivao Veliku Srbiju.
 
@@ -51,7 +51,7 @@ Zoran **Milanović** kaže da je predsjednik HDZ-a BiH od strane SAD-a neutemelj
 
 Tomislav **Jonjić točno** navodi da je HRT Hrvate u BiH nedavno nazvao manjinom. Prije nekoliko tjedana HRT je u najavi priloga o održavanju sjednice Savjeta za Hrvate izvan Republike Hrvatske naveo kako je „završena treća sjednica Vladina Savjeta za Hrvate izvan Republike Hrvatske, posljednji panel je o pravima, statusima i položajima hrvatske nacionalne manjine u Bosni i Hercegovini…”. HRT se naknadno ispričao Hrvatima u BiH.
 
-![](https://faktograf.hr/wp-content/uploads/2024/12/jonjic-tocno-610x450.jpeg)
+![[~/×/908ffaf9d688052635b1d2b9b7abfc0b_MD5.jpg]]
 
 Zoran **Milanović netočno** govori da samo on u Hrvatskoj ima iskustvo sudjelovanja na NATO summitu. Osim njega, iskustvo sudjelovanja na NATO summitima višekratno je iskusila bivša predsjednica Kolinda Grabar Kitarović.
 
@@ -63,13 +63,13 @@ Ivana **Kekin** je **točno** kazala da je Vinko Kojundžić, koji je snimao vid
 
 Branka **Lozo** je **točno** izjavila da su „korupcija i klijentelizam, uz ekonomske razloge, glavni razlog zbog kojih naši mladi napuštaju Hrvatsku, iseljavaju Hrvatsku i na taj način doprinose ovom katastrofalno demografskom stanju u kojem Hrvatska danas živi.“
 
-![](https://faktograf.hr/wp-content/uploads/2024/12/lozo-vocap-610x450.jpeg)
+![[~/×/ab160b1c949dfd079d118475db5f32d3_MD5.jpg]]
 
 Tom temom se ranije bavio Faktograf. Potvrđuju to rezultati istraživanja Instituta za istraživanje migracija. Njihovo istraživanje pokazalo je da je 65 posto mladih nezadovoljno općom političkom klimom u Hrvatskoj.
 
 Marija **Selak Raspudić točno** govori da je Primorac stan po povoljnijoj cijeni kupio da bi ga nakon dva dana prodao po tržišnoj cijeni.
 
-![](https://faktograf.hr/wp-content/uploads/2024/12/raspudic-tocno-540x450.png)
+![[~/×/a8d6e086f337f184a40c916395d9568b_MD5.png]]
 
 „Imamo situaciju gdje imate neke primjere koji su na rubu legalnosti, a sigurno nisu moralni, primjerice ono što ste vi činili gospodine Primorac i što je svima jasno, sa stanom u Splitu kad ste muljali da biste ga dobili po jeftinoj cijeni, a  dva dana poslije ga prodali po tržišnoj duplo većoj. Dakle, i to je korupcija i zato niste vjerodostojni u ovoj temi“, kazala je Selak Raspudić. Točno je da je obitelj Primorac kupila stan u Splitu koncem ’90-ih za tadašnjih 72 tisuće maraka, a dva dana kasnije je prodan po tržišnoj cijeni od 148 tisuća maraka.
 
@@ -91,7 +91,7 @@ A što je Primorac radio? Uz čuvanje predsjednika Tuđmana tijekom Europskog pr
 
 Tomislav **Jonjić netočno** navodi kako je u Milanovićevoj vladi bio jedini ministar zdravstva koji je pravomoćno osuđen te navodi da su u toj Milanovićevoj vladi bile afere s nabavom bezbrojnih EMCO aparata, „dakle, koji su potpuno suvišni, koji trunu i hvata ih, hvata ih hrđa“.
 
-![](https://faktograf.hr/wp-content/uploads/2024/12/hn-20241223841580-638x450.jpg)
+![[~/×/e90f5a3c799ae6d065f04593781c8aec_MD5.jpg]]
 
 HINA/ POOL/ Damir SENČAR/ ds
 
@@ -103,7 +103,7 @@ HINA/ POOL/ Damir SENČAR/ ds
 
 Dragan **Primorac** tvrdi da je Hrvatskoj tijekom epidemije Covida-19 bilo potrebno najviše pet ECMO uređaja. To **nije točno**. Prema medijskim izvještajima tijekom listopada 2021. godine, ECMO uređaja je hrvatskim bolnicama čak i nedostajalo, usprkos činjenici da ih je tijekom Milanovićeve vlade nabavljeno 35.
 
-![](https://faktograf.hr/wp-content/uploads/2024/12/primorac-netocno-1-540x450.png)
+![[~/×/4cda51c51b2aa484780a2e8555687520_MD5.png]]
 
 “Ja sam prva pokrenula pitanje ECMO aparata”, ustvrdila je Marija **Selak Raspudić** i to je **točno**. Ona je na tu aferu iz vremena mandata premijera Zorana Milanovića podsjetila u studenom kada je buknula afera Beroš koja je donedavnog HDZ-ovog ministra zdravstva odvela u pritvor. Kazala je kako su ECMO aparati nabavljeni preko Saše Pozdera, poduzetnika koji je uhićen istog dana kada i Vili Beroš te je tada optužila predsjednika Milanovića da je iz tih razloga pretih oko afere Beroš.
 
@@ -111,7 +111,7 @@ Dragan **Primorac** tvrdi da je Hrvatskoj tijekom epidemije Covida-19 bilo potre
 
 **Točno** je, kao što kaže Bulj, da su se **djeca HDZ-ovaca bogatila** na “raznim testovima” za koronu. Poznat je slučaj 24-godišnjeg Filipa Mihalića iz Varaždina, sina bivšeg saborskog zastupnika Anđelka Mihalića, protiv kojeg je pokrenuta istraga zbog sumnjivih milijunskih poslova s krivotvorenim testovima na koronavirus.
 
-![](https://faktograf.hr/wp-content/uploads/2024/12/hn-20241223841558-695x450.jpg)
+![[~/×/c6655fdfad5329b6cc417f112b4f3be8_MD5.jpg]]
 
 HINA/ POOL/ Damir SENČAR/ ds
 
@@ -135,7 +135,7 @@ Zoran **Milanović** kaže da se dosad nije osvrtao na Selak Raspudić jer ga �
 
 Branka **Lozo** kaže da bi usmjerila RH prema SAD-u kao “strateškom vojnom partneru”. Međutim, prema informacijama koji stoje na stranicama američkog State Departmenta, RH je već sad strateški vojni partner SAD-a.
 
-![](https://faktograf.hr/wp-content/uploads/2024/12/hn-20241223841566-695x450.jpg)
+![[~/×/a26631be9c16e02defe3ae1ebb3fab21_MD5.jpg]]
 
 HINA/ POOL/ Damir SENČAR/ ds
 
@@ -149,7 +149,7 @@ Dragan **Primorac** tvrdi da se u premijerskom mandatu Zorana Milanovića do te 
 
 **Točna** je tvrdnja Ivane **Kekin** da trenutačni Dugoročni plan razvoja Oružanih snaga RH ističe krajem 2024. godine, a da novi plan još nije donesen. Ovaj plan donosi Sabor, na prijedlog Vlade RH.
 
-![](https://faktograf.hr/wp-content/uploads/2024/12/hn-20241223841560-684x450.jpg)
+![[~/×/7d7aba1d1817f0d08ced0414f8ab49d8_MD5.jpg]]
 
 HINA/ POOL/ Damir SENČAR/ ds
 
@@ -163,7 +163,7 @@ Prema Ivani **Kekin,** neodrživa je trenutna situacija u kojoj je Europa zabran
 
 Niko **Tokić Kartelo** tvrdi da 400 milijuna muslimana trenutno želi ući u Europu i da “to nije slučaj, to je nešto dirigirano ili dogovoreno”. **Ne postoje nikakvi dokazi** da je to doista tako, a i prilično je neuvjerljivo. U čitavoj Europskoj uniji, naime, ima 448 milijuna stanovnika. U Turskoj trenutno boravi oko 3,2 milijuna izbjeglica, u Jordanu oko 1,3 milijuna, a u Libanonu oko 1,5 milijuna. Čak i kad bi svi navedeni odlučili krenuti prema Europi, ne bi ih bilo ni blizu 400 milijuna. Također, teza da je to “dirigirano ili dogovoreno” odnosi se na teoriju zavjere o “velikoj zamjeni stanovništva”, koja **nema nikakvo činjenično utemeljenje**.
 
-![](https://faktograf.hr/wp-content/uploads/2024/12/kartelo-netocno-540x450.png)
+![[~/×/7ac4b50684b58f48d2b6d2cf7428ff22_MD5.png]]
 
 Branka **Lozo** tvrdi da ilegalni migranti zbog našeg geografskog položaja u Europsku uniju po prvi put ulaze u Hrvatskoj. To **nije točno**; većina migranata u EU ulazi preko Italije, Španjolske, Grčke i Bugarske.
 
@@ -175,7 +175,7 @@ Točno je da Zoran Milanović nije nikada izrijekom tvrdio da hrvatski vojnici i
 
 Hrvatska je napadnuta dronom, izjavio je Miro **Bulj.  Točno** je da je 10. ožujka 2022. pao dron u blizini Studentskog doma Stjepan Radić. Tu je temu aktualizirao zamjenik glavnog tajnika NATO-a Boris Ruge prilikom nedavnog posjeta Zagrebu.
 
-![](https://faktograf.hr/wp-content/uploads/2024/12/bulj-4-351x450.png)
+![[~/×/af810a6e83b9fe9817f3ad6bd24073f3_MD5.png]]
 
 Screenshot
 
@@ -187,7 +187,7 @@ Milanović je u Afganistan poslao više od 1000 vojnika i nije točno da nisu bi
 
  **Točno** je da još nije donesena odluka o mirovnoj misiji u Ukrajini, kao što kaže Zoran **Milanović**. 
 
-![](https://faktograf.hr/wp-content/uploads/2024/12/milanovic-1.png)
+![[~/×/9a0dc82ed1fe28aab7155fc7f705a0fe_MD5.png]]
 
 Screenshot
 

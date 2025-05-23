@@ -4,29 +4,19 @@ tags:
   - task-list
 ---
 
-- [ ] #task **Faks** - pogledati raspored ispita i prijaviti ispite po potrebi 🔼 ⏳ 2025-05-15 📅 2025-05-11
-- [ ] #task **Kontaktirati** [[Zelena Zadruga|zelenu zadrugu]] 📅 2025-05-15
-- [ ] #task Apply to [[Bolt]] for work 🔼 📅 2025-05-04 🆔 0k90Er
+- [ ] #task Apply to [[Bolt]] for work 🔼 📅 2025-05-19 🆔 0k90Er
 	- [[bolt job application]]
-- [ ] #task import something from [[Notion]] 🔼 ⏳ 2025-05-04 📅 2025-05-10 🆔 F2nx7C
-- [/] #task organize DAS screencasts 🔼 ⏳ 2025-05-03 📅 2025-05-10 🆔 h2xkdz
-	- [[das-0002-how-and-why-to-avoid-nil]]
-	- [[DAS - watchlist]]
-- [/] #task read :book[[A Wizard of Earthsea]] 📅 2025-05-24 📚 🆔 i2gcix
-- [ ] #task Trajno rješenje za [[persona mail setup]] ⏫ 📅 2025-04-20 🆔 f6HQA8
-- [/] #task [[Setup Printer on PC]] 🔼 ⏳ 2025-03-28 📅 2025-04-04 🆔 rQkj6h
+- [/] #task read :book[[A Wizard of Earthsea]] 📅 2025-05-24 📚 🆔 i2gcix 📅 2025-06-18
+- [ ] #task Trajno rješenje za [[persona mail setup]] ⏫ 📅 2025-05-19 🆔 f6HQA8
+- [/] #task [[Setup Printer on PC]] 🆔 rQkj6h 🔼 ⏳ 2025-03-28 📅 2025-05-24
 ___
 
-- [/] #task Prodi [[Bug 388]] i instaliraj zeljeni software 🔼 ⏳ 2025-03-03 📅 2025-04-09 🆔 BVw5Ce #paused
+- [/] #task Prodi [[Bug 388]] i instaliraj zeljeni software #paused 🆔 BVw5Ce 🔼 ⏳ 2025-03-03 📅 2025-06-30
 	[[instalacija sofwarea iz Bug 388]]	
 	
-- [ ] #task #backburner See how difficult it is to setup a local FTP server ⏳ 2025-02-25 📅 2025-04-09 🆔 592cRS
-
+- [ ] #task #backburner See how difficult it is to setup a local FTP server 🆔 592cRS 🔽 ⏳ 2025-02-25 📅 2025-07-14
 - [ ] #task #backburner napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼
-- [ ] #task see what to do with [[Boox Palma 2]] 🆔 ldBjLd 🔼 ⏳ 2025-01-30 📅 2025-04-07 #backburner 
-	- check online
-	- create **real** tasks
-- [/] #task [[Backup Drive]] 🆔 OpBFPk 🔼
+- [ ] #task [[Backup Drive]] 🆔 OpBFPk 🔼 📅 2025-06-18
 	- [[Duplicati]]
 	- [[novi hard disk - 4GB]]
 ___
@@ -52,3 +42,14 @@ ___
 - [x] #task brush up on Web Applications 🆔 bb39sz 🔼 ⏳ 2025-04-12 📅 2025-04-01 ✅ 2025-05-02
 	- [[Web Applications 101]]
 - [x] #task Naruči melatonin 🆔 SvSR5n
+- [x] #task take a look at Vivaldi themes ⏳ 2025-05-19 📅 2025-05-18 🆔 QPlzji ✅ 2025-05-19
+
+- [x] #task **Faks** - pogledati raspored ispita i prijaviti ispite po potrebi 🆔 bNgQQr 🔼 ⏳ 2025-05-15 📅 2025-05-11 ✅ 2025-05-18
+- [x] #task **Kontaktirati** [[Zelena Zadruga|zelenu zadrugu]] 🆔 S1Mdd0 ✅ 2025-05-18 📅 2025-05-15 ✅ 2025-05-18
+- [x] #task **Faks** - pogledati raspored ispita i prijaviti ispite po potrebi 🆔 j4pU9p 🔼 ⏳ 2025-05-15 📅 2025-05-11 ✅ 2025-05-18
+- [x] #task **Kontaktirati** [[Zelena Zadruga|zelenu zadrugu]] 🆔 dBavvX 📅 2025-05-15 ✅ 2025-05-18
+- [x] #task import something from [[Notion]] 🆔 F2nx7C 🔼 ⏳ 2025-05-04 📅 2025-05-10 ✅ 2025-05-18
+- [x] #task organize DAS screencasts 🆔 h2xkdz 🔼 ⏳ 2025-05-03 📅 2025-05-10 ✅ 2025-05-18
+	- [[das-0002-how-and-why-to-avoid-nil]]
+	- [[DAS - watchlist]]
+- [x] #task potpisati ugovor od OVB-a

@@ -16,7 +16,7 @@ stored at [[Mail Config]]
 - [x] investigate the migration **online**
 - [x] make the **migration** using [[Senka]]s `backup`
 ### plan migration
-- [ ] #task ✏ write a [[migration plan]] in the end 🆔 lW2Ako
+- [/] #task ✏ write a [[migration plan]] in the end 🆔 lW2Ako 📅 2025-06-18
 - [x] ! check folder structure: `/home/user/mail/`
 - [x] check default folders
 - [x] #task try a basic migration ✅ 2025-01-05

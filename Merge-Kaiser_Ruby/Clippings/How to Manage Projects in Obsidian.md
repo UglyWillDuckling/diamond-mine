@@ -20,7 +20,7 @@ part of:
 related:
   - "[[How to Add Tasks to your Daily Notes]]"
 ---
-![icon](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2023/01/or-logo-1.png?fit=32%2C32&ssl=1])
+![[~/×/35fbaebc16d53a5dd8a0eee6726e1862_MD5.png]]
 
 We’ve already discussed *why* you might want to manage projects in Obsidian, now let’s talk about *how*. How do you set up Obsidian to properly manage projects?
 
@@ -105,7 +105,7 @@ This is one of the strengths of using Obsidian for projects: you can customize y
 
 My Active Projects view looks like this:
 
-![](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2022/10/2022-10-13_06-32.png?resize=866%2C603&ssl=1)
+![[~/×/3cd579ef5570722f0a13d49591314fe9_MD5.png]]
 
 That table is created using this Dataview code:
 
@@ -176,7 +176,7 @@ limit 15
 
 If you haven’t heard of [[Kanban]] before, it’s another method you could use to display this kind of information. There’s an excellent [Kanban community plugin you can use](https://github.com/mgmeyers/obsidian-kanban), if that interests you. It looks like this:
 
-![](https://i0.wp.com/obsidian.rocks/wp-content/uploads/2022/10/2022-10-13_06-38.png?resize=1024%2C569&ssl=1)
+![[~/×/19f990e9f81cf6a31ce966a985b30b22_MD5.png]]
 
 This is my “Writing Board”, I like to use Kanban to keep track of articles that I am working on.
 

@@ -1,4 +1,5 @@
 ---
+type: movie
 title: Dahomey (film) - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Dahomey_(film)
 created: 2025-01-10

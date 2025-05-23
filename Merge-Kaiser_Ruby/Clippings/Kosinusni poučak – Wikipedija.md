@@ -9,7 +9,7 @@ description:
 tags:
   - "clippings"
 ---
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Triangle_with_notations_2.svg/300px-Triangle_with_notations_2.svg.png)
+![[~/×/64f99e21bdca593b41b7400ed4d7a9be_MD5.png]]
 
 U trokutu ABC kutovi *α*, *β* i *γ* se nalaze nasuprot stranicama *a*, *b*, i  *c*.
 

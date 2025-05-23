@@ -11,7 +11,7 @@ tags:
 ---
 rijeka u Hrvatskoj i Srbiji
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Disambig.svg/20px-Disambig.svg.png) *Ovo je glavno značenje pojma **Bosut**. Za druga značenja pogledajte [Bosut (razdvojba)](https://hr.m.wikipedia.org/wiki/Bosut_\(razdvojba\) "Bosut (razdvojba)").*
+![[~/×/3f44c36374d2d5bd1b7ed6a1efe2ccb1_MD5.png]] *Ovo je glavno značenje pojma **Bosut**. Za druga značenja pogledajte [Bosut (razdvojba)](https://hr.m.wikipedia.org/wiki/Bosut_\(razdvojba\) "Bosut (razdvojba)").*
 
 **Bosut** je [ravničarska rijeka](https://hr.m.wikipedia.org/wiki/Ravnica "Ravnica") koja teče kroz istočnu [Hrvatsku](https://hr.m.wikipedia.org/wiki/Hrvatska "Hrvatska") i sjeverozapadnu [Srbiju](https://hr.m.wikipedia.org/wiki/Srbija "Srbija"), u [Slavoniji](https://hr.m.wikipedia.org/wiki/Slavonija "Slavonija") i [Srijemu](https://hr.m.wikipedia.org/wiki/Srijem "Srijem"). [Pritok](https://hr.m.wikipedia.org/wiki/Pritok "Pritok") je rijeke [Save](https://hr.m.wikipedia.org/wiki/Sava "Sava"), ukupne duljine oko 186 km.
 

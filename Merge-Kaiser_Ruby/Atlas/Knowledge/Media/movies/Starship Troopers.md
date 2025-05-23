@@ -16,4 +16,4 @@ cast::
   - "[[Casper Van Dien, Denise Richards, Dina Meyer]]"
 plot:: Humans, in a fascist militaristic future, wage war with giant alien bugs.
 
-![poster](https://m.media-amazon.com/images/M/MV5BZTNiOGM1ZWUtZTZjZC00OWJmLWE2YzUtZjQ4ODZjZmVlMDU3XkEyXkFqcGc@._V1_SX300.jpg)
+![[~/×/998ff9365cf4d1f18e0807b5414b6082_MD5.jpg]]

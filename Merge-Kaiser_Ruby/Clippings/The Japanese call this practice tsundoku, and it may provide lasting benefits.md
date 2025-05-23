@@ -22,7 +22,7 @@ The problem is that my book-buying habit outpaces my ability to read them. This 
 
 But it’s possible this guilt is entirely misplaced. According to statistician [[Nassim Nicholas Taleb]], these unread volumes represent what he calls an “antilibrary,” and he believes our antilibraries aren’t signs of intellectual failings. Quite the opposite.
 
-![](https://bigthink.com/wp-content/uploads/2018/10/18748127.jpg?w=335)
+![[~/×/8692770c310aed36f257de99071d494a_MD5.jpg]]
 
 Umberto Eco signs a book. You can see a portion of the author’s vast antilibrary in the background.
 
@@ -50,7 +50,7 @@ These shelves of unexplored ideas propel us to continue reading, continue learni
 
 People who lack this intellectual humility — those without a yearning to acquire new books or visit their local library — may enjoy a sense of pride at having conquered their personal collection, but such a library provides all the use of a wall-mounted trophy. It becomes an “ego-booting appendage” for decoration alone. Not a living, growing resource we can learn from until we are 80 — and, if we are lucky, a few years beyond.
 
-![](https://bigthink.com/wp-content/uploads/2018/10/18748121.jpg?w=335)
+![[~/×/ab969b03b16f6444f94bb3028b39870a_MD5.jpg]]
 
 Book swap attendees will no doubt find their antilibrary/tsundoku grow.
 

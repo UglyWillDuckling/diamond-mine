@@ -15,7 +15,7 @@ tags:
 
 The scenario, initially in two acts, was fashioned from Russian and German folk tales and tells the story of Odette, a princess turned into a swan by an evil sorcerer's curse. The choreographer of the original production was [Julius Reisinger](https://en.m.wikipedia.org/wiki/Julius_Reisinger "Julius Reisinger") (Václav Reisinger). The ballet was premiered by the [Bolshoi Ballet](https://en.m.wikipedia.org/wiki/Bolshoi_Ballet "Bolshoi Ballet") on 4 March \[[O.S.](https://en.m.wikipedia.org/wiki/Old_Style_and_New_Style_dates "Old Style and New Style dates") 20 February\] 1877[^2][^3] at the [Bolshoi Theatre](https://en.m.wikipedia.org/wiki/Bolshoi_Theatre "Bolshoi Theatre") in [Moscow](https://en.m.wikipedia.org/wiki/Moscow "Moscow"). Although it is presented in many different versions, most [ballet companies](https://en.m.wikipedia.org/wiki/Ballet_company "Ballet company") base their stagings both choreographically and musically on the [1895 revival](https://en.m.wikipedia.org/wiki/Swan_Lake_\(1895\) "Swan Lake (1895)") of [Marius Petipa](https://en.m.wikipedia.org/wiki/Marius_Petipa "Marius Petipa") and [Lev Ivanov](https://en.m.wikipedia.org/wiki/Lev_Ivanov "Lev Ivanov"), first staged for the [Imperial Ballet](https://en.m.wikipedia.org/wiki/Mariinsky_Ballet "Mariinsky Ballet") on 15 January 1895, at the [Mariinsky Theatre](https://en.m.wikipedia.org/wiki/Mariinsky_Theatre "Mariinsky Theatre") in [St. Petersburg](https://en.m.wikipedia.org/wiki/Saint_Petersburg "Saint Petersburg"). For this revival, Tchaikovsky's score was [revised](https://en.m.wikipedia.org/wiki/Swan_Lake_\(1895\)#Drigo's_edition_of_Tchaikovsky's_score "Swan Lake (1895)") by the St. Petersburg Imperial Theatre's chief conductor and composer [Riccardo Drigo](https://en.m.wikipedia.org/wiki/Riccardo_Drigo "Riccardo Drigo").[^4]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Swanlakedecor.jpg/220px-Swanlakedecor.jpg)
+![[~/×/b9956b8417b60216780964776921f2c6_MD5.jpg]]
 
 Design by [Frédéric de Haenen](https://en.m.wikipedia.org/w/index.php?title=Fr%C3%A9d%C3%A9ric_de_Haenen&action=edit&redlink=1 "Frédéric de Haenen (page does not exist)") \[[fr](https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_de_Haenen "fr:Frédéric de Haenen")\] for the décor of act 2, Moscow 1877
 
@@ -41,7 +41,7 @@ By April 1876 the score was complete, and rehearsals began. Soon Reisinger began
 
 Tchaikovsky's excitement with *Swan Lake* is evident from the speed with which he composed: commissioned in the spring of 1875, the piece was created within one year. His letters to [Sergei Taneyev](https://en.m.wikipedia.org/wiki/Sergei_Taneyev "Sergei Taneyev") from August 1875 indicate, however, that it was not only his excitement that compelled him to create it so quickly but his wish to finish it as soon as possible, so as to allow him to start on an opera. Respectively, he created scores of the first three numbers of the ballet, then the orchestration in the fall and winter, and was still struggling with the [instrumentation](https://en.m.wikipedia.org/wiki/Instrumentation "Instrumentation") in the spring. By April 1876, the work was complete. Tchaikovsky's mention of a draft suggests the presence of some sort of abstract but no such draft has ever been seen. Tchaikovsky wrote various letters to friends expressing his longstanding desire to work with this type of music, and his excitement concerning his current stimulating, albeit laborious task.[^footnotewiley199139%e2%80%9341-13]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Swanlakemordkin.jpg/220px-Swanlakemordkin.jpg)
+![[~/×/7e4fa4857014a13f843ae6cc6a984cbd_MD5.jpg]]
 
 [Adelaide Giuri](https://en.m.wikipedia.org/w/index.php?title=Adelaide_Giuri&action=edit&redlink=1 "Adelaide Giuri (page does not exist)") \[[ru](https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D1%83%D1%80%D0%B8,_%D0%90%D0%B4%D0%B5%D0%BB%D0%B8%D0%BD%D0%B0_%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0 "ru:Джури, Аделина Антоновна")\] as Odette and [Mikhail Mordkin](https://en.m.wikipedia.org/wiki/Mikhail_Mordkin "Mikhail Mordkin") as Prince Siegfried in Aleksandr Gorsky's staging of the Petipa/Ivanov *Swan Lake* for the Bolshoi Theatre, Moscow, 1901. A young [Vera Karalli](https://en.m.wikipedia.org/wiki/Vera_Karalli "Vera Karalli") is seen kneeling.
 
@@ -94,7 +94,7 @@ Yet the fact remains (and is too often omitted in accounts of this initial produ
 
 #### Tchaikovsky pas de deux 1877
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Swanlakesobechshanskaya.jpg/170px-Swanlakesobechshanskaya.jpg)
+![[~/×/58de2398e5d6f0f3229a7d814299ad3f_MD5.jpg]]
 
 [Anna Sobeshchanskaya](https://en.m.wikipedia.org/w/index.php?title=Anna_Sobeshchanskaya&action=edit&redlink=1 "Anna Sobeshchanskaya (page does not exist)") \[[ru](https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B5%D1%89%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F,_%D0%90%D0%BD%D0%BD%D0%B0_%D0%98%D0%BE%D1%81%D0%B8%D1%84%D0%BE%D0%B2%D0%BD%D0%B0 "ru:Собещанская, Анна Иосифовна")\] as Odette in Julius Reisinger's original production of *Swan Lake*, Moscow, 1877
 
@@ -116,13 +116,13 @@ The second scene of *Swan Lake* was then presented on 21 February in [Prague](ht
 
 #### Petipa–Ivanov–Drigo revival of 1895
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Swanlakelegnani.jpg/170px-Swanlakelegnani.jpg)
+![[~/×/8b174ef8f7668a53655b7f38e6dc2a39_MD5.jpg]]
 
 [Pierina Legnani](https://en.m.wikipedia.org/wiki/Pierina_Legnani "Pierina Legnani") as Odette (1895)
 
 During the late 1880s and early 1890s, Petipa and Vsevolozhsky discussed with Tchaikovsky the possibility of reviving *Swan Lake*.[^18] However, [Tchaikovsky died](https://en.m.wikipedia.org/wiki/Death_of_Pyotr_Ilyich_Tchaikovsky "Death of Pyotr Ilyich Tchaikovsky") on 6 November 1893,[^19] just when plans to revive *Swan Lake* were beginning to come to fruition. It remains uncertain whether Tchaikovsky was prepared to revise the music for this revival. Whatever the case, as a result of Tchaikovsky's death, [Riccardo Drigo](https://en.m.wikipedia.org/wiki/Riccardo_Drigo "Riccardo Drigo") revised the score, after receiving approval from Tchaikovsky's younger brother, [Modest](https://en.m.wikipedia.org/wiki/Modest_Ilyich_Tchaikovsky "Modest Ilyich Tchaikovsky"). There are major [differences between Drigo's and Tchaikovsky's scores](https://en.m.wikipedia.org/wiki/Comparison_of_Riccardo_Drigo%27s_Swan_Lake_score_and_the_original_Tchaikovsky_score "Comparison of Riccardo Drigo's Swan Lake score and the original Tchaikovsky score"). Today, it is Drigo's revision, and not Tchaikovsky's original score of 1877, that most ballet companies use.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Swanlakegerdt.jpg/170px-Swanlakegerdt.jpg)
+![[~/×/11e341049ea7bd0f51c1f0a74c643921_MD5.jpg]]
 
 [Pavel Gerdt](https://en.m.wikipedia.org/wiki/Pavel_Gerdt "Pavel Gerdt") as Prince Siegfried (Mariinsky Theatre, 1895)
 
@@ -136,7 +136,7 @@ All was ready by the beginning of 1895 and the ballet had its première on 27 Ja
 
 Unlike the première of *The Sleeping Beauty*, *Swan Lake* did not dominate the repertory of the Mariinsky Theatre in its first season. It was given only sixteen performances between the première and the 1895–1896 season, and was not performed at all in 1897. Even more surprising, the ballet was performed only four times in 1898 and 1899. The ballet belonged solely to Legnani until she left St. Petersburg for her native Italy in 1901. After her departure, the ballet was taken over by [Mathilde Kschessinskaya](https://en.m.wikipedia.org/wiki/Mathilde_Kschessinskaya "Mathilde Kschessinskaya"), who was as much celebrated in the rôle as was her Italian predecessor.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Swan_Lake_prodution_2008_at_the_Royal_Swedish_Opera.jpg/220px-Swan_Lake_prodution_2008_at_the_Royal_Swedish_Opera.jpg)
+![[~/×/60eeb05b4ae819dc4e1afcf7893eb8ed_MD5.jpg]]
 
 A 2008 production at the [Royal Swedish Opera](https://en.m.wikipedia.org/wiki/Royal_Swedish_Opera "Royal Swedish Opera")
 
@@ -167,7 +167,7 @@ Some productions include a prologue that shows how Odette first meets Rothbart, 
 
 *A lakeside clearing in a forest by the ruins of a chapel. A moonlit night.*
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Swanlake015.jpg/220px-Swanlake015.jpg)
+![[~/×/709ebab75fc3ecffb41ae826bff3cb4a_MD5.jpg]]
 
 The "Valse des cygnes" from act 2 of the Ivanov/Petipa edition of *Swan Lake*
 
@@ -181,7 +181,7 @@ Guests arrive at the palace for a costume ball. Six princesses are presented to 
 
 *By the lakeside*
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Wiener_Staatsoper_Schwanensee_Szene_Akt4.jpg/220px-Wiener_Staatsoper_Schwanensee_Szene_Akt4.jpg)
+![[~/×/0196bc385016bf1c605a2c3656c000a4_MD5.jpg]]
 
 Scene from act 4; [Vienna State Opera](https://en.m.wikipedia.org/wiki/Vienna_State_Opera "Vienna State Opera"), 2004
 

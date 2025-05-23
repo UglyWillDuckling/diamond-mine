@@ -14,7 +14,7 @@ related:
 ---
 *The US president’s imagined entitlement to other people’s land is very familiar to Africans.*
 
-![](https://www.aljazeera.com/wp-content/uploads/2025/02/RC2AICAYXYSK-1738845349.jpg?resize=770%2C513&quality=80)
+![[~/×/30f8c11d021ae62cf6d55f347780adb1_MD5.jpg]]
 
 The declaration by United States President Donald Trump that he planned to expel all Palestinians from the Gaza Strip and turn it into an American-controlled “Riviera of the Middle East” has rightly drawn condemnation from across the globe, including, ironically, from Western nations that backed Israel’s genocidal bombardment that devastated the territory. Many point out that ethnic cleansing violates international law and that the Geneva Conventions explicitly forbid the forcible displacement of civilian populations, for any reason.
 

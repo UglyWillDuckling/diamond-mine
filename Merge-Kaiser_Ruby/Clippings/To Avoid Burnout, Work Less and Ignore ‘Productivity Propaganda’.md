@@ -12,7 +12,7 @@ tags:
   - reading
 ---
 
-![illustration of person laying peacefully on couch, disregarding work tasks around them](https://pocket-image-cache.com/direct?resize=w2000&url=https%3A%2F%2Fassets.bwbx.io%2Fimages%2Fusers%2FiqjWHBFdfxIU%2FiSxPsNkDvaVk%2Fv0%2F-1x-1.jpg)
+![[~/×/26614cefe55539224b1b23ff2a82a94e_MD5.jpg]]
 
 Photo by Illustration: Oscar Bolton Green for Bloomberg Businessweek
 

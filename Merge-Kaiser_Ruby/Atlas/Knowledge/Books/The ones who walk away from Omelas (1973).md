@@ -22,7 +22,7 @@ interest: 9
 
 "The Ones Who Walk Away from Omelas" (/ˈoʊməˌlɑːs/[1]) is a 1973 short work of philosophical fiction by American writer Ursula K. Le Guin. With deliberately both vague and vivid descriptions, the narrator depicts a summer festival in the utopian city of [[Omelas]], whose prosperity depends on the perpetual misery of a single child.[2] "The Ones Who Walk Away from Omelas" was nominated for the [[Locus Award]] for Best Short Fiction in 1974[3] and won the Hugo Award for Best Short Story in 1974.[4]
 
-![](https://upload.wikimedia.org/wikipedia/en/c/c3/TheOnesWhoWalkAwayFromOmelas.jpg)
+![[~/×/87be7217951dd6ead8ed87815e77fe55_MD5.jpg]]
 
 
 The only chronological element of the work is that it begins by describing the first day of summer in Omelas, a shimmering city of unbelievable happiness and delight. In Omelas, the summer solstice is celebrated with a glorious festival and a race featuring young people on horseback. The vibrant festival atmosphere, however, seems to be an everyday characteristic of the blissful community, whose citizens, though limited in their technology and resources, are still intelligent, sophisticated, and cultured. Omelas has no kings, soldiers, priests, or slaves. The specific socio-politico-economic setup of the community is not mentioned; the narrator merely claims not to be sure of every particular.

@@ -55,7 +55,7 @@ Vladimir Sedlar
 
 Jedinica
 
-![Superior dvokrevetna soba grand - balkon](https://prodcdn.phobs.net/3636/rooms/rooms_16124_9946ada9_1037_765_.jpg)
+![[~/×/e2d604a8e4f63157e25747997b02e70a_MD5.jpg]]
 
 Superior dvokrevetna soba grand - balkon
 

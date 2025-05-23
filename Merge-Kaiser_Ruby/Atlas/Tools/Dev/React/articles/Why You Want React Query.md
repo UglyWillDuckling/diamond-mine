@@ -12,7 +12,7 @@ interest: 6
 
 — , , , — 5 min read
 
-![white letters on brown wooden table, 'WANT' with reflection on shop window](https://tkdodo.eu/blog/static/558a62fa8bd717c8101185611cb7530b/bbe0c/want.jpg "white letters on brown wooden table, 'WANT' with reflection on shop window") Photo by [Christian Lue](https://unsplash.com/@christianlue)
+![[~/×/8ebf6eeef881545394514b1a10ff78e0_MD5.jpg]]Photo by [Christian Lue](https://unsplash.com/@christianlue)
 - [#1: Practical React Query](https://tkdodo.eu/blog/practical-react-query)
 - [#2: React Query Data Transformations](https://tkdodo.eu/blog/react-query-data-transformations)
 - [#3: React Query Render Optimizations](https://tkdodo.eu/blog/react-query-render-optimizations)
@@ -77,7 +77,7 @@ function Bookmarks({ category }) {
 
 If you think this code is fine for simple use cases where you don't need additional features, let me tell you that I immediately spotted 🐛 5 bugs 🪲 hiding in these 10 lines of code.
 
-![This is fine meme](https://tkdodo.eu/blog/static/befb647000e4c4735714ae7fb0d9a4cd/4b306/this_is_fine.jpg "This is fine meme")
+![[~/×/5762af72d3755b85d35521d36fd7e31a_MD5.jpg]]
 
 Maybe take a minute or two and see if you can find them all. I'll wait...
 
@@ -93,7 +93,7 @@ There are reasons why the [official React docs](https://react.dev/reference/reac
 
 The effect is set up in a way that it re-fetches whenever `category` changes, which is certainly correct. However, network responses can arrive in a different order than you sent them. So if you change the category from `books` to `movies` and the response for `movies` arrives before the response for `books`, you'll end up with the wrong data in your component.
 
-![Timeline that starts to fetch books, then fetches movies. Movies resolves faster so we setData(movies) before we setData(books)](https://tkdodo.eu/blog/static/f764b12ab2503323389f2613782cd57d/7d769/race.png "Timeline that starts to fetch books, then fetches movies. Movies resolves faster so we setData(movies) before we setData(books)")
+![[~/×/bb4fc50a9a1337eb6faa83710a88a252_MD5.png]]before we setData(books)")
 
 At the end, you'll be left with an inconsistent state: Your local state will say that you have `movies` selected, but the data you're rendering is actually `books`.
 
@@ -410,4 +410,4 @@ Just take the `signal` you get into the `queryFn`, forward it to `fetch`, and re
 
 That's it for today. Feel free to reach out to me on [bluesky](https://bsky.app/profile/tkdodo.eu) if you have any questions, or just leave a comment below. ⬇️
 
-Like the monospace font in the code blocks?Check out [monolisa.dev](https://www.monolisa.dev/?ref=dominik)  [![](https://tkdodo.eu/blog/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAABABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAIEBf/EABcBAAMBAAAAAAAAAAAAAAAAAAECAwX/2gAMAwEAAhADEAAAAc+IGuCen//EABcQAQADAAAAAAAAAAAAAAAAAAEAMUL/2gAIAQEAAQUCK0z/xAAXEQADAQAAAAAAAAAAAAAAAAAAAQIx/9oACAEDAQE/AZ1CP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAAMAAAAAAAAAAAAAAAAAAAABEP/aAAgBAQAGPwIU/8QAGBAAAgMAAAAAAAAAAAAAAAAAAAEQMaH/2gAIAQEAAT8hoHvD/9oADAMBAAIAAwAAABB3z//EABcRAQADAAAAAAAAAAAAAAAAAAABMaH/2gAIAQMBAT8Q1Qo//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEx/9oACAECAQE/EKmP/8QAGRAAAQUAAAAAAAAAAAAAAAAAAAEQMXGh/9oACAEBAAE/EMDNNKP/2Q==)  ![Bytes - the JavaScript Newsletter that doesn't suck](https://tkdodo.eu/blog/static/af2e4efdec2a9cf31764170231582f59/1f097/bytes.jpg)](https://bytes.dev/?r=dom)
+Like the monospace font in the code blocks?Check out [monolisa.dev](https://www.monolisa.dev/?ref=dominik)  [![](https://tkdodo.eu/blog/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAABABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAIEBf/EABcBAAMBAAAAAAAAAAAAAAAAAAECAwX/2gAMAwEAAhADEAAAAc+IGuCen//EABcQAQADAAAAAAAAAAAAAAAAAAEAMUL/2gAIAQEAAQUCK0z/xAAXEQADAQAAAAAAAAAAAAAAAAAAAQIx/9oACAEDAQE/AZ1CP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAAMAAAAAAAAAAAAAAAAAAAABEP/aAAgBAQAGPwIU/8QAGBAAAgMAAAAAAAAAAAAAAAAAAAEQMaH/2gAIAQEAAT8hoHvD/9oADAMBAAIAAwAAABB3z//EABcRAQADAAAAAAAAAAAAAAAAAAABMaH/2gAIAQMBAT8Q1Qo//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEx/9oACAECAQE/EKmP/8QAGRAAAQUAAAAAAAAAAAAAAAAAAAEQMXGh/9oACAEBAAE/EMDNNKP/2Q==)  ![[~/×/2f7730b0b96c559cb61a8629160e0ea6_MD5.jpg]]](https://bytes.dev/?r=dom)

@@ -34,4 +34,4 @@ tags:
   - mediaDB/tv/movie
   - film
 ---
-![](https://m.media-amazon.com/images/M/MV5BODU4ZTE5MWYtNmY2MC00NDkyLTk0NDgtNTk5YjgzMzc4NmQwXkEyXkFqcGc@._V1_SX300.jpg)
+![[~/×/9349e84979d8e543ad4f4e807b051fcc_MD5.jpg]]

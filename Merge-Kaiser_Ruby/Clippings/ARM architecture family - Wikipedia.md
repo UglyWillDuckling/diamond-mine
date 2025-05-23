@@ -47,7 +47,7 @@ The Berkeley RISC designs used [register windows](https://en.wikipedia.org/wiki/
 
 Wilson developed the instruction set, writing a simulation of the processor in [BBC BASIC](https://en.wikipedia.org/wiki/BBC_BASIC "BBC BASIC") that ran on a BBC Micro with a [second 6502 processor](https://en.wikipedia.org/wiki/BBC_Micro_expansion_unit#6502_Second_Processor "BBC Micro expansion unit").[^33][^34] This convinced Acorn engineers they were on the right track. Wilson approached Acorn's CEO, [Hermann Hauser](https://en.wikipedia.org/wiki/Hermann_Hauser "Hermann Hauser"), and requested more resources. Hauser gave his approval and assembled a small team to design the actual processor based on Wilson's ISA.[^35] The official Acorn RISC Machine project started in October 1983.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Acorn-ARM-Evaluation-System.jpg/310px-Acorn-ARM-Evaluation-System.jpg)
+![[~/×/320ac929ea002cfb2fc3d727f851a34d_MD5.jpg]]
 
 ARM1 2nd processor for the BBC Micro
 
@@ -67,11 +67,11 @@ A successor, ARM3, was produced with a 4 KB cache, which further improved perfor
 
 ### Advanced RISC Machines Ltd. – ARM6
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/ARMSoCBlockDiagram.svg/460px-ARMSoCBlockDiagram.svg.png)
+![[~/×/094d692510ed734b550fce0785f3a2eb_MD5.png]]
 
 Microprocessor-based system on a chip
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/GPS_ARM610_die.JPG/310px-GPS_ARM610_die.JPG)
+![[~/×/362df58d459ab5b895c8648be87ae062_MD5.jpg]]
 
 [Die](https://en.wikipedia.org/wiki/Die_\(integrated_circuit\) "Die (integrated circuit)") of an ARM610 microprocessor
 
@@ -81,7 +81,7 @@ In 1994, Acorn used the ARM610 as the main [central processing unit](https://en.
 
 In 2005, about 98% of all mobile phones sold used at least one ARM processor.[^krazit-55] In 2010, producers of chips based on ARM architectures reported shipments of 6.1 billion [ARM-based processors](https://en.wikipedia.org/wiki/List_of_products_using_ARM_processors "List of products using ARM processors"), representing 95% of [smartphones](https://en.wikipedia.org/wiki/Smartphone "Smartphone"), 35% of [digital televisions](https://en.wikipedia.org/wiki/Integrated_digital_television "Integrated digital television") and [set-top boxes](https://en.wikipedia.org/wiki/Set-top_box "Set-top box"), and 10% of [mobile computers](https://en.wikipedia.org/wiki/Mobile_computer "Mobile computer"). In 2011, the 32-bit ARM architecture was the most widely used architecture in mobile devices and the most popular 32-bit one in embedded systems.[^popular-56] In 2013, 10 billion were produced[^57] and "ARM-based chips are found in nearly 60 percent of the world's mobile devices".[^58]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/STM32F103VGT6-HD.jpg/310px-STM32F103VGT6-HD.jpg)
+![[~/×/85cb96fa4e1e56e56d711b872ef5cf6f_MD5.jpg]]
 
 [Die](https://en.wikipedia.org/wiki/Die_\(integrated_circuit\) "Die (integrated circuit)") of a [STM32](https://en.wikipedia.org/wiki/STM32 "STM32")­F103VGT6 [ARM Cortex-M3](https://en.wikipedia.org/wiki/ARM_Cortex-M3 "ARM Cortex-M3") microcontroller with 1 [MB](https://en.wikipedia.org/wiki/Megabyte "Megabyte") [flash memory](https://en.wikipedia.org/wiki/Flash_memory "Flash memory") by [STMicroelectronics](https://en.wikipedia.org/wiki/STMicroelectronics "STMicroelectronics")
 
@@ -141,7 +141,7 @@ Arm provides a list of vendors who implement ARM cores in their design (applicat
 
 ### Example applications of ARM cores
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Quad-core_Android_%22mini_PC%22%2C_with_a_microSD_card_next_to_it_for_a_size_comparison.jpg/260px-Quad-core_Android_%22mini_PC%22%2C_with_a_microSD_card_next_to_it_for_a_size_comparison.jpg)
+![[~/×/bf1f0f000615df7ab0a859567b2de843_MD5.jpg]]
 
 [Tronsmart](https://en.wikipedia.org/w/index.php?title=Tronsmart&action=edit&redlink=1 "Tronsmart (page does not exist)") MK908, a [Rockchip](https://en.wikipedia.org/wiki/Rockchip "Rockchip")\-based quad-core Android "mini PC", with a microSD card next to it for a size comparison
 
@@ -153,11 +153,11 @@ ARM chips are also used in [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberr
 
 ## 32-bit architecture
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Raspberry-Pi-2-Bare-BR.jpg/220px-Raspberry-Pi-2-Bare-BR.jpg)
+![[~/×/64a66d2f9efd169333b6cb6e227e2103_MD5.jpg]]
 
 An ARMv7 was used to power older versions of the popular [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi "Raspberry Pi") single-board computers like this Raspberry Pi 2 from 2015.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Cubox.png/260px-Cubox.png)
+![[~/×/cc6c6b280549a9789717a369f94c6453_MD5.png]]
 
 An ARMv7 is also used to power the [CuBox](https://en.wikipedia.org/wiki/CuBox "CuBox") family of single-board computers.
 
@@ -473,7 +473,7 @@ The Armv8.1-M architecture, announced in February 2019, is an enhancement of the
 
 ## 64/32-bit architecture
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/ARMCortexA57A53.jpg/220px-ARMCortexA57A53.jpg)
+![[~/×/0d4791f79ce53286a09581dc78149372_MD5.jpg]]
 
 Armv8-A Platform with Cortex A57/A53 MPCore big.LITTLE CPU chip
 
@@ -1104,7 +1104,7 @@ Windows applications recompiled for ARM and linked with Winelib, from the [Wine]
 
 - Evans, Matt (27 December 2019). [*The Ultimate Acorn Archimedes talk*](https://www.youtube.com/watch?v=Hf67JYkUCHQ). Schedule 36 Chaos Communication Congress. *YouTube*. [Archived](https://ghostarchive.org/varchive/youtube/20211211/Hf67JYkUCHQ) from the original on 11 December 2021 – via media.ccc.de.
 
-- [Official website](https://www.arm.com/) [![Edit this at Wikidata](https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png)](https://www.wikidata.org/wiki/Q16980#P856 "Edit this at Wikidata"), ARM Ltd.
+- [Official website](https://www.arm.com/) [![[~/×/46a5f281259955b3cfc92a415ea2f3e8_MD5.png]]](https://www.wikidata.org/wiki/Q16980#P856 "Edit this at Wikidata"), ARM Ltd.
 
 ### Architecture manuals
 

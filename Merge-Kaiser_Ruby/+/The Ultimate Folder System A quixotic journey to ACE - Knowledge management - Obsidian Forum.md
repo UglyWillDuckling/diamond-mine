@@ -58,12 +58,12 @@ As content as I was with this theoretical construction, it didn’t feel overly 
 
 *Not well represented - less likely to recall*  
 
-[![STIR - Not well represented](https://forum.obsidian.md/uploads/default/optimized/3X/3/2/3265bec0668c426ff5898309909b0f7d0e80a5ae_2_690x388.png)](https://forum.obsidian.md/uploads/default/original/3X/3/2/3265bec0668c426ff5898309909b0f7d0e80a5ae.png "STIR - Not well represented")
+[![[~/×/bdf159fb564b6293f62cbd847c9bca2e_MD5.png]]](https://forum.obsidian.md/uploads/default/original/3X/3/2/3265bec0668c426ff5898309909b0f7d0e80a5ae.png "STIR - Not well represented")
 
 versus
 
 *Well represented - more likely to recall*  
-[![STIR - Well represented](https://forum.obsidian.md/uploads/default/optimized/3X/a/1/a1f3d4d9cde4ddbe184284ef92437310f9616a26_2_690x387.png)](https://forum.obsidian.md/uploads/default/original/3X/a/1/a1f3d4d9cde4ddbe184284ef92437310f9616a26.png "STIR - Well represented")
+[![[~/×/ca6a9d644382eda459f2be3301e0e9ce_MD5.png]]](https://forum.obsidian.md/uploads/default/original/3X/a/1/a1f3d4d9cde4ddbe184284ef92437310f9616a26.png "STIR - Well represented")
 
 With each element of STIR represented, the chances I am able to recall the right THING, at the right time, are at their highest. (An astute observer will likely recognize another reason why mapping notes like MOCs can be so valuable.)
 
@@ -85,13 +85,13 @@ Just ask:
 
 What’s better, is that it actually works in practice. Even further, it truly is **universal**, as I have implemented it in my mac’s Finder, our team’s Google Drive, a test version in Tana, and of course in my personal ideaverse in Obsidian (all images below).
 
-![ACE in Finder](https://forum.obsidian.md/uploads/default/original/3X/b/c/bcc81adde72791148c7724fa65fd57d27decaba6.png)
+![[~/×/b1790d99dc2bc503d128d214df007e79_MD5.png]]
 
-![ACE in Google Drive](https://forum.obsidian.md/uploads/default/original/3X/8/8/889177be487cfe73b1b83dbffaeb3f2c1254d709.png)
+![[~/×/85728f5952785c076faef7a7f16cf61c_MD5.png]]
 
-![ACE in Tana](https://forum.obsidian.md/uploads/default/original/3X/5/e/5e870c69ca77991e940bdd01ed727098bfef94f7.png)
+![[~/×/678886e65fde712a6abe23f53239766c_MD5.png]]
 
-![ACE in Obsidian](https://forum.obsidian.md/uploads/default/original/3X/8/e/8e1000c9d5142894fc94413e775db0ee4a311f37.png)
+![[~/×/e616011c8cf0884cd4e93ed6cc923cae_MD5.png]]
 
 ---
 

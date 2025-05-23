@@ -22,7 +22,7 @@ To print only the hostname, run the [hostname command](https://phoenixnap.com/kb
 hostname
 ```
 
-![hostname terminal output](https://phoenixnap.com/kb/wp-content/uploads/2024/07/hostname-terminal-output.png)
+![[~/×/15329dbbb21ec09f11ba42e5442cb594_MD5.webp]]
 
 To display both the hostname and additional information about your system, run **`hostnamectl`**:
 
@@ -30,7 +30,7 @@ To display both the hostname and additional information about your system, run *
 hostnamectl
 ```
 
-![hostnamectl terminal output](https://phoenixnap.com/kb/wp-content/uploads/2024/07/hostnamectl-terminal-output.png)
+![[~/×/8c99d63e7157e94d70571bcc135ad8fa_MD5.webp]]
 
 The **`Static hostname`** line displays your machine's hostname.
 
@@ -62,7 +62,7 @@ If successful, **`hostnamectl set-hostname`** does not produce any output. There
 hostname
 ```
 
-![terminal output for hostname](https://phoenixnap.com/kb/wp-content/uploads/2024/07/terminal-output-for-hostname.png)
+![[~/×/c3fe221aeedd6ae11ee7709dc21b80d0_MD5.webp]]
 
 ### Step 3: Change the Pretty Hostname (Optional)
 
@@ -88,7 +88,7 @@ Since the command has no output, check the result with **`hostnamectl`**:
 hostnamectl
 ```
 
-![terminal output for hostnamectl including a pretty hostname](https://phoenixnap.com/kb/wp-content/uploads/2024/07/terminal-output-for-hostnamectl.png)
+![[~/×/c5c416b4f6b8519673c041a9ba8ab07e_MD5.webp]]
 
 The output prints an additional line, listing the computer's pretty hostname.
 
@@ -110,13 +110,13 @@ Edit the [file](https://phoenixnap.com/glossary/what-is-a-file) with a [text edi
 sudo vim /etc/hostname
 ```
 
-![sudo vim /etc/hostname terminal output](https://phoenixnap.com/kb/wp-content/uploads/2024/07/sudo-vim-etc-hostname-terminal-output.png)
+![[~/×/995ccea6b4a7689699854db4f26bb4bc_MD5.webp]]
 
 The */etc/hostname* file contains only the current hostname.
 
 2\. Replace the current hostname with your new choice. For example, **`test`**.
 
-![change Ubuntu hostname by editing the /etc/hostname file](https://phoenixnap.com/kb/wp-content/uploads/2024/07/edit-etc-hostname-terminal-output.png)
+![[~/×/ae7d8deda04e6cb862e4f0f611a395c9_MD5.webp]]
 
 3\. [Save the file and exit](https://phoenixnap.com/kb/how-to-vim-save-quit-exit).
 
@@ -130,17 +130,17 @@ The */etc/hostname* file contains only the current hostname.
 sudo vim/etc/hosts
 ```
 
-![terminal output for sudo vim /etc/hosts](https://phoenixnap.com/kb/wp-content/uploads/2024/07/terminal-output-for-sudo-vim-etc-host.png)
+![[~/×/173df9c9f8b216fc522924b0f0f2b29e_MD5.png]]
 
 The file */etc/hosts* maps hostnames to [IP addresses](https://phoenixnap.com/glossary/what-is-an-ip-address).
 
 2\. Look for the hostname you wish to change and replace it with your new choice, for example, with **`test`**.
 
-![change Ubuntu hostname in /etc/hosts file](https://phoenixnap.com/kb/wp-content/uploads/2024/07/edit-etc-hosts-terminal-output.png)
+![[~/×/6ece9fcae32292525f53f90ec276f071_MD5.png]]
 
 3\. Save the edits and exit.
 
-![Editing the /etc/hosts file](https://phoenixnap.com/kb/wp-content/uploads/2021/04/editing-etc-hosts.png)
+![[~/×/1216aa1df69ca55785c13cc988f94d94_MD5.png]]
 
 ### Step 3: Reboot the System
 
@@ -158,21 +158,21 @@ The [Ubuntu GUI](https://phoenixnap.com/kb/how-to-install-a-gui-on-ubuntu) also 
 
 1\. Access **Settings**.
 
-![Ubuntu settings](https://phoenixnap.com/kb/wp-content/uploads/2024/07/ubuntu-settings.png)
+![[~/×/9fd3c41d31b8f0177a5e6b7270afcf2c_MD5.png]]
 
 2\. Navigate to the **About** section.
 
-![Ubuntu settings about section](https://phoenixnap.com/kb/wp-content/uploads/2024/07/about-section.png)
+![[~/×/ce3369b1eee5adbcfecf96a037d68ebe_MD5.png]]
 
 3\. Locate the **Device Name** field.
 
-![Device name](https://phoenixnap.com/kb/wp-content/uploads/2024/07/device-name.png)
+![[~/×/ff5ab92ba6d3cf4f36f71d5f6d4acda4_MD5.png]]
 
 Click the **Device Name** field to open the **Rename Device** dialogue box.
 
 4\. In the **Rename Device** dialogue box, replace the current hostname with a new one and confirm your choice by clicking the **Rename** button. For example, set the new hostname as **pnap**.
 
-![Permanently change hostname on Ubuntu via settings](https://phoenixnap.com/kb/wp-content/uploads/2024/07/set-new-hostname.png)
+![[~/×/f35334e5cbd9f263b1cc7e18e483d32f_MD5.png]]
 
 This action permanently changes the hostname.
 
@@ -192,7 +192,7 @@ sudo hostname test-pnap
 
 If successful, this step does not provide any output. To confirm the result, check the current system hostname:
 
-![temporarily change hostname on ubuntu using the hostname command](https://phoenixnap.com/kb/wp-content/uploads/2024/07/hostname-command-terminal-output.png)
+![[~/×/f1d3b885178b19967be1f2098572206d_MD5.png]]
 
 Conclusion
 

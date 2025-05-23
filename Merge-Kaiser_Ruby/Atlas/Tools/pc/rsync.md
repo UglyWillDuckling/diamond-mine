@@ -222,7 +222,7 @@ As of macOS 10.5 and later, there is a special `-E` or `--extended-attributes` s
 
 [^46]: ["Grsync for Windows"](https://sourceforge.net/projects/grsync-win/). *SourceForge*. 12 July 2016. [Archived](https://web.archive.org/web/20190324193643/https://sourceforge.net/projects/grsync-win/) from the original on 24 March 2019. Retrieved 24 March 2019.
 
-- [Official website](https://rsync.samba.org/) [![Edit this at Wikidata](https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png)](https://www.wikidata.org/wiki/Q283774#P856 "Edit this at Wikidata")
+- [Official website](https://rsync.samba.org/) [![[~/×/46a5f281259955b3cfc92a415ea2f3e8_MD5.png]]](https://www.wikidata.org/wiki/Q283774#P856 "Edit this at Wikidata")
 - [Rsync algorithm](https://rsync.samba.org/tech_report/) – 1998-11-09
 - [Doctoral thesis introducing the Rsync algorithm](https://www.samba.org/~tridge/phd_thesis.pdf)
 - [Rsync examples in Linux (How to use rsync)](https://linuxconfig.org/rsync-command-examples/)

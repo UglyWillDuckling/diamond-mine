@@ -7,7 +7,7 @@ tags:
   - tool/go
   - tool/framework
 ---
-[![image|200](https://raw.githubusercontent.com/i-love-flamingo/flamingo/master/docs/assets/flamingo-logo-only-pink-on-white.png)](https://raw.githubusercontent.com/i-love-flamingo/flamingo/master/docs/assets/flamingo-logo-only-pink-on-white.png)
+[![[~/×/ac9ecefed20356cf043e86db3b5f9a87_MD5.png|200]]](https://raw.githubusercontent.com/i-love-flamingo/flamingo/master/docs/assets/flamingo-logo-only-pink-on-white.png)
 
 Flamingo is a web framework based on Go.  
 It is designed to build pluggable and maintainable web projects. It is production ready, field tested and has a growing ecosystem.

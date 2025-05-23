@@ -237,7 +237,7 @@ In it, you can see that the database, ownCloud and Redis containers are running,
 
 To log in to the ownCloud UI, open `http://localhost:8080` in your browser of choice, where you see the standard ownCloud login screen as in the image below.
 
-![The ownCloud UI via Docker](https://doc.owncloud.com/server/10.15/admin_manual/_images/docker/owncloud-ui-login.png)
+![[~/×/c8fe4c8d9307ba3262f202015e244206_MD5.png]]
 
 The username and password are the credentials which you stored in `.env` earlier. Note that these will not change between deploys even if you change the values in .env.
 

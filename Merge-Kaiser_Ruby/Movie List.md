@@ -10,8 +10,29 @@ cssclasses:
 tags:
   - Listing/movies
 ---
-# to watch 👀
 
+```set
+scope:
+  - type
+  - movie
+timestamp: 1747330950340
+fields:
+  - __bname
+  - personalRating
+  - year
+  - image
+viewMode: gallery
+gallery:
+  transclude:
+    - image
+sortby:
+  - - personalRating
+    - true
+calculatedFields: {}
+
+```
+
+# to watch 👀
 ```dataview
 table without id 
 	("![](" + image + ")") as Poster,

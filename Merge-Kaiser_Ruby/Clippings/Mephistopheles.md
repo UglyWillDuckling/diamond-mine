@@ -11,7 +11,7 @@ tags:
 ---
 **Mephistopheles**[^1] (, German pronunciation: [\[mefɪˈstoːfɛlɛs\]](https://en.m.wikipedia.org/wiki/Help:IPA/Standard_German "Help:IPA/Standard German")), also known as **Mephisto**,[^:1-2] is a [demon](https://en.m.wikipedia.org/wiki/Demon "Demon") featured in [German folklore](https://en.m.wikipedia.org/wiki/German_folklore "German folklore"). He originally appeared in literature as the demon in the [Faust](https://en.m.wikipedia.org/wiki/Faust "Faust") legend and has since become a [stock character](https://en.m.wikipedia.org/wiki/Stock_character "Stock character") appearing in [other works of arts and popular culture](https://en.m.wikipedia.org/wiki/Mephistopheles_in_the_arts_and_popular_culture "Mephistopheles in the arts and popular culture").
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Mephistopheles2.jpg/220px-Mephistopheles2.jpg)
+![[~/×/89275e57d3649c241bf915d02ce362e6_MD5.jpg]]
 
 Mephistopheles flying over [Wittenberg](https://en.m.wikipedia.org/wiki/Wittenberg "Wittenberg"), in a [lithograph](https://en.m.wikipedia.org/wiki/Lithography "Lithography") by [Eugène Delacroix](https://en.m.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix "Eugène Delacroix")
 
@@ -27,11 +27,11 @@ It is likely that the name was invented for the historical [alchemist](https://e
 
 Further information: [Faust](https://en.m.wikipedia.org/wiki/Faust "Faust")
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Mephistophiles_Passau_1527.jpg/220px-Mephistophiles_Passau_1527.jpg)
+![[~/×/62d9e77a917969f9ba881f7ec2bc1499_MD5.jpg]]
 
 *MEPHISTO\_PHILES* in the 1527 *Praxis Magia Faustiana*, attributed to Faust
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Scuola_francese%2C_mefistofele_e_margaretta%2C_dal_faust%2C_1890_ca._01.jpg/170px-Scuola_francese%2C_mefistofele_e_margaretta%2C_dal_faust%2C_1890_ca._01.jpg)
+![[~/×/1cbc0b1dfc27b0afb104d31acd135152_MD5.jpg]]
 
 *[Mephistopheles and Margaretta](https://en.m.wikipedia.org/wiki/Mephistopheles_and_Margaretta "Mephistopheles and Margaretta")*, wooden double sculpture, c. 1876
 
@@ -45,7 +45,7 @@ From the chapbooks, the name entered Faustian literature. Many authors have used
 
 Mephistopheles in later treatments of the Faust material frequently figures as a title character: in [Meyer Lutz](https://en.m.wikipedia.org/wiki/Meyer_Lutz "Meyer Lutz")'s *[Mephistopheles, or Faust and Marguerite](https://en.m.wikipedia.org/wiki/Faust_and_Marguerite_\(opera\) "Faust and Marguerite (opera)")* (1855), [Arrigo Boito](https://en.m.wikipedia.org/wiki/Arrigo_Boito "Arrigo Boito")'s *[Mefistofele](https://en.m.wikipedia.org/wiki/Mefistofele "Mefistofele")* (1868), [Klaus Mann](https://en.m.wikipedia.org/wiki/Klaus_Mann "Klaus Mann")'s *[Mephisto](https://en.m.wikipedia.org/wiki/Mephisto_\(novel\) "Mephisto (novel)")*, and [Franz Liszt](https://en.m.wikipedia.org/wiki/Franz_Liszt "Franz Liszt")'s *[Mephisto Waltzes](https://en.m.wikipedia.org/wiki/Mephisto_Waltzes "Mephisto Waltzes")*. There are also many parallels with the character of Mephistopheles and the character Lord Henry Wotton in *[The Picture of Dorian Gray](https://en.m.wikipedia.org/wiki/The_Picture_of_Dorian_Gray "The Picture of Dorian Gray")* by [Oscar Wilde](https://en.m.wikipedia.org/wiki/Oscar_Wilde "Oscar Wilde").[^4]
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Mephisto_by_Mark_Antokolski%2C_marble_%28GTG%2C_after_1883%29_by_shakko_09.jpg/220px-Mephisto_by_Mark_Antokolski%2C_marble_%28GTG%2C_after_1883%29_by_shakko_09.jpg)
+![[~/×/30c10ce15bf4014a7232c9028faad41a_MD5.jpg]]
 
 *Mephistopheles* by [Mark Antokolsky](https://en.m.wikipedia.org/wiki/Mark_Antokolsky "Mark Antokolsky"), 1884
 

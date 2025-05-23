@@ -16,7 +16,7 @@ previewLink: http://books.google.com/books?id=ui8hDgAAQBAJ&pg=PT30&dq=DevOps+Han
 isbn13: 9781942788072
 isbn10: 194278807X
 ---
-![](http://books.google.com/books/content?id=ui8hDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
+![[~/×/d4ebe63b2cd391fc252efdc1fe7229be_MD5.jpg]]
 
 ## details 📜
 

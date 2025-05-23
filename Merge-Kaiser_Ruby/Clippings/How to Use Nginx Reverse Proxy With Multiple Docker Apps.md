@@ -12,7 +12,7 @@ tags:
 
 What is a reverse proxy? Reverse proxy is kind of a server that sits in the front of many other servers, and forwards the client requests to the appropriate servers. The response from the server is then also received and forwarded by the proxy server to the client.
 
-![Reverse Proxy](https://linuxhandbook.com/content/images/2020/09/reverse-proxy-1.png)
+![[~/×/4bf02c91fe24804f8cbb1a66ca8be7ba_MD5.webp]]
 
 Reverse Proxy
 
@@ -24,7 +24,7 @@ Take the same image as the one you saw above. What you can do is to run an Ngnix
 
 Nginx container will be configured in a way that it knows which web service is running in which container.
 
-![Deploying multiple web services with Nginx reverse proxy and Docker](https://linuxhandbook.com/content/images/2020/09/deploy-multiple-services-with-nginx-reverse-proxy-container.png)
+![[~/×/2f0609f71f4d86104314266125d609b1_MD5.webp]]
 
 Deploying multiple web services with Nginx reverse proxy and Docker
 
@@ -248,7 +248,7 @@ docker run --rm --name nginx-dummy -e VIRTUAL_HOST=sub.domain.com -e LETSENCRYPT
 
 Now if you go to your sub-domain used in the previous command, you should see a message from Ngnix server.
 
-![Ngnix reverse proxy](https://linuxhandbook.com/content/images/2020/09/ngnix-reverse-proxy.png)
+![[~/×/4b19cb4f011ae82939eb1ae0c3b2ff3c_MD5.webp]]
 
 Ngnix reverse proxy
 

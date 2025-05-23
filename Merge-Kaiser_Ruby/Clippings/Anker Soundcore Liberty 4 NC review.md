@@ -13,13 +13,13 @@ All products featured are independently chosen by us. However, SoundGuys may rec
 
 [Earbuds & headphones](https://www.soundguys.com/earbuds-headphones/)
 
-![The Anker Soundcore Liberty 4 NC with the buds out of the case shown on a wood top.](https://www.soundguys.com/wp-content/uploads/2023/10/Anker-Soundcore-Liberty-4NC-Hero-Image-2.jpg "Anker-Soundcore-Liberty-4NC-Hero-Image-#2")
+![[~/×/7cc3410a539e8e12a3a07c893e48540c_MD5.jpg]]
 
 Harley Maranan / SoundGuys
 
 ANC, battery, and bass, what else do you need?
 
-![](https://www.soundguys.com/wp-content/uploads/2023/08/sg2023_editors_choice.png.webp "sg2023_editors_choice")
+![[~/×/8e367899313bd5de59798c1ad49e49d4_MD5.webp]]
 
 **8.2**
 
@@ -30,7 +30,7 @@ ___
 
 These are definitely a contender for some of the best affordable noise canceling earbuds based on performance and value. With an IPX4 rating, long battery life, and good ANC, these are worth a go. You might not want to go for a run with them, but otherwise they're decent.
 
-![](https://www.soundguys.com/wp-content/uploads/2023/08/sg2023_editors_choice.png.webp "sg2023_editors_choice")
+![[~/×/8e367899313bd5de59798c1ad49e49d4_MD5.webp]]
 
 ## Anker Soundcore Liberty 4 NC
 
@@ -202,7 +202,7 @@ Smart shoppers who don’t fall for name-brand checking will benefit from the fe
 
 ## What’s it like to use Anker Soundcore Liberty 4 NC?
 
-![A hand holds one of the Anker Soundcore Liberty 4 NC by the stem with the case on a wood surface in the background.](https://www.soundguys.com/wp-content/uploads/2023/10/Anker-Soundcore-Liberty-4NC-Bud-Image-1-scaled.jpg.webp "Anker-Soundcore-Liberty-4NC-Bud-Image-#1")
+![[~/×/98b6ff8c711f3b40bd55fcaf350b5afb_MD5.webp]]
 
 Harley Maranan / SoundGuys
 
@@ -212,7 +212,7 @@ Anker produces a few colorways for the Soundcore Liberty 4 NC, and our test unit
 
 Flip the lid on the stout, squarish case to reveal the stemmed earbuds with ambient internal lighting. Inserting the AirPods Pro style buds shows these fit pretty securely, but despite the [IPX4 rating, they](https://www.soundguys.com/decoding-ip-ratings-16550/) are not athletics-oriented earbuds. The capacitive touchpad resides towards the top of the earbud, where the stem meets the round housing. Controls rarely misfire and, if anything, are slightly insensitive. By default, a pleasant low-clicking sound shows a command register. You can even adjust whether you want sound in the app.
 
-![A close up of the shut case for the Anker Soundcore Liberty 4 NC on a wood table.](https://www.soundguys.com/wp-content/uploads/2023/10/Anker-Soundcore-Liberty-4NC-Case-Image-1.jpg "Anker-Soundcore-Liberty-4NC-Case-Image-#1")
+![[~/×/0760058283a9f45b4b190ec9a0c7b140_MD5.jpg]]
 
 Harley Maranan / SoundGuys
 
@@ -233,7 +233,7 @@ The default controls are shown, but you can reassign any control in the app. It�
 
 ## Should you use the Soundcore app for the Anker Soundcore Liberty 4 NC?
 
-![The Anker Soundcore Liberty 4 NC shown with the case open and buds out on a table.](https://www.soundguys.com/wp-content/uploads/2023/10/Anker-Soundcore-Liberty-4NC-Featured-Image-1-scaled.jpg "Anker-Soundcore-Liberty-4NC-Featured-Image-#1")
+![[~/×/d1bd2c8d2bd9bb8e4c3ba5a1161138fa_MD5.jpg]]
 
 Harley Maranan / SoundGuys
 
@@ -247,7 +247,7 @@ In addition, you can comprehensively reassign commands, try out gaming mode, cha
 
 ## How do the Anker Soundcore Liberty 4 NC connect?
 
-![The Anker Soundcore Liberty 4 NC shown in the open case.](https://www.soundguys.com/wp-content/uploads/2023/10/Anker-Soundcore-Liberty-4NC-Featured-Image-2-scaled.jpg.webp "Anker-Soundcore-Liberty-4NC-Featured-Image-#2")
+![[~/×/3f8cd6181f7d44b2a0d7976a1aefcaa1_MD5.webp]]
 
 Harley Maranan / SoundGuys
 
@@ -266,7 +266,7 @@ There are a couple of ways you can pair the Anker Soundcore Liberty 4 NC, either
 
 ## How long does the Anker Soundcore Liberty 4 NC battery last?
 
-![A hand holds the Anker Soundcore Liberty 4 above a wood surface.](https://www.soundguys.com/wp-content/uploads/2023/10/Anker-Soundcore-Liberty-4NC-Featured-Image-3-scaled.jpg "Anker-Soundcore-Liberty-4NC-Featured-Image-#3")
+![[~/×/74d46a976a257ac4a82c54388f46794d_MD5.jpg]]
 
 Harley Maranan / SoundGuys
 
@@ -296,7 +296,7 @@ The Anker Soundcore Liberty 4 NC earbuds offer impressive sound quality, with po
 
 The chart below shows how the sound of the Anker Soundcore Liberty 4 NC was assessed by the Multi-Dimensional Audio Quality Score ([MDAQS](https://www.soundguys.com/what-is-mdaqs-104949/)) algorithm from HEAD Acoustics.
 
-![The chart shows the Anker Soundcore Liberty 4 NC (SBC soundcore signature EG) received a score of 4.9 for Timber, 3.9 for Distortion and 4.8 for Immersiveness, giving them an overall MDAQS score of 4.9.](https://www.soundguys.com/wp-content/uploads/2024/02/Anker-Soundcore-Liberty-4-NC-SBC-soundcore-signature-EQ-MDAQS.png.webp "Anker Soundcore Liberty 4 NC (SBC soundcore signature EQ)-MDAQS")
+![[~/×/a9cb106f1b897ae05a34d680846ea49d_MD5.webp]]
 
 This is one of the highest overall MDAQS scores on earbuds we’ve tested so far.
 
@@ -358,7 +358,7 @@ Anker uses six microphones and an AI algorithm for the Liberty 4 NC. The results
 
 ## Should you buy the Anker Soundcore Liberty 4 NC?
 
-![A close up of the Anker Soundcore Liberty 4 NC with the case and buds out on a table.](https://www.soundguys.com/wp-content/uploads/2023/10/Anker-Soundcore-Liberty-4NC-Hero-Image-1.jpg.webp "Anker-Soundcore-Liberty-4NC-Hero-Image-#1")
+![[~/×/9187c6626a6ba448d3c755cdd40ca578_MD5.webp]]
 
 The Anker Soundcore Liberty 4 NC have everything most people look for in wireless earbuds.
 
@@ -368,9 +368,9 @@ They might not be the ideal workout companion, but with an IPX4 rating, they can
 
 Anker Soundcore Liberty 4 NC
 
-![Anker Soundcore Liberty 4 NC](https://clearbuy-cloud.nyc3.digitaloceanspaces.com/media/8609/Anker-Soundcore-Liberty-4-NC.jpg)
+![[~/×/8e7fc5d004119499b94a368347abced5_MD5.jpg]]
 
-![SG recommended](https://clearbuy-cloud.nyc3.digitaloceanspaces.com/media/7659/sg2020_recommende-232x290.png.webp)
+![[~/×/4512eca674e0afda4464a3af5f109485_MD5.webp]]
 
 Anker Soundcore Liberty 4 NC
 
@@ -382,7 +382,7 @@ These are definitely a contender for some of the best affordable noise canceling
 
 ## Anker Soundcore Liberty 4 NC vs Anker Soundcore Liberty 4 Pro
 
-![A hand holding the Anker Soundcore Liberty 4 Pro showing the display on the charging case.](https://www.soundguys.com/wp-content/uploads/2024/09/Anker-Soundcore-Liberty-4-Pro-earbuds-in-case-touch-display-scaled.jpg.webp "Anker Soundcore Liberty 4 Pro earbuds in case touch display")
+![[~/×/8563985e4107e5448898529df4535d5a_MD5.webp]]
 
 Chase Bernath / SoundGuys
 
@@ -392,7 +392,7 @@ The [Anker Soundcore Liberty 4 Pro](https://www.soundguys.com/anker-soundcore-li
 
 Anker Soundcore Liberty 4 Pro
 
-![Anker Soundcore Liberty 4 Pro](https://clearbuy-cloud.nyc3.digitaloceanspaces.com/media/10399/Anker-Soundcore-Liberty-4-Pro.jpg)
+![[~/×/f18b302540f25bca6fa0b846aef49f3f_MD5.jpg]]
 
 Anker Soundcore Liberty 4 Pro
 
@@ -408,7 +408,7 @@ The Anker Soundcore Liberty 4 Pro are packed full of features, including a uniqu
 
 Because they punch above their price point, most comparable earbuds will cost more than the Anker Soundcore Liberty 4 NC. First, check out the Sony LinkBuds S. These feel good, have the same IPX4 rating as the Anker buds, and sound pretty good, too. You won’t quite eke out the same battery life, however, and they go for [$148 at Amazon](https://clearbuy.com/redirect/9f018dd69361477e12eaf05b311990a15df035e3?pId=1706&tag=sgwaw221-20).
 
-![A hand holds the Jabra Elite 4 open in front of green foliage.](https://www.soundguys.com/wp-content/uploads/2023/04/jabra-elite-4-in-hand-center-scaled.jpg.webp "jabra-elite-4-in-hand-center")
+![[~/×/d9b707da64279c4a07101d308ca38fe3_MD5.webp]]
 
 Jasper Lastoria / SoundGuys
 
@@ -418,7 +418,7 @@ Consider the [Jabra Elite 4](https://www.soundguys.com/jabra-elite-4-review-8942
 
 Finally, who better to compete with the Anker Soundcore Liberty 4 NC than the [Anker Soundcore Space A40](https://www.soundguys.com/anker-soundcore-space-a40-review-81004/)? These stemless earbuds are IPX4-rated and utilize the same Soundcore app to access EQ and ANC. These use the same LDAC, AAC, and SBC combo. The battery life is shy of 8 hours, which is still impressive for [$79 at Amazon](https://clearbuy.com/redirect/c2c2edb82ffc472dcd903060a859c86d64cfe215?pId=3209). The real downsides of these are that the case isn’t very sturdy, and the Anker Soundcore Space A40 microphone handles wind notably worse. Still, this could be a moot point if you rarely make calls in the wind. It might also be worth waiting to see if the [Anker Soundcore Liberty 4 Pro](https://www.soundguys.com/anker-soundcore-liberty-4-pro-107077/) is actually released this year.
 
-![The JLab JBuds Mini live up to their name: they're extremely tiny.](https://www.soundguys.com/wp-content/uploads/2023/12/jlab-jbuds-mini-nozzle.jpg.webp "jlab-jbuds-mini-nozzle")
+![[~/×/3ff686ad1c3ce5821931eee58d104163_MD5.webp]]
 
 Christian Thomas / SoundGuys
 

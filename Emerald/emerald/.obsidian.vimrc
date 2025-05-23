@@ -44,10 +44,6 @@ exmap goForward obcommand app:go-forward
 "nnoremap <BS> :goBack<CR>
 "nnoremap <S-BS> :goForward<CR>
 
-" sentence navigation
-noremap [ (
-noremap ] )
-
 " [z]pelling [l]ist (emulates `z=`)
 exmap contextMenu obcommand editor:context-menu
 nnoremap zl :contextMenu<CR>
@@ -354,3 +350,53 @@ vmap <A-m>P o<Esc>i<lt>mark<space>class='path'><Esc>gvo<Esc>a<lt>/mark><Esc>
 
 exmap quick_switch obcommand switcher:open
 nmap go :quick_switch<CR>
+
+
+exmap web_search obcommand webviewer:search
+nmap gw :web_search<CR>
+
+" Cycle between tabs
+exmap tabprev obcommand workspace:previous-tab
+nmap H :tabprev<CR>
+exmap tabnext obcommand workspace:next-tab
+nmap L :tabnext<CR>
+
+" Open today's note
+exmap daily obcommand daily-notes
+nmap ,dn :daily<CR>
+
+" Insert templates
+exmap ins_tmpl obcommand templater-obsidian:insert-templater
+nmap ,t :ins_tmpl<CR>
+
+" Splits
+exmap vsplit obcommand workspace:split-vertical
+nmap ,v :vsplit<CR>
+exmap hsplit obcommand workspace:split-horizontal
+nmap ,V :hsplit<CR>
+
+" remove highlight
+nmap <S-h> :nohl<CR>
+
+" Surround
+exmap surround_wiki surround [[ ]]
+exmap surround_double_quotes surround " "
+exmap surround_single_quotes surround ' '
+exmap surround_backticks surround ` `
+exmap surround_brackets surround ( )
+exmap surround_square_brackets surround [ ]
+exmap surround_curly_brackets surround { }
+
+map [[ :surround_wiki<CR>
+nunmap s
+vunmap s
+map s" :surround_double_quotes<CR>
+map s' :surround_single_quotes<CR>
+map s` :surround_backticks<CR>
+map sb :surround_brackets<CR>
+map s( :surround_brackets<CR>
+map s) :surround_brackets<CR>
+map s[ :surround_square_brackets<CR>
+map s] :surround_square_brackets<CR>
+map s{ :surround_curly_brackets<CR>
+map s} :surround_curly_brackets<CR>

@@ -1,3 +1,4 @@
+
 - [x] look into [[another-quick-switcher]] mappings
 - [x] install plugins to enable mappings
 	- [x] [[shukuchi]]
@@ -5,11 +6,13 @@
 	- [x] [[enhance url]]
 	- [x] [[commentator]] : not working
 	- [x] grappling hook
-- [ ] look for a way to open quick switcher via Vim
-	- [ ] [[Vimrc for Obsidian]]
+- [x] look for a way to open quick switcher via Vim
+	- [x] [[Vimrc for Obsidian]]
+- [/] add **personal** vim mappings
+- [x] see if obsidian can remember the last place in a note
 
 ## mapping to remember
-[^2]
+
 1. `gl` grepping inside the vault. Works great [^1]
 2. `gh` go to heading. Just a **perfect** command
 3. `gx` follow link. Flawless
@@ -23,9 +26,28 @@
 10. `,c` enhance URL with title
 	[Google](http://google.com)
 11. `gf` go to footnote. Much better than mapping in Obsidian
-12. 
+12. `go` quick switcher
+13. `ctrl-alt q` close window
 
-### config
+## possible custom mappings
+
+- [x] move between splits splits
+- [x] add split
+- [ ] maybe remap template to use [[Templater]]
+
+- web: `gw` ✅
+- split `,v` `,V`
+- move around with `alt-{jklh}`
+- rm highlight `<S-h>`
+
+## changes
+
+- `installed` [[remember-cursor-position Obsidian plugin]]
+- ..
+
+## config
+
+<mark style="background: #FF5582A6;">outdated</mark>
 
 ```c
 """"""""""""""""""""""

@@ -76,6 +76,7 @@
     "finish date": "date",
     "areas": "multitext",
     "related_courses": "multitext",
-    "covers": "multitext"
+    "covers": "multitext",
+    "directly-connected": "multitext"
   }
 }

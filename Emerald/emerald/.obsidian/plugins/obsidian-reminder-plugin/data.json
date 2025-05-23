@@ -29,13 +29,6 @@
         "rowNumber": 18
       }
     ],
-    "Atlas/Knowledge/Education/Shell/BASH - special options.md": [
-      {
-        "title": "**remind** me to use the `-x` flag to print out every line of executed code",
-        "time": "2025-05-23",
-        "rowNumber": 19
-      }
-    ],
     "Atlas/Knowledge/daily_notes/2025/05-May/Senka - call.md": [
       {
         "title": "remind me",
@@ -54,6 +47,13 @@
       {
         "title": "remind me",
         "time": "2025-06-02",
+        "rowNumber": 2
+      }
+    ],
+    "Atlas/Knowledge/daily_notes/2025/05-May/google cloud uses the id_ed25519 key.md": [
+      {
+        "title": "remind me",
+        "time": "2025-05-30",
         "rowNumber": 2
       }
     ]

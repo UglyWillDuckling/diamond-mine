@@ -449,7 +449,6 @@
   "work/Projects/Backyard/Features/QSL listing feature/archive/subs/AWS connection/AWS connection.md": "🗽",
   "work/Projects/Backyard/Features/QSL listing feature/archive/subs/AWS connection/AWS import.md": "🗽",
   "work/Projects/Backyard/Features/QSL listing feature/how to's/how to check(test) cron backyard-tasks.md": "LiTestTube",
-  "work/Projects/Backyard/Features/QSL listing feature/Notes on prod deploy of QSL.md": "LiNotebookText",
   "work/Projects/Backyard/Features/QSL listing feature/how to's/how to run the qsl import on tasks.md": "LiImport",
   "work/Projects/Backyard/Features/QSL listing feature/how to's/where to find the listings atm.md": "🔍",
   "work/Projects/Backyard/Features/QSL listing feature/docs/code/table docs.md": "LiPencil",
@@ -481,5 +480,6 @@
   "work/tickets/FEAT/Features db.md": {
     "iconName": "LiDatabase",
     "iconColor": "#e5f415"
-  }
+  },
+  "work/Projects/Backyard/Features/QSL listing feature/archive/Notes on prod deploy of QSL.md": "LiNotebookText"
 }

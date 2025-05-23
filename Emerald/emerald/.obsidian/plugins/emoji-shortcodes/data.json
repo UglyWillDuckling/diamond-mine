@@ -4,8 +4,12 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
-    ":eyes:",
+    ":broken_heart:",
+    ":sunrise:",
+    ":mantelpiece_clock:",
+    ":spiral_notepad:",
     ":notebook_with_decorative_cover:",
+    ":eyes:",
     ":hash:",
     ":globe_with_meridians:",
     ":world_map:",
@@ -24,8 +28,6 @@
     ":walking:",
     ":calendar:",
     ":sunrise_over_mountains:",
-    ":sunrise:",
-    ":mantelpiece_clock:",
     ":thumbsup:",
     ":confounded:",
     ":writing_hand:",
@@ -41,7 +43,6 @@
     ":warning:",
     ":eyeglasses:",
     ":exclamation:",
-    ":spiral_notepad:",
     ":hourglass_flowing_sand:",
     ":newspaper:",
     ":flatbread:",
@@ -202,7 +203,6 @@
     ":cloud_with_lightning:",
     ":flashlight:",
     ":black_cat:",
-    ":birthday:",
-    ":smile:"
+    ":birthday:"
   ]
 }

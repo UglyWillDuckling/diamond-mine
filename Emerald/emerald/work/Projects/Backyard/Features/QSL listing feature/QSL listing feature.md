@@ -7,3 +7,8 @@ related:
 
 Everything is empty now...
 
+- [ ] list the docs
+- [ ] list archive tickets?
+- [ ] list `how to's`
+
+___

@@ -17,7 +17,7 @@ special variables. But there is <mark style="background: #FFB86CA6;">another cla
 
 ## X - Bourne Shell echo flag
 
-- [ ] **remind** me (@[[2025-05-23]])  to use the `-x` flag to print out every line of executed code
+- [x] **remind** me (@[[2025-05-23]])  to use the `-x` flag to print out every line of executed code
 
 If you are having trouble understanding how a shell script works, you could modify the script, adding echo commands so you can see what is happening. Another solution is to execute the script with the "x" flag. There are three ways to set this flag. The first, and perhaps easiest, is to specify the option when executing the script: To demonstrate, assume the file script is:
 

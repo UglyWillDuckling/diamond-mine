@@ -1,10 +1,9 @@
 ---
 source: https://crontab.guru
 created: 2024-12-06
+about: "[[crontab]]"
 ---
 #active #crontab
-
-[[crontab]]
 
 | \*        | any value                 |
 | --------- | ------------------------- |

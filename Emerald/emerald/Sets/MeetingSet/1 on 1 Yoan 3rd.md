@@ -16,3 +16,17 @@ meeting type: 1on1
 > who is coming?
 
 `=this.participants`
+
+## what
+
+new people coming in ...
+
+**interviews**
+- I will be part of the `interview process`
+	- should start soon
+
+## notes 🗒
+
+- **campaigns** start at 10 AM
+- performance issues: related to [[qsl import issue - missing pagination]]
+	- deployed 2 days ago around 11:30AM

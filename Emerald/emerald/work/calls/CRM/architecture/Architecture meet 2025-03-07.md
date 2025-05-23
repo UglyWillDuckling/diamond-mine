@@ -46,7 +46,7 @@ note 📔: we might use [[Cucumber testing]]
 
 > [!warning] [[Amin Khansari]]: Nothing in the [[golden path AVIV]] for applications
 
-mentioned: [[Behaviour Driven Design]]
+mentioned: [[Behaviour Driven Development video]]
 https://www.youtube.com/watch?v=gXh0iUt4TXA
 
 ## project pages

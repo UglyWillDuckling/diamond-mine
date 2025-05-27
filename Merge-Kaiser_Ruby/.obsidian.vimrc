@@ -323,8 +323,8 @@ nnoremap <CR> :altBuffer<CR>
 " Folding
 """"""""""""""""""""""
 " Emulate vim folding command
-nnoremap zo :togglefold<CR>
-nnoremap zc :togglefold<CR>
+"nnoremap zo :togglefold<CR>
+"nnoremap zc :togglefold<CR>
 
 exmap unfoldall obcommand editor:unfold-all
 exmap foldall obcommand editor:fold-all

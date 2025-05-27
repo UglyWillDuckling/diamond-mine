@@ -3,18 +3,22 @@ id: Master Task List
 tags:
   - task-list
 ---
-
-- [ ] #task Apply to [[Bolt]] for work 🔼 📅 2025-05-19 🆔 0k90Er
+- [/] #task Explore [[Arduino]] 🔼 🛫 2025-05-28 ⏳ 2025-05-31 📅 2025-06-27 🆔 5aTADq
+- [ ] #task cancel **Means** TV sub 🔼 ⏳ 2025-05-23 📅 2025-05-29 🆔 2cpPvG
+- [ ] #task Apply to [[Bolt]] for work 🔼 📅 2025-06-02 🆔 0k90Er
 	- [[bolt job application]]
+
+- [x] #task rijesiti problem s owncloud upload limitom [[setup Owncloud]]
+- [/] #task [[Setup Printer on PC]] 🆔 rQkj6h 🔼 ⏳ 2025-03-28 📅 2025-06-03
 - [/] #task read :book[[A Wizard of Earthsea]] 📅 2025-05-24 📚 🆔 i2gcix 📅 2025-06-18
-- [ ] #task Trajno rješenje za [[persona mail setup]] ⏫ 📅 2025-05-19 🆔 f6HQA8
-- [/] #task [[Setup Printer on PC]] 🆔 rQkj6h 🔼 ⏳ 2025-03-28 📅 2025-05-24
+- [ ] #task Trajno rješenje za [[persona mail setup]] ⏫ 📅 2025-05-28 🆔 f6HQA8
+
 ___
 
 - [/] #task Prodi [[Bug 388]] i instaliraj zeljeni software #paused 🆔 BVw5Ce 🔼 ⏳ 2025-03-03 📅 2025-06-30
 	[[instalacija sofwarea iz Bug 388]]	
 	
-- [ ] #task #backburner See how difficult it is to setup a local FTP server 🆔 592cRS 🔽 ⏳ 2025-02-25 📅 2025-07-14
+- [ ] #task #backburner See [[how difficult it is to setup a local FTP server]] 🆔 592cRS 🔽 ⏳ 2025-02-25 📅 2025-07-14
 - [ ] #task #backburner napraviti novi **projekt** za [[ipod]] glazbu #tiny 🆔 7uFa5E 🔼
 - [ ] #task [[Backup Drive]] 🆔 OpBFPk 🔼 📅 2025-06-18
 	- [[Duplicati]]

@@ -1,14 +1,6 @@
 {
   "scanned": true,
-  "reminders": {
-    "Atlas/Life/Items/Local Epson Printer - L3060.md": [
-      {
-        "title": "remind me this printer has an email address",
-        "time": "2025-05-24",
-        "rowNumber": 7
-      }
-    ]
-  },
+  "reminders": {},
   "debug": false,
   "settings": {
     "reminderTime": "09:00",

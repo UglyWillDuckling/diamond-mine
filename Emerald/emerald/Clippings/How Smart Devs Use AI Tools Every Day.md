@@ -11,7 +11,7 @@ tags:
 ![](https://www.youtube.com/watch?v=BNuFZjM61To)  
 
 
-- [ ] #task watch [[How Smart Devs Use AI Tools Every Day]]
+- [ ] #task watch [[How Smart Devs Use AI Tools Every Day]] ⏳ 2025-05-29 📅 2025-06-28
 ___
 
 Want to boost your productivity as a developer using AI tools like GitHub Copilot and ChatGPT? In this video, Trisha Gee walks you through how to integrate AI coding assistants into your daily dev workflow — the smart way.  

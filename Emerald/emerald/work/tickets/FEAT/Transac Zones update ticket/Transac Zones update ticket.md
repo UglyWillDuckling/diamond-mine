@@ -10,13 +10,26 @@ related::
 - [[call s Danijelom - handover]]
 - [[Transac zone update by Danijela]]
 
-- [/] #task fix [[SalesForceApi]] to send data to `media` 🆔 O0ejus #work
-
-- [/] #task handle `biz_product_coverage` table usage [[#Handle usage of biz_product_coverage table]] 🆔 mjQoyM #work
+- [/] #task fix [[SalesForceApi]] to send data to `media` #work 🆔 O0ejus ⏫ 📅 2025-05-30
+- [/] #task handle `biz_product_coverage` table usage [[#Handle usage of biz_product_coverage table]] #work 🆔 mjQoyM ⏫ ⏳ 2025-05-28 📅 2025-06-06
+	- [x] **update** ticket 🎫
 	- [ ] **sync** feature
-	- [ ] **update** ticket 🎫
 
 ___
+## status
+
+- [x] update [[SalesForceApi]] to preserve the `iris_id` data
+	- [x] code changes
+	- [x] make **PR**
+- [x] test changes on dev
+	- [x] single
+	- [/] all, [[Alan Jaouen]]
+- [ ] add information about the tables sync to the **ticket** 🎫
+	- [ ] ? maybe create a separate ticket for this
+- [ ] start working on the `sync` feature
+- [ ] update [[SalesForceApi]] to only update items with relevant data
+	- ! don't send invalid requests to [[Media API]]
+
 ## Handle usage of biz_product_coverage table
 > [[coverage table creation def]]
 
@@ -46,17 +59,8 @@ We need to deploy the `SalesForce` changes and after **trigger** the update in [
 - [x] merge [[Media API Clients repo]] PR https://github.com/MeilleursAgents/MA-ApiClients/pull/361
 - [x] merge [[SalesForceApi]] PR 
 
-# status
+## update salesforce API
 
-- [x] update [[SalesForceApi]] to preserve the `iris_id` data
-	- [x] code changes
-	- [x] make **PR**
-- [x] test changes on dev
-	- [x] single
-	- [/] all, [[Alan Jaouen]]
-- [ ] add information about the tables sync to the **ticket**
-	- [ ] ? maybe create a separate ticket for this
-- [ ] start working on the `sync` feature
 
 
 

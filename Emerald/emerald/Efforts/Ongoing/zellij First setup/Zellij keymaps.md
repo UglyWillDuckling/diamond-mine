@@ -6,10 +6,10 @@
 - [x] add a quick way to move tabs around
 - [x] **global** `close` pane
 - [x] remap **popup** window to `ctrl alt f`
-- [ ] remap move,focus and resize - switch them up
+- [x] remap move,focus and resize - switch them up
 - [ ] see [[it could be useful to map more things to <space>]]
 	- [ ] maybe session switching
-	- [ ] ..
+- [ ] use `alt {+,-}` to resize panes
 
 # maps to remember
 

@@ -1,4 +1,4 @@
-- [ ] remind me (@[[2025-05-28]])
+- [x] remind me (@[[2025-05-28]])
 ___
 
 **example**: `gf` go to footnote from [[obsidian vimrc ticket]]

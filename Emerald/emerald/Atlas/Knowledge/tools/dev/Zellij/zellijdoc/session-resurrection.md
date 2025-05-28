@@ -1,16 +1,14 @@
-- Light
-- Rust
-- Coal
-- Navy
-- Ayu
+---
+part of:
+  - "[[Zellij]]"
+tags:
+  - docs/zellij
+---
 
-# Zellij User Guide
+# Session Resurrection
 
-[Print this book](print.html "Print this book")
+![zellij-session-manager-resurrection|600](https://zellij.dev/documentation/img/zellij-session-manager-resurrection.png)
 
-# [Session Resurrection](session-resurrection.html\#session-resurrection)
-
-![zellij-session-manager-resurrection](img/zellij-session-manager-resurrection.png)
 Zellij includes built-in session resurrection capabilities. This means that by default, each Zellij session is serialized and kept in the user's cache folder waiting to be recreated after an intentional quit or an unintentional crash.
 
 These exited resurrectable sessions can be listed through the CLI or the built-in `session-manager`. They can be resurrected through the CLI by attaching to them or through the `session-manager` by selecting them in the `EXITED` section.

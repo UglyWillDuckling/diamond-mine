@@ -8,9 +8,10 @@
 	- [x] grappling hook
 - [x] look for a way to open quick switcher via Vim
 	- [x] [[Vimrc for Obsidian]]
-- [/] add **personal** vim mappings
 - [x] see if obsidian can remember the last place in a note
-
+- [/] add **personal** vim mappings
+- [ ] use the new mappings
+___
 ## mapping to remember
 
 1. `gl` grepping inside the vault. Works great [^1]
@@ -33,7 +34,9 @@
 
 - [x] move between splits splits
 - [x] add split
-- [ ] maybe remap template to use [[Templater]]
+- [x] maybe remap template to use [[Templater]]
+
+(23232)
 
 - web: `gw` ✅
 - split `,v` `,V`
@@ -45,7 +48,7 @@
 - `installed` [[remember-cursor-position Obsidian plugin]]
 - ..
 
-## config
+## config {}
 
 <mark style="background: #FF5582A6;">outdated</mark>
 

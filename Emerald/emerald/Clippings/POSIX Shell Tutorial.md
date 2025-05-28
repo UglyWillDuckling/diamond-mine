@@ -1,33 +1,133 @@
 ---
 author:
   - "[[Bruce Barnett]]"
-created: 2025-05-19
+created: 2025-05-28
 published: 
-source: https://www.grymoire.com/Unix/Bourne.html
-related:
-  - "[[BASH - special options]]"
+source: https://www.grymoire.com/Unix/Sh.html
 tags:
   - tutorial/bash
+related:
+  - "[[Bourne Shell Tutorial]]"
 ---
-**Last modified: Tue Jul 25 12:01:12 2023**
+Last modified: Tue Jul 25 11:53:03 2023
 
-Check out my other tutorials on the [Unix Page](https://www.grymoire.com/Unix "Unix Tutorials"), and my [blog](https://grymoire.wordpress.com/ "Grymoire's blog")
+This is my tutorial on the POSIX shell. The POSIX shell is probably the shell you are using on a UNIX compatible system. It's an improvement of the original Bourne shell. If you are interested in my original tutorial, it's now located on [this page](https://www.grymoire.com/Unix/Bourne.html). The biggest difference is that the POSIX shell allows the use of $(.....) for command substitution. I've updated all of the examples to use this form of command substitution. See [for more info on quoting characters.](https://www.grymoire.com/Unix/Quote.html)
 
-This is my tutorial on the old Bourne shell. I created an updated version for the [POSIX Shell](https://www.grymoire.com/Unix/Sh.html), which is the more common version.  The biggest difference is that the POSIX shell allows the use of $(.....) for command substitution.
+Click on a topic in this table to jump there. Click on the topic title to come back to the Table Of Contents.
 
-Thanks to suggestions/correctons from:  
-- [[Ryan Penn]]  
-- [[Helmut Neujahr]]  
-- [[DJ Phasik]]  
-- [[Dustin King]]  
-- [[prateek goyal]]
+- [POSIX Shell, and filename expansion](https://www.grymoire.com/Unix/Sh.html#uh-0)
+- [Shell Concepts](https://www.grymoire.com/Unix/Sh.html#uh-1)
+- [Verifying which shell you are running](https://www.grymoire.com/Unix/Sh.html#uh-2)
+- [Shell basics](https://www.grymoire.com/Unix/Sh.html#uh-3)
+- [Meta-characters and Filename expansion](https://www.grymoire.com/Unix/Sh.html#uh-4)
+- [Finding the executable](https://www.grymoire.com/Unix/Sh.html#uh-5)
+- [Quoting with the Shell](https://www.grymoire.com/Unix/Sh.html#uh-6)
+- [Nested quotations](https://www.grymoire.com/Unix/Sh.html#uh-7)
+- [Strong versus weak quoting](https://www.grymoire.com/Unix/Sh.html#uh-8)
+- [Command Substitution](https://www.grymoire.com/Unix/Sh.html#uh-8a)
+- [Quoting over several lines](https://www.grymoire.com/Unix/Sh.html#uh-9)
+- [Mixing quotation marks](https://www.grymoire.com/Unix/Sh.html#uh-10)
+- [Quotes within quotes - take two](https://www.grymoire.com/Unix/Sh.html#uh-11)
+- [Placing variables within strings](https://www.grymoire.com/Unix/Sh.html#uh-12)
+- [Variables](https://www.grymoire.com/Unix/Sh.html#uh-13)
+- [A subtle point](https://www.grymoire.com/Unix/Sh.html#uh-14)
+- [The set command](https://www.grymoire.com/Unix/Sh.html#uh-15)
+- [Environment Variables](https://www.grymoire.com/Unix/Sh.html#uh-16)
+- [Special Environment Variables](https://www.grymoire.com/Unix/Sh.html#uh-17)
+- [PATH - Sets searchpath](https://www.grymoire.com/Unix/Sh.html#uh-18)
+- [HOME - Your home directory](https://www.grymoire.com/Unix/Sh.html#uh-19)
+- [CDPATH - cd searchpath](https://www.grymoire.com/Unix/Sh.html#uh-20)
+- [IFS - Internal Field Seperator](https://www.grymoire.com/Unix/Sh.html#uh-21)
+- [PS1 - Normal Prompt](https://www.grymoire.com/Unix/Sh.html#uh-22)
+- [PS2 - Secondary Prompt](https://www.grymoire.com/Unix/Sh.html#uh-23)
+- [MAIL - Incoming mail](https://www.grymoire.com/Unix/Sh.html#uh-24)
+- [Shell Variables - Alternate Formats](https://www.grymoire.com/Unix/Sh.html#uh-28)
+- [Using quoting and shell variables](https://www.grymoire.com/Unix/Sh.html#uh-29)
+- [Using curly braces with variables](https://www.grymoire.com/Unix/Sh.html#uh-30)
+- [${variable?value} - Complain if undefined](https://www.grymoire.com/Unix/Sh.html#uh-31)
+- [${variable-default} - Use default if undefined](https://www.grymoire.com/Unix/Sh.html#uh-32)
+- [${variable+value} - Change if defined](https://www.grymoire.com/Unix/Sh.html#uh-33)
+- [${variable=value} - Redefine if undefined](https://www.grymoire.com/Unix/Sh.html#uh-34)
+- [Undefining Variables](https://www.grymoire.com/Unix/Sh.html#uh-35)
+- [${x:-y}, ${x:=y}, ${x:?y}, ${x:+y} forms](https://www.grymoire.com/Unix/Sh.html#uh-36)
+- [Order of evaluation](https://www.grymoire.com/Unix/Sh.html#uh-37)
+- [Special Variables in the Shell](https://www.grymoire.com/Unix/Sh.html#uh-38)
+- [Positional Parameters $1, $2,..., $9](https://www.grymoire.com/Unix/Sh.html#uh-39)
+- [$0 - Scriptname](https://www.grymoire.com/Unix/Sh.html#uh-40)
+- [$\* - All positional parameters](https://www.grymoire.com/Unix/Sh.html#uh-41)
+- [$@ - All positional parameters with spaces](https://www.grymoire.com/Unix/Sh.html#uh-42)
+- [$# - Number of parameters](https://www.grymoire.com/Unix/Sh.html#uh-43)
+- [$$ - Current process ID](https://www.grymoire.com/Unix/Sh.html#uh-44)
+- [$! - ID of Background job](https://www.grymoire.com/Unix/Sh.html#uh-45)
+- [$? - error status](https://www.grymoire.com/Unix/Sh.html#uh-46)
+- [$- Set variables](https://www.grymoire.com/Unix/Sh.html#uh-47)
+- [Options and debugging](https://www.grymoire.com/Unix/Sh.html#uh-48)
+- [Special options](https://www.grymoire.com/Unix/Sh.html#uh-49)
+- [X - Shell echo flag](https://www.grymoire.com/Unix/Sh.html#uh-50)
+- [V - Shell verbose flag](https://www.grymoire.com/Unix/Sh.html#uh-51)
+- [Combining flags](https://www.grymoire.com/Unix/Sh.html#uh-52)
+- [U - unset variables](https://www.grymoire.com/Unix/Sh.html#uh-53)
+- [N - Shell non-execute flag](https://www.grymoire.com/Unix/Sh.html#uh-54)
+- [E - Shell exit flag](https://www.grymoire.com/Unix/Sh.html#uh-55)
+- [T - Shell test one command flag](https://www.grymoire.com/Unix/Sh.html#uh-56)
+- [A - Shell mark for export flag](https://www.grymoire.com/Unix/Sh.html#uh-57)
+- [K - Shell keyword flag](https://www.grymoire.com/Unix/Sh.html#uh-58)
+- [H - Shell hash functions flag](https://www.grymoire.com/Unix/Sh.html#uh-59)
+- [The $- variable](https://www.grymoire.com/Unix/Sh.html#uh-60)
+- [\- - Shell hyphen option](https://www.grymoire.com/Unix/Sh.html#uh-61)
+- [Other options](https://www.grymoire.com/Unix/Sh.html#uh-62)
+- [C - Shell command option](https://www.grymoire.com/Unix/Sh.html#uh-63)
+- [S - Shell shell-session option](https://www.grymoire.com/Unix/Sh.html#uh-64)
+- [I - Shell shell-interactive option](https://www.grymoire.com/Unix/Sh.html#uh-65)
+- [R - Shell restricted shell option](https://www.grymoire.com/Unix/Sh.html#uh-66)
+- [P - Shell privileged shell option](https://www.grymoire.com/Unix/Sh.html#uh-67)
+- [unset](https://www.grymoire.com/Unix/Sh.html#uh-68)
+- [Shell: Status, Pipes and branches](https://www.grymoire.com/Unix/Sh.html#uh-69)
+- [Unnecessary process execution](https://www.grymoire.com/Unix/Sh.html#uh-70)
+- [$@ versus ${1+$@}](https://www.grymoire.com/Unix/Sh.html#uh-71)
+- [Status and Wasted Processes](https://www.grymoire.com/Unix/Sh.html#uh-72)
+- [Simple Flow Control](https://www.grymoire.com/Unix/Sh.html#uh-73)
+- [Changing Precedence](https://www.grymoire.com/Unix/Sh.html#uh-74)
+- [Putting it all together](https://www.grymoire.com/Unix/Sh.html#uh-75)
+- [Shell Flow Control Commands: If, While and Until](https://www.grymoire.com/Unix/Sh.html#uh-76)
+- [Commands that must be first on the line](https://www.grymoire.com/Unix/Sh.html#uh-77)
+- [While - loop while true](https://www.grymoire.com/Unix/Sh.html#uh-78)
+- [Until - loop until true](https://www.grymoire.com/Unix/Sh.html#uh-79)
+- [Shell Flow Control Commands](https://www.grymoire.com/Unix/Sh.html#uh-80)
+- [For - Repeating while changing a variable](https://www.grymoire.com/Unix/Sh.html#uh-81)
+- [Case - Checking multiple cases](https://www.grymoire.com/Unix/Sh.html#uh-82)
+- [Break and continue](https://www.grymoire.com/Unix/Sh.html#uh-83)
+- [Expr - Shell Expression Evaluator](https://www.grymoire.com/Unix/Sh.html#uh-84)
+- [Arithmetic Operators](https://www.grymoire.com/Unix/Sh.html#uh-85)
+- [Relational Operators](https://www.grymoire.com/Unix/Sh.html#uh-86)
+- [Boolean Operators](https://www.grymoire.com/Unix/Sh.html#uh-87)
+- [The string operator](https://www.grymoire.com/Unix/Sh.html#uh-88)
+- [Precedence of the Operators](https://www.grymoire.com/Unix/Sh.html#uh-89)
+- [Berkeley Extensions](https://www.grymoire.com/Unix/Sh.html#uh-90)
+- [Shell -- Functions and argument checking](https://www.grymoire.com/Unix/Sh.html#uh-91)
+- [Passing values by name](https://www.grymoire.com/Unix/Sh.html#uh-92)
+- [Exiting from a function](https://www.grymoire.com/Unix/Sh.html#uh-93)
+- [Checking the number of arguments](https://www.grymoire.com/Unix/Sh.html#uh-94)
+- [UNIX conventions for command line arguments](https://www.grymoire.com/Unix/Sh.html#uh-95)
+- [Checking for optional arguments](https://www.grymoire.com/Unix/Sh.html#uh-96)
+- [Job Control](https://www.grymoire.com/Unix/Sh.html#uh-97)
 
-> How to build your own complex commands from the simple commands in the UNIX toolbox. This tutorial discusses of Bourne shell programming, describing features of the original Bourne Shell. The newer POSIX shells have more features. I first wrote this tutorial before the POSIX shells were standardized. So the information describe here should work in POSIX shells as it is a subset of the POSIX specifications.  
+Copyright 1994, 1995 Bruce Barnett and General Electric Company
+
+Copyright 2001, 2005, 2013 Bruce Barnett
+
+All rights reserved
+
+You are allowed to print copies of this tutorial for your personal use, and link to this page, but you are not allowed to make electronic copies, or redistribute this tutorial in any form without permission.
+
+Original version written in 1994 and published in the Sun Observer
+
+> How to build your own complex commands from the simple commands in the UNIX toolbox. This tutorial discusses of POSIX shell programming. The information describe here should work in all(?) POSIX shells. However, your operating system may cause different results.  
 > You're not getting the most out of UNIX if you can't write shell programs!
 
-This sections covers the Bourne shell. The manual pages are only 10 pages long, so it shouldn't be difficult to learn, right? Well, apparently I'm wrong, because most of the people I know learned one shell to customize their environment, and stayed with the C shell ever since. I understand the situation. It's hard enough to learn **one** shell language, and after struggling with one shell for a while, they are hesitant to learn another shell. After a few scripts, the new user decides the C shell is "good enough for now" and it ends right there. They never take the next step, and learn the Bourne shell. Well, perhaps this chapter will help.
+This sections covers the POSIX shell, an improvement over the original shell. The actual shell executable might have a name like ash, dash, bash, etc. Some of these shells have additional features.
 
-The Bourne shell is considered the primary shell in scripts. All UNIX systems have it, first of all. Second, the shell is small and fast. It doesn't have the interactive features of the C shell, but so what? Interactive features aren't much use in scripts. There are also some features the Bourne shell has that the C shell doesn't have. All in all, many consider the Bourne shell to be the best shell for writing portable UNIX scripts.
+The POSIX shell is considered the primary shell in scripts. All UNIX systems have it, first of all.
 
 What is a shell, anyway? It's simple, really. The UNIX operating system is a complex collection of files and programs. UNIX does not require any single method or interface. Many different techniques can be used. The oldest interface, which sits between the user and the software, is the shell. Twenty five years ago many users didn't even have a video terminal. Some only had a noisy, large, slow hard-copy terminal. The shell was the interface to the operating system. Shell, layer, interface, these words all describe the same concept. By convention, a shell is a user program that is ASCII based, that allows the user to specify operations in a certain sequence.
 
@@ -49,22 +149,14 @@ A shell is a full featured programming language, with variables, conditional sta
 
 A shell allows you to easily create a new program that is not a "second-class citizen," but instead is a program with all of the privileges of any other UNIX program.
 
-The last two points are important. DOS does not have a shell that has as many features as the Bourne shell. Also, it is impossible to write a DOS script that emulates or replaces existing commands.
-
-Let me give an example. Certain DOS programs understand the meta-character "\*." That is, the "RENAME" command can be told
-
-RENAME \*.OLD \*.NEW  
-
-Files "A.OLD" and "B.OLD" will be renamed "A.NEW" and "B.NEW." The DOS commands "COPY" and "MOVE" also understand the character "\*." The "TYPE" and "MORE" commands, however, do not. If you wanted to create a new command, it too, would not understand that an asterisk is used to match filenames. You see, each DOS program is given the burden of understanding filename expansion. Consequently, many programs do not.
-
-UNIX is a different story. The shell is given the burden of expanding filenames. The program that sees the filenames is unaware of the original pattern. This means all programs act consistently, as filename expansion can be used with any command. It also means a shell script can easily replace a C program, as far as the user is concerned. If you don't like the name of a UNIX utility, it is easy to create a new utility to replace the current program. If you wanted to create a program called "DIR" you could simply create a file containing
+A shell script can easily replace a C program, as far as the user is concerned. If you don't like the name of a UNIX utility, it is easy to create a new utility to replace the current program. If you wanted to create a program called "DIR" you could simply create a file containing
 
 #!/bin/sh  
 ls $\*  
 
 The shell does the hard part.
 
-The other difference between the DOS batch file and the UNIX shell is the richness of the shell language. It is possible to do software development using the shell as the top level of the program. Not only is it possible, but it is encouraged. The UNIX philosophy of program development is to start with a shell script. Get the functionality you want. If the end results has all of the functionality, and is fast enough, then you are done. If it isn't fast enough, consider replacing part (or all) of the script with a program written in a different language (e.g. C, Perl). Just because a UNIX program is a shell script does not mean it isn't a "real" program.
+It is possible to do software development using the shell as the top level of the program. Not only is it possible, but it is encouraged. The UNIX philosophy of program development is to start with a shell script. Get the functionality you want. If the end results has all of the functionality, and is fast enough, then you are done. If it isn't fast enough, consider replacing part (or all) of the script with a program written in a different language (e.g. C, Perl, Python). Just because a UNIX program is a shell script does not mean it isn't a "real" program.
 
 Because there are many shells available, it is important to learn to distinguish between the different shells. Typing commands for one shell when you are using another is bound to cause confusion. I know from personal experience. This was aggravated by the fact that many books I used to learn UNIX never mentioned that other shells existed. Therefore, the first step is to make sure you are using the proper shell.
 
@@ -73,7 +165,7 @@ You can execute the following command to determine your default shell (The comma
 % **echo $SHELL**  
 /bin/csh  
 
-While this identifies your default shell, it does not accurately identify the shell you are currently using. I will give you a better way to find out later. Because this column discusses the Bourne shell, any commands discussed here will only work right if you are using the Bourne shell. You have two choices: place these commands in a Bourne shell script. That is, create a file, make the first line read
+While this identifies your default shell, it does not accurately identify the shell you are currently using. I will give you a better way to find out later. Because this tutorial discusses the POSIX shell, any commands discussed here will only work right if you are using the POSIX shell. You have two choices: place these commands in a POSIX shell script. That is, create a file, make the first line read
 
 #!/bin/sh  
 
@@ -94,13 +186,13 @@ You may see a change in the characters the shell gives you as a prompt, like the
 % **/bin/sh**  
 $  
 
-The Bourne shell will execute each line you type, until an end of file is found. To put it another way, when you type Control-D, the Bourne shell will terminate, and return you to the shell you were previously using. This is the same action the shell takes when a script file is executed, and the end of the script file is reached.
+The POSIX shell will execute each line you type, until an end of file is found. To put it another way, when you type Control-D, the POSIX shell will terminate, and return you to the shell you were previously using. This is the same action the shell takes when a script file is executed, and the end of the script file is reached.
 
 The basic actions of the shell are simple. It reads a line. This is either from a file, a script, or from a user. First, meta-characters are "handled." Second, the name of the executable is found. Third, the arguments are passed to the program. Fourth, the file redirection is setup. Lastly, the program is executed.
 
 As the shell reads each line, it "handles" any special characters. This includes variable evaluation (variables start with a "$)," and filename expansion. Expansion of filenames occurs when the characters "\*," "?," or "\[" occur in a word. A question mark matches a single character. An asterisk matches any number of characters, including none. Square brackets are used to specify a range or particular combination of characters. Inside square brackets, a hyphen is used to specify a range or characters. Also, if the first character inside the square brackets is an exclamation point, the complement of the range is used. Let me give some examples:
 
-<table><tbody><tr><th colspan="2">Table 1</th></tr><tr><th colspan="2">Examples of Bourne shell filename expansions</th></tr><tr><th>Pattern</th><th>Matches</th></tr><tr><td>*</td><td>Every file in the current directory</td></tr><tr><td>?</td><td>Files consisting of one character</td></tr><tr><td>??</td><td>Files consisting of two characters</td></tr><tr><td>??*</td><td>Files consisting of two or more characters</td></tr><tr><td>[abcdefg]</td><td>Files consisting of a single letter from a to g.</td></tr><tr><td>[gfedcba]</td><td>Same as above</td></tr><tr><td>[a-g]</td><td>Same as above</td></tr><tr><td>[a-cd-g]</td><td>Same as above</td></tr><tr><td>[a-zA-Z0-9]</td><td>Files that consist of a single letter or number</td></tr><tr><td>[!a-zA-Z0-9]</td><td>Files that consist of a single character not a letter or number</td></tr><tr><td>[a-zA-Z]*</td><td>Files that start with a letter</td></tr><tr><td>?[a-zA-Z]*</td><td>Files whose second character matches a letter.</td></tr><tr><td>*[0-9]</td><td>Files that end with a number</td></tr><tr><td>?[0-9]</td><td>Two character filename that end with a number</td></tr><tr><td>*.[0-9]</td><td>Files that end with a dot and a number</td></tr></tbody></table>
+<table><tbody><tr><th colspan="2">Table 1</th></tr><tr><th colspan="2">Examples of POSIX shell filename expansions</th></tr><tr><th>Pattern</th><th>Matches</th></tr><tr><td>*</td><td>Every file in the current directory</td></tr><tr><td>?</td><td>Files consisting of one character</td></tr><tr><td>??</td><td>Files consisting of two characters</td></tr><tr><td>??*</td><td>Files consisting of two or more characters</td></tr><tr><td>[abcdefg]</td><td>Files consisting of a single letter from a to g.</td></tr><tr><td>[gfedcba]</td><td>Same as above</td></tr><tr><td>[a-g]</td><td>Same as above</td></tr><tr><td>[a-cd-g]</td><td>Same as above</td></tr><tr><td>[a-zA-Z0-9]</td><td>Files that consist of a single letter or number</td></tr><tr><td>[!a-zA-Z0-9]</td><td>Files that consist of a single character not a letter or number</td></tr><tr><td>[a-zA-Z]*</td><td>Files that start with a letter</td></tr><tr><td>?[a-zA-Z]*</td><td>Files whose second character matches a letter.</td></tr><tr><td>*[0-9]</td><td>Files that end with a number</td></tr><tr><td>?[0-9]</td><td>Two character filename that end with a number</td></tr><tr><td>*.[0-9]</td><td>Files that end with a dot and a number</td></tr></tbody></table>
 
 As you can see, the dot is not a special character. Filenames may or may not have a dot. UNIX Programers use the dot to standardize on the type of source code of each file, but that is just a convention. There is another convention, which concerns the shell:
 
@@ -122,11 +214,9 @@ The slash is also special, as it is used to indicate a directory path. Filename 
 
 Filename expansions are based on the current directory, unless the filename starts with a slash.
 
-The Bourne shell differs from the C shell if the meta-characters do not match any file. If this happens, the pattern is passed to the program unchanged. (The C shell will either do this, or generate an error, depending on a variable).
-
 If you are not sure how something will expand, use the *echo* command to check. It generates output more compact than *ls*, and it will not list contents of directories like *ls* will. You will also notice the output is sorted alphabetically. The shell not only expans filenames, but sorts them, for all applications.
 
-Once the shell expands the command line, it breaks up the line into words, and takes the first word as the command to be executed. (The special Bourne variable "IFS" contains the characters used to "break up" the line. Normally, this variable contains a space and a tab.) Afterwards, the first word is used as the name of the program. If the command is specified without an explicit directory path, the shell then searches the different directories specified by the "PATH" variable, until it finds the program specified.
+Once the shell expands the command line, it breaks up the line into words, and takes the first word as the command to be executed. (The special shell variable "IFS" contains the characters used to "break up" the line. Normally, this variable contains a space and a tab.) Afterwards, the first word is used as the name of the program. If the command is specified without an explicit directory path, the shell then searches the different directories specified by the "PATH" variable, until it finds the program specified.
 
 If you have been following the points I made, it should not surprise you that a valid UNIX command might be
 
@@ -137,8 +227,8 @@ The contents of the directory determines the results, but if you created a file 
 #!/bin/sh  
 echo Hey! You forgot to specify the command!  
   
+and if it is the first file (alphabetically) in your directory, then executing "\*" would give you an error message. (Provided the current directory was in your search path).  
 Click here to get file: [0.sh](https://www.grymoire.com/Unix/Scripts/0.sh)  
-and if it is the first file (alphabetically) in your directory, then executing "\*" would give you an error message. (Provided the current directory was in your search path).
 
 So you see, filename expansion can be anywhere on a command line. You can execute programs with long names without typing the entire name. However, filename expansion only works if the file is in the directory you specify. If you wanted to execute the program "my\_very\_own\_program" without typing the complete filename, you could type
 
@@ -154,12 +244,16 @@ rm \*
 
 while in this directory, the first argument will probably be "-i." This filename is passed to the *rm* program, which assumes the hyphen indicates an argument. Therefore *rm* runs with the interactive option, protecting programs from accidental deletion.
 
+Therefore some people create this file in certain directories to protect them from stupidly deleting files by accident. This can be done with the command:
+
+touch./-i
+
 One last point. Many DOS users complain that they can't execute
 
 RENAME \*.OLD \*.NEW  
 
 I admit that this is a little awkward to do in UNIX. I'd like to say two things in defense. First, the above usage of filename expansion is an "unnatural act," as far as the UNIX philosophy is concerned. There are many advantages to the shell handling the filename expansion, and perhaps one disadvantage in one case. I believe the advantages of the UNIX philosophy far outweight the disadvanges.  
-Second, I don't believe it is a disadvantage anyway. Renaming files like that is wrong. The only reason to do so is because DOS does it that way, and you have to to this because you are limited to 11 characters. If you must rename them, append a string to the end instead of changing the original filename. This is UNIX. You can have filenames 256 characters long, so this approach isn't a problem. So if you must rename them, use
+Second, I don't believe it is a disadvantage anyway. Renaming files like that is wrong. The only reason to do so is because DOS does it that way, and you have to to this because you are limited to 11 characters. If you must rename them, append a string to the end instead of changing the original filename. This is more in the UNIX philosophy. You can have filenames 256 characters long, so adding a second extension isn't normally a problem. So if you must rename them, use
 
 ```
 for i in *.OLD
@@ -168,7 +262,7 @@ do
 done
 ```
 
-This alows you to undo what you did, and retains the original filename. Even better, move the files into another directory, letting them keep their original name. I would suggest you type
+This allows you to undo what you did, and retains the original filename. Even better, move the files into another directory, letting them keep their original name. I would suggest you type
 
 mkdir Old  
 mv \*.OLD Old  
@@ -206,7 +300,7 @@ In other words, when reading a shell script, you must remember the current "quot
 There are two other forms or quoting. The second uses a backslash "\\" which only acts to "escape" the next character. The double quotation mark is similar to the single quotes used above, but weaker. I'll explain strong and weak quotation later on. Here is the earlier example, this time using the other forms of quoting:
 
 rm "file1 file2"  
-rm file1 file2  
+rm file1\\ file2  
 rm file1" "file2  
 
 A very confusing problem is placing quotation marks within quotation marks. It can be done, but it is not always consistent or logical. Quoting a double quote is perhaps the simplist, and does what you expect. These commands each output a double quote:
@@ -254,14 +348,10 @@ Dollar signs indicate a variable. One important variable is "HOME" which specifi
 
 $ **echo '$HOME'**  
 $HOME  
-$ **echo '$HOME'**  
-$HOME  
 $ **echo "$HOME"**  
 /home/barnett  
-$ **echo "$HOME"**  
-$HOME  
 
-The back quote does command substitution. The string between backquotes is executed, and the results replaces the backquoted string:
+In the Unix shell, the back quote is not used to prevent interpretation of special characters. It has a special use - command substitution. The string between backquotes is executed by the shell, and the results **replaces** the backquoted string:
 
 $ **echo 'The current directory is \`pwd\`'**  
 The current directory is \`pwd\`  
@@ -272,25 +362,42 @@ The current directory is /home/barnett
 $ **echo "The current directory is \\\`pwd\\\`"**  
 The current directory is \`pwd\`  
 
-There is a large difference between the C shell and the Bourne shell when a quote is larger than a line. The C shell is best suited for interactive sessions. Because of this, it assumes a quote ends with the end of a line, if a second quoute character is not found. The Bourne shell makes no assumptions, and only stops quoting when you specify a second quotation mark. If you are using this shell interactively, and type a quotation mark, the normal prompt changes, indicating you are inside a quote. This confused me the first time it happened. The following Bourne shell example illustrates this:
+This is a feature from the early shells, like the C and Bourne shell. However, this has a major problem - command substution cannot be nested. A new mechanism was created for command substition, which replaces the back quotes:
 
-$ **echo 'Don't do this'**  
-\> **ls**  
-\> **pwd**  
-\> **'**  
-Dont do this  
-ls  
-pwd  
-$  
+$(command)
 
-This is a minor inconvenience if you use the shell interactively, but a large benefit when writing shell scripts that contain multiple lines of quoted text. I used the C shell for my first scripts, but I soon realized how awkward the C shell was when I included a multi-line *awk* script insice the C shell script. The Bourne shell's handling of *awk* scripts was much easier:  
+While I've originally used back quotes in my tutorials, I've updated them to use the new, superior style. Using the new form, the above examples would be:
+
+$ **echo 'The current directory is $(pwd)'**  
+The current directory is $(pwd)  
+$ **echo "The current directory is $(pwd)"**  
+The current directory is /home/barnett  
+$ **echo "The current directory is \\$(pwd)"**  
+The current directory is $(pwd)  
+
+Let me give some examples of command substitution. Let's say you wanted to add one to the current year. You could do it in two steps:
+
+YEAR="$(date +%Y)"  
+YEAR="$(expr $YEAR + 1)"  
+echo "next year is $YEAR"  
+
+  
+But because we can nest expressions, it's easier to do it in one line:
+
+echo "next year is $(expr $(date +%Y) + 1)"  
+
+  
+This was not possible using back quotes.
+
+The POSIX shells allow you to create a string that extends across several lines. This can be confusing in an interactive shell when you start a string, and forget to end the string.  
+But this is very convenient when writing multi-line sed and awk scripts.  
   
 
 ```
 #!/bin/sh
 # Print a warning if any disk is more
 # than 95% full.
-/usr/ucb/df | tr -d '%' | awk '
+df | tr -d '%' | awk '
 # only look at lines where the first field contains a "/"
 $1 ~ /\// {    if ($5 > 95) {
         printf("Warning, disk %s is %4.2f%% full\n",$6,$5);
@@ -306,7 +413,7 @@ Having two types of quotation marks simplifies many problems, as long as you rem
 echo "Don't forget!"  
 echo 'Warning! Missing keyword: "end"'  
 
-Earlier I showed how to include a quote within quotes of the same kind. As you recall, you cannot place a single quote within a string terminated by single quotes. The easiest solution is to use the other type of quotation marks. But there are times when this is not possible. There is a way to do this, but it is not obvious to many people, especially those with a lot of experience in computer languages. Most languages, you see, use special characters at the beginning and end of the string, and has an escape to insert special characters in the middle of the string. The quotation marks in the Bourne shell are **not** used to define a string. There are used to **disable** or **enable** interpretation of meta-characters. You should understand the following are equivalent:
+Earlier I showed how to include a quote within quotes of the same kind. As you recall, you cannot place a single quote within a string terminated by single quotes. The easiest solution is to use the other type of quotation marks. But there are times when this is not possible. There is a way to do this, but it is not obvious to many people, especially those with a lot of experience in computer languages. Most languages, you see, use special characters at the beginning and end of the string, and has an escape to insert special characters in the middle of the string. The quotation marks in the shell are **not** used to define a string. There are used to **disable** or **enable** interpretation of meta-characters. You should understand the following are equivalent:
 
 echo abcd  
 echo 'abcd'  
@@ -333,13 +440,17 @@ You will find that this form is also useful:
 
 echo 'My home directory is '$HOME', and my account is '$USER  
 
+Note that the $HOME and $USER variables are not surrounded with double quotes. While it might not be a problem in this case, it is recommended that you surround variables with double quotes, in case they contain metacharacters.
+
+echo 'My home directory is '"$HOME"', and my account is '"$USER"  
+
 When you write your first multi-line *awk* or *sed* script, and discover you want to pass the value of a variable to the middle of the script, the second form solves this problem easily.
 
-The Bourne shell has a very simple syntax for variables:
+The shell has a very simple syntax for variables:
 
 variable=value  
 
-The characters used for variable names is limited to letters, numbers and the underscore character. It cannot start with a number. Unlike the C shell, spaces are important when defining Bourne shell variables. Whitespace (spaces, tabs or newlines) terminate the value. If you want whitespace in a variable, it must be quoted:
+The characters used for variable names is limited to letters, numbers and the underscore character. It cannot start with a number. Spaces are important when defining shell variables. Whitespace (spaces, tabs or newlines) terminate the value. If you want whitespace in a variable, it must be quoted:
 
 question='What is the filename? '  
 
@@ -351,13 +462,21 @@ Do not put a space after the equals sign. This terminates the value. The command
 
 a=date  
 
-sets the variable "a" to be equal to "date," but the command
+sets the variable "a" to be equal to "date." If you want to set a variable to an empty string, you can simple use
+
+a=  
+
+Another way to do this is to explicitly set it to an empty string:
+
+a=''  
+
+This is recommended, as it makes it clear that you are setting it to an empty string. A common error (expecially from people who use the C shell) is to add a space after the equals sign:
 
 a= date  
 
-sets "a" to be the empty string, and **executes** the date command. The "date" command? Yes. Which introduces...
+This does **NOT** set the variable to "date". It sets "a" to be the empty string, and **executes** the date command. The "date" command? Yes. Which introduces...
 
-Notice how two commands are executed on one line: the variable is changed, and the "date" program is executed. It is not obvious that this is valid. The manual page doesn't mention this. Even stranger is some commands can be executed, while others cannot. The "date" command is an external program. That is, the command is not built into the shell, but is an external executable. Other commands are internal command, built into the shell. "Echo" and "export" are shell built-in commands, and can follow the variable assignment. You might see an environment variable defined like this:
+Notice how two commands are executed on one line: the variable is changed, and the "date" program is executed. It is not obvious that this is valid. The manual page may not mention this. Even stranger is some commands can be executed, while others cannot. The "date" command is an external program. That is, the command is not built into the shell, but is an external executable. Other commands are internal command, built into the shell. "Echo" and "export" are shell built-in commands, and can follow the variable assignment. You might see an environment variable defined like this:
 
 VAR=/usr/lib; export VAR  
 
@@ -369,7 +488,7 @@ Some of the built--in commands cannot be on the same line, like "for" or "if." T
 
 Ready?
 
-What does the following Bourne shell commands do?
+What does the following shell commands do?
 
 a=one; echo $a  
 a=two echo $a  
@@ -389,7 +508,7 @@ is interpreted as
 
 echo second >third  
 
-I am not fooling you. The variable "$a" has two different values on the same line! The C shell doesn't do this, by the way.
+I am not fooling you. The variable "$a" has two different values on the same line!
 
 **2011 Update** - I just tried this on several systems to see what happens. On an old Sun system, it behaved as I noted. Note that this was the Bourne shell, and not Bash.
 
@@ -413,28 +532,23 @@ ought to use the **new** value of the variable, and not the value **before** the
 
 If you with to examine the values of all of your current variables, use the command "set:"
 
-```bash
-**set**  
+$ **set**  
 DISPLAY=:0.0  
 HOME=/home/barnett  
 IFS=  
 
   
-LD\_LIBRARY\_PATH=/usr/openwin/lib:/usr/openwin/lib/server  
 LOGNAME=barnett  
-MAILCHECK=600  
-OPENWINHOME=/usr/openwin  
-PATH=/home/barnett/bin:/usr/ucb:/usr/bin  
+PATH=/home/barnett/bin:/usr/bin:/bin:/usr/local/bin  
 PS1=$  
 PS2=>  
 PWD=/home/barnett  
-SHELL=/bin/csh  
-TERM=vt100  
+SHELL=/bin/bash  
+TERM=xterm-256color  
 USER=barnett  
 $  
-```
 
-Notice the alphabetical order of the variables, and the equals character between the variable and the value. The "set" command is one way to determine which shell you are currently using. (The C shell puts spaces between the variable and the value.) Also note the assortment of variables already defined. These are environment variables.
+Notice the alphabetical order of the variables, and the equals character between the variable and the value. The "set" command is one way to determine which shell you may be currently using (You can always execute a different shell). Also note the assortment of variables already defined. These are environment variables.
 
 UNIX provides a mechanism to pass information to all processes created by a parent process by using environment variables. When you log onto a system, you are given a small number of variables, predefined. You can add to this list in your shell start-up files. Every program you execute will inherit these variables. But the information flow is one-way. New UNIX users find this confusing, and cannot understand why a shell script can't change their current directory. Picture it this way: suppose you executed hundreds of programs, and they all wanted to change their environment to a different value. It should be obvious that they can't all control the same variable. Imagine hundreds of programs trying to change the directory you are currently using! Perhaps these variables ought to be called hereditary, and not environmental. Children processes inherit these values form the parents, but can never change how the parents were created. That would require time-travel, a feature not currentable available in commercial UNIX systems.
 
@@ -488,15 +602,9 @@ The "PS2" environment variable defines the secondary prompt, This is the prompt 
 
 The "MAIL" variable specifies where your mailbox is located. It is set by the login process.
 
-The "MAILCHECK" variable specifies how often to check for mail, in seconds. The default value is 600 seconds (10 minutes). If you set it to zero, every time the shell types a prompt, it will check for mail.
-
-This variable defines the accounting file, used by the *acctcom* and *acctcms* commands.
-
-The "MAILPATH" variable lists colon-separated filenames. You can add a "%" after the filename, and specify a special prompt for each mailbox.
-
 In addition, several environment variables are specified by the login process. "TERM" defines the terminal type, and "USER" or "LOGNAME" defines your user ID. "SHELL" defines your default shell, and "TZ" specifies your time zone. Check the manual pages, and test your own environment to find out for sure. The external program "env" prints all current environment variables.
 
-Earlier, I discussed simple variables in the Bourne shell. Now is the time to go into more detail. Suppose you wanted to append a string to a variable. That is, suppose you had a variable "X" with the value of "Accounts," but you wanted to add a string like ".old," or "\_new" making "Accounts.old" or "Accounts\_new," perhaps in an attempt to rename a file. The first one is easy. The second requires a special action. In the first case, just add the string
+Earlier, I discussed simple variables in the shell. Now is the time to go into more detail. Suppose you wanted to append a string to a variable. That is, suppose you had a variable "X" with the value of "Accounts," but you wanted to add a string like ".old," or "\_new" making "Accounts.old" or "Accounts\_new," perhaps in an attempt to rename a file. The first one is easy. The second requires a special action. In the first case, just add the string
 
 mv $X $X.old  
 
@@ -523,7 +631,7 @@ There is another solution, using curly braces:
 
 ${x}run  
 
-This is a common convention in UNIX programs. The C shell also uses the same feature. The UNIX *make* utility uses this in makefiles, and requires braces for all variable references longer than a single letter. (*Make* uses either curly braces or parenthesis).
+This is a common convention in UNIX programs. The UNIX *make* utility uses this in makefiles, and requires braces for all variable references longer than a single letter. (*Make* uses either curly braces or parenthesis).
 
 This form for variables is very useful. You could standardize on it as a convention. But the real use comes from four variations of this basic form, briefly described below:
 
@@ -537,21 +645,21 @@ This form for variables is very useful. You could standardize on it as a convent
 Why are these forms useful? If you write shell scripts, it is good practice to gracefully handle unusual conditions. What happens if the variable "d" is not defined - and you use the command below?
 
 ```
-d=\`expr $d + 1\`
+d=$(expr $d + 1)
 ```
 
 You get "expr: syntax error"  
 The way to fix this is to have it give an error if "d" is not defined.
 
 ```
-d=\`expr "${d?'not defined'}" + 1\`
+d=$(expr "${d?'not defined'}" + 1)
 ```
 
 The "?" generates an error: "sh: d: not defined"  
 If instead, you wanted it to silently use zero, use
 
 ```
-d=\`expr "${d-0}" + 1\`
+d=$(expr "${d-0}" + 1)
 ```
 
 This uses "0" if "d" is undefined.  
@@ -567,21 +675,21 @@ The first echo outputs a blank line. The next 2 "echo" commands output "23."
 Note that you can't use
 
 ```
-new=\`expr "${old=0}" + 1\`
+new=$(expr "${old=0}" + 1)
 ```
 
 to change the value of "old" because the expr command is run as a subshell script, and changing the value of "old" in that shell doesn;t change the value in the parent shell.  
-I've seen many scripts fail with strange messages if certain variables aren't defined. Preventing this is very easy, once you master these four methods of referring a Bourne shell variable. Let me describe these in more detail.
+I've seen many scripts fail with strange messages if certain variables aren't defined. Preventing this is very easy, once you master these four methods of referring a shell variable. Let me describe these in more detail.
 
 The first variation is used when something unusual happens. I think of it as the "Huh???" option, and the question mark acts as the mnemonic for this action. As an example, assume the following script is executed:
 
 #!/bin/sh  
-cat ${HOME}/Welcome  
+cat "${HOME}"/Welcome  
 
 But suppose the environment variable "HOME" is not set. Without the question mark, you might get a strange error. In this case, the program *cat* would complain, saying file "/Welcome" does not exist. Change the script to be
 
 #!/bin/sh  
-cat ${HOME?}/Welcome  
+cat "${HOME?}"/Welcome  
 
 and execute it, and you will get the following message instead:
 
@@ -589,13 +697,13 @@ script: HOME: parameter null or not set
 
 As you can see, changing all variables of the form "$variable" to "${variable?}" provides a simple method to improve the error reporting. Better still is a message that tells the user how to fix the problem. This is done by specifying a word after the question mark. Word? Yes, the manual pages says a word. In a typical UNIX-like way, that word is very important. You can place a single word after the question mark. But only one word. Perfect for one-word insults to those who forget to set variables:
 
-cat ${HOME?Dummy}/Welcome  
+cat "${HOME?Dummy}"/Welcome  
 
 This is a perfect error message if you wish to develop a reputation. Some programmers, however, prefer to keep their jobs and friends. If you fall into that category, you may prefer to give an error message that tells the user how to fix the problem. How can you do that with a single word?
 
 Remember my discussion earlier on quoting? And how the shell will consider a whitespace to be the end of the word unless quoted? The solution should be obvious. Just quote the string, which makes the results one word:
 
-cat ${HOME?"Please define HOME, and try again"}/Welcome  
+cat "${HOME?Please define HOME, and try again}"/Welcome  
 
 Simple, yet this makes a shell script more user-friendly.
 
@@ -615,10 +723,11 @@ Think of the hyphen as a mnemonic for an optional value, as the hyphen is used t
 ${b-string}  
 ${b-$variable}  
 ${b-"a phrase with spaces"}  
-${b-"A complex phrase with variables like $HOME or \`date\`"}  
+${b-"A complex phrase with variables like $HOME or $(date)"}  
 ${b-\`command\`}  
-${b-\`wc -l </etc/passwd\`}  
-${b-\`ypcat passwd | wc -l\`}  
+${b-$(command)}  
+${b-$(wc -l </etc/passwd)}  
+${b-$(ypcat passwd | wc -l)}  
 
 Any command in this phrase is only executed if necessary. The last two examples counts the number of lines in the password file, which might indicate the maximum number of users. Remember - you can use these forms of variables in place of the simple variable reference. So instead of the command
 
@@ -626,18 +735,23 @@ echo Maximum number of users are $MAXUSERS
 
 change it to
 
-echo Maximum number of users are ${MAXUSERS-\`wc -l </etc/passwd\`}  
+echo Maximum number of users are ${MAXUSERS-$(wc -l </etc/passwd)}  
 
 If the variable is set, then the password file is never checked.
 
-The third variation uses a plus sign, instead of a minus. The mnemonic is "plus is the opposite of the minus." This is appropriate, as the command does act the opposite as the previous one. In other words, if the variable is set, then ignore the current value, and use the new value. This can be used as a debug aid in Bourne shell scripts. Suppose you wanted to know when a variable was set, and what the current value is. A simple way to do this is to use the *echo* command, and echo nothing when the variable has no value by using:
+The third variation uses a plus sign, instead of a minus. The mnemonic is "plus is the opposite of the minus." This is appropriate, as the command does act the opposite as the previous one. In other words, if the variable is set, then ignore the current value, and use the new value. This can be used as a debug aid in shell scripts. Suppose you wanted to know when a variable was set, and what the current value is. A simple way to do this is to use the *echo* command, and echo nothing when the variable has no value by using:
 
-echo ${A+"Current value of A is $A"}  
+echo "${A+Current value of A is $A}"  
 
-This command does print a blank line if A does not have a value. To eliminate this, use either the Berkeley version of echo, or the System V version of echo:
+This command does print a blank line if A does not have a value. To eliminate this, on a Solaris system, you can use either the Berkeley version of echo, or the System V version of echo:
 
 /usr/bin/echo ${A+"A = $A"}"\\c"  
 /usr/ucb/echo -n ${A+"A = $A"}  
+
+  
+A more portable way to handle this is to use the printf command
+
+printf "%s" "${A+A = $A}"
 
 Don't forget that these variations are used when you reference a variable, and do not change the value of the variable. Well, the fourth variation is different, in that it **does** change the value of the variable, if the variable is undefined. It acts like the hyphen, but if used, redefines the variable. The mnemonic for this action? The equals sign. This should be easy to remember, because the equals sign is used to assign values to variables:
 
@@ -690,20 +804,20 @@ a=1, b=2, c=Z
 
 One last point - the special word in one of these formats is only evaluated if necessary. Therefore the *cd* and *pwd* commands in the following: is only executed if the word is executed:
 
-echo ${x-\`cd $HOME;pwd\`}  
+echo ${x-$(cd $HOME;pwd)}  
 
 Also - the evaluation occurs in the current shell, and not a sub-shell. The command above will change the current directory, but the one below will not, as it executes the commands in a new shell, which then exits.
 
-echo \`cd $HOME;pwd\`  
+echo $(cd $HOME;pwd)  
 
-Earlier, I discussed Bourne shell variables, and various ways to use them. So far I have only given you the foundation of shell programming. It's time for discussing special Bourne shell variables, which will allow you to write useful scripts. These special variables are identified by the dollar sign, and another character. If the character is a number, it's a positional parameter. If it's not a letter or number, it's a special purpose variable.
+Earlier, I discussed shell variables, and various ways to use them. So far I have only given you the foundation of shell programming. It's time for discussing special shell variables, which will allow you to write useful scripts. These special variables are identified by the dollar sign, and another character. If the character is a number, it's a positional parameter. If it's not a letter or number, it's a special purpose variable.
 
-The most important concept in shell scripts is passing arguments to a script. A script with no options is more limited. The Bourne shell syntax for this is simple, and similar to other shells, and *awk*. As always, the dollar sign indicates a variable. The number after the dollar sign indicates the position on the command line. That is, "$1" indicates the first parameter, and "$2" indicates the second. Suppose you wanted to create a script called *rename* that takes two arguments. Just create a file with that name, that contains the following:  
+The most important concept in shell scripts is passing arguments to a script. A script with no options is more limited. The shell syntax for this is simple, and similar to other shells, and *awk*. As always, the dollar sign indicates a variable. The number after the dollar sign indicates the position on the command line. That is, "$1" indicates the first parameter, and "$2" indicates the second. Suppose you wanted to create a script called *rename* that takes two arguments. Just create a file with that name, that contains the following:  
   
 #!/bin/sh  
 \# rename: - rename a file  
 \# Usage: rename oldname newname  
-mv $1 $2  
+mv "$1" "$2"  
   
 Click here to get file: [rename0.sh](https://www.grymoire.com/Unix/Scripts/rename0.sh)  
 
@@ -720,9 +834,9 @@ As you can see, the missing variable, in this case "1," is reported, which is a 
 #!/bin/sh  
 \# rename: - rename a file  
 \# Usage: rename oldname newname  
-oldname=$1  
-newname=$2  
-mv ${oldname:?"missing"} ${newname:?"missing"}  
+oldname="$1"  
+newname="$2"  
+mv "${oldname:?'missing'}" "${newname:?'missing'}"  
   
 Click here to get file: [rename.sh](https://www.grymoire.com/Unix/Scripts/rename.sh)  
 
@@ -732,27 +846,27 @@ rename: oldname: missing
 
 Notice that I had to add the colons before the question mark. Earlier I mentioned how the question mark tests for undefined parameters, while the colon before the question mark complains about empty parameters as well as undefined parameters. Otherwise, the *mv* command might have complained that it had insufficient arguments.
 
-The Bourne shell can have any number of parameters. However, the positional parameters **variables** are limited to numbers 1 through 9. You might expect that $10 refers to the tenth argument, but it is the equivalent of the value of the first argument with a zero appended to the end of the value. The other variable format, ${10}, ought to work, but doesn't. The Korn shell does support the ${10} syntax, but the Bourne shell requires work-arounds. One of these is the *shift* command. When this command is executed, the first argument is moved off the list, and lost. Therefore one way to handle three arguments follows:
+The shell can have any number of parameters. However, the positional parameters on some shells (like the Bourne shell) are limited to numbers 1 through 9. You might expect that $10 refers to the tenth argument, but in the Bourne shell, it is the equivalent of the value of the first argument with a zero appended to the end of the value. The other variable format, ${10}, ought to work, but doesn't. The Korn, Bash and many other shell does support the ${10} syntax, but the Bourne shell requires work-arounds. One of these is the *shift* command. When this command is executed, the first argument is moved off the list, and lost. Therefore one way to handle three arguments follows:
 
 #!/bin/sh  
-arg1=$1;shift;  
-arg2=$1;shift;  
-arg3=$1;shift;  
-echo first three arguments are $arg1 $arg2 and $arg3  
+arg1="$1";shift;  
+arg2="$1";shift;  
+arg3="$1";shift;  
+echo first three arguments are "$arg1" "$arg2" and "$arg3"  
 
-The *shift* command can shift more than one argument; The above example could be:
+The *shift* command can shift more than one argument; The above example could be rewritten as:
 
 #!/bin/sh  
-arg1=$1  
-arg2=$2  
-arg3=$3;shift 3  
-echo first three arguments are $arg1 $arg2 and $arg3  
+arg1="$1"  
+arg2="$2"  
+arg3="$3";shift 3  
+echo first three arguments are "$arg1" "$arg2" and "$arg3"  
 
 This technique does make it easier to add arguments, but the error message is unfriendly. All you get is "cannot shift" as an error. The proper way to handle syntax errors requires a better understanding of testing and branching, so I will postpone this problem until later.
 
 There is a special positional parameter, at location zero, that contains the name of the script. It is useful in error reporting:
 
-echo $0: error  
+echo "$0": error  
 
 will report "rename: error" when the *rename* script executes it. This variable is not affected by the *shift* command.
 
@@ -762,7 +876,7 @@ Another work-around for the inability for specifying parameters 10 and above is 
 \# scriptname: moveto  
 \# usage:  
 \# moveto directory files.....  
-directory=${1:?"Missing"};shift  
+directory="${1:?Missing}";shift  
 mv $\* $directory  
   
 Click here to get file: [moveto.sh](https://www.grymoire.com/Unix/Scripts/moveto.sh)  
@@ -773,54 +887,49 @@ moveto /tmp \*
 
 could easily move hundreds of files into the specified directory. However, if any of the files contain a space in the name, the script would not work. There is a solution, however, using the $@ variable.
 
-The "$@" variable is very similar to the the "$\*" variable. Yet, there is a subtle, but important distinction. In both cases, all of the positional parameters, starting with $1, are listed, separated by spaces. If there are spaces inside the variables, then "$@" retains the spaces, while "$\*" does not. An example will help. Here is a script, called *EchoArgs*, that echoes its arguments:
+The "$@" variable is very similar to the the "$\*" variable. Yet, there is a subtle, but important distinction. In both cases, all of the positional parameters, starting with $1, are listed, separated by spaces. If there are spaces inside the variables, then "$@" retains the spaces, while "$\*" does not. An example will help. Here is an old script, called *PrintArgs*, that echoes its arguments:
 
   
   
 #!/bin/sh  
-\# Scriptname: EchoArgs  
-\# It echoes arguments  
-#First - make sure we are using the Berkeley style echoes  
-PATH=/usr/ucb:$path;export PATH  
-E="echo -n"  
-\# echo the name of the script  
-${E} $0:  
-\# now echo each argument, but put a space  
-\# before the argument, and place single quotes  
-\# around each argument  
-${E} " '${1-"?"}'"  
-${E} " '${2-"?"}'"  
-${E} " '${3-"?"}'"  
-${E} " '${4-"?"}'"  
-${E} " '${5-"?"}'"  
-${E} " '${6-"?"}'"  
-${E} " '${7-"?"}'"  
-echo  
+\# Scriptname: PrintArgs  
+\# It echoes (prints) arguments it sees  
+printf "'%s' '%s' '%s' '%s' '%s' '%s' '%s'\\n" "${1-?}" "${2-?}" "${3-?}" "${4-?}" "${5-?}" "${6-?}" "${7-?}"  
   
-Click here to get file: [EchoArgs.sh](https://www.grymoire.com/Unix/Scripts/EchoArgs.sh)  
+Click here to get file: [PrintArgs.sh](https://www.grymoire.com/Unix/Scripts/PrintArgs.sh)  
 
 Second, here is a script that tests the difference:  
   
 #!/bin/sh  
-EchoArgs $\*  
-EchoArgs $@  
-EchoArgs "$\*"  
-EchoArgs "$@"  
+PrintArgs $\*  
+PrintArgs $@  
+PrintArgs "$\*"  
+PrintArgs "$@"  
   
-Click here to get file: [TestEchoArgs.sh](https://www.grymoire.com/Unix/Scripts/TestEchoArgs.sh)  
+Click here to get file: [TestPrintArgs.sh](https://www.grymoire.com/Unix/Scripts/TestPrintArgs.sh)  
 
 Now, let's execute the script with arguments that contain spaces:
 
-./TestEcho "a b c" 'd e' f g  
+./TestPrintArgs "a b c" 'd e' f g  
 
 The script outputs the following:
 
-./EchoArgs: 'a' 'b' 'c' 'd' 'e' 'f' 'g'  
-./EchoArgs: 'a' 'b' 'c' 'd' 'e' 'f' 'g'  
-./EchoArgs: 'a b c d e f g' '?' '?' '?' '?' '?' '?'  
-./EchoArgs: 'a b c' 'd e' 'f' 'g' '?' '?' '?'  
+./PrintArgs: 'a' 'b' 'c' 'd' 'e' 'f' 'g'  
+./PrintArgs: 'a' 'b' 'c' 'd' 'e' 'f' 'g'  
+./PrintArgs: 'a b c d e f g' '?' '?' '?' '?' '?' '?'  
+./PrintArgs: 'a b c' 'd e' 'f' 'g' '?' '?' '?'  
 
-As you can see, $\* and $@ act the same when they are not contained in double quotes. But within double quotes, the $\* variable treats spaces within variables, and spaces between variables the same. The variable $@ retains the spaces. Most of the time $\* is fine. However, if your arguments will ever have spaces in them, then the $@ is required.
+As you can see, $\* and $@ act the same when they are not contained in double quotes. But within double quotes, the $\* variable treats spaces within variables, and spaces between variables the same. The variable $@ retains the spaces. Most of the time $\* is fine. However, if your arguments will ever have spaces in them, then the $@ is required. Therefore, it is better to rewrite the comand to handle spaces in filenames:  
+  
+#!/bin/sh  
+\# scriptname: moveto  
+\# usage:  
+\# moveto directory files.....  
+directory="${1:?Missing}";shift  
+mv "$@" "$directory"  
+  
+Note that I put quotes around $directory in case the directory itself has a space in the name.  
+Click here to get file: [moveto.sh](https://www.grymoire.com/Unix/Scripts/moveto.sh)  
 
 The "$#" variable is equal to the number of arguments passed to the script. If *newscript* returned $# as a results, then both
 
@@ -839,10 +948,10 @@ shift $#
 The variable "$$" corresponds to the process ID of the current shell running the script. Since no two processes have the same identification number, this is useful in picking a unique temporary filename. The following script selects a unique filename, uses it, then deletes it:  
   
 #!/bin/sh  
-filename=/tmp/$0.$$  
-cat "$@" | wc -l >$filename  
-echo \`cat $filename\` lines were found  
-/bin/rm $filename  
+filename="/tmp/$0.$$"  
+cat "$@" | wc -l >"$filename"  
+echo $(cat "$filename") lines were found  
+/bin/rm "$filename"  
   
 Click here to get file: [CountLines0.sh](https://www.grymoire.com/Unix/Scripts/CountLines0.sh)  
 
@@ -852,7 +961,7 @@ echo $$ >/tmp/job.pid
 
 A second script can kill the first one, assuming it has permissions, using
 
-kill -HUP \`cat /tmp/job.pid\`  
+kill -HUP $(cat /tmp/job.pid)  
 
 The *kill* command sends the signal specified to the indicated process. In the above case, the signal is the hang-up, or HUP signal. If you logged into a system from home, and your modem lost the connection, your shell would receive the HUP signal.
 
@@ -861,7 +970,7 @@ I hope you don't mind a brief discourse into signals, but these concepts are clo
 #!/bin/sh  
 \# execute a script that creates /tmp/job.pid  
 newscript &  
-trap 'kill -HUP \`cat /tmp/job.pid\`' 0 HUP INT TERM  
+trap 'kill -HUP $(cat /tmp/job.pid)' 0 HUP INT TERM  
 \# continue on, waiting for the other to finish  
 *<rest of the script deleted>*  
 
@@ -882,7 +991,7 @@ newscript &
 sleep 10  
 kill -TERM $!  
 
-The $! variable is only changed when a job is executed with a "&" at the end. The C shell does not have an equivalent of the $! variable. This is one of the reasons the C shell is not suitable for high-quality shell scripts. Another reason is the C shell has a command similar to *trap*, but it uses one command for all signals, while the Bourne shell allows you to perform different actions for different signals.
+The $! variable is only changed when a job is executed with a "&" at the end.
 
 The wait command does not need an argument. If executed with no arguments, it waits for all processes to be finished. You can launch several jobs at once using
 
@@ -912,13 +1021,13 @@ would print 12.
 
 The variable "$-" corresponds to certain internal variables inside the shell. I'll discuss this next.
 
-The Bourne Shell *set* command is somewhat unusual. It has two purposes: setting certain shell options, and setting positional parameters. I mentioned positional parameters earlier. These are the arguments passed to a shell script. You can think of them as an array, of which you can only see the first nine values, by using the special variables $1 through $9. As I mentioned earlier, you can use the *shift* command to discard the first one, and move $2 to $1, etc. If you want to see all of your variables, the command
+The Shell *set* command is somewhat unusual. It has two purposes: setting certain shell options, and setting positional parameters. I mentioned positional parameters earlier. These are the arguments passed to a shell script. You can think of them as an array, of which you can only see the first nine values, by using the special variables $1 through $9. As I mentioned earlier, you can use the *shift* command to discard the first one, and move $2 to $1, etc. If you want to see all of your variables, the command
 
 set  
 
 will list all of them, including those marked for export. You can't tell which ones are marked. But the external command *env* will do this.
 
-You can also explicitly set these variables, by using the *set* command. Therefore the Bourne shell has one array, but only one. You can place anything in this array, but you lose the old values. You can keep them, however, by a simple assignment:
+You can also explicitly set these variables, by using the *set* command. Therefore the shell has one array, but only one. You can place anything in this array, but you lose the old values. You can keep them, however, by a simple assignment:
 
 old=$@  
 set a b c  
@@ -938,7 +1047,7 @@ If you wanted to clear all of the positional parameters, try this:
 
 set x;shift  
 
-As you recall, the dollar sign is a special character in the Bourne shell. Normally, it's used to identify variables. If the variable starts with a letter, it's a normal variable. If it starts with a number, it's a positional parameter, used to pass parameters to a shell script. Earlier, I've discussed the $\*, $@, $#, $$, and $! special variables. But there are another class of variables, or perhaps the proper term is flags or options. They are not read. That is, you don't use them in strings, tests, filenames, or anything like this. These variables are boolean variables, and are internal to the shell. That is, they are either true or false. You cannot assign arbitrary values to them using the "=" character. Instead, you use the *set* command. Also, you can set them and clean them, but you cannot read them. At least, not like other variables. You read them by examining the "$-" variable, which shows you which ones are set.
+As you recall, the dollar sign is a special character in the shell. Normally, it's used to identify variables. If the variable starts with a letter, it's a normal variable. If it starts with a number, it's a positional parameter, used to pass parameters to a shell script. Earlier, I've discussed the $\*, $@, $#, $$, and $! special variables. But there are another class of variables, or perhaps the proper term is flags or options. They are not read. That is, you don't use them in strings, tests, filenames, or anything like this. These variables are boolean variables, and are internal to the shell. That is, they are either true or false. You cannot assign arbitrary values to them using the "=" character. Instead, you use the *set* command. Also, you can set them and clean them, but you cannot read them. At least, not like other variables. You read them by examining the "$-" variable, which shows you which ones are set.
 
 Excuse me, but I am going to fast. I'm teaching you how to run, before I explained walking. Let's discuss the first flag, and why it's useful.
 
@@ -978,7 +1087,7 @@ A similar flag is the "v," or verbose flag. It is also useful in debugging scrip
 
 #!/bin/sh  
 \# comment  
-a=${1:-\`whoami\`};b=${2:-\`hostname\`}  
+a=${1:-$(whoami)};b=${2:-$(hostname)}  
 echo user $a is using computer $b  
 
 typing "sh -x script" causes:
@@ -994,7 +1103,7 @@ However, "sh -v script" reports
 
 #!/bin/sh  
 \# comment  
-a=${1:-\`whoami\`};b=${2:-\`hostname\`}  
+a=${1:-$(whoami)};b=${2:-$(hostname)}  
 echo user $a is using computer $b  
 user barnett is using computer grymoire  
 
@@ -1032,15 +1141,15 @@ A simple way to check a complex shell script is the "-n" option. If set, the she
 I haven't discussed the exit status much. Every external program or shell script exits with a status. A zero status is normal. Any positive value is usually an error. I normally check the status when I need to, and ignore it when I don't care. You can ignore errors by simply not looking at the error status, which is the "$?" variable I mentioned last time. (If the program prints error messages, you have to redirect the messages elsewhere). Still, you may have a case where the script isn't working the way you expect. The "-e" variable can be used for this: if any error occurs, the shell script will immediately exit. This can also be used to make sure that any errors are known and anticipated. This would be very important if you wanted to modify some information, but only if no errors have happened. You wouldn't want to corrupt some important database, would you? Suppose the following script is executed:
 
 #!/bin/sh  
-word=$1  
-grep $word my\_file >/tmp/count  
-count=\`wc -l </tmp/count\`  
-echo I found $count words in my\_file  
+word="$1"  
+grep "$word" my\_file >/tmp/count  
+count=$(wc -l </tmp/count)  
+echo I found "$count" words in my\_file  
 
 The script searches for a pattern inside a file, and prints out how many times the pattern is found. The *grep* program, however, exits with an error status if no words are found. If the "e" option is set, the shell terminates before executing the *count* program. If you were concerned about errors, you could set the "e" option at the beginning of the script. If you find out later that you want to ignore the error, bracket it with instructions to disable the option:
 
 set +e # ignore errors  
-grep $word my\_file >/tmp/count  
+grep "$word" my\_file >/tmp/count  
 set -e  
 
 Another way to make a script exit quickly is to use the "t" option. This causes the shell to execute one more line, then exit. This would be useful if you wanted to check for the existence of a script, but didn't want it to complete. Perhaps the script takes a long time to execute, and you just care if it's there. In this case, executing
@@ -1072,7 +1181,7 @@ set -a
 
 If set, **all** variables that are modified or created will be exported. This could be very useful if you split one large script into two smaller scripts, and want to make sure all variables defined on one script are known to the other.
 
-While many of the options I have discussed are useful for debugging, or working around problems, other options solve subtle problems. An obscure option is the "k" switch. Consider the following Bourne shell command
+While many of the options I have discussed are useful for debugging, or working around problems, other options solve subtle problems. An obscure option is the "k" switch. Consider the following shell command
 
 a=1 myscript b=2 c d=3  
 
@@ -1128,11 +1237,11 @@ set -- $old
 
 There are three to five additional options that can be passed to the shell, but not changed with the *set* command. The number of options depends on the version of the operating system and shell. The "$-" variable will display some of these options. I'll discuss them individually.
 
-The "-c" option is used if you want the shell to execute a command. This can be useful if you normally use the C shell. Simply type
+The "-c" option is used if you want the shell to execute a command. This can be useful if you normally use a different shell. Simply type
 
 sh -c "command"  
 
-You can test if the Bourne shell "-a" option really does cause variables to be exported by typing:
+You can test if the shell "-a" option really does cause variables to be exported by typing:
 
 sh -ac "a=1;env"  
 
@@ -1168,22 +1277,22 @@ has no effect, and the two commands cancel.
 Suppose you have a directory for all local executables called */usr/local/bin*. Also suppose this directory is shared by more than one machine. No problem, as long as all of the machines are the same type. However, if some are running Solaris, and others are running SunOS, you may have problems. Some executables only work for certain types of architectures (like the public domain program called *top*). You may also have different types of UNIX systems. This can be a real problem. One solution is to create a wrapper script that calls the appropriate script for the machine. That is, suppose you had a directory called */usr/local/SunOS/5.4/sun4m/bin* that contains executables for Solaris 2.4 (SunOS 5.4). If you move the executable from */usr/local/bin*, and place it in the proper directory, and replaced it with a shell script that contained:
 
 #!/bin/sh  
-/usr/local/\`uname -s\`/\`uname -r\`/\`uname -m\`/bin/\`basename $0\` "$@"  
+/usr/local/$(uname -s)/$(uname -r)/$(uname -m)/bin/$(basename $0) "$@"  
 
 Your problem would be solved. Sort of. There are four problems with this script, or rather say, four ways to improve the script.
 
 The first problem is that the program *uname* is executed three times every time this script is executed. A simple solution is to use environment variables. That is, if the environment variables are set, then there is no need to execute the *uname* program:
 
 #!/bin/sh -a  
-OS=${OS=\`uname -s\`}  
-REV=${REV=\`uname -r\`}  
-ARCH=${ARCH=\`uname -m\`}  
-CMD=\`basename $0\`  
+OS=${OS=$(uname -s)}  
+REV=${REV=$(uname -r)}  
+ARCH=${ARCH=$(uname -m)}  
+CMD=$(basename $0)  
 /usr/local/$OS/$REV/$ARCH/bin/$CMD "$@"  
 
-The "-a" Bourne shell option says to mark all modified variables for auto-export. This script tests three environment variables, and if not defined, it sets these variables. You could, therefore, set these variables once when you log in. Thereafter, the *uname* program need not be executed.
+The "-a" shell option says to mark all modified variables for auto-export. This script tests three environment variables, and if not defined, it sets these variables. You could, therefore, set these variables once when you log in. Thereafter, the *uname* program need not be executed.
 
-Earlier, I suggested using "$@" to pass all arguments to another shell script. This works on current SunOS and Solaris machines, but other UNIX systems might not work. If you think about what I've said about quoting for a while, you should begin to see something magical is happening. If you take any other variables, and surround it by double quotes, you will get one argument. If the variable has not been set, you will get one argument containing nothing. Therefore, "$@" can't possible work correctly. Yet it does. The reason is that the shell considers the "$@" a special case. However, not all versions of the Bourne shell have the same behavior. Some convert
+Earlier, I suggested using "$@" to pass all arguments to another shell script. This works on current SunOS and Solaris machines, but other UNIX systems might not work. If you think about what I've said about quoting for a while, you should begin to see something magical is happening. If you take any other variables, and surround it by double quotes, you will get one argument. If the variable has not been set, you will get one argument containing nothing. Therefore, "$@" can't possible work correctly. Yet it does. The reason is that the shell considers the "$@" a special case. However, not all versions of the shell have the same behavior. Some convert
 
 "$@"  
 
@@ -1207,7 +1316,7 @@ exec /usr/local/$OS/$REV/$ARCH/bin/$CMD ${1+"$@"}
 
 Normally, the shell creates a copy of itself for each line, and then executes the command on the line with the new process. The *exec* command does the second step, without requiring the shell to copy itself. If the *exec* command succeeds, the shell never executes the next line.
 
-The second problem with the script is the exit status. The version without the "exec" script does not execute the *exit* command. Therefore the exit status is zero. The one with the "exec" command never exits (unless the program isn't found). Instead, the program it executes exits, and the exit status is passed to the script that called the wrapper script. Why is this important? Well, the value of the status is the basis of flow control in the Bourne shell.
+The second problem with the script is the exit status. The version without the "exec" script does not execute the *exit* command. Therefore the exit status is zero. The one with the "exec" command never exits (unless the program isn't found). Instead, the program it executes exits, and the exit status is passed to the script that called the wrapper script. Why is this important? Well, the value of the status is the basis of flow control in the shell.
 
 This is the other topic for this section. There are some subtle points, so bear with me. The simplest form is one of these variations
 
@@ -1240,21 +1349,66 @@ cmd1 & cmd2 & cmd3 & cmd4
 cmd1 && cmd2 && cmd3 && cmd4  
 cmd1 || cmd2 || cmd3 || cmd4  
 
-The semicolon tells the shell to operate sequentially. First "cmd1" is executed, then "cmd2," etc. Each command starts up, and runs as long as they don't need input from the previous command. The "&" command launches each process in a detached manner. The order is not sequential, and you should not assume that one command finishes before the other. The last two examples, like the first, execute sequentially, as long as the status is correct. In the "&&" example, "cmd4" is executed if all three earlier commands pass. In the "||" example, "cmd4" is executed if the first three fail. The "&&" and "||" have higher precedence than ";" and "&," but lower than "|." Therefore
+The semicolon tells the shell to operate sequentially. First "cmd1" is executed, then "cmd2," etc. Each command starts up, and runs as long as they don't need input from the previous command. The "&" command launches each process in a detached manner. The order is not sequential, and you should not assume that one command finishes before the other. The last two examples, like the first, execute sequentially, as long as the status is correct. In the "&&" example, "cmd4" is executed if all three earlier commands pass. In the "||" example, "cmd4" is executed if the first three fail.
 
-a | b && c; d || e | f;  
+Think of "&&" and "||" as the "and" and "or" operators. They make their decision on the exit status of the command. If the command exits with a status of zero, it's true or successful. If the command exits with any other status, it's false. The || and && commands can therefore be used for a simple if-then-else. However, the test only looks at the last exit status of the last command that executed before the operator. The command
 
-is evaluated as
+true && true && true && true  
 
-(a | (b && c)); ((d || e) | f);  
+will execute the "true" command four times because each command succeeded. Likewise,
 
-The || and && commands can be used for a simple if-then-else. Note that
+false || false || false || false  
+
+will execute the command "false" four times because each command exited with a non-zero status. If you have multiple "&&" commands, they may not all be executed. If one fails, the command after "&&" will not be executed. The command
+
+true && false && a || b  
+
+will execute "true" and "b" but not "a". And if you have multiple "&&" operators, and a command fails, all subsuquent commands after a "&&" operator will also be skipped. So
+
+false && true && true && a || b  
+
+will execute "false" and "b" but not execute "true" or "a".
+
+The same logic determines when "||" will execute a command. Note that
 
 cmd1 && cmd2 || cmd3
 
-if cmd1 succeeds, and cmd2 fails, then cmd3 will be executed. To prevent this, one can use
+if cmd1 succeeds, and cmd2 fails, then cmd3 will be executed. This is a handy way to provide simple error messages. Both of these will echo "failed":
+
+true && false && echo passed || echo failed  
+false && true && echo passed || echo failed  
+
+To prevent this, one can change the precedence by using
 
 cmd1 && { cmd2;exit 0; } || cmd3
+
+This needs some more explanation.
+
+The "&&" and "||" have the same priority, evaluating left to right. ( Note: Earlier I said "&&" had higher priority. That was incorrect). Both have higher priority than the pipe character "|". The command terminators ";" and "&" have highest precedence. Therefore
+
+a || b && c  
+
+is the same as
+
+( a || b ) && c  
+
+If "a" fails, all three commands will be executed.
+
+Since the pipe character is higher in precedence than "&&" and "||", the command
+
+true || a|b|c|d && e  
+
+will only execute "true" and "e" because it is evaluated as.
+
+true || ( a|b|c|d ) && e  
+
+And because ";" (and "&") have the highest priority,
+
+a | b && c; d || e | f  
+
+is evaluated as
+
+( ( a | b) && c); ( d || ( e | f));  
 
 If you want to change the precedence, or order of evaluation, you can use either curly braces or parenthesis. There are some subtle differences between these two. Syntactically, there are two differences:
 
@@ -1318,7 +1472,9 @@ Parenthesis can also be used to change terminal permissions. If you have a print
 
 (stty 2400;cat file) >/dev/printer  
 
-One of the more powerful uses of these techniques is combining tests with pipes. You see, taking different branches does not automatically disconnect pipelines. The C shell doesn't do this well, but the Bourne shell does. Suppose you wanted a filter to read standard input, and if the input contains a special pattern, you want the filter to add a line before the stream of information. Otherwise, you wanted to add another line after the input stream. A simple way to do this is to use the shell's features:
+One of the more powerful uses of these techniques is combining tests with pipes. You see, taking different branches does not automatically disconnect pipelines.
+
+Suppose you wanted a filter to read standard input, and if the input contains a special pattern, you want the filter to add a line before the stream of information. Otherwise, you wanted to add another line after the input stream. A simple way to do this is to use the shell's features:
 
 #!/bin/sh  
 tee /tmp/file | \\  
@@ -1354,7 +1510,7 @@ A command can either be a simple command, or a complex command. The complex comm
 
 The "if" commands can be nested. Therefore the above only lists some of the combinations. Also note than *fi* is *if* backwards.
 
-One point that gave me trouble at first with the Bourne shell was this concept of list. It's a simple concept. The following words must be the first word on a line:
+One point that gave me trouble at first with the shell was this concept of list. It's a simple concept. The following words must be the first word on a line:
 
 if  
 then  
@@ -1431,7 +1587,7 @@ if condition; then:; else
 echo condition is false  
 fi  
 
-You may notice how I vary the indentation style. Any form is correct. Pick the one you are more comfortable with. As an aside, the C shell will allow a comment as the only statement inside a conditional block.
+You may notice how I vary the indentation style. Any form is correct. Pick the one you are more comfortable with.
 
 The "if" test is performed once. If you want to loop while a test is true, then use the "while" command:
 
@@ -1505,8 +1661,6 @@ do
 echo a=$a  
 done <file  
 
-The C shell doesn't allow this flexibility in redirecting standard input.
-
 There are a few subtle points about the "read" and "while" commands. The following is a syntax error:
 
 while true  
@@ -1544,7 +1698,7 @@ read a;echo a is $a
 read a;echo a is $a  
 ) <file  
 
-Exactly three lines of the file are read. I should emphasize the that C shell cannot do this easily. It does not have a built-in mechanism to read exact one line. Also the C shell command to read a single line only reads from the controlling terminal, and cannot be redirected to get input from a file, or a pipe, while the Bourne shell can.
+Exactly three lines of the file are read.
 
 What happens if the "read" command has more than one argument? The command breaks the input line into words, using whitespace as the characters between words. Each word is assigned to a different variables. If there are not enough words, the last variables are assigned an empty value. If there are too many, the last variable gets the leftovers. What gets printed if the following is executed?
 
@@ -1584,7 +1738,7 @@ will echo "not yet" until "testa" becomes true (exits with a status of zero).
 
 Next, the "for" and "case" commands.
 
-I previously discussed the Bourne Shell commands "if," "while" and "until." Next I will discuss the other two commands used for controlling flow -- "for" and "case." The templates for these commands are:
+I previously discussed the Shell commands "if," "while" and "until." Next I will discuss the other two commands used for controlling flow -- "for" and "case." The templates for these commands are:
 
 **for** *name* **do** *list* **done**  
 **for** *name* **in** *word*... **do** *list* **done**  
@@ -1633,30 +1787,30 @@ done
 
 Of course you can use back-quotes to use the output of a command as the creator of the list:
 
-for i in \`ls file\*\`  
+for i in $(ls file\*)  
 
 The line-at-a-time information is lost, as all newline characters are removed. Therefore you cannot easily use the "set" command to modify two or more variables at a time. If you want to change multiple arguments from a file, you either have to use the "while read" sequence I described earlier, or read a variable, and split one variable into multiples using a command like "tr" to convert some character into spaces, and then using "set" to change several variables at once:
 
 ```
 #!/bin/sh
 # read the /etc/password file
-# use \`cat /etc/passwd\`, but spaces are treated like new lines
+# use $(cat /etc/passwd), but spaces are treated like new lines
 # therefore, change spaces into _
 
-for i in \`tr ' ' '_' </etc/passwd\`
+for i in $(tr ' ' '_' </etc/passwd)
 do
-    set \`echo $i | tr ':' ' '\`
+    set $(echo $i | tr ':' ' ')
     echo user: $1, UID: $3, Home Directory: $6
 done
 ```
 
 You can use standard input to get the list of values for the variable:
 
-for a in \`cat\`  
+for a in $(cat)  
 
 Lastly, you can combine variables, constants, and program executions:
 
-for i in BEGIN $a "$b $c" \`cat file\` END  
+for i in BEGIN $a "$b $c" $(cat file) END  
 do  
 echo i is $i  
 done  
@@ -1668,16 +1822,16 @@ script1 a b c
 and wanted to count the number of words in each file, then you could use
 
 #!/bin/sh  
-echo $1 has \`wc -l <$1\` words  
-echo $2 has \`wc -l <$2\` words  
-echo $3 has \`wc -l <$3\` words  
+echo $1 has $(wc -l <$1) words  
+echo $2 has $(wc -l <$2) words  
+echo $3 has $(wc -l <$3) words  
 
 Another way to do the same is as follows:
 
 #!/bin/sh  
 for file  
 do  
-echo $file has \`wc -l <$file\` words  
+echo $file has $(wc -l <$file) words  
 done  
 
 The case statement functions like a complex "if" statement, with multiple clauses. The template is:
@@ -1869,7 +2023,7 @@ A=1
 while \[ $A -le 10 \]  
 do  
 echo $A  
-A=\`expr $A + 1\`  
+A=$(expr $A + 1)  
 done  
 
 The relational operators check to see if both expressions are integers. If so, the comparison is numeric. If one or more expressions are non-numeric, the comparison is lexical. Therefore you can compare integers or strings. The confusing part of the relational operators is deciding how to use the information. You see, the operators output to standard output, and also return an exit status. Remember how the value of true is typically non-zero, but a true exit status is zero? Well, *expr* continues this tradition. Consider the following test:
@@ -1885,7 +2039,7 @@ Notice how the standard output had to be discarded, otherwise the script would p
 A=1;  
 while expr $A '<=' 10 >/dev/null  
 do  
-A=\`expr $A + 1\`  
+A=$(expr $A + 1)  
 echo $A  
 done  
 
@@ -1960,13 +2114,13 @@ myscript -x123
 
 Now suppose you wanted to extract the number from the option. You could use a *sed* script like the one above. You could also use the *expr* command:
 
-x=\`expr "$1": '-x\\(.\*\\)'\`  
+x=$(expr "$1": '-x\\(.\*\\)')  
 
 The *expr* command can also be used to test if a variable is a number:
 
 echo "Type in a number"  
 read ans  
-number=\`expr "$ans": "\\(\[0-9\]\*\\)"\`  
+number=$(expr "$ans": "\\(\[0-9\]\*\\)")  
 if \[ "$number"!= "$ans" \]; then  
 echo "Not a number"  
 elif \[ "$number" -eq 0 \]; then  
@@ -2038,16 +2192,16 @@ I hope I've given you some insight on how to use the *expr* command. Many people
 
 The original version of the Bourne shell didn't have functions. If you wanted to perform an operation more than once, you either had to duplicate the code, or create a new shell script. There is a slight penalty for each script called, as another process must be created. You also have to know where the script is, if it isn't in the path.
 
-The C shell has aliases, but these are limited to one line, and parsing arguments is extremely confusing. The Bourne shell solved this problem with the concept of functions. Here is an example that counts from 1 to 10, incrementing variable A in a function:
+The shell solved this problem with the concept of functions. Here is an example that counts from 1 to 10, incrementing variable A in a function:
 
 ```
 #!/bin/sh
 inc_A() { 
 # Increment A by 1
-        A=\`expr $A + 1\` 
+        A=$(expr $A + 1) 
 }
 A=1 
-while [ $A -le 10 ] 
+while [ "$A" -le 10 ] 
 do 
         echo $A
         inc_A
@@ -2056,7 +2210,7 @@ done
 
 If you wish, you can define the same function on one line:
 
-inc\_A() { A=\`expr $A + 1\`; }  
+inc\_A() { A=$(expr $A + 1); }  
 
 Note that you need to add a semicolon before the curley brace, as the shell expects a list between the curley braces. Another way to remember this is "}" must be the first command on a line.
 
@@ -2071,7 +2225,7 @@ and you call it with two arguments, the script prints the second argument, becau
 You can pass names of variables to functions. However, this adds a lot of complexity. You must bypass the normal shell evaluation of variables. Also, strings like "$$" have special meanings. Here is a function that increments a specified variable
 
 #!/bin/sh  
-inc() { eval $1=\`expr $$1 + 1\`; }  
+inc() { eval $1=$(expr $$1 + 1); }  
 
   
 A=10  
@@ -2080,13 +2234,13 @@ inc A
 
 The *eval* command operates on the string
 
-a=\`expr $a + 1\`  
+a=$(expr $a + 1)  
 
 and the backslashes were added to prevent the shell from interpreting the backquotes and dollar sign too soon.
 
 What happens if you execute an *exit* command inside a function? The same as if you executed it from anywhere else from a script. It aborts the script, and passes the value to the calling script.
 
-Suppose you want to return a value from a function? If it's a variable, just put the value in a variable. But that's not what I'm talking about. I've shown you how to use the exit status in commands like *if* and *while*. What happens if you create a function and use it in a *if* statement? You have two choices. Normally, the function returns with the exit status of the last command. If you want to control explicitly the value, the Bourne shell has a special command called *return* that sets the status value to the value specified. If no value is specified, the status of the last command is used.
+Suppose you want to return a value from a function? If it's a variable, just put the value in a variable. But that's not what I'm talking about. I've shown you how to use the exit status in commands like *if* and *while*. What happens if you create a function and use it in a *if* statement? You have two choices. Normally, the function returns with the exit status of the last command. If you want to control explicitly the value, the shell has a special command called *return* that sets the status value to the value specified. If no value is specified, the status of the last command is used.
 
 You can write a simple script to loop forever:
 
@@ -2106,7 +2260,7 @@ Let's say you have a shell script with three arguments. There are many ways to s
 
 #!/bin/sh -x  
 arg1=${1:-a.out}  
-arg2=${2:-\`pwd\`}  
+arg2=${2:-$(pwd)}  
 arg3=${3:-$HOME}  
 mv $arg2/$arg1 $arg3  
 
@@ -2115,7 +2269,7 @@ Short, and simple. Not many people use this form, and it can seem daunting to th
 #!/bin/sh  
 file\_to\_be\_moved="$1"  
 arg1=${file\_to\_be\_moved:?"filename missing"}  
-arg2=${2:-\`pwd\`}  
+arg2=${2:-$(pwd)}  
 arg3=${3:-$HOME}  
 mv $arg2/$arg1 $arg3  
 
@@ -2133,8 +2287,8 @@ This is better, but perhaps is a little obscure. Perhaps a better mechanism is:
 ```
 #!/bin/sh
 arg1="a.out"
-arg2=\`pwd\`
-arg3=$HOME
+arg2=$(pwd)
+arg3="$HOME"
 if [ $# -gt 3 ]
 then
     :
@@ -2161,7 +2315,7 @@ else
     exit 1
 fi
 
-mv $arg2/$arg1 $arg3
+mv "$arg2/$arg1" "$arg3"
 ```
 
   
@@ -2172,8 +2326,8 @@ or perhaps:
 ```
 #!/bin/sh
 arg1="a.out"
-arg2=\`pwd\`
-arg3=$HOME
+arg2=$(pwd)
+arg3="$HOME"
 if [ $# -gt 3 ]
 then
     echo too many arguments
@@ -2185,11 +2339,11 @@ then
     echo must specify at least one argument
     exit 1
 fi
-[ $# -ge 1 ] && arg1=$1 # do this if 1, 2 or 3 arguments
-[ $# -ge 2 ] && arg2=$2 # do this if 2 or 3 arguments
-[ $# -ge 3 ] && arg3=$3 # do this if 3 arguments
+[ $# -ge 1 ] && arg1="$1" # do this if 1, 2 or 3 arguments
+[ $# -ge 2 ] && arg2="$2" # do this if 2 or 3 arguments
+[ $# -ge 3 ] && arg3="$3" # do this if 3 arguments
 
-mv $arg2/$arg1 $arg3
+mv "$arg2/$arg1" "$arg3"
 ```
 
   
@@ -2201,21 +2355,21 @@ Another way to solve the problem is to use the shift command. I'll add a functio
 #!/bin/sh
 
 usage() {
-    echo \`basename $0\`: ERROR: $* 1>&2
-    echo usage: \`basename $0\` 'filename [fromdir] [todir]' 1>&2
+    echo $(basename "$0"): ERROR: "$@" 1>&2
+    echo usage: $(basename "$0") 'filename [fromdir] [todir]' 1>&2
     exit 1
 }
 arg1="a.out"
-arg2=\`pwd\`
-arg3=$HOME
+arg2=$(pwd)
+arg3="$HOME"
 
 [ $# -gt 3  -o $# -lt 1 ] && usage "Wrong number of arguments"
 
-arg1=$1;shift
-[ $# -gt 0 ] && { arg2=$1;shift;}
-[ $# -gt 0 ] && { arg3=$1;shift;}
+arg1="$1";shift
+[ $# -gt 0 ] && { arg2="$1";shift;}
+[ $# -gt 0 ] && { arg3="$1";shift;}
 
-mv $arg2/$arg1 $arg3
+mv "$arg2/$arg1" "$arg3"a
 ```
 
   
@@ -2227,23 +2381,23 @@ Here is still another variation using the *case* command:
 #!/bin/sh
 
 usage() {
-    echo \`basename $0\`: ERROR: $* 1>&2
-    echo usage: \`basename $0\` 'filename [fromdir] [todir]' 1>&2
+    echo $(basename "$0"): ERROR: "$@" 1>&2
+    echo usage: $(basename "$0") 'filename [fromdir] [todir]' 1>&2
     exit 1
 }
 arg1="a.out"
-arg2=\`pwd\`
-arg3=$HOME
+arg2=$(pwd)
+arg3="$HOME"
 
 case $# in
     0) usage "must provide at least one argument";;
-    1) arg1=$1;;
-    2) arg1=$1;arg2=$2;;
-    3) arg1=$1;arg2=$2;arg3=$3;;
+    1) arg1="$1";;
+    2) arg1="$1";arg2="$2";;
+    3) arg1="$1";arg2="$2";arg3="$3";;
     *) usage "too many arguments";;
 
 esac
-mv $arg2/$arg1 $arg3
+mv "$arg2/$arg1" "$arg3"
 ```
 
   
@@ -2277,8 +2431,8 @@ Let's assume we need a script that uses the letters a through c as single letter
 #!/bin/sh
 
 usage() {
-    echo \`basename $0\`: ERROR: $* 1>&2
-    echo usage: \`basename $0\` '[-a] [-b] [-c] [-o file] 
+    echo $(basename "$0"): ERROR: "$@" 1>&2
+    echo usage: $(basename "$0") '[-a] [-b] [-c] [-o file] 
         [file ...]' 1>&2
     exit 1
 }
@@ -2310,8 +2464,8 @@ This script does not allow you to combine several single-letter options with one
 #!/bin/sh
 
 usage() {
-    echo \`basename $0\`: ERROR: $* 1>&2
-    echo usage: \`basename $0\` '[-[abc]] [-o file]' '[file ...]' 1>&2
+    echo $(basename "$0"): ERROR: "$@" 1>&2
+    echo usage: $(basename "$0") '[-[abc]] [-o file]' '[file ...]' 1>&2
     exit 1
 }
 
@@ -2364,7 +2518,7 @@ do
         ;;
     -o?*)
             # have to extract string from argument
-        o=\`expr "$1" : '-o(.*)'\`
+        o=$(expr "$1" : '-o(.*)')
         ;;
     -o)
         [ $# -gt 1 ] || usage "-o requires a value";
@@ -2387,12 +2541,12 @@ One of my earlier versions of this script used *expr* instead of the *case* stat
 #!/bin/sh
 
 usage() {
-    echo \`basename $0\`: ERROR: $* 1>&2
-    echo usage: \`basename $0\` '[-[abc]] [-o file]' '[file ...]' 1>&2
+    echo $(basename "$0"): ERROR: "$@" 1>&2
+    echo usage: $(basename "$0") '[-[abc]] [-o file]' '[file ...]' 1>&2
     exit 1
 }
 
-set -- \`getopt "abco:" "$@"\` || usage
+set -- $(getopt "abco:" "$@") || usage ""
 
 a= b= c= o= 
 while :
@@ -2416,7 +2570,7 @@ Click here to get file: [ShCmdArgs.sh](https://www.grymoire.com/Unix/Scripts/ShC
 I've given you a very complete collection of scripts that you can modify to handle your needs. There are many other ways to solve the problems presented here. There is no single best method to use. Hopefully, you now know several options, and can decide on the method best for you.
 
 I added this section afterwards, because it's so powerful, yet confusing to some people.  
-The Bourne shell has a very powerful way to control background processes in a script. Here are some examples.  
+The shell has a very powerful way to control background processes in a script. Here are some examples.  
 This script lauches three jobs. If the parent job gets a HUP or TERM signal, it sends it to the child processes. Therefore if you interrupt the parent process, it will pass this signal to the child processes.
 
 ```
@@ -2465,4 +2619,10 @@ I could have simplified the example above by combining USR1 and USR2 But this wa
 Also note the trap of signal 1, which allows you to terminate the parent, and have it terminate the children. You don;t want long-running jobs hanging around, especially if you are debugging the script.
 
 You can also use it to pass other signals to the child processes, and have them do something special. They may wait untul they get a signal, for instance. This way you can start all of the processes at the same time (nearly).  
-*This document was translated by troff2html v0.21 on September 22, 2001.*
+
+Thanks to suggestions/correctons from:  
+Ryan Penn  
+Helmut Neujahr  
+DJ Phasik  
+Dustin King  
+prateek goyal *This document was translated by troff2html v0.21 on September 22, 2001.*

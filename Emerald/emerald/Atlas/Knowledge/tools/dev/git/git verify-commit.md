@@ -1,6 +1,7 @@
 #tool/git/command 
 
-- [ ] remind me (@[[2025-05-27]])
+- [x] remind me (@[[2025-05-27]])
+- [ ] monthly (@[[2025-06-23]])
 ___
 
  git verify-commit
@@ -19,11 +20,14 @@ ___
 ## examples
 
   - Check commits for a GPG signature:
-    git verify-commit commit_hash1 optional_commit_hash2 ...
+  
+	    git verify-commit commit_hash1 optional_commit_hash2 ...
 
   - Check commits for a GPG signature and show details of each commit:
-    git verify-commit commit_hash1 optional_commit_hash2 ... --verbose
+  
+	    git verify-commit commit_hash1 optional_commit_hash2 ... --verbose
 
   - Check commits for a GPG signature and print the raw details:
-    git verify-commit commit_hash1 optional_commit_hash2 ... --raw
+  
+	    git verify-commit commit_hash1 optional_commit_hash2 ... --raw
 

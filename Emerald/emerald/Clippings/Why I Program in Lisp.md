@@ -6,7 +6,7 @@ source: https://funcall.blogspot.com/2025/04/why-i-program-in-lisp.html
 tags:
   - article/programming/lisp
 ---
-- [ ] #task 👓 read a bit about [[Lisp]] [[Why I Program in Lisp]] article #read
+- [ ] #task 👓 read a bit about [[Lisp]] [[Why I Program in Lisp]] article #read ⏳ 2025-05-29 📅 2025-05-30
 ___
 
 [[Lisp]] is not the most popular language. It never was. Other general purpose languages are more popular and ultimately can do everything that Lisp can (if Church and Turing are correct). They have more libraries and a larger user community than Lisp does. They are more likely to be installed on a machine than Lisp is.

@@ -16,8 +16,14 @@ print(vim.inspect(your_table))
 vim.print(package.loaded)
 ```
 
+- vim inspect
+- vim.print
+- `:lua someValue`
+___
+
 > from::
  - [[Everything you need to know to configure neovim using lua  Devlog#print tables]]
  - [[Lua - Neovim docs]]
 
-- [ ] remind me (@[[2025-05-26]])
+- [x] remind me (@[[2025-05-26]])
+- [ ] monthly (@[[2025-06-23]])

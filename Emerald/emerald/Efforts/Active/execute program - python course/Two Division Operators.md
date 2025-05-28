@@ -1,3 +1,7 @@
+---
+part of:
+  - "[[execute program - python course]]"
+---
 
 
 ```python

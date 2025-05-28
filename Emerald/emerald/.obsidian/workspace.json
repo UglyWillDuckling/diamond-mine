@@ -4,22 +4,61 @@
     "type": "split",
     "children": [
       {
-        "id": "a034f8a00ac62d41",
+        "id": "4a888bd09ada7364",
         "type": "tabs",
         "children": [
           {
-            "id": "70c61d9b36fbd243",
+            "id": "43734764f9a9eb99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Efforts/obsidian vimrc ticket.md",
+                "file": "Efforts/Ongoing/zellij First setup/zellij First setup.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": true,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "zellij First setup"
+            }
+          },
+          {
+            "id": "7c50503320c4756f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Efforts/Ongoing/zellij First setup/zellij session.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "obsidian vimrc ticket"
+              "title": "zellij session"
+            }
+          },
+          {
+            "id": "9e4e430b4e2dd0e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Knowledge/tools/dev/Zellij/zellijdoc/session-resurrection.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "session-resurrection"
             }
           }
         ]
@@ -79,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
+    "width": 357.5,
     "collapsed": true
   },
   "right": {
@@ -217,13 +256,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Efforts/obsidian vimrc ticket.md",
+                "file": "Efforts/Ongoing/zellij First setup/zellij First setup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of obsidian vimrc ticket"
+              "title": "Outline of zellij First setup"
             }
           }
         ]
@@ -259,35 +298,37 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "70c61d9b36fbd243",
+  "active": "43734764f9a9eb99",
   "lastOpenFiles": [
-    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-23-Fri.md",
-    "Efforts/obsidian vimrc ticket.md",
-    "Clippings/remember-cursor-position Obsidian plugin.md",
-    "+/example vimrc for obsidian.md",
-    "Clippings/Vimrc for Obsidian.md",
-    "Efforts/Untitled 1.md",
-    "Efforts/Untitled.md",
-    "Atlas/Knowledge/tools/obsidian/criticmarkup.md",
-    "Knowledge/Books",
-    "Efforts/it can be better to use vim mappings instead of Obsidian ones.md",
-    "work/docs/how to/how to run the mediaAPI migration.md",
-    "Atlas/Knowledge/Articles/dev/What Is rc and What Are rc Files.md",
+    "Atlas/Knowledge/tools/dev/Zellij/zellijdoc/session-resurrection.md",
+    "Efforts/Ongoing/zellij First setup/zellij First setup.md",
+    "Efforts/Ongoing/zellij First setup/zellij session.md",
+    "tasks canvas.canvas",
+    "Efforts/Simmering/CSS Mastery.md",
+    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
+    "Atlas/Knowledge/How To's/Make Tutorial/make_4.md",
+    "Efforts/Ongoing/zellij First setup/zellij config file.md",
+    "Atlas/Knowledge/How To's/how to show all vars in bash(posix).md",
+    "Efforts/Ongoing/zellij First setup/Zellij keymaps.md",
+    "Clippings/POSIX Shell Tutorial.md",
+    "Efforts/Ongoing",
+    "Atlas/Knowledge/Articles/dev/Bourne Shell Tutorial.md",
+    "Atlas/Knowledge/Articles/dev/Bruce Barnett.md",
+    "Clippings/windsurf.nvim A native neovim extension for Codeium.md",
     "Efforts/master task list.md",
-    "Efforts/Done/ssh key issue.md",
+    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-27-Tue.md",
+    "Sets/MeetingSet/1on1 4th.md",
+    "Atlas/Knowledge/daily_notes/2025/05-May/secrets.md",
+    "Efforts/obsidian vimrc ticket.md",
     "Clippings/another-quick-switcher.md",
-    "Efforts/Active/execute program - python course/execute program - python course.md",
-    "work/bugs/qsl import issue - missing pagination/performance issues on BY 5.5.2025.md",
-    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-22-Thu.md",
-    "Efforts/().md",
-    "work/bugs/qsl import issue - missing pagination/qsl import issue - missing pagination.md",
-    "Atlas/Knowledge/Articles/dev/Zsh Profile File (.profile, .zprofile, .zshrc) – LinuxTect.md",
-    "work/Projects/Backyard/Features/QSL listing feature/archive/frontend implementation.md",
-    "work/Projects/Backyard/Features/QSL listing feature/QSL listing feature.md",
-    "work/Projects/Backyard/Features/QSL listing feature/archive/Notes on prod deploy of QSL.md",
-    "Atlas/Knowledge/daily_notes/2025/05-May/google cloud uses the id_ed25519 key.md",
-    "qls import cron implementation.md",
-    "Clippings/How Smart Devs Use AI Tools Every Day.md",
+    "Clippings/remember-cursor-position Obsidian plugin.md",
+    "Atlas/Knowledge/tools/dev/git/lazygit - mappings.md",
+    "Clippings/scratch.nvim.md",
+    "Clippings/yanky.nvim.md",
+    "Atlas/Knowledge/daily_notes/2025/05-May/git config.md",
+    "Atlas/Knowledge/tools/dev/git/git verify-commit.md",
+    "Sets/MeetingSet/MeetingSet.md",
+    "Knowledge/Books",
     "Sets/CourseSet",
     "Efforts/Active/execute program - python course",
     "~/x/d136608e8bbe399debcc1513a2c08b32_MD5.jpg",
@@ -299,7 +340,6 @@
     "Pro Git - Scott Chacon/images/scripting-03-webhook.png",
     "Sets/MeetingSet",
     "Sets/Types",
-    "Sets",
     "work/tickets/event issue solution canvas.canvas",
     "work/Projects/Backyard/Features/QSL listing feature/docs/artifacts/crontab board.canvas",
     "work/Projects/Backyard/Features/QSL listing feature/docs/code/aws test script solution.canvas",
@@ -313,7 +353,6 @@
     "tmp/Templater/favicon.svg",
     "tmp/Templater/favicon.png",
     "tmp/silentvoid13.github.io/Templater/imgs/templater_user_templates.png",
-    "tasks canvas.canvas",
     "work/tickets/FEAT/Transac Zones update ticket/coverage update canvas.canvas"
   ]
 }

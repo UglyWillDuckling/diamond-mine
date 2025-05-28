@@ -15,3 +15,4 @@ ___
 - [[Python Functions]]
 - [[Assertions in Python]]
 - [[Python list basics]]
+- [[Python Tuples]]

@@ -60,6 +60,7 @@
     "scheduled": "datetime",
     "type": "text",
     "when": "datetime",
-    "related-actions": "multitext"
+    "related-actions": "multitext",
+    "tickets": "multitext"
   }
 }

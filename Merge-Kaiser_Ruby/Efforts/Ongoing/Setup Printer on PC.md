@@ -1,5 +1,24 @@
 #ticket/pc/printer 
 
-## actions
+### related actions
 
-- [ ] #task add actions list here 🆔 m6nFuS
+[[enabled cups service]]
+
+```set
+scope:
+  - type
+  - actionevent
+fields:
+  - __bname
+  - when
+  - in-short
+sortby:
+  - - when
+    - true
+timestamp: 1747938641201
+filter:
+  - - tickets
+    - hasany
+    - "@link-to-this"
+
+```

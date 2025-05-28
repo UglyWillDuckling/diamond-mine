@@ -7,7 +7,7 @@ source: https://www.udemy.com/course/the-web-dev-bootcamp/learn/lecture/47827013
 #project
 
 - [x] #task start with [[100 Hours of Web Development]] 🆔 DKljUs ✅ 2025-04-21
-- [/] #task [[#MERN course]] - React, nodejs, express.js 🆔 o5bVWo 🔼 ⏳ 2025-05-25 📅 2025-05-30
+- [/] #task [[#MERN course]] - React, nodejs, express.js 🆔 o5bVWo 🔼 ⏳ 2025-05-25 📅 2025-06-03
 
 A course containing over 20 full-stack projects to develop from scratch.
 ___

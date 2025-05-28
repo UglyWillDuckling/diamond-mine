@@ -83,17 +83,19 @@ var CanvaSearch = class extends import_obsidian.Plugin {
             let content = a.url;
             return [a, content];
           }
-          if (a.type == "group") {
+          if (a.type == "group" && a.label) {
             let content = a.label;
             return [a, content];
           }
         });
       } else {
         return_array = canvas.data.nodes.map(async function(a) {
-          return [a, ""];
+          if (a.type != "group" || a.label) {
+            return [a, ""];
+          }
         });
       }
-      return await Promise.all(return_array);
+      return (await Promise.all(return_array)).filter(Boolean);
     } else
       return [];
   }
@@ -167,7 +169,7 @@ var CanvaSearchModal = class extends import_obsidian.FuzzySuggestModal {
         focusOnNode(this.getActiveCanvas(), node_data);
         break;
       case "group":
-        new import_obsidian.Notice(`Selected ${node_data.file}`);
+        new import_obsidian.Notice(`Selected ${node_data.label}`);
         focusOnNode(this.getActiveCanvas(), node_data);
         break;
       case "text":

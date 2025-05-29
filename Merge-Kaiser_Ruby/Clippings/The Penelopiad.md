@@ -1,11 +1,10 @@
 ---
-title: The Penelopiad - Wikipedia
-source: https://en.m.wikipedia.org/wiki/The_Penelopiad
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - "[[Margaret Atwood]]"
+source: https://en.m.wikipedia.org/wiki/The_Penelopiad
 published: 2006-01-11
 created: 2025-01-09
-description: 
+epub: "[[penelopiad]]"
 tags:
   - clippings
   - 📚Book

@@ -4,35 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ceacb626c21cc781",
+        "id": "34e5c4b60f0d5118",
         "type": "tabs",
         "children": [
           {
-            "id": "3462a48e60487e48",
+            "id": "dba6ce3f5ae604b1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "Clippings/What it’s like to plan a day with AI assistance.md",
-                "mode": "source",
-                "source": false
+                "file": "penelopiad.md"
               },
               "icon": "lucide-file",
-              "title": "What it’s like to plan a day with AI assistance"
-            }
-          },
-          {
-            "id": "67a3f9f1bd11ff6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Master Task List.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Master Task List"
+              "title": "penelopiad"
             }
           }
         ]
@@ -92,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.501522064209,
-    "collapsed": true
+    "width": 344.50107192993164
   },
   "right": {
     "id": "3daebda00016f277",
@@ -110,17 +93,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Master Task List.md",
+                "file": "penelopiad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Master Task List"
+              "title": "Backlinks for penelopiad"
             }
           },
           {
@@ -182,8 +165,7 @@
               "title": "Juggl style"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "ad60b0636f1a5512",
@@ -196,21 +178,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Master Task List.md",
+                "file": "penelopiad.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Master Task List"
+              "title": "Outline of penelopiad"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 517.5,
-    "collapsed": true
+    "width": 586.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,15 +216,39 @@
       "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true
     }
   },
-  "active": "3462a48e60487e48",
+  "active": "dba6ce3f5ae604b1",
   "lastOpenFiles": [
+    "Clippings/The Penelopiad.md",
+    "Clippings/The Penelopiad - Margaret Atwood.md",
+    "penelopiad.md",
+    "Untitled.md",
+    "Calendar/daily/2025/2025-05-29-Thu.md",
+    "penelopiad.md~",
+    "annotation.md",
+    "Clippings/elias-sundqvistobsidian-annotator A plugin for reading and annotating PDFs and EPUBs in obsidian..md",
+    "~/×/72cf3fc79eb8a698b266cf8a15973152_MD5.gif",
+    "~/×/dc31a51ea4416584484e7eb609893dee_MD5.gif",
+    "Clippings/FrankenPHP the modern PHP app server.md",
+    "Atlas/Knowledge/Media/Articles/Dev/Telling The Truthy.md",
+    "~/×/0faf84ac13734e863e5ae06ada0cca47_MD5.svg",
+    "~/×/2963e70ef324d5a82ba8339643eb635d_MD5.svg",
+    "~/×/249fc2dcc6fa1e62d993beb4f5bcb1d6_MD5.svg",
+    "~/×/9ed963c04300fd1f00932c075f5535e1_MD5.svg",
+    "~/×/b7ced6e51eac3338f26d5434787f6323_MD5.svg",
+    "~/×/86119943d3c025c66a2d7993ddafbc0d_MD5.svg",
+    "~/×/d3a8bebd2812e2da11460217fd759907_MD5.svg",
+    "~/×/0a6a736d6c187cbac70974ba15950b51_MD5.svg",
+    "The Penelopiad - Margaret Atwood.epub",
+    "Calendar/daily/2025/2025-05-28-Wed.md",
+    "Atlas/Knowledge/Media/Articles/Dev/The Early History Of Smalltalk.md",
+    "Top 25 Game Boy Advance Games of All Time.md",
     "Master Task List.md",
+    "shopping 🛍 list.md",
+    "Efforts/Simmering/Senka/Persona/solution to update mail certs on Persona.md",
+    "physical items/owncloud server.md",
+    "Efforts/Simmering/Senka/Persona/Docs/Upute za mail konfiguraciju.md",
     "Clippings/What it’s like to plan a day with AI assistance.md",
-    "~/×/7a56369e63a2f68c58f9827a4e61a247_MD5.jpg",
-    "~/×/7d8dbb889e59cb3ced5a5cda7a355470_MD5.png",
-    "~/×/5b84efa6c7c8bad2b9b96f1a683f57e0_MD5.png",
-    "~/×/9bc82cd61c70a057696b2c8bbb95b16a_MD5.jpg",
-    "~/×/26c2a4d1752cf2a2e6fbc0606c32eeb2_MD5.webp",
+    "Efforts/Simmering/Senka/Persona/archive/archive/persona mail setup.md",
     "Clippings/Innocent Habits That Are Secretly Wrecking Your Body - YouTube.md",
     "Clippings/Circuit design Arduino simulator AND.md",
     "Clippings/Science 'Facts' You Learned That Are Now Hilariously Wrong - YouTube.md",
@@ -251,27 +256,6 @@
     "Clippings/Arduino narudžba.md",
     "Calendar/daily/2025/2025-05-25-Sun.md",
     "Clippings/How Mother 3 Breaks You.md",
-    "Clippings/KMap Solver  Boolean Algebra Solver.md",
-    "shopping 🛍 list.md",
-    "Calendar/daily/2025/2025-05-24-Sat.md",
-    "Efforts/Active/how difficult it is to setup a local FTP server.md",
-    "Calendar/daily/2025/2025-05-27-Tue.md",
-    "Atlas/Tools/Dev/stilliarddocker-pure-ftpd Docker Pure-ftpd Server.md",
-    "~/×/bf5a9c240eebd7a35d0c3ce61cae1c73_MD5.png",
-    "~/×/04b0edc1be4ebc8dd72a30252f023ee7_MD5.png",
-    "~/×/b1fe06724e9017b75f3f3eb0c29cc97a_MD5.png",
-    "~/×/f026f3b7f58b877e0cbd44e6073fd4dd_MD5.png",
-    "~/×/9574a8d00bbd5533bf44eee5e45fc20a_MD5.png",
-    "Clippings/Pulse-width modulation - Wikipedia.md",
-    "Calendar/daily/2025/2025-05-23-Fri.md",
-    "Atlas/Tools/Dev/React/React.md",
-    "Clippings/Docker Compose - FTP Server.md",
-    "owncloud server.md",
-    "Clippings/How to bind to a privileged port on Linux.md",
-    "Efforts/Active/setup Owncloud.md",
-    "Clippings/Owncloud - Installing with Docker.md",
-    "Clippings/File Transfer Protocol.md",
-    "Efforts/Ongoing/Setup Printer on PC.md",
     "Atlas/World/Udruge",
     "Timestamps/2025/05-May",
     "Timestamps/2025",
@@ -281,8 +265,6 @@
     "~/×/fe44e80481b9f64f6fe71b9474861f65_MD5.ico",
     "~/×/30e4665e2772e1fcbba0ada2c89eff38_MD5.ico",
     "~/×/86cb6957b34a2e7956808e34a1f55c1e_MD5.ico",
-    "~/×/4d08bd0854926f79ff184d21edd4a628_MD5.ico",
-    "~/×/2bbff94f3e43ec77e6f24450f2586bcd_MD5.ico",
     "tasks pic.canvas",
     "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"
   ]

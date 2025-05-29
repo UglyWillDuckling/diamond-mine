@@ -12,37 +12,22 @@ related::
 
 - [/] #task fix [[SalesForceApi]] to send data to `media` #work 🆔 O0ejus ⏫ 📅 2025-05-30
 - [/] #task handle `biz_product_coverage` table usage [[#Handle usage of biz_product_coverage table]] #work 🆔 mjQoyM ⏫ ⏳ 2025-05-28 📅 2025-06-06
-	- [x] **update** ticket 🎫
-	- [ ] **sync** feature
-
+	- [ ] [[#Handle usage of biz_product_coverage table]]: sync feature
 ___
 ## status
 
-- [x] update [[SalesForceApi]] to preserve the `iris_id` data
-	- [x] code changes
-	- [x] make **PR**
-- [x] test changes on dev
-	- [x] single
-	- [/] all, [[Alan Jaouen]]
-- [ ] add information about the tables sync to the **ticket** 🎫
-	- [ ] ? maybe create a separate ticket for this
-- [ ] start working on the `sync` feature
-- [ ] update [[SalesForceApi]] to only update items with relevant data
+- [/] update [[SalesForceApi]] to only update items with relevant data
 	- ! don't send invalid requests to [[Media API]]
 
 ## Handle usage of biz_product_coverage table
-> [[coverage table creation def]]
 
-- [x] [[call with Paulo -transac zones table]]
-	- [x] make a [[list of places that modify table biz_product_coverage]]
-	- [x] **check** **diagram** for the transac solution
-	- [x] ? make a [[list of places that use the table]]
-- [/] plan a new solution to update the **coverage** table based on changes made to ???
+- [[coverage table creation def]]
+- [[call with Paulo -transac zones table]]
+
+- [/] **plan** a new solution to update the **coverage** table based on changes made to ???
 	- [/] update diagram to match the changes
 
 ### **check** transac diagram in relation to the table
-- [x] check [[transac diagram]]
-- [x] make [[coverage update canvas.canvas|coverage update canvas]]
 
 This `city_id` is only used as a **filter**. It takes all irises for **one** city from the `geo` table  
  and performs an insert into `coverage`. The Backyard is just a way to <mark style="background: #FF5582A6;">trigger</mark> an update of  certain cities.
@@ -52,16 +37,23 @@ This `city_id` is only used as a **filter**. It takes all irises for **one** cit
 - & **Place** **id** **is** **the id** from the `geo_place2` table
 	- it functions as a `foreign key`[^1]
 
-## deploy SalesForce changes + trigger update
+## update salesforce API to limit the number of requests to `media`
 
-We need to deploy the `SalesForce` changes and after **trigger** the update in [[Media API]]
+how to run tests
+```c
+ docker compose exec app pytest tests/apis/test_realtor_v1.py
+```
 
-- [x] merge [[Media API Clients repo]] PR https://github.com/MeilleursAgents/MA-ApiClients/pull/361
-- [x] merge [[SalesForceApi]] PR 
-
-## update salesforce API
-
-
+- [/]  prevent request submission in case the data is missing
+	- [x] empty `iris_id` list
+	- [/] by key
+- [/] write test
+	- [x] success test
+	- [x] negative test 
+	- [/] `refactor` tests, make a map that `list` that will map inputs to test `assertions`. will take time [^2]  [^3]
+		- [ ] see [[Tips for Writing Better Unit Tests for Your Python Code#6 . Use Parametrized Tests to Avoid Repetition]]
 
 
 [^1]: [[foreign key]]
+[^2]: [[refactoring]]
+[^3]: [[Tips for Writing Better Unit Tests for Your Python Code]]

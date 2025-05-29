@@ -16,4 +16,4 @@ call-me () { sender=$1; shift 1; msg=$*; }
 
 📔using `$*` will use the rest of the params as a **single** value
 
-- [ ] remind me (@[[2025-05-29]]) keyword is `shift {n}`
+- [x] remind me (@[[2025-05-29]]) keyword is `shift {n}`

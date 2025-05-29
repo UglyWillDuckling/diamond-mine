@@ -1352,7 +1352,7 @@ var require_get_intrinsic = __commonJS({
             if (!allowMissing) {
               throw new $TypeError("base intrinsic for " + name + " exists, but the property is not available.");
             }
-            return void 0;
+            return void undefined2;
           }
           if ($gOPD && i + 1 >= parts.length) {
             var desc = $gOPD(value, part);
@@ -1751,32 +1751,28 @@ var DebugHelper = class {
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       "advanced-canvas:node-added",
       (_canvas, _node) => {
-        if (this.logging)
-          console.count("\u{1F7E2} NodeAdded");
+        if (this.logging) console.count("\u{1F7E2} NodeAdded");
         this.nodeAddedCount++;
       }
     ));
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       "advanced-canvas:node-changed",
       (_canvas, _node) => {
-        if (this.logging)
-          console.count("\u{1F7E1} NodeChanged");
+        if (this.logging) console.count("\u{1F7E1} NodeChanged");
         this.nodeChangedCount++;
       }
     ));
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       "advanced-canvas:edge-added",
       (_canvas, _edge) => {
-        if (this.logging)
-          console.count("\u{1F7E2} EdgeAdded");
+        if (this.logging) console.count("\u{1F7E2} EdgeAdded");
         this.edgeAddedCount++;
       }
     ));
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       "advanced-canvas:edge-changed",
       (_canvas, _edge) => {
-        if (this.logging)
-          console.count("\u{1F7E1} EdgeChanged");
+        if (this.logging) console.count("\u{1F7E1} EdgeChanged");
         this.edgeChangedCount++;
       }
     ));
@@ -1789,8 +1785,7 @@ var DebugHelper = class {
   }
   logEfficiency() {
     const canvas = this.plugin.getCurrentCanvas();
-    if (!canvas)
-      return;
+    if (!canvas) return;
     console.log("NodeAdded Efficiency:", this.nodeAddedCount / canvas.nodes.size);
     console.log("NodeChanged Efficiency:", this.nodeChangedCount / canvas.nodes.size);
     console.log("EdgeAdded Efficiency:", this.edgeAddedCount / canvas.edges.size);
@@ -1835,12 +1830,9 @@ function styleAttributeValidator(json) {
   const hasKey = json.key !== void 0;
   const hasLabel = json.label !== void 0;
   const hasOptions = Array.isArray(json.options);
-  if (!hasKey)
-    console.error('Style attribute is missing the "key" property');
-  if (!hasLabel)
-    console.error('Style attribute is missing the "label" property');
-  if (!hasOptions)
-    console.error('Style attribute is missing the "options" property or it is not an array');
+  if (!hasKey) console.error('Style attribute is missing the "key" property');
+  if (!hasLabel) console.error('Style attribute is missing the "label" property');
+  if (!hasOptions) console.error('Style attribute is missing the "options" property or it is not an array');
   json.key = TextHelper.toCamelCase(json.key);
   let optionsValid = true;
   let hasDefault = false;
@@ -1848,19 +1840,13 @@ function styleAttributeValidator(json) {
     const hasIcon = option.icon !== void 0;
     const hasLabel2 = option.label !== void 0;
     const hasValue = option.value !== void 0;
-    if (!hasIcon)
-      console.error(`Style attribute option (${(_a = option.value) != null ? _a : option.label}) is missing the "icon" property`);
-    if (!hasLabel2)
-      console.error(`Style attribute option (${option.value}) is missing the "label" property`);
-    if (!hasValue)
-      console.error(`Style attribute option (${option.label}) is missing the "value" property`);
-    if (!hasIcon || !hasLabel2 || !hasValue)
-      optionsValid = false;
-    if (option.value === null)
-      hasDefault = true;
+    if (!hasIcon) console.error(`Style attribute option (${(_a = option.value) != null ? _a : option.label}) is missing the "icon" property`);
+    if (!hasLabel2) console.error(`Style attribute option (${option.value}) is missing the "label" property`);
+    if (!hasValue) console.error(`Style attribute option (${option.label}) is missing the "value" property`);
+    if (!hasIcon || !hasLabel2 || !hasValue) optionsValid = false;
+    if (option.value === null) hasDefault = true;
   }
-  if (!hasDefault)
-    console.error('Style attribute is missing a default option (option with a "value" of null)');
+  if (!hasDefault) console.error('Style attribute is missing a default option (option with a "value" of null)');
   const isValid = hasKey && hasLabel && hasOptions && optionsValid && hasDefault;
   return isValid ? json : null;
 }
@@ -2072,8 +2058,7 @@ var CanvasExtension = class {
   constructor(plugin) {
     this.plugin = plugin;
     const isEnabled = this.isEnabled();
-    if (!(isEnabled === true || this.plugin.settings.getSetting(isEnabled)))
-      return;
+    if (!(isEnabled === true || this.plugin.settings.getSetting(isEnabled))) return;
     this.init();
   }
 };
@@ -2091,19 +2076,16 @@ var VariableBreakpointCanvasExtension = class extends CanvasExtension {
     ));
   }
   onNodeBreakpointChanged(canvas, node, breakpointRef) {
-    if (!node.initialized)
-      return;
+    if (!node.initialized) return;
     if (node.breakpoint === void 0) {
       const computedStyle = window.getComputedStyle(node.nodeEl);
       const variableBreakpointString = computedStyle.getPropertyValue(VARIABLE_BREAKPOINT_CSS_VAR);
       let numberBreakpoint;
       if (variableBreakpointString.length > 0 && !isNaN(numberBreakpoint = parseFloat(variableBreakpointString)))
         node.breakpoint = numberBreakpoint;
-      else
-        node.breakpoint = null;
+      else node.breakpoint = null;
     }
-    if (node.breakpoint === null)
-      return;
+    if (node.breakpoint === null) return;
     breakpointRef.value = canvas.zoom > node.breakpoint;
   }
 };
@@ -2591,8 +2573,7 @@ var AdvancedCanvasPluginSettingTab = class extends import_obsidian2.PluginSettin
       settingsHeaderChildrenContainerEl.appendChild(document.createElement("span"));
       containerEl.appendChild(settingsHeaderChildrenContainerEl);
       for (let [settingId, setting] of Object.entries(heading.children)) {
-        if (!(settingId in DEFAULT_SETTINGS_VALUES))
-          continue;
+        if (!(settingId in DEFAULT_SETTINGS_VALUES)) continue;
         switch (setting.type) {
           case "text":
             this.createTextSetting(settingsHeaderChildrenContainerEl, settingId, setting);
@@ -2698,10 +2679,8 @@ var AdvancedCanvasPluginSettingTab = class extends import_obsidian2.PluginSettin
           var _a;
           return dropdown.addOptions(Object.fromEntries(styleAttribute.options.map((option) => [option.value, option.value === null ? `${option.label} (default)` : option.label]))).setValue((_a = this.settingsManager.getSetting(settingId)[styleAttribute.key]) != null ? _a : "null").onChange(async (value) => {
             const newValue = this.settingsManager.getSetting(settingId);
-            if (value === "null")
-              delete newValue[styleAttribute.key];
-            else
-              newValue[styleAttribute.key] = value;
+            if (value === "null") delete newValue[styleAttribute.key];
+            else newValue[styleAttribute.key] = value;
             await this.settingsManager.setSetting({
               [settingId]: newValue
             });
@@ -2865,8 +2844,7 @@ var Patcher = class _Patcher {
     return _Patcher.patch(plugin, target, patches, true);
   }
   static patch(plugin, object, patches, prototype = false) {
-    if (!object)
-      return null;
+    if (!object) return null;
     const target = prototype ? object.constructor.prototype : object;
     for (const key of Object.keys(patches)) {
       const patch = patches[key];
@@ -3009,8 +2987,7 @@ var _MigrationHelper = class _MigrationHelper {
   static migrate(canvas) {
     var _a, _b;
     let version = (_b = (_a = canvas.metadata) == null ? void 0 : _a.version) != null ? _b : "undefined";
-    if (version === CURRENT_SPEC_VERSION)
-      return canvas;
+    if (version === CURRENT_SPEC_VERSION) return canvas;
     while (version !== CURRENT_SPEC_VERSION) {
       const migrationFunction = _MigrationHelper.MIGRATIONS[version];
       if (!migrationFunction) {
@@ -3020,10 +2997,8 @@ var _MigrationHelper = class _MigrationHelper {
       const { version: newVersion, canvas: migratedCanvas } = migrationFunction(canvas);
       version = newVersion;
       canvas = migratedCanvas;
-      if (!canvas.metadata)
-        canvas.metadata = { version, frontmatter: {} };
-      else
-        canvas.metadata.version = version;
+      if (!canvas.metadata) canvas.metadata = { version, frontmatter: {} };
+      else canvas.metadata.version = version;
     }
     return canvas;
   }
@@ -3052,13 +3027,10 @@ _MigrationHelper.MIGRATIONS = {
       if (node.edgesToNodeFromPortal) {
         const edgesToNodeFromPortal = node.edgesToNodeFromPortal;
         for (const [portalId, edges] of Object.entries(edgesToNodeFromPortal)) {
-          if (!(portalId in globalInterdimensionalEdges))
-            globalInterdimensionalEdges[portalId] = [];
+          if (!(portalId in globalInterdimensionalEdges)) globalInterdimensionalEdges[portalId] = [];
           for (const edge of edges) {
-            if (edge.fromNode !== node.id)
-              edge.fromNode = `${portalId}-${edge.fromNode}`;
-            if (edge.toNode !== node.id)
-              edge.toNode = `${portalId}-${edge.toNode}`;
+            if (edge.fromNode !== node.id) edge.fromNode = `${portalId}-${edge.fromNode}`;
+            if (edge.toNode !== node.id) edge.toNode = `${portalId}-${edge.toNode}`;
           }
           globalInterdimensionalEdges[portalId].push(...edges);
         }
@@ -3066,8 +3038,7 @@ _MigrationHelper.MIGRATIONS = {
       }
     }
     for (const node of canvas.nodes) {
-      if (!(node.id in globalInterdimensionalEdges))
-        continue;
+      if (!(node.id in globalInterdimensionalEdges)) continue;
       node.interdimensionalEdges = globalInterdimensionalEdges[node.id];
     }
     (_a = canvas.metadata) != null ? _a : canvas.metadata = {
@@ -3087,8 +3058,7 @@ var CanvasPatcher = class extends Patcher {
     if (loadedCanvasViewLeafs.length > 0) {
       console.debug(`Patching and reloading loaded canvas views (Count: ${loadedCanvasViewLeafs.length})`);
       this.patchCanvas(loadedCanvasViewLeafs.first().view);
-      for (const leaf of loadedCanvasViewLeafs)
-        leaf.rebuildView();
+      for (const leaf of loadedCanvasViewLeafs) leaf.rebuildView();
     } else {
       await Patcher.waitForViewRequest(this.plugin, "canvas", (view) => this.patchCanvas(view));
       console.debug(`Patched canvas view on first request`);
@@ -3101,20 +3071,18 @@ var CanvasPatcher = class extends Patcher {
         if (state == null ? void 0 : state.subpath) {
           const nodeId = state.subpath.replace(/^#/, "");
           const node = this.canvas.nodes.get(nodeId);
-          if (!node)
-            return next.call(this, state);
+          if (!node) return next.call(this, state);
           this.canvas.selectOnly(node);
           this.canvas.zoomToSelection();
         }
         return next.call(this, state);
       }),
       setViewData: Patcher.OverrideExisting((next) => function(json, ...args) {
-        json = json !== "" ? json : "{}";
+        json = json !== "" ? json : '{"nodes": [], "edges": []}';
         try {
           const canvasData = dist_default.parse(json);
           if (MigrationHelper.needsMigration(canvasData)) {
-            if (this.file)
-              that.plugin.createFileSnapshot(this.file.path, json);
+            if (this.file) that.plugin.createFileSnapshot(this.file.path, json);
             json = JSON.stringify(MigrationHelper.migrate(canvasData));
           }
         } catch (e) {
@@ -3125,8 +3093,7 @@ var CanvasPatcher = class extends Patcher {
           result = next.call(this, json, ...args);
         } catch (e) {
           console.error("Invalid JSON, repairing through Advanced Canvas:", e);
-          if (this.file)
-            that.plugin.createFileSnapshot(this.file.path, json);
+          if (this.file) that.plugin.createFileSnapshot(this.file.path, json);
           json = JSON.stringify(dist_default.parse(json), null, 2);
           result = next.call(this, json, ...args);
         }
@@ -3137,8 +3104,7 @@ var CanvasPatcher = class extends Patcher {
         const canvasData = this.canvas.getData();
         try {
           const stringified = (0, import_json_stable_stringify.default)(canvasData, { space: 2 });
-          if (stringified === void 0)
-            throw new Error("Failed to stringify canvas data using json-stable-stringify");
+          if (stringified === void 0) throw new Error("Failed to stringify canvas data using json-stable-stringify");
           return stringified;
         } catch (e) {
           console.error("Failed to stringify canvas data using json-stable-stringify:", e);
@@ -3179,8 +3145,7 @@ var CanvasPatcher = class extends Patcher {
       onDoubleClick: Patcher.OverrideExisting((next) => function(event) {
         const preventDefault = { value: false };
         that.plugin.app.workspace.trigger("advanced-canvas:double-click", this, event, preventDefault);
-        if (!preventDefault.value)
-          next.call(this, event);
+        if (!preventDefault.value) next.call(this, event);
       }),
       setDragging: Patcher.OverrideExisting((next) => function(dragging) {
         const result = next.call(this, dragging);
@@ -3229,20 +3194,17 @@ var CanvasPatcher = class extends Patcher {
       }),
       addEdge: Patcher.OverrideExisting((next) => function(edge) {
         that.patchEdge(edge);
-        if (!this.viewportChanged)
-          that.plugin.app.workspace.trigger("advanced-canvas:edge-created", this, edge);
+        if (!this.viewportChanged) that.plugin.app.workspace.trigger("advanced-canvas:edge-created", this, edge);
         return next.call(this, edge);
       }),
       removeNode: Patcher.OverrideExisting((next) => function(node) {
         const result = next.call(this, node);
-        if (!this.isClearing)
-          that.plugin.app.workspace.trigger("advanced-canvas:node-removed", this, node);
+        if (!this.isClearing) that.plugin.app.workspace.trigger("advanced-canvas:node-removed", this, node);
         return result;
       }),
       removeEdge: Patcher.OverrideExisting((next) => function(edge) {
         const result = next.call(this, edge);
-        if (!this.isClearing)
-          that.plugin.app.workspace.trigger("advanced-canvas:edge-removed", this, edge);
+        if (!this.isClearing) that.plugin.app.workspace.trigger("advanced-canvas:edge-removed", this, edge);
         return result;
       }),
       handleCopy: Patcher.OverrideExisting((next) => function(...args) {
@@ -3259,8 +3221,7 @@ var CanvasPatcher = class extends Patcher {
       }),
       getSelectionData: Patcher.OverrideExisting((next) => function(...args) {
         const result = next.call(this, ...args);
-        if (this.isCopying)
-          that.plugin.app.workspace.trigger("advanced-canvas:copy", this, result);
+        if (this.isCopying) that.plugin.app.workspace.trigger("advanced-canvas:copy", this, result);
         return result;
       }),
       zoomToBbox: Patcher.OverrideExisting((next) => function(bbox) {
@@ -3271,8 +3232,7 @@ var CanvasPatcher = class extends Patcher {
       }),
       // Custom
       zoomToRealBbox: (_next) => function(bbox) {
-        if (this.canvasRect.width === 0 || this.canvasRect.height === 0)
-          return;
+        if (this.canvasRect.width === 0 || this.canvasRect.height === 0) return;
         that.plugin.app.workspace.trigger("advanced-canvas:zoom-to-bbox:before", this, bbox);
         const widthZoom = this.canvasRect.width / (bbox.maxX - bbox.minX);
         const heightZoom = this.canvasRect.height / (bbox.maxY - bbox.minY);
@@ -3321,12 +3281,10 @@ var CanvasPatcher = class extends Patcher {
       importData: Patcher.OverrideExisting((next) => function(data, clearCanvas, silent) {
         const targetFilePath = this.view.file.path;
         const setData = (data2) => {
-          if (!this.view.file || this.view.file.path !== targetFilePath)
-            return;
+          if (!this.view.file || this.view.file.path !== targetFilePath) return;
           this.importData(data2, true, true);
         };
-        if (!silent)
-          that.plugin.app.workspace.trigger("advanced-canvas:load-data", this, data, setData);
+        if (!silent) that.plugin.app.workspace.trigger("advanced-canvas:load-data", this, data, setData);
         const result = next.call(this, data, clearCanvas);
         return result;
       }),
@@ -3353,12 +3311,10 @@ var CanvasPatcher = class extends Patcher {
       })
     });
     this.plugin.registerEditorExtension([import_view.EditorView.updateListener.of((update) => {
-      if (!update.docChanged)
-        return;
+      if (!update.docChanged) return;
       const editor = update.state.field(import_obsidian3.editorInfoField);
       const node = editor.node;
-      if (!node)
-        return;
+      if (!node) return;
       that.plugin.app.workspace.trigger("advanced-canvas:node-text-content-changed", node.canvas, node, update);
     })]);
   }
@@ -3373,10 +3329,8 @@ var CanvasPatcher = class extends Patcher {
           delete node.isDirty;
         }
         this.canvas.data = this.canvas.getData();
-        if (this.initialized)
-          this.canvas.view.requestSave();
-        if (addHistory)
-          this.canvas.pushHistory(this.canvas.data);
+        if (this.initialized) this.canvas.view.requestSave();
+        if (addHistory) this.canvas.pushHistory(this.canvas.data);
         return result;
       }),
       setZIndex: (_next) => function(value) {
@@ -3388,15 +3342,13 @@ var CanvasPatcher = class extends Patcher {
       },
       updateZIndex: Patcher.OverrideExisting((next) => function() {
         const persistentZIndex = this.getData().zIndex;
-        if (persistentZIndex === void 0)
-          return next.call(this);
+        if (persistentZIndex === void 0) return next.call(this);
         this.canvas.zIndexCounter = Math.max(this.canvas.zIndexCounter, persistentZIndex);
         this.renderZIndex();
       }),
       renderZIndex: Patcher.OverrideExisting((next) => function() {
         const persistentZIndex = this.getData().zIndex;
-        if (persistentZIndex === void 0)
-          return next.call(this);
+        if (persistentZIndex === void 0) return next.call(this);
         this.zIndex = persistentZIndex;
         if (this.canvas.selection.size === 1 && this.canvas.selection.has(this))
           this.zIndex = this.canvas.zIndexCounter + 1;
@@ -3445,10 +3397,8 @@ var CanvasPatcher = class extends Patcher {
           delete this.isDirty;
         }
         this.canvas.data = this.canvas.getData();
-        if (this.initialized)
-          this.canvas.view.requestSave();
-        if (addHistory)
-          this.canvas.pushHistory(this.canvas.getData());
+        if (this.initialized) this.canvas.view.requestSave();
+        if (addHistory) this.canvas.pushHistory(this.canvas.getData());
         return result;
       }),
       render: Patcher.OverrideExisting((next) => function(...args) {
@@ -3464,8 +3414,7 @@ var CanvasPatcher = class extends Patcher {
       onConnectionPointerdown: Patcher.OverrideExisting((next) => function(e) {
         const cancelRef = { value: false };
         that.plugin.app.workspace.trigger("advanced-canvas:edge-connection-try-dragging:before", this.canvas, this, e, cancelRef);
-        if (cancelRef.value)
-          return;
+        if (cancelRef.value) return;
         const previousEnds = { from: this.from, to: this.to };
         const result = next.call(this, e);
         const eventPos = this.canvas.posFromEvt(e);
@@ -3506,32 +3455,24 @@ var import_obsidian4 = require("obsidian");
 var LinkSuggestionsPatcher = class extends Patcher {
   async patch() {
     var _a;
-    if (!this.plugin.settings.getSetting("enableSingleNodeLinks"))
-      return;
+    if (!this.plugin.settings.getSetting("enableSingleNodeLinks")) return;
     const suggestManager = (_a = this.plugin.app.workspace.editorSuggest.suggests.find((s) => s.suggestManager)) == null ? void 0 : _a.suggestManager;
-    if (!suggestManager)
-      return console.warn("LinkSuggestionsPatcher: No suggest manager found.");
+    if (!suggestManager) return console.warn("LinkSuggestionsPatcher: No suggest manager found.");
     const that = this;
     Patcher.patchThisAndPrototype(this.plugin, suggestManager, {
       getHeadingSuggestions: Patcher.OverrideExisting((next) => async function(context, path, subpath) {
         const result = await next.call(this, context, path, subpath);
-        if (!path.endsWith(".canvas"))
-          return result;
+        if (!path.endsWith(".canvas")) return result;
         const currentFilePath = this.getSourcePath();
         const targetFile = this.app.metadataCache.getFirstLinkpathDest(path, currentFilePath);
-        if (!targetFile)
-          return result;
-        if (!(targetFile instanceof import_obsidian4.TFile) || targetFile.extension !== "canvas")
-          return result;
+        if (!targetFile) return result;
+        if (!(targetFile instanceof import_obsidian4.TFile) || targetFile.extension !== "canvas") return result;
         const fileCache = this.app.metadataCache.getFileCache(targetFile);
-        if (!fileCache)
-          return result;
+        if (!fileCache) return result;
         const canvasNodeCaches = fileCache.nodes;
-        if (!canvasNodeCaches)
-          return result;
+        if (!canvasNodeCaches) return result;
         for (const [nodeId, nodeCache] of Object.entries(canvasNodeCaches)) {
-          if (nodeId === subpath)
-            continue;
+          if (nodeId === subpath) continue;
           const suggestion = {
             file: targetFile,
             heading: nodeId,
@@ -3556,15 +3497,13 @@ var AdvancedCanvasEmbed = class extends import_obsidian5.Component {
   constructor(context, file, subpath) {
     super();
     this.onModifyCallback = (file) => {
-      if (file.path !== this.file.path)
-        return;
+      if (file.path !== this.file.path) return;
       this.loadFile();
     };
     this.context = context;
     this.file = file;
     this.subpath = subpath;
-    if (!subpath)
-      console.warn("AdvancedCanvasEmbed: No subpath provided. This embed will not work as expected.");
+    if (!subpath) console.warn("AdvancedCanvasEmbed: No subpath provided. This embed will not work as expected.");
   }
   onload() {
     this.context.app.vault.on("modify", this.onModifyCallback);
@@ -3573,12 +3512,10 @@ var AdvancedCanvasEmbed = class extends import_obsidian5.Component {
     this.context.app.vault.off("modify", this.onModifyCallback);
   }
   async loadFile() {
-    if (!this.subpath)
-      return;
+    if (!this.subpath) return;
     const nodeId = this.subpath.replace(/^#/, "");
     const canvasContent = await this.context.app.vault.cachedRead(this.file);
-    if (!canvasContent)
-      return console.warn("AdvancedCanvasEmbed: No canvas content found.");
+    if (!canvasContent) return console.warn("AdvancedCanvasEmbed: No canvas content found.");
     const canvasJson = JSON.parse(canvasContent);
     const canvasNode = canvasJson.nodes.find((node) => node.id === nodeId);
     if (!canvasNode) {
@@ -3587,12 +3524,9 @@ var AdvancedCanvasEmbed = class extends import_obsidian5.Component {
       return;
     }
     let nodeContent = "";
-    if (canvasNode.type === "text")
-      nodeContent = canvasNode.text;
-    else if (canvasNode.type === "group")
-      nodeContent = `**Group Node:** ${canvasNode.label}`;
-    else if (canvasNode.type === "file")
-      nodeContent = `**File Node:** ${canvasNode.file}`;
+    if (canvasNode.type === "text") nodeContent = canvasNode.text;
+    else if (canvasNode.type === "group") nodeContent = `**Group Node:** ${canvasNode.label}`;
+    else if (canvasNode.type === "file") nodeContent = `**File Node:** ${canvasNode.file}`;
     this.context.containerEl.classList.add("markdown-embed");
     this.context.containerEl.empty();
     import_obsidian5.MarkdownRenderer.render(this.context.app, nodeContent, this.context.containerEl, this.file.path, this);
@@ -3602,12 +3536,10 @@ var AdvancedCanvasEmbed = class extends import_obsidian5.Component {
 // src/patchers/embed-patcher.ts
 var EmbedPatcher = class extends Patcher {
   async patch() {
-    if (!this.plugin.settings.getSetting("enableSingleNodeLinks"))
-      return;
+    if (!this.plugin.settings.getSetting("enableSingleNodeLinks")) return;
     Patcher.patch(this.plugin, this.plugin.app.embedRegistry.embedByExtension, {
       canvas: (next) => function(context, file, subpath) {
-        if (subpath)
-          return new AdvancedCanvasEmbed(context, file, subpath);
+        if (subpath) return new AdvancedCanvasEmbed(context, file, subpath);
         return next.call(this, context, file, subpath);
       }
     });
@@ -3645,14 +3577,12 @@ var FilepathHelper = class {
 // src/patchers/metadata-cache-patcher.ts
 var MetadataCachePatcher = class extends Patcher {
   async patch() {
-    if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled"))
-      return;
+    if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled")) return;
     const that = this;
     Patcher.patchPrototype(this.plugin, this.plugin.app.metadataCache, {
       getCache: Patcher.OverrideExisting((next) => function(filepath, ...args) {
         if (FilepathHelper.extension(filepath) === "canvas") {
-          if (!this.fileCache.hasOwnProperty(filepath))
-            return null;
+          if (!this.fileCache.hasOwnProperty(filepath)) return null;
           const hash = this.fileCache[filepath].hash;
           return this.metadataCache[hash] || null;
         }
@@ -3670,8 +3600,7 @@ var MetadataCachePatcher = class extends Patcher {
           size: file.stat.size
         });
         const content = JSON.parse((_a = await this.vault.cachedRead(file)) != null ? _a : "{}");
-        if (!(content == null ? void 0 : content.nodes))
-          return;
+        if (!(content == null ? void 0 : content.nodes)) return;
         const frontmatter = (_b = content.metadata) == null ? void 0 : _b.frontmatter;
         const frontmatterData = {};
         if (frontmatter) {
@@ -3682,8 +3611,7 @@ var MetadataCachePatcher = class extends Patcher {
           frontmatterData.frontmatter = frontmatter;
           frontmatterData.frontmatterLinks = Object.entries(frontmatter).flatMap(([key, value]) => {
             const getLinks = (value2) => value2.map((v) => {
-              if (!v.startsWith("[[") || !v.endsWith("]]"))
-                return null;
+              if (!v.startsWith("[[") || !v.endsWith("]]")) return null;
               const [link, ...aliases] = v.slice(2, -2).split("|");
               return {
                 key,
@@ -3693,19 +3621,16 @@ var MetadataCachePatcher = class extends Patcher {
                 position: { start: { line: 0, col: 0, offset: 0 }, end: { line: 0, col: 0, offset: 0 } }
               };
             }).filter((v) => v !== null);
-            if (typeof value === "string")
-              return getLinks([value]);
-            else if (Array.isArray(value))
-              return getLinks(value);
-            if (value)
-              console.warn(`Unsupported frontmatter value type: ${typeof value}`);
+            if (typeof value === "string") return getLinks([value]);
+            else if (Array.isArray(value)) return getLinks(value);
+            if (value) console.warn(`Unsupported frontmatter value type: ${typeof value}`);
             return [];
           });
         }
-        const fileNodesEmbeds = content.nodes.filter((node) => node.type === "file" && node.file).map((node) => [node.id, node.file]).map(([nodeId, file2]) => ({
-          link: file2,
-          original: file2,
-          displayText: file2,
+        const fileNodesEmbeds = content.nodes.filter((node) => node.type === "file" && node.file).map((node) => [node.id, node.file]).map(([nodeId, linkedFile]) => ({
+          link: linkedFile,
+          original: linkedFile,
+          displayText: linkedFile,
           position: {
             nodeId,
             start: { line: 0, col: 0, offset: 0 },
@@ -3758,16 +3683,13 @@ var MetadataCachePatcher = class extends Patcher {
         if (FilepathHelper.extension(filepath) !== "canvas")
           return next.call(this, filepath);
         const file = this.vault.getAbstractFileByPath(filepath);
-        if (!file)
-          return;
+        if (!file) return;
         const metadataCache = this.metadataCache[(_a = this.fileCache[filepath]) == null ? void 0 : _a.hash];
-        if (!metadataCache)
-          return;
+        if (!metadataCache) return;
         const metadataReferences = [...metadataCache.links || [], ...metadataCache.embeds || []];
         this.resolvedLinks[filepath] = metadataReferences.reduce((acc, metadataReference) => {
           const resolvedLinkpath = this.getFirstLinkpathDest(metadataReference.link, filepath);
-          if (!resolvedLinkpath)
-            return acc;
+          if (!resolvedLinkpath) return acc;
           acc[resolvedLinkpath.path] = (acc[resolvedLinkpath.path] || 0) + 1;
           return acc;
         }, {});
@@ -3775,10 +3697,8 @@ var MetadataCachePatcher = class extends Patcher {
           for (const edge of cachedContent.edges || []) {
             const from = (_b = cachedContent.nodes) == null ? void 0 : _b.find((node) => node.id === edge.fromNode);
             const to = (_c = cachedContent.nodes) == null ? void 0 : _c.find((node) => node.id === edge.toNode);
-            if (!from || !to)
-              continue;
-            if (from.type !== "file" || to.type !== "file" || !from.file || !from.file)
-              continue;
+            if (!from || !to) continue;
+            if (from.type !== "file" || to.type !== "file" || !from.file || !from.file) continue;
             const fromFile = from.file;
             const toFile = to.file;
             this.registerInternalLinkAC(file.name, fromFile, toFile);
@@ -3791,13 +3711,10 @@ var MetadataCachePatcher = class extends Patcher {
       }),
       registerInternalLinkAC: (_next) => async function(canvasName, from, to) {
         var _a, _b, _c, _d;
-        if (from === to)
-          return;
+        if (from === to) return;
         const fromFile = this.vault.getAbstractFileByPath(from);
-        if (!fromFile || !(fromFile instanceof import_obsidian6.TFile))
-          return;
-        if (!["md", "canvas"].includes(fromFile.extension))
-          return;
+        if (!fromFile || !(fromFile instanceof import_obsidian6.TFile)) return;
+        if (!["md", "canvas"].includes(fromFile.extension)) return;
         const fromFileHash = (_b = (_a = this.fileCache[from]) == null ? void 0 : _a.hash) != null ? _b : await HashHelper.getFileHash(that.plugin, fromFile);
         const fromFileMetadataCache = (_c = this.metadataCache[fromFileHash]) != null ? _c : { v: 1 };
         this.metadataCache[fromFileHash] = {
@@ -3819,8 +3736,7 @@ var MetadataCachePatcher = class extends Patcher {
       }
     });
     this.plugin.registerEvent(this.plugin.app.vault.on("modify", (file) => {
-      if (FilepathHelper.extension(file.path) !== "canvas")
-        return;
+      if (FilepathHelper.extension(file.path) !== "canvas") return;
       this.plugin.app.metadataCache.computeFileMetadataAsync(file);
     }));
   }
@@ -3834,8 +3750,7 @@ var BacklinksPatcher = class extends Patcher {
     this.isRecomputingBacklinks = false;
   }
   async patch() {
-    if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled"))
-      return;
+    if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled")) return;
     const that = this;
     await Patcher.waitForViewRequest(this.plugin, "backlink", (view) => {
       Patcher.patchPrototype(this.plugin, view.backlink, {
@@ -3853,14 +3768,12 @@ var BacklinksPatcher = class extends Patcher {
           var current = stack.pop();
           if (current) {
             traverse(current);
-            if (current instanceof import_obsidian7.TFolder)
-              stack = stack.concat(current.children);
+            if (current instanceof import_obsidian7.TFolder) stack = stack.concat(current.children);
           }
         }
       },
       getMarkdownFiles: Patcher.OverrideExisting((next) => function(...args) {
-        if (!that.isRecomputingBacklinks)
-          return next.call(this, ...args);
+        if (!that.isRecomputingBacklinks) return next.call(this, ...args);
         var files = [];
         var root = this.getRoot();
         this.recurseChildrenAC(root, (child) => {
@@ -3877,29 +3790,24 @@ var BacklinksPatcher = class extends Patcher {
 // src/patchers/outgoing-links-patcher.ts
 var OutgoingLinksPatcher = class extends Patcher {
   async patch() {
-    if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled"))
-      return;
+    if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled")) return;
     const that = this;
     await Patcher.waitForViewRequest(this.plugin, "outgoing-link", (view) => {
       Patcher.patchPrototype(this.plugin, view.outgoingLink, {
         recomputeLinks: Patcher.OverrideExisting((next) => function(...args) {
           var _a;
           const isCanvas = ((_a = this.file) == null ? void 0 : _a.extension) === "canvas";
-          if (isCanvas)
-            this.file.extension = "md";
+          if (isCanvas) this.file.extension = "md";
           const result = next.call(this, ...args);
-          if (isCanvas)
-            this.file.extension = "canvas";
+          if (isCanvas) this.file.extension = "canvas";
           return result;
         }),
         recomputeUnlinked: Patcher.OverrideExisting((next) => function(...args) {
           var _a;
           const isCanvas = ((_a = this.file) == null ? void 0 : _a.extension) === "canvas";
-          if (isCanvas)
-            this.file.extension = "md";
+          if (isCanvas) this.file.extension = "md";
           const result = next.call(this, ...args);
-          if (isCanvas)
-            this.file.extension = "canvas";
+          if (isCanvas) this.file.extension = "canvas";
           return result;
         })
       });
@@ -3910,14 +3818,12 @@ var OutgoingLinksPatcher = class extends Patcher {
 // src/patchers/properties-patcher.ts
 var PropertiesPatcher = class extends Patcher {
   async patch() {
-    if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled"))
-      return;
+    if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled")) return;
     const that = this;
     await Patcher.waitForViewRequest(this.plugin, "file-properties", (view) => {
       Patcher.patchPrototype(this.plugin, view, {
         isSupportedFile: Patcher.OverrideExisting((next) => function(file) {
-          if ((file == null ? void 0 : file.extension) === "canvas")
-            return true;
+          if ((file == null ? void 0 : file.extension) === "canvas") return true;
           return next.call(this, file);
         }),
         updateFrontmatter: Patcher.OverrideExisting((next) => function(file, content) {
@@ -3933,12 +3839,10 @@ var PropertiesPatcher = class extends Patcher {
         saveFrontmatter: Patcher.OverrideExisting((next) => function(frontmatter) {
           var _a;
           if (((_a = this.file) == null ? void 0 : _a.extension) === "canvas") {
-            if (this.file !== this.modifyingFile)
-              return;
+            if (this.file !== this.modifyingFile) return;
             this.app.vault.process(this.file, (data) => {
               const content = JSON.parse(data);
-              if (content == null ? void 0 : content.metadata)
-                content.metadata.frontmatter = frontmatter;
+              if (content == null ? void 0 : content.metadata) content.metadata.frontmatter = frontmatter;
               return JSON.stringify(content, null, 2);
             });
             return;
@@ -3953,8 +3857,7 @@ var PropertiesPatcher = class extends Patcher {
 // src/patchers/search-patcher.ts
 var SearchPatcher = class extends Patcher {
   async patch() {
-    if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled"))
-      return;
+    if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled")) return;
     const that = this;
     await Patcher.waitForViewRequest(this.plugin, "search", (view) => {
       const uninstaller = around(view, {
@@ -3986,20 +3889,15 @@ var SearchPatcher = class extends Patcher {
 var import_obsidian8 = require("obsidian");
 var SearchCommandPatcher = class extends Patcher {
   async patch() {
-    if (!this.plugin.settings.getSetting("nativeFileSearchEnabled"))
-      return;
+    if (!this.plugin.settings.getSetting("nativeFileSearchEnabled")) return;
     const that = this;
     Patcher.patch(this.plugin, this.plugin.app.commands.commands["editor:open-search"], {
       checkCallback: Patcher.OverrideExisting((next) => function(checking) {
-        if (that.plugin.app.workspace.activeEditor)
-          return next.call(this, checking);
+        if (that.plugin.app.workspace.activeEditor) return next.call(this, checking);
         const activeCanvasView = that.plugin.getCurrentCanvasView();
-        if (!activeCanvasView)
-          return next.call(this, checking);
-        if (checking)
-          return true;
-        if (!activeCanvasView.canvas.searchEl)
-          new CanvasSearchView(activeCanvasView);
+        if (!activeCanvasView) return next.call(this, checking);
+        if (checking) return true;
+        if (!activeCanvasView.canvas.searchEl) new CanvasSearchView(activeCanvasView);
         return true;
       })
     });
@@ -4069,20 +3967,15 @@ var CanvasSearchView = class {
   onInput() {
     const hasQuery = this.searchInput.value.length > 0;
     this.searchCount.style.display = hasQuery ? "block" : "none";
-    if (!hasQuery)
-      this.searchMatches = [];
+    if (!hasQuery) this.searchMatches = [];
     else {
       this.searchMatches = Array.from(this.view.canvas.nodes.values()).map((node) => {
         const nodeData = node.getData();
         let content = void 0;
-        if (nodeData.type === "text")
-          content = nodeData.text;
-        else if (nodeData.type === "group")
-          content = nodeData.label;
-        else if (nodeData.type === "file")
-          content = node.child.data;
-        if (!content)
-          return null;
+        if (nodeData.type === "text") content = nodeData.text;
+        else if (nodeData.type === "group") content = nodeData.label;
+        else if (nodeData.type === "file") content = node.child.data;
+        if (!content) return null;
         const matches = [];
         const regex = new RegExp(this.searchInput.value, "gi");
         let match;
@@ -4095,16 +3988,13 @@ var CanvasSearchView = class {
     this.changeMatch(0);
   }
   changeMatch(index) {
-    if (this.searchMatches.length === 0)
-      this.matchIndex = -1;
+    if (this.searchMatches.length === 0) this.matchIndex = -1;
     else {
-      if (index < 0)
-        index += this.searchMatches.length;
+      if (index < 0) index += this.searchMatches.length;
       this.matchIndex = index % this.searchMatches.length;
     }
     const match = this.searchMatches[this.matchIndex];
-    if (match)
-      this.goToMatch(match);
+    if (match) this.goToMatch(match);
     this.searchCount.textContent = `${this.matchIndex + 1} / ${this.searchMatches.length}`;
   }
   goToMatch(match) {
@@ -4150,8 +4040,7 @@ var MetadataCanvasExtension = class extends CanvasExtension {
       get(target, key) {
         if (typeof target[key] === "object" && target[key] !== null)
           return new Proxy(target[key], validator);
-        else
-          return target[key];
+        else return target[key];
       },
       set(target, key, value) {
         target[key] = value;
@@ -4169,8 +4058,7 @@ var MetadataCanvasExtension = class extends CanvasExtension {
       canvas.wrapperEl.classList.remove(...this.canvasCssclassesCache.get(canvas.view));
     const currentClasses = (_c = (_b = (_a = canvas.metadata) == null ? void 0 : _a.frontmatter) == null ? void 0 : _b.cssclasses) != null ? _c : [];
     this.canvasCssclassesCache.set(canvas.view, currentClasses);
-    if (currentClasses.length > 0)
-      canvas.wrapperEl.classList.add(...currentClasses);
+    if (currentClasses.length > 0) canvas.wrapperEl.classList.add(...currentClasses);
   }
   onCanvasViewUnloaded(view) {
     this.canvasCssclassesCache.delete(view);
@@ -4217,12 +4105,10 @@ var FileNameModal = class extends import_obsidian10.SuggestModal {
   }
   getSuggestions(query) {
     const queryWithoutExtension = query.replace(new RegExp(`\\.${this.fileExtension}$`), "");
-    if (queryWithoutExtension === "")
-      return [];
+    if (queryWithoutExtension === "") return [];
     const queryWithExtension = queryWithoutExtension + "." + this.fileExtension;
     const suggestions = [queryWithExtension];
-    if (this.parentPath.length > 0)
-      suggestions.splice(0, 0, `${this.parentPath}/${queryWithExtension}`);
+    if (this.parentPath.length > 0) suggestions.splice(0, 0, `${this.parentPath}/${queryWithExtension}`);
     return suggestions.filter((s) => this.app.vault.getAbstractFileByPath(s) === null);
   }
   renderSuggestion(text, el) {
@@ -4268,8 +4154,7 @@ var FileSelectModal = class extends import_obsidian10.SuggestModal {
   }
   getSuggestions(query) {
     const suggestions = this.files.filter((path) => path.toLowerCase().includes(query.toLowerCase()));
-    if (suggestions.length === 0 && this.suggestNewFile)
-      suggestions.push(query);
+    if (suggestions.length === 0 && this.suggestNewFile) suggestions.push(query);
     return suggestions;
   }
   renderSuggestion(path, el) {
@@ -4284,10 +4169,8 @@ var FileSelectModal = class extends import_obsidian10.SuggestModal {
         const file = this.app.vault.getAbstractFileByPath(path);
         if (file instanceof import_obsidian10.TFile)
           return resolve(file);
-        if (!this.suggestNewFile)
-          return;
-        if (FilepathHelper.extension(path) === void 0)
-          path += ".md";
+        if (!this.suggestNewFile) return;
+        if (FilepathHelper.extension(path) === void 0) path += ".md";
         const newFile = this.app.vault.create(path, "");
         resolve(newFile);
       };
@@ -4312,8 +4195,7 @@ var NodeRatioCanvasExtension = class extends CanvasExtension {
     ));
   }
   onNodeMenu(menu, node) {
-    if (!this.plugin.settings.getSetting("aspectRatioControlFeatureEnabled"))
-      return;
+    if (!this.plugin.settings.getSetting("aspectRatioControlFeatureEnabled")) return;
     menu.addItem((item) => {
       item.setTitle("Set Aspect Ratio").setIcon("aspect-ratio").onClick(async () => {
         const NO_RATIO = "No ratio enforcement";
@@ -4342,8 +4224,7 @@ var NodeRatioCanvasExtension = class extends CanvasExtension {
   }
   onNodeResized(_canvas, node) {
     const nodeData = node.getData();
-    if (!nodeData.ratio)
-      return;
+    if (!nodeData.ratio) return;
     const nodeBBox = node.getBBox();
     const nodeSize = {
       width: nodeBBox.maxX - nodeBBox.minX,
@@ -4352,8 +4233,7 @@ var NodeRatioCanvasExtension = class extends CanvasExtension {
     const nodeAspectRatio = nodeSize.width / nodeSize.height;
     if (nodeAspectRatio < nodeData.ratio)
       nodeSize.width = nodeSize.height * nodeData.ratio;
-    else
-      nodeSize.height = nodeSize.width / nodeData.ratio;
+    else nodeSize.height = nodeSize.width / nodeData.ratio;
     node.setData({
       ...nodeData,
       width: nodeSize.width,
@@ -4368,17 +4248,14 @@ var _CanvasHelper = class _CanvasHelper {
   static canvasCommand(plugin, check, run) {
     return (checking) => {
       const canvas = plugin.getCurrentCanvas();
-      if (checking)
-        return canvas !== null && check(canvas);
-      if (canvas)
-        run(canvas);
+      if (checking) return canvas !== null && check(canvas);
+      if (canvas) run(canvas);
       return true;
     };
   }
   static createControlMenuButton(menuOption) {
     const quickSetting = document.createElement("div");
-    if (menuOption.id)
-      quickSetting.id = menuOption.id;
+    if (menuOption.id) quickSetting.id = menuOption.id;
     quickSetting.classList.add("canvas-control-item");
     (0, import_obsidian11.setIcon)(quickSetting, menuOption.icon);
     (0, import_obsidian11.setTooltip)(quickSetting, menuOption.label, { placement: "left" });
@@ -4390,14 +4267,12 @@ var _CanvasHelper = class _CanvasHelper {
   }
   static addControlMenuButton(controlGroup, element) {
     var _a;
-    if (element.id)
-      (_a = controlGroup.querySelector(`#${element.id}`)) == null ? void 0 : _a.remove();
+    if (element.id) (_a = controlGroup.querySelector(`#${element.id}`)) == null ? void 0 : _a.remove();
     controlGroup.appendChild(element);
   }
   static createCardMenuOption(canvas, menuOption, previewNodeSize, onPlaced) {
     const menuOptionElement = document.createElement("div");
-    if (menuOption.id)
-      menuOptionElement.id = menuOption.id;
+    if (menuOption.id) menuOptionElement.id = menuOption.id;
     menuOptionElement.classList.add("canvas-card-menu-button");
     menuOptionElement.classList.add("mod-draggable");
     (0, import_obsidian11.setIcon)(menuOptionElement, menuOption.icon);
@@ -4415,14 +4290,12 @@ var _CanvasHelper = class _CanvasHelper {
   }
   static addCardMenuOption(canvas, element) {
     var _a;
-    if (element.id)
-      (_a = canvas == null ? void 0 : canvas.cardMenuEl.querySelector(`#${element.id}`)) == null ? void 0 : _a.remove();
+    if (element.id) (_a = canvas == null ? void 0 : canvas.cardMenuEl.querySelector(`#${element.id}`)) == null ? void 0 : _a.remove();
     canvas == null ? void 0 : canvas.cardMenuEl.appendChild(element);
   }
   static createPopupMenuOption(menuOption) {
     const menuOptionElement = document.createElement("button");
-    if (menuOption.id)
-      menuOptionElement.id = menuOption.id;
+    if (menuOption.id) menuOptionElement.id = menuOption.id;
     menuOptionElement.classList.add("clickable-icon");
     (0, import_obsidian11.setIcon)(menuOptionElement, menuOption.icon);
     (0, import_obsidian11.setTooltip)(menuOptionElement, menuOption.label, { placement: "top" });
@@ -4459,12 +4332,10 @@ var _CanvasHelper = class _CanvasHelper {
   static addPopupMenuOption(canvas, element, index = -1) {
     var _a;
     const popupMenuEl = (_a = canvas == null ? void 0 : canvas.menu) == null ? void 0 : _a.menuEl;
-    if (!popupMenuEl)
-      return;
+    if (!popupMenuEl) return;
     if (element.id) {
       const optionToReplace = popupMenuEl.querySelector(`#${element.id}`);
-      if (optionToReplace && index === -1)
-        index = Array.from(popupMenuEl.children).indexOf(optionToReplace) - 1;
+      if (optionToReplace && index === -1) index = Array.from(popupMenuEl.children).indexOf(optionToReplace) - 1;
       optionToReplace == null ? void 0 : optionToReplace.remove();
     }
     const sisterElement = index >= 0 ? popupMenuEl.children[index] : popupMenuEl.children[popupMenuEl.children.length + index];
@@ -4479,8 +4350,7 @@ var _CanvasHelper = class _CanvasHelper {
   }
   static getBBox(canvasElements) {
     const bBoxes = canvasElements.map((element) => {
-      if (element.getBBox)
-        return element.getBBox();
+      if (element.getBBox) return element.getBBox();
       const nodeData = element;
       if (nodeData.x !== void 0 && nodeData.y !== void 0 && nodeData.width !== void 0 && nodeData.height !== void 0)
         return { minX: nodeData.x, minY: nodeData.y, maxX: nodeData.x + nodeData.width, maxY: nodeData.y + nodeData.height };
@@ -4489,10 +4359,8 @@ var _CanvasHelper = class _CanvasHelper {
     return BBoxHelper.combineBBoxes(bBoxes);
   }
   static getSmallestAllowedZoomBBox(canvas, bbox) {
-    if (canvas.screenshotting)
-      return bbox;
-    if (canvas.canvasRect.width === 0 || canvas.canvasRect.height === 0)
-      return bbox;
+    if (canvas.screenshotting) return bbox;
+    if (canvas.canvasRect.width === 0 || canvas.canvasRect.height === 0) return bbox;
     const widthZoom = canvas.canvasRect.width / (bbox.maxX - bbox.minX);
     const heightZoom = canvas.canvasRect.height / (bbox.maxY - bbox.minY);
     const requiredZoom = Math.min(widthZoom, heightZoom);
@@ -4505,8 +4373,7 @@ var _CanvasHelper = class _CanvasHelper {
   static addStyleAttributesToPopup(plugin, canvas, styleAttributes, currentStyleAttributes, setStyleAttribute) {
     if (!plugin.settings.getSetting("combineCustomStylesInDropdown"))
       this.addStyleAttributesButtons(canvas, styleAttributes, currentStyleAttributes, setStyleAttribute);
-    else
-      this.addStyleAttributesDropdownMenu(canvas, styleAttributes, currentStyleAttributes, setStyleAttribute);
+    else this.addStyleAttributesDropdownMenu(canvas, styleAttributes, currentStyleAttributes, setStyleAttribute);
   }
   static addStyleAttributesButtons(canvas, stylableAttributes, currentStyleAttributes, setStyleAttribute) {
     var _a;
@@ -4535,8 +4402,7 @@ var _CanvasHelper = class _CanvasHelper {
     const STYLE_MENU_DROPDOWN_ID = "style-menu-dropdown";
     const STYLE_MENU_DROPDOWN_SUBMENU_ID = "style-menu-dropdown-submenu";
     const popupMenuElement = (_a = canvas == null ? void 0 : canvas.menu) == null ? void 0 : _a.menuEl;
-    if (!popupMenuElement)
-      return;
+    if (!popupMenuElement) return;
     (_b = popupMenuElement.querySelector(`#${STYLE_MENU_ID}`)) == null ? void 0 : _b.remove();
     const styleMenuButtonElement = document.createElement("button");
     styleMenuButtonElement.id = STYLE_MENU_ID;
@@ -4563,8 +4429,7 @@ var _CanvasHelper = class _CanvasHelper {
       const rightPosition = popupMenuElement.getBoundingClientRect().right - styleMenuButtonElement.getBoundingClientRect().right;
       if (popupMenuElement.getBoundingClientRect().left + leftPosition < canvasWrapperCenterX)
         styleMenuDropdownElement.style.left = `${leftPosition}px`;
-      else
-        styleMenuDropdownElement.style.right = `${rightPosition}px`;
+      else styleMenuDropdownElement.style.right = `${rightPosition}px`;
       for (const stylableAttribute of stylableAttributes) {
         const stylableAttributeElement = document.createElement("div");
         stylableAttributeElement.classList.add("menu-item");
@@ -4603,8 +4468,7 @@ var _CanvasHelper = class _CanvasHelper {
           const rightPosition2 = popupMenuElement.getBoundingClientRect().right - styleMenuDropdownElement.getBoundingClientRect().left;
           if (popupMenuElement.getBoundingClientRect().left + leftPosition2 < canvasWrapperCenterX)
             styleMenuDropdownSubmenuElement.style.left = `${leftPosition2}px`;
-          else
-            styleMenuDropdownSubmenuElement.style.right = `${rightPosition2}px`;
+          else styleMenuDropdownSubmenuElement.style.right = `${rightPosition2}px`;
           for (const styleOption of stylableAttribute.options) {
             const styleMenuDropdownSubmenuOptionElement = this.createDropdownOptionElement({
               label: styleOption.label,
@@ -4821,14 +4685,11 @@ var PresentationCanvasExtension = class extends CanvasExtension {
     );
   }
   onPopupMenuCreated(canvas) {
-    if (!this.plugin.settings.getSetting("showSetStartNodeInPopup"))
-      return;
+    if (!this.plugin.settings.getSetting("showSetStartNodeInPopup")) return;
     const selectedNodesData = canvas.getSelectionData().nodes;
-    if (canvas.readonly || selectedNodesData.length !== 1 || canvas.selection.size > 1)
-      return;
+    if (canvas.readonly || selectedNodesData.length !== 1 || canvas.selection.size > 1) return;
     const selectedNode = canvas.nodes.get(selectedNodesData[0].id);
-    if (!selectedNode)
-      return;
+    if (!selectedNode) return;
     CanvasHelper.addPopupMenuOption(
       canvas,
       CanvasHelper.createPopupMenuOption({
@@ -4840,8 +4701,7 @@ var PresentationCanvasExtension = class extends CanvasExtension {
     );
   }
   setStartNode(canvas, node) {
-    if (!node)
-      return;
+    if (!node) return;
     canvas.metadata["startNode"] = node.getData().id;
   }
   getDefaultSlideSize() {
@@ -4871,8 +4731,7 @@ var PresentationCanvasExtension = class extends CanvasExtension {
         y: bbox.minY
       };
     }
-    if (!pos)
-      pos = CanvasHelper.getCenterCoordinates(canvas, this.getDefaultSlideSize());
+    if (!pos) pos = CanvasHelper.getCenterCoordinates(canvas, this.getDefaultSlideSize());
     const groupNode = canvas.createGroupNode({
       pos,
       size: slideSize,
@@ -4883,8 +4742,7 @@ var PresentationCanvasExtension = class extends CanvasExtension {
       ...groupNode.getData(),
       ratio: slideAspectRatio
     });
-    if (isStartNode)
-      canvas.metadata["startNode"] = groupNode.getData().id;
+    if (isStartNode) canvas.metadata["startNode"] = groupNode.getData().id;
   }
   async animateNodeTransition(canvas, fromNode, toNode) {
     const useCustomZoomFunction = this.plugin.settings.getSetting("zoomToSlideWithoutPadding");
@@ -4894,24 +4752,18 @@ var PresentationCanvasExtension = class extends CanvasExtension {
       const animationIntensity = this.plugin.settings.getSetting("slideTransitionAnimationIntensity");
       const fromNodeBBox = CanvasHelper.getSmallestAllowedZoomBBox(canvas, fromNode.getBBox());
       const currentNodeBBoxEnlarged = BBoxHelper.scaleBBox(fromNodeBBox, animationIntensity);
-      if (useCustomZoomFunction)
-        canvas.zoomToRealBbox(currentNodeBBoxEnlarged);
-      else
-        canvas.zoomToBbox(currentNodeBBoxEnlarged);
+      if (useCustomZoomFunction) canvas.zoomToRealBbox(currentNodeBBoxEnlarged);
+      else canvas.zoomToBbox(currentNodeBBoxEnlarged);
       await sleep(animationDurationMs / 2);
       if (fromNode.getData().id !== toNode.getData().id) {
         const nextNodeBBoxEnlarged = BBoxHelper.scaleBBox(toNodeBBox, animationIntensity + 0.1);
-        if (useCustomZoomFunction)
-          canvas.zoomToRealBbox(nextNodeBBoxEnlarged);
-        else
-          canvas.zoomToBbox(nextNodeBBoxEnlarged);
+        if (useCustomZoomFunction) canvas.zoomToRealBbox(nextNodeBBoxEnlarged);
+        else canvas.zoomToBbox(nextNodeBBoxEnlarged);
         await sleep(animationDurationMs / 2);
       }
     }
-    if (useCustomZoomFunction)
-      canvas.zoomToRealBbox(toNodeBBox);
-    else
-      canvas.zoomToBbox(toNodeBBox);
+    if (useCustomZoomFunction) canvas.zoomToRealBbox(toNodeBBox);
+    else canvas.zoomToBbox(toNodeBBox);
   }
   async startPresentation(canvas, tryContinue = false) {
     if (!tryContinue || this.visitedNodeIds.length === 0) {
@@ -4935,16 +4787,12 @@ var PresentationCanvasExtension = class extends CanvasExtension {
       canvas.screenshotting = true;
     canvas.wrapperEl.onkeydown = (e) => {
       if (this.plugin.settings.getSetting("useArrowKeysToChangeSlides")) {
-        if (e.key === "ArrowRight")
-          this.nextNode(canvas);
-        else if (e.key === "ArrowLeft")
-          this.previousNode(canvas);
+        if (e.key === "ArrowRight") this.nextNode(canvas);
+        else if (e.key === "ArrowLeft") this.previousNode(canvas);
       }
       if (this.plugin.settings.getSetting("usePgUpPgDownKeysToChangeSlides")) {
-        if (e.key === "PageDown")
-          this.nextNode(canvas);
-        else if (e.key === "PageUp")
-          this.previousNode(canvas);
+        if (e.key === "PageDown") this.nextNode(canvas);
+        else if (e.key === "PageUp") this.previousNode(canvas);
       }
     };
     this.fullscreenModalObserver = new MutationObserver((mutationRecords) => {
@@ -4956,23 +4804,19 @@ var PresentationCanvasExtension = class extends CanvasExtension {
         });
       });
       const inputField = document.querySelector(".prompt-input");
-      if (inputField)
-        inputField.focus();
+      if (inputField) inputField.focus();
     });
     this.fullscreenModalObserver.observe(document.body, { childList: true });
     canvas.wrapperEl.onfullscreenchange = (_e) => {
-      if (document.fullscreenElement)
-        return;
+      if (document.fullscreenElement) return;
       this.endPresentation(canvas);
     };
     this.isPresentationMode = true;
     await sleep(500);
     const startNodeId = this.visitedNodeIds.first();
-    if (!startNodeId)
-      return;
+    if (!startNodeId) return;
     const startNode = canvas.nodes.get(startNodeId);
-    if (!startNode)
-      return;
+    if (!startNode) return;
     this.animateNodeTransition(canvas, void 0, startNode);
   }
   endPresentation(canvas) {
@@ -4985,8 +4829,7 @@ var PresentationCanvasExtension = class extends CanvasExtension {
     if (this.plugin.settings.getSetting("useUnclampedZoomWhilePresenting"))
       canvas.screenshotting = false;
     canvas.wrapperEl.classList.remove("presentation-mode");
-    if (document.fullscreenElement)
-      document.exitFullscreen();
+    if (document.fullscreenElement) document.exitFullscreen();
     if (this.plugin.settings.getSetting("resetViewportOnPresentationEnd"))
       canvas.setViewport(this.savedViewport.x, this.savedViewport.y, this.savedViewport.zoom);
     this.isPresentationMode = false;
@@ -4994,19 +4837,15 @@ var PresentationCanvasExtension = class extends CanvasExtension {
   nextNode(canvas) {
     var _a;
     const fromNodeId = this.visitedNodeIds.last();
-    if (!fromNodeId)
-      return;
+    if (!fromNodeId) return;
     const fromNode = canvas.nodes.get(fromNodeId);
-    if (!fromNode)
-      return;
+    if (!fromNode) return;
     const outgoingEdges = canvas.getEdgesForNode(fromNode).filter((edge) => edge.from.node.getData().id === fromNodeId);
     let toNode = (_a = outgoingEdges.first()) == null ? void 0 : _a.to.node;
     if (outgoingEdges.length > 1) {
       const sortedEdges = outgoingEdges.sort((a, b) => {
-        if (!a.label)
-          return 1;
-        if (!b.label)
-          return -1;
+        if (!a.label) return 1;
+        if (!b.label) return -1;
         return a.label.localeCompare(b.label);
       });
       const traversedEdgesCount = this.visitedNodeIds.filter((visitedNodeId) => visitedNodeId === fromNodeId).length - 1;
@@ -5022,11 +4861,9 @@ var PresentationCanvasExtension = class extends CanvasExtension {
   }
   previousNode(canvas) {
     const fromNodeId = this.visitedNodeIds.pop();
-    if (!fromNodeId)
-      return;
+    if (!fromNodeId) return;
     const fromNode = canvas.nodes.get(fromNodeId);
-    if (!fromNode)
-      return;
+    if (!fromNode) return;
     const toNodeId = this.visitedNodeIds.last();
     let toNode = toNodeId ? canvas.nodes.get(toNodeId) : null;
     if (!toNode) {
@@ -5096,8 +4933,7 @@ var ZOrderingCanvasExtension = class extends CanvasExtension {
     const selectedNodeBBox = selectedNode.getBBox();
     const collidingNodes = [...canvas.nodes.values()].filter((node) => BBoxHelper.isColliding(selectedNodeBBox, node.getBBox())).filter((node) => node !== selectedNode);
     const nearestZIndexNode = collidingNodes.sort((a, b) => forward ? a.zIndex - b.zIndex : b.zIndex - a.zIndex).filter((node) => forward ? node.zIndex > selectedNode.zIndex : node.zIndex < selectedNode.zIndex).first();
-    if (nearestZIndexNode === void 0)
-      return;
+    if (nearestZIndexNode === void 0) return;
     const targetZIndex = nearestZIndexNode.zIndex;
     this.setNodesZIndex([nearestZIndexNode], selectedNode.zIndex);
     this.setNodesZIndex([selectedNode], targetZIndex);
@@ -5107,8 +4943,7 @@ var ZOrderingCanvasExtension = class extends CanvasExtension {
     this.setNodesZIndex(selectedNodes, targetZIndex);
   }
   removePersistentZIndexes(_canvas, nodes) {
-    for (const node of nodes)
-      node.setZIndex(void 0);
+    for (const node of nodes) node.setZIndex(void 0);
   }
   setNodesZIndex(nodes, zIndex) {
     const sortedNodes = nodes.sort((a, b) => a.zIndex - b.zIndex);
@@ -5166,8 +5001,7 @@ var BetterReadonlyCanvasExtension = class extends CanvasExtension {
       this.updateLockedPan(canvas);
       return;
     }
-    if (!canvas.readonly)
-      return;
+    if (!canvas.readonly) return;
     if (this.plugin.settings.getSetting("disableZoom")) {
       canvas.zoom = (_a = canvas.lockedZoom) != null ? _a : canvas.zoom;
       canvas.tZoom = (_b = canvas.lockedZoom) != null ? _b : canvas.tZoom;
@@ -5182,8 +5016,7 @@ var BetterReadonlyCanvasExtension = class extends CanvasExtension {
   addQuickSettings(canvas) {
     var _a;
     const settingsContainer = (_a = canvas.quickSettingsButton) == null ? void 0 : _a.parentElement;
-    if (!settingsContainer)
-      return;
+    if (!settingsContainer) return;
     CanvasHelper.addControlMenuButton(
       settingsContainer,
       this.createToggle({
@@ -5271,10 +5104,8 @@ var EncapsulateCanvasExtension = class extends CanvasExtension {
     const canvasSettings = this.plugin.app.internalPlugins.plugins.canvas.instance.options;
     const defaultNewCanvasLocation = canvasSettings.newFileLocation;
     let targetFolderPath = this.plugin.app.vault.getRoot().path;
-    if (defaultNewCanvasLocation === "current")
-      targetFolderPath = (_c = (_b = (_a = canvas.view.file) == null ? void 0 : _a.parent) == null ? void 0 : _b.path) != null ? _c : targetFolderPath;
-    else if (defaultNewCanvasLocation === "folder")
-      targetFolderPath = (_d = canvasSettings.newFileFolderPath) != null ? _d : targetFolderPath;
+    if (defaultNewCanvasLocation === "current") targetFolderPath = (_c = (_b = (_a = canvas.view.file) == null ? void 0 : _a.parent) == null ? void 0 : _b.path) != null ? _c : targetFolderPath;
+    else if (defaultNewCanvasLocation === "folder") targetFolderPath = (_d = canvasSettings.newFileFolderPath) != null ? _d : targetFolderPath;
     const targetFilePath = await new FileNameModal(
       this.plugin.app,
       targetFolderPath,
@@ -5284,8 +5115,7 @@ var EncapsulateCanvasExtension = class extends CanvasExtension {
     const file = await this.plugin.app.vault.create(targetFilePath, JSON.stringify(newFileData, null, 2));
     for (const nodeData of selection.nodes) {
       const node = canvas.nodes.get(nodeData.id);
-      if (node)
-        canvas.removeNode(node);
+      if (node) canvas.removeNode(node);
     }
     canvas.createFileNode({
       pos: {
@@ -5422,8 +5252,7 @@ var CommandsCanvasExtension = class extends CanvasExtension {
         (canvas) => !canvas.readonly && canvas.getSelectionData().nodes.length === 2,
         (canvas) => {
           const selectedNodes = canvas.getSelectionData().nodes.map((nodeData) => canvas.nodes.get(nodeData.id)).filter((node) => node !== void 0);
-          if (selectedNodes.length !== 2)
-            return;
+          if (selectedNodes.length !== 2) return;
           const [nodeA, nodeB] = selectedNodes;
           const nodeAData = nodeA.getData();
           const nodeBData = nodeB.getData();
@@ -5447,8 +5276,7 @@ var CommandsCanvasExtension = class extends CanvasExtension {
   }
   cloneNode(canvas, cloneDirection) {
     const sourceNode = canvas.selection.values().next().value;
-    if (!sourceNode)
-      return;
+    if (!sourceNode) return;
     const sourceNodeData = sourceNode.getData();
     const nodeMargin = this.plugin.settings.getSetting("cloneNodeMargin");
     const offset = {
@@ -5475,8 +5303,7 @@ var CommandsCanvasExtension = class extends CanvasExtension {
   }
   expandNode(canvas, expandDirection) {
     const node = canvas.selection.values().next().value;
-    if (!node)
-      return;
+    if (!node) return;
     const expandNodeStepSize = this.plugin.settings.getSetting("expandNodeStepSize");
     const expand = {
       x: expandDirection === "left" ? -1 : expandDirection === "right" ? 1 : 0,
@@ -5490,14 +5317,12 @@ var CommandsCanvasExtension = class extends CanvasExtension {
   }
   flipSelection(canvas, horizontally) {
     const selectionData = canvas.getSelectionData();
-    if (selectionData.nodes.length === 0)
-      return;
+    if (selectionData.nodes.length === 0) return;
     const nodeIds = /* @__PURE__ */ new Set();
     for (const nodeData of selectionData.nodes) {
       nodeIds.add(nodeData.id);
       const node = canvas.nodes.get(nodeData.id);
-      if (!node)
-        continue;
+      if (!node) continue;
       const newX = horizontally ? 2 * selectionData.center.x - nodeData.x - nodeData.width : nodeData.x;
       const newY = horizontally ? nodeData.y : 2 * selectionData.center.y - nodeData.y - nodeData.height;
       node.setData({
@@ -5524,8 +5349,7 @@ var CommandsCanvasExtension = class extends CanvasExtension {
   }
   navigate(canvas, direction) {
     const node = this.getNextNode(canvas, direction);
-    if (!node)
-      return;
+    if (!node) return;
     canvas.updateSelection(() => {
       canvas.selection = /* @__PURE__ */ new Set([node]);
     });
@@ -5533,8 +5357,7 @@ var CommandsCanvasExtension = class extends CanvasExtension {
   getNextNode(canvas, direction) {
     var _a;
     const selectedNodeData = (_a = canvas.getSelectionData().nodes) == null ? void 0 : _a.first();
-    if (!selectedNodeData)
-      return;
+    if (!selectedNodeData) return;
     const selectedNodeBBox = {
       minX: selectedNodeData.x,
       minY: selectedNodeData.y,
@@ -5549,10 +5372,8 @@ var CommandsCanvasExtension = class extends CanvasExtension {
       const nodeBBox = node.getBBox();
       const isInVerticalRange = selectedNodeBBox.minY <= nodeBBox.maxY && selectedNodeBBox.maxY >= nodeBBox.minY;
       const isInHorizontalRange = selectedNodeBBox.minX <= nodeBBox.maxX && selectedNodeBBox.maxX >= nodeBBox.minX;
-      if (["up", "down"].includes(direction) && !isInHorizontalRange)
-        return closestNode2;
-      if (["left", "right"].includes(direction) && !isInVerticalRange)
-        return closestNode2;
+      if (["up", "down"].includes(direction) && !isInHorizontalRange) return closestNode2;
+      if (["left", "right"].includes(direction) && !isInVerticalRange) return closestNode2;
       let distance = -1;
       switch (direction) {
         case "up":
@@ -5568,12 +5389,9 @@ var CommandsCanvasExtension = class extends CanvasExtension {
           distance = nodeBBox.minX - selectedNodeBBox.maxX;
           break;
       }
-      if (distance < 0)
-        return closestNode2;
-      if (!closestNode2)
-        return { node, distance };
-      if (distance < closestNode2.distance)
-        return { node, distance };
+      if (distance < 0) return closestNode2;
+      if (!closestNode2) return { node, distance };
+      if (distance < closestNode2.distance) return { node, distance };
       if (distance === closestNode2.distance) {
         const selectedNodeCenter = {
           x: selectedNodeData.x + selectedNodeData.width / 2,
@@ -5593,8 +5411,7 @@ var CommandsCanvasExtension = class extends CanvasExtension {
         const nodeDistance = Math.sqrt(
           Math.pow(selectedNodeCenter.x - nodeCenter.x, 2) + Math.pow(selectedNodeCenter.y - nodeCenter.y, 2)
         );
-        if (nodeDistance < closestNodeDistance)
-          return { node, distance };
+        if (nodeDistance < closestNodeDistance) return { node, distance };
       }
       return closestNode2;
     }, null);
@@ -5630,22 +5447,18 @@ var AutoResizeNodeCanvasExtension = class extends CanvasExtension {
   }
   onNodeCreated(_canvas, node) {
     const autoResizeNodeEnabledByDefault = this.plugin.settings.getSetting("autoResizeNodeEnabledByDefault");
-    if (!autoResizeNodeEnabledByDefault)
-      return;
+    if (!autoResizeNodeEnabledByDefault) return;
     const nodeData = node.getData();
-    if (nodeData.type !== "text" && nodeData.type !== "file")
-      return;
+    if (nodeData.type !== "text" && nodeData.type !== "file") return;
     node.setData({
       ...node.getData(),
       dynamicHeight: true
     });
   }
   onPopupMenuCreated(canvas) {
-    if (canvas.readonly)
-      return;
+    if (canvas.readonly) return;
     const selectedNodes = canvas.getSelectionData().nodes.filter((nodeData) => this.isValidNodeType(nodeData)).map((nodeData) => canvas.nodes.get(nodeData.id)).filter((node) => node !== void 0);
-    if (selectedNodes.length === 0)
-      return;
+    if (selectedNodes.length === 0) return;
     const autoResizeHeightEnabled = selectedNodes.some((node) => node.getData().dynamicHeight);
     CanvasHelper.addPopupMenuOption(
       canvas,
@@ -5669,42 +5482,34 @@ var AutoResizeNodeCanvasExtension = class extends CanvasExtension {
     return nodeData.dynamicHeight;
   }
   async onNodeEditingStateChanged(_canvas, node, editing) {
-    if (!this.isValidNodeType(node.getData()))
-      return;
-    if (!this.canBeResized(node))
-      return;
+    if (!this.isValidNodeType(node.getData())) return;
+    if (!this.canBeResized(node)) return;
     await sleep(10);
     if (editing) {
       this.onNodeTextContentChanged(_canvas, node, node.child.editMode.cm.dom);
       return;
     }
     const renderedMarkdownContainer = node.nodeEl.querySelector(".markdown-preview-view.markdown-rendered");
-    if (!renderedMarkdownContainer)
-      return;
+    if (!renderedMarkdownContainer) return;
     renderedMarkdownContainer.style.height = "min-content";
     let newHeight = renderedMarkdownContainer.clientHeight;
     renderedMarkdownContainer.style.removeProperty("height");
     this.setNodeHeight(node, newHeight);
   }
   async onNodeTextContentChanged(_canvas, node, dom) {
-    if (!this.isValidNodeType(node.getData()))
-      return;
-    if (!this.canBeResized(node))
-      return;
+    if (!this.isValidNodeType(node.getData())) return;
+    if (!this.canBeResized(node)) return;
     const cmScroller = dom.querySelector(".cm-scroller");
-    if (!cmScroller)
-      return;
+    if (!cmScroller) return;
     cmScroller.style.height = "min-content";
     const newHeight = cmScroller.scrollHeight;
     cmScroller.style.removeProperty("height");
     this.setNodeHeight(node, newHeight);
   }
   setNodeHeight(node, height) {
-    if (height === 0)
-      return;
+    if (height === 0) return;
     const maxHeight = this.plugin.settings.getSetting("autoResizeNodeMaxHeight");
-    if (maxHeight != -1 && height > maxHeight)
-      height = maxHeight;
+    if (maxHeight != -1 && height > maxHeight) height = maxHeight;
     const nodeData = node.getData();
     height = Math.max(height, node.canvas.config.minContainerDimension);
     if (this.plugin.settings.getSetting("autoResizeNodeSnapToGrid"))
@@ -5728,8 +5533,7 @@ var PortalsCanvasExtension = class _PortalsCanvasExtension extends CanvasExtensi
     this.plugin.registerEvent(this.plugin.app.vault.on("modify", (file) => {
       var _a;
       for (const canvasLeaf of this.plugin.app.workspace.getLeavesOfType("canvas"))
-        if ((_a = canvasLeaf.view) == null ? void 0 : _a.canvas)
-          this.onFileModified(canvasLeaf.view.canvas, file);
+        if ((_a = canvasLeaf.view) == null ? void 0 : _a.canvas) this.onFileModified(canvasLeaf.view.canvas, file);
     }));
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       "advanced-canvas:popup-menu-created",
@@ -5775,8 +5579,7 @@ var PortalsCanvasExtension = class _PortalsCanvasExtension extends CanvasExtensi
       "advanced-canvas:load-data",
       (canvas, data, setData) => {
         this.onSetData(canvas, data).then((newData) => {
-          if (newData.nodes.length === data.nodes.length && newData.edges.length === data.edges.length)
-            return;
+          if (newData.nodes.length === data.nodes.length && newData.edges.length === data.edges.length) return;
           setData(newData);
         });
       }
@@ -5786,8 +5589,7 @@ var PortalsCanvasExtension = class _PortalsCanvasExtension extends CanvasExtensi
     const isAffected = Object.values(canvas.nodes).filter(
       (nodeData) => nodeData.getData().type === "file" && nodeData.currentPortalFile === file.path
     ).length > 0;
-    if (!isAffected)
-      return;
+    if (!isAffected) return;
     canvas.setData(canvas.getData());
     canvas.history.current--;
     canvas.history.data.pop();
@@ -5803,19 +5605,15 @@ var PortalsCanvasExtension = class _PortalsCanvasExtension extends CanvasExtensi
     });
   }
   onDraggingStateChanged(canvas, startedDragging) {
-    if (!startedDragging)
-      return;
-    if (!canvas.getSelectionData().nodes.some((node) => node.type === "file" && node.portal))
-      return;
+    if (!startedDragging) return;
+    if (!canvas.getSelectionData().nodes.some((node) => node.type === "file" && node.portal)) return;
     const objectSnappingEnabled = canvas.options.snapToObjects;
-    if (!objectSnappingEnabled)
-      return;
+    if (!objectSnappingEnabled) return;
     canvas.toggleObjectSnapping(false);
     const dragEndEventRef = this.plugin.app.workspace.on(
       "advanced-canvas:dragging-state-changed",
       (canvas2, startedDragging2) => {
-        if (startedDragging2)
-          return;
+        if (startedDragging2) return;
         canvas2.toggleObjectSnapping(objectSnappingEnabled);
         this.plugin.app.workspace.offref(dragEndEventRef);
       }
@@ -5824,8 +5622,7 @@ var PortalsCanvasExtension = class _PortalsCanvasExtension extends CanvasExtensi
   }
   onNodeMoved(canvas, portalNode) {
     const portalNodeData = portalNode.getData();
-    if (portalNodeData.type !== "file" || !portalNodeData.isPortalLoaded)
-      return;
+    if (portalNodeData.type !== "file" || !portalNodeData.isPortalLoaded) return;
     const nestedNodes = this.getContainingNodes(canvas, portalNode);
     const containingNodesBBox = CanvasHelper.getBBox(nestedNodes);
     const portalOffset = {
@@ -5843,8 +5640,7 @@ var PortalsCanvasExtension = class _PortalsCanvasExtension extends CanvasExtensi
   }
   onNodeResized(_canvas, portalNode) {
     const portalNodeData = portalNode.getData();
-    if (portalNodeData.type !== "file" || !portalNodeData.isPortalLoaded)
-      return;
+    if (portalNodeData.type !== "file" || !portalNodeData.isPortalLoaded) return;
     portalNode.setData({
       ...portalNodeData,
       x: portalNode.prevX ? portalNode.prevX : portalNodeData.x,
@@ -5855,45 +5651,35 @@ var PortalsCanvasExtension = class _PortalsCanvasExtension extends CanvasExtensi
   }
   onNodeRemoved(canvas, portalNode) {
     const portalNodeData = portalNode.getData();
-    if (portalNodeData.type !== "file" || !portalNodeData.portal)
-      return;
+    if (portalNodeData.type !== "file" || !portalNodeData.portal) return;
     for (const node of this.getContainingNodes(canvas, portalNode, false))
       canvas.removeNode(node);
     for (const edge of this.getContainingEdges(canvas, portalNode, false))
       canvas.removeEdge(edge);
   }
   onEdgeConnectionTryDraggingBefore(_canvas, edge, _event, cancelRef) {
-    if (!_PortalsCanvasExtension.isPortalElement(edge))
-      return;
+    if (!_PortalsCanvasExtension.isPortalElement(edge)) return;
     cancelRef.value = true;
     new import_obsidian13.Notice("Updating edges from portals is not supported yet.");
   }
   onEdgeConnectionDraggingAfter(canvas, edge, _event, _newEdge, _side, _previousEnds) {
-    if (_PortalsCanvasExtension.isPortalElement(edge))
-      return;
-    if (!_PortalsCanvasExtension.isPortalElement(edge.from.node) || !_PortalsCanvasExtension.isPortalElement(edge.to.node))
-      return;
+    if (_PortalsCanvasExtension.isPortalElement(edge)) return;
+    if (!_PortalsCanvasExtension.isPortalElement(edge.from.node) || !_PortalsCanvasExtension.isPortalElement(edge.to.node)) return;
     canvas.removeEdge(edge);
     new import_obsidian13.Notice("Creating edges with both ends in portals are not supported yet.");
   }
   onPopupMenu(canvas) {
-    if (canvas.readonly)
-      return;
+    if (canvas.readonly) return;
     const selectedFileNodes = canvas.getSelectionData().nodes.map((nodeData) => {
       var _a;
       const node = canvas.nodes.get(nodeData.id);
-      if (!node)
-        return null;
-      if (nodeData.type !== "file")
-        return null;
-      if (((_a = node.file) == null ? void 0 : _a.extension) === "canvas")
-        return node;
-      if (nodeData.portal)
-        this.setPortalOpen(canvas, node, false);
+      if (!node) return null;
+      if (nodeData.type !== "file") return null;
+      if (((_a = node.file) == null ? void 0 : _a.extension) === "canvas") return node;
+      if (nodeData.portal) this.setPortalOpen(canvas, node, false);
       return null;
     }).filter((node) => node !== null);
-    if (selectedFileNodes.length !== 1)
-      return;
+    if (selectedFileNodes.length !== 1) return;
     const portalNode = selectedFileNodes.first();
     const portalNodeData = portalNode.getData();
     if (portalNodeData.portal && portalNodeData.file !== portalNode.currentPortalFile)
@@ -5923,25 +5709,20 @@ var PortalsCanvasExtension = class _PortalsCanvasExtension extends CanvasExtensi
   // Remove all edges and nodes from portals
   onGetData(_canvas, data) {
     data.nodes = data.nodes.filter((nodeData) => _PortalsCanvasExtension.getNestedIds(nodeData.id).length === 1);
-    for (const nodeData of data.nodes)
-      delete nodeData.isPortalLoaded;
+    for (const nodeData of data.nodes) delete nodeData.isPortalLoaded;
     const portalsIdMap = new Map(
       data.nodes.filter((nodeData) => nodeData.portal).map((nodeData) => [nodeData.id, nodeData])
     );
     data.edges = data.edges.filter((edgeData) => {
       var _a;
-      if (_PortalsCanvasExtension.getNestedIds(edgeData.fromNode).length > 1)
-        return false;
+      if (_PortalsCanvasExtension.getNestedIds(edgeData.fromNode).length > 1) return false;
       const isFromNodeFromPortal = _PortalsCanvasExtension.getNestedIds(edgeData.fromNode).length > 1;
       const isToNodeFromPortal = _PortalsCanvasExtension.getNestedIds(edgeData.toNode).length > 1;
-      if (!isFromNodeFromPortal && !isToNodeFromPortal)
-        return true;
-      if (isFromNodeFromPortal && isToNodeFromPortal)
-        return false;
+      if (!isFromNodeFromPortal && !isToNodeFromPortal) return true;
+      if (isFromNodeFromPortal && isToNodeFromPortal) return false;
       const targetPortalId = this.getParentPortalId(isFromNodeFromPortal ? edgeData.fromNode : edgeData.toNode);
       const targetPortalData = portalsIdMap.get(targetPortalId);
-      if (!targetPortalData)
-        return false;
+      if (!targetPortalData) return false;
       (_a = targetPortalData.interdimensionalEdges) != null ? _a : targetPortalData.interdimensionalEdges = [];
       targetPortalData.interdimensionalEdges.push(edgeData);
       return false;
@@ -5956,34 +5737,25 @@ var PortalsCanvasExtension = class _PortalsCanvasExtension extends CanvasExtensi
       data.edges.push(...newData.edges);
     }
     for (const nodeData of data.nodes) {
-      if (nodeData.type !== "file" || !nodeData.isPortalLoaded)
-        continue;
+      if (nodeData.type !== "file" || !nodeData.isPortalLoaded) continue;
       const interdimensionalEdges = nodeData.interdimensionalEdges;
-      if (!interdimensionalEdges)
-        continue;
-      for (const edge of interdimensionalEdges)
-        data.edges.push(edge);
+      if (!interdimensionalEdges) continue;
+      for (const edge of interdimensionalEdges) data.edges.push(edge);
     }
     return data;
   }
   async tryOpenPortal(canvas, portalNodeData, nestedPortalFiles = /* @__PURE__ */ new Set()) {
     const addedData = { nodes: [], edges: [] };
-    if (portalNodeData.type !== "file" || !portalNodeData.portal)
-      return addedData;
-    if (portalNodeData.file === canvas.view.file.path)
-      return addedData;
-    if (nestedPortalFiles.has(portalNodeData.file))
-      return addedData;
+    if (portalNodeData.type !== "file" || !portalNodeData.portal) return addedData;
+    if (portalNodeData.file === canvas.view.file.path) return addedData;
+    if (nestedPortalFiles.has(portalNodeData.file)) return addedData;
     nestedPortalFiles.add(portalNodeData.file);
     const portalFile = this.plugin.app.vault.getAbstractFileByPath(portalNodeData.file);
-    if (!(portalFile instanceof import_obsidian13.TFile) || portalFile.extension !== "canvas")
-      return addedData;
+    if (!(portalFile instanceof import_obsidian13.TFile) || portalFile.extension !== "canvas") return addedData;
     const portalFileDataString = await this.plugin.app.vault.cachedRead(portalFile);
-    if (portalFileDataString === "")
-      return addedData;
+    if (portalFileDataString === "") return addedData;
     const portalFileData = JSON.parse(portalFileDataString);
-    if (!portalFileData)
-      return addedData;
+    if (!portalFileData) return addedData;
     portalNodeData.isPortalLoaded = true;
     const sourceMinCoordinates = CanvasHelper.getBBox(portalFileData.nodes);
     const portalOffset = {
@@ -6029,10 +5801,8 @@ var PortalsCanvasExtension = class _PortalsCanvasExtension extends CanvasExtensi
       width: Math.max(sourceSize.width + PORTAL_PADDING * 2, MIN_OPEN_PORTAL_SIZE.width),
       height: Math.max(sourceSize.height + PORTAL_PADDING * 2, MIN_OPEN_PORTAL_SIZE.height)
     };
-    if (!Number.isFinite(targetSize.width))
-      targetSize.width = MIN_OPEN_PORTAL_SIZE.width;
-    if (!Number.isFinite(targetSize.height))
-      targetSize.height = MIN_OPEN_PORTAL_SIZE.height;
+    if (!Number.isFinite(targetSize.width)) targetSize.width = MIN_OPEN_PORTAL_SIZE.width;
+    if (!Number.isFinite(targetSize.height)) targetSize.height = MIN_OPEN_PORTAL_SIZE.height;
     return targetSize;
   }
   getContainingNodes(canvas, portalNode, directChildren = true) {
@@ -6043,8 +5813,7 @@ var PortalsCanvasExtension = class _PortalsCanvasExtension extends CanvasExtensi
   }
   getParentPortalId(elementId) {
     const nestedIds = _PortalsCanvasExtension.getNestedIds(elementId);
-    if (nestedIds.length < 2)
-      return void 0;
+    if (nestedIds.length < 2) return void 0;
     return nestedIds.slice(0, -1).join("-");
   }
   static getNestedIds(id) {
@@ -6074,11 +5843,9 @@ var FrontmatterControlButtonCanvasExtension = class extends CanvasExtension {
   }
   addQuickSettings(canvas) {
     var _a;
-    if (!canvas)
-      return;
+    if (!canvas) return;
     const settingsContainer = (_a = canvas.quickSettingsButton) == null ? void 0 : _a.parentElement;
-    if (!settingsContainer)
-      return;
+    if (!settingsContainer) return;
     CanvasHelper.addControlMenuButton(
       settingsContainer,
       CanvasHelper.createControlMenuButton({
@@ -6097,8 +5864,7 @@ var FrontmatterControlButtonCanvasExtension = class extends CanvasExtension {
             propertiesLeaf = this.plugin.app.workspace.getRightLeaf(false);
             propertiesLeaf == null ? void 0 : propertiesLeaf.setViewState({ type: "file-properties" });
           }
-          if (propertiesLeaf)
-            this.plugin.app.workspace.revealLeaf(propertiesLeaf);
+          if (propertiesLeaf) this.plugin.app.workspace.revealLeaf(propertiesLeaf);
         }
       })
     );
@@ -6141,8 +5907,7 @@ var BetterDefaultSettingsCanvasExtension = class extends CanvasExtension {
     ));
   }
   modifyCanvasSettings(canvas) {
-    if (!canvas)
-      return;
+    if (!canvas) return;
     const defaultTextNodeDimensionsArray = this.plugin.settings.getSetting("defaultTextNodeDimensions");
     canvas.config.defaultTextNodeDimensions = {
       width: defaultTextNodeDimensionsArray[0],
@@ -6156,8 +5921,7 @@ var BetterDefaultSettingsCanvasExtension = class extends CanvasExtension {
     canvas.config.minContainerDimension = this.plugin.settings.getSetting("minNodeSize");
   }
   async onDoubleClick(canvas, event, preventDefault) {
-    if (event.defaultPrevented || event.target !== canvas.wrapperEl || canvas.isDragging || canvas.readonly)
-      return;
+    if (event.defaultPrevented || event.target !== canvas.wrapperEl || canvas.isDragging || canvas.readonly) return;
     preventDefault.value = true;
     let pos = canvas.posFromEvt(event);
     switch (this.plugin.settings.getSetting("nodeTypeOnDoubleClick")) {
@@ -6178,8 +5942,7 @@ var BetterDefaultSettingsCanvasExtension = class extends CanvasExtension {
     }
   }
   enforceNodeGridAlignment(_canvas, node) {
-    if (!this.plugin.settings.getSetting("alignNewNodesToGrid"))
-      return;
+    if (!this.plugin.settings.getSetting("alignNewNodesToGrid")) return;
     const nodeData = node.getData();
     node.setData({
       ...nodeData,
@@ -6189,8 +5952,7 @@ var BetterDefaultSettingsCanvasExtension = class extends CanvasExtension {
   }
   applyDefaultNodeStyles(_canvas, node) {
     const nodeData = node.getData();
-    if (nodeData.type !== "text")
-      return;
+    if (nodeData.type !== "text") return;
     node.setData({
       ...nodeData,
       styleAttributes: {
@@ -6211,8 +5973,7 @@ var BetterDefaultSettingsCanvasExtension = class extends CanvasExtension {
     if (canvas.canvasEl.hasClass("is-connecting")) {
       await new Promise((resolve) => {
         new MutationObserver(() => {
-          if (!canvas.canvasEl.hasClass("is-connecting"))
-            resolve();
+          if (!canvas.canvasEl.hasClass("is-connecting")) resolve();
         }).observe(canvas.canvasEl, { attributes: true, attributeFilter: ["class"] });
       });
     }
@@ -6225,13 +5986,10 @@ var BetterDefaultSettingsCanvasExtension = class extends CanvasExtension {
   }
   enforceMaxNodeWidth(_canvas, node) {
     const maxNodeWidth = this.plugin.settings.getSetting("maxNodeWidth");
-    if (maxNodeWidth <= 0)
-      return;
+    if (maxNodeWidth <= 0) return;
     const nodeData = node.getData();
-    if (nodeData.type !== "text" && nodeData.type !== "file" || nodeData.portal)
-      return;
-    if (nodeData.width <= maxNodeWidth)
-      return;
+    if (nodeData.type !== "text" && nodeData.type !== "file" || nodeData.portal) return;
+    if (nodeData.width <= maxNodeWidth) return;
     node.setData({
       ...nodeData,
       x: node.prevX !== void 0 ? node.prevX : nodeData.x,
@@ -6288,8 +6046,7 @@ var ColorPaletteCanvasExtension = class extends CanvasExtension {
     }
   }
   patchColorSelection(canvas) {
-    if (this.observer)
-      this.observer.disconnect();
+    if (this.observer) this.observer.disconnect();
     this.observer = new MutationObserver((mutations) => {
       const colorMenuOpened = mutations.some(
         (mutation) => Object.values(mutation.addedNodes).some(
@@ -6298,16 +6055,13 @@ var ColorPaletteCanvasExtension = class extends CanvasExtension {
           )
         )
       );
-      if (!colorMenuOpened)
-        return;
+      if (!colorMenuOpened) return;
       const submenu = canvas.menu.menuEl.querySelector(".canvas-submenu");
-      if (!submenu)
-        return;
+      if (!submenu) return;
       const currentNodeColor = canvas.getSelectionData().nodes.map((node) => node.color).last();
       for (const colorId of this.getCustomColors()) {
         const customColorMenuItem = this.createColorMenuItem(canvas, colorId);
-        if (currentNodeColor === colorId)
-          customColorMenuItem.classList.add("is-active");
+        if (currentNodeColor === colorId) customColorMenuItem.classList.add("is-active");
         submenu.insertBefore(customColorMenuItem, submenu.lastChild);
       }
     });
@@ -6330,8 +6084,7 @@ var ColorPaletteCanvasExtension = class extends CanvasExtension {
     const colors = [];
     while (true) {
       const colorId = (DEFAULT_COLORS_COUNT + colors.length + 1).toString();
-      if (!getComputedStyle(document.body).getPropertyValue(`--canvas-color-${colorId}`))
-        break;
+      if (!getComputedStyle(document.body).getPropertyValue(`--canvas-color-${colorId}`)) break;
       colors.push(colorId);
     }
     return colors;
@@ -6369,8 +6122,7 @@ var CollapsibleGroupsCanvasExtension = class extends CanvasExtension {
   onNodeChanged(canvas, groupNode) {
     var _a, _b;
     const groupNodeData = groupNode.getData();
-    if (groupNodeData.type !== "group")
-      return;
+    if (groupNodeData.type !== "group") return;
     (_a = groupNode.collapseEl) == null ? void 0 : _a.remove();
     const collapseEl = document.createElement("span");
     collapseEl.className = "collapse-button";
@@ -6385,8 +6137,7 @@ var CollapsibleGroupsCanvasExtension = class extends CanvasExtension {
   }
   onCopy(_canvas, selectionData) {
     for (const collapsedGroupData of selectionData.nodes) {
-      if (collapsedGroupData.type !== "group" || !collapsedGroupData.collapsed || !collapsedGroupData.collapsedData)
-        continue;
+      if (collapsedGroupData.type !== "group" || !collapsedGroupData.collapsed || !collapsedGroupData.collapsedData) continue;
       selectionData.nodes.push(...collapsedGroupData.collapsedData.nodes.map((nodeData) => ({
         ...nodeData,
         // Restore the relative position of the node to the group
@@ -6405,14 +6156,11 @@ var CollapsibleGroupsCanvasExtension = class extends CanvasExtension {
   onNodeBBoxRequested(canvas, node, bbox) {
     var _a, _b;
     const nodeData = node.getData();
-    if (nodeData.type !== "group" || !nodeData.collapsed)
-      return;
+    if (nodeData.type !== "group" || !nodeData.collapsed) return;
     const collapseElBBox = (_a = node.collapseEl) == null ? void 0 : _a.getBoundingClientRect();
-    if (!collapseElBBox)
-      return;
+    if (!collapseElBBox) return;
     const labelElBBox = (_b = node.labelEl) == null ? void 0 : _b.getBoundingClientRect();
-    if (!labelElBBox)
-      return;
+    if (!labelElBBox) return;
     const minPos = canvas.posFromClient({ x: collapseElBBox.left, y: collapseElBBox.top });
     const maxPos = canvas.posFromClient({ x: labelElBBox.right, y: collapseElBBox.bottom });
     bbox.minX = minPos.x;
@@ -6423,8 +6171,7 @@ var CollapsibleGroupsCanvasExtension = class extends CanvasExtension {
   expandAllCollapsedNodes(data) {
     data.nodes = data.nodes.flatMap((groupNodeData) => {
       const collapsedData = groupNodeData.collapsedData;
-      if (collapsedData === void 0)
-        return [groupNodeData];
+      if (collapsedData === void 0) return [groupNodeData];
       delete groupNodeData.collapsedData;
       data.edges.push(...collapsedData.edges);
       return [groupNodeData, ...collapsedData.nodes.map((nodeData) => ({
@@ -6437,8 +6184,7 @@ var CollapsibleGroupsCanvasExtension = class extends CanvasExtension {
   }
   collapseNodes(data) {
     data.nodes.forEach((groupNodeData) => {
-      if (!groupNodeData.collapsed)
-        return;
+      if (!groupNodeData.collapsed) return;
       const groupNodeBBox = CanvasHelper.getBBox([groupNodeData]);
       const containedNodesData = data.nodes.filter(
         (nodeData) => nodeData.id !== groupNodeData.id && BBoxHelper.insideBBox(CanvasHelper.getBBox([nodeData]), groupNodeBBox, false)
@@ -6485,8 +6231,7 @@ var FocusModeCanvasExtension = class extends CanvasExtension {
   addControlMenuToggle(canvas) {
     var _a;
     const settingsContainer = (_a = canvas.quickSettingsButton) == null ? void 0 : _a.parentElement;
-    if (!settingsContainer)
-      return;
+    if (!settingsContainer) return;
     const controlMenuFocusToggle = CanvasHelper.createControlMenuButton({
       id: CONTROL_MENU_FOCUS_TOGGLE_ID,
       label: "Focus Mode",
@@ -6498,8 +6243,7 @@ var FocusModeCanvasExtension = class extends CanvasExtension {
   toggleFocusMode(canvas) {
     var _a, _b;
     const controlMenuFocusToggle = (_b = (_a = canvas.quickSettingsButton) == null ? void 0 : _a.parentElement) == null ? void 0 : _b.querySelector(`#${CONTROL_MENU_FOCUS_TOGGLE_ID}`);
-    if (!controlMenuFocusToggle)
-      return;
+    if (!controlMenuFocusToggle) return;
     const newValue = controlMenuFocusToggle.dataset.toggled !== "true";
     canvas.wrapperEl.dataset.focusModeEnabled = newValue.toString();
     controlMenuFocusToggle.dataset.toggled = newValue.toString();
@@ -6520,23 +6264,19 @@ var FlipEdgeCanvasExtension = class extends CanvasExtension {
   onPopupMenuCreated(canvas) {
     var _a, _b;
     const popupMenuEl = (_a = canvas == null ? void 0 : canvas.menu) == null ? void 0 : _a.menuEl;
-    if (!popupMenuEl)
-      return;
+    if (!popupMenuEl) return;
     const POSSIBLE_ICONS = ["lucide-arrow-right", "lucide-move-horizontal", "line-horizontal"];
     let edgeDirectionButton = null;
     for (const icon of POSSIBLE_ICONS) {
       edgeDirectionButton = (_b = popupMenuEl.querySelector(`button:not([id]) > .svg-icon.${icon}`)) == null ? void 0 : _b.parentElement;
-      if (edgeDirectionButton)
-        break;
+      if (edgeDirectionButton) break;
     }
-    if (!edgeDirectionButton)
-      return;
+    if (!edgeDirectionButton) return;
     edgeDirectionButton.addEventListener("click", () => this.onEdgeDirectionDropdownCreated(canvas));
   }
   onEdgeDirectionDropdownCreated(canvas) {
     const dropdownEl = document.body.querySelector("div.menu");
-    if (!dropdownEl)
-      return;
+    if (!dropdownEl) return;
     const separatorEl = CanvasHelper.createDropdownSeparatorElement();
     dropdownEl.appendChild(separatorEl);
     const flipEdgeButton = CanvasHelper.createDropdownOptionElement({
@@ -6548,8 +6288,7 @@ var FlipEdgeCanvasExtension = class extends CanvasExtension {
   }
   flipEdge(canvas) {
     const selectedEdges = [...canvas.selection].filter((item) => item.path !== void 0);
-    if (selectedEdges.length === 0)
-      return;
+    if (selectedEdges.length === 0) return;
     for (const edge of selectedEdges) {
       const edgeData = edge.getData();
       edge.setData({
@@ -6586,7 +6325,7 @@ function resolveUrl(url, baseUrl) {
   a.href = url;
   return a.href;
 }
-var uuid = (() => {
+var uuid = /* @__PURE__ */ (() => {
   let counter = 0;
   const random = () => (
     // eslint-disable-next-line no-bitwise
@@ -7328,8 +7067,7 @@ var ExportCanvasExtension = class extends CanvasExtension {
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       "advanced-canvas:node-breakpoint-changed",
       (canvas, node, breakpointRef) => {
-        if (canvas.screenshotting)
-          breakpointRef.value = true;
+        if (canvas.screenshotting) breakpointRef.value = true;
       }
     ));
     this.plugin.addCommand({
@@ -7423,8 +7161,7 @@ var ExportCanvasExtension = class extends CanvasExtension {
   async exportImage(canvas, nodesToExport, svg, pixelRatioFactor, noFontExport, watermark, garbledText, transparentBackground) {
     var _a, _b, _c;
     const isWholeCanvas = nodesToExport === null;
-    if (!nodesToExport)
-      nodesToExport = [...canvas.nodes.values()];
+    if (!nodesToExport) nodesToExport = [...canvas.nodes.values()];
     const nodesToExportIds = nodesToExport.map((node) => node.getData().id);
     const edgesToExport = [...canvas.edges.values()].filter((edge) => {
       const edgeData = edge.getData();
@@ -7436,8 +7173,7 @@ var ExportCanvasExtension = class extends CanvasExtension {
     document.body.appendChild(interactionBlocker);
     canvas.screenshotting = true;
     canvas.canvasEl.classList.add("is-exporting");
-    if (garbledText)
-      canvas.canvasEl.classList.add("is-text-garbled");
+    if (garbledText) canvas.canvasEl.classList.add("is-text-garbled");
     let watermarkEl = null;
     const cachedSelection = new Set(canvas.selection);
     canvas.deselectAll();
@@ -7450,8 +7186,7 @@ var ExportCanvasExtension = class extends CanvasExtension {
       const requiredPixelRatio = Math.max(enlargedTargetBoundingBoxSize.width / canvasElSize.width, enlargedTargetBoundingBoxSize.height / canvasElSize.height);
       const pixelRatio = svg ? void 0 : Math.round(requiredPixelRatio * pixelRatioFactor);
       watermarkEl = watermark ? this.getWatermark(enlargedTargetBoundingBox) : null;
-      if (watermarkEl)
-        canvas.canvasEl.appendChild(watermarkEl);
+      if (watermarkEl) canvas.canvasEl.appendChild(watermarkEl);
       const actualAspectRatio = canvas.canvasRect.width / canvas.canvasRect.height;
       const targetAspectRatio = (enlargedTargetBoundingBox.maxX - enlargedTargetBoundingBox.minX) / (enlargedTargetBoundingBox.maxY - enlargedTargetBoundingBox.minY);
       let adjustedBoundingBox = { ...enlargedTargetBoundingBox };
@@ -7485,8 +7220,7 @@ var ExportCanvasExtension = class extends CanvasExtension {
       let height = (canvasViewportBBox.maxY - canvasViewportBBox.minY) * canvasScale;
       if (actualAspectRatio > targetAspectRatio)
         width = height * targetAspectRatio;
-      else
-        height = width / targetAspectRatio;
+      else height = width / targetAspectRatio;
       let unloadedNodes = nodesToExport.filter((node) => node.initialized === false || node.isContentMounted === false);
       const startTimestamp = performance.now();
       while (unloadedNodes.length > 0 && performance.now() - startTimestamp < MAX_ALLOWED_LOADING_TIME) {
@@ -7518,12 +7252,10 @@ var ExportCanvasExtension = class extends CanvasExtension {
           width,
           filter
         };
-        if (noFontExport)
-          options.fontEmbedCSS = "";
+        if (noFontExport) options.fontEmbedCSS = "";
         const imageDataUri = svg ? await toSvg(canvas.canvasEl, options) : await toPng(canvas.canvasEl, options);
         let baseFilename = `${((_c = canvas.view.file) == null ? void 0 : _c.basename) || "Untitled"}`;
-        if (!isWholeCanvas)
-          baseFilename += ` - Selection of ${nodesToExport.length}`;
+        if (!isWholeCanvas) baseFilename += ` - Selection of ${nodesToExport.length}`;
         const filename = `${baseFilename}.${svg ? "svg" : "png"}`;
         const downloadEl = document.createElement("a");
         downloadEl.href = imageDataUri;
@@ -7537,10 +7269,8 @@ var ExportCanvasExtension = class extends CanvasExtension {
     } finally {
       canvas.screenshotting = false;
       canvas.canvasEl.classList.remove("is-exporting");
-      if (garbledText)
-        canvas.canvasEl.classList.remove("is-text-garbled");
-      if (watermarkEl)
-        canvas.canvasEl.removeChild(watermarkEl);
+      if (garbledText) canvas.canvasEl.classList.remove("is-text-garbled");
+      if (watermarkEl) canvas.canvasEl.removeChild(watermarkEl);
       canvas.updateSelection(() => canvas.selection = cachedSelection);
       canvas.setViewport(cachedViewport.x, cachedViewport.y, cachedViewport.zoom);
       interactionBlocker.remove();
@@ -7656,12 +7386,11 @@ var FloatingEdgeCanvasExtension = class extends CanvasExtension {
     return bestSide;
   }
   onEdgeStartedDragging(canvas, edge, _event, newEdge, _side) {
-    if (newEdge && this.plugin.settings.getSetting("newEdgeFromSideFloating"))
-      edge.setData({
-        ...edge.getData(),
-        fromFloating: true
-        // New edges can only get dragged from the "from" side
-      });
+    if (newEdge && this.plugin.settings.getSetting("newEdgeFromSideFloating")) edge.setData({
+      ...edge.getData(),
+      fromFloating: true
+      // New edges can only get dragged from the "from" side
+    });
     let cachedViewportNodes = null;
     let hasNaNFloatingEdgeDropZones = false;
     this.onPointerMove = (event) => {
@@ -7687,14 +7416,10 @@ var FloatingEdgeCanvasExtension = class extends CanvasExtension {
     const floatingEdgeDropZone = this.getFloatingEdgeDropZoneForNode(dropZoneNode);
     const wasDroppedInFloatingEdgeDropZone = BBoxHelper.insideBBox({ x: event.clientX, y: event.clientY }, floatingEdgeDropZone, true);
     const edgeData = edge.getData();
-    if (side === "from" && wasDroppedInFloatingEdgeDropZone == edgeData.fromFloating)
-      return;
-    if (side === "to" && wasDroppedInFloatingEdgeDropZone == edgeData.toFloating)
-      return;
-    if (side === "from")
-      edgeData.fromFloating = wasDroppedInFloatingEdgeDropZone;
-    else
-      edgeData.toFloating = wasDroppedInFloatingEdgeDropZone;
+    if (side === "from" && wasDroppedInFloatingEdgeDropZone == edgeData.fromFloating) return;
+    if (side === "to" && wasDroppedInFloatingEdgeDropZone == edgeData.toFloating) return;
+    if (side === "from") edgeData.fromFloating = wasDroppedInFloatingEdgeDropZone;
+    else edgeData.toFloating = wasDroppedInFloatingEdgeDropZone;
     edge.setData(edgeData);
     this.updateEdgeConnectionSide(edge);
   }
@@ -7730,19 +7455,16 @@ var CssStylesConfigManager = class {
     ));
   }
   getStyles() {
-    if (this.cachedConfig)
-      return this.cachedConfig;
+    if (this.cachedConfig) return this.cachedConfig;
     this.cachedConfig = [];
     const styleSheets = document.styleSheets;
     for (let i = 0; i < styleSheets.length; i++) {
       const sheet = styleSheets.item(i);
-      if (!sheet)
-        continue;
+      if (!sheet) continue;
       const styleSheetConfigs = this.parseStyleConfigsFromCSS(sheet);
       for (const config of styleSheetConfigs) {
         const validConfig = this.validate(config);
-        if (!validConfig)
-          continue;
+        if (!validConfig) continue;
         this.cachedConfig.push(validConfig);
       }
     }
@@ -7751,8 +7473,7 @@ var CssStylesConfigManager = class {
   parseStyleConfigsFromCSS(sheet) {
     var _a, _b;
     const textContent = (_b = (_a = sheet == null ? void 0 : sheet.ownerNode) == null ? void 0 : _a.textContent) == null ? void 0 : _b.trim();
-    if (!textContent)
-      return [];
+    if (!textContent) return [];
     const configs = [];
     const matches = textContent.matchAll(this.configRegex);
     for (const match of matches) {
@@ -7800,10 +7521,8 @@ var NodeStylesExtension = class extends CanvasExtension {
     const selectionNodeData = canvas.getSelectionData().nodes;
     for (const nodeData of selectionNodeData) {
       const node = canvas.nodes.get(nodeData.id);
-      if (!node)
-        continue;
-      if (attribute.nodeTypes && !attribute.nodeTypes.includes(nodeData.type))
-        continue;
+      if (!node) continue;
+      if (attribute.nodeTypes && !attribute.nodeTypes.includes(nodeData.type)) continue;
       node.setData({
         ...nodeData,
         styleAttributes: {
@@ -7820,8 +7539,7 @@ var NodeStylesExtension = class extends CanvasExtension {
 var SvgPathHelper = class {
   static smoothenPathArray(positions, tension) {
     let newPositions = [...positions];
-    if (positions.length <= 2)
-      return newPositions;
+    if (positions.length <= 2) return newPositions;
     newPositions = [positions[0]];
     for (let i = 1; i < positions.length - 2; i++) {
       const p1 = positions[i];
@@ -7850,8 +7568,7 @@ var SvgPathHelper = class {
         x: p3.x - p2.x,
         y: p3.y - p2.y
       };
-      if (currentDirection.x !== nextDirection.x && currentDirection.y !== nextDirection.y)
-        continue;
+      if (currentDirection.x !== nextDirection.x && currentDirection.y !== nextDirection.y) continue;
       positions.splice(i + 1, 1);
       i--;
     }
@@ -7863,8 +7580,7 @@ var SvgPathHelper = class {
     if (pathArray.length < 3)
       return this.pathArrayToSvgPath(pathArray);
     pathArray = pathArray.filter((position, index) => {
-      if (index === 0)
-        return true;
+      if (index === 0) return true;
       const previous = pathArray[index - 1];
       return !(position.x === previous.x && position.y === previous.y);
     });
@@ -7960,8 +7676,7 @@ var EdgePathfindingAStar = class extends EdgePathfindingMethod {
   getPath() {
     const nodeBBoxes = [...this.canvas.nodes.values()].filter((node) => {
       const nodeData = node.getData();
-      if (nodeData.portal === true)
-        return false;
+      if (nodeData.portal === true) return false;
       const nodeBBox = node.getBBox();
       const nodeContainsFromPos = BBoxHelper.insideBBox(this.fromPos, nodeBBox, true);
       const nodeContainsToPos = BBoxHelper.insideBBox(this.toPos, nodeBBox, true);
@@ -7971,8 +7686,7 @@ var EdgePathfindingAStar = class extends EdgePathfindingMethod {
     const toPosWithMargin = BBoxHelper.moveInDirection(this.toPos, this.toSide, 10);
     const allowDiagonal = this.plugin.settings.getSetting("edgeStylePathfinderAllowDiagonal");
     let pathArray = this.aStarAlgorithm(fromPosWithMargin, toPosWithMargin, nodeBBoxes, CanvasHelper.GRID_SIZE / 2, allowDiagonal);
-    if (!pathArray)
-      return null;
+    if (!pathArray) return null;
     pathArray.splice(0, 0, this.fromPos);
     pathArray.splice(pathArray.length, 0, this.toPos);
     let svgPath;
@@ -7982,8 +7696,7 @@ var EdgePathfindingAStar = class extends EdgePathfindingMethod {
         svgPath = SvgPathHelper.pathArrayToSvgPath(SvgPathHelper.smoothenPathArray(pathArray, SMOOTHEN_PATH_TENSION));
       else
         svgPath = SvgPathHelper.pathArrayToRoundedSvgPath(pathArray, ROUND_PATH_RADIUS);
-    } else
-      svgPath = SvgPathHelper.pathArrayToSvgPath(pathArray);
+    } else svgPath = SvgPathHelper.pathArrayToSvgPath(pathArray);
     return {
       svgPath,
       center: pathArray[Math.floor(pathArray.length / 2)],
@@ -7995,20 +7708,15 @@ var EdgePathfindingAStar = class extends EdgePathfindingMethod {
       Math.floor(fromPos.x / gridResolution) * gridResolution,
       Math.floor(fromPos.y / gridResolution) * gridResolution
     );
-    if (this.fromSide === "right" && fromPos.x !== start.x)
-      start.x += gridResolution;
-    if (this.fromSide === "bottom" && fromPos.y !== start.y)
-      start.y += gridResolution;
+    if (this.fromSide === "right" && fromPos.x !== start.x) start.x += gridResolution;
+    if (this.fromSide === "bottom" && fromPos.y !== start.y) start.y += gridResolution;
     const end = new Node(
       Math.floor(toPos.x / gridResolution) * gridResolution,
       Math.floor(toPos.y / gridResolution) * gridResolution
     );
-    if (this.toSide === "right" && toPos.x !== end.x)
-      end.x += gridResolution;
-    if (this.toSide === "bottom" && toPos.y !== end.y)
-      end.y += gridResolution;
-    if (this.isInsideObstacle(start, obstacles) || this.isInsideObstacle(end, obstacles))
-      return null;
+    if (this.toSide === "right" && toPos.x !== end.x) end.x += gridResolution;
+    if (this.toSide === "bottom" && toPos.y !== end.y) end.y += gridResolution;
+    if (this.isInsideObstacle(start, obstacles) || this.isInsideObstacle(end, obstacles)) return null;
     const openSet = [start];
     const closedSet = [];
     const startTimestamp = performance.now();
@@ -8073,8 +7781,7 @@ var EdgePathfindingAStar = class extends EdgePathfindingMethod {
         node.y + direction.dy * gridResolution
       );
       neighbor.gCost = node.gCost + this.getMovementCost(direction);
-      if (this.isInsideObstacle(neighbor, obstacles))
-        continue;
+      if (this.isInsideObstacle(neighbor, obstacles)) continue;
       neighbors.push(neighbor);
     }
     return neighbors;
@@ -8347,8 +8054,7 @@ var EdgeStylesExtension = class extends CanvasExtension {
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       "advanced-canvas:node-added",
       (canvas, node) => {
-        if (canvas.dirty.size > 1 && !canvas.isPasting)
-          return;
+        if (canvas.dirty.size > 1 && !canvas.isPasting) return;
         this.updateAllEdgesInArea(canvas, node.getBBox());
       }
     ));
@@ -8364,8 +8070,7 @@ var EdgeStylesExtension = class extends CanvasExtension {
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       "advanced-canvas:dragging-state-changed",
       (canvas, isDragging) => {
-        if (isDragging)
-          return;
+        if (isDragging) return;
         const selectedNodes = canvas.getSelectionData().nodes.map((nodeData) => canvas.nodes.get(nodeData.id)).filter((node) => node !== void 0);
         const selectedNodeBBoxes = selectedNodes.map((node) => node.getBBox());
         const selectedNodeBBox = BBoxHelper.combineBBoxes(selectedNodeBBoxes);
@@ -8410,32 +8115,26 @@ var EdgeStylesExtension = class extends CanvasExtension {
     canvas.pushHistory(canvas.getData());
   }
   updateAllEdgesInArea(canvas, bbox) {
-    if (!this.shouldUpdateEdge(canvas))
-      return;
+    if (!this.shouldUpdateEdge(canvas)) return;
     for (const edge of canvas.edges.values()) {
-      if (!BBoxHelper.isColliding(edge.getBBox(), bbox))
-        continue;
+      if (!BBoxHelper.isColliding(edge.getBBox(), bbox)) continue;
       canvas.markDirty(edge);
     }
   }
   onEdgeChanged(canvas, edge) {
     var _a, _b, _c, _d, _e, _f, _g;
-    if (!canvas.dirty.has(edge) && !canvas.selection.has(edge))
-      return;
+    if (!canvas.dirty.has(edge) && !canvas.selection.has(edge)) return;
     if (!this.shouldUpdateEdge(canvas)) {
       const tooManySelected = canvas.selection.size > MAX_LIVE_UPDATE_SELECTION_SIZE;
-      if (tooManySelected)
-        return;
+      if (tooManySelected) return;
       const groupNodesSelected = [...canvas.selection].some((item) => {
         var _a2;
         return ((_a2 = item.getData()) == null ? void 0 : _a2.type) === "group";
       });
-      if (groupNodesSelected)
-        return;
+      if (groupNodesSelected) return;
     }
     const edgeData = edge.getData();
-    if (!edge.bezier)
-      return;
+    if (!edge.bezier) return;
     edge.center = void 0;
     edge.updatePath();
     const pathfindingMethod = (_a = edgeData.styleAttributes) == null ? void 0 : _a.pathfindingMethod;
@@ -8458,18 +8157,15 @@ var EdgeStylesExtension = class extends CanvasExtension {
         toBBoxSidePos,
         edge.to.side
       ).getPath();
-      if (!path)
-        return;
+      if (!path) return;
       edge.center = path.center;
       edge.path.interaction.setAttr("d", path == null ? void 0 : path.svgPath);
       edge.path.display.setAttr("d", path == null ? void 0 : path.svgPath);
     }
     (_b = edge.labelElement) == null ? void 0 : _b.render();
     const arrowPolygonPoints = this.getArrowPolygonPoints((_c = edgeData.styleAttributes) == null ? void 0 : _c.arrow);
-    if ((_d = edge.fromLineEnd) == null ? void 0 : _d.el)
-      (_e = edge.fromLineEnd.el.querySelector("polygon")) == null ? void 0 : _e.setAttribute("points", arrowPolygonPoints);
-    if ((_f = edge.toLineEnd) == null ? void 0 : _f.el)
-      (_g = edge.toLineEnd.el.querySelector("polygon")) == null ? void 0 : _g.setAttribute("points", arrowPolygonPoints);
+    if ((_d = edge.fromLineEnd) == null ? void 0 : _d.el) (_e = edge.fromLineEnd.el.querySelector("polygon")) == null ? void 0 : _e.setAttribute("points", arrowPolygonPoints);
+    if ((_f = edge.toLineEnd) == null ? void 0 : _f.el) (_g = edge.toLineEnd.el.querySelector("polygon")) == null ? void 0 : _g.setAttribute("points", arrowPolygonPoints);
   }
   onEdgeCenterRequested(_canvas, edge, center) {
     var _a, _b, _c, _d;
@@ -8510,10 +8206,8 @@ var CanvasMetadataExposerExtension = class extends CanvasExtension {
   updateExposedSettings(canvas) {
     const startNodeId = canvas.metadata["startNode"];
     for (const [nodeId, node] of canvas.nodes) {
-      if (nodeId === startNodeId)
-        node.nodeEl.dataset.isStartNode = "true";
-      else
-        delete node.nodeEl.dataset.isStartNode;
+      if (nodeId === startNodeId) node.nodeEl.dataset.isStartNode = "true";
+      else delete node.nodeEl.dataset.isStartNode;
     }
   }
 };
@@ -8521,12 +8215,9 @@ var CanvasMetadataExposerExtension = class extends CanvasExtension {
 // src/canvas-extensions/dataset-exposers/node-exposer.ts
 function getExposedNodeData(settings) {
   const exposedData = [];
-  if (settings.getSetting("nodeStylingFeatureEnabled"))
-    exposedData.push("styleAttributes");
-  if (settings.getSetting("collapsibleGroupsFeatureEnabled"))
-    exposedData.push("collapsed");
-  if (settings.getSetting("portalsFeatureEnabled"))
-    exposedData.push("isPortalLoaded");
+  if (settings.getSetting("nodeStylingFeatureEnabled")) exposedData.push("styleAttributes");
+  if (settings.getSetting("collapsibleGroupsFeatureEnabled")) exposedData.push("collapsed");
+  if (settings.getSetting("portalsFeatureEnabled")) exposedData.push("isPortalLoaded");
   return exposedData;
 }
 var NodeExposerExtension = class extends CanvasExtension {
@@ -8538,15 +8229,12 @@ var NodeExposerExtension = class extends CanvasExtension {
       "advanced-canvas:node-changed",
       (_canvas, node) => {
         const nodeData = node == null ? void 0 : node.getData();
-        if (!nodeData)
-          return;
+        if (!nodeData) return;
         for (const exposedDataKey of getExposedNodeData(this.plugin.settings)) {
           const datasetPairs = nodeData[exposedDataKey] instanceof Object ? Object.entries(nodeData[exposedDataKey]) : [[exposedDataKey, nodeData[exposedDataKey]]];
           for (const [key, value] of datasetPairs) {
-            if (!value)
-              delete node.nodeEl.dataset[key];
-            else
-              node.nodeEl.dataset[key] = value;
+            if (!value) delete node.nodeEl.dataset[key];
+            else node.nodeEl.dataset[key] = value;
           }
         }
       }
@@ -8565,25 +8253,19 @@ var NodeInteractionExposerExtension = class extends CanvasExtension {
       "advanced-canvas:node-interaction",
       (canvas, node) => {
         const nodeData = node == null ? void 0 : node.getData();
-        if (!nodeData)
-          return;
+        if (!nodeData) return;
         const interactionEl = canvas.nodeInteractionLayer.interactionEl;
-        if (!interactionEl)
-          return;
+        if (!interactionEl) return;
         for (const exposedDataKey of getExposedNodeData(this.plugin.settings)) {
           const datasetPairs = nodeData[exposedDataKey] instanceof Object ? Object.entries(nodeData[exposedDataKey]) : [[exposedDataKey, nodeData[exposedDataKey]]];
           for (const [key, value] of datasetPairs) {
             const modifiedKey = TARGET_NODE_DATASET_PREFIX + key.toString().charAt(0).toUpperCase() + key.toString().slice(1);
-            if (!value)
-              delete interactionEl.dataset[modifiedKey];
-            else
-              interactionEl.dataset[modifiedKey] = value;
+            if (!value) delete interactionEl.dataset[modifiedKey];
+            else interactionEl.dataset[modifiedKey] = value;
           }
         }
-        if (PortalsCanvasExtension.isPortalElement(node))
-          interactionEl.dataset.isFromPortal = "true";
-        else
-          delete interactionEl.dataset.isFromPortal;
+        if (PortalsCanvasExtension.isPortalElement(node)) interactionEl.dataset.isFromPortal = "true";
+        else delete interactionEl.dataset.isFromPortal;
       }
     ));
   }
@@ -8592,8 +8274,7 @@ var NodeInteractionExposerExtension = class extends CanvasExtension {
 // src/canvas-extensions/dataset-exposers/edge-exposer.ts
 function getExposedEdgeData(settings) {
   const exposedData = [];
-  if (settings.getSetting("edgesStylingFeatureEnabled"))
-    exposedData.push("styleAttributes");
+  if (settings.getSetting("edgesStylingFeatureEnabled")) exposedData.push("styleAttributes");
   return exposedData;
 }
 var EdgeExposerExtension = class extends CanvasExtension {
@@ -8606,26 +8287,20 @@ var EdgeExposerExtension = class extends CanvasExtension {
       (_canvas, edge) => {
         var _a, _b, _c, _d;
         const edgeData = edge == null ? void 0 : edge.getData();
-        if (!edgeData)
-          return;
+        if (!edgeData) return;
         for (const exposedDataKey of getExposedEdgeData(this.plugin.settings)) {
           const datasetPairs = edgeData[exposedDataKey] instanceof Object ? Object.entries(edgeData[exposedDataKey]) : [[exposedDataKey, edgeData[exposedDataKey]]];
           for (const [key, value] of datasetPairs) {
             const stringifiedKey = key == null ? void 0 : key.toString();
-            if (!stringifiedKey)
-              continue;
+            if (!stringifiedKey) continue;
             if (!value) {
               delete edge.path.display.dataset[stringifiedKey];
-              if ((_a = edge.fromLineEnd) == null ? void 0 : _a.el)
-                delete edge.fromLineEnd.el.dataset[stringifiedKey];
-              if ((_b = edge.toLineEnd) == null ? void 0 : _b.el)
-                delete edge.toLineEnd.el.dataset[stringifiedKey];
+              if ((_a = edge.fromLineEnd) == null ? void 0 : _a.el) delete edge.fromLineEnd.el.dataset[stringifiedKey];
+              if ((_b = edge.toLineEnd) == null ? void 0 : _b.el) delete edge.toLineEnd.el.dataset[stringifiedKey];
             } else {
               edge.path.display.dataset[stringifiedKey] = value.toString();
-              if ((_c = edge.fromLineEnd) == null ? void 0 : _c.el)
-                edge.fromLineEnd.el.dataset[stringifiedKey] = value.toString();
-              if ((_d = edge.toLineEnd) == null ? void 0 : _d.el)
-                edge.toLineEnd.el.dataset[stringifiedKey] = value.toString();
+              if ((_c = edge.fromLineEnd) == null ? void 0 : _c.el) edge.fromLineEnd.el.dataset[stringifiedKey] = value.toString();
+              if ((_d = edge.toLineEnd) == null ? void 0 : _d.el) edge.toLineEnd.el.dataset[stringifiedKey] = value.toString();
             }
           }
         }
@@ -8658,16 +8333,13 @@ var CanvasWrapperExposerExtension = class extends CanvasExtension {
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       "advanced-canvas:dragging-state-changed",
       (canvas, dragging) => {
-        if (dragging)
-          canvas.wrapperEl.dataset.isDragging = "true";
-        else
-          delete canvas.wrapperEl.dataset.isDragging;
+        if (dragging) canvas.wrapperEl.dataset.isDragging = "true";
+        else delete canvas.wrapperEl.dataset.isDragging;
       }
     ));
   }
   updateExposedSettings(canvas) {
-    if (!canvas)
-      return;
+    if (!canvas) return;
     for (const setting of EXPOSED_SETTINGS) {
       canvas.wrapperEl.dataset[setting] = this.plugin.settings.getSetting(setting).toString();
     }
@@ -8742,8 +8414,7 @@ var AdvancedCanvasPlugin = class extends import_obsidian18.Plugin {
   }
   getCurrentCanvasView() {
     const canvasView = this.app.workspace.getActiveViewOfType(import_obsidian18.ItemView);
-    if ((canvasView == null ? void 0 : canvasView.getViewType()) !== "canvas")
-      return null;
+    if ((canvasView == null ? void 0 : canvasView.getViewType()) !== "canvas") return null;
     return canvasView;
   }
   getCurrentCanvas() {
@@ -8753,14 +8424,12 @@ var AdvancedCanvasPlugin = class extends import_obsidian18.Plugin {
   createFileSnapshot(path, content) {
     var _a;
     const fileRecoveryPlugin = (_a = this.app.internalPlugins.plugins["file-recovery"]) == null ? void 0 : _a.instance;
-    if (!fileRecoveryPlugin)
-      return;
+    if (!fileRecoveryPlugin) return;
     fileRecoveryPlugin.forceAdd(path, content);
   }
   // this.app.plugins.plugins["advanced-canvas"].enableDebugMode()
   enableDebugMode() {
-    if (this.debugHelper)
-      return;
+    if (this.debugHelper) return;
     this.debugHelper = new DebugHelper(this);
   }
 };

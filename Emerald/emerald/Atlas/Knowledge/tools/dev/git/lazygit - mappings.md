@@ -1,5 +1,5 @@
 
-- [/] #task look into [[lazygit - mappings]] ⏳ 2025-05-20 📅 2025-05-29 🆔 lVC7oS
+- [/] #task look into [[lazygit - mappings]] 🆔 lVC7oS ⏳ 2025-05-20 📅 2025-06-02
 	- [x] branches 🎄
 	- [x] tags 🉐
 	- [x] global 🌐

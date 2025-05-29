@@ -11,7 +11,15 @@ ___
 	- [x] setup [[Zellij keymaps]]
 	- [x] setup features via plugins
 	- [x] use `alt +-` to resize panes
-	- [ ] learn how to **cleanup** sessions [^1]
+	- [x] learn how to **cleanup** sessions [^1]
+	- [/] use [[zellij floating pane]] as `pinned`
+	- [ ] map `space`
+
+### floating panes
+
+- you may now `pin` **floating panes** so they're always **visible**
+	- move them around with `Ctrl alt {up,down,left,right}`
+	- resize again with `alt +-`
 
 ### deleting session
 

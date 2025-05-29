@@ -2,7 +2,7 @@
   "searchDelayMilliSeconds": 50,
   "maxNumberOfSuggestions": 33,
   "normalizeAccentsAndDiacritics": false,
-  "useSelectionWordsAsDefaultInputQuery": false,
+  "useSelectionWordsAsDefaultInputQuery": true,
   "preventDuplicateTabs": true,
   "showDirectory": true,
   "showDirectoryAtNewLine": false,
@@ -729,7 +729,7 @@
       ],
       "includePrefixPathPatterns": [],
       "excludePrefixPathPatterns": [],
-      "expand": true
+      "expand": false
     },
     {
       "name": "File name search",
@@ -936,7 +936,7 @@
   "autoPreviewInFloatingInFileSearch": true,
   "inFileMaxDisplayLengthAroundMatchedWord": 64,
   "ripgrepCommand": "rg",
-  "grepSearchDelayMilliSeconds": 0,
+  "grepSearchDelayMilliSeconds": 20,
   "grepExtensions": [
     "md"
   ],

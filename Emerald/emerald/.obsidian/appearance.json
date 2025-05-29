@@ -1,9 +1,9 @@
 {
-  "cssTheme": "Notation",
+  "cssTheme": "Cupertino",
   "textFontFamily": "Cantarell",
   "theme": "moonstone",
   "interfaceFontFamily": "Baskerville",
-  "baseFontSize": 15,
+  "baseFontSize": 13,
   "baseFontSizeAction": true,
   "nativeMenus": false,
   "monospaceFontFamily": "FiraCode Nerd Font",

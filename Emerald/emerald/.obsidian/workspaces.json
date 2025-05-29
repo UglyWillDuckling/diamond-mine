@@ -952,25 +952,41 @@
         "type": "split",
         "children": [
           {
-            "id": "a034f8a00ac62d41",
+            "id": "1a34827e37496087",
             "type": "tabs",
             "children": [
               {
-                "id": "c9ba3ea641112824",
+                "id": "67d3fb52d1c18145",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Efforts/Active/execute program - python course/execute program - python course.md",
+                    "file": "Efforts/Active/execute program - python for programmers course/execute program - python for programmers course.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "execute program - python course"
+                  "title": "execute program - python for programmers course"
+                }
+              },
+              {
+                "id": "f94762450f1bdad9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Efforts/Active/execute program - python for programmers course/Python Identity and Equality.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Python Identity and Equality"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1027,7 +1043,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 262.5
+        "width": 234.5010757446289
       },
       "right": {
         "id": "a4cc5cab7d2ca3c4",
@@ -1196,552 +1212,35 @@
           "cmdr:Daily notes: Open today's daily note": false
         }
       },
-      "active": "c9ba3ea641112824",
-      "mtime": "2025-05-23T10:08:48+02:00"
+      "active": "f94762450f1bdad9",
+      "mtime": "2025-05-29T10:56:55+02:00"
     },
-    "work": {
+    "transac": {
       "main": {
         "id": "19b95c9e12174138",
         "type": "split",
         "children": [
           {
-            "id": "a034f8a00ac62d41",
+            "id": "4a888bd09ada7364",
             "type": "tabs",
             "children": [
               {
-                "id": "c9ba3ea641112824",
+                "id": "43734764f9a9eb99",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Efforts/Active/execute program - python course/execute program - python course.md",
+                    "file": "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-28-Wed.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "execute program - python course"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "d2c8174330e8fc4f",
-        "type": "split",
-        "children": [
-          {
-            "id": "74722ab8c20300b6",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a87c234f19295953",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
+                  "title": "2025-05-28-Wed"
                 }
               },
               {
-                "id": "663b43744af4d4d7",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#course",
-                    "matchingCase": false,
-                    "explainSearch": true,
-                    "collapseAll": true,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "c102f4929dd5c986",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 262.5
-      },
-      "right": {
-        "id": "a4cc5cab7d2ca3c4",
-        "type": "split",
-        "children": [
-          {
-            "id": "4c72f380de770d19",
-            "type": "tabs",
-            "dimension": 64.68716861081654,
-            "children": [
-              {
-                "id": "0295735161264f4f",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Atlas/Knowledge/tools/dev/git/lazygit - mappings.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for lazygit - mappings"
-                }
-              },
-              {
-                "id": "22b591c5c15ac6c0",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Atlas/Knowledge/Education/Shell/BASH - special options.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from BASH - special options"
-                }
-              },
-              {
-                "id": "c87bf1abfef9bf22",
-                "type": "leaf",
-                "state": {
-                  "type": "reminder-list",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Reminders"
-                }
-              },
-              {
-                "id": "63c18be2c6d8838d",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "31eba7a1fde877a0",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "bd522996f3c65050",
-                "type": "leaf",
-                "state": {
-                  "type": "juggl_nodes",
-                  "state": {},
-                  "icon": "ag-node-list",
-                  "title": "Juggl nodes"
-                }
-              },
-              {
-                "id": "caf4f2471c434d8f",
-                "type": "leaf",
-                "state": {
-                  "type": "juggl_style",
-                  "state": {},
-                  "icon": "ag-style",
-                  "title": "Juggl style"
-                }
-              },
-              {
-                "id": "2a91a66e751008cb",
-                "type": "leaf",
-                "state": {
-                  "type": "Sets-view",
-                  "state": {},
-                  "icon": "database",
-                  "title": "Sets"
-                }
-              }
-            ],
-            "currentTab": 7
-          },
-          {
-            "id": "614d841b279e00cf",
-            "type": "tabs",
-            "dimension": 35.31283138918346,
-            "children": [
-              {
-                "id": "42537086106242f6",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Efforts/ssh key issue.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of ssh key issue"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 755.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": true,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "zk-prefixer:Create new unique note": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "obsidian-kanban:Create new board": false,
-          "callout-manager:Insert Callout": false,
-          "obsidian42-brat:BRAT": false,
-          "quickadd:QuickAdd": false,
-          "obsidian-book-search-plugin:Create new book note": false,
-          "cmdr:Graph view: Open local graph": false,
-          "cmdr:Workspaces: Manage workspace layouts": false,
-          "templater-obsidian:Templater": true,
-          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true,
-          "juggl:Juggl global graph": true,
-          "dbfolder:Create a new database table": true,
-          "cmdr:Daily notes: Open today's daily note": false
-        }
-      },
-      "active": "c9ba3ea641112824",
-      "mtime": "2025-05-23T10:08:57+02:00"
-    },
-    "daily tasks": {
-      "main": {
-        "id": "19b95c9e12174138",
-        "type": "split",
-        "children": [
-          {
-            "id": "a034f8a00ac62d41",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "70c61d9b36fbd243",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Efforts/obsidian vimrc.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "obsidian vimrc"
-                }
-              },
-              {
-                "id": "3a5d09c9a238873d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Clippings/tadashi-aikawaobsidian-another-quick-switcher This is an Obsidian plugin which is another choice of Quick switcher..md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "tadashi-aikawaobsidian-another-quick-switcher This is an Obsidian plugin which is another choice of Quick switcher."
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "d2c8174330e8fc4f",
-        "type": "split",
-        "children": [
-          {
-            "id": "74722ab8c20300b6",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a87c234f19295953",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "663b43744af4d4d7",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#course",
-                    "matchingCase": false,
-                    "explainSearch": true,
-                    "collapseAll": true,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "c102f4929dd5c986",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 229.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "a4cc5cab7d2ca3c4",
-        "type": "split",
-        "children": [
-          {
-            "id": "4c72f380de770d19",
-            "type": "tabs",
-            "dimension": 64.68716861081654,
-            "children": [
-              {
-                "id": "0295735161264f4f",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Atlas/Knowledge/tools/dev/git/lazygit - mappings.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for lazygit - mappings"
-                }
-              },
-              {
-                "id": "22b591c5c15ac6c0",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Atlas/Knowledge/Education/Shell/BASH - special options.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from BASH - special options"
-                }
-              },
-              {
-                "id": "c87bf1abfef9bf22",
-                "type": "leaf",
-                "state": {
-                  "type": "reminder-list",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Reminders"
-                }
-              },
-              {
-                "id": "63c18be2c6d8838d",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "31eba7a1fde877a0",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "bd522996f3c65050",
-                "type": "leaf",
-                "state": {
-                  "type": "juggl_nodes",
-                  "state": {},
-                  "icon": "ag-node-list",
-                  "title": "Juggl nodes"
-                }
-              },
-              {
-                "id": "caf4f2471c434d8f",
-                "type": "leaf",
-                "state": {
-                  "type": "juggl_style",
-                  "state": {},
-                  "icon": "ag-style",
-                  "title": "Juggl style"
-                }
-              },
-              {
-                "id": "2a91a66e751008cb",
-                "type": "leaf",
-                "state": {
-                  "type": "Sets-view",
-                  "state": {},
-                  "icon": "database",
-                  "title": "Sets"
-                }
-              },
-              {
-                "id": "f300ca6db228d666",
-                "type": "leaf",
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {},
-                  "icon": "spreadsheet",
-                  "title": "Advanced Tables"
-                }
-              }
-            ],
-            "currentTab": 8
-          },
-          {
-            "id": "614d841b279e00cf",
-            "type": "tabs",
-            "dimension": 35.31283138918346,
-            "children": [
-              {
-                "id": "42537086106242f6",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Efforts/obsidian vimrc.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of obsidian vimrc"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 755.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": true,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "zk-prefixer:Create new unique note": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "obsidian-kanban:Create new board": false,
-          "callout-manager:Insert Callout": false,
-          "obsidian42-brat:BRAT": false,
-          "quickadd:QuickAdd": false,
-          "obsidian-book-search-plugin:Create new book note": false,
-          "cmdr:Graph view: Open local graph": false,
-          "cmdr:Workspaces: Manage workspace layouts": false,
-          "templater-obsidian:Templater": true,
-          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true,
-          "juggl:Juggl global graph": true,
-          "dbfolder:Create a new database table": true,
-          "cmdr:Daily notes: Open today's daily note": false
-        }
-      },
-      "active": "70c61d9b36fbd243",
-      "mtime": "2025-05-23T11:01:43+02:00"
-    },
-    "senka": {
-      "main": {
-        "id": "19b95c9e12174138",
-        "type": "split",
-        "children": [
-          {
-            "id": "a034f8a00ac62d41",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f50aee82e6d2d308",
+                "id": "4cad080ce3635687",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -1754,310 +1253,20 @@
                   "icon": "lucide-file",
                   "title": "Transac Zones update ticket"
                 }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "d2c8174330e8fc4f",
-        "type": "split",
-        "children": [
-          {
-            "id": "74722ab8c20300b6",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a87c234f19295953",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
               },
               {
-                "id": "663b43744af4d4d7",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#course",
-                    "matchingCase": false,
-                    "explainSearch": true,
-                    "collapseAll": true,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "c102f4929dd5c986",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 229.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "a4cc5cab7d2ca3c4",
-        "type": "split",
-        "children": [
-          {
-            "id": "4c72f380de770d19",
-            "type": "tabs",
-            "dimension": 54.971240755957275,
-            "children": [
-              {
-                "id": "0295735161264f4f",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Atlas/Knowledge/tools/dev/git/lazygit - mappings.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for lazygit - mappings"
-                }
-              },
-              {
-                "id": "22b591c5c15ac6c0",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Atlas/Knowledge/Education/Shell/BASH - special options.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from BASH - special options"
-                }
-              },
-              {
-                "id": "c87bf1abfef9bf22",
-                "type": "leaf",
-                "state": {
-                  "type": "reminder-list",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Reminders"
-                }
-              },
-              {
-                "id": "63c18be2c6d8838d",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "31eba7a1fde877a0",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "bd522996f3c65050",
-                "type": "leaf",
-                "state": {
-                  "type": "juggl_nodes",
-                  "state": {},
-                  "icon": "ag-node-list",
-                  "title": "Juggl nodes"
-                }
-              },
-              {
-                "id": "caf4f2471c434d8f",
-                "type": "leaf",
-                "state": {
-                  "type": "juggl_style",
-                  "state": {},
-                  "icon": "ag-style",
-                  "title": "Juggl style"
-                }
-              },
-              {
-                "id": "2a91a66e751008cb",
-                "type": "leaf",
-                "state": {
-                  "type": "Sets-view",
-                  "state": {},
-                  "icon": "database",
-                  "title": "Sets"
-                }
-              },
-              {
-                "id": "f300ca6db228d666",
-                "type": "leaf",
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {},
-                  "icon": "spreadsheet",
-                  "title": "Advanced Tables"
-                }
-              }
-            ],
-            "currentTab": 8
-          },
-          {
-            "id": "614d841b279e00cf",
-            "type": "tabs",
-            "dimension": 45.028759244042725,
-            "children": [
-              {
-                "id": "42537086106242f6",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "Efforts/obsidian vimrc ticket.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of obsidian vimrc ticket"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 755.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": true,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "zk-prefixer:Create new unique note": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "obsidian-kanban:Create new board": false,
-          "callout-manager:Insert Callout": false,
-          "obsidian42-brat:BRAT": false,
-          "quickadd:QuickAdd": false,
-          "obsidian-book-search-plugin:Create new book note": false,
-          "cmdr:Graph view: Open local graph": false,
-          "cmdr:Workspaces: Manage workspace layouts": false,
-          "templater-obsidian:Templater": true,
-          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true,
-          "juggl:Juggl global graph": true,
-          "dbfolder:Create a new database table": true,
-          "cmdr:Daily notes: Open today's daily note": false
-        }
-      },
-      "active": "f50aee82e6d2d308",
-      "mtime": "2025-05-26T12:08:09+02:00"
-    },
-    "zellij": {
-      "main": {
-        "id": "19b95c9e12174138",
-        "type": "split",
-        "children": [
-          {
-            "id": "4a888bd09ada7364",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "bfa74d475b326f01",
-                "type": "leaf",
-                "state": {
-                  "type": "canvas",
-                  "state": {
-                    "file": "tasks canvas.canvas",
-                    "viewState": {
-                      "x": -142.2498396081592,
-                      "y": 119.84562453466106,
-                      "zoom": -0.03209302528751792
-                    }
-                  },
-                  "icon": "lucide-layout-dashboard",
-                  "title": "tasks canvas"
-                }
-              },
-              {
-                "id": "43734764f9a9eb99",
+                "id": "805e07db21c0648c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Efforts/Ongoing/zellij First setup/zellij First setup.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": true,
-                    "backlinkOpts": {
-                      "collapseAll": false,
-                      "extraContext": false,
-                      "sortOrder": "alphabetical",
-                      "showSearch": false,
-                      "searchQuery": "",
-                      "backlinkCollapsed": true,
-                      "unlinkedCollapsed": true
-                    }
-                  },
-                  "icon": "lucide-file",
-                  "title": "zellij First setup"
-                }
-              },
-              {
-                "id": "c26c7c05502c8636",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Efforts/Ongoing/zellij First setup/zellij session.md",
+                    "file": "Clippings/Tips for Writing Better Unit Tests for Your Python Code.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "zellij session"
+                  "title": "Tips for Writing Better Unit Tests for Your Python Code"
                 }
               }
             ],
@@ -2136,7 +1345,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Atlas/Knowledge/tools/dev/git/lazygit - mappings.md",
+                    "file": "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2146,7 +1355,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for lazygit - mappings"
+                  "title": "Backlinks for Transac Zones update ticket"
                 }
               },
               {
@@ -2155,12 +1364,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Atlas/Knowledge/Education/Shell/BASH - special options.md",
+                    "file": "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from BASH - special options"
+                  "title": "Outgoing links from Transac Zones update ticket"
                 }
               },
               {
@@ -2172,78 +1381,9 @@
                   "icon": "clock",
                   "title": "Reminders"
                 }
-              },
-              {
-                "id": "63c18be2c6d8838d",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "31eba7a1fde877a0",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "bd522996f3c65050",
-                "type": "leaf",
-                "state": {
-                  "type": "juggl_nodes",
-                  "state": {},
-                  "icon": "ag-node-list",
-                  "title": "Juggl nodes"
-                }
-              },
-              {
-                "id": "caf4f2471c434d8f",
-                "type": "leaf",
-                "state": {
-                  "type": "juggl_style",
-                  "state": {},
-                  "icon": "ag-style",
-                  "title": "Juggl style"
-                }
-              },
-              {
-                "id": "2a91a66e751008cb",
-                "type": "leaf",
-                "state": {
-                  "type": "Sets-view",
-                  "state": {},
-                  "icon": "database",
-                  "title": "Sets"
-                }
-              },
-              {
-                "id": "f300ca6db228d666",
-                "type": "leaf",
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {},
-                  "icon": "spreadsheet",
-                  "title": "Advanced Tables"
-                }
               }
             ],
-            "currentTab": 8
+            "currentTab": 1
           },
           {
             "id": "614d841b279e00cf",
@@ -2256,13 +1396,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Efforts/Ongoing/zellij First setup/zellij First setup.md",
+                    "file": "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
                     "followCursor": false,
                     "showSearch": false,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of zellij First setup"
+                  "title": "Outline of Transac Zones update ticket"
                 }
               }
             ]
@@ -2298,9 +1438,9 @@
           "cmdr:Daily notes: Open today's daily note": false
         }
       },
-      "active": "43734764f9a9eb99",
-      "mtime": "2025-05-28T11:27:58+02:00"
+      "active": "4cad080ce3635687",
+      "mtime": "2025-05-28T17:00:07+02:00"
     }
   },
-  "active": "zellij"
+  "active": "python education"
 }

@@ -10,7 +10,7 @@ tags:
   - processing
   - interesting
 ---
-- [/] #task read [[Story Point Estimation 📰]] ⏳ 2025-02-10 📅 2025-02-14
+- [x] #task read [[Story Point Estimation 📰]] ⏳ 2025-02-10 📅 2025-02-14 ✅ 2025-05-29
 	- [ ] [[12 common mistakes made when using Story Points 📰]]
 
 ---

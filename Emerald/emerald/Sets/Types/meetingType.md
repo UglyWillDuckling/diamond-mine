@@ -19,3 +19,4 @@ tags:
 ## what?
 > meeting agenda
 
+`=this.agenda`

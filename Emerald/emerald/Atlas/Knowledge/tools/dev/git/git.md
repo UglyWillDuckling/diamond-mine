@@ -4,7 +4,7 @@ tags:
   - tool
   - git
 ---
-- [/] #task study [[git]], [[git book - Pro Git]] ⏳ 2025-04-09 📅 2025-05-29 🆔 DghKoI
+- [x] #task study [[git]], [[git book - Pro Git]] 🆔 DghKoI ⏳ 2025-04-09 📅 2025-06-06 ✅ 2025-05-29
 	- [ ] [[20 years of Git. Still weird, still wonderful.]] article 📰
 ___
 related:: [[version control system]]

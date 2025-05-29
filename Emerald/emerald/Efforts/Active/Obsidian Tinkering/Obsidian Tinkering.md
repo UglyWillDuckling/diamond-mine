@@ -11,7 +11,7 @@ related:
 
 - [x] #task **Obsidian** - see how to best [[display data in tables]] `tables` 🔼 ⏳ 2025-05-15 📅 2025-05-01 🆔 eD9MXg ✅ 2025-05-19
 	- [x] #task explore [[Database Folder - db Folder]] 🔼 📅 2025-05-01 🆔 fwuQVD ✅ 2025-05-19
-- [/] #task Explore [[People MOC]], Dann 🆔 JXgKvh 📅 2025-05-29
+- [/] #task Explore [[People MOC]], Dann 🆔 JXgKvh 📅 2025-05-30
 
 - [x] #task Explore [[AI in Obsidian]] 🔼 ⏳ 2025-02-21 📅 2025-02-28 🆔 mYn1FU ✅ 2025-04-03
 - [x] #task Explore [[Meta Bind Plugin]] 🆔 AbTXbd ⏳ 2025-02-24 📅 2025-02-28 ✅ 2025-04-14

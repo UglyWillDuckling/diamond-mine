@@ -1,6 +1,6 @@
 ---
 part of:
-  - "[[execute program - python course]]"
+  - "[[execute program - python for programmers course]]"
 tags:
   - course-item
 ---

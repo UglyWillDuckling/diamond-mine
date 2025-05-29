@@ -7,6 +7,11 @@ source: https://github.com/tadashi-aikawa/obsidian-another-quick-switcher
 tags:
   - plugin/obsidian/switch
 ---
+- [/] #task explore [[another-quick-switcher]] plugin 🆔 duK0ss
+	- [x] `shift ctr m` to move file
+	- [ ] ..
+___
+
 This is an Obsidian plugin which is another choice of Quick switcher. It offers various features, such as:
 
 - Creating custom search commands (`Custom searches`)
@@ -18,11 +23,6 @@ This is an Obsidian plugin which is another choice of Quick switcher. It offers 
 - Searching **considering prefix emoji**
 - Showing file names and directory names separately
 - Revealing a folder in the file tree (`Reveal a folder in the file tree`)
-
-## ⏬ Install
-
-You can download from `Community plugins` in Obsidian settings.
-
 ## ⌨️ Features
 
 [![Demo](https://raw.githubusercontent.com/tadashi-aikawa/obsidian-another-quick-switcher/master/demo/custom-searches.gif)](https://raw.githubusercontent.com/tadashi-aikawa/obsidian-another-quick-switcher/master/demo/custom-searches.gif)
@@ -199,11 +199,11 @@ Run [Release Action](https://github.com/tadashi-aikawa/obsidian-another-quick-sw
 
 ## Appendix
 
-[2-hop-link](https://github.com/tadashi-aikawa/#what-is-the-2-hop-link) are outgoing links in the current file, and files that have outgoing links to them.
+[2-hop-link](https://github.com/tadashi-aikawa/#what-is-the-2-hop-link) are **outgoing links in the current file**, and files that have outgoing links to them.
 
 For example, If there are relations as follows,
 
-```
+```mermaid
 flowchart LR
     D[Dog] --> A[Animal]
     C[Cat] --> A
@@ -212,7 +212,7 @@ flowchart LR
 
 [2-hop-link](https://github.com/tadashi-aikawa/#what-is-the-2-hop-link) from the "Dog" is as follows.
 
-```
+```mermaid
 flowchart LR
     D[Dog]:::focus --> A[Animal]
     D[Dog]:::focus --> C[Cat]
@@ -223,7 +223,7 @@ flowchart LR
 
 More complicated example.
 
-```
+```mermaid
 flowchart LR
     Dog:::focus --> Animal
     Dog --> Masaru
@@ -242,7 +242,7 @@ flowchart LR
 
 [2-hop-link](https://github.com/tadashi-aikawa/#what-is-the-2-hop-link) from the "Dog" is as follows.
 
-```
+```mermaid
 flowchart LR
     Dog:::focus --> Animal:::focus
     Dog --> Masaru:::focus
@@ -258,17 +258,3 @@ flowchart LR
     Animal --> Coffee
     classDef focus fill:#f96
 ```
-
-## Releases 202
-
-[\+ 201 releases](https://github.com/tadashi-aikawa/obsidian-another-quick-switcher/releases)
-
-## Packages
-
-No packages published  
-
-## Languages
-
-- [TypeScript 91.4%](https://github.com/tadashi-aikawa/obsidian-another-quick-switcher/search?l=typescript)
-- [CSS 7.6%](https://github.com/tadashi-aikawa/obsidian-another-quick-switcher/search?l=css)
-- Other 1.0%

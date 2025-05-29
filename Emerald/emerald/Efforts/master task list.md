@@ -3,11 +3,12 @@
 ### ✔ New
 
 - [/] #task check the bash tutorial 🔼 ⏳ 2025-05-20 📅 2025-05-18 [[Bourne Shell Tutorial]] 🆔 XdsgHv
-- [/] #task take a look at the [[obsidian vimrc ticket]] file again ⏳ 2025-05-23 📅 2025-05-29 🆔 Rpa6Cn
-- [ ] #task explore why resizing is slow on KDE native windows 🆔 Qi4xRT 🔼 ⏳ 2025-05-23 📅 2025-05-30
-- [ ] #task explore [[another-quick-switcher]] plugin for **obsidian** 🔼 ⏳ 2025-05-26 📅 2025-05-30 🆔 SjfKDg
-- [ ] #task review reminders  🔁 every 2 weeks ⏳ 2025-06-20 📅 2025-06-20 🆔 GoJDVK
+- [/] #task take a look at the [[obsidian vimrc ticket]] file again ⏳ 2025-05-23 📅 2025-05-30 🆔 Rpa6Cn
+- [x] #task explore why resizing is [[slow on KDE native windows]] 🆔 Qi4xRT 🔼 ⏳ 2025-05-23 📅 2025-05-30 ✅ 2025-05-28
+- [/] #task explore [[another-quick-switcher]] plugin for **obsidian** 🆔 SjfKDg 🔼 ⏳ 2025-05-26 📅 2025-06-02
 - [ ] #task try out [[git-flow]] ⏳ 2025-06-03 📅 2025-06-27 🆔 u5SeOm
+
+- [ ] #task review reminders  🔁 every 2 weeks ⏳ 2025-06-20 📅 2025-06-20 🆔 GoJDVK
 
 ### Resolved ⏳
 

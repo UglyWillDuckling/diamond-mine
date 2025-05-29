@@ -75,10 +75,6 @@ vnoremap m %
 exmap gotoHeading obcommand obsidian-another-quick-switcher:header-floating-search-in-file
 nnoremap gh :gotoHeading<CR>
 
-" [g]oto [w]riting chapters
-exmap gotoScene obcommand longform:longform-jump-to-scene
-nnoremap gw :gotoScene<CR>
-
 " [g]oto definition / link (shukuchi makes it forward-seeking)
 exmap followNextLink obcommand shukuchi:open-link
 nnoremap gx :followNextLink<CR>
@@ -105,9 +101,6 @@ nnoremap ,ff :searchReplace<CR>
 """"""""""""""""""""""
 " Editing
 """"""""""""""""""""""
-
-" undo/redo consistently on one key
-nnoremap U <C-r>
 
 " redo all
 "nnoremap ,ur 1000<C-r>

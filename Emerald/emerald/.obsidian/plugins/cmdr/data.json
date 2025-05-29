@@ -28,6 +28,12 @@
       "icon": "lucide-pin",
       "name": "Toggle pin",
       "mode": "any"
+    },
+    {
+      "id": "editor:download-attachments",
+      "icon": "lucide-a-arrow-down",
+      "name": "Download attachments for current file",
+      "mode": "any"
     }
   ],
   "leftRibbon": [

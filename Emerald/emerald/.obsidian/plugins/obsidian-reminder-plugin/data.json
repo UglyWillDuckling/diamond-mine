@@ -1,20 +1,6 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/Knowledge/tools/dev/nvim/note - Alt+space opens cmd search on KDE.md": [
-      {
-        "title": "bi-weekly",
-        "time": "2025-05-29",
-        "rowNumber": 5
-      }
-    ],
-    "Atlas/Knowledge/tools/dev/git/how to shift params in bash.md": [
-      {
-        "title": "remind me keyword is `shift {n}`",
-        "time": "2025-05-29",
-        "rowNumber": 18
-      }
-    ],
     "Atlas/Knowledge/daily_notes/2025/05-May/Senka - call.md": [
       {
         "title": "remind me",
@@ -58,11 +44,6 @@
       }
     ],
     "Atlas/Knowledge/daily_notes/2025/05-May/secrets.md": [
-      {
-        "title": "remind me",
-        "time": "2025-05-29",
-        "rowNumber": 3
-      },
       {
         "title": "monthly",
         "time": "2025-06-19",

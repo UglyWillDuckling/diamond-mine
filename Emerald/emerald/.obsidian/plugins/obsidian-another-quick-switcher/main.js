@@ -4774,7 +4774,13 @@ var AppHelper = class {
       }
     );
   }
-  async moveTo(to, editor) {
+  /**
+   * Moves the cursor to the specified position.
+   * @param to The position to move to, either as a Pos object or an offset.
+   * @param editor The editor to move in, defaults to the current editor.
+   * @param fromPos The position from which the jump is made, used for Vim jump list.
+   */
+  async moveTo(to, editor, editorPosition) {
     var _a;
     const isToOffset = typeof to === "number";
     const activeFile = this.getActiveFile();
@@ -4791,6 +4797,9 @@ var AppHelper = class {
       return;
     }
     const line = isToOffset ? targetEditor.offsetToPos(to).line : to.start.line;
+    if (editorPosition) {
+      this.addToJumpList(targetEditor, editorPosition, { line, ch: 0 });
+    }
     targetEditor.setCursor(
       targetEditor.offsetToPos(isToOffset ? to : to.start.offset)
     );
@@ -5116,6 +5125,16 @@ var AppHelper = class {
         size: 0
       }
     };
+  }
+  // Unsafe
+  addToJumpList(editor, editorPosition, to) {
+    var _a, _b, _c, _d, _e;
+    const cm = (_a = editor.cm) == null ? void 0 : _a.cm;
+    const jumpList = (_e = (_d = (_c = (_b = cm == null ? void 0 : cm.constructor) == null ? void 0 : _b.Vim) == null ? void 0 : _c.getVimGlobalState_) == null ? void 0 : _d.call(_c)) == null ? void 0 : _e.jumpList;
+    if (!jumpList) {
+      return;
+    }
+    jumpList.add(cm, editorPosition, to);
   }
 };
 
@@ -9153,6 +9172,9 @@ var InFileModal = class extends import_obsidian9.SuggestModal {
     this.initialLeaf = initialLeaf;
     this.floating = this.settings.autoPreviewInFloatingInFileSearch;
     this.autoPreview = settings.autoPreviewInFloatingInFileSearch;
+    this.stateToRestore = this.appHelper.captureState(this.initialLeaf);
+    this.initialCursor = this.appHelper.getCurrentEditor().getCursor();
+    this.navQueue = Promise.resolve();
     this.limit = 255;
     this.setHotkeys();
     this.setPlaceholder("Type anything then shows the results");
@@ -9165,6 +9187,9 @@ var InFileModal = class extends import_obsidian9.SuggestModal {
   }
   async init() {
     await this.indexingItems();
+  }
+  navigate(cb) {
+    this.navQueue = this.navQueue.then(cb);
   }
   onOpen() {
     var _a;
@@ -9204,6 +9229,9 @@ var InFileModal = class extends import_obsidian9.SuggestModal {
     super.onClose();
     globalInternalStorage3.query = this.inputEl.value;
     globalInternalStorage3.selected = this.chooser.values != null ? this.chooser.selectedItem : null;
+    if (this.stateToRestore) {
+      this.navigate(() => this.stateToRestore.restore());
+    }
   }
   select(index, evt) {
     this.chooser.setSelectedItem(index, evt);
@@ -9375,7 +9403,9 @@ var InFileModal = class extends import_obsidian9.SuggestModal {
   }
   async onChooseSuggestion(item) {
     this.appHelper.moveTo(
-      this.appHelper.getCurrentEditor().posToOffset({ line: item.lineNumber - 1, ch: 0 })
+      this.appHelper.getCurrentEditor().posToOffset({ line: item.lineNumber - 1, ch: 0 }),
+      void 0,
+      this.initialCursor
     );
   }
   registerKeys(key, handler) {

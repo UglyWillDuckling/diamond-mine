@@ -3,7 +3,6 @@ about: "[[tasks canvas.canvas|tasks canvas]]"
 related:
   - "[[session-resurrection]]"
 ---
-
 A concept from [[Zellij]].
 
 Stores all your work in a state just how you left it.

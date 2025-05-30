@@ -84,11 +84,5 @@ Directories contain directory separators
 ### try other clients
 - [x] [[Mailspring]]
 - [x] [[Nautilus mail]]
-### receiving
-<mark style="background: #FF5582A6;">doesn't work</mark>
-mismatch in the `user names.`
 
-- [x] #task test **receiving** of mails again ✅ 2025-01-07
-	- [x] #task change the username to just`senka`
-	- [x] reconnect
-	- [x] try a different [[email client]] again
+[[solution to update mail certs on Persona]]

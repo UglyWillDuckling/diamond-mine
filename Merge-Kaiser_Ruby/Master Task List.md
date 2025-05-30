@@ -3,19 +3,22 @@ id: Master Task List
 tags:
   - task-list
 ---
+- [x] #task plati Senki racune ⏫ ⏳ 2025-05-29 📅 2025-05-29 🆔 zWjq2N ✅ 2025-05-29
+- [/] #task explore Morgen AI planner 🔼 🛫 2025-05-28 ⏳ 2025-05-28 📅 2025-06-05 🆔 XWKKTw
+- [x] #task connect [[outlook calendar]] to Morgen 🔼 ⏳ 2025-05-28 📅 2025-05-28 🆔 TUNa8p ✅ 2025-05-28
 - [/] #task Explore [[Arduino]] 🔼 🛫 2025-05-28 ⏳ 2025-05-31 📅 2025-06-27 🆔 5aTADq
-- [ ] #task cancel **Means** TV sub 🔼 ⏳ 2025-05-23 📅 2025-05-29 🆔 2cpPvG
+- [x] #task cancel **Means** TV sub 🔼 ⏳ 2025-05-23 📅 2025-05-29 🆔 2cpPvG ✅ 2025-05-28
 - [ ] #task Apply to [[Bolt]] for work 🔼 📅 2025-06-02 🆔 0k90Er
 	- [[bolt job application]]
 
-- [x] #task rijesiti problem s owncloud upload limitom [[setup Owncloud]]
 - [/] #task [[Setup Printer on PC]] 🆔 rQkj6h 🔼 ⏳ 2025-03-28 📅 2025-06-03
-- [/] #task read :book[[A Wizard of Earthsea]] 📅 2025-05-24 📚 🆔 i2gcix 📅 2025-06-18
-- [ ] #task Trajno rješenje za [[persona mail setup]] ⏫ 📅 2025-05-28 🆔 f6HQA8
+- [/] #task read :book [[A Wizard of Earthsea]] 📅 2025-05-24 📚 🆔 i2gcix 📅 2025-06-18
+- [x] #task Trajno rješenje za [[persona mail setup]] ⏫ 📅 2025-05-28 🆔 f6HQA8 ✅ 2025-05-27
+	- [x] [[solution to update mail certs on Persona]]
 
 ___
 
-- [/] #task Prodi [[Bug 388]] i instaliraj zeljeni software #paused 🆔 BVw5Ce 🔼 ⏳ 2025-03-03 📅 2025-06-30
+- [/] #task Prodi [[Bug 388]] i instaliraj zeljeni software #paused 🆔 BVw5Ce 🔼 ⏳ 2025-03-03 📅 2025-06-04
 	[[instalacija sofwarea iz Bug 388]]	
 	
 - [ ] #task #backburner See [[how difficult it is to setup a local FTP server]] 🆔 592cRS 🔽 ⏳ 2025-02-25 📅 2025-07-14

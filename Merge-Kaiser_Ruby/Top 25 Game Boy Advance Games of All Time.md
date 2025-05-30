@@ -1,8 +1,11 @@
 ---
-source: "https://www.ign.com/articles/best-game-boy-advance-games"
+source: https://www.ign.com/articles/best-game-boy-advance-games
 published: 2023-03-16
 created: 2025-05-21
 tags:
+  - article/videogame/gameboy
+about:
+  - "[[gameboy]]"
 ---
 
 The Game Boy Advance has gone from a has-been to a fond memory to a desirable old-school console. It is essentially a Super Nintendo you can cram in your pocket, and its library of games is one of the strongest in portable gaming history.

@@ -1,8 +1,8 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-03-28
-published: 
+published:
 source: https://github.com/bash-lsp/bash-language-server
 tags:
   - tool/bash

@@ -1,14 +1,14 @@
 ---
 author:
   - "[[@reactjs]]"
-published: 
+published:
 created: 2025-03-14
 source: https://react.dev/reference/react/useMemo
 tags:
   - tool/react
   - react-hook
 part of:
-  - "[[Atlas/Knowledge/tools/dev/js/react/react|react]]"
+  - "[[react|react]]"
 ---
 `useMemo` is a React Hook that lets you cache the result of a calculation between re-renders.
 

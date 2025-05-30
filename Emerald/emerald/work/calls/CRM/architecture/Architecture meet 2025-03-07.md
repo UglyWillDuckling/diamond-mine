@@ -26,7 +26,7 @@ LIMIT 3
 
 ## [[okta authentication on LUQA]]
 
-will be option 3, on [[okta]] only auth, the rest of the data in our db.
+will be option 3, on [[Okta]] only auth, the rest of the data in our db.
 ## [[Cypress testing suite|Cypress]] for testing
 
 responsible: [[Ivan Culina]]

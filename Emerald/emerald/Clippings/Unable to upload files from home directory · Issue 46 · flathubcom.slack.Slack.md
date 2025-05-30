@@ -2,8 +2,8 @@
 title: "Unable to upload files from home directory · Issue #46 · flathub/com.slack.Slack"
 source: https://github.com/flathub/com.slack.Slack/issues/46
 author:
-  - "[[github]]"
-published: 
+  - "[[Atlas/tools/dev/github]]"
+published:
 created: 2025-01-16
 description: "The current sandbox permissions does not include home, which means that it is impossible to upload files from say ~/workspace. Only specific folders like Documents or Downloads are included in the permissions right now. Expected: That I ..."
 tags:

@@ -1,9 +1,9 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-05-14
 published:
-source: "https://github.com/karpathy/micrograd"
+source: https://github.com/karpathy/micrograd
 tags:
 ---
 A tiny scalar-valued autograd engine and a neural net library on top of it with PyTorch-like API

@@ -36,7 +36,7 @@ https://avivgroup.atlassian.net/wiki/spaces/AVIVIM/pages/1199145048/Fargate+ECS+
 
 1. **don't use** **permissions** in the first version
 	1. just use the UI to limit access by [[luqa role|role]]
-2. setup a meeting for next week to discuss the [[aws]] implementation
+2. setup a meeting for next week to discuss the [[AWS]] implementation
 	- [[php-examples-for-aws-lambda0.6-MVC-to-microservice at master · aws-samplesphp-examples-for-aws-lambda]]
 	- [[The serverless LAMP stack part 6 From MVC to serverless microservices  Amazon Web Services]]
 	- ..

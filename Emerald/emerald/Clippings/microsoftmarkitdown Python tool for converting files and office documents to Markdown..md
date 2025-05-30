@@ -1,9 +1,9 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-03-20
 published:
-source: "https://github.com/microsoft/markitdown"
+source: https://github.com/microsoft/markitdown
 tags:
 ---
 ## MarkItDown

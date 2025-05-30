@@ -2,7 +2,7 @@
 title: "Lemoncode/jest-testing-by-sample: Learn testing by sample using Jest, each of the samples contains a readme.md file that indicates the purpose of the sample plus an step by step guide to reproduce it."
 source: https://github.com/Lemoncode/jest-testing-by-sample
 author:
-  - "[[github]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-01-23
 description: Learn testing by sample using Jest, each of the samples contains a readme.md file that indicates the purpose of the sample plus an step by step guide to reproduce it. - Lemoncode/jest-testing-by-sample
 tags:

@@ -1,8 +1,8 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-04-30
-published: 
+published:
 source: https://github.com/chmln/sd
 tags:
   - tool/cli

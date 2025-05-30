@@ -1,6 +1,6 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-02-28
 source: https://github.com/aws-samples/php-examples-for-aws-lambda/tree/master/0.6-MVC-to-microservice
 tags:

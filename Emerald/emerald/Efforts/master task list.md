@@ -21,4 +21,4 @@
 	- [[list of books on tools]]
 
 - [x] #task review reminders 🆔 mw5csh 🔁 every 2 weeks ⏳ 2025-05-23 📅 2025-05-23 ✅ 2025-05-21
-- [x] #task check [[Beebole]] if May 8 is unlocked 🔼 ⏳ 2025-05-19 📅 2025-05-20 🆔 f7rFjh ✅ 2025-05-19
+- [x] #task check [[BeeBole]] if May 8 is unlocked 🔼 ⏳ 2025-05-19 📅 2025-05-20 🆔 f7rFjh ✅ 2025-05-19

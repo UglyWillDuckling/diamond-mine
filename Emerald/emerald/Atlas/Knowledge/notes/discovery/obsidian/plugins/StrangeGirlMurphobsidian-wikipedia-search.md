@@ -2,8 +2,8 @@
 title: "StrangeGirlMurph/obsidian-wikipedia-search: An Obsidian plugin to search, link and open Wikipedia/Wiki articles directly from the app."
 source: https://github.com/StrangeGirlMurph/obsidian-wikipedia-search
 author:
-  - "[[github]]"
-published: 
+  - "[[Atlas/tools/dev/github]]"
+published:
 created: 2024-12-04
 description: An Obsidian plugin to search, link and open Wikipedia/Wiki articles directly from the app. - StrangeGirlMurph/obsidian-wikipedia-search
 tags:

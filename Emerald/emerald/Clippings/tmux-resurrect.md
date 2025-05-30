@@ -1,6 +1,6 @@
 ---
 author:
-  - "[[github]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-02-18
 source: https://github.com/tmux-plugins/tmux-resurrect
 tags:

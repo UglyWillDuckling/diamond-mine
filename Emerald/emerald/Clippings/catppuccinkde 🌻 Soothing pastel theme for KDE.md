@@ -1,8 +1,8 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-04-01
-published: 
+published:
 source: https://github.com/catppuccin/kde
 tags:
   - theme/kde

@@ -1,0 +1,13 @@
+filters:
+  and:
+    - not(contains(property.tags, "setType"))
+views:
+  - type: table
+    name: basic view
+  - type: table
+    name: quote
+    filters:
+      and:
+        - property.type == "quote"
+    columnSize:
+      file.name: 351

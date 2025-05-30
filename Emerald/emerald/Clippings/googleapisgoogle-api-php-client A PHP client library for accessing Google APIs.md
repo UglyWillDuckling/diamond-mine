@@ -2,8 +2,8 @@
 title: "googleapis/google-api-php-client: A PHP client library for accessing Google APIs"
 source: https://github.com/googleapis/google-api-php-client
 author:
-  - "[[github]]"
-published: 
+  - "[[Atlas/tools/dev/github]]"
+published:
 created: 2025-01-08
 description: A PHP client library for accessing Google APIs. Contribute to googleapis/google-api-php-client development by creating an account on GitHub.
 tags:

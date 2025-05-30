@@ -1,8 +1,8 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-04-17
-published: 
+published:
 source: https://github.com/mrjones2014/smart-splits.nvim
 tags:
   - plugins/nvim

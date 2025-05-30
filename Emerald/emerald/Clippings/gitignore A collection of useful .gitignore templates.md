@@ -1,6 +1,6 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-04-10
 source: https://github.com/github/gitignore
 tags:

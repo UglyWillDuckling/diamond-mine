@@ -1,8 +1,8 @@
 ---
 author:
-  - "[[github]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-02-17
-published: 
+published:
 source: https://github.com/roots/bedrock?tab=readme-ov-file
 tags:
   - tool/php

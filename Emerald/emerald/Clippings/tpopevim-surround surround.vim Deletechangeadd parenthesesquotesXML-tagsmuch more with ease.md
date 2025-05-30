@@ -1,9 +1,9 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
 published:
 created: 2025-03-14
-source: "https://github.com/tpope/vim-surround"
+source: https://github.com/tpope/vim-surround
 tags:
 ---
 ## surround.vim

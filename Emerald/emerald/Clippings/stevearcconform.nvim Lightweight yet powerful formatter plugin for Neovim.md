@@ -1,8 +1,8 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-02-27
-published: 
+published:
 source: https://github.com/stevearc/conform.nvim
 tags:
   - plugin/vim

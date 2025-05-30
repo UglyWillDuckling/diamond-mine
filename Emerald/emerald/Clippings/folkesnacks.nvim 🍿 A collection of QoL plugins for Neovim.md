@@ -1,9 +1,9 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-03-04
 published:
-source: "https://github.com/folke/snacks.nvim"
+source: https://github.com/folke/snacks.nvim
 tags:
 ---
 A collection of small QoL plugins for Neovim.

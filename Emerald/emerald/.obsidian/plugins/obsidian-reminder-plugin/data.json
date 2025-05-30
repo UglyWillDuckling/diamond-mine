@@ -1,32 +1,11 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/Knowledge/tools/dev/nvim/vim.env.md": [
-      {
-        "title": "remind one more time",
-        "time": "2025-06-11",
-        "rowNumber": 17
-      }
-    ],
     "Atlas/Knowledge/Education/Shell/note - you should always add a Finished log after a Start one.md": [
       {
         "title": "remind me",
         "time": "2025-06-02",
         "rowNumber": 2
-      }
-    ],
-    "Atlas/Knowledge/tools/dev/nvim/how to print lua values in nvim.md": [
-      {
-        "title": "monthly",
-        "time": "2025-06-23",
-        "rowNumber": 28
-      }
-    ],
-    "Atlas/Knowledge/tools/dev/git/git verify-commit.md": [
-      {
-        "title": "monthly",
-        "time": "2025-06-23",
-        "rowNumber": 3
       }
     ],
     "Atlas/Knowledge/daily_notes/2025/05-May/secrets.md": [
@@ -41,6 +20,27 @@
         "title": "remind me",
         "time": "2025-06-12",
         "rowNumber": 2
+      }
+    ],
+    "Atlas/tools/dev/git/git verify-commit.md": [
+      {
+        "title": "monthly",
+        "time": "2025-06-23",
+        "rowNumber": 3
+      }
+    ],
+    "Atlas/tools/dev/nvim/how to print lua values in nvim.md": [
+      {
+        "title": "monthly",
+        "time": "2025-06-23",
+        "rowNumber": 28
+      }
+    ],
+    "Atlas/tools/dev/nvim/vim.env.md": [
+      {
+        "title": "remind one more time",
+        "time": "2025-06-11",
+        "rowNumber": 17
       }
     ]
   },

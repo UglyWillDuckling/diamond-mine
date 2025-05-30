@@ -642,7 +642,7 @@ If they want Git to do that automatically each time they run `git push origin`, 
 
 Again, this will cause a `git push origin` to push the local `master` branch to the remote `qa/master` branch by default.
 
-You cannot use the refspec to fetch from one repository and push to another one. For an example to do so, refer to [[GitHub|Keep your GitHub public repository up-to-date]].
+You cannot use the refspec to fetch from one repository and push to another one. For an example to do so, refer to [[Atlas/tools/dev/github|Keep your GitHub public repository up-to-date]].
 
 ### Deleting References
 

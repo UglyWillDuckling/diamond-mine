@@ -348,7 +348,7 @@ We first look at this command in [[Git Basics|Fetching and Pulling from Your Rem
 
 We also use it in several of the examples in [[Distributed Git|Contributing to a Project]].
 
-We use it to fetch a single specific reference that is outside of the default space in [[GitHub|Pull Request Refs]] and we see how to fetch from a bundle in [[Git Tools|Bundling]].
+We use it to fetch a single specific reference that is outside of the default space in [[Atlas/tools/dev/github|Pull Request Refs]] and we see how to fetch from a bundle in [[Git Tools|Bundling]].
 
 We set up highly custom refspecs in order to make `git fetch` do something a little different than the default in [[Git Internals|The Refspec]].
 
@@ -492,7 +492,7 @@ We covered usage and workflow around `git am` in [[Distributed Git|Applying a Pa
 
 There are also a number of hooks you can use to help with the workflow around `git am` and they are all covered in [[Customizing Git|Email Workflow Hooks]].
 
-We also use it to apply patch formatted GitHub Pull Request changes in [[GitHub|Email Notifications]].
+We also use it to apply patch formatted GitHub Pull Request changes in [[Atlas/tools/dev/github|Email Notifications]].
 
 ### git format-patch
 
@@ -570,7 +570,7 @@ In [[Git and Other Systems|Git-p4]] we use it to fix up imported external reposi
 
 There were also quite a number of lower level plumbing commands that we encountered in the book.
 
-The first one we encounter is `ls-remote` in [[GitHub|Pull Request Refs]] which we use to look at the raw references on the server.
+The first one we encounter is `ls-remote` in [[Atlas/tools/dev/github|Pull Request Refs]] which we use to look at the raw references on the server.
 
 We use `ls-files` in [[Git Tools|Manual File Re-merging]], [[Git Tools|Rerere]] and [[Git Tools|The Index]] to take a more raw look at what your staging area looks like.
 

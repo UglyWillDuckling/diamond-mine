@@ -1,8 +1,8 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-05-12
-published: 
+published:
 source: https://github.com/olimorris/neotest-phpunit
 tags:
   - plugin/nvim

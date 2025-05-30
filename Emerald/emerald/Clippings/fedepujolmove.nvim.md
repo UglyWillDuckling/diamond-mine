@@ -2,8 +2,8 @@
 title: "fedepujol/move.nvim: Gain the power to move lines and blocks and auto-indent them!"
 source: https://github.com/fedepujol/move.nvim
 author:
-  - "[[github]]"
-published: 
+  - "[[Atlas/tools/dev/github]]"
+published:
 created: 2024-11-21
 description: Gain the power to move lines and blocks and auto-indent them! - fedepujol/move.nvim
 tags:

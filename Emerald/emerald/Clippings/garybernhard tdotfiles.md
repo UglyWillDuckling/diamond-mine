@@ -1,9 +1,9 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
   - "[[Gary Bernhardt]]"
 created: 2025-03-31
-published: 
+published:
 source: https://github.com/garybernhardt/dotfiles
 tags:
 ---

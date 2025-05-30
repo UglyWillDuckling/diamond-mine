@@ -2,8 +2,8 @@
 title: "GitHub - nvimdev/dashboard-nvim: vim dashboard"
 source: https://github.com/nvimdev/dashboard-nvim
 author:
-  - "[[github]]"
-published: 
+  - "[[Atlas/tools/dev/github]]"
+published:
 created: 2025-02-04
 description: vim dashboard. Contribute to nvimdev/dashboard-nvim development by creating an account on GitHub.
 tags:

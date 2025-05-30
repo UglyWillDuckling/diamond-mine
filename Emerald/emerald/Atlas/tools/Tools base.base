@@ -1,0 +1,16 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - contains(property.tags, "tool")
+    order:
+      - file.name
+      - created
+      - file.folder
+      - tags
+    columnSize:
+      property.created: 255
+    sort:
+      - column: property.created
+        direction: DESC

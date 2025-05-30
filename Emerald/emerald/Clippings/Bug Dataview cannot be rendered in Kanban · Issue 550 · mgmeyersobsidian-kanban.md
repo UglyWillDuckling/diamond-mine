@@ -2,11 +2,11 @@
 title: "[Bug]: Dataview cannot be rendered in Kanban · Issue #550 · mgmeyers/obsidian-kanban"
 source: https://github.com/mgmeyers/obsidian-kanban/issues/550
 author:
-  - "[[github]]"
-published: 
+  - "[[Atlas/tools/dev/github]]"
+published:
 created: 2025-01-10
 description: Describe the bug I use Dataview to display a list for files. I embedded a file with Dataview List in Kanban card and it would appear the list there. Just recently, the list appears blank. The file with Dataview Embedded file with Datavie...
-tags: 
+tags:
 favicon: https://github.githubassets.com/favicons/favicon.svg
 related:
   - "[[data view]]"

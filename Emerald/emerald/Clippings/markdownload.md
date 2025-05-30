@@ -1,7 +1,7 @@
 ---
 author:
-  - "[[GitHub]]"
-published: 
+  - "[[Atlas/tools/dev/github]]"
+published:
 created: 2025-03-17
 source: https://github.com/deathau/markdownload
 tags:

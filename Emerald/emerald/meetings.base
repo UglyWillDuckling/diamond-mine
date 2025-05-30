@@ -24,7 +24,8 @@ views:
       file.name: 139
       property.scheduled: 241
       property.created: 142
-      property.agenda: 183
+      property.agenda: 151
+      file.path: 251
     sort:
       - column: property.scheduled
         direction: DESC

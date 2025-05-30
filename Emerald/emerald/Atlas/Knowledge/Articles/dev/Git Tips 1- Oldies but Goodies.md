@@ -100,7 +100,7 @@ Also, Kiril only really owns a few lines of code, Mattias actually wrote big hun
 
 ## Word Diff
 
-This is incredibly minor, and some GUIs have nice versions of this (I find [[github]]'s better than what I'm about to show you, since it subtly does both) but if you _ARE_ running `git diff` on the command line and there is a line change where something small changed within it, you can change Git's default format to word-based rather than line based with the `--word-diff` option.
+This is incredibly minor, and some GUIs have nice versions of this (I find [[Atlas/tools/dev/github]]'s better than what I'm about to show you, since it subtly does both) but if you _ARE_ running `git diff` on the command line and there is a line change where something small changed within it, you can change Git's default format to word-based rather than line based with the `--word-diff` option.
 
 ![](https://blog.gitbutler.com/content/images/2024/02/CleanShot-2024-02-08-at-08.19.47@2x.png)
 

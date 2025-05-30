@@ -2,8 +2,8 @@
 title: "The attribute metadata driver cannot be enabled on PHP 7. Please upgrade to PHP 8 or choose a different metadata driver. · doctrine/orm · Discussion #10961"
 source: https://github.com/doctrine/orm/discussions/10961
 author:
-  - "[[github]]"
-published: 
+  - "[[Atlas/tools/dev/github]]"
+published:
 created: 2024-11-28
 description: The attribute metadata driver cannot be enabled on PHP 7. Please upgrade to PHP 8 or choose a different metadata driver.
 tags:

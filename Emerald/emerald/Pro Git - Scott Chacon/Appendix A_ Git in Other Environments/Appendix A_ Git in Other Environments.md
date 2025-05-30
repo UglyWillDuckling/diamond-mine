@@ -77,7 +77,7 @@ The next step is to give the tool some repositories to work with. The client sho
 
 #### Recommended Workflow
 
-Once it’s installed and configured, you can use the GitHub client for many common Git tasks. The intended workflow for this tool is sometimes called the “GitHub Flow.” We cover this in more detail in [[GitHub|The GitHub Flow]], but the general gist is that (a) you’ll be committing to a branch, and (b) you’ll be syncing up with a remote repository fairly regularly.
+Once it’s installed and configured, you can use the GitHub client for many common Git tasks. The intended workflow for this tool is sometimes called the “GitHub Flow.” We cover this in more detail in [[Atlas/tools/dev/github|The GitHub Flow]], but the general gist is that (a) you’ll be committing to a branch, and (b) you’ll be syncing up with a remote repository fairly regularly.
 
 Branch management is one of the areas where the two tools diverge. On macOS, there’s a button at the top of the window for creating a new branch:
 

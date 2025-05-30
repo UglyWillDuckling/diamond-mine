@@ -20,7 +20,7 @@ ___
 
 ### to remember
 - SLMP is short for **SeLoger**
-- [[Atlas/Knowledge/tools/dev/js/react/react|react]] treats any function that returns a `jsx` as a [[react component]]
+- [[react|react]] treats any function that returns a `jsx` as a [[react component]]
 
 ### [[Lokalize]] access
 **project id**: 7742713467a213388b6c79.78436734

@@ -1,9 +1,9 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
   - "[[Canna71obsidian]]"
 created: 2025-05-15
-published: 
+published:
 source: https://github.com/Canna71/obsidian-sets/blob/main/docs/doc.md
 tags:
   - docs/obsidian-sets

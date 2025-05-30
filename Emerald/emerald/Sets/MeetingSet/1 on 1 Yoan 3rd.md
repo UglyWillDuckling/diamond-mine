@@ -13,6 +13,8 @@ tags:
 meeting type: 1on1
 agenda: regular 1 on 1
 duration: 30
+status:
+  - finished 🏁
 ---
 ## who?
 > who is coming?

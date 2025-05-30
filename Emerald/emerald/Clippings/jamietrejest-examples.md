@@ -1,6 +1,6 @@
 ---
 author:
-  - "[[GitHub]]"
+  - "[[Atlas/tools/dev/github]]"
 created: 2025-03-12
 source: https://github.com/jamietre/jest-examples
 about:

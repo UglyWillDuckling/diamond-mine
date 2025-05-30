@@ -23,19 +23,67 @@
             }
           },
           {
-            "id": "ba1bb1c08718c9d7",
+            "id": "18b9b7f0f98210a3",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "meetings.base",
-                "viewName": "1 on 1's"
+                "file": "Sets/QuoteSet/Any sufficiently advanced technology is indistinguishable from magic..md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-list",
-              "title": "meetings"
+              "icon": "lucide-file",
+              "title": "Any sufficiently advanced technology is indistinguishable from magic."
+            }
+          },
+          {
+            "id": "f9b3321c3fbfdd46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sets/Types/QuoteType.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "QuoteType"
+            }
+          },
+          {
+            "id": "496b187575c1d45d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/tools/dev/GNU Parallel.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "GNU Parallel"
+            }
+          },
+          {
+            "id": "8d2c6a9accd80ff4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/Part 1 GNU Parallel script processing and execution.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Part 1 GNU Parallel script processing and execution"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -92,7 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 440.5
   },
   "right": {
     "id": "a4cc5cab7d2ca3c4",
@@ -250,46 +298,47 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "e8b886e5578dbd7a",
+  "active": "8d2c6a9accd80ff4",
   "lastOpenFiles": [
-    "tasks canvas.canvas",
-    "Efforts/master task list.md",
-    "Efforts/obsidian vimrc ticket.md",
+    "Atlas/Knowledge/tools/obsidian/Templater",
+    "Atlas/Knowledge/tools/obsidian/vim - vimrc.md",
+    "Atlas/Knowledge/tools/obsidian/quickAdd.md",
+    "Atlas/Knowledge/tools/obsidian/obsidian-footnotes Plugin.md",
+    "Atlas/Knowledge/tools/obsidian/make.md.md",
+    "Atlas/Knowledge/tools/obsidian/dataview",
+    "Atlas/Knowledge/tools/obsidian/criticmarkup.md",
+    "Atlas/Knowledge/tools/obsidian/Meta Bind Plugin.md",
+    "Atlas/Knowledge/tools/obsidian/MLC css layout.md",
+    "Atlas/Knowledge/tools/obsidian/0bsidian Commander.md",
+    "Atlas/Knowledge/tools/tools.md",
+    "Atlas/Knowledge/tools/obsidian",
+    "Atlas/Knowledge/tools/gemini components.md",
+    "Atlas/Knowledge/tools/dev",
+    "Atlas/Knowledge/tools/Vivaldi browser.md",
+    "Atlas/Knowledge/tools/Terraform.md",
+    "Atlas/Knowledge/tools/PM",
+    "Atlas/Knowledge/tools/Okta.md",
+    "Atlas/Knowledge/tools",
+    "Atlas/Knowledge/people/stevearco.md",
+    "Atlas/Knowledge/people/rafael gb.md",
+    "Atlas/Knowledge/people/Scott Chacon.md",
+    "Atlas/Knowledge/people/Rebecca Wirfs-Brock.md",
+    "Atlas/Knowledge/people/Martin Fowler.md",
+    "Atlas/Knowledge/people/Kazuro Ishiguro.md",
+    "Atlas/Knowledge/people/James Baldwin.md",
+    "Atlas/Knowledge/people/Dann Berg.md",
+    "Atlas/Knowledge/people/Allen Holub.md",
+    "Atlas/Knowledge/people",
+    "Clippings/Part 1 GNU Parallel script processing and execution.md",
+    "Atlas/tools/dev/GNU Parallel.md",
+    "Sets/QuoteSet/Any sufficiently advanced technology is indistinguishable from magic..md",
+    "Atlas/tools/Tools base.base",
     "meetings.base",
-    "Untitled.md",
-    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-30-Fri.md",
-    "Clippings/Saghenblink.cmp Performant, batteries-included completion plugin for Neovim.md",
-    "Efforts/Active/execute program - python for programmers course/execute program - python for programmers course.md",
-    "Efforts/Active/execute program - python for programmers course/Mutable List Problems.md",
-    "Clippings/Introduction to Bases.md",
-    "Sets/Types/obsidian-pluginType.md",
-    "Sets/Obsidian PluginSet/Obsidian PluginSet.md",
-    "Sets/Obsidian PluginSet",
-    "Clippings/Untitled 3.md",
-    "Efforts/Active/execute program - python for programmers course/Nonlocal and Global Scope.md",
-    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-19-Mon.md",
-    "Clippings/Introducing Bases Obsidian Just Got a Built-In Database (Sort Of).md",
-    "Efforts/Active/Obsidian Bases Just Changed Everything.md",
-    "Clippings/Execute Program.md",
-    "Clippings/Execute Program 1.md",
-    "Efforts/Active/execute program - python for programmers course/Python Identity and Equality.md",
-    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-29-Thu.md",
-    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
-    "Clippings/Tips for Writing Better Unit Tests for Your Python Code.md",
-    "Clippings/What Every Programmer Should Know about How CPUs Work • Matt Godbolt • GOTO 2024.md",
-    "Atlas/Knowledge/notes/discovery/obsidian/plugins/another-quick-switcher.md",
-    "Clippings/POSIX Shell Tutorial.md",
-    "Atlas/Knowledge/How To's/Make Tutorial/make_4.md",
-    "Efforts/Ongoing",
-    "Knowledge/Books",
-    "Sets/CourseSet",
-    "Efforts/Active/execute program - python for programmers course",
+    "Atlas/tools/PC",
+    "Efforts/Active/Untitled.base",
+    "tasks canvas.canvas",
     "~/x/d136608e8bbe399debcc1513a2c08b32_MD5.jpg",
-    "Sets/MovieSet/MovieSet.md~",
     "~/x/cf4f554afb2ab9f4904dc57b21fbc382_MD5.jpg",
-    "Knowledge/Media",
-    "Knowledge",
-    "Sets/MovieSet",
     "Pro Git - Scott Chacon/images/scripting-03-webhook.png",
     "work/tickets/event issue solution canvas.canvas",
     "work/Projects/Backyard/Features/QSL listing feature/docs/artifacts/crontab board.canvas",
@@ -297,9 +346,9 @@
     "work/docs/CRM/CRM.canvas",
     "work/Projects/Backyard/Features/QSL listing feature/docs/features/aws import  impl..canvas",
     "work/Projects/Backyard/Features/QSL listing feature/docs/code/Athena impl..canvas",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/favicon.png",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/favicon.svg",
-    "Atlas/Knowledge/tools/obsidian/Templater/Templater doc/imgs/templater_user_templates.png",
+    "Atlas/tools/obsidian/Templater/Templater doc/favicon.png",
+    "Atlas/tools/obsidian/Templater/Templater doc/favicon.svg",
+    "Atlas/tools/obsidian/Templater/Templater doc/imgs/templater_user_templates.png",
     "tmp/Templater/imgs/templater_user_templates.png",
     "tmp/Templater/favicon.svg",
     "tmp/Templater/favicon.png",

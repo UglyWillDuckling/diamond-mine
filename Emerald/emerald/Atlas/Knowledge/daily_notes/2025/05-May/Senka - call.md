@@ -9,4 +9,4 @@ scheduled: 2025-05-19T13:06:00
 5. ici u **setnju** 🚶🧑‍🚀
 ![walk|150](https://chatgpt.com/backend-api/public_content/enc/eyJpZCI6Im1fNjgyYjNhMTgyODRjODE5MWFjOGVjNmU1YjYzNDkyOTA6ZmlsZV8wMDAwMDAwMGI0MWM2MWY5YWUyNTcxM2U3MDNhMjU5OCIsInRzIjoiNDg1NDYyIiwicCI6InB5aSIsInNpZyI6IjlkODA4MTI3NWIxMGQ2OGMxN2YzZmEyNjkxZDQ5OTQxZTFmYTA2NTdlMGNmYThhODc2NWE3ODk4MDJmYjhmMWMiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsfQ==)
 
-- [ ] remind me (@[[2025-05-30]])
+- [x] remind me (@[[2025-05-30]])

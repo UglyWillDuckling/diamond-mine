@@ -28,16 +28,6 @@ Here are three different cases to explore how identity works.
 list_1 = [1, 2]
 list_2 = [1, 2]
 
-list_1 == list_2
 print(f"list == list :: {list_1 == list_2}")
-
-list_1 is list_2
 print(f"list IS list :: {list_1 is list_2}")
-```
-
-```typescript
-console.log("hello")
-
-
-
 ```

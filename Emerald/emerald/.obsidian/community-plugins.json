@@ -49,5 +49,6 @@
   "obsidian-auto-link-title",
   "grappling-hook",
   "remember-cursor-position",
-  "execute-code"
+  "execute-code",
+  "inline-admonitions"
 ]

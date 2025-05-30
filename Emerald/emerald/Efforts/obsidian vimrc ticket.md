@@ -1,18 +1,21 @@
 
-- [x] look into [[another-quick-switcher]] mappings
-- [x] install plugins to enable mappings
-	- [x] [[shukuchi]]
-	- [x] [[another-quick-switcher]]
-	- [x] [[enhance url]]
-	- [x] [[commentator]] : not working
-	- [x] grappling hook
-- [x] look for a way to open quick switcher via Vim
-	- [x] [[Vimrc for Obsidian]]
-- [x] see if obsidian can remember the last place in a note
-- [/] add **personal** vim mappings
-- [ ] use the new mappings
+- [/] #task explore obsidian vimrc 🛫 2025-06-02 ⏳ 2025-05-30 📅 2025-06-30 🆔 XXjc3p
+	- [x] look into [[another-quick-switcher]] mappings
+	- [x] install plugins to enable mappings
+		- [x] [[shukuchi]]
+		- [x] [[another-quick-switcher]]
+		- [x] [[enhance url]]
+		- [x] [[commentator]] : not working
+		- [x] grappling hook
+	- [x] look for a way to open quick switcher via Vim
+		- [x] [[Vimrc for Obsidian]]
+	- [x] see if obsidian can remember the last place in a note
+	- [/] add **personal** vim mappings
+	- [x] read the mappings again
+	- [x] explore other mappings `online`
+	- [ ] use the `new` mappings
 ___
-## mapping to remember
+## mappings to remember
 
 1. `gl` grepping inside the vault. Works great [^1]
 2. `gh` go to heading. Just a **perfect** command
@@ -22,31 +25,42 @@ ___
 5. `,ff` search&replace
 6. `space` change word
 7. ``=` : add blank line below
-8. `s--` : blank line above
-9. `,ut` fileRecover
-10. `,c` enhance URL with title
+8. `,ut` fileRecover 
+9. `,c` enhance URL with title
 	[Google](http://google.com)
-11. `gf` go to footnote. Much better than mapping in Obsidian
-12. `go` quick switcher
-13. `ctrl-alt q` close window
+10. `gf` go to footnote. Much better than mapping in Obsidian
+11. `go` quick switcher
+12. `ctrl-alt q` close window
+13. `,v ,V` window split
+14. `gw` web viewer
+15. surround: `s + {",', (, {, }`
+16. `[[`  wiki surround
+17. **insert mode**: `jj` will ==escape== 
 
-## possible custom mappings
+## mappings online 🌐
+
+
+[.obsidian.vimrc · GitHub](https://gist.github.com/jiyee/cfa8dc2f37359004b34820543f691db3)
+
+
+## 🗺 possible custom mappings
 
 - [x] move between splits splits
 - [x] add split
 - [x] maybe remap template to use [[Templater]]
-
-(23232)
 
 - web: `gw` ✅
 - split `,v` `,V`
 - move around with `alt-{jklh}`
 - rm highlight `<S-h>`
 
-## changes
+```python
+print('hello')
+```
+
+## changes 🔃
 
 - `installed` [[remember-cursor-position Obsidian plugin]]
-- ..
 
 ## config {}
 

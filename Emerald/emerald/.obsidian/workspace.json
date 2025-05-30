@@ -4,37 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "1a34827e37496087",
+        "id": "483e2324a0cd7c7b",
         "type": "tabs",
         "children": [
           {
-            "id": "f94762450f1bdad9",
+            "id": "e8b886e5578dbd7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Efforts/Active/execute program - python for programmers course/Python Identity and Equality.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Python Identity and Equality"
-            }
-          },
-          {
-            "id": "c894760a44b169ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-29-Thu.md",
+                "file": "Efforts/Active/Obsidian Bases Just Changed Everything.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-05-29-Thu"
+              "title": "Obsidian Bases Just Changed Everything"
+            }
+          },
+          {
+            "id": "ba1bb1c08718c9d7",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "meetings.base",
+                "viewName": "1 on 1's"
+              },
+              "icon": "lucide-layout-list",
+              "title": "meetings"
             }
           }
         ]
@@ -69,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#course",
+                "query": "hello",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -94,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.5010757446289,
-    "collapsed": true
+    "width": 314.5
   },
   "right": {
     "id": "a4cc5cab7d2ca3c4",
@@ -112,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Knowledge/tools/dev/git/lazygit - mappings.md",
+                "file": "Clippings/Obsidian Bases Just Changed Everything.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for lazygit - mappings"
+              "title": "Backlinks for Obsidian Bases Just Changed Everything"
             }
           },
           {
@@ -150,7 +147,7 @@
             }
           },
           {
-            "id": "63c18be2c6d8838d",
+            "id": "3b1c9656a08ca543",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -165,7 +162,7 @@
             }
           },
           {
-            "id": "31eba7a1fde877a0",
+            "id": "9d906fd364b43d1e",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -179,7 +176,7 @@
             }
           },
           {
-            "id": "bd522996f3c65050",
+            "id": "d784590d9a7fbcbd",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -189,7 +186,7 @@
             }
           },
           {
-            "id": "caf4f2471c434d8f",
+            "id": "aa8ac9b75a583b03",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -197,19 +194,8 @@
               "icon": "ag-style",
               "title": "Juggl style"
             }
-          },
-          {
-            "id": "2a91a66e751008cb",
-            "type": "leaf",
-            "state": {
-              "type": "Sets-view",
-              "state": {},
-              "icon": "database",
-              "title": "Sets"
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       },
       {
         "id": "614d841b279e00cf",
@@ -222,20 +208,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Efforts/ssh key issue.md",
+                "file": "Clippings/Obsidian Bases Just Changed Everything.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ssh key issue"
+              "title": "Outline of Obsidian Bases Just Changed Everything"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 755.5,
+    "width": 503.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -264,35 +250,36 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "f94762450f1bdad9",
+  "active": "e8b886e5578dbd7a",
   "lastOpenFiles": [
+    "tasks canvas.canvas",
+    "Efforts/master task list.md",
+    "Efforts/obsidian vimrc ticket.md",
+    "meetings.base",
+    "Untitled.md",
+    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-30-Fri.md",
+    "Clippings/Saghenblink.cmp Performant, batteries-included completion plugin for Neovim.md",
     "Efforts/Active/execute program - python for programmers course/execute program - python for programmers course.md",
+    "Efforts/Active/execute program - python for programmers course/Mutable List Problems.md",
+    "Clippings/Introduction to Bases.md",
+    "Sets/Types/obsidian-pluginType.md",
+    "Sets/Obsidian PluginSet/Obsidian PluginSet.md",
+    "Sets/Obsidian PluginSet",
+    "Clippings/Untitled 3.md",
+    "Efforts/Active/execute program - python for programmers course/Nonlocal and Global Scope.md",
+    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-19-Mon.md",
+    "Clippings/Introducing Bases Obsidian Just Got a Built-In Database (Sort Of).md",
+    "Efforts/Active/Obsidian Bases Just Changed Everything.md",
+    "Clippings/Execute Program.md",
+    "Clippings/Execute Program 1.md",
+    "Efforts/Active/execute program - python for programmers course/Python Identity and Equality.md",
     "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-29-Thu.md",
+    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
+    "Clippings/Tips for Writing Better Unit Tests for Your Python Code.md",
+    "Clippings/What Every Programmer Should Know about How CPUs Work • Matt Godbolt • GOTO 2024.md",
     "Atlas/Knowledge/notes/discovery/obsidian/plugins/another-quick-switcher.md",
     "Clippings/POSIX Shell Tutorial.md",
     "Atlas/Knowledge/How To's/Make Tutorial/make_4.md",
-    "Clippings/Tips for Writing Better Unit Tests for Your Python Code.md",
-    "Atlas/Knowledge/tools/obsidian/dataview/Dataview using date as a filter.md",
-    "Clippings/scratch.nvim.md",
-    "tasks canvas.canvas",
-    "Efforts/Active/execute program - python for programmers course/Python Identity and Equality.md",
-    "Atlas/Knowledge/tools/dev/git/lazygit - mappings.md",
-    "Efforts/Active/execute program - python for programmers course/Python list basics.md",
-    "Untitled.md",
-    "Sets/MeetingSet/NOVA daily - domaca ekipa 2025-05-29.md",
-    "Atlas/Knowledge/tools/dev/git/how to shift params in bash.md",
-    "Atlas/Knowledge/daily_notes/2025/05-May/secrets.md",
-    "Atlas/Knowledge/daily_notes/2025/05-May/2025-05-28-Wed.md",
-    "Efforts/master task list.md",
-    "Efforts/slow on KDE native windows.md",
-    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
-    "Atlas/Knowledge/Media/Books/dev/Refactoring.md",
-    "Efforts/Ongoing/zellij First setup/Zellij keymaps.md",
-    "Efforts/Ongoing/zellij First setup/zellij First setup.md",
-    "Atlas/Knowledge/notes/it could be useful to map more things to <space>.md",
-    "Efforts/Ongoing/zellij First setup/zellij session.md",
-    "Atlas/Knowledge/tools/dev/Zellij/zellijdoc/session-resurrection.md",
-    "Sets/MeetingSet/Backyard daily 2.md",
     "Efforts/Ongoing",
     "Knowledge/Books",
     "Sets/CourseSet",
@@ -304,8 +291,6 @@
     "Knowledge",
     "Sets/MovieSet",
     "Pro Git - Scott Chacon/images/scripting-03-webhook.png",
-    "Sets/MeetingSet",
-    "Sets/Types",
     "work/tickets/event issue solution canvas.canvas",
     "work/Projects/Backyard/Features/QSL listing feature/docs/artifacts/crontab board.canvas",
     "work/Projects/Backyard/Features/QSL listing feature/docs/code/aws test script solution.canvas",

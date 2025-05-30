@@ -77,7 +77,7 @@ nnoremap gh :gotoHeading<CR>
 
 " [g]oto definition / link (shukuchi makes it forward-seeking)
 exmap followNextLink obcommand shukuchi:open-link
-nnoremap gx :followNextLink<CR>
+nnoremap gf :followNextLink<CR>
 
 " go to last change (HACK, only works to jump to the last location)
 nnoremap gc u<C-r>
@@ -356,7 +356,7 @@ nmap L :tabnext<CR>
 
 " Open today's note
 exmap daily obcommand daily-notes
-nmap ,dn :daily<CR>
+nmap gd :daily<CR>
 
 " Insert templates
 exmap ins_tmpl obcommand templater-obsidian:insert-templater
@@ -369,7 +369,7 @@ exmap hsplit obcommand workspace:split-horizontal
 nmap ,V :hsplit<CR>
 
 " remove highlight
-nmap <S-h> :nohl<CR>
+"nmap <S-h> :nohl<CR>
 
 " Surround
 exmap surround_wiki surround [[ ]]
@@ -393,3 +393,12 @@ map s[ :surround_square_brackets<CR>
 map s] :surround_square_brackets<CR>
 map s{ :surround_curly_brackets<CR>
 map s} :surround_curly_brackets<CR>
+
+" Escape insert mode more easily (quickly press jj )
+imap jj <Esc>
+
+" Surround text with triple quotes making codeblock
+exmap surround_codeblock surround ``` ```
+
+" map ff to surround text with triple backticks
+map ff :surround_codeblock<CR>

@@ -1,0 +1,34 @@
+filters:
+  and:
+    - property.type == "meeting"
+views:
+  - type: table
+    name: Table
+  - type: table
+    name: 1 on 1's
+    filters:
+      and:
+        - containsAny(property.tags, "meet/1on1/Yoan")
+    order:
+      - file.name
+      - scheduled
+      - created
+      - duration
+      - tags
+      - agenda
+      - meeting type
+      - file.path
+      - previous
+      - status
+    columnSize:
+      file.name: 139
+      property.scheduled: 241
+      property.created: 142
+      property.agenda: 183
+    sort:
+      - column: property.scheduled
+        direction: DESC
+      - column: file.name
+        direction: ASC
+      - column: property.created
+        direction: ASC

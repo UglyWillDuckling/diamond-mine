@@ -1,8 +1,8 @@
 ---
-status:
-  - In Progress
 tags:
   - ticket/feature
+status:
+  - In Progress
 done:
 ---
 
@@ -39,19 +39,19 @@ This `city_id` is only used as a **filter**. It takes all irises for **one** cit
 
 ## update salesforce API to limit the number of requests to `media`
 
-how to run tests
-```c
+```js
  docker compose exec app pytest tests/apis/test_realtor_v1.py
 ```
 
-- [/]  prevent request submission in case the data is missing
+- [x]  prevent request submission in case the data is missing
 	- [x] empty `iris_id` list
-	- [/] by key
+	- [x] by key
 - [/] write test
 	- [x] success test
 	- [x] negative test 
-	- [/] `refactor` tests, make a map that `list` that will map inputs to test `assertions`. will take time [^2]  [^3]
-		- [ ] see [[Tips for Writing Better Unit Tests for Your Python Code#6 . Use Parametrized Tests to Avoid Repetition]]
+	- [x] `refactor` tests, make a map that `list` that will map inputs to test `assertions`. will take time [^2]  [^3]
+		- [x] see [[Tips for Writing Better Unit Tests for Your Python Code#6 . Use Parametrized Tests to Avoid Repetition]]
+	- [ ] take another look 👀 👓
 
 
 [^1]: [[foreign key]]

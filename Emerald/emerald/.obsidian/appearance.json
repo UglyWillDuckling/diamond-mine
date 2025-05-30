@@ -3,7 +3,7 @@
   "textFontFamily": "Cantarell",
   "theme": "moonstone",
   "interfaceFontFamily": "Baskerville",
-  "baseFontSize": 13,
+  "baseFontSize": 17,
   "baseFontSizeAction": true,
   "nativeMenus": false,
   "monospaceFontFamily": "FiraCode Nerd Font",
@@ -14,7 +14,8 @@
     "vim",
     "dataview",
     "tasks",
-    "active-menu-off-in-folder-tree"
+    "active-menu-off-in-folder-tree",
+    "inlineAdmonitionsPluginReadOnly"
   ],
   "accentColor": "#14aee1",
   "showRibbon": true

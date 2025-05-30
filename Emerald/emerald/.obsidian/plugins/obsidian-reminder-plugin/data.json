@@ -1,13 +1,6 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/Knowledge/daily_notes/2025/05-May/Senka - call.md": [
-      {
-        "title": "remind me",
-        "time": "2025-05-30",
-        "rowNumber": 11
-      }
-    ],
     "Atlas/Knowledge/tools/dev/nvim/vim.env.md": [
       {
         "title": "remind one more time",
@@ -19,13 +12,6 @@
       {
         "title": "remind me",
         "time": "2025-06-02",
-        "rowNumber": 2
-      }
-    ],
-    "Atlas/Knowledge/daily_notes/2025/05-May/google cloud uses the id_ed25519 key.md": [
-      {
-        "title": "remind me",
-        "time": "2025-05-30",
         "rowNumber": 2
       }
     ],

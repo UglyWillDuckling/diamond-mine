@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🐍",
       "LiDatabase",
       "📟",
       "LiCoins",
-      "▶",
-      "LiCode"
+      "▶"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -481,5 +481,7 @@
     "iconName": "LiDatabase",
     "iconColor": "#e5f415"
   },
-  "work/Projects/Backyard/Features/QSL listing feature/archive/Notes on prod deploy of QSL.md": "LiNotebookText"
+  "work/Projects/Backyard/Features/QSL listing feature/archive/Notes on prod deploy of QSL.md": "LiNotebookText",
+  "Efforts/Active/execute program - python for programmers course/execute program - python for programmers course.md": "🐍",
+  "Efforts/Active/execute program - python for programmers course": "🐍"
 }

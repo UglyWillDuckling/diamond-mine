@@ -77,6 +77,7 @@
     "areas": "multitext",
     "related_courses": "multitext",
     "covers": "multitext",
-    "directly-connected": "multitext"
+    "directly-connected": "multitext",
+    "using": "checkbox"
   }
 }

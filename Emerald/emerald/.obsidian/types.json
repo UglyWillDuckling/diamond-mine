@@ -79,6 +79,7 @@
     "covers": "multitext",
     "directly-connected": "multitext",
     "using": "checkbox",
-    "rank": "number"
+    "rank": "number",
+    "reviewed": "checkbox"
   }
 }

@@ -7,7 +7,9 @@ https://csvplot.readthedocs.io/en/latest/index.html
 - [[csvsql]]
 - [[csvstat]]
 - [[sql2csv]]
+
 ### docs
+
 ```dataview
 LIST
 FROM #docs/csvkit 

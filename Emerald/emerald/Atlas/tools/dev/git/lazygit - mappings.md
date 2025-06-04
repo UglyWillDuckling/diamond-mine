@@ -1,5 +1,6 @@
 
-- [/] #task look into [[lazygit - mappings]] 🆔 lVC7oS ⏳ 2025-05-20 📅 2025-06-02
+
+- [x] #task look into [[lazygit - mappings]] 🆔 lVC7oS ⏳ 2025-05-20 📅 2025-06-09 ✅ 2025-06-04
 	- [x] branches 🎄
 	- [x] tags 🉐
 	- [x] global 🌐
@@ -11,17 +12,20 @@ ___
 - & `z` : undo
 - `ctrl-z` : redo
 - secondary grouping selection: `[,]`
-- `ctrl-r` : select repo
-- `{ or }`: control diff context size
+- `ctrl-r` : select repo`interest: quick`
+- `{ or }`: control diff context size `interest: very useful`
 - `ctrl-w`: toggle whitespace
-- `:` : shell command
+- `:` shell command
 
 ## files
 
 - filter by path: `ctrl-b`
-- ..
+- `ctrl-o` copy file path
+- `y` copy to clipboard(selection)
 
 ## commits
+
+- 
 
 ## branches
 

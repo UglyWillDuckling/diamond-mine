@@ -1,0 +1,37 @@
+filters:
+  and:
+    - not(contains(property.tags, "setType"))
+formulas:
+  new prop: ""
+  my folder: split(this.file.folder, "/", 2)[1]
+display:
+  property.author: By
+views:
+  - type: table
+    name: basic view
+  - type: table
+    name: quote
+    filters:
+      and:
+        - property.type == "quote"
+    order:
+      - file.name
+      - formula.my folder
+      - file.path
+      - tags
+      - rank
+      - file.folder
+    columnSize:
+      file.name: 334
+      formula.my folder: 159
+      property.tags: 120
+      file.folder: 229
+    sort:
+      - column: property.tags
+        direction: DESC
+      - column: formula.my folder
+        direction: DESC
+      - column: file.ctime
+        direction: ASC
+      - column: file.name
+        direction: ASC

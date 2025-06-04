@@ -12,10 +12,9 @@ SORT mtime DESC LIMIT 6
 ```
 
 ### created today
+
 ```dataview
 LIST WITHOUT ID
 WHERE date(file.cday) = date(today) 
 SORT file.name
 ```
-
-## ...

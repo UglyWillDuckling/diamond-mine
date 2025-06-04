@@ -4,86 +4,57 @@
     "type": "split",
     "children": [
       {
-        "id": "483e2324a0cd7c7b",
+        "id": "1a34827e37496087",
         "type": "tabs",
         "children": [
           {
-            "id": "e8b886e5578dbd7a",
+            "id": "be0ed936a2e5991a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Efforts/Active/Obsidian Bases Just Changed Everything.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "tasks canvas.canvas",
+                "viewState": {
+                  "x": -61.79332869836401,
+                  "y": 577.3390195258764,
+                  "zoom": 0.050350236201360254
+                }
               },
-              "icon": "lucide-file",
-              "title": "Obsidian Bases Just Changed Everything"
+              "icon": "lucide-layout-dashboard",
+              "title": "tasks canvas"
             }
           },
           {
-            "id": "18b9b7f0f98210a3",
+            "id": "67d3fb52d1c18145",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sets/QuoteSet/Any sufficiently advanced technology is indistinguishable from magic..md",
+                "file": "Clippings/Python for Loop  note.nkmk.me.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Any sufficiently advanced technology is indistinguishable from magic."
+              "title": "Python for Loop  note.nkmk.me"
             }
           },
           {
-            "id": "f9b3321c3fbfdd46",
+            "id": "c05aef41163c5257",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sets/Types/QuoteType.md",
+                "file": "Efforts/Active/execute program - python for programmers course/Strings as Collections.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "QuoteType"
-            }
-          },
-          {
-            "id": "496b187575c1d45d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/tools/dev/GNU Parallel.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "GNU Parallel"
-            }
-          },
-          {
-            "id": "8d2c6a9accd80ff4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/Part 1 GNU Parallel script processing and execution.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Part 1 GNU Parallel script processing and execution"
+              "title": "Strings as Collections"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hello",
+                "query": "tag:#course",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -140,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 246.50677871704102
   },
   "right": {
     "id": "a4cc5cab7d2ca3c4",
@@ -157,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/Obsidian Bases Just Changed Everything.md",
+                "file": "Atlas/Knowledge/tools/dev/git/lazygit - mappings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Obsidian Bases Just Changed Everything"
+              "title": "Backlinks for lazygit - mappings"
             }
           },
           {
@@ -195,7 +166,7 @@
             }
           },
           {
-            "id": "3b1c9656a08ca543",
+            "id": "63c18be2c6d8838d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -210,7 +181,7 @@
             }
           },
           {
-            "id": "9d906fd364b43d1e",
+            "id": "31eba7a1fde877a0",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -224,7 +195,7 @@
             }
           },
           {
-            "id": "d784590d9a7fbcbd",
+            "id": "bd522996f3c65050",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -234,7 +205,7 @@
             }
           },
           {
-            "id": "aa8ac9b75a583b03",
+            "id": "caf4f2471c434d8f",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -242,8 +213,19 @@
               "icon": "ag-style",
               "title": "Juggl style"
             }
+          },
+          {
+            "id": "2a91a66e751008cb",
+            "type": "leaf",
+            "state": {
+              "type": "Sets-view",
+              "state": {},
+              "icon": "database",
+              "title": "Sets"
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       },
       {
         "id": "614d841b279e00cf",
@@ -256,20 +238,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/Obsidian Bases Just Changed Everything.md",
+                "file": "Efforts/ssh key issue.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Obsidian Bases Just Changed Everything"
+              "title": "Outline of ssh key issue"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 503.5,
+    "width": 755.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -298,44 +280,44 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "8d2c6a9accd80ff4",
+  "active": "be0ed936a2e5991a",
   "lastOpenFiles": [
-    "Atlas/Knowledge/tools/obsidian/Templater",
-    "Atlas/Knowledge/tools/obsidian/vim - vimrc.md",
-    "Atlas/Knowledge/tools/obsidian/quickAdd.md",
-    "Atlas/Knowledge/tools/obsidian/obsidian-footnotes Plugin.md",
-    "Atlas/Knowledge/tools/obsidian/make.md.md",
-    "Atlas/Knowledge/tools/obsidian/dataview",
-    "Atlas/Knowledge/tools/obsidian/criticmarkup.md",
-    "Atlas/Knowledge/tools/obsidian/Meta Bind Plugin.md",
-    "Atlas/Knowledge/tools/obsidian/MLC css layout.md",
-    "Atlas/Knowledge/tools/obsidian/0bsidian Commander.md",
-    "Atlas/Knowledge/tools/tools.md",
-    "Atlas/Knowledge/tools/obsidian",
-    "Atlas/Knowledge/tools/gemini components.md",
-    "Atlas/Knowledge/tools/dev",
-    "Atlas/Knowledge/tools/Vivaldi browser.md",
-    "Atlas/Knowledge/tools/Terraform.md",
-    "Atlas/Knowledge/tools/PM",
-    "Atlas/Knowledge/tools/Okta.md",
-    "Atlas/Knowledge/tools",
-    "Atlas/Knowledge/people/stevearco.md",
-    "Atlas/Knowledge/people/rafael gb.md",
-    "Atlas/Knowledge/people/Scott Chacon.md",
-    "Atlas/Knowledge/people/Rebecca Wirfs-Brock.md",
-    "Atlas/Knowledge/people/Martin Fowler.md",
-    "Atlas/Knowledge/people/Kazuro Ishiguro.md",
-    "Atlas/Knowledge/people/James Baldwin.md",
-    "Atlas/Knowledge/people/Dann Berg.md",
-    "Atlas/Knowledge/people/Allen Holub.md",
-    "Atlas/Knowledge/people",
-    "Clippings/Part 1 GNU Parallel script processing and execution.md",
-    "Atlas/tools/dev/GNU Parallel.md",
-    "Sets/QuoteSet/Any sufficiently advanced technology is indistinguishable from magic..md",
-    "Atlas/tools/Tools base.base",
+    "Efforts/Active/execute program - python for programmers course/Strings as Collections.md",
+    "Clippings/Python for Loop  note.nkmk.me.md",
+    "Clippings/Convert a String to a Number (int, float) in Python  note.nkmk.me.md",
+    "Clippings/List of Python Articles  note.nkmk.me.md",
+    "Efforts/Active/execute program - python for programmers course/execute program - python for programmers course.md",
+    "Efforts/Active/execute program - python for programmers course/Assertions in Python.md",
+    "Efforts/Active/execute program - python for programmers course/Two Division Operators.md",
+    "blink - remove <C-e> mapping in insert mode.md",
+    "Efforts/Active/execute program - python for programmers course/Python Identity and Equality.md",
+    "Atlas/Knowledge/daily_notes/2025/06-June/2025-06-04-Wed.md",
+    "Clippings/csvsql.md",
+    "Clippings/How to Use sed to Replace Last Line Matching Pattern.md",
+    "Clippings/AWK Tutorial 25 Practical Examples of AWK Command in Linux.md",
+    "Clippings/Zach Bobbitt.md",
+    "Atlas/tools/dev/csvkit.md",
+    "work/calls/CRM/architecture/Behaviour Driven Development video.md",
+    "Atlas/tools/dev/git/lazygit - mappings.md",
+    "Atlas/tools/dev/lazygit.md",
+    "Atlas/Knowledge/templates/day template.md",
+    "Atlas/Knowledge/daily_notes/2025/06-June/picture.md",
+    "Untitled.md",
+    "Efforts/Active/execute program - python for programmers course/List Slicing.md",
+    "Clippings/Networking.md",
+    "Clippings/Keymap  Blink Completion (blink.cmp).md",
+    "Atlas/tools/obsidian/blink.cmp.md",
+    "Efforts/master task list.md",
     "meetings.base",
-    "Atlas/tools/PC",
-    "Efforts/Active/Untitled.base",
+    "Sets/Meeting NoteSet",
+    "work/calls/meetings notes",
+    "Atlas/Knowledge/daily_notes/2025/06-June",
+    "Efforts/Active/Quotes bases.base",
+    "Clippings/RobDWallerdusty A WordPress starter repo which uses Composer and Docker..md.gz",
+    "Clippings/second standup with NOVA team.md.gz",
+    "Clippings/folkesnacks.nvim 🍿 A collection of QoL plugins for Neovim.md.gz",
+    "Clippings/Bug Dataview cannot be rendered in Kanban · Issue 550 · mgmeyersobsidian-kanban.md.gz",
+    "Clippings/serendipitous.md.gz",
     "tasks canvas.canvas",
     "~/x/d136608e8bbe399debcc1513a2c08b32_MD5.jpg",
     "~/x/cf4f554afb2ab9f4904dc57b21fbc382_MD5.jpg",

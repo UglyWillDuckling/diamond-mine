@@ -104,6 +104,13 @@
         "Shift"
       ],
       "key": "C"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "O"
     }
   ],
   "editor:toggle-fold": [

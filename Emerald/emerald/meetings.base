@@ -1,9 +1,29 @@
 filters:
   and:
     - property.type == "meeting"
+formulas:
+  is today: if(dateEquals(scheduled, date(now())), "yes", "no")
+  "has passed ": dateBefore(scheduled, now())
+  my folder: ""
+display:
+  "formula.has passed ": passed
 views:
   - type: table
     name: Table
+    order:
+      - file.name
+      - scheduled
+      - formula.my folder
+      - "formula.has passed "
+      - formula.is today
+      - file.folder
+    sort:
+      - column: formula.is today
+        direction: DESC
+    columnSize:
+      property.scheduled: 206
+      "formula.has passed ": 190
+      formula.is today: 141
   - type: table
     name: 1 on 1's
     filters:
@@ -32,4 +52,27 @@ views:
       - column: file.name
         direction: ASC
       - column: property.created
+        direction: ASC
+  - type: table
+    name: today
+    filters:
+      and:
+        - '`formula.is today` == "yes"'
+    order:
+      - "formula.has passed "
+      - scheduled
+      - file.name
+      - participants
+      - related
+    columnSize:
+      "formula.has passed ": 107
+      property.scheduled: 198
+      file.name: 160
+      property.related: 204
+    sort:
+      - column: property.URL
+        direction: ASC
+      - column: property.related
+        direction: ASC
+      - column: property.scheduled
         direction: ASC

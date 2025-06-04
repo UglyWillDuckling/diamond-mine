@@ -3,7 +3,7 @@
 about:: [[Zellij]]
 ___
 
-- [/] #task zellij setup 🆔 3qbbTO 🔼 ⏳ 2025-05-29 📅 2025-06-04
+- [x] #task zellij setup 🆔 3qbbTO 🔼 ⏳ 2025-05-29 📅 2025-06-04 ✅ 2025-06-04
 	- [x] initial setup
 	- [x] check session resurection
 	- [x] [[#custom config]]

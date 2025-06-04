@@ -1,5 +1,5 @@
 
-- [/] #task explore obsidian vimrc 🛫 2025-06-02 ⏳ 2025-05-30 📅 2025-06-30 🆔 XXjc3p
+- [x] #task explore obsidian vimrc 🆔 XXjc3p 🛫 2025-06-02 ⏳ 2025-05-30 📅 2025-06-30 ✅ 2025-06-04
 	- [x] look into [[another-quick-switcher]] mappings
 	- [x] install plugins to enable mappings
 		- [x] [[shukuchi]]

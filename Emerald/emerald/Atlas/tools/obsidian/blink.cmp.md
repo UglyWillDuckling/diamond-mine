@@ -8,6 +8,7 @@ published:
 source: https://github.com/Saghen/blink.cmp
 tags:
   - plugin/obsidian
+docs_link: https://cmp.saghen.dev
 ---
 **Performant, batteries-included completion plugin for Neovim**
 ___
@@ -30,41 +31,3 @@ blink-cmp-demo.mp4<video src="https://private-user-images.githubusercontent.com/
 - [Terminal completion](https://cmp.saghen.dev/modes/term) (0.11+ only! No source for shell completions exists yet, contributions welcome!)
 - [Comparison with built-in completion](https://cmp.saghen.dev/#compared-to-built-in-completion)
 - [Comparison with nvim-cmp](https://cmp.saghen.dev/#compared-to-nvim-cmp)
-
-## Installation
-
-Head over to the [documentation website](https://cmp.saghen.dev/installation) for installation instructions and configuration options.
-
-## Special Thanks
-
-- [@hrsh7th](https://github.com/hrsh7th/) nvim-cmp used as inspiration and cmp-path/cmp-cmdline implementations modified for path/cmdline sources
-- [@garymjr](https://github.com/garymjr) nvim-snippets implementation modified for snippets source
-- [@redxtech](https://github.com/redxtech) Help with design and testing
-- [@aaditya-sahay](https://github.com/aaditya-sahay) Help with rust, design and testing
-
-### Contributors
-
-- [@stefanboca](https://github.com/stefanboca) Author of [blink.compat](https://github.com/saghen/blink.compat) and maintainer
-- [@soifou](https://github.com/soifou) Maintainer
-- [@lopi-py](https://github.com/lopi-py) Windowing code
-- [@scottmckendry](https://github.com/scottmckendry) CI and prebuilt binaries
-- [@balssh](https://github.com/Balssh) + [@konradmalik](https://github.com/konradmalik) Nix flake, nixpkg and nixvim
-- [@abeldekat](https://github.com/abeldekat) mini.snippets source
-- [@wurli](https://github.com/wurli) Terminal completions
-- [@mikavilpas](https://github.com/mikavilpas) + [@xzbdmw](https://github.com/xzbdmw) Dot-repeat (`.`)
-- [@FerretDetective](https://github.com/FerretDetective) `complete_func` source
-- [@krovuxdev](https://github.com/krovuxdev) Community moderation and help
-
-## Releases 44
-
-[\+ 43 releases](https://github.com/Saghen/blink.cmp/releases)
-
-## Packages
-
-No packages published  
-
-## Languages
-
-- [Lua 94.6%](https://github.com/Saghen/blink.cmp/search?l=lua)
-- [Rust 4.6%](https://github.com/Saghen/blink.cmp/search?l=rust)
-- [Nix 0.8%](https://github.com/Saghen/blink.cmp/search?l=nix)

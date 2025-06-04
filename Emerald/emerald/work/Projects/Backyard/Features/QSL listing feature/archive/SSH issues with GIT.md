@@ -1,6 +1,7 @@
 #issue/git
 
-- [x] remind me (@[[2025-03-11]] 09:57)
+> [!danger] alot of this is unverified
+
 ## git uses the first added key only!
 
 An issue can occur if multiple keys are added to the [[ssh agent]].
@@ -33,6 +34,3 @@ ssh-add ~/.ssh/id_{key}
 2. ssh picks up the key **automatically**
 3. another key is added `ssh-add ~/.ssh/{key_name}`
 4. git now uses **both** keys
-
-**not sure about this one**
-- [ ] `test` this hypothesis

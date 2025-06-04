@@ -1,13 +1,6 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/Knowledge/Education/Shell/note - you should always add a Finished log after a Start one.md": [
-      {
-        "title": "remind me",
-        "time": "2025-06-02",
-        "rowNumber": 2
-      }
-    ],
     "Atlas/Knowledge/daily_notes/2025/05-May/secrets.md": [
       {
         "title": "monthly",
@@ -41,6 +34,13 @@
         "title": "remind one more time",
         "time": "2025-06-11",
         "rowNumber": 17
+      }
+    ],
+    "work/calls/meetings notes/yoan-text-olaf-bugs.md": [
+      {
+        "title": "remind me",
+        "time": "2025-06-09",
+        "rowNumber": 4
       }
     ]
   },

@@ -7,7 +7,7 @@ source: https://github.com/tadashi-aikawa/obsidian-another-quick-switcher
 tags:
   - plugin/obsidian/switch
 ---
-- [/] #task explore [[another-quick-switcher]] plugin 🆔 duK0ss
+- [x] #task explore [[another-quick-switcher]] plugin 🆔 duK0ss ✅ 2025-06-03
 	- [x] `shift ctr m` to move file
 	- [ ] ..
 ___

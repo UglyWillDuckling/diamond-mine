@@ -9,10 +9,14 @@ tags:
 ---
 Bases
 
-- [/] #task explore [[Obsidian Bases]] 🔼 🛫 2025-05-30 ⏳ 2025-05-30 📅 2025-05-30 🆔 8PkGNT
+- [/] #task explore [[Obsidian Bases]] 🔼 🛫 2025-05-30 ⏳ 2025-05-30 📅 2025-06-09 🆔 8PkGNT
 	- [[Obsidian Bases Just Changed Everything]]
 ___
 
 - [[meetings.base|Meetings Base]]
 
-![[Efforts/Active/Untitled.base]]
+> [!example]+ Embedded example
+> ![[Quotes bases.base#quote]]
+> 
+
+

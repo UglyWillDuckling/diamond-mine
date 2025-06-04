@@ -401,4 +401,4 @@ imap jj <Esc>
 exmap surround_codeblock surround ``` ```
 
 " map ff to surround text with triple backticks
-map ff :surround_codeblock<CR>
+map ff :surround_codeblock|i<CR>

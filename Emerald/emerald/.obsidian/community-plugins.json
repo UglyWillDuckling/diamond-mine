@@ -50,5 +50,6 @@
   "grappling-hook",
   "remember-cursor-position",
   "execute-code",
-  "inline-admonitions"
+  "inline-admonitions",
+  "editor-width-slider"
 ]

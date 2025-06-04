@@ -12,6 +12,18 @@
       "type": "prefix",
       "prefix": "interest:",
       "hideTriggerString": true
+    },
+    "31be4f3e-d27a-42ef-8219-fac02a25ccf7": {
+      "backgroundColor": "#fbff00",
+      "bgColorOpacityPercent": 100,
+      "color": "#000000",
+      "colorOpacityPercent": 100,
+      "slug": "31be4f3e-d27a-42ef-8219-fac02a25ccf7",
+      "prefixIcon": "",
+      "suffixIcon": "",
+      "type": "prefix",
+      "prefix": "light:",
+      "hideTriggerString": true
     }
   }
 }

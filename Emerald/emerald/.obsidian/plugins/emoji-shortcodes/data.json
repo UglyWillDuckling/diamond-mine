@@ -4,6 +4,12 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
+    ":memo:",
+    ":100:",
+    ":spiral_notepad:",
+    ":warning:",
+    ":sun_with_face:",
+    ":calendar:",
     ":middle_finger:",
     ":globe_with_meridians:",
     ":world_map:",
@@ -11,14 +17,11 @@
     ":eyeglasses:",
     ":eyes:",
     ":notebook_with_decorative_cover:",
-    ":spiral_notepad:",
     ":sunrise:",
     ":sloth:",
     ":toolbox:",
     ":ticket:",
     ":confused:",
-    ":warning:",
-    ":100:",
     ":test_tube:",
     ":white_check_mark:",
     ":sunrise_over_mountains:",
@@ -38,7 +41,6 @@
     ":flying_disc:",
     ":astronaut:",
     ":walking:",
-    ":calendar:",
     ":thumbsup:",
     ":confounded:",
     ":writing_hand:",
@@ -55,7 +57,6 @@
     ":newspaper:",
     ":flatbread:",
     ":handshake:",
-    ":sun_with_face:",
     ":newspaper_roll:",
     ":people_holding_hands:",
     ":ballot_box_with_check:",
@@ -202,7 +203,6 @@
     ":point_right:",
     ":curly_loop:",
     ":haircut_woman:",
-    ":loud_sound:",
-    ":cloud_with_lightning:"
+    ":loud_sound:"
   ]
 }

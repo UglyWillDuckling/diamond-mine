@@ -63,33 +63,6 @@
       "y": -181
     },
     {
-      "color": "6",
-      "dynamicHeight": false,
-      "height": 860,
-      "id": "6ea88ea809413bf1",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "text": "**Scheduled**\n\n```tasks\nnot done\n(has due date) OR (has scheduled date) OR (has start date)\nhide tags\nshort mode\nhide task count\nsort by due\n```\n",
-      "type": "text",
-      "width": 980,
-      "x": -760,
-      "y": 500
-    },
-    {
-      "color": "4",
-      "dynamicHeight": false,
-      "height": 620,
-      "id": "fd8d806473e9e81d",
-      "styleAttributes": {
-      },
-      "text": "**Ready**\n\n```tasks\nnot done\n(due before next week) OR (scheduled before next week)\nsort by due\nshort mode\n```\n",
-      "type": "text",
-      "width": 950,
-      "x": -760,
-      "y": -240
-    },
-    {
       "color": "3",
       "dynamicHeight": false,
       "height": 110,
@@ -128,6 +101,33 @@
       "width": 554,
       "x": 866,
       "y": -240
+    },
+    {
+      "color": "4",
+      "dynamicHeight": false,
+      "height": 660,
+      "id": "fd8d806473e9e81d",
+      "styleAttributes": {
+      },
+      "text": "**Ready**\n\n```tasks\nnot done\n(due before next week) OR (scheduled before next week)\nsort by due\nshort mode\n```\n",
+      "type": "text",
+      "width": 920,
+      "x": -700,
+      "y": -240
+    },
+    {
+      "color": "6",
+      "dynamicHeight": false,
+      "height": 600,
+      "id": "6ea88ea809413bf1",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "**Scheduled**\n\n```tasks\nnot done\n(has due date) OR (has scheduled date) OR (has start date)\nhide tags\nshort mode\nhide task count\nsort by due\n```\n",
+      "type": "text",
+      "width": 900,
+      "x": -690,
+      "y": 470
     }
   ]
 }

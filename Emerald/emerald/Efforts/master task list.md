@@ -5,11 +5,11 @@
 - [/] #task check the bash tutorial 🔼 ⏳ 2025-05-20 📅 2025-05-18 [[Bourne Shell Tutorial]] 🆔 XdsgHv
 - [x] #task take a look at the [[obsidian vimrc ticket]] file again ⏳ 2025-05-23 📅 2025-05-31 🆔 Rpa6Cn ✅ 2025-05-30
 - [x] #task explore why resizing is [[slow on KDE native windows]] 🆔 Qi4xRT 🔼 ⏳ 2025-05-23 📅 2025-05-30 ✅ 2025-05-28
-- [/] #task explore [[another-quick-switcher]] plugin for **obsidian** 🆔 SjfKDg 🔼 ⏳ 2025-05-26 📅 2025-06-02
-- [ ] #task try out [[git-flow]] ⏳ 2025-06-03 📅 2025-06-27 🆔 u5SeOm
+- [x] #task explore [[another-quick-switcher]] plugin for **obsidian** 🆔 SjfKDg 🔼 ⏳ 2025-05-26 📅 2025-06-09 ✅ 2025-06-03
+- [x] #task try out [[git-flow]] ⏳ 2025-06-03 📅 2025-06-27 🆔 u5SeOm ✅ 2025-06-03
 
 - [ ] #task review reminders  🔁 every 2 weeks ⏳ 2025-06-20 📅 2025-06-20 🆔 GoJDVK
-- [/] #task setup dictionary autocompletion for Nvim 🛫 2025-05-30 ⏳ 2025-05-30 📅 2025-06-06 🆔 TMDS2t
+- [x] #task setup dictionary autocompletion for Nvim 🛫 2025-05-30 ⏳ 2025-05-30 📅 2025-06-06 🆔 TMDS2t ✅ 2025-06-03
 
 ### Resolved ⏳
 

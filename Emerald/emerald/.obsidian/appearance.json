@@ -3,7 +3,7 @@
   "textFontFamily": "Cantarell",
   "theme": "moonstone",
   "interfaceFontFamily": "Baskerville",
-  "baseFontSize": 17,
+  "baseFontSize": 16,
   "baseFontSizeAction": true,
   "nativeMenus": false,
   "monospaceFontFamily": "FiraCode Nerd Font",
@@ -15,7 +15,8 @@
     "dataview",
     "tasks",
     "active-menu-off-in-folder-tree",
-    "inlineAdmonitionsPluginReadOnly"
+    "inlineAdmonitionsPluginReadOnly",
+    "inline-code_no-border"
   ],
   "accentColor": "#14aee1",
   "showRibbon": true

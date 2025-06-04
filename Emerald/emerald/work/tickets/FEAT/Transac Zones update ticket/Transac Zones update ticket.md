@@ -10,8 +10,8 @@ related::
 - [[call s Danijelom - handover]]
 - [[Transac zone update by Danijela]]
 
-- [/] #task fix [[SalesForceApi]] to send data to `media` #work 🆔 O0ejus ⏫ 📅 2025-05-30
-- [/] #task handle `biz_product_coverage` table usage [[#Handle usage of biz_product_coverage table]] #work 🆔 mjQoyM ⏫ ⏳ 2025-05-28 📅 2025-06-06
+- [x] #task fix [[SalesForceApi]] to send data to `media` #work 🆔 O0ejus ⏫ 📅 2025-06-03 ✅ 2025-06-04
+- [/] #task [[#Handle usage of biz_product_coverage table]] #work 🆔 mjQoyM ⏫ ⏳ 2025-05-28 📅 2025-06-06
 	- [ ] [[#Handle usage of biz_product_coverage table]]: sync feature
 ___
 ## status

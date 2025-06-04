@@ -7,8 +7,7 @@ tags:
 ---
 #course #project
 
-- [x] #task explore Python course on [[execute program]] 🆔 CPlNBS ⏳ 2025-05-23 📅 2025-06-05 ✅ 2025-05-30
-	- `in progress`
+- [x] #task explore Python course on [[execute program]] 🆔 CPlNBS 🛫 2025-05-03 ⏳ 2025-06-03 📅 2025-06-20 ✅ 2025-06-04
 ___
 
 ## chapters
@@ -21,3 +20,5 @@ ___
 - [[Python Identity and Equality ]]
 - [[Nonlocal and Global Scope]]
 - [[Mutable List Problems]]
+- [[List Slicing]]
+- [[Strings as Collections]]

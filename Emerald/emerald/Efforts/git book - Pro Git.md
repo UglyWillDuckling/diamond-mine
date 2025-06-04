@@ -6,11 +6,11 @@ about:
 tags:
   - 📚Book/git
 ---
-![[~/x/8dfcd8268886d8282ab786d68693cdb3_MD5.jpg]]
+![[~/x/8dfcd8268886d8282ab786d68693cdb3_MD5.jpg|100]]
 The most prominent and widely read book on [[git]].
 https://git-scm.com/book/en/v2
 
-by: [[Scott Chacon]]
+by:: [[Scott Chacon]]
 ___
 # chapter 1 - About Version Control
 
@@ -877,7 +877,7 @@ Let’s retrace our steps, and undo things with git restore instead of git reset
 
 #### Unstaging a Staged File with git **restore**
 
-```
+```sh
 $ git add *
 $ git status
 On branch master

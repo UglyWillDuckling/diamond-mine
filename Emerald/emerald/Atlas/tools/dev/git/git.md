@@ -4,8 +4,8 @@ tags:
   - tool
   - git
 ---
-- [x] #task study [[git]], [[git book - Pro Git]] 🆔 DghKoI ⏳ 2025-04-09 📅 2025-06-06 ✅ 2025-05-29
-	- [ ] [[20 years of Git. Still weird, still wonderful.]] article 📰
+- [/] #task study [[git]], [[git book - Pro Git]] 🆔 DghKoI ⏳ 2025-04-09 📅 2025-06-06
+- [ ] #task read article [[20 years of Git. Still weird, still wonderful.]] 📰 🆔 zIwAhQ
 ___
 related:: [[version control system]]
 >
@@ -19,7 +19,7 @@ Git is free and open-source, and is widely used in software development, and oth
 It is known for its speed, efficiency, and powerful features, such as [[git branching|branching]]
   and [[git merging]], that make it a popular choice among developers.
 
-# have the correct `main-tag`
+## have the correct `main-tag`
 
 ```dataview
 TABLE WITHOUT ID
@@ -40,7 +40,6 @@ FROM #article/git or #howto/git
 WHERE interest >= 8 AND !processed
 SORT interest DESC
 ```
-
 # resources
 
 ## how to's

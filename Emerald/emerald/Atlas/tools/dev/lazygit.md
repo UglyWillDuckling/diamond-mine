@@ -1,64 +1,35 @@
+- [[#Elevator Pitch|Elevator Pitch]]
+- [[#Features|Features]]
+	- [[#Features#Interactive Rebase|Interactive Rebase]]
+	- [[#Features#Cherry-pick|Cherry-pick]]
+	- [[#Features#Bisect|Bisect]]
+	- [[#Features#Filter|Filter]]
+	- [[#Features#Worktrees|Worktrees]]
+	- [[#Features#Undo|Undo]]
+	- [[#Features#Commit graph|Commit graph]]
+- [[#Tutorials|Tutorials]]
+- [[#Usage|Usage]]
+	- [[#Usage#Keybindings|Keybindings]]
+	- [[#Usage#Undo/Redo|Undo/Redo]]
+- [[#Configuration|Configuration]]
+
 ## Elevator Pitch
 
-Rant time: You've heard it before, git is *powerful*, but what good is that power when everything is so damn hard to do? Interactive rebasing requires you to edit a goddamn TODO file in your editor? *Are you kidding me?* To stage part of a file you need to use a command line program to step through each hunk and if a hunk can't be split down any further but contains code you don't want to stage, you have to edit an arcane patch file *by hand*? *Are you KIDDING me?!* Sometimes you get asked to stash your changes when switching branches only to realise that after you switch and unstash that there weren't even any conflicts and it would have been fine to just checkout the branch directly? *YOU HAVE GOT TO BE KIDDING ME!*
+%% label: let's add some comments here
+
+more comments a bit down...
+
+%%
+
+==Rant== %%note: love a good rant %% time: You've heard it before, git is *powerful*, but what good is that power when everything is so damn hard to do? Interactive rebasing requires you to edit a goddamn TODO file in your editor? *Are you kidding me?* To stage part of a file you need to use a command line program to step through each hunk and if a hunk can't be split down any further but contains code you don't want to stage, you have to edit an arcane patch file *by hand*? *Are you KIDDING me?!* Sometimes you get asked to stash your changes when switching branches only to realise that after you switch and unstash that there weren't even any conflicts and it would have been fine to just checkout the branch directly? *YOU HAVE GOT TO BE KIDDING ME!*
+
+%%tip: watch out for this one %%
+
+<!--note: aa-->
+
+%%mortal: for mortals%%
 
 If you're a mere mortal like me and you're tired of hearing how powerful git is when in your daily life it's a powerful pain in your ass, lazygit might be for you.
-
-- [Sponsors](https://github.com/jesseduffield/#sponsors)
-- [Elevator Pitch](https://github.com/jesseduffield/#elevator-pitch)
-- [Table of contents](https://github.com/jesseduffield/#table-of-contents)
-- [Features](https://github.com/jesseduffield/#features)
-	- [Stage individual lines](https://github.com/jesseduffield/#stage-individual-lines)
-	- [Interactive Rebase](https://github.com/jesseduffield/#interactive-rebase)
-	- [Cherry-pick](https://github.com/jesseduffield/#cherry-pick)
-	- [Bisect](https://github.com/jesseduffield/#bisect)
-	- [Nuke the working tree](https://github.com/jesseduffield/#nuke-the-working-tree)
-	- [Amend an old commit](https://github.com/jesseduffield/#amend-an-old-commit)
-	- [Filter](https://github.com/jesseduffield/#filter)
-	- [Invoke a custom command](https://github.com/jesseduffield/#invoke-a-custom-command)
-	- [Worktrees](https://github.com/jesseduffield/#worktrees)
-	- [Rebase magic (custom patches)](https://github.com/jesseduffield/#rebase-magic-custom-patches)
-	- [Rebase from marked base commit](https://github.com/jesseduffield/#rebase-from-marked-base-commit)
-	- [Undo](https://github.com/jesseduffield/#undo)
-	- [Commit graph](https://github.com/jesseduffield/#commit-graph)
-	- [Compare two commits](https://github.com/jesseduffield/#compare-two-commits)
-- [Tutorials](https://github.com/jesseduffield/#tutorials)
-- [Installation](https://github.com/jesseduffield/#installation)
-	- [Binary Releases](https://github.com/jesseduffield/#binary-releases)
-	- [Homebrew](https://github.com/jesseduffield/#homebrew)
-	- [MacPorts](https://github.com/jesseduffield/#macports)
-	- [Void Linux](https://github.com/jesseduffield/#void-linux)
-	- [Scoop (Windows)](https://github.com/jesseduffield/#scoop-windows)
-	- [Arch Linux](https://github.com/jesseduffield/#arch-linux)
-	- [Fedora and RHEL](https://github.com/jesseduffield/#fedora-and-rhel)
-	- [Solus Linux](https://github.com/jesseduffield/#solus-linux)
-	- [Debian and Ubuntu](https://github.com/jesseduffield/#debian-and-ubuntu)
-	- [Funtoo Linux](https://github.com/jesseduffield/#funtoo-linux)
-	- [Gentoo Linux](https://github.com/jesseduffield/#gentoo-linux)
-	- [FreeBSD](https://github.com/jesseduffield/#freebsd)
-	- [Termux](https://github.com/jesseduffield/#termux)
-	- [Conda](https://github.com/jesseduffield/#conda)
-	- [Go](https://github.com/jesseduffield/#go)
-	- [Chocolatey (Windows)](https://github.com/jesseduffield/#chocolatey-windows)
-	- [Winget (Windows 10 1709 or later)](https://github.com/jesseduffield/#winget-windows-10-1709-or-later)
-	- [Manual](https://github.com/jesseduffield/#manual)
-- [Usage](https://github.com/jesseduffield/#usage)
-	- [Keybindings](https://github.com/jesseduffield/#keybindings)
-	- [Changing Directory On Exit](https://github.com/jesseduffield/#changing-directory-on-exit)
-	- [Undo/Redo](https://github.com/jesseduffield/#undoredo)
-- [Configuration](https://github.com/jesseduffield/#configuration)
-	- [Custom Pagers](https://github.com/jesseduffield/#custom-pagers)
-	- [Custom Commands](https://github.com/jesseduffield/#custom-commands)
-	- [Git flow support](https://github.com/jesseduffield/#git-flow-support)
-- [Contributing](https://github.com/jesseduffield/#contributing)
-	- [Debugging Locally](https://github.com/jesseduffield/#debugging-locally)
-- [Donate](https://github.com/jesseduffield/#donate)
-- [FAQ](https://github.com/jesseduffield/#faq)
-	- [What do the commit colors represent?](https://github.com/jesseduffield/#what-do-the-commit-colors-represent)
-- [Shameless Plug](https://github.com/jesseduffield/#shameless-plug)
-- [Alternatives](https://github.com/jesseduffield/#alternatives)
-
-Lazygit is not my fulltime job but it is a hefty part time job so if you want to support the project please consider [sponsoring me](https://github.com/sponsors/jesseduffield)
 
 ## Features
 
@@ -85,7 +56,7 @@ Press `shift+c` on a commit to copy it and press `shift+v` to paste (cherry-pick
 ### Bisect
 
 Press `b` in the commits view to mark a commit as good/bad in order to begin a git bisect.
-
+	
 [![bisect](https://github.com/jesseduffield/lazygit/raw/assets/demo/bisect-compressed.gif)](https://github.com/jesseduffield/lazygit/blob/assets/demo/bisect-compressed.gif)
 
 For when you really want to just get rid of anything that shows up when you run `git status` (and yes that includes dirty submodules) [kidpix style](https://www.youtube.com/watch?v=N4E2B_k2Bss), press `shift+d` to bring up the reset options menu and then select the 'nuke' option.

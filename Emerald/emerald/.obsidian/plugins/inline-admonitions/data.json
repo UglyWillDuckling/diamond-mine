@@ -24,6 +24,18 @@
       "type": "prefix",
       "prefix": "light:",
       "hideTriggerString": true
+    },
+    "bde6949e-d497-40da-8f45-1bc53c2a7750": {
+      "backgroundColor": "#fef967",
+      "bgColorOpacityPercent": 100,
+      "color": "#000000",
+      "colorOpacityPercent": 100,
+      "slug": "bde6949e-d497-40da-8f45-1bc53c2a7750",
+      "prefixIcon": "album",
+      "suffixIcon": "",
+      "type": "prefix",
+      "prefix": "note:",
+      "hideTriggerString": false
     }
   }
 }

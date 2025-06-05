@@ -2,7 +2,7 @@
 
 ### ✔ New
 
-- [/] #task check the bash tutorial 🔼 ⏳ 2025-05-20 📅 2025-05-18 [[Bourne Shell Tutorial]] 🆔 XdsgHv
+- [/] #task check the bash tutorial 🔼 ⏳ 2025-05-20 📅 2025-05-18 [[Bourne Shell Tutorial]] 🆔 XdsgHv 📅 2025-06-13
 - [x] #task take a look at the [[obsidian vimrc ticket]] file again ⏳ 2025-05-23 📅 2025-05-31 🆔 Rpa6Cn ✅ 2025-05-30
 - [x] #task explore why resizing is [[slow on KDE native windows]] 🆔 Qi4xRT 🔼 ⏳ 2025-05-23 📅 2025-05-30 ✅ 2025-05-28
 - [x] #task explore [[another-quick-switcher]] plugin for **obsidian** 🆔 SjfKDg 🔼 ⏳ 2025-05-26 📅 2025-06-09 ✅ 2025-06-03

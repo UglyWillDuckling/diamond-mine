@@ -1,4 +1,4 @@
-
+for:: [[lazygit]]
 
 - [x] #task look into [[lazygit - mappings]] 🆔 lVC7oS ⏳ 2025-05-20 📅 2025-06-09 ✅ 2025-06-04
 	- [x] branches 🎄

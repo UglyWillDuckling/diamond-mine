@@ -19,3 +19,25 @@ This has one strange side effect. We can index into a string, giving us a single
 "cat"[2][0][0][0][0][0][0]
 't'
 ```
+
+## slicing
+
+Slicing out of bounds gives us an empty string. This matches what we already saw for lists, where slicing out of bounds gives us an empty list.
+
+```python
+data = "abc"
+data[10:15]
+""
+```
+
+## contains
+
+string1 in string2 tells us whether a string contains another string.
+
+```python
+friends = "Betty, Cindy, Dalili"
+"Betty" in friends
+True
+```
+
+next: [[Importing and the Standard Library]]

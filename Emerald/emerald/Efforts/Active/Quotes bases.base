@@ -22,11 +22,13 @@ views:
       - rank
       - file.folder
     columnSize:
-      file.name: 334
+      file.name: 368
       formula.my folder: 159
       property.tags: 120
       file.folder: 229
     sort:
+      - column: file.path
+        direction: ASC
       - column: property.tags
         direction: DESC
       - column: formula.my folder

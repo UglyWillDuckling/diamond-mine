@@ -1,0 +1,28 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - contains(property.type, "project")
+        - not(contains(file.path, "Sets"))
+    order:
+      - active
+      - done
+      - estimate
+      - interest
+      - file.name
+      - project_status
+      - areas
+      - complexity
+      - file.ctime
+      - start date
+      - end_date
+      - due_date
+    columnSize:
+      property.active: 93
+      property.done: 105
+      file.name: 341
+      property.areas: 128
+      property.complexity: 122
+      property.start date: 160
+      property.due_date: 180

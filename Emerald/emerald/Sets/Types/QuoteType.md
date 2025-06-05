@@ -5,5 +5,5 @@ tags:
 type: quote
 author: []
 related:
-rank: 4.1
+rank: 4
 ---

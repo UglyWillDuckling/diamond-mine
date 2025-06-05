@@ -15,6 +15,6 @@ workspaces = {
 ```
 
 - [x] remind me (@[[2025-05-20]] 11:00)
-- [ ] remind one more time (@[[2025-06-11]])
+- [ ] remind one more time, vim env (@[[2025-06-11]])
 
 [^1]: [[env variable]]

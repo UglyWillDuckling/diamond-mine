@@ -21,6 +21,7 @@ views:
       - column: formula.is today
         direction: DESC
     columnSize:
+      file.name: 301
       property.scheduled: 206
       "formula.has passed ": 190
       formula.is today: 141

@@ -5,7 +5,7 @@
     "tags": "tags",
     "finished": "checkbox",
     "start date": "date",
-    "complexity": "multitext",
+    "complexity": "number",
     "": "text",
     "created": "date",
     "updated": "date",
@@ -80,6 +80,12 @@
     "directly-connected": "multitext",
     "using": "checkbox",
     "rank": "number",
-    "reviewed": "checkbox"
+    "reviewed": "checkbox",
+    "size": "number",
+    "end_date": "date",
+    "ready": "checkbox",
+    "estimate": "number",
+    "progress": "number",
+    "due_date": "date"
   }
 }

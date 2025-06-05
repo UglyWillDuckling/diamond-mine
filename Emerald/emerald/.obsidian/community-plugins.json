@@ -51,5 +51,6 @@
   "remember-cursor-position",
   "execute-code",
   "inline-admonitions",
-  "editor-width-slider"
+  "editor-width-slider",
+  "enhanced-annotations"
 ]

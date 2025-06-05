@@ -1,0 +1,117 @@
+{
+  "editorSuggest": {
+    "enableAutoSuggest": true,
+    "triggerPhrase": "//",
+    "commentFormat": "html"
+  },
+  "decoration": {
+    "autoRegisterLabels": true,
+    "styles": {
+      "labels": {
+        "1749135107871": {
+          "label": "for-mortals",
+          "id": "1749135107871",
+          "enableStyle": true,
+          "style": {
+            "color": "#00f384",
+            "italic": true,
+            "fontWeight": "thin"
+          }
+        },
+        "1749135135903": {
+          "label": "dull",
+          "id": "1749135135903",
+          "enableStyle": true,
+          "style": {
+            "color": "#bababa",
+            "italic": true,
+            "fontWeight": "thin"
+          }
+        },
+        "1749135150664": {
+          "label": "note",
+          "id": "1749135150664",
+          "enableStyle": true,
+          "style": {
+            "color": "#c320fe",
+            "italic": true,
+            "fontWeight": "thin"
+          }
+        },
+        "1749135346631": {
+          "label": "tip",
+          "id": "1749135346631",
+          "enableStyle": true,
+          "style": {
+            "color": "#04689a",
+            "italic": true,
+            "fontWeight": "thin"
+          }
+        },
+        "1749135600218": {
+          "label": "mortal",
+          "id": "1749135600218",
+          "enableStyle": true,
+          "style": {
+            "color": "#008533",
+            "italic": true,
+            "fontWeight": "thin"
+          }
+        },
+        "1749135788508": {
+          "label": "**progress**",
+          "id": "1749135788508",
+          "enableStyle": true,
+          "style": {
+            "color": "#4f538c",
+            "italic": true,
+            "fontWeight": "thin"
+          }
+        }
+      },
+      "tag": {
+        "style": {
+          "fontSize": 10,
+          "opacity": 40
+        },
+        "enableStyle": true
+      }
+    },
+    "defaultPalette": "dull"
+  },
+  "outline": {
+    "fontSize": 12,
+    "showLabelsFilter": false,
+    "showSearchInput": false,
+    "hiddenLabels": [],
+    "hiddenTypes": []
+  },
+  "tts": {
+    "rate": 1.1,
+    "pitch": 1,
+    "volume": 1,
+    "focusAnnotationInEditor": true
+  },
+  "notes": {
+    "defaultFolder": "notes",
+    "notesNamingMode": "annotation-label/annotation-text",
+    "openNoteAfterCreation": false,
+    "insertLinkToNote": true,
+    "defaultFolderMode": "current folder/notes/<file-name>",
+    "template": "{{block_link}}",
+    "truncateFileName": true
+  },
+  "idling": {
+    "daysUnused": [
+      "2025-06-05"
+    ]
+  },
+  "clipboard": {
+    "templates": {
+      "front": "",
+      "header": "# {{note_name}}",
+      "highlight": "- {{highlight_text}}",
+      "comment": "- _{{comment_text}}_"
+    }
+  }
+}

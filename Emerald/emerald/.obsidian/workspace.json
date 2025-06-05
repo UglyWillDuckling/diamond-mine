@@ -4,57 +4,54 @@
     "type": "split",
     "children": [
       {
-        "id": "1a34827e37496087",
+        "id": "ebf535366c4d83b8",
         "type": "tabs",
         "children": [
           {
-            "id": "be0ed936a2e5991a",
+            "id": "dfbc32407567f927",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "bases",
               "state": {
-                "file": "tasks canvas.canvas",
-                "viewState": {
-                  "x": -61.79332869836401,
-                  "y": 577.3390195258764,
-                  "zoom": 0.050350236201360254
-                }
+                "file": "Efforts/projects.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "tasks canvas"
+              "icon": "lucide-layout-list",
+              "title": "projects"
             }
           },
           {
-            "id": "67d3fb52d1c18145",
+            "id": "fcf3611104181ebd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Python for Loop  note.nkmk.me.md",
+                "file": "Efforts/Active/execute program - python for programmers course/execute program - python for programmers course.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Python for Loop  note.nkmk.me"
+              "title": "execute program - python for programmers course"
             }
           },
           {
-            "id": "c05aef41163c5257",
+            "id": "c90e50ec3a1784b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Efforts/Active/execute program - python for programmers course/Strings as Collections.md",
+                "file": "Efforts/Active/execute program - python for programmers course/kwargs lesson.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Strings as Collections"
+              "title": "kwargs lesson"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -111,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.50677871704102
+    "width": 356.506778717041,
+    "collapsed": true
   },
   "right": {
     "id": "a4cc5cab7d2ca3c4",
@@ -128,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Knowledge/tools/dev/git/lazygit - mappings.md",
+                "file": "Efforts/Active/execute program - python for programmers course/f-strings course item.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for lazygit - mappings"
+              "title": "Backlinks for f-strings course item"
             }
           },
           {
@@ -147,12 +145,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Knowledge/Education/Shell/BASH - special options.md",
+                "file": "Efforts/Active/execute program - python for programmers course/f-strings course item.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from BASH - special options"
+              "title": "Outgoing links from f-strings course item"
             }
           },
           {
@@ -166,7 +164,7 @@
             }
           },
           {
-            "id": "63c18be2c6d8838d",
+            "id": "9f7a58c0cb0481e5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -181,7 +179,7 @@
             }
           },
           {
-            "id": "31eba7a1fde877a0",
+            "id": "96452b29455222f0",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -195,7 +193,7 @@
             }
           },
           {
-            "id": "bd522996f3c65050",
+            "id": "259641ccd478b288",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -205,7 +203,7 @@
             }
           },
           {
-            "id": "caf4f2471c434d8f",
+            "id": "335b5bac60e96c83",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -215,13 +213,13 @@
             }
           },
           {
-            "id": "2a91a66e751008cb",
+            "id": "97db4b553a8450a6",
             "type": "leaf",
             "state": {
-              "type": "Sets-view",
+              "type": "annotations-outline",
               "state": {},
-              "icon": "database",
-              "title": "Sets"
+              "icon": "message-square",
+              "title": "Enhanced Annotations"
             }
           }
         ],
@@ -233,25 +231,37 @@
         "dimension": 35.31283138918346,
         "children": [
           {
+            "id": "5176226ef33111ef",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "Efforts/Active/execute program - python for programmers course/f-strings course item.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
             "id": "42537086106242f6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Efforts/ssh key issue.md",
+                "file": "Efforts/Active/execute program - python for programmers course/f-strings course item.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ssh key issue"
+              "title": "Outline of f-strings course item"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 755.5,
+    "width": 650.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -280,45 +290,46 @@
       "cmdr:Daily notes: Open today's daily note": false
     }
   },
-  "active": "be0ed936a2e5991a",
+  "active": "c90e50ec3a1784b6",
   "lastOpenFiles": [
-    "Efforts/Active/execute program - python for programmers course/Strings as Collections.md",
-    "Clippings/Python for Loop  note.nkmk.me.md",
-    "Clippings/Convert a String to a Number (int, float) in Python  note.nkmk.me.md",
-    "Clippings/List of Python Articles  note.nkmk.me.md",
+    "Efforts/Active/execute program - python for programmers course/f-strings course item.md",
+    "Efforts/Active/execute program - python for programmers course/kwargs lesson.md",
     "Efforts/Active/execute program - python for programmers course/execute program - python for programmers course.md",
-    "Efforts/Active/execute program - python for programmers course/Assertions in Python.md",
-    "Efforts/Active/execute program - python for programmers course/Two Division Operators.md",
-    "blink - remove <C-e> mapping in insert mode.md",
-    "Efforts/Active/execute program - python for programmers course/Python Identity and Equality.md",
-    "Atlas/Knowledge/daily_notes/2025/06-June/2025-06-04-Wed.md",
-    "Clippings/csvsql.md",
-    "Clippings/How to Use sed to Replace Last Line Matching Pattern.md",
-    "Clippings/AWK Tutorial 25 Practical Examples of AWK Command in Linux.md",
-    "Clippings/Zach Bobbitt.md",
-    "Atlas/tools/dev/csvkit.md",
-    "work/calls/CRM/architecture/Behaviour Driven Development video.md",
-    "Atlas/tools/dev/git/lazygit - mappings.md",
+    "Efforts/Active/execute program - python for programmers course/Docstrings.md",
+    "Efforts/Active/execute program - python for programmers course/Chained Inequalities.md",
+    "Efforts/projects.base",
+    "Atlas/Knowledge/daily_notes/2025/05-May/secrets.md",
+    "Atlas/tools/dev/nvim/vim.env.md",
+    "Efforts/hello.base",
+    "Sets/Types/projectType.md",
     "Atlas/tools/dev/lazygit.md",
-    "Atlas/Knowledge/templates/day template.md",
-    "Atlas/Knowledge/daily_notes/2025/06-June/picture.md",
-    "Untitled.md",
-    "Efforts/Active/execute program - python for programmers course/List Slicing.md",
-    "Clippings/Networking.md",
-    "Clippings/Keymap  Blink Completion (blink.cmp).md",
-    "Atlas/tools/obsidian/blink.cmp.md",
-    "Efforts/master task list.md",
+    "Atlas/tools/dev/git/lazygit - mappings.md",
+    "Efforts/projects.canvas",
+    "Efforts/Projects/Projects.md",
+    "Efforts/Active/Obsidian Bases Just Changed Everything.md",
+    "Atlas/Knowledge/How To's/DQL, JS and Inlines - Dataview.md",
+    "Atlas/tools/obsidian/dataview/dataview.md",
+    "Atlas/tools/obsidian/dataview/dataview query.md",
+    "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md",
+    "Efforts/Active/Arduino.md",
+    "work/calls/CRM/architecture/Behaviour Driven Development video.md",
+    "Sets/ProjectSet/ProjectSet.md",
+    "Sets/ProjectSet",
+    "Atlas/Knowledge/daily_notes/2025/06-June/2025-06-05-Thu.md",
+    "Sets/QuoteSet/QuoteSet.md",
+    "Sets/Types/QuoteType.md",
     "meetings.base",
+    "Untitled.md",
+    "Efforts/Active/execute program - python for programmers course/Strings as Collections.md",
+    "Efforts/Active/execute program - python for programmers course/Importing and the Standard Library.md",
+    "tasks canvas.canvas",
+    "Efforts/tasks/tasks.md",
     "Sets/Meeting NoteSet",
     "work/calls/meetings notes",
     "Atlas/Knowledge/daily_notes/2025/06-June",
     "Efforts/Active/Quotes bases.base",
     "Clippings/RobDWallerdusty A WordPress starter repo which uses Composer and Docker..md.gz",
     "Clippings/second standup with NOVA team.md.gz",
-    "Clippings/folkesnacks.nvim 🍿 A collection of QoL plugins for Neovim.md.gz",
-    "Clippings/Bug Dataview cannot be rendered in Kanban · Issue 550 · mgmeyersobsidian-kanban.md.gz",
-    "Clippings/serendipitous.md.gz",
-    "tasks canvas.canvas",
     "~/x/d136608e8bbe399debcc1513a2c08b32_MD5.jpg",
     "~/x/cf4f554afb2ab9f4904dc57b21fbc382_MD5.jpg",
     "Pro Git - Scott Chacon/images/scripting-03-webhook.png",

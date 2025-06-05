@@ -99,7 +99,7 @@ Writing Javascript queries is a advanced technique that requires understanding i
 
 Similar to the query language, you can write JS inline queries, which let you embed a computed JS value directly. You create JS inline queries via inline code blocks:
 
-```
+```js
 \`$= dv.current().file.mtime\`
 ```
 

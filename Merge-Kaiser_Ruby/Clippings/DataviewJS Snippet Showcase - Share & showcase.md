@@ -4,7 +4,7 @@ published: 2021-05-08
 created: 2025-03-28
 tags:
 ---
-- [/] #task take a look at the showcase for dataview #backburner
+- [x] #task take a look at the showcase for dataview #backburner ✅ 2025-06-01
 ___
 
 *Dataview* plugin versions 0.3.0+ offer enhanced, *javascript-enabled* `dataviewjs` code blocks. [@blacksmithgu](https://forum.obsidian.md/u/blacksmithgu) is constantly adding features and functions to it.

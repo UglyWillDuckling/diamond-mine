@@ -4,7 +4,7 @@ author:
 source: https://en.m.wikipedia.org/wiki/The_Penelopiad
 published: 2006-01-11
 created: 2025-01-09
-epub: "[[penelopiad]]"
+epub: "[[Penelopiad - annot]]"
 tags:
   - clippings
   - 📚Book

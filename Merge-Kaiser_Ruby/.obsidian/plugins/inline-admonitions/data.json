@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "inlineAdmonitions": {
+    "be538bad-f75f-46e2-bffa-700f63b0e31a": {
+      "backgroundColor": "#12b8c4",
+      "bgColorOpacityPercent": 100,
+      "color": "#000000",
+      "colorOpacityPercent": 100,
+      "slug": "be538bad-f75f-46e2-bffa-700f63b0e31a",
+      "prefixIcon": "album",
+      "suffixIcon": "",
+      "type": "prefix",
+      "prefix": "pop:",
+      "hideTriggerString": true
+    },
+    "2ad5fb66-0ca4-4c0a-9c20-92819678909e": {
+      "backgroundColor": "#ede607",
+      "bgColorOpacityPercent": 91,
+      "color": "#2f2d2d",
+      "colorOpacityPercent": 100,
+      "slug": "2ad5fb66-0ca4-4c0a-9c20-92819678909e",
+      "prefixIcon": "",
+      "suffixIcon": "alert-octagon",
+      "type": "prefix",
+      "prefix": "note:",
+      "hideTriggerString": true
+    }
+  }
+}

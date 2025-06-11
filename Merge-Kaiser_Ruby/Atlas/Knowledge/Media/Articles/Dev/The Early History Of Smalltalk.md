@@ -12,7 +12,7 @@ about:
 *Alan C. Kay* 
 *Apple Computer* 
 
-- [ ] #task read [[The Early History Of Smalltalk]] 🆔 EP2I1M ⏳ 2025-05-31 📅 2025-05-30
+- [/] #task read [[The Early History Of Smalltalk]] 🆔 EP2I1M ⏳ 2025-05-31 📅 2025-06-03
 ___
 
 Permission to copy without fee all or part of this material is granted provided that the copies are not made or distributed for direct commercial advantage, the ACM copyright notice and the title of the publication and its date appear, and notice is given that copying is by permission of the Association for Computing Machinery. To copy otherwise, or to republish, requires a fee and/or specific permission.  

@@ -1,0 +1,20 @@
+{
+  "deafultDarkMode": false,
+  "darkReaderSettings": {
+    "brightness": 136,
+    "contrast": 92,
+    "sepia": 15
+  },
+  "debugLogging": false,
+  "customDefaultPath": "/home/vlado/Documents/Books",
+  "epubSettings": {
+    "readingMode": "scroll",
+    "fontSize": 100
+  },
+  "annotationMarkdownSettings": {
+    "annotationModeByDefault": true,
+    "includePrefix": true,
+    "highlightHighlightedText": true,
+    "includePostfix": true
+  }
+}

@@ -7,7 +7,8 @@ created: <% tp.file.creation_date() %>
 
 ---
 ### 📅 Daily Questions
-##### 🌜 Last night, after work, I...
+
+##### 🏞️️ sto trebam znati za danas ☀️
 - 
 
 ##### 🙌 One thing I'm excited about right now is...

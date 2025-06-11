@@ -9,7 +9,7 @@ tags:
 ---
 ![](https://www.youtube.com/watch?v=brvugRQVDLM)  
 
-- [ ] #task look at [[Becoming good at math is easy, actually]] ⏳ 2025-05-19 📅 2025-05-18
+- [ ] #task look at [[Becoming good at math is easy, actually]] ⏳ 2025-05-19 📅 2025-06-02
 Check out Paperlike’s Notetaker Collection! https://paperlike.com/zhango2407  
   
 ❤️ I created a Math Study Guide that includes my 4-Step Learning Framework + Free Online Resources: https://hanzhango.kit.com/ea3df74901  

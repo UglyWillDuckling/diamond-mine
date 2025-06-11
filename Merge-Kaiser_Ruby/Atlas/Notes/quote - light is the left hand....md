@@ -4,4 +4,4 @@ author:
 tags:
   - quote/literature/scific
 ---
-Light is the left hand of darkness; darkness is the right hand of light.
+**Light** is the `left` hand of darkness; **darkness** is the `right` hand of light.

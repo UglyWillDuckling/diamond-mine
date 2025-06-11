@@ -1,0 +1,90 @@
+filters:
+  and:
+    - type == "book"
+    - file.folder != "Sets/Types"
+formulas:
+  Untitled: ""
+  interest score: ""
+properties:
+  property.personalRating:
+    displayName: Rating
+views:
+  - type: table
+    name: ALL
+    order:
+      - file.name
+      - personalRating
+      - read
+      - status
+      - author
+      - genres
+    sort:
+      - column: note.status
+        direction: DESC
+      - column: note.author
+        direction: DESC
+      - column: note.year
+        direction: ASC
+      - column: note.isbn
+        direction: ASC
+      - column: property.rating
+        direction: ASC
+      - column: file.name
+        direction: DESC
+    columnSize:
+      file.name: 413
+      note.personalRating: 124
+      note.read: 77
+      note.status: 100
+      note.author: 301
+      note.genres: 346
+  - type: table
+    name: reading
+    filters:
+      and:
+        - status == "Reading"
+    order:
+      - read
+      - status
+      - personalRating
+      - file.name
+      - author
+      - annotated
+    columnSize:
+      note.read: 77
+      note.status: 100
+      note.personalRating: 124
+      file.name: 366
+      note.author: 301
+    sort: []
+  - type: table
+    name: want to read
+    filters:
+      and:
+        - read == false
+        - interest >= 7
+        - status != "Reading"
+    order:
+      - interest
+      - file.name
+    sort:
+      - column: note.interest
+        direction: ASC
+    columnSize:
+      note.interest: 130
+      file.name: 367
+  - type: table
+    name: what I've read
+    filters:
+      and:
+        - status.containsAny("Done")
+    order:
+      - status
+      - file.name
+      - author
+      - genres
+    columnSize:
+      note.status: 79
+      file.name: 367
+      note.author: 301
+      note.genres: 188

@@ -11,7 +11,7 @@ related:
 ---
 ![[~/×/d5fcbf6904821837b4f49f68713f788e_MD5.png|50]]
 
-- [ ] #task store this as a useful resource [[yet another tech-blog - made in Switzerland]] 📅 2025-05-01
+- [ ] #task store this as a useful resource [[yet another tech-blog - made in Switzerland]] ⏳ 2025-06-15 📅 2025-07-01
 ___
 ## [check\_esxi\_hardware 20250221 released: pywbem exception improvements](https://www.claudiokuenzler.com/blog/1473/check-esxi-hardware-20250221-release-pywbem-exception-improvements)
 

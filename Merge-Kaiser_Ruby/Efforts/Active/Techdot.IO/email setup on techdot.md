@@ -25,7 +25,7 @@ ___
 	- [x] get [[SSL certificate]] for techdot.io
 	- [x] copy `aliases` file
 	- [x]  connect to **Techdot** mail 
-	- [ ] #task [[techdot docker email setup]] #docker 🆔 2jqQhk
+	- [x] #task [[techdot docker email setup]] #docker 🆔 2jqQhk ✅ 2025-06-01
 
 ### store mail configs
 1. copy over all the configuration files from [[my VPS]]

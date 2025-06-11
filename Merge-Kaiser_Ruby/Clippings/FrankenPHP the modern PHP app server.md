@@ -8,13 +8,18 @@ tags:
 
 ## The Modern PHP App Server,written in Go
 
-- [ ] #task explore [[FrankenPHP the modern PHP app server]]
-	- [ ] try it out
+- [/] #task explore [[FrankenPHP the modern PHP app server]] 🔼 ⏳ 2025-06-01 📅 2025-06-08
+	- [x] try it out
 
+## notes
+
+- an excellent replacement for the standard way of managing and serving php apps
+- easy to configure
+- lightning ast
 
 [Get started](https://frankenphp.dev/docs/)
 
-![[~/×/da23ccaacc421bdaad30e082ee1d21b8_MD5.svg]]
+![[~/×/da23ccaacc421bdaad30e082ee1d21b8_MD5.svg|200]]
 
 ```sh
 # Install FrankenPHP
@@ -68,25 +73,25 @@ localhost {
 
 ## FrankenPHP at a glance
 
-![[~/×/9ed963c04300fd1f00932c075f5535e1_MD5.svg]]
+![[~/×/9ed963c04300fd1f00932c075f5535e1_MD5.svg|100]]
 
 ### Extensible
 
 Compatible with PHP 8.2+, most PHP extensions and all Caddy modules.
 
-![[~/×/249fc2dcc6fa1e62d993beb4f5bcb1d6_MD5.svg|250]]
+![[~/×/249fc2dcc6fa1e62d993beb4f5bcb1d6_MD5.svg|200]]
 
 ### Only one service
 
 Designed with simplicity in mind: only one service, only one binary! FrankenPHP doesn’t need PHP-FPM, it uses its own SAPI specially handcrafted for Go web servers.
 
-![[~/×/f10790098deaa57d2ae35ae66fe1ac39_MD5.svg]]
+![[~/×/f10790098deaa57d2ae35ae66fe1ac39_MD5.svg|100]]
 
 ### Easy deploy
 
 Cloud Native app shipped as [a Docker image](https://frankenphp.dev/docs/docker/). Compatible with Kubernetes, and all modern cloud platforms. It’s also possible to package your PHP app as [a standalone, self-executable static binary](https://frankenphp.dev/docs/embed/).
 
-![[~/×/fdc11dbec9bdcd2217101164f1fbcaed_MD5.svg]]
+![[~/×/fdc11dbec9bdcd2217101164f1fbcaed_MD5.svg|100]]
 
 ### Worker mode
 
@@ -98,13 +103,13 @@ Cloud Native app shipped as [a Docker image](https://frankenphp.dev/docs/docker/
 
 [Early Hints](https://frankenphp.dev/docs/early-hints/) are a brand new feature of the web platform that can improve [website load times by 30%](https://blog.cloudflare.com/early-hints/). FrankenPHP is the only PHP SAPI with Early Hints support!
 
-![[~/×/0a6a736d6c187cbac70974ba15950b51_MD5.svg]]
+![[~/×/0a6a736d6c187cbac70974ba15950b51_MD5.svg|200]]
 
 ### Real-time
 
 Built-in [Mercure](https://mercure.rocks/) hub. Send events from your PHP apps to all connected browsers, they instantly receive the payload as a JavaScript event!
 
-![[~/×/dc7c3a8993b25cc6d8288486d648e743_MD5.svg]]
+![[~/×/dc7c3a8993b25cc6d8288486d648e743_MD5.svg|200]]
 
 ### Brotli, Zstandard and Gzip compression
 

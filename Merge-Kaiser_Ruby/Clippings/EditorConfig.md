@@ -6,7 +6,7 @@ created: 2025-04-08
 tags:
   - tool
 ---
-- [/] #task take a look at the [[EditorConfig]] tool #dev
+- [/] #task take a look at the [[EditorConfig]] tool #dev #tiny ⏳ 2025-06-08 📅 2025-06-08
 ___
 EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. The EditorConfig project consists of **a file format** for defining coding styles and a collection of **text editor plugins** that enable editors to read the file format and adhere to defined styles. EditorConfig files are easily readable and they work nicely with version control systems.
 

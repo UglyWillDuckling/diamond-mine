@@ -7,7 +7,7 @@ dataSource: OpenLibraryAPI
 url: https://openlibrary.org/works/OL3963101W
 id: /works/OL3963101W
 author:
-  - Frank Willett
+  - "[[Frank Willett]]"
 pages: 288
 image: https://covers.openlibrary.org/b/OLID/OL1438162M-L.jpg
 onlineRating: 0
@@ -22,8 +22,9 @@ tags:
   - book
 aliases:
   - African Art
+status: unread
 ---
-Referenced in [[Hopes and impediments (1988)]]
+Referenced in [[Hopes and impediments - Selected Essays (1988)]]
 [[An Image of Africa]]
 
 Authors [[Frank Willett]]

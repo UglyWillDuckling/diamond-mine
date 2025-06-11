@@ -6,7 +6,7 @@ created: 2025-03-17
 tags:
   - plugin/vim
 ---
-- [ ] #task checkout plugin [[preservimvim-markdown]] #nvim
+- [x] #task checkout plugin [[preservimvim-markdown]] #nvim ✅ 2025-06-01
 ___
 ## Vim Markdown
 

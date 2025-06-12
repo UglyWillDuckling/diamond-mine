@@ -13,7 +13,7 @@ Recommended service
 
 ![[~/×/e50f0e6783166a456740a536eb96ef48_MD5.svg]]
 
-- [ ] #task try out [[Red Sift]] to monitor [[SSL certificate]] expirations and renewals #dev
+- [ ] #task try out [[Red Sift]] to monitor [[SSL certificate]] expirations and renewals #dev 🔽 📅 2025-07-01
 ___
 
 ![[~/×/7e61e3accfbee6014f421a9b256831f9_MD5.svg]]

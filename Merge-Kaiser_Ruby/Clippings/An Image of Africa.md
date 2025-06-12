@@ -6,17 +6,17 @@ author:
   - "[[Chinua Achebe]]"
 published: 2006-05-21
 created: 2024-12-31
-description: 
+description:
 tags:
   - clippings
   - lecture
 related:
-  - "[[Hopes and impediments (1988)]]"
+  - "[[Hopes and impediments - Selected Essays (1988)]]"
   - "[[Joseph Konrad]]"
 parent:
-  - "[[Hopes and impediments (1988)]]"
+  - "[[Hopes and impediments - Selected Essays (1988)]]"
 ---
-"**An Image of Africa: Racism in Conrad's *Heart of Darkness***" is the published and amended version of the second Chancellor's Lecture given by [Nigerian](https://en.m.wikipedia.org/wiki/Nigerian "Nigerian") writer and academic [Chinua Achebe](https://en.m.wikipedia.org/wiki/Chinua_Achebe "Chinua Achebe") at the [University of Massachusetts Amherst](https://en.m.wikipedia.org/wiki/University_of_Massachusetts_Amherst "University of Massachusetts Amherst") in February 1975. The essay was included in his 1988 collection [[Hopes and impediments (1988)]], *[Hopes and Impediments](https://en.m.wikipedia.org/wiki/Hopes_and_Impediments "Hopes and Impediments")*. The text is considered to be part of the [postcolonial critical movement](https://en.m.wikipedia.org/wiki/Postcolonialism "Postcolonialism"), which advocates to Europeans the consideration of the viewpoints of non-European nations, as well as peoples coping with the effects of [colonialism](https://en.m.wikipedia.org/wiki/Colonialism "Colonialism"). In the work, Achebe accuses [Joseph Conrad](https://en.m.wikipedia.org/wiki/Joseph_Conrad "Joseph Conrad") of being "a thoroughgoing racist" for depicting [Africa](https://en.m.wikipedia.org/wiki/Africa "Africa") as "the other world".
+"**An Image of Africa: Racism in Conrad's *Heart of Darkness***" is the published and amended version of the second Chancellor's Lecture given by [Nigerian](https://en.m.wikipedia.org/wiki/Nigerian "Nigerian") writer and academic [Chinua Achebe](https://en.m.wikipedia.org/wiki/Chinua_Achebe "Chinua Achebe") at the [University of Massachusetts Amherst](https://en.m.wikipedia.org/wiki/University_of_Massachusetts_Amherst "University of Massachusetts Amherst") in February 1975. The essay was included in his 1988 collection [[Hopes and impediments - Selected Essays (1988)]], *[Hopes and Impediments](https://en.m.wikipedia.org/wiki/Hopes_and_Impediments "Hopes and Impediments")*. The text is considered to be part of the [postcolonial critical movement](https://en.m.wikipedia.org/wiki/Postcolonialism "Postcolonialism"), which advocates to Europeans the consideration of the viewpoints of non-European nations, as well as peoples coping with the effects of [colonialism](https://en.m.wikipedia.org/wiki/Colonialism "Colonialism"). In the work, Achebe accuses [Joseph Conrad](https://en.m.wikipedia.org/wiki/Joseph_Conrad "Joseph Conrad") of being "a thoroughgoing racist" for depicting [Africa](https://en.m.wikipedia.org/wiki/Africa "Africa") as "the other world".
 
 ![[~/×/b6ab822eb12b4da7577efaf7fe224ac7_MD5.jpg]]
 

@@ -16,7 +16,7 @@
   "topResultsWidget": 10,
   "registerCustomTypes": true,
   "sidebarState": {
-    "typesCollapsed": false,
+    "typesCollapsed": true,
     "collectionsCollapsed": false,
     "widgets": []
   }

@@ -4,20 +4,22 @@ title: The ones who walk away from Omelas
 englishTitle: The ones who walk away from Omelas
 year: 1973
 url: https://openlibrary.org/works/OL15056584W
-id: /works/OL15056584W
+image: ~/×/87be7217951dd6ead8ed87815e77fe55_MD5.jpg
 author:
   - "[[Ursula K. Le Guin]]"
-plot: unknown
-image: https://covers.openlibrary.org/b/OLID/OL1702950M-L.jpg
 released: true
 read: true
 lastRead: ""
-personalRating: 9
+personalRating: 8.5
 tags:
   - mediaDB/book
   - 📚Book
 interest: 9
+status: Done
+genres:
+  - "[[Fiction]]"
 ---
+![img|150](https://covers.openlibrary.org/b/OLID/OL1702950M-L.jpg)
 # The Ones Who Walk Away from Omelas
 
 "The Ones Who Walk Away from Omelas" (/ˈoʊməˌlɑːs/[1]) is a 1973 short work of philosophical fiction by American writer Ursula K. Le Guin. With deliberately both vague and vivid descriptions, the narrator depicts a summer festival in the utopian city of [[Omelas]], whose prosperity depends on the perpetual misery of a single child.[2] "The Ones Who Walk Away from Omelas" was nominated for the [[Locus Award]] for Best Short Fiction in 1974[3] and won the Hugo Award for Best Short Story in 1974.[4]

@@ -1,11 +1,16 @@
 {
   "edges": [
   ],
+  "metadata": {
+    "frontmatter": {
+    },
+    "version": "1.0-1.0"
+  },
   "nodes": [
     {
-      "autoResizeHeight": false,
       "color": "#79b224",
-      "height": 440,
+      "dynamicHeight": false,
+      "height": 560,
       "id": "68961bc3c07571ad",
       "styleAttributes": {
       },
@@ -13,10 +18,10 @@
       "type": "text",
       "width": 645,
       "x": 290,
-      "y": -80
+      "y": -200
     },
     {
-      "autoResizeHeight": true,
+      "dynamicHeight": true,
       "file": "+/Boox palma 2.md",
       "height": 60,
       "id": "052d1d9add6e2d8c",
@@ -28,35 +33,8 @@
       "y": -40
     },
     {
-      "autoResizeHeight": false,
-      "color": "4",
-      "height": 620,
-      "id": "fd8d806473e9e81d",
-      "styleAttributes": {
-      },
-      "text": "**Ready**\n\n```tasks\nnot done\n(due before next week) OR (scheduled before next week)\nsort by due\nshort mode\nhide task count\n```\n",
-      "type": "text",
-      "width": 860,
-      "x": -600,
-      "y": -160
-    },
-    {
-      "autoResizeHeight": false,
-      "color": "3",
-      "height": 160,
-      "id": "45677451fe4b20c7",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "[[Master Task List]]",
-      "type": "text",
-      "width": 1110,
-      "x": -30,
-      "y": -960
-    },
-    {
-      "autoResizeHeight": false,
       "color": "6",
+      "dynamicHeight": false,
       "height": 960,
       "id": "6ea88ea809413bf1",
       "styleAttributes": {
@@ -69,24 +47,9 @@
       "y": 480
     },
     {
-      "autoResizeHeight": false,
-      "color": "#f047aa",
-      "height": 1000,
-      "id": "9f7b42d8169bdcfa",
-      "styleAttributes": {
-        "shape": null,
-        "textAlign": null
-      },
-      "text": "### unscheduled\n\n```tasks\nnot done\n(no due date) AND (no start date) AND (no scheduled date)\nshort mode\n```\n",
-      "type": "text",
-      "width": 620,
-      "x": 360,
-      "y": 400
-    },
-    {
-      "autoResizeHeight": false,
       "color": "#100e0e",
-      "height": 720,
+      "dynamicHeight": false,
+      "height": 540,
       "id": "4dff6fb0730f58ac",
       "styleAttributes": {
       },
@@ -97,35 +60,23 @@
       "y": 440
     },
     {
-      "autoResizeHeight": false,
-      "color": "5",
-      "height": 665,
-      "id": "6c83bf0c07cece34",
+      "color": "#ffea00",
+      "dynamicHeight": false,
+      "height": 160,
+      "id": "45677451fe4b20c7",
       "styleAttributes": {
+        "textAlign": "center"
       },
-      "text": "### backburner\n\n```tasks\nnot done\ntag include #backburner \nhide tags\nsort by created\nshort mode\n```",
+      "text": "[[Master Task List]]",
       "type": "text",
-      "width": 535,
-      "x": 1115,
-      "y": -305
+      "width": 1110,
+      "x": 5,
+      "y": -760
     },
     {
-      "autoResizeHeight": false,
-      "color": "3",
-      "height": 185,
-      "id": "0f0ed0b59ea9a0ad",
-      "styleAttributes": {
-      },
-      "text": "**Waiting**\n\n```tasks\nnot done\ntags includes #waiting\nshow tree\nshort mode\n```\n",
-      "type": "text",
-      "width": 440,
-      "x": -80,
-      "y": -400
-    },
-    {
-      "autoResizeHeight": false,
       "color": "1",
-      "height": 145,
+      "dynamicHeight": false,
+      "height": 175,
       "id": "98842ea77f333413",
       "styleAttributes": {
       },
@@ -133,11 +84,24 @@
       "type": "text",
       "width": 420,
       "x": 460,
-      "y": -280
+      "y": -417
     },
     {
-      "autoResizeHeight": false,
+      "color": "5",
+      "dynamicHeight": false,
+      "height": 502,
+      "id": "6c83bf0c07cece34",
+      "styleAttributes": {
+      },
+      "text": "### backburner\n\n```tasks\nnot done\ntag include #backburner \nhide tags\nsort by created\nshort mode\n```",
+      "type": "text",
+      "width": 535,
+      "x": 1060,
+      "y": -142
+    },
+    {
       "color": "6",
+      "dynamicHeight": false,
       "height": 185,
       "id": "b226912847dd7720",
       "styleAttributes": {
@@ -146,8 +110,49 @@
       "text": "\n### tiny\n```tasks\nnot done\ntags include #tiny\n```\n\n\n",
       "type": "text",
       "width": 540,
-      "x": 980,
-      "y": -520
+      "x": 1000,
+      "y": -372
+    },
+    {
+      "color": "#f047aa",
+      "dynamicHeight": false,
+      "height": 700,
+      "id": "9f7b42d8169bdcfa",
+      "styleAttributes": {
+        "shape": null,
+        "textAlign": null
+      },
+      "text": "### unscheduled\n\n```tasks\nnot done\n(no due date) AND (no start date) AND (no scheduled date)\nshort mode\n```\n",
+      "type": "text",
+      "width": 680,
+      "x": 320,
+      "y": 400
+    },
+    {
+      "color": "3",
+      "dynamicHeight": false,
+      "height": 140,
+      "id": "0f0ed0b59ea9a0ad",
+      "styleAttributes": {
+      },
+      "text": "**Waiting**\n\n```tasks\nnot done\ntags includes #waiting\nshow tree\nshort mode\n```\n",
+      "type": "text",
+      "width": 440,
+      "x": 5,
+      "y": -557
+    },
+    {
+      "color": "4",
+      "dynamicHeight": false,
+      "height": 740,
+      "id": "fd8d806473e9e81d",
+      "styleAttributes": {
+      },
+      "text": "**Ready**\n\n```tasks\nnot done\n(due before next week) OR (scheduled before next week)\nsort by due\nshort mode\nhide task count\n```\n",
+      "type": "text",
+      "width": 880,
+      "x": -620,
+      "y": -372
     }
   ]
 }

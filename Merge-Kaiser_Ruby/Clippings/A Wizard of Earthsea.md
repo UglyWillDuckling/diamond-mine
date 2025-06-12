@@ -1,18 +1,21 @@
 ---
+type: book
 created: 2025-04-23
-source: https://en.wikipedia.org/wiki/A_Wizard_of_Earthsea
-image: https://upload.wikimedia.org/wikipedia/en/5/59/AWizardOfEarthsea%281stEd%29.jpg
+published: 1968-01-01
 author:
   - "[[Ursula K. Le Guin]]"
-published: 1968-01-01
+part of:
+  - "[[Earthsea series]]"
+source: https://en.wikipedia.org/wiki/A_Wizard_of_Earthsea
+image: https://upload.wikimedia.org/wikipedia/en/5/59/AWizardOfEarthsea%281stEd%29.jpg
+reading: reading
+read: false
+interest: 8.5
 tags:
   - book/fiction
   - 📚Book/fiction
-part of:
-  - "[[Earthsea series]]"
-reading: reading
-read: 
-interest: 8.5
+status: Reading
+genres:
 ---
 ![[~/×/32ad34e9aadff76d98a9a7762e7f139c_MD5.jpg|200]]
 

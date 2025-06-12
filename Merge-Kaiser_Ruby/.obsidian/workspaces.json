@@ -457,7 +457,863 @@
       "active": "fbb3fac42c446151",
       "mtime": "2025-04-19T10:40:29+02:00",
       "workspaces-plus:settings-v1": {}
+    },
+    "growing OO software": {
+      "main": {
+        "id": "d3fd3182b5b7335d",
+        "type": "split",
+        "children": [
+          {
+            "id": "6e0def2c32de6e77",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9e53fbd36480cbc1",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf-annotator",
+                  "state": {
+                    "file": "penelopiad.md"
+                  },
+                  "icon": "lucide-file",
+                  "title": "penelopiad"
+                }
+              },
+              {
+                "id": "16a2631079eba0b9",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.9.1"
+                  },
+                  "icon": "lucide-book-up",
+                  "title": "Release Notes 1.9.1"
+                }
+              },
+              {
+                "id": "6c82169f35aef9f9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Atlas/Knowledge/Books/The ones who walk away from Omelas (1973).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "The ones who walk away from Omelas (1973)"
+                }
+              },
+              {
+                "id": "6966311243ca8749",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Media DB/books/The Left Hand of Darkness (1969).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "The Left Hand of Darkness (1969)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "f8d094aab7178b37",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "941069650e71c3b7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Media DB/books/Growing object-oriented software guided by tests (2010).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Growing object-oriented software guided by tests (2010)"
+                }
+              },
+              {
+                "id": "3586bccf94a4c012",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf-annotator",
+                  "state": {
+                    "file": "growing objects annotate.md"
+                  },
+                  "icon": "lucide-file",
+                  "title": "growing objects annotate"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "cf2d5393fa50c446",
+        "type": "split",
+        "children": [
+          {
+            "id": "1e911cdd0e8a843e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "937564d863a6697f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "f7567d6307813f32",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "26e46519dc5b08a4",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 283.50107192993164
+      },
+      "right": {
+        "id": "3daebda00016f277",
+        "type": "split",
+        "children": [
+          {
+            "id": "4b820b274839dd85",
+            "type": "tabs",
+            "dimension": 68.32993890020367,
+            "children": [
+              {
+                "id": "b1c7bf0bf1881a1d",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "growing objects annotate.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for growing objects annotate"
+                }
+              },
+              {
+                "id": "1cc5aa4bd8fc42a2",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Master Task List.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Master Task List"
+                }
+              },
+              {
+                "id": "806ee37b5685d92f",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              },
+              {
+                "id": "77c171612429066b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "2c50693abc053a40",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_nodes",
+                  "state": {},
+                  "icon": "ag-node-list",
+                  "title": "Juggl nodes"
+                }
+              },
+              {
+                "id": "0aa1a520d1d414db",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_style",
+                  "state": {},
+                  "icon": "ag-style",
+                  "title": "Juggl style"
+                }
+              },
+              {
+                "id": "f349a7b4e75e4837",
+                "type": "leaf",
+                "state": {
+                  "type": "Sets-view",
+                  "state": {},
+                  "icon": "database",
+                  "title": "Sets"
+                }
+              }
+            ],
+            "currentTab": 6
+          },
+          {
+            "id": "ad60b0636f1a5512",
+            "type": "tabs",
+            "dimension": 31.67006109979633,
+            "children": [
+              {
+                "id": "abb9e7fd6f724245",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Atlas/Knowledge/Media/Books/Books board.md",
+                    "followCursor": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Books board"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 586.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": true,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": true,
+          "workspaces:Manage workspace layouts": false,
+          "quickadd:QuickAdd": true,
+          "obsidian-importer:Open Importer": false,
+          "daily-notes:Open today's daily note": false,
+          "obsidian-day-and-night:Toggle Theme": true,
+          "chronology:Open Chronology": true,
+          "markwhen:Create new Markwhen file": true,
+          "obsidian-media-db-plugin:Add new Media DB entry": true,
+          "obsidian42-brat:BRAT": true,
+          "juggl:Juggl global graph": true,
+          "templater-obsidian:Templater": true,
+          "callout-manager:Insert Callout": true,
+          "obsidian-book-search-plugin:Create new book note": true,
+          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true
+        }
+      },
+      "active": "3586bccf94a4c012",
+      "mtime": "2025-05-30T21:15:45+02:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": []
+      }
+    },
+    "now": {
+      "main": {
+        "id": "d3fd3182b5b7335d",
+        "type": "split",
+        "children": [
+          {
+            "id": "6e0def2c32de6e77",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9e53fbd36480cbc1",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf-annotator",
+                  "state": {
+                    "file": "penelopiad.md"
+                  },
+                  "icon": "lucide-file",
+                  "title": "penelopiad"
+                }
+              },
+              {
+                "id": "16a2631079eba0b9",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.9.1"
+                  },
+                  "icon": "lucide-book-up",
+                  "title": "Release Notes 1.9.1"
+                }
+              },
+              {
+                "id": "6c82169f35aef9f9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Atlas/Knowledge/Books/The ones who walk away from Omelas (1973).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "The ones who walk away from Omelas (1973)"
+                }
+              },
+              {
+                "id": "6966311243ca8749",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Media DB/books/The Left Hand of Darkness (1969).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "The Left Hand of Darkness (1969)"
+                }
+              }
+            ]
+          },
+          {
+            "id": "f8d094aab7178b37",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "941069650e71c3b7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Media DB/books/Growing object-oriented software guided by tests (2010).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Growing object-oriented software guided by tests (2010)"
+                }
+              },
+              {
+                "id": "3586bccf94a4c012",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf-annotator",
+                  "state": {
+                    "file": "growing objects annotate.md"
+                  },
+                  "icon": "lucide-file",
+                  "title": "growing objects annotate"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "cf2d5393fa50c446",
+        "type": "split",
+        "children": [
+          {
+            "id": "1e911cdd0e8a843e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "937564d863a6697f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "f7567d6307813f32",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "26e46519dc5b08a4",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 283.50107192993164
+      },
+      "right": {
+        "id": "3daebda00016f277",
+        "type": "split",
+        "children": [
+          {
+            "id": "4b820b274839dd85",
+            "type": "tabs",
+            "dimension": 68.32993890020367,
+            "children": [
+              {
+                "id": "b1c7bf0bf1881a1d",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "growing objects annotate.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for growing objects annotate"
+                }
+              },
+              {
+                "id": "1cc5aa4bd8fc42a2",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Master Task List.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Master Task List"
+                }
+              },
+              {
+                "id": "806ee37b5685d92f",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              },
+              {
+                "id": "77c171612429066b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "2c50693abc053a40",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_nodes",
+                  "state": {},
+                  "icon": "ag-node-list",
+                  "title": "Juggl nodes"
+                }
+              },
+              {
+                "id": "0aa1a520d1d414db",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_style",
+                  "state": {},
+                  "icon": "ag-style",
+                  "title": "Juggl style"
+                }
+              },
+              {
+                "id": "f349a7b4e75e4837",
+                "type": "leaf",
+                "state": {
+                  "type": "Sets-view",
+                  "state": {},
+                  "icon": "database",
+                  "title": "Sets"
+                }
+              }
+            ],
+            "currentTab": 6
+          },
+          {
+            "id": "ad60b0636f1a5512",
+            "type": "tabs",
+            "dimension": 31.67006109979633,
+            "children": [
+              {
+                "id": "abb9e7fd6f724245",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Atlas/Knowledge/Media/Books/Books board.md",
+                    "followCursor": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Books board"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 586.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": true,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": true,
+          "workspaces:Manage workspace layouts": false,
+          "quickadd:QuickAdd": true,
+          "obsidian-importer:Open Importer": false,
+          "daily-notes:Open today's daily note": false,
+          "obsidian-day-and-night:Toggle Theme": true,
+          "chronology:Open Chronology": true,
+          "markwhen:Create new Markwhen file": true,
+          "obsidian-media-db-plugin:Add new Media DB entry": true,
+          "obsidian42-brat:BRAT": true,
+          "juggl:Juggl global graph": true,
+          "templater-obsidian:Templater": true,
+          "callout-manager:Insert Callout": true,
+          "obsidian-book-search-plugin:Create new book note": true,
+          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true
+        }
+      },
+      "active": "3586bccf94a4c012",
+      "mtime": "2025-05-30T21:15:55+02:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": []
+      }
+    },
+    "programiranje C": {
+      "main": {
+        "id": "d3fd3182b5b7335d",
+        "type": "split",
+        "children": [
+          {
+            "id": "6e0def2c32de6e77",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6c82169f35aef9f9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Atlas/Life/Faks/Predmeti/Osnove Programiranja/C - programming.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "C - programming"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "cf2d5393fa50c446",
+        "type": "split",
+        "children": [
+          {
+            "id": "1e911cdd0e8a843e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "937564d863a6697f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "f7567d6307813f32",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "26e46519dc5b08a4",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 283.50107192993164
+      },
+      "right": {
+        "id": "3daebda00016f277",
+        "type": "split",
+        "children": [
+          {
+            "id": "4b820b274839dd85",
+            "type": "tabs",
+            "dimension": 68.32993890020367,
+            "children": [
+              {
+                "id": "b1c7bf0bf1881a1d",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "growing objects annotate.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for growing objects annotate"
+                }
+              },
+              {
+                "id": "1cc5aa4bd8fc42a2",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Master Task List.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Master Task List"
+                }
+              },
+              {
+                "id": "806ee37b5685d92f",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Reminders"
+                }
+              },
+              {
+                "id": "77c171612429066b",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "2c50693abc053a40",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_nodes",
+                  "state": {},
+                  "icon": "ag-node-list",
+                  "title": "Juggl nodes"
+                }
+              },
+              {
+                "id": "0aa1a520d1d414db",
+                "type": "leaf",
+                "state": {
+                  "type": "juggl_style",
+                  "state": {},
+                  "icon": "ag-style",
+                  "title": "Juggl style"
+                }
+              },
+              {
+                "id": "f349a7b4e75e4837",
+                "type": "leaf",
+                "state": {
+                  "type": "Sets-view",
+                  "state": {},
+                  "icon": "database",
+                  "title": "Sets"
+                }
+              }
+            ],
+            "currentTab": 6
+          },
+          {
+            "id": "ad60b0636f1a5512",
+            "type": "tabs",
+            "dimension": 31.67006109979633,
+            "children": [
+              {
+                "id": "abb9e7fd6f724245",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Atlas/Knowledge/Media/Books/Books board.md",
+                    "followCursor": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Books board"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 586.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": true,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": true,
+          "workspaces:Manage workspace layouts": false,
+          "quickadd:QuickAdd": true,
+          "obsidian-importer:Open Importer": false,
+          "daily-notes:Open today's daily note": false,
+          "obsidian-day-and-night:Toggle Theme": true,
+          "chronology:Open Chronology": true,
+          "markwhen:Create new Markwhen file": true,
+          "obsidian-media-db-plugin:Add new Media DB entry": true,
+          "obsidian42-brat:BRAT": true,
+          "juggl:Juggl global graph": true,
+          "templater-obsidian:Templater": true,
+          "callout-manager:Insert Callout": true,
+          "obsidian-book-search-plugin:Create new book note": true,
+          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true
+        }
+      },
+      "active": "6c82169f35aef9f9",
+      "mtime": "2025-06-01T14:38:02+02:00",
+      "workspaces-plus:settings-v1": {
+        "explorerFoldState": []
+      }
     }
   },
-  "active": "Media"
+  "active": "now"
 }

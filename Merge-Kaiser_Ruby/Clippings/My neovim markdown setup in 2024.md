@@ -7,7 +7,7 @@ created: 2025-03-17
 tags:
   - tutorial/nvim/markdown
 ---
-- [ ] #task take a look at [[My neovim markdown setup in 2024]] article/tutorial ⏳ 2025-05-23 📅 2025-05-23
+- [x] #task take a look at [[My neovim markdown setup in 2024]] article/tutorial ⏳ 2025-05-23 📅 2025-06-24 ✅ 2025-06-01
 ___
 ## Contents
 

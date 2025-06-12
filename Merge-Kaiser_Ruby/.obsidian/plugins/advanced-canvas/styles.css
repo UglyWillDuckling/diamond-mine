@@ -453,7 +453,7 @@ body.is-mobile .kofi-button.sticky {
   display: none;
   pointer-events: none;
 }
-.canvas-wrapper[data-floating-edge-feature-enabled=true] .canvas.is-connecting .canvas-node:not(.canvas-node-group)::after {
+.canvas-wrapper[data-allow-floating-edge-creation=true] .canvas.is-connecting .canvas-node:not(.canvas-node-group)::after {
   all: unset;
   content: "";
   z-index: 100;
@@ -466,7 +466,7 @@ body.is-mobile .kofi-button.sticky {
   border-radius: var(--radius-m);
   outline: calc(4px * var(--zoom-multiplier)) dashed hsla(var(--color-accent-hsl), 0.5);
 }
-.canvas-wrapper[data-floating-edge-feature-enabled=true] .canvas.is-connecting .canvas-node:not(.canvas-node-group).hovering-floating-edge-zone::after {
+.canvas-wrapper[data-allow-floating-edge-creation=true] .canvas.is-connecting .canvas-node:not(.canvas-node-group).hovering-floating-edge-zone::after {
   outline-color: var(--color-accent);
   outline-style: solid;
   background-color: hsla(var(--color-accent-hsl), 0.1);

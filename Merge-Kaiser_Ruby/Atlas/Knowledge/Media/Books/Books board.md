@@ -1,8 +1,33 @@
 ---
-
-kanban-plugin: board
-
+tags:
+  - board
 ---
+
+[[BookSet]], [[bookType]]
+
+```tabs
+tab: New tab
+oadsfdsf
+tab: another one
+```
+
+```set
+scope:
+  - type
+  - book
+fields:
+  - __bname
+  - author
+  - status
+  - read
+  - image
+timestamp: 1748558223201
+viewMode: gallery
+gallery:
+  transclude:
+    - image
+
+```
 
 ## backlog
 
@@ -18,14 +43,3 @@ kanban-plugin: board
 
 
 
-## paused
-
-
-
-
-
-%% kanban:settings
-```
-{"kanban-plugin":"board","list-collapse":[false,false,false,true]}
-```
-%%

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "🎥",
-      "LiPhoneCall",
-      "LiAtom",
-      "LiBaby",
-      "🦆"
+      "LiComputer",
+      "©",
+      "🛩",
+      "LiSnapToObject",
+      "🎥"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -197,5 +197,9 @@
   "Efforts/Simmering/Tasks Management in Obsidian": "LiCheckCheck",
   "React": "LiAtom",
   "Calendar/Events/Meetings/razgovor s Bojanom.md": "LiPhoneCall",
-  "Atlas/Knowledge/Media/movies": "🎥"
+  "Atlas/Knowledge/Media/movies": "🎥",
+  "Efforts/Planned": "🛩",
+  "Efforts/Planned/Object Orientation - Design and Implementation project.md": "LiSnapToObject",
+  "Atlas/Life/Faks/Predmeti/Osnove Programiranja/C - programming": "©",
+  "Atlas/Life/Faks/Predmeti/Grada racunala": "LiComputer"
 }

@@ -2,14 +2,11 @@
 
 ### ✔ New
 
-- [/] #task check the bash tutorial 🔼 ⏳ 2025-05-20 📅 2025-05-18 [[Bourne Shell Tutorial]] 🆔 XdsgHv 📅 2025-06-13
-- [x] #task take a look at the [[obsidian vimrc ticket]] file again ⏳ 2025-05-23 📅 2025-05-31 🆔 Rpa6Cn ✅ 2025-05-30
-- [x] #task explore why resizing is [[slow on KDE native windows]] 🆔 Qi4xRT 🔼 ⏳ 2025-05-23 📅 2025-05-30 ✅ 2025-05-28
-- [x] #task explore [[another-quick-switcher]] plugin for **obsidian** 🆔 SjfKDg 🔼 ⏳ 2025-05-26 📅 2025-06-09 ✅ 2025-06-03
-- [x] #task try out [[git-flow]] ⏳ 2025-06-03 📅 2025-06-27 🆔 u5SeOm ✅ 2025-06-03
+- [ ] #task see if you can integrate the graph into daily work 🔼 ⏳ 2025-06-12 📅 2025-06-18 #regular #daily  🆔 PtVCWN
 
-- [ ] #task review reminders  🔁 every 2 weeks ⏳ 2025-06-20 📅 2025-06-20 🆔 GoJDVK
-- [x] #task setup dictionary autocompletion for Nvim 🛫 2025-05-30 ⏳ 2025-05-30 📅 2025-06-06 🆔 TMDS2t ✅ 2025-06-03
+### repeat 🔁
+
+- [ ] #task review reminders 🔁 every 2 weeks ⏳ 2025-07-04 📅 2025-07-04 🆔 P8gwo2
 
 ### Resolved ⏳
 
@@ -22,3 +19,10 @@
 
 - [x] #task review reminders 🆔 mw5csh 🔁 every 2 weeks ⏳ 2025-05-23 📅 2025-05-23 ✅ 2025-05-21
 - [x] #task check [[BeeBole]] if May 8 is unlocked 🔼 ⏳ 2025-05-19 📅 2025-05-20 🆔 f7rFjh ✅ 2025-05-19
+- [x] #task take a look at the [[obsidian vimrc ticket]] file again ⏳ 2025-05-23 📅 2025-05-31 🆔 Rpa6Cn ✅ 2025-05-30
+- [x] #task explore why resizing is [[slow on KDE native windows]] 🆔 Qi4xRT 🔼 ⏳ 2025-05-23 📅 2025-05-30 ✅ 2025-05-28
+- [x] #task explore [[another-quick-switcher]] plugin for **obsidian** 🆔 SjfKDg 🔼 ⏳ 2025-05-26 📅 2025-06-09 ✅ 2025-06-03
+- [x] #task try out [[git-flow]] ⏳ 2025-06-03 📅 2025-06-27 🆔 u5SeOm ✅ 2025-06-03
+
+- [x] #task review reminders 🆔 GoJDVK 🔁 every 2 weeks ⏳ 2025-06-20 📅 2025-06-20 ✅ 2025-06-10
+- [x] #task setup dictionary autocompletion for Nvim 🛫 2025-05-30 ⏳ 2025-05-30 📅 2025-06-06 🆔 TMDS2t ✅ 2025-06-03

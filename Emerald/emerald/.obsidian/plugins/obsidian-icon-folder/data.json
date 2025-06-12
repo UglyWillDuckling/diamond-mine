@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🥞",
       "LiNotepadText",
       "🐍",
       "LiDatabase",
-      "📟",
-      "LiCoins"
+      "📟"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -484,5 +484,6 @@
   "Atlas/people/Allen Holub.md": "LiGlasses",
   "Atlas/people/Martin Fowler.md": "🖌",
   "Atlas/people/Rebecca Wirfs-Brock.md": "👥",
-  "work/calls/meetings notes": "LiNotepadText"
+  "work/calls/meetings notes": "LiNotepadText",
+  "work/docs/backyard/database": "🥞"
 }

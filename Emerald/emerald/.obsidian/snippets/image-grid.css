@@ -1,0 +1,135 @@
+/* --------------- */
+/* Image grid */
+/* Requires Contextual Typography plugin 2.2.1+ */
+/* Credits to Kepano's Minimal Theme for this snippet */
+
+div:not(.el-embed-image) + .el-embed-image {
+    margin-top:1rem;
+}
+.el-embed-image {
+    margin-top:0.5rem;
+}
+.contextual-typography .markdown-preview-section > .el-embed-image > p {
+    margin-block-start:0;
+    margin-block-end:0;
+}
+.img-grid .markdown-preview-section .el-embed-image img:not([width]),
+.img-grid .markdown-preview-section video {
+    width:100%;
+}
+.img-grid .markdown-preview-section > .el-embed-image > p {
+    display:grid;
+    grid-column-gap:0.5rem;
+    grid-row-gap:0;
+    grid-template-columns:repeat(auto-fit, minmax(0, 1fr));
+}
+.img-grid .markdown-preview-section > .el-embed-image > p > br {
+    display:none;
+}
+.img-grid .markdown-preview-section > .el-embed-image > p > img {
+    object-fit:cover;
+    align-self:stretch;
+}
+.img-grid .markdown-preview-section > .el-embed-image > p > .internal-embed img {
+    object-fit:cover;
+    height:100%;
+}
+.img-grid .img-grid-ratio .markdown-preview-section > .el-embed-image > p > .internal-embed img,
+.img-grid.img-grid-ratio .markdown-preview-section > .el-embed-image > p > .internal-embed img {
+    object-fit:contain;
+    height:100%;
+    align-self:center;
+}
+
+@media (max-width:400pt) {
+    .el-embed-image {
+        margin-top:0.25rem;
+    }
+    .img-grid .markdown-preview-section > .el-embed-image > p {
+        grid-column-gap:0.25rem;
+    }
+}
+
+.contextual-typography.minimal-folding:not(.is-mobile) .markdown-preview-view.img-100 .markdown-preview-sizer > .el-embed-image,
+.contextual-typography.minimal-folding:not(.is-mobile) .markdown-preview-view.img-max .markdown-preview-sizer > .el-embed-image,
+.contextual-typography.minimal-folding:not(.is-mobile).img-100 .markdown-preview-view .markdown-preview-sizer > .el-embed-image,
+.contextual-typography.minimal-folding:not(.is-mobile).img-max .markdown-preview-view .markdown-preview-sizer > .el-embed-image,
+.contextual-typography.minimal-folding:not(.is-mobile).img-wide .markdown-preview-view .markdown-preview-sizer > .el-embed-image {
+    padding-left:0 !important;
+}
+
+/* Images and iframes */
+.contextual-typography.img-max .markdown-preview-view.is-readable-line-width .markdown-preview-sizer > .el-embed-image,
+.contextual-typography .markdown-preview-view.is-readable-line-width.img-max .markdown-preview-sizer > .el-embed-image {
+    width:100%;
+}
+.contextual-typography.img-wide .markdown-preview-view.is-readable-line-width .markdown-preview-sizer > .el-embed-image,
+.contextual-typography .markdown-preview-view.is-readable-line-width.img-wide .markdown-preview-sizer > .el-embed-image {
+    width:var(--line-width-wide);
+}
+.contextual-typography.img-100 .markdown-preview-view.is-readable-line-width .markdown-preview-sizer > .el-embed-image,
+.contextual-typography .markdown-preview-view.img-100 .markdown-preview-sizer > .el-embed-image {
+    width:100%;
+    max-width:100%;
+}
+
+/* @settings
+name: Image Grid
+id: image-grid-style
+settings:
+    -
+        id: layout
+        title: Layout
+        type: heading
+        level: 2
+        collapsed: false
+        description: Requires Contextual Typography plugin. These options can also be defined on a per-file basis using YAML, see documentation for details.
+    -
+        id: img-grid
+        title: Image grids
+        description: Turns consecutive images into columns. To make a new row, add an extra line break between images.
+        type: class-toggle
+        default: true
+    -
+        id: image-width
+        title: Image width
+        description: Default width for images and image grids
+        type: class-select
+        allowEmpty: false
+        default: img-default-width
+        options:
+            -
+                label: Default
+                value: img-default-width
+            -
+                label: Wide line width
+                value: img-wide
+            -
+                label: Maximum line width
+                value: img-max
+            -
+                label: 100% pane width
+                value: img-100
+    -
+        id: line-width
+        title: Normal line width
+        description: Number of characters per line
+        type: variable-number
+        default: 40
+        format: rem
+    -
+        id: line-width-wide
+        title: Wide line width
+        description: Number of characters per line for wide elements
+        type: variable-number
+        default: 50
+        format: rem
+    -
+        id: credits
+        title: Credits
+        type: heading
+        description: Made with ❤︎ by @kepano. Support their work at buymeacoffee.com/kepano . Snippet port by Emile.
+        level: 2
+        collapsed: true
+
+*/

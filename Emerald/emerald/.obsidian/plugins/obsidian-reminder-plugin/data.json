@@ -1,20 +1,6 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/Knowledge/daily_notes/2025/05-May/secrets.md": [
-      {
-        "title": "monthly",
-        "time": "2025-06-19",
-        "rowNumber": 4
-      }
-    ],
-    "Atlas/Knowledge/How To's/how to show all vars in bash(posix).md": [
-      {
-        "title": "remind me",
-        "time": "2025-06-12",
-        "rowNumber": 2
-      }
-    ],
     "Atlas/tools/dev/git/git verify-commit.md": [
       {
         "title": "monthly",
@@ -26,21 +12,14 @@
       {
         "title": "monthly",
         "time": "2025-06-23",
-        "rowNumber": 28
+        "rowNumber": 1
       }
     ],
-    "Atlas/tools/dev/nvim/vim.env.md": [
+    "Atlas/Knowledge/How To's/how to show all vars in bash(posix).md": [
       {
-        "title": "remind one more time, vim env",
-        "time": "2025-06-11",
-        "rowNumber": 17
-      }
-    ],
-    "work/calls/meetings notes/yoan-text-olaf-bugs.md": [
-      {
-        "title": "remind me",
-        "time": "2025-06-09",
-        "rowNumber": 4
+        "title": "reminder [[how to show all vars in bash(posix)]]",
+        "time": "2025-06-27",
+        "rowNumber": 3
       }
     ]
   },

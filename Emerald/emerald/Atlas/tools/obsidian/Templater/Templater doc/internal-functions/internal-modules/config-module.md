@@ -23,12 +23,6 @@
 2. [**4.2.** Execution Commands](execution-command.md)
 3. [**4.3.** Whitespace Control](whitespace-control.md)
 
-- Light (default)
-- Rust
-- Coal
-- Navy
-- Ayu
-
 # Templater
 
 [Print this book](print.md)

@@ -2,7 +2,7 @@
 type: meeting-note
 meeting: "[[backyard daily 3]]"
 ---
-- [ ] remind me (@[[2025-06-09]])
+- [x] remind me (@[[2025-06-09]])
 ___
 ## Yoans response to Olaf based on the All-hands meet from [[2025-06-02-Mon]] 
 

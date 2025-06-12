@@ -18,7 +18,7 @@ tags:
   - course/programming
 project_status: in_progress
 ---
-#course #project
+- [ ] #course #project
 
 - [/] #task explore Python course on [[execute program]] 🆔 CPlNBS 🛫 2025-05-03 ⏳ 2025-06-03 📅 2025-06-20
 ___
@@ -36,6 +36,8 @@ ___
 - [[List Slicing]]
 - [[Strings as Collections]]
 - [[Docstrings]][^2] 
+- [[kwargs lesson]]
+- [[Lambda Expressions lesson]]
 
 [^1]
 

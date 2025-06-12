@@ -9,15 +9,14 @@ description: |-
   find /tmp -printf '%s %p
   ' |sort -n -r | headThis command is working fine but what are the %s %p options used here? Are there any other options that can be used?
 tags:
-  - clippings
   - find
   - howto
-related:
-  - "[[Find Command]]"
+about: "[[Find Command]]"
 ---
 **example**
+
 ```bash
-find /tmp -printf '%s %p\n' |sort -n -r | head
+find /tmp -printf '%s %p\n' | sort -n -r | head
 ```
 
 ### options

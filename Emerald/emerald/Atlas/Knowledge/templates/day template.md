@@ -2,17 +2,16 @@
 created: <% tp.file.creation_date() %>
 ---
 
-<% tp.web.random_picture("150x150", "", 1) %>
-
-<% tp.web.random_picture("150x150", "nature,forrest,grass,landscape", 1) %>
-
-<% tp.web.random_picture("150x150", "logic,circuits,mathematics", 1) %>
-
-<% tp.web.random_picture("150x150", "nebula,galaxy", 1) %>
-
-<% tp.web.random_picture("150x150", "science-fiction,fantasy", 1) %>
-
-<% tp.web.random_picture("150x150", "abstract,writing", 1) %>
+> [!blank-container|no-margin gallery] 
+>
+> <% tp.web.random_picture("150x150", "", 1) %>
+><% tp.web.random_picture("150x150", "nature,forrest,grass,landscape", 1) %>
+>
+><% tp.web.random_picture("150x150", "logic,circuits,mathematics,tool", 1) %>
+><% tp.web.random_picture("150x150", "nebula,galaxy,comet,phenomena,animal", 1) %>
+>
+><% tp.web.random_picture("150x150", "science-fiction,imagination,creation", 1) %>
+><% tp.web.random_picture("150x150", "history,writing,dinosaur", 1) %>
 
 ### <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %>
 
@@ -62,28 +61,6 @@ List FROM "" WHERE file.mday = date("<%tp.date.now("YYYY-MM-DD")%>") SORT file.m
 - [ ] **education 🎒**
 - [ ] rest ⛅ 
 
-### 🎙
+### meetings 🤝
 
-```set
-scope:
-  - type
-  - meeting
-fields:
-  - __bname
-  - participants
-  - scheduled
-  - related
-sortby:
-  - - scheduled
-    - false
-timestamp: 1747900735911
-filter:
-  - - scheduled
-    - gte
-    - <%tp.date.now("YYYY-MM-DD")%>
-  - - scheduled
-    - lt
-    - <%tp.date.now("YYYY-MM-DD", 1)%>
-topResults: 11
-
-```
+![[meetings.base#today]]

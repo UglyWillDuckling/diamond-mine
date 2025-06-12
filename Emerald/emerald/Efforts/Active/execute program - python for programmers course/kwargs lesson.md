@@ -1,6 +1,7 @@
 ---
 tags:
   - lesson
+  - course-lesson
 ---
 `note:note`
 Stands for **keyword arguments**

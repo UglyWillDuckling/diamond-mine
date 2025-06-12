@@ -11,8 +11,6 @@ related:
   - "[[tac]]"
   - "[[cat command]]"
 ---
----
-
 Often you may want to use sed to replace text in the last line of a file that matches a specific pattern.
 
 You can use the following syntax to do so:

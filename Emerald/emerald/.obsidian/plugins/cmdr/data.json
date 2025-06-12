@@ -57,6 +57,12 @@
       "name": "Daily notes: Open today's daily note",
       "mode": "any",
       "color": "#ffc800"
+    },
+    {
+      "id": "command-palette:open",
+      "icon": "lucide-terminal-square",
+      "name": "Command palette: Open command palette",
+      "mode": "any"
     }
   ],
   "rightRibbon": [],

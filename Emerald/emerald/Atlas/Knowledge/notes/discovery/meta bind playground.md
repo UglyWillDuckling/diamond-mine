@@ -23,7 +23,7 @@ images:
 exampleProperty:
   - "[[work/notes/archive/Christmas Party|Christmas Party]]"
   - "[[Clippings/Configuring the Nginx Error and Access Logs.md|Configuring the Nginx Error and Access Logs]]"
-  - "[[Clippings/Explanation of % directives in find -printf.md|Explanation of % directives in find -printf]]"
+  - "[[Explanation of % directives in find -printf|Explanation of % directives in find -printf]]"
 ---
 part_of:: [[Meta Bind Plugin]]
 

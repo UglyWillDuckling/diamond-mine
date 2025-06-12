@@ -10,5 +10,5 @@ CREATE TABLE public.biz_product_coverage (
     place_id integer NOT NULL,
     start_date date NOT NULL,
     end_date date
-);
+)
 ```

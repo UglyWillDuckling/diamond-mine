@@ -4856,6 +4856,27 @@ var AppHelper = class {
       }
     };
   }
+  // https://github.com/tadashi-aikawa/obsidian-another-quick-switcher/issues/284#event-17898469302
+  captureStateInFile(initialLeaf) {
+    const leaf = this.unsafeApp.workspace.getMostRecentLeaf();
+    const state = leaf.getViewState();
+    const eState = leaf.getEphemeralState();
+    const unsafeApp = this.unsafeApp;
+    return {
+      async restore() {
+        await leaf.setViewState(
+          {
+            ...state,
+            active: true,
+            popstate: true
+          },
+          eState
+        );
+        unsafeApp.workspace.setActiveLeaf(leaf, { focus: true });
+        this.leaf = void 0;
+      }
+    };
+  }
   getOpenState(leaf, file) {
     let type = this.unsafeApp.viewRegistry.getTypeByExtension(file.extension);
     if (leaf.view instanceof import_obsidian.FileView && leaf.view.canAcceptExtension(file.extension)) {
@@ -9172,7 +9193,7 @@ var InFileModal = class extends import_obsidian9.SuggestModal {
     this.initialLeaf = initialLeaf;
     this.floating = this.settings.autoPreviewInFloatingInFileSearch;
     this.autoPreview = settings.autoPreviewInFloatingInFileSearch;
-    this.stateToRestore = this.appHelper.captureState(this.initialLeaf);
+    this.stateToRestore = this.appHelper.captureStateInFile(this.initialLeaf);
     this.initialCursor = this.appHelper.getCurrentEditor().getCursor();
     this.navQueue = Promise.resolve();
     this.limit = 255;

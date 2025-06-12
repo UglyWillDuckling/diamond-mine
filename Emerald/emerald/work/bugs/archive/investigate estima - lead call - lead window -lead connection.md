@@ -13,7 +13,7 @@ status:
 	- [[Yoan Haouzi]]
 	- [[Vincent Dibiaggio]]
 
-> [!note] from comments
+> [!note]+ from comments
 > 2. Yes, the [[WLEF]] last **August** deleted any visibility on **MA estimations**. but what kind of estimations are you storing in biz_lead table ? all of them or only the legacy ones ?
 > If you store all of them, isn’t there a way to **recreate** a link between the estima → lead_period → project ? because it’s all stored in BackYard.
 > Even if it’s hard to do, would it be possible ?
@@ -47,7 +47,7 @@ this can either be a link to a `lead` **or** an `estima`
 
 # status
 
-[[Star Trek Team]] will remove the `city_id` filter. This should give them  **all** `project->estima` connections.
+[[Spark Trek Team]] will remove the `city_id` filter. This should give them  **all** `project->estima` connections.
 
 ## tracking `iris_id`
 
@@ -72,4 +72,4 @@ zip: 31180
 
 
 [^1]: [[biz_item]]
-[^2]: [[geo_place2]]
+[^2]: [[geo_place2 table]]

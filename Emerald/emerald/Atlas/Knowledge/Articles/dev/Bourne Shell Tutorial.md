@@ -2,10 +2,11 @@
 author:
   - "[[Bruce Barnett]]"
 created: 2025-05-19
-published: 
+published:
 source: https://www.grymoire.com/Unix/Bourne.html
 related:
   - "[[BASH - special options]]"
+  - "[[POSIX Shell Tutorial]]"
 tags:
   - tutorial/bash
 ---
@@ -775,27 +776,25 @@ could easily move hundreds of files into the specified directory. However, if an
 
 The "$@" variable is very similar to the the "$\*" variable. Yet, there is a subtle, but important distinction. In both cases, all of the positional parameters, starting with $1, are listed, separated by spaces. If there are spaces inside the variables, then "$@" retains the spaces, while "$\*" does not. An example will help. Here is a script, called *EchoArgs*, that echoes its arguments:
 
-  
-  
-#!/bin/sh  
-\# Scriptname: EchoArgs  
-\# It echoes arguments  
-#First - make sure we are using the Berkeley style echoes  
-PATH=/usr/ucb:$path;export PATH  
-E="echo -n"  
-\# echo the name of the script  
-${E} $0:  
-\# now echo each argument, but put a space  
-\# before the argument, and place single quotes  
-\# around each argument  
-${E} " '${1-"?"}'"  
-${E} " '${2-"?"}'"  
-${E} " '${3-"?"}'"  
-${E} " '${4-"?"}'"  
-${E} " '${5-"?"}'"  
-${E} " '${6-"?"}'"  
-${E} " '${7-"?"}'"  
-echo  
+	#!/bin/sh  
+	\# Scriptname: EchoArgs  
+	\# It echoes arguments  
+	#First - make sure we are using the Berkeley style echoes  
+	PATH=/usr/ucb:$path;export PATH  
+	E="echo -n"  
+	\# echo the name of the script  
+	${E} $0:  
+	\# now echo each argument, but put a space  
+	\# before the argument, and place single quotes  
+	\# around each argument  
+	${E} " '${1-"?"}'"  
+	${E} " '${2-"?"}'"  
+	${E} " '${3-"?"}'"  
+	${E} " '${4-"?"}'"  
+	${E} " '${5-"?"}'"  
+	${E} " '${6-"?"}'"  
+	${E} " '${7-"?"}'"  
+	echo  
   
 Click here to get file: [EchoArgs.sh](https://www.grymoire.com/Unix/Scripts/EchoArgs.sh)  
 

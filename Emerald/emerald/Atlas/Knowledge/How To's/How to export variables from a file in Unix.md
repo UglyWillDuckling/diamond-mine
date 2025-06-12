@@ -16,7 +16,7 @@ set +a
 ```
 
 `set -a` causes variables¹ defined from now on to be automatically exported. It's available in any Bourne-like shell. `.` is the standard and Bourne name for the `source` command so I prefer it for portability (`source` comes from `csh` and is now available in most modern Bourne-like shells including `bash` though (sometimes with a slightly different behaviour)).
-%% [[Bourne Shell]] %%
+%% [[Bourne shell]] %%
 
 In [[POSIX]] shells, you can also use
 [^1]

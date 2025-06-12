@@ -2,168 +2,67 @@
 author:
   - "[[Bruce Barnett]]"
 created: 2025-05-28
-published: 
+published:
 source: https://www.grymoire.com/Unix/Sh.html
 tags:
   - tutorial/bash
 related:
   - "[[Bourne Shell Tutorial]]"
+  - "[[Bourne shell]]"
+about: "[[POSIX shell]]"
 ---
-Last modified: Tue Jul 25 11:53:03 2023
+`Last modified: Tue Jul 25 11:53:03 2023`
 
-This is my tutorial on the POSIX shell. The POSIX shell is probably the shell you are using on a UNIX compatible system. It's an improvement of the original Bourne shell. If you are interested in my original tutorial, it's now located on [this page](https://www.grymoire.com/Unix/Bourne.html). The biggest difference is that the POSIX shell allows the use of $(.....) for command substitution. I've updated all of the examples to use this form of command substitution. See [for more info on quoting characters.](https://www.grymoire.com/Unix/Quote.html)
+- [/] #task check the bash tutorial 🔼 ⏳ 2025-05-20 📅 2025-05-18 🆔 XdsgHv 📅 2025-06-13
+	- [/] [[POSIX Shell Tutorial]]
+___
 
-Click on a topic in this table to jump there. Click on the topic title to come back to the Table Of Contents.
+**This is my tutorial on the POSIX shell.** The POSIX shell is probably the shell you are using on a UNIX compatible system. It's an improvement of the original Bourne shell. If you are interested in my original tutorial, it's now located on [this page](https://www.grymoire.com/Unix/Bourne.html). The biggest difference is that the POSIX shell allows the use of $(.....) for command substitution. I've updated all of the examples to use this form of command substitution. See [for more info on quoting characters.](https://www.grymoire.com/Unix/Quote.html)
 
-- [POSIX Shell, and filename expansion](https://www.grymoire.com/Unix/Sh.html#uh-0)
-- [Shell Concepts](https://www.grymoire.com/Unix/Sh.html#uh-1)
-- [Verifying which shell you are running](https://www.grymoire.com/Unix/Sh.html#uh-2)
-- [Shell basics](https://www.grymoire.com/Unix/Sh.html#uh-3)
-- [Meta-characters and Filename expansion](https://www.grymoire.com/Unix/Sh.html#uh-4)
-- [Finding the executable](https://www.grymoire.com/Unix/Sh.html#uh-5)
-- [Quoting with the Shell](https://www.grymoire.com/Unix/Sh.html#uh-6)
-- [Nested quotations](https://www.grymoire.com/Unix/Sh.html#uh-7)
-- [Strong versus weak quoting](https://www.grymoire.com/Unix/Sh.html#uh-8)
-- [Command Substitution](https://www.grymoire.com/Unix/Sh.html#uh-8a)
-- [Quoting over several lines](https://www.grymoire.com/Unix/Sh.html#uh-9)
-- [Mixing quotation marks](https://www.grymoire.com/Unix/Sh.html#uh-10)
-- [Quotes within quotes - take two](https://www.grymoire.com/Unix/Sh.html#uh-11)
-- [Placing variables within strings](https://www.grymoire.com/Unix/Sh.html#uh-12)
-- [Variables](https://www.grymoire.com/Unix/Sh.html#uh-13)
-- [A subtle point](https://www.grymoire.com/Unix/Sh.html#uh-14)
-- [The set command](https://www.grymoire.com/Unix/Sh.html#uh-15)
-- [Environment Variables](https://www.grymoire.com/Unix/Sh.html#uh-16)
-- [Special Environment Variables](https://www.grymoire.com/Unix/Sh.html#uh-17)
-- [PATH - Sets searchpath](https://www.grymoire.com/Unix/Sh.html#uh-18)
-- [HOME - Your home directory](https://www.grymoire.com/Unix/Sh.html#uh-19)
-- [CDPATH - cd searchpath](https://www.grymoire.com/Unix/Sh.html#uh-20)
-- [IFS - Internal Field Seperator](https://www.grymoire.com/Unix/Sh.html#uh-21)
-- [PS1 - Normal Prompt](https://www.grymoire.com/Unix/Sh.html#uh-22)
-- [PS2 - Secondary Prompt](https://www.grymoire.com/Unix/Sh.html#uh-23)
-- [MAIL - Incoming mail](https://www.grymoire.com/Unix/Sh.html#uh-24)
-- [Shell Variables - Alternate Formats](https://www.grymoire.com/Unix/Sh.html#uh-28)
-- [Using quoting and shell variables](https://www.grymoire.com/Unix/Sh.html#uh-29)
-- [Using curly braces with variables](https://www.grymoire.com/Unix/Sh.html#uh-30)
-- [${variable?value} - Complain if undefined](https://www.grymoire.com/Unix/Sh.html#uh-31)
-- [${variable-default} - Use default if undefined](https://www.grymoire.com/Unix/Sh.html#uh-32)
-- [${variable+value} - Change if defined](https://www.grymoire.com/Unix/Sh.html#uh-33)
-- [${variable=value} - Redefine if undefined](https://www.grymoire.com/Unix/Sh.html#uh-34)
-- [Undefining Variables](https://www.grymoire.com/Unix/Sh.html#uh-35)
-- [${x:-y}, ${x:=y}, ${x:?y}, ${x:+y} forms](https://www.grymoire.com/Unix/Sh.html#uh-36)
-- [Order of evaluation](https://www.grymoire.com/Unix/Sh.html#uh-37)
-- [Special Variables in the Shell](https://www.grymoire.com/Unix/Sh.html#uh-38)
-- [Positional Parameters $1, $2,..., $9](https://www.grymoire.com/Unix/Sh.html#uh-39)
-- [$0 - Scriptname](https://www.grymoire.com/Unix/Sh.html#uh-40)
-- [$\* - All positional parameters](https://www.grymoire.com/Unix/Sh.html#uh-41)
-- [$@ - All positional parameters with spaces](https://www.grymoire.com/Unix/Sh.html#uh-42)
-- [$# - Number of parameters](https://www.grymoire.com/Unix/Sh.html#uh-43)
-- [$$ - Current process ID](https://www.grymoire.com/Unix/Sh.html#uh-44)
-- [$! - ID of Background job](https://www.grymoire.com/Unix/Sh.html#uh-45)
-- [$? - error status](https://www.grymoire.com/Unix/Sh.html#uh-46)
-- [$- Set variables](https://www.grymoire.com/Unix/Sh.html#uh-47)
-- [Options and debugging](https://www.grymoire.com/Unix/Sh.html#uh-48)
-- [Special options](https://www.grymoire.com/Unix/Sh.html#uh-49)
-- [X - Shell echo flag](https://www.grymoire.com/Unix/Sh.html#uh-50)
-- [V - Shell verbose flag](https://www.grymoire.com/Unix/Sh.html#uh-51)
-- [Combining flags](https://www.grymoire.com/Unix/Sh.html#uh-52)
-- [U - unset variables](https://www.grymoire.com/Unix/Sh.html#uh-53)
-- [N - Shell non-execute flag](https://www.grymoire.com/Unix/Sh.html#uh-54)
-- [E - Shell exit flag](https://www.grymoire.com/Unix/Sh.html#uh-55)
-- [T - Shell test one command flag](https://www.grymoire.com/Unix/Sh.html#uh-56)
-- [A - Shell mark for export flag](https://www.grymoire.com/Unix/Sh.html#uh-57)
-- [K - Shell keyword flag](https://www.grymoire.com/Unix/Sh.html#uh-58)
-- [H - Shell hash functions flag](https://www.grymoire.com/Unix/Sh.html#uh-59)
-- [The $- variable](https://www.grymoire.com/Unix/Sh.html#uh-60)
-- [\- - Shell hyphen option](https://www.grymoire.com/Unix/Sh.html#uh-61)
-- [Other options](https://www.grymoire.com/Unix/Sh.html#uh-62)
-- [C - Shell command option](https://www.grymoire.com/Unix/Sh.html#uh-63)
-- [S - Shell shell-session option](https://www.grymoire.com/Unix/Sh.html#uh-64)
-- [I - Shell shell-interactive option](https://www.grymoire.com/Unix/Sh.html#uh-65)
-- [R - Shell restricted shell option](https://www.grymoire.com/Unix/Sh.html#uh-66)
-- [P - Shell privileged shell option](https://www.grymoire.com/Unix/Sh.html#uh-67)
-- [unset](https://www.grymoire.com/Unix/Sh.html#uh-68)
-- [Shell: Status, Pipes and branches](https://www.grymoire.com/Unix/Sh.html#uh-69)
-- [Unnecessary process execution](https://www.grymoire.com/Unix/Sh.html#uh-70)
-- [$@ versus ${1+$@}](https://www.grymoire.com/Unix/Sh.html#uh-71)
-- [Status and Wasted Processes](https://www.grymoire.com/Unix/Sh.html#uh-72)
-- [Simple Flow Control](https://www.grymoire.com/Unix/Sh.html#uh-73)
-- [Changing Precedence](https://www.grymoire.com/Unix/Sh.html#uh-74)
-- [Putting it all together](https://www.grymoire.com/Unix/Sh.html#uh-75)
-- [Shell Flow Control Commands: If, While and Until](https://www.grymoire.com/Unix/Sh.html#uh-76)
-- [Commands that must be first on the line](https://www.grymoire.com/Unix/Sh.html#uh-77)
-- [While - loop while true](https://www.grymoire.com/Unix/Sh.html#uh-78)
-- [Until - loop until true](https://www.grymoire.com/Unix/Sh.html#uh-79)
-- [Shell Flow Control Commands](https://www.grymoire.com/Unix/Sh.html#uh-80)
-- [For - Repeating while changing a variable](https://www.grymoire.com/Unix/Sh.html#uh-81)
-- [Case - Checking multiple cases](https://www.grymoire.com/Unix/Sh.html#uh-82)
-- [Break and continue](https://www.grymoire.com/Unix/Sh.html#uh-83)
-- [Expr - Shell Expression Evaluator](https://www.grymoire.com/Unix/Sh.html#uh-84)
-- [Arithmetic Operators](https://www.grymoire.com/Unix/Sh.html#uh-85)
-- [Relational Operators](https://www.grymoire.com/Unix/Sh.html#uh-86)
-- [Boolean Operators](https://www.grymoire.com/Unix/Sh.html#uh-87)
-- [The string operator](https://www.grymoire.com/Unix/Sh.html#uh-88)
-- [Precedence of the Operators](https://www.grymoire.com/Unix/Sh.html#uh-89)
-- [Berkeley Extensions](https://www.grymoire.com/Unix/Sh.html#uh-90)
-- [Shell -- Functions and argument checking](https://www.grymoire.com/Unix/Sh.html#uh-91)
-- [Passing values by name](https://www.grymoire.com/Unix/Sh.html#uh-92)
-- [Exiting from a function](https://www.grymoire.com/Unix/Sh.html#uh-93)
-- [Checking the number of arguments](https://www.grymoire.com/Unix/Sh.html#uh-94)
-- [UNIX conventions for command line arguments](https://www.grymoire.com/Unix/Sh.html#uh-95)
-- [Checking for optional arguments](https://www.grymoire.com/Unix/Sh.html#uh-96)
-- [Job Control](https://www.grymoire.com/Unix/Sh.html#uh-97)
+Copyright 2001, 2005, 2013 [[Bruce Barnett]]
+Original version written in **1994** and published in the [[Sun Observer]]
 
-Copyright 1994, 1995 Bruce Barnett and General Electric Company
+This sections covers the [[POSIX shell]], an improvement over the original shell. The actual shell executable might have a name like ash, dash, bash, etc. Some of these shells have additional features.
 
-Copyright 2001, 2005, 2013 Bruce Barnett
-
-All rights reserved
-
-You are allowed to print copies of this tutorial for your personal use, and link to this page, but you are not allowed to make electronic copies, or redistribute this tutorial in any form without permission.
-
-Original version written in 1994 and published in the Sun Observer
-
-> How to build your own complex commands from the simple commands in the UNIX toolbox. This tutorial discusses of POSIX shell programming. The information describe here should work in all(?) POSIX shells. However, your operating system may cause different results.  
-> You're not getting the most out of UNIX if you can't write shell programs!
-
-This sections covers the POSIX shell, an improvement over the original shell. The actual shell executable might have a name like ash, dash, bash, etc. Some of these shells have additional features.
+## Shell Concepts
 
 The POSIX shell is considered the primary shell in scripts. All UNIX systems have it, first of all.
 
-What is a shell, anyway? It's simple, really. The UNIX operating system is a complex collection of files and programs. UNIX does not require any single method or interface. Many different techniques can be used. The oldest interface, which sits between the user and the software, is the shell. Twenty five years ago many users didn't even have a video terminal. Some only had a noisy, large, slow hard-copy terminal. The shell was the interface to the operating system. Shell, layer, interface, these words all describe the same concept. By convention, a shell is a user program that is ASCII based, that allows the user to specify operations in a certain sequence.
+What is a shell, anyway? It's simple, really. The UNIX operating system is a complex collection of files and programs. UNIX does not require any single method or interface. Many different techniques can be used. The oldest interface, which sits between the user and the software, is the shell. Twenty five years ago many users didn't even have a video terminal. Some only had a noisy, large, slow hard-copy terminal. The shell was the interface to the operating system. ==Shell, layer, interface, these words all describe the same concept. By convention, a shell is a user program that is ASCII based, that allows the user to specify operations in a certain sequence.==
 
-There are four important concepts in a UNIX shell:
+%%note: the shell is an interface %%
+%%note: the shell is ASCII based %%
 
-·
+%%interesting:  the shell is an interface%%
 
-The user interacts with the system using a shell.
+There are **four(4)** important concepts in a UNIX shell:
 
-·
+- The user interacts with the system using a shell.
+- A sequence of operations can be scripted, or automatic, by placing the operations in a script file.
+- A shell is a full featured programming language, with variables, conditional statements, and the ability to execute other programs. It can be, and is, used to prototype new programs.
+- A shell allows you to easily create a new program that is not a "second-class citizen," but instead is a program with all of the privileges of any other UNIX program.
 
-A sequence of operations can be scripted, or automatic, by placing the operations in a script file.
-
-·
-
-A shell is a full featured programming language, with variables, conditional statements, and the ability to execute other programs. It can be, and is, used to prototype new programs.
-
-·
-
-A shell allows you to easily create a new program that is not a "second-class citizen," but instead is a program with all of the privileges of any other UNIX program.
+%%note: 📔 everything written in a shell, be it a script or a simple function is treated as a **reall** program, no less significant than some other thousand line beast 🦁 %%
 
 A shell script can easily replace a C program, as far as the user is concerned. If you don't like the name of a UNIX utility, it is easy to create a new utility to replace the current program. If you wanted to create a program called "DIR" you could simply create a file containing
 
-#!/bin/sh  
-ls $\*  
+	#!/bin/sh  
+	ls $\*  
 
-The shell does the hard part.
+==The shell does the hard part.==
 
 It is possible to do software development using the shell as the top level of the program. Not only is it possible, but it is encouraged. The UNIX philosophy of program development is to start with a shell script. Get the functionality you want. If the end results has all of the functionality, and is fast enough, then you are done. If it isn't fast enough, consider replacing part (or all) of the script with a program written in a different language (e.g. C, Perl, Python). Just because a UNIX program is a shell script does not mean it isn't a "real" program.
+
+%%note: the UNIX philosophy is to write a shell script first %%
+
+%%  %%## Verifying which shell you are running
 
 Because there are many shells available, it is important to learn to distinguish between the different shells. Typing commands for one shell when you are using another is bound to cause confusion. I know from personal experience. This was aggravated by the fact that many books I used to learn UNIX never mentioned that other shells existed. Therefore, the first step is to make sure you are using the proper shell.
 
 You can execute the following command to determine your default shell (The command you type is in **boldface**):
 
-% **echo $SHELL**  
-/bin/csh  
+	echo $SHELL
+	/bin/csh
 
 While this identifies your default shell, it does not accurately identify the shell you are currently using. I will give you a better way to find out later. Because this tutorial discusses the POSIX shell, any commands discussed here will only work right if you are using the POSIX shell. You have two choices: place these commands in a POSIX shell script. That is, create a file, make the first line read
 
@@ -188,65 +87,120 @@ $
 
 The POSIX shell will execute each line you type, until an end of file is found. To put it another way, when you type Control-D, the POSIX shell will terminate, and return you to the shell you were previously using. This is the same action the shell takes when a script file is executed, and the end of the script file is reached.
 
-The basic actions of the shell are simple. It reads a line. This is either from a file, a script, or from a user. First, meta-characters are "handled." Second, the name of the executable is found. Third, the arguments are passed to the program. Fourth, the file redirection is setup. Lastly, the program is executed.
+## Shell basics
 
-As the shell reads each line, it "handles" any special characters. This includes variable evaluation (variables start with a "$)," and filename expansion. Expansion of filenames occurs when the characters "\*," "?," or "\[" occur in a word. A question mark matches a single character. An asterisk matches any number of characters, including none. Square brackets are used to specify a range or particular combination of characters. Inside square brackets, a hyphen is used to specify a range or characters. Also, if the first character inside the square brackets is an exclamation point, the complement of the range is used. Let me give some examples:
+==The basic actions of the shell are simple. It reads a line.== This is either from a file, a script, or from a user. 
+- First, meta-characters are "handled." 
+- Second, the name of the executable is found. 
+- Third, the arguments are passed to the program. 
+- Fourth, the file redirection is setup. 
+- Lastly, the program is executed.
 
-<table><tbody><tr><th colspan="2">Table 1</th></tr><tr><th colspan="2">Examples of POSIX shell filename expansions</th></tr><tr><th>Pattern</th><th>Matches</th></tr><tr><td>*</td><td>Every file in the current directory</td></tr><tr><td>?</td><td>Files consisting of one character</td></tr><tr><td>??</td><td>Files consisting of two characters</td></tr><tr><td>??*</td><td>Files consisting of two or more characters</td></tr><tr><td>[abcdefg]</td><td>Files consisting of a single letter from a to g.</td></tr><tr><td>[gfedcba]</td><td>Same as above</td></tr><tr><td>[a-g]</td><td>Same as above</td></tr><tr><td>[a-cd-g]</td><td>Same as above</td></tr><tr><td>[a-zA-Z0-9]</td><td>Files that consist of a single letter or number</td></tr><tr><td>[!a-zA-Z0-9]</td><td>Files that consist of a single character not a letter or number</td></tr><tr><td>[a-zA-Z]*</td><td>Files that start with a letter</td></tr><tr><td>?[a-zA-Z]*</td><td>Files whose second character matches a letter.</td></tr><tr><td>*[0-9]</td><td>Files that end with a number</td></tr><tr><td>?[0-9]</td><td>Two character filename that end with a number</td></tr><tr><td>*.[0-9]</td><td>Files that end with a dot and a number</td></tr></tbody></table>
+## Meta-characters and Filename expansion
+
+As the shell reads each line, it "handles" any `special` characters. This includes variable evaluation (variables start with a "$)," and filename expansion. 
+
+==Expansion of filenames occurs when the characters== "\*," "?," or "\[" occur in a word. 
+
+- A question mark matches a single character.
+- An asterisk matches any number of characters, including none
+- Square brackets are used to specify a range or particular combination of characters. 
+	- Inside square brackets, a hyphen is used to specify a range or characters. 
+	- Also, if the first character inside the square brackets is an exclamation point, the **complement** of the range is used. 
+%%note: 
+- the ! turns the expression into it's complement 
+- asterisk matches 0 or more
+%%
+
+| Table 1                                     |                                                                                      |
+| ------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Examples of POSIX shell filename expansions |                                                                                      |
+| Pattern                                     | Matches                                                                              |
+| \*                                          | Every file in the current directory                                                  |
+| ?                                           | Files consisting of one character                                                    |
+| ??                                          | Files consisting of two characters                                                   |
+| ??\*                                        | Files consisting of two or more characters `note: each ? matches 1 char`             |
+| \[abcdefg\]                                 | Files consisting of a single letter from a to g. `note: only a single letter`        |
+| \[gfedcba\]                                 | Same as above                                                                        |
+| \[a-g\]                                     | Same as above                                                                        |
+| \[a-cd-g\]                                  | Same as above                                                                        |
+| \[a-zA-Z0-9\]                               | Files that consist of a single letter or number                                      |
+| \[!a-zA-Z0-9\]                              | Files that consist of a single character not a letter or number `interest: inverted` |
+| \[a-zA-Z\]\*                                | Files that start with a letter                                                       |
+| ?\[a-zA-Z\]\*                               | Files whose second character matches a letter.                                       |
+| \*\[0-9\]                                   | Files that end with a number                                                         |
+| ?\[0-9\]                                    | Two character filename that end with a number                                        |
+| \*.\[0-9\]                                  | Files that end with a dot and a number                                               |
+%%valuable: examples of  filename expansion  %%
 
 As you can see, the dot is not a special character. Filenames may or may not have a dot. UNIX Programers use the dot to standardize on the type of source code of each file, but that is just a convention. There is another convention, which concerns the shell:
+%%note: the dot is not special %%
 
-**Files whose name starts with a dot are not normally listed.**  
+### **Files whose name starts with a dot are not normally listed.**
 
-Again, it is a convention, but *ls*, *find* and the various shells follow this convention. This allows some files to be "secret," or perhaps invisible, by default. You must explicitly ask for these files, by including the dot as part of the filename. The pattern ".\*" matches all hidden files. Remember that two hidden files are always in every directory, ".," which indicate the present directory, and "..," which indicates the directory above the current directory. If you want to match all hidden files except these two directories, there is no easy way to specify a pattern that will always match all files except the two directories. I use
+Again, it is a convention, but *ls*, *find* and the various shells follow this convention. This allows some files to be "secret," or perhaps invisible, by default. You must explicitly ask for these files, by including the dot as part of the filename. The pattern ".\*" matches all hidden files. 
 
-.??  
+==Remember that two hidden files are always in every directory==, ".," which indicate the present directory, and "..," which indicates the directory above the current directory. 
 
-or
+If you want to match all hidden files except these two directories, there is no easy way to specify a pattern that will always match all files except the two directories. I use:
 
-.\[a-zA-Z\]\*  
+	.??  
+	`or`
+	.\[a-zA-Z\]\* 
+
+%%valuable: how to match  hidden files %%
 
 As I said, this does not match all combinations, but works most of the time. Hackers (or crackers, if you prefer) break into computers and often use strange filenames, like ". " or ".. " to hide their traces. You may not have noticed, but there was a space in these filenames. Refering to files with spaces in the names require quoting, which I will cover later. Personally, all of my hidden files are matched by ".\[a-z\]\*" and all of my hidden directories are matched by ".\[A-Z\]\*." This works because I made up my own convention, and always follow it.
 
-The slash is also special, as it is used to indicate a directory path. Filename expansion does not expand to match a slash, because a slash can never be part of the filename. Also, the same rules for filename expansion of hidden files applies if the pattern follows a slash. If you want to match hidden files in a subdirectory, you must specify the explicit pattern. Table 2 lists some examples.
+%%interesting: hackers use weird filenames: `. ` or `.. ` %%
 
-<table><tbody><tr><th colspan="2">Table 2</th></tr><tr><th colspan="2">Filename Expansion with directories</th></tr><tr><th>Pattern</th><th>Matches</th></tr><tr><td>*</td><td>All non-invisible files</td></tr><tr><td>abc/*</td><td>All non-invisible files in directory abc</td></tr><tr><td>abc/.*</td><td>All invisible files in directory abc</td></tr><tr><td>*/*</td><td>All non-invisible files in all subdirectories below</td></tr><tr><td>*/.*</td><td>All invisible files in all subdirectories below</td></tr></tbody></table>
+The slash is also special, as it is used to indicate a directory path. Filename expansion does not expand to match a slash, because a slash can never be part of the filename. Also, the same rules for filename expansion of hidden files applies if the pattern follows a slash. 
+If you want to match hidden files in a subdirectory, you must specify the explicit pattern.
 
-Filename expansions are based on the current directory, unless the filename starts with a slash.
+| Table 2                             |                                                     |
+| ----------------------------------- | --------------------------------------------------- |
+| Filename Expansion with directories |                                                     |
+| Pattern                             | Matches                                             |
+| \*                                  | All non-invisible files                             |
+| abc/\*                              | All non-invisible files in directory abc            |
+| abc/.\*                             | All invisible files in directory abc                |
+| \*/\*                               | All non-invisible files in all subdirectories below |
+| \*/.\*                              | All invisible files in all subdirectories below     |
+`note:note: `If you are not sure how something will expand, use the *echo* command to check. It generates output more compact than *ls*, and it will not list contents of directories like *ls* will. You will also notice the output is sorted `alphabetically`. The shell not only expands filenames, but sorts them, for all applications.
 
-If you are not sure how something will expand, use the *echo* command to check. It generates output more compact than *ls*, and it will not list contents of directories like *ls* will. You will also notice the output is sorted alphabetically. The shell not only expans filenames, but sorts them, for all applications.
+%%note: the shell sorts outputs alphabetically %%
 
-Once the shell expands the command line, it breaks up the line into words, and takes the first word as the command to be executed. (The special shell variable "IFS" contains the characters used to "break up" the line. Normally, this variable contains a space and a tab.) Afterwards, the first word is used as the name of the program. If the command is specified without an explicit directory path, the shell then searches the different directories specified by the "PATH" variable, until it finds the program specified.
+## Finding the `executable`
+
+Once the shell expands the command line, it breaks up the line into words, and takes the first word as the command to be executed. (The special shell variable "IFS" contains the characters used to "break up" the line. Normally, this variable contains a space and a tab.). 
+Afterwards, the first word is used as the name of the program. If the command is specified without an explicit directory path, the shell then searches the different directories specified by the "PATH" variable, until it finds the program specified. [^1]
+
+%%note: the PATH is important %%
 
 If you have been following the points I made, it should not surprise you that a valid UNIX command might be
-
-\*  
-
+\* 
 The contents of the directory determines the results, but if you created a file called "0," which contains  
   
-#!/bin/sh  
-echo Hey! You forgot to specify the command!  
+	#!/bin/sh 
+	echo Hey! You forgot to specify the command!  
   
 and if it is the first file (alphabetically) in your directory, then executing "\*" would give you an error message. (Provided the current directory was in your search path).  
-Click here to get file: [0.sh](https://www.grymoire.com/Unix/Scripts/0.sh)  
+
+> Click here to get file: [0.sh](https://www.grymoire.com/Unix/Scripts/0.sh) 
 
 So you see, filename expansion can be anywhere on a command line. You can execute programs with long names without typing the entire name. However, filename expansion only works if the file is in the directory you specify. If you wanted to execute the program "my\_very\_own\_program" without typing the complete filename, you could type
 
 my\_\* arguments  
 
-as long as "my\_\*" expanded to a unique program name. If this was in another directory, then you you have to specify the directory path:
+as long as "my\_\*" expanded to a unique program name. If this was in another directory, then you you have to specify the directory path: `/usr/local/bin/my\_\* arguments`
 
-/usr/local/bin/my\_\* arguments  
+Understanding the relationship between the shell and the programs allows you to add features. Some people create a file called "-i" in a directory. 
 
-Understanding the relationship between the shell and the programs allows you to add features. Some people create a file called "-i" in a directory. If someone then types
-
-rm \*  
+If someone then types:`rm *`
 
 while in this directory, the first argument will probably be "-i." This filename is passed to the *rm* program, which assumes the hyphen indicates an argument. Therefore *rm* runs with the interactive option, protecting programs from accidental deletion.
 
-Therefore some people create this file in certain directories to protect them from stupidly deleting files by accident. This can be done with the command:
-
-touch./-i
+### DOS renaming issue
 
 One last point. Many DOS users complain that they can't execute
 
@@ -255,7 +209,7 @@ RENAME \*.OLD \*.NEW
 I admit that this is a little awkward to do in UNIX. I'd like to say two things in defense. First, the above usage of filename expansion is an "unnatural act," as far as the UNIX philosophy is concerned. There are many advantages to the shell handling the filename expansion, and perhaps one disadvantage in one case. I believe the advantages of the UNIX philosophy far outweight the disadvanges.  
 Second, I don't believe it is a disadvantage anyway. Renaming files like that is wrong. The only reason to do so is because DOS does it that way, and you have to to this because you are limited to 11 characters. If you must rename them, append a string to the end instead of changing the original filename. This is more in the UNIX philosophy. You can have filenames 256 characters long, so adding a second extension isn't normally a problem. So if you must rename them, use
 
-```
+```sh
 for i in *.OLD
 do
     mv $i $i.NEW
@@ -269,131 +223,176 @@ mv \*.OLD Old
 
 This makes undoing your action very easy, and works for files of any name, and not just "\*.OLD."
 
-The first problem shell programmers experience is quotation marks. The standard keyboard has three quotation marks. Each one has a different purpose, and only two are used in quoting strings. Why quote at all, and what do I mean by quoting? Well, the shell understands many special characters, called meta-characters. These each have a purpose, and there are so many, beginners often suffer from meta-itis. Example: The dollar sign is a meta-character, and tells the shell the next word is a variable. If you wanted to use the dollar sign as a regular character, how can you tell the shell the dollar sign does not indicate a variable? Answer: the dollar sign must be quoted. Why? Quoted characters do not have a special meaning. Let me repeat this with emphasis.
+## Quoting with the Shell ""
 
-> **Quoted characters do not have a special meaning**
+The first problem shell programmers experience is **quotation marks.** The standard keyboard has three quotation marks. Each one has a different purpose, and only two are used in quoting strings. 
+
+Why quote at all, and what do I mean by quoting? Well, the shell understands many special characters, called meta-characters. These each have a purpose, and there are so many, beginners often suffer from meta-itis[^2]. 
+
+Example: The **dollar sign** is a meta-character, and tells the shell the next word is a variable. 
+If you wanted to use the dollar sign as a regular character, how can you tell the shell the dollar sign does not indicate a variable? 
+Answer: the dollar sign must be quoted. Why? Quoted characters do not have a special meaning. Let me repeat this with emphasis.
+
+%%important: **Quoted characters do not have a special meaning** %%
 
 A surprising number of characters have special meanings. The lowly space, often forgotten in many books, is an extremely important meta-character. Consider the following:
 
-rm -i file1 file2  
+	rm -i file1 file2  
 
-The shell breaks this line up into four words. The first word is the command, or program to execute. The next three words are passed to the program as three arguments. The word "-i" is an argument, just like "file1." The shell treats arguments and options the same, and does not know the difference between them. In other words, the program treats arguments starting with a hyphen as special. The shell doesn't much care, except that it follows the convention. In this case, *rm* looks at the first argument, realizes it is an option because it starts with a hyphen, and treats the next two arguments as filenames. The program then starts to delete the files specifies, but firsts asks the user for permission because of the "-i" option. The use of the hyphen to indicate an option is a convention. There is no reason you can't write a program to use another character. You could use a forward slash, like DOS does, to indicate a hyphen, but then your program would not be able to distinguish between an option and a path to filename whose first characters is a slash.
+%%interesting: the space is a **special** character %%
+
+%%note: the shell doesn't know the difference between options and args %%
+
+The shell breaks this line up into **four** words. 
+- The first word is the `command`, or program to execute. 
+- The next three words are passed to the program as three `arguments`. 
+	- The word "-i" is an argument, just like "file1." The shell treats arguments and options the same, and does not know the difference between them. In other words, the program treats arguments starting with a hyphen as special. 
+		- The shell doesn't much care, except that it follows the convention. In this case, *rm* looks at the first argument, realizes it is an option because it starts with a hyphen, and treats the next two arguments as filenames. 
+			- The program then starts to delete the files specifies, but firsts asks the user for permission because of the "-i" option. 
+			- ==The use of the hyphen to indicate an option is a convention.== 
+				- There is no reason you can't write a program to use another character. You could use a forward slash, like DOS does, to indicate a hyphen, but then your program would not be able to distinguish between an option and a path to filename whose first characters is a slash.
 
 Can a file have a space in the name? Absolutely. This is UNIX. There are few limitations in filenames. As far as the operating system is concerned, You can't have a filename contain a slash or a null. The shell is a different story, and one I don't plan to discuss.
 
-Normally, a space delineates arguments. To include a space in a filename, you must quote it. Another verb used in the UNIX documentations is "escape;" this typically refers to a single character. You "quote" a string, but "escape" a meta-character. In both cases, all special characters are treated as regular characters.
+Normally, a space delineates arguments. To include a space in a filename, you must quote it. Another verb used in the UNIX documentations is "escape;" this typically refers to a single character. ==You "quote" a string, but "escape" a meta-character==. In both cases, all special characters are treated as regular characters.
 
 Assume, for a moment, you had a file named "file1 file2," This is one file, with a space between the "1" and the "f." If this file is to be deleted, one way to quote the space is
 
-rm 'file1 file2'  
+	rm 'file1 file2'  
 
 There are other ways to do the same. Most people consider the quotation mark as something you place at the beginning and end of the string. A more accurate description of the quoting process is a switch, or toggle. The following variations are all equivalent:
 
-```
+%%tip: the way to view quotation marks is like a switch(toggle) %%
+
+```sh
 rm 'file1 file2'
 rm file1' 'file2
 rm f'ile1 file'2
 ```
 
-In other words, when reading a shell script, you must remember the current "quoting state." The quote toggles the state. Therefore if you see a quotation mark in the middle of a line, it may be turning the toggle on or off. You must start from the beginning, and group the quotation marks in pairs.
+In other words, when reading a shell script, you must remember the current "quoting state." ==The quote toggles the state.== Therefore if you see a quotation mark in the middle of a line, it may be turning the toggle on or off. You must start from the beginning, and group the quotation marks in pairs.
 
-There are two other forms or quoting. The second uses a backslash "\\" which only acts to "escape" the next character. The double quotation mark is similar to the single quotes used above, but weaker. I'll explain strong and weak quotation later on. Here is the earlier example, this time using the other forms of quoting:
+### other types of quoting
 
-rm "file1 file2"  
-rm file1\\ file2  
-rm file1" "file2  
+There are two other forms or quoting. The second uses a **backslash** "\\" which only acts to "escape" the next character. The double quotation mark is similar to the single quotes used above, but weaker. I'll explain strong and weak quotation later on. Here is the earlier example, this time using the other forms of quoting:
 
-A very confusing problem is placing quotation marks within quotation marks. It can be done, but it is not always consistent or logical. Quoting a double quote is perhaps the simplist, and does what you expect. These commands each output a double quote:
+%%note: the backslash(\) escapes a single character %%
 
-```
+	rm "file1 file2"  
+	rm file1\ file2  
+	rm file1" "file2  
+
+## Nested quotations 🪺
+
+A very confusing problem is placing quotation marks within quotation marks. It can be done, but it is not always consistent or logical. 
+
+**Quoting a double quote** is perhaps the simplist, and does what you expect:
+```sh
 echo '"'
 echo "\""
 echo \"
 ```
 
-The backslash is different. Look at the three ways to output a backslash:
-
-```
+The **backslash** is different. Look at the three ways to output a backslash:
+```sh
 echo '\'
 echo "\\"
 echo \\
 ```
 
-As you can see, single quotes and double quotes behave differently. A double quote is weaker, and does not quote a backslash. Single quotes are different again. You can escape them with a backslash, or quote them with double quotes:
+As you can see, single quotes and double quotes behave differently. **A double quote is weaker**, and does not quote a backslash. 
 
-```
+**Single quotes** are different again. You can escape them with a backslash, or quote them with double quotes:
+```sh
 echo \'
 echo "'"
 ```
 
 The following does **not** work:
 
-```
+```sh
 echo '\''
 ```
 
 It is identical to
 
-```
+```sh
 echo '
 ```
 
-Both examples start a quoting operation, but do not end the action. In other words, the quoting function will stay toggled, and will continue until another single quote is found. If none is found, the shell will read the rest of the script, until an end of file is found.
+==Both examples start a quoting operation, but do not end the action==. In other words, the quoting function will stay toggled, and will continue until another single quote is found. If none is found, the shell will read the rest of the script, until an end of file is found.
 
-Earlier I described single quotes as strong quoting, and double quotes as weak quoting. What is the difference? Strong quoting prevents characters from having special meanings, so if you put a character inside single quotes, what you see is what you get. Therefore, if you are not sure if a character is a special character or not, use strong quotation marks.
+## Strong versus `weak` quoting
 
-Weak quotation marks treat most characters as plain characters, but allow certain characters (or rather meta-characters) to have a special meaning. As the earlier example illustrates, the backslash within double quotation marks **is** a special meta-character. It indicates the next character is not, so it can be used before a backslash and before a double quotation mark, escaping the special meaning. There are two other meta-characters that are allowed inside double quotation marks: the dollar sign, and the back quote.
+Earlier I described single quotes as strong quoting, and double quotes as weak quoting. What is the difference? 
 
-Dollar signs indicate a variable. One important variable is "HOME" which specifies your home, or starting directory. The following examples illustrates the difference:
+Strong quoting prevents characters from having special meanings, so if you put a character inside `single quotes`, ==what you see is what you get==. Therefore, if you are not sure if a character is a special character or not, use strong quotation marks.
 
-$ **echo '$HOME'**  
-$HOME  
-$ **echo "$HOME"**  
-/home/barnett  
+%%note: single quotes are **strong** %%
 
-In the Unix shell, the back quote is not used to prevent interpretation of special characters. It has a special use - command substitution. The string between backquotes is executed by the shell, and the results **replaces** the backquoted string:
+Weak quotation marks treat most characters as plain characters, but allow certain characters (or rather `meta-characters`) to have a special meaning. 
+As the earlier example illustrates, the backslash within double quotation marks **is** a special meta-character. 
+It indicates the next character is not, so it can be used before a backslash and before a double quotation mark, escaping the special meaning. 
 
-$ **echo 'The current directory is \`pwd\`'**  
-The current directory is \`pwd\`  
-$ **echo 'The current directory is \\\`pwd\\\`'**  
-The current directory is \\\`pwd\\\`  
-$ **echo "The current directory is \`pwd\`"**  
-The current directory is /home/barnett  
-$ **echo "The current directory is \\\`pwd\\\`"**  
-The current directory is \`pwd\`  
+%%note: double quotes are **weak** %%
 
-This is a feature from the early shells, like the C and Bourne shell. However, this has a major problem - command substution cannot be nested. A new mechanism was created for command substition, which replaces the back quotes:
+There are two other meta-characters that are allowed inside double quotation marks: the `dollar sign`, and the `back quote`.
 
-$(command)
+**Dollar signs indicate a variable.** One important variable is "HOME" which specifies your home, or starting directory. The following examples illustrates the difference:
+
+	echo '$HOME'
+	$HOME  
+	echo "$HOME"
+	/home/barnett  
+
+In the Unix shell, the **back quote** is not used to prevent interpretation of special characters. It has a special use - `command substitution`[^3]. 
+The string between backquotes is executed by the shell, and the results **replaces** the backquoted string:
+
+	$ echo 'The current directory is `pwd`'  
+	The current directory is \`pwd\`  
+	$ echo 'The current directory is \\\`pwd\\\`'  
+	The current directory is \\\`pwd\\\`  
+	echo "The current directory is \`pwd\`"  
+	The current directory is /home/barnett  
+	echo "The current directory is \\\`pwd\\\`"  
+	The current directory is \`pwd\`  
+
+This is a feature from the early shells, like the C and [[Bourne shell]]. However, this has a major problem - command substution cannot be nested. 
+==A new mechanism was created for command substition, which replaces the back quotes:==
+
+	$(command)
 
 While I've originally used back quotes in my tutorials, I've updated them to use the new, superior style. Using the new form, the above examples would be:
 
-$ **echo 'The current directory is $(pwd)'**  
-The current directory is $(pwd)  
-$ **echo "The current directory is $(pwd)"**  
-The current directory is /home/barnett  
-$ **echo "The current directory is \\$(pwd)"**  
-The current directory is $(pwd)  
+	$ **echo 'The current directory is $(pwd)'**  
+	The current directory is $(pwd)  
+	$ **echo "The current directory is $(pwd)"**  
+	The current directory is /home/barnett  
+	$ **echo "The current directory is \\$(pwd)"**  
+	The current directory is $(pwd)  
 
-Let me give some examples of command substitution. Let's say you wanted to add one to the current year. You could do it in two steps:
-
+Let me give some examples of command substitution. 
+Let's say you wanted to add one to the current year. You could do it in two steps:
+```sh
 YEAR="$(date +%Y)"  
 YEAR="$(expr $YEAR + 1)"  
 echo "next year is $YEAR"  
+```
 
+%%interesting: the new command substitution allows for nesting %%
   
 But because we can nest expressions, it's easier to do it in one line:
 
-echo "next year is $(expr $(date +%Y) + 1)"  
-
+	echo "next year is $(expr $(date +%Y) + 1)"  
   
 This was not possible using back quotes.
 
-The POSIX shells allow you to create a string that extends across several lines. This can be confusing in an interactive shell when you start a string, and forget to end the string.  
-But this is very convenient when writing multi-line sed and awk scripts.  
-  
+## Quoting over several lines
 
-```
+The **POSIX** shells allow you to create a string that extends across several lines. This can be confusing in an interactive shell when you start a string, and forget to end the string.  
+
+But this is very convenient when writing multi-line sed and awk scripts.[^4] [^5] 
+```sh
 #!/bin/sh
 # Print a warning if any disk is more
 # than 95% full.
@@ -405,110 +404,138 @@ $1 ~ /\// {    if ($5 > 95) {
 }'
 ```
 
-  
 Click here to get file: [diskwarn.sh](https://www.grymoire.com/Unix/Scripts/diskwarn.sh)
 
-Having two types of quotation marks simplifies many problems, as long as you remember how meta-characters behave. You will find that the easiest way to escape a quotation mark is to use the other form of quotation marks.
+## Mixing quotation marks
 
-echo "Don't forget!"  
-echo 'Warning! Missing keyword: "end"'  
+Having two types of quotation marks simplifies many problems, as long as you remember **how meta-characters behave**. 
+You will find that the easiest way to escape a quotation mark is to use the other form of quotation marks.
+
+	echo "Don't forget!"  
+	echo 'Warning! Missing keyword: "end"'  
+
+## Quotes within quotes - take two
 
 Earlier I showed how to include a quote within quotes of the same kind. As you recall, you cannot place a single quote within a string terminated by single quotes. The easiest solution is to use the other type of quotation marks. But there are times when this is not possible. There is a way to do this, but it is not obvious to many people, especially those with a lot of experience in computer languages. Most languages, you see, use special characters at the beginning and end of the string, and has an escape to insert special characters in the middle of the string. The quotation marks in the shell are **not** used to define a string. There are used to **disable** or **enable** interpretation of meta-characters. You should understand the following are equivalent:
 
-echo abcd  
-echo 'abcd'  
-echo ab'c'd  
-echo a"b"cd  
-echo 'a'"b"'c'"d"  
+%%note: quoations are not used to define strings! %%
+	
+	echo abcd  
+	echo 'abcd'  
+	echo ab'c'd  
+	echo a"b"cd  
+	echo 'a'"b"'c'"d"
 
 The last example protects each of the four letters from special interpretation, and switches between strong and weak quotation marks for each letter. Letters do not need to be quoted, but I wanted a simple example. If I wanted to include a single quote in the middle of a string delineated by a single quote marks, I'd switch to the different form of quotes when that particular character is encountered. That is, I'd use the form
 
-'string1'"string2"'string3'  
+	'string1'"string2"'string3'
 
 where string2 is a single quote character. Here is the real example:
 
-$ **echo 'Strong quotes use '"'"' and weak quotes use "'**  
-Strong quotes use ' and weak quotes use "  
+	echo 'Strong quotes use '"'"' and weak quotes use "'
+	Strong quotes use ' and weak quotes use "
 
 It is confusing, but if you start at the beginning, and following through, you will see how it works.
 
-Change the quoting mid-stream is also very useful when you are inserting a variable in the middle of a string. You could use weak quotes:
+%%note: you can switch between quotes on the fly depending on the requirements %%
 
-echo "My home directory is $HOME, and my account is $USER"  
+## Placing variables within strings
+
+**Change the quoting mid-stream is also very useful when you are inserting a variable in the middle of a string.** You could use `weak` quotes:
+	
+	echo "My home directory is $HOME, and my account is $USER"  
 
 You will find that this form is also useful:
 
-echo 'My home directory is '$HOME', and my account is '$USER  
+	echo 'My home directory is '$HOME', and my account is '$USER  
 
-Note that the $HOME and $USER variables are not surrounded with double quotes. While it might not be a problem in this case, it is recommended that you surround variables with double quotes, in case they contain metacharacters.
+	Note that the $HOME and $USER variables are not surrounded with double quotes. **While it might not be a problem in this case, it is recommended that you surround variables with double quotes, in case they contain metacharacters.**
+	
+	echo 'My home directory is '"$HOME"', and my account is '"$USER"
 
-echo 'My home directory is '"$HOME"', and my account is '"$USER"  
-
-When you write your first multi-line *awk* or *sed* script, and discover you want to pass the value of a variable to the middle of the script, the second form solves this problem easily.
+==When you write your first multi-line *awk* or *sed* script, and discover you want to pass the value of a variable to the middle of the script, the second form solves this problem easily.==
 
 The shell has a very simple syntax for variables:
 
-variable=value  
+## Variables
 
-The characters used for variable names is limited to letters, numbers and the underscore character. It cannot start with a number. Spaces are important when defining shell variables. Whitespace (spaces, tabs or newlines) terminate the value. If you want whitespace in a variable, it must be quoted:
+	variable=value  
 
-question='What is the filename? '  
+==The characters used for variable names is limited to letters, numbers and the underscore character. It cannot start with a number. Spaces are important when defining shell . Whitespace (spaces, tabs or newlines) terminate the value. If you want whitespace in a variable, it must be quoted==:
+
+	question='What is the filename? '  
+
+%%important: space terminates the value %%
+%%note: you must quote whitespaces %%
 
 Multiple assignments can be placed on one line:
 
-A=1 B=2 C=3 D=4  
+	A=1 B=2 C=3 D=4  
 
 Do not put a space after the equals sign. This terminates the value. The command
 
-a=date  
+	a=date 
 
 sets the variable "a" to be equal to "date." If you want to set a variable to an empty string, you can simple use
 
-a=  
+	a=
 
 Another way to do this is to explicitly set it to an empty string:
 
-a=''  
+a='' 
 
 This is recommended, as it makes it clear that you are setting it to an empty string. A common error (expecially from people who use the C shell) is to add a space after the equals sign:
 
-a= date  
+	a= date
 
 This does **NOT** set the variable to "date". It sets "a" to be the empty string, and **executes** the date command. The "date" command? Yes. Which introduces...
 
-Notice how two commands are executed on one line: the variable is changed, and the "date" program is executed. It is not obvious that this is valid. The manual page may not mention this. Even stranger is some commands can be executed, while others cannot. The "date" command is an external program. That is, the command is not built into the shell, but is an external executable. Other commands are internal command, built into the shell. "Echo" and "export" are shell built-in commands, and can follow the variable assignment. You might see an environment variable defined like this:
+%%note: we can execute multiple commands on the same line. Just use spaces 😄 %%
 
-VAR=/usr/lib; export VAR  
+## A subtle point
+
+==Notice how two commands are executed on one line: the variable is changed, and the "date" program is executed. It is not obvious that this is valid. The manual page may not mention this==. Even stranger is some commands can be executed, while others cannot. The "date" [^6] command is an external program. That is, the command is not built into the shell, but is an external executable. Other commands are internal command, built into the shell. "Echo" and "export" are shell built-in commands, and can follow the variable assignment. You might see an environment variable defined like this:
+
+	VAR=/usr/lib; export VAR
 
 But the following works just as well:
 
-VAR=/usr/lib export VAR  
+	VAR=/usr/lib export VAR
 
-Some of the built--in commands cannot be on the same line, like "for" or "if." The "echo" command does, but it may not do what you think. Don't believe me? I'll give you an example, and you have to guess what the results will be. I suspect that that 99.9999% of you would guess wrong. Put on your thinking caps. You'll need it.**UPDATE - this information gives different results than when I wrote it in 1996. See below**
+Some of the `built--in` commands cannot be on the same line, like "for" or "if." The "echo" command does, but it may not do what you think. Don't believe me? I'll give you an example, and you have to guess what the results will be. I suspect that that 99.9999% of you would guess wrong. Put on your thinking caps. You'll need it.
+
+`note:` **UPDATE - this information gives different results than when I wrote it in 1996. See below**
 
 Ready?
 
 What does the following shell commands do?
 
-a=one; echo $a  
-a=two echo $a  
-a=three echo $a >$a  
+	a=one; echo $a
+	a=two echo $a
+	a=three echo $a >$a
 
-I have to be honest. I failed the test myself. Well, I got partial credit. But I wrote the quiz. The first line is simple: "one" is output to the screen. The second line behaves differently. The value of variable "a" is set to "two," but the echo command outputs "one." Remember, the shell reads the lines, expands metacharacters, and then passes it to the programs. The shell treats built-in commands like external commands, and expands the meta-characters before executing the built-in commands. Therefore the second line is effectively
+I have to be honest. I failed the test myself. Well, I got partial credit. But I wrote the quiz. 
 
-a=two echo one  
+- The first line is simple: "one" is output to the screen. 
+- The second line behaves differently. The value of variable "a" is set to "two," but the echo command outputs "one." 
+	==Remember, the shell reads the lines, expands metacharacters, and then passes it to the programs.== The shell treats built-in commands like external commands, and expands the meta-characters before executing the built-in commands. Therefore the second line is effectively
+	`a=two echo one`
+
+%%important: the shell will first expand the metacharacters and then pass it to other programs %%
 
 and **then** the command is executed, which changes the value of the variable **after** it is used.
 
-Ready for a curve ball? What does the last line do? It creates a file. The file contains the word "two." For $64,000 and a trip to Silicon Valley, what is the name of the file that is created? For those to thought the answer is "two," I'm terrible sorry, you didn't win the grand price. We do have a nice home version of this game, and a year's supply of toothpaste. The correct answer is "three." In other words
+Ready for a curve ball? <mark style="background: #ABF7F7A6;">What does the last line do?</mark> **It creates a file**. 
 
-echo $a >$a  
+The file contains the word "two." For $64,000 and a trip to Silicon Valley, what is the name of the file that is created? For those to thought the answer is "two," I'm terrible sorry, you didn't win the grand price. We do have a nice home version of this game, and a year's supply of toothpaste. The correct answer is "three." In other words
+
+	echo $a >$a  
 
 is interpreted as
 
-echo second >third  
+	echo second >third  
 
-I am not fooling you. The variable "$a" has two different values on the same line!
+==I am not fooling you. The variable "$a" has two different values on the same line!==
 
 **2011 Update** - I just tried this on several systems to see what happens. On an old Sun system, it behaved as I noted. Note that this was the Bourne shell, and not Bash.
 
@@ -516,68 +543,73 @@ I tried it using the Bash shell on a 2.2 Linux system. The third line created a 
 
 I also tried it on a Ubuntu 10.04 system, and line three generated the error
 
-```
+```sh
 bash: $a: ambiguous redirect
 ```
 
 **2014 Update:** I just tried it on a Ubuntu 14.04 system with bash 4.3.11 and the third line created a file called "one" with the contents of "one".
 
-Just consider this an example where the behavior is unpredictable. Now let's continue in the tutorial.\]
+Just consider this an example where the behavior is unpredictable. Now let's continue in the tutorial.
 
-The Bourne shell evaluates metacharacters twice: one for the commands and arguments, and a second time for file redirection. Perhaps Mr. Bourne designed the shell to behave this way because he felt
+The Bourne shell evaluates metacharacters twice: one for the commands and arguments, and a second time for file redirection. Perhaps Mr. Bourne[^7]  designed the shell to behave this way because he felt:
 
-a=output >$a  
+	a=output >$a  
 
-ought to use the **new** value of the variable, and not the value **before** the line was executed, which might be undefined, and would certainly ave undesirable results. Although the real reason is that the above command treats the "a" variable like an environment variable, and sets the variable, marks it for export, and then executes the command. Because the variable is "passed" to the command by the environment, the shell simply sets the standard output to the appropriate file, and then processes the line for variables, and lastly executing the command on the line. More on this later.
+ought to use the **new** value of the variable, and not the value **before** the line was executed, which might be undefined, and would certainly have undesirable results. Although the real reason is that the above command treats the "a" variable like an environment variable, and sets the variable, marks it for export, and then executes the command. Because the variable is "passed" to the command by the environment, the shell simply sets the standard output to the appropriate file, and then processes the line for variables, and lastly executing the command on the line. More on this later.
 
-If you with to examine the values of all of your current variables, use the command "set:"
+## The set command [^8] 
 
-$ **set**  
-DISPLAY=:0.0  
-HOME=/home/barnett  
-IFS=  
+If you wish to examine the values of all of your current variables, use the command "set:"
 
-  
-LOGNAME=barnett  
-PATH=/home/barnett/bin:/usr/bin:/bin:/usr/local/bin  
-PS1=$  
-PS2=>  
-PWD=/home/barnett  
-SHELL=/bin/bash  
-TERM=xterm-256color  
-USER=barnett  
-$  
+	set
+	DISPLAY=:0.0  
+	HOME=/home/barnett  
+	IFS=  
+	LOGNAME=barnett  
+	PATH=/home/barnett/bin:/usr/bin:/bin:/usr/local/bin  
+	PS1=$ 
+	PS2=>
+	PWD=/home/barnett
+	SHELL=/bin/bash  
+	TERM=xterm-256color  
+	USER=barnett  
 
-Notice the alphabetical order of the variables, and the equals character between the variable and the value. The "set" command is one way to determine which shell you may be currently using (You can always execute a different shell). Also note the assortment of variables already defined. These are environment variables.
+==Notice the alphabetical order of the variables, and the equals character between the variable and the value.== The "set" command is one way to determine which shell you may be currently using (You can always execute a different shell). Also note the assortment of variables already defined. These are **environment variables**.[^9] 
+
+## Environment Variables
 
 UNIX provides a mechanism to pass information to all processes created by a parent process by using environment variables. When you log onto a system, you are given a small number of variables, predefined. You can add to this list in your shell start-up files. Every program you execute will inherit these variables. But the information flow is one-way. New UNIX users find this confusing, and cannot understand why a shell script can't change their current directory. Picture it this way: suppose you executed hundreds of programs, and they all wanted to change their environment to a different value. It should be obvious that they can't all control the same variable. Imagine hundreds of programs trying to change the directory you are currently using! Perhaps these variables ought to be called hereditary, and not environmental. Children processes inherit these values form the parents, but can never change how the parents were created. That would require time-travel, a feature not currentable available in commercial UNIX systems.
 
 As I mentioned before, the shell command "export" is used to update environment variables. The command
 
-export a b c  
+	export a b c
 
 marks the variables "a" "b" and "c," and all child processes will inherit the current value of the variable. With no arguments, it lists those variables so marked. The command "export" is necessary. Changing the value of an environment variable does not mean this change will be inherited. Example:
 
-HOME=/  
-myprogram  
+	HOME=/  
+	myprogram  
 
 When "myprogram" executes, the value of the "HOME" variable is not changed. However, in this example:
 
-HOME=/  
-export HOME  
-myprogram  
+	HOME=/  
+	export HOME  
+	myprogram  
 
 the program **does** get the modified value. Another way to test this is to start a new copy of the shell, and execute the "export" command. No variables are reported.
 
-The command marks the variable. It does not copy the current value into a special location in memory. A variable can be marked for export before it is changed. That is,
-
-export HOME  
-HOME=/  
-myprogram  
+The command **marks** the variable. ==It does not copy the current value into a special location in memory.== A variable can be marked for export before it is changed. That is,
+	
+	export HOME
+	HOME=/  
+	myprogram
 
 works fine.
 
+## Special Environment Variables
+
 There are several special variables the shell uses, and there are special variables the system defined for each user. SunOS and Solaris systems use different environment variables. If in doubt, check the manual pages. I'll describe some the important Solaris variables.
+
+### PATH - Sets searchpath[^10] 
 
 The "PATH" environment variable lists directories that contain commands. When you type an arbitrary command, the directories listed are searched in the order specified. The colon is used to separate directory names. An empty string corresponds to the current directory. Therefore the searchpath
 
@@ -587,14 +619,22 @@ contains three directories, with the current directory being searched first. Thi
 
 /usr/bin:/usr/ucb:  
 
+### HOME - Your home directory
+
 The "HOME" variable defines where the "cd" goes when it is executed without any arguments. The HOME evvironment variable is set by the login process.
+
+### CDPATH - cd searchpath
 
 When you execute the "cd" command, and specify a directory, the shell searches for that directory inside the current working directory. You can add additional directories to this list. If the shell can't find the directory in the current directory, it will look in the list of directories inside this variable. Adding the home directory, and the directory above the current directory is useful:
 
 CDPATH=$HOME:..  
 export CDPATH  
 
+### IFS - [[Internal Field Seperator]]
+
 The "IFS" variable lists the characters used to terminate a word. I discussed this briefly earlier. Normally, whitespace separates words, and this variable contains a space, a tab and a new line. Hackers find this variable interesting, because it can be used to break into computer systems. A poorly written program may carelessly execute "/bin/ps." A hacker may redefine the PATH variable, and define IFS to be "/." When the program executes "/bin/ps," the shell will treat this as "bin ps." In other words, the program "bin" is executed with "ps" as an argument. If the hacker has placed a program called "bin" in the searchpath, then the hacker gains privileged access.
+
+%%important: what??? IFS is dangerous %%
 
 The "PS1" variable specifies the prompt printed before each command. It is normally "$." The current directory cannot be placed inside this prompt. Well, some people make a joke, and tell a new user to place a period inside this variable. A "." **does** signifies the current directory, however, most users prefer the actual name.
 
@@ -2626,3 +2666,14 @@ Helmut Neujahr
 DJ Phasik  
 Dustin King  
 prateek goyal *This document was translated by troff2html v0.21 on September 22, 2001.*
+
+[^1]: [[PATH variable]]
+[^2]: [[meta-itis]] 
+[^3]: [[command substitution in the shell]]
+[^4]: [[awk]]
+[^5]: [[sed]]
+[^6]: [[date command]]
+[^7]: [[mister Bourne]]
+[^8]: [[set command]]
+[^9]: [[environment variable]]
+[^10]: [[PATH variable]]

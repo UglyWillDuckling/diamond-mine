@@ -5,14 +5,14 @@ published: 2018-06-13
 created: 2025-01-20
 description: The find command searches for files and directories based on a user given expression.
 tags:
-  - clippings
-  - tool
-  - command
-  - unix
+  - tool/unix
+  - command/unix
 related:
   - "[[Explanation of % directives in find -printf]]"
   - "[[grep]]"
   - "[[sed]]"
+  - "[[unix]]"
+  - "[[fd|fdfind]]"
 ---
 The `find` command is one of the most powerful tools in the Linux system administrators arsenal. It searches for files and directories in a directory hierarchy based on a user given expression and can perform user-specified action on each matched file.
 

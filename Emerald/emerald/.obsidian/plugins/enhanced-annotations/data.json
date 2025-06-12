@@ -8,16 +8,6 @@
     "autoRegisterLabels": true,
     "styles": {
       "labels": {
-        "1749135107871": {
-          "label": "for-mortals",
-          "id": "1749135107871",
-          "enableStyle": true,
-          "style": {
-            "color": "#00f384",
-            "italic": true,
-            "fontWeight": "thin"
-          }
-        },
         "1749135135903": {
           "label": "dull",
           "id": "1749135135903",
@@ -33,9 +23,10 @@
           "id": "1749135150664",
           "enableStyle": true,
           "style": {
-            "color": "#c320fe",
-            "italic": true,
-            "fontWeight": "thin"
+            "color": "#e28db6",
+            "italic": false,
+            "fontWeight": "bold",
+            "fontFamily": "serif"
           }
         },
         "1749135346631": {
@@ -48,24 +39,34 @@
             "fontWeight": "thin"
           }
         },
-        "1749135600218": {
-          "label": "mortal",
-          "id": "1749135600218",
+        "1749558670625": {
+          "label": "interesting",
+          "id": "1749558670625",
           "enableStyle": true,
           "style": {
-            "color": "#008533",
+            "color": "#47b3b3",
             "italic": true,
-            "fontWeight": "thin"
+            "underline": true
           }
         },
-        "1749135788508": {
-          "label": "**progress**",
-          "id": "1749135788508",
+        "1749559119699": {
+          "label": "valuable",
+          "id": "1749559119699",
           "enableStyle": true,
           "style": {
-            "color": "#4f538c",
+            "color": "#fe9116",
             "italic": true,
-            "fontWeight": "thin"
+            "fontWeight": "bold"
+          }
+        },
+        "1749560533303": {
+          "label": "important",
+          "id": "1749560533303",
+          "enableStyle": true,
+          "style": {
+            "color": "#c64e54",
+            "italic": true,
+            "fontWeight": "bold"
           }
         }
       },
@@ -81,10 +82,12 @@
   },
   "outline": {
     "fontSize": 12,
-    "showLabelsFilter": false,
+    "showLabelsFilter": true,
     "showSearchInput": false,
     "hiddenLabels": [],
-    "hiddenTypes": []
+    "hiddenTypes": [
+      "highlight"
+    ]
   },
   "tts": {
     "rate": 1.1,
@@ -103,7 +106,7 @@
   },
   "idling": {
     "daysUnused": [
-      "2025-06-05"
+      "2025-06-12"
     ]
   },
   "clipboard": {

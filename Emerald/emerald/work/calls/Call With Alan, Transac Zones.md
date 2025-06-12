@@ -26,5 +26,5 @@ everything went well, discussed what needs to be done and what the deployment pr
 ## Next Steps
 
 1. run the **trigger** on [[SalesForceApi]] to update the information on the [[Media API]]
-2. start planning out a solution for the [[biz_product_coverage]] table
+2. start planning out a solution for the [[biz_product_coverage table]] table
 3. ???

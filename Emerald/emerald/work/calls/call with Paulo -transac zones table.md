@@ -16,7 +16,7 @@ discuss [[Transac Zones update ticket]]
 ## discussion
 
 - ! [[iris_id]] is **city_id** and **that** is `place_id`
-- product_id : 4 types on `product_coverage` table
+- product_id : **4 types** on `product_coverage` table
 - ! in the table: only `promising_seller_contract_offer` are relevant
 	- filter by **key**
 	- others are very old

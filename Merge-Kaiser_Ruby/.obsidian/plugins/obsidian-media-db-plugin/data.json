@@ -66,7 +66,7 @@
           "property": "englishTitle",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "year",
@@ -114,19 +114,19 @@
           "property": "writer",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "studio",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "duration",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "onlineRating",
@@ -156,7 +156,7 @@
           "property": "streamingServices",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "premiere",
@@ -917,7 +917,7 @@
           "property": "subType",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "title",
@@ -929,7 +929,7 @@
           "property": "englishTitle",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "year",
@@ -971,7 +971,7 @@
           "property": "pages",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "image",
@@ -989,13 +989,13 @@
           "property": "isbn",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "isbn13",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "released",

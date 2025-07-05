@@ -9,7 +9,7 @@ tags:
   - album
   - music
 related:
-  - "[[Mountain Goats]]"
+  - "[[+/Mountain Goats]]"
 ---
 ***Jenny from Thebes*** is the 22nd studio album by [indie folk](https://en.m.wikipedia.org/wiki/Indie_folk "Indie folk") band [the Mountain Goats](https://en.m.wikipedia.org/wiki/The_Mountain_Goats "The Mountain Goats"), released on October 27, 2023, through [Merge Records](https://en.m.wikipedia.org/wiki/Merge_Records "Merge Records"). The album serves as a sequel to the band's 2002 release *[All Hail West Texas](https://en.m.wikipedia.org/wiki/All_Hail_West_Texas "All Hail West Texas")*,[^2] and is structured as a [rock opera](https://en.m.wikipedia.org/wiki/Rock_opera "Rock opera")[^bandcamp-1] which tells the story of the character "Jenny" (from the band's previous albums, including *All Hail West Texas*, along with 2001's *Jam Eater Blues* and 2012's *[Transcendental Youth](https://en.m.wikipedia.org/wiki/Transcendental_Youth "Transcendental Youth")*). Lyricist [John Darnielle](https://en.m.wikipedia.org/wiki/John_Darnielle "John Darnielle") describes the album as being about "the individual and society", and [[about Jenny's "southwestern ranch style house]], the people for whom that house is a place of safety, and the [[west Texas]] town that is uncomfortable with its existence."[^3]
 

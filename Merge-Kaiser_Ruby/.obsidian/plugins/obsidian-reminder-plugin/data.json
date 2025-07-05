@@ -1,14 +1,6 @@
 {
   "scanned": true,
-  "reminders": {
-    "~/%/templater/tmpl movie image.md": [
-      {
-        "title": "reminder",
-        "time": "2025-06-18",
-        "rowNumber": 1
-      }
-    ]
-  },
+  "reminders": {},
   "debug": false,
   "settings": {
     "reminderTime": "09:00",

@@ -18,9 +18,9 @@
 
 ### tasks
 
-- [ ] #task maknuti blink mapping `<C-e>` ⏳ 2025-06-01 📅 2025-06-30 🆔 bv8Ota
-- [ ] #task Explore [[quickadd]] #backburner 🆔 8D8EFq 🔼 ➕ 2025-01-25 📅 2025-06-29
-- [ ] #task look into **graphing data** #backburner 🆔 gXl19a 🔼 ➕ 2025-01-26 📅 2025-06-29
+- [x] #task maknuti blink mapping `<C-e>` ⏳ 2025-06-01 📅 2025-06-30 🆔 bv8Ota ✅ 2025-06-29
+- [x] #task Explore [[quickadd]] #backburner 🆔 8D8EFq 🔼 ➕ 2025-01-25 📅 2025-06-29 ✅ 2025-06-29
+- [x] #task look into **graphing data** #backburner 🆔 gXl19a 🔼 ➕ 2025-01-26 📅 2025-06-29 ✅ 2025-06-29
 	- [[Creating Dynamic Graphs in Obsidian - Obsidian Rocks]]
 	- [[Plotting Task Completions]]
 

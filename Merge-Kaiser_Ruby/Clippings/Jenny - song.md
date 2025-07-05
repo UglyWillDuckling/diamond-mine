@@ -9,10 +9,10 @@ description: Jenny is the fourth song on the album All Hail West Texas. you roar
 tags:
   - song
 related:
-  - "[[Mountain Goats]]"
+  - "[[+/Mountain Goats]]"
   - "[[Jenny from Thebes]]"
 ---
-[[Mountain Goats]]
+[[+/Mountain Goats]]
 [[Jenny from Thebes]]
 [[Murder at the 18th St. Garage]]
 

@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[Mountain Goats]]"
+  - "[[Atlas/Knowledge/Media/Music/Mountain Goats]]"
 tags:
   - album
 ---

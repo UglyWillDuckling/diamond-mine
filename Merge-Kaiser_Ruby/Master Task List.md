@@ -3,18 +3,20 @@ id: Master Task List
 tags:
   - task-list
 ---
-- [ ] #task pripremiti se za [[ispit iz Grade]] ⏫ ⏳ 2025-06-12 📅 2025-06-18 🆔 2kEV2G
-- [ ] #task Provjeri **ssl** mail certifikat za Personu 🔼 ⏳ 2025-06-11 📅 2025-06-08 🆔 M2aTJP
+- [ ] #task update day template - **match** work 🔼 ⏳ 2025-07-05 📅 2025-07-12
+- [ ] #task cleanup Efforts - Active 🔼 ⏳ 2025-06-30 📅 2025-06-29 🆔 kjw1Sw
+- [ ] #task start django tutorial - UML and python 🔼 ⏳ 2025-06-29 📅 2025-06-29 🆔 mUFMPQ
+
+- [ ] #task read book [[object design annot]] ⏳ 2025-06-24 📅 2025-07-17 🆔 jTevsr
 - [ ] #task checkout books on this page https://www.thegeekstuff.com/linux-101-hacks-ebook/ ⏳ 2025-06-02 📅 2025-07-01 🆔 2cgOzc
-
-- [ ] #task Apply to [[Bolt]] for work 🔼 📅 2025-06-02 🆔 0k90Er
-	- [[bolt job application]]
 - [/] #task read :LiBook: [[A Wizard of Earthsea]] 🧙🏻‍♂️ 📅 2025-05-24 📚 🆔 i2gcix 📅 2025-06-18
+- [/] #task Prodi [[Bug 388]] i instaliraj zeljeni software #paused 🆔 BVw5Ce 🔼 ⏳ 2025-03-03 📅 2025-07-06
 
-- [/] #task Prodi [[Bug 388]] i instaliraj zeljeni software #paused 🆔 BVw5Ce 🔼 ⏳ 2025-03-03 📅 2025-06-04
-	[[instalacija sofwarea iz Bug 388]]	
-	
-# Done
+- [x] #task pripremiti se za [[ispit iz Grade]] ⏫ ⏳ 2025-06-12 📅 2025-06-18 🆔 2kEV2G ✅ 2025-06-29
+- [x] #task Provjeri **ssl** mail certifikat za Personu 🔼 ⏳ 2025-06-11 📅 2025-06-08 🆔 M2aTJP ✅ 2025-06-29
+
+
+## Done
 
 - [x] #task pocistiti **Downloads** folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny | #task #tiny #task #tiny 🔼 📅 2025-02-15 ✅ 2025-02-15
 - [x] #task see how [[rsync]] works #backburner #dev ✅ 2025-02-15
@@ -50,9 +52,12 @@ tags:
 - [x] #task plati Senki racune ⏫ ⏳ 2025-05-29 📅 2025-05-29 🆔 zWjq2N ✅ 2025-05-29
 - [x] #task explore Morgen AI planner 🔼 🛫 2025-05-28 ⏳ 2025-05-28 📅 2025-06-05 🆔 XWKKTw ✅ 2025-06-01
 - [x] #task connect [[outlook calendar]] to Morgen 🔼 ⏳ 2025-05-28 📅 2025-05-28 🆔 TUNa8p ✅ 2025-05-28
-- [/] #task Explore [[Arduino]] 🔼 🛫 2025-05-28 ⏳ 2025-05-31 📅 2025-06-08 🆔 5aTADq
+- [/] #task Explore [[Arduino]] 🔼 🛫 2025-05-28 ⏳ 2025-05-31 📅 2025-07-06 🆔 5aTADq
 - [x] #task cancel **Means** TV sub 🔼 ⏳ 2025-05-23 📅 2025-05-29 🆔 2cpPvG ✅ 2025-05-28
 - [x] #task Trajno rješenje za [[persona mail setup]] ⏫ 📅 2025-05-28 🆔 f6HQA8 ✅ 2025-05-27
 	- [x] [[solution to update mail certs on Persona]]
 - [x] #task [[Setup Printer on PC]] 🆔 rQkj6h 🔼 ⏳ 2025-03-28 📅 2025-06-03 ✅ 2025-06-10
 - [x] #task #backburner See [[how difficult it is to setup a local FTP server]] 🆔 592cRS 🔽 ⏳ 2025-02-25 📅 2025-07-14 ✅ 2025-06-01
+- [x] #task Apply to [[Bolt]] for work 🔼 📅 2025-07-06 🆔 0k90Er ✅ 2025-06-29
+	- [[bolt job application]]
+	[[instalacija sofwarea iz Bug 388]]	

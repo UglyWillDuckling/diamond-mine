@@ -1,7 +1,6 @@
 ---
-
 type: movie
-subType: ""
+subType: documentary
 title: "Cloud Atlas: Everything Is Connected"
 englishTitle: "Cloud Atlas: Everything Is Connected"
 year: "2013"
@@ -29,7 +28,9 @@ premiere: 14.05.2013
 watched: false
 lastWatched: ""
 personalRating: 0
-tags: mediaDB/tv/movie
+tags:
+  - mediaDB/tv/movie
+  - film/doc
 ---
 
 `$= '![Image|360](' + dv.current().image + ')'`

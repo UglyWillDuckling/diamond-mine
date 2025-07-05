@@ -1,0 +1,34 @@
+filters:
+  and:
+    - type == "movie"
+views:
+  - type: cards
+    name: Cards
+    filters:
+      or:
+        - interest >= 7
+        - note["plan-to-watch"] == true
+    order:
+      - file.name
+      - image
+      - interest
+      - director
+      - year
+      - personalRating
+    sort:
+      - property: interest
+        direction: DESC
+    image: image
+  - type: cards
+    name: want to watch
+    order:
+      - file.name
+      - year
+      - director
+      - personalRating
+      - interest
+      - watched
+    sort:
+      - property: personalRating
+        direction: DESC
+    image: image

@@ -1,0 +1,3 @@
+In electronics design, an excitation table shows the minimum inputs that are necessary to generate a particular next state (in other words, to "excite" it to the next state) when the current state is known. They are similar to truth tables and state tables, but rearrange the data so that the current state and next state are next to each other on the left-hand side of the table, and the inputs needed to make that state change happen are shown on the right side of the table. 
+
+In order to complete the excitation table of a flip-flop, one needs to draw the Q(t) and Q(t + 1) for all possible cases (e.g., 00, 01, 10, and 11), and then make the value of flip-flop such that on giving this value, one shall receive the input as Q(t + 1) as desired. 

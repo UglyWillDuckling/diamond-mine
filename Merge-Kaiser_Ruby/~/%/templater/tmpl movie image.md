@@ -1,2 +1,2 @@
 `$= '![Image|360](' + dv.current().image + ')'`
-- [ ] reminder (@2025-06-18)
+- [x] reminder (@2025-06-18)

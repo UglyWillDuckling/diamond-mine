@@ -4,7 +4,6 @@ englishTitle: Cloud Atlas
 year: "2012"
 dataSource: OMDbAPI
 url: https://www.imdb.com/title/tt1371111/
-id: tt1371111
 plot: As souls are born and reborn, they renew their connections to one another throughout the ages.
 genres:
   - Drama
@@ -29,7 +28,8 @@ released: true
 premiere: 26.10.2012
 watched: true
 lastWatched: 2025-04-20
-personalRating: 7
+personalRating: 7.5
+type: movie
 tags:
   - film
 ---

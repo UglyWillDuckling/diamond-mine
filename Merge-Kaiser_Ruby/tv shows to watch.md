@@ -2,7 +2,7 @@
 
 2025
 
-- [[On Piece]]
+- [[One Piece]]
 - [[Alien: Earth]] : 12.8
 - [[A Knight of the Seven Kingdoms]] / Dunk and Egg : late 2025
 - [[Star Trek: Strange New Worlds]]: season 3 : July 17

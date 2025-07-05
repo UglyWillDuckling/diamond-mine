@@ -7,7 +7,7 @@ created: 2025-06-01
 tags:
 ---
 
-- [/] #task look into [[ohmyzshpluginsdockerREADME.md at master · ohmyzshohmyzsh]] 🔽 🛫 2025-06-02 ⏳ 2025-06-02 📅 2025-06-08
+- [x] #task look into [[ohmyzshpluginsdockerREADME.md at master · ohmyzshohmyzsh]] 🔽 🛫 2025-06-02 ⏳ 2025-06-02 📅 2025-06-08 ✅ 2025-06-29
 	- plugin for [[omz]]
 	- [ ] look into the mappings(alias) [^1] 
 

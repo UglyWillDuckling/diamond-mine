@@ -60,4 +60,4 @@ The Python lambda syntax is directly descended from Alonzo Church's work, even t
 
 
 [^1]: [[expressions vs statements]]
-[^2]: [[lamba in python]]
+[^2]: [[lambda in python lesson]]

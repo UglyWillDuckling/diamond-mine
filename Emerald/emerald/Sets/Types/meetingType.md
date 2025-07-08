@@ -20,3 +20,5 @@ tags:
 > meeting agenda
 
 `=this.agenda`
+
+## notes 🗒

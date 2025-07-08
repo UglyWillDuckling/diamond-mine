@@ -2,7 +2,7 @@
   "editorSuggest": {
     "enableAutoSuggest": true,
     "triggerPhrase": "//",
-    "commentFormat": "html"
+    "commentFormat": "markdown"
   },
   "decoration": {
     "autoRegisterLabels": true,
@@ -23,7 +23,7 @@
           "id": "1749135150664",
           "enableStyle": true,
           "style": {
-            "color": "#e28db6",
+            "color": "#d086aa",
             "italic": false,
             "fontWeight": "bold",
             "fontFamily": "serif"
@@ -68,6 +68,16 @@
             "italic": true,
             "fontWeight": "bold"
           }
+        },
+        "1751619787377": {
+          "label": "!",
+          "id": "1751619787377",
+          "enableStyle": true,
+          "style": {
+            "color": "#656535",
+            "italic": true,
+            "fontWeight": "thin"
+          }
         }
       },
       "tag": {
@@ -82,12 +92,10 @@
   },
   "outline": {
     "fontSize": 12,
-    "showLabelsFilter": true,
+    "showLabelsFilter": false,
     "showSearchInput": false,
     "hiddenLabels": [],
-    "hiddenTypes": [
-      "highlight"
-    ]
+    "hiddenTypes": []
   },
   "tts": {
     "rate": 1.1,
@@ -106,7 +114,7 @@
   },
   "idling": {
     "daysUnused": [
-      "2025-06-12"
+      "2025-07-08"
     ]
   },
   "clipboard": {

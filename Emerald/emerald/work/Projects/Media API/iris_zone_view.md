@@ -1,6 +1,8 @@
 #db-view
 
-## declaration
+An sql view[^1]  designed to map [[iris]] to a [[media zone]].
+___
+### sql declaration
 
 ```sql
 CREATE OR REPLACE VIEW iris_zone_view AS (
@@ -11,3 +13,6 @@ CREATE OR REPLACE VIEW iris_zone_view AS (
     FROM mkt.realtor_zone_by_iris_id
 );
 ```
+
+
+[^1]: [[sql view]]

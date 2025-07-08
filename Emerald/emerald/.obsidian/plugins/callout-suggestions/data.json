@@ -1,0 +1,5 @@
+{
+  "calloutFormat": "default",
+  "autocompleteTriggerPhrase": "!",
+  "calloutCase": "upper"
+}

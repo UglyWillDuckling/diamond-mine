@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🫂",
+      "⛑",
+      "🍀",
       "🥞",
-      "LiNotepadText",
-      "🐍",
-      "LiDatabase",
-      "📟"
+      "LiNotepadText"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,7 +34,6 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "work": "⛑",
   "work/tickets": "LiTicket",
   "work/docs": "LiArchive",
   "work/notes": "📔",
@@ -458,10 +457,6 @@
     "iconColor": "#19b385"
   },
   "work/bugs/qsl import issue - missing pagination/qsl import issue - missing pagination.md": "📟",
-  "work/tickets/FEAT/Features db.md": {
-    "iconName": "LiDatabase",
-    "iconColor": "#e5f415"
-  },
   "work/Projects/Backyard/Features/QSL listing feature/archive/Notes on prod deploy of QSL.md": "LiNotebookText",
   "Efforts/Active/execute program - python for programmers course/execute program - python for programmers course.md": "🐍",
   "Efforts/Active/execute program - python for programmers course": "🐍",
@@ -485,5 +480,8 @@
   "Atlas/people/Martin Fowler.md": "🖌",
   "Atlas/people/Rebecca Wirfs-Brock.md": "👥",
   "work/calls/meetings notes": "LiNotepadText",
-  "work/docs/backyard/database": "🥞"
+  "work/docs/backyard/database": "🥞",
+  "work/tickets/FEAT/Transac Zones update ticket/Handle usage of biz_product_coverage table.md": "🍀",
+  "work": "⛑",
+  "MOC/People MOC.md": "🫂"
 }

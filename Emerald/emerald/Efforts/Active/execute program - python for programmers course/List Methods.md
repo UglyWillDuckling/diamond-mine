@@ -20,7 +20,7 @@ The .`insert` method inserts a value at a given index. For example, we might ins
 	contest_entrants
 	['Amir', 'Betty'] 
 
-.pop is most commonly used to remove the last element, as shown above. But it can also remove other elements if we pass an optional index argument.
+.`pop` is most commonly used to remove the **last element**, as shown above. But it can also remove other elements if we pass an optional index argument.
 
 	remaining_tasks = ["A", "B", "C"]
 	middle_task = remaining_tasks.pop(1)

@@ -8,7 +8,7 @@ tags:
 ---
 ![](https://www.youtube.com/watch?v=OpaiGYxkSuQ)  
 
-- [ ] #task take a look at [[GNU Parallel]] video tutorila 📅 2025-06-30
+- [ ] #task take a look at [[GNU Parallel]] video tutorial 📅 2025-06-30
 	- [ ] series - [[Part 1 GNU Parallel script processing and execution]]
 ___
 [[GNU Parallel]] is a shell tool for executing jobs in parallel locally or using remote machines. A job is typically a single command or a small script that has to be run for each of the lines in the input. The typical input is a list of files, a list of hosts, a list of users, a list of URLs, or a list of tables.  

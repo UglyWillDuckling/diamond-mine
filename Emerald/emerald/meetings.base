@@ -14,55 +14,26 @@ views:
   - type: table
     name: Table
     order:
-      - file.name
       - scheduled
+      - file.name
       - formula.is today
       - "formula.has passed "
     sort:
-      - column: note.scheduled
+      - property: scheduled
         direction: DESC
-      - column: formula.is today
+      - property: formula.is today
         direction: DESC
-      - column: formula.schedule_date
+      - property: formula.schedule_date
         direction: ASC
-      - column: "formula.has passed "
+      - property: "formula.has passed "
         direction: ASC
-      - column: formula.my folder
+      - property: formula.my folder
         direction: DESC
     columnSize:
-      file.name: 315
+      file.name: 332
       note.scheduled: 241
       formula.is today: 136
       "formula.has passed ": 107
-  - type: table
-    name: 1 on 1's
-    filters:
-      and:
-        - containsAny(property.tags, "meet/1on1/Yoan")
-    order:
-      - file.name
-      - scheduled
-      - created
-      - duration
-      - tags
-      - agenda
-      - meeting type
-      - file.path
-      - previous
-      - status
-    columnSize:
-      file.name: 139
-      property.scheduled: 241
-      property.created: 142
-      property.agenda: 151
-      file.path: 251
-    sort:
-      - column: property.scheduled
-        direction: DESC
-      - column: file.name
-        direction: ASC
-      - column: property.created
-        direction: ASC
   - type: table
     name: today
     filters:
@@ -71,17 +42,27 @@ views:
     order:
       - scheduled
       - file.name
-      - participants
       - "formula.has passed "
-    columnSize:
-      file.name: 166
-      note.scheduled: 192
-      note.participants: 237
-      "formula.has passed ": 107
     sort:
-      - column: formula.is today
+      - property: participants
+        direction: ASC
+      - property: scheduled
+        direction: ASC
+      - property: property.related
+        direction: ASC
+    columnSize:
+      note.scheduled: 247
+      file.name: 303
+      "formula.has passed ": 310
+  - type: cards
+    name: 1 on 1s
+    filters:
+      and:
+        - tags.contains("meet/1on1/Yoan")
+    order:
+      - file.name
+      - scheduled
+    sort:
+      - property: scheduled
         direction: DESC
-      - column: property.URL
-        direction: ASC
-      - column: property.related
-        direction: ASC
+    imageAspectRatio: 1.15

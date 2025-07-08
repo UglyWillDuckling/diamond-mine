@@ -1,5 +1,4 @@
 #artifact #sql-table-def
-
 ```sql
 CREATE TABLE public.biz_product_coverage (
     id integer DEFAULT nextval('public.biz_product_coverage_id_seq'::regclass) NOT NULL,

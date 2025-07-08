@@ -1,25 +1,11 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/tools/dev/git/git verify-commit.md": [
+    "Efforts/Active/execute program - python for programmers course/Bytes lesson.md": [
       {
-        "title": "monthly",
-        "time": "2025-06-23",
-        "rowNumber": 3
-      }
-    ],
-    "Atlas/tools/dev/nvim/how to print lua values in nvim.md": [
-      {
-        "title": "monthly",
-        "time": "2025-06-23",
-        "rowNumber": 1
-      }
-    ],
-    "Atlas/Knowledge/How To's/how to show all vars in bash(posix).md": [
-      {
-        "title": "reminder [[how to show all vars in bash(posix)]]",
-        "time": "2025-06-27",
-        "rowNumber": 3
+        "title": "remind er [[Bytes lesson]]",
+        "time": "2025-08-01",
+        "rowNumber": 10
       }
     ]
   },

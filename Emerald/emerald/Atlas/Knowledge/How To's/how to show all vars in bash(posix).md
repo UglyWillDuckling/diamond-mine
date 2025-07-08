@@ -1,10 +1,10 @@
 #howto/bash #howto/posix
 
 - [x] remind me (@[[2025-06-12]])
-- [ ] reminder [[how to show all vars in bash(posix)]] (@[[2025-06-27]])
+- [x] reminder [[how to show all vars in bash(posix)]] (@[[2025-06-27]])
 ___
 
-Use [[set command|set]] to examine current values:
+Use [[set command|set]] to examine the current values:
 
 ```sh
 set
@@ -22,7 +22,9 @@ TERM=xterm-256color
 USER=barnett
 ```
 
-Notice the **alphabetical** **order** of the variables, and the equals character between the variable and the value. The "set" command is one way to determine which shell you may be currently using (You can always execute a different shell). Also note the assortment of variables already defined. These are environment variables.
+Notice the **alphabetical** **order** of the variables, and the equals character between the variable and the value. 
+
+The "set" command is one way to determine which shell you may be currently using (You can always execute a different shell). Also note the assortment of variables already defined. These are environment variables.
 
 ___
 see [[POSIX Shell Tutorial]] for more

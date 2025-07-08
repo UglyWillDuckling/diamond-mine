@@ -55,7 +55,7 @@
     "calls": "multitext",
     "processed": "checkbox",
     "Price": "number",
-    "about": "text",
+    "about": "multitext",
     "reported": "date",
     "resolved": "checkbox",
     "first_appeared": "date",
@@ -86,6 +86,14 @@
     "ready": "checkbox",
     "estimate": "number",
     "progress": "number",
-    "due_date": "date"
+    "due_date": "date",
+    "related_actions": "multitext",
+    "used_in": "multitext",
+    "value": "number",
+    "quality": "number",
+    "studied_on": "multitext",
+    "covered_in": "multitext",
+    "mentioned_in": "multitext",
+    "sequence": "number"
   }
 }

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🎥",
+      "🪨",
       "LiComputer",
       "©",
-      "🛩",
-      "LiSnapToObject",
-      "🎥"
+      "🛩"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -43,7 +43,6 @@
   "Efforts": "LiWeight",
   "Calendar/days": "LiCalendar",
   "Calendar": "LiCalendarHeart",
-  "Efforts/Active/Obsidian Tinkering": "LiPlay",
   "Efforts/Active/Kuca": "🏠",
   "Atlas": "🗺",
   "Atlas/Knowledge/Media/movies/movi list - wip.md": "🎥",
@@ -201,5 +200,8 @@
   "Efforts/Planned": "🛩",
   "Efforts/Planned/Object Orientation - Design and Implementation project.md": "LiSnapToObject",
   "Atlas/Life/Faks/Predmeti/Osnove Programiranja/C - programming": "©",
-  "Atlas/Life/Faks/Predmeti/Grada racunala": "LiComputer"
+  "Atlas/Life/Faks/Predmeti/Grada racunala": "LiComputer",
+  "Atlas/Life/physical items": "🪨",
+  "movies base.base": "🎥",
+  "Efforts/Simmering/Obsidian Tinkering": "LiPlay"
 }

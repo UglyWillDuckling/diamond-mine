@@ -1,10 +1,10 @@
 ---
 type: meeting
-meeting type: 1on1
+meeting_type: 1on1
 created: 2025-05-27
 scheduled: 2025-05-27T14:45:00
 duration: 30
-related: 
+related:
 previous: "[[1 on 1 Yoan 3rd]]"
 agenda: regular 1 on 1
 participants:

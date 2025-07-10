@@ -1,6 +1,6 @@
 ---
 type: meeting
-meeting type: backyard-daily
+meeting_type: backyard-daily
 daily: "[[2025-06-30-Mon]]"
 created: 2025-06-30
 scheduled: 2025-06-30T14:00:00

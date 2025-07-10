@@ -1,6 +1,6 @@
 ---
 type: meeting
-meeting type: backyard-daily
+meeting_type: backyard-daily
 sequence: 7
 created: 2025-07-07
 scheduled: 2025-07-07T11:45:00

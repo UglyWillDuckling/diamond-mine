@@ -26,5 +26,6 @@
     "editor:configure-toolbar"
   ],
   "tabSize": 2,
-  "attachmentFolderPath": "~/×"
+  "attachmentFolderPath": "~/×",
+  "showLineNumber": false
 }

@@ -1,18 +1,6 @@
 {
   "version": 2,
   "inlineAdmonitions": {
-    "d1adf892-802e-4554-8331-848bea2d3926": {
-      "backgroundColor": "#3abbb3",
-      "bgColorOpacityPercent": 100,
-      "color": "#ffffff",
-      "colorOpacityPercent": 100,
-      "slug": "d1adf892-802e-4554-8331-848bea2d3926",
-      "prefixIcon": "album",
-      "suffixIcon": "",
-      "type": "prefix",
-      "prefix": "interest:",
-      "hideTriggerString": true
-    },
     "31be4f3e-d27a-42ef-8219-fac02a25ccf7": {
       "backgroundColor": "#fbff00",
       "bgColorOpacityPercent": 100,
@@ -59,6 +47,18 @@
       "suffixIcon": "",
       "type": "prefix",
       "prefix": "!:",
+      "hideTriggerString": true
+    },
+    "d1adf892-802e-4554-8331-848bea2d3926": {
+      "backgroundColor": "#3abbb3",
+      "bgColorOpacityPercent": 100,
+      "color": "#ffffff",
+      "colorOpacityPercent": 100,
+      "slug": "d1adf892-802e-4554-8331-848bea2d3926",
+      "prefixIcon": "album",
+      "suffixIcon": "",
+      "type": "prefix",
+      "prefix": "@:",
       "hideTriggerString": true
     }
   }

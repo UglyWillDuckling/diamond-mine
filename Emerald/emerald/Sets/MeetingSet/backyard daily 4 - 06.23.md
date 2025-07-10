@@ -1,6 +1,6 @@
 ---
 type: meeting
-meeting type: backyard-daily
+meeting_type: backyard-daily
 previous: "[[backyard daily 3]]"
 related:
 created: 2025-06-23

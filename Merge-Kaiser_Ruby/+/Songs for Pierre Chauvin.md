@@ -1,5 +1,5 @@
 #album #music 
 
-[[Mountain Goats]]
+[[+/Mountain Goats]]
 
 [[Exegetic Chains]]

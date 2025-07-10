@@ -24,7 +24,7 @@ project_status: in_progress
 
 [[Course Review]]
 
-- [/] #task explore Python course on [[execute program]] 🆔 CPlNBS 🛫 2025-05-03 ⏳ 2025-06-03 📅 2025-07-04
+- [/] #task explore Python course on [[execute program]] 🆔 CPlNBS 🛫 2025-05-03 ⏳ 2025-06-03 📅 2025-07-16
 	- nearly done🔹
 ___
 

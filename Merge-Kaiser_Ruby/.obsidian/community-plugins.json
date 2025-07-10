@@ -7,7 +7,6 @@
   "nldates-obsidian",
   "obsidian-importer",
   "highlightr-plugin",
-  "obsidian-hider",
   "note-refactor-obsidian",
   "obsidian-auto-link-title",
   "obsidian-timeline",
@@ -21,7 +20,6 @@
   "emoji-shortcodes",
   "obsidian-reminder-plugin",
   "obsidian-completr",
-  "obsidian-plugin-toc",
   "obsidian-media-db-plugin",
   "advanced-canvas",
   "simple-canvasearch",
@@ -53,5 +51,9 @@
   "inline-admonitions",
   "editor-width-slider",
   "execute-code",
-  "enhanced-annotations"
+  "enhanced-annotations",
+  "automatic-table-of-contents",
+  "insert-unsplash-image",
+  "image-picker",
+  "image-search"
 ]

@@ -2,14 +2,14 @@
 
 ### ✔ New
 
-- [/] #task see if you can [[integrate the graph into daily work]] #regular #daily 🆔 PtVCWN 🔼 🛫 2025-06-13 ⏳ 2025-06-16 📅 2025-06-30
+- [/] #task see if you can [[integrate the graph into daily work]] #regular #daily 🆔 PtVCWN 🔼 🛫 2025-06-13 ⏳ 2025-06-16 📅 2025-07-09
+- [ ] #task update **PHPStorm** license 🔼 ⏳ 2025-07-11 📅 2025-07-11 🆔 cjAAoj
+- [ ] #task Learn [[Morgen]] some more - built in lessons 🔼 🛫 2025-06-27 ⏳ 2025-06-27 📅 2025-07-14 🆔 LhXKdN
 - [x] #task add back the TODO configuration in Nvim ⏳ 2025-06-17 📅 2025-06-18 🆔 24xvlW ✅ 2025-06-18
-- [ ] #task Learn Morgen some more - built in lessons 🔼 🛫 2025-06-27 ⏳ 2025-06-27 📅 2025-07-03 🆔 LhXKdN
-- [ ] #task update PHPStorm license 🔼 ⏳ 2025-07-11 📅 2025-07-11 🆔 cjAAoj
-
 ### repeat 🔁
 
-- [ ] #task review reminders 🔁 every 2 weeks ⏳ 2025-07-04 📅 2025-07-04 🆔 P8gwo2
+- [ ] #task review reminders 🔁 every 2 weeks ⏳ 2025-07-18 📅 2025-07-18 🆔 sV5f3L
+- [x] #task review reminders 🔁 every 2 weeks ⏳ 2025-07-04 📅 2025-07-04 🆔 P8gwo2 ✅ 2025-07-09
 
 ### Resolved ⏳
 

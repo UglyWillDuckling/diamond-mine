@@ -7,8 +7,6 @@ tags:
 - [Article](https://en.m.wikipedia.org/wiki/Colorado)
 - [Talk](https://en.m.wikipedia.org/wiki/Talk:Colorado)
 
-This article is about the U.S. state. For the river, see [Colorado River](https://en.m.wikipedia.org/wiki/Colorado_River "Colorado River"). For the physiographic region, see [Colorado Plateau](https://en.m.wikipedia.org/wiki/Colorado_Plateau "Colorado Plateau"). For other uses, see [Colorado (disambiguation)](https://en.m.wikipedia.org/wiki/Colorado_\(disambiguation\) "Colorado (disambiguation)").
-
 ![[~/×/3fe007bbe33e92a730b38e76e2259ac7_MD5.png]]
 
 

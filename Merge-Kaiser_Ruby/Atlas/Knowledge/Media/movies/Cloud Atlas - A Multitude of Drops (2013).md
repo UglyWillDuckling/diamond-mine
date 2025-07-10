@@ -1,37 +1,30 @@
 ---
 type: movie
 title: "Cloud Atlas: A Multitude of Drops"
-englishTitle: "Cloud Atlas: A Multitude of Drops"
 year: "2013"
 dataSource: OMDbAPI
 url: https://www.imdb.com/title/tt4046780/
-id: tt4046780
-plot: N/A
 genres:
   - Documentary
   - Short
 director:
   - Josh Oreck
-writer:
-  - N/A
-studio:
-  - N/A
 duration: 7 min
 onlineRating: .nan
-actors:
-  - N/A
+actors: []
 image: https://m.media-amazon.com/images/M/MV5BN2I5ODcxMGItYzE4Mi00NTU4LTgxODMtOWFlODc2MTljODk1XkEyXkFqcGc@._V1_SX300.jpg
 released: true
-streamingServices: 
 premiere: 14.05.2013
-watched: false
-lastWatched: ""
-personalRating: 0
+watched: true
+lastWatched: 2025-04-21
+personalRating: 7.5
+related:
+  - "[[Cloud Atlas (novel)|Cloud Atlas]]"
 tags:
-  - mediaDB/tv/movie
+  - film
 ---
 
-`$= '![Image|360](' + dv.current().image + ')'`
+`$= '![Image|250](' + dv.current().image + ')'`
 
 # `$= dv.current().title`
 
@@ -55,8 +48,6 @@ if (!dv.current().released) {
 	dv.span('**Not released** The movie is not yet released.')
 }
 ```
-
 **Type**: `$= dv.current().type`
-**Online Rating**: `$= dv.current().onlineRating`
 **Duration**:  `$= dv.current().duration`
 **Premiered**: `$= dv.current().premiere`

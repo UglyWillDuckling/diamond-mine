@@ -10,7 +10,7 @@ previous: "[[1 on 1 with Yoan]]"
 tags:
   - meet/1on1/Yoan
   - meet/work
-meeting type: 1on1
+meeting_type: 1on1
 agenda: regular 1 on 1
 duration: 30
 status:

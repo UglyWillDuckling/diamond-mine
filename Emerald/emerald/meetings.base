@@ -2,6 +2,7 @@ filters:
   and:
     - type == "meeting"
     - file.folder != "Sets/Types"
+    - file.folder != "Atlas/Knowledge/templates"
 formulas:
   is today: if(scheduled.date() == today(), '🚩', '📅')
   "has passed ": if(scheduled < now(), '✅', '🕧')

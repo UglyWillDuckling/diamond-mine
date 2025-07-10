@@ -61,6 +61,11 @@
     "type": "text",
     "when": "datetime",
     "related-actions": "multitext",
-    "tickets": "multitext"
+    "tickets": "multitext",
+    "topics": "multitext",
+    "related articles": "multitext",
+    "value": "number",
+    "quality": "number",
+    "fields": "multitext"
   }
 }

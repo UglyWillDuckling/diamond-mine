@@ -13,13 +13,6 @@ related:
 
 - [ ] #task store this as a useful resource [[yet another tech-blog - made in Switzerland]] ⏳ 2025-06-15 📅 2025-07-01
 ___
-## [check\_esxi\_hardware 20250221 released: pywbem exception improvements](https://www.claudiokuenzler.com/blog/1473/check-esxi-hardware-20250221-release-pywbem-exception-improvements)
-
----
-
-A new version of [check\_esxi\_hardware](https://www.claudiokuenzler.com/monitoring-plugins/check_esxi_hardware.php), an open source monitoring plugin to monitor the hardware of [VMware ESXi](https://www.vmware.com/products/esxi-and-esx.html) servers, is available.
-
-![[~/×/136d30869615846ff97e880b497ec945_MD5.jpg|50]]
 
 ## Improve/Fix pywbem exceptions
 
@@ -27,11 +20,11 @@ The latest version (20250221) of check\_esxi\_hardware improves the handling of 
 
 The pywbem internal exceptions were renamed at the release of pywbem 1.0.0. Examples:
 
-| pywbem < 1.0.0 | pywbem >= 1.0.0 |
-| --- | --- |
+| pywbem < 1.0.0         | pywbem >= 1.0.0          |
+| ---------------------- | ------------------------ |
 | pywbem.cim\_operations | pywbem.\_cim\_operations |
-| pywbem.cim\_http | pywbem.\_cim\_http |
-| pywbem.exceptions | pywbem.\_exceptions |
+| pywbem.cim\_http       | pywbem.\_cim\_http       |
+| pywbem.exceptions      | pywbem.\_exceptions      |
 
 You certainly noticed the added underscore (\_) in the name.
 
@@ -63,8 +56,6 @@ In the past this would have shown a large Python stacktrace error.
 ## Thanks and kudos
 
 As always, this is an open source monitoring plugin and this often involves multiple people to get a new release out. Special thanks for this release go to [Phil Randal](https://github.com/philrandal) and [Claire Morgenthau](https://github.com/clairem-sl) for important and much appreciated coding hints.
-
-  
 
 ## More recent articles:
 

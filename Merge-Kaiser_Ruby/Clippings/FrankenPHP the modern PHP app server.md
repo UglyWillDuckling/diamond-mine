@@ -8,7 +8,7 @@ tags:
 
 ## The Modern PHP App Server,written in Go
 
-- [/] #task explore [[FrankenPHP the modern PHP app server]] 🔼 ⏳ 2025-06-01 📅 2025-06-08
+- [x] #task explore [[FrankenPHP the modern PHP app server]] 🔼 ⏳ 2025-06-01 📅 2025-06-08 ✅ 2025-06-29
 	- [x] try it out
 
 ## notes

@@ -10,7 +10,7 @@ tags:
   - clippings
   - song
 related:
-  - "[[Mountain Goats]]"
+  - "[[+/Mountain Goats]]"
 ---
 
 

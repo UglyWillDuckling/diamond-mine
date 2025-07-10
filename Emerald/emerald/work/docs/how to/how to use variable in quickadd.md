@@ -1,7 +1,7 @@
 #howto/quickadd
 
 about:: [[quickAdd]]
-related:: [[Format syntax  QuickAdd]]
+related:: [[Atlas/tools/obsidian/quickAdd/Format syntax  QuickAdd]]
 
 ### **basic** examples
 

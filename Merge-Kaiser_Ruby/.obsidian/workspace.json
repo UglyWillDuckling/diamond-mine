@@ -4,24 +4,68 @@
     "type": "split",
     "children": [
       {
-        "id": "df379880b41e7c41",
+        "id": "e05538f15b6631ba",
         "type": "tabs",
         "children": [
           {
+<<<<<<< HEAD
             "id": "6cbe1343b7e8454f",
+=======
+            "id": "69c7229296e5fb03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "list.md",
+                "file": "Clippings/obsidian-image-search Obsidian Image Search Using google API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+              "title": "obsidian-image-search Obsidian Image Search Using google API"
+            }
+          },
+          {
+            "id": "01e4c30fdb92f268",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calendar/daily/2025/2025-07-05-Sat.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-05-Sat"
+            }
+          },
+          {
+            "id": "5ec1d6d68926f9ce",
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+<<<<<<< HEAD
+                "file": "list.md",
+=======
+                "file": "Good Will Hunting.md",
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "list"
             }
           }
         ]
+=======
+              "title": "Good Will Hunting"
+            }
+          }
+        ],
+        "currentTab": 1
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
       }
     ],
     "direction": "vertical"
@@ -53,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#tas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 465.5007667541504,
+    "collapsed": true
   },
   "right": {
     "id": "3daebda00016f277",
@@ -87,7 +132,7 @@
       {
         "id": "4b820b274839dd85",
         "type": "tabs",
-        "dimension": 55.42168674698795,
+        "dimension": 46.796116504854375,
         "children": [
           {
             "id": "b1c7bf0bf1881a1d",
@@ -95,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "growing objects annotate.md",
+                "file": "Clippings/A Complete Beginner's Guide to Django - Part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +150,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for growing objects annotate"
+              "title": "Backlinks for A Complete Beginner's Guide to Django - Part 1"
             }
           },
           {
@@ -123,16 +168,6 @@
             }
           },
           {
-            "id": "806ee37b5685d92f",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          },
-          {
             "id": "87f976272f45bd31",
             "type": "leaf",
             "state": {
@@ -143,7 +178,7 @@
             }
           },
           {
-            "id": "c5ae7183f3d44e80",
+            "id": "c28fc085d0f1efce",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -156,60 +191,40 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "3b40c6b79eee3477",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
-            }
-          },
-          {
-            "id": "7505657a67a5ac57",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "ad60b0636f1a5512",
         "type": "tabs",
-        "dimension": 44.57831325301205,
+        "dimension": 53.203883495145625,
         "children": [
-          {
-            "id": "abb9e7fd6f724245",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Atlas/Knowledge/Books/Annotations/growing objects - annot.md",
-                "followCursor": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of growing objects - annot"
-            }
-          },
           {
             "id": "9941f4903adaf6e9",
             "type": "leaf",
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Atlas/Knowledge/Books/Annotations/growing objects - annot.md"
+                "file": "Clippings/A Complete Beginner's Guide to Django - Part 1.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
+            }
+          },
+          {
+            "id": "62f8d422c83e3c6f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Calendar/daily/2025/2025-07-05-Sat.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-07-05-Sat"
             }
           }
         ],
@@ -217,7 +232,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 586.5,
+    "width": 383.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -233,18 +248,19 @@
       "daily-notes:Open today's daily note": false,
       "obsidian-day-and-night:Toggle Theme": true,
       "chronology:Open Chronology": true,
-      "markwhen:Create new Markwhen file": true,
       "obsidian-media-db-plugin:Add new Media DB entry": true,
       "obsidian42-brat:BRAT": true,
       "juggl:Juggl global graph": true,
       "templater-obsidian:Templater": true,
       "callout-manager:Insert Callout": true,
       "obsidian-book-search-plugin:Create new book note": true,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true,
+      "image-picker:Open Image Picker": false
     }
   },
-  "active": "6cbe1343b7e8454f",
+  "active": "01e4c30fdb92f268",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "tv shows to watch.md",
     "Atlas/Life/Faks/Predmeti/Digitalna/Ispit - Digitalna.md",
     "Master Task List.md",
@@ -252,47 +268,55 @@
     "Atlas/Life/Faks/Predmeti/Grada racunala/Grada racunala.md",
     "Atlas/Life/Faks/Predmeti/Grada racunala",
     "my books base.base",
+=======
+    "Good Will Hunting.md",
+    "movies base.base",
+    "Calendar/daily/2025/2025-07-05-Sat.md",
+    "Clippings/obsidian-image-search Obsidian Image Search Using google API.md",
+    "Atlas/Life/Kviz/kviz Pipa Bar - 3.5 2025.md",
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
     "Atlas/Life/Kviz/kviz područja.md",
-    "Atlas/Life/Kviz/povijest kviz.md",
-    "Efforts/Planned/Backup Drive.md",
-    "Atlas/Knowledge/Books/Annotations/growing objects - annot.md",
-    "Atlas/Life/Faks/Predmeti/Osnove Programiranja/C - programming/C - programming.md",
-    "Clippings/A Wizard of Earthsea.md",
-    "Atlas/Knowledge/Media/books/Hopes and impediments - Selected Essays (1988).md",
-    "Atlas/Knowledge/Media/books/Things Fall Apart (1958).md",
-    "~/%/templater/tmpl movie image.md",
-    "Media DB/books/1Q84 (2009).md",
-    "~/×/b8effd2dc15ba78aa13abe9f3be84b85_MD5.jpg",
-    "~/×/faf67b354e40333e10f17d598cbc6e55_MD5.jpg",
-    "~/×/04bc477fb5f2c6e1e7c314bd4a085210_MD5.jpg",
-    "~/×/e4010bff25f6bdf16b2e0a3f85acb9e3_MD5.png",
-    "~/×/3f83cc3265ff58628baebb127c7d8dd1_MD5.jpg",
-    "~/×/05e488fe7249539cea069d5c526e4ea4_MD5.jpg",
-    "~/×/98ea84626d9b39abf32d288125d7196e_MD5.jpg",
-    "~/×/f1416a068a8013a614823697c6f3790f_MD5.jpg",
-    "~/×/52bcdff197de446db69d1efc184354fb_MD5.jpg",
-    "Clippings/Second Opium War - Wikipedia.md",
-    "Clippings/National central city.md",
-    "Atlas/Life/Faks/Predmeti/Osnove Programiranja/C - programming/Print Formatting in C.md",
-    "DAS - watchlist/das-0002-how-and-why-to-avoid-nil.md",
-    "~/×/89b77d3864c80f38ed0375fd865558ea_MD5.jpg",
-    "Media DB/books",
-    "Media DB",
-    "Clippings/7 tools that quietly improved my life - YouTube.md",
-    "kviz Pipa Bar 6.5 2025.md",
-    "Clippings/How to Spot Logical Fallacies (Featuring Joe Rogan and Ben Shapiro) - YouTube.md",
-    "Clippings/waking up at 430am is easy, actually - YouTube.md",
-    "Clippings/Kowtow - Wikipedia.md",
-    "Clippings/East India Company - Wikipedia.md",
-    "Clippings/Spanish–American War - Wikipedia.md",
-    "Atlas/Life/Faks/Predmeti/Osnove Programiranja/C - programming",
-    "Atlas/Life/Faks/Predmeti/Osnove Programiranja/Untitled",
+    "Atlas/Life/Kviz/Kviz 2025-02-13 Pipa Bar.md",
+    "Atlas/Life/Kviz/Kviz 2025-01-16 Pipa bar.md",
+    "Atlas/Life/Kviz/kviz Pipa Bar 18.06.2025.md",
+    "Atlas/Life/Kviz/kviz Pipa Bar 6.5 2025.md",
+    "Atlas/Life/Kviz/Kviz.md",
+    "Efforts/Active/Techdot.IO/email setup on techdot.md",
+    "Efforts/Active/Techdot.IO/Techdot.IO.md",
+    "Efforts/Ongoing/Skinuti filmove, serije i slicno.md",
+    "Efforts/_Complete/setup Owncloud.md",
+    "Efforts/_Complete/setup Media Server.md",
+    "Efforts/_Complete/Setup AI locally.md",
+    "Efforts/Ongoing/instalacija sofwarea iz Bug 388.md",
+    "Efforts/_Complete/how difficult it is to setup a local FTP server.md",
+    "Master Task List.md",
+    "Vettel.md",
+    "Clippings/Django Testing Tutorial.md",
+    "~/×/5908384eb89cfa864a63072b872f44d2_MD5.jpg",
+    "~/×/dea9f7b110742661b9dcdf1d1440ba74_MD5.jpg",
+    "~/×/7456a3e197da8f09229b28cc748fb19e_MD5.jpg",
+    "~/×/fd36e49538000f1494e85558d7b753df_MD5.jpg",
+    "Clippings/Come and See - Wikipedia.md",
+    "Clippings/Cyprus - Wikipedia.md",
+    "Clippings/Max Verstappen - Wikipedia.md",
+    "Clippings/Obsidian Bases Update 📝 NEW Card View + Template Generator 💡 Practical Uses.md",
+    "Atlas/Knowledge/Media/Music",
+    "~/×/e58201fbba7ec0ef89a42b2721eb6e14_MD5.png",
+    "~/×/78ba0c317c68447d5fb5379fc3384124_MD5.png",
+    "~/×/3421e4d70dfbfef5000e3ae9530c6337_MD5.png",
+    "~/×/1a3cf698599071efbdb5ed80371d7b1f_MD5.png",
+    "~/×/d3786ba699e4513dc5e31afff1a0c471_MD5.png",
+    "~/×/c5de922ad318c28ae77e4549f7fb8ece_MD5.png",
     "tasks canvas.canvas",
-    "Efforts/Untitled 1",
-    "Efforts/Planned",
-    "Atlas/Knowledge/Books/Annotations",
-    "Sets/BookSet",
+    "Efforts/Active/A Complete Beginner's Guide to Django",
+    "my books base.base",
+    "Sets/ArticleSet",
+    "Untitled",
+    "Atlas/Tools/Arduino",
+    "hexadecimal system.md~",
+    "Atlas/Life/Faks/Predmeti/Grada racunala",
+    "Media DB/books",
     "tasks pic.canvas",
-    "Efforts/Active/Obsidian Tinkering/canvas/experiment.canvas"
+    "Efforts/Simmering/Obsidian Tinkering/canvas/experiment.canvas"
   ]
 }

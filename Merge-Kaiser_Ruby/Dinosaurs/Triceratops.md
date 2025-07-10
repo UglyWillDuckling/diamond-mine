@@ -6,9 +6,6 @@ tags:
 related:
   - "[[Stegosaurus]]"
 ---
-- [Article](https://en.m.wikipedia.org/wiki/Triceratops)
-- [Talk](https://en.m.wikipedia.org/wiki/Talk:Triceratops)
-
 ![[~/×/6fa1737e239dddd4da67e8fb397a5277_MD5.jpg]]
 
 ***Triceratops*** ([/ t r aɪ ˈ s ɛr ə t ɒ p s /](https://en.m.wikipedia.org/wiki/Help:IPA/English "Help:IPA/English") [*try- SERR -ə-tops*](https://en.m.wikipedia.org/wiki/Help:Pronunciation_respelling_key "Help:Pronunciation respelling key");[^1] lit.' three-horned face ') is a [genus](https://en.m.wikipedia.org/wiki/Genus "Genus") of [chasmosaurine](https://en.m.wikipedia.org/wiki/Chasmosaurinae "Chasmosaurinae") [ceratopsian](https://en.m.wikipedia.org/wiki/Ceratopsia "Ceratopsia") [dinosaur](https://en.m.wikipedia.org/wiki/Dinosaur "Dinosaur") that lived during the late [Maastrichtian](https://en.m.wikipedia.org/wiki/Maastrichtian "Maastrichtian") age of the Late [Cretaceous](https://en.m.wikipedia.org/wiki/Cretaceous "Cretaceous") [period](https://en.m.wikipedia.org/wiki/Period_\(geology\) "Period (geology)"), about 68 to 66 [million years ago](https://en.m.wikipedia.org/wiki/Million_years_ago "Million years ago") in what is now western North America. It was one of the last-known non-avian dinosaurs and lived until the [Cretaceous–Paleogene extinction event](https://en.m.wikipedia.org/wiki/Cretaceous-Paleogene_extinction_event "Cretaceous-Paleogene extinction event") 66 million years ago. The name *Triceratops*, which means 'three-horned face', is derived from the [Greek](https://en.m.wikipedia.org/wiki/Ancient_Greek "Ancient Greek") words *trí-* ([τρί-](https://en.wiktionary.org/wiki/%CF%84%CF%81%CE%AF-#Ancient_Greek "wikt:τρί-")) meaning 'three', *kéras* ([κέρας](https://en.wiktionary.org/wiki/%CE%BA%CE%AD%CF%81%CE%B1%CF%82#Ancient_Greek "wikt:κέρας")) meaning 'horn', and *ṓps* ([ὤψ](https://en.wiktionary.org/wiki/%E1%BD%A4%CF%88#Ancient_Greek "wikt:ὤψ")) meaning 'face'.

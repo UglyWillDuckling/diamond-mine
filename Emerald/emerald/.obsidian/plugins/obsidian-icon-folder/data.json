@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCookingPot",
+      "LiCheck",
       "🫂",
       "⛑",
-      "🍀",
-      "🥞",
-      "LiNotepadText"
+      "🍀"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,7 +39,6 @@
   "work/notes": "📔",
   "work/tickets/SPIKE's/SPIKE - myTileCache migration to VectorTile?.md": "LiMousePointer2",
   "tasks/obsidian": "LiGem",
-  "work/calls": "LiPhoneCall",
   "work/docs/CRM": "👑",
   "work/tickets/archive": "LiArchiveX",
   "work/tickets/chores": "LiShovel",
@@ -56,11 +55,6 @@
   },
   "work/notes/archive/MA dev env URL.md": "LiCurlyBraces",
   "work/notes/archive/Millions of euros for a buy in France.md": "🇫🇷",
-  "work/calls/CRM/CRM - introduction to Design.md": "👑",
-  "work/calls/CRM/CRM in SLMP - macro-estimate session.md": "👑",
-  "work/calls/CRM/CRM macro estimate v2.md": "👑",
-  "work/calls/TEAMS/cal with NOVA team about leads.md": "LiStars",
-  "work/calls/CRM/SLMP call.md": "LiPresentation",
   "work/docs/concepts": {
     "iconName": "LiShapes",
     "iconColor": "#e5b42e"
@@ -104,10 +98,6 @@
     "iconName": "LiBookUser",
     "iconColor": "#9024ae"
   },
-  "work/calls/CRM": {
-    "iconName": "LiCrown",
-    "iconColor": "#d5c620"
-  },
   "work/tickets/archive/Diabolocom - legacy cleanup.md": "🦹",
   "work/tickets/chores/Update Diabolocom deprecated csv file export.md": "🧛",
   "work/notes/archive/LUNA team has its own argocd pipeline setup.md": {
@@ -120,7 +110,6 @@
     "iconColor": "#e68a0a"
   },
   "+/barefoot.md": "👞",
-  "work/calls/SPRINT": "👠",
   "work/notes/archive/deploy na tasks je dosta brz.md": "LiRocket",
   "work/notes/archive/test - test on backyard have 2 db's.md": {
     "iconName": "LiTestTube2",
@@ -200,22 +189,11 @@
   "Efforts": "LiWeight",
   "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md": "♦",
   "Efforts/Active/Obsidian Tinkering/docs": "LiFile",
-  "work/calls/SPRINT/RETRO/Sprint Retro - C8 EXT - Sprint 2.md": "🔙",
-  "work/calls/SPRINT/RETRO/Sprint Review  - 22.07.md": "LiThumbsUp",
-  "work/calls/SPRINT/RETRO": "🔙",
-  "work/calls/SPRINT/PLANNING/Sprint Planning 11-11.md": "👟",
-  "work/calls/SPRINT/PLANNING/Sprint Planning - C8 EXT - Sprint 2.md": "🔙",
-  "work/calls/SPRINT/PLANNING/Sprint planning 10-14.md": "👟",
-  "work/calls/SPRINT/PLANNING/sprint planning 10-28.md": "👟",
   "work/docs/concepts/Real Estate Project.md": "LiProjector",
   "work/Projects/LUQA": {
     "iconName": "LiCrown",
     "iconColor": "#ecbe18"
   },
-  "work/calls/_archive/DAILY": "🌅",
-  "work/calls/_archive/backyard/ Paulo WIF and GCP.md": "LiPhoneCall",
-  "work/calls/_archive/backyard/Project creation call.md": "LiProjector",
-  "work/calls/_archive": "🗃",
   "work/notes/archive/Christmas Party.md": "🎄",
   "work/bugs/archive/XSS - extranet": {
     "iconName": "LiSquareCode",
@@ -370,9 +348,6 @@
   "Atlas/Knowledge/notes/discovery/dev/KDE/switching alt+win is under keyboard settings.md": "LiKeyboard",
   "~/% tmpl/templater/created.md": "LiTimer",
   "~/% tmpl/templater/arch call listing prev.md": "LiBox",
-  "work/calls/pair programming": "LiKeyboard",
-  "work/calls/pair programming/pair programming - 2024-09-26.md": "‼",
-  "work/calls/pair programming/pair programming call - 2024-09-17.md": "LiKeyboard",
   "work/Projects/LUQA/docs": "LiDock",
   "work/Projects/Backyard": {
     "iconName": "LiFlower",
@@ -479,9 +454,36 @@
   "Atlas/people/Allen Holub.md": "LiGlasses",
   "Atlas/people/Martin Fowler.md": "🖌",
   "Atlas/people/Rebecca Wirfs-Brock.md": "👥",
-  "work/calls/meetings notes": "LiNotepadText",
   "work/docs/backyard/database": "🥞",
   "work/tickets/FEAT/Transac Zones update ticket/Handle usage of biz_product_coverage table.md": "🍀",
   "work": "⛑",
-  "MOC/People MOC.md": "🫂"
+  "MOC/People MOC.md": "🫂",
+  "work/meetings": "LiPhoneCall",
+  "work/meetings/CRM": {
+    "iconName": "LiCrown",
+    "iconColor": "#d5c620"
+  },
+  "work/meetings/SPRINT": "👠",
+  "work/meetings/_archive": "🗃",
+  "work/meetings/meetings notes": "LiNotepadText",
+  "work/meetings/pair programming": "LiKeyboard",
+  "work/meetings/SPRINT/RETRO": "🔙",
+  "work/meetings/CRM/CRM - introduction to Design.md": "👑",
+  "work/meetings/CRM/CRM in SLMP - macro-estimate session.md": "👑",
+  "work/meetings/CRM/CRM macro estimate v2.md": "👑",
+  "work/meetings/CRM/SLMP call.md": "LiPresentation",
+  "work/meetings/TEAMS/cal with NOVA team about leads.md": "LiStars",
+  "work/meetings/_archive/DAILY": "🌅",
+  "work/meetings/pair programming/pair programming - 2024-09-26.md": "‼",
+  "work/meetings/pair programming/pair programming call - 2024-09-17.md": "LiKeyboard",
+  "work/meetings/SPRINT/PLANNING/Sprint Planning - C8 EXT - Sprint 2.md": "🔙",
+  "work/meetings/SPRINT/PLANNING/Sprint Planning 11-11.md": "👟",
+  "work/meetings/SPRINT/PLANNING/Sprint planning 10-14.md": "👟",
+  "work/meetings/SPRINT/PLANNING/sprint planning 10-28.md": "👟",
+  "work/meetings/SPRINT/RETRO/Sprint Retro - C8 EXT - Sprint 2.md": "🔙",
+  "work/meetings/SPRINT/RETRO/Sprint Review  - 22.07.md": "LiThumbsUp",
+  "work/meetings/_archive/backyard/ Paulo WIF and GCP.md": "LiPhoneCall",
+  "work/meetings/_archive/backyard/Project creation call.md": "LiProjector",
+  "Efforts/Done": "LiCheck",
+  "Efforts/Simmering": "LiCookingPot"
 }

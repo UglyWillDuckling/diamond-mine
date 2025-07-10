@@ -9,7 +9,7 @@ properties:
   property.personalRating:
     displayName: Rating
 views:
-  - type: table
+  - type: cards
     name: ALL
     order:
       - file.name
@@ -18,18 +18,13 @@ views:
       - status
       - author
       - genres
+      - image
     sort:
-      - column: note.status
-        direction: DESC
-      - column: note.author
-        direction: DESC
-      - column: note.year
+      - property: status
         direction: ASC
-      - column: note.isbn
+      - property: year
         direction: ASC
-      - column: property.rating
-        direction: ASC
-      - column: file.name
+      - property: interest
         direction: DESC
     columnSize:
       file.name: 413
@@ -38,6 +33,7 @@ views:
       note.status: 100
       note.author: 301
       note.genres: 346
+    image: image
   - type: table
     name: reading
     filters:
@@ -50,13 +46,13 @@ views:
       - file.name
       - author
       - annotated
+    sort: []
     columnSize:
       note.read: 77
       note.status: 100
       note.personalRating: 124
       file.name: 366
       note.author: 301
-    sort: []
   - type: table
     name: want to read
     filters:
@@ -68,7 +64,7 @@ views:
       - interest
       - file.name
     sort:
-      - column: note.interest
+      - property: interest
         direction: ASC
     columnSize:
       note.interest: 130

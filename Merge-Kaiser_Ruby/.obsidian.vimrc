@@ -77,7 +77,7 @@ nnoremap gh :gotoHeading<CR>
 
 " [g]oto definition / link (shukuchi makes it forward-seeking)
 exmap followNextLink obcommand shukuchi:open-link
-nnoremap gf :followNextLink<CR>
+nnoremap gx :followNextLink<CR>
 
 " go to last change (HACK, only works to jump to the last location)
 nnoremap gc u<C-r>
@@ -394,11 +394,5 @@ map s] :surround_square_brackets<CR>
 map s{ :surround_curly_brackets<CR>
 map s} :surround_curly_brackets<CR>
 
-" Escape insert mode more easily (quickly press jj )
+" Escape insert mode more easily (quickly press jj)
 imap jj <Esc>
-
-" Surround text with triple quotes making codeblock
-exmap surround_codeblock surround ``` ```
-
-" map ff to surround text with triple backticks
-map ff :surround_codeblock<CR>

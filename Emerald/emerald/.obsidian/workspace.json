@@ -4,25 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "29fa8386c7ca76fb",
+        "id": "6c22bd96e018f5cf",
         "type": "tabs",
         "children": [
           {
-            "id": "58c0109d8174edfe",
+            "id": "5f2c2d3eb853b620",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/mypy - Optional Static Typing for Python.md",
+                "file": "Atlas/Knowledge/templates/meet template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "mypy - Optional Static Typing for Python"
+              "title": "meet template"
+            }
+          },
+          {
+            "id": "f30f3074d6747ba6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-10-Thu.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-10-Thu"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,12 +65,27 @@
             }
           },
           {
+            "id": "91fd5a5ee14b4332",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/tools/obsidian/quickAdd/quickAdd.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "quickAdd"
+            }
+          },
+          {
             "id": "663b43744af4d4d7",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "posix",
+                "query": "[\"meeting type\"]",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -75,11 +106,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 257.5017318725586,
+    "width": 477.5,
     "collapsed": true
   },
   "right": {
@@ -150,20 +182,6 @@
             }
           },
           {
-            "id": "7997b660349771ea",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
             "id": "04de7f6c30ec00d9",
             "type": "leaf",
             "state": {
@@ -192,9 +210,23 @@
               "icon": "clock",
               "title": "Reminders"
             }
+          },
+          {
+            "id": "928f18737047fe4a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "614d841b279e00cf",
@@ -207,13 +239,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/calls/intervju Zvonimir.md",
+                "file": "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-10-Thu.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of intervju Zvonimir"
+              "title": "Outline of 2025-07-10-Thu"
             }
           },
           {
@@ -230,7 +262,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 499.5,
+    "width": 615.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -248,7 +280,6 @@
       "obsidian-kanban:Create new board": false,
       "callout-manager:Insert Callout": false,
       "obsidian42-brat:BRAT": false,
-      "quickadd:QuickAdd": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "cmdr:Graph view: Open local graph": false,
       "cmdr:Workspaces: Manage workspace layouts": false,
@@ -259,51 +290,51 @@
       "cmdr:Command palette: Open command palette": true
     }
   },
-  "active": "58c0109d8174edfe",
+  "active": "f30f3074d6747ba6",
   "lastOpenFiles": [
-    "Efforts/Active/execute program - python for programmers course/Customizing Equality.md",
-    "Clippings/mypy - Optional Static Typing for Python.md",
-    "Efforts/Active/execute program - python for programmers course/Class Attributes.md",
-    "Efforts/Active/execute program - python for programmers course/Class Basics lesson.md",
-    "Efforts/Active/execute program - python for programmers course/execute program - python for programmers course.md",
-    "Efforts/Active/execute program - python for programmers course/Defaultdict lesson.md",
-    "Efforts/Active/execute program - python for programmers course/lambda in python lesson.md",
-    "Efforts/Active/execute program - python for programmers course/StringIO.md",
+    "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-10-Thu.md",
+    "Atlas/Knowledge/templates/meet template.md",
+    "work/meetings/2025-07-10 new one.md",
+    "Atlas/Knowledge/Articles/dev/How to Parameterize Python Tests Using Pytest.md",
+    "work/meetings/2025-07-09 suggest with link.md",
+    "~/x/Dann Bergs Daily Note.md",
+    "work/meetings/2025-07-09 selected.md",
+    "work/meetings/2025-07-09 suggest2.md",
+    "work/meetings/2025-07-09 with link.md",
+    "work/meetings/2025-07-09 suggest1.md",
+    "work/meetings/2025-07-09 suggest again.md",
+    "work/meetings/2025-07-09 test1.md",
+    "work/meetings/2025-07-09 suggest.md",
+    "work/meetings/2025-07-09 fruit.md",
+    "Clippings/Help with quick-add - Help.md",
+    "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-09-Wed.md",
     "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-08-Tue.md",
-    "work/tickets/FEAT/Transac Zones update ticket/roadie documentation.md",
-    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
-    "Clippings/Multiple heads in alembic migrations - what to do.md",
-    "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-07-Mon.md",
-    "Sets/MeetingSet/backyard daily 7 - 2025-07-07.md",
+    "work/meetings/2025-07-09 test data.md",
+    "work/meetings/2025-07-09 another schedule.md",
+    "work/meetings/2025-07-09 test schedule.md",
+    "work/meetings/2025-07-09 type test.md",
+    "work/meetings/2025-07-09 test.md",
+    "work/meetings/2025-07-09 new one2.md",
+    "work/meetings/2025-07-09 next.md",
+    "Atlas/tools/obsidian/quickAdd/quickAdd.md",
+    "work/meetings/2025-07-09 new one1.md",
+    "Atlas/tools/obsidian/quickAdd",
+    "Efforts/projects.canvas",
+    "Efforts/projects.base",
     "meetings.base",
-    "work/tickets/FEAT/Transac Zones update ticket/transac model test.md",
-    "Atlas/Knowledge/Articles/dev/Python and Docker A Winning Combination.md",
-    "work/calls/intervju Zvonimir.md",
-    "Efforts/master task list.md",
-    "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-04-Fri.md",
-    "Untitled.md",
-    "Efforts/Active/execute program - python for programmers course/Dunder Methods lesson.md",
-    "Atlas/tools/dev/python programming language/dunder methods in python.md",
-    "Efforts/Active/execute program - python for programmers course/Course Review.md",
-    "Atlas/tools/dev/python programming language/defaultdict - dict - python.md",
-    "Efforts/Active/execute program - python for programmers course/Consuming Iterators.md",
-    "Atlas/tools/dev/python programming language/popitem - dict - python.md",
+    "tasks canvas.canvas",
+    "work/tickets/event issue solution canvas.canvas",
+    "work/meetings/other",
+    "Knowledge/Books",
     "Knowledge/Media",
     "Knowledge",
-    "tasks canvas.canvas",
     "Atlas/Knowledge/daily_notes/2025/07-July",
     "Atlas/tools/dev/python programming language",
     "work/tickets/FEAT/Transac Zones update ticket/docs/coverage update canvas.canvas",
-    "Knowledge/Books",
     "Sets/ActionSet",
-    "work/tickets/FEAT/Transac Zones update ticket/docs",
-    "work/docs/backyard/database",
-    "Atlas/tools/dev/unix",
-    "Efforts/projects.canvas",
     "~/x/d136608e8bbe399debcc1513a2c08b32_MD5.jpg",
     "~/x/cf4f554afb2ab9f4904dc57b21fbc382_MD5.jpg",
     "Pro Git - Scott Chacon/images/scripting-03-webhook.png",
-    "work/tickets/event issue solution canvas.canvas",
     "work/Projects/Backyard/Features/QSL listing feature/docs/artifacts/crontab board.canvas",
     "work/Projects/Backyard/Features/QSL listing feature/docs/code/aws test script solution.canvas",
     "work/docs/CRM/CRM.canvas",

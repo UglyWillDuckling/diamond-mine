@@ -4529,8 +4529,17 @@ function smartWhitespaceSplit(text) {
   let hasQuote = false;
   for (let i = 0; i < text.length; i++) {
     const ch = text[i];
+    const nextCh = text[i + 1];
     switch (ch) {
-      case `"`:
+      case "\\":
+        if (nextCh === '"') {
+          str += '"';
+          i++;
+        } else {
+          str += ch;
+        }
+        break;
+      case '"':
         hasQuote = !hasQuote;
         break;
       case " ":
@@ -4556,45 +4565,181 @@ function hasCapitalLetter(str) {
 }
 function microFuzzy(value, query) {
   if (value.startsWith(query)) {
-    return { type: "starts-with", score: 2 ** query.length / value.length };
+    return {
+      type: "starts-with",
+      score: 2 ** query.length / value.length,
+      ranges: [{ start: 0, end: query.length - 1 }]
+    };
   }
   const emojiLessValue = excludeEmoji(value);
   if (emojiLessValue.startsWith(query)) {
-    return { type: "starts-with", score: 2 ** query.length / value.length };
+    return {
+      type: "starts-with",
+      score: 2 ** query.length / value.length,
+      ranges: [{ start: 0, end: query.length - 1 }]
+    };
   }
-  if (value.includes(query)) {
-    return { type: "includes", score: 2 ** query.length / value.length };
+  const includesIndex = value.indexOf(query);
+  if (includesIndex !== -1) {
+    return {
+      type: "includes",
+      score: 2 ** query.length / value.length,
+      ranges: [{ start: includesIndex, end: includesIndex + query.length - 1 }]
+    };
   }
   let i = 0;
   let scoreSeed = 0;
   let combo = 0;
+  const ranges = [];
+  let rangeStart = -1;
   for (let j = 0; j < emojiLessValue.length; j++) {
     if (emojiLessValue[j] === query[i]) {
+      if (combo === 0) {
+        rangeStart = j;
+      }
       combo++;
       i++;
     } else {
       if (combo > 0) {
         scoreSeed += 2 ** combo;
+        ranges.push({ start: rangeStart, end: rangeStart + combo - 1 });
         combo = 0;
       }
     }
     if (i === query.length) {
       if (combo > 0) {
         scoreSeed += 2 ** combo;
+        ranges.push({ start: rangeStart, end: rangeStart + combo - 1 });
       }
-      return { type: "fuzzy", score: scoreSeed / value.length };
+      return {
+        type: "fuzzy",
+        score: scoreSeed / value.length,
+        ranges
+      };
     }
   }
   return { type: "none", score: 0 };
 }
 function smartMicroFuzzy(text, query, isNormalizeAccentsDiacritics) {
-  return microFuzzy(
-    excludeSpace(normalize(text, isNormalizeAccentsDiacritics)),
-    excludeSpace(normalize(query, isNormalizeAccentsDiacritics))
+  const normalizedText = normalize(text, isNormalizeAccentsDiacritics);
+  const spaceRemovedText = excludeSpace(normalizedText);
+  const emojiRemovedSpaceRemovedText = excludeEmoji(spaceRemovedText);
+  const spaceRemovedQuery = excludeSpace(
+    normalize(query, isNormalizeAccentsDiacritics)
   );
+  const emojiRemovedSpaceRemovedQuery = excludeEmoji(spaceRemovedQuery);
+  if (emojiRemovedSpaceRemovedQuery === "" && spaceRemovedQuery !== "") {
+    if (spaceRemovedText.startsWith(spaceRemovedQuery)) {
+      const emojiCharLength = Array.from(spaceRemovedQuery).length;
+      return {
+        type: "starts-with",
+        score: 0.25,
+        ranges: [{ start: 0, end: emojiCharLength }]
+      };
+    }
+    if (spaceRemovedText.includes(spaceRemovedQuery)) {
+      const index = spaceRemovedText.indexOf(spaceRemovedQuery);
+      const emojiCharLength = Array.from(spaceRemovedQuery).length;
+      return {
+        type: "includes",
+        score: 0.5,
+        ranges: [{ start: index, end: index + emojiCharLength }]
+      };
+    }
+    return { type: "none", score: 0 };
+  }
+  const result = microFuzzy(
+    emojiRemovedSpaceRemovedText,
+    emojiRemovedSpaceRemovedQuery
+  );
+  if (!result.ranges) {
+    return result;
+  }
+  if (spaceRemovedQuery !== emojiRemovedSpaceRemovedQuery && spaceRemovedText.startsWith(spaceRemovedQuery)) {
+    const charLength = Array.from(spaceRemovedQuery).length;
+    return {
+      type: "starts-with",
+      score: result.score * 2,
+      // Boost score for exact prefix match with emoji
+      ranges: [{ start: 0, end: charLength }]
+    };
+  }
+  const mappedRanges = [];
+  const emojiToSpaceRemovedMap = [];
+  let j = 0;
+  spaceRemovedText.replace(regEmoji, (match, offset) => {
+    const startOffset = offset;
+    const endOffset = offset + match.length;
+    for (let i = j; i < startOffset; i++) {
+      emojiToSpaceRemovedMap[emojiToSpaceRemovedMap.length] = i;
+    }
+    j = endOffset;
+    return "";
+  });
+  for (let i = j; i < spaceRemovedText.length; i++) {
+    emojiToSpaceRemovedMap[emojiToSpaceRemovedMap.length] = i;
+  }
+  const spaceRemovedToOriginalMap = [];
+  for (let i = 0, j2 = 0; i < normalizedText.length; i++) {
+    if (normalizedText[i] !== " ") {
+      spaceRemovedToOriginalMap[j2] = i;
+      j2++;
+    }
+  }
+  for (const range2 of result.ranges) {
+    const startInSpaceRemoved = emojiToSpaceRemovedMap[range2.start];
+    let endInSpaceRemoved;
+    if (range2.start === range2.end) {
+      endInSpaceRemoved = startInSpaceRemoved;
+    } else {
+      endInSpaceRemoved = emojiToSpaceRemovedMap[range2.end - 1];
+    }
+    if (startInSpaceRemoved === void 0 || endInSpaceRemoved === void 0) {
+      continue;
+    }
+    const startInOriginal = spaceRemovedToOriginalMap[startInSpaceRemoved];
+    let endInOriginal;
+    if (range2.start === range2.end) {
+      endInOriginal = startInOriginal;
+    } else {
+      endInOriginal = spaceRemovedToOriginalMap[endInSpaceRemoved] + 1;
+    }
+    if (startInOriginal === void 0 || endInOriginal === void 0) {
+      continue;
+    }
+    let currentStart = startInOriginal;
+    for (let i = startInOriginal; i <= endInOriginal; i++) {
+      if (normalizedText[i] === " ") {
+        if (i > currentStart) {
+          mappedRanges.push({ start: currentStart, end: i - 1 });
+        }
+        while (i <= endInOriginal && normalizedText[i] === " ") {
+          i++;
+        }
+        currentStart = i;
+        i--;
+      }
+    }
+    if (currentStart <= endInOriginal) {
+      mappedRanges.push({ start: currentStart, end: endInOriginal });
+    }
+  }
+  return {
+    ...result,
+    ranges: mappedRanges
+  };
 }
 function trimLineByEllipsis(text, max) {
   return text.length > max * 2 ? `${text.slice(0, max)} ... ${text.slice(text.length - max)}` : text;
+}
+function getSinglePatternMatchingLocations(text, pattern) {
+  return Array.from(text.matchAll(pattern)).map((x) => ({
+    text: x[0],
+    range: {
+      start: x.index,
+      end: x.index + x[0].length - 1
+    }
+  }));
 }
 
 // src/app-helper.ts
@@ -4613,6 +4758,10 @@ var AppHelper = class {
   }
   getFileViewInActiveLeaf() {
     return this.unsafeApp.workspace.getActiveViewOfType(import_obsidian.FileView);
+  }
+  getActiveFileLeaf() {
+    var _a, _b;
+    return (_b = (_a = this.getFileViewInActiveLeaf()) == null ? void 0 : _a.leaf) != null ? _b : null;
   }
   getMarkdownViewInActiveLeaf() {
     return this.unsafeApp.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
@@ -4852,6 +5001,27 @@ var AppHelper = class {
             unsafeApp.workspace.setActiveLeaf(currentLeaf, { focus: true });
           }
         }
+        this.leaf = void 0;
+      }
+    };
+  }
+  // https://github.com/tadashi-aikawa/obsidian-another-quick-switcher/issues/284#event-17898469302
+  captureStateInFile(initialLeaf) {
+    const leaf = this.unsafeApp.workspace.getMostRecentLeaf();
+    const state = leaf.getViewState();
+    const eState = leaf.getEphemeralState();
+    const unsafeApp = this.unsafeApp;
+    return {
+      async restore() {
+        await leaf.setViewState(
+          {
+            ...state,
+            active: true,
+            popstate: true
+          },
+          eState
+        );
+        unsafeApp.workspace.setActiveLeaf(leaf, { focus: true });
         this.leaf = void 0;
       }
     };
@@ -5259,9 +5429,19 @@ function matchQuery(item, query, options) {
   );
   switch (fuzzyResult.type) {
     case "starts-with":
-      results.push({ type: "prefix-name", meta: [item.file.name], query });
+      results.push({
+        type: "prefix-name",
+        meta: [item.file.name],
+        query,
+        ranges: fuzzyResult.ranges
+      });
     case "includes":
-      results.push({ type: "name", meta: [item.file.name], query });
+      results.push({
+        type: "name",
+        meta: [item.file.name],
+        query,
+        ranges: fuzzyResult.ranges
+      });
     case "fuzzy":
       if (options.fuzzyTarget) {
         if (fuzzyResult.score > options.minFuzzyScore) {
@@ -5269,7 +5449,8 @@ function matchQuery(item, query, options) {
             type: "fuzzy-name",
             meta: [item.file.name],
             query,
-            score: fuzzyResult.score
+            score: fuzzyResult.score,
+            ranges: fuzzyResult.ranges
           });
         }
       }
@@ -5281,44 +5462,50 @@ function matchQuery(item, query, options) {
     const r = smartMicroFuzzy(al, file, isNormalizeAccentsDiacritics);
     switch (r.type) {
       case "starts-with":
-        prefixNameMatchedAliases.push(al);
+        prefixNameMatchedAliases.push({ value: al, ranges: r.ranges });
       case "includes":
-        nameMatchedAliases.push(al);
+        nameMatchedAliases.push({ value: al, ranges: r.ranges });
       case "fuzzy":
         if (options.fuzzyTarget) {
           if (r.score > options.minFuzzyScore) {
             fuzzyNameMatchedAliases.push({
               value: al,
-              score: r.score
+              score: r.score,
+              ranges: r.ranges
             });
           }
         }
     }
   }
   if (prefixNameMatchedAliases.length > 0) {
+    const bestMatch = minBy(prefixNameMatchedAliases, (x) => x.value.length);
     results.push({
       type: "prefix-name",
-      meta: prefixNameMatchedAliases,
-      alias: minBy(prefixNameMatchedAliases, (x) => x.length),
-      query
+      meta: prefixNameMatchedAliases.map((x) => x.value),
+      alias: bestMatch.value,
+      query,
+      ranges: bestMatch.ranges
     });
   }
   if (nameMatchedAliases.length > 0) {
+    const bestMatch = minBy(nameMatchedAliases, (x) => x.value.length);
     results.push({
       type: "name",
-      meta: nameMatchedAliases,
-      alias: minBy(nameMatchedAliases, (x) => x.length),
-      query
+      meta: nameMatchedAliases.map((x) => x.value),
+      alias: bestMatch.value,
+      query,
+      ranges: bestMatch.ranges
     });
   }
   if (options.fuzzyTarget && fuzzyNameMatchedAliases.length > 0) {
-    const m = minBy(fuzzyNameMatchedAliases, (x) => x.score);
+    const bestMatch = minBy(fuzzyNameMatchedAliases, (x) => x.score);
     results.push({
       type: "fuzzy-name",
       meta: fuzzyNameMatchedAliases.map((x) => x.value),
-      alias: m.value,
-      score: m.score,
-      query
+      alias: bestMatch.value,
+      score: bestMatch.score,
+      query,
+      ranges: bestMatch.ranges
     });
   }
   if (smartIncludes((_a = item.file.parent) == null ? void 0 : _a.path, query, isNormalizeAccentsDiacritics)) {
@@ -5664,6 +5851,11 @@ var searchTargetList = [
   "link",
   "2-hop-link"
 ];
+var moveFolderSortPriorityList = [
+  "Recently used",
+  "Alphabetical",
+  "Alphabetical reverse"
+];
 var createDefaultHotkeys = () => ({
   main: {
     up: [{ modifiers: ["Mod"], key: "p" }],
@@ -5696,6 +5888,7 @@ var createDefaultHotkeys = () => ({
     "navigate forward": [{ modifiers: ["Alt"], key: "ArrowRight" }],
     "navigate back": [{ modifiers: ["Alt"], key: "ArrowLeft" }],
     "close if opened": [],
+    "launch grep": [],
     dismiss: [{ modifiers: [], key: "Escape" }]
   },
   folder: {
@@ -5764,6 +5957,7 @@ var createDefaultHotkeys = () => ({
     "clear input": [{ modifiers: ["Mod"], key: "d" }],
     "clear path": [{ modifiers: ["Alt"], key: "d" }],
     "set ./ to path": [{ modifiers: ["Alt"], key: "c" }],
+    "toggle input": [],
     open: [{ modifiers: [], key: "Enter" }],
     "open in new tab": [{ modifiers: ["Mod"], key: "Enter" }],
     "open in new pane (horizontal)": [{ modifiers: ["Mod"], key: "-" }],
@@ -6079,8 +6273,14 @@ var DEFAULT_SETTINGS = {
   grepSearchDelayMilliSeconds: 0,
   grepExtensions: ["md"],
   maxDisplayLengthAroundMatchedWord: 64,
+  includeFilenameInGrepSearch: false,
+  fdCommand: "fd",
+  defaultGrepFolder: "",
   // Move file to another folder
   moveFileExcludePrefixPathPatterns: [],
+  moveFolderSortPriority: "Recently used",
+  moveFileRecentlyUsedFilePath: "",
+  moveFileMaxRecentlyUsedFolders: 10,
   // debug
   showLogAboutPerformanceInConsole: false,
   showFuzzyMatchScore: false
@@ -6734,6 +6934,14 @@ ${invalidValues.map((x) => `- ${x}`).join("\n")}
         await this.plugin.saveSettings();
       })
     );
+    new import_obsidian3.Setting(containerEl).setName("Default folder").setDesc(
+      "Default folder path for grep searches. Leave empty to use vault root. Use ./ for current directory."
+    ).addText(
+      (tc) => tc.setPlaceholder("(ex: ./, folder/subfolder)").setValue(this.plugin.settings.defaultGrepFolder).onChange(async (value) => {
+        this.plugin.settings.defaultGrepFolder = value;
+        await this.plugin.saveSettings();
+      })
+    );
     new import_obsidian3.Setting(containerEl).setName("Max display length around matched word").setDesc(
       "Maximum display character count before or after the matched word."
     ).addSlider(
@@ -6742,6 +6950,25 @@ ${invalidValues.map((x) => `- ${x}`).join("\n")}
         await this.plugin.saveSettings();
       })
     );
+    new import_obsidian3.Setting(containerEl).setName("Include file name in search").setDesc(
+      "If enabled, file names are also included in the search target. fd is required."
+    ).addToggle((tc) => {
+      tc.setValue(this.plugin.settings.includeFilenameInGrepSearch).onChange(
+        async (value) => {
+          this.plugin.settings.includeFilenameInGrepSearch = value;
+          await this.plugin.saveSettings();
+          this.display();
+        }
+      );
+    });
+    if (this.plugin.settings.includeFilenameInGrepSearch) {
+      new import_obsidian3.Setting(containerEl).setName("fd command").setClass("another-quick-switcher__settings__nested").setDesc("Commands that can execute fd").addText(
+        (tc) => tc.setValue(this.plugin.settings.fdCommand).onChange(async (value) => {
+          this.plugin.settings.fdCommand = value;
+          await this.plugin.saveSettings();
+        })
+      );
+    }
   }
   addMoveSettings(containerEl) {
     containerEl.createEl("h3", { text: "\u{1F4C1} Move file to another folder" });
@@ -6756,6 +6983,26 @@ ${invalidValues.map((x) => `- ${x}`).join("\n")}
       });
       el.inputEl.className = "another-quick-switcher__settings__ignore_path_patterns";
       return el;
+    });
+    new import_obsidian3.Setting(containerEl).setName("Folder sort priority").setDesc("How to sort folders in move dialog").addDropdown(
+      (dropdown) => dropdown.addOptions(mirror([...moveFolderSortPriorityList])).setValue(this.plugin.settings.moveFolderSortPriority).onChange(async (value) => {
+        this.plugin.settings.moveFolderSortPriority = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian3.Setting(containerEl).setName("Recently used folders file path").setDesc("Path within vault to store recently used folders history").addText((tc) => {
+      tc.setPlaceholder(
+        ".obsidian/plugins/obsidian-another-quick-switcher/recently-used-folders.json"
+      ).setValue(this.plugin.settings.moveFileRecentlyUsedFilePath).onChange(async (value) => {
+        this.plugin.settings.moveFileRecentlyUsedFilePath = value;
+        await this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian3.Setting(containerEl).setName("Max recently used folders").setDesc("Maximum number of recently used folders to remember").addSlider((sc) => {
+      sc.setLimits(5, 50, 5).setValue(this.plugin.settings.moveFileMaxRecentlyUsedFolders).setDynamicTooltip().onChange(async (value) => {
+        this.plugin.settings.moveFileMaxRecentlyUsedFolders = value;
+        await this.plugin.saveSettings();
+      });
     });
   }
   addDebugSettings(containerEl) {
@@ -6857,6 +7104,59 @@ function round(n, decimalPlace) {
 }
 
 // src/ui/suggestion-factory.ts
+function mergeRanges(ranges) {
+  if (ranges.length === 0) return [];
+  const sorted = [...ranges].sort((a, b) => a.start - b.start);
+  const merged = [];
+  let current = sorted[0];
+  for (let i = 1; i < sorted.length; i++) {
+    const next = sorted[i];
+    if (next.start <= current.end + 1) {
+      current = {
+        start: current.start,
+        end: Math.max(current.end, next.end)
+      };
+    } else {
+      merged.push(current);
+      current = next;
+    }
+  }
+  merged.push(current);
+  return merged;
+}
+function createHighlightedText(text, ranges) {
+  const fragment = document.createDocumentFragment();
+  if (!ranges || ranges.length === 0) {
+    fragment.appendChild(document.createTextNode(text));
+    return fragment;
+  }
+  const mergedRanges = mergeRanges(ranges);
+  let lastEnd = -1;
+  for (const range2 of mergedRanges) {
+    if (range2.start > lastEnd + 1) {
+      const beforeText = text.slice(lastEnd + 1, range2.start);
+      if (beforeText) {
+        fragment.appendChild(document.createTextNode(beforeText));
+      }
+    }
+    const highlightedText = text.slice(range2.start, range2.end + 1);
+    if (highlightedText) {
+      const highlightSpan = createSpan({
+        cls: "another-quick-switcher__hit_word",
+        text: highlightedText
+      });
+      fragment.appendChild(highlightSpan);
+    }
+    lastEnd = range2.end;
+  }
+  if (lastEnd + 1 < text.length) {
+    const remainingText = text.slice(lastEnd + 1);
+    if (remainingText) {
+      fragment.appendChild(document.createTextNode(remainingText));
+    }
+  }
+  return fragment;
+}
 function createItemDiv(item, aliasesDisplayedAsTitle, options) {
   var _a, _b;
   const itemDiv = createDiv({
@@ -6874,13 +7174,27 @@ function createItemDiv(item, aliasesDisplayedAsTitle, options) {
     cls: "another-quick-switcher__item__entry"
   });
   const shouldShowAliasAsTitle = aliasesDisplayedAsTitle.length > 0 && (options.displayAliaseAsTitle || options.displayAliasAsTitleOnKeywordMatched);
+  const titleText = shouldShowAliasAsTitle ? aliasesDisplayedAsTitle.join(" / ") : item.file.basename;
+  const titleMatchResults = item.matchResults.filter(
+    (result) => result.type === "name" || result.type === "prefix-name" || result.type === "fuzzy-name"
+  );
   const titleDiv = createDiv({
     cls: [
       "another-quick-switcher__item__title",
       "another-quick-switcher__custom__item__title"
-    ],
-    text: shouldShowAliasAsTitle ? aliasesDisplayedAsTitle.join(" / ") : item.file.basename
+    ]
   });
+  const allRanges = [];
+  for (const result of titleMatchResults) {
+    if (result.ranges) {
+      allRanges.push(...result.ranges);
+    }
+  }
+  const highlightedContent = createHighlightedText(
+    titleText,
+    allRanges.length > 0 ? allRanges : void 0
+  );
+  titleDiv.appendChild(highlightedContent);
   entryDiv.appendChild(titleDiv);
   const isExcalidrawFile = isExcalidraw(item.file);
   if (item.file.extension !== "md" || isExcalidrawFile) {
@@ -7360,13 +7674,13 @@ var AnotherQuickSwitcherModal = class _AnotherQuickSwitcherModal extends import_
       this.indexingItems();
     }
     this.searchQuery = query.startsWith(this.command.commandPrefix) ? query.replace(this.command.commandPrefix, "") : query;
+    if (this.command.defaultInput) {
+      this.searchQuery = `${this.command.defaultInput}${this.searchQuery}`;
+    }
     this.searchQuery = this.searchQuery.replace(
       /<cd>/g,
       this.appHelper.getCurrentDirPath()
     );
-    if (this.command.defaultInput) {
-      this.searchQuery = `${this.command.defaultInput}${this.searchQuery}`;
-    }
     this.renderInputComponent();
     const qs = smartWhitespaceSplit(this.searchQuery);
     if (this.command.searchTarget === "backlink" && !((_a = this.originFile) == null ? void 0 : _a.path)) {
@@ -7896,6 +8210,11 @@ var AnotherQuickSwitcherModal = class _AnotherQuickSwitcherModal extends import_
         return false;
       });
     }
+    this.registerKeys("launch grep", async () => {
+      const currentQuery = this.inputEl.value.trim();
+      await this.safeClose();
+      await showGrepDialog(this.app, this.settings, currentQuery || void 0);
+    });
     this.registerKeys("dismiss", async () => {
       this.close();
     });
@@ -8227,17 +8546,19 @@ var BacklinkModal = class extends import_obsidian5.SuggestModal {
         keepOpen: true
       });
     });
-    this.registerKeys("open all in new tabs", () => {
+    this.registerKeys("open all in new tabs", async () => {
       this.close();
       if (this.chooser.values == null) {
         return;
       }
       const items = this.chooser.values.slice().reverse();
       for (const x of items) {
-        this.appHelper.openFile(x.file, {
-          leafType: "new-tab-background",
+        await this.appHelper.openFile(x.file, {
+          leafType: "new-tab",
+          line: x.lineNumber - 1,
           preventDuplicateTabs: this.settings.preventDuplicateTabs
         });
+        await sleep(0);
       }
     });
     this.registerKeys("show all results", () => {
@@ -8414,9 +8735,9 @@ var FolderModal = class extends import_obsidian6.SuggestModal {
 // src/ui/GrepModal.ts
 var import_obsidian7 = require("obsidian");
 
-// src/utils/ripgrep.ts
+// src/utils/fd.ts
 var import_child_process = require("child_process");
-async function existsRg(cmd) {
+async function existsFd(cmd) {
   return new Promise((resolve, _) => {
     (0, import_child_process.execFile)(cmd, ["--version"], (error, _stdout, _stderr) => {
       if (error) {
@@ -8426,9 +8747,39 @@ async function existsRg(cmd) {
     });
   });
 }
+async function fd(cmd, ...args) {
+  return new Promise((resolve, reject) => {
+    (0, import_child_process.execFile)(
+      cmd,
+      args,
+      { maxBuffer: 100 * 1024 * 1024 },
+      (_, stdout, _stderr) => {
+        if (_stderr) {
+          reject(_stderr);
+          return;
+        }
+        const results = stdout.split("\n").filter((x) => x);
+        resolve(results);
+      }
+    );
+  });
+}
+
+// src/utils/ripgrep.ts
+var import_child_process2 = require("child_process");
+async function existsRg(cmd) {
+  return new Promise((resolve, _) => {
+    (0, import_child_process2.execFile)(cmd, ["--version"], (error, _stdout, _stderr) => {
+      if (error) {
+        console.dir(error);
+      }
+      resolve(!error);
+    });
+  });
+}
 async function rg(cmd, ...args) {
   return new Promise((resolve, _) => {
-    (0, import_child_process.execFile)(
+    (0, import_child_process2.execFile)(
       cmd,
       ["--json", ...args],
       { maxBuffer: 100 * 1024 * 1024 },
@@ -8447,7 +8798,7 @@ var globalInternalStorage2 = {
   selected: void 0
 };
 var GrepModal = class extends import_obsidian7.SuggestModal {
-  constructor(app, settings, initialLeaf) {
+  constructor(app, settings, initialLeaf, initialQuery) {
     super(app);
     this.isClosed = new Promise((resolve) => {
       this.markClosed = resolve;
@@ -8476,12 +8827,19 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
       );
     }
     this.setHotkeys();
+    this.initialQuery = initialQuery;
   }
   onOpen() {
     var _a;
     super.onOpen();
     setFloatingModal(this.appHelper);
-    this.basePath = (_a = globalInternalStorage2.basePath) != null ? _a : "";
+    this.basePath = (_a = globalInternalStorage2.basePath) != null ? _a : this.settings.defaultGrepFolder;
+    if (this.initialQuery) {
+      this.clonedInputEl.value = this.initialQuery;
+      this.currentQuery = this.initialQuery;
+      this.inputEl.value = this.initialQuery;
+      this.inputEl.dispatchEvent(new Event("input"));
+    }
     window.setTimeout(() => {
       var _a2;
       const selected = globalInternalStorage2.selected;
@@ -8599,7 +8957,27 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
         `${this.vaultRootPath}/${absolutePathFromRoot}`
       ].filter((x) => x)
     );
-    const items = rgResults.map((x) => {
+    const fdResults = this.settings.includeFilenameInGrepSearch ? await fd(
+      this.settings.fdCommand,
+      ...[
+        query,
+        "--absolute-path",
+        "--type",
+        "file",
+        "--type",
+        "symlink",
+        "--follow",
+        ...this.settings.grepExtensions.flatMap((x) => ["--extension", x]),
+        hasCapitalLetter(query) ? "--case-sensitive" : "",
+        `${this.vaultRootPath}/${absolutePathFromRoot}`
+      ].filter((x) => x)
+    ).catch((err) => {
+      if (err.includes("regex parse error")) {
+        return [];
+      }
+      throw err;
+    }) : [];
+    const rgItems = rgResults.map((x) => {
       return {
         order: -1,
         file: this.appHelper.getFileByPath(
@@ -8611,11 +8989,42 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
         line: x.data.lines.text,
         lineNumber: x.data.line_number,
         offset: x.data.absolute_offset,
-        submatches: x.data.submatches
+        submatches: x.data.submatches.map((x2) => ({
+          ...x2,
+          type: "text"
+        }))
       };
-    }).filter((x) => x.file != null).sort(sorter((x) => x.file.stat.mtime, "desc")).map((x, order) => ({ ...x, order }));
+    }).filter((x) => x.file != null).sort(sorter((x) => x.file.stat.mtime, "desc"));
+    const regexpOption = hasCapitalLetter(query) ? "g" : "gi";
+    const fdItems = fdResults.map((x) => {
+      const file = this.appHelper.getFileByPath(
+        normalizePath(x).replace(`${this.vaultRootPath}/`, "")
+      );
+      if (!file) {
+        throw new Error(
+          `File not found for path: ${x} (basePath: ${this.basePath})`
+        );
+      }
+      const matches = getSinglePatternMatchingLocations(
+        file.basename,
+        new RegExp(query, regexpOption)
+      );
+      return {
+        order: -1,
+        file,
+        line: "",
+        lineNumber: 0,
+        offset: 0,
+        submatches: matches.map((x2) => ({
+          type: "title",
+          match: { text: x2.text },
+          start: x2.range.start,
+          end: x2.range.end
+        }))
+      };
+    }).filter((x) => x != null).sort(sorter((x) => x.file.stat.mtime, "desc"));
     this.logger.showDebugLog("getSuggestions: ", start);
-    return items;
+    return fdItems.concat(rgItems).map((x, order) => ({ ...x, order }));
   }
   async getSuggestions(query) {
     var _a;
@@ -8646,10 +9055,25 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
           "another-quick-switcher__item__title",
           "another-quick-switcher__grep__item__title_entry"
         ],
-        text: item.file.basename,
         attr: {
           extension: item.file.extension
         }
+      });
+      let restLine2 = item.file.basename;
+      for (const x of item.submatches.filter((s) => s.type === "title")) {
+        const i = restLine2.indexOf(x.match.text);
+        const before = restLine2.slice(0, i);
+        titleDiv.createSpan({
+          text: before
+        });
+        titleDiv.createSpan({
+          text: x.match.text,
+          cls: "another-quick-switcher__hit_word"
+        });
+        restLine2 = restLine2.slice(i + x.match.text.length);
+      }
+      titleDiv.createSpan({
+        text: restLine2
       });
       const isExcalidrawFile = isExcalidraw(item.file);
       if (item.file.extension !== "md" || isExcalidrawFile) {
@@ -8681,7 +9105,7 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
       cls: "another-quick-switcher__grep__item__description"
     });
     let restLine = item.line;
-    for (const x of item.submatches) {
+    for (const x of item.submatches.filter((s) => s.type === "text")) {
       const i = restLine.indexOf(x.match.text);
       const before = restLine.slice(0, i);
       descriptionDiv.createSpan({
@@ -8744,6 +9168,13 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
   }
   async onChooseSuggestion() {
     await this.chooseCurrentSuggestion("same-tab");
+  }
+  toggleInput() {
+    if (document.activeElement === this.clonedInputEl) {
+      this.basePathInputEl.focus();
+    } else {
+      this.clonedInputEl.focus();
+    }
   }
   registerKeys(key, handler) {
     const hotkeys = this.settings.hotkeys.grep[key];
@@ -8834,6 +9265,9 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
       this.basePathInputEl.value = "./";
       this.basePathInputEl.dispatchEvent(new InputEvent("change"));
     });
+    this.registerKeys("toggle input", () => {
+      this.toggleInput();
+    });
     this.registerKeys("open", async () => {
       await this.chooseCurrentSuggestion("same-tab");
     });
@@ -8857,17 +9291,19 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
         keepOpen: true
       });
     });
-    this.registerKeys("open all in new tabs", () => {
+    this.registerKeys("open all in new tabs", async () => {
       this.close();
       if (this.chooser.values == null) {
         return;
       }
       const items = this.chooser.values.slice().reverse();
       for (const x of items) {
-        this.appHelper.openFile(x.file, {
-          leafType: "new-tab-background",
+        await this.appHelper.openFile(x.file, {
+          leafType: "new-tab",
+          line: x.lineNumber - 1,
           preventDuplicateTabs: this.settings.preventDuplicateTabs
         });
+        await sleep(0);
       }
     });
     this.registerKeys("preview", async () => {
@@ -8903,6 +9339,11 @@ var HeaderModal = class extends import_obsidian8.SuggestModal {
     this.settings = settings;
     this.floating = floating;
     this.autoPreview = settings.autoPreviewInFloatingHeaderSearch && floating;
+    this.stateToRestore = this.appHelper.captureStateInFile(
+      this.appHelper.getActiveFileLeaf()
+    );
+    this.initialCursor = this.appHelper.getCurrentEditor().getCursor();
+    this.navQueue = Promise.resolve();
     this.items = this.appHelper.getHeadersInActiveFile().map((x, i) => ({
       value: excludeFormat(x.heading),
       level: x.level,
@@ -8921,6 +9362,13 @@ var HeaderModal = class extends import_obsidian8.SuggestModal {
       this.select(nextIndex, unsafeEvt);
     });
     this.setHotkeys();
+  }
+  navigate(cb) {
+    this.navQueue = this.navQueue.then(cb);
+  }
+  onClose() {
+    super.onClose();
+    this.navigate(() => this.stateToRestore.restore());
   }
   select(index, evt, suppressAutoPreview) {
     var _a;
@@ -9033,7 +9481,7 @@ var HeaderModal = class extends import_obsidian8.SuggestModal {
     el.appendChild(itemDiv);
   }
   async onChooseSuggestion(item) {
-    this.appHelper.moveTo(item.position);
+    this.appHelper.moveTo(item.position, void 0, this.initialCursor);
   }
   registerKeys(key, handler) {
     var _a;
@@ -9160,7 +9608,7 @@ var globalInternalStorage3 = {
   selected: null
 };
 var InFileModal = class extends import_obsidian9.SuggestModal {
-  constructor(app, settings, initialLeaf) {
+  constructor(app, settings) {
     super(app);
     /** !Not work correctly in all cases */
     this.unsafeSelectedIndex = 0;
@@ -9169,10 +9617,11 @@ var InFileModal = class extends import_obsidian9.SuggestModal {
     this.appHelper = new AppHelper(app);
     this.settings = settings;
     this.logger = Logger.of(this.settings);
-    this.initialLeaf = initialLeaf;
     this.floating = this.settings.autoPreviewInFloatingInFileSearch;
     this.autoPreview = settings.autoPreviewInFloatingInFileSearch;
-    this.stateToRestore = this.appHelper.captureState(this.initialLeaf);
+    this.stateToRestore = this.appHelper.captureStateInFile(
+      this.appHelper.getActiveFileLeaf()
+    );
     this.initialCursor = this.appHelper.getCurrentEditor().getCursor();
     this.navQueue = Promise.resolve();
     this.limit = 255;
@@ -9229,9 +9678,7 @@ var InFileModal = class extends import_obsidian9.SuggestModal {
     super.onClose();
     globalInternalStorage3.query = this.inputEl.value;
     globalInternalStorage3.selected = this.chooser.values != null ? this.chooser.selectedItem : null;
-    if (this.stateToRestore) {
-      this.navigate(() => this.stateToRestore.restore());
-    }
+    this.navigate(() => this.stateToRestore.restore());
   }
   select(index, evt) {
     this.chooser.setSelectedItem(index, evt);
@@ -9286,7 +9733,7 @@ var InFileModal = class extends import_obsidian9.SuggestModal {
     var _a;
     const start = performance.now();
     const isQueryEmpty = query.trim() === "";
-    const queries = query.trim().split(" ");
+    const queries = smartWhitespaceSplit(query.trim());
     this.currentQueriesRegExp = new RegExp(
       queries.map(escapeRegExp).join("|"),
       "gi"
@@ -9545,7 +9992,7 @@ var LinkModal = class extends import_obsidian10.SuggestModal {
     }
     this.navigate(this.markClosed);
   }
-  async indexingItems() {
+  indexingItems() {
     const ignoredItems = [];
     const links = this.appHelper.getLinksByFilePathInActiveFile();
     if (!links) {
@@ -9554,16 +10001,21 @@ var LinkModal = class extends import_obsidian10.SuggestModal {
     for (const [path, caches] of Object.entries(links)) {
       const file = this.appHelper.getFileByPath(path);
       const content = this.appHelper.getCurrentEditor().getValue();
-      for (const cache of caches) {
-        if (!isFrontMatterLinkCache(cache)) {
-          ignoredItems.push({
-            file,
-            displayLink: cache.displayText,
-            line: content.split("\n").at(cache.position.start.line),
-            lineNumber: cache.position.start.line + 1,
-            offset: cache.position.start.offset
-          });
-        }
+      const noFrontmatterLinkCaches = caches.filter(
+        (x) => !isFrontMatterLinkCache(x)
+      );
+      const uniqueCaches = uniqBy(
+        noFrontmatterLinkCaches,
+        (x) => x.position.start.line
+      );
+      for (const cache of uniqueCaches) {
+        ignoredItems.push({
+          file,
+          displayLink: cache.displayText,
+          line: content.split("\n").at(cache.position.start.line),
+          lineNumber: cache.position.start.line + 1,
+          offset: cache.position.start.offset
+        });
       }
     }
     this.ignoredItems = ignoredItems;
@@ -9767,17 +10219,19 @@ var LinkModal = class extends import_obsidian10.SuggestModal {
         keepOpen: true
       });
     });
-    this.registerKeys("open all in new tabs", () => {
+    this.registerKeys("open all in new tabs", async () => {
       this.close();
       if (this.chooser.values == null) {
         return;
       }
-      const files = this.chooser.values.slice().reverse().map((x) => x.file).filter(isPresent);
-      for (const x of files) {
-        this.appHelper.openFile(x, {
-          leafType: "new-tab-background",
+      const items = this.chooser.values.slice().reverse();
+      for (const item of items) {
+        await this.appHelper.openFile(this.appHelper.getActiveFile(), {
+          leafType: "new-tab",
+          line: item.lineNumber - 1,
           preventDuplicateTabs: this.settings.preventDuplicateTabs
         });
+        await sleep(0);
       }
     });
     this.registerKeys("show all results", () => {
@@ -9806,6 +10260,59 @@ var LinkModal = class extends import_obsidian10.SuggestModal {
 // src/ui/MoveModal.ts
 var import_moment = __toESM(require_moment());
 var import_obsidian11 = require("obsidian");
+function mergeRanges2(ranges) {
+  if (ranges.length === 0) return [];
+  const sorted = [...ranges].sort((a, b) => a.start - b.start);
+  const merged = [];
+  let current = sorted[0];
+  for (let i = 1; i < sorted.length; i++) {
+    const next = sorted[i];
+    if (next.start <= current.end + 1) {
+      current = {
+        start: current.start,
+        end: Math.max(current.end, next.end)
+      };
+    } else {
+      merged.push(current);
+      current = next;
+    }
+  }
+  merged.push(current);
+  return merged;
+}
+function createHighlightedText2(text, ranges) {
+  const fragment = document.createDocumentFragment();
+  if (!ranges || ranges.length === 0) {
+    fragment.appendChild(document.createTextNode(text));
+    return fragment;
+  }
+  const mergedRanges = mergeRanges2(ranges);
+  let lastEnd = -1;
+  for (const range2 of mergedRanges) {
+    if (range2.start > lastEnd + 1) {
+      const beforeText = text.slice(lastEnd + 1, range2.start);
+      if (beforeText) {
+        fragment.appendChild(document.createTextNode(beforeText));
+      }
+    }
+    const highlightedText = text.slice(range2.start, range2.end + 1);
+    if (highlightedText) {
+      const highlightSpan = createSpan({
+        cls: "another-quick-switcher__hit_word",
+        text: highlightedText
+      });
+      fragment.appendChild(highlightSpan);
+    }
+    lastEnd = range2.end;
+  }
+  if (lastEnd + 1 < text.length) {
+    const remainingText = text.slice(lastEnd + 1);
+    if (remainingText) {
+      fragment.appendChild(document.createTextNode(remainingText));
+    }
+  }
+  return fragment;
+}
 function matchQuery3(item, query, matcher, isNormalizeAccentsDiacritics) {
   const qs = query.split("/");
   const folder = qs.pop();
@@ -9826,21 +10333,35 @@ function matchQueryAll3(item, queries, matcher, isNormalizeAccentsDiacritics) {
   );
 }
 function stampMatchType2(item, queries, isNormalizeAccentsDiacritics) {
-  if (matchQueryAll3(
-    item,
-    queries,
-    (item2, query) => smartStartsWith(item2.folder.name, query, isNormalizeAccentsDiacritics),
+  var _a;
+  const combinedQuery = queries.join(" ");
+  const fuzzyResult = smartMicroFuzzy(
+    item.folder.name,
+    combinedQuery,
     isNormalizeAccentsDiacritics
-  )) {
-    return { ...item, matchType: "prefix-name" };
-  }
-  if (matchQueryAll3(
-    item,
-    queries,
-    (item2, query) => smartIncludes(item2.folder.name, query, isNormalizeAccentsDiacritics),
-    isNormalizeAccentsDiacritics
-  )) {
-    return { ...item, matchType: "name" };
+  );
+  switch (fuzzyResult.type) {
+    case "starts-with":
+      return {
+        ...item,
+        matchType: "prefix-name",
+        score: fuzzyResult.score,
+        ranges: fuzzyResult.ranges
+      };
+    case "includes":
+      return {
+        ...item,
+        matchType: "name",
+        score: fuzzyResult.score,
+        ranges: fuzzyResult.ranges
+      };
+    case "fuzzy":
+      return {
+        ...item,
+        matchType: "fuzzy-name",
+        score: fuzzyResult.score,
+        ranges: fuzzyResult.ranges
+      };
   }
   if (matchQueryAll3(
     item,
@@ -9848,13 +10369,53 @@ function stampMatchType2(item, queries, isNormalizeAccentsDiacritics) {
     (item2, query) => smartIncludes(item2.folder.path, query, isNormalizeAccentsDiacritics),
     isNormalizeAccentsDiacritics
   )) {
-    return { ...item, matchType: "directory" };
+    const parentName = ((_a = item.folder.parent) == null ? void 0 : _a.name) || "";
+    const directoryFuzzyResult = smartMicroFuzzy(
+      parentName,
+      combinedQuery,
+      isNormalizeAccentsDiacritics
+    );
+    return {
+      ...item,
+      matchType: "directory",
+      directoryRanges: directoryFuzzyResult.ranges
+    };
   }
   return item;
+}
+function stampRecentlyUsed(item, recentFolders) {
+  const index = recentFolders.indexOf(item.folder.path);
+  if (index !== -1) {
+    return {
+      ...item,
+      isRecentlyUsed: true,
+      recentlyUsedIndex: index
+    };
+  }
+  return item;
+}
+function sortFolders(items, priority) {
+  return items.sort((a, b) => {
+    var _a, _b;
+    switch (priority) {
+      case "Recently used": {
+        const aIndex = (_a = a.recentlyUsedIndex) != null ? _a : 999999;
+        const bIndex = (_b = b.recentlyUsedIndex) != null ? _b : 999999;
+        return aIndex - bIndex;
+      }
+      case "Alphabetical":
+        return a.folder.name.localeCompare(b.folder.name);
+      case "Alphabetical reverse":
+        return b.folder.name.localeCompare(a.folder.name);
+      default:
+        return 0;
+    }
+  });
 }
 var MoveModal = class extends import_obsidian11.SuggestModal {
   constructor(app, settings) {
     super(app);
+    this.recentFolders = [];
     this.modalEl.addClass("another-quick-switcher__modal-prompt");
     this.appHelper = new AppHelper(app);
     this.settings = settings;
@@ -9868,16 +10429,61 @@ var MoveModal = class extends import_obsidian11.SuggestModal {
       (x) => x.folder.path
     );
   }
+  async onOpen() {
+    await this.loadRecentlyUsedFolders();
+    super.onOpen();
+  }
+  getRecentlyUsedFilePath() {
+    return this.settings.moveFileRecentlyUsedFilePath || ".obsidian/plugins/obsidian-another-quick-switcher/recently-used-folders.json";
+  }
+  async loadRecentlyUsedFolders() {
+    const filePath = this.getRecentlyUsedFilePath();
+    try {
+      if (await this.app.vault.adapter.exists(filePath)) {
+        const content = await this.app.vault.adapter.read(filePath);
+        this.recentFolders = JSON.parse(content);
+      }
+    } catch (error) {
+      console.warn("Failed to load recently used folders:", error);
+      this.recentFolders = [];
+    }
+  }
+  async saveRecentlyUsedFolders() {
+    const filePath = this.getRecentlyUsedFilePath();
+    try {
+      const dir = filePath.substring(0, filePath.lastIndexOf("/"));
+      if (!await this.app.vault.adapter.exists(dir)) {
+        await this.app.vault.adapter.mkdir(dir);
+      }
+      await this.app.vault.adapter.write(
+        filePath,
+        JSON.stringify(this.recentFolders, null, 2)
+      );
+    } catch (error) {
+      console.warn("Failed to save recently used folders:", error);
+    }
+  }
+  async updateRecentlyUsedFolder(folderPath) {
+    const index = this.recentFolders.indexOf(folderPath);
+    if (index > -1) {
+      this.recentFolders.splice(index, 1);
+    }
+    this.recentFolders.unshift(folderPath);
+    if (this.recentFolders.length > this.settings.moveFileMaxRecentlyUsedFolders) {
+      this.recentFolders.pop();
+    }
+    await this.saveRecentlyUsedFolders();
+  }
   getSuggestions(query) {
     const qs = query.split(" ").filter((x) => x);
-    return this.filteredItems.map(
+    const matchedItems = this.filteredItems.map(
       (x) => stampMatchType2(x, qs, this.settings.normalizeAccentsAndDiacritics)
-    ).filter((x) => x.matchType).sort(sorter((x) => x.matchType === "directory" ? 1 : 0)).sort(
-      sorter(
-        (x) => x.matchType === "prefix-name" ? 1e3 - x.folder.name.length : 0,
-        "desc"
-      )
-    ).slice(0, 10);
+    ).filter((x) => x.matchType).map((x) => stampRecentlyUsed(x, this.recentFolders));
+    const sortedItems = sortFolders(
+      matchedItems,
+      this.settings.moveFolderSortPriority
+    );
+    return sortedItems.slice(0, 10);
   }
   renderSuggestion(item, el) {
     var _a;
@@ -9891,15 +10497,29 @@ var MoveModal = class extends import_obsidian11.SuggestModal {
       cls: "another-quick-switcher__item__entry"
     });
     const folderDiv = createDiv({
-      cls: "another-quick-switcher__item__title",
-      text: item.folder.name
+      cls: "another-quick-switcher__item__title"
     });
+    const highlightedContent = createHighlightedText2(
+      item.folder.name,
+      item.ranges
+    );
+    folderDiv.appendChild(highlightedContent);
     entryDiv.appendChild(folderDiv);
     const directoryDiv = createDiv({
       cls: "another-quick-switcher__item__directory"
     });
     directoryDiv.insertAdjacentHTML("beforeend", FOLDER);
-    directoryDiv.appendText(` ${(_a = item.folder.parent) == null ? void 0 : _a.name}`);
+    const parentName = ((_a = item.folder.parent) == null ? void 0 : _a.name) || "";
+    if (item.matchType === "directory" && item.directoryRanges) {
+      directoryDiv.appendText(" ");
+      const directoryHighlightedContent = createHighlightedText2(
+        parentName,
+        item.directoryRanges
+      );
+      directoryDiv.appendChild(directoryHighlightedContent);
+    } else {
+      directoryDiv.appendText(` ${parentName}`);
+    }
     entryDiv.appendChild(directoryDiv);
     itemDiv.appendChild(entryDiv);
     el.appendChild(itemDiv);
@@ -9918,6 +10538,7 @@ var MoveModal = class extends import_obsidian11.SuggestModal {
       );
     }
     await this.app.fileManager.renameFile(activeFile, newPath);
+    await this.updateRecentlyUsedFolder(item.folder.path);
   }
   registerKeys(key, handler) {
     var _a;
@@ -9994,7 +10615,7 @@ function showMoveDialog(app, settings) {
   const modal = new MoveModal(app, settings);
   modal.open();
 }
-async function showGrepDialog(app, settings) {
+async function showGrepDialog(app, settings, initialQuery) {
   var _a, _b;
   if (!import_obsidian12.Platform.isDesktop) {
     new import_obsidian12.Notice("Grep is not supported on mobile.");
@@ -10006,8 +10627,14 @@ async function showGrepDialog(app, settings) {
     );
     return;
   }
+  if (settings.includeFilenameInGrepSearch && !await existsFd(settings.fdCommand)) {
+    new import_obsidian12.Notice(
+      `"${settings.fdCommand}" was not working as a fd command. If you have not installed fd yet, please install it.`
+    );
+    return;
+  }
   const activeFileLeaf = (_b = (_a = app.workspace.getActiveViewOfType(import_obsidian12.FileView)) == null ? void 0 : _a.leaf) != null ? _b : null;
-  const modal = new GrepModal(app, settings, activeFileLeaf);
+  const modal = new GrepModal(app, settings, activeFileLeaf, initialQuery);
   modal.open();
 }
 async function showBacklinkDialog(app, settings) {
@@ -10031,12 +10658,10 @@ async function showLinkDialog(app, settings) {
   modal.open();
 }
 async function showInFileDialog(app, settings) {
-  var _a, _b;
   if (!app.workspace.getActiveFile()) {
     return;
   }
-  const activeFileLeaf = (_b = (_a = app.workspace.getActiveViewOfType(import_obsidian12.FileView)) == null ? void 0 : _a.leaf) != null ? _b : null;
-  const modal = new InFileModal(app, settings, activeFileLeaf);
+  const modal = new InFileModal(app, settings);
   await modal.init();
   modal.open();
 }

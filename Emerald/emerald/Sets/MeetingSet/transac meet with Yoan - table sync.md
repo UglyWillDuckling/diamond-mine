@@ -1,6 +1,6 @@
 ---
 type: meeting
-meeting type:
+meeting_type:
 created: 2025-06-06
 scheduled: 2025-06-06T10:15:00
 related:

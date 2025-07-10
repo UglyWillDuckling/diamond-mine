@@ -1,6 +1,6 @@
 ---
 type: meeting
-meeting type: all-hands/hoc
+meeting_type: all-hands/hoc
 link: https://meet.google.com/stream/d519155d-e83f-41bf-977e-ea5a75ac01a1?pli=1
 created:
 scheduled: 2025-06-30T12:00:00

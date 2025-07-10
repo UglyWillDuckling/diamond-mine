@@ -937,4 +937,3 @@ Managing remote repositories includes knowing how to add remote repositories, re
 - remove
 - manage branches - remote tracking
 - ..
-

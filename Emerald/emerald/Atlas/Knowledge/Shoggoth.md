@@ -3,8 +3,11 @@ author:
   - "[[Contributors to Wikimedia projects]]"
 created: 2025-06-30
 published: 2003-12-01
-source: "https://en.wikipedia.org/wiki/Shoggoth#In_popular_culture"
+source: https://en.wikipedia.org/wiki/Shoggoth#In_popular_culture
 tags:
+  - fictional-creature
+related:
+  - "[[artificial intelligence]]"
 ---
 A **shoggoth** (occasionally **shaggoth** [^1]) is a fictional creature in the [Cthulhu Mythos](https://en.wikipedia.org/wiki/Cthulhu_Mythos "Cthulhu Mythos"). The beings were mentioned in passing in [H. P. Lovecraft](https://en.wikipedia.org/wiki/H._P._Lovecraft "H. P. Lovecraft") 's [sonnet cycle](https://en.wikipedia.org/wiki/Sonnet_cycle "Sonnet cycle") *[Fungi from Yuggoth](https://en.wikipedia.org/wiki/Fungi_from_Yuggoth "Fungi from Yuggoth")* (1929–30), and later mentioned in other works, before being described in detail in his [novella](https://en.wikipedia.org/wiki/Novella "Novella") *[At the Mountains of Madness](https://en.wikipedia.org/wiki/At_the_Mountains_of_Madness "At the Mountains of Madness")* (1931).[^2]
 

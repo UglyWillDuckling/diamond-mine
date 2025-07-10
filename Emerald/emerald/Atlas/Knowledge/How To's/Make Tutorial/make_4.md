@@ -2,7 +2,7 @@ GNU Make - Writing Rules
 
 Go to the [previous](make_3.md), [next](make_5.md) section.
 
-- [ ] #task master [[Makefile]] #big 🆔 vR2KT4 🛫 2025-06-02 ⏳ 2025-06-04 📅 2025-07-13
+- [ ] #task master [[Makefile]] #big 🆔 vR2KT4 🛫 2025-06-02 ⏳ 2025-06-04 📅 2025-07-16
 ___
 
 # [Writing Rules](make_toc.md#SEC19)

@@ -11,17 +11,15 @@ plot: A truck driver stops at a small family-run noodle shop and decides to help
 genres:
   - Comedy
 director:
-  - Jûzô Itami
+  - "[[Juzo Itami]]"
 writer:
   - Jûzô Itami
-studio:
-  - N/A
-duration: 114 min
 onlineRating: 7.9
 actors:
   - Ken Watanabe
   - Tsutomu Yamazaki
   - Nobuko Miyamoto
+  - "[[Ken Watanabe]]"
 image: https://m.media-amazon.com/images/M/MV5BNDBiM2U5ODItZGExOS00OWYwLTliNGEtODhlMjg1NzY3MmM5XkEyXkFqcGc@._V1_SX300.jpg
 released: true
 premiere: 09/01/1987

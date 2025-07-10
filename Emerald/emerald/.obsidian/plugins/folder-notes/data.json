@@ -50,7 +50,8 @@
     "allowDragAndDrop": true,
     "hideLinkList": true,
     "hideFolderOverview": false,
-    "useActualLinks": false
+    "useActualLinks": false,
+    "fmtpIntegration": false
   },
   "useSubmenus": true,
   "syncMove": true,

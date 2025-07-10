@@ -4741,6 +4741,14 @@ function getSinglePatternMatchingLocations(text, pattern) {
     }
   }));
 }
+function isValidRegex(pattern) {
+  try {
+    new RegExp(pattern);
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
 
 // src/app-helper.ts
 function isFrontMatterLinkCache(x) {
@@ -5851,6 +5859,11 @@ var searchTargetList = [
   "link",
   "2-hop-link"
 ];
+var moveFolderSortPriorityList = [
+  "Recently used",
+  "Alphabetical",
+  "Alphabetical reverse"
+];
 var createDefaultHotkeys = () => ({
   main: {
     up: [{ modifiers: ["Mod"], key: "p" }],
@@ -6269,10 +6282,12 @@ var DEFAULT_SETTINGS = {
   grepExtensions: ["md"],
   maxDisplayLengthAroundMatchedWord: 64,
   includeFilenameInGrepSearch: false,
-  fdCommand: "fd",
   defaultGrepFolder: "",
   // Move file to another folder
   moveFileExcludePrefixPathPatterns: [],
+  moveFolderSortPriority: "Recently used",
+  moveFileRecentlyUsedFilePath: "",
+  moveFileMaxRecentlyUsedFolders: 10,
   // debug
   showLogAboutPerformanceInConsole: false,
   showFuzzyMatchScore: false
@@ -6942,9 +6957,7 @@ ${invalidValues.map((x) => `- ${x}`).join("\n")}
         await this.plugin.saveSettings();
       })
     );
-    new import_obsidian3.Setting(containerEl).setName("Include file name in search").setDesc(
-      "If enabled, file names are also included in the search target. fd is required."
-    ).addToggle((tc) => {
+    new import_obsidian3.Setting(containerEl).setName("Include file name in search").setDesc("If enabled, file names are also included in the search target.").addToggle((tc) => {
       tc.setValue(this.plugin.settings.includeFilenameInGrepSearch).onChange(
         async (value) => {
           this.plugin.settings.includeFilenameInGrepSearch = value;
@@ -6953,14 +6966,6 @@ ${invalidValues.map((x) => `- ${x}`).join("\n")}
         }
       );
     });
-    if (this.plugin.settings.includeFilenameInGrepSearch) {
-      new import_obsidian3.Setting(containerEl).setName("fd command").setClass("another-quick-switcher__settings__nested").setDesc("Commands that can execute fd").addText(
-        (tc) => tc.setValue(this.plugin.settings.fdCommand).onChange(async (value) => {
-          this.plugin.settings.fdCommand = value;
-          await this.plugin.saveSettings();
-        })
-      );
-    }
   }
   addMoveSettings(containerEl) {
     containerEl.createEl("h3", { text: "\u{1F4C1} Move file to another folder" });
@@ -6975,6 +6980,26 @@ ${invalidValues.map((x) => `- ${x}`).join("\n")}
       });
       el.inputEl.className = "another-quick-switcher__settings__ignore_path_patterns";
       return el;
+    });
+    new import_obsidian3.Setting(containerEl).setName("Folder sort priority").setDesc("How to sort folders in move dialog").addDropdown(
+      (dropdown) => dropdown.addOptions(mirror([...moveFolderSortPriorityList])).setValue(this.plugin.settings.moveFolderSortPriority).onChange(async (value) => {
+        this.plugin.settings.moveFolderSortPriority = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian3.Setting(containerEl).setName("Recently used folders file path").setDesc("Path within vault to store recently used folders history").addText((tc) => {
+      tc.setPlaceholder(
+        ".obsidian/plugins/obsidian-another-quick-switcher/recently-used-folders.json"
+      ).setValue(this.plugin.settings.moveFileRecentlyUsedFilePath).onChange(async (value) => {
+        this.plugin.settings.moveFileRecentlyUsedFilePath = value;
+        await this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian3.Setting(containerEl).setName("Max recently used folders").setDesc("Maximum number of recently used folders to remember").addSlider((sc) => {
+      sc.setLimits(5, 50, 5).setValue(this.plugin.settings.moveFileMaxRecentlyUsedFolders).setDynamicTooltip().onChange(async (value) => {
+        this.plugin.settings.moveFileMaxRecentlyUsedFolders = value;
+        await this.plugin.saveSettings();
+      });
     });
   }
   addDebugSettings(containerEl) {
@@ -8707,9 +8732,88 @@ var FolderModal = class extends import_obsidian6.SuggestModal {
 // src/ui/GrepModal.ts
 var import_obsidian7 = require("obsidian");
 
-// src/utils/fd.ts
+// src/utils/grep-utils.ts
+function byteToCharPosition(text, bytePos) {
+  const textBytes = Buffer.from(text, "utf8");
+  if (bytePos >= textBytes.length) return text.length;
+  const codePoints = [...text];
+  let currentBytePos = 0;
+  let jsCharPos = 0;
+  for (let i = 0; i < codePoints.length; i++) {
+    const codePoint = codePoints[i];
+    const codePointBytes = Buffer.from(codePoint, "utf8").length;
+    if (currentBytePos + codePointBytes > bytePos) {
+      break;
+    }
+    currentBytePos += codePointBytes;
+    jsCharPos += codePoint.length;
+    if (currentBytePos >= bytePos) {
+      break;
+    }
+  }
+  return jsCharPos;
+}
+function convertSubmatchesToCharPositions(submatches, text) {
+  return submatches.map((submatch) => ({
+    ...submatch,
+    start: byteToCharPosition(text, submatch.start),
+    end: byteToCharPosition(text, submatch.end)
+  }));
+}
+function mergeOverlappingSubmatches(submatches, originalText) {
+  if (submatches.length <= 1) return submatches;
+  const sorted = [...submatches].filter((submatch) => {
+    if (!originalText) return true;
+    return submatch.start >= 0 && submatch.end <= originalText.length && submatch.start < submatch.end;
+  }).sort((a, b) => a.start - b.start);
+  if (sorted.length === 0) return [];
+  const deduplicated = [];
+  for (const current of sorted) {
+    const isDuplicate = deduplicated.some(
+      (existing) => existing.start === current.start && existing.end === current.end
+    );
+    if (!isDuplicate) {
+      deduplicated.push(current);
+    }
+  }
+  return deduplicated;
+}
+function mergeAndFilterResults(allResults) {
+  if (allResults.length === 0) return [];
+  if (allResults.length === 1) return allResults[0];
+  const resultsByLocation = /* @__PURE__ */ new Map();
+  for (let i = 0; i < allResults.length; i++) {
+    const results = allResults[i];
+    for (const result of results) {
+      const key = `${result.data.path.text}:${result.data.line_number}`;
+      if (!resultsByLocation.has(key)) {
+        resultsByLocation.set(key, []);
+      }
+      resultsByLocation.get(key).push(result);
+    }
+  }
+  const mergedResults = [];
+  for (const [key, locationResults] of resultsByLocation) {
+    if (locationResults.length === allResults.length) {
+      const firstResult = locationResults[0];
+      const mergedSubmatches = locationResults.flatMap(
+        (r) => r.data.submatches
+      );
+      mergedResults.push({
+        ...firstResult,
+        data: {
+          ...firstResult.data,
+          submatches: mergedSubmatches
+        }
+      });
+    }
+  }
+  return mergedResults;
+}
+
+// src/utils/ripgrep.ts
 var import_child_process = require("child_process");
-async function existsFd(cmd) {
+async function existsRg(cmd) {
   return new Promise((resolve, _) => {
     (0, import_child_process.execFile)(cmd, ["--version"], (error, _stdout, _stderr) => {
       if (error) {
@@ -8719,45 +8823,67 @@ async function existsFd(cmd) {
     });
   });
 }
-async function fd(cmd, ...args) {
-  return new Promise((resolve, reject) => {
+async function rg(cmd, ...args) {
+  return new Promise((resolve, _) => {
     (0, import_child_process.execFile)(
       cmd,
-      args,
-      { maxBuffer: 100 * 1024 * 1024 },
-      (_, stdout, _stderr) => {
-        if (_stderr) {
-          reject(_stderr);
+      ["--json", ...args],
+      { maxBuffer: 1024 * 1024 * 1024 },
+      (error, stdout, stderr) => {
+        if (error) {
+          if (error.message.includes("regex parse error")) {
+            resolve({
+              type: "error",
+              errorType: "regex_parse_error",
+              message: error.message
+            });
+            return;
+          }
+          console.error("ripgrep error:", error);
+          resolve([]);
           return;
         }
-        const results = stdout.split("\n").filter((x) => x);
+        const results = stdout.split("\n").filter((x) => x).map((x) => {
+          try {
+            return JSON.parse(x);
+          } catch (e) {
+            console.warn("JSON parse error for line:", x);
+            return null;
+          }
+        }).filter(
+          (x) => x !== null && x.type === "match"
+        );
         resolve(results);
       }
     );
   });
 }
-
-// src/utils/ripgrep.ts
-var import_child_process2 = require("child_process");
-async function existsRg(cmd) {
+async function rgFiles(cmd, queries, searchPath, extensions) {
   return new Promise((resolve, _) => {
-    (0, import_child_process2.execFile)(cmd, ["--version"], (error, _stdout, _stderr) => {
-      if (error) {
-        console.dir(error);
-      }
-      resolve(!error);
-    });
-  });
-}
-async function rg(cmd, ...args) {
-  return new Promise((resolve, _) => {
-    (0, import_child_process2.execFile)(
+    const filesArgs = [
+      "--files",
+      ...extensions.flatMap((x) => ["-t", x]),
+      searchPath
+    ].filter((x) => x);
+    (0, import_child_process.execFile)(
       cmd,
-      ["--json", ...args],
-      { maxBuffer: 100 * 1024 * 1024 },
-      (_2, stdout, _stderr) => {
-        const results = stdout.split("\n").filter((x) => x).map((x) => JSON.parse(x)).filter((x) => x.type === "match");
-        resolve(results);
+      filesArgs,
+      { maxBuffer: 1024 * 1024 * 1024 },
+      (error, stdout, stderr) => {
+        if (error) {
+          console.error("ripgrep files error:", error);
+          resolve([]);
+          return;
+        }
+        let files = stdout.split("\n").filter((x) => x);
+        for (const query of queries) {
+          if (!query.trim()) continue;
+          files = files.filter((filePath) => {
+            const basename2 = filePath.split("/").pop() || "";
+            return basename2.toLowerCase().includes(query.toLowerCase());
+          });
+        }
+        resolve(files);
       }
     );
   });
@@ -8907,42 +9033,87 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
     this.navigate(this.markClosed);
   }
   async searchSuggestions(query) {
-    var _a;
+    var _a, _b, _c, _d;
     const start = performance.now();
-    (_a = this.countInputEl) == null ? void 0 : _a.remove();
+    const absolutePathFromRoot = normalizeRelativePath(
+      this.basePath,
+      this.appHelper.getCurrentDirPath()
+    );
+    const queries = smartWhitespaceSplit(query.trim());
+    let rgResults;
+    for (const singleQuery of queries) {
+      if (!isValidRegex(singleQuery)) {
+        (_a = this.countInputEl) == null ? void 0 : _a.remove();
+        this.countInputEl = createDiv({
+          text: `Invalid regex pattern: ${singleQuery}`,
+          cls: "another-quick-switcher__grep__count-input another-quick-switcher__grep__count-input--error"
+        });
+        this.clonedInputEl.before(this.countInputEl);
+        return [];
+      }
+    }
+    (_b = this.countInputEl) == null ? void 0 : _b.remove();
     this.countInputEl = createDiv({
       text: "searching...",
       cls: "another-quick-switcher__grep__count-input"
     });
     this.clonedInputEl.before(this.countInputEl);
-    const absolutePathFromRoot = normalizeRelativePath(
-      this.basePath,
-      this.appHelper.getCurrentDirPath()
-    );
-    const rgResults = await rg(
-      this.settings.ripgrepCommand,
-      ...[
+    if (queries.length > 1) {
+      const allResults = [];
+      for (const singleQuery of queries) {
+        const results = await rg(
+          this.settings.ripgrepCommand,
+          ...[
+            ...this.settings.grepExtensions.flatMap((x) => ["-t", x]),
+            hasCapitalLetter(singleQuery) ? "" : "-i",
+            "--",
+            singleQuery,
+            `${this.vaultRootPath}/${absolutePathFromRoot}`
+          ].filter((x) => x)
+        );
+        if (Array.isArray(results)) {
+          allResults.push(results);
+        } else if (results.type === "error" && results.errorType === "regex_parse_error") {
+          (_c = this.countInputEl) == null ? void 0 : _c.remove();
+          this.countInputEl = createDiv({
+            text: `Invalid regex pattern: ${singleQuery}`,
+            cls: "another-quick-switcher__grep__count-input another-quick-switcher__grep__count-input--error"
+          });
+          this.clonedInputEl.before(this.countInputEl);
+          return [];
+        }
+      }
+      rgResults = mergeAndFilterResults(allResults);
+    } else {
+      const singleQuery = queries[0];
+      const rgArgs = [
         ...this.settings.grepExtensions.flatMap((x) => ["-t", x]),
-        hasCapitalLetter(query) ? "" : "-i",
+        hasCapitalLetter(singleQuery) ? "" : "-i",
         "--",
-        query,
+        singleQuery,
         `${this.vaultRootPath}/${absolutePathFromRoot}`
-      ].filter((x) => x)
-    );
-    const fdResults = this.settings.includeFilenameInGrepSearch ? await fd(
-      this.settings.fdCommand,
-      ...[
-        query,
-        "--absolute-path",
-        "--type",
-        "file",
-        "--type",
-        "symlink",
-        "--follow",
-        ...this.settings.grepExtensions.flatMap((x) => ["--extension", x]),
-        hasCapitalLetter(query) ? "--case-sensitive" : "",
-        `${this.vaultRootPath}/${absolutePathFromRoot}`
-      ].filter((x) => x)
+      ].filter((x) => x);
+      const results = await rg(this.settings.ripgrepCommand, ...rgArgs);
+      if (Array.isArray(results)) {
+        rgResults = results;
+      } else if (results.type === "error" && results.errorType === "regex_parse_error") {
+        (_d = this.countInputEl) == null ? void 0 : _d.remove();
+        this.countInputEl = createDiv({
+          text: `Invalid regex pattern: ${singleQuery}`,
+          cls: "another-quick-switcher__grep__count-input another-quick-switcher__grep__count-input--error"
+        });
+        this.clonedInputEl.before(this.countInputEl);
+        return [];
+      } else {
+        rgResults = [];
+      }
+    }
+    const fileResults = this.settings.includeFilenameInGrepSearch ? await rgFiles(
+      this.settings.ripgrepCommand,
+      queries,
+      // Use ALL queries for AND search
+      `${this.vaultRootPath}/${absolutePathFromRoot}`,
+      this.settings.grepExtensions
     ).catch((err) => {
       if (err.includes("regex parse error")) {
         return [];
@@ -8961,53 +9132,77 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
         line: x.data.lines.text,
         lineNumber: x.data.line_number,
         offset: x.data.absolute_offset,
-        submatches: x.data.submatches.map((x2) => ({
-          ...x2,
+        submatches: mergeOverlappingSubmatches(
+          convertSubmatchesToCharPositions(
+            x.data.submatches,
+            x.data.lines.text
+          ),
+          x.data.lines.text
+        ).map((submatch) => ({
+          ...submatch,
           type: "text"
         }))
       };
     }).filter((x) => x.file != null).sort(sorter((x) => x.file.stat.mtime, "desc"));
-    const regexpOption = hasCapitalLetter(query) ? "g" : "gi";
-    const fdItems = fdResults.map((x) => {
+    const fileItems = fileResults.map((filePath) => {
       const file = this.appHelper.getFileByPath(
-        normalizePath(x).replace(`${this.vaultRootPath}/`, "")
+        normalizePath(filePath).replace(`${this.vaultRootPath}/`, "")
       );
       if (!file) {
-        throw new Error(
-          `File not found for path: ${x} (basePath: ${this.basePath})`
+        return null;
+      }
+      const allMatches = [];
+      for (const query2 of queries) {
+        if (!query2.trim()) continue;
+        const regexpOption = hasCapitalLetter(query2) ? "g" : "gi";
+        const queryMatches = getSinglePatternMatchingLocations(
+          file.basename,
+          new RegExp(query2, regexpOption)
+        );
+        allMatches.push(
+          ...queryMatches.map((match) => ({
+            text: match.text,
+            start: match.range.start,
+            end: match.range.end
+          }))
         );
       }
-      const matches = getSinglePatternMatchingLocations(
-        file.basename,
-        new RegExp(query, regexpOption)
-      );
       return {
         order: -1,
         file,
         line: "",
         lineNumber: 0,
         offset: 0,
-        submatches: matches.map((x2) => ({
-          type: "title",
-          match: { text: x2.text },
-          start: x2.range.start,
-          end: x2.range.end
+        submatches: mergeOverlappingSubmatches(
+          allMatches.map((x) => ({
+            match: { text: x.text },
+            start: x.start,
+            end: x.end
+          })),
+          file.basename
+        ).map((submatch) => ({
+          ...submatch,
+          type: "title"
         }))
       };
     }).filter((x) => x != null).sort(sorter((x) => x.file.stat.mtime, "desc"));
     this.logger.showDebugLog("getSuggestions: ", start);
-    return fdItems.concat(rgItems).map((x, order) => ({ ...x, order }));
+    return fileItems.concat(rgItems).map((x, order) => ({ ...x, order }));
   }
   async getSuggestions(query) {
-    var _a;
+    var _a, _b;
     if (query) {
       this.suggestions = await this.searchSuggestions(query);
-      (_a = this.countInputEl) == null ? void 0 : _a.remove();
-      this.countInputEl = createDiv({
-        text: `${Math.min(this.suggestions.length, this.limit)} / ${this.suggestions.length}`,
-        cls: "another-quick-switcher__grep__count-input"
-      });
-      this.clonedInputEl.before(this.countInputEl);
+      if (!((_a = this.countInputEl) == null ? void 0 : _a.classList.contains(
+        "another-quick-switcher__grep__count-input--error"
+      ))) {
+        (_b = this.countInputEl) == null ? void 0 : _b.remove();
+        this.countInputEl = createDiv({
+          text: `${Math.min(this.suggestions.length, this.limit)} / ${this.suggestions.length}`,
+          cls: "another-quick-switcher__grep__count-input"
+        });
+        this.clonedInputEl.before(this.countInputEl);
+      }
     }
     return this.suggestions;
   }
@@ -9031,10 +9226,10 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
           extension: item.file.extension
         }
       });
-      let restLine2 = item.file.basename;
+      let restLine = item.file.basename;
       for (const x of item.submatches.filter((s) => s.type === "title")) {
-        const i = restLine2.indexOf(x.match.text);
-        const before = restLine2.slice(0, i);
+        const i = restLine.indexOf(x.match.text);
+        const before = restLine.slice(0, i);
         titleDiv.createSpan({
           text: before
         });
@@ -9042,10 +9237,10 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
           text: x.match.text,
           cls: "another-quick-switcher__hit_word"
         });
-        restLine2 = restLine2.slice(i + x.match.text.length);
+        restLine = restLine.slice(i + x.match.text.length);
       }
       titleDiv.createSpan({
-        text: restLine2
+        text: restLine
       });
       const isExcalidrawFile = isExcalidraw(item.file);
       if (item.file.extension !== "md" || isExcalidrawFile) {
@@ -9076,28 +9271,36 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
     const descriptionDiv = createDiv({
       cls: "another-quick-switcher__grep__item__description"
     });
-    let restLine = item.line;
-    for (const x of item.submatches.filter((s) => s.type === "text")) {
-      const i = restLine.indexOf(x.match.text);
-      const before = restLine.slice(0, i);
+    const textSubmatches = mergeOverlappingSubmatches(
+      item.submatches.filter((s) => s.type === "text"),
+      item.line
+    ).sort((a, b) => a.start - b.start);
+    let currentPos = 0;
+    for (const submatch of textSubmatches) {
+      if (submatch.start > currentPos) {
+        const beforeText = item.line.slice(currentPos, submatch.start);
+        descriptionDiv.createSpan({
+          text: trimLineByEllipsis(
+            beforeText,
+            this.settings.maxDisplayLengthAroundMatchedWord
+          )
+        });
+      }
+      descriptionDiv.createSpan({
+        text: submatch.match.text,
+        cls: "another-quick-switcher__hit_word"
+      });
+      currentPos = submatch.end;
+    }
+    if (currentPos < item.line.length) {
+      const remainingText = item.line.slice(currentPos);
       descriptionDiv.createSpan({
         text: trimLineByEllipsis(
-          before,
+          remainingText,
           this.settings.maxDisplayLengthAroundMatchedWord
         )
       });
-      descriptionDiv.createSpan({
-        text: x.match.text,
-        cls: "another-quick-switcher__hit_word"
-      });
-      restLine = restLine.slice(i + x.match.text.length);
     }
-    descriptionDiv.createSpan({
-      text: trimLineByEllipsis(
-        restLine,
-        this.settings.maxDisplayLengthAroundMatchedWord
-      )
-    });
     if (item.order < 9) {
       const hotKeyGuide = createSpan({
         cls: "another-quick-switcher__grep__item__hot-key-guide",
@@ -9146,6 +9349,53 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
       this.basePathInputEl.focus();
     } else {
       this.clonedInputEl.focus();
+    }
+  }
+  validateRegexInput() {
+    var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j;
+    const query = (_b = (_a = this.clonedInputEl) == null ? void 0 : _a.value) == null ? void 0 : _b.trim();
+    if (!query) {
+      (_c = this.clonedInputEl) == null ? void 0 : _c.classList.remove(
+        "another-quick-switcher__grep__input--invalid"
+      );
+      if ((_d = this.countInputEl) == null ? void 0 : _d.classList.contains(
+        "another-quick-switcher__grep__count-input--error"
+      )) {
+        (_e = this.countInputEl) == null ? void 0 : _e.remove();
+        this.countInputEl = void 0;
+      }
+      return;
+    }
+    const queries = smartWhitespaceSplit(query);
+    let hasInvalidRegex = false;
+    let invalidQuery = "";
+    for (const singleQuery of queries) {
+      if (!isValidRegex(singleQuery)) {
+        hasInvalidRegex = true;
+        invalidQuery = singleQuery;
+        break;
+      }
+    }
+    if (hasInvalidRegex) {
+      (_f = this.clonedInputEl) == null ? void 0 : _f.classList.add(
+        "another-quick-switcher__grep__input--invalid"
+      );
+      (_g = this.countInputEl) == null ? void 0 : _g.remove();
+      this.countInputEl = createDiv({
+        text: `Invalid regex pattern: ${invalidQuery}`,
+        cls: "another-quick-switcher__grep__count-input another-quick-switcher__grep__count-input--error"
+      });
+      this.clonedInputEl.before(this.countInputEl);
+    } else {
+      (_h = this.clonedInputEl) == null ? void 0 : _h.classList.remove(
+        "another-quick-switcher__grep__input--invalid"
+      );
+      if ((_i = this.countInputEl) == null ? void 0 : _i.classList.contains(
+        "another-quick-switcher__grep__count-input--error"
+      )) {
+        (_j = this.countInputEl) == null ? void 0 : _j.remove();
+        this.countInputEl = void 0;
+      }
     }
   }
   registerKeys(key, handler) {
@@ -9206,11 +9456,20 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
         () => {
           this.currentQuery = this.clonedInputEl.value;
           this.inputEl.value = this.currentQuery;
+          this.validateRegexInput();
           this.inputEl.dispatchEvent(new Event("input"));
         },
         this.settings.grepSearchDelayMilliSeconds,
         true
       );
+      this.clonedInputEl.addEventListener(
+        "input",
+        this.clonedInputElInputEventListener
+      );
+    } else {
+      this.clonedInputElInputEventListener = () => {
+        this.validateRegexInput();
+      };
       this.clonedInputEl.addEventListener(
         "input",
         this.clonedInputElInputEventListener
@@ -10232,6 +10491,59 @@ var LinkModal = class extends import_obsidian10.SuggestModal {
 // src/ui/MoveModal.ts
 var import_moment = __toESM(require_moment());
 var import_obsidian11 = require("obsidian");
+function mergeRanges2(ranges) {
+  if (ranges.length === 0) return [];
+  const sorted = [...ranges].sort((a, b) => a.start - b.start);
+  const merged = [];
+  let current = sorted[0];
+  for (let i = 1; i < sorted.length; i++) {
+    const next = sorted[i];
+    if (next.start <= current.end + 1) {
+      current = {
+        start: current.start,
+        end: Math.max(current.end, next.end)
+      };
+    } else {
+      merged.push(current);
+      current = next;
+    }
+  }
+  merged.push(current);
+  return merged;
+}
+function createHighlightedText2(text, ranges) {
+  const fragment = document.createDocumentFragment();
+  if (!ranges || ranges.length === 0) {
+    fragment.appendChild(document.createTextNode(text));
+    return fragment;
+  }
+  const mergedRanges = mergeRanges2(ranges);
+  let lastEnd = -1;
+  for (const range2 of mergedRanges) {
+    if (range2.start > lastEnd + 1) {
+      const beforeText = text.slice(lastEnd + 1, range2.start);
+      if (beforeText) {
+        fragment.appendChild(document.createTextNode(beforeText));
+      }
+    }
+    const highlightedText = text.slice(range2.start, range2.end + 1);
+    if (highlightedText) {
+      const highlightSpan = createSpan({
+        cls: "another-quick-switcher__hit_word",
+        text: highlightedText
+      });
+      fragment.appendChild(highlightSpan);
+    }
+    lastEnd = range2.end;
+  }
+  if (lastEnd + 1 < text.length) {
+    const remainingText = text.slice(lastEnd + 1);
+    if (remainingText) {
+      fragment.appendChild(document.createTextNode(remainingText));
+    }
+  }
+  return fragment;
+}
 function matchQuery3(item, query, matcher, isNormalizeAccentsDiacritics) {
   const qs = query.split("/");
   const folder = qs.pop();
@@ -10252,21 +10564,35 @@ function matchQueryAll3(item, queries, matcher, isNormalizeAccentsDiacritics) {
   );
 }
 function stampMatchType2(item, queries, isNormalizeAccentsDiacritics) {
-  if (matchQueryAll3(
-    item,
-    queries,
-    (item2, query) => smartStartsWith(item2.folder.name, query, isNormalizeAccentsDiacritics),
+  var _a;
+  const combinedQuery = queries.join(" ");
+  const fuzzyResult = smartMicroFuzzy(
+    item.folder.name,
+    combinedQuery,
     isNormalizeAccentsDiacritics
-  )) {
-    return { ...item, matchType: "prefix-name" };
-  }
-  if (matchQueryAll3(
-    item,
-    queries,
-    (item2, query) => smartIncludes(item2.folder.name, query, isNormalizeAccentsDiacritics),
-    isNormalizeAccentsDiacritics
-  )) {
-    return { ...item, matchType: "name" };
+  );
+  switch (fuzzyResult.type) {
+    case "starts-with":
+      return {
+        ...item,
+        matchType: "prefix-name",
+        score: fuzzyResult.score,
+        ranges: fuzzyResult.ranges
+      };
+    case "includes":
+      return {
+        ...item,
+        matchType: "name",
+        score: fuzzyResult.score,
+        ranges: fuzzyResult.ranges
+      };
+    case "fuzzy":
+      return {
+        ...item,
+        matchType: "fuzzy-name",
+        score: fuzzyResult.score,
+        ranges: fuzzyResult.ranges
+      };
   }
   if (matchQueryAll3(
     item,
@@ -10274,13 +10600,53 @@ function stampMatchType2(item, queries, isNormalizeAccentsDiacritics) {
     (item2, query) => smartIncludes(item2.folder.path, query, isNormalizeAccentsDiacritics),
     isNormalizeAccentsDiacritics
   )) {
-    return { ...item, matchType: "directory" };
+    const parentName = ((_a = item.folder.parent) == null ? void 0 : _a.name) || "";
+    const directoryFuzzyResult = smartMicroFuzzy(
+      parentName,
+      combinedQuery,
+      isNormalizeAccentsDiacritics
+    );
+    return {
+      ...item,
+      matchType: "directory",
+      directoryRanges: directoryFuzzyResult.ranges
+    };
   }
   return item;
+}
+function stampRecentlyUsed(item, recentFolders) {
+  const index = recentFolders.indexOf(item.folder.path);
+  if (index !== -1) {
+    return {
+      ...item,
+      isRecentlyUsed: true,
+      recentlyUsedIndex: index
+    };
+  }
+  return item;
+}
+function sortFolders(items, priority) {
+  return items.sort((a, b) => {
+    var _a, _b;
+    switch (priority) {
+      case "Recently used": {
+        const aIndex = (_a = a.recentlyUsedIndex) != null ? _a : 999999;
+        const bIndex = (_b = b.recentlyUsedIndex) != null ? _b : 999999;
+        return aIndex - bIndex;
+      }
+      case "Alphabetical":
+        return a.folder.name.localeCompare(b.folder.name);
+      case "Alphabetical reverse":
+        return b.folder.name.localeCompare(a.folder.name);
+      default:
+        return 0;
+    }
+  });
 }
 var MoveModal = class extends import_obsidian11.SuggestModal {
   constructor(app, settings) {
     super(app);
+    this.recentFolders = [];
     this.modalEl.addClass("another-quick-switcher__modal-prompt");
     this.appHelper = new AppHelper(app);
     this.settings = settings;
@@ -10294,16 +10660,61 @@ var MoveModal = class extends import_obsidian11.SuggestModal {
       (x) => x.folder.path
     );
   }
+  async onOpen() {
+    await this.loadRecentlyUsedFolders();
+    super.onOpen();
+  }
+  getRecentlyUsedFilePath() {
+    return this.settings.moveFileRecentlyUsedFilePath || ".obsidian/plugins/obsidian-another-quick-switcher/recently-used-folders.json";
+  }
+  async loadRecentlyUsedFolders() {
+    const filePath = this.getRecentlyUsedFilePath();
+    try {
+      if (await this.app.vault.adapter.exists(filePath)) {
+        const content = await this.app.vault.adapter.read(filePath);
+        this.recentFolders = JSON.parse(content);
+      }
+    } catch (error) {
+      console.warn("Failed to load recently used folders:", error);
+      this.recentFolders = [];
+    }
+  }
+  async saveRecentlyUsedFolders() {
+    const filePath = this.getRecentlyUsedFilePath();
+    try {
+      const dir = filePath.substring(0, filePath.lastIndexOf("/"));
+      if (!await this.app.vault.adapter.exists(dir)) {
+        await this.app.vault.adapter.mkdir(dir);
+      }
+      await this.app.vault.adapter.write(
+        filePath,
+        JSON.stringify(this.recentFolders, null, 2)
+      );
+    } catch (error) {
+      console.warn("Failed to save recently used folders:", error);
+    }
+  }
+  async updateRecentlyUsedFolder(folderPath) {
+    const index = this.recentFolders.indexOf(folderPath);
+    if (index > -1) {
+      this.recentFolders.splice(index, 1);
+    }
+    this.recentFolders.unshift(folderPath);
+    if (this.recentFolders.length > this.settings.moveFileMaxRecentlyUsedFolders) {
+      this.recentFolders.pop();
+    }
+    await this.saveRecentlyUsedFolders();
+  }
   getSuggestions(query) {
     const qs = query.split(" ").filter((x) => x);
-    return this.filteredItems.map(
+    const matchedItems = this.filteredItems.map(
       (x) => stampMatchType2(x, qs, this.settings.normalizeAccentsAndDiacritics)
-    ).filter((x) => x.matchType).sort(sorter((x) => x.matchType === "directory" ? 1 : 0)).sort(
-      sorter(
-        (x) => x.matchType === "prefix-name" ? 1e3 - x.folder.name.length : 0,
-        "desc"
-      )
-    ).slice(0, 10);
+    ).filter((x) => x.matchType).map((x) => stampRecentlyUsed(x, this.recentFolders));
+    const sortedItems = sortFolders(
+      matchedItems,
+      this.settings.moveFolderSortPriority
+    );
+    return sortedItems.slice(0, 10);
   }
   renderSuggestion(item, el) {
     var _a;
@@ -10317,15 +10728,29 @@ var MoveModal = class extends import_obsidian11.SuggestModal {
       cls: "another-quick-switcher__item__entry"
     });
     const folderDiv = createDiv({
-      cls: "another-quick-switcher__item__title",
-      text: item.folder.name
+      cls: "another-quick-switcher__item__title"
     });
+    const highlightedContent = createHighlightedText2(
+      item.folder.name,
+      item.ranges
+    );
+    folderDiv.appendChild(highlightedContent);
     entryDiv.appendChild(folderDiv);
     const directoryDiv = createDiv({
       cls: "another-quick-switcher__item__directory"
     });
     directoryDiv.insertAdjacentHTML("beforeend", FOLDER);
-    directoryDiv.appendText(` ${(_a = item.folder.parent) == null ? void 0 : _a.name}`);
+    const parentName = ((_a = item.folder.parent) == null ? void 0 : _a.name) || "";
+    if (item.matchType === "directory" && item.directoryRanges) {
+      directoryDiv.appendText(" ");
+      const directoryHighlightedContent = createHighlightedText2(
+        parentName,
+        item.directoryRanges
+      );
+      directoryDiv.appendChild(directoryHighlightedContent);
+    } else {
+      directoryDiv.appendText(` ${parentName}`);
+    }
     entryDiv.appendChild(directoryDiv);
     itemDiv.appendChild(entryDiv);
     el.appendChild(itemDiv);
@@ -10344,6 +10769,7 @@ var MoveModal = class extends import_obsidian11.SuggestModal {
       );
     }
     await this.app.fileManager.renameFile(activeFile, newPath);
+    await this.updateRecentlyUsedFolder(item.folder.path);
   }
   registerKeys(key, handler) {
     var _a;
@@ -10429,12 +10855,6 @@ async function showGrepDialog(app, settings, initialQuery) {
   if (!await existsRg(settings.ripgrepCommand)) {
     new import_obsidian12.Notice(
       `"${settings.ripgrepCommand}" was not working as a ripgrep command. If you have not installed ripgrep yet, please install it.`
-    );
-    return;
-  }
-  if (settings.includeFilenameInGrepSearch && !await existsFd(settings.fdCommand)) {
-    new import_obsidian12.Notice(
-      `"${settings.fdCommand}" was not working as a fd command. If you have not installed fd yet, please install it.`
     );
     return;
   }

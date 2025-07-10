@@ -270,7 +270,7 @@
   "devMode": false,
   "templateFolderPath": "Atlas/Knowledge/templates",
   "announceUpdates": true,
-  "version": "1.17.0",
+  "version": "1.18.1",
   "disableOnlineFeatures": false,
   "enableRibbonIcon": false,
   "ai": {

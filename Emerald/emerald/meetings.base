@@ -8,6 +8,7 @@ formulas:
   "has passed ": if(scheduled < now(), '✅', '🕧')
   my folder: ""
   schedule_date: scheduled.date() == today()
+  relative: scheduled.relative()
 properties:
   "formula.has passed ":
     displayName: passed
@@ -21,7 +22,7 @@ views:
       - "formula.has passed "
     sort:
       - property: scheduled
-        direction: DESC
+        direction: ASC
       - property: formula.is today
         direction: DESC
       - property: formula.schedule_date
@@ -31,30 +32,36 @@ views:
       - property: formula.my folder
         direction: DESC
     columnSize:
-      file.name: 332
-      note.scheduled: 241
+      note.scheduled: 282
+      file.name: 290
       formula.is today: 136
       "formula.has passed ": 107
   - type: table
     name: today
     filters:
-      and:
-        - formula["is today"] == "🚩"
+      not:
+        - scheduled.date() < today()
+        - scheduled.date() > today()
     order:
-      - scheduled
-      - file.name
       - "formula.has passed "
+      - file.name
+      - formula.relative
     sort:
-      - property: participants
+      - property: formula.relative
         direction: ASC
       - property: scheduled
+        direction: DESC
+      - property: "formula.has passed "
+        direction: ASC
+      - property: participants
         direction: ASC
       - property: property.related
         direction: ASC
     columnSize:
+      "formula.has passed ": 104
+      file.name: 232
+      formula.relative: 145
       note.scheduled: 247
-      file.name: 303
-      "formula.has passed ": 310
   - type: cards
     name: 1 on 1s
     filters:

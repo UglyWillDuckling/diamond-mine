@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiSquareCheckBig",
+      "LiHandshake",
+      "🗨",
       "LiCookingPot",
-      "LiCheck",
-      "🫂",
-      "⛑",
-      "🍀"
+      "LiCheck"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,32 +34,17 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "work/tickets": "LiTicket",
   "work/docs": "LiArchive",
-  "work/notes": "📔",
-  "work/tickets/SPIKE's/SPIKE - myTileCache migration to VectorTile?.md": "LiMousePointer2",
   "tasks/obsidian": "LiGem",
   "work/docs/CRM": "👑",
-  "work/tickets/archive": "LiArchiveX",
-  "work/tickets/chores": "LiShovel",
-  "work/tickets/FEAT": "LiStars",
-  "work/tickets/SPIKE's": "✏",
-  "work/tickets/chores/update README.md": "LiFileText",
-  "work/notes/archive/SLMP will be multi-lingual.md": "LiLanguages",
-  "work/notes/archive/povezivanje na gcloud computer masinu.md": "☁",
-  "work/notes/archive": "🗃",
-  "work/tickets/archive/Interlocutor's name not shown.md": "🗯",
   "notes/obsidian/layout plugin looks perfect.md": {
     "iconName": "LiLayout",
     "iconColor": "#dd731d"
   },
-  "work/notes/archive/MA dev env URL.md": "LiCurlyBraces",
-  "work/notes/archive/Millions of euros for a buy in France.md": "🇫🇷",
   "work/docs/concepts": {
     "iconName": "LiShapes",
     "iconColor": "#e5b42e"
   },
-  "work/tickets/archive/Wysiwyg replacement.md": "LiPawPrint",
   "work/docs/how to": {
     "iconName": "LiStepForward",
     "iconColor": "#30a6b5"
@@ -87,60 +72,15 @@
     "iconName": "LiPhoneIncoming",
     "iconColor": "#d534c0"
   },
-  "work/Projects": "LiProjector",
-  "work/tickets/chores/setup commit verification locally.md": "LiGitCommit",
   "work/docs/backyard/Infra": "LiTrainFront",
   "work/docs/backyard/tools/Diabolocom.md": "🦹‍♀️",
-  "work/tickets/chores/see how crons are handled on the backyard.md": "LiTimer",
   "work/docs/infra/PR's.md": "LiGitPullRequest",
   "Clippings": "LiClipboard",
   "Clippings/Order James Baldwin books.md": {
     "iconName": "LiBookUser",
     "iconColor": "#9024ae"
   },
-  "work/tickets/archive/Diabolocom - legacy cleanup.md": "🦹",
-  "work/tickets/chores/Update Diabolocom deprecated csv file export.md": "🧛",
-  "work/notes/archive/LUNA team has its own argocd pipeline setup.md": {
-    "iconName": "LiMoon",
-    "iconColor": "#878787"
-  },
-  "work/notes/archive/db restore.md": "LiDatabase",
-  "Dashboard.md": {
-    "iconName": "LiClipboardList",
-    "iconColor": "#e68a0a"
-  },
   "+/barefoot.md": "👞",
-  "work/notes/archive/deploy na tasks je dosta brz.md": "LiRocket",
-  "work/notes/archive/test - test on backyard have 2 db's.md": {
-    "iconName": "LiTestTube2",
-    "iconColor": "#218358"
-  },
-  "work/notes/archive/test are run using a test Makefile.md": "LiTestTube2",
-  "work/notes/fun": "🎴",
-  "work/tickets/archive/Project creation from Lead": "📽",
-  "work/tickets/archive/Project creation from Lead/Use lead for project creation.md": "LiCreateGroup",
-  "work/tickets/archive/Project creation from Lead/docs,diagrams, etc.": "LiWorkflow",
-  "work/tickets/archive/Project creation from Lead/subs": "LiListTree",
-  "work/tickets/archive/Project creation from Lead/docs,diagrams, etc./Important.md": "❗",
-  "work/tickets/archive/Project creation from Lead/docs,diagrams, etc./glossary or concept": "LiClipboardList",
-  "work/tickets/archive/Project creation from Lead/subs/UI test solution": "🔶",
-  "work/tickets/archive/Project creation from Lead/subs/archive": "🗃",
-  "work/tickets/archive/Project creation from Lead/subs/Long-term solution": "🌄",
-  "work/tickets/archive/Project creation from Lead/docs,diagrams, etc./diagrams/Process of creating a new project.md": "LiSword",
-  "work/tickets/archive/Project creation from Lead/docs,diagrams, etc./diagrams/sequence - estima processing creation.md": "LiFolderGit",
-  "work/tickets/archive/Project creation from Lead/docs,diagrams, etc./glossary or concept/estima.md": "🐣",
-  "work/tickets/archive/Project creation from Lead/docs,diagrams, etc./glossary or concept/iris.md": "🟣",
-  "work/tickets/archive/Project creation from Lead/docs,diagrams, etc./glossary or concept/transaction.md": "LiDollarSign",
-  "work/tickets/archive/Project creation from Lead/subs/UI test solution/UI test lead fix.md": "🔶",
-  "work/tickets/archive/Project creation from Lead/subs/Long-term solution/Lead Processing Rewrite.md": "LiShapes",
-  "work/tickets/archive/Project creation from Lead/subs/Long-term solution/Make script to compare transactions.md": "LiSubscript",
-  "work/tickets/archive/Project creation from Lead/subs/Long-term solution/add source field on project.md": "LiFlower",
-  "work/tickets/archive/Project creation from Lead/subs/archive/Gather information on the transition.md": "ℹ",
-  "work/tickets/archive/Project creation from Lead/subs/archive/check that lead id is ahead of estima id.md": "🆔",
-  "work/tickets/archive/Project creation from Lead/subs/archive/fix commits.md": "LiGithub",
-  "work/tickets/archive/Project creation from Lead/subs/Long-term solution/estima processing/fix main test.md": "🧪",
-  "work/tickets/archive/Project creation from Lead/subs/Long-term solution/estima processing/study estima processing.md": "🎓",
-  "work/tickets/archive/Project creation from Lead/subs/Long-term solution/estima processing/usage 🍏 🌕.md": "🟩",
   "Efforts/tasks": "LiCheckSquare2",
   "Efforts/tasks/archive": "LiArchive",
   "Efforts/tasks/dev": "⌨",
@@ -190,11 +130,6 @@
   "Efforts/Active/Obsidian Tinkering/Obsidian Tinkering.md": "♦",
   "Efforts/Active/Obsidian Tinkering/docs": "LiFile",
   "work/docs/concepts/Real Estate Project.md": "LiProjector",
-  "work/Projects/LUQA": {
-    "iconName": "LiCrown",
-    "iconColor": "#ecbe18"
-  },
-  "work/notes/archive/Christmas Party.md": "🎄",
   "work/bugs/archive/XSS - extranet": {
     "iconName": "LiSquareCode",
     "iconColor": "#f24545"
@@ -348,12 +283,6 @@
   "Atlas/Knowledge/notes/discovery/dev/KDE/switching alt+win is under keyboard settings.md": "LiKeyboard",
   "~/% tmpl/templater/created.md": "LiTimer",
   "~/% tmpl/templater/arch call listing prev.md": "LiBox",
-  "work/Projects/LUQA/docs": "LiDock",
-  "work/Projects/Backyard": {
-    "iconName": "LiFlower",
-    "iconColor": "#11c804"
-  },
-  "work/Projects/LUQA/howtos": "🗒",
   "work/bugs/archive/Security issue - General file access, passerell/Security issue - General file access, passerell.md": "LiAlertOctagon",
   "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../2) HTML, The Browser, and the DOM.md": "LiTrees",
   "Atlas/Knowledge/Education/React/Alicea Course/DOM and Declarative.../1) HTML and Trees.md": "LiTreePine",
@@ -362,77 +291,7 @@
   "~/% tmpl/pages/movie.md": "🎥",
   "Atlas/Knowledge/Education/React/react study.md": "LiAtom",
   "work/bugs/archive/investigate estima - lead call - lead window -lead connection.md": "LiLink2off",
-  "work/Projects/Backyard/Features/QSL listing feature": {
-    "iconName": "LiListPlus",
-    "iconColor": "#a349bc"
-  },
-  "work/Projects/Backyard/Features/QSL listing feature/QSL listing feature.md": "LiList",
-  "work/Projects/Backyard/Features/QSL listing feature/archive": "LiArchive",
-  "work/Projects/Backyard/Features/QSL listing feature/docs": "LiFolder",
-  "work/Projects/Backyard/Features/QSL listing feature/archive/QSL - missing links issue.md": {
-    "iconName": "LiBrokenLink",
-    "iconColor": "#ec0909"
-  },
-  "work/Projects/Backyard/Features/QSL listing feature/archive/archive": {
-    "iconName": "LiArchive",
-    "iconColor": "#878787"
-  },
-  "work/Projects/Backyard/Features/QSL listing feature/archive/frontend implementation.md": "🖼",
-  "work/Projects/Backyard/Features/QSL listing feature/archive/missing icon.md": "🦄",
-  "work/Projects/Backyard/Features/QSL listing feature/archive/qsl dev aws import test.md": "🧪",
-  "work/Projects/Backyard/Features/QSL listing feature/archive/refactoring of configuration.md": "🏬",
-  "work/Projects/Backyard/Features/QSL listing feature/archive/research how to add a cronjob.md": "LiClock",
-  "work/Projects/Backyard/Features/QSL listing feature/archive/archive/Create DB table.md": {
-    "iconName": "LiTable",
-    "iconColor": "#5729ae"
-  },
-  "work/Projects/Backyard/Features/QSL listing feature/archive/archive/build the interface.md": "LiFacebook",
-  "work/Projects/Backyard/Features/QSL listing feature/archive/archive/build the model.md": {
-    "iconName": "LiToyBrick",
-    "iconColor": "#c24bd2"
-  },
-  "work/Projects/Backyard/Features/QSL listing feature/archive/archive/spike - qsl project.md": "✏",
-  "work/Projects/Backyard/Features/QSL listing feature/docs/code/aws test script solution.canvas": "LiSubscript",
-  "work/Projects/Backyard/Features/QSL listing feature/docs/features/CSV import.md": {
-    "iconName": "LiTable",
-    "iconColor": "#20974a"
-  },
-  "work/Projects/Backyard/Features/QSL listing feature/archive/subs": "LiBaby",
-  "work/Projects/Backyard/Features/QSL listing feature/archive/subs/AWS connection": "🗽",
-  "work/Projects/Backyard/Features/QSL listing feature/archive/subs/Online status update.md": "🔗",
-  "work/Projects/Backyard/Features/QSL listing feature/archive/subs/cronjob implementation.md": "LiClock",
-  "work/Projects/Backyard/Features/QSL listing feature/archive/subs/AWS connection/AWS connection.md": "🗽",
-  "work/Projects/Backyard/Features/QSL listing feature/archive/subs/AWS connection/AWS import.md": "🗽",
-  "work/Projects/Backyard/Features/QSL listing feature/how to's/how to check(test) cron backyard-tasks.md": "LiTestTube",
-  "work/Projects/Backyard/Features/QSL listing feature/how to's/how to run the qsl import on tasks.md": "LiImport",
-  "work/Projects/Backyard/Features/QSL listing feature/how to's/where to find the listings atm.md": "🔍",
-  "work/Projects/Backyard/Features/QSL listing feature/docs/code/table docs.md": "LiPencil",
-  "work/Projects/Backyard/Features/QSL listing feature/docs/code": "LiCode",
-  "work/Projects/Backyard/Features/QSL listing feature/archive/requirements/required fields.md": "⚠",
-  "work/people": {
-    "iconName": "LiPersonStanding",
-    "iconColor": "#ca3f77"
-  },
-  "work/people/Corentin.md": {
-    "iconName": "LiPaintbrush",
-    "iconColor": "#ff52a5"
-  },
-  "work/people/SRE.md": "LiBringToFront",
-  "work/people/LUNA/Danijela.md": "🫐",
-  "work/people/LUNA/Natasa Bozic.md": "👧",
-  "work/people/LUNA/Paulo Baskovic.md": "LiBike",
-  "work/people/LUNA/luna team.md": "LiMoonStar",
-  "work/people/NOVA/Yoan Haouzi.md": "🍟",
-  "work/Projects/Backyard/Features/QSL listing feature/how to's": "▶",
-  "work/Projects/Backyard/Features/QSL listing feature/how to's/how to get GCP token.md": "LiCoins",
-  "work/Projects/Backyard/Features/QSL listing feature/docs/artifacts": "🎨",
-  "work/Projects/Backyard/Features/QSL listing feature/docs/artifacts/cronjob test.md": "🎨",
-  "work/Projects/Backyard/Features/QSL listing feature/docs/features/CSV QSL Export Feature.md": {
-    "iconName": "LiSheet",
-    "iconColor": "#19b385"
-  },
   "work/bugs/qsl import issue - missing pagination/qsl import issue - missing pagination.md": "📟",
-  "work/Projects/Backyard/Features/QSL listing feature/archive/Notes on prod deploy of QSL.md": "LiNotebookText",
   "Efforts/Active/execute program - python for programmers course/execute program - python for programmers course.md": "🐍",
   "Efforts/Active/execute program - python for programmers course": "🐍",
   "Atlas/tools": "LiWrench",
@@ -455,10 +314,9 @@
   "Atlas/people/Martin Fowler.md": "🖌",
   "Atlas/people/Rebecca Wirfs-Brock.md": "👥",
   "work/docs/backyard/database": "🥞",
-  "work/tickets/FEAT/Transac Zones update ticket/Handle usage of biz_product_coverage table.md": "🍀",
   "work": "⛑",
   "MOC/People MOC.md": "🫂",
-  "work/meetings": "LiPhoneCall",
+  "work/meetings": "🗨",
   "work/meetings/CRM": {
     "iconName": "LiCrown",
     "iconColor": "#d5c620"
@@ -485,5 +343,7 @@
   "work/meetings/_archive/backyard/ Paulo WIF and GCP.md": "LiPhoneCall",
   "work/meetings/_archive/backyard/Project creation call.md": "LiProjector",
   "Efforts/Done": "LiCheck",
-  "Efforts/Simmering": "LiCookingPot"
+  "Efforts/Simmering": "LiCookingPot",
+  "meetings.base": "LiHandshake",
+  "tasks canvas.canvas": "LiSquareCheckBig"
 }

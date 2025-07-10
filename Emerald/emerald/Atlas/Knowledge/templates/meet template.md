@@ -1,10 +1,8 @@
 ---
 type: meeting
 meeting type: "{{FIELD:meeting_type}}"
-created:
-  "{ DATE }":
-scheduled:
-  "{ VDATE:scheduled, YYYY-MM-DDTHH:mm:ss }":
+created: "{{DATE}}"
+scheduled: "{{VDATE:scheduled, YYYY-MM-DDTHH:mm:ss}}"
 related:
 previous:
 agenda:
@@ -13,9 +11,6 @@ tags:
   - meet
 ---
 From: {{LINKCURRENT}}
-
-schedule date: {{VDATE:scheduled,YYYY-MM-DDTHH:mm:ss}}
-
 ___
 ## who?
 
@@ -30,11 +25,12 @@ ___
 
 ## notes 🗒
 
-selected text: {{selected}}
+{{selected}}
+
 ___
 ### suggest
 
-- [ ] #task use multiselect to choose **multiple** items from the vault
+- [ ] #task use `multiselect` to choose **multiple** items from the vault
 	- [ ] think about **filtering** the files first
 	- [ ] **build** the the strings at the bottom
 

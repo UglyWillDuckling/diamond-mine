@@ -26,3 +26,7 @@ if(scheduled < now(), '✅', '🕧')
 ```js
 if(scheduled.date() == today(), '🚩', '📅')
 ```
+
+```js
+if(scheduled == today(), '🚩', '📅')
+```

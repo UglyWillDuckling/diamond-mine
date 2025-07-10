@@ -1,19 +1,16 @@
 ---
 type: meeting
 meeting type: "1on1"
-created: 2025-07-09
-scheduled: 2025-07-09T11:35:03
+created: "2025-07-10"
+scheduled: "2025-07-10T11:51:38"
 related:
 previous:
 agenda:
-participants:
+participants: []
 tags:
   - meet
 ---
 From: [[meet template]]
-
-schedule date: 2025-07-09T11:35:03
-
 ___
 ## who?
 
@@ -32,7 +29,8 @@ selected text:
 ___
 ### suggest
 
+- [ ] #task use multiselect to choose **multiple** items from the vault
+	- [ ] think about **filtering** the files first
+	- [ ] **build** the the strings at the bottom
 
-
-### checkbox prompt
-
+[[~/x/Dann Bergs Daily Note.md]]

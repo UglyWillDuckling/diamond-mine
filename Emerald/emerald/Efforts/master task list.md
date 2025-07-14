@@ -2,10 +2,11 @@
 
 ### ✔ New
 
-- [/] #task see if you can [[integrate the graph into daily work]] #regular #daily 🆔 PtVCWN 🔼 🛫 2025-06-13 ⏳ 2025-06-16 📅 2025-07-09
+- [/] #task see if you can [[integrate the graph into daily work]] #regular #daily 🆔 PtVCWN 🔼 🛫 2025-06-13 ⏳ 2025-06-16 📅 2025-07-11
 - [ ] #task update **PHPStorm** license 🔼 ⏳ 2025-07-11 📅 2025-07-11 🆔 cjAAoj
-- [ ] #task Learn [[Morgen]] some more - built in lessons 🔼 🛫 2025-06-27 ⏳ 2025-06-27 📅 2025-07-14 🆔 LhXKdN
+- [ ] #task Learn [[Morgen]] some more - built in lessons 🔼 🛫 2025-06-27 ⏳ 2025-06-27 📅 2025-07-17 🆔 LhXKdN
 - [x] #task add back the TODO configuration in Nvim ⏳ 2025-06-17 📅 2025-06-18 🆔 24xvlW ✅ 2025-06-18
+- [ ] #task start using templater for small tasks 🔼 ⏳ 2025-07-11 📅 2025-07-17 🆔 sx4AXR
 ### repeat 🔁
 
 - [ ] #task review reminders 🔁 every 2 weeks ⏳ 2025-07-18 📅 2025-07-18 🆔 sV5f3L

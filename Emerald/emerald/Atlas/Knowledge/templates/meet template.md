@@ -15,6 +15,7 @@ ___
 ## who?
 
 `=this.participants`
+
 ## why?
 > what caused this to happen, why do we need to have this meeting?
 
@@ -30,7 +31,7 @@ ___
 ___
 ### suggest
 
-- [ ] #task use `multiselect` to choose **multiple** items from the vault
+- [ ] #task use `multiselect` to choose **multiple** items from the vault 🆔 OlQqFg
 	- [ ] think about **filtering** the files first
 	- [ ] **build** the the strings at the bottom
 

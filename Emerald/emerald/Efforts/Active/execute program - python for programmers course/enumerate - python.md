@@ -1,6 +1,14 @@
-#function
-
- Here's an example:
+---
+part of:
+  - "[[python programming language]]"
+related:
+  - "[[Enumerate Function]]"
+quality: 8
+value: 7
+interest: 6
+tags:
+  - function
+---
 
     fruits = ['apple', 'banana', 'cherry']
     for i, fruit in enumerate(fruits):

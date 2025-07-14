@@ -4,6 +4,8 @@
   "historyPriority": true,
   "historyLimit": 200,
   "history": [
+    ":coffee:",
+    ":rainbow_flag:",
     ":100:",
     ":vertical_traffic_light:",
     ":snake:",
@@ -30,7 +32,6 @@
     ":books:",
     ":pick:",
     ":baby_chick:",
-    ":coffee:",
     ":clock1230:",
     ":closed_lock_with_key:",
     ":musical_note:",
@@ -202,7 +203,6 @@
     ":sweat_smile:",
     ":currency_exchange:",
     ":headphones:",
-    ":paperclip:",
-    ":rugby_football:"
+    ":paperclip:"
   ]
 }

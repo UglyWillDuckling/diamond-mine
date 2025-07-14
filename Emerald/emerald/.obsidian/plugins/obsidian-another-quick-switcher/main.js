@@ -5222,6 +5222,9 @@ var AppHelper = class {
       (x) => x.startsWith(manifestId)
     );
   }
+  getNormalizeVaultRootPath() {
+    return normalizePath(this.unsafeApp.vault.adapter.basePath);
+  }
   getPathToBeCreated(linkText) {
     var _a, _b, _c;
     let linkPath = (0, import_obsidian.getLinkpath)(linkText);
@@ -5896,6 +5899,8 @@ var createDefaultHotkeys = () => ({
     "navigate forward": [{ modifiers: ["Alt"], key: "ArrowRight" }],
     "navigate back": [{ modifiers: ["Alt"], key: "ArrowLeft" }],
     "close if opened": [],
+    "copy file vault path": [],
+    "copy absolute file path": [],
     "launch grep": [],
     dismiss: [{ modifiers: [], key: "Escape" }]
   },
@@ -8211,6 +8216,33 @@ var AnotherQuickSwitcherModal = class _AnotherQuickSwitcherModal extends import_
       const currentQuery = this.inputEl.value.trim();
       await this.safeClose();
       await showGrepDialog(this.app, this.settings, currentQuery || void 0);
+    });
+    this.registerKeys("copy file vault path", async () => {
+      var _a;
+      const item = (_a = this.chooser.values) == null ? void 0 : _a[this.chooser.selectedItem];
+      if (!item) {
+        return;
+      }
+      try {
+        await navigator.clipboard.writeText(item.file.path);
+        new import_obsidian4.Notice("Vault path copied to clipboard");
+      } catch (error) {
+        new import_obsidian4.Notice("Failed to copy vault path to clipboard");
+      }
+    });
+    this.registerKeys("copy absolute file path", async () => {
+      var _a;
+      const item = (_a = this.chooser.values) == null ? void 0 : _a[this.chooser.selectedItem];
+      if (!item) {
+        return;
+      }
+      try {
+        const basePath = this.appHelper.getNormalizeVaultRootPath();
+        await navigator.clipboard.writeText(`${basePath}/${item.file.path}`);
+        new import_obsidian4.Notice("Absolute file path copied to clipboard");
+      } catch (error) {
+        new import_obsidian4.Notice("Failed to copy absolute file path to clipboard");
+      }
     });
     this.registerKeys("dismiss", async () => {
       this.close();

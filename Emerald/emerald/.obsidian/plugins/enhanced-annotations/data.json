@@ -40,7 +40,7 @@
           }
         },
         "1749558670625": {
-          "label": "interesting",
+          "label": "int",
           "id": "1749558670625",
           "enableStyle": true,
           "style": {
@@ -50,7 +50,7 @@
           }
         },
         "1749559119699": {
-          "label": "valuable",
+          "label": "val",
           "id": "1749559119699",
           "enableStyle": true,
           "style": {
@@ -60,7 +60,7 @@
           }
         },
         "1749560533303": {
-          "label": "important",
+          "label": "imp",
           "id": "1749560533303",
           "enableStyle": true,
           "style": {
@@ -69,14 +69,14 @@
             "fontWeight": "bold"
           }
         },
-        "1751619787377": {
-          "label": "!",
-          "id": "1751619787377",
+        "1752233342502": {
+          "label": "think",
+          "id": "1752233342502",
           "enableStyle": true,
           "style": {
-            "color": "#656535",
+            "color": "#ff5e29",
             "italic": true,
-            "fontWeight": "thin"
+            "underline": true
           }
         }
       },
@@ -92,7 +92,7 @@
   },
   "outline": {
     "fontSize": 12,
-    "showLabelsFilter": false,
+    "showLabelsFilter": true,
     "showSearchInput": false,
     "hiddenLabels": [],
     "hiddenTypes": []
@@ -113,11 +113,7 @@
     "truncateFileName": true
   },
   "idling": {
-    "daysUnused": [
-      "2025-07-08",
-      "2025-07-09",
-      "2025-07-10"
-    ]
+    "daysUnused": []
   },
   "clipboard": {
     "templates": {

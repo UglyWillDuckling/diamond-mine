@@ -59,9 +59,8 @@ views:
         direction: ASC
     columnSize:
       "formula.has passed ": 104
-      file.name: 232
+      file.name: 237
       formula.relative: 145
-      note.scheduled: 247
   - type: cards
     name: 1 on 1s
     filters:

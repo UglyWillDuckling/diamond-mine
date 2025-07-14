@@ -55,7 +55,7 @@ When we only need a stack, using a list with .pop and .append is more clear and 
 
 ### fromkeys
 
-The .fromkeys method creates a dictionary where many keys map to the same value. It takes a list of keys as the first argument and a value as the second argument.
+The .`fromkeys` method creates a dictionary where many keys map to the same value. It takes a list of keys as the first argument and a value as the second argument.
 
 ```python
 team_names = ["red", "blue"]
@@ -64,7 +64,7 @@ team_scores
 Result: {'red': 0, 'blue': 0}
 ```
 
-The dictionary value in the example above is 0, which is immutable. It's important to only use this method with immutable values like strings, ints, floats, and booleans. Using a mutable value can cause subtle bugs because every key will correspond to exactly the same value, at the same place in memory.
+The dictionary value in the example above is 0, which is immutable. It's important to only use this method with **immutable** values like strings, ints, floats, and booleans. Using a mutable value can cause subtle bugs because every key will correspond to exactly the same value, at the same place in memory.
 
 Here's an example showing the problem. This time, our value is a list. When we change that list via one dictionary key, the list in the other keys also changes. That's because it's the same list!
 

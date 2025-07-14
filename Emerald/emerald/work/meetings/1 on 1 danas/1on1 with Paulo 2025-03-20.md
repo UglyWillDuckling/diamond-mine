@@ -11,9 +11,6 @@ scheduled: 2025-03-20T16:05:00
 1 on 1
 
 ---
-## 🗒notes
-- 
-
 ## question list
 
 - razgovor o **placi**:

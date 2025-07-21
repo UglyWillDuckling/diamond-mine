@@ -1,7 +1,19 @@
 ---
+tags: []
 created: <% tp.file.creation_date() %>
 ---
 # <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %>
+
+> [!blank-container|no-margin gallery]
+>
+> <% tp.web.random_picture("150x150", "", 1) %>
+><% tp.web.random_picture("150x150", "nature,forrest,grass,landscape", 1) %>
+>
+><% tp.web.random_picture("150x150", "logic,circuits,mathematics,tool", 1) %>
+><% tp.web.random_picture("150x150", "nebula,galaxy,comet,phenomena,animal", 1) %>
+>
+><% tp.web.random_picture("150x150", "science-fiction,imagination,creation", 1) %>
+><% tp.web.random_picture("150x150", "history,writing,dinosaur", 1) %>
 
 << [[Timestamps/<% tp.date.now("YYYY", -1) %>/<% tp.date.now("MM-MMMM", -1) %>/<% tp.date.now("YYYY-MM-DD-dddd", -1) %>|Yesterday]] | [[Timestamps/<% tp.date.now("YYYY", 1) %>/<% tp.date.now("MM-MMMM", 1) %>/<% tp.date.now("YYYY-MM-DD-dddd", 1) %>|Tomorrow]] >>
 

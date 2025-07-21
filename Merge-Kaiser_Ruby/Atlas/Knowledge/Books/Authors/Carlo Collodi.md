@@ -1,0 +1,5 @@
+---
+tags:
+  - writer
+  - person/author
+---

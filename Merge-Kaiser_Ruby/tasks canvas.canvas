@@ -93,18 +93,6 @@
 		},
 		{
 			"dynamicHeight":false,
-			"id":"fd8d806473e9e81d",
-			"styleAttributes":{},
-			"text":"**Ready**\n\n```tasks\nnot done\n(due before next week) OR (scheduled before next week)\nsort by due\nshort mode\nhide task count\n```\n",
-			"type":"text",
-			"x":-540,
-			"y":-434,
-			"width":800,
-			"height":854,
-			"color":"4"
-		},
-		{
-			"dynamicHeight":false,
 			"id":"98842ea77f333413",
 			"styleAttributes":{},
 			"text":"**Clarify**\n\n```tasks\nnot done\ntags includes #clarify\nhide tags\nshort mode\n```\n",
@@ -165,6 +153,18 @@
 			"width":645,
 			"height":340,
 			"color":"#100e0e"
+		},
+		{
+			"dynamicHeight":false,
+			"id":"fd8d806473e9e81d",
+			"styleAttributes":{},
+			"text":"**Ready**\n\n```tasks\nnot done\n(due before next week) OR (scheduled before next week)\nsort by due\nshort mode\nhide task count\n```\n",
+			"type":"text",
+			"x":-560,
+			"y":-467,
+			"width":800,
+			"height":854,
+			"color":"4"
 		}
 	]
 }

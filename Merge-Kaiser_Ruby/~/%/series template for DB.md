@@ -1,6 +1,5 @@
-`$= '![Image|360](' + dv.current().image + ')'`
 
-# `$= dv.current().title`
+`$= '![Image|200](' + dv.current().image + ')'`
 
 ```dataviewjs
 if (dv.current().watched) {

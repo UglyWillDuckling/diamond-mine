@@ -27,7 +27,8 @@ tags:
   - film/90s
 watched: true
 lastWatched: ""
-personalRating: 9
+personalRating: 8.5
+plan-to-watch: false
 ---
 
 ![[~/×/72d757847bd312881997a2fb1fea9726_MD5.jpg|250]]

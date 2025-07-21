@@ -27,13 +27,14 @@ actors:
   - Mariska Hargitay
 image: https://m.media-amazon.com/images/M/MV5BMmI0OWI1OGEtM2Y5Zi00MWViLWE5ZjctMDNlNGE1OWJiZTU1XkEyXkFqcGc@._V1_SX300.jpg
 released: true
-streamingServices: 
+streamingServices:
 premiere: 07/29/2006
 watched: true
 lastWatched: 2025-04-22
 personalRating: 4
 tags:
   - mediaDB/tv/movie
+plan-to-watch: false
 ---
 `$= '![Image|200](' + dv.current().image + ')'`
 # `$= dv.current().title`

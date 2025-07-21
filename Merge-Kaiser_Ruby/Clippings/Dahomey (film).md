@@ -1,17 +1,20 @@
 ---
-type: movie
-title: Dahomey (film) - Wikipedia
-source: https://en.m.wikipedia.org/wiki/Dahomey_(film)
 created: 2025-01-10
-tags:
-  - film
+type: movie
+year: "2024"
+director:
+  - "[[Mati Diop]]"
+source: https://en.m.wikipedia.org/wiki/Dahomey_(film)
 related:
   - "[[The 20 Best Movies of 2024, 20 Best Movies of 2024]]"
 image: https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Dahomey_film_poster.jpg/220px-Dahomey_film_poster.jpg
-plan-to-watch: true
 interest: 7
+plan-to-watch: true
+personalRating:
+tags:
+  - film
 ---
-***Dahomey*** is a 2024 [documentary film](https://en.m.wikipedia.org/wiki/Documentary_film "Documentary film") directed by [Mati Diop](https://en.m.wikipedia.org/wiki/Mati_Diop "Mati Diop"). It is a dramatised account of 26 royal treasures from the [Kingdom of Dahomey](https://en.m.wikipedia.org/wiki/Dahomey "Dahomey") (in modern-day [Republic of Benin](https://en.m.wikipedia.org/wiki/Benin "Benin")), which were held in a museum in [France](https://en.m.wikipedia.org/wiki/France "France"). The film explores how the artifacts were returned from France to Benin, and the reactions of Beninese people.[^lead:cine-4] The film was an international co-production between companies in France, [Senegal](https://en.m.wikipedia.org/wiki/Senegal "Senegal"), and Benin.[^5]
+***Dahomey*** is a 2024 [documentary film](https://en.m.wikipedia.org/wiki/Documentary_film "Documentary film") directed by [Mati Diop](https://en.m.wikipedia.org/wiki/Mati_Diop "Mati Diop"). It is a dramatised account of **26 royal treasures** from the [Kingdom of Dahomey](https://en.m.wikipedia.org/wiki/Dahomey "Dahomey") (in modern-day [Republic of Benin](https://en.m.wikipedia.org/wiki/Benin "Benin")), which were held in a museum in [France](https://en.m.wikipedia.org/wiki/France "France"). The film explores how the artifacts were returned from France to Benin, and the reactions of Beninese people.[^lead:cine-4] The film was an international co-production between companies in France, [Senegal](https://en.m.wikipedia.org/wiki/Senegal "Senegal"), and Benin.[^5]
 
 <table><tbody><tr><th colspan="2">Dahomey</th></tr><tr><td colspan="2"><span><a href="https://en.m.wikipedia.org/wiki/File:Dahomey_film_poster.jpg"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Dahomey_film_poster.jpg/220px-Dahomey_film_poster.jpg" width="220" height="299"></a></span><p>Theatrical release poster</p></td></tr><tr><th scope="row">Directed by</th><td><a href="https://en.m.wikipedia.org/wiki/Mati_Diop">Mati Diop</a></td></tr><tr><th scope="row">Written by</th><td>Mati Diop</td></tr><tr><th scope="row">Produced by</th><td><div><ul><li>Mati Diop</li><li>Eve Robin</li><li>Judith Lou Lévy</li></ul></div></td></tr><tr><th scope="row">Cinematography</th><td>Joséphine Drouin-Viallard</td></tr><tr><th scope="row">Edited by</th><td>Gabriel Gonzalez</td></tr><tr><th scope="row">Music by</th><td><div><ul><li><a href="https://en.m.wikipedia.org/wiki/Wally_Badarou">Wally Badarou</a></li><li><a href="https://en.m.wikipedia.org/wiki/Dean_Blunt">Dean Blunt</a></li></ul></div></td></tr><tr><th scope="row"><p>Production<br>companies</p></th><td><div><ul><li>Les Films du Bal</li><li>Fanta Sy</li><li><a href="https://en.m.wikipedia.org/wiki/Arte_France_Cin%C3%A9ma">Arte France Cinéma</a></li></ul></div></td></tr><tr><th scope="row">Distributed by</th><td><div><ul><li><a href="https://en.m.wikipedia.org/wiki/Les_Films_du_Losange">Les Films du Losange</a> (France)</li><li>Sudu Connexion<sup><a href="https://en.m.wikipedia.org/wiki/#cite_note-1"><span>[</span>1<span>]</span></a></sup> (Africa)</li></ul></div></td></tr><tr><th scope="row"><p>Release dates</p></th><td><div><ul><li>18&nbsp;February&nbsp;2024<span>&nbsp;(<span>2024-02-18</span>)</span> (<a href="https://en.m.wikipedia.org/wiki/74th_Berlin_International_Film_Festival">Berlinale</a>)</li><li>11&nbsp;September&nbsp;2024<span>&nbsp;(<span>2024-09-11</span>)</span> (France)</li></ul></div></td></tr><tr><th scope="row"><p>Running time</p></th><td>68 minutes</td></tr><tr><th scope="row">Countries</th><td><div><ul><li>France</li><li>Senegal</li><li>Benin</li></ul></div></td></tr><tr><th scope="row">Language</th><td>French</td></tr><tr><th scope="row">Box office</th><td>$565,958<sup><a href="https://en.m.wikipedia.org/wiki/#cite_note-bo:mojo-2"><span>[</span>2<span>]</span></a></sup><sup><a href="https://en.m.wikipedia.org/wiki/#cite_note-The_Numbers-3"><span>[</span>3<span>]</span></a></sup></td></tr></tbody></table>
 

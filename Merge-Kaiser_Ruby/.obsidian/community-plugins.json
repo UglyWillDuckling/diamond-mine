@@ -55,5 +55,7 @@
   "automatic-table-of-contents",
   "insert-unsplash-image",
   "image-picker",
-  "image-search"
+  "image-search",
+  "obsidian-snippet-downloader",
+  "chronos"
 ]

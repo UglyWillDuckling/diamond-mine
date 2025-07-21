@@ -3,10 +3,14 @@
   "cssTheme": "Cupertino",
   "accentColor": "#e67a33",
   "baseFontSizeAction": true,
-  "baseFontSize": 14,
+  "baseFontSize": 15,
   "enabledCssSnippets": [
     "dataview-margin-remove",
     "tasks_padding",
-    "inlineAdmonitionsPluginReadOnly"
-  ]
+    "inlineAdmonitionsPluginReadOnly",
+    "MCL Gallery Cards",
+    "MCL Multi Column",
+    "MCL Wide Views"
+  ],
+  "textFontFamily": "Arial"
 }

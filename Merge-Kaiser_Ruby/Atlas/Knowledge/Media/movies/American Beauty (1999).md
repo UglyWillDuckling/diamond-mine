@@ -11,7 +11,7 @@ plot: A sexually frustrated suburban father has a mid-life crisis after becoming
 genres:
   - Drama
 director:
-  - Sam Mendes
+  - "[[Sam Mendes]]"
 writer:
   - Alan Ball
 studio:
@@ -24,7 +24,7 @@ actors:
   - Thora Birch
 image: "[[~/×/e012015289fc4db1b5c8428ad36de688_MD5.jpg]]"
 released: true
-streamingServices: 
+streamingServices:
 premiere: 10/01/1999
 watched: true
 lastWatched: ""
@@ -34,6 +34,7 @@ tags:
   - film
 awards:
   - oscar
+plan-to-watch: false
 ---
 ![[~/×/e012015289fc4db1b5c8428ad36de688_MD5.jpg]]
 

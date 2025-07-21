@@ -28,15 +28,16 @@ actors:
   - Hugh Keays-Byrne
 image: https://m.media-amazon.com/images/M/MV5BMTM4Mjg5ODEzMV5BMl5BanBnXkFtZTcwMDc3NDk0NA@@._V1_SX300.jpg
 released: true
-streamingServices: 
+streamingServices:
 premiere: 03/21/1980
-watched: false
+watched: true
 lastWatched: ""
 personalRating: 0
 tags:
   - mediaDB/tv/movie
 part of:
   - "[[Mad Max Franchise]]"
+plan-to-watch: false
 ---
 `$= '![Image|360](' + dv.current().image + ')'`
 

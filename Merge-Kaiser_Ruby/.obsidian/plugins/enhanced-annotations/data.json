@@ -54,6 +54,16 @@
             "fontWeight": "thin",
             "opacity": 80
           }
+        },
+        "1751740518194": {
+          "label": "important",
+          "id": "1751740518194",
+          "enableStyle": true,
+          "style": {
+            "color": "#f65a5a",
+            "italic": true,
+            "fontWeight": "thin"
+          }
         }
       },
       "tag": {
@@ -90,9 +100,7 @@
   },
   "idling": {
     "daysUnused": [
-      "2025-06-29",
-      "2025-07-01",
-      "2025-07-05"
+      "2025-07-21"
     ]
   },
   "clipboard": {

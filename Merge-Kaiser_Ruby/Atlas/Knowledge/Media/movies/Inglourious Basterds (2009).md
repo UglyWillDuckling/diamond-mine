@@ -23,13 +23,14 @@ actors:
   - Eli Roth
 image: https://m.media-amazon.com/images/M/MV5BODZhMWJlNjYtNDExNC00MTIzLTllM2ItOGQ2NGVjNDQ3MzkzXkEyXkFqcGc@._V1_SX300.jpg
 released: true
-streamingServices: 
+streamingServices:
 premiere: 08/21/2009
 watched: true
 lastWatched: 2016-07-05
 personalRating: 8
 tags:
   - mediaDB/tv/movie
+plan-to-watch: false
 ---
 
 `$= '![Image|360](' + dv.current().image + ')'`

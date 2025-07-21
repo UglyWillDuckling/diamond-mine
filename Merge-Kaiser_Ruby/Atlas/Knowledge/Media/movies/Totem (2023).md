@@ -11,7 +11,7 @@ plot: Seven-year-old Sol is spending the day at her grandfather's home, for a su
 genres:
   - Drama
 director:
-  - Lila Avilés
+  - "[[Lila Avilés]]"
 writer:
   - Lila Avilés
 studio:
@@ -24,10 +24,11 @@ actors:
   - Marisol Gasé
 image: "[[~/×/ebe33ff20ab99c83b24b5d6c4e026f07_MD5.jpg]]"
 released: true
-streamingServices: 
+streamingServices:
 premiere: 23.04.2024
 watched: true
-lastWatched: ""
+plan-to-watch: false
+lastWatched: 2025-05-15
 personalRating: 9
 tags:
   - film

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "📚",
       "🎥",
       "🪨",
       "LiComputer",
-      "©",
-      "🛩"
+      "©"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -203,5 +203,6 @@
   "Atlas/Life/Faks/Predmeti/Grada racunala": "LiComputer",
   "Atlas/Life/physical items": "🪨",
   "movies base.base": "🎥",
-  "Efforts/Simmering/Obsidian Tinkering": "LiPlay"
+  "Efforts/Simmering/Obsidian Tinkering": "LiPlay",
+  "my books base.base": "📚"
 }

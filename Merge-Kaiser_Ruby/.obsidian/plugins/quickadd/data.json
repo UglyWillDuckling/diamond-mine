@@ -111,6 +111,41 @@
       },
       "openFile": true,
       "openFileInMode": "default"
+    },
+    {
+      "id": "2106a06d-b20e-4930-a349-2a574b939ac9",
+      "name": "Log",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Calendar/daily/{{DATE:YYYY}}/",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": false,
+        "format": ""
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
     }
   ],
   "macros": [
@@ -168,7 +203,7 @@
   "devMode": false,
   "templateFolderPath": "",
   "announceUpdates": true,
-  "version": "1.17.0",
+  "version": "1.18.1",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": true,
   "ai": {

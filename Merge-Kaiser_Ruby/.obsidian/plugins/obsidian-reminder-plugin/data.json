@@ -1,6 +1,35 @@
 {
   "scanned": true,
-  "reminders": {},
+  "reminders": {
+    "+/special characters ·karakteri.md": [
+      {
+        "title": "remind me [[special characters ·karakteri]]",
+        "time": "2025-07-26",
+        "rowNumber": 5
+      }
+    ],
+    "Atlas/Knowledge/Media/Television/Wednesday (TV series).md": [
+      {
+        "title": "remind me [[Wednesday (TV series)]]",
+        "time": "2025-08-05",
+        "rowNumber": 23
+      }
+    ],
+    "Atlas/Knowledge/Articles/Vim Spell Check - VimTricks.md": [
+      {
+        "title": "reminder [[Vim Spell Check - VimTricks]]",
+        "time": "2025-07-25",
+        "rowNumber": 14
+      }
+    ],
+    "Atlas/Knowledge/Media/Television/Star Trek - Strange New Worlds (2022–).md": [
+      {
+        "title": "back on [[2025-07-17-Thu]]",
+        "time": "2025-07-23",
+        "rowNumber": 97
+      }
+    ]
+  },
   "debug": false,
   "settings": {
     "reminderTime": "09:00",

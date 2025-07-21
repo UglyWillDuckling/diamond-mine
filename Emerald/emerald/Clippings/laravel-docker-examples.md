@@ -160,5 +160,5 @@ The production image can be deployed to any Docker-compatible hosting environmen
 - **[[PostgreSQL]]**: Version **16** is used as the database in the examples, but you can adjust the configuration to use MySQL if preferred.
 - **[[Redis]]**: Used for caching and session management, integrated into both development and production environments.
 - **[[Nginx]]**: Used as the web server to serve the Laravel application and handle HTTP requests.
-- **[[Docker Compose]]**: Orchestrates the services, simplifying the process of starting and stopping the environment.
+- **[[docker compose]]**: Orchestrates the services, simplifying the process of starting and stopping the environment.
 - ~~**Health Checks**: Implemented in the Docker Compose configurations and Laravel application to ensure all services are operational.~~

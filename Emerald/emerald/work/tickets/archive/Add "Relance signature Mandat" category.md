@@ -22,7 +22,7 @@ When creating a new task, the user can choose from the “Catégory" dropdown a 
 	2. update translation file
 3. add value to the test assets
 
-![[how to run the mediaAPI migration]]
+![[how to run the mediaAPI migration - alembic]]
 
 ## Work
 

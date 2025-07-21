@@ -8,7 +8,7 @@ tags:
   - howto/awk
 about: "[[awk]]"
 ---
-- [ ] #task go through the [[awk]] examples 📅 2025-06-11
+- [ ] #task go through the [[awk]] examples ⏳ 2025-07-27 📅 2025-07-27
 ___
 ## Getting Started With AWK Command \[Beginner's Guide\]
 

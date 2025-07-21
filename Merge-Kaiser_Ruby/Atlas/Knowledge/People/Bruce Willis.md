@@ -1,3 +1,9 @@
+---
+id: Bruce Willis
+aliases: []
+tags: []
+---
+
 #actor #person
 
 ## movies
@@ -12,10 +18,4 @@ WHERE contains(actors, [[Bruce Willis]])
 
 const link = this.current().file.link
 let movies = dv.pages("#film").where(m => m.type == 'movie')
-
-dv.list(movies)
-dv.paragraph(movies)
 ```
-
-
-

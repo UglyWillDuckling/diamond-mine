@@ -5,13 +5,13 @@ created: <% tp.file.creation_date() %>
 > [!blank-container|no-margin gallery] 
 >
 > <% tp.web.random_picture("150x150", "", 1) %>
-><% tp.web.random_picture("150x150", "nature,forrest,grass,landscape", 1) %>
+><% tp.web.random_picture("150x150", "nature,forrest,grass,landscape,jungle", 1) %>
 >
-><% tp.web.random_picture("150x150", "logic,circuits,mathematics,tool", 1) %>
-><% tp.web.random_picture("150x150", "nebula,galaxy,comet,phenomena,animal", 1) %>
+><% tp.web.random_picture("150x150", "logic,circuits,mathematics", 1) %>
+><% tp.web.random_picture("150x150", "nebula,galaxy,comet,animal", 1) %>
 >
-><% tp.web.random_picture("150x150", "science-fiction,imagination,creation", 1) %>
-><% tp.web.random_picture("150x150", "history,writing,dinosaur", 1) %>
+><% tp.web.random_picture("150x150", "scifi,imagination,creation", 1) %>
+><% tp.web.random_picture("150x150", "history,dinosaur,prehistory", 1) %>
 
 ### <% moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM DD, YYYY") %>
 

@@ -1,12 +1,12 @@
 ---
 type: meeting
-meeting type: 
-created: 
-scheduled: 
-related: 
-previous: 
-agenda: 
-participants: 
+meeting_type:
+created:
+scheduled:
+related:
+previous:
+agenda:
+participants:
 tags:
   - meet
 ---
@@ -20,3 +20,5 @@ tags:
 > meeting agenda
 
 `=this.agenda`
+
+## notes 🗒

@@ -1,10 +1,10 @@
 ---
 type: meeting
-meeting type: backyard-daily
+meeting_type: backyard-daily
 created: 2025-05-21
 scheduled: 2025-05-21T14:00:00
-related: 
-previous: 
+related:
+previous:
 agenda: go through backyard tickets
 participants:
   - "[[Yoan Haouzi]]"

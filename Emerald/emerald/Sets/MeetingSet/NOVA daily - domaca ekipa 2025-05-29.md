@@ -1,10 +1,10 @@
 ---
 type: meeting
-meeting type: daily-nova
+meeting_type: daily-nova
 created: 2025-05-29
 scheduled: 2025-05-29T09:50:00
-related: 
-previous: 
+related:
+previous:
 agenda: stanje u firmi. Remote rad. Kako smo svi? Kako je LUNA utjecala na firmu? Sta je sa HOC?
 participants:
   - "[[Ivan Vukusic]]"

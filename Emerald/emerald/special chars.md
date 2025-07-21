@@ -1,3 +1,0 @@
-#resource/write
-
-middot: ·

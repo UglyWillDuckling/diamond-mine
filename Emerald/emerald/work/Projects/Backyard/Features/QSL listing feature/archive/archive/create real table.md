@@ -13,8 +13,8 @@
 ## update media API
 - [x] `create` migration
 - [x] test migration
-	- [x] run [[how to run the mediaAPI migration]]
-		![[how to run the mediaAPI migration]]
+	- [x] run [[how to run the mediaAPI migration - alembic]]
+		![[how to run the mediaAPI migration - alembic]]
 	- [x] check, etc.
 		- [[Phpstorm]] db tool
 - [x] [[#run the import]]

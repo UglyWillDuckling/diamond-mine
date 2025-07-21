@@ -1,6 +1,7 @@
 ---
-related:
-  - "[[execute program]]"
+created_by: "[[execute program]]"
+covers:
+  - "[[python programming language]]"
 type: project
 subtype: course
 estimate: 8
@@ -16,35 +17,57 @@ start date: 2025-06-01
 due_date: 2025-06-30
 tags:
   - course/programming
+  - project
 project_status: in_progress
 ---
-- [ ] #course #project
+#course #project
 
-- [/] #task explore Python course on [[execute program]] 🆔 CPlNBS 🛫 2025-05-03 ⏳ 2025-06-03 📅 2025-06-20
+[[Course Review]]
+
+- [/] #task explore Python course on [[execute program]] 🆔 CPlNBS 🛫 2025-05-03 ⏳ 2025-06-03 📅 2025-07-17
+	- nearly done🔹
 ___
 
-## chapters
+## chapters 📑
 
 - [[Two Division Operators]]
 - [[Python Functions]]
 - [[Assertions in Python]]
 - [[Python list basics]]
-- [[Python Tuples]]
+- [[Python Tuples lesson]]
 - [[Python Identity and Equality ]]
 - [[Nonlocal and Global Scope]]
 - [[Mutable List Problems]]
-- [[List Slicing]]
+- [[List Slicing lesson]]
 - [[Strings as Collections]]
 - [[Docstrings]][^2] 
 - [[kwargs lesson]]
 - [[Lambda Expressions lesson]]
+- [[Default Argument Values lesson]]
+- [[Decimals lesson]]
+- [[Building New Dictionaries]]
+- [[Mutable Default Arguments]]
+- [[Class Basics lesson]]
+- [[Unpacking lesson]]
+- [[Built-in Functions]]
+- [[StringIO]]
+- [[Pattern Matching]]
+- [[Lines in Files]]
+- [[Ranges lesson]]
+- [[Bytes lesson]]
+- [[Booleans as Integers]]
+- [[Enumerate Function]]
+- [[Even More Dict Methods lesson]]
+- [[Variadic Functions lesson]]
+- [[Consuming Iterators]]
+- [[Defaultdict lesson]]
 
-[^1]
+___
+## course 2 - Advanced Python 🐍
+🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍🐍
 
-[^3]
+- [[Dunder Methods lesson]]
+- [[Class Attributes]]
+- [[__dict__ lesson]]
+- [[Exception Context and Causes Lesson]]
 
-
-[^1]: new foot a
-[^2]:  my feet
-
-[^3]: my brand new foot ff

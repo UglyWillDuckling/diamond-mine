@@ -1,10 +1,10 @@
 #tool/git/command 
 
 - [x] remind me (@[[2025-05-27]])
-- [ ] monthly (@[[2025-06-23]])
+- [x] monthly (@[[2025-06-23]])
 ___
 
- git verify-commit
+ `git verify-commit`
   
   Check for **GPG** verification of commits. [^1]
   If no commits are verified, nothing will be printed, regardless of options specified.

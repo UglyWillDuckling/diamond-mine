@@ -1,6 +1,6 @@
 ---
 type: meeting
-meeting type: backyard-daily
+meeting_type: backyard-daily
 created: 2025-06-02
 scheduled: 2025-06-02T14:15:00
 related:

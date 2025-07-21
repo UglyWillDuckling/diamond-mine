@@ -33884,6 +33884,8 @@ SpatiaLite
 Sqlite
 SIGKILL
 Selected
+<<<<<<< HEAD
+=======
 Slice
 Sang
 Shin
@@ -33910,6 +33912,7 @@ Shina
 Shinmun
 Survey
 Shahid
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Squirtle
 Spearow
 Sandshrew
@@ -33925,6 +33928,8 @@ Staryu
 Starmie
 Scyther
 Snorlax
+<<<<<<< HEAD
+=======
 Seventeen
 Specimens
 Saskatchewan
@@ -34402,6 +34407,7 @@ Spirits
 SFGate
 Swart
 Sterngold
+<<<<<<< HEAD
 Sphinx
 Slovak
 Slovene
@@ -34595,6 +34601,9 @@ Sremec
 Simovi
 Scenografija
 Shyamalan
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 Persona
 Portuguese
 Parisians
@@ -37567,6 +37576,8 @@ Pitfalls
 Push
 Provjeri
 Personu
+<<<<<<< HEAD
+=======
 Pyo
 Presented
 Pellong
@@ -37578,6 +37589,7 @@ Placement
 Puah
 Piece
 Pirates
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Poison
 Pidgey
 Pidgeotto
@@ -37594,6 +37606,8 @@ Ponyta
 Pinsir
 Paldean
 Porygon
+<<<<<<< HEAD
+=======
 Period
 Paleogene
 Pliocene
@@ -37965,6 +37979,7 @@ Protestant
 Polster
 Pipa
 Programmatic
+<<<<<<< HEAD
 Puhova
 Philpedia
 Philharmonic
@@ -38105,6 +38120,9 @@ Pineapple
 Produkcija
 PreCrime
 PreCogs
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 mail
 migrate
 mark
@@ -56339,6 +56357,8 @@ NoSQL
 Nav
 Nigerian
 Nigeria
+<<<<<<< HEAD
+=======
 Nampojang
 Nam
 Nets
@@ -56346,6 +56366,7 @@ Neoyeong
 Nayeong
 Naver
 Newspaper
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Ndex
 Nidoran
 Nidorina
@@ -56353,6 +56374,8 @@ Nidoqueen
 Nidorino
 Nidoking
 Ninetales
+<<<<<<< HEAD
+=======
 Neck
 Nedoceratops
 Nomen
@@ -56505,6 +56528,7 @@ Nordic
 Nev
 Numberphile
 Nizozemska
+<<<<<<< HEAD
 Nikolaevna
 Naqoyqatsi
 Nonesuch
@@ -56569,6 +56593,9 @@ Novelization
 Newsom
 Netaktion
 Nagrade
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 Directories
 During
 Dutch
@@ -59244,12 +59271,15 @@ Dunton
 Drinkard
 Destiny
 Dunk
+<<<<<<< HEAD
+=======
 Dong
 Dodong
 Dispatch
 Daum
 Delighti
 Deok
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Diglett
 Dugtrio
 Doduo
@@ -59259,6 +59289,8 @@ Drowzee
 Dratini
 Dragonair
 Dragonite
+<<<<<<< HEAD
+=======
 Drinker
 Denver
 DMNH
@@ -59483,6 +59515,7 @@ Directorial
 Duo
 DELIGHTS
 Danska
+<<<<<<< HEAD
 Domovoy
 Domovoi
 Denisov
@@ -59579,6 +59612,9 @@ Doto
 Dudley
 Dailymotion
 Dullea
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 Working
 World
 With
@@ -62574,14 +62610,19 @@ WebOS
 Werner
 Willison
 Weblog
+<<<<<<< HEAD
+=======
 Wanes
 Whoosh
 Wings
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Wartortle
 Weedle
 Wigglytuff
 Weepinbell
 Weezing
+<<<<<<< HEAD
+=======
 Wyoming
 Wellnhofer
 Wiemann
@@ -62692,6 +62733,7 @@ Winn
 Worth
 Womack
 Wakeman
+<<<<<<< HEAD
 Witcher
 Wroc
 Warszawa
@@ -62749,6 +62791,9 @@ Wisborg
 Wilken
 Wilke
 Wollstein
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 This
 The
 Treba
@@ -65844,14 +65889,19 @@ TomTom
 Thelwell
 Teacher
 Tutuola
+<<<<<<< HEAD
+=======
 Tangerines
 Tutoring
 Transliteration
 Topicality
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Tentacool
 Tentacruel
 Tangela
 Tauros
+<<<<<<< HEAD
+=======
 Triceratops
 Torosaurus
 Thorax
@@ -66082,6 +66132,7 @@ Torneo
 Trofeo
 Tied
 THESE
+<<<<<<< HEAD
 Tatiana
 Tone
 Tatyana
@@ -66195,6 +66246,9 @@ Turbotown
 Turbinehallerne
 Tomica
 Tehnika
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 background
 between
 br
@@ -72426,16 +72480,21 @@ Fossil
 Fuzzing
 Flame
 Formatting
+<<<<<<< HEAD
+=======
 Fishing
 Fruitful
 Fooled
 Famour
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Flying
 Fearow
 Fairy
 Fighting
 Farfetch
 Flareon
+<<<<<<< HEAD
+=======
 Formation
 Fowler
 Frontal
@@ -72619,6 +72678,7 @@ Filmmaking
 Farmers
 Fishermen
 Filmovi
+<<<<<<< HEAD
 Fugitive
 Footage
 Fadder
@@ -72690,6 +72750,9 @@ Fattened
 Fable
 Filmland
 Filmskat
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 CA
 Ceylon
 Caribbean
@@ -75698,6 +75761,8 @@ Cases
 Cini
 Chinua
 Colonialist
+<<<<<<< HEAD
+=======
 Chae
 Cheon
 Chun
@@ -75719,6 +75784,7 @@ Consumer
 CNA
 Chandler
 Crunchyroll
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Charmander
 Charmeleon
 Charizard
@@ -75728,6 +75794,8 @@ Clefable
 Cloyster
 Cubone
 Chansey
+<<<<<<< HEAD
+=======
 Chasmosaurinae
 Ceratopsia
 Convergent
@@ -76060,6 +76128,7 @@ Comparative
 Chlotrudis
 Comedian
 CRLF
+<<<<<<< HEAD
 Cedars
 Camouflage
 Cherneva
@@ -76214,6 +76283,9 @@ Cinemagic
 Claw
 Charlton
 Collette
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 all
 again
 and
@@ -91660,6 +91732,8 @@ Gdbm
 GPS
 Gilmore
 Grade
+<<<<<<< HEAD
+=======
 Gives
 Gwan
 Geum
@@ -91675,6 +91749,7 @@ Gallup
 Grandmacore
 GoodData
 GeeksforGeeks
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Ground
 Golbat
 Gloom
@@ -91688,6 +91763,8 @@ Gastly
 Ghost
 Gengar
 Gyarados
+<<<<<<< HEAD
+=======
 Genus
 Geologic
 Guernsey
@@ -91876,6 +91953,7 @@ Grime
 Gabrielle
 Goodridge
 Glasno
+<<<<<<< HEAD
 Germanic
 Gippius
 Gedruckt
@@ -91974,6 +92052,9 @@ Gorgo
 Greis
 Gallman
 Glazba
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 Obisdian
 Origins
 Obtaining
@@ -94660,15 +94741,20 @@ OpenSolaris
 Owens
 Okonkwo
 Okigbo
+<<<<<<< HEAD
+=======
 Oimu
 Ostby
 OSEN
 Osen
 Olyphant
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Oddish
 Onix
 Omanyte
 Omastar
+<<<<<<< HEAD
+=======
 Othniel
 Ostrom
 Osteoderms
@@ -94779,6 +94865,7 @@ Okay
 Ocon
 Otmar
 Overtake
+<<<<<<< HEAD
 Orchestra
 Ossolineum
 Organism
@@ -94829,6 +94916,9 @@ Omero
 Okwu
 Ottosen
 Ollie
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 version
 very
 volume
@@ -100500,6 +100590,8 @@ Aliases
 Allocation
 Achebe
 Awoonor
+<<<<<<< HEAD
+=======
 Andong
 Arthdal
 Anglosphere
@@ -100509,6 +100601,7 @@ Airlines
 Agreement
 Activation
 Analog
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Alolan
 Arbok
 Arcanine
@@ -100517,6 +100610,8 @@ Alakazam
 Aqua
 Aerodactyl
 Articuno
+<<<<<<< HEAD
+=======
 Agathaumas
 Alberta
 Articular
@@ -100815,6 +100910,7 @@ Audiences
 ALIF
 AMPAS
 Andora
+<<<<<<< HEAD
 Anatoly
 Armeniern
 Albuquerque
@@ -100924,6 +101020,9 @@ Andersen
 Awkward
 Artbooks
 Allmovie
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 Muslim
 Mecca
 Mail
@@ -104671,6 +104770,8 @@ MicroStation
 MyISAM
 MEhgeO
 Metaphor
+<<<<<<< HEAD
+=======
 Myung
 Manmul
 Midsummer
@@ -104687,6 +104788,7 @@ MyDaily
 Maeil
 MALAPI
 Mislim
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Metapod
 Mankey
 Machop
@@ -104699,6 +104801,8 @@ Magmar
 Magikarp
 Moltres
 Mewtwo
+<<<<<<< HEAD
+=======
 Maastrichtian
 Mammal
 Meek
@@ -105016,6 +105120,7 @@ Maslin
 Mera
 Misery
 Mallrats
+<<<<<<< HEAD
 Moth
 Moroi
 Megre
@@ -105155,6 +105260,9 @@ Monarch
 McGaughy
 McGee
 Monta
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 long
 left
 later
@@ -111026,6 +111134,8 @@ BuildInfo
 BlackBerry
 Bugzilla
 Bookshelf
+<<<<<<< HEAD
+=======
 Baeksang
 Baek
 Byung
@@ -111044,12 +111154,15 @@ Bogum
 Barely
 Baud
 Brzo
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Bulbasaur
 Blastoise
 Butterfree
 Beedrill
 Bellsprout
 Breed
+<<<<<<< HEAD
+=======
 Bearing
 Bovine
 Bison
@@ -111315,6 +111428,7 @@ Beckinsale
 Burkard
 Berlinale
 Belgija
+<<<<<<< HEAD
 Bilibin
 Belief
 Bailichka
@@ -111455,6 +111569,9 @@ Brunson
 Bayou
 BearManor
 Brun
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 In
 Indian
 Italy
@@ -114573,6 +114690,9 @@ IndexedDB
 Ibo
 Igbo
 Impediments
+<<<<<<< HEAD
+Ivysaur
+=======
 Insaeng
 Intellectual
 Inventario
@@ -114716,6 +114836,7 @@ Inspired
 Infiniti
 Insect
 Intimate
+<<<<<<< HEAD
 Ivanovich
 Infantry
 Intertitle
@@ -114767,6 +114888,9 @@ Ilona
 Italiani
 INSTANT
 Isle
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 European
 Europe
 Example
@@ -117445,17 +117569,22 @@ Ethical
 Evernote
 Europeans
 Ethnic
+<<<<<<< HEAD
+=======
 Eun
 Essence
 ETNews
 Edaily
 Economic
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Ekans
 Electrode
 Exeggcute
 Exeggutor
 Electabuzz
 Eevee
+<<<<<<< HEAD
+=======
 Erich
 Epoccipital
 Epoccipitals
@@ -117653,6 +117782,7 @@ Eintracht
 Eifelland
 Entrant
 Elfman
+<<<<<<< HEAD
 Eskov
 Evaporation
 Eyerman
@@ -117723,6 +117853,9 @@ Eaten
 Elephant
 Eventministeriet
 Egholm
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 Questions
 Queen
 Quarters
@@ -119442,6 +119575,10 @@ Latency
 Lock
 Lightroom
 Lwn
+<<<<<<< HEAD
+Lickitung
+Lapras
+=======
 Lim
 Lee
 Leads
@@ -119712,6 +119849,7 @@ Lyrics
 Las
 Lauren
 Limit
+<<<<<<< HEAD
 Legendary
 Lyadov
 Linyphiidae
@@ -119847,6 +119985,9 @@ Lindb
 Lulu
 Lon
 Luxon
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 year
 you
 your
@@ -122300,6 +122441,8 @@ Heinemann
 Hopes
 Him
 Has
+<<<<<<< HEAD
+=======
 Hae
 Hye
 Haenyeo
@@ -122326,12 +122469,15 @@ Herald
 Hyang
 Hankyung
 HXNhV
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Hisuian
 Haunter
 Hypno
 Hitmonlee
 Hitmonchan
 Horsea
+<<<<<<< HEAD
+=======
 Holotype
 Hatcher
 Hills
@@ -122601,6 +122747,7 @@ Herlihy
 Haran
 Huff
 HFPA
+<<<<<<< HEAD
 Hopi
 Horseshoe
 Homelessness
@@ -122701,6 +122848,9 @@ Humanity
 Hover
 Hassing
 Have
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 ZIP
 Zadie
 Zephyr
@@ -123501,6 +123651,10 @@ Zahn
 Zoned
 Zstandard
 Zenia
+<<<<<<< HEAD
+Zubat
+Zapdos
+=======
 Ziwei
 Zubat
 Zapdos
@@ -123560,6 +123714,7 @@ Zeusu
 Zajedni
 Zandvoort
 Zilko
+<<<<<<< HEAD
 Zoom
 Zoetrope
 Zukof
@@ -123582,6 +123737,9 @@ Zach
 Zinn
 Zlatko
 Zvonimir
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 Unix
 Ursula
 University
@@ -130513,6 +130671,8 @@ Kieren
 Karwin
 Kofi
 Kine
+<<<<<<< HEAD
+=======
 Korean
 Kim
 Kwon
@@ -130527,6 +130687,7 @@ Kimberly
 Kleenex
 Keychain
 Kyunghyang
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Kakuna
 Kadabra
 Krabby
@@ -130535,6 +130696,8 @@ Koffing
 Kangaskhan
 Kabuto
 Kabutops
+<<<<<<< HEAD
+=======
 Kuhn
 Kelsey
 Knight
@@ -130705,6 +130868,7 @@ KSN
 Karman
 Kiss
 Knew
+<<<<<<< HEAD
 Kikimora
 Kashubian
 Kirill
@@ -130795,6 +130959,9 @@ KultuNaut
 Kamera
 Kubrick
 Knows
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 January
 Jung
 John
@@ -131676,6 +131843,11 @@ JScript
 Jam
 Jason
 Jacquelyn
+<<<<<<< HEAD
+Jigglypuff
+Jynx
+Jolteon
+=======
 Jeju
 Jeon
 Jang
@@ -131809,6 +131981,7 @@ Johnny
 Jellyfin
 Juul
 Jorgen
+<<<<<<< HEAD
 JoBlo
 Julijanski
 Jellyfish
@@ -131861,6 +132034,9 @@ Judaism
 Jury
 Jylland
 Jeanette
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 Rushdie
 Robert
 Renaissance
@@ -132865,6 +133041,8 @@ Remove
 Return
 Restart
 Racism
+<<<<<<< HEAD
+=======
 Romance
 Reply
 Remains
@@ -132874,6 +133052,7 @@ Ref
 Rapeseed
 Ranking
 Retro
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Rattata
 Raticate
 Raichu
@@ -132881,6 +133060,8 @@ Rock
 Rapidash
 Rhyhorn
 Rhydon
+<<<<<<< HEAD
+=======
 Rhinoceros
 River
 Rudolph
@@ -133151,6 +133332,7 @@ Reel
 Rainmaker
 Radish
 Ramin
+<<<<<<< HEAD
 Ringing
 Reversing
 Romanization
@@ -133301,6 +133483,9 @@ Reptisaurus
 Revised
 RoboCop
 Route
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 Valley
 Vietnam
 Very
@@ -134167,10 +134352,13 @@ VSCode
 VBScript
 Vidio
 Victoria
+<<<<<<< HEAD
+=======
 Viewership
 Views
 Value
 Vick
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
 Venusaur
 Vulpix
 Vileplume
@@ -134179,6 +134367,8 @@ Venomoth
 Victreebel
 Voltorb
 Vaporeon
+<<<<<<< HEAD
+=======
 Vertebral
 Vertebrate
 Verdegaal
@@ -134315,6 +134505,7 @@ Vanhoenacker
 Veisdal
 Vaterpolo
 Vatikan
+<<<<<<< HEAD
 Vasily
 Viennae
 Voronezh
@@ -134383,6 +134574,9 @@ Vukoti
 Verzija
 Verhoeven
 VIP
+=======
+>>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+>>>>>>> 7ac9a9d2367cec442974fb952144838db445a0c4
 xi
 xxiii
 xiv

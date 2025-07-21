@@ -2,7 +2,7 @@
   "editorSuggest": {
     "enableAutoSuggest": true,
     "triggerPhrase": "//",
-    "commentFormat": "html"
+    "commentFormat": "markdown"
   },
   "decoration": {
     "autoRegisterLabels": true,
@@ -23,7 +23,7 @@
           "id": "1749135150664",
           "enableStyle": true,
           "style": {
-            "color": "#e28db6",
+            "color": "#d086aa",
             "italic": false,
             "fontWeight": "bold",
             "fontFamily": "serif"
@@ -40,7 +40,7 @@
           }
         },
         "1749558670625": {
-          "label": "interesting",
+          "label": "int",
           "id": "1749558670625",
           "enableStyle": true,
           "style": {
@@ -50,7 +50,7 @@
           }
         },
         "1749559119699": {
-          "label": "valuable",
+          "label": "val",
           "id": "1749559119699",
           "enableStyle": true,
           "style": {
@@ -60,13 +60,23 @@
           }
         },
         "1749560533303": {
-          "label": "important",
+          "label": "imp",
           "id": "1749560533303",
           "enableStyle": true,
           "style": {
             "color": "#c64e54",
             "italic": true,
             "fontWeight": "bold"
+          }
+        },
+        "1752233342502": {
+          "label": "think",
+          "id": "1752233342502",
+          "enableStyle": true,
+          "style": {
+            "color": "#ff5e29",
+            "italic": true,
+            "underline": true
           }
         }
       },
@@ -85,9 +95,7 @@
     "showLabelsFilter": true,
     "showSearchInput": false,
     "hiddenLabels": [],
-    "hiddenTypes": [
-      "highlight"
-    ]
+    "hiddenTypes": []
   },
   "tts": {
     "rate": 1.1,
@@ -105,9 +113,7 @@
     "truncateFileName": true
   },
   "idling": {
-    "daysUnused": [
-      "2025-06-12"
-    ]
+    "daysUnused": []
   },
   "clipboard": {
     "templates": {

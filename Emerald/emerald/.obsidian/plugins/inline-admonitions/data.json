@@ -1,18 +1,6 @@
 {
   "version": 2,
   "inlineAdmonitions": {
-    "d1adf892-802e-4554-8331-848bea2d3926": {
-      "backgroundColor": "#3abbb3",
-      "bgColorOpacityPercent": 100,
-      "color": "#ffffff",
-      "colorOpacityPercent": 100,
-      "slug": "d1adf892-802e-4554-8331-848bea2d3926",
-      "prefixIcon": "album",
-      "suffixIcon": "",
-      "type": "prefix",
-      "prefix": "interest:",
-      "hideTriggerString": true
-    },
     "31be4f3e-d27a-42ef-8219-fac02a25ccf7": {
       "backgroundColor": "#fbff00",
       "bgColorOpacityPercent": 100,
@@ -35,7 +23,43 @@
       "suffixIcon": "",
       "type": "prefix",
       "prefix": "note:",
-      "hideTriggerString": false
+      "hideTriggerString": true
+    },
+    "2bb4c922-b023-44bf-9842-e11ffd0f3692": {
+      "backgroundColor": "#42f5b9",
+      "bgColorOpacityPercent": 100,
+      "color": "#000000",
+      "colorOpacityPercent": 100,
+      "slug": "2bb4c922-b023-44bf-9842-e11ffd0f3692",
+      "prefixIcon": "",
+      "suffixIcon": "signpost",
+      "type": "prefix",
+      "prefix": "?:",
+      "hideTriggerString": true
+    },
+    "1b81cb02-6971-435b-9db9-0a2466ab0053": {
+      "backgroundColor": "#e13333",
+      "bgColorOpacityPercent": 92,
+      "color": "#000000",
+      "colorOpacityPercent": 100,
+      "slug": "1b81cb02-6971-435b-9db9-0a2466ab0053",
+      "prefixIcon": "",
+      "suffixIcon": "",
+      "type": "prefix",
+      "prefix": "!:",
+      "hideTriggerString": true
+    },
+    "d1adf892-802e-4554-8331-848bea2d3926": {
+      "backgroundColor": "#3abbb3",
+      "bgColorOpacityPercent": 100,
+      "color": "#ffffff",
+      "colorOpacityPercent": 100,
+      "slug": "d1adf892-802e-4554-8331-848bea2d3926",
+      "prefixIcon": "album",
+      "suffixIcon": "",
+      "type": "prefix",
+      "prefix": "@:",
+      "hideTriggerString": true
     }
   }
 }

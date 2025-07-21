@@ -4,25 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "0ce01dfc764899c8",
+        "id": "fdb7874cca60b43d",
         "type": "tabs",
         "children": [
           {
-            "id": "e5f655bacc0bcdb3",
+            "id": "7ba97f88ca45e6c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Knowledge/daily_notes/2025/06-June/2025-06-12-Thu.md",
+                "file": "Efforts/Active/execute program - python for programmers course/Properties lesson.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-12-Thu"
+              "title": "Properties lesson"
+            }
+          },
+          {
+            "id": "bde97117e484f7e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-14-Mon.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-14-Mon"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,15 +65,15 @@
             }
           },
           {
-            "id": "663b43744af4d4d7",
+            "id": "a11d50664c556451",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#course",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": true,
-                "collapseAll": true,
+                "explainSearch": false,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -66,7 +82,7 @@
             }
           },
           {
-            "id": "c102f4929dd5c986",
+            "id": "017da2176346eb00",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -79,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.506778717041
+    "width": 291.5,
+    "collapsed": true
   },
   "right": {
     "id": "a4cc5cab7d2ca3c4",
@@ -88,7 +105,7 @@
       {
         "id": "4c72f380de770d19",
         "type": "tabs",
-        "dimension": 72.7927927927928,
+        "dimension": 71.10552763819096,
         "children": [
           {
             "id": "0295735161264f4f",
@@ -96,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/POSIX Shell Tutorial.md",
+                "file": "Efforts/Active/execute program - python for programmers course/f-strings course item.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,11 +123,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for POSIX Shell Tutorial"
+              "title": "Backlinks for f-strings course item"
             }
           },
           {
-            "id": "97db4b553a8450a6",
+            "id": "22b591c5c15ac6c0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Efforts/Active/execute program - python for programmers course/f-strings course item.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from f-strings course item"
+            }
+          },
+          {
+            "id": "c311bf0e7f4a00f0",
             "type": "leaf",
             "state": {
               "type": "annotations-outline",
@@ -120,21 +151,7 @@
             }
           },
           {
-            "id": "22b591c5c15ac6c0",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Clippings/POSIX Shell Tutorial.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from POSIX Shell Tutorial"
-            }
-          },
-          {
-            "id": "fda2e73dc3c8ca47",
+            "id": "60da7d385f111c7a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -149,7 +166,37 @@
             }
           },
           {
-            "id": "8cda8c22edca3a68",
+            "id": "04de7f6c30ec00d9",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "122b32843e5b7ad1",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
+          },
+          {
+            "id": "d4f51d341087c524",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          },
+          {
+            "id": "928f18737047fe4a",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -161,70 +208,50 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
-          },
-          {
-            "id": "eb19d1075ea974ef",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
-            }
-          },
-          {
-            "id": "17e4ac3e9b3cabb2",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
-            }
-          },
-          {
-            "id": "e12259f88adfdb7a",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
-        "id": "779ad7be8ba79eeb",
+        "id": "614d841b279e00cf",
         "type": "tabs",
-        "dimension": 27.207207207207208,
+        "dimension": 28.894472361809044,
         "children": [
           {
-            "id": "ca6a76e32e07e87b",
+            "id": "42537086106242f6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sets/MeetingSet/1 on 1 5th 2025-06-11.md",
+                "file": "Efforts/Active/execute program - python for programmers course/Properties lesson.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1 on 1 5th 2025-06-11"
+              "title": "Outline of Properties lesson"
+            }
+          },
+          {
+            "id": "5176226ef33111ef",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {},
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 521.5,
+    "width": 478.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "graph:Open graph view": false,
+      "graph:Open graph view": true,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
@@ -237,7 +264,6 @@
       "obsidian-kanban:Create new board": false,
       "callout-manager:Insert Callout": false,
       "obsidian42-brat:BRAT": false,
-      "quickadd:QuickAdd": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "cmdr:Graph view: Open local graph": false,
       "cmdr:Workspaces: Manage workspace layouts": false,
@@ -248,62 +274,62 @@
       "cmdr:Command palette: Open command palette": true
     }
   },
-  "active": "e5f655bacc0bcdb3",
+  "active": "bde97117e484f7e8",
   "lastOpenFiles": [
-    "Atlas/Knowledge/daily_notes/2025/06-June/2025-06-12-Thu.md",
-    "Atlas/Knowledge/How To's/how to show all vars in bash(posix).md",
-    "work/tickets/FEAT/Handle usage of biz_product_coverage table.md",
-    "work/tickets/FEAT/manual process to update irises.md",
-    "work/tickets/FEAT/process to update zones iris automatically.md",
-    "work/tickets/FEAT/python - function scope.md",
-    "Sets/MeetingSet/1 on 1 5th 2025-06-11.md",
-    "work/docs/backyard/database/biz_product_coverage table.md",
-    "work/docs/backyard/database/geo_place2 table.md",
-    "work/calls/call with Paulo -transac zones table.md",
-    "work/bugs/archive/investigate estima - lead call - lead window -lead connection.md",
-    "work/bugs/archive/Spark Trek Team.md",
-    "Atlas/Knowledge/daily_notes/2025/06-June/2025-06-11-Wed.md",
-    "Atlas/Knowledge/templates/day template.md",
-    "Clippings/POSIX Shell Tutorial.md",
-    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
-    "meetings.base",
-    "Sets/MeetingSet/today.md",
-    "Sets/MeetingSet/backyard daily.md",
-    "work/tickets/FEAT/Transac Zones update ticket/docs/biz_product_coverage table creation def.md",
-    "work/tickets/FEAT/Transac Zones update ticket/Untitled.md",
-    "Atlas/Knowledge/How To's/nvim - how to toggle diagnostic.md",
-    "work/tickets/FEAT/Transac Zones update ticket/docs",
-    "work/docs/backyard/backyard.md",
-    "work/docs/backyard/database",
-    "Atlas/tools/dev/nvim/vim.env.md",
+    "Efforts/Active/execute program - python for programmers course/Properties lesson.md",
+    "work/tickets/update price button - remove if no estima realtion.md",
+    "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-14-Mon.md",
     "Efforts/master task list.md",
-    "sed.md",
-    "Atlas/tools/dev/unix/Find Command.md",
-    "Atlas/tools/dev/unix",
-    "Atlas/tools/obsidian/Templater/Templater-docs.pdf",
-    "Knowledge",
+    "Efforts/Ongoing/git book - Pro Git.md",
+    "Efforts/Done/obsidian vimrc ticket.md",
+    "~/% tmpl/templater/lesson start.md",
+    "Atlas/tools/dev/git/git log - concise output.md",
     "Efforts/projects.base",
     "Efforts/hello.base",
-    "Efforts/projects.canvas",
-    "Sets/ProjectSet",
+    "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-11-Fri.md",
+    "Efforts/Active/execute program - python for programmers course/Exception Context and Causes Lesson.md",
+    "Efforts/Active/execute program - python for programmers course/execute program - python for programmers course.md",
+    "Clippings/Blog - Plaće developera vs. plaće dizajnera — stanje hrvatskog IT-a u 2025..md",
+    "work/tickets/FEAT/Transac Zones update ticket/backyard implementation for transac.md",
+    "work/meetings/1 on 1 danas/1on1 with Paulo 2025-03-20.md",
+    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
+    "Clippings/Hugo Chávez - Wikipedia.md",
+    "work/tickets/FEAT/Transac Zones update ticket/Handle usage of biz_product_coverage table.md",
+    "work/tickets/FEAT/Transac Zones update ticket/docs/coverage update canvas.canvas",
+    "Untitled.md",
+    "Atlas/tools/database_restore Jenkins.md",
+    "Efforts/Active/execute program - python for programmers course/Custom Exceptions lesson.md",
+    "Clippings/dev-container Neovim dev container support.md",
+    "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-10-Thu.md",
+    "Efforts/Active/execute program - python for programmers course/__dict__ lesson.md",
+    "~/% tmpl/templater/python code block.md",
+    "Atlas/Knowledge/templates/day template.md",
+    "~/% tmpl/templater/tool template.md",
+    "meetings.base",
     "tasks canvas.canvas",
-    "Sets/Meeting NoteSet",
+    "work/people/NOVA",
+    "work/people/LUNA/Screenshot_20241107_140216.png",
+    "work/people/LUNA",
+    "work/people/AVIV",
+    "work/people",
+    "work/Projects/Media API",
+    "work/Projects/LUQA/howtos",
+    "work/Projects/LUQA/docs",
+    "work/Projects/Backyard/Features/QSL listing feature/docs/features/aws import  impl..canvas",
+    "work/Projects/Backyard/Features/QSL listing feature/docs/code/aws test script solution.canvas",
+    "work/Projects/Backyard/Features/QSL listing feature/docs/code/Athena impl..canvas",
+    "work/Projects/Backyard/Features/QSL listing feature/docs/artifacts/crontab board.canvas",
+    "work/notes/archive/iris-code.png",
+    "Efforts/projects.canvas",
+    "work/tickets/event issue solution canvas.canvas",
     "~/x/d136608e8bbe399debcc1513a2c08b32_MD5.jpg",
     "~/x/cf4f554afb2ab9f4904dc57b21fbc382_MD5.jpg",
     "Pro Git - Scott Chacon/images/scripting-03-webhook.png",
-    "work/tickets/event issue solution canvas.canvas",
-    "work/Projects/Backyard/Features/QSL listing feature/docs/artifacts/crontab board.canvas",
-    "work/Projects/Backyard/Features/QSL listing feature/docs/code/aws test script solution.canvas",
     "work/docs/CRM/CRM.canvas",
-    "work/Projects/Backyard/Features/QSL listing feature/docs/features/aws import  impl..canvas",
-    "work/Projects/Backyard/Features/QSL listing feature/docs/code/Athena impl..canvas",
     "Atlas/tools/obsidian/Templater/Templater doc/favicon.png",
     "Atlas/tools/obsidian/Templater/Templater doc/favicon.svg",
     "Atlas/tools/obsidian/Templater/Templater doc/imgs/templater_user_templates.png",
     "tmp/Templater/imgs/templater_user_templates.png",
-    "tmp/Templater/favicon.svg",
-    "tmp/Templater/favicon.png",
-    "tmp/silentvoid13.github.io/Templater/imgs/templater_user_templates.png",
-    "work/tickets/FEAT/Transac Zones update ticket/coverage update canvas.canvas"
+    "tmp/Templater/favicon.svg"
   ]
 }

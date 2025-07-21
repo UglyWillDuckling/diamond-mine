@@ -53,5 +53,7 @@
   "inline-admonitions",
   "editor-width-slider",
   "enhanced-annotations",
-  "obsidian-hider"
+  "obsidian-hider",
+  "callout-suggestions",
+  "obsidian-completr"
 ]

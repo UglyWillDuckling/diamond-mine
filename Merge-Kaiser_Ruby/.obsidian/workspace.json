@@ -1,38 +1,20 @@
 {
   "main": {
-    "id": "d3fd3182b5b7335d",
+    "id": "be6e6e2810a19264",
     "type": "split",
     "children": [
       {
-        "id": "741f03343a1f86a6",
+        "id": "4c8d8e7b6f9288d6",
         "type": "tabs",
         "children": [
           {
-            "id": "10d983fba2544846",
+            "id": "181c07c4c6b49a35",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/Knowledge/People/Bruce Willis.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Bruce Willis"
-            }
-          },
-          {
-            "id": "4301339246778e3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/DataviewJS Snippet Showcase - Share & showcase.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DataviewJS Snippet Showcase - Share & showcase"
+              "title": "New tab"
             }
           }
         ]
@@ -41,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ead3ed87b615bdb6",
+    "id": "0cb93dca19100baf",
     "type": "split",
     "children": [
       {
-        "id": "2049ff3b223f3ec5",
+        "id": "76533c1e461be630",
         "type": "tabs",
         "children": [
           {
-            "id": "f3599e81c472e50c",
+            "id": "f1b5f5928b23f245",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +44,7 @@
             }
           },
           {
-            "id": "d3b7cc8b9aba87ea",
+            "id": "3bb689a2d8990d78",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +61,7 @@
             }
           },
           {
-            "id": "ed7797e3c575e54a",
+            "id": "e26cc4ce01408596",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,23 +74,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5007667541504
+    "width": 300
   },
   "right": {
-    "id": "3931ddb8136d105c",
+    "id": "879c4c46c01c5375",
     "type": "split",
     "children": [
       {
-        "id": "7dcf87e2dcb2f06a",
+        "id": "6bd03039fe22beee",
         "type": "tabs",
         "children": [
           {
-            "id": "c5fbdd20541b0b38",
+            "id": "20937a68f49eaf68",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Efforts/Active/Beginner's Guide to Django - Tutorial/A Complete Beginner's Guide to Django - Part 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for A Complete Beginner's Guide to Django - Part 4"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "4f80ce93ff934eed",
+            "id": "bcac0f03455708d6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Efforts/Active/Beginner's Guide to Django - Tutorial/A Complete Beginner's Guide to Django - Part 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from A Complete Beginner's Guide to Django - Part 4"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "17ff0f1d1b60721f",
+            "id": "b665e1ba6a1f8bc5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,22 +131,21 @@
             }
           },
           {
-            "id": "12e2ed40afd76dbc",
+            "id": "04a63588bbc85a4e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Efforts/Active/Beginner's Guide to Django - Tutorial/A Complete Beginner's Guide to Django - Part 4.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of A Complete Beginner's Guide to Django - Part 4"
+              "title": "Outline"
             }
           },
           {
-            "id": "e9db5841bdd14293",
+            "id": "e833e7d97d4a4f14",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -176,7 +155,7 @@
             }
           },
           {
-            "id": "763237a223b35e57",
+            "id": "e11ec0509cc39be2",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -186,7 +165,7 @@
             }
           },
           {
-            "id": "2fa5b214ef86df43",
+            "id": "2e06facb6e406711",
             "type": "leaf",
             "state": {
               "type": "annotations-outline",
@@ -196,7 +175,7 @@
             }
           },
           {
-            "id": "fd7f4e7ec28f973e",
+            "id": "f3b29c9df6f6fdff",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -215,77 +194,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-day-and-night:Toggle Theme": true,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true,
-      "image-picker:Open Image Picker": true,
-      "switcher:Open quick switcher": true,
-      "graph:Open graph view": true,
-      "canvas:Create new canvas": true,
-      "templates:Insert template": true,
-      "command-palette:Open command palette": true,
-      "workspaces:Manage workspace layouts": false,
-      "quickadd:QuickAdd": true,
-      "obsidian-importer:Open Importer": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "chronology:Open Chronology": true,
-      "obsidian-media-db-plugin:Add new Media DB entry": true,
-      "obsidian42-brat:BRAT": true,
-      "juggl:Juggl global graph": true,
-      "templater-obsidian:Templater": true,
-      "callout-manager:Insert Callout": true,
-      "obsidian-book-search-plugin:Create new book note": true
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "quickadd:QuickAdd": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-day-and-night:Toggle Theme": false,
+      "chronology:Open Chronology": false,
+      "obsidian-media-db-plugin:Add new Media DB entry": false,
+      "obsidian42-brat:BRAT": false,
+      "juggl:Juggl global graph": false,
+      "templater-obsidian:Templater": false,
+      "callout-manager:Insert Callout": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
+      "image-picker:Open Image Picker": false
     }
   },
-  "active": "10d983fba2544846",
-  "lastOpenFiles": [
-    "Clippings/DataviewJS Snippet Showcase - Share & showcase.md",
-    "Atlas/Knowledge/People/Bruce Willis.md",
-    "movie timeline with chronoes.md",
-    "Calendar/daily/2025/2025-07-21-Mon.md",
-    "~/%/templater/actor movie template.md",
-    "Atlas/Knowledge/Media/movies/The Sixth Sense (1999).md",
-    "Atlas/Knowledge/Media/movies/RoboCop (1987).md",
-    "movies base.base",
-    "Atlas/Knowledge/Media/movies/Minority Report (2002).md",
-    "Atlas/Knowledge/Media/movies/2001 - A Space Odyssey (1968).md",
-    "Clippings/Dahomey (film).md",
-    "Efforts/Active/Beginner's Guide to Django - Tutorial/A Complete Beginner's Guide to Django - Part 4.md",
-    "Atlas/Knowledge/Media/movies/Surogat (Dušan Vukotić, 1961.).md",
-    "Atlas/Knowledge/Media/movies/Reptilicus - Wikipedia.md",
-    "~/×/7c79045ba5cf2f71ba2adc9a22c205ba_MD5.jpg",
-    "tv shows.base",
-    "+/timeline test.md",
-    "movie timeline.md",
-    "+/timeline - Obisdian.md plugin for creating timelines.md",
-    "chronos cheatsheet.md",
-    "Clippings/DQL, JS and Inlines - Dataview.md",
-    "Atlas/Knowledge/Media/movies/Apocalypse Now (1979).md",
-    "Atlas/Knowledge/Books/The Dawn of Everything - David Graeber David Wengrow.md",
-    "History Books.md",
-    "Atlas/Tools/obsidian/plugins/dataview.md",
-    "Atlas/Knowledge/Media/movies/Totem (2023).md",
-    "Atlas/Knowledge/Media/movies/Good Will Hunting.md",
-    "undefined.md",
-    "Atlas/Knowledge/Books/A People's History of the United States.md",
-    "~/×/6a14a8963b968731af6b8e38e3afc48c_MD5.png",
-    "~/×/a14611e182779092a2eb58122dc7591b_MD5.jpg",
-    "~/×/5902d08609f95eaedf94257b5635f7cc_MD5.jpg",
-    "~/×/ab7c4c1f5a797c102ad63c14341572cb_MD5.jpg",
-    "~/×/763657a25e3af756993b025e00ec6e84_MD5.jpg",
-    "~/×/6f72c7be71d40e854856079fb31c7223_MD5.jpg",
-    "~/×/457a813ac36cda37fb979b4b86fe560f_MD5.jpg",
-    "~/×/19a21ecf975820176f198bdd84988264_MD5.jpg",
-    "~/×/ca3684dddba0241b04fcf226ec8e4174_MD5.jpg",
-    "Efforts/Active/Moje djetinjstvo, istraga/sjecanja",
-    "Atlas/Tools/pc/fd",
-    "Atlas/Knowledge/Quotes",
-    "Atlas/Life/Kviz/kvizovi.base",
-    "Atlas/Life/Items/Physical",
-    "tasks canvas.canvas",
-    "Atlas/Sets/HelloSet",
-    "my books base.base",
-    "Atlas/Knowledge/People/Historic",
-    "tasks pic.canvas",
-    "Efforts/Simmering/Obsidian Tinkering/canvas/experiment.canvas"
-  ]
+  "active": "2e06facb6e406711",
+  "lastOpenFiles": []
 }

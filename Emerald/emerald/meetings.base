@@ -2,11 +2,13 @@ filters:
   and:
     - type == "meeting"
     - file.folder != "Sets/Types"
+    - file.folder != "Atlas/Knowledge/templates"
 formulas:
   is today: if(scheduled.date() == today(), '🚩', '📅')
   "has passed ": if(scheduled < now(), '✅', '🕧')
   my folder: ""
   schedule_date: scheduled.date() == today()
+  relative: scheduled.relative()
 properties:
   "formula.has passed ":
     displayName: passed
@@ -14,74 +16,60 @@ views:
   - type: table
     name: Table
     order:
-      - file.name
       - scheduled
+      - file.name
       - formula.is today
       - "formula.has passed "
     sort:
-      - column: note.scheduled
-        direction: DESC
-      - column: formula.is today
-        direction: DESC
-      - column: formula.schedule_date
+      - property: scheduled
         direction: ASC
-      - column: "formula.has passed "
+      - property: formula.is today
+        direction: DESC
+      - property: formula.schedule_date
         direction: ASC
-      - column: formula.my folder
+      - property: "formula.has passed "
+        direction: ASC
+      - property: formula.my folder
         direction: DESC
     columnSize:
-      file.name: 315
-      note.scheduled: 241
+      note.scheduled: 282
+      file.name: 290
       formula.is today: 136
       "formula.has passed ": 107
   - type: table
-    name: 1 on 1's
-    filters:
-      and:
-        - containsAny(property.tags, "meet/1on1/Yoan")
-    order:
-      - file.name
-      - scheduled
-      - created
-      - duration
-      - tags
-      - agenda
-      - meeting type
-      - file.path
-      - previous
-      - status
-    columnSize:
-      file.name: 139
-      property.scheduled: 241
-      property.created: 142
-      property.agenda: 151
-      file.path: 251
-    sort:
-      - column: property.scheduled
-        direction: DESC
-      - column: file.name
-        direction: ASC
-      - column: property.created
-        direction: ASC
-  - type: table
     name: today
     filters:
-      and:
-        - formula["is today"] == "🚩"
+      not:
+        - scheduled.date() < today()
+        - scheduled.date() > today()
     order:
-      - scheduled
-      - file.name
-      - participants
       - "formula.has passed "
-    columnSize:
-      file.name: 166
-      note.scheduled: 192
-      note.participants: 237
-      "formula.has passed ": 107
+      - file.name
+      - formula.relative
     sort:
-      - column: formula.is today
+      - property: formula.relative
+        direction: ASC
+      - property: scheduled
         direction: DESC
-      - column: property.URL
+      - property: "formula.has passed "
         direction: ASC
-      - column: property.related
+      - property: participants
         direction: ASC
+      - property: property.related
+        direction: ASC
+    columnSize:
+      "formula.has passed ": 104
+      file.name: 237
+      formula.relative: 145
+  - type: cards
+    name: 1 on 1s
+    filters:
+      and:
+        - tags.contains("meet/1on1/Yoan")
+    order:
+      - file.name
+      - scheduled
+    sort:
+      - property: scheduled
+        direction: DESC
+    imageAspectRatio: 1.15

@@ -13,8 +13,9 @@ about: "[[POSIX shell]]"
 ---
 `Last modified: Tue Jul 25 11:53:03 2023`
 
-- [/] #task check the bash tutorial 🔼 ⏳ 2025-05-20 📅 2025-05-18 🆔 XdsgHv 📅 2025-06-13
+- [/] #task check the bash tutorial 🆔 XdsgHv 🔼 ⏳ 2025-06-13 📅 2025-07-04
 	- [/] [[POSIX Shell Tutorial]]
+	- [ ] [[Bourne Shell Tutorial]] `?: maybe`
 ___
 
 **This is my tutorial on the POSIX shell.** The POSIX shell is probably the shell you are using on a UNIX compatible system. It's an improvement of the original Bourne shell. If you are interested in my original tutorial, it's now located on [this page](https://www.grymoire.com/Unix/Bourne.html). The biggest difference is that the POSIX shell allows the use of $(.....) for command substitution. I've updated all of the examples to use this form of command substitution. See [for more info on quoting characters.](https://www.grymoire.com/Unix/Quote.html)
@@ -615,7 +616,7 @@ The "PATH" environment variable lists directories that contain commands. When yo
 
 :/usr/bin:/usr/ucb  
 
-contains three directories, with the current directory being searched first. This is dangerous, as someone can create a program called "ls" and if you change your current directory to the one that contains this program, you will execute this trojan horse. If you must include the current directory, place it last in the searchpath.
+contains three directories, with the current directory being searched first. This is dangerous, as someone can create a program called "ls" and if you change your current directory to the one that contains this program, you will execute this trojan horse. If you must include the current directory, place it last in **the** searchpath.
 
 /usr/bin:/usr/ucb:  
 

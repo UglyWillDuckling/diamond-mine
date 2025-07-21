@@ -1,26 +1,31 @@
 - [x] remind me (@[[2025-05-26]])
-- [ ] monthly (@[[2025-06-23]])
+- [x] monthly (@[[2025-06-23]])
 
 ## tables
-
-```lua
--- in vim
-:lua = vim.opt.autoindent
-```
-
-```lua
--- in lua
-print(vim.inspect(your_table))
-```
-
-```lua
--- in lua
-vim.print(package.loaded)
-```
+%% for tables only %%
 
 1. vim inspect
 2. vim.print
 3. `:lua someValue`
+
+**:lua**
+ ```lua
+ -- in vim
+ :lua = vim.opt.autoindent
+ ```
+
+**vim inspect**
+ ```lua
+ -- in lua
+ print(vim.inspect(your_table))
+ ```
+
+**vim print**
+ ```lua
+ -- in lua
+ vim.print(package.loaded)
+ ```
+
 ___
 
 from::

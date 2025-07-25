@@ -1,6 +1,6 @@
 {
   "showAtStartup": false,
-  "setsRoot": "Sets",
+  "setsRoot": "Atlas/Sets",
   "typeSetSuffix": "Set",
   "typesFolder": "Types",
   "typesSuffix": "Type",

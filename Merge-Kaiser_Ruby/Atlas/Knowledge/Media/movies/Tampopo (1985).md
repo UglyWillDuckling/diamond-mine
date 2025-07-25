@@ -29,6 +29,7 @@ personalRating: 0
 tags:
   - film
 interest: 7
+plan-to-watch: true
 ---
 `$= '![Image|360](' + dv.current().image + ')'`
 

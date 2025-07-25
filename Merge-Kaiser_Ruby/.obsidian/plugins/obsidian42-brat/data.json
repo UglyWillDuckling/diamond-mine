@@ -1,8 +1,13 @@
 {
   "pluginList": [
+    "Mara-Li/obsidian-snippet-downloader",
     "tu2-atmanand/Task-Board"
   ],
   "pluginSubListFrozenVersion": [
+    {
+      "repo": "Mara-Li/obsidian-snippet-downloader",
+      "version": "latest"
+    },
     {
       "repo": "tu2-atmanand/Task-Board",
       "version": ""

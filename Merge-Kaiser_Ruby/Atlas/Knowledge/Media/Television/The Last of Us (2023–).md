@@ -14,7 +14,7 @@ genres:
 writer:
   - Craig Mazin
   - Neil Druckmann
-studio: 
+studio:
 episodes: 0
 duration: 18S min
 onlineRating: 8.7
@@ -24,15 +24,17 @@ actors:
   - Brendan Rozario
 image: https://m.media-amazon.com/images/M/MV5BY2JiNjU3NWYtMTRlYS00NzY3LWE2NDQtZGFkNWE2MDU4OTExXkEyXkFqcGc@._V1_SX300.jpg
 released: true
-streamingServices: 
+streamingServices:
 airing: false
 airedFrom: 01/15/2023
 airedTo: unknown
-watched: false
+watched: true
 lastWatched: ""
 personalRating: 8
 tags:
   - mediaDB/tv/series
+finished: false
+plan-to-watch: false
 ---
 `$= '![Image|360](' + dv.current().image + ')'`
 

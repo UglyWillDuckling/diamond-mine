@@ -1,16 +1,24 @@
-#howto #howto/personal
+#howto #howto/personal #howto/senka
 
+racun: HR84 23400091111023816
 uses:: [[mozes se ulogirat u PBZ online]]
-
-1. skinuti **PDF** 
+___
+1. skinuti **PDF**
 2. platiti racun
 	1. otvoriti [[mozes se ulogirat u PBZ online|PBZ online bankarstvo]]
 	2. pronaci **broj** **racuna**
-	3. Prilikom plaćanja u poziv na broj upišite broj računa 
-	4. iznos je **40** eura
-	5. racun: HR84 23400091111023816
+	3. upotrijebi `senka` template
+`note:koristi template`  
 
-**primjer***
+[[2025-07-14-Mon]]
+- [x] 392
+- [x] 423
+- [x] 432
+- [x] 409 - ciljevanje
+
+___
+### **primjer***
+
 broj racuna: 081/P1/1
 iznos: 40 eura
 

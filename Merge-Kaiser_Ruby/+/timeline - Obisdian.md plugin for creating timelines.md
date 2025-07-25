@@ -1,8 +1,7 @@
 ---
 title: "GitHub - George-debug/obsidian-timeline: Obisdian.md plugin for creating timelines"
 source: https://github.com/George-debug/obsidian-timeline
-author: 
-published: 
+author:
 created: 2025-01-04
 tags:
   - timeline
@@ -10,6 +9,7 @@ tags:
   - obsidian-plugin
   - plugin
 ---
+
 ```
 \`\`\`timeline
 [line-3, body-2]

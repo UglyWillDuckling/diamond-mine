@@ -1,85 +1,37 @@
 {
   "main": {
-    "id": "d3fd3182b5b7335d",
+    "id": "be6e6e2810a19264",
     "type": "split",
     "children": [
       {
-        "id": "e05538f15b6631ba",
+        "id": "4c8d8e7b6f9288d6",
         "type": "tabs",
         "children": [
           {
-<<<<<<< HEAD
-            "id": "6cbe1343b7e8454f",
-=======
-            "id": "69c7229296e5fb03",
+            "id": "181c07c4c6b49a35",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/obsidian-image-search Obsidian Image Search Using google API.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "obsidian-image-search Obsidian Image Search Using google API"
-            }
-          },
-          {
-            "id": "01e4c30fdb92f268",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calendar/daily/2025/2025-07-05-Sat.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-07-05-Sat"
-            }
-          },
-          {
-            "id": "5ec1d6d68926f9ce",
->>>>>>> 607811374e8def96c16af481d333090f5f6084e5
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "list.md",
-=======
-                "file": "Good Will Hunting.md",
->>>>>>> 607811374e8def96c16af481d333090f5f6084e5
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "list"
+              "title": "New tab"
             }
           }
         ]
-=======
-              "title": "Good Will Hunting"
-            }
-          }
-        ],
-        "currentTab": 1
->>>>>>> 607811374e8def96c16af481d333090f5f6084e5
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "cf2d5393fa50c446",
+    "id": "0cb93dca19100baf",
     "type": "split",
     "children": [
       {
-        "id": "1e911cdd0e8a843e",
+        "id": "76533c1e461be630",
         "type": "tabs",
         "children": [
           {
-            "id": "937564d863a6697f",
+            "id": "f1b5f5928b23f245",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -92,12 +44,12 @@
             }
           },
           {
-            "id": "f7567d6307813f32",
+            "id": "3bb689a2d8990d78",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tas",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +61,7 @@
             }
           },
           {
-            "id": "26e46519dc5b08a4",
+            "id": "e26cc4ce01408596",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -122,63 +74,49 @@
       }
     ],
     "direction": "horizontal",
-    "width": 465.5007667541504,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "3daebda00016f277",
+    "id": "879c4c46c01c5375",
     "type": "split",
     "children": [
       {
-        "id": "4b820b274839dd85",
+        "id": "6bd03039fe22beee",
         "type": "tabs",
-        "dimension": 46.796116504854375,
         "children": [
           {
-            "id": "b1c7bf0bf1881a1d",
+            "id": "20937a68f49eaf68",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/A Complete Beginner's Guide to Django - Part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for A Complete Beginner's Guide to Django - Part 1"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "1cc5aa4bd8fc42a2",
+            "id": "bcac0f03455708d6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Master Task List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Master Task List"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "87f976272f45bd31",
-            "type": "leaf",
-            "state": {
-              "type": "annotations-outline",
-              "state": {},
-              "icon": "message-square",
-              "title": "Enhanced Annotations"
-            }
-          },
-          {
-            "id": "c28fc085d0f1efce",
+            "id": "b665e1ba6a1f8bc5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -191,132 +129,92 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "ad60b0636f1a5512",
-        "type": "tabs",
-        "dimension": 53.203883495145625,
-        "children": [
-          {
-            "id": "9941f4903adaf6e9",
-            "type": "leaf",
-            "state": {
-              "type": "footnotes",
-              "state": {
-                "file": "Clippings/A Complete Beginner's Guide to Django - Part 1.md"
-              },
-              "icon": "lucide-file-signature",
-              "title": "Footnotes"
-            }
           },
           {
-            "id": "62f8d422c83e3c6f",
+            "id": "04a63588bbc85a4e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/daily/2025/2025-07-05-Sat.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-07-05-Sat"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "e833e7d97d4a4f14",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "e11ec0509cc39be2",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
+          },
+          {
+            "id": "2e06facb6e406711",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "message-square",
+              "title": "Enhanced Annotations"
+            }
+          },
+          {
+            "id": "f3b29c9df6f6fdff",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 383.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": true,
-      "graph:Open graph view": true,
-      "canvas:Create new canvas": true,
-      "templates:Insert template": true,
-      "command-palette:Open command palette": true,
-      "workspaces:Manage workspace layouts": false,
-      "quickadd:QuickAdd": true,
-      "obsidian-importer:Open Importer": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "obsidian-day-and-night:Toggle Theme": true,
-      "chronology:Open Chronology": true,
-      "obsidian-media-db-plugin:Add new Media DB entry": true,
-      "obsidian42-brat:BRAT": true,
-      "juggl:Juggl global graph": true,
-      "templater-obsidian:Templater": true,
-      "callout-manager:Insert Callout": true,
-      "obsidian-book-search-plugin:Create new book note": true,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "quickadd:QuickAdd": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-day-and-night:Toggle Theme": false,
+      "chronology:Open Chronology": false,
+      "obsidian-media-db-plugin:Add new Media DB entry": false,
+      "obsidian42-brat:BRAT": false,
+      "juggl:Juggl global graph": false,
+      "templater-obsidian:Templater": false,
+      "callout-manager:Insert Callout": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
       "image-picker:Open Image Picker": false
     }
   },
-  "active": "01e4c30fdb92f268",
-  "lastOpenFiles": [
-<<<<<<< HEAD
-    "tv shows to watch.md",
-    "Atlas/Life/Faks/Predmeti/Digitalna/Ispit - Digitalna.md",
-    "Master Task List.md",
-    "Atlas/Life/Faks/Predmeti/Grada racunala/ispit iz Grade racunala.md",
-    "Atlas/Life/Faks/Predmeti/Grada racunala/Grada racunala.md",
-    "Atlas/Life/Faks/Predmeti/Grada racunala",
-    "my books base.base",
-=======
-    "Good Will Hunting.md",
-    "movies base.base",
-    "Calendar/daily/2025/2025-07-05-Sat.md",
-    "Clippings/obsidian-image-search Obsidian Image Search Using google API.md",
-    "Atlas/Life/Kviz/kviz Pipa Bar - 3.5 2025.md",
->>>>>>> 607811374e8def96c16af481d333090f5f6084e5
-    "Atlas/Life/Kviz/kviz područja.md",
-    "Atlas/Life/Kviz/Kviz 2025-02-13 Pipa Bar.md",
-    "Atlas/Life/Kviz/Kviz 2025-01-16 Pipa bar.md",
-    "Atlas/Life/Kviz/kviz Pipa Bar 18.06.2025.md",
-    "Atlas/Life/Kviz/kviz Pipa Bar 6.5 2025.md",
-    "Atlas/Life/Kviz/Kviz.md",
-    "Efforts/Active/Techdot.IO/email setup on techdot.md",
-    "Efforts/Active/Techdot.IO/Techdot.IO.md",
-    "Efforts/Ongoing/Skinuti filmove, serije i slicno.md",
-    "Efforts/_Complete/setup Owncloud.md",
-    "Efforts/_Complete/setup Media Server.md",
-    "Efforts/_Complete/Setup AI locally.md",
-    "Efforts/Ongoing/instalacija sofwarea iz Bug 388.md",
-    "Efforts/_Complete/how difficult it is to setup a local FTP server.md",
-    "Master Task List.md",
-    "Vettel.md",
-    "Clippings/Django Testing Tutorial.md",
-    "~/×/5908384eb89cfa864a63072b872f44d2_MD5.jpg",
-    "~/×/dea9f7b110742661b9dcdf1d1440ba74_MD5.jpg",
-    "~/×/7456a3e197da8f09229b28cc748fb19e_MD5.jpg",
-    "~/×/fd36e49538000f1494e85558d7b753df_MD5.jpg",
-    "Clippings/Come and See - Wikipedia.md",
-    "Clippings/Cyprus - Wikipedia.md",
-    "Clippings/Max Verstappen - Wikipedia.md",
-    "Clippings/Obsidian Bases Update 📝 NEW Card View + Template Generator 💡 Practical Uses.md",
-    "Atlas/Knowledge/Media/Music",
-    "~/×/e58201fbba7ec0ef89a42b2721eb6e14_MD5.png",
-    "~/×/78ba0c317c68447d5fb5379fc3384124_MD5.png",
-    "~/×/3421e4d70dfbfef5000e3ae9530c6337_MD5.png",
-    "~/×/1a3cf698599071efbdb5ed80371d7b1f_MD5.png",
-    "~/×/d3786ba699e4513dc5e31afff1a0c471_MD5.png",
-    "~/×/c5de922ad318c28ae77e4549f7fb8ece_MD5.png",
-    "tasks canvas.canvas",
-    "Efforts/Active/A Complete Beginner's Guide to Django",
-    "my books base.base",
-    "Sets/ArticleSet",
-    "Untitled",
-    "Atlas/Tools/Arduino",
-    "hexadecimal system.md~",
-    "Atlas/Life/Faks/Predmeti/Grada racunala",
-    "Media DB/books",
-    "tasks pic.canvas",
-    "Efforts/Simmering/Obsidian Tinkering/canvas/experiment.canvas"
-  ]
+  "active": "2e06facb6e406711",
+  "lastOpenFiles": []
 }

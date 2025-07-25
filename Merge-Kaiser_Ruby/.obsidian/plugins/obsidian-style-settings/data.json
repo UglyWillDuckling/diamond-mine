@@ -1,8 +1,6 @@
 {
   "minimal-advanced@@font-ui-small": 12,
-  "minimal-style@@dataview-inline-lists": true,
   "minimal-style@@embed-strict": true,
   "minimal-style@@bold-color@@light": "#000000",
-  "minimal-advanced@@mobile-toolbar-off": false,
-  "minimal-style@@bold-modifier": 300
+  "minimal-advanced@@mobile-toolbar-off": false
 }

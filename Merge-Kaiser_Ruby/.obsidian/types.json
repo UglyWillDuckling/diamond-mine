@@ -40,7 +40,7 @@
     "TQ_show_urgency": "checkbox",
     "release date": "date",
     "premiere": "text",
-    "year": "date",
+    "year": "text",
     "lastWatched": "date",
     "awards": "multitext",
     "birthday": "date",
@@ -66,6 +66,19 @@
     "related articles": "multitext",
     "value": "number",
     "quality": "number",
-    "fields": "multitext"
+    "fields": "multitext",
+    "used_in": "multitext",
+    "bodovi": "number",
+    "mjesto": "number",
+    "active": "checkbox",
+    "areas": "multitext",
+    "from": "multitext",
+    "franchise": "multitext",
+    "creator": "multitext",
+    "new_episodes": "date",
+    "finished": "checkbox",
+    "airedFrom": "date",
+    "airedTo": "date",
+    "films": "multitext"
   }
 }

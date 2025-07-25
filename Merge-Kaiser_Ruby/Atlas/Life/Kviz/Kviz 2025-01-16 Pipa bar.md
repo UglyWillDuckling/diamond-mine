@@ -3,6 +3,7 @@ start date: 2025-01-16
 tags:
   - kviz
   - event
+datum: 2025-01-16
 ---
 [[2025-01-16]]
 **Prvi** put u [[Pipa bar]]u

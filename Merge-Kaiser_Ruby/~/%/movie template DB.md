@@ -1,5 +1,5 @@
 
-`$= '![Image|360](' + dv.current().image + ')'`
+`$= '![Image|200](' + dv.current().image + ')'`
 
 # `$= dv.current().title`
 

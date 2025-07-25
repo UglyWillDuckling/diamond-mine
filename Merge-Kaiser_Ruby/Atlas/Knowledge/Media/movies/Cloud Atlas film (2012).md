@@ -32,6 +32,7 @@ personalRating: 7.5
 type: movie
 tags:
   - film
+plan-to-watch: false
 ---
 `$= '![Image|360](' + dv.current().image + ')'`
 ```dataviewjs

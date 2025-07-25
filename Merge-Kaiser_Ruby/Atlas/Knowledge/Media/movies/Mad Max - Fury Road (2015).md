@@ -1,6 +1,6 @@
 ---
 type: movie
-subType: 
+subType:
 title: "Mad Max: Fury Road"
 englishTitle: "Mad Max: Fury Road"
 year: "2015"
@@ -28,13 +28,14 @@ actors:
   - Nicholas Hoult
 image: https://m.media-amazon.com/images/M/MV5BZDRkODJhOTgtOTc1OC00NTgzLTk4NjItNDgxZDY4YjlmNDY2XkEyXkFqcGc@._V1_SX300.jpg
 released: true
-streamingServices: 
+streamingServices:
 premiere: 05/15/2015
-watched: false
+watched: true
 lastWatched: ""
 personalRating: 0
 tags:
   - mediaDB/tv/movie
+plan-to-watch: false
 ---
 `$= '![Image|360](' + dv.current().image + ')'`
 

@@ -30,6 +30,8 @@ personalRating: 0
 tags:
   - film
   - 2000s
+plan-to-watch: true
+interest: 7
 ---
 
 `$= '![Image|360](' + dv.current().image + ')'`

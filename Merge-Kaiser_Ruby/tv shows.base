@@ -1,0 +1,68 @@
+filters:
+  and:
+    - type == "series"
+views:
+  - type: table
+    name: Table
+    order:
+      - year
+      - new_episodes
+      - airing
+      - file.name
+      - released
+      - finished
+      - watched
+    sort:
+      - property: new_episodes
+        direction: ASC
+      - property: finished
+        direction: ASC
+    columnSize:
+      note.year: 140
+      note.new_episodes: 133
+      note.airing: 74
+      file.name: 423
+      note.released: 110
+  - type: cards
+    name: Gallery
+    order:
+      - file.name
+      - year
+      - creator
+      - personalRating
+      - new_episodes
+      - finished
+    sort:
+      - property: new_episodes
+        direction: ASC
+    cardSize: 200
+    image: image
+  - type: cards
+    name: Upcoming
+    filters:
+      and:
+        - finished == false
+        - new_episodes >= today()
+    order:
+      - file.name
+      - new_episodes
+    image: note.image
+    imageFit: contain
+  - type: table
+    name: Plan to Watch
+    order:
+      - finished
+      - file.name
+      - airing
+      - plan-to-watch
+      - new_episodes
+    sort:
+      - property: plan-to-watch
+        direction: DESC
+      - property: airing
+        direction: DESC
+    columnSize:
+      file.name: 407
+      note.airing: 73
+      note.plan-to-watch: 148
+      note.new_episodes: 212

@@ -4,6 +4,6 @@
 - [x] #task Renew [[techdot.io domain]] Domain ⏫ ⏳ 2025-02-24 📅 2025-02-24 ✅ 2025-02-24
 ___
 
-- [/] #task Setup Email for [[Techdot.IO]] on [[second vps]] 🆔 BNF5gz 🔼 ⏳ 2025-02-26 📅 2025-07-06
+- [/] #task Setup Email for [[Techdot.IO]] on [[second vps]] 🆔 BNF5gz 🔼 ⏳ 2025-02-26 📅 2025-07-27
 	- [[email setup on techdot]]
 		- [[techdot docker email setup]]

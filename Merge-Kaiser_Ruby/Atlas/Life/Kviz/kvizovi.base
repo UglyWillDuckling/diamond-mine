@@ -1,0 +1,14 @@
+filters:
+  or:
+    - file.hasTag("kviz")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - datum
+    sort:
+      - property: datum
+        direction: DESC
+    columnSize:
+      file.name: 248

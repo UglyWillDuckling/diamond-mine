@@ -24,6 +24,42 @@
       "type": "prefix",
       "prefix": "note:",
       "hideTriggerString": true
+    },
+    "89035eb0-f7f9-4aad-8d77-96a6a5a992bb": {
+      "backgroundColor": "#75f6ff",
+      "bgColorOpacityPercent": 100,
+      "color": "#000000",
+      "colorOpacityPercent": 100,
+      "slug": "89035eb0-f7f9-4aad-8d77-96a6a5a992bb",
+      "prefixIcon": "",
+      "suffixIcon": "",
+      "type": "prefix",
+      "prefix": "info:",
+      "hideTriggerString": false
+    },
+    "ef95c7a4-726b-49ea-9c28-42f35927ef42": {
+      "backgroundColor": "#ffa424",
+      "bgColorOpacityPercent": 100,
+      "color": "#ffffff",
+      "colorOpacityPercent": 100,
+      "slug": "ef95c7a4-726b-49ea-9c28-42f35927ef42",
+      "prefixIcon": "",
+      "suffixIcon": "",
+      "type": "prefix",
+      "prefix": "warn:",
+      "hideTriggerString": false
+    },
+    "4f3d08b7-953c-4834-a77b-8d30f7d2e143": {
+      "backgroundColor": "#dd3c3c",
+      "bgColorOpacityPercent": 100,
+      "color": "#ffffff",
+      "colorOpacityPercent": 100,
+      "slug": "4f3d08b7-953c-4834-a77b-8d30f7d2e143",
+      "prefixIcon": "",
+      "suffixIcon": "",
+      "type": "prefix",
+      "prefix": "danger:",
+      "hideTriggerString": false
     }
   }
 }

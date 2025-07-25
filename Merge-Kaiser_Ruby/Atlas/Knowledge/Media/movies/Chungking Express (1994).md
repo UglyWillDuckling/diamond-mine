@@ -26,7 +26,7 @@ actors:
   - Tony Leung Chiu-wai
 image: https://m.media-amazon.com/images/M/MV5BNDQ4ZmYxODctZDVlZC00OTcxLWJjOGItZjRlMzk4MDA1Yjg1XkEyXkFqcGc@._V1_SX300.jpg
 released: true
-streamingServices: 
+streamingServices:
 premiere: 03/08/1996
 watched: false
 lastWatched: ""
@@ -34,5 +34,7 @@ personalRating: 0
 tags:
   - mediaDB/tv/movie
   - film
+plan-to-watch: true
+interest: 8
 ---
 ![](https://www.youtube.com/watch?v=OPCug9jyG9k)

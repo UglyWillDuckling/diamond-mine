@@ -26,10 +26,10 @@ image: https://m.media-amazon.com/images/M/MV5BZDhiMTljYjYtODc1Yy00MmEwLTg2OTYtY
 released: true
 premiere: 08/15/1979
 watched: false
-lastWatched: 
+lastWatched:
 tags:
   - film
-plan-to-watch: false
+plan-to-watch: true
 interest: 9
 personalRating: 0
 themes:

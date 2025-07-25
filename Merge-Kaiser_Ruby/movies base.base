@@ -1,13 +1,14 @@
 filters:
   and:
     - type == "movie"
+    - '!file.folder.contains("Set")'
+formulas:
+  hello: number(year) - 5
+  Untitled: |
+    3+2
 views:
   - type: cards
     name: Cards
-    filters:
-      or:
-        - interest >= 7
-        - note["plan-to-watch"] == true
     order:
       - file.name
       - image
@@ -21,14 +22,51 @@ views:
     image: image
   - type: cards
     name: want to watch
+    filters:
+      or:
+        - note["plan-to-watch"] == true
     order:
       - file.name
       - year
       - director
-      - personalRating
       - interest
       - watched
+      - plan-to-watch
     sort:
       - property: personalRating
         direction: DESC
     image: image
+  - type: table
+    name: View
+    order:
+      - interest
+      - plan-to-watch
+      - file.name
+      - watched
+      - year
+      - personalRating
+      - director
+    sort:
+      - property: plan-to-watch
+        direction: DESC
+      - property: interest
+        direction: DESC
+    columnSize:
+      note.interest: 94
+      note.plan-to-watch: 95
+      file.name: 274
+      note.year: 104
+      note.personalRating: 119
+  - type: table
+    name: In Time
+    order:
+      - year
+      - file.name
+      - plot
+    sort:
+      - property: year
+        direction: DESC
+    rowHeight: tall
+    columnSize:
+      note.year: 101
+      note.plot: 718

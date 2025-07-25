@@ -14,6 +14,7 @@ genres:
   - Mystery
 director:
   - Clint Eastwood
+  - "[[Clint Eastwood]]"
 writer:
   - Brian Helgeland
   - Dennis Lehane
@@ -27,7 +28,7 @@ actors:
   - Kevin Bacon
 image: https://m.media-amazon.com/images/M/MV5BMTIzNDUyMjA4MV5BMl5BanBnXkFtZTYwNDc4ODM3._V1_SX300.jpg
 released: true
-streamingServices: 
+streamingServices:
 premiere: 15.10.2003
 watched: false
 lastWatched: ""
@@ -35,6 +36,7 @@ personalRating: 0
 tags:
   - mediaDB/tv/movie
   - film
+plan-to-watch: true
 ---
 
 `$= '![Image|360](' + dv.current().image + ')'`

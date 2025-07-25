@@ -1,5 +1,4 @@
 ---
-
 type: movie
 subType: ""
 title: Mad Max Beyond Thunderdome
@@ -32,10 +31,11 @@ image: https://m.media-amazon.com/images/M/MV5BMTNkOGZjMGMtNDI4Zi00ZDBjLWJhY2UtM
 released: true
 streamingServices: []
 premiere: 07/10/1985
-watched: false
+watched: true
 lastWatched: ""
 personalRating: 0
 tags: mediaDB/tv/movie
+plan-to-watch: false
 ---
 `$= '![Image|360](' + dv.current().image + ')'`
 

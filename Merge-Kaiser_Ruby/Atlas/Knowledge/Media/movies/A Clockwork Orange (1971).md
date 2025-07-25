@@ -26,6 +26,8 @@ personalRating: 0
 tags:
   - mediaDB/tv/movie
   - film
+plan-to-watch: true
+interest: 8
 ---
 
 `$= '![Image|360](' + dv.current().image + ')'`

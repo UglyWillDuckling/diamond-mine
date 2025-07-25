@@ -2,60 +2,12 @@
   "editorSuggest": {
     "enableAutoSuggest": true,
     "triggerPhrase": "//",
-    "commentFormat": "markdown"
+    "commentFormat": "html"
   },
   "decoration": {
     "autoRegisterLabels": true,
     "styles": {
-      "labels": {
-        "1750349716018": {
-          "label": "note",
-          "id": "1750349716018",
-          "enableStyle": true,
-          "style": {
-            "color": "#d16b99",
-            "italic": false,
-            "opacity": 80,
-            "fontSize": 16,
-            "fontFamily": "monospace",
-            "underline": false
-          }
-        },
-        "1750349748081": {
-          "label": "pop",
-          "id": "1750349748081",
-          "enableStyle": true,
-          "style": {
-            "color": "#00e4be",
-            "italic": true,
-            "fontWeight": "thin",
-            "underline": true,
-            "fontFamily": "sans-serif"
-          }
-        },
-        "1750526853886": {
-          "label": "remember",
-          "id": "1750526853886",
-          "enableStyle": true,
-          "style": {
-            "color": "#5aafb5",
-            "italic": false,
-            "fontSize": 16,
-            "fontFamily": "monospace"
-          }
-        },
-        "1751230215070": {
-          "label": "location",
-          "id": "1751230215070",
-          "enableStyle": true,
-          "style": {
-            "color": "#ffdf3d",
-            "italic": true,
-            "fontWeight": "thin",
-            "opacity": 80
-          }
-        }
-      },
+      "labels": {},
       "tag": {
         "style": {
           "fontSize": 10,
@@ -67,7 +19,7 @@
     "defaultPalette": "bright"
   },
   "outline": {
-    "fontSize": 16,
+    "fontSize": 12,
     "showLabelsFilter": false,
     "showSearchInput": false,
     "hiddenLabels": [],
@@ -90,15 +42,7 @@
   },
   "idling": {
     "daysUnused": [
-<<<<<<< HEAD
-      "2025-06-10",
-      "2025-06-11",
-      "2025-06-12"
-=======
-      "2025-06-29",
-      "2025-07-01",
-      "2025-07-05"
->>>>>>> 607811374e8def96c16af481d333090f5f6084e5
+      "2025-07-21"
     ]
   },
   "clipboard": {

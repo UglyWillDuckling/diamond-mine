@@ -27,8 +27,8 @@ tags:
 
 **`=this.agenda`**
 
-- [[kolega Ivan]] is coming
+- [[Ivan Majstorovic]] is coming
 
 ## notes 🗒
 
-- [[kolega Ivan]] dolazi [[2025-07-15-Tue]]
+- [[Ivan Majstorovic]] dolazi [[2025-07-15-Tue]]

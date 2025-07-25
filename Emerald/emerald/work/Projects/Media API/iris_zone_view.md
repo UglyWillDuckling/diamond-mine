@@ -14,5 +14,4 @@ CREATE OR REPLACE VIEW iris_zone_view AS (
 );
 ```
 
-
 [^1]: [[sql view]]

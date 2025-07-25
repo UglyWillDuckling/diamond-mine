@@ -70,4 +70,6 @@ ___
 - [[Class Attributes]]
 - [[__dict__ lesson]]
 - [[Exception Context and Causes Lesson]]
-
+- [[Properties lesson]]
+- [[Configurable Decorators lesson]]
+- [[Customizing Indexing lesson]]

@@ -4,41 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "fdb7874cca60b43d",
+        "id": "477ceb91fabe31e6",
         "type": "tabs",
         "children": [
           {
-            "id": "7ba97f88ca45e6c3",
+            "id": "601644a1911c8a6f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/Active/execute program - python for programmers course/Properties lesson.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Properties lesson"
-            }
-          },
-          {
-            "id": "bde97117e484f7e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-14-Mon.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-07-14-Mon"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:##work/howto/git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5,
+    "width": 260.506778717041,
     "collapsed": true
   },
   "right": {
@@ -274,62 +253,62 @@
       "cmdr:Command palette: Open command palette": true
     }
   },
-  "active": "bde97117e484f7e8",
+  "active": "601644a1911c8a6f",
   "lastOpenFiles": [
-    "Efforts/Active/execute program - python for programmers course/Properties lesson.md",
-    "work/tickets/update price button - remove if no estima realtion.md",
-    "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-14-Mon.md",
+    "Atlas/tools/dev/php/PHP 8.5 Pipe operator.md",
+    "Clippings/Laravel NVIM.md",
+    "Clippings/Neovim for PHP and Laravel.md",
+    "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-25-Fri.md",
+    "work/tickets/FEAT/Onboarding - Ivan & Zvonimir.md",
+    "Atlas/Knowledge/notes/php 8 - property-hooks rfc examples.md",
+    "~/x/ad72cbe33337e83d94ade5734faefe14_MD5.jpeg",
+    "Clippings/argocd - how to check the deploy logs.md",
+    "argocd.png",
+    "Efforts/Active/execute program - python for programmers course/Customizing Equality lesson.md",
+    "Clippings/PHP 8.4 Property Hooks.md",
+    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
+    "Clippings/Website Design Portfolio.md",
+    "work/tickets/FEAT/Transac Zones update ticket/update salesforce API to limit the number of requests to `media`.md",
+    "work/tickets/FEAT/Transac Zones update ticket/Fix zone view migration.md",
+    "work/meetings/2025-07-25 Onboarding continued.md",
+    "quick action list.md",
+    "work/tickets/FEAT/basic deployment workflow on dev.md",
+    "Atlas/tools/dev/deployment/argocd.md",
+    "Atlas/Knowledge/templates/day template.md",
+    "work/docs/serge.md",
+    "work/tickets/FEAT/Rebuilding the Legacy Backyard App from Scratch.md",
+    "work/tickets/chores/BY optimization for dossiers page.md",
+    "work/Projects/SalesForceApi/how to salesforceapi on GCP logs.md",
+    "meetings.base",
+    "Atlas/tools/PM/BeeBole.md",
     "Efforts/master task list.md",
-    "Efforts/Ongoing/git book - Pro Git.md",
-    "Efforts/Done/obsidian vimrc ticket.md",
-    "~/% tmpl/templater/lesson start.md",
-    "Atlas/tools/dev/git/git log - concise output.md",
+    "Atlas/Knowledge/daily_notes/2025/07-July/PHP Adminer.md",
+    "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-24-Thu.md",
+    "~/x/ac85994908d1f3237bd756a9a0b95867_MD5.jpg",
+    "work/applications.base",
+    "work/Projects/SalesForceApi",
+    "~/x/395c26aec61712886016c046cd90309c_MD5.jpeg",
+    "4.png",
+    "3.png",
+    "2.png",
+    "~/x/aa383d8c6ea567562464d82d541b38d8_MD5.jpeg",
+    "1.png",
+    "~/x/cf33d08c7cb08f0f9c17caf4c2e7a2ea_MD5.jpeg",
+    "work/Projects/_archive",
     "Efforts/projects.base",
     "Efforts/hello.base",
-    "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-11-Fri.md",
-    "Efforts/Active/execute program - python for programmers course/Exception Context and Causes Lesson.md",
-    "Efforts/Active/execute program - python for programmers course/execute program - python for programmers course.md",
-    "Clippings/Blog - Plaće developera vs. plaće dizajnera — stanje hrvatskog IT-a u 2025..md",
-    "work/tickets/FEAT/Transac Zones update ticket/backyard implementation for transac.md",
-    "work/meetings/1 on 1 danas/1on1 with Paulo 2025-03-20.md",
-    "work/tickets/FEAT/Transac Zones update ticket/Transac Zones update ticket.md",
-    "Clippings/Hugo Chávez - Wikipedia.md",
-    "work/tickets/FEAT/Transac Zones update ticket/Handle usage of biz_product_coverage table.md",
     "work/tickets/FEAT/Transac Zones update ticket/docs/coverage update canvas.canvas",
-    "Untitled.md",
-    "Atlas/tools/database_restore Jenkins.md",
-    "Efforts/Active/execute program - python for programmers course/Custom Exceptions lesson.md",
-    "Clippings/dev-container Neovim dev container support.md",
-    "Atlas/Knowledge/daily_notes/2025/07-July/2025-07-10-Thu.md",
-    "Efforts/Active/execute program - python for programmers course/__dict__ lesson.md",
-    "~/% tmpl/templater/python code block.md",
-    "Atlas/Knowledge/templates/day template.md",
-    "~/% tmpl/templater/tool template.md",
-    "meetings.base",
     "tasks canvas.canvas",
     "work/people/NOVA",
-    "work/people/LUNA/Screenshot_20241107_140216.png",
     "work/people/LUNA",
     "work/people/AVIV",
     "work/people",
-    "work/Projects/Media API",
-    "work/Projects/LUQA/howtos",
-    "work/Projects/LUQA/docs",
     "work/Projects/Backyard/Features/QSL listing feature/docs/features/aws import  impl..canvas",
     "work/Projects/Backyard/Features/QSL listing feature/docs/code/aws test script solution.canvas",
     "work/Projects/Backyard/Features/QSL listing feature/docs/code/Athena impl..canvas",
     "work/Projects/Backyard/Features/QSL listing feature/docs/artifacts/crontab board.canvas",
-    "work/notes/archive/iris-code.png",
     "Efforts/projects.canvas",
     "work/tickets/event issue solution canvas.canvas",
-    "~/x/d136608e8bbe399debcc1513a2c08b32_MD5.jpg",
-    "~/x/cf4f554afb2ab9f4904dc57b21fbc382_MD5.jpg",
-    "Pro Git - Scott Chacon/images/scripting-03-webhook.png",
-    "work/docs/CRM/CRM.canvas",
-    "Atlas/tools/obsidian/Templater/Templater doc/favicon.png",
-    "Atlas/tools/obsidian/Templater/Templater doc/favicon.svg",
-    "Atlas/tools/obsidian/Templater/Templater doc/imgs/templater_user_templates.png",
-    "tmp/Templater/imgs/templater_user_templates.png",
-    "tmp/Templater/favicon.svg"
+    "work/docs/CRM/CRM.canvas"
   ]
 }

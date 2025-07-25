@@ -15,7 +15,7 @@ meeting_type: 1on1
 
 [[Rakesh]] was **responsible**
 
-- complexity of [[luqa]]
+- complexity of [[LUQA]]
 - ..
 
 [[Transac Zones update ticket]]

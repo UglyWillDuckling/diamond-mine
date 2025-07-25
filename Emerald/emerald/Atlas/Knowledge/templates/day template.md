@@ -35,6 +35,8 @@ ___
 ---
 ### 📝 Notes
 - <% tp.file.cursor() %>
+### Log
+
 
 ### Notes created today
 ```dataview

@@ -51,4 +51,4 @@ keanu.favorite_food
 ___
 We can define and manipulate class attributes like this because Python classes themselves are objects! Keanu is an **instance** of Cat:
 
-next: [[Customizing Equality]]
+next: [[Customizing Equality lesson]]

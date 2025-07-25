@@ -27,8 +27,6 @@ views:
         direction: DESC
       - property: formula.schedule_date
         direction: ASC
-      - property: "formula.has passed "
-        direction: ASC
       - property: formula.my folder
         direction: DESC
     columnSize:
@@ -48,7 +46,7 @@ views:
       - formula.relative
     sort:
       - property: formula.relative
-        direction: ASC
+        direction: DESC
       - property: scheduled
         direction: DESC
       - property: "formula.has passed "
@@ -58,8 +56,8 @@ views:
       - property: property.related
         direction: ASC
     columnSize:
-      "formula.has passed ": 104
-      file.name: 237
+      "formula.has passed ": 131
+      file.name: 290
       formula.relative: 145
   - type: cards
     name: 1 on 1s

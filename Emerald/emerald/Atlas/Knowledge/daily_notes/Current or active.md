@@ -1,7 +1,8 @@
-<mark class='underline'>stuff to remember</mark>
+==stuff to remember==
 
 ## current 📓
 
 - [[Transac Zones update ticket]]
+- [[Onboarding - Ivan & Zvonimir]]
 
 ^current

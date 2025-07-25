@@ -14,8 +14,8 @@ ___
 
 ## 🗒notes
 
-- [[rdvvq]] are only visible on [[backyard]]
-	- 3 agencies are inside [[rdvvq]]
+- [[RDVVQ]] are only visible on [[backyard]]
+	- 3 agencies are inside [[RDVVQ]]
 - need to discuss the endpoint `signature`
 - & [[Evaluation]] cannot be taken back
 

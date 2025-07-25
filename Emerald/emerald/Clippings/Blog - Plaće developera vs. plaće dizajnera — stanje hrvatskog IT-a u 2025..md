@@ -8,7 +8,7 @@ tags:
   - article/dev
   - article/dev/jobs
 ---
-- [ ] remind me [[Blog - Plaće developera vs. plaće dizajnera — stanje hrvatskog IT-a u 2025.]] (@[[2025-07-25]])
+- [x] remind me [[Blog - Plaće developera vs. plaće dizajnera — stanje hrvatskog IT-a u 2025.]] (@[[2025-07-25]])
 PAULA GRUBIŠA
 
 Plaće developera vs. plaće dizajnera — stanje hrvatskog IT-a u 2025.  

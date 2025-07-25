@@ -1,11 +1,15 @@
 ---
-tags:
-  - howto/git
 quality: 7
 value: 6
 interest: 8
+about:
+  - "[[git format]]"
+tags:
+  - howto/git
+  - git/formatting
 ---
-- [ ] remind me [[git log - concise output]] (@[[2025-07-15]])
+- [x] remind me [[git log - concise output]] (@[[2025-07-15]])
+- [ ] reminder me 2 [[git log - concise output]] (@[[2025-07-31]])
 ___
 
 You can use the following Git command to display a concise log output with

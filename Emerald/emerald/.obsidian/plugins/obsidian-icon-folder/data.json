@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiWind",
+      "LiFunctionSquare",
+      "🎴",
       "LiSquareCheckBig",
-      "LiHandshake",
-      "🗨",
-      "LiCookingPot",
-      "LiCheck"
+      "LiHandshake"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -345,5 +345,10 @@
   "Efforts/Done": "LiCheck",
   "Efforts/Simmering": "LiCookingPot",
   "meetings.base": "LiHandshake",
-  "tasks canvas.canvas": "LiSquareCheckBig"
+  "tasks canvas.canvas": "LiSquareCheckBig",
+  "work/Projects/Backyard": "🎴",
+  "quick action list.md": {
+    "iconName": "LiWind",
+    "iconColor": "#4c8a9a"
+  }
 }

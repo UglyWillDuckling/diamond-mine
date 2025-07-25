@@ -94,6 +94,7 @@
     "studied_on": "multitext",
     "covered_in": "multitext",
     "mentioned_in": "multitext",
-    "sequence": "number"
+    "sequence": "number",
+    "created_during": "multitext"
   }
 }

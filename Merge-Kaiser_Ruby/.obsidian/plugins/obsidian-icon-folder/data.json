@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "📚",
-      "🎥",
-      "🪨",
-      "LiComputer",
-      "©"
+      "🌄",
+      "LiBookImage",
+      "LiQuote",
+      "👩‍🔬",
+      "LiTabs"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -204,5 +204,16 @@
   "Atlas/Life/physical items": "🪨",
   "movies base.base": "🎥",
   "Efforts/Simmering/Obsidian Tinkering": "LiPlay",
-  "my books base.base": "📚"
+  "my books base.base": "📚",
+  "Atlas/Knowledge/World": "LiGlobe",
+  "Atlas/Knowledge/Science/Computer Science": "LiComputer",
+  "Atlas/howtos": {
+    "iconName": "LiStepForward",
+    "iconColor": "#24bdff"
+  },
+  "Atlas/Knowledge/Concepts": "LiTabs",
+  "Atlas/Knowledge/Science": "👩‍🔬",
+  "Atlas/Knowledge/Quotes": "LiQuote",
+  "Atlas/Knowledge": "LiBookImage",
+  "Atlas/Life": "🌄"
 }

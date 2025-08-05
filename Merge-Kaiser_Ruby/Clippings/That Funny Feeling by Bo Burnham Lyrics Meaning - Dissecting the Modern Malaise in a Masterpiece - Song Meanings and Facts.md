@@ -79,8 +79,9 @@ Beneath the veneer of its gentle acoustic strums, ‘That Funny Feeling’ trave
 ## An Ode to 21st-Century Discontent: Irony as Art
 #Irony 
 Burnham crafts a melody that’s a [[siren song]] for disillusioned souls, ==blending wry humor with raw truth.== The lyrics serve as a catalog of ironies that define the current age: 
+
 Meditation apps promising peace at a premium and revolutions commercialized by retail discounts.
-It’s a sharp critique of capitalism’s [[commodification]] of absolutely everything, **even rebellion**.
+It’s a sharp critique of capitalism’s [[commodification]] of **absolutely everything,** **even rebellion**.
 
 The song consistently [[juxtapose]]s profound societal movements with trivial modern phenomena, leading to ‘that funny feeling’—a mix of ==amusement==, ==discomfort==, and ==resignation==. Burnham’s efficacy lies in his ability to spotlight these [[dichotomies]] not just lyrically but in the very [[dissonance]] between his subdued performance and the **weight** of the words he delivers.
 
@@ -92,14 +93,15 @@ Burnham’s invocation of ‘total [[disassociation]]’ and ‘[[derealization]
 
 ## Decoding the [[Veneer]] of Pop Culture References
 
-In Burnham’s lyrical landscape, names and brands—Steve Aoki, Logan Paul, Robert Iger—act as [[shorthand]] ==for the peculiarities and absurdities== of the [[influencer]] era.
-**These are not throwaway references** but a carefully curated collection intending to paint a mosaic of the **era’s zeitgeist**. Their mention is not about the individuals but what they represent: the [[commodification]] **of self**, **the theatrics of manufactured authenticity, and the blurred lines between entertainment and reality.**
+In Burnham’s lyrical landscape, names and brands—[[Steve Aoki]], [[Logan Paul]], [[Robert Iger]]—act as [[shorthand]] ==for the peculiarities and absurdities== of the [[influencer]] era.
+**These are not throwaway references** but a carefully curated collection intending to paint a mosaic of the **era’s zeitgeist**. 
+Their mention is not about the individuals but what they represent: **the** [[commodification]] **of self**, **the theatrics of manufactured authenticity, and the blurred lines between entertainment and reality.**
 
 By naming these cultural icons and phenomena, Burnham asks us to consider the value we ascribe to celebrity, the bizarre phenomena we’ve normalized, and the **societal undercurrents** they reflect. Each reference is another thread in the tapestry of modern [[dissonance]] embodied in the song.
 
 ## A Call to Mindfulness Amidst the Mayhem
 
-As Burnham strings together scenes of an **off-kilter** normalcy—’Carpool Karaoke’, ‘a mass shooting at the mall’—**there’s a rallying cry for awareness among the anesthetization**. The song urges a mindful engagement with the world around us, even when it feels alien or overwhelming.
+As Burnham strings together scenes of an **off-kilter** normalcy—’Carpool Karaoke’, ‘a mass shooting at the mall’—**there’s a rallying cry for awareness among the anesthetization**. ==The song urges a mindful engagement with the world around us, even when it feels alien or overwhelming.==
 
 The genius in Burnham’s approach is that he doesn’t prescribe a solution but presents a mirror. It’s a call to recognize the ‘funny feeling’ as a **signpost of our times**, a collective symptom that merits attention. **He doesn’t resolve the tension but fosters a space that invites contemplation**, a rare offering in the rapid consumption of media today.
 
@@ -108,6 +110,8 @@ The genius in Burnham’s approach is that he doesn’t prescribe a solution but
 
 Certain lines in ‘That Funny Feeling’ are etched deep into the conscience of listeners. ‘==The whole world at your fingertips, the ocean at your door==’— with these words, Burnham encapsulates the [[paradox]] **of unprecedented access amidst profound isolation**, underlining the song’s status as a cultural [[time capsule]].
 
-Resonating as modern-day maxims, lyrics such as ‘the live-action Lion King, the Pepsi Halftime Show’ become potent symbols of our era’s obsession with [[nostalgia]] repackaged as innovation. This isn’t just songwriting; it’s a **linguistic cartography** of our [[collective psyche]], mapping out the terrain of contemporary culture with laser precision.
+Resonating as modern-day maxims, lyrics such as ‘the live-action Lion King, the Pepsi Halftime Show’ become potent symbols of our era’s obsession with [[nostalgia]] **repackaged as innovation**.
+
+This isn’t just songwriting; it’s a **linguistic cartography** of our [[collective psyche]], mapping out the terrain of contemporary culture with laser precision.
 
 Related [[comment on reddit]]

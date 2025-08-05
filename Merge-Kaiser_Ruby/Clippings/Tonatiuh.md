@@ -5,18 +5,10 @@ author:
 created: 2025-03-20
 tags:
   - god
+description: Fifth and final sun
+related:
+  - "[[Aztecs]]"
 ---
-
-- [[#Overview|Overview]]
-- [[#Etymology|Etymology]]
-- [[#Attributes|Attributes]]
-- [[#Family|Family]]
-	- [[#Family#Family Tree|Family Tree]]
-- [[#Mythology|Mythology]]
-	- [[#Mythology#The Beginning of the **Fifth** Age|The Beginning of the **Fifth** Age]]
-	- [[#Mythology#Setting the Sun into Motion|Setting the Sun into Motion]]
-	- [[#Mythology#The Demise of the Fifth Age|The Demise of the Fifth Age]]
-- [[#Pop Culture|Pop Culture]]
 
 ## Overview
 

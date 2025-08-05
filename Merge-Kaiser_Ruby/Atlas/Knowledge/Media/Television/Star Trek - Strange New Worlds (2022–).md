@@ -95,4 +95,4 @@ Star Trek: Strange New Worlds follows [[Captain Christopher Pike]] and the crew 
 	Space, the final frontier. These are the voyages of the starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before.
 
 ___
-- [ ] back on [[2025-07-17-Thu]] (@2025-07-23)
+- [x] back on [[2025-07-17-Thu]] (@2025-07-23)

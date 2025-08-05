@@ -24,7 +24,6 @@ watched: false
 lastWatched: ""
 personalRating: 0
 tags:
-  - mediaDB/tv/series
   - tv-series
 new_episodes: 2025-08-12
 finished: false

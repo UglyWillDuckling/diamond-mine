@@ -18,10 +18,10 @@ tags:
   - tv-series
 plan-to-watch: true
 ---
-
 `$= '![Image|200](' + dv.current().image + ')'`
 
-- [ ] remind me [[Wednesday (TV series)]] (@2025-08-05)
+- [x] remind me [[Wednesday (TV series)]] (@2025-08-05)
+- [ ] remind me [[Wednesday (TV series)]] (@2025-08-08)
 ___
 
 ***Wednesday*** is an American [supernatural](https://en.wikipedia.org/wiki/Supernatural_fiction "Supernatural fiction") [mystery](https://en.wikipedia.org/wiki/Mystery_fiction "Mystery fiction") [comedy](https://en.wikipedia.org/wiki/Comedy_film "Comedy film") [^3] television series based on the character [Wednesday Addams](https://en.wikipedia.org/wiki/Wednesday_Addams "Wednesday Addams") by [Charles Addams](https://en.wikipedia.org/wiki/Charles_Addams "Charles Addams"). Created by [Alfred Gough](https://en.wikipedia.org/wiki/Alfred_Gough "Alfred Gough") and [Miles Millar](https://en.wikipedia.org/wiki/Miles_Millar "Miles Millar"), it stars [Jenna Ortega](https://en.wikipedia.org/wiki/Jenna_Ortega "Jenna Ortega") as the titular main character, with [Gwendoline Christie](https://en.wikipedia.org/wiki/Gwendoline_Christie "Gwendoline Christie"), [Riki Lindhome](https://en.wikipedia.org/wiki/Riki_Lindhome "Riki Lindhome"), [Jamie McShane](https://en.wikipedia.org/wiki/Jamie_McShane "Jamie McShane"), [Hunter Doohan](https://en.wikipedia.org/wiki/Hunter_Doohan "Hunter Doohan"), [Percy Hynes White](https://en.wikipedia.org/wiki/Percy_Hynes_White "Percy Hynes White"), [Emma Myers](https://en.wikipedia.org/wiki/Emma_Myers "Emma Myers"), [Joy Sunday](https://en.wikipedia.org/wiki/Joy_Sunday "Joy Sunday"), [Georgie Farmer](https://en.wikipedia.org/wiki/Georgie_Farmer "Georgie Farmer"), [Naomi J. Ogawa](https://en.wikipedia.org/wiki/Naomi_J._Ogawa "Naomi J. Ogawa"), [Christina Ricci](https://en.wikipedia.org/wiki/Christina_Ricci "Christina Ricci"), and Moosa Mostafa appearing in supporting roles. Four out of the eight episodes of the first season were directed by [Tim Burton](https://en.wikipedia.org/wiki/Tim_Burton "Tim Burton"), who also serves as executive producer. The first season revolves around Wednesday Addams, who attempts to solve a murder mystery at her new school.[^4]

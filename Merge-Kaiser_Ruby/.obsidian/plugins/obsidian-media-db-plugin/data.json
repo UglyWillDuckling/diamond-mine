@@ -263,7 +263,7 @@
           "property": "studio",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "episodes",
@@ -275,7 +275,7 @@
           "property": "duration",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "onlineRating",
@@ -305,7 +305,7 @@
           "property": "streamingServices",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "airing",

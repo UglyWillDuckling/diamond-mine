@@ -6,13 +6,13 @@ published: 2001-10-27
 created: 2025-07-01
 source: https://en.m.wikipedia.org/wiki/Koyaanisqatsi
 image: https://s3.amazonaws.com/criterion-production/films/55db5dadfec17b9daf2d35fe8dcd13b2/qtYa3xcULravgM4Bb1zGk3eqWOwT0q_large.jpg
-tags:
-  - film
-  - film/doc
 year: "1982"
 interest: 8
 rating:
 plan-to-watch: true
+tags:
+  - film
+  - film/doc
 ---
 
 ![cover|250](https://s3.amazonaws.com/criterion-production/films/55db5dadfec17b9daf2d35fe8dcd13b2/qtYa3xcULravgM4Bb1zGk3eqWOwT0q_large.jpg)
@@ -23,6 +23,10 @@ plan-to-watch: true
 
 ![[~/×/18e14dcce89afbb966b90fca578f1c88_MD5.jpg|200]]
 *Grand Central Terminal in New York City is shown several times in the film.*
+
+## trailer 🎞
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tDW-1JIa2gI?si=R6SElyXmsZiU1hfw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Etymology
 

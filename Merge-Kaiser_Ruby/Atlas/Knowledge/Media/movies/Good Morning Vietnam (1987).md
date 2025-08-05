@@ -11,11 +11,11 @@ genres:
   - Drama
 director:
   - Barry Levinson
-onlineRating: 7.3
 actors:
-  - Robin Williams
   - Forest Whitaker
   - Tom T. Tran
+  - "[[Robin Williams]]"
+onlineRating: 7.3
 image: https://m.media-amazon.com/images/M/MV5BYThiZTU4N2UtYWU2Mi00ZGUyLWI2ZmEtM2U1ZmJmOGY1ZTc3XkEyXkFqcGc@._V1_SX300.jpg
 premiere: 15.01.1988
 released: true
@@ -29,7 +29,7 @@ tags:
 interest: 7
 ---
 
-`$= '![Image|360](' + dv.current().image + ')'`
+`$= '![Image|200](' + dv.current().image + ')'`
 
 # `$= dv.current().title`
 
@@ -40,12 +40,6 @@ if (dv.current().watched) {
 	dv.paragraph(`> [!WARNING] \`INPUT[toggle:watched]\` not yet watched`);
 }
 ```
-
-  <iframe src="https://geo.dailymotion.com/player.html?video=x8ljxf7"
-    style="width:600; height:400px" allowfullscreen>
-  </iframe>
-	
-**Rating**:  `INPUT[slider(addLabels, minValue(0), maxValue(10)):personalRating]` (`$= dv.current().personalRating` out of 10)
 
 **Genres**:
 ```dataviewjs
@@ -158,95 +152,6 @@ Certifications and sales
 
 <table><thead><tr><th>Region</th><th>Certification</th><th><a href="https://en.m.wikipedia.org/wiki/List_of_music_recording_certifications">Certified units</a> /sales</th></tr></thead><tbody><tr><th>Australia</th><td>—</td><td>150,000 <sup><a href="https://en.m.wikipedia.org/wiki/#fn:36">36</a></sup></td></tr><tr><th>New Zealand (<a href="https://en.m.wikipedia.org/wiki/Recorded_Music_NZ">RMNZ</a>) <sup><a href="https://en.m.wikipedia.org/wiki/#fn:37">37</a></sup></th><td>Gold</td><td>7,500 <sup>^</sup></td></tr><tr><th>United Kingdom (<a href="https://en.m.wikipedia.org/wiki/British_Phonographic_Industry">BPI</a>) <sup><a href="https://en.m.wikipedia.org/wiki/#fn:38">38</a></sup><br><small><i>2000 release</i></small></th><td>Gold</td><td>100,000 <sup>^</sup></td></tr><tr><th>United Kingdom (<a href="https://en.m.wikipedia.org/wiki/British_Phonographic_Industry">BPI</a>) <sup><a href="https://en.m.wikipedia.org/wiki/#fn:39">39</a></sup><br><small><i>1988 release</i></small></th><td>Gold</td><td>100,000 <sup>^</sup></td></tr><tr><th>United States (<a href="https://en.m.wikipedia.org/wiki/Recording_Industry_Association_of_America">RIAA</a>) <sup><a href="https://en.m.wikipedia.org/wiki/#fn:40">40</a></sup></th><td>Platinum</td><td>1,000,000 <sup>^</sup></td></tr><tr><td colspan="3"><p><small><sup>^</sup> Shipments figures based on certification alone.</small></p></td></tr></tbody></table>
 
+## other 
+
 In 1992, [Mark Frost](https://en.m.wikipedia.org/wiki/Mark_Frost "Mark Frost") wrote a sequel screenplay, *Good Morning, Chicago*.[^41] [^42] The film would have featured Williams, reprising his role as Cronauer, as a journalist at the [1968 Democratic National Convention](https://en.m.wikipedia.org/wiki/1968_Democratic_National_Convention "1968 Democratic National Convention"). The project was eventually scrapped, due to disagreements between Williams, Levinson and [Disney](https://en.m.wikipedia.org/wiki/The_Walt_Disney_Company "The Walt Disney Company"), over the film's direction.[^43]
-
-- [*Good Morning, Vietnam*](https://www.imdb.com/title/tt0093105/) at [IMDb](https://en.m.wikipedia.org/wiki/IMDb_\(identifier\) "IMDb (identifier)")
-- [*Good Morning, Vietnam*](https://www.tcm.com/tcmdb/title/76712/enwp) at the [TCM Movie Database](https://en.m.wikipedia.org/wiki/Turner_Classic_Movies "Turner Classic Movies")
-- [*Good Morning, Vietnam*](https://catalog.afi.com/Catalog/moviedetails/57630) at the *[AFI Catalog of Feature Films](https://en.m.wikipedia.org/wiki/AFI_Catalog_of_Feature_Films "AFI Catalog of Feature Films")*
-- [*Good Morning, Vietnam*](https://www.boxofficemojo.com/movies/?id=goodmorningvietnam.htm) at [Box Office Mojo](https://en.m.wikipedia.org/wiki/Box_Office_Mojo "Box Office Mojo")
-
-[^1]: ["Good Morning, Vietnam"](https://www.bbfc.co.uk/release/good-morning-vietnam-q29sbgvjdglvbjpwwc0yotm0nty). *bbfc.co.uk*. British Board of Film Classification. Retrieved June 30, 2024.
-
-[^2]: ["Good Morning Vietnam (1987)"](https://www.the-numbers.com/movie/Good-Morning-Vietnam#tab=summary). *[The Numbers](https://en.m.wikipedia.org/wiki/The_Numbers_\(website\) "The Numbers (website)")*. [Archived](https://web.archive.org/web/20180718030710/https://www.the-numbers.com/movie/Good-Morning-Vietnam#tab=summary) from the original on July 18, 2018. Retrieved July 17, 2018.
-
-[^3]: Barthold, Jim (March 1, 2005). ["The Real Life of Adrian Cronauer"](https://web.archive.org/web/20120509103859/http://urgentcomm.com/mag/radio_real_life_adrian/). *Urgent Communications*. Archived from [the original](http://urgentcomm.com/mag/radio_real_life_adrian/) on May 9, 2012. Retrieved December 5, 2016.
-
-[^4]: ["Good Morning Mail!"](https://www.latimes.com/archives/la-xpm-1988-02-14-ca-42434-story.html). *[Los Angeles Times](https://en.m.wikipedia.org/wiki/Los_Angeles_Times "Los Angeles Times")*. February 14, 1988. [Archived](https://web.archive.org/web/20211002080859/https://www.latimes.com/archives/la-xpm-1988-02-14-ca-42434-story.html) from the original on October 2, 2021. Retrieved October 2, 2021.
-
-[^5]: Harris, Paul. [Adrian Cronauer interview](http://paulharrisonline.blogspot.co.uk/2006/04/adrian-cronauer.htm), April 28, 2006, *The Paul Harris Show*, [Archived](https://web.archive.org/web/20171225203157/http://paulharrisonline.blogspot.co.uk/2006/04/adrian-cronauer.htm) 2017-12-25 at the [Wayback Machine](https://en.m.wikipedia.org/wiki/Wayback_Machine "Wayback Machine") [KMOX](https://en.m.wikipedia.org/wiki/KMOX "KMOX")
-
-[^6]: Mullen, Rodger (November 10, 2011). ["Heroes Homecoming: For 'Good Morning' guy Adrian Cronauer, Vietnam feels like yesterday"](https://web.archive.org/web/20120526081434/http://fayobserver.com/articles/2011/11/10/1122748?sac=Mil). *[Fay Observer](https://en.m.wikipedia.org/wiki/Fay_Observer "Fay Observer") (The Fayetteville Observer)*. Fayetteville, North Carolina. Archived from [the original](http://fayobserver.com/articles/2011/11/10/1122748?sac=Mil) on May 26, 2012. Retrieved December 26, 2011.
-
-[^7]: Cooper, James (March 15, 1988). ["The life and laughs of Robin Williams"](https://archive.org/details/GAT_1988031501/page/16/mode/2up). *[The Varsity](https://en.m.wikipedia.org/wiki/The_Varsity_\(newspaper\) "The Varsity (newspaper)")*. Retrieved May 23, 2023.
-
-[^8]: Beck, Barbara (January 19, 1988). ["Good Morning to the Real Adrian Cronauer"](https://www.chicagotribune.com/news/ct-xpm-1988-01-19-8803230431-story.html). *[Chicago Tribune](https://en.m.wikipedia.org/wiki/Chicago_Tribune "Chicago Tribune")*. [Archived](https://web.archive.org/web/20210614015000/https://www.chicagotribune.com/news/ct-xpm-1988-01-19-8803230431-story.html) from the original on June 14, 2021. Retrieved March 1, 2021.
-
-[^9]: Schogol, Jeff (August 12, 2014). ["Real-life 'Vietnam' DJ recalls Williams' portrayal"](https://www.usatoday.com/story/life/people/2014/08/12/good-morning-vietnam-airman-reacts-robin-williams-death/13954271/). *[USA Today](https://en.m.wikipedia.org/wiki/USA_Today "USA Today")*. [Archived](https://web.archive.org/web/20171107044237/https://www.usatoday.com/story/life/people/2014/08/12/good-morning-vietnam-airman-reacts-robin-williams-death/13954271/) from the original on November 7, 2017. Retrieved October 31, 2017.
-
-[^10]: ["Good Morning, Vietnam (1987)"](https://catalog.afi.com/Catalog/moviedetails/57630). *AFI Catalog*. Retrieved May 10, 2025.
-
-[^11]: ["Good Morning, Vietnam"](http://www.rottentomatoes.com/m/good_morning_vietnam/). *[Rotten Tomatoes](https://en.m.wikipedia.org/wiki/Rotten_Tomatoes "Rotten Tomatoes")*. [Fandango Media](https://en.m.wikipedia.org/wiki/Fandango_Media "Fandango Media"). [Archived](https://web.archive.org/web/20231210141226/https://www.rottentomatoes.com/m/good_morning_vietnam) from the original on December 10, 2023. Retrieved March 12, 2024.
-
-[^12]: ["Good Morning Vietnam"](https://www.metacritic.com/movie/good-morning-vietnam). *[Metacritic](https://en.m.wikipedia.org/wiki/Metacritic "Metacritic")*. [CBS Interactive](https://en.m.wikipedia.org/wiki/CBS_Interactive "CBS Interactive"). [Archived](https://web.archive.org/web/20181008110340/https://www.metacritic.com/movie/good-morning-vietnam) from the original on October 8, 2018. Retrieved October 8, 2018.
-
-[^13]: ["Cinemascore"](https://web.archive.org/web/20181220122629/https://www.cinemascore.com/publicsearch/index/title/). Archived from [the original](https://www.cinemascore.com/publicsearch/index/title/) on December 20, 2018.
-
-[^14]: Ebert, Roger. ["Good Morning, Vietnam Movie Review (1988)"](http://www.rogerebert.com/reviews/good-morning-vietnam-1988). *www.rogerebert.com*. [Archived](https://web.archive.org/web/20140818161851/http://www.rogerebert.com/reviews/good-morning-vietnam-1988) from the original on August 18, 2014. Retrieved May 18, 2018.
-
-[^15]: Schickel, Richard (December 28, 1987). ["Cinema: Motormouth In Saigon – Good Morning, Vietnam"](https://content.time.com/time/subscriber/article/0,33009,966337,00.html). *Time*. [ISSN](https://en.m.wikipedia.org/wiki/ISSN_\(identifier\) "ISSN (identifier)") [0040-781X](https://search.worldcat.org/issn/0040-781X). [Archived](https://web.archive.org/web/20220518184104/https://content.time.com/time/subscriber/article/0,33009,966337,00.html) from the original on May 18, 2022. Retrieved May 18, 2022.
-
-[^16]: [Canby, Vincent](https://en.m.wikipedia.org/wiki/Vincent_Canby "Vincent Canby") (December 23, 1987). ["Film: 'Good Morning, Vietnam'"](https://www.nytimes.com/movie/review?res=9B0DE0D8173FF930A15751C1A961948260). *[The New York Times](https://en.m.wikipedia.org/wiki/The_New_York_Times "The New York Times")*. [Archived](https://web.archive.org/web/20180217024203/http://www.nytimes.com/movie/review?res=9B0DE0D8173FF930A15751C1A961948260) from the original on February 17, 2018. Retrieved May 18, 2018.
-
-[^17]: Hinson, Hal. ["'Good Morning Vietnam'"](https://www.washingtonpost.com/wp-srv/style/longterm/movies/videos/goodmorningvietnam.htm). *washingtonpost.com*. [Archived](https://web.archive.org/web/20200925094231/https://www.washingtonpost.com/wp-srv/style/longterm/movies/videos/goodmorningvietnam.htm) from the original on September 25, 2020. Retrieved May 18, 2018.
-
-[^18]: ["Awards for *Good Morning, Vietnam* "](https://web.archive.org/web/20170313224722/http://www.imdb.com/title/tt0093105/awards?). *IMDb.com*. Archived from [the original](https://www.imdb.com/title/tt0093105/awards) on March 13, 2017. Retrieved April 17, 2012.
-
-[^19]: ["The 60th Academy Awards (1988) Nominees and Winners"](http://www.oscars.org/oscars/ceremonies/1988). *oscars.org*. [Archived](https://web.archive.org/web/20171102051937/https://www.oscars.org/oscars/ceremonies/1988) from the original on November 2, 2017. Retrieved July 31, 2011.
-
-[^20]: ["BAFTA Awards: Film in 1989"](http://awards.bafta.org/award/1989/film). *awards.[BAFTA](https://en.m.wikipedia.org/wiki/BAFTA "BAFTA").org*. 1989. [Archived](https://web.archive.org/web/20220309224835/http://awards.bafta.org/award/1989/film) from the original on March 9, 2022. Retrieved September 16, 2016.
-
-[^21]: ["Good Morning, Vietnam – Golden Globes"](https://www.goldenglobes.com/film/good-morning-vietnam). *[HFPA](https://en.m.wikipedia.org/wiki/HFPA "HFPA")*. [Archived](https://web.archive.org/web/20210629155836/https://www.goldenglobes.com/film/good-morning-vietnam) from the original on June 29, 2021. Retrieved July 5, 2021.
-
-[^22]: ["1988 Grammy Award Winners"](https://www.grammy.com/grammys/awards/31st-annual-grammy-awards-1988). *Grammy.com*. [Archived](https://web.archive.org/web/20210713084323/https://www.grammy.com/grammys/awards/31st-annual-grammy-awards-1988) from the original on July 13, 2021. Retrieved May 1, 2011.
-
-[^23]: ["Previous Winners"](https://web.archive.org/web/20091028135432/http://www.geocities.com/~polfilms/previous.html). Political Film Society. Archived from [the original](http://www.geocities.com/~polfilms/previous.html) on October 28, 2009. Retrieved June 15, 2010.
-
-[^24]: ["Top 20 Greatest War Movies"](https://web.archive.org/web/20141010210459/http://movies.amctv.com/movie-guide/twenty-war-movies-youll-never-forget). *movies.amctv.com*. AMC. Archived from [the original](http://movies.amctv.com/movie-guide/twenty-war-movies-youll-never-forget/) on October 10, 2014. Retrieved October 6, 2014.
-
-[^25]: ["AFI's 100 Years...100 Laughs"](https://web.archive.org/web/20160624052741/http://afi.com/Docs/100Years/laughs100.pdf) (PDF). *AFI.com*. [American Film Institute](https://en.m.wikipedia.org/wiki/American_Film_Institute "American Film Institute"). 2002. Archived from [the original](http://www.afi.com/Docs/100Years/laughs100.pdf) (PDF) on June 24, 2016. Retrieved August 22, 2016.
-
-[^26]: ["Good Morning, Vietnam / Operation Dumbo Drop"](http://store.intrada.com/s.nl/it.A/id.10677/.f). *store.intrada.com*. [Archived](https://web.archive.org/web/20180518200748/http://store.intrada.com/s.nl/it.A/id.10677/.f) from the original on May 18, 2018. Retrieved May 18, 2018.
-
-[^27]: Whitburn, Joel. *Top Pop Albums 1955–2001* (Menomonee Falls, Wisconsin: Record Research, 2001), p. 1016.
-
-[^28]: ["What A Wonderful World – Song Information"](http://www.oracleband.net/Lyrics/what_a_wonderful_world.htm). *oracleband.net*. Oracle Band. [Archived](https://web.archive.org/web/20180316023515/http://www.oracleband.net/Lyrics/what_a_wonderful_world.htm) from the original on March 16, 2018. Retrieved August 13, 2014.
-
-[^29]: ["31st Annual Grammy Awards"](https://www.grammy.com/grammys/awards/31st-annual-grammy-awards-1988). *Grammy.com*. November 28, 2017. [Archived](https://web.archive.org/web/20210713084323/https://www.grammy.com/grammys/awards/31st-annual-grammy-awards-1988) from the original on July 13, 2021. Retrieved November 24, 2021.
-
-[^30]: Itzkoff, Dave (2018). [*Robin*](https://books.google.com/books?id=nfQ4DwAAQBAJ&dq=%22good+morning+vietnam%22+soundtrack&pg=PA527). New York: Henry Holt. p. 225. [ISBN](https://en.m.wikipedia.org/wiki/ISBN_\(identifier\) "ISBN (identifier)") [9781627794251](https://en.m.wikipedia.org/wiki/Special:BookSources/9781627794251 "Special:BookSources/9781627794251"). Retrieved October 24, 2021.
-
-[^31]: [Kent, David](https://en.m.wikipedia.org/wiki/David_Kent_\(historian\) "David Kent (historian)") (1993). *Australian Chart Book 1970–1992* (illustrated ed.). St Ives, N.S.W.: Australian Chart Book. p. 284. [ISBN](https://en.m.wikipedia.org/wiki/ISBN_\(identifier\) "ISBN (identifier)") [0-646-11917-6](https://en.m.wikipedia.org/wiki/Special:BookSources/0-646-11917-6 "Special:BookSources/0-646-11917-6").
-
-[^32]: ["Top RPM Albums: Issue 8951"](https://www.bac-lac.gc.ca/eng/discover/films-videos-sound-recordings/rpm/Pages/image.aspx?Image=nlc008388.8951&URLjpg=http%3a%2f%2fwww.collectionscanada.gc.ca%2fobj%2f028020%2ff4%2fnlc008388.8951.gif&Ecopy=nlc008388.8951). *[RPM](https://en.m.wikipedia.org/wiki/RPM_\(magazine\) "RPM (magazine)")*. [Library and Archives Canada](https://en.m.wikipedia.org/wiki/Library_and_Archives_Canada "Library and Archives Canada"). Retrieved April 17, 2025.
-
-[^33]: ["Charts.nz – Soundtrack – Good Morning, Vietnam"](https://charts.nz/showitem.asp?interpret=Soundtrack&titel=Good+Morning,+Vietnam&cat=a). Hung Medien. Retrieved April 17, 2025.
-
-[^34]: ["Official Albums Chart Top 100"](https://www.officialcharts.com/charts/albums-chart/19881106/7502/). [Official Charts Company](https://en.m.wikipedia.org/wiki/Official_Charts_Company "Official Charts Company"). Retrieved April 17, 2025.
-
-[^35]: "Top Pop Albums". *[Billboard](https://en.m.wikipedia.org/wiki/Billboard_\(magazine\) "Billboard (magazine)")*. April 2, 1988. p. 70.
-
-[^36]: Baker, Glenn A. (January 28, 1989). ["Australia '89"](https://worldradiohistory.com/Archive-All-Music/Billboard/80s/1989/BB-1989-01-28.pdf) (PDF). *[Billboard](https://en.m.wikipedia.org/wiki/Billboard_\(magazine\) "Billboard (magazine)")*. Vol. 101, no. 4. p. A-4. [Archived](https://web.archive.org/web/20210628012209/https://worldradiohistory.com/Archive-All-Music/Billboard/80s/1989/BB-1989-01-28.pdf) (PDF) from the original on June 28, 2021. Retrieved June 22, 2021 – via World Radio History.
-
-[^37]: ["New Zealand album certifications – Various – Good Morning Vietnam"](https://aotearoamusiccharts.co.nz/archive/albums/1988-10-14). [Recorded Music NZ](https://en.m.wikipedia.org/wiki/Recorded_Music_NZ "Recorded Music NZ"). Retrieved November 20, 2024.
-
-[^38]: ["British album certifications – Soundtrack – Good Morning Vietnam"](https://www.bpi.co.uk/award/12334-1509-2). [British Phonographic Industry](https://en.m.wikipedia.org/wiki/British_Phonographic_Industry "British Phonographic Industry"). Retrieved June 22, 2021.
-
-[^39]: ["British album certifications – Soundtrack – Good Morning Vietnam"](https://www.bpi.co.uk/award/2600-1140-2). [British Phonographic Industry](https://en.m.wikipedia.org/wiki/British_Phonographic_Industry "British Phonographic Industry"). Retrieved June 22, 2021.
-
-[^40]: ["American album certifications – Soundtrack – Good Morning Vietnam"](https://www.riaa.com/gold-platinum/?tab_active=default-award&ar=Soundtrack&ti=Good+Morning+Vietnam&format=Album&type=#search_section). [Recording Industry Association of America](https://en.m.wikipedia.org/wiki/Recording_Industry_Association_of_America "Recording Industry Association of America"). Retrieved June 22, 2021.
-
-[^41]: Brennan, Patricia (September 2, 1990). ["Magic? Voodoo?"](https://www.washingtonpost.com/archive/lifestyle/tv/1990/09/02/magic-voodoo/86a1e0a6-084e-4350-ba69-20f1bdb4cc64/). *The Washington Post*. [Archived](https://web.archive.org/web/20170731121123/https://www.washingtonpost.com/archive/lifestyle/tv/1990/09/02/magic-voodoo/86a1e0a6-084e-4350-ba69-20f1bdb4cc64/) from the original on July 31, 2017. Retrieved July 6, 2017.
-
-[^42]: Mabery, D.L. (June 6, 1992). ["For writer-director Mark Frost, life after David Lynch and 'Twin Peaks' goes on"](http://www.postbulletin.com/for-writer-director-mark-frost-life-after-david-lynch-and/article_f793f76f-3aec-57d0-bfc7-d965527e9a04.html). *Post Bulletin*. [Archived](https://web.archive.org/web/20191209203726/http://www.postbulletin.com/for-writer-director-mark-frost-life-after-david-lynch-and/article_f793f76f-3aec-57d0-bfc7-d965527e9a04.html) from the original on December 9, 2019. Retrieved July 6, 2017.
-
-[^43]: Clint, Caffeinated (December 7, 2011). ["Exclusive: Williams on Mrs Doubtfire, Birdcage, Good Morning Vietnam sequels"](https://web.archive.org/web/20170731114549/http://www.moviehole.net/201150015-exclusive-williams-on-mrs-doubtfire-birdcage-good-morning-vietnam-sequels). *Moviehole*. Archived from [the original](http://www.moviehole.net/201150015-exclusive-williams-on-mrs-doubtfire-birdcage-good-morning-vietnam-sequels) on July 31, 2017. Retrieved July 6, 2017.

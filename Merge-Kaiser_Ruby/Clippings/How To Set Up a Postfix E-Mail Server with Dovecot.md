@@ -254,7 +254,7 @@ passdb {
 protocols = " imap"
 ```
 This enables **plaintext auth** (The “[[plaintext]]” authentication will be tunneled through **TLS**), tells [[dovecot]] to use the `mail` **system group** for accessing the local mailboxes (plus the location of the mailboxes), 
-**use the unix authentication system** to authenticate users, and enable [[imap]] only.  
+**use the unix authentication system** to authenticate users, and enable [[IMAP]] only.  
 If you want, you can have dovecot automatically add a Trash and Sent folder to mailboxes:
 > [!attention] Deprecation issue
 > [[Dovecot autocreate plugin is deprecated, use mailbox { auto } setting]]

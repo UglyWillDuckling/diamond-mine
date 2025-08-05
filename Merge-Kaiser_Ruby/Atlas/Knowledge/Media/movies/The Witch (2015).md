@@ -1,0 +1,60 @@
+---
+type: movie
+subType: ""
+title: The Witch
+year: "2015"
+dataSource: OMDbAPI
+url: https://www.imdb.com/title/tt4263482/
+id: tt4263482
+plot: An isolated Puritan family in 1630s New England comes unraveled by the forces of witchcraft and possession.
+genres:
+  - Drama
+  - Fantasy
+  - Horror
+director:
+  - Robert Eggers
+onlineRating: 7
+actors:
+  - Anya Taylor-Joy
+  - Ralph Ineson
+  - Kate Dickie
+image: https://m.media-amazon.com/images/M/MV5BMTUyNzkwMzAxOF5BMl5BanBnXkFtZTgwMzc1OTk1NjE@._V1_SX300.jpg
+released: true
+premiere: 02/19/2016
+watched: false
+lastWatched: ""
+personalRating: 0
+plan-to-watch: true
+tags:
+  - film
+---
+
+`$= '![Image|200](' + dv.current().image + ')'`
+
+# `$= dv.current().title`
+
+```dataviewjs
+if (dv.current().watched) {
+	dv.paragraph(`> [!SUCCESS] \`INPUT[toggle:watched]\` watched \n last watched on ${dv.current().lastWatched || '---'}`);
+} else {
+	dv.paragraph(`> [!WARNING] \`INPUT[toggle:watched]\` not yet watched`);
+}
+```
+
+**Rating**:  `INPUT[slider(addLabels, minValue(0), maxValue(10)):personalRating]` (`$= dv.current().personalRating` out of 10)
+
+**Genres**:
+```dataviewjs
+dv.current().genres.length === 0 ? dv.span(' - none') : dv.list(dv.current().genres)
+```
+
+```dataviewjs
+if (!dv.current().released) {
+	dv.span('**Not released** The movie is not yet released.')
+}
+```
+
+**Type**: `$= dv.current().type`
+**Online Rating**: `$= dv.current().onlineRating`
+**Duration**:  `$= dv.current().duration`
+**Premiered**: `$= dv.current().premiere`

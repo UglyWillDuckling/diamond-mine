@@ -9,6 +9,7 @@
     "editor:insert-tag",
     "editor:toggle-bold",
     "editor:cycle-list-checklist",
+    "editor:toggle-highlight",
     "editor:toggle-blockquote",
     "editor:insert-link",
     "editor:indent-list",
@@ -20,7 +21,6 @@
     "editor:toggle-italics",
     "editor:attach-file",
     "editor:toggle-strikethrough",
-    "editor:toggle-highlight",
     "editor:toggle-code",
     "editor:toggle-numbered-list",
     "editor:configure-toolbar"

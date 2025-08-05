@@ -15,7 +15,8 @@ interest: 7
 watched: true
 plan-to-watch: false
 tags:
-  - film/90s
+  - film
+personalRating: 8.3
 ---
 ![cover|200](https://upload.wikimedia.org/wikipedia/en/5/52/Good_Will_Hunting.png)
 

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4c8d8e7b6f9288d6",
+        "id": "efe1b2eba5eb0d68",
         "type": "tabs",
         "children": [
           {
-            "id": "181c07c4c6b49a35",
+            "id": "81b99346e5ccbb75",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/Viet and Nam - Wikipedia.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Viet and Nam - Wikipedia"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 328.5007667541504,
+    "collapsed": true
   },
   "right": {
     "id": "879c4c46c01c5375",
@@ -83,40 +88,44 @@
       {
         "id": "6bd03039fe22beee",
         "type": "tabs",
+        "dimension": 56.43115942028986,
         "children": [
-          {
-            "id": "20937a68f49eaf68",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
-            }
-          },
           {
             "id": "bcac0f03455708d6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "movies base.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from movies base"
             }
           },
           {
-            "id": "b665e1ba6a1f8bc5",
+            "id": "f3b29c9df6f6fdff",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
+          },
+          {
+            "id": "2e06facb6e406711",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "message-square",
+              "title": "Enhanced Annotations"
+            }
+          },
+          {
+            "id": "3f69f02deae52d1a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,21 +140,7 @@
             }
           },
           {
-            "id": "04a63588bbc85a4e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "e833e7d97d4a4f14",
+            "id": "29d413b1864f2dfd",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -155,7 +150,7 @@
             }
           },
           {
-            "id": "e11ec0509cc39be2",
+            "id": "b7f0fffb9f27818d",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -163,58 +158,121 @@
               "icon": "ag-style",
               "title": "Juggl style"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ca16f4b54661edbe",
+        "type": "tabs",
+        "dimension": 43.56884057971014,
+        "children": [
           {
-            "id": "2e06facb6e406711",
+            "id": "20937a68f49eaf68",
             "type": "leaf",
             "state": {
-              "type": "annotations-outline",
-              "state": {},
-              "icon": "message-square",
-              "title": "Enhanced Annotations"
+              "type": "backlink",
+              "state": {
+                "file": "movies base.base",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for movies base"
             }
           },
           {
-            "id": "f3b29c9df6f6fdff",
+            "id": "04a63588bbc85a4e",
             "type": "leaf",
             "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
+              "type": "outline",
+              "state": {
+                "file": "movies base.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of movies base"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 637.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
       "workspaces:Manage workspace layouts": false,
-      "quickadd:QuickAdd": false,
-      "obsidian-importer:Open Importer": false,
-      "obsidian-day-and-night:Toggle Theme": false,
-      "chronology:Open Chronology": false,
-      "obsidian-media-db-plugin:Add new Media DB entry": false,
-      "obsidian42-brat:BRAT": false,
-      "juggl:Juggl global graph": false,
-      "templater-obsidian:Templater": false,
-      "callout-manager:Insert Callout": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-      "image-picker:Open Image Picker": false
+      "quickadd:QuickAdd": true,
+      "obsidian-importer:Open Importer": true,
+      "obsidian-day-and-night:Toggle Theme": true,
+      "chronology:Open Chronology": true,
+      "obsidian-media-db-plugin:Add new Media DB entry": true,
+      "obsidian42-brat:BRAT": true,
+      "juggl:Juggl global graph": true,
+      "templater-obsidian:Templater": true,
+      "callout-manager:Insert Callout": true,
+      "obsidian-book-search-plugin:Create new book note": true,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true,
+      "image-picker:Open Image Picker": true,
+      "daily-notes:Open today's daily note": false
     }
   },
-  "active": "2e06facb6e406711",
-  "lastOpenFiles": []
+  "active": "81b99346e5ccbb75",
+  "lastOpenFiles": [
+    "Atlas/Knowledge/Media/movies/Universal Language (2024).md",
+    "Clippings/Viet and Nam - Wikipedia.md",
+    "Clippings/The 20 Best Films of 2025 So Far  Features.md",
+    "~/×/18eaad006f8813a5ae0e8070c186e147_MD5.webp",
+    "~/×/f17f5161d790a6e97b7ddd87b47ff6fa_MD5.webp",
+    "~/×/0ead90590b31657357de5b3ef7cc1ea0_MD5.webp",
+    "~/×/ee5fa907b263c9afc9e9b0856fbd2792_MD5.webp",
+    "~/×/9003c4d33af8f4e375406c389a628e72_MD5.webp",
+    "~/×/cf813b56e9aeb608c2400019abc56606_MD5.webp",
+    "~/×/c2f8dcb35aeff51aaf96dc69627a9b82_MD5.webp",
+    "~/×/29b4482ca2116e0836d3bd32d90c3d33_MD5.webp",
+    "~/×/c59b2e5691c0142cbf446d1a7d12f454_MD5.webp",
+    "~/×/073d04e0540864817564596559f6acea_MD5.webp",
+    "Clippings/Mickey 17 movie review & film summary (2025).md",
+    "Atlas/Knowledge/Media/movies/Mickey 17 (2025).md",
+    "movie timeline with chronoes.md",
+    "mailspring - fix password keychain issue.md",
+    "Atlas/Knowledge/Media/Articles/Dev/The Early History Of Smalltalk.md",
+    "Atlas/Life/Kviz/Kviz 31.07.2025.md",
+    "Calendar/daily/2025/2025-08-05-Tue.md",
+    "Atlas/Knowledge/Media/It's (Almost) Impossible to Make an Antiwar Film - video.md",
+    "Atlas/Knowledge/Media/Television/Wednesday (TV series).md",
+    "Clippings/Kiwi (bird) - Wikipedia.md",
+    "Clippings/White bellbird.md",
+    "Clippings/Shoebill.md",
+    "Clippings/The Story of Chunk the Groundhog. Narrated by Gardener Jeff. - YouTube.md",
+    "Clippings/Binturong.md",
+    "Clippings/The City of God.md",
+    "LIVES OF INFAMOUS MEN.md",
+    "Fabula by Mieke Bal.md",
+    "Daniel Kusan.md",
+    "Clippings/Bumbarovo ljeto (2025.).md",
+    "Calendar/daily/2025/2025-08-05-uto..md",
+    "Clippings/Y The Last Man - Wikipedia.md",
+    "Clippings/The Greek Alphabet.md",
+    "Dune - thinking machines.md",
+    "Atlas/Knowledge/People/Actors",
+    "movies base.base",
+    "Atlas/Knowledge/Quotes/quotes base.base",
+    "Atlas/Knowledge/Science/Computer Science",
+    "Atlas/Knowledge/Science/Untitled",
+    "Atlas/Knowledge/World/Sport"
+  ]
 }

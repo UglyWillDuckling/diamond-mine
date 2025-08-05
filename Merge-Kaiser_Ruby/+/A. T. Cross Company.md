@@ -2,7 +2,7 @@
 title: A. T. Cross Company
 source: https://en.wikipedia.org/wiki/A._T._Cross_Company
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - "[[to to Wikimedia projects]]"
 published: 2007-06-07
 created: 2024-12-07
 description: 

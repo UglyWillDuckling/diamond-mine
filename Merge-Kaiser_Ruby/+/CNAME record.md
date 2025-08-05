@@ -2,7 +2,7 @@
 title: CNAME record - Wikipedia
 source: https://en.wikipedia.org/wiki/CNAME_record
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - "[[to to Wikimedia projects]]"
 published: 2004-05-05
 created: 2024-12-22
 description: 

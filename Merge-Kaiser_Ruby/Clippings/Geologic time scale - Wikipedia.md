@@ -1,7 +1,7 @@
 ---
 source: "https://en.m.wikipedia.org/wiki/Geologic_time_scale#Divisions_of_geologic_time?wprov=sfla1"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-09-16
 created: 2025-03-13
 tags:

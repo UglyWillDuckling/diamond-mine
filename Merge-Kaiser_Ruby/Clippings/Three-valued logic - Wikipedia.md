@@ -1,7 +1,7 @@
 ---
 source: "https://en.wikipedia.org/wiki/Three-valued_logic"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-06-20
 created: 2025-06-20
 tags:

@@ -1,7 +1,7 @@
 ---
 source: https://en.wikipedia.org/wiki/Sequential_logic
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-09-22
 created: 2025-06-24
 tags:

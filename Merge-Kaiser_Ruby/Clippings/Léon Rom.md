@@ -2,7 +2,7 @@
 title: Léon Rom - Wikipedia
 source: https://en.m.wikipedia.org/wiki/L%C3%A9on_Rom
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2007-09-14
 created: 2024-12-30
 description: 

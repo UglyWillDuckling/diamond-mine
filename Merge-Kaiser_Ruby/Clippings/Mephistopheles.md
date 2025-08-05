@@ -2,7 +2,7 @@
 title: "Mephistopheles - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Mephistopheles"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-01-24
 created: 2024-12-29
 description:

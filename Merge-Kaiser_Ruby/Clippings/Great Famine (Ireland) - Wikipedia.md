@@ -2,7 +2,7 @@
 title: "Great Famine (Ireland) - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Great_Famine_(Ireland)"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-05-11
 created: 2025-07-31
 description:

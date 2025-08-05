@@ -1,7 +1,7 @@
 ---
 source: "https://en.wikipedia.org/wiki/Hamming_code"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-02-25
 created: 2025-06-20
 tags:

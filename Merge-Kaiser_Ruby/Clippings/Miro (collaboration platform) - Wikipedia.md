@@ -2,7 +2,7 @@
 title: Miro (collaboration platform) - Wikipedia
 source: https://en.wikipedia.org/wiki/Miro_(collaboration_platform)
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2022-12-07
 created: 2025-01-13
 description: 

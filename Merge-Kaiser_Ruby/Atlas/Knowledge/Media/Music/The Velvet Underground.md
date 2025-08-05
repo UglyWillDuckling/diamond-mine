@@ -2,7 +2,7 @@
 title: The Velvet Underground - Wikipedia
 source: https://en.m.wikipedia.org/wiki/The_Velvet_Underground
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-03-09
 created: 2025-08-01
 description:

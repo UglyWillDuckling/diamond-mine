@@ -2,7 +2,7 @@
 title: Gregg Alexander - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Gregg_Alexander
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-10-22
 created: 2024-12-24
 description: 

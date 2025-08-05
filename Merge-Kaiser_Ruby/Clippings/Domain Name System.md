@@ -2,7 +2,7 @@
 title: Domain Name System - Wikipedia
 source: https://en.wikipedia.org/wiki/Domain_Name_System
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-08-20
 created: 2024-12-24
 description: 

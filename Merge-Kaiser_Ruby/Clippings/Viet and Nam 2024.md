@@ -1,13 +1,18 @@
 ---
-source: https://en.wikipedia.org/wiki/Viet_and_Nam
 type: movie
+year: "2024"
+source: https://en.wikipedia.org/wiki/Viet_and_Nam
+image: https://upload.wikimedia.org/wikipedia/en/a/a1/Viet_and_Nam.jpg
 author:
-  - 
+  - "[[]]"
 published: 2024-05-17
 created: 2025-08-05
 tags:
   - film
+plan-to-watch: true
 ---
+`$= '![Image|200](' + dv.current().image + ')'`
+
 ***Viet and Nam*** ([Vietnamese](https://en.wikipedia.org/wiki/Vietnamese_language "Vietnamese language"): *Trong lòng đất**, "Underground",* Lit: *"The Heart of the Earth"*), also spelled ***Việt and Nam***, is a 2024 romantic drama written and directed by [Trương Minh Quý](https://en.wikipedia.org/wiki/Minh_Qu%C3%BD_Tr%C6%B0%C6%A1ng "Minh Quý Trương"). Starring Thi Nga Nguyen and Daniel Viet Tung Le, the film is about two coal miners who are lovers, cherishing fleeting moments before one seeks better economic opportunity abroad. Leading up to the departure, they also search for the body of one of their fathers, a fallen soldier. The film was banned in [Vietnam](https://en.wikipedia.org/wiki/Vietnam "Vietnam") for its portrayal of “a gloomy, deadlocked, and negative view” of the country.[^1] [^2] [^3]
 
 The film had its world premiere in the *[Un Certain Regard](https://en.wikipedia.org/wiki/Un_Certain_Regard "Un Certain Regard")* section of the [2024 Cannes Film Festival](https://en.wikipedia.org/wiki/2024_Cannes_Film_Festival "2024 Cannes Film Festival"),[^4] where it was nominated for the [Queer Palm](https://en.wikipedia.org/wiki/Queer_Palm "Queer Palm").[^5] It made its North American premiere at the [49th Toronto International Film Festival](https://en.wikipedia.org/wiki/2024_Toronto_International_Film_Festival "2024 Toronto International Film Festival") in the Wavelengths programme,[^6] [^7] and was selected for the [62nd New York Film Festival](https://en.wikipedia.org/wiki/2024_New_York_Film_Festival "2024 New York Film Festival") in the Main Slate.[^8] It was also selected for the [MAMI Mumbai Film Festival 2024](https://en.wikipedia.org/wiki/MAMI_Mumbai_Film_Festival_2024 "MAMI Mumbai Film Festival 2024") under the World Cinema section.[^9]

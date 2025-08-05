@@ -2,7 +2,7 @@
 title: Grease (film) - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Grease_(film)
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-10-08
 created: 2025-02-15
 description: 

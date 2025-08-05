@@ -2,7 +2,7 @@
 title: "Benghazi - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Benghazi"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-03-31
 created: 2024-12-05
 description:

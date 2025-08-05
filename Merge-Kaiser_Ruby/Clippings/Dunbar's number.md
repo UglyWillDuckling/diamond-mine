@@ -2,7 +2,7 @@
 title: Dunbar's number - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Dunbar's_number
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2005-09-14
 created: 2025-01-27
 description: 

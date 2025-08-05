@@ -2,7 +2,7 @@
 title: "Holocene - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Holocene"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-11-10
 created: 2025-03-11
 description:

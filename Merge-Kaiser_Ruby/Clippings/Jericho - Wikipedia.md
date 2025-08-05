@@ -2,7 +2,7 @@
 title: Jericho - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Jericho
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-09-25
 created: 2025-03-11
 description: 

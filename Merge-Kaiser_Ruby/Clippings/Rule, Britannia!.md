@@ -2,7 +2,7 @@
 title: "Rule, Britannia! - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Rule,_Britannia!"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-06-17
 created: 2024-12-31
 description:

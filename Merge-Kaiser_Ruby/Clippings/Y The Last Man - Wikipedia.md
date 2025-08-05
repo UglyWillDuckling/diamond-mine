@@ -2,7 +2,7 @@
 title: "Y: The Last Man - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Y:_The_Last_Man"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-08-20
 created: 2025-08-04
 description:

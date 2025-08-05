@@ -2,7 +2,7 @@
 title: History of the Huns - Wikipedia
 source: https://en.m.wikipedia.org/wiki/History_of_the_Huns
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-12-17
 created: 2025-01-01
 description: 

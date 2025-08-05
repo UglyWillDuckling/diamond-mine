@@ -2,7 +2,7 @@
 title: King Leopold's Ghost - Wikipedia
 source: https://en.m.wikipedia.org/wiki/King_Leopold's_Ghost
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 1998-02-02
 created: 2024-12-29
 description: 

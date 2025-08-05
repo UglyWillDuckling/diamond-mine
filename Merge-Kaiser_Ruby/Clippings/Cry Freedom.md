@@ -2,7 +2,7 @@
 title: Cry Freedom - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Cry_Freedom
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-06-06
 created: 2024-12-31
 description: 

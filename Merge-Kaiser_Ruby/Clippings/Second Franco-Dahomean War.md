@@ -2,7 +2,7 @@
 title: Second Franco-Dahomean War - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Second_Franco-Dahomean_War
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2007-09-17
 created: 2025-01-11
 description: 

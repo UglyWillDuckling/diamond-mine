@@ -2,7 +2,7 @@
 title: Woody Guthrie - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Woody_Guthrie
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-11-13
 created: 2025-01-24
 description: 

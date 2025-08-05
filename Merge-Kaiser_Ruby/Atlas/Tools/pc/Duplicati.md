@@ -1,7 +1,7 @@
 ---
 source: https://en.wikipedia.org/wiki/Duplicati
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2011-08-02
 created: 2025-03-03
 tags:

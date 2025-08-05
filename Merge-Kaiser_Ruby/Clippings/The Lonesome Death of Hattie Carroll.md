@@ -2,7 +2,7 @@
 title: The Lonesome Death of Hattie Carroll - Wikipedia
 source: https://en.m.wikipedia.org/wiki/The_Lonesome_Death_of_Hattie_Carroll
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-11-15
 created: 2025-01-25
 tags:

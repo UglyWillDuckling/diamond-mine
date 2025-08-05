@@ -2,7 +2,7 @@
 title: Eocene–Oligocene extinction event - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Eocene%E2%80%93Oligocene_extinction_event
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2006-12-17
 created: 2025-03-11
 description: 

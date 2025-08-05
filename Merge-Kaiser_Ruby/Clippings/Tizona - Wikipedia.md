@@ -2,7 +2,7 @@
 title: "Tizona - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Tizona"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-03-31
 created: 2025-07-31
 description:

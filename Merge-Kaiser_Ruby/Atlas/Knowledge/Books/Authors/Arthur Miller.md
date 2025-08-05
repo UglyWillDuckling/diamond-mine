@@ -2,7 +2,7 @@
 title: Arthur Miller - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Arthur_Miller
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-10-20
 created: 2025-01-07
 description: 

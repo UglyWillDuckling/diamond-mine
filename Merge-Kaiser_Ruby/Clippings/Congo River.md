@@ -2,7 +2,7 @@
 title: Congo River - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Congo_River
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-03-14
 created: 2024-12-29
 description: 

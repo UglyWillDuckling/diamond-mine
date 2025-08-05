@@ -2,7 +2,7 @@
 title: Hypatia - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Hypatia
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-02-08
 created: 2024-12-06
 description: 

@@ -1,7 +1,7 @@
 ---
 source: https://en.wikipedia.org/wiki/Schmitt_trigger
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-11-25
 created: 2025-06-21
 tags:

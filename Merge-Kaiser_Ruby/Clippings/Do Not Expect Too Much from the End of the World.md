@@ -2,7 +2,7 @@
 title: Do Not Expect Too Much from the End of the World - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Do_Not_Expect_Too_Much_from_the_End_of_the_World
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2023-08-05
 created: 2025-01-10
 description: 

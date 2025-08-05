@@ -2,7 +2,7 @@
 title: "Paul Gauguin - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Paul_Gauguin"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-04-17
 created: 2024-12-31
 description:

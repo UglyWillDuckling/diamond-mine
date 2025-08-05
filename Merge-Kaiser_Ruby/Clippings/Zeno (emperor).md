@@ -2,7 +2,7 @@
 title: "Zeno (emperor) - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Zeno_(emperor)"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-08-30
 created: 2024-12-23
 description:

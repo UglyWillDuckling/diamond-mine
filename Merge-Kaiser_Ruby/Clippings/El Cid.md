@@ -2,7 +2,7 @@
 title: "El Cid - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/El_Cid"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-11-12
 created: 2025-07-31
 description:

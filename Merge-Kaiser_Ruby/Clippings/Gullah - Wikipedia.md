@@ -2,7 +2,7 @@
 title: Gullah - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Gullah
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-05-08
 created: 2025-02-21
 description: 

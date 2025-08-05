@@ -2,7 +2,7 @@
 title: Sega Genesis - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Sega_Genesis
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-12-01
 created: 2025-03-01
 description: 

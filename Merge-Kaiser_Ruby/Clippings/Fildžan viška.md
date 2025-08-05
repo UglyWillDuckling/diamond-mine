@@ -2,7 +2,7 @@
 title: "Fildžan viška - Wikipedia"
 source: "https://en.wikipedia.org/wiki/Fild%C5%BEan_vi%C5%A1ka"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2018-07-25
 created: 2024-12-28
 description:

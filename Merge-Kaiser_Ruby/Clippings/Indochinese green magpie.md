@@ -1,7 +1,7 @@
 ---
 source: "https://en.wikipedia.org/wiki/Indochinese_green_magpie"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2005-05-03
 created: 2025-08-03
 tags:

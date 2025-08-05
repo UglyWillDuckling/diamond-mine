@@ -2,7 +2,7 @@
 title: "Pleistocene - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Pleistocene"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-11-03
 created: 2025-03-11
 description:

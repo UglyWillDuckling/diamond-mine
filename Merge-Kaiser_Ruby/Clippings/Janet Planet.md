@@ -2,7 +2,7 @@
 title: Janet Planet - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Janet_Planet
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2023-09-11
 created: 2025-01-10
 description: 

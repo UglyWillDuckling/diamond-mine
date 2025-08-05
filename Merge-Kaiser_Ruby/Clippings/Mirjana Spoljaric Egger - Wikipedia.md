@@ -2,7 +2,7 @@
 title: "Mirjana Spoljaric Egger - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Mirjana_Spoljaric_Egger"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2021-11-29
 created: 2025-01-20
 description:

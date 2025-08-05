@@ -1,7 +1,7 @@
 ---
 source: "https://en.wikipedia.org/wiki/Bit_numbering#Most_significant_byte"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2007-05-19
 created: 2025-06-19
 tags:

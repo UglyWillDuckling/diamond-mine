@@ -2,7 +2,7 @@
 title: Johann Strauss II - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Johann_Strauss_II
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-10-25
 created: 2025-01-04
 description: 

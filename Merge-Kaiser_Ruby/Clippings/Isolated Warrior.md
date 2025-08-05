@@ -2,7 +2,7 @@
 title: "Isolated Warrior - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Isolated_Warrior"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2008-03-30
 created: 2025-03-01
 description:

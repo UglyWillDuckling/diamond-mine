@@ -2,7 +2,7 @@
 title: James Baldwin - Wikipedia
 source: https://en.m.wikipedia.org/wiki/James_Baldwin
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-01-31
 created: 2025-01-08
 description: 

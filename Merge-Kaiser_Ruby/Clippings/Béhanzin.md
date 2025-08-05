@@ -2,7 +2,7 @@
 title: "Béhanzin - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/B%C3%A9hanzin"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-08-16
 created: 2025-01-11
 description:

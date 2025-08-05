@@ -1,7 +1,7 @@
 ---
 source: https://en.m.wikipedia.org/wiki/Jenny_from_Thebes
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2023-07-21
 created: 2024-12-22
 tags:

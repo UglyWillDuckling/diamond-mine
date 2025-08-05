@@ -2,7 +2,7 @@
 title: Geološka era - Wikipedia
 source: https://bs.m.wikipedia.org/wiki/Geolo%C5%A1ka_era
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2020-02-01
 created: 2025-03-11
 description: 

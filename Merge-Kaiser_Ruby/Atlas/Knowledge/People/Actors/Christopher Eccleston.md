@@ -1,7 +1,7 @@
 ---
 source: https://en.wikipedia.org/wiki/Christopher_Eccleston
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-02-09
 created: 2025-08-03
 tags:

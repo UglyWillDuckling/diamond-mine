@@ -2,7 +2,7 @@
 title: "Odinala - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Odinala"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-10-03
 created: 2025-01-01
 description:

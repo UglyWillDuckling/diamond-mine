@@ -2,7 +2,7 @@
 title: "iPod Classic - Wikipedia"
 source: "https://en.wikipedia.org/wiki/IPod_Classic"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2007-09-05
 created: 2025-01-08
 description:

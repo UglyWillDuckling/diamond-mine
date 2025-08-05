@@ -2,7 +2,7 @@
 title: "Bight of Benin - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Bight_of_Benin"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-04-14
 created: 2024-12-31
 description:

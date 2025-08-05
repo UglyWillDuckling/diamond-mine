@@ -2,7 +2,7 @@
 title: Chinua Achebe - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Chinua_Achebe
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-07-07
 created: 2024-12-30
 description: 

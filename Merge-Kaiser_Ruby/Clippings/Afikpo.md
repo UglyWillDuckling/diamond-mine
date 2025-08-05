@@ -2,7 +2,7 @@
 title: "Afikpo - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Afikpo"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2005-11-11
 created: 2025-01-01
 description:

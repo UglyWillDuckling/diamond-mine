@@ -2,7 +2,7 @@
 title: Triathlon - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Triathlon
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-02-25
 created: 2025-01-16
 description: 

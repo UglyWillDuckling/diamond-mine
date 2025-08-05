@@ -2,7 +2,7 @@
 title: "Kurtz (Heart of Darkness) - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Kurtz_(Heart_of_Darkness)"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-05-17
 created: 2024-12-30
 description:

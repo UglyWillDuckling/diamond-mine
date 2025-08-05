@@ -2,7 +2,7 @@
 title: Whittier, Alaska - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Whittier,_Alaska
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-10-16
 created: 2024-12-25
 description: 

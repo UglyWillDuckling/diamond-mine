@@ -2,7 +2,7 @@
 title: Steve Biko - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Steve_Biko
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-09-28
 created: 2024-12-31
 description: 

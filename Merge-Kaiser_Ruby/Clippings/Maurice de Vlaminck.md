@@ -2,7 +2,7 @@
 title: Maurice de Vlaminck - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Maurice_de_Vlaminck
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-06-04
 created: 2024-12-31
 description: 

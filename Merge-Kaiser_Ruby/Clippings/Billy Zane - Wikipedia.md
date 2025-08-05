@@ -2,7 +2,7 @@
 title: "Billy Zane - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Billy_Zane"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-09-21
 created: 2025-01-09
 description:

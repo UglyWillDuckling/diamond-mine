@@ -1,5 +1,5 @@
 ---
 related:
-  - "[[Lenny Bruce]]"
+  - "[[Atlas/Knowledge/People/Lenny Bruce]]"
 ---
 #comedian  #person #historic-figure 

@@ -1,7 +1,7 @@
 ---
 source: https://en.wikipedia.org/wiki/Naomie_Harris
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-11-17
 created: 2025-08-03
 tags:

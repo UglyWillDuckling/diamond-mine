@@ -2,7 +2,7 @@
 title: "Fool's mate - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Fool's_mate"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-02-06
 created: 2024-11-25
 description:

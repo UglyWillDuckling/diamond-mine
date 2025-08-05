@@ -2,7 +2,7 @@
 title: Pirate Jenny - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Pirate_Jenny
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2007-10-04
 created: 2024-12-22
 description: 

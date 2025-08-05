@@ -2,7 +2,7 @@
 title: Carl Orff - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Carl_Orff
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-06-17
 created: 2025-01-04
 description: 

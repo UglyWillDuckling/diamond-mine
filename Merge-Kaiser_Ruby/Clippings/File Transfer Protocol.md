@@ -1,7 +1,7 @@
 ---
 source: https://en.wikipedia.org/wiki/File_Transfer_Protocol
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-05-24
 created: 2025-05-22
 tags:

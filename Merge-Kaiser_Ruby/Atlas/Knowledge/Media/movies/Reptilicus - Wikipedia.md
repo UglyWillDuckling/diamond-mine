@@ -1,7 +1,7 @@
 ---
 source: https://en.wikipedia.org/wiki/Reptilicus
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2005-03-08
 created: 2025-07-20
 tags:

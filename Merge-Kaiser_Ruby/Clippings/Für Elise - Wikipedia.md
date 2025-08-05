@@ -2,7 +2,7 @@
 title: Für Elise - Wikipedia
 source: https://en.m.wikipedia.org/wiki/F%C3%BCr_Elise
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-06-10
 created: 2025-01-08
 description: 

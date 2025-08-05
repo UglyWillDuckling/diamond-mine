@@ -1,7 +1,7 @@
 ---
 source: https://en.m.wikipedia.org/wiki/Anora
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2023-10-25
 created: 2025-03-22
 tags:

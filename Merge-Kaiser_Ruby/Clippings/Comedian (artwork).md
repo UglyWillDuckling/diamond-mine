@@ -2,7 +2,7 @@
 title: Comedian (artwork) - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Comedian_(artwork)
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2019-12-07
 created: 2025-01-16
 description: 

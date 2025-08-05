@@ -2,7 +2,7 @@
 title: Abuja - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Abuja
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-06-13
 created: 2025-01-01
 description: 

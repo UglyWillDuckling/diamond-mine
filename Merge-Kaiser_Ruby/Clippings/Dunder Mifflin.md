@@ -1,7 +1,7 @@
 ---
 source: https://en.m.wikipedia.org/wiki/Dunder_Mifflin
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2006-09-02
 created: 2025-03-08
 tags:

@@ -1,7 +1,7 @@
 ---
 source: https://en.wikipedia.org/wiki/QEMU
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2005-02-04
 created: 2025-03-03
 tags:

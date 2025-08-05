@@ -2,7 +2,7 @@
 title: Dahomey Amazons - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Dahomey_Amazons
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-10-22
 created: 2025-01-11
 description: 

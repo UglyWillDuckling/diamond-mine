@@ -2,7 +2,7 @@
 title: Tillamook Burn - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Tillamook_Burn
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-07-13
 created: 2024-12-20
 description: 

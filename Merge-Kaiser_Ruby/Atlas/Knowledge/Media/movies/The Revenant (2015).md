@@ -21,7 +21,7 @@ image: https://m.media-amazon.com/images/M/MV5BYTgwNmQzZDctMjNmOS00OTExLTkwM2UtN
 released: true
 premiere: 01/08/2016
 watched: true
-plan-to-watch: true
+plan-to-watch: false
 lastWatched: ""
 personalRating: 7
 tags:

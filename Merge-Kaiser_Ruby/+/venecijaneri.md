@@ -1,0 +1,3 @@
+**Venecijaneri** ili unutarnje žaluzine
+
+Venecijaneri ili popularno zvane, unutarnje žaluzine, efektno su sjenilo s kojim možete regulirati dotok i smjer izravne Sunčeve svjetlosti i neželjenih pogleda, a istovremeno dekorirati Vaš poslovni ili kućni prostor. Proizvode se po mjeri kupca, a uz širok izbor vrsta i boja žaluzina zadovoljit će i najzahtjevnije kupce. Jednostavnim nagibom aluminijskih lamela možete definirati željenu razinu osvjetljenja, odnosno zatamnjenja prostora.

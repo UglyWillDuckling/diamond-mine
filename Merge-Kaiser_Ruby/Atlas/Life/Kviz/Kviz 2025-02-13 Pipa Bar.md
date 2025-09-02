@@ -2,6 +2,7 @@
 tags:
   - kviz
 datum: 2025-02-13
+location: Pipa bar
 ---
 [[2025-02-13]]
 [[Pipa bar]]

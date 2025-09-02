@@ -5,8 +5,3 @@ status: To do
 	- [ ] create configurations: [[Efforts/Simmering/Senka/Persona/Docs/Persona.hr]], [[my VPS - techdot.biz]]
 		- [ ] 
 	- [ ] store on PC
-
-
-%% this file should also contain the actual configuration %%
-
-- [ ] 

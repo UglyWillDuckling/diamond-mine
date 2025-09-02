@@ -1,11 +1,11 @@
 {
   "scanned": true,
   "reminders": {
-    "Atlas/Knowledge/Media/Television/Wednesday (TV series).md": [
+    "+/Popis online knjižara, bookstores.md": [
       {
-        "title": "remind me [[Wednesday (TV series)]]",
-        "time": "2025-08-08",
-        "rowNumber": 23
+        "title": "reminder [[Popis online knjižara, bookstores]]",
+        "time": "2025-09-06",
+        "rowNumber": 1
       }
     ]
   },
@@ -26,7 +26,12 @@
     "useCustomEmojiForTasksPlugin": false,
     "removeTagsForTasksPlugin": false,
     "enableKanbanPluginReminderFormat": false,
+    "yearMonthDisplayFormat": "YYYY, MMMM",
+    "monthDayDisplayFormat": "MM/DD",
+    "shortDateWithWeekdayDisplayFormat": "M/DD (ddd)",
+    "timeDisplayFormat": "HH:mm",
     "editDetectionSec": 10,
-    "reminderCheckIntervalSec": 5
+    "reminderCheckIntervalSec": 5,
+    "weekStart": "0"
   }
 }

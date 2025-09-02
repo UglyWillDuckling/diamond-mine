@@ -68,3 +68,7 @@ Dragana i Dejan
 
 - kcer Mija
 - …
+
+- [ ] voce
+- [ ] slatko 
+- [ ] 

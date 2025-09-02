@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiNetwork",
       "🌄",
       "LiBookImage",
       "LiQuote",
-      "👩‍🔬",
-      "LiTabs"
+      "👩‍🔬"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,7 +39,6 @@
     "iconColor": "#ff7e14"
   },
   "notes/questions?/what is the real difference between folders and tags?.md": "LiFolders",
-  "Efforts/tasks": "LiCheckSquare2",
   "Efforts": "LiWeight",
   "Calendar/days": "LiCalendar",
   "Calendar": "LiCalendarHeart",
@@ -150,13 +149,6 @@
   },
   "notes/archive/ranger is actually quite good.md": "🏇",
   "notes/archive/we could use Kanban for more than tasks.md": "LiCircuitBoard",
-  "Efforts/tasks/archive/archive/add some questions.md": "LiQuestionMarkGlyph",
-  "Efforts/tasks/archive/archive/fix shortcuts on PC.md": "🩳",
-  "Efforts/tasks/archive/archive/review Hugama studio.md": {
-    "iconName": "LiPaintbrush",
-    "iconColor": "#3086b0"
-  },
-  "Efforts/tasks/archive/archive/see why yay won't update.md": "🌌",
   "Efforts/Active/Persona/Docs": "LiFolders",
   "Efforts/Active/Persona/Docs/Upute za mail konfiguraciju.md": "LiNotebookText",
   "Calendar/Events": "🌄",
@@ -181,16 +173,6 @@
   "Efforts/Ongoing/Odrzavanja kuce.md": "🧹",
   "Atlas/Life/notes": "LiNotebookText",
   "Efforts/Simmering/Wordpress": "LiPrinter",
-  "Efforts/Simmering/Senka": "👩‍🏫",
-  "Efforts/Simmering/Senka/Persona": "LiPersonStanding",
-  "Efforts/Simmering/Senka/Persona/Docs": "LiFolders",
-  "Efforts/Simmering/Senka/Persona/persona ssl cronjob.md": "LiTimerReset",
-  "Efforts/Simmering/Senka/Persona/Docs/Upute za mail konfiguraciju.md": "LiNotebookText",
-  "Efforts/Simmering/Senka/Persona/archive/archive/migrate Persona DNS.md": "LiSatelliteDish",
-  "Efforts/Simmering/Senka/Persona/archive/archive/persona mail setup.md": "LiMail",
-  "Efforts/Simmering/Senka/Persona/archive/archive/persona ssl setup.md": "LiKeyRound",
-  "Efforts/Simmering/Senka/Persona/archive/archive/setup Persona VPS.md": "LiServer",
-  "Efforts/Simmering/Senka/Persona/Docs/Dev/Wordpress/wp_users.md": "LiPersonStanding",
   "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md": "🦆",
   "Efforts/Active/Moje djetinjstvo, istraga": "LiBaby",
   "Efforts/Simmering/Tasks Management in Obsidian": "LiCheckCheck",
@@ -215,5 +197,17 @@
   "Atlas/Knowledge/Science": "👩‍🔬",
   "Atlas/Knowledge/Quotes": "LiQuote",
   "Atlas/Knowledge": "LiBookImage",
-  "Atlas/Life": "🌄"
+  "Atlas/Life": "🌄",
+  "Atlas/Life/Kviz": "LiQuote",
+  "Atlas/Knowledge/Science/Networking": "LiNetwork",
+  "Efforts/_Complete/Senka": "👩‍🏫",
+  "Efforts/_Complete/Senka/Persona": "LiPersonStanding",
+  "Efforts/_Complete/Senka/Persona/Docs": "LiFolders",
+  "Efforts/_Complete/Senka/Persona/persona ssl cronjob.md": "LiTimerReset",
+  "Efforts/_Complete/Senka/Persona/Docs/Upute za mail konfiguraciju - how to connect to persona mail.md": "LiNotebookText",
+  "Efforts/_Complete/Senka/Persona/archive/archive/migrate Persona DNS.md": "LiSatelliteDish",
+  "Efforts/_Complete/Senka/Persona/archive/archive/persona mail setup.md": "LiMail",
+  "Efforts/_Complete/Senka/Persona/archive/archive/persona ssl setup.md": "LiKeyRound",
+  "Efforts/_Complete/Senka/Persona/archive/archive/setup Persona VPS.md": "LiServer",
+  "Efforts/_Complete/Senka/Persona/Docs/Dev/Wordpress/wp_users.md": "LiPersonStanding"
 }

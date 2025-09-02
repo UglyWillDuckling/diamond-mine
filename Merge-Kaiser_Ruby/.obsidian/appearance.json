@@ -1,9 +1,9 @@
 {
   "theme": "moonstone",
-  "cssTheme": "",
+  "cssTheme": "Golden Topaz",
   "accentColor": "#e67a33",
   "baseFontSizeAction": true,
-  "baseFontSize": 15,
+  "baseFontSize": 14,
   "enabledCssSnippets": [
     "dataview-margin-remove",
     "tasks_padding",

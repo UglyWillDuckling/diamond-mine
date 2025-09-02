@@ -3,6 +3,9 @@ id: Master Task List
 tags:
   - task-list
 ---
+
+- [ ] #task **procitati** [[A pattern language]] ⏫ ⏳ 2025-08-23 📅 2025-09-18 🆔 yB4Reg
+- [ ] #task Traži feniksa ⏫ ⏳ 2025-08-17 📅 2025-08-24 🆔 vEIaW2
 - [x] #task update day template - **match** work 🆔 cTiIeu 🔼 ⏳ 2025-07-05 📅 2025-07-12 ✅ 2025-07-20
 - [x] #task cleanup Efforts - Active 🔼 ⏳ 2025-06-30 📅 2025-06-29 🆔 kjw1Sw ✅ 2025-07-20
 

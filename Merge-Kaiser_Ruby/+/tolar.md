@@ -2,7 +2,7 @@
 country:
   - "[[Slovenia]]"
 active:
-found_in: "[[kviz 2025 07.08 · Pipa Bar]]"
+found_in: "[[kviz 2025 7.8 · Pipa Bar]]"
 tags:
   - currency
 ---

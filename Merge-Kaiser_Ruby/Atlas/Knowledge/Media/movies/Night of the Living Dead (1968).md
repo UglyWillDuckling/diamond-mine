@@ -57,3 +57,5 @@ if (!dv.current().released) {
 **Online Rating**: `$= dv.current().onlineRating`
 **Duration**:  `$= dv.current().duration`
 **Premiered**: `$= dv.current().premiere`
+
+![](https://youtu.be/BHXb6t7tV9w?si=jcSC1KSuk02A9WwV)

@@ -11,7 +11,6 @@ genres:
   - Crime
   - Fantasy
 director:
-  - Chuck Russell
   - "[[Chuck Russell]]"
 onlineRating: 7
 actors:

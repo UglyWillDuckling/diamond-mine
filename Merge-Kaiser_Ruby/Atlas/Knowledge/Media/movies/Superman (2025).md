@@ -23,10 +23,10 @@ released: true
 premiere: 11.07.2025
 watched: false
 lastWatched: ""
-personalRating: 0
+personalRating: 7.8
 tags:
   - film
-plan-to-watch: true
+plan-to-watch: false
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

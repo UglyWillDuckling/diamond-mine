@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "efe1b2eba5eb0d68",
+        "id": "e95cdeaf69c4a23a",
         "type": "tabs",
         "children": [
           {
-            "id": "81b99346e5ccbb75",
+            "id": "c7bc8a19e6c9bd7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Viet and Nam 2024.md",
+                "file": "Atlas/Knowledge/Media/Writings/Books/A pattern language.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Viet and Nam 2024"
+              "title": "A pattern language"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hello",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5007667541504,
-    "collapsed": true
+    "width": 363.5
   },
   "right": {
     "id": "879c4c46c01c5375",
@@ -96,22 +95,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "movies base.base",
+                "file": "persona mail issue - spoofing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from movies base"
-            }
-          },
-          {
-            "id": "f3b29c9df6f6fdff",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
+              "title": "Outgoing links from persona mail issue - spoofing"
             }
           },
           {
@@ -158,6 +147,16 @@
               "icon": "ag-style",
               "title": "Juggl style"
             }
+          },
+          {
+            "id": "783609f48ca8f825",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "clock",
+              "title": "Reminders"
+            }
           }
         ]
       },
@@ -172,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "movies base.base",
+                "file": "persona mail issue - spoofing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +181,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for movies base"
+              "title": "Backlinks for persona mail issue - spoofing"
             }
           },
           {
@@ -209,6 +208,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
@@ -230,49 +230,59 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "81b99346e5ccbb75",
+  "active": "c7bc8a19e6c9bd7f",
   "lastOpenFiles": [
-    "Atlas/Knowledge/People/Lenny Bruce.md",
-    "Atlas/Knowledge/People/Lenny Bruce.md",
-    "Untitled.md",
-    "Clippings/Viet and Nam 2024.md",
-    "Atlas/Knowledge/Media/movies/Universal Language (2024).md",
-    "Clippings/The 20 Best Films of 2025 So Far  Features.md",
-    "Clippings/Mickey 17 movie review & film summary (2025).md",
-    "Clippings/Viet and Nam - Wikipedia.md",
-    "~/×/18eaad006f8813a5ae0e8070c186e147_MD5.webp",
-    "~/×/f17f5161d790a6e97b7ddd87b47ff6fa_MD5.webp",
-    "~/×/0ead90590b31657357de5b3ef7cc1ea0_MD5.webp",
-    "~/×/ee5fa907b263c9afc9e9b0856fbd2792_MD5.webp",
-    "~/×/9003c4d33af8f4e375406c389a628e72_MD5.webp",
-    "~/×/cf813b56e9aeb608c2400019abc56606_MD5.webp",
-    "~/×/c2f8dcb35aeff51aaf96dc69627a9b82_MD5.webp",
-    "~/×/29b4482ca2116e0836d3bd32d90c3d33_MD5.webp",
-    "~/×/c59b2e5691c0142cbf446d1a7d12f454_MD5.webp",
-    "~/×/073d04e0540864817564596559f6acea_MD5.webp",
-    "Atlas/Knowledge/Media/movies/Mickey 17 (2025).md",
-    "movie timeline with chronoes.md",
-    "mailspring - fix password keychain issue.md",
-    "Atlas/Knowledge/Media/Articles/Dev/The Early History Of Smalltalk.md",
-    "Atlas/Life/Kviz/Kviz 31.07.2025.md",
-    "Calendar/daily/2025/2025-08-05-Tue.md",
-    "Atlas/Knowledge/Media/It's (Almost) Impossible to Make an Antiwar Film - video.md",
-    "Atlas/Knowledge/Media/Television/Wednesday (TV series).md",
-    "Clippings/Kiwi (bird) - Wikipedia.md",
-    "Clippings/White bellbird.md",
-    "Clippings/Shoebill.md",
-    "Clippings/The Story of Chunk the Groundhog. Narrated by Gardener Jeff. - YouTube.md",
-    "Clippings/Binturong.md",
-    "Clippings/The City of God.md",
+    "~/×/f3ca9e323fba07e6ef6bdaaede9a32b4_MD5.png",
+    "~/×/ce670eb4a8ba2de1168e7ff23253cbe3_MD5.gif",
+    "~/×/9b009395dbe57dd8406febc4c7347982_MD5.jpg",
+    "~/×/41ce12ab4c76c035fb885320d28a0b60_MD5.jpg",
+    "~/×/60092561b59247d98fb90ba32c0a2162_MD5.jpg",
+    "~/×/0073fa21b5a4d328d8c596aa483f1bb3_MD5.png",
+    "~/×/34f9cb13efc9a765ca75c846acc2426d_MD5.png",
+    "~/×/b81b1d1ea11448dafd4c0ca31e877f13_MD5.avif",
+    "~/×/46fb3653bd7eb367d4ecb7b9348a91c6_MD5.jpg",
+    "Clippings/Building API Endpoints with Laravel - Rick Mwamodo.md",
+    "Bookstores.base",
+    "+/Podquisition 547 Spread Em.md",
+    "Clippings/Why Laura Palmer is Special.md",
+    "Clippings/The Former Astrophysicist Changing how we Talk about Science (feat @dr.fatima).md",
+    "Atlas/Knowledge/Media/movies/Y tu mamá también (2001).md",
+    "Clippings/Programmable 2025 AI is a Hype-Fuelled Dumpster Fire - Chris Simon - YouTube.md",
+    "Clippings/Bill Maher An Autopsy.md",
+    "Clippings/Maggie Mae Fish - Lynch and twin peaks.md",
+    "Atlas/Knowledge/Media/movies/Mulholland Drive (2001).md",
+    "Clippings/How burgers helped me better understand my Vietnamese immigrant mother.md",
+    "Clippings/4 things I'd like to see in a future version of PHP.md",
+    "Clippings/Roger Ebert - Easy Rider movie review & film summary (1969).md",
+    "Darija Agatić.md",
+    "Kako srediti dokumentaciju za obrt.md",
+    "Malueva.md",
+    "Clippings/Low-thickness material flooring for outdoors.md",
+    "Atlas/Knowledge/Concepts/Present age/content of Present Age.md",
     "LIVES OF INFAMOUS MEN.md",
-    "Fabula by Mieke Bal.md",
+    "Efforts/persona mail issue - spoofing.md",
+    "Atlas/Knowledge/Media/Writings/Books/Things Fall Apart (1958) 1.md",
+    "Atlas/Knowledge/Media/Writings/Books/Never Let Me Go 1.md",
+    "Atlas/Knowledge/Media/Writings/Books/The Black Swan 1.md",
+    "Efforts/Simmering/Senka/Persona/archive/archive/Setup hosting/Setup hosting.md",
     "Daniel Kusan.md",
-    "Clippings/Bumbarovo ljeto (2025.).md",
-    "Atlas/Knowledge/People/Actors",
-    "movies base.base",
-    "Atlas/Knowledge/Quotes/quotes base.base",
-    "Atlas/Knowledge/Science/Computer Science",
-    "Atlas/Knowledge/Science/Untitled",
-    "Atlas/Knowledge/World/Sport"
+    "Efforts/tasks/DAS - watchlist.md",
+    "Efforts/tasks/archive/archive/action.canvas",
+    "my books base.base",
+    "DAS - watchlist",
+    "Efforts/Simmering/Senka/Persona/archive/archive/Setup hosting",
+    "Efforts/Simmering/Senka/Persona/Docs/Dev/Wordpress",
+    "Efforts/Simmering/Senka/Persona/Docs/Dev/Server",
+    "Efforts/Simmering/Senka/Persona/archive/archive",
+    "Efforts/Simmering/Senka/Persona/Docs/Dev",
+    "Efforts/Simmering/Senka/Persona/archive",
+    "Efforts/Simmering/Senka/Persona/Docs",
+    "Efforts/tasks/archive/archive/srediti troskovnik/actions.canvas",
+    "Efforts/tasks/archive/srediti troskovnik/actions.canvas",
+    "Efforts/tasks/archive/archive 1/action.canvas",
+    "Efforts/tasks/archive/archive 1/srediti troskovnik/actions.canvas",
+    "~/×/2bd1531b9b78190dd1fd9434121e6bec_MD5.jpeg",
+    "~/×/lives.png",
+    "tasks canvas.canvas"
   ]
 }

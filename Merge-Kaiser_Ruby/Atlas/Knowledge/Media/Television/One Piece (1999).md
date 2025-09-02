@@ -2,7 +2,7 @@
 type: series
 subType: series
 title: One Piece
-year: 1999
+year: 1999-
 url: https://myanimelist.net/anime/21/One_Piece
 wikiUrl: https://en.wikipedia.org/wiki/One_Piece
 genres:
@@ -29,6 +29,8 @@ tags:
   - tv-series
 finished: false
 plan-to-watch: true
+status:
+  - 0_Backlog
 ---
 `$= '![Image|360](' + dv.current().image + ')'`
 

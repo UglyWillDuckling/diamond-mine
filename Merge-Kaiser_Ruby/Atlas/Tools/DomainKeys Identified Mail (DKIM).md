@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[Atlas/Knowledge/SPF]]"
+  - "[[Atlas/Knowledge/Science/Computer Science/Email/SPF]]"
   - "[[SMTP]]"
 aliases:
   - DKIM

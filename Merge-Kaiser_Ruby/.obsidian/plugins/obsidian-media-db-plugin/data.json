@@ -35,11 +35,11 @@
   "movieFolder": "Atlas/Knowledge/Media/movies",
   "seriesFolder": "Atlas/Knowledge/Media/Television",
   "mangaFolder": "Media DB/manga",
-  "gameFolder": "Media DB/games",
+  "gameFolder": "Atlas/Knowledge/Media/VideoGames",
   "wikiFolder": "Media DB/wiki",
   "musicReleaseFolder": "Media DB/music",
   "boardgameFolder": "Media DB/boardgames",
-  "bookFolder": "Media DB/books",
+  "bookFolder": "Atlas/Knowledge/Books",
   "propertyMappingModels": [
     {
       "type": "movie",

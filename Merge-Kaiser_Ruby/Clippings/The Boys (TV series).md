@@ -5,15 +5,17 @@ created: 2025-07-31
 tags:
   - tv-series
 type: series
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/The_Boys_TV_series_logo.svg/1280px-The_Boys_TV_series_logo.svg.png)
+image: https://images.wallpapersden.com/image/download/karl-urban-and-hughie-campbell-the-boys_bGduaWmUmZqaraWkpJRnamtlrWZuZ2U.jpg
 rating:
 actors:
   - "[[Karl Urban]]"
   - "[[Jack Quaid]]"
+status:
+  - 1_Standby
+plan-to-watch: false
+new_episodes: 2026-04-21
+year: 2008-
 ---
-- [Article](https://en.m.wikipedia.org/wiki/The_Boys_\(TV_series\))
-- [Talk](https://en.m.wikipedia.org/wiki/Talk:The_Boys_\(TV_series\))
-
 ***The Boys*** is an American [satirical](https://en.m.wikipedia.org/wiki/Satire_\(film_and_television\) "Satire (film and television)") [superhero](https://en.m.wikipedia.org/wiki/Superhero_fiction "Superhero fiction") [drama](https://en.m.wikipedia.org/wiki/Drama_\(film_and_television\) "Drama (film and television)") series developed by [Eric Kripke](https://en.m.wikipedia.org/wiki/Eric_Kripke "Eric Kripke") for [Amazon Prime Video](https://en.m.wikipedia.org/wiki/Amazon_Prime_Video "Amazon Prime Video"). Based on the [comic book of the same name](https://en.m.wikipedia.org/wiki/The_Boys_\(comics\) "The Boys (comics)") by [Garth Ennis](https://en.m.wikipedia.org/wiki/Garth_Ennis "Garth Ennis") and [Darick Robertson](https://en.m.wikipedia.org/wiki/Darick_Robertson "Darick Robertson"), it follows the eponymous team of [vigilantes](https://en.m.wikipedia.org/wiki/Vigilantism "Vigilantism") as they combat [superpowered](https://en.m.wikipedia.org/wiki/Superpower_\(ability\) "Superpower (ability)") individuals (referred to as "Supes") who abuse their powers for personal gain and work for a powerful company (Vought International) that ensures the general public views them as heroes. The series features an [ensemble cast](https://en.m.wikipedia.org/wiki/Ensemble_cast "Ensemble cast") that includes [Karl Urban](https://en.m.wikipedia.org/wiki/Karl_Urban "Karl Urban"), [Jack Quaid](https://en.m.wikipedia.org/wiki/Jack_Quaid "Jack Quaid"), [Antony Starr](https://en.m.wikipedia.org/wiki/Antony_Starr "Antony Starr"), [Erin Moriarty](https://en.m.wikipedia.org/wiki/Erin_Moriarty_\(actress\) "Erin Moriarty (actress)"), [Dominique McElligott](https://en.m.wikipedia.org/wiki/Dominique_McElligott "Dominique McElligott"), [Jessie T. Usher](https://en.m.wikipedia.org/wiki/Jessie_T._Usher "Jessie T. Usher"), [Chace Crawford](https://en.m.wikipedia.org/wiki/Chace_Crawford "Chace Crawford"), [Laz Alonso](https://en.m.wikipedia.org/wiki/Laz_Alonso "Laz Alonso"), [Tomer Capone](https://en.m.wikipedia.org/wiki/Tomer_Capone "Tomer Capone"), [Karen Fukuhara](https://en.m.wikipedia.org/wiki/Karen_Fukuhara "Karen Fukuhara"), [Nathan Mitchell](https://en.m.wikipedia.org/wiki/Nathan_Mitchell "Nathan Mitchell"), [Elisabeth Shue](https://en.m.wikipedia.org/wiki/Elisabeth_Shue "Elisabeth Shue"), [Colby Minifie](https://en.m.wikipedia.org/wiki/Colby_Minifie "Colby Minifie"), [Aya Cash](https://en.m.wikipedia.org/wiki/Aya_Cash "Aya Cash"), [Claudia Doumit](https://en.m.wikipedia.org/wiki/Claudia_Doumit "Claudia Doumit"), [Jensen Ackles](https://en.m.wikipedia.org/wiki/Jensen_Ackles "Jensen Ackles"), [Cameron Crovetti](https://en.m.wikipedia.org/wiki/Cameron_Crovetti "Cameron Crovetti"), [Susan Heyward](https://en.m.wikipedia.org/wiki/Susan_Heyward "Susan Heyward"), [Valorie Curry](https://en.m.wikipedia.org/wiki/Valorie_Curry "Valorie Curry"), and [Jeffrey Dean Morgan](https://en.m.wikipedia.org/wiki/Jeffrey_Dean_Morgan "Jeffrey Dean Morgan").
 
 ![[~/×/97e9f75b36cd0568246722b6c8d118df_MD5.png]]

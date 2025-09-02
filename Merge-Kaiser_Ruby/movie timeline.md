@@ -14,6 +14,7 @@ for (let movie of movies) {
 	let title = movie.title
 	let year = movie.year
 	let plot = movie.plot
+	let image = movie.image
 	
 	if (!title || !year) {
 		continue;
@@ -21,7 +22,7 @@ for (let movie of movies) {
 
 	let entry = "+ " + year + "\n"
 	entry += "+ " + title + "\n"
-	entry += "+ " + plot + "\n"
+	entry += "+ " + plot + " " + "![iamge|200](" + image + ")" + "\n"
 	entry += "\n"
 	codeblock += entry
 }
@@ -29,6 +30,3 @@ for (let movie of movies) {
 codeblock += "```"
 dv.paragraph(codeblock)
 ```
-
-
-

@@ -23,7 +23,7 @@ released: true
 premiere: 18.04.2025
 watched: false
 lastWatched: ""
-personalRating: 0
+personalRating: 8.2
 tags:
   - film
 ---

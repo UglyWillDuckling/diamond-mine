@@ -1,6 +1,6 @@
 ---
 type: movie
-subType: ""
+subType: horror
 title: 28 Days Later
 year: "2002"
 dataSource: OMDbAPI

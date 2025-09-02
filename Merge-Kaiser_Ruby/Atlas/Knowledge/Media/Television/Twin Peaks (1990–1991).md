@@ -12,11 +12,11 @@ genres:
   - Mystery
 writer:
   - Mark Frost
-  - David Lynch
+  - "[[David Lynch]]"
 episodes: 0
 onlineRating: 8.7
 actors:
-  - Kyle MacLachlan
+  - "[[Kyle MacLachlan]]"
   - Michael Ontkean
   - Mädchen Amick
 image: https://m.media-amazon.com/images/M/MV5BMTExNzk2NjcxNTNeQTJeQWpwZ15BbWU4MDcxOTczOTIx._V1_SX300.jpg
@@ -26,7 +26,8 @@ airedFrom: 04/08/1990
 airedTo: unknown
 watched: false
 lastWatched: ""
-personalRating: 0
+personalRating: 9.2
+status: Watching 👀
 tags:
   - series
 plan-to-watch: true
@@ -77,7 +78,8 @@ if (text) {
 **Aired until**: `$= dv.current().airedTo`o
 ___
 
-Twin Peaks is an American surrealist mystery-horror drama television series created by Mark Frost and David Lynch. It premiered on ABC on April 8, 1990, and ran for two seasons until its cancellation in 1991. The show returned in 2017 for a third season on Showtime.
+Twin Peaks is an American surrealist mystery-horror drama television series created by [[Mark Frost]] and [[David Lynch]]. It premiered on ABC on April 8, 1990, and ran for two seasons until its cancellation in 1991. 
+==The show returned in 2017 for a third season on Showtime.==
 
 Set in the fictional Pacific Northwest town of Twin Peaks, the series follows an investigation led by FBI special agent Dale Cooper (Kyle MacLachlan) into the murder of local teenager Laura Palmer (Sheryl Lee). The show's narrative draws on the characteristics of detective fiction, but its uncanny tone, supernatural elements, and campy, melodramatic portrayal of eccentric characters also draw from American horror and soap opera tropes.[4][5][6][7] Like much of Lynch's work, it is distinguished by surrealism, distinctive cinematography, and offbeat humor.[8] The musical score was composed by Angelo Badalamenti with Lynch.[9]
 

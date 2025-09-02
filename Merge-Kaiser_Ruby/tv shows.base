@@ -32,6 +32,7 @@ views:
       - personalRating
       - new_episodes
       - finished
+      - plan-to-watch
     sort:
       - property: new_episodes
         direction: ASC
@@ -41,7 +42,6 @@ views:
     name: Upcoming
     filters:
       and:
-        - finished == false
         - new_episodes >= today()
     order:
       - file.name
@@ -50,19 +50,24 @@ views:
     imageFit: contain
   - type: table
     name: Plan to Watch
+    filters:
+      and:
+        - finished != true
     order:
-      - finished
-      - file.name
-      - airing
-      - plan-to-watch
+      - year
       - new_episodes
+      - file.name
+      - status
+      - plan-to-watch
     sort:
       - property: plan-to-watch
-        direction: DESC
-      - property: airing
-        direction: DESC
+        direction: ASC
+      - property: status
+        direction: ASC
     columnSize:
+      note.year: 154
+      note.new_episodes: 150
       file.name: 407
-      note.airing: 73
-      note.plan-to-watch: 148
-      note.new_episodes: 212
+      note.status: 189
+      note.plan-to-watch: 178
+    rowHeight: medium

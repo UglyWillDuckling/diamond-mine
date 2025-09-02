@@ -35,6 +35,9 @@ personalRating: 0
 tags: mediaDB/tv/series
 plan-to-watch: true
 finished: false
+status:
+  - 2_Waiting ⌚
+new_episodes: 2025-12-01
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

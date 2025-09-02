@@ -2,10 +2,13 @@
 author:
   - "[[Michel Foucault]]"
 source: https://gns.wisc.edu/wp-content/uploads/2024/04/Foucault_Lives-of-Infamous-Men_1978.pdf
+interest: 7.5
+value: 8
+quality: 8.6
+status: Backlog
 tags:
   - 📚Book
 ---
-
 **This is not a book of history.** 
 
 The selection found here was guided by nothing more substantial than my taste, my pleasure, an emotion, laughter, surprise, a **certain dread**, or some other feeling whose intensity I might have trouble justifying, now that the first moment of discovery has passed. 

@@ -33,6 +33,9 @@ lastWatched: ""
 personalRating: 8
 tags:
   - tv-series
+status:
+  - 0_Backlog
+plan-to-watch: false
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

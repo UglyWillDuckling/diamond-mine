@@ -5,8 +5,6 @@ created: 2025-07-30
 tags:
   - author
 ---
-- [Article](https://en.m.wikipedia.org/wiki/Saidiya_Hartman)
-- [Talk](https://en.m.wikipedia.org/wiki/Talk:Saidiya_Hartman)
 
 **Saidiya Hartman** (born 1961) is an American academic and writer focusing on [African-American studies](https://en.m.wikipedia.org/wiki/Black_studies "Black studies"). She is currently a professor at [Columbia University](https://en.m.wikipedia.org/wiki/Columbia_University "Columbia University") in their English department.[^1] [^2] Her work focuses on [African-American literature](https://en.m.wikipedia.org/wiki/African-American_literature "African-American literature"), cultural history, photography and ethics, and the intersections of law and literature.
 

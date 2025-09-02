@@ -149,7 +149,7 @@ Eventually the browser will have all resources (e.g. HTML, CSS, JavaScript, PNGs
 Eventually just serving **static content** from a web server wasn't enough. In [Web 2.0](https://en.wikipedia.org/wiki/Web_2.0) (around 2004), it became possible for users not only to read content, but also to **create** content; which led to **dynamic** content. Remember the HTTP methods from earlier? 
 So far, we have only seen HTTP GET methods in action for reading resources, but what about the other HTTP methods?
 
-With the rise of [content management systems](https://en.wikipedia.org/wiki/Content_management_system) like [[Wordpress]], a web server had to enable users to not only see resources, but also to manipulate them. For example, a user using a content management system must be able to log in, to create a blog post, to update a blog post, to delete a blog post, and to log out. At this time, the programming language [PHP](https://en.wikipedia.org/wiki/PHP) (which could be interpreted by a web server on the server-side) was the best fit for these kinds of dynamic websites.
+With the rise of [content management systems](https://en.wikipedia.org/wiki/Content_management_system) like [[Atlas/Tools/pc/Wordpress/Wordpress]], a web server had to enable users to not only see resources, but also to manipulate them. For example, a user using a content management system must be able to log in, to create a blog post, to update a blog post, to delete a blog post, and to log out. At this time, the programming language [PHP](https://en.wikipedia.org/wiki/PHP) (which could be interpreted by a web server on the server-side) was the best fit for these kinds of dynamic websites.
 
 ![[~/×/8e172c6462f499ead0b4d7d363849b31_MD5.webp|17]]
 

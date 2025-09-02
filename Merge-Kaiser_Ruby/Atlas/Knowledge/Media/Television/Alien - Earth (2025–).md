@@ -17,7 +17,7 @@ actors:
   - Timothy Olyphant
 image: https://m.media-amazon.com/images/M/MV5BYjA3NjVmNGYtOWZiZS00N2I1LWIwNDEtNmE4YjAyMTQ4NjQ0XkEyXkFqcGc@._V1_SX300.jpg
 released: true
-airing: false
+airing: true
 airedFrom: 08/12/2025
 airedTo: unknown
 watched: false
@@ -27,8 +27,11 @@ tags:
   - tv-series
 new_episodes: 2025-08-12
 finished: false
-plan-to-watch: false
+plan-to-watch: true
+status:
+  - 3_Ready 📺
 ---
+
 `$= '![Image|200](' + dv.current().image + ')'`
 
 ```dataviewjs

@@ -11,7 +11,7 @@ actors:
   - "[[Jenna Ortega]]"
 watched: false
 airing: true
-released: false
+released: true
 finished: false
 new_episodes: 2025-09-11
 tags:

@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "e95cdeaf69c4a23a",
+        "id": "5f0f0fae8e11a9da",
         "type": "tabs",
         "children": [
           {
-            "id": "c7bc8a19e6c9bd7f",
+            "id": "a18e8fbf7c6787ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Atlas/Knowledge/Media/Writings/Books/A pattern language.md",
+                "file": "ugovor o gradnji - Vukojevic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A pattern language"
+              "title": "ugovor o gradnji - Vukojevic"
+            }
+          },
+          {
+            "id": "b4c044b9e36b162e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Efforts/Active/Kuca/Kuca.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kuca"
+            }
+          },
+          {
+            "id": "09030e2a3bdeac76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Master Task List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Master Task List"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -53,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hello",
+                "query": "tag:article/knauf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 389.5
   },
   "right": {
     "id": "879c4c46c01c5375",
@@ -208,6 +237,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": true,
       "bases:Create new base": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
@@ -225,64 +255,63 @@
       "templater-obsidian:Templater": true,
       "callout-manager:Insert Callout": true,
       "obsidian-book-search-plugin:Create new book note": true,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": true,
       "image-picker:Open Image Picker": true,
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "c7bc8a19e6c9bd7f",
+  "active": "09030e2a3bdeac76",
   "lastOpenFiles": [
-    "~/×/f3ca9e323fba07e6ef6bdaaede9a32b4_MD5.png",
-    "~/×/ce670eb4a8ba2de1168e7ff23253cbe3_MD5.gif",
-    "~/×/9b009395dbe57dd8406febc4c7347982_MD5.jpg",
-    "~/×/41ce12ab4c76c035fb885320d28a0b60_MD5.jpg",
-    "~/×/60092561b59247d98fb90ba32c0a2162_MD5.jpg",
-    "~/×/0073fa21b5a4d328d8c596aa483f1bb3_MD5.png",
-    "~/×/34f9cb13efc9a765ca75c846acc2426d_MD5.png",
-    "~/×/b81b1d1ea11448dafd4c0ca31e877f13_MD5.avif",
-    "~/×/46fb3653bd7eb367d4ecb7b9348a91c6_MD5.jpg",
-    "Clippings/Building API Endpoints with Laravel - Rick Mwamodo.md",
-    "Bookstores.base",
-    "+/Podquisition 547 Spread Em.md",
-    "Clippings/Why Laura Palmer is Special.md",
-    "Clippings/The Former Astrophysicist Changing how we Talk about Science (feat @dr.fatima).md",
-    "Atlas/Knowledge/Media/movies/Y tu mamá también (2001).md",
-    "Clippings/Programmable 2025 AI is a Hype-Fuelled Dumpster Fire - Chris Simon - YouTube.md",
-    "Clippings/Bill Maher An Autopsy.md",
-    "Clippings/Maggie Mae Fish - Lynch and twin peaks.md",
-    "Atlas/Knowledge/Media/movies/Mulholland Drive (2001).md",
-    "Clippings/How burgers helped me better understand my Vietnamese immigrant mother.md",
-    "Clippings/4 things I'd like to see in a future version of PHP.md",
-    "Clippings/Roger Ebert - Easy Rider movie review & film summary (1969).md",
-    "Darija Agatić.md",
+    "Efforts/Active/Kuca/Kuca.md",
+    "Master Task List.md",
+    "ugovor o gradnji - Vukojevic.md",
+    "Efforts/Active/Kuca/popis za useljenje.md",
+    "Efforts/Active/Kuca/Odabir stolarije.md",
+    "Efforts/Active/Kuca/docs/dokumentacija za kredit OTP · Damir.md",
+    "Efforts/Active/Kuca/docs/mail majstoric, stolarija mjere.md",
+    "Vjetar u Hrvatskoj.md",
+    "Atlas/Knowledge/Media/Writings/Books/The Timeless Way of Building (1979).md",
+    "movie timeline with chronos.md",
+    "History Books.md",
     "Kako srediti dokumentaciju za obrt.md",
-    "Malueva.md",
-    "Clippings/Low-thickness material flooring for outdoors.md",
-    "Atlas/Knowledge/Concepts/Present age/content of Present Age.md",
-    "LIVES OF INFAMOUS MEN.md",
-    "Efforts/persona mail issue - spoofing.md",
-    "Atlas/Knowledge/Media/Writings/Books/Things Fall Apart (1958) 1.md",
-    "Atlas/Knowledge/Media/Writings/Books/Never Let Me Go 1.md",
-    "Atlas/Knowledge/Media/Writings/Books/The Black Swan 1.md",
-    "Efforts/Simmering/Senka/Persona/archive/archive/Setup hosting/Setup hosting.md",
-    "Daniel Kusan.md",
-    "Efforts/tasks/DAS - watchlist.md",
+    "Calendar/daily/2025/2025-09-18-Thu.md",
+    "Clippings/Making a Small Wildlife Pond - Timelapse - 4K.md",
+    "Clippings/Sve što trebate znati o knauf konstrukcijama.md",
+    "~/×/83badd8f01cb283c6a24afc723d7ea08_MD5.webp",
+    "~/×/78c268124bddf8608b78f1a249b0bf9b_MD5.webp",
+    "~/×/3838f632378b086aa8fa8723ae851755_MD5.webp",
+    "~/×/325b606aea80662594599677947c8f00_MD5.webp",
+    "~/×/a232ee4173b364b106ac574adda4e25e_MD5.webp",
+    "~/×/fb238794bf0b149a540e606d3507452c_MD5.webp",
+    "~/×/516109d5aa075bde83a93f526ff203ea_MD5.webp",
+    "~/×/99249ef02bbd0f8ba6e751252075afb3_MD5.webp",
+    "~/×/e7620ebdec9d9a3859caacaf525f858a_MD5.webp",
+    "~/×/d586191b452b2a6575fe34ac5fc0ee5d_MD5.webp",
+    "Atlas/Life/People/Kristijan Sedlar.md",
+    "stolarija kuce.md",
+    "Efforts/tasks/archive/archive 1/review Hugama studio.md",
+    "Clippings/Top 5 Whale Scenes  BBC Earth - YouTube.md",
+    "Calendar/daily/2025/2025-09-17-Wed.md",
+    "Željka Perkovic.md",
+    "Clippings/Why everyone is switching to pavers, how to lay the perfect pavers - YouTube.md",
+    "Clippings/Japan's Tiny Forests are Thriving in Britain - here's why - YouTube.md",
+    "Clippings/How To Build A Stepping Stone Path - Small Cost With Big Results! - YouTube 1.md",
+    "Clippings/How To Build A Stepping Stone Path - Small Cost With Big Results! - YouTube.md",
+    "Otp kredit.md",
+    "tv shows.base",
+    "Media DB/books",
+    "Media DB",
+    "movies base.base",
+    "Atlas/Knowledge/Media/Writings/Bookstores.base",
     "Efforts/tasks/archive/archive/action.canvas",
     "my books base.base",
     "DAS - watchlist",
     "Efforts/Simmering/Senka/Persona/archive/archive/Setup hosting",
     "Efforts/Simmering/Senka/Persona/Docs/Dev/Wordpress",
     "Efforts/Simmering/Senka/Persona/Docs/Dev/Server",
-    "Efforts/Simmering/Senka/Persona/archive/archive",
-    "Efforts/Simmering/Senka/Persona/Docs/Dev",
-    "Efforts/Simmering/Senka/Persona/archive",
-    "Efforts/Simmering/Senka/Persona/Docs",
     "Efforts/tasks/archive/archive/srediti troskovnik/actions.canvas",
     "Efforts/tasks/archive/srediti troskovnik/actions.canvas",
     "Efforts/tasks/archive/archive 1/action.canvas",
     "Efforts/tasks/archive/archive 1/srediti troskovnik/actions.canvas",
-    "~/×/2bd1531b9b78190dd1fd9434121e6bec_MD5.jpeg",
-    "~/×/lives.png",
     "tasks canvas.canvas"
   ]
 }

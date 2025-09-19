@@ -1,14 +1,6 @@
 {
   "scanned": true,
-  "reminders": {
-    "+/Popis online knjižara, bookstores.md": [
-      {
-        "title": "reminder [[Popis online knjižara, bookstores]]",
-        "time": "2025-09-06",
-        "rowNumber": 1
-      }
-    ]
-  },
+  "reminders": {},
   "debug": false,
   "settings": {
     "reminderTime": "09:00",

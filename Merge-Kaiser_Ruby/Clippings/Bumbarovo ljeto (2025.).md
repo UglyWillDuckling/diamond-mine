@@ -2,7 +2,7 @@
 title: Bumbarovo ljeto (2025.) – Wikipedija
 source: https://hr.m.wikipedia.org/wiki/Bumbarovo_ljeto_(2025.)
 director:
-  - "[[Daniel Kusan]]"
+  - "[[Daniel Kusan 1]]"
 published:
 created: 2025-08-05
 lastWatched: 2025-08-05

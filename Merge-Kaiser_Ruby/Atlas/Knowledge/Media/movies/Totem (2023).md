@@ -14,8 +14,6 @@ director:
   - "[[Lila Avilés]]"
 writer:
   - Lila Avilés
-studio:
-  - N/A
 duration: 95 min
 onlineRating: 7
 actors:
@@ -33,6 +31,7 @@ personalRating: 9
 tags:
   - film
 ---
+
 ![[~/×/ebe33ff20ab99c83b24b5d6c4e026f07_MD5.jpg|200]]
 
 ```dataviewjs

@@ -1,0 +1,12 @@
+filters:
+  and:
+    - tags.contains("bookstore")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - source
+      - tags
+    columnSize:
+      file.name: 267

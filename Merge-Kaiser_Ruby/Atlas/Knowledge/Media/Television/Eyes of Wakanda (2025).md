@@ -28,6 +28,7 @@ tags:
 status:
   - 0_Backlog
 new_episodes: 2025-05-01
+finished: true
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

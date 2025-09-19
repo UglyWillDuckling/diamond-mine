@@ -19,9 +19,9 @@ views:
         direction: ASC
     columnSize:
       note.year: 140
-      note.new_episodes: 133
+      note.new_episodes: 152
       note.airing: 74
-      file.name: 423
+      file.name: 397
       note.released: 110
   - type: cards
     name: Gallery
@@ -46,6 +46,9 @@ views:
     order:
       - file.name
       - new_episodes
+    sort:
+      - property: new_episodes
+        direction: ASC
     image: note.image
     imageFit: contain
   - type: table

@@ -62,23 +62,23 @@ $35M+ funds raised
 	Used Very Good Library
 	£15.16 GBP
 	Add To Cart
-- [![The 24th Hour : A Women's Murder Club Thriller](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/the-24th-hour-a-women-s-murder-club-thriller-9780316403085)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/the-24th-hour-a-women-s-murder-club-thriller-9780316403085)
 	[The 24th Hour: A Women's Murder Club Thriller](https://www.betterworldbooks.com/product/detail/the-24th-hour-a-women-s-murder-club-thriller-9780316403085)
 	,
 	Used Very Good
 	£13.22 GBP
 	Add To Cart
-- [![Bits and Pieces : My Mother, My Brother, and Me](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/bits-and-pieces-my-mother-my-brother-and-me-9798200920235)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/bits-and-pieces-my-mother-my-brother-and-me-9798200920235)
 	[Bits and Pieces: My Mother, My Brother, and Me](https://www.betterworldbooks.com/product/detail/bits-and-pieces-my-mother-my-brother-and-me-9798200920235)
 	Used Very Good Library
 	£19.62 GBP
 	Add To Cart
-- [![An Unfinished Love Story : A Personal History of The 1960s](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/an-unfinished-love-story-a-personal-history-of-the-1960s-9781982108663)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/an-unfinished-love-story-a-personal-history-of-the-1960s-9781982108663)
 	[An Unfinished Love Story: A Personal History of The 1960s](https://www.betterworldbooks.com/product/detail/an-unfinished-love-story-a-personal-history-of-the-1960s-9781982108663)
 	Used Very Good
 	£19.98 GBP
 	Add To Cart
-- [![House of Flame and Shadow](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/house-of-flame-and-shadow-9781635574104)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/house-of-flame-and-shadow-9781635574104)
 	[House of Flame and Shadow](https://www.betterworldbooks.com/product/detail/house-of-flame-and-shadow-9781635574104)
 	Used Very Good Library
 	£20.37 GBP
@@ -89,7 +89,7 @@ $35M+ funds raised
 [![[~/×/64e08182a4f91b913c11a9707c1f7b21_MD5.png]]](https://www.betterworldbooks.com/explore/back_to_school)
 
 - Shelf Steals®
-	[![Speak : (National Book Award Finalist)](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/speak-national-book-award-finalist-9780312674397)
+	[![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/speak-national-book-award-finalist-9780312674397)
 	[Speak: (National Book Award Finalist)](https://www.betterworldbooks.com/product/detail/speak-national-book-award-finalist-9780312674397)
 	Used Very Good
 	£9.68 GBP
@@ -98,7 +98,7 @@ $35M+ funds raised
 	£9.86 GBP
 	Add To Cart
 - Shelf Steals®
-	[![Heart of Darkness : 'As Powerful a Condemnation of Imperialism as Has Ever Been Written'](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/heart-of-darkness-as-powerful-a-condemnation-of-imperialism-as-has-ever-been-written-9780486264646)
+	[![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/heart-of-darkness-as-powerful-a-condemnation-of-imperialism-as-has-ever-been-written-9780486264646)
 	[Heart of Darkness: 'As Powerful a Condemnation of Imperialism as Has Ever Been Written'](https://www.betterworldbooks.com/product/detail/heart-of-darkness-as-powerful-a-condemnation-of-imperialism-as-has-ever-been-written-9780486264646)
 	Used Good
 	£8.90 GBP
@@ -106,18 +106,18 @@ $35M+ funds raised
 
 [![[~/×/aabc335415c76521adbe105bc44c7f53_MD5.png]]](https://www.betterworldbooks.com/explore/shelf_steals)
 
-- [![Meet the Moomins! A Push, Pull and Slide Book](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/meet-the-moomins-a-push-pull-and-slide-book-9781529054125)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/meet-the-moomins-a-push-pull-and-slide-book-9781529054125)
 	[Meet the Moomins! A Push, Pull and Slide Book](https://www.betterworldbooks.com/product/detail/meet-the-moomins-a-push-pull-and-slide-book-9781529054125)
 	Used Good Library
 	£23.88 GBP
 	Add To Cart
-- [![How to Move in a Room Full of Vultures : A Memoir of Redemption and Leadership](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/how-to-move-in-a-room-full-of-vultures-a-memoir-of-redemption-and-leadership-9798998897511)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/how-to-move-in-a-room-full-of-vultures-a-memoir-of-redemption-and-leadership-9798998897511)
 	[How to Move in a Room Full of Vultures: A Memoir of Redemption and Leadership](https://www.betterworldbooks.com/product/detail/how-to-move-in-a-room-full-of-vultures-a-memoir-of-redemption-and-leadership-9798998897511)
 	[See Details](https://www.betterworldbooks.com/product/detail/how-to-move-in-a-room-full-of-vultures-a-memoir-of-redemption-and-leadership-9798998897511)
 - [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/you-and-me-for-real-hollywood-hills-9798992335118)
 	[You and Me, For Real (Hollywood Hills)](https://www.betterworldbooks.com/product/detail/you-and-me-for-real-hollywood-hills-9798992335118)
 	[See Details](https://www.betterworldbooks.com/product/detail/you-and-me-for-real-hollywood-hills-9798992335118)
-- [![Terminal Exchanges : An AJ Docker and Banshee Thriller](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/terminal-exchanges-an-aj-docker-and-banshee-thriller-9781685136642)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/terminal-exchanges-an-aj-docker-and-banshee-thriller-9781685136642)
 	[Terminal Exchanges: An AJ Docker and Banshee Thriller](https://www.betterworldbooks.com/product/detail/terminal-exchanges-an-aj-docker-and-banshee-thriller-9781685136642)
 	[See Details](https://www.betterworldbooks.com/product/detail/terminal-exchanges-an-aj-docker-and-banshee-thriller-9781685136642)
 - [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/the-moderators-book-1-of-the-moderator-chronicles-9798986119229)
@@ -129,27 +129,27 @@ $35M+ funds raised
 	Used Very Good
 	£12.99 GBP
 	Add To Cart
-- [![The Three Lives of Cate Kay : Reese's Book Club: a Novel](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/the-three-lives-of-cate-kay-reese-s-book-club-a-novel-9781668076217)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/the-three-lives-of-cate-kay-reese-s-book-club-a-novel-9781668076217)
 	[The Three Lives of Cate Kay: Reese's Book Club: a Novel](https://www.betterworldbooks.com/product/detail/the-three-lives-of-cate-kay-reese-s-book-club-a-novel-9781668076217)
 	Used Like New
 	£13.58 GBP
 	Add To Cart
-- [![Mothers and Sons : A Novel](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/mothers-and-sons-a-novel-9780316574716)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/mothers-and-sons-a-novel-9780316574716)
 	[Mothers and Sons: A Novel](https://www.betterworldbooks.com/product/detail/mothers-and-sons-a-novel-9780316574716)
 	Used Very Good Library
 	£18.29 GBP
 	Add To Cart
-- [![Scythe and Sparrow : The Ruinous Love Trilogy](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/scythe-and-sparrow-the-ruinous-love-trilogy-9781638931812)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/scythe-and-sparrow-the-ruinous-love-trilogy-9781638931812)
 	[Scythe and Sparrow: The Ruinous Love Trilogy](https://www.betterworldbooks.com/product/detail/scythe-and-sparrow-the-ruinous-love-trilogy-9781638931812)
 	Used Good Library
 	£15.44 GBP
 	Add To Cart
-- [![The Life Cycle of the Common Octopus: a Read with Jenna Pick : A Novel](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/the-life-cycle-of-the-common-octopus-a-read-with-jenna-pick-a-novel-9780593830451)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/the-life-cycle-of-the-common-octopus-a-read-with-jenna-pick-a-novel-9780593830451)
 	[The Life Cycle of the Common Octopus: a Read with Jenna Pick: A Novel](https://www.betterworldbooks.com/product/detail/the-life-cycle-of-the-common-octopus-a-read-with-jenna-pick-a-novel-9780593830451)
 	[See Details](https://www.betterworldbooks.com/product/detail/the-life-cycle-of-the-common-octopus-a-read-with-jenna-pick-a-novel-9780593830451)
 
 - Shelf Steals®
-	[![Dog Man: Grime and Punishment: a Graphic Novel (Dog Man #9): from the Creator of Captain Underpants](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/dog-man-grime-and-punishment-a-graphic-novel-dog-man-9-from-the-creator-of-captain-underpants-9781338535624)
+	[![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/dog-man-grime-and-punishment-a-graphic-novel-dog-man-9-from-the-creator-of-captain-underpants-9781338535624)
 	[Dog Man: Grime and Punishment: a Graphic Novel (Dog Man #9): from the Creator of Captain Underpants](https://www.betterworldbooks.com/product/detail/dog-man-grime-and-punishment-a-graphic-novel-dog-man-9-from-the-creator-of-captain-underpants-9781338535624)
 	Used Very Good
 	£13.24 GBP
@@ -164,33 +164,33 @@ $35M+ funds raised
 	Used Very Good
 	£13.65 GBP
 	Add To Cart
-- [![The Heaven and Earth Grocery Store : A Novel](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/the-heaven-and-earth-grocery-store-a-novel-9780593422946)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/the-heaven-and-earth-grocery-store-a-novel-9780593422946)
 	[The Heaven and Earth Grocery Store: A Novel](https://www.betterworldbooks.com/product/detail/the-heaven-and-earth-grocery-store-a-novel-9780593422946)
 	Used Like New
 	£13.37 GBP
 	Add To Cart
-- [![Dog Man: Mothering Heights: a Graphic Novel (Dog Man #10): from the Creator of Captain Underpants](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/dog-man-mothering-heights-a-graphic-novel-dog-man-10-from-the-creator-of-captain-underpants-9781338680454)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/dog-man-mothering-heights-a-graphic-novel-dog-man-10-from-the-creator-of-captain-underpants-9781338680454)
 	[Dog Man: Mothering Heights: a Graphic Novel (Dog Man #10): from the Creator of Captain Underpants](https://www.betterworldbooks.com/product/detail/dog-man-mothering-heights-a-graphic-novel-dog-man-10-from-the-creator-of-captain-underpants-9781338680454)
 	Used Very Good
 	£12.99 GBP
 	Add To Cart
-- [![Dog Man: Fetch-22: a Graphic Novel (Dog Man #8): from the Creator of Captain Underpants](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/dog-man-fetch-22-a-graphic-novel-dog-man-8-from-the-creator-of-captain-underpants-9781338323214)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/dog-man-fetch-22-a-graphic-novel-dog-man-8-from-the-creator-of-captain-underpants-9781338323214)
 	[Dog Man: Fetch-22: a Graphic Novel (Dog Man #8): from the Creator of Captain Underpants](https://www.betterworldbooks.com/product/detail/dog-man-fetch-22-a-graphic-novel-dog-man-8-from-the-creator-of-captain-underpants-9781338323214)
 	Used Very Good
 	£13.22 GBP
 	Add To Cart
-- [![I Will Teach You to Be Rich : No Guilt. No Excuses. Just a 6-Week Program That Works (Second Edition)](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/i-will-teach-you-to-be-rich-no-guilt-no-excuses-just-a-6-week-program-that-works-second-edition-9781523505746)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/i-will-teach-you-to-be-rich-no-guilt-no-excuses-just-a-6-week-program-that-works-second-edition-9781523505746)
 	[I Will Teach You to Be Rich: No Guilt. No Excuses. Just a 6-Week Program That Works (Second Edition)](https://www.betterworldbooks.com/product/detail/i-will-teach-you-to-be-rich-no-guilt-no-excuses-just-a-6-week-program-that-works-second-edition-9781523505746)
 	Used Good
 	£13.16 GBP
 	Add To Cart
 - Shelf Steals®
-	[![One Fish Two Fish Red Fish Blue Fish](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/one-fish-two-fish-red-fish-blue-fish-9780394800134)
+	[![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/one-fish-two-fish-red-fish-blue-fish-9780394800134)
 	[One Fish Two Fish Red Fish Blue Fish](https://www.betterworldbooks.com/product/detail/one-fish-two-fish-red-fish-blue-fish-9780394800134)
 	Used Very Good
 	£10.64 GBP
 	Add To Cart
-- [![Hot Mess (Diary of a Wimpy Kid Book 19)](https://www.betterworldbooks.com/images/products/imageless-placeholder.png)](https://www.betterworldbooks.com/product/detail/hot-mess-diary-of-a-wimpy-kid-book-19-9781419766954)
+- [![[~/×/1059da8d1eeb540cd5e2e5b4a3cb02bc_MD5.png]]](https://www.betterworldbooks.com/product/detail/hot-mess-diary-of-a-wimpy-kid-book-19-9781419766954)
 	[Hot Mess (Diary of a Wimpy Kid Book 19)](https://www.betterworldbooks.com/product/detail/hot-mess-diary-of-a-wimpy-kid-book-19-9781419766954)
 	Used Very Good
 	£12.18 GBP

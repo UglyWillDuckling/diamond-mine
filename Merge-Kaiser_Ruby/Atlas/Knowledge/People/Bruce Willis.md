@@ -1,14 +1,21 @@
 ---
 id: Bruce Willis
+aliases: []
+tags: []
 ---
 
 #actor #person
 
 ## movies
+```dataview
+LIST
+WHERE contains(actors, [[Bruce Willis]])
+```
+
+`=this.file.link`
 
 ```dataviewjs
-const current = this.current().file.name
-const movies = dv.pages("#film").where(m => m.type == 'movie' && m.actors?.contains(current))
-const links = movies.map((m) => m.file.link)
-dv.list(links)
+
+const link = this.current().file.link
+let movies = dv.pages("#film").where(m => m.type == 'movie')
 ```

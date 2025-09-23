@@ -20,7 +20,7 @@ genres:
   - "[[Fiction]]"
 ---
 
-![img|150](https://covers.openlibrary.org/b/OLID/OL1702950M-L.jpg)
+![[~/×/2eab872ccb2fad2c02830d8537f55797_MD5.jpg|150]]
 
 # The Ones Who Walk Away from Omelas
 

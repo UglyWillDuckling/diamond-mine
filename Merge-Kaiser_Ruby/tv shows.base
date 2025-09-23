@@ -19,9 +19,9 @@ views:
         direction: ASC
     columnSize:
       note.year: 140
-      note.new_episodes: 152
+      note.new_episodes: 133
       note.airing: 74
-      file.name: 397
+      file.name: 423
       note.released: 110
   - type: cards
     name: Gallery
@@ -32,7 +32,6 @@ views:
       - personalRating
       - new_episodes
       - finished
-      - plan-to-watch
     sort:
       - property: new_episodes
         direction: ASC
@@ -42,35 +41,28 @@ views:
     name: Upcoming
     filters:
       and:
+        - finished == false
         - new_episodes >= today()
     order:
       - file.name
       - new_episodes
-    sort:
-      - property: new_episodes
-        direction: ASC
     image: note.image
     imageFit: contain
   - type: table
     name: Plan to Watch
-    filters:
-      and:
-        - finished != true
     order:
-      - year
-      - new_episodes
+      - finished
       - file.name
-      - status
+      - airing
       - plan-to-watch
+      - new_episodes
     sort:
       - property: plan-to-watch
-        direction: ASC
-      - property: status
-        direction: ASC
+        direction: DESC
+      - property: airing
+        direction: DESC
     columnSize:
-      note.year: 154
-      note.new_episodes: 150
       file.name: 407
-      note.status: 189
-      note.plan-to-watch: 178
-    rowHeight: medium
+      note.airing: 73
+      note.plan-to-watch: 148
+      note.new_episodes: 212

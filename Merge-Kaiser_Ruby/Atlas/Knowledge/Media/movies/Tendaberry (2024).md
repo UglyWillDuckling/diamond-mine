@@ -23,9 +23,9 @@ premiere: 25.03.2025
 watched: false
 lastWatched: ""
 personalRating: 0
+plan-to-watch: true
 tags:
   - film/00
-plan-to-watch: true
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

@@ -16,7 +16,6 @@ views:
       - director
       - year
       - personalRating
-      - plan-to-watch
     sort:
       - property: interest
         direction: DESC

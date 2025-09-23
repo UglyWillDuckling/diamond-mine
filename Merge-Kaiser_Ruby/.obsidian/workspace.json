@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5f0f0fae8e11a9da",
+        "id": "170e9c5f066279b7",
         "type": "tabs",
         "children": [
           {
-            "id": "a18e8fbf7c6787ab",
+            "id": "4b54dd6718eadb54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ugovor o gradnji - Vukojevic.md",
+                "file": "Atlas/Knowledge/Media/movies/movie timeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ugovor o gradnji - Vukojevic"
-            }
-          },
-          {
-            "id": "b4c044b9e36b162e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/Active/Kuca/Kuca.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kuca"
-            }
-          },
-          {
-            "id": "09030e2a3bdeac76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Master Task List.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Master Task List"
+              "title": "movie timeline"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:article/knauf",
+                "query": "majstoric",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5
+    "width": 497.50550842285156
   },
   "right": {
     "id": "879c4c46c01c5375",
@@ -259,55 +230,55 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "09030e2a3bdeac76",
+  "active": "4b54dd6718eadb54",
   "lastOpenFiles": [
-    "Efforts/Active/Kuca/Kuca.md",
+    "movie timeline.md",
+    "+/timeline test.md",
+    "Atlas/Knowledge/Media/movies/movie timeline with chronos.md",
+    "Atlas/howtos/writing/Kako srediti dokumentaciju za obrt.md",
+    "Atlas/Life/People/mary kovacevic.md",
     "Master Task List.md",
-    "ugovor o gradnji - Vukojevic.md",
-    "Efforts/Active/Kuca/popis za useljenje.md",
-    "Efforts/Active/Kuca/Odabir stolarije.md",
-    "Efforts/Active/Kuca/docs/dokumentacija za kredit OTP · Damir.md",
-    "Efforts/Active/Kuca/docs/mail majstoric, stolarija mjere.md",
-    "Vjetar u Hrvatskoj.md",
-    "Atlas/Knowledge/Media/Writings/Books/The Timeless Way of Building (1979).md",
-    "movie timeline with chronos.md",
-    "History Books.md",
-    "Kako srediti dokumentaciju za obrt.md",
-    "Calendar/daily/2025/2025-09-18-Thu.md",
-    "Clippings/Making a Small Wildlife Pond - Timelapse - 4K.md",
-    "Clippings/Sve što trebate znati o knauf konstrukcijama.md",
-    "~/×/83badd8f01cb283c6a24afc723d7ea08_MD5.webp",
-    "~/×/78c268124bddf8608b78f1a249b0bf9b_MD5.webp",
-    "~/×/3838f632378b086aa8fa8723ae851755_MD5.webp",
-    "~/×/325b606aea80662594599677947c8f00_MD5.webp",
-    "~/×/a232ee4173b364b106ac574adda4e25e_MD5.webp",
-    "~/×/fb238794bf0b149a540e606d3507452c_MD5.webp",
-    "~/×/516109d5aa075bde83a93f526ff203ea_MD5.webp",
-    "~/×/99249ef02bbd0f8ba6e751252075afb3_MD5.webp",
-    "~/×/e7620ebdec9d9a3859caacaf525f858a_MD5.webp",
-    "~/×/d586191b452b2a6575fe34ac5fc0ee5d_MD5.webp",
-    "Atlas/Life/People/Kristijan Sedlar.md",
-    "stolarija kuce.md",
-    "Efforts/tasks/archive/archive 1/review Hugama studio.md",
-    "Clippings/Top 5 Whale Scenes  BBC Earth - YouTube.md",
-    "Calendar/daily/2025/2025-09-17-Wed.md",
-    "Željka Perkovic.md",
-    "Clippings/Why everyone is switching to pavers, how to lay the perfect pavers - YouTube.md",
-    "Clippings/Japan's Tiny Forests are Thriving in Britain - here's why - YouTube.md",
-    "Clippings/How To Build A Stepping Stone Path - Small Cost With Big Results! - YouTube 1.md",
-    "Clippings/How To Build A Stepping Stone Path - Small Cost With Big Results! - YouTube.md",
-    "Otp kredit.md",
-    "tv shows.base",
-    "Media DB/books",
-    "Media DB",
+    "object design annot.md",
     "movies base.base",
-    "Atlas/Knowledge/Media/Writings/Bookstores.base",
+    "tv shows.base",
+    "Efforts/Active/Kuca/docs/Otp kredit.md",
+    "Efforts/Active/Kuca/dijelovi/glazura.md",
+    "application for Laravel position - cover letter.md",
+    "+/DAS - watchlist/DAS - watchlist.md",
+    "Atlas/Knowledge/World/Divlji kesten.md",
+    "Efforts/Active/Beginner's Guide to Django - Tutorial/django forms.md",
+    "Atlas/howtos/dev/chronos cheatsheet.md",
+    "Atlas/Notes/Drvo kod korza.md",
+    "~/×/cd2461c0b0bda5c1e82584d42c07ea7d_MD5.jpg",
+    "~/×/3ae9a0bfad3f69ce824d71943a59d31f_MD5.jpg",
+    "~/×/f46fa2e687fb947b14a2da91d7b4e96f_MD5.jpg",
+    "~/×/c502e91474f118bbabd31c7af6e6c253_MD5.jpg",
+    "~/×/9a9117436f41662ac46780afd14d4108_MD5.jpg",
+    "~/×/33b320d670c5a20e8ffd01dc02e0a918_MD5.jpg",
+    "~/×/acefeae656b60c4388c4d5f80a89f5e3_MD5.jpg",
+    "~/×/1a1da8368590a0dbf9dd11970fb0b4bd_MD5.jpg",
+    "~/×/87a8b477b9e074197871aec5db6f0356_MD5.jpg",
+    "~/×/0cc151032109aff81475f945d62a5f4f_MD5.jpg",
+    "Clippings/Topola – stabla koja oblikuju hrvatske pejzaže.md",
+    "Clippings/Obični bagrem (Robinia pseudacacia).md",
+    "Clippings/Crna topola.md",
+    "Clippings/Around the world in a Free Palestine hoodie.md",
+    "Atlas/Knowledge/Media/Articles/Dev/The Early History Of Smalltalk.md",
+    "Atlas/Knowledge/Books/A People's History of the United States.md",
+    "Atlas/Knowledge/concepts/CS/Endianness.md",
+    "Atlas/Knowledge/Books/satanic verses.md",
+    "Atlas/World/Tradition/Zanimanja/Haenyo.md",
+    "Atlas/Knowledge/Folklore/Kikimora.md",
+    "Atlas/Knowledge/Articles/manufacturing in the US article.md",
+    "Atlas/Knowledge/Media/Articles/Dev",
+    "Atlas/World/Tradition/Zanimanja",
+    "Atlas/World/Drustva/Companies",
+    "Atlas/Knowledge/Books/Authors",
+    "Atlas/Knowledge/concepts/CS",
+    "Atlas/World/Drustva/Udruge",
+    "Atlas/Knowledge/howtos/dev",
+    "Atlas/Knowledge/Folklore",
     "Efforts/tasks/archive/archive/action.canvas",
-    "my books base.base",
-    "DAS - watchlist",
-    "Efforts/Simmering/Senka/Persona/archive/archive/Setup hosting",
-    "Efforts/Simmering/Senka/Persona/Docs/Dev/Wordpress",
-    "Efforts/Simmering/Senka/Persona/Docs/Dev/Server",
     "Efforts/tasks/archive/archive/srediti troskovnik/actions.canvas",
     "Efforts/tasks/archive/srediti troskovnik/actions.canvas",
     "Efforts/tasks/archive/archive 1/action.canvas",

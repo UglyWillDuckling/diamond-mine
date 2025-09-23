@@ -3,13 +3,17 @@ id: Master Task List
 tags:
   - task-list
 ---
-- [ ] #task nazvati [[Malueva]] radi provjere poreznih dugovanja 🔼
+- [ ] #task poslati mail za tablete 📅 2025-09-24
+- [ ] #task otvori [[dwg]] file od projekta kuce 🆔 SBHYII
 
-- [ ] #task **procitati** [[A pattern language]] ⏫ ⏳ 2025-08-23 📅 2025-09-18 🆔 yB4Reg
-- [ ] #task read book [[object design annot]] ⏳ 2025-06-24 📅 2025-07-27 🆔 jTevsr
+- [ ] #task [[Candy Candy]] skinuti 🆔 WSo4mG
+- [ ] #task nazvati [[Malueva]] radi provjere poreznih dugovanja 🔼 🆔 F2ja8U
 
+- [ ] #task **procitati** [[A pattern language]] ⏫ ⏳ 2025-08-23 📅 2025-09-30 🆔 yB4Reg
+- [ ] #task read book [[object design annot]] ⏳ 2025-06-24 📅 2025-09-30 🆔 jTevsr
+___
 - [/] #task read :LiBook: [[A Wizard of Earthsea]] 🧙🏻‍♂️ 📅 2025-05-24 📚 🆔 i2gcix 📅 2025-06-18
-- [/] #task Prodi [[Bug 388]] i instaliraj zeljeni software #paused 🆔 BVw5Ce 🔼 ⏳ 2025-03-03 📅 2025-07-27
+- [x] #task Prodi [[Bug 388]] i instaliraj zeljeni software #paused 🆔 BVw5Ce 🔼 ⏳ 2025-03-03 📅 2025-07-27 ✅ 2025-09-23
 
 - [x] #task Traži feniksa ⏫ ⏳ 2025-08-17 📅 2025-08-24 🆔 vEIaW2
 - [x] #task update day template - **match** work 🆔 cTiIeu 🔼 ⏳ 2025-07-05 📅 2025-07-12 ✅ 2025-07-20
@@ -45,14 +49,14 @@ tags:
 - [x] #task **Kontaktirati** [[Zelena Zadruga|zelenu zadrugu]] 🆔 dBavvX 📅 2025-05-15 ✅ 2025-05-18
 - [x] #task import something from [[Notion]] 🆔 F2nx7C 🔼 ⏳ 2025-05-04 📅 2025-05-10 ✅ 2025-05-18
 - [x] #task organize DAS screencasts 🆔 h2xkdz 🔼 ⏳ 2025-05-03 📅 2025-05-10 ✅ 2025-05-18
-	- [[das-0002-how-and-why-to-avoid-nil]]
-	- [[DAS - watchlist]]
+	- [[+/DAS - watchlist/das-0002-how-and-why-to-avoid-nil]]
+	- [[Efforts/tasks/DAS - watchlist]]
 - [x] #task potpisati ugovor od OVB-a
 - [x] #task pripremiti se kolokvij iz Programiranja #faks #college 🆔 MEhgeO ⏫ 🛫 2025-05-31 ⏳ 2025-05-31 📅 2025-06-01 ✅ 2025-06-10
 - [x] #task plati Senki racune ⏫ ⏳ 2025-05-29 📅 2025-05-29 🆔 zWjq2N ✅ 2025-05-29
 - [x] #task explore Morgen AI planner 🔼 🛫 2025-05-28 ⏳ 2025-05-28 📅 2025-06-05 🆔 XWKKTw ✅ 2025-06-01
 - [x] #task connect [[outlook calendar]] to Morgen 🔼 ⏳ 2025-05-28 📅 2025-05-28 🆔 TUNa8p ✅ 2025-05-28
-- [/] #task Explore [[Arduino]] 🔼 🛫 2025-05-28 ⏳ 2025-05-31 📅 2025-07-27 🆔 5aTADq
+- [/] #task Explore [[Arduino]] 🔼 🛫 2025-05-28 ⏳ 2025-05-31 📅 2025-09-30 🆔 5aTADq
 - [x] #task cancel **Means** TV sub 🔼 ⏳ 2025-05-23 📅 2025-05-29 🆔 2cpPvG ✅ 2025-05-28
 - [x] #task Trajno rješenje za [[persona mail setup]] ⏫ 📅 2025-05-28 🆔 f6HQA8 ✅ 2025-05-27
 	- [x] [[solution to update mail certs on Persona]]

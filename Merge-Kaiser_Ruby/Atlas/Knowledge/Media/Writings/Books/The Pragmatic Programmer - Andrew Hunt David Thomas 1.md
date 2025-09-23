@@ -20,7 +20,7 @@ updated: 2024-11-20 22:12:06
 read: true
 ---
 %% To use an image URL from the server, use the following syntax: %%
-![cover|150](http://books.google.com/books/content?id=5wBQEp6ruIAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
+![[~/×/0e022fd01ba5b931b0379a766fddc9b8_MD5.jpg|150]]
 
 %% To save images locally, enable the 'Enable Cover Image Save' option in the settings and enter as follows: %%
 

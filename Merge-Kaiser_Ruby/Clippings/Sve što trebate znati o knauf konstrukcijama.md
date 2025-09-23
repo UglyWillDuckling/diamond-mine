@@ -5,7 +5,7 @@ author:
 published:
 created: 2025-09-18
 about:
-  - "[[knauf]]"
+  - "[[knauf dio]]"
 tags:
   - article/knauf
 ---

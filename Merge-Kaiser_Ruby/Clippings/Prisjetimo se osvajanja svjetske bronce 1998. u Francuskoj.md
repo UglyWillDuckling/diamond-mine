@@ -45,7 +45,7 @@ Prva utakmica odigrana je u Zagrebu 29. listopada 1997., a hrvatska vrsta je pob
 
 ##### Galerija
 
-![Svjetsko prvenstvo 1998. u Francuskoj, Foto: Qatara/HRT](https://api.hrt.hr/media/b2/e9/1280w-devedesetosma2-20221216194823.webp) ![Svjetsko prvenstvo 1998. u Francuskoj, Foto: Qatara/HRT](https://api.hrt.hr/media/35/63/135h-devedesetosma1-20221216194912.webp)
+![[~/×/80c68aa2a0530a91657c8371fb84ed30_MD5.webp]] ![[~/×/0fbed1a740d0e473ece9f3bce6e7e4ec_MD5.webp]]
 
 Na Svjetskom prvenstvu 1998. u Francuskoj Hrvatska je bila u skupini H s Jamajkom, Japanom i Argentinom.  
   

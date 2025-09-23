@@ -28,11 +28,10 @@ watched: false
 lastWatched: ""
 personalRating: 8.5
 tags:
+  - mediaDB/tv/series
   - tv-series
 finished: false
 plan-to-watch: true
-status:
-  - 4_Next Up 🏁
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

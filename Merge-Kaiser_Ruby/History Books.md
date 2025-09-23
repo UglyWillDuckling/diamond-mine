@@ -1,5 +1,3 @@
-A short list of history books, for now.
-___
 
 [[A People's History of the United States]] #America 
 

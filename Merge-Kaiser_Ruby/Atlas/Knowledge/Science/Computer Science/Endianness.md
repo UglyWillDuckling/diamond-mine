@@ -24,7 +24,7 @@ Of the two, **big-endian** is thus closer to the way the digits of numbers are w
 **Big-endianness is the dominant ordering in networking protocols**, such as in the [Internet protocol suite](https://en.wikipedia.org/wiki/Internet_protocol_suite "Internet protocol suite"), where it is referred to as *network order*, transmitting the most significant byte first. Conversely, **little-endianness is the dominant ordering for processor architectures** ([x86](https://en.wikipedia.org/wiki/X86 "X86"), most [ARM](https://en.wikipedia.org/wiki/ARM_architecture "ARM architecture") implementations, base [RISC-V](https://en.wikipedia.org/wiki/RISC-V "RISC-V") implementations) and their associated memory. [File formats](https://en.wikipedia.org/wiki/File_format "File format") can use either ordering; some formats use a mixture of both or contain an indicator of which ordering is used throughout the file.[^11]
 ## Characteristics
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/32bit-Endianess.svg/2560px-32bit-Endianess.svg.png) ^74e261
+![[~/×/244f56792b16900c6bc17756e60d425b_MD5.png]] ^74e261
 
 *Diagram demonstrating big- versus little-endianness*
 

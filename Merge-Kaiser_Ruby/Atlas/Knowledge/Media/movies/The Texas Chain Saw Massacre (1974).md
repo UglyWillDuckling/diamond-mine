@@ -57,7 +57,7 @@ if (!dv.current().released) {
 **Premiered**: `$= dv.current().premiere`
 
 
-![The Texas Chain Saw Massacre|400](https://images.bauerhosting.com/empire/2023/10/The-Texas-Chain-Saw-Massacre.jpg?auto=format&w=1440&q=80)
+![[~/×/e6ba253267b4a94d539bffeb29a01751_MD5.jpg|400]]
 
 
 

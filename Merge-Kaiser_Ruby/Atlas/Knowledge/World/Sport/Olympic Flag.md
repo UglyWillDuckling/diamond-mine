@@ -15,6 +15,6 @@ The origin of the flag’s design is in some dispute. It is thought to be [Pierr
 
 The Olympic flag is raised at the Opening Ceremonies and flies over the main stadium throughout the Olympic Games. It is lowered at the Closing Ceremonies of the Olympic Games. The mayor of the Olympic host city then presents the Olympic flag to the mayor of the next Olympic host city. The flag is to be kept in the town hall of the host city until the next Olympic Games. (See also [Olympic Ceremonies](https://www.olympedia.org/descriptions/113))
 
-![](https://cdn.britannica.com/01/23901-050-33507FA4/flag-Olympic-Games.jpg)
+![[~/×/b5e18d4a3933d1a228020af9581e23fe_MD5.jpg]]
 
-![](https://images.prismic.io/sketchplanations/Zq6d4EaF0TcGIqoN_SP884-TheOlympicFlag.png?auto=format,compress)
+![[~/×/74be1999f778b1dec9dbfd78d9e1a7a1_MD5.jpg]]

@@ -122,7 +122,7 @@ Through a series of flukes, I wound up in graduate school at the University of U
 
 Every newcomer got one. The title was "Sketchpad: A man-machine graphical communication system" \[Sutherland, 1963\]. What it could do was quite remarkable, and completely foreign to any use of a computer I had ever encountered. The three big ideas that were easiest to grapple with were: it was the invention of modern interactive computer graphics; things were described by making a "master drawing" that could produce "instance drawings"; control and dynamics were supplied by "constraints," also in graphical form, that could be applied to the masters to shape an inter-related parts. Its data structures were hard to understand—the only vaguely familiar construct was the embedding of pointers to procedures and using a process called reverse indexing to jump through them to routines, like the 220 file system \[Ross, 1961\]. It was the first to have clipping and zooming windows—one "sketched" on a virtual sheet about 1/3 mile square!
 
-![~/×/cc3e2de7a5bf763700fe7d73c27f7fab_MD5.jpg](https://worrydream.com/EarlyHistoryOfSmalltalk/Images/sketchpad.png)
+![[~/×/9151c2db8aafa9e795712b95ecc61c6b_MD5.png]]
 
 Head whirling, I found my desk. On it was a pile of tapes and listings, and a note: "This is the Algol for the 1108. It doesn't work. Please make it work." The latest graduate student gets the latest dirty task.
 

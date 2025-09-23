@@ -1,4 +1,4 @@
-part_of:: [[DAS - watchlist]]
+part_of:: [[Efforts/Simmering/DAS - watchlist/DAS - watchlist]]
 ___
 
 ![[das-0002-how-and-why-to-avoid-nil.mp4]]

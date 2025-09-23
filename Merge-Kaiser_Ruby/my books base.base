@@ -18,6 +18,7 @@ views:
       - status
       - author
       - genres
+      - image
     sort:
       - property: status
         direction: ASC

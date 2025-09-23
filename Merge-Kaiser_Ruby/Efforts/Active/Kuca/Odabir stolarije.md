@@ -1,15 +1,16 @@
+[[stolarija kuce]]
+
+- [[Lepirac]] je otpo
+___
 
 - [ ] posjetiti radnje u brodu
-	- [ ] [[Majstoric]]
-- [ ] zatražiti ponude
-	- [ ] lokalni
+	- [x] [[Majstoric]]
+- [x] zatražiti ponude
+	- [x] lokalni
 	- [x] [[Marlex]]
 	- [x] [[lokve]]
 	- [x] [[Lepirac]]
-
-- [x] izvući mjere
-- [x] poslati mjere Majstoric
-- [ ] ..
-
-[[stolarija kuce]]
-
+	- [x] [[Inoprem]]
+	- [x] [[ArtX]]
+	- [x] [[Vnuk Produkt]]
+	- [x] [[PROZOR CENTAR d.o.o.]]

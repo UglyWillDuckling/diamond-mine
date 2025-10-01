@@ -21,10 +21,10 @@ released: true
 premiere: 23.08.1984
 watched: false
 lastWatched: ""
+plan-to-watch: true
 personalRating: 0
 tags:
   - film
-plan-to-watch: true
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

@@ -12,7 +12,7 @@ genres:
   - Mystery
   - Thriller
 director:
-  - "[[David Lynch]]"
+  - David Lynch
 onlineRating: 7.9
 actors:
   - Naomi Watts
@@ -24,6 +24,7 @@ premiere: 19.10.2001
 watched: false
 lastWatched: ""
 personalRating: 0
+plan-to-watch: true
 tags:
   - film
 ---

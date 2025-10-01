@@ -3,7 +3,8 @@ id: Master Task List
 tags:
   - task-list
 ---
-- [ ] #task poslati mail za tablete 📅 2025-09-24
+- [ ] #task napraviti popis drveca u brodu 🆔 JQwEQH
+- [ ] #task poslati mail za tablete 📅 2025-09-24 🆔 vNY2fR
 - [ ] #task otvori [[dwg]] file od projekta kuce 🆔 SBHYII
 
 - [ ] #task [[Candy Candy]] skinuti 🆔 WSo4mG

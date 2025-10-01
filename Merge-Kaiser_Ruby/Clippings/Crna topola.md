@@ -5,6 +5,7 @@ created: 2025-09-23
 tags:
   - stablo
 related:
+  - "[[Topola – stabla koja oblikuju hrvatske pejzaže]]"
 ---
 ![[~/×/ad0d9d10f36f4f65d607a14dfb69c335_MD5.jpg]]
 
@@ -59,3 +60,5 @@ Tipovi lokacija
 ![](https://www.plantea.com.hr/crna-topola/www.w3.org/2000/svg'%20viewBox='0%200%20306%20425'%3E%3C/svg%3E)
 
 Pregled lokacija
+
+

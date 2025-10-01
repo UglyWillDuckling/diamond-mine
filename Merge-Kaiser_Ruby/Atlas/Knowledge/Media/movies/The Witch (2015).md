@@ -24,7 +24,7 @@ premiere: 02/19/2016
 watched: false
 lastWatched: ""
 personalRating: 0
-plan-to-watch: true
+plan-to-watch: false
 tags:
   - film
 ---

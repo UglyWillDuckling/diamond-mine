@@ -5,4 +5,6 @@
 Ponedjeljak 7-14:30
 
 tel:035449105
-email: ?
+email: pacijenti@ordinacija-kovacevic.hr
+
+![[IMG-20250827-WA0000.jpg]]

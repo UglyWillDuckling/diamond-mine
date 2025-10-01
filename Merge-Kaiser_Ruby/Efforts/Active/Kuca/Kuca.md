@@ -8,6 +8,7 @@
 	 - [ ] poslati na mail 📧
  - [x] nazvati [[vodovod]] radi priključak
  - [ ] #task priključak za plin, subvencije  🆔 UrzGWM
+ - [ ] #task [[mail za eksterni dizajn]] 🆔 JvoNeK
 
 ### troskovi
 

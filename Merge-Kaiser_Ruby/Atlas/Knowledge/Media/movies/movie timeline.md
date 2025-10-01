@@ -19,12 +19,15 @@ function imageFrom(movie) {
 
 let movies = dv.pages("#film").where(m => m.type == 'movie').sort(m => m.year);
 
+
 let codeblock = "```timeline\n" + "[line-3, body-2]\n"
 
 for (let movie of movies) {
+	console.log(movie)
 	let title = movie.title
 	let year = movie.year
 	let plot = movie.plot
+	let link = movie.file.link
 	
 	if (!title || !year) {
 		continue;
@@ -32,7 +35,7 @@ for (let movie of movies) {
 
 	let entry = "+ " + year + "\n"
 	entry += "+ " + imageFrom(movie) + "\n"
-	entry += "+ " + plot + "\n"
+	entry += "+ " + link + " " + plot + "\n"
 	entry += "\n"
 	codeblock += entry
 }

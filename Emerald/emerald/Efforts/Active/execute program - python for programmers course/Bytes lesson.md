@@ -8,7 +8,7 @@ interest: 8
 %% seems useful, especially for manipulating raw data and having direct access to it. Also allows for observing and studying low level operations in computers %%
 
 - [x] remind me (@[[2025-07-04]])
-- [ ] remind er [[Bytes lesson]] (@[[2025-08-01]])
+- [x] remind er [[Bytes lesson]] (@[[2025-08-01]])
 ___
 
 When we first learn to program, we're often told that everything in a computer is made of bits: "just ones and zeros". 

@@ -84,7 +84,7 @@ The only hiccup I found was not realizing that if you search all frontmatter fie
 My Specification:  
 I'm not super familiar yet with the obsidian API, I've just been building small tools for linking together different workflows offered by different plugins. So it's possible there's a more performant way to get the values, as I didn't think about the dataview field:: syntax, or that the info might be cached in a more easy to access way.
 
-Essentially, I just get all markdown files from the vault, and loop over them, checking their frontmatter for the <variable> provided. It's definitely a brute force method, but I was more keen on getting the new syntax working than finding the optimal solution at this stage.
+Essentially, I just get all markdown files from the vault, and loop over them, checking their frontmatter for the  provided. It's definitely a brute force method, but I was more keen on getting the new syntax working than finding the optimal solution at this stage.
 
 [![qaptoR](https://avatars.githubusercontent.com/u/40372043?u=b055172e11081867f1f1ff96ecbeba35afab71f0&v=4&size=80)](https://github.com/qaptoR)
 
@@ -100,16 +100,13 @@ Thanks for your PR [@qaptoR](https://github.com/qaptoR) & your input [@Elaws](ht
 
 With the latest update, , `{{FIELD}}` has been added as a new feature.  
 I'm considering this release a beta-test of the `{{FIELD}}` feature, and have asked for feedback in the release notes:  
-[![image](https://user-images.githubusercontent.com/29108628/223440462-15b4edfc-172e-4bae-b46e-edfa5b1e4fb8.png)](https://user-images.githubusercontent.com/29108628/223440462-15b4edfc-172e-4bae-b46e-edfa5b1e4fb8.png)
 
 I've also gone ahead and fixed the issue that [@qaptoR](https://github.com/qaptoR) mentioned:  
 Supports when there are *no* fields like the one you specify in `{{FIELD}}` in your vault. Will just ask you to input a value manually. Similar to `{{VALUE}}`.
 
 I want to more towards what [@Elaws](https://github.com/Elaws) suggested, allowing for a more sophisticated language to query for these. I'm strongly considering using dataview for this, as it is familiar syntax to many Obsidian users. Need to consider it a bit more, though...
 
-Anyway, hoping to get some more feedback in here. Looking to add dataview support (inline properties) to this soon, so leaving this issue up + for further consideration & feedback.
-
-[![MichaTarlton](https://avatars.githubusercontent.com/u/23247219?v=4&size=80)](https://github.com/MichaTarlton)
+Anyway, hoping to get some more feedback in here. Looking to add dataview support (inline properties) to this soon, so leaving this issue up + for further consideration feedback.
 
 Forgive my ignorance, but are there defined capabilities and directions for the {{FIELD}} feature as of current?
 
@@ -142,8 +139,6 @@ However, some things I think make sense:
 - only showing unique values.
 
 Which I'll be implementing now.
-
-[![MichaTarlton](https://avatars.githubusercontent.com/u/23247219?v=4&size=80)](https://github.com/MichaTarlton)
 
 Thank you for putting my mind to rest.
 
@@ -286,53 +281,3 @@ The enhancement will be included in the next QuickAdd release. Looking forward t
 Feel free to report any issues or suggest further improvements.
 
 [![Elaws](https://avatars.githubusercontent.com/u/52013479?u=50ef7313c80a8d4bd00f2e337c043fd7e1d6caa9&v=4&size=80)](https://github.com/Elaws)
-
-Amazing, this will be SO useful.
-
-Thank you very much!
-
-[![hbock-42](https://avatars.githubusercontent.com/u/9290665?u=d7a86edc69f9e699960b7cf5900152133fd2c31e&v=4&size=80)](https://github.com/hbock-42)
-
-Thank you, I'll try this!
-
-[![github-actions](https://avatars.githubusercontent.com/in/15368?v=4&size=80)](https://github.com/apps/github-actions)
-
-🎉 This issue has been resolved in version 1.14.0 🎉
-
-The release is available on
-
-Your **[semantic-release](https://github.com/semantic-release/semantic-release)** bot 📦🚀
-
-[![aviv-vladimirsedlar](https://avatars.githubusercontent.com/u/164000046?s=64&u=379ccf61fa3eb5f1b0f730db582196e09527bb2f&v=4)](https://github.com/aviv-vladimirsedlar)
-
-## Add a comment
-
-## Metadata
-
-## Metadata
-
-### Assignees
-
-No one assigned
-
-### Labels
-
-[enhancement New feature or request](https://github.com/chhoumann/quickadd/issues?q=state%3Aopen%20label%3A%22enhancement%22) [released](https://github.com/chhoumann/quickadd/issues?q=state%3Aopen%20label%3A%22released%22)
-
-### Projects
-
-No projects
-
-### Milestone
-
-No milestone
-
-### Relationships
-
-None yet
-
-### Development
-
-- [
-	feat: enhance field suggestions with advanced filtering and smart defaults chhoumann/quickadd
-	](https://github.com/chhoumann/quickadd/pull/826)

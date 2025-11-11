@@ -1,0 +1,25 @@
+filters:
+  and:
+    - file.tags.containsAny("ticket")
+views:
+  - type: table
+    name: IN PRogress
+    filters:
+      and:
+        - status.containsAny("In Progress")
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - status
+      - file.name
+      - children
+    sort:
+      - property: project
+        direction: ASC
+    columnSize:
+      note.status: 155
+      file.name: 355
+    rowHeight: medium
+  - type: table
+    name: Table

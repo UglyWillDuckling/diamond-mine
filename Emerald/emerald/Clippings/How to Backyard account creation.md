@@ -4,7 +4,7 @@ source: https://avivgroup.atlassian.net/wiki/spaces/CIO/pages/341842191/Backyard
 tags:
   - howto/backyard/user
 ---
-- [ ] reminder (@[[2025-07-31]])
+- [x] reminder (@[[2025-07-31]])
 - Go to “Outils”
 ![[~/x/cf33d08c7cb08f0f9c17caf4c2e7a2ea_MD5.jpeg|400]]
 

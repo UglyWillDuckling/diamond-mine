@@ -1,10 +1,14 @@
 ---
+author:
+  - "[[Scott Chacon]]"
+about:
+  - "[[git]]"
 source: https://blog.gitbutler.com/git-tips-1-theres-a-git-config-for-that/
+previous: "[[Git Tips 3 Really Large Repositories]]"
+next: "[[Git Tips 2 New Stuff in Git]]"
+tags:
+  - howto/git
 ---
-[![GitButler](https://blog.gitbutler.com/content/images/2024/03/icon-gradient-color@3x-1.png)](https://blog.gitbutler.com)
-
-#git #active #reading 
-
 ## Git Tips 1: Oldies but Goodies
 
 Do you know some of the cool stuff in Git that's been around for a while? All the magical -L and -C options in the Git world? Let's find out!
@@ -16,8 +20,9 @@ None of this is new, but I find them useful and they're arguably a little obscur
 - [Conditional Configs](#conditional-configs)
 - [Git Blame and Log with Line Ranges](#git-blame-and-log-with-line-ranges)
 - [Git Blame with Following](#git-blame-with-following)
-- [Word Diff](#word-diff)
-- [Resolution Reuse](#reuse-recorded-resolution)
+
+- [[#Word Diff]]
+- [[#Reuse Recorded Resolution]]
 
 Let's dig in!
 

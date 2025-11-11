@@ -4,9 +4,9 @@
 ## notes 📔
 
 > [!blank-container]
->- [[evalution]]'s need to be added to the [[Real Estate Project]] before it can be moved from [[project status list#Evaluation demandée]] forward #mcl/list-column
+>- [[evalution]]'s need to be added to the [[Real Estate Project]] before it can be moved from [[work/tickets/archive/Project creation from Lead/subs/Long-term solution/project status list#Evaluation demandée]] forward #mcl/list-column
 >- multiple [[evalution]]'s are possible
->- [[project status list]]
+>- [[work/tickets/archive/Project creation from Lead/subs/Long-term solution/project status list]]
 >- [[acceptance criteria test]]
 
 ---

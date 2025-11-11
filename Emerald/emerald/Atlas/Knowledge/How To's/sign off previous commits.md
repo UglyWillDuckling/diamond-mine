@@ -1,13 +1,14 @@
 ---
-title: "Git sign off previous commits?"
-source: "https://stackoverflow.com/questions/13043357/git-sign-off-previous-commits"
+title: Git sign off previous commits?
+source: https://stackoverflow.com/questions/13043357/git-sign-off-previous-commits
 author:
   - "[[Stack Overflow]]"
 published: 2012-10-24
 created: 2024-11-20
 description: "I was wondering how to sign(-s) off previous commits that I have made in the past in git?CLARIFICATION: Git has confusingly similarly named conceptsgit commit -s, --signoff (lower case -s) and git"
 tags:
-  - "clippings"
+  - clippings
+  - howto/git
 ---
 To signoff the previous commit, use amend option:
 

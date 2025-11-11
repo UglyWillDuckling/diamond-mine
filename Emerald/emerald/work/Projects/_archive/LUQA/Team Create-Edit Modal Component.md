@@ -1,5 +1,6 @@
 ---
-status: In Progress
+status:
+  - finished 🏁
 ---
 #ticket 
 

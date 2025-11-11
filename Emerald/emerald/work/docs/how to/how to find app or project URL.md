@@ -6,7 +6,7 @@ related:
 ---
 #work/howto/infra/app
 
-- [ ] remind me (@[[2025-07-31]])
+- [x] remind me (@[[2025-07-31]])
 ___
 
 1. Go to [[argocd]]

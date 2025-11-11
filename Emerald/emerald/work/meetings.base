@@ -1,0 +1,81 @@
+filters:
+  and:
+    - type == "meeting"
+    - file.folder != "Sets/Types"
+    - file.folder != "Atlas/Knowledge/templates"
+formulas:
+  is today: if(scheduled.date() == today(), '🚩', '📅')
+  "has passed ": if(scheduled < now(), '✅', '🕧')
+  my folder: ""
+  schedule_date: scheduled.date() == today()
+  relative: scheduled.relative()
+properties:
+  "formula.has passed ":
+    displayName: passed
+views:
+  - type: table
+    name: Table
+    order:
+      - scheduled
+      - file.name
+      - formula.is today
+      - "formula.has passed "
+    sort:
+      - property: scheduled
+        direction: DESC
+      - property: formula.is today
+        direction: DESC
+    columnSize:
+      note.scheduled: 282
+      file.name: 290
+      formula.is today: 136
+      "formula.has passed ": 107
+    rowHeight: medium
+  - type: table
+    name: today
+    filters:
+      not:
+        - scheduled.date() < today()
+        - scheduled.date() > today()
+    order:
+      - "formula.has passed "
+      - file.name
+      - formula.relative
+      - scheduled
+    sort:
+      - property: scheduled
+        direction: ASC
+      - property: participants
+        direction: ASC
+      - property: property.related
+        direction: ASC
+    columnSize:
+      "formula.has passed ": 97
+      file.name: 213
+      formula.relative: 194
+      note.scheduled: 282
+  - type: cards
+    name: 1 on 1s
+    filters:
+      and:
+        - tags.contains("meet/1on1/Yoan")
+    order:
+      - file.name
+      - scheduled
+    sort:
+      - property: scheduled
+        direction: DESC
+    imageAspectRatio: 1.15
+  - type: list
+    name: View
+    groupBy:
+      property: meeting_type
+      direction: ASC
+    order:
+      - file.name
+    sort:
+      - property: scheduled
+        direction: DESC
+    rowHeight: medium
+    columnSize:
+      file.name: 316

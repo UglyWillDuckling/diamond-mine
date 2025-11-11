@@ -9,7 +9,7 @@ tags:
   - git/formatting
 ---
 - [x] remind me [[git log - concise output]] (@[[2025-07-15]])
-- [ ] reminder me 2 [[git log - concise output]] (@[[2025-07-31]])
+- [x] reminder me 2 [[git log - concise output]] (@[[2025-07-31]])
 ___
 
 You can use the following Git command to display a concise log output with

@@ -45,7 +45,7 @@ Providees the ability to add and delete zones manually. These types of entires h
 
 ## Implementation
 
-Uses a **distinct** [[database view]], [[iris_zone_view]], to do the operation.
+Uses a **distinct** [[database view]], [[iris_zone_view - new]], to do the operation.
 
 The method processes the incoming request, applies optional filters based on query **parameters**, **paginates** the results, and returns the **filtered** list of `iris_id` values.
 

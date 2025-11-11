@@ -10,6 +10,7 @@ participants: []
 tags:
   - meet
 ---
+
 From: {{LINKCURRENT}}
 ___
 ## who?
@@ -26,23 +27,8 @@ ___
 
 ## notes 🗒
 
+- ..
+
+## discussion 🗨
+
 {{selected}}
-
-___
-### suggest
-
-- [ ] #task use `multiselect` to choose **multiple** items from the vault 🆔 OlQqFg
-	- [ ] think about **filtering** the files first
-	- [ ] **build** the the strings at the bottom
-
-```js quickadd
-const files = app.vault.getMarkdownFiles();
-const selectedFile = await this.quickAddApi.suggester(
-    file => file.basename,  // Display just the filename
-    files                   // Return the full file object
-);
-
-console.log(selectedFile)
-
-return "[[" + selectedFile.path + "]]"
-```

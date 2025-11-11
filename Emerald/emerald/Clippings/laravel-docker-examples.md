@@ -147,7 +147,7 @@ The production environment is designed with security and efficiency in mind:
 - **Environment Variables Management**: Sensitive data such as passwords and API keys are managed carefully to prevent exposure.
 - **User Permissions**: Containers run under non-root users where possible to follow the principle of least privilege.
 - **Health Checks**: Implemented to monitor the status of services and ensure they are functioning correctly.
-- **HTTPS Setup**: While <mark style="background: #FFB8EBA6;">not included </mark>in this example, it's recommended to configure SSL certificates and use HTTPS in a production environment.
+- **HTTPS Setup**: While <mark style="background: #FFB8EBA6;">not included </mark>in this example, it's recommended to configure **SSL** certificates and use HTTPS in a production environment.
 
 ### Deploying
 
@@ -161,4 +161,3 @@ The production image can be deployed to any Docker-compatible hosting environmen
 - **[[Redis]]**: Used for caching and session management, integrated into both development and production environments.
 - **[[Nginx]]**: Used as the web server to serve the Laravel application and handle HTTP requests.
 - **[[docker compose]]**: Orchestrates the services, simplifying the process of starting and stopping the environment.
-- ~~**Health Checks**: Implemented in the Docker Compose configurations and Laravel application to ensure all services are operational.~~

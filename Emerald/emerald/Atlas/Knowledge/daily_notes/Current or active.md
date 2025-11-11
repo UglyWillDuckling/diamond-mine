@@ -2,7 +2,8 @@
 
 ## current 📓
 
-- [[Transac Zones update ticket]]
-- [[Onboarding - Ivan & Zvonimir]]
+- [[Reading call records from GCP Bucket ticket]]
+- [[infra relationship diagram.canvas|infra relationship diagram]]
+- ..
 
 ^current

@@ -1,5 +1,5 @@
 ---
-about: "[[tasks canvas.canvas|tasks canvas]]"
+about: "[[tasks board.canvas|tasks canvas]]"
 related:
   - "[[session-resurrection]]"
 ---

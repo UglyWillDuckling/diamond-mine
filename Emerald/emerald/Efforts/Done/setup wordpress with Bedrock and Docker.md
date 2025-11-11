@@ -27,7 +27,7 @@ ___
 			- [x] nginx
 			- [x] php
 		- [x] connect webserver(Nginx) with the PHP container
-	- [x] update **PHP service** to use a [[dockerfile]] %% this enables us to configure the image as we need %%
+	- [x] update **PHP service** to use a [[Dockerfile]] %% this enables us to configure the image as we need %%
 		- [x] add PHP dependencies inside the dockerfile
 		- [[wordpress dockerfile wip]]
 		- [x] 'c **check** that [[composer]] is installed

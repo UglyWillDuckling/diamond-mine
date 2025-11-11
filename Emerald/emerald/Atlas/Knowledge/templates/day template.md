@@ -34,8 +34,9 @@ ___
 
 ---
 ### 📝 Notes
-- <% tp.file.cursor() %>
-### Log
+-  
+
+### Log 🌳
 
 
 ### Notes created today
@@ -58,6 +59,7 @@ List FROM "" WHERE file.mday = date("<%tp.date.now("YYYY-MM-DD")%>") SORT file.m
 - 
 
 ### ☑ checklist
+
 - [ ] pogledati  obaveze i zadatke
 - [ ] `add` **events** for today
 - [ ] **education 🎒**

@@ -1,3 +1,5 @@
+Ilots Regroupees pour l’Information Statistique
+
 IRIS (aggregated units for statistical information) is a system developed by INSEE for dividing the country into units for the dissemination of demographic data, with each unit typically containing around 2,000 residents.
 
 ## Official Definition

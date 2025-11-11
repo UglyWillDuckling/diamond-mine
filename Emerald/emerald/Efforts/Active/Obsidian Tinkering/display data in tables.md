@@ -1,6 +1,6 @@
 ---
 status:
-  - In Progress
+  - finished 🏁
 ---
 #ticket/feature
 

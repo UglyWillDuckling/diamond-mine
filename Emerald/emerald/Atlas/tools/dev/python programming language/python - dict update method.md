@@ -10,7 +10,6 @@ about:
 value: 7
 quality: 7
 interest: 6
-relat:
 ---
 In Python, the  `update()`  method is used to update a dictionary with new key-value pairs or to modify existing ones.
 ___

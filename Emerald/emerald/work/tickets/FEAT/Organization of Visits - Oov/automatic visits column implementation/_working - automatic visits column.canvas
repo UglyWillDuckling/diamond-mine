@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{
+			"id":"a81b1d5a91e651e1",
+			"type":"text",
+			"text":"",
+			"dynamicHeight":true,
+			"styleAttributes":{},
+			"x":-400,
+			"y":-200,
+			"width":260,
+			"height":60
+		},
+		{"id":"ded02e8e51352a8a","type":"file","file":"work/tickets/FEAT/Organization of Visits - Oov/automatic visits column implementation/FE API Implementation.md","dynamicHeight":true,"x":-760,"y":-1800,"width":400,"height":60}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

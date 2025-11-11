@@ -6,10 +6,8 @@ published:
 source: https://php.watch/versions/8.5/pipe-operator
 tags:
   - php/feature
+  - php8/feature
 ---
-- [ ] remind me [[PHP 8.5 Pipe operator]] (@[[2025-08-04]])
-## PHP 8.5: Pipe operator (|>)
-
 PHP 8.5 adds a new operator, the pipe operator (`|>`) to chain multiple callables from left to right, taking the return value of the left callable and passing it to the right.
 
 The pipe operator does not add new capabilities to the language. Still it can help "chain" multiple callables in a more visible way, instead of nesting multiple callables or using a variable to hold the return values and pass them.

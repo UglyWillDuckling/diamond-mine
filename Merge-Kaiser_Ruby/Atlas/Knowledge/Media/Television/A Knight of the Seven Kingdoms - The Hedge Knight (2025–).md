@@ -2,7 +2,7 @@
 type: series
 subType: ""
 title: "A Knight of the Seven Kingdoms: The Hedge Knight"
-year: "2025"
+year: 2025–
 dataSource: OMDbAPI
 url: https://www.imdb.com/title/tt27497448/
 id: tt27497448
@@ -27,11 +27,13 @@ airing: false
 watched: false
 lastWatched: ""
 personalRating: 0
-plan-to-watch: true
+plan-to-watch: false
 tags:
   - tv-series
 finished: false
 new_episodes: ""
+status:
+  - 2_Waiting ⌚
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

@@ -2,7 +2,7 @@
 title: "Hurricane Helene - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Hurricane_Helene"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2024-09-23
 created: 2025-01-11
 description:

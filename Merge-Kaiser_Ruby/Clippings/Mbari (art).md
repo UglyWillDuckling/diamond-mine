@@ -2,7 +2,7 @@
 title: Mbari (art) - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Mbari_(art)
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2013-03-22
 created: 2025-01-01
 description: 

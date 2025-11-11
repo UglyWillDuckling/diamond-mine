@@ -2,7 +2,7 @@
 title: Washington, D.C. - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Washington,_D.C.
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-09-17
 created: 2025-02-13
 description: 

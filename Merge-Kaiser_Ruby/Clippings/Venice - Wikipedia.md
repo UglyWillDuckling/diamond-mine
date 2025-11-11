@@ -2,7 +2,7 @@
 title: "Venice - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Venice"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-10-06
 created: 2025-01-17
 description:

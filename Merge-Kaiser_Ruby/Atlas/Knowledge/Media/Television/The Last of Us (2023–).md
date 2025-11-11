@@ -35,6 +35,9 @@ tags:
   - mediaDB/tv/series
 finished: false
 plan-to-watch: false
+status:
+  - 1_Standby
+new_episodes: 2026-07-28
 ---
 `$= '![Image|360](' + dv.current().image + ')'`
 

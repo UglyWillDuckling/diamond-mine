@@ -1,7 +1,7 @@
 ---
 source: "https://en.wikipedia.org/wiki/Lookup_table"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-11-04
 created: 2025-06-21
 tags:

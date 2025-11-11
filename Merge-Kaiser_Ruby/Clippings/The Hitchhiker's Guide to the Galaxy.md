@@ -2,7 +2,7 @@
 title: The Hitchhiker's Guide to the Galaxy - Wikipedia
 source: https://en.m.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-11-18
 created: 2025-01-12
 description: 

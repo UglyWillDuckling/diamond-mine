@@ -2,7 +2,7 @@
 title: "List of countries and dependencies by area - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2006-02-07
 created: 2025-02-13
 description:

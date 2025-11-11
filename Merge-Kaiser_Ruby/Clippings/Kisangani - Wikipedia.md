@@ -2,7 +2,7 @@
 title: "Kisangani - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Kisangani"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-04-10
 created: 2024-12-30
 description:

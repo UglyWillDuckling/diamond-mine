@@ -1,7 +1,7 @@
 ---
 source: https://en.wikipedia.org/wiki/Field-programmable_gate_array
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-08-10
 created: 2025-06-21
 tags:

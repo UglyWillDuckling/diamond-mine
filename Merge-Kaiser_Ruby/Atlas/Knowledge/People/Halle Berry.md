@@ -1,7 +1,7 @@
 ---
 source: "https://en.wikipedia.org/wiki/Halle_Berry"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-09-04
 created: 2025-06-29
 tags:

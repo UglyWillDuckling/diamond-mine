@@ -2,7 +2,7 @@
 title: "Piraeus - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Piraeus"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-10-02
 created: 2024-11-25
 description:

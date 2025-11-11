@@ -22,6 +22,8 @@ airing: false
 released: true
 finished: true
 plan-to-watch: false
+personalRating: 8.2
+status: Finished
 ---
 ![poster|200](https://upload.wikimedia.org/wikipedia/en/e/e8/When_Life_Gives_You_Tangerines_poster.png)
 

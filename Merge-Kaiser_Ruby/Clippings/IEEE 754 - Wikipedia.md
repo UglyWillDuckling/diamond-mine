@@ -1,7 +1,7 @@
 ---
 source: https://en.wikipedia.org/wiki/IEEE_754
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-12-17
 created: 2025-06-18
 tags:

@@ -1,7 +1,7 @@
 ---
 source: "https://en.m.wikipedia.org/wiki/Poisson_distribution"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-02-26
 created: 2025-03-23
 tags:

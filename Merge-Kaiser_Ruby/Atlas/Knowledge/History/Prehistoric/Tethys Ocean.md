@@ -2,7 +2,7 @@
 title: "Tethys Ocean - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Tethys_Ocean"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-11-11
 created: 2025-03-11
 description:

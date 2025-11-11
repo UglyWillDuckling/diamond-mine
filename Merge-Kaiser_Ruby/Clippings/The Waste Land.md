@@ -2,7 +2,7 @@
 title: The Waste Land - Wikipedia
 source: https://en.m.wikipedia.org/wiki/The_Waste_Land
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-03-13
 created: 2024-12-29
 description: 

@@ -2,7 +2,7 @@
 title: Public key certificate - Wikipedia
 source: https://en.wikipedia.org/wiki/Public_key_certificate
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-05-09
 created: 2024-12-23
 description: 

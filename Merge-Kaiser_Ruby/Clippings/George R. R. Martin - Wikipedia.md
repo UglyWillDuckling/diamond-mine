@@ -2,7 +2,7 @@
 title: "George R. R. Martin - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/George_R._R._Martin"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-06-19
 created: 2024-12-25
 description:

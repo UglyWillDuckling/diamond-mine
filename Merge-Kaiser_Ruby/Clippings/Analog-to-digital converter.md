@@ -1,7 +1,7 @@
 ---
 source: "https://en.wikipedia.org/wiki/Analog-to-digital_converter"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-02-22
 created: 2025-06-17
 tags:

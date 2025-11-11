@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.hasTag("kviz")
+views:
+  - type: table
+    name: Table
+    order:
+      - bodovi
+      - mjesto
+      - file.name
+      - datum
+      - location
+    sort:
+      - property: datum
+        direction: DESC
+    columnSize:
+      file.name: 190

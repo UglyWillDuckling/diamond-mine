@@ -2,7 +2,7 @@
 title: Omabe Festival - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Omabe_Festival
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2021-08-18
 created: 2025-01-01
 description: 

@@ -2,7 +2,7 @@
 title: Merina people - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Merina_people
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2005-02-17
 created: 2025-01-01
 description: 

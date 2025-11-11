@@ -179,7 +179,7 @@ Shutterstock
 
 ### 9\. Jezero Borovik
 
-Razmišljajući o tome što posjetiti u Slavoniji, ne možete propustiti Jezero Borovik, jedno od najidiličnijih i najromantičnijih mjesta u Slavoniji. Smješteno nedaleko od Đakova, ovo umjetno jezero omiljeno je odredište za ljubitelje prirode, rekreativne ribolovce, i sve one koji traže mir u prirodnom okruženju.
+Razmišljajući o tome što posjetiti u Slavoniji, ne možete propustiti [[Jezero Borovik]], jedno od najidiličnijih i najromantičnijih mjesta u Slavoniji. Smješteno nedaleko od Đakova, ovo umjetno jezero omiljeno je odredište za ljubitelje prirode, rekreativne ribolovce, i sve one koji traže mir u prirodnom okruženju.
 
 #### Prirodna ljepota i rekreacija
 

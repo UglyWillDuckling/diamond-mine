@@ -2,7 +2,7 @@
 title: "Sharpeville massacre - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Sharpeville_massacre"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-11-08
 created: 2025-01-02
 description:

@@ -1,7 +1,7 @@
 ---
 source: "https://en.wikipedia.org/wiki/Repetition_code"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2005-12-19
 created: 2025-06-20
 tags:

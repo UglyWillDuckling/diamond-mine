@@ -2,7 +2,7 @@
 title: "Swan Lake - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Swan_Lake"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-07-26
 created: 2025-01-08
 description:

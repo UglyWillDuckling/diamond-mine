@@ -2,7 +2,7 @@
 title: Democratic Republic of the Congo - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Democratic_Republic_of_the_Congo
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-08-20
 created: 2024-12-29
 description: 

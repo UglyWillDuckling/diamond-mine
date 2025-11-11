@@ -1,7 +1,7 @@
 ---
 source: https://en.wikipedia.org/wiki/Transistor%E2%80%93transistor_logic
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-04-05
 created: 2025-06-21
 tags:

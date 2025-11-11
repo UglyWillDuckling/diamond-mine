@@ -69,7 +69,7 @@
     "fields": "multitext",
     "used_in": "multitext",
     "bodovi": "number",
-    "mjesto": "number",
+    "mjesto": "text",
     "active": "checkbox",
     "areas": "multitext",
     "from": "multitext",

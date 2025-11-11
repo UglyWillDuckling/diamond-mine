@@ -83,5 +83,5 @@ ____
 
 - [[ipv4]] requires [[Network Address Translation(NAT))]]
 - [[ipv6]] is more secure
-- most of the [[Internet]] still runs on [[ipv4]]
+- most of the [[internet]] still runs on [[ipv4]]
 - 

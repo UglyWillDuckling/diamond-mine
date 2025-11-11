@@ -1,7 +1,7 @@
 ---
 source: https://en.wikipedia.org/wiki/SQLite
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-06-13
 created: 2025-06-01
 tags:

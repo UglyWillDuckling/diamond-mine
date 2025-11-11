@@ -21,7 +21,7 @@ actors:
 image: https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtNjAyYmE4Njg5YWMyXkEyXkFqcGc@._V1_SX300.jpg
 premiere: 03/04/2022
 released: true
-plan-to-watch: true
+plan-to-watch: false
 watched: false
 lastWatched: ""
 personalRating: 8

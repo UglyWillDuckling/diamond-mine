@@ -32,9 +32,11 @@ watched: false
 lastWatched: ""
 personalRating: 0
 tags:
-  - mediaDB/tv/movie
   - film
 plan-to-watch: true
 interest: 8
 ---
-![](https://www.youtube.com/watch?v=OPCug9jyG9k)
+
+
+> [!NOTE]+ Trailer
+> ![trailer|200](https://www.youtube.com/watch?v=OPCug9jyG9k)

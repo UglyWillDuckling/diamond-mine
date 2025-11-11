@@ -2,7 +2,7 @@
 title: Robot Dreams (film) - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Robot_Dreams_(film)
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2023-08-18
 created: 2025-01-10
 description: 

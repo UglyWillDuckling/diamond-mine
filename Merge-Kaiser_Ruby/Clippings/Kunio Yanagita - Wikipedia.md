@@ -2,7 +2,7 @@
 title: "Kunio Yanagita - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Kunio_Yanagita"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2003-09-13
 created: 2025-01-07
 description:

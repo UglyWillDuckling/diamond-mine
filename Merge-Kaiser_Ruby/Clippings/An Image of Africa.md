@@ -2,7 +2,7 @@
 title: "Chinua Achebe – An Image of Africa: Racism in Conrad's Heart of Darkness (Excerpt)"
 source: https://en.m.wikipedia.org/wiki/An_Image_of_Africa
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
   - "[[Chinua Achebe]]"
 published: 2006-05-21
 created: 2024-12-31

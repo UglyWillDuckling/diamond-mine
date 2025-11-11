@@ -2,7 +2,7 @@
 title: Richard Wright (author) - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Richard_Wright_(author)
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-03-06
 created: 2025-01-08
 description: 

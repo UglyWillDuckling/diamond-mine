@@ -2,7 +2,7 @@
 title: "Force Publique - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Force_Publique"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2005-08-08
 created: 2024-12-30
 description:

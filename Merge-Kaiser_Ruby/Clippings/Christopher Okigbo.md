@@ -2,7 +2,7 @@
 title: Christopher Okigbo - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Christopher_Okigbo
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-04-28
 created: 2025-01-02
 description: 

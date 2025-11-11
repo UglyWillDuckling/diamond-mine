@@ -2,7 +2,7 @@
 title: Nekketsu Fighting Legend - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Nekketsu_Fighting_Legend
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2012-04-24
 created: 2025-03-02
 description: 

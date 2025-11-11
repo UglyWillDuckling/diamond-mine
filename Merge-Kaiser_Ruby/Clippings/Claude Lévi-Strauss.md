@@ -2,7 +2,7 @@
 title: Claude Lévi-Strauss - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Claude_L%C3%A9vi-Strauss
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-08-24
 created: 2025-01-02
 description: 

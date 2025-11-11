@@ -2,7 +2,7 @@
 title: "Great American Interchange - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Great_American_Interchange"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2005-05-15
 created: 2025-03-11
 description:

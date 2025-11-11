@@ -2,10 +2,10 @@
 title: The Mbari Club - Wikipedia
 source: https://en.m.wikipedia.org/wiki/The_Mbari_Club
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2016-07-11
 created: 2025-01-01
-description: 
+description:
 tags:
   - clippings
 related:

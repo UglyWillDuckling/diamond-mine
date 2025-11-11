@@ -2,7 +2,7 @@
 title: André Derain - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Andr%C3%A9_Derain
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-08-02
 created: 2024-12-31
 description: 

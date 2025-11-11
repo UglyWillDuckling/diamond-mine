@@ -2,7 +2,7 @@
 title: "Richard Wagner - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Richard_Wagner"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-10-12
 created: 2025-01-04
 description:

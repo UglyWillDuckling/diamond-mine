@@ -1,7 +1,7 @@
 ---
 source: https://en.wikipedia.org/wiki/Game_Boy_Color
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-01-12
 created: 2025-01-26
 tags:

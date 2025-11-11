@@ -773,24 +773,39 @@
         "type": "split",
         "children": [
           {
-            "id": "19cef0e303c6f6c5",
+            "id": "996e994936b58b8a",
             "type": "tabs",
             "children": [
               {
-                "id": "092211f30b1e4323",
+                "id": "82dbadfaaf56a88c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "excitation table.md",
+                    "file": "Media DB/books/A pattern language.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "excitation table"
+                  "title": "A pattern language"
+                }
+              },
+              {
+                "id": "deb39bff03d26565",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Clippings/Russian Revolution of 1905.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Russian Revolution of 1905"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -818,7 +833,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Taxonomy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -899,7 +914,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kivz pipa 12.06.2025.md",
+                "file": "Clippings/Russian Revolution of 1905.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -914,12 +929,42 @@
             "state": {
               "type": "juggl_nodes",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_nodes"
+            }
+          },
+          {
+            "id": "eb4d07922dc01f56",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "juggl_style"
+            }
+          },
+          {
+            "id": "b353cd098ed25542",
+            "type": "leaf",
+            "state": {
+              "type": "image-picker-view",
+              "state": {},
+              "icon": "image",
+              "title": "Image Picker"
+            }
+          },
+          {
+            "id": "af5f32213448dbe0",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
               "icon": "ag-node-list",
               "title": "Juggl nodes"
             }
           },
           {
-            "id": "eb4d07922dc01f56",
+            "id": "47ef4d8aefbdea43",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -929,7 +974,7 @@
             }
           },
           {
-            "id": "c360262ce637cdac",
+            "id": "848f516196a4ce32",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -949,21 +994,21 @@
           "templates:Insert template": true,
           "command-palette:Open command palette": true,
           "workspaces:Manage workspace layouts": false,
-          "quickadd:QuickAdd": true,
-          "obsidian-importer:Open Importer": false,
           "daily-notes:Open today's daily note": false,
-          "chronology:Open Chronology": true,
-          "obsidian-media-db-plugin:Add new Media DB entry": true,
-          "obsidian42-brat:BRAT": true,
-          "juggl:Juggl global graph": true,
-          "templater-obsidian:Templater": true,
-          "callout-manager:Insert Callout": true,
-          "obsidian-book-search-plugin:Create new book note": true
+          "quickadd:QuickAdd": false,
+          "obsidian-importer:Open Importer": false,
+          "chronology:Open Chronology": false,
+          "obsidian-media-db-plugin:Add new Media DB entry": false,
+          "obsidian42-brat:BRAT": false,
+          "juggl:Juggl global graph": false,
+          "templater-obsidian:Templater": false,
+          "callout-manager:Insert Callout": false,
+          "obsidian-book-search-plugin:Create new book note": false,
+          "image-picker:Open Image Picker": false
         }
       },
-      "active": "092211f30b1e4323",
-      "mtime": "2025-06-26T19:30:00+02:00",
-      "workspaces-plus:settings-v1": {}
+      "active": "deb39bff03d26565",
+      "mtime": "2025-08-19T18:08:55+02:00"
     },
     "programiranje C": {
       "main": {

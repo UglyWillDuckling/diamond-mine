@@ -1,5 +1,3 @@
-## države sa 4 slova ili manje 
-
 - [[čile]]
 - [[Laos]]
 - [[Kuba]]

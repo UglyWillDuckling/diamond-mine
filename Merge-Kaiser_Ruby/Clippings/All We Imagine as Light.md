@@ -2,7 +2,7 @@
 title: All We Imagine as Light - Wikipedia
 source: https://en.m.wikipedia.org/wiki/All_We_Imagine_as_Light
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2024-04-11
 created: 2025-01-10
 description: 

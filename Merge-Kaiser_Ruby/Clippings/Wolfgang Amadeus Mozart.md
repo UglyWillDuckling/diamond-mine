@@ -2,7 +2,7 @@
 title: Wolfgang Amadeus Mozart - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-10-29
 created: 2025-01-04
 description: 

@@ -13,7 +13,7 @@ fields:
   - "[[European Geography]]"
   - "[[Rally]]"
 ---
-[[Kviz]]
+[[Atlas/Life/Kviz/Kviz]]
 [[kviz područja]]
 ___
 

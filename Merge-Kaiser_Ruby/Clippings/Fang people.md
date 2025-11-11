@@ -2,7 +2,7 @@
 title: "Fang people - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Fang_people"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2005-06-22
 created: 2024-12-31
 description:

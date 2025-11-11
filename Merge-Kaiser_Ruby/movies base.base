@@ -21,7 +21,7 @@ views:
         direction: DESC
     image: image
   - type: cards
-    name: want to watch
+    name: plan to watch
     filters:
       or:
         - note["plan-to-watch"] == true

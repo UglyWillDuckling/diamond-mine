@@ -2,7 +2,7 @@
 title: "Malay Archipelago - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Malay_Archipelago"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-03-04
 created: 2024-12-29
 description:

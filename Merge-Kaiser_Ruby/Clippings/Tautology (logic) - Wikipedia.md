@@ -1,7 +1,7 @@
 ---
 source: "https://en.m.wikipedia.org/wiki/Tautology_(logic)"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2006-03-24
 created: 2025-03-17
 tags:

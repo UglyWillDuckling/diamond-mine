@@ -2,7 +2,7 @@
 title: Heart of Darkness (1993 film) - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Heart_of_Darkness_(1993_film)
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2013-10-07
 created: 2024-12-30
 description: 

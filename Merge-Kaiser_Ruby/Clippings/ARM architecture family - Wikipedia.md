@@ -1,7 +1,7 @@
 ---
 source: https://en.wikipedia.org/wiki/ARM_architecture_family
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-07-05
 created: 2025-03-03
 tags:

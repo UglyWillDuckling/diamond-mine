@@ -2,7 +2,7 @@
 title: Cybele - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Cybele
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-08-31
 created: 2024-12-23
 description: 

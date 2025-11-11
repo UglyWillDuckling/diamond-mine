@@ -2,7 +2,7 @@
 title: David Diop - Wikipedia
 source: https://en.m.wikipedia.org/wiki/David_Diop
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2009-12-31
 created: 2025-01-01
 description: 

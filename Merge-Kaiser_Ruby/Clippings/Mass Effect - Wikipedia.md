@@ -2,7 +2,7 @@
 title: "Mass Effect - Wikipedia"
 source: "https://en.m.wikipedia.org/wiki/Mass_Effect"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2009-06-01
 created: 2025-01-02
 description:

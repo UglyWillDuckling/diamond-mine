@@ -1,7 +1,7 @@
 ---
 source: "https://en.m.wikipedia.org/wiki/Probability"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-08-05
 created: 2025-03-17
 tags:

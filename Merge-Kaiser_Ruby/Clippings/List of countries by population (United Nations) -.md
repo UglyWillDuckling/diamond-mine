@@ -2,7 +2,7 @@
 title: List of countries by population (United Nations) - Wikipedia
 source: https://en.m.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2013-06-18
 created: 2025-02-13
 description: 

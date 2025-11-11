@@ -2,7 +2,7 @@
 title: Guernica (Picasso) - Wikipedia
 source: https://en.m.wikipedia.org/wiki/Guernica_(Picasso)
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2004-10-10
 created: 2025-01-02
 description: 

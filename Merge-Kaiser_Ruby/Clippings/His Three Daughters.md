@@ -2,7 +2,7 @@
 title: His Three Daughters - Wikipedia
 source: https://en.m.wikipedia.org/wiki/His_Three_Daughters
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2023-09-09
 created: 2025-01-10
 description: 

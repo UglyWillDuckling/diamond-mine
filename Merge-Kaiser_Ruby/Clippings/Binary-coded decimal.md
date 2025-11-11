@@ -1,7 +1,7 @@
 ---
 source: "https://en.wikipedia.org/wiki/Binary-coded_decimal"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2001-08-21
 created: 2025-06-19
 tags:

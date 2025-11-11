@@ -4,20 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "4c8d8e7b6f9288d6",
+        "id": "d38c9119dfff963c",
         "type": "tabs",
         "children": [
           {
-            "id": "181c07c4c6b49a35",
+            "id": "992765fbd23ae047",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Efforts/Active/Kuca/docs/mail za eksterni dizajn.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "mail za eksterni dizajn"
+            }
+          },
+          {
+            "id": "896d60a95159f2e0",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "movies base.base",
+                "viewName": "plan to watch"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "movies base"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "majstoric",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 309.5
   },
   "right": {
     "id": "879c4c46c01c5375",
@@ -83,40 +101,34 @@
       {
         "id": "6bd03039fe22beee",
         "type": "tabs",
+        "dimension": 56.43115942028986,
         "children": [
-          {
-            "id": "20937a68f49eaf68",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
-            }
-          },
           {
             "id": "bcac0f03455708d6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Atlas/Knowledge/Media/movies/movie timeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from movie timeline"
             }
           },
           {
-            "id": "b665e1ba6a1f8bc5",
+            "id": "2e06facb6e406711",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "message-square",
+              "title": "Enhanced Annotations"
+            }
+          },
+          {
+            "id": "3f69f02deae52d1a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,21 +143,7 @@
             }
           },
           {
-            "id": "04a63588bbc85a4e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "e833e7d97d4a4f14",
+            "id": "29d413b1864f2dfd",
             "type": "leaf",
             "state": {
               "type": "juggl_nodes",
@@ -155,7 +153,7 @@
             }
           },
           {
-            "id": "e11ec0509cc39be2",
+            "id": "b7f0fffb9f27818d",
             "type": "leaf",
             "state": {
               "type": "juggl_style",
@@ -165,17 +163,7 @@
             }
           },
           {
-            "id": "2e06facb6e406711",
-            "type": "leaf",
-            "state": {
-              "type": "annotations-outline",
-              "state": {},
-              "icon": "message-square",
-              "title": "Enhanced Annotations"
-            }
-          },
-          {
-            "id": "f3b29c9df6f6fdff",
+            "id": "783609f48ca8f825",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -184,37 +172,131 @@
               "title": "Reminders"
             }
           }
-        ],
-        "currentTab": 6
+        ]
+      },
+      {
+        "id": "ca16f4b54661edbe",
+        "type": "tabs",
+        "dimension": 43.56884057971014,
+        "children": [
+          {
+            "id": "20937a68f49eaf68",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Atlas/Knowledge/Media/movies/movie timeline.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for movie timeline"
+            }
+          },
+          {
+            "id": "04a63588bbc85a4e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "movies base.base",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of movies base"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 637.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": true,
+      "bases:Create new base": true,
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
       "workspaces:Manage workspace layouts": false,
-      "quickadd:QuickAdd": false,
-      "obsidian-importer:Open Importer": false,
-      "obsidian-day-and-night:Toggle Theme": false,
-      "chronology:Open Chronology": false,
-      "obsidian-media-db-plugin:Add new Media DB entry": false,
-      "obsidian42-brat:BRAT": false,
-      "juggl:Juggl global graph": false,
-      "templater-obsidian:Templater": false,
-      "callout-manager:Insert Callout": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-      "image-picker:Open Image Picker": false
+      "quickadd:QuickAdd": true,
+      "obsidian-importer:Open Importer": true,
+      "obsidian-day-and-night:Toggle Theme": true,
+      "chronology:Open Chronology": true,
+      "obsidian-media-db-plugin:Add new Media DB entry": true,
+      "obsidian42-brat:BRAT": true,
+      "juggl:Juggl global graph": true,
+      "templater-obsidian:Templater": true,
+      "callout-manager:Insert Callout": true,
+      "obsidian-book-search-plugin:Create new book note": true,
+      "image-picker:Open Image Picker": true,
+      "daily-notes:Open today's daily note": false
     }
   },
-  "active": "2e06facb6e406711",
-  "lastOpenFiles": []
+  "active": "896d60a95159f2e0",
+  "lastOpenFiles": [
+    "Atlas/Knowledge/Media/movies/The Witch (2015).md",
+    "movies base.base",
+    "Efforts/Active/Kuca/docs/mail za eksterni dizajn.md",
+    "Atlas/Knowledge/Media/movies/Punch-Drunk Love (2002).md",
+    "Atlas/Knowledge/Media/movies/Universal Language (2024).md",
+    "~/×/43d46a42c8480454bc8dbc21de5707e4_MD5.png",
+    "~/×/c66d368781ff7a8b1b54e84909c93411_MD5.jpg",
+    "~/×/29a5e8e2e1571d8b9a2024e0284d705a_MD5.jpg",
+    "Clippings/Gaza Freedom Flotilla - Wikipedia.md",
+    "Atlas/Knowledge/Media/movies/Threads (1984).md",
+    "Atlas/Knowledge/Media/movies/Come and See (1985).md",
+    "Atlas/Knowledge/Media/movies/Blue Velvet (1986).md",
+    "Atlas/Knowledge/Media/movies/The Princess Bride (1987).md",
+    "Atlas/Knowledge/Media/movies/Mad God (2021).md",
+    "Atlas/Knowledge/Media/movies/Watership Down (1978).md",
+    "undefined.md",
+    "Atlas/Knowledge/Media/movies/Suzhou River (2000).md",
+    "~/×/59a57a3aee906860b33cc20ce6bf589d_MD5.jpg",
+    "~/×/e02d20dcf9b0aaaaa5756a38ae2c8eb9_MD5.jpg",
+    "~/×/aa44fc5f3007efea646f26c43b949a6d_MD5.jpg",
+    "~/×/be456fb71830d9a39f358b3e2570896a_MD5.jpg",
+    "~/×/ba00a27a74c1358fac54869fd1204feb_MD5.jpg",
+    "~/×/93cad60321f00bd486ffd381f1ae7570_MD5.jpg",
+    "~/×/a413793253ad3896ed59892dc71ced20_MD5.jpg",
+    "Clippings/Films Mentioned by It’s Just Cinema 1.md",
+    "Clippings/Films Mentioned by It’s Just Cinema.md",
+    "Efforts/Active/Kuca/Kuca.md",
+    "Efforts/Active/Kuca/slike za kucu.md",
+    "Clippings/Ideje za uređenje dvorišta  Kako urediti dvorište.md",
+    "Efforts/_Complete/persona mail issue - spoofing.md",
+    "Efforts/shopping 🛍 list.md",
+    "Efforts/Active/Kuca/popis za useljenje.md",
+    "Master Task List.md",
+    "Atlas/Knowledge/Media/movies/movie timeline.md",
+    "Calendar/daily/2025/2025-09-28-Sun.md",
+    "Clippings/Mother (video game series).md",
+    "Clippings/EarthBound Beginnings.md",
+    "DAS - watchlist",
+    "tv shows.base",
+    "Atlas/Knowledge/Media/Articles/Dev",
+    "Atlas/World/Tradition/Zanimanja",
+    "Atlas/World/Drustva/Companies",
+    "Atlas/Knowledge/Books/Authors",
+    "Atlas/Knowledge/concepts/CS",
+    "Atlas/World/Drustva/Udruge",
+    "Atlas/Knowledge/howtos/dev",
+    "Efforts/tasks/archive/archive/action.canvas",
+    "Efforts/tasks/archive/archive/srediti troskovnik/actions.canvas",
+    "Efforts/tasks/archive/srediti troskovnik/actions.canvas",
+    "Efforts/tasks/archive/archive 1/action.canvas",
+    "Efforts/tasks/archive/archive 1/srediti troskovnik/actions.canvas",
+    "tasks canvas.canvas"
+  ]
 }

@@ -1,7 +1,7 @@
 ---
 source: "https://en.wikipedia.org/wiki/Programmable_logic_device"
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2002-08-19
 created: 2025-06-21
 tags:

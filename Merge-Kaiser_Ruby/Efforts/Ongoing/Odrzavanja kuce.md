@@ -1,6 +1,6 @@
 #project
 
-- [ ] #task water plants 🔼 🔁 every week on Sunday 📅 2025-07-27 🆔 hIQ6Il
+- [/] #task water plants 🆔 hIQ6Il 🔼 🔁 every week on Sunday 📅 2025-07-27
 - [x] #task water plants 🔼 🔁 every week on Sunday 📅 2025-07-20 🆔 dKudg1 ✅ 2025-07-20
 - [x] #task water plants 🔼 🔁 every week on Sunday 📅 2025-07-13 🆔 TDvWLL ✅ 2025-07-20
 - [x] #task water plants 🔼 🔁 every week on Sunday 📅 2025-07-06 🆔 v7tq3k ✅ 2025-07-20

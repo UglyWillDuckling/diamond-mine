@@ -1,7 +1,7 @@
 ---
 type: movie
 source: https://en.wikipedia.org/wiki/Naqoyqatsi
-image: "[[~/×/66d24034ce1a7b51a81168c19535d70e_MD5.jpg]]"
+image: ""
 published: 2002-10-09
 created: 2025-07-12
 part of:

@@ -1,7 +1,7 @@
 ---
 source: https://en.m.wikipedia.org/wiki/Early_Eocene_Climatic_Optimum
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2023-08-28
 created: 2025-03-12
 tags:

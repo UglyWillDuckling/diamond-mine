@@ -2,7 +2,7 @@
 title: The Artist's Way - Wikipedia
 source: https://en.m.wikipedia.org/wiki/The_Artist's_Way
 author:
-  - "[[Contributors to Wikimedia projects]]"
+  - 
 published: 2006-11-11
 created: 2025-01-08
 description: 

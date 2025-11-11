@@ -4,22 +4,18 @@ author:
 created: 2025-11-11
 published: 2025-11-10
 source: https://animationobsessive.substack.com/p/the-toy-story-you-remember
-tags:
 related:
   - "[[Cinefantastique vol 25]]"
+about:
+  - "[[Toy Story]]"
+category:
+  - "[[Article]]"
+  - "[[Animation]]"
+tags:
+  - article/animation
 ---
-### Plus: newsbits.
-
 ![](https://substackcdn.com/image/fetch/$s_!oYAZ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcdc6e58-e9e5-4bc7-8d8e-5193a840a9e0_1863x1000.png)
-
-A still from Toy Story on 35 mm film
-
-**Welcome!** Glad you could join us for another Sunday edition of the *Animation Obsessive* newsletter. This is our slate:
-
-- **1)** Digital animation on film stock.
-- **2)** Animation newsbits.
-
-With that, let’s go!
+> A still from Toy Story on 35 mm film
 
 ## 1 – The hybrid
 
@@ -38,8 +34,7 @@ But not *entirely* new — not at first. There was something old about *Toy Stor
 *Toy Story* was a transitional project. Since Pixar couldn’t send digital data to theaters, every one of the movie’s frames was printed on analog film. When *Toy Story* originally hit home video, that 35 mm version was its source. Only years later, after technology advanced, did Pixar start doing digital transfers — cutting out the middleman. And *Toy Story* ’s look changed with the era.[^3]
 
 ![](https://substackcdn.com/image/fetch/$s_!rk4n!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd30fe34c-5024-4f38-87f9-77fa779a3286_1863x2160.png)
-
-Toy Story ’s original release on 35 mm (top), and the version currently streaming on Disney+ (bottom). See the film’s trailer on 35 mm here.
+> Toy Story ’s original release on 35 mm (top), and the version currently streaming on Disney+ (bottom). See the film’s trailer on 35 mm here.
 
 While making *Toy Story*, Pixar’s team knew that the grain, softness, colors and contrasts of analog film weren’t visible on its monitors. They were different mediums.
 
@@ -92,12 +87,12 @@ Aladdin on 35 mm film (top) versus Blu-ray (bottom). See a clip from the film on
 The Lion King on 35 mm film (top) versus Blu-ray. See a clip from the film on 35 mm here.
 
 ![](https://substackcdn.com/image/fetch/$s_!T9lv!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0c2f5eb-b4f8-4249-af6f-0441c97c78b1_1814x2120.png)
+> [[Mulan]] on 35 mm film (top) versus Blu-ray. See the film’s trailer on 35 mm here.
 
-Mulan on 35 mm film (top) versus Blu-ray. See the film’s trailer on 35 mm here.
+For a number of years, there’s been talk in film-preservation circles about *Toy Story* and the Disney renaissance. This work sits in an odd place. The world was still pretty analog when the computer animation boom arrived: o**ut of necessity, these projects became hybrids of new and old.** What’s the *right* way to see digital movies that were designed for 35 mm film?
 
-For a number of years, there’s been talk in film-preservation circles about *Toy Story* and the Disney renaissance. This work sits in an odd place. The world was still pretty analog when the computer animation boom arrived: out of necessity, these projects became hybrids of new and old. What’s the *right* way to see digital movies that were designed for 35 mm film?
-
-The studios themselves haven’t quite figured it out. On Disney+, the colors of *Toy Story* feel a bit raw — searing greens that were meant to darken on film, for example. Meanwhile, the newer *Toy Story* Blu-ray shares more in common with the original colors, but it’s still an altered, colder look.
+The studios themselves haven’t quite figured it out. On Disney+, the colors of *Toy Story* feel a bit raw — searing greens that were meant to darken on film, for example. 
+**Meanwhile, the newer *Toy Story* Blu-ray shares more in common with the original colors, but it’s still an altered, colder look.**
 
 When digital transfers first showed up, people were thrilled, including at Pixar. Movies became “crisper, clearer and more stunning on home video systems” than in theaters, some claimed.[^10] Even so, it’s a little disquieting to think that *Toy Story*, the film that built our current world, is barely available in the form that wowed audiences of the ‘90s. The same goes for many other movies from the transitional era.
 
@@ -123,7 +118,7 @@ These companies, ultimately, decide how *Toy Story* looks today. Still, for some
 
 [^1]: See *Starlog* ([December 1995](https://archive.org/details/slmag221/page/38/mode/2up)), for example.
 
-[^2]: From the book *Making the Cut at Pixar*.
+[^2]: From the book *[[Making the Cut at Pixar]]*.
 
 [^3]: For details about Pixar’s switch to digital transfers, see the *Star Tribune* ([December 14, 1999](https://www.newspapers.com/image/179885024/)), the *Los Angeles Times* ([April 12, 1999](https://www.latimes.com/archives/la-xpm-1999-apr-22-ca-29763-story.html)), *[Sound & Vision](https://www.soundandvision.com/content/bugs-life-becomes-first-all-digital-dvd-release)* and [this review](https://www.dvdtalk.com/reviews/3281/toy-story-the-ultimate-toy-box/) from *DVD Talk*. All were valuable today, and the *DVD Talk* review was the source of the praise for *Toy Story* ’s digital transfer later in the piece.
 

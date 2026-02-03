@@ -1,4 +1,10 @@
-
+---
+category:
+  - "[[Film]]"
+interest:
+plan-to-watch: false
+personal favorite: false
+---
 `$= '![Image|200](' + dv.current().image + ')'`
 
 # `$= dv.current().title`
@@ -11,20 +17,12 @@ if (dv.current().watched) {
 }
 ```
 
-**Rating**:  `INPUT[slider(addLabels, minValue(0), maxValue(10)):personalRating]` (`$= dv.current().personalRating` out of 10)
-
-**Genres**:
 ```dataviewjs
-dv.current().genres.length === 0 ? dv.span(' - none') : dv.list(dv.current().genres)
-```
-
-```dataviewjs
-if (!dv.current().released) {
-	dv.span('**Not released** The movie is not yet released.')
+if (dv.current()['plan-to-watch']) {
+	dv.paragraph(`> [!SUCCESS] \`INPUT[toggle:plan-to-watch]\` planned`);
+} else {
+	dv.paragraph(`> [!WARNING] \`INPUT[toggle:plan-to-watch]\` not planned`);
 }
 ```
 
-**Type**: `$= dv.current().type`
-**Online Rating**: `$= dv.current().onlineRating`
-**Duration**:  `$= dv.current().duration`
 **Premiered**: `$= dv.current().premiere`

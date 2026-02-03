@@ -5,7 +5,7 @@ ___
 
 # cover letter 💌
 
-  I'm thrilled to submit my application for the PHP Laravel Developer position
+  I'm thrilled to submit my application bv the PHP Laravel Developer position
   at [Company Name]. As a passionate developer with a love for challenges and
   a strong desire to learn from others, I'm confident that I would make a
   fantastic addition to your team.

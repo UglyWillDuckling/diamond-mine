@@ -1,28 +1,33 @@
 ---
-id: Master Task List
 tags:
   - task-list
 ---
-- [ ] #task napraviti popis drveca u brodu 🆔 JQwEQH
-- [ ] #task poslati mail za tablete 📅 2025-09-24 🆔 vNY2fR
-- [ ] #task otvori [[dwg]] file od projekta kuce 🆔 SBHYII
+- [ ] #task nazvati Dariju - pitanje izdavanja racuna, certifikat ⏫ 📅 2026-02-04
 
-- [ ] #task [[Candy Candy]] skinuti 🆔 WSo4mG
-- [ ] #task nazvati [[Malueva]] radi provjere poreznih dugovanja 🔼 🆔 F2ja8U
+- [ ] #task prijavi se na poso [[Software Engineer, MediaWiki Interfaces]] ⏫ ⏳ 2025-12-19 📅 2025-12-19
+- [ ] #task donate to [[KDE]] 📅 2025-12-13
+- [ ] #task try out [[Git Butler]] again 🔼 ⏳ 2025-12-09 📅 2025-12-15
+- [ ] #task obrisi video od Vlatke s google storagea
 
-- [ ] #task **procitati** [[A pattern language]] ⏫ ⏳ 2025-08-23 📅 2025-09-30 🆔 yB4Reg
-- [ ] #task read book [[object design annot]] ⏳ 2025-06-24 📅 2025-09-30 🆔 jTevsr
-___
-- [/] #task read :LiBook: [[A Wizard of Earthsea]] 🧙🏻‍♂️ 📅 2025-05-24 📚 🆔 i2gcix 📅 2025-06-18
-- [x] #task Prodi [[Bug 388]] i instaliraj zeljeni software #paused 🆔 BVw5Ce 🔼 ⏳ 2025-03-03 📅 2025-07-27 ✅ 2025-09-23
+- [x] #task [[Efforts/tasks/archive/archive/enable new drive auto-mount]] ✅ 2025-11-24
+- [x] #task [[automatizacija - priprema za kolokvij 1]] ⏫ 🛫 2025-11-17 ⏳ 2025-11-17 📅 2025-11-19 ✅ 2025-11-24
+	
+- [ ] #task Knjiga [[Code (1999)]] - pogledati 'Bit by Bit by Bit' poglavlje. ⏳ 2025-11-24 📅 2025-11-29
 
+- [x] #task napraviti [[electron]] aplikaciju ✅ 2025-12-11
+- [ ] #task ideja: napraviti **plugin za Obsidian** koji ce napraviti masovni updejt propertyja bazirano na odredenim filterima. +koristiti bases API
+- [x] #task prouciti [[Kotlin]] ✅ 2026-02-03
+
+- [/] #task read :LiBook: [[object design annot]] 🆔 jTevsr ⏳ 2025-06-24 📅 2025-09-30
+- [/] #task read :LiBook: [[A Wizard of Earthsea]] 🧙🏻‍♂️ 📅 2025-05-24 📚 🆔 i2gcix 📅 2025-06-18 #paused 
+
+## Done ✔
+
+
+- [/] #task **procitati** [[A pattern language]] 🆔 yB4Reg ⏫ ⏳ 2025-08-23 📅 2025-09-30
 - [x] #task Traži feniksa ⏫ ⏳ 2025-08-17 📅 2025-08-24 🆔 vEIaW2
 - [x] #task update day template - **match** work 🆔 cTiIeu 🔼 ⏳ 2025-07-05 📅 2025-07-12 ✅ 2025-07-20
-- [x] #task cleanup Efforts - Active 🔼 ⏳ 2025-06-30 📅 2025-06-29 🆔 kjw1Sw ✅ 2025-07-20
 - [x] #task Provjeri **ssl** mail certifikat za Personu 🔼 ⏳ 2025-06-11 📅 2025-06-08 🆔 M2aTJP ✅ 2025-06-29
-
-## Done
-
 - [x] #task pocistiti **Downloads** folder PC 🔼 ⏳ 2025-02-09 📅 2025-02-13 🆔 0oe1mt #tiny | #task #tiny #task #tiny 🔼 📅 2025-02-15 ✅ 2025-02-15
 - [x] #task see how [[rsync]] works #backburner #dev ✅ 2025-02-15
 	- [[rsync]]

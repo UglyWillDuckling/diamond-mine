@@ -26,7 +26,11 @@ lastWatched: ""
 personalRating: 7.8
 tags:
   - film
+  - film/comfort
 plan-to-watch: false
+category:
+  - "[[Film]]"
+  - "[[Comfort]]"
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

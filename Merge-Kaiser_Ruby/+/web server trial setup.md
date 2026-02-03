@@ -1,5 +1,8 @@
 ---
-~
+status: archived
+tags:
+  - archived
+dateModified: 2025-12-17T00:27:46.457+01:00
 ---
 #ticket #active 
 
@@ -11,7 +14,7 @@
 
 ---
 ## [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]] setup
-related: [[Clippings/Configuring self-signed SSL certificates for local development]]
+related: [[+/Clippings/Configuring self-signed SSL certificates for local development]]
 - [x] check for guides on the [[web]]
 ### start using ssl on the webserver
 [[Nginx Beginner’s Guide]]

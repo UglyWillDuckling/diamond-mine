@@ -24,7 +24,7 @@ premiere: 01.11.2002
 watched: false
 lastWatched: ""
 personalRating: 0
-plan-to-watch: true
+plan-to-watch: false
 tags:
   - film
 ---

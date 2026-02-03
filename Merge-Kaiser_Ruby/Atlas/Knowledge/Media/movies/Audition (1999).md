@@ -24,10 +24,10 @@ premiere: 03/03/2000
 watched: false
 lastWatched: ""
 personalRating: 0
-plan-to-watch: true
+plan-to-watch: false
 tags:
-  - mediaDB/tv/movie
   - film
+  - film/horror
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

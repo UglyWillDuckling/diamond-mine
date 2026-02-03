@@ -27,6 +27,10 @@ personalRating: 8.1
 tags:
   - mediaDB/tv/movie
   - film
+  - film/comfort
+category:
+  - "[[Film]]"
+  - "[[Comfort]]"
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

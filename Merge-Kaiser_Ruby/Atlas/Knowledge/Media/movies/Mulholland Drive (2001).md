@@ -27,6 +27,7 @@ personalRating: 0
 plan-to-watch: true
 tags:
   - film
+interest: 7.94
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

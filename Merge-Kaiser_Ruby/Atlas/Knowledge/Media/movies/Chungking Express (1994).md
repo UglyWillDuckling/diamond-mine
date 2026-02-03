@@ -39,4 +39,5 @@ interest: 8
 
 
 > [!NOTE]+ Trailer
-> ![trailer|200](https://www.youtube.com/watch?v=OPCug9jyG9k)
+> ![trailer|300](https://www.youtube.com/watch?v=OPCug9jyG9k)
+

@@ -22,7 +22,7 @@ ___
 
 [[Map ofAfrica]]
 
-[[Josif Staljin – Wikipedija]], [[Barbie - Wikipedia]]
+[[Josif Staljin – Wikipedija]], [[Barbie Doll]]
 
 [[Franklin D. Roosevelt - Wikipedia]]
 

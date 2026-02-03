@@ -19,12 +19,11 @@ actors:
 image: https://m.media-amazon.com/images/M/MV5BYThiZTU4N2UtYWU2Mi00ZGUyLWI2ZmEtM2U1ZmJmOGY1ZTc3XkEyXkFqcGc@._V1_SX300.jpg
 premiere: 15.01.1988
 released: true
-plan-to-watch: true
-watched: false
+plan-to-watch: false
+watched: true
 lastWatched: ""
 personalRating: 0
 tags:
-  - mediaDB/tv/movie
   - film
 interest: 7
 ---

@@ -1,7 +1,12 @@
 ---
 related:
   - "[[notes on wordpress plugin setup]]"
-status: In Progress
+status: archived
+priority: normal
+dateModified: 2025-12-17T00:32:37.227+01:00
+type: task
+tags:
+  - archived
 ---
 #ticket #persona-project 
 

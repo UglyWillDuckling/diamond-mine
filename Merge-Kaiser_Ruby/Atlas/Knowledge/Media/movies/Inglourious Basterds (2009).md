@@ -29,7 +29,8 @@ watched: true
 lastWatched: 2016-07-05
 personalRating: 8
 tags:
-  - mediaDB/tv/movie
+  - film/drama
+  - film/history
 plan-to-watch: false
 ---
 

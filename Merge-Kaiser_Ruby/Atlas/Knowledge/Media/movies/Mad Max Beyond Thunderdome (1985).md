@@ -34,7 +34,9 @@ premiere: 07/10/1985
 watched: true
 lastWatched: ""
 personalRating: 0
-tags: mediaDB/tv/movie
+tags:
+  - film/drama
+  - film/scifi
 plan-to-watch: false
 ---
 `$= '![Image|360](' + dv.current().image + ')'`

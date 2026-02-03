@@ -33,7 +33,7 @@ watched: true
 lastWatched: 2025-04-22
 personalRating: 4
 tags:
-  - mediaDB/tv/movie
+  - film/animated
 plan-to-watch: false
 ---
 `$= '![Image|200](' + dv.current().image + ')'`

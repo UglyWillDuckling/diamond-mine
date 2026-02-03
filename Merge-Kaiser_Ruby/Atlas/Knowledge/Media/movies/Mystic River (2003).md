@@ -34,9 +34,8 @@ watched: false
 lastWatched: ""
 personalRating: 0
 tags:
-  - mediaDB/tv/movie
   - film
-plan-to-watch: true
+plan-to-watch: false
 ---
 
 `$= '![Image|360](' + dv.current().image + ')'`

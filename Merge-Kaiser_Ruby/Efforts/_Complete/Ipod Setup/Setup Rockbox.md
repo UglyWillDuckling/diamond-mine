@@ -1,6 +1,5 @@
 ---
-status:
-  - In Progress
+status: done
 related:
   - "[[rockbox]]"
   - "[[Rockbox Utility won't detect my iPod in the right mount point]]"
@@ -9,6 +8,8 @@ tags:
   - task
   - iPod
   - rockbox
+dateModified: 2025-12-09T18:28:11.046+01:00
+completedDate: 2025-12-09
 ---
 - [x] #task setup Rockbox on IPOD ✅ 2025-01-18
 	- [x] #task [[#format disk]] ✅ 2025-01-16

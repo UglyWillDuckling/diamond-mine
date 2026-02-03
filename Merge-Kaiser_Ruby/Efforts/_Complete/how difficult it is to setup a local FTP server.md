@@ -1,6 +1,10 @@
 ---
 related:
   - "[[File Transfer Protocol]]"
+status: archived
+tags:
+  - archived
+dateModified: 2025-12-17T00:30:50.154+01:00
 ---
 #ticket
 

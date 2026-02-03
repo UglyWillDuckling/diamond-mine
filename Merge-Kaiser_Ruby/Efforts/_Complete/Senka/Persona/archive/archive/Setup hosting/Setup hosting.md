@@ -1,7 +1,7 @@
 ## random
 - [[Atlas/Knowledge/Knowledge/howtos/what is running on port ??]]
 	- @ [[How to Check for Listening Ports in Linux (Ports in use)]]
-- [[Clippings/Configuring self-signed SSL certificates for local development]]
+- [[+/Clippings/Configuring self-signed SSL certificates for local development]]
 ## questions
 - ? what is a [[reverse DNS]]
 	- @ [[Reverse DNS lookup]] [[PTR record]]

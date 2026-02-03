@@ -31,10 +31,14 @@ created: <% tp.file.creation_date() %>
 
 ##### 👎 One thing I'm struggling with today is...
 - 
+___
+## Log
+
 
 ---
 # 📝 Notes
 - <% tp.file.cursor() %>
+
 
 ---
 ### Notes created today

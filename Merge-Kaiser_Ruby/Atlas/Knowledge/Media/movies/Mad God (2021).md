@@ -48,13 +48,10 @@ if (dv.current().watched) {
 dv.current().genres.length === 0 ? dv.span(' - none') : dv.list(dv.current().genres)
 ```
 
-```dataviewjs
-if (!dv.current().released) {
-	dv.span('**Not released** The movie is not yet released.')
-}
-```
-
-**Type**: `$= dv.current().type`
-**Online Rating**: `$= dv.current().onlineRating`
-**Duration**:  `$= dv.current().duration`
 **Premiered**: `$= dv.current().premiere`
+
+The Assassin travels through a nightmare underworld of tortured souls, ruined cities and wretched monstrosities forged from the primordial horrors of the unconscious mind of Phil Tippett, the world's preeminent stop-motion animator.
+
+___
+
+![](https://www.youtube.com/watch?v=jas8OABbn0Y)

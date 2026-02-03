@@ -1,5 +1,5 @@
 ---
-status: Done
+status: done
 related:
   - "[[Using Obsidian Canvas to Create Custom Dashboards]]"
   - "[[Obsidian Tinkering]]"
@@ -8,6 +8,8 @@ tags:
   - canvas
   - obsidian
   - task
+dateModified: 2025-12-09T17:58:38.801+01:00
+completedDate: 2025-12-09
 ---
 ## description
 

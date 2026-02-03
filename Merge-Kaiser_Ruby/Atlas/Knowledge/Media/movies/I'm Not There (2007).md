@@ -24,7 +24,8 @@ premiere: 07.12.2007
 watched: false
 lastWatched: ""
 personalRating: 0
-tags: mediaDB/tv/movie
+tags:
+  - film
 plan-to-watch: false
 ---
 

@@ -25,7 +25,8 @@ premiere: 12/16/1994
 watched: false
 lastWatched: ""
 personalRating: 0
-tags: mediaDB/tv/movie
+tags:
+  - film/comfort
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

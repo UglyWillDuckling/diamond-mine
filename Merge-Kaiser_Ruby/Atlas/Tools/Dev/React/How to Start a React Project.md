@@ -1,3 +1,9 @@
+---
+status: archived
+tags:
+  - archived
+dateModified: 2025-12-17T00:30:27.038+01:00
+---
 #ticket 
 
 based on:: [[How to start a React Project 2025]]

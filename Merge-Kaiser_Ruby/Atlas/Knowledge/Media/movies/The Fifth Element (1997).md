@@ -26,6 +26,10 @@ personalRating: 7
 interest: 8
 tags:
   - film
+  - film/comfort
 plan-to-watch: true
+category:
+  - "[[Film]]"
+  - "[[Comfort]]"
 ---
 ![[~/×/9349e84979d8e543ad4f4e807b051fcc_MD5.jpg|200]]

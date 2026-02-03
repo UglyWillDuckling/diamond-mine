@@ -1,6 +1,9 @@
 ---
 tags:
   - task
+status: done
+dateModified: 2025-12-13T09:59:01.933+01:00
+completedDate: 2025-12-13
 ---
 > use cloudflare for managing [[+/Persona.hr]]
 

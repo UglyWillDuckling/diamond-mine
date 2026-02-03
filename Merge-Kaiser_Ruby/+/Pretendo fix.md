@@ -1,0 +1,2 @@
+
+Sometimes occurs when linking or creating a PNID, or occasionally when launching Juxt (Miiverse). To fix this, launch Nimbus and switch to Nintendo Network. Launch the Nintendo eShop, and wait for it to load or error out. Afterwards, launch Nimbus again, and switch back to Pretendo. Immediately after the console restarts, go back to System Settings → Nintendo Network ID Settings, and try linking or creating the account again. If you re-encounter the error, retry this solution until you're successfully able to link or create the account

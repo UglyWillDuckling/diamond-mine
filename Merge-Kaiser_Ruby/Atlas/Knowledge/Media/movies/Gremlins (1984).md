@@ -1,6 +1,5 @@
 ---
 type: movie
-subType: ""
 title: Gremlins
 year: "1984"
 dataSource: OMDbAPI
@@ -27,6 +26,12 @@ lastWatched: ""
 personalRating: 7.7
 tags:
   - film
+  - film/comfort
+  - film/christmas
+category:
+  - "[[Film]]"
+  - "[[Comfort]]"
+  - "[[Christmas Movies]]"
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

@@ -1,5 +1,5 @@
 ---
-type: movie
+type:
 subType:
 title: Audition
 year: "1999"
@@ -24,12 +24,12 @@ premiere: 03/03/2000
 watched: false
 lastWatched: ""
 personalRating: 0
-plan-to-watch: true
+plan-to-watch: false
 tags:
   - movie-list
+  - article/film
 ---
-
-- [/] #task proci [[The 50 Best Horror Movies]] popis 🆔 YCgDyC
+- [x] #task proci [[The 50 Best Horror Movies]] popis 🆔 YCgDyC ✅ 2025-11-17
 ___
 
 As the great [[Sheriff Leigh Brackett]] once said in [[John Carpenter]]’s *Halloween*, “It’s Halloween. I guess everyone’s entitled to one good scare.” It’s a good line, sure. But one good scare? And only at Halloween? Talk about stingy! Here at *Empire*, we like to believe that you can have the bejeezus frightened out of you any day of the year, as many times as you like. Whether it’s seminal slashers, creepy killer clowns, or arthouse works of elevated horror that cut to the quick of society’s most terrifying taboos that get your heart pounding and your cheeks clenching, of this much we can assure you – you’ve come to the right place to find your next sleepless night.

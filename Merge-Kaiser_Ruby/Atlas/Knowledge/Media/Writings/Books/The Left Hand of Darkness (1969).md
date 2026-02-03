@@ -17,5 +17,5 @@ status: Reading
 tags:
   - 📚Book/scifi
 genres:
-  - "[[science fiction]]"
+  - "[[Science Fiction]]"
 ---

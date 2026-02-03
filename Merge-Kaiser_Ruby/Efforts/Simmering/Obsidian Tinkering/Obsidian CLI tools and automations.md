@@ -1,3 +1,9 @@
+---
+status: archived
+tags:
+  - archived
+dateModified: 2025-12-17T00:29:28.771+01:00
+---
 #ticket 
 
 %% this could later turn into a final product, an artifact, a place to contain concrete information on cli tools and automations for Obsidian. 

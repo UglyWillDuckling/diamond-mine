@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{
+			"id":"3abf7e86304a02fd",
+			"type":"text",
+			"text":"[[movies base.base#plan to watch]]\n![[movies base.base]]\n",
+			"dynamicHeight":false,
+			"styleAttributes":{},
+			"x":-1280,
+			"y":-860,
+			"width":2400,
+			"height":1680
+		},
+		{
+			"id":"3a5b0485e6a290f4",
+			"type":"text",
+			"text":"\n- [x] #task skinuti [[Hellboy (2004)]] 🔽 ⏳ 2025-11-22 📅 2025-11-23",
+			"dynamicHeight":false,
+			"styleAttributes":{},
+			"x":-480,
+			"y":-1100,
+			"width":800,
+			"height":160
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

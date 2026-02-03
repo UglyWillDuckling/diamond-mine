@@ -1,3 +1,11 @@
+---
+status: archived
+dateModified: 2025-12-17T00:32:36.904+01:00
+priority: normal
+type: task
+tags:
+  - archived
+---
 #ticket
 
 part_of:: [[email setup on techdot]]

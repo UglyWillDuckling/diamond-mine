@@ -5,7 +5,7 @@ tags:
 ---
 #project
 
-uses:: [[Jellyfin]]
+uses:: [[+/Clippings/Jellyfin]]
 ____
 
 - [x] #task [[setup Media Server]] Jellyfin 🔼 ⏳ 2025-03-05 📅 2025-03-02 🆔 FeBHHo ✅ 2025-04-02
@@ -13,7 +13,7 @@ ____
 
 ### description
 
-This project is based around [[Jellyfin]], a media server that is free and open source, requires minimal setup, offers a large number of features and even has a healthy plugin ecosystem.
+This project is based around [[+/Clippings/Jellyfin]], a media server that is free and open source, requires minimal setup, offers a large number of features and even has a healthy plugin ecosystem.
 
 ## reqs
 - needs to use [[Docker]]

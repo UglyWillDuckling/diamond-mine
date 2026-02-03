@@ -1,7 +1,13 @@
 ---
+type: task
 exampleProperty: 2025-01-06
 ssl_start: 2025-01-06
 ssl_end: 2025-04-06
+status: archived
+priority: normal
+dateModified: 2025-12-17T00:32:08.767+01:00
+tags:
+  - archived
 ---
 #ticket 
 

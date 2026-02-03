@@ -22,7 +22,7 @@ image: https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtN
 premiere: 03/04/2022
 released: true
 plan-to-watch: false
-watched: false
+watched: true
 lastWatched: ""
 personalRating: 8
 tags:

@@ -24,11 +24,4 @@
 	- [[Creating Dynamic Graphs in Obsidian - Obsidian Rocks]]
 	- [[Plotting Task Completions]]
 
-### all tasks
-```tasks
-not done
-path includes {{query.file.folder}}
-show tree
-short mode
-hide task count
-```
+- [ ] #task use style settings plugin to customize themes 🔼 ⏳ 2025-11-17 📅 2025-11-16

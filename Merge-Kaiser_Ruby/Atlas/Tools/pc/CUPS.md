@@ -78,7 +78,10 @@ Some examples:
 
 ```
 text/plain application/postscript 50 texttops
-application/vnd.cups-postscript application/vnd.cups-raster 50 pstoraster
+
+> [!NOTE]
+> application/vnd.cups-postscript application/vnd.cups-raster 50 pstoraster
+
 image/* application/vnd.cups-postscript 50 imagetops
 image/* application/vnd.cups-raster 50 imagetoraster
 ```

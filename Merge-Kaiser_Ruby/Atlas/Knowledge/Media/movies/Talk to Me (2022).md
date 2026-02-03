@@ -24,7 +24,8 @@ premiere: 07/28/2023
 watched: false
 lastWatched: ""
 personalRating: 0
-tags: mediaDB/tv/movie
+tags:
+  - film/horror
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

@@ -8,6 +8,8 @@ datum rodenja: **siječanj 21.1 1955**
 
 Broj cipela: **37**
 
+Viktorija Veselinović
+
 ---
 
 Mama se rodila u [[Jarmini]] i tu je i odrasla. Zavrsila je osnovnu skolu i 2 razreda gimnazije. Bila je odlican dak i morala je napustiti skolu zbog financijskih razloga.
@@ -35,22 +37,7 @@ Tamo su zivjeli nekih osam godina pa se se doselili natrag u Jarminu. Kupili su 
 ---
 
 [Kupi cipele za [Mama](https://www.notion.so/Mama-919a67e32c544a13af410ec9861b2ef4?pvs=21) ](https://www.notion.so/Kupi-cipele-za-454808d074434e5eaa85436514812a45?pvs=21)
-
-~~2 pisma~~
-
-~~mandarine, breskve, jabuke, kruške~~
-
-~~Kolači~~ 
-
-~~Sok~~
-
-~~Nacrtano platno - može bit na papiru~~ 
-
-Biblija i slično 
-
-~~Hlače~~
-
-Parfem 
+ 
 
 **Laktoza ne**
 

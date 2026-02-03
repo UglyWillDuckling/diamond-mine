@@ -1,3 +1,9 @@
+---
+status: archived
+tags:
+  - archived
+dateModified: 2025-12-17T00:28:23.169+01:00
+---
 #ticket 
 
 - [x] #task [[setup Owncloud]] 🆔 7oRd3s 🔼 🛫 2025-03-14 ⏳ 2025-03-14 📅 2025-05-25

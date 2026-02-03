@@ -1,0 +1,18 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("location")
+  - type: map
+    name: map
+    defaultZoom: 6
+    coordinates: note.coordinates
+  - type: map
+    name: personal places
+    filters:
+      and:
+        - categories.contains(link("Places"))
+        - file.tags.contains("location/personal")
+    mapHeight: 340
+    coordinates: note.coordinates

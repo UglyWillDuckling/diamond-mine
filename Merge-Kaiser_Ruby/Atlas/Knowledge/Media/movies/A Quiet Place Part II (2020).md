@@ -1,5 +1,4 @@
 ---
-
 type: movie
 subType: ""
 title: A Quiet Place Part II
@@ -22,10 +21,11 @@ actors:
 image: https://m.media-amazon.com/images/M/MV5BNjRiYjk4ZmItNGQ5NS00MmRhLTk4Y2EtMGQ1MTYxZWJhYjU0XkEyXkFqcGc@._V1_SX300.jpg
 released: true
 premiere: 05/28/2021
-watched: false
+watched: true
 lastWatched: ""
-personalRating: 0
-tags: mediaDB/tv/movie
+personalRating: 7.7
+tags:
+  - film/horror
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

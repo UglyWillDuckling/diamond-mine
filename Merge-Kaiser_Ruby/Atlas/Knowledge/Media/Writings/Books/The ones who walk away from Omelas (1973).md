@@ -9,12 +9,11 @@ author:
   - "[[Ursula K. Le Guin]]"
 released: true
 read: true
-lastRead: ""
+lastRead: 2025-06-01
 personalRating: 8.5
-tags:
-  - mediaDB/book
-  - 📚Book
 interest: 9
+tags:
+  - 📚Book
 status: Done
 genres:
   - "[[Fiction]]"

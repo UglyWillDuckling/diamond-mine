@@ -1,8 +1,6 @@
 
-- [x] reminder [[Popis online knjižara, bookstores]] (@2025-09-06)
+- [[Wob - world of books]]
 
-[[Wob - world of books]]
+- [[Libristo - EU]]
 
-[[Libristo - EU]]
-
-[[Better World Book]]
+- [[Better World Book]]

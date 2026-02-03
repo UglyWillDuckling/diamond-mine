@@ -2,7 +2,7 @@
 tags:
   - 📚Book
 author:
-  - "[[ Carlo Collodi]]"
+  - "[[Atlas/Knowledge/Media/Writings/Books/Authors/Carlo Collodi]]"
 ---
 ![[~/×/a6fffaae691b9bbd5ccd8a65b766faec_MD5.jpg]]
 

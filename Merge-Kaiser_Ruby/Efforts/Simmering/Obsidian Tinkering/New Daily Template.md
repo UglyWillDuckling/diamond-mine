@@ -2,6 +2,10 @@
 people: "[[Dann Berg]]"
 artifact:
   - "[[daily template v2]]"
+status: archived
+tags:
+  - archived
+dateModified: 2025-12-17T00:29:32.424+01:00
 ---
 #ticket 
 

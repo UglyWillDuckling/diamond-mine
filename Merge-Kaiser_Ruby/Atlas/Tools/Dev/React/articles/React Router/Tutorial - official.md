@@ -3,7 +3,7 @@ https://reactrouter.com/en/main/start/tutorial
 ---
 
 - create a new project inside the study/react dir
-	- use `Vite` [[Vite]]
+	- use `Vite` [[vite]]
 	- and [[npm]]
 - install react-router
 - install tutorial specific stuff

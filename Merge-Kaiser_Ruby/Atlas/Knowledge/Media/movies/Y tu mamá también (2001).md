@@ -25,6 +25,7 @@ personalRating: 0
 tags:
   - film
 plan-to-watch: true
+interest: 7.8
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

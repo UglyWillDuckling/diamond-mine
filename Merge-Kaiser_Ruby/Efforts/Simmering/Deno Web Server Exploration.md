@@ -1,6 +1,12 @@
+---
+status: archived
+tags:
+  - archived
+dateModified: 2025-12-17T00:29:47.851+01:00
+---
 #ticket 
 
-%% over time, this ticket could create a parent project that would encompass the entire [[deno]] exploration / study %%
+%% over time, this ticket could create a parent project that would encompass the entire [[Deno]] exploration / study %%
 
 about:: [[Deno]], [[Deno Web Server]]
 

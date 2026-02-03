@@ -1,3 +1,9 @@
+---
+status: archived
+tags:
+  - archived
+dateModified: 2025-12-17T00:29:37.944+01:00
+---
 #ticket
 
 - [x] #task **explore** [[Morgen]] with [[Obsidian]] 🆔 YXQzL9 ⏳ 2025-01-29 📅 2025-01-29 ✅ 2025-01-29

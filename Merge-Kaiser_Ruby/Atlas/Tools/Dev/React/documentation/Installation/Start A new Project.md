@@ -1,6 +1,6 @@
 
 ## with Next.js
-[[Next.js]]
+[[next.js]]
 [[npx]]
 
 **simply run**

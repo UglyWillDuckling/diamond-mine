@@ -20,12 +20,12 @@ actors:
 image: https://m.media-amazon.com/images/M/MV5BZDZiMjc0NzAtMDU2OS00NTU1LWFmNWUtMmE5Njg3YjRlOTg2XkEyXkFqcGc@._V1_SX300.jpg
 released: true
 premiere: 09/23/2024
-watched: false
-lastWatched: ""
-personalRating: 0
+watched: true
+lastWatched: 2025-11-01
+personalRating: 8.1
 tags:
   - film
-plan-to-watch: true
+plan-to-watch: false
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

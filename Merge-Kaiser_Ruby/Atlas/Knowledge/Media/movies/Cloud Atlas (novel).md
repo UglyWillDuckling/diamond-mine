@@ -21,7 +21,7 @@ It received awards from both the general literary community and the speculative 
 
 # structure and style 
 
-The book has been described as incorporating elements of metafiction,[29] [[historical fiction]], contemporary fiction, (post)apocalyptic writing and [[science fiction]] into its narrative.[30][31][32] The book's style was inspired by Italo Calvino's If on a winter's night a traveler, which contains several incomplete, interrupted narratives. Mitchell's innovation was to add a 'mirror' in the centre of his book so that each story could be brought to a conclusion.[33][3] 
+The book has been described as incorporating elements of metafiction,[29] [[historical fiction]], contemporary fiction, (post)apocalyptic writing and [[Science Fiction]] into its narrative.[30][31][32] The book's style was inspired by Italo Calvino's If on a winter's night a traveler, which contains several incomplete, interrupted narratives. Mitchell's innovation was to add a 'mirror' in the centre of his book so that each story could be brought to a conclusion.[33][3] 
 
 Mitchell has said of the book: 
 

@@ -27,13 +27,14 @@ airing: false
 watched: false
 lastWatched: ""
 personalRating: 0
-plan-to-watch: false
+plan-to-watch: true
 tags:
   - tv-series
 finished: false
 new_episodes: ""
 status:
   - 2_Waiting ⌚
+interest: 7.7
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

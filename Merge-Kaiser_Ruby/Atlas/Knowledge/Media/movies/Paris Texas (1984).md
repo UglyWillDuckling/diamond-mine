@@ -21,7 +21,7 @@ released: true
 premiere: 23.08.1984
 watched: false
 lastWatched: ""
-plan-to-watch: true
+plan-to-watch: false
 personalRating: 0
 tags:
   - film

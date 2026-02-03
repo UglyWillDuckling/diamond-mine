@@ -34,7 +34,8 @@ watched: true
 lastWatched: ""
 personalRating: 0
 tags:
-  - mediaDB/tv/movie
+  - film/scifi
+  - film/post-apocaliptic
 part of:
   - "[[Mad Max Franchise]]"
 plan-to-watch: false

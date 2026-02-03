@@ -23,9 +23,9 @@ watched: false
 lastWatched: ""
 personalRating: 0
 tags:
-  - mediaDB/tv/movie
   - film
 interest: 6.5
+plan-to-watch: false
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

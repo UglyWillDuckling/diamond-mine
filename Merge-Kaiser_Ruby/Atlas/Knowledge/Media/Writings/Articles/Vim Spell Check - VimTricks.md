@@ -12,7 +12,7 @@ tags:
   - howto/vim
   - howto/nvim
 ---
-- [x] reminder [[Vim Spell Check - VimTricks]] (@2025-07-25)
+- [x] reminder [[Atlas/Knowledge/Media/Writings/Articles/Vim Spell Check - VimTricks]] (@2025-07-25)
 ___
 I recently came across an embarrassing typo on my own website. Buried deep in a paragraph of HTML inside a Rails HAML template, there was a glaring spelling mistake. I quickly raced back to Vim and opened the template and spell checked the whole file. How? With `:set spell`, Vim spell check.
 

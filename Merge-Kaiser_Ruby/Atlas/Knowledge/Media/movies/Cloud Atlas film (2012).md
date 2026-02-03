@@ -32,7 +32,11 @@ personalRating: 7.5
 type: movie
 tags:
   - film
+  - film/comfort
 plan-to-watch: false
+category:
+  - "[[Film]]"
+  - "[[Comfort]]"
 ---
 `$= '![Image|360](' + dv.current().image + ')'`
 ```dataviewjs

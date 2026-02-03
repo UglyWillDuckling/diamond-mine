@@ -1,8 +1,13 @@
 ---
 related:
   - "[[persona ssl setup]]"
-status: doesn't work due to
+status: done
 previewLink:
+priority: normal
+dateModified: 2025-12-09T17:58:44.750+01:00
+tags:
+  - task
+completedDate: 2025-12-09
 ---
 
 - [x] #task Setup Persona mail ✅ 2025-01-07

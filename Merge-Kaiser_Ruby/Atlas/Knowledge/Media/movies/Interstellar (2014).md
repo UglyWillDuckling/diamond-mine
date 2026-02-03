@@ -1,4 +1,9 @@
 ---
+category:
+  - "[[Film]]"
+  - "[[Science Fiction]]"
+plan-to-watch: false
+interest:
 type: movie
 subType: ""
 title: Interstellar
@@ -13,21 +18,19 @@ genres:
   - Sci-Fi
 director:
   - Christopher Nolan
-  - "[[Christopher Nolan]]"
 onlineRating: 8.7
 actors:
   - Matthew McConaughey
   - Anne Hathaway
   - Jessica Chastain
-  - "[[Matthew McConaughey]]"
-  - "[[Anne Hathaway]]"
 image: https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_SX300.jpg
 released: true
 premiere: 11/07/2014
-watched: true
+watched: false
 lastWatched: ""
-personalRating: 7
-tags: mediaDB/tv/movie
+personalRating: 7.7
+tags:
+  - film
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`
@@ -42,20 +45,12 @@ if (dv.current().watched) {
 }
 ```
 
-**Rating**:  `INPUT[slider(addLabels, minValue(0), maxValue(10)):personalRating]` (`$= dv.current().personalRating` out of 10)
-
-**Genres**:
 ```dataviewjs
-dv.current().genres.length === 0 ? dv.span(' - none') : dv.list(dv.current().genres)
-```
-
-```dataviewjs
-if (!dv.current().released) {
-	dv.span('**Not released** The movie is not yet released.')
+if (dv.current()['plan-to-watch']) {
+	dv.paragraph(`> [!SUCCESS] \`INPUT[toggle:plan-to-watch]\` planned`);
+} else {
+	dv.paragraph(`> [!WARNING] \`INPUT[toggle:plan-to-watch]\` not planned`);
 }
 ```
 
-**Type**: `$= dv.current().type`
-**Online Rating**: `$= dv.current().onlineRating`
-**Duration**:  `$= dv.current().duration`
 **Premiered**: `$= dv.current().premiere`

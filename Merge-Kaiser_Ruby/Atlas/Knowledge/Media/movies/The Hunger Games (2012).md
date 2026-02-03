@@ -28,6 +28,10 @@ lastWatched: ""
 personalRating: 7.7
 tags:
   - film
+  - film/comfort
+category:
+  - "[[Film]]"
+  - "[[Comfort]]"
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

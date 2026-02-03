@@ -1,3 +1,9 @@
+---
+status: archived
+tags:
+  - archived
+dateModified: 2025-12-17T00:28:14.545+01:00
+---
 #ticket 
 
 ## resursi

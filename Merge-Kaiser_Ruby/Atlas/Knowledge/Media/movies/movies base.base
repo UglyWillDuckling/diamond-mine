@@ -1,0 +1,63 @@
+filters:
+  and:
+    - type == "movie"
+    - '!file.folder.contains("Set")'
+formulas:
+  hello: number(year) - 5
+  Untitled: |
+    3+2
+views:
+  - type: cards
+    name: Cards
+    order:
+      - file.name
+      - image
+      - interest
+      - director
+      - year
+      - personalRating
+      - tags
+    sort:
+      - property: interest
+        direction: DESC
+    image: image
+  - type: cards
+    name: plan to watch
+    filters:
+      or:
+        - note["plan-to-watch"] == true
+    order:
+      - file.name
+      - year
+      - director
+      - watched
+      - plan-to-watch
+      - interest
+    sort:
+      - property: interest
+        direction: DESC
+    image: image
+  - type: table
+    name: In Time
+    order:
+      - year
+      - file.name
+      - plot
+    sort:
+      - property: year
+        direction: DESC
+    rowHeight: tall
+    columnSize:
+      note.year: 101
+      note.plot: 718
+  - type: cards
+    name: comfort films
+    filters:
+      and:
+        - file.tags.contains("film/comfort")
+    sort:
+      - property: file.name
+        direction: ASC
+    image: note.image
+    cardSize: 270
+    imageFit: contain

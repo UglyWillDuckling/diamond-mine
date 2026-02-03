@@ -1,14 +1,23 @@
 
- - [/] #task provjerit ugovor s [[Vukojevic Gradnja]], [[Mirko Vukojevic]] 🆔 D8LO8P
+- [[Popis Majstora]]
  
- - [/] #task pronaci troskovnik od Vukojevic gradnje 🆔 eKjhgQ ⏫
- - [ ] #task napraviti [[popis za useljenje]] 🆔 RIf2ek
- - [ ] #task potpisati ugovor za [[nadzor struje]] 🆔  🆔 5oVeek
-	 - [ ] potpis -> sken
-	 - [ ] poslati na mail 📧
- - [x] nazvati [[vodovod]] radi priključak
- - [ ] #task priključak za plin, subvencije  🆔 UrzGWM
- - [ ] #task [[mail za eksterni dizajn]] 🆔 JvoNeK
+ - [x] #task napraviti [[popis za useljenje]] 🆔 RIf2ek ✅ 2026-02-03
+ - [x] #task priključak za plin, subvencije 🆔 UrzGWM ✅ 2026-02-03
+
+ - [ ] #task poslati projekt Zelenoj Udruzi - vidjeti sto jos trebamo
+ - [ ] #task vidjeti sto je s Marijom 
+ - [ ] #task kontaktirati [[majstor Kristijan - struja]] radi kontakta za knauf 📅 2026-02-04
+ - [ ] #task nazvati [[Zvonko Kovacevic]] radi informacija 📅 2026-02-06
+	 - [ ] redoslijed
+	 - [ ] kontakti s drugim majstorima
+	 - [ ] raspored i vrijeme trajanja radova
+	 - [ ] cijena
+	 - [ ] nacin placanja, racun
+ - [ ] #task nazvati [[ArtX]] - [[Đani Grbac]] krajem tjedna radi upita o rasporedu 📅 2026-02-06
+ - [ ] #task pitati [[Mirko Vukojevic|Mirka]] za prozorske klupice ⏳ 2026-02-04 📅 2026-02-06
+ - [ ] #task dogovoriti sastanak(poziv) s [[Dora Delalić]]D 📅 2026-02-04
+ - [ ] #task provjeriti stanje **nadzora** - trebamo li jos nekog? 📅 2026-02-10
+ - [ ] #task kontaktirati majstora za Fasadu 📅 2026-02-10
 
 ### troskovi
 
@@ -36,4 +45,6 @@ total za useljenje: 341.000
 - [[kuhinja]]
 - [[unutarnja stoloarija]]
 - ..
+### wip
 
+- radi se na gornjem katu - zidovi su gotovi, rade se stupovi. Ovaj tjedan bi krenuli betonirati nadvoje. 

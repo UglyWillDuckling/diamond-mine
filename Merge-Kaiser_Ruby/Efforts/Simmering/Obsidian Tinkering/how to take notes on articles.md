@@ -1,3 +1,11 @@
+---
+status: archived
+dateModified: 2025-12-17T00:32:28.579+01:00
+priority: normal
+type: task
+tags:
+  - archived
+---
 #ticket 
 
 **how to take notes** on videos and articles in obsidian

@@ -32,10 +32,15 @@ streamingServices:
 premiere: 05/15/2015
 watched: true
 lastWatched: ""
-personalRating: 0
+personalRating: 8.3
 tags:
-  - mediaDB/tv/movie
+  - film/scifi
+  - film/post-apocaliptic
+  - film/comfort
 plan-to-watch: false
+category:
+  - "[[Film]]"
+  - "[[Comfort]]"
 ---
 `$= '![Image|360](' + dv.current().image + ')'`
 

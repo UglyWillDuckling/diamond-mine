@@ -4,7 +4,7 @@ a **first step** to forming a plan to process [[Destroy All Software]]
 - [x] #task organize [[Efforts/tasks/DAS - watchlist]] 🆔 eFw6ir ✅ 2025-05-18
 	- [x] organize first layer of videos
 	- [x] organize `series`
-- [/] #task watch videos from [[Efforts/tasks/DAS - watchlist]] #longterm 🆔 WJL1Zs ⏳ 2025-06-08 📅 2025-09-29
+- [x] #task watch videos from [[Efforts/tasks/DAS - watchlist]] #longterm 🆔 WJL1Zs ⏳ 2025-06-08 ✅ 2026-02-08
 ___
 `location`:: ~/Documents/tutorials/das
 

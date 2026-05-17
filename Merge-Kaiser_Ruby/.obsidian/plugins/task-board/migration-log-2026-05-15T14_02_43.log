@@ -1,0 +1,42 @@
+=== Task Board Migration Log ===
+Generated: 5/15/2026, 2:02:43 PM
+
+[2:02:34 PM] [•] Initializing migration process...
+[2:02:35 PM] [•] 
+[2:02:35 PM] [•] [Step 1/4] Creating backup...
+[2:02:35 PM] [•] Creating backup of current configuration...
+[2:02:35 PM] [✓] ✓ Backup created at the root of the vault with the following name: taskboard-configs-export-2026-05-15T14_02_35.json
+[2:02:35 PM] [•] 
+[2:02:36 PM] [•] [Step 2/4] Creating board files (.taskboard) ...
+[2:02:36 PM] [•] The Task Board's board files (.taskboard) will be created at the following path: Meta/Task_Board/Boards/ [All]
+[2:02:36 PM] [✓] ✓ Created directory: Meta/Task_Board/Boards
+[2:02:36 PM] [•] Processing 3 boards...
+[2:02:37 PM] [✓] ✓ Created: Time Based Workflow [Time Based Workflow]
+[2:02:37 PM] [✓] ✓ Created: Tag Based Workflow [Tag Based Workflow]
+[2:02:38 PM] [✓] ✓ Created: Status Based Workflow [Status Based Workflow]
+[2:02:38 PM] [•] 
+[2:02:38 PM] [•] [Step 3/4] Migrating map view data...
+[2:02:38 PM] [•] Migrating map view data...
+[2:02:39 PM] [⚠] ⚠ No map view data found in the LocalStorge. Safely moving for the next operation. [All Boards]
+[2:02:39 PM] [⚠] ⚠ The map view data doesnt exists for the following board in LocalStorage: Time Based Workflow. Safely moving for the next board. [Time Based Workflow]
+[2:02:40 PM] [⚠] ⚠ The map view data doesnt exists for the following board in LocalStorage: Tag Based Workflow. Safely moving for the next board. [Tag Based Workflow]
+[2:02:40 PM] [⚠] ⚠ The map view data doesnt exists for the following board in LocalStorage: Status Based Workflow. Safely moving for the next board. [Status Based Workflow]
+[2:02:41 PM] [•] 
+[2:02:41 PM] [•] [Step 4/4] Finalizing migration...
+[2:02:41 PM] [•] Updating plugin settings...
+[2:02:42 PM] [✓] ✓ Plugin settings updated
+[2:02:42 PM] [•] 
+[2:02:42 PM] [✓] ✓ Migration completed successfully!
+[2:02:43 PM] [✓] Migrated 3 boards. You can find them at the following path : Meta/Task_Board/Boards/
+[2:02:43 PM] [•] 
+[2:02:43 PM] [✓] Backup file will be available at the root of the vault: taskboard-configs-export-2026-05-15T14_02_35.json
+
+=== End of Log ===
+
+
+
+
+
+
+=== ERRORS ===
+=== End of ERRORS

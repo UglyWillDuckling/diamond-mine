@@ -277,5 +277,23 @@
       ],
       "key": "W"
     }
-  ]
+  ],
+  "obsidian-completr:completr-open-suggestion-popup": [],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "X"
+    }
+  ],
+  "app:toggle-ribbon": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "obsidian-completr:completr-blacklist-current-word": []
 }

@@ -1,0 +1,5 @@
+
+
+csma cd
+
+ispravljanje pogrešaka 

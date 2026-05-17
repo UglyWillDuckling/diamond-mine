@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "🖼",
-      "LiNetwork",
-      "🌄",
-      "LiBookImage",
-      "LiQuote"
+      "♦",
+      "💡",
+      "LiMail",
+      "🫂",
+      "LiCat"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -163,13 +163,11 @@
   "Efforts/Simmering/Ipod Music": "LiMusic4",
   "Efforts/Active/Persona/persona ssl cronjob.md": "LiTimerReset",
   "Efforts/Ongoing/Vacation": "🌅",
-  "Efforts/Ongoing/Studying Python": "🐍",
   "Efforts/_Complete": {
     "iconName": "LiArchive",
     "iconColor": "#4b8b64"
   },
   "Efforts/Simmering/Article Rating.md": "💯",
-  "Efforts/Ongoing/Spavanja promijena napredak.md": "😪",
   "Efforts/Ongoing/Odrzavanja kuce.md": "🧹",
   "Atlas/Life/notes": "LiNotebookText",
   "Efforts/Simmering/Wordpress": "LiPrinter",
@@ -184,9 +182,7 @@
   "Atlas/Life/Faks/Predmeti/Osnove Programiranja/C - programming": "©",
   "Atlas/Life/Faks/Predmeti/Grada racunala": "LiComputer",
   "Atlas/Life/physical items": "🪨",
-  "movies base.base": "🎥",
   "Efforts/Simmering/Obsidian Tinkering": "LiPlay",
-  "my books base.base": "📚",
   "Atlas/Knowledge/World": "LiGlobe",
   "Atlas/Knowledge/Science/Computer Science": "LiComputer",
   "Atlas/howtos": {
@@ -211,5 +207,18 @@
   "Efforts/_Complete/Senka/Persona/archive/archive/setup Persona VPS.md": "LiServer",
   "Efforts/_Complete/Senka/Persona/Docs/Dev/Wordpress/wp_users.md": "LiPersonStanding",
   "Efforts/Active/Kuca/docs": "LiBookImage",
-  "Efforts/Active/Kuca/slike za kucu.md": "🖼"
+  "Atlas/Tools/pc/lp command package/lp command package.md": "🖨",
+  "Atlas/Knowledge/Media/movies/movies base.base": "🎥",
+  "Atlas/Knowledge/Media/Writings/Books/books base.base": "📚",
+  "Atlas/Knowledge/Media/Television/tv shows.base": "LiTv",
+  "Tickets.base": "LiTicket",
+  "Calendar/actions": "LiSword",
+  "Atlas/Life/Pets": "LiCat",
+  "Atlas/Life/People": "🫂",
+  "Efforts/Active/Kuca/docs/slike za kucu.md": "🖼",
+  "Efforts/Active/Kuca/docs/mail Vukojevic.md": "LiMail",
+  "Efforts/Ideas": "💡",
+  "Efforts/_Complete/Spavanja promijena napredak.md": "😪",
+  "Efforts/_Complete/Studying Python": "🐍",
+  "Efforts/Ideas/Mass Update Plugin in Obsidian.md": "♦"
 }

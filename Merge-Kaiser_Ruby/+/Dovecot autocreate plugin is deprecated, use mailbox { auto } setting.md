@@ -13,7 +13,7 @@ tags:
 related:
   - "[[Dovecot]]"
   - "[[dovecot trial configs]]"
-  - "[[setup mail server trial]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]]"
 ---
 I just started experimenting with this myself, but I believe that in your case you need to replace these lines:
 
@@ -46,7 +46,7 @@ namespace inbox {
 }
 ```
 
-Used in [[setup mail server trial]]
+Used in [[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]]
 
 
 

@@ -24,7 +24,7 @@ ___## rođendan [[Mirna 💕💕💕]]
 - [[Brigita]]
 - [[Blizanci]]
 - [[Matea Curic]]
-- ? [[paulina]] + decko
+- ? [[Paulina Kovacevic]] + decko
 ___
 ## ideje za grupne aktivnosti 
 

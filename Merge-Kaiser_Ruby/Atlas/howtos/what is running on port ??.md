@@ -1,7 +1,7 @@
 ---
 related:
   - "[[Atlas/Knowledge/Knowledge/concepts/web hosting]]"
-  - "[[Setup hosting]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/Setup hosting]]"
 tags:
   - howto
   - instructions

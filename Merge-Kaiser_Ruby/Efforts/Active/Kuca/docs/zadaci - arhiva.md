@@ -1,0 +1,14 @@
+
+ - [x] #task kontaktirati [[majstor Kristijan Marić- struja]] radi kontakta za **knauf** 📅 2026-02-04 ✅ 2026-02-08
+ - [x] #task nazvati [[Zvonko Kovacevic]] radi informacija 📅 2026-02-06 ✅ 2026-02-08
+	 - [x] redoslijed
+	 - [x] kontakti s drugim majstorima
+	 - [x] raspored i vrijeme trajanja radova
+	 - [x] cijena
+	 - [x] nacin placanja, racun
+	 - [x] mogucnost kupnje preko [[Tehnika trgovina]]
+ - [x] #task nazvati [[ArtX]] - [[Đani Grbac]] krajem tjedna radi upita o rasporedu 📅 2026-02-06 ✅ 2026-02-08
+ - [x] #task pitati [[Mirko Vukojevic|Mirka]] za prozorske klupice ⏳ 2026-02-04 📅 2026-02-06 ✅ 2026-02-08
+ - [x] #task dogovoriti sastanak(poziv) s [[Dora Vučemilović]]D 📅 2026-02-04 ✅ 2026-02-08
+ - [x] #task provjeriti stanje **nadzora** - trebamo li jos nekog? 📅 2026-02-10 ✅ 2026-02-08
+ - [x] #task pitati sto cemo za mikrocement 📅 2026-02-06 ✅ 2026-02-08

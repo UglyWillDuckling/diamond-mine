@@ -1,9 +1,9 @@
 {
   "theme": "moonstone",
   "cssTheme": "",
-  "accentColor": "#e67a33",
+  "accentColor": "#d48740",
   "baseFontSizeAction": true,
-  "baseFontSize": 16,
+  "baseFontSize": 19,
   "enabledCssSnippets": [
     "dataview-margin-remove",
     "tasks_padding",
@@ -12,5 +12,6 @@
     "MCL Multi Column",
     "MCL Wide Views"
   ],
-  "textFontFamily": "Arial"
+  "textFontFamily": "Arial",
+  "showRibbon": false
 }

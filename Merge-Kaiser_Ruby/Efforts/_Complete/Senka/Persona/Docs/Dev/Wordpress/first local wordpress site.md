@@ -81,4 +81,4 @@ volumes:
 **wordpress site**
 pass: $DjBV7z4rVEB(z2I$0
 
-[[wordpress - db tables default]]
+[[Efforts/_Complete/Senka/Persona/Docs/Dev/Wordpress/wordpress - db tables default]]

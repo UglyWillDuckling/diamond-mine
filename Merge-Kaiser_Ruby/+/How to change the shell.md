@@ -11,4 +11,4 @@ related:
 chsh -s /bin/bash
 ```
 
-found during: [[setup mail server trial]] <- [[Setup hosting]]
+found during: [[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]] <- [[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/Setup hosting]]

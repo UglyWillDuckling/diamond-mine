@@ -21,12 +21,12 @@ actors:
 image: https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg
 released: true
 premiere: 11.06.1993
-watched: false
-lastWatched: ""
-personalRating: 0
+watched: true
+lastWatched: 2026-02-01
+personalRating: 8.8
+plan-to-watch: false
 tags:
   - film
-plan-to-watch: true
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

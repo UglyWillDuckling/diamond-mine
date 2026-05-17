@@ -73,4 +73,7 @@ views:
       slotMaxTime: 22:00:00
       slotDuration: 00:30:00
     calendarView: dayGridMonth
-    columnOrder: '{"note.status":["in-progress","none","open","done"]}'
+    columnOrder: '{"note.status":["none","open","in-progress","done","archived"]}'
+  - type: tasknotesTaskList
+    name: View
+    enableSearch: true

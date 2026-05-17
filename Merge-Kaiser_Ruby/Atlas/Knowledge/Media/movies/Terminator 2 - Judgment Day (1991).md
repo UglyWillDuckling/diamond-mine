@@ -29,8 +29,8 @@ watched: true
 lastWatched: ""
 personalRating: 0
 tags:
-  - mediaDB/tv/movie
   - film
+  - film/comfort
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

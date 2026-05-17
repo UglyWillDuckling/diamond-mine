@@ -28,7 +28,6 @@ watched: true
 lastWatched: ""
 personalRating: 8.3
 tags:
-  - mediaDB/tv/movie
   - film
 ---
 

@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[persona mail setup]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/persona mail setup]]"
 tags:
   - note
   - dev

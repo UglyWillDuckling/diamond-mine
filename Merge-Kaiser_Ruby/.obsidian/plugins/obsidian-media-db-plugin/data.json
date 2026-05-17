@@ -11,7 +11,7 @@
   "movieTemplate": "~/%/movie template DB.md",
   "seriesTemplate": "~/%/series template for DB.md",
   "mangaTemplate": "",
-  "gameTemplate": "",
+  "gameTemplate": "~/%/template - videogame.md",
   "wikiTemplate": "",
   "musicReleaseTemplate": "",
   "boardgameTemplate": "",
@@ -215,7 +215,7 @@
           "property": "englishTitle",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "year",
@@ -245,7 +245,7 @@
           "property": "plot",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "genres",
@@ -269,7 +269,7 @@
           "property": "episodes",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "duration",
@@ -281,7 +281,7 @@
           "property": "onlineRating",
           "newProperty": "",
           "locked": false,
-          "mapping": "default"
+          "mapping": "remove"
         },
         {
           "property": "actors",

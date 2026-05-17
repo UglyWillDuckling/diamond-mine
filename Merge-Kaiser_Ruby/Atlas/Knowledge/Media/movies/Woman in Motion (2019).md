@@ -22,12 +22,13 @@ actors:
 image: https://m.media-amazon.com/images/M/MV5BZTg3MTdmNWYtOWEyZC00NjI3LThhYzUtODZiOGYzYjA0ZDJmXkEyXkFqcGc@._V1_SX300.jpg
 released: true
 premiere: 02/16/2021
-watched: false
 lastWatched: ""
-personalRating: 0
-plan-to-watch: true
+watched: true
+personalRating: 8.3
+plan-to-watch: false
 tags:
   - film
+  - film/doc
 ---
 
 

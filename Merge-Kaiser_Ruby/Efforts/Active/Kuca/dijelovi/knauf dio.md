@@ -1,3 +1,9 @@
+---
+majstor: "[[Marko Maric]]"
+trajanje u danima:
+parent:
+  - "[[Kuca]]"
+---
 #dio-gradnje
 
 popis stvari u knaufu

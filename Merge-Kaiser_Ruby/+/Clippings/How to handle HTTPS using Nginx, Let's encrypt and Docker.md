@@ -6,10 +6,10 @@ author:
 published: 2021-10-06
 created: 2025-01-06
 description: This post will guide you through a step-by-step process to protect your website (and your users) using HTTPS in a docker environment.
-tags: 
+tags:
 favicon: https://mindsers.blog/content/images/size/w256h256/2021/08/apple-icon-180x180.png
 related:
-  - "[[persona ssl setup]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/persona ssl setup]]"
   - "[[Certbot]]"
 ---
 ![icon](https://mindsers.blog/content/images/size/w256h256/2021/08/apple-icon-180x180.png]

@@ -6,13 +6,13 @@ author:
 published: 2018-09-27
 created: 2025-01-07
 description: Always wanted to know the difference between an A-record and a MX-record? Discover the answer here at Copernica Marketing Software.
-tags: 
+tags:
 favicon: https://www.copernica.com/favicon.ico
 related:
   - "[[MX record]]"
   - "[[email]]"
   - "[[mail server]]"
-  - "[[persona mail setup]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/persona mail setup]]"
   - "[[A Record]]"
 ---
 ![icon](https://www.copernica.com/favicon.ico]

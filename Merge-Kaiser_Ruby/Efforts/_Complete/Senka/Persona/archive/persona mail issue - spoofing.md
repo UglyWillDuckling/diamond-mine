@@ -12,7 +12,7 @@ cleared queue again
 - [x] measuring how long it takes for the messages to be added
 
 19:20
-updated [[persona spf record]]
+updated [[Efforts/_Complete/Senka 1/Persona/Docs/persona spf record]]
 
 19:21
 successfully received email from `vlado@persona.hr`
@@ -24,7 +24,7 @@ still no new outside mails in queue
 
 - seems that somebody was able to gain access to the mail server
 - **269,049** messages were queued
-- mail s `vlado@persona` je poslan vrlo brzo nakon izmjene [[persona spf record]]a
+- mail s `vlado@persona` je poslan vrlo brzo nakon izmjene [[Efforts/_Complete/Senka 1/Persona/Docs/persona spf record]]a
 
 ## current
 

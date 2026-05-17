@@ -26,7 +26,7 @@ actors:
 image: https://m.media-amazon.com/images/M/MV5BNmYxOTAzZWYtOGI3Yi00ODc3LTk5ZjYtZTY0MzVkZTg3YmRiXkEyXkFqcGc@._V1_SX300.jpg
 released: true
 premiere: 10/29/1993
-watched: false
+watched: true
 lastWatched: ""
 personalRating: 0
 tags:

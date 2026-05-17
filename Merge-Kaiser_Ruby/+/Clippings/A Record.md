@@ -9,7 +9,7 @@ description: A Record ( Address Mapping Record ) is a DNS record which maps a do
 tags:
   - clippings
 related:
-  - "[[Setup hosting]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/Setup hosting]]"
   - "[[DNS]]"
   - "[[domain]]"
 ---

@@ -2,7 +2,7 @@
 category:
   - "[[Film]]"
 interest: 8
-plan-to-watch: true
+plan-to-watch: false
 personal favorite: false
 type: movie
 subType: ""
@@ -28,7 +28,7 @@ released: true
 premiere: 12.04.2024
 watched: false
 lastWatched: ""
-personalRating: 0
+personalRating: 7.1
 tags:
   - film
 ---

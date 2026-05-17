@@ -2,8 +2,8 @@
 category:
   - "[[Film]]"
 interest: 7.6
-plan-to-watch: true
-personal favorite: false
+plan-to-watch: false
+personal favorite: true
 type: movie
 subType: ""
 title: One Battle After Another
@@ -28,7 +28,7 @@ released: true
 premiere: 26.09.2025
 watched: false
 lastWatched: ""
-personalRating: 0
+personalRating: 7.9
 tags:
   - film
 ---

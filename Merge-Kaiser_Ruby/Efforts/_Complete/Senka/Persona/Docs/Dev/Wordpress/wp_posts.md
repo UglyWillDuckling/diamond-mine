@@ -3,7 +3,6 @@ related:
   - "[[Efforts/Simmering/Wordpress/Wordpress]]"
   - "[[run sql command in docker examples]]"
   - "[[database]]"
-rela: 
 ---
 #wordpress #db-table 
 

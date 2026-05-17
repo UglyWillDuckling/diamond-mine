@@ -1,8 +1,8 @@
 ---
 title: What Is the SPF Record for Hostinger Email? | Hostinger Help Center
 source: https://support.hostinger.com/en/articles/1583673-what-is-the-spf-record-for-hostinger-email
-author: 
-published: 
+author:
+published:
 created: 2025-01-04
 description: Learn what is the SPF record for Hostinger Email and how to add it to your domain
 tags:
@@ -11,7 +11,7 @@ tags:
   - hostinger
 related:
   - "[[hostinger]]"
-  - "[[setup mail server trial]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]]"
 ---
 **SPF** stands for **Sender Policy Framework**. SPF records are DNS records of **[TXT type](https://support.hostinger.com/en/articles/1583664-how-to-add-txt-records-to-dns-zone)** that specify which mail servers can send emails on behalf of a specific domain.
 

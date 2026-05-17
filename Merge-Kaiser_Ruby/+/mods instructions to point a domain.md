@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[Setup hosting]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/Setup hosting]]"
   - "[[Efforts/tasks/archive/archive 1/pointing a domain to Hostinger trial]]"
 tags:
   - howto

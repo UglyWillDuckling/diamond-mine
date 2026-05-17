@@ -6,7 +6,7 @@ author:
 published: 2001-12-17
 created: 2025-01-07
 description: This tutorial will show you how to redirect a www URL to non-www, e.g. www.example.com to example.com , with Nginx on Ubuntu 14.04. We will also show you how …
-tags: 
+tags:
 favicon: https://www.digitalocean.com/_next/static/media/android-chrome-192x192.f09059d8.png
 related:
   - "[[A Record]]"
@@ -14,7 +14,7 @@ related:
   - "[[Domain Name System|DNS]]"
   - "[[Nginx]]"
   - "[[http redirect]]"
-  - "[[setup Persona web]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/setup Persona web]]"
 ---
 ![[~/×/a30bc1943be1cbd1bdcd4b810644c024_MD5.png|100]]
 

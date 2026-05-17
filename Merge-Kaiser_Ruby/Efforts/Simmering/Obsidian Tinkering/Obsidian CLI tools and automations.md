@@ -1,8 +1,12 @@
 ---
-status: archived
+status: done
 tags:
   - archived
-dateModified: 2025-12-17T00:29:28.771+01:00
+dateModified: 2026-04-27T00:13:43.702+02:00
+title: Obsidian CLI tools and automations
+priority: normal
+completedDate: 2026-04-27
+type: task
 ---
 #ticket 
 

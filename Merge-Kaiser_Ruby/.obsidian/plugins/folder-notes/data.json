@@ -53,7 +53,8 @@
     "useActualLinks": false,
     "fmtpIntegration": false,
     "titleSize": 1,
-    "isInCallout": false
+    "isInCallout": false,
+    "useWikilinks": true
   },
   "useSubmenus": true,
   "syncMove": true,
@@ -115,8 +116,9 @@
     "afterRestart": true,
     "afterChangingTab": true
   },
-  "firstTimeInsertOverview": true,
+  "firstTimeInsertOverview": false,
   "fvGlobalSettings": {
     "autoUpdateLinks": false
-  }
+  },
+  "hideFolderNoteNameInPath": false
 }

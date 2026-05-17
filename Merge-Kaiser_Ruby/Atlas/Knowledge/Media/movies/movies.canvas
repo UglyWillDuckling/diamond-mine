@@ -10,17 +10,6 @@
 			"y":-860,
 			"width":2400,
 			"height":1680
-		},
-		{
-			"id":"3a5b0485e6a290f4",
-			"type":"text",
-			"text":"\n- [x] #task skinuti [[Hellboy (2004)]] 🔽 ⏳ 2025-11-22 📅 2025-11-23",
-			"dynamicHeight":false,
-			"styleAttributes":{},
-			"x":-480,
-			"y":-1100,
-			"width":800,
-			"height":160
 		}
 	],
 	"edges":[],

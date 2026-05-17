@@ -1,5 +1,5 @@
 ## prepare for migration
-> continues from [[setup mail server trial]]
+> continues from [[Efforts/_Complete/Senka/Persona/archive/archive/Setup hosting/setup mail server trial]]
 
 - [x] #task prepare for migration ✅ 2025-01-07
 	- [x] #task mail configs
@@ -7,9 +7,9 @@
 	- [x] #task plan migration steps ✅ 2025-01-07
 
 ### mail configs
-> based on [[setup mail server trial]]
+> based on [[Efforts/_Complete/Senka/Persona/archive/archive/Setup hosting/setup mail server trial]]
 
-stored at [[Mail Config]]
+stored at [[Efforts/_Complete/Senka 1/Persona/Docs/Dev/Server/Mail Config]]
 
 ### mail migration trial
 [[Migrating mailboxes — Dovecot documentation]]
@@ -29,7 +29,7 @@ stored at [[Mail Config]]
 - [x] copy over all the files from the backup
 - [x] **examine** the mail format
 - [x] #task switch mail format to `maildir`
-	- [x] update **new** [[Mail Config]]
+	- [x] update **new** [[Efforts/_Complete/Senka 1/Persona/Docs/Dev/Server/Mail Config]]
 	
 - @ managed to get the connection via Senka accocunt
 	-  senka@techdot.biz
@@ -43,4 +43,4 @@ stored at [[Mail Config]]
 [[Mailbox Formats — Dovecot documentation]]
 
 ✅**Switching** the mail format to `maildir` [[Mailbox Formats — Dovecot documentation]]
-	Update [[Mail Config]]
+	Update [[Efforts/_Complete/Senka 1/Persona/Docs/Dev/Server/Mail Config]]

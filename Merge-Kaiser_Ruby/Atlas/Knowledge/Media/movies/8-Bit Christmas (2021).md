@@ -2,7 +2,7 @@
 category:
   - "[[Film]]"
   - "[[Christmas Movies]]"
-plan-to-watch: true
+plan-to-watch: false
 interest:
 type: movie
 subType: ""
@@ -25,9 +25,9 @@ actors:
 image: https://m.media-amazon.com/images/M/MV5BYTA0ZWI3NWItYmEwYi00YTI0LTlmNGMtMTQ4ZDExZWNiOGJmXkEyXkFqcGc@._V1_SX300.jpg
 released: true
 premiere: 11/24/2021
-watched: false
+watched: true
 lastWatched: ""
-personalRating: 0
+personalRating: 7
 tags:
   - film
   - film/christmas

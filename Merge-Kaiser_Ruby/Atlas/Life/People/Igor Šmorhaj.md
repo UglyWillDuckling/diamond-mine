@@ -1,0 +1,3 @@
+#person/life 
+
+brat od [[]]

@@ -1,8 +1,12 @@
 ---
-status: archived
+status: done
 tags:
   - archived
-dateModified: 2025-12-17T00:27:46.457+01:00
+dateModified: 2026-04-27T00:14:22.891+02:00
+title: web server trial setup
+priority: normal
+completedDate: 2026-04-27
+type: task
 ---
 #ticket #active 
 

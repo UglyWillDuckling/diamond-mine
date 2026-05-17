@@ -8,7 +8,7 @@ created: 2024-12-19
 description: "What to do after buying a VPS: 1. Understand your VPS 2. Set up your virtual private server 3. Point your domain 4. Secure your VPS + more."
 tags:
   - clippings
-related: "[[Setup hosting]]"
+related: "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/Setup hosting]]"
 ---
 ## intro
 

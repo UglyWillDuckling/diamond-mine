@@ -1,12 +1,12 @@
 ---
 related:
-  - "[[persona mail setup]]"
-  - "[[Persona]]"
+  - "[[Efforts/_Complete/Senka/Persona/archive/archive/persona mail setup]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/Persona]]"
 ---
 - [x] #task setup person.hr [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]] ✅ 2025-02-09
 	- [x] #task check cert from backup ✅ 2025-01-06
 ### use old cert
-> [[Mail Config]]
+> [[Efforts/_Complete/Senka 1/Persona/Docs/Dev/Server/Mail Config]]
 - [x] find the cert
 - [x] copy to server
 	- [x] move to `/etc/ssl/*` dirs
@@ -14,7 +14,7 @@ related:
 	- [x] postfix
 	- [x] dovecot
 
-**ssl certificate isn't working**, will need to generate a new one. `Blocks` [[persona mail setup]]
+**ssl certificate isn't working**, will need to generate a new one. `Blocks` [[Efforts/_Complete/Senka/Persona/archive/archive/persona mail setup]]
 
 - [x] #task generate new [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]] for [[+/Persona.hr]] ✅ 2025-01-06
 	- [x] #task [[#setup Let's Encrypt on Persona]] ✅ 2025-01-06

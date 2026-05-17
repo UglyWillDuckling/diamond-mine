@@ -1,14 +1,14 @@
 ---
 title: Migrating mailboxes — Dovecot documentation
 source: https://doc.dovecot.org/2.3/admin_manual/migrating_mailboxes/
-author: 
-published: 
+author:
+published:
 created: 2025-01-04
-description: 
-tags: 
+description:
+tags:
 favicon: https://doc.dovecot.org/favicon.ico
 related:
-  - "[[prepare for migration]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/prepare for migration]]"
 ---
 ![[~/×/2bbff94f3e43ec77e6f24450f2586bcd_MD5.ico]]
 

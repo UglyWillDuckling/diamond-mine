@@ -3,7 +3,7 @@ tags:
   - error
   - error-message
 related:
-  - "[[Persona]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/Persona]]"
   - "[[SSH]]"
 ---
 The classic error message!

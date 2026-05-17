@@ -2,7 +2,7 @@
 category:
   - "[[Film]]"
   - "[[Science Fiction]]"
-plan-to-watch: true
+plan-to-watch: false
 interest:
 type: movie
 subType: ""
@@ -27,8 +27,8 @@ image: https://m.media-amazon.com/images/M/MV5BOWQ4YTBmNTQtMDYxMC00NGFjLTkwOGQtN
 released: true
 premiere: 06/25/1982
 watched: true
-lastWatched: ""
-personalRating: 8.8
+lastWatched: 2025-09-16
+personalRating: 8.9
 personal favorite: true
 tags:
   - film

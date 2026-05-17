@@ -1,8 +1,12 @@
 ---
-status: archived
+status: done
 tags:
   - archived
-dateModified: 2025-12-17T00:30:53.633+01:00
+dateModified: 2026-04-27T00:14:42.819+02:00
+title: dokumentacija za kredit OTP · Damir
+priority: normal
+completedDate: 2026-04-27
+type: task
 ---
 #ticket 
 

@@ -1,17 +1,17 @@
 ---
 title: Create a certificate using Certbot through Docker | An honest place where you can learn things about programming
 source: https://www.willianantunes.com/blog/2022/08/create-a-certificate-using-certbot-through-docker/
-author: 
+author:
 published: 2022-08-08
 created: 2025-01-06
 description: Understand an easy way of creating a valid certificate through Docker. Then, you can import it to AWS Certificate Manager and use it on your website.
-tags: 
+tags:
 favicon: https://www.willianantunes.com/favicon.ico
 related:
   - "[[Certbot]]"
   - "[[SSL]]"
   - "[[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]"
-  - "[[persona ssl setup]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/persona ssl setup]]"
 ---
 ![icon](https://www.willianantunes.com/favicon.ico]
 

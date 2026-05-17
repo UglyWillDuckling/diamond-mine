@@ -1,0 +1,4 @@
+---
+date: 2026-03-02T23:34:00
+---
+#action/pc #action/arch

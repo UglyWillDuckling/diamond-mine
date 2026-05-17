@@ -2,10 +2,14 @@
 people: "[[Dann Berg]]"
 artifact:
   - "[[daily template v2]]"
-status: archived
+status: done
 tags:
   - archived
-dateModified: 2025-12-17T00:29:32.424+01:00
+dateModified: 2026-04-27T00:13:32.414+02:00
+title: New Daily Template
+priority: normal
+completedDate: 2026-04-27
+type: task
 ---
 #ticket 
 

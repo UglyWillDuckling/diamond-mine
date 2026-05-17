@@ -1,8 +1,12 @@
 ---
+category:
+  - "[[Film]]"
+interest:
+plan-to-watch: false
+personal favorite: true
 type: movie
-subType:
+subType: ""
 title: "Mad Max: Fury Road"
-englishTitle: "Mad Max: Fury Road"
 year: "2015"
 dataSource: OMDbAPI
 url: https://www.imdb.com/title/tt1392190/
@@ -14,13 +18,6 @@ genres:
   - Sci-Fi
 director:
   - George Miller
-writer:
-  - George Miller
-  - Brendan McCarthy
-  - Nick Lathouris
-studio:
-  - N/A
-duration: 120 min
 onlineRating: 8.1
 actors:
   - Tom Hardy
@@ -28,21 +25,15 @@ actors:
   - Nicholas Hoult
 image: https://m.media-amazon.com/images/M/MV5BZDRkODJhOTgtOTc1OC00NTgzLTk4NjItNDgxZDY4YjlmNDY2XkEyXkFqcGc@._V1_SX300.jpg
 released: true
-streamingServices:
-premiere: 05/15/2015
+premiere: 15.05.2015
 watched: true
 lastWatched: ""
-personalRating: 8.3
+personalRating: 0
 tags:
-  - film/scifi
-  - film/post-apocaliptic
-  - film/comfort
-plan-to-watch: false
-category:
-  - "[[Film]]"
-  - "[[Comfort]]"
+  - film
 ---
-`$= '![Image|360](' + dv.current().image + ')'`
+
+`$= '![Image|200](' + dv.current().image + ')'`
 
 # `$= dv.current().title`
 
@@ -54,21 +45,12 @@ if (dv.current().watched) {
 }
 ```
 
-**Rating**:  `INPUT[slider(addLabels, minValue(0), maxValue(10)):personalRating]` (`$= dv.current().personalRating` out of 10)
-
-**Genres**:
 ```dataviewjs
-dv.current().genres.length === 0 ? dv.span(' - none') : dv.list(dv.current().genres)
-```
-
-```dataviewjs
-if (!dv.current().released) {
-	dv.span('**Not released** The movie is not yet released.')
+if (dv.current()['plan-to-watch']) {
+	dv.paragraph(`> [!SUCCESS] \`INPUT[toggle:plan-to-watch]\` planned`);
+} else {
+	dv.paragraph(`> [!WARNING] \`INPUT[toggle:plan-to-watch]\` not planned`);
 }
 ```
 
-**Type**: `$= dv.current().type`
-**Online Rating**: `$= dv.current().onlineRating`
-**Duration**:  `$= dv.current().duration`
 **Premiered**: `$= dv.current().premiere`
-**Producer**: `$= dv.current().producer`

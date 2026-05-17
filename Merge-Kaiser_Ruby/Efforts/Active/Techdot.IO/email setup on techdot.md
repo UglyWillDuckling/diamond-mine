@@ -1,8 +1,8 @@
-related:: [[persona mail setup]]
+related:: [[Efforts/_Complete/Senka 1/Persona/archive/archive/persona mail setup]]
 uses:: [[second VPS]]
 ### resources / related
 - [[How To Set Up a Postfix E-Mail Server with Dovecot]]
-- [[setup mail server trial]]
+- [[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]]
 ### artifacts
 [[how to setup email on unix]]
 [[send a simple mail on unix]]
@@ -12,7 +12,7 @@ ___
 ## **Prerequisites**
 - [x] system update
 - [x] read through the previous docs and tasks:
-	- [[persona mail setup]] 
+	- [[Efforts/_Complete/Senka 1/Persona/archive/archive/persona mail setup]] 
 	- [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 - [x] find other relevant docs
 
@@ -21,7 +21,7 @@ ___
 - [x] #task Setup Techdot mail  🆔 5u1PYy ✅ 2025-04-02
 	- [x] install [[Postfix]] and [[dovecot]]
 	- [x] install [[mailutils]]
-	- [x] copy the [[Mail Config]] from [[my VPS]]
+	- [x] copy the [[Efforts/_Complete/Senka 1/Persona/Docs/Dev/Server/Mail Config]] from [[my VPS]]
 	- [x] get [[SSL certificate]] for techdot.io
 	- [x] copy `aliases` file
 	- [x]  connect to **Techdot** mail 

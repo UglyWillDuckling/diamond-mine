@@ -1,8 +1,8 @@
 ---
 related:
-  - "[[setup mail server trial]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]]"
 ---
-created as part of [[setup mail server trial]]
+created as part of [[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]]
 
   Setting up a mail server can be a complex task, but I'll provide a general
   outline of the steps involved. Please note that this is not a comprehensive

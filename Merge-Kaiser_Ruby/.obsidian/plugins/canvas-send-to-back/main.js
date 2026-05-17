@@ -27,21 +27,10 @@ __export(main_exports, {
   default: () => CanvasSendToBackPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian3 = require("obsidian");
-
-// src/Notice.ts
-var import_obsidian = require("obsidian");
-var DEFAULT_NOTICE_TIMEOUT_SECONDS = 5;
-var ErrorNotice = class extends import_obsidian.Notice {
-  constructor(message, timeout = DEFAULT_NOTICE_TIMEOUT_SECONDS) {
-    super(`Canvas Send To Back
-${message}`, timeout * 1e3);
-    console.error(`canvas-send-to-back: ${message}`);
-  }
-};
+var import_obsidian2 = require("obsidian");
 
 // src/canvas.ts
-var import_obsidian2 = require("obsidian");
+var import_obsidian = require("obsidian");
 function isCanvasNodeData(node) {
   return !!node && typeof node === "object" && "id" in node;
 }
@@ -52,7 +41,7 @@ function isCanvasState(state) {
   return !!state && typeof state === "object" && "viewState" in state && !!state.viewState && typeof state.viewState === "object" && "x" in state.viewState && typeof state.viewState.x === "number" && "y" in state.viewState && typeof state.viewState.y === "number" && "zoom" in state.viewState && typeof state.viewState.zoom === "number";
 }
 function getActiveCanvas(app) {
-  const view = app.workspace.getActiveViewOfType(import_obsidian2.ItemView);
+  const view = app.workspace.getActiveViewOfType(import_obsidian.ItemView);
   if (!view || !view.getViewData || !view.setViewData || !view.requestSave) {
     throw new Error("No active view.");
   }
@@ -62,7 +51,7 @@ function getActiveCanvas(app) {
   }
   return { view, data };
 }
-function setActiveCanvasData(view, data) {
+async function setActiveCanvasData(view, data) {
   if (!view || !view.getViewData || !view.setViewData || !view.requestSave) {
     throw new Error("No active view.");
   }
@@ -73,7 +62,7 @@ function setActiveCanvasData(view, data) {
   view.setViewData(JSON.stringify(data), true);
   view.requestSave();
   if (isCanvasState(state)) {
-    view.setState(state, {});
+    await view.setState(state, {});
   } else {
     throw new Error("Failed to reset zoom.");
   }
@@ -96,8 +85,8 @@ function registerEvents(plugin) {
         menu.addItem((item) => {
           item.setTitle("Send to back");
           item.setSection(menuSectionName);
-          item.onClick((e) => {
-            plugin.sendNodeToBack(node);
+          item.onClick(async () => {
+            await plugin.sendNodeToBack(node);
           });
         });
       }
@@ -110,8 +99,8 @@ function registerEvents(plugin) {
         menu.addItem((item) => {
           item.setTitle("Send to front");
           item.setSection(menuSectionName);
-          item.onClick((e) => {
-            plugin.sendNodeToFront(node);
+          item.onClick(async () => {
+            await plugin.sendNodeToFront(node);
           });
         });
       }
@@ -120,13 +109,13 @@ function registerEvents(plugin) {
 }
 
 // src/main.ts
-var CanvasSendToBackPlugin = class extends import_obsidian3.Plugin {
+var CanvasSendToBackPlugin = class extends import_obsidian2.Plugin {
   async onload() {
     registerEvents(this);
   }
   onunload() {
   }
-  sendNodeToBack(node) {
+  async sendNodeToBack(node) {
     try {
       if (!isCanvasNodeData(node)) {
         throw new Error(`Must provide a valid node.`);
@@ -136,13 +125,14 @@ var CanvasSendToBackPlugin = class extends import_obsidian3.Plugin {
       const filteredNodes = data.nodes.filter((x) => x.id !== node.id);
       filteredNodes.unshift(matchingNode);
       data.nodes = filteredNodes;
-      setActiveCanvasData(view, data);
+      await setActiveCanvasData(view, data);
     } catch (err) {
-      new ErrorNotice(`Error sending node to back.
+      console.error(err);
+      new import_obsidian2.Notice(`Error sending node to back.
 ${err}`);
     }
   }
-  sendNodeToFront(node) {
+  async sendNodeToFront(node) {
     try {
       if (!isCanvasNodeData(node)) {
         throw new Error(`Must provide a valid node.`);
@@ -152,9 +142,10 @@ ${err}`);
       const filteredNodes = data.nodes.filter((x) => x.id !== node.id);
       filteredNodes.push(matchingNode);
       data.nodes = filteredNodes;
-      setActiveCanvasData(view, data);
+      await setActiveCanvasData(view, data);
     } catch (err) {
-      new ErrorNotice(`Error sending node to front.
+      console.error(err);
+      new import_obsidian2.Notice(`Error sending node to front.
 ${err}`);
     }
   }

@@ -4,38 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d38c9119dfff963c",
+        "id": "f550ce87db4ed93c",
         "type": "tabs",
         "children": [
           {
-            "id": "992765fbd23ae047",
+            "id": "91d272423c635a1c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/Active/Kuca/docs/mail za eksterni dizajn.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "mail za eksterni dizajn"
-            }
-          },
-          {
-            "id": "896d60a95159f2e0",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "movies base.base",
-                "viewName": "plan to watch"
-              },
-              "icon": "lucide-layout-grid",
-              "title": "movies base"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "majstoric",
+                "query": "[\"url\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 454.5
   },
   "right": {
     "id": "879c4c46c01c5375",
@@ -101,91 +83,60 @@
       {
         "id": "6bd03039fe22beee",
         "type": "tabs",
-        "dimension": 56.43115942028986,
         "children": [
+          {
+            "id": "26735150232706fe",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "baze - seminar - imovina.canvas",
+                "viewState": {
+                  "x": -1280.2974118537115,
+                  "y": 159.31305579966073,
+                  "zoom": 0.16501656122116665
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "baze - seminar - imovina"
+            }
+          },
+          {
+            "id": "ef2c496f2b2f3295",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tjedan 21 - 2026.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Tjedan 21 - 2026"
+            }
+          },
           {
             "id": "bcac0f03455708d6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Atlas/Knowledge/Media/movies/movie timeline.md",
+                "file": "+/Clippings/jj-vcsjj A Git-compatible VCS that is both simple and powerful.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from movie timeline"
+              "title": "Outgoing links from jj-vcsjj A Git-compatible VCS that is both simple and powerful"
             }
           },
           {
-            "id": "2e06facb6e406711",
-            "type": "leaf",
-            "state": {
-              "type": "annotations-outline",
-              "state": {},
-              "icon": "message-square",
-              "title": "Enhanced Annotations"
-            }
-          },
-          {
-            "id": "3f69f02deae52d1a",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "29d413b1864f2dfd",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
-            }
-          },
-          {
-            "id": "b7f0fffb9f27818d",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
-            }
-          },
-          {
-            "id": "783609f48ca8f825",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "clock",
-              "title": "Reminders"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ca16f4b54661edbe",
-        "type": "tabs",
-        "dimension": 43.56884057971014,
-        "children": [
-          {
-            "id": "20937a68f49eaf68",
+            "id": "d72d7f7057cad963",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Atlas/Knowledge/Media/movies/movie timeline.md",
+                "file": "baze - seminar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,108 +146,206 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for movie timeline"
+              "title": "Backlinks for baze - seminar"
             }
           },
           {
-            "id": "04a63588bbc85a4e",
+            "id": "d6f0963c22735c5e",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "reminder-list",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "reminder-list"
+            }
+          },
+          {
+            "id": "6d9ff4c869c8651f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
               "state": {
-                "file": "movies base.base",
-                "followCursor": false,
+                "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-list",
-              "title": "Outline of movies base"
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "34fa04b194267a2a",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "annotations-outline"
+            }
+          },
+          {
+            "id": "c7efbd3388c4c654",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "annotations-outline"
+            }
+          },
+          {
+            "id": "bd8207c1fcae7091",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "annotations-outline"
+            }
+          },
+          {
+            "id": "362c9e8e3df04c23",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "annotations-outline"
+            }
+          },
+          {
+            "id": "f20becb1856a0af9",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "annotations-outline"
+            }
+          },
+          {
+            "id": "1e2ee522e48e18aa",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "annotations-outline"
+            }
+          },
+          {
+            "id": "3bc49f21d2379e12",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "annotations-outline"
+            }
+          },
+          {
+            "id": "6af4ab9ea1e79544",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "message-square",
+              "title": "Enhanced Annotations"
             }
           }
-        ]
+        ],
+        "currentTab": 13
       }
     ],
     "direction": "horizontal",
-    "width": 637.5,
+    "width": 364.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": true,
       "bases:Create new base": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "workspaces:Manage workspace layouts": false,
-      "quickadd:QuickAdd": true,
-      "obsidian-importer:Open Importer": true,
-      "obsidian-day-and-night:Toggle Theme": true,
-      "chronology:Open Chronology": true,
-      "obsidian-media-db-plugin:Add new Media DB entry": true,
+      "workspaces:Manage workspace layouts": true,
       "obsidian42-brat:BRAT": true,
-      "juggl:Juggl global graph": true,
-      "templater-obsidian:Templater": true,
-      "callout-manager:Insert Callout": true,
-      "obsidian-book-search-plugin:Create new book note": true,
-      "image-picker:Open Image Picker": true,
-      "daily-notes:Open today's daily note": false
+      "daily-notes:Open today's daily note": true,
+      "tasknotes:Create new task": true,
+      "tasknotes:Open mini calendar view": false,
+      "tasknotes:Open calendar view": false,
+      "tasknotes:Open tasks view": false,
+      "tasknotes:Open agenda view": false,
+      "open-gate:hyprland": false,
+      "tasknotes:Open Kanban board": false,
+      "tasknotes:Open Pomodoro timer": false,
+      "tasknotes:Open Pomodoro statistics": false,
+      "callout-manager:Insert Callout": false,
+      "copilot:Open Copilot Chat": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-import-json:JSON/CSV Importer": false,
+      "obsidian-media-db-plugin:Add new Media DB entry": false
     }
   },
-  "active": "896d60a95159f2e0",
+  "active": "91d272423c635a1c",
   "lastOpenFiles": [
-    "Atlas/Knowledge/Media/movies/The Witch (2015).md",
-    "movies base.base",
-    "Efforts/Active/Kuca/docs/mail za eksterni dizajn.md",
-    "Atlas/Knowledge/Media/movies/Punch-Drunk Love (2002).md",
-    "Atlas/Knowledge/Media/movies/Universal Language (2024).md",
-    "~/×/43d46a42c8480454bc8dbc21de5707e4_MD5.png",
-    "~/×/c66d368781ff7a8b1b54e84909c93411_MD5.jpg",
-    "~/×/29a5e8e2e1571d8b9a2024e0284d705a_MD5.jpg",
-    "Clippings/Gaza Freedom Flotilla - Wikipedia.md",
-    "Atlas/Knowledge/Media/movies/Threads (1984).md",
-    "Atlas/Knowledge/Media/movies/Come and See (1985).md",
-    "Atlas/Knowledge/Media/movies/Blue Velvet (1986).md",
-    "Atlas/Knowledge/Media/movies/The Princess Bride (1987).md",
-    "Atlas/Knowledge/Media/movies/Mad God (2021).md",
-    "Atlas/Knowledge/Media/movies/Watership Down (1978).md",
-    "undefined.md",
-    "Atlas/Knowledge/Media/movies/Suzhou River (2000).md",
-    "~/×/59a57a3aee906860b33cc20ce6bf589d_MD5.jpg",
-    "~/×/e02d20dcf9b0aaaaa5756a38ae2c8eb9_MD5.jpg",
-    "~/×/aa44fc5f3007efea646f26c43b949a6d_MD5.jpg",
-    "~/×/be456fb71830d9a39f358b3e2570896a_MD5.jpg",
-    "~/×/ba00a27a74c1358fac54869fd1204feb_MD5.jpg",
-    "~/×/93cad60321f00bd486ffd381f1ae7570_MD5.jpg",
-    "~/×/a413793253ad3896ed59892dc71ced20_MD5.jpg",
-    "Clippings/Films Mentioned by It’s Just Cinema 1.md",
-    "Clippings/Films Mentioned by It’s Just Cinema.md",
-    "Efforts/Active/Kuca/Kuca.md",
-    "Efforts/Active/Kuca/slike za kucu.md",
-    "Clippings/Ideje za uređenje dvorišta  Kako urediti dvorište.md",
-    "Efforts/_Complete/persona mail issue - spoofing.md",
-    "Efforts/shopping 🛍 list.md",
-    "Efforts/Active/Kuca/popis za useljenje.md",
-    "Master Task List.md",
-    "Atlas/Knowledge/Media/movies/movie timeline.md",
-    "Calendar/daily/2025/2025-09-28-Sun.md",
-    "Clippings/Mother (video game series).md",
-    "Clippings/EarthBound Beginnings.md",
-    "DAS - watchlist",
-    "tv shows.base",
-    "Atlas/Knowledge/Media/Articles/Dev",
-    "Atlas/World/Tradition/Zanimanja",
-    "Atlas/World/Drustva/Companies",
-    "Atlas/Knowledge/Books/Authors",
-    "Atlas/Knowledge/concepts/CS",
-    "Atlas/World/Drustva/Udruge",
-    "Atlas/Knowledge/howtos/dev",
+    "Atlas/Knowledge/Media/Writings/Books/The Tombs of Atuan (1971).md",
+    "Atlas/Knowledge/Media/Writings/Books/The Lathe of Heaven (1971).md",
+    "+/Clippings/The Lathe of Heaven.md",
+    "Efforts/Active/Smalltalk Master/Squeak By Example.md",
+    "Efforts/_Complete/projekt - html i css, js.md",
+    "Efforts/Simmering/Kotlin programming.md",
+    "Efforts/Active/handle old HDD.md",
+    "Efforts/Active/Smalltalk Master/Smalltalk Master.md",
+    "Efforts/Active/Smalltalk Master/Smalltalk - playground.md",
+    "Efforts/Ongoing/VPS/second VPS.md",
+    "Efforts/Ongoing/VPS/keyring trust issue on second VPS.md",
+    "Efforts/Ongoing/PC Maintenance/MaintenancePC.md",
+    "Efforts/_Complete/Vim Mastery/Vim Mastery.md",
+    "Efforts/_Complete/Vim Mastery/Nvim - Lsp - How to inspect info.md",
+    "Efforts/_Complete/Vim Mastery/Markdown + Vim.md",
+    "Efforts/_Complete/Studying Python/Studying Python.md",
+    "Efforts/Ongoing/Zdravlje home.md",
+    "Efforts/Ongoing/Upcoming birthdays.md",
+    "Efforts/Ongoing/Skinuti filmove, serije i slicno.md",
+    "Efforts/_Complete/Spavanja promijena napredak.md",
+    "Efforts/TaskNotes/Tasks/just another task.md",
+    "Efforts/Ideas/Mass Update Plugin in Obsidian.md",
+    "Efforts/Master Task List.md",
+    "Efforts/Ideas",
+    "Efforts/_Archive.md",
+    "Atlas/Life/obrt/dokumentacija za obrt.md",
+    "Efforts/tasks/tasks.md",
+    "~/×/20260516_131559.jpg",
+    "~/×/lawyer.png",
+    "~/×/IMG-20260517-WA0000 2.jpg",
+    "~/×/IMG-20260517-WA0000 1.jpg",
+    "~/×/IMG-20260517-WA0000.jpg",
+    "~/×/inherit.png",
+    "Efforts/Active/Smalltalk Master",
+    "baze - seminar - imovina.canvas",
+    "Atlas/Life/Faks/Predmeti/programsko inženjerstvo",
+    "Tickets.base",
+    "~/×/morph.png",
+    "~/×/msg.png",
+    "~/×/SBE-6.0.pdf",
+    "Meta/Task_Board/Boards/Status Based Workflow.taskboard",
+    "Meta/Task_Board/Boards/Tag Based Workflow.taskboard",
+    "Meta/Task_Board/Boards/Time Based Workflow.taskboard",
+    "Meta/Task_Board/Boards",
+    "Meta/Task_Board",
+    "Atlas/Knowledge/Media/movies/movies.canvas",
+    "tasks canvas.canvas",
+    "Efforts/tasks/archive/archive 1/action.canvas",
     "Efforts/tasks/archive/archive/action.canvas",
+    "~/×/tcp.png",
+    "~/×/osi_vs_tcp.png",
+    "Efforts/Active/Kuca/Faze gradnje.canvas",
+    "ff.canvas",
     "Efforts/tasks/archive/archive/srediti troskovnik/actions.canvas",
     "Efforts/tasks/archive/srediti troskovnik/actions.canvas",
-    "Efforts/tasks/archive/archive 1/action.canvas",
-    "Efforts/tasks/archive/archive 1/srediti troskovnik/actions.canvas",
-    "tasks canvas.canvas"
+    "Efforts/tasks/archive/archive 1/srediti troskovnik/actions.canvas"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 part of:
-  - "[[persona mail setup]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/persona mail setup]]"
 tags:
   - dns-record/spf
 ---

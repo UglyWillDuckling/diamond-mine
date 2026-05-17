@@ -19,3 +19,4 @@ tags:
 genres:
   - "[[Science Fiction]]"
 ---
+`$= '![Image|200](' + dv.current().image + ')'`

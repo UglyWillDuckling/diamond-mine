@@ -52,41 +52,44 @@ var ExhaustiveError = class extends Error {
 };
 
 // src/commands.ts
-var directionList = ["forward", "both"];
+var directionList = ["forward", "both", "backward"];
 function createCommand(leaf) {
   switch (leaf) {
     case "same-tab":
       return "editor:follow-link";
     case "new-tab":
       return "editor:open-link-in-new-leaf";
+    case "new-tabgroup":
+      return "editor:open-link-in-new-split";
     case "new-window":
       return "editor:open-link-in-new-window";
     default:
       throw new ExhaustiveError(leaf);
   }
 }
-function selectTarget(targets, currentOffset, cursor, direction) {
-  var _a;
+function selectTargets(targets, currentOffset, cursor, direction) {
   switch (direction) {
     case "forward":
-      return targets.sort(sorter((x) => x.start)).find((x) => x.end >= currentOffset);
+      return targets.sort(sorter((x) => x.start)).filter((x) => x.end >= currentOffset);
     case "both":
-      return (_a = targets.sort(
+      return targets.sort(
         sorter(
           (x) => Math.min(
             Math.abs(x.start - currentOffset),
             Math.abs(x.end - currentOffset)
           ) + (x.line === cursor.line ? 0 : 1e4)
         )
-      )) == null ? void 0 : _a[0];
+      );
+    case "backward":
+      return targets.sort(sorter((x) => x.start, "desc")).filter((x) => x.start <= currentOffset);
     default:
       throw new ExhaustiveError(direction);
   }
 }
-function openLink(appHelper, option) {
+function findTargets(appHelper, option) {
   const editor = appHelper.getActiveMarkdownEditor();
   if (!editor) {
-    return;
+    return [];
   }
   const linksMatches = Array.from(
     editor.getValue().matchAll(/(?<link>\[\[[^\]]+]])/g)
@@ -106,19 +109,65 @@ function openLink(appHelper, option) {
   }));
   const cursor = editor.getCursor();
   const currentOffset = editor.posToOffset(cursor);
-  const target = selectTarget(
+  return selectTargets(
     [...internalLinkPositions, ...externalLinkPositions],
     currentOffset,
     cursor,
     option.direction
   );
+}
+function moveToLink(appHelper, option) {
+  const editor = appHelper.getActiveMarkdownEditor();
+  if (!editor) {
+    return;
+  }
+  const cursor = editor.getCursor();
+  const currentOffset = editor.posToOffset(cursor);
+  const targets = findTargets(appHelper, option);
+  if (targets.length === 0) {
+    return;
+  }
+  const target = targets.find((x) => {
+    switch (option.direction) {
+      case "forward":
+      case "both":
+        return x.start > currentOffset;
+      case "backward":
+        return x.end < currentOffset;
+      default:
+        throw new ExhaustiveError(option.direction);
+    }
+  }) || targets[0];
+  editor.setCursor(editor.offsetToPos(target.start + 3));
+}
+async function openLink(appHelper, option) {
+  var _a, _b;
+  const editor = appHelper.getActiveMarkdownEditor();
+  if (!editor) {
+    return;
+  }
+  const cursor = editor.getCursor();
+  const currentOffset = editor.posToOffset(cursor);
+  const target = (_a = findTargets(appHelper, option)) == null ? void 0 : _a[0];
   if (!target) {
     return;
   }
   if (currentOffset <= target.start || currentOffset > target.end) {
     editor.setCursor(editor.offsetToPos(target.start + 3));
   }
-  appHelper.executeCoreCommand(createCommand(option.leaf));
+  if (option.leaf === "new-tabgroup-horizontally") {
+    const f = appHelper.getLinkFileOnCursor();
+    if (f) {
+      appHelper.splitTabGroup("horizontal");
+      appHelper.openFile(f.path);
+    }
+  } else {
+    appHelper.executeCoreCommand(createCommand(option.leaf));
+  }
+  if (option.leaf === "same-tab" && option.delayFocusInterval > 0) {
+    await sleep(option.delayFocusInterval);
+    (_b = appHelper.getActiveCMEditor()) == null ? void 0 : _b.focus();
+  }
 }
 function createCommands(appHelper, settings) {
   return [
@@ -130,7 +179,8 @@ function createCommands(appHelper, settings) {
           if (!checking) {
             openLink(appHelper, {
               leaf: "same-tab",
-              direction: settings.directionOfPossibleTeleportation
+              direction: settings.directionOfPossibleTeleportation,
+              delayFocusInterval: settings.delayFocusInterval
             });
           }
           return true;
@@ -145,7 +195,40 @@ function createCommands(appHelper, settings) {
           if (!checking) {
             openLink(appHelper, {
               leaf: "new-tab",
-              direction: settings.directionOfPossibleTeleportation
+              direction: settings.directionOfPossibleTeleportation,
+              delayFocusInterval: settings.delayFocusInterval
+            });
+          }
+          return true;
+        }
+      }
+    },
+    {
+      id: "open-link-in-new-tabgroup",
+      name: "Open link in new tab group",
+      checkCallback: (checking) => {
+        if (appHelper.getActiveFile() && appHelper.getActiveMarkdownView()) {
+          if (!checking) {
+            openLink(appHelper, {
+              leaf: "new-tabgroup",
+              direction: settings.directionOfPossibleTeleportation,
+              delayFocusInterval: settings.delayFocusInterval
+            });
+          }
+          return true;
+        }
+      }
+    },
+    {
+      id: "open-link-in-new-tabgroup-horizontally",
+      name: "Open link in new tab group horizontally",
+      checkCallback: (checking) => {
+        if (appHelper.getActiveFile() && appHelper.getActiveMarkdownView()) {
+          if (!checking) {
+            openLink(appHelper, {
+              leaf: "new-tabgroup-horizontally",
+              direction: settings.directionOfPossibleTeleportation,
+              delayFocusInterval: settings.delayFocusInterval
             });
           }
           return true;
@@ -160,8 +243,33 @@ function createCommands(appHelper, settings) {
           if (!checking) {
             openLink(appHelper, {
               leaf: "new-window",
-              direction: settings.directionOfPossibleTeleportation
+              direction: settings.directionOfPossibleTeleportation,
+              delayFocusInterval: settings.delayFocusInterval
             });
+          }
+          return true;
+        }
+      }
+    },
+    {
+      id: "move-to-next-link",
+      name: "Move to next link",
+      checkCallback: (checking) => {
+        if (appHelper.getActiveFile() && appHelper.getActiveMarkdownView()) {
+          if (!checking) {
+            moveToLink(appHelper, { direction: "forward" });
+          }
+          return true;
+        }
+      }
+    },
+    {
+      id: "move-to-previous-link",
+      name: "Move to previous link",
+      checkCallback: (checking) => {
+        if (appHelper.getActiveFile() && appHelper.getActiveMarkdownView()) {
+          if (!checking) {
+            moveToLink(appHelper, { direction: "backward" });
           }
           return true;
         }
@@ -172,7 +280,8 @@ function createCommands(appHelper, settings) {
 
 // src/settings.ts
 var DEFAULT_SETTINGS = {
-  directionOfPossibleTeleportation: "both"
+  directionOfPossibleTeleportation: "both",
+  delayFocusInterval: 0
 };
 var ShukuchiSettingTab = class extends import_obsidian.PluginSettingTab {
   constructor(app, plugin) {
@@ -188,6 +297,14 @@ var ShukuchiSettingTab = class extends import_obsidian.PluginSettingTab {
         await this.plugin.saveSettings();
       })
     );
+    new import_obsidian.Setting(containerEl).setName("Delay focus interval").setDesc(
+      "Interval to wait before applying explicit editor focus. This feature prevents the editor from losing focus in certain cases, such as when navigating from an internal link inside a table. If set to 0, this feature is disabled."
+    ).addSlider((sc) => {
+      sc.setLimits(0, 500, 10).setValue(this.plugin.settings.delayFocusInterval).setDynamicTooltip().onChange(async (value) => {
+        this.plugin.settings.delayFocusInterval = value;
+        await this.plugin.saveSettings();
+      });
+    });
   }
 };
 
@@ -207,8 +324,41 @@ var AppHelper = class {
     var _a, _b;
     return (_b = (_a = this.getActiveMarkdownView()) == null ? void 0 : _a.editor) != null ? _b : null;
   }
+  getActiveCMEditor() {
+    const mdView = this.getActiveMarkdownView();
+    if (!mdView) {
+      return null;
+    }
+    return mdView.editor.cm;
+  }
   executeCoreCommand(command) {
     return this.unsafeApp.commands.executeCommandById(command);
+  }
+  splitTabGroup(direction) {
+    return this.unsafeApp.workspace.getLeaf("split", direction);
+  }
+  openFile(path, option) {
+    var _a;
+    const newLeaf = (_a = option == null ? void 0 : option.newLeaf) != null ? _a : false;
+    return this.unsafeApp.workspace.openLinkText("", path, newLeaf);
+  }
+  getLinkFileOnCursor() {
+    const file = this.getActiveFile();
+    if (!file) {
+      return null;
+    }
+    const editor = this.getActiveMarkdownEditor();
+    if (!editor) {
+      return null;
+    }
+    const dstFile = this.unsafeApp.metadataCache.getFirstLinkpathDest(
+      editor.getClickableTokenAt(editor.getCursor()).text,
+      file.path
+    );
+    if (!dstFile) {
+      return null;
+    }
+    return dstFile;
   }
 };
 

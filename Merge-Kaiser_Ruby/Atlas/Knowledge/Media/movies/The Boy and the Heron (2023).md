@@ -1,7 +1,7 @@
 ---
 category:
   - "[[Film]]"
-plan-to-watch: true
+plan-to-watch: false
 interest:
 type: movie
 subType: ""
@@ -25,12 +25,15 @@ actors:
 image: https://m.media-amazon.com/images/M/MV5BMzA5Zjg3MTAtM2FhZS00NTNjLTg3NjEtNWQ4MTRhZjhiNzVmXkEyXkFqcGc@._V1_SX300.jpg
 released: true
 premiere: 12/08/2023
-watched: false
-lastWatched: ""
-personalRating: 0
+watched: true
+lastWatched: 2026-04-01
+personalRating: 8.4
+status: Watching
 tags:
   - film
   - film/animated
+reminds me of:
+  - "[[A Wizard of Earthsea]]"
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

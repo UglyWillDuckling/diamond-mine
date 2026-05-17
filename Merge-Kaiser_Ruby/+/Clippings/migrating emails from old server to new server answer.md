@@ -6,10 +6,10 @@ author:
 published: 2020-06-03
 created: 2025-01-05
 description: (Bear with me, the whole idea of email setup is new for me)I have a server configured with postfix, dovecot and roundcube, everything is set u correctly.On the old server (Also using postfix), ...
-tags: 
+tags:
 favicon: https://cdn.sstatic.net/Sites/serverfault/Img/favicon.ico?v=18e9cc4f2aea
 related:
-  - "[[prepare for migration]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/prepare for migration]]"
   - "[[Dovecot]]"
 ---
 > First, let me clarify some basics for you.

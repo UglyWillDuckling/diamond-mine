@@ -1,12 +1,14 @@
 ---
 related:
-  - "[[notes on wordpress plugin setup]]"
-status: archived
+  - "[[Efforts/_Complete/Senka 1/Persona/Docs/Dev/Wordpress/notes on wordpress plugin setup]]"
+status: done
 priority: normal
-dateModified: 2025-12-17T00:32:37.227+01:00
+dateModified: 2026-04-27T00:14:27.614+02:00
 type: task
 tags:
   - archived
+title: Wordpress Dev Setup
+completedDate: 2026-04-27
 ---
 #ticket #persona-project 
 

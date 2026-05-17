@@ -3,7 +3,7 @@ datum: 2025-06-25
 ---
 #ispit/grada
 
-- [x] #task pripremiti se za [[ispit iz Grade racunala]] ⏫ ⏳ 2025-06A-12 📅 2025-06-18 🆔 ezNGP7 ✅ 2025-06-29
+- [x] #task pripremiti se za [[ispit iz Grade racunala]] ⏫ ⏳ 2025-06A-12 🆔 ezNGP7 📅 2025-06-18 ✅ 2026-02-18
 	- [ ] saznati informacije o ispitu
 	- [ ] pismeni ispit
 	- [ ] usmeni ispit

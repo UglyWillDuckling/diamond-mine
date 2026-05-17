@@ -1,7 +1,7 @@
 ---
 related:
   - "[[hostinger]]"
-  - "[[Setup hosting]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/Setup hosting]]"
 ---
 
 Subject:

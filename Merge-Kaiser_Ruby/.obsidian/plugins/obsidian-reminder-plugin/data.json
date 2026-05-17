@@ -1,6 +1,14 @@
 {
   "scanned": true,
-  "reminders": {},
+  "reminders": {
+    "Atlas/howtos/dev/how to add desktop entry for app + icons.md": [
+      {
+        "title": "reminder [[how to add desktop entry for app + icons]]",
+        "time": "2026-06-06",
+        "rowNumber": 2
+      }
+    ]
+  },
   "debug": false,
   "settings": {
     "reminderTime": "09:00",
@@ -24,6 +32,6 @@
     "timeDisplayFormat": "HH:mm",
     "editDetectionSec": 10,
     "reminderCheckIntervalSec": 5,
-    "weekStart": "0"
+    "weekStart": "1"
   }
 }

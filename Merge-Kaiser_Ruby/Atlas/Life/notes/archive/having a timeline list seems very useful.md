@@ -3,7 +3,7 @@ tags:
   - thought
   - note
 related:
-  - "[[persona mail setup]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/persona mail setup]]"
 ---
 
 This way of working seems very natural and shouldn't take too much of getting used to.

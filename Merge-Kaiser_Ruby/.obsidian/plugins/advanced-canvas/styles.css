@@ -10,9 +10,6 @@
   width: 100%;
   border-radius: 0 var(--input-radius) var(--input-radius) 0;
 }
-.ac-settings-heading {
-  border-bottom: 1px solid var(--color-accent);
-}
 .ac-settings-heading:not(:first-child) {
   margin-top: var(--size-4-10) !important;
 }
@@ -33,62 +30,48 @@
   height: 0;
   transform: scaleY(0);
 }
+.setting-item > .setting-item-control input[type=text] {
+  width: 75px;
+}
+details.setting-item {
+  flex-direction: column;
+  align-items: initial;
+}
+details.setting-item:not([open]) {
+  row-gap: 0;
+}
+details.setting-item[open] {
+  padding-bottom: var(--size-4-2);
+}
 details.setting-item[open] > summary {
-  margin-bottom: 0.75em;
+  margin-bottom: var(--size-4-2);
 }
 details.setting-item > *:not(summary) {
-  padding-left: 1em;
-  border-left: 1px solid var(--color-accent);
-}
-body.is-mobile .kofi-button.sticky {
-  display: none;
+  border: 1px solid var(--background-primary);
 }
 .kofi-banner {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: var(--size-4-3);
-  background-color: var(--background-secondary);
-  border: 1px solid var(--divider-color);
-  border-radius: var(--radius-s);
-}
-.kofi-banner h1 {
-  margin: 0;
-  margin-bottom: 10px;
-  font-size: var(--font-ui-large);
-  font-weight: 600;
-}
-.kofi-banner .progress-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-items: center;
+  justify-content: space-between;
+  padding: var(--size-4-3);
+  background-color: var(--background-primary-alt);
+  border-radius: var(--radius-m);
 }
-.kofi-banner .progress-container progress {
-  background: transparent;
-}
-.kofi-banner .progress-container progress::-webkit-progress-bar {
-  background-color: var(--background-modifier-border);
-  border-radius: var(--input-radius);
-}
-.kofi-banner .progress-container progress::-webkit-progress-value {
-  background-color: var(--color-accent);
-  border-radius: var(--input-radius);
-}
-.kofi-banner .progress-container .hourly-rate {
-  margin-left: 10px;
+.kofi-banner .ac-kofi-banner-title {
+  margin: 0;
+  font-size: var(--font-ui-small);
   font-weight: 600;
 }
 .kofi-banner .ac-kofi-button {
-  align-self: flex-end;
   width: min-content;
   height: min-content;
   line-height: 0;
 }
 .kofi-banner .ac-kofi-button img {
-  min-width: 100px;
+  min-width: 75px;
   width: 25%;
-  max-width: 200px;
+  max-width: 100px;
 }
 .canvas-wrapper > .document-search-container {
   transform: translateZ(0);
@@ -147,14 +130,12 @@ body.is-mobile .kofi-button.sticky {
   --box-shadow: var(--shadow-border-themed);
 }
 .canvas-node[data-text-align=center] .markdown-preview-view {
-  padding: 0 !important;
-  overflow-y: initial;
+  scrollbar-gutter: auto;
 }
 .canvas-node[data-text-align=center] .markdown-preview-view .markdown-preview-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 0 !important;
   text-align: center;
   vertical-align: middle;
 }
@@ -221,7 +202,6 @@ body.is-mobile .kofi-button.sticky {
   border-radius: 50%;
 }
 .canvas-node[data-shape=circle] .canvas-node-container .markdown-preview-view {
-  padding: 0 !important;
   overflow-y: initial;
 }
 .canvas-node[data-shape=predefined-process] .canvas-node-container .canvas-node-content {
@@ -393,6 +373,10 @@ body.is-mobile .kofi-button.sticky {
 .canvas-wrapper[data-disable-font-size-relative-to-zoom=true] {
   --zoom-multiplier: 1 !important;
 }
+.canvas-wrapper.mod-readonly .canvas-controls .canvas-control-group:nth-child(3),
+.canvas-wrapper.mod-readonly .canvas-card-menu {
+  display: none;
+}
 .canvas-wrapper.mod-readonly[data-hide-background-grid-when-in-readonly=true] .canvas-background {
   visibility: hidden;
 }
@@ -458,10 +442,10 @@ body.is-mobile .kofi-button.sticky {
 .canvas-wrapper[data-focus-mode-enabled=true] .canvas:has(.canvas-node.is-focused) .canvas-node:not(.is-focused) {
   filter: blur(5px);
 }
-.canvas-wrapper[data-focus-mode-enabled=true] .canvas:has(.canvas-node.is-focused) .canvas-edges {
+.canvas-wrapper[data-focus-mode-enabled=true] .canvas:has(.canvas-node.is-focused) .canvas-edges > g:not(.is-focused) {
   filter: blur(5px);
 }
-.canvas-wrapper[data-focus-mode-enabled=true] .canvas:has(.canvas-node.is-focused) .canvas-path-label-wrapper {
+.canvas-wrapper[data-focus-mode-enabled=true] .canvas:has(.canvas-node.is-focused) .canvas-path-label-wrapper > .canvas-path-label:not(.is-focused) {
   filter: blur(5px);
 }
 .canvas-wrapper.presentation-mode .canvas-controls {

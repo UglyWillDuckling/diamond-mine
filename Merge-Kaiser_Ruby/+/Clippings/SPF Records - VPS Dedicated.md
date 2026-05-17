@@ -1,8 +1,8 @@
 ---
 title: SPF Records - VPS Dedicated
 source: https://my.hostmonster.com/cgi/help/spf-vps-dedicated
-author: 
-published: 
+author:
+published:
 created: 2025-01-04
 description: Sender Policy Framework records, or SPF records are a type of DNS record used to identify which mail servers should be allowed to send email from a certain domain name.
 tags:
@@ -13,7 +13,7 @@ related:
   - "[[What Is the SPF Record for Hostinger Email  Hostinger Help Center]]"
   - "[[+/SPF]]"
   - "[[email]]"
-  - "[[setup mail server trial]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]]"
 ---
 ## HostMonster Web Hosting Help
 

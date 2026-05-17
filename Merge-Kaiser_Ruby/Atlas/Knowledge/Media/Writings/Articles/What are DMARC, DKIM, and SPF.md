@@ -5,7 +5,7 @@ source: https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/
 related:
   - "[[DMARC]]"
   - "[[+/SPF]]"
-  - "[[setup mail server trial]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]]"
   - "[[DomainKeys Identified Mail (DKIM)|DKIM]]"
 tags:
   - article/email

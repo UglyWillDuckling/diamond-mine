@@ -24,4 +24,4 @@
 	- [[Creating Dynamic Graphs in Obsidian - Obsidian Rocks]]
 	- [[Plotting Task Completions]]
 
-- [ ] #task use style settings plugin to customize themes 🔼 ⏳ 2025-11-17 📅 2025-11-16
+- [x] #task use style settings plugin to customize themes 🔼 ⏳ 2025-11-17 📅 2025-11-16 ✅ 2026-02-08

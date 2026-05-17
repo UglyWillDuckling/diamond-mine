@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[Upute za mail konfiguraciju - how to connect to persona mail]]"
+  - "[[Efforts/_Complete/Senka/Persona/Docs/Upute za mail konfiguraciju - how to connect to persona mail]]"
 ---
 - need to use the **existing** certs from the web application
 ___

@@ -1,4 +1,4 @@
-[[Persona VPS]]
+[[Efforts/_Complete/Senka 1/Persona/Docs/Dev/Server/Persona VPS]]
 
 > [Hostinger Panel](https://hpanel.hostinger.com/vps/676285/operating-system)
 - [x] #task create new [[VPS]] on [[hostinger]] ✅ 2025-01-07

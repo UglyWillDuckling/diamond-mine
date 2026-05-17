@@ -1,11 +1,11 @@
 ---
 related:
-  - "[[first local wordpress site]]"
+  - "[[Efforts/_Complete/Senka/Persona/Docs/Dev/Wordpress/first local wordpress site]]"
 ---
 #note #ephemeral 
 
 **based on**:: [[Setting Up Your Local Development Environment for WordPress]] article
-**implemented in**:: [[first local wordpress site]]
+**implemented in**:: [[Efforts/_Complete/Senka/Persona/Docs/Dev/Wordpress/first local wordpress site]]
 
 ## plugin setup
 

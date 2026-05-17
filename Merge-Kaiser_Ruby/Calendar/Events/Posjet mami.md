@@ -13,7 +13,7 @@ category:
 - Mama voli banane.
 - Hoće ići van.
 
-- [ ] #task taskovi za mamu
+- [x] #task taskovi za mamu ✅ 2026-02-08
 	- [[kremica]]
 	- [[voce]]
 	- [[hlače, obične-2]]

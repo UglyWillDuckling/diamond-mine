@@ -1,5 +1,5 @@
 ---
-u suradnji: "[[Dora Delalić]]"
+u suradnji: "[[Dora Vucemilovic]]"
 part of:
   - "[[Kuca]]"
 ---

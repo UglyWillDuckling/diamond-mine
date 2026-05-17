@@ -1,10 +1,12 @@
 ---
-status: archived
-dateModified: 2025-12-17T00:32:28.579+01:00
+status: done
+dateModified: 2026-04-27T00:13:16.052+02:00
 priority: normal
 type: task
 tags:
   - archived
+title: how to take notes on articles
+completedDate: 2026-04-27
 ---
 #ticket 
 

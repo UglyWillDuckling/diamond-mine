@@ -769,53 +769,38 @@
     },
     "now": {
       "main": {
-        "id": "d3fd3182b5b7335d",
+        "id": "c977fc23a81c10e0",
         "type": "split",
         "children": [
           {
-            "id": "996e994936b58b8a",
+            "id": "32c43a60b670437a",
             "type": "tabs",
             "children": [
               {
-                "id": "82dbadfaaf56a88c",
+                "id": "aa6dcd073b1b51fa",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Media DB/books/A pattern language.md",
+                    "file": "+/Clippings/Doughnut kupujte online.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "A pattern language"
-                }
-              },
-              {
-                "id": "deb39bff03d26565",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Clippings/Russian Revolution of 1905.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Russian Revolution of 1905"
+                  "title": "Doughnut kupujte online"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
       },
       "left": {
-        "id": "b2bd8cfe3de64aca",
+        "id": "c20e844561978854",
         "type": "mobile-drawer",
         "children": [
           {
-            "id": "8c00c731fff726bc",
+            "id": "2cf4de9a2e77125d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -828,12 +813,12 @@
             }
           },
           {
-            "id": "a6c62d81bfd29c34",
+            "id": "03bda9f3b71f0a42",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Taxonomy",
+                "query": "0367008119",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -845,7 +830,7 @@
             }
           },
           {
-            "id": "eab6b6fdc67c861e",
+            "id": "605c89129510bad1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -855,12 +840,26 @@
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-tags",
-              "title": "Tags"
+              "icon": "lucide-ghost",
+              "title": "tag"
             }
           },
           {
-            "id": "c12ec748c38fd798",
+            "id": "152ca438f3adb088",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
+            }
+          },
+          {
+            "id": "9e383ec401265653",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -873,30 +872,30 @@
         "currentTab": 0
       },
       "right": {
-        "id": "219382305c4d23c9",
+        "id": "4f8ca8eaeb396062",
         "type": "mobile-drawer",
         "children": [
           {
-            "id": "c2ef3f2b212a9162",
+            "id": "3ccb8a1ba92ce9e5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/Cuban War of Independence.md",
+                "file": "Clippings/Transmission Control Protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
               "title": "Backlinks"
             }
           },
           {
-            "id": "dc6f750ba545e18c",
+            "id": "5415c46497b8a6d8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -909,12 +908,12 @@
             }
           },
           {
-            "id": "23fd5c04f5ac1985",
+            "id": "15fe81d5102c39d2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clippings/Russian Revolution of 1905.md",
+                "file": "Atlas/Knowledge/Media/movies/movies.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -924,63 +923,13 @@
             }
           },
           {
-            "id": "2fc2e8aa7c98f4a6",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "juggl_nodes"
-            }
-          },
-          {
-            "id": "eb4d07922dc01f56",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "juggl_style"
-            }
-          },
-          {
-            "id": "b353cd098ed25542",
-            "type": "leaf",
-            "state": {
-              "type": "image-picker-view",
-              "state": {},
-              "icon": "image",
-              "title": "Image Picker"
-            }
-          },
-          {
-            "id": "af5f32213448dbe0",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
-            }
-          },
-          {
-            "id": "47ef4d8aefbdea43",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {},
-              "icon": "ag-style",
-              "title": "Juggl style"
-            }
-          },
-          {
-            "id": "848f516196a4ce32",
+            "id": "554e0a4075d8a0e3",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
               "state": {},
-              "icon": "clock",
-              "title": "Reminders"
+              "icon": "lucide-ghost",
+              "title": "reminder-list"
             }
           }
         ],
@@ -988,27 +937,31 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "switcher:Open quick switcher": true,
-          "graph:Open graph view": true,
-          "canvas:Create new canvas": true,
-          "templates:Insert template": true,
-          "command-palette:Open command palette": true,
           "workspaces:Manage workspace layouts": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
           "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "bases:Create new base": false,
           "quickadd:QuickAdd": false,
-          "obsidian-importer:Open Importer": false,
           "chronology:Open Chronology": false,
           "obsidian-media-db-plugin:Add new Media DB entry": false,
-          "obsidian42-brat:BRAT": false,
-          "juggl:Juggl global graph": false,
           "templater-obsidian:Templater": false,
-          "callout-manager:Insert Callout": false,
-          "obsidian-book-search-plugin:Create new book note": false,
-          "image-picker:Open Image Picker": false
+          "tasknotes:Open mini calendar": false,
+          "tasknotes:Open advanced calendar": false,
+          "tasknotes:Open task list": false,
+          "tasknotes:Open agenda": false,
+          "tasknotes:Open kanban board": false,
+          "tasknotes:Open pomodoro": false,
+          "tasknotes:Open pomodoro stats": false,
+          "tasknotes:Create new task": false,
+          "tasks-map:Open tasks map view": false
         }
       },
-      "active": "deb39bff03d26565",
-      "mtime": "2025-08-19T18:08:55+02:00"
+      "active": "aa6dcd073b1b51fa",
+      "mtime": "2026-04-17T21:48:02+02:00"
     },
     "programiranje C": {
       "main": {

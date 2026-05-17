@@ -55,9 +55,12 @@ views:
     filters:
       and:
         - file.tags.contains("film/comfort")
-    sort:
-      - property: file.name
-        direction: ASC
+    order:
+      - file.name
+      - genres
+      - personalRating
+    sort: []
     image: note.image
     cardSize: 270
     imageFit: contain
+    imageAspectRatio: 0.85

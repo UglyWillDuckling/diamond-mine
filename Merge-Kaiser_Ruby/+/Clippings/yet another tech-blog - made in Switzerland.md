@@ -11,7 +11,7 @@ related:
 ---
 ![[~/×/d5fcbf6904821837b4f49f68713f788e_MD5.png|50]]
 
-- [ ] #task store this as a useful resource [[yet another tech-blog - made in Switzerland]] ⏳ 2025-06-15 📅 2025-07-01
+- [x] #task store this as a useful resource [[yet another tech-blog - made in Switzerland]] ⏳ 2025-06-15 📅 2025-07-01 🆔 NXboCd ✅ 2026-02-08
 ___
 
 ## Improve/Fix pywbem exceptions

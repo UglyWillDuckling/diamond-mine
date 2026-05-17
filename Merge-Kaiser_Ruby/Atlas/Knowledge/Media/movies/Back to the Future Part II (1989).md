@@ -3,7 +3,7 @@ category:
   - "[[Film]]"
   - "[[Comedy]]"
 interest: 8
-plan-to-watch: true
+plan-to-watch: false
 personal favorite: false
 type: movie
 subType: ""
@@ -28,11 +28,13 @@ image: https://m.media-amazon.com/images/M/MV5BMTNlOTRmOTEtMTAyMi00NjFiLTk3NDMtN
 released: true
 premiere: 22.11.1989
 watching: true
-watched: false
+watched: true
 lastWatched: ""
 personalRating: 8.1
 tags:
   - film/comedy
+next: "[[Back to the Future Part III (1990)]]"
+previous: "[[Back to the Future (1985)]]"
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

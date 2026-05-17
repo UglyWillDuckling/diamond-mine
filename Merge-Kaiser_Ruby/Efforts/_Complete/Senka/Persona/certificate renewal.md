@@ -2,17 +2,21 @@
 exampleProperty: 2025-01-06
 ssl_start: 2025-01-06
 ssl_end: 2025-04-06
-status: archived
+status: done
 tags:
   - archived
-dateModified: 2025-12-17T00:30:16.449+01:00
+dateModified: 2026-04-27T00:15:02.114+02:00
+title: certificate renewal
+priority: normal
+completedDate: 2026-04-27
+type: task
 ---
 #ticket 
 
-Ticket to implement **certificate** **renewal** process on [[Persona.hr]]
+Ticket to implement **certificate** **renewal** process on [[Efforts/_Complete/Senka/Persona/Docs/Persona.hr]]
 
-- [x] #task [[certificate renewal]] 🆔 Htr8QL ⏫ ⏳ 2025-02-08 📅 2025-02-12 ✅ 2025-02-12
-	- [x] check current **status** of the **ssl** **cert** [^1] on [[Persona.hr]]
+- [x] #task [[Efforts/_Complete/Senka/Persona/certificate renewal]] 🆔 Htr8QL ⏫ ⏳ 2025-02-08 📅 2025-02-12 ✅ 2025-02-12
+	- [x] check current **status** of the **ssl** **cert** [^1] on [[Efforts/_Complete/Senka/Persona/Docs/Persona.hr]]
 	- [x] permanently save the new cert details
 	- [x] #task Implement permanent solution, cronjob 🆔 nMfbCO 🔼 ⏳ 2025-02-13 📅 2025-02-16 ✅ 2025-02-15
 
@@ -41,7 +45,7 @@ Expires April 6, 2025 `INPUT[datePicker:ssl_end]`
 - web cert was **renewed**
 ### artifacts
 
-[[currrent persona ssl cert]]
-[[persona ssl cronjob]] :LiPickaxe:
+[[Efforts/_Complete/Senka/Persona/Docs/currrent persona ssl cert]]
+[[Efforts/_Complete/Senka/Persona/persona ssl cronjob]] :LiPickaxe:
 
 [^1]: [[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]

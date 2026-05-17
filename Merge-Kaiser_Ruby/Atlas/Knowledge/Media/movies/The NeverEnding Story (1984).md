@@ -21,10 +21,10 @@ actors:
 image: https://m.media-amazon.com/images/M/MV5BYzE0Y2E0NGYtYzRmMy00ZDRjLTk1NDItNjZjYTMyMmJjMGYxXkEyXkFqcGc@._V1_SX300.jpg
 released: true
 premiere: 20.07.1984
-watched: false
-lastWatched: ""
-personalRating: 8
-plan-to-watch: true
+watched: true
+lastWatched: 2025-11-10
+personalRating: 8.3
+plan-to-watch: false
 tags:
   - film
 ---

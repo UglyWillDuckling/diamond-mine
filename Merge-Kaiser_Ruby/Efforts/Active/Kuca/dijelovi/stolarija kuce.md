@@ -1,3 +1,7 @@
+---
+majstor: "[[Đani Grbac]]"
+trajanje u danima: 30
+---
 
 ## popis pozicija / lokve
 

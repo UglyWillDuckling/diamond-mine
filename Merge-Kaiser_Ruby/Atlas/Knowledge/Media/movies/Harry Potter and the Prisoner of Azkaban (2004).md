@@ -1,5 +1,4 @@
 ---
-
 type: movie
 subType: ""
 title: Harry Potter and the Prisoner of Azkaban
@@ -24,8 +23,9 @@ released: true
 premiere: 06/04/2004
 watched: false
 lastWatched: ""
-personalRating: 0
-tags: mediaDB/tv/movie
+personalRating: 8.5
+tags:
+  - film/comfort
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

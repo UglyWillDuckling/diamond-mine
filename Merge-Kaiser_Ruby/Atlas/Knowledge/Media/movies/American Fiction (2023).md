@@ -20,9 +20,9 @@ actors:
 image: https://m.media-amazon.com/images/M/MV5BM2I4ZTZhOTMtZDQ0Ni00MzI5LWE2YjktNzc0NjdkOGJiZjYzXkEyXkFqcGc@._V1_SX300.jpg
 released: true
 premiere: 12/22/2023
-watched: false
+watched: true
 lastWatched: ""
-personalRating: 0
+personalRating: 8.6
 category:
   - "[[Film]]"
 tags:

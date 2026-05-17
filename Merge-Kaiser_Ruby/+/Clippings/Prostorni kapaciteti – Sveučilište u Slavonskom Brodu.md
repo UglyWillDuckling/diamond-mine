@@ -1,0 +1,15 @@
+---
+source: "https://www.unisb.hr/prostorni-kapaciteti/"
+published:
+created: 2026-02-11
+tags:
+---
+[Menu Close](https://www.unisb.hr/prostorni-kapaciteti/#)
+
+Lokacije
+
+![](https://www.unisb.hr/wp-content/uploads/design/Zgrade_UNISB.jpg)
+
+<table width="586"><tbody><tr><td colspan="2" width="189">Legenda:</td><td width="397"></td></tr><tr><td width="49"><strong>Broj zgrade</strong></td><td width="140"><strong>Adresa</strong></td><td width="397"><strong>Opis</strong></td></tr><tr><td width="49">1</td><td width="140">Trg Ivane Brlić Mažuranić 2</td><td width="397">(Rektorat/Strojarski fakultet u Slavonskom Brodu)</td></tr><tr><td width="49">2</td><td width="140">Ul. Ivana Gundulića 20/1</td><td width="397">(Strojarski fakultet u Slavonskom Brodu)<br><strong>Knjižnica</strong>: Strojarskog fakulteta u Slavonskom Brodu, Tehničkog odjela i Biotehničkog odjela</td></tr><tr><td width="49">3</td><td width="140">Ul. Ivana Gundulića 20</td><td width="397">(Odjel društveno-humanističkih znanosti, Odsjek za izobrazbu učitelja i odgojitelja)<br><strong>Knjižnica: </strong>Odsjeka za izobrazbu učitelja i odgojitelja i Odsjeka za ekonomiju</td></tr><tr><td width="49">4</td><td width="140">Ul. Matije Gupca 24</td><td width="397">(Odjel društveno-humanističkih znanosti, Odsjek za ekonomiju)</td></tr><tr><td width="49">5</td><td width="140">Ul. Petra Svačića 2/A</td><td width="397">(Studentski centar u Slavonskom Brodu)</td></tr><tr><td width="49">6</td><td width="140">Ul. l08. brigade ZNG 20</td><td width="397">(Biotehnički odjel)</td></tr><tr><td width="49">7</td><td width="140">Ul. l08. brigade ZNG 20</td><td width="397">(Strojarski fakultet u Slavonskom Brodu – praktikum)</td></tr><tr><td width="49">8</td><td width="140">Ul. l08. brigade ZNG 28</td><td width="397">(Strojarski fakultet u Slavonskom Brodu-sjeverni dio laboratoriji i zapadni dio – Tehnički odjel)</td></tr><tr><td width="49">9</td><td width="140">Ul. l08. brigade ZNG 32</td><td width="397">(Sveučilište u Slavonskom Brodu – Polivalentna dvorana, elektrotehnički laboratorij)</td></tr><tr><td width="49">–</td><td width="140">Ul. l08. brigade ZNG 34</td><td width="397">(7. kat / Strojarski fakultet u Slavonskom Brodu)</td></tr><tr><td width="49">10</td><td width="140">Ul. l08. brigade ZNG 36</td><td width="397">(Sveučilište u Slavonskom Brodu – predavaonice za sve odjele, lokalna podružnica CARNet-a)<br><strong>Studentska referada</strong></td></tr><tr><td width="49">11</td><td width="140">Ul. l08. brigade ZNG 40</td><td width="397">(Sveučilište u Slavonskom Brodu – laboratoriji)</td></tr><tr><td width="49">–</td><td width="140">Pokušalište u Slobodnici</td><td width="397">(Biotehnički odjel)</td></tr><tr><td width="49">–</td><td width="140">Pokušalište u Brodskom varošu</td><td width="397">(Biotehnički odjel)</td></tr></tbody></table>
+
+---

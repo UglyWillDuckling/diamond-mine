@@ -32,5 +32,11 @@
     "color": "254, 208, 42",
     "icon": "lucide-lightbulb",
     "custom": true
+  },
+  {
+    "char": "-w",
+    "color": "247, 187, 59",
+    "icon": "lucide-alert-triangle",
+    "custom": true
   }
 ]

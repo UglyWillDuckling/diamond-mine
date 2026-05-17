@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[persona ssl setup]]"
+  - "[[Efforts/_Complete/Senka/Persona/archive/archive/persona ssl setup]]"
 status: done
 previewLink:
 priority: normal
@@ -11,7 +11,7 @@ completedDate: 2025-12-09
 ---
 
 - [x] #task Setup Persona mail ✅ 2025-01-07
-	- [x] #task copy the [[Mail Config]] ✅ 2025-01-05
+	- [x] #task copy the [[Efforts/_Complete/Senka 1/Persona/Docs/Dev/Server/Mail Config]] ✅ 2025-01-05
 		- [x] [[Postfix]]
 		- [x] [[Dovecot]]
 	- [x] copy `aliases` file
@@ -20,8 +20,8 @@ completedDate: 2025-12-09
 	- [x] #task connect to Persona mail ⏫ ✅ 2025-01-07
 ___
 ### connect to persona mail
-[[Persona VPS]]
-doesn't work due to **ssl error** [[persona ssl setup]]
+[[Efforts/_Complete/Senka 1/Persona/Docs/Dev/Server/Persona VPS]]
+doesn't work due to **ssl error** [[Efforts/_Complete/Senka/Persona/archive/archive/persona ssl setup]]
 ### migrate mail folders
 - $ migrated
 	- cur
@@ -35,7 +35,7 @@ doesn't work due to **ssl error** [[persona ssl setup]]
 ```
 
 ### connect to senka mail 📧
-[[Persona VPS]]
+[[Efforts/_Complete/Senka 1/Persona/Docs/Dev/Server/Persona VPS]]
 <mark style="background: #FFB8EBA6;">📔 try to always switch to the user who has the ownership of the files</mark>
 
 - [x] #task connect to senka the account via mail client
@@ -76,7 +76,7 @@ Directories contain directory separators
 > [!success] Working
 > This is working 🧀 🧁 🎆
 
-📔<mark style="background: #FFB86CA6;">all we had to do was to remove the . from the folder name in</mark>  [[Mail Config#Dovecot]]
+📔<mark style="background: #FFB86CA6;">all we had to do was to remove the . from the folder name in</mark>  [[Efforts/_Complete/Senka 1/Persona/Docs/Dev/Server/Mail Config#Dovecot]]
 
 - [x] #task fix [[Dovecot]] folder structure again ⏫ ✅ 2025-01-07
 	- dot issue(.)
@@ -88,4 +88,4 @@ Directories contain directory separators
 - [x] [[Mailspring]]
 - [x] [[Nautilus mail]]
 
-[[solution to update mail certs on Persona]]
+[[Efforts/_Complete/Senka 1/Persona/solution to update mail certs on Persona]]

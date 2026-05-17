@@ -29,7 +29,7 @@ watched: true
 lastWatched: ""
 personalRating: 10
 tags:
-  - film
+  - film/comfort
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

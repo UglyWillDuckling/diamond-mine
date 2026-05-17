@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[Setup hosting]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/Setup hosting]]"
   - "[[DNS]]"
   - "[[domain]]"
   - "[[How to Point a Domain Name to Your Site]]"

@@ -8,6 +8,6 @@ completedDate: 2025-12-09
 ---
 
 - [x] #task store the **ssh** configurations for remotes 🔼 📅 2025-02-10 🆔 i3ibCT ✅ 2025-02-12
-	- [x] create configurations: [[Persona.hr]], [[my VPS - techdot.biz]]
+	- [x] create configurations: [[Efforts/_Complete/Senka/Persona/Docs/Persona.hr]], [[my VPS - techdot.biz]]
 		- [ ] 
 	- [x] store on PC

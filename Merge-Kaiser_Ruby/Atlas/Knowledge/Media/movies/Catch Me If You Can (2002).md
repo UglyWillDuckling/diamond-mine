@@ -25,7 +25,7 @@ released: true
 premiere: 12/25/2002
 watched: true
 lastWatched: ""
-personalRating: 9
+personalRating: 8.1
 tags:
   - film
   - film/comfort

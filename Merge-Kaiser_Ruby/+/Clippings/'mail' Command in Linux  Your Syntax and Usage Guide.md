@@ -10,7 +10,7 @@ tags:
   - clippings
   - email
 related:
-  - "[[setup mail server trial]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]]"
   - "[[mail command]]"
 ---
 ![[~/×/4433fc23c571e0def7afb131211244a6_MD5.webp]]

@@ -1,7 +1,7 @@
 ---
 category:
   - "[[Film]]"
-plan-to-watch: true
+plan-to-watch: false
 interest:
 type: movie
 subType: ""

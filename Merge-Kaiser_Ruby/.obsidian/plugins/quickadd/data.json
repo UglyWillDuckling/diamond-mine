@@ -42,106 +42,10 @@
       }
     },
     {
-      "id": "848276cd-9c8a-4484-a18f-edc7ecf1974a",
-      "name": "New",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": ""
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileOpening": {
-        "location": "tab",
-        "direction": "vertical",
-        "focus": true,
-        "mode": "default"
-      }
-    },
-    {
-      "id": "06943143-b59e-4c64-9798-6c28ad910fdc",
-      "name": "book",
-      "type": "Macro",
-      "command": true,
-      "macro": {
-        "id": "03030d5f-1ce3-44b1-99dd-9d28a24ce657",
-        "name": "book",
-        "commands": [
-          {
-            "name": "BookFinder",
-            "type": "UserScript",
-            "id": "2cf20d04-90e8-41a4-a0dc-fc9a00f13b0a",
-            "path": "notes/scripts/BookFinder.js",
-            "settings": {}
-          },
-          {
-            "name": "template",
-            "type": "NestedChoice",
-            "id": "4464dffe-1fef-48b8-8ab6-aacadf5dcb7b",
-            "choice": {
-              "id": "50b38f4d-7f65-4a9c-ae86-b58c82ad8b85",
-              "name": "template",
-              "type": "Template",
-              "command": false,
-              "templatePath": "Atlas/Knowledge/templates/book template.md",
-              "fileNameFormat": {
-                "enabled": false,
-                "format": ""
-              },
-              "folder": {
-                "enabled": true,
-                "folders": [
-                  "Atlas/Knowledge/Media/Books"
-                ],
-                "chooseWhenCreatingNote": false,
-                "createInSameFolderAsActiveFile": false,
-                "chooseFromSubfolders": false
-              },
-              "appendLink": false,
-              "openFileInNewTab": {
-                "enabled": true,
-                "direction": "vertical",
-                "focus": true
-              },
-              "openFile": true,
-              "openFileInMode": "default",
-              "fileExistsMode": "Increment the file name",
-              "setFileExistsBehavior": false
-            }
-          }
-        ]
-      },
-      "runOnStartup": false
-    },
-    {
       "id": "c406b8bf-deaa-4cde-bf01-6f774a8be45c",
       "name": "Thought 💭",
       "type": "Capture",
-      "command": true,
+      "command": false,
       "appendLink": false,
       "captureTo": "",
       "captureToActiveFile": false,
@@ -176,15 +80,17 @@
         "direction": "vertical",
         "focus": true,
         "mode": "default"
-      }
+      },
+      "captureToCanvasNodeId": "",
+      "activeFileWritePosition": "cursor"
     },
     {
       "id": "2106a06d-b20e-4930-a349-2a574b939ac9",
-      "name": "Log",
+      "name": "Log 🪵",
       "type": "Capture",
-      "command": true,
+      "command": false,
       "appendLink": false,
-      "captureTo": "Calendar/daily/{{DATE:YYYY}}/",
+      "captureTo": "Calendar/daily/{{DATE:YYYY}}/{{DATE:YYYY-MM-DD-ddd}}.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": false,
@@ -192,15 +98,15 @@
         "template": ""
       },
       "format": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "- {{value}}\n"
       },
       "insertAfter": {
-        "enabled": false,
-        "after": "",
+        "enabled": true,
+        "after": "## Log",
         "insertAtEnd": false,
         "considerSubsections": false,
-        "createIfNotFound": false,
+        "createIfNotFound": true,
         "createIfNotFoundLocation": "top"
       },
       "prepend": false,
@@ -217,17 +123,117 @@
         "direction": "vertical",
         "focus": true,
         "mode": "default"
+      },
+      "activeFileWritePosition": "cursor",
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
       }
+    },
+    {
+      "id": "8c2e53f4-8431-470d-a086-f8e00c73bf71",
+      "name": "link in daily 🔗",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "Calendar/daily/{{DATE:YYYY}}/{{DATE:YYYY-MM-DD-ddd}}.md",
+      "captureToActiveFile": false,
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{LINKCURRENT}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": true,
+      "task": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "templater": {
+        "afterCapture": "none"
+      }
+    },
+    {
+      "id": "a596df8f-397c-4ae9-9829-a979c5ee6cae",
+      "name": "action",
+      "type": "Template",
+      "command": true,
+      "templatePath": "~/%/action template.md",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Calendar/actions/2026"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": {
+        "enabled": true,
+        "placement": "replaceSelection",
+        "requireActiveFile": false,
+        "linkType": "link"
+      },
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "inputPrompt": "single-line",
+  "persistInputPromptDrafts": true,
+  "useSelectionAsCaptureValue": true,
   "devMode": false,
   "templateFolderPath": "",
-  "announceUpdates": true,
-  "version": "2.1.0",
+  "announceUpdates": "all",
+  "version": "2.12.0",
+  "globalVariables": {},
+  "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
-  "enableRibbonIcon": true,
+  "enableRibbonIcon": false,
   "showCaptureNotification": true,
+  "showInputCancellationNotification": false,
+  "enableTemplatePropertyTypes": false,
+  "dateAliases": {
+    "t": "today",
+    "tm": "tomorrow",
+    "yd": "yesterday",
+    "nw": "next week",
+    "nm": "next month",
+    "ny": "next year",
+    "lw": "last week",
+    "lm": "last month",
+    "ly": "last year"
+  },
   "ai": {
     "defaultModel": "Ask me",
     "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
@@ -279,7 +285,8 @@
             "name": "gpt-4o-mini",
             "maxTokens": 128000
           }
-        ]
+        ],
+        "modelSource": "auto"
       }
     ]
   },
@@ -291,6 +298,9 @@
     "setVersionAfterUpdateModalRelease": true,
     "addDefaultAIProviders": true,
     "removeMacroIndirection": true,
-    "migrateFileOpeningSettings": true
+    "migrateFileOpeningSettings": true,
+    "setProviderModelDiscoveryMode": true,
+    "backfillFileOpeningDefaults": true,
+    "migrateProviderApiKeysToSecretStorage": true
   }
 }

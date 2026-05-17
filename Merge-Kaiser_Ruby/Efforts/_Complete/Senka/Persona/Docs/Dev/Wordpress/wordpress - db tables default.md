@@ -11,10 +11,10 @@ related:
 - [[wp_links]]
 - [[wp_options]]
 - wp_postmeta
-- [[wp_posts]]
+- [[Efforts/_Complete/Senka/Persona/Docs/Dev/Wordpress/wp_posts]]
 - wp_termmeta
 - wp_terms
 - wp_term_relationships
 - wp_term_taxonomy
 - [[wp_usermeta]]
-- [[wp_users]]
+- [[Efforts/_Complete/Senka/Persona/Docs/Dev/Wordpress/wp_users]]

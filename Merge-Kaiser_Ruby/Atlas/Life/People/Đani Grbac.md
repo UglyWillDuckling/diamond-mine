@@ -1,1 +1,5 @@
+---
+aliases:
+  - Đani
+---
 #person/life 

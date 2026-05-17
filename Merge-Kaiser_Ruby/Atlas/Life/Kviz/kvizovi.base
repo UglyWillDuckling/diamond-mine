@@ -7,8 +7,15 @@ views:
     order:
       - file.name
       - datum
+      - bodovi
     sort:
       - property: datum
         direction: DESC
+      - property: file.name
+        direction: ASC
+      - property: bodovi
+        direction: ASC
+    summaries:
+      bodovi: Average
     columnSize:
       file.name: 248

@@ -28,7 +28,7 @@ status:
 tags:
   - 📚Book
 ---
-![[~/×/abdec9c26e6d65bd847ae3104f67d86a_MD5.jpg|400]]
+![[~/×/abdec9c26e6d65bd847ae3104f67d86a_MD5.jpg|300]]
 
 
 A Pattern Language: Towns, Buildings, Construction is a 1977 book on architecture, urban design, and community livability. It was authored by [[Christopher Alexander]], [[Sara Ishikawa]] and [[Murray Silverstein]] of the [[Center for Environmental Structure of Berkeley]], California, with writing credits also to [[Max Jacobson]], [[Ingrid Fiksdahl-King]] and [[Shlomo Angel]]. 

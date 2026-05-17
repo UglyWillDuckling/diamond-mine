@@ -27,5 +27,12 @@
   ],
   "tabSize": 2,
   "attachmentFolderPath": "~/×",
-  "showLineNumber": false
+  "showLineNumber": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showInlineTitle": true
 }

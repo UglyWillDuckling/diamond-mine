@@ -23,7 +23,7 @@ image: https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwM
 released: true
 streamingServices:
 premiere: 21.11.2003
-watched: false
+watched: true
 lastWatched: ""
 personalRating: 8
 interest: 8

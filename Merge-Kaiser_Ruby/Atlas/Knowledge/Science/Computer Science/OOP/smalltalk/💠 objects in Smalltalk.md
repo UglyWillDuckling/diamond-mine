@@ -46,11 +46,9 @@ and called immediately back into service with their new behavioral capabilities 
 
 #polymorphism
  This Smalltalk characteristic of having different objects responding **uniquely** to the **same**
-**message** is known as **[[Atlas/Knowledge/Knowledge/concepts/CS/OOP/polymorphism]]**.
+**message** is known as [[Atlas/Knowledge/Knowledge/concepts/CS/OOP/polymorphism|polymorphism]].
 
-Smalltalk guarantees that there will be a response by a message recipient. If an object
-determines that it does not know how to perform a requested behavior, it will at least
-answer with a "**Message not understood**" response message.
+Smalltalk guarantees that there will be a response by a message recipient. If an object determines that it does not know how to perform a requested behavior, it will at least answer with a "**Message not understood**" response message.
 
 #prototype
 #evolution

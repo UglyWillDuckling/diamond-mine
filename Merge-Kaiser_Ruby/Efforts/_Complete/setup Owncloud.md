@@ -1,8 +1,12 @@
 ---
-status: archived
+status: done
 tags:
   - archived
-dateModified: 2025-12-17T00:28:23.169+01:00
+dateModified: 2026-04-27T00:13:54.136+02:00
+title: setup Owncloud
+priority: normal
+completedDate: 2026-04-27
+type: task
 ---
 #ticket 
 

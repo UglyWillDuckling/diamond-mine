@@ -1,0 +1,67 @@
+---
+source: "https://thegrayzone.com/2023/06/01/bbc-specialist-disinformation/"
+published: 2023-06-01
+created: 2026-03-08
+tags:
+---
+### Little is known about the history of Marianna Spring, the BBC’s first “disinformation correspondent.” But her record of churning out disinfo of her own in the service of British government objectives sends a bright red flag up over the new Verify project.
+
+[The launch](https://www.bbc.co.uk/mediacentre/bbc-news-transparency-bbc-verify) of BBC Verify, “a new brand to address the growing threat of disinformation and build trust with audiences by transparently showing how BBC journalists know the information they are reporting,” has raised questions about whether the British state broadcaster is ramping up plans to manufacture consent for official objectives while maligning dissent.
+
+The endeavor is said to be “a highly specialized team with a range of forensic and Open Source Intelligence (OSINT) capabilities that enable them to go beyond conventional newsroom techniques.” In all, 60 BBC journalists are involved – including the “specialist disinformation correspondent” Marianna Spring.
+
+The week after Verify’s rollout was announced, the 27-year-old Spring took to airwaves to acquaint BBC Breakfast viewers with her new venture. She explained its mission was to “verify video, factcheck, counter disinformation, and analyze really complex stories so we can get to the truth of what’s going on.”
+
+Standing before three interactive video screens, Spring outlined an array of investigative projects soon to appear under the auspices of Verify. They included an initiative employing “undercover accounts” which comprise a set of fake “characters” active on social media networks. The ostensible purpose of the sock-puppets created by Spring and her BBC associates is to “really understand polarization online and what’s happening on our social media feeds and what we’re being recommended and being pushed to us \[sic\] can affect all of us.”
+
+On the last screen, she daubed a crude diagram linking “local communities,” “far-right figures,” “alternative media,” a “conspiracy theory newspaper,” “funding,” and “foreign links”. These elements were components of a forthcoming investigation into the alleged proliferation of a “conspiracy movement in the UK,” which has purportedly “evolved and intensified since the pandemic,” and could, Spring suggested, create a situation comparable to January 6th, or the bizarre and largely forgotten “Fourth Reich” [coup in Germany](https://thegrayzone.com/2023/02/02/state-security-germanys-far-right-coup/).
+
+That Verify is managing bogus personae on social networks in the manner of the British Army’s [77th Brigade](https://www.dailymaverick.co.za/article/2020-09-30-uk-information-operations-in-the-time-of-coronavirus/), or the Pentagon’s [Operation Earnest Voice](https://www.theguardian.com/technology/2011/mar/17/us-spy-operation-social-networks), is troubling enough. But Spring’s history of churning out disinformation in the service of British government objectives adds a whole new level of concern about the initiative.
+
+### BBC star rises from out of nowhere
+
+Beyond her education at elite British educational institutions like Oxford University’s Pembroke College, little is known about Spring’s background. She studied at Oxford during the period when disgraced former MI6 chief [Richard Dearlove](https://thegrayzone.com/2022/05/15/operation-leaked-emails-intelligence-coup-boris-johnson/) served as [its master](https://issuu.com/mariedevalence/docs/martlet_2015_shortened_). While there, she spent an extended period in Russia, working for the Western-funded Moscow Times. Her LinkedIn profile has [been cached](https://www.linkedin.com/in/marianna-spring-279439b6/?originalSubdomain=uk) by the Internet Archive suspiciously few times since its creation, suggesting [certain captures](https://www.reputation.ca/remove-pages-wayback-machine/) may have been scrubbed upon request.
+
+There can be little doubt Spring’s online footprint elsewhere has been subjected to a dedicated cleanup operation. One of the most [prolific editors](https://en.wikipedia.org/w/index.php?title=Marianna_Spring&action=history&offset=&limit=250) of her Wikipedia page is the mysterious ‘Philip Cross’ profile, a notorious troll whose fanatical dedication to vandalizing the entries of anti-war, anti-imperialist public figures, while whitewashing and beautifying those of establishment shills and deep state actors, is so prolific that it has even [been acknowledged](https://www.bbc.com/news/blogs-trending-44495696) by the mainstream media.
+
+Spring’s proximity to the British intelligence sector was highlighted by a shadowy Foreign Office contractor, Amil Khan, when he proposed her as a potential participant in a meeting aimed at devising methods to destroy this outlet, The Grayzone.
+
+![](https://i0.wp.com/thegrayzone.com/wp-content/uploads/2023/05/FwxCqMhXgAAr5zm.jpg?resize=1170%2C487&ssl=1)
+
+Nonetheless, based on public records, it seems Spring joined the BBC almost immediately upon leaving University in 2018, becoming the British state broadcaster’s very first dedicated “disinformation reporter” in March 2020. The timing was precipitous, for this was precisely when the World Health Organization declared the COVID-19 pandemic. The British government responded almost immediately by [psychologically bludgeoning](https://www.amazon.com/State-Fear-government-weaponised-Covid-19/dp/1780667205) its population into compliance with harsh lockdown measures.
+
+The government’s propaganda campaign depended heavily on [fearporn-style propaganda](https://www.telegraph.co.uk/politics/2022/01/28/grossly-unethical-downing-street-nudge-unit-accused-scaring/) about the lethality of the virus to nudge the public into compliance. The perverse psychological push is the subject of a wider parliamentary probe into London’s handling of the crisis. At the same time, the British government viciously demonized any and all who questioned pandemic restrictions, mask and vaccine mandates, and vaccine passports as a vast, fascistic, potentially violent fifth column infesting both on and offline spaces.
+
+Deployed as an influential public face of this effort, Spring relied heavily on an incestuous cluster of shadowy state-funded organizations to bolster her reporting. Foremost among them was the [Institute for Strategic Dialogue](https://www.isdglobal.org/) (ISD), a shadowy NATO state contractor that reaps millions to research supposed “disinformation”. Invariably, this term serves as a basis for defaming and suppressing anti-establishment viewpoints, and censoring inconvenient truths.
+
+Just as Spring was beginning to cut her teeth at the BBC in March 2020, the [ISD launched](https://www.isdglobal.org/what-we-do/areas-of-work/covid19/) a program “to understand the ways \[the\] global health crisis is being used, co-opted and manipulated for extremist ends” in March 2020.
+
+Over the next two years, Spring and [the BBC](https://www.bbc.co.uk/news/technology-52490430.amp) routinely cited the ISD’s dubious research as proof that a cesspool of “extremist political and fringe medical communities” were working to “exploit the pandemic” for malicious purposes. In the process, legitimate criticism of lockdown restrictions was framed as the exclusive preserve of crazed “antivaxxers”.
+
+During this time, ISD and Spring presided over a [concerted effort](https://www.bbc.com/news/technology-53528400) to falsely link British lockdown critics to the deranged US QAnon movement. Spring and her colleague Mike Wendling leveled this specious charge in a September 2020 article that depended [almost exclusively](https://www.bbc.com/news/blogs-trending-53997203) on “expert” insight from ISD’s Chloe Colliver. It effectively amounted to a determined call for social media platforms to censor and/or deplatform any user who raised questions about the British government’s pandemic response.
+
+Colliver was also guest-of-honor in a BBC Panorama documentary, *Why Do You Hate Me?* fronted by Spring. Throughout the program, the “specialist disinformation reporter” [investigated why](https://www.isdglobal.org/isd-in-the-news/how-misogynistic-hate-benefits-from-algorithms-and-propels-through-social-media/) she was subject to personal attacks online. Colliver helped set up a bogus online persona to “test algorithms” and “better examine this pattern.” Given upcoming Verify projects rely on the same ethically dubious strategy, it’s fair to assume the ISD still influences Spring’s output today.
+
+Spring also took a lead role in [diminishing and discrediting](https://citizenjournos.com/2021/04/26/nobody-does-disinformation-better-than-the-bbcs-anti-disinformation-unit/) sizable anti-lockdown protests that engulfed the streets of central London. These demonstrations attracted politically diverse crowds in the tens of thousands. Typically ignored by the mainstream media, she and Wendling [claimed](https://citizenjournos.com/2021/04/28/nobody-does-disinformation-better-than-the-bbcs-anti-disinformation-unit-part-ii/) the teeming throngs were actually minuscule, and were comprised almost entirely of fringe lunatics.
+
+### State-backed fake news invents the “antivaxxer” terror threat
+
+In December 2021, ISD made its boldest incursion into the pandemic yet, [publishing](https://www.isdglobal.org/isd-publications/between-conspiracy-and-extremism-a-long-covid-threat-introductory-paper/) *Between Conspiracy and Extremism: A Long COVID Threat?* The brief paper argued antivaxxer sentiment was so strong in Britain, it represented a pronounced terror risk.
+
+The report arrived amid a wave of peculiar mainstream news stories that resembled planted efforts to demonize Britons opposed to lockdown measures and/or possessed of vaccine hesitant views as dangerous actors who were actively and wilfully putting lives at risk.
+
+A representative Daily Telegraph article [that month](https://www.telegraph.co.uk/news/2021/12/19/anti-vaxxers-block-book-appointments-stop-people-getting-life/) claimed “antivaxxers” were malevolently “block-booking” appointments at London vaccination centers. Their apparent objective was “to prevent others receiving the life-saving jab.” The outlet sensationally linked this supposedly murderous activity to a demonstration against further lockdowns the previous night outside Downing Street, during which protesters engaged in “scuffles” with police.
+
+No evidence or source was ever produced to back up the article’s shocking charge. Just as suspiciously, a health service spokesperson was quoted as stated that any disruption that might have occurred as a result of antivaxxer sabotage was “offset” by “thousands” turning up without appointment for vaccinations. Meanwhile a doctor at one of the allegedly affected sites described things as “running smoothly,” and predicted up to 10,000 people would receive their jab that day alone.
+
+Revealingly, this episode was never mentioned again by any media outlet. In fact, any and all reference to militant antivaxxers vanished from mainstream discourse almost immediately thereafter. There are strong grounds to believe the menace never existed in the first place.
+
+Less than two months later, The Guardian [published research](https://www.theguardian.com/society/2022/feb/13/uk-homegrown-conspiracy-groups-links-to-qanon) by a tech firm known as Logically which concluded that just 0.32% of Britons were antivaxxers. In an amazing twist, an analyst at the company explained this total was “lower than originally expected,” in large part due to “how much attention they receive,” producing the bogus impression “they form a much larger group.”
+
+Marianna Spring had been eager to stoke the perception of antivaxxers as a highly mobilized, several-million-strong death cult posing a mortal threat to Britain over the previous two years. Yet, just as suddenly as she began scaremongering over the non-existent scourge, she casually moved on.
+
+Her priorities aligned perfectly with those of the British government, which abruptly declared the crisis over at the start of 2022. In turn, the doom-laden, minute-by-minute updates on the pandemic’s spread and death toll, and all the advocacy for harsh lockdown restrictions which dominated mainstream media attention for the past two years, disappeared overnight.
+
+Despite transmission and recovery rates remaining unchanged from the date the pandemic was declared, even the previously pro-lockdown Guardian began edging its way into the critical camp. In January 2022, the paper published a [sympathetic interview](https://www.theguardian.com/world/2022/jan/02/britain-got-it-wrong-on-covid-long-lockdown-did-more-harm-than-good-says-scientist) with epidemiologist Mark Woolhouse. He firmly declared, “Britain got it wrong on Covid,” and branded lockdowns as “a failure of public health policy.”
+
+Nonetheless, BBC Verify’s launch makes clear neither the British state, nor faithful minions like Marianna Spring, have faced accountability for the damage caused by their propaganda campaign. Instead, they appear to have conjured up a new divide-and-rule wedge issue and furnished Spring’s friends at the ISD with a [new government contract](https://www.contractsfinder.service.gov.uk/notice/e2f9398e-d264-4602-8a2c-8b04b44c64d4?origin=SearchResults&p=1) to advance it. The shady outfit is due to receive tens of thousands of pounds to “analyse climate related mis/disinformation on social media.”

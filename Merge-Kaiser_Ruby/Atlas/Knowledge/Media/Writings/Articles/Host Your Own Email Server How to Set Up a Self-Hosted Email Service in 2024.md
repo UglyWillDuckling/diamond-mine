@@ -10,10 +10,10 @@ tags:
   - article
   - dev/article
 related:
-  - "[[Setup hosting]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/Setup hosting]]"
   - "[[hostinger]]"
 ---
-[[Setup hosting]] [[hostinger]]
+[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/Setup hosting]] [[hostinger]]
 
 Sep 17, 2024
 

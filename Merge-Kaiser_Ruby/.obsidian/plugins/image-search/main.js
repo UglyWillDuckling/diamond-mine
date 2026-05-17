@@ -32,8 +32,7 @@ var import_obsidian4 = require("obsidian");
 // image-search-settings-tab.ts
 var import_obsidian = require("obsidian");
 var DEFAULT_SETTINGS = {
-  apiKey: "",
-  searchEngineId: ""
+  apiKey: ""
 };
 var ImageSearchSettingTab = class extends import_obsidian.PluginSettingTab {
   constructor(app, plugin) {
@@ -43,12 +42,16 @@ var ImageSearchSettingTab = class extends import_obsidian.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    new import_obsidian.Setting(containerEl).setName("API key").setDesc("Google Programmable Search Engine API key").addText((text) => text.setPlaceholder("").setValue(this.plugin.settings.apiKey).onChange(async (value) => {
+    const apiKeyDesc = document.createDocumentFragment();
+    apiKeyDesc.append(
+      "Brave Search API key. ",
+      apiKeyDesc.createEl("a", {
+        text: "Learn how to get an API key",
+        href: "https://github.com/razeghi71/obsidian-image-search#how-to-get-a-brave-search-api-key"
+      })
+    );
+    new import_obsidian.Setting(containerEl).setName("API key").setDesc(apiKeyDesc).addText((text) => text.setPlaceholder("").setValue(this.plugin.settings.apiKey).onChange(async (value) => {
       this.plugin.settings.apiKey = value;
-      await this.plugin.saveSettings();
-    }));
-    new import_obsidian.Setting(containerEl).setName("Search engine ID").setDesc("Google Programmable Search Engine ID").addText((text) => text.setPlaceholder("").setValue(this.plugin.settings.searchEngineId).onChange(async (value) => {
-      this.plugin.settings.searchEngineId = value;
       await this.plugin.saveSettings();
     }));
   }
@@ -89,19 +92,25 @@ var QueryModal = class extends import_obsidian2.Modal {
       },
       cls: "mod-cta setting-btn button-style"
     });
-    button.textContent = "Search Google Images";
+    button.textContent = "Search Images";
     buttonContainer.appendChild(button);
     form.appendChild(buttonContainer);
     this.imageList = this.contentEl.createEl("ul", { cls: "responsive-gallery" });
   }
   async callApi(query) {
-    const url = `https://www.googleapis.com/customsearch/v1?q=${encodeURIComponent(query)}&cx=${this.settings.searchEngineId}&searchType=image&num=10&key=${this.settings.apiKey}`;
-    const response = await (0, import_obsidian3.requestUrl)(url);
+    const url = `https://api.search.brave.com/res/v1/images/search?q=${encodeURIComponent(query)}&count=10`;
+    const response = await (0, import_obsidian3.requestUrl)({
+      url,
+      headers: {
+        "Accept": "application/json",
+        "X-Subscription-Token": this.settings.apiKey
+      }
+    });
     if (response.status < 200 || response.status >= 300) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const data = await response.json;
-    return data.items.map((item) => item.link);
+    return data.results.map((item) => item.properties.url);
   }
   async search() {
     this.imageList.empty();
@@ -117,7 +126,7 @@ var QueryModal = class extends import_obsidian2.Modal {
     } catch (error) {
       console.error(`Error occured in "Image Search" plugin:
 ${error}`);
-      this.imageList.createDiv({ cls: "responsive-gallery-error" }).setText("Search was unsuccessful. Please check your connection, the API Key and Search engine ID in settings.");
+      this.imageList.createDiv({ cls: "responsive-gallery-error" }).setText("Search was unsuccessful. Please check your connection and the Brave API key in settings.");
     }
   }
   onClose() {

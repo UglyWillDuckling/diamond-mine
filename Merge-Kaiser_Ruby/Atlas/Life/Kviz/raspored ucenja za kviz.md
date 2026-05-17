@@ -1,6 +1,6 @@
 [[Atlas/Life/Kviz/Kviz]]
 
-- [/] #task napraviti raspored ucenja za kviz 🔼 ⏳ 2025-06-29 📅 2025-07-27 🆔 KpxQMa
+- [-] #task napraviti raspored ucenja za kviz 🆔 KpxQMa 🔼 ⏳ 2025-06-29 ❌ 2026-02-08
 	- [x] popis stvari za uciti
 	- [/] raspored u kalendaru
 ___

@@ -1,6 +1,6 @@
 https://apply.workable.com/patchstack/j/A7725A6D87/apply
 
-- [/] #task apply for Laravel position 🆔 RRzwM4 ⏫ ⏳ 2025-05-19 📅 2025-07-27
+- [x] #task apply for Laravel position 🆔 RRzwM4 ⏫ ⏳ 2025-05-19 📅 2025-07-27 ✅ 2026-02-08
 ___
 
 # cover letter 💌

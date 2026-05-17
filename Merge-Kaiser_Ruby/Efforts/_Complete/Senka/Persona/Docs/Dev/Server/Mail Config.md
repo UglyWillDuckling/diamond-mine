@@ -1,10 +1,10 @@
 ---
 related:
   - "[[trial postfix config file 1]]"
-  - "[[Persona]]"
-  - "[[prepare for migration]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/Persona]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/prepare for migration]]"
 ---
-Created during [[prepare for migration]] for [[Persona]].
+Created during [[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/prepare for migration]] for [[Efforts/_Complete/Senka 1/Persona/Persona]].
 
 ## [[Postfix]]
 

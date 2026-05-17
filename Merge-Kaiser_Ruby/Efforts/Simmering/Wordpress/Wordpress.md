@@ -5,7 +5,7 @@ related:
 #project #project/active 
 
 ### sources
-[[from mods]]
+[[Efforts/_Complete/Senka 1/Persona/Docs/from mods]]
 
 - online articles
 - videos

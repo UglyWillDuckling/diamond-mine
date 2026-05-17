@@ -1,11 +1,11 @@
 ---
 part of:
-  - "[[Persona.hr]]"
+  - "[[Efforts/_Complete/Senka/Persona/Docs/Persona.hr]]"
 tags:
   - doc
   - howto/persona
 ---
-from [[Persona]]
+from [[Efforts/_Complete/Senka 1/Persona/Persona]]
 
 Testirali smo i spajanje na Macu, sve je proslo bez problema.
 

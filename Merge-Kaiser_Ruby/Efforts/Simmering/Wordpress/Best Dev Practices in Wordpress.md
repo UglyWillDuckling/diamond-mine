@@ -1,7 +1,11 @@
 ---
-status: archived
+status: done
 tags:
   - archived
-dateModified: 2025-12-17T00:31:01.710+01:00
+dateModified: 2026-04-27T00:15:18.863+02:00
+title: Best Dev Practices in Wordpress
+priority: normal
+completedDate: 2026-04-27
+type: task
 ---
 #ticket #persona-project 

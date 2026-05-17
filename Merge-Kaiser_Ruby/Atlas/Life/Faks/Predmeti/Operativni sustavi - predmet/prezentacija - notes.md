@@ -1,4 +1,3 @@
-
 # Uvod
 
 Moja tema je bila "Koristi li op. sustav Linux manje resursa od Windowsa".

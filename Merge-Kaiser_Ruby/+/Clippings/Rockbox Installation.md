@@ -6,7 +6,6 @@ related:
 tags:
   - howto
   - manual
-rel:
 ---
 [![[~/×/952e50dcc9da6d2cf98865bbd1e3fd38_MD5.png]]](https://www.rockbox.org/)
 

@@ -14,9 +14,9 @@ tags:
 related:
   - "[[Postfix]]"
   - "[[Gmail]]"
-  - "[[setup mail server trial]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]]"
 ---
-Found during [[setup mail server trial]]
+Found during [[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]]
 
 I have setup my system to send emails via Gmail.
 

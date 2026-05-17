@@ -2,7 +2,7 @@
 related:
   - "[[postfix config steps]]"
   - "[[trial postfix config file 1]]"
-  - "[[setup mail server trial]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]]"
   - "[[How To Set Up a Postfix E-Mail Server with Dovecot]]"
 tags:
   - tool
@@ -11,7 +11,7 @@ tags:
 ---
 #tool #email 
 
-first encountered: [[setup mail server trial]], [[Efforts/tasks/archive/archive 1/investigate how to setup an mail server]], [[How To Set Up a Postfix E-Mail Server with Dovecot]]
+first encountered: [[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]], [[Efforts/tasks/archive/archive 1/investigate how to setup an mail server]], [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 
 Used to send email using the [[SMTP]] protocol.
 

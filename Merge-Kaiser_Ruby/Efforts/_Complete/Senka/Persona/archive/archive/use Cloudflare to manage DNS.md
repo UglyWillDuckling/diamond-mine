@@ -4,7 +4,7 @@ tags:
 ---
 > use cloudflare for managing [[+/Persona.hr]]
 
-[[Persona VPS]]
+[[Efforts/_Complete/Senka 1/Persona/Docs/Dev/Server/Persona VPS]]
 IP: 92.112.180.200
 
 - [x] @ trial using your domain `techdot.live` 

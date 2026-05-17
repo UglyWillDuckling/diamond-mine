@@ -1,0 +1,16 @@
+{
+  "uuid": "70nb5en654hrzgmv0ayvzq",
+  "gates": {
+    "aHR0cHM6Ly93aWtpLmh5cHIubGFuZA==": {
+      "id": "aHR0cHM6Ly93aWtpLmh5cHIubGFuZA==",
+      "title": "hyprland",
+      "icon": "<svg viewBox=\"0 0 100 100\"><image href=\"https://icon.horse/icon/wiki.hypr.land\" height=\"100\" width=\"100\" /></svg>",
+      "hasRibbon": true,
+      "position": "right",
+      "profileKey": "open-gate",
+      "url": "https://wiki.hypr.land",
+      "zoomFactor": 1,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+  }
+}

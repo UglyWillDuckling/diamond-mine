@@ -33,6 +33,7 @@ lastWatched: ""
 personalRating: 8.7
 tags:
   - film/animated
+  - film/christmas
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

@@ -9,7 +9,7 @@ tags:
   - person/notable
   - scientist
 ---
-- [ ] #task Make a list of comfort movies
+- [x] #task Make a list of comfort movies ✅ 2026-02-08
 
 ![[~/×/1b18eddb1e0ac28642491d9fa05e1b61_MD5.jpg]]
 

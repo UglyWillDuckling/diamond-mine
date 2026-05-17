@@ -7,7 +7,7 @@ related:
   - "[[Postfix]]"
   - "[[SSL]]"
 part of:
-  - "[[Setup hosting]]"
+  - "[[Efforts/_Complete/Senka/Persona/archive/archive/Setup hosting/Setup hosting]]"
 ---
 ## definition of done
 - mair sending is working
@@ -120,7 +120,7 @@ solution:
 	- [x] #task check cert from backup ✅ 2025-01-06
 	- [x] #task user cert for mails ✅ 2025-01-07
 ### use old cert
-> [[Mail Config]]
+> [[Efforts/_Complete/Senka 1/Persona/Docs/Dev/Server/Mail Config]]
 - [x] find the cert
 - [x] copy to server
 	- [x] move to `/etc/ssl/*` dirs

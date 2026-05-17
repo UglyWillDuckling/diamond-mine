@@ -6,10 +6,10 @@ author:
 published: 2024-01-01
 created: 2025-01-06
 description: Securing your website with HTTPS is crucial for ensuring the privacy and security of your users’ data. Let’s Encrypt, a free and open Certificate Authority, provides a simple way to obtain SSL/TLS…
-tags: 
+tags:
 favicon: https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db313057fa3c3de41c6f5b494b19
 related:
-  - "[[persona ssl setup]]"
+  - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/persona ssl setup]]"
   - "[[Certbot]]"
   - "[[Atlas/Knowledge/Knowledge/concepts/SSL certificate]]"
 ---

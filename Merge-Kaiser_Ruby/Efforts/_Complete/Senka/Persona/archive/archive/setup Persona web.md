@@ -1,4 +1,4 @@
-- [x] #task [[setup Persona web]] ⏫ ✅ 2025-01-07
+- [x] #task [[Efforts/_Complete/Senka/Persona/archive/archive/setup Persona web]] ⏫ ✅ 2025-01-07
 	- [x] #task add `index.html` file ✅ 2025-01-07
 	- [x] #task configure [[Nginx]] ✅ 2025-01-07
 	- [x] #task web page [[#^fixup]] ✅ 2025-01-07

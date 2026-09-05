@@ -2,7 +2,7 @@
   "choices": [
     {
       "id": "2ad99686-91d4-42a4-9cbe-2e60a36b7eb2",
-      "name": "New Task ✅",
+      "name": "New Task",
       "type": "Capture",
       "command": true,
       "appendLink": false,
@@ -39,7 +39,16 @@
         "direction": "vertical",
         "focus": true,
         "mode": "default"
-      }
+      },
+      "insertBefore": {
+        "enabled": false,
+        "before": "",
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "activeFileWritePosition": "cursor",
+      "captureToCanvasNodeId": "",
+      "icon": "check-square"
     },
     {
       "id": "c406b8bf-deaa-4cde-bf01-6f774a8be45c",
@@ -131,6 +140,68 @@
       }
     },
     {
+      "id": "b2c5d4fb-6b47-4c2d-8963-14609cb0cc3a",
+      "name": "daily task",
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "copyLinkToClipboard": false,
+      "captureTo": "Calendar/daily/{{DATE:YYYY}}/{{DATE:YYYY-MM-DD-ddd}}.md",
+      "captureToActiveFile": false,
+      "captureToCanvasNodeId": "",
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": false,
+        "format": "- {{value}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "##### 🚀 One+ thing I plan to accomplish today is...",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom",
+        "inline": false,
+        "replaceExisting": false,
+        "promptHeading": false,
+        "blankLineAfterMatchMode": "auto"
+      },
+      "insertBefore": {
+        "enabled": false,
+        "before": "",
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": true,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "focus": true,
+        "mode": "default"
+      },
+      "templater": {
+        "afterCapture": "none"
+      },
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFileInMode": "default",
+      "icon": "box"
+    },
+    {
       "id": "8c2e53f4-8431-470d-a086-f8e00c73bf71",
       "name": "link in daily 🔗",
       "type": "Capture",
@@ -213,12 +284,13 @@
   "inputPrompt": "single-line",
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,
+  "namePastedImagesAfterNoteTitle": false,
   "searchNestedChoices": true,
   "templateFolderLauncherRow": "bottom",
   "devMode": false,
   "templateFolderPaths": [],
   "announceUpdates": "all",
-  "version": "2.23.0",
+  "version": "2.24.2",
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,

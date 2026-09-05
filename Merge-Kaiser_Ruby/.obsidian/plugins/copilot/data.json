@@ -18,11 +18,9 @@
   "siliconflowApiKey": "",
   "defaultChainType": "llm_chain",
   "defaultModelKey": "llama-3.1-8b-instant|groq",
-  "embeddingModelKey": "text-embedding-3-small|openai",
   "contextTurns": 15,
   "userSystemPrompt": "",
   "openAIProxyBaseUrl": "",
-  "openAIEmbeddingProxyBaseUrl": "",
   "stream": true,
   "copilotFolder": "copilot",
   "copilotRootHistory": [
@@ -36,12 +34,10 @@
   "defaultOpenArea": "view",
   "defaultSendShortcut": "enter",
   "customPromptsFolder": "copilot/copilot-custom-prompts",
-  "indexVaultToVectorStore": "ON MODE SWITCH",
   "qaExclusions": "copilot",
   "qaInclusions": "",
   "chatNoteContextPath": "",
   "chatNoteContextTags": [],
-  "enableIndexSync": true,
   "debug": false,
   "maxSourceChunks": 15,
   "enableInlineCitations": true,
@@ -357,115 +353,6 @@
       "apiKey": ""
     }
   ],
-  "activeEmbeddingModels": [
-    {
-      "name": "copilot-plus-small",
-      "provider": "copilot-plus",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true,
-      "plusExclusive": true,
-      "apiKey": ""
-    },
-    {
-      "name": "copilot-plus-large",
-      "provider": "copilot-plus-jina",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true,
-      "plusExclusive": true,
-      "believerExclusive": true,
-      "dimensions": 1024,
-      "apiKey": ""
-    },
-    {
-      "name": "copilot-plus-multilingual",
-      "provider": "copilot-plus-jina",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true,
-      "plusExclusive": true,
-      "dimensions": 512,
-      "apiKey": ""
-    },
-    {
-      "name": "openai/text-embedding-3-small",
-      "provider": "openrouterai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true,
-      "apiKey": ""
-    },
-    {
-      "name": "text-embedding-3-small",
-      "provider": "openai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true,
-      "apiKey": ""
-    },
-    {
-      "name": "gemini-embedding-001",
-      "provider": "google",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true,
-      "apiKey": ""
-    },
-    {
-      "name": "gemini-embedding-2-preview",
-      "provider": "google",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true,
-      "apiKey": ""
-    },
-    {
-      "name": "Qwen/Qwen3-Embedding-0.6B",
-      "provider": "siliconflow",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "core": true,
-      "baseUrl": "https://api.siliconflow.com/v1",
-      "apiKey": ""
-    },
-    {
-      "name": "text-embedding-3-large",
-      "provider": "openai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "apiKey": ""
-    },
-    {
-      "name": "embed-multilingual-light-v3.0",
-      "provider": "cohereai",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "apiKey": ""
-    },
-    {
-      "name": "text-embedding-004",
-      "provider": "google",
-      "enabled": true,
-      "isBuiltIn": true,
-      "isEmbeddingModel": true,
-      "apiKey": ""
-    }
-  ],
-  "embeddingRequestsPerMin": 60,
-  "embeddingBatchSize": 16,
-  "disableIndexOnMobile": true,
-  "numPartitions": 1,
   "lexicalSearchRamLimit": 100,
   "promptUsageTimestamps": {},
   "promptSortStrategy": "timestamp",
@@ -478,13 +365,12 @@
   "passMarkdownImages": true,
   "enableAutonomousAgent": false,
   "enableCustomPromptTemplating": true,
-  "enableSemanticSearchV3": false,
   "enableSelfHostMode": false,
   "enableMiyo": false,
   "enableMiyoSearchSkill": false,
   "miyoSearchAll": false,
+  "relevantNotesLiveUpdate": true,
   "miyoServerUrl": "",
-  "miyoSyncedExclusions": "",
   "selfHostSearchProvider": "firecrawl",
   "firecrawlApiKey": "",
   "perplexityApiKey": "",
@@ -525,6 +411,8 @@
     "activeBackend": "opencode",
     "backends": {},
     "debugFullFrames": true,
+    "notificationSound": true,
+    "notificationSoundId": "piano",
     "welcomeDismissed": false,
     "skills": {
       "folder": "copilot/skills"
@@ -548,5 +436,5 @@
   "allowAdditionalContext": true,
   "enableWordCompletion": false,
   "_keychainVaultId": "1a7cdf35",
-  "settingsVersion": 12
+  "settingsVersion": 13
 }

@@ -1,0 +1,13 @@
+{
+  "deselectWhenFinished": true,
+  "selectionProperty": "selected",
+  "properties": [
+    {
+      "name": "movie_status",
+      "type": "multitext"
+    }
+  ],
+  "lastSelectedProperty": "movie_status",
+  "showStatusBarCount": true,
+  "showLargeOperationWarning": false
+}

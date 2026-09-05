@@ -1,15 +1,15 @@
 ---
-name: symposium-publish
-description: Publish, update, or withdraw an existing Markdown note through Symposium's host-owned review flow. Use when the user asks to publish, share, update, delete, remove, or withdraw a Symposium page.
+name: openartifacts-publish
+description: Publish, update, or withdraw an existing Markdown note through OpenArtifacts' host-owned review flow. Use when the user asks to publish, share, update, delete, remove, or withdraw an OpenArtifacts page.
 metadata:
   copilot-enabled-agents: claude, codex, opencode
-  copilot-builtin-version: "8"
+  copilot-builtin-version: "1"
 ---
 
-# Publish Markdown to Symposium
+# Publish Markdown to OpenArtifacts
 
 Require one existing Markdown source file. When the user asks to delete, remove, or
-withdraw its current Symposium page, do not generate HTML. Run the host wrapper with
+withdraw its current OpenArtifacts page, do not generate HTML. Run the host wrapper with
 only the vault-relative source-note path. Obsidian reads the note's current identity
 and opens its existing management modal; the user alone chooses Update or Delete.
 Never tell the user to delete the page at its public URL.
@@ -21,8 +21,18 @@ and include no scripts, frames, forms, handlers, redirects, or external assets. 
 YAML frontmatter as note metadata: never render the raw frontmatter block as page
 content. The exact UTF-8 HTML must not exceed `10485760` bytes.
 
+Style the page from a theme file rather than improvising. Resolve the theme name in
+this order: `OPENARTIFACTS_THEME` from the environment when set, then a theme the
+user named in chat, then `research-memo`. Read
+`$OPENARTIFACTS_WORKSPACE_ROOT/.openartifacts/themes/<name>.md` when the
+user has authored that theme, otherwise `themes/<name>.md` next to this file. Follow
+it exactly: tokens, type, scale, layout, components, and its theme-handling CSS, all
+inlined. If neither file exists, still publish with restrained defaults (system fonts,
+one accent, a readable measure, light and dark handled) and tell the user which theme
+was not found.
+
 Write those final bytes to a new unique `.html` file under
-`SYMPOSIUM_WORKSPACE_ROOT/.symposium/handoffs/`, creating that
+`$OPENARTIFACTS_WORKSPACE_ROOT/.openartifacts/handoffs/`, creating that
 directory first when it does not exist. Do not show a prose substitute or ask
 for confirmation in chat. Instead run the host wrapper with exactly two
 vault-relative paths: the source note and the staged HTML.
@@ -30,19 +40,19 @@ vault-relative paths: the source note and the staged HTML.
 On macOS or Linux:
 
 ```bash
-sh "/absolute/path/to/this/skill/directory/symposium-publish.sh" "Notes/source.md" ".symposium/handoffs/unique.html"
+sh "/absolute/path/to/this/skill/directory/openartifacts-publish.sh" "Notes/source.md" ".openartifacts/handoffs/unique.html"
 ```
 
 For withdrawal, omit the staged-HTML argument:
 
 ```bash
-sh "/absolute/path/to/this/skill/directory/symposium-publish.sh" "Notes/source.md"
+sh "/absolute/path/to/this/skill/directory/openartifacts-publish.sh" "Notes/source.md"
 ```
 
 On Windows, use the `.cmd` wrapper (prefix it with `&` in PowerShell):
 
 ```powershell
-& "/absolute/path/to/this/skill/directory/symposium-publish.cmd" "Notes/source.md" ".symposium/handoffs/unique.html"
+& "/absolute/path/to/this/skill/directory/openartifacts-publish.cmd" "Notes/source.md" ".openartifacts/handoffs/unique.html"
 ```
 
 Omit the staged-HTML argument on Windows for withdrawal as well.

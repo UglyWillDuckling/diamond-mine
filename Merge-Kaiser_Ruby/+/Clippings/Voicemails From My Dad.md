@@ -16,5 +16,8 @@ tags:
   - fillm/short
   - film/animated
 plan-to-watch: true
+selected: false
+movie_status:
+  - plan_to_watch
 ---
 ![](https://www.youtube.com/watch?v=WUJvWeV1CAY)

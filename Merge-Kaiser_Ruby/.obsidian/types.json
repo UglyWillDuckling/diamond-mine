@@ -105,6 +105,7 @@
     "month_nr": "number",
     "dg-publish": "checkbox",
     "dg-home": "checkbox",
-    "movie_status": "multitext"
+    "movie_status": "multitext",
+    "selected": "checkbox"
   }
 }

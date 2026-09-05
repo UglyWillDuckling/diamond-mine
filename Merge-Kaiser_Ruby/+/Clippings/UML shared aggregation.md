@@ -1,17 +1,16 @@
 ---
-source: "https://www.uml-diagrams.org/aggregation.html"
+source: https://www.uml-diagrams.org/aggregation.html
 published:
 created: 2026-05-16
-tags:
+part of:
+  - "[[UML]]"
 ---
-## UML Aggregation
-
 **Shared aggregation** (**aggregation**) is a [binary association](https://www.uml-diagrams.org/association.html#binary-association) between a [property](https://www.uml-diagrams.org/property.html) and one or more composite objects which group together a set of instances. It is a "weak" form of [aggregation](https://www.uml-diagrams.org/association.html#aggregation) when part instance is independent of the composite. Shared aggregation has the following characteristics:
 
 - it is [binary association](https://www.uml-diagrams.org/association.html#binary-association),
-- it is asymmetric - only one end of association can be an aggregation,
-- it is transitive - aggregation links should form a directed, acyclic graph, so that no composite instance could be indirect part of itself,
-- shared part could be included in several composites, and if some or all of the composites are deleted, shared part may still exist.
+- it is **asymmetric** - only one end of association can be an aggregation,
+- it is **transitive** - aggregation links should form a directed, acyclic graph, so that no composite instance could be indirect part of itself,
+- shared part ==could be included in several composites==, and if some or all of the composites are deleted, shared part may still exist.
 
 #### Notation
 

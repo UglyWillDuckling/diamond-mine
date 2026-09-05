@@ -11,7 +11,7 @@
 
  - [x] #task prikljucak za plin - nazvati 10 dana? 🆔 cGmU60 📅 2026-02-09 ✅ 2026-02-10
  - [x] #task naci se na [[gradiliste od Kuce]] sa [[Marko Maric]] ovaj tjedan 🆔 4XCCjP ⏫ 📅 2026-02-08 ✅ 2026-02-13
- - [/] #task organizirati **chat** za sve majstore 🆔 AvUJYd 📅 2026-02-08
+ - [x] #task organizirati **chat** za sve majstore 🆔 AvUJYd 📅 2026-02-08 ✅ 2026-06-22
  - [x] #task vidjeti sto je s [[Josip, struja]] 📅 2026-02-09 🆔 wjPKtc
 	 - [x] #task poslati projekt [[Zelenoj Udruzi]] - vidjeti sto jos trebamo 📅 2026-02-09 🆔 gVyb7X
 

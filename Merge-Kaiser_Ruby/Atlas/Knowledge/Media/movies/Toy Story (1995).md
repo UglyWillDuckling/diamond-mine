@@ -1,7 +1,7 @@
 ---
 category:
   - "[[Film]]"
-plan-to-watch: false
+plan-to-watch: true
 interest:
 type: movie
 subType: ""
@@ -29,7 +29,6 @@ watched: true
 lastWatched: ""
 personalRating: 0
 tags:
-  - mediaDB/tv/movie
   - film/comfort
 ---
 
@@ -54,3 +53,5 @@ if (dv.current()['plan-to-watch']) {
 ```
 
 **Premiered**: `$= dv.current().premiere`
+
+- `note: note` kada stigne DVD + CRT tv + DVD player ili sicno

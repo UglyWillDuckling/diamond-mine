@@ -1,0 +1,13 @@
+{
+  "folder": "Atlas/Knowledge/Media/VideoGames",
+  "fileNameFormat": "{{name}}",
+  "templateFile": "~/%/games/game template.md",
+  "rawgApiKey": "040d1c301ee14972933c92e56a0d7ee2",
+  "steamApiKey": null,
+  "steamUserId": null,
+  "syncSteamOnStart": false,
+  "syncSteamPlaytimeOnStart": false,
+  "tryFindSteamGameOnCreate": false,
+  "metaDataForOwnedSteamGames": null,
+  "metaDataForWishlistedSteamGames": null
+}

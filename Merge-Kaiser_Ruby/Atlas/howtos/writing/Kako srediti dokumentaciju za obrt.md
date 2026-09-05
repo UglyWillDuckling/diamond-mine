@@ -13,4 +13,12 @@
 
 ## Racuni
 
-1. Skinuti račun za Hoc
+1. [x] Skinuti račun za [[House Of Code]]
+2. [x] racuni na mailu :LiMail:
+3. [x] provjeriti po izvodima sva placanja
+
+- [x] provjeriti gdje slati izvode, racune i ostalo
+- [x] pogledati jos jednom izvode
+
+izvod@malueva.hr
+ulazni racuni: eracun@malueva.hr

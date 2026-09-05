@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../../../dev/projects/obsidian-hello/src/main.ts"],
+  "sourcesContent": ["import { Notice, Plugin } from \"obsidian\";\n\nexport default class HelloPlugin extends Plugin {\n  async onload() {\n    console.log(\"Hello plugin loaded\");\n\n    this.addCommand({\n      id: \"say-hello\",\n      name: \"Say hello\",\n      callback: () => {\n        new Notice(\"Hello there Bruno!\");\n      },\n    });\n  }\n\n  onunload() {\n    console.log(\"Hello plugin unloaded\");\n  }\n}\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,sBAA+B;AAE/B,IAAqB,cAArB,cAAyC,uBAAO;AAAA,EAC9C,MAAM,SAAS;AACb,YAAQ,IAAI,qBAAqB;AAEjC,SAAK,WAAW;AAAA,MACd,IAAI;AAAA,MACJ,MAAM;AAAA,MACN,UAAU,MAAM;AACd,YAAI,uBAAO,oBAAoB;AAAA,MACjC;AAAA,IACF,CAAC;AAAA,EACH;AAAA,EAEA,WAAW;AACT,YAAQ,IAAI,uBAAuB;AAAA,EACrC;AACF;",
+  "names": []
+}

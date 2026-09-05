@@ -4,20 +4,64 @@
     "type": "split",
     "children": [
       {
-        "id": "f550ce87db4ed93c",
+        "id": "b6faeda3450f4931",
         "type": "tabs",
         "children": [
           {
-            "id": "91d272423c635a1c",
+            "id": "9fafd16835a260c2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.0"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.0"
+            }
+          },
+          {
+            "id": "d32db40f3e76cdd2",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Atlas/Knowledge/Media/movies/movies base.base",
+                "viewName": "plan to watch"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "movies base"
+            }
+          },
+          {
+            "id": "1a161d32ef5e8acf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Knowledge/Media/movies/Apocalypse Now (1979).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Apocalypse Now (1979)"
+            }
+          },
+          {
+            "id": "19dc273023131525",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calendar/daily/2026/2026-09-05-Sat.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-09-05-Sat"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -37,7 +81,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -49,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"url\"]",
+                "query": "tag:#project",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 454.5
+    "width": 476.70703125,
+    "collapsed": true
   },
   "right": {
     "id": "879c4c46c01c5375",
@@ -83,22 +130,16 @@
       {
         "id": "6bd03039fe22beee",
         "type": "tabs",
+        "dimension": 32.598714416896236,
         "children": [
           {
             "id": "26735150232706fe",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "baze - seminar - imovina.canvas",
-                "viewState": {
-                  "x": -1280.2974118537115,
-                  "y": 159.31305579966073,
-                  "zoom": 0.16501656122116665
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "baze - seminar - imovina"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
@@ -107,13 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tjedan 21 - 2026.md",
+                "file": "Sigurnost - Ispit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tjedan 21 - 2026"
+              "title": "Outline"
             }
           },
           {
@@ -150,16 +191,6 @@
             }
           },
           {
-            "id": "d6f0963c22735c5e",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "reminder-list"
-            }
-          },
-          {
             "id": "6d9ff4c869c8651f",
             "type": "leaf",
             "state": {
@@ -174,7 +205,7 @@
             }
           },
           {
-            "id": "34fa04b194267a2a",
+            "id": "77bfc2ab1daca4bf",
             "type": "leaf",
             "state": {
               "type": "annotations-outline",
@@ -184,7 +215,7 @@
             }
           },
           {
-            "id": "c7efbd3388c4c654",
+            "id": "ca13c49f83d1b858",
             "type": "leaf",
             "state": {
               "type": "annotations-outline",
@@ -194,7 +225,7 @@
             }
           },
           {
-            "id": "bd8207c1fcae7091",
+            "id": "eef3c8b0352b1bbb",
             "type": "leaf",
             "state": {
               "type": "annotations-outline",
@@ -204,7 +235,7 @@
             }
           },
           {
-            "id": "362c9e8e3df04c23",
+            "id": "6629b961e16f830a",
             "type": "leaf",
             "state": {
               "type": "annotations-outline",
@@ -214,7 +245,7 @@
             }
           },
           {
-            "id": "f20becb1856a0af9",
+            "id": "9a5adf877b894f64",
             "type": "leaf",
             "state": {
               "type": "annotations-outline",
@@ -224,7 +255,7 @@
             }
           },
           {
-            "id": "1e2ee522e48e18aa",
+            "id": "778b6ea54a79a6ff",
             "type": "leaf",
             "state": {
               "type": "annotations-outline",
@@ -234,7 +265,7 @@
             }
           },
           {
-            "id": "3bc49f21d2379e12",
+            "id": "641aff77abdad0d4",
             "type": "leaf",
             "state": {
               "type": "annotations-outline",
@@ -244,7 +275,87 @@
             }
           },
           {
-            "id": "6af4ab9ea1e79544",
+            "id": "db0b1ab815069de3",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "annotations-outline"
+            }
+          },
+          {
+            "id": "9ed9663fbd93b158",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "annotations-outline"
+            }
+          },
+          {
+            "id": "8503b2f9efeec984",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "reminder-list"
+            }
+          },
+          {
+            "id": "afc4c45b28946ea2",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "annotations-outline"
+            }
+          },
+          {
+            "id": "e1ed8b23222471d2",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "annotations-outline"
+            }
+          },
+          {
+            "id": "8b43acc8ee6a02c7",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "annotations-outline"
+            }
+          },
+          {
+            "id": "f5a2adb355609053",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "annotations-outline"
+            }
+          },
+          {
+            "id": "a5f6d2bec479ab29",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "annotations-outline"
+            }
+          },
+          {
+            "id": "570abfc6a845d007",
             "type": "leaf",
             "state": {
               "type": "annotations-outline",
@@ -254,15 +365,37 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 20
+      },
+      {
+        "id": "c93fa11de44fea23",
+        "type": "tabs",
+        "dimension": 67.40128558310377,
+        "children": [
+          {
+            "id": "ae937e2a1a949dba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sigurnost - Ispit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sigurnost - Ispit"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 364.5,
+    "width": 512.0625,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "publish:Publish changes...": false,
       "bases:Create new base": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
@@ -281,67 +414,69 @@
       "tasknotes:Open Kanban board": false,
       "tasknotes:Open Pomodoro timer": false,
       "tasknotes:Open Pomodoro statistics": false,
+      "game-search:Create new game note": false,
+      "digitalgarden:Digital Garden Publication Center": false,
       "callout-manager:Insert Callout": false,
-      "copilot:Open Copilot Chat": false,
+      "copilot:Open Copilot Agent Chat": false,
       "templater-obsidian:Templater": false,
-      "obsidian-importer:Open Importer": false,
+      "obsidian-importer:Import notes": false,
       "obsidian-import-json:JSON/CSV Importer": false,
       "obsidian-media-db-plugin:Add new Media DB entry": false
     }
   },
-  "active": "91d272423c635a1c",
+  "active": "19dc273023131525",
   "lastOpenFiles": [
-    "Atlas/Knowledge/Media/Writings/Books/The Tombs of Atuan (1971).md",
-    "Atlas/Knowledge/Media/Writings/Books/The Lathe of Heaven (1971).md",
-    "+/Clippings/The Lathe of Heaven.md",
-    "Efforts/Active/Smalltalk Master/Squeak By Example.md",
-    "Efforts/_Complete/projekt - html i css, js.md",
-    "Efforts/Simmering/Kotlin programming.md",
-    "Efforts/Active/handle old HDD.md",
-    "Efforts/Active/Smalltalk Master/Smalltalk Master.md",
-    "Efforts/Active/Smalltalk Master/Smalltalk - playground.md",
-    "Efforts/Ongoing/VPS/second VPS.md",
-    "Efforts/Ongoing/VPS/keyring trust issue on second VPS.md",
-    "Efforts/Ongoing/PC Maintenance/MaintenancePC.md",
-    "Efforts/_Complete/Vim Mastery/Vim Mastery.md",
-    "Efforts/_Complete/Vim Mastery/Nvim - Lsp - How to inspect info.md",
-    "Efforts/_Complete/Vim Mastery/Markdown + Vim.md",
-    "Efforts/_Complete/Studying Python/Studying Python.md",
-    "Efforts/Ongoing/Zdravlje home.md",
-    "Efforts/Ongoing/Upcoming birthdays.md",
-    "Efforts/Ongoing/Skinuti filmove, serije i slicno.md",
-    "Efforts/_Complete/Spavanja promijena napredak.md",
-    "Efforts/TaskNotes/Tasks/just another task.md",
-    "Efforts/Ideas/Mass Update Plugin in Obsidian.md",
-    "Efforts/Master Task List.md",
-    "Efforts/Ideas",
-    "Efforts/_Archive.md",
-    "Atlas/Life/obrt/dokumentacija za obrt.md",
-    "Efforts/tasks/tasks.md",
-    "~/×/20260516_131559.jpg",
-    "~/×/lawyer.png",
-    "~/×/IMG-20260517-WA0000 2.jpg",
-    "~/×/IMG-20260517-WA0000 1.jpg",
-    "~/×/IMG-20260517-WA0000.jpg",
-    "~/×/inherit.png",
-    "Efforts/Active/Smalltalk Master",
-    "baze - seminar - imovina.canvas",
-    "Atlas/Life/Faks/Predmeti/programsko inženjerstvo",
+    "Calendar/daily/2026/2026-09-05-Sat.md",
+    "Atlas/Knowledge/Media/movies/movies base.base",
+    "Atlas/Knowledge/Media/movies/Babylon (2022).md",
+    "Atlas/Knowledge/Media/movies/A Clockwork Orange (1971).md",
+    "Atlas/Knowledge/Media/movies/When the Wind Blows (1986).md",
+    "Atlas/Knowledge/Media/movies/Apocalypse Now (1979).md",
+    "Atlas/Knowledge/Media/movies/The Boy and the Heron (2023).md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Atlas/Knowledge/Media/Film/Film Media.base",
+    "Atlas/Knowledge/templates/movie.md",
+    "+/Clippings/We Built a Different Kind of Smartphone  Minimal Phone 2.md",
+    "Atlas/Knowledge/Books/Hyperpolitics (2026).md",
+    "Sigurnost - Ispit.md",
+    "~/×/Pasted image 20260901224649.png",
+    "Atlas/Life/Faks/Predmeti/Računalne i mobilne mreže/Carrier-sense multiple access with collision detection.md",
+    "~/×/Pasted image 20260901223959.png",
+    "Calendar/daily/2026/2026-09-01-Tue.md",
+    "Atlas/Life/Faks/Predmeti/programsko inženjerstvo/seminar - programsk ing. - Webinari.md",
+    "Atlas/Knowledge/Media/movies/The Straight Story (1999).md",
+    "~/×/Pasted image 20260830111804.png",
+    "Atlas/Knowledge/Media/movies/Dirty Dancing (1987).md",
+    "Atlas/Knowledge/Media/Television/Steven Universe (2013–2019).md",
+    "~/×/Pasted image 20260828214550.png",
+    "Calendar/daily/2026/2026-08-28-Fri.md",
+    "Calendar/daily/2026/2026-08-27-Thu.md",
+    "~/×/Pasted image 20260828210946.png",
+    "~/×/Pasted image 20260828210430.png",
+    "~/×/Pasted image 20260828210302.png",
+    "~/×/Pasted image 20260828210112.png",
+    "~/×/Pasted image 20260828205825.png",
+    "~/×/Pasted image 20260828205806.png",
+    "+/Clippings/Gaza and Cuba, or the prehistory of humanity.md",
+    "Efforts/Active/Media Requests Project/Media Requests Project.md",
+    "priprema za godisnji 2026.md",
+    "+/Clippings/Senior Full Stack PHP Developer.md",
+    "Efforts/Active/Media Requests Project/versions.md",
+    "Efforts/Active/Media Requests Project",
+    "Tjedan 34 - 2026.md",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views/relationships.base",
     "Tickets.base",
-    "~/×/morph.png",
-    "~/×/msg.png",
-    "~/×/SBE-6.0.pdf",
-    "Meta/Task_Board/Boards/Status Based Workflow.taskboard",
-    "Meta/Task_Board/Boards/Tag Based Workflow.taskboard",
-    "Meta/Task_Board/Boards/Time Based Workflow.taskboard",
-    "Meta/Task_Board/Boards",
-    "Meta/Task_Board",
+    "FIles.base",
+    "Atlas/Knowledge/Media/VideoGames/ps1 games.base",
+    "copilot/skills/obsidian-cli/LICENSE",
+    "copilot/skills/obsidian-cli",
+    "Atlas/Life/Faks/Predmeti/Baze Podataka predmet/baze - seminar - imovina.canvas",
+    "Efforts/tasks canvas.canvas",
     "Atlas/Knowledge/Media/movies/movies.canvas",
-    "tasks canvas.canvas",
     "Efforts/tasks/archive/archive 1/action.canvas",
     "Efforts/tasks/archive/archive/action.canvas",
-    "~/×/tcp.png",
-    "~/×/osi_vs_tcp.png",
     "Efforts/Active/Kuca/Faze gradnje.canvas",
     "ff.canvas",
     "Efforts/tasks/archive/archive/srediti troskovnik/actions.canvas",

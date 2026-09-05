@@ -5,6 +5,9 @@ works:
   - "[[Earthsea series]]"
 similiar_writers:
   - "[[Octavia E. Butler]]"
+  - "[[N. K. Jemisin]]"
+  - "[[Margaret Atwood]]"
+  - "[[David Mitchell]]"
 related:
   - "[[Carl Jung]]"
   - "[[Taosim]]"
@@ -20,7 +23,7 @@ part of:
   - "[[New Wave (science fiction)]]"
 ---
 - [ ] #task study [[Ursula K. Le Guin]]
-	- [ ] [[The Radical Science Fiction of Ursula K. Le Guin]]
+	- [x] [[The Radical Science Fiction of Ursula K. Le Guin]]
 ___
 
 **Ursula Kroeber Le Guin** ([/ ˈ k r oʊ b ər l ə ˈ ɡ w ɪ n /](https://en.wikipedia.org/wiki/Help:IPA/English "Help:IPA/English") [*KROH -bər lə GWIN*](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key "Help:Pronunciation respelling key");[^1] [née](https://en.wikipedia.org/wiki/Birth_name#Maiden_and_married_names "Birth name") **Kroeber**; October 21, 1929 – January 22, 2018) was an American author. She is best known for her works of [speculative fiction](https://en.wikipedia.org/wiki/Speculative_fiction "Speculative fiction"), including [science fiction](https://en.wikipedia.org/wiki/Science_fiction "Science fiction") works set in her [Hainish universe](https://en.wikipedia.org/wiki/Hainish_universe "Hainish universe"), and the *[Earthsea](https://en.wikipedia.org/wiki/Earthsea "Earthsea")* [fantasy](https://en.wikipedia.org/wiki/Fantasy "Fantasy") series. 

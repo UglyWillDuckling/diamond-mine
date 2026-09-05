@@ -36,7 +36,10 @@ themes:
   - "[[Colonialism]]"
   - "[[war]]"
   - "[[psychology]]"
-t:
+movie_status:
+  - plan_to_watch
 ---
 
 `$= '![Image|360](' + dv.current().image + ')'`
+
+==🔴suppose to be red==

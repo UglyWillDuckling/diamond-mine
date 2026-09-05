@@ -5,20 +5,6 @@ body {
 	--bases-map-blend-mode: normal;
 }
 
-/* Settings styles */
-.map-tileset-list {
-	margin: 1em 0;
-}
-
-.mobile-option-setting-item-description {
-	font-size: var(--font-smaller);
-	color: var(--text-muted);
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	margin-top: 0.25em;
-}
-
 .bases-view[data-view-type="map"] {
 	--bases-embed-border-width: 0px;
 	--bases-view-padding: 0;
@@ -48,6 +34,10 @@ body {
 
 	canvas {
 		mix-blend-mode: var(--bases-map-blend-mode);
+
+		&.is-over-marker {
+			cursor: pointer;
+		}
 	}
 
 	&.is-loading {
@@ -59,6 +49,11 @@ body {
 			color: var(--text-muted);
 		}
 	}
+}
+
+/* Offscreen probe used to resolve CSS colour variables to concrete values */
+.bases-map-color-probe {
+	display: none;
 }
 
 .bases-map-popup {
@@ -104,6 +99,20 @@ body {
 	color: var(--text-normal);
 	word-break: break-word;
 	padding: 0 var(--size-4-2);
+}
+
+.user-location-marker {
+	display: flex;
+
+	circle {
+		fill: var(--interactive-accent);
+		stroke: var(--background-primary);
+		stroke-width: 2;
+	}
+}
+
+.canvas-control-item.maplibregl-ctrl-geolocate.is-active {
+	color: var(--interactive-accent);
 }
 
 .maplibregl-ctrl-attrib {

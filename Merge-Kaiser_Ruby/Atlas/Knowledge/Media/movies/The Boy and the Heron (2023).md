@@ -2,14 +2,10 @@
 category:
   - "[[Film]]"
 plan-to-watch: false
-interest:
 type: movie
-subType: ""
 title: The Boy and the Heron
 year: "2023"
-dataSource: OMDbAPI
 url: https://www.imdb.com/title/tt6587046/
-id: tt6587046
 plot: In the wake of his mother's death and his father's remarriage, a headstrong boy ventures into a dreamlike world shared by the living and the dead in search of his missing stepmother.
 genres:
   - Animation
@@ -23,17 +19,16 @@ actors:
   - Masaki Suda
   - Kô Shibasaki
 image: https://m.media-amazon.com/images/M/MV5BMzA5Zjg3MTAtM2FhZS00NTNjLTg3NjEtNWQ4MTRhZjhiNzVmXkEyXkFqcGc@._V1_SX300.jpg
-released: true
 premiere: 12/08/2023
+released: true
 watched: true
 lastWatched: 2026-04-01
 personalRating: 8.4
 status: Watching
-tags:
-  - film
-  - film/animated
 reminds me of:
   - "[[A Wizard of Earthsea]]"
+tags:
+  - film/animated
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

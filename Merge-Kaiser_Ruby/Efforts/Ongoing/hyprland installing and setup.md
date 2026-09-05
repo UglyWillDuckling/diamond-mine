@@ -1,7 +1,7 @@
 
 https://wiki.hypr.land/Getting-Started/Preconfigured-setups
 
-- [/] #task setup [[hyprland]] 🔼 📅 2026-05-01
+- [x] #task setup [[hyprland]] 🔼 📅 2026-05-01 ✅ 2026-06-22
 	- [x] see how to remap caps lock in [[hyprland]], [[xremap - running as system service]]
 		- [x] [[xremap]]
 		- [x] [[xremap - running as system service]]j

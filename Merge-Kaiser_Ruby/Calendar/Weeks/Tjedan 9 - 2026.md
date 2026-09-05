@@ -34,7 +34,7 @@ Dolazi proljece :LiFlower: 🥀🌸
 
 - [x] #task kontaktirati [[Marko Maric]] radi [[knauf dio]] ponude - izostaviti zidove i strop na katu ✅ 2026-03-05
 
-- [ ] #task organizirati sastanak s [[Dora Vučemilović]] ovaj tjedan 🆔 GZdCax
+- [/] #task organizirati sastanak s [[Dora Vučemilović]] ovaj tjedan 🆔 GZdCax
 	- [x] mail
 	- [x] cekamo projekt
 	- [ ] sastanak dogovoriti 
@@ -73,8 +73,8 @@ predavanja 🦋.
 
 ## ostalo
 
-- [ ] #task naručiti tortu za rođendan  🆔 BZjBfV
-- [ ] #task kupiti **poklon** 🆔 ql7Ucd
+- [x] #task naručiti tortu za rođendan 🆔 BZjBfV ✅ 2026-06-22
+- [x] #task kupiti **poklon** 🆔 ql7Ucd ✅ 2026-06-22
 - [x] #task platiti Munjaro Telemach racun
 - [x] #task kupiti zlato 🆔 6uMkCN 🔼 📅 2026-03-08 ✅ 2026-04-15
 

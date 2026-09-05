@@ -5,7 +5,6 @@
   "obsidian-list-callouts",
   "folder-notes",
   "markwhen",
-  "simple-canvasearch",
   "morgen-tasks",
   "obsidian42-brat",
   "obsidian-vimrc-support",
@@ -16,5 +15,9 @@
   "lazy-plugins",
   "advanced-canvas",
   "tasknotes",
-  "open-gate"
+  "simple-canvasearch",
+  "open-gate",
+  "game-search",
+  "hot-reload",
+  "digitalgarden"
 ]

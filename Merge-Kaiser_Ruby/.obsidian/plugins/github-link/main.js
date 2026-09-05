@@ -829,10 +829,10 @@ var require_lodash = __commonJS({
         }();
         var ctxClearTimeout = context.clearTimeout !== root.clearTimeout && context.clearTimeout, ctxNow = Date2 && Date2.now !== root.Date.now && Date2.now, ctxSetTimeout = context.setTimeout !== root.setTimeout && context.setTimeout;
         var nativeCeil = Math2.ceil, nativeFloor = Math2.floor, nativeGetSymbols = Object2.getOwnPropertySymbols, nativeIsBuffer = Buffer2 ? Buffer2.isBuffer : undefined2, nativeIsFinite = context.isFinite, nativeJoin = arrayProto.join, nativeKeys = overArg(Object2.keys, Object2), nativeMax = Math2.max, nativeMin = Math2.min, nativeNow = Date2.now, nativeParseInt = context.parseInt, nativeRandom = Math2.random, nativeReverse = arrayProto.reverse;
-        var DataView = getNative(context, "DataView"), Map = getNative(context, "Map"), Promise2 = getNative(context, "Promise"), Set = getNative(context, "Set"), WeakMap = getNative(context, "WeakMap"), nativeCreate = getNative(Object2, "create");
-        var metaMap = WeakMap && new WeakMap();
+        var DataView = getNative(context, "DataView"), Map2 = getNative(context, "Map"), Promise2 = getNative(context, "Promise"), Set = getNative(context, "Set"), WeakMap2 = getNative(context, "WeakMap"), nativeCreate = getNative(Object2, "create");
+        var metaMap = WeakMap2 && new WeakMap2();
         var realNames = {};
-        var dataViewCtorString = toSource(DataView), mapCtorString = toSource(Map), promiseCtorString = toSource(Promise2), setCtorString = toSource(Set), weakMapCtorString = toSource(WeakMap);
+        var dataViewCtorString = toSource(DataView), mapCtorString = toSource(Map2), promiseCtorString = toSource(Promise2), setCtorString = toSource(Set), weakMapCtorString = toSource(WeakMap2);
         var symbolProto = Symbol2 ? Symbol2.prototype : undefined2, symbolValueOf = symbolProto ? symbolProto.valueOf : undefined2, symbolToString = symbolProto ? symbolProto.toString : undefined2;
         function lodash(value) {
           if (isObjectLike(value) && !isArray(value) && !(value instanceof LazyWrapper)) {
@@ -1077,7 +1077,7 @@ var require_lodash = __commonJS({
           this.size = 0;
           this.__data__ = {
             "hash": new Hash(),
-            "map": new (Map || ListCache)(),
+            "map": new (Map2 || ListCache)(),
             "string": new Hash()
           };
         }
@@ -1142,7 +1142,7 @@ var require_lodash = __commonJS({
           var data = this.__data__;
           if (data instanceof ListCache) {
             var pairs = data.__data__;
-            if (!Map || pairs.length < LARGE_ARRAY_SIZE - 1) {
+            if (!Map2 || pairs.length < LARGE_ARRAY_SIZE - 1) {
               pairs.push([key, value]);
               this.size = ++data.size;
               return this;
@@ -2886,7 +2886,7 @@ var require_lodash = __commonJS({
           return result2;
         };
         var getTag = baseGetTag;
-        if (DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag || Map && getTag(new Map()) != mapTag || Promise2 && getTag(Promise2.resolve()) != promiseTag || Set && getTag(new Set()) != setTag || WeakMap && getTag(new WeakMap()) != weakMapTag) {
+        if (DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag || Map2 && getTag(new Map2()) != mapTag || Promise2 && getTag(Promise2.resolve()) != promiseTag || Set && getTag(new Set()) != setTag || WeakMap2 && getTag(new WeakMap2()) != weakMapTag) {
           getTag = function(value) {
             var result2 = baseGetTag(value), Ctor = result2 == objectTag ? value.constructor : undefined2, ctorString = Ctor ? toSource(Ctor) : "";
             if (ctorString) {
@@ -4118,7 +4118,7 @@ var require_lodash = __commonJS({
         function unary(func) {
           return ary(func, 1);
         }
-        function wrap(value, wrapper) {
+        function wrap2(value, wrapper) {
           return partial(castFunction(wrapper), value);
         }
         function castArray() {
@@ -5241,7 +5241,7 @@ var require_lodash = __commonJS({
         lodash.valuesIn = valuesIn;
         lodash.without = without;
         lodash.words = words;
-        lodash.wrap = wrap;
+        lodash.wrap = wrap2;
         lodash.xor = xor;
         lodash.xorBy = xorBy;
         lodash.xorWith = xorWith;
@@ -5645,7 +5645,7 @@ var Logger = class {
 };
 
 // src/settings/types.ts
-var DATA_VERSION = 1;
+var DATA_VERSION = 2;
 var DEFAULT_SETTINGS = {
   accounts: [],
   defaultPageSize: 10,
@@ -5657,13 +5657,54 @@ var DEFAULT_SETTINGS = {
   tagShowPRMergeable: false,
   tagShowFileBranchName: true,
   tagShowFileLineNumber: true,
-  cacheIntervalSeconds: 60,
   maxCacheAgeHours: 120,
   minRequestSeconds: 60
 };
 
 // src/settings/settings-tab.ts
 var import_obsidian4 = require("obsidian");
+
+// src/keychain.ts
+var storage;
+function initKeychain(secretStorage) {
+  storage = secretStorage;
+}
+function getToken(account) {
+  if (!account.tokenSecret) {
+    return null;
+  }
+  return storage.getSecret(account.tokenSecret);
+}
+function setToken(account, token, secretName) {
+  if (!secretName && !account.tokenSecret) {
+    secretName = `github-link-${account.name.toLowerCase().replace(/[^a-z0-9]/g, "-")}`;
+  }
+  if (secretName) {
+    account.tokenSecret = secretName;
+  }
+  storage.setSecret(account.tokenSecret, token);
+}
+function clearToken(account) {
+  if (account.tokenSecret) {
+    storage.setSecret(account.tokenSecret, "");
+  }
+}
+function migrateTokens(accounts) {
+  for (const account of accounts) {
+    if (account.token && !account.tokenSecret) {
+      setToken(account, account.token);
+      logger.info(`Migrated token for account "${account.name}" to Obsidian Keychain as "${account.tokenSecret}".`);
+    }
+  }
+}
+function loadTokens(accounts) {
+  for (const account of accounts) {
+    const token = getToken(account);
+    if (token) {
+      account.token = token;
+    }
+  }
+}
 
 // src/settings/account.ts
 var import_obsidian3 = require("obsidian");
@@ -6582,7 +6623,7 @@ var AccountSettings = class {
   }
   renderNewAccount(container, saveNewAccountCallback) {
     if (!this.newAccount) {
-      this.newAccount = { id: crypto.randomUUID(), name: "", orgs: [], token: "", customOAuth: false };
+      this.newAccount = { id: crypto.randomUUID(), name: "", orgs: [], token: "", tokenSecret: "", customOAuth: false };
     }
     const accountContainer = container.createDiv();
     const header = accountContainer.createEl("h3", { text: "New account" });
@@ -6637,7 +6678,7 @@ var AccountSettings = class {
       });
     }
     new import_obsidian3.Setting(accountContainer).setName("Token").setDesc(
-      "A GitHub token, which can be generated automatically (recommended) or by creating a personal access token (not recommended unless org does not allow OAuth tokens). Required."
+      "A GitHub token stored in Obsidian's keychain. Generate one automatically (recommended) or link an existing secret."
     ).addButton((button) => {
       button.setButtonText("Generate Token");
       button.onClick(async () => {
@@ -6652,15 +6693,16 @@ var AccountSettings = class {
         (_b = this.authModal) == null ? void 0 : _b.close();
         this.authModal = null;
         this.newAccount.token = authResult.token;
+        setToken(this.newAccount, authResult.token);
         this.displayCallback();
       });
-    }).addText((text) => {
-      text.setPlaceholder("Personal Access Token / OAuth Token");
-      text.setValue(this.newAccount.token);
-      text.onChange((value) => {
-        this.newAccount.token = value.trim();
-      });
-    });
+    }).addComponent(
+      (el) => new import_obsidian3.SecretComponent(this.app, el).setValue(this.newAccount.tokenSecret).onChange((secretName) => {
+        this.newAccount.tokenSecret = secretName;
+        const token = this.app.secretStorage.getSecret(secretName);
+        this.newAccount.token = token != null ? token : "";
+      })
+    );
     new import_obsidian3.Setting(accountContainer).addButton((button) => {
       button.setButtonText("Save account");
       button.setTooltip("Save account");
@@ -6728,7 +6770,7 @@ var AccountSettings = class {
       });
     }
     new import_obsidian3.Setting(accountContainer).setName("Token").setDesc(
-      "A GitHub token, which can be generated automatically (recommended) or by creating a personal access token (not recommended unless org does not allow OAuth tokens)."
+      "A GitHub token stored in Obsidian's keychain. Generate one automatically (recommended) or link an existing secret."
     ).addButton((button) => {
       button.setButtonText("Generate Token");
       button.onClick(async () => {
@@ -6743,17 +6785,18 @@ var AccountSettings = class {
         (_a = this.authModal) == null ? void 0 : _a.close();
         this.authModal = null;
         account.token = authResult.token;
+        setToken(account, authResult.token);
         await this.saveCallback();
         this.displayCallback();
       });
-    }).addText((text) => {
-      text.setPlaceholder("Personal Access Token / OAuth Token");
-      text.setValue(account.token);
-      text.onChange((value) => {
-        account.token = value.trim();
-        void this.saveCallback();
-      });
-    });
+    }).addComponent(
+      (el) => new import_obsidian3.SecretComponent(this.app, el).setValue(account.tokenSecret).onChange(async (secretName) => {
+        account.tokenSecret = secretName;
+        const token = this.app.secretStorage.getSecret(secretName);
+        account.token = token != null ? token : "";
+        await this.saveCallback();
+      })
+    );
   }
   tokenVerification(verification) {
     this.authModal = new AuthModal(this.app, verification);
@@ -6780,7 +6823,7 @@ var GithubLinkPluginSettingsTab = class extends import_obsidian4.PluginSettingTa
     containerEl.empty();
     containerEl.createEl("h2", { text: "GitHub authentication" });
     containerEl.createEl("p", {
-      text: "No authentication is required to reference public repositories. Providing a token allows referencing private repos, but the token is stored in plain text. You can create multiple accounts for multiple tokens."
+      text: "No authentication is required to reference public repositories. Providing a token allows referencing private repos. Tokens are stored securely in the Obsidian Keychain. You can create multiple accounts for multiple tokens."
     });
     const newAccountSection = containerEl.createDiv();
     new import_obsidian4.Setting(newAccountSection).setName("Add account").addButton((button) => {
@@ -6890,45 +6933,12 @@ var GithubLinkPluginSettingsTab = class extends import_obsidian4.PluginSettingTa
       });
     });
     containerEl.createEl("h3", { text: "Cache settings" });
-    new import_obsidian4.Setting(containerEl).setClass("github-link-sub-setting").setName("Cache save interval (seconds)").setDesc(
-      "If it has been updated, cache will be saved to disk after this number of seconds while Obsidian is open."
-    ).addExtraButton((button) => {
-      button.setIcon("rotate-ccw");
-      button.setTooltip("Restore default");
-      button.onClick(async () => {
-        PluginSettings.cacheIntervalSeconds = DEFAULT_SETTINGS.cacheIntervalSeconds;
-        await this.saveSettings();
-        this.plugin.setCacheInterval();
-        this.display();
-      });
-    }).addSlider((slider) => {
-      var _a;
-      const manualInput = createEl("input", { attr: { type: "number" }, cls: "github-link-slider-input" });
-      manualInput.value = PluginSettings.cacheIntervalSeconds.toString();
-      manualInput.addEventListener("change", (e) => {
-        const value = parseInt(e.target.value, 10);
-        PluginSettings.cacheIntervalSeconds = value;
-        slider.setValue(value);
-        void this.saveSettings();
-      });
-      (_a = slider.sliderEl.parentElement) == null ? void 0 : _a.prepend(manualInput);
-      slider.setValue(PluginSettings.cacheIntervalSeconds);
-      slider.setLimits(10, 1200, 10);
-      slider.setDynamicTooltip();
-      slider.onChange(async (value) => {
-        PluginSettings.cacheIntervalSeconds = value;
-        manualInput.value = value.toString();
-        await this.saveSettings();
-        this.plugin.setCacheInterval();
-      });
-    });
     new import_obsidian4.Setting(containerEl).setClass("github-link-sub-setting").setName("Max cache age (hours)").setDesc("Upon Obsidian startup, cache entries older than this many hours will be removed.").addExtraButton((button) => {
       button.setIcon("rotate-ccw");
       button.setTooltip("Restore default");
       button.onClick(async () => {
         PluginSettings.maxCacheAgeHours = DEFAULT_SETTINGS.maxCacheAgeHours;
         await this.saveSettings();
-        this.plugin.setCacheInterval();
         this.display();
       });
     }).addSlider((slider) => {
@@ -6985,8 +6995,7 @@ var GithubLinkPluginSettingsTab = class extends import_obsidian4.PluginSettingTa
       button.setIcon("trash");
       button.setButtonText("Clear cache");
       button.onClick(async () => {
-        const itemsDeleted = getCache().clean(/* @__PURE__ */ new Date());
-        PluginData.cache = null;
+        const itemsDeleted = await getCache().clean(/* @__PURE__ */ new Date());
         await this.saveSettings();
         new import_obsidian4.Notice(`Removed ${itemsDeleted} stored items from GitHub Link cache.`, 3e3);
       });
@@ -7014,15 +7023,11 @@ var GithubLinkPluginSettingsTab = class extends import_obsidian4.PluginSettingTa
     });
   }
   saveSettings() {
-    const newData = {
-      cache: PluginData.cache,
-      settings: PluginSettings,
-      dataVersion: DATA_VERSION
-    };
-    return this.plugin.saveData(newData);
+    return this.plugin.saveData(this.plugin.getDataForSave());
   }
   async removeAccount(account) {
     PluginSettings.accounts.remove(account);
+    clearToken(account);
     await this.saveSettings();
   }
   async saveNewAccount(account) {
@@ -7617,10 +7622,10 @@ var _GitHubApi = class _GitHubApi {
       logger.debug(`Response (${config.url}):`);
       logger.debug(response);
       if ((cachedValue == null ? void 0 : cachedValue.response) && response.status === 304) {
-        getCache().update(config);
+        await getCache().update(config);
         return this.getPaginationMeta(cachedValue.response);
       } else if (isSuccessResponse(response.status)) {
-        getCache().set(config, response);
+        await getCache().set(config, response);
       }
       const retryAfterSeconds = parseInt(response.headers["retry-after"]);
       const rateLimitRemaining = parseInt(response.headers["x-ratelimit-remaining"]);
@@ -7701,7 +7706,7 @@ function getAccount(org) {
   const account = (_a = PluginSettings.accounts.find((acc) => acc.orgs.some((savedOrg) => savedOrg === org))) != null ? _a : PluginSettings.accounts.find((acc) => acc.id === PluginSettings.defaultAccount);
   return account;
 }
-function getToken(org, query) {
+function getToken2(org, query) {
   let _org = org;
   if (!org && query) {
     const match = tokenMatchRegex.exec(query);
@@ -7713,7 +7718,7 @@ function getToken(org, query) {
   return account == null ? void 0 : account.token;
 }
 function getIssue(org, repo, issue, skipCache = false) {
-  return api.getIssue(org, repo, issue, getToken(org), skipCache);
+  return api.getIssue(org, repo, issue, getToken2(org), skipCache);
 }
 function getMyIssues(params, org, skipCache = false) {
   const account = getAccount(org);
@@ -7723,7 +7728,7 @@ function getMyIssues(params, org, skipCache = false) {
   return api.listIssuesForToken(toIssueListParams(params), account.token, skipCache);
 }
 function getIssuesForRepo(params, org, repo, skipCache = false) {
-  return api.listIssuesForRepo(org, repo, toIssueListParams(params), getToken(org), skipCache);
+  return api.listIssuesForRepo(org, repo, toIssueListParams(params), getToken2(org), skipCache);
 }
 function getIssuesForOrganization(params, org, skipCache = false) {
   const listParams = mapObject(
@@ -7750,10 +7755,10 @@ function getIssuesForOrganization(params, org, skipCache = false) {
     true
   );
   setPageSize(listParams);
-  return api.listIssuesForOrganization(org, listParams, getToken(org), skipCache);
+  return api.listIssuesForOrganization(org, listParams, getToken2(org), skipCache);
 }
 function getPullRequest(org, repo, pullRequest, skipCache = false) {
-  return api.getPullRequest(org, repo, pullRequest, getToken(org), skipCache);
+  return api.getPullRequest(org, repo, pullRequest, getToken2(org), skipCache);
 }
 function getPullRequestsForRepo(params, org, repo, skipCache = false) {
   const listParams = mapObject(
@@ -7769,7 +7774,7 @@ function getPullRequestsForRepo(params, org, repo, skipCache = false) {
     true
   );
   setPageSize(listParams);
-  return api.listPullRequestsForRepo(org, repo, listParams, getToken(org), skipCache);
+  return api.listPullRequestsForRepo(org, repo, listParams, getToken2(org), skipCache);
 }
 async function searchIssues(params, query, org, skipCache = false) {
   const searchParams = mapObject(
@@ -7785,13 +7790,13 @@ async function searchIssues(params, query, org, skipCache = false) {
     true
   );
   setPageSize(searchParams);
-  return api.searchIssues(searchParams, getToken(org, query), skipCache);
+  return api.searchIssues(searchParams, getToken2(org, query), skipCache);
 }
 async function getPRForIssue(timelineUrl, org) {
   var _a, _b, _c;
   let result = null;
   try {
-    const { response } = await api.queueRequest({ url: timelineUrl }, getToken(org));
+    const { response } = await api.queueRequest({ url: timelineUrl }, getToken2(org));
     result = response.json;
   } catch (err) {
     if (err instanceof RequestError2 && err.status === 404) {
@@ -8161,7 +8166,245 @@ function createInlineViewPlugin(_plugin) {
   });
 }
 
+// node_modules/idb/build/index.js
+var instanceOfAny = (object, constructors) => constructors.some((c) => object instanceof c);
+var idbProxyableTypes;
+var cursorAdvanceMethods;
+function getIdbProxyableTypes() {
+  return idbProxyableTypes || (idbProxyableTypes = [
+    IDBDatabase,
+    IDBObjectStore,
+    IDBIndex,
+    IDBCursor,
+    IDBTransaction
+  ]);
+}
+function getCursorAdvanceMethods() {
+  return cursorAdvanceMethods || (cursorAdvanceMethods = [
+    IDBCursor.prototype.advance,
+    IDBCursor.prototype.continue,
+    IDBCursor.prototype.continuePrimaryKey
+  ]);
+}
+var transactionDoneMap = /* @__PURE__ */ new WeakMap();
+var transformCache = /* @__PURE__ */ new WeakMap();
+var reverseTransformCache = /* @__PURE__ */ new WeakMap();
+function promisifyRequest(request2) {
+  const promise = new Promise((resolve, reject) => {
+    const unlisten = () => {
+      request2.removeEventListener("success", success);
+      request2.removeEventListener("error", error);
+    };
+    const success = () => {
+      resolve(wrap(request2.result));
+      unlisten();
+    };
+    const error = () => {
+      reject(request2.error);
+      unlisten();
+    };
+    request2.addEventListener("success", success);
+    request2.addEventListener("error", error);
+  });
+  reverseTransformCache.set(promise, request2);
+  return promise;
+}
+function cacheDonePromiseForTransaction(tx) {
+  if (transactionDoneMap.has(tx))
+    return;
+  const done = new Promise((resolve, reject) => {
+    const unlisten = () => {
+      tx.removeEventListener("complete", complete);
+      tx.removeEventListener("error", error);
+      tx.removeEventListener("abort", error);
+    };
+    const complete = () => {
+      resolve();
+      unlisten();
+    };
+    const error = () => {
+      reject(tx.error || new DOMException("AbortError", "AbortError"));
+      unlisten();
+    };
+    tx.addEventListener("complete", complete);
+    tx.addEventListener("error", error);
+    tx.addEventListener("abort", error);
+  });
+  transactionDoneMap.set(tx, done);
+}
+var idbProxyTraps = {
+  get(target, prop, receiver) {
+    if (target instanceof IDBTransaction) {
+      if (prop === "done")
+        return transactionDoneMap.get(target);
+      if (prop === "store") {
+        return receiver.objectStoreNames[1] ? void 0 : receiver.objectStore(receiver.objectStoreNames[0]);
+      }
+    }
+    return wrap(target[prop]);
+  },
+  set(target, prop, value) {
+    target[prop] = value;
+    return true;
+  },
+  has(target, prop) {
+    if (target instanceof IDBTransaction && (prop === "done" || prop === "store")) {
+      return true;
+    }
+    return prop in target;
+  }
+};
+function replaceTraps(callback) {
+  idbProxyTraps = callback(idbProxyTraps);
+}
+function wrapFunction(func) {
+  if (getCursorAdvanceMethods().includes(func)) {
+    return function(...args) {
+      func.apply(unwrap(this), args);
+      return wrap(this.request);
+    };
+  }
+  return function(...args) {
+    return wrap(func.apply(unwrap(this), args));
+  };
+}
+function transformCachableValue(value) {
+  if (typeof value === "function")
+    return wrapFunction(value);
+  if (value instanceof IDBTransaction)
+    cacheDonePromiseForTransaction(value);
+  if (instanceOfAny(value, getIdbProxyableTypes()))
+    return new Proxy(value, idbProxyTraps);
+  return value;
+}
+function wrap(value) {
+  if (value instanceof IDBRequest)
+    return promisifyRequest(value);
+  if (transformCache.has(value))
+    return transformCache.get(value);
+  const newValue = transformCachableValue(value);
+  if (newValue !== value) {
+    transformCache.set(value, newValue);
+    reverseTransformCache.set(newValue, value);
+  }
+  return newValue;
+}
+var unwrap = (value) => reverseTransformCache.get(value);
+function openDB(name, version, { blocked, upgrade, blocking, terminated } = {}) {
+  const request2 = indexedDB.open(name, version);
+  const openPromise = wrap(request2);
+  if (upgrade) {
+    request2.addEventListener("upgradeneeded", (event) => {
+      upgrade(wrap(request2.result), event.oldVersion, event.newVersion, wrap(request2.transaction), event);
+    });
+  }
+  if (blocked) {
+    request2.addEventListener("blocked", (event) => blocked(
+      // Casting due to https://github.com/microsoft/TypeScript-DOM-lib-generator/pull/1405
+      event.oldVersion,
+      event.newVersion,
+      event
+    ));
+  }
+  openPromise.then((db) => {
+    if (terminated)
+      db.addEventListener("close", () => terminated());
+    if (blocking) {
+      db.addEventListener("versionchange", (event) => blocking(event.oldVersion, event.newVersion, event));
+    }
+  }).catch(() => {
+  });
+  return openPromise;
+}
+var readMethods = ["get", "getKey", "getAll", "getAllKeys", "count"];
+var writeMethods = ["put", "add", "delete", "clear"];
+var cachedMethods = /* @__PURE__ */ new Map();
+function getMethod(target, prop) {
+  if (!(target instanceof IDBDatabase && !(prop in target) && typeof prop === "string")) {
+    return;
+  }
+  if (cachedMethods.get(prop))
+    return cachedMethods.get(prop);
+  const targetFuncName = prop.replace(/FromIndex$/, "");
+  const useIndex = prop !== targetFuncName;
+  const isWrite = writeMethods.includes(targetFuncName);
+  if (
+    // Bail if the target doesn't exist on the target. Eg, getAll isn't in Edge.
+    !(targetFuncName in (useIndex ? IDBIndex : IDBObjectStore).prototype) || !(isWrite || readMethods.includes(targetFuncName))
+  ) {
+    return;
+  }
+  const method = async function(storeName, ...args) {
+    const tx = this.transaction(storeName, isWrite ? "readwrite" : "readonly");
+    let target2 = tx.store;
+    if (useIndex)
+      target2 = target2.index(args.shift());
+    return (await Promise.all([
+      target2[targetFuncName](...args),
+      isWrite && tx.done
+    ]))[0];
+  };
+  cachedMethods.set(prop, method);
+  return method;
+}
+replaceTraps((oldTraps) => ({
+  ...oldTraps,
+  get: (target, prop, receiver) => getMethod(target, prop) || oldTraps.get(target, prop, receiver),
+  has: (target, prop) => !!getMethod(target, prop) || oldTraps.has(target, prop)
+}));
+var advanceMethodProps = ["continue", "continuePrimaryKey", "advance"];
+var methodMap = {};
+var advanceResults = /* @__PURE__ */ new WeakMap();
+var ittrProxiedCursorToOriginalProxy = /* @__PURE__ */ new WeakMap();
+var cursorIteratorTraps = {
+  get(target, prop) {
+    if (!advanceMethodProps.includes(prop))
+      return target[prop];
+    let cachedFunc = methodMap[prop];
+    if (!cachedFunc) {
+      cachedFunc = methodMap[prop] = function(...args) {
+        advanceResults.set(this, ittrProxiedCursorToOriginalProxy.get(this)[prop](...args));
+      };
+    }
+    return cachedFunc;
+  }
+};
+async function* iterate(...args) {
+  let cursor = this;
+  if (!(cursor instanceof IDBCursor)) {
+    cursor = await cursor.openCursor(...args);
+  }
+  if (!cursor)
+    return;
+  cursor = cursor;
+  const proxiedCursor = new Proxy(cursor, cursorIteratorTraps);
+  ittrProxiedCursorToOriginalProxy.set(proxiedCursor, cursor);
+  reverseTransformCache.set(proxiedCursor, unwrap(cursor));
+  while (cursor) {
+    yield proxiedCursor;
+    cursor = await (advanceResults.get(proxiedCursor) || cursor.continue());
+    advanceResults.delete(proxiedCursor);
+  }
+}
+function isIteratorProp(target, prop) {
+  return prop === Symbol.asyncIterator && instanceOfAny(target, [IDBIndex, IDBObjectStore, IDBCursor]) || prop === "iterate" && instanceOfAny(target, [IDBIndex, IDBObjectStore]);
+}
+replaceTraps((oldTraps) => ({
+  ...oldTraps,
+  get(target, prop, receiver) {
+    if (isIteratorProp(target, prop))
+      return iterate;
+    return oldTraps.get(target, prop, receiver);
+  },
+  has(target, prop) {
+    return isIteratorProp(target, prop) || oldTraps.has(target, prop);
+  }
+}));
+
 // src/github/cache.ts
+var DB_NAME = "obsidian-github-link";
+var STORE_NAME = "request-cache";
+var DB_VERSION = 1;
 var CacheEntry = class _CacheEntry {
   constructor(request2, response, retrieved, etag, lastModified) {
     this.request = request2;
@@ -8170,11 +8413,19 @@ var CacheEntry = class _CacheEntry {
     this.etag = etag;
     this.lastModified = lastModified;
   }
+  static fromStored(data) {
+    return new _CacheEntry(
+      { url: data.url, body: data.requestBody },
+      data.response,
+      new Date(data.retrieved),
+      data.etag,
+      data.lastModified
+    );
+  }
   static fromJSON(json) {
-    let result = null;
     try {
       const parsed = JSON.parse(json);
-      result = new _CacheEntry(
+      return new _CacheEntry(
         parsed.request,
         parsed.response,
         new Date(parsed.retrieved),
@@ -8184,49 +8435,53 @@ var CacheEntry = class _CacheEntry {
     } catch (err) {
       logger.error("Failure reconstructing cache!");
       logger.error(err);
+      return null;
     }
-    return result;
   }
-  toJSON() {
-    const params = {
-      request: this.request,
+  toStored() {
+    return {
+      url: this.request.url,
+      requestBody: this.request.body,
       response: this.response,
       retrieved: this.retrieved.getTime(),
       etag: this.etag,
       lastModified: this.lastModified
     };
-    return JSON.stringify(params);
   }
 };
 var RequestCache = class {
-  constructor(storedCache) {
-    this.cacheUpdated = false;
-    this.entries = {};
-    if (storedCache) {
-      try {
-        for (const entryString of storedCache) {
-          const entry = CacheEntry.fromJSON(entryString);
-          if (!entry) {
-            return;
-          }
-          this.entries[this.getCacheKey(entry.request)] = entry;
-        }
-      } catch (err) {
-        logger.warn("Could not read stored cache data, cache will be cleared.");
-        logger.warn(err);
+  constructor() {
+    this.db = null;
+    this.memCache = {};
+  }
+  /**
+   * Open the IndexedDB database. Must be called before using the cache.
+   */
+  async init() {
+    this.db = await openDB(DB_NAME, DB_VERSION, {
+      upgrade(db) {
+        const store = db.createObjectStore(STORE_NAME, { keyPath: "url" });
+        store.createIndex("by-retrieved", "retrieved");
       }
+    });
+    const all = await this.db.getAll(STORE_NAME);
+    for (const data of all) {
+      this.memCache[data.url] = CacheEntry.fromStored(data);
     }
   }
+  /**
+   * Synchronous read from in-memory cache.
+   */
   get(request2) {
     var _a;
-    const entry = (_a = this.entries[this.getCacheKey(request2)]) != null ? _a : null;
+    const entry = (_a = this.memCache[this.getCacheKey(request2)]) != null ? _a : null;
     if (entry && !entry.response.headers) {
       entry.response.headers = {};
     }
     return entry;
   }
-  set(request2, response) {
-    var _a, _b;
+  async set(request2, response) {
+    var _a, _b, _c;
     if (!isSuccessResponse(response.status)) {
       logger.warn(`Attempted to cache a non-successful request: ${request2.url}`);
       return;
@@ -8246,41 +8501,65 @@ var RequestCache = class {
       etag,
       lastModified
     );
-    this.entries[this.getCacheKey(request2)] = entry;
-    this.cacheUpdated = true;
+    const key = this.getCacheKey(request2);
+    this.memCache[key] = entry;
+    await ((_c = this.db) == null ? void 0 : _c.put(STORE_NAME, entry.toStored()));
   }
-  remove(request2) {
-    if (typeof request2 === "string") {
-      delete this.entries[request2];
-    } else {
-      delete this.entries[this.getCacheKey(request2)];
-    }
-    this.cacheUpdated = true;
+  async remove(request2) {
+    var _a;
+    const key = typeof request2 === "string" ? request2 : this.getCacheKey(request2);
+    delete this.memCache[key];
+    await ((_a = this.db) == null ? void 0 : _a.delete(STORE_NAME, key));
   }
-  clean(maxAge) {
+  async clean(maxAge) {
+    var _a;
     let entriesDeleted = 0;
-    for (const [k, v] of Object.entries(this.entries)) {
+    const keysToDelete = [];
+    for (const [k, v] of Object.entries(this.memCache)) {
       if (v.retrieved < maxAge) {
-        delete this.entries[k];
-        entriesDeleted += 1;
+        keysToDelete.push(k);
       }
+    }
+    for (const key of keysToDelete) {
+      delete this.memCache[key];
+      await ((_a = this.db) == null ? void 0 : _a.delete(STORE_NAME, key));
+      entriesDeleted += 1;
     }
     return entriesDeleted;
   }
-  update(request2) {
-    let entry = null;
-    if (typeof request2 === "string") {
-      entry = this.entries[request2];
-    } else {
-      entry = this.entries[this.getCacheKey(request2)];
-    }
+  async update(request2) {
+    var _a;
+    const key = typeof request2 === "string" ? request2 : this.getCacheKey(request2);
+    const entry = this.memCache[key];
     if (entry) {
       entry.retrieved = /* @__PURE__ */ new Date();
+      await ((_a = this.db) == null ? void 0 : _a.put(STORE_NAME, entry.toStored()));
     }
-    this.cacheUpdated = true;
   }
-  toJSON() {
-    return Object.values(this.entries).map((e) => e.toJSON());
+  /**
+   * Import entries from the old JSON-based cache (data.json migration).
+   */
+  async importFromJSON(storedCache) {
+    var _a;
+    let imported = 0;
+    for (const entryString of storedCache) {
+      const entry = CacheEntry.fromJSON(entryString);
+      if (entry) {
+        const key = this.getCacheKey(entry.request);
+        this.memCache[key] = entry;
+        await ((_a = this.db) == null ? void 0 : _a.put(STORE_NAME, entry.toStored()));
+        imported += 1;
+      }
+    }
+    return imported;
+  }
+  /**
+   * Close the IndexedDB connection.
+   */
+  close() {
+    var _a;
+    (_a = this.db) == null ? void 0 : _a.close();
+    this.db = null;
   }
   getCacheKey(request2) {
     return request2.url;
@@ -8636,7 +8915,7 @@ async function QueryProcessor(source, el, _ctx) {
 
 // src/plugin.ts
 var PluginSettings = { ...DEFAULT_SETTINGS };
-var PluginData = { cache: null, settings: PluginSettings, dataVersion: DATA_VERSION };
+var PluginData = { settings: PluginSettings, dataVersion: DATA_VERSION };
 var logger = new Logger();
 var cache;
 function getCache() {
@@ -8648,50 +8927,61 @@ var GithubLinkPlugin = class extends import_obsidian10.Plugin {
     Object.assign(PluginSettings, data.settings);
     Object.assign(PluginData, data);
     logger.logLevel = PluginSettings.logLevel;
-    cache = new RequestCache(PluginData.cache);
-    if (data.dataVersion === void 0 || PluginData.dataVersion < DATA_VERSION) {
-      const entriesDeleted2 = cache.clean(/* @__PURE__ */ new Date());
-      PluginData.cache = null;
-      PluginData.dataVersion = DATA_VERSION;
-      await this.saveData(PluginData);
-      new import_obsidian10.Notice(
-        `GitHub link data schema migrated to version ${DATA_VERSION}. Removed ${entriesDeleted2} stored items from GitHub Link cache.`,
-        3e3
-      );
+    cache = new RequestCache();
+    await cache.init();
+    initKeychain(this.app.secretStorage);
+    const needsSave = [this.keychainMigration(), await this.cacheMigration(data)].some((bool) => bool);
+    if (needsSave) {
+      await this.saveData(this.getDataForSave());
     }
+    loadTokens(PluginSettings.accounts);
     const maxAge = new Date((/* @__PURE__ */ new Date()).getTime() - PluginSettings.maxCacheAgeHours * 60 * 60 * 1e3);
-    const entriesDeleted = cache.clean(maxAge);
+    const entriesDeleted = await cache.clean(maxAge);
     if (entriesDeleted > 0) {
-      PluginData.cache = cache.toJSON();
-      await this.saveData(PluginData);
       logger.info(`Cleaned ${entriesDeleted} entries from request cache.`);
     }
     this.addSettingTab(new GithubLinkPluginSettingsTab(this.app, this));
     this.registerMarkdownPostProcessor(InlineRenderer);
     this.registerEditorExtension(createInlineViewPlugin(this));
     this.registerMarkdownCodeBlockProcessor("github-query", QueryProcessor);
-    this.setCacheInterval();
   }
   /**
-   * Save cache at regular interval
+   * Returns plugin data with tokens stripped from accounts, for safe persistence to data.json.
    */
-  setCacheInterval() {
-    const checkCache = async () => {
-      var _a;
-      logger.debug("Checking if cache needs a save.");
-      if (cache.cacheUpdated) {
-        PluginData.cache = cache.toJSON();
-        await this.saveData(PluginData);
-        cache.cacheUpdated = false;
-        logger.info(`Saved request cache with ${(_a = PluginData.cache) == null ? void 0 : _a.length} items.`);
-      }
+  getDataForSave() {
+    return {
+      settings: {
+        ...PluginSettings,
+        accounts: PluginSettings.accounts.map((acc) => ({ ...acc, token: "" }))
+      },
+      dataVersion: DATA_VERSION
     };
-    window.clearInterval(this.cacheInterval);
-    this.cacheInterval = this.registerInterval(
-      window.setInterval(() => {
-        void checkCache();
-      }, PluginSettings.cacheIntervalSeconds * 1e3)
-    );
+  }
+  /**
+   * Migrate from legacy plain-text secrets to obsidian keychain
+   */
+  keychainMigration() {
+    if (PluginSettings.accounts.some((acc) => acc.token && !acc.tokenSecret)) {
+      migrateTokens(PluginSettings.accounts);
+      return true;
+    }
+    return false;
+  }
+  /**
+   * Migrate from legacy data.json cache to IndexedDB cache
+   */
+  async cacheMigration(data) {
+    let needsSave = false;
+    if (data.settings.cacheIntervalSeconds) {
+      delete data.settings.cacheIntervalSeconds;
+      needsSave = true;
+    }
+    if (data.cache && Array.isArray(data.cache) && data.cache.length > 0) {
+      const imported = await cache.importFromJSON(data.cache);
+      logger.info(`Migrated ${imported} cache entries from data.json to IndexedDB.`);
+      needsSave = true;
+    }
+    return needsSave;
   }
 };
 

@@ -10,7 +10,7 @@ body.hider-vault:not(.is-mobile) .workspace-split.mod-left-split .workspace-side
 }
 
 .hider-tabs .mod-top-left-space .view-header {
-	padding-left: var(--frame-left-space);
+	padding-left: calc(var(--frame-left-space) + var(--size-4-3));
 }
 
 /* Hide sidebar buttons */
@@ -31,6 +31,9 @@ body.hider-vault:not(.is-mobile) .workspace-split.mod-left-split .workspace-side
 }
 
 /* Hide scrollbars */
+.hider-scroll {
+	--scrollbar-native-width: none;
+}
 .hider-scroll ::-webkit-scrollbar {
 	display:none;
 }
@@ -51,7 +54,7 @@ body.hider-vault:not(.is-mobile) .workspace-split.mod-left-split .workspace-side
 }
 
 /* Hide search count flair */
-.hider-search-counts .tree-item-flair:not(.tag-pane-tag-count) { 
+.hider-search-counts :is(.backlink-pane,.outgoing-link-pane,.search-result-container) .tree-item-flair { 
 	display:none;
 }
 

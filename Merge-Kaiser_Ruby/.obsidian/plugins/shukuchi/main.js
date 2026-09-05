@@ -33,6 +33,13 @@ var import_obsidian3 = require("obsidian");
 // src/settings.ts
 var import_obsidian = require("obsidian");
 
+// src/errors.ts
+var ExhaustiveError = class extends Error {
+  constructor(value, message = `Unsupported type: ${value}`) {
+    super(message);
+  }
+};
+
 // src/utils/collections.ts
 function sorter(toOrdered, order = "asc") {
   return (a, b) => order === "asc" ? toOrdered(a) > toOrdered(b) ? 1 : toOrdered(b) > toOrdered(a) ? -1 : 0 : toOrdered(a) < toOrdered(b) ? 1 : toOrdered(b) < toOrdered(a) ? -1 : 0;
@@ -44,15 +51,61 @@ function mirror(collection) {
   return mirrorMap(collection, (x) => x);
 }
 
-// src/errors.ts
-var ExhaustiveError = class extends Error {
-  constructor(value, message = `Unsupported type: ${value}`) {
-    super(message);
+// src/link-targets.ts
+var directionList = ["forward", "both", "backward"];
+function lineAt(content, offset) {
+  return content.slice(0, offset).split("\n").length - 1;
+}
+function findLinkTargets(content) {
+  const linksMatches = Array.from(
+    content.matchAll(/(?<link>\[\[[^\]]+\]\]|\[[^\]]+\]\([^)]+\))/g)
+  );
+  const linkTargets = linksMatches.map((match) => {
+    const start = match.index;
+    return {
+      start,
+      end: start + match.groups.link.length,
+      line: lineAt(content, start)
+    };
+  });
+  const urlsMatches = Array.from(
+    content.matchAll(/(^| |\(|\n)(?<url>[a-zA-Z+-.]+:\/\/[^ )\n]+)/g)
+  );
+  const urlTargets = urlsMatches.map((match) => {
+    const start = match.index + match[0].length - match.groups.url.length;
+    return {
+      start,
+      end: start + match.groups.url.length,
+      line: lineAt(content, start)
+    };
+  }).filter(
+    (urlTarget) => !linkTargets.some(
+      (linkTarget) => linkTarget.start <= urlTarget.start && linkTarget.end >= urlTarget.end
+    )
+  );
+  return [...linkTargets, ...urlTargets];
+}
+function selectTargets(targets, currentOffset, cursorLine, direction) {
+  switch (direction) {
+    case "forward":
+      return [...targets].sort(sorter((x) => x.start)).filter((x) => x.end >= currentOffset);
+    case "both":
+      return [...targets].sort(
+        sorter(
+          (x) => Math.min(
+            Math.abs(x.start - currentOffset),
+            Math.abs(x.end - currentOffset)
+          ) + (x.line === cursorLine ? 0 : 1e4)
+        )
+      );
+    case "backward":
+      return [...targets].sort(sorter((x) => x.start, "desc")).filter((x) => x.start <= currentOffset);
+    default:
+      throw new ExhaustiveError(direction);
   }
-};
+}
 
 // src/commands.ts
-var directionList = ["forward", "both", "backward"];
 function createCommand(leaf) {
   switch (leaf) {
     case "same-tab":
@@ -67,52 +120,17 @@ function createCommand(leaf) {
       throw new ExhaustiveError(leaf);
   }
 }
-function selectTargets(targets, currentOffset, cursor, direction) {
-  switch (direction) {
-    case "forward":
-      return targets.sort(sorter((x) => x.start)).filter((x) => x.end >= currentOffset);
-    case "both":
-      return targets.sort(
-        sorter(
-          (x) => Math.min(
-            Math.abs(x.start - currentOffset),
-            Math.abs(x.end - currentOffset)
-          ) + (x.line === cursor.line ? 0 : 1e4)
-        )
-      );
-    case "backward":
-      return targets.sort(sorter((x) => x.start, "desc")).filter((x) => x.start <= currentOffset);
-    default:
-      throw new ExhaustiveError(direction);
-  }
-}
 function findTargets(appHelper, option) {
   const editor = appHelper.getActiveMarkdownEditor();
   if (!editor) {
     return [];
   }
-  const linksMatches = Array.from(
-    editor.getValue().matchAll(/(?<link>\[\[[^\]]+]])/g)
-  );
-  const internalLinkPositions = linksMatches.map((x) => ({
-    start: x.index,
-    end: x.index + x.groups.link.length,
-    line: editor.offsetToPos(x.index + 1).line
-  }));
-  const urlsMatches = Array.from(
-    editor.getValue().matchAll(/(^| |\(|\n)(?<url>[a-zA-Z+-.]+:\/\/[^ )\n]+)/g)
-  );
-  const externalLinkPositions = urlsMatches.map((x) => ({
-    start: x.index,
-    end: x.index + x.groups.url.length,
-    line: editor.offsetToPos(x.index + 1).line
-  }));
   const cursor = editor.getCursor();
   const currentOffset = editor.posToOffset(cursor);
   return selectTargets(
-    [...internalLinkPositions, ...externalLinkPositions],
+    findLinkTargets(editor.getValue()),
     currentOffset,
-    cursor,
+    cursor.line,
     option.direction
   );
 }
@@ -165,114 +183,83 @@ async function openLink(appHelper, option) {
     appHelper.executeCoreCommand(createCommand(option.leaf));
   }
   if (option.leaf === "same-tab" && option.delayFocusInterval > 0) {
-    await sleep(option.delayFocusInterval);
+    await new Promise(
+      (resolve) => setTimeout(resolve, option.delayFocusInterval)
+    );
     (_b = appHelper.getActiveCMEditor()) == null ? void 0 : _b.focus();
   }
 }
+var openCommandDefinitions = [
+  { id: "open-link", name: "Open link", leaf: "same-tab" },
+  {
+    id: "open-link-in-new-tab",
+    name: "Open link in new tab",
+    leaf: "new-tab"
+  },
+  {
+    id: "open-link-in-new-tabgroup",
+    name: "Open link in new tab group",
+    leaf: "new-tabgroup"
+  },
+  {
+    id: "open-link-in-new-tabgroup-horizontally",
+    name: "Open link in new tab group horizontally",
+    leaf: "new-tabgroup-horizontally"
+  },
+  {
+    id: "open-link-in-new-window",
+    name: "Open link in new window",
+    leaf: "new-window"
+  }
+];
+function isCommandAvailable(appHelper) {
+  return Boolean(
+    appHelper.getActiveFile() && appHelper.getActiveMarkdownView()
+  );
+}
 function createCommands(appHelper, settings) {
   return [
-    {
-      id: "open-link",
-      name: "Open link",
+    ...openCommandDefinitions.map(({ id, name, leaf }) => ({
+      id,
+      name,
       checkCallback: (checking) => {
-        if (appHelper.getActiveFile() && appHelper.getActiveMarkdownView()) {
-          if (!checking) {
-            openLink(appHelper, {
-              leaf: "same-tab",
-              direction: settings.directionOfPossibleTeleportation,
-              delayFocusInterval: settings.delayFocusInterval
-            });
-          }
-          return true;
+        if (!isCommandAvailable(appHelper)) {
+          return;
         }
-      }
-    },
-    {
-      id: "open-link-in-new-tab",
-      name: "Open link in new tab",
-      checkCallback: (checking) => {
-        if (appHelper.getActiveFile() && appHelper.getActiveMarkdownView()) {
-          if (!checking) {
-            openLink(appHelper, {
-              leaf: "new-tab",
-              direction: settings.directionOfPossibleTeleportation,
-              delayFocusInterval: settings.delayFocusInterval
-            });
-          }
-          return true;
+        if (!checking) {
+          void openLink(appHelper, {
+            leaf,
+            direction: settings.directionOfPossibleTeleportation,
+            delayFocusInterval: settings.delayFocusInterval
+          });
         }
+        return true;
       }
-    },
-    {
-      id: "open-link-in-new-tabgroup",
-      name: "Open link in new tab group",
-      checkCallback: (checking) => {
-        if (appHelper.getActiveFile() && appHelper.getActiveMarkdownView()) {
-          if (!checking) {
-            openLink(appHelper, {
-              leaf: "new-tabgroup",
-              direction: settings.directionOfPossibleTeleportation,
-              delayFocusInterval: settings.delayFocusInterval
-            });
-          }
-          return true;
-        }
-      }
-    },
-    {
-      id: "open-link-in-new-tabgroup-horizontally",
-      name: "Open link in new tab group horizontally",
-      checkCallback: (checking) => {
-        if (appHelper.getActiveFile() && appHelper.getActiveMarkdownView()) {
-          if (!checking) {
-            openLink(appHelper, {
-              leaf: "new-tabgroup-horizontally",
-              direction: settings.directionOfPossibleTeleportation,
-              delayFocusInterval: settings.delayFocusInterval
-            });
-          }
-          return true;
-        }
-      }
-    },
-    {
-      id: "open-link-in-new-window",
-      name: "Open link in new window",
-      checkCallback: (checking) => {
-        if (appHelper.getActiveFile() && appHelper.getActiveMarkdownView()) {
-          if (!checking) {
-            openLink(appHelper, {
-              leaf: "new-window",
-              direction: settings.directionOfPossibleTeleportation,
-              delayFocusInterval: settings.delayFocusInterval
-            });
-          }
-          return true;
-        }
-      }
-    },
+    })),
     {
       id: "move-to-next-link",
       name: "Move to next link",
       checkCallback: (checking) => {
-        if (appHelper.getActiveFile() && appHelper.getActiveMarkdownView()) {
-          if (!checking) {
-            moveToLink(appHelper, { direction: "forward" });
-          }
-          return true;
+        if (!isCommandAvailable(appHelper)) {
+          return;
         }
+        if (!checking) {
+          moveToLink(appHelper, { direction: "forward" });
+        }
+        return true;
       }
     },
     {
       id: "move-to-previous-link",
       name: "Move to previous link",
       checkCallback: (checking) => {
-        if (appHelper.getActiveFile() && appHelper.getActiveMarkdownView()) {
-          if (!checking) {
-            moveToLink(appHelper, { direction: "backward" });
-          }
-          return true;
+        if (!isCommandAvailable(appHelper)) {
+          return;
         }
+        if (!checking) {
+          moveToLink(appHelper, { direction: "backward" });
+        }
+        return true;
       }
     }
   ];

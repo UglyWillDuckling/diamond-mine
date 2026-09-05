@@ -1,0 +1,9 @@
+{
+  "id": "hello-plugin",
+  "name": "Hello Plugin",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "My first Obsidian plugin",
+  "author": "Vladimir",
+  "isDesktopOnly": true
+}

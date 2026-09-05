@@ -21,8 +21,8 @@
 ## placanja
 
 - [x] platiti racun od [[Malueva]]
-- [ ] #task platiti racune od Marije, 150:LiEuro: 📅 2026-04-27
+- [/] #task platiti racune od Marije, 150:LiEuro: 📅 2026-04-27
 
 ## ostalo
 
-- [ ] #task vidjeti za dupli racun od Tehnike, Zeljo 🔼 📅 2026-04-27
+- [x] #task vidjeti za dupli racun od Tehnike, Zeljo 🔼 📅 2026-04-27 ✅ 2026-06-23

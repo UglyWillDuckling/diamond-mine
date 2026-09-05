@@ -1,0 +1,6 @@
+---
+aliases:
+  - Senka
+---
+
+#person/life

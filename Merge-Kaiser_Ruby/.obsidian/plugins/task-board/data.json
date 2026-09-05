@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0-beta-2",
+  "version": "2.0.0-beta-5",
   "data": {
     "lang": "en",
     "openOnStartup": false,
@@ -141,8 +141,8 @@
     "compatiblePlugins": {
       "dailyNotesPlugin": false,
       "dayPlannerPlugin": false,
-      "tasksPlugin": false,
-      "reminderPlugin": false,
+      "tasksPlugin": true,
+      "reminderPlugin": true,
       "quickAddPlugin": false
     },
     "taskNoteIdentifierTag": "taskNote",
@@ -270,25 +270,9 @@
       "renderVisibleNodes": false,
       "edgeType": "default"
     },
-    "taskBoardFilesRegistry": {
-      "220548208": {
-        "boardId": "220548208",
-        "filePath": "Meta/Task_Board/Boards/Tag Based Workflow.taskboard",
-        "boardName": "Tag Based Workflow",
-        "boardDescription": ""
-      },
-      "1290068545": {
-        "boardId": "1290068545",
-        "filePath": "Meta/Task_Board/Boards/Time Based Workflow.taskboard",
-        "boardName": "Time Based Workflow",
-        "boardDescription": ""
-      },
-      "3718680803": {
-        "boardId": "3718680803",
-        "filePath": "Meta/Task_Board/Boards/Status Based Workflow.taskboard",
-        "boardName": "Status Based Workflow",
-        "boardDescription": ""
-      }
-    }
+    "taskBoardFilesRegistry": {},
+    "enableDragnDropTouch": false,
+    "filtersWarehouse": [],
+    "ribbonIconAction": "menu"
   }
 }

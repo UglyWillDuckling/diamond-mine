@@ -218,6 +218,18 @@
       },
       "open-gate": {
         "startupType": "instant"
+      },
+      "game-search": {
+        "startupType": "instant"
+      },
+      "hello-plugin": {
+        "startupType": "disabled"
+      },
+      "hot-reload": {
+        "startupType": "instant"
+      },
+      "digitalgarden": {
+        "startupType": "instant"
       }
     }
   }

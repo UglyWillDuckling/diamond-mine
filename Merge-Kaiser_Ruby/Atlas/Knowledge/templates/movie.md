@@ -2,6 +2,9 @@
 cover: {{VALUE:Poster}}
 ---
 
+> [!NOTE] Title
+> Contents
+
 category:: {{VALUE:typeLink}}
 director:: {{VALUE:directorLink}}
 genre:: {{VALUE:genreLinks}}

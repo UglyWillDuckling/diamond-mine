@@ -64,3 +64,10 @@ views:
     cardSize: 270
     imageFit: contain
     imageAspectRatio: 0.85
+  - type: kanban
+    name: View
+    groupBy:
+      property: status
+      direction: ASC
+    hideEmptyGroups: false
+    image: note.image

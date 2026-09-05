@@ -7,9 +7,6 @@ tags:
 aliases:
   - CSMA/CD
 ---
-- [Article](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access_with_collision_detection)
-- [Talk](https://en.wikipedia.org/wiki/Talk:Carrier-sense_multiple_access_with_collision_detection)
-
 **Carrier-sense multiple access with collision detection** (**CSMA/CD**) is a [medium access control](https://en.wikipedia.org/wiki/Medium_access_control "Medium access control") (MAC) method used most notably in early [Ethernet](https://en.wikipedia.org/wiki/Ethernet "Ethernet") technology for [local area networking](https://en.wikipedia.org/wiki/Local_area_network "Local area network"). It uses [carrier](https://en.wikipedia.org/wiki/Carrier_signal "Carrier signal") -sensing to defer transmissions until no other stations are transmitting. This is used in combination with collision detection in which a transmitting station detects collisions by sensing transmissions from other stations while it is transmitting a [frame](https://en.wikipedia.org/wiki/Frame_\(telecommunications\) "Frame (telecommunications)"). When this collision condition is detected, the station stops transmitting that frame, transmits a jam signal, and then waits for a random time interval before trying to resend the frame.[^3]
 
 CSMA/CD is a modification of pure [carrier-sense multiple access](https://en.wikipedia.org/wiki/Carrier-sense_multiple_access "Carrier-sense multiple access") (CSMA). CSMA/CD is used to improve CSMA performance by terminating transmission as soon as a collision is detected, thus shortening the time required before a retry can be attempted.

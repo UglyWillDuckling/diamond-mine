@@ -29,8 +29,8 @@ var require_manifest = __commonJS({
   "manifest.json"(exports, module2) {
     module2.exports = {
       id: "lazy-plugins",
-      name: "Lazy Plugin Loader",
-      version: "1.0.21",
+      name: "Lazy Loader",
+      version: "1.0.24",
       minAppVersion: "1.6.0",
       description: "Load plugins with a delay on startup, so that you can get your app startup down into the sub-second loading time.",
       author: "Alan Grainger",
@@ -130,8 +130,9 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
       dropdown.addOption("", "Set all plugins to be:");
       this.addDelayOptions(dropdown);
       dropdown.onChange(async (value) => {
+        const startupType = value;
         this.lazyPlugin.manifests.forEach((plugin) => {
-          this.pluginSettings[plugin.id] = { startupType: value };
+          this.pluginSettings[plugin.id] = { startupType };
         });
         this.dropdowns.forEach((dropdown2) => dropdown2.setValue(value));
         dropdown.setValue("");
@@ -153,10 +154,8 @@ var SettingsTab = class extends import_obsidian.PluginSettingTab {
     this.pluginListContainer.textContent = "";
     this.lazyPlugin.manifests.forEach((plugin) => {
       const currentValue = this.lazyPlugin.getPluginStartup(plugin.id);
-      if (this.filterMethod && currentValue !== this.filterMethod)
-        return;
-      if (this.filterString && !plugin.name.toLowerCase().includes(this.filterString.toLowerCase()))
-        return;
+      if (this.filterMethod && currentValue !== this.filterMethod) return;
+      if (this.filterString && !plugin.name.toLowerCase().includes(this.filterString.toLowerCase())) return;
       new import_obsidian.Setting(this.pluginListContainer).setName(plugin.name).addDropdown((dropdown) => {
         this.dropdowns.push(dropdown);
         this.addDelayOptions(dropdown);
@@ -217,13 +216,15 @@ var LazyPlugin = class extends import_obsidian2.Plugin {
     const isActiveOnStartup = obsidian.enabledPlugins.has(pluginId);
     const isRunning = (_b = (_a = obsidian.plugins) == null ? void 0 : _a[pluginId]) == null ? void 0 : _b._loaded;
     switch (startupType) {
+      // For disabled plugins
       case "disabled" /* disabled */:
         await obsidian.disablePluginAndSave(pluginId);
         break;
+      // For instant-start plugins
       case "instant" /* instant */:
-        if (!isActiveOnStartup && !isRunning)
-          await obsidian.enablePluginAndSave(pluginId);
+        if (!isActiveOnStartup && !isRunning) await obsidian.enablePluginAndSave(pluginId);
         break;
+      // For plugins with a delay
       case "short" /* short */:
       case "long" /* long */:
         if (isActiveOnStartup) {

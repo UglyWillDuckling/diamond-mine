@@ -21,7 +21,7 @@ ___
 - [x] #task nabaviti ponudu za solare [[Filip Marjanovic]] 📅 2026-03-09 ✅ 2026-03-23
 - [x] #task **dobiti ponudu za krov** 🆔 9JvBsY 🔼 📅 2026-03-06 ✅ 2026-04-15
 
-- [/] #task organizirati odlazak u [[Zagreb]] - laminat i vrata 🆔 JrZlXe 📅 2026-03-09
+- [x] #task organizirati odlazak u [[Zagreb]] - laminat i vrata 🆔 JrZlXe 📅 2026-03-09 ✅ 2026-06-22
 
 - [ ] #task kontaktirati stolara [[Stolar dio]] 📅 2026-03-09 🆔 VPnhDM
 	- [x] pronaci broj i ime
@@ -33,11 +33,11 @@ ___
 - [x] #task platiti materijal za vodu preko obrta 🔼 📅 2026-03-09 ✅ 2026-03-23
 - [x] #task poslati [[mail Vukojevic]] 📅 2026-03-08 ✅ 2026-03-23
 
-- [ ] #task osigurati **knauf** 🆔 OpDRW8
+- [x] #task osigurati **knauf** 🆔 OpDRW8 ✅ 2026-06-22
 	- [ ] #task dobiti novu ponudu za knauf od drugog majstora 🆔 LiYDoP
 	- [/] #task zatraziti novu ponudu od [[Marko Maric]] za knauf 🆔 Wg0lgu
 
-- [ ] #task kupiti stol  🆔 kWLmHQ
+- [/] #task kupiti stol 🆔 kWLmHQ
 
 ### dijelovi
 
@@ -67,10 +67,3 @@ ___
 - [[Unutarnja stolarija]]
 - ..
 ### wip
-
--  ploca je gotova
-- trebamo vidjeti sto s krovom
-- organizirati ostale radove
-- nadzor struje nije jasan
-
-==Izlazi procijenitelj==

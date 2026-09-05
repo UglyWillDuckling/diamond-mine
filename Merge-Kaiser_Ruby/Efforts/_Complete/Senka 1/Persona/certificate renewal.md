@@ -3,18 +3,19 @@ type: task
 exampleProperty: 2025-01-06
 ssl_start: 2025-01-06
 ssl_end: 2025-04-06
-status: in-progress
+status: archived
 priority: normal
-dateModified: 2026-04-27T00:15:13.450+02:00
+dateModified: 2026-05-19T22:14:00.609+02:00
 tags:
   - archived
 title: certificate renewal
 ---
+
 #ticket 
 
 Ticket to implement **certificate** **renewal** process on [[Efforts/_Complete/Senka 1/Persona/Docs/Persona.hr]]
 
-- [x] #task [[Efforts/_Complete/Senka 1/Persona/certificate renewal]] 🆔 Htr8QL ⏫ ⏳ 2025-02-08 📅 2025-02-12 ✅ 2025-02-12
+- [x] #task [[Efforts/_Complete/Senka 1/Persona/certificate renewal]] 🆔 Htr8QL ⏫ ⏳ 2025-02-08 📅 2025-02-12 ✅ 2026-05-19
 	- [x] check current **status** of the **ssl** **cert** [^1] on [[Efforts/_Complete/Senka 1/Persona/Docs/Persona.hr]]
 	- [x] permanently save the new cert details
 	- [x] #task Implement permanent solution, cronjob 🆔 nMfbCO 🔼 ⏳ 2025-02-13 📅 2025-02-16 ✅ 2025-02-15

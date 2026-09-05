@@ -1,18 +1,22 @@
+---
+dg-home: true
+dg-publish: true
+---
+[[Tjedan 34 - 2026]]
+___
 
 - [[movies base.base]]
 - [[tv shows.base]]
 - [[books base.base]]
 - [[Kuca]]
-
-[[Tjedan 21 - 2026]]
-___
-
-## faks
-
-- [[Predmeti]]
-- [[programsko inženjerstvo]] [[seminar - programsk ing. - Webinari]]
-- ..
+- [[ps1 games.base]]
 
 ## study
 
-[[Squeak By Example]]
+- [[Squeak By Example]]
+- [[Pokemon Gen 2]]
+- [[Media Requests Project]]
+
+..
+
+- [[Faks]]

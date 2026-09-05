@@ -5,7 +5,10 @@ created: 2025-08-06
 tags:
   - director
   - person/notable
+image: https://en.wikipedia.org/wiki/File%3ADavid_Lynch_Cannes_2017.jpg
 ---
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/00/David_Lynch_Cannes_2017.jpg)
 
 **David Keith Lynch** (January 20, 1946 – January 15, 2025) was an American filmmaker, visual artist, musician, and actor. Often called a " [visionary](https://en.m.wikipedia.org/wiki/Visionary "Visionary") " and acclaimed for [films](https://en.m.wikipedia.org/wiki/David_Lynch_filmography "David Lynch filmography") distinguished by their [surrealist](https://en.m.wikipedia.org/wiki/Surrealist_cinema "Surrealist cinema") and [experimental](https://en.m.wikipedia.org/wiki/Experimental_film "Experimental film") qualities, Lynch is widely regarded as one of the greatest and most influential filmmakers in the [history of cinema](https://en.m.wikipedia.org/wiki/History_of_cinema "History of cinema").[^1] In a career spanning more than five decades, he received [numerous accolades](https://en.m.wikipedia.org/wiki/List_of_accolades_received_by_David_Lynch "List of accolades received by David Lynch"), including the [Golden Lion for Lifetime Achievement](https://en.m.wikipedia.org/wiki/Golden_Lion_for_Lifetime_Achievement "Golden Lion for Lifetime Achievement") at the [Venice Film Festival](https://en.m.wikipedia.org/wiki/Venice_Film_Festival "Venice Film Festival") in 2006 and an [Academy Honorary Award](https://en.m.wikipedia.org/wiki/Academy_Honorary_Award "Academy Honorary Award") in 2019.
 

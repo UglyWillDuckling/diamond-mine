@@ -39,9 +39,12 @@ code.iad > p {
 	display: flex;
 }
 
-.iad-sample-editor {
+.iad-sample {
 	margin: 0.5em;
-	display: inline-block;
+}
+
+.iad-pre-wrap {
+	white-space: pre-wrap;
 }
 
 .iad-hidden {
@@ -50,6 +53,75 @@ code.iad > p {
 
 .cm-active .iad-hidden {
 	display: inline;
+}
+
+/* Edit modal: header stays fixed; only the body below it scrolls, so the sample
+   and the modal close button never scroll away. */
+.iad-edit-modal .modal-content {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.iad-modal-header {
+	flex: 0 0 auto;
+	background-color: var(--background-primary);
+	border-bottom: 1px solid var(--background-modifier-border);
+	/* Keep the Submit button clear of the modal's close (X) button. */
+	padding-right: var(--size-4-8);
+	margin-bottom: var(--size-4-3);
+}
+
+.iad-modal-header .setting-item {
+	border-top: none;
+	padding: var(--size-4-1) 0;
+}
+
+.iad-modal-body {
+	flex: 1 1 auto;
+	min-height: 0;
+	overflow-y: auto;
+}
+
+/* Edit modal: collapsible setting sections */
+.iad-section + .iad-section {
+	border-top: 1px solid var(--background-modifier-border);
+}
+
+.iad-section-title {
+	cursor: pointer;
+	color: var(--text-accent);
+	font-size: var(--font-ui-small);
+	font-weight: var(--font-semibold);
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	padding: var(--size-4-3) var(--size-4-2) var(--size-4-2);
+	border-radius: var(--radius-s);
+}
+
+.iad-section-title:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.iad-section-label {
+	margin-left: var(--size-4-2);
+}
+
+.iad-section-body {
+	padding: 0 var(--size-4-3) var(--size-4-4);
+}
+
+/* The section header already separates content; drop the first row's top border
+   so it doesn't read as a second divider under the header. */
+.iad-section-body .setting-item:first-child {
+	border-top: none;
+}
+
+/* Icon suggestion rows in the icon picker */
+.iad-suggest-icon {
+	display: inline-flex;
+	align-items: center;
+	margin-right: var(--size-4-2);
 }
 
 .admonition-icon-left {
@@ -71,6 +143,17 @@ code.iad > p {
 	/*width: 1em;*/
 }
 
+/*
+ * In Live Preview our decoration nests `.iad` INSIDE Obsidian's `.cm-inline-code`
+ * span, so the code span's background leaks around the bubble. We neutralize the
+ * parent only when it actually contains an admonition. This is the cheap variant of
+ * `:has()` (a direct-child test scoped to `.cm-inline-code`, re-evaluated only when an
+ * inline-code span's children change) — not the broad ancestor `:has()` the perf
+ * guidance warns about. CSS has no other way to style a parent by its child, and the
+ * alternatives don't work here: CodeMirror forces `.cm-inline-code` to be the outer
+ * element (decoration precedence can't flip the nesting), and tagging the parent from
+ * JS is reverted by CodeMirror's DOM observer.
+ */
 .cm-s-obsidian .cm-inline-code:has(> .iad) {
 	background-color: transparent;
 }

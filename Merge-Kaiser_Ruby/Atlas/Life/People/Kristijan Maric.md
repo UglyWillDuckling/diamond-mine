@@ -1,1 +1,5 @@
+---
+aliases:
+  - Kristijan
+---
 #majstor/struja

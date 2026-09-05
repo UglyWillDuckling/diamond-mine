@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.hasTag("media")
+    - and:
+        - topics.contains(link("Film"))
+views:
+  - type: table
+    name: by interest
+    groupBy:
+      property: interest
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - author
+    sort:
+      - property: author
+        direction: ASC
+    columnSize:
+      file.name: 340
+      note.status: 145

@@ -1043,6 +1043,94 @@ BorderedMorph»initialize
 > [!NOTE] note
 > An initialize method should always start by sending super initialize.
 
+#### Self sends and super sends
+
+A super send triggers a static method lookup starting in
+the superclass of the class of the method performing the
+super send.
+
+#### Message not understood
+
+What happens if the method we are looking for is not found?
+Suppose we send the message foo to our ellipse. First, the normal
+method lookup would go through the inheritance chain all the way up to
+Object (or rather ProtoObject) looking for this method. When this method
+is not found, the virtual machine will notify the object of the failure by
+causing it to send self doesNotUnderstand: #foo.
+
+What happens if the method we are looking for is not found?
+Suppose we send the message foo to our ellipse. First, the normal
+method lookup would go through the inheritance chain all the way up to
+Object (or rather ProtoObject) looking for this method. When this method
+is not found, the virtual machine will notify the object of the failure by
+causing it to send self doesNotUnderstand: #foo.
+
+
+###  Shared variables
+
+Next, we will look at an aspect of Smalltalk that is not so easily covered by
+our five rules: shared variables.
+Smalltalk provides three kinds of shared variables: 
+- (1) **globally** shared variables; 
+- (2) variables shared between instances and classes (**class** variables),
+- (3) variables shared amongst a group of classes (**pool** variables). The
+	names of all of these shared variables start with a capital letter, to warn us
+	that they are indeed shared between multiple objects.
+
+#### Class variables
+
+Sometimes, we need to share some data amongst all the instances of a class
+and the class itself. This is possible using class variables. The term class
+variable indicates that the lifetime of the variable is the same as that of
+the class. ==However, what the term does not convey is that these variables==
+==are shared amongst all the instances of a class as well as the class itself,== as
+shown in Figure 5.5. Indeed, a better name would have been **shared variables**
+since this expresses more clearly their role, and also warns of the danger of
+using them, particularly if they are modified.
+
+In Figure 5.5 we see that rgb and cachedDepth are instance variables of
+Color, hence only accessible to instances of Color. We also see that superclass,
+subclass, methodDict and so on are class instance variables, i.e., instance
+variables only accessible to the **Color** class.
+![[shared.png|500]]
+
+```smalltalk
+Object subclass: #Color
+instanceVariableNames: 'rgb cachedDepth cachedBitPattern'
+classVariableNames: 'Black Blue BlueShift Brown CachedColormaps ColorChart
+ColorNames ComponentMask ComponentMax Cyan DarkGray Gray
+GrayToIndexMap Green GreenShift HalfComponentMask HighLightBitmaps
+IndexedColors LightBlue LightBrown LightCyan LightGray LightGreen
+LightMagenta LightOrange LightRed LightYellow Magenta MaskingMap Orange
+PaleBlue PaleBuff PaleGreen PaleMagenta PaleOrange PalePeach PaleRed
+PaleTan PaleYellow PureBlue PureCyan PureGreen PureMagenta PureRed
+PureYellow RandomStream Red RedShift TranslucentPatterns Transparent
+VeryDarkGray VeryLightGray VeryPaleRed VeryVeryDarkGray
+VeryVeryLightGray White Yellow'
+poolDictionaries: ''
+category: 'Graphics-Primitives'
+```
+
+
+#### Class initialization
+
+The presence of class variables raises the question: How do we initialize
+them? One solution is lazy initialization. This can be done by introducing
+an accessor method which, when executed, initializes the variable if it has
+not yet been initialized. This implies that we must use the accessor all the
+time and never use the class variable directly. This furthermore imposes the
+cost of the accessor send and the initialization test. It also arguably defeats
+the point of using a class variable, since in fact it is no longer shared.
+
+**Another solution is to override the class method initialize.**
+
+If you adopt this solution, you need to remember to invoke the initialize
+method after you define it, e.g., by evaluating **Color initialize.** Although class
+side initialize methods are executed automatically when code is loaded into
+memory, they are not executed automatically when they are first typed into
+the browser and compiled, or when they are edited and re-compiled.
+
+## The Squeak programming environment
 
 
 

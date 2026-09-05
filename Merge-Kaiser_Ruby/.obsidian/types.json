@@ -94,6 +94,17 @@
     "sudionici": "multitext",
     "TQ_show_toolbar": "checkbox",
     "reminds me of": "multitext",
-    "similiar_writers": "multitext"
+    "similiar_writers": "multitext",
+    "similiar_books": "multitext",
+    "similiar": "multitext",
+    "people": "multitext",
+    "have it": "checkbox",
+    "want it": "checkbox",
+    "downloaded": "checkbox",
+    "end_date": "date",
+    "month_nr": "number",
+    "dg-publish": "checkbox",
+    "dg-home": "checkbox",
+    "movie_status": "multitext"
   }
 }

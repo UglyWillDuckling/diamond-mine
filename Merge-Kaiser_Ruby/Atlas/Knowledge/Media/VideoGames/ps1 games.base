@@ -1,0 +1,46 @@
+filters:
+  and:
+    - platforms.contains("PlayStation")
+formulas:
+  release_year: date(release_date).format("YYYY")
+views:
+  - type: cards
+    name: gallery
+    order:
+      - file.name
+      - developers
+      - release_date
+      - have it
+      - want it
+    sort:
+      - property: name
+        direction: ASC
+    image: note.image
+  - type: table
+    name: Table
+    order:
+      - want it
+      - have it
+      - file.name
+    columnSize:
+      note.have it: 103
+      file.name: 245
+  - type: list
+    name: timeline
+    order:
+      - formula.release_year
+      - file.name
+    sort:
+      - property: release_date
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    markers: none
+    indentProperties: false
+  - type: cards
+    name: want it
+    filters:
+      and:
+        - note["want it"] == true
+    image: note.image
+    imageAspectRatio: 0.9

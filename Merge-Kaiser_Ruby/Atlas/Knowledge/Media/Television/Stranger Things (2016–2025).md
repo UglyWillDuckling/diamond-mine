@@ -29,17 +29,16 @@ streamingServices: []
 airing: false
 airedFrom: 07/15/2016
 airedTo: unknown
-watched: false
+watched: true
 lastWatched: ""
-personalRating: 0
-tags: mediaDB/tv/series
+personalRating: 8.5
 plan-to-watch: true
-finished: false
-status:
-  - 2_Waiting ⌚
+finished: true
+status: Finished
 new_episodes: 2025-12-01
+tags: mediaDB/tv/series
 ---
-
+,
 `$= '![Image|200](' + dv.current().image + ')'`
 
 ```dataviewjs

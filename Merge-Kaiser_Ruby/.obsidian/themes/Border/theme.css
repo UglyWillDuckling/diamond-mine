@@ -4280,12 +4280,14 @@ body:not(.is-mobile) .workspace-tab-header-container,
 
 body:not(.is-mobile) .app-container,
 body:not(.is-mobile) .workspace,
-.workspace-ribbon.mod-left:before {
+.workspace-ribbon.mod-left:before,
+.workspace-ribbon.mod-primary:before {
     background-color: transparent;
 }
 
 .workspace-ribbon,
-.workspace-ribbon.mod-left.is-collapsed {
+.workspace-ribbon.mod-left.is-collapsed,
+.workspace-ribbon.mod-primary.is-collapsed {
     border-right: none;
     background-color: transparent;
 }
@@ -4724,7 +4726,8 @@ body:not(.is-mobile).is-popout-window .workspace::before {
 
 .workspace-tab-header-container,
 .workspace-tabs.mod-top .workspace-tab-header-container,
-.workspace-ribbon.mod-left:before {
+.workspace-ribbon.mod-left:before,
+.workspace-ribbon.mod-primary:before {
     border-bottom: 1px solid transparent;
 }
 
@@ -4872,7 +4875,7 @@ body:not(.restored-scrollbars) .kanban-plugin__scroll-container::-webkit-scrollb
     background-clip: padding-box;
     border-radius: 20px;
     border: 3px solid transparent;
-    border-width: 3px 3px 3px 3px;
+    border-width: 3px;
     min-height: 45px
 }
 
@@ -4925,7 +4928,7 @@ body:not(.is-translucent) .titlebar-text {
     color: var(--text-on-accent) !important;
 }
 
-.is-hidden-frameless .titlebar-button-container.mod-right .titlebar-button {
+.is-hidden-frameless .titlebar:not(:has(+.modal)) .titlebar-button-container.mod-right .titlebar-button {
     height: 44px;
     width: 44px;
     padding: 0;
@@ -4939,7 +4942,7 @@ body:not(.is-translucent) .titlebar-text {
     margin-right: 0px;
 }
 
-.is-hidden-frameless .titlebar-button-container.mod-right {
+.is-hidden-frameless .titlebar:not(:has(+.modal)) .titlebar-button-container.mod-right {
     height: 44px;
 }
 
@@ -5421,22 +5424,22 @@ body:not(.is-mobile).status-bar-autohide>.app-container>.horizontal-main-contain
 }
 
 /*ribbon autohide*/
-body:not(.is-mobile).Ribbon-autohide.show-ribbon .workspace-ribbon.side-dock-ribbon.mod-left {
+body:not(.is-mobile).Ribbon-autohide.show-ribbon .workspace-ribbon.side-dock-ribbon {
     --ribbon-width: 16px;
     transition: all var(--anim-out);
 }
 
-body:not(.is-mobile).Ribbon-autohide.show-ribbon .workspace-ribbon.side-dock-ribbon.mod-left:hover {
+body:not(.is-mobile).Ribbon-autohide.show-ribbon .workspace-ribbon.side-dock-ribbon:hover {
     --ribbon-width: 44px;
     transition: all var(--anim-in);
 }
 
-body:not(.is-mobile).Ribbon-autohide.show-ribbon .workspace-ribbon.side-dock-ribbon.mod-left>* {
+body:not(.is-mobile).Ribbon-autohide.show-ribbon .workspace-ribbon.side-dock-ribbon>* {
     opacity: 0;
     transition: all var(--anim-out);
 }
 
-body:not(.is-mobile).Ribbon-autohide.show-ribbon .workspace-ribbon.side-dock-ribbon.mod-left:hover>* {
+body:not(.is-mobile).Ribbon-autohide.show-ribbon .workspace-ribbon.side-dock-ribbon:hover>* {
     opacity: 1;
     transition: all var(--anim-in);
 }
@@ -5507,7 +5510,7 @@ body:not(.is-mobile).tab-title-bar-autohide.nav-header-autohide .mod-root .works
 body:not(.is-mobile).nav-header-autohide :is(.workspace-leaf-content, .view-content)>.nav-header .search-input-container {
     height: 0px;
     opacity: 0;
-    margin: 0px auto 0px;
+    margin: 0px auto;
     transition: height var(--anim-out), opacity var(--anim-out), margin var(--anim-out);
 }
 
@@ -5675,11 +5678,11 @@ body:not(.restored-scrollbars) .mod-stacked ::-webkit-scrollbar-track {
 
 /* embedded backlinks */
 body:not(.is-mobile) .embedded-backlinks .nav-header~.search-input-container {
-    margin: 15px 0 0 0;
+    margin: 15px 0 0;
 }
 
 .is-mobile .embedded-backlinks .nav-header~.search-input-container {
-    margin: 10px 0 0 0;
+    margin: 10px 0 0;
 }
 
 /* document search replace */
@@ -6530,25 +6533,6 @@ body {
     --background-modifier-form-field: transparent;
 }
 
-body:not(.is-mobile) .modal.mod-settings .vertical-tab-header{
-    border-inline-end: 0;
-    padding: var(--size-4-2);
-}
-
-body:not(.is-mobile) .modal.mod-settings{
-    padding: var(--size-4-2);
-    background-color: var(--background-secondary);
-}
-
-body:not(.is-mobile) .modal.mod-settings .vertical-tab-content {
-    border-radius: var(--size-4-2);
-}
-
-body:not(.is-mobile) .modal-close-button{
-    top: var(--size-4-4);
-    right: var(--size-4-4);
-}
-
 .settings-search-container.vertical-tab-header-group {
     padding-top: 2px;
 }
@@ -6597,7 +6581,7 @@ body:not(.is-phone) .vertical-tab-nav-item.is-active {
 }
 
 /* ====== UI Components====== */
-body{
+body {
     --input-height: 32px;
     --input-radius: 6px;
 }
@@ -8679,19 +8663,6 @@ body {
 }
 
 /*  image hover effect */
-.markdown-source-view.mod-cm6 .cm-content>.image-embed {
-    contain: unset !important;
-}
-
-@media (hover: hover) {
-
-    .workspace-leaf-content[data-type="markdown"] .markdown-source-view .cm-content>img:hover,
-    .workspace-leaf-content[data-type="markdown"] .view-content .cm-content .image-embed img:hover {
-        outline-offset: 2px;
-        outline: 2px solid var(--background-modifier-border-hover);
-        border-radius: var(--radius-s);
-    }
-}
 
 .theme-dark.img-darken .markdown-preview-view img,
 .theme-dark.img-darken .markdown-source-view img {
@@ -8721,6 +8692,8 @@ body {
 .workspace-tab-header-inner-icon {
     align-items: center;
     justify-content: center;
+    width: 18px;
+    height: 18px;
 }
 
 .workspace-tab-header-tab-list,

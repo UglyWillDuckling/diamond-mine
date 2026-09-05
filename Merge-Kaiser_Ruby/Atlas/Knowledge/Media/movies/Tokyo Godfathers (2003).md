@@ -34,6 +34,9 @@ personalRating: 8.7
 tags:
   - film/animated
   - film/christmas
+selected: false
+movie_status:
+  - plan_to_watch
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

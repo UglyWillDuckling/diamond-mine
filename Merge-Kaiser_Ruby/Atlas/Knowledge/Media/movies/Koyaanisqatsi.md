@@ -13,6 +13,9 @@ plan-to-watch: true
 tags:
   - film
   - film/doc
+selected: false
+movie_status:
+  - plan_to_watch
 ---
 
 ![cover|250](https://s3.amazonaws.com/criterion-production/films/55db5dadfec17b9daf2d35fe8dcd13b2/qtYa3xcULravgM4Bb1zGk3eqWOwT0q_large.jpg)

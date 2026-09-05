@@ -30,6 +30,9 @@ tags:
   - film
 interest: 7
 plan-to-watch: true
+selected: false
+movie_status:
+  - plan_to_watch
 ---
 `$= '![Image|360](' + dv.current().image + ')'`
 

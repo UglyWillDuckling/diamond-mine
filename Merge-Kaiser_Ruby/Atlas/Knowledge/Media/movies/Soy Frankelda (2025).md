@@ -22,6 +22,9 @@ tags:
   - mediaDB/tv/movie
   - film/animated
 plan-to-watch: true
+selected: false
+movie_status:
+  - plan_to_watch
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

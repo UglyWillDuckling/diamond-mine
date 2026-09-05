@@ -33,6 +33,9 @@ tags:
   - film
   - film/comfort
 comf:
+selected: false
+movie_status:
+  - plan_to_watch
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

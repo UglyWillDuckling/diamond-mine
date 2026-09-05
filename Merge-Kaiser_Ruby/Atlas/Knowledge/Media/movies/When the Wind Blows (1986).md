@@ -28,6 +28,9 @@ tags:
   - film
 plan-to-watch: true
 interest: 8.1
+selected: false
+movie_status:
+  - plan_to_watch
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

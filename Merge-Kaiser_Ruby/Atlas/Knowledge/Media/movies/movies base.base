@@ -66,8 +66,32 @@ views:
     imageAspectRatio: 0.85
   - type: kanban
     name: View
+    filters:
+      and:
+        - watched == false
     groupBy:
-      property: status
+      property: movie_status
       direction: ASC
+    order:
+      - file.name
+      - interest
+      - watched
+    sort:
+      - property: interest
+        direction: DESC
     hideEmptyGroups: false
     image: note.image
+    columnWidth: 230
+    imageAspectRatio: 0.35
+  - type: table
+    name: Table
+    filters:
+      and:
+        - note["plan-to-watch"] == true
+    order:
+      - file.name
+      - selected
+      - movie_status
+    markers: bullet
+    columnSize:
+      note.movie_status: 276

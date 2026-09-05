@@ -2,7 +2,7 @@
 category:
   - "[[Film]]"
 interest:
-plan-to-watch: true
+plan-to-watch: false
 personal favorite: false
 type: movie
 subType: ""
@@ -29,7 +29,10 @@ premiere: 07/19/1991
 watched: false
 lastWatched: ""
 personalRating: 0
-tags: mediaDB/tv/movie
+tags:
+  - film
+selected: false
+movie_status:
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

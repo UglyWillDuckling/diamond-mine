@@ -31,6 +31,9 @@ tags:
   - film
   - film/animated
 interest: 7.8
+selected: false
+movie_status:
+  - plan_to_watch
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

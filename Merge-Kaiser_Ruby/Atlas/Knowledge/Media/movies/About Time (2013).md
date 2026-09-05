@@ -30,6 +30,7 @@ lastWatched: ""
 personalRating: 0
 tags:
   - film
+selected: false
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

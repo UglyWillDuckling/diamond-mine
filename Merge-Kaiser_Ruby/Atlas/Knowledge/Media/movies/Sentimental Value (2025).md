@@ -28,6 +28,9 @@ lastWatched: ""
 personalRating: 0
 tags:
   - fillm
+selected: false
+movie_status:
+  - plan_to_watch
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

@@ -12,10 +12,10 @@ genres:
   - Mystery
   - Thriller
 director:
-  - David Lynch
+  - "[[David Lynch]]"
 onlineRating: 7.9
 actors:
-  - Naomi Watts
+  - "[[Naomi Watts]]"
   - Laura Harring
   - Justin Theroux
 image: https://m.media-amazon.com/images/M/MV5BNjliY2UwMjQtYjVlNi00NzExLTg1MDMtMjE2OTYwYjI0NTcxXkEyXkFqcGc@._V1_SX300.jpg
@@ -28,6 +28,15 @@ plan-to-watch: true
 tags:
   - film
 interest: 7.94
+selected: false
+movie_status:
+  - plan_to_watch
+related:
+  - "[[Blue Velvet (1986)]]"
+  - "[[Lost Highway (1997)]]"
+  - "[[The Straight Story (1999)]]"
+  - "[[Twin Peaks (1990–2017)]]"
+  - "[["
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

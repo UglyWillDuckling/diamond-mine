@@ -21,7 +21,7 @@ actors:
 image: https://m.media-amazon.com/images/M/MV5BMjAzNjc1MjgzOF5BMl5BanBnXkFtZTcwMzE3Njk5NQ@@._V1_SX300.jpg
 released: true
 premiere: 05/13/2011
-watched: false
+watched: true
 lastWatched: ""
 personalRating: 0
 tags:

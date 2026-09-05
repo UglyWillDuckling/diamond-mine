@@ -24,6 +24,9 @@ personalRating: 0
 lastWatched: ""
 tags:
   - film/doc
+selected: false
+movie_status:
+  - plan_to_watch
 ---
 
 `$= '![Image|300](' + dv.current().image + ')'`

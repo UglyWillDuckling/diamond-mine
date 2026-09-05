@@ -1,7 +1,7 @@
 ---
 category:
   - "[[Film]]"
-plan-to-watch: true
+plan-to-watch: false
 interest:
 type: movie
 subType: ""
@@ -30,6 +30,8 @@ lastWatched: ""
 personalRating: 0
 tags:
   - film/comfort
+selected: false
+movie_status:
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

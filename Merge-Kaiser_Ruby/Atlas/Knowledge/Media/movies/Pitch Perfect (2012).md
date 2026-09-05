@@ -28,6 +28,9 @@ tags:
   - film/comedy
   - film/comfort
 plan-to-watch: true
+selected: false
+movie_status:
+  - plan_to_watch
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

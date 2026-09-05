@@ -31,6 +31,9 @@ lastWatched: 2026-03-22
 personalRating: 10
 tags:
   - film/comfort
+selected: false
+movie_status:
+  - plan_to_watch
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`[[Plaćen Celtic coin račun]]

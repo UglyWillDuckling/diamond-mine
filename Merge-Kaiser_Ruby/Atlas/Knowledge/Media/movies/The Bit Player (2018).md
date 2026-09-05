@@ -29,6 +29,9 @@ plan-to-watch: true
 about:
   - "[[Claude Shannon]]"
 interest: 7.6
+selected: false
+movie_status:
+  - plan_to_watch
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

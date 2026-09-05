@@ -38,6 +38,7 @@ themes:
   - "[[psychology]]"
 movie_status:
   - plan_to_watch
+selected: false
 ---
 
 `$= '![Image|360](' + dv.current().image + ')'`

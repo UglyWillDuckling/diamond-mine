@@ -9,6 +9,9 @@ plan-to-watch: true
 trailer: https://www.youtube.com/watch?v=FGqLYAcdEbs
 tags:
   - film
+selected: false
+movie_status:
+  - plan_to_watch
 ---
 `$= '![Image|200](' + dv.current().image + ')'`
 

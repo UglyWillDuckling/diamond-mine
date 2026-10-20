@@ -208,6 +208,17 @@ class RememberCursorPosition extends obsidian.Plugin {
             return true;
         return false;
     }
+    // Obsidian's hover preview (Page preview) and the Hover Editor plugin both
+    // render a markdown view inside a popover carrying the `hover-popover` class;
+    // Hover Editor additionally adds the `hover-editor` class. Such windows are
+    // transient, so they must never jump to, or record, a saved position.
+    isHoverPopoverActive() {
+        var _a;
+        const container = (_a = this.app.workspace.getActiveViewOfType(obsidian.MarkdownView)) === null || _a === void 0 ? void 0 : _a.containerEl;
+        if (!container)
+            return false;
+        return container.closest('.hover-popover') !== null || container.closest('.hover-editor') !== null;
+    }
     getOpenMarkdownFiles() {
         const files = new Set();
         this.app.workspace.iterateAllLeaves((leaf) => {
@@ -248,6 +259,9 @@ class RememberCursorPosition extends obsidian.Plugin {
     }
     checkEphemeralStateChanged() {
         var _a;
+        // Never track positions while a hover preview window is focused.
+        if (this.isHoverPopoverActive())
+            return;
         let fileName = (_a = this.app.workspace.getActiveFile()) === null || _a === void 0 ? void 0 : _a.path;
         //waiting for load new file
         if (!fileName || !this.lastLoadedFileName || fileName != this.lastLoadedFileName || this.loadingFile)
@@ -287,6 +301,9 @@ class RememberCursorPosition extends obsidian.Plugin {
     saveEphemeralState(st) {
         var _a;
         return __awaiter(this, void 0, void 0, function* () {
+            // Guards against recording a position from a hover preview window.
+            if (this.isHoverPopoverActive())
+                return;
             let fileName = (_a = this.app.workspace.getActiveFile()) === null || _a === void 0 ? void 0 : _a.path;
             if (fileName && fileName == this.lastLoadedFileName) { //do not save if file changed or was not loaded
                 if (this.isExcluded(fileName))
@@ -301,6 +318,14 @@ class RememberCursorPosition extends obsidian.Plugin {
             let fileName = (_a = this.app.workspace.getActiveFile()) === null || _a === void 0 ? void 0 : _a.path;
             if (fileName && this.loadingFile && this.lastLoadedFileName == fileName) //if already started loading
                 return;
+            // Hover preview windows (Obsidian's Page preview and the Hover Editor
+            // plugin) must never restore a position. Forgetting the note's saved
+            // position also stops these windows from causing erratic cursor jumps.
+            if (this.isHoverPopoverActive()) {
+                if (fileName)
+                    delete this.db[fileName];
+                return;
+            }
             // When a workspace is loaded and the user disabled workspace restoration,
             // skip restoring positions during the load window.
             if (this.workspaceLoadUntil > Date.now() && !this.settings.restorePositionOnWorkspaceLoad)

@@ -369,7 +369,7 @@ var require_lodash = __commonJS({
     };
     var freeGlobal = typeof global == "object" && global && global.Object === Object && global;
     var freeSelf = typeof self == "object" && self && self.Object === Object && self;
-    var root18 = freeGlobal || freeSelf || Function("return this")();
+    var root20 = freeGlobal || freeSelf || Function("return this")();
     function basePropertyOf(object) {
       return function(key2) {
         return object == null ? void 0 : object[key2];
@@ -378,7 +378,7 @@ var require_lodash = __commonJS({
     var deburrLetter = basePropertyOf(deburredLetters);
     var objectProto = Object.prototype;
     var objectToString = objectProto.toString;
-    var Symbol2 = root18.Symbol;
+    var Symbol2 = root20.Symbol;
     var symbolProto = Symbol2 ? Symbol2.prototype : void 0;
     var symbolToString = symbolProto ? symbolProto.toString : void 0;
     function baseToString(value) {
@@ -1323,13 +1323,13 @@ var require_slugify = __commonJS({
 // node_modules/crypto-js/core.js
 var require_core = __commonJS({
   "node_modules/crypto-js/core.js"(exports, module2) {
-    (function(root18, factory2) {
+    (function(root20, factory2) {
       if (typeof exports === "object") {
         module2.exports = exports = factory2();
       } else if (typeof define === "function" && define.amd) {
         define([], factory2);
       } else {
-        root18.CryptoJS = factory2();
+        root20.CryptoJS = factory2();
       }
     })(exports, function() {
       var CryptoJS = CryptoJS || (function(Math2, undefined2) {
@@ -1931,13 +1931,13 @@ var require_core = __commonJS({
 // node_modules/crypto-js/sha1.js
 var require_sha1 = __commonJS({
   "node_modules/crypto-js/sha1.js"(exports, module2) {
-    (function(root18, factory2) {
+    (function(root20, factory2) {
       if (typeof exports === "object") {
         module2.exports = exports = factory2(require_core());
       } else if (typeof define === "function" && define.amd) {
         define(["./core"], factory2);
       } else {
-        factory2(root18.CryptoJS);
+        factory2(root20.CryptoJS);
       }
     })(exports, function(CryptoJS) {
       (function() {
@@ -2022,13 +2022,13 @@ var require_sha1 = __commonJS({
 // node_modules/crypto-js/enc-latin1.js
 var require_enc_latin1 = __commonJS({
   "node_modules/crypto-js/enc-latin1.js"(exports, module2) {
-    (function(root18, factory2) {
+    (function(root20, factory2) {
       if (typeof exports === "object") {
         module2.exports = exports = factory2(require_core());
       } else if (typeof define === "function" && define.amd) {
         define(["./core"], factory2);
       } else {
-        factory2(root18.CryptoJS);
+        factory2(root20.CryptoJS);
       }
     })(exports, function(CryptoJS) {
       return CryptoJS.enc.Latin1;
@@ -10425,17 +10425,17 @@ var generateGardenSnapshot_exports = {};
 __export(generateGardenSnapshot_exports, {
   generateGardenSnapshot: () => generateGardenSnapshot
 });
-var import_obsidian30, import_promises, SNAPSHOT_PATH, generateGardenSnapshot;
+var import_obsidian32, import_promises, SNAPSHOT_PATH, generateGardenSnapshot;
 var init_generateGardenSnapshot = __esm({
   "src/test/snapshot/generateGardenSnapshot.ts"() {
     "use strict";
-    import_obsidian30 = require("obsidian");
+    import_obsidian32 = require("obsidian");
     import_promises = __toESM(require("fs/promises"));
     SNAPSHOT_PATH = "src/test/snapshot/snapshot.md";
     generateGardenSnapshot = (settings, publisher) => __async(null, null, function* () {
       const devPluginPath = settings.devPluginPath;
       if (!devPluginPath) {
-        new import_obsidian30.Notice("devPluginPath missing, run generateGardenSettings.mjs");
+        new import_obsidian32.Notice("devPluginPath missing, run generateGardenSettings.mjs");
         return;
       }
       const marked = yield publisher.getFilesMarkedForPublishing();
@@ -10457,11 +10457,11 @@ var init_generateGardenSnapshot = __esm({
       }
       fileString += "==========\n";
       const fullSnapshotPath = `${devPluginPath}/${SNAPSHOT_PATH}`;
-      if (import_obsidian30.Platform.isDesktop) {
+      if (import_obsidian32.Platform.isDesktop) {
         yield import_promises.default.writeFile(fullSnapshotPath, fileString);
       }
-      new import_obsidian30.Notice(`Snapshot written to ${fullSnapshotPath}`);
-      new import_obsidian30.Notice(`Check snapshot to make sure nothing has accidentally changed`);
+      new import_obsidian32.Notice(`Snapshot written to ${fullSnapshotPath}`);
+      new import_obsidian32.Notice(`Check snapshot to make sure nothing has accidentally changed`);
     });
   }
 });
@@ -10472,7 +10472,7 @@ __export(main_exports, {
   default: () => DigitalGarden
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian31 = require("obsidian");
+var import_obsidian33 = require("obsidian");
 
 // src/publisher/Publisher.ts
 var import_obsidian7 = require("obsidian");
@@ -11363,6 +11363,34 @@ var RepositoryConnection = class {
       if (!latestCommit) {
         throw new Error("Could not get latest commit");
       }
+      const commitSha = yield this.createCommit({
+        additions,
+        deletions,
+        message,
+        parent: latestCommit
+      });
+      yield this.octokit.request(
+        "PATCH /repos/{owner}/{repo}/git/refs/heads/{branch}",
+        __spreadProps(__spreadValues({}, this.getBasePayload()), {
+          branch: branch2,
+          sha: commitSha
+        })
+      );
+    });
+  }
+  /**
+   * Create one commit on top of `parent` holding the given additions and
+   * deletions (blobs → tree → commit) without moving any ref, and return
+   * its sha. Until a ref points at it the commit is invisible, so a failure
+   * part way leaves the repository untouched. Throws on failure.
+   */
+  createCommit(_0) {
+    return __async(this, arguments, function* ({
+      additions = [],
+      deletions = [],
+      message,
+      parent
+    }) {
       const additionEntries = yield Promise.all(
         additions.map((file) => __async(this, null, function* () {
           const blob = yield this.octokit.request(
@@ -11389,7 +11417,7 @@ var RepositoryConnection = class {
       const newTree = yield this.octokit.request(
         "POST /repos/{owner}/{repo}/git/trees",
         __spreadProps(__spreadValues({}, this.getBasePayload()), {
-          base_tree: latestCommit.commit.tree.sha,
+          base_tree: parent.commit.tree.sha,
           tree: [...additionEntries, ...deletionEntries]
         })
       );
@@ -11398,16 +11426,10 @@ var RepositoryConnection = class {
         __spreadProps(__spreadValues({}, this.getBasePayload()), {
           message,
           tree: newTree.data.sha,
-          parents: [latestCommit.sha]
+          parents: [parent.sha]
         })
       );
-      yield this.octokit.request(
-        "PATCH /repos/{owner}/{repo}/git/refs/heads/{branch}",
-        __spreadProps(__spreadValues({}, this.getBasePayload()), {
-          branch: branch2,
-          sha: newCommit.data.sha
-        })
-      );
+      return newCommit.data.sha;
     });
   }
   getRepositoryInfo() {
@@ -11448,6 +11470,22 @@ var import_js_logger4 = __toESM(require_logger());
 // src/repositoryConnection/TemplateManager.ts
 var import_js_logger2 = __toESM(require_logger());
 var logger2 = import_js_logger2.default.get("digital-garden-site-manager");
+var TEMPLATE_VERSION_FILE = ".digitalgarden-template-version";
+var compareTemplateVersions = (a, b) => {
+  var _a6, _b3;
+  const parse3 = (version3) => version3.trim().replace(/^v/, "").split(".").map(Number);
+  const [partsA, partsB] = [parse3(a), parse3(b)];
+  if ([...partsA, ...partsB].some(Number.isNaN)) {
+    return a.trim() === b.trim() ? 0 : 1;
+  }
+  for (let i = 0; i < Math.max(partsA.length, partsB.length); i++) {
+    const diff2 = ((_a6 = partsA[i]) != null ? _a6 : 0) - ((_b3 = partsB[i]) != null ? _b3 : 0);
+    if (diff2 !== 0) {
+      return diff2;
+    }
+  }
+  return 0;
+};
 var TemplateUpdateChecker = class {
   constructor({
     baseGardenConnection,
@@ -11526,29 +11564,51 @@ var TemplateUpdateChecker = class {
       return latestRelease.tag_name;
     });
   }
+  /**
+   * With a {@link TEMPLATE_VERSION_FILE} in the garden, an update is
+   * available only when a newer release exists; differing template files on
+   * the latest version are reported as re-applicable, not as an update.
+   * Gardens without the file (never updated since it was introduced) fall
+   * back to "any template file differs means update".
+   *
+   * Returns a {@link TemplateUpdater} when there is anything to apply,
+   * otherwise the checker itself.
+   */
   checkForUpdates() {
     return __async(this, null, function* () {
-      const [updateInfo, templateVersion] = yield Promise.all([
-        this.getFilesToUpdate(),
+      const [{ updateInfo, installedVersion }, templateVersion] = yield Promise.all([
+        this.inspectUserGarden(),
         this.getTemplateVersion()
       ]);
       if (!templateVersion) {
         throw new Error("Unable to get update info");
       }
-      if (!updateInfo) {
-        this.newestTemplateVersion = templateVersion;
+      this.newestTemplateVersion = templateVersion;
+      this.installedVersion = installedVersion;
+      const updateAvailable = installedVersion ? compareTemplateVersions(templateVersion, installedVersion) > 0 : updateInfo !== null;
+      if (!updateAvailable && !updateInfo) {
         return this;
       }
-      this.newestTemplateVersion = templateVersion;
       return new TemplateUpdater({
         baseGardenConnection: this.baseGardenConnection,
         userGardenConnection: this.userGardenConnection,
-        filesToChange: updateInfo,
-        newestTemplateVersion: templateVersion
+        filesToChange: updateInfo != null ? updateInfo : {
+          filesToDelete: [],
+          filesToUpdate: [],
+          filesToAdd: []
+        },
+        newestTemplateVersion: templateVersion,
+        updateAvailable,
+        installedVersion
       });
     });
   }
   getFilesToUpdate() {
+    return __async(this, null, function* () {
+      return (yield this.inspectUserGarden()).updateInfo;
+    });
+  }
+  inspectUserGarden() {
     return __async(this, null, function* () {
       const { baseGardenFileList, pluginInfo } = yield this.getPluginInfo(
         this.baseGardenConnection
@@ -11560,6 +11620,7 @@ var TemplateUpdateChecker = class {
       if (!userFileList) {
         throw new Error("Unable to get user file list");
       }
+      const installedVersion = yield this.getInstalledVersion(userFileList);
       const filesToDelete = this.getFilesToDelete(pluginInfo, userFileList);
       const filesToUpdate = this.getPathsToModify(
         pluginInfo,
@@ -11568,13 +11629,27 @@ var TemplateUpdateChecker = class {
       );
       const filesToAdd = this.getFilesToAdd(pluginInfo, userFileList);
       if (filesToDelete.length === 0 && filesToUpdate.length === 0 && filesToAdd.length === 0) {
-        return null;
+        return { updateInfo: null, installedVersion };
       }
       return {
-        filesToDelete,
-        filesToUpdate,
-        filesToAdd
+        updateInfo: { filesToDelete, filesToUpdate, filesToAdd },
+        installedVersion
       };
+    });
+  }
+  getInstalledVersion(userFileList) {
+    return __async(this, null, function* () {
+      const versionFile = this.getFileInfoFromContent(
+        userFileList,
+        this.userContentBase + TEMPLATE_VERSION_FILE
+      );
+      if (!(versionFile == null ? void 0 : versionFile.sha)) {
+        return void 0;
+      }
+      const content = yield this.userGardenConnection.getBlob(
+        versionFile.sha
+      );
+      return content ? gBase64.decode(content).trim() || void 0 : void 0;
     });
   }
   getPluginInfo(baseGardenConnection) {
@@ -11597,33 +11672,91 @@ var TemplateUpdater = class {
     baseGardenConnection,
     userGardenConnection,
     filesToChange,
-    newestTemplateVersion
+    newestTemplateVersion,
+    updateAvailable = true,
+    installedVersion
   }) {
     this.filesToChange = filesToChange;
     this.baseGardenConnection = baseGardenConnection;
     this.userGardenConnection = userGardenConnection;
     this.newestTemplateVersion = newestTemplateVersion;
+    this.updateAvailable = updateAvailable;
+    this.installedVersion = installedVersion;
   }
+  /** Number of template files the update would add, change or delete. */
+  get changedFileCount() {
+    const { filesToDelete, filesToUpdate, filesToAdd } = this.filesToChange;
+    return filesToDelete.length + filesToUpdate.length + filesToAdd.length;
+  }
+  get versionFileAddition() {
+    return {
+      path: this.userGardenConnection.contentBaseDir + TEMPLATE_VERSION_FILE,
+      content: gBase64.encode(`${this.newestTemplateVersion}
+`)
+    };
+  }
+  /**
+   * Record the latest template version without touching any template file,
+   * as a direct commit to the garden's branch. For gardens from before
+   * {@link TEMPLATE_VERSION_FILE} whose customized files would otherwise
+   * keep reporting an update.
+   */
+  markAsUpToDate() {
+    return __async(this, null, function* () {
+      yield this.userGardenConnection.commitChanges({
+        additions: [this.versionFileAddition],
+        message: `Mark template as version ${this.newestTemplateVersion}`
+      });
+    });
+  }
+  /**
+   * Open a pull request that brings the garden up to the template version.
+   *
+   * The whole update is one commit: every template file is fetched first,
+   * then blobs, tree and commit are created on top of the garden branch's
+   * tip, and only then is the update branch created pointing at it. A
+   * failure part way (e.g. a GitHub 429) therefore leaves no half-updated
+   * branch behind; retrying starts from a clean slate.
+   */
   updateTemplate() {
     return __async(this, null, function* () {
       var _a6;
       const { filesToDelete, filesToUpdate, filesToAdd } = this.filesToChange;
+      const contentBaseDir2 = this.userGardenConnection.contentBaseDir;
       const baseBranch = yield this.userGardenConnection.getWriteBranch();
-      const { branchName } = yield this.createNewBranch(baseBranch);
-      logger2.info("Deleting files");
-      yield this.deleteFiles(filesToDelete, branchName);
-      logger2.info("Updating files");
-      yield this.addOrUpdateFiles(
-        [...filesToUpdate, ...filesToAdd],
-        branchName
+      const latestCommit = yield this.userGardenConnection.getLatestCommit(baseBranch);
+      if (!latestCommit) {
+        throw new Error("Unable to get latest commit");
+      }
+      logger2.info("Fetching template files");
+      const templateAdditions = yield Promise.all(
+        [...filesToUpdate, ...filesToAdd].map((file) => __async(this, null, function* () {
+          const baseTemplateFile = yield this.baseGardenConnection.getFile(file.path);
+          if (!baseTemplateFile) {
+            throw new Error(`Unable to get file ${file.path}`);
+          }
+          return {
+            path: contentBaseDir2 + file.path,
+            // The contents API wraps base64 in newlines.
+            content: baseTemplateFile.content.replace(/\s/g, "")
+          };
+        }))
       );
-      logger2.info("Adding files");
-      yield this.addOrUpdateFiles(filesToAdd, branchName);
+      logger2.info("Committing template update");
+      const title = this.updateAvailable ? `Update template to version ${this.newestTemplateVersion}` : `Re-apply template version ${this.newestTemplateVersion}`;
+      const commitSha = yield this.userGardenConnection.createCommit({
+        additions: [...templateAdditions, this.versionFileAddition],
+        deletions: filesToDelete.map((file) => contentBaseDir2 + file.path),
+        message: title,
+        parent: latestCommit
+      });
+      const branchName = "update-template-to-v" + this.newestTemplateVersion + "-" + crypto.randomUUID();
+      yield this.userGardenConnection.createBranch(branchName, commitSha);
       try {
         const pr = yield this.userGardenConnection.octokit.request(
           "POST /repos/{owner}/{repo}/pulls",
           __spreadProps(__spreadValues({}, this.userGardenConnection.getBasePayload()), {
-            title: `Update template to version ${this.newestTemplateVersion}`,
+            title,
             head: branchName,
             base: baseBranch,
             body: `Update to latest template version.
@@ -11636,55 +11769,9 @@ var TemplateUpdater = class {
       }
     });
   }
-  createNewBranch(baseBranch) {
-    return __async(this, null, function* () {
-      const uuid = crypto.randomUUID();
-      const branchName = "update-template-to-v" + this.newestTemplateVersion + "-" + uuid;
-      const latestCommit = yield this.userGardenConnection.getLatestCommit(baseBranch);
-      if (!latestCommit) {
-        throw new Error("Unable to get latest commit");
-      }
-      yield this.userGardenConnection.createBranch(
-        branchName,
-        latestCommit.sha
-      );
-      return { branchName };
-    });
-  }
-  deleteFiles(filesToDelete, branch2) {
-    return __async(this, null, function* () {
-      for (const file of filesToDelete) {
-        yield this.userGardenConnection.deleteFile(
-          this.userGardenConnection.contentBaseDir + file.path,
-          {
-            branch: branch2,
-            sha: file.sha
-          }
-        );
-      }
-    });
-  }
-  addOrUpdateFiles(filesToAdd, branch2) {
-    return __async(this, null, function* () {
-      for (const file of filesToAdd) {
-        const baseTemplateFile = yield this.baseGardenConnection.getFile(
-          file.path
-        );
-        if (!baseTemplateFile) {
-          throw new Error(`Unable to get file ${file}`);
-        }
-        yield this.userGardenConnection.updateFile({
-          content: baseTemplateFile.content,
-          path: this.userGardenConnection.contentBaseDir + file.path,
-          branch: branch2,
-          sha: file.sha,
-          message: "Update files"
-        });
-      }
-    });
-  }
 };
-var hasUpdates = (updater) => updater.filesToChange !== void 0;
+var hasUpdates = (updater) => updater instanceof TemplateUpdater && updater.updateAvailable;
+var canApplyTemplate = (updater) => updater instanceof TemplateUpdater;
 
 // node_modules/universal-user-agent/dist-web/index.js
 function getUserAgent() {
@@ -21963,7 +22050,7 @@ var PublishStatusManager = class {
 };
 
 // src/views/DigitalGardenSettingTab.ts
-var import_obsidian20 = require("obsidian");
+var import_obsidian22 = require("obsidian");
 
 // node_modules/axios/lib/helpers/bind.js
 function bind(fn, thisArg) {
@@ -27574,11 +27661,11 @@ process_fn = function() {
   var effects = collected_effects = [];
   var render_effects = [];
   var updates = legacy_updates = [];
-  for (const root18 of roots) {
+  for (const root20 of roots) {
     try {
-      __privateMethod(this, _Batch_instances, traverse_fn).call(this, root18, effects, render_effects);
+      __privateMethod(this, _Batch_instances, traverse_fn).call(this, root20, effects, render_effects);
     } catch (e) {
-      reset_all(root18);
+      reset_all(root20);
       if (!__privateMethod(this, _Batch_instances, is_deferred_fn).call(this)) this.discard();
       throw e;
     }
@@ -27651,9 +27738,9 @@ process_fn = function() {
  * @param {Effect[]} effects
  * @param {Effect[]} render_effects
  */
-traverse_fn = function(root18, effects, render_effects) {
-  root18.f ^= CLEAN;
-  var effect2 = root18.first;
+traverse_fn = function(root20, effects, render_effects) {
+  root20.f ^= CLEAN;
+  var effect2 = root20.first;
   while (effect2 !== null) {
     var flags2 = effect2.f;
     var is_branch = (flags2 & (BRANCH_EFFECT | ROOT_EFFECT)) !== 0;
@@ -27836,8 +27923,8 @@ commit_fn = function() {
       }
       if (__privateGet(batch, _roots).length > 0 && !__privateGet(batch, _decrement_queued)) {
         batch.apply();
-        for (var root18 of __privateGet(batch, _roots)) {
-          __privateMethod(_a6 = batch, _Batch_instances, traverse_fn).call(_a6, root18, [], []);
+        for (var root20 of __privateGet(batch, _roots)) {
+          __privateMethod(_a6 = batch, _Batch_instances, traverse_fn).call(_a6, root20, [], []);
         }
         __privateSet(batch, _roots, []);
       }
@@ -29223,7 +29310,7 @@ function is_dirty(reaction) {
   }
   return false;
 }
-function schedule_possible_effect_self_invalidation(signal, effect2, root18 = true) {
+function schedule_possible_effect_self_invalidation(signal, effect2, root20 = true) {
   var reactions = signal.reactions;
   if (reactions === null) return;
   if (!async_mode_flag && current_sources !== null && current_sources.has(signal)) {
@@ -29239,7 +29326,7 @@ function schedule_possible_effect_self_invalidation(signal, effect2, root18 = tr
         false
       );
     } else if (effect2 === reaction) {
-      if (root18) {
+      if (root20) {
         set_signal_status(reaction, DIRTY);
       } else if ((reaction.f & CLEAN) !== 0) {
         set_signal_status(reaction, MAYBE_DIRTY);
@@ -30072,7 +30159,7 @@ function hydrate(component2, options) {
   }
 }
 var listeners = /* @__PURE__ */ new Map();
-function _mount(Component2, { target, anchor, props = {}, events, context: context2, intro = true, transformError }) {
+function _mount(Component3, { target, anchor, props = {}, events, context: context2, intro = true, transformError }) {
   init_operations();
   var component2 = void 0;
   var unmount2 = component_root(() => {
@@ -30102,7 +30189,7 @@ function _mount(Component2, { target, anchor, props = {}, events, context: conte
           );
         }
         should_intro = intro;
-        component2 = Component2(anchor_node2, props) || {};
+        component2 = Component3(anchor_node2, props) || {};
         should_intro = true;
         if (hydrating) {
           active_effect.nodes.end = hydrate_node;
@@ -31124,17 +31211,17 @@ function html(node, get_value, is_controlled = false, svg = false, mathml = fals
 function append_styles(anchor, css2) {
   effect(() => {
     var _a6;
-    var root18 = anchor.getRootNode();
+    var root20 = anchor.getRootNode();
     var target = (
       /** @type {ShadowRoot} */
-      root18.host ? (
+      root20.host ? (
         /** @type {ShadowRoot} */
-        root18
+        root20
       ) : (
         /** @type {Document} */
-        (_a6 = root18.head) != null ? _a6 : (
+        (_a6 = root20.head) != null ? _a6 : (
           /** @type {Document} */
-          root18.ownerDocument.head
+          root20.ownerDocument.head
         )
       )
     );
@@ -31618,24 +31705,6 @@ function bind_value(input, get3, set2 = get3) {
     if (value !== input.value) {
       input.value = value != null ? value : "";
     }
-  });
-}
-function bind_checked(input, get3, set2 = get3) {
-  listen_to_event_and_reset_event(input, "change", (is_reset) => {
-    var value = is_reset ? input.defaultChecked : input.checked;
-    set2(value);
-  });
-  if (
-    // If we are hydrating and the value has since changed,
-    // then use the update value from the input instead.
-    hydrating && input.defaultChecked !== input.checked || // If defaultChecked is set, then checked == defaultChecked
-    untrack(get3) == null
-  ) {
-    set2(input.checked);
-  }
-  render_effect(() => {
-    var value = get3();
-    input.checked = Boolean(value);
   });
 }
 function is_numberlike_input(input) {
@@ -32342,18 +32411,56 @@ function init_update_callbacks(context2) {
 }
 
 // src/views/SettingsView/SettingView.ts
-var import_obsidian18 = require("obsidian");
+var import_obsidian20 = require("obsidian");
+
+// src/views/SettingsView/saveSiteSettingsAndUpdateEnv.ts
+var import_obsidian9 = require("obsidian");
+
+// src/repositoryConnection/publishBranchNotice.ts
+var import_obsidian8 = require("obsidian");
+function notifyPublishBranchMissing(error) {
+  new import_obsidian8.Notice(error.message, 15e3);
+}
+
+// src/views/SettingsView/saveSiteSettingsAndUpdateEnv.ts
+function saveSiteSettingsAndUpdateEnv(metadataCache, settings, saveSettings, touchedEnvKeys) {
+  return __async(this, null, function* () {
+    new import_obsidian9.Notice("Updating settings...");
+    let updateFailed = false;
+    try {
+      const gardenManager = new DigitalGardenSiteManager(
+        metadataCache,
+        settings
+      );
+      yield gardenManager.updateEnv(touchedEnvKeys);
+    } catch (error) {
+      if (error instanceof PublishBranchMissingError) {
+        notifyPublishBranchMissing(error);
+      } else {
+        new import_obsidian9.Notice(
+          "Failed to update settings. Make sure you have an internet connection."
+        );
+      }
+      updateFailed = true;
+    }
+    if (!updateFailed) {
+      new import_obsidian9.Notice("Settings successfully updated!");
+      yield saveSettings();
+    }
+    return !updateFailed;
+  });
+}
 
 // src/ui/suggest/file-suggest.ts
-var import_obsidian8 = require("obsidian");
+var import_obsidian10 = require("obsidian");
 var IMAGE_EXTENSIONS2 = ["png", "jpg", "jpeg", "gif", "svg", "webp"];
 var filterFilesByExtension = (files, extensions, query) => {
   const lowerCaseQuery = query.toLowerCase();
   return files.filter(
-    (file) => file instanceof import_obsidian8.TFile && extensions.includes(file.extension.toLowerCase()) && file.path.toLowerCase().includes(lowerCaseQuery)
+    (file) => file instanceof import_obsidian10.TFile && extensions.includes(file.extension.toLowerCase()) && file.path.toLowerCase().includes(lowerCaseQuery)
   );
 };
-var FileExtensionSuggest = class extends import_obsidian8.AbstractInputSuggest {
+var FileExtensionSuggest = class extends import_obsidian10.AbstractInputSuggest {
   constructor(app, inputEl) {
     super(app, inputEl);
     this.inputEl = inputEl;
@@ -32388,14 +32495,14 @@ var ImageFileSuggest = class extends FileExtensionSuggest {
 };
 
 // src/views/SettingsView/addFilterInput.ts
-var import_obsidian9 = require("obsidian");
+var import_obsidian11 = require("obsidian");
 function addFilterInput(filter2, el, idx, plugin) {
   const item = el.createEl("li", {
     attr: {
       style: "list-style-type: none; position: relative; margin: 5px 0; padding-right: 45px"
     }
   });
-  const patternField = new import_obsidian9.TextComponent(el);
+  const patternField = new import_obsidian11.TextComponent(el);
   patternField.setPlaceholder("regex pattern").setValue(filter2.pattern).onChange((value) => __async(null, null, function* () {
     if (!value) {
       return;
@@ -32406,7 +32513,7 @@ function addFilterInput(filter2, el, idx, plugin) {
   const patternEl = patternField.inputEl;
   patternEl.style.width = "250px";
   item.appendChild(patternEl);
-  const replaceField = new import_obsidian9.TextComponent(el);
+  const replaceField = new import_obsidian11.TextComponent(el);
   replaceField.setPlaceholder("replacement").setValue(filter2.replace).onChange((value) => __async(null, null, function* () {
     if (!value) {
       return;
@@ -32418,7 +32525,7 @@ function addFilterInput(filter2, el, idx, plugin) {
   replaceEl.style.width = "250px";
   replaceEl.style.marginLeft = "5px";
   item.appendChild(replaceEl);
-  const flagField = new import_obsidian9.TextComponent(el);
+  const flagField = new import_obsidian11.TextComponent(el);
   flagField.setPlaceholder("flags").setValue(filter2.flags).onChange((value) => __async(null, null, function* () {
     if (!value) {
       return;
@@ -32430,7 +32537,7 @@ function addFilterInput(filter2, el, idx, plugin) {
   flagEl.style.width = "50px";
   flagEl.style.marginLeft = "5px";
   item.appendChild(flagEl);
-  const removeButton = new import_obsidian9.ButtonComponent(el);
+  const removeButton = new import_obsidian11.ButtonComponent(el);
   removeButton.setIcon("minus");
   removeButton.setTooltip("Remove filter");
   removeButton.onClick(() => __async(null, null, function* () {
@@ -32449,7 +32556,7 @@ function addFilterInput(filter2, el, idx, plugin) {
 }
 
 // src/views/SettingsView/GithubSettings.ts
-var import_obsidian10 = require("obsidian");
+var import_obsidian12 = require("obsidian");
 var GithubSettings = class {
   constructor(settings, settingsRootElement) {
     this.connectionStatusMessage = "";
@@ -32467,7 +32574,7 @@ var GithubSettings = class {
         cls: "dg-forestry-upgrade-dismiss",
         attr: { "aria-label": "Dismiss" }
       });
-      const dismissIcon = (0, import_obsidian10.getIcon)("x");
+      const dismissIcon = (0, import_obsidian12.getIcon)("x");
       if (dismissIcon) {
         dismissButton.appendChild(dismissIcon);
       } else {
@@ -32481,7 +32588,7 @@ var GithubSettings = class {
       const heading = notice.createEl("div", {
         cls: "dg-forestry-upgrade-heading"
       });
-      const headingIcon = (0, import_obsidian10.getIcon)("trees");
+      const headingIcon = (0, import_obsidian12.getIcon)("trees");
       if (headingIcon) {
         heading.appendChild(headingIcon);
       }
@@ -32572,7 +32679,7 @@ var GithubSettings = class {
       }
       this.updateConnectionStatusIndicator();
     });
-    this.debouncedUpdateConnectionStatus = (0, import_obsidian10.debounce)(
+    this.debouncedUpdateConnectionStatus = (0, import_obsidian12.debounce)(
       this.updateConnectionStatus,
       500,
       true
@@ -32595,7 +32702,7 @@ var GithubSettings = class {
         statusText = this.connectionStatusMessage || "Connection error";
         statusClass = "connection-status-error";
       }
-      const icon = (0, import_obsidian10.getIcon)(iconName);
+      const icon = (0, import_obsidian12.getIcon)(iconName);
       if (icon) {
         icon.addClass("connection-status-icon");
         this.connectionStatusElement.appendChild(icon);
@@ -32619,8 +32726,7 @@ var GithubSettings = class {
     this.initializeGitHubRepoSetting();
     this.initializeGitHubUserNameSetting();
     this.initializeGitHubTokenSetting();
-    this.initializeContentBaseDirSetting();
-    this.initializePublishBranchSetting();
+    this.initializeAdvancedSettings();
     this.initializeForestryUpgradeNotice();
   }
   checkWritePermissions(permissions) {
@@ -32684,7 +32790,7 @@ var GithubSettings = class {
     this.connectionStatusMessage = message;
   }
   initializeGitHubRepoSetting() {
-    new import_obsidian10.Setting(this.settingsRootElement).setName("GitHub repo name").setDesc("The name of the GitHub repository").addText(
+    new import_obsidian12.Setting(this.settingsRootElement).setName("GitHub repo name").setDesc("The name of the GitHub repository").addText(
       (text2) => text2.setPlaceholder("mydigitalgarden").setValue(this.settings.settings.githubRepo).onChange((value) => __async(this, null, function* () {
         this.settings.settings.githubRepo = value;
         yield this.checkConnectionAndSaveSettings();
@@ -32692,7 +32798,7 @@ var GithubSettings = class {
     );
   }
   initializeGitHubUserNameSetting() {
-    new import_obsidian10.Setting(this.settingsRootElement).setName("GitHub Username").setDesc("Your GitHub Username").addText(
+    new import_obsidian12.Setting(this.settingsRootElement).setName("GitHub Username").setDesc("Your GitHub Username").addText(
       (text2) => text2.setPlaceholder("myusername").setValue(this.settings.settings.githubUserName).onChange((value) => __async(this, null, function* () {
         this.settings.settings.githubUserName = value;
         yield this.checkConnectionAndSaveSettings();
@@ -32708,16 +32814,30 @@ var GithubSettings = class {
         link2.innerText = "here!";
       });
     });
-    new import_obsidian10.Setting(this.settingsRootElement).setName("GitHub token").setDesc(desc).addText(
+    new import_obsidian12.Setting(this.settingsRootElement).setName("GitHub token").setDesc(desc).addText(
       (text2) => text2.setPlaceholder("Secret Token").setValue(this.settings.settings.githubToken).onChange((value) => __async(this, null, function* () {
         this.settings.settings.githubToken = value;
         yield this.checkConnectionAndSaveSettings();
       }))
     );
   }
-  initializeContentBaseDirSetting() {
-    new import_obsidian10.Setting(this.settingsRootElement).setName("Content base directory (advanced)").setDesc(
-      "Subdirectory inside your repository where the digital garden template lives (e.g. Web). Leave empty if the template is at the repo root. Affects GitHub publishing, remote settings, and local export."
+  /**
+   * Collapsed by default so most users never see these. Opens on its own
+   * once either is set, so a non-default value is never hidden.
+   */
+  initializeAdvancedSettings() {
+    const { contentBaseDir: contentBaseDir2, publishBranch } = this.settings.settings;
+    const details = this.settingsRootElement.createEl("details", {
+      cls: "dg-advanced-settings"
+    });
+    details.open = !!(contentBaseDir2 || publishBranch);
+    details.createEl("summary", { text: "Advanced" });
+    this.initializeContentBaseDirSetting(details);
+    this.initializePublishBranchSetting(details);
+  }
+  initializeContentBaseDirSetting(containerEl) {
+    new import_obsidian12.Setting(containerEl).setName("Content base directory").setDesc(
+      "Subfolder of the repository that holds the garden template, e.g. Web. Leave empty if it is at the root."
     ).addText(
       (text2) => {
         var _a6;
@@ -32739,24 +32859,10 @@ var GithubSettings = class {
       input.setValue(defaultBranch);
     }
   }
-  initializePublishBranchSetting() {
-    const desc = document.createDocumentFragment();
-    desc.createDiv({
-      text: "The branch the plugin publishes to and reads from. Leave it as your repository's default branch unless you want to review changes and merge them yourself."
-    });
-    desc.createDiv({ text: "If you use another branch:" });
-    const risks = desc.createEl("ul");
-    for (const risk of [
-      "Nothing goes live until you merge this branch into the default branch. The plugin never merges or opens pull requests for you.",
-      "Everything goes to this branch: notes, site settings, favicon and logo, navigation order, garden plugins, and template update pull requests.",
-      "The Publication Center and settings show what is on this branch, not what is on your live site.",
-      "Changes made directly to the default branch are not on this branch until you merge them into it.",
-      "If you squash or rebase when merging the publish branch into the default branch, delete the publish branch and re-create it from the default branch afterwards. Otherwise the next merge into the default branch can conflict.",
-      "The plugin never creates the branch. If it does not exist, for example because it was deleted after a merge, publishing fails until you create it on GitHub or change this setting."
-    ]) {
-      risks.createEl("li", { text: risk });
-    }
-    new import_obsidian10.Setting(this.settingsRootElement).setName("Publish branch (advanced)").setDesc(desc).addText((text2) => {
+  initializePublishBranchSetting(containerEl) {
+    new import_obsidian12.Setting(containerEl).setName("Publish branch").setDesc(
+      "Publish to another branch to review changes before they go live. Nothing goes live until you merge it into the default branch yourself, and the branch must already exist."
+    ).addText((text2) => {
       var _a6, _b3;
       this.publishBranchInput = text2;
       text2.setPlaceholder("main");
@@ -33458,10 +33564,10 @@ var ForestryApi = class {
 };
 
 // src/views/SettingsView/ForestrySettings.svelte
-var import_obsidian12 = require("obsidian");
+var import_obsidian14 = require("obsidian");
 
 // src/ui/Icon.svelte
-var import_obsidian11 = require("obsidian");
+var import_obsidian13 = require("obsidian");
 function Icon($$anchor, $$props) {
   push($$props, false);
   let name = prop(
@@ -33474,9 +33580,9 @@ function Icon($$anchor, $$props) {
   init();
   var fragment = comment();
   var node = first_child(fragment);
-  html(node, () => (deep_read_state(import_obsidian11.getIcon), deep_read_state(name()), untrack(() => {
+  html(node, () => (deep_read_state(import_obsidian13.getIcon), deep_read_state(name()), untrack(() => {
     var _a6;
-    return (_a6 = (0, import_obsidian11.getIcon)(name())) == null ? void 0 : _a6.outerHTML;
+    return (_a6 = (0, import_obsidian13.getIcon)(name())) == null ? void 0 : _a6.outerHTML;
   })));
   append2($$anchor, fragment);
   pop();
@@ -33520,7 +33626,7 @@ function ForestrySettings($$anchor, $$props) {
     set(connecting, false);
     if (!result.ok) {
       set(connectError, result.kind === "unauthorized" ? "Invalid Garden Key. Copy it again from your garden's page on the Forestry.md dashboard." : "Couldn't reach Forestry.md \u2014 check your connection and try again.");
-      new import_obsidian12.Notice(get2(connectError));
+      new import_obsidian14.Notice(get2(connectError));
       return;
     }
     const pageInfo = result.value;
@@ -33529,7 +33635,7 @@ function ForestrySettings($$anchor, $$props) {
     settings(settings().forestrySettings.apiKey = trimmedKey, true);
     yield saveSettings()();
     set(unique, {});
-    new import_obsidian12.Notice(`Connected to Forestry.md garden ${pageInfo.value.pageName} \u{1F331}`);
+    new import_obsidian14.Notice(`Connected to Forestry.md garden ${pageInfo.value.pageName} \u{1F331}`);
     yield onConnect()();
     afterConnect() === null || afterConnect() === void 0 ? void 0 : afterConnect()();
   });
@@ -33768,10 +33874,10 @@ function ForestrySettings($$anchor, $$props) {
 }
 
 // src/views/NavigationOrder/NavigationOrderModal.ts
-var import_obsidian14 = require("obsidian");
+var import_obsidian16 = require("obsidian");
 
 // src/views/NavigationOrder/NavigationOrderView.svelte
-var import_obsidian13 = require("obsidian");
+var import_obsidian15 = require("obsidian");
 
 // node_modules/sortablejs/modular/sortable.esm.js
 function _defineProperty(e, r, t) {
@@ -35668,9 +35774,9 @@ function _generateId(el) {
   }
   return sum.toString(36);
 }
-function _saveInputCheckedState(root18) {
+function _saveInputCheckedState(root20) {
   savedInputChecked.length = 0;
-  var inputs = root18.getElementsByTagName("input");
+  var inputs = root20.getElementsByTagName("input");
   var idx = inputs.length;
   while (idx--) {
     var el = inputs[idx];
@@ -36129,7 +36235,7 @@ function NavigationOrderView($$anchor, $$props) {
     return __awaiter(this, void 0, void 0, function* () {
       const { notes } = yield publisher().getFilesMarkedForPublishing();
       const rewriteRules = getRewriteRules(settings().pathRewriteRules);
-      const root18 = {};
+      const root20 = {};
       for (const note of notes) {
         const vaultPath = note.getPath();
         const frontmatter = note.getFrontmatter();
@@ -36140,7 +36246,7 @@ function NavigationOrderView($$anchor, $$props) {
         if (dotIdx > 0) {
           parts[lastIdx] = parts[lastIdx].substring(0, dotIdx);
         }
-        let current = root18;
+        let current = root20;
         for (let i = 0; i < parts.length; i++) {
           const part = parts[i];
           if (!current[part]) {
@@ -36151,7 +36257,7 @@ function NavigationOrderView($$anchor, $$props) {
           }
         }
       }
-      return convertToTreeItems(root18);
+      return convertToTreeItems(root20);
     });
   }
   function convertToTreeItems(obj) {
@@ -36246,7 +36352,7 @@ function NavigationOrderView($$anchor, $$props) {
         });
         settings(settings().navigationOrder = ordering, true);
         yield saveSettings()();
-        new import_obsidian13.Notice("Navigation ordering saved!");
+        new import_obsidian15.Notice("Navigation ordering saved!");
         close()();
       } catch (e) {
         set(error, `Failed to save: ${e.message}`);
@@ -36258,7 +36364,7 @@ function NavigationOrderView($$anchor, $$props) {
   function handleReset() {
     return __awaiter(this, void 0, void 0, function* () {
       if (!remoteSha) {
-        new import_obsidian13.Notice("No custom ordering to reset.");
+        new import_obsidian15.Notice("No custom ordering to reset.");
         return;
       }
       set(saving, true);
@@ -36266,7 +36372,7 @@ function NavigationOrderView($$anchor, $$props) {
         yield repositoryConnection().deleteFile(NAV_ORDER_PATH, { sha: remoteSha });
         settings(settings().navigationOrder = void 0, true);
         yield saveSettings()();
-        new import_obsidian13.Notice("Navigation ordering reset to default.");
+        new import_obsidian15.Notice("Navigation ordering reset to default.");
         close()();
       } catch (e) {
         set(error, `Failed to reset: ${e.message}`);
@@ -36372,22 +36478,16 @@ var NavigationOrderModal = class {
       };
       this.modal.open();
     };
-    this.modal = new import_obsidian14.Modal(app);
+    this.modal = new import_obsidian16.Modal(app);
     this.modal.titleEl.innerText = "Reorder Navigation";
   }
 };
 
-// src/repositoryConnection/publishBranchNotice.ts
-var import_obsidian15 = require("obsidian");
-function notifyPublishBranchMissing(error) {
-  new import_obsidian15.Notice(error.message, 15e3);
-}
-
 // src/views/GardenPluginSettings/GardenPluginsModal.ts
-var import_obsidian17 = require("obsidian");
+var import_obsidian19 = require("obsidian");
 
 // src/views/GardenPluginSettings/GardenPluginsView.svelte
-var import_obsidian16 = require("obsidian");
+var import_obsidian18 = require("obsidian");
 
 // src/gardenPlugins/regions.ts
 function regionsOf(manifest) {
@@ -36425,10 +36525,135 @@ function buildTriggeredNotice(settings) {
   return "A site build has been triggered \u2014 the change will be live when it finishes.";
 }
 
+// src/gardenPlugins/installPlugin.ts
+function installFromRepo(manager, repoInput, installed) {
+  return __async(this, null, function* () {
+    const remote = yield manager.inspectRemotePlugin(repoInput);
+    const existing = installed.find(
+      (plugin) => plugin.manifest.id === remote.manifest.id
+    );
+    const disabled = getRegionConflicts(remote.manifest, installed);
+    yield manager.install(
+      remote,
+      existing == null ? void 0 : existing.registryEntry,
+      disabled.map((plugin) => plugin.manifest.id)
+    );
+    return { remote, isUpdate: !!existing, disabled };
+  });
+}
+function installNotice({ remote, isUpdate, disabled }, settings) {
+  const { name, version: version3 } = remote.manifest;
+  let message = `${isUpdate ? "Updated" : "Installed"} ${name} ${version3}.`;
+  if (disabled.length > 0) {
+    message += ` Disabled ${disabled.map((plugin) => plugin.manifest.name).join(", ")} so ${name} provides ${regionsOf(remote.manifest).join(
+      ", "
+    )}.`;
+  }
+  return `${message} ${buildTriggeredNotice(settings)}`;
+}
+
+// src/views/GardenPluginSettings/CommunityPluginsGate.svelte
+var root5 = from_html(`<div class="dg-community-gate svelte-116skss"><p class="dg-community-gate-title svelte-116skss">Community plugins are turned off</p> <p class="svelte-116skss">Community plugins are made by third-party developers, not by Digital
+		Garden. They run their own code in your site's build and in your
+		visitors' browsers, and are not reviewed for security.</p> <p class="svelte-116skss">Only install plugins from authors you trust. Turning community plugins
+		on lets you install them without confirming each one. You can turn them
+		off again at any time.</p> <button class="mod-cta">Turn on community plugins</button></div>`);
+var $$css5 = {
+  hash: "svelte-116skss",
+  code: ".dg-community-gate.svelte-116skss {border:1px solid var(--background-modifier-border);border-left:3px solid var(--text-warning, var(--interactive-accent));border-radius:8px;padding:12px 16px;margin-top:8px;}.dg-community-gate.svelte-116skss p:where(.svelte-116skss) {margin:0 0 10px;color:var(--text-muted);}.dg-community-gate.svelte-116skss .dg-community-gate-title:where(.svelte-116skss) {color:var(--text-normal);font-weight:600;}"
+};
+function CommunityPluginsGate($$anchor, $$props) {
+  push($$props, false);
+  append_styles($$anchor, $$css5);
+  let settings = prop($$props, "settings", 12);
+  let saveSettings = prop($$props, "saveSettings", 8);
+  let onEnabled = prop($$props, "onEnabled", 8);
+  let saving = mutable_source(false);
+  function enable() {
+    return __awaiter(this, void 0, void 0, function* () {
+      set(saving, true);
+      settings(settings().gardenCommunityPluginsEnabled = true, true);
+      yield saveSettings()();
+      set(saving, false);
+      onEnabled()();
+    });
+  }
+  init();
+  var div = root5();
+  var button = sibling(child(div), 6);
+  reset(div);
+  template_effect(() => button.disabled = get2(saving));
+  event("click", button, enable);
+  append2($$anchor, div);
+  pop();
+}
+
+// src/views/GardenPluginSettings/PluginReadme.svelte
+var import_obsidian17 = require("obsidian");
+var root6 = from_html(`<p class="dg-readme-status svelte-fajx5b"><span class="dg-spinner svelte-fajx5b" aria-hidden="true"></span> Loading README\u2026</p>`);
+var root_15 = from_html(`<p class="dg-readme-status svelte-fajx5b">This plugin has no README. See <a> </a> on GitHub.</p>`);
+var root_25 = from_html(`<!> <div class="dg-readme markdown-rendered svelte-fajx5b"></div>`, 1);
+var $$css6 = {
+  hash: "svelte-fajx5b",
+  code: ".dg-readme-status.svelte-fajx5b {display:flex;align-items:center;gap:8px;color:var(--text-muted);}.dg-readme.svelte-fajx5b img {max-width:100%;}.dg-spinner.svelte-fajx5b {width:12px;height:12px;border:2px solid currentColor;border-top-color:transparent;border-radius:50%;\n		animation: svelte-fajx5b-dg-spin 0.7s linear infinite;flex-shrink:0;}\n\n	@keyframes svelte-fajx5b-dg-spin {\n		to {\n			transform: rotate(360deg);\n		}\n	}\n\n	@media (prefers-reduced-motion: reduce) {.dg-spinner.svelte-fajx5b {animation-duration:2.5s;}\n	}"
+};
+function PluginReadme($$anchor, $$props) {
+  push($$props, false);
+  append_styles($$anchor, $$css6);
+  let app = prop($$props, "app", 8);
+  let manager = prop($$props, "manager", 8);
+  let repo = prop($$props, "repo", 8);
+  let container = mutable_source();
+  let loading = mutable_source(true);
+  let missing = mutable_source(false);
+  const component2 = new import_obsidian17.Component();
+  onMount(() => __awaiter(void 0, void 0, void 0, function* () {
+    component2.load();
+    const markdown = yield manager().fetchReadme(repo());
+    set(loading, false);
+    if (!markdown) {
+      set(missing, true);
+      return;
+    }
+    yield import_obsidian17.MarkdownRenderer.render(app(), markdown, get2(container), "", component2);
+  }));
+  onDestroy(() => component2.unload());
+  init();
+  var fragment = root_25();
+  var node = first_child(fragment);
+  {
+    var consequent = ($$anchor2) => {
+      var p = root6();
+      append2($$anchor2, p);
+    };
+    var consequent_1 = ($$anchor2) => {
+      var p_1 = root_15();
+      var a = sibling(child(p_1));
+      var text2 = child(a, true);
+      reset(a);
+      next();
+      reset(p_1);
+      template_effect(() => {
+        set_attribute2(a, "href", `https://github.com/${repo()}`);
+        set_text(text2, repo());
+      });
+      append2($$anchor2, p_1);
+    };
+    if_block(node, ($$render) => {
+      if (get2(loading)) $$render(consequent);
+      else if (get2(missing)) $$render(consequent_1, 1);
+    });
+  }
+  var div = sibling(node, 2);
+  bind_this(div, ($$value) => set(container, $$value), () => get2(container));
+  append2($$anchor, fragment);
+  pop();
+}
+
 // src/views/GardenPluginSettings/GardenPluginsView.svelte
-var root5 = from_html(`<div class="dg-skeleton-row svelte-j5mgcu"><div class="dg-skeleton-info svelte-j5mgcu"><span class="dg-skeleton dg-skeleton-title svelte-j5mgcu"></span> <span class="dg-skeleton dg-skeleton-text svelte-j5mgcu"></span></div> <span class="dg-skeleton dg-skeleton-pill svelte-j5mgcu"></span></div>`);
-var root_15 = from_html(`<div class="dg-plugins-loading svelte-j5mgcu" role="status" aria-label="Loading plugins from your garden repository"><!> <p class="dg-plugins-loading-hint svelte-j5mgcu"><span class="dg-spinner svelte-j5mgcu" aria-hidden="true"></span> Reading plugins from your garden repository\u2026</p></div>`);
-var root_25 = from_html(`<p class="dg-plugins-error svelte-j5mgcu"> </p>`);
+var root7 = from_html(`<div class="dg-skeleton-row svelte-j5mgcu"><div class="dg-skeleton-info svelte-j5mgcu"><span class="dg-skeleton dg-skeleton-title svelte-j5mgcu"></span> <span class="dg-skeleton dg-skeleton-text svelte-j5mgcu"></span></div> <span class="dg-skeleton dg-skeleton-pill svelte-j5mgcu"></span></div>`);
+var root_16 = from_html(`<div class="dg-plugins-loading svelte-j5mgcu" role="status" aria-label="Loading plugins from your garden repository"><!> <p class="dg-plugins-loading-hint svelte-j5mgcu"><span class="dg-spinner svelte-j5mgcu" aria-hidden="true"></span> Reading plugins from your garden repository\u2026</p></div>`);
+var root_26 = from_html(`<p class="dg-plugins-error svelte-j5mgcu"> </p>`);
 var root_35 = from_html(`<p class="svelte-j5mgcu">No plugins found. If your garden predates the plugin system,
 					update your site template first.</p>`);
 var root_43 = from_html(`<p class="dg-plugin-order-hint svelte-j5mgcu">The order here is the render order. Plugins that share a
@@ -36441,11 +36666,11 @@ var root_82 = from_html(`<button aria-label="Render earlier" title="Render earli
 var root_92 = from_html(`<button class="svelte-j5mgcu">Settings</button>`);
 var root_102 = from_html(`<button class="mod-warning svelte-j5mgcu">Confirm removal</button>`);
 var root_11 = from_html(`<button class="svelte-j5mgcu">Uninstall</button>`);
-var root_122 = from_html(`<button class="svelte-j5mgcu">Update</button> <!>`, 1);
+var root_122 = from_html(`<button class="svelte-j5mgcu"> </button> <!>`, 1);
 var root_132 = from_html(`<label class="dg-plugin-setting svelte-j5mgcu"><span class="svelte-j5mgcu"><span class="dg-plugin-setting-name svelte-j5mgcu">Enabled by default on notes</span> <span class="dg-plugin-setting-desc svelte-j5mgcu">Override per note with <code class="svelte-j5mgcu"> </code> in frontmatter.</span></span> <input type="checkbox" class="svelte-j5mgcu"/></label>`);
 var root_142 = from_html(`<span class="dg-plugin-setting-desc svelte-j5mgcu"> </span>`);
 var root_152 = from_html(`<input type="checkbox" class="svelte-j5mgcu"/>`);
-var root_16 = from_html(`<option class="svelte-j5mgcu"> </option>`);
+var root_162 = from_html(`<option class="svelte-j5mgcu"> </option>`);
 var root_17 = from_html(`<select class="svelte-j5mgcu"></select>`);
 var root_18 = from_html(`<input class="svelte-j5mgcu"/>`);
 var root_19 = from_html(`<label class="dg-plugin-setting svelte-j5mgcu"><span class="svelte-j5mgcu"><span class="dg-plugin-setting-name svelte-j5mgcu"> </span> <!></span> <!></label>`);
@@ -36453,41 +36678,36 @@ var root_20 = from_html(`<button class="mod-cta svelte-j5mgcu">Save plugin setti
 var root_21 = from_html(`<div class="dg-plugin-settings svelte-j5mgcu"><!> <!> <!></div>`);
 var root_222 = from_html(`<div><div class="dg-plugin-row-main svelte-j5mgcu"><div class="dg-plugin-row-info svelte-j5mgcu"><span class="dg-plugin-name svelte-j5mgcu"> <span class="dg-plugin-version svelte-j5mgcu"> </span> <!> <!></span> <span class="dg-plugin-description svelte-j5mgcu"> </span> <span class="dg-plugin-author svelte-j5mgcu"> </span> <!></div> <div class="dg-plugin-row-actions svelte-j5mgcu"><!> <!> <!> <label class="dg-plugin-toggle svelte-j5mgcu"><input type="checkbox" class="svelte-j5mgcu"/> </label></div></div> <!></div>`);
 var root_232 = from_html(`<!> <!> <!>`, 1);
-var root_242 = from_html(
-  `<p class="dg-plugins-intro svelte-j5mgcu">Plugins extend your garden with new features. They are stored in
-			your garden repository under <code class="svelte-j5mgcu">src/plugins/</code> \u2014 this list is
-			read directly from it.</p> <!>`,
-  1
-);
-var root_252 = from_html(`<label class="dg-plugin-conflict-choice svelte-j5mgcu"><input type="checkbox" class="svelte-j5mgcu"/> <span class="svelte-j5mgcu"> <strong class="svelte-j5mgcu"> </strong> </span></label>`);
-var root_26 = from_html(`<div class="dg-plugin-confirm svelte-j5mgcu"><p class="dg-plugin-confirm-title svelte-j5mgcu"> <strong class="svelte-j5mgcu"> </strong> </p> <p class="svelte-j5mgcu"> </p> <p class="dg-plugin-confirm-warning svelte-j5mgcu">\u26A0\uFE0F Plugins run their own code in your site's build and in
-					your visitors' browsers. Only install plugins from authors
-					you trust \u2014 review the code at <a class="svelte-j5mgcu"> </a> <code class="svelte-j5mgcu"> </code>).</p> <!> <div class="dg-plugin-confirm-actions svelte-j5mgcu"><button class="mod-cta svelte-j5mgcu"> </button> <button class="svelte-j5mgcu">Cancel</button></div></div>`);
-var root_27 = from_html(`<div class="dg-skeleton-card svelte-j5mgcu"><span class="dg-skeleton dg-skeleton-title svelte-j5mgcu"></span> <span class="dg-skeleton dg-skeleton-text svelte-j5mgcu"></span> <span class="dg-skeleton dg-skeleton-text short svelte-j5mgcu"></span></div>`);
-var root_28 = from_html(`<div class="dg-plugin-grid svelte-j5mgcu" role="status" aria-label="Loading community plugins"></div>`);
-var root_29 = from_html(`<p class="svelte-j5mgcu">The community plugin directory is not available right now. You
-				can still install any plugin from its GitHub URL above.</p>`);
-var root_30 = from_html(`<img class="dg-plugin-card-image svelte-j5mgcu" loading="lazy"/>`);
-var root_31 = from_html(`<button disabled="" class="svelte-j5mgcu">Installed</button>`);
-var root_322 = from_html(`<button class="mod-cta svelte-j5mgcu">Install</button>`);
-var root_332 = from_html(`<div class="dg-plugin-card svelte-j5mgcu"><!> <div class="dg-plugin-card-body svelte-j5mgcu"><span class="dg-plugin-name svelte-j5mgcu"> </span> <span class="dg-plugin-description svelte-j5mgcu"> </span> <span class="dg-plugin-author svelte-j5mgcu"> </span> <!></div></div>`);
-var root_342 = from_html(`<input class="dg-plugin-search svelte-j5mgcu" type="text" placeholder="Search community plugins\u2026"/> <div class="dg-plugin-grid svelte-j5mgcu"></div>`, 1);
-var root_352 = from_html(`<h3 class="svelte-j5mgcu">Install from GitHub</h3> <p class="dg-plugins-intro svelte-j5mgcu">Paste the URL of a plugin repository, e.g. <code class="svelte-j5mgcu">https://github.com/user/garden-plugin-example</code>.</p> <div class="dg-plugin-install-row svelte-j5mgcu"><input type="text" placeholder="https://github.com/user/repo" class="svelte-j5mgcu"/> <button class="mod-cta svelte-j5mgcu"> </button></div> <!> <!> <h3 class="svelte-j5mgcu">Browse community plugins</h3> <!>`, 1);
+var root_242 = from_html(`<div class="dg-skeleton-card svelte-j5mgcu"><span class="dg-skeleton dg-skeleton-title svelte-j5mgcu"></span> <span class="dg-skeleton dg-skeleton-text svelte-j5mgcu"></span></div>`);
+var root_252 = from_html(`<div class="dg-plugin-list svelte-j5mgcu" role="status" aria-label="Loading community plugins"></div>`);
+var root_262 = from_html(`<p class="svelte-j5mgcu">The community plugin directory is not available right now. You
+				can still install any plugin from its GitHub URL below.</p>`);
+var root_27 = from_html(`<span class="dg-plugin-badge svelte-j5mgcu">Installed</span>`);
+var root_28 = from_html(`<button><span class="dg-plugin-name svelte-j5mgcu"> <!></span> <span class="dg-plugin-author svelte-j5mgcu"> </span> <span class="dg-plugin-description svelte-j5mgcu"> </span></button>`);
+var root_29 = from_html(`<p class="dg-plugins-intro svelte-j5mgcu">No plugins match.</p>`);
+var root_30 = from_html(`<button disabled="" class="svelte-j5mgcu">Installed</button>`);
+var root_31 = from_html(`<button class="mod-cta svelte-j5mgcu"> </button>`);
+var root_322 = from_html(`<div class="dg-plugin-detail-header svelte-j5mgcu"><div class="dg-plugin-row-info svelte-j5mgcu"><span class="dg-plugin-detail-name svelte-j5mgcu"> </span> <span class="dg-plugin-author svelte-j5mgcu"> <a class="svelte-j5mgcu"> </a></span> <span class="dg-plugin-description svelte-j5mgcu"> </span></div> <!></div> <!>`, 1);
+var root_332 = from_html(`<p class="dg-plugins-intro svelte-j5mgcu">Select a plugin to see its details.</p>`);
+var root_342 = from_html(`<div class="dg-plugin-browser svelte-j5mgcu"><div class="dg-plugin-browser-list svelte-j5mgcu"><input class="dg-plugin-search svelte-j5mgcu" type="text" placeholder="Search community plugins\u2026"/> <div class="dg-plugin-list svelte-j5mgcu"></div></div> <div class="dg-plugin-detail svelte-j5mgcu"><!></div></div>`);
+var root_352 = from_html(`<!> <h3 class="svelte-j5mgcu">Install from GitHub</h3> <p class="dg-plugins-intro svelte-j5mgcu">Paste the URL of a plugin repository, e.g. <code class="svelte-j5mgcu">https://github.com/user/garden-plugin-example</code>.</p> <form class="dg-plugin-install-row svelte-j5mgcu"><input type="text" placeholder="https://github.com/user/repo" class="svelte-j5mgcu"/> <button type="submit" class="mod-cta svelte-j5mgcu"> </button></form> <!> <p class="dg-community-off svelte-j5mgcu">Community plugins are on. <button class="dg-link-button svelte-j5mgcu">Turn off</button></p>`, 1);
 var root_36 = from_html(`<div class="dg-plugins svelte-j5mgcu"><div class="dg-plugin-tabs svelte-j5mgcu" role="tablist"><button role="tab">Installed<!></button> <button role="tab">Browse &amp; install<!></button></div> <!></div>`);
-var $$css5 = {
+var $$css7 = {
   hash: "svelte-j5mgcu",
-  code: ".dg-plugins.svelte-j5mgcu {display:flex;flex-direction:column;gap:8px;}.dg-plugins.svelte-j5mgcu h3:where(.svelte-j5mgcu) {margin:16px 0 4px 0;}.dg-plugin-tabs.svelte-j5mgcu {display:flex;gap:4px;border-bottom:1px solid var(--background-modifier-border);margin-bottom:4px;}.dg-plugin-tabs.svelte-j5mgcu button:where(.svelte-j5mgcu) {background:none;border:none;border-bottom:2px solid transparent;border-radius:0;padding:8px 14px;font-size:0.95em;color:var(--text-muted);cursor:pointer;box-shadow:none;}.dg-plugin-tabs.svelte-j5mgcu button:where(.svelte-j5mgcu):hover {color:var(--text-normal);}.dg-plugin-tabs.svelte-j5mgcu button.is-active:where(.svelte-j5mgcu) {color:var(--text-normal);font-weight:600;border-bottom-color:var(--interactive-accent);}.dg-plugins-intro.svelte-j5mgcu {color:var(--text-muted);margin:0;}.dg-plugins-error.svelte-j5mgcu {color:var(--text-error);}.dg-plugins-loading.svelte-j5mgcu {display:flex;flex-direction:column;gap:8px;}.dg-skeleton-row.svelte-j5mgcu {border:1px solid var(--background-modifier-border);border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;gap:12px;}.dg-skeleton-info.svelte-j5mgcu {display:flex;flex-direction:column;gap:6px;flex:1;}.dg-skeleton-card.svelte-j5mgcu {border:1px solid var(--background-modifier-border);border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:8px;}.dg-skeleton.svelte-j5mgcu {display:block;border-radius:4px;background:var(--background-modifier-hover, rgba(128, 128, 128, 0.15));\n		animation: svelte-j5mgcu-dg-skeleton-pulse 1.4s ease-in-out infinite;animation-delay:var(--dg-skeleton-delay, 0s);}.dg-skeleton-title.svelte-j5mgcu {height:0.9rem;width:40%;}.dg-skeleton-text.svelte-j5mgcu {height:0.7rem;width:75%;}.dg-skeleton-text.short.svelte-j5mgcu {width:45%;}.dg-skeleton-pill.svelte-j5mgcu {height:1.4rem;width:5.5rem;border-radius:999px;}.dg-plugins-loading-hint.svelte-j5mgcu {display:flex;align-items:center;gap:8px;color:var(--text-muted);font-size:0.85em;margin:4px 0 0;}.dg-spinner.svelte-j5mgcu {width:12px;height:12px;border:2px solid currentColor;border-top-color:transparent;border-radius:50%;\n		animation: svelte-j5mgcu-dg-spin 0.7s linear infinite;flex-shrink:0;}\n\n	@keyframes svelte-j5mgcu-dg-skeleton-pulse {\n		0%,\n		100% {\n			opacity: 0.45;\n		}\n		50% {\n			opacity: 1;\n		}\n	}\n\n	@keyframes svelte-j5mgcu-dg-spin {\n		to {\n			transform: rotate(360deg);\n		}\n	}\n\n	@media (prefers-reduced-motion: reduce) {.dg-skeleton.svelte-j5mgcu {\n			animation: none;opacity:0.6;}.dg-spinner.svelte-j5mgcu {animation-duration:2.5s;}\n	}.dg-plugin-row.svelte-j5mgcu {border:1px solid var(--background-modifier-border);border-radius:8px;padding:10px 12px;}.dg-plugin-row.is-disabled.svelte-j5mgcu {opacity:0.6;}.dg-plugin-row-main.svelte-j5mgcu {display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;}.dg-plugin-row-info.svelte-j5mgcu {display:flex;flex-direction:column;gap:2px;min-width:200px;flex:1;}.dg-plugin-name.svelte-j5mgcu {font-weight:600;}.dg-plugin-version.svelte-j5mgcu,\n	.dg-plugin-author.svelte-j5mgcu {color:var(--text-muted);font-size:0.85em;font-weight:400;}.dg-plugin-badge.svelte-j5mgcu {background:var(--background-modifier-border);border-radius:4px;font-size:0.75em;font-weight:500;padding:1px 6px;margin-left:4px;}.dg-plugin-badge.is-region.svelte-j5mgcu {background:var(--interactive-accent);color:var(--text-on-accent, #fff);}.dg-plugin-region-notice.svelte-j5mgcu {font-size:0.85em;color:var(--text-warning, var(--text-muted));margin-top:4px;}.dg-plugin-conflict-choice.svelte-j5mgcu {display:flex;align-items:flex-start;gap:8px;margin:0 0 10px;font-size:0.92em;}.dg-plugin-conflict-choice.svelte-j5mgcu input:where(.svelte-j5mgcu) {margin-top:3px;}.dg-plugin-description.svelte-j5mgcu {font-size:0.9em;}.dg-plugin-row-actions.svelte-j5mgcu {display:flex;align-items:center;gap:8px;flex-wrap:wrap;}.dg-plugin-order-hint.svelte-j5mgcu {margin:0 0 8px;color:var(--text-muted);font-size:var(--font-ui-smaller);}.dg-plugin-toggle.svelte-j5mgcu {display:flex;align-items:center;gap:4px;font-size:0.9em;}.dg-plugin-settings.svelte-j5mgcu {border-top:1px solid var(--background-modifier-border);margin-top:10px;padding-top:10px;display:flex;flex-direction:column;gap:10px;}.dg-plugin-setting.svelte-j5mgcu {display:flex;justify-content:space-between;align-items:center;gap:16px;}.dg-plugin-setting.svelte-j5mgcu > span:where(.svelte-j5mgcu) {display:flex;flex-direction:column;}.dg-plugin-setting-name.svelte-j5mgcu {font-weight:500;}.dg-plugin-setting-desc.svelte-j5mgcu {color:var(--text-muted);font-size:0.85em;}.dg-plugin-install-row.svelte-j5mgcu {display:flex;gap:8px;}.dg-plugin-install-row.svelte-j5mgcu input:where(.svelte-j5mgcu) {flex:1;}.dg-plugin-confirm.svelte-j5mgcu {border:1px solid var(--background-modifier-border);border-left:3px solid var(--interactive-accent);border-radius:8px;padding:10px 14px;}.dg-plugin-confirm-title.svelte-j5mgcu {margin-top:0;}.dg-plugin-confirm-warning.svelte-j5mgcu {color:var(--text-warning, var(--text-muted));}.dg-plugin-confirm-actions.svelte-j5mgcu {display:flex;gap:8px;}.dg-plugin-search.svelte-j5mgcu {width:100%;}.dg-plugin-grid.svelte-j5mgcu {display:grid;grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));gap:12px;}.dg-plugin-card.svelte-j5mgcu {border:1px solid var(--background-modifier-border);border-radius:8px;overflow:hidden;display:flex;flex-direction:column;}.dg-plugin-card-image.svelte-j5mgcu {width:100%;height:90px;object-fit:cover;}.dg-plugin-card-body.svelte-j5mgcu {display:flex;flex-direction:column;gap:4px;padding:8px 10px;}"
+  code: ".dg-plugins.svelte-j5mgcu {display:flex;flex-direction:column;gap:8px;}.dg-plugins.svelte-j5mgcu h3:where(.svelte-j5mgcu) {margin:16px 0 4px 0;}.dg-plugin-tabs.svelte-j5mgcu {display:flex;gap:4px;border-bottom:1px solid var(--background-modifier-border);margin-bottom:4px;}.dg-plugin-tabs.svelte-j5mgcu button:where(.svelte-j5mgcu) {background:none;border:none;border-bottom:2px solid transparent;border-radius:0;padding:8px 14px;font-size:0.95em;color:var(--text-muted);cursor:pointer;box-shadow:none;}.dg-plugin-tabs.svelte-j5mgcu button:where(.svelte-j5mgcu):hover {color:var(--text-normal);}.dg-plugin-tabs.svelte-j5mgcu button.is-active:where(.svelte-j5mgcu) {color:var(--text-normal);font-weight:600;border-bottom-color:var(--interactive-accent);}.dg-plugins-intro.svelte-j5mgcu {color:var(--text-muted);margin:0;}.dg-plugins-error.svelte-j5mgcu {color:var(--text-error);}.dg-plugins-loading.svelte-j5mgcu {display:flex;flex-direction:column;gap:8px;}.dg-skeleton-row.svelte-j5mgcu {border:1px solid var(--background-modifier-border);border-radius:8px;padding:10px 12px;display:flex;justify-content:space-between;align-items:center;gap:12px;}.dg-skeleton-info.svelte-j5mgcu {display:flex;flex-direction:column;gap:6px;flex:1;}.dg-skeleton-card.svelte-j5mgcu {border:1px solid var(--background-modifier-border);border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:8px;}.dg-skeleton.svelte-j5mgcu {display:block;border-radius:4px;background:var(--background-modifier-hover, rgba(128, 128, 128, 0.15));\n		animation: svelte-j5mgcu-dg-skeleton-pulse 1.4s ease-in-out infinite;animation-delay:var(--dg-skeleton-delay, 0s);}.dg-skeleton-title.svelte-j5mgcu {height:0.9rem;width:40%;}.dg-skeleton-text.svelte-j5mgcu {height:0.7rem;width:75%;}.dg-skeleton-pill.svelte-j5mgcu {height:1.4rem;width:5.5rem;border-radius:999px;}.dg-plugins-loading-hint.svelte-j5mgcu {display:flex;align-items:center;gap:8px;color:var(--text-muted);font-size:0.85em;margin:4px 0 0;}.dg-spinner.svelte-j5mgcu {width:12px;height:12px;border:2px solid currentColor;border-top-color:transparent;border-radius:50%;\n		animation: svelte-j5mgcu-dg-spin 0.7s linear infinite;flex-shrink:0;}\n\n	@keyframes svelte-j5mgcu-dg-skeleton-pulse {\n		0%,\n		100% {\n			opacity: 0.45;\n		}\n		50% {\n			opacity: 1;\n		}\n	}\n\n	@keyframes svelte-j5mgcu-dg-spin {\n		to {\n			transform: rotate(360deg);\n		}\n	}\n\n	@media (prefers-reduced-motion: reduce) {.dg-skeleton.svelte-j5mgcu {\n			animation: none;opacity:0.6;}.dg-spinner.svelte-j5mgcu {animation-duration:2.5s;}\n	}.dg-plugin-row.svelte-j5mgcu {border:1px solid var(--background-modifier-border);border-radius:8px;padding:10px 12px;}.dg-plugin-row.is-disabled.svelte-j5mgcu {opacity:0.6;}.dg-plugin-row-main.svelte-j5mgcu {display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;}.dg-plugin-row-info.svelte-j5mgcu {display:flex;flex-direction:column;gap:2px;min-width:200px;flex:1;}.dg-plugin-name.svelte-j5mgcu {font-weight:600;}.dg-plugin-version.svelte-j5mgcu,\n	.dg-plugin-author.svelte-j5mgcu {color:var(--text-muted);font-size:0.85em;font-weight:400;}.dg-plugin-badge.svelte-j5mgcu {background:var(--background-modifier-border);border-radius:4px;font-size:0.75em;font-weight:500;padding:1px 6px;margin-left:4px;}.dg-plugin-badge.is-region.svelte-j5mgcu {background:var(--interactive-accent);color:var(--text-on-accent, #fff);}.dg-plugin-region-notice.svelte-j5mgcu {font-size:0.85em;color:var(--text-warning, var(--text-muted));margin-top:4px;}.dg-plugin-description.svelte-j5mgcu {font-size:0.9em;}.dg-plugin-row-actions.svelte-j5mgcu {display:flex;align-items:center;gap:8px;flex-wrap:wrap;}.dg-plugin-order-hint.svelte-j5mgcu {margin:0 0 8px;color:var(--text-muted);font-size:var(--font-ui-smaller);}.dg-plugin-toggle.svelte-j5mgcu {display:flex;align-items:center;gap:4px;font-size:0.9em;}.dg-plugin-settings.svelte-j5mgcu {border-top:1px solid var(--background-modifier-border);margin-top:10px;padding-top:10px;display:flex;flex-direction:column;gap:10px;}.dg-plugin-setting.svelte-j5mgcu {display:flex;justify-content:space-between;align-items:center;gap:16px;}.dg-plugin-setting.svelte-j5mgcu > span:where(.svelte-j5mgcu) {display:flex;flex-direction:column;}.dg-plugin-setting-name.svelte-j5mgcu {font-weight:500;}.dg-plugin-setting-desc.svelte-j5mgcu {color:var(--text-muted);font-size:0.85em;}.dg-plugin-install-row.svelte-j5mgcu {display:flex;gap:8px;}.dg-plugin-install-row.svelte-j5mgcu input:where(.svelte-j5mgcu) {flex:1;}.dg-plugin-search.svelte-j5mgcu {width:100%;}.dg-plugin-browser.svelte-j5mgcu {display:grid;grid-template-columns:minmax(220px, 2fr) 3fr;gap:16px;height:min(60vh, 560px);margin-top:8px;}.dg-plugin-browser-list.svelte-j5mgcu {display:flex;flex-direction:column;gap:8px;min-height:0;}.dg-plugin-browser-list.svelte-j5mgcu .dg-plugin-list:where(.svelte-j5mgcu) {overflow-y:auto;flex:1;padding-right:4px;}.dg-plugin-list.svelte-j5mgcu {display:flex;flex-direction:column;gap:6px;}.dg-plugin-item.svelte-j5mgcu {display:flex;flex-direction:column;align-items:flex-start;flex-shrink:0;gap:2px;height:auto;width:100%;padding:10px 12px;text-align:left;white-space:normal;background:none;border:1px solid var(--background-modifier-border);border-radius:8px;box-shadow:none;cursor:pointer;}.dg-plugin-item.svelte-j5mgcu:hover {background:var(--background-modifier-hover);}.dg-plugin-item.is-selected.svelte-j5mgcu {background:var(--background-modifier-active-hover);border-color:var(--interactive-accent);}.dg-plugin-detail.svelte-j5mgcu {display:flex;flex-direction:column;gap:12px;min-height:0;overflow-y:auto;padding-left:16px;border-left:1px solid var(--background-modifier-border);}.dg-plugin-detail-header.svelte-j5mgcu {display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding-bottom:12px;border-bottom:1px solid var(--background-modifier-border);}.dg-plugin-detail-name.svelte-j5mgcu {font-size:1.3em;font-weight:600;}\n\n	@media (max-width: 640px) {.dg-plugin-browser.svelte-j5mgcu {grid-template-columns:1fr;height:auto;}.dg-plugin-browser-list.svelte-j5mgcu .dg-plugin-list:where(.svelte-j5mgcu) {max-height:40vh;}.dg-plugin-detail.svelte-j5mgcu {padding-left:0;border-left:none;}\n	}.dg-community-off.svelte-j5mgcu {margin:16px 0 0;color:var(--text-muted);font-size:var(--font-ui-smaller);}.dg-link-button.svelte-j5mgcu {background:none;border:none;box-shadow:none;padding:0;height:auto;color:var(--text-accent);text-decoration:underline;cursor:pointer;font-size:inherit;}"
 };
 function GardenPluginsView($$anchor, $$props) {
   push($$props, false);
-  append_styles($$anchor, $$css5);
+  append_styles($$anchor, $$css7);
   const regionProviders = mutable_source();
-  const pendingConflicts = mutable_source();
   const filteredCommunity = mutable_source();
+  let app = prop($$props, "app", 8);
   let manager = prop($$props, "manager", 8);
-  let settings = prop($$props, "settings", 8);
+  let settings = prop($$props, "settings", 12);
   let saveSettings = prop($$props, "saveSettings", 8);
   let applyNoteSettingsToSite = prop($$props, "applyNoteSettingsToSite", 8);
+  let initialTab = prop($$props, "initialTab", 8, "installed");
+  let initialPluginId = prop($$props, "initialPluginId", 8, void 0);
   let loading = mutable_source(true);
   let loadError = mutable_source(null);
   let installed = mutable_source([]);
@@ -36495,20 +36715,24 @@ function GardenPluginsView($$anchor, $$props) {
   let communityFilter = mutable_source("");
   let communityLoading = mutable_source(true);
   let busy = mutable_source(false);
+  let communityEnabled = mutable_source(settings().gardenCommunityPluginsEnabled === true);
   let installInput = mutable_source("");
-  let inspecting = mutable_source(false);
   let installError = mutable_source(null);
-  let pendingInstall = mutable_source(null);
-  let pendingIsUpdate = mutable_source(false);
-  let installConfirmEl = mutable_source();
-  let installErrorEl = mutable_source();
+  let installingRepo = mutable_source(null);
+  let selected = mutable_source(null);
   let expandedSettingsId = mutable_source(null);
   let settingsDraft = mutable_source({});
-  let activeTab = mutable_source("installed");
+  let activeTab = mutable_source(initialTab());
   onMount(() => __awaiter(void 0, void 0, void 0, function* () {
+    var _a6, _b3, _c2;
     yield refresh();
     set(community, yield manager().fetchCommunityPlugins());
+    set(selected, (_b3 = (_a6 = get2(community).find((entry) => entry.id === initialPluginId())) !== null && _a6 !== void 0 ? _a6 : get2(community)[0]) !== null && _b3 !== void 0 ? _b3 : null);
     set(communityLoading, false);
+    if (initialPluginId() && (get2(selected) === null || get2(selected) === void 0 ? void 0 : get2(selected).id) === initialPluginId()) {
+      yield tick();
+      (_c2 = document.querySelector(".dg-plugin-item.is-selected")) === null || _c2 === void 0 ? void 0 : _c2.scrollIntoView({ block: "nearest" });
+    }
   }));
   function refresh() {
     return __awaiter(this, void 0, void 0, function* () {
@@ -36536,10 +36760,10 @@ function GardenPluginsView($$anchor, $$props) {
       set(busy, true);
       try {
         yield manager().setOrder(ids);
-        new import_obsidian16.Notice(`${plugin.manifest.name} moved ${delta < 0 ? "up" : "down"}. ${buildTriggeredNotice(settings())}`);
+        new import_obsidian18.Notice(`${plugin.manifest.name} moved ${delta < 0 ? "up" : "down"}. ${buildTriggeredNotice(settings())}`);
         yield refresh();
       } catch (error) {
-        new import_obsidian16.Notice(error instanceof Error ? error.message : "Could not save the plugin order");
+        new import_obsidian18.Notice(error instanceof Error ? error.message : "Could not save the plugin order");
       } finally {
         set(busy, false);
       }
@@ -36550,10 +36774,10 @@ function GardenPluginsView($$anchor, $$props) {
       set(busy, true);
       try {
         yield manager().setEnabled(plugin.manifest.id, !plugin.enabled);
-        new import_obsidian16.Notice(`${plugin.manifest.name} ${plugin.enabled ? "disabled" : "enabled"}. ${buildTriggeredNotice(settings())}`);
+        new import_obsidian18.Notice(`${plugin.manifest.name} ${plugin.enabled ? "disabled" : "enabled"}. ${buildTriggeredNotice(settings())}`);
         yield refresh();
       } catch (error) {
-        new import_obsidian16.Notice(`Could not ${plugin.enabled ? "disable" : "enable"} ${plugin.manifest.name}: ${error instanceof Error ? error.message : "unknown error"}`);
+        new import_obsidian18.Notice(`Could not ${plugin.enabled ? "disable" : "enable"} ${plugin.manifest.name}: ${error instanceof Error ? error.message : "unknown error"}`);
       }
       set(busy, false);
     });
@@ -36582,14 +36806,14 @@ function GardenPluginsView($$anchor, $$props) {
       set(busy, true);
       try {
         yield manager().savePluginSettings(plugin.manifest.id, get2(settingsDraft));
-        new import_obsidian16.Notice(`Saved settings for ${plugin.manifest.name}. ${buildTriggeredNotice(settings())}`);
+        new import_obsidian18.Notice(`Saved settings for ${plugin.manifest.name}. ${buildTriggeredNotice(settings())}`);
         set(expandedSettingsId, null);
         yield refresh();
       } catch (error) {
         if (error instanceof PublishBranchMissingError) {
           notifyPublishBranchMissing(error);
         } else {
-          new import_obsidian16.Notice(`Could not save settings for ${plugin.manifest.name}`);
+          new import_obsidian18.Notice(`Could not save settings for ${plugin.manifest.name}`);
         }
       }
       set(busy, false);
@@ -36608,52 +36832,35 @@ function GardenPluginsView($$anchor, $$props) {
       set(installed, get2(installed));
     });
   }
-  function inspect2(repoInput, isUpdate = false) {
+  function install(repoInput) {
     return __awaiter(this, void 0, void 0, function* () {
-      set(inspecting, true);
+      set(busy, true);
+      set(installingRepo, repoInput);
       set(installError, null);
-      set(pendingInstall, null);
-      set(disableConflicts, true);
       try {
-        const remote = yield manager().inspectRemotePlugin(repoInput);
-        if (!isUpdate && installedIds().has(remote.manifest.id)) {
-          set(pendingIsUpdate, true);
-        } else {
-          set(pendingIsUpdate, isUpdate);
-        }
-        set(pendingInstall, remote);
+        const result = yield installFromRepo(manager(), repoInput, get2(installed));
+        new import_obsidian18.Notice(installNotice(result, settings()));
+        yield refresh();
+        return true;
       } catch (error) {
-        set(installError, error instanceof Error ? error.message : "Unknown error");
+        if (error instanceof PublishBranchMissingError) {
+          notifyPublishBranchMissing(error);
+        } else {
+          set(installError, error instanceof Error ? error.message : "Install failed");
+          new import_obsidian18.Notice(get2(installError));
+        }
+        return false;
+      } finally {
+        set(busy, false);
+        set(installingRepo, null);
       }
-      set(inspecting, false);
-      yield tick();
-      const target = get2(installConfirmEl) !== null && get2(installConfirmEl) !== void 0 ? get2(installConfirmEl) : get2(installErrorEl);
-      target === null || target === void 0 ? void 0 : target.scrollIntoView({
-        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
-        block: "center"
-      });
     });
   }
-  function confirmInstall() {
-    var _a6;
+  function installFromUrl() {
     return __awaiter(this, void 0, void 0, function* () {
-      if (!get2(pendingInstall)) {
-        return;
-      }
-      set(busy, true);
-      const remote = get2(pendingInstall);
-      const existingEntry = (_a6 = get2(installed).find((plugin) => plugin.manifest.id === remote.manifest.id)) === null || _a6 === void 0 ? void 0 : _a6.registryEntry;
-      const disableIds = get2(disableConflicts) ? get2(pendingConflicts).map((conflict) => conflict.manifest.id) : [];
-      try {
-        yield manager().install(remote, existingEntry, disableIds);
-        new import_obsidian16.Notice(`${get2(pendingIsUpdate) ? "Updated" : "Installed"} ${remote.manifest.name} ${remote.manifest.version}. ${buildTriggeredNotice(settings())}`);
-        set(pendingInstall, null);
+      if (yield install(get2(installInput))) {
         set(installInput, "");
-        yield refresh();
-      } catch (error) {
-        set(installError, error instanceof Error ? error.message : "Install failed");
       }
-      set(busy, false);
     });
   }
   function updatePlugin(plugin) {
@@ -36661,11 +36868,21 @@ function GardenPluginsView($$anchor, $$props) {
     return __awaiter(this, void 0, void 0, function* () {
       const repo = (_a6 = plugin.registryEntry) === null || _a6 === void 0 ? void 0 : _a6.repo;
       if (!repo) {
-        set(installError, `${plugin.manifest.name} has no recorded source repository. Reinstall it from a GitHub URL to enable updates.`);
+        new import_obsidian18.Notice(`${plugin.manifest.name} has no recorded source repository. Reinstall it from a GitHub URL to enable updates.`);
         return;
       }
-      set(activeTab, "browse");
-      yield inspect2(repo, true);
+      if (!get2(communityEnabled)) {
+        set(activeTab, "browse");
+        return;
+      }
+      yield install(repo);
+    });
+  }
+  function turnOffCommunityPlugins() {
+    return __awaiter(this, void 0, void 0, function* () {
+      settings(settings().gardenCommunityPluginsEnabled = false, true);
+      yield saveSettings()();
+      set(communityEnabled, false);
     });
   }
   let confirmUninstallId = mutable_source(null);
@@ -36674,20 +36891,19 @@ function GardenPluginsView($$anchor, $$props) {
       set(busy, true);
       try {
         yield manager().uninstall(plugin);
-        new import_obsidian16.Notice(`Uninstalled ${plugin.manifest.name}. ${buildTriggeredNotice(settings())}`);
+        new import_obsidian18.Notice(`Uninstalled ${plugin.manifest.name}. ${buildTriggeredNotice(settings())}`);
         set(confirmUninstallId, null);
         yield refresh();
       } catch (error) {
         if (error instanceof PublishBranchMissingError) {
           notifyPublishBranchMissing(error);
         } else {
-          new import_obsidian16.Notice(`Could not uninstall ${plugin.manifest.name}`);
+          new import_obsidian18.Notice(`Could not uninstall ${plugin.manifest.name}`);
         }
       }
       set(busy, false);
     });
   }
-  let disableConflicts = mutable_source(true);
   function pluginName(id) {
     var _a6, _b3;
     return (_b3 = (_a6 = get2(installed).find((plugin) => plugin.manifest.id === id)) === null || _a6 === void 0 ? void 0 : _a6.manifest.name) !== null && _b3 !== void 0 ? _b3 : id;
@@ -36703,9 +36919,6 @@ function GardenPluginsView($$anchor, $$props) {
   }
   legacy_pre_effect(() => (getRegionProviders, get2(installed)), () => {
     set(regionProviders, getRegionProviders(get2(installed)));
-  });
-  legacy_pre_effect(() => (get2(pendingInstall), getRegionConflicts, get2(installed)), () => {
-    set(pendingConflicts, get2(pendingInstall) ? getRegionConflicts(get2(pendingInstall).manifest, get2(installed)) : []);
   });
   legacy_pre_effect(() => (get2(community), get2(communityFilter)), () => {
     set(filteredCommunity, get2(community).filter((entry) => !get2(communityFilter) || entry.name.toLowerCase().includes(get2(communityFilter).toLowerCase()) || entry.description.toLowerCase().includes(get2(communityFilter).toLowerCase())));
@@ -36752,14 +36965,14 @@ function GardenPluginsView($$anchor, $$props) {
   var node_2 = sibling(div_1, 2);
   {
     var consequent_16 = ($$anchor2) => {
-      var fragment_2 = root_242();
-      var node_3 = sibling(first_child(fragment_2), 2);
+      var fragment_2 = comment();
+      var node_3 = first_child(fragment_2);
       {
         var consequent_2 = ($$anchor3) => {
-          var div_2 = root_15();
+          var div_2 = root_16();
           var node_4 = child(div_2);
           each(node_4, 0, () => [0, 1, 2], (i) => i, ($$anchor4, i) => {
-            var div_3 = root5();
+            var div_3 = root7();
             template_effect(() => set_style(div_3, `--dg-skeleton-delay: ${i * 0.15}s`));
             append2($$anchor4, div_3);
           });
@@ -36768,7 +36981,7 @@ function GardenPluginsView($$anchor, $$props) {
           append2($$anchor3, div_2);
         };
         var consequent_3 = ($$anchor3) => {
-          var p_1 = root_25();
+          var p_1 = root_26();
           var text_2 = child(p_1, true);
           reset(p_1);
           template_effect(() => set_text(text_2, get2(loadError)));
@@ -36910,6 +37123,8 @@ function GardenPluginsView($$anchor, $$props) {
               var consequent_10 = ($$anchor5) => {
                 var fragment_5 = root_122();
                 var button_5 = first_child(fragment_5);
+                var text_10 = child(button_5, true);
+                reset(button_5);
                 var node_14 = sibling(button_5, 2);
                 {
                   var consequent_9 = ($$anchor6) => {
@@ -36929,7 +37144,13 @@ function GardenPluginsView($$anchor, $$props) {
                     else $$render(alternate, -1);
                   });
                 }
-                template_effect(() => button_5.disabled = get2(busy));
+                template_effect(() => {
+                  button_5.disabled = get2(busy);
+                  set_text(text_10, (get2(installingRepo), get2(plugin), untrack(() => {
+                    var _a6;
+                    return get2(installingRepo) && get2(installingRepo) === ((_a6 = get2(plugin).registryEntry) == null ? void 0 : _a6.repo) ? "Updating\u2026" : "Update";
+                  })));
+                });
                 event("click", button_5, () => updatePlugin(get2(plugin)));
                 append2($$anchor5, fragment_5);
               };
@@ -36940,7 +37161,7 @@ function GardenPluginsView($$anchor, $$props) {
             var label = sibling(node_13, 2);
             var input = child(label);
             remove_input_defaults(input);
-            var text_10 = sibling(input);
+            var text_11 = sibling(input);
             reset(label);
             reset(div_7);
             reset(div_5);
@@ -36959,7 +37180,7 @@ function GardenPluginsView($$anchor, $$props) {
                     var span_7 = child(label_1);
                     var span_8 = sibling(child(span_7), 2);
                     var code = sibling(child(span_8));
-                    var text_11 = child(code, true);
+                    var text_12 = child(code, true);
                     reset(code);
                     next();
                     reset(span_8);
@@ -36969,7 +37190,7 @@ function GardenPluginsView($$anchor, $$props) {
                     reset(label_1);
                     template_effect(
                       ($0) => {
-                        set_text(text_11, $0);
+                        set_text(text_12, $0);
                         set_checked(input_1, (deep_read_state(settings()), get2(key2), untrack(() => settings().defaultNoteSettings[get2(key2)])));
                         input_1.disabled = get2(busy);
                       },
@@ -36994,15 +37215,15 @@ function GardenPluginsView($$anchor, $$props) {
                     var label_2 = root_19();
                     var span_9 = child(label_2);
                     var span_10 = child(span_9);
-                    var text_12 = child(span_10, true);
+                    var text_13 = child(span_10, true);
                     reset(span_10);
                     var node_18 = sibling(span_10, 2);
                     {
                       var consequent_11 = ($$anchor7) => {
                         var span_11 = root_142();
-                        var text_13 = child(span_11, true);
+                        var text_14 = child(span_11, true);
                         reset(span_11);
-                        template_effect(() => set_text(text_13, (get2(entry), untrack(() => get2(entry).description))));
+                        template_effect(() => set_text(text_14, (get2(entry), untrack(() => get2(entry).description))));
                         append2($$anchor7, span_11);
                       };
                       if_block(node_18, ($$render) => {
@@ -37027,13 +37248,13 @@ function GardenPluginsView($$anchor, $$props) {
                           var _a6;
                           return (_a6 = get2(entry).options) != null ? _a6 : [];
                         })), (option2) => option2, ($$anchor8, option2) => {
-                          var option_1 = root_16();
-                          var text_14 = child(option_1, true);
+                          var option_1 = root_162();
+                          var text_15 = child(option_1, true);
                           reset(option_1);
                           var option_1_value = {};
                           template_effect(() => {
                             var _a6;
-                            set_text(text_14, get2(option2));
+                            set_text(text_15, get2(option2));
                             if (option_1_value !== (option_1_value = get2(option2))) {
                               option_1.value = (_a6 = option_1.__value = get2(option2)) != null ? _a6 : "";
                             }
@@ -37085,7 +37306,7 @@ function GardenPluginsView($$anchor, $$props) {
                       });
                     }
                     reset(label_2);
-                    template_effect(() => set_text(text_12, (get2(entry), untrack(() => get2(entry).name))));
+                    template_effect(() => set_text(text_13, (get2(entry), untrack(() => get2(entry).name))));
                     append2($$anchor6, label_2);
                   }
                 );
@@ -37121,7 +37342,7 @@ function GardenPluginsView($$anchor, $$props) {
               set_text(text_7, `by ${(_c2 = (get2(plugin), untrack(() => get2(plugin).manifest.author))) != null ? _c2 : ""}`);
               set_checked(input, (get2(plugin), untrack(() => get2(plugin).enabled)));
               input.disabled = get2(busy);
-              set_text(text_10, ` ${(_d = (get2(plugin), untrack(() => get2(plugin).enabled ? "Enabled" : "Disabled"))) != null ? _d : ""}`);
+              set_text(text_11, ` ${(_d = (get2(plugin), untrack(() => get2(plugin).enabled ? "Enabled" : "Disabled"))) != null ? _d : ""}`);
             });
             event("change", input, () => toggleEnabled(get2(plugin)));
             append2($$anchor4, div_4);
@@ -37136,220 +37357,226 @@ function GardenPluginsView($$anchor, $$props) {
       }
       append2($$anchor2, fragment_2);
     };
-    var alternate_5 = ($$anchor2) => {
-      var fragment_6 = root_352();
-      var div_9 = sibling(first_child(fragment_6), 4);
-      var input_4 = child(div_9);
-      remove_input_defaults(input_4);
-      var button_9 = sibling(input_4, 2);
-      var text_15 = child(button_9, true);
-      reset(button_9);
-      reset(div_9);
-      var node_21 = sibling(div_9, 2);
+    var consequent_17 = ($$anchor2) => {
+      CommunityPluginsGate($$anchor2, {
+        get settings() {
+          return settings();
+        },
+        get saveSettings() {
+          return saveSettings();
+        },
+        onEnabled: () => set(communityEnabled, true)
+      });
+    };
+    var alternate_6 = ($$anchor2) => {
+      var fragment_7 = root_352();
+      var node_21 = first_child(fragment_7);
       {
-        var consequent_17 = ($$anchor3) => {
-          var p_4 = root_25();
-          var text_16 = child(p_4, true);
-          reset(p_4);
-          bind_this(p_4, ($$value) => set(installErrorEl, $$value), () => get2(installErrorEl));
-          template_effect(() => set_text(text_16, get2(installError)));
+        var consequent_18 = ($$anchor3) => {
+          var div_9 = root_252();
+          each(div_9, 4, () => [0, 1, 2], (i) => i, ($$anchor4, i) => {
+            var div_10 = root_242();
+            template_effect(() => set_style(div_10, `--dg-skeleton-delay: ${i * 0.15}s`));
+            append2($$anchor4, div_10);
+          });
+          reset(div_9);
+          append2($$anchor3, div_9);
+        };
+        var consequent_19 = ($$anchor3) => {
+          var p_4 = root_262();
           append2($$anchor3, p_4);
         };
-        if_block(node_21, ($$render) => {
-          if (get2(installError)) $$render(consequent_17);
-        });
-      }
-      var node_22 = sibling(node_21, 2);
-      {
-        var consequent_19 = ($$anchor3) => {
-          var div_10 = root_26();
-          var p_5 = child(div_10);
-          var text_17 = child(p_5);
-          var strong_1 = sibling(text_17);
-          var text_18 = child(strong_1, true);
-          reset(strong_1);
-          var text_19 = sibling(strong_1);
-          reset(p_5);
-          var p_6 = sibling(p_5, 2);
-          var text_20 = child(p_6, true);
-          reset(p_6);
-          var p_7 = sibling(p_6, 2);
-          var a = sibling(child(p_7));
-          var text_21 = child(a);
-          reset(a);
-          var text_22 = sibling(a);
-          var code_1 = sibling(text_22);
-          var text_23 = child(code_1, true);
-          reset(code_1);
-          next();
-          reset(p_7);
-          var node_23 = sibling(p_7, 2);
-          {
-            var consequent_18 = ($$anchor4) => {
-              var label_3 = root_252();
-              var input_5 = child(label_3);
-              remove_input_defaults(input_5);
-              var span_12 = sibling(input_5, 2);
-              var text_24 = child(span_12);
-              var strong_2 = sibling(text_24);
-              var text_25 = child(strong_2, true);
-              reset(strong_2);
-              var text_26 = sibling(strong_2);
+        var alternate_5 = ($$anchor3) => {
+          var div_11 = root_342();
+          var div_12 = child(div_11);
+          var input_4 = child(div_12);
+          remove_input_defaults(input_4);
+          var div_13 = sibling(input_4, 2);
+          each(
+            div_13,
+            5,
+            () => get2(filteredCommunity),
+            (entry) => entry.id,
+            ($$anchor4, entry) => {
+              var button_9 = root_28();
+              let classes_3;
+              var span_12 = child(button_9);
+              var text_16 = child(span_12);
+              var node_22 = sibling(text_16);
+              {
+                var consequent_20 = ($$anchor5) => {
+                  var span_13 = root_27();
+                  append2($$anchor5, span_13);
+                };
+                var d_1 = user_derived(() => (get2(entry), untrack(() => installedIds().has(get2(entry).id))));
+                if_block(node_22, ($$render) => {
+                  if (get2(d_1)) $$render(consequent_20);
+                });
+              }
               reset(span_12);
-              reset(label_3);
-              template_effect(
-                ($0, $1) => {
-                  var _a6, _b3, _c2;
-                  set_text(text_24, `${(_a6 = (get2(pendingInstall), untrack(() => get2(pendingInstall).manifest.name))) != null ? _a6 : ""} replaces `);
-                  set_text(text_25, $0);
-                  set_text(text_26, ` (${$1 != null ? $1 : ""}).
-							Disable ${(_b3 = (get2(pendingConflicts), untrack(() => get2(pendingConflicts).length === 1 ? "it" : "them"))) != null ? _b3 : ""} so ${(_c2 = (get2(pendingInstall), untrack(() => get2(pendingInstall).manifest.name))) != null ? _c2 : ""} takes
-							over right away.`);
-                },
-                [
-                  () => (get2(pendingConflicts), untrack(() => get2(pendingConflicts).map((c) => c.manifest.name).join(", "))),
-                  () => (deep_read_state(regionsOf), get2(pendingInstall), untrack(() => regionsOf(get2(pendingInstall).manifest).join(", ")))
-                ]
+              var span_14 = sibling(span_12, 2);
+              var text_17 = child(span_14);
+              reset(span_14);
+              var span_15 = sibling(span_14, 2);
+              var text_18 = child(span_15, true);
+              reset(span_15);
+              reset(button_9);
+              template_effect(() => {
+                var _a6, _b3, _c2;
+                classes_3 = set_class(button_9, 1, "dg-plugin-item svelte-j5mgcu", null, classes_3, { "is-selected": ((_a6 = get2(selected)) == null ? void 0 : _a6.id) === get2(entry).id });
+                set_attribute2(button_9, "aria-pressed", (get2(selected), get2(entry), untrack(() => {
+                  var _a7;
+                  return ((_a7 = get2(selected)) == null ? void 0 : _a7.id) === get2(entry).id;
+                })));
+                set_text(text_16, `${(_b3 = (get2(entry), untrack(() => get2(entry).name))) != null ? _b3 : ""} `);
+                set_text(text_17, `by ${(_c2 = (get2(entry), untrack(() => get2(entry).author))) != null ? _c2 : ""}`);
+                set_text(text_18, (get2(entry), untrack(() => get2(entry).description)));
+              });
+              event("click", button_9, () => set(selected, get2(entry)));
+              append2($$anchor4, button_9);
+            },
+            ($$anchor4) => {
+              var p_5 = root_29();
+              append2($$anchor4, p_5);
+            }
+          );
+          reset(div_13);
+          reset(div_12);
+          var div_14 = sibling(div_12, 2);
+          var node_23 = child(div_14);
+          {
+            var consequent_22 = ($$anchor4) => {
+              const entry = derived_safe_equal(() => get2(selected));
+              var fragment_8 = root_322();
+              var div_15 = first_child(fragment_8);
+              var div_16 = child(div_15);
+              var span_16 = child(div_16);
+              var text_19 = child(span_16, true);
+              reset(span_16);
+              var span_17 = sibling(span_16, 2);
+              var text_20 = child(span_17);
+              var a = sibling(text_20);
+              var text_21 = child(a, true);
+              reset(a);
+              reset(span_17);
+              var span_18 = sibling(span_17, 2);
+              var text_22 = child(span_18, true);
+              reset(span_18);
+              reset(div_16);
+              var node_24 = sibling(div_16, 2);
+              {
+                var consequent_21 = ($$anchor5) => {
+                  var button_10 = root_30();
+                  append2($$anchor5, button_10);
+                };
+                var d_2 = user_derived(() => (deep_read_state(get2(entry)), untrack(() => installedIds().has(get2(entry).id))));
+                var alternate_3 = ($$anchor5) => {
+                  var button_11 = root_31();
+                  var text_23 = child(button_11, true);
+                  reset(button_11);
+                  template_effect(() => {
+                    button_11.disabled = get2(busy);
+                    set_text(text_23, (get2(installingRepo), deep_read_state(get2(entry)), untrack(() => get2(installingRepo) === get2(entry).repo ? "Installing\u2026" : "Install")));
+                  });
+                  event("click", button_11, () => install(get2(entry).repo));
+                  append2($$anchor5, button_11);
+                };
+                if_block(node_24, ($$render) => {
+                  if (get2(d_2)) $$render(consequent_21);
+                  else $$render(alternate_3, -1);
+                });
+              }
+              reset(div_15);
+              var node_25 = sibling(div_15, 2);
+              key(
+                node_25,
+                () => (deep_read_state(get2(entry)), untrack(() => get2(entry).repo)),
+                ($$anchor5) => {
+                  PluginReadme($$anchor5, {
+                    get app() {
+                      return app();
+                    },
+                    get manager() {
+                      return manager();
+                    },
+                    get repo() {
+                      return deep_read_state(get2(entry)), untrack(() => get2(entry).repo);
+                    }
+                  });
+                }
               );
-              bind_checked(input_5, () => get2(disableConflicts), ($$value) => set(disableConflicts, $$value));
-              append2($$anchor4, label_3);
+              template_effect(() => {
+                var _a6;
+                set_text(text_19, (deep_read_state(get2(entry)), untrack(() => get2(entry).name)));
+                set_text(text_20, `by ${(_a6 = (deep_read_state(get2(entry)), untrack(() => get2(entry).author))) != null ? _a6 : ""} \xB7 `);
+                set_attribute2(a, "href", (deep_read_state(get2(entry)), untrack(() => `https://github.com/${get2(entry).repo}`)));
+                set_text(text_21, (deep_read_state(get2(entry)), untrack(() => get2(entry).repo)));
+                set_text(text_22, (deep_read_state(get2(entry)), untrack(() => get2(entry).description)));
+              });
+              append2($$anchor4, fragment_8);
+            };
+            var alternate_4 = ($$anchor4) => {
+              var p_6 = root_332();
+              append2($$anchor4, p_6);
             };
             if_block(node_23, ($$render) => {
-              if (get2(pendingConflicts), untrack(() => get2(pendingConflicts).length > 0)) $$render(consequent_18);
+              if (get2(selected)) $$render(consequent_22);
+              else $$render(alternate_4, -1);
             });
           }
-          var div_11 = sibling(node_23, 2);
-          var button_10 = child(div_11);
-          var text_27 = child(button_10, true);
-          reset(button_10);
-          var button_11 = sibling(button_10, 2);
-          reset(div_11);
-          reset(div_10);
-          bind_this(div_10, ($$value) => set(installConfirmEl, $$value), () => get2(installConfirmEl));
-          template_effect(() => {
-            var _a6, _b3, _c2, _d, _e;
-            set_text(text_17, `${get2(pendingIsUpdate) ? "Update" : "Install"} `);
-            set_text(text_18, (get2(pendingInstall), untrack(() => get2(pendingInstall).manifest.name)));
-            set_text(text_19, ` v${(_a6 = (get2(pendingInstall), untrack(() => get2(pendingInstall).manifest.version))) != null ? _a6 : ""} by ${(_b3 = (get2(pendingInstall), untrack(() => get2(pendingInstall).manifest.author))) != null ? _b3 : ""}?`);
-            set_text(text_20, (get2(pendingInstall), untrack(() => get2(pendingInstall).manifest.description)));
-            set_attribute2(a, "href", (get2(pendingInstall), untrack(() => `https://github.com/${get2(pendingInstall).owner}/${get2(pendingInstall).repo}`)));
-            set_text(text_21, `${(_c2 = (get2(pendingInstall), untrack(() => get2(pendingInstall).owner))) != null ? _c2 : ""}/${(_d = (get2(pendingInstall), untrack(() => get2(pendingInstall).repo))) != null ? _d : ""}`);
-            set_text(text_22, ` (${(_e = (get2(pendingInstall), untrack(() => get2(pendingInstall).files.length))) != null ? _e : ""} files, ref `);
-            set_text(text_23, (get2(pendingInstall), untrack(() => get2(pendingInstall).ref)));
-            button_10.disabled = get2(busy);
-            set_text(text_27, get2(busy) ? "Working\u2026" : get2(pendingIsUpdate) ? "Update plugin" : "Install plugin");
-            button_11.disabled = get2(busy);
-          });
-          event("click", button_10, confirmInstall);
-          event("click", button_11, () => set(pendingInstall, null));
-          append2($$anchor3, div_10);
-        };
-        if_block(node_22, ($$render) => {
-          if (get2(pendingInstall)) $$render(consequent_19);
-        });
-      }
-      var node_24 = sibling(node_22, 4);
-      {
-        var consequent_20 = ($$anchor3) => {
-          var div_12 = root_28();
-          each(div_12, 4, () => [0, 1, 2], (i) => i, ($$anchor4, i) => {
-            var div_13 = root_27();
-            template_effect(() => set_style(div_13, `--dg-skeleton-delay: ${i * 0.15}s`));
-            append2($$anchor4, div_13);
-          });
-          reset(div_12);
-          append2($$anchor3, div_12);
-        };
-        var consequent_21 = ($$anchor3) => {
-          var p_8 = root_29();
-          append2($$anchor3, p_8);
-        };
-        var alternate_4 = ($$anchor3) => {
-          var fragment_7 = root_342();
-          var input_6 = first_child(fragment_7);
-          remove_input_defaults(input_6);
-          var div_14 = sibling(input_6, 2);
-          each(div_14, 5, () => get2(filteredCommunity), (entry) => entry.id, ($$anchor4, entry) => {
-            var div_15 = root_332();
-            var node_25 = child(div_15);
-            {
-              var consequent_22 = ($$anchor5) => {
-                var img = root_30();
-                template_effect(() => {
-                  set_attribute2(img, "alt", (get2(entry), untrack(() => get2(entry).name)));
-                  set_attribute2(img, "src", (get2(entry), untrack(() => `https://raw.githubusercontent.com/${get2(entry).repo}/HEAD/${get2(entry).screenshot}`)));
-                });
-                append2($$anchor5, img);
-              };
-              if_block(node_25, ($$render) => {
-                if (get2(entry), untrack(() => get2(entry).screenshot)) $$render(consequent_22);
-              });
-            }
-            var div_16 = sibling(node_25, 2);
-            var span_13 = child(div_16);
-            var text_28 = child(span_13, true);
-            reset(span_13);
-            var span_14 = sibling(span_13, 2);
-            var text_29 = child(span_14, true);
-            reset(span_14);
-            var span_15 = sibling(span_14, 2);
-            var text_30 = child(span_15);
-            reset(span_15);
-            var node_26 = sibling(span_15, 2);
-            {
-              var consequent_23 = ($$anchor5) => {
-                var button_12 = root_31();
-                append2($$anchor5, button_12);
-              };
-              var d_1 = user_derived(() => (get2(entry), untrack(() => installedIds().has(get2(entry).id))));
-              var alternate_3 = ($$anchor5) => {
-                var button_13 = root_322();
-                template_effect(() => button_13.disabled = get2(inspecting) || get2(busy));
-                event("click", button_13, () => inspect2(get2(entry).repo));
-                append2($$anchor5, button_13);
-              };
-              if_block(node_26, ($$render) => {
-                if (get2(d_1)) $$render(consequent_23);
-                else $$render(alternate_3, -1);
-              });
-            }
-            reset(div_16);
-            reset(div_15);
-            template_effect(() => {
-              var _a6;
-              set_text(text_28, (get2(entry), untrack(() => get2(entry).name)));
-              set_text(text_29, (get2(entry), untrack(() => get2(entry).description)));
-              set_text(text_30, `by ${(_a6 = (get2(entry), untrack(() => get2(entry).author))) != null ? _a6 : ""}`);
-            });
-            append2($$anchor4, div_15);
-          });
           reset(div_14);
-          bind_value(input_6, () => get2(communityFilter), ($$value) => set(communityFilter, $$value));
-          append2($$anchor3, fragment_7);
+          reset(div_11);
+          bind_value(input_4, () => get2(communityFilter), ($$value) => set(communityFilter, $$value));
+          append2($$anchor3, div_11);
         };
-        if_block(node_24, ($$render) => {
-          if (get2(communityLoading)) $$render(consequent_20);
-          else if (get2(community), untrack(() => get2(community).length === 0)) $$render(consequent_21, 1);
-          else $$render(alternate_4, -1);
+        if_block(node_21, ($$render) => {
+          if (get2(communityLoading)) $$render(consequent_18);
+          else if (get2(community), untrack(() => get2(community).length === 0)) $$render(consequent_19, 1);
+          else $$render(alternate_5, -1);
         });
       }
+      var form = sibling(node_21, 6);
+      var input_5 = child(form);
+      remove_input_defaults(input_5);
+      var button_12 = sibling(input_5, 2);
+      var text_24 = child(button_12, true);
+      reset(button_12);
+      reset(form);
+      var node_26 = sibling(form, 2);
+      {
+        var consequent_23 = ($$anchor3) => {
+          var p_7 = root_26();
+          var text_25 = child(p_7, true);
+          reset(p_7);
+          template_effect(() => set_text(text_25, get2(installError)));
+          append2($$anchor3, p_7);
+        };
+        if_block(node_26, ($$render) => {
+          if (get2(installError)) $$render(consequent_23);
+        });
+      }
+      var p_8 = sibling(node_26, 2);
+      var button_13 = sibling(child(p_8));
+      reset(p_8);
       template_effect(
         ($0) => {
-          input_4.disabled = get2(inspecting) || get2(busy);
-          button_9.disabled = $0;
-          set_text(text_15, get2(inspecting) ? "Checking\u2026" : "Install");
+          input_5.disabled = get2(busy);
+          button_12.disabled = $0;
+          set_text(text_24, get2(installingRepo) === get2(installInput) && get2(installInput) ? "Installing\u2026" : "Install");
         },
         [
-          () => (get2(inspecting), get2(busy), get2(installInput), untrack(() => get2(inspecting) || get2(busy) || !get2(installInput).trim()))
+          () => (get2(busy), get2(installInput), untrack(() => get2(busy) || !get2(installInput).trim()))
         ]
       );
-      bind_value(input_4, () => get2(installInput), ($$value) => set(installInput, $$value));
-      event("click", button_9, () => inspect2(get2(installInput)));
-      append2($$anchor2, fragment_6);
+      bind_value(input_5, () => get2(installInput), ($$value) => set(installInput, $$value));
+      event("submit", form, preventDefault(installFromUrl));
+      event("click", button_13, turnOffCommunityPlugins);
+      append2($$anchor2, fragment_7);
     };
     if_block(node_2, ($$render) => {
       if (get2(activeTab) === "installed") $$render(consequent_16);
-      else $$render(alternate_5, -1);
+      else if (!get2(communityEnabled)) $$render(consequent_17, 1);
+      else $$render(alternate_6, -1);
     });
   }
   reset(div);
@@ -37367,11 +37594,13 @@ function GardenPluginsView($$anchor, $$props) {
 
 // src/views/GardenPluginSettings/GardenPluginsModal.ts
 var GardenPluginsModal = class {
-  constructor(app, manager, settings, saveSettings, applyNoteSettingsToSite) {
+  constructor(app, manager, settings, saveSettings, applyNoteSettingsToSite, options = {}) {
+    this.app = app;
     this.manager = manager;
     this.settings = settings;
     this.saveSettings = saveSettings;
     this.applyNoteSettingsToSite = applyNoteSettingsToSite;
+    this.options = options;
     this.open = () => {
       this.modal.onClose = () => {
         if (this.view) {
@@ -37380,22 +37609,26 @@ var GardenPluginsModal = class {
         }
       };
       this.modal.onOpen = () => {
+        var _a6;
         this.modal.contentEl.empty();
         this.modal.contentEl.addClass("dg-garden-plugins-modal");
-        this.modal.modalEl.style.width = "min(760px, 92vw)";
+        this.modal.modalEl.style.width = "min(1000px, 94vw)";
         this.view = mount(GardenPluginsView, {
           target: this.modal.contentEl,
           props: {
+            app: this.app,
             manager: this.manager,
             settings: this.settings,
             saveSettings: this.saveSettings,
-            applyNoteSettingsToSite: this.applyNoteSettingsToSite
+            applyNoteSettingsToSite: this.applyNoteSettingsToSite,
+            initialTab: (_a6 = this.options.tab) != null ? _a6 : "installed",
+            initialPluginId: this.options.pluginId
           }
         });
       };
       this.modal.open();
     };
-    this.modal = new import_obsidian17.Modal(app);
+    this.modal = new import_obsidian19.Modal(app);
     this.modal.titleEl.innerText = "Garden Plugins";
   }
 };
@@ -37502,6 +37735,34 @@ function validateGardenPluginManifest(parsed, options = {}) {
 function shouldSkipRepoFile(path) {
   const firstSegment = path.split("/")[0];
   return firstSegment.startsWith(".git") || firstSegment === ".github" || firstSegment === "node_modules";
+}
+
+// src/gardenPlugins/readme.ts
+function rawRepoBase(repo) {
+  return `https://raw.githubusercontent.com/${repo}/HEAD/`;
+}
+function readmeUrls(repo) {
+  return ["README.md", "readme.md", "Readme.md"].map(
+    (name) => `${rawRepoBase(repo)}${name}`
+  );
+}
+function isRelative(url) {
+  return !/^([a-z][a-z0-9+.-]*:|\/\/|#)/i.test(url.trim());
+}
+function absolutizeReadmeLinks(markdown, repo) {
+  const raw = rawRepoBase(repo);
+  const blob = `https://github.com/${repo}/blob/HEAD/`;
+  const resolve = (base, url) => `${base}${url.trim().replace(/^\.?\//, "")}`;
+  return markdown.replace(
+    /(!\[[^\]]*\]\()([^)\s]+)/g,
+    (match2, prefix, url) => isRelative(url) ? `${prefix}${resolve(raw, url)}` : match2
+  ).replace(
+    /((?:^|[^!])\[[^\]]*\]\()([^)\s]+)/g,
+    (match2, prefix, url) => isRelative(url) ? `${prefix}${resolve(blob, url)}` : match2
+  ).replace(
+    /(<img\b[^>]*?\bsrc=["'])([^"']+)/gi,
+    (match2, prefix, url) => isRelative(url) ? `${prefix}${resolve(raw, url)}` : match2
+  );
 }
 
 // src/gardenPlugins/GardenPluginManager.ts
@@ -37688,6 +37949,29 @@ var GardenPluginManager = class {
     });
   }
   /**
+   * Fetch a community plugin's README (owner/name), with repo-relative
+   * links and images made absolute. Uses raw.githubusercontent.com like
+   * {@link fetchCommunityPlugins}, so it costs no API rate limit.
+   * Returns undefined when the repo has no README.
+   */
+  fetchReadme(repo) {
+    return __async(this, null, function* () {
+      for (const url of readmeUrls(repo)) {
+        try {
+          const response = yield axios_default.get(url, {
+            responseType: "text",
+            transformResponse: (data) => data
+          });
+          if (typeof response.data === "string") {
+            return absolutizeReadmeLinks(response.data, repo);
+          }
+        } catch (e) {
+        }
+      }
+      return void 0;
+    });
+  }
+  /**
    * Fetch and validate a plugin from a GitHub repo without writing
    * anything — the result is shown to the user for confirmation before
    * {@link install}. Throws with a readable message on any problem.
@@ -37866,7 +38150,7 @@ var GardenPluginManager = class {
 var OBSIDIAN_THEME_URL = "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-css-themes.json";
 var SettingView = class {
   constructor(app, settingsRootElement, settings, saveSettings, afterForestryConnect = null) {
-    this.debouncedSaveAndUpdate = (0, import_obsidian18.debounce)(
+    this.debouncedSaveAndUpdate = (0, import_obsidian20.debounce)(
       this.saveSiteSettingsAndUpdateEnv,
       500,
       true
@@ -37881,7 +38165,7 @@ var SettingView = class {
   }
   getIcon(name) {
     var _a6;
-    return (_a6 = (0, import_obsidian18.getIcon)(name)) != null ? _a6 : document.createElement("span");
+    return (_a6 = (0, import_obsidian20.getIcon)(name)) != null ? _a6 : document.createElement("span");
   }
   reInitializeSettings() {
     if (this.prModal) {
@@ -37918,7 +38202,7 @@ var SettingView = class {
         text: "here.",
         href: "https://docs.forestry.md/getting-started/01-getting-started/"
       });
-      new import_obsidian18.Setting(this.settingsRootElement).setName("Publish Platform").addDropdown((dd) => {
+      new import_obsidian20.Setting(this.settingsRootElement).setName("Publish Platform").addDropdown((dd) => {
         dd.addOption("SelfHosted" /* SelfHosted */, "GitHub/Self Hosted");
         dd.addOption("ForestryMd" /* ForestryMd */, "Forestry.md");
         if (this.settings.publishPlatform === "SelfHosted" /* SelfHosted */) {
@@ -37960,7 +38244,7 @@ var SettingView = class {
       this.initializeThemesSettings();
       this.settingsRootElement.createEl("h3", { text: "Localization" }).prepend(this.getIcon("languages"));
       this.initializeUIStringsSettings();
-      new import_obsidian18.Setting(this.settingsRootElement).setName("Navigation Order").setDesc(
+      new import_obsidian20.Setting(this.settingsRootElement).setName("Navigation Order").setDesc(
         "Customize the order of files and folders in your site's navigation."
       ).addButton((cb) => {
         cb.setButtonText("Reorder Navigation");
@@ -37969,7 +38253,7 @@ var SettingView = class {
         }));
       });
       this.settingsRootElement.createEl("h3", { text: "Advanced" }).prepend(this.getIcon("cog"));
-      new import_obsidian18.Setting(this.settingsRootElement).setName("Path Rewrite Rules").setDesc(
+      new import_obsidian20.Setting(this.settingsRootElement).setName("Path Rewrite Rules").setDesc(
         "Define rules to rewrite note folder structure in the garden. See the modal for more information."
       ).addButton((cb) => {
         cb.setButtonText("Manage Rewrite Rules");
@@ -37978,7 +38262,7 @@ var SettingView = class {
         });
       });
       this.initializeCustomFilterSettings();
-      new import_obsidian18.Setting(this.settingsRootElement).setName("Enable debug logging").setDesc(
+      new import_obsidian20.Setting(this.settingsRootElement).setName("Enable debug logging").setDesc(
         "Show detailed logs in the developer console. Useful for troubleshooting."
       ).addToggle((toggle) => {
         toggle.setValue(this.settings.logLevel === import_js_logger12.default.DEBUG).onChange((value) => __async(this, null, function* () {
@@ -37987,17 +38271,17 @@ var SettingView = class {
           yield this.saveSettings();
         }));
       });
-      new import_obsidian18.Setting(this.settingsRootElement).setName("Copy debug log").setDesc(
+      new import_obsidian20.Setting(this.settingsRootElement).setName("Copy debug log").setDesc(
         "Copy the plugin's recent log to the clipboard \u2014 paste it in the Discord when asking for help with a failed publish."
       ).addButton((cb) => {
         cb.setButtonText("Copy debug log");
         cb.onClick(() => __async(this, null, function* () {
           yield navigator.clipboard.writeText(getDebugLog());
-          new import_obsidian18.Notice("Debug log copied to clipboard.");
+          new import_obsidian20.Notice("Debug log copied to clipboard.");
         }));
       });
       this.settingsRootElement.createEl("h3", { text: "Local Export" }).prepend(this.getIcon("folder-output"));
-      new import_obsidian18.Setting(this.settingsRootElement).setName("Local garden folder path").setDesc(
+      new import_obsidian20.Setting(this.settingsRootElement).setName("Local garden folder path").setDesc(
         "Absolute path to your local digital garden folder. Used by the 'Export Garden to Local Folder' command."
       ).addText((text2) => {
         var _a6;
@@ -38030,7 +38314,7 @@ var SettingView = class {
   }
   initializeDefaultNoteSettings() {
     return __async(this, null, function* () {
-      const noteSettingsModal = new import_obsidian18.Modal(this.app);
+      const noteSettingsModal = new import_obsidian20.Modal(this.app);
       let hasUnsavedChanges = false;
       const toggles = {};
       const touchedEnvKeys = /* @__PURE__ */ new Set();
@@ -38045,7 +38329,7 @@ var SettingView = class {
         text: "here.",
         href: "https://docs.forestry.md/getting-started/03-note-settings/"
       });
-      new import_obsidian18.Setting(this.settingsRootElement).setName("Global Note Settings").setDesc(
+      new import_obsidian20.Setting(this.settingsRootElement).setName("Global Note Settings").setDesc(
         `Default settings for each published note. These can be overwritten per note via frontmatter.`
       ).addButton((cb) => {
         cb.setButtonText("Manage note settings");
@@ -38136,7 +38420,7 @@ var SettingView = class {
         }
       });
       updateApplyButton();
-      new import_obsidian18.Setting(noteSettingsModal.contentEl).setName("Show home link (dg-home-link)").setDesc(
+      new import_obsidian20.Setting(noteSettingsModal.contentEl).setName("Show home link (dg-home-link)").setDesc(
         "Determines whether to show a link back to the homepage or not."
       ).addToggle((t) => {
         toggles["dgHomeLink"] = t;
@@ -38146,7 +38430,7 @@ var SettingView = class {
           markAsChanged("dgHomeLink");
         });
       });
-      new import_obsidian18.Setting(noteSettingsModal.contentEl).setName("Show local graph for notes (dg-show-local-graph)").setDesc(
+      new import_obsidian20.Setting(noteSettingsModal.contentEl).setName("Show local graph for notes (dg-show-local-graph)").setDesc(
         "When turned on, notes will show its local graph in a sidebar on desktop and at the bottom of the page on mobile."
       ).addToggle((t) => {
         toggles["dgShowLocalGraph"] = t;
@@ -38156,7 +38440,7 @@ var SettingView = class {
           markAsChanged("dgShowLocalGraph");
         });
       });
-      new import_obsidian18.Setting(noteSettingsModal.contentEl).setName("Show Graph Depth Control (dg-show-graph-depth-control)").setDesc("When turned on, graph will show a depth slider.").addToggle((t) => {
+      new import_obsidian20.Setting(noteSettingsModal.contentEl).setName("Show Graph Depth Control (dg-show-graph-depth-control)").setDesc("When turned on, graph will show a depth slider.").addToggle((t) => {
         toggles["dgShowGraphDepthControl"] = t;
         t.setValue(
           this.settings.defaultNoteSettings.dgShowGraphDepthControl
@@ -38166,7 +38450,7 @@ var SettingView = class {
           markAsChanged("dgShowGraphDepthControl");
         });
       });
-      new import_obsidian18.Setting(noteSettingsModal.contentEl).setName("Show backlinks for notes (dg-show-backlinks)").setDesc(
+      new import_obsidian20.Setting(noteSettingsModal.contentEl).setName("Show backlinks for notes (dg-show-backlinks)").setDesc(
         "When turned on, notes will show backlinks in a sidebar on desktop and at the bottom of the page on mobile."
       ).addToggle((t) => {
         toggles["dgShowBacklinks"] = t;
@@ -38176,7 +38460,7 @@ var SettingView = class {
           markAsChanged("dgShowBacklinks");
         });
       });
-      new import_obsidian18.Setting(noteSettingsModal.contentEl).setName("Show a table of content for notes (dg-show-toc)").setDesc(
+      new import_obsidian20.Setting(noteSettingsModal.contentEl).setName("Show a table of content for notes (dg-show-toc)").setDesc(
         "When turned on, notes will show all headers as a table of content in a sidebar on desktop. It will not be shown on mobile devices."
       ).addToggle((t) => {
         toggles["dgShowToc"] = t;
@@ -38186,7 +38470,7 @@ var SettingView = class {
           markAsChanged("dgShowToc");
         });
       });
-      new import_obsidian18.Setting(noteSettingsModal.contentEl).setName("Show inline title (dg-show-inline-title)").setDesc(
+      new import_obsidian20.Setting(noteSettingsModal.contentEl).setName("Show inline title (dg-show-inline-title)").setDesc(
         "When turned on, the title of the note will show on top of the page."
       ).addToggle((t) => {
         toggles["dgShowInlineTitle"] = t;
@@ -38196,7 +38480,7 @@ var SettingView = class {
           markAsChanged("dgShowInlineTitle");
         });
       });
-      new import_obsidian18.Setting(noteSettingsModal.contentEl).setName("Show filetree sidebar (dg-show-file-tree)").setDesc("When turned on, a filetree will be shown on your site.").addToggle((t) => {
+      new import_obsidian20.Setting(noteSettingsModal.contentEl).setName("Show filetree sidebar (dg-show-file-tree)").setDesc("When turned on, a filetree will be shown on your site.").addToggle((t) => {
         toggles["dgShowFileTree"] = t;
         t.setValue(this.settings.defaultNoteSettings.dgShowFileTree);
         t.onChange((val) => {
@@ -38204,7 +38488,7 @@ var SettingView = class {
           markAsChanged("dgShowFileTree");
         });
       });
-      new import_obsidian18.Setting(noteSettingsModal.contentEl).setName("Show Tags (dg-show-tags)").setDesc(
+      new import_obsidian20.Setting(noteSettingsModal.contentEl).setName("Show Tags (dg-show-tags)").setDesc(
         "When turned on, tags in your frontmatter will be displayed on each note. If search is enabled, clicking on a tag will bring up a search for all notes containing that tag."
       ).addToggle((t) => {
         toggles["dgShowTags"] = t;
@@ -38214,7 +38498,7 @@ var SettingView = class {
           markAsChanged("dgShowTags");
         });
       });
-      new import_obsidian18.Setting(noteSettingsModal.contentEl).setName("Let all frontmatter through (dg-pass-frontmatter)").setDesc(
+      new import_obsidian20.Setting(noteSettingsModal.contentEl).setName("Let all frontmatter through (dg-pass-frontmatter)").setDesc(
         "THIS WILL BREAK YOUR SITE IF YOU DON'T KNOW WHAT YOU ARE DOING! (But disabling will fix it). Determines whether to let all frontmatter data through to the site template. Be aware that this could break your site if you have data in a format not recognized by the template engine, 11ty."
       ).addToggle((t) => {
         toggles["dgPassFrontmatter"] = t;
@@ -38228,7 +38512,7 @@ var SettingView = class {
   }
   initializeUIStringsSettings() {
     return __async(this, null, function* () {
-      const uiStringsModal = new import_obsidian18.Modal(this.app);
+      const uiStringsModal = new import_obsidian20.Modal(this.app);
       uiStringsModal.containerEl.addClass("dg-settings");
       let hasUnsavedChanges = false;
       const textControls = {};
@@ -38242,7 +38526,7 @@ var SettingView = class {
       descDiv.createEl("span", {
         text: "Customize text displayed on your garden. Leave empty to use defaults."
       });
-      new import_obsidian18.Setting(this.settingsRootElement).setName("UI Text / Localization").setDesc(
+      new import_obsidian20.Setting(this.settingsRootElement).setName("UI Text / Localization").setDesc(
         "Customize labels and messages shown on your garden (Search, Backlinks, etc.)"
       ).addButton((cb) => {
         cb.setButtonText("Manage UI text");
@@ -38417,7 +38701,7 @@ var SettingView = class {
       });
       updateApplyButton();
       uiStringsModal.contentEl.createEl("h3", { text: "Backlinks" }).prepend(this.getIcon("link"));
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("Backlink header").setDesc('Default: "Pages mentioning this page"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("Backlink header").setDesc('Default: "Pages mentioning this page"').addText((text2) => {
         var _a6, _b3;
         textControls["backlinkHeader"] = text2;
         text2.setPlaceholder("Pages mentioning this page").setValue((_b3 = (_a6 = this.settings.uiStrings) == null ? void 0 : _a6.backlinkHeader) != null ? _b3 : "").onChange((val) => {
@@ -38425,7 +38709,7 @@ var SettingView = class {
           markAsChanged("UI_BACKLINK_HEADER");
         });
       });
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("No backlinks message").setDesc('Default: "No other pages mentions this page"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("No backlinks message").setDesc('Default: "No other pages mentions this page"').addText((text2) => {
         var _a6, _b3;
         textControls["noBacklinksMessage"] = text2;
         text2.setPlaceholder("No other pages mentions this page").setValue((_b3 = (_a6 = this.settings.uiStrings) == null ? void 0 : _a6.noBacklinksMessage) != null ? _b3 : "").onChange((val) => {
@@ -38434,7 +38718,7 @@ var SettingView = class {
         });
       });
       uiStringsModal.contentEl.createEl("h3", { text: "Search" }).prepend(this.getIcon("search"));
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("Search button text").setDesc('Default: "Search"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("Search button text").setDesc('Default: "Search"').addText((text2) => {
         var _a6, _b3;
         textControls["searchButtonText"] = text2;
         text2.setPlaceholder("Search").setValue((_b3 = (_a6 = this.settings.uiStrings) == null ? void 0 : _a6.searchButtonText) != null ? _b3 : "").onChange((val) => {
@@ -38442,7 +38726,7 @@ var SettingView = class {
           markAsChanged("UI_SEARCH_BUTTON_TEXT");
         });
       });
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("Search placeholder").setDesc('Default: "Start typing..."').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("Search placeholder").setDesc('Default: "Start typing..."').addText((text2) => {
         var _a6, _b3;
         textControls["searchPlaceholder"] = text2;
         text2.setPlaceholder("Start typing...").setValue((_b3 = (_a6 = this.settings.uiStrings) == null ? void 0 : _a6.searchPlaceholder) != null ? _b3 : "").onChange((val) => {
@@ -38450,7 +38734,7 @@ var SettingView = class {
           markAsChanged("UI_SEARCH_PLACEHOLDER");
         });
       });
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("Enter to select hint").setDesc('Default: "Enter to select"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("Enter to select hint").setDesc('Default: "Enter to select"').addText((text2) => {
         var _a6, _b3;
         textControls["searchEnterHint"] = text2;
         text2.setPlaceholder("Enter to select").setValue((_b3 = (_a6 = this.settings.uiStrings) == null ? void 0 : _a6.searchEnterHint) != null ? _b3 : "").onChange((val) => {
@@ -38458,7 +38742,7 @@ var SettingView = class {
           markAsChanged("UI_SEARCH_ENTER_HINT");
         });
       });
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("Navigate hint").setDesc('Default: "to navigate"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("Navigate hint").setDesc('Default: "to navigate"').addText((text2) => {
         var _a6, _b3;
         textControls["searchNavigateHint"] = text2;
         text2.setPlaceholder("to navigate").setValue((_b3 = (_a6 = this.settings.uiStrings) == null ? void 0 : _a6.searchNavigateHint) != null ? _b3 : "").onChange((val) => {
@@ -38466,7 +38750,7 @@ var SettingView = class {
           markAsChanged("UI_SEARCH_NAVIGATE_HINT");
         });
       });
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("Close hint").setDesc('Default: "ESC to close"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("Close hint").setDesc('Default: "ESC to close"').addText((text2) => {
         var _a6, _b3;
         textControls["searchCloseHint"] = text2;
         text2.setPlaceholder("ESC to close").setValue((_b3 = (_a6 = this.settings.uiStrings) == null ? void 0 : _a6.searchCloseHint) != null ? _b3 : "").onChange((val) => {
@@ -38474,7 +38758,7 @@ var SettingView = class {
           markAsChanged("UI_SEARCH_CLOSE_HINT");
         });
       });
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("No results message").setDesc('Default: "No results for"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("No results message").setDesc('Default: "No results for"').addText((text2) => {
         var _a6, _b3;
         textControls["searchNoResults"] = text2;
         text2.setPlaceholder("No results for").setValue((_b3 = (_a6 = this.settings.uiStrings) == null ? void 0 : _a6.searchNoResults) != null ? _b3 : "").onChange((val) => {
@@ -38482,7 +38766,7 @@ var SettingView = class {
           markAsChanged("UI_SEARCH_NO_RESULTS");
         });
       });
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("Preview placeholder text").setDesc('Default: "Select a result to preview"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("Preview placeholder text").setDesc('Default: "Select a result to preview"').addText((text2) => {
         var _a6, _b3;
         textControls["searchPreviewPlaceholder"] = text2;
         text2.setPlaceholder("Select a result to preview").setValue(
@@ -38492,7 +38776,7 @@ var SettingView = class {
           markAsChanged("UI_SEARCH_PREVIEW_PLACEHOLDER");
         });
       });
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("Search not started text").setDesc('Default: "Enter your search text in the box above"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("Search not started text").setDesc('Default: "Enter your search text in the box above"').addText((text2) => {
         var _a6, _b3;
         textControls["searchNotStarted"] = text2;
         text2.setPlaceholder("Enter your search text in the box above").setValue((_b3 = (_a6 = this.settings.uiStrings) == null ? void 0 : _a6.searchNotStarted) != null ? _b3 : "").onChange((val) => {
@@ -38500,7 +38784,7 @@ var SettingView = class {
           markAsChanged("UI_SEARCH_NOT_STARTED_TEXT");
         });
       });
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("Enter hotkey label").setDesc('Default: "Enter"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("Enter hotkey label").setDesc('Default: "Enter"').addText((text2) => {
         var _a6, _b3;
         textControls["searchEnterHotkey"] = text2;
         text2.setPlaceholder("Enter").setValue((_b3 = (_a6 = this.settings.uiStrings) == null ? void 0 : _a6.searchEnterHotkey) != null ? _b3 : "").onChange((val) => {
@@ -38508,7 +38792,7 @@ var SettingView = class {
           markAsChanged("UI_SEARCH_ENTER_HOTKEY");
         });
       });
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("Navigate hotkey label").setDesc('Default: "\u21C5"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("Navigate hotkey label").setDesc('Default: "\u21C5"').addText((text2) => {
         var _a6, _b3;
         textControls["searchNavigateHotkey"] = text2;
         text2.setPlaceholder("\u21C5").setValue(
@@ -38518,7 +38802,7 @@ var SettingView = class {
           markAsChanged("UI_SEARCH_NAVIGATE_HOTKEY");
         });
       });
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("Close hotkey label").setDesc('Default: "ESC"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("Close hotkey label").setDesc('Default: "ESC"').addText((text2) => {
         var _a6, _b3;
         textControls["searchCloseHotkey"] = text2;
         text2.setPlaceholder("ESC").setValue((_b3 = (_a6 = this.settings.uiStrings) == null ? void 0 : _a6.searchCloseHotkey) != null ? _b3 : "").onChange((val) => {
@@ -38527,7 +38811,7 @@ var SettingView = class {
         });
       });
       uiStringsModal.contentEl.createEl("h3", { text: "Canvas" }).addClass("dg-ui-strings-section-header");
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("Drag hint").setDesc('Default: "Drag to pan"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("Drag hint").setDesc('Default: "Drag to pan"').addText((text2) => {
         var _a6, _b3;
         textControls["canvasDragHint"] = text2;
         text2.setPlaceholder("Drag to pan").setValue((_b3 = (_a6 = this.settings.uiStrings) == null ? void 0 : _a6.canvasDragHint) != null ? _b3 : "").onChange((val) => {
@@ -38535,7 +38819,7 @@ var SettingView = class {
           markAsChanged("UI_CANVAS_DRAG_HINT");
         });
       });
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("Zoom hint").setDesc('Default: "Scroll to zoom"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("Zoom hint").setDesc('Default: "Scroll to zoom"').addText((text2) => {
         var _a6, _b3;
         textControls["canvasZoomHint"] = text2;
         text2.setPlaceholder("Scroll to zoom").setValue((_b3 = (_a6 = this.settings.uiStrings) == null ? void 0 : _a6.canvasZoomHint) != null ? _b3 : "").onChange((val) => {
@@ -38543,7 +38827,7 @@ var SettingView = class {
           markAsChanged("UI_CANVAS_ZOOM_HINT");
         });
       });
-      new import_obsidian18.Setting(uiStringsModal.contentEl).setName("Reset hint").setDesc('Default: "Double-click to reset"').addText((text2) => {
+      new import_obsidian20.Setting(uiStringsModal.contentEl).setName("Reset hint").setDesc('Default: "Double-click to reset"').addText((text2) => {
         var _a6, _b3;
         textControls["canvasResetHint"] = text2;
         text2.setPlaceholder("Double-click to reset").setValue((_b3 = (_a6 = this.settings.uiStrings) == null ? void 0 : _a6.canvasResetHint) != null ? _b3 : "").onChange((val) => {
@@ -38555,7 +38839,7 @@ var SettingView = class {
   }
   initializeThemesSettings() {
     return __async(this, null, function* () {
-      const themeModal = new import_obsidian18.Modal(this.app);
+      const themeModal = new import_obsidian20.Modal(this.app);
       themeModal.containerEl.addClass("dg-settings");
       themeModal.titleEl.createEl("h1", { text: "Appearance Settings" });
       const controls = {
@@ -38703,7 +38987,7 @@ var SettingView = class {
         cb.setButtonText("Apply settings to site");
         cb.setCta();
         cb.onClick((_ev) => __async(this, null, function* () {
-          new import_obsidian18.Notice("Applying settings to site...");
+          new import_obsidian20.Notice("Applying settings to site...");
           let applied;
           try {
             applied = yield this.saveSettingsAndUpdateEnv(touchedEnvKeys);
@@ -38734,7 +39018,7 @@ var SettingView = class {
               return;
             }
             import_js_logger12.default.error("Failed to resolve the publish branch", error);
-            new import_obsidian18.Notice(
+            new import_obsidian20.Notice(
               "Failed to update favicon and logo: could not access the publish branch. Check the developer console for details."
             );
             return;
@@ -38743,7 +39027,7 @@ var SettingView = class {
             yield this.addFavicon(octokit, owner, repo, branch2);
           } catch (error) {
             import_js_logger12.default.error("Failed to update favicon", error);
-            new import_obsidian18.Notice(
+            new import_obsidian20.Notice(
               "Failed to update favicon. Check the developer console for details."
             );
           }
@@ -38751,14 +39035,14 @@ var SettingView = class {
             yield this.addLogo(octokit, owner, repo, branch2);
           } catch (error) {
             import_js_logger12.default.error("Failed to update logo", error);
-            new import_obsidian18.Notice(
+            new import_obsidian20.Notice(
               "Failed to update logo. Check the developer console for details."
             );
           }
-          new import_obsidian18.Notice("Settings applied to site!");
+          new import_obsidian20.Notice("Settings applied to site!");
         }));
       };
-      new import_obsidian18.Setting(this.settingsRootElement).setName("Appearance").setDesc("Manage themes, sitename and styling on your site").addButton((cb) => {
+      new import_obsidian20.Setting(this.settingsRootElement).setName("Appearance").setDesc("Manage themes, sitename and styling on your site").addButton((cb) => {
         cb.setButtonText("Manage appearance");
         cb.onClick(() => __async(this, null, function* () {
           themeModal.open();
@@ -38775,20 +39059,20 @@ var SettingView = class {
             cls: "dg-settings-section"
           });
           styleSettingsSection.createEl("h3", { text: "Style Settings Plugin" }).prepend(this.getIcon("paintbrush"));
-          new import_obsidian18.Setting(styleSettingsSection).setName("Apply current style settings to site").setDesc(
+          new import_obsidian20.Setting(styleSettingsSection).setName("Apply current style settings to site").setDesc(
             "Click the apply button to use the current style settings from the Style Settings Plugin on your site. (The plugin looks at the currently APPLIED settings. Meaning you need to have the theme you are using in the garden selected in Obsidian before applying)"
           ).addButton((btn) => {
             btn.setButtonText("Apply Style Settings");
             btn.setCta();
             btn.onClick((_ev) => __async(this, null, function* () {
               var _a6;
-              new import_obsidian18.Notice("Applying Style Settings...");
+              new import_obsidian20.Notice("Applying Style Settings...");
               const styleSettingsNode = document.querySelector(
                 "#css-settings-manager"
               );
               const bodyClasses = (_a6 = document.querySelector("body")) == null ? void 0 : _a6.className;
               if (!styleSettingsNode && !bodyClasses) {
-                new import_obsidian18.Notice("No Style Settings found");
+                new import_obsidian20.Notice("No Style Settings found");
                 return;
               }
               if (styleSettingsNode == null ? void 0 : styleSettingsNode.innerHTML) {
@@ -38798,7 +39082,7 @@ var SettingView = class {
                 this.settings.styleSettingsBodyClasses = `${bodyClasses}`;
               }
               if (!this.settings.styleSettingsCss && !this.settings.styleSettingsBodyClasses) {
-                new import_obsidian18.Notice("No Style Settings found");
+                new import_obsidian20.Notice("No Style Settings found");
                 return;
               }
               yield this.saveSiteSettingsAndUpdateEnv(
@@ -38810,7 +39094,7 @@ var SettingView = class {
                   "STYLE_SETTINGS_BODY_CLASSES"
                 ])
               );
-              new import_obsidian18.Notice("Style Settings applied to site");
+              new import_obsidian20.Notice("Style Settings applied to site");
             }));
           }).addButton((btn) => {
             btn.setButtonText("Clear");
@@ -38826,7 +39110,7 @@ var SettingView = class {
                   "STYLE_SETTINGS_BODY_CLASSES"
                 ])
               );
-              new import_obsidian18.Notice("Style Settings removed from site");
+              new import_obsidian20.Notice("Style Settings removed from site");
             }));
           });
         }
@@ -38928,7 +39212,7 @@ var SettingView = class {
         const target = e.target;
         renderThemes(target.value);
       });
-      new import_obsidian18.Setting(themeSection).setName("Base theme").addDropdown((dd) => {
+      new import_obsidian20.Setting(themeSection).setName("Base theme").addDropdown((dd) => {
         controls.baseTheme = dd;
         dd.addOption("dark", "Dark");
         dd.addOption("light", "Light");
@@ -38939,7 +39223,7 @@ var SettingView = class {
           yield this.saveSettings();
         }));
       });
-      new import_obsidian18.Setting(themeSection).setName("Sitename").setDesc(
+      new import_obsidian20.Setting(themeSection).setName("Sitename").setDesc(
         "The name of your site. This will be displayed as the site header."
       ).addText((text2) => {
         controls.siteName = text2;
@@ -38951,7 +39235,7 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian18.Setting(themeSection).setName("Logo").setDesc(
+      new import_obsidian20.Setting(themeSection).setName("Logo").setDesc(
         "Path to an image in your vault to use as a logo instead of the sitename. Leave blank to show sitename text."
       ).addText((tc) => {
         tc.setPlaceholder("mylogo.png");
@@ -38962,7 +39246,7 @@ var SettingView = class {
         }));
         new ImageFileSuggest(this.app, tc.inputEl);
       });
-      new import_obsidian18.Setting(themeSection).setName("Logo size").setDesc(
+      new import_obsidian20.Setting(themeSection).setName("Logo size").setDesc(
         "Height of the logo on your site. A number is treated as pixels (e.g. 40), or use any CSS size like 3rem. Leave blank for the default size."
       ).addText((tc) => {
         controls.logoHeight = tc;
@@ -38974,7 +39258,7 @@ var SettingView = class {
           yield this.saveSettings();
         }));
       });
-      new import_obsidian18.Setting(themeSection).setName("Main language").setDesc(
+      new import_obsidian20.Setting(themeSection).setName("Main language").setDesc(
         "Language code (ISO 639-1) for the main language of your site. This is used to set the correct language on your site to assist search engines and browsers."
       ).addText((text2) => {
         controls.mainLanguage = text2;
@@ -38986,7 +39270,7 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian18.Setting(themeSection).setName("Favicon").setDesc(
+      new import_obsidian20.Setting(themeSection).setName("Favicon").setDesc(
         "Path to an svg in your vault you wish to use as a favicon. Leave blank to use default. Must be square! (eg. 16x16)"
       ).addText((tc) => {
         tc.setPlaceholder("myfavicon.svg");
@@ -38997,7 +39281,7 @@ var SettingView = class {
         }));
         new SvgFileSuggest(this.app, tc.inputEl);
       });
-      new import_obsidian18.Setting(themeSection).setName("Use full resolution images").setDesc(
+      new import_obsidian20.Setting(themeSection).setName("Use full resolution images").setDesc(
         "By default, the images on your site are compressed to make your site load faster. If you instead want to use the full resolution images, enable this setting."
       ).addToggle((toggle) => {
         controls.useFullResolutionImages = toggle;
@@ -39008,12 +39292,12 @@ var SettingView = class {
           yield this.saveSettings();
         }));
       });
-      new import_obsidian18.Setting(themeSection).setClass("dg-apply-button-container").addButton(handleSaveSettingsButton);
+      new import_obsidian20.Setting(themeSection).setClass("dg-apply-button-container").addButton(handleSaveSettingsButton);
       const timestampsSection = themeModal.contentEl.createDiv({
         cls: "dg-settings-section"
       });
       timestampsSection.createEl("h3", { text: "Timestamps Settings" }).prepend(this.getIcon("calendar-clock"));
-      new import_obsidian18.Setting(timestampsSection).setName("Timestamp format").setDesc(
+      new import_obsidian20.Setting(timestampsSection).setName("Timestamp format").setDesc(
         "The format string to render timestamp on the garden. Must be luxon compatible"
       ).addText((text2) => {
         controls.timestampFormat = text2;
@@ -39025,7 +39309,7 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian18.Setting(timestampsSection).setName("Show created timestamp").addToggle((t) => {
+      new import_obsidian20.Setting(timestampsSection).setName("Show created timestamp").addToggle((t) => {
         controls.showCreatedTimestamp = t;
         t.setValue(this.settings.showCreatedTimestamp).onChange(
           (value) => __async(this, null, function* () {
@@ -39035,7 +39319,7 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian18.Setting(timestampsSection).setName("Created timestamp Frontmatter Key").setDesc(
+      new import_obsidian20.Setting(timestampsSection).setName("Created timestamp Frontmatter Key").setDesc(
         "Key to get the created timestamp from the frontmatter. Leave blank to get the value from file creation time. The value can be any value that luxon Datetime.fromISO can parse."
       ).addText(
         (text2) => text2.setValue(this.settings.createdTimestampKey).onChange((value) => __async(this, null, function* () {
@@ -39043,7 +39327,7 @@ var SettingView = class {
           yield this.saveSettings();
         }))
       );
-      new import_obsidian18.Setting(timestampsSection).setName("Show updated timestamp").addToggle((t) => {
+      new import_obsidian20.Setting(timestampsSection).setName("Show updated timestamp").addToggle((t) => {
         controls.showUpdatedTimestamp = t;
         t.setValue(this.settings.showUpdatedTimestamp).onChange(
           (value) => __async(this, null, function* () {
@@ -39053,7 +39337,7 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian18.Setting(timestampsSection).setName("Updated timestamp Frontmatter Key").setDesc(
+      new import_obsidian20.Setting(timestampsSection).setName("Updated timestamp Frontmatter Key").setDesc(
         "Key to get the updated timestamp from the frontmatter. Leave blank to get the value from file update time. The value can be any value that luxon Datetime.fromISO can parse."
       ).addText(
         (text2) => text2.setValue(this.settings.updatedTimestampKey).onChange((value) => __async(this, null, function* () {
@@ -39061,12 +39345,12 @@ var SettingView = class {
           yield this.saveSettings();
         }))
       );
-      new import_obsidian18.Setting(timestampsSection).setClass("dg-apply-button-container").addButton(handleSaveSettingsButton);
+      new import_obsidian20.Setting(timestampsSection).setClass("dg-apply-button-container").addButton(handleSaveSettingsButton);
       const cssSection = themeModal.contentEl.createDiv({
         cls: "dg-settings-section"
       });
       cssSection.createEl("h3", { text: "CSS settings" }).prepend(this.getIcon("code"));
-      new import_obsidian18.Setting(cssSection).setName("Body Classes Key").setDesc(
+      new import_obsidian20.Setting(cssSection).setName("Body Classes Key").setDesc(
         "Key for setting css-classes to the note body from the frontmatter."
       ).addText(
         (text2) => text2.setValue(this.settings.contentClassesKey).onChange((value) => __async(this, null, function* () {
@@ -39074,7 +39358,7 @@ var SettingView = class {
           yield this.saveSettings();
         }))
       );
-      new import_obsidian18.Setting(cssSection).setClass("dg-apply-button-container").addButton(handleSaveSettingsButton);
+      new import_obsidian20.Setting(cssSection).setClass("dg-apply-button-container").addButton(handleSaveSettingsButton);
       const noteIconsSection = themeModal.contentEl.createDiv({
         cls: "dg-settings-section"
       });
@@ -39083,13 +39367,13 @@ var SettingView = class {
         text: "Documentation on note icons",
         href: "https://docs.forestry.md/advanced/note-specific-settings/#note-icons"
       });
-      new import_obsidian18.Setting(noteIconsSection).setName("Note icon Frontmatter Key").setDesc("Key to get the note icon value from the frontmatter").addText(
+      new import_obsidian20.Setting(noteIconsSection).setName("Note icon Frontmatter Key").setDesc("Key to get the note icon value from the frontmatter").addText(
         (text2) => text2.setValue(this.settings.noteIconKey).onChange((value) => __async(this, null, function* () {
           this.settings.noteIconKey = value;
           yield this.saveSettings();
         }))
       );
-      new import_obsidian18.Setting(noteIconsSection).setName("Default note icon Value").setDesc("The default value for note icon if not specified").addText((text2) => {
+      new import_obsidian20.Setting(noteIconsSection).setName("Default note icon Value").setDesc("The default value for note icon if not specified").addText((text2) => {
         controls.defaultNoteIcon = text2;
         text2.setValue(this.settings.defaultNoteIcon).onChange(
           (value) => __async(this, null, function* () {
@@ -39099,7 +39383,7 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian18.Setting(noteIconsSection).setName("Show note icon on Title").addToggle((t) => {
+      new import_obsidian20.Setting(noteIconsSection).setName("Show note icon on Title").addToggle((t) => {
         controls.showNoteIconOnTitle = t;
         t.setValue(this.settings.showNoteIconOnTitle).onChange(
           (value) => __async(this, null, function* () {
@@ -39109,7 +39393,7 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian18.Setting(noteIconsSection).setName("Show note icon in FileTree").addToggle((t) => {
+      new import_obsidian20.Setting(noteIconsSection).setName("Show note icon in FileTree").addToggle((t) => {
         controls.showNoteIconInFileTree = t;
         t.setValue(this.settings.showNoteIconInFileTree).onChange(
           (value) => __async(this, null, function* () {
@@ -39119,7 +39403,7 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian18.Setting(noteIconsSection).setName("Show note icon on Internal Links").addToggle((t) => {
+      new import_obsidian20.Setting(noteIconsSection).setName("Show note icon on Internal Links").addToggle((t) => {
         controls.showNoteIconOnInternalLink = t;
         t.setValue(this.settings.showNoteIconOnInternalLink).onChange(
           (value) => __async(this, null, function* () {
@@ -39129,7 +39413,7 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian18.Setting(noteIconsSection).setName("Show note icon on Backlinks").addToggle((t) => {
+      new import_obsidian20.Setting(noteIconsSection).setName("Show note icon on Backlinks").addToggle((t) => {
         controls.showNoteIconOnBackLink = t;
         t.setValue(this.settings.showNoteIconOnBackLink).onChange(
           (value) => __async(this, null, function* () {
@@ -39139,7 +39423,7 @@ var SettingView = class {
           })
         );
       });
-      new import_obsidian18.Setting(noteIconsSection).setClass("dg-apply-button-container").addButton(handleSaveSettingsButton);
+      new import_obsidian20.Setting(noteIconsSection).setClass("dg-apply-button-container").addButton(handleSaveSettingsButton);
     });
   }
   saveSettingsAndUpdateEnv(touchedEnvKeys) {
@@ -39147,7 +39431,7 @@ var SettingView = class {
       const theme = JSON.parse(this.settings.theme);
       const baseTheme = this.settings.baseTheme;
       if (theme.modes.indexOf(baseTheme) < 0) {
-        new import_obsidian18.Notice(
+        new import_obsidian20.Notice(
           `The ${theme.name} theme doesn't support ${baseTheme} mode.`
         );
         return false;
@@ -39157,35 +39441,18 @@ var SettingView = class {
         this.settings
       );
       yield gardenManager.updateEnv(touchedEnvKeys);
-      new import_obsidian18.Notice("Successfully applied settings");
+      new import_obsidian20.Notice("Successfully applied settings");
       return true;
     });
   }
   saveSiteSettingsAndUpdateEnv(metadataCache, settings, saveSettings, touchedEnvKeys) {
     return __async(this, null, function* () {
-      new import_obsidian18.Notice("Updating settings...");
-      let updateFailed = false;
-      try {
-        const gardenManager = new DigitalGardenSiteManager(
-          metadataCache,
-          settings
-        );
-        yield gardenManager.updateEnv(touchedEnvKeys);
-      } catch (error) {
-        if (error instanceof PublishBranchMissingError) {
-          notifyPublishBranchMissing(error);
-        } else {
-          new import_obsidian18.Notice(
-            "Failed to update settings. Make sure you have an internet connection."
-          );
-        }
-        updateFailed = true;
-      }
-      if (!updateFailed) {
-        new import_obsidian18.Notice("Settings successfully updated!");
-        yield saveSettings();
-      }
-      return !updateFailed;
+      return saveSiteSettingsAndUpdateEnv(
+        metadataCache,
+        settings,
+        saveSettings,
+        touchedEnvKeys
+      );
     });
   }
   parseEnvSettings(envContent) {
@@ -39207,8 +39474,8 @@ var SettingView = class {
         const faviconFile = this.app.vault.getAbstractFileByPath(
           this.settings.faviconPath
         );
-        if (!(faviconFile instanceof import_obsidian18.TFile)) {
-          new import_obsidian18.Notice(`${this.settings.faviconPath} is not a valid file.`);
+        if (!(faviconFile instanceof import_obsidian20.TFile)) {
+          new import_obsidian20.Notice(`${this.settings.faviconPath} is not a valid file.`);
           return;
         }
         const faviconContent = yield this.app.vault.readBinary(faviconFile);
@@ -39311,8 +39578,8 @@ var SettingView = class {
       const logoFile = this.app.vault.getAbstractFileByPath(
         this.settings.logoPath
       );
-      if (!(logoFile instanceof import_obsidian18.TFile)) {
-        new import_obsidian18.Notice(`${this.settings.logoPath} is not a valid file.`);
+      if (!(logoFile instanceof import_obsidian20.TFile)) {
+        new import_obsidian20.Notice(`${this.settings.logoPath} is not a valid file.`);
         return;
       }
       const logoContent = yield this.app.vault.readBinary(logoFile);
@@ -39360,7 +39627,7 @@ var SettingView = class {
           );
         } catch (error) {
           import_js_logger12.default.error("Failed to upload logo", error);
-          new import_obsidian18.Notice(
+          new import_obsidian20.Notice(
             "Failed to upload logo. Check the developer console for details."
           );
         }
@@ -39368,7 +39635,7 @@ var SettingView = class {
     });
   }
   initializeGitHubBaseURLSetting() {
-    const siteBaseUrl = new import_obsidian18.Setting(this.settingsRootElement).setName("Base URL").setDesc(
+    const siteBaseUrl = new import_obsidian20.Setting(this.settingsRootElement).setName("Base URL").setDesc(
       `This is optional, but recommended. It is used for the "Copy Garden URL" command, generating a sitemap.xml for better SEO and an RSS feed located at /feed.xml. `
     );
     if (this.settings.publishPlatform === "ForestryMd" /* ForestryMd */) {
@@ -39396,7 +39663,7 @@ var SettingView = class {
     }
   }
   initializeSlugifySetting() {
-    new import_obsidian18.Setting(this.settingsRootElement).setName("Slugify Note URL").setDesc(
+    new import_obsidian20.Setting(this.settingsRootElement).setName("Slugify Note URL").setDesc(
       'Transform the URL from "/My Folder/My Note/" to "/my-folder/my-note". If your note titles contains non-English characters, this should be disabled.'
     ).addToggle(
       (toggle) => toggle.setValue(this.settings.slugifyEnabled).onChange((value) => __async(this, null, function* () {
@@ -39406,7 +39673,7 @@ var SettingView = class {
     );
   }
   initializeExcalidrawSetting() {
-    new import_obsidian18.Setting(this.settingsRootElement).setName("Publish Excalidraw drawings as SVG").setDesc(
+    new import_obsidian20.Setting(this.settingsRootElement).setName("Publish Excalidraw drawings as SVG").setDesc(
       "Export drawings as static SVG images at publish time, with embedded images, notes and fonts included. Requires the Excalidraw plugin. When disabled, drawings are published as an interactive viewer loaded from a CDN, which cannot display embedded files."
     ).addToggle(
       (toggle) => toggle.setValue(this.settings.excalidrawSvgExportEnabled).onChange((value) => __async(this, null, function* () {
@@ -39416,7 +39683,7 @@ var SettingView = class {
     );
   }
   initializeGardenPluginSettings() {
-    new import_obsidian18.Setting(this.settingsRootElement).setName("Garden Plugins").setDesc(
+    new import_obsidian20.Setting(this.settingsRootElement).setName("Garden Plugins").setDesc(
       "Install, configure and manage the plugins that power your garden's features. Read from your garden repository."
     ).addButton((cb) => {
       cb.setButtonText("Manage plugins");
@@ -39472,7 +39739,7 @@ var SettingView = class {
       this.app.metadataCache,
       this.settings
     );
-    const rewriteRulesModal = new import_obsidian18.Modal(this.app);
+    const rewriteRulesModal = new import_obsidian20.Modal(this.app);
     rewriteRulesModal.open();
     const modalContent = mount(RewriteSettings, {
       target: rewriteRulesModal.contentEl,
@@ -39487,10 +39754,10 @@ var SettingView = class {
     };
   }
   initializeCustomFilterSettings() {
-    const customFilterModal = new import_obsidian18.Modal(this.app);
+    const customFilterModal = new import_obsidian20.Modal(this.app);
     customFilterModal.titleEl.createEl("h1", { text: "Custom Filters" });
     customFilterModal.modalEl.style.width = "fit-content";
-    new import_obsidian18.Setting(this.settingsRootElement).setName("Custom Filters").setDesc(
+    new import_obsidian20.Setting(this.settingsRootElement).setName("Custom Filters").setDesc(
       "Define custom rules to replace parts of the note before publishing."
     ).addButton((cb) => {
       cb.setButtonText("Manage Custom Filters");
@@ -39520,7 +39787,7 @@ var SettingView = class {
       }
     }).innerHTML = `Example: filter [<code>:smile:</code>, <code>\u{1F600}</code>, <code>g</code>] will replace text with real emojis`;
     const customFilters = this.settings.customFilters;
-    new import_obsidian18.Setting(rewriteSettingsContainer).setName("Filters").addButton((button) => {
+    new import_obsidian20.Setting(rewriteSettingsContainer).setName("Filters").addButton((button) => {
       button.setButtonText("Add");
       button.setTooltip("Add a filter");
       button.setIcon("plus");
@@ -39546,8 +39813,8 @@ var SettingView = class {
     return __async(this, null, function* () {
       var _a6, _b3, _c2;
       const target = (_a6 = this.updateSectionAnchor) != null ? _a6 : this.settingsRootElement;
-      target.createEl("h3", { text: "Update site template" }).prepend((_b3 = (0, import_obsidian18.getIcon)("sync")) != null ? _b3 : "");
-      new import_obsidian18.Setting(target).setName("Check for template updates on startup").setDesc(
+      target.createEl("h3", { text: "Update site template" }).prepend((_b3 = (0, import_obsidian20.getIcon)("sync")) != null ? _b3 : "");
+      new import_obsidian20.Setting(target).setName("Check for template updates on startup").setDesc(
         "Show a notice on launch when a new site template version is available. Disable this if your template has diverged from the default and won't ever match. You can still check for updates manually below."
       ).addToggle((toggle) => {
         toggle.setValue(!this.settings.disableTemplateUpdateNotice).onChange((value) => __async(this, null, function* () {
@@ -39558,7 +39825,7 @@ var SettingView = class {
       const loadingContainer = target.createDiv({
         cls: "dg-update-loading"
       });
-      new import_obsidian18.Setting(loadingContainer).setName("Site Template").setDesc("Checking for updates...").addButton((button) => {
+      new import_obsidian20.Setting(loadingContainer).setName("Site Template").setDesc("Checking for updates...").addButton((button) => {
         button.setButtonText("Checking...");
         button.setDisabled(true);
       });
@@ -39569,7 +39836,7 @@ var SettingView = class {
       } catch (error) {
         import_js_logger12.default.warn("Failed to check for template updates", error);
         loadingContainer.empty();
-        new import_obsidian18.Setting(loadingContainer).setName("Site Template").setDesc(
+        new import_obsidian20.Setting(loadingContainer).setName("Site Template").setDesc(
           "Unable to check for updates. Please check your connection and credentials."
         ).addButton((button) => {
           button.setButtonText("Check failed");
@@ -39580,14 +39847,25 @@ var SettingView = class {
       import_js_logger12.default.timeEnd("checkForUpdate");
       loadingContainer.empty();
       const updateAvailable = hasUpdates(updater);
-      new import_obsidian18.Setting(loadingContainer).setName("Site Template").setDesc(
-        updateAvailable ? "Manage updates to the base template. You should try updating the template when you update the plugin to make sure your garden support all features." : `Your site template is up to date! (${(_c2 = updater.newestTemplateVersion) != null ? _c2 : "latest"})`
-      ).addButton((button) => __async(this, null, function* () {
+      const applier = canApplyTemplate(updater) ? updater : null;
+      const latestVersion = (_c2 = updater.newestTemplateVersion) != null ? _c2 : "latest";
+      const fileCountText = (count) => `${count} template file${count === 1 ? "" : "s"}`;
+      let description;
+      if (updateAvailable) {
+        description = `${updater.installedVersion ? `Version ${latestVersion} is available (you have ${updater.installedVersion}). ` : ""}Manage updates to the base template. You should try updating the template when you update the plugin to make sure your garden support all features.`;
+      } else if (applier) {
+        description = `Your site template is up to date (${latestVersion}). ${fileCountText(
+          applier.changedFileCount
+        )} differ from the default template, likely your own customizations. Re-applying creates a pull request that overwrites them.`;
+      } else {
+        description = `Your site template is up to date! (${latestVersion})`;
+      }
+      new import_obsidian20.Setting(loadingContainer).setName("Site Template").setDesc(description).addButton((button) => __async(this, null, function* () {
         if (updateAvailable) {
-          button.setButtonText(
-            `Update to ${updater.newestTemplateVersion}`
-          );
+          button.setButtonText(`Update to ${latestVersion}`);
           button.setCta();
+        } else if (applier) {
+          button.setButtonText("Re-apply template");
         } else {
           button.setButtonText("Already up to date!");
           button.setDisabled(true);
@@ -39596,11 +39874,39 @@ var SettingView = class {
           modal.open();
         });
       }));
+      if (updateAvailable && applier && !applier.installedVersion) {
+        new import_obsidian20.Setting(loadingContainer).setName("Already up to date?").setDesc(
+          `If you have already updated your template and the differing files are your own customizations, record ${latestVersion} as your template version. Future update notices will then only appear for new template releases.`
+        ).addButton((button) => {
+          button.setButtonText("Mark as up to date");
+          button.onClick(() => __async(this, null, function* () {
+            button.setDisabled(true);
+            button.setButtonText("Saving...");
+            try {
+              yield applier.markAsUpToDate();
+              new import_obsidian20.Notice(
+                `Site template marked as version ${latestVersion}.`
+              );
+              button.setButtonText("Marked as up to date");
+            } catch (error) {
+              import_js_logger12.default.error(
+                "Failed to mark template as up to date",
+                error
+              );
+              new import_obsidian20.Notice(
+                "Could not save the template version. Please try again."
+              );
+              button.setButtonText("Mark as up to date");
+              button.setDisabled(false);
+            }
+          }));
+        });
+      }
       modal.titleEl.empty();
       const titleContainer = modal.titleEl.createDiv({
         cls: "dg-modal-title"
       });
-      const syncIcon = (0, import_obsidian18.getIcon)("refresh-cw");
+      const syncIcon = (0, import_obsidian20.getIcon)("refresh-cw");
       if (syncIcon) {
         titleContainer.appendChild(syncIcon);
       }
@@ -39611,7 +39917,7 @@ var SettingView = class {
       const infoContainer = updateSection.createDiv({
         cls: "dg-update-info"
       });
-      const infoIcon = (0, import_obsidian18.getIcon)("info");
+      const infoIcon = (0, import_obsidian20.getIcon)("info");
       if (infoIcon) {
         infoContainer.appendChild(infoIcon);
       }
@@ -39659,7 +39965,7 @@ var SettingView = class {
     const header = historySection.createDiv({
       cls: "dg-pr-history-header"
     });
-    const chevronIcon = (0, import_obsidian18.getIcon)("chevron-right");
+    const chevronIcon = (0, import_obsidian20.getIcon)("chevron-right");
     if (chevronIcon) {
       header.appendChild(chevronIcon);
     }
@@ -39683,7 +39989,7 @@ var SettingView = class {
       const prItem = prsContainer.createDiv({
         cls: "dg-pr-history-item"
       });
-      const gitPrIcon = (0, import_obsidian18.getIcon)("git-pull-request");
+      const gitPrIcon = (0, import_obsidian20.getIcon)("git-pull-request");
       if (gitPrIcon) {
         prItem.appendChild(gitPrIcon);
       }
@@ -39699,8 +40005,8 @@ var SettingView = class {
 };
 
 // src/views/UpdateGardenRepositoryModal.ts
-var import_obsidian19 = require("obsidian");
-var UpdateGardenRepositoryModal = class extends import_obsidian19.Modal {
+var import_obsidian21 = require("obsidian");
+var UpdateGardenRepositoryModal = class extends import_obsidian21.Modal {
   constructor(app) {
     super(app);
     this.modalEl.addClass("dg-update-modal");
@@ -39716,7 +40022,7 @@ var UpdateGardenRepositoryModal = class extends import_obsidian19.Modal {
     const spinnerContainer = this.loading.createDiv({
       cls: "dg-update-spinner"
     });
-    const spinnerIcon = (0, import_obsidian19.getIcon)("loader-2");
+    const spinnerIcon = (0, import_obsidian21.getIcon)("loader-2");
     if (spinnerIcon) {
       spinnerContainer.appendChild(spinnerIcon);
     }
@@ -39744,7 +40050,7 @@ var UpdateGardenRepositoryModal = class extends import_obsidian19.Modal {
     const iconContainer = successContainer.createDiv({
       cls: "dg-update-icon dg-update-icon-success"
     });
-    const checkIcon = (0, import_obsidian19.getIcon)("check-circle");
+    const checkIcon = (0, import_obsidian21.getIcon)("check-circle");
     if (checkIcon) {
       iconContainer.appendChild(checkIcon);
     }
@@ -39765,7 +40071,7 @@ var UpdateGardenRepositoryModal = class extends import_obsidian19.Modal {
         href: prUrl,
         cls: "dg-update-link"
       });
-      const externalIcon = (0, import_obsidian19.getIcon)("external-link");
+      const externalIcon = (0, import_obsidian21.getIcon)("external-link");
       if (externalIcon) {
         link2.appendChild(externalIcon);
       }
@@ -39791,7 +40097,7 @@ var UpdateGardenRepositoryModal = class extends import_obsidian19.Modal {
     const iconContainer = errorContainer.createDiv({
       cls: "dg-update-icon dg-update-icon-error"
     });
-    const alertIcon = (0, import_obsidian19.getIcon)("alert-circle");
+    const alertIcon = (0, import_obsidian21.getIcon)("alert-circle");
     if (alertIcon) {
       iconContainer.appendChild(alertIcon);
     }
@@ -39808,7 +40114,7 @@ var UpdateGardenRepositoryModal = class extends import_obsidian19.Modal {
 
 // src/views/DigitalGardenSettingTab.ts
 var import_js_logger13 = __toESM(require_logger());
-var DigitalGardenSettingTab = class extends import_obsidian20.PluginSettingTab {
+var DigitalGardenSettingTab = class extends import_obsidian22.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -39881,73 +40187,51 @@ var DigitalGardenSettingTab = class extends import_obsidian20.PluginSettingTab {
 var import_js_logger16 = __toESM(require_logger());
 
 // src/views/GardenPluginSettings/InstallPluginModal.ts
-var import_obsidian22 = require("obsidian");
+var import_obsidian24 = require("obsidian");
 
 // src/views/GardenPluginSettings/InstallPluginView.svelte
-var import_obsidian21 = require("obsidian");
-var root6 = from_html(`<span class="dg-spinner svelte-jtoci9" aria-hidden="true"></span> Checking\u2026`, 1);
+var import_obsidian23 = require("obsidian");
+var root8 = from_html(`<span class="dg-spinner svelte-jtoci9" aria-hidden="true"></span> Installing\u2026`, 1);
 var root_110 = from_html(`<p class="dg-install-error svelte-jtoci9"> </p>`);
-var root_210 = from_html(`<label class="dg-install-conflict-choice svelte-jtoci9"><input type="checkbox" class="svelte-jtoci9"/> <span> <strong> </strong> </span></label>`);
-var root_37 = from_html(`<span class="dg-spinner svelte-jtoci9" aria-hidden="true"></span> Installing\u2026`, 1);
-var root_44 = from_html(`<div class="dg-install-confirm svelte-jtoci9"><p class="dg-install-confirm-title svelte-jtoci9"> <strong> </strong> </p> <p> </p> <p class="dg-install-warning svelte-jtoci9">\u26A0\uFE0F Plugins run their own code in your site's build and in your
-				visitors' browsers. Only install plugins from authors you trust
-				\u2014 review the code at <a> </a> <code> </code>).</p> <!> <div class="dg-install-actions svelte-jtoci9"><button class="mod-cta svelte-jtoci9"><!></button> <button class="svelte-jtoci9">Cancel</button></div></div>`);
-var root_53 = from_html(`<div class="dg-install-plugin svelte-jtoci9"><p class="dg-install-intro svelte-jtoci9">Paste the GitHub URL of a garden plugin. It will be reviewed before
-		anything is written to your garden repository.</p> <form class="dg-install-row svelte-jtoci9"><input type="text" placeholder="https://github.com/user/garden-plugin-example" class="svelte-jtoci9"/> <button type="submit" class="mod-cta svelte-jtoci9"><!></button></form> <!> <!></div>`);
-var $$css6 = {
+var root_210 = from_html(`<div class="dg-install-plugin svelte-jtoci9"><p class="dg-install-intro svelte-jtoci9">Paste the GitHub URL of a garden plugin to install it, or to update
+			it if it is already installed.</p> <form class="dg-install-row svelte-jtoci9"><input type="text" placeholder="https://github.com/user/garden-plugin-example" class="svelte-jtoci9"/> <button type="submit" class="mod-cta svelte-jtoci9"><!></button></form> <!></div>`);
+var $$css8 = {
   hash: "svelte-jtoci9",
-  code: ".dg-install-plugin.svelte-jtoci9 {display:flex;flex-direction:column;gap:10px;min-width:min(440px, 80vw);}.dg-install-intro.svelte-jtoci9 {color:var(--text-muted);margin:0;}.dg-install-row.svelte-jtoci9 {display:flex;gap:8px;}.dg-install-row.svelte-jtoci9 input:where(.svelte-jtoci9) {flex:1;}.dg-install-row.svelte-jtoci9 button:where(.svelte-jtoci9) {display:inline-flex;align-items:center;gap:6px;white-space:nowrap;}.dg-install-error.svelte-jtoci9 {color:var(--text-error);margin:0;}.dg-install-confirm.svelte-jtoci9 {border:1px solid var(--background-modifier-border);border-left:3px solid var(--interactive-accent);border-radius:8px;padding:10px 14px;}.dg-install-confirm-title.svelte-jtoci9 {margin-top:0;}.dg-install-warning.svelte-jtoci9 {color:var(--text-warning, var(--text-muted));}.dg-install-conflict-choice.svelte-jtoci9 {display:flex;align-items:flex-start;gap:8px;margin:0 0 10px;font-size:0.92em;}.dg-install-conflict-choice.svelte-jtoci9 input:where(.svelte-jtoci9) {margin-top:3px;}.dg-install-actions.svelte-jtoci9 {display:flex;gap:8px;}.dg-install-actions.svelte-jtoci9 button:where(.svelte-jtoci9) {display:inline-flex;align-items:center;gap:6px;}.dg-spinner.svelte-jtoci9 {width:12px;height:12px;border:2px solid currentColor;border-top-color:transparent;border-radius:50%;\n		animation: svelte-jtoci9-dg-spin 0.7s linear infinite;}\n\n	@keyframes svelte-jtoci9-dg-spin {\n		to {\n			transform: rotate(360deg);\n		}\n	}\n\n	@media (prefers-reduced-motion: reduce) {.dg-spinner.svelte-jtoci9 {animation-duration:2.5s;}\n	}"
+  code: ".dg-install-plugin.svelte-jtoci9 {display:flex;flex-direction:column;gap:10px;min-width:min(440px, 80vw);}.dg-install-intro.svelte-jtoci9 {color:var(--text-muted);margin:0;}.dg-install-row.svelte-jtoci9 {display:flex;gap:8px;}.dg-install-row.svelte-jtoci9 input:where(.svelte-jtoci9) {flex:1;}.dg-install-row.svelte-jtoci9 button:where(.svelte-jtoci9) {display:inline-flex;align-items:center;gap:6px;white-space:nowrap;}.dg-install-error.svelte-jtoci9 {color:var(--text-error);margin:0;}.dg-spinner.svelte-jtoci9 {width:12px;height:12px;border:2px solid currentColor;border-top-color:transparent;border-radius:50%;\n		animation: svelte-jtoci9-dg-spin 0.7s linear infinite;}\n\n	@keyframes svelte-jtoci9-dg-spin {\n		to {\n			transform: rotate(360deg);\n		}\n	}\n\n	@media (prefers-reduced-motion: reduce) {.dg-spinner.svelte-jtoci9 {animation-duration:2.5s;}\n	}"
 };
 function InstallPluginView($$anchor, $$props) {
   push($$props, false);
-  append_styles($$anchor, $$css6);
+  append_styles($$anchor, $$css8);
   let manager = prop($$props, "manager", 8);
   let settings = prop($$props, "settings", 8);
+  let saveSettings = prop($$props, "saveSettings", 8);
   let close = prop($$props, "close", 8);
+  let communityEnabled = mutable_source(settings().gardenCommunityPluginsEnabled === true);
   let input = mutable_source("");
   let inputEl = mutable_source();
-  let inspecting = mutable_source(false);
   let installing = mutable_source(false);
   let error = mutable_source(null);
-  let pending2 = mutable_source(null);
-  let existingEntry = mutable_source();
-  let conflicts = mutable_source([]);
-  let disableConflicts = mutable_source(true);
   onMount(() => {
     get2(inputEl) === null || get2(inputEl) === void 0 ? void 0 : get2(inputEl).focus();
   });
-  function inspect2() {
-    var _a6;
+  function onEnabled() {
+    return __awaiter(this, void 0, void 0, function* () {
+      set(communityEnabled, true);
+      yield tick();
+      get2(inputEl) === null || get2(inputEl) === void 0 ? void 0 : get2(inputEl).focus();
+    });
+  }
+  function install() {
     return __awaiter(this, void 0, void 0, function* () {
       if (!get2(input).trim()) {
         return;
       }
-      set(inspecting, true);
-      set(error, null);
-      set(pending2, null);
-      set(disableConflicts, true);
-      try {
-        const remote = yield manager().inspectRemotePlugin(get2(input));
-        const installed = yield manager().listInstalled();
-        set(existingEntry, (_a6 = installed.find((plugin) => plugin.manifest.id === remote.manifest.id)) === null || _a6 === void 0 ? void 0 : _a6.registryEntry);
-        set(conflicts, getRegionConflicts(remote.manifest, installed));
-        set(pending2, remote);
-      } catch (err) {
-        set(error, err instanceof Error ? err.message : "Unknown error");
-      }
-      set(inspecting, false);
-    });
-  }
-  function confirmInstall() {
-    return __awaiter(this, void 0, void 0, function* () {
-      if (!get2(pending2)) {
-        return;
-      }
       set(installing, true);
-      const disableIds = get2(disableConflicts) ? get2(conflicts).map((conflict) => conflict.manifest.id) : [];
+      set(error, null);
       try {
-        yield manager().install(get2(pending2), get2(existingEntry), disableIds);
-        new import_obsidian21.Notice(`${get2(existingEntry) ? "Updated" : "Installed"} ${get2(pending2).manifest.name} ${get2(pending2).manifest.version}. ${buildTriggeredNotice(settings())}`);
+        const installed = yield manager().listInstalled();
+        const result = yield installFromRepo(manager(), get2(input), installed);
+        new import_obsidian23.Notice(installNotice(result, settings()));
         close()();
       } catch (err) {
         set(error, err instanceof Error ? err.message : "Install failed");
@@ -39956,166 +40240,87 @@ function InstallPluginView($$anchor, $$props) {
     });
   }
   init();
-  var div = root_53();
-  var form = sibling(child(div), 2);
-  var input_1 = child(form);
-  remove_input_defaults(input_1);
-  bind_this(input_1, ($$value) => set(inputEl, $$value), () => get2(inputEl));
-  var button = sibling(input_1, 2);
-  var node = child(button);
+  var fragment = comment();
+  var node = first_child(fragment);
   {
     var consequent = ($$anchor2) => {
-      var fragment = root6();
-      next();
-      append2($$anchor2, fragment);
+      CommunityPluginsGate($$anchor2, {
+        get settings() {
+          return settings();
+        },
+        get saveSettings() {
+          return saveSettings();
+        },
+        onEnabled
+      });
     };
-    var alternate = ($$anchor2) => {
-      var text2 = text("Check plugin");
-      append2($$anchor2, text2);
-    };
-    if_block(node, ($$render) => {
-      if (get2(inspecting)) $$render(consequent);
-      else $$render(alternate, -1);
-    });
-  }
-  reset(button);
-  reset(form);
-  var node_1 = sibling(form, 2);
-  {
-    var consequent_1 = ($$anchor2) => {
-      var p = root_110();
-      var text_1 = child(p, true);
-      reset(p);
-      template_effect(() => set_text(text_1, get2(error)));
-      append2($$anchor2, p);
-    };
-    if_block(node_1, ($$render) => {
-      if (get2(error)) $$render(consequent_1);
-    });
-  }
-  var node_2 = sibling(node_1, 2);
-  {
-    var consequent_4 = ($$anchor2) => {
-      var div_1 = root_44();
-      var p_1 = child(div_1);
-      var text_2 = child(p_1);
-      var strong = sibling(text_2);
-      var text_3 = child(strong, true);
-      reset(strong);
-      var text_4 = sibling(strong);
-      reset(p_1);
-      var p_2 = sibling(p_1, 2);
-      var text_5 = child(p_2, true);
-      reset(p_2);
-      var p_3 = sibling(p_2, 2);
-      var a = sibling(child(p_3));
-      var text_6 = child(a);
-      reset(a);
-      var text_7 = sibling(a);
-      var code = sibling(text_7);
-      var text_8 = child(code, true);
-      reset(code);
-      next();
-      reset(p_3);
-      var node_3 = sibling(p_3, 2);
+    var alternate_1 = ($$anchor2) => {
+      var div = root_210();
+      var form = sibling(child(div), 2);
+      var input_1 = child(form);
+      remove_input_defaults(input_1);
+      bind_this(input_1, ($$value) => set(inputEl, $$value), () => get2(inputEl));
+      var button = sibling(input_1, 2);
+      var node_1 = child(button);
+      {
+        var consequent_1 = ($$anchor3) => {
+          var fragment_2 = root8();
+          next();
+          append2($$anchor3, fragment_2);
+        };
+        var alternate = ($$anchor3) => {
+          var text2 = text("Install");
+          append2($$anchor3, text2);
+        };
+        if_block(node_1, ($$render) => {
+          if (get2(installing)) $$render(consequent_1);
+          else $$render(alternate, -1);
+        });
+      }
+      reset(button);
+      reset(form);
+      var node_2 = sibling(form, 2);
       {
         var consequent_2 = ($$anchor3) => {
-          var label = root_210();
-          var input_2 = child(label);
-          remove_input_defaults(input_2);
-          var span = sibling(input_2, 2);
-          var text_9 = child(span);
-          var strong_1 = sibling(text_9);
-          var text_10 = child(strong_1, true);
-          reset(strong_1);
-          var text_11 = sibling(strong_1);
-          reset(span);
-          reset(label);
-          template_effect(
-            ($0, $1) => {
-              var _a6, _b3, _c2;
-              set_text(text_9, `${(_a6 = (get2(pending2), untrack(() => get2(pending2).manifest.name))) != null ? _a6 : ""} replaces `);
-              set_text(text_10, $0);
-              set_text(text_11, ` (${$1 != null ? $1 : ""}). Disable ${(_b3 = (get2(conflicts), untrack(() => get2(conflicts).length === 1 ? "it" : "them"))) != null ? _b3 : ""} so ${(_c2 = (get2(pending2), untrack(() => get2(pending2).manifest.name))) != null ? _c2 : ""} takes over right
-						away.`);
-            },
-            [
-              () => (get2(conflicts), untrack(() => get2(conflicts).map((c) => c.manifest.name).join(", "))),
-              () => (deep_read_state(regionsOf), get2(pending2), untrack(() => regionsOf(get2(pending2).manifest).join(", ")))
-            ]
-          );
-          bind_checked(input_2, () => get2(disableConflicts), ($$value) => set(disableConflicts, $$value));
-          append2($$anchor3, label);
+          var p = root_110();
+          var text_1 = child(p, true);
+          reset(p);
+          template_effect(() => set_text(text_1, get2(error)));
+          append2($$anchor3, p);
         };
-        if_block(node_3, ($$render) => {
-          if (get2(conflicts), untrack(() => get2(conflicts).length > 0)) $$render(consequent_2);
+        if_block(node_2, ($$render) => {
+          if (get2(error)) $$render(consequent_2);
         });
       }
-      var div_2 = sibling(node_3, 2);
-      var button_1 = child(div_2);
-      var node_4 = child(button_1);
-      {
-        var consequent_3 = ($$anchor3) => {
-          var fragment_1 = root_37();
-          next();
-          append2($$anchor3, fragment_1);
-        };
-        var alternate_1 = ($$anchor3) => {
-          var text_12 = text();
-          template_effect(() => set_text(text_12, get2(existingEntry) ? "Update plugin" : "Install plugin"));
-          append2($$anchor3, text_12);
-        };
-        if_block(node_4, ($$render) => {
-          if (get2(installing)) $$render(consequent_3);
-          else $$render(alternate_1, -1);
-        });
-      }
-      reset(button_1);
-      var button_2 = sibling(button_1, 2);
-      reset(div_2);
-      reset(div_1);
-      template_effect(() => {
-        var _a6, _b3, _c2, _d, _e;
-        set_text(text_2, `${get2(existingEntry) ? "Update" : "Install"} `);
-        set_text(text_3, (get2(pending2), untrack(() => get2(pending2).manifest.name)));
-        set_text(text_4, ` v${(_a6 = (get2(pending2), untrack(() => get2(pending2).manifest.version))) != null ? _a6 : ""} by ${(_b3 = (get2(pending2), untrack(() => get2(pending2).manifest.author))) != null ? _b3 : ""}?`);
-        set_text(text_5, (get2(pending2), untrack(() => get2(pending2).manifest.description)));
-        set_attribute2(a, "href", (get2(pending2), untrack(() => `https://github.com/${get2(pending2).owner}/${get2(pending2).repo}`)));
-        set_text(text_6, `${(_c2 = (get2(pending2), untrack(() => get2(pending2).owner))) != null ? _c2 : ""}/${(_d = (get2(pending2), untrack(() => get2(pending2).repo))) != null ? _d : ""}`);
-        set_text(text_7, ` (${(_e = (get2(pending2), untrack(() => get2(pending2).files.length))) != null ? _e : ""} files, ref `);
-        set_text(text_8, (get2(pending2), untrack(() => get2(pending2).ref)));
-        button_1.disabled = get2(installing);
-        button_2.disabled = get2(installing);
-      });
-      event("click", button_1, confirmInstall);
-      event("click", button_2, () => set(pending2, null));
-      append2($$anchor2, div_1);
+      reset(div);
+      template_effect(
+        ($0) => {
+          input_1.disabled = get2(installing);
+          button.disabled = $0;
+        },
+        [
+          () => (get2(installing), get2(input), untrack(() => get2(installing) || !get2(input).trim()))
+        ]
+      );
+      bind_value(input_1, () => get2(input), ($$value) => set(input, $$value));
+      event("submit", form, preventDefault(install));
+      append2($$anchor2, div);
     };
-    if_block(node_2, ($$render) => {
-      if (get2(pending2)) $$render(consequent_4);
+    if_block(node, ($$render) => {
+      if (!get2(communityEnabled)) $$render(consequent);
+      else $$render(alternate_1, -1);
     });
   }
-  reset(div);
-  template_effect(
-    ($0) => {
-      input_1.disabled = get2(inspecting) || get2(installing);
-      button.disabled = $0;
-    },
-    [
-      () => (get2(inspecting), get2(installing), get2(input), untrack(() => get2(inspecting) || get2(installing) || !get2(input).trim()))
-    ]
-  );
-  bind_value(input_1, () => get2(input), ($$value) => set(input, $$value));
-  event("submit", form, preventDefault(inspect2));
-  append2($$anchor, div);
+  append2($$anchor, fragment);
   pop();
 }
 
 // src/views/GardenPluginSettings/InstallPluginModal.ts
 var InstallPluginModal = class {
-  constructor(app, settings) {
+  constructor(app, settings, saveSettings) {
     this.app = app;
     this.settings = settings;
+    this.saveSettings = saveSettings;
     this.open = () => __async(this, null, function* () {
       const connection = yield PublishPlatformConnectionFactory.createPublishPlatformConnection(
         this.settings
@@ -40138,30 +40343,31 @@ var InstallPluginModal = class {
           props: {
             manager,
             settings: this.settings,
+            saveSettings: this.saveSettings,
             close: () => this.modal.close()
           }
         });
       };
       this.modal.open();
     });
-    this.modal = new import_obsidian22.Modal(app);
+    this.modal = new import_obsidian24.Modal(app);
     this.modal.titleEl.innerText = "Install Garden Plugin";
   }
 };
 
 // src/forestry/limitNotice.ts
-var import_obsidian23 = require("obsidian");
+var import_obsidian25 = require("obsidian");
 function notifyLimitReached(error) {
   var _a6, _b3;
   if (error.errorType === "build_limit_reached") {
     const used = (_a6 = error.buildsUsed) != null ? _a6 : 0;
     const limit = (_b3 = error.monthlyLimit) != null ? _b3 : 0;
-    new import_obsidian23.Notice(
+    new import_obsidian25.Notice(
       `Publishing blocked: You've used all ${used}/${limit} builds this month. Upgrade to Pro for 1000 builds/month at dashboard.forestry.md/settings`,
       1e4
     );
   } else {
-    new import_obsidian23.Notice(
+    new import_obsidian25.Notice(
       `Publishing blocked: Storage limit exceeded. Free up space or upgrade at dashboard.forestry.md/settings`,
       1e4
     );
@@ -40169,7 +40375,7 @@ function notifyLimitReached(error) {
 }
 
 // src/localExport/LocalExporter.ts
-var import_obsidian24 = require("obsidian");
+var import_obsidian26 = require("obsidian");
 var import_js_logger14 = __toESM(require_logger());
 var PRESERVED_FILES = /* @__PURE__ */ new Set(["notes.json", "notes.11tydata.js"]);
 var IMG_USER_PREFIX = "/img/user/";
@@ -40184,7 +40390,7 @@ var LocalExporter = class {
       yield this.loadNodeModules();
       const targetPath = this.settings.localExportPath;
       if (!targetPath) {
-        new import_obsidian24.Notice(
+        new import_obsidian26.Notice(
           "Set a local garden folder path in plugin settings first."
         );
         throw new Error("localExportPath is not configured");
@@ -40261,7 +40467,7 @@ var LocalExporter = class {
         }
         try {
           const imageFile = this.vault.getAbstractFileByPath(imagePath);
-          if (!(imageFile instanceof import_obsidian24.TFile)) {
+          if (!(imageFile instanceof import_obsidian26.TFile)) {
             import_js_logger14.default.warn(`Image not found in vault: ${imagePath}`);
             continue;
           }
@@ -40284,8 +40490,8 @@ var LocalExporter = class {
   }
   loadNodeModules() {
     return __async(this, null, function* () {
-      if (!import_obsidian24.Platform.isDesktopApp) {
-        new import_obsidian24.Notice("Local export is only available on desktop.");
+      if (!import_obsidian26.Platform.isDesktopApp) {
+        new import_obsidian26.Notice("Local export is only available on desktop.");
         throw new Error("Local export requires the desktop app");
       }
       this.fs = require("fs/promises");
@@ -40298,7 +40504,7 @@ var LocalExporter = class {
       try {
         yield this.fs.access(targetPath);
       } catch (e) {
-        new import_obsidian24.Notice(`Local garden folder not found: ${targetPath}`);
+        new import_obsidian26.Notice(`Local garden folder not found: ${targetPath}`);
         throw new Error(`Target path does not exist: ${targetPath}`);
       }
       const expectedSiteDir = this.path.join(targetPath, base, "src", "site");
@@ -40306,7 +40512,7 @@ var LocalExporter = class {
         yield this.fs.access(expectedSiteDir);
       } catch (e) {
         const expectedRelative = base ? `${base}src/site/` : "src/site/";
-        new import_obsidian24.Notice(
+        new import_obsidian26.Notice(
           `Folder doesn't look like a digital garden \u2014 expected ${expectedRelative} directory at ` + targetPath
         );
         throw new Error(
@@ -40359,7 +40565,7 @@ var LocalExporter = class {
     return __async(this, null, function* () {
       if (sourcePath === "") return;
       const sourceFile = this.vault.getAbstractFileByPath(sourcePath);
-      if (sourceFile instanceof import_obsidian24.TFile) {
+      if (sourceFile instanceof import_obsidian26.TFile) {
         const fileName = (rename == null ? void 0 : rename.includes(".")) ? rename : `${rename != null ? rename : sourceFile.basename}.${sourceFile.extension}`;
         const targetPath = this.path.join(targetFolder, fileName);
         yield this.fs.writeFile(
@@ -40422,7 +40628,7 @@ var LocalExporter = class {
 };
 
 // src/views/PublicationCenterView/PublicationCenterView.ts
-var import_obsidian26 = require("obsidian");
+var import_obsidian28 = require("obsidian");
 
 // src/views/PublicationCenterView/constants.ts
 var VIEW_TYPE = "digital-garden-publication-center";
@@ -40443,7 +40649,7 @@ function findHomePageFiles(app) {
 }
 
 // src/views/PublicationCenterView/PublicationCenter.svelte
-var import_obsidian25 = require("obsidian");
+var import_obsidian27 = require("obsidian");
 
 // src/views/PublicationCenterView/annotate.ts
 function annotateFiles(status) {
@@ -40505,7 +40711,7 @@ function buildPublishPlan(selected, files) {
 
 // src/views/PublicationCenterView/fileTree.ts
 function buildFileTree(files) {
-  const root18 = {
+  const root20 = {
     name: "",
     path: "",
     isFolder: true,
@@ -40513,7 +40719,7 @@ function buildFileTree(files) {
   };
   for (const f of files) {
     const parts = f.path.split("/");
-    let node = root18;
+    let node = root20;
     for (let i = 0; i < parts.length; i++) {
       const part = parts[i];
       const isLast = i === parts.length - 1;
@@ -40539,8 +40745,8 @@ function buildFileTree(files) {
       node = child2;
     }
   }
-  sortTree(root18);
-  return root18;
+  sortTree(root20);
+  return root20;
 }
 function sortTree(node) {
   if (!node.children) return;
@@ -40570,15 +40776,15 @@ function filterTree(node, active) {
 }
 
 // src/views/PublicationCenterView/StatusFilters.svelte
-var root7 = from_html(`<button><span></span> <span class="dg-pc-count svelte-xxtcjg"> </span></button>`);
+var root9 = from_html(`<button><span></span> <span class="dg-pc-count svelte-xxtcjg"> </span></button>`);
 var root_111 = from_html(`<div class="dg-pc-filters svelte-xxtcjg"></div>`);
-var $$css7 = {
+var $$css9 = {
   hash: "svelte-xxtcjg",
   code: ".dg-pc-filters.svelte-xxtcjg {display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;}.dg-pc-chip.svelte-xxtcjg {display:inline-flex;align-items:center;gap:5px;padding:2px 8px;border-radius:12px;border:1px solid var(--background-modifier-border);background:var(--background-secondary);color:var(--text-muted);cursor:pointer;font-size:0.8rem;}.dg-pc-chip.active.svelte-xxtcjg {color:var(--text-normal);border-color:var(--interactive-accent);}.dg-pc-count.svelte-xxtcjg {opacity:0.7;font-variant-numeric:tabular-nums;}.dg-pc-dot.svelte-xxtcjg {width:8px;height:8px;border-radius:50%;display:inline-block;}.dg-pc-dot-changed.svelte-xxtcjg {background:var(--text-warning, orange);}.dg-pc-dot-new.svelte-xxtcjg {background:var(--text-success, green);}.dg-pc-dot-deleted.svelte-xxtcjg {background:var(--text-error, red);}.dg-pc-dot-published.svelte-xxtcjg {background:var(--text-muted);}"
 };
 function StatusFilters($$anchor, $$props) {
   push($$props, false);
-  append_styles($$anchor, $$css7);
+  append_styles($$anchor, $$css9);
   let counts = prop($$props, "counts", 8);
   let active = prop($$props, "active", 8);
   const dispatch = createEventDispatcher();
@@ -40593,7 +40799,7 @@ function StatusFilters($$anchor, $$props) {
   each(div, 5, () => ORDER, index, ($$anchor2, $$item) => {
     let status = () => get2($$item).status;
     let label = () => get2($$item).label;
-    var button = root7();
+    var button = root9();
     let classes;
     var span = child(button);
     var text2 = sibling(span);
@@ -40625,16 +40831,16 @@ function StatusFilters($$anchor, $$props) {
 
 // src/views/PublicationCenterView/FileTreeNode.svelte
 var _expanded = {};
-var root8 = from_html(`<div class="dg-pc-children svelte-abh6wh"></div>`);
+var root10 = from_html(`<div class="dg-pc-children svelte-abh6wh"></div>`);
 var root_112 = from_html(`<div class="dg-pc-folder"><div class="dg-pc-row svelte-abh6wh"><span><!></span> <input type="checkbox"/> <!> <span class="dg-pc-name svelte-abh6wh"> </span></div> <!></div>`);
 var root_211 = from_html(`<div><span class="dg-pc-arrow-spacer svelte-abh6wh"></span> <input type="checkbox"/> <span></span> <span class="dg-pc-name svelte-abh6wh"> </span></div>`);
-var $$css8 = {
+var $$css10 = {
   hash: "svelte-abh6wh",
   code: ".dg-pc-row.svelte-abh6wh {display:flex;align-items:center;gap:4px;padding:1px 2px;border-radius:4px;cursor:pointer;user-select:none;}.dg-pc-file.svelte-abh6wh:hover {background:var(--background-modifier-hover);}.dg-pc-file.active.svelte-abh6wh {background:var(\n			--background-modifier-active-hover,\n			var(--background-secondary-alt)\n		);}.dg-pc-children.svelte-abh6wh {padding-left:1.1rem;}.dg-pc-arrow.svelte-abh6wh {display:inline-flex;transition:transform 100ms;}.dg-pc-arrow.open.svelte-abh6wh {transform:rotate(90deg);}.dg-pc-arrow-spacer.svelte-abh6wh {width:var(--icon-size, 16px);display:inline-block;}.dg-pc-name.svelte-abh6wh {flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}.dg-pc-status-dot.svelte-abh6wh {width:8px;height:8px;border-radius:50%;flex:0 0 auto;}.dg-pc-dot-changed.svelte-abh6wh {background:var(--text-warning, orange);}.dg-pc-dot-new.svelte-abh6wh {background:var(--text-success, green);}.dg-pc-dot-deleted.svelte-abh6wh {background:var(--text-error, red);}.dg-pc-dot-published.svelte-abh6wh {background:var(--text-muted);}"
 };
 function FileTreeNode($$anchor, $$props) {
   push($$props, false);
-  append_styles($$anchor, $$css8);
+  append_styles($$anchor, $$css10);
   const paths = mutable_source();
   const allChecked = mutable_source();
   const someChecked = mutable_source();
@@ -40704,7 +40910,7 @@ function FileTreeNode($$anchor, $$props) {
       var node_4 = sibling(div_1, 2);
       {
         var consequent = ($$anchor3) => {
-          var div_2 = root8();
+          var div_2 = root10();
           each(
             div_2,
             5,
@@ -40792,15 +40998,15 @@ function FileTreeNode($$anchor, $$props) {
 }
 
 // src/views/PublicationCenterView/FileTree.svelte
-var root9 = from_html(`<div class="dg-pc-tree-empty svelte-sxyfb9">No files match the current filters.</div>`);
+var root11 = from_html(`<div class="dg-pc-tree-empty svelte-sxyfb9">No files match the current filters.</div>`);
 var root_113 = from_html(`<div class="dg-pc-tree"><!></div>`);
-var $$css9 = {
+var $$css11 = {
   hash: "svelte-sxyfb9",
   code: ".dg-pc-tree-empty.svelte-sxyfb9 {color:var(--text-muted);padding:8px;font-size:0.9rem;}"
 };
 function FileTree($$anchor, $$props) {
   push($$props, false);
-  append_styles($$anchor, $$css9);
+  append_styles($$anchor, $$css11);
   let node = prop($$props, "node", 8);
   let selected = prop($$props, "selected", 8);
   let activePath = prop($$props, "activePath", 8);
@@ -40809,7 +41015,7 @@ function FileTree($$anchor, $$props) {
   var node_1 = child(div);
   {
     var consequent = ($$anchor2) => {
-      var div_1 = root9();
+      var div_1 = root11();
       append2($$anchor2, div_1);
     };
     var alternate = ($$anchor2) => {
@@ -40963,16 +41169,16 @@ function computeSplitRows(changes) {
 }
 
 // src/views/PublicationCenterView/UnifiedDiff.svelte
-var root10 = from_html(`<div class="dg-pc-gap svelte-de2ej4"> </div>`);
+var root12 = from_html(`<div class="dg-pc-gap svelte-de2ej4"> </div>`);
 var root_114 = from_html(`<div><span class="dg-pc-ln svelte-de2ej4"> </span> <span class="dg-pc-ln svelte-de2ej4"> </span> <span class="dg-pc-sign svelte-de2ej4"> </span> <span class="dg-pc-text"> </span></div>`);
 var root_212 = from_html(`<div class="dg-pc-unified svelte-de2ej4"></div>`);
-var $$css10 = {
+var $$css12 = {
   hash: "svelte-de2ej4",
   code: ".dg-pc-unified.svelte-de2ej4 {font-family:var(--font-monospace);font-size:var(--font-smaller, 0.85rem);white-space:pre-wrap;word-break:break-word;}.dg-pc-uline.svelte-de2ej4 {display:grid;grid-template-columns:3.5em 3.5em 1em 1fr;gap:4px;}.dg-pc-add.svelte-de2ej4 {background:var(--background-modifier-success);}.dg-pc-del.svelte-de2ej4 {background:var(--background-modifier-error);}.dg-pc-ln.svelte-de2ej4 {color:var(--text-faint);text-align:right;user-select:none;}.dg-pc-sign.svelte-de2ej4 {user-select:none;}.dg-pc-gap.svelte-de2ej4 {color:var(--text-faint);text-align:center;padding:2px 0;background:var(--background-secondary);font-size:0.8rem;}\n\n	@container (max-width: 640px) {.dg-pc-uline.svelte-de2ej4 {grid-template-columns:2.5em 2.5em 1em 1fr;}\n	}"
 };
 function UnifiedDiff($$anchor, $$props) {
   push($$props, false);
-  append_styles($$anchor, $$css10);
+  append_styles($$anchor, $$css12);
   const rows = mutable_source();
   let changes = prop($$props, "changes", 8);
   legacy_pre_effect(() => (computeUnifiedRows, deep_read_state(changes())), () => {
@@ -40986,7 +41192,7 @@ function UnifiedDiff($$anchor, $$props) {
     var node = first_child(fragment);
     {
       var consequent = ($$anchor3) => {
-        var div_1 = root10();
+        var div_1 = root12();
         var text2 = child(div_1);
         reset(div_1);
         template_effect(() => {
@@ -41033,15 +41239,15 @@ function UnifiedDiff($$anchor, $$props) {
 }
 
 // src/views/PublicationCenterView/SplitDiff.svelte
-var root11 = from_html(`<div class="dg-pc-srow svelte-5qm8im"><div><span class="dg-pc-ln svelte-5qm8im"> </span> <span class="dg-pc-text"> </span></div> <div><span class="dg-pc-ln svelte-5qm8im"> </span> <span class="dg-pc-text"> </span></div></div>`);
+var root13 = from_html(`<div class="dg-pc-srow svelte-5qm8im"><div><span class="dg-pc-ln svelte-5qm8im"> </span> <span class="dg-pc-text"> </span></div> <div><span class="dg-pc-ln svelte-5qm8im"> </span> <span class="dg-pc-text"> </span></div></div>`);
 var root_115 = from_html(`<div class="dg-pc-split svelte-5qm8im"></div>`);
-var $$css11 = {
+var $$css13 = {
   hash: "svelte-5qm8im",
   code: ".dg-pc-split.svelte-5qm8im {font-family:var(--font-monospace);font-size:var(--font-smaller, 0.85rem);}.dg-pc-srow.svelte-5qm8im {display:grid;grid-template-columns:1fr 1fr;gap:8px;}.dg-pc-scell.svelte-5qm8im {display:grid;grid-template-columns:3.5em 1fr;gap:4px;white-space:pre-wrap;word-break:break-word;border-left:2px solid transparent;}.dg-pc-add.svelte-5qm8im {background:var(--background-modifier-success);}.dg-pc-del.svelte-5qm8im {background:var(--background-modifier-error);}.dg-pc-empty.svelte-5qm8im {background:var(--background-secondary);}.dg-pc-ln.svelte-5qm8im {color:var(--text-faint);text-align:right;user-select:none;}\n\n	@container (max-width: 640px) {.dg-pc-srow.svelte-5qm8im {gap:4px;}.dg-pc-scell.svelte-5qm8im {grid-template-columns:2.5em 1fr;}\n	}"
 };
 function SplitDiff($$anchor, $$props) {
   push($$props, false);
-  append_styles($$anchor, $$css11);
+  append_styles($$anchor, $$css13);
   const rows = mutable_source();
   let changes = prop($$props, "changes", 8);
   legacy_pre_effect(() => (computeSplitRows, deep_read_state(changes())), () => {
@@ -41051,7 +41257,7 @@ function SplitDiff($$anchor, $$props) {
   init();
   var div = root_115();
   each(div, 5, () => get2(rows), index, ($$anchor2, row) => {
-    var div_1 = root11();
+    var div_1 = root13();
     var div_2 = child(div_1);
     var span = child(div_2);
     var text2 = child(span, true);
@@ -41114,21 +41320,21 @@ function SplitDiff($$anchor, $$props) {
 }
 
 // src/views/PublicationCenterView/DiffPane.svelte
-var root12 = from_html(`<div class="dg-pc-diff-empty svelte-13xoyn6">Select a file to see what changed.</div>`);
+var root14 = from_html(`<div class="dg-pc-diff-empty svelte-13xoyn6">Select a file to see what changed.</div>`);
 var root_116 = from_html(`<button class="dg-pc-open">Open note</button>`);
 var root_213 = from_html(`<div class="dg-pc-diff-msg svelte-13xoyn6">Loading diff\u2026</div>`);
-var root_38 = from_html(`<div class="dg-pc-diff-msg svelte-13xoyn6">No diff available.</div>`);
-var root_45 = from_html(`<div class="dg-pc-diff-msg svelte-13xoyn6"> </div>`);
-var root_54 = from_html(`<div class="dg-pc-diff-msg svelte-13xoyn6">This image will be deleted on publish.</div>`);
+var root_37 = from_html(`<div class="dg-pc-diff-msg svelte-13xoyn6">No diff available.</div>`);
+var root_44 = from_html(`<div class="dg-pc-diff-msg svelte-13xoyn6"> </div>`);
+var root_53 = from_html(`<div class="dg-pc-diff-msg svelte-13xoyn6">This image will be deleted on publish.</div>`);
 var root_63 = from_html(`<div class="dg-pc-diff-msg svelte-13xoyn6">No changes \u2014 local and published versions match.</div>`);
 var root_73 = from_html(`<div class="dg-pc-diff-header svelte-13xoyn6"><span class="dg-pc-diff-path svelte-13xoyn6"><!> </span> <span class="dg-pc-diff-actions svelte-13xoyn6"><span class="dg-pc-toggle svelte-13xoyn6"><button>Split</button> <button>Unified</button></span> <!></span></div> <div class="dg-pc-diff-body svelte-13xoyn6"><!></div>`, 1);
-var $$css12 = {
+var $$css14 = {
   hash: "svelte-13xoyn6",
   code: ".dg-pc-diff-empty.svelte-13xoyn6,\n	.dg-pc-diff-msg.svelte-13xoyn6 {color:var(--text-muted);padding:16px;}.dg-pc-diff-header.svelte-13xoyn6 {display:flex;justify-content:space-between;align-items:center;gap:8px;padding:8px;margin-bottom:8px;border-bottom:1px solid var(--background-modifier-border);position:sticky;top:0;background:var(--background-primary);}.dg-pc-diff-body.svelte-13xoyn6 {padding:0 8px 8px;}.dg-pc-diff-path.svelte-13xoyn6 {display:inline-flex;align-items:center;gap:4px;font-family:var(--font-monospace);font-size:0.85rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}.dg-pc-diff-actions.svelte-13xoyn6 {display:inline-flex;gap:8px;flex:0 0 auto;}.dg-pc-toggle.svelte-13xoyn6 button:where(.svelte-13xoyn6) {border:1px solid var(--background-modifier-border);background:var(--background-secondary);color:var(--text-muted);padding:2px 8px;cursor:pointer;}.dg-pc-toggle.svelte-13xoyn6 button.active:where(.svelte-13xoyn6) {background:var(--interactive-accent);color:var(--text-on-accent);}.dg-pc-toggle.svelte-13xoyn6 button:where(.svelte-13xoyn6):first-child {border-radius:4px 0 0 4px;}.dg-pc-toggle.svelte-13xoyn6 button:where(.svelte-13xoyn6):last-child {border-radius:0 4px 4px 0;}\n\n	@container (max-width: 640px) {.dg-pc-diff-header.svelte-13xoyn6 {flex-wrap:wrap;}.dg-pc-diff-path.svelte-13xoyn6 {flex:1 1 100%;}\n	}"
 };
 function DiffPane($$anchor, $$props) {
   push($$props, false);
-  append_styles($$anchor, $$css12);
+  append_styles($$anchor, $$css14);
   let path = prop($$props, "path", 8);
   let status = prop($$props, "status", 8);
   let data = prop($$props, "data", 8);
@@ -41140,7 +41346,7 @@ function DiffPane($$anchor, $$props) {
   var node = first_child(fragment);
   {
     var consequent = ($$anchor2) => {
-      var div = root12();
+      var div = root14();
       append2($$anchor2, div);
     };
     var alternate_1 = ($$anchor2) => {
@@ -41179,11 +41385,11 @@ function DiffPane($$anchor, $$props) {
           append2($$anchor3, div_3);
         };
         var consequent_3 = ($$anchor3) => {
-          var div_4 = root_38();
+          var div_4 = root_37();
           append2($$anchor3, div_4);
         };
         var consequent_4 = ($$anchor3) => {
-          var div_5 = root_45();
+          var div_5 = root_44();
           var text_1 = child(div_5);
           reset(div_5);
           template_effect(() => {
@@ -41193,7 +41399,7 @@ function DiffPane($$anchor, $$props) {
           append2($$anchor3, div_5);
         };
         var consequent_5 = ($$anchor3) => {
-          var div_6 = root_54();
+          var div_6 = root_53();
           append2($$anchor3, div_6);
         };
         var consequent_6 = ($$anchor3) => {
@@ -41245,24 +41451,24 @@ function DiffPane($$anchor, $$props) {
 }
 
 // src/views/PublicationCenterView/Notices.svelte
-var root13 = from_html(`<div class="dg-pc-problem svelte-gja4cc"><span class="dg-pc-problem-path svelte-gja4cc"> </span> <span> </span></div>`);
+var root15 = from_html(`<div class="dg-pc-problem svelte-gja4cc"><span class="dg-pc-problem-path svelte-gja4cc"> </span> <span> </span></div>`);
 var root_117 = from_html(`<div class="dg-pc-callout dg-pc-warning svelte-gja4cc"><div class="dg-pc-callout-title svelte-gja4cc">\u26A0\uFE0F Issues found</div> <!></div>`);
 var root_214 = from_html(`<div class="dg-pc-callout dg-pc-info svelte-gja4cc"><div class="dg-pc-callout-header svelte-gja4cc"><div class="dg-pc-callout-title svelte-gja4cc">Image handling improved</div> <button class="dg-pc-dismiss svelte-gja4cc" aria-label="Dismiss"><!></button></div> <div>Images with size parameters (e.g. <code>![[image.png|200]]</code>)
 			are now handled differently to fix rendering in tables. This may
 			cause notes with images to show as changed. This is expected and
 			safe to publish.</div></div>`);
-var root_39 = from_html(`<div class="dg-pc-callout dg-pc-info svelte-gja4cc"><div class="dg-pc-callout-header svelte-gja4cc"><div class="dg-pc-callout-title svelte-gja4cc">Bases support added</div> <button class="dg-pc-dismiss svelte-gja4cc" aria-label="Dismiss"><!></button></div> <div>Frontmatter properties are now nested differently to support
+var root_38 = from_html(`<div class="dg-pc-callout dg-pc-info svelte-gja4cc"><div class="dg-pc-callout-header svelte-gja4cc"><div class="dg-pc-callout-title svelte-gja4cc">Bases support added</div> <button class="dg-pc-dismiss svelte-gja4cc" aria-label="Dismiss"><!></button></div> <div>Frontmatter properties are now nested differently to support
 			Obsidian Bases. This may cause notes to show as changed. This is
 			expected and safe to publish. You must update your site template to
 			use Bases.</div></div>`);
-var root_46 = from_html(`<!> <!> <!>`, 1);
-var $$css13 = {
+var root_45 = from_html(`<!> <!> <!>`, 1);
+var $$css15 = {
   hash: "svelte-gja4cc",
   code: ".dg-pc-callout.svelte-gja4cc {border:1px solid var(--background-modifier-border);border-radius:6px;padding:10px;margin-bottom:10px;font-size:0.85rem;}.dg-pc-warning.svelte-gja4cc {background:var(\n			--background-modifier-error-hover,\n			rgba(255, 150, 0, 0.1)\n		);}.dg-pc-info.svelte-gja4cc {background:var(--background-secondary);}.dg-pc-callout-header.svelte-gja4cc {display:flex;justify-content:space-between;align-items:center;}.dg-pc-callout-title.svelte-gja4cc {font-weight:bold;margin-bottom:6px;}.dg-pc-dismiss.svelte-gja4cc {background:none;border:none;cursor:pointer;color:var(--text-muted);padding:2px;}.dg-pc-problem.svelte-gja4cc {display:flex;flex-direction:column;margin:4px 0;}.dg-pc-problem-path.svelte-gja4cc {font-family:var(--font-monospace);color:var(--text-muted);}"
 };
 function Notices($$anchor, $$props) {
   push($$props, false);
-  append_styles($$anchor, $$css13);
+  append_styles($$anchor, $$css15);
   let problematicFiles = prop($$props, "problematicFiles", 24, () => []);
   const IMAGE_FIX_NOTICE_KEY = "dg-dismissed-image-fix-notice";
   const BASES_NOTICE_KEY = "dg-dismissed-bases-support-notice";
@@ -41277,14 +41483,14 @@ function Notices($$anchor, $$props) {
     localStorage.setItem(BASES_NOTICE_KEY, "true");
   }
   init();
-  var fragment = root_46();
+  var fragment = root_45();
   var node = first_child(fragment);
   {
     var consequent = ($$anchor2) => {
       var div = root_117();
       var node_1 = sibling(child(div), 2);
       each(node_1, 1, problematicFiles, index, ($$anchor3, file) => {
-        var div_1 = root13();
+        var div_1 = root15();
         var span = child(div_1);
         var text2 = child(span, true);
         reset(span);
@@ -41327,7 +41533,7 @@ function Notices($$anchor, $$props) {
   var node_4 = sibling(node_2, 2);
   {
     var consequent_2 = ($$anchor2) => {
-      var div_4 = root_39();
+      var div_4 = root_38();
       var div_5 = child(div_4);
       var button_1 = sibling(child(div_5), 2);
       var node_5 = child(button_1);
@@ -41348,20 +41554,20 @@ function Notices($$anchor, $$props) {
 }
 
 // src/views/PublicationCenterView/PublishBar.svelte
-var root14 = from_html(`<div class="dg-pc-bar svelte-zy625j"><button class="dg-pc-refresh">Refresh</button> <button class="dg-pc-publish svelte-zy625j"> </button></div>`);
-var $$css14 = {
+var root16 = from_html(`<div class="dg-pc-bar svelte-zy625j"><button class="dg-pc-refresh">Refresh</button> <button class="dg-pc-publish svelte-zy625j"> </button></div>`);
+var $$css16 = {
   hash: "svelte-zy625j",
   code: ".dg-pc-bar.svelte-zy625j {display:flex;justify-content:flex-end;gap:8px;padding:8px;border-top:1px solid var(--background-modifier-border);}.dg-pc-publish.svelte-zy625j {background:var(--interactive-accent);color:var(--text-on-accent);font-weight:bold;cursor:pointer;}.dg-pc-publish.svelte-zy625j:disabled {opacity:0.5;cursor:default;}\n\n	@container (max-width: 640px) {.dg-pc-publish.svelte-zy625j {flex:1 1 auto;}\n	}"
 };
 function PublishBar($$anchor, $$props) {
   push($$props, false);
-  append_styles($$anchor, $$css14);
+  append_styles($$anchor, $$css16);
   let selectedCount = prop($$props, "selectedCount", 8);
   let publishing = prop($$props, "publishing", 8);
   let blocked = prop($$props, "blocked", 8, false);
   const dispatch = createEventDispatcher();
   init();
-  var div = root14();
+  var div = root16();
   var button = child(div);
   var button_1 = sibling(button, 2);
   var text2 = child(button_1, true);
@@ -41379,24 +41585,24 @@ function PublishBar($$anchor, $$props) {
 }
 
 // src/views/PublicationCenterView/RecentBuilds.svelte
-var root15 = from_html(`<span class="dg-builds-dot running svelte-seznc9"></span> <span class="dg-builds-summary svelte-seznc9">Queued\u2026</span>`, 1);
+var root17 = from_html(`<span class="dg-builds-dot running svelte-seznc9"></span> <span class="dg-builds-summary svelte-seznc9">Queued\u2026</span>`, 1);
 var root_118 = from_html(`<span></span> <span class="dg-builds-summary svelte-seznc9"> </span>`, 1);
 var root_215 = from_html(`<div class="dg-builds-row svelte-seznc9"><span class="dg-builds-dot running svelte-seznc9"></span> <span class="svelte-seznc9">Waiting for publish to start\u2026</span></div>`);
-var root_310 = from_html(`<div class="dg-builds-error-hint svelte-seznc9"> </div>`);
-var root_47 = from_html(`<li class="svelte-seznc9"> </li>`);
-var root_55 = from_html(`<ul class="dg-builds-error-notes svelte-seznc9"></ul>`);
+var root_39 = from_html(`<div class="dg-builds-error-hint svelte-seznc9"> </div>`);
+var root_46 = from_html(`<li class="svelte-seznc9"> </li>`);
+var root_54 = from_html(`<ul class="dg-builds-error-notes svelte-seznc9"></ul>`);
 var root_64 = from_html(`<div class="dg-builds-error svelte-seznc9"><div class="svelte-seznc9"> </div> <!> <!></div>`);
 var root_74 = from_html(`<div class="dg-builds-row svelte-seznc9"><span></span> <span class="dg-builds-status svelte-seznc9"> </span> <span class="dg-builds-meta svelte-seznc9"> <!> <!></span></div> <!>`, 1);
 var root_83 = from_html(`<div class="dg-builds-limits svelte-seznc9"> </div>`);
 var root_93 = from_html(`<div class="dg-builds-list svelte-seznc9"><!> <!> <!></div>`);
 var root_103 = from_html(`<div class="dg-builds svelte-seznc9"><button class="dg-builds-header svelte-seznc9"><span class="dg-builds-title svelte-seznc9">Publish status</span> <!> <span class="dg-builds-chevron svelte-seznc9"> </span></button> <!></div>`);
-var $$css15 = {
+var $$css17 = {
   hash: "svelte-seznc9",
   code: ".dg-builds.svelte-seznc9 {border-top:1px solid var(--background-modifier-border);}.dg-builds-header.svelte-seznc9 {display:flex;align-items:center;gap:8px;width:100%;padding:6px 12px;background:none;border:none;box-shadow:none;cursor:pointer;font-size:0.85rem;text-align:left;}.dg-builds-title.svelte-seznc9 {font-weight:600;}.dg-builds-summary.svelte-seznc9 {color:var(--text-muted);}.dg-builds-chevron.svelte-seznc9 {margin-left:auto;color:var(--text-muted);}.dg-builds-dot.svelte-seznc9 {width:8px;height:8px;border-radius:50%;flex-shrink:0;}.dg-builds-dot.success.svelte-seznc9 {background:var(--color-green, #4caf50);}.dg-builds-dot.failure.svelte-seznc9 {background:var(--color-red, #f44336);}.dg-builds-dot.skipped.svelte-seznc9 {background:var(--text-faint, #999);}.dg-builds-dot.running.svelte-seznc9 {background:var(--color-yellow, #ffc107);\n		animation: svelte-seznc9-dg-builds-pulse 1.5s ease-in-out infinite;}\n\n	@keyframes svelte-seznc9-dg-builds-pulse {\n		0%,\n		100% {\n			opacity: 1;\n		}\n		50% {\n			opacity: 0.3;\n		}\n	}.dg-builds-list.svelte-seznc9 {max-height:220px;overflow-y:auto;padding:0 12px 8px;}.dg-builds-row.svelte-seznc9 {display:flex;align-items:center;gap:8px;padding:3px 0;font-size:0.85rem;}.dg-builds-status.svelte-seznc9 {min-width:90px;}.dg-builds-meta.svelte-seznc9 {color:var(--text-muted);}.dg-builds-error.svelte-seznc9 {margin:2px 0 6px 16px;padding:6px 8px;border-left:2px solid var(--color-red, #f44336);background:var(--background-secondary);font-size:0.8rem;}.dg-builds-error-hint.svelte-seznc9 {color:var(--text-muted);margin-top:2px;}.dg-builds-error-notes.svelte-seznc9 {margin:4px 0 0;padding-left:16px;color:var(--text-muted);}.dg-builds-limits.svelte-seznc9 {margin-top:6px;color:var(--text-faint);font-size:0.75rem;}"
 };
 function RecentBuilds($$anchor, $$props) {
   push($$props, false);
-  append_styles($$anchor, $$css15);
+  append_styles($$anchor, $$css17);
   const $updates = () => store_get(updates, "$updates", $$stores);
   const [$$stores, $$cleanup] = setup_stores();
   const builds = mutable_source();
@@ -41476,7 +41682,7 @@ function RecentBuilds($$anchor, $$props) {
       var node_1 = sibling(child(button), 2);
       {
         var consequent = ($$anchor3) => {
-          var fragment_1 = root15();
+          var fragment_1 = root17();
           next(2);
           append2($$anchor3, fragment_1);
         };
@@ -41579,7 +41785,7 @@ function RecentBuilds($$anchor, $$props) {
                   var node_10 = sibling(div_5, 2);
                   {
                     var consequent_5 = ($$anchor7) => {
-                      var div_6 = root_310();
+                      var div_6 = root_39();
                       var text_7 = child(div_6, true);
                       reset(div_6);
                       template_effect(() => set_text(text_7, (get2(build), untrack(() => get2(build).friendlyError.hint))));
@@ -41592,14 +41798,14 @@ function RecentBuilds($$anchor, $$props) {
                   var node_11 = sibling(node_10, 2);
                   {
                     var consequent_6 = ($$anchor7) => {
-                      var ul = root_55();
+                      var ul = root_54();
                       each(
                         ul,
                         5,
                         () => (get2(build), untrack(() => get2(build).friendlyError.affectedNotes)),
                         index,
                         ($$anchor8, note) => {
-                          var li = root_47();
+                          var li = root_46();
                           var text_8 = child(li, true);
                           reset(li);
                           template_effect(() => set_text(text_8, get2(note)));
@@ -41681,14 +41887,14 @@ function RecentBuilds($$anchor, $$props) {
 }
 
 // src/views/PublicationCenterView/Tutorial.svelte
-var root16 = from_html(`<div class="dg-pc-tutorial svelte-t512ud"><div class="dg-pc-tutorial-header svelte-t512ud"><div class="dg-pc-tutorial-title svelte-t512ud">\u{1F44B} Welcome to the Publication Center</div> <button class="dg-pc-tutorial-close svelte-t512ud" aria-label="Dismiss tutorial"><!></button></div> <ul class="dg-pc-tutorial-list svelte-t512ud"><li>The left column lists your notes, each with a status dot: <span class="dg-pc-tut-dot dg-pc-dot-new svelte-t512ud"></span> new, <span class="dg-pc-tut-dot dg-pc-dot-changed svelte-t512ud"></span> changed, <span class="dg-pc-tut-dot dg-pc-dot-deleted svelte-t512ud"></span> deleted, <span class="dg-pc-tut-dot dg-pc-dot-published svelte-t512ud"></span> published.</li> <li>Use the filter chips at the top to focus on the statuses you
+var root18 = from_html(`<div class="dg-pc-tutorial svelte-t512ud"><div class="dg-pc-tutorial-header svelte-t512ud"><div class="dg-pc-tutorial-title svelte-t512ud">\u{1F44B} Welcome to the Publication Center</div> <button class="dg-pc-tutorial-close svelte-t512ud" aria-label="Dismiss tutorial"><!></button></div> <ul class="dg-pc-tutorial-list svelte-t512ud"><li>The left column lists your notes, each with a status dot: <span class="dg-pc-tut-dot dg-pc-dot-new svelte-t512ud"></span> new, <span class="dg-pc-tut-dot dg-pc-dot-changed svelte-t512ud"></span> changed, <span class="dg-pc-tut-dot dg-pc-dot-deleted svelte-t512ud"></span> deleted, <span class="dg-pc-tut-dot dg-pc-dot-published svelte-t512ud"></span> published.</li> <li>Use the filter chips at the top to focus on the statuses you
 				care about.</li> <li>Click a file to see its changes, and switch between <strong>Split</strong> and <strong>Unified</strong> diff views.</li> <li>Tick the files you want, then press <strong>Publish selected</strong>.</li></ul> <div class="dg-pc-tutorial-actions svelte-t512ud"><button class="dg-pc-tutorial-got svelte-t512ud">Got it</button></div></div>`);
-var $$css16 = {
+var $$css18 = {
   hash: "svelte-t512ud",
   code: ".dg-pc-tutorial.svelte-t512ud {border:1px solid var(--interactive-accent);border-radius:6px;padding:12px;margin-bottom:10px;background:var(--background-secondary);}.dg-pc-tutorial-header.svelte-t512ud {display:flex;justify-content:space-between;align-items:center;}.dg-pc-tutorial-title.svelte-t512ud {font-weight:bold;font-size:1.05rem;}.dg-pc-tutorial-close.svelte-t512ud {background:none;border:none;cursor:pointer;color:var(--text-muted);padding:2px;display:flex;align-items:center;}.dg-pc-tutorial-close.svelte-t512ud:hover {color:var(--text-normal);}.dg-pc-tutorial-list.svelte-t512ud {margin:8px 0 4px;padding-left:1.2rem;display:flex;flex-direction:column;gap:4px;}.dg-pc-tut-dot.svelte-t512ud {display:inline-block;width:8px;height:8px;border-radius:50%;vertical-align:middle;}.dg-pc-dot-new.svelte-t512ud {background:var(--text-success, green);}.dg-pc-dot-changed.svelte-t512ud {background:var(--text-warning, orange);}.dg-pc-dot-deleted.svelte-t512ud {background:var(--text-error, red);}.dg-pc-dot-published.svelte-t512ud {background:var(--text-muted);}.dg-pc-tutorial-actions.svelte-t512ud {display:flex;justify-content:flex-end;}.dg-pc-tutorial-got.svelte-t512ud {background:var(--interactive-accent);color:var(--text-on-accent);cursor:pointer;font-weight:bold;}"
 };
 function Tutorial($$anchor) {
-  append_styles($$anchor, $$css16);
+  append_styles($$anchor, $$css18);
   const TUTORIAL_KEY = "dg-pc-tutorial-dismissed";
   let show = mutable_source(!localStorage.getItem(TUTORIAL_KEY));
   function dismiss() {
@@ -41699,7 +41905,7 @@ function Tutorial($$anchor) {
   var node = first_child(fragment);
   {
     var consequent = ($$anchor2) => {
-      var div = root16();
+      var div = root18();
       var div_1 = child(div);
       var button = sibling(child(div_1), 2);
       var node_1 = child(button);
@@ -41723,26 +41929,26 @@ function Tutorial($$anchor) {
 
 // src/views/PublicationCenterView/PublicationCenter.svelte
 var import_js_logger15 = __toESM(require_logger());
-var root17 = from_html(`<div class="dg-pc-error svelte-g0az0q"> </div>`);
+var root19 = from_html(`<div class="dg-pc-error svelte-g0az0q"> </div>`);
 var root_119 = from_html(`<div class="dg-pc-loading svelte-g0az0q"><!> <div>Calculating publication status\u2026</div></div>`);
 var root_216 = from_html(`<div class="dg-pc-callout dg-pc-home-banner"><div class="dg-pc-callout-header"><div class="dg-pc-callout-title">\u{1F3E1} No home page yet</div> <button class="mod-cta">Choose home page</button></div> <div>Visitors see a plain list of notes at your site root until
 					you pick a note as the home page.</div></div>`);
-var root_311 = from_html(`<div class="dg-pc-callout dg-pc-branch-banner"><div class="dg-pc-callout-header"><div class="dg-pc-callout-title"> </div> <button>Refresh</button></div> <div> </div></div>`);
-var root_48 = from_html(`<div class="dg-pc-syncing svelte-g0az0q">Updating\u2026</div>`);
-var root_56 = from_html(`<div class="dg-pc-progress svelte-g0az0q"><div> </div> <div class="dg-pc-progress-track svelte-g0az0q"><div class="dg-pc-progress-fill svelte-g0az0q"></div></div> <div class="dg-pc-progress-current svelte-g0az0q"> </div></div>`);
+var root_310 = from_html(`<div class="dg-pc-callout dg-pc-branch-banner"><div class="dg-pc-callout-header"><div class="dg-pc-callout-title"> </div> <button>Refresh</button></div> <div> </div></div>`);
+var root_47 = from_html(`<div class="dg-pc-syncing svelte-g0az0q">Updating\u2026</div>`);
+var root_55 = from_html(`<div class="dg-pc-progress svelte-g0az0q"><div> </div> <div class="dg-pc-progress-track svelte-g0az0q"><div class="dg-pc-progress-fill svelte-g0az0q"></div></div> <div class="dg-pc-progress-current svelte-g0az0q"> </div></div>`);
 var root_65 = from_html(`<div class="dg-pc-publish-error svelte-g0az0q"><div class="dg-pc-publish-error-header svelte-g0az0q"><strong>Publishing failed</strong> <div class="dg-pc-publish-error-actions svelte-g0az0q"><button>Copy details</button> <button>Dismiss</button></div></div> <pre class="dg-pc-publish-error-message svelte-g0az0q"> </pre> <div class="dg-pc-publish-error-hint svelte-g0az0q">Nothing was lost \u2014 your notes are unchanged. Often
 					publishing again just works. If it keeps failing, click
 					"Copy details" and paste it in the Discord so we can help.</div></div>`);
 var root_75 = from_html(`<label class="dg-pc-select-all svelte-g0az0q"><input type="checkbox"/> <span>Select all</span> <span class="dg-pc-select-all-count svelte-g0az0q"> </span></label>`);
 var root_84 = from_html(`<!> <!> <!> <!> <!> <!> <!> <div><div class="dg-pc-tree-pane svelte-g0az0q"><!> <!> <!></div> <div class="dg-pc-diff-pane svelte-g0az0q"><!></div></div> <!> <!>`, 1);
 var root_94 = from_html(`<div class="dg-pc-root svelte-g0az0q"><!></div>`);
-var $$css17 = {
+var $$css19 = {
   hash: "svelte-g0az0q",
   code: ".dg-pc-root.svelte-g0az0q {display:flex;flex-direction:column;height:100%;box-sizing:border-box;\n		/* Obsidian mobile overlays its navbar on the view; this variable is\n		   the navbar's height there and 0 on desktop. */padding-bottom:var(--view-bottom-spacing, 0px);container-type:inline-size;}.dg-pc-layout.svelte-g0az0q {display:flex;flex:1;min-height:0;}.dg-pc-tree-pane.svelte-g0az0q {flex:0 0 33%;max-width:33%;overflow:auto;border-right:1px solid var(--background-modifier-border);padding:8px;}.dg-pc-diff-pane.svelte-g0az0q {flex:1;overflow:auto;\n		/* No padding here: the sticky diff header can't cover a scroll\n		   container's padding, which left a strip of content visible above\n		   it. The header and body carry the padding instead. */padding:0;}.dg-pc-select-all.svelte-g0az0q {display:flex;align-items:center;gap:4px;padding:2px 2px 6px;margin-bottom:4px;border-bottom:1px solid var(--background-modifier-border);font-size:0.9rem;cursor:pointer;user-select:none;}.dg-pc-select-all-count.svelte-g0az0q {margin-left:auto;color:var(--text-muted);font-size:0.8rem;font-variant-numeric:tabular-nums;}.dg-pc-loading.svelte-g0az0q {display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;font-size:1.2rem;gap:8px;}.dg-pc-error.svelte-g0az0q {color:var(--text-error);padding:16px;}.dg-pc-publish-error.svelte-g0az0q {margin:8px 16px;padding:10px 12px;border:1px solid var(--background-modifier-error);border-radius:6px;background-color:var(--background-modifier-error-hover, transparent);}.dg-pc-publish-error-header.svelte-g0az0q {display:flex;align-items:center;justify-content:space-between;gap:8px;color:var(--text-error);}.dg-pc-publish-error-actions.svelte-g0az0q {display:flex;gap:6px;}.dg-pc-publish-error-message.svelte-g0az0q {margin:8px 0;padding:6px 8px;max-height:120px;overflow:auto;white-space:pre-wrap;word-break:break-word;font-size:var(--font-ui-smaller);background-color:var(--background-primary);border-radius:4px;}.dg-pc-publish-error-hint.svelte-g0az0q {color:var(--text-muted);font-size:var(--font-ui-smaller);}.dg-pc-syncing.svelte-g0az0q {color:var(--text-muted);font-size:0.8rem;padding:2px 4px 6px;}.dg-pc-progress.svelte-g0az0q {padding:8px;border-bottom:1px solid var(--background-modifier-border);}.dg-pc-progress-track.svelte-g0az0q {height:4px;background:var(--background-modifier-border);border-radius:2px;margin:6px 0;}.dg-pc-progress-fill.svelte-g0az0q {height:100%;background:var(--interactive-accent);transition:width 0.3s ease;}.dg-pc-progress-current.svelte-g0az0q {color:var(--text-muted);font-size:0.8rem;}\n\n	/* Narrow views (phones, slim side panes): stack the tree above the diff\n	   instead of squeezing both side by side. */\n	@container (max-width: 640px) {.dg-pc-layout.svelte-g0az0q {flex-direction:column;}.dg-pc-tree-pane.svelte-g0az0q {flex:1 1 auto;max-width:none;border-right:none;border-bottom:1px solid var(--background-modifier-border);}.dg-pc-diff-pane.svelte-g0az0q {flex:0 0 auto;}.dg-pc-layout.dg-pc-has-file.svelte-g0az0q .dg-pc-tree-pane:where(.svelte-g0az0q) {flex:0 1 auto;max-height:45%;}.dg-pc-layout.dg-pc-has-file.svelte-g0az0q .dg-pc-diff-pane:where(.svelte-g0az0q) {flex:1 1 0;}\n	}"
 };
 function PublicationCenter($$anchor, $$props) {
   push($$props, false);
-  append_styles($$anchor, $$css17);
+  append_styles($$anchor, $$css19);
   const selectedCount = mutable_source();
   const missingBranch = mutable_source();
   const activeFile = mutable_source();
@@ -41792,9 +41998,9 @@ function PublicationCenter($$anchor, $$props) {
       getDebugLog()
     ].join("\n");
     yield navigator.clipboard.writeText(details);
-    new import_obsidian25.Notice("Error details copied to clipboard.");
+    new import_obsidian27.Notice("Error details copied to clipboard.");
   });
-  let diffMode = mutable_source(import_obsidian25.Platform.isMobile ? "unified" : "split");
+  let diffMode = mutable_source(import_obsidian27.Platform.isMobile ? "unified" : "split");
   let diffCache = /* @__PURE__ */ new Map();
   let diffData = mutable_source(null);
   let diffLoading = mutable_source(false);
@@ -41930,7 +42136,7 @@ function PublicationCenter($$anchor, $$props) {
             set(publishError, [get2(publishError), deleteResult.error].filter(Boolean).join("\n"));
           }
         }
-        new import_obsidian25.Notice(hadFailure ? "Publishing failed. See the details in the Publication Center." : "Publication complete.");
+        new import_obsidian27.Notice(hadFailure ? "Publishing failed. See the details in the Publication Center." : "Publication complete.");
       } catch (e) {
         if (e instanceof LimitReachedError) {
           notifyLimitReached(e);
@@ -41940,7 +42146,7 @@ function PublicationCenter($$anchor, $$props) {
         } else {
           import_js_logger15.default.error("Publication Center: publish failed", e);
           set(publishError, describeError(e));
-          new import_obsidian25.Notice("Publishing failed. See the details in the Publication Center.");
+          new import_obsidian27.Notice("Publishing failed. See the details in the Publication Center.");
         }
       } finally {
         applyOptimisticUpdate(publishedPaths, removedPaths);
@@ -42022,7 +42228,7 @@ function PublicationCenter($$anchor, $$props) {
     set(diffMode, mode);
   }
   const bigRotatingCog = () => {
-    const cog = (0, import_obsidian25.getIcon)("cog");
+    const cog = (0, import_obsidian27.getIcon)("cog");
     cog === null || cog === void 0 ? void 0 : cog.classList.add("dg-rotate");
     cog === null || cog === void 0 ? void 0 : cog.style.setProperty("width", "40px");
     cog === null || cog === void 0 ? void 0 : cog.style.setProperty("height", "40px");
@@ -42072,7 +42278,7 @@ function PublicationCenter($$anchor, $$props) {
   var node = child(div);
   {
     var consequent = ($$anchor2) => {
-      var div_1 = root17();
+      var div_1 = root19();
       var text2 = child(div_1);
       reset(div_1);
       template_effect(() => {
@@ -42118,7 +42324,7 @@ function PublicationCenter($$anchor, $$props) {
       var node_4 = sibling(node_3, 2);
       {
         var consequent_3 = ($$anchor3) => {
-          var div_5 = root_311();
+          var div_5 = root_310();
           var div_6 = child(div_5);
           var div_7 = child(div_6);
           var text_1 = child(div_7);
@@ -42154,7 +42360,7 @@ function PublicationCenter($$anchor, $$props) {
       var node_6 = sibling(node_5, 2);
       {
         var consequent_4 = ($$anchor3) => {
-          var div_9 = root_48();
+          var div_9 = root_47();
           append2($$anchor3, div_9);
         };
         if_block(node_6, ($$render) => {
@@ -42164,7 +42370,7 @@ function PublicationCenter($$anchor, $$props) {
       var node_7 = sibling(node_6, 2);
       {
         var consequent_5 = ($$anchor3) => {
-          var div_10 = root_56();
+          var div_10 = root_55();
           var div_11 = child(div_10);
           var text_3 = child(div_11);
           reset(div_11);
@@ -42339,7 +42545,7 @@ function PublicationCenter($$anchor, $$props) {
 }
 
 // src/views/PublicationCenterView/PublicationCenterView.ts
-var PublicationCenterView = class extends import_obsidian26.ItemView {
+var PublicationCenterView = class extends import_obsidian28.ItemView {
   constructor(leaf, plugin) {
     super(leaf);
     this.plugin = plugin;
@@ -42419,7 +42625,7 @@ var PublicationCenterView = class extends import_obsidian26.ItemView {
   openFile(path) {
     return __async(this, null, function* () {
       const file = this.plugin.app.vault.getAbstractFileByPath(path);
-      if (file instanceof import_obsidian26.TFile) {
+      if (file instanceof import_obsidian28.TFile) {
         yield this.plugin.app.workspace.getLeaf("tab").openFile(file);
       }
     });
@@ -42427,7 +42633,7 @@ var PublicationCenterView = class extends import_obsidian26.ItemView {
 };
 
 // src/forestry/SiteUpdateTracker.ts
-var import_obsidian27 = require("obsidian");
+var import_obsidian29 = require("obsidian");
 var POLL_INTERVAL_MS = 5e3;
 var POLL_TIMEOUT_MS = 10 * 60 * 1e3;
 var LIVE_PHASE_MS = 2 * 60 * 1e3;
@@ -42591,7 +42797,7 @@ var SiteUpdateTracker = class {
     if (build.status === "completed") {
       if (build.hasHomePage === false && this.onChooseHomePage) {
         const chooseHomePage = this.onChooseHomePage;
-        const notice = new import_obsidian27.Notice(
+        const notice = new import_obsidian29.Notice(
           "Your site is live, but has no home page yet. Click to choose one.",
           15e3
         );
@@ -42601,7 +42807,7 @@ var SiteUpdateTracker = class {
           chooseHomePage();
         });
       } else {
-        new import_obsidian27.Notice("Your site is live \u{1F331}");
+        new import_obsidian29.Notice("Your site is live \u{1F331}");
       }
       this.patch({ phase: "live" });
       this.liveTimer = setTimeout(() => {
@@ -42609,7 +42815,7 @@ var SiteUpdateTracker = class {
         this.patch({ phase: "idle" });
       }, LIVE_PHASE_MS);
     } else {
-      new import_obsidian27.Notice(
+      new import_obsidian29.Notice(
         ((_a6 = build.friendlyError) == null ? void 0 : _a6.message) ? `Publish failed: ${build.friendlyError.message}` : "Publish failed. See Publish status for details.",
         8e3
       );
@@ -42622,8 +42828,8 @@ var SiteUpdateTracker = class {
 };
 
 // src/views/HomePage/HomePagePickerModal.ts
-var import_obsidian28 = require("obsidian");
-var HomePagePickerModal = class extends import_obsidian28.FuzzySuggestModal {
+var import_obsidian30 = require("obsidian");
+var HomePagePickerModal = class extends import_obsidian30.FuzzySuggestModal {
   constructor(app, onChoose) {
     super(app);
     this.currentHomePaths = /* @__PURE__ */ new Set();
@@ -42661,8 +42867,8 @@ var HomePagePickerModal = class extends import_obsidian28.FuzzySuggestModal {
 };
 
 // src/views/HomePage/HomePagePromptModal.ts
-var import_obsidian29 = require("obsidian");
-var HomePagePromptModal = class extends import_obsidian29.Modal {
+var import_obsidian31 = require("obsidian");
+var HomePagePromptModal = class extends import_obsidian31.Modal {
   constructor(app, file, resolve) {
     super(app);
     this.dontAskAgain = false;
@@ -42686,7 +42892,7 @@ var HomePagePromptModal = class extends import_obsidian29.Modal {
       text: 'You can change this any time with the "Set as Garden Home Page" command.',
       cls: "dg-home-prompt-hint"
     });
-    new import_obsidian29.Setting(contentEl).setName("Don't ask again").addToggle(
+    new import_obsidian31.Setting(contentEl).setName("Don't ask again").addToggle(
       (toggle) => toggle.setValue(false).onChange((value) => {
         this.dontAskAgain = value;
       })
@@ -42816,7 +43022,7 @@ import_js_logger16.default.setHandler((messages, context2) => {
   appendDebugLogLine(context2.level.name, Array.from(messages));
   consoleLogHandler(messages, context2);
 });
-var DigitalGarden = class extends import_obsidian31.Plugin {
+var DigitalGarden = class extends import_obsidian33.Plugin {
   constructor() {
     super(...arguments);
     this.isPublishing = false;
@@ -42840,7 +43046,7 @@ var DigitalGarden = class extends import_obsidian31.Plugin {
       );
       this.addSettingTab(new DigitalGardenSettingTab(this.app, this));
       yield this.addCommands();
-      (0, import_obsidian31.addIcon)("digital-garden-icon", seedling);
+      (0, import_obsidian33.addIcon)("digital-garden-icon", seedling);
       this.addRibbonIcon(
         "digital-garden-icon",
         "Digital Garden Publication Center",
@@ -42978,7 +43184,7 @@ var DigitalGarden = class extends import_obsidian31.Plugin {
         );
         const updater = yield (yield siteManager.getTemplateUpdater()).checkForUpdates();
         if (hasUpdates(updater)) {
-          new import_obsidian31.Notice(
+          new import_obsidian33.Notice(
             `Digital Garden: A new site template version (${updater.newestTemplateVersion}) is available. Update in the plugin settings.`,
             1e4
           );
@@ -43012,7 +43218,7 @@ var DigitalGarden = class extends import_obsidian31.Plugin {
         name: "Copy debug log",
         callback: () => __async(this, null, function* () {
           yield navigator.clipboard.writeText(getDebugLog());
-          new import_obsidian31.Notice(
+          new import_obsidian33.Notice(
             "Debug log copied to clipboard. Paste it in the Discord if you need help."
           );
         })
@@ -43021,7 +43227,7 @@ var DigitalGarden = class extends import_obsidian31.Plugin {
         id: "quick-publish-and-share-note",
         name: "Quick Publish And Share Note",
         callback: () => __async(this, null, function* () {
-          new import_obsidian31.Notice("Adding publish flag to note and publishing it.");
+          new import_obsidian33.Notice("Adding publish flag to note and publishing it.");
           yield this.setPublishFlagValue(true);
           const activeFile = this.app.workspace.getActiveFile();
           const event2 = this.app.metadataCache.on(
@@ -43052,11 +43258,15 @@ var DigitalGarden = class extends import_obsidian31.Plugin {
         id: "install-garden-plugin",
         name: "Install garden plugin from URL",
         callback: () => __async(this, null, function* () {
-          const modal = new InstallPluginModal(this.app, this.settings);
+          const modal = new InstallPluginModal(
+            this.app,
+            this.settings,
+            () => this.saveSettings()
+          );
           yield modal.open();
         })
       });
-      if (this.settings["ENABLE_DEVELOPER_TOOLS"] && import_obsidian31.Platform.isDesktop) {
+      if (this.settings["ENABLE_DEVELOPER_TOOLS"] && import_obsidian33.Platform.isDesktop) {
         import_js_logger16.default.info("Developer tools enabled");
         const publisher = new Publisher(
           this.app.vault,
@@ -43085,7 +43295,7 @@ var DigitalGarden = class extends import_obsidian31.Plugin {
         callback: () => __async(this, null, function* () {
           var _a6, _b3, _c2;
           if (this.isPublishing) {
-            new import_obsidian31.Notice(
+            new import_obsidian33.Notice(
               "A publish operation is already in progress. Please wait for it to complete."
             );
             return;
@@ -43093,7 +43303,7 @@ var DigitalGarden = class extends import_obsidian31.Plugin {
           this.isPublishing = true;
           const statusBarItem = this.addStatusBarItem();
           try {
-            new import_obsidian31.Notice("Processing files to publish...");
+            new import_obsidian33.Notice("Processing files to publish...");
             const { vault, metadataCache } = this.app;
             const publisher = new Publisher(
               vault,
@@ -43123,7 +43333,7 @@ var DigitalGarden = class extends import_obsidian31.Plugin {
             const imagesToDelete = publishStatus.deletedImagePaths;
             const totalItems = filesToPublish.length + filesToDelete.length + imagesToDelete.length;
             if (totalItems === 0) {
-              new import_obsidian31.Notice("Garden is already fully synced!");
+              new import_obsidian33.Notice("Garden is already fully synced!");
               statusBarItem.remove();
               this.isPublishing = false;
               return;
@@ -43132,13 +43342,13 @@ var DigitalGarden = class extends import_obsidian31.Plugin {
               statusBarItem,
               filesToPublish.length + filesToDelete.length + imagesToDelete.length
             );
-            new import_obsidian31.Notice(
+            new import_obsidian33.Notice(
               `Publishing ${filesToPublish.length} notes, deleting ${filesToDelete.length} notes and ${imagesToDelete.length} images. See the status bar in lower right corner for progress.`,
               8e3
             );
             const batchResult = yield publisher.publishBatch(filesToPublish);
             if (!batchResult.success) {
-              new import_obsidian31.Notice(
+              new import_obsidian33.Notice(
                 `Publishing failed: ${(_a6 = batchResult.error) != null ? _a6 : "unknown error"}
 
 Run "Copy debug log" from the command palette to share details when asking for help.`,
@@ -43151,7 +43361,7 @@ Run "Copy debug log" from the command palette to share details when asking for h
               imagesToDelete.map((image) => image.path)
             );
             if (!deleteResult.success) {
-              new import_obsidian31.Notice(
+              new import_obsidian33.Notice(
                 `Deleting failed: ${(_b3 = deleteResult.error) != null ? _b3 : "unknown error"}
 
 Run "Copy debug log" from the command palette to share details when asking for help.`,
@@ -43163,16 +43373,16 @@ Run "Copy debug log" from the command palette to share details when asking for h
             );
             statusBar.finish(8e3);
             (_c2 = this.siteUpdateTracker) == null ? void 0 : _c2.notifyPublished();
-            new import_obsidian31.Notice(
+            new import_obsidian33.Notice(
               `Successfully published ${filesToPublish.length} notes to your garden.`
             );
             if (filesToDelete.length > 0) {
-              new import_obsidian31.Notice(
+              new import_obsidian33.Notice(
                 `Successfully deleted ${filesToDelete.length} notes from your garden.`
               );
             }
             if (imagesToDelete.length > 0) {
-              new import_obsidian31.Notice(
+              new import_obsidian33.Notice(
                 `Successfully deleted ${imagesToDelete.length} images from your garden.`
               );
             }
@@ -43189,7 +43399,7 @@ Run "Copy debug log" from the command palette to share details when asking for h
               return;
             }
             console.error(e);
-            new import_obsidian31.Notice(
+            new import_obsidian33.Notice(
               "Unable to publish multiple notes, something went wrong."
             );
           }
@@ -43251,7 +43461,7 @@ Run "Copy debug log" from the command palette to share details when asking for h
           this.openNavigationOrderModal();
         })
       });
-      if (import_obsidian31.Platform.isDesktop) {
+      if (import_obsidian33.Platform.isDesktop) {
         this.addCommand({
           id: "export-garden-to-local-folder",
           name: "Export Garden to Local Folder",
@@ -43265,7 +43475,7 @@ Run "Copy debug log" from the command palette to share details when asking for h
   runLocalExport() {
     return __async(this, null, function* () {
       try {
-        new import_obsidian31.Notice("Exporting garden to local folder...");
+        new import_obsidian33.Notice("Exporting garden to local folder...");
         const { vault, metadataCache } = this.app;
         const publisher = new Publisher(
           vault,
@@ -43275,12 +43485,12 @@ Run "Copy debug log" from the command palette to share details when asking for h
         const exporter = new LocalExporter(vault, publisher, this.settings);
         const result = yield exporter.export();
         if (result.failed > 0) {
-          new import_obsidian31.Notice(
+          new import_obsidian33.Notice(
             `Exported ${result.notes} notes and ${result.images} images (${result.failed} failed). Check console for details.`,
             8e3
           );
         } else {
-          new import_obsidian31.Notice(
+          new import_obsidian33.Notice(
             `Exported ${result.notes} notes and ${result.images} images to ${this.settings.localExportPath}`,
             8e3
           );
@@ -43291,7 +43501,7 @@ Run "Copy debug log" from the command palette to share details when asking for h
     });
   }
   registerDevAutoExport() {
-    if (!import_obsidian31.Platform.isDesktop || !this.settings.ENABLE_DEVELOPER_TOOLS || !this.settings.localExportOnLoad || !this.settings.localExportPath) {
+    if (!import_obsidian33.Platform.isDesktop || !this.settings.ENABLE_DEVELOPER_TOOLS || !this.settings.localExportOnLoad || !this.settings.localExportPath) {
       return;
     }
     this.app.workspace.onLayoutReady(() => {
@@ -43303,7 +43513,7 @@ Run "Copy debug log" from the command palette to share details when asking for h
   getActiveFile(workspace) {
     const activeFile = workspace.getActiveFile();
     if (!activeFile) {
-      new import_obsidian31.Notice(
+      new import_obsidian33.Notice(
         "No file is open/active. Please open a file and try again."
       );
       return null;
@@ -43324,10 +43534,10 @@ Run "Copy debug log" from the command palette to share details when asking for h
         );
         const fullUrl = siteManager.getNoteUrl(activeFile);
         yield navigator.clipboard.writeText(fullUrl);
-        new import_obsidian31.Notice(`Note URL copied to clipboard`);
+        new import_obsidian33.Notice(`Note URL copied to clipboard`);
       } catch (e) {
         console.log(e);
-        new import_obsidian31.Notice(
+        new import_obsidian33.Notice(
           "Unable to copy note URL to clipboard, something went wrong."
         );
       }
@@ -43341,7 +43551,7 @@ Run "Copy debug log" from the command palette to share details when asking for h
         return;
       }
       if (activeFile.extension !== "md" && activeFile.extension !== "canvas") {
-        new import_obsidian31.Notice(
+        new import_obsidian33.Notice(
           "The current file is not a markdown or canvas file. Please open a supported file and try again."
         );
         return;
@@ -43404,7 +43614,7 @@ Run "Copy debug log" from the command palette to share details when asking for h
       var _a6;
       try {
         const { vault, metadataCache } = this.app;
-        new import_obsidian31.Notice("Publishing note...");
+        new import_obsidian33.Notice("Publishing note...");
         const publisher = new Publisher(
           vault,
           metadataCache,
@@ -43420,10 +43630,10 @@ Run "Copy debug log" from the command palette to share details when asking for h
         }).compile();
         const publishSuccessful = yield publisher.publish(publishFile);
         if (publishSuccessful) {
-          new import_obsidian31.Notice(`Successfully published note to your garden.`);
+          new import_obsidian33.Notice(`Successfully published note to your garden.`);
           (_a6 = this.siteUpdateTracker) == null ? void 0 : _a6.notifyPublished();
         } else {
-          new import_obsidian31.Notice("Unable to publish note, something went wrong.");
+          new import_obsidian33.Notice("Unable to publish note, something went wrong.");
         }
         return publishSuccessful;
       } catch (e) {
@@ -43436,7 +43646,7 @@ Run "Copy debug log" from the command palette to share details when asking for h
           return false;
         }
         console.error(e);
-        new import_obsidian31.Notice("Unable to publish note, something went wrong.");
+        new import_obsidian33.Notice("Unable to publish note, something went wrong.");
         return false;
       }
     });
@@ -43488,7 +43698,7 @@ Run "Copy debug log" from the command palette to share details when asking for h
       var _a6;
       const currentFileCache = this.app.metadataCache.getFileCache(file);
       if ((_a6 = currentFileCache == null ? void 0 : currentFileCache.frontmatter) == null ? void 0 : _a6["dg-home" /* HOME */]) {
-        new import_obsidian31.Notice("This note is already set as the garden home page.");
+        new import_obsidian33.Notice("This note is already set as the garden home page.");
         return true;
       }
       const existingHomePages = findHomePageFiles(this.app).filter(
@@ -43502,7 +43712,7 @@ Run "Copy debug log" from the command palette to share details when asking for h
             frontmatter["dg-publish" /* PUBLISH */] = true;
           }
         );
-        new import_obsidian31.Notice(
+        new import_obsidian33.Notice(
           `${file.basename} is now your garden's home page and has been marked for publishing.`
         );
       });
@@ -43566,6 +43776,8 @@ Run "Copy debug log" from the command palette to share details when asking for h
    * - `connect=<code>`: one-click connect; the code is exchanged for the
    *   garden key server-side.
    * - `open=home-picker`: open the home page picker.
+   * - `open=plugins[&plugin=<id>]`: open Garden Plugins on Browse & install,
+   *   with that community plugin selected. Used by the forestry.md gallery.
    * Unknown parameters (e.g. the legacy `code`/`state` pair) are ignored.
    */
   registerDeepLinks() {
@@ -43578,12 +43790,64 @@ Run "Copy debug log" from the command palette to share details when asking for h
         this.openHomePagePicker();
         return;
       }
+      if (params.open === "plugins") {
+        void this.openGardenPlugins(
+          typeof params.plugin === "string" && params.plugin ? params.plugin : void 0
+        );
+        return;
+      }
       import_js_logger16.default.info("Ignoring digital-garden deep link", params);
+    });
+  }
+  isGardenConnected() {
+    if (this.settings.publishPlatform === "ForestryMd" /* ForestryMd */) {
+      return !!this.settings.forestrySettings.apiKey;
+    }
+    return !!this.settings.githubRepo && !!this.settings.githubUserName && !!this.settings.githubToken;
+  }
+  /** Garden Plugins on Browse & install, optionally with one plugin selected. */
+  openGardenPlugins(pluginId) {
+    return __async(this, null, function* () {
+      if (!this.isGardenConnected()) {
+        new import_obsidian33.Notice(
+          "Connect a garden first: open Settings \u2192 Digital Garden and connect it to Forestry.md or your GitHub repo. Then try the plugin link again.",
+          1e4
+        );
+        return;
+      }
+      try {
+        const connection = yield PublishPlatformConnectionFactory.createPublishPlatformConnection(
+          this.settings
+        );
+        const manager = new GardenPluginManager(
+          new RepositoryConnection(connection),
+          this.settings
+        );
+        new GardenPluginsModal(
+          this.app,
+          manager,
+          this.settings,
+          () => this.saveSettings(),
+          () => __async(this, null, function* () {
+            yield saveSiteSettingsAndUpdateEnv(
+              this.app.metadataCache,
+              this.settings,
+              () => this.saveSettings()
+            );
+          }),
+          { tab: "browse", pluginId }
+        ).open();
+      } catch (e) {
+        import_js_logger16.default.error("Opening garden plugins from deep link failed", e);
+        new import_obsidian33.Notice(
+          "Couldn't open Garden Plugins. Try again from Settings \u2192 Digital Garden."
+        );
+      }
     });
   }
   connectWithCode(code) {
     return __async(this, null, function* () {
-      new import_obsidian31.Notice("Connecting to Forestry.md\u2026");
+      new import_obsidian33.Notice("Connecting to Forestry.md\u2026");
       try {
         const connection = yield ForestryApi.exchangeConnectCode(code);
         this.settings.publishPlatform = "ForestryMd" /* ForestryMd */;
@@ -43591,20 +43855,20 @@ Run "Copy debug log" from the command palette to share details when asking for h
         this.settings.forestrySettings.forestryPageName = connection.pageName;
         this.settings.forestrySettings.baseUrl = connection.baseUrl;
         yield this.saveSettings();
-        new import_obsidian31.Notice(
+        new import_obsidian33.Notice(
           `Connected to Forestry.md garden ${connection.pageName} \u{1F331}`
         );
         this.afterForestryConnected();
       } catch (e) {
         import_js_logger16.default.error("Connect via deep link failed", e);
         if (e instanceof ForestryApiError && e.kind === "unauthorized") {
-          new import_obsidian31.Notice(
+          new import_obsidian33.Notice(
             "This connect link is invalid or has expired. Open your garden in the Forestry.md dashboard and click Connect again.",
             1e4
           );
           return;
         }
-        new import_obsidian31.Notice(
+        new import_obsidian33.Notice(
           "Couldn't reach Forestry.md to finish connecting. Check your connection and click Connect in the dashboard again.",
           1e4
         );
@@ -43650,7 +43914,7 @@ Run "Copy debug log" from the command palette to share details when asking for h
     });
   }
 };
-var HomePageConfirmationModal = class extends import_obsidian31.Modal {
+var HomePageConfirmationModal = class extends import_obsidian33.Modal {
   constructor(app, newHomeFile, existingHomeFile, onConfirm) {
     super(app);
     this.newHomeFile = newHomeFile;

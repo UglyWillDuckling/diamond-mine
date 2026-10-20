@@ -7,7 +7,7 @@
   "useAI": true,
   "showChangelogOnUpdate": true,
   "enableCaching": false,
-  "lastSeenVersion": "3.6.3",
+  "lastSeenVersion": "4.1.2",
   "basesPropNames": {
     "start": "start",
     "end": "end",

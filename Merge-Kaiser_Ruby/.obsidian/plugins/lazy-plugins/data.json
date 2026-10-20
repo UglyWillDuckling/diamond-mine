@@ -213,9 +213,6 @@
       "workspaces-plus": {
         "startupType": "instant"
       },
-      "tasknotes": {
-        "startupType": "instant"
-      },
       "open-gate": {
         "startupType": "instant"
       },

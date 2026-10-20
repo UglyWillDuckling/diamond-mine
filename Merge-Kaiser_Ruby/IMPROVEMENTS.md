@@ -51,7 +51,7 @@ Do not run a blanket delete based on the ` 1` pattern; some may be genuine secon
 
 Status: TaskNotes (`tasknotes` 4.13.8) was uninstalled on 2026-10-20. The plugin folder, its entry in `.obsidian/community-plugins.json`, its `lazy-plugins` entry, and both generated view directories (`TaskNotes/Views/`, `Efforts/TaskNotes/Views/`) were removed. The three task notes (`Apply for New Jobs`, `Handle Current Job Situation`, `just another task`) were also deleted on 2026-10-20, so `Efforts/TaskNotes/` no longer exists. A backup of the plugin directory and views is at `/tmp/tasknotes-removal-backup-20261020-192053.tar.gz`.
 
-`Efforts/Master Task List.md` is the QuickAdd capture target and works as intended.
+QuickAdd captures into monthly inbox files at `Efforts/tasks/inbox/YYYY-MM-MonthName.md`, e.g. `2026-10-October.md` (configured 2026-10-20; `New Task` target `Efforts/tasks/inbox/{{DATE:YYYY-MM-MMMM}}.md`, insert at top). `Efforts/Master Task List.md` is no longer the capture target; archive a month by moving its file to `Efforts/tasks/archive/`.
 
 ## 4. Fix the daily template and scope Templater
 

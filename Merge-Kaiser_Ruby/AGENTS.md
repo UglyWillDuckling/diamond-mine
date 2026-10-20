@@ -67,7 +67,7 @@ Folder notes (folder plugin) are files named exactly after their folder: `Effort
 
 TaskNotes (`tasknotes`) was fully removed on 2026-10-20: the plugin, its generated `.base` views, and its three task notes in `Efforts/TaskNotes/` were deleted. Do not recreate the file-per-task format; use `#task` checkboxes.
 
-QuickAdd choice **New Task** captures into `Efforts/Master Task List.md` via the Tasks plugin task modal.
+QuickAdd choice **New Task** captures into `Efforts/tasks/inbox/{{DATE:YYYY-MM-MMMM}}.md`, e.g. `2026-10-October.md` (monthly inbox, verified through `obsidian quickadd:list`), inserting at the top via the Tasks plugin task modal. Archive a month by moving its file to `Efforts/tasks/archive/`.
 
 ## Note conventions
 

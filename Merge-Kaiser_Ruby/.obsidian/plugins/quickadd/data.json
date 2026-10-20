@@ -6,7 +6,7 @@
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "Efforts/Master Task List.md",
+      "captureTo": "Efforts/tasks/inbox/{{DATE:YYYY-MM-MMMM}}.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,

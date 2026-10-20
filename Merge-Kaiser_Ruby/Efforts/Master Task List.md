@@ -2,7 +2,6 @@
 tags:
   - task-list
 ---
-- [ ] #task vidjeti sto je s napom u kuci 🔼 📅 2026-11-20
 - [ ] #task obrisi video od Vlatke s google storagea 🆔 8yplJa
 
 ## Done ☑

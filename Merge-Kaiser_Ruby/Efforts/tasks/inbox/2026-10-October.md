@@ -1,0 +1,1 @@
+- [ ] #task vidjeti sto je s napom u kuci 🔼 📅 2026-11-20

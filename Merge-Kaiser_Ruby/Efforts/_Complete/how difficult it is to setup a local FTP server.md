@@ -1,7 +1,6 @@
 ---
 related:
   - "[[File Transfer Protocol]]"
-status: done
 type: task
 dateModified: 2026-04-27T00:13:10.500+02:00
 title: how difficult it is to setup a local FTP server

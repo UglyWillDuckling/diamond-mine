@@ -8,7 +8,7 @@ tags:
   - article
   - dev/article
 related:
-  - "[[Efforts/Simmering/Wordpress/Wordpress]]"
+  - "[[Efforts/_Complete/Wordpress/Wordpress]]"
 ---
 **about**:: [[Wordpress Transient]]
 

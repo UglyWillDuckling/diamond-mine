@@ -5187,85 +5187,6 @@ isSvg$2.exports.default = isSvg;
 var isSvgExports = isSvg$2.exports;
 var isSvg$1 = /*@__PURE__*/getDefaultExportFromCjs(isSvgExports);
 
-var matchOperatorsRe = /[|\\{}()[\]^$+*?.]/g;
-
-var escapeStringRegexp$2 = function (str) {
-	if (typeof str !== 'string') {
-		throw new TypeError('Expected a string');
-	}
-
-	return str.replace(matchOperatorsRe, '\\$&');
-};
-
-var escapeStringRegexp$1 = escapeStringRegexp$2;
-
-var trimRepeated = function (str, target) {
-	if (typeof str !== 'string' || typeof target !== 'string') {
-		throw new TypeError('Expected a string');
-	}
-
-	return str.replace(new RegExp('(?:' + escapeStringRegexp$1(target) + '){2,}', 'g'), target);
-};
-
-var trimRepeated$1 = /*@__PURE__*/getDefaultExportFromCjs(trimRepeated);
-
-var filenameReservedRegex$1 = {exports: {}};
-
-/* eslint-disable no-control-regex */
-// TODO: remove parens when Node.js 6 is targeted. Node.js 4 barfs at it.
-filenameReservedRegex$1.exports = () => (/[<>:"\/\\|?*\x00-\x1F]/g);
-filenameReservedRegex$1.exports.windowsNames = () => (/^(con|prn|aux|nul|com[0-9]|lpt[0-9])$/i);
-
-var filenameReservedRegexExports = filenameReservedRegex$1.exports;
-var filenameReservedRegex = /*@__PURE__*/getDefaultExportFromCjs(filenameReservedRegexExports);
-
-var escapeStringRegexp = escapeStringRegexp$2;
-
-var stripOuter = function (str, sub) {
-	if (typeof str !== 'string' || typeof sub !== 'string') {
-		throw new TypeError();
-	}
-
-	sub = escapeStringRegexp(sub);
-	return str.replace(new RegExp('^' + sub + '|' + sub + '$', 'g'), '');
-};
-
-var stripOuter$1 = /*@__PURE__*/getDefaultExportFromCjs(stripOuter);
-
-// Doesn't make sense to have longer filenames
-const MAX_FILENAME_LENGTH = 100;
-
-const reControlChars = /[\u0000-\u001F\u0080-\u009F]/g; // eslint-disable-line no-control-regex
-const reRelativePath = /^\.+/;
-const reTrailingPeriods = /\.+$/;
-
-function filenamify(string, options = {}) {
-	if (typeof string !== 'string') {
-		throw new TypeError('Expected a string');
-	}
-
-	const replacement = options.replacement === undefined ? '!' : options.replacement;
-
-	if (filenameReservedRegex().test(replacement) && reControlChars.test(replacement)) {
-		throw new Error('Replacement string cannot contain reserved filename characters');
-	}
-
-	string = string.replace(filenameReservedRegex(), replacement);
-	string = string.replace(reControlChars, replacement);
-	string = string.replace(reRelativePath, replacement);
-	string = string.replace(reTrailingPeriods, '');
-
-	if (replacement.length > 0) {
-		string = trimRepeated$1(string, replacement);
-		string = string.length > 1 ? stripOuter$1(string, replacement) : string;
-	}
-
-	string = filenameReservedRegex.windowsNames().test(string) ? string + replacement : string;
-	string = string.slice(0, typeof options.maxLength === 'number' ? options.maxLength : MAX_FILENAME_LENGTH);
-
-	return string;
-}
-
 var md5$1 = {exports: {}};
 
 function commonjsRequire(path) {
@@ -6362,7 +6283,7 @@ md5$1.exports;
 var md5Exports = md5$1.exports;
 var md5 = /*@__PURE__*/getDefaultExportFromCjs(md5Exports);
 
-const APP_TITLE = "Local Images Plus  0.16.4";
+const APP_TITLE = "Local Images Plus  0.17.1";
 //Option to enable debugging
 let VERBOSE = false;
 function setDebug(value = false) {
@@ -6370,26 +6291,49 @@ function setDebug(value = false) {
 }
 const SUPPORTED_OS = { "win": "win32", "unix": "linux,darwin,freebsd,openbsd" };
 const USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82  Safari/537.36';
-const MD_SEARCH_PATTERN = [
+const MD_CORE_SEARCH_PATTERN = [
     //file link
     /\!\[(?<anchor>(.{0}|(?!^file\:\/)+?))\]\((?<link>((file\:\/)[^\!]+?(\.{1}.{3,4}\) {0,1}|\)$|\)\n|\)])))/gm,
     //hypertext link
-    ///\!\[(?<anchor>(.{0}|[^\[]+?))\]\((?<link>((http(s){0,1}).+?(\) |\..{3,4}\)|\)$|\)\n|\)\]|\)\[)))/gm,
-    /\!\[(?<anchor>([^\]]*))\]\((?<link>((http(s){0,1}).+?(\) |\..{3,4}\)|\)$|\)\n|\)\]|\)\[)))/gm,
+    //\!\[(?<anchor>([^\]]*))\]\((?<link>((http(s){0,1}).+?(\) |\..{3,4}\)|\)$|\)\n|\)\]|\)\[)))/gm,
+    /\!\[(?<anchor>([^\]]*))\]\((?<link>((http(s){0,1}\:).+?(\) |\..{3,4}\)|\)$|\)\n|\)\]|\)\[|\/[^(]+?\))))/gm,
     //Base64 encoded data
     /\!\[[^\[](?<anchor>(.{0}|[^\[]+?))\]\((?<link>((data\:.+?base64\,).+?(\) |\..{3,4}\)|\)$|\)\n|\)\]|\)\[)))/gm,
-    /\!\[(?<anchor>(.{0}|[^\[]+?))\]\((?<link>((http(s){0,1}|(data\:.+?base64\,)).+?\)))/gm
+    /\!\[(?<anchor>(.{0}|[^\[]+?))\]\((?<link>((http(s){0,1}|(data\:.+?base64\,)).+?\)))/gm,
+];
+//wikilink embed with remote url: ![[https://host/path.png]] or ![[https://host/path.png|300]]
+const WIKILINK_SEARCH_PATTERN = /\!\[\[(?<anchor>(?<link>https?:\/\/[^\]\|]+)(?:\|[^\]\|]*)?)\]\]/gm;
+//wikilink embed with local files: ![[filename.png]] or ![[path/filename.png|300]]
+const WIKILINK_LOCAL_SEARCH_PATTERN = /\!\[\[(?<anchor>(?<link>(?!https?:\/\/)[^\]\|]+?)(?:\|[^\]\|]*)?)\]\]/gm;
+const SOURCE_KEY_EXCLUSION = "(?!(?:[sS][oO][uU][rR][cC][eE])[ \\t]*:)";
+//frontmatter value that is an embed: cover: ![[https://...]] or cover: "![[https://...]]"
+const FM_EMBED_SEARCH_PATTERN = new RegExp("^(?<keypart>[ \\t]*" + SOURCE_KEY_EXCLUSION + "[^\\s:#'\"][^:\\r\\n]*?[ \\t]*:[ \\t]*)" +
+    "(?<q1>['\"]?)!\\[\\[(?<anchor>(?<link>https?:\\/\\/[^\\]\\|]+)(?:\\|[^\\]\\|]*)?)\\]\\](?<q2>['\"]?)", "gm");
+//frontmatter value that is a bare url with a media extension: hero: "https://host/img.jpg"
+const FM_BARE_URL_SEARCH_PATTERN = new RegExp("^(?<keypart>[ \\t]*" + SOURCE_KEY_EXCLUSION + "[^\\s:#'\"][^:\\r\\n]*?[ \\t]*:[ \\t]*)" +
+    "(?<anchor>)(?<q1>['\"]?)" +
+    "(?<link>https?:\\/\\/[^\\s'\"]+\\.(?:png|jpe?g|gif|webp|svg|avif|bmp|tiff?|ico|pdf|epub|mp3|mp4|m4a|ogg|wav|webm|mov|docx?|xlsx?|pptx?|zip)(?:[?#][^\\s'\"]*)?)" +
+    "(?<q2>['\"]?)", "gm");
+const CANVAS_BARE_URL_PATTERN = /"(?<link>https?:\/\/[^\s"'{}\[\]]+\.(?:png|jpe?g|gif|webp|svg|avif|bmp|tiff?|ico|pdf|epub|mp3|mp4|m4a|ogg|wav|webm|mov|docx?|xlsx?|pptx?|zip)(?:[?#][^\s"'{}\[\]]*)?)"/gm;
+const MD_SEARCH_PATTERN = [...MD_CORE_SEARCH_PATTERN, WIKILINK_SEARCH_PATTERN, WIKILINK_LOCAL_SEARCH_PATTERN];
+//patterns for the frontmatter part of a note (local links stay untouched)
+const FRONTMATTER_DOWNLOAD_PATTERN = [FM_EMBED_SEARCH_PATTERN, FM_BARE_URL_SEARCH_PATTERN, ...MD_CORE_SEARCH_PATTERN];
+const FRONTMATTER_SEARCH_PATTERN = [
+    /\[{2}(?<urllink>((http(s){0,1}).+?(\) |\..{3,4}\]{2}|\]{2}|\]{2}$|\]{2}\n)))/g,
+    /\[{2}(?<loclink>(.+?(\) |\..{3,4}\]{2}|\]{2}|\]{2}$|\]{2}\n)))/g,
 ];
 const MD_LINK = /\http(s){0,1}.+?( {1}|\)\n)/g;
+const URL_PATTERN = /^(https?:\/\/)?[^\/]+/g;
 const ATT_SIZE_ACHOR = /(^(?<attdesc>.{1,})\|(?<attsize>[0-9]{2,4})$)|(?<attsize2>^[0-9]{2,4}$)/gm;
+const TIME_DIFF = 500;
 // Looks like timeouts in Obsidian API are set in milliseconds
 const NOTICE_TIMEOUT = 5 * 1000;
 const TIMEOUT_LIKE_INFINITY = 24 * 60 * 60 * 1000;
-const FORBIDDEN_SYMBOLS_FILENAME_PATTERN = /\s+/g;
 const DEFAULT_SETTINGS = {
     processCreated: true,
     ignoredExt: "cnt|php|htm|html",
     processAll: true,
+    processFrontmatter: true,
     useCaptions: true,
     pathInTags: "fullDirPath",
     downUnknown: false,
@@ -6398,13 +6342,13 @@ const DEFAULT_SETTINGS = {
     filesizeLimit: 0,
     tryCount: 2,
     realTimeUpdateInterval: 5,
-    addNameOfFile: true,
     showNotifications: true,
+    contextMenuDownload: true,
     includeps: "md|canvas",
     includepattern: "(?<md>.*\\.md)|(?<canvas>.*\\.canvas)",
     mediaRootDir: "_resources/${notename}",
     disAddCom: false,
-    useMD5ForNewAtt: true,
+    FileNameTemplate: "${md5}_MD5",
     removeMediaFolder: true,
     removeOrphansCompl: false,
     PngToJpeg: false,
@@ -6414,10 +6358,13 @@ const DEFAULT_SETTINGS = {
     DateFormat: "YYYY MM DD",
     ImgCompressionType: "image/jpeg",
     ExcludedFoldersList: "",
-    ExcludedFoldersListRegexp: ""
+    ExcludedFoldersListRegexp: "",
+    useMarkdownLinkFormat: false,
+    processCanvas: true,
+    UrlExcludeRegexps: ""
 };
 
-const fs2 = require('fs').promises;
+const fs2 = require("fs").promises;
 //import { TIMEOUT } from "dns";
 //import fs from "fs";
 /*
@@ -6461,14 +6408,77 @@ function md5Sig(contentData = undefined) {
         const signature = md5([
             contentData.slice(0, chunk),
             contentData.slice(arrMid, arrMid + chunk),
-            contentData.slice(-chunk)
-        ].map(x => dec.decode(x)).join()).toString();
-        return signature + "_MD5";
+            contentData.slice(-chunk),
+        ]
+            .map((x) => dec.decode(x))
+            .join()).toString();
+        return signature;
     }
     catch (e) {
         logError("Cannot generate md5: " + e, false);
         return null;
     }
+}
+function MarkdownLinkParser(match) {
+    var _a, _b, _c, _d, _e, _f, _g, _h;
+    let link, anchor, replp, caption = "", AttSize = "";
+    const keypart = (_a = match.groups) === null || _a === void 0 ? void 0 : _a.keypart;
+    const q1 = (_b = match.groups) === null || _b === void 0 ? void 0 : _b.q1;
+    const q2 = (_c = match.groups) === null || _c === void 0 ? void 0 : _c.q2;
+    const isWikiEmbed = match[0].includes("![[");
+    logError("Match: " + match);
+    anchor = CtagsBrcks((_e = (_d = match.groups) === null || _d === void 0 ? void 0 : _d.anchor) !== null && _e !== void 0 ? _e : "");
+    for (const attmatch of anchor.matchAll(ATT_SIZE_ACHOR)) {
+        AttSize =
+            attmatch.groups.attsize !== undefined
+                ? CtagsBrcks(attmatch.groups.attsize)
+                : attmatch.groups.attsize2 !== undefined
+                    ? CtagsBrcks(attmatch.groups.attsize2)
+                    : "";
+    }
+    //a wikilink embed carries no alt text: the anchor must stay empty in markdown output mode
+    if (isWikiEmbed) {
+        anchor = "";
+    }
+    link = CtagsBrcks((_g = (_f = match.groups.link.match(MD_LINK)) === null || _f === void 0 ? void 0 : _f[0]) !== null && _g !== void 0 ? _g : match.groups.link);
+    const protocol = link.slice(0, 5);
+    caption = CtagsBrcks(MD_LINK.test(match.groups.link)
+        ? (_h = match.groups.link.split(link)[1]) !== null && _h !== void 0 ? _h : ""
+        : "");
+    //keep the exact match text for frontmatter keys and wiki brackets: replaceAll searches for it literally
+    replp =
+        keypart !== undefined || isWikiEmbed
+            ? match[0]
+            : trimAny(match[0], ["[", "(", "]"]);
+    if (protocol == "file:") {
+        SUPPORTED_OS.win.includes(process.platform)
+            ? link.replace("file:///", "")
+            : SUPPORTED_OS.unix.includes(process.platform)
+                ? link.replace("file://", "")
+                : link.replace("file://", "");
+        const parsedPath = path__default["default"].parse(link);
+        link = parsedPath.dir + "/" + parsedPath.name + trimTags(parsedPath.ext);
+    }
+    logError({
+        replp: replp,
+        anchor: anchor,
+        link: link,
+        protocol: protocol,
+        caption: caption,
+        AttSize: AttSize,
+        keypart: keypart,
+    }, true);
+    return {
+        replp: replp,
+        anchor: anchor,
+        link: link,
+        protocol: protocol,
+        caption: caption,
+        AttSize: AttSize,
+        keypart: keypart,
+        q1: q1,
+        q2: q2,
+    };
 }
 function replaceAsync(str, regex, asyncFn) {
     return __awaiter(this, void 0, void 0, function* () {
@@ -6476,57 +6486,42 @@ function replaceAsync(str, regex, asyncFn) {
         logError(regex, true);
         let errorflag = false;
         const promises = [];
-        let dictPatt = [];
-        let link;
-        let anchor;
-        let replp;
-        let caption = "";
         let filesArr = [];
-        let AttSize = "";
-        regex.forEach((element) => {
-            var _a;
-            logError("cur regex:  " + element);
-            const matches = str.matchAll(element);
+        const seen = new Set();
+        regex.forEach((regex_pattern) => {
+            //a shared /g regex may keep lastIndex from an earlier .test() call
+            regex_pattern.lastIndex = 0;
+            const matches = str.matchAll(regex_pattern);
             for (const match of matches) {
-                logError("match: " + match);
-                anchor = trimAny(match.groups.anchor, [")", "(", "]", "[", " "]);
-                const AttSizeMatch = anchor.matchAll(ATT_SIZE_ACHOR);
-                for (const match of AttSizeMatch) {
-                    AttSize = (match.groups.attsize !== undefined) ? trimAny(match.groups.attsize, [")", "(", "]", "[", " "]) :
-                        (match.groups.attsize2 !== undefined) ? trimAny(match.groups.attsize2, [")", "(", "]", "[", " "]) :
-                            "";
+                const ReplaceObj = MarkdownLinkParser(match);
+                logError(ReplaceObj);
+                //the same match text can be produced by several patterns: download it only once
+                if (seen.has(ReplaceObj.replp)) {
+                    continue;
                 }
-                link = ((_a = match.groups.link.match(MD_LINK)) !== null && _a !== void 0 ? _a : [match.groups.link])[0];
-                caption = trimAny((match.groups.link.match(MD_LINK) !== null ?
-                    (match.groups.link.split(link).length > 1 ?
-                        match.groups.link.split(link)[1] : "") :
-                    ""), [")", "]", "(", "[", " "]);
-                link = trimAny(link, [")", "(", "]", "[", " "]);
-                replp = trimAny(match[0], ["[", "(", "]"]);
-                logError("repl: " + replp +
-                    "\r\nahc: " + anchor +
-                    "\r\nlink: " + link +
-                    "\r\ncaption: " + caption +
-                    "\r\nAttSize: " + AttSize);
-                dictPatt[replp] = [anchor, link, caption, AttSize];
+                seen.add(ReplaceObj.replp);
+                const promise = asyncFn(ReplaceObj);
+                logError(promise, true);
+                promises.push(promise);
             }
         });
-        for (var key in dictPatt) {
-            const promise = asyncFn(key, dictPatt[key][0], dictPatt[key][1], dictPatt[key][2], dictPatt[key][3]);
-            logError(promise, true);
-            promises.push(promise);
-        }
         const data = yield Promise.all(promises);
         logError("Promises: ");
         logError(data, true);
-        //  return str.replace((reg: RegExp, str: String) => { 
+        //  return str.replace((reg: RegExp, str: String) => {
+        const replaced = new Set();
         data.forEach((element) => {
-            if (element !== null) {
-                logError("el: " + element[0] + "  el2: " + element[1] + element[2]);
-                str = str.replaceAll(element[0], element[1] + element[2]);
-                filesArr.push(element[1]);
+            if (Array.isArray(element)) {
+                if (replaced.has(element[0])) {
+                    return;
+                }
+                replaced.add(element[0]);
+                logError("Replacing " + element[0] + " to " + element[1]);
+                str = str.replaceAll(element[0], element[1]);
+                //the bare tag is what the metadata cache reports as an embed (no frontmatter key)
+                filesArr.push(element[2] !== undefined && element[2] !== "" ? element[2] : element[1]);
             }
-            else {
+            else if (element === null) {
                 errorflag = true;
             }
         });
@@ -6547,9 +6542,9 @@ function base64ToBuff(data) {
     return __awaiter(this, void 0, void 0, function* () {
         logError("base64ToBuff: \r\n", false);
         try {
-            const BufferData = Buffer.from(data.split("base64,")[1], 'base64');
+            const BufferData = Buffer.from(data.split("base64,")[1], "base64");
             logError(BufferData);
-            return BufferData;
+            return bufferToArrayBuffer(BufferData);
         }
         catch (e) {
             logError("Cannot read base64: " + e, false);
@@ -6565,7 +6560,7 @@ function readFromDiskB(file, count = undefined) {
             fs__default["default"].readSync(fd, buffer, 0, buffer.length, 0);
             logError(buffer);
             fs__default["default"].closeSync(fd);
-            return buffer;
+            return bufferToArrayBuffer(buffer);
         }
         catch (e) {
             logError("Cannot read the file: " + e, false);
@@ -6578,7 +6573,7 @@ function readFromDisk(file) {
         logError("readFromDisk: " + file, false);
         try {
             const data = yield fs2.readFile(file, null);
-            return Buffer.from(data);
+            return bufferToArrayBuffer(Buffer.from(data));
         }
         catch (e) {
             logError("Cannot read the file: " + e, false);
@@ -6586,16 +6581,25 @@ function readFromDisk(file) {
         }
     });
 }
-function downloadImage(url) {
+function downloadImage(url, referer = "") {
     return __awaiter(this, void 0, void 0, function* () {
-        logError("Downloading: " + url, false);
+        logError("Downloading: " + url + " referer: " + referer, false);
         const headers = {
-            'method': 'GET',
-            'User-Agent': USER_AGENT
+            method: "GET",
+            "User-Agent": USER_AGENT,
+            Referer: referer,
         };
         try {
             const res = yield obsidian.requestUrl({ url: url, headers });
             logError(res, true);
+            //requestUrl may resolve instead of throwing on 4xx/5xx: never treat an error page as an image
+            if (!(res.status >= 200 && res.status < 300)) {
+                logError("HTTP status " + res.status + " for " + url, false);
+                return null;
+            }
+            if (res.arrayBuffer == null || res.arrayBuffer.byteLength == 0) {
+                return null;
+            }
             return res.arrayBuffer;
         }
         catch (e) {
@@ -6604,10 +6608,13 @@ function downloadImage(url) {
         }
     });
 }
+function bufferToArrayBuffer(buffer) {
+    return buffer.buffer.slice(buffer.byteOffset, buffer.byteOffset + buffer.byteLength);
+}
 function getFileExt(content, link) {
     var _a;
     return __awaiter(this, void 0, void 0, function* () {
-        const fileExtByLink = path__default["default"].extname(link).replace("\.", "");
+        const fileExtByLink = path__default["default"].extname(link).replace(".", "");
         const fileExtByBuffer = (_a = (yield fileType_1.fromBuffer(content))) === null || _a === void 0 ? void 0 : _a.ext;
         // if XML, probably it is SVG
         if (fileExtByBuffer == "xml" || !fileExtByBuffer) {
@@ -6616,11 +6623,16 @@ function getFileExt(content, link) {
                 return "svg";
         }
         logError("fileExtByBuffer" + fileExtByBuffer);
-        if (fileExtByBuffer != undefined && fileExtByBuffer && fileExtByBuffer.length <= 5 && (fileExtByBuffer === null || fileExtByBuffer === void 0 ? void 0 : fileExtByBuffer.length) > 0) {
+        if (fileExtByBuffer != undefined &&
+            fileExtByBuffer &&
+            fileExtByBuffer.length <= 5 &&
+            (fileExtByBuffer === null || fileExtByBuffer === void 0 ? void 0 : fileExtByBuffer.length) > 0) {
             return fileExtByBuffer;
         }
         logError("fileExtByLink  " + fileExtByLink);
-        if (fileExtByLink != undefined && fileExtByLink.length <= 5 && (fileExtByLink === null || fileExtByLink === void 0 ? void 0 : fileExtByLink.length) > 0) {
+        if (fileExtByLink != undefined &&
+            fileExtByLink.length <= 5 &&
+            (fileExtByLink === null || fileExtByLink === void 0 ? void 0 : fileExtByLink.length) > 0) {
             return fileExtByLink;
         }
         return "unknown";
@@ -6633,15 +6645,79 @@ function trimAny(str, chars) {
         ++start;
     while (end > start && chars.indexOf(str[end - 1]) >= 0)
         --end;
-    return (start > 0 || end < str.length) ? str.substring(start, end) : str;
+    return start > 0 || end < str.length ? str.substring(start, end) : str;
 }
-function cFileName(name) {
-    const cleanedName = name.replace(/(\)|\(|\"|\'|\#|\]|\[|\:|\>|\<|\*|\|)/g, " ");
+function CtagsBrcks(str) {
+    return trimAny(str, [")", "(", "]", "[", " "]);
+}
+function CtagsWhS(str) {
+    return trimAny(str, [" "]);
+}
+function cFileName(name, sep = " ") {
+    const cleanedName = name.replace(/(\)|\(|\"|\'|\#|\]|\[|\:|\>|\<|\*|\|)/g, sep);
     return cleanedName;
 }
-function cleanFileName(name) {
-    const cleanedName = filenamify(name).replace(FORBIDDEN_SYMBOLS_FILENAME_PATTERN, "_");
-    return cleanedName;
+const NAME_TEMPLATE_PATTERN = /\$\{(\w+)(?::(\d+))?\}/g;
+//kind: "file" - result is a sanitized file name base (no extension), "path" - result is a folder path (kept as is)
+function renderNameTemplate(template, ctx, kind = "file") {
+    let rendered = (template || "").replace(NAME_TEMPLATE_PATTERN, (match, name, lenStr) => {
+        const value = ctx[name];
+        if (value === undefined || value === null) {
+            return match;
+        }
+        if (lenStr !== undefined) {
+            const len = parseInt(lenStr, 10);
+            return len > 0 ? value.slice(0, len) : value;
+        }
+        return value;
+    });
+    if (kind !== "file") {
+        return rendered;
+    }
+    rendered = cFileName(rendered.replace(/[/\\?]+/g, " "));
+    rendered = rendered.replace(/\s+/g, " ").trim();
+    if (rendered.length > 200) {
+        rendered = rendered.slice(0, 200).replace(/[.\s]+$/, "");
+    }
+    rendered = rendered.replace(/^[.\s]+/, "").replace(/[.\s]+$/, "");
+    if (!rendered) {
+        rendered = ctx.md5 || "";
+    }
+    if (!rendered) {
+        rendered = "image";
+    }
+    return rendered;
+}
+//picks a file name: base + ext, appending " (N)" on collision.
+//if the candidate exists and holds the same content (contentHash), it is reused: needWrite = false
+function resolveUniqueName(adapter, dir, baseName, fileExt, contentHash, readExisting = undefined) {
+    return __awaiter(this, void 0, void 0, function* () {
+        let ext = fileExt ? (fileExt.startsWith(".") ? fileExt : "." + fileExt) : "";
+        if (ext && baseName.toLowerCase().endsWith(ext.toLowerCase())) {
+            ext = "";
+        }
+        const reader = readExisting || ((filePath) => adapter.readBinary(filePath));
+        for (let counter = 0; counter < 10000; counter++) {
+            const suffix = counter ? ` (${counter})` : "";
+            const candidate = pathJoin([dir, baseName + suffix + ext]);
+            if (!(yield adapter.exists(candidate, false))) {
+                return { fileName: candidate, needWrite: true };
+            }
+            try {
+                const existing = yield reader(candidate);
+                if (existing && md5Sig(existing) === contentHash) {
+                    return { fileName: candidate, needWrite: false };
+                }
+            }
+            catch (e) {
+                logError("Cannot read existing file: " + e, false);
+            }
+        }
+        throw new Error(`Cannot generate a unique file name: ${baseName}${ext}`);
+    });
+}
+function trimTags(link) {
+    return link.split(/[#?&\s]+/)[0];
 }
 function pathJoin(parts) {
     const result = path__default["default"].join(...parts);
@@ -6652,9 +6728,9 @@ function normalizePath(path) {
     return path.replace(/\\/g, "/");
 }
 function encObsURI(e) {
-    return e.replace(/[\\\x00\x08\x0B\x0C\x0E-\x1F ]/g, (function (e) {
+    return e.replace(/[\\\x00\x08\x0B\x0C\x0E-\x1F ]/g, function (e) {
         return encodeURIComponent(e);
-    }));
+    });
 }
 /**
  * https://github.com/mnaoumov/obsidian-dev-utils (modified)
@@ -6662,37 +6738,45 @@ function encObsURI(e) {
  * @param imgQuality - The quality of the image (0 to 1).
  * @returns A promise that resolves to an ArrayBuffer.
  */
-function blobToJpegArrayBuffer(blob, imgQuality, imgType = "image/jpeg") {
+function blobToJpegArrayBuffer(Data, imgQuality, imgType) {
     return __awaiter(this, void 0, void 0, function* () {
-        return new Promise((resolve) => {
-            const reader = new FileReader();
-            reader.onloadend = () => {
-                const image = new Image();
-                image.onload = () => {
-                    const canvas = document.createElement('canvas');
-                    const context = canvas.getContext('2d');
-                    if (!context) {
-                        throw new Error('Could not get 2D context.');
-                    }
-                    const imageWidth = image.width;
-                    const imageHeight = image.height;
-                    let data = '';
-                    canvas.width = imageWidth;
-                    canvas.height = imageHeight;
-                    context.fillStyle = '#fff';
-                    context.fillRect(0, 0, imageWidth, imageHeight);
-                    context.save();
-                    context.translate(imageWidth / 2, imageHeight / 2);
-                    context.drawImage(image, 0, 0, imageWidth, imageHeight, -imageWidth / 2, -imageHeight / 2, imageWidth, imageHeight);
-                    context.restore();
-                    data = canvas.toDataURL(imgType, imgQuality);
-                    const arrayBuffer = base64ToBuff(data);
-                    resolve(arrayBuffer);
+        try {
+            const blob = new Blob([new Uint8Array(Data)]);
+            imgType = imgType.length == 0 ? "image/jpeg" : imgType;
+            return new Promise((resolve) => {
+                const reader = new FileReader();
+                reader.onloadend = () => {
+                    const image = new Image();
+                    image.onload = () => {
+                        const canvas = document.createElement("canvas");
+                        const context = canvas.getContext("2d");
+                        if (!context) {
+                            throw new Error("Could not get 2D context.");
+                        }
+                        const imageWidth = image.width;
+                        const imageHeight = image.height;
+                        let data = "";
+                        canvas.width = imageWidth;
+                        canvas.height = imageHeight;
+                        context.fillStyle = "#fff";
+                        context.fillRect(0, 0, imageWidth, imageHeight);
+                        context.save();
+                        context.translate(imageWidth / 2, imageHeight / 2);
+                        context.drawImage(image, 0, 0, imageWidth, imageHeight, -imageWidth / 2, -imageHeight / 2, imageWidth, imageHeight);
+                        context.restore();
+                        data = canvas.toDataURL(imgType, imgQuality);
+                        const arrayBuffer = base64ToBuff(data);
+                        resolve(arrayBuffer);
+                    };
+                    image.src = reader.result;
                 };
-                image.src = reader.result;
-            };
-            reader.readAsDataURL(blob);
-        });
+                reader.readAsDataURL(blob);
+            });
+        }
+        catch (e) {
+            logError("Cannot compress: " + e, false);
+            return null;
+        }
     });
 }
 
@@ -13976,6 +14060,1747 @@ var safeRegex_1 = safeRegex;
 
 var safeRegex$1 = /*@__PURE__*/getDefaultExportFromCjs(safeRegex_1);
 
+var ru = {
+    "Show notifications": "Показывать уведомления",
+    "Show notifications when pages were processed.": "Показывать уведомления при обработке страниц.",
+    "Context menu: download single image": "Контекстное меню: скачать отдельное изображение",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "Показывать 'Скачать это изображение' при правой кнопке мыши на удалённом изображении в режиме Live Preview. Скачивает только это изображение и заменяет его ссылку.",
+    "Disable additional commands": "Отключить дополнительные команды",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "Не показывать дополнительные команды в палитре команд. Перезагрузите плагин в настройках для вступления в силу (выкл/вкл).",
+    "Automatic processing": "Автоматическая обработка",
+    "Process notes on create/copy/paste.": "Обрабатывать заметки при создании/копировании/вставке.",
+    "Process images in frontmatter": "Обрабатывать изображения во frontmatter",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Скачивать и локализовывать ссылки на изображения в YAML frontmatter. При отключении блок frontmatter остается нетронутым (ключ 'source' всё ещё используется как реферер для изображений в теле заметки).",
+    "Automatic processing interval": "Интервал автоматической обработки",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Интервал в секундах для обновления обработки. Требуется время, чтобы изменённое содержимое заметки стало доступно плагинам.",
+    "Number of retries for every single attachment": "Количество попыток для каждого вложения",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "Если происходит ошибка при скачивании (сеть и т.д.), попытаться скачать снова несколько раз.",
+    "Process all new markdown files": "Обрабатывать все новые markdown-файлы",
+    "Process all new created/cloud-synced files with corresponding extensions.": "Обрабатывать все новые созданные/синхронизированные из облака файлы с соответствующими расширениями.",
+    "Process all new attachments": "Обрабатывать все новые вложения",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "Плагин также переместит все вложения из папки Obsidian по умолчанию в папку плагина.",
+    "File name template": "Шаблон имени файла",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "Шаблон для имён новых вложений. Переменные: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. По умолчанию: ${md5}_MD5 (обратная совместимость). Примеры: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Используйте 'Папка для сохранения новых вложений' для подпапок.",
+    "Use markdown link format with angle brackets ![](<link>)": "Использовать формат markdown-ссылки с угловыми скобками ![](<link>)",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "Принудительно использовать формат markdown-ссылки с угловыми скобками вместо закодированного URI при генерации ссылок.",
+    "Process Canvas files": "Обрабатывать файлы Canvas",
+    "Process images in Obsidian Canvas (.canvas files)": "Обрабатывать изображения в Obsidian Canvas (.canvas файлы)",
+    "URL exclude regexps": "Регулярные выражения для исключения URL",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "Одна строка - одно регулярное выражение. Примеры:\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "Скачивать неизвестные типы файлов",
+    "Download unknown filetypes and save them with .unknown extension.": "Скачивать неизвестные типы файлов и сохранять их с расширением .unknown.",
+    "Compress images (Web Images)": "Сжимать изображения (Веб-изображения)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "Сжимать все скачанные изображения. Может уменьшить размер файла в несколько раз, но также может повлиять на производительность.",
+    "Compress images (Pasted Images)": "Сжимать изображения (Вставленные изображения)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "Сжимать все вставленные изображения. Может уменьшить размер файла в несколько раз, но также может повлиять на производительность.",
+    "Compression type": "Тип сжатия",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "Выберите тип сжатия изображений. Имейте в виду, что формат webp имеет ограничения по размеру изображения.",
+    "Excluded folders": "Исключённые папки",
+    "Excluded folders. New files in these folders will not be processed automatically.": "Исключённые папки. Новые файлы в этих папках не будут обрабатываться автоматически.",
+    "Image Quality": "Качество изображения",
+    "Image quality selection (30 to 100).": "Выбор качества изображения (от 30 до 100).",
+    "File size lower limit in Kb": "Нижний предел размера файла в Кб",
+    "Do not download files with size less than this value. Set 0 for no limit.": "Не скачивать файлы с размером меньше этого значения. Установите 0 для отсутствия лимита.",
+    Exclusions: "Исключения",
+    "The plugin will not download attachments with these extensions.": "Плагин не будет скачивать вложения с этими расширениями.",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "Не создавать папку вложений Obsidian (Для совместимости с другими плагинами)",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "Плагин не будет создавать папку вложений Obsidian. Это может привести к некорректной работе плагина.",
+    "Preserve link captions": "Сохранять подписи ссылок",
+    "Add media links captions to converted tags.": "Добавлять подписи медиа-ссылок к преобразованным тегам.",
+    "Include pattern": "Шаблон включения",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "Включать только файлы с расширениями, соответствующими этому шаблону. Пример: md|canvas",
+    "Remove files completely": "Удалять файлы полностью",
+    "Do not move orphaned files into the garbage can.": "Не перемещать осиротевшие файлы в корзину.",
+    "How to write paths in tags": "Как писать пути в тегах",
+    "Select whether to write full paths in tags or not.": "Выберите, писать ли полные пути в тегах или нет.",
+    "Date format": "Формат даты",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "Формат даты для переменной ${date}. Например:\n                  | MMMM Do YYYY, h:mm:ss a (20 марта 2024, 10:54:46) \n                  | dddd  (среда)\n                  | MMM Do YY  (мар 20 24)",
+    "Folder to save new attachments": "Папка для сохранения новых вложений",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "Выберите, куда будут сохраняться все новые вложения.\nМожно использовать шаблоны, например _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "Перемещать/удалять/переименовывать медиа-папку",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "Переименовать или переместить эту папку в корзину Obsidian или систему при удалении/переименовании/перемещении связанной заметки. \n                  Эта настройка работает только если путь содержит шаблон ${notename} в конце\n                  и выбраны опции 'Рядом с заметкой в указанной ниже папке' / 'Относительно заметки'.\n                  Используйте на свой страх и риск.",
+    "Media folder": "Медиа-папка",
+    "Folder to keep all downloaded media files.": "Папка для хранения всех скачанных медиа-файлов.",
+    Debug: "Отладка",
+    "Enable debug output to console.": "Включить вывод отладочной информации в консоль.",
+    "Interface settings": "Настройки интерфейса",
+    "Processing settings": "Настройки обработки",
+    "Note settings": "Настройки заметок",
+    "Orphaned attachments": "Осиротевшие вложения",
+    "Media folder settings": "Настройки медиа-папки",
+    Troubleshooting: "Устранение неполадок",
+    "The value should be a positive integer number between 5 and 3600!": "Значение должно быть положительным целым числом от 5 до 3600!",
+    "The value should be a positive integer number between 1 and 6!": "Значение должно быть положительным целым числом от 1 до 6!",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "Шаблон имени файла не может содержать разделители путей. Используйте 'Папку для сохранения новых вложений' для установки подпапок.",
+    "The value should be a positive integer number between 10 and 100!": "Значение должно быть положительным целым числом от 10 до 100!",
+    "The value should be a positive integer!": "Значение должно быть положительным целым числом!",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "Небезопасное регулярное выражение! https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "Небезопасное имя папки! Некоторые символы запрещены в некоторых файловых системах.",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "Полный путь",
+    "Relative to note": "Относительно заметки",
+    "Only filename": "Только имя файла",
+    "Copy Obsidian settings": "Копировать настройки Obsidian",
+    "In the root folder specified below": "В корневую папку, указанную ниже",
+    "Next to note in the folder specified below": "Рядом с заметкой в папке, указанной ниже",
+    "Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.": "Невозможно скопировать/загрузить вложение! Попробуйте добавить referer в frontmatter поле 'source'.",
+    "Attachments for '{p}' were processed.": "Вложения для '{p}' обработаны.",
+    "WARNING!\r\nAttachments for '{p}' were processed, but some attachments were not downloaded/replaced...": "ВНИМАНИЕ!\r\nВложения для '{p}' обработаны, но некоторые вложения не были загружены/заменены...",
+    "Page '{p}' has been processed, but nothing was changed.": "Страница '{p}' обработана, но ничего не изменилось.",
+    "Cannot get current note/canvas!": "Не удалось получить текущую заметку/холст!",
+    "The note/canvas file is not found! Try to save the file before running the command.": "Файл заметки/холста не найден! Попробуйте сохранить файл перед выполнением команды.",
+    "Media links were found, processing...": "Найдены медиа-ссылки, обрабатываю...",
+    "There were errors while processing files. Please, check the console for more details.": "Во время обработки файлов возникли ошибки. Проверьте консоль для получения подробной информации.",
+    "All files have been processed successfully. Let's check for orphaned files! (command: Find orphaned attachments)": "Все файлы успешно обработаны. Давайте проверим неиспользуемые вложения! (команда: Найти неиспользуемые вложения)",
+    "All attachments have been processed successfully.": "Все вложения успешно обработаны.",
+    "There were errors while processing some attachments. Please, check the console for more details.": "При обработке некоторых вложений возникли ошибки. Проверьте консоль для получения подробной информации.",
+    "No orphaned files found!": "Неиспользуемые файлы не найдены!",
+    "There were errors while finding orphaned files. Please, check the console for more details.": "При поиске неиспользуемых файлов возникли ошибки. Проверьте консоль для получения подробной информации.",
+    "Orphaned files were found. Check and remove them via the command: Find orphaned attachments": "Найдены неиспользуемые файлы. Проверьте и удалите их с помощью команды: Найти неиспользуемые вложения",
+    "{p} file(s) {p}": "{p} файл(ов) {p}",
+    "There were errors while removing orphaned files. Please, check the console for more details.": "При удалении неиспользуемых файлов возникли ошибки. Проверьте консоль для получения подробной информации.",
+    "Attachment folder name has been changed. Renaming notes is recommended (command: Rename notes in the current folder)!": "Имя папки вложений изменено. Рекомендуется переименовать заметки (команда: Переименовать заметки в текущей папке)!",
+    "The note was renamed to {p}": "Заметка переименована в {p}",
+    "Cannot rename.": "Невозможно переименовать.",
+    "Attachment folder was renamed to {p}": "Папка вложений переименована в {p}",
+    "Attachment folder {p} was moved to trash can.": "Папка вложений {p} перемещена в корзину.",
+    "Cannot get current note! ": "Не удалось получить текущую заметку! ",
+    "Cannot move attachment folder: \r\n{p}": "Не удалось переместить папку вложений: \r\n{p}",
+    "Frontmatter of '{p}' skipped (parse error)": "Frontmatter '{p}' пропущен (ошибка парсинга)",
+    "Image downloaded and linked in '{p}'.": "Изображение загружено и связано в '{p}'.",
+    "Please select a note or click inside selected note in canvas.": "Пожалуйста, выберите заметку или кликните внутри выбранной заметки в canvas.",
+    "Please, select a note or click inside a note in canvas!": "Пожалуйста, выберите заметку или кликните внутри заметки в canvas!",
+    "Remote image not found in '{p}' or it is already local.": "Удаленное изображение не найдено в '{p}' или оно уже локально.",
+    "Single image download failed: {p}": "Не удалось загрузить изображение: {p}",
+    "The attachment folder {p} does not exist!": "Папка вложений {p} не существует!",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "Эта команда не может выполняться в корне хранилища или в подпапке рядом с заметкой!\nПожалуйста, сначала измените настройки!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Эта команда требует настройки 'Рядом с заметкой в папке, указанной ниже' и шаблона '${notename}' в конце, также путь не может содержать шаблон ${date}.\nПожалуйста, сначала измените настройки!\r\n",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "Ваша папка медиа Obsidian установлена на {p} и создана плагином. Пожалуйста, попробуйте снова.",
+    "{p} attachments for note {p} were processed.": "{p} вложений для заметки {p} обработано.",
+};
+
+var pl = {
+    "Show notifications": "Pokaż powiadomienia",
+    "Show notifications when pages were processed.": "Pokaż powiadomienia po przetworzeniu stron.",
+    "Context menu: download single image": "Menu kontekstowe: pobierz pojedyncze zdjęcie",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "Pokaż 'Pobierz to zdjęcie' po kliknięciu prawym przyciskiem myszy na zdalnym obrazie w Podglądzie na żywo. Pobiera tylko to zdjęcie i zastępuje jego link.",
+    "Disable additional commands": "Wyłącz dodatkowe komendy",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "Nie pokazuj dodatkowych komend w palecie komend. Przeładuj wtyczkę w ustawieniach, aby changes weszły w życie (wyłącz/włącz).",
+    "Automatic processing": "Automatyczne przetwarzanie",
+    "Process notes on create/copy/paste.": "Przetwarzaj notatki przy tworzeniu/kopiowaniu/wklejaniu.",
+    "Process images in frontmatter": "Przetwarzaj obrazy we frontmatter",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Pobieraj i lokalizuj linki do obrazów w YAML frontmatter. Gdy wyłączone, blok frontmatter pozostaje nienaruszony (klucz 'source' nadal używany jako referer dla obrazów w treści).",
+    "Automatic processing interval": "Interwał automatycznego przetwarzania",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Interwał w sekundach do aktualizacji przetwarzania. Potrzeba trochę czasu, aby zmieniona treść notatki stała się dostępna dla wtyczek.",
+    "Number of retries for every single attachment": "Liczba prób dla każdego załącznika",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "Jeśli wystąpi błąd podczas pobierania (sieć itp.), spróbuj pobrać ponownie kilka razy.",
+    "Process all new markdown files": "Przetwarzaj wszystkie nowe pliki markdown",
+    "Process all new created/cloud-synced files with corresponding extensions.": "Przetwarzaj wszystkie nowe utworzone/pliki zsynchronizowane z chmurą z odpowiadającymi rozszerzeniami.",
+    "Process all new attachments": "Przetwarzaj wszystkie nowe załączniki",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "Wtyczka również przeniesie wszystkie załączniki z domyślnego folderu Obsidian do folderu wtyczki.",
+    "File name template": "Szablon nazwy pliku",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "Szablon nazw nowych załączników. Zmienne: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Domyślnie: ${md5}_MD5 (kompatybilność wsteczna). Przykłady: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Użyj 'Folder do zapisywania nowych załączników' dla podfolderów.",
+    "Use markdown link format with angle brackets ![](<link>)": "Użyj formatu linku markdown z nawiasami kątowymi ![](<link>)",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "Wymuś użycie formatu linku markdown z nawiasami kątowymi zamiast zakodowanego URI przy generowaniu linków.",
+    "Process Canvas files": "Przetwarzaj pliki Canvas",
+    "Process images in Obsidian Canvas (.canvas files)": "Przetwarzaj obrazy w Obsidian Canvas (pliki .canvas)",
+    "URL exclude regexps": "Wyrażenia regularne do wykluczania URL",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "Po jednym w linii: wyrażenia regularne do wykluczania URL podczas pobierania. Przykłady:\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "Pobieraj nieznane typy plików",
+    "Download unknown filetypes and save them with .unknown extension.": "Pobieraj nieznane typy plików i zapisuj je z rozszerzeniem .unknown.",
+    "Compress images (Web Images)": "Kompresuj obrazy (Obrazy z sieci)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "Kompresuj wszystkie pobrane obrazy. Może zmniejszyć rozmiar pliku kilka razy, ale może też wpłynąć na wydajność.",
+    "Compress images (Pasted Images)": "Kompresuj obrazy (Wklejone obrazy)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "Kompresuj wszystkie wklejone obrazy. Może zmniejszyć rozmiar pliku kilka razy, ale może też wpłynąć na wydajność.",
+    "Compression type": "Typ kompresji",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "Wybierz typ kompresji obrazów. Pamiętaj, że format webp ma ograniczenia rozmiaru obrazu.",
+    "Excluded folders": "Wykluczone foldery",
+    "Excluded folders. New files in these folders will not be processed automatically.": "Wykluczone foldery. Nowe pliki w tych folderach nie będą przetwarzane automatycznie.",
+    "Image Quality": "Jakość obrazu",
+    "Image quality selection (30 to 100).": "Wybór jakości obrazu (od 30 do 100).",
+    "File size lower limit in Kb": "Dolny limit rozmiaru pliku w KB",
+    "Do not download files with size less than this value. Set 0 for no limit.": "Nie pobieraj plików mniejszych niż ta wartość. Ustaw 0 dla braku limitu.",
+    Exclusions: "Wykluczenia",
+    "The plugin will not download attachments with these extensions.": "Wtyczka nie będzie pobierać załączników z tymi rozszerzeniami.",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "Nie twórz folderu załączników Obsidian (Dla kompatybilności z innymi wtyczkami)",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "Wtyczka nie utworzy folderu załączników Obsidian. Może to spowodować nieprawidłowe działanie wtyczki.",
+    "Preserve link captions": "Zachowaj podpisy linków",
+    "Add media links captions to converted tags.": "Dodaj podpisy linków multimedialnych do przekonwertowanych tagów.",
+    "Include pattern": "Wzór dołączania",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "Dołączaj tylko pliki z rozszerzeniami pasującymi do tego wzoru. Przykład: md|canvas",
+    "Remove files completely": "Usuwaj pliki całkowicie",
+    "Do not move orphaned files into the garbage can.": "Nie przenoś osieroconych plików do kosza.",
+    "How to write paths in tags": "Jak zapisywać ścieżki w tagach",
+    "Select whether to write full paths in tags or not.": "Wybierz, czy zapisywać pełne ścieżki w tagach, czy nie.",
+    "Date format": "Format daty",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "Format daty dla zmiennej ${date}. Np.\n                  | MMMM Do YYYY, h:mm:ss a (20 marca 2024, 10:54:46) \n                  | dddd  (środa)\n                  | MMM Do YY  (mar 20 24)",
+    "Folder to save new attachments": "Folder do zapisywania nowych załączników",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "Wybierz, gdzie będą zapisywane wszystkie nowe załączniki.\nMożesz używać szablonów np. _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "Przenieś/usuń/zmień nazwę folderu mediów",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "Zmień nazwę lub przenieś ten folder do kosza Obsidian lub systemowego, gdy skojarzona notatka zostanie usunięta/przeniesiona/zmieniona nazwa. \n                  To ustawienie działa tylko jeśli ścieżka zawiera szablon ${notename} na końcu\n                  i wybrano opcje 'Obok notatki w folderze poniżej' / 'Względem notatki'.\n                  Używaj na własne ryzyko.",
+    "Media folder": "Folder mediów",
+    "Folder to keep all downloaded media files.": "Folder do przechowywania wszystkich pobranych plików multimedialnych.",
+    Debug: "Debugowanie",
+    "Enable debug output to console.": "Włącz wyjście debugowania do konsoli.",
+    "Interface settings": "Ustawienia interfejsu",
+    "Processing settings": "Ustawienia przetwarzania",
+    "Note settings": "Ustawienia notatek",
+    "Orphaned attachments": "Osierocone załączniki",
+    "Media folder settings": "Ustawienia folderu mediów",
+    Troubleshooting: "Rozwiązywanie problemów",
+    "The value should be a positive integer number between 5 and 3600!": "Wartość musi być dodatnią liczbą całkowitą z przedziału 5 do 3600!",
+    "The value should be a positive integer number between 1 and 6!": "Wartość musi być dodatnią liczbą całkowitą z przedziału 1 do 6!",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "Szablon nazwy pliku nie może zawierać separatorów ścieżek. Użyj 'Folderu do zapisywania nowych załączników' do ustawienia podfolderów.",
+    "The value should be a positive integer number between 10 and 100!": "Wartość musi być dodatnią liczbą całkowitą z przedziału 10 do 100!",
+    "The value should be a positive integer!": "Wartość musi być dodatnią liczbą całkowitą!",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "Niebezpieczne wyrażenie regularne! https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "Niebezpieczna nazwa folderu! Niektóre znaki są zabronione w niektórych systemach plików.",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "Pełna ścieżka",
+    "Relative to note": "Względem notatki",
+    "Only filename": "Tylko nazwa pliku",
+    "Copy Obsidian settings": "Skopiuj ustawienia Obsidian",
+    "In the root folder specified below": "W folderze głównym podanym poniżej",
+    "Next to note in the folder specified below": "Obok notatki w folderze podanym poniżej",
+    "Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.": "Nie można skopiować/pobrać załącznika! Spróbuj dodać referer w polu 'source' frontmatter.",
+    "{p} file(s) {p}": "{p} plik(ów) {p}",
+    "{p} attachments for note {p}": "{p} załączników dla notatki {p}",
+    "Frontmatter of '{p}' skipped (parse error)": "Pominięto frontmatter '{p}' (błąd parsowania)",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "Folder mediów Obsidian ustawiony na {p} został utworzony przez wtyczkę. Spróbuj ponownie.",
+    "You obsidian media folder set to {p}, and has been changed to {p}. Please, note that the plugin settings might need to be updated.": "Folder mediów Obsidian ustawiony na {p} został zmieniony na {p}. Konieczna może być aktualizacja ustawień wtyczki.",
+    "Attachment folder was renamed to {p}": "Folder załączników został zmieniony na {p}",
+    "Attachment folder {p} was moved to trash can.": "Folder załączników {p} został przeniesiony do kosza.",
+    "Attachments for '{p}' were processed.": "Załączniki dla '{p}' zostały przetworzone.",
+    "Cannot get current note! ": "Nie można pobrać bieżącej notatki! ",
+    "Cannot get current note/canvas!": "Nie można pobrać bieżącej notatki/canvas!",
+    "Cannot move attachment folder: \r\n{p}": "Nie można przenieść folderu załączników: \r\n{p}",
+    "Cannot rename.": "Nie można zmienić nazwy.",
+    "Image downloaded and linked in '{p}'.": "Obraz pobrany i połączony w '{p}'.",
+    "Media links were found, processing...": "Znaleziono linki multimedialne, przetwarzanie...",
+    "No orphaned files found!": "Nie znaleziono plików osieroconych!",
+    "Page '{p}' has been processed, but nothing was changed.": "Strona '{p}' została przetworzona, ale nic nie zmieniło się.",
+    "Please select a note or click inside selected note in canvas.": "Proszę wybrać notatkę lub kliknąć wewnątrz wybranej notatki w canvas.",
+    "Please, select a note or click inside a note in canvas!": "Proszę wybrać notatkę lub kliknąć wewnątrz notatki w canvas!",
+    "Remote image not found in '{p}' or it is already local.": "Obraz zdalny nie znaleziony w '{p}' lub jest już lokalny.",
+    "Single image download failed: {p}": "Pobieranie pojedynczego obrazu nie powiodło się: {p}",
+    "The attachment folder {p} does not exist!": "Folder załączników {p} nie istnieje!",
+    "The note was renamed to {p}": "Notatka została zmieniona na {p}",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "To polecenie nie może działać w głównym folderze vault ani w podfolderze obok notatki!\nProszę najpierw zmienić ustawienia!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "To polecenie wymaga ustawień 'Obok notatki w folderze określonym poniżej' i wzorca '${notename}' na końcu włączonego, ścieżka również nie może zawierać wzorca ${date}.\nProszę najpierw zmienić ustawienia!\r\n",
+    "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "OSTRZEŻENIE!\r\nZałączniki dla \'{p}\' zostały przetworzone, ale niektóre załączniki nie zostały pobrane/zastąpione...",
+    "{p} attachments for note {p} were processed.": "{p} załączników dla notatki {p} przetworzono.",
+};
+
+var de = {
+    "Show notifications": "Benachrichtigungen anzeigen",
+    "Show notifications when pages were processed.": "Benachrichtigungen anzeigen, wenn Seiten verarbeitet wurden.",
+    "Context menu: download single image": "Kontextmenü: Einzelnes Bild herunterladen",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "„Dieses Bild herunterladen“ anzeigen, wenn mit der rechten Maustaste auf ein externes Bild in der Live-Vorschau geklickt wird. Lädt nur dieses Bild herunter und ersetzt seinen Link.",
+    "Disable additional commands": "Zusätzliche Befehle deaktivieren",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "Zusätzliche Befehle nicht in der Befehlspalette anzeigen. Plugin in den Einstellungen neu laden, damit die Änderung wirksam wird (aus/ein).",
+    "Automatic processing": "Automatische Verarbeitung",
+    "Process notes on create/copy/paste.": "Notizen beim Erstellen/Kopieren/Einfügen verarbeiten.",
+    "Process images in frontmatter": "Bilder im Frontmatter verarbeiten",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Bildlinks im YAML-Frontmatter herunterladen und lokalisieren. Wenn deaktiviert, bleibt der Frontmatter-Block unberührt (der 'source'-Schlüssel wird weiterhin als Referrer für Körperbilder verwendet).",
+    "Automatic processing interval": "Intervall der automatischen Verarbeitung",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Intervall in Sekunden für die Verarbeitungsaktualisierung. Es dauert etwas, bis geänderte Notiz-Inhalte für Plugins sichtbar sind.",
+    "Number of retries for every single attachment": "Anzahl Wiederholungen für jeden einzelnen Anhang",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "Wenn ein Fehler beim Herunterladen auftritt (Netzwerk etc.), mehrmals neu herunterladen versuchen.",
+    "Process all new markdown files": "Alle neuen Markdown-Dateien verarbeiten",
+    "Process all new created/cloud-synced files with corresponding extensions.": "Alle neu erstellten/cloud-synchronisierten Dateien mit entsprechenden Erweiterungen verarbeiten.",
+    "Process all new attachments": "Alle neuen Anhänge verarbeiten",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "Das Plugin verschiebt auch alle Anhänge vom standardmäßigen Obsidian-Ordner in den Plugin-Ordner.",
+    "File name template": "Dateinamen-Vorlage",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "Vorlage für neue Anhangsnamen. Variablen: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Standard: ${md5}_MD5 (rückwärtskompatibel). Beispiele: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. „Ordner für neue Anhänge“ für Unterordner verwenden.",
+    "Use markdown link format with angle brackets ![](<link>)": "Markdown-Link-Format mit spitzen Klammern ![](<link>) verwenden",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "Erzwinge Verwendung des Markdown-Link-Formats mit spitzen Klammern statt kodiertem URI beim Generieren von Links.",
+    "Process Canvas files": "Canvas-Dateien verarbeiten",
+    "Process images in Obsidian Canvas (.canvas files)": "Bilder in Obsidian Canvas (.canvas-Dateien) verarbeiten",
+    "URL exclude regexps": "URL-Ausschluss-Regex",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "Eins pro Zeile: Regex zum Ausschließen von URLs beim Herunterladen. Beispiele:\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "Unbekannte Dateitypen herunterladen",
+    "Download unknown filetypes and save them with .unknown extension.": "Unbekannte Dateitypen herunterladen und mit .unknown-Erweiterung speichern.",
+    "Compress images (Web Images)": "Bilder komprimieren (Web-Bilder)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "Alle heruntergeladenen Bilder komprimieren. Kann Dateigröße um ein Vielfaches verringern, aber auch Leistung beeinträchtigen.",
+    "Compress images (Pasted Images)": "Bilder komprimieren (Eingefügte Bilder)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "Alle eingefügten Bilder komprimieren. Kann Dateigröße um ein Vielfaches verringern, aber auch Leistung beeinträchtigen.",
+    "Compression type": "Komprimierungstyp",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "Bildkomprimierungstyp wählen. Beachten Sie, dass das WebP-Format Bildgrößenbeschränkungen hat.",
+    "Excluded folders": "Ausgeschlossene Ordner",
+    "Excluded folders. New files in these folders will not be processed automatically.": "Ausgeschlossene Ordner. Neue Dateien in diesen Ordnern werden nicht automatisch verarbeitet.",
+    "Image Quality": "Bildqualität",
+    "Image quality selection (30 to 100).": "Bildqualität-Auswahl (30 bis 100).",
+    "File size lower limit in Kb": "Untere Dateigrößen-Grenze in KB",
+    "Do not download files with size less than this value. Set 0 for no limit.": "Keine Dateien kleiner als diesen Wert herunterladen. 0 für kein Limit.",
+    Exclusions: "Ausschlüsse",
+    "The plugin will not download attachments with these extensions.": "Das Plugin lädt keine Anhänge mit diesen Erweiterungen herunter.",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "Keinen Obsidian-Anhang-Ordner erstellen (Für Kompatibilität mit anderen Plugins)",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "Das Plugin erstellt keinen Obsidian-Anhang-Ordner. Dies kann dazu führen, dass das Plugin fehlerhaft funktioniert.",
+    "Preserve link captions": "Link-Untertitel beibehalten",
+    "Add media links captions to converted tags.": "Medien-Link-Untertitel zu konvertierten Tags hinzufügen.",
+    "Include pattern": "Einschluss-Muster",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "Nur Dateien mit Erweiterungen einschließen, die diesem Muster entsprechen. Beispiel: md|canvas",
+    "Remove files completely": "Dateien vollständig entfernen",
+    "Do not move orphaned files into the garbage can.": "Verwaiste Dateien nicht in den Papierkorb verschieben.",
+    "How to write paths in tags": "Wie Pfade in Tags geschrieben werden",
+    "Select whether to write full paths in tags or not.": "Wählen Sie, ob vollständige Pfade in Tags geschrieben werden sollen oder nicht.",
+    "Date format": "Datumsformat",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "Datumsformat für die ${date}-Variable. Z. B.\n                  | MMMM Do YYYY, h:mm:ss a (20. März 2024, 10:54:46) \n                  | dddd  (Mittwoch)\n                  | MMM Do YY  (Mär 20 24)",
+    "Folder to save new attachments": "Ordner zum Speichern neuer Anhänge",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "Wählen Sie, wo alle neuen Anhänge gespeichert werden.\nSie können Vorlagen verwenden z. B. _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "Medienordner verschieben/löschen/umbenennen",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "Diesen Ordner in den Obsidian- oder System-Papierkorb umbenennen/verschieben, wenn die verknüpfte Notiz gelöscht/umbenannt/verschoben wird. \n                  Diese Einstellung wirkt nur, wenn der Pfad die ${notename}-Vorlage am Ende enthält\n                  und die Optionen „Neben Notiz im unten angegebenen Ordner“ / „Relativ zur Notiz“ ausgewählt sind.\n                  Auf eigene Gefahr verwenden.",
+    "Media folder": "Medienordner",
+    "Folder to keep all downloaded media files.": "Ordner für alle heruntergeladenen Mediendateien.",
+    Debug: "Debug",
+    "Enable debug output to console.": "Debug-Ausgabe in der Konsole aktivieren.",
+    "Interface settings": "Oberflächeneinstellungen",
+    "Processing settings": "Verarbeitungseinstellungen",
+    "Note settings": "Notiz-Einstellungen",
+    "Orphaned attachments": "Veraiste Anhänge",
+    "Media folder settings": "Medienordner-Einstellungen",
+    Troubleshooting: "Fehlerbehebung",
+    "The value should be a positive integer number between 5 and 3600!": "Der Wert muss eine positive Ganzzahl zwischen 5 und 3600 sein!",
+    "The value should be a positive integer number between 1 and 6!": "Der Wert muss eine positive Ganzzahl zwischen 1 und 6 sein!",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "Dateinamenvorlage darf keine Pfadtrennzeichen enthalten. Verwenden Sie „Ordner für neue Anhänge“ für Unterordner.",
+    "The value should be a positive integer number between 10 and 100!": "Der Wert muss eine positive Ganzzahl zwischen 10 und 100 sein!",
+    "The value should be a positive integer!": "Der Wert muss eine positive Ganzzahl sein!",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "Unsicherer Regex! https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "Unsicherer Ordnername! Einige Zeichen sind in manchen Dateisystemen verboten.",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "Vollständiger Pfad",
+    "Relative to note": "Relativ zur Notiz",
+    "Only filename": "Nur Dateiname",
+    "Copy Obsidian settings": "Obsidian-Einstellungen kopieren",
+    "In the root folder specified below": "Im unten angegebenen Stammordner",
+    "Next to note in the folder specified below": "Neben Notiz im unten angegebenen Ordner",
+    "Attachment folder was renamed to {p}": "Anhängeordner wurde in {p} umbenannt",
+    "Attachment folder {p} was moved to trash can.": "Anhängeordner {p} wurde in den Papierkorb verschoben.",
+    "Attachments for '{p}' were processed.": "Anhänge für '{p}' wurden verarbeitet.",
+    "Cannot get current note! ": "Aktuelle Notiz kann nicht ermittelt werden! ",
+    "Cannot get current note/canvas!": "Aktuelle Notiz/Canvas kann nicht ermittelt werden!",
+    "Cannot move attachment folder: \r\n{p}": "Anhängeordner kann nicht verschoben werden: \r\n{p}",
+    "Cannot rename.": "Kann nicht umbenannt werden.",
+    "Frontmatter of '{p}' skipped (parse error)": "Frontmatter von '{p}' übersprungen (Parse-Fehler)",
+    "Image downloaded and linked in '{p}'.": "Bild heruntergeladen und in '{p}' verlinkt.",
+    "Media links were found, processing...": "Medienlinks gefunden, wird verarbeitet...",
+    "No orphaned files found!": "Keine verwaiste Dateien gefunden!",
+    "Page '{p}' has been processed, but nothing was changed.": "Seite '{p}' wurde verarbeitet, aber nichts hat sich geändert.",
+    "Please select a note or click inside selected note in canvas.": "Bitte wählen Sie eine Notiz oder klicken Sie in eine ausgewählte Notiz im Canvas.",
+    "Please, select a note or click inside a note in canvas!": "Bitte wählen Sie eine Notiz oder klicken Sie in eine Notiz im Canvas!",
+    "Remote image not found in '{p}' or it is already local.": "Remote-Bild in '{p}' nicht gefunden oder bereits lokal.",
+    "Single image download failed: {p}": "Einzelner Bild-Download fehlgeschlagen: {p}",
+    "The attachment folder {p} does not exist!": "Der Anhängeordner {p} existiert nicht!",
+    "The note was renamed to {p}": "Die Notiz wurde in {p} umbenannt",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "Dieser Befehl kann nicht im Vault-Stammverzeichnis oder in einem Unterordner neben der Notiz ausgeführt werden!\nBitte ändern Sie zuerst die Einstellungen!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Dieser Befehl erfordert die Einstellungen 'Neben Notiz im unten angegebenen Ordner' und das Muster '${notename}' am Ende aktiviert, der Pfad darf auch kein ${date}-Muster enthalten.\nBitte ändern Sie zuerst die Einstellungen!\r\n",
+    "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "WARNUNG!\r\nAnhänge für \'{p}\' wurden verarbeitet, aber einige Anhänge wurden nicht heruntergeladen/ersetzt...",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "Ihr Obsidian-Medienordner ist auf {p} gesetzt und wurde vom Plugin erstellt. Bitte versuchen Sie es erneut.",
+    "{p} attachments for note {p} were processed.": "{p} Anhänge für Notiz {p} wurden verarbeitet.",
+    "{p} file(s) {p}": "{p} Datei(en) {p}",
+};
+
+var fr = {
+    "Show notifications": "Afficher les notifications",
+    "Show notifications when pages were processed.": "Afficher les notifications lorsque les pages ont été traitées.",
+    "Context menu: download single image": "Menu contextuel : télécharger une seule image",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "Afficher 'Télécharger cette image' lors du clic droit sur une image distante dans l'aperçu en direct. Télécharge uniquement cette image et remplace son lien.",
+    "Disable additional commands": "Désactiver les commandes supplémentaires",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "Ne pas afficher les commandes supplémentaires dans la palette de commandes. Rechargez le plugin dans les paramètres pour que cela prenne effet (désactiver/réactiver).",
+    "Automatic processing": "Traitement automatique",
+    "Process notes on create/copy/paste.": "Traiter les notes lors de la création/copie/collage.",
+    "Process images in frontmatter": "Traiter les images dans le frontmatter",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Télécharger et localiser les liens d'images dans le frontmatter YAML. Lorsque désactivé, le bloc frontmatter reste intact (la clé 'source' est toujours utilisée comme référent pour les images du corps).",
+    "Automatic processing interval": "Intervalle de traitement automatique",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Intervalle en secondes pour la mise à jour du traitement. Il faut un certain temps pour révéler le contenu modifié d'une note aux plugins.",
+    "Number of retries for every single attachment": "Nombre de tentatives pour chaque pièce jointe",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "Si une erreur se produit pendant le téléchargement (réseau, etc.), essayer de re-télécharger plusieurs fois.",
+    "Process all new markdown files": "Traiter tous les nouveaux fichiers markdown",
+    "Process all new created/cloud-synced files with corresponding extensions.": "Traiter tous les fichiers nouvellement créés/synchronisés dans le cloud avec les extensions correspondantes.",
+    "Process all new attachments": "Traiter toutes les nouvelles pièces jointes",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "Le plugin déplacera également toutes les pièces jointes du dossier par défaut d'Obsidian vers le dossier du plugin.",
+    "File name template": "Modèle de nom de fichier",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "Modèle pour les noms des nouvelles pièces jointes. Variables : ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Défaut : ${md5}_MD5 (compatible avec les versions antérieures). Exemples : ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Utilisez 'Dossier pour sauvegarder les nouvelles pièces jointes' pour les sous-dossiers.",
+    "Use markdown link format with angle brackets ![](<link>)": "Utiliser le format de lien markdown avec crochets ![](<link>)",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "Forcer l'utilisation du format de lien markdown avec crochets au lieu d'URI encodé lors de la génération des liens.",
+    "Process Canvas files": "Traiter les fichiers Canvas",
+    "Process images in Obsidian Canvas (.canvas files)": "Traiter les images dans Obsidian Canvas (fichiers .canvas)",
+    "URL exclude regexps": "Expressions régulières d'exclusion d'URL",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "Une par ligne : expressions régulières pour exclure les URLs lors du téléchargement. Exemples :\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "Télécharger les types de fichiers inconnus",
+    "Download unknown filetypes and save them with .unknown extension.": "Télécharger les types de fichiers inconnus et les enregistrer avec l'extension .unknown.",
+    "Compress images (Web Images)": "Compresser les images (Images Web)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "Compresser toutes les images téléchargées. Peut réduire la taille du fichier de plusieurs fois, mais peut aussi affecter les performances.",
+    "Compress images (Pasted Images)": "Compresser les images (Images collées)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "Compresser toutes les images collées. Peut réduire la taille du fichier de plusieurs fois, mais peut aussi affecter les performances.",
+    "Compression type": "Type de compression",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "Sélectionner le type de compression d'image. Gardez à l'esprit que le format webp a des limitations de taille d'image.",
+    "Excluded folders": "Dossiers exclus",
+    "Excluded folders. New files in these folders will not be processed automatically.": "Dossiers exclus. Les nouveaux fichiers dans ces dossiers ne seront pas traités automatiquement.",
+    "Image Quality": "Qualité d'image",
+    "Image quality selection (30 to 100).": "Sélection de la qualité d'image (30 à 100).",
+    "File size lower limit in Kb": "Limite inférieure de taille de fichier en Ko",
+    "Do not download files with size less than this value. Set 0 for no limit.": "Ne pas télécharger les fichiers dont la taille est inférieure à cette valeur. Mettre 0 pour aucune limite.",
+    Exclusions: "Exclusions",
+    "The plugin will not download attachments with these extensions.": "Le plugin ne téléchargera pas les pièces jointes avec ces extensions.",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "Ne pas créer le dossier de pièces jointes Obsidian (Pour compatibilité avec d'autres plugins)",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "Le plugin ne créera pas de dossier de pièces jointes Obsidian. Cela peut provoquer un comportement incorrect du plugin.",
+    "Preserve link captions": "Conserver les légendes des liens",
+    "Add media links captions to converted tags.": "Ajouter les légendes des liens médias aux balises converties.",
+    "Include pattern": "Modèle d'inclusion",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "Inclure uniquement les fichiers avec extensions correspondant à ce modèle. Exemple : md|canvas",
+    "Remove files completely": "Supprimer les fichiers complètement",
+    "Do not move orphaned files into the garbage can.": "Ne pas déplacer les fichiers orphelins dans la corbeille.",
+    "How to write paths in tags": "Comment écrire les chemins dans les tags",
+    "Select whether to write full paths in tags or not.": "Sélectionner si les chemins complets doivent être écrits dans les tags ou non.",
+    "Date format": "Format de date",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "Format de date pour la variable ${date}. Ex. :\n                  | MMMM Do YYYY, h:mm:ss a (20 mars 2024, 10:54:46) \n                  | dddd  (mercredi)\n                  | MMM Do YY  (mar 20 24)",
+    "Folder to save new attachments": "Dossier pour sauvegarder les nouvelles pièces jointes",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "Sélectionner où toutes les nouvelles pièces jointes seront sauvegardées.\nVous pouvez utiliser des modèles, par ex. _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "Déplacer/supprimer/renommer le dossier média",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "Renommer ou déplacer ce dossier dans la corbeille Obsidian ou système lorsque la note associée est supprimée/renommée/déplacée. \n                  Ce paramètre ne prend effet que si le chemin contient le modèle ${notename} à la fin\n                  et que les options 'À côté de la note dans le dossier spécifié ci-dessous' / 'Relatif à la note' sont sélectionnées.\n                  Utilisez ce paramètre à vos propres risques.",
+    "Media folder": "Dossier média",
+    "Folder to keep all downloaded media files.": "Dossier pour conserver tous les fichiers média téléchargés.",
+    Debug: "Débogage",
+    "Enable debug output to console.": "Activer la sortie de débogage dans la console.",
+    "Interface settings": "Paramètres de l'interface",
+    "Processing settings": "Paramètres de traitement",
+    "Note settings": "Paramètres des notes",
+    "Orphaned attachments": "Pièces jointes orphelines",
+    "Media folder settings": "Paramètres du dossier média",
+    Troubleshooting: "Dépannage",
+    "The value should be a positive integer number between 5 and 3600!": "La valeur doit être un entier positif entre 5 et 3600 !",
+    "The value should be a positive integer number between 1 and 6!": "La valeur doit être un entier positif entre 1 et 6 !",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "Le modèle de nom de fichier ne peut pas contenir de séparateurs de chemin. Utilisez 'Dossier pour sauvegarder les nouvelles pièces jointes' pour définir les sous-dossiers.",
+    "The value should be a positive integer number between 10 and 100!": "La valeur doit être un entier positif entre 10 et 100 !",
+    "The value should be a positive integer!": "La valeur doit être un entier positif !",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "Regex non sécurisé ! https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "Nom de dossier non sécurisé ! Certains caractères sont interdits dans certains systèmes de fichiers.",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "Chemin complet",
+    "Relative to note": "Relatif à la note",
+    "Only filename": "Nom de fichier seulement",
+    "Copy Obsidian settings": "Copier les paramètres Obsidian",
+    "In the root folder specified below": "Dans le dossier racine spécifié ci-dessous",
+    "Next to note in the folder specified below": "À côté de la note dans le dossier spécifié ci-dessous",
+    "Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.": "Impossible de copier/télécharger une pièce jointe ! Essayez d'ajouter un referer dans le champ 'source' du frontmatter.",
+    "{p} file(s) {p}": "{p} fichier(s) {p}",
+    "{p} attachments for note {p}": "{p} pièces jointes pour la note {p}",
+    "Frontmatter of '{p}' skipped (parse error)": "Frontmatter de '{p}' ignoré (erreur d'analyse)",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "Le dossier média Obsidian défini sur {p} a été créé par le plugin. Veuillez réessayer.",
+    "You obsidian media folder set to {p}, and has been changed to {p}. Please, note that the plugin settings might need to be updated.": "Le dossier média Obsidian défini sur {p} a été modifié en {p}. Veuillez noter que les paramètres du plugin peuvent devoir être mis à jour.",
+    "Attachment folder was renamed to {p}": "Le dossier des pièces jointes a été renommé en {p}",
+    "Attachment folder {p} was moved to trash can.": "Le dossier des pièces jointes {p} a été déplacé dans la corbeille.",
+    "Attachments for '{p}' were processed.": "Les pièces jointes pour '{p}' ont été traitées.",
+    "Cannot get current note! ": "Impossible d'obtenir la note actuelle! ",
+    "Cannot get current note/canvas!": "Impossible d\'obtenir la note/canvas actuelle!",
+    "Cannot move attachment folder: \r\n{p}": "Impossible de déplacer le dossier des pièces jointes: \r\n{p}",
+    "Cannot rename.": "Impossible de renommer.",
+    "Image downloaded and linked in '{p}'.": "Image téléchargée et liée dans '{p}'.",
+    "Media links were found, processing...": "Liens multimédias trouvés, traitement en cours...",
+    "No orphaned files found!": "Aucun fichier orphelin trouvé!",
+    "Page '{p}' has been processed, but nothing was changed.": "La page '{p}' a été traitée, mais rien n'a changé.",
+    "Please select a note or click inside selected note in canvas.": "Veuillez sélectionner une note ou cliquer dans la note sélectionnée dans canvas.",
+    "Please, select a note or click inside a note in canvas!": "Veuillez sélectionner une note ou cliquer dans une note dans canvas!",
+    "Remote image not found in '{p}' or it is already local.": "Image distante non trouvée dans '{p}' ou déjà locale.",
+    "Single image download failed: {p}": "Échec du téléchargement d'une image: {p}",
+    "The attachment folder {p} does not exist!": "Le dossier des pièces jointes {p} n'existe pas!",
+    "The note was renamed to {p}": "La note a été renommée en {p}",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "Cette commande ne peut pas s'exécuter à la racine du vault ou dans un sous-dossier à côté de la note!\nVeuillez d'abord modifier les paramètres!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Cette commande nécessite les paramètres 'À côté de la note dans le dossier spécifié ci-dessous' et le motif '${notename}' à la fin activé, aussi le chemin ne peut pas contenir le motif ${date}.\nVeuillez d'abord modifier les paramètres!\r\n",
+    "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "ATTENTION!\r\nLes pièces jointes pour \'{p}\' ont été traitées, mais certaines pièces jointes n'ont pas été téléchargées/remplacées...",
+    "{p} attachments for note {p} were processed.": "{p} pièces jointes pour la note {p} ont été traitées.",
+};
+
+var es = {
+    "Show notifications": "Mostrar notificaciones",
+    "Show notifications when pages were processed.": "Mostrar notificaciones cuando se procesaron las páginas.",
+    "Context menu: download single image": "Menú contextual: descargar imagen individual",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "Mostrar 'Descargar esta imagen' al hacer clic derecho en una imagen remota en Vista Previa. Descarga solo esa imagen y reemplaza su enlace.",
+    "Disable additional commands": "Deshabilitar comandos adicionales",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "No mostrar comandos adicionales en la paleta de comandos. Recargue el plugin en la configuración para que surta efecto (apagar/encender).",
+    "Automatic processing": "Procesamiento automático",
+    "Process notes on create/copy/paste.": "Procesar notas al crear/copiar/pegar.",
+    "Process images in frontmatter": "Procesar imágenes en frontmatter",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Descargar y localizar enlaces de imágenes en el frontmatter YAML. Cuando está desactivado, el bloque frontmatter queda intacto (la clave 'source' se sigue usando como referer para imágenes del cuerpo).",
+    "Automatic processing interval": "Intervalo de procesamiento automático",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Intervalo en segundos para actualización de procesamiento. Toma tiempo revelar el contenido cambiado de una nota a los plugins.",
+    "Number of retries for every single attachment": "Número de reintentos para cada adjunto",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "Si ocurre un error durante la descarga (red, etc.) intentar re-descargar varias veces.",
+    "Process all new markdown files": "Procesar todos los nuevos archivos markdown",
+    "Process all new created/cloud-synced files with corresponding extensions.": "Procesar todos los archivos nuevos creados/sincronizados en la nube con extensiones correspondientes.",
+    "Process all new attachments": "Procesar todos los nuevos adjuntos",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "El plugin también moverá todos los adjuntos de la carpeta predeterminada de Obsidian a la carpeta del plugin.",
+    "File name template": "Plantilla de nombre de archivo",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "Plantilla para nombres de nuevos adjuntos. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Por defecto: ${md5}_MD5 (compatible hacia atrás). Ejemplos: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Carpeta para guardar nuevos adjuntos' para subcarpetas.",
+    "Use markdown link format with angle brackets ![](<link>)": "Usar formato de enlace markdown con corchetes angulares ![](<link>)",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "Forzar el uso de formato de enlace markdown con corchetes angulares en lugar de URI codificado al generar enlaces.",
+    "Process Canvas files": "Procesar archivos Canvas",
+    "Process images in Obsidian Canvas (.canvas files)": "Procesar imágenes en Obsidian Canvas (archivos .canvas)",
+    "URL exclude regexps": "Expresiones regulares para excluir URLs",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "Una por línea: expresiones regulares para excluir URLs al descargar. Ejemplos:\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "Descargar tipos de archivo desconocidos",
+    "Download unknown filetypes and save them with .unknown extension.": "Descargar tipos de archivo desconocidos y guardarlos con extensión .unknown.",
+    "Compress images (Web Images)": "Comprimir imágenes (Imágenes Web)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "Comprimir todas las imágenes descargadas. Puede reducir el tamaño del archivo varias veces, pero también puede afectar el rendimiento.",
+    "Compress images (Pasted Images)": "Comprimir imágenes (Imágenes pegadas)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "Comprimir todas las imágenes pegadas. Puede reducir el tamaño del archivo varias veces, pero también puede afectar el rendimiento.",
+    "Compression type": "Tipo de compresión",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "Seleccionar tipo de compresión de imagen. Tenga en cuenta que el formato webp tiene limitaciones de tamaño de imagen.",
+    "Excluded folders": "Carpetas excluidas",
+    "Excluded folders. New files in these folders will not be processed automatically.": "Carpetas excluidas. Los nuevos archivos en estas carpetas no se procesarán automáticamente.",
+    "Image Quality": "Calidad de imagen",
+    "Image quality selection (30 to 100).": "Selección de calidad de imagen (30 a 100).",
+    "File size lower limit in Kb": "Límite inferior de tamaño de archivo en KB",
+    "Do not download files with size less than this value. Set 0 for no limit.": "No descargar archivos con tamaño menor a este valor. Establezca 0 para sin límite.",
+    Exclusions: "Exclusiones",
+    "The plugin will not download attachments with these extensions.": "El plugin no descargará adjuntos con estas extensiones.",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "No crear carpeta de adjuntos Obsidian (Para compatibilidad con otros plugins)",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "El plugin no creará una carpeta de adjuntos Obsidian. Esto puede causar que el plugin se comporte incorrectamente.",
+    "Preserve link captions": "Conservar leyendas de enlaces",
+    "Add media links captions to converted tags.": "Añadir leyendas de enlaces multimedia a etiquetas convertidas.",
+    "Include pattern": "Patrón de inclusión",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "Incluir solo archivos con extensiones que coincidan con este patrón. Ejemplo: md|canvas",
+    "Remove files completely": "Eliminar archivos completamente",
+    "Do not move orphaned files into the garbage can.": "No mover archivos huérfanos a la papelera.",
+    "How to write paths in tags": "Cómo escribir rutas en etiquetas",
+    "Select whether to write full paths in tags or not.": "Seleccionar si escribir rutas completas en etiquetas o no.",
+    "Date format": "Formato de fecha",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "Formato de fecha para la variable ${date}. Ej. :\n                  | MMMM Do YYYY, h:mm:ss a (20 de marzo 2024, 10:54:46) \n                  | dddd  (miércoles)\n                  | MMM Do YY  (mar 20 24)",
+    "Folder to save new attachments": "Carpeta para guardar nuevos adjuntos",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "Seleccionar dónde se guardarán todos los nuevos adjuntos.\nPuede usar plantillas ej. _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "Mover/eliminar/renombrar carpeta multimedia",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "Renombrar o mover esta carpeta a la papelera de Obsidian o del sistema cuando la nota asociada se elimina/renombra/mueve. \n                  Este ajuste surte efecto solo si la ruta contiene la plantilla ${notename} al final\n                  y las opciones 'Junto a la nota en la carpeta especificada abajo' / 'Relativo a la nota' están seleccionadas.\n                  Use este ajuste bajo su propio riesgo.",
+    "Media folder": "Carpeta multimedia",
+    "Folder to keep all downloaded media files.": "Carpeta para mantener todos los archivos multimedia descargados.",
+    Debug: "Depuración",
+    "Enable debug output to console.": "Habilitar salida de depuración a consola.",
+    "Interface settings": "Configuración de interfaz",
+    "Processing settings": "Configuración de procesamiento",
+    "Note settings": "Configuración de notas",
+    "Orphaned attachments": "Adjuntos huérfanos",
+    "Media folder settings": "Configuración de carpeta multimedia",
+    Troubleshooting: "Resolución de problemas",
+    "The value should be a positive integer number between 5 and 3600!": "El valor debe ser un número entero positivo entre 5 y 3600!",
+    "The value should be a positive integer number between 1 and 6!": "El valor debe ser un número entero positivo entre 1 y 6!",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "La plantilla de nombre de archivo no puede contener separadores de ruta. Use 'Carpeta para guardar nuevos adjuntos' para establecer subcarpetas.",
+    "The value should be a positive integer number between 10 and 100!": "El valor debe ser un número entero positivo entre 10 y 100!",
+    "The value should be a positive integer!": "El valor debe ser un número entero positivo!",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "¡Regex inseguro! https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "¡Nombre de carpeta inseguro! Algunos caracteres están prohibidos en algunos sistemas de archivos.",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "Ruta completa",
+    "Relative to note": "Relativo a la nota",
+    "Only filename": "Solo nombre de archivo",
+    "Copy Obsidian settings": "Copiar configuración Obsidian",
+    "In the root folder specified below": "En la carpeta raíz especificada abajo",
+    "Next to note in the folder specified below": "Junto a la nota en la carpeta especificada abajo",
+    "Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.": "¡No se puede copiar/descargar el adjunto! Intente agregar referer en el campo 'source' del frontmatter.",
+    "{p} file(s) {p}": "{p} archivo(s) {p}",
+    "{p} attachments for note {p}": "{p} adjuntos para la nota {p}",
+    "Frontmatter of '{p}' skipped (parse error)": "Se omitió el frontmatter de '{p}' (error de análisis)",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "Tu carpeta multimedia de Obsidian está establecida en {p} y fue creada por el plugin. Por favor, inténtalo de nuevo.",
+    "You obsidian media folder set to {p}, and has been changed to {p}. Please, note that the plugin settings might need to be updated.": "La carpeta multimedia de Obsidian establecida en {p} ha cambiado a {p}. Es posible que sea necesario actualizar la configuración del plugin.",
+    "Attachment folder was renamed to {p}": "La carpeta de adjuntos fue renombrada a {p}",
+    "Attachment folder {p} was moved to trash can.": "La carpeta de adjuntos {p} fue movida a la papelera.",
+    "Attachments for '{p}' were processed.": "Los adjuntos para '{p}' fueron procesados.",
+    "Cannot get current note! ": "¡No se puede obtener la nota actual! ",
+    "Cannot get current note/canvas!": "¡No se puede obtener la nota/canvas actual!",
+    "Cannot move attachment folder: \r\n{p}": "No se puede mover la carpeta de adjuntos: \r\n{p}",
+    "Cannot rename.": "No se puede renombrar.",
+    "Image downloaded and linked in '{p}'.": "Imagen descargada y vinculada en '{p}'.",
+    "Media links were found, processing...": "Se encontraron enlaces multimedia, procesando...",
+    "No orphaned files found!": "¡No se encontraron archivos huérfanos!",
+    "Page '{p}' has been processed, but nothing was changed.": "La página '{p}' ha sido procesada, pero no cambió nada.",
+    "Please select a note or click inside selected note in canvas.": "Por favor, seleccione una nota o haga clic dentro de la nota seleccionada en canvas.",
+    "Please, select a note or click inside a note in canvas!": "¡Por favor, seleccione una nota o haga clic dentro de una nota en canvas!",
+    "Remote image not found in '{p}' or it is already local.": "Imagen remota no encontrada en '{p}' o ya es local.",
+    "Single image download failed: {p}": "Falló la descarga de una imagen: {p}",
+    "The attachment folder {p} does not exist!": "¡La carpeta de adjuntos {p} no existe!",
+    "The note was renamed to {p}": "La nota fue renombrada a {p}",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "¡Este comando no puede ejecutarse en la raíz del vault o en una subcarpeta junto a la nota!\n¡Por favor, cambie la configuración primero!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Este comando requiere la configuración 'Junto a la nota en la carpeta especificada abajo' y el patrón '${notename}' al final habilitado, además la ruta no puede contener el patrón ${date}.\n¡Por favor, cambie la configuración primero!\r\n",
+    "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "¡ADVERTENCIA!\r\nLos adjuntos para \'{p}\' fueron procesados, pero algunos adjuntos no fueron descargados/reemplazados...",
+    "{p} attachments for note {p} were processed.": "{p} adjuntos para la nota {p} fueron procesados.",
+};
+
+var it = {
+    "Show notifications": "Mostra notifiche",
+    "Show notifications when pages were processed.": "Mostra notifiche quando le pagine sono state elaborate.",
+    "Context menu: download single image": "Menu contestuale: scarica singola immagine",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "Mostra 'Scarica questa immagine' cliccando con il tasto destro su un'immagine remota in Anteprima Live. Scarica solo quell'immagine e sostituisce il suo link.",
+    "Disable additional commands": "Disabilita comandi aggiuntivi",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "Non mostrare comandi aggiuntivi nella tavolozza dei comandi. Ricarica il plugin nelle impostazioni per rendere effettive le modifiche (spegni/accendi).",
+    "Automatic processing": "Elaborazione automatica",
+    "Process notes on create/copy/paste.": "Elabora note alla creazione/copia/incolla.",
+    "Process images in frontmatter": "Elabora immagini nel frontmatter",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Scarica e localizza i link delle immagini nel frontmatter YAML. Quando disabilitato, il blocco frontmatter rimane intatto (la chiave 'source' è ancora usata come referer per le immagini del corpo).",
+    "Automatic processing interval": "Intervallo elaborazione automatica",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Intervallo in secondi per l'aggiornamento dell'elaborazione. Ci vuole tempo per rivelare il contenuto modificato di una nota ai plugin.",
+    "Number of retries for every single attachment": "Numero di tentativi per ogni singolo allegato",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "Se si verifica un errore durante il download (rete ecc.) prova a riscaricare più volte.",
+    "Process all new markdown files": "Elabora tutti i nuovi file markdown",
+    "Process all new created/cloud-synced files with corresponding extensions.": "Elabora tutti i file nuovi creati/sincronizzati sul cloud con estensioni corrispondenti.",
+    "Process all new attachments": "Elabora tutti i nuovi allegati",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "Il plugin sposterà anche tutti gli allegati dalla cartella predefinita di Obsidian alla cartella del plugin.",
+    "File name template": "Modello nome file",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "Modello per i nomi dei nuovi allegati. Variabili: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Predefinito: ${md5}_MD5 (compatibile con versioni precedenti). Esempi: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Usa 'Cartella per salvare nuovi allegati' per le sottocartelle.",
+    "Use markdown link format with angle brackets ![](<link>)": "Usa formato link markdown con parentesi angolari ![](<link>)",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "Forza l'uso del formato link markdown con parentesi angolari invece di URI codificato quando si generano link.",
+    "Process Canvas files": "Elabora file Canvas",
+    "Process images in Obsidian Canvas (.canvas files)": "Elabora immagini in Obsidian Canvas (file .canvas)",
+    "URL exclude regexps": "Regex per escludere URL",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "Uno per riga: regex per escludere URL durante il download. Esempi:\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "Scarica tipi di file sconosciuti",
+    "Download unknown filetypes and save them with .unknown extension.": "Scarica tipi di file sconosciuti e salvali con estensione .unknown.",
+    "Compress images (Web Images)": "Comprimi immagini (Immagini Web)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "Comprimi tutte le immagini scaricate. Può ridurre la dimensione del file di varie volte, ma può anche influire sulle prestazioni.",
+    "Compress images (Pasted Images)": "Comprimi immagini (Immagini incollate)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "Comprimi tutte le immagini incollate. Può ridurre la dimensione del file di varie volte, ma può anche influire sulle prestazioni.",
+    "Compression type": "Tipo compressione",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "Seleziona tipo di compressione immagine. Tieni presente che il formato webp ha limitazioni di dimensione immagine.",
+    "Excluded folders": "Cartelle escluse",
+    "Excluded folders. New files in these folders will not be processed automatically.": "Cartelle escluse. I nuovi file in queste cartelle non verranno elaborati automaticamente.",
+    "Image Quality": "Qualità immagine",
+    "Image quality selection (30 to 100).": "Selezione qualità immagine (da 30 a 100).",
+    "File size lower limit in Kb": "Limite inferiore dimensione file in KB",
+    "Do not download files with size less than this value. Set 0 for no limit.": "Non scaricare file con dimensioni inferiori a questo valore. Imposta 0 per nessun limite.",
+    Exclusions: "Esclusioni",
+    "The plugin will not download attachments with these extensions.": "Il plugin non scaricherà allegati con queste estensioni.",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "Non creare cartella allegati Obsidian (Per compatibilità con altri plugin)",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "Il plugin non creerà una cartella allegati Obsidian. Questo potrebbe causare un comportamento errato del plugin.",
+    "Preserve link captions": "Preserva didascalie link",
+    "Add media links captions to converted tags.": "Aggiungi didascalie link media ai tag convertiti.",
+    "Include pattern": "Modello inclusione",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "Includi solo file con estensioni che corrispondono a questo modello. Esempio: md|canvas",
+    "Remove files completely": "Rimuovi file completamente",
+    "Do not move orphaned files into the garbage can.": "Non spostare file orfani nel cestino.",
+    "How to write paths in tags": "Come scrivere percorsi nei tag",
+    "Select whether to write full paths in tags or not.": "Seleziona se scrivere percorsi completi nei tag o no.",
+    "Date format": "Formato data",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "Formato data per la variabile ${date}. Es. :\n                  | MMMM Do YYYY, h:mm:ss a (20 marzo 2024, 10:54:46) \n                  | dddd  (mercoledì)\n                  | MMM Do YY  (mar 20 24)",
+    "Folder to save new attachments": "Cartella per salvare nuovi allegati",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "Seleziona dove verranno salvati tutti i nuovi allegati.\nPuoi usare modelli es. _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "Sposta/elimina/rinomina cartella media",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "Rinomina o sposta questa cartella nel cestino di Obsidian o di sistema quando la nota associata è eliminata/rinominata/spostata. \n                  Questa impostazione ha effetto solo se il percorso contiene il modello ${notename} alla fine\n                  e le opzioni 'Accanto alla nota nella cartella specificata sotto' / 'Relativo alla nota' sono selezionate.\n                  Usa questa impostazione a tuo rischio.",
+    "Media folder": "Cartella media",
+    "Folder to keep all downloaded media files.": "Cartella per mantenere tutti i file media scaricati.",
+    Debug: "Debug",
+    "Enable debug output to console.": "Abilita output debug su console.",
+    "Interface settings": "Impostazioni interfaccia",
+    "Processing settings": "Impostazioni elaborazione",
+    "Note settings": "Impostazioni note",
+    "Orphaned attachments": "Allegati orfani",
+    "Media folder settings": "Impostazioni cartella media",
+    Troubleshooting: "Risoluzione problemi",
+    "The value should be a positive integer number between 5 and 3600!": "Il valore deve essere un numero intero positivo tra 5 e 3600!",
+    "The value should be a positive integer number between 1 and 6!": "Il valore deve essere un numero intero positivo tra 1 e 6!",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "Il modello del nome file non può contenere separatori di percorso. Usa 'Cartella per salvare nuovi allegati' per impostare le sottocartelle.",
+    "The value should be a positive integer number between 10 and 100!": "Il valore deve essere un numero intero positivo tra 10 e 100!",
+    "The value should be a positive integer!": "Il valore deve essere un numero intero positivo!",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "Regex non sicuro! https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "Nome cartella non sicuro! Alcuni caratteri sono vietati in alcuni filesystem.",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "Percorso completo",
+    "Relative to note": "Relativo alla nota",
+    "Only filename": "Solo nome file",
+    "Copy Obsidian settings": "Copia impostazioni Obsidian",
+    "In the root folder specified below": "Nella cartella radice specificata sotto",
+    "Next to note in the folder specified below": "Accanto alla nota nella cartella specificata sotto",
+    "Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.": "Impossibile copiare/scaricare un allegato! Prova ad aggiungere referer nel campo 'source' del frontmatter.",
+    "{p} file(s) {p}": "{p} file {p}",
+    "{p} attachments for note {p}": "{p} allegati per la nota {p}",
+    "Frontmatter of '{p}' skipped (parse error)": "Frontmatter di '{p}' saltato (errore di parsing)",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "La cartella media di Obsidian impostata a {p} è stata creata dal plugin. Riprova.",
+    "You obsidian media folder set to {p}, and has been changed to {p}. Please, note that the plugin settings might need to be updated.": "La cartella media di Obsidian impostata a {p} è stata cambiata in {p}. Potrebbe essere necessario aggiornare le impostazioni del plugin.",
+    "Attachment folder was renamed to {p}": "La cartella degli allegati è stata rinominata in {p}",
+    "Attachment folder {p} was moved to trash can.": "La cartella degli allegati {p} è stata spostata nel cestino.",
+    "Attachments for '{p}' were processed.": "Gli allegati per '{p}' sono stati elaborati.",
+    "Cannot get current note! ": "Impossibile ottenere la nota corrente! ",
+    "Cannot get current note/canvas!": "Impossibile ottenere la nota/canvas corrente!",
+    "Cannot move attachment folder: \r\n{p}": "Impossibile spostare la cartella degli allegati: \r\n{p}",
+    "Cannot rename.": "Impossibile rinominare.",
+    "Image downloaded and linked in '{p}'.": "Immagine scaricata e collegata in '{p}'.",
+    "Media links were found, processing...": "Trovati collegamenti multimediali, elaborazione...",
+    "No orphaned files found!": "Nessun file orfano trovato!",
+    "Page '{p}' has been processed, but nothing was changed.": "La pagina '{p}' è stata elaborata, ma nulla è cambiato.",
+    "Please select a note or click inside selected note in canvas.": "Seleziona una nota o clicca dentro la nota selezionata in canvas.",
+    "Please, select a note or click inside a note in canvas!": "Seleziona una nota o clicca dentro una nota in canvas!",
+    "Remote image not found in '{p}' or it is already local.": "Immagine remota non trovata in '{p}' o è già locale.",
+    "Single image download failed: {p}": "Download singola immagine fallito: {p}",
+    "The attachment folder {p} does not exist!": "La cartella degli allegati {p} non esiste!",
+    "The note was renamed to {p}": "La nota è stata rinominata in {p}",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "Questo comando non può essere eseguito nella root del vault o in una sottocartella accanto alla nota!\nPer favore, cambia prima le impostazioni!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Questo comando richiede le impostazioni 'Accanto alla nota nella cartella specificata sotto' e il pattern '${notename}' alla fine abilitato, anche il percorso non può contenere il pattern ${date}.\nPer favore, cambia prima le impostazioni!\r\n",
+    "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "ATTENZIONE!\r\nGli allegati per \'{p}\' sono stati elaborati, ma alcuni allegati non sono stati scaricati/sostituiti...",
+    "{p} attachments for note {p} were processed.": "{p} allegati per la nota {p} elaborati.",
+};
+
+var pt = {
+    "Show notifications": "Mostrar notificações",
+    "Show notifications when pages were processed.": "Mostrar notificações quando as páginas foram processadas.",
+    "Context menu: download single image": "Menu de contexto: baixar imagem individual",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "Mostrar 'Baixar esta imagem' ao clicar com o botão direito em uma imagem remota na Visualização ao Vivo. Baixa apenas essa imagem e substitui o link.",
+    "Disable additional commands": "Desativar comandos adicionais",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "Não mostrar comandos adicionais na paleta de comandos. Recarregue o plugin nas configurações para ter efeito (desligar/ligar).",
+    "Automatic processing": "Processamento automático",
+    "Process notes on create/copy/paste.": "Processar notas ao criar/copiar/colar.",
+    "Process images in frontmatter": "Processar imagens no frontmatter",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Baixar e localizar links de imagens no frontmatter YAML. Quando desativado, o bloco frontmatter permanece intocado (a chave 'source' ainda é usada como referenciador para imagens do corpo).",
+    "Automatic processing interval": "Intervalo de processamento automático",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Intervalo em segundos para atualização de processamento. Leva algum tempo para revelar conteúdo alterado de uma nota aos plugins.",
+    "Number of retries for every single attachment": "Número de tentativas para cada anexo",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "Se ocorrer um erro durante o download (rede etc.) tente baixar novamente várias vezes.",
+    "Process all new markdown files": "Processar todos os novos arquivos markdown",
+    "Process all new created/cloud-synced files with corresponding extensions.": "Processar todos os arquivos novos criados/sincronizados na nuvem com extensões correspondentes.",
+    "Process all new attachments": "Processar todos os novos anexos",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "O plugin também moverá todos os anexos da pasta padrão do Obsidian para a pasta do plugin.",
+    "File name template": "Modelo de nome de arquivo",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "Modelo para nomes de novos anexos. Variáveis: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Padrão: ${md5}_MD5 (compatível com versões anteriores). Exemplos: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Pasta para salvar novos anexos' para subpastas.",
+    "Use markdown link format with angle brackets ![](<link>)": "Usar formato de link markdown com colchetes angulares ![](<link>)",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "Forçar uso do formato de link markdown com colchetes angulares em vez de URI codificado ao gerar links.",
+    "Process Canvas files": "Processar arquivos Canvas",
+    "Process images in Obsidian Canvas (.canvas files)": "Processar imagens no Obsidian Canvas (arquivos .canvas)",
+    "URL exclude regexps": "Expressões regulares para excluir URLs",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "Uma por linha: expressões regulares para excluir URLs ao baixar. Exemplos:\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "Baixar tipos de arquivo desconhecidos",
+    "Download unknown filetypes and save them with .unknown extension.": "Baixar tipos de arquivo desconhecidos e salvá-los com extensão .unknown.",
+    "Compress images (Web Images)": "Comprimir imagens (Imagens Web)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "Comprimir todas as imagens baixadas. Pode reduzir o tamanho do arquivo várias vezes, mas também pode afetar o desempenho.",
+    "Compress images (Pasted Images)": "Comprimir imagens (Imagens coladas)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "Comprimir todas as imagens coladas. Pode reduzir o tamanho do arquivo várias vezes, mas também pode afetar o desempenho.",
+    "Compression type": "Tipo de compressão",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "Selecionar tipo de compressão de imagem. Lembre-se que o formato webp tem limitações de tamanho de imagem.",
+    "Excluded folders": "Pastas excluídas",
+    "Excluded folders. New files in these folders will not be processed automatically.": "Pastas excluídas. Novos arquivos nestas pastas não serão processados automaticamente.",
+    "Image Quality": "Qualidade da imagem",
+    "Image quality selection (30 to 100).": "Seleção de qualidade da imagem (30 a 100).",
+    "File size lower limit in Kb": "Limite inferior de tamanho de arquivo em KB",
+    "Do not download files with size less than this value. Set 0 for no limit.": "Não baixar arquivos com tamanho menor que este valor. Defina 0 para sem limite.",
+    Exclusions: "Exclusões",
+    "The plugin will not download attachments with these extensions.": "O plugin não baixará anexos com estas extensões.",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "Não criar pasta de anexos do Obsidian (Para compatibilidade com outros plugins)",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "O plugin não criará uma pasta de anexos do Obsidian. Isso pode fazer com que o plugin se comporte incorretamente.",
+    "Preserve link captions": "Preservar legendas de links",
+    "Add media links captions to converted tags.": "Adicionar legendas de links de mídia a tags convertidas.",
+    "Include pattern": "Padrão de inclusão",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "Incluir apenas arquivos com extensões correspondentes a este padrão. Exemplo: md|canvas",
+    "Remove files completely": "Remover arquivos completamente",
+    "Do not move orphaned files into the garbage can.": "Não mover arquivos órfãos para a lixeira.",
+    "How to write paths in tags": "Como escrever caminhos nas tags",
+    "Select whether to write full paths in tags or not.": "Selecionar se deve escrever caminhos completos nas tags ou não.",
+    "Date format": "Formato de data",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "Formato de data para a variável ${date}. Ex. :\n                  | MMMM Do YYYY, h:mm:ss a (20 de março de 2024, 10:54:46) \n                  | dddd  (quarta-feira)\n                  | MMM Do YY  (mar 20 24)",
+    "Folder to save new attachments": "Pasta para salvar novos anexos",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "Selecionar onde todos os novos anexos serão salvos.\nVocê pode usar modelos ex. _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "Mover/excluir/renomear pasta de mídia",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "Renomear ou mover esta pasta para a lixeira do Obsidian ou do sistema quando a nota associada for excluída/renomeada/movida. \n                  Esta configuração só tem efeito se o caminho contiver o modelo ${notename} no final\n                  e as opções 'Ao lado da nota na pasta especificada abaixo' / 'Relativo à nota' estiverem selecionadas.\n                  Use esta configuração por sua conta e risco.",
+    "Media folder": "Pasta de mídia",
+    "Folder to keep all downloaded media files.": "Pasta para manter todos os arquivos de mídia baixados.",
+    Debug: "Depuração",
+    "Enable debug output to console.": "Ativar saída de depuração no console.",
+    "Interface settings": "Configurações da interface",
+    "Processing settings": "Configurações de processamento",
+    "Note settings": "Configurações de notas",
+    "Orphaned attachments": "Anexos órfãos",
+    "Media folder settings": "Configurações da pasta de mídia",
+    Troubleshooting: "Solução de problemas",
+    "The value should be a positive integer number between 5 and 3600!": "O valor deve ser um número inteiro positivo entre 5 e 3600!",
+    "The value should be a positive integer number between 1 and 6!": "O valor deve ser um número inteiro positivo entre 1 e 6!",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "O modelo de nome de arquivo não pode conter separadores de caminho. Use 'Pasta para salvar novos anexos' para definir subpastas.",
+    "The value should be a positive integer number between 10 and 100!": "O valor deve ser um número inteiro positivo entre 10 e 100!",
+    "The value should be a positive integer!": "O valor deve ser um número inteiro positivo!",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "Regex inseguro! https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "Nome de pasta inseguro! Alguns caracteres são proibidos em alguns sistemas de arquivos.",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "Caminho completo",
+    "Relative to note": "Relativo à nota",
+    "Only filename": "Apenas nome do arquivo",
+    "Copy Obsidian settings": "Copiar configurações Obsidian",
+    "In the root folder specified below": "Na pasta raiz especificada abaixo",
+    "Next to note in the folder specified below": "Ao lado da nota na pasta especificada abaixo",
+    "Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.": "Não foi possível copiar/baixar o anexo! Tente adicionar referer no campo 'source' do frontmatter.",
+    "{p} file(s) {p}": "{p} ficheiro(s) {p}",
+    "{p} attachments for note {p}": "{p} anexos para a nota {p}",
+    "Frontmatter of '{p}' skipped (parse error)": "Frontmatter de '{p}' ignorado (erro de análise)",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "A pasta de multimédia do Obsidian definida como {p} foi criada pelo plugin. Tente novamente.",
+    "You obsidian media folder set to {p}, and has been changed to {p}. Please, note that the plugin settings might need to be updated.": "A pasta de multimédia do Obsidian definida como {p} foi alterada para {p}. Pode ser necessário atualizar as definições do plugin.",
+    "Attachment folder was renamed to {p}": "A pasta de anexos foi renomeada para {p}",
+    "Attachment folder {p} was moved to trash can.": "A pasta de anexos {p} foi movida para a lixeira.",
+    "Attachments for '{p}' were processed.": "Os anexos para '{p}' foram processados.",
+    "Cannot get current note! ": "Não foi possível obter a nota atual! ",
+    "Cannot get current note/canvas!": "Não é possível obter a nota/canvas atual!",
+    "Cannot move attachment folder: \r\n{p}": "Não é possível mover a pasta de anexos: \r\n{p}",
+    "Cannot rename.": "Não é possível renomear.",
+    "Image downloaded and linked in '{p}'.": "Imagem baixada e vinculada em '{p}'.",
+    "Media links were found, processing...": "Links de mídia encontrados, processando...",
+    "No orphaned files found!": "Nenhum arquivo órfão encontrado!",
+    "Page '{p}' has been processed, but nothing was changed.": "A página '{p}' foi processada, mas nada mudou.",
+    "Please select a note or click inside selected note in canvas.": "Por favor, selecione uma nota ou clique dentro da nota selecionada no canvas.",
+    "Please, select a note or click inside a note in canvas!": "Por favor, selecione uma nota ou clique dentro de uma nota no canvas!",
+    "Remote image not found in '{p}' or it is already local.": "Imagem remota não encontrada em '{p}' ou já é local.",
+    "Single image download failed: {p}": "Falha no download de imagem única: {p}",
+    "The attachment folder {p} does not exist!": "A pasta de anexos {p} não existe!",
+    "The note was renamed to {p}": "A nota foi renomeada para {p}",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "Este comando não pode ser executado na raiz do vault ou em subpasta ao lado da nota!\nPor favor, altere as configurações primeiro!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Este comando requer as configurações 'Ao lado da nota na pasta especificada abaixo' e o padrão '${notename}' no final habilitado, também o caminho não pode conter o padrão ${date}.\nPor favor, altere as configurações primeiro!\r\n",
+    "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "AVISO!\r\nAnexos para \'{p}\' foram processados, mas alguns anexos não foram baixados/substituídos...",
+    "{p} attachments for note {p} were processed.": "{p} anexos para a nota {p} foram processados.",
+};
+
+var ptBR = {
+    "Show notifications": "Exibir notificações",
+    "Show notifications when pages were processed.": "Exibir notificações quando as páginas forem processadas.",
+    "Context menu: download single image": "Menu de contexto: baixar imagem única",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "Exibir 'Baixar esta imagem' ao clicar com o botão direito em uma imagem remota na Visualização ao Vivo. Baixa apenas essa imagem e substitui o link.",
+    "Disable additional commands": "Desativar comandos adicionais",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "Não exibir comandos adicionais na paleta de comandos. Recarregue o plugin nas configurações para que faça efeito (desligar/ligar).",
+    "Automatic processing": "Processamento automático",
+    "Process notes on create/copy/paste.": "Processar notas ao criar/copiar/colar.",
+    "Process images in frontmatter": "Processar imagens no frontmatter",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Baixar e localizar links de imagens no frontmatter YAML. Quando desativado, o bloco frontmatter permanece intocado (a chave 'source' ainda é usada como referenciador para imagens do corpo).",
+    "Automatic processing interval": "Intervalo de processamento automático",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Intervalo em segundos para atualização do processamento. Leva um tempo para revelar o conteúdo alterado de uma nota aos plugins.",
+    "Number of retries for every single attachment": "Número de tentativas para cada anexo",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "Se ocorrer um erro durante o download (rede etc.) tente baixar novamente várias vezes.",
+    "Process all new markdown files": "Processar todos os novos arquivos markdown",
+    "Process all new created/cloud-synced files with corresponding extensions.": "Processar todos os arquivos novos criados/sincronizados na nuvem com extensões correspondentes.",
+    "Process all new attachments": "Processar todos os novos anexos",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "O plugin também moverá todos os anexos da pasta padrão do Obsidian para a pasta do plugin.",
+    "File name template": "Modelo de nome de arquivo",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "Modelo para nomes de novos anexos. Variáveis: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Padrão: ${md5}_MD5 (compatível com versões anteriores). Exemplos: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Pasta para salvar novos anexos' para subpastas.",
+    "Use markdown link format with angle brackets ![](<link>)": "Usar formato de link markdown com colchetes angulares ![](<link>)",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "Forçar uso do formato de link markdown com colchetes angulares em vez de URI codificado ao gerar links.",
+    "Process Canvas files": "Processar arquivos Canvas",
+    "Process images in Obsidian Canvas (.canvas files)": "Processar imagens no Obsidian Canvas (arquivos .canvas)",
+    "URL exclude regexps": "Expressões regulares para excluir URLs",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "Uma por linha: expressões regulares para excluir URLs ao baixar. Exemplos:\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "Baixar tipos de arquivo desconhecidos",
+    "Download unknown filetypes and save them with .unknown extension.": "Baixar tipos de arquivo desconhecidos e salvá-los com extensão .unknown.",
+    "Compress images (Web Images)": "Comprimir imagens (Imagens da Web)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "Comprimir todas as imagens baixadas. Pode reduzir o tamanho do arquivo várias vezes, mas também pode afetar o desempenho.",
+    "Compress images (Pasted Images)": "Comprimir imagens (Imagens coladas)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "Comprimir todas as imagens coladas. Pode reduzir o tamanho do arquivo várias vezes, mas também pode afetar o desempenho.",
+    "Compression type": "Tipo de compressão",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "Selecionar tipo de compressão de imagem. Lembre-se que o formato webp tem limitações de tamanho de imagem.",
+    "Excluded folders": "Pastas excluídas",
+    "Excluded folders. New files in these folders will not be processed automatically.": "Pastas excluídas. Novos arquivos nestas pastas não serão processados automaticamente.",
+    "Image Quality": "Qualidade da imagem",
+    "Image quality selection (30 to 100).": "Seleção de qualidade da imagem (30 a 100).",
+    "File size lower limit in Kb": "Limite inferior de tamanho de arquivo em KB",
+    "Do not download files with size less than this value. Set 0 for no limit.": "Não baixar arquivos com tamanho menor que este valor. Defina 0 para sem limite.",
+    Exclusions: "Exclusões",
+    "The plugin will not download attachments with these extensions.": "O plugin não baixará anexos com estas extensões.",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "Não criar pasta de anexos do Obsidian (Para compatibilidade com outros plugins)",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "O plugin não criará uma pasta de anexos do Obsidian. Isso pode fazer com que o plugin se comporte incorretamente.",
+    "Preserve link captions": "Preservar legendas de links",
+    "Add media links captions to converted tags.": "Adicionar legendas de links de mídia a tags convertidas.",
+    "Include pattern": "Padrão de inclusão",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "Incluir apenas arquivos com extensões correspondentes a este padrão. Exemplo: md|canvas",
+    "Remove files completely": "Remover arquivos completamente",
+    "Do not move orphaned files into the garbage can.": "Não mover arquivos órfãos para a lixeira.",
+    "How to write paths in tags": "Como escrever caminhos nas tags",
+    "Select whether to write full paths in tags or not.": "Selecionar se deve escrever caminhos completos nas tags ou não.",
+    "Date format": "Formato de data",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "Formato de data para a variável ${date}. Ex. :\n                  | MMMM Do YYYY, h:mm:ss a (20 de março de 2024, 10:54:46) \n                  | dddd  (quarta-feira)\n                  | MMM Do YY  (mar 20 24)",
+    "Folder to save new attachments": "Pasta para salvar novos anexos",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "Selecionar onde todos os novos anexos serão salvos.\nVocê pode usar modelos ex. _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "Mover/excluir/renomear pasta de mídia",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "Renomear ou mover esta pasta para a lixeira do Obsidian ou do sistema quando a nota associada for excluída/renomeada/movida. \n                  Esta configuração só tem efeito se o caminho contiver o modelo ${notename} no final\n                  e as opções 'Ao lado da nota na pasta especificada abaixo' / 'Relativo à nota' estiverem selecionadas.\n                  Use esta configuração por sua conta e risco.",
+    "Media folder": "Pasta de mídia",
+    "Folder to keep all downloaded media files.": "Pasta para manter todos os arquivos de mídia baixados.",
+    Debug: "Depuração",
+    "Enable debug output to console.": "Ativar saída de depuração no console.",
+    "Interface settings": "Configurações da interface",
+    "Processing settings": "Configurações de processamento",
+    "Note settings": "Configurações de notas",
+    "Orphaned attachments": "Anexos órfãos",
+    "Media folder settings": "Configurações da pasta de mídia",
+    Troubleshooting: "Solução de problemas",
+    "The value should be a positive integer number between 5 and 3600!": "O valor deve ser um número inteiro positivo entre 5 e 3600!",
+    "The value should be a positive integer number between 1 and 6!": "O valor deve ser um número inteiro positivo entre 1 e 6!",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "O modelo de nome de arquivo não pode conter separadores de caminho. Use 'Pasta para salvar novos anexos' para definir subpastas.",
+    "The value should be a positive integer number between 10 and 100!": "O valor deve ser um número inteiro positivo entre 10 e 100!",
+    "The value should be a positive integer!": "O valor deve ser um número inteiro positivo!",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "Regex inseguro! https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "Nome de pasta inseguro! Alguns caracteres são proibidos em alguns sistemas de arquivos.",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "Caminho completo",
+    "Relative to note": "Relativo à nota",
+    "Only filename": "Apenas nome do arquivo",
+    "Copy Obsidian settings": "Copiar configurações Obsidian",
+    "In the root folder specified below": "Na pasta raiz especificada abaixo",
+    "Next to note in the folder specified below": "Ao lado da nota na pasta especificada abaixo",
+    "Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.": "Não foi possível copiar/baixar o anexo! Tente adicionar referer no campo 'source' do frontmatter.",
+    "{p} file(s) {p}": "{p} arquivo(s) {p}",
+    "{p} attachments for note {p}": "{p} anexos para a nota {p}",
+    "Frontmatter of '{p}' skipped (parse error)": "Frontmatter de '{p}' ignorado (erro de parse)",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "A pasta de mídia do Obsidian definida como {p} foi criada pelo plugin. Tente novamente.",
+    "You obsidian media folder set to {p}, and has been changed to {p}. Please, note that the plugin settings might need to be updated.": "A pasta de mídia do Obsidian definida como {p} foi alterada para {p}. Pode ser necessário atualizar as configurações do plugin.",
+    "Attachment folder was renamed to {p}": "A pasta de anexos foi renomeada para {p}",
+    "Attachment folder {p} was moved to trash can.": "A pasta de anexos {p} foi movida para a lixeira.",
+    "Attachments for '{p}' were processed.": "Os anexos para '{p}' foram processados.",
+    "Cannot get current note! ": "Não foi possível obter a nota atual! ",
+    "Cannot get current note/canvas!": "Não é possível obter a nota/canvas atual!",
+    "Cannot move attachment folder: \r\n{p}": "Não é possível mover a pasta de anexos: \r\n{p}",
+    "Cannot rename.": "Não é possível renomear.",
+    "Image downloaded and linked in '{p}'.": "Imagem baixada e vinculada em '{p}'.",
+    "Media links were found, processing...": "Links de mídia encontrados, processando...",
+    "No orphaned files found!": "Nenhum arquivo órfão encontrado!",
+    "Page '{p}' has been processed, but nothing was changed.": "A página '{p}' foi processada, mas nada mudou.",
+    "Please select a note or click inside selected note in canvas.": "Por favor, selecione uma nota ou clique dentro da nota selecionada no canvas.",
+    "Please, select a note or click inside a note in canvas!": "Por favor, selecione uma nota ou clique dentro de uma nota no canvas!",
+    "Remote image not found in '{p}' or it is already local.": "Imagem remota não encontrada em '{p}' ou já é local.",
+    "Single image download failed: {p}": "Falha no download de imagem única: {p}",
+    "The attachment folder {p} does not exist!": "A pasta de anexos {p} não existe!",
+    "The note was renamed to {p}": "A nota foi renomeada para {p}",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "Este comando não pode ser executado na raiz do vault ou em subpasta ao lado da nota!\nPor favor, altere as configurações primeiro!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Este comando requer as configurações 'Ao lado da nota na pasta especificada abaixo' e o padrão '${notename}' no final habilitado, também o caminho não pode conter o padrão ${date}.\nPor favor, altere as configurações primeiro!\r\n",
+    "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "AVISO!\r\nAnexos para \'{p}\' foram processados, mas alguns anexos não foram baixados/substituídos...",
+    "{p} attachments for note {p} were processed.": "{p} anexos para a nota {p} foram processados.",
+};
+
+var ja = {
+    "Show notifications": "通知を表示",
+    "Show notifications when pages were processed.": "ページが処理されたときに通知を表示します。",
+    "Context menu: download single image": "コンテキストメニュー: 単一画像をダウンロード",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "ライブプレビューでリモート画像を右クリックしたときに「この画像をダウンロード」を表示します。その画像のみをダウンロードし、リンクを置き換えます。",
+    "Disable additional commands": "追加コマンドを無効化",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "コマンドパレットに追加コマンドを表示しません。設定でプラグインをリロードして有効にしてください（オフ/オン）。",
+    "Automatic processing": "自動処理",
+    "Process notes on create/copy/paste.": "ノートの作成/コピー/貼り付け時に処理します。",
+    "Process images in frontmatter": "フロントマターの画像を処理",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "YAMLフロントマター内の画像リンクをダウンロードしてローカル化します。無効にするとフロントマターブロックはそのままになります（「source」キーは本文画像のリファラーとして使用されます）。",
+    "Automatic processing interval": "自動処理間隔",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "処理更新の間隔（秒）。プラグインに変更されたノートの内容が反映されるまで時間がかかります。",
+    "Number of retries for every single attachment": "各添付ファイルのリトライ回数",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "ダウンロード中にエラーが発生した場合（ネットワークなど）、再ダウンロードを複数回試みます。",
+    "Process all new markdown files": "すべての新しいMarkdownファイルを処理",
+    "Process all new created/cloud-synced files with corresponding extensions.": "対応する拡張子を持つすべての新規作成/クラウド同期ファイルを処理します。",
+    "Process all new attachments": "すべての新しい添付ファイルを処理",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "プラグインはObsidianのデフォルトフォルダからプラグインフォルダへすべての添付ファイルを移動します。",
+    "File name template": "ファイル名テンプレート",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "新しい添付ファイル名のテンプレート。変数: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. デフォルト: ${md5}_MD5 (下位互換)。例: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. 「新しい添付ファイルを保存するフォルダ」でサブフォルダを指定。",
+    "Use markdown link format with angle brackets ![](<link>)": "山括弧付きMarkdownリンク形式を使用 ![](<link>)",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "リンク生成時にエンコード済みURIの代わりに山括弧付きMarkdownリンク形式を強制使用します。",
+    "Process Canvas files": "Canvasファイルを処理",
+    "Process images in Obsidian Canvas (.canvas files)": "Obsidian Canvas(.canvasファイル)内の画像を処理",
+    "URL exclude regexps": "URL除外正規表現",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "1行に1つ: ダウンロード時に除外するURLの正規表現。例:\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "未知のファイルタイプをダウンロード",
+    "Download unknown filetypes and save them with .unknown extension.": "未知のファイルタイプをダウンロードし、.unknown拡張子で保存します。",
+    "Compress images (Web Images)": "画像を圧縮 (Web画像)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "ダウンロードしたすべての画像を圧縮。ファイルサイズを数倍削減できますが、パフォーマンスに影響する可能性があります。",
+    "Compress images (Pasted Images)": "画像を圧縮 (貼り付け画像)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "貼り付けたすべての画像を圧縮。ファイルサイズを数倍削減できますが、パフォーマンスに影響する可能性があります。",
+    "Compression type": "圧縮タイプ",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "画像圧縮タイプを選択。WebP形式には画像サイズの制限があることに注意してください。",
+    "Excluded folders": "除外フォルダ",
+    "Excluded folders. New files in these folders will not be processed automatically.": "除外フォルダ。これらのフォルダ内の新しいファイルは自動的に処理されません。",
+    "Image Quality": "画質",
+    "Image quality selection (30 to 100).": "画質選択 (30〜100)。",
+    "File size lower limit in Kb": "ファイルサイズ下限 (KB)",
+    "Do not download files with size less than this value. Set 0 for no limit.": "この値より小さいファイルはダウンロードしません。制限なしにするには0を設定。",
+    Exclusions: "除外",
+    "The plugin will not download attachments with these extensions.": "プラグインはこれらの拡張子を持つ添付ファイルをダウンロードしません。",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "Obsidian添付フォルダを作成しない (他プラグインとの互換性のため)",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "プラグインはObsidian添付フォルダを作成しません。これによりプラグインが正しく動作しない可能性があります。",
+    "Preserve link captions": "リンクのキャプションを保持",
+    "Add media links captions to converted tags.": "メディアリンクのキャプションを変換されたタグに追加します。",
+    "Include pattern": "含めるパターン",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "このパターンに一致する拡張子のファイルのみを含めます。例: md|canvas",
+    "Remove files completely": "ファイルを完全に削除",
+    "Do not move orphaned files into the garbage can.": "孤立したファイルをゴミ箱に移動しません。",
+    "How to write paths in tags": "タグへのパスの書き方",
+    "Select whether to write full paths in tags or not.": "タグにフルパスを書き込むかどうかを選択します。",
+    "Date format": "日付フォーマット",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "${date}変数の日付フォーマット。例:\n                  | MMMM Do YYYY, h:mm:ss a (2024年3月20日, 10:54:46) \n                  | dddd  (水曜日)\n                  | MMM Do YY  (3月 20 24)",
+    "Folder to save new attachments": "新しい添付ファイルを保存するフォルダ",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "すべての新しい添付ファイルを保存する場所を選択。\nテンプレート使用例: _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "メディアフォルダを移動/削除/リネーム",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "関連ノートが削除/リネーム/移動されたとき、このフォルダをObsidianまたはシステムのゴミ箱にリネーム/移動します。\n                  この設定はパスの末尾に${notename}テンプレートが含まれ、\n                  「下記指定フォルダ内でノートの隣」/「ノートからの相対」が選択されている場合のみ有効です。\n                  自己責任で使用してください。",
+    "Media folder": "メディアフォルダ",
+    "Folder to keep all downloaded media files.": "ダウンロードしたすべてのメディアファイルを保存するフォルダ。",
+    Debug: "デバッグ",
+    "Enable debug output to console.": "コンソールへのデバッグ出力を有効化。",
+    "Interface settings": "インターフェース設定",
+    "Processing settings": "処理設定",
+    "Note settings": "ノート設定",
+    "Orphaned attachments": "孤立した添付ファイル",
+    "Media folder settings": "メディアフォルダ設定",
+    Troubleshooting: "トラブルシューティング",
+    "The value should be a positive integer number between 5 and 3600!": "値は5から3600の間の正の整数でなければなりません！",
+    "The value should be a positive integer number between 1 and 6!": "値は1から6の間の正の整数でなければなりません！",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "ファイル名テンプレートにパス区切り文字を含めることはできません。サブフォルダを設定するには「新しい添付ファイルを保存するフォルダ」を使用してください。",
+    "The value should be a positive integer number between 10 and 100!": "値は10から100の間の正の整数でなければなりません！",
+    "The value should be a positive integer!": "値は正の整数でなければなりません！",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "安全でない正規表現！ https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "安全でないフォルダ名！一部の文字は特定のファイルシステムで禁止されています。",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "フルパス",
+    "Relative to note": "ノートからの相対パス",
+    "Only filename": "ファイル名のみ",
+    "Copy Obsidian settings": "Obsidian設定をコピー",
+    "In the root folder specified below": "下記指定のルートフォルダ内",
+    "Next to note in the folder specified below": "下記指定フォルダ内でノートの隣",
+    "Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.": "添付ファイルをコピー/ダウンロードできません！frontmatterの'source'フィールドにrefererを追加してみてください。",
+    "{p} file(s) {p}": "{p}ファイル {p}",
+    "{p} attachments for note {p}": "ノート {p} の添付ファイル {p}",
+    "Frontmatter of '{p}' skipped (parse error)": "'{p}' のフロントマターをスキップしました（解析エラー）",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "Obsidianメディアフォルダが{p}に設定され、プラグインによって作成されました。もう一度お試しください。",
+    "You obsidian media folder set to {p}, and has been changed to {p}. Please, note that the plugin settings might need to be updated.": "Obsidianメディアフォルダが{p}から{p}に変更されました。プラグイン設定の更新が必要な場合があります。",
+    "Attachment folder was renamed to {p}": "添付ファイルフォルダが {p} にリネームされました",
+    "Attachment folder {p} was moved to trash can.": "添付ファイルフォルダ {p} がゴミ箱に移動されました。",
+    "Attachments for '{p}' were processed.": "'{p}' の添付ファイルが処理されました。",
+    "Cannot get current note! ": "現在のノートを取得できません! ",
+    "Cannot get current note/canvas!": "現在のノート/canvasを取得できません!",
+    "Cannot move attachment folder: \r\n{p}": "添付ファイルフォルダを移動できません: \r\n{p}",
+    "Cannot rename.": "リネームできません。",
+    "Image downloaded and linked in '{p}'.": "画像がダウンロードされ '{p}' にリンクされました。",
+    "Media links were found, processing...": "メディアリンクが見つかりました、処理中...",
+    "No orphaned files found!": "孤立ファイルが見つかりません!",
+    "Page '{p}' has been processed, but nothing was changed.": "ページ '{p}' が処理されましたが、何も変更されませんでした。",
+    "Please select a note or click inside selected note in canvas.": "ノートを選択するか、キャンバスで選択したノート内をクリックしてください。",
+    "Please, select a note or click inside a note in canvas!": "ノートを選択するか、キャンバスでノート内をクリックしてください!",
+    "Remote image not found in '{p}' or it is already local.": "'{p}' でリモート画像が見つからないか、既にローカルです。",
+    "Single image download failed: {p}": "単一画像のダウンロードに失敗: {p}",
+    "The attachment folder {p} does not exist!": "添付ファイルフォルダ {p} が存在しません!",
+    "The note was renamed to {p}": "ノートが {p} にリネームされました",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "このコマンドは Vault のルートまたはノート隣のサブフォルダでは実行できません!\nまず設定を変更してください!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "このコマンドは、下記指定フォルダの 'ノートの隣' 設定と末尾の '${notename}' パターンが有効で、パスに ${date} パターンを含まないことが必要です。\nまず設定を変更してください!\r\n",
+    "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "警告!\r\n\'{p}\' の添付ファイルが処理されましたが、一部の添付ファイルがダウンロード/置換されませんでした...",
+    "{p} attachments for note {p} were processed.": "ノート {p} の {p} 個の添付ファイルが処理されました。",
+};
+
+var ko = {
+    "Show notifications": "알림 표시",
+    "Show notifications when pages were processed.": "페이지가 처리될 때 알림을 표시합니다.",
+    "Context menu: download single image": "컨텍스트 메뉴: 단일 이미지 다운로드",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "라이브 미리보기에서 원격 이미지를 우클릭할 때 '이 이미지 다운로드'를 표시합니다. 해당 이미지만 다운로드하고 링크를 대체합니다.",
+    "Disable additional commands": "추가 명령 비활성화",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "명령 팔레트에 추가 명령을 표시하지 않습니다. 설정에서 플러그인을 다시 로드하여 적용하세요 (끄기/켜기).",
+    "Automatic processing": "자동 처리",
+    "Process notes on create/copy/paste.": "생성/복사/붙여넣기 시 노트를 처리합니다.",
+    "Process images in frontmatter": "프론트매터의 이미지 처리",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "YAML 프론트매터의 이미지 링크를 다운로드하고 로컬화합니다. 비활성화 시 프론트매터 블록은 그대로 유지됩니다 ('source' 키는 본문 이미지의 참조자로 계속 사용됨).",
+    "Automatic processing interval": "자동 처리 간격",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "처리 업데이트 간격(초). 플러그인에 변경된 노트 내용이 드러나는 데 시간이 걸립니다.",
+    "Number of retries for every single attachment": "각 첨부파일별 재시도 횟수",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "다운로드 중 오류 발생 시(네트워크 등) 여러 번 재다운로드를 시도합니다.",
+    "Process all new markdown files": "모든 새 마크다운 파일 처리",
+    "Process all new created/cloud-synced files with corresponding extensions.": "해당 확장자를 가진 모든 새로 생성/클라우드 동기화된 파일을 처리합니다.",
+    "Process all new attachments": "모든 새 첨부파일 처리",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "플러그인은 모든 첨부파일을 Obsidian 기본 폴더에서 플러그인 폴더로 이동시킵니다.",
+    "File name template": "파일명 템플릿",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "새 첨부파일 이름 템플릿. 변수: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. 기본값: ${md5}_MD5 (하위 호환). 예: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. '새 첨부파일 저장 폴더'로 하위 폴더 지정.",
+    "Use markdown link format with angle brackets ![](<link>)": "꺾쇠 괄호가 있는 마크다운 링크 형식 사용 ![](<link>)",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "링크 생성 시 인코딩된 URI 대신 꺾쇠 괄호가 있는 마크다운 링크 형식을 강제 사용합니다.",
+    "Process Canvas files": "Canvas 파일 처리",
+    "Process images in Obsidian Canvas (.canvas files)": "Obsidian Canvas(.canvas 파일)의 이미지 처리",
+    "URL exclude regexps": "URL 제외 정규식",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "줄당 하나: 다운로드 시 제외할 URL 정규식. 예:\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "알 수 없는 파일 타입 다운로드",
+    "Download unknown filetypes and save them with .unknown extension.": "알 수 없는 파일 타입을 다운로드하고 .unknown 확장자로 저장합니다.",
+    "Compress images (Web Images)": "이미지 압축 (웹 이미지)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "다운로드한 모든 이미지 압축. 파일 크기를 여러 배 줄일 수 있지만 성능에 영향을 줄 수 있습니다.",
+    "Compress images (Pasted Images)": "이미지 압축 (붙여넣기 이미지)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "붙여넣은 모든 이미지 압축. 파일 크기를 여러 배 줄일 수 있지만 성능에 영향을 줄 수 있습니다.",
+    "Compression type": "압축 유형",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "이미지 압축 유형 선택. WebP 형식은 이미지 크기 제한이 있음을 유의하세요.",
+    "Excluded folders": "제외 폴더",
+    "Excluded folders. New files in these folders will not be processed automatically.": "제외 폴더. 이 폴더의 새 파일은 자동으로 처리되지 않습니다.",
+    "Image Quality": "이미지 품질",
+    "Image quality selection (30 to 100).": "이미지 품질 선택 (30~100).",
+    "File size lower limit in Kb": "파일 크기 하한 (KB)",
+    "Do not download files with size less than this value. Set 0 for no limit.": "이 값보다 작은 파일은 다운로드하지 않습니다. 제한 없음은 0으로 설정.",
+    Exclusions: "제외 항목",
+    "The plugin will not download attachments with these extensions.": "플러그인은 이 확장자를 가진 첨부파일을 다운로드하지 않습니다.",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "Obsidian 첨부 폴더 생성 안 함 (다른 플러그인과의 호환성 위해)",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "플러그인이 Obsidian 첨부 폴더를 생성하지 않습니다. 이로 인해 플러그인이 잘못 동작할 수 있습니다.",
+    "Preserve link captions": "링크 캡션 유지",
+    "Add media links captions to converted tags.": "미디어 링크 캡션을 변환된 태그에 추가합니다.",
+    "Include pattern": "포함 패턴",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "이 패턴과 일치하는 확장자만 가진 파일 포함. 예: md|canvas",
+    "Remove files completely": "파일 완전 삭제",
+    "Do not move orphaned files into the garbage can.": "고아 파일을 휴지통으로 이동하지 않습니다.",
+    "How to write paths in tags": "태그에 경로 쓰는 방법",
+    "Select whether to write full paths in tags or not.": "태그에 전체 경로를 쓸지 여부 선택.",
+    "Date format": "날짜 형식",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "${date} 변수의 날짜 형식. 예:\n                  | MMMM Do YYYY, h:mm:ss a (2024년 3월 20일, 오전 10:54:46) \n                  | dddd  (수요일)\n                  | MMM Do YY  (3월 20 24)",
+    "Folder to save new attachments": "새 첨부파일 저장 폴더",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "모든 새 첨부파일이 저장될 위치 선택.\n템플릿 사용 예: _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "미디어 폴더 이동/삭제/이름변경",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "연결된 노트가 삭제/이름변경/이동될 때 이 폴더를 Obsidian 또는 시스템 휴지통으로 이름변경/이동합니다.\n                  이 설정은 경로 끝에 ${notename} 템플릿이 있고\n                  '아래 지정된 폴더에서 노트 옆' / '노트 상대' 옵션이 선택된 경우에만 적용됩니다.\n                  본인 책임 하에 사용하세요.",
+    "Media folder": "미디어 폴더",
+    "Folder to keep all downloaded media files.": "다운로드한 모든 미디어 파일을 보관할 폴더.",
+    Debug: "디버그",
+    "Enable debug output to console.": "콘솔에 디버그 출력 활성화.",
+    "Interface settings": "인터페이스 설정",
+    "Processing settings": "처리 설정",
+    "Note settings": "노트 설정",
+    "Orphaned attachments": "고아 첨부파일",
+    "Media folder settings": "미디어 폴더 설정",
+    Troubleshooting: "문제 해결",
+    "The value should be a positive integer number between 5 and 3600!": "값은 5에서 3600 사이의 양의 정수여야 합니다!",
+    "The value should be a positive integer number between 1 and 6!": "값은 1에서 6 사이의 양의 정수여야 합니다!",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "파일명 템플릿에 경로 구분자를 포함할 수 없습니다. 하위 폴더를 설정하려면 '새 첨부파일 저장 폴더'를 사용하세요.",
+    "The value should be a positive integer number between 10 and 100!": "값은 10에서 100 사이의 양의 정수여야 합니다!",
+    "The value should be a positive integer!": "값은 양의 정수여야 합니다!",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "안전하지 않은 정규식! https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "안전하지 않은 폴더명! 일부 문자는 특정 파일 시스템에서 금지되어 있습니다.",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "전체 경로",
+    "Relative to note": "노트 상대 경로",
+    "Only filename": "파일명만",
+    "Copy Obsidian settings": "Obsidian 설정 복사",
+    "In the root folder specified below": "아래 지정된 루트 폴더에",
+    "Next to note in the folder specified below": "아래 지정된 폴더에서 노트 옆",
+    "Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.": "첨부 파일을 복사/다운로드할 수 없습니다! frontmatter의 'source' 필드에 referer를 추가해 보세요.",
+    "{p} file(s) {p}": "{p}개 파일 {p}",
+    "{p} attachments for note {p}": "{p}개의 첨부파일 ({p})",
+    "Frontmatter of '{p}' skipped (parse error)": "'{p}'의 frontmatter 건너뜀 (구문 분석 오류)",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "Obsidian 미디어 폴더가 {p}로 설정되었으며 플러그인에 의해 생성되었습니다. 다시 시도하세요.",
+    "You obsidian media folder set to {p}, and has been changed to {p}. Please, note that the plugin settings might need to be updated.": "Obsidian 미디어 폴더가 {p}에서 {p}로 변경되었습니다. 플러그인 설정을 업데이트해야 할 수 있습니다.",
+    "Attachment folder was renamed to {p}": "첨부 파일 폴더가 {p}(으)로 이름이 변경되었습니다",
+    "Attachment folder {p} was moved to trash can.": "첨부 파일 폴더 {p}가 휴지통으로 이동되었습니다.",
+    "Attachments for '{p}' were processed.": "'{p}'의 첨부 파일이 처리되었습니다.",
+    "Cannot get current note! ": "현재 노트를 가져올 수 없습니다! ",
+    "Cannot get current note/canvas!": "현재 노트/canvas를 가져올 수 없습니다!",
+    "Cannot move attachment folder: \r\n{p}": "첨부 파일 폴더를 이동할 수 없습니다: \r\n{p}",
+    "Cannot rename.": "이름 변경 불가.",
+    "Image downloaded and linked in '{p}'.": "이미지가 다운로드되어 '{p}'에 연결되었습니다.",
+    "Media links were found, processing...": "미디어 링크가 발견됨, 처리 중...",
+    "No orphaned files found!": "고아 파일을 찾을 수 없음!",
+    "Page '{p}' has been processed, but nothing was changed.": "페이지 '{p}'가 처리되었으나 변경된 것이 없습니다.",
+    "Please select a note or click inside selected note in canvas.": "노트를 선택하거나 캔버스에서 선택한 노트 안을 클릭하세요.",
+    "Please, select a note or click inside a note in canvas!": "노트를 선택하거나 캔버스에서 노트 안을 클릭하세요!",
+    "Remote image not found in '{p}' or it is already local.": "'{p}'에서 원격 이미지를 찾을 수 없거나 이미 로컬에 있습니다.",
+    "Single image download failed: {p}": "단일 이미지 다운로드 실패: {p}",
+    "The attachment folder {p} does not exist!": "첨부 파일 폴더 {p}가 존재하지 않습니다!",
+    "The note was renamed to {p}": "노트가 {p}(으)로 이름이 변경되었습니다",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "이 명령은 볼트의 루트 또는 노트 옆의 하위 폴더에서 실행할 수 없습니다!\n먼저 설정을 변경하세요!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "이 명령은 아래 지정된 폴더의 '노트 옆' 설정과 끝에 '${notename}' 패턴이 활성화되어야 하며, 경로에 ${date} 패턴이 포함될 수 없습니다.\n먼저 설정을 변경하세요!\r\n",
+    "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "경고!\r\n\'{p}\'의 첨부 파일이 처리되었으나 일부 첨부 파일이 다운로드/교체되지 않았습니다...",
+    "{p} attachments for note {p} were processed.": "노트 {p}의 {p}개 첨부 파일이 처리되었습니다.",
+};
+
+var zh = {
+    "Show notifications": "显示通知",
+    "Show notifications when pages were processed.": "页面处理完成时显示通知。",
+    "Context menu: download single image": "右键菜单: 下载单张图片",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "在实时预览中右键点击远程图片时显示'下载此图片'。仅下载该图片并替换其链接。",
+    "Disable additional commands": "禁用额外命令",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "在命令面板中不显示额外命令。在设置中重新加载插件以生效（关闭/开启）。",
+    "Automatic processing": "自动处理",
+    "Process notes on create/copy/paste.": "创建/复制/粘贴时处理笔记。",
+    "Process images in frontmatter": "处理 Frontmatter 中的图片",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "下载并本地化 YAML frontmatter 中的图片链接。禁用时 frontmatter 块保持不变（'source' 键仍用作正文图片的引用来源）。",
+    "Automatic processing interval": "自动处理间隔",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "处理更新的间隔（秒）。插件需要一些时间来检测笔记的变更内容。",
+    "Number of retries for every single attachment": "每个附件的重试次数",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "如果下载过程中发生错误（网络等），尝试重新下载多次。",
+    "Process all new markdown files": "处理所有新的 Markdown 文件",
+    "Process all new created/cloud-synced files with corresponding extensions.": "处理所有新建/云同步的、具有对应扩展名的文件。",
+    "Process all new attachments": "处理所有新附件",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "插件也会将所有附件从 Obsidian 默认文件夹移动到插件文件夹。",
+    "File name template": "文件名模板",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "新附件名称模板。变量：${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}。默认：${md5}_MD5（向后兼容）。示例：${originalname}, ${notename}-${originalname}, ${date}-${md5:8}。使用'保存新附件的文件夹'设置子文件夹。",
+    "Use markdown link format with angle brackets ![](<link>)": "使用带尖括号的 Markdown 链接格式 ![](<link>)",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "生成链接时强制使用带尖括号的 Markdown 链接格式，而不是编码的 URI。",
+    "Process Canvas files": "处理 Canvas 文件",
+    "Process images in Obsidian Canvas (.canvas files)": "处理 Obsidian Canvas (.canvas 文件) 中的图片",
+    "URL exclude regexps": "URL 排除正则表达式",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "每行一个：下载时排除 URL 的正则表达式。示例：\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "下载未知文件类型",
+    "Download unknown filetypes and save them with .unknown extension.": "下载未知文件类型并以 .unknown 扩展名保存。",
+    "Compress images (Web Images)": "压缩图片 (网络图片)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "压缩所有下载的图片。可将文件大小减少数倍，但也可能影响性能。",
+    "Compress images (Pasted Images)": "压缩图片 (粘贴图片)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "压缩所有粘贴的图片。可将文件大小减少数倍，但也可能影响性能。",
+    "Compression type": "压缩类型",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "选择图片压缩类型。请注意 WebP 格式有图片尺寸限制。",
+    "Excluded folders": "排除文件夹",
+    "Excluded folders. New files in these folders will not be processed automatically.": "排除文件夹。这些文件夹中的新文件不会被自动处理。",
+    "Image Quality": "图片质量",
+    "Image quality selection (30 to 100).": "图片质量选择 (30 到 100)。",
+    "File size lower limit in Kb": "文件大小下限 (KB)",
+    "Do not download files with size less than this value. Set 0 for no limit.": "不下载小于此值的文件。设为 0 表示无限制。",
+    Exclusions: "排除项",
+    "The plugin will not download attachments with these extensions.": "插件不会下载这些扩展名的附件。",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "不创建 Obsidian 附件文件夹（为与其他插件兼容）",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "插件不会创建 Obsidian 附件文件夹。这可能导致插件行为异常。",
+    "Preserve link captions": "保留链接标题",
+    "Add media links captions to converted tags.": "将媒体链接标题添加到转换后的标签。",
+    "Include pattern": "包含模式",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "仅包含扩展名匹配此模式的文件。示例：md|canvas",
+    "Remove files completely": "完全删除文件",
+    "Do not move orphaned files into the garbage can.": "不将孤立文件移入回收站。",
+    "How to write paths in tags": "标签中路径的写法",
+    "Select whether to write full paths in tags or not.": "选择是否在标签中写入完整路径。",
+    "Date format": "日期格式",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "${date} 变量的日期格式。例如：\n                  | MMMM Do YYYY, h:mm:ss a (2024年3月20日, 10:54:46) \n                  | dddd  (星期三)\n                  | MMM Do YY  (3月 20 24)",
+    "Folder to save new attachments": "保存新附件的文件夹",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "选择所有新附件的保存位置。\n可使用模板，如 _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "移动/删除/重命名媒体文件夹",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "当关联笔记被删除/重命名/移动时，重命名或移动此文件夹到 Obsidian 或系统回收站。\n                  此设置仅在路径以 ${notename} 模板结尾\n                  且选中'下方指定文件夹中紧邻笔记' / '相对于笔记'选项时生效。\n                  自担风险使用。",
+    "Media folder": "媒体文件夹",
+    "Folder to keep all downloaded media files.": "保存所有下载媒体文件的文件夹。",
+    Debug: "调试",
+    "Enable debug output to console.": "启用控制台调试输出。",
+    "Interface settings": "界面设置",
+    "Processing settings": "处理设置",
+    "Note settings": "笔记设置",
+    "Orphaned attachments": "孤立附件",
+    "Media folder settings": "媒体文件夹设置",
+    Troubleshooting: "故障排除",
+    "The value should be a positive integer number between 5 and 3600!": "值必须是 5 到 3600 之间的正整数！",
+    "The value should be a positive integer number between 1 and 6!": "值必须是 1 到 6 之间的正整数！",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "文件名模板不能包含路径分隔符。使用'保存新附件的文件夹'设置子文件夹。",
+    "The value should be a positive integer number between 10 and 100!": "值必须是 10 到 100 之间的正整数！",
+    "The value should be a positive integer!": "值必须是正整数！",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "不安全的正则表达式！ https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "不安全的文件夹名称！某些字符在某些文件系统中被禁止。",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "完整路径",
+    "Relative to note": "相对于笔记",
+    "Only filename": "仅文件名",
+    "Copy Obsidian settings": "复制 Obsidian 设置",
+    "In the root folder specified below": "在下方指定的根文件夹中",
+    "Next to note in the folder specified below": "在下方指定文件夹中紧邻笔记",
+    "Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.": "无法复制/下载附件！请尝试在 frontmatter 的 'source' 字段中添加 referer。",
+    "{p} file(s) {p}": "{p} 个文件 {p}",
+    "{p} attachments for note {p}": "笔记 {p} 的附件 {p}",
+    "Frontmatter of '{p}' skipped (parse error)": "已跳过 '{p}' 的 frontmatter（解析错误）",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "Obsidian 媒体文件夹已设置为 {p} 并由插件创建。请重试。",
+    "You obsidian media folder set to {p}, and has been changed to {p}. Please, note that the plugin settings might need to be updated.": "Obsidian 媒体文件夹已从 {p} 更改为 {p}。可能需要更新插件设置。",
+    "Attachment folder was renamed to {p}": "附件文件夹已重命名为 {p}",
+    "Attachment folder {p} was moved to trash can.": "附件文件夹 {p} 已移至废纸篓。",
+    "Attachments for '{p}' were processed.": "已处理 '{p}' 的附件。",
+    "Cannot get current note! ": "无法获取当前笔记! ",
+    "Cannot get current note/canvas!": "无法获取当前笔记/canvas!",
+    "Cannot move attachment folder: \r\n{p}": "无法移动附件文件夹: \r\n{p}",
+    "Cannot rename.": "无法重命名。",
+    "Image downloaded and linked in '{p}'.": "图片已下载并在 '{p}' 中链接。",
+    "Media links were found, processing...": "找到媒体链接，正在处理...",
+    "No orphaned files found!": "未找到孤立文件!",
+    "Page '{p}' has been processed, but nothing was changed.": "页面 '{p}' 已处理，但无变化。",
+    "Please select a note or click inside selected note in canvas.": "请选择一条笔记或在画布中点击选中的笔记。",
+    "Please, select a note or click inside a note in canvas!": "请选择一条笔记或在画布中点击笔记!",
+    "Remote image not found in '{p}' or it is already local.": "在 '{p}' 中未找到远程图片或其已为本地图片。",
+    "Single image download failed: {p}": "单张图片下载失败: {p}",
+    "The attachment folder {p} does not exist!": "附件文件夹 {p} 不存在!",
+    "The note was renamed to {p}": "笔记已重命名为 {p}",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "此命令无法在 vault 根目录或笔记旁的子文件夹中运行!\n请先更改设置!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "此命令需要启用设置 '下方指定文件夹中的笔记旁' 和末尾的 '${notename}' 模式，路径也不能包含 ${date} 模式。\n请先更改设置!\r\n",
+    "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "警告!\r\n已处理 \'{p}\' 的附件，但某些附件未下载/替换...",
+    "{p} attachments for note {p} were processed.": "已处理笔记 {p} 的 {p} 个附件。",
+};
+
+var zhTW = {
+    "Show notifications": "顯示通知",
+    "Show notifications when pages were processed.": "頁面處理完成時顯示通知。",
+    "Context menu: download single image": "右鍵選單: 下載單張圖片",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "在即時預覽中右鍵點擊遠程圖片時顯示'下載此圖片'。僅下載該圖片並替換其連結。",
+    "Disable additional commands": "停用額外指令",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "在命令面板中不顯示額外指令。在設定中重新載入外掛以生效（關閉/開啟）。",
+    "Automatic processing": "自動處理",
+    "Process notes on create/copy/paste.": "建立/複製/貼上時處理筆記。",
+    "Process images in frontmatter": "處理 Frontmatter 中的圖片",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "下載並本地化 YAML frontmatter 中的圖片連結。停用時 frontmatter 區塊保持不變（'source' 鍵仍用作正文圖片的參考來源）。",
+    "Automatic processing interval": "自動處理間隔",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "處理更新的間隔（秒）。外掛需要一些時間來偵測筆記的變更內容。",
+    "Number of retries for every single attachment": "每個附件的重試次數",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "如果下載過程中發生錯誤（網路等），嘗試重新下載多次。",
+    "Process all new markdown files": "處理所有新的 Markdown 檔案",
+    "Process all new created/cloud-synced files with corresponding extensions.": "處理所有新建/雲同步的、具有對應副檔名的檔案。",
+    "Process all new attachments": "處理所有新附件",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "外掛也會將所有附件從 Obsidian 預設資料夾移動到外掛資料夾。",
+    "File name template": "檔案名稱範本",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "新附件名稱範本。變數：${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}。預設：${md5}_MD5（向後相容）。範例：${originalname}, ${notename}-${originalname}, ${date}-${md5:8}。使用'儲存新附件的資料夾'設定子資料夾。",
+    "Use markdown link format with angle brackets ![](<link>)": "使用帶尖括號的 Markdown 連結格式 ![](<link>)",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "產生連結時強制使用帶尖括號的 Markdown 連結格式，而不是編碼的 URI。",
+    "Process Canvas files": "處理 Canvas 檔案",
+    "Process images in Obsidian Canvas (.canvas files)": "處理 Obsidian Canvas (.canvas 檔案) 中的圖片",
+    "URL exclude regexps": "URL 排除正則表示式",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "每行一個：下載時排除 URL 的正則表示式。範例：\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "下載未知檔案類型",
+    "Download unknown filetypes and save them with .unknown extension.": "下載未知檔案類型並以 .unknown 副檔名儲存。",
+    "Compress images (Web Images)": "壓縮圖片 (網路圖片)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "壓縮所有下載的圖片。可將檔案大小減少數倍，但也可能影響效能。",
+    "Compress images (Pasted Images)": "壓縮圖片 (貼上圖片)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "壓縮所有貼上的圖片。可將檔案大小減少數倍，但也可能影響效能。",
+    "Compression type": "壓縮類型",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "選擇圖片壓縮類型。請注意 WebP 格式有圖片尺寸限制。",
+    "Excluded folders": "排除資料夾",
+    "Excluded folders. New files in these folders will not be processed automatically.": "排除資料夾。這些資料夾中的新檔案不會被自動處理。",
+    "Image Quality": "圖片品質",
+    "Image quality selection (30 to 100).": "圖片品質選擇 (30 到 100)。",
+    "File size lower limit in Kb": "檔案大小下限 (KB)",
+    "Do not download files with size less than this value. Set 0 for no limit.": "不下載小於此值的檔案。設為 0 表示無限制。",
+    Exclusions: "排除項",
+    "The plugin will not download attachments with these extensions.": "外掛不會下載這些副檔名的附件。",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "不建立 Obsidian 附件資料夾（為與其他外掛相容）",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "外掛不會建立 Obsidian 附件資料夾。這可能導致外掛行為異常。",
+    "Preserve link captions": "保留連結標題",
+    "Add media links captions to converted tags.": "將媒體連結標題新增到轉換後的標籤。",
+    "Include pattern": "包含模式",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "僅包含副檔名符合此模式的檔案。範例：md|canvas",
+    "Remove files completely": "完全刪除檔案",
+    "Do not move orphaned files into the garbage can.": "不將孤立檔案移入資源回收筒。",
+    "How to write paths in tags": "標籤中路徑的寫法",
+    "Select whether to write full paths in tags or not.": "選擇是否在標籤中寫入完整路徑。",
+    "Date format": "日期格式",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "${date} 變數的日期格式。例如：\n                  | MMMM Do YYYY, h:mm:ss a (2024年3月20日, 10:54:46) \n                  | dddd  (星期三)\n                  | MMM Do YY  (3月 20 24)",
+    "Folder to save new attachments": "儲存新附件的資料夾",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "選擇所有新附件的儲存位置。\n可使用範本，如 _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "移動/刪除/重命名媒體資料夾",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "當關聯筆記被刪除/重命名/移動時，重命名或移動此資料夾到 Obsidian 或系統資源回收筒。\n                  此設定僅在路徑以 ${notename} 範本結尾\n                  且勾選'下方指定資料夾中緊鄰筆記' / '相對於筆記'選項時生效。\n                  自擔風險使用。",
+    "Media folder": "媒體資料夾",
+    "Folder to keep all downloaded media files.": "儲存所有下載媒體檔案的資料夾。",
+    Debug: "除錯",
+    "Enable debug output to console.": "啟用主控台除錯輸出。",
+    "Interface settings": "介面設定",
+    "Processing settings": "處理設定",
+    "Note settings": "筆記設定",
+    "Orphaned attachments": "孤立附件",
+    "Media folder settings": "媒體資料夾設定",
+    Troubleshooting: "疑難排解",
+    "The value should be a positive integer number between 5 and 3600!": "值必須是 5 到 3600 之間的正整數！",
+    "The value should be a positive integer number between 1 and 6!": "值必須是 1 到 6 之間的正整數！",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "檔案名稱範本不能包含路徑分隔符。使用'儲存新附件的資料夾'設定子資料夾。",
+    "The value should be a positive integer number between 10 and 100!": "值必須是 10 到 100 之間的正整數！",
+    "The value should be a positive integer!": "值必須是正整數！",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "不安全的正則表示式！ https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "不安全的資料夾名稱！某些字符在某些檔案系統中被禁止。",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "完整路徑",
+    "Relative to note": "相對於筆記",
+    "Only filename": "僅檔案名稱",
+    "Copy Obsidian settings": "複製 Obsidian 設定",
+    "In the root folder specified below": "在下方指定的根資料夾中",
+    "Next to note in the folder specified below": "在下方指定資料夾中緊鄰筆記",
+    "Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.": "無法複製/下載附件！請嘗試在 frontmatter 的 'source' 欄位中新增 referer。",
+    "Attachment folder was renamed to {p}": "附件資料夾已重新命名為 {p}",
+    "Attachment folder {p} was moved to trash can.": "附件資料夾 {p} 已移至垃圾桶。",
+    "Attachments for '{p}' were processed.": "已處理 '{p}' 的附件。",
+    "Cannot get current note! ": "無法獲取當前筆記! ",
+    "Cannot get current note/canvas!": "無法獲取當前筆記/canvas!",
+    "Cannot move attachment folder: \r\n{p}": "無法移動附件資料夾: \r\n{p}",
+    "Cannot rename.": "無法重命名。",
+    "Frontmatter of '{p}' skipped (parse error)": "已跳過 '{p}' 的 frontmatter（解析錯誤）",
+    "Image downloaded and linked in '{p}'.": "圖片已下載並在 '{p}' 中連結。",
+    "Media links were found, processing...": "找到媒體連結，正在處理...",
+    "No orphaned files found!": "未找到孤立檔案!",
+    "Page '{p}' has been processed, but nothing was changed.": "頁面 '{p}' 已處理，但無變化。",
+    "Please select a note or click inside selected note in canvas.": "請選擇一條筆記或在畫布中點擊選中的筆記。",
+    "Please, select a note or click inside a note in canvas!": "請選擇一條筆記或在畫布中點擊筆記!",
+    "Remote image not found in '{p}' or it is already local.": "在 '{p}' 中未找到遠程圖片或其已為本地圖片。",
+    "Single image download failed: {p}": "單張圖片下載失敗: {p}",
+    "The attachment folder {p} does not exist!": "附件資料夾 {p} 不存在!",
+    "The note was renamed to {p}": "筆記已重新命名為 {p}",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "此命令無法在 vault 根目錄或筆記旁的子資料夾中運行!\n請先更改設置!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "此命令需要啟用設置 '下方指定資料夾中的筆記旁' 和末尾的 '${notename}' 模式，路徑也不能包含 ${date} 模式。\n請先更改設置!\r\n",
+    "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "警告!\r\n已處理 \'{p}\' 的附件，但某些附件未下載/替換...",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "您的 Obsidian 媒體資料夾設置為 {p} 並由外掛程式建立。請重試。",
+    "{p} attachments for note {p} were processed.": "已處理筆記 {p} 的 {p} 個附件。",
+    "{p} file(s) {p}": "{p} 個檔案 {p}",
+};
+
+var uk = {
+    "Show notifications": "Показувати сповіщення",
+    "Show notifications when pages were processed.": "Показувати сповіщення, коли сторінки були оброблені.",
+    "Context menu: download single image": "Контекстне меню: завантажити окреме зображення",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "Показувати 'Завантажити це зображення' при правий кнопці миші на віддаленому зображенні в Live Preview. Завантажує тільки це зображення і замінює його посилання.",
+    "Disable additional commands": "Вимкнути додаткові команди",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "Не показувати додаткові команди в палітрі команд. Перезавантажте плагін у налаштуваннях для вступу в силу (вимк/увмк).",
+    "Automatic processing": "Автоматична обробка",
+    "Process notes on create/copy/paste.": "Обробляти нотатки при створенні/копіюванні/вставці.",
+    "Process images in frontmatter": "Обробляти зображення у frontmatter",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Завантажувати та локалізувати посилання на зображення в YAML frontmatter. Коли вимкнено, блок frontmatter залишається незмінним (ключ 'source' все ще використовується як реферер для зображень у тілі).",
+    "Automatic processing interval": "Інтервал автоматичної обробки",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Інтервал у секундах для оновлення обробки. Потрібен час, щоб змінений вміст нотатки став доступним для плагінів.",
+    "Number of retries for every single attachment": "Кількість спроб для кожного вкладення",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "Якщо виникає помилка під час завантаження (мережа тощо), спробувати завантажити знову кілька разів.",
+    "Process all new markdown files": "Обробляти всі нові markdown-файли",
+    "Process all new created/cloud-synced files with corresponding extensions.": "Обробляти всі нові створені/хмарно-синхронізовані файли з відповідними розширеннями.",
+    "Process all new attachments": "Обробляти всі нові вкладення",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "Плагін також перемістить всі вкладення з папки Obsidian за замовчуванням у папку плагіна.",
+    "File name template": "Шаблон імені файлу",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "Шаблон для імен нових вкладень. Змінні: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. За замовчуванням: ${md5}_MD5 (сумісність з попередніми версіями). Приклади: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Використовуйте 'Папка для збереження нових вкладень' для підпапок.",
+    "Use markdown link format with angle brackets ![](<link>)": "Використовувати формат markdown-посилання з кутовими дужками ![](<link>)",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "Примусово використовувати формат markdown-посилання з кутовими дужками замість закодованого URI при генерації посилань.",
+    "Process Canvas files": "Обробляти файли Canvas",
+    "Process images in Obsidian Canvas (.canvas files)": "Обробляти зображення в Obsidian Canvas (.canvas файли)",
+    "URL exclude regexps": "Регулярні вирази для виключення URL",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "Один на рядок: регулярні вирази для виключення URL при завантаженні. Приклади:\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "Завантажувати невідомі типи файлів",
+    "Download unknown filetypes and save them with .unknown extension.": "Завантажувати невідомі типи файлів і зберігати їх з розширенням .unknown.",
+    "Compress images (Web Images)": "Стискати зображення (Веб-зображення)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "Стискати всі завантажені зображення. Може зменшити розмір файлу в декілька разів, але також може вплинути на продуктивність.",
+    "Compress images (Pasted Images)": "Стискати зображення (Вставлені зображення)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "Стискати всі вставлені зображення. Може зменшити розмір файлу в декілька разів, але також може вплинути на продуктивність.",
+    "Compression type": "Тип стиснення",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "Виберіть тип стиснення зображення. Пам'ятайте, що формат webp має обмеження розміру зображення.",
+    "Excluded folders": "Виключені папки",
+    "Excluded folders. New files in these folders will not be processed automatically.": "Виключені папки. Нові файли у цих папках не будуть оброблятися автоматично.",
+    "Image Quality": "Якість зображення",
+    "Image quality selection (30 to 100).": "Вибір якості зображення (від 30 до 100).",
+    "File size lower limit in Kb": "Нижня межа розміру файлу в Кб",
+    "Do not download files with size less than this value. Set 0 for no limit.": "Не завантажувати файли з розміром менше цього значення. Встановіть 0 для відсутності ліміту.",
+    Exclusions: "Виключення",
+    "The plugin will not download attachments with these extensions.": "Плагін не буде завантажувати вкладення з цими розширеннями.",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "Не створювати папку вкладень Obsidian (Для сумісності з іншими плагінами)",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "Плагін не створить папку вкладень Obsidian. Це може призвести до неправильної роботи плагіна.",
+    "Preserve link captions": "Зберегти підписи посилань",
+    "Add media links captions to converted tags.": "Додати підписи медіа-посилань до конвертованих тегів.",
+    "Include pattern": "Шаблон включення",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "Включати лише файли з розширеннями, що відповідають цьому шаблону. Приклад: md|canvas",
+    "Remove files completely": "Видалити файли повністю",
+    "Do not move orphaned files into the garbage can.": "Не переміщувати сиротські файли у смітник.",
+    "How to write paths in tags": "Як записувати шляхи в тегах",
+    "Select whether to write full paths in tags or not.": "Оберіть, чи записувати повні шляхи в тегах чи ні.",
+    "Date format": "Формат дати",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "Формат дати для змінної ${date}. Напр. :\n                  | MMMM Do YYYY, h:mm:ss a (20 березня 2024, 10:54:46) \n                  | dddd  (середа)\n                  | MMM Do YY  (берез 20 24)",
+    "Folder to save new attachments": "Папка для збереження нових вкладень",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "Виберіть, де будуть зберігатися всі нові вкладення.\nВи можете використовувати шаблони, напр. _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "Перемістити/видалити/перейменувати медіа-папку",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "Перейменуйте або перемістіть цю папку в смітник Obsidian або системи, коли пов'язана нотатка видалена/перейменована/переміщена. \n                  Цей параметр діє лише якщо шлях містить шаблон ${notename} в кінці\n                  і обрані опції 'Біля нотатки в вказаній нижче папці' / 'Відносно нотатки'.\n                  Використовуйте на власний ризик.",
+    "Media folder": "Медіа-папка",
+    "Folder to keep all downloaded media files.": "Папка для зберігання всіх завантажених медіа-файлів.",
+    Debug: "Налагодження",
+    "Enable debug output to console.": "Увімкнути вивід налагодження у консоль.",
+    "Interface settings": "Налаштування інтерфейсу",
+    "Processing settings": "Налаштування обробки",
+    "Note settings": "Налаштування нотаток",
+    "Orphaned attachments": "Сиротські вкладення",
+    "Media folder settings": "Налаштування медіа-папки",
+    Troubleshooting: "Вирішення проблем",
+    "The value should be a positive integer number between 5 and 3600!": "Значення має бути додатнім цілим числом від 5 до 3600!",
+    "The value should be a positive integer number between 1 and 6!": "Значення має бути додатнім цілим числом від 1 до 6!",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "Шаблон імені файлу не може містити роздільники шляхів. Використовуйте 'Папку для збереження нових вкладень' для встановлення підпапок.",
+    "The value should be a positive integer number between 10 and 100!": "Значення має бути додатнім цілим числом від 10 до 100!",
+    "The value should be a positive integer!": "Значення має бути додатнім цілим числом!",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "Небезпечний регулярний вираз! https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "Небезпечна назва папки! Деякі символи заборонені у деяких файловых системах.",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "Повний шлях",
+    "Relative to note": "Відносно нотатки",
+    "Only filename": "Тільки ім'я файлу",
+    "Copy Obsidian settings": "Копіювати налаштування Obsidian",
+    "In the root folder specified below": "У кореневій папці, вказаній нижче",
+    "Next to note in the folder specified below": "Біля нотатки у вказаній нижче папці",
+    "Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.": "Неможливо скопіювати/завантажити вкладення! Спробуйте додати referer у поле 'source' frontmatter.",
+    "{p} file(s) {p}": "{p} файл(ів) {p}",
+    "{p} attachments for note {p}": "{p} вкладень для нотатки {p}",
+    "Frontmatter of '{p}' skipped (parse error)": "Frontmatter '{p}' пропущено (помилка розбору)",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "Папка медіа Obsidian встановлена як {p} і створена плагіном. Спробуйте ще раз.",
+    "You obsidian media folder set to {p}, and has been changed to {p}. Please, note that the plugin settings might need to be updated.": "Папка медіа Obsidian змінена з {p} на {p}. Можливо, потрібно оновити налаштування плагіна.",
+    "Attachment folder was renamed to {p}": "Папку вкладень перейменовано на {p}",
+    "Attachment folder {p} was moved to trash can.": "Папку вкладень {p} переміщено до кошика.",
+    "Attachments for '{p}' were processed.": "Вкладення для '{p}' оброблено.",
+    "Cannot get current note! ": "Не вдалося отримати поточну нотатку! ",
+    "Cannot get current note/canvas!": "Не вдалося отримати поточну нотатку/canvas!",
+    "Cannot move attachment folder: \r\n{p}": "Не вдалося перемістити папку вкладень: \r\n{p}",
+    "Cannot rename.": "Неможливо перейменувати.",
+    "Image downloaded and linked in '{p}'.": "Зображення завантажено та пов'язано у '{p}'.",
+    "Media links were found, processing...": "Знайдено медіа-посилання, обробка...",
+    "No orphaned files found!": "Невикористані файли не знайдено!",
+    "Page '{p}' has been processed, but nothing was changed.": "Сторінка '{p}' оброблена, але нічого не змінилося.",
+    "Please select a note or click inside selected note in canvas.": "Будь ласка, оберіть нотатку або клацніть всередині вибраної нотатки в canvas.",
+    "Please, select a note or click inside a note in canvas!": "Будь ласка, оберіть нотатку або клацніть всередині нотатки в canvas!",
+    "Remote image not found in '{p}' or it is already local.": "Віддалене зображення не знайдено в '{p}' або воно вже локальне.",
+    "Single image download failed: {p}": "Не вдалося завантажити зображення: {p}",
+    "The attachment folder {p} does not exist!": "Папка вкладень {p} не існує!",
+    "The note was renamed to {p}": "Нотатку перейменовано на {p}",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "Ця команда не може виконуватися в корені сховища або в підпапці поруч з нотаткою!\nБудь ласка, спочатку змініть налаштування!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Ця команда вимагає налаштування 'Поруч з нотаткою в папці, вказаній нижче' та шаблону '${notename}' в кінці, також шлях не може містити шаблон ${date}.\nБудь ласка, спочатку змініть налаштування!\r\n",
+    "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "УВАГА!\r\nВкладення для \'{p}\' оброблено, але деякі вкладення не були завантажені/замінені...",
+    "{p} attachments for note {p} were processed.": "{p} вкладень для нотатки {p} оброблено.",
+};
+
+var tr = {
+    "Show notifications": "Bildirimleri Göster",
+    "Show notifications when pages were processed.": "Sayfalar işlendiğinde bildirimleri göster.",
+    "Context menu: download single image": "Bağlam menüsü: tek görsel indir",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "Canlı Önizleme'de uzak bir görsele sağ tıklandığında 'Bu görseli indir' göster. Sadece o görseli indirir ve bağlantısını değiştirir.",
+    "Disable additional commands": "Ek komutları devre dışı bırak",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "Komut paletinde ek komutları gösterme. Ayarlar eklentiyi yeniden yükleyerek etkili hale getirin (kapat/aç).",
+    "Automatic processing": "Otomatik işleme",
+    "Process notes on create/copy/paste.": "Oluşturma/kopyalama/yapıştırma işlemlerinde notları işle.",
+    "Process images in frontmatter": "Frontmatter'daki görselleri işle",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "YAML frontmatter'daki görsel bağlantılarını indir ve yerelleştir. Devre dışı bırakıldığında frontmatter bloğu dokunulmaz ('source' anahtarı gövde görselleri için referans olarak kullanılır).",
+    "Automatic processing interval": "Otomatik işleme aralığı",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "İşleme güncellemesi için saniye cinsinden aralık. Bir notun değiştirilmiş içeriğinin eklentilere yansması biraz zaman alır.",
+    "Number of retries for every single attachment": "Her ek için yeniden deneme sayısı",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "İndirme sırasında hata oluşursa (ağ vb.) yeniden indirmeyi birkaç kez dene.",
+    "Process all new markdown files": "Tüm yeni markdown dosyalarını işle",
+    "Process all new created/cloud-synced files with corresponding extensions.": "İlgili uzantılara sahip tüm yeni oluşturulan/bulut-senkronize edilmiş dosyaları işle.",
+    "Process all new attachments": "Tüm yeni ekleri işle",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "Eklenti ayrıca tüm ekleri Obsidian varsayılan klasöründen eklenti klasörüne taşıyacaktır.",
+    "File name template": "Dosya adı şablonu",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "Yeni ek isimleri için şablon. Değişkenler: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Varsayılan: ${md5}_MD5 (geri dönük uyumlu). Örnekler: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. 'Yeni ekleri kaydetmek için klasör' alt klasörler için kullanın.",
+    "Use markdown link format with angle brackets ![](<link>)": "Açılı ayraçlı markdown bağlantı formatını kullan ![](<link>)",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "Bağlantı oluştururken kodlanmış URI yerine açılı ayraçlı markdown bağlantı formatını zorla kullan.",
+    "Process Canvas files": "Canvas dosyalarını işle",
+    "Process images in Obsidian Canvas (.canvas files)": "Obsidian Canvas (.canvas dosyaları) içindeki görselleri işle",
+    "URL exclude regexps": "URL hariç tutma regexleri",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "Satır başına bir tane: indirme sırasında URL'leri hariç tutmak için regexler. Örnekler:\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "Bilinmeyen dosya türlerini indir",
+    "Download unknown filetypes and save them with .unknown extension.": "Bilinmeyen dosya türlerini indir ve .unknown uzantısıyla kaydet.",
+    "Compress images (Web Images)": "Görselleri sıkıştır (Web Görselleri)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "İndirilen tüm görselleri sıkıştır. Dosya boyutunu birkaç kat azaltabilir, ancak performansı da etkileyebilir.",
+    "Compress images (Pasted Images)": "Görselleri sıkıştır (Yapıştırılan Görseller)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "Yapıştırılan tüm görselleri sıkıştır. Dosya boyutunu birkaç kat azaltabilir, ancak performansı da etkileyebilir.",
+    "Compression type": "Sıkıştırma türü",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "Görsel sıkıştırma türü seç. Webp formatının görsel boyutu sınırlamaları olduğunu unutma.",
+    "Excluded folders": "Hariç tutulan klasörler",
+    "Excluded folders. New files in these folders will not be processed automatically.": "Hariç tutulan klasörler. Bu klasörlerdeki yeni dosyalar otomatik işlenmeyecektir.",
+    "Image Quality": "Görsel Kalitesi",
+    "Image quality selection (30 to 100).": "Görsel kalitesi seçimi (30 ile 100 arası).",
+    "File size lower limit in Kb": "Dosya boyutu alt sınırı (KB)",
+    "Do not download files with size less than this value. Set 0 for no limit.": "Bu değerden küçük dosyaları indirme. Sınırsız için 0 ayarla.",
+    Exclusions: "Hariç tutmalar",
+    "The plugin will not download attachments with these extensions.": "Eklenti bu uzantılı ekleri indirmeyecektir.",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "Obsidian ek klasörü oluşturma (Diğer eklentilerle uyumluluk için)",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "Eklenti Obsidian ek klasörü oluşturmayacak. Bu eklentinin yanlış davranmasına neden olabilir.",
+    "Preserve link captions": "Bağlantı altyazılarını koru",
+    "Add media links captions to converted tags.": "Medya bağlantı altyazılarını dönüştürülmüş etiketlere ekle.",
+    "Include pattern": "Dahil etme deseni",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "Bu desene uyan uzantılı dosyaları dahil et. Örnek: md|canvas",
+    "Remove files completely": "Dosyaları tamamen kaldır",
+    "Do not move orphaned files into the garbage can.": "Ebeveynsiz dosyaları çöp kutusuna taşıma.",
+    "How to write paths in tags": "Etiketlerde yolları nasıl yazacağız",
+    "Select whether to write full paths in tags or not.": "Etiketlerde tam yollar yazılıp yazılmayacağını seçin.",
+    "Date format": "Tarih formatı",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "${date} değişkeni için tarih formatı. Örn. :\n                  | MMMM Do YYYY, h:mm:ss a (20 Mart 2024, 10:54:46) \n                  | dddd  (Çarşamba)\n                  | MMM Do YY  (Mar 20 24)",
+    "Folder to save new attachments": "Yeni ekleri kaydetmek için klasör",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "Tüm yeni eklerin kaydedileceği yeri seçin.\nŞablon kullanabilirsiniz örn. _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "Medya klasörünü taşı/sil/yeniden adlandır",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "İlgili not silindiğinde/yeniden adlandırıldığında/taşıdığında bu klasörü Obsidian veya sistem çöp kutusuna yeniden adlandırın veya taşıyın. \n                  Bu ayar sadece yol ${notename} şablonunu sonuna içeriyorsa ve 'Aşağıda belirtilen klasörde notun yanında' / 'Notla göreli' seçenekleri seçiliyse geçerlidir.\n                  Bu ayarı kendi riskinizle kullanın.",
+    "Media folder": "Medya klasörü",
+    "Folder to keep all downloaded media files.": "İndirilen tüm medya dosyalarını tutacak klasör.",
+    Debug: "Hata ayıklama",
+    "Enable debug output to console.": "Konsola hata ayıklama çıktısını etkinleştir.",
+    "Interface settings": "Arayüz ayarları",
+    "Processing settings": "İşleme ayarları",
+    "Note settings": "Not ayarları",
+    "Orphaned attachments": "Ebeveynsiz ekler",
+    "Media folder settings": "Medya klasörü ayarları",
+    Troubleshooting: "Sorun giderme",
+    "The value should be a positive integer number between 5 and 3600!": "Değer 5 ile 3600 arasında pozitif bir tam sayı olmalıdır!",
+    "The value should be a positive integer number between 1 and 6!": "Değer 1 ile 6 arasında pozitif bir tam sayı olmalıdır!",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "Dosya adı şablonu yol ayırıcıları içeremez. Alt klasörleri ayarlamak için 'Yeni ekleri kaydetmek için klasör'ü kullanın.",
+    "The value should be a positive integer number between 10 and 100!": "Değer 10 ile 100 arasında pozitif bir tam sayı olmalıdır!",
+    "The value should be a positive integer!": "Değer pozitif bir tam sayı olmalıdır!",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "Güvenli olmayan regex! https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "Güvenli olmayan klasör adı! Bazı karakterler bazı dosya sistemlerinde yasaktır.",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "Tam yol",
+    "Relative to note": "Notla göreli",
+    "Only filename": "Sadece dosya adı",
+    "Copy Obsidian settings": "Obsidian ayarlarını kopyala",
+    "In the root folder specified below": "Aşağıda belirtilen kök klasörde",
+    "Next to note in the folder specified below": "Aşağıda belirtilen klasörde notun yanında",
+    "Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.": "Ek kopyalanamıyor/indirilemiyor! Frontmatter 'source' alanına referer eklemeyi deneyin.",
+    "{p} file(s) {p}": "{p} dosya {p}",
+    "{p} attachments for note {p}": "{p} ekleri not {p}",
+    "Frontmatter of '{p}' skipped (parse error)": "'{p}' frontmatter atlandı (ayrıştırma hatası)",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "Obsidian medya klasörü {p} olarak ayarlandı ve eklenti tarafından oluşturuldu. Lütfen tekrar deneyin.",
+    "You obsidian media folder set to {p}, and has been changed to {p}. Please, note that the plugin settings might need to be updated.": "Obsidian medya klasörü {p} iken {p} olarak değiştirildi. Eklenti ayarlarının güncellenmesi gerekebilir.",
+    "Attachment folder was renamed to {p}": "Ek dosya klasörü {p} olarak yeniden adlandırıldı",
+    "Attachment folder {p} was moved to trash can.": "Ek dosya klasörü {p} çöp kutusuna taşındı.",
+    "Attachments for '{p}' were processed.": "'{p}' için ekler işlendi.",
+    "Cannot get current note! ": "Mevcut not alınamıyor! ",
+    "Cannot get current note/canvas!": "Mevcut not/canvas alınamıyor!",
+    "Cannot move attachment folder: \r\n{p}": "Ek dosya klasörü taşınamıyor: \r\n{p}",
+    "Cannot rename.": "Yeniden adlandırılamıyor.",
+    "Image downloaded and linked in '{p}'.": "Resim indirildi ve '{p}' içinde bağlandı.",
+    "Media links were found, processing...": "Medya bağlantıları bulundu, işleniyor...",
+    "No orphaned files found!": "Baba eşi olmayan dosya bulunamadı!",
+    "Page '{p}' has been processed, but nothing was changed.": "'{p}' sayfası işlendi ama hiçbir şey değişmedi.",
+    "Please select a note or click inside selected note in canvas.": "Lütfen bir not seçin veya canvas'ta seçili notun içine tıklayın.",
+    "Please, select a note or click inside a note in canvas!": "Lütfen bir not seçin veya canvas'ta bir notun içine tıklayın!",
+    "Remote image not found in '{p}' or it is already local.": "Uzak resim '{p}' içinde bulunamadı veya zaten yerel.",
+    "Single image download failed: {p}": "Tek resim indirme başarısız: {p}",
+    "The attachment folder {p} does not exist!": "Ek dosya klasörü {p} mevcut değil!",
+    "The note was renamed to {p}": "Not {p} olarak yeniden adlandırıldı",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "Bu komut vault kökünde veya notun yanındaki alt klasörde çalıştırılamaz!\nLütfen önce ayarları değiştirin!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Bu komut, aşağıda belirtilen klasördeki 'Notun yanında' ayarının ve '${notename}' deseninin sonunda etkinleştirilmesini, ayrıca yolların ${date} desenini içermemesini gerektirir.\nLütfen önce ayarları değiştirin!\r\n",
+    "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "UYARI!\r\n\'{p}\' için ekler işlendi ancak bazı ekler indirilmedi/değiştirilmedi...",
+    "{p} attachments for note {p} were processed.": "{p} not için {p} ek işlendi.",
+};
+
+var nl = {
+    "Show notifications": "Meldingen tonen",
+    "Show notifications when pages were processed.": "Meldingen tonen wanneer pagina's zijn verwerkt.",
+    "Context menu: download single image": "Contextmenu: enkele afbeelding downloaden",
+    "Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link.": "Toon 'Deze afbeelding downloaden' bij rechtsklikken op een externe afbeelding in Live Preview. Downloadt alleen die afbeelding en vervangt de link.",
+    "Disable additional commands": "Extra commando's uitschakelen",
+    "Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).": "Extra commando's niet tonen in het commandopalet. Herlaad de plugin in de instellingen om effect te laten treden (uit/aan).",
+    "Automatic processing": "Automatische verwerking",
+    "Process notes on create/copy/paste.": "Notities verwerken bij aanmaken/kopiëren/plakken.",
+    "Process images in frontmatter": "Afbeeldingen in frontmatter verwerken",
+    "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Afbeeldingslinks in de YAML frontmatter downloaden en lokaliseren. Wanneer uitgeschakeld blijft het frontmatter-blok ongewijzigd ('source' sleutel wordt nog steeds gebruikt als referer voor body-afbeeldingen).",
+    "Automatic processing interval": "Interval automatische verwerking",
+    "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Interval in seconden voor verwerkingsupdate. Het duurt even voordat gewijzigde inhoud van een notitie zichtbaar is voor plugins.",
+    "Number of retries for every single attachment": "Aantal pogingen voor elke enkele bijlage",
+    "If an error occurs during downloading (network etc.) try to re-download several times.": "Als er een fout optreedt tijdens downloaden (netwerk etc.), probeer meerdere keren opnieuw te downloaden.",
+    "Process all new markdown files": "Alle nieuwe markdown-bestanden verwerken",
+    "Process all new created/cloud-synced files with corresponding extensions.": "Alle nieuw aangemaakte/cloud-gesynchroniseerde bestanden met bijbehorende extensies verwerken.",
+    "Process all new attachments": "Alle nieuwe bijlagen verwerken",
+    "The plugin will also move all attachments from obsidian default folder to plugin folder.": "De plugin verplaatst ook alle bijlagen van de standaard Obsidian-map naar de plugin-map.",
+    "File name template": "Bestandsnaamsjabloon",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders.": "Sjabloon voor nieuwe bijlagennamen. Variabelen: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Standaard: ${md5}_MD5 (achterwaarts compatibel). Voorbeelden: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Gebruik 'Map om nieuwe bijlagen op te slaan' voor submappen.",
+    "Use markdown link format with angle brackets ![](<link>)": "Markdown-linkformaat met haakjes ![](<link>) gebruiken",
+    "Force using markdown link format with angle brackets instead of encoded URI when generating links.": "Dwingen om markdown-linkformaat met haakjes te gebruiken in plaats van gecodeerde URI bij het genereren van links.",
+    "Process Canvas files": "Canvas-bestanden verwerken",
+    "Process images in Obsidian Canvas (.canvas files)": "Afbeeldingen in Obsidian Canvas (.canvas-bestanden) verwerken",
+    "URL exclude regexps": "URL uitsluiting regexes",
+    "One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*": "Eén per regel: regexes om URLs uit te sluiten bij downloaden. Voorbeelden:\n^https://example\\.com/.*\n.*ads\\..*",
+    "Download unknown filetypes": "Onbekende bestandstypen downloaden",
+    "Download unknown filetypes and save them with .unknown extension.": "Onbekende bestandstypen downloaden en opslaan met .unknown extensie.",
+    "Compress images (Web Images)": "Afbeeldingen comprimeren (Web-afbeeldingen)",
+    "Compress all downloaded images. May reduce file size by several times, but can also affect performance.": "Alle gedownloade afbeeldingen comprimeren. Kan bestandsgrootte met een veelvoud verkleinen, maar kan ook prestaties beïnvloeden.",
+    "Compress images (Pasted Images)": "Afbeeldingen comprimeren (Plakafbeeldingen)",
+    "Compress all pasted images. May reduce file size by several times, but can also affect performance.": "Alle geplakte afbeeldingen comprimeren. Kan bestandsgrootte met een veelvoud verkleinen, maar kan ook prestaties beïnvloeden.",
+    "Compression type": "Compressietype",
+    "Select image compression type. Keep in mind that webp format has image size limitations.": "Selecteer afbeeldingcompressietype. Houd er rekening mee dat webp-formaat afbeeldingsgroottebeperkingen heeft.",
+    "Excluded folders": "Uitgesloten mappen",
+    "Excluded folders. New files in these folders will not be processed automatically.": "Uitgesloten mappen. Nieuwe bestanden in deze mappen worden niet automatisch verwerkt.",
+    "Image Quality": "Afbeeldingskwaliteit",
+    "Image quality selection (30 to 100).": "Afbeeldingskwaliteit selectie (30 tot 100).",
+    "File size lower limit in Kb": "Ondergrens bestandsgrootte in KB",
+    "Do not download files with size less than this value. Set 0 for no limit.": "Geen bestanden downloaden met een grootte kleiner dan deze waarde. Stel 0 in voor geen limiet.",
+    Exclusions: "Uitsluitingen",
+    "The plugin will not download attachments with these extensions.": "De plugin zal geen bijlagen met deze extensies downloaden.",
+    "Do not create Obsidian attachment folder (For compatibility with other plugins)": "Geen Obsidian-bijlagemap aanmaken (Voor compatibiliteit met andere plugins)",
+    "The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ": "De plugin maakt geen Obsidian-bijlagemap aan. Dit kan ertoe leiden dat de plugin onjuist gedraagt.",
+    "Preserve link captions": "Linkbijschriften behouden",
+    "Add media links captions to converted tags.": "Media-linkbijschriften toevoegen aan geconverteerde tags.",
+    "Include pattern": "Inclusiepatroon",
+    "Include only files with extensions only matching this pattern. Example: md|canvas": "Alleen bestanden opnemen met extensies die overeenkomen met dit patroon. Voorbeeld: md|canvas",
+    "Remove files completely": "Bestanden volledig verwijderen",
+    "Do not move orphaned files into the garbage can.": "Weesbestanden niet naar de prullenbak verplaatsen.",
+    "How to write paths in tags": "Hoe paden in tags te schrijven",
+    "Select whether to write full paths in tags or not.": "Selecteer of volledige paden in tags geschreven moeten worden of niet.",
+    "Date format": "Datumformaat",
+    "Date format for ${date} variable. E.g. \n                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \n                  | dddd  (Wednesday)\n                  | MMM Do YY  (Mar 20th 24)": "Datumformaat voor ${date} variabele. Bijv. :\n                  | MMMM Do YYYY, h:mm:ss a (20 maart 2024, 10:54:46) \n                  | dddd  (woensdag)\n                  | MMM Do YY  (mrt 20 24)",
+    "Folder to save new attachments": "Map om nieuwe bijlagen op te slaan",
+    "Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}": "Selecteer waar alle nieuwe bijlagen opgeslagen zullen worden.\nJe kunt sjablonen gebruiken bv. _resources/${date}/${notename}",
+    "Move/delete/rename media folder": "Media-map verplaatsen/verwijderen/hernoemen",
+    "Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \n                  This setting takes effect only if the path contains ${notename} template at the end\n                  and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\n                  Use this setting at your own risk.": "Deze map hernoemen of verplaatsen naar de Obsidian- of systeemprullenbak wanneer de gekoppelde notitie verwijderd/hernoemd/verplaatst wordt. \n                  Deze instelling werkt alleen als het pad de ${notename}-sjabloon aan het eind bevat\n                  en de opties 'Naar de notitie in de hieronder opgegeven map' / 'Relatief aan de notitie' geselecteerd zijn.\n                  Gebruik deze instelling op eigen risico.",
+    "Media folder": "Media-map",
+    "Folder to keep all downloaded media files.": "Map om alle gedownloade mediabestanden te bewaren.",
+    Debug: "Foutopsporing",
+    "Enable debug output to console.": "Foutopsporingsuitvoer naar console inschakelen.",
+    "Interface settings": "Interface-instellingen",
+    "Processing settings": "Verwerkingsinstellingen",
+    "Note settings": "Notitie-instellingen",
+    "Orphaned attachments": "Weesbijlagen",
+    "Media folder settings": "Media-map instellingen",
+    Troubleshooting: "Probleemoplossing",
+    "The value should be a positive integer number between 5 and 3600!": "De waarde moet een positief geheel getal zijn tussen 5 en 3600!",
+    "The value should be a positive integer number between 1 and 6!": "De waarde moet een positief geheel getal zijn tussen 1 en 6!",
+    "File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders.": "Bestandsnaamsjabloon mag geen padscheidingstekens bevatten. Gebruik 'Map om nieuwe bijlagen op te slaan' voor submappen.",
+    "The value should be a positive integer number between 10 and 100!": "De waarde moet een positief geheel getal zijn tussen 10 en 100!",
+    "The value should be a positive integer!": "De waarde moet een positief geheel getal zijn!",
+    "Unsafe regex! https://www.npmjs.com/package/safe-regex": "Onveilige regex! https://www.npmjs.com/package/safe-regex",
+    "Unsafe folder name! Some chars are forbidden in some filesystems.": "Onveilige mapnaam! Sommige tekens zijn verboden in sommige bestandssystemen.",
+    WebP: "WebP",
+    JPEG: "JPEG",
+    "Full path": "Volledig pad",
+    "Relative to note": "Relatief aan notitie",
+    "Only filename": "Alleen bestandsnaam",
+    "Copy Obsidian settings": "Obsidian-instellingen kopiëren",
+    "In the root folder specified below": "In de hieronder opgegeven rootmap",
+    "Next to note in the folder specified below": "Naar de notitie in de hieronder opgegeven map",
+    "Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.": "Kan bijlage niet kopiëren/downloaden! Probeer referer toe te voegen aan het 'source' veld in frontmatter.",
+    "{p} file(s) {p}": "{p} bestand(en) {p}",
+    "{p} attachments for note {p}": "{p} bijlagen voor notitie {p}",
+    "Frontmatter of '{p}' skipped (parse error)": "Frontmatter van '{p}' overgeslagen (parseerfout)",
+    "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "Jouw Obsidian mediamap is ingesteld op {p} en is aangemaakt door de plugin. Probeer het opnieuw.",
+    "You obsidian media folder set to {p}, and has been changed to {p}. Please, note that the plugin settings might need to be updated.": "De mediummap van Obsidian is gewijzigd van {p} naar {p}. Mogelijk moeten de plugininstellingen worden bijgewerkt.",
+    "Attachment folder was renamed to {p}": "De bijlage map is hernoemd naar {p}",
+    "Attachment folder {p} was moved to trash can.": "De bijlage map {p} is verplaatst naar de prullenbak.",
+    "Attachments for '{p}' were processed.": "Bijlagen voor '{p}' zijn verwerkt.",
+    "Cannot get current note! ": "Huidige notitie kan niet worden opgehaald! ",
+    "Cannot get current note/canvas!": "Huidige notitie/canvas kan niet worden opgehaald!",
+    "Cannot move attachment folder: \r\n{p}": "Bijlage map kan niet worden verplaatst: \r\n{p}",
+    "Cannot rename.": "Kan niet hernoemd worden.",
+    "Image downloaded and linked in '{p}'.": "Afbeelding gedownload en gelinkt in '{p}'.",
+    "Media links were found, processing...": "Medialinks gevonden, verwerken...",
+    "No orphaned files found!": "Geen weesbestanden gevonden!",
+    "Page '{p}' has been processed, but nothing was changed.": "Pagina '{p}' is verwerkt, maar niets is gewijzigd.",
+    "Please select a note or click inside selected note in canvas.": "Selecteer een notitie of klik in de geselecteerde notitie in canvas.",
+    "Please, select a note or click inside a note in canvas!": "Selecteer een notitie of klik in een notitie in canvas!",
+    "Remote image not found in '{p}' or it is already local.": "Externe afbeelding niet gevonden in '{p}' of is al lokaal.",
+    "Single image download failed: {p}": "Download van enkele afbeelding mislukt: {p}",
+    "The attachment folder {p} does not exist!": "De bijlage map {p} bestaat niet!",
+    "The note was renamed to {p}": "De notitie is hernoemd naar {p}",
+    "This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n": "Deze opdracht kan niet worden uitgevoerd in de root van de vault of in een submapp naast de notitie!\nWijzig eerst de instellingen!\r\n",
+    "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Deze opdracht vereist de instelling 'Naast notitie in de onderstaand opgegeven map' en het patroon '${notename}' aan het einde ingeschakeld, ook mag het pad geen ${date} patroon bevatten.\nWijzig eerst de instellingen!\r\n",
+    "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "WAARSCHUWING!\r\nBijlagen voor \'{p}\' zijn verwerkt, maar sommige bijlagen zijn niet gedownload/vervangen...",
+    "{p} attachments for note {p} were processed.": "{p} bijlagen voor notitie {p} zijn verwerkt.",
+};
+
+const dicts = {
+    ru,
+    pl,
+    de,
+    fr,
+    es,
+    it,
+    pt,
+    "pt-br": ptBR,
+    ja,
+    ko,
+    zh,
+    "zh-tw": zhTW,
+    uk,
+    tr,
+    nl,
+};
+function translate(key, params) {
+    logError("Translating: ");
+    try {
+        const lang = obsidian.getLanguage() || "en";
+        logError("App language: " + lang);
+        const loc = String(lang).toLowerCase();
+        if (lang === "en") {
+            return params ? formatString(key, params) : key;
+        }
+        const trans = dicts[loc][key] || key;
+        return params ? formatString(trans, params) : trans;
+    }
+    catch (e) {
+        logError("Translation error: " + String(e));
+        return key;
+    }
+}
+function formatString(template, params) {
+    let result = template;
+    params.forEach((param) => {
+        result = result.replace('{p}', param);
+    });
+    return result;
+}
+// Usage
+///formatString("Text {p} text2 {p}", ["param1", "param2"]);
+
 class SettingTab extends obsidian.PluginSettingTab {
     constructor(app, plugin) {
         super(app, plugin);
@@ -13998,12 +15823,11 @@ class SettingTab extends obsidian.PluginSettingTab {
         let { containerEl } = this;
         containerEl.empty();
         containerEl.createEl("h1", { text: APP_TITLE });
-        containerEl.createEl("div");
-        // donheader.createEl("a", { text: "Support the project! ", href: "https://www.buymeacoffee.com/sergeikorneev", cls: "donheader_txt" })
-        containerEl.createEl("h3", { text: "Interface settings" });
+        /* Buy Me a Coffee link removed as requested */
+        containerEl.createEl("h3", { text: translate("Interface settings") });
         new obsidian.Setting(containerEl)
-            .setName("Show notifications")
-            .setDesc("Show notifications when pages were processed.")
+            .setName(translate("Show notifications"))
+            .setDesc(translate("Show notifications when pages were processed."))
             .addToggle((toggle) => toggle
             .setValue(this.plugin.settings.showNotifications)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
@@ -14011,18 +15835,27 @@ class SettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Disable additional commands")
-            .setDesc("Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on).")
+            .setName(translate("Context menu: download single image"))
+            .setDesc(translate("Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link."))
+            .addToggle((toggle) => toggle
+            .setValue(this.plugin.settings.contextMenuDownload)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.contextMenuDownload = value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(containerEl)
+            .setName(translate("Disable additional commands"))
+            .setDesc(translate("Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on)."))
             .addToggle((toggle) => toggle
             .setValue(this.plugin.settings.disAddCom)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
             this.plugin.settings.disAddCom = value;
             yield this.plugin.saveSettings();
         })));
-        containerEl.createEl("h3", { text: "Processing settings" });
+        containerEl.createEl("h3", { text: translate("Processing settings") });
         new obsidian.Setting(containerEl)
-            .setName("Automatic processing")
-            .setDesc("Process notes on create/copy/paste.")
+            .setName(translate("Automatic processing"))
+            .setDesc(translate("Process notes on create/copy/paste."))
             .addToggle((toggle) => toggle
             .setValue(this.plugin.settings.realTimeUpdate)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
@@ -14031,8 +15864,17 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.setupQueueInterval();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Automatic processing interval")
-            .setDesc("Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.")
+            .setName(translate("Process images in frontmatter"))
+            .setDesc(translate("Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images)."))
+            .addToggle((toggle) => toggle
+            .setValue(this.plugin.settings.processFrontmatter)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.processFrontmatter = value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(containerEl)
+            .setName(translate("Automatic processing interval"))
+            .setDesc(translate("Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins."))
             .addText((text) => text
             .setValue(String(this.plugin.settings.realTimeUpdateInterval))
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
@@ -14041,7 +15883,7 @@ class SettingTab extends obsidian.PluginSettingTab {
                 !Number.isInteger(numberValue) ||
                 numberValue <= 5 ||
                 numberValue > 3600) {
-                displayError("The value should be a positive integer number between 5 and 3600!");
+                displayError(translate("The value should be a positive integer number between 5 and 3600!"));
                 return;
             }
             if (numberValue < 5) {
@@ -14052,8 +15894,8 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.setupQueueInterval();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Number of retries for every single attachment")
-            .setDesc("If an error occurs during downloading (network etc.) try to re-download several times.")
+            .setName(translate("Number of retries for every single attachment"))
+            .setDesc(translate("If an error occurs during downloading (network etc.) try to re-download several times."))
             .addText((text) => text
             .setValue(String(this.plugin.settings.tryCount))
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
@@ -14062,15 +15904,15 @@ class SettingTab extends obsidian.PluginSettingTab {
                 !Number.isInteger(numberValue) ||
                 numberValue < 1 ||
                 numberValue > 6) {
-                displayError("The value should be a positive integer number between 1 and 6!");
+                displayError(translate("The value should be a positive integer number between 1 and 6!"));
                 return;
             }
             this.plugin.settings.tryCount = numberValue;
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Process all new markdown files")
-            .setDesc("Process all new created/cloud-synced files with corresponding extensions.")
+            .setName(translate("Process all new markdown files"))
+            .setDesc(translate("Process all new created/cloud-synced files with corresponding extensions."))
             .addToggle((toggle) => toggle
             .setValue(this.plugin.settings.processCreated)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
@@ -14078,8 +15920,8 @@ class SettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Process all new attachments")
-            .setDesc("The plugin will also move all attachments from obsidian default folder to plugin folder.")
+            .setName(translate("Process all new attachments"))
+            .setDesc(translate("The plugin will also move all attachments from obsidian default folder to plugin folder."))
             .addToggle((toggle) => toggle
             .setValue(this.plugin.settings.processAll)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
@@ -14087,17 +15929,54 @@ class SettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Use MD5 for new attachments (Pasted images and files)")
-            .setDesc("The plugin will use MD5 when renaming all new attachments.")
-            .addToggle((toggle) => toggle
-            .setValue(this.plugin.settings.useMD5ForNewAtt)
+            .setName(translate("File name template"))
+            .setDesc(translate("Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders."))
+            .addText((text) => text
+            .setPlaceholder("${md5}_MD5")
+            .setValue(this.plugin.settings.FileNameTemplate)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-            this.plugin.settings.useMD5ForNewAtt = value;
+            if (value.includes("/") || value.includes("\\")) {
+                displayError(translate("File name template cannot contain path separators. Use 'Folder to save new attachments' to set subfolders."));
+                return;
+            }
+            this.plugin.settings.FileNameTemplate = value;
+            yield this.plugin.saveSettings();
+        })))
+            .setDesc(translate("Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders."));
+        new obsidian.Setting(containerEl)
+            .setName(translate("Use markdown link format with angle brackets ![](<link>)"))
+            .setDesc(translate("Force using markdown link format with angle brackets instead of encoded URI when generating links."))
+            .addToggle((toggle) => toggle
+            .setValue(this.plugin.settings.useMarkdownLinkFormat)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.useMarkdownLinkFormat = value;
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Download unknown filetypes")
-            .setDesc("Download unknown filetypes and save them with .unknown extension.")
+            .setName(translate("Process Canvas files"))
+            .setDesc(translate("Process images in Obsidian Canvas (.canvas files)"))
+            .addToggle((toggle) => toggle
+            .setValue(this.plugin.settings.processCanvas)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.processCanvas = value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(containerEl)
+            .setName(translate("URL exclude regexps"))
+            .setDesc(translate("One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*"))
+            .addTextArea((text) => {
+            text
+                .setValue(this.plugin.settings.UrlExcludeRegexps || "")
+                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                this.plugin.settings.UrlExcludeRegexps = value;
+                yield this.plugin.saveSettings();
+            }));
+            text.inputEl.rows = 4;
+            text.inputEl.cols = 50;
+        });
+        new obsidian.Setting(containerEl)
+            .setName(translate("Download unknown filetypes"))
+            .setDesc(translate("Download unknown filetypes and save them with .unknown extension."))
             .addToggle((toggle) => toggle
             .setValue(this.plugin.settings.downUnknown)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
@@ -14105,8 +15984,8 @@ class SettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Compress images (Web Images)")
-            .setDesc("Compress all downloaded images. May reduce file size by several times, but can also affect performance.")
+            .setName(translate("Compress images (Web Images)"))
+            .setDesc(translate("Compress all downloaded images. May reduce file size by several times, but can also affect performance."))
             .addToggle((toggle) => toggle
             .setValue(this.plugin.settings.PngToJpeg)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
@@ -14114,8 +15993,8 @@ class SettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Compress images (Pasted Images)")
-            .setDesc("Compress all pasted images. May reduce file size by several times, but can also affect performance.")
+            .setName(translate("Compress images (Pasted Images)"))
+            .setDesc(translate("Compress all pasted images. May reduce file size by several times, but can also affect performance."))
             .addToggle((toggle) => toggle
             .setValue(this.plugin.settings.PngToJpegLocal)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
@@ -14123,12 +16002,12 @@ class SettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Compression type")
-            .setDesc("Select image compression type. Keep in mind that webp format has image size limitations.")
-            .addDropdown(dropdown => {
+            .setName(translate("Compression type"))
+            .setDesc(translate("Select image compression type. Keep in mind that webp format has image size limitations."))
+            .addDropdown((dropdown) => {
             dropdown
-                .addOption("image/webp", "WebP")
-                .addOption("image/jpeg", "JPEG")
+                .addOption("image/webp", translate("WebP"))
+                .addOption("image/jpeg", translate("JPEG"))
                 .setValue(this.plugin.settings.ImgCompressionType)
                 .onChange((value) => __awaiter(this, void 0, void 0, function* () {
                 this.plugin.settings.ImgCompressionType = value;
@@ -14136,30 +16015,34 @@ class SettingTab extends obsidian.PluginSettingTab {
             }));
         });
         new obsidian.Setting(containerEl)
-            .setName("Excluded folders")
-            .setDesc("Excluded folders. New files in these folders will not be processed automatically.")
-            .addTextArea(text => {
+            .setName(translate("Excluded folders"))
+            .setDesc(translate("Excluded folders. New files in these folders will not be processed automatically."))
+            .addTextArea((text) => {
             text
                 .setPlaceholder("Enter the full path in new lines, e.g. RootFolder/Subfolder.")
                 .setValue(this.plugin.settings.ExcludedFoldersList)
                 .onChange((value) => __awaiter(this, void 0, void 0, function* () {
                 let FoldersArray = value.split(/\r?\n|\r|\n/g);
                 if (FoldersArray.length >= 1) {
-                    let regexconverted = trimAny(FoldersArray.map((path) => { if (trimAny(path, [" ", "|", "/", "\\"]) !== "") {
-                        return "(^" + trimAny(path, [" ", "|", "/", "\\"]) + "$)";
-                    } }).join("|").replace('\\', '/'), [" ", "|", "/", "\\"]);
+                    let regexconverted = trimAny(FoldersArray.map((path) => {
+                        if (trimAny(path, [" ", "|", "/", "\\"]) !== "") {
+                            return "(^" + trimAny(path, [" ", "|", "/", "\\"]) + "$)";
+                        }
+                    })
+                        .join("|")
+                        .replace("\\", "/"), [" ", "|", "/", "\\"]);
                     this.plugin.settings.ExcludedFoldersList = value;
                     this.plugin.settings.ExcludedFoldersListRegexp = regexconverted;
                     yield this.plugin.saveSettings();
-                    console.log("Excluded folders regex:", regexconverted);
+                    logError("Excluded folders regex:" + regexconverted);
                 }
             }));
             text.inputEl.rows = 4;
             text.inputEl.style.width = "100%";
         });
         new obsidian.Setting(containerEl)
-            .setName("Image Quality")
-            .setDesc("Image quality selection (30 to 100).")
+            .setName(translate("Image Quality"))
+            .setDesc(translate("Image quality selection (30 to 100)."))
             .addText((text) => text
             .setValue(String(this.plugin.settings.JpegQuality))
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
@@ -14168,15 +16051,15 @@ class SettingTab extends obsidian.PluginSettingTab {
                 !Number.isInteger(numberValue) ||
                 numberValue < 10 ||
                 numberValue > 100) {
-                displayError("The value should be a positive integer number between 10 and 100!");
+                displayError(translate("The value should be a positive integer number between 10 and 100!"));
                 return;
             }
             this.plugin.settings.JpegQuality = numberValue;
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("File size lower limit in Kb")
-            .setDesc("Do not download files with size less than this value. Set 0 for no limit.")
+            .setName(translate("File size lower limit in Kb"))
+            .setDesc(translate("Do not download files with size less than this value. Set 0 for no limit."))
             .addText((text) => text
             .setValue(String(this.plugin.settings.filesizeLimit))
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
@@ -14184,7 +16067,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             if (isNaN(numberValue) ||
                 !Number.isInteger(numberValue) ||
                 numberValue < 0) {
-                displayError("The value should be a positive integer!");
+                displayError(translate("The value should be a positive integer!"));
                 return;
             }
             if (numberValue < 0) {
@@ -14194,8 +16077,8 @@ class SettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Exclusions")
-            .setDesc("The plugin will not download attachments with these extensions.")
+            .setName(translate("Exclusions"))
+            .setDesc(translate("The plugin will not download attachments with these extensions."))
             .addText((text) => text
             .setValue(this.plugin.settings.ignoredExt)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
@@ -14203,18 +16086,18 @@ class SettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Do not create Obsidian attachment folder (For compatibility with other plugins)")
-            .setDesc("The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. ")
+            .setName(translate("Do not create Obsidian attachment folder (For compatibility with other plugins)"))
+            .setDesc(translate("The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. "))
             .addToggle((toggle) => toggle
             .setValue(this.plugin.settings.DoNotCreateObsFolder)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
             this.plugin.settings.DoNotCreateObsFolder = value;
             yield this.plugin.saveSettings();
         })));
-        containerEl.createEl("h3", { text: "Note settings" });
+        containerEl.createEl("h3", { text: translate("Note settings") });
         new obsidian.Setting(containerEl)
-            .setName("Preserve link captions")
-            .setDesc("Add media links captions to converted tags.")
+            .setName(translate("Preserve link captions"))
+            .setDesc(translate("Add media links captions to converted tags."))
             .addToggle((toggle) => toggle
             .setValue(this.plugin.settings.useCaptions)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
@@ -14222,26 +16105,25 @@ class SettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Add original filename or 'Open file' tag")
-            .setDesc("Add [[original filename]] or [original filename](link to attachment) after replaced tag (only for file:// protocol or dropped/pasted files ).")
-            .addToggle((toggle) => toggle
-            .setValue(this.plugin.settings.addNameOfFile)
+            .setName(translate("Include pattern"))
+            .setDesc(translate("Include only files with extensions only matching this pattern. Example: md|canvas"))
+            .addText((text) => text
+            .setValue(this.plugin.settings.includeps)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-            this.plugin.settings.addNameOfFile = value;
-            yield this.plugin.saveSettings();
-        })));
-        new obsidian.Setting(containerEl)
-            .setName("Include pattern")
-            .setDesc("Include only files with extensions only matching this pattern. Example: md|canvas")
-            .addText((text) => text.setValue(this.plugin.settings.includeps).onChange((value) => __awaiter(this, void 0, void 0, function* () {
             //Transform string to regex
             let ExtArray = value.split("|");
             if (ExtArray.length >= 1) {
-                let regexconverted = trimAny(ExtArray.map((extension) => { if (trimAny(extension, [" ", "|"]) !== "") {
-                    return "(?<" + trimAny(extension, [" ", "|"]) + ">.*\\." + trimAny(extension, [" ", "|"]) + ")";
-                } }).join("|"), [" ", "|"]);
+                let regexconverted = trimAny(ExtArray.map((extension) => {
+                    if (trimAny(extension, [" ", "|"]) !== "") {
+                        return ("(?<" +
+                            trimAny(extension, [" ", "|"]) +
+                            ">.*\\." +
+                            trimAny(extension, [" ", "|"]) +
+                            ")");
+                    }
+                }).join("|"), [" ", "|"]);
                 if (!safeRegex$1(value)) {
-                    displayError("Unsafe regex! https://www.npmjs.com/package/safe-regex");
+                    displayError(translate("Unsafe regex! https://www.npmjs.com/package/safe-regex"));
                     return;
                 }
                 this.plugin.settings.includepattern = regexconverted;
@@ -14249,50 +16131,52 @@ class SettingTab extends obsidian.PluginSettingTab {
                 yield this.plugin.saveSettings();
             }
         })));
-        containerEl.createEl("h3", { text: "Orphaned attachments" });
+        containerEl.createEl("h3", { text: translate("Orphaned attachments") });
         new obsidian.Setting(containerEl)
-            .setName("Remove files completely")
-            .setDesc("Do not move orphaned files into the garbage can.")
+            .setName(translate("Remove files completely"))
+            .setDesc(translate("Do not move orphaned files into the garbage can."))
             .addToggle((toggle) => toggle
             .setValue(this.plugin.settings.removeOrphansCompl)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
             this.plugin.settings.removeOrphansCompl = value;
             yield this.plugin.saveSettings();
         })));
-        containerEl.createEl("h3", { text: "Media folder settings" });
+        containerEl.createEl("h3", { text: translate("Media folder settings") });
         new obsidian.Setting(containerEl)
-            .setName("How to write paths in tags")
-            .setDesc("Select whether to write full paths in tags or not.")
+            .setName(translate("How to write paths in tags"))
+            .setDesc(translate("Select whether to write full paths in tags or not."))
             .addDropdown((text) => text
-            .addOption("fullDirPath", "Full path")
-            .addOption("onlyRelative", "Relative to note")
-            .addOption("baseFileName", "Only filename")
+            .addOption("fullDirPath", translate("Full path"))
+            .addOption("onlyRelative", translate("Relative to note"))
+            .addOption("baseFileName", translate("Only filename"))
             .setValue(this.plugin.settings.pathInTags)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
             this.plugin.settings.pathInTags = value;
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Date format")
-            .setDesc("Date format for ${date} variable. E.g. \
-                 | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \
-                 | dddd  (Wednesday)\
-                 | MMM Do YY  (Mar 20th 24)")
-            .addText((text) => text.setValue(this.plugin.settings.DateFormat).onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            .setName(translate("Date format"))
+            .setDesc(translate("Date format for ${date} variable. E.g. \
+                  | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \
+                  | dddd  (Wednesday)\
+                  | MMM Do YY  (Mar 20th 24)"))
+            .addText((text) => text
+            .setValue(this.plugin.settings.DateFormat)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
             if (value.match(/(\)|\(|\"|\'|\#|\]|\[|\:|\>|\<|\*|\|)/g) !== null) {
-                displayError("Unsafe folder name! Some chars are forbidden in some filesystems.");
+                displayError(translate("Unsafe folder name! Some chars are forbidden in some filesystems."));
                 return;
             }
             this.plugin.settings.DateFormat = value;
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Folder to save new attachments")
-            .setDesc("Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}")
+            .setName(translate("Folder to save new attachments"))
+            .setDesc(translate("Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}"))
             .addDropdown((text) => text
-            .addOption("obsFolder", "Copy Obsidian settings")
-            .addOption("inFolderBelow", "In the root folder specified below")
-            .addOption("nextToNoteS", "Next to note in the folder specified below")
+            .addOption("obsFolder", translate("Copy Obsidian settings"))
+            .addOption("inFolderBelow", translate("In the root folder specified below"))
+            .addOption("nextToNoteS", translate("Next to note in the folder specified below"))
             .setValue(this.plugin.settings.saveAttE)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
             this.plugin.settings.saveAttE = value;
@@ -14300,11 +16184,11 @@ class SettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Move/delete/rename media folder")
-            .setDesc("Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \
+            .setName(translate("Move/delete/rename media folder"))
+            .setDesc(translate("Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \
                   This setting takes effect only if the path contains ${notename} template at the end\
                   and the options 'Next to note in the folder specified below' / 'Relative to note' are selected.\
-                  Use this setting at your own risk.")
+                  Use this setting at your own risk."))
             .setClass("media_folder_set")
             .addToggle((toggle) => toggle
             .setValue(this.plugin.settings.removeMediaFolder)
@@ -14313,26 +16197,24 @@ class SettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName("Media folder")
-            .setDesc("Folder to keep all downloaded media files.")
+            .setName(translate("Media folder"))
+            .setDesc(translate("Folder to keep all downloaded media files."))
             .setClass("media_folder_set")
             .addText((text) => text
             .setValue(this.plugin.settings.mediaRootDir)
             .onChange((value) => __awaiter(this, void 0, void 0, function* () {
             if (value.match(/(\)|\(|\"|\'|\#|\]|\[|\:|\>|\<|\*|\|)/g) !== null) {
-                displayError("Unsafe folder name! Some chars are forbidden in some filesystems.");
+                displayError(translate("Unsafe folder name! Some chars are forbidden in some filesystems."));
                 return;
             }
             this.plugin.settings.mediaRootDir = value;
             yield this.plugin.saveSettings();
         })));
-        containerEl.createEl("h3", { text: "Troubleshooting" });
+        containerEl.createEl("h3", { text: translate("Troubleshooting") });
         new obsidian.Setting(containerEl)
-            .setName("Debug")
-            .setDesc("Enable debug output to console.")
-            .addToggle((toggle) => toggle
-            .setValue(VERBOSE)
-            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            .setName(translate("Debug"))
+            .setDesc(translate("Enable debug output to console."))
+            .addToggle((toggle) => toggle.setValue(VERBOSE).onChange((value) => __awaiter(this, void 0, void 0, function* () {
             setDebug(value);
             yield this.plugin.saveSettings();
         })));
@@ -20344,48 +22226,70 @@ moment$1.exports;
 var momentExports = moment$1.exports;
 var moment = /*@__PURE__*/getDefaultExportFromCjs(momentExports);
 
-function imageTagProcessor(app, noteFile, settings, defaultdir) {
+function imageTagProcessor(app, noteFile, settings, defaultdir, source = "") {
+    //////////??????????????????????????????
     const unique = Math.random().toString(16).slice(2);
-    function processImageTag(match, anchor, link, caption, imgsize) {
+    const lock = new AsyncLock();
+    function processImageTag(replPattern) {
         return __awaiter(this, void 0, void 0, function* () {
-            logError("processImageTag: " + match);
+            let { replp, anchor, link, protocol, caption, AttSize, keypart, q1, q2 } = replPattern;
+            logError("processImageTag: " + replp);
+            logError(replPattern);
             if (!isUrl(link)) {
-                return match;
+                return replp;
+            }
+            // check url excludes
+            if (settings.UrlExcludeRegexps) {
+                const lines = settings.UrlExcludeRegexps.split(/[\n\r]+/)
+                    .map((l) => l.trim())
+                    .filter((l) => l);
+                for (const r of lines) {
+                    try {
+                        if (new RegExp(r, "i").test(link)) {
+                            logError("URL excluded by regexp: " + r + " -> " + link);
+                            return replp;
+                        }
+                    }
+                    catch (e) {
+                        logError("Bad exclude regexp: " + r + " " + e);
+                    }
+                }
             }
             try {
-                var lock = new AsyncLock();
-                let fpath;
+                let fpath = link.replace(protocol, "");
                 let fileData;
-                const opsys = process.platform;
-                const mediaDir = yield getMDir(app.app, noteFile, settings, defaultdir, unique);
-                yield app.ensureFolderExists(mediaDir);
-                const protocol = link.slice(0, 5);
                 if (protocol == "data:") {
-                    logError("ReadBase64: \r\n" + fpath, false);
+                    logError("ReadBase64: \r\n" + link, false);
                     fileData = yield base64ToBuff(link);
                 }
                 else if (protocol == "file:") {
                     logError("Readlocal: \r\n" + fpath, false);
-                    if (SUPPORTED_OS.win.includes(opsys)) {
-                        fpath = link.replace("file:///", "");
-                    }
-                    else if (SUPPORTED_OS.unix.includes(opsys)) {
-                        fpath = link.replace("file://", "");
-                    }
-                    else {
-                        fpath = link.replace("file://", "");
-                    }
                     fileData = yield readFromDisk(fpath);
                     if (fileData === null) {
                         fileData = yield readFromDisk(decodeURI(fpath));
                     }
                 }
                 else {
-                    //Try to download several times
+                    //Try to download several times, rotating the referer: origin first, then frontmatter 'source'
+                    const origin = link.match(URL_PATTERN)
+                        ? link.match(URL_PATTERN)[0]
+                        : "";
+                    const referers = [];
+                    for (const candidate of [origin, source]) {
+                        const value = String(candidate !== null && candidate !== void 0 ? candidate : "").trim();
+                        if (value.length != 0 && !referers.includes(value)) {
+                            referers.push(value);
+                        }
+                    }
                     let trycount = 0;
                     while (trycount < settings.tryCount) {
-                        fileData = yield downloadImage(link);
-                        logError("\r\n\nDownloading (try): " + trycount + "\r\n\n");
+                        const referer = referers.length != 0 ? referers[trycount % referers.length] : "";
+                        fileData = yield downloadImage(link, referer);
+                        logError("\r\n\nDownloading (try): " +
+                            trycount +
+                            " referer: " +
+                            referer +
+                            "\r\n\n");
                         if (fileData !== null) {
                             break;
                         }
@@ -20393,7 +22297,8 @@ function imageTagProcessor(app, noteFile, settings, defaultdir) {
                     }
                 }
                 if (fileData === null) {
-                    logError("Cannot get an attachment content!", false);
+                    logError("Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field.", false);
+                    showBalloon(translate("Cannot copy/download an attachment! Try to add referer in frontmatter 'source' field."), settings.showNotifications, NOTICE_TIMEOUT);
                     return null;
                 }
                 if (Math.round(fileData.byteLength / 1024) < settings.filesizeLimit) {
@@ -20401,58 +22306,68 @@ function imageTagProcessor(app, noteFile, settings, defaultdir) {
                     return null;
                 }
                 try {
-                    const { fileName, needWrite } = yield lock.acquire(match, function () {
+                    const mediaDir = yield getMDir(app.app, noteFile, settings, defaultdir, unique);
+                    const { fileName, needWrite } = yield lock.acquire(link, function () {
                         return __awaiter(this, void 0, void 0, function* () {
                             const parsedUrl = new url.URL(link);
                             let fileExt = yield getFileExt(fileData, parsedUrl.pathname);
                             if (fileExt == "png" && settings.PngToJpeg) {
-                                let compType = "image/jpeg";
-                                if (settings.ImgCompressionType == "image/webp") {
-                                    compType = "image/webp";
-                                }
-                                const blob = new Blob([new Uint8Array(fileData)]);
-                                fileData = yield blobToJpegArrayBuffer(blob, settings.JpegQuality * 0.01, compType);
+                                fileData = yield blobToJpegArrayBuffer(fileData, settings.JpegQuality * 0.01, settings.ImgCompressionType);
                                 logError("arbuf: ");
                                 logError(fileData);
                             }
-                            const { fileName, needWrite } = yield chooseFileName(app.app.vault.adapter, mediaDir, link, fileData, settings);
+                            const { fileName, needWrite } = yield chooseFileName(app.app.vault.adapter, mediaDir, link, fileData, settings, {
+                                notename: noteFile.basename,
+                                date: moment().format(settings.DateFormat),
+                            });
+                            if (needWrite && fileName) {
+                                yield app.ensureFolderExists(mediaDir);
+                                try {
+                                    yield app.app.vault.createBinary(fileName, fileData);
+                                }
+                                catch (e) {
+                                    logError(e);
+                                    throw e;
+                                }
+                            }
                             return { fileName, needWrite };
                         });
                     });
-                    if (needWrite && fileName) {
-                        yield app.app.vault.createBinary(fileName, fileData);
-                    }
                     if (fileName) {
-                        let shortName = "";
-                        const rdir = yield getRDir(noteFile, settings, fileName, link);
-                        let pathWiki = rdir[0];
-                        let pathMd = rdir[1];
-                        if (settings.addNameOfFile && protocol == "file:") {
-                            if (!app.app.vault.getConfig("useMarkdownLinks")) {
-                                shortName = "\r\n[[" +
-                                    fileName +
-                                    "\|" +
-                                    rdir[2]["lnkurid"] + "]]\r\n";
+                        let { pathWiki, pathMd, pathMdAngle } = yield getRDir(noteFile, settings, fileName, link);
+                        let imageTag = "";
+                        const useMd = settings.useMarkdownLinkFormat ||
+                            app.app.vault.getConfig("useMarkdownLinks");
+                        if (!useMd) {
+                            // image size has higher priority, otherwise the caption is kept
+                            if (!settings.useCaptions) {
+                                caption = "";
+                            }
+                            else if (AttSize.length) {
+                                caption = "|" + AttSize;
                             }
                             else {
-                                shortName = "\r\n[" +
-                                    rdir[2]["lnkurid"] +
-                                    "](" +
-                                    rdir[2]["pathuri"] +
-                                    ")\r\n";
+                                caption = caption.length ? "|" + caption : "";
                             }
-                        }
-                        if (!app.app.vault.getConfig("useMarkdownLinks")) {
-                            // image caption
-                            (!settings.useCaptions || !caption.length) ? caption = "" : caption = "\|" + caption;
-                            // image size has higher priority
-                            (!settings.useCaptions || !imgsize.length) ? caption = "" : caption = "\|" + imgsize;
-                            return [match, `![[${pathWiki}${caption}]]`, `${shortName}`];
+                            imageTag = `![[${pathWiki}${caption}]]`;
                         }
                         else {
-                            (!settings.useCaptions || !caption.length) ? caption = "" : caption = " " + caption;
-                            return [match, `![${anchor}](${pathMd}${caption})`, `${shortName}`];
+                            !settings.useCaptions || !caption.length
+                                ? (caption = "")
+                                : (caption = " " + caption);
+                            const mdLink = settings.useMarkdownLinkFormat
+                                ? `<${pathMdAngle}>`
+                                : pathMd;
+                            imageTag = `![${anchor}](${mdLink}${caption})`;
                         }
+                        //the tag without the frontmatter key: what the metadata cache reports as the embed
+                        const bareImageTag = imageTag;
+                        //frontmatter values must stay a valid yaml scalar: restore the key and the quotes
+                        if (keypart !== undefined && keypart !== "") {
+                            const quote = q1 || q2 || `"`;
+                            imageTag = keypart + quote + imageTag + quote;
+                        }
+                        return [replp, imageTag, bareImageTag];
                     }
                     else {
                         return null;
@@ -20479,31 +22394,43 @@ function getRDir(noteFile, settings, fileName, link = undefined) {
     return __awaiter(this, void 0, void 0, function* () {
         let pathWiki = "";
         let pathMd = "";
+        let pathMdAngle = "";
         const notePath = normalizePath(noteFile.parent.path);
         const parsedPath = path__default["default"].parse(normalizePath(fileName));
         const parsedPathE = {
             parentd: path__default["default"].basename(parsedPath["dir"]),
-            basen: (parsedPath["name"] + parsedPath["ext"]),
+            basen: parsedPath["name"] + parsedPath["ext"],
             lnkurid: path__default["default"].basename(decodeURI(link)),
-            pathuri: encodeURI(normalizePath(fileName))
+            pathuri: encodeURI(normalizePath(fileName)),
         };
         switch (settings.pathInTags) {
             case "baseFileName":
-                pathWiki = pathMd = parsedPathE["basen"];
+                pathWiki = pathMd = pathMdAngle = parsedPathE["basen"];
                 break;
             case "onlyRelative":
-                pathWiki = pathJoin([path__default["default"].relative(path__default["default"].sep + notePath, path__default["default"].sep + parsedPath["dir"]), parsedPathE["basen"]]);
+                pathWiki = pathJoin([
+                    path__default["default"].relative(path__default["default"].sep + notePath, path__default["default"].sep + parsedPath["dir"]),
+                    parsedPathE["basen"],
+                ]);
                 pathMd = encodeURI(pathWiki);
+                pathMdAngle = pathWiki;
                 break;
             case "fullDirPath":
-                pathWiki = fileName.replace(/\\/g, "/");
+                pathWiki = normalizePath(fileName);
                 pathMd = parsedPathE["pathuri"];
+                pathMdAngle = pathWiki;
                 break;
             default:
                 pathWiki = fileName;
                 pathMd = parsedPathE["pathuri"];
+                pathMdAngle = pathWiki;
         }
-        return [pathWiki, pathMd, parsedPathE];
+        return {
+            pathWiki: pathWiki,
+            pathMd: pathMd,
+            pathMdAngle: pathMdAngle || pathWiki,
+            parsedPathE: parsedPathE,
+        };
     });
 }
 function getMDir(app, noteFile, settings, defaultdir = false, unique = "") {
@@ -20517,37 +22444,35 @@ function getMDir(app, noteFile, settings, defaultdir = false, unique = "") {
             attdir = "";
         }
         let root = "/";
+        const pathCtx = {
+            notename: noteFile.basename,
+            unique: unique,
+            date: current_date,
+        };
         switch (attdir) {
-            case 'inFolderBelow':
-                root = mediadir
-                    .replace("${notename}", noteFile.basename)
-                    .replace("${unique}", unique)
-                    .replace("${date}", current_date);
+            case "inFolderBelow":
+                root = renderNameTemplate(mediadir, pathCtx, "path");
                 break;
-            case 'nextToNoteS':
-                root = (pathJoin([noteFile.parent.path, mediadir]))
-                    .replace("${notename}", noteFile.basename)
-                    .replace("${unique}", unique)
-                    .replace("${date}", current_date);
+            case "nextToNoteS":
+                root = pathJoin([
+                    noteFile.parent.path,
+                    renderNameTemplate(mediadir, pathCtx, "path"),
+                ]);
                 break;
             default:
-                if (obsmediadir === '/') {
-                    root = obsmediadir;
-                }
-                else if (obsmediadir === './') {
-                    root = pathJoin([noteFile.parent.path]);
-                }
-                else if (obsmediadir.match(/\.\/.+/g) !== null) {
-                    root = pathJoin([noteFile.parent.path, obsmediadir.replace('\.\/', '')]);
-                }
-                else {
-                    root = normalizePath(obsmediadir);
-                }
+                root =
+                    obsmediadir === "/"
+                        ? obsmediadir
+                        : obsmediadir === "./"
+                            ? pathJoin([noteFile.parent.path])
+                            : obsmediadir.match(/\.\/.+/g) !== null
+                                ? pathJoin([noteFile.parent.path, obsmediadir.replace("./", "")])
+                                : (root = normalizePath(obsmediadir));
         }
         return trimAny(root, ["/", "\\"]);
     });
 }
-function chooseFileName(adapter, dir, link, contentData, settings) {
+function chooseFileName(adapter, dir, link, contentData, settings, ctx = {}) {
     return __awaiter(this, void 0, void 0, function* () {
         const parsedUrl = new url.URL(link);
         const ignoredExt = settings.ignoredExt.split("|");
@@ -20559,30 +22484,83 @@ function chooseFileName(adapter, dir, link, contentData, settings) {
         if (ignoredExt.includes(fileExt)) {
             return { fileName: "", needWrite: false };
         }
-        const baseName = md5Sig(contentData);
-        let needWrite = true;
-        let fileName = "";
-        const suggestedName = pathJoin([dir, cleanFileName(`${baseName}` + `.${fileExt}`)]);
-        if (yield adapter.exists(suggestedName, false)) {
-            const fileData = yield adapter.readBinary(suggestedName);
-            const existing_file_md5 = md5Sig(fileData);
-            if (existing_file_md5 === baseName) {
-                fileName = suggestedName;
-                needWrite = false;
-            }
-            else {
-                fileName = pathJoin([dir, cleanFileName(Math.random().toString(9).slice(2) + `.${fileExt}`)]);
-            }
+        let rawName = parsedUrl.pathname;
+        try {
+            rawName = decodeURI(parsedUrl.pathname);
         }
-        else {
-            fileName = suggestedName;
-        }
+        catch (e) { }
+        const originalname = rawName.endsWith("/") ? "" : path__default["default"].parse(rawName).name;
+        const nameCtx = Object.assign(Object.assign({}, ctx), { md5: md5Sig(contentData), originalname: originalname, unique: Math.random().toString(16).slice(2) });
+        const baseName = renderNameTemplate(settings.FileNameTemplate, nameCtx, "file");
+        const { fileName, needWrite } = yield resolveUniqueName(adapter, dir, baseName, fileExt, nameCtx.md5);
         logError("File name: " + fileName, false);
         if (!fileName) {
             throw new Error("Failed to generate file name for media file.");
         }
-        //linkHashes.ensureHashGenerated(link, contentData);
         return { fileName, needWrite };
+    });
+}
+//frontmatter block only: from the leading "---" line up to and including the closing "---" line
+const FRONTMATTER_SPLIT_PATTERN = /^---[ \t]*\r?\n(?:[\s\S]*?\r?\n)?---[ \t]*(?:\r?\n|$)/;
+function splitFrontmatter(content) {
+    const match = content.match(FRONTMATTER_SPLIT_PATTERN);
+    if (!match) {
+        return ["", content];
+    }
+    return [content.slice(0, match[0].length), content.slice(match[0].length)];
+}
+function getFrontmatterSource(fmPart) {
+    if (!fmPart) {
+        return "";
+    }
+    const match = fmPart.match(/^[ \t]*source[ \t]*:[ \t]*(.*)$/im);
+    if (!match) {
+        return "";
+    }
+    return match[1]
+        .trim()
+        .replace(/^['"](.*)['"]$/, "$1")
+        .trim();
+}
+function FrontMatterParser(app, noteFile, SearchPattern) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const FrontMatterEmbeds = { files: new Array(), urls: new Array() };
+        yield app.app.fileManager.processFrontMatter(noteFile, (frontmatter) => {
+            if (!frontmatter) {
+                return FrontMatterEmbeds;
+            }
+            Object.entries(frontmatter).forEach(([key, value]) => {
+                var _a, _b;
+                for (const reg_p of SearchPattern) {
+                    //a /g regex keeps lastIndex after .test() and would miss the next value
+                    reg_p.lastIndex = 0;
+                    const m = reg_p.exec(String(value));
+                    if (m !== null) {
+                        const LocLinkfound = (_a = m.groups) === null || _a === void 0 ? void 0 : _a.loclink;
+                        const UrlLinkfound = (_b = m.groups) === null || _b === void 0 ? void 0 : _b.urllink;
+                        if (LocLinkfound != undefined) {
+                            const FileBaseName = CtagsBrcks(LocLinkfound);
+                            const MDMatch = CtagsWhS(m[0]);
+                            FrontMatterEmbeds.files.push({
+                                key: key,
+                                match: MDMatch,
+                                link: FileBaseName,
+                            });
+                        }
+                        if (UrlLinkfound != undefined) {
+                            const FileBaseName = CtagsBrcks(UrlLinkfound);
+                            const MDMatch = CtagsWhS(m[0]);
+                            FrontMatterEmbeds.urls.push({
+                                key: key,
+                                match: MDMatch,
+                                link: FileBaseName,
+                            });
+                        }
+                    }
+                }
+            });
+        });
+        return FrontMatterEmbeds;
     });
 }
 
@@ -20653,26 +22631,34 @@ class ModalW1 extends obsidian.Modal {
     }
 }
 
-require('fs').promises;
+require("fs").promises;
 //import { count, log } from "console"
 class LocalImagesPlugin extends obsidian.Plugin {
     constructor() {
         super(...arguments);
         this.modifiedQueue = new UniqueQueue();
         this.intervalId = 0;
+        this.newfProcInt = 0;
         this.newfCreated = [];
         this.noteModified = [];
         this.newfMoveReq = true;
         this.newfCreatedByDownloader = [];
+        this.ctxMenuImageSrc = "";
+        this.ctxMenuImageFile = null;
+        this.origMenuShow = null;
         // using arrow syntax for callbacks to correctly pass this context
         this.processActivePage = (defaultdir = false) => () => __awaiter(this, void 0, void 0, function* () {
             logError("processActivePage");
             try {
                 const activeFile = this.getCurrentNote();
+                if (!activeFile) {
+                    this.Notify(translate("Cannot get current note/canvas!"));
+                    return;
+                }
                 yield this.processPage(activeFile, defaultdir);
             }
             catch (e) {
-                showBalloon(`Please select a note or click inside selected note in canvas.`, this.settings.showNotifications);
+                this.Notify(translate("Please select a note or click inside selected note in canvas."));
                 return;
             }
         });
@@ -20686,7 +22672,8 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 if (this.ExemplaryOfMD(file.path)) {
                     if (notice) {
                         //setMessage() is undeclared but factically existing, so ignore the TS error  //@ts-expect-error
-                        notice.setMessage(APP_TITLE + `\nProcessing \n"${file.path}" \nPage ${index} of ${pagesCount}`);
+                        notice.setMessage(APP_TITLE +
+                            `\nProcessing \n"${file.path}" \nPage ${index} of ${pagesCount}`);
                     }
                     yield this.processPage(file);
                 }
@@ -20700,7 +22687,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
             }
         });
         this.removeOrphans = (type = undefined, filesToRemove = undefined, noteFile = undefined) => () => __awaiter(this, void 0, void 0, function* () {
-            var _a, _b, _c, _d, _e;
+            var _a, _b, _c, _d, _e, _f, _g, _h;
             const obsmediadir = app.vault.getConfig("attachmentFolderPath");
             const allFiles = this.app.vault.getFiles();
             let oldRootdir = this.settings.mediaRootDir;
@@ -20710,63 +22697,157 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 if (this.settings.saveAttE != "nextToNoteS" ||
                     !path__default["default"].basename(oldRootdir).endsWith("${notename}") ||
                     oldRootdir.includes("${date}")) {
-                    showBalloon("This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n", this.settings.showNotifications);
+                    this.Notify(translate("This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n"));
                     return;
                 }
                 if (!noteFile) {
                     noteFile = this.getCurrentNote();
                     if (!noteFile) {
-                        showBalloon("Please, select a note or click inside a note in canvas!", this.settings.showNotifications);
+                        this.Notify(translate("Please, select a note or click inside a note in canvas!"));
                         return;
                     }
                 }
-                if (this.ExemplaryOfMD(noteFile.path)) {
+                if (this.ExemplaryOfMD(noteFile.path) ||
+                    this.ExemplaryOfCANVAS(noteFile.path)) {
                     oldRootdir = oldRootdir.replace("${notename}", (_a = path__default["default"].parse(noteFile.path)) === null || _a === void 0 ? void 0 : _a.name);
-                    oldRootdir = trimAny(pathJoin([(_b = path__default["default"].parse(noteFile.path)) === null || _b === void 0 ? void 0 : _b.dir, oldRootdir]), ["\/"]);
+                    oldRootdir = trimAny(pathJoin([(_b = path__default["default"].parse(noteFile.path)) === null || _b === void 0 ? void 0 : _b.dir, oldRootdir]), ["/"]);
                     if (!(yield this.app.vault.exists(oldRootdir))) {
-                        showBalloon("The attachment folder " + oldRootdir + " does not exist!", this.settings.showNotifications);
+                        this.Notify(translate("The attachment folder {p} does not exist!", [oldRootdir]));
                         return;
                     }
                     const allAttachments = yield ((_c = this.app.vault.getAbstractFileByPath(oldRootdir)) === null || _c === void 0 ? void 0 : _c.children);
                     const metaCache = this.app.metadataCache.getFileCache(noteFile);
                     const embeds = metaCache === null || metaCache === void 0 ? void 0 : metaCache.embeds;
                     const links = metaCache === null || metaCache === void 0 ? void 0 : metaCache.links;
+                    let frembeds = { files: [], urls: [] };
+                    try {
+                        frembeds = yield FrontMatterParser(this, noteFile, FRONTMATTER_SEARCH_PATTERN);
+                    }
+                    catch (e) {
+                        logError("Frontmatter of " + noteFile.path + " skipped: " + e);
+                        this.Notify(translate("Frontmatter of '{p}' skipped (parse error)", [noteFile.path]));
+                    }
+                    logError(embeds);
+                    logError(links);
+                    if (((_d = frembeds.files) === null || _d === void 0 ? void 0 : _d.length) > 0) {
+                        for (const frembed of frembeds.files) {
+                            allAttachmentsLinks.push(frembed.link);
+                        }
+                    }
                     if (embeds) {
                         for (const embed of embeds) {
-                            allAttachmentsLinks.push(path__default["default"].basename(embed.link));
+                            allAttachmentsLinks.push(path__default["default"].parse(embed.link).name +
+                                trimTags(path__default["default"].parse(embed.link).ext));
+                            logError(path__default["default"].basename(embed.link));
                         }
                     }
                     if (links) {
                         for (const link of links) {
-                            allAttachmentsLinks.push(path__default["default"].basename(link.link));
+                            allAttachmentsLinks.push(path__default["default"].parse(link.link).name + trimTags(path__default["default"].parse(link.link).ext));
+                            logError(path__default["default"].basename(link.link));
+                        }
+                    }
+                    if (this.ExemplaryOfCANVAS(noteFile.path)) {
+                        let canvasData;
+                        try {
+                            canvasData = JSON.parse(yield app.vault.cachedRead(noteFile));
+                        }
+                        catch (e) {
+                            logError("Parse canvas data error");
+                        }
+                        if (canvasData && canvasData.nodes && canvasData.nodes.length > 0) {
+                            for (const node of canvasData.nodes) {
+                                if (node.type === "file" || node.type === "image") {
+                                    const candidates = [
+                                        node.file,
+                                        node.url,
+                                        node.path,
+                                        node.source,
+                                        node.image,
+                                        node.media,
+                                        node.link,
+                                        node.attachment,
+                                        node.resource,
+                                        node.data,
+                                        node.value,
+                                        node.content,
+                                        node.filename,
+                                        node.name,
+                                        node.encodedData,
+                                    ];
+                                    for (const c of candidates) {
+                                        if (typeof c === "string" && c) {
+                                            allAttachmentsLinks.push(path__default["default"].basename(c));
+                                        }
+                                    }
+                                    if (node.data &&
+                                        typeof node.data === "string" &&
+                                        node.data.startsWith("app://")) {
+                                        allAttachmentsLinks.push(path__default["default"].basename(node.data));
+                                    }
+                                }
+                                else if (node.type == "text") {
+                                    try {
+                                        const AllNodeLinks = (_e = (yield this.app.internalPlugins.plugins.canvas.instance.index.parseText(node.text))) === null || _e === void 0 ? void 0 : _e.links;
+                                        if (AllNodeLinks) {
+                                            for (const Nodelink of AllNodeLinks) {
+                                                allAttachmentsLinks.push(path__default["default"].basename(Nodelink.link));
+                                            }
+                                        }
+                                    }
+                                    catch (e) {
+                                        logError(e);
+                                    }
+                                }
+                            }
+                        }
+                        // Also scan raw canvas content for any links not caught by structured parsing
+                        try {
+                            const canvasContent = yield app.vault.cachedRead(noteFile);
+                            const extra = this.collectBasenamesFromContent(canvasContent);
+                            for (const b of extra) {
+                                if (!allAttachmentsLinks.includes(b)) {
+                                    allAttachmentsLinks.push(b);
+                                }
+                            }
+                        }
+                        catch (e) {
+                            logError(e);
                         }
                     }
                     if (allAttachments) {
                         for (const attach of allAttachments) {
-                            if (!allAttachmentsLinks.includes(attach.name) && attach.children == undefined) {
-                                logError("orph: " + attach.basename);
+                            if (!allAttachmentsLinks.includes(attach.name) &&
+                                attach.children == undefined) {
+                                logError("An orphan: " + attach.name);
                                 orphanedAttachments.push(attach);
                             }
                         }
                     }
+                    logError(allAttachments);
                     if (orphanedAttachments.length > 0) {
                         const mod = new ModalW1(this.app);
-                        mod.messg = "Confirm remove " + orphanedAttachments.length + " orphan(s) from '" + oldRootdir + "'\r\n\r\n      ";
+                        mod.messg =
+                            "Confirm remove " +
+                                orphanedAttachments.length +
+                                " orphan(s) from '" +
+                                oldRootdir +
+                                "'\r\n\r\n      ";
                         mod.plugin = this;
                         mod.callbackFunc = this.removeOrphans("execremove", orphanedAttachments);
                         mod.open();
                     }
                     else {
-                        showBalloon("No orphaned files found!", this.settings.showNotifications);
+                        this.Notify(translate("No orphaned files found!"));
                     }
                 }
             }
             if (type == "obsidian") {
                 if (obsmediadir.slice(0, 2) == "./" || obsmediadir == "/") {
-                    showBalloon("This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n", this.settings.showNotifications);
+                    this.Notify(translate("This command cannot run on vault's root or on subfolder next to note!\nPlease, change settings first!\r\n"));
                     return;
                 }
-                const allAttachments = (_d = this.app.vault.getAbstractFileByPath(obsmediadir)) === null || _d === void 0 ? void 0 : _d.children;
+                const allAttachments = (_f = this.app.vault.getAbstractFileByPath(obsmediadir)) === null || _f === void 0 ? void 0 : _f.children;
                 let orphanedAttachments = [];
                 let allAttachmentsLinks = [];
                 if (allFiles) {
@@ -20786,15 +22867,41 @@ class LocalImagesPlugin extends obsidian.Plugin {
                             if (canvasData.nodes && canvasData.nodes.length > 0) {
                                 for (const node of canvasData.nodes) {
                                     logError(node);
-                                    if (node.type === "file") {
-                                        logError("file json");
-                                        allAttachmentsLinks.push(path__default["default"].basename(node.file));
+                                    if (node.type === "file" || node.type === "image") {
+                                        logError("file/image json");
+                                        const candidates = [
+                                            node.file,
+                                            node.url,
+                                            node.path,
+                                            node.source,
+                                            node.image,
+                                            node.media,
+                                            node.link,
+                                            node.attachment,
+                                            node.resource,
+                                            node.data,
+                                            node.value,
+                                            node.content,
+                                            node.filename,
+                                            node.name,
+                                            node.encodedData,
+                                        ];
+                                        for (const c of candidates) {
+                                            if (typeof c === "string" && c) {
+                                                allAttachmentsLinks.push(path__default["default"].basename(c));
+                                            }
+                                        }
+                                        if (node.data &&
+                                            typeof node.data === "string" &&
+                                            node.data.startsWith("app://")) {
+                                            allAttachmentsLinks.push(path__default["default"].basename(node.data));
+                                        }
                                     }
                                     else if (node.type == "text") {
                                         logError("text json");
                                         //https://github.com/Fevol/obsidian-typings
-                                        //Undocumented API may be altered in the future
-                                        const AllNodeLinks = (_e = (yield this.app.internalPlugins.plugins.canvas.instance.index.parseText(node.text))) === null || _e === void 0 ? void 0 : _e.links;
+                                        //Undocumented API, may be altered in the future
+                                        const AllNodeLinks = (_g = (yield this.app.internalPlugins.plugins.canvas.instance.index.parseText(node.text))) === null || _g === void 0 ? void 0 : _g.links;
                                         logError(AllNodeLinks);
                                         if (AllNodeLinks === undefined) {
                                             continue;
@@ -20805,27 +22912,60 @@ class LocalImagesPlugin extends obsidian.Plugin {
                                     }
                                 }
                             }
+                            // Also scan raw canvas content
+                            try {
+                                const canvasContent = yield app.vault.cachedRead(file);
+                                const extra = this.collectBasenamesFromContent(canvasContent);
+                                for (const b of extra) {
+                                    if (!allAttachmentsLinks.includes(b)) {
+                                        allAttachmentsLinks.push(b);
+                                    }
+                                }
+                            }
+                            catch (e) {
+                                logError(e);
+                            }
                         }
                         if (file !== null && this.ExemplaryOfMD(file.path)) {
                             const metaCache = this.app.metadataCache.getCache(file.path);
                             const embeds = metaCache === null || metaCache === void 0 ? void 0 : metaCache.embeds;
                             const links = metaCache === null || metaCache === void 0 ? void 0 : metaCache.links;
+                            let frembeds = {
+                                files: [],
+                                urls: [],
+                            };
+                            try {
+                                frembeds = yield FrontMatterParser(this, file, FRONTMATTER_SEARCH_PATTERN);
+                            }
+                            catch (e) {
+                                logError("Frontmatter of " + file.path + " skipped: " + e);
+                                this.Notify(translate("Frontmatter of '{p}' skipped (parse error)", [file.path]));
+                            }
                             logError(embeds);
                             logError(links);
+                            if (((_h = frembeds.files) === null || _h === void 0 ? void 0 : _h.length) > 0) {
+                                for (const frembed of frembeds.files) {
+                                    allAttachmentsLinks.push(frembed.link);
+                                }
+                            }
                             if (embeds) {
                                 for (const embed of embeds) {
-                                    allAttachmentsLinks.push(path__default["default"].basename(embed.link));
+                                    const parsedPath = path__default["default"].parse(embed.link);
+                                    allAttachmentsLinks.push(parsedPath.name + trimTags(parsedPath.ext));
                                 }
                             }
                             if (links) {
                                 for (const link of links) {
-                                    allAttachmentsLinks.push(path__default["default"].basename(link.link));
+                                    const parsedPath = path__default["default"].parse(link.link);
+                                    allAttachmentsLinks.push(parsedPath.name + trimTags(parsedPath.ext));
                                 }
                             }
                         }
                     }
+                    logError(allAttachments);
                     for (const attach of allAttachments) {
-                        if (!allAttachmentsLinks.includes(attach.name) && attach.children == undefined) {
+                        if (!allAttachmentsLinks.includes(attach.name) &&
+                            attach.children == undefined) {
                             logError(allAttachmentsLinks);
                             logError(attach.name);
                             logError("orph: " + attach.name);
@@ -20837,18 +22977,23 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 logError(orphanedAttachments, true);
                 if (orphanedAttachments.length > 0) {
                     const mod = new ModalW1(this.app);
-                    mod.messg = "Confirm remove " + orphanedAttachments.length + " orphan(s) from '" + obsmediadir + "  '\r\n \
+                    mod.messg =
+                        "Confirm remove " +
+                            orphanedAttachments.length +
+                            " orphan(s) from '" +
+                            obsmediadir +
+                            "  '\r\n \
           NOTE: Be careful when running this command on Obsidian attachments folder, since some html-linked files may also be moved.\r\n      ";
                     mod.plugin = this;
                     mod.callbackFunc = this.removeOrphans("execremove", orphanedAttachments);
                     mod.open();
                 }
                 else {
-                    showBalloon("No orphaned files found!", this.settings.showNotifications);
+                    this.Notify(translate("No orphaned files found!"));
                 }
             }
             if (type == "execremove") {
-                const useSysTrash = (this.app.vault.getConfig("trashOption") === "system");
+                const useSysTrash = this.app.vault.getConfig("trashOption") === "system";
                 const remcompl = this.settings.removeOrphansCompl;
                 let msg = "";
                 if (filesToRemove) {
@@ -20868,7 +23013,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                         }
                     });
                 }
-                showBalloon(filesToRemove.length + " file(s) " + msg, this.settings.showNotifications);
+                this.Notify(translate("{p} file(s) {p}", [String(filesToRemove.length), msg]));
             }
         });
         this.openProcessAllModal = () => {
@@ -20879,132 +23024,96 @@ class LocalImagesPlugin extends obsidian.Plugin {
             mod.open();
         };
         this.processMdFilesOnTimer = () => __awaiter(this, void 0, void 0, function* () {
-            var _f;
-            const th = this;
-            function onRet() {
-                th.newfCreated = [];
-                th.newfCreatedByDownloader = [];
-                th.noteModified = [];
-                th.newfMoveReq = false;
-                window.clearInterval(th.newfProcInt);
-                th.newfProcInt = 0;
-            }
-            logError("func processMdFilesOnTimer:\r\n");
-            logError(this.noteModified, true);
+            var _j, _k;
+            logError("processMdFilesOnTimer: \r\nNote:\r\n");
             try {
                 window.clearInterval(this.newfProcInt);
                 this.newfProcInt = 0;
                 this.newfMoveReq = false;
                 let itemcount = 0;
-                const useMdLinks = this.app.vault.getConfig("useMarkdownLinks");
-                for (let note of this.noteModified) {
+                for (const note of this.noteModified) {
                     const metaCache = this.app.metadataCache.getFileCache(note);
                     let filedata = yield this.app.vault.cachedRead(note);
-                    let pr = false;
-                    for (const reg_p of MD_SEARCH_PATTERN) {
-                        if (reg_p.test(filedata)) {
-                            pr = true;
-                            break;
-                        }
-                    }
                     const mdir = yield getMDir(this.app, note, this.settings);
                     const obsmdir = yield getMDir(this.app, note, this.settings, true);
-                    let embeds = metaCache === null || metaCache === void 0 ? void 0 : metaCache.embeds;
+                    const embeds = metaCache === null || metaCache === void 0 ? void 0 : metaCache.embeds;
                     if (obsmdir != "" && !(yield this.app.vault.adapter.exists(obsmdir))) {
                         if (!this.settings.DoNotCreateObsFolder) {
                             this.ensureFolderExists(obsmdir);
-                            showBalloon("You obsidian media folder set to '" + obsmdir + "', and has been created by the plugin. Please, try again. ", this.settings.showNotifications);
-                            onRet();
+                            this.Notify(translate("You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.", [obsmdir]));
+                            this.onRet();
                         }
                         return;
                     }
-                    if (embeds || pr) {
+                    if (embeds || MD_SEARCH_PATTERN.some((reg_p) => reg_p.test(filedata))) {
                         yield this.ensureFolderExists(mdir);
-                        for (let el of embeds) {
+                        for (let el of embeds !== null && embeds !== void 0 ? embeds : []) {
                             logError(el);
-                            let oldpath = pathJoin([obsmdir, path__default["default"].basename(el.link)]);
-                            let oldtag = el["original"];
-                            logError(useMdLinks);
+                            const elBaseName = path__default["default"].basename(el.link);
+                            let oldpath = pathJoin([obsmdir, elBaseName]);
+                            let oldtag = el.original;
                             logError(this.newfCreated);
-                            if ((this.newfCreated.indexOf(el.link) != -1 || (obsmdir != "" && (this.newfCreated.includes(oldpath) || this.newfCreated.includes(el.link)))) &&
+                            if ((this.newfCreated.indexOf(el.link) != -1 ||
+                                (obsmdir != "" &&
+                                    (this.newfCreated.includes(oldpath) ||
+                                        this.newfCreated.includes(el.link)))) &&
                                 !this.newfCreatedByDownloader.includes(oldtag)) {
                                 if (!(yield this.app.vault.adapter.exists(oldpath))) {
-                                    logError("Cannot find " + el.link + " skipping...");
+                                    logError(`Cannot find ${el.link} skipping...`);
                                     continue;
                                 }
-                                let newpath = pathJoin([mdir, cFileName(path__default["default"].basename(el.link))]);
-                                let newlink = yield getRDir(note, this.settings, newpath);
-                                logError(el.link);
-                                //let newBinData: Buffer | null = null
-                                let newBinData = null;
-                                let newMD5 = null;
                                 const oldBinData = yield readFromDiskB(pathJoin([this.app.vault.adapter.basePath, oldpath]), 5000);
                                 const oldMD5 = md5Sig(oldBinData);
                                 const fileExt = yield getFileExt(oldBinData, oldpath);
-                                logError("oldbindata: " + oldBinData);
+                                logError("oldbindata: ");
+                                logError(oldBinData);
                                 logError("oldext: " + fileExt);
+                                let newBinData = null;
+                                let contentHash = oldMD5;
+                                let readExisting = (filePath) => readFromDiskB(pathJoin([this.app.vault.adapter.basePath, filePath]), 5000);
+                                let targetExt = path__default["default"].extname(el.link);
+                                if (!targetExt && fileExt && fileExt != "unknown") {
+                                    targetExt = "." + fileExt;
+                                }
                                 if (this.settings.PngToJpegLocal && fileExt == "png") {
-                                    let compType = "image/jpg";
-                                    let compExt = ".jpg";
-                                    if (this.settings.ImgCompressionType == "image/webp") {
-                                        compType = "image/webp";
-                                        compExt = ".webp";
-                                    }
-                                    logError("Compressing image to ");
-                                    const blob = new Blob([new Uint8Array(yield this.app.vault.adapter.readBinary(oldpath))]);
-                                    newBinData = yield blobToJpegArrayBuffer(blob, this.settings.JpegQuality * 0.01, compType);
-                                    newMD5 = md5Sig(newBinData);
+                                    const compExt = this.settings.ImgCompressionType == "image/webp"
+                                        ? ".webp"
+                                        : ".jpeg";
+                                    logError("Compressing image to " + compExt);
+                                    newBinData = yield blobToJpegArrayBuffer(yield this.app.vault.adapter.readBinary(oldpath), this.settings.JpegQuality * 0.01, this.settings.ImgCompressionType);
+                                    logError("newBinData: ");
                                     logError(newBinData);
                                     if (newBinData != null) {
-                                        if (this.settings.useMD5ForNewAtt) {
-                                            newpath = pathJoin([mdir, newMD5 + compExt]);
-                                        }
-                                        else {
-                                            newpath = pathJoin([mdir, cFileName(((_f = path__default["default"].parse(el.link)) === null || _f === void 0 ? void 0 : _f.name) + compExt)]);
-                                        }
-                                        newlink = yield getRDir(note, this.settings, newpath);
+                                        contentHash = md5Sig(newBinData);
+                                        targetExt = compExt;
+                                        readExisting = (filePath) => this.app.vault.adapter.readBinary(filePath);
                                     }
                                 }
-                                else if (this.settings.useMD5ForNewAtt) {
-                                    newpath = pathJoin([mdir, oldMD5 + path__default["default"].extname(el.link)]);
-                                    newlink = yield getRDir(note, this.settings, newpath);
-                                }
-                                else if (!this.settings.useMD5ForNewAtt) {
-                                    newpath = pathJoin([mdir, cFileName(path__default["default"].basename(el.link))]);
-                                    newlink = yield getRDir(note, this.settings, newpath);
-                                }
-                                if (yield this.app.vault.adapter.exists(newpath)) {
-                                    let newFMD5;
-                                    if (newBinData != null) {
-                                        newFMD5 = md5Sig(yield this.app.vault.adapter.readBinary(newpath));
-                                    }
-                                    else {
-                                        newFMD5 = md5Sig(yield readFromDiskB(pathJoin([this.app.vault.adapter.basePath, newpath]), 5000));
-                                    }
-                                    if (newMD5 === newFMD5 || (oldMD5 === newFMD5 && oldpath != newpath)) {
+                                const nameCtx = {
+                                    md5: contentHash,
+                                    originalname: (_k = (_j = path__default["default"].parse(el.link)) === null || _j === void 0 ? void 0 : _j.name) !== null && _k !== void 0 ? _k : "",
+                                    notename: note.basename,
+                                    date: moment().format(this.settings.DateFormat),
+                                    unique: Math.random().toString(16).slice(2),
+                                };
+                                const baseName = renderNameTemplate(this.settings.FileNameTemplate, nameCtx, "file");
+                                const resolved = yield resolveUniqueName(this.app.vault.adapter, mdir, baseName, targetExt, contentHash, readExisting);
+                                const newpath = resolved.fileName;
+                                const needWrite = resolved.needWrite;
+                                let { pathWiki, pathMd, pathMdAngle } = yield getRDir(note, this.settings, newpath);
+                                if (!needWrite) {
+                                    if (oldpath != newpath) {
                                         logError(path__default["default"].dirname(oldpath));
                                         logError("Deleting duplicate file: " + oldpath);
                                         yield this.app.vault.adapter.remove(oldpath);
                                     }
-                                    else if (oldpath != newpath) {
-                                        logError("Renaming existing: " + oldpath);
-                                        let inc = 1;
-                                        while (yield this.app.vault.adapter.exists(newpath)) {
-                                            newpath = pathJoin([mdir, `(${inc}) ` + cFileName(path__default["default"].basename(el.link))]);
-                                            inc++;
-                                        }
-                                        newlink = yield getRDir(note, this.settings, newpath);
-                                        yield this.app.vault.adapter.rename(oldpath, newpath);
-                                    }
                                 }
-                                else {
+                                else if (newpath != oldpath) {
                                     logError(`renaming  ${oldpath}  to  ${newpath}`);
                                     try {
                                         if (newBinData != null) {
-                                            yield this.app.vault.adapter.writeBinary(newpath, newBinData).then();
-                                            {
-                                                yield this.app.vault.adapter.remove(oldpath);
-                                            }
+                                            yield this.app.vault.adapter.writeBinary(newpath, newBinData);
+                                            yield this.app.vault.adapter.remove(oldpath);
                                         }
                                         else {
                                             yield this.app.vault.adapter.rename(oldpath, newpath);
@@ -21014,18 +23123,20 @@ class LocalImagesPlugin extends obsidian.Plugin {
                                         logError(error);
                                     }
                                 }
-                                let addName = "";
-                                if (this.settings.addNameOfFile) {
-                                    if (useMdLinks) {
-                                        addName = `[Open: ${path__default["default"].basename(el.link)}](${newlink[1]})\r\n`;
-                                    }
-                                    else {
-                                        addName = `[[${newlink[0]}|Open: ${path__default["default"].basename(el.link)}]]\r\n`;
-                                    }
-                                }
-                                let newtag = addName + oldtag.replace(el.link, newlink[0]);
+                                const TagsParams = {
+                                    OldTag: oldtag,
+                                    pathMd: pathMd,
+                                    pathWiki: pathWiki,
+                                };
+                                // const vvv = MarkdownLinkParser(el.link);
+                                const useMdLinks = this.settings.useMarkdownLinkFormat ||
+                                    this.app.vault.getConfig("useMarkdownLinks");
+                                let newtag = oldtag.replace(el.link, pathWiki);
                                 if (useMdLinks) {
-                                    newtag = addName + oldtag.replace(encObsURI(el.link), newlink[1]);
+                                    const mdLink = this.settings.useMarkdownLinkFormat
+                                        ? `<${pathMdAngle}>`
+                                        : pathMd;
+                                    newtag = oldtag.replace(encObsURI(el.link), mdLink);
                                 }
                                 filedata = filedata.replaceAll(oldtag, newtag);
                                 itemcount++;
@@ -21034,16 +23145,16 @@ class LocalImagesPlugin extends obsidian.Plugin {
                     }
                     if (itemcount > 0) {
                         yield this.app.vault.modify(note, filedata);
-                        showBalloon(itemcount + " attachments for note " + note.path + " were processed.", this.settings.showNotifications);
+                        this.Notify(translate("{p} attachments for note {p} were processed.", [String(itemcount), note.path]));
                         itemcount = 0;
                     }
                 }
             }
             catch (e) {
                 logError(e);
-                onRet();
+                this.onRet();
             }
-            onRet();
+            this.onRet();
         });
         this.setTitleAsName = () => __awaiter(this, void 0, void 0, function* () {
             try {
@@ -21058,16 +23169,19 @@ class LocalImagesPlugin extends obsidian.Plugin {
                     if (trimAny(noteFile.path, ["\\", "/"]) != trimAny(fullPath, ["\\", "/"])) {
                         while (fExist) {
                             ind++;
-                            var fullPath = pathJoin([noteFile.parent.path, newName + " (" + ind + ")" + ".md"]);
+                            var fullPath = pathJoin([
+                                noteFile.parent.path,
+                                newName + " (" + ind + ")" + ".md",
+                            ]);
                             var fExist = yield this.app.vault.exists(fullPath);
                         }
                         yield this.app.vault.rename(noteFile, fullPath);
-                        showBalloon(`The note was renamed to ` + fullPath, this.settings.showNotifications);
+                        this.Notify(translate("The note was renamed to {p}", [fullPath]));
                     }
                 }
             }
             catch (e) {
-                showBalloon(`Cannot rename.`, this.settings.showNotifications);
+                this.Notify(translate("Cannot rename."));
                 return;
             }
         });
@@ -21124,19 +23238,69 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 this.addCommand({
                     id: "remove-orphans-from-obsidian-folder",
                     name: "Remove all orphaned attachments (Obsidian folder)",
-                    callback: () => { this.removeOrphans("obsidian")(); },
+                    callback: () => {
+                        this.removeOrphans("obsidian")();
+                    },
                 });
                 this.addCommand({
                     id: "remove-orphans-from-plugin-folder",
                     name: "Remove all orphaned attachments (Plugin folder)",
-                    callback: () => { this.removeOrphans("plugin")(); },
+                    callback: () => {
+                        this.removeOrphans("plugin")();
+                    },
                 });
             }
+            //the image widget builds its own context menu and never triggers workspace "editor-menu",
+            //so remember the clicked remote image here and inject the item when the menu is about to show
+            this.registerDomEvent(document, "contextmenu", (evt) => {
+                var _a;
+                this.ctxMenuImageSrc = "";
+                this.ctxMenuImageFile = null;
+                if (!this.settings.contextMenuDownload) {
+                    return;
+                }
+                const target = evt.target;
+                if (!(target instanceof HTMLImageElement)) {
+                    return;
+                }
+                try {
+                    const proto = new URL(target.src).protocol;
+                    if (proto === "http:" || proto === "https:" || proto === "data:") {
+                        this.ctxMenuImageSrc = target.src;
+                        const view = this.app.workspace.getActiveViewOfType(obsidian.MarkdownView);
+                        this.ctxMenuImageFile = (_a = view === null || view === void 0 ? void 0 : view.file) !== null && _a !== void 0 ? _a : null;
+                    }
+                }
+                catch (e) {
+                    logError("contextmenu: not an absolute url: " + target.src);
+                }
+            }, true);
+            const plugin = this;
+            this.origMenuShow = obsidian.Menu.prototype.showAtMouseEvent;
+            obsidian.Menu.prototype.showAtMouseEvent = function (evt) {
+                const src = plugin.ctxMenuImageSrc;
+                const file = plugin.ctxMenuImageFile;
+                plugin.ctxMenuImageSrc = "";
+                plugin.ctxMenuImageFile = null;
+                if (src && file && plugin.settings.contextMenuDownload) {
+                    this.addItem((item) => {
+                        item
+                            .setTitle("Download this image")
+                            .setSection("image")
+                            .setIcon("download")
+                            .onClick(() => {
+                            plugin.downloadSingleImage(file, src);
+                        });
+                    });
+                }
+                return plugin.origMenuShow.call(this, evt);
+            };
             // Some file has been created
-            this.app.vault.on('create', (file) => __awaiter(this, void 0, void 0, function* () {
+            this.app.vault.on("create", (file) => __awaiter(this, void 0, void 0, function* () {
                 var _a;
                 logError("New file created: " + file.path);
-                if (this.ExemplaryOfMD(file.path) && !this.ThePathExcluded(String((_a = file.parent) === null || _a === void 0 ? void 0 : _a.path))) {
+                if (this.ExemplaryOfMD(file.path) &&
+                    !this.ThePathExcluded(String((_a = file.parent) === null || _a === void 0 ? void 0 : _a.path))) {
                     this.onMdCreateFunc(file);
                 }
                 else {
@@ -21144,16 +23308,16 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 }
             }));
             // Some file has been deleted
-            this.app.vault.on('delete', (file) => __awaiter(this, void 0, void 0, function* () {
+            this.app.vault.on("delete", (file) => __awaiter(this, void 0, void 0, function* () {
                 if (!file ||
                     !(file instanceof obsidian.TFile) ||
-                    !(this.ExemplaryOfMD(file.path)) ||
+                    !this.ExemplaryOfMD(file.path) ||
                     !this.settings.removeMediaFolder ||
                     this.settings.saveAttE != "nextToNoteS") {
                     return;
                 }
                 let rootdir = this.settings.mediaRootDir;
-                const useSysTrash = (this.app.vault.getConfig("trashOption") === "system");
+                const useSysTrash = this.app.vault.getConfig("trashOption") === "system";
                 if (this.settings.saveAttE !== "obsFolder" &&
                     path__default["default"].basename(rootdir).includes("${notename}") &&
                     !rootdir.includes("${date}")) {
@@ -21164,7 +23328,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                     try {
                         if (this.app.vault.getAbstractFileByPath(rootdir) instanceof obsidian.TFolder) {
                             this.app.vault.trash(app.vault.getAbstractFileByPath(rootdir), useSysTrash);
-                            showBalloon("Attachment folder " + rootdir + " was moved to trash can.", this.settings.showNotifications);
+                            this.Notify(translate("Attachment folder {p} was moved to trash can.", [rootdir]));
                         }
                     }
                     catch (e) {
@@ -21173,7 +23337,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                     }
                 }
             }));
-            this.app.vault.on('rename', (file, oldPath) => __awaiter(this, void 0, void 0, function* () {
+            this.app.vault.on("rename", (file, oldPath) => __awaiter(this, void 0, void 0, function* () {
                 var _b, _c, _d, _e;
                 if (!file ||
                     !(file instanceof obsidian.TFile) ||
@@ -21191,18 +23355,18 @@ class LocalImagesPlugin extends obsidian.Plugin {
                     let newRootDir = oldRootdir.replace((_d = path__default["default"].parse(oldPath)) === null || _d === void 0 ? void 0 : _d.name, (_e = path__default["default"].parse(file.path)) === null || _e === void 0 ? void 0 : _e.name);
                     let newRootDir_ = newRootDir;
                     let oldRootdir_ = oldRootdir;
-                    oldRootdir_ = pathJoin([(path__default["default"].dirname(oldPath) || ""), oldRootdir]);
-                    newRootDir_ = pathJoin([(path__default["default"].dirname(file.path) || ""), newRootDir]);
+                    oldRootdir_ = pathJoin([path__default["default"].dirname(oldPath) || "", oldRootdir]);
+                    newRootDir_ = pathJoin([path__default["default"].dirname(file.path) || "", newRootDir]);
                     try {
                         if (this.app.vault.getAbstractFileByPath(oldRootdir_) instanceof obsidian.TFolder) {
                             yield this.ensureFolderExists(path__default["default"].dirname(newRootDir_));
                             //await this.app.fileManager.renameFile(app.vault.getAbstractFileByPath(oldRootdir),newRootDir)
                             yield this.app.vault.adapter.rename(oldRootdir_, newRootDir_);
-                            showBalloon("Attachment folder was renamed to " + newRootDir_, this.settings.showNotifications);
+                            this.Notify(translate("Attachment folder was renamed to {p}", [newRootDir_]));
                         }
                     }
                     catch (e) {
-                        showBalloon("Cannot move attachment folder: \r\n" + e, this.settings.showNotifications);
+                        this.Notify(translate("Cannot move attachment folder: \r\n{p}", [String(e)]));
                         logError(e);
                         return;
                     }
@@ -21214,7 +23378,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 }
             }));
             // Some file has been modified
-            this.app.vault.on('modify', (file) => __awaiter(this, void 0, void 0, function* () {
+            this.app.vault.on("modify", (file) => __awaiter(this, void 0, void 0, function* () {
                 var _f;
                 if (!this.newfMoveReq)
                     return;
@@ -21237,6 +23401,9 @@ class LocalImagesPlugin extends obsidian.Plugin {
             this.app.workspace.on("editor-paste", (evt, editor, info) => {
                 this.onPasteFunc(evt, editor, info);
             });
+            this.app.workspace.on("editor-drop", (evt, editor, info) => {
+                this.onPasteFunc(evt, editor, info);
+            });
             this.setupQueueInterval();
             this.addSettingTab(new SettingTab(this.app, this));
         });
@@ -21253,33 +23420,209 @@ class LocalImagesPlugin extends obsidian.Plugin {
             this.registerInterval(this.intervalId);
         }
     }
+    Notify(message) {
+        return __awaiter(this, void 0, void 0, function* () {
+            showBalloon(message, this.settings.showNotifications);
+        });
+    }
     getCurrentNote() {
+        var _a, _b;
         try {
-            const noteFile = app.workspace.activeEditor.file;
-            return noteFile;
+            const leaf = app.workspace.activeLeaf;
+            if (leaf === null || leaf === void 0 ? void 0 : leaf.view) {
+                try {
+                    const vtype = leaf.view.getViewType
+                        ? leaf.view.getViewType()
+                        : leaf.view.type;
+                    if (vtype === "canvas" && ((_a = leaf.view.canvas) === null || _a === void 0 ? void 0 : _a.file)) {
+                        return leaf.view.canvas.file;
+                    }
+                }
+                catch (e) {
+                    logError(e);
+                }
+                if (leaf.view.file) {
+                    return leaf.view.file;
+                }
+            }
+            if ((_b = app.workspace.activeEditor) === null || _b === void 0 ? void 0 : _b.file) {
+                return app.workspace.activeEditor.file;
+            }
+            const activeFile = app.workspace.getActiveFile();
+            if (activeFile) {
+                return activeFile;
+            }
         }
         catch (e) {
-            showBalloon("Cannot get current note! ", this.settings.showNotifications);
+            logError(e);
+            this.Notify(translate("Cannot get current note! "));
         }
         return null;
+    }
+    collectBasenamesFromContent(content) {
+        const basenames = [];
+        const seen = new Set();
+        const patterns = [...MD_SEARCH_PATTERN, CANVAS_BARE_URL_PATTERN];
+        for (const regex of patterns) {
+            regex.lastIndex = 0;
+            const matches = content.matchAll(regex);
+            for (const match of matches) {
+                try {
+                    const parsed = MarkdownLinkParser(match);
+                    if (parsed && parsed.link) {
+                        const b = path__default["default"].basename(parsed.link);
+                        if (b && !seen.has(b)) {
+                            seen.add(b);
+                            basenames.push(b);
+                        }
+                    }
+                }
+                catch (e) {
+                    logError(e);
+                }
+            }
+        }
+        // Also extract bare filenames (not URLs) that look like attachments from JSON
+        try {
+            const re = /"([^"]+\.(?:png|jpe?g|gif|webp|svg|bmp|tiff?|ico|avif|pdf|mp3|mp4|m4a|ogg|wav|webm|mov|docx?|xlsx?|pptx?|zip|7z|txt|md))"/gi;
+            let m;
+            while ((m = re.exec(content)) !== null) {
+                let fname = m[1];
+                if (fname.startsWith("http://") || fname.startsWith("https://"))
+                    continue;
+                fname = fname.replace(/^app:\/\/local\//, "").replace(/^app:\/\//, "");
+                fname = path__default["default"].basename(fname);
+                if (fname && !seen.has(fname)) {
+                    seen.add(fname);
+                    basenames.push(fname);
+                }
+            }
+        }
+        catch (e) {
+            logError(e);
+        }
+        return basenames;
+    }
+    normalizeRemoteUrl(link) {
+        const value = String(link !== null && link !== void 0 ? link : "").trim();
+        try {
+            return decodeURI(value);
+        }
+        catch (e) {
+            return value;
+        }
+    }
+    //frontmatter 'source' is used as the second referer when downloading
+    noteSource(file, fmPart) {
+        var _a;
+        let source = "";
+        const cachedFm = (_a = this.app.metadataCache.getFileCache(file)) === null || _a === void 0 ? void 0 : _a.frontmatter;
+        if (cachedFm) {
+            for (const key of Object.keys(cachedFm)) {
+                if (key.toLowerCase() === "source" &&
+                    typeof cachedFm[key] === "string") {
+                    source = String(cachedFm[key]).trim();
+                    break;
+                }
+            }
+        }
+        if (!source) {
+            source = getFrontmatterSource(fmPart);
+        }
+        return source;
+    }
+    //issue #125: download only the image the user right-clicked, keep the rest of the note untouched
+    downloadSingleImage(file, targetUrl) {
+        return __awaiter(this, void 0, void 0, function* () {
+            if (file == null) {
+                return;
+            }
+            try {
+                const content = yield this.app.vault.cachedRead(file);
+                if (content.length == 0) {
+                    return;
+                }
+                const [fmPart, bodyPart] = splitFrontmatter(content);
+                const source = this.noteSource(file, fmPart);
+                const processor = imageTagProcessor(this, file, this.settings, false, source);
+                const target = this.normalizeRemoteUrl(targetUrl);
+                const onlyTarget = (replPattern) => {
+                    var _a;
+                    if (this.normalizeRemoteUrl(String((_a = replPattern.link) !== null && _a !== void 0 ? _a : "")) !== target) {
+                        return replPattern.replp;
+                    }
+                    return processor(replPattern);
+                };
+                let newFm = fmPart;
+                let failed = false;
+                if (this.settings.processFrontmatter) {
+                    const fmFixed = yield replaceAsync(fmPart, FRONTMATTER_DOWNLOAD_PATTERN, onlyTarget);
+                    newFm = fmFixed[0];
+                    failed = failed || fmFixed[1];
+                }
+                const bodyFixed = yield replaceAsync(bodyPart, MD_SEARCH_PATTERN, onlyTarget);
+                failed = failed || bodyFixed[1];
+                const newContent = newFm + bodyFixed[0];
+                if (newContent !== content) {
+                    yield this.app.vault.modify(file, newContent);
+                    this.Notify(translate("Image downloaded and linked in '{p}'.", [file.path]));
+                }
+                else if (!failed) {
+                    this.Notify(translate("Remote image not found in '{p}' or it is already local.", [file.path]));
+                }
+            }
+            catch (e) {
+                logError("Single image download failed: " + e, false);
+                this.Notify(translate("Single image download failed: {p}", [e.message]));
+            }
+        });
     }
     processPage(file, defaultdir = false) {
         return __awaiter(this, void 0, void 0, function* () {
             if (file == null) {
                 return null;
             }
+            if (this.settings.processCanvas && this.ExemplaryOfCANVAS(file.path)) {
+                const content = yield this.app.vault.cachedRead(file);
+                if (content.length == 0) {
+                    return null;
+                }
+                const processor = imageTagProcessor(this, file, this.settings, defaultdir, "markdown");
+                let fixed = yield replaceAsync(content, MD_SEARCH_PATTERN, processor);
+                if (fixed[0] === content) {
+                    fixed = yield replaceAsync(content, CANVAS_BARE_URL_PATTERN, processor);
+                }
+                if (fixed[0] !== content) {
+                    yield this.app.vault.modify(file, fixed[0]);
+                    this.Notify(translate("Image downloaded and linked in '{p}'.", [file.path]));
+                    return fixed[0];
+                }
+                return content;
+            }
             const content = yield this.app.vault.cachedRead(file);
             if (content.length == 0) {
                 return null;
             }
-            const fixedContent = yield replaceAsync(content, MD_SEARCH_PATTERN, imageTagProcessor(this, file, this.settings, defaultdir));
+            const [fmPart, bodyPart] = splitFrontmatter(content);
+            const source = this.noteSource(file, fmPart);
+            const processor = imageTagProcessor(this, file, this.settings, defaultdir, source);
+            //the frontmatter is processed first: a bare url match inside the body must not touch the yaml header
+            const fmFixed = this.settings.processFrontmatter
+                ? yield replaceAsync(fmPart, FRONTMATTER_DOWNLOAD_PATTERN, processor)
+                : [fmPart, false, []];
+            const bodyFixed = yield replaceAsync(bodyPart, MD_SEARCH_PATTERN, processor);
+            const fixedContent = [
+                fmFixed[0] + bodyFixed[0],
+                fmFixed[1] || bodyFixed[1],
+                [...fmFixed[2], ...bodyFixed[2]],
+            ];
             if (content != fixedContent[0] && fixedContent[1] === false) {
                 this.modifiedQueue.remove(file);
                 yield this.app.vault.modify(file, fixedContent[0]);
                 fixedContent[2].forEach((element) => {
                     this.newfCreatedByDownloader.push(element);
                 });
-                showBalloon(`Attachments for "${file.path}" were processed.`, this.settings.showNotifications);
+                this.Notify(translate("Attachments for '{p}' were processed.", [file.path]));
             }
             else if (content != fixedContent[0] && fixedContent[1] === true) {
                 this.modifiedQueue.remove(file);
@@ -21287,11 +23630,11 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 fixedContent[2].forEach((element) => {
                     this.newfCreatedByDownloader.push(element);
                 });
-                showBalloon(`WARNING!\r\nAttachments for "${file.path}" were processed, but some attachments were not downloaded/replaced...`, this.settings.showNotifications);
+                this.Notify(translate("WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...", [file.path]));
             }
             else {
                 if (this.settings.showNotifications) {
-                    showBalloon(`Page "${file.path}" has been processed, but nothing was changed.`, this.settings.showNotifications);
+                    this.Notify(translate("Page '{p}' has been processed, but nothing was changed.", [file.path]));
                 }
             }
         });
@@ -21309,7 +23652,8 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 const activeFile = this.getCurrentNote();
                 const fItems = evt.clipboardData.files;
                 const tItems = evt.clipboardData.items;
-                if (fItems.length != 0 || this.ThePathExcluded(String((_a = activeFile.parent) === null || _a === void 0 ? void 0 : _a.path))) {
+                if (fItems.length != 0 ||
+                    this.ThePathExcluded(String((_a = activeFile.parent) === null || _a === void 0 ? void 0 : _a.path))) {
                     return;
                 }
                 for (const key in tItems) {
@@ -21321,7 +23665,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                             for (const reg_p of MD_SEARCH_PATTERN) {
                                 if (reg_p.test(cont)) {
                                     logError("content: " + cont);
-                                    showBalloon("Media links were found, processing...", this.settings.showNotifications);
+                                    this.Notify(translate("Media links were found, processing..."));
                                     this.enqueueActivePage(activeFile);
                                     this.setupQueueInterval();
                                     break;
@@ -21333,7 +23677,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 }
             }
             catch (e) {
-                showBalloon(`Please select a note or click inside selected note in canvas.`, this.settings.showNotifications);
+                this.Notify(translate("Please select a note or click inside selected note in canvas."));
                 return;
             }
         });
@@ -21342,11 +23686,11 @@ class LocalImagesPlugin extends obsidian.Plugin {
         return __awaiter(this, void 0, void 0, function* () {
             if (!file ||
                 !(file instanceof obsidian.TFile) ||
-                !(this.settings.processCreated) ||
+                !this.settings.processCreated ||
                 !this.ExemplaryOfMD(file.path))
                 return;
             const timeGapMs = Math.abs(Date.now() - file.stat.ctime);
-            if (timeGapMs > 1000)
+            if (timeGapMs > TIME_DIFF)
                 return;
             logError("func onMdCreateFunc: " + file.path);
             logError(file, true);
@@ -21363,12 +23707,12 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 !(file instanceof obsidian.TFile) ||
                 this.ExemplaryOfMD(file.path) ||
                 this.ExemplaryOfCANVAS(file.path) ||
-                !(this.settings.processAll))
+                !this.settings.processAll)
                 return;
             if (!file.stat.ctime)
                 return;
             const timeGapMs = Math.abs(Date.now() - file.stat.mtime);
-            if (timeGapMs > 1000)
+            if (timeGapMs > TIME_DIFF)
                 return;
             this.newfCreated.push(file.path);
             this.newfMoveReq = true;
@@ -21379,19 +23723,28 @@ class LocalImagesPlugin extends obsidian.Plugin {
     ExemplaryOfMD(pat) {
         var _a, _b;
         const includeRegex = new RegExp(this.settings.includepattern, "i");
-        return (((_b = (_a = pat.match(includeRegex)) === null || _a === void 0 ? void 0 : _a.groups) === null || _b === void 0 ? void 0 : _b.md) != undefined);
+        return ((_b = (_a = pat.match(includeRegex)) === null || _a === void 0 ? void 0 : _a.groups) === null || _b === void 0 ? void 0 : _b.md) != undefined;
     }
     ExemplaryOfCANVAS(pat) {
         var _a, _b;
         const includeRegex = new RegExp(this.settings.includepattern, "i");
-        return (((_b = (_a = pat.match(includeRegex)) === null || _a === void 0 ? void 0 : _a.groups) === null || _b === void 0 ? void 0 : _b.canvas) != undefined);
+        return ((_b = (_a = pat.match(includeRegex)) === null || _a === void 0 ? void 0 : _a.groups) === null || _b === void 0 ? void 0 : _b.canvas) != undefined;
     }
     ThePathExcluded(pat) {
         const includeRegex = new RegExp(this.settings.ExcludedFoldersListRegexp, "i");
         logError(pat.match(includeRegex));
-        // if (pat.match(includeRegex) != null && trimAny(this.settings.ExcludedFoldersList, [" "]).length != 0){
-        //    showBalloon("The path " + pat + " is excluded in your settings. ", true)}
-        return (pat.match(includeRegex) != null && trimAny(this.settings.ExcludedFoldersList, [" "]).length != 0);
+        return (pat.match(includeRegex) != null &&
+            trimAny(this.settings.ExcludedFoldersList, [" "]).length != 0);
+    }
+    onRet() {
+        logError("onret");
+        logError("noteModified");
+        this.newfCreated = [];
+        this.newfCreatedByDownloader = [];
+        this.noteModified = [];
+        this.newfMoveReq = false;
+        window.clearInterval(this.newfProcInt);
+        this.newfProcInt = 0;
     }
     setupNewMdFilesProcInterval() {
         logError("func setupNewFilesProcInterval: \r\n");
@@ -21407,16 +23760,31 @@ class LocalImagesPlugin extends obsidian.Plugin {
     // ------------  Load / Save settings -----------------
     onunload() {
         return __awaiter(this, void 0, void 0, function* () {
+            if (this.origMenuShow) {
+                obsidian.Menu.prototype.showAtMouseEvent = this.origMenuShow;
+                this.origMenuShow = null;
+            }
             this.app.workspace.off("editor-drop", null);
             this.app.workspace.off("editor-paste", null);
-            this.app.workspace.off('file-menu', null);
+            this.app.workspace.off("file-menu", null);
             //this.app.vault.off("create",  null)
             logError(" unloaded.");
         });
     }
     loadSettings() {
         return __awaiter(this, void 0, void 0, function* () {
-            this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
+            const data = yield this.loadData();
+            this.settings = Object.assign({}, DEFAULT_SETTINGS, data);
+            if (data &&
+                typeof data.FileNameTemplate !== "string" &&
+                typeof data.useMD5ForNewAtt === "boolean") {
+                this.settings.FileNameTemplate = data.useMD5ForNewAtt
+                    ? "${md5}_MD5"
+                    : "${originalname}";
+            }
+            if ("useMD5ForNewAtt" in this.settings) {
+                delete this.settings.useMD5ForNewAtt;
+            }
             this.setupQueueInterval();
         });
     }

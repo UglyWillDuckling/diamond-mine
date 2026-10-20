@@ -20,7 +20,7 @@ ___## rođendan [[Mirna 💕💕💕]]
 - [x] #task organizirati **rođendan** ⏫ ⏳ 2025-02-24 📅 2025-03-05 🆔 k81bjv ✅ 2025-04-02
 
 ### gosti 
-- [[Kristina]]
+- [[Kristina Briski]]
 - [[Brigita]]
 - [[Blizanci]]
 - [[Matea Curic]]

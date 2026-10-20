@@ -21,7 +21,7 @@
 ## placanja
 
 - [x] platiti racun od [[Malueva]]
-- [/] #task platiti racune od Marije, 150:LiEuro: 📅 2026-04-27
+- [x] #task platiti racune od Marije, 150:LiEuro: 📅 2026-04-27 ✅ 2026-10-07
 
 ## ostalo
 

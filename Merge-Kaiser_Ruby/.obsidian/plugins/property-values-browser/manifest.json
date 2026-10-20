@@ -1,0 +1,10 @@
+{
+  "id": "property-values-browser",
+  "name": "Property Values Browser",
+  "version": "0.2.2",
+  "minAppVersion": "1.7.2",
+  "description": "Browse frontmatter properties and values with counts, search shortcuts, and delete actions.",
+  "author": "SoulBits",
+  "authorUrl": "https://github.com/SoulBits-Vibe",
+  "isDesktopOnly": false
+}

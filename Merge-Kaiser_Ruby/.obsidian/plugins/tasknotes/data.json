@@ -58,7 +58,7 @@
     "timeblockAttachmentSearchOrder": "name-asc",
     "nowIndicator": true,
     "selectMirror": true,
-    "weekNumbers": false,
+    "weekNumbers": true,
     "showTodayHighlight": true,
     "eventMinHeight": 15,
     "slotEventOverlap": true,
@@ -315,7 +315,7 @@
   "googleCalendarSyncTokens": {},
   "enabledMicrosoftCalendars": [],
   "microsoftCalendarSyncTokens": {},
-  "lastSeenVersion": "4.12.5",
+  "lastSeenVersion": "4.13.8",
   "modalFieldsConfig": {
     "version": 1,
     "fields": [
@@ -453,7 +453,7 @@
     "isRunning": false,
     "timeRemaining": 1500
   },
-  "lastPomodoroDate": "2026-08-27",
+  "lastPomodoroDate": "2026-10-06",
   "pomodoroMobileSidebar": "tab",
   "autoCreateDefaultBasesFiles": true,
   "disableOverlayOnAlias": false,
@@ -489,7 +489,8 @@
   "notificationSoundEnabled": false,
   "notificationSoundVolume": 50,
   "disableCalendarOnMobile": false,
-  "lastNotifiedReleaseVersion": "4.12.4",
+  "lastNotifiedReleaseVersion": "4.13.8",
   "occurrenceFilenameTemplate": "",
-  "occurrenceFilenameTemplateProperty": "occurrenceFilenameTemplate"
+  "occurrenceFilenameTemplateProperty": "occurrenceFilenameTemplate",
+  "completionMenuAsSubmenu": true
 }

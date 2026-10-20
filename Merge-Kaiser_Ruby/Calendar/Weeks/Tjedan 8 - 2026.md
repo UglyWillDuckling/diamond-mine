@@ -6,7 +6,7 @@ next: "[[Tjedan 9 - 2026]]"
 tags:
   - week/2026
 ---
-[[🏡 HOME]]
+[[HOME]]
 
 [[2026-02-18-Wed]]
 

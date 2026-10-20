@@ -50,4 +50,4 @@ Za vanjske stepenice bih obavezno predvidio:
 
 Još jedna važna stvar: **nemoj profil stavljati baš na samu nosivu ivicu betona i nemoj napraviti preveliki utor koji bi oslabio rub stepenice.**
 
-Ako želiš, mogu ti nacrtati točan presjek jedne stepenice s mjerama — gdje ide utor, profil, ljepilo i pločica od 2 cm.
+Ako želiš, mogu ti nacrtati točan presjek jedne stepenice s mjerama — gdje ide utor, profil, ljepilo i pločica od 2 cm

@@ -90,14 +90,6 @@
       "key": "G"
     }
   ],
-  "editor:toggle-fold": [
-    {
-      "modifiers": [
-        "Shift"
-      ],
-      "key": "Enter"
-    }
-  ],
   "editor:toggle-highlight": [
     {
       "modifiers": [
@@ -295,5 +287,13 @@
       "key": "R"
     }
   ],
-  "obsidian-completr:completr-blacklist-current-word": []
+  "obsidian-completr:completr-blacklist-current-word": [],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": " "
+    }
+  ]
 }

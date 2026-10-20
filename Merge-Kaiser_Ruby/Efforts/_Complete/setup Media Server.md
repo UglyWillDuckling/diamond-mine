@@ -2,6 +2,7 @@
 id: setup Media Server
 tags:
   - project
+status: Finished
 ---
 #project
 

@@ -1,6 +1,6 @@
 [[godisnji 2026 - Tribalj]]
 
-- [x] #task [[priprema za godisnji 2026]] ✅ 2026-08-12
+- [x] #task [[+/priprema za godisnji 2026]] ✅ 2026-08-12
 	- [x] prebaciti novac
 	- [ ] ..
 	- [x] napravit [[popis stvari za godisnji]]

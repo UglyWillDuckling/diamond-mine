@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[Efforts/Simmering/Wordpress/Wordpress]]"
+  - "[[Efforts/_Complete/Wordpress/Wordpress]]"
   - "[[run sql command in docker examples]]"
   - "[[database]]"
 ---

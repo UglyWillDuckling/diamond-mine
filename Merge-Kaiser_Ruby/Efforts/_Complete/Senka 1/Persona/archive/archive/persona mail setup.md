@@ -1,7 +1,6 @@
 ---
 related:
   - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/persona ssl setup]]"
-status: done
 previewLink:
 priority: normal
 dateModified: 2025-12-09T17:58:44.750+01:00

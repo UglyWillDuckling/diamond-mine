@@ -5,7 +5,7 @@ next: "[[Tjedan 8 - 2026]]"
 ---
 #week
 
-[[🏡 HOME]]
+[[HOME]]
 ___
 
 - [x] odvesti [[Simba]] kod veterinara za oko, [[Veto d.o.o.]]

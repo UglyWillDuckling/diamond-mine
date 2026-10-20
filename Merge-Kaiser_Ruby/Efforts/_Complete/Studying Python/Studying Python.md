@@ -1,3 +1,6 @@
+---
+status: Finished
+---
 #project 
 
 > Let’s learn [[python language]]

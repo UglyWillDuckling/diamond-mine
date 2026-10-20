@@ -1,1 +1,0 @@
-- [ ] #task prijavi se na posao https://job-boards.eu.greenhouse.io/workwize/jobs/4701609101?utm_source=Otta

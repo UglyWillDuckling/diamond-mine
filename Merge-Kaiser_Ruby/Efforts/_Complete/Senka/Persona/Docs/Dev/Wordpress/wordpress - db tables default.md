@@ -1,10 +1,10 @@
 ---
 related:
-  - "[[Efforts/Simmering/Wordpress/Wordpress]]"
+  - "[[Efforts/_Complete/Wordpress/Wordpress]]"
 ---
 #doc 
 
-==A list of default tables in [[Efforts/Simmering/Wordpress/Wordpress]]==
+==A list of default tables in [[Efforts/_Complete/Wordpress/Wordpress]]==
 
 - [[wp_commentmeta]]
 - [[wp_comments]]

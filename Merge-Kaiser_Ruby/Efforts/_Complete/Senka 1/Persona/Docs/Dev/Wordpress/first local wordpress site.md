@@ -1,14 +1,13 @@
 ---
 related:
   - "[[Setting Up Your Local Development Environment for WordPress|Setting Up Your Local Development Environment for WordPress]]"
-status: In Progress
 ---
 #artifact
 
 **based on **: [[Setting Up Your Local Development Environment for WordPress]]**
 ### quick facts
 - uses [[docker-compose]]
-- setup for [[Efforts/Simmering/Wordpress/Wordpress]]
+- setup for [[Efforts/_Complete/Wordpress/Wordpress]]
 - ..
 ---
 

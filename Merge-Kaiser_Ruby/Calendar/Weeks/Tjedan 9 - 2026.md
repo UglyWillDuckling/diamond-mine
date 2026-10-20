@@ -7,7 +7,7 @@ tags:
   - week/2026
 start date: 2026-03-02
 ---
-[[🏡 HOME]]
+[[HOME]]
 
 - [[spktra - Spirit Jumper 4K]]
 - [[How the Little Guy Moved article]]
@@ -34,10 +34,10 @@ Dolazi proljece :LiFlower: 🥀🌸
 
 - [x] #task kontaktirati [[Marko Maric]] radi [[knauf dio]] ponude - izostaviti zidove i strop na katu ✅ 2026-03-05
 
-- [/] #task organizirati sastanak s [[Dora Vučemilović]] ovaj tjedan 🆔 GZdCax
+- [x] #task organizirati sastanak s [[Dora Vučemilović]] ovaj tjedan 🆔 GZdCax ✅ 2026-10-06
 	- [x] mail
 	- [x] cekamo projekt
-	- [ ] sastanak dogovoriti 
+	- [x] sastanak dogovoriti
 
 - [x] & javiti svima kako necemo imati **knauf strop** na katu
 

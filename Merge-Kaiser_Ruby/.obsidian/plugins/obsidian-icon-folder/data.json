@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "♦",
-      "💡",
-      "LiMail",
-      "🫂",
-      "LiCat"
+      "LiLayoutDashboard",
+      "🏡",
+      "LiMapPlus",
+      "📽",
+      "LiProjector"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -45,22 +45,13 @@
   "Efforts/Active/Kuca": "🏠",
   "Atlas": "🗺",
   "Atlas/Knowledge/Media/movies/movi list - wip.md": "🎥",
-  "Efforts/Ongoing": "👟",
   "Efforts/Simmering": "LiCookingPot",
   "Efforts/Active": {
     "iconName": "LiStar",
     "iconColor": "#fee648"
   },
   "Efforts/Simmering/Linear Calendar": "📅",
-  "Efforts/Undefined": "🤔",
-  "Efforts/Simmering/See how to manage your library.md": {
-    "iconName": "LiLibraryBig",
-    "iconColor": "#c08011"
-  },
-  "Efforts/Ongoing/PC Maintenance": "🖥",
   "Atlas/Tools": "LiHammer",
-  "Efforts/Undefined/Office Tasks.md": "🗄",
-  "Efforts/Ongoing/PC Maintenance/docs": "LiLibraryBig",
   "~/×/Notion database views in Obsidian Projects.md": "📹",
   "notes/dev": {
     "iconName": "LiKeyboard",
@@ -167,22 +158,14 @@
     "iconName": "LiArchive",
     "iconColor": "#4b8b64"
   },
-  "Efforts/Simmering/Article Rating.md": "💯",
-  "Efforts/Ongoing/Odrzavanja kuce.md": "🧹",
   "Atlas/Life/notes": "LiNotebookText",
-  "Efforts/Simmering/Wordpress": "LiPrinter",
-  "Efforts/Active/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md": "🦆",
-  "Efforts/Active/Moje djetinjstvo, istraga": "LiBaby",
-  "Efforts/Simmering/Tasks Management in Obsidian": "LiCheckCheck",
   "React": "LiAtom",
   "Calendar/Events/Meetings/razgovor s Bojanom.md": "LiPhoneCall",
   "Atlas/Knowledge/Media/movies": "🎥",
   "Efforts/Planned": "🛩",
-  "Efforts/Planned/Object Orientation - Design and Implementation project.md": "LiSnapToObject",
   "Atlas/Life/Faks/Predmeti/Osnove Programiranja/C - programming": "©",
   "Atlas/Life/Faks/Predmeti/Grada racunala": "LiComputer",
   "Atlas/Life/physical items": "🪨",
-  "Efforts/Simmering/Obsidian Tinkering": "LiPlay",
   "Atlas/Knowledge/World": "LiGlobe",
   "Atlas/Knowledge/Science/Computer Science": "LiComputer",
   "Atlas/howtos": {
@@ -211,7 +194,6 @@
   "Atlas/Knowledge/Media/movies/movies base.base": "🎥",
   "Atlas/Knowledge/Media/Writings/Books/books base.base": "📚",
   "Atlas/Knowledge/Media/Television/tv shows.base": "LiTv",
-  "Tickets.base": "LiTicket",
   "Calendar/actions": "LiSword",
   "Atlas/Life/Pets": "LiCat",
   "Atlas/Life/People": "🫂",
@@ -220,5 +202,27 @@
   "Efforts/Ideas": "💡",
   "Efforts/_Complete/Spavanja promijena napredak.md": "😪",
   "Efforts/_Complete/Studying Python": "🐍",
-  "Efforts/Ideas/Mass Update Plugin in Obsidian.md": "♦"
+  "Calendar/Incidents": "LiBrokenLink",
+  "Calendar/daily": "LiSprout",
+  "Efforts/_Complete/Obsidian Tinkering": "LiPlay",
+  "Efforts/_Complete/Tasks Management in Obsidian": "LiCheckCheck",
+  "Efforts/_Complete/See how to manage your library.md": {
+    "iconName": "LiLibraryBig",
+    "iconColor": "#c08011"
+  },
+  "Efforts/_Complete/Article Rating.md": "💯",
+  "Efforts/_Complete/Wordpress": "LiPrinter",
+  "Efforts/_Ongoing": "👟",
+  "Efforts/_Ongoing/PC Maintenance": "🖥",
+  "Efforts/_Ongoing/PC Maintenance/docs": "LiLibraryBig",
+  "Efforts/Active/Mass Update Plugin in Obsidian/Mass Update Plugin in Obsidian.md": "♦",
+  "Efforts/Simmering/Moje djetinjstvo, istraga": "LiBaby",
+  "Efforts/Simmering/Moje djetinjstvo, istraga/Moje djetinjstvo, istraga.md": "🦆",
+  "Efforts/Projects.base": "📽",
+  "Efforts/Task Map.canvas": "LiMapPlus",
+  "HOME.md": {
+    "iconName": "LiLayoutDashboard",
+    "iconColor": "#f2cb3a"
+  },
+  "Efforts/Active/Kuca/Kuca.md": "🏡"
 }

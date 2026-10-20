@@ -1,17 +1,15 @@
 ---
+birthday: 1981-02-15
 id: Kristijan Sedlar
 aliases:
   - Kristijan
-dob: 1981-02-15
+  - Kiko
 tags:
   - bratic
+  - person
 ---
-#person #bratic
+**Rođendan**: `=this.birthday`
 
-___
+Starost: `=date(today) - this.birthday`
 
-**Rođendan**: `=this.dob`
-
-Starost: `=date(today) - this.dob`
-
-New `$= dv.current().dob.diffNow()`
+New `$= dv.current()["birthday"].diffNow()`

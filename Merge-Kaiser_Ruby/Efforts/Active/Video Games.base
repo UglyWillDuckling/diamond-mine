@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.tags.contains("videogame")
+views:
+  - type: cards
+    name: PS2
+    filters:
+      and:
+        - platforms.contains(link("PS2"))
+    image: note.image
+    cardSize: 190
+    imageAspectRatio: 0.85
+  - type: table
+    name: View

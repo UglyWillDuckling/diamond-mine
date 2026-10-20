@@ -6,7 +6,7 @@ https://persona.hr
 ## opis
 
 Projekt koji radimo za [[Senka]]u.
-[[Efforts/Simmering/Wordpress/Wordpress]] [[CMS]] projekt koji bi trebao sluziti kao mjesto na [[Atlas/Knowledge/Knowledge/concepts/CS/internet]]u na kojem se moze vidjeti **sve** sto [[Senka]] radi.
+[[Efforts/_Complete/Wordpress/Wordpress]] [[CMS]] projekt koji bi trebao sluziti kao mjesto na [[Atlas/Knowledge/Knowledge/concepts/CS/internet]]u na kojem se moze vidjeti **sve** sto [[Senka]] radi.
 
 ## cilj 🪐
 
@@ -15,7 +15,7 @@ Dodati opciju pregleda slobodnih termina kao i mogucnost bookinga.
 
 ## zahtjevi
 
-- [[CMS]] editiranje stranica preko [[Efforts/Simmering/Wordpress/Wordpress]]a
+- [[CMS]] editiranje stranica preko [[Efforts/_Complete/Wordpress/Wordpress]]a
 - mogucnost lake navigacije kroz stranicu
 - [[# kontakt forma]]
 - [[#booking termina]]

@@ -1,5 +1,7 @@
 ---
 status: Finished
+tags:
+  - archived
 ---
 
 #project 

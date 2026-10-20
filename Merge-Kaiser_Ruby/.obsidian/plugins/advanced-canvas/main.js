@@ -55,8 +55,8 @@ var CUSTOM_ICONS = {
   "path-dotted": `<path stroke="currentColor" fill="none" stroke-width="8.5" stroke-dasharray="8.8" d="M37.5 79.1667h35.4167a14.5833 14.5833 90 000-29.1667h-45.8333a14.5833 14.5833 90 010-29.1667H62.5"/>`,
   "path-short-dashed": `<path stroke="currentColor" fill="none" stroke-width="8.5" stroke-dasharray="15" d="M37.5 79.1667h35.4167a14.5833 14.5833 90 000-29.1667h-45.8333a14.5833 14.5833 90 010-29.1667H62.5"/>`,
   "path-long-dashed": `<path stroke="currentColor" fill="none" stroke-width="8.5" stroke-dasharray="23" d="M37.5 79.1667h35.4167a14.5833 14.5833 90 000-29.1667h-45.8333a14.5833 14.5833 90 010-29.1667H62.5"/>`,
-  "arrow-triangle": `<path stroke="currentColor" fill="currentColor" d="M 15 10 L 85 50 L 15 90 Z"/>`,
-  "arrow-triangle-outline": `<path stroke="currentColor" stroke-width="8.5" fill="none" d="M 15 10 L 85 50 L 15 90 Z"/>`,
+  "arrow-triangle": `<path stroke="currentColor" fill="currentColor" d="M20.833 20.833a8.333 8.333 0 0 1 12.533-7.203l49.988 29.158a8.333 8.333 0 0 1 .012 14.408l-50 29.167A8.333 8.333 0 0 1 20.833 79.167z"/>`,
+  "arrow-triangle-outline": `<path stroke="currentColor" fill="none" stroke-width="8.5" d="M20.833 20.833a8.333 8.333 0 0 1 12.533-7.203l49.988 29.158a8.333 8.333 0 0 1 .012 14.408l-50 29.167A8.333 8.333 0 0 1 20.833 79.167z"/>`,
   "arrow-thin-triangle": `<path stroke="currentColor" stroke-width="8.5" fill="none" d="M 15 10 L 85 50 L 15 90"/>`,
   "arrow-halved-triangle": `<path stroke="currentColor" fill="currentColor" d="M 15 50 L 85 50 L 15 90 Z"/>`,
   "arrow-diamond": `<path stroke="currentColor" fill="currentColor" d="M 50 0 L 100 50 L 50 100 L 0 50 Z"/>`,
@@ -428,24 +428,26 @@ var _CanvasHelper = class _CanvasHelper {
     else this.addStyleAttributesDropdownMenu(canvas, styleAttributes, currentStyleAttributes, setStyleAttribute);
   }
   static addStyleAttributesButtons(canvas, stylableAttributes, currentStyleAttributes, setStyleAttribute) {
-    var _a;
+    var _a, _b;
     for (const stylableAttribute of stylableAttributes) {
       const selectedStyle = (_a = stylableAttribute.options.find((option) => currentStyleAttributes[stylableAttribute.key] === option.value)) != null ? _a : stylableAttribute.options.find((value) => value.value === null);
       if (!selectedStyle) {
         console.warn(`No "null" style option found for stylable attribute "${stylableAttribute.key}"`);
         continue;
       }
+      const icon = (_b = stylableAttribute.icon) != null ? _b : selectedStyle.icon;
       const menuOption = _CanvasHelper.createExpandablePopupMenuOption({
         id: `menu-option-${stylableAttribute.key}`,
         label: stylableAttribute.label,
-        icon: selectedStyle.icon
+        icon
       }, stylableAttribute.options.map((styleOption) => ({
         label: styleOption.label,
         icon: styleOption.icon,
         callback: () => {
           setStyleAttribute(stylableAttribute, styleOption.value);
           currentStyleAttributes[stylableAttribute.key] = styleOption.value;
-          (0, import_obsidian2.setIcon)(menuOption, styleOption.icon);
+          if (!stylableAttribute.icon)
+            (0, import_obsidian2.setIcon)(menuOption, styleOption.icon);
           menuOption.dispatchEvent(new Event("click"));
         }
       })));
@@ -466,7 +468,7 @@ var _CanvasHelper = class _CanvasHelper {
     (0, import_obsidian2.setIcon)(styleMenuButtonElement, "paintbrush");
     (0, import_obsidian2.setTooltip)(styleMenuButtonElement, "Style", { placement: "top" });
     styleMenuButtonElement.addEventListener("click", () => {
-      var _a2, _b2, _c;
+      var _a2, _b2, _c, _d;
       const isOpen = styleMenuButtonElement.classList.toggle("has-active-menu");
       if (!isOpen) {
         (_a2 = popupMenuElement.querySelector(`#${STYLE_MENU_DROPDOWN_ID}`)) == null ? void 0 : _a2.remove();
@@ -476,23 +478,32 @@ var _CanvasHelper = class _CanvasHelper {
       const styleMenuDropdownElement = popupMenuElement.createDiv();
       styleMenuDropdownElement.id = STYLE_MENU_DROPDOWN_ID;
       styleMenuDropdownElement.classList.add("menu");
+      const styleMenuDropdownScrollElement = styleMenuDropdownElement.createDiv();
+      styleMenuDropdownScrollElement.classList.add("menu-scroll");
+      const styleMenuDropdownGroupElement = styleMenuDropdownScrollElement.createDiv();
+      styleMenuDropdownGroupElement.classList.add("menu-group");
+      const popupMenuElementRect = popupMenuElement.getBoundingClientRect();
       styleMenuDropdownElement.setCssStyles({ position: "absolute", maxHeight: "initial" });
-      styleMenuDropdownElement.setCssStyles({ top: `${popupMenuElement.getBoundingClientRect().height}px` });
+      styleMenuDropdownElement.setCssStyles({ top: `${popupMenuElementRect.height}px` });
       const canvasWrapperCenterX = canvas.wrapperEl.getBoundingClientRect().left + canvas.wrapperEl.getBoundingClientRect().width / 2;
-      const leftPosition = styleMenuButtonElement.getBoundingClientRect().left - popupMenuElement.getBoundingClientRect().left;
-      const rightPosition = popupMenuElement.getBoundingClientRect().right - styleMenuButtonElement.getBoundingClientRect().right;
-      if (popupMenuElement.getBoundingClientRect().left + leftPosition < canvasWrapperCenterX)
+      const leftPosition = styleMenuButtonElement.getBoundingClientRect().left - popupMenuElementRect.left;
+      const rightPosition = popupMenuElementRect.right - styleMenuButtonElement.getBoundingClientRect().right;
+      if (popupMenuElementRect.left + leftPosition < canvasWrapperCenterX)
         styleMenuDropdownElement.setCssStyles({ left: `${leftPosition}px` });
       else styleMenuDropdownElement.setCssStyles({ right: `${rightPosition}px` });
       for (const stylableAttribute of stylableAttributes) {
-        const stylableAttributeElement = styleMenuDropdownElement.createDiv();
+        const stylableAttributeElement = styleMenuDropdownGroupElement.createDiv();
         stylableAttributeElement.classList.add("menu-item");
         stylableAttributeElement.classList.add("tappable");
         const iconElement = stylableAttributeElement.createDiv();
         iconElement.classList.add("menu-item-icon");
         let selectedStyle = (_c = stylableAttribute.options.find((option) => currentStyleAttributes[stylableAttribute.key] === option.value)) != null ? _c : stylableAttribute.options.find((value) => value.value === null);
-        if (!selectedStyle) continue;
-        (0, import_obsidian2.setIcon)(iconElement, selectedStyle.icon);
+        if (!selectedStyle) {
+          console.warn(`No "null" style option found for stylable attribute "${stylableAttribute.key}"`);
+          continue;
+        }
+        const icon = (_d = stylableAttribute.icon) != null ? _d : selectedStyle.icon;
+        (0, import_obsidian2.setIcon)(iconElement, icon);
         const labelElement = stylableAttributeElement.createDiv();
         labelElement.classList.add("menu-item-title");
         labelElement.textContent = stylableAttribute.label;
@@ -511,6 +522,10 @@ var _CanvasHelper = class _CanvasHelper {
           const styleMenuDropdownSubmenuElement = popupMenuElement.createDiv();
           styleMenuDropdownSubmenuElement.id = STYLE_MENU_DROPDOWN_SUBMENU_ID;
           styleMenuDropdownSubmenuElement.classList.add("menu");
+          const styleMenuDropdownSubmenuScrollElement = styleMenuDropdownSubmenuElement.createDiv();
+          styleMenuDropdownSubmenuScrollElement.classList.add("menu-scroll");
+          const styleMenuDropdownSubmenuGroupElement = styleMenuDropdownSubmenuScrollElement.createDiv();
+          styleMenuDropdownSubmenuGroupElement.classList.add("menu-group");
           styleMenuDropdownSubmenuElement.setCssStyles({ position: "absolute", maxHeight: "initial" });
           const topOffset = parseFloat(window.getComputedStyle(styleMenuDropdownElement).getPropertyValue("padding-top")) + (styleMenuDropdownElement.offsetHeight - styleMenuDropdownElement.clientHeight) / 2;
           styleMenuDropdownSubmenuElement.setCssStyles({ top: `${stylableAttributeElement.getBoundingClientRect().top - topOffset - popupMenuElement.getBoundingClientRect().top}px` });
@@ -527,7 +542,8 @@ var _CanvasHelper = class _CanvasHelper {
                 setStyleAttribute(stylableAttribute, styleOption.value);
                 currentStyleAttributes[stylableAttribute.key] = styleOption.value;
                 selectedStyle = styleOption;
-                (0, import_obsidian2.setIcon)(iconElement, styleOption.icon);
+                if (!stylableAttribute.icon)
+                  (0, import_obsidian2.setIcon)(iconElement, styleOption.icon);
                 styleMenuDropdownSubmenuElement.remove();
               }
             });
@@ -538,7 +554,7 @@ var _CanvasHelper = class _CanvasHelper {
               selectedIconElement.classList.add("mod-selected");
               (0, import_obsidian2.setIcon)(selectedIconElement, "check");
             }
-            styleMenuDropdownSubmenuElement.appendChild(styleMenuDropdownSubmenuOptionElement);
+            styleMenuDropdownSubmenuGroupElement.appendChild(styleMenuDropdownSubmenuOptionElement);
           }
         });
       }
@@ -762,9 +778,47 @@ var Node = class {
     this.fCost = 0;
     this.parent = null;
   }
-  // Only check for x and y, not gCost, hCost, fCost, or parent
-  inList(nodes) {
-    return nodes.some((n) => n.x === this.x && n.y === this.y);
+};
+var MinHeap = class {
+  constructor() {
+    this.items = [];
+  }
+  get size() {
+    return this.items.length;
+  }
+  push(node) {
+    const items = this.items;
+    items.push(node);
+    let index = items.length - 1;
+    while (index > 0) {
+      const parentIndex = index - 1 >> 1;
+      if (items[parentIndex].fCost <= node.fCost) break;
+      items[index] = items[parentIndex];
+      index = parentIndex;
+    }
+    items[index] = node;
+  }
+  pop() {
+    const items = this.items;
+    const top = items[0];
+    if (top === void 0) return null;
+    const last = items.pop();
+    if (items.length > 0) {
+      let index = 0;
+      while (true) {
+        const leftIndex = 2 * index + 1;
+        if (leftIndex >= items.length) break;
+        const rightIndex = leftIndex + 1;
+        let smallestIndex = leftIndex;
+        if (rightIndex < items.length && items[rightIndex].fCost < items[leftIndex].fCost)
+          smallestIndex = rightIndex;
+        if (items[smallestIndex].fCost >= last.fCost) break;
+        items[index] = items[smallestIndex];
+        index = smallestIndex;
+      }
+      items[index] = last;
+    }
+    return top;
   }
 };
 var EdgePathfindingAStar = class extends EdgePathfindingMethod {
@@ -812,40 +866,38 @@ var EdgePathfindingAStar = class extends EdgePathfindingMethod {
     if (this.toSide === "right" && toPos.x !== end.x) end.x += gridResolution;
     if (this.toSide === "bottom" && toPos.y !== end.y) end.y += gridResolution;
     if (this.isInsideObstacle(start, obstacles) || this.isInsideObstacle(end, obstacles)) return null;
-    const openSet = [start];
-    const closedSet = [];
+    const openSet = new MinHeap();
+    openSet.push(start);
+    const closedSet = /* @__PURE__ */ new Set();
+    const bestGCost = /* @__PURE__ */ new Map([[`${start.x},${start.y}`, 0]]);
     const startTimestamp = performance.now();
-    while (openSet.length > 0) {
-      let current = null;
-      let lowestFCost = Infinity;
-      for (const node of openSet) {
-        if (node.fCost < lowestFCost) {
-          current = node;
-          lowestFCost = node.fCost;
-        }
-      }
+    while (openSet.size > 0) {
       if (performance.now() - startTimestamp > MAX_MS_CALCULATION)
         return null;
-      if (!current)
-        return null;
-      openSet.splice(openSet.indexOf(current), 1);
-      closedSet.push(current);
+      const current = openSet.pop();
+      const currentKey = `${current.x},${current.y}`;
+      if (closedSet.has(currentKey))
+        continue;
+      closedSet.add(currentKey);
       if (current.x === end.x && current.y === end.y)
         return [fromPos, ...this.reconstructPath(current), toPos].map((node) => ({ x: node.x, y: node.y }));
       if (!(current.x === start.x && current.y === start.y) && this.isTouchingObstacle(current, obstacles))
         continue;
       for (const neighbor of this.getPossibleNeighbors(current, obstacles, gridResolution, allowDiagonal)) {
-        if (neighbor.inList(closedSet))
+        const neighborKey = `${neighbor.x},${neighbor.y}`;
+        if (closedSet.has(neighborKey))
           continue;
         const tentativeGCost = current.gCost + (allowDiagonal ? this.getMovementCost({
           dx: neighbor.x - current.x,
           dy: neighbor.y - current.y
         }) : 1);
-        if (!neighbor.inList(openSet) || tentativeGCost < neighbor.gCost) {
+        const previousGCost = bestGCost.get(neighborKey);
+        if (previousGCost === void 0 || tentativeGCost < previousGCost) {
           neighbor.parent = current;
           neighbor.gCost = tentativeGCost;
           neighbor.hCost = this.heuristic(neighbor, end);
           neighbor.fCost = neighbor.gCost + neighbor.hCost;
+          bestGCost.set(neighborKey, tentativeGCost);
           openSet.push(neighbor);
         }
       }
@@ -1160,6 +1212,7 @@ function styleAttributeValidator(json) {
 var BUILTIN_NODE_STYLE_ATTRIBUTES = [
   {
     key: "textAlign",
+    icon: "align-left",
     label: "Text Alignment",
     nodeTypes: ["text"],
     options: [
@@ -1182,6 +1235,7 @@ var BUILTIN_NODE_STYLE_ATTRIBUTES = [
   },
   {
     key: "shape",
+    icon: "shapes",
     label: "Shape",
     nodeTypes: ["text"],
     options: [
@@ -1229,6 +1283,7 @@ var BUILTIN_NODE_STYLE_ATTRIBUTES = [
   },
   {
     key: "border",
+    icon: "square-dashed-bottom",
     label: "Border",
     options: [
       {
@@ -1257,6 +1312,7 @@ var BUILTIN_NODE_STYLE_ATTRIBUTES = [
 var BUILTIN_EDGE_STYLE_ATTRIBUTES = [
   {
     key: "path",
+    icon: "path-solid",
     label: "Path Style",
     options: [
       {
@@ -1283,6 +1339,7 @@ var BUILTIN_EDGE_STYLE_ATTRIBUTES = [
   },
   {
     key: "arrow",
+    icon: "play",
     label: "Arrow Style",
     options: [
       {
@@ -1334,6 +1391,7 @@ var BUILTIN_EDGE_STYLE_ATTRIBUTES = [
   },
   {
     key: "pathfindingMethod",
+    icon: "pathfinding-method-square",
     label: "Pathfinding Method",
     options: [
       {
@@ -1400,7 +1458,12 @@ var CssStylesConfigManager = class {
     for (const match of matches) {
       const yamlString = match[1];
       if (!yamlString) continue;
-      const configYaml = (0, import_obsidian3.parseYaml)(yamlString);
+      let configYaml;
+      try {
+        configYaml = (0, import_obsidian3.parseYaml)(yamlString);
+      } catch (e) {
+        continue;
+      }
       configs.push(configYaml);
     }
     return configs;
@@ -1798,12 +1861,7 @@ var AdvancedCanvasPluginSettingTab = class extends import_obsidian4.PluginSettin
   getDocumentationButton(section, label) {
     return {
       name: label ? `Open ${label} documentation` : "Open documentation",
-      action: () => {
-        const anchor = activeWindow.createEl("a");
-        anchor.href = `${README_URL}#${section}`;
-        anchor.target = "_blank";
-        anchor.click();
-      }
+      action: () => window.open(`${README_URL}#${section}`, "_blank")
     };
   }
   getSettingDefinitions() {
@@ -1815,12 +1873,7 @@ var AdvancedCanvasPluginSettingTab = class extends import_obsidian4.PluginSettin
           {
             name: "Support me on Ko-fi",
             desc: "If you like this plugin, consider supporting its development <3",
-            action: () => {
-              const anchor = activeWindow.createEl("a");
-              anchor.href = KOFI_PAGE_URL;
-              anchor.target = "_blank";
-              anchor.click();
-            }
+            action: () => window.open(KOFI_PAGE_URL, "_blank")
           }
         ]
       },
@@ -3035,6 +3088,11 @@ var Patcher = class _Patcher {
 
 // src/patchers/canvas-patcher.ts
 var CanvasPatcher = class extends Patcher {
+  constructor() {
+    super(...arguments);
+    // Uninstall patches when an element gets removed from the canvas
+    this.elementUninstallers = /* @__PURE__ */ new Map();
+  }
   async patch() {
     const loadedCanvasViewLeafs = this.plugin.app.workspace.getLeavesOfType("canvas").filter((leaf) => !(0, import_obsidian5.requireApiVersion)("1.7.2") || !leaf.isDeferred);
     if (loadedCanvasViewLeafs.length > 0) {
@@ -3187,11 +3245,13 @@ var CanvasPatcher = class extends Patcher {
         return invoke(next, this, edge);
       }),
       removeNode: Patcher.OverrideExisting((next) => function(node) {
+        that.uninstallNodeElementPatches(node);
         const result = invoke(next, this, node);
         if (!this.isClearing) that.plugin.app.workspace.trigger("advanced-canvas:node-removed", this, node);
         return result;
       }),
       removeEdge: Patcher.OverrideExisting((next) => function(edge) {
+        that.uninstallNodeElementPatches(edge);
         const result = invoke(next, this, edge);
         if (!this.isClearing) that.plugin.app.workspace.trigger("advanced-canvas:edge-removed", this, edge);
         return result;
@@ -3303,14 +3363,26 @@ var CanvasPatcher = class extends Patcher {
     });
     this.plugin.registerEditorExtension([import_view.EditorView.updateListener.of((update) => {
       if (!update.docChanged) return;
-      const editor = update.state.field(import_obsidian5.editorInfoField);
+      let editor;
+      try {
+        editor = update.state.field(import_obsidian5.editorInfoField);
+      } catch (e) {
+        return;
+      }
       const node = editor.node;
       if (!node) return;
       that.plugin.app.workspace.trigger("advanced-canvas:node-text-content-changed", node.canvas, node, update);
     })]);
   }
+  uninstallNodeElementPatches(element) {
+    const uninstallers = this.elementUninstallers.get(element);
+    if (!uninstallers) return;
+    for (const uninstaller of uninstallers) uninstaller();
+    this.elementUninstallers.delete(element);
+  }
   patchNode(node) {
     const that = this;
+    const uninstallers = [];
     Patcher.patch(this.plugin, node, {
       render: Patcher.OverrideExisting((next) => function(...args) {
         const result = invoke(next, this, ...args);
@@ -3318,16 +3390,21 @@ var CanvasPatcher = class extends Patcher {
         return result;
       }),
       setData: Patcher.OverrideExisting((next) => function(data, addHistory) {
+        const unchanged = JSON.stringify(this.getData()) === JSON.stringify(data);
         const result = invoke(next, this, data);
-        if (node.initialized && !node.isDirty) {
-          node.isDirty = true;
-          that.plugin.app.workspace.trigger("advanced-canvas:node-changed", this.canvas, node);
-          delete node.isDirty;
+        let savedData = null;
+        if (!unchanged) {
+          if (node.initialized && !node.isDirty) {
+            node.isDirty = true;
+            that.plugin.app.workspace.trigger("advanced-canvas:node-changed", this.canvas, node);
+            delete node.isDirty;
+          }
+          if (this.initialized) {
+            savedData = this.canvas.getData();
+            this.canvas.view.requestSave();
+          }
         }
-        const canvasWithData = this.canvas;
-        canvasWithData.data = this.canvas.getData();
-        if (this.initialized) this.canvas.view.requestSave();
-        if (addHistory) this.canvas.pushHistory(canvasWithData.data);
+        if (addHistory) this.canvas.pushHistory(savedData != null ? savedData : this.canvas.getData());
         return result;
       }),
       setZIndex: (_next) => function(value) {
@@ -3389,7 +3466,8 @@ var CanvasPatcher = class extends Patcher {
         that.plugin.app.workspace.trigger("advanced-canvas:node-changed", this.canvas, this);
         return result;
       }
-    });
+    }, false, uninstallers);
+    this.elementUninstallers.set(node, uninstallers);
     this.runAfterInitialized(node, () => {
       this.plugin.app.workspace.trigger("advanced-canvas:node-added", node.canvas, node);
       this.plugin.app.workspace.trigger("advanced-canvas:node-changed", node.canvas, node);
@@ -3397,18 +3475,24 @@ var CanvasPatcher = class extends Patcher {
   }
   patchEdge(edge) {
     const that = this;
+    const uninstallers = [];
     Patcher.patch(this.plugin, edge, {
       setData: Patcher.OverrideExisting((next) => function(data, addHistory) {
+        const unchanged = JSON.stringify(this.getData()) === JSON.stringify(data);
         const result = invoke(next, this, data);
-        if (this.initialized && !this.isDirty) {
-          this.isDirty = true;
-          that.plugin.app.workspace.trigger("advanced-canvas:edge-changed", this.canvas, this);
-          delete this.isDirty;
+        let savedData = null;
+        if (!unchanged) {
+          if (this.initialized && !this.isDirty) {
+            this.isDirty = true;
+            that.plugin.app.workspace.trigger("advanced-canvas:edge-changed", this.canvas, this);
+            delete this.isDirty;
+          }
+          if (this.initialized) {
+            savedData = this.canvas.getData();
+            this.canvas.view.requestSave();
+          }
         }
-        const canvasWithData = this.canvas;
-        canvasWithData.data = this.canvas.getData();
-        if (this.initialized) this.canvas.view.requestSave();
-        if (addHistory) this.canvas.pushHistory(this.canvas.getData());
+        if (addHistory) this.canvas.pushHistory(savedData != null ? savedData : this.canvas.getData());
         return result;
       }),
       render: Patcher.OverrideExisting((next) => function(...args) {
@@ -3437,7 +3521,8 @@ var CanvasPatcher = class extends Patcher {
         }, { once: true });
         return result;
       })
-    });
+    }, false, uninstallers);
+    this.elementUninstallers.set(edge, uninstallers);
     this.runAfterInitialized(edge, () => {
       this.plugin.app.workspace.trigger("advanced-canvas:edge-added", edge.canvas, edge);
     });
@@ -3663,7 +3748,7 @@ async function computeCanvasFileMetadataAsync(file) {
   if (!cache2) this.saveFileCache(file.path, { mtime: 0, size: 0, hash: "" });
   else {
     const unchanged = cache2.mtime === file.stat.mtime && cache2.size === file.stat.size;
-    const hasMetadataCache = cache2.hash && Object.prototype.hasOwnProperty.call(this.metadataCache, cache2.hash);
+    const hasMetadataCache = !!(cache2.hash && Object.prototype.hasOwnProperty.call(this.metadataCache, cache2.hash));
     if (unchanged && hasMetadataCache)
       isStale = false;
   }
@@ -4000,6 +4085,7 @@ var SearchCommandPatcher = class extends Patcher {
 };
 var CanvasSearchView = class {
   constructor(view) {
+    this.debouncing = false;
     this.searchMatches = [];
     this.matchIndex = 0;
     this.view = view;
@@ -4016,7 +4102,8 @@ var CanvasSearchView = class {
     this.searchInput.type = "text";
     this.searchInput.placeholder = "Find...";
     this.searchInput.addEventListener("keydown", (e) => this.onKeyDown(e));
-    this.searchInput.addEventListener("input", () => this.onInput());
+    const debouncedOnInput = (0, import_obsidian10.debounce)(() => this.onInput(), 200, true);
+    this.searchInput.addEventListener("input", debouncedOnInput);
     this.searchCount = searchInputContainer.createDiv();
     this.searchCount.className = "document-search-count";
     this.searchCount.toggleClass("is-hidden", true);
@@ -4049,31 +4136,38 @@ var CanvasSearchView = class {
       this.changeMatch(this.matchIndex + (e.shiftKey ? -1 : 1));
     else if (e.key === "Escape")
       this.close();
+    else this.debouncing = false;
   }
   onInput() {
+    this.debouncing = false;
     const hasQuery = this.searchInput.value.length > 0;
     this.searchCount.toggleClass("is-hidden", !hasQuery);
-    if (!hasQuery) this.searchMatches = [];
-    else {
-      this.searchMatches = Array.from(this.view.canvas.nodes.values()).map((node) => {
-        const nodeData = node.getData();
-        let content = void 0;
-        if (nodeData.type === "text") content = nodeData.text;
-        else if (nodeData.type === "group") content = nodeData.label;
-        else if (nodeData.type === "file") content = node.child.data;
-        if (!content) return null;
-        const matches = [];
-        const regex = new RegExp(this.searchInput.value, "gi");
-        let match;
-        while ((match = regex.exec(content)) !== null) {
-          matches.push([match.index, match.index + match[0].length]);
-        }
-        return { nodeId: node.id, content, matches };
-      }).filter((match) => match && match.matches.length > 0);
+    if (!hasQuery) {
+      this.searchMatches = [];
+      return;
     }
+    const regex = new RegExp(this.searchInput.value, "gi");
+    const matchesList = [];
+    for (const node of this.view.canvas.nodes.values()) {
+      const nodeData = node.getData();
+      let content = void 0;
+      if (nodeData.type === "text") content = nodeData.text;
+      else if (nodeData.type === "group") content = nodeData.label;
+      else if (nodeData.type === "file") content = node.child.data;
+      if (!content) continue;
+      regex.lastIndex = 0;
+      const matches = [];
+      let match;
+      while ((match = regex.exec(content)) !== null)
+        matches.push([match.index, match.index + match[0].length]);
+      if (matches.length === 0) continue;
+      matchesList.push({ nodeId: node.id, content, matches });
+    }
+    this.searchMatches = matchesList;
     this.changeMatch(0);
   }
   changeMatch(index) {
+    if (this.debouncing) this.onInput();
     if (this.searchMatches.length === 0) this.matchIndex = -1;
     else {
       if (index < 0) index += this.searchMatches.length;
@@ -4139,10 +4233,11 @@ var MetadataCanvasExtension = class extends CanvasExtension {
     this.plugin.app.workspace.trigger("advanced-canvas:canvas-metadata-changed", canvas);
   }
   onMetadataChanged(canvas) {
-    var _a, _b, _c;
+    var _a, _b;
     const oldCssClasses = this.canvasCssclassesCache.get(canvas.view);
     if (oldCssClasses) canvas.wrapperEl.classList.remove(...oldCssClasses);
-    const currentClasses = (_c = (_b = (_a = canvas.metadata) == null ? void 0 : _a.frontmatter) == null ? void 0 : _b.cssclasses) != null ? _c : [];
+    const rawClasses = (_b = (_a = canvas.metadata) == null ? void 0 : _a.frontmatter) == null ? void 0 : _b.cssclasses;
+    const currentClasses = Array.isArray(rawClasses) ? rawClasses : typeof rawClasses === "string" ? rawClasses.split(/\s+/).filter((cls) => cls) : [];
     this.canvasCssclassesCache.set(canvas.view, currentClasses);
     if (currentClasses.length > 0) canvas.wrapperEl.classList.add(...currentClasses);
   }
@@ -4316,11 +4411,7 @@ var NodeRatioCanvasExtension = class extends CanvasExtension {
   onNodeResized(_canvas, node) {
     const nodeData = node.getData();
     if (!nodeData.ratio) return;
-    const nodeBBox = node.getBBox();
-    const nodeSize = {
-      width: nodeBBox.maxX - nodeBBox.minX,
-      height: nodeBBox.maxY - nodeBBox.minY
-    };
+    const nodeSize = { width: node.width, height: node.height };
     const nodeAspectRatio = nodeSize.width / nodeSize.height;
     if (nodeAspectRatio < nodeData.ratio)
       nodeSize.width = nodeSize.height * nodeData.ratio;
@@ -4397,6 +4488,14 @@ var NodeTemplatesCanvasExtension = class extends CanvasExtension {
     return true;
   }
   init() {
+    this.plugin.registerEvent(this.plugin.app.workspace.on(
+      "canvas:node-menu",
+      (menu, node) => {
+        menu.addItem(
+          (item) => item.setTitle("Save node as template").setIcon("book-plus").onClick(() => void this.saveNodeAsTemplate(node.canvas))
+        );
+      }
+    ));
     this.plugin.addCommand({
       id: "save-node-as-template",
       name: "Save node as template",
@@ -4420,10 +4519,11 @@ var NodeTemplatesCanvasExtension = class extends CanvasExtension {
     const templates = this.plugin.settings.getSetting("nodeTemplates");
     for (let i = 0; i < templates.length; i++) {
       const template = templates[i];
-      const commandId = `create-template-node-${i}`;
+      const label = template.label ? `"${template.label}"` : i + 1;
+      const createCommandId = `create-template-node-${i}`;
       this.plugin.addCommand({
-        id: commandId,
-        name: "Create template node " + (template.label ? `"${template.label}"` : i + 1),
+        id: createCommandId,
+        name: `Create template node ${label}`,
         checkCallback: CanvasHelper.canvasCommand(
           this.plugin,
           (_) => true,
@@ -4440,7 +4540,26 @@ var NodeTemplatesCanvasExtension = class extends CanvasExtension {
           }
         )
       });
-      this.registeredNodeTemplateCommandIds.push(commandId);
+      this.registeredNodeTemplateCommandIds.push(createCommandId);
+      const applyCommandId = `apply-template-${i}-to-node`;
+      this.plugin.addCommand({
+        id: applyCommandId,
+        name: `Apply template ${label} to selected node(s)`,
+        checkCallback: CanvasHelper.canvasCommand(
+          this.plugin,
+          (canvas) => canvas.getSelectionData().nodes.length > 0,
+          (canvas) => {
+            const selectedNodesData = canvas.getSelectionData().nodes;
+            for (const nodeData of selectedNodesData) {
+              const node = canvas.nodes.get(nodeData.id);
+              if (node) this.applyTemplateToNode(node, template);
+            }
+            if (selectedNodesData.length > 0)
+              canvas.pushHistory(canvas.getData());
+          }
+        )
+      });
+      this.registeredNodeTemplateCommandIds.push(applyCommandId);
     }
   }
   onCardMenuCreated(canvas) {
@@ -4467,7 +4586,6 @@ var NodeTemplatesCanvasExtension = class extends CanvasExtension {
     }
   }
   async createNodeFromTemplate(canvas, template, pos) {
-    var _a;
     const creationOptions = {
       pos,
       size: {
@@ -4488,7 +4606,12 @@ var NodeTemplatesCanvasExtension = class extends CanvasExtension {
     } else if (template.type === "group") node = canvas.createGroupNode(creationOptions);
     else if (template.type === "link") node = canvas.createLinkNode({ ...creationOptions, url: template.url });
     else throw new Error(`Unknown template type: ${template.type}`);
+    this.applyTemplateToNode(node, template);
+  }
+  applyTemplateToNode(node, template) {
+    var _a;
     const data = node.getData();
+    if (data.type !== template.type) return;
     node.setData(
       {
         ...data,
@@ -5748,9 +5871,10 @@ var AutoResizeNodeCanvasExtension = class extends CanvasExtension {
     const maxHeight = this.plugin.settings.getSetting("autoResizeNodeMaxHeight");
     if (maxHeight != -1 && height > maxHeight) height = maxHeight;
     const nodeData = node.getData();
-    height = Math.max(height, node.canvas.config.minContainerDimension);
+    height = Math.max(height + 4, node.canvas.config.minContainerDimension);
     if (this.plugin.settings.getSetting("autoResizeNodeSnapToGrid"))
       height = Math.ceil(height / CanvasHelper.GRID_SIZE) * CanvasHelper.GRID_SIZE;
+    if (height === nodeData.height) return;
     node.setData({
       ...nodeData,
       height
@@ -6304,9 +6428,10 @@ var ColorPaletteCanvasExtension = class extends CanvasExtension {
     ).join("\n");
     for (const win of this.plugin.windowsManager.windows) {
       const doc = win.activeDocument;
+      if (!doc.defaultView) continue;
       let sheet = this.styleSheets.get(doc);
       if (!sheet) {
-        sheet = new CSSStyleSheet();
+        sheet = new doc.defaultView.CSSStyleSheet();
         doc.adoptedStyleSheets = [...doc.adoptedStyleSheets, sheet];
         this.styleSheets.set(doc, sheet);
       }
@@ -6651,16 +6776,18 @@ var FlipEdgeCanvasExtension = class extends CanvasExtension {
     edgeDirectionButton.addEventListener("click", () => this.onEdgeDirectionDropdownCreated(canvas));
   }
   onEdgeDirectionDropdownCreated(canvas) {
-    const dropdownEl = activeDocument.body.querySelector("div.menu");
-    if (!dropdownEl) return;
+    const dropdownScrollerEl = activeDocument.body.querySelector("div.menu .menu-scroll");
+    if (!dropdownScrollerEl) return;
     const separatorEl = CanvasHelper.createDropdownSeparatorElement();
-    dropdownEl.appendChild(separatorEl);
+    dropdownScrollerEl.appendChild(separatorEl);
+    const groupEl = dropdownScrollerEl.createDiv();
+    groupEl.classList.add("menu-group");
     const flipEdgeButton = CanvasHelper.createDropdownOptionElement({
       icon: "flip-horizontal-2",
       label: "Flip Edge",
       callback: () => this.flipEdge(canvas)
     });
-    dropdownEl.appendChild(flipEdgeButton);
+    groupEl.appendChild(flipEdgeButton);
   }
   flipEdge(canvas) {
     const selectedEdges = [...canvas.selection].filter(
@@ -7928,6 +8055,10 @@ var EdgeHighlightCanvasExtension = class extends CanvasExtension {
 
 // src/canvas-extensions/reading-mode-fix-canvas-extension.ts
 var ReadingModeFixCanvasExtension = class extends CanvasExtension {
+  constructor() {
+    super(...arguments);
+    this.hookedRenderers = /* @__PURE__ */ new WeakSet();
+  }
   isEnabled() {
     return "readingModeFixEnabled";
   }
@@ -7948,6 +8079,8 @@ var ReadingModeFixCanvasExtension = class extends CanvasExtension {
     var _a, _b;
     const renderer = (_b = (_a = node.child) == null ? void 0 : _a.previewMode) == null ? void 0 : _b.renderer;
     if (!renderer) return;
+    if (this.hookedRenderers.has(renderer)) return;
+    this.hookedRenderers.add(renderer);
     renderer.onRendered(() => {
       var _a2;
       let text = (_a2 = renderer.text) != null ? _a2 : "";
@@ -8199,6 +8332,10 @@ function getExposedNodeData(settings) {
   return exposedData;
 }
 var NodeExposerExtension = class extends CanvasExtension {
+  constructor() {
+    super(...arguments);
+    this.iframeObservers = /* @__PURE__ */ new WeakSet();
+  }
   isEnabled() {
     return true;
   }
@@ -8206,27 +8343,40 @@ var NodeExposerExtension = class extends CanvasExtension {
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       "advanced-canvas:node-changed",
       (_canvas, node) => {
-        var _a, _b;
+        var _a, _b, _c;
         const nodeData = node == null ? void 0 : node.getData();
         if (!nodeData) return;
         this.setDataAttributes(node.nodeEl, nodeData);
-        const iframe = (_b = (_a = node.nodeEl.querySelector("iframe")) == null ? void 0 : _a.contentDocument) == null ? void 0 : _b.body;
-        if (iframe) this.setDataAttributes(iframe, nodeData);
+        let iframeBody = null;
+        try {
+          iframeBody = (_c = (_b = (_a = node.nodeEl.querySelector("iframe")) == null ? void 0 : _a.contentDocument) == null ? void 0 : _b.body) != null ? _c : null;
+        } catch (e) {
+          iframeBody = null;
+        }
+        if (iframeBody) this.setDataAttributes(iframeBody, nodeData);
       }
     ));
     this.plugin.registerEvent(this.plugin.app.workspace.on(
       "advanced-canvas:node-editing-state-changed",
       (_canvas, node, editing) => {
-        var _a, _b;
+        var _a, _b, _c;
         if (!editing) return;
         const nodeData = node.getData();
         if (!nodeData) return;
-        const iframe = (_b = (_a = node.nodeEl.querySelector("iframe")) == null ? void 0 : _a.contentDocument) == null ? void 0 : _b.body;
-        if (!iframe) return;
-        iframe.classList.add(CANVAS_NODE_IFRAME_BODY_CLASS);
-        new MutationObserver(() => iframe.classList.toggle(CANVAS_NODE_IFRAME_BODY_CLASS, true)).observe(iframe, { attributes: true, attributeFilter: ["class"] });
-        this.setDataAttributes(iframe, nodeData);
-        CanvasWrapperExposerExtension.updateCanvasExposedSettings(this.plugin, iframe);
+        let iframeBody = null;
+        try {
+          iframeBody = (_c = (_b = (_a = node.nodeEl.querySelector("iframe")) == null ? void 0 : _a.contentDocument) == null ? void 0 : _b.body) != null ? _c : null;
+        } catch (e) {
+          return;
+        }
+        if (!iframeBody) return;
+        if (!this.iframeObservers.has(iframeBody)) {
+          this.iframeObservers.add(iframeBody);
+          iframeBody.classList.add(CANVAS_NODE_IFRAME_BODY_CLASS);
+          new MutationObserver(() => iframeBody.classList.toggle(CANVAS_NODE_IFRAME_BODY_CLASS, true)).observe(iframeBody, { attributes: true, attributeFilter: ["class"] });
+        }
+        this.setDataAttributes(iframeBody, nodeData);
+        CanvasWrapperExposerExtension.updateCanvasExposedSettings(this.plugin, iframeBody);
       }
     ));
   }

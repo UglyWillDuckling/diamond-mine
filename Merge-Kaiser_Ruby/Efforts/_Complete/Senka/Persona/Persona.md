@@ -1,5 +1,4 @@
 ---
-status: done
 priority: normal
 dateModified: 2025-12-09T17:58:39.832+01:00
 tags:

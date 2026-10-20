@@ -1,5 +1,5 @@
 ---
-status: In progress
+status: Done
 dg-publish: true
 ---
 #project 
@@ -53,8 +53,8 @@ archive feature for requests -> probably need to be in a certain status
 - optionally add a page to display those or a new filter
 - implementation should be kept simple
 
-- [ ] new column -> set default to false
-- [ ] add scope for this
-- [ ] archive button on `request page`
-	- [ ] #maybe only for `vlado`
-- [ ] filter out requests by default
+- [x] new column -> set default to false
+- [x] add scope for this
+- [x] archive button on `request page`
+	- [x] #maybe only for `vlado`
+- [x] filter out requests by default

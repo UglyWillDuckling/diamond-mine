@@ -18,7 +18,9 @@
   "simple-canvasearch",
   "open-gate",
   "game-search",
-  "hot-reload",
   "digitalgarden",
-  "bulk-properties"
+  "bulk-properties",
+  "hot-reload",
+  "multi-properties",
+  "property-values-browser"
 ]

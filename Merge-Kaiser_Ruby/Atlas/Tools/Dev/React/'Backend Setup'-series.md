@@ -5,7 +5,6 @@ tags:
   - ticket
   - archived
 dateModified: 2026-04-27T00:15:29.148+02:00
-status: done
 priority: normal
 type: task
 completedDate: 2026-04-27

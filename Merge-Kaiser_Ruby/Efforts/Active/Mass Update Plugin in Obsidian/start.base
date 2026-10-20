@@ -1,0 +1,23 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - type == "movie"
+        - file.name.contains("Space")
+    order:
+      - file.name
+      - movie_status
+    sort:
+      - property: movie_status
+        direction: ASC
+    columnSize:
+      file.name: 388
+  - type: table
+    name: View
+    filters:
+      and:
+        - status == "In progress"
+    order:
+      - file.name
+      - status

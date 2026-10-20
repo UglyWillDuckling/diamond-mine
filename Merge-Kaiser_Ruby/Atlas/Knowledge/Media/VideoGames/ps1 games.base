@@ -44,3 +44,5 @@ views:
         - note["want it"] == true
     image: note.image
     imageAspectRatio: 0.9
+  - type: table
+    name: ps2

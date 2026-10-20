@@ -3,7 +3,7 @@
   "cssTheme": "",
   "accentColor": "#d48740",
   "baseFontSizeAction": true,
-  "baseFontSize": 17,
+  "baseFontSize": 23,
   "enabledCssSnippets": [
     "dataview-margin-remove",
     "tasks_padding",

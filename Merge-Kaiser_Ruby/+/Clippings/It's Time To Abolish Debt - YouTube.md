@@ -8,6 +8,5 @@ value: 8.5
 interest: 8
 related:
   - "[[David Graeber]]"
-status: Watching 👀
 ---
 ![](https://www.youtube.com/watch?v=agIqcU5mxbI)

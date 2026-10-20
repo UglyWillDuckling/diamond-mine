@@ -11,7 +11,6 @@ genres:
 description:
 isbn10:
 subtitle:
-status:
 read: false
 cover:
 image:

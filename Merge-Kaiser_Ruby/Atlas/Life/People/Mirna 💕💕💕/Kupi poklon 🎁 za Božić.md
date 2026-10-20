@@ -1,6 +1,4 @@
 ---
-status:
-  - In progress
 aliases:
 ---
 #task #Mirna #active

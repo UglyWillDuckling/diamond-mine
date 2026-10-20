@@ -1,5 +1,4 @@
 ---
-status: done
 related:
   - "[[rockbox]]"
   - "[[Rockbox Utility won't detect my iPod in the right mount point]]"

@@ -1,0 +1,118 @@
+/* Popup footnote editor, anchored at the cursor. The name label and the
+   editor sit side by side so the popup reads like the detail line does in
+   the note: "[^name]: content" */
+.footnote-shortcut-popup {
+    position: fixed;
+    z-index: var(--layer-popover);
+    max-height: 250px;
+    overflow-y: auto;
+    padding: 8px 10px;
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-m);
+    box-shadow: var(--shadow-s);
+    display: flex;
+    align-items: flex-start;
+    /* the same gap the core Footnotes view puts between its id and the
+       footnote text, so a theme that tunes one tunes both */
+    gap: var(--footnote-gap, 0.4em);
+}
+
+/* A body that starts with a heading: the editor gives a heading line
+   padding above it, and a bigger line height leaves more room above the
+   letters, so the heading's letters sat a few pixels below the label's
+   (Jason's report, sheet 06, 2026-09-09). The padding goes, and the line
+   is drawn a tenth of its own size higher, which puts the top of the
+   heading level with the top of the label - the same picture the core
+   Footnotes view paints. Tuned live with Jason; a plain first line is
+   untouched. */
+.footnote-shortcut-popup .cm-content > .cm-line.HyperMD-header:first-child {
+    padding-top: 0;
+    position: relative;
+    top: -0.1em;
+}
+
+/* The core Footnotes view has the same problem while a footnote is being
+   edited there: its rendered state gives a first heading no space above,
+   so the id and the heading start level, but clicking in swaps in this
+   same editor, whose heading padding drops the heading below the id
+   (16px in the default theme). Strip it there too, so the two states of
+   the sidebar match each other and the popup. No nudge here: the sidebar's
+   id is a digit, which stands lower than the popup's bracket, and box tops
+   are what its rendered state aligns. (Jason, 2026-09-09.) */
+.footnotes-view .footnote-content .cm-content > .cm-line.HyperMD-header:first-child {
+    padding-top: 0;
+}
+
+/* stay invisible until the footnote detail is loaded */
+.footnote-shortcut-popup.footnote-shortcut-popup-loading {
+    visibility: hidden;
+}
+
+/* closed but not yet torn down (waiting for the embed's save debounce) */
+/* which footnote is being edited; metrics match the embedded editor's
+   text so the label lines up with the first line of the detail */
+.footnote-shortcut-popup .footnote-shortcut-popup-label {
+    flex: none;
+    font-size: var(--font-text-size);
+    line-height: var(--line-height-normal);
+    /* the colour the core Footnotes view gives its ids, so a theme that
+       restyles those restyles this label the same way */
+    color: var(--footnote-id-color, var(--text-muted));
+    user-select: none;
+}
+
+.footnote-shortcut-popup .footnote-shortcut-popup-embed {
+    flex: 1;
+    min-width: 0;
+    /* strip the transclusion look (accent left border, inset padding)
+       that Obsidian gives .markdown-embed containers */
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* the embedded editor is scoped to one footnote; hide file-level chrome */
+.footnote-shortcut-popup .metadata-container,
+.footnote-shortcut-popup .inline-title,
+.footnote-shortcut-popup .markdown-embed-link {
+    display: none;
+}
+
+/* the embed inherits the vault's "show line numbers" setting and would
+   render the detail's file-absolute line number next to the label; a
+   gutter has no place in a one-footnote editor */
+.footnote-shortcut-popup .cm-gutters {
+    display: none;
+}
+
+/* The plugin's one-field dialogs (Set footnote prefix, Rename footnote,
+   Name the footnote) are built like Obsidian's own Rename heading dialog:
+   a short explanation, one text box, an error line, and Obsidian's button
+   row. Obsidian's stylesheet places them (a bottom sheet lifted above the
+   keyboard on a phone, a centred dialog elsewhere); these two rules only
+   shape the explanation and the box. */
+.modal.footnote-shortcut-text-modal .footnote-shortcut-text-modal-desc {
+    color: var(--text-muted);
+    font-size: var(--font-ui-small);
+    margin-bottom: var(--size-4-3);
+}
+
+.modal.footnote-shortcut-text-modal .footnote-shortcut-text-modal-input {
+    width: 100%;
+}
+
+/* inline validation message under the dialogs' text box */
+.footnote-shortcut-prefix-error {
+    color: var(--text-error);
+    font-size: var(--font-ui-small);
+    min-height: 1.4em;
+    margin-top: var(--size-4-2);
+}
+
+/* A quoted footnote reference inside a toast ("[^name]") is one visual
+   token: Obsidian's notice wraps with overflow-wrap: anywhere, which
+   could split the quotes from the name across lines (2026-09-04). */
+.footnote-shortcut-nowrap {
+    white-space: nowrap;
+}

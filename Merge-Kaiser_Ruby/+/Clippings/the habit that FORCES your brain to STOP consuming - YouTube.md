@@ -1,9 +1,8 @@
 ---
 source: https://m.youtube.com/watch?v=s2PoAOipwSM
-published: 
+published:
 created: 2025-06-07
 tags:
   - video
-status: Watching 👀
 ---
 ![](https://www.youtube.com/watch?v=s2PoAOipwSM)

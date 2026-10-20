@@ -106,6 +106,9 @@
     "dg-publish": "checkbox",
     "dg-home": "checkbox",
     "movie_status": "multitext",
-    "selected": "checkbox"
+    "selected": "checkbox",
+    "due_date": "date",
+    "area": "text",
+    "images": "multitext"
   }
 }

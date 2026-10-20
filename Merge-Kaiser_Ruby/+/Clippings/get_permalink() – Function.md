@@ -2,14 +2,14 @@
 source: https://developer.wordpress.org/reference/functions/get_permalink/
 author:
   - "[[WordPress Developer Resources]]"
-published: 
+published:
 created: 2025-01-26
 tags:
   - docs
   - docs/official
   - wordpress
 related:
-  - "[[Efforts/Simmering/Wordpress/Wordpress]]"
+  - "[[Efforts/_Complete/Wordpress/Wordpress]]"
 ---
 Retrieves the full permalink for the current post or post ID.
 

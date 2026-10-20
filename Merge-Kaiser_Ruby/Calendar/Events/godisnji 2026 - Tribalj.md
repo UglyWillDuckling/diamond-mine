@@ -7,6 +7,6 @@ location: "[[Tribanj]]"
 
 [[Tribalj]]
 
-[[priprema za godisnji 2026]]
+[[+/priprema za godisnji 2026]]
 
 Ropci 16, Tribalj, Primorsko-goranska županija 51260, Hrvatska

@@ -1,7 +1,7 @@
 ---
 title: How to Migrate Email Services to Hostinger Email | Hostinger Help Center
 source: https://support.hostinger.com/en/articles/5240867-how-to-migrate-email-services-to-hostinger-email
-published: 
+published:
 created: 2025-01-02
 description: Migrating your email services to Hostinger Email
 tags:

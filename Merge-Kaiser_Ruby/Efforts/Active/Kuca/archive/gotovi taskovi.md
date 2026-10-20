@@ -2,7 +2,7 @@
 
  - [x] #task pogledati dokumente na driveu 🔼 📅 2026-02-09
 
-- [/] #task napraviti graf s redoslijedom faza(operacija) na [[Kuca]] 🆔 jbRBy1 📅 2026-03-01
+- [x] #task napraviti graf s redoslijedom faza(operacija) na [[Kuca]] 🆔 jbRBy1 📅 2026-03-01
 	- [[Faze gradnje.canvas]]
 
  - [x] #task proci ponudu [[voda i kanalizacija]] 🆔 UIHMSe 🔼 📅 2026-02-08 ✅ 2026-02-10

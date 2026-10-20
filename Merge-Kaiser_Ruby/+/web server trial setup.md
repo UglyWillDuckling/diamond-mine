@@ -1,5 +1,4 @@
 ---
-status: done
 tags:
   - archived
 dateModified: 2026-04-27T00:14:22.891+02:00

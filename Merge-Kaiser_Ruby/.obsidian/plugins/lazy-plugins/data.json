@@ -230,6 +230,15 @@
       },
       "digitalgarden": {
         "startupType": "instant"
+      },
+      "bulk-properties": {
+        "startupType": "instant"
+      },
+      "multi-properties": {
+        "startupType": "instant"
+      },
+      "property-values-browser": {
+        "startupType": "instant"
       }
     }
   }

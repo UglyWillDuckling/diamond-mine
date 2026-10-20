@@ -1,0 +1,41 @@
+filters:
+  and:
+    - file.tags.contains("project")
+views:
+  - type: kanban
+    name: Active Board
+    filters:
+      and:
+        - '!status.containsAny("cancelled", "Done", "Ongoing")'
+        - '!file.tags.contains("archived")'
+    groupBy:
+      property: status
+      direction: ASC
+    groupOrder:
+      - Backlog
+      - Planning
+      - Active
+      - Finished
+    order:
+      - file.name
+      - start date
+      - status
+      - priority
+      - due_date
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnWidth: 310
+    imageAspectRatio: 0.7
+  - type: table
+    name: View
+    order:
+      - file.name
+      - status
+      - date_start
+    sort:
+      - property: status
+        direction: ASC
+    columnSize:
+      note.status: 175
+    rowHeight: medium

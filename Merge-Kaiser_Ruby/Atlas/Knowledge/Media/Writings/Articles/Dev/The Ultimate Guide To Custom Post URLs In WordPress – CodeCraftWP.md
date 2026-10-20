@@ -7,7 +7,7 @@ created: 2025-01-26
 tags:
   - article
 related:
-  - "[[Efforts/Simmering/Wordpress/Wordpress]]"
+  - "[[Efforts/_Complete/Wordpress/Wordpress]]"
 ---
 ![[~/×/a5ac34179e0cb0b82c905d8975c87fb9_MD5.png|50]]
 

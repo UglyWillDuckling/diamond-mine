@@ -2,7 +2,6 @@
 exampleProperty: 2025-01-06
 ssl_start: 2025-01-06
 ssl_end: 2025-04-06
-status: done
 tags:
   - archived
 dateModified: 2026-04-27T00:15:02.114+02:00

@@ -6,7 +6,7 @@ tags:
   - person/familiy
 ---
 Full Name: `=this.name + " " + this.lastName`
-age: `=round((date(today) - this.birthday).years)` godine
+age: `=round((date(today) - this.birthday).years)` 
 
 ## patterni
 

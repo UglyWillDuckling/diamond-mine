@@ -10,6 +10,7 @@ dv.paragraph(`[[Tjedan ${moment().week()} - ${moment().year()}]]`)
 
 - [[Projects.base]]
 - [[Task Map.canvas]]
+- [[Ideas 💡 · Projects]]
 
 ___
 

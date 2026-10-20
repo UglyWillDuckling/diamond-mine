@@ -1,27 +1,30 @@
 ---
 tags:
   - project
-status: Planning
+status: Backlog
+priority: 5
 ---
-## :LiTarget: Cilj
+# :LiTarget: Cilj
 ..
 
-### Trenutna situacija
+## Trenutna situacija
 ..
 
-### ⏭ sljedeće 
+## ⏭ sljedeće 
 
 - [ ] ..
 
-### ☑ zadaci 
+## ✔ zadaci
 
 - [ ] ..
 
-### :LiWeight: odluke 
+## :LiWeight: odluke
 ..
 
-### :LiSearch: istraživanja
+## :LiSearch: istraživanja
 ..
 
-### 🗒 bilješke 
+## 🗒 bilješke
 ..
+
+## Artifacts

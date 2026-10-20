@@ -15,7 +15,7 @@ created: <% tp.file.creation_date() %>
 ><% tp.web.random_picture("150x150", "science-fiction,imagination,creation", 1) %>
 ><% tp.web.random_picture("150x150", "history,writing,dinosaur", 1) %>
 
-<< [[Timestamps/<% tp.date.now("YYYY", -1) %>/<% tp.date.now("MM-MMMM", -1) %>/<% tp.date.now("YYYY-MM-DD-dddd", -1) %>|Yesterday]] | [[Timestamps/<% tp.date.now("YYYY", 1) %>/<% tp.date.now("MM-MMMM", 1) %>/<% tp.date.now("YYYY-MM-DD-dddd", 1) %>|Tomorrow]] >>
+<< [[Calendar/daily/<% tp.date.now("YYYY", -1) %>/<% tp.date.now("YYYY-MM-DD-ddd", -1) %>|Yesterday]] | [[Calendar/daily/<% tp.date.now("YYYY", 1) %>/<% tp.date.now("YYYY-MM-DD-ddd", 1) %>|Tomorrow]] >>
 
 ---
 ### 📅 Daily Questions

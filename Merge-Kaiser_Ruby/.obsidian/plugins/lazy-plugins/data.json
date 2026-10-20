@@ -192,9 +192,6 @@
       "tabs": {
         "startupType": "instant"
       },
-      "task-board": {
-        "startupType": "disabled"
-      },
       "obsidian-tasks-plugin": {
         "startupType": "instant"
       },

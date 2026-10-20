@@ -1,7 +1,7 @@
 ---
 related:
   - "[[postfix config steps]]"
-  - "[[trial postfix config file 1]]"
+  - "[[trial postfix config file]]"
   - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/setup mail server trial]]"
   - "[[How To Set Up a Postfix E-Mail Server with Dovecot]]"
 tags:

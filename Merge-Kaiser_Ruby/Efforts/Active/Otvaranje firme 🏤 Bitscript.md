@@ -8,7 +8,7 @@ area: "[[Business]]"
 
 ## next actions
 
-- [/] #task napraviti [[tabla 1]] :LiTable: 🔼 📅 2026-10-14
+- [/] #task napraviti [[tabla]] :LiTable: 🔼 📅 2026-10-14
 
 ## tasks
 

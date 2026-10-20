@@ -1,6 +1,6 @@
 ---
 related:
-  - "[[trial postfix config file 1]]"
+  - "[[trial postfix config file]]"
   - "[[Efforts/_Complete/Senka 1/Persona/Persona]]"
   - "[[Efforts/_Complete/Senka 1/Persona/archive/archive/Setup hosting/prepare for migration]]"
 ---

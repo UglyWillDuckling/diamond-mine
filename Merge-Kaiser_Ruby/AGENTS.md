@@ -47,29 +47,25 @@ Notes on the CLIs:
 
 | Path | Purpose |
 | --- | --- |
-| `Efforts/` | Actionable material: projects, tickets, tasks. Lifecycle folders: `Active/`, `Planned/`, `Simmering/`, `Ideas/`, `_Complete/`, `_Ongoing/`, `tasks/`. `TaskNotes/Tasks/` holds file-per-task notes. |
+| `Efforts/` | Actionable material: projects, tickets, tasks. Lifecycle folders: `Active/`, `Planned/`, `Simmering/`, `Ideas/`, `_Complete/`, `_Ongoing/`, `tasks/`. |
 | `Atlas/` | Reference knowledge. `Knowledge/` (People, Places, History, Science, Concepts, Media, Quotes, Books), `Tools/`, `Life/` (Areas, People, Faks, Health, Home), `howtos/`, `templates/`, `Sets/`, `Notes/`. |
 | `Calendar/` | `daily/` (daily notes), `Weeks/` (weekly notes), `Events/`, `Incidents/`, `actions/`. |
 | `+/` | Inbox/web clippings (~1,500 notes), including `Clippings/` and `DAS - watchlist/`. Mostly imported HTML, not hand-written. |
 | `~` | Literal folder named `~`: attachments in `~/×/`, templates and scratch in `~/%/`. |
-| `TaskNotes/Views/`, `Efforts/TaskNotes/Views/` | Duplicated `.base` view definitions for TaskNotes. |
 | `.obsidian/` | App config, enabled plugins, themes, snippets, icons. Never hand-edit plugin `main.js`; config edits are fine. |
 
 Folder notes (folder plugin) are files named exactly after their folder: `Efforts/Active/Kuca/Kuca.md`, `Efforts/Active/PS2 Setup/PS2 Setup.md`, `Efforts/Simmering/Techdot.IO/Techdot.IO.md`. When changing a folder's overview, edit that folder note.
 
-## Task systems (three coexist — do not unify them unprompted)
+## Task systems (two coexist — do not unify them unprompted)
 
 1. **Tasks plugin** (`obsidian-tasks-plugin` 8.5.0). Inline checkboxes in any note.
    - Global filter is `#task` with `removeGlobalFilter: true`, so `#task` is present in source but hidden in rendered views.
    - Custom statuses: `[ ]` todo, `[/]` in progress, `[x]` done, `[-]` cancelled.
    - Metadata emoji: `🆔` id, `📅` due, `⏳` scheduled, `✅` done date, `🔼/⏫/🔽` priority.
    - `tasks` query code blocks render across the vault (18 notes), e.g. `Efforts/tasks/tasks.md`, `▶ Next Actions.md`, `HOME.md`.
-2. **TaskNotes** (`tasknotes` 4.13.8). One file per task in `Efforts/TaskNotes/Tasks/`.
-   - Identification is by property, not tag: `type: task` (`taskPropertyName: type`, `taskPropertyValue: task`).
-   - Statuses: `none`, `open`, `in-progress`, `done`. Priorities: `none`, `low`, `normal`, `high`.
-   - Typical frontmatter: `priority`, `scheduled`, `dateCreated`, `dateModified`, `type: task`, `tags`, `status`.
-   - Views live in `.base` files using the `tasknotesTaskList` view type with `formula.urgencyScore` sorting.
-3. **Obsidian Bases** (core plugin, enabled). `.base` files drive project/task/media tables and kanbans.
+2. **Obsidian Bases** (core plugin, enabled). `.base` files drive project/task/media tables and kanbans.
+
+TaskNotes (`tasknotes`) was fully removed on 2026-10-20: the plugin, its generated `.base` views, and its three task notes in `Efforts/TaskNotes/` were deleted. Do not recreate the file-per-task format; use `#task` checkboxes.
 
 QuickAdd choice **New Task** captures into `Efforts/Master Task List.md` via the Tasks plugin task modal.
 
@@ -110,7 +106,7 @@ Events (`Calendar/Events/`) use `lokacija` (list of quoted links), `participants
 
 ## Obsidian Bases (`.base`) syntax
 
-Observed schema: top-level `filters`, `formulas`, `properties`, `views`. Filters use expressions like `file.tags.contains("event")`, `file.hasTag("media")`, `type == "movie"`, `note["plan-to-watch"] == true`, `link("Kuca")`, `project == link("Kuca")`, `!file.folder.contains("Set")`. View types seen: `table`, `cards`, `kanban`, `tasknotesTaskList`. View keys: `name`, `filters`, `order`, `sort` (`property`/`column`, `direction`), `groupBy`, `groupOrder`, `image`, `cardSize`, `columnSize`, `rowHeight`. Notes can also embed an inline base with a ` ```base ` fenced block (see `obsidian inline base example.md`).
+Observed schema: top-level `filters`, `formulas`, `properties`, `views`. Filters use expressions like `file.tags.contains("event")`, `file.hasTag("media")`, `type == "movie"`, `note["plan-to-watch"] == true`, `link("Kuca")`, `project == link("Kuca")`, `!file.folder.contains("Set")`. View types seen: `table`, `cards`, `kanban`. View keys: `name`, `filters`, `order`, `sort` (`property`/`column`, `direction`), `groupBy`, `groupOrder`, `image`, `cardSize`, `columnSize`, `rowHeight`. Notes can also embed an inline base with a ` ```base ` fenced block (see `obsidian inline base example.md`).
 
 Sets plugin data lives in `Atlas/Sets/`: `<Name>Set/<Name>Set.md` with a ```` ```set ```` scope block, and object types in `Atlas/Sets/Types/<name>Type.md` declaring `type: <name>`. Base filters exclude folders containing `Set` to avoid indexing these type notes.
 
@@ -119,7 +115,8 @@ Sets plugin data lives in `Atlas/Sets/`: `<Name>Set/<Name>Set.md` with a ```` ``
 - **No version control.** There is no `.git`; there is no undo outside Obsidian's file recovery. Be conservative, and prefer additive edits over rewrites.
 - **`promptDelete: false`** — deleting in the app does not ask for confirmation. Do not delete notes unless explicitly asked.
 - **Templater executes on every new `.md` file**, including text inside fenced code blocks and inline code. Anything written with Templater's angle-bracket-percent placeholder delimiters when a note is created is replaced immediately (`tp.file.title`, `tp.date.now()`, etc.). Verified experimentally: a newly written note containing such a placeholder got substituted. When a note must *show* that syntax (templates, docs), create it with a placeholder first and add the real syntax with a follow-up edit: edits to an existing note are not processed, creation is.
-- **134 duplicate note basenames**, many from the vault merge. `… 1` files/folders (`Senka 1`, `archive 1`, `Tjedan 25 - 2026 1.md`, `Daniel Kusan 1`) are merge artifacts, not intentional copies. Wikilinks without a path are ambiguous; check both candidates before editing, and use `path=` in the CLI.
+- **133 duplicate note basenames**, many from the vault merge. Wikilinks without a path are ambiguous; check both candidates before editing, and use `path=` in the CLI.
+- **Numbered notes are not automatically duplicates.** On 2026-10-20, 54 `… 1`/`… 2` copies were removed after content comparison (exact duplicates and supersets), and 6 clippings were promoted over empty canonicals. Nine numbered notes remain because their content genuinely differs (`Tjedan 25 - 2026 1`, `Films Mentioned by It’s Just Cinema 1`, `Ep 031 … 1`, and similar). Titles that merely end in a number (`Boox palma 2`, `Medievil 2`, `Andor Season 2`, `Tjedan 10 - 2026`) are legitimate; never bulk-delete by filename pattern.
 - **Case-only duplicates exist**: `Atlas/Knowledge/Concepts` vs `Atlas/Knowledge/concepts` (same for some nested folders). On Linux these are distinct; avoid assuming one correct casing.
 - **Plugin state is inconsistent.** 69 plugin folders exist, `.obsidian/community-plugins.json` enables 24, and `lazy-plugins` defers many more (Dataview, Templater, Meta Bind, Copilot). Do not assume a block renders or is broken based on the note syntax alone; check `obsidian plugins:enabled` / `community-plugins.json`. Several plugin folders are empty or have no `main.js` (`obsidian-projects`, `metadata-menu`, `obsidian-kanban`, `markwhen`, `mathlive`, `obsidian-banners`, `obsidian-html-tags-autocomplete`) — do not enable them.
 - **Filenames are hostile to shell:** emojis (`🏤 🏚️ 💕🎉`), Croatian diacritics, apostrophes, parentheses, `:`/`?`-style punctuation, leading spaces, and the literal folders `+` and `~`. Always quote arguments and avoid unquoted globs.
@@ -127,7 +124,7 @@ Sets plugin data lives in `Atlas/Sets/`: `<Name>Set/<Name>Set.md` with a ```` ``
 - **Daily template drift:** `Atlas/templates/daily template v2.md` is a Templater template but links previous/next days under a `Timestamps/` folder that does not exist. Notes live in `Calendar/daily/YYYY/YYYY-MM-DD-ddd.md` (`daily-notes.json` format `YYYY/YYYY-MM-DD-ddd`); older notes sometimes omit the weekday suffix. Do not silently rewrite either; note the discrepancy if relevant.
 - **`HOME.md` is stale in places:** it embeds `[[Tickets.base]]`, which does not exist, and uses `dataviewjs` with `moment()`.
 - **`+` is not a scratch area.** It is the web-clipping inbox; naive tag scans there are dominated by HTML residue (`#fn`, `#fnref`, `#CITEREF…`, `#include`, hex colors). Restrict tag/property surveys to `Efforts/`, `Atlas/`, and `Calendar/`.
-- **Root-level stray files** are scratch, not project infrastructure: `test_regex.js`, `game_rsp.json`, `taskboard-configs-export-2026-05-15T14_02_35.json`, `todo.md`, `▶ Next Actions.md`, `Tjedan 43 - 2026.md`, `Zdravlje home.md`.
+- **Root-level stray files** are scratch, not project infrastructure: `test_regex.js`, `game_rsp.json`, `todo.md`, `▶ Next Actions.md`, `Tjedan 43 - 2026.md`, `Zdravlje home.md`.
 - **Digital Garden publish flags:** `HOME.md` has `dg-home: true` / `dg-publish: true`. Other notes use `dg-publish`. Adding `dg-publish` publishes a note to the user's garden site — never add it unless asked.
 - **Sync is enabled** (core `sync` plugin) and the vault is shared with mobile. Avoid bulk rewrites that could conflict.
 
@@ -136,6 +133,6 @@ Sets plugin data lives in `Atlas/Sets/`: `<Name>Set/<Name>Set.md` with a ```` ``
 - Search first with `rg` (respect `.gitignore` but the vault has none) or `obsidian search:context`. Use `path=` filters; the vault is large.
 - Read the whole note before editing it; frontmatter, heading structure, and task sections vary by note type.
 - Match the note's existing shape: projects use `## Cilj` / `### Trenutna situacija` / `### ⏭ sljedeće` / `### ☑ zadaci` / `### odluke` / `### istraživanja` / `### bilješke` (some older projects use English headings). Tickets are usually a `#ticket/...` inline tag plus a status and a task list. Hand-written howtos typically carry a `#howto/...` tag, inline `based_on::`/`**requires**::` fields, and a fenced command block. Incidents are `#incident/<tool>`, the error, then a `### solution` section.
-- Keep `#task` items in the Tasks-plugin syntax; do not convert checkboxes to TaskNotes files (or vice versa) unless asked.
+- Keep `#task` items in the Tasks-plugin syntax; do not reintroduce the removed TaskNotes file-per-task format.
 - After edits, verify by re-reading with `obsidian read path=...` or `rg`, and check that any new wikilinks resolve to exactly one note (`obsidian file file=<name>` resolves a name to a single path silently, so check for duplicate basenames with `rg --files` first).
 - There are no tests or linters to run. The only "verification" available is re-reading the file, confirming frontmatter parses as YAML, and confirming links/properties are consistent with the schemas above.

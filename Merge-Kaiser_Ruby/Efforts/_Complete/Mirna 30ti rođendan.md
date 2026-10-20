@@ -5,7 +5,7 @@ datum: 2025-03-16
 
 ### resursi 
 
-[[14 zabavnih ideja za proslavu rođendana koje će rezultirati toplim uspomenama 1]]
+[[14 zabavnih ideja za proslavu rođendana koje će rezultirati toplim uspomenama]]
 
 [[21 Fun Birthday Activities for Adults Based on Interests]]
 

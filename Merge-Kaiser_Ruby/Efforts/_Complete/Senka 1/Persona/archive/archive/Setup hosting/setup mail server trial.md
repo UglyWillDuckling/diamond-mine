@@ -36,7 +36,7 @@ ___
 [[Install and configure Postfix]]
 new: [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 #### artifacts
-[[trial postfix config file 1]]
+[[trial postfix config file]]
 [[dovecot trial configs]]
 
 - [x] follow [[Install and configure Postfix]]
@@ -53,7 +53,7 @@ new: [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 [[dovecot trial configs]]
 ### postfix config
 [[postfix config steps]]
-[[trial postfix config file 1]]
+[[trial postfix config file]]
 [[How To Set Up a Postfix E-Mail Server with Dovecot]]
 
 ## **now**

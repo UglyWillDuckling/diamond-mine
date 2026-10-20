@@ -5,6 +5,8 @@ topics:
 ---
 ## The idea
 
+#resource
+
 A test can check one of two things:
 
 - **Outcome (behavior):** what the code *produced or changed*. A returned value, a saved record, a sent email, a changed state.

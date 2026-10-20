@@ -8,19 +8,19 @@ tags:
 
 ## Priority overview
 
-| #   | Item                                                                         | Impact | Effort |
-| --- | ---------------------------------------------------------------------------- | ------ | ------ |
-| 2   | Duplicate notes and folders                                                  | High   | High   |
-| 3   | Task system cleanup (TaskNotes removed) | Low | Low    |
-| 4   | Template / Templater safety                                                  | High   | Low    |
-| 5   | Project status normalization                                                 | Medium | Medium |
-| 6   | Plugin cleanup                                                               | Medium | Low    |
-| 7   | Missing `Tickets.base`                                                       | Medium | Low    |
-| 8   | Case-only duplicate folders                                                  | Medium | Low    |
-| 9   | Property and date types                                                      | Medium | Medium |
-| 10  | `+/` clipping triage                                                         | Medium | Medium |
-| 11  | Root clutter                                                                 | Low    | Low    |
-| 12  | Deletion safety                                                              | Low    | Low    |
+| #   | Item                                    | Impact | Effort |
+| --- | --------------------------------------- | ------ | ------ |
+| 2   | Duplicate notes and folders             | High   | High   |
+| 3   | Task system cleanup (TaskNotes removed) | Low    | Low    |
+| 4   | Template / Templater safety             | High   | Low    |
+| 5   | Project status normalization            | Medium | Medium |
+| 6   | Plugin cleanup                          | Medium | Low    |
+| 7   | Missing `Tickets.base`                  | Medium | Low    |
+| 8   | Case-only duplicate folders             | Medium | Low    |
+| 9   | Property and date types                 | Medium | Medium |
+| 10  | `+/` clipping triage                    | Medium | Medium |
+| 11  | Root clutter                            | Low    | Low    |
+| 12  | Deletion safety                         | Low    | Low    |
 
 ---
 
@@ -51,9 +51,7 @@ Do not run a blanket delete based on the ` 1` pattern; some may be genuine secon
 
 Status: TaskNotes (`tasknotes` 4.13.8) was uninstalled on 2026-10-20. The plugin folder, its entry in `.obsidian/community-plugins.json`, its `lazy-plugins` entry, and both generated view directories (`TaskNotes/Views/`, `Efforts/TaskNotes/Views/`) were removed. The three task notes (`Apply for New Jobs`, `Handle Current Job Situation`, `just another task`) were also deleted on 2026-10-20, so `Efforts/TaskNotes/` no longer exists. A backup of the plugin directory and views is at `/tmp/tasknotes-removal-backup-20261020-192053.tar.gz`.
 
-Remaining work:
-
-- `Efforts/Master Task List.md` remains the QuickAdd capture target.
+`Efforts/Master Task List.md` is the QuickAdd capture target and works as intended.
 
 ## 4. Fix the daily template and scope Templater
 

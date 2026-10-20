@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "59b11ff0ae00c93b",
+        "id": "4b392fa9717a4992",
         "type": "tabs",
         "children": [
           {
-            "id": "23d070e075914ce3",
+            "id": "a01b2a3cd0be7095",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IMPROVEMENTS.md",
+                "file": "testing • outcome vs behavior.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IMPROVEMENTS"
+              "title": "testing • outcome vs behavior"
             }
           }
         ]
@@ -218,19 +218,21 @@
       "obsidian-media-db-plugin:Add new Media DB entry": false
     }
   },
-  "active": "23d070e075914ce3",
+  "active": "a01b2a3cd0be7095",
   "lastOpenFiles": [
+    "obsidian inline base example.md",
+    "Efforts/Ideas/Istraziti single purpose devices.md",
+    "todo.md",
+    "IMPROVEMENTS.md",
+    "Efforts/Master Task List.md",
     "Zdravlje home.md",
     "Efforts/Active/Kuca/Kuca.md",
-    "Efforts/Master Task List.md",
-    "IMPROVEMENTS.md",
     "templater_probe_zz3.md",
     "templater_probe_zz2.md",
     "templater_probe_zz.md",
     "AGENTS.md",
     "~/%/project template · wip.md",
     "Event · popravak stolarije.md",
-    "obsidian inline base example.md",
     "Calendar/daily/2026/2026-10-20-Tue.md",
     "Ideas 💡 · Projects.md",
     "Atlas/Life/Faks/docs/Sigurnost - Ispit.md",
@@ -238,7 +240,6 @@
     "HOME.md",
     "Calendar/Weeks/Tjedan 34 - 2026.md",
     "Tjedan 43 - 2026.md",
-    "Istraziti single purpose devices.md",
     "Efforts/Projects.base",
     "Efforts/_Ongoing/Zdravlje/Zdravlje.md",
     "+/Clippings/Dart (programming language).md",
@@ -248,7 +249,6 @@
     "kuca dogadaji.base",
     "Fff.md",
     "Efforts/Active/Media Requests Project/Media Requests Project.md",
-    "+/great·best photos and images · pictures.md",
     "Efforts/Ongoing",
     "~/×/Ponuda Mirna i Vladimir namještaj po mjeri_261012_173350.pdf",
     "Efforts/Simmering/Tasks Management in Obsidian",

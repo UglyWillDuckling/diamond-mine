@@ -1,16 +1,30 @@
 ---
 dg-home: true
 dg-publish: true
+cssclasses:
+  - no-margin-tasks
 ---
 ```dataviewjs
 dv.paragraph(`[[Tjedan ${moment().week()} - ${moment().year()}]]`)
 ```
 
-- [[Tickets.base]]
 - [[Projects.base]]
 - [[Task Map.canvas]]
 
 ___
+
+## next actions
+
+```tasks
+not done
+sort by due
+short mode
+hide task count
+heading includes Next Actions
+path includes Efforts
+hide toolbar
+```
+
 ### ☑ active tasks
 
 ```tasks

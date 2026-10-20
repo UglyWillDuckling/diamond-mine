@@ -10,7 +10,8 @@
     "inlineAdmonitionsPluginReadOnly",
     "MCL Gallery Cards",
     "MCL Multi Column",
-    "MCL Wide Views"
+    "MCL Wide Views",
+    "bases"
   ],
   "textFontFamily": "Arial",
   "showRibbon": false

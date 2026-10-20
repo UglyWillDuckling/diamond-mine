@@ -72,7 +72,7 @@ QuickAdd choice **New Task** captures into `Efforts/tasks/inbox/{{DATE:YYYY-MM-M
 ## Note conventions
 
 - YAML frontmatter for metadata. Tags appear both as a YAML list and as inline `#tag` in the body; both are normal. Nested tags are used heavily (`#ticket/pc`, `#ticket/learn/programming`, `#howto/linux`, `#week/2026`, `#film/animated`, `#incident/hyprland`).
-- Wikilinks with aliases: `[[Stipe Peric|Stipi]]`, `[[PlayStation (console)|psx]]`, embeds `![[Note#Heading]]`, block refs `![[Zdravlje home#Tjedan 34 - 2026]]`.
+- Wikilinks with aliases: `[[Stipe Peric|Stipi]]`, `[[PlayStation (console)|psx]]`, embeds `![[Note#Heading]]`, block refs `![[Note#Heading]]`.
 - Property values that are links are quoted: `area: "[[Personal]]"`, `about: "[[Smalltalk]]"` (or a list of quoted links).
 - Inline fields use Dataview `::` syntax: `location::`, `related::`, `resources::`, `tools::`, `standing::`, `deadline::`.
 - Meta Bind widgets appear in note bodies: `` `INPUT[date:date_start]` ``, `` `INPUT[toggle:watched]` ``, `` `INPUT[slider(addLabels, minValue(0), maxValue(10)):personalRating]` ``.
@@ -106,7 +106,7 @@ Events (`Calendar/Events/`) use `lokacija` (list of quoted links), `participants
 
 ## Obsidian Bases (`.base`) syntax
 
-Observed schema: top-level `filters`, `formulas`, `properties`, `views`. Filters use expressions like `file.tags.contains("event")`, `file.hasTag("media")`, `type == "movie"`, `note["plan-to-watch"] == true`, `link("Kuca")`, `project == link("Kuca")`, `!file.folder.contains("Set")`. View types seen: `table`, `cards`, `kanban`. View keys: `name`, `filters`, `order`, `sort` (`property`/`column`, `direction`), `groupBy`, `groupOrder`, `image`, `cardSize`, `columnSize`, `rowHeight`. Notes can also embed an inline base with a ` ```base ` fenced block (see `obsidian inline base example.md`).
+Observed schema: top-level `filters`, `formulas`, `properties`, `views`. Filters use expressions like `file.tags.contains("event")`, `file.hasTag("media")`, `type == "movie"`, `note["plan-to-watch"] == true`, `link("Kuca")`, `project == link("Kuca")`, `!file.folder.contains("Set")`. View types seen: `table`, `cards`, `kanban`. View keys: `name`, `filters`, `order`, `sort` (`property`/`column`, `direction`), `groupBy`, `groupOrder`, `image`, `cardSize`, `columnSize`, `rowHeight`. Notes can also embed an inline base with a ` ```base ` fenced block; the inline block renders its first view. A `.base` file is embedded with `![[file.base#View name]]` to pick a specific view.
 
 Sets plugin data lives in `Atlas/Sets/`: `<Name>Set/<Name>Set.md` with a ```` ```set ```` scope block, and object types in `Atlas/Sets/Types/<name>Type.md` declaring `type: <name>`. Base filters exclude folders containing `Set` to avoid indexing these type notes.
 
@@ -124,7 +124,7 @@ Sets plugin data lives in `Atlas/Sets/`: `<Name>Set/<Name>Set.md` with a ```` ``
 - **Daily template drift:** `Atlas/templates/daily template v2.md` is a Templater template but links previous/next days under a `Timestamps/` folder that does not exist. Notes live in `Calendar/daily/YYYY/YYYY-MM-DD-ddd.md` (`daily-notes.json` format `YYYY/YYYY-MM-DD-ddd`); older notes sometimes omit the weekday suffix. Do not silently rewrite either; note the discrepancy if relevant.
 - **`HOME.md` is stale in places:** it embeds `[[Tickets.base]]`, which does not exist, and uses `dataviewjs` with `moment()`.
 - **`+` is not a scratch area.** It is the web-clipping inbox; naive tag scans there are dominated by HTML residue (`#fn`, `#fnref`, `#CITEREF…`, `#include`, hex colors). Restrict tag/property surveys to `Efforts/`, `Atlas/`, and `Calendar/`.
-- **Root-level stray files** are scratch, not project infrastructure: `test_regex.js`, `game_rsp.json`, `todo.md`, `▶ Next Actions.md`, `Tjedan 43 - 2026.md`, `Zdravlje home.md`.
+- **Root-level stray files** are scratch, not project infrastructure: `test_regex.js`, `game_rsp.json`, `Tjedan 43 - 2026.md` (duplicates the weekly note).
 - **Digital Garden publish flags:** `HOME.md` has `dg-home: true` / `dg-publish: true`. Other notes use `dg-publish`. Adding `dg-publish` publishes a note to the user's garden site — never add it unless asked.
 - **Sync is enabled** (core `sync` plugin) and the vault is shared with mobile. Avoid bulk rewrites that could conflict.
 

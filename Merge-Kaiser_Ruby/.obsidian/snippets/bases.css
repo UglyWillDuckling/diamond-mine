@@ -1,0 +1,9 @@
+
+
+  .wide-bases .bases-view[data-view-type="table"] {
+    --bases-embed-border-width: 0;
+  }        
+  
+  .bases-list-container {
+    min-height: 10px;
+  }

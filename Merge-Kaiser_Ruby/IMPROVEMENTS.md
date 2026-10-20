@@ -118,11 +118,10 @@ If a tag pane is useful for curation, enable the core tag pane (currently disabl
 
 Eleven Markdown notes plus scratch files sit at the vault root. Suggested split:
 
-- Keep: `HOME.md`, `AGENTS.md`, `▶ Next Actions.md`, `IMPROVEMENTS.md`.
-- Move into a scratch folder under `~/%/`: `test_regex.js`, `game_rsp.json`, `obsidian inline base example.md`, `Istraziti single purpose devices.md`.
-- Merge or delete: `todo.md` (duplicates `Master Task List`), `Tjedan 43 - 2026.md` (duplicates the weekly note), `Zdravlje home.md` (0 bytes but transcluded by the weekly note).
-
-If `Zdravlje home.md` stays, fill it with at least the headings that weekly notes embed, such as `## Tjedan 34 - 2026`.
+- Keep: `HOME.md`, `AGENTS.md`, `IMPROVEMENTS.md`, `▶ Next Actions.md`, `Ideas 💡 · Projects.md`.
+- Move into a scratch folder under `~/%/`: `test_regex.js`, `game_rsp.json`.
+- Merge or delete: `Tjedan 43 - 2026.md` (duplicates the weekly note).
+- The earlier root scratch notes (`todo.md`, `Zdravlje home.md`, `Istraziti single purpose devices.md`, `obsidian inline base example.md`) have already been removed.
 
 ## 12. Restore deletion confirmation
 

@@ -16,7 +16,7 @@ tags:
 ### ▶ Next Actions
 
 - [x] #task add [[▶ Next Actions]] global file ✅ 2026-10-06
-- [/] #task create [[project template · wip]]
+- [/] #task create [[project template · wip]] 📅 2026-10-26
 
 ### ✔ tasks
 

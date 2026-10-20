@@ -140,8 +140,8 @@ Razlikujemo:
 	- sprema `MSB`, bit najvece vrijednosti, na najmanjoj adresi
 	- znacaj bita se **smanjuje** povecanjem adrese
 
-![[Endianness#^74e261]]
-see: [[Bit numbering]], [[Endianness]]
+![[Atlas/Knowledge/Concepts/CS 1/Endianness#^74e261]]
+see: [[Bit numbering]], [[Atlas/Knowledge/Concepts/CS 1/Endianness]]
 
 ## Zašto kodirati digitalni podatak
 

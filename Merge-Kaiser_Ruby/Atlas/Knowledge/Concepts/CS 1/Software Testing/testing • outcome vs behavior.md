@@ -1,11 +1,10 @@
 ---
 topics:
-  - "[[Development Testing]]"
-  - "[[Software development]]"
+  - "[[Software Testing]]"
+tags:
+  - resource
 ---
 ## The idea
-
-#resource
 
 A test can check one of two things:
 

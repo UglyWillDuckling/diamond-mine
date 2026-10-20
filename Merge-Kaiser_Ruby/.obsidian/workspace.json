@@ -4,34 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b79d0d0260c9d6bc",
+        "id": "07d0e52b116c14bb",
         "type": "tabs",
         "children": [
           {
-            "id": "c2779e289749d355",
+            "id": "4de7cd0abfc8b781",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IMPROVEMENTS.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "IMPROVEMENTS"
-            }
-          },
-          {
-            "id": "77209098fb3a3aec",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "Efforts/Projects.base",
-                "viewName": "View"
-              },
-              "icon": "lucide-table",
-              "title": "Projects"
+              "title": "New tab"
             }
           }
         ]
@@ -96,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.3888854980469,
-    "collapsed": true
+    "width": 365.3888854980469
   },
   "right": {
     "id": "879c4c46c01c5375",
@@ -232,14 +214,16 @@
       "obsidian-media-db-plugin:Add new Media DB entry": false
     }
   },
-  "active": "c2779e289749d355",
+  "active": "f1b5f5928b23f245",
   "lastOpenFiles": [
-    "Efforts/Projects.base",
+    "Atlas/Knowledge/Concepts/CS 1/Software Testing/testing • outcome vs behavior.md",
+    "Atlas/Knowledge/Concepts/CS 1/Software Testing/Software Testing.md",
+    "Atlas/Knowledge/Concepts/CS 1/Software Testing",
+    "HOME.md",
     "IMPROVEMENTS.md",
-    "testing • outcome vs behavior.md",
+    "Efforts/Projects.base",
     "sed74wf3H",
     "Calendar/daily/2026/2026-10-20-Tue.md",
-    "HOME.md",
     "AGENTS.md",
     "▶ Next Actions.md",
     "Efforts/Ideas 💡 · Projects.md",
@@ -261,14 +245,12 @@
     "templater_probe_zz.md",
     "Atlas/Life/Faks/docs/Sigurnost - Ispit.md",
     "Calendar/daily/2026/2026-10-15-Thu.md",
-    "Calendar/Weeks/Tjedan 34 - 2026.md",
     "Untitled.base",
     "kuca dogadaji.base",
     "Efforts/Ongoing",
     "~/×/Ponuda Mirna i Vladimir namještaj po mjeri_261012_173350.pdf",
     "Efforts/Simmering/Tasks Management in Obsidian",
     "Clippings",
-    "TaskNotes/Views/relationships.base",
     "Efforts/Task Map.canvas",
     "~/×/Screenshot_20260920_090455_GitHub.jpg",
     "~/×/Pasted image 20260920231213.png",

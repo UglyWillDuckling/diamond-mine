@@ -10,19 +10,19 @@ All numbers below were re-verified against the vault on 2026-10-20 unless a date
 
 ## Priority overview
 
-| #  | Item                             | Impact | Effort | State                               |
-| -- | -------------------------------- | ------ | ------ | ----------------------------------- |
-| 1  | Version control for the vault    | High   | Low    | done (2026-10-20)                   |
-| 2  | Duplicate notes and folders      | High   | High   | numbered notes done, basenames open |
-| 3  | Task system consolidation        | Low    | Low    | done                                |
-| 4  | Daily template / Templater scope | High   | Low    | done (2026-10-20)                   |
-| 5  | Plugin cleanup                   | Medium | Low    | open                                |
-| 6  | Case-only duplicate folders      | Medium | Low    | open                                |
-| 7  | Property and date types          | Medium | Medium | open                                |
-| 8  | `+/` clipping triage             | Medium | Medium | open                                |
-| 9  | Root clutter                     | Low    | Low    | partially done                      |
-| 10 | Deletion confirmation            | High   | Low    | open                                |
-| 11 | Sync-safe bulk editing           | Medium | Low    | not started                         |
+| #   | Item                             | Impact | Effort | State                               |
+| --- | -------------------------------- | ------ | ------ | ----------------------------------- |
+| 1   | Version control for the vault    | High   | Low    | done (2026-10-20)                   |
+| 2   | Duplicate notes and folders      | High   | High   | numbered notes done, basenames open |
+| 3   | Task system consolidation        | Low    | Low    | done                                |
+| 4   | Daily template / Templater scope | High   | Low    | done (2026-10-20)                   |
+| 5   | Plugin cleanup                   | Medium | Low    | open                                |
+| 6   | Case-only duplicate folders      | Medium | Low    | open                                |
+| 7   | Property and date types          | Medium | Medium | open                                |
+| 8   | `+/` clipping triage             | Medium | Medium | open                                |
+| 9   | Root clutter                     | Low    | Low    | done (2026-10-20)                   |
+| 10  | Deletion confirmation            | High   | Low    | open                                |
+| 11  | Sync-safe bulk editing           | Medium | Low    | not started                         |
 
 ## 1. Version control for the vault
 
@@ -122,20 +122,18 @@ If a tag pane is useful for curation, enable the core tag pane (currently disabl
 
 ## 9. Reduce root clutter
 
-Status 2026-10-20: partially done. `test_regex.js`, `game_rsp.json`, and `The Penelopiad - Margaret Atwood.epub` were deleted.
+Status 2026-10-20: done. The root now contains only entry points and structure.
 
-Root now holds 5 Markdown notes (`AGENTS.md`, `HOME.md`, `IMPROVEMENTS.md`, `testing • outcome vs behavior.md`, `Tjedan 43 - 2026.md`) and 1 leftover plugin export (`taskboard-configs-export-2026-05-15T14_02_35.json`). The root folders (`+`, `~`, `Atlas`, `Calendar`, `Efforts`) and `.obsidian.vimrc` are structural and stay where they are.
+- Deleted: `test_regex.js`, `game_rsp.json`, `The Penelopiad - Margaret Atwood.epub`, `taskboard-configs-export-2026-05-15T14_02_35.json`.
+- Moved: `Tjedan 43 - 2026.md` → `Calendar/Weeks/` (it was the only week-43 note), `testing • outcome vs behavior.md` → `Atlas/Knowledge/concepts/CS/Software Testing/`.
+- Remaining root files: `HOME.md`, `AGENTS.md`, `IMPROVEMENTS.md`. Structural and intentional: `.obsidian.vimrc` (read from the root by the vim plugin) and the folders `+`, `~`, `Atlas`, `Calendar`, `Efforts`, plus `.crush/` (tool output, not vault content).
 
-Remaining actions:
+Follow-ups that came out of the move, not blockers:
 
-- Keep: `HOME.md`, `AGENTS.md`, `IMPROVEMENTS.md`.
-- `taskboard-configs-export-….json`: move to `~/%/` (or delete if a newer export exists).
-- `testing • outcome vs behavior.md`: move under `Atlas/Notes/`.
-- `Tjedan 43 - 2026.md` is **not** a duplicate and must not be deleted. `Calendar/Weeks/` has no week-43 note (it holds weeks 10–28, 33, 34 and 7–9 only), so this root file is the only week 43. Move it with `obsidian move path="Tjedan 43 - 2026.md" to="Calendar/Weeks"`.
+- `Atlas/Knowledge/concepts/CS/Software Testing/Software Testing.md` is a folder note containing only `#concept/computer-science`; give it a one-line definition and links to its contents, or fold it into an existing CS note.
+- The moved note kept the `•` in its filename, still uses the old-style `topics: "[[Software Testing]]"` link (the previously dangling `[[Software development]]` topic was dropped), and sits under the lowercase `Atlas/Knowledge/concepts/CS/` branch, so it will move again when item 6 merges the two `concepts` folders. Renaming it to `Testing - outcome vs behavior` would make it quotable in shell commands.
 
-Note `Efforts/Ideas 💡 · Projects.md` is a real note but lives in `Efforts/Ideas/`, not at root; an earlier draft listed it as a root file.
-
-Related data gap worth a separate pass: `Calendar/Weeks/` is missing weeks 1–6, 29–32, and 43–52, and contains `Tjedan 28- 2026.md` (malformed spacing) plus the legitimate `Tjedan 25 - 2026 1.md` variant.
+Related data gap worth a separate pass: `Calendar/Weeks/` now holds weeks 7–28 (including `Tjedan 25 - 2026 1`), 33, 34 and 43, so weeks 1–6, 13, 15, 29–32, 35–42 and 44–52 are absent, and `Tjedan 28- 2026.md` has malformed spacing.
 
 ## 10. Restore deletion confirmation
 

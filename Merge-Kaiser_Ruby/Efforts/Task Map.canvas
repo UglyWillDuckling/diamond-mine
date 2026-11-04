@@ -80,18 +80,6 @@
 		},
 		{
 			"dynamicHeight":false,
-			"id":"68961bc3c07571ad",
-			"styleAttributes":{},
-			"text":"### This month\n\n```tasks\nnot done \n(has due date) OR (has scheduled date)\n((due after this week) AND (due in or before next 4 weeks)) OR ((scheduled after this week) AND (scheduled in or before next 4 weeks))\nsort by due\nhide tags\nshort mode\n```",
-			"type":"text",
-			"x":410,
-			"y":-107,
-			"width":580,
-			"height":270,
-			"color":"#79b224"
-		},
-		{
-			"dynamicHeight":false,
 			"id":"4dff6fb0730f58ac",
 			"styleAttributes":{},
 			"text":"### inbox\n\n```tasks\nnot done\nno due date\nno start date\nno scheduled date\nno tag\nshort mode\n```\n",
@@ -99,7 +87,7 @@
 			"x":1280,
 			"y":400,
 			"width":680,
-			"height":480,
+			"height":740,
 			"color":"#100e0e"
 		},
 		{
@@ -128,8 +116,20 @@
 			"x":-540,
 			"y":400,
 			"width":795,
-			"height":660,
+			"height":680,
 			"color":"6"
+		},
+		{
+			"dynamicHeight":false,
+			"id":"68961bc3c07571ad",
+			"styleAttributes":{},
+			"text":"### This month\n\n```tasks\nnot done \n(has due date) OR (has scheduled date)\n((due after this week) AND (due in or before next 4 weeks)) OR ((scheduled after this week) AND (scheduled in or before next 4 weeks))\nsort by due\nhide tags\nshort mode\n```",
+			"type":"text",
+			"x":380,
+			"y":-147,
+			"width":580,
+			"height":369,
+			"color":"#79b224"
 		}
 	]
 }

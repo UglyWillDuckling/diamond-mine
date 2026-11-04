@@ -12,7 +12,7 @@ actors:
   - "[[Jack Quaid]]"
 status:
   - 1_Standby
-plan-to-watch: false
+want-to-watch: false
 new_episodes: 2026-04-21
 year: 2008-
 watched: true

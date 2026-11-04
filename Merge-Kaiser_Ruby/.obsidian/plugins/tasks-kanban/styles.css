@@ -1,0 +1,926 @@
+/* Tasks Kanban Board Styles */
+
+/* View container */
+.tasks-kanban-view {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* Header row: search + sort controls above the board */
+.tasks-kanban-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 16px;
+    flex: 0 0 auto;
+    margin-bottom: 12px;
+}
+
+/* Search bar */
+.tasks-kanban-search {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    flex: 1 1 auto;
+}
+
+.tasks-kanban-search-input {
+    flex: 1 1 200px;
+    min-width: 160px;
+    padding: 6px 10px;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    font-size: var(--font-ui-small);
+}
+
+.tasks-kanban-search-tags {
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.tasks-kanban-search-tags-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 10px;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    font-size: var(--font-ui-small);
+    cursor: pointer;
+    user-select: none;
+}
+
+.tasks-kanban-search-tags-button:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.tasks-kanban-search-tags-button-active {
+    border-color: var(--interactive-accent);
+    color: var(--text-normal);
+}
+
+.tasks-kanban-search-tags-caret {
+    display: flex;
+    align-items: center;
+    color: var(--text-muted);
+}
+
+.tasks-kanban-search-tags-button-open .tasks-kanban-search-tags-caret {
+    transform: rotate(180deg);
+}
+
+.tasks-kanban-search-tags-menu {
+    position: absolute;
+    top: calc(100% + 4px);
+    right: 0;
+    z-index: 10;
+    min-width: 180px;
+    max-height: 280px;
+    overflow-y: auto;
+    padding: 4px;
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    box-shadow: var(--shadow-s);
+}
+
+.tasks-kanban-search-tags-option {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: var(--font-ui-small);
+    color: var(--text-normal);
+}
+
+.tasks-kanban-search-tags-option:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+/* Include (⊕) and Exclude (⊖) buttons */
+.tasks-kanban-search-tags-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    user-select: none;
+    color: var(--text-muted);
+    background: transparent;
+    appearance: none;
+    font: inherit;
+    padding: 0;
+}
+
+.tasks-kanban-search-tags-btn:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.tasks-kanban-search-tags-btn-include {
+    border-color: var(--color-green);
+    color: var(--color-green);
+    background-color: color-mix(in srgb, var(--color-green) 15%, transparent);
+}
+
+.tasks-kanban-search-tags-btn-exclude {
+    border-color: var(--color-red);
+    color: var(--color-red);
+    background-color: color-mix(in srgb, var(--color-red) 15%, transparent);
+}
+
+/* Tag label */
+.tasks-kanban-search-tags-label {
+    flex: 1;
+    margin-left: 2px;
+}
+
+.tasks-kanban-search-tags-label-excluded {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.tasks-kanban-search-tags-clear {
+    padding: 5px 8px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid var(--background-modifier-border);
+    font-size: var(--font-ui-smaller);
+    color: var(--text-muted);
+    cursor: pointer;
+}
+
+.tasks-kanban-search-tags-clear:hover {
+    color: var(--text-normal);
+}
+
+.tasks-kanban-search-tags-clear-disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.tasks-kanban-search-tags-clear-disabled:hover {
+    color: var(--text-muted);
+}
+
+.tasks-kanban-search-tags-empty {
+    padding: 6px 8px;
+    font-size: var(--font-ui-small);
+    color: var(--text-muted);
+}
+
+/* Sort control */
+.tasks-kanban-sort {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 0 0 auto;
+}
+
+.tasks-kanban-sort-label {
+    font-size: var(--font-ui-small);
+    color: var(--text-muted);
+}
+
+.tasks-kanban-sort-select {
+    padding: 6px 10px;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    font-size: var(--font-ui-small);
+    cursor: pointer;
+}
+
+.tasks-kanban-sort-direction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tasks-kanban-sort-direction:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.tasks-kanban-sort-direction-disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.tasks-kanban-sort-direction-disabled:hover {
+    background-color: var(--background-primary);
+}
+
+/* Group bar — mirrors the sort bar. */
+.tasks-kanban-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 0 0 auto;
+}
+
+.tasks-kanban-group-label {
+    font-size: var(--font-ui-small);
+    color: var(--text-muted);
+}
+
+.tasks-kanban-group-select {
+    padding: 6px 10px;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    font-size: var(--font-ui-small);
+    cursor: pointer;
+}
+
+.tasks-kanban-group-direction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tasks-kanban-group-direction:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.tasks-kanban-group-direction-disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.tasks-kanban-group-direction-disabled:hover {
+    background-color: var(--background-primary);
+}
+
+/* Kanban board — a vertical stack of swimlanes. */
+.tasks-kanban-board {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    padding-bottom: 12px;
+}
+
+/* Swimlane — an optional header above a horizontal row of columns. */
+.tasks-kanban-lane {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 0;
+    /* Ungrouped (single lane): fill the board height so columns scroll inside.
+       Overridden below when grouping is active. */
+    flex: 1 1 auto;
+}
+
+.tasks-kanban-lane-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 0 0 auto;
+    font-size: var(--font-ui-small);
+    font-weight: var(--font-semibold);
+    color: var(--text-muted);
+    padding: 2px 4px;
+    border-bottom: 1px solid var(--background-modifier-border);
+    cursor: pointer;
+    user-select: none;
+}
+
+.tasks-kanban-lane-header:hover {
+    color: var(--text-normal);
+}
+
+/* Lane fold caret — points down when open, right when collapsed. */
+.tasks-kanban-lane-caret {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    font-size: 20px;
+    transition: transform 0.15s ease;
+}
+
+.tasks-kanban-lane-collapsed .tasks-kanban-lane-caret {
+    transform: rotate(-90deg);
+}
+
+/* Hide a collapsed lane's body. Scoped to the collapsed lane so it outweighs
+   the `.tasks-kanban-board-grouped .tasks-kanban-lane-columns` display rule. */
+.tasks-kanban-lane-collapsed .tasks-kanban-lane-columns {
+    display: none;
+}
+
+.tasks-kanban-lane-columns {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 100%;
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-x: auto;
+    padding-bottom: 4px;
+}
+
+/* Grouped board: lanes size to their content and the board scrolls vertically,
+   rather than competing for a fixed height (which collapsed tall lanes). Each
+   lane's columns grow to fit all their cards — the whole board scrolls. */
+.tasks-kanban-board-grouped .tasks-kanban-lane {
+    flex: 0 0 auto;
+}
+
+.tasks-kanban-board-grouped .tasks-kanban-lane-columns {
+    flex: 0 0 auto;
+}
+
+/* Column */
+.tasks-kanban-column {
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    max-width: 300px;
+    flex: 0 0 auto;
+    background-color: var(--background-secondary);
+    border-radius: 8px;
+    border: 1px solid var(--background-modifier-border);
+    overflow: hidden;
+}
+
+/* Column header */
+.tasks-kanban-column-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background-color: var(--background-tertiary);
+    border-bottom: 1px solid var(--background-modifier-border);
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Fold caret — points down when open, right when collapsed */
+.tasks-kanban-column-caret {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    font-size: 20px;
+    transition: transform 0.15s ease;
+}
+
+.tasks-kanban-column-title {
+    flex: 1;
+}
+
+.tasks-kanban-column-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 6px;
+    background-color: var(--text-muted);
+    color: var(--background-primary);
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+/* Column cards container */
+.tasks-kanban-column-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+    flex: 1 1 auto;
+    min-height: 60px;
+    overflow-y: auto;
+}
+
+/* Grouped lanes have no fixed height: columns grow to fit every card and the
+   whole board scrolls vertically (no per-column internal scroll). */
+.tasks-kanban-board-grouped .tasks-kanban-column-cards {
+    overflow-y: visible;
+}
+
+/* Collapsed (folded) column — shrinks to a narrow vertical strip */
+.tasks-kanban-column-collapsed {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.tasks-kanban-column-collapsed .tasks-kanban-column-header {
+    flex-direction: column;
+    gap: 8px;
+    height: 100%;
+    padding: 8px 4px;
+    border-bottom: none;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Caret points right when collapsed */
+.tasks-kanban-column-collapsed .tasks-kanban-column-caret {
+    transform: rotate(-90deg);
+}
+
+/* Title rendered as a single rotated line (top-to-bottom), not stacked */
+.tasks-kanban-column-collapsed .tasks-kanban-column-title {
+    writing-mode: vertical-rl;
+    flex: 0 0 auto;
+    white-space: nowrap;
+}
+
+/* Hide the cards entirely while folded */
+.tasks-kanban-column-collapsed .tasks-kanban-column-cards {
+    display: none;
+}
+
+/* Card */
+.tasks-kanban-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+    word-break: break-word;
+}
+
+.tasks-kanban-card:hover {
+    background-color: var(--background-tertiary);
+    border-color: var(--background-modifier-border-hover);
+}
+
+.tasks-kanban-card:active {
+    background-color: var(--background-modifier-active-hover);
+}
+
+/* Card header (status + tags) */
+.tasks-kanban-card-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+/* Card edit button: Tasks' 📝, shown while the card is hovered */
+.tasks-kanban-card-edit {
+    margin-left: auto;
+    font-family: var(--font-interface);
+    font-size: 12px;
+    line-height: 1;
+    opacity: 0;
+}
+
+.tasks-kanban-card-edit::after {
+    content: "📝";
+}
+
+.tasks-kanban-card:hover .tasks-kanban-card-edit,
+.tasks-kanban-card-edit:focus-visible {
+    opacity: 1;
+}
+
+/* Touch screens have no hover, so the button stays visible there. */
+@media (hover: none) {
+    .tasks-kanban-card-edit {
+        opacity: 1;
+    }
+}
+
+/* Card status */
+.tasks-kanban-card-status {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+/* Status: Todo */
+.tasks-kanban-card .tasks-kanban-card-status[data-status-type="TODO"] {
+    background-color: var(--text-error);
+    color: white;
+}
+
+/* Status: In Progress */
+.tasks-kanban-card .tasks-kanban-card-status[data-status-type="IN_PROGRESS"] {
+    background-color: var(--text-warning);
+    color: white;
+}
+
+/* Status: Done */
+.tasks-kanban-card .tasks-kanban-card-status[data-status-type="DONE"] {
+    background-color: var(--text-success);
+    color: white;
+}
+
+/* Status: Cancelled */
+.tasks-kanban-card .tasks-kanban-card-status[data-status-type="CANCELLED"] {
+    background-color: var(--text-muted);
+    color: white;
+}
+
+/* Card description */
+.tasks-kanban-card-description {
+    font-size: 13px;
+    line-height: 1.4;
+    color: var(--text-normal);
+    word-break: break-word;
+    /* Keep long descriptions from growing the card vertically. */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+}
+
+/* Card tags */
+.tasks-kanban-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.tasks-kanban-card-tag {
+    display: inline-block;
+    padding: 2px 6px;
+    background-color: var(--background-secondary);
+    border-radius: 3px;
+    font-size: 11px;
+    color: var(--text-muted);
+}
+
+/* Card metadata chips (priority, dates, dependencies) */
+.tasks-kanban-card-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.tasks-kanban-card-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    padding: 2px 6px;
+    background-color: var(--background-secondary);
+    border-radius: 3px;
+    font-size: 11px;
+    color: var(--text-muted);
+}
+
+/* Priority chips */
+.tasks-kanban-card-chip-priority-highest,
+.tasks-kanban-card-chip-priority-high {
+    color: var(--text-error);
+}
+
+.tasks-kanban-card-chip-priority-medium {
+    color: var(--text-warning);
+}
+
+/* Date chips */
+.tasks-kanban-card-chip-date-due-overdue {
+    color: var(--text-error);
+    font-weight: 600;
+}
+
+.tasks-kanban-card-chip-date-done {
+    color: var(--text-success);
+}
+
+/* Dependency chips */
+.tasks-kanban-card-chip-dep-blocked,
+.tasks-kanban-card-chip-dep-blocked-by {
+    color: var(--text-warning);
+}
+
+/* Drag and drop styles */
+/* Class is chained to the base selector to win specificity over
+   .tasks-kanban-card:hover / :active without needing !important. */
+.tasks-kanban-card.tasks-kanban-card-dragging {
+    opacity: 0.5;
+    border: 2px dashed var(--text-muted);
+    background-color: var(--background-tertiary);
+}
+
+.tasks-kanban-column.tasks-kanban-column-drag-over {
+    background-color: var(--background-tertiary);
+    border: 2px solid var(--text-normal);
+    border-radius: 8px;
+}
+
+.tasks-kanban-column-drag-over .tasks-kanban-column-header {
+    background-color: var(--background-secondary);
+}
+
+/* Drag-over style for collapsed columns — the narrow strip gets an accent
+   border and its header background changes to signal that drops are accepted. */
+.tasks-kanban-column-collapsed.tasks-kanban-column-drag-over {
+    border-color: var(--interactive-accent);
+}
+
+.tasks-kanban-column-collapsed.tasks-kanban-column-drag-over .tasks-kanban-column-header {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+
+/* Cursor for draggable elements */
+.tasks-kanban-card[draggable="true"] {
+    cursor: grab;
+}
+
+.tasks-kanban-card[draggable="true"]:active {
+    cursor: grabbing;
+}
+
+/* Dark theme adjustments */
+.theme-dark .tasks-kanban-column {
+    background-color: var(--background-secondary, #2d2d2d);
+    border-color: var(--background-modifier-border, #3d3d3d);
+}
+
+.theme-dark .tasks-kanban-column-header {
+    background-color: var(--background-tertiary, #3d3d3d);
+}
+
+.theme-dark .tasks-kanban-card {
+    background-color: var(--background-secondary, #2d2d2d);
+}
+
+.theme-dark .tasks-kanban-card-tag {
+    background-color: var(--background-tertiary, #3d3d3d);
+}
+
+.theme-dark .tasks-kanban-card-chip {
+    background-color: var(--background-tertiary, #3d3d3d);
+}
+
+/* Scrollbar styling */
+.tasks-kanban-board::-webkit-scrollbar {
+    height: 8px;
+}
+
+.tasks-kanban-board::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.tasks-kanban-board::-webkit-scrollbar-thumb {
+    background-color: var(--background-modifier-border);
+    border-radius: 4px;
+}
+
+.tasks-kanban-column-cards::-webkit-scrollbar {
+    width: 6px;
+}
+
+.tasks-kanban-column-cards::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.tasks-kanban-column-cards::-webkit-scrollbar-thumb {
+    background-color: var(--background-modifier-border);
+    border-radius: 3px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .tasks-kanban-board {
+        flex-direction: column;
+        overflow-x: visible;
+        overflow-y: auto;
+    }
+    
+    .tasks-kanban-column {
+        min-width: 100%;
+        max-width: 100%;
+        flex: 0 0 auto;
+    }
+    
+    .tasks-kanban-column-cards {
+        max-height: 300px;
+    }
+
+    /* On mobile the board stacks vertically, so a folded column keeps its
+       full-width horizontal header and simply hides its cards. */
+    .tasks-kanban-column-collapsed {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .tasks-kanban-column-collapsed .tasks-kanban-column-header {
+        flex-direction: row;
+        height: auto;
+        padding: 8px 12px;
+    }
+
+    .tasks-kanban-column-collapsed .tasks-kanban-column-title {
+        writing-mode: horizontal-tb;
+        flex: 1;
+    }
+}
+
+/* Touch devices - larger tap targets */
+@media (hover: none) and (pointer: coarse) {
+    .tasks-kanban-card {
+        padding: 12px;
+    }
+    
+    .tasks-kanban-card-status {
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+    
+    /* Disable drag for touch devices (for now) */
+    .tasks-kanban-card[draggable="true"] {
+        cursor: pointer;
+    }
+}
+
+/* Edit-query button (header) */
+.tasks-kanban-query-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    cursor: pointer;
+    flex: 0 0 auto;
+}
+
+.tasks-kanban-query-button:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+/* Query modal */
+.tasks-kanban-query-modal-help {
+    color: var(--text-muted);
+    font-size: var(--font-ui-small);
+    margin: 0 0 12px;
+}
+
+.tasks-kanban-query-modal-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-small);
+    resize: vertical;
+}
+
+.tasks-kanban-query-modal-errors {
+    margin-top: 8px;
+}
+
+.tasks-kanban-query-modal-error {
+    color: var(--text-error);
+    font-size: var(--font-ui-smaller);
+}
+
+.tasks-kanban-query-modal-warnings {
+    margin-top: 4px;
+}
+
+.tasks-kanban-query-modal-warning {
+    color: var(--text-warning, #e0a832);
+    font-size: var(--font-ui-smaller);
+}
+
+.tasks-kanban-query-modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+/* Settings: Board query — stacked vertical layout with full-width textarea */
+.tasks-kanban-setting-query {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.tasks-kanban-setting-query .setting-item-info {
+    margin-right: 0;
+}
+
+.tasks-kanban-setting-query .setting-item-control {
+    justify-content: stretch;
+    width: 100%;
+}
+
+.tasks-kanban-setting-query .setting-item-control textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: var(--font-monospace);
+    resize: vertical;
+}
+
+/* Settings: explanatory help text under a heading. */
+.tasks-kanban-settings-help {
+    margin: 0 0 12px;
+    color: var(--text-muted);
+    font-size: var(--font-ui-small);
+}
+
+/* Settings: per-query parse-error list. */
+.tasks-kanban-settings-errors {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.tasks-kanban-settings-errors:empty {
+    display: none;
+}
+
+.tasks-kanban-settings-error {
+    color: var(--text-error);
+    font-size: var(--font-ui-small);
+}
+
+/* Settings: spacing above the Save button row. */
+.tasks-kanban-settings-save {
+    margin-top: 16px;
+}
+
+/* Settings: custom column editor — a row per column with a status checkbox list. */
+.tasks-kanban-setting-column {
+    align-items: flex-start;
+}
+
+.tasks-kanban-column-symbols {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+    margin-top: 6px;
+}
+
+.tasks-kanban-column-symbol {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: var(--font-ui-small);
+    cursor: pointer;
+}
+
+.tasks-kanban-column-symbol-text {
+    white-space: nowrap;
+}
+
+.tasks-kanban-column-hint {
+    width: 100%;
+    margin-top: 6px;
+    font-size: var(--font-ui-smaller);
+    color: var(--text-muted);
+}

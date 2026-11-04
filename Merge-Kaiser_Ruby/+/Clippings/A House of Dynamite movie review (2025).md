@@ -6,7 +6,7 @@ tags:
   - film
 category:
   - "[[Film]]"
-plan-to-watch: true
+want-to-watch: true
 ---
 ![](https://www.rogerebert.com/wp-content/uploads/2025/09/A-House-of-Dynamite-2025-jpg.webp)
 

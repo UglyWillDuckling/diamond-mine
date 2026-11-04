@@ -1,0 +1,50 @@
+{
+  "baseQuery": "folder does not include Efforts/_Complete\nfolder does not include +\nfolder does not include Efforts/Simmering\nfolder does not include archive\nfolder does not include docs\nfolder does not include Calendar/Weeks\n(due after 2026-01-01) OR (no due date)\n(done after 2026-01-01) OR (no done date)\ntag does not include #test\ntag does not include #paused",
+  "baseCollapsedColumns": [
+    "cancelled",
+    "done"
+  ],
+  "baseCollapsedGroups": [
+    "Atlas/Knowledge/Media/Articles/",
+    "Atlas/Life/Dev/Personal VPS/",
+    "Atlas/Knowledge/Media/Writings/Articles/",
+    "Efforts/Ideas/Opravdati troskove Firme Bitscript/",
+    "Efforts/Active/PS2 Setup/"
+  ],
+  "baseColumns": [],
+  "savedBoards": [
+    {
+      "id": "b7e2ef80-a34f-4ab8-932d-9c1e1c40ec7f",
+      "name": "Trying it on",
+      "query": "folder does not include Efforts/_Complete\nfolder does not include +\nfolder does not include Efforts/Simmering\nfolder does not include archive\nfolder does not include docs\nfolder does not include Calendar/Weeks\n(due after 2026-01-01) OR (no due date)\n(done after 2026-01-01) OR (no done date)\ntag does not include #test\ntag does not include #paused",
+      "collapsedColumns": [],
+      "columns": [
+        {
+          "id": "1b7077b0-133f-4147-9ba6-7263f13c413e",
+          "title": "active",
+          "symbols": [
+            " ",
+            "/"
+          ]
+        },
+        {
+          "id": "0409610f-6aa3-49eb-9fb4-d7080840bff3",
+          "title": "finished",
+          "symbols": [
+            "x"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9166d2db-693a-4c56-aab5-5e500691e03e",
+      "name": "Untitled board",
+      "query": "",
+      "collapsedColumns": [
+        "done"
+      ],
+      "collapsedGroups": [],
+      "columns": []
+    }
+  ]
+}

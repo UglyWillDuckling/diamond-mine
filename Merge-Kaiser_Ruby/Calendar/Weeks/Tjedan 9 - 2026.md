@@ -23,10 +23,10 @@ Dolazi proljece :LiFlower: 🥀🌸
 
 ### Kuca :LiHouse:
 
-**Kuca** se gradi - [[Kuca]] - ploca je stavljena.
+**Kuca** se gradi - [[Gradnja Kuce]] - ploca je stavljena.
 
 - [ ] [[Mirko Vukojevic|Mirko]]
-	- [ ] [[Klupice]] kontakt
+	- [ ] [[Efforts/Active/Gradnja Kuce/Klupice]] kontakt
 	- [x] **kran** za stolariju pitati
 
 - [x] #task poslati mail Mirku u vezi isplate kredita i iznosa prije izlaska procijenitelja
@@ -43,7 +43,7 @@ Dolazi proljece :LiFlower: 🥀🌸
 
 - [ ] kontaktirati stolara
 - [ ] organizirat odlazak u [[Zagreb]]
-- [ ] pitati [[Filip Marjanovic]] za ponudu solara, **petak** 
+- [ ] pitati [[Efforts/Active/Gradnja Kuce/Filip Marjanovic]] za ponudu solara, **petak** 
 
 - [x] fasada mjerenje, poslati adresu
 - [ ] fasada sastanak u **petak opet**, Drago Montex 

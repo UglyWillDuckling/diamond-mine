@@ -13,10 +13,7 @@ Mermaid can render ER diagrams
 
 ##### Code:
 
-```
-mermaid---
-title: Order example
----
+```mermaid
 erDiagram
     CUSTOMER ||--o{ ORDER : places
     ORDER ||--|{ LINE-ITEM : contains

@@ -18,7 +18,7 @@ based_on::
 
 **resources**::
 - [[Owncloud - Installing with Docker]]
-- [[Techdot.IO]] VPS
+- [[Efforts/_Complete/Techdot.IO/Techdot.IO]] VPS
 
 ## notes 📔
 

@@ -1,5 +1,5 @@
 ---
-status: Backlog
+status: Cancelled
 ---
 #project/small
 

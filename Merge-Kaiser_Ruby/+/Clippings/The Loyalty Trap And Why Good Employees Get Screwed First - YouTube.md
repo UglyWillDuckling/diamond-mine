@@ -4,6 +4,6 @@ published:
 created: 2025-11-19
 tags:
   - video
-plan-to-watch: true
+want-to-watch: true
 ---
 ![](https://www.youtube.com/watch?v=bi54oe4GVk8)

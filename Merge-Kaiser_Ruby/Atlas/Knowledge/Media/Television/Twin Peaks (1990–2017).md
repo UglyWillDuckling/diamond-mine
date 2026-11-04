@@ -31,7 +31,7 @@ status:
   - 5_Watching 👀
 tags:
   - series
-plan-to-watch: true
+want-to-watch: true
 watching: true
 ---
 

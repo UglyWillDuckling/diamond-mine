@@ -22,7 +22,7 @@ airing: false
 airedFrom: 27.08.2025
 airedTo: unknown
 watched: false
-plan-to-watch: false
+want-to-watch: false
 tags:
   - tv-series/animated
 status:

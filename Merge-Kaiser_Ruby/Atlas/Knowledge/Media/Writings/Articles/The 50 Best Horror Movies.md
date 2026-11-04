@@ -24,7 +24,7 @@ premiere: 03/03/2000
 watched: false
 lastWatched: ""
 personalRating: 0
-plan-to-watch: false
+want-to-watch: false
 tags:
   - movie-list
   - article/film
@@ -202,7 +202,7 @@ Nic Roeg's hugely influential take on Daphne du Maurier's short story is more th
 
 Read the *Empire* review [here](https://www.empireonline.com/movies/reviews/look-now-review/).
 
-## 27) [[Let The Right One In (2008)]]
+## 27) [[Let the Right One In (2008)]]
 
 ![[~/×/0f0f5b278d588aeaa3b7228b49bffff4_MD5.jpg|400]]
 
@@ -240,7 +240,7 @@ Debates raged in some corners of the horror community about whether the fast-mov
 
 Read the *Empire* review [here](https://www.empireonline.com/movies/reviews/28-days-later-review/).
 
-## 22) [[Night Of The Living Dead (1968)]]
+## 22) [[Night of the Living Dead (1968)]]
 
 ![[~/×/3ef2494c3853eaaf18c9ae9824c35626_MD5.jpg|400]]
 

@@ -22,12 +22,12 @@ Dolazi proljece :LiFlower:.
 
 ### Kuca :LiHouse:
 
-**Kuca** se gradi - [[Kuca]] - ide ploca. Svi majstori su kontaktirani i povezani.
+**Kuca** se gradi - [[Gradnja Kuce]] - ide ploca. Svi majstori su kontaktirani i povezani.
 
 - [x] [[Dora Vucemilovic]] dogovoriti dolazak 
 
 - [ ] [[Mirko Vukojevic|Mirko]]
-	- [ ] [[Klupice]] kontakt
+	- [ ] [[Efforts/Active/Gradnja Kuce/Klupice]] kontakt
 	- [ ] **kran** za stolariju pitati
 	
 - [x] **cekamo** ⏱ ponudu za [[knauf dio]] od [[Marko Maric]]

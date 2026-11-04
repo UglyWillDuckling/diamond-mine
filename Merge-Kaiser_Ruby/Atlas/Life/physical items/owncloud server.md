@@ -1,11 +1,10 @@
 ---
 related:
   - "[[Techdot]]"
-  - "[[techdot.io domain]]"
+  - "[[Efforts/_Complete/Techdot.IO/techdot.io domain]]"
 ---
 
-server:: [[Techdot.IO]]
+server:: [[Efforts/_Complete/Techdot.IO/Techdot.IO]]
 domena:: cloud.techdot.io
 URL:: http://cloud.techdot.io
 ___
-

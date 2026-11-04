@@ -31,7 +31,7 @@ lastWatched: ""
 personalRating: 0
 tags:
   - tv-series
-plan-to-watch: true
+want-to-watch: true
 status:
   - 3_Ready 📺
 new_episodes:

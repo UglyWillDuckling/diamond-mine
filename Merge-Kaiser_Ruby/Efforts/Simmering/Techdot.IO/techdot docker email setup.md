@@ -8,7 +8,7 @@ tags:
 ---
 #ticket
 
-part_of:: [[email setup on techdot]]
+part_of:: [[Efforts/Simmering/email setup on techdot]]
 resources::
 - [[mlandocker-postfix]]
 tools::
@@ -28,6 +28,6 @@ ___
 	- [x] create a Github repo + `commit` files
 		- [x] pull `repo`  on `VPS`
 		- [x] start the server
-	- [/] configure on [[techdot.io domain]]
+	- [/] configure on [[Efforts/Simmering/Techdot.IO/techdot.io domain]]
 	- [ ] ..
 

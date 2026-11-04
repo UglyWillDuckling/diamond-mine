@@ -14,5 +14,5 @@
     "bases"
   ],
   "textFontFamily": "Arial",
-  "showRibbon": false
+  "showRibbon": true
 }

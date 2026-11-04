@@ -5,7 +5,7 @@ published:
 created: 2026-04-11
 tags:
 ---
-- [ ] #task checkout [[gum - A tool for glamorous shell scripts 🎀]] gummy 🆔 giHmuV
+- [-] #task checkout [[gum - A tool for glamorous shell scripts 🎀]] gummy 🆔 giHmuV ❌ 2026-11-04
 ___
 
 A tool for glamorous shell scripts. Leverage the power of [Bubbles](https://github.com/charmbracelet/bubbles) and [Lip Gloss](https://github.com/charmbracelet/lipgloss) in your scripts and aliases without writing any Go code!

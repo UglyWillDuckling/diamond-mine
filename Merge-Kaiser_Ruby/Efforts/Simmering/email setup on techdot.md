@@ -1,13 +1,13 @@
 ---
 tags:
   - project
-status: Backlog
+status: Cancelled
 ---
 related:: [[Efforts/_Complete/Senka 1/Persona/archive/archive/persona mail setup]]
 uses:: [[second VPS]]
 
-- [ ] #task Setup Email for [[Techdot.IO]] on [[second VPS]] 🆔 BNF5gz 🔼
-	- [[email setup on techdot]]
+- [-] #task Setup Email for [[Efforts/Simmering/Techdot.IO/Techdot.IO]] on [[second VPS]] 🆔 BNF5gz 🔼 ❌ 2026-11-04
+	- [[Efforts/Simmering/email setup on techdot]]
 	
 ### resources / related
 - [[How To Set Up a Postfix E-Mail Server with Dovecot]]
@@ -34,7 +34,7 @@ ___
 	- [x] get [[SSL certificate]] for techdot.io
 	- [x] copy `aliases` file
 	- [x]  connect to **Techdot** mail 
-	- [x] #task [[techdot docker email setup]] #docker 🆔 2jqQhk ✅ 2025-06-01
+	- [x] #task [[Efforts/Simmering/Techdot.IO/techdot docker email setup]] #docker 🆔 2jqQhk ✅ 2025-06-01
 
 ### store mail configs
 1. copy over all the configuration files from [[my VPS]]

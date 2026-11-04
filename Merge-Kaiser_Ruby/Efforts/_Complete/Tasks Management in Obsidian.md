@@ -2,6 +2,8 @@
 deadline: 2025-01-26
 priority: 7
 status: Finished
+tags:
+  - archived
 ---
 #project
 

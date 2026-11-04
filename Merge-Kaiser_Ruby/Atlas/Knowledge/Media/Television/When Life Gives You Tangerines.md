@@ -21,7 +21,7 @@ watched: true
 airing: false
 released: true
 finished: true
-plan-to-watch: false
+want-to-watch: false
 personalRating: 8.2
 status: Finished
 ---

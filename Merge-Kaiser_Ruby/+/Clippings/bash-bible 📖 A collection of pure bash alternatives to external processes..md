@@ -11,7 +11,7 @@ value: 9.3
 quality: 9
 interest: 7
 ---
-- [ ] #task checkout [[bash-bible 📖 A collection of pure bash alternatives to external processes.]] 🆔 oeWV71
+- [-] #task checkout [[bash-bible 📖 A collection of pure bash alternatives to external processes.]] 🆔 oeWV71 ❌ 2026-11-04
 - [x] remind me (@2026-04-25)
 ___
 

@@ -24,7 +24,7 @@ lastWatched: ""
 personalRating: 0
 tags:
   - tv-series
-plan-to-watch: true
+want-to-watch: true
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

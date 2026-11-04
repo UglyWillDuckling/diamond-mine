@@ -2,7 +2,9 @@
 id: setup Media Server
 tags:
   - project
+  - archived
 status: Finished
+tag:
 ---
 #project
 

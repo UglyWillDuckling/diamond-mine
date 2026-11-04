@@ -28,7 +28,7 @@ tags:
   - mediaDB/tv/series
   - tv-series
 finished: false
-plan-to-watch: true
+want-to-watch: true
 status:
   - 0_Backlog
 ---

@@ -1,4 +1,4 @@
-vezano za [[Kuca]]
+vezano za [[Gradnja Kuce]]
 ___
 
 U Hrvatskoj smjer oborina najviše ovisi o prevladavajućim vjetrovima:

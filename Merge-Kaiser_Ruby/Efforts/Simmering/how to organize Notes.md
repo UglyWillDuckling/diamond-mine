@@ -1,5 +1,5 @@
 
-- [ ] #task radi na [[how to organize Notes]]
+- [/] #task radi na [[how to organize Notes]]
 ___
 
 1. tags

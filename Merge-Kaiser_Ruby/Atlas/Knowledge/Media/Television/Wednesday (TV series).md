@@ -16,7 +16,7 @@ finished: false
 new_episodes: 2025-08-06
 tags:
   - tv-series
-plan-to-watch: true
+want-to-watch: true
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

@@ -21,5 +21,7 @@
   "bulk-properties",
   "hot-reload",
   "multi-properties",
-  "property-values-browser"
+  "property-values-browser",
+  "calendar-bases",
+  "tasks-kanban"
 ]

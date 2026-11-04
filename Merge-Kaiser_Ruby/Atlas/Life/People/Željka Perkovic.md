@@ -1,3 +1,3 @@
 #architect 
 
-napravila projekt za [[Kuca]].
+napravila projekt za [[Gradnja Kuce]].

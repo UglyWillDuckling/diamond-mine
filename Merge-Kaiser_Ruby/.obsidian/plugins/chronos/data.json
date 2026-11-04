@@ -7,7 +7,7 @@
   "useAI": true,
   "showChangelogOnUpdate": true,
   "enableCaching": false,
-  "lastSeenVersion": "4.1.2",
+  "lastSeenVersion": "4.4.0",
   "basesPropNames": {
     "start": "start",
     "end": "end",
@@ -15,6 +15,15 @@
     "color": "color",
     "type": "type",
     "content": "content",
+    "description": "description"
+  },
+  "legacyBasesPropNames": {
+    "start": "start",
+    "end": "end",
+    "group": "group",
+    "content": "content",
+    "color": "color",
+    "type": "type",
     "description": "description"
   }
 }

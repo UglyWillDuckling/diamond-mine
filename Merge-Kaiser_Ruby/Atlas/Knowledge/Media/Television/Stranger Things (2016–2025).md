@@ -32,7 +32,7 @@ airedTo: unknown
 watched: true
 lastWatched: ""
 personalRating: 8.5
-plan-to-watch: true
+want-to-watch: true
 finished: true
 status: Finished
 new_episodes: 2025-12-01

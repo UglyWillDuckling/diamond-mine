@@ -26,4 +26,4 @@ Originated from @andryyy (André)
 
 ## Used in
 
-- [[Setup Mail Server on IO]]
+- [[Setup Mail Server on IO · MailCow]]

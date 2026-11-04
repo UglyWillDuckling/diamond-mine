@@ -1,0 +1,1 @@
+`$= '![Image|200](' + dv.current().image + ')'`

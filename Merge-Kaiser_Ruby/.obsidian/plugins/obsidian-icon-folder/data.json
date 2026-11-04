@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "💰",
+      "LiGamepad",
+      "🐉",
       "LiLayoutDashboard",
-      "🏡",
-      "LiMapPlus",
-      "📽",
-      "LiProjector"
+      "🏡"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -42,9 +42,7 @@
   "Efforts": "LiWeight",
   "Calendar/days": "LiCalendar",
   "Calendar": "LiCalendarHeart",
-  "Efforts/Active/Kuca": "🏠",
   "Atlas": "🗺",
-  "Atlas/Knowledge/Media/movies/movi list - wip.md": "🎥",
   "Efforts/Simmering": "LiCookingPot",
   "Efforts/Active": {
     "iconName": "LiStar",
@@ -161,7 +159,6 @@
   "Atlas/Life/notes": "LiNotebookText",
   "React": "LiAtom",
   "Calendar/Events/Meetings/razgovor s Bojanom.md": "LiPhoneCall",
-  "Atlas/Knowledge/Media/movies": "🎥",
   "Efforts/Planned": "🛩",
   "Atlas/Life/Faks/Predmeti/Osnove Programiranja/C - programming": "©",
   "Atlas/Life/Faks/Predmeti/Grada racunala": "LiComputer",
@@ -189,16 +186,12 @@
   "Efforts/_Complete/Senka/Persona/archive/archive/persona ssl setup.md": "LiKeyRound",
   "Efforts/_Complete/Senka/Persona/archive/archive/setup Persona VPS.md": "LiServer",
   "Efforts/_Complete/Senka/Persona/Docs/Dev/Wordpress/wp_users.md": "LiPersonStanding",
-  "Efforts/Active/Kuca/docs": "LiBookImage",
   "Atlas/Tools/pc/lp command package/lp command package.md": "🖨",
-  "Atlas/Knowledge/Media/movies/movies base.base": "🎥",
   "Atlas/Knowledge/Media/Writings/Books/books base.base": "📚",
   "Atlas/Knowledge/Media/Television/tv shows.base": "LiTv",
   "Calendar/actions": "LiSword",
   "Atlas/Life/Pets": "LiCat",
   "Atlas/Life/People": "🫂",
-  "Efforts/Active/Kuca/docs/slike za kucu.md": "🖼",
-  "Efforts/Active/Kuca/docs/mail Vukojevic.md": "LiMail",
   "Efforts/Ideas": "💡",
   "Efforts/_Complete/Spavanja promijena napredak.md": "😪",
   "Efforts/_Complete/Studying Python": "🐍",
@@ -224,5 +217,15 @@
     "iconName": "LiLayoutDashboard",
     "iconColor": "#f2cb3a"
   },
-  "Efforts/Active/Kuca/Kuca.md": "🏡"
+  "Atlas/Knowledge/History/Mythology": "🐉",
+  "Efforts/Active/Gradnja Kuce": "🏠",
+  "Efforts/Active/Gradnja Kuce/docs": "LiBookImage",
+  "Efforts/Active/Gradnja Kuce/docs/mail Vukojevic.md": "LiMail",
+  "Efforts/Active/Gradnja Kuce/docs/slike za kucu.md": "🖼",
+  "Efforts/Active/Gradnja Kuce/Gradnja Kuce.md": "🏡",
+  "Atlas/Knowledge/Media/movies canvas": "🎥",
+  "Atlas/Knowledge/Media/movies canvas/movi list - wip.md": "🎥",
+  "Atlas/Knowledge/Media/movies canvas/movies base.base": "🎥",
+  "Atlas/Life/Virtual Items": "LiGamepad",
+  "Efforts/Ideas/Opravdati troskove Firme Bitscript/Opravdati troskove Firme Bitscript.md": "💰"
 }

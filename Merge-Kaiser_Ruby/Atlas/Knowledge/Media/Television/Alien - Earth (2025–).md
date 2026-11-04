@@ -27,7 +27,7 @@ tags:
   - tv-series
 new_episodes: 2025-08-12
 finished: false
-plan-to-watch: true
+want-to-watch: true
 status:
   - 3_Ready 📺
 ---

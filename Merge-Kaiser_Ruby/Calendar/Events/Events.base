@@ -1,0 +1,52 @@
+filters:
+  and:
+    - file.inFolder("Calendar/Events")
+    - '!file.tags.contains("incident")'
+formulas:
+  event_date: if(note.date, note.date, if(note.datum, note.datum, if(note.vrijeme, note.vrijeme, if(note.scheduled, note.scheduled, note["start date"]))))
+views:
+  - type: calendar
+    name: Kalendar
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - formula.event_date
+      - project
+      - lokacija
+    startDate: formula.event_date
+    weekStartDay: monday
+  - type: table
+    name: Događaji
+    order:
+      - file.name
+      - formula.event_date
+      - project
+      - type
+      - lokacija
+      - location
+      - participants
+      - tags
+    sort:
+      - property: formula.event_date
+        direction: DESC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 260
+  - type: cards
+    name: Kartice
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - formula.event_date
+      - project
+    sort:
+      - property: formula.event_date
+        direction: DESC
+    cardSize: 200
+  - type: table
+    name: View

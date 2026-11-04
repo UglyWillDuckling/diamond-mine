@@ -233,6 +233,15 @@
       },
       "property-values-browser": {
         "startupType": "instant"
+      },
+      "task-board": {
+        "startupType": "disabled"
+      },
+      "calendar-bases": {
+        "startupType": "instant"
+      },
+      "tasks-kanban": {
+        "startupType": "instant"
       }
     }
   }

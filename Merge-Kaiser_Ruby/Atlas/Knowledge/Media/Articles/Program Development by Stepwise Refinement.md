@@ -9,11 +9,11 @@ topics:
   - "[[programming]]"
   - "[[Development]]"
   - "[[Stepwise Refinement]]"
+  - "[[Computer Science]]"
 tags:
   - article
+  - resource
 ---
-- [ ] #task read [[Program Development by Stepwise Refinement]]
-___
 ## Program Development by Stepwise Refinement Niklaus Wirth
 
 Reprinted from *Communications of the ACM*, Vol. 14, No. 4, April 1971, pp. 221-227. Copyright © 1971, Association for Computing Machinery, Inc.

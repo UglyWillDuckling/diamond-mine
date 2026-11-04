@@ -285,7 +285,7 @@
       "name": "New Project 🔼",
       "type": "Template",
       "command": false,
-      "templatePath": "~/%/project template · wip.md",
+      "templatePath": "~/%/project template.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -324,7 +324,7 @@
   "devMode": false,
   "templateFolderPaths": [],
   "announceUpdates": "all",
-  "version": "2.32.1",
+  "version": "2.33.1",
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,

@@ -4,7 +4,7 @@ published:
 created: 2026-03-05
 tags:
 part of:
-  - "[[Kuca]]"
+  - "[[Gradnja Kuce]]"
 ---
 **Solarni paneli**, poznati i kao **fotonaponski (PV) paneli**, uređaji su koji pretvaraju sunčevu svjetlost u električnu energiju. Koriste fotonaponske ćelije napravljene od poluvodičkih materijala, poput silicija, a kada sunčeva svjetlost pogodi ćeliju, fotoni iz svjetlosti pobuđuju elektrone u poluvodičkom materijalu stvarajući električni tok.
 

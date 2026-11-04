@@ -8,7 +8,7 @@ tags:
   - film
   - film/drama
   - movies/towatch
-plan-to-watch: true
+want-to-watch: true
 image:
 ---
 ***Perfect Days*** is a 2023 [drama](https://en.m.wikipedia.org/wiki/Drama_\(film_and_television\) "Drama (film and television)") film directed by [Wim Wenders](https://en.m.wikipedia.org/wiki/Wim_Wenders "Wim Wenders") from a script written by Wenders and Takuma Takasaki.[^4] A co-production between Japan and Germany, the film follows the routine life of Hirayama ([Kōji Yakusho](https://en.m.wikipedia.org/wiki/Koji_Yakusho "Koji Yakusho")), a public toilet cleaner in Tokyo.[^dw-5]

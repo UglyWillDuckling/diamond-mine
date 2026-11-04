@@ -15,7 +15,7 @@ tags:
   - video/animation
   - fillm/short
   - film/animated
-plan-to-watch: true
+want-to-watch: true
 selected: false
 movie_status:
   - plan_to_watch

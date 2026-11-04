@@ -10,7 +10,7 @@ tags:
   - film
   - film/short
   - film/animated
-plan-to-watch: true
+want-to-watch: true
 selected: false
 movie_status:
   - plan_to_watch

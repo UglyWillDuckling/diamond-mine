@@ -1,16 +1,11 @@
----
-aliases:
----
 #task #Mirna #active
 
 - [x] knjige 📚 
 	- [x] [[Vodič kroz Galaksiju za autostopere]]
 	- [x] [[BAKLJA U NOĆI, Saaba Tahir (Žar u pepelu 2)  RECENZIJA]]
 - [x] slušalice
-- [x] maskica za mobitel #task ✅ 2024-12-09
 - [x] penkala
 - [x] [[CIRCUITMESS Wacky Robots BIT igraća konzola]]
-- ..
 
 ## slušalice 🎧 
 [[Anker slušalice space a40]]

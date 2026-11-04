@@ -6,10 +6,11 @@
     "standing": "multitext",
     "priority": "number",
     "deadline": "date",
+    "datum": "date",
+    "vrijeme": "datetime",
     "status": "text",
     "docs": "multitext",
     "about": "multitext",
-    "plan-to-watch": "checkbox",
     "interest": "number",
     "documents": "multitext",
     "rating": "number",
@@ -109,6 +110,9 @@
     "selected": "checkbox",
     "due_date": "date",
     "area": "text",
-    "images": "multitext"
+    "images": "multitext",
+    "creation_date": "date",
+    "want-to-watch": "checkbox",
+    "links": "multitext"
   }
 }

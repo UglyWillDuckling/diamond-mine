@@ -1,7 +1,6 @@
 {
   "pinned": [
     "obsidian-media-db-plugin:open-media-db-search-modal-with-movie",
-    "game-search:open-game-search-modal",
-    "workspaces:save"
+    "tasks-kanban:open-board"
   ]
 }

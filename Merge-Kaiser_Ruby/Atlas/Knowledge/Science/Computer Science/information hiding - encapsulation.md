@@ -1,9 +1,8 @@
-#computer-programming
-#computer-science
-#abstraction 
-#collaboration 
-#encapsulation 
-#information-hiding
+---
+related:
+  - "[[abstraction]]"
+---
+#concept/computer-science 
 
 ## definition
 The characteristic or ability of something, usually a system, to hide as much of its inner workings(structure and behavior) as it can, while showing only what is needed for it to be able to collaborate with other systems and/or actors.

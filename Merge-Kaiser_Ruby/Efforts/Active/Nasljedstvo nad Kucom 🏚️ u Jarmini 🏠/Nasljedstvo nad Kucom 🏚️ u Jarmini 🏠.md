@@ -1,5 +1,5 @@
 ---
-status: Active
+status: Planning
 priority: 7
 due_date: 2026-10-31
 area: "[[Personal]]"
@@ -11,12 +11,13 @@ tags:
 
 ### current situation
 
-Cekamo da katastar odradi svoje sto se tice [[Dragica Sedlar|bake]]. Trebaju razvlastiti baku i raspodijeliti imovinu na sljednike.
+Čekamo odgovor od suda za zahtjev za ponovljenom ostavinskom raspravom.
 
 ### Next Actions
 
 - [x] #task nazvati odvjetnicu 🔼 ⏳ 2026-10-08 📅 2026-10-09 ✅ 2026-10-15
 - [x] pogledati sto je s raspodijelom imovine ([[katastar]]) na internetu
+- [x] podnijeti zahtjev za ostavinskom 
 
 ### notes 🗒
 

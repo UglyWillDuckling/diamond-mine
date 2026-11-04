@@ -11,7 +11,7 @@ related:
   - "[[SMTP]]"
   - "[[Atlas/Tools/pc/Postfix/Postfix|Postfix]]"
   - "[[Dovecot]]"
-used_in: "[[techdot docker email setup]]"
+used_in: "[[Efforts/_Complete/Techdot.IO/techdot docker email setup]]"
 ---
 This (non official) repository provides dockerized (MTA) [Mail Transfer Agent](https://en.wikipedia.org/wiki/Message_transfer_agent) (SMTP) service using [Postfix](http://www.postfix.org/) and [Dovecot](https://www.dovecot.org/).
 

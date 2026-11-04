@@ -27,7 +27,7 @@ airing: false
 watched: false
 lastWatched: ""
 personalRating: 0
-plan-to-watch: true
+want-to-watch: true
 tags:
   - tv-series
 finished: false

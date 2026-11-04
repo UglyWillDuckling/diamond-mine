@@ -30,11 +30,11 @@ People figured out how to move graphics on a screen — see *Pong* from the earl
 
 Games and animation *went together* — that much was clear. Like animated films, these things often ([if not always](https://if50.substack.com/)) brought artwork to life. How *deep* was the link, though? How many techniques from the animation world could really, effectively cross over?[^1]
 
-A twenty-something coder from New York explored that question during the ‘80s. His name: Jordan Mechner. He self-described, among other things, as an “amateur animator.”
+A twenty-something coder from New York explored that question during the ‘80s. His name: [[Jordan Mechner]]. He self-described, among other things, as an “amateur animator.”
 
-Mechner got his first Apple II as a teenager and fell in love. “I wanted to produce animations,” he said. “I knew from making those animations that the computer was powerful, and that it was capable as a games machine.” [^2]
+Mechner got his first [[Apple II]] as a teenager and fell in love. “I wanted to produce animations,” he said. “I knew from making those animations that the computer was powerful, and that it was capable as a games machine.” [^2]
 
-After years of writing games, Mechner released the one that made him a star: *Prince of Persia* (1989). It drew from the “great old Hollywood swashbuckling movies,” he said — like those starring Douglas Fairbanks. And animation was at the center. “ *Prince of Persia* is the culmination of a lifelong fascination with animation,” noted the game’s manual.[^3]
+After years of writing games, Mechner released the one that made him a star: [[Prince of Persia (1989)]]. It drew from the “great old Hollywood swashbuckling movies,” he said — like those starring Douglas Fairbanks. And animation was at the center. “ *Prince of Persia* is the culmination of a lifelong fascination with animation,” noted the game’s manual.[^3]
 
 Famously, Mechner’s project rested on an experiment in digital rotoscoping.
 

@@ -1,10 +1,10 @@
 ---
 title: xdg-desktop-portal-kde suddenly broken / Applications & Desktop Environments / Arch Linux Forums
 source: https://bbs.archlinux.org/viewtopic.php?id=279527
-published: 
+published:
 created: 2025-02-06
 related:
-  - "[[desktop Compositor issue on KDE 🐞]]"
+  - "[[Efforts/Ongoing/PC Maintenance/desktop Compositor issue on KDE 🐞]]"
 ---
 #issue/reported 
 ## #1 [2022-09-07 19:58:56](https://bbs.archlinux.org/viewtopic.php?pid=2056226#p2056226)

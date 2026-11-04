@@ -566,7 +566,8 @@
 	padding: 2rem;
 }
 
-.chronos-bases-view-container.chronos-sidebar:nth-child(n) {
+/* Reduce padding when in the side-bars. */
+:is(.mod-right-split, .mod-left-split) .chronos-bases-view-container {
 	padding: 0.5rem;
 }
 
@@ -589,4 +590,28 @@
 .chronos-bases-view-timeline-container
 	.chronos-error-message-container:nth-child(n) {
 	color: var(--text-normal);
+}
+
+.chronos-empty-message {
+	font-size: larger;
+	font-weight: bold;
+}
+
+.chronos-instructions-link {
+	display: block;
+	margin-top: 0.5em;
+}
+
+.chronos-underlined-link {
+	text-decoration: underline;
+}
+
+/* 1px element at the pointer, used to anchor tooltips for period items */
+.chronos-tooltip-anchor {
+	position: fixed;
+	left: var(--chronos-tooltip-x);
+	top: var(--chronos-tooltip-y);
+	width: 1px;
+	height: 1px;
+	pointer-events: none;
 }

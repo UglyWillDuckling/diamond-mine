@@ -13,7 +13,7 @@ ___
 
 ### Kuca :LiHouse:
 
-**Kuca** se gradi - [[Kuca]] - nadvoji se betoniraju, uskoro mjerenje stolarije. Ide i **ploca**.
+**Kuca** se gradi - [[Gradnja Kuce]] - nadvoji se betoniraju, uskoro mjerenje stolarije. Ide i **ploca**.
 [[2026-02-12-Thu]] - Postavlja se vec i oplata za plocu.
 
 - [x] cekamo ponudu od [[Stipe Peric]]
@@ -21,7 +21,7 @@ ___
 	- [x] visina step
 	- [x] status 
 	- [x] podupiraci, nadvoji 
-	- [x] [[Klupice]]
+	- [x] [[Efforts/Active/Gradnja Kuce/Klupice]]
 - [x] poslati Dori **visinu** stepenice
 - [x] kontakt majstor za **Fasadu**
 

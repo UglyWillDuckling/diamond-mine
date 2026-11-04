@@ -1,1 +1,2 @@
+- [x] #task platiti doprinose za obrt ⏫ 📅 2026-10-31 ✅ 2026-11-03
 - [ ] #task vidjeti sto je s napom u kuci 🔼 📅 2026-11-20

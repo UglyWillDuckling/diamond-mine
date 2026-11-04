@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "07d0e52b116c14bb",
+        "id": "fb6cdd8140c06027",
         "type": "tabs",
         "children": [
           {
-            "id": "4de7cd0abfc8b781",
+            "id": "e825dff538879f14",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#task",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.3888854980469
+    "width": 270.9205322265625
   },
   "right": {
     "id": "879c4c46c01c5375",
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Efforts/Master Task List.md",
+                "file": "HOME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "start.base",
+                "file": "+/ps2 download games list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -143,8 +143,8 @@
               "type": "all-properties",
               "state": {
                 "sortOrder": "frequency",
-                "showSearch": true,
-                "searchQuery": "status"
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-archive",
               "title": "All properties"
@@ -173,7 +173,7 @@
             }
           },
           {
-            "id": "f607e5bcbef3775e",
+            "id": "f5424dc4b97a5813",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -183,75 +183,81 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 691.166748046875,
+    "width": 526.6502685546875,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "publish:Publish changes...": false,
+      "publish:Publish changes...": true,
       "bases:Create new base": true,
       "switcher:Open quick switcher": true,
-      "graph:Open graph view": true,
       "canvas:Create new canvas": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "workspaces:Manage workspace layouts": true,
       "obsidian42-brat:BRAT": true,
-      "daily-notes:Open today's daily note": true,
-      "open-gate:hyprland": false,
-      "game-search:Create new game note": false,
-      "digitalgarden:Digital Garden Publication Center": false,
-      "bulk-properties:Bulk edit selected notes": false,
-      "property-values-browser:Open browser": false,
+      "open-gate:hyprland": true,
+      "game-search:Create new game note": true,
+      "digitalgarden:Digital Garden Publication Center": true,
+      "bulk-properties:Bulk edit selected notes": true,
+      "property-values-browser:Open browser": true,
+      "daily-notes:Open today's daily note": false,
+      "graph:Open graph view": false,
       "callout-manager:Insert Callout": false,
       "templater-obsidian:Templater": false,
-      "obsidian-importer:Import notes": false,
       "obsidian-import-json:JSON/CSV Importer": false,
+      "obsidian-importer:Import notes": false,
       "obsidian-media-db-plugin:Add new Media DB entry": false
     }
   },
-  "active": "f1b5f5928b23f245",
+  "active": "e825dff538879f14",
   "lastOpenFiles": [
-    "Atlas/Knowledge/Concepts/CS 1/Software Testing/testing • outcome vs behavior.md",
-    "Atlas/Knowledge/Concepts/CS 1/Software Testing/Software Testing.md",
-    "Atlas/Knowledge/Concepts/CS 1/Software Testing",
+    "how to use Tasks Board.md",
     "HOME.md",
-    "IMPROVEMENTS.md",
+    "🏡 HOME.md",
+    "Underrated PS2 Classics.md",
+    "Efforts/Ideas/Setup Tasks Board Plugin.md",
     "Efforts/Projects.base",
-    "sed74wf3H",
-    "Calendar/daily/2026/2026-10-20-Tue.md",
-    "AGENTS.md",
-    "▶ Next Actions.md",
-    "Efforts/Ideas 💡 · Projects.md",
-    "~/%/project template · wip.md",
-    "bases css.md",
-    "Efforts/Active/Kuca/Kuca.md",
-    "Efforts/Active/Kuca/archive/gotovi taskovi.md",
-    "Calendar/Events/Event · popravak stolarije.md",
-    "Efforts/tasks/inbox/2026-10-October.md",
-    "Efforts/Master Task List.md",
-    "Efforts/tasks/inbox/2026-10.md",
-    "Efforts/tasks/inbox",
-    "obsidian inline base example.md",
-    "Efforts/Ideas/Istraziti single purpose devices.md",
-    "todo.md",
-    "Zdravlje home.md",
-    "templater_probe_zz3.md",
-    "templater_probe_zz2.md",
-    "templater_probe_zz.md",
-    "Atlas/Life/Faks/docs/Sigurnost - Ispit.md",
-    "Calendar/daily/2026/2026-10-15-Thu.md",
-    "Untitled.base",
-    "kuca dogadaji.base",
-    "Efforts/Ongoing",
-    "~/×/Ponuda Mirna i Vladimir namještaj po mjeri_261012_173350.pdf",
-    "Efforts/Simmering/Tasks Management in Obsidian",
-    "Clippings",
+    "Efforts/_Complete/Article Rating.md",
+    "Efforts/Ongoing/Upcoming birthdays List Project.md",
+    "Efforts/Ideas/Opravdati troskove Firme Bitscript/Opravdati troskove Firme Bitscript.md",
+    "Efforts/Active/Otvaranje firme 🏤 Bitscript.md",
+    "Efforts/Active/PS2 Setup/PS2 Setup.md",
+    "Atlas/howtos/How to change the shell.md",
+    "Efforts/tasks/inbox/2026-11-studeni.md",
+    "Efforts/Active/Migrate to Owncloud OCIS.md",
+    "Atlas/Life/physical items/owncloud server.md",
+    "Atlas/Life/Virtual Items",
+    "Efforts/Ideas/Import Notes From Obsidian.md",
+    "Efforts/Active/Gradnja Kuce/Gradnja Kuce.md",
+    "+/ps2 download games list.md",
+    "Calendar/daily/2025/2025-01-18.md",
+    "Atlas/Notes/katarina Peovic n1 - Thompson.md",
+    "Efforts/Simmering/Learn Pokemon Gen 2.md",
+    "Atlas/Knowledge/Media/Writings/Authors/Ursula K. Le Guin.md",
+    "Efforts/Active/Mass Update Plugin in Obsidian/Mass Update Plugin in Obsidian.md",
+    "Efforts/Active/Mass Update Plugin in Obsidian/start.base",
+    "Atlas/Life/obrt/dokumentacija za obrt.md",
+    "Efforts/_Ongoing/Zdravlje/Zdravlje.md",
+    "Atlas/Knowledge/Media/Articles/Program Development by Stepwise Refinement.md",
+    "Calendar/daily/2025/2025-01-22.md",
+    "Efforts/_Ongoing/archive",
     "Efforts/Task Map.canvas",
+    "Efforts/Active/Video Games.base",
+    "Atlas/Knowledge/Media/movies canvas/movies base.base",
+    "tasks canvas.canvas",
+    "Calendar/Events/Events.base",
+    "Atlas/Knowledge/Media/movies canvas/movies canvas.canvas",
+    "Calendar/Events/_tmp.base",
+    "Efforts/Ideas/Opravdati troskove Firme Bitscript",
+    "Efforts/Ideas/Opravdati troskove Firme Bitscript/stvari na firmu",
+    "Efforts/Simmering/Obsidian Tinkering/canvas/experiment.canvas",
+    "Efforts/tasks/archive/archive 1/action.canvas",
+    "Efforts/tasks/archive/archive/action.canvas",
     "~/×/Screenshot_20260920_090455_GitHub.jpg",
     "~/×/Pasted image 20260920231213.png",
     "~/×/Pasted image 20260827220440.png",
@@ -263,13 +269,8 @@
     "~/×/Pasted image 20260828210430.png",
     "~/×/Pasted image 20260828210302.png",
     "Atlas/Life/Faks/Predmeti/Baze Podataka predmet/baze - seminar - imovina.canvas",
-    "Atlas/Knowledge/Media/movies/movies.canvas",
-    "Efforts/tasks/archive/archive 1/action.canvas",
-    "Efforts/tasks/archive/archive/action.canvas",
-    "Efforts/Active/Kuca/Faze gradnje.canvas",
+    "Efforts/Active/Gradnja Kuce/Faze gradnje.canvas",
     "ff.canvas",
-    "Efforts/tasks/archive/archive/srediti troskovnik/actions.canvas",
-    "Efforts/tasks/archive/srediti troskovnik/actions.canvas",
-    "Efforts/tasks/archive/archive 1/srediti troskovnik/actions.canvas"
+    "Efforts/tasks/archive/archive/srediti troskovnik/actions.canvas"
   ]
 }

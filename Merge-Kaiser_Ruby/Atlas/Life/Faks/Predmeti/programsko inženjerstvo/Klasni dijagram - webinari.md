@@ -14,11 +14,11 @@
 
 - [x] poslati mail s dijagramom klasa
 
-- [ ] ==vidjeti sto ce profesor reci za video, tip podataka, vrste veze, dodatne klase, enumeracije, private/public==
+- [x] ==vidjeti sto ce profesor reci za video, tip podataka, vrste veze, dodatne klase, enumeracije, private/public==
 	- treba li nam **Catalog**
 	- pitati profesora treba li nam pracenje placanja i narudzbi
 	
-- [ ] pogledati dijagrame **online**
+- [x] pogledati dijagrame **online**
 
 ### dodatne klase
 

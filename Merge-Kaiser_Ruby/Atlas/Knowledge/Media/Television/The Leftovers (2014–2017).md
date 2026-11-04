@@ -24,7 +24,7 @@ airedTo: unknown
 watched: false
 lastWatched: ""
 personalRating: 0
-plan-to-watch: true
+want-to-watch: true
 interest: 8.4
 tags:
   - tv-series

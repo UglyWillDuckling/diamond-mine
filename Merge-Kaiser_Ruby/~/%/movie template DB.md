@@ -2,7 +2,7 @@
 category:
   - "[[Film]]"
 interest:
-plan-to-watch: false
+want-to-watch: false
 personal favorite: false
 ---
 `$= '![Image|200](' + dv.current().image + ')'`

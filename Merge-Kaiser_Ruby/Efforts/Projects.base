@@ -1,6 +1,7 @@
 filters:
   and:
     - file.tags.contains("project")
+    - '!file.inFolder("~/")'
 views:
   - type: kanban
     name: Active Board

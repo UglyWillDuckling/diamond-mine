@@ -28,7 +28,7 @@ watched: false
 lastWatched: ""
 personalRating: 0
 tags: mediaDB/tv/series
-plan-to-watch: true
+want-to-watch: true
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

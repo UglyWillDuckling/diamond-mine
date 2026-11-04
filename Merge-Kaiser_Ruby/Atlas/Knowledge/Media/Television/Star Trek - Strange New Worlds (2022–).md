@@ -31,7 +31,7 @@ tags:
   - mediaDB/tv/series
   - tv-series
 finished: false
-plan-to-watch: true
+want-to-watch: true
 ---
 
 `$= '![Image|200](' + dv.current().image + ')'`

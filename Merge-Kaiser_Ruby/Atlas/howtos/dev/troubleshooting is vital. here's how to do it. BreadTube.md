@@ -2,7 +2,7 @@
 source: https://m.youtube.com/watch?v=VX45nw2OFxo
 created: 2026-04-06
 interest: 7.8
-plan-to-watch: true
+want-to-watch: true
 processed: false
 topics:
   - "[[linux]]"

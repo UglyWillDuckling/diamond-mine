@@ -2,11 +2,11 @@
 tags:
   - event/kuca
 related:
-  - "[[Kuca]]"
+  - "[[Gradnja Kuce]]"
   - "[[knauf dio]]"
 sudionici:
   - "[[Marko Maric]]"
-location: "[[Kuca]]"
+location: "[[Gradnja Kuce]]"
 ---
 - zbukanje samo unutarnje 
 - cekati da se osuši do jeseni 

@@ -24,7 +24,6 @@ Groupama osiguranje
 
 - [x] otici kod Perkovica u ponedjeljak u 11:00
 - [x] [[Pokret]] termin kod Marije u utorak 17:00
-- [ ] #task staviti **mast**
 - [x] Perkovic u petak 11:15
 
 > Agresivan položaj za rame

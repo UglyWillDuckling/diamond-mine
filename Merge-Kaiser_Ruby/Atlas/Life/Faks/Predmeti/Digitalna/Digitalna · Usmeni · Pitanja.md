@@ -1,6 +1,3 @@
-- [x] #task uci [[Digitalna · Usmeni · Pitanja]] 🛫 2025-06-20 ⏳ 2025-06-21 📅 2025-06-22 🆔 PalelG ✅ 2025-06-29
-___
-
 ```table-of-contents
 ```
 ___
@@ -140,8 +137,8 @@ Razlikujemo:
 	- sprema `MSB`, bit najvece vrijednosti, na najmanjoj adresi
 	- znacaj bita se **smanjuje** povecanjem adrese
 
-![[Atlas/Knowledge/Concepts/CS 1/Endianness#^74e261]]
-see: [[Bit numbering]], [[Atlas/Knowledge/Concepts/CS 1/Endianness]]
+![[Endianness 1#^74e261]]
+see: [[Bit numbering]], [[Endianness 1]]
 
 ## Zašto kodirati digitalni podatak
 

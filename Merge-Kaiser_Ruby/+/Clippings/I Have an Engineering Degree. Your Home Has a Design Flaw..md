@@ -6,9 +6,6 @@ tags:
 ---
 - [ ] #task kupiti kameru [[Full HD 2K Camcorder HC-V900E-K]] Panasonic 🔼
 
-- [ ] #task watch this 
-
-  
 Your home organization systems keep collapsing — and it's not your fault. I'm a professional organizer with an engineering degree, and when I started looking at decluttering and organizing through a systems-design lens, I realized almost every popular organizing method fails the same test: they're designed for ideal conditions, not real life.  
   
 In this video, I break down why conventional advice ignores the most important variable — your actual daily energy — and how an engineering approach designs organizing systems for the tired, distracted version of you. No bins. No labels. Just systems that hold.  

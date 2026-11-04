@@ -1,8 +1,4 @@
-- [x] #task ucenje za sljedeci kviz ⏳ 2025-06-10 📅 2025-06-12 🆔 QLEyit ✅ 2025-06-29
-	- [x] [[povijest kviz]]
-___
-
-- umjetnost 
+- umjetnost
 - kemija
 - [[povijest kviz]] 
 - povijest znanosti 
@@ -26,5 +22,5 @@ ___
 
 ## Filmovi
 
-- [ ] [[Split - film]]
-- [ ] [[A Clockwork Orange (1971)]]
+- [[Split - film]]
+- [[A Clockwork Orange (1971)]]

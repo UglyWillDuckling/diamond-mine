@@ -6,10 +6,10 @@ participants:
   - "[[Atlas/Life/People/vladimir sedlar|vladimir sedlar]]"
   - "[[Mirna Blagovic|Mirna]]"
   - "[[Kristijan Maric]]"
-  - "[[Viktor Hmilevski]]"
+  - "[[Atlas/Life/People/Viktor Hmilevski]]"
   - "[[Stipe Peric|Stipe]]"
 part of:
-  - "[[Kuca]]"
+  - "[[Gradnja Kuce]]"
 ---
 #event/kuca  
 

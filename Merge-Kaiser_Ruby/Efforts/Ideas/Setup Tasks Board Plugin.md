@@ -1,10 +1,10 @@
 ---
 priority: 4
-status: Active
+status: Planning
 tags:
   - project
 ---
-# :LiTarget: Cilj
+## :LiTarget: Cilj
 ..
 
 ## Trenutna situacija
@@ -21,6 +21,7 @@ Planning on creating [[#other boards]].
 ## ✔ zadaci
 
 - [ ] make a shortcut for easy access
+- [ ] plan mobile
 
 ## :LiWeight: odluke
 ..

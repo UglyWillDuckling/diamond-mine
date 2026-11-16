@@ -1,5 +1,5 @@
 {
-  "baseQuery": "folder does not include Efforts/_Complete\nfolder does not include +\nfolder does not include Efforts/Simmering\nfolder does not include archive\nfolder does not include docs\nfolder does not include Calendar/Weeks\n(due after 2026-01-01) OR (no due date)\n(done after 2026-01-01) OR (no done date)\ntag does not include #test\ntag does not include #paused",
+  "baseQuery": "folder does not include Efforts/_Complete\nfolder does not include +\nfolder does not include Efforts/Simmering\nfolder does not include archive\nfolder does not include docs\nfolder does not include Calendar/Weeks\n(due after 2026-01-01) OR (no due date)\n(done after 2026-01-01) OR (no done date)\ntag does not include #test\ntag does not include #paused\nsort by due",
   "baseCollapsedColumns": [
     "cancelled",
     "done"

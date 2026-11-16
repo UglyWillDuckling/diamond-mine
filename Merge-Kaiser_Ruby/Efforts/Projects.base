@@ -7,13 +7,12 @@ views:
     name: Active Board
     filters:
       and:
-        - '!status.containsAny("cancelled", "Done", "Ongoing")'
+        - '!status.containsAny("cancelled", "Done", "Ongoing", "Backlog")'
         - '!file.tags.contains("archived")'
     groupBy:
       property: status
       direction: ASC
     groupOrder:
-      - Backlog
       - Planning
       - Active
       - Finished
@@ -26,7 +25,7 @@ views:
     sort:
       - property: file.mtime
         direction: DESC
-    columnWidth: 310
+    columnWidth: 290
     imageAspectRatio: 0.7
   - type: table
     name: View

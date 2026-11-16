@@ -9,7 +9,7 @@
   "tag-pane": false,
   "footnotes": true,
   "properties": true,
-  "page-preview": true,
+  "page-preview": false,
   "daily-notes": true,
   "templates": true,
   "note-composer": true,
@@ -17,7 +17,6 @@
   "slash-command": false,
   "editor-status": true,
   "bookmarks": true,
-  "markdown-importer": false,
   "zk-prefixer": false,
   "random-note": false,
   "outline": true,
@@ -29,5 +28,6 @@
   "publish": true,
   "sync": true,
   "bases": true,
+  "markdown-importer": false,
   "webviewer": true
 }

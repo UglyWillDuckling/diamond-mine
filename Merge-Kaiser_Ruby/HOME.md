@@ -29,7 +29,7 @@ hide toolbar
 show tree
 ```
 
-### ☑ active tasks
+## ☑ active tasks
 ****
 ```tasks
 not done
@@ -38,4 +38,40 @@ sort by due
 short mode
 hide task count
 hide toolbar
+```
+
+## Next up
+
+```tasks
+not done
+sort by due
+short mode
+hide task count
+path includes Efforts
+hide toolbar
+show tree
+tag include #next
+```
+
+## Projects
+
+```base
+filters:
+  and:
+    - file.hasTag("project")
+    - status.lower() == "active"
+views:
+  - type: cards
+    name: Active
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+    sort:
+      - property: file.mtime
+        direction: DESC
+    cardSize: 430
+    imageAspectRatio: 1.15
+
 ```

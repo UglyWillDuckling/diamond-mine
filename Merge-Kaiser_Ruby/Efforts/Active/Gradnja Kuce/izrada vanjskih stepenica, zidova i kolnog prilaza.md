@@ -1,10 +1,11 @@
 [[Gradnja Kuce]]
 ### ⏭ next actions
 
-- [/] #task pronaci tko ce napraviti [[izrada vanjskih stepenica, zidova i kolnog prilaza]] 🔼 📅 2026-11-11
+- [x] #task pronaci tko ce napraviti [[izrada vanjskih stepenica, zidova i kolnog prilaza]] 🔼 📅 2026-11-11 ✅ 2026-11-10
 	- [x] kontaktirati [[Kovačić Gradnja]]
 	- [x] kontaktirati [[Josip Culjak]]
 	- [x] poslati projekt [[Josip Culjak]]
+	- [x] pricekati ponudu od [[Josip Culjak]]
 
 ## dimenzije
 

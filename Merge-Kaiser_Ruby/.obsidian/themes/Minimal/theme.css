@@ -472,6 +472,7 @@ body .excalidraw {
   --title-color: var(--tx1);
   --titlebar-background: var(--bg2);
   --titlebar-background-focused: var(--bg2);
+  --titlebar-text-color: var(--tx2);
   --titlebar-text-color-focused: var(--tx1);
   --vault-profile-color: var(--tx1);
   --vault-profile-color-hover: var(--tx1);
@@ -495,6 +496,7 @@ body .excalidraw {
 
 .theme-light.minimal-light-contrast .theme-dark {
   --tab-container-background: var(--bg2);
+  --sidebar-tab-container-background: var(--bg2);
   --ribbon-background-collapsed: var(--bg2);
 }
 
@@ -1056,7 +1058,7 @@ body.window-title-off .titlebar-text {
   display: none;
 }
 
-.titlebar-button-container.mod-secondary {
+.titlebar-button-container.mod-right {
   background-color: transparent !important;
 }
 
@@ -1083,12 +1085,28 @@ body.window-title-off .titlebar-text {
   padding-right: var(--size-4-2);
 }
 
+body {
+  --minimal-titlebar-text-color: var(--titlebar-text-color);
+  --minimal-titlebar-text-color-focused: var(--titlebar-text-color-focused);
+}
 body.is-focused {
   --titlebar-background-focused: var(--background-secondary);
+}
+body.is-focused .titlebar,
+body.is-focused .workspace-ribbon.mod-primary,
+body.is-focused .sidebar-toggle-button,
+body.is-focused .workspace-tabs.mod-top {
+  --titlebar-background: var(--titlebar-background-focused);
+}
+
+.is-hidden-frameless:not(.in-progress, .starter, .is-popout-modal) .titlebar {
+  --titlebar-text-color: var(--minimal-titlebar-text-color);
+  --titlebar-text-color-focused: var(--minimal-titlebar-text-color-focused);
 }
 
 .is-hidden-frameless:not(.colorful-frame) .mod-primary-split .mod-top .workspace-tab-header-container {
   --tab-container-background: var(--background-secondary);
+  --sidebar-tab-container-background: var(--background-secondary);
 }
 
 .mod-root .workspace-tab-header-status-icon {
@@ -3726,6 +3744,7 @@ body:not(.links-ext-on) {
 
 body:not(.sidebar-color) .mod-secondary-split {
   --background-secondary: var(--background-primary);
+  --sidebar-tab-container-background: var(--background-primary);
 }
 body:not(.sidebar-color) .mod-secondary-split :not(.mod-top) .workspace-tab-header-container {
   --tab-container-background: var(--background-primary);
@@ -5238,6 +5257,10 @@ body .markdown-source-view.mod-cm6 .dataview.table-view-table thead.table-view-t
   --hl2:rgba(209,154,102,0.35);
 }
 
+.theme-light.minimal-atom-light.minimal-light-tonal {
+  --bg2:#fafafa;
+}
+
 .theme-light.minimal-atom-light.minimal-light-white {
   --bg3:#eaeaeb;
 }
@@ -5331,6 +5354,11 @@ https://github.com/ayu-theme/ayu-colors
   --color-blue:#73d0ff;
   --color-purple:#dfbfff;
   --color-pink:#f27983;
+}
+
+.theme-light.minimal-ayu-light.minimal-light-tonal {
+  --bg1:#f8f9fa;
+  --bg2:#f8f9fa;
 }
 
 .theme-light.minimal-ayu-light.minimal-light-contrast .titlebar,
@@ -5430,7 +5458,7 @@ https://github.com/catppuccin/catppuccin
 }
 
 .theme-light.minimal-catppuccin-light.minimal-light-tonal {
-  --bg2: #DCE0E8;
+  --bg2: #F0F1F5;
 }
 
 .theme-light.minimal-catppuccin-light.minimal-light-white {
@@ -6174,6 +6202,10 @@ https://github.com/nordtheme/nord
   --hl2:rgba(208, 135, 112, 0.35);
 }
 
+.theme-light.minimal-nord-light.minimal-light-tonal {
+  --bg1:#eceff4;
+}
+
 .theme-light.minimal-nord-light.minimal-light-contrast .titlebar,
 .theme-light.minimal-nord-light.minimal-light-contrast.minimal-status-off .status-bar,
 .theme-light.minimal-nord-light.minimal-light-contrast .workspace-drawer.mod-primary,
@@ -6212,8 +6244,9 @@ https://github.com/nordtheme/nord
   --accent-h:197;
   --accent-s:71%;
   --accent-l:52%;
+  --bg1:#fff;
   --bg2:#f7f6f4;
-  --bg3:#e8e7e4;
+  --bg3:#e9e8e4;
   --ui1:#ededec;
   --ui2:#dbdbda;
   --ui3:#aaa9a5;
@@ -6221,6 +6254,11 @@ https://github.com/nordtheme/nord
   --tx2:#72706c;
   --tx3:#aaa9a5;
   --hl1:rgba(131,201,229,0.3);
+}
+
+.theme-light.minimal-notion-light.minimal-light-tonal {
+  --bg1:#f7f6f4;
+  --bg2: #f7f6f4;
 }
 
 .theme-light.minimal-notion-light.minimal-light-contrast .titlebar,
@@ -6312,6 +6350,10 @@ https://github.com/rose-pine/rose-pine-theme
   --color-blue: #9ccfd8;
   --color-purple: #c4a7e7;
   --color-pink: #c4a7e7;
+}
+
+.theme-light.minimal-rose-pine-light.minimal-light-tonal {
+  --bg2:#fffaf3;
 }
 
 .theme-light.minimal-rose-pine-light.minimal-light-contrast .titlebar,
@@ -6469,6 +6511,7 @@ https://ethanschoonover.com/solarized/
 }
 
 .theme-light.minimal-things-light.minimal-light-tonal {
+  --bg1:#f5f6f8;
   --ui1:#e6e8ec;
 }
 

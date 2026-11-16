@@ -1,1 +1,1 @@
-- [ ] #task pitati Malueva o nacinu isplate place 🔼 📅 2026-11-06
+- [x] #task pitati Malueva o nacinu isplate place 🔼 📅 2026-11-06 ✅ 2026-11-12

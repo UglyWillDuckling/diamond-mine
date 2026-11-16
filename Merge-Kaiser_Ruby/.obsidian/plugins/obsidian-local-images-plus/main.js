@@ -6,14 +6,6 @@ if you want to view the source visit the plugins github repository
 'use strict';
 
 var obsidian = require('obsidian');
-var path = require('path');
-var fs$2 = require('fs');
-var url = require('url');
-
-function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
-
-var path__default = /*#__PURE__*/_interopDefaultLegacy(path);
-var fs__default = /*#__PURE__*/_interopDefaultLegacy(fs$2);
 
 /******************************************************************************
 Copyright (c) Microsoft Corporation.
@@ -79,21 +71,2456 @@ function getAugmentedNamespace(n) {
 	return a;
 }
 
+var buffer = {};
+
+var base64Js = {};
+
+base64Js.byteLength = byteLength;
+base64Js.toByteArray = toByteArray;
+base64Js.fromByteArray = fromByteArray;
+
+var lookup = [];
+var revLookup = [];
+var Arr = typeof Uint8Array !== 'undefined' ? Uint8Array : Array;
+
+var code = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+for (var i = 0, len = code.length; i < len; ++i) {
+  lookup[i] = code[i];
+  revLookup[code.charCodeAt(i)] = i;
+}
+
+// Support decoding URL-safe base64 strings, as Node.js does.
+// See: https://en.wikipedia.org/wiki/Base64#URL_applications
+revLookup['-'.charCodeAt(0)] = 62;
+revLookup['_'.charCodeAt(0)] = 63;
+
+function getLens (b64) {
+  var len = b64.length;
+
+  if (len % 4 > 0) {
+    throw new Error('Invalid string. Length must be a multiple of 4')
+  }
+
+  // Trim off extra bytes after placeholder bytes are found
+  // See: https://github.com/beatgammit/base64-js/issues/42
+  var validLen = b64.indexOf('=');
+  if (validLen === -1) validLen = len;
+
+  var placeHoldersLen = validLen === len
+    ? 0
+    : 4 - (validLen % 4);
+
+  return [validLen, placeHoldersLen]
+}
+
+// base64 is 4/3 + up to two characters of the original data
+function byteLength (b64) {
+  var lens = getLens(b64);
+  var validLen = lens[0];
+  var placeHoldersLen = lens[1];
+  return ((validLen + placeHoldersLen) * 3 / 4) - placeHoldersLen
+}
+
+function _byteLength (b64, validLen, placeHoldersLen) {
+  return ((validLen + placeHoldersLen) * 3 / 4) - placeHoldersLen
+}
+
+function toByteArray (b64) {
+  var tmp;
+  var lens = getLens(b64);
+  var validLen = lens[0];
+  var placeHoldersLen = lens[1];
+
+  var arr = new Arr(_byteLength(b64, validLen, placeHoldersLen));
+
+  var curByte = 0;
+
+  // if there are placeholders, only get up to the last complete 4 chars
+  var len = placeHoldersLen > 0
+    ? validLen - 4
+    : validLen;
+
+  var i;
+  for (i = 0; i < len; i += 4) {
+    tmp =
+      (revLookup[b64.charCodeAt(i)] << 18) |
+      (revLookup[b64.charCodeAt(i + 1)] << 12) |
+      (revLookup[b64.charCodeAt(i + 2)] << 6) |
+      revLookup[b64.charCodeAt(i + 3)];
+    arr[curByte++] = (tmp >> 16) & 0xFF;
+    arr[curByte++] = (tmp >> 8) & 0xFF;
+    arr[curByte++] = tmp & 0xFF;
+  }
+
+  if (placeHoldersLen === 2) {
+    tmp =
+      (revLookup[b64.charCodeAt(i)] << 2) |
+      (revLookup[b64.charCodeAt(i + 1)] >> 4);
+    arr[curByte++] = tmp & 0xFF;
+  }
+
+  if (placeHoldersLen === 1) {
+    tmp =
+      (revLookup[b64.charCodeAt(i)] << 10) |
+      (revLookup[b64.charCodeAt(i + 1)] << 4) |
+      (revLookup[b64.charCodeAt(i + 2)] >> 2);
+    arr[curByte++] = (tmp >> 8) & 0xFF;
+    arr[curByte++] = tmp & 0xFF;
+  }
+
+  return arr
+}
+
+function tripletToBase64 (num) {
+  return lookup[num >> 18 & 0x3F] +
+    lookup[num >> 12 & 0x3F] +
+    lookup[num >> 6 & 0x3F] +
+    lookup[num & 0x3F]
+}
+
+function encodeChunk (uint8, start, end) {
+  var tmp;
+  var output = [];
+  for (var i = start; i < end; i += 3) {
+    tmp =
+      ((uint8[i] << 16) & 0xFF0000) +
+      ((uint8[i + 1] << 8) & 0xFF00) +
+      (uint8[i + 2] & 0xFF);
+    output.push(tripletToBase64(tmp));
+  }
+  return output.join('')
+}
+
+function fromByteArray (uint8) {
+  var tmp;
+  var len = uint8.length;
+  var extraBytes = len % 3; // if we have 1 byte left, pad 2 bytes
+  var parts = [];
+  var maxChunkLength = 16383; // must be multiple of 3
+
+  // go through the array every three bytes, we'll deal with trailing stuff later
+  for (var i = 0, len2 = len - extraBytes; i < len2; i += maxChunkLength) {
+    parts.push(encodeChunk(uint8, i, (i + maxChunkLength) > len2 ? len2 : (i + maxChunkLength)));
+  }
+
+  // pad the end with zeros, but make sure to not forget the extra bytes
+  if (extraBytes === 1) {
+    tmp = uint8[len - 1];
+    parts.push(
+      lookup[tmp >> 2] +
+      lookup[(tmp << 4) & 0x3F] +
+      '=='
+    );
+  } else if (extraBytes === 2) {
+    tmp = (uint8[len - 2] << 8) + uint8[len - 1];
+    parts.push(
+      lookup[tmp >> 10] +
+      lookup[(tmp >> 4) & 0x3F] +
+      lookup[(tmp << 2) & 0x3F] +
+      '='
+    );
+  }
+
+  return parts.join('')
+}
+
+var ieee754 = {};
+
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+ieee754.read = function (buffer, offset, isLE, mLen, nBytes) {
+  var e, m;
+  var eLen = (nBytes * 8) - mLen - 1;
+  var eMax = (1 << eLen) - 1;
+  var eBias = eMax >> 1;
+  var nBits = -7;
+  var i = isLE ? (nBytes - 1) : 0;
+  var d = isLE ? -1 : 1;
+  var s = buffer[offset + i];
+
+  i += d;
+
+  e = s & ((1 << (-nBits)) - 1);
+  s >>= (-nBits);
+  nBits += eLen;
+  for (; nBits > 0; e = (e * 256) + buffer[offset + i], i += d, nBits -= 8) {}
+
+  m = e & ((1 << (-nBits)) - 1);
+  e >>= (-nBits);
+  nBits += mLen;
+  for (; nBits > 0; m = (m * 256) + buffer[offset + i], i += d, nBits -= 8) {}
+
+  if (e === 0) {
+    e = 1 - eBias;
+  } else if (e === eMax) {
+    return m ? NaN : ((s ? -1 : 1) * Infinity)
+  } else {
+    m = m + Math.pow(2, mLen);
+    e = e - eBias;
+  }
+  return (s ? -1 : 1) * m * Math.pow(2, e - mLen)
+};
+
+ieee754.write = function (buffer, value, offset, isLE, mLen, nBytes) {
+  var e, m, c;
+  var eLen = (nBytes * 8) - mLen - 1;
+  var eMax = (1 << eLen) - 1;
+  var eBias = eMax >> 1;
+  var rt = (mLen === 23 ? Math.pow(2, -24) - Math.pow(2, -77) : 0);
+  var i = isLE ? 0 : (nBytes - 1);
+  var d = isLE ? 1 : -1;
+  var s = value < 0 || (value === 0 && 1 / value < 0) ? 1 : 0;
+
+  value = Math.abs(value);
+
+  if (isNaN(value) || value === Infinity) {
+    m = isNaN(value) ? 1 : 0;
+    e = eMax;
+  } else {
+    e = Math.floor(Math.log(value) / Math.LN2);
+    if (value * (c = Math.pow(2, -e)) < 1) {
+      e--;
+      c *= 2;
+    }
+    if (e + eBias >= 1) {
+      value += rt / c;
+    } else {
+      value += rt * Math.pow(2, 1 - eBias);
+    }
+    if (value * c >= 2) {
+      e++;
+      c /= 2;
+    }
+
+    if (e + eBias >= eMax) {
+      m = 0;
+      e = eMax;
+    } else if (e + eBias >= 1) {
+      m = ((value * c) - 1) * Math.pow(2, mLen);
+      e = e + eBias;
+    } else {
+      m = value * Math.pow(2, eBias - 1) * Math.pow(2, mLen);
+      e = 0;
+    }
+  }
+
+  for (; mLen >= 8; buffer[offset + i] = m & 0xff, i += d, m /= 256, mLen -= 8) {}
+
+  e = (e << mLen) | m;
+  eLen += mLen;
+  for (; eLen > 0; buffer[offset + i] = e & 0xff, i += d, e /= 256, eLen -= 8) {}
+
+  buffer[offset + i - d] |= s * 128;
+};
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+(function (exports) {
+
+	const base64 = base64Js;
+	const ieee754$1 = ieee754;
+	const customInspectSymbol =
+	  (typeof Symbol === 'function' && typeof Symbol['for'] === 'function') // eslint-disable-line dot-notation
+	    ? Symbol['for']('nodejs.util.inspect.custom') // eslint-disable-line dot-notation
+	    : null;
+
+	exports.Buffer = Buffer;
+	exports.SlowBuffer = SlowBuffer;
+	exports.INSPECT_MAX_BYTES = 50;
+
+	const K_MAX_LENGTH = 0x7fffffff;
+	exports.kMaxLength = K_MAX_LENGTH;
+
+	/**
+	 * If `Buffer.TYPED_ARRAY_SUPPORT`:
+	 *   === true    Use Uint8Array implementation (fastest)
+	 *   === false   Print warning and recommend using `buffer` v4.x which has an Object
+	 *               implementation (most compatible, even IE6)
+	 *
+	 * Browsers that support typed arrays are IE 10+, Firefox 4+, Chrome 7+, Safari 5.1+,
+	 * Opera 11.6+, iOS 4.2+.
+	 *
+	 * We report that the browser does not support typed arrays if the are not subclassable
+	 * using __proto__. Firefox 4-29 lacks support for adding new properties to `Uint8Array`
+	 * (See: https://bugzilla.mozilla.org/show_bug.cgi?id=695438). IE 10 lacks support
+	 * for __proto__ and has a buggy typed array implementation.
+	 */
+	Buffer.TYPED_ARRAY_SUPPORT = typedArraySupport();
+
+	if (!Buffer.TYPED_ARRAY_SUPPORT && typeof console !== 'undefined' &&
+	    typeof console.error === 'function') {
+	  console.error(
+	    'This browser lacks typed array (Uint8Array) support which is required by ' +
+	    '`buffer` v5.x. Use `buffer` v4.x if you require old browser support.'
+	  );
+	}
+
+	function typedArraySupport () {
+	  // Can typed array instances can be augmented?
+	  try {
+	    const arr = new Uint8Array(1);
+	    const proto = { foo: function () { return 42 } };
+	    Object.setPrototypeOf(proto, Uint8Array.prototype);
+	    Object.setPrototypeOf(arr, proto);
+	    return arr.foo() === 42
+	  } catch (e) {
+	    return false
+	  }
+	}
+
+	Object.defineProperty(Buffer.prototype, 'parent', {
+	  enumerable: true,
+	  get: function () {
+	    if (!Buffer.isBuffer(this)) return undefined
+	    return this.buffer
+	  }
+	});
+
+	Object.defineProperty(Buffer.prototype, 'offset', {
+	  enumerable: true,
+	  get: function () {
+	    if (!Buffer.isBuffer(this)) return undefined
+	    return this.byteOffset
+	  }
+	});
+
+	function createBuffer (length) {
+	  if (length > K_MAX_LENGTH) {
+	    throw new RangeError('The value "' + length + '" is invalid for option "size"')
+	  }
+	  // Return an augmented `Uint8Array` instance
+	  const buf = new Uint8Array(length);
+	  Object.setPrototypeOf(buf, Buffer.prototype);
+	  return buf
+	}
+
+	/**
+	 * The Buffer constructor returns instances of `Uint8Array` that have their
+	 * prototype changed to `Buffer.prototype`. Furthermore, `Buffer` is a subclass of
+	 * `Uint8Array`, so the returned instances will have all the node `Buffer` methods
+	 * and the `Uint8Array` methods. Square bracket notation works as expected -- it
+	 * returns a single octet.
+	 *
+	 * The `Uint8Array` prototype remains unmodified.
+	 */
+
+	function Buffer (arg, encodingOrOffset, length) {
+	  // Common case.
+	  if (typeof arg === 'number') {
+	    if (typeof encodingOrOffset === 'string') {
+	      throw new TypeError(
+	        'The "string" argument must be of type string. Received type number'
+	      )
+	    }
+	    return allocUnsafe(arg)
+	  }
+	  return from(arg, encodingOrOffset, length)
+	}
+
+	Buffer.poolSize = 8192; // not used by this implementation
+
+	function from (value, encodingOrOffset, length) {
+	  if (typeof value === 'string') {
+	    return fromString(value, encodingOrOffset)
+	  }
+
+	  if (ArrayBuffer.isView(value)) {
+	    return fromArrayView(value)
+	  }
+
+	  if (value == null) {
+	    throw new TypeError(
+	      'The first argument must be one of type string, Buffer, ArrayBuffer, Array, ' +
+	      'or Array-like Object. Received type ' + (typeof value)
+	    )
+	  }
+
+	  if (isInstance(value, ArrayBuffer) ||
+	      (value && isInstance(value.buffer, ArrayBuffer))) {
+	    return fromArrayBuffer(value, encodingOrOffset, length)
+	  }
+
+	  if (typeof SharedArrayBuffer !== 'undefined' &&
+	      (isInstance(value, SharedArrayBuffer) ||
+	      (value && isInstance(value.buffer, SharedArrayBuffer)))) {
+	    return fromArrayBuffer(value, encodingOrOffset, length)
+	  }
+
+	  if (typeof value === 'number') {
+	    throw new TypeError(
+	      'The "value" argument must not be of type number. Received type number'
+	    )
+	  }
+
+	  const valueOf = value.valueOf && value.valueOf();
+	  if (valueOf != null && valueOf !== value) {
+	    return Buffer.from(valueOf, encodingOrOffset, length)
+	  }
+
+	  const b = fromObject(value);
+	  if (b) return b
+
+	  if (typeof Symbol !== 'undefined' && Symbol.toPrimitive != null &&
+	      typeof value[Symbol.toPrimitive] === 'function') {
+	    return Buffer.from(value[Symbol.toPrimitive]('string'), encodingOrOffset, length)
+	  }
+
+	  throw new TypeError(
+	    'The first argument must be one of type string, Buffer, ArrayBuffer, Array, ' +
+	    'or Array-like Object. Received type ' + (typeof value)
+	  )
+	}
+
+	/**
+	 * Functionally equivalent to Buffer(arg, encoding) but throws a TypeError
+	 * if value is a number.
+	 * Buffer.from(str[, encoding])
+	 * Buffer.from(array)
+	 * Buffer.from(buffer)
+	 * Buffer.from(arrayBuffer[, byteOffset[, length]])
+	 **/
+	Buffer.from = function (value, encodingOrOffset, length) {
+	  return from(value, encodingOrOffset, length)
+	};
+
+	// Note: Change prototype *after* Buffer.from is defined to workaround Chrome bug:
+	// https://github.com/feross/buffer/pull/148
+	Object.setPrototypeOf(Buffer.prototype, Uint8Array.prototype);
+	Object.setPrototypeOf(Buffer, Uint8Array);
+
+	function assertSize (size) {
+	  if (typeof size !== 'number') {
+	    throw new TypeError('"size" argument must be of type number')
+	  } else if (size < 0) {
+	    throw new RangeError('The value "' + size + '" is invalid for option "size"')
+	  }
+	}
+
+	function alloc (size, fill, encoding) {
+	  assertSize(size);
+	  if (size <= 0) {
+	    return createBuffer(size)
+	  }
+	  if (fill !== undefined) {
+	    // Only pay attention to encoding if it's a string. This
+	    // prevents accidentally sending in a number that would
+	    // be interpreted as a start offset.
+	    return typeof encoding === 'string'
+	      ? createBuffer(size).fill(fill, encoding)
+	      : createBuffer(size).fill(fill)
+	  }
+	  return createBuffer(size)
+	}
+
+	/**
+	 * Creates a new filled Buffer instance.
+	 * alloc(size[, fill[, encoding]])
+	 **/
+	Buffer.alloc = function (size, fill, encoding) {
+	  return alloc(size, fill, encoding)
+	};
+
+	function allocUnsafe (size) {
+	  assertSize(size);
+	  return createBuffer(size < 0 ? 0 : checked(size) | 0)
+	}
+
+	/**
+	 * Equivalent to Buffer(num), by default creates a non-zero-filled Buffer instance.
+	 * */
+	Buffer.allocUnsafe = function (size) {
+	  return allocUnsafe(size)
+	};
+	/**
+	 * Equivalent to SlowBuffer(num), by default creates a non-zero-filled Buffer instance.
+	 */
+	Buffer.allocUnsafeSlow = function (size) {
+	  return allocUnsafe(size)
+	};
+
+	function fromString (string, encoding) {
+	  if (typeof encoding !== 'string' || encoding === '') {
+	    encoding = 'utf8';
+	  }
+
+	  if (!Buffer.isEncoding(encoding)) {
+	    throw new TypeError('Unknown encoding: ' + encoding)
+	  }
+
+	  const length = byteLength(string, encoding) | 0;
+	  let buf = createBuffer(length);
+
+	  const actual = buf.write(string, encoding);
+
+	  if (actual !== length) {
+	    // Writing a hex string, for example, that contains invalid characters will
+	    // cause everything after the first invalid character to be ignored. (e.g.
+	    // 'abxxcd' will be treated as 'ab')
+	    buf = buf.slice(0, actual);
+	  }
+
+	  return buf
+	}
+
+	function fromArrayLike (array) {
+	  const length = array.length < 0 ? 0 : checked(array.length) | 0;
+	  const buf = createBuffer(length);
+	  for (let i = 0; i < length; i += 1) {
+	    buf[i] = array[i] & 255;
+	  }
+	  return buf
+	}
+
+	function fromArrayView (arrayView) {
+	  if (isInstance(arrayView, Uint8Array)) {
+	    const copy = new Uint8Array(arrayView);
+	    return fromArrayBuffer(copy.buffer, copy.byteOffset, copy.byteLength)
+	  }
+	  return fromArrayLike(arrayView)
+	}
+
+	function fromArrayBuffer (array, byteOffset, length) {
+	  if (byteOffset < 0 || array.byteLength < byteOffset) {
+	    throw new RangeError('"offset" is outside of buffer bounds')
+	  }
+
+	  if (array.byteLength < byteOffset + (length || 0)) {
+	    throw new RangeError('"length" is outside of buffer bounds')
+	  }
+
+	  let buf;
+	  if (byteOffset === undefined && length === undefined) {
+	    buf = new Uint8Array(array);
+	  } else if (length === undefined) {
+	    buf = new Uint8Array(array, byteOffset);
+	  } else {
+	    buf = new Uint8Array(array, byteOffset, length);
+	  }
+
+	  // Return an augmented `Uint8Array` instance
+	  Object.setPrototypeOf(buf, Buffer.prototype);
+
+	  return buf
+	}
+
+	function fromObject (obj) {
+	  if (Buffer.isBuffer(obj)) {
+	    const len = checked(obj.length) | 0;
+	    const buf = createBuffer(len);
+
+	    if (buf.length === 0) {
+	      return buf
+	    }
+
+	    obj.copy(buf, 0, 0, len);
+	    return buf
+	  }
+
+	  if (obj.length !== undefined) {
+	    if (typeof obj.length !== 'number' || numberIsNaN(obj.length)) {
+	      return createBuffer(0)
+	    }
+	    return fromArrayLike(obj)
+	  }
+
+	  if (obj.type === 'Buffer' && Array.isArray(obj.data)) {
+	    return fromArrayLike(obj.data)
+	  }
+	}
+
+	function checked (length) {
+	  // Note: cannot use `length < K_MAX_LENGTH` here because that fails when
+	  // length is NaN (which is otherwise coerced to zero.)
+	  if (length >= K_MAX_LENGTH) {
+	    throw new RangeError('Attempt to allocate Buffer larger than maximum ' +
+	                         'size: 0x' + K_MAX_LENGTH.toString(16) + ' bytes')
+	  }
+	  return length | 0
+	}
+
+	function SlowBuffer (length) {
+	  if (+length != length) { // eslint-disable-line eqeqeq
+	    length = 0;
+	  }
+	  return Buffer.alloc(+length)
+	}
+
+	Buffer.isBuffer = function isBuffer (b) {
+	  return b != null && b._isBuffer === true &&
+	    b !== Buffer.prototype // so Buffer.isBuffer(Buffer.prototype) will be false
+	};
+
+	Buffer.compare = function compare (a, b) {
+	  if (isInstance(a, Uint8Array)) a = Buffer.from(a, a.offset, a.byteLength);
+	  if (isInstance(b, Uint8Array)) b = Buffer.from(b, b.offset, b.byteLength);
+	  if (!Buffer.isBuffer(a) || !Buffer.isBuffer(b)) {
+	    throw new TypeError(
+	      'The "buf1", "buf2" arguments must be one of type Buffer or Uint8Array'
+	    )
+	  }
+
+	  if (a === b) return 0
+
+	  let x = a.length;
+	  let y = b.length;
+
+	  for (let i = 0, len = Math.min(x, y); i < len; ++i) {
+	    if (a[i] !== b[i]) {
+	      x = a[i];
+	      y = b[i];
+	      break
+	    }
+	  }
+
+	  if (x < y) return -1
+	  if (y < x) return 1
+	  return 0
+	};
+
+	Buffer.isEncoding = function isEncoding (encoding) {
+	  switch (String(encoding).toLowerCase()) {
+	    case 'hex':
+	    case 'utf8':
+	    case 'utf-8':
+	    case 'ascii':
+	    case 'latin1':
+	    case 'binary':
+	    case 'base64':
+	    case 'ucs2':
+	    case 'ucs-2':
+	    case 'utf16le':
+	    case 'utf-16le':
+	      return true
+	    default:
+	      return false
+	  }
+	};
+
+	Buffer.concat = function concat (list, length) {
+	  if (!Array.isArray(list)) {
+	    throw new TypeError('"list" argument must be an Array of Buffers')
+	  }
+
+	  if (list.length === 0) {
+	    return Buffer.alloc(0)
+	  }
+
+	  let i;
+	  if (length === undefined) {
+	    length = 0;
+	    for (i = 0; i < list.length; ++i) {
+	      length += list[i].length;
+	    }
+	  }
+
+	  const buffer = Buffer.allocUnsafe(length);
+	  let pos = 0;
+	  for (i = 0; i < list.length; ++i) {
+	    let buf = list[i];
+	    if (isInstance(buf, Uint8Array)) {
+	      if (pos + buf.length > buffer.length) {
+	        if (!Buffer.isBuffer(buf)) buf = Buffer.from(buf);
+	        buf.copy(buffer, pos);
+	      } else {
+	        Uint8Array.prototype.set.call(
+	          buffer,
+	          buf,
+	          pos
+	        );
+	      }
+	    } else if (!Buffer.isBuffer(buf)) {
+	      throw new TypeError('"list" argument must be an Array of Buffers')
+	    } else {
+	      buf.copy(buffer, pos);
+	    }
+	    pos += buf.length;
+	  }
+	  return buffer
+	};
+
+	function byteLength (string, encoding) {
+	  if (Buffer.isBuffer(string)) {
+	    return string.length
+	  }
+	  if (ArrayBuffer.isView(string) || isInstance(string, ArrayBuffer)) {
+	    return string.byteLength
+	  }
+	  if (typeof string !== 'string') {
+	    throw new TypeError(
+	      'The "string" argument must be one of type string, Buffer, or ArrayBuffer. ' +
+	      'Received type ' + typeof string
+	    )
+	  }
+
+	  const len = string.length;
+	  const mustMatch = (arguments.length > 2 && arguments[2] === true);
+	  if (!mustMatch && len === 0) return 0
+
+	  // Use a for loop to avoid recursion
+	  let loweredCase = false;
+	  for (;;) {
+	    switch (encoding) {
+	      case 'ascii':
+	      case 'latin1':
+	      case 'binary':
+	        return len
+	      case 'utf8':
+	      case 'utf-8':
+	        return utf8ToBytes(string).length
+	      case 'ucs2':
+	      case 'ucs-2':
+	      case 'utf16le':
+	      case 'utf-16le':
+	        return len * 2
+	      case 'hex':
+	        return len >>> 1
+	      case 'base64':
+	        return base64ToBytes(string).length
+	      default:
+	        if (loweredCase) {
+	          return mustMatch ? -1 : utf8ToBytes(string).length // assume utf8
+	        }
+	        encoding = ('' + encoding).toLowerCase();
+	        loweredCase = true;
+	    }
+	  }
+	}
+	Buffer.byteLength = byteLength;
+
+	function slowToString (encoding, start, end) {
+	  let loweredCase = false;
+
+	  // No need to verify that "this.length <= MAX_UINT32" since it's a read-only
+	  // property of a typed array.
+
+	  // This behaves neither like String nor Uint8Array in that we set start/end
+	  // to their upper/lower bounds if the value passed is out of range.
+	  // undefined is handled specially as per ECMA-262 6th Edition,
+	  // Section 13.3.3.7 Runtime Semantics: KeyedBindingInitialization.
+	  if (start === undefined || start < 0) {
+	    start = 0;
+	  }
+	  // Return early if start > this.length. Done here to prevent potential uint32
+	  // coercion fail below.
+	  if (start > this.length) {
+	    return ''
+	  }
+
+	  if (end === undefined || end > this.length) {
+	    end = this.length;
+	  }
+
+	  if (end <= 0) {
+	    return ''
+	  }
+
+	  // Force coercion to uint32. This will also coerce falsey/NaN values to 0.
+	  end >>>= 0;
+	  start >>>= 0;
+
+	  if (end <= start) {
+	    return ''
+	  }
+
+	  if (!encoding) encoding = 'utf8';
+
+	  while (true) {
+	    switch (encoding) {
+	      case 'hex':
+	        return hexSlice(this, start, end)
+
+	      case 'utf8':
+	      case 'utf-8':
+	        return utf8Slice(this, start, end)
+
+	      case 'ascii':
+	        return asciiSlice(this, start, end)
+
+	      case 'latin1':
+	      case 'binary':
+	        return latin1Slice(this, start, end)
+
+	      case 'base64':
+	        return base64Slice(this, start, end)
+
+	      case 'ucs2':
+	      case 'ucs-2':
+	      case 'utf16le':
+	      case 'utf-16le':
+	        return utf16leSlice(this, start, end)
+
+	      default:
+	        if (loweredCase) throw new TypeError('Unknown encoding: ' + encoding)
+	        encoding = (encoding + '').toLowerCase();
+	        loweredCase = true;
+	    }
+	  }
+	}
+
+	// This property is used by `Buffer.isBuffer` (and the `is-buffer` npm package)
+	// to detect a Buffer instance. It's not possible to use `instanceof Buffer`
+	// reliably in a browserify context because there could be multiple different
+	// copies of the 'buffer' package in use. This method works even for Buffer
+	// instances that were created from another copy of the `buffer` package.
+	// See: https://github.com/feross/buffer/issues/154
+	Buffer.prototype._isBuffer = true;
+
+	function swap (b, n, m) {
+	  const i = b[n];
+	  b[n] = b[m];
+	  b[m] = i;
+	}
+
+	Buffer.prototype.swap16 = function swap16 () {
+	  const len = this.length;
+	  if (len % 2 !== 0) {
+	    throw new RangeError('Buffer size must be a multiple of 16-bits')
+	  }
+	  for (let i = 0; i < len; i += 2) {
+	    swap(this, i, i + 1);
+	  }
+	  return this
+	};
+
+	Buffer.prototype.swap32 = function swap32 () {
+	  const len = this.length;
+	  if (len % 4 !== 0) {
+	    throw new RangeError('Buffer size must be a multiple of 32-bits')
+	  }
+	  for (let i = 0; i < len; i += 4) {
+	    swap(this, i, i + 3);
+	    swap(this, i + 1, i + 2);
+	  }
+	  return this
+	};
+
+	Buffer.prototype.swap64 = function swap64 () {
+	  const len = this.length;
+	  if (len % 8 !== 0) {
+	    throw new RangeError('Buffer size must be a multiple of 64-bits')
+	  }
+	  for (let i = 0; i < len; i += 8) {
+	    swap(this, i, i + 7);
+	    swap(this, i + 1, i + 6);
+	    swap(this, i + 2, i + 5);
+	    swap(this, i + 3, i + 4);
+	  }
+	  return this
+	};
+
+	Buffer.prototype.toString = function toString () {
+	  const length = this.length;
+	  if (length === 0) return ''
+	  if (arguments.length === 0) return utf8Slice(this, 0, length)
+	  return slowToString.apply(this, arguments)
+	};
+
+	Buffer.prototype.toLocaleString = Buffer.prototype.toString;
+
+	Buffer.prototype.equals = function equals (b) {
+	  if (!Buffer.isBuffer(b)) throw new TypeError('Argument must be a Buffer')
+	  if (this === b) return true
+	  return Buffer.compare(this, b) === 0
+	};
+
+	Buffer.prototype.inspect = function inspect () {
+	  let str = '';
+	  const max = exports.INSPECT_MAX_BYTES;
+	  str = this.toString('hex', 0, max).replace(/(.{2})/g, '$1 ').trim();
+	  if (this.length > max) str += ' ... ';
+	  return '<Buffer ' + str + '>'
+	};
+	if (customInspectSymbol) {
+	  Buffer.prototype[customInspectSymbol] = Buffer.prototype.inspect;
+	}
+
+	Buffer.prototype.compare = function compare (target, start, end, thisStart, thisEnd) {
+	  if (isInstance(target, Uint8Array)) {
+	    target = Buffer.from(target, target.offset, target.byteLength);
+	  }
+	  if (!Buffer.isBuffer(target)) {
+	    throw new TypeError(
+	      'The "target" argument must be one of type Buffer or Uint8Array. ' +
+	      'Received type ' + (typeof target)
+	    )
+	  }
+
+	  if (start === undefined) {
+	    start = 0;
+	  }
+	  if (end === undefined) {
+	    end = target ? target.length : 0;
+	  }
+	  if (thisStart === undefined) {
+	    thisStart = 0;
+	  }
+	  if (thisEnd === undefined) {
+	    thisEnd = this.length;
+	  }
+
+	  if (start < 0 || end > target.length || thisStart < 0 || thisEnd > this.length) {
+	    throw new RangeError('out of range index')
+	  }
+
+	  if (thisStart >= thisEnd && start >= end) {
+	    return 0
+	  }
+	  if (thisStart >= thisEnd) {
+	    return -1
+	  }
+	  if (start >= end) {
+	    return 1
+	  }
+
+	  start >>>= 0;
+	  end >>>= 0;
+	  thisStart >>>= 0;
+	  thisEnd >>>= 0;
+
+	  if (this === target) return 0
+
+	  let x = thisEnd - thisStart;
+	  let y = end - start;
+	  const len = Math.min(x, y);
+
+	  const thisCopy = this.slice(thisStart, thisEnd);
+	  const targetCopy = target.slice(start, end);
+
+	  for (let i = 0; i < len; ++i) {
+	    if (thisCopy[i] !== targetCopy[i]) {
+	      x = thisCopy[i];
+	      y = targetCopy[i];
+	      break
+	    }
+	  }
+
+	  if (x < y) return -1
+	  if (y < x) return 1
+	  return 0
+	};
+
+	// Finds either the first index of `val` in `buffer` at offset >= `byteOffset`,
+	// OR the last index of `val` in `buffer` at offset <= `byteOffset`.
+	//
+	// Arguments:
+	// - buffer - a Buffer to search
+	// - val - a string, Buffer, or number
+	// - byteOffset - an index into `buffer`; will be clamped to an int32
+	// - encoding - an optional encoding, relevant is val is a string
+	// - dir - true for indexOf, false for lastIndexOf
+	function bidirectionalIndexOf (buffer, val, byteOffset, encoding, dir) {
+	  // Empty buffer means no match
+	  if (buffer.length === 0) return -1
+
+	  // Normalize byteOffset
+	  if (typeof byteOffset === 'string') {
+	    encoding = byteOffset;
+	    byteOffset = 0;
+	  } else if (byteOffset > 0x7fffffff) {
+	    byteOffset = 0x7fffffff;
+	  } else if (byteOffset < -0x80000000) {
+	    byteOffset = -0x80000000;
+	  }
+	  byteOffset = +byteOffset; // Coerce to Number.
+	  if (numberIsNaN(byteOffset)) {
+	    // byteOffset: it it's undefined, null, NaN, "foo", etc, search whole buffer
+	    byteOffset = dir ? 0 : (buffer.length - 1);
+	  }
+
+	  // Normalize byteOffset: negative offsets start from the end of the buffer
+	  if (byteOffset < 0) byteOffset = buffer.length + byteOffset;
+	  if (byteOffset >= buffer.length) {
+	    if (dir) return -1
+	    else byteOffset = buffer.length - 1;
+	  } else if (byteOffset < 0) {
+	    if (dir) byteOffset = 0;
+	    else return -1
+	  }
+
+	  // Normalize val
+	  if (typeof val === 'string') {
+	    val = Buffer.from(val, encoding);
+	  }
+
+	  // Finally, search either indexOf (if dir is true) or lastIndexOf
+	  if (Buffer.isBuffer(val)) {
+	    // Special case: looking for empty string/buffer always fails
+	    if (val.length === 0) {
+	      return -1
+	    }
+	    return arrayIndexOf(buffer, val, byteOffset, encoding, dir)
+	  } else if (typeof val === 'number') {
+	    val = val & 0xFF; // Search for a byte value [0-255]
+	    if (typeof Uint8Array.prototype.indexOf === 'function') {
+	      if (dir) {
+	        return Uint8Array.prototype.indexOf.call(buffer, val, byteOffset)
+	      } else {
+	        return Uint8Array.prototype.lastIndexOf.call(buffer, val, byteOffset)
+	      }
+	    }
+	    return arrayIndexOf(buffer, [val], byteOffset, encoding, dir)
+	  }
+
+	  throw new TypeError('val must be string, number or Buffer')
+	}
+
+	function arrayIndexOf (arr, val, byteOffset, encoding, dir) {
+	  let indexSize = 1;
+	  let arrLength = arr.length;
+	  let valLength = val.length;
+
+	  if (encoding !== undefined) {
+	    encoding = String(encoding).toLowerCase();
+	    if (encoding === 'ucs2' || encoding === 'ucs-2' ||
+	        encoding === 'utf16le' || encoding === 'utf-16le') {
+	      if (arr.length < 2 || val.length < 2) {
+	        return -1
+	      }
+	      indexSize = 2;
+	      arrLength /= 2;
+	      valLength /= 2;
+	      byteOffset /= 2;
+	    }
+	  }
+
+	  function read (buf, i) {
+	    if (indexSize === 1) {
+	      return buf[i]
+	    } else {
+	      return buf.readUInt16BE(i * indexSize)
+	    }
+	  }
+
+	  let i;
+	  if (dir) {
+	    let foundIndex = -1;
+	    for (i = byteOffset; i < arrLength; i++) {
+	      if (read(arr, i) === read(val, foundIndex === -1 ? 0 : i - foundIndex)) {
+	        if (foundIndex === -1) foundIndex = i;
+	        if (i - foundIndex + 1 === valLength) return foundIndex * indexSize
+	      } else {
+	        if (foundIndex !== -1) i -= i - foundIndex;
+	        foundIndex = -1;
+	      }
+	    }
+	  } else {
+	    if (byteOffset + valLength > arrLength) byteOffset = arrLength - valLength;
+	    for (i = byteOffset; i >= 0; i--) {
+	      let found = true;
+	      for (let j = 0; j < valLength; j++) {
+	        if (read(arr, i + j) !== read(val, j)) {
+	          found = false;
+	          break
+	        }
+	      }
+	      if (found) return i
+	    }
+	  }
+
+	  return -1
+	}
+
+	Buffer.prototype.includes = function includes (val, byteOffset, encoding) {
+	  return this.indexOf(val, byteOffset, encoding) !== -1
+	};
+
+	Buffer.prototype.indexOf = function indexOf (val, byteOffset, encoding) {
+	  return bidirectionalIndexOf(this, val, byteOffset, encoding, true)
+	};
+
+	Buffer.prototype.lastIndexOf = function lastIndexOf (val, byteOffset, encoding) {
+	  return bidirectionalIndexOf(this, val, byteOffset, encoding, false)
+	};
+
+	function hexWrite (buf, string, offset, length) {
+	  offset = Number(offset) || 0;
+	  const remaining = buf.length - offset;
+	  if (!length) {
+	    length = remaining;
+	  } else {
+	    length = Number(length);
+	    if (length > remaining) {
+	      length = remaining;
+	    }
+	  }
+
+	  const strLen = string.length;
+
+	  if (length > strLen / 2) {
+	    length = strLen / 2;
+	  }
+	  let i;
+	  for (i = 0; i < length; ++i) {
+	    const parsed = parseInt(string.substr(i * 2, 2), 16);
+	    if (numberIsNaN(parsed)) return i
+	    buf[offset + i] = parsed;
+	  }
+	  return i
+	}
+
+	function utf8Write (buf, string, offset, length) {
+	  return blitBuffer(utf8ToBytes(string, buf.length - offset), buf, offset, length)
+	}
+
+	function asciiWrite (buf, string, offset, length) {
+	  return blitBuffer(asciiToBytes(string), buf, offset, length)
+	}
+
+	function base64Write (buf, string, offset, length) {
+	  return blitBuffer(base64ToBytes(string), buf, offset, length)
+	}
+
+	function ucs2Write (buf, string, offset, length) {
+	  return blitBuffer(utf16leToBytes(string, buf.length - offset), buf, offset, length)
+	}
+
+	Buffer.prototype.write = function write (string, offset, length, encoding) {
+	  // Buffer#write(string)
+	  if (offset === undefined) {
+	    encoding = 'utf8';
+	    length = this.length;
+	    offset = 0;
+	  // Buffer#write(string, encoding)
+	  } else if (length === undefined && typeof offset === 'string') {
+	    encoding = offset;
+	    length = this.length;
+	    offset = 0;
+	  // Buffer#write(string, offset[, length][, encoding])
+	  } else if (isFinite(offset)) {
+	    offset = offset >>> 0;
+	    if (isFinite(length)) {
+	      length = length >>> 0;
+	      if (encoding === undefined) encoding = 'utf8';
+	    } else {
+	      encoding = length;
+	      length = undefined;
+	    }
+	  } else {
+	    throw new Error(
+	      'Buffer.write(string, encoding, offset[, length]) is no longer supported'
+	    )
+	  }
+
+	  const remaining = this.length - offset;
+	  if (length === undefined || length > remaining) length = remaining;
+
+	  if ((string.length > 0 && (length < 0 || offset < 0)) || offset > this.length) {
+	    throw new RangeError('Attempt to write outside buffer bounds')
+	  }
+
+	  if (!encoding) encoding = 'utf8';
+
+	  let loweredCase = false;
+	  for (;;) {
+	    switch (encoding) {
+	      case 'hex':
+	        return hexWrite(this, string, offset, length)
+
+	      case 'utf8':
+	      case 'utf-8':
+	        return utf8Write(this, string, offset, length)
+
+	      case 'ascii':
+	      case 'latin1':
+	      case 'binary':
+	        return asciiWrite(this, string, offset, length)
+
+	      case 'base64':
+	        // Warning: maxLength not taken into account in base64Write
+	        return base64Write(this, string, offset, length)
+
+	      case 'ucs2':
+	      case 'ucs-2':
+	      case 'utf16le':
+	      case 'utf-16le':
+	        return ucs2Write(this, string, offset, length)
+
+	      default:
+	        if (loweredCase) throw new TypeError('Unknown encoding: ' + encoding)
+	        encoding = ('' + encoding).toLowerCase();
+	        loweredCase = true;
+	    }
+	  }
+	};
+
+	Buffer.prototype.toJSON = function toJSON () {
+	  return {
+	    type: 'Buffer',
+	    data: Array.prototype.slice.call(this._arr || this, 0)
+	  }
+	};
+
+	function base64Slice (buf, start, end) {
+	  if (start === 0 && end === buf.length) {
+	    return base64.fromByteArray(buf)
+	  } else {
+	    return base64.fromByteArray(buf.slice(start, end))
+	  }
+	}
+
+	function utf8Slice (buf, start, end) {
+	  end = Math.min(buf.length, end);
+	  const res = [];
+
+	  let i = start;
+	  while (i < end) {
+	    const firstByte = buf[i];
+	    let codePoint = null;
+	    let bytesPerSequence = (firstByte > 0xEF)
+	      ? 4
+	      : (firstByte > 0xDF)
+	          ? 3
+	          : (firstByte > 0xBF)
+	              ? 2
+	              : 1;
+
+	    if (i + bytesPerSequence <= end) {
+	      let secondByte, thirdByte, fourthByte, tempCodePoint;
+
+	      switch (bytesPerSequence) {
+	        case 1:
+	          if (firstByte < 0x80) {
+	            codePoint = firstByte;
+	          }
+	          break
+	        case 2:
+	          secondByte = buf[i + 1];
+	          if ((secondByte & 0xC0) === 0x80) {
+	            tempCodePoint = (firstByte & 0x1F) << 0x6 | (secondByte & 0x3F);
+	            if (tempCodePoint > 0x7F) {
+	              codePoint = tempCodePoint;
+	            }
+	          }
+	          break
+	        case 3:
+	          secondByte = buf[i + 1];
+	          thirdByte = buf[i + 2];
+	          if ((secondByte & 0xC0) === 0x80 && (thirdByte & 0xC0) === 0x80) {
+	            tempCodePoint = (firstByte & 0xF) << 0xC | (secondByte & 0x3F) << 0x6 | (thirdByte & 0x3F);
+	            if (tempCodePoint > 0x7FF && (tempCodePoint < 0xD800 || tempCodePoint > 0xDFFF)) {
+	              codePoint = tempCodePoint;
+	            }
+	          }
+	          break
+	        case 4:
+	          secondByte = buf[i + 1];
+	          thirdByte = buf[i + 2];
+	          fourthByte = buf[i + 3];
+	          if ((secondByte & 0xC0) === 0x80 && (thirdByte & 0xC0) === 0x80 && (fourthByte & 0xC0) === 0x80) {
+	            tempCodePoint = (firstByte & 0xF) << 0x12 | (secondByte & 0x3F) << 0xC | (thirdByte & 0x3F) << 0x6 | (fourthByte & 0x3F);
+	            if (tempCodePoint > 0xFFFF && tempCodePoint < 0x110000) {
+	              codePoint = tempCodePoint;
+	            }
+	          }
+	      }
+	    }
+
+	    if (codePoint === null) {
+	      // we did not generate a valid codePoint so insert a
+	      // replacement char (U+FFFD) and advance only 1 byte
+	      codePoint = 0xFFFD;
+	      bytesPerSequence = 1;
+	    } else if (codePoint > 0xFFFF) {
+	      // encode to utf16 (surrogate pair dance)
+	      codePoint -= 0x10000;
+	      res.push(codePoint >>> 10 & 0x3FF | 0xD800);
+	      codePoint = 0xDC00 | codePoint & 0x3FF;
+	    }
+
+	    res.push(codePoint);
+	    i += bytesPerSequence;
+	  }
+
+	  return decodeCodePointsArray(res)
+	}
+
+	// Based on http://stackoverflow.com/a/22747272/680742, the browser with
+	// the lowest limit is Chrome, with 0x10000 args.
+	// We go 1 magnitude less, for safety
+	const MAX_ARGUMENTS_LENGTH = 0x1000;
+
+	function decodeCodePointsArray (codePoints) {
+	  const len = codePoints.length;
+	  if (len <= MAX_ARGUMENTS_LENGTH) {
+	    return String.fromCharCode.apply(String, codePoints) // avoid extra slice()
+	  }
+
+	  // Decode in chunks to avoid "call stack size exceeded".
+	  let res = '';
+	  let i = 0;
+	  while (i < len) {
+	    res += String.fromCharCode.apply(
+	      String,
+	      codePoints.slice(i, i += MAX_ARGUMENTS_LENGTH)
+	    );
+	  }
+	  return res
+	}
+
+	function asciiSlice (buf, start, end) {
+	  let ret = '';
+	  end = Math.min(buf.length, end);
+
+	  for (let i = start; i < end; ++i) {
+	    ret += String.fromCharCode(buf[i] & 0x7F);
+	  }
+	  return ret
+	}
+
+	function latin1Slice (buf, start, end) {
+	  let ret = '';
+	  end = Math.min(buf.length, end);
+
+	  for (let i = start; i < end; ++i) {
+	    ret += String.fromCharCode(buf[i]);
+	  }
+	  return ret
+	}
+
+	function hexSlice (buf, start, end) {
+	  const len = buf.length;
+
+	  if (!start || start < 0) start = 0;
+	  if (!end || end < 0 || end > len) end = len;
+
+	  let out = '';
+	  for (let i = start; i < end; ++i) {
+	    out += hexSliceLookupTable[buf[i]];
+	  }
+	  return out
+	}
+
+	function utf16leSlice (buf, start, end) {
+	  const bytes = buf.slice(start, end);
+	  let res = '';
+	  // If bytes.length is odd, the last 8 bits must be ignored (same as node.js)
+	  for (let i = 0; i < bytes.length - 1; i += 2) {
+	    res += String.fromCharCode(bytes[i] + (bytes[i + 1] * 256));
+	  }
+	  return res
+	}
+
+	Buffer.prototype.slice = function slice (start, end) {
+	  const len = this.length;
+	  start = ~~start;
+	  end = end === undefined ? len : ~~end;
+
+	  if (start < 0) {
+	    start += len;
+	    if (start < 0) start = 0;
+	  } else if (start > len) {
+	    start = len;
+	  }
+
+	  if (end < 0) {
+	    end += len;
+	    if (end < 0) end = 0;
+	  } else if (end > len) {
+	    end = len;
+	  }
+
+	  if (end < start) end = start;
+
+	  const newBuf = this.subarray(start, end);
+	  // Return an augmented `Uint8Array` instance
+	  Object.setPrototypeOf(newBuf, Buffer.prototype);
+
+	  return newBuf
+	};
+
+	/*
+	 * Need to make sure that buffer isn't trying to write out of bounds.
+	 */
+	function checkOffset (offset, ext, length) {
+	  if ((offset % 1) !== 0 || offset < 0) throw new RangeError('offset is not uint')
+	  if (offset + ext > length) throw new RangeError('Trying to access beyond buffer length')
+	}
+
+	Buffer.prototype.readUintLE =
+	Buffer.prototype.readUIntLE = function readUIntLE (offset, byteLength, noAssert) {
+	  offset = offset >>> 0;
+	  byteLength = byteLength >>> 0;
+	  if (!noAssert) checkOffset(offset, byteLength, this.length);
+
+	  let val = this[offset];
+	  let mul = 1;
+	  let i = 0;
+	  while (++i < byteLength && (mul *= 0x100)) {
+	    val += this[offset + i] * mul;
+	  }
+
+	  return val
+	};
+
+	Buffer.prototype.readUintBE =
+	Buffer.prototype.readUIntBE = function readUIntBE (offset, byteLength, noAssert) {
+	  offset = offset >>> 0;
+	  byteLength = byteLength >>> 0;
+	  if (!noAssert) {
+	    checkOffset(offset, byteLength, this.length);
+	  }
+
+	  let val = this[offset + --byteLength];
+	  let mul = 1;
+	  while (byteLength > 0 && (mul *= 0x100)) {
+	    val += this[offset + --byteLength] * mul;
+	  }
+
+	  return val
+	};
+
+	Buffer.prototype.readUint8 =
+	Buffer.prototype.readUInt8 = function readUInt8 (offset, noAssert) {
+	  offset = offset >>> 0;
+	  if (!noAssert) checkOffset(offset, 1, this.length);
+	  return this[offset]
+	};
+
+	Buffer.prototype.readUint16LE =
+	Buffer.prototype.readUInt16LE = function readUInt16LE (offset, noAssert) {
+	  offset = offset >>> 0;
+	  if (!noAssert) checkOffset(offset, 2, this.length);
+	  return this[offset] | (this[offset + 1] << 8)
+	};
+
+	Buffer.prototype.readUint16BE =
+	Buffer.prototype.readUInt16BE = function readUInt16BE (offset, noAssert) {
+	  offset = offset >>> 0;
+	  if (!noAssert) checkOffset(offset, 2, this.length);
+	  return (this[offset] << 8) | this[offset + 1]
+	};
+
+	Buffer.prototype.readUint32LE =
+	Buffer.prototype.readUInt32LE = function readUInt32LE (offset, noAssert) {
+	  offset = offset >>> 0;
+	  if (!noAssert) checkOffset(offset, 4, this.length);
+
+	  return ((this[offset]) |
+	      (this[offset + 1] << 8) |
+	      (this[offset + 2] << 16)) +
+	      (this[offset + 3] * 0x1000000)
+	};
+
+	Buffer.prototype.readUint32BE =
+	Buffer.prototype.readUInt32BE = function readUInt32BE (offset, noAssert) {
+	  offset = offset >>> 0;
+	  if (!noAssert) checkOffset(offset, 4, this.length);
+
+	  return (this[offset] * 0x1000000) +
+	    ((this[offset + 1] << 16) |
+	    (this[offset + 2] << 8) |
+	    this[offset + 3])
+	};
+
+	Buffer.prototype.readBigUInt64LE = defineBigIntMethod(function readBigUInt64LE (offset) {
+	  offset = offset >>> 0;
+	  validateNumber(offset, 'offset');
+	  const first = this[offset];
+	  const last = this[offset + 7];
+	  if (first === undefined || last === undefined) {
+	    boundsError(offset, this.length - 8);
+	  }
+
+	  const lo = first +
+	    this[++offset] * 2 ** 8 +
+	    this[++offset] * 2 ** 16 +
+	    this[++offset] * 2 ** 24;
+
+	  const hi = this[++offset] +
+	    this[++offset] * 2 ** 8 +
+	    this[++offset] * 2 ** 16 +
+	    last * 2 ** 24;
+
+	  return BigInt(lo) + (BigInt(hi) << BigInt(32))
+	});
+
+	Buffer.prototype.readBigUInt64BE = defineBigIntMethod(function readBigUInt64BE (offset) {
+	  offset = offset >>> 0;
+	  validateNumber(offset, 'offset');
+	  const first = this[offset];
+	  const last = this[offset + 7];
+	  if (first === undefined || last === undefined) {
+	    boundsError(offset, this.length - 8);
+	  }
+
+	  const hi = first * 2 ** 24 +
+	    this[++offset] * 2 ** 16 +
+	    this[++offset] * 2 ** 8 +
+	    this[++offset];
+
+	  const lo = this[++offset] * 2 ** 24 +
+	    this[++offset] * 2 ** 16 +
+	    this[++offset] * 2 ** 8 +
+	    last;
+
+	  return (BigInt(hi) << BigInt(32)) + BigInt(lo)
+	});
+
+	Buffer.prototype.readIntLE = function readIntLE (offset, byteLength, noAssert) {
+	  offset = offset >>> 0;
+	  byteLength = byteLength >>> 0;
+	  if (!noAssert) checkOffset(offset, byteLength, this.length);
+
+	  let val = this[offset];
+	  let mul = 1;
+	  let i = 0;
+	  while (++i < byteLength && (mul *= 0x100)) {
+	    val += this[offset + i] * mul;
+	  }
+	  mul *= 0x80;
+
+	  if (val >= mul) val -= Math.pow(2, 8 * byteLength);
+
+	  return val
+	};
+
+	Buffer.prototype.readIntBE = function readIntBE (offset, byteLength, noAssert) {
+	  offset = offset >>> 0;
+	  byteLength = byteLength >>> 0;
+	  if (!noAssert) checkOffset(offset, byteLength, this.length);
+
+	  let i = byteLength;
+	  let mul = 1;
+	  let val = this[offset + --i];
+	  while (i > 0 && (mul *= 0x100)) {
+	    val += this[offset + --i] * mul;
+	  }
+	  mul *= 0x80;
+
+	  if (val >= mul) val -= Math.pow(2, 8 * byteLength);
+
+	  return val
+	};
+
+	Buffer.prototype.readInt8 = function readInt8 (offset, noAssert) {
+	  offset = offset >>> 0;
+	  if (!noAssert) checkOffset(offset, 1, this.length);
+	  if (!(this[offset] & 0x80)) return (this[offset])
+	  return ((0xff - this[offset] + 1) * -1)
+	};
+
+	Buffer.prototype.readInt16LE = function readInt16LE (offset, noAssert) {
+	  offset = offset >>> 0;
+	  if (!noAssert) checkOffset(offset, 2, this.length);
+	  const val = this[offset] | (this[offset + 1] << 8);
+	  return (val & 0x8000) ? val | 0xFFFF0000 : val
+	};
+
+	Buffer.prototype.readInt16BE = function readInt16BE (offset, noAssert) {
+	  offset = offset >>> 0;
+	  if (!noAssert) checkOffset(offset, 2, this.length);
+	  const val = this[offset + 1] | (this[offset] << 8);
+	  return (val & 0x8000) ? val | 0xFFFF0000 : val
+	};
+
+	Buffer.prototype.readInt32LE = function readInt32LE (offset, noAssert) {
+	  offset = offset >>> 0;
+	  if (!noAssert) checkOffset(offset, 4, this.length);
+
+	  return (this[offset]) |
+	    (this[offset + 1] << 8) |
+	    (this[offset + 2] << 16) |
+	    (this[offset + 3] << 24)
+	};
+
+	Buffer.prototype.readInt32BE = function readInt32BE (offset, noAssert) {
+	  offset = offset >>> 0;
+	  if (!noAssert) checkOffset(offset, 4, this.length);
+
+	  return (this[offset] << 24) |
+	    (this[offset + 1] << 16) |
+	    (this[offset + 2] << 8) |
+	    (this[offset + 3])
+	};
+
+	Buffer.prototype.readBigInt64LE = defineBigIntMethod(function readBigInt64LE (offset) {
+	  offset = offset >>> 0;
+	  validateNumber(offset, 'offset');
+	  const first = this[offset];
+	  const last = this[offset + 7];
+	  if (first === undefined || last === undefined) {
+	    boundsError(offset, this.length - 8);
+	  }
+
+	  const val = this[offset + 4] +
+	    this[offset + 5] * 2 ** 8 +
+	    this[offset + 6] * 2 ** 16 +
+	    (last << 24); // Overflow
+
+	  return (BigInt(val) << BigInt(32)) +
+	    BigInt(first +
+	    this[++offset] * 2 ** 8 +
+	    this[++offset] * 2 ** 16 +
+	    this[++offset] * 2 ** 24)
+	});
+
+	Buffer.prototype.readBigInt64BE = defineBigIntMethod(function readBigInt64BE (offset) {
+	  offset = offset >>> 0;
+	  validateNumber(offset, 'offset');
+	  const first = this[offset];
+	  const last = this[offset + 7];
+	  if (first === undefined || last === undefined) {
+	    boundsError(offset, this.length - 8);
+	  }
+
+	  const val = (first << 24) + // Overflow
+	    this[++offset] * 2 ** 16 +
+	    this[++offset] * 2 ** 8 +
+	    this[++offset];
+
+	  return (BigInt(val) << BigInt(32)) +
+	    BigInt(this[++offset] * 2 ** 24 +
+	    this[++offset] * 2 ** 16 +
+	    this[++offset] * 2 ** 8 +
+	    last)
+	});
+
+	Buffer.prototype.readFloatLE = function readFloatLE (offset, noAssert) {
+	  offset = offset >>> 0;
+	  if (!noAssert) checkOffset(offset, 4, this.length);
+	  return ieee754$1.read(this, offset, true, 23, 4)
+	};
+
+	Buffer.prototype.readFloatBE = function readFloatBE (offset, noAssert) {
+	  offset = offset >>> 0;
+	  if (!noAssert) checkOffset(offset, 4, this.length);
+	  return ieee754$1.read(this, offset, false, 23, 4)
+	};
+
+	Buffer.prototype.readDoubleLE = function readDoubleLE (offset, noAssert) {
+	  offset = offset >>> 0;
+	  if (!noAssert) checkOffset(offset, 8, this.length);
+	  return ieee754$1.read(this, offset, true, 52, 8)
+	};
+
+	Buffer.prototype.readDoubleBE = function readDoubleBE (offset, noAssert) {
+	  offset = offset >>> 0;
+	  if (!noAssert) checkOffset(offset, 8, this.length);
+	  return ieee754$1.read(this, offset, false, 52, 8)
+	};
+
+	function checkInt (buf, value, offset, ext, max, min) {
+	  if (!Buffer.isBuffer(buf)) throw new TypeError('"buffer" argument must be a Buffer instance')
+	  if (value > max || value < min) throw new RangeError('"value" argument is out of bounds')
+	  if (offset + ext > buf.length) throw new RangeError('Index out of range')
+	}
+
+	Buffer.prototype.writeUintLE =
+	Buffer.prototype.writeUIntLE = function writeUIntLE (value, offset, byteLength, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  byteLength = byteLength >>> 0;
+	  if (!noAssert) {
+	    const maxBytes = Math.pow(2, 8 * byteLength) - 1;
+	    checkInt(this, value, offset, byteLength, maxBytes, 0);
+	  }
+
+	  let mul = 1;
+	  let i = 0;
+	  this[offset] = value & 0xFF;
+	  while (++i < byteLength && (mul *= 0x100)) {
+	    this[offset + i] = (value / mul) & 0xFF;
+	  }
+
+	  return offset + byteLength
+	};
+
+	Buffer.prototype.writeUintBE =
+	Buffer.prototype.writeUIntBE = function writeUIntBE (value, offset, byteLength, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  byteLength = byteLength >>> 0;
+	  if (!noAssert) {
+	    const maxBytes = Math.pow(2, 8 * byteLength) - 1;
+	    checkInt(this, value, offset, byteLength, maxBytes, 0);
+	  }
+
+	  let i = byteLength - 1;
+	  let mul = 1;
+	  this[offset + i] = value & 0xFF;
+	  while (--i >= 0 && (mul *= 0x100)) {
+	    this[offset + i] = (value / mul) & 0xFF;
+	  }
+
+	  return offset + byteLength
+	};
+
+	Buffer.prototype.writeUint8 =
+	Buffer.prototype.writeUInt8 = function writeUInt8 (value, offset, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  if (!noAssert) checkInt(this, value, offset, 1, 0xff, 0);
+	  this[offset] = (value & 0xff);
+	  return offset + 1
+	};
+
+	Buffer.prototype.writeUint16LE =
+	Buffer.prototype.writeUInt16LE = function writeUInt16LE (value, offset, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  if (!noAssert) checkInt(this, value, offset, 2, 0xffff, 0);
+	  this[offset] = (value & 0xff);
+	  this[offset + 1] = (value >>> 8);
+	  return offset + 2
+	};
+
+	Buffer.prototype.writeUint16BE =
+	Buffer.prototype.writeUInt16BE = function writeUInt16BE (value, offset, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  if (!noAssert) checkInt(this, value, offset, 2, 0xffff, 0);
+	  this[offset] = (value >>> 8);
+	  this[offset + 1] = (value & 0xff);
+	  return offset + 2
+	};
+
+	Buffer.prototype.writeUint32LE =
+	Buffer.prototype.writeUInt32LE = function writeUInt32LE (value, offset, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  if (!noAssert) checkInt(this, value, offset, 4, 0xffffffff, 0);
+	  this[offset + 3] = (value >>> 24);
+	  this[offset + 2] = (value >>> 16);
+	  this[offset + 1] = (value >>> 8);
+	  this[offset] = (value & 0xff);
+	  return offset + 4
+	};
+
+	Buffer.prototype.writeUint32BE =
+	Buffer.prototype.writeUInt32BE = function writeUInt32BE (value, offset, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  if (!noAssert) checkInt(this, value, offset, 4, 0xffffffff, 0);
+	  this[offset] = (value >>> 24);
+	  this[offset + 1] = (value >>> 16);
+	  this[offset + 2] = (value >>> 8);
+	  this[offset + 3] = (value & 0xff);
+	  return offset + 4
+	};
+
+	function wrtBigUInt64LE (buf, value, offset, min, max) {
+	  checkIntBI(value, min, max, buf, offset, 7);
+
+	  let lo = Number(value & BigInt(0xffffffff));
+	  buf[offset++] = lo;
+	  lo = lo >> 8;
+	  buf[offset++] = lo;
+	  lo = lo >> 8;
+	  buf[offset++] = lo;
+	  lo = lo >> 8;
+	  buf[offset++] = lo;
+	  let hi = Number(value >> BigInt(32) & BigInt(0xffffffff));
+	  buf[offset++] = hi;
+	  hi = hi >> 8;
+	  buf[offset++] = hi;
+	  hi = hi >> 8;
+	  buf[offset++] = hi;
+	  hi = hi >> 8;
+	  buf[offset++] = hi;
+	  return offset
+	}
+
+	function wrtBigUInt64BE (buf, value, offset, min, max) {
+	  checkIntBI(value, min, max, buf, offset, 7);
+
+	  let lo = Number(value & BigInt(0xffffffff));
+	  buf[offset + 7] = lo;
+	  lo = lo >> 8;
+	  buf[offset + 6] = lo;
+	  lo = lo >> 8;
+	  buf[offset + 5] = lo;
+	  lo = lo >> 8;
+	  buf[offset + 4] = lo;
+	  let hi = Number(value >> BigInt(32) & BigInt(0xffffffff));
+	  buf[offset + 3] = hi;
+	  hi = hi >> 8;
+	  buf[offset + 2] = hi;
+	  hi = hi >> 8;
+	  buf[offset + 1] = hi;
+	  hi = hi >> 8;
+	  buf[offset] = hi;
+	  return offset + 8
+	}
+
+	Buffer.prototype.writeBigUInt64LE = defineBigIntMethod(function writeBigUInt64LE (value, offset = 0) {
+	  return wrtBigUInt64LE(this, value, offset, BigInt(0), BigInt('0xffffffffffffffff'))
+	});
+
+	Buffer.prototype.writeBigUInt64BE = defineBigIntMethod(function writeBigUInt64BE (value, offset = 0) {
+	  return wrtBigUInt64BE(this, value, offset, BigInt(0), BigInt('0xffffffffffffffff'))
+	});
+
+	Buffer.prototype.writeIntLE = function writeIntLE (value, offset, byteLength, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  if (!noAssert) {
+	    const limit = Math.pow(2, (8 * byteLength) - 1);
+
+	    checkInt(this, value, offset, byteLength, limit - 1, -limit);
+	  }
+
+	  let i = 0;
+	  let mul = 1;
+	  let sub = 0;
+	  this[offset] = value & 0xFF;
+	  while (++i < byteLength && (mul *= 0x100)) {
+	    if (value < 0 && sub === 0 && this[offset + i - 1] !== 0) {
+	      sub = 1;
+	    }
+	    this[offset + i] = ((value / mul) >> 0) - sub & 0xFF;
+	  }
+
+	  return offset + byteLength
+	};
+
+	Buffer.prototype.writeIntBE = function writeIntBE (value, offset, byteLength, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  if (!noAssert) {
+	    const limit = Math.pow(2, (8 * byteLength) - 1);
+
+	    checkInt(this, value, offset, byteLength, limit - 1, -limit);
+	  }
+
+	  let i = byteLength - 1;
+	  let mul = 1;
+	  let sub = 0;
+	  this[offset + i] = value & 0xFF;
+	  while (--i >= 0 && (mul *= 0x100)) {
+	    if (value < 0 && sub === 0 && this[offset + i + 1] !== 0) {
+	      sub = 1;
+	    }
+	    this[offset + i] = ((value / mul) >> 0) - sub & 0xFF;
+	  }
+
+	  return offset + byteLength
+	};
+
+	Buffer.prototype.writeInt8 = function writeInt8 (value, offset, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  if (!noAssert) checkInt(this, value, offset, 1, 0x7f, -0x80);
+	  if (value < 0) value = 0xff + value + 1;
+	  this[offset] = (value & 0xff);
+	  return offset + 1
+	};
+
+	Buffer.prototype.writeInt16LE = function writeInt16LE (value, offset, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  if (!noAssert) checkInt(this, value, offset, 2, 0x7fff, -0x8000);
+	  this[offset] = (value & 0xff);
+	  this[offset + 1] = (value >>> 8);
+	  return offset + 2
+	};
+
+	Buffer.prototype.writeInt16BE = function writeInt16BE (value, offset, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  if (!noAssert) checkInt(this, value, offset, 2, 0x7fff, -0x8000);
+	  this[offset] = (value >>> 8);
+	  this[offset + 1] = (value & 0xff);
+	  return offset + 2
+	};
+
+	Buffer.prototype.writeInt32LE = function writeInt32LE (value, offset, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  if (!noAssert) checkInt(this, value, offset, 4, 0x7fffffff, -0x80000000);
+	  this[offset] = (value & 0xff);
+	  this[offset + 1] = (value >>> 8);
+	  this[offset + 2] = (value >>> 16);
+	  this[offset + 3] = (value >>> 24);
+	  return offset + 4
+	};
+
+	Buffer.prototype.writeInt32BE = function writeInt32BE (value, offset, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  if (!noAssert) checkInt(this, value, offset, 4, 0x7fffffff, -0x80000000);
+	  if (value < 0) value = 0xffffffff + value + 1;
+	  this[offset] = (value >>> 24);
+	  this[offset + 1] = (value >>> 16);
+	  this[offset + 2] = (value >>> 8);
+	  this[offset + 3] = (value & 0xff);
+	  return offset + 4
+	};
+
+	Buffer.prototype.writeBigInt64LE = defineBigIntMethod(function writeBigInt64LE (value, offset = 0) {
+	  return wrtBigUInt64LE(this, value, offset, -BigInt('0x8000000000000000'), BigInt('0x7fffffffffffffff'))
+	});
+
+	Buffer.prototype.writeBigInt64BE = defineBigIntMethod(function writeBigInt64BE (value, offset = 0) {
+	  return wrtBigUInt64BE(this, value, offset, -BigInt('0x8000000000000000'), BigInt('0x7fffffffffffffff'))
+	});
+
+	function checkIEEE754 (buf, value, offset, ext, max, min) {
+	  if (offset + ext > buf.length) throw new RangeError('Index out of range')
+	  if (offset < 0) throw new RangeError('Index out of range')
+	}
+
+	function writeFloat (buf, value, offset, littleEndian, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  if (!noAssert) {
+	    checkIEEE754(buf, value, offset, 4);
+	  }
+	  ieee754$1.write(buf, value, offset, littleEndian, 23, 4);
+	  return offset + 4
+	}
+
+	Buffer.prototype.writeFloatLE = function writeFloatLE (value, offset, noAssert) {
+	  return writeFloat(this, value, offset, true, noAssert)
+	};
+
+	Buffer.prototype.writeFloatBE = function writeFloatBE (value, offset, noAssert) {
+	  return writeFloat(this, value, offset, false, noAssert)
+	};
+
+	function writeDouble (buf, value, offset, littleEndian, noAssert) {
+	  value = +value;
+	  offset = offset >>> 0;
+	  if (!noAssert) {
+	    checkIEEE754(buf, value, offset, 8);
+	  }
+	  ieee754$1.write(buf, value, offset, littleEndian, 52, 8);
+	  return offset + 8
+	}
+
+	Buffer.prototype.writeDoubleLE = function writeDoubleLE (value, offset, noAssert) {
+	  return writeDouble(this, value, offset, true, noAssert)
+	};
+
+	Buffer.prototype.writeDoubleBE = function writeDoubleBE (value, offset, noAssert) {
+	  return writeDouble(this, value, offset, false, noAssert)
+	};
+
+	// copy(targetBuffer, targetStart=0, sourceStart=0, sourceEnd=buffer.length)
+	Buffer.prototype.copy = function copy (target, targetStart, start, end) {
+	  if (!Buffer.isBuffer(target)) throw new TypeError('argument should be a Buffer')
+	  if (!start) start = 0;
+	  if (!end && end !== 0) end = this.length;
+	  if (targetStart >= target.length) targetStart = target.length;
+	  if (!targetStart) targetStart = 0;
+	  if (end > 0 && end < start) end = start;
+
+	  // Copy 0 bytes; we're done
+	  if (end === start) return 0
+	  if (target.length === 0 || this.length === 0) return 0
+
+	  // Fatal error conditions
+	  if (targetStart < 0) {
+	    throw new RangeError('targetStart out of bounds')
+	  }
+	  if (start < 0 || start >= this.length) throw new RangeError('Index out of range')
+	  if (end < 0) throw new RangeError('sourceEnd out of bounds')
+
+	  // Are we oob?
+	  if (end > this.length) end = this.length;
+	  if (target.length - targetStart < end - start) {
+	    end = target.length - targetStart + start;
+	  }
+
+	  const len = end - start;
+
+	  if (this === target && typeof Uint8Array.prototype.copyWithin === 'function') {
+	    // Use built-in when available, missing from IE11
+	    this.copyWithin(targetStart, start, end);
+	  } else {
+	    Uint8Array.prototype.set.call(
+	      target,
+	      this.subarray(start, end),
+	      targetStart
+	    );
+	  }
+
+	  return len
+	};
+
+	// Usage:
+	//    buffer.fill(number[, offset[, end]])
+	//    buffer.fill(buffer[, offset[, end]])
+	//    buffer.fill(string[, offset[, end]][, encoding])
+	Buffer.prototype.fill = function fill (val, start, end, encoding) {
+	  // Handle string cases:
+	  if (typeof val === 'string') {
+	    if (typeof start === 'string') {
+	      encoding = start;
+	      start = 0;
+	      end = this.length;
+	    } else if (typeof end === 'string') {
+	      encoding = end;
+	      end = this.length;
+	    }
+	    if (encoding !== undefined && typeof encoding !== 'string') {
+	      throw new TypeError('encoding must be a string')
+	    }
+	    if (typeof encoding === 'string' && !Buffer.isEncoding(encoding)) {
+	      throw new TypeError('Unknown encoding: ' + encoding)
+	    }
+	    if (val.length === 1) {
+	      const code = val.charCodeAt(0);
+	      if ((encoding === 'utf8' && code < 128) ||
+	          encoding === 'latin1') {
+	        // Fast path: If `val` fits into a single byte, use that numeric value.
+	        val = code;
+	      }
+	    }
+	  } else if (typeof val === 'number') {
+	    val = val & 255;
+	  } else if (typeof val === 'boolean') {
+	    val = Number(val);
+	  }
+
+	  // Invalid ranges are not set to a default, so can range check early.
+	  if (start < 0 || this.length < start || this.length < end) {
+	    throw new RangeError('Out of range index')
+	  }
+
+	  if (end <= start) {
+	    return this
+	  }
+
+	  start = start >>> 0;
+	  end = end === undefined ? this.length : end >>> 0;
+
+	  if (!val) val = 0;
+
+	  let i;
+	  if (typeof val === 'number') {
+	    for (i = start; i < end; ++i) {
+	      this[i] = val;
+	    }
+	  } else {
+	    const bytes = Buffer.isBuffer(val)
+	      ? val
+	      : Buffer.from(val, encoding);
+	    const len = bytes.length;
+	    if (len === 0) {
+	      throw new TypeError('The value "' + val +
+	        '" is invalid for argument "value"')
+	    }
+	    for (i = 0; i < end - start; ++i) {
+	      this[i + start] = bytes[i % len];
+	    }
+	  }
+
+	  return this
+	};
+
+	// CUSTOM ERRORS
+	// =============
+
+	// Simplified versions from Node, changed for Buffer-only usage
+	const errors = {};
+	function E (sym, getMessage, Base) {
+	  errors[sym] = class NodeError extends Base {
+	    constructor () {
+	      super();
+
+	      Object.defineProperty(this, 'message', {
+	        value: getMessage.apply(this, arguments),
+	        writable: true,
+	        configurable: true
+	      });
+
+	      // Add the error code to the name to include it in the stack trace.
+	      this.name = `${this.name} [${sym}]`;
+	      // Access the stack to generate the error message including the error code
+	      // from the name.
+	      this.stack; // eslint-disable-line no-unused-expressions
+	      // Reset the name to the actual name.
+	      delete this.name;
+	    }
+
+	    get code () {
+	      return sym
+	    }
+
+	    set code (value) {
+	      Object.defineProperty(this, 'code', {
+	        configurable: true,
+	        enumerable: true,
+	        value,
+	        writable: true
+	      });
+	    }
+
+	    toString () {
+	      return `${this.name} [${sym}]: ${this.message}`
+	    }
+	  };
+	}
+
+	E('ERR_BUFFER_OUT_OF_BOUNDS',
+	  function (name) {
+	    if (name) {
+	      return `${name} is outside of buffer bounds`
+	    }
+
+	    return 'Attempt to access memory outside buffer bounds'
+	  }, RangeError);
+	E('ERR_INVALID_ARG_TYPE',
+	  function (name, actual) {
+	    return `The "${name}" argument must be of type number. Received type ${typeof actual}`
+	  }, TypeError);
+	E('ERR_OUT_OF_RANGE',
+	  function (str, range, input) {
+	    let msg = `The value of "${str}" is out of range.`;
+	    let received = input;
+	    if (Number.isInteger(input) && Math.abs(input) > 2 ** 32) {
+	      received = addNumericalSeparator(String(input));
+	    } else if (typeof input === 'bigint') {
+	      received = String(input);
+	      if (input > BigInt(2) ** BigInt(32) || input < -(BigInt(2) ** BigInt(32))) {
+	        received = addNumericalSeparator(received);
+	      }
+	      received += 'n';
+	    }
+	    msg += ` It must be ${range}. Received ${received}`;
+	    return msg
+	  }, RangeError);
+
+	function addNumericalSeparator (val) {
+	  let res = '';
+	  let i = val.length;
+	  const start = val[0] === '-' ? 1 : 0;
+	  for (; i >= start + 4; i -= 3) {
+	    res = `_${val.slice(i - 3, i)}${res}`;
+	  }
+	  return `${val.slice(0, i)}${res}`
+	}
+
+	// CHECK FUNCTIONS
+	// ===============
+
+	function checkBounds (buf, offset, byteLength) {
+	  validateNumber(offset, 'offset');
+	  if (buf[offset] === undefined || buf[offset + byteLength] === undefined) {
+	    boundsError(offset, buf.length - (byteLength + 1));
+	  }
+	}
+
+	function checkIntBI (value, min, max, buf, offset, byteLength) {
+	  if (value > max || value < min) {
+	    const n = typeof min === 'bigint' ? 'n' : '';
+	    let range;
+	    if (byteLength > 3) {
+	      if (min === 0 || min === BigInt(0)) {
+	        range = `>= 0${n} and < 2${n} ** ${(byteLength + 1) * 8}${n}`;
+	      } else {
+	        range = `>= -(2${n} ** ${(byteLength + 1) * 8 - 1}${n}) and < 2 ** ` +
+	                `${(byteLength + 1) * 8 - 1}${n}`;
+	      }
+	    } else {
+	      range = `>= ${min}${n} and <= ${max}${n}`;
+	    }
+	    throw new errors.ERR_OUT_OF_RANGE('value', range, value)
+	  }
+	  checkBounds(buf, offset, byteLength);
+	}
+
+	function validateNumber (value, name) {
+	  if (typeof value !== 'number') {
+	    throw new errors.ERR_INVALID_ARG_TYPE(name, 'number', value)
+	  }
+	}
+
+	function boundsError (value, length, type) {
+	  if (Math.floor(value) !== value) {
+	    validateNumber(value, type);
+	    throw new errors.ERR_OUT_OF_RANGE(type || 'offset', 'an integer', value)
+	  }
+
+	  if (length < 0) {
+	    throw new errors.ERR_BUFFER_OUT_OF_BOUNDS()
+	  }
+
+	  throw new errors.ERR_OUT_OF_RANGE(type || 'offset',
+	                                    `>= ${type ? 1 : 0} and <= ${length}`,
+	                                    value)
+	}
+
+	// HELPER FUNCTIONS
+	// ================
+
+	const INVALID_BASE64_RE = /[^+/0-9A-Za-z-_]/g;
+
+	function base64clean (str) {
+	  // Node takes equal signs as end of the Base64 encoding
+	  str = str.split('=')[0];
+	  // Node strips out invalid characters like \n and \t from the string, base64-js does not
+	  str = str.trim().replace(INVALID_BASE64_RE, '');
+	  // Node converts strings with length < 2 to ''
+	  if (str.length < 2) return ''
+	  // Node allows for non-padded base64 strings (missing trailing ===), base64-js does not
+	  while (str.length % 4 !== 0) {
+	    str = str + '=';
+	  }
+	  return str
+	}
+
+	function utf8ToBytes (string, units) {
+	  units = units || Infinity;
+	  let codePoint;
+	  const length = string.length;
+	  let leadSurrogate = null;
+	  const bytes = [];
+
+	  for (let i = 0; i < length; ++i) {
+	    codePoint = string.charCodeAt(i);
+
+	    // is surrogate component
+	    if (codePoint > 0xD7FF && codePoint < 0xE000) {
+	      // last char was a lead
+	      if (!leadSurrogate) {
+	        // no lead yet
+	        if (codePoint > 0xDBFF) {
+	          // unexpected trail
+	          if ((units -= 3) > -1) bytes.push(0xEF, 0xBF, 0xBD);
+	          continue
+	        } else if (i + 1 === length) {
+	          // unpaired lead
+	          if ((units -= 3) > -1) bytes.push(0xEF, 0xBF, 0xBD);
+	          continue
+	        }
+
+	        // valid lead
+	        leadSurrogate = codePoint;
+
+	        continue
+	      }
+
+	      // 2 leads in a row
+	      if (codePoint < 0xDC00) {
+	        if ((units -= 3) > -1) bytes.push(0xEF, 0xBF, 0xBD);
+	        leadSurrogate = codePoint;
+	        continue
+	      }
+
+	      // valid surrogate pair
+	      codePoint = (leadSurrogate - 0xD800 << 10 | codePoint - 0xDC00) + 0x10000;
+	    } else if (leadSurrogate) {
+	      // valid bmp char, but last char was a lead
+	      if ((units -= 3) > -1) bytes.push(0xEF, 0xBF, 0xBD);
+	    }
+
+	    leadSurrogate = null;
+
+	    // encode utf8
+	    if (codePoint < 0x80) {
+	      if ((units -= 1) < 0) break
+	      bytes.push(codePoint);
+	    } else if (codePoint < 0x800) {
+	      if ((units -= 2) < 0) break
+	      bytes.push(
+	        codePoint >> 0x6 | 0xC0,
+	        codePoint & 0x3F | 0x80
+	      );
+	    } else if (codePoint < 0x10000) {
+	      if ((units -= 3) < 0) break
+	      bytes.push(
+	        codePoint >> 0xC | 0xE0,
+	        codePoint >> 0x6 & 0x3F | 0x80,
+	        codePoint & 0x3F | 0x80
+	      );
+	    } else if (codePoint < 0x110000) {
+	      if ((units -= 4) < 0) break
+	      bytes.push(
+	        codePoint >> 0x12 | 0xF0,
+	        codePoint >> 0xC & 0x3F | 0x80,
+	        codePoint >> 0x6 & 0x3F | 0x80,
+	        codePoint & 0x3F | 0x80
+	      );
+	    } else {
+	      throw new Error('Invalid code point')
+	    }
+	  }
+
+	  return bytes
+	}
+
+	function asciiToBytes (str) {
+	  const byteArray = [];
+	  for (let i = 0; i < str.length; ++i) {
+	    // Node's code seems to be doing this and not & 0x7F..
+	    byteArray.push(str.charCodeAt(i) & 0xFF);
+	  }
+	  return byteArray
+	}
+
+	function utf16leToBytes (str, units) {
+	  let c, hi, lo;
+	  const byteArray = [];
+	  for (let i = 0; i < str.length; ++i) {
+	    if ((units -= 2) < 0) break
+
+	    c = str.charCodeAt(i);
+	    hi = c >> 8;
+	    lo = c % 256;
+	    byteArray.push(lo);
+	    byteArray.push(hi);
+	  }
+
+	  return byteArray
+	}
+
+	function base64ToBytes (str) {
+	  return base64.toByteArray(base64clean(str))
+	}
+
+	function blitBuffer (src, dst, offset, length) {
+	  let i;
+	  for (i = 0; i < length; ++i) {
+	    if ((i + offset >= dst.length) || (i >= src.length)) break
+	    dst[i + offset] = src[i];
+	  }
+	  return i
+	}
+
+	// ArrayBuffer or Uint8Array objects from other contexts (i.e. iframes) do not pass
+	// the `instanceof` check but they should be treated as of that type.
+	// See: https://github.com/feross/buffer/issues/166
+	function isInstance (obj, type) {
+	  return obj instanceof type ||
+	    (obj != null && obj.constructor != null && obj.constructor.name != null &&
+	      obj.constructor.name === type.name)
+	}
+	function numberIsNaN (obj) {
+	  // For IE11 support
+	  return obj !== obj // eslint-disable-line no-self-compare
+	}
+
+	// Create lookup table for `toString('hex')`
+	// See: https://github.com/feross/buffer/issues/219
+	const hexSliceLookupTable = (function () {
+	  const alphabet = '0123456789abcdef';
+	  const table = new Array(256);
+	  for (let i = 0; i < 16; ++i) {
+	    const i16 = i * 16;
+	    for (let j = 0; j < 16; ++j) {
+	      table[i16 + j] = alphabet[i] + alphabet[j];
+	    }
+	  }
+	  return table
+	})();
+
+	// Return not function with Error if BigInt not supported
+	function defineBigIntMethod (fn) {
+	  return typeof BigInt === 'undefined' ? BufferBigIntNotDefined : fn
+	}
+
+	function BufferBigIntNotDefined () {
+	  throw new Error('BigInt not supported')
+	} 
+} (buffer));
+
+/*
+ * Lazy Node.js module access — safe on mobile where fs/path don't exist.
+ * On desktop: uses real Node.js modules.
+ * On mobile: path is shimmed, fs is null (callers must check).
+ *
+ * Uses eval-based require to prevent rollup from hoisting the call
+ * to the top of the bundle (which would crash on mobile at load time).
+ */
+if (typeof globalThis.Buffer === "undefined") {
+    globalThis.Buffer = buffer.Buffer;
+}
+// Hide require from rollup's static analysis — keeps it inside try/catch
+function safeRequire(id) {
+    try {
+        // eslint-disable-next-line no-eval
+        return eval("require")(id);
+    }
+    catch (e) {
+        return null;
+    }
+}
+// --- fs ---
+const _fs = safeRequire("fs");
+// --- path: use Node's if available, otherwise a minimal shim ---
+const _path = (() => {
+    const nodePath = safeRequire("path");
+    if (nodePath)
+        return nodePath;
+    // mobile: browser-compatible path shim
+    const sep = "/";
+    return {
+        sep,
+        join: (...parts) => {
+            const joined = parts.filter(Boolean).join(sep);
+            return joined.replace(/\/+/g, "/");
+        },
+        parse: (p) => {
+            const idx = p.lastIndexOf(sep);
+            const dir = idx >= 0 ? p.substring(0, idx) : "";
+            const base = idx >= 0 ? p.substring(idx + 1) : p;
+            const dotIdx = base.lastIndexOf(".");
+            const ext = dotIdx > 0 ? base.substring(dotIdx) : "";
+            const name = dotIdx > 0 ? base.substring(0, dotIdx) : base;
+            return { dir, base, ext, name };
+        },
+        basename: (p, ext) => {
+            let base = p.substring(p.lastIndexOf(sep) + 1);
+            if (ext && base.endsWith(ext))
+                base = base.slice(0, -ext.length);
+            return base;
+        },
+        extname: (p) => {
+            const base = p.substring(p.lastIndexOf(sep) + 1);
+            const dotIdx = base.lastIndexOf(".");
+            return dotIdx > 0 ? base.substring(dotIdx) : "";
+        },
+        dirname: (p) => {
+            const idx = p.lastIndexOf(sep);
+            return idx >= 0 ? p.substring(0, idx) : "";
+        },
+        relative: (from, to) => {
+            const fromParts = from.split(sep).filter(Boolean);
+            const toParts = to.split(sep).filter(Boolean);
+            let i = 0;
+            while (i < fromParts.length && i < toParts.length && fromParts[i] === toParts[i]) {
+                i++;
+            }
+            const up = fromParts.length - i;
+            const result = [...Array(up).fill(".."), ...toParts.slice(i)];
+            return result.join(sep);
+        },
+    };
+})();
+const nodeFs = _fs;
+const nodePath$1 = _path;
+
 var lib$3 = {};
 
 var FsPromise = {};
+
+var _nodeStub_fs = {}; const promises$1 = {};
+
+var _nodeStub_fs$1 = /*#__PURE__*/Object.freeze({
+    __proto__: null,
+    'default': _nodeStub_fs,
+    promises: promises$1
+});
+
+var require$$0$1 = /*@__PURE__*/getAugmentedNamespace(_nodeStub_fs$1);
 
 /**
  * Module convert fs functions to promise based functions
  */
 Object.defineProperty(FsPromise, "__esModule", { value: true });
 FsPromise.readFile = FsPromise.writeFileSync = FsPromise.writeFile = FsPromise.read = FsPromise.open = FsPromise.close = FsPromise.stat = FsPromise.createReadStream = FsPromise.pathExists = void 0;
-const fs$1 = fs__default["default"];
-FsPromise.pathExists = fs$1.existsSync;
-FsPromise.createReadStream = fs$1.createReadStream;
+const fs$2 = require$$0$1;
+FsPromise.pathExists = fs$2.existsSync;
+FsPromise.createReadStream = fs$2.createReadStream;
 async function stat(path) {
     return new Promise((resolve, reject) => {
-        fs$1.stat(path, (err, stats) => {
+        fs$2.stat(path, (err, stats) => {
             if (err)
                 reject(err);
             else
@@ -104,7 +2531,7 @@ async function stat(path) {
 FsPromise.stat = stat;
 async function close(fd) {
     return new Promise((resolve, reject) => {
-        fs$1.close(fd, err => {
+        fs$2.close(fd, err => {
             if (err)
                 reject(err);
             else
@@ -115,7 +2542,7 @@ async function close(fd) {
 FsPromise.close = close;
 async function open(path, mode) {
     return new Promise((resolve, reject) => {
-        fs$1.open(path, mode, (err, fd) => {
+        fs$2.open(path, mode, (err, fd) => {
             if (err)
                 reject(err);
             else
@@ -126,7 +2553,7 @@ async function open(path, mode) {
 FsPromise.open = open;
 async function read(fd, buffer, offset, length, position) {
     return new Promise((resolve, reject) => {
-        fs$1.read(fd, buffer, offset, length, position, (err, bytesRead, _buffer) => {
+        fs$2.read(fd, buffer, offset, length, position, (err, bytesRead, _buffer) => {
             if (err)
                 reject(err);
             else
@@ -137,7 +2564,7 @@ async function read(fd, buffer, offset, length, position) {
 FsPromise.read = read;
 async function writeFile(path, data) {
     return new Promise((resolve, reject) => {
-        fs$1.writeFile(path, data, err => {
+        fs$2.writeFile(path, data, err => {
             if (err)
                 reject(err);
             else
@@ -147,12 +2574,12 @@ async function writeFile(path, data) {
 }
 FsPromise.writeFile = writeFile;
 function writeFileSync(path, data) {
-    fs$1.writeFileSync(path, data);
+    fs$2.writeFileSync(path, data);
 }
 FsPromise.writeFileSync = writeFileSync;
 async function readFile(path) {
     return new Promise((resolve, reject) => {
-        fs$1.readFile(path, (err, buffer) => {
+        fs$2.readFile(path, (err, buffer) => {
             if (err)
                 reject(err);
             else
@@ -646,7 +3073,7 @@ Object.defineProperty(FileTokenizer$1, "__esModule", { value: true });
 FileTokenizer$1.fromFile = FileTokenizer$1.FileTokenizer = void 0;
 const AbstractTokenizer_1 = AbstractTokenizer$1;
 const peek_readable_1 = lib$2;
-const fs = FsPromise;
+const fs$1 = FsPromise;
 class FileTokenizer extends AbstractTokenizer_1.AbstractTokenizer {
     constructor(fd, fileInfo) {
         super(fileInfo);
@@ -661,7 +3088,7 @@ class FileTokenizer extends AbstractTokenizer_1.AbstractTokenizer {
     async readBuffer(uint8Array, options) {
         const normOptions = this.normalizeOptions(uint8Array, options);
         this.position = normOptions.position;
-        const res = await fs.read(this.fd, uint8Array, normOptions.offset, normOptions.length, normOptions.position);
+        const res = await fs$1.read(this.fd, uint8Array, normOptions.offset, normOptions.length, normOptions.position);
         this.position += res.bytesRead;
         if (res.bytesRead < normOptions.length && (!options || !options.mayBeLess)) {
             throw new peek_readable_1.EndOfStreamError();
@@ -676,23 +3103,23 @@ class FileTokenizer extends AbstractTokenizer_1.AbstractTokenizer {
      */
     async peekBuffer(uint8Array, options) {
         const normOptions = this.normalizeOptions(uint8Array, options);
-        const res = await fs.read(this.fd, uint8Array, normOptions.offset, normOptions.length, normOptions.position);
+        const res = await fs$1.read(this.fd, uint8Array, normOptions.offset, normOptions.length, normOptions.position);
         if ((!normOptions.mayBeLess) && res.bytesRead < normOptions.length) {
             throw new peek_readable_1.EndOfStreamError();
         }
         return res.bytesRead;
     }
     async close() {
-        return fs.close(this.fd);
+        return fs$1.close(this.fd);
     }
 }
 FileTokenizer$1.FileTokenizer = FileTokenizer;
 async function fromFile$1(sourceFilePath) {
-    const stat = await fs.stat(sourceFilePath);
+    const stat = await fs$1.stat(sourceFilePath);
     if (!stat.isFile) {
         throw new Error(`File not a file: ${sourceFilePath}`);
     }
-    const fd = await fs.open(sourceFilePath, 'r');
+    const fd = await fs$1.open(sourceFilePath, 'r');
     return new FileTokenizer(fd, { path: sourceFilePath, size: stat.size });
 }
 FileTokenizer$1.fromFile = fromFile$1;
@@ -727,95 +3154,6 @@ FileTokenizer$1.fromFile = fromFile$1;
 } (lib$3));
 
 var lib$1 = {};
-
-var ieee754 = {};
-
-/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
-
-ieee754.read = function (buffer, offset, isLE, mLen, nBytes) {
-  var e, m;
-  var eLen = (nBytes * 8) - mLen - 1;
-  var eMax = (1 << eLen) - 1;
-  var eBias = eMax >> 1;
-  var nBits = -7;
-  var i = isLE ? (nBytes - 1) : 0;
-  var d = isLE ? -1 : 1;
-  var s = buffer[offset + i];
-
-  i += d;
-
-  e = s & ((1 << (-nBits)) - 1);
-  s >>= (-nBits);
-  nBits += eLen;
-  for (; nBits > 0; e = (e * 256) + buffer[offset + i], i += d, nBits -= 8) {}
-
-  m = e & ((1 << (-nBits)) - 1);
-  e >>= (-nBits);
-  nBits += mLen;
-  for (; nBits > 0; m = (m * 256) + buffer[offset + i], i += d, nBits -= 8) {}
-
-  if (e === 0) {
-    e = 1 - eBias;
-  } else if (e === eMax) {
-    return m ? NaN : ((s ? -1 : 1) * Infinity)
-  } else {
-    m = m + Math.pow(2, mLen);
-    e = e - eBias;
-  }
-  return (s ? -1 : 1) * m * Math.pow(2, e - mLen)
-};
-
-ieee754.write = function (buffer, value, offset, isLE, mLen, nBytes) {
-  var e, m, c;
-  var eLen = (nBytes * 8) - mLen - 1;
-  var eMax = (1 << eLen) - 1;
-  var eBias = eMax >> 1;
-  var rt = (mLen === 23 ? Math.pow(2, -24) - Math.pow(2, -77) : 0);
-  var i = isLE ? 0 : (nBytes - 1);
-  var d = isLE ? 1 : -1;
-  var s = value < 0 || (value === 0 && 1 / value < 0) ? 1 : 0;
-
-  value = Math.abs(value);
-
-  if (isNaN(value) || value === Infinity) {
-    m = isNaN(value) ? 1 : 0;
-    e = eMax;
-  } else {
-    e = Math.floor(Math.log(value) / Math.LN2);
-    if (value * (c = Math.pow(2, -e)) < 1) {
-      e--;
-      c *= 2;
-    }
-    if (e + eBias >= 1) {
-      value += rt / c;
-    } else {
-      value += rt * Math.pow(2, 1 - eBias);
-    }
-    if (value * c >= 2) {
-      e++;
-      c /= 2;
-    }
-
-    if (e + eBias >= eMax) {
-      m = 0;
-      e = eMax;
-    } else if (e + eBias >= 1) {
-      m = ((value * c) - 1) * Math.pow(2, mLen);
-      e = e + eBias;
-    } else {
-      m = value * Math.pow(2, eBias - 1) * Math.pow(2, mLen);
-      e = 0;
-    }
-  }
-
-  for (; mLen >= 8; buffer[offset + i] = m & 0xff, i += d, m /= 256, mLen -= 8) {}
-
-  e = (e << mLen) | m;
-  eLen += mLen;
-  for (; eLen > 0; buffer[offset + i] = e & 0xff, i += d, e /= 256, eLen -= 8) {}
-
-  buffer[offset + i - d] |= s * 128;
-};
 
 (function (exports) {
 	Object.defineProperty(exports, "__esModule", { value: true });
@@ -5187,6 +7525,91 @@ isSvg$2.exports.default = isSvg;
 var isSvgExports = isSvg$2.exports;
 var isSvg$1 = /*@__PURE__*/getDefaultExportFromCjs(isSvgExports);
 
+const APP_TITLE = "Local Images Plus  0.19.3";
+//Option to enable debugging
+let VERBOSE = false;
+function setDebug(value = false) {
+    VERBOSE = value;
+}
+const SUPPORTED_OS = { "win": "win32", "unix": "linux,darwin,freebsd,openbsd" };
+const USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82  Safari/537.36';
+const MD_CORE_SEARCH_PATTERN = [
+    //linked image: [![alt](thumb "title")](full_url) — must match BEFORE regular images
+    /\[!\[(?<anchor>[^\]]*)\]\((?<innerLink>[^\s\)]+)(?:\s+"[^"]*")?\)\]\((?<link>[^\s\)]+)\)/gm,
+    //file link
+    /\!\[(?<anchor>(.{0}|(?!^file\:\/)+?))\]\((?<link>((file\:\/)[^\!]+?(\.{1}.{3,4}\) {0,1}|\)$|\)\n|\)])))/gm,
+    //hypertext link
+    //\!\[(?<anchor>([^\]]*))\]\((?<link>((http(s){0,1}).+?(\) |\..{3,4}\)|\)$|\)\n|\)\]|\)\[)))/gm,
+    /\!\[(?<anchor>([^\]]*))\]\((?<link>((http(s){0,1}\:).+?(\) |\..{3,4}\)|\)$|\)\n|\)\]|\)\[|\/[^(]+?\))))/gm,
+    //Base64 encoded data
+    /\!\[[^\[](?<anchor>(.{0}|[^\[]+?))\]\((?<link>((data\:.+?base64\,).+?(\) |\..{3,4}\)|\)$|\)\n|\)\]|\)\[)))/gm,
+    /\!\[(?<anchor>(.{0}|[^\[]+?))\]\((?<link>((http(s){0,1}|(data\:.+?base64\,)).+?\)))/gm,
+];
+//wikilink embed with remote url: ![[https://host/path.png]] or ![[https://host/path.png|300]]
+const WIKILINK_SEARCH_PATTERN = /\!\[\[(?<anchor>(?<link>https?:\/\/[^\]\|]+)(?:\|[^\]\|]*)?)\]\]/gm;
+//wikilink embed with local files: ![[filename.png]] or ![[path/filename.png|300]]
+const WIKILINK_LOCAL_SEARCH_PATTERN = /\!\[\[(?<anchor>(?<link>(?!https?:\/\/)[^\]\|]+?)(?:\|[^\]\|]*)?)\]\]/gm;
+const SOURCE_KEY_EXCLUSION = "(?!(?:[sS][oO][uU][rR][cC][eE])[ \\t]*:)";
+//frontmatter value that is an embed: cover: ![[https://...]] or cover: "![[https://...]]"
+const FM_EMBED_SEARCH_PATTERN = new RegExp("^(?<keypart>[ \\t]*" + SOURCE_KEY_EXCLUSION + "[^\\s:#'\"][^:\\r\\n]*?[ \\t]*:[ \\t]*)" +
+    "(?<q1>['\"]?)!\\[\\[(?<anchor>(?<link>https?:\\/\\/[^\\]\\|]+)(?:\\|[^\\]\\|]*)?)\\]\\](?<q2>['\"]?)", "gm");
+//frontmatter value that is a bare url with a media extension: hero: "https://host/img.jpg"
+const FM_BARE_URL_SEARCH_PATTERN = new RegExp("^(?<keypart>[ \\t]*" + SOURCE_KEY_EXCLUSION + "[^\\s:#'\"][^:\\r\\n]*?[ \\t]*:[ \\t]*)" +
+    "(?<anchor>)(?<q1>['\"]?)" +
+    "(?<link>https?:\\/\\/[^\\s'\"]+\\.(?:png|jpe?g|gif|webp|svg|avif|bmp|tiff?|ico|pdf|epub|mp3|mp4|m4a|ogg|wav|webm|mov|docx?|xlsx?|pptx?|zip)(?:[?#][^\\s'\"]*)?)" +
+    "(?<q2>['\"]?)", "gm");
+const CANVAS_BARE_URL_PATTERN = /"(?<link>https?:\/\/[^\s"'{}\[\]]+\.(?:png|jpe?g|gif|webp|svg|avif|bmp|tiff?|ico|pdf|epub|mp3|mp4|m4a|ogg|wav|webm|mov|docx?|xlsx?|pptx?|zip)(?:[?#][^\s"'{}\[\]]*)?)"/gm;
+const MD_SEARCH_PATTERN = [...MD_CORE_SEARCH_PATTERN, WIKILINK_SEARCH_PATTERN, WIKILINK_LOCAL_SEARCH_PATTERN];
+//patterns for the frontmatter part of a note (local links stay untouched)
+const FRONTMATTER_DOWNLOAD_PATTERN = [FM_EMBED_SEARCH_PATTERN, FM_BARE_URL_SEARCH_PATTERN, ...MD_CORE_SEARCH_PATTERN];
+const FRONTMATTER_SEARCH_PATTERN = [
+    /\[{2}(?<urllink>((http(s){0,1}).+?(\) |\..{3,4}\]{2}|\]{2}|\]{2}$|\]{2}\n)))/g,
+    /\[{2}(?<loclink>(.+?(\) |\..{3,4}\]{2}|\]{2}|\]{2}$|\]{2}\n)))/g,
+];
+const MD_LINK = /\http(s){0,1}.+?( {1}|\)\n)/g;
+const URL_PATTERN = /^(https?:\/\/)?[^\/]+/g;
+const ATT_SIZE_ACHOR = /(^(?<attdesc>.{1,})\|(?<attsize>[0-9]{2,4})$)|(?<attsize2>^[0-9]{2,4}$)/gm;
+const TIME_DIFF = 500;
+// Looks like timeouts in Obsidian API are set in milliseconds
+const NOTICE_TIMEOUT = 5 * 1000;
+const TIMEOUT_LIKE_INFINITY = 24 * 60 * 60 * 1000;
+const DEFAULT_SETTINGS = {
+    processCreated: true,
+    ignoredExt: "cnt|php|htm|html",
+    processAll: true,
+    processFrontmatter: true,
+    useCaptions: true,
+    pathInTags: "fullDirPath",
+    downUnknown: false,
+    saveAttE: "obsFolder",
+    realTimeUpdate: true,
+    filesizeLimit: 0,
+    tryCount: 2,
+    realTimeUpdateInterval: 5,
+    showNotifications: true,
+    contextMenuDownload: true,
+    includeps: "md|canvas",
+    includepattern: "(?<md>.*\\.md)|(?<canvas>.*\\.canvas)",
+    mediaRootDir: "_resources/${notename}",
+    disAddCom: false,
+    FileNameTemplate: "${md5}_MD5",
+    removeMediaFolder: true,
+    removeOrphansCompl: false,
+    PngToJpeg: false,
+    PngToJpegLocal: true,
+    JpegQuality: 80,
+    DoNotCreateObsFolder: false,
+    DateFormat: "YYYY MM DD",
+    ImgCompressionType: "image/jpeg",
+    ExcludedFoldersList: "",
+    ExcludedFoldersListRegexp: "",
+    useMarkdownLinkFormat: false,
+    processCanvas: true,
+    UrlExcludeRegexps: "",
+    plainFmPaths: false,
+    saveSourceUrl: "link"
+};
+
 var md5$1 = {exports: {}};
 
 function commonjsRequire(path) {
@@ -5195,14 +7618,15 @@ function commonjsRequire(path) {
 
 var core = {exports: {}};
 
-var _nodeResolve_empty = {};
+var _nodeStub_crypto = {}; const promises = {};
 
-var _nodeResolve_empty$1 = /*#__PURE__*/Object.freeze({
+var _nodeStub_crypto$1 = /*#__PURE__*/Object.freeze({
     __proto__: null,
-    'default': _nodeResolve_empty
+    'default': _nodeStub_crypto,
+    promises: promises
 });
 
-var require$$0 = /*@__PURE__*/getAugmentedNamespace(_nodeResolve_empty$1);
+var require$$0 = /*@__PURE__*/getAugmentedNamespace(_nodeStub_crypto$1);
 
 core.exports;
 
@@ -6283,88 +8707,119 @@ md5$1.exports;
 var md5Exports = md5$1.exports;
 var md5 = /*@__PURE__*/getDefaultExportFromCjs(md5Exports);
 
-const APP_TITLE = "Local Images Plus  0.17.1";
-//Option to enable debugging
-let VERBOSE = false;
-function setDebug(value = false) {
-    VERBOSE = value;
+/*
+ * Pure binary utilities — no Obsidian/Node imports except crypto-js.
+ * Extracted for testability. Re-exported from utils.ts.
+ */
+const SAMPLE_CHUNK$1 = 15000;
+//extract head / middle / tail samples from an in-memory buffer
+function extractSamples(data, chunk = SAMPLE_CHUNK$1) {
+    const mid = Math.round(data.byteLength / 2);
+    return [
+        data.slice(0, chunk),
+        data.slice(mid, mid + chunk),
+        data.slice(Math.max(0, data.byteLength - chunk)),
+    ];
 }
-const SUPPORTED_OS = { "win": "win32", "unix": "linux,darwin,freebsd,openbsd" };
-const USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82  Safari/537.36';
-const MD_CORE_SEARCH_PATTERN = [
-    //file link
-    /\!\[(?<anchor>(.{0}|(?!^file\:\/)+?))\]\((?<link>((file\:\/)[^\!]+?(\.{1}.{3,4}\) {0,1}|\)$|\)\n|\)])))/gm,
-    //hypertext link
-    //\!\[(?<anchor>([^\]]*))\]\((?<link>((http(s){0,1}).+?(\) |\..{3,4}\)|\)$|\)\n|\)\]|\)\[)))/gm,
-    /\!\[(?<anchor>([^\]]*))\]\((?<link>((http(s){0,1}\:).+?(\) |\..{3,4}\)|\)$|\)\n|\)\]|\)\[|\/[^(]+?\))))/gm,
-    //Base64 encoded data
-    /\!\[[^\[](?<anchor>(.{0}|[^\[]+?))\]\((?<link>((data\:.+?base64\,).+?(\) |\..{3,4}\)|\)$|\)\n|\)\]|\)\[)))/gm,
-    /\!\[(?<anchor>(.{0}|[^\[]+?))\]\((?<link>((http(s){0,1}|(data\:.+?base64\,)).+?\)))/gm,
-];
-//wikilink embed with remote url: ![[https://host/path.png]] or ![[https://host/path.png|300]]
-const WIKILINK_SEARCH_PATTERN = /\!\[\[(?<anchor>(?<link>https?:\/\/[^\]\|]+)(?:\|[^\]\|]*)?)\]\]/gm;
-//wikilink embed with local files: ![[filename.png]] or ![[path/filename.png|300]]
-const WIKILINK_LOCAL_SEARCH_PATTERN = /\!\[\[(?<anchor>(?<link>(?!https?:\/\/)[^\]\|]+?)(?:\|[^\]\|]*)?)\]\]/gm;
-const SOURCE_KEY_EXCLUSION = "(?!(?:[sS][oO][uU][rR][cC][eE])[ \\t]*:)";
-//frontmatter value that is an embed: cover: ![[https://...]] or cover: "![[https://...]]"
-const FM_EMBED_SEARCH_PATTERN = new RegExp("^(?<keypart>[ \\t]*" + SOURCE_KEY_EXCLUSION + "[^\\s:#'\"][^:\\r\\n]*?[ \\t]*:[ \\t]*)" +
-    "(?<q1>['\"]?)!\\[\\[(?<anchor>(?<link>https?:\\/\\/[^\\]\\|]+)(?:\\|[^\\]\\|]*)?)\\]\\](?<q2>['\"]?)", "gm");
-//frontmatter value that is a bare url with a media extension: hero: "https://host/img.jpg"
-const FM_BARE_URL_SEARCH_PATTERN = new RegExp("^(?<keypart>[ \\t]*" + SOURCE_KEY_EXCLUSION + "[^\\s:#'\"][^:\\r\\n]*?[ \\t]*:[ \\t]*)" +
-    "(?<anchor>)(?<q1>['\"]?)" +
-    "(?<link>https?:\\/\\/[^\\s'\"]+\\.(?:png|jpe?g|gif|webp|svg|avif|bmp|tiff?|ico|pdf|epub|mp3|mp4|m4a|ogg|wav|webm|mov|docx?|xlsx?|pptx?|zip)(?:[?#][^\\s'\"]*)?)" +
-    "(?<q2>['\"]?)", "gm");
-const CANVAS_BARE_URL_PATTERN = /"(?<link>https?:\/\/[^\s"'{}\[\]]+\.(?:png|jpe?g|gif|webp|svg|avif|bmp|tiff?|ico|pdf|epub|mp3|mp4|m4a|ogg|wav|webm|mov|docx?|xlsx?|pptx?|zip)(?:[?#][^\s"'{}\[\]]*)?)"/gm;
-const MD_SEARCH_PATTERN = [...MD_CORE_SEARCH_PATTERN, WIKILINK_SEARCH_PATTERN, WIKILINK_LOCAL_SEARCH_PATTERN];
-//patterns for the frontmatter part of a note (local links stay untouched)
-const FRONTMATTER_DOWNLOAD_PATTERN = [FM_EMBED_SEARCH_PATTERN, FM_BARE_URL_SEARCH_PATTERN, ...MD_CORE_SEARCH_PATTERN];
-const FRONTMATTER_SEARCH_PATTERN = [
-    /\[{2}(?<urllink>((http(s){0,1}).+?(\) |\..{3,4}\]{2}|\]{2}|\]{2}$|\]{2}\n)))/g,
-    /\[{2}(?<loclink>(.+?(\) |\..{3,4}\]{2}|\]{2}|\]{2}$|\]{2}\n)))/g,
-];
-const MD_LINK = /\http(s){0,1}.+?( {1}|\)\n)/g;
-const URL_PATTERN = /^(https?:\/\/)?[^\/]+/g;
-const ATT_SIZE_ACHOR = /(^(?<attdesc>.{1,})\|(?<attsize>[0-9]{2,4})$)|(?<attsize2>^[0-9]{2,4}$)/gm;
-const TIME_DIFF = 500;
-// Looks like timeouts in Obsidian API are set in milliseconds
-const NOTICE_TIMEOUT = 5 * 1000;
-const TIMEOUT_LIKE_INFINITY = 24 * 60 * 60 * 1000;
-const DEFAULT_SETTINGS = {
-    processCreated: true,
-    ignoredExt: "cnt|php|htm|html",
-    processAll: true,
-    processFrontmatter: true,
-    useCaptions: true,
-    pathInTags: "fullDirPath",
-    downUnknown: false,
-    saveAttE: "obsFolder",
-    realTimeUpdate: true,
-    filesizeLimit: 0,
-    tryCount: 2,
-    realTimeUpdateInterval: 5,
-    showNotifications: true,
-    contextMenuDownload: true,
-    includeps: "md|canvas",
-    includepattern: "(?<md>.*\\.md)|(?<canvas>.*\\.canvas)",
-    mediaRootDir: "_resources/${notename}",
-    disAddCom: false,
-    FileNameTemplate: "${md5}_MD5",
-    removeMediaFolder: true,
-    removeOrphansCompl: false,
-    PngToJpeg: false,
-    PngToJpegLocal: true,
-    JpegQuality: 80,
-    DoNotCreateObsFolder: false,
-    DateFormat: "YYYY MM DD",
-    ImgCompressionType: "image/jpeg",
-    ExcludedFoldersList: "",
-    ExcludedFoldersListRegexp: "",
-    useMarkdownLinkFormat: false,
-    processCanvas: true,
-    UrlExcludeRegexps: ""
-};
+//pure comparison of two ArrayBuffers (works on any platform)
+function compareArrayBuffers(a, b) {
+    if (a.byteLength !== b.byteLength)
+        return false;
+    const ua = new Uint8Array(a);
+    const ub = new Uint8Array(b);
+    for (let i = 0; i < ua.length; i++) {
+        if (ua[i] !== ub[i])
+            return false;
+    }
+    return true;
+}
+//decode a data-url or bare base64 string to ArrayBuffer (no Node Buffer)
+function base64ToBuff(data) {
+    try {
+        const base64 = data.includes("base64,")
+            ? data.split("base64,")[1]
+            : data;
+        const binary = atob(base64);
+        const bytes = new Uint8Array(binary.length);
+        for (let i = 0; i < binary.length; i++) {
+            bytes[i] = binary.charCodeAt(i);
+        }
+        return bytes.buffer;
+    }
+    catch (e) {
+        return null;
+    }
+}
+//hash an array of byte samples into an md5 signature string
+function md5Sig(samples) {
+    try {
+        const dec = new TextDecoder("utf-8");
+        const signature = md5(samples.map((x) => dec.decode(x)).join()).toString();
+        return signature;
+    }
+    catch (e) {
+        return null;
+    }
+}
 
-const fs2 = require("fs").promises;
+/*
+ * Pure tag-building logic for image replacement.
+ * Extracted from utils.ts so it can be tested without Obsidian API mocks.
+ * No imports — zero runtime dependencies.
+ */
+function buildImageTag(o) {
+    let caption = o.caption;
+    let imageTag = "";
+    const isFmValue = o.keypart !== undefined && o.keypart !== "";
+    //caption mode: use source URL as caption instead of alt text
+    if (o.saveSourceUrl === "caption" && o.sourceUrl) {
+        caption = o.sourceUrl;
+    }
+    if (isFmValue && o.plainFmPaths) {
+        //plain path for Bases: no embed brackets, no caption/size
+        imageTag = o.pathWiki;
+    }
+    else if (!o.useMd) {
+        // image size has higher priority, otherwise the caption is kept
+        if (!o.useCaptions) {
+            caption = "";
+        }
+        else if (o.attSize.length) {
+            caption = "|" + o.attSize;
+        }
+        else {
+            caption = caption.length ? "|" + caption : "";
+        }
+        imageTag = `![[${o.pathWiki}${caption}]]`;
+    }
+    else {
+        caption = !o.useCaptions || !caption.length ? "" : " " + caption;
+        const mdLink = o.useMarkdownLinkFormat ? `<${o.pathMdAngle}>` : o.pathMd;
+        imageTag = `![${o.anchor}](${mdLink}${caption})`;
+    }
+    const bareImageTag = imageTag;
+    //frontmatter values must stay a valid yaml scalar: restore the key and the quotes
+    if (isFmValue) {
+        const quote = o.q1 || o.q2 || `"`;
+        imageTag = o.keypart + quote + imageTag + quote;
+    }
+    //append source URL below the tag if configured
+    //skip for frontmatter values: a newline inside YAML breaks parsing
+    if (!isFmValue && o.saveSourceUrl && o.saveSourceUrl !== "none" && o.sourceUrl) {
+        if (o.saveSourceUrl === "link") {
+            imageTag += `\n[Source](${o.sourceUrl})`;
+        }
+        else if (o.saveSourceUrl === "text") {
+            imageTag += `\n${o.sourceUrl}`;
+        }
+        //"caption" mode replaces caption inside the tag — handled above
+    }
+    return { imageTag, bareImageTag };
+}
+
+const path$2 = nodePath$1;
+const fs = nodeFs;
+const fs2 = nodeFs === null || nodeFs === void 0 ? void 0 : nodeFs.promises;
 //import { TIMEOUT } from "dns";
 //import fs from "fs";
 /*
@@ -6400,27 +8855,8 @@ function logError(str, isObj = false) {
         }
     });
 }
-function md5Sig(contentData = undefined) {
-    try {
-        var dec = new TextDecoder("utf-8");
-        const arrMid = Math.round(contentData.byteLength / 2);
-        const chunk = 15000;
-        const signature = md5([
-            contentData.slice(0, chunk),
-            contentData.slice(arrMid, arrMid + chunk),
-            contentData.slice(-chunk),
-        ]
-            .map((x) => dec.decode(x))
-            .join()).toString();
-        return signature;
-    }
-    catch (e) {
-        logError("Cannot generate md5: " + e, false);
-        return null;
-    }
-}
 function MarkdownLinkParser(match) {
-    var _a, _b, _c, _d, _e, _f, _g, _h;
+    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
     let link, anchor, replp, caption = "", AttSize = "";
     const keypart = (_a = match.groups) === null || _a === void 0 ? void 0 : _a.keypart;
     const q1 = (_b = match.groups) === null || _b === void 0 ? void 0 : _b.q1;
@@ -6446,8 +8882,10 @@ function MarkdownLinkParser(match) {
         ? (_h = match.groups.link.split(link)[1]) !== null && _h !== void 0 ? _h : ""
         : "");
     //keep the exact match text for frontmatter keys and wiki brackets: replaceAll searches for it literally
+    //linked images [![alt](thumb)](full) also need the exact match — trimAny would strip the outer [
+    const isLinkedImage = match[0].startsWith("[![");
     replp =
-        keypart !== undefined || isWikiEmbed
+        keypart !== undefined || isWikiEmbed || isLinkedImage
             ? match[0]
             : trimAny(match[0], ["[", "(", "]"]);
     if (protocol == "file:") {
@@ -6456,7 +8894,7 @@ function MarkdownLinkParser(match) {
             : SUPPORTED_OS.unix.includes(process.platform)
                 ? link.replace("file://", "")
                 : link.replace("file://", "");
-        const parsedPath = path__default["default"].parse(link);
+        const parsedPath = path$2.parse(link);
         link = parsedPath.dir + "/" + parsedPath.name + trimTags(parsedPath.ext);
     }
     logError({
@@ -6472,6 +8910,7 @@ function MarkdownLinkParser(match) {
         replp: replp,
         anchor: anchor,
         link: link,
+        innerLink: (_k = (_j = match.groups) === null || _j === void 0 ? void 0 : _j.innerLink) !== null && _k !== void 0 ? _k : link,
         protocol: protocol,
         caption: caption,
         AttSize: AttSize,
@@ -6538,34 +8977,58 @@ function isUrl(link) {
         return false;
     }
 }
-function base64ToBuff(data) {
-    return __awaiter(this, void 0, void 0, function* () {
-        logError("base64ToBuff: \r\n", false);
-        try {
-            const BufferData = Buffer.from(data.split("base64,")[1], "base64");
-            logError(BufferData);
-            return bufferToArrayBuffer(BufferData);
-        }
-        catch (e) {
-            logError("Cannot read base64: " + e, false);
-            return null;
-        }
-    });
+//safe wrapper for vault.getConfig (internal API, may not exist on mobile)
+function safeGetConfig(vault, key, defaultValue = undefined) {
+    var _a;
+    try {
+        const val = (_a = vault === null || vault === void 0 ? void 0 : vault.getConfig) === null || _a === void 0 ? void 0 : _a.call(vault, key);
+        return val !== undefined ? val : defaultValue;
+    }
+    catch (e) {
+        return defaultValue;
+    }
 }
-function readFromDiskB(file, count = undefined) {
+function readFromDiskB(file, count, offset = 0) {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            const buffer = Buffer.alloc(count);
-            const fd = fs__default["default"].openSync(file, "r+");
-            fs__default["default"].readSync(fd, buffer, 0, buffer.length, 0);
-            logError(buffer);
-            fs__default["default"].closeSync(fd);
+            const size = fs.statSync(file).size;
+            const length = Math.min(count !== null && count !== void 0 ? count : size, Math.max(0, size - offset));
+            if (length <= 0)
+                return new ArrayBuffer(0);
+            const buffer = Buffer.alloc(length);
+            const fd = fs.openSync(file, "r");
+            try {
+                fs.readSync(fd, buffer, 0, length, offset);
+            }
+            finally {
+                fs.closeSync(fd);
+            }
             return bufferToArrayBuffer(buffer);
         }
         catch (e) {
             logError("Cannot read the file: " + e, false);
             return null;
         }
+    });
+}
+const SAMPLE_CHUNK = 15000;
+//read head / middle / tail samples from a file without loading it fully
+function readSamples(adapter, filePath, chunk = SAMPLE_CHUNK) {
+    return __awaiter(this, void 0, void 0, function* () {
+        if (obsidian.Platform.isMobile) {
+            // mobile: adapter reads the whole file, extractSamples slices it
+            const data = yield adapter.readBinary(filePath);
+            return extractSamples(data, chunk);
+        }
+        // desktop: read 3 chunks directly from disk (45 KB I/O)
+        const absPath = pathJoin([adapter.basePath, filePath]);
+        const size = fs.statSync(absPath).size;
+        const mid = Math.round(size / 2);
+        return Promise.all([
+            readFromDiskB(absPath, chunk, 0),
+            readFromDiskB(absPath, chunk, mid),
+            readFromDiskB(absPath, chunk, Math.max(0, size - chunk)),
+        ]);
     });
 }
 function readFromDisk(file) {
@@ -6608,13 +9071,13 @@ function downloadImage(url, referer = "") {
         }
     });
 }
-function bufferToArrayBuffer(buffer) {
-    return buffer.buffer.slice(buffer.byteOffset, buffer.byteOffset + buffer.byteLength);
+function bufferToArrayBuffer(data) {
+    return data.buffer.slice(data.byteOffset, data.byteOffset + data.byteLength);
 }
 function getFileExt(content, link) {
     var _a;
     return __awaiter(this, void 0, void 0, function* () {
-        const fileExtByLink = path__default["default"].extname(link).replace(".", "");
+        const fileExtByLink = path$2.extname(link).replace(".", "");
         const fileExtByBuffer = (_a = (yield fileType_1.fromBuffer(content))) === null || _a === void 0 ? void 0 : _a.ext;
         // if XML, probably it is SVG
         if (fileExtByBuffer == "xml" || !fileExtByBuffer) {
@@ -6688,15 +9151,22 @@ function renderNameTemplate(template, ctx, kind = "file") {
     }
     return rendered;
 }
+const COMPARE_CHUNK_SIZE = 1024 * 1024; // 1 MiB
+const MAX_MOBILE_COMPARE_SIZE = 100 * 1024 * 1024; // 100 MiB
 //picks a file name: base + ext, appending " (N)" on collision.
-//if the candidate exists and holds the same content (contentHash), it is reused: needWrite = false
-function resolveUniqueName(adapter, dir, baseName, fileExt, contentHash, readExisting = undefined) {
+//if the candidate exists and holds the same content, it is reused: needWrite = false
+//comparison is done in chunks to avoid loading large files into memory entirely.
+function resolveUniqueName(adapter, dir, baseName, fileExt, contentHash, source) {
     return __awaiter(this, void 0, void 0, function* () {
         let ext = fileExt ? (fileExt.startsWith(".") ? fileExt : "." + fileExt) : "";
         if (ext && baseName.toLowerCase().endsWith(ext.toLowerCase())) {
             ext = "";
         }
-        const reader = readExisting || ((filePath) => adapter.readBinary(filePath));
+        // determine source size (stat for file sources, byteLength for data sources)
+        let sourceSize;
+        if (source.kind === "data") {
+            sourceSize = source.data.byteLength;
+        }
         for (let counter = 0; counter < 10000; counter++) {
             const suffix = counter ? ` (${counter})` : "";
             const candidate = pathJoin([dir, baseName + suffix + ext]);
@@ -6704,23 +9174,129 @@ function resolveUniqueName(adapter, dir, baseName, fileExt, contentHash, readExi
                 return { fileName: candidate, needWrite: true };
             }
             try {
-                const existing = yield reader(candidate);
-                if (existing && md5Sig(existing) === contentHash) {
+                // cheap check: compare file sizes first (no content read)
+                const candidateStat = yield adapter.stat(candidate);
+                if (!candidateStat) {
+                    continue;
+                }
+                if (sourceSize === undefined && source.kind === "file") {
+                    const sourceStat = yield adapter.stat(source.path);
+                    if (!sourceStat) {
+                        continue;
+                    }
+                    sourceSize = sourceStat.size;
+                }
+                if (candidateStat.size !== sourceSize) {
+                    continue;
+                }
+                // sizes match: compare bytes (mobile: full read, desktop: chunked)
+                //mobile guard: skip byte comparison for very large files to avoid OOM
+                if (obsidian.Platform.isMobile && candidateStat.size > MAX_MOBILE_COMPARE_SIZE) {
+                    return { fileName: candidate, needWrite: false };
+                }
+                const equal = source.kind === "data"
+                    ? yield compareDataToFile(adapter, candidate, source.data)
+                    : yield compareFiles(adapter, source.path, candidate);
+                if (equal) {
                     return { fileName: candidate, needWrite: false };
                 }
             }
             catch (e) {
-                logError("Cannot read existing file: " + e, false);
+                logError("Cannot compare with existing file: " + e, false);
             }
         }
         throw new Error(`Cannot generate a unique file name: ${baseName}${ext}`);
+    });
+}
+//compare a data buffer against a file on disk
+function compareDataToFile(adapter, filePath, data) {
+    return __awaiter(this, void 0, void 0, function* () {
+        if (obsidian.Platform.isMobile) {
+            //mobile: read file into memory, compare with Uint8Array
+            if (data.byteLength > MAX_MOBILE_COMPARE_SIZE)
+                return false;
+            const fileBuf = yield adapter.readBinary(filePath);
+            return compareArrayBuffers(fileBuf, data);
+        }
+        //desktop: chunk by chunk (no full-file load)
+        const absPath = pathJoin([adapter.basePath, filePath]);
+        const fh = yield fs2.open(absPath, "r");
+        try {
+            const stat = yield fh.stat();
+            if (stat.size !== data.byteLength) {
+                return false;
+            }
+            const fileBuf = Buffer.alloc(COMPARE_CHUNK_SIZE);
+            const dataView = new Uint8Array(data);
+            let position = 0;
+            for (;;) {
+                const { bytesRead } = yield fh.read(fileBuf, 0, COMPARE_CHUNK_SIZE, position);
+                if (bytesRead === 0)
+                    return true; // EOF, all chunks matched
+                if (!fileBuf
+                    .subarray(0, bytesRead)
+                    .equals(Buffer.from(dataView.buffer, dataView.byteOffset + position, bytesRead)))
+                    return false;
+                position += bytesRead;
+            }
+        }
+        finally {
+            yield fh.close().catch(() => { });
+        }
+    });
+}
+//compare two files on disk
+function compareFiles(adapter, pathA, pathB) {
+    return __awaiter(this, void 0, void 0, function* () {
+        if (obsidian.Platform.isMobile) {
+            //mobile: read both files into memory, compare with Uint8Array
+            const statA = yield adapter.stat(pathA);
+            if (!statA || statA.size > MAX_MOBILE_COMPARE_SIZE)
+                return false;
+            const [bufA, bufB] = yield Promise.all([
+                adapter.readBinary(pathA),
+                adapter.readBinary(pathB),
+            ]);
+            return compareArrayBuffers(bufA, bufB);
+        }
+        //desktop: chunk by chunk via Node fs (no full-file read)
+        const basePath = adapter.basePath;
+        const absA = pathJoin([basePath, pathA]);
+        const absB = pathJoin([basePath, pathB]);
+        const fdA = fs2.open(absA, "r");
+        const fdB = fs2.open(absB, "r");
+        try {
+            const [a, b] = yield Promise.all([fdA, fdB]);
+            const bufA = Buffer.alloc(COMPARE_CHUNK_SIZE);
+            const bufB = Buffer.alloc(COMPARE_CHUNK_SIZE);
+            let position = 0;
+            for (;;) {
+                const [nA, nB] = yield Promise.all([
+                    a.read(bufA, 0, COMPARE_CHUNK_SIZE, position),
+                    b.read(bufB, 0, COMPARE_CHUNK_SIZE, position),
+                ]);
+                // different bytes read → files differ in size (should not happen after stat, but be safe)
+                if (nA.bytesRead !== nB.bytesRead)
+                    return false;
+                if (nA.bytesRead === 0)
+                    return true; // both EOF at same position
+                if (!bufA.subarray(0, nA.bytesRead).equals(bufB.subarray(0, nB.bytesRead)))
+                    return false;
+                position += nA.bytesRead;
+            }
+        }
+        finally {
+            yield Promise.all([fdA, fdB])
+                .then(([a, b]) => Promise.all([a.close(), b.close()]))
+                .catch(() => { });
+        }
     });
 }
 function trimTags(link) {
     return link.split(/[#?&\s]+/)[0];
 }
 function pathJoin(parts) {
-    const result = path__default["default"].join(...parts);
+    const result = path$2.join(...parts);
     // it seems that obsidian do not understand paths with backslashes in Windows, so turn them into forward slashes
     return result.replace(/\\/g, "/");
 }
@@ -6733,50 +9309,77 @@ function encObsURI(e) {
     });
 }
 /**
- * https://github.com/mnaoumov/obsidian-dev-utils (modified)
- * @param blob - The Blob object to convert.
- * @param imgQuality - The quality of the image (0 to 1).
- * @returns A promise that resolves to an ArrayBuffer.
+ * Converts image bytes to a compressed image in the requested format (JPEG or WEBP).
+ *
+ * The image is decoded, drawn onto a white-background canvas (JPEG has no alpha),
+ * and re-encoded at the requested quality. No base64 intermediate is created:
+ * input goes through URL.createObjectURL, output through canvas.toBlob.
+ *
+ * @param data   - Image bytes (PNG, WEBP, JPEG, …).
+ * @param quality - Compression quality, 0–1. Values above 1 are treated as a
+ *                  percentage and divided by 100. Clamped to [0, 1].
+ * @param mimeType - Target MIME type, "image/jpeg" (default) or "image/webp".
+ * @returns The compressed image bytes, or null if decoding/encoding failed.
  */
-function blobToJpegArrayBuffer(Data, imgQuality, imgType) {
+function blobToJpegArrayBuffer(data, quality, mimeType = "image/jpeg") {
     return __awaiter(this, void 0, void 0, function* () {
-        try {
-            const blob = new Blob([new Uint8Array(Data)]);
-            imgType = imgType.length == 0 ? "image/jpeg" : imgType;
-            return new Promise((resolve) => {
-                const reader = new FileReader();
-                reader.onloadend = () => {
-                    const image = new Image();
-                    image.onload = () => {
-                        const canvas = document.createElement("canvas");
-                        const context = canvas.getContext("2d");
-                        if (!context) {
-                            throw new Error("Could not get 2D context.");
-                        }
-                        const imageWidth = image.width;
-                        const imageHeight = image.height;
-                        let data = "";
-                        canvas.width = imageWidth;
-                        canvas.height = imageHeight;
-                        context.fillStyle = "#fff";
-                        context.fillRect(0, 0, imageWidth, imageHeight);
-                        context.save();
-                        context.translate(imageWidth / 2, imageHeight / 2);
-                        context.drawImage(image, 0, 0, imageWidth, imageHeight, -imageWidth / 2, -imageHeight / 2, imageWidth, imageHeight);
-                        context.restore();
-                        data = canvas.toDataURL(imgType, imgQuality);
-                        const arrayBuffer = base64ToBuff(data);
-                        resolve(arrayBuffer);
-                    };
-                    image.src = reader.result;
-                };
-                reader.readAsDataURL(blob);
-            });
-        }
-        catch (e) {
-            logError("Cannot compress: " + e, false);
+        if (!data || data.byteLength === 0) {
+            logError("blobToJpegArrayBuffer: empty input data", false);
             return null;
         }
+        const type = mimeType || "image/jpeg";
+        const q = Math.max(0, Math.min(1, quality > 1 ? quality / 100 : quality));
+        // Decode the source image via an object URL (no base64 roundtrip).
+        const sourceUrl = URL.createObjectURL(new Blob([data]));
+        try {
+            const image = yield loadImage(sourceUrl);
+            const canvas = document.createElement("canvas");
+            canvas.width = image.naturalWidth;
+            canvas.height = image.naturalHeight;
+            const ctx = canvas.getContext("2d");
+            if (!ctx) {
+                throw new Error("Cannot get 2D canvas context");
+            }
+            // JPEG has no alpha channel: paint the background white first.
+            ctx.fillStyle = "#fff";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(image, 0, 0);
+            // Encode directly to a Blob (no data-URL / base64 step).
+            const outBlob = yield canvasToBlob(canvas, type, q);
+            return yield readBlobAsArrayBuffer(outBlob);
+        }
+        catch (e) {
+            logError("Cannot compress image: " + e, false);
+            return null;
+        }
+        finally {
+            // Release the object URL regardless of success or failure.
+            URL.revokeObjectURL(sourceUrl);
+        }
+    });
+}
+/* --- Promise wrappers over browser callback APIs --- */
+function loadImage(src) {
+    return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve(img);
+        img.onerror = () => reject(new Error("Cannot load image"));
+        img.src = src;
+    });
+}
+function canvasToBlob(canvas, type, quality) {
+    return new Promise((resolve, reject) => {
+        canvas.toBlob((blob) => blob !== null
+            ? resolve(blob)
+            : reject(new Error("canvas.toBlob returned null")), type, quality);
+    });
+}
+function readBlobAsArrayBuffer(blob) {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = () => { var _a; return reject((_a = reader.error) !== null && _a !== void 0 ? _a : new Error("FileReader failed")); };
+        reader.readAsArrayBuffer(blob);
     });
 }
 
@@ -14071,6 +16674,8 @@ var ru = {
     "Process notes on create/copy/paste.": "Обрабатывать заметки при создании/копировании/вставке.",
     "Process images in frontmatter": "Обрабатывать изображения во frontmatter",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Скачивать и локализовывать ссылки на изображения в YAML frontmatter. При отключении блок frontmatter остается нетронутым (ключ 'source' всё ещё используется как реферер для изображений в теле заметки).",
+    "Plain paths in frontmatter": "Простые пути во frontmatter",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "Записывать простые пути к файлам в YAML frontmatter вместо ![[embed]] ссылок. Необходимо для свойств-изображений в Bases. Ссылки в теле заметки не затрагиваются.",
     "Automatic processing interval": "Интервал автоматической обработки",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Интервал в секундах для обновления обработки. Требуется время, чтобы изменённое содержимое заметки стало доступно плагинам.",
     "Number of retries for every single attachment": "Количество попыток для каждого вложения",
@@ -14178,6 +16783,19 @@ var ru = {
     "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Эта команда требует настройки 'Рядом с заметкой в папке, указанной ниже' и шаблона '${notename}' в конце, также путь не может содержать шаблон ${date}.\nПожалуйста, сначала измените настройки!\r\n",
     "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "Ваша папка медиа Obsidian установлена на {p} и создана плагином. Пожалуйста, попробуйте снова.",
     "{p} attachments for note {p} were processed.": "{p} вложений для заметки {p} обработано.",
+    "Buy me a coffee": "Купи мне кофе",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "Если Local Images Plus делает вашу работу в Obsidian удобнее, поддержите разработку. Каждая чашка кофе помогает проекту жить!",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "Шаблон для имён новых вложений. Переменные: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. По умолчанию: ${md5}_MD5 (обратная совместимость). Примеры: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Используйте папку для сохранения новых вложений для подпапок.",
+    "Save source URL": "Сохранять URL источника",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "Сохранять исходный URL после обработки. 'Ссылка под картинкой' добавляет строку [Источник](url) под тегом.",
+    "Don't save": "Не сохранять",
+    "Link below image": "Ссылка под картинкой",
+    "Text below image": "Текст под картинкой",
+    "As caption": "Как подпись",
+    "Support": "Поддержка",
+    "Enjoying this plugin?": "Нравится этот плагин?",
+    "Searching for orphaned attachments...": "Поиск осиротевших вложений...",
+    "Searching": "Поиск",
 };
 
 var pl = {
@@ -14191,6 +16809,8 @@ var pl = {
     "Process notes on create/copy/paste.": "Przetwarzaj notatki przy tworzeniu/kopiowaniu/wklejaniu.",
     "Process images in frontmatter": "Przetwarzaj obrazy we frontmatter",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Pobieraj i lokalizuj linki do obrazów w YAML frontmatter. Gdy wyłączone, blok frontmatter pozostaje nienaruszony (klucz 'source' nadal używany jako referer dla obrazów w treści).",
+    "Plain paths in frontmatter": "Ścieżki bez linków we frontmatter",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "Zapisuj zwykłe ścieżki plików w YAML frontmatter zamiast linków ![[embed]]. Wymagane dla właściwości obrazu w Bases. Linki w treści nie są zmieniane.",
     "Automatic processing interval": "Interwał automatycznego przetwarzania",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Interwał w sekundach do aktualizacji przetwarzania. Potrzeba trochę czasu, aby zmieniona treść notatki stała się dostępna dla wtyczek.",
     "Number of retries for every single attachment": "Liczba prób dla każdego załącznika",
@@ -14291,6 +16911,19 @@ var pl = {
     "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "To polecenie wymaga ustawień 'Obok notatki w folderze określonym poniżej' i wzorca '${notename}' na końcu włączonego, ścieżka również nie może zawierać wzorca ${date}.\nProszę najpierw zmienić ustawienia!\r\n",
     "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "OSTRZEŻENIE!\r\nZałączniki dla \'{p}\' zostały przetworzone, ale niektóre załączniki nie zostały pobrane/zastąpione...",
     "{p} attachments for note {p} were processed.": "{p} załączników dla notatki {p} przetworzono.",
+    "Buy me a coffee": "Postaw mi kawę",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "Jeśli Local Images Plus ulepsza Twój przepływ pracy w Obsidian, rozważ wsparcie rozwoju. Każda kawa pomaga utrzymać ten projekt przy życiu!",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "Szablon dla nowych nazw załączników. Zmienne: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Domyślnie: ${md5}_MD5 (wstecznie kompatybilne). Przykłady: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Użyj 'Folder do zapisywania nowych załączników' dla podfolderów.",
+    "Save source URL": "Zapisz URL źródła",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "Zachowaj oryginalny URL po przetwarzaniu. 'Link pod obrazkiem' dodaje linię [Źródło](url) pod tagiem.",
+    "Don't save": "Nie zapisuj",
+    "Link below image": "Link pod obrazkiem",
+    "Text below image": "Tekst pod obrazkiem",
+    "As caption": "Jako podpis",
+    "Support": "Wsparcie",
+    "Enjoying this plugin?": "Podoba Ci się ta wtyczka?",
+    "Searching for orphaned attachments...": "Szukanie osieroconych załączników...",
+    "Searching": "Szukanie",
 };
 
 var de = {
@@ -14304,6 +16937,8 @@ var de = {
     "Process notes on create/copy/paste.": "Notizen beim Erstellen/Kopieren/Einfügen verarbeiten.",
     "Process images in frontmatter": "Bilder im Frontmatter verarbeiten",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Bildlinks im YAML-Frontmatter herunterladen und lokalisieren. Wenn deaktiviert, bleibt der Frontmatter-Block unberührt (der 'source'-Schlüssel wird weiterhin als Referrer für Körperbilder verwendet).",
+    "Plain paths in frontmatter": "Einfache Pfade im Frontmatter",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "Einfache Dateipfade im YAML-Frontmatter anstelle von ![[embed]]-Links schreiben. Erforderlich für Bildeigenschaften in Bases. Links im Fließtext sind nicht betroffen.",
     "Automatic processing interval": "Intervall der automatischen Verarbeitung",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Intervall in Sekunden für die Verarbeitungsaktualisierung. Es dauert etwas, bis geänderte Notiz-Inhalte für Plugins sichtbar sind.",
     "Number of retries for every single attachment": "Anzahl Wiederholungen für jeden einzelnen Anhang",
@@ -14401,6 +17036,19 @@ var de = {
     "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "Ihr Obsidian-Medienordner ist auf {p} gesetzt und wurde vom Plugin erstellt. Bitte versuchen Sie es erneut.",
     "{p} attachments for note {p} were processed.": "{p} Anhänge für Notiz {p} wurden verarbeitet.",
     "{p} file(s) {p}": "{p} Datei(en) {p}",
+    "Buy me a coffee": "Kauf mir einen Kaffee",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "Wenn Local Images Plus Ihren Obsidian-Workflow verbessert, unterstützen Sie die Entwicklung. Jeder Kaffee hilft, dieses Projekt am Leben zu erhalten!",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "Vorlage für neue Anhangsnamen. Variablen: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Standard: ${md5}_MD5 (abwärtskompatibel). Beispiele: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Verwenden Sie 'Ordner zum Speichern neuer Anhänge' für Unterordner.",
+    "Save source URL": "Quell-URL speichern",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "Die ursprüngliche URL nach der Verarbeitung beibehalten. 'Link unter Bild' fügt eine [Quelle](url)-Zeile unter dem Tag hinzu.",
+    "Don't save": "Nicht speichern",
+    "Link below image": "Link unter Bild",
+    "Text below image": "Text unter Bild",
+    "As caption": "Als Bildunterschrift",
+    "Support": "Unterstützung",
+    "Enjoying this plugin?": "Gefällt Ihnen dieses Plugin?",
+    "Searching for orphaned attachments...": "Suche nach verwaisten Anhängen...",
+    "Searching": "Suche",
 };
 
 var fr = {
@@ -14414,6 +17062,8 @@ var fr = {
     "Process notes on create/copy/paste.": "Traiter les notes lors de la création/copie/collage.",
     "Process images in frontmatter": "Traiter les images dans le frontmatter",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Télécharger et localiser les liens d'images dans le frontmatter YAML. Lorsque désactivé, le bloc frontmatter reste intact (la clé 'source' est toujours utilisée comme référent pour les images du corps).",
+    "Plain paths in frontmatter": "Chemins simples dans le frontmatter",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "Écrire des chemins de fichiers simples dans le frontmatter YAML au lieu de liens ![[embed]]. Nécessaire pour les propriétés d'image dans Bases. Les liens du corps ne sont pas affectés.",
     "Automatic processing interval": "Intervalle de traitement automatique",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Intervalle en secondes pour la mise à jour du traitement. Il faut un certain temps pour révéler le contenu modifié d'une note aux plugins.",
     "Number of retries for every single attachment": "Nombre de tentatives pour chaque pièce jointe",
@@ -14514,6 +17164,19 @@ var fr = {
     "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Cette commande nécessite les paramètres 'À côté de la note dans le dossier spécifié ci-dessous' et le motif '${notename}' à la fin activé, aussi le chemin ne peut pas contenir le motif ${date}.\nVeuillez d'abord modifier les paramètres!\r\n",
     "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "ATTENTION!\r\nLes pièces jointes pour \'{p}\' ont été traitées, mais certaines pièces jointes n'ont pas été téléchargées/remplacées...",
     "{p} attachments for note {p} were processed.": "{p} pièces jointes pour la note {p} ont été traitées.",
+    "Buy me a coffee": "Offrez-moi un café",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "Si Local Images Plus améliore votre flux de travail Obsidian, envisagez de soutenir son développement. Chaque café aide à maintenir ce projet en vie !",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "Modèle pour les nouveaux noms de pièces jointes. Variables : ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Par défaut : ${md5}_MD5 (rétrocompatible). Exemples : ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Utilisez 'Dossier pour enregistrer les nouvelles pièces jointes' pour les sous-dossiers.",
+    "Save source URL": "Enregistrer l'URL source",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "Conserver l'URL d'origine après le traitement. 'Lien sous l'image' ajoute une ligne [Source](url) sous la balise.",
+    "Don't save": "Ne pas enregistrer",
+    "Link below image": "Lien sous l'image",
+    "Text below image": "Texte sous l'image",
+    "As caption": "En légende",
+    "Support": "Soutien",
+    "Enjoying this plugin?": "Vous aimez ce plugin ?",
+    "Searching for orphaned attachments...": "Recherche de pièces jointes orphelines...",
+    "Searching": "Recherche",
 };
 
 var es = {
@@ -14527,6 +17190,8 @@ var es = {
     "Process notes on create/copy/paste.": "Procesar notas al crear/copiar/pegar.",
     "Process images in frontmatter": "Procesar imágenes en frontmatter",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Descargar y localizar enlaces de imágenes en el frontmatter YAML. Cuando está desactivado, el bloque frontmatter queda intacto (la clave 'source' se sigue usando como referer para imágenes del cuerpo).",
+    "Plain paths in frontmatter": "Rutas simples en el frontmatter",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "Escribir rutas de archivos simples en el frontmatter YAML en lugar de enlaces ![[embed]]. Necesario para propiedades de imagen en Bases. Los enlaces del cuerpo no se ven afectados.",
     "Automatic processing interval": "Intervalo de procesamiento automático",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Intervalo en segundos para actualización de procesamiento. Toma tiempo revelar el contenido cambiado de una nota a los plugins.",
     "Number of retries for every single attachment": "Número de reintentos para cada adjunto",
@@ -14627,6 +17292,19 @@ var es = {
     "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Este comando requiere la configuración 'Junto a la nota en la carpeta especificada abajo' y el patrón '${notename}' al final habilitado, además la ruta no puede contener el patrón ${date}.\n¡Por favor, cambie la configuración primero!\r\n",
     "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "¡ADVERTENCIA!\r\nLos adjuntos para \'{p}\' fueron procesados, pero algunos adjuntos no fueron descargados/reemplazados...",
     "{p} attachments for note {p} were processed.": "{p} adjuntos para la nota {p} fueron procesados.",
+    "Buy me a coffee": "Cómprame un café",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "Si Local Images Plus mejora tu flujo de trabajo en Obsidian, considera apoyar su desarrollo. ¡Cada café ayuda a mantener vivo este proyecto!",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "Plantilla para nuevos nombres de archivos adjuntos. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Por defecto: ${md5}_MD5 (compatible con versiones anteriores). Ejemplos: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Usa 'Carpeta para guardar nuevos archivos adjuntos' para subcarpetas.",
+    "Save source URL": "Guardar URL de origen",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "Conservar la URL original después del procesamiento. 'Enlace debajo de la imagen' añade una línea [Fuente](url) debajo de la etiqueta.",
+    "Don't save": "No guardar",
+    "Link below image": "Enlace debajo de la imagen",
+    "Text below image": "Texto debajo de la imagen",
+    "As caption": "Como pie de foto",
+    "Support": "Apoyo",
+    "Enjoying this plugin?": "¿Te gusta este plugin?",
+    "Searching for orphaned attachments...": "Buscando archivos adjuntos huérfanos...",
+    "Searching": "Búsqueda",
 };
 
 var it = {
@@ -14640,6 +17318,8 @@ var it = {
     "Process notes on create/copy/paste.": "Elabora note alla creazione/copia/incolla.",
     "Process images in frontmatter": "Elabora immagini nel frontmatter",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Scarica e localizza i link delle immagini nel frontmatter YAML. Quando disabilitato, il blocco frontmatter rimane intatto (la chiave 'source' è ancora usata come referer per le immagini del corpo).",
+    "Plain paths in frontmatter": "Percorsi semplici nel frontmatter",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "Scrivere percorsi di file semplici nel frontmatter YAML invece di link ![[embed]]. Necessario per le proprietà immagine in Bases. I link nel corpo non sono influenzati.",
     "Automatic processing interval": "Intervallo elaborazione automatica",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Intervallo in secondi per l'aggiornamento dell'elaborazione. Ci vuole tempo per rivelare il contenuto modificato di una nota ai plugin.",
     "Number of retries for every single attachment": "Numero di tentativi per ogni singolo allegato",
@@ -14740,6 +17420,19 @@ var it = {
     "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Questo comando richiede le impostazioni 'Accanto alla nota nella cartella specificata sotto' e il pattern '${notename}' alla fine abilitato, anche il percorso non può contenere il pattern ${date}.\nPer favore, cambia prima le impostazioni!\r\n",
     "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "ATTENZIONE!\r\nGli allegati per \'{p}\' sono stati elaborati, ma alcuni allegati non sono stati scaricati/sostituiti...",
     "{p} attachments for note {p} were processed.": "{p} allegati per la nota {p} elaborati.",
+    "Buy me a coffee": "Offrimi un caffè",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "Se Local Images Plus migliora il tuo flusso di lavoro in Obsidian, considera di supportarne lo sviluppo. Ogni caffè aiuta a mantenere vivo questo progetto!",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "Modello per i nuomi nomi degli allegati. Variabili: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Predefinito: ${md5}_MD5 (retrocompatibile). Esempi: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Usa 'Cartella per salvare i nuovi allegati' per le sottocartelle.",
+    "Save source URL": "Salva URL di origine",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "Mantieni l'URL originale dopo l'elaborazione. 'Link sotto l'immagine' aggiunge una riga [Fonte](url) sotto il tag.",
+    "Don't save": "Non salvare",
+    "Link below image": "Link sotto l'immagine",
+    "Text below image": "Testo sotto l'immagine",
+    "As caption": "Come didascalia",
+    "Support": "Supporto",
+    "Enjoying this plugin?": "Ti piace questo plugin?",
+    "Searching for orphaned attachments...": "Ricerca allegati orfani...",
+    "Searching": "Ricerca",
 };
 
 var pt = {
@@ -14753,6 +17446,8 @@ var pt = {
     "Process notes on create/copy/paste.": "Processar notas ao criar/copiar/colar.",
     "Process images in frontmatter": "Processar imagens no frontmatter",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Baixar e localizar links de imagens no frontmatter YAML. Quando desativado, o bloco frontmatter permanece intocado (a chave 'source' ainda é usada como referenciador para imagens do corpo).",
+    "Plain paths in frontmatter": "Caminhos simples no frontmatter",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "Escrever caminhos de arquivos simples no frontmatter YAML em vez de links ![[embed]]. Necessário para propriedades de imagem no Bases. Links no corpo não são afetados.",
     "Automatic processing interval": "Intervalo de processamento automático",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Intervalo em segundos para atualização de processamento. Leva algum tempo para revelar conteúdo alterado de uma nota aos plugins.",
     "Number of retries for every single attachment": "Número de tentativas para cada anexo",
@@ -14853,6 +17548,19 @@ var pt = {
     "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Este comando requer as configurações 'Ao lado da nota na pasta especificada abaixo' e o padrão '${notename}' no final habilitado, também o caminho não pode conter o padrão ${date}.\nPor favor, altere as configurações primeiro!\r\n",
     "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "AVISO!\r\nAnexos para \'{p}\' foram processados, mas alguns anexos não foram baixados/substituídos...",
     "{p} attachments for note {p} were processed.": "{p} anexos para a nota {p} foram processados.",
+    "Buy me a coffee": "Pague-me um café",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "Se o Local Images Plus torna seu fluxo de trabalho no Obsidian melhor, considere apoiar seu desenvolvimento. Cada café ajuda a manter este projeto vivo!",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "Modelo para novos nomes de anexos. Variáveis: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Padrão: ${md5}_MD5 (compatível com versões anteriores). Exemplos: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Pasta para salvar novos anexos' para subpastas.",
+    "Save source URL": "Salvar URL de origem",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "Manter a URL original após o processamento. 'Link abaixo da imagem' adiciona uma linha [Fonte](url) abaixo da tag.",
+    "Don't save": "Não salvar",
+    "Link below image": "Link abaixo da imagem",
+    "Text below image": "Texto abaixo da imagem",
+    "As caption": "Como legenda",
+    "Support": "Apoio",
+    "Enjoying this plugin?": "Gostando deste plugin?",
+    "Searching for orphaned attachments...": "Procurando anexos órfãos...",
+    "Searching": "Pesquisa",
 };
 
 var ptBR = {
@@ -14866,6 +17574,8 @@ var ptBR = {
     "Process notes on create/copy/paste.": "Processar notas ao criar/copiar/colar.",
     "Process images in frontmatter": "Processar imagens no frontmatter",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Baixar e localizar links de imagens no frontmatter YAML. Quando desativado, o bloco frontmatter permanece intocado (a chave 'source' ainda é usada como referenciador para imagens do corpo).",
+    "Plain paths in frontmatter": "Caminhos simples no frontmatter",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "Escrever caminhos de arquivos simples no frontmatter YAML em vez de links ![[embed]]. Necessário para propriedades de imagem no Bases. Links no corpo não são afetados.",
     "Automatic processing interval": "Intervalo de processamento automático",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Intervalo em segundos para atualização do processamento. Leva um tempo para revelar o conteúdo alterado de uma nota aos plugins.",
     "Number of retries for every single attachment": "Número de tentativas para cada anexo",
@@ -14966,6 +17676,19 @@ var ptBR = {
     "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Este comando requer as configurações 'Ao lado da nota na pasta especificada abaixo' e o padrão '${notename}' no final habilitado, também o caminho não pode conter o padrão ${date}.\nPor favor, altere as configurações primeiro!\r\n",
     "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "AVISO!\r\nAnexos para \'{p}\' foram processados, mas alguns anexos não foram baixados/substituídos...",
     "{p} attachments for note {p} were processed.": "{p} anexos para a nota {p} foram processados.",
+    "Buy me a coffee": "Pague-me um café",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "Se o Local Images Plus torna seu fluxo de trabalho no Obsidian melhor, considere apoiar seu desenvolvimento. Cada café ajuda a manter este projeto vivo!",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "Modelo para novos nomes de anexos. Variáveis: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Padrão: ${md5}_MD5 (compatível com versões anteriores). Exemplos: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Pasta para salvar novos anexos' para subpastas.",
+    "Save source URL": "Salvar URL de origem",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "Manter a URL original após o processamento. 'Link abaixo da imagem' adiciona uma linha [Fonte](url) abaixo da tag.",
+    "Don't save": "Não salvar",
+    "Link below image": "Link abaixo da imagem",
+    "Text below image": "Texto abaixo da imagem",
+    "As caption": "Como legenda",
+    "Support": "Apoio",
+    "Enjoying this plugin?": "Gostando deste plugin?",
+    "Searching for orphaned attachments...": "Procurando anexos órfãos...",
+    "Searching": "Pesquisa",
 };
 
 var ja = {
@@ -14979,6 +17702,8 @@ var ja = {
     "Process notes on create/copy/paste.": "ノートの作成/コピー/貼り付け時に処理します。",
     "Process images in frontmatter": "フロントマターの画像を処理",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "YAMLフロントマター内の画像リンクをダウンロードしてローカル化します。無効にするとフロントマターブロックはそのままになります（「source」キーは本文画像のリファラーとして使用されます）。",
+    "Plain paths in frontmatter": "フロントマターでプレーンパスを使用",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "YAMLフロントマターに![[embed]]リンクの代わりにプレーンなファイルパスを書き込みます。Basesの画像プロパティに必要です。本文のリンクには影響しません。",
     "Automatic processing interval": "自動処理間隔",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "処理更新の間隔（秒）。プラグインに変更されたノートの内容が反映されるまで時間がかかります。",
     "Number of retries for every single attachment": "各添付ファイルのリトライ回数",
@@ -15079,6 +17804,19 @@ var ja = {
     "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "このコマンドは、下記指定フォルダの 'ノートの隣' 設定と末尾の '${notename}' パターンが有効で、パスに ${date} パターンを含まないことが必要です。\nまず設定を変更してください!\r\n",
     "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "警告!\r\n\'{p}\' の添付ファイルが処理されましたが、一部の添付ファイルがダウンロード/置換されませんでした...",
     "{p} attachments for note {p} were processed.": "ノート {p} の {p} 個の添付ファイルが処理されました。",
+    "Buy me a coffee": "コーヒーを奢る",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "Local Images PlusがObsidianのワークフローを改善しているなら、開発をサポートしてください。一杯のコーヒーがこのプロジェクトの活力になります！",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "新しい添付ファイル名のテンプレート。変数: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. デフォルト: ${md5}_MD5（後方互換性）。例: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. サブフォルダーには「新しい添付ファイルの保存フォルダー」を使用してください。",
+    "Save source URL": "ソースURLを保存",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "処理後に元のURLを保持します。「画像の下にリンク」はタグの下に[ソース](url)行を追加します。",
+    "Don't save": "保存しない",
+    "Link below image": "画像の下にリンク",
+    "Text below image": "画像の下にテキスト",
+    "As caption": "キャプションとして",
+    "Support": "サポート",
+    "Enjoying this plugin?": "このプラグインは気に入っていますか？",
+    "Searching for orphaned attachments...": "孤立した添付ファイルを検索中...",
+    "Searching": "検索",
 };
 
 var ko = {
@@ -15092,6 +17830,8 @@ var ko = {
     "Process notes on create/copy/paste.": "생성/복사/붙여넣기 시 노트를 처리합니다.",
     "Process images in frontmatter": "프론트매터의 이미지 처리",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "YAML 프론트매터의 이미지 링크를 다운로드하고 로컬화합니다. 비활성화 시 프론트매터 블록은 그대로 유지됩니다 ('source' 키는 본문 이미지의 참조자로 계속 사용됨).",
+    "Plain paths in frontmatter": "프론트매터에서 일반 경로 사용",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "YAML 프론트매터에 ![[embed]] 링크 대신 일반 파일 경로를 기록합니다. Bases의 이미지 속성에 필요합니다. 본문 링크는 영향을 받지 않습니다.",
     "Automatic processing interval": "자동 처리 간격",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "처리 업데이트 간격(초). 플러그인에 변경된 노트 내용이 드러나는 데 시간이 걸립니다.",
     "Number of retries for every single attachment": "각 첨부파일별 재시도 횟수",
@@ -15192,6 +17932,19 @@ var ko = {
     "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "이 명령은 아래 지정된 폴더의 '노트 옆' 설정과 끝에 '${notename}' 패턴이 활성화되어야 하며, 경로에 ${date} 패턴이 포함될 수 없습니다.\n먼저 설정을 변경하세요!\r\n",
     "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "경고!\r\n\'{p}\'의 첨부 파일이 처리되었으나 일부 첨부 파일이 다운로드/교체되지 않았습니다...",
     "{p} attachments for note {p} were processed.": "노트 {p}의 {p}개 첨부 파일이 처리되었습니다.",
+    "Buy me a coffee": "커피 한 잔 사주세요",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "Local Images Plus가 Obsidian 워크플로우를 개선하고 있다면 개발을 지원해 주세요. 커피 한 잔이 이 프로젝트를 살아 있게 합니다!",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "새 첨부 파일 이름 템플릿. 변수: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. 기본값: ${md5}_MD5 (하위 호환성). 예시: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. 하위 폴더에는 '새 첨부 파일 저장 폴더'를 사용하세요.",
+    "Save source URL": "소스 URL 저장",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "처리 후 원래 URL을 유지합니다. '이미지 아래 링크'는 태그 아래에 [소스](url) 줄을 추가합니다.",
+    "Don't save": "저장 안 함",
+    "Link below image": "이미지 아래 링크",
+    "Text below image": "이미지 아래 텍스트",
+    "As caption": "캡션으로",
+    "Support": "지원",
+    "Enjoying this plugin?": "이 플러그인이 마음에 드시나요?",
+    "Searching for orphaned attachments...": "고아 첨부 파일 검색 중...",
+    "Searching": "검색",
 };
 
 var zh = {
@@ -15205,6 +17958,8 @@ var zh = {
     "Process notes on create/copy/paste.": "创建/复制/粘贴时处理笔记。",
     "Process images in frontmatter": "处理 Frontmatter 中的图片",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "下载并本地化 YAML frontmatter 中的图片链接。禁用时 frontmatter 块保持不变（'source' 键仍用作正文图片的引用来源）。",
+    "Plain paths in frontmatter": "Frontmatter 中使用纯文件路径",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "在 YAML frontmatter 中写入纯文件路径而非 ![[embed]] 链接。Bases 图片属性需要此功能。正文链接不受影响。",
     "Automatic processing interval": "自动处理间隔",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "处理更新的间隔（秒）。插件需要一些时间来检测笔记的变更内容。",
     "Number of retries for every single attachment": "每个附件的重试次数",
@@ -15305,6 +18060,19 @@ var zh = {
     "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "此命令需要启用设置 '下方指定文件夹中的笔记旁' 和末尾的 '${notename}' 模式，路径也不能包含 ${date} 模式。\n请先更改设置!\r\n",
     "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "警告!\r\n已处理 \'{p}\' 的附件，但某些附件未下载/替换...",
     "{p} attachments for note {p} were processed.": "已处理笔记 {p} 的 {p} 个附件。",
+    "Buy me a coffee": "请我喝杯咖啡",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "如果 Local Images Plus 让您的 Obsidian 工作流更顺畅，请考虑支持开发。每杯咖啡都让这个项目保持活力！",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "新附件名称的模板。变量：${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}。默认：${md5}_MD5（向后兼容）。示例：${originalname}, ${notename}-${originalname}, ${date}-${md5:8}。使用「保存新附件的文件夹」设置子文件夹。",
+    "Save source URL": "保存来源URL",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "处理后保留原始URL。「图片下方链接」在标签下方添加[来源](url)行。",
+    "Don't save": "不保存",
+    "Link below image": "图片下方链接",
+    "Text below image": "图片下方文本",
+    "As caption": "作为标题",
+    "Support": "支持",
+    "Enjoying this plugin?": "喜欢这个插件吗？",
+    "Searching for orphaned attachments...": "正在搜索孤立附件...",
+    "Searching": "搜索",
 };
 
 var zhTW = {
@@ -15318,6 +18086,8 @@ var zhTW = {
     "Process notes on create/copy/paste.": "建立/複製/貼上時處理筆記。",
     "Process images in frontmatter": "處理 Frontmatter 中的圖片",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "下載並本地化 YAML frontmatter 中的圖片連結。停用時 frontmatter 區塊保持不變（'source' 鍵仍用作正文圖片的參考來源）。",
+    "Plain paths in frontmatter": "Frontmatter 中使用純檔案路徑",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "在 YAML frontmatter 中寫入純檔案路徑而非 ![[embed]] 連結。Bases 圖片屬性需要此功能。正文連結不受影響。",
     "Automatic processing interval": "自動處理間隔",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "處理更新的間隔（秒）。外掛需要一些時間來偵測筆記的變更內容。",
     "Number of retries for every single attachment": "每個附件的重試次數",
@@ -15416,6 +18186,19 @@ var zhTW = {
     "You obsidian media folder set to {p}, and has been created by the plugin. Please, try again.": "您的 Obsidian 媒體資料夾設置為 {p} 並由外掛程式建立。請重試。",
     "{p} attachments for note {p} were processed.": "已處理筆記 {p} 的 {p} 個附件。",
     "{p} file(s) {p}": "{p} 個檔案 {p}",
+    "Buy me a coffee": "請我喝杯咖啡",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "如果 Local Images Plus 讓您的 Obsidian 工作流程更順暢，請考慮支持開發。每杯咖啡都讓這個專案保持活力！",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "新附件名稱的範本。變數：${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}。預設：${md5}_MD5（向後相容）。範例：${originalname}, ${notename}-${originalname}, ${date}-${md5:8}。使用「儲存新附件的資料夾」設定子資料夾。",
+    "Save source URL": "儲存來源URL",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "處理後保留原始URL。「圖片下方連結」在標籤下方新增[來源](url)行。",
+    "Don't save": "不儲存",
+    "Link below image": "圖片下方連結",
+    "Text below image": "圖片下方文字",
+    "As caption": "作為標題",
+    "Support": "支援",
+    "Enjoying this plugin?": "喜歡此外掛嗎？",
+    "Searching for orphaned attachments...": "正在搜尋孤立附件...",
+    "Searching": "搜尋",
 };
 
 var uk = {
@@ -15429,6 +18212,8 @@ var uk = {
     "Process notes on create/copy/paste.": "Обробляти нотатки при створенні/копіюванні/вставці.",
     "Process images in frontmatter": "Обробляти зображення у frontmatter",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Завантажувати та локалізувати посилання на зображення в YAML frontmatter. Коли вимкнено, блок frontmatter залишається незмінним (ключ 'source' все ще використовується як реферер для зображень у тілі).",
+    "Plain paths in frontmatter": "Прості шляхи у frontmatter",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "Записувати прості шляхи до файлів у YAML frontmatter замість ![[embed]] посилань. Необхідно для властивостей-зображень у Bases. Посилання в тілі нотатки не змінюються.",
     "Automatic processing interval": "Інтервал автоматичної обробки",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Інтервал у секундах для оновлення обробки. Потрібен час, щоб змінений вміст нотатки став доступним для плагінів.",
     "Number of retries for every single attachment": "Кількість спроб для кожного вкладення",
@@ -15529,6 +18314,19 @@ var uk = {
     "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Ця команда вимагає налаштування 'Поруч з нотаткою в папці, вказаній нижче' та шаблону '${notename}' в кінці, також шлях не може містити шаблон ${date}.\nБудь ласка, спочатку змініть налаштування!\r\n",
     "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "УВАГА!\r\nВкладення для \'{p}\' оброблено, але деякі вкладення не були завантажені/замінені...",
     "{p} attachments for note {p} were processed.": "{p} вкладень для нотатки {p} оброблено.",
+    "Buy me a coffee": "Пригостіть мене кавою",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "Якщо Local Images Plus робить вашу роботу в Obsidian зручнішою, підтримайте розробку. Кожна чашка кави допомагає проекту жити!",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "Шаблон для імен нових вкладень. Змінні: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. За замовчуванням: ${md5}_MD5 (зворотна сумісність). Приклади: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Використовуйте папку для збереження нових вкладень для підпапок.",
+    "Save source URL": "Зберігати URL джерела",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "Зберігати вихідний URL після обробки. 'Посилання під картинкою' додає рядок [Джерело](url) під тегом.",
+    "Don't save": "Не зберігати",
+    "Link below image": "Посилання під картинкою",
+    "Text below image": "Текст під картинкою",
+    "As caption": "Як підпис",
+    "Support": "Підтримка",
+    "Enjoying this plugin?": "Подобається цей плагін?",
+    "Searching for orphaned attachments...": "Пошук осиротілих вкладень...",
+    "Searching": "Пошук",
 };
 
 var tr = {
@@ -15542,6 +18340,8 @@ var tr = {
     "Process notes on create/copy/paste.": "Oluşturma/kopyalama/yapıştırma işlemlerinde notları işle.",
     "Process images in frontmatter": "Frontmatter'daki görselleri işle",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "YAML frontmatter'daki görsel bağlantılarını indir ve yerelleştir. Devre dışı bırakıldığında frontmatter bloğu dokunulmaz ('source' anahtarı gövde görselleri için referans olarak kullanılır).",
+    "Plain paths in frontmatter": "Frontmatter'da düz dosya yolları",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "YAML frontmatter'a ![[embed]] bağlantıları yerine düz dosya yolları yazın. Bases'teki görsel özellikleri için gereklidir. Gövde bağlantıları etkilenmez.",
     "Automatic processing interval": "Otomatik işleme aralığı",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "İşleme güncellemesi için saniye cinsinden aralık. Bir notun değiştirilmiş içeriğinin eklentilere yansması biraz zaman alır.",
     "Number of retries for every single attachment": "Her ek için yeniden deneme sayısı",
@@ -15642,6 +18442,19 @@ var tr = {
     "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Bu komut, aşağıda belirtilen klasördeki 'Notun yanında' ayarının ve '${notename}' deseninin sonunda etkinleştirilmesini, ayrıca yolların ${date} desenini içermemesini gerektirir.\nLütfen önce ayarları değiştirin!\r\n",
     "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "UYARI!\r\n\'{p}\' için ekler işlendi ancak bazı ekler indirilmedi/değiştirilmedi...",
     "{p} attachments for note {p} were processed.": "{p} not için {p} ek işlendi.",
+    "Buy me a coffee": "Bana bir kahve ısmarla",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "Local Images Plus Obsidian iş akışınızı geliştiriyorsa, geliştirmeyi desteklemeyi düşünün. Her fincan kahve bu projeyi ayakta tutmaya yardımcı olur!",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "Yeni ek adları için şablon. Değişkenler: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Varsayılan: ${md5}_MD5 (geriye dönük uyumlu). Örnekler: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Alt klasörler için 'Yeni ekleri kaydetme klasörü'nü kullanın.",
+    "Save source URL": "Kaynak URL'yi kaydet",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "İşlemden sonra orijinal URL'yi koru. 'Resmin altında bağlantı' etiketin altına [Kaynak](url) satırı ekler.",
+    "Don't save": "Kaydetme",
+    "Link below image": "Resmin altında bağlantı",
+    "Text below image": "Resmin altında metin",
+    "As caption": "Açıklama olarak",
+    "Support": "Destek",
+    "Enjoying this plugin?": "Bu eklentiyi beğendiniz mi?",
+    "Searching for orphaned attachments...": "Yetim ekler aranıyor...",
+    "Searching": "Arama",
 };
 
 var nl = {
@@ -15655,6 +18468,8 @@ var nl = {
     "Process notes on create/copy/paste.": "Notities verwerken bij aanmaken/kopiëren/plakken.",
     "Process images in frontmatter": "Afbeeldingen in frontmatter verwerken",
     "Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images).": "Afbeeldingslinks in de YAML frontmatter downloaden en lokaliseren. Wanneer uitgeschakeld blijft het frontmatter-blok ongewijzigd ('source' sleutel wordt nog steeds gebruikt als referer voor body-afbeeldingen).",
+    "Plain paths in frontmatter": "Gewone paden in frontmatter",
+    "Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected.": "Schrijf gewone bestandspaden in YAML frontmatter in plaats van ![[embed]]-links. Nodig voor afbeeldingseigenschappen in Bases. Links in de body worden niet beïnvloed.",
     "Automatic processing interval": "Interval automatische verwerking",
     "Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins.": "Interval in seconden voor verwerkingsupdate. Het duurt even voordat gewijzigde inhoud van een notitie zichtbaar is voor plugins.",
     "Number of retries for every single attachment": "Aantal pogingen voor elke enkele bijlage",
@@ -15755,6 +18570,19 @@ var nl = {
     "This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n": "Deze opdracht vereist de instelling 'Naast notitie in de onderstaand opgegeven map' en het patroon '${notename}' aan het einde ingeschakeld, ook mag het pad geen ${date} patroon bevatten.\nWijzig eerst de instellingen!\r\n",
     "WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...": "WAARSCHUWING!\r\nBijlagen voor \'{p}\' zijn verwerkt, maar sommige bijlagen zijn niet gedownload/vervangen...",
     "{p} attachments for note {p} were processed.": "{p} bijlagen voor notitie {p} zijn verwerkt.",
+    "Buy me a coffee": "Koop me een kopje koffie",
+    "If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!": "Als Local Images Plus je Obsidian-workflow verbetert, overweeg dan de ontwikkeling te ondersteunen. Elke koffie helpt dit project levend te houden!",
+    "Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders.": "Sjabloon voor nieuwe bijlagenamen. Variabelen: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Standaard: ${md5}_MD5 (achterwaarts compatibel). Voorbeelden: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Gebruik 'Map om nieuwe bijlagen op te slaan' voor submappen.",
+    "Save source URL": "Bron-URL opslaan",
+    "Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag.": "Bewerk de originele URL na verwerking. 'Link onder afbeelding' voegt een [Bron](url)-regel toe onder de tag.",
+    "Don't save": "Niet opslaan",
+    "Link below image": "Link onder afbeelding",
+    "Text below image": "Tekst onder afbeelding",
+    "As caption": "Als bijschrift",
+    "Support": "Ondersteuning",
+    "Enjoying this plugin?": "Bevalt deze plugin?",
+    "Searching for orphaned attachments...": "Zoeken naar weesbijlagen...",
+    "Searching": "Zoeken",
 };
 
 const dicts = {
@@ -15824,8 +18652,45 @@ class SettingTab extends obsidian.PluginSettingTab {
         containerEl.empty();
         containerEl.createEl("h1", { text: APP_TITLE });
         /* Buy Me a Coffee link removed as requested */
-        containerEl.createEl("h3", { text: translate("Interface settings") });
-        new obsidian.Setting(containerEl)
+        // --- tab bar with scroll arrows ---
+        const tabDefs = [
+            translate("Interface settings"),
+            translate("Processing settings"),
+            translate("Note settings"),
+            translate("Orphaned attachments"),
+            translate("Media folder settings"),
+            translate("Troubleshooting"),
+            translate("Support"),
+        ];
+        const tabWrapper = containerEl.createDiv("settings-tab-wrapper");
+        const btnLeft = tabWrapper.createEl("button", { text: "◀", cls: "settings-tab-arrow" });
+        const tabBar = tabWrapper.createDiv("settings-tab-bar");
+        const btnRight = tabWrapper.createEl("button", { text: "▶", cls: "settings-tab-arrow" });
+        btnLeft.addEventListener("click", () => {
+            tabBar.scrollBy({ left: -200, behavior: "smooth" });
+        });
+        btnRight.addEventListener("click", () => {
+            tabBar.scrollBy({ left: 200, behavior: "smooth" });
+        });
+        const panels = [];
+        tabDefs.forEach((title, i) => {
+            const btn = tabBar.createEl("button", {
+                text: title,
+                cls: "settings-tab-btn" + (i === 0 ? " active" : ""),
+            });
+            const panel = containerEl.createDiv("settings-tab-panel");
+            panel.style.display = i === 0 ? "" : "none";
+            panels.push(panel);
+            btn.addEventListener("click", () => {
+                panels.forEach((p, j) => {
+                    p.style.display = j === i ? "" : "none";
+                    tabBar.children[j].classList.toggle("active", j === i);
+                });
+            });
+        });
+        // --- Section 1: Interface settings ---
+        const elInterface = panels[0];
+        new obsidian.Setting(elInterface)
             .setName(translate("Show notifications"))
             .setDesc(translate("Show notifications when pages were processed."))
             .addToggle((toggle) => toggle
@@ -15834,7 +18699,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.showNotifications = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elInterface)
             .setName(translate("Context menu: download single image"))
             .setDesc(translate("Show 'Download this image' when right-clicking a remote image in Live Preview. Downloads only that image and replaces its link."))
             .addToggle((toggle) => toggle
@@ -15843,7 +18708,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.contextMenuDownload = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elInterface)
             .setName(translate("Disable additional commands"))
             .setDesc(translate("Do not show additional commands in command palette. Reload the plugin in settings to take effect (turn off/on)."))
             .addToggle((toggle) => toggle
@@ -15852,8 +18717,9 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.disAddCom = value;
             yield this.plugin.saveSettings();
         })));
-        containerEl.createEl("h3", { text: translate("Processing settings") });
-        new obsidian.Setting(containerEl)
+        // --- Section 2: Processing settings ---
+        const elProcessing = panels[1];
+        new obsidian.Setting(elProcessing)
             .setName(translate("Automatic processing"))
             .setDesc(translate("Process notes on create/copy/paste."))
             .addToggle((toggle) => toggle
@@ -15863,7 +18729,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
             this.plugin.setupQueueInterval();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("Process images in frontmatter"))
             .setDesc(translate("Download and localize image links in the YAML frontmatter. When disabled the frontmatter block is left untouched ('source' key is still used as referer for body images)."))
             .addToggle((toggle) => toggle
@@ -15872,7 +18738,29 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.processFrontmatter = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
+            .setName(translate("Plain paths in frontmatter"))
+            .setDesc(translate("Write plain file paths in YAML frontmatter instead of ![[embed]] links. Required for image properties in Bases. Body links are not affected."))
+            .addToggle((toggle) => toggle
+            .setValue(this.plugin.settings.plainFmPaths)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.plainFmPaths = value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(elProcessing)
+            .setName(translate("Save source URL"))
+            .setDesc(translate("Keep the original URL after processing. 'Link below image' adds a [Source](url) line under the tag."))
+            .addDropdown((dropdown) => dropdown
+            .addOption("none", translate("Don't save"))
+            .addOption("link", translate("Link below image"))
+            .addOption("text", translate("Text below image"))
+            .addOption("caption", translate("As caption"))
+            .setValue(this.plugin.settings.saveSourceUrl)
+            .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+            this.plugin.settings.saveSourceUrl = value;
+            yield this.plugin.saveSettings();
+        })));
+        new obsidian.Setting(elProcessing)
             .setName(translate("Automatic processing interval"))
             .setDesc(translate("Interval in seconds for processing update. It takes some time to reveal changed content of a note to plugins."))
             .addText((text) => text
@@ -15893,7 +18781,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
             this.plugin.setupQueueInterval();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("Number of retries for every single attachment"))
             .setDesc(translate("If an error occurs during downloading (network etc.) try to re-download several times."))
             .addText((text) => text
@@ -15910,7 +18798,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.tryCount = numberValue;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("Process all new markdown files"))
             .setDesc(translate("Process all new created/cloud-synced files with corresponding extensions."))
             .addToggle((toggle) => toggle
@@ -15919,7 +18807,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.processCreated = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("Process all new attachments"))
             .setDesc(translate("The plugin will also move all attachments from obsidian default folder to plugin folder."))
             .addToggle((toggle) => toggle
@@ -15928,7 +18816,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.processAll = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("File name template"))
             .setDesc(translate("Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use 'Folder to save new attachments' for subfolders."))
             .addText((text) => text
@@ -15943,7 +18831,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })))
             .setDesc(translate("Template for new attachment names. Variables: ${md5}, ${md5:N}, ${originalname}, ${notename}, ${date}, ${unique}. Default: ${md5}_MD5 (backward compatible). Examples: ${originalname}, ${notename}-${originalname}, ${date}-${md5:8}. Use Folder to save new attachments for subfolders."));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("Use markdown link format with angle brackets ![](<link>)"))
             .setDesc(translate("Force using markdown link format with angle brackets instead of encoded URI when generating links."))
             .addToggle((toggle) => toggle
@@ -15952,7 +18840,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.useMarkdownLinkFormat = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("Process Canvas files"))
             .setDesc(translate("Process images in Obsidian Canvas (.canvas files)"))
             .addToggle((toggle) => toggle
@@ -15961,7 +18849,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.processCanvas = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("URL exclude regexps"))
             .setDesc(translate("One per line: regexps to exclude URLs when downloading. Examples:\n^https://example\\.com/.*\n.*ads\\..*"))
             .addTextArea((text) => {
@@ -15974,7 +18862,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             text.inputEl.rows = 4;
             text.inputEl.cols = 50;
         });
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("Download unknown filetypes"))
             .setDesc(translate("Download unknown filetypes and save them with .unknown extension."))
             .addToggle((toggle) => toggle
@@ -15983,7 +18871,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.downUnknown = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("Compress images (Web Images)"))
             .setDesc(translate("Compress all downloaded images. May reduce file size by several times, but can also affect performance."))
             .addToggle((toggle) => toggle
@@ -15992,7 +18880,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.PngToJpeg = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("Compress images (Pasted Images)"))
             .setDesc(translate("Compress all pasted images. May reduce file size by several times, but can also affect performance."))
             .addToggle((toggle) => toggle
@@ -16001,7 +18889,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.PngToJpegLocal = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("Compression type"))
             .setDesc(translate("Select image compression type. Keep in mind that webp format has image size limitations."))
             .addDropdown((dropdown) => {
@@ -16014,7 +18902,7 @@ class SettingTab extends obsidian.PluginSettingTab {
                 yield this.plugin.saveSettings();
             }));
         });
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("Excluded folders"))
             .setDesc(translate("Excluded folders. New files in these folders will not be processed automatically."))
             .addTextArea((text) => {
@@ -16040,7 +18928,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             text.inputEl.rows = 4;
             text.inputEl.style.width = "100%";
         });
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("Image Quality"))
             .setDesc(translate("Image quality selection (30 to 100)."))
             .addText((text) => text
@@ -16057,7 +18945,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.JpegQuality = numberValue;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("File size lower limit in Kb"))
             .setDesc(translate("Do not download files with size less than this value. Set 0 for no limit."))
             .addText((text) => text
@@ -16076,7 +18964,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.filesizeLimit = numberValue;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("Exclusions"))
             .setDesc(translate("The plugin will not download attachments with these extensions."))
             .addText((text) => text
@@ -16085,7 +18973,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.ignoredExt = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elProcessing)
             .setName(translate("Do not create Obsidian attachment folder (For compatibility with other plugins)"))
             .setDesc(translate("The plugin will not create an Obsidian attachments folder. This may cause the plugin to behave incorrectly. "))
             .addToggle((toggle) => toggle
@@ -16094,8 +18982,9 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.DoNotCreateObsFolder = value;
             yield this.plugin.saveSettings();
         })));
-        containerEl.createEl("h3", { text: translate("Note settings") });
-        new obsidian.Setting(containerEl)
+        // --- Section 3: Note settings ---
+        const elNote = panels[2];
+        new obsidian.Setting(elNote)
             .setName(translate("Preserve link captions"))
             .setDesc(translate("Add media links captions to converted tags."))
             .addToggle((toggle) => toggle
@@ -16104,7 +18993,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.useCaptions = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elNote)
             .setName(translate("Include pattern"))
             .setDesc(translate("Include only files with extensions only matching this pattern. Example: md|canvas"))
             .addText((text) => text
@@ -16131,8 +19020,9 @@ class SettingTab extends obsidian.PluginSettingTab {
                 yield this.plugin.saveSettings();
             }
         })));
-        containerEl.createEl("h3", { text: translate("Orphaned attachments") });
-        new obsidian.Setting(containerEl)
+        // --- Section 4: Orphaned attachments ---
+        const elOrphans = panels[3];
+        new obsidian.Setting(elOrphans)
             .setName(translate("Remove files completely"))
             .setDesc(translate("Do not move orphaned files into the garbage can."))
             .addToggle((toggle) => toggle
@@ -16141,8 +19031,9 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.removeOrphansCompl = value;
             yield this.plugin.saveSettings();
         })));
-        containerEl.createEl("h3", { text: translate("Media folder settings") });
-        new obsidian.Setting(containerEl)
+        // --- Section 5: Media folder settings ---
+        const elMedia = panels[4];
+        new obsidian.Setting(elMedia)
             .setName(translate("How to write paths in tags"))
             .setDesc(translate("Select whether to write full paths in tags or not."))
             .addDropdown((text) => text
@@ -16154,7 +19045,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.pathInTags = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elMedia)
             .setName(translate("Date format"))
             .setDesc(translate("Date format for ${date} variable. E.g. \
                   | MMMM Do YYYY, h:mm:ss a (March 20th 2024, 10:54:46 am) \
@@ -16170,7 +19061,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.DateFormat = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elMedia)
             .setName(translate("Folder to save new attachments"))
             .setDesc(translate("Select where all new attachments will be saved.\nYou can use templates e.g. _resouces/${date}/${notename}"))
             .addDropdown((text) => text
@@ -16183,7 +19074,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.displSw(containerEl);
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elMedia)
             .setName(translate("Move/delete/rename media folder"))
             .setDesc(translate("Rename or move this folder to the obsidian or system garbage can when the associated note is deleted/renamed/moved. \
                   This setting takes effect only if the path contains ${notename} template at the end\
@@ -16196,7 +19087,7 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.removeMediaFolder = value;
             yield this.plugin.saveSettings();
         })));
-        new obsidian.Setting(containerEl)
+        new obsidian.Setting(elMedia)
             .setName(translate("Media folder"))
             .setDesc(translate("Folder to keep all downloaded media files."))
             .setClass("media_folder_set")
@@ -16210,14 +19101,36 @@ class SettingTab extends obsidian.PluginSettingTab {
             this.plugin.settings.mediaRootDir = value;
             yield this.plugin.saveSettings();
         })));
-        containerEl.createEl("h3", { text: translate("Troubleshooting") });
-        new obsidian.Setting(containerEl)
+        // --- Section 6: Troubleshooting ---
+        const elTroubleshoot = panels[5];
+        new obsidian.Setting(elTroubleshoot)
             .setName(translate("Debug"))
             .setDesc(translate("Enable debug output to console."))
             .addToggle((toggle) => toggle.setValue(VERBOSE).onChange((value) => __awaiter(this, void 0, void 0, function* () {
             setDebug(value);
             yield this.plugin.saveSettings();
         })));
+        // --- Section 7: Support ---
+        const elSupport = panels[6];
+        const supportCard = elSupport.createDiv("settings-support-card");
+        supportCard.createEl("div", {
+            cls: "settings-support-icon",
+            text: "☕",
+        });
+        supportCard.createEl("h2", {
+            cls: "settings-support-title",
+            text: translate("Enjoying this plugin?"),
+        });
+        supportCard.createEl("p", {
+            cls: "settings-support-desc",
+            text: translate("If Local Images Plus makes your Obsidian workflow better, consider supporting its development. Every coffee helps keep this project alive!"),
+        });
+        const bmcLink = supportCard.createEl("a", {
+            cls: "settings-support-btn",
+            href: "https://www.buymeacoffee.com/sergeikorneev",
+        });
+        bmcLink.setAttribute("target", "_blank");
+        bmcLink.setText("☕  " + translate("Buy me a coffee"));
         this.displSw(containerEl);
     }
 }
@@ -22226,6 +25139,7 @@ moment$1.exports;
 var momentExports = moment$1.exports;
 var moment = /*@__PURE__*/getDefaultExportFromCjs(momentExports);
 
+const path$1 = nodePath$1;
 function imageTagProcessor(app, noteFile, settings, defaultdir, source = "") {
     //////////??????????????????????????????
     const unique = Math.random().toString(16).slice(2);
@@ -22260,7 +25174,7 @@ function imageTagProcessor(app, noteFile, settings, defaultdir, source = "") {
                 let fileData;
                 if (protocol == "data:") {
                     logError("ReadBase64: \r\n" + link, false);
-                    fileData = yield base64ToBuff(link);
+                    fileData = base64ToBuff(link);
                 }
                 else if (protocol == "file:") {
                     logError("Readlocal: \r\n" + fpath, false);
@@ -22309,12 +25223,17 @@ function imageTagProcessor(app, noteFile, settings, defaultdir, source = "") {
                     const mediaDir = yield getMDir(app.app, noteFile, settings, defaultdir, unique);
                     const { fileName, needWrite } = yield lock.acquire(link, function () {
                         return __awaiter(this, void 0, void 0, function* () {
-                            const parsedUrl = new url.URL(link);
+                            const parsedUrl = new URL(link);
                             let fileExt = yield getFileExt(fileData, parsedUrl.pathname);
                             if (fileExt == "png" && settings.PngToJpeg) {
                                 fileData = yield blobToJpegArrayBuffer(fileData, settings.JpegQuality * 0.01, settings.ImgCompressionType);
                                 logError("arbuf: ");
                                 logError(fileData);
+                                // If conversion failed, keep original data and log warning
+                                if (fileData == null) {
+                                    logError("Image compression failed, using original file data", false);
+                                    // fileData remains the original ArrayBuffer, conversion was skipped
+                                }
                             }
                             const { fileName, needWrite } = yield chooseFileName(app.app.vault.adapter, mediaDir, link, fileData, settings, {
                                 notename: noteFile.basename,
@@ -22335,38 +25254,25 @@ function imageTagProcessor(app, noteFile, settings, defaultdir, source = "") {
                     });
                     if (fileName) {
                         let { pathWiki, pathMd, pathMdAngle } = yield getRDir(noteFile, settings, fileName, link);
-                        let imageTag = "";
                         const useMd = settings.useMarkdownLinkFormat ||
-                            app.app.vault.getConfig("useMarkdownLinks");
-                        if (!useMd) {
-                            // image size has higher priority, otherwise the caption is kept
-                            if (!settings.useCaptions) {
-                                caption = "";
-                            }
-                            else if (AttSize.length) {
-                                caption = "|" + AttSize;
-                            }
-                            else {
-                                caption = caption.length ? "|" + caption : "";
-                            }
-                            imageTag = `![[${pathWiki}${caption}]]`;
-                        }
-                        else {
-                            !settings.useCaptions || !caption.length
-                                ? (caption = "")
-                                : (caption = " " + caption);
-                            const mdLink = settings.useMarkdownLinkFormat
-                                ? `<${pathMdAngle}>`
-                                : pathMd;
-                            imageTag = `![${anchor}](${mdLink}${caption})`;
-                        }
-                        //the tag without the frontmatter key: what the metadata cache reports as the embed
-                        const bareImageTag = imageTag;
-                        //frontmatter values must stay a valid yaml scalar: restore the key and the quotes
-                        if (keypart !== undefined && keypart !== "") {
-                            const quote = q1 || q2 || `"`;
-                            imageTag = keypart + quote + imageTag + quote;
-                        }
+                            safeGetConfig(app.app.vault, "useMarkdownLinks", false);
+                        const { imageTag, bareImageTag } = buildImageTag({
+                            pathWiki,
+                            pathMd,
+                            pathMdAngle,
+                            anchor,
+                            caption,
+                            attSize: AttSize,
+                            keypart,
+                            q1,
+                            q2,
+                            useMd,
+                            useCaptions: settings.useCaptions,
+                            plainFmPaths: settings.plainFmPaths,
+                            useMarkdownLinkFormat: settings.useMarkdownLinkFormat,
+                            sourceUrl: link,
+                            saveSourceUrl: settings.saveSourceUrl,
+                        });
                         return [replp, imageTag, bareImageTag];
                     }
                     else {
@@ -22396,11 +25302,11 @@ function getRDir(noteFile, settings, fileName, link = undefined) {
         let pathMd = "";
         let pathMdAngle = "";
         const notePath = normalizePath(noteFile.parent.path);
-        const parsedPath = path__default["default"].parse(normalizePath(fileName));
+        const parsedPath = path$1.parse(normalizePath(fileName));
         const parsedPathE = {
-            parentd: path__default["default"].basename(parsedPath["dir"]),
+            parentd: path$1.basename(parsedPath["dir"]),
             basen: parsedPath["name"] + parsedPath["ext"],
-            lnkurid: path__default["default"].basename(decodeURI(link)),
+            lnkurid: path$1.basename(decodeURI(link)),
             pathuri: encodeURI(normalizePath(fileName)),
         };
         switch (settings.pathInTags) {
@@ -22409,7 +25315,7 @@ function getRDir(noteFile, settings, fileName, link = undefined) {
                 break;
             case "onlyRelative":
                 pathWiki = pathJoin([
-                    path__default["default"].relative(path__default["default"].sep + notePath, path__default["default"].sep + parsedPath["dir"]),
+                    path$1.relative(path$1.sep + notePath, path$1.sep + parsedPath["dir"]),
                     parsedPathE["basen"],
                 ]);
                 pathMd = encodeURI(pathWiki);
@@ -22437,7 +25343,7 @@ function getMDir(app, noteFile, settings, defaultdir = false, unique = "") {
     return __awaiter(this, void 0, void 0, function* () {
         noteFile.parent.path;
         const current_date = moment().format(settings.DateFormat);
-        const obsmediadir = app.vault.getConfig("attachmentFolderPath");
+        const obsmediadir = safeGetConfig(app.vault, "attachmentFolderPath", "./");
         const mediadir = settings.mediaRootDir;
         var attdir = settings.saveAttE;
         if (defaultdir) {
@@ -22474,7 +25380,7 @@ function getMDir(app, noteFile, settings, defaultdir = false, unique = "") {
 }
 function chooseFileName(adapter, dir, link, contentData, settings, ctx = {}) {
     return __awaiter(this, void 0, void 0, function* () {
-        const parsedUrl = new url.URL(link);
+        const parsedUrl = new URL(link);
         const ignoredExt = settings.ignoredExt.split("|");
         let fileExt = yield getFileExt(contentData, parsedUrl.pathname);
         logError("file: " + link + " content: " + contentData + " file ext: " + fileExt, false);
@@ -22489,10 +25395,10 @@ function chooseFileName(adapter, dir, link, contentData, settings, ctx = {}) {
             rawName = decodeURI(parsedUrl.pathname);
         }
         catch (e) { }
-        const originalname = rawName.endsWith("/") ? "" : path__default["default"].parse(rawName).name;
-        const nameCtx = Object.assign(Object.assign({}, ctx), { md5: md5Sig(contentData), originalname: originalname, unique: Math.random().toString(16).slice(2) });
+        const originalname = rawName.endsWith("/") ? "" : path$1.parse(rawName).name;
+        const nameCtx = Object.assign(Object.assign({}, ctx), { md5: md5Sig(extractSamples(contentData)), originalname: originalname, unique: Math.random().toString(16).slice(2) });
         const baseName = renderNameTemplate(settings.FileNameTemplate, nameCtx, "file");
-        const { fileName, needWrite } = yield resolveUniqueName(adapter, dir, baseName, fileExt, nameCtx.md5);
+        const { fileName, needWrite } = yield resolveUniqueName(adapter, dir, baseName, fileExt, nameCtx.md5, { kind: "data", data: contentData });
         logError("File name: " + fileName, false);
         if (!fileName) {
             throw new Error("Failed to generate file name for media file.");
@@ -22609,14 +25515,15 @@ class ModalW1 extends obsidian.Modal {
         contentEl.createDiv({
             text: this.messg
         });
-        contentEl.createEl("button", {
-            cls: ["mod-cta"],
+        const btnContainer = contentEl.createDiv({ cls: "modal-btn-container" });
+        btnContainer.createEl("button", {
+            cls: ["mod-cta", "modal-btn"],
             text: "Cancel"
         }).addEventListener("click", () => __awaiter(this, void 0, void 0, function* () {
             this.close();
         }));
-        contentEl.createEl("button", {
-            cls: ["mod-cta"],
+        btnContainer.createEl("button", {
+            cls: ["mod-cta", "modal-btn", "modal-btn-primary"],
             text: "Confirm"
         }).addEventListener("click", () => __awaiter(this, void 0, void 0, function* () {
             this.close();
@@ -22631,7 +25538,8 @@ class ModalW1 extends obsidian.Modal {
     }
 }
 
-require("fs").promises;
+const path = nodePath$1;
+nodeFs === null || nodeFs === void 0 ? void 0 : nodeFs.promises;
 //import { count, log } from "console"
 class LocalImagesPlugin extends obsidian.Plugin {
     constructor() {
@@ -22639,6 +25547,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
         this.modifiedQueue = new UniqueQueue();
         this.intervalId = 0;
         this.newfProcInt = 0;
+        this.isProcessingTimer = false;
         this.newfCreated = [];
         this.noteModified = [];
         this.newfMoveReq = true;
@@ -22646,6 +25555,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
         this.ctxMenuImageSrc = "";
         this.ctxMenuImageFile = null;
         this.origMenuShow = null;
+        this.ribbonIconEl = null;
         // using arrow syntax for callbacks to correctly pass this context
         this.processActivePage = (defaultdir = false) => () => __awaiter(this, void 0, void 0, function* () {
             logError("processActivePage");
@@ -22688,14 +25598,14 @@ class LocalImagesPlugin extends obsidian.Plugin {
         });
         this.removeOrphans = (type = undefined, filesToRemove = undefined, noteFile = undefined) => () => __awaiter(this, void 0, void 0, function* () {
             var _a, _b, _c, _d, _e, _f, _g, _h;
-            const obsmediadir = app.vault.getConfig("attachmentFolderPath");
+            const obsmediadir = safeGetConfig(app.vault, "attachmentFolderPath", "./");
             const allFiles = this.app.vault.getFiles();
             let oldRootdir = this.settings.mediaRootDir;
             if (type == "plugin") {
                 let orphanedAttachments = [];
                 let allAttachmentsLinks = [];
                 if (this.settings.saveAttE != "nextToNoteS" ||
-                    !path__default["default"].basename(oldRootdir).endsWith("${notename}") ||
+                    !path.basename(oldRootdir).endsWith("${notename}") ||
                     oldRootdir.includes("${date}")) {
                     this.Notify(translate("This command requires the settings 'Next to note in the folder specified below' and pattern '${notename}' at the end to be enabled, also the path cannot contain ${date} pattern.\nPlease, change settings first!\r\n"));
                     return;
@@ -22709,8 +25619,8 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 }
                 if (this.ExemplaryOfMD(noteFile.path) ||
                     this.ExemplaryOfCANVAS(noteFile.path)) {
-                    oldRootdir = oldRootdir.replace("${notename}", (_a = path__default["default"].parse(noteFile.path)) === null || _a === void 0 ? void 0 : _a.name);
-                    oldRootdir = trimAny(pathJoin([(_b = path__default["default"].parse(noteFile.path)) === null || _b === void 0 ? void 0 : _b.dir, oldRootdir]), ["/"]);
+                    oldRootdir = oldRootdir.replace("${notename}", (_a = path.parse(noteFile.path)) === null || _a === void 0 ? void 0 : _a.name);
+                    oldRootdir = trimAny(pathJoin([(_b = path.parse(noteFile.path)) === null || _b === void 0 ? void 0 : _b.dir, oldRootdir]), ["/"]);
                     if (!(yield this.app.vault.exists(oldRootdir))) {
                         this.Notify(translate("The attachment folder {p} does not exist!", [oldRootdir]));
                         return;
@@ -22736,15 +25646,15 @@ class LocalImagesPlugin extends obsidian.Plugin {
                     }
                     if (embeds) {
                         for (const embed of embeds) {
-                            allAttachmentsLinks.push(path__default["default"].parse(embed.link).name +
-                                trimTags(path__default["default"].parse(embed.link).ext));
-                            logError(path__default["default"].basename(embed.link));
+                            allAttachmentsLinks.push(path.parse(embed.link).name +
+                                trimTags(path.parse(embed.link).ext));
+                            logError(path.basename(embed.link));
                         }
                     }
                     if (links) {
                         for (const link of links) {
-                            allAttachmentsLinks.push(path__default["default"].parse(link.link).name + trimTags(path__default["default"].parse(link.link).ext));
-                            logError(path__default["default"].basename(link.link));
+                            allAttachmentsLinks.push(path.parse(link.link).name + trimTags(path.parse(link.link).ext));
+                            logError(path.basename(link.link));
                         }
                     }
                     if (this.ExemplaryOfCANVAS(noteFile.path)) {
@@ -22777,13 +25687,13 @@ class LocalImagesPlugin extends obsidian.Plugin {
                                     ];
                                     for (const c of candidates) {
                                         if (typeof c === "string" && c) {
-                                            allAttachmentsLinks.push(path__default["default"].basename(c));
+                                            allAttachmentsLinks.push(path.basename(c));
                                         }
                                     }
                                     if (node.data &&
                                         typeof node.data === "string" &&
                                         node.data.startsWith("app://")) {
-                                        allAttachmentsLinks.push(path__default["default"].basename(node.data));
+                                        allAttachmentsLinks.push(path.basename(node.data));
                                     }
                                 }
                                 else if (node.type == "text") {
@@ -22791,7 +25701,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                                         const AllNodeLinks = (_e = (yield this.app.internalPlugins.plugins.canvas.instance.index.parseText(node.text))) === null || _e === void 0 ? void 0 : _e.links;
                                         if (AllNodeLinks) {
                                             for (const Nodelink of AllNodeLinks) {
-                                                allAttachmentsLinks.push(path__default["default"].basename(Nodelink.link));
+                                                allAttachmentsLinks.push(path.basename(Nodelink.link));
                                             }
                                         }
                                     }
@@ -22850,8 +25760,14 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 const allAttachments = (_f = this.app.vault.getAbstractFileByPath(obsmediadir)) === null || _f === void 0 ? void 0 : _f.children;
                 let orphanedAttachments = [];
                 let allAttachmentsLinks = [];
+                const progressNotice = new obsidian.Notice(translate("Searching for orphaned attachments..."), 0);
+                let processed = 0;
                 if (allFiles) {
                     for (const file of allFiles) {
+                        processed++;
+                        if (processed % 25 === 0) {
+                            progressNotice.setMessage(`${APP_TITLE}\n${translate("Searching")}... ${processed}/${allFiles.length}`);
+                        }
                         //Fix for canvas files
                         if (file !== null && this.ExemplaryOfCANVAS(file.path)) {
                             logError(file);
@@ -22888,13 +25804,13 @@ class LocalImagesPlugin extends obsidian.Plugin {
                                         ];
                                         for (const c of candidates) {
                                             if (typeof c === "string" && c) {
-                                                allAttachmentsLinks.push(path__default["default"].basename(c));
+                                                allAttachmentsLinks.push(path.basename(c));
                                             }
                                         }
                                         if (node.data &&
                                             typeof node.data === "string" &&
                                             node.data.startsWith("app://")) {
-                                            allAttachmentsLinks.push(path__default["default"].basename(node.data));
+                                            allAttachmentsLinks.push(path.basename(node.data));
                                         }
                                     }
                                     else if (node.type == "text") {
@@ -22907,7 +25823,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                                             continue;
                                         }
                                         for (const Nodelink of AllNodeLinks) {
-                                            allAttachmentsLinks.push(path__default["default"].basename(Nodelink.link));
+                                            allAttachmentsLinks.push(path.basename(Nodelink.link));
                                         }
                                     }
                                 }
@@ -22950,18 +25866,19 @@ class LocalImagesPlugin extends obsidian.Plugin {
                             }
                             if (embeds) {
                                 for (const embed of embeds) {
-                                    const parsedPath = path__default["default"].parse(embed.link);
+                                    const parsedPath = path.parse(embed.link);
                                     allAttachmentsLinks.push(parsedPath.name + trimTags(parsedPath.ext));
                                 }
                             }
                             if (links) {
                                 for (const link of links) {
-                                    const parsedPath = path__default["default"].parse(link.link);
+                                    const parsedPath = path.parse(link.link);
                                     allAttachmentsLinks.push(parsedPath.name + trimTags(parsedPath.ext));
                                 }
                             }
                         }
                     }
+                    progressNotice.hide();
                     logError(allAttachments);
                     for (const attach of allAttachments) {
                         if (!allAttachmentsLinks.includes(attach.name) &&
@@ -22993,7 +25910,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 }
             }
             if (type == "execremove") {
-                const useSysTrash = this.app.vault.getConfig("trashOption") === "system";
+                const useSysTrash = safeGetConfig(this.app.vault, "trashOption") === "system";
                 const remcompl = this.settings.removeOrphansCompl;
                 let msg = "";
                 if (filesToRemove) {
@@ -23025,6 +25942,11 @@ class LocalImagesPlugin extends obsidian.Plugin {
         };
         this.processMdFilesOnTimer = () => __awaiter(this, void 0, void 0, function* () {
             var _j, _k;
+            //prevent re-entry: vault.modify inside this handler triggers on("modify")
+            //which restarts the timer and causes duplicate "note processed" notifications
+            if (this.isProcessingTimer)
+                return;
+            this.isProcessingTimer = true;
             logError("processMdFilesOnTimer: \r\nNote:\r\n");
             try {
                 window.clearInterval(this.newfProcInt);
@@ -23049,7 +25971,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                         yield this.ensureFolderExists(mdir);
                         for (let el of embeds !== null && embeds !== void 0 ? embeds : []) {
                             logError(el);
-                            const elBaseName = path__default["default"].basename(el.link);
+                            const elBaseName = path.basename(el.link);
                             let oldpath = pathJoin([obsmdir, elBaseName]);
                             let oldtag = el.original;
                             logError(this.newfCreated);
@@ -23062,16 +25984,13 @@ class LocalImagesPlugin extends obsidian.Plugin {
                                     logError(`Cannot find ${el.link} skipping...`);
                                     continue;
                                 }
-                                const oldBinData = yield readFromDiskB(pathJoin([this.app.vault.adapter.basePath, oldpath]), 5000);
-                                const oldMD5 = md5Sig(oldBinData);
-                                const fileExt = yield getFileExt(oldBinData, oldpath);
-                                logError("oldbindata: ");
-                                logError(oldBinData);
+                                const samples = yield readSamples(this.app.vault.adapter, oldpath);
+                                const oldMD5 = md5Sig(samples);
+                                const fileExt = yield getFileExt(samples[0], oldpath);
                                 logError("oldext: " + fileExt);
                                 let newBinData = null;
                                 let contentHash = oldMD5;
-                                let readExisting = (filePath) => readFromDiskB(pathJoin([this.app.vault.adapter.basePath, filePath]), 5000);
-                                let targetExt = path__default["default"].extname(el.link);
+                                let targetExt = path.extname(el.link);
                                 if (!targetExt && fileExt && fileExt != "unknown") {
                                     targetExt = "." + fileExt;
                                 }
@@ -23084,26 +26003,27 @@ class LocalImagesPlugin extends obsidian.Plugin {
                                     logError("newBinData: ");
                                     logError(newBinData);
                                     if (newBinData != null) {
-                                        contentHash = md5Sig(newBinData);
+                                        contentHash = md5Sig(extractSamples(newBinData));
                                         targetExt = compExt;
-                                        readExisting = (filePath) => this.app.vault.adapter.readBinary(filePath);
                                     }
                                 }
                                 const nameCtx = {
                                     md5: contentHash,
-                                    originalname: (_k = (_j = path__default["default"].parse(el.link)) === null || _j === void 0 ? void 0 : _j.name) !== null && _k !== void 0 ? _k : "",
+                                    originalname: (_k = (_j = path.parse(el.link)) === null || _j === void 0 ? void 0 : _j.name) !== null && _k !== void 0 ? _k : "",
                                     notename: note.basename,
                                     date: moment().format(this.settings.DateFormat),
                                     unique: Math.random().toString(16).slice(2),
                                 };
                                 const baseName = renderNameTemplate(this.settings.FileNameTemplate, nameCtx, "file");
-                                const resolved = yield resolveUniqueName(this.app.vault.adapter, mdir, baseName, targetExt, contentHash, readExisting);
+                                const resolved = yield resolveUniqueName(this.app.vault.adapter, mdir, baseName, targetExt, contentHash, newBinData !== null
+                                    ? { kind: "data", data: newBinData }
+                                    : { kind: "file", path: oldpath });
                                 const newpath = resolved.fileName;
                                 const needWrite = resolved.needWrite;
                                 let { pathWiki, pathMd, pathMdAngle } = yield getRDir(note, this.settings, newpath);
                                 if (!needWrite) {
                                     if (oldpath != newpath) {
-                                        logError(path__default["default"].dirname(oldpath));
+                                        logError(path.dirname(oldpath));
                                         logError("Deleting duplicate file: " + oldpath);
                                         yield this.app.vault.adapter.remove(oldpath);
                                     }
@@ -23130,7 +26050,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                                 };
                                 // const vvv = MarkdownLinkParser(el.link);
                                 const useMdLinks = this.settings.useMarkdownLinkFormat ||
-                                    this.app.vault.getConfig("useMarkdownLinks");
+                                    safeGetConfig(this.app.vault, "useMarkdownLinks", false);
                                 let newtag = oldtag.replace(el.link, pathWiki);
                                 if (useMdLinks) {
                                     const mdLink = this.settings.useMarkdownLinkFormat
@@ -23155,6 +26075,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 this.onRet();
             }
             this.onRet();
+            this.isProcessingTimer = false;
         });
         this.setTitleAsName = () => __awaiter(this, void 0, void 0, function* () {
             try {
@@ -23191,9 +26112,12 @@ class LocalImagesPlugin extends obsidian.Plugin {
         this.convertSelToMD = () => __awaiter(this, void 0, void 0, function* () {
             this.app.workspace.activeEditor.editor.replaceSelection(obsidian.htmlToMarkdown(yield this.app.workspace.activeEditor.getSelection()));
         });
+        this.processingFiles = new Set();
         this.processModifiedQueue = () => __awaiter(this, void 0, void 0, function* () {
             const iteration = this.modifiedQueue.iterationQueue();
             for (const page of iteration) {
+                if (this.processingFiles.has(page.path))
+                    continue;
                 this.processPage(page, false);
             }
         });
@@ -23212,7 +26136,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 callback: this.processActivePage(true),
             });
             if (!this.settings.disAddCom) {
-                this.addRibbonIcon("dice", APP_TITLE + "\r\nLocalize attachments (plugin folder)", () => {
+                this.ribbonIconEl = this.addRibbonIcon("dice", APP_TITLE + "\r\nLocalize attachments (plugin folder)", () => {
                     this.processActivePage(false)();
                 });
                 this.addCommand({
@@ -23317,13 +26241,13 @@ class LocalImagesPlugin extends obsidian.Plugin {
                     return;
                 }
                 let rootdir = this.settings.mediaRootDir;
-                const useSysTrash = this.app.vault.getConfig("trashOption") === "system";
+                const useSysTrash = safeGetConfig(this.app.vault, "trashOption") === "system";
                 if (this.settings.saveAttE !== "obsFolder" &&
-                    path__default["default"].basename(rootdir).includes("${notename}") &&
+                    path.basename(rootdir).includes("${notename}") &&
                     !rootdir.includes("${date}")) {
                     rootdir = rootdir.replace("${notename}", file.basename);
                     if (this.settings.saveAttE == "nextToNoteS") {
-                        rootdir = pathJoin([path__default["default"].dirname((file === null || file === void 0 ? void 0 : file.path) || ""), rootdir]);
+                        rootdir = pathJoin([path.dirname((file === null || file === void 0 ? void 0 : file.path) || ""), rootdir]);
                     }
                     try {
                         if (this.app.vault.getAbstractFileByPath(rootdir) instanceof obsidian.TFolder) {
@@ -23349,17 +26273,17 @@ class LocalImagesPlugin extends obsidian.Plugin {
                     return;
                 }
                 let oldRootdir = this.settings.mediaRootDir;
-                if (path__default["default"].basename(oldRootdir).includes("${notename}") &&
+                if (path.basename(oldRootdir).includes("${notename}") &&
                     !oldRootdir.includes("${date}")) {
-                    oldRootdir = oldRootdir.replace("${notename}", (_c = path__default["default"].parse(oldPath)) === null || _c === void 0 ? void 0 : _c.name);
-                    let newRootDir = oldRootdir.replace((_d = path__default["default"].parse(oldPath)) === null || _d === void 0 ? void 0 : _d.name, (_e = path__default["default"].parse(file.path)) === null || _e === void 0 ? void 0 : _e.name);
+                    oldRootdir = oldRootdir.replace("${notename}", (_c = path.parse(oldPath)) === null || _c === void 0 ? void 0 : _c.name);
+                    let newRootDir = oldRootdir.replace((_d = path.parse(oldPath)) === null || _d === void 0 ? void 0 : _d.name, (_e = path.parse(file.path)) === null || _e === void 0 ? void 0 : _e.name);
                     let newRootDir_ = newRootDir;
                     let oldRootdir_ = oldRootdir;
-                    oldRootdir_ = pathJoin([path__default["default"].dirname(oldPath) || "", oldRootdir]);
-                    newRootDir_ = pathJoin([path__default["default"].dirname(file.path) || "", newRootDir]);
+                    oldRootdir_ = pathJoin([path.dirname(oldPath) || "", oldRootdir]);
+                    newRootDir_ = pathJoin([path.dirname(file.path) || "", newRootDir]);
                     try {
                         if (this.app.vault.getAbstractFileByPath(oldRootdir_) instanceof obsidian.TFolder) {
-                            yield this.ensureFolderExists(path__default["default"].dirname(newRootDir_));
+                            yield this.ensureFolderExists(path.dirname(newRootDir_));
                             //await this.app.fileManager.renameFile(app.vault.getAbstractFileByPath(oldRootdir),newRootDir)
                             yield this.app.vault.adapter.rename(oldRootdir_, newRootDir_);
                             this.Notify(translate("Attachment folder was renamed to {p}", [newRootDir_]));
@@ -23390,7 +26314,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                     return;
                 }
                 else {
-                    if (this.settings.processAll) {
+                    if (this.settings.processAll && !this.isProcessingTimer) {
                         if (!this.noteModified.includes(file)) {
                             this.noteModified.push(file);
                         }
@@ -23470,7 +26394,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 try {
                     const parsed = MarkdownLinkParser(match);
                     if (parsed && parsed.link) {
-                        const b = path__default["default"].basename(parsed.link);
+                        const b = path.basename(parsed.link);
                         if (b && !seen.has(b)) {
                             seen.add(b);
                             basenames.push(b);
@@ -23491,7 +26415,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 if (fname.startsWith("http://") || fname.startsWith("https://"))
                     continue;
                 fname = fname.replace(/^app:\/\/local\//, "").replace(/^app:\/\//, "");
-                fname = path__default["default"].basename(fname);
+                fname = path.basename(fname);
                 if (fname && !seen.has(fname)) {
                     seen.add(fname);
                     basenames.push(fname);
@@ -23547,8 +26471,10 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 const processor = imageTagProcessor(this, file, this.settings, false, source);
                 const target = this.normalizeRemoteUrl(targetUrl);
                 const onlyTarget = (replPattern) => {
-                    var _a;
-                    if (this.normalizeRemoteUrl(String((_a = replPattern.link) !== null && _a !== void 0 ? _a : "")) !== target) {
+                    var _a, _b;
+                    const linkMatch = this.normalizeRemoteUrl(String((_a = replPattern.link) !== null && _a !== void 0 ? _a : "")) === target;
+                    const innerMatch = this.normalizeRemoteUrl(String((_b = replPattern.innerLink) !== null && _b !== void 0 ? _b : "")) === target;
+                    if (!linkMatch && !innerMatch) {
                         return replPattern.replp;
                     }
                     return processor(replPattern);
@@ -23582,6 +26508,20 @@ class LocalImagesPlugin extends obsidian.Plugin {
             if (file == null) {
                 return null;
             }
+            if (this.processingFiles.has(file.path)) {
+                return null;
+            }
+            this.processingFiles.add(file.path);
+            try {
+                return yield this.processPageInner(file, defaultdir);
+            }
+            finally {
+                this.processingFiles.delete(file.path);
+            }
+        });
+    }
+    processPageInner(file, defaultdir = false) {
+        return __awaiter(this, void 0, void 0, function* () {
             if (this.settings.processCanvas && this.ExemplaryOfCANVAS(file.path)) {
                 const content = yield this.app.vault.cachedRead(file);
                 if (content.length == 0) {
@@ -23632,11 +26572,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 });
                 this.Notify(translate("WARNING!\r\nAttachments for \'{p}\' were processed, but some attachments were not downloaded/replaced...", [file.path]));
             }
-            else {
-                if (this.settings.showNotifications) {
-                    this.Notify(translate("Page '{p}' has been processed, but nothing was changed.", [file.path]));
-                }
-            }
+            else ;
         });
     }
     onPasteFunc(evt = undefined, editor = undefined, info = undefined) {
@@ -23648,16 +26584,37 @@ class LocalImagesPlugin extends obsidian.Plugin {
             if (!this.settings.realTimeUpdate) {
                 return;
             }
+            //drag events carry data in dataTransfer, not clipboardData;
+            //file drops are handled natively by Obsidian — nothing to process here
+            if (!evt.clipboardData) {
+                return;
+            }
             try {
                 const activeFile = this.getCurrentNote();
-                const fItems = evt.clipboardData.files;
-                const tItems = evt.clipboardData.items;
-                if (fItems.length != 0 ||
-                    this.ThePathExcluded(String((_a = activeFile.parent) === null || _a === void 0 ? void 0 : _a.path))) {
+                if (!activeFile) {
                     return;
                 }
+                const fItems = evt.clipboardData.files;
+                const tItems = evt.clipboardData.items;
+                //skip if clipboard contains ANY non-text content (files, images, etc.)
+                //Obsidian handles all file pastes natively — plugin only processes
+                //pure text/html pastes containing media URLs
+                const clipTypes = Array.from(evt.clipboardData.types);
+                const hasNonText = clipTypes.some((t) => t !== "text/plain" && t !== "text/html");
+                if (fItems.length != 0 || hasNonText) {
+                    return;
+                }
+                if (this.ThePathExcluded(String((_a = activeFile.parent) === null || _a === void 0 ? void 0 : _a.path))) {
+                    return;
+                }
+                //also check individual items for file kind
                 for (const key in tItems) {
-                    // Check if it was a text/html
+                    if (tItems[key].kind === "file") {
+                        return;
+                    }
+                }
+                //second pass: process string items (text/html with media links)
+                for (const key in tItems) {
                     if (tItems[key].kind == "string") {
                         if (this.settings.realTimeUpdate) {
                             const cont = obsidian.htmlToMarkdown(evt.clipboardData.getData("text/html")) +
@@ -23677,7 +26634,7 @@ class LocalImagesPlugin extends obsidian.Plugin {
                 }
             }
             catch (e) {
-                this.Notify(translate("Please select a note or click inside selected note in canvas."));
+                logError("onPasteFunc: " + e, false);
                 return;
             }
         });
@@ -23760,14 +26717,33 @@ class LocalImagesPlugin extends obsidian.Plugin {
     // ------------  Load / Save settings -----------------
     onunload() {
         return __awaiter(this, void 0, void 0, function* () {
+            //remove ribbon icon
+            if (this.ribbonIconEl) {
+                this.ribbonIconEl.remove();
+                this.ribbonIconEl = null;
+            }
+            //restore patched Menu prototype
             if (this.origMenuShow) {
                 obsidian.Menu.prototype.showAtMouseEvent = this.origMenuShow;
                 this.origMenuShow = null;
             }
+            //clear all timers
+            if (this.intervalId) {
+                window.clearInterval(this.intervalId);
+                this.intervalId = 0;
+            }
+            if (this.newfProcInt) {
+                window.clearInterval(this.newfProcInt);
+                this.newfProcInt = 0;
+            }
+            //remove workspace event listeners
             this.app.workspace.off("editor-drop", null);
             this.app.workspace.off("editor-paste", null);
             this.app.workspace.off("file-menu", null);
-            //this.app.vault.off("create",  null)
+            //clear processing state
+            this.noteModified = [];
+            this.newfCreated = [];
+            this.newfCreatedByDownloader = [];
             logError(" unloaded.");
         });
     }

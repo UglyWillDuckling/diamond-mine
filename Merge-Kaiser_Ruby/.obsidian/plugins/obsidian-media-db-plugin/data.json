@@ -33,7 +33,7 @@
   "seriesTemplate": "~/%/series template for DB.md",
   "seasonTemplate": "",
   "mangaTemplate": "",
-  "gameTemplate": "~/%/template - videogame.md",
+  "gameTemplate": "",
   "wikiTemplate": "",
   "musicReleaseTemplate": "",
   "boardgameTemplate": "",
@@ -1031,7 +1031,7 @@
         {
           "property": "englishTitle",
           "newProperty": "",
-          "mapping": "remove",
+          "mapping": "default",
           "locked": false,
           "wikilink": false
         },
@@ -1080,7 +1080,7 @@
         {
           "property": "plot",
           "newProperty": "",
-          "mapping": "remove",
+          "mapping": "default",
           "locked": false,
           "wikilink": false
         },
@@ -1108,7 +1108,7 @@
         {
           "property": "episodes",
           "newProperty": "",
-          "mapping": "remove",
+          "mapping": "default",
           "locked": false,
           "wikilink": false
         },
@@ -1122,7 +1122,7 @@
         {
           "property": "onlineRating",
           "newProperty": "",
-          "mapping": "remove",
+          "mapping": "default",
           "locked": false,
           "wikilink": false
         },

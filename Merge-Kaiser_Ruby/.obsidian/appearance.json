@@ -1,6 +1,6 @@
 {
-  "theme": "obsidian",
-  "cssTheme": "",
+  "theme": "moonstone",
+  "cssTheme": "Cupertino",
   "accentColor": "#d48740",
   "baseFontSizeAction": true,
   "baseFontSize": 23,
@@ -13,6 +13,6 @@
     "MCL Wide Views",
     "bases"
   ],
-  "textFontFamily": "Arial",
-  "showRibbon": true
+  "textFontFamily": "Arial,Verdana",
+  "showRibbon": false
 }

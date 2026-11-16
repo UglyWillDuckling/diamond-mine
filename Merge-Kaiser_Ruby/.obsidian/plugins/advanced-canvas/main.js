@@ -4677,6 +4677,7 @@ var PresentationCanvasExtension = class extends CanvasExtension {
     this.isPresentationMode = false;
     this.visitedNodeIds = [];
     this.traveledEdges = [];
+    this.fullscreenListener = null;
     this.fullscreenModalObserver = null;
     this.presentationUsesFullscreen = false;
   }
@@ -4924,10 +4925,11 @@ var PresentationCanvasExtension = class extends CanvasExtension {
         if (inputField) inputField.focus();
       });
       this.fullscreenModalObserver.observe(activeDocument.body, { childList: true });
-      canvas.wrapperEl.onfullscreenchange = (_e) => {
+      this.fullscreenListener = (_e) => {
         if (activeDocument.fullscreenElement) return;
         this.endPresentation(canvas);
       };
+      activeDocument.addEventListener("fullscreenchange", this.fullscreenListener);
     }
     this.isPresentationMode = true;
     if (this.presentationUsesFullscreen)
@@ -4944,7 +4946,8 @@ var PresentationCanvasExtension = class extends CanvasExtension {
     if (this.presentationUsesFullscreen) {
       (_a = this.fullscreenModalObserver) == null ? void 0 : _a.disconnect();
       this.fullscreenModalObserver = null;
-      canvas.wrapperEl.onfullscreenchange = null;
+      activeDocument.removeEventListener("fullscreenchange", this.fullscreenListener);
+      this.fullscreenListener = null;
       if (activeDocument.fullscreenElement) void activeDocument.exitFullscreen();
     }
     canvas.wrapperEl.onkeydown = null;
@@ -5895,6 +5898,10 @@ var PortalsCanvasExtension = class _PortalsCanvasExtension extends CanvasExtensi
       (canvas, data) => this.onGetData(canvas, data)
     ));
     this.plugin.registerEvent(this.plugin.app.workspace.on(
+      "advanced-canvas:copy",
+      (canvas, selectionData) => this.onCopy(canvas, selectionData)
+    ));
+    this.plugin.registerEvent(this.plugin.app.workspace.on(
       "advanced-canvas:data-loaded:before",
       (canvas, data, setData) => {
         this.onSetData(canvas, data).then((newData) => {
@@ -6122,6 +6129,17 @@ var PortalsCanvasExtension = class _PortalsCanvasExtension extends CanvasExtensi
     portalNodeData.width = targetSize.width;
     portalNodeData.height = targetSize.height;
     return addedData;
+  }
+  onCopy(canvas, data) {
+    for (const nodeData of data.nodes) {
+      if (nodeData.type !== "file") continue;
+      const fileNodeData = nodeData;
+      if (!fileNodeData.portal) continue;
+      fileNodeData.portal = false;
+      fileNodeData.isPortalLoaded = false;
+      if (fileNodeData.interdimensionalEdges)
+        fileNodeData.interdimensionalEdges = [];
+    }
   }
   // Helper functions
   getPortalSize(sourceBBox) {

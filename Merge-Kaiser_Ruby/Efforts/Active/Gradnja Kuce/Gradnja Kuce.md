@@ -7,31 +7,32 @@ tags:
 ---
 ## Trenutna situacija
 
-Platit ćemo strojarima kad naprave obračun. 
-Sutra ćemo see naći s **Viktorom**.
+Radimo na [[popravak hidroizolacije]]. Prije glazure trebamo pokrpati rupe u ploči.
 
-Sada trebamo popraviti **hidroizolaciju** u prizemlju sto ce nam omoguciti da krenemo s podnim grijanjem tamo.
+[[Mario Kos]] je bio na gradilistu. Preporuka je keramika unutra. Trebamo dogovoriti sto ce biti na stepenicama unutra.
 
-Takoder, trebamo dogovoriti glazuru za kat i planirati glazuru za prizemlje.
-**Unutrasnje stepenice** ce biti ok, ici ce glazura. [[Cabraja]] ne radi to, ali ce se raspitati.
-
-- [[Kovačić Gradnja]] - ponuda je jako visoka i ne odgovara ni priblizno prosjeku u Hrvatskoj
-- Sastanak s Izortom je bio [[Izoart dolazak • gradilište • hidroizolacija 31.10]]
-- Bio je [[ArtX]], sve je popravljeno, [[popravak stolarije • Artx dolazak 30.10]]
+- Dosla je ponuda za plocice, 1200x1200. [[ponuda za plocice]]
+- [[Staklo projekt]] ugraduje ograde tiplovima. Nije potrebna priprema u ploci.
+- Rine ce se napraviti sljedeci tjedan [[Atlas/Life/People/Viktor Hmilevski|Viktor]].
 
 ## ⏭ next actions
 
-- [/] #task provjeriti rine, [[Efforts/Active/Gradnja Kuce/docs/Viktor Hmilevski|Viktor]] 📅 2026-11-06
-- [/] #task [[popravak hidroizolacije]] • [[izoart]] ⏫ ⏳ 2026-11-01 📅 2026-11-12
+- [x] #task odluciti koja obloga ce biti na unutarnjim stepenicama ⏫ 📅 2026-11-13 ✅ 2026-11-14
+- [x] #task razgovarati o ogradi kod stepenica, [[Staklo projekt]] 🔼 📅 2026-11-12 ✅ 2026-11-12
 
 ## ✔ tasks
+- [x] #task dogovoriti **glazuru** za kat, [[Cabraja]] ⏫ ⏳ 2026-10-28 📅 2026-11-13 ✅ 2026-11-14
 
+- [x] #task vidjeti s Kosom kako bi s kamenom
+- [x] #task dogovoriti dolazak na gradilište [[Cabraja]]
+- [x] #task sastanak s [[Danijel Bucan]] u Ponedjeljak ⏳ 2026-11-09 📅 2026-11-09 ✅ 2026-11-10
+
+- [x] #task provjeriti rine, [[Efforts/Active/Gradnja Kuce/docs/Viktor Hmilevski|Viktor]] 📅 2026-11-06
+
+- [ ] #task platiti za visak staklo [[ArtX]] 📅 2026-11-20
 - [ ] #task platiti strojare za kat
 
-- [ ] #task platiti za visak staklo [[ArtX]] 📅 2026-11-06
-- [/] #task  dogovoriti glazuru za kat, [[Cabraja]] ⏫ ⏳ 2026-10-28 📅 2026-11-02
-- [ ] #task priprema za ogradu kod stepenica -> pitati 🔼 📅 2026-10-26
-
+- [x] #task priprema za ogradu kod stepenica -> pitati 🔼 📅 2026-10-26
 - [x] #task stolarija, **popravak** u petak 🪟 📅 2026-10-30 ✅ 2026-10-30
 	- [x] [[popravak stolarije • Artx dolazak 30.10]]
 - [x] #task platiti [[Drago Montex|Drago]] 🔼 ⏳ 2026-10-27 📅 2026-10-28 ✅ 2026-10-29
@@ -51,11 +52,13 @@ Takoder, trebamo dogovoriti glazuru za kat i planirati glazuru za prizemlje.
 - [[Traženje ponude za zid, stepenice, kolni prilaz]]
 - [[stepenice Kuća]]
 - [[Stepenice generalno]]
+- [[Izvedba terase]]
 
 ## Odluke
 > ==🟡uvijek dodati datum za odluke==
 
 - [[2026-11-04]] hidroizolaciju cemo pokusati popraviti sami
+- 
 
 ## :LiPartyPopper: Events
 

@@ -1,7 +1,7 @@
 ---
 priority: 6
 value: 6
-status: Active
+status: Planning
 tags:
   - project
 links:

@@ -7,6 +7,9 @@
   "setCreatedDate": false,
   "setDoneDate": true,
   "setCancelledDate": true,
+  "postpone": {
+    "dateField": "due-scheduled-start"
+  },
   "autoSuggestInEditor": false,
   "autoSuggestMinMatch": 0,
   "autoSuggestMaxItems": 20,
@@ -18,6 +21,9 @@
   "removeScheduledDateOnRecurrence": false,
   "searchResults": {
     "taskCountLocation": "bottom"
+  },
+  "quickSearch": {
+    "fuzzyMatching": true
   },
   "statusSettings": {
     "coreStatuses": [
@@ -59,20 +65,15 @@
     "due": true,
     "scheduled": true,
     "start": true,
-    "before_this": true,
-    "after_this": true,
+    "before_this": false,
+    "after_this": false,
     "status": true,
     "created": true,
-    "done": true,
-    "cancelled": true
+    "done": false,
+    "cancelled": false
   },
-  "features": {
-    "INTERNAL_TESTING_ENABLED_BY_DEFAULT": true
-  },
-  "generalSettings": {},
-  "headingOpened": {
-    "Core Statuses": true,
-    "Custom Statuses": true
+  "dismissedNotices": {
+    "live-preview-callout-warning": false
   },
   "debugSettings": {
     "ignoreSortInstructions": false,

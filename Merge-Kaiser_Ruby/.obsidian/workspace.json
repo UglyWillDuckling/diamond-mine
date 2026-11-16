@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "fb6cdd8140c06027",
+        "id": "3290eceb606d63a5",
         "type": "tabs",
         "children": [
           {
-            "id": "e825dff538879f14",
+            "id": "917dc15e2bd30422",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "HOME.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "HOME"
+            }
+          },
+          {
+            "id": "0403f505fb3ee5d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "~/%/project template.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "project template"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.9205322265625
+    "width": 292.8333435058594,
+    "collapsed": true
   },
   "right": {
     "id": "879c4c46c01c5375",
@@ -156,8 +176,8 @@
             "state": {
               "type": "property-values-browser",
               "state": {},
-              "icon": "list-tree",
-              "title": "Property Values"
+              "icon": "lucide-ghost",
+              "title": "property-values-browser"
             }
           },
           {
@@ -173,17 +193,27 @@
             }
           },
           {
-            "id": "f5424dc4b97a5813",
+            "id": "8749ccf87ed8397f",
+            "type": "leaf",
+            "state": {
+              "type": "annotations-outline",
+              "state": {},
+              "icon": "message-square",
+              "title": "Enhanced Annotations"
+            }
+          },
+          {
+            "id": "01eb6802b4cb2616",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "reminder-list"
+              "icon": "clock",
+              "title": "Reminders"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -192,6 +222,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "quickadd:QuickAdd": false,
+      "obsidian-day-and-night:Toggle Theme": false,
+      "chronology:Open Chronology": false,
       "publish:Publish changes...": true,
       "bases:Create new base": true,
       "switcher:Open quick switcher": true,
@@ -199,75 +232,70 @@
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "workspaces:Manage workspace layouts": true,
-      "obsidian42-brat:BRAT": true,
-      "open-gate:hyprland": true,
-      "game-search:Create new game note": true,
-      "digitalgarden:Digital Garden Publication Center": true,
-      "bulk-properties:Bulk edit selected notes": true,
-      "property-values-browser:Open browser": true,
+      "graph:Open graph view": true,
+      "callout-manager:Insert Callout": true,
+      "templater-obsidian:Templater": true,
+      "obsidian-media-db-plugin:Add new Media DB entry": true,
       "daily-notes:Open today's daily note": false,
-      "graph:Open graph view": false,
-      "callout-manager:Insert Callout": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-import-json:JSON/CSV Importer": false,
-      "obsidian-importer:Import notes": false,
-      "obsidian-media-db-plugin:Add new Media DB entry": false
+      "task-board:Open task board": true,
+      "game-search:Create new game note": true,
+      "hello-plugin:Update Base Items": true
     }
   },
-  "active": "e825dff538879f14",
+  "active": "0403f505fb3ee5d5",
   "lastOpenFiles": [
-    "how to use Tasks Board.md",
-    "HOME.md",
-    "🏡 HOME.md",
-    "Underrated PS2 Classics.md",
-    "Efforts/Ideas/Setup Tasks Board Plugin.md",
-    "Efforts/Projects.base",
-    "Efforts/_Complete/Article Rating.md",
-    "Efforts/Ongoing/Upcoming birthdays List Project.md",
-    "Efforts/Ideas/Opravdati troskove Firme Bitscript/Opravdati troskove Firme Bitscript.md",
-    "Efforts/Active/Otvaranje firme 🏤 Bitscript.md",
-    "Efforts/Active/PS2 Setup/PS2 Setup.md",
-    "Atlas/howtos/How to change the shell.md",
-    "Efforts/tasks/inbox/2026-11-studeni.md",
-    "Efforts/Active/Migrate to Owncloud OCIS.md",
-    "Atlas/Life/physical items/owncloud server.md",
-    "Atlas/Life/Virtual Items",
-    "Efforts/Ideas/Import Notes From Obsidian.md",
+    "Atlas/Life/notes/templates/New Project template.md",
+    "Calendar/daily/2026/2026-11-16-Mon.md",
+    "Efforts/Active/Gradnja Kuce/dijelovi/plocice za kucu.md",
     "Efforts/Active/Gradnja Kuce/Gradnja Kuce.md",
-    "+/ps2 download games list.md",
-    "Calendar/daily/2025/2025-01-18.md",
-    "Atlas/Notes/katarina Peovic n1 - Thompson.md",
-    "Efforts/Simmering/Learn Pokemon Gen 2.md",
-    "Atlas/Knowledge/Media/Writings/Authors/Ursula K. Le Guin.md",
-    "Efforts/Active/Mass Update Plugin in Obsidian/Mass Update Plugin in Obsidian.md",
+    "Efforts/Active/Gradnja Kuce/Ponude za Pločice.md",
+    "HOME.md",
+    "Untitled.md",
+    "Efforts/Projects.base",
+    "Efforts/Active/Gradnja Kuce/popravak hidroizolacije.md",
+    "AGENTS.md",
+    "+/svjetlo u kuhinji.md",
+    "Atlas/Knowledge/Media/movies/Hercules (1997).md",
+    "Atlas/Knowledge/Media/movies",
+    "Efforts/Active/Nasljedstvo nad Kucom 🏚️ u Jarmini 🏠/Nasljedstvo nad Kucom 🏚️ u Jarmini 🏠.md",
+    "Efforts/Active/Opravdati troskove Firme Bitscript.md",
+    "Efforts/Active/Opravdati troskove Firme Bitscript/stvari na firmu/auto na firmu.md",
+    "how to use Tasks Board.md",
+    "keys.md",
+    "Efforts/Ideas/Opravdati troskove Firme Bitscript/prebacivanje troskova auta na firmu.md",
+    "Efforts/Active/Gradnja Kuce/docs/kako krpati rupu.md",
+    "Prognoza za studeni.md",
+    "Efforts/Active/Opravdati troskove Firme Bitscript/a1 internet i drugo.md",
+    "Untitled.base",
+    "+/Clippings/Bučnica po bakinom receptu.md",
+    "Master Task List.md",
+    "random.md",
+    "Efforts/tasks/inbox/2026-10-October.md",
+    "Efforts/Active/Opravdati troskove Firme Bitscript/internet na firmu.md",
+    "Efforts/tasks/inbox/2026-11-studeni.md",
+    "Efforts/Ongoing/organizacija radnog prostora",
+    "~/×/8db0e35554932a6e74396a9931f7abb3_MD5.png",
+    "~/×/b16c33ef7704fa76e8402d14dbda1d5c_MD5.gif",
+    "~/×/b2b9693b3846426a925a33fd20b8f473_MD5.jpg",
+    "~/×/75964efd1d9067751c51bb6088d69544_MD5.gif",
+    "~/×/051c8f00823cae48084906022f311c9a_MD5.jpg",
+    "~/×/6c7e78b2fe236ee3f0b1b5baa4ab70aa_MD5.jpg",
+    "~/×/6ae8987a1fd126cd757890f0b93a4f94_MD5.jpg",
+    "~/×/333db6f8565d32dd43e800ec7644a01f_MD5.jpg",
+    "~/×/645e273c20e7188bccc6e4d67745d6f2_MD5.webp",
+    "~/×/8d4fb9f956bccc16611e43374e3c72fc_MD5.jpg",
+    "Meta/Task_Board/Boards",
+    "Meta/Task_Board",
+    "Meta",
+    "Atlas/Life/Virtual Items",
     "Efforts/Active/Mass Update Plugin in Obsidian/start.base",
-    "Atlas/Life/obrt/dokumentacija za obrt.md",
-    "Efforts/_Ongoing/Zdravlje/Zdravlje.md",
-    "Atlas/Knowledge/Media/Articles/Program Development by Stepwise Refinement.md",
-    "Calendar/daily/2025/2025-01-22.md",
     "Efforts/_Ongoing/archive",
     "Efforts/Task Map.canvas",
-    "Efforts/Active/Video Games.base",
-    "Atlas/Knowledge/Media/movies canvas/movies base.base",
     "tasks canvas.canvas",
-    "Calendar/Events/Events.base",
     "Atlas/Knowledge/Media/movies canvas/movies canvas.canvas",
-    "Calendar/Events/_tmp.base",
-    "Efforts/Ideas/Opravdati troskove Firme Bitscript",
-    "Efforts/Ideas/Opravdati troskove Firme Bitscript/stvari na firmu",
     "Efforts/Simmering/Obsidian Tinkering/canvas/experiment.canvas",
     "Efforts/tasks/archive/archive 1/action.canvas",
     "Efforts/tasks/archive/archive/action.canvas",
-    "~/×/Screenshot_20260920_090455_GitHub.jpg",
-    "~/×/Pasted image 20260920231213.png",
-    "~/×/Pasted image 20260827220440.png",
-    "~/×/Pasted image 20260901224649.png",
-    "~/×/Pasted image 20260901223959.png",
-    "~/×/Pasted image 20260830111804.png",
-    "~/×/Pasted image 20260828214550.png",
-    "~/×/Pasted image 20260828210946.png",
-    "~/×/Pasted image 20260828210430.png",
-    "~/×/Pasted image 20260828210302.png",
     "Atlas/Life/Faks/Predmeti/Baze Podataka predmet/baze - seminar - imovina.canvas",
     "Efforts/Active/Gradnja Kuce/Faze gradnje.canvas",
     "ff.canvas",

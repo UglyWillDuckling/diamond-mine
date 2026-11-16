@@ -22,3 +22,5 @@ Trgovacki Sud: Osijek
 
 Vladimir Sedlar
 OIB: 48329403832
+
+378 714 132 19

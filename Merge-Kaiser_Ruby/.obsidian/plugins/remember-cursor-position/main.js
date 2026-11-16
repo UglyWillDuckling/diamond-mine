@@ -60,6 +60,10 @@ const LAYOUT_READY_RESTORE_DELAY = 600;
 // Window during which a detected workspace load suppresses position restoration
 // when the "restore on workspace load" option is disabled.
 const WORKSPACE_LOAD_WINDOW_MS = 3000;
+// Throttle for the position check: at most one per 100 ms after a scroll or
+// selection event. It equals the period of the polling it replaces, so a quick
+// note switch loses no more than it did before.
+const STATE_CHECK_THROTTLE_MS = 100;
 // Debounce for workspace layout change handling.
 const LAYOUT_CHANGE_DEBOUNCE_MS = 250;
 function globToRegex(glob) {
@@ -105,10 +109,18 @@ class RememberCursorPosition extends obsidian.Plugin {
         super(...arguments);
         this.lastRestoredLeafFile = '';
         this.lastRestoredAt = 0;
+        // File each visible pane was last seen showing. Obsidian reports a focus
+        // change inside a pane that already shows a note as a `file-open` for that
+        // note, so this map tells a real open apart from a mere focus change.
+        this.shownFiles = new WeakMap();
         this.loadingFile = false;
+        this.stateCheckTimer = 0;
+        this.unloaded = false;
         this.lastKnownMarkdownFiles = new Set();
         this.workspaceLoadUntil = 0;
         this.pendingWorkspaceRestore = false;
+        this.startupPending = true;
+        this.layoutReadyTimer = 0;
         this.excludedPatterns = [];
         this.excludedPatternsCache = '';
     }
@@ -117,7 +129,6 @@ class RememberCursorPosition extends obsidian.Plugin {
             yield this.loadSettings();
             try {
                 this.db = yield this.readDb();
-                this.pruneDb();
                 this.lastSavedDb = yield this.readDb();
             }
             catch (e) {
@@ -127,35 +138,100 @@ class RememberCursorPosition extends obsidian.Plugin {
             }
             this.addSettingTab(new SettingTab(this.app, this));
             this.registerEvent(this.app.workspace.on('file-open', (file) => this.restoreEphemeralState(file)));
+            // Obsidian fires `file-open` from `activeLeafEvents()` whenever the
+            // active file changes, which includes moving the focus to a pane that
+            // already shows the note. Record what every visible pane shows before a
+            // click or a focus change, so that `restoreEphemeralState()` can tell the
+            // two cases apart.
+            const rememberBeforeFocusChange = () => {
+                this.flushStateCheck();
+                this.rememberShownFiles(null);
+            };
+            this.registerDomEvent(document, 'pointerdown', rememberBeforeFocusChange, { capture: true });
+            this.registerEvent(this.app.workspace.on('window-open', (win) => this.registerDomEvent(win.doc, 'pointerdown', rememberBeforeFocusChange, { capture: true })));
+            this.registerEvent(this.app.workspace.on('active-leaf-change', (leaf) => this.rememberShownFiles(leaf)));
             this.registerEvent(this.app.workspace.on('layout-change', () => this.onLayoutChanged()));
-            this.registerEvent(this.app.workspace.on('quit', () => { this.writeDb(this.db); }));
+            this.registerEvent(this.app.workspace.on('quit', () => this.flushState()));
             this.registerEvent(this.app.vault.on('rename', (file, oldPath) => this.renameFile(file, oldPath)));
             this.registerEvent(this.app.vault.on('delete', (file) => this.deleteFile(file)));
-            //todo: replace by scroll and mouse cursor move events
-            this.registerInterval(window.setInterval(() => this.checkEphemeralStateChanged(), 100));
+            // Track the position on scroll and selection events instead of polling.
+            // `scroll` does not bubble, so it is caught in the capture phase. Windows
+            // opened later (popouts) get the same listeners.
+            const scheduleStateCheck = () => this.scheduleStateCheck();
+            const trackWindow = (doc) => {
+                this.registerDomEvent(doc, 'scroll', scheduleStateCheck, { capture: true, passive: true });
+                this.registerDomEvent(doc, 'selectionchange', scheduleStateCheck);
+            };
+            trackWindow(document);
+            this.registerEvent(this.app.workspace.on('window-open', (win) => trackWindow(win.doc)));
+            // Mobile may suspend the app without firing `quit`.
+            this.registerDomEvent(document, 'visibilitychange', () => {
+                if (document.visibilityState === 'hidden')
+                    this.flushState();
+            });
+            this.registerDomEvent(window, 'pagehide', () => this.flushState());
             this.saveTimerIntervalId = this.registerInterval(window.setInterval(() => this.writeDb(this.db), this.settings.saveTimer));
             this.app.workspace.onLayoutReady(() => {
-                window.setTimeout(() => {
-                    var _a;
+                this.layoutReadyTimer = window.setTimeout(() => __awaiter(this, void 0, void 0, function* () {
+                    var _a, _b, _c;
+                    // Defer pruning until the vault/workspace is ready, so entries are
+                    // not dropped because files have not been loaded yet.
+                    this.pruneDb();
+                    this.lastSavedDb = yield this.readDb();
                     const activeFile = this.app.workspace.getActiveFile();
-                    if (!activeFile)
-                        return;
                     const leaf = this.app.workspace.getMostRecentLeaf();
                     //@ts-ignore no-official-API
                     const leafId = leaf ? leaf.id : '';
                     //@ts-ignore no-official-API
                     const leafFile = leaf ? (_a = leaf.getViewState().state) === null || _a === void 0 ? void 0 : _a.file : '';
                     const guardKey = leafId + ':' + leafFile;
-                    if (this.lastRestoredLeafFile !== guardKey) {
-                        this.restoreEphemeralState();
+                    // Panes visible at startup count as already shown, except the
+                    // active one, so the forced restore below still runs for it.
+                    this.rememberShownFiles((_c = (_b = this.app.workspace.getActiveViewOfType(obsidian.MarkdownView)) === null || _b === void 0 ? void 0 : _b.leaf) !== null && _c !== void 0 ? _c : null);
+                    // Startup is no longer pending: allow restoration and tracking.
+                    this.startupPending = false;
+                    this.scheduleStateCheck();
+                    if (activeFile && this.lastRestoredLeafFile !== guardKey) {
+                        yield this.restoreEphemeralState();
                     }
-                }, LAYOUT_READY_RESTORE_DELAY);
+                }), LAYOUT_READY_RESTORE_DELAY);
             });
-            this.restoreEphemeralState();
         });
     }
     onunload() {
+        this.unloaded = true;
         window.clearTimeout(this.layoutChangeTimer);
+        window.clearTimeout(this.layoutReadyTimer);
+        window.clearTimeout(this.stateCheckTimer);
+    }
+    // Coalesces bursts of scroll and selection events into one check.
+    scheduleStateCheck() {
+        if (this.unloaded || this.stateCheckTimer)
+            return;
+        this.stateCheckTimer = window.setTimeout(() => {
+            this.stateCheckTimer = 0;
+            if (this.unloaded)
+                return;
+            // A hover preview suppresses tracking only while it is focused.
+            if (this.isHoverPopoverActive()) {
+                this.scheduleStateCheck();
+                return;
+            }
+            this.checkEphemeralStateChanged();
+        }, STATE_CHECK_THROTTLE_MS);
+    }
+    // Records a pending change now, before the active note can change.
+    flushStateCheck() {
+        // With a hover preview focused the check is suppressed, so keep it pending.
+        if (!this.stateCheckTimer || this.isHoverPopoverActive())
+            return;
+        window.clearTimeout(this.stateCheckTimer);
+        this.stateCheckTimer = 0;
+        this.checkEphemeralStateChanged();
+    }
+    flushState() {
+        this.flushStateCheck();
+        this.writeDb(this.db);
     }
     renameFile(file, oldPath) {
         let newName = file.path;
@@ -219,6 +295,17 @@ class RememberCursorPosition extends obsidian.Plugin {
             return false;
         return container.closest('.hover-popover') !== null || container.closest('.hover-editor') !== null;
     }
+    // Records the file of every visible markdown pane, so that a pane which
+    // already shows a note can be told apart from a pane that is about to show
+    // it. Pass the leaf that is about to change when the caller cannot know yet
+    // which file it will display.
+    rememberShownFiles(except) {
+        this.app.workspace.iterateAllLeaves((leaf) => {
+            const view = leaf.view;
+            if (leaf !== except && view instanceof obsidian.MarkdownView && view.file && view.containerEl.offsetParent !== null)
+                this.shownFiles.set(leaf, view.file);
+        });
+    }
     getOpenMarkdownFiles() {
         const files = new Set();
         this.app.workspace.iterateAllLeaves((leaf) => {
@@ -259,6 +346,9 @@ class RememberCursorPosition extends obsidian.Plugin {
     }
     checkEphemeralStateChanged() {
         var _a;
+        // Suppress position tracking until startup restoration has completed.
+        if (this.startupPending)
+            return;
         // Never track positions while a hover preview window is focused.
         if (this.isHoverPopoverActive())
             return;
@@ -312,9 +402,31 @@ class RememberCursorPosition extends obsidian.Plugin {
             }
         });
     }
+    // A restore that is still waiting out its delay must not be applied once
+    // another note has become active: the saved position belongs to the first
+    // note, and applying it would move the cursor of the second one.
+    isStillActive(fileName) {
+        var _a;
+        return ((_a = this.app.workspace.getActiveFile()) === null || _a === void 0 ? void 0 : _a.path) === fileName && this.lastLoadedFileName == fileName;
+    }
+    // Checks that arrived while a note was loading were skipped, and polling
+    // retried them on the next tick, so record the settled state afterwards.
     restoreEphemeralState(file) {
+        return __awaiter(this, void 0, void 0, function* () {
+            try {
+                yield this.restoreEphemeralStateOnce(file);
+            }
+            finally {
+                this.scheduleStateCheck();
+            }
+        });
+    }
+    restoreEphemeralStateOnce(file) {
         var _a, _b;
         return __awaiter(this, void 0, void 0, function* () {
+            // Suppress early restoration until the workspace layout is ready.
+            if (this.startupPending)
+                return;
             let fileName = (_a = this.app.workspace.getActiveFile()) === null || _a === void 0 ? void 0 : _a.path;
             if (fileName && this.loadingFile && this.lastLoadedFileName == fileName) //if already started loading
                 return;
@@ -325,6 +437,21 @@ class RememberCursorPosition extends obsidian.Plugin {
                 if (fileName)
                     delete this.db[fileName];
                 return;
+            }
+            // Focusing a pane that already shows the note is reported as a `file-open`
+            // for the same file. Restoring there would overwrite the cursor and scroll
+            // position the user has just set, and a double click would turn the jump
+            // into a text selection. Start tracking the note instead and leave the
+            // saved position alone.
+            const activeView = this.app.workspace.getActiveViewOfType(obsidian.MarkdownView);
+            if (fileName && (activeView === null || activeView === void 0 ? void 0 : activeView.file) && activeView.file.path === fileName) {
+                const alreadyShown = this.shownFiles.get(activeView.leaf) === activeView.file;
+                this.shownFiles.set(activeView.leaf, activeView.file);
+                if (alreadyShown && this.lastLoadedFileName != fileName) {
+                    this.lastLoadedFileName = fileName;
+                    this.lastEphemeralState = {};
+                    return;
+                }
             }
             // When a workspace is loaded and the user disabled workspace restoration,
             // skip restoring positions during the load window.
@@ -361,6 +488,13 @@ class RememberCursorPosition extends obsidian.Plugin {
                         let containsFlashingSpan = this.app.workspace.containerEl.querySelector('.is-flashing');
                         if (!containsFlashingSpan && !openedFromSearch) {
                             yield this.delay(10);
+                            // The delay can outlive the note: if another file became
+                            // active in the meantime, the saved position belongs to a
+                            // note that is no longer shown.
+                            if (!this.isStillActive(fileName)) {
+                                this.loadingFile = false;
+                                return;
+                            }
                             this.setEphemeralState(st);
                         }
                     }
@@ -369,6 +503,10 @@ class RememberCursorPosition extends obsidian.Plugin {
                         let containsFlashingSpan = this.app.workspace.containerEl.querySelector('.is-flashing');
                         if (!containsFlashingSpan && !openedFromSearch) {
                             yield this.delay(10);
+                            if (!this.isStillActive(fileName)) {
+                                this.loadingFile = false;
+                                return;
+                            }
                             if (this.settings.defaultPosition === 'beginning') {
                                 yield this.setCursorToBeginning(file || this.app.workspace.getActiveFile());
                             }

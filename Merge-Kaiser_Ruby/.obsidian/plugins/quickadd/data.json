@@ -2,11 +2,11 @@
   "choices": [
     {
       "id": "2ad99686-91d4-42a4-9cbe-2e60a36b7eb2",
-      "name": "New Task",
+      "name": "New Task ✅",
       "type": "Capture",
       "command": true,
       "appendLink": false,
-      "captureTo": "Efforts/tasks/inbox/{{DATE:YYYY-MM-MMMM}}.md",
+      "captureTo": "Master Task List.md",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": true,
@@ -39,22 +39,116 @@
         "direction": "vertical",
         "focus": true,
         "mode": "default"
-      },
-      "insertBefore": {
+      }
+    },
+    {
+      "id": "848276cd-9c8a-4484-a18f-edc7ecf1974a",
+      "name": "New",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
         "enabled": false,
-        "before": "",
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": false,
+        "format": ""
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
         "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
       },
-      "activeFileWritePosition": "cursor",
-      "captureToCanvasNodeId": "",
-      "icon": "check-square"
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "focus": true,
+        "mode": "default"
+      }
+    },
+    {
+      "id": "06943143-b59e-4c64-9798-6c28ad910fdc",
+      "name": "book",
+      "type": "Macro",
+      "command": true,
+      "macro": {
+        "id": "03030d5f-1ce3-44b1-99dd-9d28a24ce657",
+        "name": "book",
+        "commands": [
+          {
+            "name": "BookFinder",
+            "type": "UserScript",
+            "id": "2cf20d04-90e8-41a4-a0dc-fc9a00f13b0a",
+            "path": "notes/scripts/BookFinder.js",
+            "settings": {}
+          },
+          {
+            "name": "template",
+            "type": "NestedChoice",
+            "id": "4464dffe-1fef-48b8-8ab6-aacadf5dcb7b",
+            "choice": {
+              "id": "50b38f4d-7f65-4a9c-ae86-b58c82ad8b85",
+              "name": "template",
+              "type": "Template",
+              "command": false,
+              "templatePath": "Atlas/Knowledge/templates/book template.md",
+              "fileNameFormat": {
+                "enabled": false,
+                "format": ""
+              },
+              "folder": {
+                "enabled": true,
+                "folders": [
+                  "Atlas/Knowledge/Media/Books"
+                ],
+                "chooseWhenCreatingNote": false,
+                "createInSameFolderAsActiveFile": false,
+                "chooseFromSubfolders": false
+              },
+              "appendLink": false,
+              "openFileInNewTab": {
+                "enabled": true,
+                "direction": "vertical",
+                "focus": true
+              },
+              "openFile": true,
+              "openFileInMode": "default",
+              "fileExistsBehavior": {
+                "kind": "prompt"
+              },
+              "fileOpening": {
+                "location": "split",
+                "direction": "vertical",
+                "focus": true,
+                "mode": "default"
+              }
+            }
+          }
+        ]
+      },
+      "runOnStartup": false
     },
     {
       "id": "c406b8bf-deaa-4cde-bf01-6f774a8be45c",
       "name": "Thought 💭",
       "type": "Capture",
-      "command": false,
+      "command": true,
       "appendLink": false,
       "captureTo": "",
       "captureToActiveFile": false,
@@ -89,17 +183,15 @@
         "direction": "vertical",
         "focus": true,
         "mode": "default"
-      },
-      "captureToCanvasNodeId": "",
-      "activeFileWritePosition": "cursor"
+      }
     },
     {
       "id": "2106a06d-b20e-4930-a349-2a574b939ac9",
-      "name": "Log 🪵",
+      "name": "Log",
       "type": "Capture",
-      "command": false,
+      "command": true,
       "appendLink": false,
-      "captureTo": "Calendar/daily/{{DATE:YYYY}}/{{DATE:YYYY-MM-DD-ddd}}.md",
+      "captureTo": "Calendar/daily/{{DATE:YYYY}}/",
       "captureToActiveFile": false,
       "createFileIfItDoesntExist": {
         "enabled": false,
@@ -107,15 +199,15 @@
         "template": ""
       },
       "format": {
-        "enabled": true,
-        "format": "- {{value}}\n"
+        "enabled": false,
+        "format": ""
       },
       "insertAfter": {
-        "enabled": true,
-        "after": "## Log",
+        "enabled": false,
+        "after": "",
         "insertAtEnd": false,
         "considerSubsections": false,
-        "createIfNotFound": true,
+        "createIfNotFound": false,
         "createIfNotFoundLocation": "top"
       },
       "prepend": false,
@@ -132,187 +224,7 @@
         "direction": "vertical",
         "focus": true,
         "mode": "default"
-      },
-      "activeFileWritePosition": "cursor",
-      "newLineCapture": {
-        "enabled": false,
-        "direction": "below"
       }
-    },
-    {
-      "id": "b2c5d4fb-6b47-4c2d-8963-14609cb0cc3a",
-      "name": "daily task",
-      "type": "Capture",
-      "command": false,
-      "appendLink": false,
-      "copyLinkToClipboard": false,
-      "captureTo": "Calendar/daily/{{DATE:YYYY}}/{{DATE:YYYY-MM-DD-ddd}}.md",
-      "captureToActiveFile": false,
-      "captureToCanvasNodeId": "",
-      "activeFileWritePosition": "cursor",
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": false,
-        "format": "- {{value}}\n"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "##### 🚀 One+ thing I plan to accomplish today is...",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": true,
-        "createIfNotFoundLocation": "bottom",
-        "inline": false,
-        "replaceExisting": false,
-        "promptHeading": false,
-        "blankLineAfterMatchMode": "auto"
-      },
-      "insertBefore": {
-        "enabled": false,
-        "before": "",
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "newLineCapture": {
-        "enabled": false,
-        "direction": "below"
-      },
-      "prepend": false,
-      "task": true,
-      "openFile": true,
-      "fileOpening": {
-        "location": "tab",
-        "direction": "vertical",
-        "focus": true,
-        "mode": "default"
-      },
-      "templater": {
-        "afterCapture": "none"
-      },
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFileInMode": "default",
-      "icon": "box"
-    },
-    {
-      "id": "8c2e53f4-8431-470d-a086-f8e00c73bf71",
-      "name": "link in daily 🔗",
-      "type": "Capture",
-      "command": false,
-      "appendLink": false,
-      "captureTo": "Calendar/daily/{{DATE:YYYY}}/{{DATE:YYYY-MM-DD-ddd}}.md",
-      "captureToActiveFile": false,
-      "activeFileWritePosition": "cursor",
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{LINKCURRENT}}"
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": false,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "newLineCapture": {
-        "enabled": false,
-        "direction": "below"
-      },
-      "prepend": true,
-      "task": false,
-      "openFile": true,
-      "fileOpening": {
-        "location": "tab",
-        "direction": "vertical",
-        "mode": "default",
-        "focus": true
-      },
-      "templater": {
-        "afterCapture": "none"
-      }
-    },
-    {
-      "id": "a596df8f-397c-4ae9-9829-a979c5ee6cae",
-      "name": "action",
-      "type": "Template",
-      "command": true,
-      "templatePath": "~/%/action template.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "Calendar/actions/2026"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": {
-        "enabled": true,
-        "placement": "replaceSelection",
-        "requireActiveFile": false,
-        "linkType": "link"
-      },
-      "openFile": true,
-      "fileOpening": {
-        "location": "tab",
-        "direction": "vertical",
-        "mode": "default",
-        "focus": true
-      },
-      "fileExistsBehavior": {
-        "kind": "prompt"
-      }
-    },
-    {
-      "id": "9bdbb45b-5a47-40bb-a1d2-5f7ffa721e58",
-      "name": "New Project 🔼",
-      "type": "Template",
-      "command": false,
-      "templatePath": "~/%/project template.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "discoverExistingNotesBeforeCreate": false,
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "Efforts/Ideas"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "copyLinkToClipboard": false,
-      "openFile": true,
-      "fileOpening": {
-        "location": "tab",
-        "direction": "vertical",
-        "mode": "default",
-        "focus": true
-      },
-      "fileExistsBehavior": {
-        "kind": "prompt"
-      },
-      "icon": "airplay"
     }
   ],
   "inputPrompt": "single-line",
@@ -324,12 +236,12 @@
   "devMode": false,
   "templateFolderPaths": [],
   "announceUpdates": "all",
-  "version": "2.33.1",
+  "version": "2.33.2",
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
   "enableUriCallbacks": false,
-  "enableRibbonIcon": false,
+  "enableRibbonIcon": true,
   "showCaptureNotification": true,
   "showInputCancellationNotification": false,
   "enableTemplatePropertyTypes": false,
@@ -393,6 +305,42 @@
             "supportsTemperature": true
           },
           {
+            "name": "gpt-6-sol",
+            "maxTokens": 1050000,
+            "maxOutputTokens": 128000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "gpt-6-luna",
+            "maxTokens": 1050000,
+            "maxOutputTokens": 128000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "gpt-6-astra",
+            "maxTokens": 1050000,
+            "maxOutputTokens": 128000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "gpt-5.6-sol",
+            "maxTokens": 1050000,
+            "maxOutputTokens": 128000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "gpt-5.6-luna",
+            "maxTokens": 1050000,
+            "maxOutputTokens": 128000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "gpt-5.6-terra",
+            "maxTokens": 1050000,
+            "maxOutputTokens": 128000,
+            "supportsTemperature": false
+          },
+          {
             "name": "gpt-5.5",
             "maxTokens": 1050000,
             "maxOutputTokens": 128000,
@@ -402,19 +350,19 @@
             "name": "gpt-5.4",
             "maxTokens": 1050000,
             "maxOutputTokens": 128000,
-            "supportsTemperature": false
+            "supportsTemperature": true
           },
           {
             "name": "gpt-5.4-mini",
             "maxTokens": 400000,
             "maxOutputTokens": 128000,
-            "supportsTemperature": false
+            "supportsTemperature": true
           },
           {
             "name": "gpt-5.4-nano",
             "maxTokens": 400000,
             "maxOutputTokens": 128000,
-            "supportsTemperature": false
+            "supportsTemperature": true
           },
           {
             "name": "gpt-4.1",
@@ -441,9 +389,9 @@
             "supportsTemperature": false
           }
         ],
+        "id": "openai",
         "modelSource": "modelsDev",
-        "autoSyncModels": true,
-        "id": "openai"
+        "autoSyncModels": true
       }
     ]
   },
@@ -456,11 +404,11 @@
     "addDefaultAIProviders": true,
     "removeMacroIndirection": true,
     "migrateFileOpeningSettings": true,
-    "setProviderModelDiscoveryMode": true,
-    "backfillFileOpeningDefaults": true,
-    "migrateProviderApiKeysToSecretStorage": true,
     "consolidateFileExistsBehavior": true,
     "repairTemplateFileExistsBehavior": true,
+    "backfillFileOpeningDefaults": true,
+    "setProviderModelDiscoveryMode": true,
+    "migrateProviderApiKeysToSecretStorage": true,
     "migrateToMultipleTemplateFolders": true,
     "refreshStaleDefaultModelSeeds": true,
     "pinAiModelRefs": true
